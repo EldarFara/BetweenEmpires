@@ -1,0 +1,65 @@
+﻿qst_deliver_message|Üzenet kézbesítése {s13} számára
+qst_deliver_message_to_enemy_lord|Üzenet kézbesítése {s13} számára
+qst_raise_troops|{reg1} {s14} kiképzése
+qst_escort_lady|{s13} elkísérése; célállomás: {s14}
+qst_deal_with_bandits_at_lords_village|Mentsd meg {s15} falut a  portyázó Zsiványoktól
+qst_collect_taxes|Gyűjtsd be {s3} adóit
+qst_hunt_down_fugitive|{s4} elfogása
+qst_kill_local_merchant|Öld meg a helyi kereskedőt {s3} helységben
+qst_bring_back_runaway_serfs|Hozd vissza a szökevény jobbágyokat
+qst_follow_spy|Kövesd a kémet a megbízójával megbeszélt találkozóra
+qst_capture_enemy_hero|Rabold el {s13} egyik nemesurát
+qst_lend_companion|Add kölcsön {s3} társadat {s9} részére
+qst_collect_debt|Gyűjtsd be {s3} {s9} felé fennálló tartozását
+qst_incriminate_loyal_commander|{s16}, {s13} hűséges parancsnoka gyanúba kell, hogy keveredjék
+qst_meet_spy_in_enemy_town|Találkozz a kémmel; helyszín: {s13}
+qst_capture_prisoners|Szerezz {reg1} {s3} foglyot
+qst_lend_surgeon|Felcsered, {s3} {s1} rendelkezésére bocsátása
+qst_follow_army|Kövesd {s9} hadseregét!
+qst_report_to_army|Jelents {s13} tábornagyának
+qst_deliver_cattle_to_army|{reg3} szarvasmarha leszállítása; cél: {s13}
+qst_join_siege_with_army|Csatlakozz {s14} ostromához
+qst_screen_army|{s13} seregének fedezése előrenyomulás közben
+qst_scout_waypoints|{s13}, {s14} és {s15} felderítése
+qst_rescue_lord_by_replace|{s13} kiszabadítása {s14} tömlöcéből
+qst_deliver_message_to_prisoner_lord|Juttass el üzenetet {s13} részére; célállomás: {s14}
+qst_duel_for_lady|{s13} kihívása párviadalra
+qst_duel_courtship_rival|{s13} kihívása párviadalra (választható)
+qst_duel_avenge_insult|{s13} kihívása párviadalra
+qst_move_cattle_herd|A marhagulya leszállítása; célállomás:  {s13}
+qst_escort_merchant_caravan|Kísérd el a kereskedőkaravánt; célállomás: {s8}
+qst_deliver_wine|{reg5} egységnyi {s6} bor leszállítása; célállomás: {s4}
+qst_troublesome_bandits|Intézd el a veszélyes zsiványokat
+qst_kidnapped_girl|Váltsd ki a zsiványoktól az elrabolt lányt
+qst_persuade_lords_to_make_peace|Gondoskodj róla, hogy az urak nem tesznek keresztbe a békekötésnek
+qst_deal_with_looters|Számolj le a fosztogatókkal
+qst_deal_with_night_bandits|Számolj le az éjszakai zsiványokkal
+qst_deliver_grain|Vigyél búzát {s3} részére
+qst_deliver_cattle|Vigyél {reg5} szarvasmarhát {s3} faluba
+qst_train_peasants_against_bandits|Képezd ki {s13} jobbágyait a zsiványok ellen
+qst_eliminate_bandits_infesting_village|Szabadítsd meg {s7} falut a portyázó zsiványoktól
+qst_visit_lady|Hölgy meglátogatása
+qst_formal_marriage_proposal|Hivatalos házassági ajánlat
+qst_obtain_liege_blessing|Hivatalos házassági ajánlat
+qst_wed_betrothed|Megházasodás
+qst_wed_betrothed_female|Megházasodás
+qst_join_faction|Tégy hűségesküt {s1} részére
+qst_rebel_against_kingdom|Segíts {s13} törekvésében, hogy megszerezze {s14} trónját!
+qst_consult_with_minister|Egyeztetés a kancellárral
+qst_organize_feast|Lakoma rendezése
+qst_resolve_dispute|Vita eldöntése
+qst_offer_gift|Ajándék felajánlása
+qst_denounce_lord|Főúr leleplezése
+qst_intrigue_against_lord|Ármánykodás főúr ellen
+qst_track_down_bandits|Zsiványok előkerítése
+qst_track_down_provocateurs|Provokátorok előkerítése
+qst_retaliate_for_border_incident|Állj bosszút a határsértésért!
+qst_raid_caravan_to_start_war|Támadj meg semleges karavánt, így provokálva ki háborút
+qst_cause_provocation|Provokáld ki, hogy az egyik királyság megtámadja a másikat
+qst_rescue_prisoner|Szabadíts ki, vagy válts ki egy rabot
+qst_destroy_bandit_lair|Számold fel a zsiványok búvóhelyét
+qst_collect_men|Gyűjts össze öt embert
+qst_learn_where_merchant_brother_is|Derítsd ki, hogy hol tartják fogva a túszokat
+qst_save_relative_of_merchant|Támadd meg a zsiványok búvóhelyét
+qst_save_town_from_bandits|Szabadítsd meg a várost a zsiványoktól
+qst_quests_end|Küldetések vége

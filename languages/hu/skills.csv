@@ -1,0 +1,84 @@
+﻿skl_trade|Kereskedelem
+skl_trade_desc|A képesség minden szintje után 5%%-kal jobb ár/érték arányban kereskedhetsz. (sereg szintű képesség)
+skl_leadership|Vezetői képesség
+skl_leadership_desc|Minden pontja 5 fővel növeli az irányítható egységek maximális számát, javítja a sereg hangulatát és 5%%-kal csökkenti a zsoldokat. (vezetői képesség)
+skl_prisoner_management|Fogolytartás
+skl_prisoner_management_desc|A képesség minden szintje  %d%%-kal növeli az általad tartható foglyok számát.  (vezetői képesség)
+skl_reserved_1|Fenntartott képesség
+skl_reserved_1_desc|Fenntartott képesség.
+skl_reserved_2|Fenntartott képesség
+skl_reserved_2_desc|Fenntartott képesség.
+skl_reserved_3|Fenntartott képesség
+skl_reserved_3_desc|Fenntartott képesség.
+skl_reserved_4|Fenntartott képesség
+skl_reserved_4_desc|Fenntartott képesség.
+skl_persuasion|Meggyőzés
+skl_persuasion_desc|Ez a képesség segít másokat meggyőzni nézeteid helyességéről. Emellett csökkenti a szükséges minimum kapcsolati szintet, amelynek segítségével az embereket rá tudod venni arra, amire csak szeretnéd. (személyes képesség)
+skl_engineer|Mérnöki tudás
+skl_engineer_desc|A képesség birtokában készíthetsz ostromfelszerelést, és sokkal hatékonyabban fejlesztheted hűbérbirtokodat. (sereg szintű képesség)
+skl_first_aid|Elsősegély
+skl_first_aid_desc|A hősök szintenként 5%%-ot nyernek vissza a küldetés során elvesztett életerő pontjaikból. (sereg szintű képesség)
+skl_surgery|Sebészet
+skl_surgery_desc|A képesség minden pontja 4%%-kal növeli annak valószínűségét, hogy a sereg valamely, halálosan megsebzett tagja túléli sebesülését. (sereg szintű képesség)
+skl_wound_treatment|Sebkezelés
+skl_wound_treatment_desc|A képesség minden szintje 20%%-kal növeli a sereg gyógyulási sebességét. (sereg szintű képesség)
+skl_inventory_management|Felszereléskezelés
+skl_inventory_management_desc|Szintenként 6 darabbal növeli a hordozható felszerelés mennyiségét. (vezetői képesség)
+skl_spotting|Észlelés
+skl_spotting_desc|Minden szintje 10%%-kal tágítja a sereg látóhatárát. (sereg szintű képesség)
+skl_pathfinding|Útkeresés
+skl_pathfinding_desc|A sereg mozgása a térképen szintenként 3%%-kal gyorsul. (sereg szintű képesség)
+skl_tactics|Taktika
+skl_tactics_desc|A képesség minden második szintjének elérését követően 1 ponttal nő a kezdőelőny a csatában. (sereg szintű képesség)
+skl_tracking|Nyomkövetés
+skl_tracking_desc|Segítségével több információ olvasható ki a nyomokból. (sereg szintű képesség)
+skl_trainer|Kiképzés
+skl_trainer_desc|E képességgel rendelkező hős naponta tapasztalati pontokkal gazdagítja minden, nála alacsonyabb szintű csapattársát. Az így szerezhető tapasztalati pontok: {0,4,10,16,23,30,38,46,55,65,80}. (személyes képesség)
+skl_reserved_5|Fenntartott képesség
+skl_reserved_5_desc|Fenntartott képesség.
+skl_reserved_6|Fenntartott képesség
+skl_reserved_6_desc|Fenntartott képesség.
+skl_reserved_7|Fenntartott képesség
+skl_reserved_7_desc|Fenntartott képesség.
+skl_reserved_8|Fenntartott képesség
+skl_reserved_8_desc|Fenntartott képesség.
+skl_looting|Fosztogatás
+skl_looting_desc|Szintenként 10%%-kal növeli a fosztogatáskor zsákmányolt javak mennyiségét. (sereg szintű képesség)
+skl_horse_archery|Lovas íjászat
+skl_horse_archery_desc|Növeli a sebzést, és pontosabbá teszi a célzást lóhátról történő távolsági harcban. (személyes képesség)
+skl_riding|Lovaglás
+skl_riding_desc|Lehetővé teszi a nehezen megülhető lovak betörését, növeli a lovak sebességét és  irányíthatóságát. (személyes képesség)
+skl_athletics|Futás
+skl_athletics_desc|Növeli a futósebességet. (személyes képesség)
+skl_shield|Védelem
+skl_shield_desc|Szintenként 8%%-kal csökkenti a pajzsokban keletkezett kárt, gyorsítja a védekezést, és növeli a védett felületet. (személyes képesség)
+skl_weapon_master|Fegyvermester
+skl_weapon_master_desc|Könnyebbé teszi a fegyver-jártasságok megtanulását, és megemeli a jártasságok határát. Az értékhatárok a következőképpen alakulnak: 60, 100, 140, 180, 220, 260, 300, 340, 380, 420. (személyes képesség)
+skl_reserved_9|Fenntartott képesség
+skl_reserved_9_desc|Fenntartott képesség.
+skl_reserved_10|Fenntartott képesség
+skl_reserved_10_desc|Fenntartott képesség.
+skl_reserved_11|Fenntartott képesség
+skl_reserved_11_desc|Fenntartott képesség.
+skl_reserved_12|Fenntartott képesség
+skl_reserved_12_desc|Fenntartott képesség.
+skl_reserved_13|Fenntartott képesség
+skl_reserved_13_desc|Fenntartott képesség.
+skl_power_draw|Lövőerő
+skl_power_draw_desc|A karakter ennek segítségével jobb íjakat is használhat. Minden pont ebben a jártasságban (egészen négy pontig, plusz az íj követelménye) emeli a sebzést 14%%-kal. (Személyes jártasság)
+skl_power_throw|Dobóerő
+skl_power_throw_desc|Minden pontja 10%%-kal növeli a dobófegyverek sebzési értékét. (személyes képesség)
+skl_power_strike|Ütőerő
+skl_power_strike_desc|Minden  pontja 8%%-kal növeli a közelharc során a sebzési értéket. (személyes képesség)
+skl_ironflesh|Acéltest
+skl_ironflesh_desc|A képesség minden pontja 2 ponttal növeli az életerőt. (személyes képesség)
+skl_reserved_14|Fenntartott képesség
+skl_reserved_14_desc|Fenntartott képesség.
+skl_reserved_15|Fenntartott képesség
+skl_reserved_15_desc|Fenntartott képesség.
+skl_reserved_16|Fenntartott képesség
+skl_reserved_16_desc|Fenntartott képesség.
+skl_reserved_17|Fenntartott képesség
+skl_reserved_17_desc|Fenntartott képesség.
+skl_reserved_18|Fenntartott képesség
+skl_reserved_18_desc|Fenntartott képesség.

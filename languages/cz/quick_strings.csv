@@ -1,0 +1,462 @@
+﻿qstr_Next_Page|Další strana 
+qstr_Game_Rules:^|Pravidla hry:^
+qstr_0|0
+qstr_Show_game_rules|Zobrazit pravidla hry
+qstr_Continue...|Pokračovat...
+qstr_Candidate_#1:_{s1}|Kandidát #1: {s1}
+qstr_Candidate_#2:_{s1}|Kandidát #2: {s1}
+qstr_{s3}_of_{s4}_wishes_|{s3} z {s4} si přeje vybrat nového maršála a pozval své vazaly na poradu. Pravděpodobnými kandidáty jsou {s1} a {s2}.
+qstr_Who_do_you_wish_to_s|Koho chceš podporovat?
+qstr_{s1}_gives_his_suppo|{s1} vyjadřuje svou podporu kandidátovi jménem {s2}.
+qstr_Number_of_Supporters|Počet stoupenců: {reg0}
+qstr_{s2}_has_heard_his_v|{s2} vyslechl rady svých vazalů. Vybral za maršála {s3} kandidáta {s1}.
+qstr_Action|Akce
+qstr_Mount|Koně
+qstr_Attack_Type|Typ útoku
+qstr_Stand_Ground|Zůstat na místě
+qstr_Charge|Do útoku
+qstr_Follow_Me|Za mnou
+qstr_Hold_This_Position|Držet pozici
+qstr_Spread_Out|Rozptýlit se
+qstr_Stand_Closer|Držet se blíž
+qstr_Fall_Back|Stáhnout se
+qstr_Advance|Postupovat
+qstr_Dismount|Sesednout
+qstr_Fire_At_Will|Střílet dle libosti
+qstr_Hold_Your_Fire|Nestřílet
+qstr_Use_Blunt_Weapons|Použít tupé zbraně
+qstr_Use_Any_Weapon|Použít jakoukoliv zbraň
+qstr_Ready|Připraveno
+qstr_Wounded|Zraněno
+qstr_Dead|Zabito
+qstr_Number_of_men_knocke|Počet omráčených mužů: {reg1}
+qstr_Number_of_men_left:_|Počet opuštěných mužů: {reg1}
+qstr_Opponents_Beaten:_{r|Poražení protivníci: {reg1}
+qstr_Opponents_Remaining:|Zbývající protivníci: {reg1}
+qstr_Remain_in_retirement|Zůstat na odpočinku.
+qstr_Go_back_to_the_adven|Vrátit se k dobrodružnému životu.
+qstr_You_have_retired_at_|Na {reg4}. úrovni ses po {reg5} dnech dobrodružného života odebral na odpočinek.
+qstr_Effect_on_Score|Účinek na hodnocení
+qstr_Settlements_owned_by|Počet sídlišť, která vlastníš: {reg0}
+qstr_Friendly_Settlements|Přátelská sídliště: {reg0}
+qstr_Hostile_Settlements:|Nepřátelská sídliště: {reg0}
+qstr_Friendly_Lords:_{reg|Přátelští lordi: {reg0}
+qstr_Enemy_Lords:_{reg0}|Nepřátelští lordi: {reg0}
+qstr_Victories:_{reg0}|Vítězství: {reg0}
+qstr_Defeats:_{reg0}|Porážky: {reg0}
+qstr_Quests_Completed:_{r|Dokončené úkoly: {reg0}
+qstr_Companions_Found:_{r|Nalezení společníci: {reg0}
+qstr_Companions_Lost/Depa|Ztracení/opustivší společníci: {reg0} 
+qstr_Wealth:_{reg0}_denar|Majetek: {reg0} denárů 
+qstr_Inventory:_{reg0}_de|Inventář: {reg0} denárů 
+qstr_Renown:_{reg0}|Sláva: {reg0} 
+qstr_Experience:_{reg0}|Zkušenosti: {reg0}
+qstr_Days_Passed:_{reg0}|Uplynulo dní: {reg0}
+qstr_Difficulty:_{reg0}%|Obtížnost: {reg0}%
+qstr_TOTAL_SCORE:_{reg0}|CELKOVÉ HODNOCENÍ: {reg0}
+qstr_None|Nic
+qstr_{s1}_of_{s3}_was_def|{s1} z {s3} byl poražen v bitvě, ale podařilo se mu uprchnout.
+qstr_{s54}_is_a_claimant_|{s54} si dělá nárok na trůn země {s56}.
+qstr_nowhere|nikde
+qstr_{s57}_and_{s58}|{s57} a {s58}
+qstr_{reg3?She:He}|{reg3?Ona:On}
+qstr_The_town_of_{s50}|Město {s50}
+qstr_The_village_of_{s50}|Vesnice {s50}, poblíž které leží {s52},
+qstr_{s51}_belongs_to_{s1|Vládcem sídla {s51} je {s1} v říše {s2}.^
+qstr_{s7}_and_{s8}|{s7} a {s8}
+qstr_{s2}It_has_no_villag|{s2}Zde nejsou žádné vesnice.^
+qstr_{s2}{reg0?Its_villag|{s2}{reg0?Patří mu vesnice:Patří mu vesnice} {s8}.^
+qstr_{s2}Its_prosperity_i|{s2}Bohatství: {s50}
+qstr_noone|nikdo
+qstr_{s9}_and_{s10}|{s9} a {s10}
+qstr_{s5}_has_been_defeat|{s5} byl poražen!
+qstr_{s7}_opened_the_gate|{s7} otvírá bránu
+qstr_{s7}_closed_the_gate|{s7} zavírá bránu
+qstr_+{reg1}_to_party_mor|+{reg1} k morálce družiny
+qstr_Requires_{reg1}_inte|Přečtení vyžaduje inteligenci {reg1} 
+qstr_Reading_Progress:_{r|Průběh čtení: {reg1}%
+qstr_wound_treament|léčení ran
+qstr_trainer|trenér
+qstr_surgery|operace
+qstr_+1_to_{s1}_while_in_|+1 k {s1} když je v inventáři
+qstr_Move_here|Přesunout sem
+qstr_View_notes|Prohlédnout si poznámky
+qstr_Accompany|Přidružit se
+qstr_killed|smrt
+qstr_wounded|zranění
+qstr_{s0}^TOTAL:_{reg3}__|{s0}^CELKEM: {reg3} ({s2})
+qstr_^None|^Žádné
+qstr_nothing|nic
+qstr_{reg0}_village{reg1?|{reg0} vesnice{reg1?s:}
+qstr_{reg0}_castle{reg1?s|{reg0} hrad{reg1?s:}
+qstr_{reg0}_castle{reg1?s:|{reg0} hrad{reg1?s:} a {s0}
+qstr_{reg0}_town{reg1?s:}|{reg0} město{reg1?s:}
+qstr_{reg0}_town{reg1?s:}_|{reg0} město{reg1?s:} a {s0}
+qstr_{reg0}_town{reg1?s:}_{|{reg0} město{reg1?s:}, {s0}
+qstr_Your_opponents_are_r|Tví protivníci jsou připraveni na souboj.
+qstr_Try_to_destroy_as_ma|Pokus se zničit co nejvíce terčů. Na vyčištění dráhy máš dvě a půl minuty.
+qstr_Stay_behind_the_line|Zůstaň za čárou na zemi a střílej na terče. Snaž se nepromrhat ani jeden šíp.
+qstr_Battle_Advantage_=_{|Poměr sil = {reg0}.
+qstr_{s9}_wants_you_to_re|{s9} chce, abys dále {šel/šla} za jeho armádou, dokud ti nedá jiný pokyn.
+qstr__Being_Raided_|(probíhá přepadení)
+qstr__Looted_|(vydrancováno)
+qstr__Under_Siege_|(v obležení)
+qstr_The_village_of_{s1}_|Vesnice {s1} byla vydrancována nájezdníky, kterými byli {s2}.
+qstr_{s3}_is_no_longer_un|{s3} už není v obležení.
+qstr_Small_bands_of_enemi|Tam, kde leží {s1}, byla spatřena malá tlupa nepřátel.
+qstr_Enemy_patrols_spotte|Tam, kde leží {s1}, byly spatřeny nepřátelské hlídky.
+qstr_Medium_sized_group_o|Tam, kde leží {s1}, byla spatřena středně velká skupina nepřátel.
+qstr_Significant_group_of|Tam, kde leží {s1}, byla spatřena poměrně velká skupina nepřátel.
+qstr_Army_of_enemies_spot|Tam, kde leží {s1}, byla spatřena armáda nepřátel.
+qstr_Large_army_of_enemie|Tam, kde leží {s1}, byla spatřena velká armáda nepřátel.
+qstr_Great_host_of_enemie|Tam, kde leží {s1}, byla spatřena obrovská spousta nepřátel.
+qstr_{s1}_has_been_besieg|{s1} právě obléhá {s2} z říše {s3}.
+qstr__{s1}__{s11}:_{s14}|({s1}) {s11}: {s14}
+qstr_{s14}__{s21}_|{s14} ({s21})
+qstr_{s1}_is_the_new_mars|{s1} je novým maršálem von {s2}.
+qstr_You_gained_{reg12}_r|Sláva zvýšena o {reg12}.
+qstr_You_lose_{reg12}_ren|Sláva snížena o {reg12}.
+qstr_Your_relation_with_{|Tvůj vztah s místem {s1} se zlepšil.
+qstr_Your_relation_with_{s|Tvůj vztah s místem {s1} se zhoršil.
+qstr_You_gain_honour.|{Získal/Získala} jsi čest.
+qstr_You_lose_honour.|{Ztratil/Ztratila} jsi čest.
+qstr_{s1}_has_declared_wa|{s1} vyhlašuje válku říši {s2}.
+qstr_{s1}_and_{s2}_have_m|{s1} a {s2} spolu uzavřeli mír. 
+qstr_{s2}_{reg3?was:is_cu|{s2} {reg3?před nedávnem byl:je právě teď} v sídle zvaném {s3}.
+qstr_{s2}_{reg3?was:is}_t|{s2} cestuje do {s3} a {reg3?byl:měl by být} poblíž {s4}.
+qstr_{s2}_{reg3?was:is}_i|{s2} {reg3?byl:je} v poli a {reg3?byl:měl by být} nedaleko místa, kde leží {s3}.
+qstr_{s2}_{reg3?was:is}_b|{s2} {reg3?byl:je} držen jako zajatec v {s3}.
+qstr_{s2}_{reg3?was:has_b|{s2} {reg3?byl:byl} zajat {reg4?jejími:jeho} nepřáteli.
+qstr_{reg3?{s2}_s_locatio|{reg3?{s2} pobyt nebyl znám:Nevím, kde {s2} je}.
+qstr_{s6}_has_joined_your|{s6} se přidává ke tvé družině
+qstr_You_now_owe_{reg2}_d|Dlužíš teď {s1} částku {reg2} denárů.
+qstr_Renown_value_for_thi|Za vítězství v této bitvě získáš {reg8} bodů slávy.
+qstr_You_have_run_into_a_|{Vlezl/Vlezla} jsi do pasti!
+qstr_You_are_attacked_by_|Zaútočila na tebe skupina banditů!
+qstr_Holding|Drží pozici
+qstr_Following|Následují
+qstr_Charging|Útočí
+qstr_Advancing|Postupují 
+qstr_Falling_Back|Stahují se
+qstr_Standing_Closer|Drží se pohromadě
+qstr_Spreading_Out|Rozptylují se
+qstr_Standing|Stojí
+qstr_N/A|N/A
+qstr_Free|bez rozkazu
+qstr_Any_Weapon|Jakákoliv zbraň
+qstr_Blunt_Weapons|Drtivé zbraně
+qstr_{s1}_Rebels|{s1} Vzbouřenci
+qstr_Given_by:_{s62}|Úkol zadal: {s62}
+qstr_Given_on:_{s60}|Zadáno: {s60}
+qstr_You_have_{reg0}_days|K dokončení tohoto úkolu ti zbývá {reg0} dní.
+qstr_This_quest_has_been_|Tento úkol už skončil. {s59} očekává hlášení.
+qstr_This_quest_has_been_s|Tento úkol jsi úspěšně {dokončil/dokončila}. {s59} ti teď předá zaslouženou odměnu.
+qstr_This_quest_has_faile|Tento úkol se nepodařilo splnit. Promluv si s jeho zadavatelem ({s59}) a vysvětli mu situaci.
+qstr_At_the_time_quest_wa|Ve chvíli, kdy byl úkol zadán:^{s1}
+qstr_{s5}_has_a_strength_|{s5} má dohromady sílu {reg1} mužů.
+qstr_The_last_time_you_sa|Naposledy jsi {reg1?ji:ho} {viděl/viděla}, jak {s1}
+qstr_The_last_time_you_he|Naposledy jsi o {reg1?ní:něm} {slyšel/slyšela}, {s1}
+qstr_Current_garrison_con|Stávající posádka se skládá z {reg5} mužů.^Mají zásoby jídla na {reg6} dní.
+qstr_Very_Poor|Velmi malé
+qstr_Poor|Malé
+qstr_Average|Průměrné
+qstr_Rich|Velké
+qstr_Very_Rich|Obrovské
+qstr_Manor|Sídlo
+qstr_A_manor_lets_you_res|Díky sídlu můžeš ve vesnici odpočívat a během odpočinku svým vojákům platíš jen poloviční mzdu.
+qstr_Mill|Mlýn
+qstr_A_mill_increases_vil|Mlýn zvyšuje prosperitu vesnice o 5 %.
+qstr_Watch_Tower|Hlídková věž
+qstr_A_watch_tower_lets_t|Hlídková věž umožňuje vesničanům dříve upozornit na nebezpečí. Doba, kterou nepřátelé potřebují na vydrancování vesnice, se zvyšuje o 50 %.
+qstr_School|Škola
+qstr_A_shool_increases_th|Škola každý měsíc zvyšuje věrnost vesničanů vůči tobě o +1.
+qstr_Messenger_Post|Stanice kurýrů
+qstr_A_messenger_post_let|Pokud máš ve vesnici stanici kurýrů, dostaneš zprávu vždy, když se poblíž ocitnou nepřátelé, a to i když se nacházíš daleko odsud.
+qstr_Prison_Tower|Vězeňská věž
+qstr_A_prison_tower_reduc|Vězeňská věž snižuje pravděpodobnost, že se zde drženým vězňům podaří utéci.
+qstr_Prosperity_of_{s2}_h|Bohatství obce jménem {s2} se změnilo, bylo {s3} a teď je {s4}.
+qstr_{s4}_looks_upset.|{s4} vypadá rozzlobeně.
+qstr_your_party|tvoje družina
+qstr_{reg0?One_of_your_pr|{reg0?Jeden z našich vězňů,:} {s1} z {s3} utekl ze zajetí!
+qstr_You_brought_{reg3}_h|{Přihnal/Přihnala} jsi k {s1} celkem {reg3} kusů dobytka.
+qstr_I_heard_that_there_w|Doneslo se ke mně, že se ve městě {s62} bude brzy konat turnaj.
+qstr_I_heard_that_one_can|Slyšel jsem, že se v {s63} dá velmi lacino koupit {s62}.
+qstr_I_heard_that_they_pa|Slyšel jsem, že se v {s63} vykupují {s62} za velmi vysoké ceny.
+qstr_two_days_ago|předevčírem
+qstr_Best_threat_of_{s4}_|Nejlepší hrozba {s4} má hodnotu {reg1}
+qstr_No_center_found_to_d|Nebylo nalezeno žádné středisko, které by bylo třeba bránit.
+qstr_You_gain_right_to_ru|Získáváš právo vládnout.
+qstr_You_lose_right_to_ru|Ztrácíš právo vládnout.
+qstr_You_got_keys_of_dung|Získáváš klíče k žaláři.
+qstr_You_must_stay_behind|Musíš zůstat stát za čárou na zemi! Bod se nepočítá.
+qstr_Tutorial|Výuka
+qstr_You_came_into_the_wo|Jsi {reg3?dcerou:synem} uvadající šlechtické rodiny, která vlastnila pouze dům, v němž žila. Navzdory všem nesnázím ti ale dopřáli dobré vzdělání a už od dětství tě vedli k aristokratickým mravům a pravidlům života u dvora.
+qstr_You_were_born_the_{r|Jsi {reg3?dcerou:synem} rodiny kočovných obchodníků, kteří neustále cestovali z místa na místo za ziskem. I když byli tví rodiče bohatší než většina ostatních a dopřáli ti to nejlepší vzdělání, které si mohli dovolit, při věčném cestování ti scházela příležitost najít si přátele. Mezi tvé nejšťastnější okamžiky patřily ty, kdy se ti podařilo někomu něco prodat.
+qstr_As_a_child_your_fami|Tvá rodina stěží přežívala ze mzdy tvého otce, který pracoval jako strážce u místního lorda. Nebyl to snadný život a byli jste příliš chudí, než aby ti rodiče mohli dopřát řádné vzdělání. Z této doby umíš především ubránit se v pouličních rvačkách, ať už se zbraní či bez ní.
+qstr_{reg3?daughter:son}|{reg3?dcera:syn}
+qstr_You_were_the_{reg3?d|Jsi {reg3?dcerou:synem} rodiny, která žila osaměle v lesích a na živobytí si vydělávala všelijak. Lovem, dřevorubectvím, výrobou šípů a někdy i trochou pytlačení, pokud bylo opravdu bídně. Zimy bývaly vždy krušné, protože chlad bral životy zvířatům i lidem, ale vždycky se ti podařilo přežít do jara, byť spousta tvých bratrů a sester takové štěstí neměla.
+qstr_You_were_a_child_of_|Jsi dítětem stepi. Pocházíš z kmene kočovných nomádů, kteří žili na velkých tábořištích po širých vyprahlých pláních. Stejně jako ostatní lidé z kmene si i tvá rodina vážila téměř nade vše dobrých koní, na kterých tě naučili jezdit skoro dřív než chodit.
+qstr_As_the_{reg3?daughte|Jako {reg3?dceři:synovi} zloděje se ti dostalo jen velmi málo 'formálního' vzdělání. Spoustu času ti zabralo potloukání po ulicích a žebrání, takže umíš jak odřezávat měšce, tak otevírat zámky paklíči. Tak uplynulo tvé dětství. Tato dlouhá tvrdá léta tě ovšem dokonale naučila životu na ulici a díky tomu znáš všechna tajemství měst a temných uliček.
+qstr_As_a_{reg3?girl:boy}|Coby {reg3?dívku:chlapce} tě poslali bydlet ke dvoru jednoho ze šlechticů. Tam tě nejdříve při věčném čekání na místní lordy a dámy naučili pokoře. Ale z jejich her v šachy, klepů a dokonce i z balad o velikých činech a věrné lásce ti nedalo moc velkou práci pochopit, jak funguje dospělácký svět sporů a konkurence. Poučily tě také drsné hry s ostatními dětmi, které se navzájem bily holemi, jimiž napodobovaly meče svých rodičů a příbuzných.
+qstr_As_a_{reg3?girl:boy}_|Coby {reg3?dívku:chlapce} tě poslali do učení k jednomu z místních mistrů, který tě měl vyučit řemeslu. Po několika letech tvrdé práce a studia tě mistr povýšil na tovaryše a zaměstnal tě jako regulérně {placeného řemeslníka/placenou řemeslnici} na tak dlouho, jak budeš chtít.
+qstr_As_a_{reg3?girl:boy}_g|Jako {reg3?dívku:chlapce} tě poslali do učení k bohatému kupci. Po několika letech strávených v obchodech, cestováním s karavanami a učením se obchodním zvyklostem se ti podařilo osvojit si umění nakoupit levně a draze prodat a ještě zákazníka přesvědčit o tom, že lepší obchod uzavřít ani nemohl.
+qstr_As_a_{reg3?girl:boy}_gr|Jako odrůstající {reg3?dívka:chlapec} ses {vydal/vydala} do ulic a {dělal/dělala} jsi všechno, co je nutné pro přežití. Krádeže, žebrání a drobné práce pro různé bandy, to všechno byly možnosti, které ti přišly vhod, když sis {potřeboval/potřebovala} vydělat na chleba. To bylo tvé mládí, život ze dne na den v tomto světě plném násilí, vždy jen jediný krok před zákonem a těmi, kteří ti přáli jen to nejhorší.
+qstr_As_a_{reg3?girl:boy}_gro|Jako {reg3?dívku:chlapce} tě ze všeho nejvíc bavilo jezdit po rozlehlých stepích na svém vlastním koni a učit se, jak přežít v nehostinné poušti. I když čas od času nebylo co jíst, podařilo se ti dospět v dovedného lovce, který vždy dokáže v nekonečné pustině najít tu správnou cestu. Tvé tělo se brzy zpevnilo svaly, nezbytnými pro život {reg3?ženy:muže} mezi nomády.
+qstr_{reg3?daughter:man}|{reg3?dcera:muž}
+qstr_Though_the_distincti|I když se ti ten rozdíl zdál velmi náhlý, někde v průběhu tvé cesty tě potkala změna na {reg3?ženu:muže} a celý svět kolem tebe je úplně jiný. Po jmenování panošem u šlechtického dvora jsi dlouhé hodiny {cvičil/cvičila} s zbraněmi, {učil/učila} ses jak uštědřovat tvrdé rány a rovněž jak je přijímat. Poučili tě o závazcích ke svému lordu a o povinnostech vůči těm, kteří se jednoho dne mohou stát tvými vazaly. Ale kromě učení rytířským ideálům ses také {dozvěděl/dozvěděla} o méně povznášející stránce tohoto života -- {naslouchal/naslouchala} jsi mnoha příběhům starých rytířů o bezohledné politice, zradách a uchvatitelích, o mužích, kteří využívali k dosažení svých cílů kromě odvahy i podvodu.
+qstr_{reg3?woman:man}|{reg3?ženu:muže}
+qstr_Though_the_distinctio|I když se ti ten rozdíl zdál velmi náhlý, někde v průběhu tvé cesty tě potkala změna na {s13} a celý svět kolem tebe je úplně jiný. Připojila ses k úzkému kruhu dvorních dam, žen, které se všechny zabývaly vznešenými věcmi, k ženám a milenkám vznešených mužů i k dívkám, které si teprve hledaly manžela. I tady jsi ovšem nalezla politiku, protože dámy pletichařily, zavile mezi sebou bojovaly a snažily se ukořistit pohledy nezadaných mužů, kteří se u dvora pohybovali. Brzy ses naučila tyto situace rozpoznat a využít jich ve vlastní prospěch. Záhy jsi zjistila, že s trochou důvtipu a lstivosti bys i ty sama mohla získat ve světě značnou moc a vliv. 
+qstr_Though_the_distinction|I když se ti ten rozdíl zdál velmi náhlý, někde v průběhu tvé cesty tě potkala změna na {s13} a celý svět kolem tebe je úplně jiný. Rozhodnutí pro tebe nebylo obtížné: {chtěl/chtěla} ses vydat do světa na vlastní pěst, jen se svým nástrojem přehozeným přes rameno a vlastním hlasem. Bylo to chudobné bytí a když lidé neocenili tvé umění, často ti nezbylo než jít spát s kručícím žaludkem. Podařilo se ti však přežít jen s pomocí své hudby. Jak roky ubíhaly, {vyrostl/vyrostla} z tebe {odborník/odbornice} na hudbu pro opilé davy v tavernách a především díky tomu umíš vymámit z kohokoliv to, co chceš.
+qstr_Though_the_distinction_|I když se ti ten rozdíl zdál velmi náhlý, někde v průběhu tvé cesty tě potkala změna na {reg3?ženu:muže} a celý svět kolem tebe je úplně jiný. Rozhodnutí pro tebe nebylo obtížné: {chtěl/chtěla} jsi vstoupit coby {student/studentka} na univerzitu v jednom z velkých měst a studovat teologii, filozofii a lékařství. Ale ne všechny vědomosti máš z přednáškových síní. Často tě spolužáci zlákali k toulkách ulicemi, kde jste hledali dobré víno, veselou společnost a {ženy/dobrodružství}. Díky tomu moc dobře víš, jak nejrychleji spravit zlomenou čelist, a umíš přesvědčit rozzuřeného měšťana, aby odložil palici a přijal namísto toho finanční náhradu za zničený obchod.
+qstr_Though_the_distinction_f|I když se ti ten rozdíl zdál velmi náhlý, někde v průběhu tvé cesty tě potkala změna na {s13} a celý svět kolem tebe je úplně jiný. {Rozhodl/Rozhodla} ses uposlechnout volání cesty a {putoval/putovala} jsi od vesnice k vesnici, přičemž jsi {nakupoval/nakupovala} a {prodával/prodávala} vše, co je k mání. Není to nijak bohatý život, ale {stal/stala} ses tak mistrem ve smlouvání a i ti nejlakomější lidé ti vždy dobře zaplatí. Brzy jsi {zjistil/zjistila}, že máš dobrou průpravu k vybudování své vlastní obchodní říše.
+qstr_Though_the_distinction_fe|I když se ti ten rozdíl zdál velmi náhlý, někde v průběhu tvé cesty tě potkala změna na {s13} a celý svět kolem tebe je úplně jiný. {Rozhodl/Rozhodla} ses stát se {kovářem/kovářkou}. Každý den z jednoduchého kovu vyrábíš praktické i oko těšící předměty. Časem se z tebe {stal/stala} {mistr/mistryně} tvého řemesla a za svou dobrou práci jsi {dostával/dostávala} dobré odměny. S plným žaludkem a nohama v teple se konečně můžeš těžit ze své práce a skvělé pověsti.
+qstr_Though_the_distinction_fel|I když se ti ten rozdíl zdál velmi náhlý, někde v průběhu tvé cesty tě potkala změna na {s13} a celý svět kolem tebe je úplně jiný. Opovrhujíc zoufalou honbou všech obyčejných lidí po penězích ses {odebral/odebrala} do lesů místního lorda a {rozhodl/rozhodla} ses pomoci si k blahobytu, zákon nezákon. {Lovil/Lovila} jsi jeleny, divočáky a husy a {prodával/prodávala} jsi maso na černém trhu. {Porážel/Porážela} jsi stromy strážcům přímo pod nosem a {vyráběl/vyráběla} jsi z nich dříví na otop, které během mrazivých zim zahřálo spoustu rodin. To vše jen za trochu stříbra, jak jinak.
+qstr_Only_you_know_exactl|Nikdo jiný než ty přesně neví, co tě přimělo vzdát se starého života a stát se dobrodruhem. Ale protože ve tvém srdci hořel jasným plamenem hněv, nebylo zase tak těžké odejít. Chceš pomstu. Chceš spravedlnost. To, co bylo vykonáno, už nelze vzít zpět, a některé dluhy nelze splatit jinak než krví...
+qstr_Only_you_know_exactly|Nikdo jiný než ty přesně neví, co tě přimělo vzdát se starého života a stát se dobrodruhem. Většinou říkáš, že už prostě nešlo zůstat, ne když jsou vzpomínky na tvé milované tak bolestivé a tak blízko. Možná ti nový život dovolí zapomenout nebo uctít jméno, které už nedokážeš vyslovit...
+qstr_Only_you_know_exactly_|Nikdo jiný než ty přesně neví, co tě přimělo vzdát se starého života a stát se dobrodruhem. Vlastně si ani nevzpomínáš, kdy se ti domov stal vězením, když se známé věci staly nudnými. Tvé sny o cestování prostě zvítězily. Ať už toužíš po vzdálených krajích nebo jen po nekonečné cestě a svobodě putování, už nedokážeš zůstat na stejném místě. Všechno necháváš za sebou a už se nevrátíš...
+qstr_Only_you_know_exactly_w|Nikdo jiný než ty přesně neví, co tě přimělo vzdát se starého života a stát se dobrodruhem. Víš ale, že se nemůžeš vrátit. Nemáš se k čemu vrátit. Ať už byl tvůj domov jakýkoliv, teď je pryč. A bez cizí pomoci buď půjdeš ke dnu, nebo se naučíš plavat...
+qstr_Only_you_know_exactly_wh|Nikdo jiný než ty přesně neví, co tě přimělo vzdát se starého života a stát se dobrodruhem. Všem ostatním se zdá být jasné, že tě žene jen touha po osobním prospěchu. Láká tě moc, bohatství a respekt. Chceš být tím, kterého musí ostatní poslouchat. Chceš, aby lidé znali tvé jméno, a třásli se kdykoliv jej uslyší. Chceš všechno a nedovolíš nikomu, aby ti zabránil to získat...
+qstr_Back_to_the_beginnin|Zpátky na začátek...
+qstr_View_next_segment...|Prohlédnout si další část...
+qstr_^No_food:___{reg7}|^Žádné jídlo:  -{reg7}
+qstr_^Wage_debt:___{reg6}|^Dlužná mzda:  -{reg6}
+qstr_Appoint_next_marshal|Jmenovat dalšího maršála
+qstr_Award_{s12}_as_fief|{s12} - udělit jako léno
+qstr_No_one|Nikdo 
+qstr_Selected_faction_is:|Vybraná frakce je: {s10}^^{s9}
+qstr_You_are_currently_re|Právě čteš knihu {s8}.
+qstr_You_are_not_reading_|Nečteš žádné knihy.
+qstr_none|žádný
+qstr_{s5}_and_{s6}|{s5} a {s6}
+qstr_Your_estates_are:_{s|Tvé jmění je: {s8}.^{s9}
+qstr_Current_party_size_l|Stávající omezení velikosti družiny je {reg5}.^Stávající modifikátory velikosti družiny jsou:^^Základní velikost:  +30^Velení: {s2}{reg1}^Charisma: {s3}{reg2}^Sláva: {s4}{reg3}^CELKEM:  {reg5}
+qstr_Loyal|Věrný
+qstr_Devoted|Oddaný
+qstr_Fond|Loajální
+qstr_Gracious|Blahosklonný
+qstr_Friendly|Přátelský
+qstr_Supportive|Podporující
+qstr_Favorable|Nakloněný
+qstr_Cooperative|Spolupracující
+qstr_Accepting|Přijímající
+qstr_Indifferent|Neutrální
+qstr_Suspicious|Podezíravý
+qstr_Grumbling|Reptající
+qstr_Hostile|Nepřátelský
+qstr_Resentful|Záštiplný
+qstr_Angry|Rozzlobený
+qstr_Hateful|Nenávistný
+qstr_Revengeful|Pomstychtivý
+qstr_Vengeful|Mstivý
+qstr_Your_relation_with_t|Tvůj vztah s frakcemi je:^{s2}
+qstr_Player_renown_is_inc|Sláva hráče vzrostla o 100 bodů. 
+qstr_Player_honor_is_incr|Hráčova proslulost se o 1 zvýšila a nyní činí {reg7}.
+qstr_{reg1}_{s1}_{reg2?ac|{reg1} {s1} {reg2?přijímají:přijímá} nabídku.
+qstr_No_one_accepts_the_o|Nikdo tuto nabídku nepřijal.
+qstr_You_start_reading_{s|{Začal/Začala} jsi číst {s2}. Po několika stránkách cítíš, že by ses z této knihy {mohl/mohla} mnohému naučit. {Rozhodl/Rozhodla} ses, že si knihu necháš u sebe, a až budeš mít čas, dočteš ji.
+qstr_You_flip_through_the|{Prolistoval/Prolistovala} jsi několik stránek {s2}, ale text se ti zdá složitý a nedaří se ti ho pochopit. Ať se snažíš jak chceš, brzy tě z něj rozbolí hlava a rozhodneš se čtení vzdát.
+qstr_Villagers|Vesničané 
+qstr_You_have_encountered|{Potkal/Potkala} jsi vojsko, kterou tvoří {s1}.
+qstr_You_have_engaged_{s1|{s1} se stali terčem tvého útoku, zrovna když útočili na {s3}.
+qstr_You_were_caught_by_{|Chytil tě {s1} ve chvíli, kdy tví vojáci útočili na {s3}.
+qstr_You_were_victorious!|{Zvítězil/Zvítězila} jsi!
+qstr_Battle_was_lost._You|{Prohrál/Prohrála} jsi bitvu. Tví vojáci byli rozdrceni na prach.
+qstr_Your_companions_carr|Tví společníci tě odnáší z bojiště.
+qstr_You_have_defeated_th|{Porazil/Porazila} jsi nepřítele.
+qstr_You_have_retreated_f|{Ustoupil/Ustoupila} jsi z boje.
+qstr_^^Ally_Casualties:{s|^^Ztráty spojenců:{s0}
+qstr_{s1}_of_{s3}_managed|{s1} z říše {s3} si v nestřežené chvíli uvolnil pouta a podařilo se mu uprchnout.
+qstr_Some_of_your_tendons|V bitvě sis {poranil/poranila} šlachy. Ztrácíš 1 bod síly.
+qstr_You_took_a_nasty_wou|V bitvě jsi {utržil/utržila} ošklivou ránu a i po jejím zhojení stále mírně kulháš. Ztrácíš 1 bod pohyblivosti.
+qstr_You_have_trouble_thi|Po bitvě se ti nedaří soustředěně myslet, možná jsi {dostal/dostala} pořádnou ránu do hlavy. Často tě teď také sužují úporné bolesti hlavy. Inteligence se ti snižuje o 1 bod.
+qstr_Perhaps_I_m_getting_|Možná začínám mít smůlu...
+qstr_Retirement_is_starti|Myšlenka odchodu na odpočinek se mi začíná líbit čím dál víc.
+qstr_No_matter!_I_will_pe|Nevadí! Já vytrvám!
+qstr_What_did_I_do_to_des|Co jsem udělal, že jsem si tohle zasloužil?
+qstr_I_suppose_it_ll_make|Ale třeba z toho bude alespoň dobrý příběh...
+qstr_{s9}_wants_you_to_fo|{s9} chce, abys až do odvolání {následoval/následovala} jeho armádu.
+qstr_{s8}_of_{s9}|{s8} z {s9}
+qstr__Your_own_banner_fli| Nad hradní bránou vlaje tvoje vlastní standarta.
+qstr__You_see_the_banner_| Nad hradní bránou vidíš vlát standartu vládce jménem {s7}.
+qstr__Your_own_banner_flie|Nad bránami města vlaje tvoje vlastní standarta.
+qstr__You_see_the_banner_o|Nad bránou města vidíš vlát standartu vládce jménem {s7}.
+qstr_The_{reg6?town_s:cas|Zásoby jídla tohoto {reg6?města:hradu} by měly stačit ještě na {reg3} dní.
+qstr_The_{reg6?town_s:cast|Zásoby jídla tohoto {reg6?města:hradu} už byly snědeny a obránci hladoví.
+qstr_You_re_preparing_to_|Připravuješ se zaútočit na hradby, práce by měla být dokončena za {reg9} hodin.
+qstr_Your_forces_are_buil|Tví vojáci budují obléhací věž. Výstavbu dokončí přibližně za {reg9} hodin.
+qstr_You_are_ready_to_att|Jsi {připraven/připravena} kdykoliv zaútočit na hradby.
+qstr_The_siege_tower_is_b|Obléhací věž je postavena a připravena k útoku.
+qstr_As_a_last_defensive_|V posledním pokusu o obranu ustupuješ do hlavního sálu hradní věže. Spolu se zbývajícími vojáky se tady vzchopíte k zoufalému boji. Pokud budeš {poražen/poražena}, už nemáš kam ustupovat.
+qstr_You_ve_been_driven_a|{Byl/Byla} jsi {zahnán/zahnána} od hradeb. Útočníci se teď valí do ulic města. POKUD se ti je podaří odrazit, možná obrátíš situaci a budeš mít naději na záchranu.
+qstr_You_ve_breached_the_|{Prolomil/Prolomila} jsi hradby města, ale ti paličatí obránci proti tobě vyrazili i v ulicích! Než budeš moci zaútočit na hradní věž v srdci města, musíš se s nimi nějak vypořádat.
+qstr_The_town_centre_is_y|Centrum města je tvoje, ale zbývající útočníci se stáhli do hradu. Než se budeš moci prohlásit vítězem, hrad musí padnout. 
+qstr_The_remaining_defend|Zbývající obránci se v posledním pokusu o obranu stáhli do hradu. Musíš tam proniknout a rozdrtit veškerý zbývající odpor.
+qstr_However_since_you_ar|Protože ale nejsi {přísežný stoupenec/přísežná stoupenkyně} {s9}, nemáš naději, že by tě poznal jako {lorda/paní} tohoto {reg8?města:hradu}.
+qstr_The_enemy_has_been_f|Nepřítel byl donucen k ústupu. Útok skončil, ale obléhání i nadále pokračuje.
+qstr_As_you_approach_you_|Jak se přibližuješ, zahlédli tě členové hradní stráže, kteří tě vřele přivítali a otevřeli brány pro {svého krále/svou královnu}.
+qstr_As_you_approach_you_a|Jak se přibližuješ, zahlédli tě členové hradní stráže, kteří tě vřele přivítali a otevřeli brány pro {svého pána/svou paní}.
+qstr__This_village_and_th|Tato vesnice a okolní země patří tobě.
+qstr__You_remember_that_t| Pamatuješ si, že tuto vesnici a okolní země spravuje pán jménem {s7}.
+qstr__These_lands_belong_| Tyto země nikomu nenáleží.
+qstr__The_village_is_infe| Vesnice obsadili {s35} ({reg8}).
+qstr__The_village_has_bee| Tato vesnice byla vydrancována. Jak projíždíš mezi vypálenými domy, vidíš, jak se kolem potuluje několik lidí.
+qstr__The_village_is_bein| Na tuto vesnici se právě útočí.
+qstr_No_one_here_seems_to|Nikdo se tady nechce přidat ke tvé družině.
+qstr_One_{s3}_volunteers_|Jeden {s3} souhlasí, že se k tobě přidá.
+qstr_{reg5}_{s3}_voluntee|{s3} (v počtu {reg5}) souhlasí, že se k tobě přidají.
+qstr_Try_as_you_might_you|Ať se snažíš sebevíc, nedokážeš bandity porazit. Rozzuření lapkové vypálí vesnici do základů a potrestají její obyvatele. Potom nechají hořící pustinu za sebou a jedou si najít bohatší místa k plenění.
+qstr_village|vesnice
+qstr_town|město
+qstr_castle|hrad
+qstr_The_{s17}_has_no_imp|{s17} nemá žádná vylepšení.
+qstr_The_{s17}_has_the_fo|{s17} má následující vylepšení:{s18}. 
+qstr_The_assasins_beat_yo|Vrahové tě zmlátili a nechali tě ležet na ulici...
+qstr_You_have_fallen._The|Jdeš k zemi. Bandité rychle prohledávají tvé tělo a berou všechny peníze, které najdou. Poté zmizí do noci. Nechali tě ovšem naživu, i když jen tak tak.
+qstr_Luckily_some_of_your|Máš štěstí - když nikdo nevěděl, kde jsi, tví společníci se tě vydali hledat a našli tě ležet vedle silnice. Rychle tě donesli do bezpečí a ošetřili ti rány.
+qstr_Luckily_some_passing|Naštěstí kolem procházeli nějací měšťané a našli tě ležet u silnice. Poznali, že nejsi jen nějaký opilý žebrák, donesli tě do nejbližší hospody a ošetřili ti rány.
+qstr_You_fail_to_steal_an|Nepodařilo se ti ukrást žádný dobytek.
+qstr_You_drive_away_{reg1|{Odehnal/Odehnala} jsi {reg17} {reg12?kusů:kus} dobytka z vesnického stáda.
+qstr_You_are_at_{s2}.|Jsi v sídle zvaném {s2}.
+qstr__This_castle_has_no_|Tento hrad nikomu nepatří.
+qstr__This_town_has_no_ga|Toto město nikomu nepatří.
+qstr__You_have_successful| Podařilo se ti proplížit se dovnitř.
+qstr_{s13}_A_tournament_w|{s13} Brzy se tu bude pořádat turnaj.
+qstr___{reg1}_denars_per_| ({reg1} denárů za noc)
+qstr_Moreover_you_earn_{r|Kromě toho vyhráváš {reg8} denárů ze sázek, uzavřených ve prospěch svého vítězství...
+qstr_Victory_is_yours!_Yo|Vítězství je tvoje! Tenhle zápas jsi {vyhrál/vyhrála}, teď se však musíš připravit na další kolo. 
+qstr_You_have_been_bested|V tomto zápase prohráváš, mistr ceremoniář však rozpoznal tvé výjimečné schopnosti a statečnost a dovolil ti zúčastnit se dalšího kola.
+qstr_You_were_beaten._The|Jdeš k zemi. Sedláky jejich úspěch nesmírně potěšil, ale ponaučení, které do tebe měli získat, zřejmě nikdo nepochopil.
+qstr_After_beating_your_l|Poté, co padl poslední protivník, jsi sedlákům {ukázal/ukázala}, jak se lépe bránit proti takovému útoku. Snad si to dobře zapamatují a příště budou lépe připraveni.
+qstr_The_bandits_are_brok|Bandité jsou rozprášeni! Těch pár, kteří zůstali naživu a při vědomí, utíkají pryč s ocasem staženým mezi nohama, vyděšení ze sedláků a jejich nového přeborníka.
+qstr_{s1}_s_Ship|{s1}ova loď
+qstr_However_{reg3?You_ar|{reg3?Nejsi:{s1} není} bohužel schopen najít žádné obchodovatelné zboží, které by přineslo nějaký zisk.
+qstr_^Buying_{s4}_here_an|^Pokud bychom tady nakoupili zboží {s4} a prodali je ve městě {s5}, přineslo by nám to zisk {reg6} denárů za kus.{s3}
+qstr_{reg3?You_find:{s1}_|{reg3?Zjistil jsi:{s1} přináší} následující informace:^{s3}
+qstr_{s2}^{reg1}_{s1}_ear|{s2}^{reg1} {s1} získal {reg0} zkušeností.
+qstr_{s2}^{s1}_earned_an_|{s2}^{s1} získal dalších {reg0} zkušeností.
+qstr_^You_earned_{reg0}_e|^{Získal/Získala} jsi {reg0} zkušeností.{s2}
+qstr_The_training_didn_t_|Výcvik dopadl hrozně.
+qstr_The_training_didn_t_g|Výcvik dopadl nepříliš dobře.
+qstr_The_training_went_qu|Výcvik dopadl celkem dobře.
+qstr_The_training_went_ve|Výcvik dopadl velmi dobře.
+qstr_The_training_went_pe|Výcvik dopadl skvěle.
+qstr_{s13}_asked_you_to_r|{s13} tě požádal, abys se u něj {hlásil/hlásila} alespoň s {reg13} vojáky.
+qstr_{s13}_ordered_you_to|{s13} ti nařídil, aby ses {přidal/přidala} k útoku proti {s14}.
+qstr_Find_and_speak_with_|Najdi a promluv si s {s3} z {s4} a učiň mu přísahu věrnosti.
+qstr_There_has_been_an_al|Došlo k údajným nepokojům na hranicích: {s9}
+qstr_^^Note_that_so_long_|^^Měj na paměti, že dokud budeš zastávat post maršála, ostatní lordi v říši od tebe budou očekávat, že je povedeš v kampani. Pokud se chystáš na hostinu, ať už kvůli svatbě či z jiných důvodů, raději se postu maršála zřekni tím, že promluvíš se svým panovníkem.
+qstr_Breaking_camp...|{Sbalil/Sbalila} jsi tábor...
+qstr_Your_party_is_spotte|{s1} pozoruje tvoji družinu.
+qstr_Party_has_nothing_to|Družina nemá co jíst!
+qstr_{reg1}_{s1}_{reg2?ha|V průběhu noci od tvé družiny {reg2?utekli:utekl} {reg1} {s1}. 
+qstr_{s1}_of_{s3}_has_bee|{s1} z {s3} byl propuštěn ze zajetí.
+qstr_Building_of_{s0}_in_|Budova {s0} v obci {s4} byla dokončena.
+qstr_{s1}_has_won_the_tou|{s1} vyhráva turnaj ve městě {s2}.
+qstr_{s1}_is_no_longer_in|{s1} už není zamořen bandity (v noci).
+qstr_You_pay_for_accommod|{Zaplatil/Zaplatila} jsi za ubytování.
+qstr_Betrothal_to_{s5}_ex|Zasnoubení s osobou {s5} vypršelo
+qstr__Your_tactics_skill_| Tvoje schopnost taktiky se zvýšila o 1 bod.
+qstr__Your_persuasion_ski| Tvoje schopnost přesvědčování se zvýšila o 1 bod.
+qstr__Your_leadership_ski| Tvoje schopnost vedení se zvýšila o 1 bod.
+qstr__Your_intelligence_h| Tvoje inteligence se zvýšila o 1 bod.
+qstr__Your_trade_skill_ha| Tvoje schopnost obchodování se zvýšila o 1 bod.
+qstr__Your_weapon_master_| Tvoje schopnost mistr se zbraní se zvýšila o 1 bod.
+qstr__Your_engineer_skill| Tvoje schopnost inženýr se zvýšila o 1 bod.
+qstr_You_have_finished_re|{Dočetl/Dočetla} jsi {s1}.{s2}
+qstr_Book_Read|Čtení knihy
+qstr_{s1}_is_scouted.|Na obzoru vidíš {s1}.
+qstr_{s1}_has_switched_fr|{s1} přešel od {s2} k {s3}.
+qstr_{reg65?my_Lady:my_Lo|{reg65?má paní:můj pane}
+qstr_{reg65?My_Lady:My_Lo|{reg65?Má paní:Můj pane}
+qstr_{reg65?madame:sir}|{reg65?madam:sire}
+qstr_{reg65?Madame:Sir}|{reg65?Madam:Sire}
+qstr__no_fiefs_|(žádná léna)
+qstr__fiefs:_{s0}_|(léna: {s0})
+qstr_It_s_your_money_or_y|Teď mi dáš buď svoje peníze, nebo svůj život, {kámo/kočičko}. Žádný náhlý pohyby, nebo tě zapíchnu jak prase.
+qstr_Lucky_for_you_you_ca|Máš štěstí, že jsi mě {zastihl/zastihla} v dobrý náladě. Naval všechny prachy a třeba tě nechám žít. 
+qstr_This_a_robbery_eh?_I|Todle je přepadení, chápeš? Máš šanci navalit všechny svoje věci, nebo tě já a moji kámošové zabijem. Rozumíš? 
+qstr_we_have_made_very_li|zatím jsme učinili jen velmi malý pokrok
+qstr_we_have_suceeded_in_|podařilo se nám získat nějaký základ, ale stále nás ještě čeká dlouhá cesta
+qstr_we_have_become_a_sig|už jsme se stali významnou armádou a máme dokonce i šanci na vítězství
+qstr_we_are_winning_the_w|vyhráváme válku, ale naši nepřátelé se pořád ještě drží.
+qstr_we_are_on_the_verge_|jsme jen krůček od vítězství. Zbývající nepřátelé pro nás nepředstavují žádné nebezpečí, ale musíme je i přesto pobít.
+qstr_{playername}_when_we|{playername}, když jsme stáli na počátku naší dlouhé cesty, jen málokdo měl dost odvahy mě podporovat. A ještě méně bylo těch, kteří byli ochotni riskovat za mou věc svůj život. Tebe ale ani na okamžik nenapadlo zaváhat, jestli se ti vyplatí bojovat proti mým nepřátelům. Hodně jsme toho spolu prožili a byly chvíle, kdy i mne opustila veškerá naděje. Ale s Boží pomocí jsme vytvrali. Nyní nadešel čas, kdy musím opustit tvou společnost a ujmout se toho, co je právoplatně mé. Od této chvíle bude na mých bedrech zodpovědnost za vládnutí zemi {s3}. Leží přede mnou stále mnoho překážek a spoléhám na tebe, že mi s jejich překonáním opět pomůžeš. A samozřejmě i nadále počítám s tím, že jsi mým věrným vazalem.
+qstr__We_will_of_course_n| Samozřejmě budeme muset počkat, až říše nepovede žádnou kampaň.
+qstr_I_am_{s4}_the_ruler_|Jsem {s4}, vládce {s6}
+qstr_I_am_{s4}_a_vassal_o|Jsem {s4}, vazal říše {s6}
+qstr_{s9}{reg5?_and_the_l|{s9}{reg5? a lord panství {s8}.:.
+qstr_{s13}_asked_you_to_g|{s13} tě požádal, abys {sehnal/sehnala} {reg3} kusů dobytka a {přivedl/přivedla} je k němu.
+qstr_{s9}_asked_you_to_sc|{s9} tě požádal, abys {šel/šla} na výzvědy do míst jménem {s13}, {s14} a {s15} a potom {podal/podala} zprávu o tom, co jsi {zjistil/zjistila}.
+qstr_you|ty
+qstr_You_are_challenging_|Ty se mě opovažuješ vyzvat na souboj? To je směšné, ale jak si přeješ. S radostí ti rozbiju hlavu - už jen proto, že si říkáš {playername}.
+qstr_{s16}_and_{s17}|{s16} a {s17}
+qstr_Very_well_I_will_acc|Tak tedy dobře, přijmu tě zpět do svých řad, pokud mi znovu složíš přísahu věrnosti.
+qstr_A_pardon_will_only_b|Milost bude možná pouze tehdy, svolíš-li, že mi postoupíš {s17}. Souhlasíš s mými podmínkami?
+qstr_No._There_is_no_chan|Ne. My dva spolu nemůžeme uzavřít mír, prostě o to nemám zájem.
+qstr_Our_marshal_{s1}|Náš maršál {s1}
+qstr_{s11}_and_{s12}|{s11} a {s12}
+qstr_We_are_not_at_war_wi|Nejsme s nikým ve válce. 
+qstr_We_are_at_war_with_{|Jsme ve válce, ve které proti nám stojí {s12}. 
+qstr_go_on_the_offensive_|nyní přejít do ofenzívy.
+qstr_act_to_defend_our_la|zakročit při obraně své země.
+qstr_take_more_time_to_ga|získat ještě nějaký čas na sebrání vojska.
+qstr_You_promised_to_help|Slíbil jsi, že se postaráš, aby {s13} získal trůn v {s14}.
+qstr_What_do_you_say_to_e|Co takhle vstoupit do něčích služeb? {s9} by byl rád, kdyby ses stal jeho kapitánem žoldnéřů. Nepochybuji, že to zvládneš.
+qstr_{s9}_asked_you_to_ta|{s9} tě žádá, abys {donesl/donesla} zprávu osobě jménem {s13}. Ve chvíli přijetí tohoto úkolu má být {s13} podle dostupných zpráv v místě nazvaném {s4}.
+qstr_{s9}_asked_you_to_tak|{s9} tě požádal, abys {donesl/donesla} zprávu k osobě jménem {s13} z říše {s15}. Ve chvíli přijetí tohoto úkolu měl být {s13} podle dostupných zpráv v okolí panství jménem {s4}.
+qstr_{s11}_asked_you_to_e|{s11} tě požádal, abys {doprovodil/doprovodila} jeho lidi, což jsou {s17} {s13}, do města {s14}.
+qstr_{s13}_asked_you_to_d|{s13} tě požádal, aby ses {vypořádal/vypořádala} s bandity, kteří obsadili vesnici {s15}, a potom mu o tom {podal/podala} zprávu.
+qstr_{s9}_asked_you_to_ra|{s9} tě požádal, abys {sehnal/sehnala} jednotku {s14} v počtu {reg1} a {přivedl/přivedla} je k němu.
+qstr_{s9}_asked_you_to_co|{s9} tě požádal, abys {vybral/vybrala} daně z města {s3}. Nabídl ti odměnu jedné pětiny všech peněz, které tam vybereš.
+qstr_{s9}_asked_you_to_hu|{s9} tě požádal, abys {vypátral/vypátrala} uprchlíka jménem {s4}. Má se za to, že je teď ve vesnici jménem {s3}.
+qstr_{s9}_asked_you_to_as|{s9} tě požádal, abys {zavraždil/zavraždila} místního obchodníka ve městě {s3}.
+qstr_{s9}_has_asked_you_t|{s9} tě požádal, aby ses {setkal/setkala} se zvědem v místě jménem {s13}.
+qstr_{s11}_asked_you_to_f|{s11} tě požádal, abys {sledoval/sledovala} zvěda, který odejde z města {s12}. Dávej si pozor, aby tě zvěd po cestě nezpozoroval, protože by mohl pojmout podezření a vrátit se. Jakmile se zvěd setká se svým komplicem, oba je zajmi a přiveď je zpátky k osobě jménem {s11}.
+qstr_{s11}_asked_you_to_c|{s11} tě požádal, abys {zajal/zajala} jakéhokoliv z lordů z města {s13} a potom jej {odvlekl/odvlekla} zpátky do města {s11}, kde jej musíš držet v bezpečí.
+qstr_{s9}_asked_you_to_le|{s9} tě požádal, abys mu na týden {půjčil/půjčila} jednoho svého společníka, kterým je {s3}.
+qstr_{s9}_asked_you_to_col|{s9} tě požádal, abys {dojel/dojela} vybrat dluh ve výši {reg4} denárů, které mu {s3} dluží. Když ti tento úkol zadali, {s3} byl zrovna v obci {s4}.
+qstr_{s11}_gave_you_a_fak|{s11} ti dal falešný dopis, kterým má být oklamán {s13}, aby se rozhodl zapudit svého vazala, jímž je {s16}. Máš dojet do blízkosti města {s14}, předat dopis některému ze svých vojáků ({s15}) a poslat jej do města jako posla. Tento posel musí věřit, že jsou tvé příkazy myšleny vážně.
+qstr_{s9}_has_requested_y|{s9} požaduje, abys mu {přivedl/přivedla} jako zajatce jednotku {s3} v počtu {reg1}. 
+qstr_Lend_your_experience|Půjčit svého zkušeného chirurga, kterým je {s3}, osobě jménem {s1}.
+qstr_Then_take_it_with_my|V tom případě si jej vezmi s mým poděkováním. Jsi skutečně {muž/žena} vznešeného srdce. Nikdy ti nezapomenu tvou pomoc.
+qstr_Forgive_me_{playerna|Promiň mi, {playername}, ale trvám na tom, musíš je přijmout. Peníze pro mě nic neznamenají a cítím, že ti tolik dlužím. Na, vezmi si je a už o tom více nemluvme.
+qstr_{playername}_what_a_|{playername}, jsi skutečně {muž/žena} ušlechtilého srdce, ale svou odměnu nemůžeš odmítnout. Dlužím ti víc, než dokážu vyjádřit slovy, a jsem si jistý, že ty peníze využiješ mnohem lépe než já.
+qstr_{s11}_asked_you_to_r|{s11} tě požádala, abys někoho {zachránil/zachránila}. Je to její {s17}, {s13}, z města {s14} tak, že si s ním vyměníš oblečení a zaujmeš jeho místo ve vězení.
+qstr_{s11}_asked_you_to_re|{s11} tě požádala, abys někoho {zachránil/zachránila}. Je to její {s17}, {s13}, z města {s14}.
+qstr_{s11}_asked_you_to_d|{s11} tě požádal, abys {doručil/doručila} vzkaz k osobě jménem {s13}, který je uvězněn ve městě {s14}.
+qstr_You_agreed_to_challe|Souhlasíš s výzvou {s13}, že budeš bránit čest osoby jménem {s11}.
+qstr_{s5}__Persuasion_str|{s5} (Síla přesvědčení: {reg5})
+qstr_Persuasion_Attempt|Pokus o přesvědčení
+qstr_A_villager_from_{s7}|Vesničan z obce {s7} tě prosí, abys {zachránil/zachránila} jejich vesnici před bandity, kteří se tam usadili.
+qstr_You_chose_well_{sir/|Tvoje volba je správná, {sire/madam}. Moji chlapci umí držet slovo a svou odměnu si vždy zaslouží.
+qstr_Well_done_{sir/madam|Dobrá práce, {sire/madam}. Jen ať víno teče naším proudem a v Calradii už nenajdete protivníka, kterého byste se {musel/musela} obávat.
+qstr_We_are_at_your_servi|Jsme ti k službám, {sire/madam}. Ukaž nám, koho chceš pobít, a my už se postaráme o to ostatní. 
+qstr_The_Guildmaster_of_{|Cechmistr z {s13} tě požádal, aby ses {vypořádal/vypořádala} s lupiči, kteří se pohybují v okolí.
+qstr_{s9}_of_{s3}_asked_y|{s9} z {s3} tě požádal, abys do sedmi dní {doručil/doručila} {reg5} jednotek {s6} do hospody v {s4}. 
+qstr_Escort_the_merchant_|Doprovoď kupeckou karavanu do města {s8}.
+qstr_Merchant_{s9}_of_{s4|Kupec {s9} z města {s4} tě požádal, abys {dostihl/dostihla} a {pobil/pobila} nebezpečné bandity, jež se pohybují v okolí města. 
+qstr_Guildmaster_of_{s4}_|Cechmistr z města {s4} ti dal {reg12} denárů, abys {zaplatil/zaplatila} výkupné za děvče, které unesli bandité. Máš se s bandity setkat poblíž obce {s3} a vyplatit jim výkupné. Potom máš děvče přivést zpátky do města {s4}.
+qstr_Guildmaster_of_{s4}_p|Cechmistr z {s4} ti slíbil {reg12} denárů, pokud zajistíš, aby {s12} a {s13} přestali představovat hrozbu mírovým jednáním mezi {s15} a {s14}. Musíš je buď oba přesvědčit nebo zařídit, aby upadli do zajetí a zůstali v něm tak dlouho, dokud nebude mírová smlouva podepsána.
+qstr_The_Guildmaster_of_{s|Cechmistr z města {s14} tě požádal, aby ses {vypořádal/vypořádala} s tlupou banditů, kteří sužují ulice města {s14}. Z úkrytu vycházejí pouze v noci a útočí jen na poutníky v ulicích. 
+qstr_Guildmaster_of_{s10}|Cechmistr z {s10} tě požádal, abys {zahnal/zahnala} stádo dobytka do {s13}. Za odměnu získáš {reg8} denárů.
+qstr_He_is_not_commanding|V tuto chvíli nevelí žádným mužům.
+qstr_He_currently_command|V tuto chvíli velí {reg0} mužům{reg1?, z nichž {reg1} je zraněno:}.
+qstr_The_elder_of_the_vil|Stařešina z vesnice {s3} tě požádal, abys mu {přinesl/přinesla} {reg5} pytlů mouky.
+qstr_The_elder_of_the_vill|Stařešina z vesnice {s13} tě požádal, abys {vycvičil/vycvičila} {reg5} sedláků tak, aby byli schopni odrážet místní bandity.
+qstr_The_elder_of_the_villa|Stařešina z vesnice {s3} tě požádal, abys mu {přihnal/přihnala} {reg5} kusů dobytka.
+qstr_{s16}_and_{s15}|{s16} a {s15}
+qstr_I_can_smell_a_fat_pu|Naditý měšec ucítím na míli daleko. Říkám si, že tomu tvému by docela prospělo odlehčení, co?
+qstr_Why_it_be_another_tr|No ne, další poutník, kterého potkávám na cestě! Měl bych tě varovat, zdejší krajina je pro {dobrého/dobrou} {chlapíka/ženskou}, jako jsi ty, nebezpečná. Ale stačí drobný poplatek a já ti slibuji, že tě se svými muži dovedu až do cíle.
+qstr_Well_well_look_at_th|No ne, podívejme na to! Měl bys začít sypat nějaké stříbro, příteli, nebo ti se svými kumpány budeme muset trochu pomoci.
+qstr_There_s_a_toll_for_p|Za průjezd touto zemí musíš zaplatit mýtné. Nám. Takže ti určitě nebude vadit, když si ho vezmeme rovnou z tvého měšce.
+qstr_Another_fool_come_to|Další blázen, který se rozhodl vrhnout se na mou zbraň, co? No, tak tedy do boje!
+qstr_We_re_not_afraid_of_|My se tě nebojíme, {panáčku/holčičko}. Je čas srazit ti hřebínek!
+qstr_That_was_a_mistake._|To byla chyba. Postarám se o to, abys {umíral/umírala} dlouho a pomalu.
+qstr_Brave_words._Let_s_s|Statečná slova. Je načase zjistit, jestli je podpoříš i svými činy!
+qstr_A_{s5}?_Well..._Yes_|{s5}? No... Ano, řekl bych, že ano. To je ale podivná otázka.
+qstr_Eh?_No_it_most_certa|Eh? Ne, určitě to není {s5}. Být tebou, poohlédl bych se po očním lékaři. 
+qstr_This_is_the_{reg4?to|{reg4?Toto město:Tato vesnice} se jmenuje {s5}, {sire/madam}.
+qstr_{s6}_Our_{reg4?town:|{s6} Naše {reg4?město:vesnice} a okolní země přece náleží tobě, {lorde/lady}.
+qstr_{s6}_Our_{reg4?town:v|{s6} Naše {reg4?město:vesnice} a okolní země náleží pánovi jménem {s7} z {s8}.
+qstr_{s3}_and_{s5}|{s3} a {s5}
+qstr_{reg20?We_mostly_pro| {reg20?Mezi zboží, které tu vyrábíme, patří {s5}:Poslední dobou tady nic moc nevyrábíme}. Pokud se chceš dozvědět víc, můžeš si promluvit s naším {reg4?cechmistrem:vesnickým stařešinou}. Najdeš ho kousek odsud.

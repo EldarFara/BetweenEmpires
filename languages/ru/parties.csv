@@ -1,0 +1,199 @@
+p_zendar|Зендар
+p_town_1|Саргот
+p_town_2|Тир
+p_town_3|Велука
+p_town_4|Суно
+p_town_5|Джелкала
+p_town_6|Правен
+p_town_7|Уксхал
+p_town_8|Рейвадин
+p_town_9|Кудан
+p_town_10|Тульга
+p_town_11|Курав
+p_town_12|Верчег
+p_town_13|Ривачег
+p_town_14|Хальмар
+p_town_15|Ялен
+p_town_16|Дирим
+p_town_17|Ичамур
+p_town_18|Нарра
+p_town_19|Шариз
+p_town_20|Дуркуба
+p_town_21|Ахмеррад
+p_town_22|Барийе
+p_castle_1|Замок Кульмарр
+p_castle_2|Замок Малаюрг
+p_castle_3|Замок Булуга
+p_castle_4|Замок Радогир
+p_castle_5|Замок Тельрог
+p_castle_6|Замок Тильбаут
+p_castle_7|Замок Сангетч
+p_castle_8|Замок Джерби
+p_castle_9|Замок Джамиш
+p_castle_10|Замок Альбурк
+p_castle_11|Замок Курин
+p_castle_12|Замок Чалбек
+p_castle_13|Замок Кельредан
+p_castle_14|Замок Мараз
+p_castle_15|Замок Эргеллон
+p_castle_16|Замок Альмерра
+p_castle_17|Замок Дистар
+p_castle_18|Замок Исмирала
+p_castle_19|Замок Ирума
+p_castle_20|Замок Дерчиос
+p_castle_21|Замок Ибделес
+p_castle_22|Замок Унуздак
+p_castle_23|Замок Теварин
+p_castle_24|Замок Реинди
+p_castle_25|Замок Рибелет
+p_castle_26|Замок Сенужда
+p_castle_27|Замок Риндьяр
+p_castle_28|Замок Грюнвальд
+p_castle_29|Замок Нелаг
+p_castle_30|Замок Асуган
+p_castle_31|Замок Винкурд
+p_castle_32|Замок Кнударр
+p_castle_33|Замок Этроск
+p_castle_34|Замок Хрус
+p_castle_35|Замок Харингот
+p_castle_36|Замок Джельбег
+p_castle_37|Замок Драмуг
+p_castle_38|Замок Тульбук
+p_castle_39|Замок Слезк
+p_castle_40|Замок Уххун
+p_castle_41|Замок Джамейед
+p_castle_42|Замок Терамма
+p_castle_43|Замок Шарва
+p_castle_44|Замок Дуррин
+p_castle_45|Замок Караф
+p_castle_46|Замок Вейях
+p_castle_47|Замок Самарра
+p_castle_48|Замок Бардак
+p_village_1|Ярагар
+p_village_2|Бурглен
+p_village_3|Азгад
+p_village_4|Номар
+p_village_5|Кулум
+p_village_6|Эмирин
+p_village_7|Амера
+p_village_8|Хаен
+p_village_9|Бувран
+p_village_10|Мечин
+p_village_11|Дустурил
+p_village_12|Эмер
+p_village_13|Немея
+p_village_14|Сумбуя
+p_village_15|Рибелет
+p_village_16|Шапешт
+p_village_17|Мазен
+p_village_18|Ульбурбан
+p_village_19|Ханун
+p_village_20|Услум
+p_village_21|Бажек
+p_village_22|Шулус
+p_village_23|Ильвия
+p_village_24|Рульди
+p_village_25|Дашбига
+p_village_26|Пагундур
+p_village_27|Глунмар
+p_village_28|Таш Кулун
+p_village_29|Буиллин
+p_village_30|Рувар
+p_village_31|Амбин
+p_village_32|Тосдар
+p_village_33|Рулунс
+p_village_34|Эхлердах
+p_village_35|Фиричен
+p_village_36|Джаек
+p_village_37|Ада Кулун
+p_village_38|Ибиран
+p_village_39|Реверан
+p_village_40|Сарен
+p_village_41|Дуган
+p_village_42|Дириг Абан
+p_village_43|Загуш
+p_village_44|Пешми
+p_village_45|Балугур
+p_village_46|Феднер
+p_village_47|Эпеш
+p_village_48|Вейдар
+p_village_49|Тишмирр
+p_village_50|Каринди
+p_village_51|Джельбег
+p_village_52|Амашк
+p_village_53|Баланли
+p_village_54|Чайд
+p_village_55|Тадсамеш
+p_village_56|Фенада
+p_village_57|Ушкуру
+p_village_58|Везин
+p_village_59|Думар
+p_village_60|Тальберл
+p_village_61|Альделен
+p_village_62|Ребач
+p_village_63|Рдуна
+p_village_64|Сериндьяр
+p_village_65|Индах
+p_village_66|Фишднар
+p_village_67|Тебандра
+p_village_68|Ибделес
+p_village_69|Квинн
+p_village_70|Диригсен
+p_village_71|Тшибтин
+p_village_72|Эльберл
+p_village_73|Чаеза
+p_village_74|Айике
+p_village_75|Булабан
+p_village_76|Кедельке
+p_village_77|Ризи
+p_village_78|Саримиш
+p_village_79|Истиньяр
+p_village_80|Ваежег
+p_village_81|Одасан
+p_village_82|Ялиб
+p_village_83|Гизим
+p_village_84|Челез
+p_village_85|Исмирала
+p_village_86|Слезк
+p_village_87|Удиньяд
+p_village_88|Тульбук
+p_village_89|Уххун
+p_village_90|Джамиш
+p_village_91|Айн Ассуади
+p_village_92|Диббайн
+p_village_93|Калют
+p_village_94|Мазиг
+p_village_95|Тамнух
+p_village_96|Хабба
+p_village_97|Сехтем
+p_village_98|Мавити
+p_village_99|Фишара
+p_village_100|Икбаил
+p_village_101|Узга
+p_village_102|Шибал Зумр
+p_village_103|Миджает
+p_village_104|Тазюнат
+p_village_105|Ааб
+p_village_106|Хаваха
+p_village_107|Унрия
+p_village_108|Мит Нун
+p_village_109|Тилимсал
+p_village_110|Рушдиг
+p_salt_mine|Соляная шахта
+p_four_ways_inn|Таверна Четырех Дорог
+p_test_scene|Тестовая сцена
+p_battlefields|Поле боя
+p_dhorak_keep|Крепость Дорак
+p_training_ground|Тренировочное поле
+p_training_ground_1|Тренировочное поле
+p_training_ground_2|Тренировочное поле
+p_training_ground_3|Тренировочное поле
+p_training_ground_4|Тренировочное поле
+p_training_ground_5|Тренировочное поле
+p_steppe_bandit_spawn_point|степи
+p_taiga_bandit_spawn_point|тундры
+p_forest_bandit_spawn_point|леса
+p_mountain_bandit_spawn_point|нагорья
+p_sea_raider_spawn_point_1|побережья
+p_sea_raider_spawn_point_2|побережья
+p_desert_bandit_spawn_point|пустыни

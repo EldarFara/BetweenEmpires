@@ -1,0 +1,1204 @@
+﻿itm_no_item|NEM MEGFELELŐ TÁRGY
+itm_no_item_pl|NEM MEGFELELŐ TÁRGY
+itm_tutorial_spear|lándzsa
+itm_tutorial_spear_pl|lándzsa
+itm_tutorial_club|bunkósbot
+itm_tutorial_club_pl|bunkósbot
+itm_tutorial_battle_axe|csatabárd
+itm_tutorial_battle_axe_pl|csatabárd
+itm_tutorial_arrows|nyíl
+itm_tutorial_arrows_pl|nyíl
+itm_tutorial_bolts|nyílvessző
+itm_tutorial_bolts_pl|nyílvessző
+itm_tutorial_short_bow|rövid íj
+itm_tutorial_short_bow_pl|rövid íj
+itm_tutorial_crossbow|számszeríj
+itm_tutorial_crossbow_pl|számszeríj
+itm_tutorial_throwing_daggers|dobótőr
+itm_tutorial_throwing_daggers_pl|dobótőr
+itm_tutorial_saddle_horse|hátasló
+itm_tutorial_saddle_horse_pl|hátasló
+itm_tutorial_shield|lovagi pajzs
+itm_tutorial_shield_pl|lovagi pajzs
+itm_tutorial_staff_no_attack|bot
+itm_tutorial_staff_no_attack_pl|bot
+itm_tutorial_staff|bot
+itm_tutorial_staff_pl|bot
+itm_tutorial_sword|kard
+itm_tutorial_sword_pl|kard
+itm_tutorial_axe|fejsze
+itm_tutorial_axe_pl|fejsze
+itm_tutorial_dagger|tőr
+itm_tutorial_dagger_pl|tőr
+itm_horse_meat|lóhús
+itm_horse_meat_pl|lóhús
+itm_practice_sword|gyakorlókard
+itm_practice_sword_pl|gyakorlókard
+itm_heavy_practice_sword|nehéz gyakorlókard
+itm_heavy_practice_sword_pl|nehéz gyakorlókard
+itm_practice_dagger|gyakorló dobótőr
+itm_practice_dagger_pl|gyakorló dobótőr
+itm_practice_axe|gyakorlófejsze
+itm_practice_axe_pl|gyakorlófejsze
+itm_arena_axe|fejsze
+itm_arena_axe_pl|fejsze
+itm_arena_sword|kard
+itm_arena_sword_pl|kard
+itm_arena_sword_two_handed|kétkezes kard
+itm_arena_sword_two_handed_pl|kétkezes kard
+itm_arena_lance|lándzsa
+itm_arena_lance_pl|lándzsa
+itm_practice_staff|gyakorlóbot
+itm_practice_staff_pl|gyakorlóbot
+itm_practice_lance|gyakorlódárda
+itm_practice_lance_pl|gyakorlódárda
+itm_practice_shield|gyakorlópajzs
+itm_practice_shield_pl|gyakorlópajzs
+itm_practice_bow|gyakorlóíj
+itm_practice_bow_pl|gyakorlóíj
+itm_practice_crossbow|gyakorló számszeríj
+itm_practice_crossbow_pl|gyakorló számszeríj
+itm_practice_javelin|gyakorlógerely
+itm_practice_javelin_pl|gyakorlógerely
+itm_practice_javelin_melee|közelharci gerely
+itm_practice_javelin_melee_pl|közelharci gerely
+itm_practice_throwing_daggers|gyakorló dobótőr
+itm_practice_throwing_daggers_pl|gyakorló dobótőr
+itm_practice_throwing_daggers_100_amount|gyakorló dobótőr
+itm_practice_throwing_daggers_100_amount_pl|gyakorló dobótőr
+itm_practice_horse|gyakorló ló
+itm_practice_horse_pl|gyakorló ló
+itm_practice_arrows|gyakorlónyíl
+itm_practice_arrows_pl|gyakorlónyíl
+itm_practice_bolts|gyakorlóvessző
+itm_practice_bolts_pl|gyakorlóvessző
+itm_practice_arrows_10_amount|gyakorlónyíl
+itm_practice_arrows_10_amount_pl|gyakorlónyíl
+itm_practice_arrows_100_amount|gyakorlónyíl
+itm_practice_arrows_100_amount_pl|gyakorlónyíl
+itm_practice_bolts_9_amount|gyakorlóvessző
+itm_practice_bolts_9_amount_pl|gyakorlóvessző
+itm_practice_boots|gyakorlócsizma
+itm_practice_boots_pl|gyakorlócsizma
+itm_red_tourney_armor|vörös tornapáncélzat
+itm_red_tourney_armor_pl|vörös tornapáncélzat
+itm_blue_tourney_armor|kék tornapáncélzat
+itm_blue_tourney_armor_pl|kék tornapáncélzat
+itm_green_tourney_armor|zöld tornapáncélzat
+itm_green_tourney_armor_pl|zöld tornapáncélzat
+itm_gold_tourney_armor|arany tornapáncélzat
+itm_gold_tourney_armor_pl|arany tornapáncélzat
+itm_red_tourney_helmet|vörös tornasisak
+itm_red_tourney_helmet_pl|vörös tornasisak
+itm_blue_tourney_helmet|kék tornasisak
+itm_blue_tourney_helmet_pl|kék tornasisak
+itm_green_tourney_helmet|zöld tornasisak
+itm_green_tourney_helmet_pl|zöld tornasisak
+itm_gold_tourney_helmet|arany tornasisak
+itm_gold_tourney_helmet_pl|arany tornasisak
+itm_arena_shield_red|vörös arénapajzs
+itm_arena_shield_red_pl|vörös arénapajzs
+itm_arena_shield_blue|kék arénapajzs
+itm_arena_shield_blue_pl|kék arénapajzs
+itm_arena_shield_green|zöld arénapajzs
+itm_arena_shield_green_pl|zöld arénapajzs
+itm_arena_shield_yellow|sárga arénapajzs
+itm_arena_shield_yellow_pl|sárga arénapajzs
+itm_arena_armor_white|fehér arénapáncél
+itm_arena_armor_white_pl|fehér arénapáncél
+itm_arena_armor_red|vörös arénapáncél
+itm_arena_armor_red_pl|vörös arénapáncél
+itm_arena_armor_blue|kék arénapáncél
+itm_arena_armor_blue_pl|kék arénapáncél
+itm_arena_armor_green|zöld arénapáncél
+itm_arena_armor_green_pl|zöld arénapáncél
+itm_arena_armor_yellow|sárga arénapáncél
+itm_arena_armor_yellow_pl|sárga arénapáncél
+itm_arena_tunic_white|fehér arénazubbony
+itm_arena_tunic_white_pl|fehér arénazubbony
+itm_arena_tunic_red|vörös arénazubbony
+itm_arena_tunic_red_pl|vörös arénazubbony
+itm_arena_tunic_blue|kék arénazubbony
+itm_arena_tunic_blue_pl|kék arénazubbony
+itm_arena_tunic_green|zöld arénazubbony
+itm_arena_tunic_green_pl|zöld arénazubbony
+itm_arena_tunic_yellow|sárga arénazubbony
+itm_arena_tunic_yellow_pl|sárga arénazubbony
+itm_arena_helmet_red|vörös arénasisak 
+itm_arena_helmet_red_pl|vörös arénasisak
+itm_arena_helmet_blue|kék arénasisak
+itm_arena_helmet_blue_pl|kék arénasisak
+itm_arena_helmet_green|zöld arénasisak
+itm_arena_helmet_green_pl|zöld arénasisak
+itm_arena_helmet_yellow|sárga arénasisak
+itm_arena_helmet_yellow_pl|sárga arénasisak
+itm_steppe_helmet_white|fehér nomád sisak
+itm_steppe_helmet_white_pl|fehér nomád sisak
+itm_steppe_helmet_red|vörös nomád sisak
+itm_steppe_helmet_red_pl|vörös nomád sisak
+itm_steppe_helmet_blue|kék nomád sisak
+itm_steppe_helmet_blue_pl|kék nomád sisak
+itm_steppe_helmet_green|zöld nomád sisak
+itm_steppe_helmet_green_pl|zöld nomád sisak
+itm_steppe_helmet_yellow|sárga nomád sisak
+itm_steppe_helmet_yellow_pl|sárga nomád sisak
+itm_tourney_helm_white|fehér tornasisak
+itm_tourney_helm_white_pl|fehér tornasisak
+itm_tourney_helm_red|vörös tornasisak
+itm_tourney_helm_red_pl|vörös tornasisak
+itm_tourney_helm_blue|kék tornasisak
+itm_tourney_helm_blue_pl|kék tornasisak
+itm_tourney_helm_green|zöld tornasisak
+itm_tourney_helm_green_pl|zöld tornasisak
+itm_tourney_helm_yellow|sárga tornasisak
+itm_tourney_helm_yellow_pl|sárga tornasisak
+itm_arena_turban_red|Aréna turbán
+itm_arena_turban_red_pl|Aréna turbán
+itm_arena_turban_blue|Aréna turbán
+itm_arena_turban_blue_pl|Aréna turbán
+itm_arena_turban_green|Aréna turbán
+itm_arena_turban_green_pl|Aréna turbán
+itm_arena_turban_yellow|Aréna turbán
+itm_arena_turban_yellow_pl|Aréna turbán
+itm_book_tactics|A hadviselésről
+itm_book_tactics_pl|A hadviselésről
+itm_book_persuasion|A Herenniusnak ajánlott retorika
+itm_book_persuasion_pl|A Herenniusnak ajánlott retorika
+itm_book_leadership|Nagy Alixenus élete
+itm_book_leadership_pl|Nagy Alixenus élete
+itm_book_intelligence|Logikai eszmefuttatások
+itm_book_intelligence_pl|Logikai eszmefuttatások
+itm_book_trade|Értekezés a dolgok értékéről
+itm_book_trade_pl|Értekezés a dolgok értékéről
+itm_book_weapon_mastery|A kardforgatás művészete 
+itm_book_weapon_mastery_pl|A kardforgatás művészete
+itm_book_engineering|A mechanikai elvek módszertana
+itm_book_engineering_pl|A mechanikai elvek módszertana
+itm_book_wound_treatment_reference|A gyógyítás könyve
+itm_book_wound_treatment_reference_pl|A gyógyítás könyve
+itm_book_training_reference|Fegyverek kézikönyve
+itm_book_training_reference_pl|Fegyverek kézikönyve
+itm_book_surgery_reference|A sebészet nagykönyve
+itm_book_surgery_reference_pl|A sebészet nagykönyve
+itm_spice|fűszer
+itm_spice_pl|fűszer
+itm_salt|só
+itm_salt_pl|só
+itm_oil|olaj
+itm_oil_pl|olaj
+itm_pottery|edény
+itm_pottery_pl|edény 
+itm_raw_flax|lenköteg
+itm_raw_flax_pl|lenköteg
+itm_linen|vászon
+itm_linen_pl|vászon
+itm_wool|gyapjú
+itm_wool_pl|gyapjú
+itm_wool_cloth|gyapjú posztó
+itm_wool_cloth_pl|gyapjú posztó
+itm_raw_silk|Nyers selyem
+itm_raw_silk_pl|Nyers selyem
+itm_raw_dyes|ruhafesték
+itm_raw_dyes_pl|ruhafesték
+itm_velvet|bársony
+itm_velvet_pl|bársony
+itm_iron|vas
+itm_iron_pl|vas
+itm_tools|szerszámok
+itm_tools_pl|szerszámok
+itm_raw_leather|hasított bőr
+itm_raw_leather_pl|hasított bőr
+itm_leatherwork|készbőr
+itm_leatherwork_pl|készbőr
+itm_raw_date_fruit|datolya
+itm_raw_date_fruit_pl|datolya
+itm_furs|prém
+itm_furs_pl|prém
+itm_wine|bor
+itm_wine_pl|bor
+itm_ale|sör
+itm_ale_pl|sör
+itm_smoked_fish|füstölt hal
+itm_smoked_fish_pl|füstölt hal
+itm_cheese|sajt
+itm_cheese_pl|sajt
+itm_honey|méz
+itm_honey_pl|méz
+itm_sausages|kolbász
+itm_sausages_pl|kolbász
+itm_cabbages|káposzta
+itm_cabbages_pl|káposzta
+itm_dried_meat|szárított hús
+itm_dried_meat_pl|szárított hús
+itm_apples|gyümölcs
+itm_apples_pl|gyümölcs
+itm_raw_grapes|szőlő
+itm_raw_grapes_pl|szőlő
+itm_raw_olives|olíva
+itm_raw_olives_pl|olíva
+itm_grain|gabona
+itm_grain_pl|gabona
+itm_cattle_meat|marhahús
+itm_cattle_meat_pl|marhahús
+itm_bread|kenyér
+itm_bread_pl|kenyér
+itm_chicken|csirkehús
+itm_chicken_pl|csirkehús
+itm_pork|sertéshús
+itm_pork_pl|sertéshús
+itm_butter|vaj
+itm_butter_pl|vaj
+itm_siege_supply|készlet
+itm_siege_supply_pl|készlet
+itm_quest_wine|bor
+itm_quest_wine_pl|bor
+itm_quest_ale|sör
+itm_quest_ale_pl|sör
+itm_tutorial_sword|kard
+itm_tutorial_sword_pl|kard
+itm_tutorial_axe|fejsze
+itm_tutorial_axe_pl|fejsze
+itm_tutorial_spear|lándzsa
+itm_tutorial_spear_pl|lándzsa
+itm_tutorial_club|bunkósbot
+itm_tutorial_club_pl|bunkósbot
+itm_tutorial_battle_axe|csatabárd
+itm_tutorial_battle_axe_pl|csatabárd
+itm_tutorial_arrows|nyíl
+itm_tutorial_arrows_pl|nyíl
+itm_tutorial_bolts|nyílvessző
+itm_tutorial_bolts_pl|nyílvessző
+itm_tutorial_short_bow|rövid íj
+itm_tutorial_short_bow_pl|rövid íj
+itm_tutorial_crossbow|számszeríj
+itm_tutorial_crossbow_pl|számszeríj
+itm_tutorial_throwing_daggers|dobótőr
+itm_tutorial_throwing_daggers_pl|dobótőr
+itm_tutorial_saddle_horse|hátasló
+itm_tutorial_saddle_horse_pl|hátasló
+itm_tutorial_shield|lovagi pajzs
+itm_tutorial_shield_pl|lovagi pajzs
+itm_tutorial_staff_no_attack|bot
+itm_tutorial_staff_no_attack_pl|bot
+itm_tutorial_staff|bot
+itm_tutorial_staff_pl|bot
+itm_sumpter_horse|igásló
+itm_sumpter_horse_pl|igásló
+itm_saddle_horse|hátasló
+itm_saddle_horse_pl|hátasló
+itm_steppe_horse|vadló
+itm_steppe_horse_pl|vadló
+itm_arabian_horse_a|sivatagi ló
+itm_arabian_horse_a_pl|sivatagi ló
+itm_courser|versenyló
+itm_courser_pl|versenyló
+itm_arabian_horse_b|sarranida ló
+itm_arabian_horse_b_pl|sarranida ló
+itm_hunter|vadász
+itm_hunter_pl|vadász
+itm_warhorse|csataló
+itm_warhorse_pl|csataló
+itm_charger|harci mén
+itm_charger_pl|harci mén
+itm_arrows|nyíl
+itm_arrows_pl|nyíl
+itm_khergit_arrows|khergit nyíl
+itm_khergit_arrows_pl|khergit nyíl
+itm_barbed_arrows|tüskés nyíl
+itm_barbed_arrows_pl|tüskés nyíl
+itm_bodkin_arrows|páncéltörő nyíl
+itm_bodkin_arrows_pl|páncéltörő nyíl
+itm_bolts|nyílvessző
+itm_bolts_pl|nyílvessző
+itm_steel_bolts|acélhegyű nyílvessző
+itm_steel_bolts_pl|acélhegyű nyílvessző
+itm_cartridges|töltény
+itm_cartridges_pl|töltény
+itm_pilgrim_disguise|zarándokcsuha
+itm_pilgrim_disguise_pl|zarándokcsuha
+itm_pilgrim_hood|zarándokcsuklya
+itm_pilgrim_hood_pl|zarándokcsuklya
+itm_leather_gloves|bőrkesztyű
+itm_leather_gloves_pl|bőrkesztyű
+itm_mail_mittens|egyujjas lánckesztyű
+itm_mail_mittens_pl|egyujjas lánckesztyű
+itm_scale_gauntlets|páncélkesztyű
+itm_scale_gauntlets_pl|páncélkesztyű
+itm_lamellar_gauntlets|lamellás kesztyű
+itm_lamellar_gauntlets_pl|lamellás kesztyű
+itm_gauntlets|kesztyű
+itm_gauntlets_pl|kesztyű
+itm_wrapping_boots|takarócsizma
+itm_wrapping_boots_pl|takarócsizma
+itm_woolen_hose|gyapjúharisnya
+itm_woolen_hose_pl|gyapjúharisnya
+itm_blue_hose|kék harisnya
+itm_blue_hose_pl|kék harisnya
+itm_hunter_boots|vadászcsizma
+itm_hunter_boots_pl|vadászcsizma
+itm_hide_boots|irhacsizma
+itm_hide_boots_pl|irhacsizma
+itm_ankle_boots|bokacipő
+itm_ankle_boots_pl|bokacipő
+itm_nomad_boots|nomád csizma
+itm_nomad_boots_pl|nomád csizma
+itm_leather_boots|bőrcsizma
+itm_leather_boots_pl|bőrcsizma
+itm_splinted_leather_greaves|szalagos bőr lábvédő
+itm_splinted_leather_greaves_pl|szalagos bőr lábvédő
+itm_mail_chausses|páncélharisnya
+itm_mail_chausses_pl|páncélharisnya
+itm_splinted_greaves|szalagos fém lábvédő
+itm_splinted_greaves_pl|szalagos fém lábvédő
+itm_mail_boots|páncélcsizma
+itm_mail_boots_pl|páncélcsizma
+itm_iron_greaves|vas lábvédő
+itm_iron_greaves_pl|vas lábvédő
+itm_black_greaves|fekete lábvédő
+itm_black_greaves_pl|fekete lábvédő
+itm_khergit_leather_boots|khergit bőrcsizma
+itm_khergit_leather_boots_pl|khergit bőrcsizma
+itm_sarranid_boots_a|sarranida cipő
+itm_sarranid_boots_a_pl|sarranida cipő
+itm_sarranid_boots_b|sarranida bőrcsizma
+itm_sarranid_boots_b_pl|sarranida bőrcsizma
+itm_sarranid_boots_c|lemezcsizma
+itm_sarranid_boots_c_pl|lemezcsizma
+itm_sarranid_boots_d|sarranida páncélcsizma
+itm_sarranid_boots_d_pl|sarranida páncélcsizma
+itm_sarranid_head_cloth|csador
+itm_sarranid_head_cloth_pl|csador
+itm_sarranid_head_cloth_b|csador
+itm_sarranid_head_cloth_b_pl|csador
+itm_sarranid_felt_head_cloth|nemezcsador
+itm_sarranid_felt_head_cloth_pl|nemezcsador
+itm_sarranid_felt_head_cloth_b|nemezcsador
+itm_sarranid_felt_head_cloth_b_pl|nemezcsador
+itm_lady_dress_ruby|bordó női ruha
+itm_lady_dress_ruby_pl|bordó női ruha
+itm_lady_dress_green|zöld női ruha
+itm_lady_dress_green_pl|zöld női ruha
+itm_lady_dress_blue|kék női ruha
+itm_lady_dress_blue_pl|kék női ruha
+itm_red_dress|vörös női ruha
+itm_red_dress_pl|vörös női ruha
+itm_brown_dress|barna női ruha
+itm_brown_dress_pl|barna női ruha
+itm_green_dress|zöld női ruha
+itm_green_dress_pl|zöld női ruha
+itm_khergit_lady_dress|khergit női ruha
+itm_khergit_lady_dress_pl|khergit női ruha
+itm_khergit_lady_dress_b|khergit női bőrruha
+itm_khergit_lady_dress_b_pl|khergit női bőrruha
+itm_sarranid_lady_dress|sarranida női ruha
+itm_sarranid_lady_dress_pl|sarranida női ruha
+itm_sarranid_lady_dress_b|sarranida női ruha
+itm_sarranid_lady_dress_b_pl|sarranida női ruha
+itm_sarranid_common_dress|sarranida egyszerű női ruha
+itm_sarranid_common_dress_pl|sarranida egyszerű női ruha
+itm_sarranid_common_dress_b|sarranida egyszerű női ruha
+itm_sarranid_common_dress_b_pl|sarranida egyszerű női ruha
+itm_courtly_outfit|udvari viselet
+itm_courtly_outfit_pl|udvari viselet
+itm_nobleman_outfit|nemesi felöltő
+itm_nobleman_outfit_pl|nemesi felöltő
+itm_nomad_armor|nomád páncél
+itm_nomad_armor_pl|nomád páncél
+itm_khergit_armor|khergit páncél
+itm_khergit_armor_pl|khergit páncél
+itm_leather_jacket|bőrzakó
+itm_leather_jacket_pl|bőrzakó
+itm_rawhide_coat|cserzett bőr kabát
+itm_rawhide_coat_pl|cserzett bőr kabát
+itm_leather_armor|bőrpáncél
+itm_leather_armor_pl|bőrpáncél
+itm_fur_coat|szőrmekabát
+itm_fur_coat_pl|szőrmekabát
+itm_coat|hosszúkabát
+itm_coat_pl|hosszúkabát
+itm_leather_coat|hosszú bőrkabát
+itm_leather_coat_pl|hosszú bőrkabát
+itm_mail_coat|páncéling
+itm_mail_coat_pl|páncéling
+itm_long_mail_coat|hosszú páncéling
+itm_long_mail_coat_pl|hosszú páncéling
+itm_sleeveless_mail_coat|ujjatlan páncéling
+itm_sleeveless_mail_coat_pl|ujjatlan páncéling
+itm_sleeveless_coat|ujjatlan kabát
+itm_sleeveless_coat_pl|ujjatlan kabát
+itm_hide_coat|hosszú irhakabát
+itm_hide_coat_pl|hosszú irhakabát
+itm_merchant_outfit|Kereskedőruha
+itm_merchant_outfit_pl|kereskedőruha
+itm_homespun_dress|házi szőttesruha
+itm_homespun_dress_pl|házi szőttesruha
+itm_thick_coat|vastag kabát
+itm_thick_coat_pl|vastag kabát
+itm_coat_with_cape|pelerin
+itm_coat_with_cape_pl|pelerin
+itm_steppe_outfit|pusztai felöltő
+itm_steppe_outfit_pl|pusztai felöltő
+itm_nordic_outfit|északi felöltő
+itm_nordic_outfit_pl|északi felöltő
+itm_nordic_armor|északi páncél
+itm_nordic_armor_pl|északi páncél
+itm_hide_armor|irhapáncél
+itm_hide_armor_pl|irhapáncél
+itm_cloaked_tunic|köpenyes zubbony
+itm_cloaked_tunic_pl|köpenyes zubbony
+itm_sleeveless_tunic|ujjatlan zubbony 
+itm_sleeveless_tunic_pl|ujjatlan zubbony
+itm_sleeveless_leather_tunic|ujjatlan bőrzubbony
+itm_sleeveless_leather_tunic_pl|ujjatlan bőrzubbony
+itm_linen_shirt|vászoning
+itm_linen_shirt_pl|vászoning
+itm_wool_coat|gyapjúkabát
+itm_wool_coat_pl|gyapjúkabát
+itm_dress|női ruha
+itm_dress_pl|női ruha
+itm_blue_dress|kék női ruha
+itm_blue_dress_pl|kék női ruha
+itm_peasant_dress|női parasztruha
+itm_peasant_dress_pl|női parasztruha
+itm_woolen_dress|gyapjú női ruha
+itm_woolen_dress_pl|gyapjú női ruha
+itm_shirt|ing
+itm_shirt_pl|ing
+itm_linen_tunic|vászonzubbony
+itm_linen_tunic_pl|vászonzubbony
+itm_short_tunic|vörös zubbony
+itm_short_tunic_pl|vörös zubbony
+itm_red_shirt|vörös ing
+itm_red_shirt_pl|vörös ing
+itm_red_tunic|vörös zubbony
+itm_red_tunic_pl|vörös zubbony
+itm_green_tunic|zöld zubbony
+itm_green_tunic_pl|zöld zubbony
+itm_blue_tunic|kék zubbony
+itm_blue_tunic_pl|kék zubbony
+itm_robe|talár
+itm_robe_pl|talár
+itm_coarse_tunic|mellényes zubbony
+itm_coarse_tunic_pl|mellényes zubbony
+itm_leather_apron|bőrkötény
+itm_leather_apron_pl|bőrkötény
+itm_tabard|lovagi köntös
+itm_tabard_pl|lovagi köntös
+itm_leather_vest|bőrmellény
+itm_leather_vest_pl|bőrmellény
+itm_steppe_armor|pusztai páncél
+itm_steppe_armor_pl|pusztai páncél
+itm_gambeson|gambeson
+itm_gambeson_pl|gambeson
+itm_blue_gambeson|kék gambeson
+itm_blue_gambeson_pl|kék gambeson
+itm_red_gambeson|vörös gambeson
+itm_red_gambeson_pl|vörös gambeson
+itm_padded_cloth|aketon
+itm_padded_cloth_pl|aketon
+itm_aketon_green|bélelt vászon
+itm_aketon_green_pl|bélelt vászon
+itm_leather_jerkin|bőrzeke
+itm_leather_jerkin_pl|bőrzeke
+itm_nomad_vest|nomád mellény
+itm_nomad_vest_pl|nomád mellény
+itm_ragged_outfit|rongyruha
+itm_ragged_outfit_pl|rongyruha
+itm_padded_leather|bélelt bőrruha
+itm_padded_leather_pl|bélelt bőrruha
+itm_tribal_warrior_outfit|törzsi harcos viselet
+itm_tribal_warrior_outfit_pl|törzsi harcos viselet
+itm_nomad_robe|nomád köntös
+itm_nomad_robe_pl|nomád köntös
+itm_studded_leather_coat|szegecses bőrkabát
+itm_studded_leather_coat_pl|szegecses bőrkabát
+itm_byrnie|lánczubbony
+itm_byrnie_pl|lánczubbony
+itm_haubergeon|hauberk
+itm_haubergeon_pl|hauberk
+itm_lamellar_vest|lamellás mellény
+itm_lamellar_vest_pl|lamellás mellény
+itm_lamellar_vest_khergit|lamellás mellény
+itm_lamellar_vest_khergit_pl|lamellás mellény
+itm_mail_shirt|ingvért
+itm_mail_shirt_pl|ingvért
+itm_mail_hauberk|hauberk vért
+itm_mail_hauberk_pl|hauberk vért
+itm_mail_with_surcoat|köpenyes vért
+itm_mail_with_surcoat_pl|köpenyes vért
+itm_surcoat_over_mail|vérttakaró
+itm_surcoat_over_mail_pl|vérttakaró
+itm_brigandine_red|brigantin
+itm_brigandine_red_pl|brigantin
+itm_lamellar_armor|lamellás vért
+itm_lamellar_armor_pl|lamellás vért
+itm_scale_armor|pikkelyvért
+itm_scale_armor_pl|pikkelyvért
+itm_banded_armor|pántos vért
+itm_banded_armor_pl|pántos vért
+itm_cuir_bouilli|keményített bőrpáncél
+itm_cuir_bouilli_pl|keményített bőrpáncél
+itm_coat_of_plates|páncélruha
+itm_coat_of_plates_pl|páncélruha
+itm_coat_of_plates_red|páncélruha
+itm_coat_of_plates_red_pl|páncélruha
+itm_plate_armor|lemezpáncél
+itm_plate_armor_pl|lemezpáncél
+itm_black_armor|fekete páncél
+itm_black_armor_pl|fekete páncél
+itm_pelt_coat|irhakabát
+itm_pelt_coat_pl|irhakabát
+itm_khergit_elite_armor|khergit elitpáncél
+itm_khergit_elite_armor_pl|khergit elitpáncél
+itm_vaegir_elite_armor|vaegir elitpáncél
+itm_vaegir_elite_armor_pl|vaegir elitpáncél
+itm_sarranid_elite_armor|sarranida elitpáncél
+itm_sarranid_elite_armor_pl|sarranida elitpáncél
+itm_sarranid_dress_a|női ruha
+itm_sarranid_dress_a_pl|női ruha
+itm_sarranid_dress_b|női ruha
+itm_sarranid_dress_b_pl|női ruha
+itm_sarranid_cloth_robe|kopott talár
+itm_sarranid_cloth_robe_pl|kopott talár
+itm_sarranid_cloth_robe_b|kopott talár
+itm_sarranid_cloth_robe_b_pl|kopott talár
+itm_skirmisher_armor|előcsatározó vért
+itm_skirmisher_armor_pl|előcsatározó vért
+itm_archers_vest|bélelt íjászmellény
+itm_archers_vest_pl|bélelt íjászmellény
+itm_sarranid_leather_armor|sarranida bőrvért
+itm_sarranid_leather_armor_pl|sarranida bőrvért
+itm_sarranid_cavalry_robe|lovassági talár
+itm_sarranid_cavalry_robe_pl|lovassági talár
+itm_arabian_armor_b|sarranida védőpáncél
+itm_arabian_armor_b_pl|sarranida védőpáncél
+itm_sarranid_mail_shirt|sarranida ingvért 
+itm_sarranid_mail_shirt_pl|sarranida ingvért 
+itm_mamluke_mail|mameluk vért
+itm_mamluke_mail_pl|mameluk vért
+itm_burlap_tunic|zsákvászon zubbony
+itm_burlap_tunic_pl|zsákvászon zubbony
+itm_heraldic_mail_with_surcoat|címeres vért köpennyel
+itm_heraldic_mail_with_surcoat_pl|címeres vért köpennyel
+itm_heraldic_mail_with_tunic|címeres vért
+itm_heraldic_mail_with_tunic_pl|címeres vért
+itm_heraldic_mail_with_tunic_b|címeres vért
+itm_heraldic_mail_with_tunic_b_pl|címeres vért
+itm_heraldic_mail_with_tabard|címeres vért lovagi köntössel
+itm_heraldic_mail_with_tabard_pl|címeres vért lovagi köntössel
+itm_turret_hat_ruby|tornyos kalap
+itm_turret_hat_ruby_pl|tornyos kalap
+itm_turret_hat_blue|tornyos kalap
+itm_turret_hat_blue_pl|tornyos kalap
+itm_turret_hat_green|barbett
+itm_turret_hat_green_pl|barbett
+itm_head_wrappings|fejfedő
+itm_head_wrappings_pl|fejfedő
+itm_court_hat|tornyos kalap
+itm_court_hat_pl|tornyos kalap
+itm_wimple_a|fejfátyol
+itm_wimple_a_pl|fejfátyol
+itm_wimple_with_veil|fej- és mellfátyol
+itm_wimple_with_veil_pl|fej- és mellfátyol
+itm_straw_hat|szalmakalap
+itm_straw_hat_pl|szalmakalap
+itm_common_hood|csuklya
+itm_common_hood_pl|csuklya
+itm_hood_b|csuklya
+itm_hood_b_pl|csuklya
+itm_hood_c|csuklya
+itm_hood_c_pl|csuklya
+itm_hood_d|csuklya
+itm_hood_d_pl|csuklya
+itm_headcloth|fejkendő
+itm_headcloth_pl|fejkendő
+itm_woolen_hood|gyapjas csuklya
+itm_woolen_hood_pl|gyapjas csuklya
+itm_arming_cap|sisakbélés
+itm_arming_cap_pl|sisakbélés
+itm_fur_hat|szőrmekalap
+itm_fur_hat_pl|szőrmekalap
+itm_nomad_cap|nomád süveg
+itm_nomad_cap_pl|nomád süveg
+itm_nomad_cap_b|nomád süveg
+itm_nomad_cap_b_pl|nomád süveg
+itm_steppe_cap|pusztai süveg
+itm_steppe_cap_pl|pusztai süveg
+itm_padded_coif|bélelt főkötő
+itm_padded_coif_pl|bélelt főkötő
+itm_woolen_cap|gyapjas süveg
+itm_woolen_cap_pl|gyapjas süveg
+itm_felt_hat|nemezkalap
+itm_felt_hat_pl|nemezkalap
+itm_felt_hat_b|nemezkalap
+itm_felt_hat_b_pl|nemezkalap
+itm_leather_cap|bőrsüveg
+itm_leather_cap_pl|bőrsüveg
+itm_female_hood|hölgy fejkötő
+itm_female_hood_pl|hölgy fejkötő
+itm_leather_steppe_cap_a|pusztai bőrsüveg
+itm_leather_steppe_cap_a_pl|pusztai bőrsüveg
+itm_leather_steppe_cap_b|pusztai bőrsüveg
+itm_leather_steppe_cap_b_pl|pusztai bőrsüveg
+itm_leather_steppe_cap_c|pusztai bőrsüveg
+itm_leather_steppe_cap_c_pl|pusztai bőrsüveg
+itm_leather_warrior_cap|harci bőrsüveg
+itm_leather_warrior_cap_pl|harci bőrsüveg
+itm_skullcap|birétum
+itm_skullcap_pl|birétum
+itm_mail_coif|fejvért
+itm_mail_coif_pl|fejvért
+itm_footman_helmet|gyalogossisak
+itm_footman_helmet_pl|gyalogossisak
+itm_nasal_helmet|orrvédős sisak
+itm_nasal_helmet_pl|orrvédős sisak
+itm_norman_helmet|sisak béléssel
+itm_norman_helmet_pl|sisak béléssel
+itm_segmented_helmet|lemezes sisak
+itm_segmented_helmet_pl|lemezes sisak
+itm_helmet_with_neckguard|nyakvédős sisak
+itm_helmet_with_neckguard_pl|nyakvédős sisak
+itm_flat_topped_helmet|lapos tetejű sisak
+itm_flat_topped_helmet_pl|lapos tetejű sisak
+itm_kettle_hat|vaskalap
+itm_kettle_hat_pl|vaskalap
+itm_spiked_helmet|tüskés sisak
+itm_spiked_helmet_pl|tüskés sisak
+itm_nordic_helmet|északi sisak
+itm_nordic_helmet_pl|északi sisak
+itm_khergit_lady_hat|khergit női kalap
+itm_khergit_lady_hat_pl|khergit női kalap
+itm_khergit_lady_hat_b|khergit női bőrkalap
+itm_khergit_lady_hat_b_pl|khergit női bőrkalap
+itm_sarranid_felt_hat|sarranida nemezkalap
+itm_sarranid_felt_hat_pl|sarranida nemezkalap
+itm_turban|turbán
+itm_turban_pl|turbán
+itm_desert_turban|sivatagi turbán
+itm_desert_turban_pl|sivatagi turbán
+itm_sarranid_warrior_cap|sarranida harcos süveg
+itm_sarranid_warrior_cap_pl|sarranida harcos süveg
+itm_sarranid_horseman_helmet|lovas sisak
+itm_sarranid_horseman_helmet_pl|lovas sisak
+itm_sarranid_helmet1|sarranida keffije sisak
+itm_sarranid_helmet1_pl|sarranida keffije sisak
+itm_sarranid_mail_coif|sarranida fejvért
+itm_sarranid_mail_coif_pl|sarranida fejvért
+itm_sarranid_veiled_helmet|sarranida fátylas sisak
+itm_sarranid_veiled_helmet_pl|sarranida fátylas sisak
+itm_nordic_archer_helmet|nord bőrsisak
+itm_nordic_archer_helmet_pl|nord bőrsisak
+itm_nordic_veteran_archer_helmet|nord bőrsisak
+itm_nordic_veteran_archer_helmet_pl|nord bőrsisak
+itm_nordic_footman_helmet|nord gyalogos sisak
+itm_nordic_footman_helmet_pl|nord gyalogos sisak
+itm_nordic_fighter_helmet|nord harcos sisak
+itm_nordic_fighter_helmet_pl|nord harcos sisak
+itm_nordic_huscarl_helmet|nord huskarl sisak
+itm_nordic_huscarl_helmet_pl|nord huskarl sisak
+itm_nordic_warlord_helmet|nord hadúri sisak
+itm_nordic_warlord_helmet_pl|nord hadúri sisak
+itm_vaegir_fur_cap|szőrmekalap
+itm_vaegir_fur_cap_pl|szőrmekalap
+itm_vaegir_fur_helmet|vaegir sisak
+itm_vaegir_fur_helmet_pl|vaegir sisak
+itm_vaegir_spiked_helmet|tüskés sisak
+itm_vaegir_spiked_helmet_pl|tüskés sisak
+itm_vaegir_lamellar_helmet|lamellás sisak
+itm_vaegir_lamellar_helmet_pl|lamellás sisak
+itm_vaegir_noble_helmet|vaegir nemesi sisak
+itm_vaegir_noble_helmet_pl|vaegir nemesi sisak
+itm_vaegir_war_helmet|vaegir harci sisak
+itm_vaegir_war_helmet_pl|vaegir harci sisak
+itm_vaegir_mask|vaegir harci védőmaszk
+itm_vaegir_mask_pl|vaegir harci védőmaszk
+itm_bascinet|bascinet
+itm_bascinet_pl|bascinet
+itm_bascinet_2|bascinet nyakvérttel
+itm_bascinet_2_pl|bascinet nyakvérttel
+itm_bascinet_3|bascinet orrvédővel
+itm_bascinet_3_pl|bascinet orrvédővel
+itm_guard_helmet|védősisak
+itm_guard_helmet_pl|védősisak
+itm_black_helmet|fekete sisak
+itm_black_helmet_pl|fekete sisak
+itm_full_helm|teljes sisak
+itm_full_helm_pl|teljes sisak
+itm_great_helmet|nagy sisak
+itm_great_helmet_pl|nagy sisak
+itm_winged_great_helmet|szárnyas nagy sisak
+itm_winged_great_helmet_pl|szárnyas nagy sisak
+itm_wooden_stick|fabot
+itm_wooden_stick_pl|fabot
+itm_cudgel|fütykös
+itm_cudgel_pl|fütykös
+itm_hammer|kalapács
+itm_hammer_pl|kalapács
+itm_club|bunkósbot
+itm_club_pl|bunkósbot
+itm_winged_mace|tollas buzogány
+itm_winged_mace_pl|tollas buzogány
+itm_spiked_mace|tüskés buzogány
+itm_spiked_mace_pl|tüskés buzogány
+itm_military_hammer|katonai kalapács
+itm_military_hammer_pl|katonai kalapács
+itm_maul|bunkó
+itm_maul_pl|bunkó
+itm_sledgehammer|pöröly
+itm_sledgehammer_pl|pöröly
+itm_warhammer|nagykalapács
+itm_warhammer_pl|nagykalapács
+itm_pickaxe|csákány
+itm_pickaxe_pl|csákány
+itm_spiked_club|tüskés bot
+itm_spiked_club_pl|tüskés bot
+itm_fighting_pick|csatacsákány
+itm_fighting_pick_pl|csatacsákány
+itm_military_pick|katonai csákány
+itm_military_pick_pl|katonai csákány
+itm_morningstar|flamand buzogány
+itm_morningstar_pl|flamand buzogány
+itm_sickle|sarló
+itm_sickle_pl|sarló
+itm_cleaver|bárd
+itm_cleaver_pl|bárd
+itm_knife|kés
+itm_knife_pl|kés
+itm_butchering_knife|henteskés
+itm_butchering_knife_pl|henteskés
+itm_dagger|tőr
+itm_dagger_pl|tőr
+itm_falchion|fattyúkard
+itm_falchion_pl|fattyúkard
+itm_scimitar|szablya
+itm_scimitar_pl|szablya
+itm_scimitar_b|elit szablya
+itm_scimitar_b_pl|elit szablya
+itm_arabian_sword_a|sarranida kard
+itm_arabian_sword_a_pl|sarranida kard
+itm_arabian_sword_b|sarranida egykezes csatakard
+itm_arabian_sword_b_pl|sarranida egykezes csatakard
+itm_sarranid_cavalry_sword|sarranida lovassági kard
+itm_sarranid_cavalry_sword_pl|sarranida lovassági kard
+itm_arabian_sword_d|sarranida védőkard
+itm_arabian_sword_d_pl|sarranida védőkard
+itm_great_sword|pallos
+itm_great_sword_pl|pallos
+itm_sword_of_war|harci kard
+itm_sword_of_war_pl|harci kard
+itm_hatchet|szekerce
+itm_hatchet_pl|szekerce
+itm_hand_axe|kézi fejsze
+itm_hand_axe_pl|kézi fejsze
+itm_fighting_axe|harci fejsze
+itm_fighting_axe_pl|harci fejsze
+itm_axe|fejsze
+itm_axe_pl|fejsze
+itm_voulge|alabárd
+itm_voulge_pl|alabárd
+itm_battle_axe|csatabárd
+itm_battle_axe_pl|csatabárd
+itm_war_axe|hadi fejsze
+itm_war_axe_pl|hadi fejsze
+itm_sword_two_handed_b|kétkezes kard
+itm_sword_two_handed_b_pl|kétkezes kard
+itm_sword_two_handed_a|nagy pallos
+itm_sword_two_handed_a_pl|nagy pallos
+itm_khergit_sword_two_handed_a|kétkezes szablya
+itm_khergit_sword_two_handed_a_pl|kétkezes szablya
+itm_khergit_sword_two_handed_b|kétkezes szablya
+itm_khergit_sword_two_handed_b_pl|kétkezes szablya
+itm_two_handed_cleaver|harci bárd
+itm_two_handed_cleaver_pl|harci bárd
+itm_military_cleaver_b|katonai bárd
+itm_military_cleaver_b_pl|katonai bárd
+itm_military_cleaver_c|hadi bárd
+itm_military_cleaver_c_pl|hadi bárd
+itm_military_sickle_a|hadi sarló
+itm_military_sickle_a_pl|hadi sarló
+itm_bastard_sword_a|másfélkezes kard
+itm_bastard_sword_a_pl|másfélkezes kard
+itm_bastard_sword_b|nehéz másfélkezes kard
+itm_bastard_sword_b_pl|nehéz másfélkezes kard
+itm_one_handed_war_axe_a|egykezes fejsze
+itm_one_handed_war_axe_a_pl|egykezes fejsze
+itm_one_handed_battle_axe_a|egykezes csatabárd
+itm_one_handed_battle_axe_a_pl|egykezes csatabárd
+itm_one_handed_war_axe_b|egykezes harci fejsze
+itm_one_handed_war_axe_b_pl|egykezes harci fejsze
+itm_one_handed_battle_axe_b|egykezes csatabárd
+itm_one_handed_battle_axe_b_pl|egykezes csatabárd
+itm_one_handed_battle_axe_c|egykezes csatabárd
+itm_one_handed_battle_axe_c_pl|egykezes csatabárd
+itm_two_handed_axe|kétkezes fejsze
+itm_two_handed_axe_pl|kétkezes fejsze
+itm_two_handed_battle_axe_2|kétkezes harci fejsze
+itm_two_handed_battle_axe_2_pl|kétkezes harci fejsze
+itm_shortened_voulge|rövid nyelű alabárd
+itm_shortened_voulge_pl|rövid nyelű alabárd
+itm_great_axe|nagyfejsze
+itm_great_axe_pl|nagyfejsze
+itm_long_axe|hosszú fejsze
+itm_long_axe_pl|hosszú fejsze
+itm_long_axe_alt|hosszú fejsze
+itm_long_axe_alt_pl|hosszú fejsze
+itm_long_axe_b|hosszú harci fejsze
+itm_long_axe_b_pl|hosszú harci fejsze
+itm_long_axe_b_alt|hosszú harci fejsze
+itm_long_axe_b_alt_pl|hosszú harci fejsze
+itm_long_axe_c|nagy hosszú fejsze
+itm_long_axe_c_pl|nagy hosszú fejsze
+itm_long_axe_c_alt|nagy hosszú fejsze
+itm_long_axe_c_alt_pl|nagy hosszú fejsze
+itm_bardiche|bardiche fejsze
+itm_bardiche_pl|bardiche fejsze
+itm_great_bardiche|nagy bardiche fejsze
+itm_great_bardiche_pl|nagy bardiche fejsze
+itm_voulge|alabárd
+itm_voulge_pl|alabárd
+itm_long_bardiche|hosszú bardiche fejsze
+itm_long_bardiche_pl|hosszú bardiche fejsze
+itm_great_long_bardiche|nagy hosszú bardiche fejsze
+itm_great_long_bardiche_pl|nagy hosszú bardiche fejsze
+itm_hafted_blade_b|nyeles penge
+itm_hafted_blade_b_pl|nyeles penge
+itm_hafted_blade_a|nyeles penge
+itm_hafted_blade_a_pl|nyeles penge
+itm_shortened_military_scythe|rövid nyelű kiegyenesített kasza
+itm_shortened_military_scythe_pl|rövid nyelű kiegyenesített kasza
+itm_sword_medieval_a|kard
+itm_sword_medieval_a_pl|kard
+itm_sword_medieval_b|kard
+itm_sword_medieval_b_pl|kard
+itm_sword_medieval_b_small|rövid kard
+itm_sword_medieval_b_small_pl|rövid kard
+itm_sword_medieval_c|egykezes csatakard
+itm_sword_medieval_c_pl|egykezes csatakard
+itm_sword_medieval_c_small|rövid csatakard
+itm_sword_medieval_c_small_pl|rövid csatakard
+itm_sword_medieval_c_long|egykezes csatakard
+itm_sword_medieval_c_long_pl|egykezes csatakard
+itm_sword_medieval_d_long|hosszú egykezes csatakard
+itm_sword_medieval_d_long_pl|hosszú egykezes csatakard
+itm_sword_viking_1|északi kard
+itm_sword_viking_1_pl|északi kard
+itm_sword_viking_2|északi kard
+itm_sword_viking_2_pl|északi kard
+itm_sword_viking_2_small|északi rövid kard
+itm_sword_viking_2_small_pl|északi rövid kard
+itm_sword_viking_3|északi harci  kard
+itm_sword_viking_3_pl|északi harci  kard
+itm_sword_viking_3_small|északi rövid harci kard 
+itm_sword_viking_3_small_pl|északi rövid harci kard 
+itm_sword_khergit_1|nomád szablya
+itm_sword_khergit_1_pl|nomád szablya
+itm_sword_khergit_2|szablya
+itm_sword_khergit_2_pl|szablya
+itm_sword_khergit_3|szablya
+itm_sword_khergit_3_pl|szablya
+itm_sword_khergit_4|nehéz szablya
+itm_sword_khergit_4_pl|nehéz szablya
+itm_mace_1|tüskés bot
+itm_mace_1_pl|tüskés bot
+itm_mace_2|bütykös buzogány
+itm_mace_2_pl|bütykös buzogány
+itm_mace_3|tüskés buzogány
+itm_mace_3_pl|tüskés buzogány
+itm_mace_4|szárnyas buzogány
+itm_mace_4_pl|szárnyas buzogány
+itm_club_with_spike_head|szögesbot
+itm_club_with_spike_head_pl|szögesbot
+itm_long_spiked_club|hosszú tüskés bot
+itm_long_spiked_club_pl|hosszú tüskés bot
+itm_long_hafted_knobbed_mace|hosszú nyeles bütykös buzogány
+itm_long_hafted_knobbed_mace_pl|hosszú nyeles bütykös buzogány
+itm_long_hafted_spiked_mace|hosszú nyeles tüskés buzogány 
+itm_long_hafted_spiked_mace_pl|hosszú nyeles tüskés buzogány 
+itm_sarranid_two_handed_mace_1|vasbuzogány
+itm_sarranid_two_handed_mace_1_pl|vasbuzogány
+itm_sarranid_mace_1|vasbuzogány
+itm_sarranid_mace_1_pl|vasbuzogány
+itm_sarranid_axe_a|vas csatabárd
+itm_sarranid_axe_a_pl|vas csatabárd
+itm_sarranid_axe_b|vas harci fejsze
+itm_sarranid_axe_b_pl|vas harci fejsze
+itm_sarranid_two_handed_axe_a|sarranida csatabárd
+itm_sarranid_two_handed_axe_a_pl|sarranida csatabárd
+itm_sarranid_two_handed_axe_b|sarranida harci fejsze
+itm_sarranid_two_handed_axe_b_pl|sarranida harci fejsze
+itm_scythe|kasza
+itm_scythe_pl|kasza
+itm_pitch_fork|vasvilla
+itm_pitch_fork_pl|vasvilla
+itm_military_fork|harci vasvilla
+itm_military_fork_pl|harci vasvilla
+itm_battle_fork|csatavilla
+itm_battle_fork_pl|csatavilla
+itm_boar_spear|vadászlándzsa
+itm_boar_spear_pl|vadászlándzsa
+itm_jousting_lance|bajvívó lándzsa
+itm_jousting_lance_pl|bajvívó lándzsa
+itm_double_sided_lance|kétélű dárda
+itm_double_sided_lance_pl|kétélű dárda
+itm_glaive|pengés lándzsa
+itm_glaive_pl|pengés lándzsa
+itm_poleaxe|nyeles bárd
+itm_poleaxe_pl|nyeles bárd
+itm_polehammer|rúdkalapács
+itm_polehammer_pl|rúdkalapács
+itm_staff|bot
+itm_staff_pl|bot
+itm_quarter_staff|vívóbot
+itm_quarter_staff_pl|vívóbot
+itm_iron_staff|vasrúd
+itm_iron_staff_pl|vasrúd
+itm_shortened_spear|rövid lándzsa
+itm_shortened_spear_pl|rövid lándzsa
+itm_spear|lándzsa
+itm_spear_pl|lándzsa
+itm_bamboo_spear|bambuszlándzsa
+itm_bamboo_spear_pl|bambuszlándzsa
+itm_war_spear|harci lándzsa
+itm_war_spear_pl|harci lándzsa
+itm_military_scythe|kiegyenesített kasza
+itm_military_scythe_pl|kiegyenesített kasza
+itm_light_lance|könnyű dárda
+itm_light_lance_pl|könnyű dárda
+itm_lance|dárda
+itm_lance_pl|dárda
+itm_heavy_lance|nehéz dárda
+itm_heavy_lance_pl|nehéz dárda
+itm_great_lance|nagy dárda
+itm_great_lance_pl|nagy dárda
+itm_pike|pika
+itm_pike_pl|pika
+itm_ashwood_pike|kőrisfa pika
+itm_ashwood_pike_pl|kőrisfa pika
+itm_awlpike|tűhegyű pika
+itm_awlpike_pl|tűhegyű pika
+itm_awlpike_long|hosszú tűhegyű pika
+itm_awlpike_long_pl|hosszú tűhegyű pika
+itm_bec_de_corbin_a|harci kalapács
+itm_bec_de_corbin_a_pl|harci kalapács
+itm_wooden_shield|fapajzs
+itm_wooden_shield_pl|fapajzs
+itm_nordic_shield|északi pajzs
+itm_nordic_shield_pl|északi pajzs
+itm_fur_covered_shield|prémes pajzs
+itm_fur_covered_shield_pl|prémes pajzs
+itm_steel_shield|acélpajzs
+itm_steel_shield_pl|acélpajzs
+itm_plate_covered_round_shield|lemezes kerekpajzs
+itm_plate_covered_round_shield_pl|lemezes kerekpajzs
+itm_leather_covered_round_shield|bőrrel bevont kerekpajzs
+itm_leather_covered_round_shield_pl|bőrrel bevont kerekpajzs
+itm_hide_covered_round_shield|irhával bevont kerekpajzs
+itm_hide_covered_round_shield_pl|irhával bevont kerekpajzs
+itm_shield_heater_c|lapos pajzs
+itm_shield_heater_c_pl|lapos pajzs
+itm_norman_shield_1|lovagi pajzs
+itm_norman_shield_1_pl|lovagi pajzs
+itm_norman_shield_2|lovagi pajzs
+itm_norman_shield_2_pl|lovagi pajzs
+itm_norman_shield_3|lovagi pajzs
+itm_norman_shield_3_pl|lovagi pajzs
+itm_norman_shield_4|lovagi pajzs
+itm_norman_shield_4_pl|lovagi pajzs
+itm_norman_shield_5|lovagi pajzs
+itm_norman_shield_5_pl|lovagi pajzs
+itm_norman_shield_6|lovagi pajzs
+itm_norman_shield_6_pl|lovagi pajzs
+itm_norman_shield_7|lovagi pajzs
+itm_norman_shield_7_pl|lovagi pajzs
+itm_norman_shield_8|lovagi pajzs
+itm_norman_shield_8_pl|lovagi pajzs
+itm_tab_shield_round_a|régi kerekpajzs
+itm_tab_shield_round_a_pl|régi kerekpajzs
+itm_tab_shield_round_b|egyszerű kerekpajzs
+itm_tab_shield_round_b_pl|egyszerű kerekpajzs
+itm_tab_shield_round_c|kerekpajzs
+itm_tab_shield_round_c_pl|kerekpajzs
+itm_tab_shield_round_d|nehéz kerekpajzs
+itm_tab_shield_round_d_pl|nehéz kerekpajzs
+itm_tab_shield_round_e|huskarl kerekpajzs
+itm_tab_shield_round_e_pl|huskarl kerekpajzs
+itm_tab_shield_kite_a|régi lovagi pajzs
+itm_tab_shield_kite_a_pl|régi lovagi pajzs
+itm_tab_shield_kite_b|egyszerű lovagi pajzs
+itm_tab_shield_kite_b_pl|egyszerű lovagi pajzs
+itm_tab_shield_kite_c|lovagi pajzs
+itm_tab_shield_kite_c_pl|lovagi pajzs
+itm_tab_shield_kite_d|nehéz lovagi pajzs
+itm_tab_shield_kite_d_pl|nehéz lovagi pajzs
+itm_tab_shield_kite_cav_a|lovagi lovaspajzs
+itm_tab_shield_kite_cav_a_pl|lovagi lovaspajzs
+itm_tab_shield_kite_cav_b|nagy lovagi pajzs
+itm_tab_shield_kite_cav_b_pl|nagy lovagi pajzs
+itm_tab_shield_heater_a|régi lapos pajzs
+itm_tab_shield_heater_a_pl|régi lapos pajzs
+itm_tab_shield_heater_b|egyszerű lapos pajzs
+itm_tab_shield_heater_b_pl|egyszerű lapos pajzs
+itm_tab_shield_heater_c|lapos pajzs
+itm_tab_shield_heater_c_pl|lapos pajzs
+itm_tab_shield_heater_d|nehéz lapos pajzs
+itm_tab_shield_heater_d_pl|nehéz lapos pajzs
+itm_tab_shield_heater_cav_a|lovas lapos pajzs
+itm_tab_shield_heater_cav_a_pl|lovas lapos pajzs
+itm_tab_shield_heater_cav_b|lovagi lapos pajzs
+itm_tab_shield_heater_cav_b_pl|lovagi lapos pajzs
+itm_tab_shield_pavise_a|régi deszkapajzs
+itm_tab_shield_pavise_a_pl|régi deszkapajzs
+itm_tab_shield_pavise_b|egyszerű deszkapajzs
+itm_tab_shield_pavise_b_pl|egyszerű deszkapajzs
+itm_tab_shield_pavise_c|deszkapajzs
+itm_tab_shield_pavise_c_pl|deszkapajzs
+itm_tab_shield_pavise_d|nehéz deszkapajzs
+itm_tab_shield_pavise_d_pl|nehéz deszkapajzs
+itm_tab_shield_small_round_a|egyszerű lovassági pajzs
+itm_tab_shield_small_round_a_pl|egyszerű lovassági pajzs
+itm_tab_shield_small_round_b|kerek lovassági pajzs
+itm_tab_shield_small_round_b_pl|kerek lovassági pajzs
+itm_tab_shield_small_round_c|elit lovassági pajzs
+itm_tab_shield_small_round_c_pl|elit lovassági pajzs
+itm_darts|hajítódárda
+itm_darts_pl|hajítódárda
+itm_war_darts|harci hajítódárda
+itm_war_darts_pl|harci hajítódárda
+itm_javelin|gerely
+itm_javelin_pl|gerely
+itm_javelin_melee|gerely
+itm_javelin_melee_pl|gerely
+itm_throwing_spears|dobólándzsa
+itm_throwing_spears_pl|dobólándzsa
+itm_throwing_spear_melee|dobólándzsa
+itm_throwing_spear_melee_pl|dobólándzsa
+itm_jarid|jarid
+itm_jarid_pl|jarid
+itm_jarid_melee|jarid
+itm_jarid_melee_pl|jarid
+itm_stones|kő
+itm_stones_pl|kő
+itm_throwing_knives|dobókés
+itm_throwing_knives_pl|dobókés
+itm_throwing_daggers|dobótőr
+itm_throwing_daggers_pl|dobótőr
+itm_light_throwing_axes|könnyű dobófejsze
+itm_light_throwing_axes_pl|könnyű dobófejsze
+itm_light_throwing_axes_melee|könnyű dobófejsze
+itm_light_throwing_axes_melee_pl|könnyű dobófejsze
+itm_throwing_axes|dobófejsze
+itm_throwing_axes_pl|dobófejsze
+itm_throwing_axes_melee|dobófejsze
+itm_throwing_axes_melee_pl|dobófejsze
+itm_heavy_throwing_axes|nehéz dobófejsze
+itm_heavy_throwing_axes_pl|nehéz dobófejsze
+itm_heavy_throwing_axes_melee|nehéz dobófejsze
+itm_heavy_throwing_axes_melee_pl|nehéz dobófejsze
+itm_hunting_bow|vadászíj
+itm_hunting_bow_pl|vadászíj
+itm_short_bow|rövid íj
+itm_short_bow_pl|rövid íj
+itm_nomad_bow|nomád íj
+itm_nomad_bow_pl|nomád íj
+itm_long_bow|hosszú íj
+itm_long_bow_pl|hosszú íj
+itm_khergit_bow|khergit íj
+itm_khergit_bow_pl|khergit íj
+itm_strong_bow|erős íj
+itm_strong_bow_pl|erős íj
+itm_war_bow|harci íj
+itm_war_bow_pl|harci íj
+itm_hunting_crossbow|vadász számszeríj
+itm_hunting_crossbow_pl|vadász számszeríj
+itm_light_crossbow|könnyű számszeríj
+itm_light_crossbow_pl|könnyű számszeríj
+itm_crossbow|számszeríj
+itm_crossbow_pl|számszeríj
+itm_heavy_crossbow|nehéz számszeríj
+itm_heavy_crossbow_pl|nehéz számszeríj
+itm_sniper_crossbow|ostrom számszeríj
+itm_sniper_crossbow_pl|ostrom számszeríj
+itm_flintlock_pistol|kovás pisztoly
+itm_flintlock_pistol_pl|kovás pisztoly
+itm_torch|fáklya
+itm_torch_pl|fáklya
+itm_lyre|lant
+itm_lyre_pl|lant
+itm_lute|koboz
+itm_lute_pl|koboz
+itm_strange_armor|furcsa páncél
+itm_strange_armor_pl|furcsa páncél
+itm_strange_boots|furcsa csizma
+itm_strange_boots_pl|furcsa csizma
+itm_strange_helmet|furcsa sisak
+itm_strange_helmet_pl|furcsa sisak
+itm_strange_sword|furcsa kard
+itm_strange_sword_pl|furcsa kard
+itm_strange_great_sword|furcsa nagy kard
+itm_strange_great_sword_pl|furcsa nagy kard
+itm_strange_short_sword|furcsa nagy kard
+itm_strange_short_sword_pl|furcsa nagy kard
+itm_court_dress|udvari talár
+itm_court_dress_pl|udvari talár
+itm_rich_outfit|fényűző felöltő
+itm_rich_outfit_pl|fényűző felöltő
+itm_khergit_guard_armor|khergit védőpáncél
+itm_khergit_guard_armor_pl|khergit védőpáncél
+itm_felt_steppe_cap|nemezsüveg
+itm_felt_steppe_cap_pl|nemezsüveg
+itm_khergit_war_helmet|khergit harci sisak
+itm_khergit_war_helmet_pl|khergit harci sisak
+itm_khergit_helmet|khergit sisak
+itm_khergit_helmet_pl|khergit sisak
+itm_khergit_guard_boots|khergit védőcsizma
+itm_khergit_guard_boots_pl|khergit védőcsizma
+itm_khergit_guard_helmet|khergit védősisak
+itm_khergit_guard_helmet_pl|khergit védősisak
+itm_khergit_cavalry_helmet|khergit lovassági sisak
+itm_khergit_cavalry_helmet_pl|khergit lovassági sisak
+itm_black_hood|fekete csuklya
+itm_black_hood_pl|fekete csuklya
+itm_light_leather|könnyű bőr
+itm_light_leather_pl|könnyű bőr
+itm_light_leather_boots|könnyű bőrcsizma
+itm_light_leather_boots_pl|könnyű bőrcsizma
+itm_mail_and_plate|lemezvért
+itm_mail_and_plate_pl|lemezvért
+itm_light_mail_and_plate|könnyű lemezvért
+itm_light_mail_and_plate_pl|könnyű lemezvért
+itm_byzantion_helmet_a|bizánci sisak
+itm_byzantion_helmet_a_pl|bizánci sisak
+itm_magyar_helmet_a|magyar sisak
+itm_magyar_helmet_a_pl|magyar sisak
+itm_rus_helmet_a|rusz sisak
+itm_rus_helmet_a_pl|rusz sisak
+itm_sipahi_helmet_a|szpáhi sisak
+itm_sipahi_helmet_a_pl|szpáhi sisak
+itm_shahi|sahi
+itm_shahi_pl|sahi
+itm_rabati|rabati
+itm_rabati_pl|rabati
+itm_tunic_with_green_cape|zubbony zöld köpennyel
+itm_tunic_with_green_cape_pl|zubbony zöld köpennyel
+itm_keys|kulcscsomó
+itm_keys_pl|kulcscsomó
+itm_bride_dress|menyasszonyi ruha
+itm_bride_dress_pl|menyasszonyi ruha
+itm_bride_crown|virágkorona
+itm_bride_crown_pl|virágkorona
+itm_bride_shoes|menyasszonyi cipő
+itm_bride_shoes_pl|menyasszonyi cipő
+itm_practice_bow_2|gyakorló íj
+itm_practice_bow_2_pl|gyakorló íj
+itm_practice_arrows_2|gyakorló nyíl
+itm_practice_arrows_2_pl|gyakorló nyíl
+itm_plate_boots|lemezcsizma
+itm_plate_boots_pl|lemezcsizma
+itm_mail_boots_for_tableau|páncélcsizma
+itm_mail_boots_for_tableau_pl|páncélcsizma
+itm_warhorse_sarranid|Sarraniai harci ló
+itm_warhorse_sarranid_pl|Sarraniai harci ló
+itm_warhorse_steppe|Sztyeppei csatamén
+itm_warhorse_steppe_pl|Sztyeppei csatamén
+itm_items_end|felszerelés lista vége
+itm_items_end_pl|felszerelés lista vége

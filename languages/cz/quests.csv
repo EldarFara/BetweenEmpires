@@ -1,0 +1,65 @@
+﻿qst_deliver_message|Doruč vzkaz pánovi {s13}
+qst_deliver_message_to_enemy_lord|Doruč vzkaz osobě jménem {s13}
+qst_raise_troops|Sežeň jednotku {reg1} v počtu {s14}
+qst_escort_lady|Doprovoď {s13} do {s14}
+qst_deal_with_bandits_at_lords_village|Zachraň vesnici jménem {s15} před loupežnými bandity
+qst_collect_taxes|Vyber daně ve vesnici {s3}
+qst_hunt_down_fugitive|Chyť osobu jménem {s4}
+qst_kill_local_merchant|Zavraždi místního kupce v {s3}
+qst_bring_back_runaway_serfs|Přiveď zpět uprchlé nevolníky
+qst_follow_spy|Sleduj špeha na schůzku
+qst_capture_enemy_hero|Zajmi pána z místa {s13}
+qst_lend_companion|{s9} si chce půjčit tvého společníka jménem {s3}
+qst_collect_debt|Vymáhej dluh, který {s3} nevrací věřiteli jménem {s9}
+qst_incriminate_loyal_commander|Zařiď, aby {s13} pojal podezření proti svému vazalovi jménem {s16}
+qst_meet_spy_in_enemy_town|Setkej se se špehem v místě jménem {s13}
+qst_capture_prisoners|Přiveď jednotku {s3} ({reg1}) jako zajatce
+qst_lend_surgeon|Půjč svého chirurga jménem {s3}, chce ho {s1}
+qst_follow_army|Následuj pána jménem {s9} a jeho armádu
+qst_report_to_army|Podej hlášení vojevůdci jménem {s13}
+qst_deliver_cattle_to_army|Přiveď {reg3} kusy dobytka do lokace {s13}
+qst_join_siege_with_army|Připoj se k obléhání {s14}
+qst_screen_army|Sledovat postup vojska, kterému velí {s13}
+qst_scout_waypoints|Proveď výzvědy u lokalit {s13}, {s14} a {s15}
+qst_rescue_lord_by_replace|Zachraň {s13} před {s14}
+qst_deliver_message_to_prisoner_lord|Doruč vzkaz člověku jménem {s13} do {s14}
+qst_duel_for_lady|Vyzvi {s13}, že spolu zkřížíte zbraně
+qst_duel_courtship_rival|Vznést výzvu, abyste se ty a {s13} utkali se zbraněmi (volitelné)
+qst_duel_avenge_insult|Vyzvi {s13}, že spolu zkřížíte zbraně
+qst_move_cattle_herd|Přižeň stádo dobytka do města {s13}
+qst_escort_merchant_caravan|Doprovoď obchodní karavanu do města {s8}
+qst_deliver_wine|Přivez {reg5} jednotek zboží {s6} do města {s4}
+qst_troublesome_bandits|Vypátrej a odchyť obtížné bandity
+qst_kidnapped_girl|Přines banditům výkupné za dívku
+qst_persuade_lords_to_make_peace|Zajisti, aby dva páni nebránili dosažení smíru
+qst_deal_with_looters|Krátký proces s kořistníky
+qst_deal_with_night_bandits|Krátký proces s nočními lupiči
+qst_deliver_grain|Přivez pšenici do {s3}
+qst_deliver_cattle|Přiveď {reg5} kusů dobytka do {s3}
+qst_train_peasants_against_bandits|Vycvič rolníky z vesnice {s13} k boji proti banditům.
+qst_eliminate_bandits_infesting_village|Zachraň vesnici {s7} před loupeživými bandity.
+qst_visit_lady|Navštívit paní
+qst_formal_marriage_proposal|Formální žádost o ruku
+qst_obtain_liege_blessing|Formální žádost o ruku
+qst_wed_betrothed|Vzít si svou snoubenku
+qst_wed_betrothed_female|Vzít si svého snoubence
+qst_join_faction|Slož slib věrnosti {s1}
+qst_rebel_against_kingdom|Postarej se, ať {s13} získá trůn z {s14}
+qst_consult_with_minister|Konzultovat s ministrem
+qst_organize_feast|Uspořádat hostinu
+qst_resolve_dispute|Vyřešit spor
+qst_offer_gift|Získat dárek
+qst_denounce_lord|Obžalovat vládce
+qst_intrigue_against_lord|Intrikovat proti vládci
+qst_track_down_bandits|Vystopovat bandity
+qst_track_down_provocateurs|Vystopovat provokatéry
+qst_retaliate_for_border_incident|Pomstít se za pohraniční incident
+qst_raid_caravan_to_start_war|Napadnout neutrální karavanu a rozpoutat tak válku
+qst_cause_provocation|Provést provokaci k roznícení války
+qst_rescue_prisoner|Zachránit nebo vykoupit vězně
+qst_destroy_bandit_lair|Znič doupě banditů
+qst_collect_men|Naverbovat pět mužů
+qst_learn_where_merchant_brother_is|Zjistit, kde drží rukojmí
+qst_save_relative_of_merchant|Zaútočit na doupě banditů
+qst_save_town_from_bandits|Zachránit město před bandity
+qst_quests_end|Konec úkolů
