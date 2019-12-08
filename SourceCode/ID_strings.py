@@ -3397,5 +3397,13 @@ str_npc13_1 = 3395
 str_npc14_1 = 3396
 str_npc15_1 = 3397
 str_npc16_1 = 3398
+str_hint_13 = 3399
+str_hint_14 = 3400
+str_hint_15 = 3401
+str_hint_16 = 3402
+str_hint_17 = 3403
+str_hint_18 = 3404
+str_hint_19 = 3405
+str_hint_20 = 3406
 
 
