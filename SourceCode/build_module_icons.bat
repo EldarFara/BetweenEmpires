@@ -1,5 +1,5 @@
 @echo off
-python process_troops.py
+python process_map_icons.py
 @del *.pyc
 echo.
 echo ______________________________

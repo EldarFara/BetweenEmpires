@@ -578,12 +578,12 @@ itemsfile version 3
 
  itm_steppe_horse Steppe_Horse Steppe_Horse 1  steppe_horse 0  65537 0 192 41876193280 0.000000 80 0 10 0 2 120 51 40 98 0 8 0
  2
- 16 17
+ 44 45
 0
 
  itm_arabian_horse_a Desert_Horse Desert_Horse 1  arabian_horse_a 0  65537 0 550 110595670016 0.000000 80 0 10 0 2 110 50 42 100 0 12 0
  2
- 17 20
+ 45 48
 0
 
  itm_courser Courser Courser 1  courser 0  65537 0 600 110595670016 0.000000 70 0 12 0 2 110 44 50 106 0 12 0
@@ -592,7 +592,7 @@ itemsfile version 3
 
  itm_arabian_horse_b Sarranid_Horse Sarranid_Horse 1  arabian_horse_b 0  65537 0 700 110595670016 0.000000 80 0 10 0 3 120 54 43 100 0 16 0
  1
- 20
+ 48
 0
 
  itm_hunter Hunter Hunter 2  hunting_horse 0  hunting_horse 34360000512  65537 0 810 110595670016 0.000000 60 0 18 0 3 160 44 43 108 0 24 0
@@ -605,7 +605,7 @@ itemsfile version 3
 
  itm_charger Charger Charger 1  charger_new 0  65537 0 1811 110595670016 0.000000 40 0 58 0 4 165 44 40 112 0 32 0
  2
- 15 19
+ 43 47
 0
 
  itm_arrows Arrows Arrows 3  arrow 0  flying_missile 2305843009213693952  quiver 3458764513820540928  98309 2147483648 72 4398046511112 3.000000 160 0 0 0 0 0 0 0 95 30 257 0
@@ -2437,12 +2437,12 @@ itemsfile version 3
 
  itm_warhorse_sarranid Sarranian_War_Horse Sarranian_War_Horse 1  warhorse_sarranid 0  65537 0 1811 110595670016 0.000000 40 0 58 0 4 165 44 40 112 0 32 0
  1
- 20
+ 48
 0
 
  itm_warhorse_steppe Steppe_Charger Steppe_Charger 1  warhorse_steppe 0  65537 0 1400 110595670016 0.000000 45 0 40 0 4 150 50 40 112 0 28 0
  2
- 17 16
+ 45 44
 0
 
  itm_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
