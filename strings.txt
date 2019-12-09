@@ -1,5 +1,5 @@
 stringsfile version 1
-3407
+3399
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -3399,11 +3399,3 @@ str_npc13_1 -Good_with_1h_and_bows^-Poor_with_2h
 str_npc14_1 -Good_with_1h^-Good_all-rounder
 str_npc15_1 -Good_with_2h_and_bows^-Poor_with_crossbows_and_throwing
 str_npc16_1 -Good_with_throwing_and_1h^-Poor_with_2h_and_crossbows
-str_hint_13 1
-str_hint_14 1
-str_hint_15 1
-str_hint_16 1
-str_hint_17 1
-str_hint_18 1
-str_hint_19 1
-str_hint_20 1
