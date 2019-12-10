@@ -51185,6 +51185,74 @@ scripts = [
 	(else_try),
 	(assign, reg0, ":value"),
 	(try_end),
-]),   
+]),     
+
+# script_get_angle_of_ground_at_pos
+  # Input: pos37
+  #        z_rot
+  # Output: reg0 = x_rot
+  #         reg1 = y_rot
+  ("get_angle_of_ground_at_pos",
+  [
+    (store_script_param, ":z_rot", 1),
+  
+    (assign, ":x_rot", 0),
+    (assign, ":y_rot", 0),    
+    (try_begin),
+      (init_position,pos38),
+      (position_copy_origin,pos38,pos37),
+      (position_rotate_z,pos38,":z_rot"),
+      (position_set_z_to_ground_level,pos38),
+      #(position_move_z,pos38,500), # 5 meter is middle height
+      
+      # Getting rotation around X
+      (set_fixed_point_multiplier,100000),
+      (position_move_y,pos38,15), # 15 cm forwards
+      (position_get_distance_to_terrain, ":height_to_terrain_front", pos38),
+      (position_move_y,pos38,-30), # 30 cm back
+      (position_get_distance_to_terrain, ":height_to_terrain_back", pos38),
+      (store_sub,":height_difference",":height_to_terrain_front",":height_to_terrain_back"),
+      (store_div,":x_rot",":height_difference",30), # 30 cm
+      (set_fixed_point_multiplier,1000),
+      (store_atan,":x_rot",":x_rot"), # get the angle
+      (val_div,":x_rot",1000),
+      (val_mul,":x_rot",-1),
+      (position_move_y,pos38,15), # 15 cm forward
+       
+      # Getting rotation around Y
+      (set_fixed_point_multiplier,100000),
+      (position_move_x,pos38,15), # 15 cm right
+      (position_get_distance_to_terrain, ":height_to_terrain_right", pos38),
+      (position_move_x,pos38,-30), # 30 cm
+      (position_get_distance_to_terrain, ":height_to_terrain_left", pos38),
+      (store_sub,":height_difference",":height_to_terrain_right",":height_to_terrain_left"),
+      (store_div,":y_rot",":height_difference",30), # 30 cm
+      (set_fixed_point_multiplier,1000),
+      (store_atan,":y_rot",":y_rot"), # get the angle
+      (val_div,":y_rot",1000),
+      (position_move_x,pos38,15), # 15 cm left
+    (try_end),
+    
+    (set_fixed_point_multiplier,100),
+    
+    (assign,reg0,":x_rot"),
+    (assign,reg1,":y_rot"),
+  ]),
+
+  ("set_angle_of_pos39_to_ground_angle",
+  [
+        (init_position,pos37),
+        (position_copy_origin,pos37,pos39),
+        (position_get_rotation_around_z,":z_rot",pos39),
+        (position_set_z_to_ground_level,pos37),
+        (call_script,"script_get_angle_of_ground_at_pos",":z_rot"),
+        (assign,":x_rot",reg0),
+        (assign,":y_rot",reg1),
+        (position_rotate_y,pos37,":y_rot"),
+        (position_rotate_x,pos37,":x_rot"),
+        (position_rotate_z,pos37,":z_rot"),
+        (position_copy_rotation,pos39,pos37),
+	 ]),
+
      
 ]

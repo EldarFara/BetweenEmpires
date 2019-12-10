@@ -609,5 +609,7 @@ script_cf_coop_give_item_to_assigned_group_member = 607
 script_add_player_to_cur_tableau_for_coop = 608
 script_add_troop_to_cur_tableau_for_coop = 609
 script_get_modulus_of_value = 610
+script_get_angle_of_ground_at_pos = 611
+script_set_angle_of_pos39_to_ground_angle = 612
 
 
