@@ -1648,4 +1648,6 @@ profile_character_shadow_position_x = 0.075
 profile_character_shadow_position_y = 0.085
 profile_character_shadow_size_x = 0.32
 profile_character_shadow_size_y = 0.13
+
+starting_window_progress_text_color = 0xFFFFFFFF
  
