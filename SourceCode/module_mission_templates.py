@@ -44,26 +44,6 @@ test = (0, 0, 0, [
 (agent_get_position, pos1, ":player"),
 (set_spawn_position, pos1),
 (spawn_scene_prop, "spr_flora_bush1"),
-	(assign, ":x_coor1", 1000),
-	(assign, ":y_coor1", 1000),
-	(assign, ":x_coor2", 1000),
-	(assign, ":y_coor2", 1000),
-	(assign, ":bushes1", 20),
-	(try_for_range, ":unused", 0, ":bushes1"), 
-	(store_random_in_range, ":x_coor", ":x_coor1", ":x_coor2"),
-	(store_random_in_range, ":y_coor", ":y_coor1", ":y_coor2"),
-	(position_set_x, pos3, ":x_coor"),
-	(position_set_y, pos3, ":y_coor"),
-	(position_set_z_to_ground_level, pos3),
-	(position_get_z, ":z_coor", pos3),
-	(ge, ":z_coor", 10),
-	(store_random_in_range, ":random", 0, 360),
-	(position_rotate_z, pos3, ":random", 1),
-	(store_random_in_range, ":random", 85, 120),
-	(set_spawn_position, pos3),
-	(spawn_scene_prop, "spr_flora_bush1"),
-	(prop_instance_set_scale, reg0, ":random", ":random", ":random"),
-	(try_end),
 ], [])
 
 fgs_trees_ams = (ti_after_mission_start, 0, 0,[ #fgs - Flora Generating System
@@ -93,7 +73,7 @@ fgs_trees_ams = (ti_after_mission_start, 0, 0,[ #fgs - Flora Generating System
 	(assign, ":bushes3", 30),
 	(assign, ":flowers1a", 3),
 	(assign, ":flowers1b", 3),
-	(assign, ":flowers2", 2),
+	(assign, ":flowers2", 4),
 	(try_end),
 
 	(try_for_range, ":unused", 0, ":bushes1"), 
@@ -541,7 +521,7 @@ pws_sky_bms = (ti_before_mission_start, 0, 0, [
 parabellum_script_set1a = [
 pws_sky_bms,
 fgs_trees_ams,
-test,
+#test,
   ]	
 
 multiplayer_server_check_belfry_movement = (
