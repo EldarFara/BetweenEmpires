@@ -3180,5 +3180,16 @@ scene_props = [
   ]),
 #INVASION MODE END
 
+("flora_bush1", 0, "bush1", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
+("flora_bush2", 0, "bush2", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
+("flora_bush3_1", 0, "bush3_1", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
+("flora_bush3_2", 0, "bush3_2", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
+("flora_bush3_3", 0, "bush3_3", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
+("flora_bush3_4", 0, "bush3_4", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
+("flora_bush3_5", 0, "bush3_5", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
+("flora_bush3_6", 0, "bush3_6", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
+("flora_bush3_7", 0, "bush3_7", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
+
+
 
 ]

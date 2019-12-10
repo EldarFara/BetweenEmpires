@@ -11,7 +11,7 @@ gtf_has_color  = 0x00000004 #you can overwrite the ambient color of the ground s
 ground_specs = [
     ("gray_stone",gtf_has_color,"stone_a",4.0,"none",(0.7,0.7,0.7)),
     ("brown_stone",gtf_has_color,"patch_rock",2,"none",(0.7,0.7,0.7)),
-    ("turf",gtf_overlay|gtf_has_color,"grassy_ground",3.3,"ground_earth_under_grass",(0.42,0.59,0.17)),
+    ("turf",gtf_overlay|gtf_has_color,"terrain_grass",2,"ground_earth_under_grass",(0.42,0.59,0.17)),
     ("steppe",gtf_overlay|gtf_dusty|gtf_has_color,"ground_steppe",3.0,"ground_earth_under_steppe",(0.85,0.73,0.36)),
     ("snow",gtf_overlay|gtf_has_color,"snow",5.2,"none",(1.4,1.4,1.4)),
     ("earth",gtf_overlay|gtf_dusty|gtf_has_color,"ground_earth",4.5,"none",(0.7,0.5,0.23)),

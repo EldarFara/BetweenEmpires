@@ -1,4 +1,4 @@
-691
+706
 qstr_Next_Page Next_Page
 qstr_Game_Rules:^ Game_Rules:^
 qstr_0 0
@@ -62,6 +62,7 @@ qstr_{!}{reg3?+:}{reg0} {!}{reg3?+:}{reg0}
 qstr_TOTAL_SCORE:_{reg0} TOTAL_SCORE:_{reg0}
 qstr_{!}DEBUG____Adding_{ {!}DEBUG_--_Adding_{reg3}_items_to_{s3}
 qstr_None None
+qstr_vSeason vSeason
 qstr_{!}DEBUG_:_Completed {!}DEBUG_:_Completed_faction_troop_assignments,_cheat_mode:_{reg3}
 qstr_{!}ERROR:_Not_enough {!}ERROR:_Not_enough_banners_for_heroes!
 qstr_{!}DEBUG____initial_ {!}DEBUG_--_initial_war/peace_check_begins
@@ -347,6 +348,19 @@ qstr_{!}destroy_prison_ca {!}destroy_prison_cart
 qstr_{!}spawning_prison_c {!}spawning_prison_cart_at_point_{reg0}
 qstr_{!}prison_cart_spawn {!}prison_cart_spawn_at_point_{reg0}
 qstr_{!}multiplayer_upgra {!}multiplayer_upgrade_player_equipment:_{reg0}
+qstr_day day
+qstr_cloud1 cloud1
+qstr_cloud2 cloud2
+qstr_cloud3 cloud3
+qstr_cloud4 cloud4
+qstr_cloud5 cloud5
+qstr_sunset sunset
+qstr_evening evening
+qstr_clouds1 clouds1
+qstr_clouds2 clouds2
+qstr_clouds3 clouds3
+qstr_night night
+qstr_dusk dusk
 qstr_You_got_keys_of_dung You_got_keys_of_dungeon.
 qstr_You_must_stay_behind You_must_stay_behind_the_line_on_the_ground!_Point_is_not_counted.
 qstr_Tutorial Tutorial
@@ -544,6 +558,7 @@ qstr_There_has_been_an_al There_has_been_an_alleged_border_incident:_{s9}
 qstr_{!}{s11}{s12} {!}{s11}{s12}
 qstr_{!}DEBUG____Hours_si {!}DEBUG_--_Hours_since_last_feast_started:_{reg4}
 qstr_^^Note_that_so_long_ ^^Note_that_so_long_as_you_remain_marshal,_the_lords_of_the_realm_will_be_expecting_you_to_lead_them_on_campaign._So,_if_you_are_awaiting_a_feast,_either_for_a_wedding_or_for_other_purposes,_you_may_wish_to_resign_the_marshalship_by_speaking_to_your_liege.
+qstr_Temperature:_+{reg0} Temperature:_+{reg0}_C_^Pressure:_{reg1}_hPa_^Humidity:_{reg2}%_^Wind:_{reg3}_km/h_^Cloudiness:_{reg4}%_^Precipitation:_{reg5}%
 qstr_Breaking_camp... Breaking_camp...
 qstr_{!}{s3}_commander_of {!}{s3}_commander_of_party_#{reg4}_which_is_not_his_troop_leaded_party_{reg5}
 qstr_{!}DEBUG____Doing_po {!}DEBUG_--_Doing_political_calculations_for_{s9}

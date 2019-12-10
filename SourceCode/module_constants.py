@@ -8,6 +8,13 @@ from ID_factions import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+spawable_prop_limit = 4000
+
+shader_spring		= 0
+shader_summer		= 1
+shader_autumn		= 2
+shader_winter		= 3
+
 ########################################################
 ##  ITEM SLOTS             #############################
 ########################################################

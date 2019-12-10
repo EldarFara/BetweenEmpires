@@ -37,27 +37,72 @@ sf_HDR        = 0x20000000  # this will generate HDR-shaded skyboxes, you should
 # 
 # ..visit Taleworlds Forums for more information..
 
+#0-23 - sf_clouds_0, 24-64 - sf_clouds_1, 61-100 - sf_clouds_2, rain - sf_clouds_3
+
+sun_color_clear = (3.9/1.15, 3.5/1.15, 1.8/1.15)
+sun_color_cloudy = (2.7/1.15, 2.4/1.15, 1.6/1.15)
+sun_color_clear_evening = (3.9/2, 3.5/2, 1.8/2)
+sun_color_cloudy_evening = (3.9/2.3, 3.5/2.3, 1.8/2.3)
+sun_color_clear_dusk = (0.5/4.3, 0.75/4.3, 0.98/1.4)
+sun_color_cloudy_dusk = (0.5/5, 0.75/5, 0.98/1.8)
+sun_color_night = (0, 0.16, 0.55)
+ambient_color_clear = (0.16, 0.23, 0.39)
+ambient_color_cloudy = (0.08, 0.12, 0.14)
+ambient_color_clear_evening = (0.16/2, 0.23/2, 0.39/2)
+ambient_color_cloudy_evening = (0.16/2.3, 0.23/2.3, 0.39/2.3)
+ambient_color_clear_dusk = (0.16/4, 0.23/4, 0.39/3)
+ambient_color_cloudy_dusk = (0.16/4.5, 0.23/4.5, 0.39/3.8)
+ambient_color_night = (0, 0.007, 0.025)
+
 skyboxes = [
+  ("sky1_day", sf_HDR, 0, 50, 1, "pfx_sunny", sun_color_clear, (0, 0, 0), ambient_color_clear, (0, 0xFF97B6CC)),
+  
+  ("sky1_day", sf_day|sf_clouds_0|sf_HDR, 0, 50, 1, "pfx_sunny", sun_color_clear, (0, 0, 0), ambient_color_clear, (0, 0xFF97B6CC)),
+  ("sky2_day", sf_day|sf_clouds_0|sf_HDR, 0, 50, 1, "pfx_sunny", sun_color_clear, (0, 0, 0), ambient_color_clear, (0, 0xFF97B6CC)),
+  ("sky3_day", sf_day|sf_clouds_0|sf_HDR, 0, 50, 1, "pfx_sunny", sun_color_clear, (0, 0, 0), ambient_color_clear, (0, 0xFF97B6CC)),
+  ("sky4_day", sf_day|sf_clouds_0|sf_HDR, 0, 50, 1, "pfx_sunny", sun_color_clear, (0, 0, 0), ambient_color_clear, (0, 0xFF97CFE5)),
+  ("sky5_day", sf_day|sf_clouds_0|sf_no_shadows|sf_HDR, 0, 50, 0, "pfx_cloudy", sun_color_cloudy, (0, 0, 0), ambient_color_cloudy, (0, 0xFF78828C)),
+  ("sky6_day", sf_day|sf_clouds_0|sf_HDR, 0, 50, 1, "pfx_sunny", sun_color_clear, (0, 0, 0), ambient_color_clear, (0, 0xFF79a8cb)),
+  ("sky7_day", sf_day|sf_clouds_1|sf_no_shadows|sf_HDR, 0, 50, 0, "pfx_cloudy", sun_color_cloudy, (0, 0, 0), ambient_color_cloudy, (0, 0xFF78828C)),
+  ("sky8_day", sf_day|sf_clouds_1|sf_HDR, 0, 50, 1, "pfx_sunny", sun_color_clear, (0, 0, 0), ambient_color_clear, (0, 0xFF86B5D2)),
+  ("sky9_day", sf_day|sf_clouds_1|sf_no_shadows|sf_HDR, 0, 50, 0, "pfx_heavy_cloudy", sun_color_cloudy, (0, 0, 0), ambient_color_cloudy, (0, 0xFF78828C)),
+  ("sky10_day", sf_day|sf_clouds_1|sf_no_shadows|sf_HDR, 0, 50, 0, "pfx_heavy_cloudy", sun_color_cloudy, (0, 0, 0), ambient_color_cloudy, (0, 0xFF78828C)),
+  ("sky11_day", sf_day|sf_clouds_1|sf_no_shadows|sf_HDR, 0, 50, 0, "pfx_cloudy", sun_color_cloudy, (0, 0, 0), ambient_color_cloudy, (0, 0xFF555C63)),
+  ("sky12_day", sf_day|sf_clouds_1|sf_no_shadows|sf_HDR, 0, 50, 0, "pfx_heavy_cloudy", sun_color_cloudy, (0, 0, 0), ambient_color_cloudy, (0, 0xFF78828C)),
+  ("sky13_day", sf_day|sf_clouds_2|sf_no_shadows|sf_HDR, 0, 50, 0, "pfx_heavy_cloudy", sun_color_cloudy, (0, 0, 0), ambient_color_cloudy, (0, 0xFF5c6870)),
+  ("sky14_day", sf_day|sf_clouds_2|sf_no_shadows|sf_HDR, 0, 50, 0, "pfx_heavy_cloudy", sun_color_cloudy, (0, 0, 0), ambient_color_cloudy, (0, 0xFF7E9EC6)),
+  ("sky15_day", sf_day|sf_clouds_3|sf_no_shadows|sf_HDR, 0, 50, 0, "pfx_heavy_cloudy_dark", sun_color_cloudy, (0, 0, 0), ambient_color_cloudy, (0, 0xFF383D43)),
+  ("sky16_day", sf_day|sf_clouds_3|sf_no_shadows|sf_HDR, 0, 50, 0, "pfx_heavy_cloudy_dark", sun_color_cloudy, (0, 0, 0), ambient_color_cloudy, (0, 0xFF393E48)),
+  ("sky17_day", sf_day|sf_clouds_3|sf_HDR, 0, 50, 1, "pfx_sunny", sun_color_clear, (0, 0, 0), ambient_color_clear, (0, 0xFF84B3DE)),
+  ("sky18_day", sf_day|sf_clouds_3|sf_no_shadows|sf_HDR, 0, 50, 0, "pfx_cloudy", sun_color_cloudy, (0, 0, 0), ambient_color_cloudy, (0, 0xFF555C63)),
+  ("sky19_night", sf_night|sf_clouds_0|sf_no_shadows|sf_HDR, 0, 35, 0, "pfx_night", sun_color_night, (0, 0, 0), ambient_color_night, (400, 0xFF1E1E1E)),
+  ("sky20_night", sf_night|sf_clouds_1|sf_no_shadows|sf_HDR, 0, 35, 0, "pfx_night", sun_color_night, (0, 0, 0), ambient_color_night, (400, 0xFF1E1E1E)),
+  ("sky21_night", sf_night|sf_clouds_2|sf_no_shadows|sf_HDR, 0, 35, 0, "pfx_night", sun_color_night, (0, 0, 0), ambient_color_night, (400, 0xFF1E1E1E)),
+  ("sky22_night", sf_night|sf_clouds_2|sf_no_shadows|sf_HDR, 0, 51, 0, "pfx_night", sun_color_night, (0, 0, 0), ambient_color_night, (400, 0xFF1E1E1E)),
+  ("sky23_night", sf_night|sf_clouds_3|sf_no_shadows|sf_HDR, 0, 51, 0, "pfx_night", sun_color_night, (0, 0, 0), ambient_color_night, (400, 0xFF1E1E1E)),
+  ("sky24_sunset", sf_dawn|sf_clouds_0|sf_HDR, 0, 12, 0.7, "pfx_sunset_dark", (3.467742/1.8, 1.129032/1.8, 0.096774/1.8), (0, 0, 0), (0.070588/1.8, 0.098039/1.8, 0.176471/1.8), (300, 0xFF3C3332)),
+  ("sky25_sunset", sf_dawn|sf_clouds_0|sf_HDR, 0, 12, 0.7, "pfx_sunset", (3.467742, 1.129032, 0.096774), (0, 0, 0), (0.070588, 0.098039, 0.176471), (300, 0xFF3C3332)),
+  ("sky26_sunset", sf_dawn|sf_clouds_0|sf_HDR, 0, 12, 0.7, "pfx_sunset_dark", (3.467742/1.8, 1.129032/1.8, 0.096774/1.8), (0, 0, 0), (0.070588/1.8, 0.098039/1.8, 0.176471/1.8), (300, 0xFF3C3332)),
+  ("sky27_sunset", sf_dawn|sf_clouds_1|sf_HDR, 0, 12, 0.7, "pfx_sunset_dark", (3.467742/1.8, 1.129032/1.8, 0.096774/1.8), (0, 0, 0), (0.070588/1.8, 0.098039/1.8, 0.176471/1.8), (300, 0xFF3C3332)),
+  ("sky28_sunset", sf_dawn|sf_clouds_2|sf_HDR, 0, 12, 0.7, "pfx_sunset", (3.467742, 1.129032, 0.096774), (0, 0, 0), (0.070588, 0.098039, 0.176471), (300, 0xFF3C3332)),
+  ("sky29_sunset", sf_dawn|sf_clouds_0|sf_HDR, 0, 12, 0.7, "pfx_sunset", (3.467742, 1.129032, 0.096774), (0, 0, 0), (0.070588, 0.098039, 0.176471), (300, 0xFF3C3332)),
+  ("sky30_sunset", sf_dawn|sf_clouds_0|sf_HDR, 0, 12, 0.7, "pfx_sunset_dark", (3.467742/1.8, 1.129032/1.8, 0.096774/1.8), (0, 0, 0), (0.070588/1.8, 0.098039/1.8, 0.176471/1.8), (300, 0xFF3C3332)),
+  ("sky31_sunset", sf_dawn|sf_clouds_3|sf_HDR, 0, 12, 0, "pfx_sunset_dark", (3.467742/1.8, 1.129032/1.8, 0.096774/1.8), (0, 0, 0), (0.070588/1.8, 0.098039/1.8, 0.176471/1.8), (300, 0xFF3C3332)),
+  ("sky32_evening", sf_day|sf_clouds_3|sf_HDR, 0, 40, 1, "pfx_evening_clear", sun_color_clear_evening, (0, 0, 0), ambient_color_clear_evening, (0, 0xFF4f687a)),
+  ("sky33_evening", sf_day|sf_clouds_3|sf_HDR, 0, 40, 1, "pfx_evening_clear", sun_color_clear_evening, (0, 0, 0), ambient_color_clear_evening, (0, 0xFF4f687a)),
+  ("sky34_evening", sf_day|sf_clouds_3|sf_HDR, 0, 40, 1, "pfx_evening_clear", sun_color_clear_evening, (0, 0, 0), ambient_color_clear_evening, (0, 0xFF56717e)),
+  ("sky35_evening", sf_day|sf_clouds_3|sf_HDR, 0, 40, 1, "pfx_evening_clear", sun_color_clear_evening, (0, 0, 0), ambient_color_clear_evening, (0, 0xFF4f687a)),
+  ("sky36_evening", sf_day|sf_clouds_3|sf_no_shadows|sf_HDR, 0, 40, 0, "pfx_evening_cloudy", sun_color_cloudy_evening, (0, 0, 0), ambient_color_cloudy_evening, (0, 0xFF4b5f77)),
+  ("sky37_evening", sf_day|sf_clouds_3|sf_no_shadows|sf_HDR, 0, 40, 0, "pfx_evening_cloudy", sun_color_cloudy_evening, (0, 0, 0), ambient_color_cloudy_evening, (0, 0xFF485c72)),
+  ("sky38_dusk", sf_night|sf_clouds_3|sf_no_shadows|sf_HDR, 0, 50, 0, "pfx_dusk_clear", sun_color_clear_dusk, (0, 0, 0), ambient_color_clear_dusk, (0, 0xFF2a3036)),
+  ("sky39_dusk", sf_night|sf_clouds_3|sf_no_shadows|sf_HDR, 0, 50, 0, "pfx_dusk_cloudy", sun_color_cloudy_dusk, (0, 0, 0), ambient_color_cloudy_dusk, (0, 0xFF2a3036)),
+  ("sky40_dusk", sf_night|sf_clouds_3|sf_no_shadows|sf_HDR, 0, 50, 0, "pfx_dusk_clear", sun_color_clear_dusk, (0, 0, 0), ambient_color_clear_dusk, (0, 0xFF1f2a3b)),
+  ("sky41_day", sf_day|sf_clouds_3|sf_no_shadows|sf_HDR, 0, 50, 0, "pfx_heavy_cloudy", sun_color_cloudy, (0, 0, 0), ambient_color_cloudy, (0, 0xFF7d8383)),
+  ("sky42_evening", sf_day|sf_clouds_3|sf_no_shadows|sf_HDR, 0, 40, 0, "pfx_evening_cloudy", sun_color_cloudy_evening, (0, 0, 0), ambient_color_cloudy_evening, (0, 0xFF4b5f77)),
+  ("sky43_dusk", sf_night|sf_clouds_3|sf_no_shadows|sf_HDR, 0, 0, 0, "pfx_dusk_cloudy", sun_color_cloudy_dusk, (0, 0, 0), ambient_color_cloudy_dusk, (0, 0xFF2a3036)),
+  ("sky44_evening", sf_day|sf_clouds_3|sf_HDR, 0, 40, 1, "pfx_evening_cloudy", sun_color_clear_evening, (0, 0, 0), ambient_color_clear_evening, (0, 0xFF455263)),
+  ("sky45_dusk", sf_night|sf_clouds_3|sf_no_shadows|sf_HDR, 0, 50, 0, "pfx_dusk_cloudy", sun_color_clear_dusk, (0, 0, 0), ambient_color_clear_dusk, (0, 0xFF28323b)),
 
-  ("skybox_cloud_1", sf_day|sf_clouds_1, 179.0, 52.0, 0.85, "pfx_sunny", (1.39*1.32,1.39*1.21,1.39*1.08), (0.0, 0.0, 0.0), (0.96*16.0/255,0.96*23.5/255,0.96*44.5/255), (300, 0xFF8CA2AD)),
-  ("skybox_cloud_1", sf_day|sf_clouds_1|sf_HDR, 179.0, 52.0, 0.85, "pfx_sunny", (1.39*1.32,1.39*1.21,1.39*1.08), (0.0, 0.0, 0.0), (0.86*16.0/255,0.86*23.5/255,0.86*44.5/255), (300, 0xFF8CA2AD)),
-
-  ("skybox_night_1", sf_night|sf_clouds_1, 152.0, 38.0, 0.0, "pfx_night", (1.0*17.0/255,1.0*21.0/255,1.0*27.0/255),(0.0,0.0,0.0), (0.9*5.0/255,0.9*5.0/255,0.9*15.0/255), (500, 0xFF152035)),
-  ("skybox_night_1", sf_night|sf_clouds_1|sf_HDR, 152.0, 38.0, 0.0, "pfx_night", (1.0*17.0/255,1.0*21.0/255,1.0*27.0/255),(0.0,0.0,0.0), (0.9*5.0/255,0.9*5.0/255,0.9*15.0/255), (500, 0xFF152035)),
-  ("skybox_night_2", sf_night|sf_clouds_3, 152.0, 38.0, 0.0, "pfx_night", (1.0*17.0/255,1.0*21.0/255,1.0*27.0/255),(0.0,0.0,0.0), (0.9*5.0/255,0.9*5.0/255,0.9*15.0/255), (500, 0xFF152035)),
-  ("skybox_night_2", sf_night|sf_clouds_3|sf_HDR, 152.0, 38.0, 0.0, "pfx_night", (1.0*17.0/255,1.0*21.0/255,1.0*27.0/255),(0.0,0.0,0.0), (0.9*5.0/255,0.9*5.0/255,0.9*15.0/255), (500, 0xFF152035)),
-  
-  ("skybox_sunset_1", sf_dawn|sf_clouds_1, 180.0, 9.146, 0.7, "pfx_sunset", (230.0/220,120.0/220,37.0/220),(0.0,0.0,0.0), (14.5/210,21.0/210,40.0/210), (150, 0xFF897262)),
-  ("skybox_sunset_1", sf_dawn|sf_clouds_1|sf_HDR, 180.0, 9.146, 0.7, "pfx_sunset", (230.0/220,120.0/220,37.0/220),(0.0,0.0,0.0), (14.5/210,21.0/210,40.0/210), (150, 0xFF897262)),
-  
-  ("skybox_cloud_2", sf_day|sf_clouds_2, 180.0, 19.17, 0.4, "pfx_cloudy", (0.8*0.9,0.8*0.85,0.8*0.75),(0.0,0.0,0.0), (0.8*40.0/255,0.8*46.5/255,0.8*77.0/255), (120, 0xFF607090)),
-  ("skybox_cloud_2", sf_day|sf_clouds_2|sf_HDR, 180.0, 19.17, 0.4, "pfx_cloudy", (0.8*0.9,0.85*0.8,0.8*0.75),(0.0,0.0,0.0), (0.8*40.0/255,0.8*46.5/255,0.8*77.0/255), (120, 0xFF607090)),
-  
-  ("skybox_cloud_2", sf_day|sf_clouds_3|sf_no_shadows, 180.0, 19.17, 0.4, "pfx_overcast", (0.4,0.35,0.31),(0.0,0.0,0.0), (50.0/255,60.0/255,103.0/255), (120, 0xFF607090)),
-  ("skybox_cloud_2", sf_day|sf_clouds_3|sf_no_shadows|sf_HDR, 180.0, 19.17, 0.4, "pfx_overcast", (0.4,0.35,0.31),(0.0,0.0,0.0), (50.0/255,60.0/255,103.0/255), (120, 0xFF607090)),
-  
-  ("skybox_clearday", sf_day|sf_clouds_0, 179.0, 80.0, 0.95, "pfx_sunny", (0.99*1.32,0.99*1.21,0.99*1.08), (0.0, 0.0, 0.0), (0.96*16.0/255,0.96*23.5/255,0.96*44.5/255), (300, 0xFF8CA2AD)),
-  ("skybox_clearday", sf_day|sf_clouds_0|sf_HDR, 179.0, 80.0, 0.95, "pfx_sunny", (0.99*1.32,0.99*1.21,0.99*1.08), (0.0, 0.0, 0.0), (0.86*16.0/255,0.86*23.5/255,0.86*44.5/255), (300, 0xFF8CA2AD)),
 ]
 
 

@@ -492,6 +492,12 @@ game_menus = [
     (party_get_morale, reg8, "p_main_party"),
    ],
     [
+     ("show_weather_report",[],"View weather report.",
+       [
+           (jump_to_menu, "mnu_weather_report"),
+        ]
+       ),
+	   
       ("cheat_faction_orders",[(ge,"$cheat_mode",1)],"{!}Cheat: Faction orders.",
        [(jump_to_menu, "mnu_faction_orders"),
         ]
@@ -3150,27 +3156,25 @@ game_menus = [
   ),
 
    ("cheat_change_weather",0,
-   "{!}Current cloud amount: {reg5}^Current Fog Strength: {reg6}",
+   "{!}Current cloud amount (north region): {reg5}^Current Fog Strength: {reg6}^Season number: {reg7}",
    "bg3",
    [
-     (get_global_cloud_amount, reg5),
+	(assign, reg5, "$pws_n_clouds"),
+     #(get_global_cloud_amount, reg5),
      (get_global_haze_amount, reg6),
+	(assign, reg7, "$shader_season"),
      ],
     [
       ("cheat_increase_cloud",[], "{!}Increase Cloud Amount.",
        [
-	    (get_global_cloud_amount, ":cur_cloud_amount"),
-		(val_add, ":cur_cloud_amount", 5),
-		(val_min, ":cur_cloud_amount", 100),
-	    (set_global_cloud_amount, ":cur_cloud_amount"),
+		(val_add, "$pws_n_clouds", 5),
+		(val_min, "$pws_n_clouds", 100),
 	   ]
        ),
       ("cheat_decrease_cloud",[], "{!}Decrease Cloud Amount.",
        [
-	    (get_global_cloud_amount, ":cur_cloud_amount"),
-		(val_sub, ":cur_cloud_amount", 5),
-		(val_max, ":cur_cloud_amount", 0),
-	    (set_global_cloud_amount, ":cur_cloud_amount"),
+		(val_add, "$pws_n_clouds", -5),
+		(val_max, "$pws_n_clouds", 0),
 	   ]
        ),
       ("cheat_increase_fog",[], "{!}Increase Fog Amount.",
@@ -14454,6 +14458,51 @@ game_menus = [
          (change_screen_return),         
        ]),         
     ]
+  ),
+
+  ("weather_report",0,
+   "{s1}",
+   "none",
+   [
+(party_get_current_terrain, ":terrain_type", "p_main_party"),
+	(try_begin),
+	(this_or_next|eq, ":terrain_type", rt_water),
+	(this_or_next|eq, ":terrain_type", rt_mountain),
+	(this_or_next|eq, ":terrain_type", rt_plain),
+	(this_or_next|eq, ":terrain_type", rt_mountain_forest),
+	(this_or_next|eq, ":terrain_type", rt_bridge),
+	(eq, ":terrain_type", rt_forest),
+	(assign, reg0, "$pws_n_temperature"),
+	(assign, reg1, "$pws_n_pressure"),
+	(assign, reg2, "$pws_n_humidity"),
+	(assign, reg3, "$pws_n_wind"),
+	(assign, reg4, "$pws_n_clouds"),
+	(assign, reg5, "$pws_n_precipitation"),
+	(else_try),
+	(this_or_next|eq, ":terrain_type", rt_steppe),
+	(eq, ":terrain_type", rt_steppe_forest),
+	(assign, reg0, "$pws_m_temperature"),
+	(assign, reg1, "$pws_m_pressure"),
+	(assign, reg2, "$pws_m_humidity"),
+	(assign, reg3, "$pws_m_wind"),
+	(assign, reg4, "$pws_m_clouds"),
+	(assign, reg5, "$pws_m_precipitation"),
+	(else_try),
+	(assign, reg0, "$pws_s_temperature"),
+	(assign, reg1, "$pws_s_pressure"),
+	(assign, reg2, "$pws_s_humidity"),
+	(assign, reg3, "$pws_s_wind"),
+	(assign, reg4, "$pws_s_clouds"),
+	(assign, reg5, "$pws_s_precipitation"),
+	(try_end),
+	(str_store_string, s1, "@Temperature: +{reg0} C ^Pressure: {reg1} hPa ^Humidity: {reg2}% ^Wind: {reg3} km/h ^Cloudiness: {reg4}% ^Precipitation: {reg5}%"),
+    ],
+    [
+      ("continue",[],"Continue...",
+       [(jump_to_menu, "mnu_reports"),
+        ]
+       ),
+      ]
   ),
 
   

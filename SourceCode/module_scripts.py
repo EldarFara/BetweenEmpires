@@ -30,6 +30,61 @@ scripts = [
   # INPUT: none
   ("game_start",
    [
+   
+(store_current_hours, ":hours"),
+(call_script, "script_game_get_date_text", 0, ":hours"),
+(assign, "$player_faction_preset", -1),
+(assign, "$pws_equatorward_temperature", 25),
+(assign, "$pws_poleward_temperature", -25),
+(assign, "$pws_n_pressure", 1014),
+(assign, "$pws_m_pressure", 1014),
+(assign, "$pws_s_pressure", 1014),
+(assign, "$pws_n_rawtemperature", 15),
+(assign, "$pws_m_rawtemperature", 20),
+(assign, "$pws_s_rawtemperature", 25),
+(assign, "$pws_n_temperature", 15),
+(assign, "$pws_m_temperature", 20),
+(assign, "$pws_s_temperature", 25),
+(assign, "$pws_n_actualtemperature", 15),
+(assign, "$pws_m_actualtemperature", 20),
+(assign, "$pws_s_actualtemperature", 25),
+(assign, "$pws_n_humidity", 50),
+(assign, "$pws_m_humidity", 50),
+(assign, "$pws_s_humidity", 50),
+(assign, "$pws_n_rawwind", 10),
+(assign, "$pws_m_rawwind", 10),
+(assign, "$pws_s_rawwind", 10),
+(assign, "$pws_n_wind", 10),
+(assign, "$pws_m_wind", 10),
+(assign, "$pws_s_wind", 10),
+(assign, "$pws_n_actualwind", 10),
+(assign, "$pws_m_actualwind", 10),
+(assign, "$pws_s_actualwind", 10),
+(assign, "$pws_n_clouds", 10),
+(assign, "$pws_m_clouds", 10),
+(assign, "$pws_s_clouds", 10),
+(assign, "$pws_n_precipitation", 0),
+(assign, "$pws_m_precipitation", 0),
+(assign, "$pws_s_precipitation", 0),
+(set_fixed_point_multiplier, 1),
+	(try_begin),
+	(is_between, "$g_cur_month", 3, 6), # spring
+	(set_shader_param_float, "@vSeason", shader_spring),
+	(assign, "$shader_season", shader_spring),
+	(else_try),
+	(is_between, "$g_cur_month", 6, 9), # summer
+	(set_shader_param_float, "@vSeason", shader_summer),
+	(assign, "$shader_season", shader_summer),
+	(else_try),
+	(is_between, "$g_cur_month", 9, 12), # autumn
+	(set_shader_param_float, "@vSeason", shader_autumn),
+	(assign, "$shader_season", shader_autumn),
+	(else_try),
+	#(is_between, "$g_cur_month", 12, 3), # winter
+	(set_shader_param_float, "@vSeason", shader_winter),
+	(assign, "$shader_season", shader_winter),
+	(end_try),
+   
       (faction_set_slot, "fac_player_supporters_faction", slot_faction_state, sfs_inactive),
       (assign, "$g_player_luck", 200),
       (assign, "$g_player_luck", 200),
@@ -4802,6 +4857,8 @@ scripts = [
         (eq, ":cur_month", 12),
         (str_store_string, s1, "str_december_reg1_reg2"),
       (try_end),
+      (assign, "$pws_month", ":cur_month"),
+      (assign, "$g_cur_month", ":cur_month"),
       (set_result_string, s1),
     ]),  
   
@@ -51116,6 +51173,18 @@ scripts = [
     (position_rotate_x, pos8, -50),
     (cur_tableau_add_sun_light, pos8, 175,150,125),
     ]),
-   #INVASION MODE END
+   #INVASION MODE END  # script_get_modulus_of_value
+  # Input: value
+  # Output: reg0
+("get_modulus_of_value",
+[
+(store_script_param, ":value", 1),
+	(try_begin),
+	(lt, ":value", 0),
+	(store_mul, reg0, ":value", -1),
+	(else_try),
+	(assign, reg0, ":value"),
+	(try_end),
+]),   
      
 ]

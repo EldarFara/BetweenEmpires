@@ -608,5 +608,6 @@ script_coop_drop_item = 606
 script_cf_coop_give_item_to_assigned_group_member = 607
 script_add_player_to_cur_tableau_for_coop = 608
 script_add_troop_to_cur_tableau_for_coop = 609
+script_get_modulus_of_value = 610
 
 

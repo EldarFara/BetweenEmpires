@@ -6,6 +6,9 @@ from header_sounds import *
 from header_music import *
 from header_items import *
 from module_constants import *
+from header_terrain_types import *
+from module_postfx import *
+
 
 ####################################################################################################################
 #   Each mission-template is a tuple that contains the following fields:
@@ -34,6 +37,308 @@ from module_constants import *
 
 pilgrim_disguise = [itm_pilgrim_hood,itm_pilgrim_disguise,itm_practice_staff, itm_throwing_daggers]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
+
+fgs_trees_ams = (0, 0, ti_once,[ #fgs - Flora Generating System
+(set_fixed_point_multiplier, 100),
+(store_current_scene, ":scene"),
+(this_or_next|eq, ":scene", "scn_random_scene_steppe"),
+(this_or_next|eq, ":scene", "scn_random_scene_steppe_forest"),
+(this_or_next|eq, ":scene", "scn_random_scene_plain_forest"),
+(eq, ":scene", "scn_random_scene_plain"),
+(get_scene_boundaries, pos1, pos2),
+(position_get_x, ":x_coor1", pos1),
+(position_get_x, ":x_coor2", pos2),
+(position_get_y, ":y_coor1", pos1),
+(position_get_y, ":y_coor2", pos2),
+	(try_begin),
+	# (this_or_next|eq, ":scene", "scn_random_scene_steppe"),
+	# (eq, ":scene", "scn_random_scene_plain"),
+	# (assign, ":poplar", 10),
+	# (assign, ":maple", 5),
+	# (assign, ":ash_cluster", 5),
+	# (assign, ":ash_big1", 10),
+	# (assign, ":ash2", 5),
+	# (assign, ":foresttree1", 0),
+	# (else_try),
+	(assign, ":bushes1", 20),
+	(assign, ":bushes2", 20),
+	(assign, ":bushes3", 20),
+	# (assign, ":flowers1", 2),
+	# (assign, ":flowers2", 2),
+	# (assign, ":flowers3", 4),
+	(try_end),
+
+	(try_for_range, ":unused", 0, ":bushes1"), 
+	(store_random_in_range, ":x_coor", ":x_coor1", ":x_coor2"),
+	(store_random_in_range, ":y_coor", ":y_coor1", ":y_coor2"),
+	(position_set_x, pos3, ":x_coor"),
+	(position_set_y, pos3, ":y_coor"),
+	(position_set_z_to_ground_level, pos3),
+	(position_get_z, ":z_coor", pos3),
+	(ge, ":z_coor", 10),
+	(store_random_in_range, ":random", 0, 360),
+	(position_rotate_z, pos3, ":random", 1),
+	(store_random_in_range, ":random", 85, 120),
+	(set_spawn_position, pos3),
+	(spawn_scene_prop, "spr_flora_bush1"),
+	(prop_instance_set_scale, reg0, ":random", ":random", ":random"),
+	(try_end),
+	(try_for_range, ":unused", 0, ":bushes2"), 
+	(store_random_in_range, ":x_coor", ":x_coor1", ":x_coor2"),
+	(store_random_in_range, ":y_coor", ":y_coor1", ":y_coor2"),
+	(position_set_x, pos3, ":x_coor"),
+	(position_set_y, pos3, ":y_coor"),
+	(position_set_z_to_ground_level, pos3),
+	(position_get_z, ":z_coor", pos3),
+	(ge, ":z_coor", 10),
+	(store_random_in_range, ":random", 0, 360),
+	(position_rotate_z, pos3, ":random", 1),
+	(store_random_in_range, ":random", 85, 120),
+	(set_spawn_position, pos3),
+	(spawn_scene_prop, "spr_flora_bush2"),
+	(prop_instance_set_scale, reg0, ":random", ":random", ":random"),
+	(try_end),
+	(try_for_range, ":unused", 0, ":bushes3"), 
+	(store_random_in_range, ":x_coor", ":x_coor1", ":x_coor2"),
+	(store_random_in_range, ":y_coor", ":y_coor1", ":y_coor2"),
+	(position_set_x, pos3, ":x_coor"),
+	(position_set_y, pos3, ":y_coor"),
+	(position_set_z_to_ground_level, pos3),
+	(position_get_z, ":z_coor", pos3),
+	(ge, ":z_coor", 10),
+	(store_random_in_range, ":random", 0, 360),
+	(position_rotate_z, pos3, ":random", 1),
+	(store_random_in_range, ":random", 85, 120),
+	(set_spawn_position, pos3),
+	(store_random_in_range, ":random_prop", "spr_flora_bush3_1", "spr_flora_bush3_7"),
+	(spawn_scene_prop, ":random_prop"),
+	(prop_instance_set_scale, reg0, ":random", ":random", ":random"),
+	(try_end),
+(rebuild_shadow_map),
+], [])
+
+pws_sky_bms = (ti_before_mission_start, 0, 0, [
+(set_rain, 0, 0),
+(set_fog_distance, 1600),
+(party_get_current_terrain, ":terrain_type", "p_main_party"),
+	(try_begin),
+	(this_or_next|eq, ":terrain_type", rt_water),
+	(this_or_next|eq, ":terrain_type", rt_mountain),
+	(this_or_next|eq, ":terrain_type", rt_plain),
+	(this_or_next|eq, ":terrain_type", rt_mountain_forest),
+	(this_or_next|eq, ":terrain_type", rt_bridge),
+	(eq, ":terrain_type", rt_forest),
+	(assign, "$current_wind", "$pws_n_wind"),
+	(assign, "$current_clouds", "$pws_n_clouds"),
+	(assign, "$current_precipitation", "$pws_n_precipitation"),
+	(else_try),
+	(this_or_next|eq, ":terrain_type", rt_steppe),
+	(eq, ":terrain_type", rt_steppe_forest),
+	(assign, "$current_wind", "$pws_m_wind"),
+	(assign, "$current_clouds", "$pws_m_clouds"),
+	(assign, "$current_precipitation", "$pws_m_precipitation"),
+	(else_try),
+	(assign, "$current_wind", "$pws_s_wind"),
+	(assign, "$current_clouds", "$pws_s_clouds"),
+	(assign, "$current_precipitation", "$pws_s_precipitation"),
+	(try_end),
+(store_time_of_day, ":hours"),
+#(assign, reg0, "$current_clouds"),
+#(display_debug_message, "@{reg0}"),
+(assign, ":sky", 1),
+	(try_begin),
+	(is_between, ":hours", 8, 15+1), #day
+(display_debug_message, "@day"),
+		(try_begin),
+		(le, "$current_clouds", 20),
+(display_debug_message, "@cloud1"),
+		(store_random_in_range, ":random", 1, 4+1),
+			(try_begin),
+			(eq, ":random", 1),
+			(assign, ":sky", 1),
+			(else_try),
+			(eq, ":random", 2),
+			(assign, ":sky", 2),
+			(else_try),
+			(eq, ":random", 3),
+			(assign, ":sky", 3),
+			(else_try),
+			(eq, ":random", 4),
+			(assign, ":sky", 4),
+			(try_end),
+		(else_try),
+		(le, "$current_clouds", 60),
+(display_debug_message, "@cloud2"),
+		(store_random_in_range, ":random", 1, 9+1),
+			(try_begin),
+			(eq, ":random", 1),
+			(assign, ":sky", 5),
+			(else_try),
+			(eq, ":random", 2),
+			(assign, ":sky", 6),
+			(else_try),
+			(eq, ":random", 3),
+			(assign, ":sky", 7),
+			(else_try),
+			(eq, ":random", 4),
+			(assign, ":sky", 8),
+			(else_try),
+			(eq, ":random", 5),
+			(assign, ":sky", 10),
+			(else_try),
+			(eq, ":random", 6),
+			(assign, ":sky", 11),
+			(else_try),
+			(eq, ":random", 7),
+			(assign, ":sky", 14),
+			(else_try),
+			(eq, ":random", 8),
+			(assign, ":sky", 17),
+			(else_try),
+			(eq, ":random", 9),
+			(assign, ":sky", 18),
+			(try_end),
+		(else_try),
+		(ge, "$current_clouds", 70),
+(display_debug_message, "@cloud3"),
+		(ge, "$current_precipitation", 65),
+		(store_random_in_range, ":random", 1, 3+1),
+			(try_begin),
+			(eq, ":random", 1),
+			(assign, ":sky", 15),
+			(else_try),
+			(eq, ":random", 2),
+			(assign, ":sky", 16),
+			(else_try),
+			(eq, ":random", 3),
+			(assign, ":sky", 12),
+			(try_end),
+		(else_try),
+		(le, "$current_clouds", 80),
+(display_debug_message, "@cloud4"),
+		(store_random_in_range, ":random", 1, 2+1),
+			(try_begin),
+			(eq, ":random", 1),
+			(assign, ":sky", 9),
+			(else_try),
+			(eq, ":random", 2),
+			(assign, ":sky", 13),
+			(try_end),
+		(else_try),
+(display_debug_message, "@cloud5"),
+		(store_random_in_range, ":random", 1, 2+1),
+			(try_begin),
+			(eq, ":random", 1),
+			(assign, ":sky", 41),
+			(else_try),
+			(eq, ":random", 2),
+			(assign, ":sky", 41),
+			(try_end),
+		(try_end),
+	(else_try),
+	(this_or_next|is_between, ":hours", 5, 5+1), #sunset
+	(is_between, ":hours", 19, 19+1),
+(display_debug_message, "@sunset"),
+	(store_random_in_range, ":sky", 24, 31+1),
+	(else_try),
+	(this_or_next|is_between, ":hours", 6, 7+1), #evening/morning
+	(is_between, ":hours", 16, 17+1),
+(display_debug_message, "@evening"),
+		(try_begin),
+		(le, "$current_clouds", 20),
+(display_debug_message, "@clouds1"),
+		(store_random_in_range, ":random", 1, 2+1),
+			(try_begin),
+			(eq, ":random", 1),
+			(assign, ":sky", 33),
+			(else_try),
+			(eq, ":random", 2),
+			(assign, ":sky", 34),
+			(try_end),
+		(else_try),
+		(le, "$current_clouds", 80),
+(display_debug_message, "@clouds2"),
+		(store_random_in_range, ":random", 1, 4+1),
+			(try_begin),
+			(eq, ":random", 1),
+			(assign, ":sky", 32),
+			(else_try),
+			(eq, ":random", 2),
+			(assign, ":sky", 35),
+			(else_try),
+			(eq, ":random", 3),
+			(assign, ":sky", 36),
+			(else_try),
+			(eq, ":random", 4),
+			(assign, ":sky", 37),
+			(else_try),
+			(eq, ":random", 4),
+			(assign, ":sky", 44),
+			(try_end),
+		(else_try),
+(display_debug_message, "@clouds3"),
+		(store_random_in_range, ":random", 1, 2+1),
+			(try_begin),
+			(eq, ":random", 1),
+			(assign, ":sky", 42),
+			(else_try),
+			(eq, ":random", 2),
+			(assign, ":sky", 42),
+			(try_end),
+		(try_end),
+	(else_try),
+	(this_or_next|is_between, ":hours", 22, 23+1), #night
+	(is_between, ":hours", 0, 2+1),
+(display_debug_message, "@night"),
+	(store_random_in_range, ":sky", 19, 23+1),
+	(else_try),
+	(this_or_next|is_between, ":hours", 3, 4+1), #dusk
+	(is_between, ":hours", 20, 21+1),
+(display_debug_message, "@dusk"),
+		(try_begin),
+		(le, "$current_clouds", 20),
+(display_debug_message, "@clouds1"),
+		(store_random_in_range, ":random", 1, 2+1),
+			(try_begin),
+			(eq, ":random", 1),
+			(assign, ":sky", 40),
+			(else_try),
+			(eq, ":random", 2),
+			(assign, ":sky", 45),
+			(try_end),
+		(else_try),
+		(le, "$current_clouds", 60),
+(display_debug_message, "@clouds2"),
+		(store_random_in_range, ":random", 1, 2+1),
+			(try_begin),
+			(eq, ":random", 1),
+			(assign, ":sky", 38),
+			(else_try),
+			(eq, ":random", 2),
+			(assign, ":sky", 39),
+			(else_try),
+			(eq, ":random", 2),
+			(assign, ":sky", 45), #dublicate
+			(try_end),
+		(else_try),
+(display_debug_message, "@clouds3"),
+		(store_random_in_range, ":random", 1, 2+1),
+			(try_begin),
+			(eq, ":random", 1),
+			(assign, ":sky", 39),
+			(else_try),
+			(eq, ":random", 2),
+			(assign, ":sky", 43),
+			(try_end),
+		(try_end),
+	(try_end),
+(set_skybox, ":sky", ":sky"),
+], [])
+
+parabellum_script_set1a = [
+pws_sky_bms,
+fgs_trees_ams,
+  ]	
 
 multiplayer_server_check_belfry_movement = (
   0, 0, 0, [],
@@ -1524,7 +1829,8 @@ mission_templates = [
         
         (call_script, "script_neutral_behavior_in_fight"),
       ]),	  			
-    ],
+    ]
++ parabellum_script_set1a,
   ),
 
 # This template is used in party encounters and such.
@@ -1542,7 +1848,8 @@ mission_templates = [
      (22,mtef_visitor_source,af_override_fullhelm,0,1,[]),(23,mtef_visitor_source,af_override_fullhelm,0,1,[]),(24,mtef_visitor_source,af_override_fullhelm,0,1,[]),(25,mtef_visitor_source,af_override_fullhelm,0,1,[]),(26,mtef_visitor_source,af_override_fullhelm,0,1,[]),
      (27,mtef_visitor_source,af_override_fullhelm,0,1,[]),(28,mtef_visitor_source,af_override_fullhelm,0,1,[]),(29,mtef_visitor_source,af_override_fullhelm,0,1,[]),(30,mtef_visitor_source,af_override_fullhelm,0,1,[]),(31,mtef_visitor_source,af_override_fullhelm,0,1,[]),
      ],
-    [],
+    []
++ parabellum_script_set1a,
   ),
   
 #----------------------------------------------------------------
@@ -1827,7 +2134,9 @@ mission_templates = [
        (display_message, "@You got keys of dungeon."),
      (try_end),
    ]),     
-  ]),
+  ]
++ parabellum_script_set1a,
+),
 
   (
     "village_center",0,-1,
@@ -1901,7 +2210,8 @@ mission_templates = [
           (call_script, "script_succeed_quest", "qst_hunt_down_fugitive"),
         (try_end),
         ]),
-    ],
+    ]
++ parabellum_script_set1a,
   ),
 
   (
@@ -1973,7 +2283,8 @@ mission_templates = [
          (try_end),
          (finish_mission),
          ]),
-      ],
+      ]
++ parabellum_script_set1a,
     ),
 
   
@@ -2013,7 +2324,8 @@ mission_templates = [
          (try_end),
          (finish_mission),
          ]),
-      ],
+      ]
++ parabellum_script_set1a,
     ),
     
   (
@@ -2100,7 +2412,8 @@ mission_templates = [
           (call_script, "script_music_set_situation_with_culture", 0), #prison
         (try_end),
         ]),
-    ],
+    ]
++ parabellum_script_set1a,
   ),
 
 		  
@@ -2168,7 +2481,8 @@ mission_templates = [
            (try_end),
            (finish_mission),
            ]),
-    ],
+    ]
++ parabellum_script_set1a,
   ),
 
   (
@@ -2209,7 +2523,8 @@ mission_templates = [
            (try_end),
            (finish_mission),
            ]),
-    ],
+    ]
++ parabellum_script_set1a,
   ),
 
   (
@@ -2416,7 +2731,8 @@ mission_templates = [
       common_battle_order_panel,
       common_battle_order_panel_tick,
 
-    ],
+    ]
++ parabellum_script_set1a,
   ),
 
   (
@@ -2472,7 +2788,8 @@ mission_templates = [
       common_battle_order_panel,
       common_battle_order_panel_tick,
       
-    ],
+    ]
++ parabellum_script_set1a,
   ),
 
 
@@ -2569,7 +2886,8 @@ mission_templates = [
 ##          (store_mission_timer_a,reg(1)),(ge,reg(1),4),
 ##          (call_script, "script_battle_tactic_apply"),
 ##          ], []),
-    ],
+    ]
++ parabellum_script_set1a,
   ),
 
 
@@ -2791,7 +3109,8 @@ mission_templates = [
       common_battle_order_panel,
       common_battle_order_panel_tick,
       common_battle_inventory,
-    ],
+    ]
++ parabellum_script_set1a,
   ),
 
   (
@@ -2855,7 +3174,8 @@ mission_templates = [
       common_battle_order_panel,
       common_battle_order_panel_tick,
       common_battle_inventory,
-    ],
+    ]
++ parabellum_script_set1a,
   ),
 
   (
@@ -2954,7 +3274,8 @@ mission_templates = [
       common_battle_order_panel,
       common_battle_order_panel_tick,
       common_battle_inventory,
-    ],
+    ]
++ parabellum_script_set1a,
   ),
 
 
@@ -3036,7 +3357,8 @@ mission_templates = [
       common_siege_move_belfry,
       common_siege_rotate_belfry,
       common_siege_assign_men_to_belfry,
-    ],
+    ]
++ parabellum_script_set1a,
   ),
 
   (
@@ -3151,7 +3473,8 @@ mission_templates = [
 ##         (try_end),
 ##         ],
 ##       []),
-    ],
+    ]
++ parabellum_script_set1a,
   ),
   
 
@@ -3353,7 +3676,8 @@ mission_templates = [
         (mission_enable_talk),
         (finish_mission, 0),
       ]),
-    ],
+    ]
++ parabellum_script_set1a,
   ),
 
 
@@ -3394,7 +3718,8 @@ mission_templates = [
        (val_add, "$trainer_help_message", 1),
           ]),
       
-    ],
+    ]
++ parabellum_script_set1a,
   ),
 
   (
@@ -3446,7 +3771,8 @@ mission_templates = [
          (jump_to_scene, "$g_training_ground_melee_training_scene"),
          ]),
       (ti_inventory_key_pressed, 0, 0, [(display_message,"str_cant_use_inventory_arena")], []),
-    ],
+    ]
++ parabellum_script_set1a,
   ),
 
 
@@ -3658,7 +3984,8 @@ mission_templates = [
          (assign, "$g_last_destroyed_gourds", 0),
          ],
        []),
-    ],
+    ]
++ parabellum_script_set1a,
   ),
 
   (
@@ -3869,7 +4196,8 @@ mission_templates = [
 
       (ti_inventory_key_pressed, 0, 0, [(display_message,"str_cant_use_inventory_arena")], []),
       
-    ],
+    ]
++ parabellum_script_set1a,
   ),
 
    (
@@ -3898,7 +4226,8 @@ mission_templates = [
 ##        (get_player_agent_no, ":player_agent"),
 ##        (mission_cam_set_target_agent, ":player_agent", 1),
 ##        (mission_cam_set_animation, "anim_test_cam"),], []),
-    ],
+    ]
++ parabellum_script_set1a,
   ),
    (
     "camera_test",0,-1,
@@ -3913,7 +4242,8 @@ mission_templates = [
 #      (ti_before_mission_start, 0, 0, [], [(set_rain, 1,100)]),
       (ti_tab_pressed, 0, 0, [],
        [(finish_mission,0)]),
-    ],
+    ]
++ parabellum_script_set1a,
   ),
 
   (
@@ -4054,7 +4384,8 @@ mission_templates = [
 		   (try_end),
            (finish_mission),
            ]),
-    ],
+    ]
++ parabellum_script_set1a,
   ),
 
   (
@@ -4121,7 +4452,8 @@ mission_templates = [
 		   (try_end),
            (finish_mission),
            ]),
-    ],
+    ]
++ parabellum_script_set1a,
   ),  
   
   
