@@ -1334,6 +1334,7 @@ scripts = [
       (call_script, "script_give_center_to_faction_aux", "p_castle_250", "fac_kingdom_2"),#indu
       (call_script, "script_give_center_to_faction_aux", "p_castle_251", "fac_kingdom_2"),#indu
       (call_script, "script_give_center_to_faction_aux", "p_castle_252", "fac_kingdom_2"),#indu
+      (call_script, "script_give_center_to_faction_aux", "p_castle_253", "fac_kingdom_2"),#indu
 #yifeng 1.5
 
 	  #Now give towns to great lords#yifeng16th
