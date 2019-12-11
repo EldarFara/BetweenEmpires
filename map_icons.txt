@@ -1,5 +1,5 @@
 map_icons_file version 1
-189
+222
 player 0 player 0.150000 17 0.150000 0.173000 0.000000 0
 
 
@@ -568,5 +568,104 @@ banner_136 0 map_flag_15 0.300000 0 0 0 0 0
 
 
 bandit_lair 1 map_bandit_lair 0.450000 0 0 0 0 0
+
+
+map_flag_faction1 0 map_flag_faction1 0.300000 0 0 0 0 0
+
+
+map_flag_faction2 0 map_flag_faction2 0.300000 0 0 0 0 0
+
+
+map_flag_faction3 0 map_flag_faction3 0.300000 0 0 0 0 0
+
+
+map_flag_faction4 0 map_flag_faction4 0.300000 0 0 0 0 0
+
+
+map_flag_faction5 0 map_flag_faction5 0.300000 0 0 0 0 0
+
+
+map_flag_faction6 0 map_flag_faction6 0.300000 0 0 0 0 0
+
+
+map_flag_faction7 0 map_flag_faction7 0.300000 0 0 0 0 0
+
+
+map_flag_faction8 0 map_flag_faction8 0.300000 0 0 0 0 0
+
+
+map_flag_faction9 0 map_flag_faction9 0.300000 0 0 0 0 0
+
+
+map_flag_faction10 0 map_flag_faction10 0.300000 0 0 0 0 0
+
+
+map_flag_faction11 0 map_flag_faction11 0.300000 0 0 0 0 0
+
+
+map_flag_faction12 0 map_flag_faction12 0.300000 0 0 0 0 0
+
+
+map_flag_faction13 0 map_flag_faction13 0.300000 0 0 0 0 0
+
+
+map_flag_faction14 0 map_flag_faction14 0.300000 0 0 0 0 0
+
+
+map_flag_faction15 0 map_flag_faction15 0.300000 0 0 0 0 0
+
+
+map_flag_faction16 0 map_flag_faction16 0.300000 0 0 0 0 0
+
+
+map_flag_faction17 0 map_flag_faction17 0.300000 0 0 0 0 0
+
+
+map_flag_faction18 0 map_flag_faction18 0.300000 0 0 0 0 0
+
+
+map_flag_faction19 0 map_flag_faction19 0.300000 0 0 0 0 0
+
+
+map_flag_faction20 0 map_flag_faction20 0.300000 0 0 0 0 0
+
+
+map_flag_faction21 0 map_flag_faction21 0.300000 0 0 0 0 0
+
+
+map_flag_faction22 0 map_flag_faction22 0.300000 0 0 0 0 0
+
+
+map_flag_faction23 0 map_flag_faction23 0.300000 0 0 0 0 0
+
+
+map_flag_faction24 0 map_flag_faction24 0.300000 0 0 0 0 0
+
+
+map_flag_faction25 0 map_flag_faction25 0.300000 0 0 0 0 0
+
+
+map_flag_faction26 0 map_flag_faction26 0.300000 0 0 0 0 0
+
+
+map_flag_faction27 0 map_flag_faction27 0.300000 0 0 0 0 0
+
+
+map_flag_faction28 0 map_flag_faction28 0.300000 0 0 0 0 0
+
+
+map_flag_faction29 0 map_flag_faction29 0.300000 0 0 0 0 0
+
+
+map_flag_faction30 0 map_flag_faction30 0.300000 0 0 0 0 0
+
+
+map_flag_faction31 0 map_flag_faction31 0.300000 0 0 0 0 0
+
+
+map_flag_faction32 0 map_flag_faction32 0.300000 0 0 0 0 0
+
+
+map_flag_faction33 0 map_flag_faction33 0.300000 0 0 0 0 0
 
 
