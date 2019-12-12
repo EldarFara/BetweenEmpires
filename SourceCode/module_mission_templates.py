@@ -42,8 +42,9 @@ test = (0, 0, 0, [
 (key_clicked, key_y),
 (get_player_agent_no, ":player"),
 (agent_get_position, pos1, ":player"),
-(set_spawn_position, pos1),
-(spawn_scene_prop, "spr_flora_bush1"),
+	(try_for_agents, ":agent"),
+	(try_end),
+
 ], [])
 
 fgs_trees_ams = (ti_after_mission_start, 0, 0,[ #fgs - Flora Generating System
