@@ -98,7 +98,7 @@ parties = [
   ("town_19","Konstantiniyyeh",  icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(138.90,-23.93),[], 45),
   ("town_20","Khiva",  icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-399.64,-176.49),[], 270),
   ("town_21","Esfahan",  icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-365.30,50.52),[], 330),
-  ("town_22","Tehran",  icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-336.80,-17.24),[], 225),
+  ("town_22","Tehran",  icon_town3|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-336.80,-17.24),[], 225),
   ("town_23","Naples",  icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(400.03,10.34),[], 90),
   ("town_24","Muscat",  icon_town_desert|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-543.96,200.44),[], 45),
   ("town_25","Bukhara",  icon_town_desert|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-448.12,-167.35),[], 45),

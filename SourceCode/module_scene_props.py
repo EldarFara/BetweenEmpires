@@ -3203,5 +3203,6 @@ scene_props = [
 ("spotflora_flowers1b", 0, "0", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
 ("spotflora_flowers2", 0, "0", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
 
+("banner_ria1",0,"banner_ria1","0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":prop"),(prop_instance_set_material, ":prop", -1, "@banner_ria1"),(prop_instance_deform_in_cycle_loop, ":prop", 0, 305, 14000),]),]),
 
 ]

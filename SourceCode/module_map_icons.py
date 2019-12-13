@@ -289,4 +289,14 @@ map_icons = [
   ("map_flag_faction31",0,"map_flag_faction31", banner_scale,0),
   ("map_flag_faction32",0,"map_flag_faction32", banner_scale,0),
   ("map_flag_faction33",0,"map_flag_faction33", banner_scale,0),
+  
+  ("town1",mcn_no_shadow,"town1", 0.35,0),
+  ("town2",mcn_no_shadow,"town2", 0.35,0),
+  ("town3",mcn_no_shadow,"town3", 0.35,0),
+  ("village1",mcn_no_shadow,"village1", 0.35,0),
+  ("village2",mcn_no_shadow,"village2", 0.35,0),
+  ("village3",mcn_no_shadow,"village3", 0.35,0),
+  ("castle1",mcn_no_shadow,"castle1", 0.35,0),
+  ("castle2",mcn_no_shadow,"castle2", 0.35,0),
+  ("castle3",mcn_no_shadow,"castle3", 0.35,0),
 ]

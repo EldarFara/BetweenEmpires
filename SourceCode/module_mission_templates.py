@@ -41,8 +41,10 @@ af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 test = (0, 0, 0, [
 (key_clicked, key_y),
 (get_player_agent_no, ":player"),
-(agent_get_position, pos1, ":player"),
-	(try_for_agents, ":agent"),
+#(agent_get_position, pos1, ":player"),
+(agent_get_bone_position, pos1, ":player", 18, 1),
+	(try_for_prop_instances, ":prop", "spr_banner_ria1"),
+	(prop_instance_set_position, ":prop", pos1),
 	(try_end),
 
 ], [])
@@ -522,7 +524,7 @@ pws_sky_bms = (ti_before_mission_start, 0, 0, [
 parabellum_script_set1a = [
 pws_sky_bms,
 fgs_trees_ams,
-#test,
+test,
   ]	
 
 multiplayer_server_check_belfry_movement = (
