@@ -1232,8 +1232,6 @@ items = [
 ["warhorse_sarranid","Sarranian War Horse", [("warhorse_sarranid",0)], itp_merchandise|itp_type_horse, 0, 1811,abundance(40)|hit_points(165)|body_armor(58)|difficulty(4)|horse_speed(40)|horse_maneuver(44)|horse_charge(32)|horse_scale(112),imodbits_horse_basic|imodbit_champion, [], [fac_kingdom_6]],
 ["warhorse_steppe","Steppe Charger", [("warhorse_steppe",0)], itp_merchandise|itp_type_horse, 0, 1400,abundance(45)|hit_points(150)|body_armor(40)|difficulty(4)|horse_speed(40)|horse_maneuver(50)|horse_charge(28)|horse_scale(112),imodbits_horse_basic|imodbit_champion, [], [fac_kingdom_3,fac_kingdom_2]],
 
-["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
-
 ##INVASION MODE START
 ["javelin_bow",         "Javelin Bow", [("war_bow",0),("war_bow_carry",ixmesh_carry)],itp_type_bow|itp_primary|itp_two_handed ,itcf_shoot_bow|itcf_carry_bow_back, 
 0 , weight(1.5)|difficulty(0)|spd_rtng(84) | shoot_speed(59) | thrust_damage(25 ,pierce), 0, [(ti_on_weapon_attack, [(play_sound,"snd_throw_javelin")])] ],
@@ -1276,5 +1274,48 @@ items = [
 #0,weight(2.25)|abundance(90)|weapon_length(63)|thrust_damage(1,pierce)|max_ammo(4),imodbits_missile],
 ["ccoop_new_items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 #INVASION MODE END
+
+["ria_infantry_trousers1","ria_infantry_trousers1", [("ria_infantry_trousers1", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
+["ria_infantry_trousers2","ria_infantry_trousers2", [("ria_infantry_trousers2", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
+["ria_infantry_trousers3","ria_infantry_trousers3", [("ria_infantry_trousers3", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
+["ria_cavalry_trousers1","ria_cavalry_trousers1", [("ria_cavalry_trousers1", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
+["ria_cavalry_trousers2","ria_cavalry_trousers2", [("ria_cavalry_trousers2", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
+["ria_cavalry_trousers3","ria_cavalry_trousers3", [("ria_cavalry_trousers3", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
+["ria_cavalry_trousers4","ria_cavalry_trousers4", [("ria_cavalry_trousers4", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
+["ria_infantry1","ria_infantry1", [("ria_infantry1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["ria_infantry2","ria_infantry2", [("ria_infantry2", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["ria_infantry3","ria_infantry3", [("ria_infantry3", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["ria_infantry4","ria_infantry4", [("ria_infantry4", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["ria_cavalry1","ria_cavalry1", [("ria_cavalry1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["ria_cavalry2","ria_cavalry2", [("ria_cavalry2", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["ria_cavalry3","ria_cavalry3", [("ria_cavalry3", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["ria_cavalry4","ria_cavalry4", [("ria_cavalry4", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["ria_hat1","ria_hat1", [("ria_hat1", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.5)|head_armor(5), imodbits_none, []],
+["ria_hat2","ria_hat2", [("ria_hat2", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.5)|head_armor(5), imodbits_none, []],
+["ria_hat3","ria_hat3", [("ria_hat3", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.5)|head_armor(5), imodbits_none, []],
+["ria_hat4","ria_hat4", [("ria_hat4", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.5)|head_armor(5), imodbits_none, []],
+["ria_leader1","ria_leader1", [("ria_leader1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+
+["rifle_berdan","berdan", [("berdan", 0),("berdan_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.1)|abundance(100)|accuracy(95)|spd_rtng(60)|shoot_speed(600)|max_ammo(1)|thrust_damage(90, pierce), imodbits_none, [
+    (ti_on_weapon_attack, [
+      # (try_begin),
+        # (mission_cam_get_position, pos2),
+        # (get_distance_between_positions, ":dist", pos1, pos2),
+        # (ge, ":dist", 5000),
+        # (play_sound_at_position, "snd_rifle_shot_far", pos1),
+      # (else_try),
+# (play_sound_at_position, "snd_berdan_shot", pos1),
+# (play_sound_at_position, "snd_rifle_shot_reflection", pos1),
+      # (try_end),
+      # (position_move_x, 1, 0),
+      # (position_move_y, pos1, 105),
+      # (particle_system_burst, "psys_shot_smoke", pos1, 4),
+      # (particle_system_burst, "psys_shot_flash", pos1, 1),
+    ]),
+   ]],
+["rifle_berdan_m","berdan", [("berdan", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(4.1)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(0, pierce)|swing_damage(40, blunt), imodbits_none, []],
+
+
+["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 
 ]

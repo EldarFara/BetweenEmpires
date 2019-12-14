@@ -1,5 +1,5 @@
 itemsfile version 3
-620
+642
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -2445,10 +2445,6 @@ itemsfile version 3
  45 44
 0
 
- itm_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
- 0
-0
-
  itm_javelin_bow Javelin_Bow Javelin_Bow 2  war_bow 0  war_bow_carry 3458764513820540928  6291464 5905584128 0 0 1.500000 100 0 0 0 0 0 84 59 0 0 281 0
  0
 1
@@ -2515,6 +2511,99 @@ itemsfile version 3
 0
 
  itm_ccoop_new_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ria_infantry_trousers1 ria_infantry_trousers1 ria_infantry_trousers1 1  ria_infantry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ria_infantry_trousers2 ria_infantry_trousers2 ria_infantry_trousers2 1  ria_infantry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ria_infantry_trousers3 ria_infantry_trousers3 ria_infantry_trousers3 1  ria_infantry_trousers3 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ria_cavalry_trousers1 ria_cavalry_trousers1 ria_cavalry_trousers1 1  ria_cavalry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ria_cavalry_trousers2 ria_cavalry_trousers2 ria_cavalry_trousers2 1  ria_cavalry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ria_cavalry_trousers3 ria_cavalry_trousers3 ria_cavalry_trousers3 1  ria_cavalry_trousers3 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ria_cavalry_trousers4 ria_cavalry_trousers4 ria_cavalry_trousers4 1  ria_cavalry_trousers4 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ria_infantry1 ria_infantry1 ria_infantry1 1  ria_infantry1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ria_infantry2 ria_infantry2 ria_infantry2 1  ria_infantry2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ria_infantry3 ria_infantry3 ria_infantry3 1  ria_infantry3 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ria_infantry4 ria_infantry4 ria_infantry4 1  ria_infantry4 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ria_cavalry1 ria_cavalry1 ria_cavalry1 1  ria_cavalry1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ria_cavalry2 ria_cavalry2 ria_cavalry2 1  ria_cavalry2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ria_cavalry3 ria_cavalry3 ria_cavalry3 1  ria_cavalry3 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ria_cavalry4 ria_cavalry4 ria_cavalry4 1  ria_cavalry4 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ria_hat1 ria_hat1 ria_hat1 1  ria_hat1 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ria_hat2 ria_hat2 ria_hat2 1  ria_hat2 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ria_hat3 ria_hat3 ria_hat3 1  ria_hat3 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ria_hat4 ria_hat4 ria_hat4 1  ria_hat4 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ria_leader1 ria_leader1 ria_leader1 1  ria_leader1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_rifle_berdan berdan berdan 2  berdan 0  berdan_inv 1152921504606846976  543227913 6174031872 400 0 4.000000 100 0 0 95 0 0 60 600 0 1 346 0
+ 0
+1
+-51.000000  0 
+
+ itm_rifle_berdan_m berdan berdan 1  berdan 0  6553604 4222130824678400 0 0 4.000000 100 0 0 0 0 59392 75 0 80 0 256 570
+ 0
+0
+
+ itm_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 0
 

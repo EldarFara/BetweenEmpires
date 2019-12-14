@@ -51998,5 +51998,16 @@ scripts = [
         (position_copy_rotation,pos39,pos37),
 	 ]),
 
-     
+  # script_game_missile_launch
+  # Input: arg1 = shooter_agent_id, arg2 = agent_weapon_item_id, 
+  #        arg3 = missile_weapon_id, arg4 = missile_item_id
+  #        pos1 = weapon_item_position
+  # Output: none 
+  ("game_missile_launch",
+    [
+      (store_script_param, ":agent_id", 1),
+      (store_script_param, ":item_id", 2),
+      (store_script_param, ":missile_weapon_id", 3),
+  ]),
+  
 ]
