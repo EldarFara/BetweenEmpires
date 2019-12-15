@@ -1,5 +1,5 @@
 map_icons_file version 1
-231
+234
 player 0 player 0.150000 17 0.150000 0.173000 0.000000 0
 
 
@@ -678,6 +678,9 @@ town2 1 town2 0.350000 0 0 0 0 0
 town3 1 town3 0.350000 0 0 0 0 0
 
 
+town4 1 town3 0.350000 0 0 0 0 0
+
+
 village1 1 village1 0.350000 0 0 0 0 0
 
 
@@ -687,6 +690,9 @@ village2 1 village2 0.350000 0 0 0 0 0
 village3 1 village3 0.350000 0 0 0 0 0
 
 
+village4 1 village3 0.350000 0 0 0 0 0
+
+
 castle1 1 castle1 0.350000 0 0 0 0 0
 
 
@@ -694,5 +700,8 @@ castle2 1 castle2 0.350000 0 0 0 0 0
 
 
 castle3 1 castle3 0.350000 0 0 0 0 0
+
+
+castle4 1 village3 0.350000 0 0 0 0 0
 
 
