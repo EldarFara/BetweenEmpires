@@ -1,5 +1,5 @@
 itemsfile version 3
-642
+647
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -2602,6 +2602,27 @@ itemsfile version 3
  itm_rifle_berdan_m berdan berdan 1  berdan 0  6553604 4222130824678400 0 0 4.000000 100 0 0 0 0 59392 75 0 80 0 256 570
  0
 0
+
+ itm_playerclothes_male_trousers1 Adventurer's_Trousers Adventurer's_Trousers 1  playerclothes_male_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_playerclothes_male1 Adventurer's_Clothes Adventurer's_Clothes 1  playerclothes_male1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_playerclothes_female_trousers1 Adventurer's_Skirt Adventurer's_Skirt 1  playerclothes_female_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_playerclothes_female1 Adventurer's_Clothes Adventurer's_Clothes 1  playerclothes_female1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_sidearm_colt_m1873 Colt_Single_Action_Army Colt_Single_Action_Army 1  colt_m1873 0  6357008 483721150464 400 0 1.000000 100 0 0 80 0 0 55 400 0 10 286 0
+ 0
+1
+-51.000000  0 
 
  itm_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0

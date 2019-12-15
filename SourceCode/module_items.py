@@ -1315,6 +1315,17 @@ items = [
    ]],
 ["rifle_berdan_m","berdan", [("berdan", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(4.1)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(0, pierce)|swing_damage(40, blunt), imodbits_none, []],
 
+["playerclothes_male_trousers1","Adventurer's Trousers", [("playerclothes_male_trousers1", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
+["playerclothes_male1","Adventurer's Clothes", [("playerclothes_male1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["playerclothes_female_trousers1","Adventurer's Skirt", [("playerclothes_female_trousers1", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
+["playerclothes_female1","Adventurer's Clothes", [("playerclothes_female1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+
+
+["sidearm_colt_m1873","Colt Single Action Army", [("colt_m1873", 0)], itp_type_pistol|itp_merchandise|itp_two_handed|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,400, weight(1.1)|abundance(100)|accuracy(80)|spd_rtng(55)|shoot_speed(400)|max_ammo(10)|thrust_damage(30, pierce), imodbits_none, [
+    (ti_on_weapon_attack, [
+	
+    ]),
+   ]],
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 
