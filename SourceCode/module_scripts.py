@@ -23292,18 +23292,18 @@ scripts = [
           (this_or_next|is_between, ":village_no", "p_village_49", "p_village_51"), #Tismirr and Karindi 
           (this_or_next|eq, ":village_no", "p_village_75"), #Bhulaban 
           (is_between, ":village_no", "p_village_85", "p_village_87"), #Ismirala and Slezkh 
-          (assign, ":normal_village_icon", "icon_village_snow_a"),  
-          (assign, ":burnt_village_icon", "icon_village_snow_burnt_a"), 
-          (assign, ":deserted_village_icon", "icon_village_snow_deserted_a"), 
+          #(assign, ":normal_village_icon", "icon_village_snow_a"),  
+         # (assign, ":burnt_village_icon", "icon_village_snow_burnt_a"), 
+         # (assign, ":deserted_village_icon", "icon_village_snow_deserted_a"), 
         (else_try), 
           (is_between, ":village_no", "p_village_91", "p_salt_mine"), #Ayn Assuadi through Rushdigh 
-          (assign, ":normal_village_icon", "icon_village_c"),  
-          (assign, ":burnt_village_icon", "icon_village_burnt_c"), 
-          (assign, ":deserted_village_icon", "icon_village_deserted_c"), 
+         # (assign, ":normal_village_icon", "icon_village_c"),  
+         # (assign, ":burnt_village_icon", "icon_village_burnt_c"), 
+         # (assign, ":deserted_village_icon", "icon_village_deserted_c"), 
         (else_try), 
-          (assign, ":normal_village_icon", "icon_village_a"), 
-          (assign, ":burnt_village_icon", "icon_village_burnt_a"), 
-          (assign, ":deserted_village_icon", "icon_village_deserted_a"), 
+         # (assign, ":normal_village_icon", "icon_village_a"), 
+        #  (assign, ":burnt_village_icon", "icon_village_burnt_a"), 
+         # (assign, ":deserted_village_icon", "icon_village_deserted_a"), 
         (try_end), 
         ##CABA Fix        
          (party_get_slot, ":village_raid_progress", ":village_no", slot_village_raid_progress),
@@ -23316,9 +23316,9 @@ scripts = [
              (lt, ":village_raid_progress", 50),
              
              (try_begin),
-               (party_get_icon, ":village_icon", ":village_no"),
-              (neq, ":village_icon", ":normal_village_icon"), ##CABA FIX 
-              (party_set_icon, ":village_no", ":normal_village_icon"), ##CABA FIX 
+             #  (party_get_icon, ":village_icon", ":village_no"),
+             # (neq, ":village_icon", ":normal_village_icon"), ##CABA FIX 
+              #(party_set_icon, ":village_no", ":normal_village_icon"), ##CABA FIX 
              (try_end),
              
              (party_slot_ge, ":village_no", slot_village_smoke_added, 1),
@@ -23365,7 +23365,7 @@ scripts = [
                (party_slot_eq, ":village_no", slot_village_smoke_added, 0),
                (party_add_particle_system, ":village_no", "psys_map_village_fire"),
                (party_add_particle_system, ":village_no", "psys_map_village_fire_smoke"),
-              (party_set_icon, ":village_no", ":burnt_village_icon"), ##CABA FIX 
+              #(party_set_icon, ":village_no", ":burnt_village_icon"), ##CABA FIX 
                (party_set_slot, ":village_no", slot_village_smoke_added, 1),
              (try_end),
              (try_begin),
@@ -23433,7 +23433,7 @@ scripts = [
              (party_slot_eq, ":village_no", slot_village_smoke_added, 2),
              (party_clear_particle_systems, ":village_no"),
              (party_set_slot, ":village_no", slot_village_smoke_added, 3),
-            (party_set_icon, ":village_no", ":deserted_village_icon"), ##CABA FIX 
+          #  (party_set_icon, ":village_no", ":deserted_village_icon"), ##CABA FIX 
            (try_end),
            (try_begin),
              (gt, ":recover_progress", 100),
@@ -23441,7 +23441,7 @@ scripts = [
              (party_set_slot, ":village_no", slot_village_recover_progress, 0),
              (party_clear_particle_systems, ":village_no"),
              (party_set_slot, ":village_no", slot_village_smoke_added, 0),
-            (party_set_icon, ":village_no", ":normal_village_icon"), ##CABA FIX 
+          #  (party_set_icon, ":village_no", ":normal_village_icon"), ##CABA FIX 
            (try_end),
          (try_end),
        (try_end),
@@ -52005,9 +52005,9 @@ scripts = [
   # Output: none 
   ("game_missile_launch",
     [
-      (store_script_param, ":agent_id", 1),
-      (store_script_param, ":item_id", 2),
-      (store_script_param, ":missile_weapon_id", 3),
+     # (store_script_param, ":agent_id", 1),
+     # (store_script_param, ":item_id", 2),
+     # (store_script_param, ":missile_weapon_id", 3),
   ]),
   
 ]
