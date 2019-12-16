@@ -771,13 +771,13 @@ animations = [
     [1.3, "reload_pistol1", 0, 14, arf_blend_in_8],
   ],
  ["ready_musket", acf_rot_vertical_bow|acf_anim_length(100), amf_priority_attack|amf_use_weapon_speed|amf_keep|amf_client_owner_prediction|amf_rider_rot_crossbow,
-   [1.5, "anim_human", combat+1300, combat+1320, blend_in_ready],
+   [1.5, "rifle_aim1", 0, 0, blend_in_ready],
  ],
  ["release_musket", acf_rot_vertical_bow|acf_anim_length(100), amf_priority_attack|amf_use_weapon_speed|amf_play|amf_client_owner_prediction|amf_rider_rot_crossbow,
-   [0.2, "anim_human", combat+1330, combat+1331, arf_blend_in_1],
+   [0.2, "rifle_aim1", 4, 7, arf_blend_in_1],
  ],
  ["reload_musket", 0, amf_priority_reload|amf_use_weapon_speed|amf_play,
-   [2.0, "anim_human", combat+2650, combat+2860, arf_blend_in_8],
+   [2.0, "reload_rifle2", 0, 13, arf_blend_in_8|arf_stick_item_to_left_hand],
  ],
 
 

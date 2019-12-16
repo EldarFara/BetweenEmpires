@@ -403,11 +403,11 @@
  reload_pistol 0 35651644  1
   1.300000 reload_pistol1 0 14 9 0 0.0 0.0 0.0 0.0 
  ready_musket 1678770176 606089226  1
-  1.500000 anim_human 21300 21320 7 0 0.0 0.0 0.0 0.0 
+  1.500000 rifle_aim1 0 0 7 0 0.0 0.0 0.0 0.0 
  release_musket 1678770176 572534794  1
-  0.200000 anim_human 21330 21331 2 0 0.0 0.0 0.0 0.0 
+  0.200000 rifle_aim1 4 7 2 0 0.0 0.0 0.0 0.0 
  reload_musket 0 35651644  1
-  2.000000 anim_human 22650 22860 9 0 0.0 0.0 0.0 0.0 
+  2.000000 reload_rifle2 0 13 67108873 0 0.0 0.0 0.0 0.0 
  ready_swingright_fist 0 606105610  1
   0.350000 right_swing 0 15 7 0 0.0 0.0 0.0 0.0 
  release_swingright_fist 0 35680266  1

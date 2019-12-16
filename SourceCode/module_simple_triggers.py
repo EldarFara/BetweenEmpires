@@ -662,7 +662,7 @@ simple_triggers = [
 			(store_distance_to_party_from_party, ":distance", ":acting_village", ":target_village"),
 			(lt, ":distance", 25),
 			
-			(call_script, "script_add_notification_menu", "mnu_notification_border_incident", ":acting_village", ":target_village"),
+			#(call_script, "script_add_notification_menu", "mnu_notification_border_incident", ":acting_village", ":target_village"),
 		(try_end),
    (try_end),
    
