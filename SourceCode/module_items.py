@@ -23,6 +23,23 @@ from header_triggers import *
 #  10) [Optional] Factions: List of factions that item can be found as merchandise.
 ####################################################################################################################
 
+accuracy_small_caliber_rifle = 90
+accuracy_conversion_rifle = 85
+accuracy_muzzleloaded_rifle = 85
+accuracy_muzzleloaded_musket = 70
+
+speed_small_caliber_rifle = 60
+speed_rifle = 55
+speed_musket = 55
+
+damage_small_caliber_rifle = 55
+damage_rifle = 60
+damage_musket = 50
+
+shot_speed_small_caliber_rifle = 550
+shot_speed_rifle = 500
+shot_speed_musket = 300
+
 # Some constants for ease of use.
 imodbits_none = 0
 imodbits_horse_basic = imodbit_swaybacked|imodbit_lame|imodbit_spirited|imodbit_heavy|imodbit_stubborn
@@ -38,6 +55,7 @@ imodbits_mace   = imodbit_rusty | imodbit_chipped | imodbit_heavy
 imodbits_pick   = imodbit_rusty | imodbit_chipped | imodbit_balanced | imodbit_heavy
 imodbits_bow = imodbit_cracked | imodbit_bent | imodbit_strong |imodbit_masterwork
 imodbits_crossbow = imodbit_cracked | imodbit_bent | imodbit_masterwork
+imodbits_firearm = imodbit_cracked | imodbit_bent | imodbit_masterwork
 imodbits_missile   = imodbit_bent | imodbit_large_bag
 imodbits_thrown   = imodbit_bent | imodbit_heavy| imodbit_balanced| imodbit_large_bag
 imodbits_thrown_minus_heavy = imodbit_bent | imodbit_balanced| imodbit_large_bag
@@ -1296,36 +1314,21 @@ items = [
 ["ria_hat4","ria_hat4", [("ria_hat4", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.5)|head_armor(5), imodbits_none, []],
 ["ria_leader1","ria_leader1", [("ria_leader1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
 
-["rifle_berdan","berdan", [("berdan", 0),("berdan_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.1)|abundance(100)|accuracy(95)|spd_rtng(60)|shoot_speed(600)|max_ammo(1)|thrust_damage(90, pierce), imodbits_none, [
-    (ti_on_weapon_attack, [
-      # (try_begin),
-        # (mission_cam_get_position, pos2),
-        # (get_distance_between_positions, ":dist", pos1, pos2),
-        # (ge, ":dist", 5000),
-        # (play_sound_at_position, "snd_rifle_shot_far", pos1),
-      # (else_try),
-# (play_sound_at_position, "snd_berdan_shot", pos1),
-# (play_sound_at_position, "snd_rifle_shot_reflection", pos1),
-      # (try_end),
-      # (position_move_x, 1, 0),
-      # (position_move_y, pos1, 105),
-      # (particle_system_burst, "psys_shot_smoke", pos1, 4),
-      # (particle_system_burst, "psys_shot_flash", pos1, 1),
-    ]),
-   ]],
-["rifle_berdan_m","berdan", [("berdan", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(4.1)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(0, pierce)|swing_damage(40, blunt), imodbits_none, []],
+["rifle_berdan","berdan", [("berdan", 0),("berdan_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(100)|accuracy(accuracy_small_caliber_rifle)|spd_rtng(speed_small_caliber_rifle)|shoot_speed(shot_speed_small_caliber_rifle)|max_ammo(1)|thrust_damage(damage_rifle, pierce), imodbits_firearm, []],
+["rifle_berdan_m","berdan", [("berdan", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, pierce)|swing_damage(0, blunt), imodbits_none, []],
 
 ["playerclothes_male_trousers1","Adventurer's Trousers", [("playerclothes_male_trousers1", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
 ["playerclothes_male1","Adventurer's Clothes", [("playerclothes_male1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
 ["playerclothes_female_trousers1","Adventurer's Skirt", [("playerclothes_female_trousers1", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
 ["playerclothes_female1","Adventurer's Clothes", [("playerclothes_female1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
 
+["sidearm_colt_m1873","Colt Single Action Army", [("colt_m1873", 0)], itp_type_pistol|itp_merchandise|itp_two_handed|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,400, weight(1.1)|abundance(100)|accuracy(80)|spd_rtng(55)|shoot_speed(400)|max_ammo(6)|thrust_damage(40, pierce), imodbits_firearm, []],
 
-["sidearm_colt_m1873","Colt Single Action Army", [("colt_m1873", 0)], itp_type_pistol|itp_merchandise|itp_two_handed|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,400, weight(1.1)|abundance(100)|accuracy(80)|spd_rtng(55)|shoot_speed(400)|max_ammo(10)|thrust_damage(30, pierce), imodbits_none, [
-    (ti_on_weapon_attack, [
-	
-    ]),
-   ]],
+["rifle_russian_m1845","Russian M1845 Musket", [("russian_m1845", 0),("russian_m1845_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.7)|abundance(100)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_musket)|shoot_speed(shot_speed_musket)|max_ammo(1)|thrust_damage(damage_musket, pierce), imodbits_firearm, []],
+["rifle_russian_m1845_m","Russian M1845 Musket", [("russian_m1845", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, pierce)|swing_damage(0, blunt), imodbits_none, []],
+["rifle_russian_m1856","Russian M1856 Rifle", [("russian_m1856", 0),("russian_m1856_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.8)|abundance(100)|accuracy(accuracy_muzzleloaded_rifle)|spd_rtng(speed_rifle)|shoot_speed(shot_speed_rifle)|max_ammo(1)|thrust_damage(damage_rifle, pierce), imodbits_firearm, []],
+["rifle_russian_m1856_m","Russian M1856 Rifle", [("russian_m1856", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.8)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, pierce)|swing_damage(0, blunt), imodbits_none, []],
+
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 

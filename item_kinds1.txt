@@ -1,5 +1,5 @@
 itemsfile version 3
-647
+651
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -2594,12 +2594,11 @@ itemsfile version 3
  0
 0
 
- itm_rifle_berdan berdan berdan 2  berdan 0  berdan_inv 1152921504606846976  543227913 555929845760 400 0 4.000000 100 0 0 95 0 0 60 600 0 1 346 0
+ itm_rifle_berdan berdan berdan 2  berdan 0  berdan_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 100 0 0 90 0 0 60 550 0 1 316 0
  0
-1
--51.000000  0 
+0
 
- itm_rifle_berdan_m berdan berdan 1  berdan 0  6553604 4222130824678400 0 0 4.000000 100 0 0 0 0 59392 75 0 80 0 256 570
+ itm_rifle_berdan_m berdan berdan 1  berdan 0  6553604 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 85 0 286 530
  0
 0
 
@@ -2619,10 +2618,25 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_colt_m1873 Colt_Single_Action_Army Colt_Single_Action_Army 1  colt_m1873 0  6357008 483721150464 400 0 1.000000 100 0 0 80 0 0 55 400 0 10 286 0
+ itm_sidearm_colt_m1873 Colt_Single_Action_Army Colt_Single_Action_Army 1  colt_m1873 0  6357008 483721150464 400 131082 1.000000 100 0 0 80 0 0 55 400 0 6 296 0
  0
-1
--51.000000  0 
+0
+
+ itm_rifle_russian_m1845 Russian_M1845_Musket Russian_M1845_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 300 0 1 306 0
+ 0
+0
+
+ itm_rifle_russian_m1845_m Russian_M1845_Musket Russian_M1845_Musket 1  russian_m1845 0  6553604 4222130824676096 0 0 4.500000 100 0 0 0 0 18432 75 0 85 0 286 530
+ 0
+0
+
+ itm_rifle_russian_m1856 Russian_M1856_Rifle Russian_M1856_Rifle 2  russian_m1856 0  russian_m1856_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 85 0 0 55 500 0 1 316 0
+ 0
+0
+
+ itm_rifle_russian_m1856_m Russian_M1856_Rifle Russian_M1856_Rifle 1  russian_m1856 0  6553604 4222130824676096 0 0 4.500000 100 0 0 0 0 18432 75 0 85 0 286 530
+ 0
+0
 
  itm_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0

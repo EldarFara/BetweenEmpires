@@ -30,7 +30,7 @@ log_sound_priority = 0
 
 #Global_values
 musket_left_hand_x_dif = 0.028
-musket_left_hand_y_dif = -0.41
+musket_left_hand_y_dif = -0.21
 musket_left_hand_z_dif = 0.0
 
 arrow_button_height = 0.1
