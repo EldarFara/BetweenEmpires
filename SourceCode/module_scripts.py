@@ -52026,7 +52026,7 @@ scripts = [
       (assign, ":spark_size", 40),
       (assign, ":pan_smoke_size", 2),
       (try_begin),
-        (this_or_next|eq, ":item_id", "itm_sidearm_smithwesson_no2"), # Pistols
+        (this_or_next|eq, ":item_id", "itm_sidearm_smithwesson_no2"), # Revolvers
         (eq, ":item_id", "itm_sidearm_colt_m1873"),
         (assign, ":sound_id", "snd_shot_pistol"),
         (assign, ":muzzle_y", 44),
@@ -52037,7 +52037,7 @@ scripts = [
         (assign, ":smoke_size", 10),
         (assign, ":spark_size", 6),
       (else_try),
-        (this_or_next|eq, ":item_id", "itm_sidearm_flintlock_pistol1"), # Caplock Pistols
+        (this_or_next|eq, ":item_id", "itm_sidearm_flintlock_pistol1"), # Caplock and Flintlock Pistols
         (eq, ":item_id", "itm_sidearm_caplock_pistol1"),
         (assign, ":sound_id", "snd_shot_caplockpistol"),
         (assign, ":muzzle_y", 44),
