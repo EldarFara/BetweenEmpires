@@ -45,14 +45,14 @@ sounds = [
  ("horse_jump_end_water", sf_vol_6|sf_priority_9,["jump_end_water.ogg"]),
 
  ("release_bow",sf_vol_4, ["release_bow_1.ogg"]),
- ("release_crossbow",sf_vol_7, ["release_crossbow_1.ogg"]),
+ ("release_crossbow",sf_vol_7, ["none.ogg"]),
  ("throw_javelin",sf_vol_5, ["throw_javelin_2.ogg"]),
  ("throw_axe",sf_vol_7, ["throw_axe_1.ogg"]),
  ("throw_knife",sf_vol_5, ["throw_knife_1.ogg"]),
  ("throw_stone",sf_vol_7, ["throw_stone_1.ogg"]),
 
- ("reload_crossbow",sf_vol_3, ["reload_crossbow_1.ogg"]),
- ("reload_crossbow_continue",sf_vol_6, ["put_back_dagger.ogg"]),
+ ("reload_crossbow",sf_vol_3, ["none.ogg"]),
+ ("reload_crossbow_continue",sf_vol_6, ["none.ogg"]),
  ("pull_bow",sf_vol_5, ["pull_bow_1.ogg"]),
  ("pull_arrow",sf_vol_5, ["pull_arrow.ogg"]),
 
@@ -233,4 +233,10 @@ sounds = [
  ("ccoop_sea_raider_taunt_3",sf_2d|sf_vol_8, ["encounter_sea_raider_10.ogg"]),
  ("sounds_end", sf_2d|sf_priority_10|sf_vol_10, ["enemy_scored_a_point.ogg"]),
  #INVASION MODE END
+ 
+ ("shot_pistol", sf_priority_14|sf_vol_15, ["shot_pistol1.wav", "shot_pistol2.wav", "shot_pistol3.wav", "shot_pistol4.wav", "shot_pistol5.wav"]),
+ ("shot_caplockpistol", sf_priority_14|sf_vol_15, ["shot_caplock1.wav", "shot_caplock2.wav", "shot_caplock3.wav", "shot_caplock4.wav", "shot_caplock5.wav"]),
+ ("shot_caplock", sf_priority_14|sf_vol_15, ["shot_caplock1.wav", "shot_caplock2.wav", "shot_caplock3.wav", "shot_caplock4.wav", "shot_caplock5.wav"]),
+ ("shot_rifle1", sf_priority_14|sf_vol_15, ["rifle_shot1_01.wav", "rifle_shot1_02.wav", "rifle_shot1_03.wav", "rifle_shot1_04.wav", "rifle_shot1_05.wav", "rifle_shot1_06.wav", "rifle_shot1_07.wav", "rifle_shot1_08.wav", "rifle_shot1_09.wav", "rifle_shot1_10.wav"]),
+
 ]

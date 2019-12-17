@@ -64,7 +64,19 @@ def wp(x):
   n |= wp_archery(x)
   n |= wp_crossbow(x)
   n |= wp_throwing(x)
+  n |= wp_firearm(x)
   return n
+
+def wp1(m,f):
+   n = 0
+   n |= wp_one_handed(m)
+   n |= wp_two_handed(m)
+   n |= wp_polearm(m)
+   n |= wp_archery(f)
+   n |= wp_crossbow(f)
+   n |= wp_throwing(m)
+   n |= wp_firearm(f)
+   return n
 
 def wpe(m,a,c,t):
    n = 0
@@ -628,54 +640,54 @@ troops = [
   ["faction1_castleguard", "troop", "troop", tf_guarantee_armor, 0, 0, fac_kingdom_1,
   [],
   str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000001124000000020000000000000001c00800000000000000000, 0x00000007c00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
-  ["faction2_troop1", "troop", "troop", tf_guarantee_armor, 0, 0, fac_kingdom_1,
+  ["faction2_troop1", "Russian Recruit", "Russian Recruits", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000001124000000020000000000000001c00800000000000000000, 0x00000007c00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
-  ["faction2_troop2", "troop", "troop", tf_guarantee_armor, 0, 0, fac_kingdom_1,
+  str_5|agi_5|int_4|cha_4|level(4), wp1(60, 50), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  ["faction2_troop2", "Russian Infantry", "Russian Infantry", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000001124000000020000000000000001c00800000000000000000, 0x00000007c00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
-  ["faction2_troop3", "troop", "troop", tf_guarantee_armor, 0, 0, fac_kingdom_1,
+  str_7|agi_7|int_4|cha_4|level(8), wp1(75, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  ["faction2_troop3", "Russian Infantry (Exp.)", "Russian Infantry (Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000001124000000020000000000000001c00800000000000000000, 0x00000007c00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
-  ["faction2_troop4", "troop", "troop", tf_guarantee_armor, 0, 0, fac_kingdom_1,
+  str_9|agi_9|int_4|cha_4|level(12), wp1(90, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  ["faction2_troop4", "Russian Infantry (Very Exp.)", "Russian Infantry (Very Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000001124000000020000000000000001c00800000000000000000, 0x00000007c00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
-  ["faction2_troop5", "troop", "troop", tf_guarantee_armor, 0, 0, fac_kingdom_1,
+  str_11|agi_11|int_4|cha_4|level(16), wp1(50, 65), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  ["faction2_troop5", "Russian Rifleman", "Russian Riflemen", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000001124000000020000000000000001c00800000000000000000, 0x00000007c00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
-  ["faction2_troop6", "troop", "troop", tf_guarantee_armor, 0, 0, fac_kingdom_1,
+  str_5|agi_9|int_4|cha_4|level(12), wp1(55, 80), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  ["faction2_troop6", "Russian Rifleman (Exp.)", "Russian Riflemen (Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000001124000000020000000000000001c00800000000000000000, 0x00000007c00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
-  ["faction2_troop7", "troop", "troop", tf_guarantee_armor, 0, 0, fac_kingdom_1,
+  str_5|agi_11|int_4|cha_4|level(16), wp1(105, 80), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  ["faction2_troop7", "Russian Guard", "Russian Guard", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000001124000000020000000000000001c00800000000000000000, 0x00000007c00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
-  ["faction2_troop8", "troop", "troop", tf_guarantee_armor, 0, 0, fac_kingdom_1,
+  str_13|agi_13|int_4|cha_4|level(20), wp1(120, 85), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  ["faction2_troop8", "Russian Guard (Exp.)", "Russian Guards (Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000001124000000020000000000000001c00800000000000000000, 0x00000007c00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
-  ["faction2_troop9", "troop", "troop", tf_guarantee_armor, 0, 0, fac_kingdom_1,
+  str_15|agi_15|int_4|cha_4|level(22), wp1(80, 50), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  ["faction2_troop9", "Russian Uhlan", "Russian Uhlans", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000001124000000020000000000000001c00800000000000000000, 0x00000007c00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
-  ["faction2_troop10", "troop", "troop", tf_guarantee_armor, 0, 0, fac_kingdom_1,
+  str_7|agi_7|int_4|cha_4|level(8), wp1(95, 50), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  ["faction2_troop10", "Russian Uhlan (Exp.)", "Russian Uhlans (Exp.)", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000001124000000020000000000000001c00800000000000000000, 0x00000007c00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
-  ["faction2_troop11", "troop", "troop", tf_guarantee_armor, 0, 0, fac_kingdom_1,
+  str_9|agi_9|int_4|cha_4|level(13), wp1(85, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  ["faction2_troop11", "Russian Dragoon", "Russian Dragoons", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000001124000000020000000000000001c00800000000000000000, 0x00000007c00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
-  ["faction2_troop12", "troop", "troop", tf_guarantee_armor, 0, 0, fac_kingdom_1,
+  str_9|agi_9|int_4|cha_4|level(13), wp1(90, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  ["faction2_troop12", "Russian Dragoon (Exp.)", "Russian Dragoons (Exp.)", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000001124000000020000000000000001c00800000000000000000, 0x00000007c00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
-  ["faction2_troop13", "troop", "troop", tf_guarantee_armor, 0, 0, fac_kingdom_1,
+  str_11|agi_11|int_4|cha_4|level(18), wp1(100, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  ["faction2_troop13", "Russian Cossack", "Russian Cossacks", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000001124000000020000000000000001c00800000000000000000, 0x00000007c00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
-  ["faction2_troop14", "troop", "troop", tf_guarantee_armor, 0, 0, fac_kingdom_1,
+  str_15|agi_13|int_4|cha_4|level(23), wp1(115, 65), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  ["faction2_troop14", "Russian Cossack (Exp.)", "Russian Cossacks (Exp.)", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000001124000000020000000000000001c00800000000000000000, 0x00000007c00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
-  ["faction2_prisonguard", "troop", "troop", tf_guarantee_armor, 0, 0, fac_kingdom_1,
+  str_19|agi_15|int_4|cha_4|level(25), wp1(60, 50), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  ["faction2_prisonguard", "Russian Prison Guard", "Russian Prison Guards", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000001124000000020000000000000001c00800000000000000000, 0x00000007c00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
-  ["faction2_castleguard", "troop", "troop", tf_guarantee_armor, 0, 0, fac_kingdom_1,
+  str_7|agi_7|int_4|cha_4|level(8), wp1(70, 40), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  ["faction2_castleguard", "Russian HQ Guard", "Russian HQ Guards", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000001124000000020000000000000001c00800000000000000000, 0x00000007c00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  str_7|agi_7|int_4|cha_4|level(8), wp1(70, 40), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
   ["faction3_troop1", "troop", "troop", tf_guarantee_armor, 0, 0, fac_kingdom_1,
   [],
   str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000001124000000020000000000000001c00800000000000000000, 0x00000007c00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],

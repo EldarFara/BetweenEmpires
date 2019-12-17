@@ -1,5 +1,5 @@
 itemsfile version 3
-651
+655
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -2590,6 +2590,10 @@ itemsfile version 3
  0
 0
 
+ itm_ria_hat5 ria_hat5 ria_hat5 1  ria_hat5 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
  itm_ria_leader1 ria_leader1 ria_leader1 1  ria_leader1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
  0
 0
@@ -2630,13 +2634,28 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1856 Russian_M1856_Rifle Russian_M1856_Rifle 2  russian_m1856 0  russian_m1856_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 85 0 0 55 500 0 1 316 0
+ itm_rifle_russian_m1856 Russian_M1856_Rifle Russian_M1856_Rifle 2  russian_m1856 0  russian_m1856_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 100 0 0 85 0 0 55 500 0 1 316 0
  0
 0
 
- itm_rifle_russian_m1856_m Russian_M1856_Rifle Russian_M1856_Rifle 1  russian_m1856 0  6553604 4222130824676096 0 0 4.500000 100 0 0 0 0 18432 75 0 85 0 286 530
+ itm_rifle_russian_m1856_m Russian_M1856_Rifle Russian_M1856_Rifle 1  russian_m1856 0  6553604 4222130824676096 0 0 4.750000 100 0 0 0 0 18432 75 0 85 0 286 530
  0
 0
+
+ itm_ammo_rifle Caliber_Rifle_Ammo Caliber_Rifle_Ammo 3  belt_ammo 0  flying_bullet 2305843009213693952  bullet_packs 3458764513820540928  98310 0 100 4398046511104 0.250000 75 0 0 0 0 0 0 0 0 30 256 0
+ 0
+1
+-52.000000  3 4 0 1975 3 1008806316530991164 1 8 3 0 
+
+ itm_ammo_pistol Caliber_Pistol_Ammo Caliber_Pistol_Ammo 3  belt_ammo 0  flying_bullet 2305843009213693952  bullet_packs 3458764513820540928  98322 0 100 4398046511104 0.250000 75 0 0 0 0 0 0 0 0 30 256 0
+ 0
+1
+-52.000000  3 4 0 1975 3 1008806316530991164 1 8 3 0 
+
+ itm_ammo_rifle_double Caliber_Rifle_Ammo_Double Caliber_Rifle_Ammo_Double 3  belt_ammo2 0  flying_bullet 2305843009213693952  bullet_packs 3458764513820540928  65542 0 100 4398046511104 0.750000 75 0 0 0 0 0 0 0 0 60 256 0
+ 0
+1
+-52.000000  3 4 0 1975 3 1008806316530991164 1 8 3 0 
 
  itm_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0

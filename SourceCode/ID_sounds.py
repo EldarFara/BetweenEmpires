@@ -198,5 +198,9 @@ snd_ccoop_sea_raider_taunt_1 = 196
 snd_ccoop_sea_raider_taunt_2 = 197
 snd_ccoop_sea_raider_taunt_3 = 198
 snd_sounds_end = 199
+snd_shot_pistol = 200
+snd_shot_caplockpistol = 201
+snd_shot_caplock = 202
+snd_shot_rifle1 = 203
 
 

@@ -52005,9 +52005,87 @@ scripts = [
   # Output: none 
   ("game_missile_launch",
     [
-     # (store_script_param, ":agent_id", 1),
-     # (store_script_param, ":item_id", 2),
-     # (store_script_param, ":missile_weapon_id", 3),
+   (try_begin),
+	(store_script_param, ":agent_id", 1),
+	(store_script_param, ":item_id", 2),
+	#(store_script_param, ":missile_weapon_id", 3),
+	(agent_is_active,":agent_id"),
+	(agent_is_alive,":agent_id"),
+      
+      (set_fixed_point_multiplier, 100),
+      (copy_position,pos41,pos1),
+      
+      (assign, ":sound_id", -1),
+      (assign, ":muzzle_y", 0),
+      (assign, ":muzzle_x", -16),
+      (assign, ":muzzle_y_rot", 0),
+      (assign, ":has_pan_sparks", 1),
+      (assign, ":has_pan_smoke", 1),
+	  
+      (assign, ":smoke_size", 17),
+      (assign, ":spark_size", 40),
+      (assign, ":pan_smoke_size", 2),
+      (try_begin),
+        (eq, ":item_id", "itm_sidearm_colt_m1873"), # Pistols
+        (assign, ":sound_id", "snd_shot_pistol"),
+        (assign, ":muzzle_y", 44),
+        (assign, ":muzzle_x", 0),
+        (assign, ":muzzle_y_rot", -45),
+        (assign, ":has_pan_sparks", 0),
+        (assign, ":has_pan_smoke", 0),
+        (assign, ":smoke_size", 10),
+        (assign, ":spark_size", 6),
+      (else_try),
+        (eq, ":item_id", "itm_sidearm_colt_m1873"), # Caplock Pistols
+        (assign, ":sound_id", "snd_shot_caplockpistol"),
+        (assign, ":muzzle_y", 44),
+        (assign, ":muzzle_x", 0),
+        (assign, ":muzzle_y_rot", -45),
+        (assign, ":has_pan_sparks", 0),
+        (assign, ":has_pan_smoke", 0),
+        (assign, ":smoke_size", 10),
+        (assign, ":spark_size", 6),
+      (else_try),
+        (this_or_next|eq,":item_id", "itm_rifle_russian_m1845"), # Caplock Rifles
+        (eq,":item_id", "itm_rifle_russian_m1856"), 
+        (assign, ":sound_id", "snd_shot_caplock"),
+        (assign, ":muzzle_y", 132),
+        (assign, ":has_pan_sparks", 0),
+        (assign, ":has_pan_smoke", 1),
+      (else_try),
+        (this_or_next|eq,":item_id", "itm_rifle_berdan"), # Modern Rifles (black powder)
+        (eq,":item_id", "itm_rifle_berdan"),
+        (assign, ":sound_id", "snd_shot_rifle1"),
+        (assign, ":muzzle_y", 125),
+        (assign, ":has_pan_sparks", 0),
+        (assign, ":has_pan_smoke", 0),
+      (try_end),
+       
+      # Sounds
+      (gt, ":sound_id", -1),
+      (play_sound_at_position, ":sound_id", pos41),      
+
+      # Default movement
+      (position_move_x,pos41,":muzzle_x"),
+      (position_move_y,pos41,18),
+
+      # pan flash and smoke..
+      (try_begin),
+        (eq,":has_pan_sparks",1),
+        (particle_system_burst_no_sync, "psys_pan_flash", pos41, 4),
+      (try_end),
+      (try_begin),
+        (eq,":has_pan_smoke",1),
+        (particle_system_burst_no_sync, "psys_pan_smoke", pos41, ":pan_smoke_size"),
+      (try_end),
+      
+      # the fire particles
+      (position_rotate_z,pos41,":muzzle_y_rot"),
+      (position_move_y,pos41,":muzzle_y"),
+      (particle_system_burst_no_sync, "psys_musket_smoke", pos41, ":smoke_size"),
+      (particle_system_burst_no_sync, "psys_musket_flash", pos41, ":spark_size"),
+    (try_end),
+	  
   ]),
   
 ]

@@ -989,4 +989,82 @@ particle_systems = [
       15,                       #rotation speed
       0,                        #rotation damping
     ),
+  
+    ("bullet_hit", psf_billboard_3d|psf_randomize_size|psf_randomize_rotation| psf_global_emit_dir, "prtcl_dust_a",
+      500, 3, 8, 0.2, 2, 20, #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+      (0.0, 0.5), (1, 0),     #alpha keys
+      (0.0, 0.95), (1, 0.95),          #red keys
+      (0.0, 0.90), (1, 0.90),           #green keys
+      (0.0, 0.70), (1, 0.70),          #blue keys
+      (0, 2), (0.8, 4),  #scale keys
+      (0, 0, 0),         #emit box size
+      (0, 0, 10),               #emit velocity
+      3,                      #emit dir randomness
+      100,                     #rotation speed
+      0.2                       #rotation damping
+    ),
+    ("musket_flash", psf_billboard_3d | psf_randomize_size , "prt_sparks_mesh_1",
+     3000, 0.6, 0.1, -0.00003, 50.0, 1.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+     (0.0, 0.8), (1, 0),        #alpha keys
+     (0.5, 1.0), (1, 0.9),      #red keys
+     (0.5, 0.6), (1, 0.1),      #green keys
+     (0.5, 0.2), (1, 0.0),      #blue keys
+     (0.0, 0.9),   (0.75, 0.1),   #scale keys
+     (0.1, 0.2, 0.1),           #emit box size
+     (0.4, 2.2, 0.4),                 #emit velocity
+     0.05,                       #emit dir randomness
+     100.0,                       #rotation speed
+     0.5,                        #rotation damping
+    ),
+    ("musket_smoke", psf_billboard_3d|psf_randomize_size|psf_randomize_rotation, "prtcl_dust_a", # psf_global_emit_dir psf_billboard_3d | psf_randomize_size psf_always_emit
+     75, 22, 2, -0.006040, 90, 3.3,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+     (0.0, 0.45), (0.449, 0),       #alpha keys
+     (0.0, 0.99), (1, 0.99),      #red keys
+     (0.0, 0.99),(1, 0.99),       #green keys
+     (0.0, 0.99), (1, 0.99),      #blue keys
+     (-0.01, 3.45),   (0.5, 12.7),   #scale keys
+     (0.05, 0.05, 0.05),           #emit box size
+     (0.0, 5.6, 0.0),                 #emit velocity
+     0.85,                        #emit dir randomness
+     90,                       #rotation speed
+     0.25,                        #rotation damping
+    ),
+   ("pan_flash", psf_billboard_3d | psf_randomize_size , "prt_sparks_mesh_1",
+     3000, 0.6, 0.1, -0.00003, 50.0, 1.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+     (0.1, 0.8), (1, 0),        #alpha keys
+     (0.5, 1.0), (1, 0.9),      #red keys
+     (0.5, 0.6), (1, 0.1),      #green keys
+     (0.5, 0.2), (1, 0.0),      #blue keys
+     (0.0, 1.0),   (0.6, 0.7),   #scale keys
+     (0.1, 0.1, 0.6),           #emit box size
+     (0, 0, 0.6),                 #emit velocity
+     0.05,                       #emit dir randomness
+     100.0,                       #rotation speed
+     0.5,                        #rotation damping
+    ),
+   ("pan_smoke", psf_billboard_3d|psf_randomize_size|psf_randomize_rotation, "prtcl_dust_a", # psf_global_emit_dir psf_billboard_3d | psf_randomize_size psf_always_emit
+     60, 10.6, 1.8, -0.0003, 90, 4,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+     (0.0, 0.55), (0.549, 0),       #alpha keys
+     (0.0, 0.99), (1, 0.99),      #red keys
+     (0.0, 0.99),(1, 0.99),       #green keys
+     (0.0, 0.99), (1, 0.99),      #blue keys
+     (-0.07, 1.5),   (0.5, 3.75),   #scale keys
+     (0.02, 0.02, 0.02),           #emit box size
+     (-1.6, 0.6, 0.0),                 #emit velocity
+     0.0,                        #emit dir randomness                       
+    ),
+  ("musket_sparks", psf_billboard_3d|psf_global_emit_dir|psf_always_emit|psf_randomize_size,  "prt_sparks_mesh_1",
+     10, 0.7, 0.2, 0, 10.0, 0.02,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+     (0.1, 0.8), (1, 0),        #alpha keys
+     (0.5, 1.0), (1, 0.9),      #red keys
+     (0.5, 0.6), (1, 0.1),      #green keys
+     (0.5, 0.2), (1, 0.0),      #blue keys
+     (0.1, 0.05),   (1, 0.05),  #scale keys
+     (0.1, 0.1, 0.1),           #emit box size
+     (0, 0, 0.9),               #emit velocity
+     0.0,                       #emit dir randomness
+     0,
+     0,
+    ),
+
 ]

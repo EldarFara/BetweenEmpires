@@ -1312,6 +1312,7 @@ items = [
 ["ria_hat2","ria_hat2", [("ria_hat2", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.5)|head_armor(5), imodbits_none, []],
 ["ria_hat3","ria_hat3", [("ria_hat3", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.5)|head_armor(5), imodbits_none, []],
 ["ria_hat4","ria_hat4", [("ria_hat4", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.5)|head_armor(5), imodbits_none, []],
+["ria_hat5","ria_hat5", [("ria_hat5", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.5)|head_armor(5), imodbits_none, []],
 ["ria_leader1","ria_leader1", [("ria_leader1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
 
 ["rifle_berdan","berdan", [("berdan", 0),("berdan_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(100)|accuracy(accuracy_small_caliber_rifle)|spd_rtng(speed_small_caliber_rifle)|shoot_speed(shot_speed_small_caliber_rifle)|max_ammo(1)|thrust_damage(damage_rifle, pierce), imodbits_firearm, []],
@@ -1329,6 +1330,32 @@ items = [
 ["rifle_russian_m1856","Russian M1856 Rifle", [("russian_m1856", 0),("russian_m1856_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.8)|abundance(100)|accuracy(accuracy_muzzleloaded_rifle)|spd_rtng(speed_rifle)|shoot_speed(shot_speed_rifle)|max_ammo(1)|thrust_damage(damage_rifle, pierce), imodbits_firearm, []],
 ["rifle_russian_m1856_m","Russian M1856 Rifle", [("russian_m1856", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.8)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, pierce)|swing_damage(0, blunt), imodbits_none, []],
 
+
+  ["ammo_rifle","Caliber_Rifle_Ammo", [("belt_ammo", 0),("flying_bullet", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bolts|itp_default_ammo|itp_merchandise, 0,100, weight(0.4)|abundance(75)|max_ammo(30)|thrust_damage(0, pierce), imodbit_large_bag, [
+    (ti_on_missile_hit, [
+      (try_begin),
+        (particle_system_burst_no_sync, "psys_bullet_hit", pos1, 8),
+      (try_end),
+    ]),
+   ]],
+
+   
+  ["ammo_pistol","Caliber_Pistol_Ammo", [("belt_ammo", 0),("flying_bullet", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bullets|itp_default_ammo|itp_merchandise, 0,100, weight(0.4)|abundance(75)|max_ammo(30)|thrust_damage(0, pierce), imodbit_large_bag, [
+    (ti_on_missile_hit, [
+      (try_begin),
+        (particle_system_burst_no_sync, "psys_bullet_hit", pos1, 8),
+      (try_end),
+    ]),
+   ]],
+
+   
+  ["ammo_rifle_double","Caliber_Rifle_Ammo_Double", [("belt_ammo2", 0),("flying_bullet", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bolts|itp_merchandise, 0,100, weight(0.8)|abundance(75)|max_ammo(60)|thrust_damage(0, pierce), imodbit_large_bag, [
+    (ti_on_missile_hit, [
+      (try_begin),
+        (particle_system_burst_no_sync, "psys_bullet_hit", pos1, 8),
+      (try_end),
+    ]),
+   ]],
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 
