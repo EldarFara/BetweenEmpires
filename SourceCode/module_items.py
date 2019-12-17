@@ -288,11 +288,11 @@ items = [
  124,weight(3)|abundance(70)|weapon_length(95)|thrust_damage(2,pierce)|max_ammo(30),imodbits_missile],
  ["bodkin_arrows","Bodkin Arrows", [("piercing_arrow",0),("flying_missile",ixmesh_flying_ammo),("quiver_c", ixmesh_carry)], itp_type_arrows|itp_merchandise, itcf_carry_quiver_back_right, 
  350,weight(3)|abundance(50)|weapon_length(91)|thrust_damage(3,pierce)|max_ammo(28),imodbits_missile],
- ["bolts","Bolts", [("bolt",0),("flying_missile",ixmesh_flying_ammo),("bolt_bag", ixmesh_carry),("bolt_bag_b", ixmesh_carry|imodbit_large_bag)], itp_type_bolts|itp_merchandise|itp_default_ammo|itp_can_penetrate_shield, itcf_carry_quiver_right_vertical, 
+ ["bolts","Bolts", [("bolt",0),("flying_missile",ixmesh_flying_ammo),("bolt_bag", ixmesh_carry),("bolt_bag_b", ixmesh_carry|imodbit_large_bag)], itp_type_bolts|itp_merchandise|itp_can_penetrate_shield, itcf_carry_quiver_right_vertical, 
  64,weight(2.25)|abundance(90)|weapon_length(63)|thrust_damage(1,pierce)|max_ammo(29),imodbits_missile],
  ["steel_bolts","Steel Bolts", [("bolt",0),("flying_missile",ixmesh_flying_ammo),("bolt_bag_c", ixmesh_carry)], itp_type_bolts|itp_merchandise|itp_can_penetrate_shield, itcf_carry_quiver_right_vertical, 
  210,weight(2.5)|abundance(20)|weapon_length(63)|thrust_damage(2,pierce)|max_ammo(29),imodbits_missile],
- ["cartridges","Cartridges", [("cartridge_a",0)], itp_type_bullets|itp_merchandise|itp_can_penetrate_shield|itp_default_ammo, 0, 
+ ["cartridges","Cartridges", [("cartridge_a",0)], itp_type_bullets|itp_merchandise|itp_can_penetrate_shield, 0, 
  41,weight(2.25)|abundance(90)|weapon_length(3)|thrust_damage(1,pierce)|max_ammo(50),imodbits_missile],
 
 ["pilgrim_disguise", "Pilgrim Disguise", [("pilgrim_outfit",0)], 0| itp_type_body_armor |itp_covers_legs |itp_civilian ,0, 25 , weight(2)|abundance(100)|head_armor(0)|body_armor(19)|leg_armor(8)|difficulty(0) ,imodbits_cloth ],
@@ -1286,7 +1286,7 @@ items = [
 #0 , weight(3.75)|spd_rtng(20) | shoot_speed(90) | thrust_damage(90 ,pierce)|max_ammo(1),imodbits_crossbow ],
 
 #additional items for coop
-["javelin_bow_ammo",         "Shooting Javelins", [("javelin_bow_ammo",0),("javelins_quiver_new", ixmesh_carry)], itp_type_arrows|itp_default_ammo ,itcf_carry_quiver_back, 
+["javelin_bow_ammo",         "Shooting Javelins", [("javelin_bow_ammo",0),("javelins_quiver_new", ixmesh_carry)], itp_type_arrows ,itcf_carry_quiver_back, 
 0, weight(4) | thrust_damage(34 ,  pierce)|max_ammo(15)|weapon_length(75),0 ],
 #["scatter_bolts","Scatter Bolts", [("bolt",0),("flying_missile",ixmesh_flying_ammo),("bolt_bag", ixmesh_carry),("bolt_bag_b", ixmesh_carry|imodbit_large_bag)], itp_type_bolts|itp_merchandise|itp_default_ammo|itp_can_penetrate_shield, itcf_carry_quiver_right_vertical, 
 #0,weight(2.25)|abundance(90)|weapon_length(63)|thrust_damage(1,pierce)|max_ammo(4),imodbits_missile],
@@ -1315,15 +1315,15 @@ items = [
 ["ria_hat5","ria_hat5", [("ria_hat5", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.5)|head_armor(5), imodbits_none, []],
 ["ria_leader1","ria_leader1", [("ria_leader1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
 
-["rifle_berdan","berdan", [("berdan", 0),("berdan_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(100)|accuracy(accuracy_small_caliber_rifle)|spd_rtng(speed_small_caliber_rifle)|shoot_speed(shot_speed_small_caliber_rifle)|max_ammo(1)|thrust_damage(damage_rifle, pierce), imodbits_firearm, []],
-["rifle_berdan_m","berdan", [("berdan", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, pierce)|swing_damage(0, blunt), imodbits_none, []],
+["rifle_berdan","Berdan Rifle", [("berdan", 0),("berdan_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(100)|accuracy(accuracy_small_caliber_rifle)|spd_rtng(speed_small_caliber_rifle)|shoot_speed(shot_speed_small_caliber_rifle)|max_ammo(1)|thrust_damage(damage_rifle, pierce), imodbits_firearm, []],
+["rifle_berdan_m","Berdan Rifle", [("berdan", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, pierce)|swing_damage(0, blunt), imodbits_none, []],
 
 ["playerclothes_male_trousers1","Adventurer's Trousers", [("playerclothes_male_trousers1", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
 ["playerclothes_male1","Adventurer's Clothes", [("playerclothes_male1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
 ["playerclothes_female_trousers1","Adventurer's Skirt", [("playerclothes_female_trousers1", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
 ["playerclothes_female1","Adventurer's Clothes", [("playerclothes_female1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
 
-["sidearm_colt_m1873","Colt Single Action Army", [("colt_m1873", 0)], itp_type_pistol|itp_merchandise|itp_two_handed|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,400, weight(1.1)|abundance(100)|accuracy(80)|spd_rtng(55)|shoot_speed(400)|max_ammo(6)|thrust_damage(40, pierce), imodbits_firearm, []],
+["sidearm_colt_m1873","Colt Single Action Army", [("colt_m1873", 0)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,400, weight(1)|abundance(100)|accuracy(80)|spd_rtng(55)|shoot_speed(198)|max_ammo(6)|thrust_damage(40, pierce), imodbits_firearm, []],
 
 ["rifle_russian_m1845","Russian M1845 Musket", [("russian_m1845", 0),("russian_m1845_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.7)|abundance(100)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_musket)|shoot_speed(shot_speed_musket)|max_ammo(1)|thrust_damage(damage_musket, pierce), imodbits_firearm, []],
 ["rifle_russian_m1845_m","Russian M1845 Musket", [("russian_m1845", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, pierce)|swing_damage(0, blunt), imodbits_none, []],
@@ -1357,6 +1357,23 @@ items = [
     ]),
    ]],
 
+["rifle_middle_east_musket1","Oriental Musket", [("middle_east_musket1", 0),("middle_east_musket1_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.7)|abundance(100)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_musket)|shoot_speed(shot_speed_musket)|max_ammo(1)|thrust_damage(damage_musket, pierce), imodbits_firearm, []],
+["rifle_middle_east_musket1_m","Oriental Musket", [("middle_east_musket1", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, pierce)|swing_damage(0, blunt), imodbits_none, []],
+["rifle_middle_east_musket2","Oriental Musket", [("middle_east_musket2", 0),("middle_east_musket2_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.7)|abundance(100)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_musket)|shoot_speed(shot_speed_musket)|max_ammo(1)|thrust_damage(damage_musket, pierce), imodbits_firearm, []],
+["rifle_middle_east_musket2_m","Oriental Musket", [("middle_east_musket2", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, pierce)|swing_damage(0, blunt), imodbits_none, []],
+["rifle_middle_east_musket3","Oriental Musket", [("middle_east_musket3", 0),("middle_east_musket3_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.7)|abundance(100)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_musket)|shoot_speed(shot_speed_musket)|max_ammo(1)|thrust_damage(damage_musket, pierce), imodbits_firearm, []],
+["rifle_middle_east_musket3_m","Oriental Musket", [("middle_east_musket3", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, pierce)|swing_damage(0, blunt), imodbits_none, []],
+["rifle_middle_east_musket4","Oriental Musket", [("middle_east_musket4", 0),("middle_east_musket4_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.7)|abundance(100)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_musket)|shoot_speed(shot_speed_musket)|max_ammo(1)|thrust_damage(damage_musket, pierce), imodbits_firearm, []],
+["rifle_middle_east_musket4_m","Oriental Musket", [("middle_east_musket4", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, pierce)|swing_damage(0, blunt), imodbits_none, []],
+["rifle_middle_east_musket5","Oriental Musket", [("middle_east_musket5", 0),("middle_east_musket5_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.7)|abundance(100)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_musket)|shoot_speed(shot_speed_musket)|max_ammo(1)|thrust_damage(damage_musket, pierce), imodbits_firearm, []],
+["rifle_middle_east_musket5_m","Oriental Musket", [("middle_east_musket5", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, pierce)|swing_damage(0, blunt), imodbits_none, []],
+
+["sidearm_smithwesson_no2","Smith & Wesson Model 2", [("smithwesson_no2", 0)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,400, weight(1.2)|abundance(100)|accuracy(85)|spd_rtng(45)|shoot_speed(200)|max_ammo(6)|thrust_damage(50, pierce), imodbits_firearm, []],
+
+["sidearm_flintlock_pistol1","Flintlock Pistol", [("flintlock_pistol1", 0)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,400, weight(1.5)|abundance(100)|accuracy(70)|spd_rtng(15)|shoot_speed(150)|max_ammo(1)|thrust_damage(50, pierce), imodbits_firearm, []],
+["sidearm_caplock_pistol1","Caplock Pistol", [("caplock_pistol1", 0)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,400, weight(1.5)|abundance(100)|accuracy(70)|spd_rtng(15)|shoot_speed(150)|max_ammo(1)|thrust_damage(50, pierce), imodbits_firearm, []],
+
+   
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 
 ]

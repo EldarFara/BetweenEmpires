@@ -235,8 +235,9 @@ sounds = [
  #INVASION MODE END
  
  ("shot_pistol", sf_priority_14|sf_vol_15, ["shot_pistol1.wav", "shot_pistol2.wav", "shot_pistol3.wav", "shot_pistol4.wav", "shot_pistol5.wav"]),
- ("shot_caplockpistol", sf_priority_14|sf_vol_15, ["shot_caplock1.wav", "shot_caplock2.wav", "shot_caplock3.wav", "shot_caplock4.wav", "shot_caplock5.wav"]),
+ ("shot_caplockpistol", sf_priority_14|sf_vol_15, ["shot_caplockpistol1.wav", "shot_caplockpistol2.wav", "shot_caplockpistol3.wav", "shot_caplockpistol5.wav"]),
  ("shot_caplock", sf_priority_14|sf_vol_15, ["shot_caplock1.wav", "shot_caplock2.wav", "shot_caplock3.wav", "shot_caplock4.wav", "shot_caplock5.wav"]),
  ("shot_rifle1", sf_priority_14|sf_vol_15, ["rifle_shot1_01.wav", "rifle_shot1_02.wav", "rifle_shot1_03.wav", "rifle_shot1_04.wav", "rifle_shot1_05.wav", "rifle_shot1_06.wav", "rifle_shot1_07.wav", "rifle_shot1_08.wav", "rifle_shot1_09.wav", "rifle_shot1_10.wav"]),
+ ("shot_rifle2", sf_priority_14|sf_vol_15, ["rifle_shot2_01.wav", "rifle_shot2_02.wav", "rifle_shot2_03.wav", "rifle_shot2_04.wav", "rifle_shot2_05.wav", "rifle_shot2_06.wav", "rifle_shot2_07.wav", "rifle_shot2_08.wav"]),
 
 ]

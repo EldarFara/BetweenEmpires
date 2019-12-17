@@ -1,5 +1,5 @@
 soundsfile version 3
-385
+397
  drum_3.ogg 769
  tutorial_1.ogg 1793
  tutorial_2.ogg 1793
@@ -370,6 +370,10 @@ soundsfile version 3
  shot_pistol3.wav 4064
  shot_pistol4.wav 4064
  shot_pistol5.wav 4064
+ shot_caplockpistol1.wav 4064
+ shot_caplockpistol2.wav 4064
+ shot_caplockpistol3.wav 4064
+ shot_caplockpistol5.wav 4064
  shot_caplock1.wav 4064
  shot_caplock2.wav 4064
  shot_caplock3.wav 4064
@@ -385,7 +389,15 @@ soundsfile version 3
  rifle_shot1_08.wav 4064
  rifle_shot1_09.wav 4064
  rifle_shot1_10.wav 4064
-204
+ rifle_shot2_01.wav 4064
+ rifle_shot2_02.wav 4064
+ rifle_shot2_03.wav 4064
+ rifle_shot2_04.wav 4064
+ rifle_shot2_05.wav 4064
+ rifle_shot2_06.wav 4064
+ rifle_shot2_07.wav 4064
+ rifle_shot2_08.wav 4064
+205
 snd_click 769 1 0 0 
 snd_tutorial_1 1793 1 1 0 
 snd_tutorial_2 1793 1 2 0 
@@ -587,6 +599,7 @@ snd_ccoop_sea_raider_taunt_2 2049 1 287 0
 snd_ccoop_sea_raider_taunt_3 2049 1 288 0 
 snd_sounds_end 2721 1 364 0 
 snd_shot_pistol 4064 5 365 0 366 0 367 0 368 0 369 0 
-snd_shot_caplockpistol 4064 5 370 0 371 0 372 0 373 0 374 0 
-snd_shot_caplock 4064 5 370 0 371 0 372 0 373 0 374 0 
-snd_shot_rifle1 4064 10 375 0 376 0 377 0 378 0 379 0 380 0 381 0 382 0 383 0 384 0 
+snd_shot_caplockpistol 4064 4 370 0 371 0 372 0 373 0 
+snd_shot_caplock 4064 5 374 0 375 0 376 0 377 0 378 0 
+snd_shot_rifle1 4064 10 379 0 380 0 381 0 382 0 383 0 384 0 385 0 386 0 387 0 388 0 
+snd_shot_rifle2 4064 8 389 0 390 0 391 0 392 0 393 0 394 0 395 0 396 0 

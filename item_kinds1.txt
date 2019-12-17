@@ -1,5 +1,5 @@
 itemsfile version 3
-655
+668
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -624,7 +624,7 @@ itemsfile version 3
  0
 0
 
- itm_bolts Bolts Bolts 4  bolt 0  flying_missile 2305843009213693952  bolt_bag 3458764513820540928  bolt_bag_b 3458768911867052032  16875526 1879048192 64 4398046511112 2.250000 90 0 0 0 0 0 0 0 63 29 257 0
+ itm_bolts Bolts Bolts 4  bolt 0  flying_missile 2305843009213693952  bolt_bag 3458764513820540928  bolt_bag_b 3458768911867052032  16842758 1879048192 64 4398046511112 2.250000 90 0 0 0 0 0 0 0 63 29 257 0
  0
 0
 
@@ -632,7 +632,7 @@ itemsfile version 3
  0
 0
 
- itm_cartridges Cartridges Cartridges 1  cartridge_a 0  16875538 0 41 4398046511112 2.250000 90 0 0 0 0 0 0 0 3 50 257 0
+ itm_cartridges Cartridges Cartridges 1  cartridge_a 0  16842770 0 41 4398046511112 2.250000 90 0 0 0 0 0 0 0 3 50 257 0
  0
 0
 
@@ -2506,7 +2506,7 @@ itemsfile version 3
  0
 0
 
- itm_javelin_bow_ammo Shooting_Javelins Shooting_Javelins 2  javelin_bow_ammo 0  javelins_quiver_new 3458764513820540928  32773 2147483648 0 0 4.000000 100 0 0 0 0 0 0 0 75 15 290 0
+ itm_javelin_bow_ammo Shooting_Javelins Shooting_Javelins 2  javelin_bow_ammo 0  javelins_quiver_new 3458764513820540928  5 2147483648 0 0 4.000000 100 0 0 0 0 0 0 0 75 15 290 0
  0
 0
 
@@ -2598,11 +2598,11 @@ itemsfile version 3
  0
 0
 
- itm_rifle_berdan berdan berdan 2  berdan 0  berdan_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 100 0 0 90 0 0 60 550 0 1 316 0
+ itm_rifle_berdan Berdan_Rifle Berdan_Rifle 2  berdan 0  berdan_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 100 0 0 90 0 0 60 550 0 1 316 0
  0
 0
 
- itm_rifle_berdan_m berdan berdan 1  berdan 0  6553604 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 85 0 286 530
+ itm_rifle_berdan_m Berdan_Rifle Berdan_Rifle 1  berdan 0  6553604 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 85 0 286 530
  0
 0
 
@@ -2622,7 +2622,7 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_colt_m1873 Colt_Single_Action_Army Colt_Single_Action_Army 1  colt_m1873 0  6357008 483721150464 400 131082 1.000000 100 0 0 80 0 0 55 400 0 6 296 0
+ itm_sidearm_colt_m1873 Colt_Single_Action_Army Colt_Single_Action_Army 1  colt_m1873 0  4259856 483721150464 400 131082 1.000000 100 0 0 80 0 0 55 198 0 6 296 0
  0
 0
 
@@ -2656,6 +2656,58 @@ itemsfile version 3
  0
 1
 -52.000000  3 4 0 1975 3 1008806316530991164 1 8 3 0 
+
+ itm_rifle_middle_east_musket1 Oriental_Musket Oriental_Musket 2  middle_east_musket1 0  middle_east_musket1_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 300 0 1 306 0
+ 0
+0
+
+ itm_rifle_middle_east_musket1_m Oriental_Musket Oriental_Musket 1  middle_east_musket1 0  6553604 4222130824676096 0 0 4.500000 100 0 0 0 0 18432 75 0 85 0 286 530
+ 0
+0
+
+ itm_rifle_middle_east_musket2 Oriental_Musket Oriental_Musket 2  middle_east_musket2 0  middle_east_musket2_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 300 0 1 306 0
+ 0
+0
+
+ itm_rifle_middle_east_musket2_m Oriental_Musket Oriental_Musket 1  middle_east_musket2 0  6553604 4222130824676096 0 0 4.500000 100 0 0 0 0 18432 75 0 85 0 286 530
+ 0
+0
+
+ itm_rifle_middle_east_musket3 Oriental_Musket Oriental_Musket 2  middle_east_musket3 0  middle_east_musket3_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 300 0 1 306 0
+ 0
+0
+
+ itm_rifle_middle_east_musket3_m Oriental_Musket Oriental_Musket 1  middle_east_musket3 0  6553604 4222130824676096 0 0 4.500000 100 0 0 0 0 18432 75 0 85 0 286 530
+ 0
+0
+
+ itm_rifle_middle_east_musket4 Oriental_Musket Oriental_Musket 2  middle_east_musket4 0  middle_east_musket4_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 300 0 1 306 0
+ 0
+0
+
+ itm_rifle_middle_east_musket4_m Oriental_Musket Oriental_Musket 1  middle_east_musket4 0  6553604 4222130824676096 0 0 4.500000 100 0 0 0 0 18432 75 0 85 0 286 530
+ 0
+0
+
+ itm_rifle_middle_east_musket5 Oriental_Musket Oriental_Musket 2  middle_east_musket5 0  middle_east_musket5_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 300 0 1 306 0
+ 0
+0
+
+ itm_rifle_middle_east_musket5_m Oriental_Musket Oriental_Musket 1  middle_east_musket5 0  6553604 4222130824676096 0 0 4.500000 100 0 0 0 0 18432 75 0 85 0 286 530
+ 0
+0
+
+ itm_sidearm_smithwesson_no2 Smith_&_Wesson_Model_2 Smith_&_Wesson_Model_2 1  smithwesson_no2 0  4259856 483721150464 400 131082 1.000000 100 0 0 85 0 0 45 200 0 6 306 0
+ 0
+0
+
+ itm_sidearm_flintlock_pistol1 Flintlock_Pistol Flintlock_Pistol 1  flintlock_pistol1 0  4259856 483721150464 400 131082 1.500000 100 0 0 70 0 0 15 150 0 1 306 0
+ 0
+0
+
+ itm_sidearm_caplock_pistol1 Caplock_Pistol Caplock_Pistol 1  caplock_pistol1 0  4259856 483721150464 400 131082 1.500000 100 0 0 70 0 0 15 150 0 1 306 0
+ 0
+0
 
  itm_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0

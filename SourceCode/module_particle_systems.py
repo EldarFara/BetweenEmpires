@@ -1004,7 +1004,7 @@ particle_systems = [
       0.2                       #rotation damping
     ),
     ("musket_flash", psf_billboard_3d | psf_randomize_size , "prt_sparks_mesh_1",
-     3000, 0.6, 0.1, -0.00003, 50.0, 1.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+     3000, 0.5, 0.1, -0.00003, 50.0, 1.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
      (0.0, 0.8), (1, 0),        #alpha keys
      (0.5, 1.0), (1, 0.9),      #red keys
      (0.5, 0.6), (1, 0.1),      #green keys
@@ -1030,12 +1030,12 @@ particle_systems = [
      0.25,                        #rotation damping
     ),
    ("pan_flash", psf_billboard_3d | psf_randomize_size , "prt_sparks_mesh_1",
-     3000, 0.6, 0.1, -0.00003, 50.0, 1.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+     3000, 0.3, 0.1, -0.00003, 50.0, 1.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
      (0.1, 0.8), (1, 0),        #alpha keys
      (0.5, 1.0), (1, 0.9),      #red keys
      (0.5, 0.6), (1, 0.1),      #green keys
      (0.5, 0.2), (1, 0.0),      #blue keys
-     (0.0, 1.0),   (0.6, 0.7),   #scale keys
+     (0.0, 0.8),   (0.6, 0.6),   #scale keys
      (0.1, 0.1, 0.6),           #emit box size
      (0, 0, 0.6),                 #emit velocity
      0.05,                       #emit dir randomness

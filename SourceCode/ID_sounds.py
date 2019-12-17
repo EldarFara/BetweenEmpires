@@ -202,5 +202,6 @@ snd_shot_pistol = 200
 snd_shot_caplockpistol = 201
 snd_shot_caplock = 202
 snd_shot_rifle1 = 203
+snd_shot_rifle2 = 204
 
 

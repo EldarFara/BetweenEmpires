@@ -52026,7 +52026,8 @@ scripts = [
       (assign, ":spark_size", 40),
       (assign, ":pan_smoke_size", 2),
       (try_begin),
-        (eq, ":item_id", "itm_sidearm_colt_m1873"), # Pistols
+        (this_or_next|eq, ":item_id", "itm_sidearm_smithwesson_no2"), # Pistols
+        (eq, ":item_id", "itm_sidearm_colt_m1873"),
         (assign, ":sound_id", "snd_shot_pistol"),
         (assign, ":muzzle_y", 44),
         (assign, ":muzzle_x", 0),
@@ -52036,7 +52037,8 @@ scripts = [
         (assign, ":smoke_size", 10),
         (assign, ":spark_size", 6),
       (else_try),
-        (eq, ":item_id", "itm_sidearm_colt_m1873"), # Caplock Pistols
+        (this_or_next|eq, ":item_id", "itm_sidearm_flintlock_pistol1"), # Caplock Pistols
+        (eq, ":item_id", "itm_sidearm_caplock_pistol1"),
         (assign, ":sound_id", "snd_shot_caplockpistol"),
         (assign, ":muzzle_y", 44),
         (assign, ":muzzle_x", 0),
@@ -52045,6 +52047,16 @@ scripts = [
         (assign, ":has_pan_smoke", 0),
         (assign, ":smoke_size", 10),
         (assign, ":spark_size", 6),
+      (else_try),
+        (this_or_next|eq,":item_id", "itm_rifle_middle_east_musket1"), # Flintlock Muskets
+        (this_or_next|eq,":item_id", "itm_rifle_middle_east_musket2"),
+        (this_or_next|eq,":item_id", "itm_rifle_middle_east_musket3"),
+        (this_or_next|eq,":item_id", "itm_rifle_middle_east_musket4"),
+        (eq,":item_id", "itm_rifle_middle_east_musket5"), 
+        (assign, ":sound_id", "snd_shot_caplock"),
+        (assign, ":muzzle_y", 132),
+        (assign, ":has_pan_sparks", 1),
+        (assign, ":has_pan_smoke", 1),
       (else_try),
         (this_or_next|eq,":item_id", "itm_rifle_russian_m1845"), # Caplock Rifles
         (eq,":item_id", "itm_rifle_russian_m1856"), 
