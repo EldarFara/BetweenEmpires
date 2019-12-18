@@ -146,6 +146,11 @@ skins = [
      ("face_male7",0xffdceded,["hair_blonde"],[0xff2f180e, 0xff171313, 0xff007080c]),
      ("face_male8",0xffdceded,["hair_blonde"],[0xff2f180e, 0xff171313, 0xff007080c]),
      ("face_male9",0xffdceded,["hair_blonde"],[0xff2f180e, 0xff171313, 0xff007080c]),
+     ("face_male10",0xffdceded,["hair_blonde"],[0xff2f180e, 0xff171313, 0xff007080c]),
+     ("face_male11",0xffdceded,["hair_blonde"],[0xff2f180e, 0xff171313, 0xff007080c]),
+     ("face_male12",0xffdceded,["hair_blonde"],[0xff2f180e, 0xff171313, 0xff007080c]),
+     ("face_male13",0xffdceded,["hair_blonde"],[0xff2f180e, 0xff171313, 0xff007080c]),
+     ("face_male14",0xffdceded,["hair_blonde"],[0xff2f180e, 0xff171313, 0xff007080c]),
      ], #man_face_textures,
     [(voice_die,"snd_man_die"),(voice_hit,"snd_man_hit"),(voice_grunt,"snd_man_grunt"),(voice_grunt_long,"snd_man_grunt_long"),(voice_yell,"snd_man_yell"),(voice_stun,"snd_man_stun"),(voice_victory,"snd_man_victory")], #voice sounds
     "skel_human", 1.0,

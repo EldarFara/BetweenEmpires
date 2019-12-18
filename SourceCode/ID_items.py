@@ -674,4 +674,5 @@ itm_rifle_berdan_carbine_m = 672
 itm_rifle_russian_m1856_carbine = 673
 itm_rifle_russian_m1856_carbine_m = 674
 itm_lance1 = 675
-itm_items_end = 676
+itm_sidearm_colt_dragoon = 676
+itm_items_end = 677
