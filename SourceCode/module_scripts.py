@@ -1382,7 +1382,7 @@ scripts = [
       (call_script, "script_give_center_to_lord", "p_town_35", "trp_knight_3_1", 0),	  
       (call_script, "script_give_center_to_lord", "p_town_36", "trp_knight_6_12", 0),	  
       (call_script, "script_give_center_to_lord", "p_town_37", "trp_knight_2_10", 0),	  
-      (call_script, "script_give_center_to_lord", "p_town_38", "trp_knight_12_10", 0),	  
+      (call_script, "script_give_center_to_lord", "p_town_38", "trp_knight_12_1", 0),	  
       (call_script, "script_give_center_to_lord", "p_town_39", "trp_kingdom_18_lord", 0),	  
       (call_script, "script_give_center_to_lord", "p_town_40", "trp_kingdom_19_lord", 0),	  
       (call_script, "script_give_center_to_lord", "p_town_41", "trp_knight_7_14", 0),	  
@@ -1427,7 +1427,7 @@ scripts = [
 
       (call_script, "script_give_center_to_lord", "p_castle_65", "trp_kingdom_15_lord", 0), #Biliya_Castle
       (call_script, "script_give_center_to_lord", "p_castle_76", "trp_knight_18_4", 0), #Biliya_Castle
-      (call_script, "script_give_center_to_lord", "p_castle_78", "trp_knight_19_4", 0), #Biliya_Castle
+      (call_script, "script_give_center_to_lord", "p_castle_78", "trp_knight_19_1", 0), #Biliya_Castle
       (call_script, "script_give_center_to_lord", "p_castle_81", "trp_kingdom_20_lord", 0), #Biliya_Castle
       (call_script, "script_give_center_to_lord", "p_castle_68", "trp_knight_12_1", 0), #Biliya_Castle
 
