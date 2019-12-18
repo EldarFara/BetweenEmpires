@@ -1,3 +1,4 @@
+#coding=utf-8
 from module_constants import *
 from ID_factions import *
 from header_items import  *
@@ -39,6 +40,9 @@ damage_musket = 50
 shot_speed_small_caliber_rifle = 550
 shot_speed_rifle = 500
 shot_speed_musket = 300
+
+accuracy_carbine_modifier = 0.9
+speed_carbine_modifier = 1.3
 
 # Some constants for ease of use.
 imodbits_none = 0
@@ -1316,7 +1320,7 @@ items = [
 ["ria_leader1","ria_leader1", [("ria_leader1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
 
 ["rifle_berdan","Berdan Rifle", [("berdan", 0),("berdan_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(100)|accuracy(accuracy_small_caliber_rifle)|spd_rtng(speed_small_caliber_rifle)|shoot_speed(shot_speed_small_caliber_rifle)|max_ammo(1)|thrust_damage(damage_rifle, pierce), imodbits_firearm, []],
-["rifle_berdan_m","Berdan Rifle", [("berdan", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, pierce)|swing_damage(0, blunt), imodbits_none, []],
+["rifle_berdan_m","Berdan Rifle", [("berdan", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(100)|thrust_damage(40, pierce)|swing_damage(0, blunt), imodbits_none, []],
 
 ["playerclothes_male_trousers1","Adventurer's Trousers", [("playerclothes_male_trousers1", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
 ["playerclothes_male1","Adventurer's Clothes", [("playerclothes_male1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
@@ -1326,9 +1330,9 @@ items = [
 ["sidearm_colt_m1873","Colt Single Action Army", [("colt_m1873", 0)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,400, weight(1)|abundance(100)|accuracy(80)|spd_rtng(55)|shoot_speed(198)|max_ammo(6)|thrust_damage(40, pierce), imodbits_firearm, []],
 
 ["rifle_russian_m1845","Russian M1845 Musket", [("russian_m1845", 0),("russian_m1845_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.7)|abundance(100)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_musket)|shoot_speed(shot_speed_musket)|max_ammo(1)|thrust_damage(damage_musket, pierce), imodbits_firearm, []],
-["rifle_russian_m1845_m","Russian M1845 Musket", [("russian_m1845", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, pierce)|swing_damage(0, blunt), imodbits_none, []],
+["rifle_russian_m1845_m","Russian M1845 Musket", [("russian_m1845", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(18432)|spd_rtng(75)|weapon_length(100)|thrust_damage(40, pierce)|swing_damage(0, blunt), imodbits_none, []],
 ["rifle_russian_m1856","Russian M1856 Rifle", [("russian_m1856", 0),("russian_m1856_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.8)|abundance(100)|accuracy(accuracy_muzzleloaded_rifle)|spd_rtng(speed_rifle)|shoot_speed(shot_speed_rifle)|max_ammo(1)|thrust_damage(damage_rifle, pierce), imodbits_firearm, []],
-["rifle_russian_m1856_m","Russian M1856 Rifle", [("russian_m1856", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.8)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, pierce)|swing_damage(0, blunt), imodbits_none, []],
+["rifle_russian_m1856_m","Russian M1856 Rifle", [("russian_m1856", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.8)|hit_points(18432)|spd_rtng(75)|weapon_length(100)|thrust_damage(40, pierce)|swing_damage(0, blunt), imodbits_none, []],
 
 
   ["ammo_rifle","Caliber_Rifle_Ammo", [("belt_ammo", 0),("flying_bullet", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bolts|itp_default_ammo|itp_merchandise, 0,100, weight(0.4)|abundance(75)|max_ammo(30)|thrust_damage(0, pierce), imodbit_large_bag, [
@@ -1358,22 +1362,35 @@ items = [
    ]],
 
 ["rifle_middle_east_musket1","Oriental Musket", [("middle_east_musket1", 0),("middle_east_musket1_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.7)|abundance(100)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_musket)|shoot_speed(shot_speed_musket)|max_ammo(1)|thrust_damage(damage_musket, pierce), imodbits_firearm, []],
-["rifle_middle_east_musket1_m","Oriental Musket", [("middle_east_musket1", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, pierce)|swing_damage(0, blunt), imodbits_none, []],
+["rifle_middle_east_musket1_m","Oriental Musket", [("middle_east_musket1", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, blunt)|swing_damage(0, blunt), imodbits_none, []],
 ["rifle_middle_east_musket2","Oriental Musket", [("middle_east_musket2", 0),("middle_east_musket2_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.7)|abundance(100)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_musket)|shoot_speed(shot_speed_musket)|max_ammo(1)|thrust_damage(damage_musket, pierce), imodbits_firearm, []],
-["rifle_middle_east_musket2_m","Oriental Musket", [("middle_east_musket2", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, pierce)|swing_damage(0, blunt), imodbits_none, []],
+["rifle_middle_east_musket2_m","Oriental Musket", [("middle_east_musket2", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, blunt)|swing_damage(0, blunt), imodbits_none, []],
 ["rifle_middle_east_musket3","Oriental Musket", [("middle_east_musket3", 0),("middle_east_musket3_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.7)|abundance(100)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_musket)|shoot_speed(shot_speed_musket)|max_ammo(1)|thrust_damage(damage_musket, pierce), imodbits_firearm, []],
-["rifle_middle_east_musket3_m","Oriental Musket", [("middle_east_musket3", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, pierce)|swing_damage(0, blunt), imodbits_none, []],
+["rifle_middle_east_musket3_m","Oriental Musket", [("middle_east_musket3", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, blunt)|swing_damage(0, blunt), imodbits_none, []],
 ["rifle_middle_east_musket4","Oriental Musket", [("middle_east_musket4", 0),("middle_east_musket4_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.7)|abundance(100)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_musket)|shoot_speed(shot_speed_musket)|max_ammo(1)|thrust_damage(damage_musket, pierce), imodbits_firearm, []],
-["rifle_middle_east_musket4_m","Oriental Musket", [("middle_east_musket4", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, pierce)|swing_damage(0, blunt), imodbits_none, []],
+["rifle_middle_east_musket4_m","Oriental Musket", [("middle_east_musket4", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, blunt)|swing_damage(0, blunt), imodbits_none, []],
 ["rifle_middle_east_musket5","Oriental Musket", [("middle_east_musket5", 0),("middle_east_musket5_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.7)|abundance(100)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_musket)|shoot_speed(shot_speed_musket)|max_ammo(1)|thrust_damage(damage_musket, pierce), imodbits_firearm, []],
-["rifle_middle_east_musket5_m","Oriental Musket", [("middle_east_musket5", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, pierce)|swing_damage(0, blunt), imodbits_none, []],
+["rifle_middle_east_musket5_m","Oriental Musket", [("middle_east_musket5", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(18432)|spd_rtng(75)|weapon_length(85)|thrust_damage(30, blunt)|swing_damage(0, blunt), imodbits_none, []],
 
 ["sidearm_smithwesson_no2","Smith & Wesson Model 2", [("smithwesson_no2", 0)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,400, weight(1.2)|abundance(100)|accuracy(85)|spd_rtng(45)|shoot_speed(200)|max_ammo(6)|thrust_damage(50, pierce), imodbits_firearm, []],
 
 ["sidearm_flintlock_pistol1","Flintlock Pistol", [("flintlock_pistol1", 0)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,400, weight(1.5)|abundance(100)|accuracy(70)|spd_rtng(15)|shoot_speed(150)|max_ammo(1)|thrust_damage(50, pierce), imodbits_firearm, []],
 ["sidearm_caplock_pistol1","Caplock Pistol", [("caplock_pistol1", 0)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,400, weight(1.5)|abundance(100)|accuracy(70)|spd_rtng(15)|shoot_speed(150)|max_ammo(1)|thrust_damage(50, pierce), imodbits_firearm, []],
 
-   
+["horse_european1","Saddle Horse", [("horse_european1",0),("horse_european1",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 240,abundance(90)|hit_points(200)|body_armor(8)|difficulty(1)|horse_speed(50)|horse_maneuver(50)|horse_charge(5)|horse_scale(100),imodbits_horse_basic],
+["horse_european2","Saddle Horse", [("horse_european2",0),("horse_european2",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 240,abundance(90)|hit_points(200)|body_armor(8)|difficulty(1)|horse_speed(50)|horse_maneuver(50)|horse_charge(5)|horse_scale(100),imodbits_horse_basic],
+["horse_european3","Saddle Horse", [("horse_european3",0),("horse_european3",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 240,abundance(90)|hit_points(200)|body_armor(8)|difficulty(1)|horse_speed(50)|horse_maneuver(50)|horse_charge(5)|horse_scale(100),imodbits_horse_basic],
+
+["saber1", "Saber", [("saber",0),("saber_scab", ixmesh_carry)], itp_type_one_handed_wpn|itp_merchandise|itp_primary, itc_longsword|itcf_carry_sword_left_hip|itcf_show_holster_when_drawn,163 , weight(1.5)|difficulty(0)|spd_rtng(105) | weapon_length(100)|swing_damage(30 , cut) | thrust_damage(25 ,  pierce),imodbits_sword_high ],
+
+["rifle_berdan_carbine","Berdan Carbine", [("berdan_carbine", 0),("berdan_carbine_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(100)|accuracy(int(accuracy_small_caliber_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_small_caliber_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_small_caliber_rifle)|max_ammo(1)|thrust_damage(damage_rifle, pierce), imodbits_firearm, []],
+["rifle_berdan_carbine_m","Berdan Carbine", [("berdan_carbine", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(30, blunt)|swing_damage(0, blunt), imodbits_none, []],
+["rifle_russian_m1856_carbine","Russian M1856 Carbine", [("russian_m1856_carbine", 0),("russian_carbine_m1856_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.8)|abundance(100)|accuracy(int(accuracy_muzzleloaded_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_rifle)|max_ammo(1)|thrust_damage(damage_rifle, pierce), imodbits_firearm, []],
+["rifle_russian_m1856_carbine_m","Russian M1856 Carbine", [("russian_m1856_carbine", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.8)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(30, blunt)|swing_damage(0, blunt), imodbits_none, []],
+
+["lance1","Lance", [("lance1",0)], itp_couchable|itp_type_polearm|itp_offset_lance|itp_merchandise| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(90) | weapon_length(190)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
+
+
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 
 ]

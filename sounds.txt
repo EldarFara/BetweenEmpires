@@ -365,11 +365,11 @@ soundsfile version 3
  your_flag_returned.ogg 2721
  you_scored_a_point.ogg 2721
  enemy_scored_a_point.ogg 2721
- shot_pistol1.wav 4064
- shot_pistol2.wav 4064
- shot_pistol3.wav 4064
- shot_pistol4.wav 4064
- shot_pistol5.wav 4064
+ shot_pistol1_1.wav 4064
+ shot_pistol1_2.wav 4064
+ shot_pistol1_3.wav 4064
+ shot_pistol1_4.wav 4064
+ shot_pistol1_5.wav 4064
  shot_caplockpistol1.wav 4064
  shot_caplockpistol2.wav 4064
  shot_caplockpistol3.wav 4064
@@ -598,7 +598,7 @@ snd_ccoop_sea_raider_taunt_1 2049 1 286 0
 snd_ccoop_sea_raider_taunt_2 2049 1 287 0 
 snd_ccoop_sea_raider_taunt_3 2049 1 288 0 
 snd_sounds_end 2721 1 364 0 
-snd_shot_pistol 4064 5 365 0 366 0 367 0 368 0 369 0 
+snd_shot_pistol1 4064 5 365 0 366 0 367 0 368 0 369 0 
 snd_shot_caplockpistol 4064 4 370 0 371 0 372 0 373 0 
 snd_shot_caplock 4064 5 374 0 375 0 376 0 377 0 378 0 
 snd_shot_rifle1 4064 10 379 0 380 0 381 0 382 0 383 0 384 0 385 0 386 0 387 0 388 0 

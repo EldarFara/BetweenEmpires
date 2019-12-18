@@ -52028,7 +52028,7 @@ scripts = [
       (try_begin),
         (this_or_next|eq, ":item_id", "itm_sidearm_smithwesson_no2"), # Revolvers
         (eq, ":item_id", "itm_sidearm_colt_m1873"),
-        (assign, ":sound_id", "snd_shot_pistol"),
+        (assign, ":sound_id", "snd_shot_pistol1"),
         (assign, ":muzzle_y", 44),
         (assign, ":muzzle_x", 0),
         (assign, ":muzzle_y_rot", -45),
@@ -52059,6 +52059,7 @@ scripts = [
         (assign, ":has_pan_smoke", 1),
       (else_try),
         (this_or_next|eq,":item_id", "itm_rifle_russian_m1845"), # Caplock Rifles
+        (this_or_next|eq,":item_id", "itm_rifle_russian_m1856_carbine"), 
         (eq,":item_id", "itm_rifle_russian_m1856"), 
         (assign, ":sound_id", "snd_shot_caplock"),
         (assign, ":muzzle_y", 132),
@@ -52066,13 +52067,19 @@ scripts = [
         (assign, ":has_pan_smoke", 1),
       (else_try),
         (this_or_next|eq,":item_id", "itm_rifle_berdan"), # Modern Rifles (black powder)
-        (eq,":item_id", "itm_rifle_berdan"),
+        (eq,":item_id", "itm_rifle_berdan_carbine"),
         (assign, ":sound_id", "snd_shot_rifle1"),
         (assign, ":muzzle_y", 125),
         (assign, ":has_pan_sparks", 0),
         (assign, ":has_pan_smoke", 0),
       (try_end),
        
+	  (try_begin), # Carbines
+		(this_or_next|eq,":item_id", "itm_rifle_berdan_carbine"), 
+		(eq,":item_id", "itm_rifle_russian_m1856_carbine"), 
+		(assign, ":muzzle_y", 104),
+	  (try_end),
+		  
       # Sounds
       (gt, ":sound_id", -1),
       (play_sound_at_position, ":sound_id", pos41),      

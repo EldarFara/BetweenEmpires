@@ -730,7 +730,7 @@ animations = [
     [7, "reload_rifle1", 0, 340, arf_blend_in_8|arf_stick_item_to_left_hand],
   ],
  ["reload_crossbow_horseback", 0, amf_priority_reload|amf_use_weapon_speed|amf_play,
-   [1.6, "anim_human", combat+1800, combat+1877, arf_blend_in_8|arf_make_custom_sound, pack2f(0.27, 0.94)], 
+   [7.0, "reload_rifle2", 0, 13, arf_blend_in_8|arf_stick_item_to_left_hand],
  ],
  ["ready_javelin", acf_rot_vertical_bow, amf_priority_attack|amf_use_weapon_speed|amf_keep|amf_client_owner_prediction|amf_rider_rot_throw,
    [0.6, "throw_javelin2", 0, 30, blend_in_ready],
