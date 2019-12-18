@@ -1,5 +1,5 @@
 itemsfile version 3
-678
+679
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -2746,6 +2746,10 @@ itemsfile version 3
 0
 
  itm_sidearm_colt_dragoon Colt_Dragoon_Revolver Colt_Dragoon_Revolver 1  colt_dragoon 0  4259856 483721150464 400 131082 1.750000 100 0 0 80 0 0 35 320 0 6 311 0
+ 0
+0
+
+ itm_sidearm_remington1 Remington_Model_1858 Remington_Model_1858 1  remington1 0  4259856 483721150464 400 131082 1.000000 100 0 0 75 0 0 50 198 0 6 301 0
  0
 0
 

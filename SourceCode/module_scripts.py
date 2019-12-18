@@ -52031,6 +52031,7 @@ scripts = [
       (try_begin),
         (this_or_next|eq, ":item_id", "itm_sidearm_smithwesson_no2"), # Revolvers
         (this_or_next|eq, ":item_id", "itm_sidearm_colt_dragoon"),
+        (this_or_next|eq, ":item_id", "itm_sidearm_remington1"),
         (eq, ":item_id", "itm_sidearm_colt_m1873"),
         (assign, ":sound_id", "snd_shot_pistol1"),
         (assign, ":muzzle_y", 44),
