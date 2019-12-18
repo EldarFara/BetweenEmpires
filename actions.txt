@@ -274,8 +274,9 @@
   0.500000 anim_human_02 150 165 268435489 0 0.0 0.0 0.0 0.0 
  lancer_ride_4 505413889 50368514  1
   0.500000 lancer_ride4 0 15 268435585 0 0.0 0.0 0.0 0.0 
- lancer_ride_4_no_shield 505413889 50368514  1
-  0.500000 lancer_ride4_no_shield 0 15 268435585 0 0.0 0.0 0.0 0.0 
+ lancer_ride_4_no_shield 505413889 50368514  2
+  0.500000 lancer_ride4_no_shield1 0 15 268435585 0 0.0 0.0 0.0 0.0 
+  0.500000 lancer_ride4_no_shield2 0 15 268435585 0 0.0 0.0 0.0 0.0 
  ride_rear 33024 50331712  1
   1.700000 anim_human_02 265 297 9 0 0.0 0.0 0.0 0.0 
  ride_spur 256 33554434  1
@@ -379,7 +380,7 @@
  reload_crossbow 0 35651644  1
   7.000000 reload_rifle1 0 340 67108873 0 0.0 0.0 0.0 0.0 
  reload_crossbow_horseback 0 35651644  1
-  7.000000 reload_rifle2 0 13 67108873 0 0.0 0.0 0.0 0.0 
+  9.000000 reload_rifle1 0 340 67108873 0 0.0 0.0 0.0 0.0 
  ready_javelin 1048576 606085130  1
   0.600000 throw_javelin2 0 30 7 0 0.0 0.0 0.0 0.0 
  release_javelin 1048576 572530703  1

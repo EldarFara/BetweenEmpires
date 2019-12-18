@@ -49,6 +49,36 @@ test = (0, 0, 0, [
 
 ], [])
 
+sound_man_death = (ti_on_agent_killed_or_wounded, 0, 0, [
+(store_trigger_param_1, ":dead_agent"),
+
+(agent_get_troop_id, ":troop", ":dead_agent"),
+(troop_get_type, ":troop_type", ":troop"),
+	(try_begin),
+	(eq, ":troop_type", 0),
+	(store_random_in_range, ":random", 1, 7),
+		(try_begin),
+		(eq, ":random", 1),
+		(play_sound_at_position, "snd_mandeath1", pos0),
+		(else_try),
+		(eq, ":random", 2),
+		(play_sound_at_position, "snd_mandeath2", pos0),
+		(else_try),
+		(eq, ":random", 3),
+		(play_sound_at_position, "snd_mandeath3", pos0),
+		(else_try),
+		(eq, ":random", 4),
+		(play_sound_at_position, "snd_mandeath4", pos0),
+		(else_try),
+		(eq, ":random", 5),
+		(play_sound_at_position, "snd_mandeath5", pos0),
+		(else_try),
+		(eq, ":random", 6),
+		(play_sound_at_position, "snd_mandeath6", pos0),
+		(try_end),
+	(try_end),
+], [])
+
 fgs_trees_ams = (ti_after_mission_start, 0, 0,[ #fgs - Flora Generating System
 (set_fixed_point_multiplier, 100),
 (store_current_scene, ":scene"),
@@ -320,8 +350,6 @@ pws_sky_bms = (ti_before_mission_start, 0, 0, [
 	(assign, "$current_precipitation", "$pws_s_precipitation"),
 	(try_end),
 (store_time_of_day, ":hours"),
-#(assign, reg0, "$current_clouds"),
-#(display_debug_message, "@{reg0}"),
 (assign, ":sky", 1),
 	(try_begin),
 	(is_between, ":hours", 8, 15+1), #day
@@ -515,6 +543,7 @@ pws_sky_bms = (ti_before_mission_start, 0, 0, [
 parabellum_script_set1a = [
 pws_sky_bms,
 fgs_trees_ams,
+sound_man_death,
 test,
   ]	
 
