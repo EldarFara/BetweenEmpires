@@ -760,9 +760,6 @@ scripts = [
 	  # fill_village_bound_centers
     #pass 1: Give one village to each castle
 	
-	(party_set_slot, "p_village_1", slot_village_bound_center, "p_town_1"),
-	(call_script, "script_give_center_to_faction_aux", "p_village_1", "fac_kingdom_1"),
-	
       (try_for_range, ":cur_center", castles_begin, castles_end),
         (assign, ":min_dist", 999999),
         (assign, ":min_dist_village", -1),
@@ -778,6 +775,8 @@ scripts = [
         (call_script, "script_give_center_to_faction_aux", ":min_dist_village", ":town_faction"),
       (try_end),
 
+	(party_set_slot, "p_village_1", slot_village_bound_center, "p_town_1"),
+	(call_script, "script_give_center_to_faction_aux", "p_village_1", "fac_kingdom_1"),
       
     #pass 2: Give other villages to closest town.
       (try_for_range, ":cur_village", villages_begin, villages_end),
