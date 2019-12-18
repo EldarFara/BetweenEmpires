@@ -699,7 +699,7 @@ simple_triggers = [
 					(faction_set_slot, ":faction_1", ":slot_provocation_days", 0),
 				(else_try), #Provocation expires
 					(eq, ":provocation_days", 1),
-					(call_script, "script_add_notification_menu", "mnu_notification_casus_belli_expired", ":faction_1", ":faction_2"),
+					#(call_script, "script_add_notification_menu", "mnu_notification_casus_belli_expired", ":faction_1", ":faction_2"),
 					(faction_set_slot, ":faction_1", ":slot_provocation_days", 0),
 				(else_try),
 					(val_sub, ":provocation_days", 1), 

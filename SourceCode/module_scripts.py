@@ -759,6 +759,10 @@ scripts = [
 
 	  # fill_village_bound_centers
     #pass 1: Give one village to each castle
+	
+	(party_set_slot, "p_village_1", slot_village_bound_center, "p_town_1"),
+	(call_script, "script_give_center_to_faction_aux", "p_village_1", "fac_kingdom_1"),
+	
       (try_for_range, ":cur_center", castles_begin, castles_end),
         (assign, ":min_dist", 999999),
         (assign, ":min_dist_village", -1),
@@ -42516,6 +42520,7 @@ scripts = [
 		#Guardian forces lady to be betrothed to suitor now		
 		(try_begin), 
 			(lt, ":lady_suitor_relation", -20),
+			(neq, ":guardian", -1),
 			(this_or_next|troop_slot_eq, ":guardian", slot_lord_reputation_type, lrep_selfrighteous),
 			(this_or_next|troop_slot_eq, ":guardian", slot_lord_reputation_type, lrep_debauched),
 				(troop_slot_eq, ":guardian", slot_lord_reputation_type, lrep_quarrelsome),
@@ -42578,6 +42583,7 @@ scripts = [
 			(gt, ":lady_suitor_relation", 20),
 			
 			(eq, ":competitor_preferred_by_lady", -1),
+			(neq, ":guardian", -1),
 			(this_or_next|troop_slot_eq, ":guardian", slot_lord_reputation_type, lrep_adventurous),
 				(troop_slot_eq, ":guardian", slot_lord_reputation_type, lrep_ambitious),
 				
