@@ -10,6 +10,15 @@ from ID_factions import *
 
 spawable_prop_limit = 4000
 
+company1 = 0
+company2 = 1
+company3 = 2
+company4 = 3
+company5 = 4
+company6 = 5
+company7 = 6
+company8 = 7
+
 shader_spring		= 0
 shader_summer		= 1
 shader_autumn		= 2
