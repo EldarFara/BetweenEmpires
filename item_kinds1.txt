@@ -1,5 +1,5 @@
 itemsfile version 3
-679
+683
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -2750,6 +2750,22 @@ itemsfile version 3
 0
 
  itm_sidearm_remington1 Remington_Model_1858 Remington_Model_1858 1  remington1 0  4259856 483721150464 400 131082 1.000000 100 0 0 75 0 0 50 198 0 6 301 0
+ 0
+0
+
+ itm_lou_infantry_trousers1 lou_infantry_trousers1 lou_infantry_trousers1 1  lou_infantry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_lou_infantry1 lou_infantry1 lou_infantry1 1  lou_infantry1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_lou_infantry2 lou_infantry2 lou_infantry2 1  lou_infantry2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_lou_hat1 lou_hat1 lou_hat1 1  lou_hat1 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  0
 0
 

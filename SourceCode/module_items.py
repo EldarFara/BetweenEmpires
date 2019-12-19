@@ -1399,6 +1399,12 @@ items = [
 ["sidearm_colt_dragoon","Colt Dragoon Revolver", [("colt_dragoon", 0)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,400, weight(1.9)|abundance(100)|accuracy(accuracy_heavy_pistol)|spd_rtng(35)|shoot_speed(320)|max_ammo(6)|thrust_damage(55, pierce), imodbits_firearm, []],
 ["sidearm_remington1","Remington Model 1858", [("remington1", 0)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,400, weight(1)|abundance(100)|accuracy(accuracy_medium_pistol)|spd_rtng(50)|shoot_speed(198)|max_ammo(6)|thrust_damage(45, pierce), imodbits_firearm, []],
 
+["lou_infantry_trousers1","lou_infantry_trousers1", [("lou_infantry_trousers1", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
+["lou_infantry1","lou_infantry1", [("lou_infantry1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["lou_infantry2","lou_infantry2", [("lou_infantry2", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["lou_hat1","lou_hat1", [("lou_hat1", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.5)|head_armor(5), imodbits_none, []],
+
+
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 
 ]
