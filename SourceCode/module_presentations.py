@@ -13618,4 +13618,16 @@ presentations = [
     ]),
     #INVASION MODE END
 
+	("pbm", prsntf_read_only, 0, [ #PBM - Parabellum Battle Menu
+    (ti_on_presentation_load, [      
+      (presentation_set_duration, 999999),
+      ]),
+  
+    (ti_on_presentation_run, [
+(neq, "$strategic_view_state", 2),     
+      (presentation_set_duration, 0), 
+      ]),
+    ]),
+
+	
   ]

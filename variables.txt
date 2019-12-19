@@ -1212,6 +1212,7 @@ pws_n_clouds
 current_wind
 current_clouds
 current_precipitation
+strategic_view_state
 g_ccoop_disallow_horses
 g_presentation_obj_coop_companion_0
 g_presentation_obj_coop_companion_1

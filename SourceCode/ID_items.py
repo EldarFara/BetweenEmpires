@@ -680,4 +680,5 @@ itm_lou_infantry_trousers1 = 678
 itm_lou_infantry1 = 679
 itm_lou_infantry2 = 680
 itm_lou_hat1 = 681
-itm_items_end = 682
+itm_sidearm_gasser = 682
+itm_items_end = 683
