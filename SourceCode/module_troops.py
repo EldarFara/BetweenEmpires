@@ -2471,7 +2471,7 @@ troops = [
   [],
   str_20|agi_20|int_15|cha_25|level(41), wp(220), knows_leadership_9|knows_prisoner_management_3|knows_tactics_6|knows_trainer_5|knows_riding_7|knows_athletics_5|knows_power_strike_7|knows_ironflesh_6,0x0000000f45041105241acd2b5a66a86900000000001e98310000000000000000, 0x0000000fc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
   ["kingdom_2_lord", "Tsar Alexander II", "Tsar Alexander II", tf_hero, 0, 0, fac_kingdom_2,
-  [],
+  [itm_ria_hat4, itm_ria_leader1, itm_ria_cavalry_trousers4, itm_saber1],
   str_20|agi_20|int_15|cha_25|level(41), wp(220), knows_leadership_9|knows_prisoner_management_3|knows_tactics_6|knows_trainer_4|knows_riding_7|knows_athletics_5|knows_power_strike_7|knows_ironflesh_6,0x0000000ec50001400a2269f919dee11700000000001cc57d0000000000000000, 0x0000000cbf00230c4deeffffffffffff00000000001efff90000000000000000],
   ["kingdom_3_lord", "Kaiser Franz Joseph", "Kaiser Franz Joseph", tf_hero, 0, 0, fac_kingdom_3,
   [],
