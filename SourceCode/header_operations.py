@@ -817,7 +817,7 @@ agent_set_scripted_destination_no_attack = 1748	# (agent_set_scripted_destinatio
 agent_fade_out                         = 1749   # (agent_fade_out, <agent_id>),
 agent_play_sound                       = 1750   # (agent_play_sound, <agent_id>, <sound_id>),
 agent_start_running_away               = 1751   # (agent_start_running_away, <agent_id>, [position_no]), # if position no is entered, agent will run away to that location. pos0 is not allowed (will be ignored).
-agent_stop_running_away                = 1752   # (agent_stop_run_away, <agent_id>),
+agent_stop_running_away                = 1752   # (agent_stop_running_away, <agent_id>),
 agent_ai_set_aggressiveness            = 1753   # (agent_ai_set_aggressiveness, <agent_id>, <value>), #100 is the default aggressiveness. higher the value, less likely to run back
 agent_set_kick_allowed                 = 1754   # (agent_set_kick_allowed, <agent_id>, <value>), #0 for disable, 1 for allow
 

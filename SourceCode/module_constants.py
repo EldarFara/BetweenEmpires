@@ -10,6 +10,10 @@ from ID_factions import *
 
 spawable_prop_limit = 4000
 
+pbs_state_generic = 0
+pbs_state_moving_to_position = 1
+pbs_state_holding_position = 1
+
 company1 = 0
 company2 = 1
 company3 = 2
@@ -106,6 +110,9 @@ slot_agent_doom_javelin_count     = 27
 slot_agent_doom_javelin_attacker  = 28
 #INVASION MODE END
     
+slot_agent_pbs_state              = 29
+slot_agent_can_crouch             = 30
+
 ########################################################
 ##  FACTION SLOTS          #############################
 ########################################################

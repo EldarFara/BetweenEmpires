@@ -612,5 +612,6 @@ script_get_modulus_of_value = 610
 script_get_angle_of_ground_at_pos = 611
 script_set_angle_of_pos39_to_ground_angle = 612
 script_game_missile_launch = 613
+script_company_hold_pos30 = 614
 
 
