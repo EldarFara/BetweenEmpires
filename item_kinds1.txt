@@ -2622,7 +2622,7 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_colt_m1873 Colt_Single_Action_Army Colt_Single_Action_Army 1  colt_m1873 0  4259856 483721150464 400 131082 1.000000 100 0 0 75 0 0 50 198 0 6 301 0
+ itm_sidearm_colt_m1873 Colt_Single_Action_Army Colt_Single_Action_Army 2  colt_m1873 0  pistol_holster1 3458764513820540928  4259856 518080888832 400 131082 1.000000 100 0 0 75 0 0 50 198 0 6 301 0
  0
 0
 
@@ -2697,7 +2697,7 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_smithwesson_no2 Smith_&_Wesson_Model_2 Smith_&_Wesson_Model_2 1  smithwesson_no2 0  4259856 483721150464 400 131082 1.000000 100 0 0 80 0 0 45 200 0 6 306 0
+ itm_sidearm_smithwesson_no2 Smith_&_Wesson_Model_2 Smith_&_Wesson_Model_2 2  smithwesson_no2 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.000000 100 0 0 80 0 0 45 200 0 6 306 0
  0
 0
 
@@ -2745,11 +2745,11 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_colt_dragoon Colt_Dragoon Colt_Dragoon 1  colt_dragoon 0  4259856 483721150464 400 131082 1.750000 100 0 0 80 0 0 35 320 0 6 311 0
+ itm_sidearm_colt_dragoon Colt_Dragoon Colt_Dragoon 2  colt_dragoon 0  pistol_holster1 3458764513820540928  4259856 518080888832 400 131082 1.750000 100 0 0 80 0 0 35 320 0 6 311 0
  0
 0
 
- itm_sidearm_remington1 Remington_Model_1858 Remington_Model_1858 1  remington1 0  4259856 483721150464 400 131082 1.000000 100 0 0 75 0 0 50 198 0 6 301 0
+ itm_sidearm_remington1 Remington_Model_1858 Remington_Model_1858 2  remington1 0  pistol_holster1 3458764513820540928  4259856 518080888832 400 131082 1.000000 100 0 0 75 0 0 50 198 0 6 301 0
  0
 0
 
@@ -2769,7 +2769,7 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_gasser Gasser_M1870 Gasser_M1870 1  gasser 0  4259856 483721150464 400 131082 1.250000 100 0 0 75 0 0 50 210 0 6 304 0
+ itm_sidearm_gasser Gasser_M1870 Gasser_M1870 2  gasser 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 75 0 0 50 210 0 6 304 0
  0
 0
 
