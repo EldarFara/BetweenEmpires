@@ -112,6 +112,7 @@ slot_agent_doom_javelin_attacker  = 28
     
 slot_agent_pbs_state              = 29
 slot_agent_can_crouch             = 30
+slot_agent_speed_modifier         = 31
 
 ########################################################
 ##  FACTION SLOTS          #############################

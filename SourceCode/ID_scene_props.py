@@ -1067,3 +1067,5 @@ spr_spotflora_flowers1b = 1065
 spr_spotflora_flowers2 = 1066
 spr_banner_ria1 = 1067
 spr_pbs_point1 = 1068
+spr_flora_poplar1 = 1069
+spr_flora_ash1 = 1070

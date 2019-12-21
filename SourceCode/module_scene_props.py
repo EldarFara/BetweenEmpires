@@ -3206,4 +3206,7 @@ scene_props = [
 ("banner_ria1",0,"banner_ria1","0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":prop"),(prop_instance_set_material, ":prop", -1, "@banner_ria1"),(prop_instance_deform_in_cycle_loop, ":prop", 0, 305, 14000),]),]),
 
 ("pbs_point1", sokf_moveable, "pbs_point1", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
+
+("flora_poplar1", 0, "fgs_poplar1", "co_poplar1", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
+("flora_ash1", 0, "fgs_ash_big1", "co_ash_big1", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
 ]
