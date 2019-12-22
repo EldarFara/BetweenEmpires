@@ -1,5 +1,5 @@
 itemsfile version 3
-684
+687
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -2542,7 +2542,7 @@ itemsfile version 3
  0
 0
 
- itm_ria_infantry1 ria_infantry1 ria_infantry1 1  ria_infantry1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_ria_infantry1 ria_infantry1 ria_infantry1 1  ria_infantry2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
  0
 0
 
@@ -2765,11 +2765,23 @@ itemsfile version 3
  0
 0
 
- itm_lou_hat1 lou_hat1 lou_hat1 1  lou_hat1 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_lou_hat1 lou_hat1 lou_hat1 1  lou_hat1 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  0
 0
 
  itm_sidearm_gasser Gasser_M1870 Gasser_M1870 2  gasser 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 75 0 0 50 210 0 6 304 0
+ 0
+0
+
+ itm_lou_hat2 lou_hat2 lou_hat2 1  lou_hat2 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_lou_infantry_trousers2 lou_infantry_trousers2 lou_infantry_trousers2 1  lou_infantry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_lou_infantry3 lou_infantry3 lou_infantry3 1  lou_infantry3 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
  0
 0
 

@@ -20,9 +20,9 @@ pt_troublesome_bandits Troublesome_Bandits 2533274790658057 0 2 312 642 14 55 0 
 pt_bandits_awaiting_ransom Bandits_Awaiting_Ransom 2533274790789129 0 3 312 642 24 58 0 663 1 1 1 -1 -1 -1 -1 
 pt_kidnapped_girl Kidnapped_Girl 262154 0 3 7 663 1 1 0 -1 -1 -1 -1 -1 
 pt_village_farmers Village_Farmers 67108870 0 4 7 25 5 10 0 661 3 8 0 -1 -1 -1 -1 
-pt_spy_partners Unremarkable_Travellers 2814749767434242 0 3 7 2947 1 1 0 28 5 11 0 -1 -1 -1 -1 
+pt_spy_partners Unremarkable_Travellers 2814749767434242 0 3 7 3405 1 1 0 28 5 11 0 -1 -1 -1 -1 
 pt_runaway_serfs Runaway_Serfs 2251799814012934 0 3 7 25 6 7 0 661 3 3 0 -1 -1 -1 -1 
-pt_spy Ordinary_Townsman 1125899907170306 0 3 7 2946 1 1 0 -1 -1 -1 -1 -1 
+pt_spy Ordinary_Townsman 1125899907170306 0 3 7 3404 1 1 0 -1 -1 -1 -1 -1 
 pt_sacrificed_messenger Sacrificed_Messenger 844424930459650 0 3 7 -1 -1 -1 -1 -1 -1 
 pt_forager_party Foraging_Party 1407374887747586 0 1 7 -1 -1 -1 -1 -1 -1 
 pt_scout_party Scouts 281474980904962 0 1 312 -1 -1 -1 -1 -1 -1 
@@ -161,4 +161,4 @@ pt_mountain_bandit_lair Mountain_Bandit_Hideout 562949955519676 0 3 312 644 15 5
 pt_sea_raider_lair Sea_Raider_Landing 562949955519676 0 3 312 646 15 50 0 -1 -1 -1 -1 -1 
 pt_looter_lair Kidnappers'_Hideout 562949955519676 0 3 312 641 15 25 0 -1 -1 -1 -1 -1 
 pt_bandit_lair_templates_end {!}bandit_lair_templates_end 562949953422345 0 2 312 646 15 50 0 -1 -1 -1 -1 -1 
-pt_leaded_looters Band_of_robbers 2251799813947401 0 3 312 3026 1 1 0 641 3 3 0 -1 -1 -1 -1 
+pt_leaded_looters Band_of_robbers 2251799813947401 0 3 312 3484 1 1 0 641 3 3 0 -1 -1 -1 -1 

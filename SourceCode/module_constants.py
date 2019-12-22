@@ -12,7 +12,8 @@ spawable_prop_limit = 4000
 
 pbs_state_generic = 0
 pbs_state_moving_to_position = 1
-pbs_state_holding_position = 1
+pbs_state_holding_position = 2
+pbs_state_charging = 3
 
 company1 = 0
 company2 = 1
@@ -112,7 +113,6 @@ slot_agent_doom_javelin_attacker  = 28
     
 slot_agent_pbs_state              = 29
 slot_agent_can_crouch             = 30
-slot_agent_speed_modifier         = 31
 
 ########################################################
 ##  FACTION SLOTS          #############################

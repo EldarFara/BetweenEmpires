@@ -209,5 +209,8 @@ snd_mandeath3 = 207
 snd_mandeath4 = 208
 snd_mandeath5 = 209
 snd_mandeath6 = 210
+snd_rifle_shot_reflection_small = 211
+snd_rifle_shot_reflection = 212
+snd_rifle_shot_far1 = 213
 
 
