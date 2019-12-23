@@ -38,6 +38,207 @@ from module_postfx import *
 pilgrim_disguise = [itm_pilgrim_hood,itm_pilgrim_disguise,itm_practice_staff, itm_throwing_daggers]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
+prebattle_deployment_bms = (ti_before_mission_start, 0, ti_once, [(party_slot_eq, "p_main_party", slot_party_prebattle_customized_deployment, 1)], [
+	#Find the number of soldiers in each troop-stack that are ready to upgrade by upgrading the party and finding
+	#the changes in troops after the upgrade, then storing the number upgraded in a troop slot.
+	(call_script, "script_party_copy", "p_temp_party", "p_main_party"),
+	(party_upgrade_with_xp, "p_main_party", 1, 1),
+
+	(party_get_num_companion_stacks, ":previous_num_of_stacks", "p_temp_party"),
+	(try_for_range, ":i", 0, ":previous_num_of_stacks"), 
+		(party_stack_get_troop_id, ":troop_id", "p_temp_party", ":i"),
+		(neg|troop_is_hero, ":troop_id"),
+        (troop_set_slot, ":troop_id", slot_troop_prebattle_preupgrade_check, 0),
+		(troop_set_slot, ":troop_id",  slot_troop_prebattle_num_upgrade, 0),
+	(try_end),
+	
+	(try_for_range, ":i", 0, ":previous_num_of_stacks"), 
+		(party_stack_get_troop_id, ":troop_id", "p_temp_party", ":i"),
+		(neg|troop_is_hero, ":troop_id"),
+		(troop_slot_eq, ":troop_id", slot_troop_prebattle_preupgrade_check, 0),
+		
+		(try_for_range, ":down_upgrade_array", slot_party_prebattle_customized_deployment, slot_party_prebattle_customized_deployment + 7),
+		    (party_set_slot, "p_main_party_backup", ":down_upgrade_array", 0), #Create an Array of 6 variables to hold current troop's down/upgrade path
+		(try_end),
+		(assign, ":troop", ":troop_id"),
+		(assign, ":end", 7),
+     	(try_for_range, ":unused", 0, ":end"),		
+			(assign, ":stacks", ":previous_num_of_stacks"),
+		    (try_for_range, ":n", 0, ":stacks"), #Find another troop that upgrades to the current troop in the party
+			    (party_stack_get_troop_id, ":troop_to_upgrade", "p_temp_party", ":n"),
+		        (neg|troop_is_hero, ":troop_to_upgrade"),
+				(neq, ":troop_to_upgrade", ":troop"),
+			    (troop_get_upgrade_troop, ":upgrade_troop", ":troop_to_upgrade", 0),
+			    (eq, ":upgrade_troop", ":troop"),
+			    (assign, ":stacks", 0),
+		    (try_end),
+		    (try_begin),
+		        (neq, ":upgrade_troop", ":troop"), #nothing in the party upgrades to this troop
+				(assign, ":end", 0), #Break 'Find Downgrades' Loop
+				(troop_slot_eq, ":troop", slot_troop_prebattle_preupgrade_check, 0),
+				(party_count_members_of_type, ":pre_upgrade", "p_temp_party", ":troop"),
+		        (party_count_members_of_type, ":post_upgrade", "p_main_party", ":troop"),
+			    (store_sub, ":difference", ":pre_upgrade", ":post_upgrade"),
+                (val_max, ":difference", 0), #don't let it be negative
+			    (troop_set_slot, ":troop", slot_troop_prebattle_num_upgrade, ":difference"),
+				(troop_set_slot, ":troop", slot_troop_prebattle_preupgrade_check, 1),
+		    (else_try),
+		    #something upgrades to this troop in the party; record that upgrade_troop, then loop again to check if anything upgrades to THAT troop
+			    (assign, ":array_begin", slot_party_prebattle_customized_deployment),
+				(try_for_range_backwards, ":downgrade_array", ":array_begin", slot_party_prebattle_customized_deployment + 7),
+				    (party_slot_eq, "p_main_party_backup", ":downgrade_array", 0),
+					(party_set_slot, "p_main_party_backup", ":downgrade_array", ":troop_to_upgrade"),
+					(assign, ":array_begin", slot_party_prebattle_customized_deployment + 7),
+				(try_end),
+				(assign, ":troop", ":troop_to_upgrade"),
+			(try_end), #Does anything upgrade to this troop? If-Then-Else
+		(try_end), #Downgrade Do...Loop
+		
+		(troop_slot_eq, ":troop_id", slot_troop_prebattle_preupgrade_check, 0), 
+		#If this troop was finished above (nothing upgrades to it, so it isn't mid/end of a continuous tree) no need to continue
+		
+		(assign, ":troop", ":troop_id"),
+		(assign, ":end", 7),
+     	(try_for_range, ":unused", 0, ":end"),	
+			(troop_get_upgrade_troop, ":upgrade_troop", ":troop", 0),
+			(party_count_members_of_type, ":num_upgrade", "p_main_party", ":upgrade_troop"),
+			(try_begin),
+			    (gt, ":num_upgrade", 0),
+			    (assign, ":array_end", slot_party_prebattle_customized_deployment + 7),
+			    (try_for_range, ":upgrade_array", slot_party_prebattle_customized_deployment, ":array_end"),
+				    (party_slot_eq, "p_main_party_backup", ":upgrade_array", 0),
+				    (party_set_slot, "p_main_party_backup", ":upgrade_array", ":upgrade_troop"),
+			        (assign, ":array_end", slot_party_prebattle_customized_deployment),
+	            (try_end),
+			    (assign, ":troop", ":upgrade_troop"),
+			(else_try),
+			    (assign, ":end", 0),
+			(try_end),
+		(try_end), #Upgrade Do...Loop
+
+		#Use Upgrade and 'Downgrade' paths to calculate upgrade numbers for a continuous troop tree.
+		(assign, ":end", slot_party_prebattle_customized_deployment + 7),
+		(try_for_range, ":down_upgrade_array", slot_party_prebattle_customized_deployment, ":end"), 
+		    (party_get_slot, ":troop", "p_main_party_backup", ":down_upgrade_array"),
+			(gt, ":troop", 0),
+			(troop_slot_eq, ":troop", slot_troop_prebattle_preupgrade_check, 1), #Find "Beginning" of Upgrade Path	
+			
+			(assign, ":begin_upgrade_tree", ":down_upgrade_array"),
+			(assign, ":previous_num_upgraded", 0),
+			(try_for_range_backwards, ":upgrade_array", slot_party_prebattle_customized_deployment, ":begin_upgrade_tree"),
+			    (party_get_slot, ":top_troop", "p_main_party_backup", ":upgrade_array"),
+				(gt, ":top_troop", 0),
+				(party_count_members_of_type, ":pre_upgrade", "p_temp_party", ":top_troop"),
+		        (party_count_members_of_type, ":post_upgrade", "p_main_party", ":top_troop"),
+			    (store_sub, ":difference", ":post_upgrade", ":pre_upgrade"),
+				(val_add, ":difference", ":previous_num_upgraded"),
+                (val_max, ":difference", 0), #don't let it be negative
+				(assign, ":previous_num_upgraded", ":difference"),
+				
+				(store_sub, ":prior_troop_slot", ":upgrade_array", 1),
+				(try_begin),
+			        (ge, ":prior_troop_slot", slot_party_prebattle_customized_deployment),
+					(party_get_slot, ":prior_troop", "p_main_party_backup", ":prior_troop_slot"),
+				(else_try),
+				    (eq, ":prior_troop_slot", slot_party_prebattle_customized_deployment - 1),
+					(assign, ":prior_troop", ":troop_id"),
+                (try_end),
+				(gt, ":prior_troop", 0),
+				(troop_slot_eq, ":prior_troop", slot_troop_prebattle_preupgrade_check, 0),
+			    (troop_set_slot, ":prior_troop", slot_troop_prebattle_num_upgrade, ":difference"),
+				(troop_set_slot, ":top_troop", slot_troop_prebattle_preupgrade_check, 1),
+			(try_end), #Upgrade Backwards Loop
+			
+			(troop_set_slot, ":troop_id", slot_troop_prebattle_preupgrade_check, 1),
+			
+			(assign, ":previous_num_upgraded", 0),
+			(try_for_range, ":downgrade_array", ":begin_upgrade_tree", ":end"),
+				(party_get_slot, ":bottom_troop", "p_main_party_backup", ":downgrade_array"),
+				(gt, ":bottom_troop", 0),
+				
+				(try_begin),
+				    (troop_slot_eq, ":bottom_troop", slot_troop_prebattle_preupgrade_check, 1),
+					(troop_get_slot, ":previous_num_upgraded", ":bottom_troop", slot_troop_prebattle_num_upgrade),
+				(else_try),
+				    (troop_slot_eq, ":bottom_troop", slot_troop_prebattle_preupgrade_check, 0),				
+					(party_count_members_of_type, ":pre_upgrade", "p_temp_party", ":bottom_troop"),
+		            (party_count_members_of_type, ":post_upgrade", "p_main_party", ":bottom_troop"),
+			        (store_sub, ":difference", ":post_upgrade", ":pre_upgrade"),
+				    (val_add, ":difference", ":previous_num_upgraded"),
+                    (val_max, ":difference", 0), #don't let it be negative
+        			(assign, ":previous_num_upgraded", ":difference"),
+			        (troop_set_slot, ":bottom_troop", slot_troop_prebattle_num_upgrade, ":difference"),
+				    (troop_set_slot, ":bottom_troop", slot_troop_prebattle_preupgrade_check, 1),
+                (try_end),
+			(try_end), #Downgrade Loop
+			(assign, ":end", slot_party_prebattle_customized_deployment), #Break Loop
+		(try_end), #Locate "Beginning"/End of Upgrade Path 'Loop'
+	(try_end), #Party Stack Loop
+				
+    (call_script, "script_party_copy", "p_main_party", "p_temp_party"), #Return party to pre-upgrade state
+	
+    #REMOVE 'EXTRA' SOLDIERS FROM THE PARTY, TO ENSURE CORRECT SPAWN
+	(party_get_num_companion_stacks, ":num_of_stacks", "p_main_party"),
+	(try_for_range_backwards, ":i", 0, ":num_of_stacks"),
+		(party_stack_get_troop_id, ":troop_id", "p_main_party", ":i"),
+		(neq, ":troop_id", "trp_player"),
+		(troop_get_slot, ":num_of_agents", ":troop_id", slot_troop_prebattle_first_round),
+		(party_stack_get_size, ":stack_size", "p_main_party", ":i"),
+		(store_sub, ":difference", ":stack_size", ":num_of_agents"),
+		(gt, ":difference", 0),
+		(assign, reg1, ":difference"),
+		#(display_message, "@{reg1}"),
+		(party_remove_members_wounded_first, "p_main_party", ":troop_id", ":difference"),
+	(try_end),
+    ])
+	
+prebattle_deployment_ams = (ti_after_mission_start, 0, ti_once, [(party_slot_eq, "p_main_party", slot_party_prebattle_customized_deployment, 1)], [
+    #Add people back to the party 
+	(party_get_num_companion_stacks, ":target_num_of_stacks", "p_temp_party"),
+	(try_for_range, ":i", 0, ":target_num_of_stacks"),
+		(party_stack_get_troop_id, ":target_stack_troop", "p_temp_party", ":i"),
+		(neq, ":target_stack_troop", "trp_player"),
+		(party_stack_get_size, ":target_stack_size", "p_temp_party", ":i"),
+		
+		(party_get_num_companion_stacks, ":num_of_stacks", "p_main_party"),
+		(assign, ":cur_stack_size", 0),
+		(assign, ":cur_num_wounded", 0),
+		(try_for_range, ":n", 0, ":num_of_stacks"),
+			(party_stack_get_troop_id, ":stack_troop", "p_main_party", ":n"),
+			(eq, ":stack_troop", ":target_stack_troop"),
+			(party_stack_get_size, ":cur_stack_size", "p_main_party", ":n"),
+			(party_stack_get_num_wounded, ":cur_num_wounded", "p_main_party", ":n"),
+			(assign, ":num_of_stacks", 0),
+		(try_end),
+		
+        (store_sub, ":difference", ":target_stack_size", ":cur_stack_size"),
+
+		(try_begin),
+		    (gt, ":difference", 0),
+            (party_add_members, "p_main_party", ":target_stack_troop", ":difference"),
+            (party_stack_get_num_wounded, ":target_num_wounded", "p_temp_party", ":i"),
+		    (val_sub, ":target_num_wounded", ":cur_num_wounded"),
+		    (gt, ":target_num_wounded", 0),
+            (party_wound_members, "p_main_party", ":stack_troop", ":target_num_wounded"),
+		(try_end),
+		
+		#Re-apply XP so troops that were ready to upgrade are still ready to upgrade
+		(neg|troop_is_hero, ":target_stack_troop"),
+		(troop_get_slot, ":num_to_upgrade", ":target_stack_troop", slot_troop_prebattle_num_upgrade),
+		(gt, ":num_to_upgrade", 0),
+		(call_script, "script_game_get_upgrade_xp", ":target_stack_troop"),
+		(store_mul, ":xp_to_add", ":num_to_upgrade", reg0),
+		(party_get_num_companion_stacks, ":num_of_stacks", "p_main_party"),
+		(try_for_range, ":n", 0, ":num_of_stacks"),
+			(party_stack_get_troop_id, ":stack_troop", "p_main_party", ":n"),
+			(eq, ":stack_troop", ":target_stack_troop"),
+            (party_add_xp_to_stack, "p_main_party", ":n", ":xp_to_add"),
+			(assign, ":num_of_stacks", 0),
+		(try_end),
+	(try_end), #Backup party stack loop
+	(party_set_slot, "p_main_party", slot_party_prebattle_customized_deployment, 0),
+    ])
+	
 pbs_agents_moving_speed = (0.5, 0, 0, [
 	(try_for_agents,":agent"),
 	(agent_is_active, ":agent"),
@@ -952,6 +1153,8 @@ pbs_teleport_to_scripted_destination,
 pbs_cancel_running_away,
 bot_crouching,
 pbs_agents_moving_speed,
+prebattle_deployment_ams,
+prebattle_deployment_bms,
 test,
   ]	
 

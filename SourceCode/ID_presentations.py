@@ -48,3 +48,4 @@ prsnt_coop_assign_drop_to_group_member = 46
 prsnt_multiplayer_ccoop_next_wave_time_counter = 47
 prsnt_multiplayer_ccoop_victory_message = 48
 prsnt_pbs = 49
+prsnt_prebattle_custom_deployment = 50

@@ -1,4 +1,4 @@
-706
+733
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
 qstr_Game_Rules:^ Game_Rules:^
@@ -63,6 +63,33 @@ qstr_{!}{reg3?+:}{reg0} {!}{reg3?+:}{reg0}
 qstr_TOTAL_SCORE:_{reg0} TOTAL_SCORE:_{reg0}
 qstr_{!}DEBUG____Adding_{ {!}DEBUG_--_Adding_{reg3}_items_to_{s3}
 qstr_None None
+qstr_Deployment_Plan Deployment_Plan
+qstr_You_have_{reg1}_comb You_have_{reg1}_combatants_available.
+qstr_Combatant Combatant
+qstr_at_start/in_party at_start/in_party
+qstr_/{reg1} /{reg1}
+qstr_{reg0} {reg0}
+qstr_of_{reg0}_combatants of_{reg0}_combatants
+qstr_Done Done
+qstr_All_to_max All_to_max
+qstr_All_to_zero All_to_zero
+qstr_1st 1st
+qstr_2nd 2nd
+qstr_3rd 3rd
+qstr_4th 4th
+qstr_5th 5th
+qstr_6th 6th
+qstr_7th 7th
+qstr_8th 8th
+qstr_Disabled____________ Disabled____________________
+qstr_Guards_Cavalry_Compa Guards_Cavalry_Company___
+qstr_Mounted_Rifles_Compa Mounted_Rifles_Company___
+qstr_Melee_Cavalry_Compan Melee_Cavalry_Company___
+qstr_Guard_Infantry_Compa Guard_Infantry_Company____
+qstr_Light_Infantry_Compa Light_Infantry_Company____
+qstr_Line_Infantry_Compan Line_Infantry_Company___
+qstr_{reg1} {reg1}
+qstr_Too_many_troops^Chec Too_many_troops^Check_number_available
 qstr_vSeason vSeason
 qstr_{!}DEBUG_:_Completed {!}DEBUG_:_Completed_faction_troop_assignments,_cheat_mode:_{reg3}
 qstr_{!}DEBUG____initial_ {!}DEBUG_--_initial_war/peace_check_begins

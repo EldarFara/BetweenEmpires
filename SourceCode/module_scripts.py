@@ -66,6 +66,16 @@ scripts = [
 (assign, "$pws_n_precipitation", 0),
 (assign, "$pws_m_precipitation", 0),
 (assign, "$pws_s_precipitation", 0),
+
+(assign, "$player_platoon1_type", pbs_troop_type_line),
+(assign, "$player_platoon2_type", pbs_troop_type_line),
+(assign, "$player_platoon3_type", 0),
+(assign, "$player_platoon4_type", 0),
+(assign, "$player_platoon5_type", 0),
+(assign, "$player_platoon6_type", 0),
+(assign, "$player_platoon7_type", 0),
+(assign, "$player_platoon8_type", 0),
+
 (set_fixed_point_multiplier, 1),
 	(try_begin),
 	(is_between, "$g_cur_month", 3, 6), # spring
@@ -52117,13 +52127,14 @@ scripts = [
       (assign, ":has_pan_sparks", 1),
       (assign, ":has_pan_smoke", 1),
 	  
-      (assign, ":smoke_size", 17),
-      (assign, ":spark_size", 40),
+      (assign, ":smoke_size", 0),
+      (assign, ":spark_size", 0),
       (assign, ":pan_smoke_size", 2),
       (try_begin),
         (this_or_next|eq, ":item_id", "itm_sidearm_smithwesson_no2"), # Revolvers
         (this_or_next|eq, ":item_id", "itm_sidearm_colt_dragoon"),
         (this_or_next|eq, ":item_id", "itm_sidearm_remington1"),
+        (this_or_next|eq, ":item_id", "itm_sidearm_gasser"),
         (eq, ":item_id", "itm_sidearm_colt_m1873"),
         (assign, ":sound_id", "snd_shot_pistol1"),
         (assign, ":sound_reflection", "snd_rifle_shot_reflection_small"),
@@ -52160,6 +52171,8 @@ scripts = [
         (assign, ":muzzle_y", 132),
         (assign, ":has_pan_sparks", 1),
         (assign, ":has_pan_smoke", 1),
+        (assign, ":smoke_size", 17),
+        (assign, ":spark_size", 40),
       (else_try),
         (this_or_next|eq,":item_id", "itm_rifle_russian_m1845"), # Caplock Rifles
         (this_or_next|eq,":item_id", "itm_rifle_russian_m1856_carbine"), 
@@ -52170,6 +52183,8 @@ scripts = [
         (assign, ":muzzle_y", 132),
         (assign, ":has_pan_sparks", 0),
         (assign, ":has_pan_smoke", 1),
+        (assign, ":smoke_size", 17),
+        (assign, ":spark_size", 40),
       (else_try),
         (this_or_next|eq,":item_id", "itm_rifle_berdan"), # Modern Rifles (black powder)
         (eq,":item_id", "itm_rifle_berdan_carbine"),
@@ -52179,6 +52194,8 @@ scripts = [
         (assign, ":muzzle_y", 125),
         (assign, ":has_pan_sparks", 0),
         (assign, ":has_pan_smoke", 0),
+        (assign, ":smoke_size", 17),
+        (assign, ":spark_size", 40),
       (try_end),
        
 	  (try_begin), # Carbines
@@ -52310,7 +52327,49 @@ scripts = [
 	(eq, ":division", ":company"),
 	(agent_set_slot, ":agent", slot_agent_pbs_state, pbs_state_charging),
 	(agent_clear_scripted_mode, ":agent"),
+	(agent_stop_running_away, ":agent"),
 	(try_end),
 ]),
+
+  ("prebattle_calculate_battle_advantage_and_size",
+    [
+      (call_script, "script_party_count_fit_for_battle", "p_collective_friends"),
+      (assign, ":friend_count", reg(0)),
+	  (assign, reg1, ":friend_count"),
+      
+      (party_get_skill_level, ":player_party_tactics",  "p_main_party", skl_tactics),
+      (party_get_skill_level, ":ally_party_tactics",  "p_collective_friends", skl_tactics),
+      (val_max, ":player_party_tactics", ":ally_party_tactics"),
+     
+      (call_script, "script_party_count_fit_for_battle", "p_collective_enemy"),
+      (assign, ":enemy_count", reg(0)),
+	  (assign, reg2, ":enemy_count"),
+      
+      (party_get_skill_level, ":enemy_party_tactics",  "p_collective_enemy", skl_tactics),
+      
+      (val_add, ":friend_count", 1),
+      (val_add, ":enemy_count", 1),
+      
+      (try_begin),
+        (ge, ":friend_count", ":enemy_count"),
+        (val_mul, ":friend_count", 100),
+        (store_div, ":ratio", ":friend_count", ":enemy_count"),
+        (store_sub, ":raw_advantage", ":ratio", 100),
+      (else_try),
+        (val_mul, ":enemy_count", 100),
+        (store_div, ":ratio", ":enemy_count", ":friend_count"),
+        (store_sub, ":raw_advantage", 100, ":ratio"),
+      (try_end),
+      (val_mul, ":raw_advantage", 2),
+      
+      (val_mul, ":player_party_tactics", 30),
+      (val_mul, ":enemy_party_tactics", 30),
+      (val_add, ":raw_advantage", ":player_party_tactics"),
+      (val_sub, ":raw_advantage", ":enemy_party_tactics"),
+      (val_div, ":raw_advantage", 100),
+      
+      (assign, reg0, ":raw_advantage"),
+    ]),
+
   
 ]

@@ -1364,11 +1364,11 @@ game_menus = [
              (eq,"$character_gender",0),
              (troop_raise_attribute, "trp_player",ca_strength,1),
              (troop_raise_attribute, "trp_player",ca_charisma,1),
-		(troop_add_item, "trp_player","itm_playerclothes_male1",0),
-		(troop_add_item, "trp_player","itm_playerclothes_male_trousers1",0),
+		(troop_add_item, "trp_player","itm_clothes_adventurer_male1",0),
+		(troop_add_item, "trp_player","itm_clothes_adventurer_male_trousers1",0),
            (else_try),
-		(troop_add_item, "trp_player","itm_playerclothes_female1",0),
-		(troop_add_item, "trp_player","itm_playerclothes_female_trousers1",0),
+		(troop_add_item, "trp_player","itm_clothes_adventurer_female1",0),
+		(troop_add_item, "trp_player","itm_clothes_adventurer_female_trousers1",0),
              (troop_raise_attribute, "trp_player",ca_agility,1),
              (troop_raise_attribute, "trp_player",ca_intelligence,1),
            (try_end),
@@ -3431,7 +3431,7 @@ game_menus = [
   (
     "simple_encounter",mnf_enable_hot_keys|mnf_scale_picture,
     "{s2} You have {reg10} troops fit for battle against their {reg11}.",
-    "bg3",
+    "none",
     [      
         (assign, "$g_enemy_party", "$g_encountered_party"),
         (assign, "$g_ally_party", -1),
@@ -3627,12 +3627,29 @@ game_menus = [
         (try_end),
     ],
     [
+	  ("encounter_attack_deployment",
+      [
+        (eq, "$encountered_party_friendly", 0),
+        (neg|troop_is_wounded, "trp_player"),
+		
+		(call_script, "script_prebattle_calculate_battle_advantage_and_size"),
+		(assign, ":friend_count", reg1),
+		(assign, ":enemy_count", reg2),
+		(store_add, ":total_combatants", ":friend_count", ":enemy_count"),
+		(party_get_slot, ":battle_size", "p_main_party", slot_party_prebattle_battle_size),
+		(gt, ":total_combatants", ":battle_size"),
+      ],
+      "Change the troops deployment plan.",
+      [
+  		(assign, "$g_next_menu", "mnu_simple_encounter"),
+		(start_presentation, "prsnt_prebattle_custom_deployment"),
+      ]),
       ("encounter_attack",
       [
         (eq, "$encountered_party_friendly", 0),
         (neg|troop_is_wounded, "trp_player"),
       ],
-      "Charge the enemy.",
+      "Start the battle.",
       [
         (assign, "$g_battle_result", 0),
         (assign, "$g_engaged_enemy", 1),
@@ -4758,11 +4775,30 @@ game_menus = [
         (try_end),
       ],
     [
+	
+	  ("encounter_attack_deployment",
+      [
+        (eq, "$encountered_party_friendly", 0),
+        (neg|troop_is_wounded, "trp_player"),
+		
+		(call_script, "script_prebattle_calculate_battle_advantage_and_size"),
+		(assign, ":friend_count", reg1),
+		(assign, ":enemy_count", reg2),
+		(store_add, ":total_combatants", ":friend_count", ":enemy_count"),
+		(party_get_slot, ":battle_size", "p_main_party", slot_party_prebattle_battle_size),
+		(gt, ":total_combatants", ":battle_size"),
+      ],
+      "Change the troops deployment plan.",
+      [
+  		(assign, "$g_next_menu", "mnu_simple_encounter"),
+		(start_presentation, "prsnt_prebattle_custom_deployment"),
+      ]),
+	  
       ("join_attack",
       [
         (neg|troop_is_wounded, "trp_player"),
       ],
-      "Charge the enemy.",
+      "Start the battle.",
       [
         (assign, "$g_joined_battle_to_help", 1),
         (party_set_next_battle_simulation_time, "$g_encountered_party", -1),

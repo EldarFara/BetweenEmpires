@@ -10,6 +10,13 @@ from ID_factions import *
 
 spawable_prop_limit = 4000
 
+pbs_troop_type_line = 1
+pbs_troop_type_light = 2
+pbs_troop_type_guard = 3
+pbs_troop_type_cavmelee = 4
+pbs_troop_type_cavranged = 5
+pbs_troop_type_cavguard = 6
+
 pbs_state_generic = 0
 pbs_state_moving_to_position = 1
 pbs_state_holding_position = 2
@@ -28,6 +35,18 @@ shader_spring		= 0
 shader_summer		= 1
 shader_autumn		= 2
 shader_winter		= 3
+
+## Prebattle Deployment Begin
+max_battle_size = 1000
+slot_troop_prebattle_first_round      = 157 
+slot_troop_prebattle_array            = 158 
+slot_troop_prebattle_num_upgrade      = 159  
+slot_troop_prebattle_preupgrade_check = 160   
+slot_party_prebattle_customized_deployment = 73  
+slot_party_prebattle_battle_size           = 74 
+slot_party_prebattle_size_in_battle        = 75  
+slot_party_prebattle_in_battle_count       = 76 
+## Prebattle Deployment End
 
 ########################################################
 ##  ITEM SLOTS             #############################

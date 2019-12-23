@@ -1,5 +1,5 @@
 itemsfile version 3
-687
+702
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -2606,19 +2606,19 @@ itemsfile version 3
  0
 0
 
- itm_playerclothes_male_trousers1 Adventurer's_Trousers Adventurer's_Trousers 1  playerclothes_male_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_clothes_adventurer_male_trousers1 Adventurer's_Trousers Adventurer's_Trousers 1  clothes_adventurer_male_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
  0
 0
 
- itm_playerclothes_male1 Adventurer's_Clothes Adventurer's_Clothes 1  playerclothes_male1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_clothes_adventurer_male1 Adventurer's_Clothes Adventurer's_Clothes 1  clothes_adventurer_male1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
  0
 0
 
- itm_playerclothes_female_trousers1 Adventurer's_Skirt Adventurer's_Skirt 1  playerclothes_female_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_clothes_adventurer_female_trousers1 Adventurer's_Skirt Adventurer's_Skirt 1  clothes_adventurer_female_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
  0
 0
 
- itm_playerclothes_female1 Adventurer's_Clothes Adventurer's_Clothes 1  playerclothes_female1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_clothes_adventurer_female1 Adventurer's_Clothes Adventurer's_Clothes 1  clothes_adventurer_female1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
  0
 0
 
@@ -2782,6 +2782,66 @@ itemsfile version 3
 0
 
  itm_lou_infantry3 lou_infantry3 lou_infantry3 1  lou_infantry3 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_clothes_urban_male_trousers1 Trousers Trousers 1  clothes_urban_male_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_clothes_urban_male_trousers2 Trousers Trousers 1  clothes_urban_male_trousers2 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_clothes_urban_male_trousers3 Trousers Trousers 1  clothes_urban_male_trousers3 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_clothes_urban_male1 Three-piece_Suit Three-piece_Suit 1  clothes_urban_male1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_clothes_urban_male2 Three-piece_Suit Three-piece_Suit 1  clothes_urban_male2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_clothes_urban_male3 Three-piece_Suit Three-piece_Suit 1  clothes_urban_male3 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_lou_hat3 lou_hat3 lou_hat3 1  lou_hat3 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_civilian_hat1 Wide-brimmed_Hat Wide-brimmed_Hat 1  civilian_hat1 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_civilian_hat2 Wide-brimmed_Hat Wide-brimmed_Hat 1  civilian_hat2 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_civilian_hat3 Top_Hat Top_Hat 1  civilian_hat1 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_civilian_hat3b Top_Hat Top_Hat 1  civilian_hat3b 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_civilian_hat4 Bowler_Hat Bowler_Hat 1  civilian_hat4 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_civilian_hat4b Bowler_Hat Bowler_Hat 1  civilian_hat4b 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_civilian_hat4c Bowler_Hat Bowler_Hat 1  civilian_hat4c 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_civilian_hat4d Bowler_Hat Bowler_Hat 1  civilian_hat4d 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  0
 0
 
