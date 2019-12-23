@@ -90,7 +90,7 @@ parties = [
   ("town_13","Cairo",  icon_town3|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(47.75,213.85),[], 60),
   ("town_14","Alexandria",  icon_town3|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(87.44,182.40),[], 135),
 
-  ("town_15","Tunisia",  icon_town3|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(474.97,85.21),[], 45),
+  ("town_15","Tunis",  icon_town3|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(474.97,85.21),[], 45),
   ("town_16","Dublin",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(676.90,-279.64),[], 0),
   ("town_17","Edinburgh",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(610.55,-328.06),[], 90),
   ("town_18","London",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(581.53,-225.56),[], 135),
