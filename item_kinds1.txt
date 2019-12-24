@@ -1,5 +1,5 @@
 itemsfile version 3
-709
+710
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -2870,6 +2870,10 @@ itemsfile version 3
 0
 
  itm_lou_cavalry_trousers2 lou_cavalry_trousers2 lou_cavalry_trousers2 1  lou_cavalry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_lance2 Lance Lance 1  lance2 0  3359965188 4222124851987200 270 8202 2.500000 100 0 0 0 0 16384 90 0 190 0 291 528
  0
 0
 

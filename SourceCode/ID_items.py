@@ -706,4 +706,5 @@ itm_lou_hat4 = 704
 itm_lou_hat5 = 705
 itm_lou_cavalry_trousers1 = 706
 itm_lou_cavalry_trousers2 = 707
-itm_items_end = 708
+itm_lance2 = 708
+itm_items_end = 709

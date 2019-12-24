@@ -1435,6 +1435,9 @@ items = [
 ["lou_cavalry_trousers1","lou_cavalry_trousers1", [("lou_cavalry_trousers1", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
 ["lou_cavalry_trousers2","lou_cavalry_trousers2", [("lou_cavalry_trousers2", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
 
+["lance2","Lance", [("lance2",0)], itp_couchable|itp_type_polearm|itp_offset_lance|itp_merchandise| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(90) | weapon_length(190)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
+
+
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 
 ]
