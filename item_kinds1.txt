@@ -1,5 +1,5 @@
 itemsfile version 3
-702
+709
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -2842,6 +2842,34 @@ itemsfile version 3
 0
 
  itm_civilian_hat4d Bowler_Hat Bowler_Hat 1  civilian_hat4d 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_lou_infantry4 lou_infantry4 lou_infantry4 1  lou_infantry4 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_lou_cavalry1 lou_cavalry1 lou_cavalry1 1  lou_cavalry1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_lou_cavalry2 lou_cavalry2 lou_cavalry2 1  lou_cavalry2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_lou_hat4 lou_hat4 lou_hat4 1  lou_hat4 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_lou_hat5 lou_hat5 lou_hat5 1  lou_hat4 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_lou_cavalry_trousers1 lou_cavalry_trousers1 lou_cavalry_trousers1 1  lou_cavalry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_lou_cavalry_trousers2 lou_cavalry_trousers2 lou_cavalry_trousers2 1  lou_cavalry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
  0
 0
 
