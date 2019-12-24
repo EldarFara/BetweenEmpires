@@ -669,19 +669,19 @@ troops = [
   str_7|agi_5|int_4|cha_4|level(8), wp1(95, 50), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
   ["faction2_troop10", "Russian Uhlan (Exp.)", "Russian Uhlans (Exp.)", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [itm_ria_cavalry2, itm_ria_hat2, itm_ria_cavalry_trousers2, itm_lance1]+items_european_horses,
-  str_9|agi_5|int_4|cha_4|level(13), wp1(85, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  str_9|agi_5|int_4|cha_4|level(13), wp1(110, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
   ["faction2_troop11", "Russian Dragoon", "Russian Dragoons", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [itm_ria_cavalry1, itm_ria_hat2, itm_ria_cavalry_trousers1, itm_saber1, itm_rifle_russian_m1856_carbine, itm_ammo_rifle]+items_european_horses,
-  str_9|agi_5|int_4|cha_4|level(13), wp1(90, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  str_9|agi_5|int_4|cha_4|level(13), wp1(70, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
   ["faction2_troop12", "Russian Dragoon (Exp.)", "Russian Dragoons (Exp.)", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [itm_ria_cavalry1, itm_ria_hat2, itm_ria_cavalry_trousers1, itm_saber1, itm_rifle_russian_m1856_carbine, itm_ammo_rifle]+items_european_horses,
-  str_11|agi_5|int_4|cha_4|level(18), wp1(100, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  str_11|agi_5|int_4|cha_4|level(18), wp1(85, 80), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
   ["faction2_troop13", "Russian Cossack", "Russian Cossacks", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [itm_ria_cavalry3, itm_ria_hat5, itm_ria_cavalry_trousers3, itm_saber1, itm_rifle_russian_m1856_carbine, itm_ammo_rifle]+items_european_horses,
-  str_15|agi_5|int_4|cha_4|level(23), wp1(115, 65), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  str_15|agi_5|int_4|cha_4|level(23), wp1(115, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
   ["faction2_troop14", "Russian Cossack (Exp.)", "Russian Cossacks (Exp.)", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [itm_ria_cavalry3, itm_ria_hat5, itm_ria_cavalry_trousers3, itm_saber1, itm_rifle_russian_m1856_carbine, itm_ammo_rifle]+items_european_horses,
-  str_19|agi_5|int_4|cha_4|level(25), wp1(60, 50), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  str_19|agi_5|int_4|cha_4|level(25), wp1(130, 65), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
   ["faction2_prisonguard", "Russian Prison Guard", "Russian Prison Guards", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
   [itm_ria_infantry_trousers2, itm_ria_infantry1, itm_ria_infantry2, itm_ria_infantry3, itm_ria_hat1, itm_rifle_russian_m1856, itm_ammo_rifle],
   str_7|agi_7|int_4|cha_4|level(8), wp1(70, 40), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
@@ -713,17 +713,17 @@ troops = [
   [itm_lou_infantry_trousers1, itm_lou_infantry4, itm_lou_hat2, itm_rifle_russian_m1856, itm_ammo_rifle],
   str_15|agi_5|int_4|cha_4|level(22), wp1(140, 80), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
   ["faction3_troop9", "Austrian Uhlan", "Austrian Uhlans", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_3,
-  [itm_ria_cavalry2, itm_ria_hat2, itm_ria_cavalry_trousers2, itm_lance1]+items_european_horses,
-  str_7|agi_5|int_4|cha_4|level(8), wp1(95, 50), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  [itm_lou_cavalry2, itm_lou_hat5, itm_lou_cavalry_trousers2, itm_lance1]+items_european_horses,
+  str_7|agi_5|int_4|cha_4|level(8), wp1(100, 50), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
   ["faction3_troop10", "Austrian Uhlan (Exp.)", "Austrian Uhlans (Exp.)", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_3,
-  [itm_ria_cavalry2, itm_ria_hat2, itm_ria_cavalry_trousers2, itm_lance1]+items_european_horses,
-  str_9|agi_5|int_4|cha_4|level(13), wp1(85, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  [itm_lou_cavalry2, itm_lou_hat5, itm_lou_cavalry_trousers2, itm_lance1]+items_european_horses,
+  str_9|agi_5|int_4|cha_4|level(13), wp1(115, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
   ["faction3_troop11", "Austrian Dragoon", "Austrian Dragoons", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_3,
-  [itm_ria_cavalry1, itm_ria_hat2, itm_ria_cavalry_trousers1, itm_saber1, itm_rifle_russian_m1856_carbine, itm_ammo_rifle]+items_european_horses,
-  str_9|agi_5|int_4|cha_4|level(13), wp1(90, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  [itm_lou_cavalry1, itm_lou_hat4, itm_lou_cavalry_trousers1, itm_saber1, itm_rifle_russian_m1856_carbine, itm_ammo_rifle]+items_european_horses,
+  str_9|agi_5|int_4|cha_4|level(13), wp1(70, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
   ["faction3_troop12", "Austrian Dragoon (Exp.)", "Austrian Dragoons (Exp.)", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_3,
-  [itm_ria_cavalry1, itm_ria_hat2, itm_ria_cavalry_trousers1, itm_saber1, itm_rifle_russian_m1856_carbine, itm_ammo_rifle]+items_european_horses,
-  str_11|agi_5|int_4|cha_4|level(18), wp1(100, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
+  [itm_lou_cavalry1, itm_lou_hat4, itm_lou_cavalry_trousers1, itm_saber1, itm_rifle_russian_m1856_carbine, itm_ammo_rifle]+items_european_horses,
+  str_11|agi_5|int_4|cha_4|level(18), wp1(85, 80), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
   ["faction3_troop13", "Austrian Jaeger (Very Exp.)", "Austrian Jaegers (Very Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_3,
   [itm_lou_infantry_trousers2, itm_lou_infantry3, itm_lou_hat3, itm_rifle_russian_m1856, itm_ammo_rifle_double],
   str_5|agi_5|int_4|cha_4|level(16), wp1(65, 105), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000400000001124000000020000000000000001c00800000000000000000, 0x0000000bc00062c76ddcdf7feefbffff00000000001efdbc0000000000000000],
@@ -11228,9 +11228,8 @@ upgrade(troops,"faction2_troop5", "faction2_troop6")
 upgrade(troops,"faction2_troop4", "faction2_troop7")
 upgrade(troops,"faction2_troop7", "faction2_troop8")
 upgrade2(troops,"faction2_troop9", "faction2_troop10", "faction2_troop11")
-upgrade2(troops,"faction2_troop11", "faction2_troop12", "faction2_troop13")
-upgrade(troops,"faction2_troop10", "faction2_troop13")
-upgrade(troops,"faction2_troop13", "faction2_troop14")
+upgrade(troops,"faction2_troop11", "faction2_troop12")
+upgrade(troops,"faction2_troop6", "faction2_troop13")
 
 upgrade2(troops,"faction3_troop1", "faction3_troop2", "faction3_troop9")
 upgrade(troops,"faction3_troop3", "faction3_troop4")
