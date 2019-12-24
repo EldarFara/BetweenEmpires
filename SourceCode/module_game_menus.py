@@ -856,7 +856,7 @@ game_menus = [
     "custom_battle_end",mnf_disable_all_keys,
     "The battle is over. {s1} Your side killed {reg5} enemies and lost {reg6} troops over the battle. You personally slew {reg7} men in the fighting.",
     "bg3",
-    [(music_set_situation, 0),
+    [
      (assign, reg5, "$g_custom_battle_team2_death_count"),
      (assign, reg6, "$g_custom_battle_team1_death_count"),
      (get_player_agent_kill_count, ":kill_count"),
@@ -3482,6 +3482,7 @@ game_menus = [
             (try_begin),
               (encountered_party_is_attacker),
               (assign, "$cant_leave_encounter", 1),
+			(music_set_situation, mtf_situation_prebattle),
             (try_end),
           (try_end),
           (assign, "$talk_context", tc_party_encounter),
@@ -4075,6 +4076,12 @@ game_menus = [
        (eq, "$g_battle_result", 1),
        (eq, "$g_enemy_fit_for_battle", 0),
        (str_store_string, s11, "@You were victorious!"),
+		(try_begin),
+		#(ge, "$killed_agents_count", 80),
+		(music_set_situation, mtf_situation_victory_heavy),
+		#(else_try),
+		#(music_set_situation, mtf_situation_victory_light),
+		(try_end),
 #       (play_track, "track_bogus"), #clear current track.
 #       (call_script, "script_music_set_situation_with_culture", mtf_sit_victorious),
        (try_begin),
@@ -4101,6 +4108,7 @@ game_menus = [
      (else_try),
        (eq, "$g_battle_result", 1),
        (str_store_string, s11, "@You have defeated the enemy."),
+	  (music_set_situation, mtf_situation_victory_light),
        (try_begin),
          (gt, "$g_friend_fit_for_battle", 1),
          (set_background_mesh, "mesh_pic_victory"),
@@ -4529,7 +4537,6 @@ game_menus = [
     "{!}You shouldn't be reading this...",
     "bg3",
     [
-        (play_track, "track_captured", 1),
            # Free prisoners
           (party_get_num_prisoner_stacks, ":num_prisoner_stacks","p_main_party"),
           (try_for_range, ":stack_no", 0, ":num_prisoner_stacks"),
@@ -4719,6 +4726,7 @@ game_menus = [
     "You are helping the {s2} against the {s1}. You have {reg10} troops fit for battle against the enemy's {reg11}.",
     "bg3",
     [                
+(music_set_situation, mtf_situation_prebattle),
         (str_store_party_name, 1,"$g_enemy_party"),
         (str_store_party_name, 2,"$g_ally_party"),
 
@@ -6833,6 +6841,7 @@ game_menus = [
     "{s1} is launching an assault against the walls of {s2}. You have {reg10} troops fit for battle against the enemy's {reg11}. You decide to...",
     "bg3",
     [
+(music_set_situation, mtf_situation_prebattle),
         (select_enemy,1),
         (assign, "$g_enemy_party", "$g_encountered_party_2"),
         (assign, "$g_ally_party", "$g_encountered_party"),
@@ -7197,7 +7206,6 @@ game_menus = [
           (str_store_string, s6, "@ The village has been looted. A handful of souls scatter as you pass through the burnt out houses."),
           (try_begin),
             (neq, "$g_player_raid_complete", 1),
-            (play_track, "track_empty_village", 1),
           (try_end),
           (set_background_mesh, "mesh_pic_looted_village"),
         (else_try),
@@ -8508,7 +8516,8 @@ game_menus = [
            (try_end),
         ], "Door to the castle."),
 		
-      ("join_tournament", [(neg|is_currently_night),(party_slot_ge, "$current_town", slot_town_has_tournament, 1),]
+      ("join_tournament", [(eq, 1, 2), #parabellum cut
+	  (neg|is_currently_night),(party_slot_ge, "$current_town", slot_town_has_tournament, 1),]
        ,"Join the tournament.",
        [
            (call_script, "script_fill_tournament_participants_troop", "$current_town", 1),
@@ -8557,6 +8566,7 @@ game_menus = [
 			(else_try),
 			  (assign, "$town_entered", 1),              
               (call_script, "script_enter_court", "$current_town"),
+			 (music_set_situation, mtf_situation_lordhall),
            (try_end),
         ], "Door to the castle."),
       
@@ -9016,7 +9026,8 @@ game_menus = [
         ],"Door to the shop."),       
                 
       ("town_arena",
-       [(party_slot_eq,"$current_town",slot_party_type, spt_town),
+       [(eq, 1, 2), #parabellum cut
+	   (party_slot_eq,"$current_town",slot_party_type, spt_town),
         (eq, "$sneaked_into_town", 0),
 #           (party_get_slot, ":scene", "$current_town", slot_town_arena),
 #           (scene_slot_eq,  ":scene", slot_scene_visited, 1), #check if scene has been visited before to allow entry from menu. Otherwise scene will only be accessible from the town center.
@@ -10405,7 +10416,6 @@ game_menus = [
          (set_jump_entry, 11),
          (jump_to_scene, ":village_scene"),
          (jump_to_menu, "mnu_train_peasants_against_bandits_training_result"),
-         (music_set_situation, 0),
          (change_screen_mission),
          ]),
       ]
@@ -11327,7 +11337,6 @@ game_menus = [
          (set_jump_entry, 5),
          (jump_to_scene, "$g_training_ground_melee_training_scene"),
          (change_screen_mission),
-         (music_set_situation, 0),
          ]),
       ("camp_train_melee",
        [
@@ -11338,12 +11347,10 @@ game_menus = [
        [
          (assign, "$g_mt_mode", ctm_melee),
          (jump_to_menu, "mnu_training_ground_selection_details_melee_1"),
-         (music_set_situation, 0),
          ]),
       ("camp_train_archery",[], "Ranged weapon practice.",
        [
          (jump_to_menu, "mnu_training_ground_selection_details_ranged_1"),
-         (music_set_situation, 0),
          ]),
       ("camp_train_mounted",[], "Horseback practice.",
        [
@@ -11903,7 +11910,6 @@ game_menus = [
     "After painful days of being dragged about as a prisoner, you find a chance and escape from your captors!",
     "bg3",
     [
-        (play_cue_track, "track_escape"),
         (troop_get_type, ":is_female", "trp_player"),
         (try_begin),
           (eq, ":is_female", 1),
@@ -12018,7 +12024,6 @@ game_menus = [
     "After days of imprisonment, you are finally set free when your captors exchange you with another prisoner.",
     "bg3",
     [
-      (play_cue_track, "track_escape"),
       ],
     [
       ("continue",[],"Continue...",
@@ -12052,7 +12057,6 @@ game_menus = [
         (ge, ":player_gold","$player_ransom_amount")
       ],"Accept the offer.",
       [
-        (play_cue_track, "track_escape"),
         (assign, "$g_player_is_captive", 0),
         (troop_remove_gold, "trp_player", "$player_ransom_amount"), 
         (try_begin),
@@ -12575,7 +12579,6 @@ game_menus = [
       (set_game_menu_tableau_mesh, "tableau_faction_note_mesh_banner", "fac_player_supporters_faction", pos0),
       
       (unlock_achievement, ACHIEVEMENT_CALRADIAN_TEA_PARTY),
-      (play_track, "track_coronation"),
 	  
 	  (try_for_range, ":walled_center", walled_centers_begin, walled_centers_end),
 	    (lt, "$g_player_court", walled_centers_begin),

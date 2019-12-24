@@ -5,6 +5,8 @@ from header_items import *
 from header_skills import *
 from header_triggers import *
 from header_troops import *
+from header_music import *
+from header_terrain_types import *
 
 from module_constants import *
 
@@ -1523,6 +1525,45 @@ triggers = [
    ),
 
 
+  (0.0, 0, 0.0, [],
+  [
+   (assign, ":music_situation", mtf_culture_westeurope),
+			
+			(try_for_range, ":center_no", centers_begin, centers_end),
+			(store_faction_of_party, ":faction", ":center_no"),
+				(try_begin),
+				(eq, ":faction", "fac_kingdom_2"),
+				(store_distance_to_party_from_party, ":party_distance", "p_main_party", ":center_no"),
+				(lt, ":party_distance", 30),
+				(assign, ":music_situation", mtf_culture_easteurope),
+				(try_end),
+				(try_begin),
+				(this_or_next|eq, ":faction", "fac_kingdom_6"),
+				(this_or_next|eq, ":faction", "fac_kingdom_14"),
+				(this_or_next|eq, ":faction", "fac_kingdom_12"),
+				(this_or_next|eq, ":faction", "fac_kingdom_15"),
+				(this_or_next|eq, ":faction", "fac_kingdom_17"),
+				(this_or_next|eq, ":faction", "fac_kingdom_21"),
+				(this_or_next|eq, ":faction", "fac_kingdom_22"),
+				(this_or_next|eq, ":faction", "fac_kingdom_23"),
+				(this_or_next|eq, ":faction", "fac_kingdom_32"),
+				(this_or_next|eq, ":faction", "fac_kingdom_33"),
+				(eq, ":faction", "fac_kingdom_10"),
+				(store_distance_to_party_from_party, ":party_distance", "p_main_party", ":center_no"),
+				(lt, ":party_distance", 15),
+				(assign, ":music_situation", mtf_culture_middleeast),
+				(try_end),
+			(try_end),
+			
+			(try_begin),
+			(party_get_current_terrain, ":terrain_type", "p_main_party"),
+			(this_or_next|eq, ":terrain_type", rt_desert),
+			(eq, ":terrain_type", rt_desert_forest),
+			(assign, ":music_situation", mtf_culture_desert),
+			(try_end),
+	(music_set_culture, ":music_situation"),
+	(music_set_situation, mtf_situation_global_map),
+                     ]),
 
 
 

@@ -30,7 +30,9 @@ scripts = [
   # INPUT: none
   ("game_start",
    [
-   
+(music_set_situation, mtf_situation_game_start),
+(music_set_culture, mtf_culture_westeurope),
+
 (store_current_hours, ":hours"),
 (call_script, "script_game_get_date_text", 0, ":hours"),
 (assign, "$player_faction_preset", -1),
@@ -39983,8 +39985,8 @@ scripts = [
           (assign, ":situation", mtf_sit_night),
         (try_end),
       (try_end),
-      (music_set_situation, ":situation"),
-      (music_set_culture, ":culture"),
+      #(music_set_situation, ":situation"),
+     # (music_set_culture, ":culture"),
      ]),
 
   

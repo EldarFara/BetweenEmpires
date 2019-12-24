@@ -1427,6 +1427,8 @@ items = [
 ["civilian_hat4c","Bowler Hat", [("civilian_hat4c", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, []],
 ["civilian_hat4d","Bowler Hat", [("civilian_hat4d", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, []],
 
+["lou_infantry4","lou_infantry4", [("lou_infantry4", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 

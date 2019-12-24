@@ -8,6 +8,7 @@ from header_skills import *
 from header_triggers import *
 from ID_troops import *
 from ID_party_templates import *
+from header_music import *
 
 from module_constants import *
 
@@ -12703,6 +12704,7 @@ dialogs = [
   [anyone,"party_encounter_lord_hostile_ultimatum_surrender", [],
    "{s43}", "close_window", [
        (call_script, "script_lord_comment_to_s43", "$g_talk_troop", "str_lord_challenged_default"),
+(music_set_situation, mtf_situation_prebattle),
 
        (call_script, "script_make_kingdom_hostile_to_player", "$g_encountered_party_faction", -3),
 	   
@@ -12742,6 +12744,7 @@ dialogs = [
   [anyone|plyr,"lord_attack_verify", [], "Forgive me sir. I don't know what I was thinking.", "lord_attack_verify_cancel",[]],
   [anyone,"lord_attack_verify_cancel", [], "Be gone, then.", "close_window",[(call_script, "script_change_player_relation_with_troop", "$g_talk_troop", -1),(assign, "$g_leave_encounter",1)]],
   [anyone|plyr,"lord_attack_verify", [], "That is none of your business. Prepare to fight!", "lord_attack_verify_commit",[
+(music_set_situation, mtf_situation_prebattle),
   ]],
 
   #The kingdoms are already at war

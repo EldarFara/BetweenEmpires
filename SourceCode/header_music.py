@@ -42,4 +42,18 @@ mtf_sit_victorious                     = 0x00800000
 mtf_sit_feast                          = 0x01000000
 mtf_module_track                       = 0x10000000 ##set this flag for tracks placed under module folder
 
+mtf_situation_global_map = mtf_sit_tavern
+mtf_situation_battle = mtf_sit_ambushed
+mtf_situation_defeat = mtf_sit_town
+mtf_situation_victory_light = mtf_sit_town_infiltrate
+mtf_situation_victory_heavy = mtf_sit_siege
+mtf_situation_lordhall = mtf_sit_killed
+mtf_situation_silence = mtf_sit_travel
+mtf_situation_prebattle = mtf_sit_arena
+mtf_situation_siege_assault = mtf_sit_night
+mtf_situation_game_start = mtf_sit_fight
 
+mtf_culture_westeurope = mtf_culture_1
+mtf_culture_easteurope = mtf_culture_2
+mtf_culture_desert = mtf_culture_3
+mtf_culture_middleeast = mtf_culture_4

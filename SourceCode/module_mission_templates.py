@@ -321,6 +321,7 @@ pbs_order_player = (ti_on_order_issued, 0, 0, [],
 battle_start = (
   0, 0, ti_once, [],
 [
+(music_set_situation, mtf_situation_battle),
 (assign, "$strategic_view_state", 0),
 (init_position, pos1),
 (set_spawn_position, pos1),
@@ -3666,12 +3667,6 @@ mission_templates = [
          (display_message,"str_msg_battle_won"),
          (assign,"$g_battle_won",1),
          (assign, "$g_battle_result", 1),
-         (try_begin),
-           (eq, "$g_village_raid_evil", 0),
-           (call_script, "script_play_victorious_sound"),
-         (else_try),
-           (play_track, "track_victorious_evil", 1),
-         (try_end),
          ],
        [
          (call_script, "script_count_mission_casualties_from_agents"),
@@ -5583,7 +5578,6 @@ mission_templates = [
       (ti_after_mission_start, 0, 0, [],
        [
         (assign, "$g_wedding_state", 0),
-        (play_track, "track_wedding", 2),
         (show_object_details_overlay, 0),
          ]),
 
