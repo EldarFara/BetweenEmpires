@@ -1,7 +1,9 @@
-46
+48
 cant_find_this.ogg 0 0
 main_menu.ogg 4194432 4194944
 game_start1.ogg 1152 1664
+battle_generic01.ogg 4096 4096
+victory_heavy01.ogg 262144 262656
 globalmap_generic01.ogg 523 527
 globalmap_generic01b.ogg 523 527
 globalmap_generic02.ogg 523 527
