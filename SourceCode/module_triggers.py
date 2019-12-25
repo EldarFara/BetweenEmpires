@@ -1561,8 +1561,6 @@ triggers = [
 		(try_end),
 	(try_end),
 	
-(assign, reg1, ":music_situation"),
-(display_message, "@{reg1}"),
 (music_set_culture, ":music_situation"),
 (music_set_situation, mtf_situation_global_map),
 ]),

@@ -7,8 +7,6 @@ from header_music import *
 #  4) Continue Track flags: Shows in which situations or cultures the track can continue playing. See header_music.py for a list of available flags
 ####################################################################################################################
 
-# WARNING: You MUST add mtf_module_track flag to the flags of the tracks located under module directory
-
 tracks = [
 ("bogus", "cant_find_this.ogg", 0, 0),
 

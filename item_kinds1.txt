@@ -2861,7 +2861,7 @@ itemsfile version 3
  0
 0
 
- itm_lou_hat5 lou_hat5 lou_hat5 1  lou_hat4 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_lou_hat5 lou_hat5 lou_hat5 1  lou_hat5 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  0
 0
 

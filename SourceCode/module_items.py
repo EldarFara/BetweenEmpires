@@ -1393,7 +1393,7 @@ items = [
 ["rifle_russian_m1856_carbine","Russian M1856 Carbine", [("russian_m1856_carbine", 0),("russian_m1856_carbine_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.8)|abundance(100)|accuracy(int(accuracy_muzzleloaded_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_rifle)|max_ammo(1)|thrust_damage(damage_rifle, pierce), imodbits_firearm, []],
 ["rifle_russian_m1856_carbine_m","Russian M1856 Carbine", [("russian_m1856_carbine", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.8)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(30, blunt)|swing_damage(0, blunt), imodbits_none, []],
 
-["lance1","Lance", [("lance1",0)], itp_couchable|itp_type_polearm|itp_offset_lance|itp_merchandise| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(90) | weapon_length(190)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
+["lance1","Lance", [("lance1",0)], itp_couchable|itp_type_polearm|itp_offset_lance|itp_merchandise| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
 
 ["sidearm_colt_dragoon","Colt Dragoon", [("colt_dragoon", 0),("pistol_holster1", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,400, weight(1.9)|abundance(100)|accuracy(accuracy_heavy_pistol)|spd_rtng(35)|shoot_speed(320)|max_ammo(6)|thrust_damage(55, pierce), imodbits_firearm, []],
 ["sidearm_remington1","Remington Model 1858", [("remington1", 0),("pistol_holster1", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,400, weight(1)|abundance(100)|accuracy(accuracy_medium_pistol)|spd_rtng(50)|shoot_speed(198)|max_ammo(6)|thrust_damage(45, pierce), imodbits_firearm, []],
@@ -1431,11 +1431,11 @@ items = [
 ["lou_cavalry1","lou_cavalry1", [("lou_cavalry1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
 ["lou_cavalry2","lou_cavalry2", [("lou_cavalry2", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
 ["lou_hat4","lou_hat4", [("lou_hat4", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, []],
-["lou_hat5","lou_hat5", [("lou_hat4", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, []],
+["lou_hat5","lou_hat5", [("lou_hat5", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, []],
 ["lou_cavalry_trousers1","lou_cavalry_trousers1", [("lou_cavalry_trousers1", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
 ["lou_cavalry_trousers2","lou_cavalry_trousers2", [("lou_cavalry_trousers2", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
 
-["lance2","Lance", [("lance2",0)], itp_couchable|itp_type_polearm|itp_offset_lance|itp_merchandise| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(90) | weapon_length(190)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
+["lance2","Lance", [("lance2",0)], itp_couchable|itp_type_polearm|itp_offset_lance|itp_merchandise| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
 
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
