@@ -381,7 +381,7 @@
  reload_crossbow 0 35651644  1
   7.000000 reload_rifle1 0 340 67108873 0 0.0 0.0 0.0 0.0 
  reload_crossbow_horseback 0 35651644  1
-  9.000000 reload_rifle1 0 340 67108873 0 0.0 0.0 0.0 0.0 
+  10.000000 reload_rifle1 0 340 67108873 0 0.0 0.0 0.0 0.0 
  ready_javelin 1048576 606085130  1
   0.600000 throw_javelin2 0 30 7 0 0.0 0.0 0.0 0.0 
  release_javelin 1048576 572530703  1
@@ -984,11 +984,11 @@
  crouch_release_pistol 1679818752 572538890  1
   0.500000 crouch_fire_pistol 12 21 2 0 0.0 0.0 0.0 0.0 
  reload_musket_full 0 35651644  1
-  2.500000 man_reload 0 340 67108868 0 0.0 0.0 0.0 0.0 
+  7.000000 reload_rifle1 0 340 67108873 0 0.0 0.0 0.0 0.0 
  reload_musket_two_third 0 35651644  1
-  1.700000 man_reload 110 340 67108868 0 0.0 0.0 0.0 0.0 
+  5.000000 reload_rifle1 160 340 67108873 0 0.0 0.0 0.0 0.0 
  reload_musket_one_third 0 35651644  1
-  0.600000 man_reload 270 340 67108868 0 0.0 0.0 0.0 0.0 
+  3.000000 reload_rifle1 240 340 67108873 0 0.0 0.0 0.0 0.0 
  crouch_pike 0 16777216  1
   3.300000 crouch_staff_cstance_attack 0 100 1342177280 0 0.000000 0.000000 0.000000  0.000000 
  crouch_pike_recover 0 35651599  1
