@@ -12,7 +12,7 @@ pfx_sunset_dark = 10
 pfx_evening_clear = 11
 pfx_evening_cloudy = 12
 pfx_dusk_clear = 13
-pfx_dusk_clear = 14
+pfx_dusk_cloudy = 14
 pfx_high_contrast = 15
 
 

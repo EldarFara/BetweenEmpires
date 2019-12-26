@@ -268,6 +268,19 @@ pbs_agents_moving_speed = (0.5, 0, 0, [
 ],
 [])
 
+bot_animation = (0, 0, 0,[
+	(try_for_agents, ":agent"),
+	(agent_is_human, ":agent"),
+	(agent_is_non_player, ":agent"),
+	(agent_get_troop_id, ":troop", ":agent"),
+	(eq, ":troop", "trp_faction3_troop5"),
+	(agent_get_animation, ":anim", ":agent", 0),
+	(eq, ":anim", "anim_stand_crossbow"),
+	(agent_set_animation, ":agent", "anim_unused_human_anim_44", 0),
+	(agent_set_animation, ":agent", "anim_unused_human_anim_44", 1),
+	(try_end),
+], [])
+
 bot_crouching = (0, 0, 0,[
 	(try_for_agents, ":agent"),
 	(agent_is_human, ":agent"),
@@ -1153,6 +1166,7 @@ pbs_agent_spawn,
 pbs_teleport_to_scripted_destination,
 pbs_cancel_running_away,
 bot_crouching,
+bot_animation,
 pbs_agents_moving_speed,
 prebattle_deployment_ams,
 prebattle_deployment_bms,

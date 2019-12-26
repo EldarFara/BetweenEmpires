@@ -39,10 +39,10 @@ sf_HDR        = 0x20000000  # this will generate HDR-shaded skyboxes, you should
 
 #0-23 - sf_clouds_0, 24-64 - sf_clouds_1, 61-100 - sf_clouds_2, rain - sf_clouds_3
 
-sun_color_clear = (3.9/1.15, 3.5/1.15, 1.8/1.15)
-sun_color_cloudy = (2.7/1.15, 2.4/1.15, 1.6/1.15)
-sun_color_clear_evening = (3.9/2, 3.5/2, 1.8/2)
-sun_color_cloudy_evening = (3.9/2.3, 3.5/2.3, 1.8/2.3)
+sun_color_clear = (3.8/1.15, 3.7/1.15, 3.1/1.15)
+sun_color_cloudy = (3.8/1.25, 3.8/1.25, 3.8/1.25)
+sun_color_clear_evening = (3.8/2, 3.7/2, 3.1/2)
+sun_color_cloudy_evening = (3.8/2.3, 3.7/2.3, 3.1/2.3)
 sun_color_clear_dusk = (0.5/4.3, 0.75/4.3, 0.98/1.4)
 sun_color_cloudy_dusk = (0.5/5, 0.75/5, 0.98/1.8)
 sun_color_night = (0, 0.16, 0.55)
