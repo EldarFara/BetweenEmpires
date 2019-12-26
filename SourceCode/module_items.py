@@ -1438,9 +1438,15 @@ items = [
 ["lance2","Lance", [("lance2",0)], itp_couchable|itp_type_polearm|itp_offset_lance|itp_merchandise| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
 
 ["gho_hat1","gho_hat1", [("gho_hat1", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, []],
-["gho_infantry1","gho_infantry1", [("gho_infantry1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
-["gho_infantry_trousers1","gho_infantry_trousers1", [("gho_infantry_trousers1", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
 ["gho_hat2","gho_hat2", [("gho_hat2", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, []],
+["gho_infantry1","gho_infantry1", [("gho_infantry1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["gho_infantry2","gho_infantry2", [("gho_infantry2", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["gho_infantry3","gho_infantry3", [("gho_infantry3", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["gho_infantry4","gho_infantry4", [("gho_infantry4", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["gho_infantry5","gho_infantry5", [("gho_infantry5", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["gho_infantry_trousers1","gho_infantry_trousers1", [("gho_infantry_trousers1", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
+["gho_infantry_trousers2","gho_infantry_trousers2", [("gho_infantry_trousers2", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
+["gho_infantry_trousers3","gho_infantry_trousers3", [("gho_infantry_trousers3", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
 
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],

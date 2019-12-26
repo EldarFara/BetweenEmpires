@@ -1,5 +1,5 @@
 itemsfile version 3
-714
+720
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -2881,7 +2881,27 @@ itemsfile version 3
  0
 0
 
+ itm_gho_hat2 gho_hat2 gho_hat2 1  gho_hat2 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
  itm_gho_infantry1 gho_infantry1 gho_infantry1 1  gho_infantry1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_gho_infantry2 gho_infantry2 gho_infantry2 1  gho_infantry2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_gho_infantry3 gho_infantry3 gho_infantry3 1  gho_infantry3 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_gho_infantry4 gho_infantry4 gho_infantry4 1  gho_infantry4 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_gho_infantry5 gho_infantry5 gho_infantry5 1  gho_infantry5 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
  0
 0
 
@@ -2889,7 +2909,11 @@ itemsfile version 3
  0
 0
 
- itm_gho_hat2 gho_hat2 gho_hat2 1  gho_hat2 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_gho_infantry_trousers2 gho_infantry_trousers2 gho_infantry_trousers2 1  gho_infantry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_gho_infantry_trousers3 gho_infantry_trousers3 gho_infantry_trousers3 1  gho_infantry_trousers3 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
  0
 0
 
