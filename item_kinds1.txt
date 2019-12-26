@@ -1,5 +1,5 @@
 itemsfile version 3
-720
+723
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -2905,6 +2905,10 @@ itemsfile version 3
  0
 0
 
+ itm_gho_cavalry1 gho_cavalry1 gho_cavalry1 1  gho_cavalry1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
  itm_gho_infantry_trousers1 gho_infantry_trousers1 gho_infantry_trousers1 1  gho_infantry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
  0
 0
@@ -2914,6 +2918,14 @@ itemsfile version 3
 0
 
  itm_gho_infantry_trousers3 gho_infantry_trousers3 gho_infantry_trousers3 1  gho_infantry_trousers3 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_gho_cavalry_trousers1 gho_cavalry_trousers1 gho_cavalry_trousers1 1  gho_cavalry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_lance3 Lance Lance 1  lance3 0  3359965188 4222124851987200 270 8202 2.500000 100 0 0 0 0 16384 100 0 210 0 291 528
  0
 0
 
