@@ -135,7 +135,8 @@ skins = [
     "male_head_new", man_face_keys,
     ["man_hair1","man_hair2","man_hair3","man_hair4", "man_hair5", "man_hair6","man_hair7","man_hair8"],
    # ["beard_e","beard_d","beard_k","beard_l","beard_i","beard_j","beard_z","beard_m","beard_n","beard_y","beard_p","beard_o",   "beard_v", "beard_f", "beard_b", "beard_c","beard_t","beard_u","beard_r","beard_s","beard_a","beard_h","beard_g",], #beard meshes ,"beard_q"
-    ["beard_y", "beard_s2", "beard_s1", "beard_q1", "beard_q", "beard_o1", "beard_n1", "beard_n2", "beard_k1", "beard_d1", "beard_b1", "beard_e", "beard_d", "beard_k", "beard_l", "beard_i", "beard_j", "beard_z", "beard_m", "beard_n", "beard_y", "beard_p", "beard_o", "beard_v", "beard_f", "beard_b", "beard_c", "beard_t", "beard_u", "beard_r", "beard_s", "beard_a", "beard_h", "beard_g"],
+   ["beard_d", "beard_k1", "beard_n", "beard_r", "beard_t", "beard_u", "beard_z", "beard_y", "beard_s2", "beard_s1", "beard_q1", "beard_q", "beard_o1", "beard_n1", "beard_n2", "beard_d1", "beard_b1", "beard_e", "beard_k", "beard_l", "beard_i", "beard_j", "beard_z", "beard_m", "beard_n", "beard_y", "beard_p", "beard_o", "beard_v", "beard_f", "beard_b", "beard_c", "beard_s", "beard_a", "beard_h", "beard_g"],
+   #["beard_y", "beard_s2", "beard_s1", "beard_q1", "beard_q", "beard_o1", "beard_n1", "beard_n2", "beard_k1", "beard_d1", "beard_b1", "beard_e", "beard_d", "beard_k", "beard_l", "beard_i", "beard_j", "beard_z", "beard_m", "beard_n", "beard_y", "beard_p", "beard_o", "beard_v", "beard_f", "beard_b", "beard_c", "beard_t", "beard_u", "beard_r", "beard_s", "beard_a", "beard_h", "beard_g"],
     ["hair_blonde", "hair_red", "hair_brunette", "hair_black", "hair_white"], #hair textures
     ["beard_blonde","beard_red","beard_brunette","beard_black","beard_white"], #beard_materials
     [("face_male1",0xffdceded,["hair_blonde"],[0xff2f180e, 0xff171313, 0xff007080c]),

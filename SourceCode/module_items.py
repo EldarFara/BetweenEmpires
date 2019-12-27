@@ -24,6 +24,9 @@ from header_triggers import *
 #  10) [Optional] Factions: List of factions that item can be found as merchandise.
 ####################################################################################################################
 
+default_horse_maneuver = 45
+default_horse_speed = 45
+
 accuracy_small_caliber_rifle = 90
 accuracy_conversion_rifle = 85
 accuracy_muzzleloaded_rifle = 85
@@ -277,10 +280,10 @@ items = [
 # Horses: sumpter horse/ pack horse, saddle horse, steppe horse, warm blood, geldling, stallion,   war mount, charger, 
 # Carthorse, hunter, heavy hunter, hackney, palfrey, courser, destrier.
  ["sumpter_horse","Sumpter Horse", [("sumpter_horse",0)], itp_type_horse, 0, 134,abundance(90)|hit_points(100)|body_armor(14)|difficulty(1)|horse_speed(37)|horse_maneuver(39)|horse_charge(9)|horse_scale(100),imodbits_horse_basic],
- ["saddle_horse","Saddle Horse", [("saddle_horse",0),("horse_c",imodbits_horse_good)], itp_type_horse, 0, 240,abundance(90)|hit_points(100)|body_armor(8)|difficulty(1)|horse_speed(45)|horse_maneuver(44)|horse_charge(10)|horse_scale(104),imodbits_horse_basic],
+ ["saddle_horse","Saddle Horse", [("saddle_horse",0),("horse_c",imodbits_horse_good)], itp_type_horse, 0, 240,abundance(90)|hit_points(100)|body_armor(1)|difficulty(1)|horse_speed(45)|horse_maneuver(44)|horse_charge(10)|horse_scale(104),imodbits_horse_basic],
  ["steppe_horse","Steppe Horse", [("steppe_horse",0)], itp_type_horse, 0, 192,abundance(80)|hit_points(120)|body_armor(10)|difficulty(2)|horse_speed(40)|horse_maneuver(51)|horse_charge(8)|horse_scale(98),imodbits_horse_basic, [], [fac_kingdom_2, fac_kingdom_3]],
- ["arabian_horse_a","Desert Horse", [("arabian_horse_a",0)], itp_type_horse, 0, 550,abundance(80)|hit_points(110)|body_armor(10)|difficulty(2)|horse_speed(42)|horse_maneuver(50)|horse_charge(12)|horse_scale(100),imodbits_horse_basic|imodbit_champion, [], [fac_kingdom_3, fac_kingdom_6]],
- ["courser","Courser", [("courser",0)], itp_type_horse, 0, 600,abundance(70)|body_armor(12)|hit_points(110)|difficulty(2)|horse_speed(50)|horse_maneuver(44)|horse_charge(12)|horse_scale(106),imodbits_horse_basic|imodbit_champion],
+ ["arabian_horse_a","Desert Horse", [("arabian_horse_a",0)], itp_type_horse, 0, 550,abundance(80)|hit_points(110)|body_armor(10)|difficulty(2)|horse_speed(42)|horse_speed(int(default_horse_maneuver*1.00))|horse_charge(12)|horse_scale(100),imodbits_horse_basic|imodbit_champion, [], [fac_kingdom_3, fac_kingdom_6]],
+ ["courser","Courser", [("courser",0)], itp_type_horse, 0, 600,abundance(70)|body_armor(12)|hit_points(110)|difficulty(2)|horse_speed(int(default_horse_speed*1.00))|horse_maneuver(44)|horse_charge(12)|horse_scale(106),imodbits_horse_basic|imodbit_champion],
  ["arabian_horse_b","Sarranid Horse", [("arabian_horse_b",0)], itp_type_horse, 0, 700,abundance(80)|hit_points(120)|body_armor(10)|difficulty(3)|horse_speed(43)|horse_maneuver(54)|horse_charge(16)|horse_scale(100),imodbits_horse_basic|imodbit_champion, [], [fac_kingdom_6]],
  ["hunter","Hunter", [("hunting_horse",0),("hunting_horse",imodbits_horse_good)], itp_type_horse, 0, 810,abundance(60)|hit_points(160)|body_armor(18)|difficulty(3)|horse_speed(43)|horse_maneuver(44)|horse_charge(24)|horse_scale(108),imodbits_horse_basic|imodbit_champion],
  ["warhorse","War Horse", [("warhorse_chain",0)], itp_type_horse, 0, 1224,abundance(50)|hit_points(165)|body_armor(40)|difficulty(4)|horse_speed(40)|horse_maneuver(41)|horse_charge(28)|horse_scale(110),imodbits_horse_basic|imodbit_champion],
@@ -415,7 +418,7 @@ items = [
 ["blue_dress", "Blue Dress", [("blue_dress_new",0)],  itp_type_body_armor  |itp_covers_legs|itp_civilian ,0, 6 , weight(1)|abundance(100)|head_armor(0)|body_armor(6)|leg_armor(2)|difficulty(0) ,imodbits_cloth ],
 ["peasant_dress", "Peasant Dress", [("peasant_dress_b_new",0)],  itp_type_body_armor  |itp_covers_legs|itp_civilian ,0, 6 , weight(1)|abundance(100)|head_armor(0)|body_armor(6)|leg_armor(2)|difficulty(0) ,imodbits_cloth ], 
 ["woolen_dress", "Woolen Dress", [("woolen_dress",0)],  itp_type_body_armor|itp_civilian  |itp_covers_legs ,0,
- 10 , weight(1.75)|abundance(100)|head_armor(0)|body_armor(8)|leg_armor(2)|difficulty(0) ,imodbits_cloth ],
+ 10 , weight(1.75)|abundance(100)|head_armor(0)|body_armor(1)|leg_armor(2)|difficulty(0) ,imodbits_cloth ],
 ["shirt", "Shirt", [("shirt",0)],  itp_type_body_armor  |itp_covers_legs|itp_civilian ,0,
  3 , weight(1)|abundance(100)|head_armor(0)|body_armor(5)|leg_armor(0)|difficulty(0) ,imodbits_cloth ],
  #NEW: was "linen_tunic"
@@ -435,7 +438,7 @@ items = [
  ["blue_tunic", "Blue Tunic", [("arena_tunicB_new",0)],  itp_type_body_armor |itp_civilian |itp_covers_legs ,0,
  10 , weight(1)|abundance(100)|head_armor(0)|body_armor(7)|leg_armor(1)|difficulty(0) ,imodbits_cloth ],
 ["robe", "Robe", [("robe",0)],  itp_type_body_armor  |itp_covers_legs |itp_civilian,0,
- 31 , weight(1.5)|abundance(100)|head_armor(0)|body_armor(8)|leg_armor(6)|difficulty(0) ,imodbits_cloth ],
+ 31 , weight(1.5)|abundance(100)|head_armor(0)|body_armor(1)|leg_armor(6)|difficulty(0) ,imodbits_cloth ],
 #NEW: was coarse_tunic
 ["coarse_tunic", "Tunic with vest", [("coarse_tunic_a",0)],  itp_type_body_armor |itp_civilian |itp_covers_legs ,0,
  47 , weight(2)|abundance(100)|head_armor(0)|body_armor(11)|leg_armor(6)|difficulty(0) ,imodbits_cloth ],
@@ -1022,7 +1025,7 @@ items = [
 #["nomad_shield", "Nomad Shield", [("shield_wood_b",0)], itp_type_shield|itp_wooden_parry, itcf_carry_round_shield,  12 , weight(2)|hit_points(260)|body_armor(6)|spd_rtng(110)|shield_width(30),imodbits_shield ],
 
 ["plate_covered_round_shield", "Plate Covered Round Shield", [("shield_round_e",0)], itp_type_shield, itcf_carry_round_shield,  140 , weight(4)|hit_points(330)|body_armor(16)|spd_rtng(90)|shield_width(40),imodbits_shield ],
-["leather_covered_round_shield", "Leather Covered Round Shield", [("shield_round_d",0)], itp_type_shield|itp_wooden_parry, itcf_carry_round_shield,  80 , weight(2.5)|hit_points(310)|body_armor(8)|spd_rtng(96)|shield_width(40),imodbits_shield ],
+["leather_covered_round_shield", "Leather Covered Round Shield", [("shield_round_d",0)], itp_type_shield|itp_wooden_parry, itcf_carry_round_shield,  80 , weight(2.5)|hit_points(310)|body_armor(1)|spd_rtng(96)|shield_width(40),imodbits_shield ],
 ["hide_covered_round_shield", "Hide Covered Round Shield", [("shield_round_f",0)], itp_type_shield|itp_wooden_parry, itcf_carry_round_shield,  40 , weight(2)|hit_points(260)|body_armor(3)|spd_rtng(100)|shield_width(40),imodbits_shield ],
 
 ["shield_heater_c", "Heater Shield", [("shield_heater_c",0)], itp_type_shield|itp_wooden_parry, itcf_carry_kite_shield,  277 , weight(3.5)|hit_points(410)|body_armor(2)|spd_rtng(80)|shield_width(50),imodbits_shield ],
@@ -1046,7 +1049,7 @@ items = [
 26 , weight(2.5)|hit_points(195)|body_armor(4)|spd_rtng(93)|shield_width(50),imodbits_shield,
  [(ti_on_init_item, [(store_trigger_param_1, ":agent_no"),(store_trigger_param_2, ":troop_no"),(call_script, "script_shield_item_set_banner", "tableau_round_shield_5", ":agent_no", ":troop_no")])]],
 ["tab_shield_round_b", "Plain Round Shield", [("tableau_shield_round_3",0)], itp_type_shield|itp_wooden_parry, itcf_carry_round_shield,  
-65 , weight(3)|hit_points(260)|body_armor(8)|spd_rtng(90)|shield_width(50),imodbits_shield,
+65 , weight(3)|hit_points(260)|body_armor(1)|spd_rtng(90)|shield_width(50),imodbits_shield,
  [(ti_on_init_item, [(store_trigger_param_1, ":agent_no"),(store_trigger_param_2, ":troop_no"),(call_script, "script_shield_item_set_banner", "tableau_round_shield_3", ":agent_no", ":troop_no")])]],
 ["tab_shield_round_c", "Round Shield", [("tableau_shield_round_2",0)], itp_type_shield|itp_wooden_parry, itcf_carry_round_shield,  
 105 , weight(3.5)|hit_points(310)|body_armor(12)|spd_rtng(87)|shield_width(50),imodbits_shield,
@@ -1100,7 +1103,7 @@ items = [
 60 , weight(3.5)|hit_points(280)|body_armor(4)|spd_rtng(89)|shield_width(43)|shield_height(100),imodbits_shield,
  [(ti_on_init_item, [(store_trigger_param_1, ":agent_no"),(store_trigger_param_2, ":troop_no"),(call_script, "script_shield_item_set_banner", "tableau_pavise_shield_2", ":agent_no", ":troop_no")])]],
 ["tab_shield_pavise_b", "Plain Board Shield",   [("tableau_shield_pavise_2" ,0)], itp_type_shield|itp_cant_use_on_horseback|itp_wooden_parry, itcf_carry_board_shield,  
-114 , weight(4)|hit_points(360)|body_armor(8)|spd_rtng(85)|shield_width(43)|shield_height(100),imodbits_shield,
+114 , weight(4)|hit_points(360)|body_armor(1)|spd_rtng(85)|shield_width(43)|shield_height(100),imodbits_shield,
  [(ti_on_init_item, [(store_trigger_param_1, ":agent_no"),(store_trigger_param_2, ":troop_no"),(call_script, "script_shield_item_set_banner", "tableau_pavise_shield_2", ":agent_no", ":troop_no")])]],
 ["tab_shield_pavise_c", "Board Shield",   [("tableau_shield_pavise_1" ,0)], itp_type_shield|itp_cant_use_on_horseback|itp_wooden_parry, itcf_carry_board_shield,  
 210 , weight(4.5)|hit_points(430)|body_armor(10)|spd_rtng(81)|shield_width(43)|shield_height(100),imodbits_shield,
@@ -1110,7 +1113,7 @@ items = [
  [(ti_on_init_item, [(store_trigger_param_1, ":agent_no"),(store_trigger_param_2, ":troop_no"),(call_script, "script_shield_item_set_banner", "tableau_pavise_shield_1", ":agent_no", ":troop_no")])]],
 
 ["tab_shield_small_round_a", "Plain Cavalry Shield", [("tableau_shield_small_round_3",0)], itp_type_shield|itp_wooden_parry, itcf_carry_round_shield,  
-96 , weight(2)|hit_points(160)|body_armor(8)|spd_rtng(105)|shield_width(40),imodbits_shield,
+96 , weight(2)|hit_points(160)|body_armor(1)|spd_rtng(105)|shield_width(40),imodbits_shield,
  [(ti_on_init_item, [(store_trigger_param_1, ":agent_no"),(store_trigger_param_2, ":troop_no"),(call_script, "script_shield_item_set_banner", "tableau_small_round_shield_3", ":agent_no", ":troop_no")])]],
 ["tab_shield_small_round_b", "Round Cavalry Shield", [("tableau_shield_small_round_1",0)], itp_type_shield|itp_wooden_parry, itcf_carry_round_shield,  
 195 , weight(2.5)|hit_points(200)|body_armor(14)|spd_rtng(103)|shield_width(40),imodbits_shield,
@@ -1257,7 +1260,7 @@ items = [
 ["mail_boots_for_tableau", "Mail Boots", [("mail_boots_a",0)], itp_type_foot_armor | itp_attach_armature  ,0,
  1, weight(3)|abundance(100)|head_armor(0)|body_armor(0)|leg_armor(1) ,imodbits_armor ],
 ["warhorse_sarranid","Sarranian War Horse", [("warhorse_sarranid",0)], itp_type_horse, 0, 1811,abundance(40)|hit_points(165)|body_armor(58)|difficulty(4)|horse_speed(40)|horse_maneuver(44)|horse_charge(32)|horse_scale(112),imodbits_horse_basic|imodbit_champion, [], [fac_kingdom_6]],
-["warhorse_steppe","Steppe Charger", [("warhorse_steppe",0)], itp_type_horse, 0, 1400,abundance(45)|hit_points(150)|body_armor(40)|difficulty(4)|horse_speed(40)|horse_maneuver(50)|horse_charge(28)|horse_scale(112),imodbits_horse_basic|imodbit_champion, [], [fac_kingdom_3,fac_kingdom_2]],
+["warhorse_steppe","Steppe Charger", [("warhorse_steppe",0)], itp_type_horse, 0, 1400,abundance(45)|hit_points(150)|body_armor(40)|difficulty(4)|horse_speed(40)|horse_speed(int(default_horse_maneuver*1.00))|horse_charge(28)|horse_scale(112),imodbits_horse_basic|imodbit_champion, [], [fac_kingdom_3,fac_kingdom_2]],
 
 ##INVASION MODE START
 ["javelin_bow",         "Javelin Bow", [("war_bow",0),("war_bow_carry",ixmesh_carry)],itp_type_bow|itp_primary|itp_two_handed ,itcf_shoot_bow|itcf_carry_bow_back, 
@@ -1382,9 +1385,9 @@ items = [
 ["sidearm_flintlock_pistol1","Flintlock Pistol", [("flintlock_pistol1", 0)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,400, weight(1.5)|abundance(100)|accuracy(accuracy_smoothbore_pistol)|spd_rtng(10)|shoot_speed(150)|max_ammo(1)|thrust_damage(50, pierce), imodbits_firearm, []],
 ["sidearm_caplock_pistol1","Caplock Pistol", [("caplock_pistol1", 0)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,400, weight(1.5)|abundance(100)|accuracy(accuracy_smoothbore_pistol)|spd_rtng(12)|shoot_speed(150)|max_ammo(1)|thrust_damage(50, pierce), imodbits_firearm, []],
 
-["horse_european1","Saddle Horse", [("horse_european1",0),("horse_european1",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 240,abundance(90)|hit_points(200)|body_armor(8)|difficulty(1)|horse_speed(50)|horse_maneuver(50)|horse_charge(5)|horse_scale(100),imodbits_horse_basic],
-["horse_european2","Saddle Horse", [("horse_european2",0),("horse_european2",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 240,abundance(90)|hit_points(200)|body_armor(8)|difficulty(1)|horse_speed(50)|horse_maneuver(50)|horse_charge(5)|horse_scale(100),imodbits_horse_basic],
-["horse_european3","Saddle Horse", [("horse_european3",0),("horse_european3",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 240,abundance(90)|hit_points(200)|body_armor(8)|difficulty(1)|horse_speed(50)|horse_maneuver(50)|horse_charge(5)|horse_scale(100),imodbits_horse_basic],
+["horse_european1","Saddle Horse", [("horse_european1",0),("horse_european1",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 240,abundance(90)|hit_points(200)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.00))|horse_speed(int(default_horse_maneuver*1.00))|horse_charge(5)|horse_scale(100),imodbits_horse_basic],
+["horse_european2","Saddle Horse", [("horse_european2",0),("horse_european2",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 240,abundance(90)|hit_points(200)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.00))|horse_speed(int(default_horse_maneuver*1.00))|horse_charge(5)|horse_scale(100),imodbits_horse_basic],
+["horse_european3","Saddle Horse", [("horse_european3",0),("horse_european3",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 240,abundance(90)|hit_points(200)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.00))|horse_speed(int(default_horse_maneuver*1.00))|horse_charge(5)|horse_scale(100),imodbits_horse_basic],
 
 ["saber1", "Saber", [("saber",0),("saber_scab", ixmesh_carry)], itp_type_one_handed_wpn|itp_merchandise|itp_primary, itc_longsword|itcf_carry_sword_left_hip|itcf_show_holster_when_drawn,163 , weight(1.5)|difficulty(0)|spd_rtng(105) | weapon_length(100)|swing_damage(30 , cut) | thrust_damage(25 ,  pierce),imodbits_sword_high ],
 
@@ -1454,6 +1457,21 @@ items = [
 ["gho_cavalry_trousers2","gho_cavalry_trousers2", [("gho_cavalry_trousers2", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
 
 ["lance3","Lance", [("lance3",0)], itp_couchable|itp_type_polearm|itp_offset_lance|itp_merchandise| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
+
+["rifle_russian_m1845_carbine","Russian M1856 Carbine", [("russian_m1845_carbine", 0),("russian_m1845_carbine_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.8)|abundance(100)|accuracy(int(accuracy_muzzleloaded_musket*accuracy_carbine_modifier))|spd_rtng(int(speed_musket*speed_carbine_modifier))|shoot_speed(shot_speed_musket)|max_ammo(1)|thrust_damage(damage_musket, pierce), imodbits_firearm, []],
+["rifle_russian_m1845_carbine_m","Russian M1856 Carbine", [("russian_m1845_carbine", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.8)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(30, blunt)|swing_damage(0, blunt), imodbits_none, []],
+
+["horse_russian1a","Bay Orlov Saddle Horse", [("horse_european1",0),("horse_european1",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 300,abundance(100)|hit_points(200)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.00))|horse_speed(int(default_horse_maneuver*1.00))|horse_charge(30)|horse_scale(102),imodbits_horse_basic],
+["horse_russian1b","Black Orlov Saddle Horse", [("horse_european3",0),("horse_european3",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 300,abundance(100)|hit_points(200)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.00))|horse_speed(int(default_horse_maneuver*1.00))|horse_charge(30)|horse_scale(102),imodbits_horse_basic],
+["horse_russian2a","Gray Orlov Trotter", [("horse_european4",0),("horse_european4",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 1500,abundance(40)|hit_points(180)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.10))|horse_speed(int(default_horse_maneuver*1.03))|horse_charge(35)|horse_scale(103),imodbits_horse_basic],
+["horse_russian2b","Bay Orlov Trotter", [("horse_european1",0),("horse_european1",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 1500,abundance(40)|hit_points(180)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.10))|horse_speed(int(default_horse_maneuver*1.03))|horse_charge(35)|horse_scale(103),imodbits_horse_basic],
+["horse_russian3a","Black Karachay Horse", [("horse_european3",0),("horse_european3",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 350,abundance(100)|hit_points(240)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*0.93))|horse_speed(int(default_horse_maneuver*0.98))|horse_charge(40)|horse_scale(99),imodbits_horse_basic],
+["horse_russian3b","Bay Karachay Horse", [("horse_european1",0),("horse_european1",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 350,abundance(100)|hit_points(240)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*0.93))|horse_speed(int(default_horse_maneuver*0.98))|horse_charge(40)|horse_scale(99),imodbits_horse_basic],
+["horse_russian4a","Chestnut Russian Don", [("horse_european2",0),("horse_european2",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 400,abundance(100)|hit_points(220)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.06))|horse_speed(int(default_horse_maneuver*0.97))|horse_charge(30)|horse_scale(99),imodbits_horse_basic],
+["horse_russian4b","Dark-Bay Russian Don", [("horse_european5",0),("horse_european5",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 400,abundance(100)|hit_points(220)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.06))|horse_speed(int(default_horse_maneuver*0.97))|horse_charge(30)|horse_scale(99),imodbits_horse_basic],
+["horse_russian5a","Bay Kabardin Horse", [("horse_european1",0),("horse_european1",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 500,abundance(100)|hit_points(210)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.03))|horse_speed(int(default_horse_maneuver*1.15))|horse_charge(35)|horse_scale(100),imodbits_horse_basic],
+["horse_russian5b","Black Kabardin Horse", [("horse_european3",0),("horse_european3",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 500,abundance(100)|hit_points(210)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.03))|horse_speed(int(default_horse_maneuver*1.15))|horse_charge(35)|horse_scale(100),imodbits_horse_basic],
+
 
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],

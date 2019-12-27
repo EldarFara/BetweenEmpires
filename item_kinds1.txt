@@ -1,5 +1,5 @@
 itemsfile version 3
-726
+738
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -572,7 +572,7 @@ itemsfile version 3
  0
 0
 
- itm_saddle_horse Saddle_Horse Saddle_Horse 2  saddle_horse 0  horse_c 34360000512  1 0 240 41876193280 0.000000 90 0 8 0 1 100 44 45 104 0 10 0
+ itm_saddle_horse Saddle_Horse Saddle_Horse 2  saddle_horse 0  horse_c 34360000512  1 0 240 41876193280 0.000000 90 0 1 0 1 100 44 45 104 0 10 0
  0
 0
 
@@ -581,12 +581,12 @@ itemsfile version 3
  44 45
 0
 
- itm_arabian_horse_a Desert_Horse Desert_Horse 1  arabian_horse_a 0  1 0 550 110595670016 0.000000 80 0 10 0 2 110 50 42 100 0 12 0
+ itm_arabian_horse_a Desert_Horse Desert_Horse 1  arabian_horse_a 0  1 0 550 110595670016 0.000000 80 0 10 0 2 110 0 47 100 0 12 0
  2
  45 48
 0
 
- itm_courser Courser Courser 1  courser 0  1 0 600 110595670016 0.000000 70 0 12 0 2 110 44 50 106 0 12 0
+ itm_courser Courser Courser 1  courser 0  1 0 600 110595670016 0.000000 70 0 12 0 2 110 44 45 106 0 12 0
  0
 0
 
@@ -928,7 +928,7 @@ itemsfile version 3
  0
 0
 
- itm_woolen_dress Woolen_Dress Woolen_Dress 1  woolen_dress 0  553648141 0 10 123731968 1.750000 100 0 8 2 0 0 0 0 0 0 0 0
+ itm_woolen_dress Woolen_Dress Woolen_Dress 1  woolen_dress 0  553648141 0 10 123731968 1.750000 100 0 1 2 0 0 0 0 0 0 0 0
  0
 0
 
@@ -960,7 +960,7 @@ itemsfile version 3
  0
 0
 
- itm_robe Robe Robe 1  robe 0  553648141 0 31 123731968 1.500000 100 0 8 6 0 0 0 0 0 0 0 0
+ itm_robe Robe Robe 1  robe 0  553648141 0 31 123731968 1.500000 100 0 1 6 0 0 0 0 0 0 0 0
  0
 0
 
@@ -1992,7 +1992,7 @@ itemsfile version 3
  0
 0
 
- itm_leather_covered_round_shield Leather_Covered_Round_Shield Leather_Covered_Round_Shield 1  shield_round_d 0  262151 5100273664 80 167772194 2.500000 100 0 8 0 0 310 96 0 40 0 0 0
+ itm_leather_covered_round_shield Leather_Covered_Round_Shield Leather_Covered_Round_Shield 1  shield_round_d 0  262151 5100273664 80 167772194 2.500000 100 0 1 0 0 310 96 0 40 0 0 0
  0
 0
 
@@ -2041,7 +2041,7 @@ itemsfile version 3
 1
 -50.000000  3 2071 1 1224979098644774912 2072 1 1224979098644774913 1 4 936748722493063579 1729382256910270473 1224979098644774912 1224979098644774913 
 
- itm_tab_shield_round_b Plain_Round_Shield Plain_Round_Shield 1  tableau_shield_round_3 0  262151 5100273664 65 167772194 3.000000 100 0 8 0 0 260 90 0 50 0 0 0
+ itm_tab_shield_round_b Plain_Round_Shield Plain_Round_Shield 1  tableau_shield_round_3 0  262151 5100273664 65 167772194 3.000000 100 0 1 0 0 260 90 0 50 0 0 0
  0
 1
 -50.000000  3 2071 1 1224979098644774912 2072 1 1224979098644774913 1 4 936748722493063579 1729382256910270471 1224979098644774912 1224979098644774913 
@@ -2126,7 +2126,7 @@ itemsfile version 3
 1
 -50.000000  3 2071 1 1224979098644774912 2072 1 1224979098644774913 1 4 936748722493063579 1729382256910270484 1224979098644774912 1224979098644774913 
 
- itm_tab_shield_pavise_b Plain_Board_Shield Plain_Board_Shield 1  tableau_shield_pavise_2 0  268697607 6442450944 114 167772194 4.000000 100 0 8 0 0 360 85 100 43 0 0 0
+ itm_tab_shield_pavise_b Plain_Board_Shield Plain_Board_Shield 1  tableau_shield_pavise_2 0  268697607 6442450944 114 167772194 4.000000 100 0 1 0 0 360 85 100 43 0 0 0
  0
 1
 -50.000000  3 2071 1 1224979098644774912 2072 1 1224979098644774913 1 4 936748722493063579 1729382256910270484 1224979098644774912 1224979098644774913 
@@ -2141,7 +2141,7 @@ itemsfile version 3
 1
 -50.000000  3 2071 1 1224979098644774912 2072 1 1224979098644774913 1 4 936748722493063579 1729382256910270483 1224979098644774912 1224979098644774913 
 
- itm_tab_shield_small_round_a Plain_Cavalry_Shield Plain_Cavalry_Shield 1  tableau_shield_small_round_3 0  262151 5100273664 96 167772194 2.000000 100 0 8 0 0 160 105 0 40 0 0 0
+ itm_tab_shield_small_round_a Plain_Cavalry_Shield Plain_Cavalry_Shield 1  tableau_shield_small_round_3 0  262151 5100273664 96 167772194 2.000000 100 0 1 0 0 160 105 0 40 0 0 0
  0
 1
 -50.000000  3 2071 1 1224979098644774912 2072 1 1224979098644774913 1 4 936748722493063579 1729382256910270476 1224979098644774912 1224979098644774913 
@@ -2440,7 +2440,7 @@ itemsfile version 3
  48
 0
 
- itm_warhorse_steppe Steppe_Charger Steppe_Charger 1  warhorse_steppe 0  1 0 1400 110595670016 0.000000 45 0 40 0 4 150 50 40 112 0 28 0
+ itm_warhorse_steppe Steppe_Charger Steppe_Charger 1  warhorse_steppe 0  1 0 1400 110595670016 0.000000 45 0 40 0 4 150 0 45 112 0 28 0
  2
  45 44
 0
@@ -2709,15 +2709,15 @@ itemsfile version 3
  0
 0
 
- itm_horse_european1 Saddle_Horse Saddle_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 240 41876193280 0.000000 90 0 8 0 1 200 50 50 100 0 5 0
+ itm_horse_european1 Saddle_Horse Saddle_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 240 41876193280 0.000000 90 0 1 0 1 200 0 45 100 0 5 0
  0
 0
 
- itm_horse_european2 Saddle_Horse Saddle_Horse 2  horse_european2 0  horse_european2 34360000512  65537 0 240 41876193280 0.000000 90 0 8 0 1 200 50 50 100 0 5 0
+ itm_horse_european2 Saddle_Horse Saddle_Horse 2  horse_european2 0  horse_european2 34360000512  65537 0 240 41876193280 0.000000 90 0 1 0 1 200 0 45 100 0 5 0
  0
 0
 
- itm_horse_european3 Saddle_Horse Saddle_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 240 41876193280 0.000000 90 0 8 0 1 200 50 50 100 0 5 0
+ itm_horse_european3 Saddle_Horse Saddle_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 240 41876193280 0.000000 90 0 1 0 1 200 0 45 100 0 5 0
  0
 0
 
@@ -2938,6 +2938,54 @@ itemsfile version 3
 0
 
  itm_lance3 Lance Lance 1  lance3 0  3359965188 4222124851987200 270 8202 2.500000 100 0 0 0 0 16384 100 0 210 0 291 528
+ 0
+0
+
+ itm_rifle_russian_m1845_carbine Russian_M1856_Carbine Russian_M1856_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 100 0 0 59 0 0 71 300 0 1 306 0
+ 0
+0
+
+ itm_rifle_russian_m1845_carbine_m Russian_M1856_Carbine Russian_M1856_Carbine 1  russian_m1845_carbine 0  6553604 4222130824676096 0 0 4.750000 100 0 0 0 0 18432 75 0 80 0 542 530
+ 0
+0
+
+ itm_horse_russian1a Bay_Orlov_Saddle_Horse Bay_Orlov_Saddle_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 200 0 45 102 0 30 0
+ 0
+0
+
+ itm_horse_russian1b Black_Orlov_Saddle_Horse Black_Orlov_Saddle_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 200 0 45 102 0 30 0
+ 0
+0
+
+ itm_horse_russian2a Gray_Orlov_Trotter Gray_Orlov_Trotter 2  horse_european4 0  horse_european4 34360000512  65537 0 1500 41876193280 0.000000 40 0 1 0 1 180 0 63 103 0 35 0
+ 0
+0
+
+ itm_horse_russian2b Bay_Orlov_Trotter Bay_Orlov_Trotter 2  horse_european1 0  horse_european1 34360000512  65537 0 1500 41876193280 0.000000 40 0 1 0 1 180 0 63 103 0 35 0
+ 0
+0
+
+ itm_horse_russian3a Black_Karachay_Horse Black_Karachay_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 350 41876193280 0.000000 100 0 1 0 1 240 0 45 99 0 40 0
+ 0
+0
+
+ itm_horse_russian3b Bay_Karachay_Horse Bay_Karachay_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 350 41876193280 0.000000 100 0 1 0 1 240 0 45 99 0 40 0
+ 0
+0
+
+ itm_horse_russian4a Chestnut_Russian_Don Chestnut_Russian_Don 2  horse_european2 0  horse_european2 34360000512  65537 0 400 41876193280 0.000000 100 0 1 0 1 220 0 47 99 0 30 0
+ 0
+0
+
+ itm_horse_russian4b Dark-Bay_Russian_Don Dark-Bay_Russian_Don 2  horse_european5 0  horse_european5 34360000512  65537 0 400 41876193280 0.000000 100 0 1 0 1 220 0 47 99 0 30 0
+ 0
+0
+
+ itm_horse_russian5a Bay_Kabardin_Horse Bay_Kabardin_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 500 41876193280 0.000000 100 0 1 0 1 210 0 63 100 0 35 0
+ 0
+0
+
+ itm_horse_russian5b Black_Kabardin_Horse Black_Kabardin_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 500 41876193280 0.000000 100 0 1 0 1 210 0 63 100 0 35 0
  0
 0
 
