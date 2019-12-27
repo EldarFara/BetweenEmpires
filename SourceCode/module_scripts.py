@@ -862,6 +862,8 @@ scripts = [
 	(call_script, "script_give_center_to_faction_aux", "p_village_665", "fac_kingdom_2"),
     (party_set_slot, "p_village_553", slot_village_bound_center, "p_castle_254"),
 	(call_script, "script_give_center_to_faction_aux", "p_village_553", "fac_kingdom_3"),
+    (party_set_slot, "p_village_26", slot_village_bound_center, "p_castle_139"),
+	(call_script, "script_give_center_to_faction_aux", "p_village_26", "fac_kingdom_6"),
     
     
 
@@ -1327,7 +1329,7 @@ scripts = [
       (call_script, "script_give_center_to_faction_aux", "p_castle_136", "fac_kingdom_19"),#indu
       (call_script, "script_give_center_to_faction_aux", "p_castle_137", "fac_kingdom_4"),#indu
       (call_script, "script_give_center_to_faction_aux", "p_castle_138", "fac_kingdom_4"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_139", "fac_kingdom_24"),#indu
+      (call_script, "script_give_center_to_faction_aux", "p_castle_139", "fac_kingdom_6"),#indu
       (call_script, "script_give_center_to_faction_aux", "p_castle_140", "fac_kingdom_24"),#indu
       (call_script, "script_give_center_to_faction_aux", "p_castle_141", "fac_kingdom_1"),#indu
       (call_script, "script_give_center_to_faction_aux", "p_castle_142", "fac_kingdom_1"),#indu
