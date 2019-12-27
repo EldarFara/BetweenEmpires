@@ -460,103 +460,103 @@ scn_town_18_castle town_18_castle 256 none none -100.000000 -100.000000 100.0000
   1  100000 
   1  1463 
  0 
-scn_town_19_castle town_19_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_town_19_castle town_19_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1464 
  0 
-scn_town_20_castle town_20_castle 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_town_20_castle town_20_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1465 
  0 
-scn_town_21_castle town_21_castle 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_town_21_castle town_21_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1466 
  0 
-scn_town_22_castle town_22_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_22_castle town_22_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1467 
  0 
-scn_town_23_castle town_23_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_23_castle town_23_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1467 
  0 
-scn_town_24_castle town_24_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_24_castle town_24_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1467 
  0 
-scn_town_25_castle town_25_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_25_castle town_25_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1467 
  0 
-scn_town_26_castle town_26_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_26_castle town_26_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1467 
  0 
-scn_town_27_castle town_27_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_27_castle town_27_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1467 
  0 
-scn_town_28_castle town_28_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_28_castle town_28_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1473 
  0 
-scn_town_29_castle town_29_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_29_castle town_29_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1474 
  0 
-scn_town_30_castle town_30_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_30_castle town_30_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1475 
  0 
-scn_town_31_castle town_31_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_31_castle town_31_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1476 
  0 
-scn_town_32_castle town_32_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_32_castle town_32_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1477 
  0 
-scn_town_33_castle town_33_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_33_castle town_33_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1478 
  0 
-scn_town_34_castle town_34_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_34_castle town_34_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1479 
  0 
-scn_town_35_castle town_35_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_35_castle town_35_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1480 
  0 
-scn_town_36_castle town_36_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_36_castle town_36_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1481 
  0 
-scn_town_37_castle town_37_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_37_castle town_37_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1482 
  0 
-scn_town_38_castle town_38_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_38_castle town_38_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1483 
  0 
-scn_town_39_castle town_39_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_39_castle town_39_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1484 
  0 
-scn_town_40_castle town_40_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_40_castle town_40_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1485 
  0 
-scn_town_41_castle town_41_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_41_castle town_41_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1486 
  0 
-scn_town_42_castle town_42_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_42_castle town_42_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1487 
  0 
-scn_town_43_castle town_43_castle 1 arabian_interior_keep_a bo_arabian_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
+scn_town_43_castle town_43_castle 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
   1  1488 
  0 
@@ -2088,7 +2088,7 @@ scn_castle_42_exterior castle_42_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_42_interior castle_42_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_42_interior castle_42_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1544 
  0 
@@ -2100,7 +2100,7 @@ scn_castle_43_exterior castle_43_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_43_interior castle_43_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_43_interior castle_43_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1545 
  0 
@@ -2112,7 +2112,7 @@ scn_castle_44_exterior castle_44_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_44_interior castle_44_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_44_interior castle_44_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1546 
  0 
@@ -2124,7 +2124,7 @@ scn_castle_45_exterior castle_45_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_45_interior castle_45_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_45_interior castle_45_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1547 
  0 
@@ -2136,7 +2136,7 @@ scn_castle_46_exterior castle_46_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_46_interior castle_46_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_46_interior castle_46_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1548 
  0 
@@ -2148,7 +2148,7 @@ scn_castle_47_exterior castle_47_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_47_interior castle_47_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_47_interior castle_47_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1549 
  0 
@@ -2160,7 +2160,7 @@ scn_castle_48_exterior castle_48_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_48_interior castle_48_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_48_interior castle_48_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1549 
  0 
@@ -2328,7 +2328,7 @@ scn_castle_62_exterior castle_62_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_62_interior castle_62_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_62_interior castle_62_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1574 
  0 
@@ -2340,7 +2340,7 @@ scn_castle_63_exterior castle_63_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_63_interior castle_63_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_63_interior castle_63_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1575 
  0 
@@ -2352,7 +2352,7 @@ scn_castle_64_exterior castle_64_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_64_interior castle_64_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_64_interior castle_64_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1576 
  0 
@@ -2364,7 +2364,7 @@ scn_castle_65_exterior castle_65_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_65_interior castle_65_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_65_interior castle_65_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1577 
  0 
@@ -2376,7 +2376,7 @@ scn_castle_66_exterior castle_66_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_66_interior castle_66_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_66_interior castle_66_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1578 
  0 
@@ -2388,7 +2388,7 @@ scn_castle_67_exterior castle_67_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_67_interior castle_67_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_67_interior castle_67_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1579 
  0 
@@ -2400,7 +2400,7 @@ scn_castle_68_exterior castle_68_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_68_interior castle_68_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_68_interior castle_68_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1580 
  0 
@@ -2412,7 +2412,7 @@ scn_castle_69_exterior castle_69_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_69_interior castle_69_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_69_interior castle_69_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1581 
  0 
@@ -2424,7 +2424,7 @@ scn_castle_70_exterior castle_70_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_70_interior castle_70_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_70_interior castle_70_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1576 
  0 
@@ -2436,7 +2436,7 @@ scn_castle_71_exterior castle_71_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_71_interior castle_71_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_71_interior castle_71_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1576 
  0 
@@ -2448,7 +2448,7 @@ scn_castle_72_exterior castle_72_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_72_interior castle_72_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_72_interior castle_72_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1576 
  0 
@@ -2460,7 +2460,7 @@ scn_castle_73_exterior castle_73_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_73_interior castle_73_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_73_interior castle_73_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1576 
  0 
@@ -2472,7 +2472,7 @@ scn_castle_74_exterior castle_74_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_74_interior castle_74_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_74_interior castle_74_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1576 
  0 
@@ -2484,7 +2484,7 @@ scn_castle_75_exterior castle_75_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_75_interior castle_75_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_75_interior castle_75_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1576 
  0 
@@ -2496,7 +2496,7 @@ scn_castle_76_exterior castle_76_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_76_interior castle_76_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_76_interior castle_76_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1576 
  0 
@@ -2508,7 +2508,7 @@ scn_castle_77_exterior castle_77_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_77_interior castle_77_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_77_interior castle_77_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1576 
  0 
@@ -2520,7 +2520,7 @@ scn_castle_78_exterior castle_78_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_78_interior castle_78_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_78_interior castle_78_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1576 
  0 
@@ -2532,7 +2532,7 @@ scn_castle_79_exterior castle_79_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_79_interior castle_79_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_79_interior castle_79_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1576 
  0 
@@ -2544,7 +2544,7 @@ scn_castle_80_exterior castle_80_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_80_interior castle_80_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_80_interior castle_80_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1576 
  0 
@@ -2556,7 +2556,7 @@ scn_castle_81_exterior castle_81_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_81_interior castle_81_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_81_interior castle_81_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1576 
  0 
@@ -2568,7 +2568,7 @@ scn_castle_82_exterior castle_82_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_82_interior castle_82_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_82_interior castle_82_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1576 
  0 
@@ -2580,7 +2580,7 @@ scn_castle_83_exterior castle_83_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_83_interior castle_83_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_83_interior castle_83_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1576 
  0 
@@ -2592,7 +2592,7 @@ scn_castle_84_exterior castle_84_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_84_interior castle_84_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_84_interior castle_84_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1596 
  0 
@@ -2604,7 +2604,7 @@ scn_castle_85_exterior castle_85_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_85_interior castle_85_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_85_interior castle_85_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1597 
  0 
@@ -2616,7 +2616,7 @@ scn_castle_86_exterior castle_86_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_86_interior castle_86_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_86_interior castle_86_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1598 
  0 
@@ -2628,7 +2628,7 @@ scn_castle_87_exterior castle_87_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_87_interior castle_87_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_87_interior castle_87_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1599 
  0 
@@ -2640,7 +2640,7 @@ scn_castle_88_exterior castle_88_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_88_interior castle_88_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_88_interior castle_88_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1600 
  0 
@@ -2652,7 +2652,7 @@ scn_castle_89_exterior castle_89_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_89_interior castle_89_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_89_interior castle_89_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1601 
  0 
@@ -2664,7 +2664,7 @@ scn_castle_90_exterior castle_90_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_90_interior castle_90_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_90_interior castle_90_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1602 
  0 
@@ -2676,7 +2676,7 @@ scn_castle_91_exterior castle_91_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_91_interior castle_91_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_91_interior castle_91_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1603 
  0 
@@ -2688,7 +2688,7 @@ scn_castle_92_exterior castle_92_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_92_interior castle_92_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_92_interior castle_92_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1604 
  0 
@@ -2700,7 +2700,7 @@ scn_castle_93_exterior castle_93_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_93_interior castle_93_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_93_interior castle_93_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1605 
  0 
@@ -2712,7 +2712,7 @@ scn_castle_94_exterior castle_94_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_94_interior castle_94_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_94_interior castle_94_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1606 
  0 
@@ -2724,7 +2724,7 @@ scn_castle_95_exterior castle_95_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_95_interior castle_95_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_95_interior castle_95_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1607 
  0 
@@ -2736,7 +2736,7 @@ scn_castle_96_exterior castle_96_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_96_interior castle_96_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_96_interior castle_96_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1608 
  0 
@@ -2748,7 +2748,7 @@ scn_castle_97_exterior castle_97_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_97_interior castle_97_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_97_interior castle_97_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1609 
  0 
@@ -2760,7 +2760,7 @@ scn_castle_98_exterior castle_98_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_98_interior castle_98_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_98_interior castle_98_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1608 
  0 
@@ -2772,7 +2772,7 @@ scn_castle_99_exterior castle_99_exterior 256 none none 0.000000 0.000000 100.00
   0 
   0 
  outer_terrain_desert 
-scn_castle_99_interior castle_99_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_99_interior castle_99_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1611 
  0 
@@ -2784,7 +2784,7 @@ scn_castle_100_exterior castle_100_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_100_interior castle_100_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_100_interior castle_100_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1612 
  0 
@@ -2796,7 +2796,7 @@ scn_castle_101_exterior castle_101_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_101_interior castle_101_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_101_interior castle_101_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1613 
  0 
@@ -2808,7 +2808,7 @@ scn_castle_102_exterior castle_102_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_102_interior castle_102_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_102_interior castle_102_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1614 
  0 
@@ -2820,7 +2820,7 @@ scn_castle_103_exterior castle_103_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_103_interior castle_103_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_103_interior castle_103_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1615 
  0 
@@ -2832,7 +2832,7 @@ scn_castle_104_exterior castle_104_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_104_interior castle_104_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_104_interior castle_104_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1616 
  0 
@@ -2844,7 +2844,7 @@ scn_castle_105_exterior castle_105_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_105_interior castle_105_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_105_interior castle_105_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1617 
  0 
@@ -2856,7 +2856,7 @@ scn_castle_106_exterior castle_106_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_106_interior castle_106_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_106_interior castle_106_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1618 
  0 
@@ -2868,7 +2868,7 @@ scn_castle_107_exterior castle_107_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_107_interior castle_107_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_107_interior castle_107_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1619 
  0 
@@ -2880,7 +2880,7 @@ scn_castle_108_exterior castle_108_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_108_interior castle_108_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_108_interior castle_108_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1620 
  0 
@@ -2892,7 +2892,7 @@ scn_castle_109_exterior castle_109_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_109_interior castle_109_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_109_interior castle_109_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1621 
  0 
@@ -2904,7 +2904,7 @@ scn_castle_110_exterior castle_110_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_110_interior castle_110_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_110_interior castle_110_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1622 
  0 
@@ -2916,7 +2916,7 @@ scn_castle_111_exterior castle_111_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_111_interior castle_111_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_111_interior castle_111_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1623 
  0 
@@ -2928,7 +2928,7 @@ scn_castle_112_exterior castle_112_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_112_interior castle_112_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_112_interior castle_112_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1624 
  0 
@@ -2940,7 +2940,7 @@ scn_castle_113_exterior castle_113_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_113_interior castle_113_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_113_interior castle_113_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1625 
  0 
@@ -2952,7 +2952,7 @@ scn_castle_114_exterior castle_114_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_114_interior castle_114_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_114_interior castle_114_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1626 
  0 
@@ -2964,7 +2964,7 @@ scn_castle_115_exterior castle_115_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_115_interior castle_115_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_115_interior castle_115_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1627 
  0 
@@ -2976,7 +2976,7 @@ scn_castle_116_exterior castle_116_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_116_interior castle_116_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_116_interior castle_116_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1628 
  0 
@@ -2988,7 +2988,7 @@ scn_castle_117_exterior castle_117_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_117_interior castle_117_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_117_interior castle_117_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1629 
  0 
@@ -3000,7 +3000,7 @@ scn_castle_118_exterior castle_118_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_118_interior castle_118_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_118_interior castle_118_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1630 
  0 
@@ -3012,7 +3012,7 @@ scn_castle_119_exterior castle_119_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_119_interior castle_119_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_119_interior castle_119_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1631 
  0 
@@ -3024,7 +3024,7 @@ scn_castle_120_exterior castle_120_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_120_interior castle_120_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_120_interior castle_120_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1632 
  0 
@@ -3036,7 +3036,7 @@ scn_castle_121_exterior castle_121_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_121_interior castle_121_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_121_interior castle_121_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1633 
  0 
@@ -3048,7 +3048,7 @@ scn_castle_122_exterior castle_122_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_122_interior castle_122_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_122_interior castle_122_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1634 
  0 
@@ -3060,7 +3060,7 @@ scn_castle_123_exterior castle_123_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_123_interior castle_123_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_123_interior castle_123_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1635 
  0 
@@ -3072,7 +3072,7 @@ scn_castle_124_exterior castle_124_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_124_interior castle_124_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_124_interior castle_124_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1636 
  0 
@@ -3084,7 +3084,7 @@ scn_castle_125_exterior castle_125_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_125_interior castle_125_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_125_interior castle_125_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1637 
  0 
@@ -3096,7 +3096,7 @@ scn_castle_126_exterior castle_126_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_126_interior castle_126_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_126_interior castle_126_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1638 
  0 
@@ -3108,7 +3108,7 @@ scn_castle_127_exterior castle_127_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_127_interior castle_127_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_127_interior castle_127_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1639 
  0 
@@ -3120,7 +3120,7 @@ scn_castle_128_exterior castle_128_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_128_interior castle_128_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_128_interior castle_128_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1640 
  0 
@@ -3132,7 +3132,7 @@ scn_castle_129_exterior castle_129_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_129_interior castle_129_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_129_interior castle_129_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1641 
  0 
@@ -3144,7 +3144,7 @@ scn_castle_130_exterior castle_130_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_130_interior castle_130_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_130_interior castle_130_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1642 
  0 
@@ -3156,7 +3156,7 @@ scn_castle_131_exterior castle_131_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_131_interior castle_131_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_131_interior castle_131_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1643 
  0 
@@ -3168,7 +3168,7 @@ scn_castle_132_exterior castle_132_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_132_interior castle_132_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_132_interior castle_132_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1644 
  0 
@@ -3180,7 +3180,7 @@ scn_castle_133_exterior castle_133_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_133_interior castle_133_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_133_interior castle_133_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1645 
  0 
@@ -3192,7 +3192,7 @@ scn_castle_134_exterior castle_134_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_134_interior castle_134_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_134_interior castle_134_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1646 
  0 
@@ -3204,7 +3204,7 @@ scn_castle_135_exterior castle_135_exterior 256 none none 0.000000 0.000000 100.
   0 
   0 
  outer_terrain_desert 
-scn_castle_135_interior castle_135_interior 1 arabian_interior_keep_b bo_arabian_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_135_interior castle_135_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
   1  1647 
  0 
