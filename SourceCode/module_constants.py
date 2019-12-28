@@ -1078,6 +1078,14 @@ slot_team_company5_energy                       = 22
 slot_team_company6_energy                       = 23
 slot_team_company7_energy                       = 24
 slot_team_company8_energy                       = 25
+slot_team_company1_run_mode                       = 18
+slot_team_company2_run_mode                       = 19
+slot_team_company3_run_mode                       = 20
+slot_team_company4_run_mode                       = 21
+slot_team_company5_run_mode                       = 22
+slot_team_company6_run_mode                       = 23
+slot_team_company7_run_mode                       = 24
+slot_team_company8_run_mode                       = 25
 
 
 

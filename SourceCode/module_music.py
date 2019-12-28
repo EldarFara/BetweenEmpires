@@ -16,7 +16,10 @@ tracks = [
 
 ("battle_generic01", "battle_generic01.ogg", mtf_situation_battle, 0),
 
-("victory_heavy01", "victory_heavy01.ogg", mtf_situation_victory_heavy, mtf_situation_global_map),
+("victory_heavy01", "victory_heavy01.ogg", mtf_situation_victory_heavy|mtf_situation_victory_light, mtf_situation_global_map),
+("victory_heavy02", "victory_heavy02.ogg", mtf_situation_victory_heavy|mtf_situation_victory_light, mtf_situation_global_map),
+("victory_heavy03", "victory_heavy03.ogg", mtf_situation_victory_heavy|mtf_situation_victory_light, mtf_situation_global_map),
+("victory_heavy04", "victory_heavy04.ogg", mtf_situation_victory_heavy|mtf_situation_victory_light, mtf_situation_global_map),
 
 ("globalmap_generic01", "globalmap_generic01.ogg", mtf_culture_europe|mtf_situation_global_map, mtf_culture_middleeast),
 ("globalmap_generic01b", "globalmap_generic01b.ogg", mtf_culture_europe|mtf_situation_global_map, mtf_culture_middleeast),
