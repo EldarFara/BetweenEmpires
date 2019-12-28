@@ -3033,7 +3033,7 @@ itemsfile version 3
  0
 0
 
- itm_horse_karabakh1a Chestnut_Karabakh_Horse Chestnut_Karabakh_Horse 2  horse_european7 0  horse_european7 34360000512  65537 0 380 41876193280 0.000000 120 0 1 0 1 230 50 46 98 0 30 0
+ itm_horse_karabakh1a Chestnut_Karabakh_Horse Chestnut_Karabakh_Horse 2  horse_european6 0  horse_european6 34360000512  65537 0 380 41876193280 0.000000 120 0 1 0 1 230 50 46 98 0 30 0
  0
 0
 

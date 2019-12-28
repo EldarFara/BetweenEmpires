@@ -48,6 +48,8 @@ slot_party_prebattle_size_in_battle        = 75
 slot_party_prebattle_in_battle_count       = 76 
 ## Prebattle Deployment End
 
+slot_troop_pbs_type = 162
+
 ########################################################
 ##  ITEM SLOTS             #############################
 ########################################################
@@ -1047,7 +1049,35 @@ slot_player_coop_opened_chests_end             = slot_player_coop_opened_chests_
 ########################################################
 
 slot_team_flag_situation                       = 0
+slot_team_battle_started                       = 0
 
+slot_team_company1_type                       = 1
+slot_team_company2_type                       = 2
+slot_team_company3_type                       = 3
+slot_team_company4_type                       = 4
+slot_team_company5_type                       = 5
+slot_team_company6_type                       = 6
+slot_team_company7_type                       = 7
+slot_team_company8_type                       = 8
+
+slot_team_company_assignment_order_number     = 9
+
+slot_team_company1_discipline                       = 10
+slot_team_company2_discipline                       = 11
+slot_team_company3_discipline                       = 12
+slot_team_company4_discipline                       = 13
+slot_team_company5_discipline                       = 14
+slot_team_company6_discipline                       = 15
+slot_team_company7_discipline                       = 16
+slot_team_company8_discipline                       = 17
+slot_team_company1_energy                       = 18
+slot_team_company2_energy                       = 19
+slot_team_company3_energy                       = 20
+slot_team_company4_energy                       = 21
+slot_team_company5_energy                       = 22
+slot_team_company6_energy                       = 23
+slot_team_company7_energy                       = 24
+slot_team_company8_energy                       = 25
 
 
 
