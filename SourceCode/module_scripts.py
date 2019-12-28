@@ -49532,7 +49532,7 @@ scripts = [
       (store_sub, ":cur_town", ":cur_merchant", horse_merchants_begin),
       (val_add, ":cur_town", towns_begin),
       (party_get_slot, ":cur_faction", ":cur_town", slot_center_original_faction),
-      (troop_add_merchandise_with_faction, ":cur_merchant", ":cur_faction", itp_type_horse, 5),
+      (troop_add_merchandise_with_faction, ":cur_merchant", ":cur_faction", itp_type_horse, 10),
       (troop_ensure_inventory_space, ":cur_merchant", 65),
       (troop_sort_inventory, ":cur_merchant"),
       (store_troop_gold, ":cur_gold", ":cur_merchant"),
