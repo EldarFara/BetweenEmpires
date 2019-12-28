@@ -52299,7 +52299,7 @@ scripts = [
 
 	(try_begin),
 	(eq, ":company_type", pbs_troop_type_light),
-	(assign, ":x_gap", 115),
+	(assign, ":x_gap", 135),
 	(assign, ":y_gap", 150),
 	(else_try),
 	(this_or_next|eq, ":company_type", pbs_troop_type_cavmelee),
@@ -52445,5 +52445,34 @@ scripts = [
       (assign, reg0, ":raw_advantage"),
     ]),
 
+("company_get_name",
+[
+(store_script_param, ":team", 1),
+(store_script_param, ":company", 2),
+
+(store_add, ":slot_team_company_type", slot_team_company1_type, ":company"),
+
+	(try_begin),
+	(team_slot_eq, ":team", ":slot_team_company_type", pbs_troop_type_line),
+	(str_store_string, s1, "@Line Infantry Company"),
+	(else_try),
+	(team_slot_eq, ":team", ":slot_team_company_type", pbs_troop_type_light),
+	(str_store_string, s1, "@Light Infantry Company"),
+	(else_try),
+	(team_slot_eq, ":team", ":slot_team_company_type", pbs_troop_type_guard),
+	(str_store_string, s1, "@Guard Infantry Company"),
+	(else_try),
+	(team_slot_eq, ":team", ":slot_team_company_type", pbs_troop_type_cavmelee),
+	(str_store_string, s1, "@Cavalry Squadron"),
+	(else_try),
+	(team_slot_eq, ":team", ":slot_team_company_type", pbs_troop_type_cavranged),
+	(str_store_string, s1, "@Mounted Rifles Squadron"),
+	(else_try),
+	(team_slot_eq, ":team", ":slot_team_company_type", pbs_troop_type_cavguard),
+	(str_store_string, s1, "@Elite Cavalry Squadron"),
+	(else_try),
+	(str_store_string, s1, "@Empty"),
+	(try_end),
+]),
   
 ]

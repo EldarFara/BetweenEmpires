@@ -22,6 +22,9 @@ pbs_state_moving_to_position = 1
 pbs_state_holding_position = 2
 pbs_state_charging = 3
 
+pbs_run_mode_walking = 0
+pbs_run_mode_running = 1
+
 company1 = 0
 company2 = 1
 company3 = 2

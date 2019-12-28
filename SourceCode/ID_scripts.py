@@ -615,5 +615,6 @@ script_game_missile_launch = 613
 script_company_hold_pos30 = 614
 script_company_charge = 615
 script_prebattle_calculate_battle_advantage_and_size = 616
+script_company_get_name = 617
 
 

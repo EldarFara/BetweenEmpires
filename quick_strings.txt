@@ -1,4 +1,4 @@
-733
+750
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
 qstr_Game_Rules:^ Game_Rules:^
@@ -375,6 +375,13 @@ qstr_{!}destroy_prison_ca {!}destroy_prison_cart
 qstr_{!}spawning_prison_c {!}spawning_prison_cart_at_point_{reg0}
 qstr_{!}prison_cart_spawn {!}prison_cart_spawn_at_point_{reg0}
 qstr_{!}multiplayer_upgra {!}multiplayer_upgrade_player_equipment:_{reg0}
+qstr_Line_Infantry_Company Line_Infantry_Company
+qstr_Light_Infantry_Compan Light_Infantry_Company
+qstr_Guard_Infantry_Compan Guard_Infantry_Company
+qstr_Cavalry_Squadron Cavalry_Squadron
+qstr_Mounted_Rifles_Squad Mounted_Rifles_Squadron
+qstr_Elite_Cavalry_Squadr Elite_Cavalry_Squadron
+qstr_Empty Empty
 qstr_day day
 qstr_cloud1 cloud1
 qstr_cloud2 cloud2
@@ -388,6 +395,16 @@ qstr_clouds2 clouds2
 qstr_clouds3 clouds3
 qstr_night night
 qstr_dusk dusk
+qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_running.
+qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_walking.
+qstr_1st_{s1} 1st_{s1}
+qstr_2nd_{s1} 2nd_{s1}
+qstr_3rd_{s1} 3rd_{s1}
+qstr_4th_{s1} 4th_{s1}
+qstr_5th_{s1} 5th_{s1}
+qstr_6th_{s1} 6th_{s1}
+qstr_7th_{s1} 7th_{s1}
+qstr_8th_{s1} 8th_{s1}
 qstr_You_got_keys_of_dung You_got_keys_of_dungeon.
 qstr_You_must_stay_behind You_must_stay_behind_the_line_on_the_ground!_Point_is_not_counted.
 qstr_Tutorial Tutorial
