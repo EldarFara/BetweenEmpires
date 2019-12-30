@@ -1112,6 +1112,7 @@ slot_team_company7_moving_soldier_number                       = 48
 slot_team_company8_moving_soldier_number                       = 49
 
 slot_team_pai_global_tactic                       = 50
+slot_team_pai_timer                               = 51
 
 
 #Rebellion changes end

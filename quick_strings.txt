@@ -1,4 +1,4 @@
-762
+769
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
 qstr_Game_Rules:^ Game_Rules:^
@@ -95,7 +95,14 @@ qstr___c. __c.
 qstr_90% 90%
 qstr_2._{s1} 2._{s1}
 qstr__% _%
+qstr_3._{s1} 3._{s1}
+qstr_4._{s1} 4._{s1}
+qstr_5._{s1} 5._{s1}
+qstr_6._{s1} 6._{s1}
+qstr_7._{s1} 7._{s1}
+qstr_8._{s1} 8._{s1}
 qstr_{reg0}% {reg0}%
+qstr_{reg0}_c. {reg0}_c.
 qstr_vSeason vSeason
 qstr_{!}DEBUG_:_Completed {!}DEBUG_:_Completed_faction_troop_assignments,_cheat_mode:_{reg3}
 qstr_{!}DEBUG____initial_ {!}DEBUG_--_initial_war/peace_check_begins
