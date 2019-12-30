@@ -1,4 +1,4 @@
-750
+760
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
 qstr_Game_Rules:^ Game_Rules:^
@@ -90,6 +90,10 @@ qstr_Light_Infantry_Compa Light_Infantry_Company____
 qstr_Line_Infantry_Compan Line_Infantry_Company___
 qstr_{reg1} {reg1}
 qstr_Too_many_troops^Chec Too_many_troops^Check_number_available
+qstr_1._{s1} 1._{s1}
+qstr___c. __c.
+qstr_90% 90%
+qstr_2._{s1} 2._{s1}
 qstr_vSeason vSeason
 qstr_{!}DEBUG_:_Completed {!}DEBUG_:_Completed_faction_troop_assignments,_cheat_mode:_{reg3}
 qstr_{!}DEBUG____initial_ {!}DEBUG_--_initial_war/peace_check_begins
@@ -380,8 +384,14 @@ qstr_Light_Infantry_Compan Light_Infantry_Company
 qstr_Guard_Infantry_Compan Guard_Infantry_Company
 qstr_Cavalry_Squadron Cavalry_Squadron
 qstr_Mounted_Rifles_Squad Mounted_Rifles_Squadron
-qstr_Elite_Cavalry_Squadr Elite_Cavalry_Squadron
+qstr_Cavalry_Guard_Squadr Cavalry_Guard_Squadron
 qstr_Empty Empty
+qstr__I. _I.
+qstr_L.I. L.I.
+qstr__G. _G.
+qstr_M.C. M.C.
+qstr_M.R. M.R.
+qstr_C.G. C.G.
 qstr_day day
 qstr_cloud1 cloud1
 qstr_cloud2 cloud2

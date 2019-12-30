@@ -2562,7 +2562,7 @@ troops = [
   ["kingdom_30_lord", "King Maximilian Von Bavaria", "King Maximilian of Bavaria", tf_hero, 0, 0, fac_kingdom_30,
   [],
   str_19|agi_19|int_13|cha_22|level(35), wp(220), knows_leadership_9|knows_prisoner_management_3|knows_tactics_6|knows_trainer_5|knows_riding_7|knows_athletics_5|knows_power_strike_7|knows_ironflesh_6,0x000000003f1095df36db6dc503a5b28200000000001c36cb0000000000000000, 0x0000000000000000000000000000000000000000000000000000000000000000],
-  ["kingdom_31_lord", "King George V von Hannover", "Georg", tf_hero, 0, 0, fac_kingdom_31,
+  ["kingdom_31_lord", "King George V von Hannover", "George", tf_hero, 0, 0, fac_kingdom_31,
   [],
   str_19|agi_19|int_13|cha_22|level(35), wp(220), knows_leadership_9|knows_prisoner_management_3|knows_tactics_6|knows_trainer_5|knows_riding_7|knows_athletics_5|knows_power_strike_7|knows_ironflesh_6,0x000000002c0463476a6caab4ec6e68e400000000001dd64b0000000000000000, 0x0000000000000000000000000000000000000000000000000000000000000000],
   ["kingdom_32_lord", "Emir Talal Rashid", "Talal", tf_hero, 0, 0, fac_kingdom_32,

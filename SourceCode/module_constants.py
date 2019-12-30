@@ -10,6 +10,8 @@ from ID_factions import *
 
 spawable_prop_limit = 4000
 
+pbs_menu_distance_between_infolists = 90
+
 pbs_troop_type_line = 1
 pbs_troop_type_light = 2
 pbs_troop_type_guard = 3
@@ -1081,14 +1083,22 @@ slot_team_company5_energy                       = 22
 slot_team_company6_energy                       = 23
 slot_team_company7_energy                       = 24
 slot_team_company8_energy                       = 25
-slot_team_company1_run_mode                       = 18
-slot_team_company2_run_mode                       = 19
-slot_team_company3_run_mode                       = 20
-slot_team_company4_run_mode                       = 21
-slot_team_company5_run_mode                       = 22
-slot_team_company6_run_mode                       = 23
-slot_team_company7_run_mode                       = 24
-slot_team_company8_run_mode                       = 25
+slot_team_company1_run_mode                       = 26
+slot_team_company2_run_mode                       = 27
+slot_team_company3_run_mode                       = 28
+slot_team_company4_run_mode                       = 29
+slot_team_company5_run_mode                       = 30
+slot_team_company6_run_mode                       = 31
+slot_team_company7_run_mode                       = 32
+slot_team_company8_run_mode                       = 33
+slot_team_company1_soldier_number                       = 34
+slot_team_company2_soldier_number                       = 35
+slot_team_company3_soldier_number                       = 36
+slot_team_company4_soldier_number                       = 37
+slot_team_company5_soldier_number                       = 38
+slot_team_company6_soldier_number                       = 39
+slot_team_company7_soldier_number                       = 40
+slot_team_company8_soldier_number                       = 41
 
 
 

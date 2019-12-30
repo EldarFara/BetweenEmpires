@@ -610,4 +610,6 @@ meshes = [
   ("ccoop_mounted_class", 0, "ccoop_mounted_class", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   
   ("pic_test", 0, "pic_test", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  
+  ("pbs_company_info", 0, "pbs_company_info", 0, 0, 0, 0, 0, 0, 1, 1, 1),
 ]
