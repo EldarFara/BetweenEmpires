@@ -1206,7 +1206,7 @@ parties = [
     ("village_669", "Pavlodar",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-655.90,-339.53),[], 170),
     ("village_670", "Tomsk",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-744.18,-368.47),[], 170),
     ("village_671", "Thuringen",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(405.05,-191.41),[], 170),
-    ("village_672", "Chemitz",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(388.97,-176.82),[], 170),
+    ("village_672", "Zwickau",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(388.97,-176.82),[], 170),
     
     
     
