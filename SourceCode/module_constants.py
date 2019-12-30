@@ -1099,6 +1099,14 @@ slot_team_company5_soldier_number                       = 38
 slot_team_company6_soldier_number                       = 39
 slot_team_company7_soldier_number                       = 40
 slot_team_company8_soldier_number                       = 41
+slot_team_company1_moving_soldier_number                       = 42
+slot_team_company2_moving_soldier_number                       = 43
+slot_team_company3_moving_soldier_number                       = 44
+slot_team_company4_moving_soldier_number                       = 45
+slot_team_company5_moving_soldier_number                       = 46
+slot_team_company6_moving_soldier_number                       = 47
+slot_team_company7_moving_soldier_number                       = 48
+slot_team_company8_moving_soldier_number                       = 49
 
 
 
