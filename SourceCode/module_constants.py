@@ -1114,6 +1114,22 @@ slot_team_company8_moving_soldier_number                       = 49
 slot_team_pai_global_tactic                       = 50
 slot_team_pai_timer                               = 51
 
+slot_team_company1_penaltytodiscipline_fromfire                       = 52
+slot_team_company2_penaltytodiscipline_fromfire                       = 53
+slot_team_company3_penaltytodiscipline_fromfire                       = 54
+slot_team_company4_penaltytodiscipline_fromfire                       = 55
+slot_team_company5_penaltytodiscipline_fromfire                       = 56
+slot_team_company6_penaltytodiscipline_fromfire                       = 57
+slot_team_company7_penaltytodiscipline_fromfire                       = 58
+slot_team_company8_penaltytodiscipline_fromfire                       = 59
+slot_team_company1_penaltytodiscipline_fromcloseenemy                       = 60
+slot_team_company2_penaltytodiscipline_fromcloseenemy                       = 61
+slot_team_company3_penaltytodiscipline_fromcloseenemy                       = 62
+slot_team_company4_penaltytodiscipline_fromcloseenemy                       = 63
+slot_team_company5_penaltytodiscipline_fromcloseenemy                       = 64
+slot_team_company6_penaltytodiscipline_fromcloseenemy                       = 65
+slot_team_company7_penaltytodiscipline_fromcloseenemy                       = 66
+slot_team_company8_penaltytodiscipline_fromcloseenemy                       = 67
 
 #Rebellion changes end
 # character backgrounds

@@ -52161,6 +52161,7 @@ scripts = [
       (set_fixed_point_multiplier, 100),
       (copy_position,pos41,pos1),
       
+      (assign, ":penaltytodiscipline_fromfire", 0),
       (assign, ":sound_id", -1),
       (assign, ":muzzle_y", 0),
       (assign, ":muzzle_x", -16),
@@ -52177,6 +52178,7 @@ scripts = [
         (this_or_next|eq, ":item_id", "itm_sidearm_remington1"),
         (this_or_next|eq, ":item_id", "itm_sidearm_gasser"),
         (eq, ":item_id", "itm_sidearm_colt_m1873"),
+        (assign, ":penaltytodiscipline_fromfire", 1),
         (assign, ":sound_id", "snd_shot_pistol1"),
         (assign, ":sound_reflection", "snd_rifle_shot_reflection_small"),
         (assign, ":muzzle_y", 44),
@@ -52189,6 +52191,7 @@ scripts = [
       (else_try),
         (this_or_next|eq, ":item_id", "itm_sidearm_flintlock_pistol1"), # Caplock and Flintlock Pistols
         (eq, ":item_id", "itm_sidearm_caplock_pistol1"),
+        (assign, ":penaltytodiscipline_fromfire", 1),
         (assign, ":sound_id", "snd_shot_caplockpistol"),
         (assign, ":sound_far", "snd_rifle_shot_far1"),
         (assign, ":sound_reflection", "snd_rifle_shot_reflection_small"),
@@ -52206,6 +52209,7 @@ scripts = [
         (this_or_next|eq,":item_id", "itm_rifle_middle_east_musket3"),
         (this_or_next|eq,":item_id", "itm_rifle_middle_east_musket4"),
         (eq,":item_id", "itm_rifle_middle_east_musket5"), 
+        (assign, ":penaltytodiscipline_fromfire", 1),
         (assign, ":sound_id", "snd_shot_caplock"),
         (assign, ":sound_far", "snd_rifle_shot_far1"),
         (assign, ":sound_reflection", "snd_rifle_shot_reflection_small"),
@@ -52217,7 +52221,9 @@ scripts = [
       (else_try),
         (this_or_next|eq,":item_id", "itm_rifle_russian_m1845"), # Caplock Rifles
         (this_or_next|eq,":item_id", "itm_rifle_russian_m1856_carbine"), 
+        (this_or_next|eq,":item_id", "itm_rifle_russian_m1845_carbine"), 
         (eq,":item_id", "itm_rifle_russian_m1856"), 
+        (assign, ":penaltytodiscipline_fromfire", 1),
         (assign, ":sound_id", "snd_shot_caplock"),
         (assign, ":sound_far", "snd_rifle_shot_far1"),
         (assign, ":sound_reflection", "snd_rifle_shot_reflection_small"),
@@ -52229,6 +52235,7 @@ scripts = [
       (else_try),
         (this_or_next|eq,":item_id", "itm_rifle_berdan"), # Modern Rifles (black powder)
         (eq,":item_id", "itm_rifle_berdan_carbine"),
+        (assign, ":penaltytodiscipline_fromfire", 1),
         (assign, ":sound_id", "snd_shot_rifle1"),
         (assign, ":sound_far", "snd_rifle_shot_far1"),
         (assign, ":sound_reflection", "snd_rifle_shot_reflection_small"),
@@ -52239,11 +52246,38 @@ scripts = [
         (assign, ":spark_size", 40),
       (try_end),
        
-	  (try_begin), # Carbines
-		(this_or_next|eq,":item_id", "itm_rifle_berdan_carbine"), 
-		(eq,":item_id", "itm_rifle_russian_m1856_carbine"), 
-		(assign, ":muzzle_y", 104),
-	  (try_end),
+	(try_begin),
+	(agent_is_non_player, ":agent_id"),
+	(agent_ai_get_look_target, ":enemy_agent", ":agent_id"),
+	(agent_is_active, ":enemy_agent"),
+	(agent_is_alive, ":enemy_agent"),
+	(agent_get_position, pos10, ":agent_id"),
+	(agent_get_position, pos11, ":enemy_agent"),
+	(get_distance_between_positions_in_meters, ":dist", pos10, pos11),
+	(neq, ":dist", 0),
+	(agent_get_team, ":team", ":enemy_agent"),
+	(agent_get_division , ":company", ":enemy_agent"),
+	(is_between, ":company", 0, 7+1),
+	(store_add, ":slot_team_penaltytodiscipline_fromfire", slot_team_company1_penaltytodiscipline_fromfire, ":company"),
+	(team_get_slot, ":penaltytodiscipline_fromfire", ":team", ":slot_team_penaltytodiscipline_fromfire"),
+	(store_add, ":slot_team_soldier_number", slot_team_company1_soldier_number, ":company"),
+	(team_get_slot, ":soldier_number", ":team", ":slot_team_soldier_number"),
+		(try_begin),
+		(le, ":soldier_number", 10),
+		(assign, ":soldier_number", 10),
+		(try_end),
+	(val_div, ":dist", 2),
+	(store_div, ":penalty", 60000, ":dist"),
+	(val_div, ":penalty", ":soldier_number"),
+	(val_add, ":penaltytodiscipline_fromfire", ":penalty"),
+	(team_set_slot, ":team", ":slot_team_penaltytodiscipline_fromfire", ":penaltytodiscipline_fromfire"),
+	(try_end),
+       
+	(try_begin), # Carbines
+	(this_or_next|eq,":item_id", "itm_rifle_berdan_carbine"), 
+	(eq,":item_id", "itm_rifle_russian_m1856_carbine"), 
+	(assign, ":muzzle_y", 104),
+	(try_end),
 		  
       # Sounds
 		(try_begin),
@@ -52285,9 +52319,11 @@ scripts = [
 
 ("company_hold_pos30",
 [
-(set_show_messages, 1),
+(set_show_messages, 0),
 (store_script_param, ":team", 1),
 (store_script_param, ":company", 2),
+
+(team_give_order, ":team", ":company", mordr_charge),
 
 (store_add, ":slot_team_company_type", slot_team_company1_type, ":company"),
 (team_get_slot, ":company_type", ":team", ":slot_team_company_type"),
@@ -52386,7 +52422,7 @@ scripts = [
 		(try_end),
 	(val_add, ":number_of_soldiers_dub", 1),
 	(try_end),
-(set_show_messages, 0),
+(set_show_messages, 1),
 
 ]),
 
