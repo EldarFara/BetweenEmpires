@@ -280,8 +280,10 @@ pbs_agents_moving_speed = (0.5, 0, 0, [
 
 bot_animation = (0, 0, 0,[
 	(try_for_agents, ":agent"),
+	(agent_is_alive, ":agent"),
 	(agent_is_human, ":agent"),
 	(agent_is_non_player, ":agent"),
+	(agent_get_team, ":team", ":agent"),
 	(agent_slot_eq, ":agent", slot_agent_can_crouch, 0),
 	(agent_slot_eq, ":agent", slot_agent_pbs_state, pbs_state_holding_position),
 	(agent_get_division , ":company", ":agent"),
