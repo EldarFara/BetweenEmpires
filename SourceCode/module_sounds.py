@@ -246,4 +246,6 @@ sounds = [
 ("rifle_shot_reflection", sf_priority_1|sf_vol_15, ["rifle_shot_reflection1.wav", "rifle_shot_reflection2.wav", "rifle_shot_reflection3.wav", "rifle_shot_reflection4.wav"]),
 ("rifle_shot_far1", sf_2d|sf_priority_1|sf_vol_12, ["rifle_shot_far1_1.wav", "rifle_shot_far1_2.wav", "rifle_shot_far1_3.wav", "rifle_shot_far1_4.wav", "rifle_shot_far1_5.wav", "rifle_shot_far1_6.wav", "rifle_shot_far1_7.wav", "rifle_shot_far1_8.wav", "rifle_shot_far1_9.wav", "rifle_shot_far1_10.wav", "rifle_shot_far1_11.wav", "rifle_shot_far1_12.wav"]),
 
+("bugle_open_fire", sf_priority_12|sf_vol_15, ["bugle_open_fire1.wav", "bugle_open_fire2.wav"]),
+("bugle_stop_fire", sf_priority_12|sf_vol_15, ["bugle_stop_fire1.wav", "bugle_stop_fire2.wav"]),
 ]

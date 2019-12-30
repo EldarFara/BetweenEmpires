@@ -299,7 +299,7 @@ pbs_company_discipline = (0.2, 0, 0, [
 	(try_for_range, ":team", 0, 4),
 		(try_for_range, ":company", 0, 8),
 		(store_add, ":slot_team_soldier_number", slot_team_company1_soldier_number, ":company"),
-		(neq|team_slot_eq, ":team", ":slot_team_soldier_number", 0),
+		(neg|team_slot_eq, ":team", ":slot_team_soldier_number", 0),
 		(store_add, ":slot_team_penaltytodiscipline_fromfire", slot_team_company1_penaltytodiscipline_fromfire, ":company"),
 		(team_get_slot, ":penaltytodiscipline_fromfire", ":team", ":slot_team_penaltytodiscipline_fromfire"),
 		(store_add, ":slot_team_penaltytodiscipline_fromcloseenemy", slot_team_company1_penaltytodiscipline_fromcloseenemy, ":company"),
@@ -313,6 +313,42 @@ pbs_company_discipline = (0.2, 0, 0, [
 		(try_end),
 	(try_end),
 ],[])
+	
+timer_1000ms = (1, 0, 0, [
+(gt, "$bugle_cooldown", 0),
+(val_sub, "$bugle_cooldown", 1),
+],[])
+
+pbs_order_player = (ti_on_order_issued, 0, 0, [],
+[
+(store_trigger_param_1,":order"),
+(store_trigger_param_2,":leader"),	
+(get_player_agent_no, ":player"),
+(eq, ":player", ":leader"),
+(set_show_messages, 0),
+(agent_get_team, ":player_team", ":player"),
+(agent_get_position, pos30, ":player"),
+	(try_for_range, ":company", 0, 8),
+	(class_is_listening_order, ":player_team", ":company"),
+		(try_begin),
+		(eq, ":order", mordr_fire_at_will),
+		(call_script, "script_company_play_bugle", ":player_team", ":company", "snd_bugle_open_fire"),
+		(try_end),
+		(try_begin),
+		(eq, ":order", mordr_fire_at_my_command),
+		(call_script, "script_company_play_bugle", ":player_team", ":company", "snd_bugle_stop_fire"),
+		(try_end),
+		(try_begin),
+		(eq, ":order", mordr_hold),
+		(call_script, "script_company_hold_pos30", ":player_team", ":company"),
+		(try_end),
+		(try_begin),
+		(eq, ":order", mordr_charge),
+		(call_script, "script_company_charge", ":player_team", ":company"),
+		(try_end),
+	(try_end),
+(set_show_messages, 1),
+])
 	
 pbs_company_state = (0.4, 0, 0, [
 	(try_for_range, ":team", 0, 4),
@@ -507,30 +543,6 @@ bot_crouching = (0, 0, 0,[
 	(try_end),
 ], [])
 
-pbs_order_player = (ti_on_order_issued, 0, 0, [],
-[
-(store_trigger_param_1,":order"),
-(store_trigger_param_2,":leader"),	
-(get_player_agent_no, ":player"),
-(eq, ":player", ":leader"),
-(set_show_messages, 0),
-(agent_get_team, ":player_team", ":player"),
-(agent_get_position, pos30, ":player"),
-	(try_for_range, ":company", 0, 8),
-	(class_is_listening_order, ":player_team", ":company"),
-		(try_begin),
-		(eq, ":order", mordr_hold),
-		(team_give_order, ":player_team", ":company", mordr_charge),
-		(call_script, "script_company_hold_pos30", ":player_team", ":company"),
-		(try_end),
-		(try_begin),
-		(eq, ":order", mordr_charge),
-		(call_script, "script_company_charge", ":player_team", ":company"),
-		(try_end),
-	(try_end),
-(set_show_messages, 1),
-])
-
 spawn_of_first_agent = (ti_on_agent_spawn, 0, 0, [
 (store_trigger_param_1, ":agent"),
 (team_slot_eq, 0, slot_team_battle_started, 0),
@@ -562,6 +574,7 @@ battle_start = (
 (scene_prop_set_visibility, "$pbs_point1", 0),
 (assign, "$g_allies_team", 3),
 (assign, "$g_enemy_team", 0),
+(assign, "$bugle_cooldown", 0),
 ])
 
 pai_start = (5, 0, ti_once, [
@@ -1553,6 +1566,7 @@ pbs_company_penaltytodiscipline_fromcloseenemy,
 pbs_company_discipline,
 prebattle_deployment_ams,
 prebattle_deployment_bms,
+timer_1000ms,
 player_spawn,
 pai_start,
 pai_5000ms,

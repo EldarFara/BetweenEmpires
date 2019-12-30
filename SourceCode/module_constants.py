@@ -1130,6 +1130,14 @@ slot_team_company5_penaltytodiscipline_fromcloseenemy                       = 64
 slot_team_company6_penaltytodiscipline_fromcloseenemy                       = 65
 slot_team_company7_penaltytodiscipline_fromcloseenemy                       = 66
 slot_team_company8_penaltytodiscipline_fromcloseenemy                       = 67
+slot_team_company1_bugle_cooldown                       = 68
+slot_team_company2_bugle_cooldown                       = 69
+slot_team_company3_bugle_cooldown                       = 70
+slot_team_company4_bugle_cooldown                       = 71
+slot_team_company5_bugle_cooldown                       = 72
+slot_team_company6_bugle_cooldown                       = 73
+slot_team_company7_bugle_cooldown                       = 74
+slot_team_company8_bugle_cooldown                       = 75
 
 #Rebellion changes end
 # character backgrounds

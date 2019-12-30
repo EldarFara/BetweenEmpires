@@ -212,5 +212,7 @@ snd_mandeath6 = 210
 snd_rifle_shot_reflection_small = 211
 snd_rifle_shot_reflection = 212
 snd_rifle_shot_far1 = 213
+snd_bugle_open_fire = 214
+snd_bugle_stop_fire = 215
 
 

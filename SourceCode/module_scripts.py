@@ -52543,5 +52543,33 @@ scripts = [
 	(str_store_string, s1, "@C.G."),
 	(try_end),
 ]),
+
+("company_play_bugle",
+[
+(store_script_param, ":team", 1),
+(store_script_param, ":company", 2),
+(store_script_param, ":sound", 3),
+
+	(try_begin),
+	(eq, "$bugle_cooldown", 0),
+	(assign, "$bugle_cooldown", 4),
+	(assign, ":bugle_finished", 0),
+		(try_for_agents,":agent"),
+		(eq, ":bugle_finished", 0),
+		(agent_is_active, ":agent"),
+		(agent_is_alive, ":agent"),
+		(agent_is_human, ":agent"),
+		(agent_is_non_player, ":agent"),
+		(agent_get_team, ":agent_team", ":agent"),
+		(eq, ":agent_team", ":team"),
+		(agent_get_division , ":division", ":agent"),
+		(eq, ":division", ":company"),
+		(store_random_in_range, ":random", 1, 6),
+		(eq, ":random", 1),
+		(agent_play_sound, ":agent", ":sound"),
+		(assign, ":bugle_finished", 1),
+		(try_end),
+	(try_end),
+]),
   
 ]
