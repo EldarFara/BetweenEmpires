@@ -677,7 +677,7 @@ parties = [
 
 	  ("village_160","Chaumont",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(534.24,-154.79),[], 35),
 #Knights
-  ("village_161","French_Village",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(502.51,-5.74),[], 100),
+  ("village_161","Figari",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(502.51,-5.74),[], 100),
 
   ("village_162", "Targoviste",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(199.98,-84.37),[], 100),
 #scot
@@ -823,7 +823,7 @@ parties = [
     ("village_291", "Holestebro",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(475.83,-304.91),[], 170),
     ("village_292", "Bronderslev",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(454.56,-317.86),[], 170),
     ("village_293", "Sonderborg",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(468.82,-278.92),[], 170),
-    ("village_294", "Swiss_Village",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(518.45,-109.54),[], 170),
+    ("village_294", "Thus",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(518.45,-109.54),[], 170),
     ("village_295", "Moni_Skiadi",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(141.12,87.55),[], 170),
     ("village_296", "Dali",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(41.53,93.05),[], 170),
     ("village_297", "Verises",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(198.85,109.85),[], 170),
@@ -893,7 +893,7 @@ parties = [
     ("village_361", "Goldap",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(317.71,-268.44),[], 170),
     ("village_362", "Mragowo",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(328.01,-262.70),[], 170),
     ("village_363", "GieBen",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(448.71,-192.15),[], 170),
-    ("village_364", "German_Village",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(387.73,-188.85),[], 170),
+    ("village_364", "Chemnitz",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(387.73,-188.85),[], 170),
     ("village_365", "Malmo",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(402.99,-290.46),[], 170),
     ("village_366", "Karlskrona",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(374.71,-302.47),[], 170),
     ("village_367", "Vaxjo",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(388.92,-310.09),[], 170),
@@ -1192,7 +1192,7 @@ parties = [
     ("village_655", "Kazalynsk",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-378.99,-266.68),[], 170),
     ("village_656", "Turgay",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-385.15,-298.27),[], 170),
     ("village_657", "Nadym",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-507.61,-277.35),[], 170),
-    ("village_658", "Turkish_Village",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-54.03,-15.73),[], 170),
+    ("village_658", "Bingol",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-54.03,-15.73),[], 170),
     ("village_659", "Iglino",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-305.38,-306.09),[], 170),
     ("village_660", "Pokrovsk",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-626.31,-277.66),[], 170),
     ("village_661", "Tsaritsyn",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-163.22,-271.90),[], 170),
@@ -1206,7 +1206,7 @@ parties = [
     ("village_669", "Pavlodar",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-655.90,-339.53),[], 170),
     ("village_670", "Tomsk",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-744.18,-368.47),[], 170),
     ("village_671", "Thuringen",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(405.05,-191.41),[], 170),
-    ("village_672", "Chemitz",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(388.97,-176.82),[], 170),
+    ("village_672", "Zwickau",  icon_village4|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(388.97,-176.82),[], 170),
     
     
     
