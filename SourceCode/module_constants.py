@@ -8,6 +8,9 @@ from ID_factions import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+pai_global_tactic_simple_charge = 1
+pai_global_tactic_initial = 2
+
 spawable_prop_limit = 4000
 
 pbs_menu_distance_between_infolists = 90
@@ -1108,6 +1111,7 @@ slot_team_company6_moving_soldier_number                       = 47
 slot_team_company7_moving_soldier_number                       = 48
 slot_team_company8_moving_soldier_number                       = 49
 
+slot_team_pai_global_tactic                       = 50
 
 
 #Rebellion changes end

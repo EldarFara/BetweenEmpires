@@ -304,7 +304,7 @@ pbs_company_energy = (0.5, 0, 0, [
 	(try_end),
 ],[])
 	
-pbs_agents_moving_speed = (0.5, 0, 0, [
+pbs_agents_modifiers = (0.5, 0, 0, [
 	(try_for_agents,":agent"),
 	(agent_is_active, ":agent"),
 	(agent_is_alive, ":agent"),
@@ -313,9 +313,12 @@ pbs_agents_moving_speed = (0.5, 0, 0, [
 	(neg|agent_is_routed, ":agent"),
 	(agent_get_team, ":team", ":agent"),
 	(assign, ":speed", 110),
+	(assign, ":accuracy", 100),
+	#(assign, ":reload", 100),
 	(agent_get_slot, ":pbs_state", ":agent", slot_agent_pbs_state),
 	(agent_get_division , ":company", ":agent"),
 	(store_add, ":slot_team_run_mode", slot_team_company1_run_mode, ":company"),
+	(assign, ":marching_speed_modifier", 100),
 		(try_begin),
 		(team_slot_eq, ":team", ":slot_team_run_mode", pbs_run_mode_running),
 		(assign, ":marching_speed_modifier", 100),
@@ -337,7 +340,37 @@ pbs_agents_moving_speed = (0.5, 0, 0, [
 		(try_end),
 	(val_mul, ":speed", ":marching_speed_modifier"),
 	(val_div, ":speed", 100),
+	(store_add, ":slot_team_energy", slot_team_company1_energy, ":company"),
+	(team_get_slot, ":energy", ":team", ":slot_team_energy"),
+	(val_div, ":energy", 100),
+	(assign, ":energy_speed_modifier", 100),
+		# (try_begin),
+		# (le, ":energy", 70),
+		# (store_div, ":energy_reload_modifier", ":energy", 3),
+		# (val_add, ":energy_reload_modifier", 77),
+		# (try_end),
+		(try_begin),
+		(le, ":energy", 60),
+		(store_div, ":energy_speed_modifier", ":energy", 3),
+		(val_mul, ":energy_speed_modifier", 2),
+		(val_add, ":energy_speed_modifier", 60),
+		(try_end),
+		(try_begin),
+		(le, ":energy", 30),
+		(store_div, ":energy_accuracy_modifier", ":energy", 1),
+		(val_add, ":energy_accuracy_modifier", 70),
+		(try_end),
+	(val_mul, ":speed", ":energy_speed_modifier"),
+	(val_div, ":speed", 100),
+	(val_mul, ":accuracy", ":energy_accuracy_modifier"),
+	(val_div, ":accuracy", 100),
+	#(val_mul, ":reload", ":energy_reload_modifier"),
+	#(val_div, ":reload", 100),
+
 	(agent_set_speed_modifier, ":agent", ":speed"),
+	(agent_set_horse_speed_factor, ":agent", ":speed"),
+	(agent_set_accuracy_modifier, ":agent", ":accuracy"),
+	#(agent_set_reload_speed_modifier, ":agent", ":reload"),
 	(try_end),
 ],
 [])
@@ -431,7 +464,6 @@ spawn_of_first_agent = (ti_on_agent_spawn, 0, 0, [
 ],
 [])
 
-
 battle_start = (
   0, 0, ti_once, [],
 [
@@ -444,6 +476,29 @@ battle_start = (
 (scene_prop_set_visibility, "$pbs_point1", 0),
 (assign, "$g_allies_team", 3),
 (assign, "$g_enemy_team", 0),
+])
+
+pai_start = (2, 0, ti_once, [
+	(try_begin),
+	(team_get_leader, ":enemy_leader", "$g_enemy_team"),
+	(agent_is_active, ":enemy_leader"),
+	(agent_is_alive, ":enemy_leader"),
+	(agent_get_party_id, ":agent_party", ":enemy_leader"),
+	(party_is_active, ":agent_party"),
+	(party_slot_eq, ":agent_party", slot_party_type, spt_kingdom_hero_party),
+	(team_set_slot, "$g_enemy_team", slot_team_pai_global_tactic, pai_global_tactic_initial),
+	(else_try),
+	(team_set_slot, "$g_enemy_team", slot_team_pai_global_tactic, pai_global_tactic_simple_charge),
+		(try_for_range, ":company", 0, 8),
+		(team_give_order, "$g_enemy_team", ":company", mordr_charge),
+		(call_script, "script_company_charge", "$g_enemy_team", ":company"),
+		(try_end),
+	(try_end),
+],
+[])
+
+pai_5000ms = (5, 0, 0, [],
+[
 ])
 
 player_spawn = (ti_on_agent_spawn, 0, 0, [
@@ -465,6 +520,14 @@ player_spawn = (ti_on_agent_spawn, 0, 0, [
 (team_set_slot, "$g_player_team", slot_team_company6_type, "$player_company6_type"),
 (team_set_slot, "$g_player_team", slot_team_company7_type, "$player_company7_type"),
 (team_set_slot, "$g_player_team", slot_team_company8_type, "$player_company8_type"),
+(team_set_slot, "$g_enemy_team", slot_team_company1_type, pbs_troop_type_line),
+(team_set_slot, "$g_enemy_team", slot_team_company2_type, pbs_troop_type_line),
+(team_set_slot, "$g_enemy_team", slot_team_company3_type, pbs_troop_type_light),
+(team_set_slot, "$g_enemy_team", slot_team_company4_type, pbs_troop_type_guard),
+(team_set_slot, "$g_enemy_team", slot_team_company5_type, pbs_troop_type_cavmelee),
+(team_set_slot, "$g_enemy_team", slot_team_company6_type, pbs_troop_type_cavranged),
+(team_set_slot, "$g_enemy_team", slot_team_company7_type, 0),
+(team_set_slot, "$g_enemy_team", slot_team_company8_type, 0),
 (call_script, "script_company_get_name_battle_menu", "$g_player_team", 0), (class_set_name, 0, "@1st {s1}"),
 (call_script, "script_company_get_name_battle_menu", "$g_player_team", 1), (class_set_name, 1, "@2nd {s1}"),
 (call_script, "script_company_get_name_battle_menu", "$g_player_team", 2), (class_set_name, 2, "@3rd {s1}"),
@@ -1379,10 +1442,12 @@ bot_animation,
 pbs_run_toggle,
 pbs_company_energy,
 pbs_company_state,
-pbs_agents_moving_speed,
+pbs_agents_modifiers,
 prebattle_deployment_ams,
 prebattle_deployment_bms,
 player_spawn,
+pai_start,
+pai_5000ms,
 test,
   ]	
 
