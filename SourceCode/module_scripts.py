@@ -52581,7 +52581,7 @@ scripts = [
 (store_add, ":slot_team_state", slot_team_company1_state, ":company"),
 (team_set_slot, ":team", ":slot_team_state", pbs_state_retreating),
 (store_add, ":slot_team_timer", slot_team_company1_timer, ":company"),
-(team_set_slot, ":team", ":slot_team_timer", 10),
+(team_set_slot, ":team", ":slot_team_timer", 12),
 (store_add, ":slot_team_company_type", slot_team_company1_type, ":company"),
 (team_get_slot, ":company_type", ":team", ":slot_team_company_type"),
 
@@ -52641,6 +52641,25 @@ scripts = [
 		(eq, ":company_type", pbs_troop_type_guard),
 		(agent_start_running_away, ":agent", pos1),
 		(try_end),
+	(try_end),
+]),
+
+("company_stop_retreat",
+[
+(store_script_param, ":team", 1),
+(store_script_param, ":company", 2),
+
+	(try_for_agents,":agent"),
+	(agent_is_active, ":agent"),
+	(agent_is_alive, ":agent"),
+	(agent_is_human, ":agent"),
+	(agent_is_non_player, ":agent"),
+	(agent_get_team, ":agent_team", ":agent"),
+	(eq, ":agent_team", ":team"),
+	(agent_get_division , ":division", ":agent"),
+	(eq, ":division", ":company"),
+	(agent_set_slot, ":agent", slot_agent_pbs_state, pbs_state_generic),
+	(agent_stop_running_away, ":agent"),
 	(try_end),
 ]),
   

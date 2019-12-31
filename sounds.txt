@@ -1,5 +1,5 @@
 soundsfile version 3
-731
+734
  drum_3.ogg 769
  tutorial_1.ogg 1793
  tutorial_2.ogg 1793
@@ -731,7 +731,10 @@ soundsfile version 3
  bugle_run1.wav 4032
  bugle_walk1.wav 4032
  bugle_retreat1.wav 4032
-219
+ bugle_stop_retreat1.wav 4032
+ bugle_cavalry_charge1.wav 4032
+ bugle_cavalry_charge2.wav 4032
+221
 snd_click 769 1 0 0 
 snd_tutorial_1 1793 1 1 0 
 snd_tutorial_2 1793 1 2 0 
@@ -951,3 +954,5 @@ snd_bugle_stop_fire 4032 2 726 0 727 0
 snd_bugle_run 4032 1 728 0 
 snd_bugle_walk 4032 1 729 0 
 snd_bugle_retreat 4032 1 730 0 
+snd_bugle_stop_retreat 4032 1 731 0 
+snd_bugle_cavalry_charge 4032 2 732 0 733 0 
