@@ -2598,11 +2598,11 @@ itemsfile version 3
  0
 0
 
- itm_rifle_berdan Berdan_Rifle Berdan_Rifle 2  berdan 0  berdan_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 100 0 0 100 0 0 60 550 0 1 321 0
+ itm_rifle_berdan Berdan_Rifle Berdan_Rifle 2  berdan 0  berdan_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 100 0 0 105 0 0 60 550 0 1 321 0
  0
 0
 
- itm_rifle_berdan_m Berdan_Rifle Berdan_Rifle 1  berdan 0  6553604 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 100 0 296 530
+ itm_rifle_berdan_m Berdan_Rifle Berdan_Rifle 1  berdan 0  6553604 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 120 0 301 530
  0
 0
 
@@ -2630,15 +2630,15 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1845_m Russian_M1845_Musket Russian_M1845_Musket 1  russian_m1845 0  6553604 4222130824676096 0 0 4.500000 100 0 0 0 0 18432 75 0 100 0 296 530
+ itm_rifle_russian_m1845_m Russian_M1845_Musket Russian_M1845_Musket 1  russian_m1845 0  6553604 4222130824676096 0 0 4.500000 100 0 0 0 0 18432 75 0 120 0 301 530
  0
 0
 
- itm_rifle_russian_m1856 Russian_M1856_Rifle Russian_M1856_Rifle 2  russian_m1856 0  russian_m1856_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 100 0 0 95 0 0 55 500 0 1 321 0
+ itm_rifle_russian_m1856 Russian_M1856_Rifle Russian_M1856_Rifle 2  russian_m1856 0  russian_m1856_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 100 0 0 100 0 0 55 500 0 1 321 0
  0
 0
 
- itm_rifle_russian_m1856_m Russian_M1856_Rifle Russian_M1856_Rifle 1  russian_m1856 0  6553604 4222130824676096 0 0 4.750000 100 0 0 0 0 18432 75 0 100 0 296 530
+ itm_rifle_russian_m1856_m Russian_M1856_Rifle Russian_M1856_Rifle 1  russian_m1856 0  6553604 4222130824676096 0 0 4.750000 100 0 0 0 0 18432 75 0 120 0 301 530
  0
 0
 
@@ -2725,7 +2725,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_berdan_carbine Berdan_Carbine Berdan_Carbine 2  berdan_carbine 0  berdan_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 100 0 0 85 0 0 78 550 0 1 321 0
+ itm_rifle_berdan_carbine Berdan_Carbine Berdan_Carbine 2  berdan_carbine 0  berdan_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 100 0 0 89 0 0 78 550 0 1 321 0
  0
 0
 
@@ -2733,7 +2733,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1856_carbine Russian_M1856_Carbine Russian_M1856_Carbine 2  russian_m1856_carbine 0  russian_m1856_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 100 0 0 80 0 0 71 500 0 1 321 0
+ itm_rifle_russian_m1856_carbine Russian_M1856_Carbine Russian_M1856_Carbine 2  russian_m1856_carbine 0  russian_m1856_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 100 0 0 85 0 0 71 500 0 1 321 0
  0
 0
 

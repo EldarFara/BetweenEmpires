@@ -1155,6 +1155,14 @@ slot_team_company5_timer                       = 88
 slot_team_company6_timer                       = 89
 slot_team_company7_timer                       = 90
 slot_team_company8_timer                       = 91
+slot_team_company1_aiming_soldier_number                       = 92
+slot_team_company2_aiming_soldier_number                       = 93
+slot_team_company3_aiming_soldier_number                       = 94
+slot_team_company4_aiming_soldier_number                       = 95
+slot_team_company5_aiming_soldier_number                       = 96
+slot_team_company6_aiming_soldier_number                       = 97
+slot_team_company7_aiming_soldier_number                       = 98
+slot_team_company8_aiming_soldier_number                       = 99
 
 #Rebellion changes end
 # character backgrounds

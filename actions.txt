@@ -591,15 +591,15 @@
  parried_slash_horseback_polearm_left 1679818752 35684367  1
   0.300000 anim_human 27615 27613 3 0 0.0 0.0 0.0 0.0 
  ready_overswing_staff 524288 1679818762  1
-  0.350000 attacks_staff_uptodown 9 26 7 0 0.0 0.0 0.0 0.0 
+  0.350000 spear_thrust_overhead 0 20 7 0 0.0 0.0 0.0 0.0 
  release_overswing_staff 524288 2183135242  1
-  0.600000 attacks_staff_uptodown 26 61 6 0 0.0 0.0 0.0 0.0 
+  0.600000 spear_thrust_overhead 20 41 6 0 0.0 0.0 0.0 0.0 
  release_overswing_staff_continue 0 572522497  1
-  0.300000 attacks_staff_uptodown 61 68 2 0 0.0 0.0 0.0 0.0 
+  0.300000 spear_thrust_overhead 41 52 3 0 0.0 0.0 0.0 0.0 
  blocked_overswing_staff 0 35651599  1
-  0.300000 anim_human 27017 27014 3 0 0.0 0.0 0.0 0.0 
+  0.300000 spear_thrust_overhead 26 22 3 0 0.0 0.0 0.0 0.0 
  parried_overswing_staff 0 35651599  1
-  0.600000 anim_human 27017 27014 3 0 0.0 0.0 0.0 0.0 
+  0.300000 spear_thrust_overhead 26 22 3 0 0.0 0.0 0.0 0.0 
  ready_thrust_staff 1678835712 1679818762  1
   0.350000 attacks_staff_thrust 14 21 7 0 0.0 0.0 0.0 0.0 
  release_thrust_staff 1678835712 35651594  1
