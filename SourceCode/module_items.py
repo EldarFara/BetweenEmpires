@@ -27,18 +27,18 @@ from header_triggers import *
 default_horse_maneuver = 45
 default_horse_speed = 45
 
-accuracy_small_caliber_rifle = 90
-accuracy_conversion_rifle = 85
-accuracy_muzzleloaded_rifle = 85
+accuracy_small_caliber_rifle = 100
+accuracy_conversion_rifle = 95
+accuracy_muzzleloaded_rifle = 95
 accuracy_muzzleloaded_musket = 70
 
 speed_small_caliber_rifle = 60
 speed_rifle = 55
 speed_musket = 55
 
-damage_small_caliber_rifle = 55
-damage_rifle = 60
-damage_musket = 50
+damage_small_caliber_rifle = 60
+damage_rifle = 65
+damage_musket = 55
 
 shot_speed_small_caliber_rifle = 550
 shot_speed_rifle = 500

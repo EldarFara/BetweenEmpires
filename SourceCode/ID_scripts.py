@@ -618,5 +618,6 @@ script_prebattle_calculate_battle_advantage_and_size = 616
 script_company_get_name_battle_menu = 617
 script_company_get_name_pbs_menu = 618
 script_company_play_bugle = 619
+script_company_retreat = 620
 
 

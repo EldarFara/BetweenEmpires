@@ -26,6 +26,7 @@ pbs_state_generic = 0
 pbs_state_moving_to_position = 1
 pbs_state_holding_position = 2
 pbs_state_charging = 3
+pbs_state_retreating = 4
 
 pbs_run_mode_walking = 0
 pbs_run_mode_running = 1
@@ -1130,14 +1131,30 @@ slot_team_company5_penaltytodiscipline_fromcloseenemy                       = 64
 slot_team_company6_penaltytodiscipline_fromcloseenemy                       = 65
 slot_team_company7_penaltytodiscipline_fromcloseenemy                       = 66
 slot_team_company8_penaltytodiscipline_fromcloseenemy                       = 67
-slot_team_company1_bugle_cooldown                       = 68
-slot_team_company2_bugle_cooldown                       = 69
-slot_team_company3_bugle_cooldown                       = 70
-slot_team_company4_bugle_cooldown                       = 71
-slot_team_company5_bugle_cooldown                       = 72
-slot_team_company6_bugle_cooldown                       = 73
-slot_team_company7_bugle_cooldown                       = 74
-slot_team_company8_bugle_cooldown                       = 75
+slot_team_company1_guards_number                       = 68
+slot_team_company2_guards_number                       = 69
+slot_team_company3_guards_number                       = 70
+slot_team_company4_guards_number                       = 71
+slot_team_company5_guards_number                       = 72
+slot_team_company6_guards_number                       = 73
+slot_team_company7_guards_number                       = 74
+slot_team_company8_guards_number                       = 75
+slot_team_company1_state                       = 76
+slot_team_company2_state                       = 77
+slot_team_company3_state                       = 78
+slot_team_company4_state                       = 79
+slot_team_company5_state                       = 80
+slot_team_company6_state                       = 81
+slot_team_company7_state                       = 82
+slot_team_company8_state                       = 83
+slot_team_company1_timer                       = 84
+slot_team_company2_timer                       = 85
+slot_team_company3_timer                       = 86
+slot_team_company4_timer                       = 87
+slot_team_company5_timer                       = 88
+slot_team_company6_timer                       = 89
+slot_team_company7_timer                       = 90
+slot_team_company8_timer                       = 91
 
 #Rebellion changes end
 # character backgrounds

@@ -1141,7 +1141,7 @@ troops = [
   [itm_gho_infantry_trousers2, itm_gho_infantry3, itm_gho_infantry4, itm_gho_hat1, itm_rifle_russian_m1845, itm_ammo_rifle],
   str_5|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000002200c1c8191053471d3749a100000000001da39c0000000000000000],
   ["faction12_troop6", "Persian Light Infantry (Exp.)", "Persian Light Infantry (Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_12,
-  [itm_gho_infantry_trousers1, itm_gho_infantry1, itm_gho_infantry2, itm_gho_infantry3, itm_gho_hat1, itm_rifle_russian_m1845, itm_rifle_russian_m1856, itm_ammo_rifle_double],
+  [itm_gho_infantry_trousers2, itm_gho_infantry3, itm_gho_infantry4, itm_gho_hat1, itm_rifle_russian_m1845, itm_ammo_rifle],
   str_5|agi_5|int_4|cha_4|level(16), wp1(60, 80), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000002200c1c8191053471d3749a100000000001da39c0000000000000000],
   ["faction12_troop7", "Persian Royal Guard", "Persian Royal Guard", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_12,
   [itm_gho_infantry_trousers3, itm_gho_infantry5, itm_gho_hat2, itm_rifle_russian_m1845, itm_ammo_rifle],
