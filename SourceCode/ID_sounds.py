@@ -214,5 +214,7 @@ snd_rifle_shot_reflection = 212
 snd_rifle_shot_far1 = 213
 snd_bugle_open_fire = 214
 snd_bugle_stop_fire = 215
+snd_bugle_run = 216
+snd_bugle_walk = 217
 
 

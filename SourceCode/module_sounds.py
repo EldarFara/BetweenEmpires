@@ -248,4 +248,6 @@ sounds = [
 
 ("bugle_open_fire", sf_priority_12|sf_vol_15, ["bugle_open_fire1.wav", "bugle_open_fire2.wav"]),
 ("bugle_stop_fire", sf_priority_12|sf_vol_15, ["bugle_stop_fire1.wav", "bugle_stop_fire2.wav"]),
+("bugle_run", sf_priority_12|sf_vol_15, ["bugle_run1.wav"]),
+("bugle_walk", sf_priority_12|sf_vol_15, ["bugle_walk1.wav"]),
 ]
