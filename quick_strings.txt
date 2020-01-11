@@ -1,4 +1,4 @@
-770
+775
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
 qstr_Game_Rules:^ Game_Rules:^
@@ -141,6 +141,11 @@ qstr_{s5}_has_been_defeat {s5}_has_been_defeated!
 qstr_{!}DEBUG____Assigned {!}DEBUG_--_Assigned_lord_reputation_and_relations
 qstr_{s7}_opened_the_gate {s7}_opened_the_gate
 qstr_{s7}_closed_the_gate {s7}_closed_the_gate
+qstr_Smoothbore_musket Smoothbore_musket
+qstr_Rifled_musket Rifled_musket
+qstr_Small_caliber_breech Small_caliber_breech_loader
+qstr_Smoothbore_pistol Smoothbore_pistol
+qstr_Revolver Revolver
 qstr_+{reg1}_to_party_mor +{reg1}_to_party_morale
 qstr_Requires_{reg1}_inte Requires_{reg1}_intelligence_to_read
 qstr_Reading_Progress:_{r Reading_Progress:_{reg1}%

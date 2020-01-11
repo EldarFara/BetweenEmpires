@@ -36,9 +36,9 @@ speed_small_caliber_rifle = 60
 speed_rifle = 55
 speed_musket = 55
 
-damage_small_caliber_rifle = 60
-damage_rifle = 65
-damage_musket = 55
+damage_small_caliber_rifle = 65
+damage_rifle = 70
+damage_musket = 60
 
 shot_speed_small_caliber_rifle = 550
 shot_speed_rifle = 500
@@ -47,10 +47,10 @@ shot_speed_musket = 300
 accuracy_carbine_modifier = 0.85
 speed_carbine_modifier = 1.3
 
-accuracy_light_pistol = 70
-accuracy_medium_pistol = 75
-accuracy_heavy_pistol = 80
-accuracy_smoothbore_pistol = 70
+accuracy_light_pistol = 85
+accuracy_medium_pistol = 90
+accuracy_heavy_pistol = 95
+accuracy_smoothbore_pistol = 80
 
 # Some constants for ease of use.
 imodbits_none = 0
@@ -1552,6 +1552,9 @@ items = [
 ["horse_french5c","Black French Warmblood", [("horse_european3",0),("horse_european3",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 300,abundance(100)|hit_points(190)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.00))|horse_maneuver(int(default_horse_maneuver*1.06))|horse_charge(30)|horse_scale(100),imodbits_horse_basic],
 ["horse_french5d","Gray French Warmblood", [("horse_european4",0),("horse_european4",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 300,abundance(100)|hit_points(190)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.00))|horse_maneuver(int(default_horse_maneuver*1.06))|horse_charge(30)|horse_scale(100),imodbits_horse_basic],
 ["horse_french6a","Gray Camargue Horse", [("horse_european4",0),("horse_european4",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 350,abundance(100)|hit_points(235)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.03))|horse_maneuver(int(default_horse_maneuver*1.09))|horse_charge(35)|horse_scale(100),imodbits_horse_basic],
+
+["gho_leader1","gho_leader1", [("gho_leader1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["gho_leader_trousers1","gho_leader_trousers1", [("gho_leader_trousers1", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
 
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],

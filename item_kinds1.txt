@@ -1,5 +1,5 @@
 itemsfile version 3
-819
+821
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -2598,7 +2598,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_berdan Berdan_Rifle Berdan_Rifle 2  berdan 0  berdan_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 100 0 0 105 0 0 60 550 0 1 321 0
+ itm_rifle_berdan Berdan_Rifle Berdan_Rifle 2  berdan 0  berdan_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 100 0 0 105 0 0 60 550 0 1 326 0
  0
 0
 
@@ -2622,11 +2622,11 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_colt_m1873 Colt_Single_Action_Army Colt_Single_Action_Army 2  colt_m1873 0  pistol_holster1 3458764513820540928  4259856 518080888832 400 131082 1.000000 100 0 0 75 0 0 50 198 0 6 301 0
+ itm_sidearm_colt_m1873 Colt_Single_Action_Army Colt_Single_Action_Army 2  colt_m1873 0  pistol_holster1 3458764513820540928  4259856 518080888832 400 131082 1.000000 100 0 0 90 0 0 50 198 0 6 301 0
  0
 0
 
- itm_rifle_russian_m1845 Russian_M1845_Musket Russian_M1845_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 300 0 1 311 0
+ itm_rifle_russian_m1845 Russian_M1845_Musket Russian_M1845_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 300 0 1 316 0
  0
 0
 
@@ -2634,7 +2634,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1856 Russian_M1856_Rifle Russian_M1856_Rifle 2  russian_m1856 0  russian_m1856_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 100 0 0 100 0 0 55 500 0 1 321 0
+ itm_rifle_russian_m1856 Russian_M1856_Rifle Russian_M1856_Rifle 2  russian_m1856 0  russian_m1856_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 100 0 0 100 0 0 55 500 0 1 326 0
  0
 0
 
@@ -2657,7 +2657,7 @@ itemsfile version 3
 1
 -52.000000  3 4 0 1975 3 1008806316530991164 1 8 3 0 
 
- itm_rifle_middle_east_musket1 Oriental_Musket Oriental_Musket 2  middle_east_musket1 0  middle_east_musket1_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 300 0 1 311 0
+ itm_rifle_middle_east_musket1 Oriental_Musket Oriental_Musket 2  middle_east_musket1 0  middle_east_musket1_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 300 0 1 316 0
  0
 0
 
@@ -2665,7 +2665,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_middle_east_musket2 Oriental_Musket Oriental_Musket 2  middle_east_musket2 0  middle_east_musket2_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 300 0 1 311 0
+ itm_rifle_middle_east_musket2 Oriental_Musket Oriental_Musket 2  middle_east_musket2 0  middle_east_musket2_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 300 0 1 316 0
  0
 0
 
@@ -2673,7 +2673,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_middle_east_musket3 Oriental_Musket Oriental_Musket 2  middle_east_musket3 0  middle_east_musket3_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 300 0 1 311 0
+ itm_rifle_middle_east_musket3 Oriental_Musket Oriental_Musket 2  middle_east_musket3 0  middle_east_musket3_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 300 0 1 316 0
  0
 0
 
@@ -2681,7 +2681,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_middle_east_musket4 Oriental_Musket Oriental_Musket 2  middle_east_musket4 0  middle_east_musket4_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 300 0 1 311 0
+ itm_rifle_middle_east_musket4 Oriental_Musket Oriental_Musket 2  middle_east_musket4 0  middle_east_musket4_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 300 0 1 316 0
  0
 0
 
@@ -2689,7 +2689,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_middle_east_musket5 Oriental_Musket Oriental_Musket 2  middle_east_musket5 0  middle_east_musket5_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 300 0 1 311 0
+ itm_rifle_middle_east_musket5 Oriental_Musket Oriental_Musket 2  middle_east_musket5 0  middle_east_musket5_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 300 0 1 316 0
  0
 0
 
@@ -2697,15 +2697,15 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_smithwesson_no2 Smith_&_Wesson_Model_2 Smith_&_Wesson_Model_2 2  smithwesson_no2 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.000000 100 0 0 80 0 0 45 200 0 6 306 0
+ itm_sidearm_smithwesson_no2 Smith_&_Wesson_Model_2 Smith_&_Wesson_Model_2 2  smithwesson_no2 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.000000 100 0 0 95 0 0 45 200 0 6 306 0
  0
 0
 
- itm_sidearm_flintlock_pistol1 Flintlock_Pistol Flintlock_Pistol 1  flintlock_pistol1 0  4259856 483721150464 400 131082 1.500000 100 0 0 70 0 0 10 150 0 1 306 0
+ itm_sidearm_flintlock_pistol1 Flintlock_Pistol Flintlock_Pistol 1  flintlock_pistol1 0  4259856 483721150464 400 131082 1.500000 100 0 0 80 0 0 10 150 0 1 306 0
  0
 0
 
- itm_sidearm_caplock_pistol1 Caplock_Pistol Caplock_Pistol 1  caplock_pistol1 0  4259856 483721150464 400 131082 1.500000 100 0 0 70 0 0 12 150 0 1 306 0
+ itm_sidearm_caplock_pistol1 Caplock_Pistol Caplock_Pistol 1  caplock_pistol1 0  4259856 483721150464 400 131082 1.500000 100 0 0 80 0 0 12 150 0 1 306 0
  0
 0
 
@@ -2725,7 +2725,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_berdan_carbine Berdan_Carbine Berdan_Carbine 2  berdan_carbine 0  berdan_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 100 0 0 89 0 0 78 550 0 1 321 0
+ itm_rifle_berdan_carbine Berdan_Carbine Berdan_Carbine 2  berdan_carbine 0  berdan_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 100 0 0 89 0 0 78 550 0 1 326 0
  0
 0
 
@@ -2733,7 +2733,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1856_carbine Russian_M1856_Carbine Russian_M1856_Carbine 2  russian_m1856_carbine 0  russian_m1856_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 100 0 0 85 0 0 71 500 0 1 321 0
+ itm_rifle_russian_m1856_carbine Russian_M1856_Carbine Russian_M1856_Carbine 2  russian_m1856_carbine 0  russian_m1856_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 100 0 0 85 0 0 71 500 0 1 326 0
  0
 0
 
@@ -2745,11 +2745,11 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_colt_dragoon Colt_Dragoon Colt_Dragoon 2  colt_dragoon 0  pistol_holster1 3458764513820540928  4259856 518080888832 400 131082 1.750000 100 0 0 80 0 0 35 320 0 6 311 0
+ itm_sidearm_colt_dragoon Colt_Dragoon Colt_Dragoon 2  colt_dragoon 0  pistol_holster1 3458764513820540928  4259856 518080888832 400 131082 1.750000 100 0 0 95 0 0 35 320 0 6 311 0
  0
 0
 
- itm_sidearm_remington1 Remington_Model_1858 Remington_Model_1858 2  remington1 0  pistol_holster1 3458764513820540928  4259856 518080888832 400 131082 1.000000 100 0 0 75 0 0 50 198 0 6 301 0
+ itm_sidearm_remington1 Remington_Model_1858 Remington_Model_1858 2  remington1 0  pistol_holster1 3458764513820540928  4259856 518080888832 400 131082 1.000000 100 0 0 90 0 0 50 198 0 6 301 0
  0
 0
 
@@ -2769,7 +2769,7 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_gasser Gasser_M1870 Gasser_M1870 2  gasser 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 75 0 0 50 210 0 6 304 0
+ itm_sidearm_gasser Gasser_M1870 Gasser_M1870 2  gasser 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 90 0 0 50 210 0 6 304 0
  0
 0
 
@@ -2941,7 +2941,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1845_carbine Russian_M1856_Carbine Russian_M1856_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 100 0 0 59 0 0 71 300 0 1 311 0
+ itm_rifle_russian_m1845_carbine Russian_M1856_Carbine Russian_M1856_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 100 0 0 59 0 0 71 300 0 1 316 0
  0
 0
 
@@ -3310,6 +3310,14 @@ itemsfile version 3
 0
 
  itm_horse_french6a Gray_Camargue_Horse Gray_Camargue_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 350 41876193280 0.000000 100 0 1 0 1 235 49 46 100 0 35 0
+ 0
+0
+
+ itm_gho_leader1 gho_leader1 gho_leader1 1  gho_leader1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_gho_leader_trousers1 gho_leader_trousers1 gho_leader_trousers1 1  gho_leader_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
  0
 0
 

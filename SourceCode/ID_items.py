@@ -816,4 +816,6 @@ itm_horse_french5b = 814
 itm_horse_french5c = 815
 itm_horse_french5d = 816
 itm_horse_french6a = 817
-itm_items_end = 818
+itm_gho_leader1 = 818
+itm_gho_leader_trousers1 = 819
+itm_items_end = 820
