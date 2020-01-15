@@ -1,4 +1,4 @@
-775
+777
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
 qstr_Game_Rules:^ Game_Rules:^
@@ -143,9 +143,11 @@ qstr_{s7}_opened_the_gate {s7}_opened_the_gate
 qstr_{s7}_closed_the_gate {s7}_closed_the_gate
 qstr_Smoothbore_musket Smoothbore_musket
 qstr_Rifled_musket Rifled_musket
+qstr_Converted_breech_loa Converted_breech_loader
 qstr_Small_caliber_breech Small_caliber_breech_loader
 qstr_Smoothbore_pistol Smoothbore_pistol
 qstr_Revolver Revolver
+qstr_Pocket_Revolver Pocket_Revolver
 qstr_+{reg1}_to_party_mor +{reg1}_to_party_morale
 qstr_Requires_{reg1}_inte Requires_{reg1}_intelligence_to_read
 qstr_Reading_Progress:_{r Reading_Progress:_{reg1}%

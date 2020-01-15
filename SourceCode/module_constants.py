@@ -10,6 +10,8 @@ from ID_factions import *
 
 pai_global_tactic_simple_charge = 1
 pai_global_tactic_initial = 2
+pai_global_tactic_attack = 3
+pai_global_tactic_defend = 4
 
 spawable_prop_limit = 4000
 
@@ -27,6 +29,7 @@ pbs_state_moving_to_position = 1
 pbs_state_holding_position = 2
 pbs_state_charging = 3
 pbs_state_retreating = 4
+pbs_state_is_reinforcement = 4
 
 pbs_run_mode_walking = 0
 pbs_run_mode_running = 1
@@ -1163,6 +1166,30 @@ slot_team_company5_aiming_soldier_number                       = 96
 slot_team_company6_aiming_soldier_number                       = 97
 slot_team_company7_aiming_soldier_number                       = 98
 slot_team_company8_aiming_soldier_number                       = 99
+slot_team_company1_average_x                       = 100
+slot_team_company2_average_x                       = 101
+slot_team_company3_average_x                       = 102
+slot_team_company4_average_x                       = 103
+slot_team_company5_average_x                       = 104
+slot_team_company6_average_x                       = 105
+slot_team_company7_average_x                       = 106
+slot_team_company8_average_x                       = 107
+slot_team_company1_average_y                       = 108
+slot_team_company2_average_y                       = 109
+slot_team_company3_average_y                       = 110
+slot_team_company4_average_y                       = 111
+slot_team_company5_average_y                       = 112
+slot_team_company6_average_y                       = 113
+slot_team_company7_average_y                       = 114
+slot_team_company8_average_y                       = 115
+slot_team_company1_average_z_rot                       = 116
+slot_team_company2_average_z_rot                       = 117
+slot_team_company3_average_z_rot                       = 118
+slot_team_company4_average_z_rot                       = 119
+slot_team_company5_average_z_rot                       = 120
+slot_team_company6_average_z_rot                       = 121
+slot_team_company7_average_z_rot                       = 122
+slot_team_company8_average_z_rot                       = 123
 
 #Rebellion changes end
 # character backgrounds

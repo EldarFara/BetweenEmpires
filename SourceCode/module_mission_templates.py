@@ -325,6 +325,12 @@ pbs_company_discipline = (0.2, 0, 0, [
 	
 timer_1000ms = (1, 0, 0, [
 	(try_for_range, ":team", 0, 4),
+	(team_get_slot, ":timer", ":team", slot_team_pai_timer),
+		(try_begin),
+		(gt, ":timer", 0),
+		(val_sub, ":timer", 1),
+		(team_set_slot, ":team", slot_team_pai_timer, ":timer"),
+		(try_end),
 		(try_for_range, ":company", 0, 8),
 		(store_add, ":slot_team_timer", slot_team_company1_timer, ":company"),
 		(team_get_slot, ":timer", ":team", ":slot_team_timer"),
@@ -655,6 +661,8 @@ spawn_of_first_agent = (ti_on_agent_spawn, 0, 0, [
 (team_slot_eq, 0, slot_team_battle_started, 0),
 (eq, ":agent", ":agent"),
 (team_set_slot, 0, slot_team_battle_started, 1),
+(assign, "$async_calculate_company_average_coordinates_team", 0),
+(assign, "$async_calculate_company_average_coordinates_company", 0),
 (set_show_messages, 0),
 	(try_for_range, ":team", 0, 4),
 		(try_for_range, ":company", 0, 8),
@@ -683,6 +691,38 @@ battle_start = (
 (assign, "$g_enemy_team", 0),
 (assign, "$bugle_cooldown", 0),
 ])
+
+pai_calculate_company_average_coordinates_async = (0.2, 0, 0, [
+	(try_begin),
+	(ge, "$async_calculate_company_average_coordinates_team", 4),
+	(assign, "$async_calculate_company_average_coordinates_team", 0),
+	(try_end),
+	(try_begin),
+	(ge, "$async_calculate_company_average_coordinates_company", 8),
+	(assign, "$async_calculate_company_average_coordinates_company", 0),
+	(try_end),
+(val_add, "$async_calculate_company_average_coordinates_team", 1),
+(val_add, "$async_calculate_company_average_coordinates_company", 1),
+#(call_script, "script_calculate_company_average_coordinates", "$async_calculate_company_average_coordinates_team", "$async_calculate_company_average_coordinates_company"),
+],
+[])
+
+pai_5000ms = (5, 0, 0, [
+(team_get_slot, ":timer", "$g_enemy_team", slot_team_pai_timer),
+(team_get_slot, ":global_tactic", "$g_enemy_team", slot_team_pai_global_tactic),
+	(try_begin),
+	(eq, ":global_tactic", pai_global_tactic_initial),
+	(eq, ":timer", 0),
+		(try_begin),
+		(eq, "$cant_leave_encounter", 0),
+		(team_set_slot, "$g_enemy_team", slot_team_pai_global_tactic, pai_global_tactic_defend),
+		#(team_set_slot, "$g_enemy_team", slot_team_pai_timer, ":timer"),
+		(else_try),
+		(team_set_slot, "$g_enemy_team", slot_team_pai_global_tactic, pai_global_tactic_attack),
+		(try_end),
+	(try_end),
+],
+[])
 
 pai_start = (5, 0, ti_once, [
 	(try_begin),
@@ -1727,7 +1767,9 @@ timer_1000ms,
 player_spawn,
 pbs_melee,
 pai_start,
+pai_5000ms,
 pai_volley_fire,
+pai_calculate_company_average_coordinates_async,
 test,
   ]	
 
@@ -4092,8 +4134,8 @@ mission_templates = [
       (0, 0, ti_once, [
           (store_mission_timer_a,":mission_time"),(ge,":mission_time",2),
           ],
-       [(call_script, "script_select_battle_tactic"),
-        (call_script, "script_battle_tactic_init"),
+       [#(call_script, "script_select_battle_tactic"),
+        #(call_script, "script_battle_tactic_init"),
         #(call_script, "script_battle_calculate_initial_powers"), #deciding run away method changed and that line is erased
         ]),
       
@@ -4116,7 +4158,7 @@ mission_templates = [
 
           (ge,":mission_time",3),
           
-          (call_script, "script_battle_tactic_apply"),
+        #  (call_script, "script_battle_tactic_apply"),
           ], []), #applying battle tactic
 
       common_battle_order_panel,
