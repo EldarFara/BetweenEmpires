@@ -833,4 +833,6 @@ itm_rifle_spencer_m = 831
 itm_rifle_spencer_carbine = 832
 itm_rifle_spencer_carbine_m = 833
 itm_sidearm_savage_revolver = 834
-itm_items_end = 835
+itm_sidearm_pepperbox1 = 835
+itm_sidearm_pepperbox2 = 836
+itm_items_end = 837

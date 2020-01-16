@@ -1,5 +1,5 @@
 itemsfile version 3
-836
+838
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -2602,7 +2602,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_berdan_m Berdan_Rifle Berdan_Rifle 1  berdan 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 64512 75 0 120 0 301 575
+ itm_rifle_berdan_m Berdan_Rifle Berdan_Rifle 1  berdan 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 64512 75 0 120 0 301 319
  0
 0
 
@@ -2630,7 +2630,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1845_m Russian_M1845_Musket Russian_M1845_Musket 1  russian_m1845 0  274989060 4222130824676096 0 0 4.500000 100 0 0 0 0 64512 75 0 120 0 301 575
+ itm_rifle_russian_m1845_m Russian_M1845_Musket Russian_M1845_Musket 1  russian_m1845 0  274989060 4222130824676096 0 0 4.500000 100 0 0 0 0 64512 75 0 120 0 301 319
  0
 0
 
@@ -2638,7 +2638,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1856_m Russian_M1856_Rifle Russian_M1856_Rifle 1  russian_m1856 0  274989060 4222130824676096 0 0 4.750000 100 0 0 0 0 64512 75 0 120 0 301 575
+ itm_rifle_russian_m1856_m Russian_M1856_Rifle Russian_M1856_Rifle 1  russian_m1856 0  274989060 4222130824676096 0 0 4.750000 100 0 0 0 0 64512 75 0 120 0 301 319
  0
 0
 
@@ -2701,11 +2701,11 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_flintlock_pistol1 Flintlock_Pistol Flintlock_Pistol 1  flintlock_pistol1 0  4259856 483721150464 400 131082 1.500000 100 0 0 80 0 0 10 150 0 1 306 0
+ itm_sidearm_flintlock_pistol1 Flintlock_Pistol Flintlock_Pistol 1  flintlock_pistol1 0  4259856 483721150464 400 131082 1.500000 100 0 0 80 0 0 10 150 0 1 321 0
  0
 0
 
- itm_sidearm_caplock_pistol1 Caplock_Pistol Caplock_Pistol 1  caplock_pistol1 0  4259856 483721150464 400 131082 1.500000 100 0 0 80 0 0 12 150 0 1 306 0
+ itm_sidearm_caplock_pistol1 Caplock_Pistol Caplock_Pistol 1  caplock_pistol1 0  4259856 483721150464 400 131082 1.500000 100 0 0 80 0 0 12 150 0 1 321 0
  0
 0
 
@@ -3325,7 +3325,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1867_m Krnka_Rifle Krnka_Rifle 1  russian_m1867 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 64512 75 0 120 0 301 575
+ itm_rifle_russian_m1867_m Krnka_Rifle Krnka_Rifle 1  russian_m1867 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 64512 75 0 120 0 301 319
  0
 0
 
@@ -3341,7 +3341,7 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_bacon1 Bacon_Pocket_Revolver Bacon_Pocket_Revolver 2  bacon 0  pistol_holster1b 3458764513820540928  4259856 518080888832 200 131082 1.250000 100 0 0 85 0 0 50 200 0 6 296 0
+ itm_sidearm_bacon1 Bacon_Pocket_Revolver Bacon_Pocket_Revolver 2  bacon 0  pistol_holster1b 3458764513820540928  4259856 518080888832 200 131082 1.250000 100 0 0 85 0 0 50 150 0 6 296 0
  0
 0
 
@@ -3378,6 +3378,14 @@ itemsfile version 3
 0
 
  itm_sidearm_savage_revolver Savage_1861_Navy Savage_1861_Navy 2  savage_revolver 0  pistol_holster1 3458764513820540928  4259856 518080888832 400 131082 1.750000 100 0 0 95 0 0 35 320 0 6 306 0
+ 0
+0
+
+ itm_sidearm_pepperbox1 Pepper-box_Revolver Pepper-box_Revolver 2  pepperbox1 0  pepperbox1 3458764513820540928  4259856 483721150464 200 131082 1.000000 100 0 0 85 0 0 50 150 0 6 291 0
+ 0
+0
+
+ itm_sidearm_pepperbox2 Pepper-box_Pistol Pepper-box_Pistol 2  pepperbox2 0  pepperbox2 3458764513820540928  4259856 483721150464 200 131082 1.000000 100 0 0 85 0 0 50 150 0 4 296 0
  0
 0
 

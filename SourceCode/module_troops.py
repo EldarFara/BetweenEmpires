@@ -115,6 +115,11 @@ knows_common_multiplayer = knows_trade_10|knows_inventory_management_10|knows_pr
 def_attrib = str_7 | agi_5 | int_4 | cha_4
 def_attrib_multiplayer = int_30 | cha_30
 
+items_european_urban_clothing_male = [itm_clothes_urban_male_trousers1, itm_clothes_urban_male_trousers2, itm_clothes_urban_male_trousers3, itm_clothes_urban_male1, itm_clothes_urban_male2, itm_clothes_urban_male3, itm_civilian_hat1, itm_civilian_hat2, itm_civilian_hat3, itm_civilian_hat3b, itm_civilian_hat4, itm_civilian_hat4b, itm_civilian_hat4c, itm_civilian_hat4d]
+items_melee_civilian_rural = [itm_sickle, itm_cleaver, itm_knife, itm_butchering_knife, itm_dagger, itm_clothes_urban_male3, itm_civilian_hat1, itm_falchion]
+items_smoothbore_pistols = [itm_ammo_pistol, itm_sidearm_flintlock_pistol1, itm_sidearm_caplock_pistol1]
+items_pocket_pistols = [itm_ammo_pistol, itm_sidearm_bacon1, itm_sidearm_pepperbox1, itm_sidearm_pepperbox2]
+
 items_european_horses = [itm_horse_european1, itm_horse_european2, itm_horse_european3]
 
 items_russian_horses = [itm_horse_russian1a, itm_horse_russian1b, itm_horse_russian3a, itm_horse_russian3b, itm_horse_russian4a, itm_horse_russian4b]
@@ -11221,6 +11226,31 @@ troops = [
   ["coop_companion_equipment_sets_end", "{!}multiplayer end", "{!}multiplayer end", 0, 0, 0, fac_kingdom_5,
   [],
   str_4|agi_4|int_4|cha_4|level(0), wp(0), 0,0x0000000000000000000000000000000000000000000000000000000000000000, 0x0000000000000000000000000000000000000000000000000000000000000000],
+  ["european_outlaw_rural1", "Rural Prowler", "Rural Prowlers", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_outlaws,
+  []+items_european_urban_clothing_male+items_melee_civilian_rural,
+  str_7|agi_5|int_4|cha_4|level(1), wp(20), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x0000000fff0052064deeffffffffffff00000000001efff90000000000000000],
+  ["european_outlaw_rural2", "Rural Robber", "Rural Robbers", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_outlaws,
+  []+items_european_urban_clothing_male+items_melee_civilian_rural,
+  str_7|agi_5|int_4|cha_4|level(3), wp(50), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x0000000fff0052064deeffffffffffff00000000001efff90000000000000000],
+  ["european_outlaw_rural3", "Rural Looter", "Rural Looters", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_outlaws,
+  []+items_european_urban_clothing_male+items_melee_civilian_rural+items_smoothbore_pistols,
+  str_7|agi_5|int_4|cha_4|level(5), wp(80), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x0000000fff0052064deeffffffffffff00000000001efff90000000000000000],
+  ["european_outlaw_rural4", "Rural Highwayman", "Rural Highwaymen", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_outlaws,
+  []+items_european_urban_clothing_male+items_melee_civilian_rural+items_smoothbore_pistols,
+  str_7|agi_5|int_4|cha_4|level(7), wp(110), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x0000000fff0052064deeffffffffffff00000000001efff90000000000000000],
+  ["european_outlaw_suburban1", "Suburban Prowler", "Suburban Prowlers", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_outlaws,
+  []+items_european_urban_clothing_male+items_melee_civilian_rural+items_smoothbore_pistols,
+  str_7|agi_5|int_4|cha_4|level(4), wp(30), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x0000000fff0052064deeffffffffffff00000000001efff90000000000000000],
+  ["european_outlaw_rural2", "Suburban Robber", "Suburban Robbers", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_outlaws,
+  []+items_european_urban_clothing_male+items_melee_civilian_rural+items_pocket_pistols,
+  str_7|agi_5|int_4|cha_4|level(6), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x0000000fff0052064deeffffffffffff00000000001efff90000000000000000],
+  ["european_outlaw_rural3", "Suburban Looter", "Suburban Looters", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_outlaws,
+  []+items_european_urban_clothing_male+items_melee_civilian_rural+items_pocket_pistols,
+  str_7|agi_5|int_4|cha_4|level(8), wp(90), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x0000000fff0052064deeffffffffffff00000000001efff90000000000000000],
+  ["european_outlaw_rural4", "Suburban Highwayman", "Suburban Highwaymen", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_outlaws,
+  []+items_european_urban_clothing_male+items_melee_civilian_rural+items_pocket_pistols,
+  str_7|agi_5|int_4|cha_4|level(10), wp(120), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x0000000fff0052064deeffffffffffff00000000001efff90000000000000000],
+
 ]
 
 

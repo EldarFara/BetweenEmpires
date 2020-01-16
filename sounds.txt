@@ -1,5 +1,5 @@
 soundsfile version 3
-742
+745
  drum_3.ogg 769
  tutorial_1.ogg 1793
  tutorial_2.ogg 1793
@@ -742,7 +742,10 @@ soundsfile version 3
  shot_spencer2.wav 4064
  shot_spencer3.wav 4064
  shot_spencer4.wav 4064
-223
+ shot_pistol2_1.wav 4064
+ shot_pistol2_2.wav 4064
+ shot_pistol2_3.wav 4064
+224
 snd_click 769 1 0 0 
 snd_tutorial_1 1793 1 1 0 
 snd_tutorial_2 1793 1 2 0 
@@ -966,3 +969,4 @@ snd_bugle_stop_retreat 4032 1 731 0
 snd_bugle_cavalry_charge 4032 2 732 0 733 0 
 snd_winch_shot 4064 4 734 0 735 0 736 0 737 0 
 snd_shot_spencer 4064 4 738 0 739 0 740 0 741 0 
+snd_shot_pistol2 4064 3 742 0 743 0 744 0 
