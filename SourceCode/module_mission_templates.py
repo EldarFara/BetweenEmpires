@@ -977,6 +977,7 @@ pbs_reload_cancellation = (0.8, 0, 0, [
 
 pbs_run_toggle = (0, 0, 0, [
 (key_clicked, key_tilde),
+(is_presentation_active, "prsnt_pbs"),
 	(try_for_range, ":company", 0, 8),
 	(class_is_listening_order, "$g_player_team", ":company"),
 	(store_add, ":slot_team_run_mode", slot_team_company1_run_mode, ":company"),

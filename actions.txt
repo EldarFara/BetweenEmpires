@@ -1036,10 +1036,10 @@
   6.000000 stance_rifle2_4 0 60 1342177297 0 0.000000 0.000000 0.000000  0.000000 
  unused_human_anim_45 0 167772240  1
   0.010000 reload_rifle1 0 0 4 0 0.0 0.0 0.0 0.0 
- unused_human_anim_46 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_47 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
+ unused_human_anim_46 1678771200 570437696  1
+  1.000000 lever_action_shot 0 4 67108866 0 0.0 0.0 0.0 0.0 
+ unused_human_anim_47 1678771200 570437696  1
+  1.800000 spencer_shot 0 7 67108866 0 0.0 0.0 0.0 0.0 
  unused_human_anim_48 0 0  1
   1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
  unused_human_anim_49 0 0  1

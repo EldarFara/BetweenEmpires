@@ -219,5 +219,7 @@ snd_bugle_walk = 217
 snd_bugle_retreat = 218
 snd_bugle_stop_retreat = 219
 snd_bugle_cavalry_charge = 220
+snd_winch_shot = 221
+snd_shot_spencer = 222
 
 
