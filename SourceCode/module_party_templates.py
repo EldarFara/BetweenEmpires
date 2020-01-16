@@ -49,9 +49,9 @@ party_templates = [
   ("steppe_bandits","Steppe Raiders",icon_khergit|carries_goods(2),0,fac_outlaws,bandit_personality,[(trp_steppe_bandit,4,58)]),
   ("taiga_bandits","Bandits",icon_axeman|carries_goods(2),0,fac_outlaws,bandit_personality,[(trp_taiga_bandit,4,58)]),
   ("desert_bandits","Desert Bandits",icon_vaegir_knight|carries_goods(2),0,fac_outlaws,bandit_personality,[(trp_desert_bandit,4,58)]),
-  ("forest_bandits","Suburban Outlaws",icon_axeman|carries_goods(2),0,fac_forest_bandits,bandit_personality,[(trp_forest_bandit,4,52)]),
+  ("forest_bandits","Suburban Outlaws",icon_axeman|carries_goods(2),0,fac_forest_bandits,bandit_personality,[(trp_european_outlaw_suburban1,4,9),(trp_european_outlaw_suburban2,3,7),(trp_european_outlaw_suburban3,2,5),(trp_european_outlaw_suburban4,1,3)]),
   ("mountain_bandits","Bandits",icon_axeman|carries_goods(2),0,fac_mountain_bandits,bandit_personality,[(trp_mountain_bandit,4,60)]),
-  ("sea_raiders","Urban Outlaws",icon_axeman|carries_goods(2),0,fac_outlaws,bandit_personality,[(trp_sea_raider,5,50)]),
+  ("sea_raiders","Urban Outlaws",icon_axeman|carries_goods(2),0,fac_outlaws,bandit_personality,[(trp_european_outlaw_urban1,4,6),(trp_european_outlaw_urban2,3,5),(trp_european_outlaw_urban3,2,4),(trp_european_outlaw_urban4,1,2)]),
 
   ("deserters","Deserters",icon_vaegir_knight|carries_goods(3),0,fac_deserters,bandit_personality,[]),
     

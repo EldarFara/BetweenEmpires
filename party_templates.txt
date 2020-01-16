@@ -6,14 +6,14 @@ pt_enemy Enemy 2 0 84 7 -1 -1 -1 -1 -1 -1
 pt_hero_party Hero_Party 2 0 1 7 -1 -1 -1 -1 -1 -1 
 pt_village_defenders Village_Defenders 6 0 1 7 25 10 20 0 661 0 4 0 -1 -1 -1 -1 
 pt_cattle_herd Cattle_Herd 2814749767106598 0 3 7 24 80 120 0 -1 -1 -1 -1 -1 
-pt_looters Rural_Outlaws 1970324836974601 0 2 312 3654 5 10 0 3659 4 8 0 3660 3 6 0 3661 2 4 0 -1 -1 
+pt_looters Rural_Outlaws 1970324836974601 0 2 312 3654 5 10 0 3655 4 8 0 3656 3 6 0 3657 2 4 0 -1 -1 
 pt_manhunters Manhunters 2 0 80 137 651 9 40 0 -1 -1 -1 -1 -1 
 pt_steppe_bandits Steppe_Raiders 562949953421319 0 2 312 647 4 58 0 -1 -1 -1 -1 -1 
 pt_taiga_bandits Bandits 562949953421321 0 2 312 648 4 58 0 -1 -1 -1 -1 -1 
 pt_desert_bandits Desert_Bandits 562949953421315 0 2 312 649 4 58 0 -1 -1 -1 -1 -1 
-pt_forest_bandits Suburban_Outlaws 562949953421321 0 83 312 645 4 52 0 -1 -1 -1 -1 -1 
+pt_forest_bandits Suburban_Outlaws 562949953421321 0 83 312 3658 4 9 0 3659 3 7 0 3660 2 5 0 3661 1 3 0 -1 -1 
 pt_mountain_bandits Bandits 562949953421321 0 82 312 644 4 60 0 -1 -1 -1 -1 -1 
-pt_sea_raiders Urban_Outlaws 562949953421321 0 2 312 646 5 50 0 -1 -1 -1 -1 -1 
+pt_sea_raiders Urban_Outlaws 562949953421321 0 2 312 3662 4 6 0 3663 3 5 0 3664 2 4 0 3665 1 2 0 -1 -1 
 pt_deserters Deserters 844424930131971 0 81 312 -1 -1 -1 -1 -1 -1 
 pt_merchant_caravan Merchant_Caravan 5629499534606338 0 1 11 662 1 1 0 28 5 25 0 -1 -1 -1 -1 
 pt_troublesome_bandits Troublesome_Bandits 2533274790658057 0 2 312 642 14 55 0 -1 -1 -1 -1 -1 
