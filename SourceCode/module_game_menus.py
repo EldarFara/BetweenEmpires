@@ -910,7 +910,7 @@ game_menus = [
 
   (
     "start_character_1",mnf_disable_all_keys,
-    "You were born years ago, in a land far away. Your father was...",
+    "You were born years ago. Your father was...",
     "bg3",
     [
     (str_clear,s10),
@@ -976,16 +976,6 @@ game_menus = [
  Still, these long years made you streetwise and sharp to the secrets of cities and shadowy backways."),
 	(jump_to_menu,"mnu_start_character_2"),
     ]),
-##    ("start_priest",[],"Priests.",[
-##      (assign,"$background_type",cb_priest),
-##      (assign, reg3, "$character_gender"),
-##      (str_store_string,s10,"@A {reg3?daughter:son} that nobody wanted, you were left to the church as a baby,\
-## a foundling raised by the priests and nuns to their own traditions.\
-## You were only one of many other foundlings and orphans, but you nonetheless received a lot of attention\
-## as well as many years of study in the church library and before the altar. They taught you many things.\
-## Gradually, faith became such a part of your life that it was no different from the blood coursing through your veins."),
-##	(jump_to_menu,"mnu_start_character_2"),
-##    ]),
     ("go_back",[],"Go back",
      [(jump_to_menu,"mnu_start_game_1"),
     ]),

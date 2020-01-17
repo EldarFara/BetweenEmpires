@@ -1200,6 +1200,7 @@ test = (0, 0, 0, [
 sound_man_death = (ti_on_agent_killed_or_wounded, 0, 0, [
 (store_trigger_param_1, ":dead_agent"),
 
+(agent_is_human, ":dead_agent"),
 (agent_get_troop_id, ":troop", ":dead_agent"),
 (troop_get_type, ":troop_type", ":troop"),
 	(try_begin),

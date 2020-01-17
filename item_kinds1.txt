@@ -2799,15 +2799,18 @@ itemsfile version 3
 0
 
  itm_lou_hat2 lou_hat2 lou_hat2 1  lou_hat2 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
- 0
+ 1
+ 45
 0
 
  itm_lou_infantry_trousers2 lou_infantry_trousers2 lou_infantry_trousers2 1  lou_infantry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 45
 0
 
  itm_lou_infantry3 lou_infantry3 lou_infantry3 1  lou_infantry3 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 45
 0
 
  itm_clothes_urban_male_trousers1 Trousers Trousers 1  clothes_urban_male_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
