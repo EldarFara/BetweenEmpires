@@ -2748,7 +2748,7 @@ simple_triggers = [
   #  (try_end),
     ]),
   
-  # Taking denars from player while resting in not owned centers
+  # Taking pounds from player while resting in not owned centers
   (1,
    [(neg|map_free),
     (is_currently_night),

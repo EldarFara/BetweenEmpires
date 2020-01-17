@@ -12090,7 +12090,7 @@ presentations = [
         (try_end),
 
         (assign, reg0, ":wealth"),
-        (create_text_overlay, reg1, "@Wealth: {reg0} denars", 0),
+        (create_text_overlay, reg1, "@Wealth: {reg0} pounds", 0),
         (position_set_x, pos1, 750),
         (position_set_y, pos1, 750),
         (overlay_set_size, reg1, pos1),
@@ -12111,7 +12111,7 @@ presentations = [
         (try_end),
 
         (assign, reg0, ":total_item_value"),
-        (create_text_overlay, reg1, "@Inventory: {reg0} denars", 0),
+        (create_text_overlay, reg1, "@Inventory: {reg0} pounds", 0),
         (position_set_x, pos1, 750),
         (position_set_y, pos1, 750),
         (overlay_set_size, reg1, pos1),

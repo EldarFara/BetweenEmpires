@@ -53,8 +53,8 @@ qstr_Defeats:_{reg0} Defeats:_{reg0}
 qstr_Quests_Completed:_{r Quests_Completed:_{reg0}
 qstr_Companions_Found:_{r Companions_Found:_{reg0}
 qstr_Companions_Lost/Depa Companions_Lost/Departed:_{reg0}
-qstr_Wealth:_{reg0}_denar Wealth:_{reg0}_denars
-qstr_Inventory:_{reg0}_de Inventory:_{reg0}_denars
+qstr_Wealth:_{reg0}_pound Wealth:_{reg0}_pounds
+qstr_Inventory:_{reg0}_po Inventory:_{reg0}_pounds
 qstr_Renown:_{reg0} Renown:_{reg0}
 qstr_Experience:_{reg0} Experience:_{reg0}
 qstr_Days_Passed:_{reg0} Days_Passed:_{reg0}
@@ -252,7 +252,7 @@ qstr_{!}DEBUG____{s4}_is_p {!}DEBUG_--_{s4}_is_present_at_the_center_and_is_atte
 qstr_{!}DEBUG____{s4}_is_pr {!}DEBUG_--_{s4}_is_present_at_the_center_and_is_awaiting_the_player_in_private
 qstr_{!}DEBUG____{s4}_is_pre {!}DEBUG_--_{s4}_is_present_at_the_center_and_is_allowed_to_meet_the_player
 qstr_{!}DEBUG____{s4}is_p {!}DEBUG_--_{s4}is_present_at_the_center_and_is_not_allowed_to_meet_the_player
-qstr_You_now_owe_{reg2}_d You_now_owe_{reg2}_denars_to_{s1}.
+qstr_You_now_owe_{reg2}_p You_now_owe_{reg2}_pounds_to_{s1}.
 qstr_Renown_value_for_thi Renown_value_for_this_battle_is_{reg8}.
 qstr_You_have_run_into_a_ You_have_run_into_a_trap!
 qstr_You_are_attacked_by_ You_are_attacked_by_a_group_of_bandits!
@@ -607,8 +607,8 @@ qstr__This_town_has_no_ga _This_town_has_no_garrison.
 qstr__You_have_successful _You_have_successfully_sneaked_in.
 qstr_{s13}_A_tournament_w {s13}_A_tournament_will_be_held_here_soon.
 qstr_{!}DEBUG___Current_t {!}DEBUG_-_Current_town_is_{s3},_but_also_checking_{s4}
-qstr___{reg1}_denars_per_ _({reg1}_denars_per_night)
-qstr_Moreover_you_earn_{r Moreover,_you_earn_{reg8}_denars_from_the_clever_bets_you_placed_on_yourself...
+qstr___{reg1}_pounds_per_ _({reg1}_pounds_per_night)
+qstr_Moreover_you_earn_{r Moreover,_you_earn_{reg8}_pounds_from_the_clever_bets_you_placed_on_yourself...
 qstr_Victory_is_yours!_Yo Victory_is_yours!_You_have_won_this_melee,_but_now_you_must_prepare_yourself_for_the_next_round._
 qstr_You_have_been_bested You_have_been_bested_in_this_melee,_but_the_master_of_ceremonies_declares_a_recognition_of_your_skill_and_bravery,_allowing_you_to_take_part_in_the_next_round._
 qstr_{!}{s11}^{s12} {!}{s11}^{s12}
@@ -618,7 +618,7 @@ qstr_The_bandits_are_brok The_bandits_are_broken!_Those_few_who_remain_alive_and
 qstr_{s1}_s_Ship {s1}'s_Ship
 qstr_{!}DEBUG___{s1} {!}DEBUG_-_{s1}
 qstr_However_{reg3?You_ar However,_{reg3?You_are:{s1}_is}_unable_to_find_any_trade_goods_that_would_bring_a_profit.
-qstr_^Buying_{s4}_here_an ^Buying_{s4}_here_and_selling_it_at_{s5}_would_bring_a_profit_of_{reg6}_denars_per_item.{s3}
+qstr_^Buying_{s4}_here_an ^Buying_{s4}_here_and_selling_it_at_{s5}_would_bring_a_profit_of_{reg6}_pounds_per_item.{s3}
 qstr_{reg3?You_find:{s1}_ {reg3?You_find:{s1}_finds}_out_the_following:^{s3}
 qstr_{s2}^{reg1}_{s1}_ear {s2}^{reg1}_{s1}_earned_{reg0}_experience.
 qstr_{s2}^{s1}_earned_an_ {s2}^{s1}_earned_an_additional_{reg0}_experience.
@@ -727,7 +727,7 @@ qstr_{s9}_has_asked_you_t {s9}_has_asked_you_to_meet_with_a_spy_in_{s13}.
 qstr_{s11}_asked_you_to_f {s11}_asked_you_to_follow_the_spy_that_will_leave_{s12}._Be_careful_not_to_let_the_spy_see_you_on_the_way,_or_he_may_get_suspicious_and_turn_back._Once_the_spy_meets_with_his_accomplice,_you_are_to_capture_them_and_bring_them_back_to_{s11}.
 qstr_{s11}_asked_you_to_c {s11}_asked_you_to_capture_a_lord_from_{s13},_any_lord,_and_then_drag_your_victim_back_to_{s11}_for_safekeeping.
 qstr_{s9}_asked_you_to_le {s9}_asked_you_to_lend_your_companion_{s3}_to_him_for_a_week.
-qstr_{s9}_asked_you_to_col {s9}_asked_you_to_collect_the_debt_of_{reg4}_denars_{s3}_owes_to_him._{s3}_was_at_{s4}_when_you_were_given_this_quest.
+qstr_{s9}_asked_you_to_col {s9}_asked_you_to_collect_the_debt_of_{reg4}_pounds_{s3}_owes_to_him._{s3}_was_at_{s4}_when_you_were_given_this_quest.
 qstr_{s11}_gave_you_a_fak {s11}_gave_you_a_fake_letter_to_fool_{s13}_into_banishing_his_vassal_{s16}._You_are_to_go_near_{s14},_give_the_letter_to_one_of_your_{s15}_and_send_him_into_the_town_as_a_messenger,_believing_his_orders_to_be_genuine.
 qstr_{s9}_has_requested_y {s9}_has_requested_you_to_bring_him_{reg1}_{s3}_as_prisoners.
 qstr_Lend_your_experience Lend_your_experienced_surgeon_{s3}_to_{s1}.
@@ -751,10 +751,10 @@ qstr_The_Guildmaster_of_{ The_Guildmaster_of_{s13}_has_asked_you_to_deal_with_lo
 qstr_{s9}_of_{s3}_asked_y {s9}_of_{s3}_asked_you_to_deliver_{reg5}_units_of_{s6}_to_the_tavern_in_{s4}_in_7_days.
 qstr_Escort_the_merchant_ Escort_the_merchant_caravan_to_the_town_of_{s8}.
 qstr_Merchant_{s9}_of_{s4 Merchant_{s9}_of_{s4}_asked_you_to_hunt_down_the_troublesome_bandits_in_the_vicinity_of_the_town.
-qstr_Guildmaster_of_{s4}_ Guildmaster_of_{s4}_gave_you_{reg12}_denars_to_pay_the_ransom_of_a_girl_kidnapped_by_bandits._You_are_to_meet_the_bandits_near_{s3}_and_pay_them_the_ransom_fee._After_that_you_are_to_bring_the_girl_back_to_{s4}.
-qstr_Guildmaster_of_{s4}_p Guildmaster_of_{s4}_promised_you_{reg12}_denars_if_you_can_make_sure_that_{s12}_and_{s13}_no_longer_pose_a_threat_to_a_peace_settlement_between_{s15}_and_{s14}._In_order_to_do_that,_you_must_either_convince_them_or_make_sure_they_fall_captive_and_remain_so_until_a_peace_agreement_is_made.
+qstr_Guildmaster_of_{s4}_ Guildmaster_of_{s4}_gave_you_{reg12}_pounds_to_pay_the_ransom_of_a_girl_kidnapped_by_bandits._You_are_to_meet_the_bandits_near_{s3}_and_pay_them_the_ransom_fee._After_that_you_are_to_bring_the_girl_back_to_{s4}.
+qstr_Guildmaster_of_{s4}_p Guildmaster_of_{s4}_promised_you_{reg12}_pounds_if_you_can_make_sure_that_{s12}_and_{s13}_no_longer_pose_a_threat_to_a_peace_settlement_between_{s15}_and_{s14}._In_order_to_do_that,_you_must_either_convince_them_or_make_sure_they_fall_captive_and_remain_so_until_a_peace_agreement_is_made.
 qstr_The_Guildmaster_of_{s The_Guildmaster_of_{s14}_has_asked_you_to_deal_with_a_group_of_bandits_terrorising_the_streets_of_{s14}._They_only_come_out_at_night,_and_only_attack_lone_travellers_on_the_streets.
-qstr_Guildmaster_of_{s10} Guildmaster_of_{s10}_asked_you_to_move_a_cattle_herd_to_{s13}._You_will_earn_{reg8}_denars_in_return.
+qstr_Guildmaster_of_{s10} Guildmaster_of_{s10}_asked_you_to_move_a_cattle_herd_to_{s13}._You_will_earn_{reg8}_pounds_in_return.
 qstr_He_is_not_commanding He_is_not_commanding_any_men_at_the_moment.
 qstr_He_currently_command He_currently_commands_{reg0}_men{reg1?,_of_which_around_{reg1}_are_wounded:}.
 qstr_The_elder_of_the_vil The_elder_of_the_village_of_{s3}_asked_you_to_bring_them_{reg5}_packs_of_grain.

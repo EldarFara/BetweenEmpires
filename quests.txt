@@ -12,7 +12,7 @@ qst_bring_back_runaway_serfs Bring_Back_Runaway_Serfs 2 {!}{s9}_asked_you_to_bri
 qst_follow_spy Follow_the_Spy_to_Meeting 2 {!}{s11}_asked_you_to_follow_the_spy_that_will_leave_{s12}._You_must_be_careful_not_to_be_seen_by_the_spy_during_his_travel,_or_else_he_may_get_suspicious_and_turn_back._Once_the_spy_meets_with_his_accomplice,_you_are_to_ambush_and_capture_them_and_bring_them_both_back_to_{s11}. 
 qst_capture_enemy_hero Capture_a_Lord_from_{s13} 2 {!}TODO:_{s11}_asked_you_to_capture_a_lord_from_{s13}. 
 qst_lend_companion Lend_Your_Companion_{s3}_to_{s9} 2 {!}{s9}_asked_you_to_lend_your_companion_{s3}_to_him_for_a_week. 
-qst_collect_debt Collect_the_Debt_{s3}_Owes_to_{s9} 2 {!}{s9}_asked_you_to_collect_the_debt_of_{reg4}_denars_{s3}_owes_to_him. 
+qst_collect_debt Collect_the_Debt_{s3}_Owes_to_{s9} 2 {!}{s9}_asked_you_to_collect_the_debt_of_{reg4}_pounds_{s3}_owes_to_him. 
 qst_incriminate_loyal_commander Incriminate_the_Loyal_Commander_of_{s13},_{s16} 2 {!}None 
 qst_meet_spy_in_enemy_town Meet_Spy_in_{s13} 2 {!}None 
 qst_capture_prisoners Bring_{reg1}_{s3}_Prisoners 2 {!}{s9}_wanted_you_to_bring_him_{reg1}_{s3}_as_prisoners. 
@@ -32,8 +32,8 @@ qst_move_cattle_herd Move_Cattle_Herd_to_{s13} 2 {!}Guildmaster_of_{s10}_asked_y
 qst_escort_merchant_caravan Escort_Merchant_Caravan_to_{s8} 2 {!}Escort_the_merchant_caravan_to_the_town_of_{s8}. 
 qst_deliver_wine Deliver_{reg5}_Units_of_{s6}_to_{s4} 2 {!}{s9}_of_{s3}_asked_you_to_deliver_{reg5}_units_of_{s6}_to_the_tavern_in_{s4}_in_7_days. 
 qst_troublesome_bandits Hunt_Down_Troublesome_Bandits 2 {!}{s9}_of_{s4}_asked_you_to_hunt_down_the_troublesome_bandits_in_the_vicinity_of_the_town. 
-qst_kidnapped_girl Ransom_Girl_from_Bandits 2 {!}Guildmaster_of_{s4}_gave_you_{reg12}_denars_to_pay_the_ransom_of_a_girl_kidnapped_by_bandits._You_are_to_meet_the_bandits_near_{s3}_and_pay_them_the_ransom_fee._After_that_you_are_to_bring_the_girl_back_to_{s4}. 
-qst_persuade_lords_to_make_peace Make_Sure_Two_Lords_Do_Not_Object_to_Peace 2 {!}Guildmaster_of_{s4}_promised_you_{reg12}_denars_if_you_can_make_sure_that_{s12}_and_{s13}_no_longer_pose_a_threat_to_a_peace_settlement_between_{s15}_and_{s14}._In_order_to_do_that,_you_must_either_convince_them_or_make_sure_they_fall_captive_and_remain_so_until_a_peace_agreement_is_made. 
+qst_kidnapped_girl Ransom_Girl_from_Bandits 2 {!}Guildmaster_of_{s4}_gave_you_{reg12}_pounds_to_pay_the_ransom_of_a_girl_kidnapped_by_bandits._You_are_to_meet_the_bandits_near_{s3}_and_pay_them_the_ransom_fee._After_that_you_are_to_bring_the_girl_back_to_{s4}. 
+qst_persuade_lords_to_make_peace Make_Sure_Two_Lords_Do_Not_Object_to_Peace 2 {!}Guildmaster_of_{s4}_promised_you_{reg12}_pounds_if_you_can_make_sure_that_{s12}_and_{s13}_no_longer_pose_a_threat_to_a_peace_settlement_between_{s15}_and_{s14}._In_order_to_do_that,_you_must_either_convince_them_or_make_sure_they_fall_captive_and_remain_so_until_a_peace_agreement_is_made. 
 qst_deal_with_looters Deal_with_Looters 2 {!}The_Guildmaster_of_{s4}_has_asked_you_to_deal_with_several_bands_of_looters_around_{s4},_and_bring_back_any_goods_you_recover. 
 qst_deal_with_night_bandits Deal_with_Night_Bandits 2 {!}TODO:_The_Guildmaster_of_{s14}_has_asked_you_to_deal_with_night_bandits_at_{s14}. 
 qst_deliver_grain Bring_wheat_to_{s3} 2 {!}The_elder_of_the_village_of_{s3}_asked_you_to_bring_them_{reg5}_packs_of_wheat.. 

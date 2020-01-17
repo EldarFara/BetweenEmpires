@@ -1413,9 +1413,9 @@ items = [
 
 ["sidearm_gasser","Gasser M1870", [("gasser", 0),("pistol_holster1b", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,400, weight(1.3)|abundance(100)|accuracy(accuracy_medium_pistol)|spd_rtng(50)|shoot_speed(210)|max_ammo(6)|thrust_damage(48, pierce), imodbits_firearm, []],
 
-["lou_hat2","lou_hat2", [("lou_hat2", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, []],
-["lou_infantry_trousers2","lou_infantry_trousers2", [("lou_infantry_trousers2", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
-["lou_infantry3","lou_infantry3", [("lou_infantry3", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["lou_hat2","lou_hat2", [("lou_hat2", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_3]],
+["lou_infantry_trousers2","lou_infantry_trousers2", [("lou_infantry_trousers2", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, [],[fac_kingdom_3]],
+["lou_infantry3","lou_infantry3", [("lou_infantry3", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, [],[fac_kingdom_3]],
 
 ["clothes_urban_male_trousers1","Trousers", [("clothes_urban_male_trousers1", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
 ["clothes_urban_male_trousers2","Trousers", [("clothes_urban_male_trousers2", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],

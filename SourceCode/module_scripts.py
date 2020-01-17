@@ -22741,7 +22741,7 @@ scripts = [
       (troop_get_slot, ":party_no", ":troop_no", slot_troop_leaded_party),
       (troop_get_slot, ":cur_wealth", ":troop_no", slot_troop_wealth),
       
-      (assign, ":weekly_income", 750), #let every hero receive 750 denars by default
+      (assign, ":weekly_income", 750), #let every hero receive 750 pounds by default
       
       (store_character_level, ":troop_level", ":troop_no"),
       (store_mul, ":level_income", ":troop_level", 10),
@@ -28643,7 +28643,7 @@ scripts = [
       (assign, reg2, ":cur_debt"),
       (troop_set_slot, ":troop_no", slot_troop_player_debt, ":cur_debt"),
       (str_store_troop_name_link, s1, ":troop_no"),
-      (display_message, "@You now owe {reg2} denars to {s1}."),
+      (display_message, "@You now owe {reg2} pounds to {s1}."),
   ]),
   
   
@@ -35354,11 +35354,11 @@ scripts = [
      (party_get_free_companions_capacity, ":free_capacity", "p_main_party"),
      (val_min, ":volunteer_amount", ":free_capacity"),
      (store_troop_gold, ":gold", "trp_player"),
-     (store_div, ":gold_capacity", ":gold", 10),#10 denars per man
+     (store_div, ":gold_capacity", ":gold", 10),#10 pounds per man
      (val_min, ":volunteer_amount", ":gold_capacity"),
      (party_add_members, "p_main_party", ":volunteer_troop", ":volunteer_amount"),
      (party_set_slot, "$current_town", slot_center_volunteer_troop_amount, -1),
-     (store_mul, ":cost", ":volunteer_amount", 10),#10 denars per man
+     (store_mul, ":cost", ":volunteer_amount", 10),#10 pounds per man
      (troop_remove_gold, "trp_player", ":cost"),
      ]),
 
@@ -36879,7 +36879,7 @@ scripts = [
         (try_end),
         (val_mul, ":win_amount", ":player_odds"),
         (val_div, ":win_amount", 100),
-        (val_add, ":win_amount", 100), #win amount when 100 denars is placed
+        (val_add, ":win_amount", 100), #win amount when 100 pounds is placed
         (assign, reg0, ":win_amount"),
      ]),
 
@@ -48025,7 +48025,7 @@ scripts = [
         #For now it is removed as Armagan's decision, we can add this option in later patchs. I and Armagan accept it has good potential. But this system needs also
         #scouting quests and scouting AI added together. If we only add this then we limit AI very much, it can attack only very few of centers, this damages 
         #variability of game and surprise attacks of AI. Player can predict where AI will attack and he can full garnisons of only this center. 
-        #We can add asking travellers about how good defended center X by paying 100 denars for example to equalize situations of AI and human player.
+        #We can add asking travellers about how good defended center X by paying 100 pounds for example to equalize situations of AI and human player.
         #But these needs much work and detailed AI tests so Armagan decided to skip this for now.
         
         #(store_sub, ":faction_recce_slot", ":faction_no", kingdoms_begin),

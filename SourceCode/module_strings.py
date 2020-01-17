@@ -248,8 +248,8 @@ strings = [
   ("cant_use_inventory_arena","Can't access inventory in the arena."),
   ("cant_use_inventory_disguised","Can't access inventory while you're disguised."),
   ("cant_use_inventory_tutorial","Can't access inventory in the training camp."),
-  ("1_denar", "1 denar"),
-  ("reg1_denars", "{reg1} denars"),
+  ("1_denar", "1 pound"),
+  ("reg1_denars", "{reg1} pounds"),
   ("january_reg1_reg2", "January {reg1}, {reg2}"),
   ("february_reg1_reg2", "February {reg1}, {reg2}"),
   ("march_reg1_reg2", "March {reg1}, {reg2}"),
@@ -622,7 +622,7 @@ strings = [
  You end up a beggar in {s9}, living on alms and the charity of the church."),
   ("retirement_text_2", "Only too late do you realise that your money won't last.\
  It doesn't take you long to fritter away what little you bothered to save.\
- Once every denar has evaporated in your hands you are forced to start a life of crime in the backstreets of {s9},\
+ Once every pound has evaporated in your hands you are forced to start a life of crime in the backstreets of {s9},\
  using your skills to eke out a living robbing coppers from women and poor townsmen."),
   ("retirement_text_3", "Only too late do you realise that your money won't last.\
  It doesn't take you long to fritter away what little you bothered to save,\
@@ -746,7 +746,7 @@ strings = [
 #npc16 = klethi
   
   ("npc1_intro", "Ho there, traveller. You wouldn't by chance be in the market for a tracker, would you?"),
-  ("npc2_intro", "Hello. Would you be so kind as to have a cup with me? I'm down to my last five denars and I'd rather not drink alone."),
+  ("npc2_intro", "Hello. Would you be so kind as to have a cup with me? I'm down to my last five pounds and I'd rather not drink alone."),
   ("npc3_intro", "Good day to you!"),
   ("npc4_intro", "Greetings. I am Rolf, son of Rolf, of the most ancient and puissant House of Rolf."),
   ("npc5_intro", "Greetings, traveller. Would you join me for a drink?"),
@@ -763,7 +763,7 @@ strings = [
   ("npc16_intro", "Hello there. From the look of you, I'd say you're expecting to get into some fights in the near future. Are you by any chance looking for some help?"),
 
   ("npc1_intro_response_1", "Perhaps. What's the urgency?"),
-  ("npc2_intro_response_1", "Your last five denars? What happened to you?"),
+  ("npc2_intro_response_1", "Your last five pounds? What happened to you?"),
   ("npc3_intro_response_1", "Hello. What's a clearly well-brought up young lady like you doing in a place like this?"),
   ("npc4_intro_response_1", "Hmm... I have never heard of the House of Rolf."),
   ("npc5_intro_response_1", "Certainly. With whom do I have the pleasure of drinking?"),
@@ -825,7 +825,7 @@ strings = [
   ("npc8_backstory_b", "I am from an old family in the northern lands, the daughter of a thane and also wife to one. I fought by my husband's side, his partner both in war and in peace. But my husband died of the plague, when I was still childless. My husband had decreed that I should inherit his lands, in the absence of an heir. My brother-in-law, cursed be his name, said that it was not our custom that women could inherit a thanedom. That was nonsense, but his gold bought the loyalties of enough of my husband's faithless servants for him to install himself in my hall. So I fled, something I was raised never to do, and something I hope never to do again."),
   ("npc9_backstory_b", "I was my father's first son, and his heir. But my mother died, and my father remarried. His new wife thought that her son should inherit. She could not move against me openly, but the other day I fed a pot of suet that had been left out for me to one of my hounds, and it keeled over. I accused my stepmother, but my father, befuddled by her witchcraft, refused to believe me and ordered me to leave his sight."),
   ("npc10_backstory_b", "A sergeant I was, in the garrison {s19} at {s20}. Twenty years I stood guard for the city, taking many a hard knock in many a tough fight, until they appointed a snot-nosed, downy-lipped princeling, barely out of his mother's cradle, as commander of the garrison. He came upon me standing watch atop the tower, with my crossbow unstrung -- on account of the rain, you see... Can't have the cord loosen... But Little Prince Snot-Nose tells me that an unstrung bow is dereliction of duty. Says he'll have me horsewhipped. And something in me snapped. So I walked off my post."),
-  ("npc11_backstory_b", "For 30 years I followed the armies of this land, selling them victuals and drink, watching their games of dice and finding them girls, and nary a denar was left in my purse at the end."),
+  ("npc11_backstory_b", "For 30 years I followed the armies of this land, selling them victuals and drink, watching their games of dice and finding them girls, and nary a pound was left in my purse at the end."),
   ("npc12_backstory_b", "I am by training a natural philosopher, but condemned by the jealousy of the thick-headed doctors of my university to make my living as an itinerant surgeon. I was hired by a merchant of this city to cure his son, who fell into a coma after a fall from his balcony. I successfully trepanned the patient's skull to reduce the cranial swelling, but the family ignored my advice to treat the ensuing fevers with a tincture of willow bark, and the boy died. The father, rather than reward me for my efforts, charged me with sorcery -- me, a philosopher of nature! Such is the ignorance and ingratitude of mankind."),
   ("npc13_backstory_b", "I am a warrior by profession. But perhaps you may also have heard of my prowess as a poet, who can move the iciest of maidens to swoon. Or of my prowess in the art of the bedchamber, in which I must confess a modest degree of skill. I confess a modest affection for Calradia, and for the past several years have visited its towns, castles, and villages, making the most of my talents."),
   ("npc14_backstory_b", "I am the second son of the count of Geroia, of whom you have no doubt heard. Having no inheritance of my own, I came here to seek my fortune in Calradia, training men in the art of battle. Unfortunately, the lord here in {s20} has no taste for the disciplinary methods needed to turn rabble into soldiers. I told him it was wiser to flog them now, then bury them later. But he would not listen, and I was told to take my services elsewhere."),
@@ -853,7 +853,7 @@ strings = [
 
 ### use these if there is a short period of time between the last meeting 
   ("npc1_backstory_later", "I've been here and about, you know, doing my best to keep out of trouble. I'm desperately in need of work, however."),
-  ("npc2_backstory_later", "I sold my boots and have managed to make a few denars peddling goods from town to town, but it's a hard living."),
+  ("npc2_backstory_later", "I sold my boots and have managed to make a few pounds peddling goods from town to town, but it's a hard living."),
   ("npc3_backstory_later", "I hired myself on as a cook for some passing caravans, and that at least keeps me fed. But it is rough company on the road, and I grow weary of fighting off guards and others who would try to take liberties. I was thinking that if I could find work as a warrior, men would know to leave me alone."),
   ("npc4_backstory_later", "I went back to my ancestral barony, to inspect my lands. But we had locusts, you see, and bad rains, and other things, so here I am again, looking for work."),
   ("npc5_backstory_later", "I've been wandering through this war-torn land, looking for a leader who is worth following."),
@@ -863,7 +863,7 @@ strings = [
   ("npc9_backstory_later", "I've offered my sword to a few lords in these parts. But I find as often as not they'll ask me to run messages, or train peasants, or some other job not fit for a gentleman."),
   ("npc10_backstory_later", "I don't know if I told you or not, but I deserted my unit after I struck a young noble who had ordered me to be horsewhipped without cause. Since then I've been laying low. Thankfully I had the wit to pilfer my captain's purse before heading out, but the money is running low."),
   ("npc11_backstory_later", "I've been around and about. But it's a rare captain who'll take on an old bag of bones like me as a fighter, even if I could whip half the boys in his outfit."),
-  ("npc12_backstory_later", "I have been here and about, tending to the sick and taking what reward I can. But the people of these parts are ignorant, and have little respect for my craft. The few denars I make are barely enough for me to replenish my stock of medicine. I should be grateful for the chance to find other work."),
+  ("npc12_backstory_later", "I have been here and about, tending to the sick and taking what reward I can. But the people of these parts are ignorant, and have little respect for my craft. The few pounds I make are barely enough for me to replenish my stock of medicine. I should be grateful for the chance to find other work."),
   ("npc13_backstory_later", "I have been wandering through the cities of Calradia, leaving a string of love-sick women and cuckolded husbands in my wake. But I grow weary of such simple challenges, and had been thinking of turning myself to more martial pastimes."),
   ("npc14_backstory_later", "I have gone from court to court, but I have not yet found a lord who is to my liking."),
   ("npc15_backstory_later", "I've been going from castle to castle, looking to see if walls or towers need repair. But either the lord's away, or he's got other things on his mind, or I run into his creditors on the street, begging for change, and I realize that here's one job not to take. So if you hear of anything, let me know."),
@@ -918,7 +918,7 @@ strings = [
   ("npc12_signup", "As I told you, I am a surgeon, not some silk-robed university physician who has never touched a body. I can get my hands dirty."),
   ("npc13_signup", "Indeed? You would do well to enlist me."),
   ("npc14_signup", "I would be pleased to ride with you, at least for a little while, for pay and a share of any loot."),
-  ("npc15_signup", "Geroia, eventually, but I'd welcome the opportunity to get a few denars in my pocket, first, so I don't come home empty handed. So if you promise me food and a share of the loot, I'd be happy to fight with you for a while."),
+  ("npc15_signup", "Geroia, eventually, but I'd welcome the opportunity to get a few pounds in my pocket, first, so I don't come home empty handed. So if you promise me food and a share of the loot, I'd be happy to fight with you for a while."),
   ("npc16_signup", "Well, {sir/madame}, let me tell you. I may not know how to read and write, but I know the quickest way to a man's heart is between his fourth and fifth rib, if you understand me. "),
 
   ("npc1_signup_2", "I've ridden over a fair amount of rough country in my time, more often than not in a hurry. I'm a good tracker and I've got a good eye for terrain. So what do you say?"),
@@ -974,39 +974,39 @@ strings = [
   ("npc15_signup_response_2", "Actually, I need a different kind of expertise. My apologies."),
   ("npc16_signup_response_2", "To be honest, I'd prefer someone who was a little less tempted to larceny."),
 
-  ("npc1_payment", "I will be very useful to you, {sir/madame}, you can bet on that. Just one more thing before we leave, would you mind lending me {reg3} denars? I am ashamed to say it, but I have made myself a bit of debt here, staying in this tavern over the last few weeks and the tavern owners no longer believe that I am loaded with gold as I used to tell them. You know, things could get ugly here if they see me leaving with you before paying them."),
+  ("npc1_payment", "I will be very useful to you, {sir/madame}, you can bet on that. Just one more thing before we leave, would you mind lending me {reg3} pounds? I am ashamed to say it, but I have made myself a bit of debt here, staying in this tavern over the last few weeks and the tavern owners no longer believe that I am loaded with gold as I used to tell them. You know, things could get ugly here if they see me leaving with you before paying them."),
   ("npc2_payment", "{!}."),
   ("npc3_payment", "{!}."),
-  ("npc4_payment", "Excellent. Before we depart, would you be so kind to lend me {reg3} denars? I had to pawn a family heirloom at a pawnbroker here in {s20}, and I would like to retrieve it before we leave."),
-  ("npc5_payment", "Thank you. Now, to seal off our agreement, I ask for {reg3} denars from you. It's an advice my father gave me. He told me 'Baheshtur, never fight for a barbarian before {he/she} pays you your worth of gold first'."),
+  ("npc4_payment", "Excellent. Before we depart, would you be so kind to lend me {reg3} pounds? I had to pawn a family heirloom at a pawnbroker here in {s20}, and I would like to retrieve it before we leave."),
+  ("npc5_payment", "Thank you. Now, to seal off our agreement, I ask for {reg3} pounds from you. It's an advice my father gave me. He told me 'Baheshtur, never fight for a barbarian before {he/she} pays you your worth of gold first'."),
   ("npc6_payment", "{!}."),
-  ("npc7_payment", "All right then. I will come with you. But I want a payment of {reg3} denars first. You aren't expecting me to work for free, do you?"),
-  ("npc8_payment", "Then I will fight your enemies for you. But first I want a bounty of {reg3} denars. If you are a worthy captain who can lead {his/her} company to riches and plunder, you should have no trouble paying. I cannot afford to follow a pauper."),
-  ("npc9_payment", "That's very good of you. And before I join, can you lend me {reg3} denars, so that I can buy some proper clothing that befits a gentleman of noble birth such as myself. The coat on me has been worn down badly due to my recent bad fortune, and I cannot let common soldiers mistake me as one of their own."),
-  ("npc10_payment", "That's good news. But I'll ask for one last thing, captain. I have a woman here in {s20}, a tavern wench, and she says she has my child in her belly. I want to give her some money before I leave... for the child, you know. Do you think you can spare {reg3} denars?"),
-  ("npc11_payment", "Hey thank you captain. But before joining up with you, I would ask for a payment of {reg3} denars. I know that in war parties soldiers can go on for weeks without seeing any wages. I am wise enough not to sign anywhere without having myself covered."),
+  ("npc7_payment", "All right then. I will come with you. But I want a payment of {reg3} pounds first. You aren't expecting me to work for free, do you?"),
+  ("npc8_payment", "Then I will fight your enemies for you. But first I want a bounty of {reg3} pounds. If you are a worthy captain who can lead {his/her} company to riches and plunder, you should have no trouble paying. I cannot afford to follow a pauper."),
+  ("npc9_payment", "That's very good of you. And before I join, can you lend me {reg3} pounds, so that I can buy some proper clothing that befits a gentleman of noble birth such as myself. The coat on me has been worn down badly due to my recent bad fortune, and I cannot let common soldiers mistake me as one of their own."),
+  ("npc10_payment", "That's good news. But I'll ask for one last thing, captain. I have a woman here in {s20}, a tavern wench, and she says she has my child in her belly. I want to give her some money before I leave... for the child, you know. Do you think you can spare {reg3} pounds?"),
+  ("npc11_payment", "Hey thank you captain. But before joining up with you, I would ask for a payment of {reg3} pounds. I know that in war parties soldiers can go on for weeks without seeing any wages. I am wise enough not to sign anywhere without having myself covered."),
   ("npc12_payment", "{!}."),
-  ("npc13_payment", "Before I sign up, there is the small matter of some expenses I have incurred while staying here -- {reg3} denars. Do you think that you could cover those for me, as a gesture of friendship?"),
-  ("npc14_payment", "Ah, one last thing. I would ask for an initial bounty of {reg3} denars before I join your command. It's my principle never to enter someone's service without receiving the payment I deserve."),
-  ("npc15_payment", "Good. By the way, as a skilled engineer I would expect a payment for my services. A signing bonus of {reg3} denars would be fair, I think."),
+  ("npc13_payment", "Before I sign up, there is the small matter of some expenses I have incurred while staying here -- {reg3} pounds. Do you think that you could cover those for me, as a gesture of friendship?"),
+  ("npc14_payment", "Ah, one last thing. I would ask for an initial bounty of {reg3} pounds before I join your command. It's my principle never to enter someone's service without receiving the payment I deserve."),
+  ("npc15_payment", "Good. By the way, as a skilled engineer I would expect a payment for my services. A signing bonus of {reg3} pounds would be fair, I think."),
   ("npc16_payment", "Now, that's good news, captain. So, how about paying me a little something to seal off our agreement? A mere {reg3} would be enough. Please don't take this the wrong way, but I've had some bad luck with employers in the past. "),
 
-  ("npc1_payment_response", "Very well, here's {reg3} denars. Now, fall in with the rest."),
+  ("npc1_payment_response", "Very well, here's {reg3} pounds. Now, fall in with the rest."),
   ("npc2_payment_response", "{!}."),
   ("npc3_payment_response", "{!}."),
-  ("npc4_payment_response", "Certainly. Here's {reg3} denars."),
-  ("npc5_payment_response", "Well... here's {reg3} denars, then. Your first payment."),
+  ("npc4_payment_response", "Certainly. Here's {reg3} pounds."),
+  ("npc5_payment_response", "Well... here's {reg3} pounds, then. Your first payment."),
   ("npc6_payment_response", "{!}."),
-  ("npc7_payment_response", "No, of course not. Here's {reg3} denars."),
-  ("npc8_payment_response", "Oh, I am no pauper, madame. Here's {reg3} denars for you."),
-  ("npc9_payment_response", "Very well, here's {reg3} denars."),
-  ("npc10_payment_response", "Of course. Here, {reg3} denars."),
-  ("npc11_payment_response", "Very well, here's {reg3} denars. Make yourself ready. We leave soon."),
+  ("npc7_payment_response", "No, of course not. Here's {reg3} pounds."),
+  ("npc8_payment_response", "Oh, I am no pauper, madame. Here's {reg3} pounds for you."),
+  ("npc9_payment_response", "Very well, here's {reg3} pounds."),
+  ("npc10_payment_response", "Of course. Here, {reg3} pounds."),
+  ("npc11_payment_response", "Very well, here's {reg3} pounds. Make yourself ready. We leave soon."),
   ("npc12_payment_response", "{!}."),
-  ("npc13_payment_response", "Of course, here's {reg3} denars. Make ready to leave soon."),
-  ("npc14_payment_response", "All right, here's {reg3} denars. You are most welcome in our company."),
-  ("npc15_payment_response", "All right, here's {reg3} denars. Glad to have you with us."),
-  ("npc16_payment_response", "All right, here's {reg3} denars for you. Make yourself ready."),
+  ("npc13_payment_response", "Of course, here's {reg3} pounds. Make ready to leave soon."),
+  ("npc14_payment_response", "All right, here's {reg3} pounds. You are most welcome in our company."),
+  ("npc15_payment_response", "All right, here's {reg3} pounds. Glad to have you with us."),
+  ("npc16_payment_response", "All right, here's {reg3} pounds for you. Make yourself ready."),
 
 
 
@@ -1224,7 +1224,7 @@ strings = [
   ("npc16_home_description", "The snows in these valleys don't melt until late in the year, and the land is hard to plough. You can grow a bit of barley, but not much else. But there's wealth here in the woods: deer, rabbit and lynx, meat and furs, and the mountains have iron, and traders would ship enough saltfish up the river from the coast to keep the people fed for the winter."),
 
   ("npc1_home_description_2", "They go easy on us farming folk, and don't ask for much in tax -- not that we would be able to pay in any case. The land isn't good enough for most crops. Frankly, it's only good for horse-rearing, and that only for half of the year, in the winter after the rains. In the summer they take their herds back into the mountains. Caravans come over the hills and bring spice to Tulga, but we don't see much of that money down in the villages."),
-  ("npc2_home_description_2", "I had loaded up on saffron, cinnamon, cloves, pepper and other spices and a chest full of denars. I estimated that I could buy linens, furs, velvet, iron and wool, and the extra horses to carry them back, and I'd still make a profit. I just hadn't figured in the Khergits, who apparently don't care for others cutting in on their monopoly."),
+  ("npc2_home_description_2", "I had loaded up on saffron, cinnamon, cloves, pepper and other spices and a chest full of pounds. I estimated that I could buy linens, furs, velvet, iron and wool, and the extra horses to carry them back, and I'd still make a profit. I just hadn't figured in the Khergits, who apparently don't care for others cutting in on their monopoly."),
   ("npc3_home_description_2", "The poets call Veluca a paradise, and I think for once that they do not exaggerate."),
   ("npc4_home_description_2", "How do I know this, you ask? Well... I was taken by them, and held for ransom, but I got away. That's really all there is to tell."),
   ("npc5_home_description_2", "Of course, you know how things go. My father's generation were hard warriors from the cold lands across the mountains, but this generation all has houses in the town and great estates and spend time as much trading as they do practicing archery. The next generation will grow soft on Velucan wine and will lose their lands to the next batch of illiterate hill-raiders to come over the mountains, just you watch. It's how things always were, and how things always will be."),
@@ -1232,8 +1232,8 @@ strings = [
   ("npc7_home_description_2", "We were allowed to fish the river, raise pigs amid the reedbeds, and grow whatever we could in our private plots, but in the open fields we were only permitted to grow flax, to be taken to Sargoth and woven into linen. So we were always hungry, and weak, and never had the courage to rebel."),
   ("npc8_home_description_2", "The skalds' tales at least gave Gundig an excuse to raise a warband -- not that we Nords ever need an excuse, mind. He sailed across the sea, rallied the Calradian Nords to his banner, and marched on the Rock of Rivacheg. The Vaegirs killed him, and threw his banner into the surf. But the Nords keep coming, and some day all of Calradia will be ours."),
   ("npc9_home_description_2", "Just as the Nords can call on their kinfolk overseas, so does the Vaegir king call on his kinfolk from over the mountains. Had my father not disinherited me, I would also have taken an oath of fealty to the lord of Reyvadin. But just as I was shorn of my inheritance, so also was I shown of my obligations, and it is the Vaegir king's loss."),
-  ("npc10_home_description_2", "We grow mulberry trees here for silk and kermes too for the dye. We take it to Jelkala where they weave it into the finest velvet -- not that I have ever had enough denars in my pocket to buy velvet, mind. But the craftsmen of Jelkala also make good crossbows, and for that I'll not begrudge them their little luxuries"),
-  ("npc11_home_description_2", "The Swadian king will tell you that Praven was the biggest city in Calradia back under the Empire, and that's why he should rule the whole land today. Mind you, I don't care much about politics, {sir/madame} -- I've sold provisions to every army that ever marched in Calradia, and I tell you that I wouldn't give a single one of them a single biscuit unless I had the cold, hard denars in my hand first. Why these high and mighty kings and nobles can't pay their bills, I'll never know. But I prattle on a bit, there, don't I?"),
+  ("npc10_home_description_2", "We grow mulberry trees here for silk and kermes too for the dye. We take it to Jelkala where they weave it into the finest velvet -- not that I have ever had enough pounds in my pocket to buy velvet, mind. But the craftsmen of Jelkala also make good crossbows, and for that I'll not begrudge them their little luxuries"),
+  ("npc11_home_description_2", "The Swadian king will tell you that Praven was the biggest city in Calradia back under the Empire, and that's why he should rule the whole land today. Mind you, I don't care much about politics, {sir/madame} -- I've sold provisions to every army that ever marched in Calradia, and I tell you that I wouldn't give a single one of them a single biscuit unless I had the cold, hard pounds in my hand first. Why these high and mighty kings and nobles can't pay their bills, I'll never know. But I prattle on a bit, there, don't I?"),
   ("npc12_home_description_2", "The difference between poison and cure is the dose. You tell that to everyone you meet, and tell them you heard it first from Jeremus the Great. People think that all the wisdom worth knowing was written in Old Calradic, but I say you can learn twice as much from village midwives and careful examination of nature than from the entire imperial corpus. That's why they threw me out of the university, although in retrospect that was a blessing. Anyway, I put that lord back on his feet, and he availed me of a sack of gold and the corpse of a freshly hanged criminal to dissect. Ha! To think of the lengths I had to go to get specimens back in those days."),
   ("npc13_home_description_2", "Eventually I had to leave, and sometimes I wonder if there is a little herdsboy swaddled on her back, as she takes the cows up to pasture each morning. I'd be tempted to try to find her -- but no, no, one should never look back."),
   ("npc14_home_description_2", "If anyone were ever to unify this little land of ours, I'd sign up to serve them, free of charge. I'd put together an army of Rhodok spears with Nord footmen on the flanks and Vaegir archers in front, take along some Khergit scouts to find and fix the enemy, and some Swadian lancers and Sarranid mamlukes to finish them off. I'd take that army over the mountains and make the whole world kneel to Calradia.... Of course, that's what the Emperors thought, and in the end the tribes took away their Empire."),
@@ -1293,7 +1293,7 @@ strings = [
 
   
   ("npc1_kingsupport_2", "Sure would, Boss. But let me tell you what might bring others to your cause -- particularly us poor folk. They tell us that in the old days, each new Emperor who took the throne would issue a great amnesty for all but the worst prisoners in his dungeons, give people a second chance to make something of themselves -- like you gave me a second chance, Boss."), #Borcha
-  ("npc2_kingsupport_2", "Most of the lords of this land -- well, let's just say that they never held a denar that they didn't collect as rent or take as pillage. You, on the other hand, have some experience of commerce and trade, of the effort and risk involved in making sure that men don't go hungry in Sargoth while there's a glut of grain in Praven, to give an example.... If you like, captain, I reckon I could find some support for you among the merchants and burghers of this realm."), #marnid
+  ("npc2_kingsupport_2", "Most of the lords of this land -- well, let's just say that they never held a pound that they didn't collect as rent or take as pillage. You, on the other hand, have some experience of commerce and trade, of the effort and risk involved in making sure that men don't go hungry in Sargoth while there's a glut of grain in Praven, to give an example.... If you like, captain, I reckon I could find some support for you among the merchants and burghers of this realm."), #marnid
   ("npc3_kingsupport_2", "I would, {my lord/my lady}. But I would strongly recommend that you reinstitute an old Calradic imperial tradition -- the council of lords and commons, drawn from both the nobles of the land and well-educated men of property, with the power to overrule any new taxes or other tyrannical measures that might tempt you. It would be for your own good, {sir/my lady}."), #ymira
   ("npc4_kingsupport_2", "Of course, {captain/my lady}. The trick is now to get others to follow you. As you know, one's lineage is a great determinant of one's worthiness. Perhaps you have a long-lost ancestor of whom you have not told me?"), #rolf
   ("npc5_kingsupport_2", "Ay, Bahadur, I would. But there is something I should say, on behalf of the men of the steppes such as myself. It would bring great joy to us, to hear from the lips of one who would be khan, that you would restore an anicent right. From the days of the old emperors, the men of the steppes have enjoyed the right to bring their flocks to new pastures or to market, which necessarily involves the crossing of lands owned by the great lords of this realm."), #beheshtur
@@ -1344,7 +1344,7 @@ strings = [
   ("npc16_kingsupport_2b", "No offense, but I'm not sure that's the approach I'd take"), #klethi
   
   ("npc1_kingsupport_3", "If I could go about this land for a few weeks, telling the common folk that you were going to amnesty their kinfolk like the emperors of old -- well, they would start talking of you as the Emperor, and that would pave your way to the throne. Shall I do that, Boss?"), #Borcha
-  ("npc2_kingsupport_2", "If you like, captain, I can take a few weeks to visit the guildhalls and caravanseries where I have contacts, and explain to them that, in you, they will have a {king/ruler} who will check the rapacious nobles, who, with their tariffs and taxes, would strangle commerce for the sake of a few extra denars to spend on their wars and their feasts. What do you say to that, captain?"), #marnid
+  ("npc2_kingsupport_2", "If you like, captain, I can take a few weeks to visit the guildhalls and caravanseries where I have contacts, and explain to them that, in you, they will have a {king/ruler} who will check the rapacious nobles, who, with their tariffs and taxes, would strangle commerce for the sake of a few extra pounds to spend on their wars and their feasts. What do you say to that, captain?"), #marnid
   ("npc3_kingsupport_3", "If you were to make such a pledge, {sir/madame}, I think that it would help many of the lords of this land overcome any reluctance that they might have. If your aim is to restore the old Calradic system, then arguably you are a more legitimate {king/ruler} then any of these come-lately usurpers. Give me leave for several weeks, {sir/madame}, and I will let it be known in the noble courts and merchant houses of this land that you intend to restore their ancient rights."), #ymira
   ("npc4_kingsupport_3", "Yes -- I think I have heard of that line, In fact, I can envision {his/her} entire genealogy. If you give me leave, 'Majesty', I shall travel about the villages and castles of this realm over the next several weeks, spreading word of your royal birth. Of course, I would hope that you would remember your faithful subject, when it comes to distributing lands..."),
   ("npc5_kingsupport_3", "Anyway, lord, in these sorry times the men of the great estates have taken to blocking our passage, charging us huge fees to cross. It is a great burden on my people, Bahadur. If I could take a few weeks to let the men of the steppes know that you would support the restoration of our ancient rights, well, then, I think you would find many who would support you as khan, And when men speak of you as khan, that's the first step to becoming one."), #beheshtur
@@ -1699,7 +1699,7 @@ strings = [
   ("comment_you_defeated_my_friend_enemy_spiteful",   "Your fame runs before you, {playername}. {s54} may have fallen for your tricks, but if you fight me, you'll find a me a much more slippery foe."), 
   ("comment_you_defeated_my_friend_enemy",            "They say that you have defeated {s54}. But I will be a truer test of your skill at arms."), 
 
-  ("comment_you_captured_a_lord_allied_friendly_spiteful",   "I heard that you captured {s54}. I hope that you squeezed him for every denar."), 
+  ("comment_you_captured_a_lord_allied_friendly_spiteful",   "I heard that you captured {s54}. I hope that you squeezed him for every pound."), 
   ("comment_you_captured_a_lord_allied_unfriendly_spiteful", "I heard that you captured {s54}. Your coffers must be well-bloated with ransom by now. Such a pity that money cannot transform a low-born cur into a gentleman!"), 
   ("comment_you_captured_a_lord_allied_chivalrous",          "I heard that you captured {s54}. Well done. I assume, of course, that he has been been treated with the honours due his rank."), 
   ("comment_you_captured_a_lord_allied",                     "I heard that you captured {s54}. Well done. His ransom must be worth quite something."), 
@@ -3203,7 +3203,7 @@ We apologize sincerely if you contributed your suggestions and feedback but were
   ("s12s15_has_no_particular_reason_to_continue_the_war_with_s16_and_would_probably_make_peace_if_given_the_opportunity", "{s12}{s15} has no particular reason to continue the war with {s16}, and would probably make peace if given the opportunity."),
   ("s12s15_seems_to_be_willing_to_improve_relations_with_s16", "{s12}{s15} seems to be willing to improve relations with {s16}."),
   ("excuse_me_how_can_you_possibly_imagine_yourself_worthy_to_marry_into_our_family", "Excuse me? How can you possibly imagine yourself worthy to marry into our family?"),
-  ("em_with_regard_to_her_ladyship_we_were_looking_specifically_for_a_groom_of_some_distinction_fight_hard_count_your_dinars_and_perhaps_some_day_in_the_future_we_may_speak_of_such_things_my_good_man", "Em... With regard to her ladyship, we were looking specifically for a groom of some distinction. Fight hard, count your denars, and perhaps some day in the future we may speak of such things, my good man!"),
+  ("em_with_regard_to_her_ladyship_we_were_looking_specifically_for_a_groom_of_some_distinction_fight_hard_count_your_dinars_and_perhaps_some_day_in_the_future_we_may_speak_of_such_things_my_good_man", "Em... With regard to her ladyship, we were looking specifically for a groom of some distinction. Fight hard, count your pounds, and perhaps some day in the future we may speak of such things, my good man!"),
   ("em_with_regard_to_her_ladyship_we_were_looking_specifically_for_a_groom_of_some_distinction", "Em... With regard to her ladyship, we were looking specifically for a groom of some distinction."),
   ("it_is_too_early_for_you_to_be_speaking_of_such_things_you_are_still_making_your_mark_in_the_world", "It is too early for you to be speaking of such things. You are still making your mark in the world."),
   ("you_dont_serve_the_s4_so_id_say_no_one_day_we_may_be_at_war_and_i_prefer_not_to_have_to_kill_my_inlaws_if_at_all_possible", "You don't serve the {s4}, so I'd say no. One day we may be at war, and I prefer not to have to kill my in-laws, if at all possible."),
@@ -4074,7 +4074,7 @@ We apologize sincerely if you contributed your suggestions and feedback but were
   ("velvet_site", "dyeworks"),
 
   ("under_sequestration", "Under sequestration"),
-  ("describe_secondary_input", " In addition, you will also need to purchase {s11} worth {reg10} denars."),
+  ("describe_secondary_input", " In addition, you will also need to purchase {s11} worth {reg10} pounds."),
   ("profit", "profit"),
   ("loss", "loss"),
   

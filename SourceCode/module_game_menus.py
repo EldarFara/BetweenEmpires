@@ -6506,7 +6506,7 @@ game_menus = [
  'I was most pleased to hear of your valiant efforts in the capture of {s2}. Your victory has gladdened all our hearts.\
  You also requested me to give you ownership of the castle, but that is a favour which I fear I cannot grant,\
  as you already hold significant estates in my realm.\
- Instead I have sent you {reg6} denars to cover the expenses of your campaign, but {s2} I give to {s5}.'\
+ Instead I have sent you {reg6} pounds to cover the expenses of your campaign, but {s2} I give to {s5}.'\
  ",
     "bg3",
     [(set_background_mesh, "mesh_pic_messenger"),
@@ -6543,7 +6543,7 @@ game_menus = [
  'I was most pleased to hear of your valiant efforts in the capture of {s2}. Your victory has gladdened all our hearts.\
  You also requested me to give ownership of the castle to your husband, but that is a favour which I fear I cannot grant,\
  as he already holds significant estates in my realm.\
- Instead I have sent you {reg6} denars to cover the expenses of your campaign, but {s2} I give to {s5}.'\
+ Instead I have sent you {reg6} pounds to cover the expenses of your campaign, but {s2} I give to {s5}.'\
  ",
     "bg3",
     [(set_background_mesh, "mesh_pic_messenger"),
@@ -7470,7 +7470,7 @@ game_menus = [
      (party_get_slot, ":volunteer_amount", "$current_town", slot_center_volunteer_troop_amount),
      (party_get_free_companions_capacity, ":free_capacity", "p_main_party"),
      (store_troop_gold, ":gold", "trp_player"),
-     (store_div, ":gold_capacity", ":gold", 10),#10 denars per man
+     (store_div, ":gold_capacity", ":gold", 10),#10 pounds per man
      (assign, ":party_capacity", ":free_capacity"),
      (val_min, ":party_capacity", ":gold_capacity"),
      (try_begin),
@@ -7487,7 +7487,7 @@ game_menus = [
        (eq, ":volunteer_amount", 0),
        (str_store_string, s18, "@No one here seems to be willing to join your party."),
      (else_try),
-       (store_mul, reg6, ":volunteer_amount", 10),#10 denars per man
+       (store_mul, reg6, ":volunteer_amount", 10),#10 pounds per man
        (str_store_troop_name_by_count, s3, ":volunteer_troop", ":volunteer_amount"),
        (try_begin),
          (eq, reg5, 1),
@@ -7524,7 +7524,7 @@ game_menus = [
         (eq, reg7, 0),
         (gt, reg5, 0),
       ],
-      "Recruit them ({reg6} denars).",
+      "Recruit them ({reg6} pounds).",
       [
         (call_script, "script_village_recruit_volunteers_recruit"),
                         
@@ -7744,7 +7744,7 @@ game_menus = [
   (
     "center_improve",0,
     "{s19} As the party member with the highest engineer skill ({reg2}), {reg3?you reckon:{s3} reckons} that building the {s4} will cost you\
- {reg5} denars and will take {reg6} days.",
+ {reg5} pounds and will take {reg6} days.",
     "bg3",
     [(call_script, "script_get_improvement_details", "$g_improvement_type"),
      (assign, ":improvement_cost", reg0),
@@ -8096,7 +8096,7 @@ game_menus = [
   (
     "village_loot_complete",mnf_disable_all_keys,
     "On your orders your troops sack the village, pillaging everything of any value,\
- and then put the buildings to the torch. From the coins and valuables that are found, you get your share of {reg1} denars.",
+ and then put the buildings to the torch. From the coins and valuables that are found, you get your share of {reg1} pounds.",
     "bg3",
     [
         (get_achievement_stat, ":number_of_village_raids", ACHIEVEMENT_THE_BANDIT, 0),
@@ -9431,7 +9431,7 @@ game_menus = [
           (party_get_num_companions, ":num_men", "p_main_party"),
           (store_div, reg1, ":num_men", 4),
           (val_add, reg1, 1),
-          (str_store_string, s1, "@ ({reg1} denars per night)"),
+          (str_store_string, s1, "@ ({reg1} pounds per night)"),
           (store_troop_gold, ":gold", "trp_player"),
           (lt, ":gold", reg1),
           (assign, ":can_rest", 0),
@@ -9737,7 +9737,7 @@ game_menus = [
   (
     "town_tournament_won",mnf_disable_all_keys,
     "You have won the tournament of {s3}! You are filled with pride as the crowd cheers your name.\
- In addition to honour, fame and glory, you earn a prize of {reg9} denars. {s8}",
+ In addition to honour, fame and glory, you earn a prize of {reg9} pounds. {s8}",
     "bg3",
     [
         (str_store_party_name, s3, "$current_town"),
@@ -9751,7 +9751,7 @@ game_menus = [
         (try_begin),
           (gt, "$g_tournament_bet_win_amount", 0),
           (assign, reg8, ":total_win"),
-          (str_store_string, s8, "@Moreover, you earn {reg8} denars from the clever bets you placed on yourself..."),
+          (str_store_string, s8, "@Moreover, you earn {reg8} pounds from the clever bets you placed on yourself..."),
         (try_end),
 		(try_begin),
 			(this_or_next|neq, "$players_kingdom", "$g_encountered_party_faction"),
@@ -10028,7 +10028,7 @@ game_menus = [
 
   (
     "tournament_bet",0,
-    "The odds against you are {reg5} to {reg6}.{reg1? You have already bet {reg1} denars on yourself, and if you win, you will earn {reg2} denars.:} How much do you want to bet?",
+    "The odds against you are {reg5} to {reg6}.{reg1? You have already bet {reg1} pounds on yourself, and if you win, you will earn {reg2} pounds.:} How much do you want to bet?",
     "bg3",
     [
       (assign, reg1, "$g_tournament_bet_placed"),
@@ -10057,7 +10057,7 @@ game_menus = [
       ("bet_100_denars", [(store_troop_gold, ":gold", "trp_player"),
                           (ge, ":gold", 100)
                           ],
-       "100 denars.",
+       "100 pounds.",
        [
          (assign, "$temp", 100),
          (jump_to_menu, "mnu_tournament_bet_confirm"),
@@ -10065,7 +10065,7 @@ game_menus = [
       ("bet_50_denars", [(store_troop_gold, ":gold", "trp_player"),
                          (ge, ":gold", 50)
                          ],
-       "50 denars.",
+       "50 pounds.",
        [
          (assign, "$temp", 50),
          (jump_to_menu, "mnu_tournament_bet_confirm"),
@@ -10073,7 +10073,7 @@ game_menus = [
       ("bet_20_denars", [(store_troop_gold, ":gold", "trp_player"),
                          (ge, ":gold", 20)
                          ],
-       "20 denars.",
+       "20 pounds.",
        [
          (assign, "$temp", 20),
          (jump_to_menu, "mnu_tournament_bet_confirm"),
@@ -10081,7 +10081,7 @@ game_menus = [
       ("bet_10_denars", [(store_troop_gold, ":gold", "trp_player"),
                          (ge, ":gold", 10)
                          ],
-       "10 denars.",
+       "10 pounds.",
        [
          (assign, "$temp", 10),
          (jump_to_menu, "mnu_tournament_bet_confirm"),
@@ -10089,7 +10089,7 @@ game_menus = [
       ("bet_5_denars", [(store_troop_gold, ":gold", "trp_player"),
                         (ge, ":gold", 5)
                         ],
-       "5 denars.",
+       "5 pounds.",
        [
          (assign, "$temp", 5),
          (jump_to_menu, "mnu_tournament_bet_confirm"),
@@ -10103,7 +10103,7 @@ game_menus = [
 
   (
     "tournament_bet_confirm",0,
-    "If you bet {reg1} denars, you will earn {reg2} denars if you win the tournament. Is that all right?",
+    "If you bet {reg1} pounds, you will earn {reg2} pounds if you win the tournament. Is that all right?",
     "bg3",
     [
       (call_script, "script_get_win_amount_for_tournament_bet"),
@@ -10238,7 +10238,7 @@ game_menus = [
 
   (
     "collect_taxes_complete",mnf_disable_all_keys,
-    "You've collected {reg3} denars in taxes from {s3}. {s19} will be expecting you to take the money to him.",
+    "You've collected {reg3} pounds in taxes from {s3}. {s19} will be expecting you to take the money to him.",
     "bg3",
     [(str_store_party_name, s3, "$current_town"),
      (quest_get_slot, ":quest_giver", "qst_collect_taxes", slot_quest_giver_troop),
@@ -10273,7 +10273,7 @@ game_menus = [
 
   (
     "collect_taxes_failed",mnf_disable_all_keys,
-    "You could collect only {reg3} denars as tax from {s3} before the revolt broke out.\
+    "You could collect only {reg3} pounds as tax from {s3} before the revolt broke out.\
  {s1} won't be happy, but some silver will placate him better than nothing at all...",
     "bg3",
     [(str_store_party_name, s3, "$current_town"),
@@ -10624,7 +10624,7 @@ game_menus = [
 
   (
     "center_reports",0,
-    "Town Name: {s1}^Rent Income: {reg1} denars^Tariff Income: {reg2} denars^Food Stock: for {reg3} days",
+    "Town Name: {s1}^Rent Income: {reg1} pounds^Tariff Income: {reg2} pounds^Food Stock: for {reg3} days",
     "bg3",
     [(party_get_slot, ":town_food_store", "$g_encountered_party", slot_party_food_store),
      (call_script, "script_center_get_food_consumption", "$g_encountered_party"),
@@ -11087,35 +11087,35 @@ game_menus = [
          (assign, reg6, ":best_result_5_profit"),
          (str_store_item_name, s4, ":best_result_5_item"),
          (str_store_party_name, s5, ":best_result_5_town"),
-         (str_store_string, s3, "@^Buying {s4} here and selling it at {s5} would bring a profit of {reg6} denars per item.{s3}"),
+         (str_store_string, s3, "@^Buying {s4} here and selling it at {s5} would bring a profit of {reg6} pounds per item.{s3}"),
        (try_end),
        (try_begin),
          (ge, ":best_result_4_item", 0),
          (assign, reg6, ":best_result_4_profit"),
          (str_store_item_name, s4, ":best_result_4_item"),
          (str_store_party_name, s5, ":best_result_4_town"),
-         (str_store_string, s3, "@^Buying {s4} here and selling it at {s5} would bring a profit of {reg6} denars per item.{s3}"),
+         (str_store_string, s3, "@^Buying {s4} here and selling it at {s5} would bring a profit of {reg6} pounds per item.{s3}"),
        (try_end),
        (try_begin),
          (ge, ":best_result_3_item", 0),
          (assign, reg6, ":best_result_3_profit"),
          (str_store_item_name, s4, ":best_result_3_item"),
          (str_store_party_name, s5, ":best_result_3_town"),
-         (str_store_string, s3, "@^Buying {s4} here and selling it at {s5} would bring a profit of {reg6} denars per item.{s3}"),
+         (str_store_string, s3, "@^Buying {s4} here and selling it at {s5} would bring a profit of {reg6} pounds per item.{s3}"),
        (try_end),
        (try_begin),
          (ge, ":best_result_2_item", 0),
          (assign, reg6, ":best_result_2_profit"),
          (str_store_item_name, s4, ":best_result_2_item"),
          (str_store_party_name, s5, ":best_result_2_town"),
-         (str_store_string, s3, "@^Buying {s4} here and selling it at {s5} would bring a profit of {reg6} denars per item.{s3}"),
+         (str_store_string, s3, "@^Buying {s4} here and selling it at {s5} would bring a profit of {reg6} pounds per item.{s3}"),
        (try_end),
        (try_begin),
          (ge, ":best_result_1_item", 0),
          (assign, reg6, ":best_result_1_profit"),
          (str_store_item_name, s4, ":best_result_1_item"),
          (str_store_party_name, s5, ":best_result_1_town"),
-         (str_store_string, s3, "@^Buying {s4} here and selling it at {s5} would bring a profit of {reg6} denars per item.{s3}"),
+         (str_store_string, s3, "@^Buying {s4} here and selling it at {s5} would bring a profit of {reg6} pounds per item.{s3}"),
        (try_end), 
        (str_store_string, s2, "@{reg3?You find:{s1} finds} out the following:^{s3}"),
      (try_end),
@@ -11274,7 +11274,7 @@ game_menus = [
 
   (
     "enemy_offer_ransom_for_prisoner",0,
-    "{s2} offers you a sum of {reg12} denars in silver if you are willing to sell him {s1}.",
+    "{s2} offers you a sum of {reg12} pounds in silver if you are willing to sell him {s1}.",
     "bg3",
     [(call_script, "script_calculate_ransom_amount_for_troop", "$g_ransom_offer_troop"),
      (assign, reg12, reg0),
@@ -12045,7 +12045,7 @@ game_menus = [
     "captivity_end_propose_ransom",0,
     "You spend long hours in the sunless dank of the dungeon, more than you can count.\
  Suddenly one of your captors enters your cell with an offer;\
- he proposes to free you in return for {reg5} denars of your hidden wealth. You decide to...",
+ he proposes to free you in return for {reg5} pounds of your hidden wealth. You decide to...",
     "bg3",
     [
       (assign, reg5, "$player_ransom_amount"),
@@ -14204,7 +14204,7 @@ game_menus = [
   ),
 
   ("notification_relieved_as_marshal", mnf_disable_all_keys,
-    "{s4} wishes to inform you that your services as marshal are no longer required. In honor of valiant efforts on behalf of the realm over the last {reg4} days, however, {reg8?she:he} offers you a purse of {reg5} denars.",
+    "{s4} wishes to inform you that your services as marshal are no longer required. In honor of valiant efforts on behalf of the realm over the last {reg4} days, however, {reg8?she:he} offers you a purse of {reg5} pounds.",
     "bg3",
     [
 	(assign, reg4, "$g_player_days_as_marshal"),
