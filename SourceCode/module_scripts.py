@@ -7496,6 +7496,21 @@ scripts = [
 	 
     ("initialize_item_info",
     [	 
+      (item_set_slot, "itm_rifle_russian_m1845", slot_item_rifled_analog, "itm_rifle_russian_m1856"),
+      (item_set_slot, "itm_rifle_russian_m1845", slot_item_converted_analog, "itm_rifle_russian_m1867"),
+      (item_set_slot, "itm_rifle_russian_m1845", slot_item_small_caliber_analog, "itm_rifle_berdan"),
+      (item_set_slot, "itm_rifle_russian_m1845", slot_item_bolt_action_analog, "itm_rifle_mosin"),
+      (item_set_slot, "itm_rifle_russian_m1856", slot_item_converted_analog, "itm_rifle_russian_m1867"),
+      (item_set_slot, "itm_rifle_russian_m1856", slot_item_small_caliber_analog, "itm_rifle_berdan"),
+      (item_set_slot, "itm_rifle_russian_m1856", slot_item_bolt_action_analog, "itm_rifle_mosin"),
+	  
+      (item_set_slot, "itm_rifle_russian_m1845_carbine", slot_item_rifled_analog, "itm_rifle_russian_m1856_carbine"),
+      (item_set_slot, "itm_rifle_russian_m1845_carbine", slot_item_converted_analog, "itm_rifle_russian_m1867_carbine"),
+      (item_set_slot, "itm_rifle_russian_m1845_carbine", slot_item_small_caliber_analog, "itm_rifle_berdan_carbine"),
+      (item_set_slot, "itm_rifle_russian_m1845_carbine", slot_item_bolt_action_analog, "itm_rifle_mosin_carbine"),
+      (item_set_slot, "itm_rifle_russian_m1856_carbine", slot_item_converted_analog, "itm_rifle_russian_m1867_carbine"),
+      (item_set_slot, "itm_rifle_russian_m1856_carbine", slot_item_small_caliber_analog, "itm_rifle_berdan_carbine"),
+      (item_set_slot, "itm_rifle_russian_m1856_carbine", slot_item_bolt_action_analog, "itm_rifle_mosin_carbine"),
 	  # Setting food bonuses - these have been changed to incentivize using historical rations. Bread is the most cost-efficient
 	  #Staples
       (item_set_slot, "itm_bread", slot_item_food_bonus, 8), #brought up from 4
@@ -15146,6 +15161,8 @@ scripts = [
 	(this_or_next|eq, ":item_no", "itm_rifle_russian_m1856_carbine"),
 	(this_or_next|eq, ":item_no", "itm_rifle_berdan"),
 	(this_or_next|eq, ":item_no", "itm_rifle_berdan_carbine"),
+	(this_or_next|eq, ":item_no", "itm_rifle_mosin"),
+	(this_or_next|eq, ":item_no", "itm_rifle_mosin_carbine"),
 	(this_or_next|eq, ":item_no", "itm_rifle_russian_m1867"),
 	(this_or_next|eq, ":item_no", "itm_rifle_russian_m1867_carbine"),
 	(this_or_next|eq, ":item_no", "itm_rifle_sharps"),
@@ -15199,6 +15216,11 @@ scripts = [
 		(this_or_next|eq, ":item_no", "itm_sidearm_savage_revolver"),
 		(eq, ":item_no", "itm_sidearm_colt_m1873"),
 		(set_result_string, "@Revolver (6 rounds)"),
+		(try_end),
+		(try_begin),
+		(this_or_next|eq, ":item_no", "itm_rifle_mosin_carbine"),
+		(eq, ":item_no", "itm_rifle_mosin"),
+		(set_result_string, "@Bolt-action magazine rifle (5 rounds)"),
 		(try_end),
 		(try_begin),
 		(eq, ":item_no", "itm_sidearm_pepperbox1"),
@@ -52349,6 +52371,19 @@ scripts = [
         (assign, ":has_pan_smoke", 0),
         (assign, ":smoke_size", 17),
         (assign, ":spark_size", 40),
+      (else_try),
+        (this_or_next|eq,":item_id", "itm_rifle_mosin"), # Modern Rifles (smokeless powder)
+        (eq,":item_id", "itm_rifle_mosin_carbine"),
+        (assign, ":penaltytodiscipline_fromfire", 1),
+        (assign, ":sound_id", "snd_shot_boltaction1"),
+        (assign, ":sound_far", "snd_rifle_shot_far1"),
+        (assign, ":sound_reflection", "snd_rifle_shot_reflection_small"),
+        (assign, ":muzzle_y", 125),
+        (assign, ":has_pan_sparks", 0),
+        (assign, ":has_pan_smoke", 0),
+        (assign, ":smoke_size", 5),
+        (assign, ":spark_size", 3),
+        (agent_set_animation, ":agent_id", "anim_unused_human_anim_48", 1),
       (try_end),
        
 	(try_begin),

@@ -1040,8 +1040,8 @@
   1.000000 lever_action_shot 0 4 67108866 0 0.0 0.0 0.0 0.0 
  unused_human_anim_47 1678771200 570437696  1
   1.800000 spencer_shot 0 7 67108866 0 0.0 0.0 0.0 0.0 
- unused_human_anim_48 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
+ unused_human_anim_48 1678771200 570437696  1
+  1.600000 bolt_shot 0 38 67108866 0 0.0 0.0 0.0 0.0 
  unused_human_anim_49 0 0  1
   1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
  unused_human_anim_50 0 0  1

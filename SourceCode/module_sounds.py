@@ -257,5 +257,6 @@ sounds = [
 ("winch_shot", sf_priority_14|sf_vol_15, ["winch_shot1.wav", "winch_shot2.wav", "winch_shot3.wav", "winch_shot4.wav"]),
 ("shot_spencer", sf_priority_14|sf_vol_15, ["shot_spencer1.wav", "shot_spencer2.wav", "shot_spencer3.wav", "shot_spencer4.wav"]),
 ("shot_pistol2", sf_priority_14|sf_vol_15, ["shot_pistol2_1.wav", "shot_pistol2_2.wav", "shot_pistol2_3.wav"]),
+("shot_boltaction1", sf_priority_14|sf_vol_15, ["shot_boltaction1_1.wav", "shot_boltaction1_2.wav", "shot_boltaction1_3.wav", "shot_boltaction1_4.wav", "shot_boltaction1_5.wav", "shot_boltaction1_6.wav", "shot_boltaction1_7.wav"]),
 
 ]

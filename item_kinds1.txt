@@ -1,5 +1,5 @@
 itemsfile version 3
-838
+842
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -2515,87 +2515,108 @@ itemsfile version 3
 0
 
  itm_ria_infantry_trousers1 ria_infantry_trousers1 ria_infantry_trousers1 1  ria_infantry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 44
 0
 
  itm_ria_infantry_trousers2 ria_infantry_trousers2 ria_infantry_trousers2 1  ria_infantry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 44
 0
 
  itm_ria_infantry_trousers3 ria_infantry_trousers3 ria_infantry_trousers3 1  ria_infantry_trousers3 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 44
 0
 
  itm_ria_cavalry_trousers1 ria_cavalry_trousers1 ria_cavalry_trousers1 1  ria_cavalry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 44
 0
 
  itm_ria_cavalry_trousers2 ria_cavalry_trousers2 ria_cavalry_trousers2 1  ria_cavalry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 44
 0
 
  itm_ria_cavalry_trousers3 ria_cavalry_trousers3 ria_cavalry_trousers3 1  ria_cavalry_trousers3 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 44
 0
 
  itm_ria_cavalry_trousers4 ria_cavalry_trousers4 ria_cavalry_trousers4 1  ria_cavalry_trousers4 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 44
 0
 
  itm_ria_infantry1 ria_infantry1 ria_infantry1 1  ria_infantry2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 44
 0
 
  itm_ria_infantry2 ria_infantry2 ria_infantry2 1  ria_infantry2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 44
 0
 
  itm_ria_infantry3 ria_infantry3 ria_infantry3 1  ria_infantry3 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 44
 0
 
  itm_ria_infantry4 ria_infantry4 ria_infantry4 1  ria_infantry4 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 44
 0
 
  itm_ria_cavalry1 ria_cavalry1 ria_cavalry1 1  ria_cavalry1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 44
 0
 
  itm_ria_cavalry2 ria_cavalry2 ria_cavalry2 1  ria_cavalry2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 44
 0
 
  itm_ria_cavalry3 ria_cavalry3 ria_cavalry3 1  ria_cavalry3 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 44
 0
 
  itm_ria_cavalry4 ria_cavalry4 ria_cavalry4 1  ria_cavalry4 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 44
 0
 
  itm_ria_hat1 ria_hat1 ria_hat1 1  ria_hat1 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 0
+ 1
+ 44
 0
 
  itm_ria_hat2 ria_hat2 ria_hat2 1  ria_hat2 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 0
+ 1
+ 44
 0
 
  itm_ria_hat3 ria_hat3 ria_hat3 1  ria_hat3 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 0
+ 1
+ 44
 0
 
  itm_ria_hat4 ria_hat4 ria_hat4 1  ria_hat4 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 0
+ 1
+ 44
 0
 
  itm_ria_hat5 ria_hat5 ria_hat5 1  ria_hat5 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 0
+ 1
+ 44
 0
 
  itm_ria_leader1 ria_leader1 ria_leader1 1  ria_leader1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 44
 0
 
  itm_rifle_berdan Berdan_Rifle Berdan_Rifle 2  berdan 0  berdan_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 105 0 0 60 550 0 1 326 0
@@ -2754,19 +2775,23 @@ itemsfile version 3
 0
 
  itm_lou_infantry_trousers1 lou_infantry_trousers1 lou_infantry_trousers1 1  lou_infantry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 45
 0
 
  itm_lou_infantry1 lou_infantry1 lou_infantry1 1  lou_infantry1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 45
 0
 
  itm_lou_infantry2 lou_infantry2 lou_infantry2 1  lou_infantry2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 45
 0
 
  itm_lou_hat1 lou_hat1 lou_hat1 1  lou_hat1 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
- 0
+ 1
+ 45
 0
 
  itm_sidearm_gasser Gasser_M1870 Gasser_M1870 2  gasser 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 90 0 0 50 210 0 6 304 0
@@ -2810,7 +2835,8 @@ itemsfile version 3
 0
 
  itm_lou_hat3 lou_hat3 lou_hat3 1  lou_hat3 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
- 0
+ 1
+ 45
 0
 
  itm_civilian_hat1 Wide-brimmed_Hat Wide-brimmed_Hat 1  civilian_hat1 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
@@ -2846,31 +2872,38 @@ itemsfile version 3
 0
 
  itm_lou_infantry4 lou_infantry4 lou_infantry4 1  lou_infantry4 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 45
 0
 
  itm_lou_cavalry1 lou_cavalry1 lou_cavalry1 1  lou_cavalry1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 45
 0
 
  itm_lou_cavalry2 lou_cavalry2 lou_cavalry2 1  lou_cavalry2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 45
 0
 
  itm_lou_hat4 lou_hat4 lou_hat4 1  lou_hat4 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
- 0
+ 1
+ 45
 0
 
  itm_lou_hat5 lou_hat5 lou_hat5 1  lou_hat5 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
- 0
+ 1
+ 45
 0
 
  itm_lou_cavalry_trousers1 lou_cavalry_trousers1 lou_cavalry_trousers1 1  lou_cavalry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 45
 0
 
  itm_lou_cavalry_trousers2 lou_cavalry_trousers2 lou_cavalry_trousers2 1  lou_cavalry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 45
 0
 
  itm_lance2 Lance Lance 1  lance2 0  3359965188 4222124851987200 270 8202 2.500000 100 0 0 0 0 16384 100 0 210 0 291 528
@@ -2878,63 +2911,78 @@ itemsfile version 3
 0
 
  itm_gho_hat1 gho_hat1 gho_hat1 1  gho_hat1 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
- 0
+ 1
+ 54
 0
 
  itm_gho_hat2 gho_hat2 gho_hat2 1  gho_hat2 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
- 0
+ 1
+ 54
 0
 
  itm_gho_hat3 gho_hat3 gho_hat3 1  gho_hat3 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
- 0
+ 1
+ 54
 0
 
  itm_gho_infantry1 gho_infantry1 gho_infantry1 1  gho_infantry1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 54
 0
 
  itm_gho_infantry2 gho_infantry2 gho_infantry2 1  gho_infantry2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 54
 0
 
  itm_gho_infantry3 gho_infantry3 gho_infantry3 1  gho_infantry3 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 54
 0
 
  itm_gho_infantry4 gho_infantry4 gho_infantry4 1  gho_infantry4 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 54
 0
 
  itm_gho_infantry5 gho_infantry5 gho_infantry5 1  gho_infantry5 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 54
 0
 
  itm_gho_cavalry1 gho_cavalry1 gho_cavalry1 1  gho_cavalry1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 54
 0
 
  itm_gho_cavalry2 gho_cavalry2 gho_cavalry2 1  gho_cavalry2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 54
 0
 
  itm_gho_infantry_trousers1 gho_infantry_trousers1 gho_infantry_trousers1 1  gho_infantry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 54
 0
 
  itm_gho_infantry_trousers2 gho_infantry_trousers2 gho_infantry_trousers2 1  gho_infantry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 54
 0
 
  itm_gho_infantry_trousers3 gho_infantry_trousers3 gho_infantry_trousers3 1  gho_infantry_trousers3 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 54
 0
 
  itm_gho_cavalry_trousers1 gho_cavalry_trousers1 gho_cavalry_trousers1 1  gho_cavalry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 54
 0
 
  itm_gho_cavalry_trousers2 gho_cavalry_trousers2 gho_cavalry_trousers2 1  gho_cavalry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
- 0
+ 1
+ 54
 0
 
  itm_lance3 Lance Lance 1  lance3 0  3359965188 4222124851987200 270 8202 2.500000 100 0 0 0 0 16384 100 0 210 0 291 528
@@ -3377,7 +3425,7 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_savage_revolver Savage_1861_Navy Savage_1861_Navy 2  savage_revolver 0  pistol_holster1 3458764513820540928  4259856 518080888832 400 131082 1.750000 100 0 0 95 0 0 35 320 0 6 306 0
+ itm_sidearm_savage_revolver Savage_M1861_Navy Savage_M1861_Navy 2  savage_revolver 0  pistol_holster1 3458764513820540928  4259856 518080888832 400 131082 1.750000 100 0 0 95 0 0 35 320 0 6 306 0
  0
 0
 
@@ -3386,6 +3434,22 @@ itemsfile version 3
 0
 
  itm_sidearm_pepperbox2 Pepper-box_Pistol Pepper-box_Pistol 2  pepperbox2 0  pepperbox2 3458764513820540928  4259856 483721150464 200 131082 1.000000 100 0 0 85 0 0 50 150 0 4 296 0
+ 0
+0
+
+ itm_rifle_mosin Mosin-Nagant_Rifle Mosin-Nagant_Rifle 2  mosin 0  mosin_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 105 0 0 40 600 0 5 316 0
+ 0
+0
+
+ itm_rifle_mosin_m Mosin-Nagant_Rifle Mosin-Nagant_Rifle 1  mosin 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 64512 75 0 120 0 301 319
+ 0
+0
+
+ itm_rifle_mosin_carbine Mosin-Nagant_Carbine Mosin-Nagant_Carbine 2  mosin_carbine 0  mosin_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 100 0 0 89 0 0 52 600 0 5 316 0
+ 0
+0
+
+ itm_rifle_mosin_carbine_m Mosin-Nagant_Carbine Mosin-Nagant_Carbine 1  mosin_carbine 0  6553604 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 80 0 542 530
  0
 0
 

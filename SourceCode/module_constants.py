@@ -106,6 +106,11 @@ slot_item_ccoop_has_ammo                = 59 #should be set to 1 for Invasion it
 slot_item_multiplayer_item_class   = 60 #temporary, can be moved to higher values
 slot_item_multiplayer_availability_linked_list_begin = 61 #temporary, can be moved to higher values
 
+slot_item_rifled_analog = 62
+slot_item_converted_analog = 63
+slot_item_small_caliber_analog = 64
+slot_item_bolt_action_analog = 65
+
 
 ########################################################
 ##  AGENT SLOTS            #############################
