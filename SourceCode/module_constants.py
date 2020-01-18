@@ -1205,12 +1205,19 @@ cb_forester = 4
 cb_nomad = 5
 cb_thief = 6
 cb_priest = 7
+cb_professor = 8
+cb_manufacture = 9
 
 cb2_page = 0
 cb2_apprentice = 1
 cb2_urchin  = 2
 cb2_steppe_child = 3
 cb2_merchants_helper = 4
+
+cb2_schooler = cb2_page
+cb2_factory = cb2_apprentice
+cb2_mugger = cb2_urchin
+cb2_news = cb2_merchants_helper
 
 cb3_poacher = 3
 cb3_craftsman = 4
@@ -1219,6 +1226,9 @@ cb3_troubadour = 7
 cb3_squire = 8
 cb3_lady_in_waiting = 9
 cb3_student = 10
+cb3_student_med = 10
+cb3_student_eng = 11
+cb3_student_phi = 12
 
 cb4_revenge = 1
 cb4_loss    = 2

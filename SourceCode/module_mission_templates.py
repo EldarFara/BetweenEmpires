@@ -1741,7 +1741,12 @@ pws_sky_bms = (ti_before_mission_start, 0, 0, [
 (set_skybox, ":sky", ":sky"),
 ], [])
 
-parabellum_script_set1a = [
+parabellum_script_set_conversation_screen = [
+pws_sky_bms,
+fgs_trees_ams,
+  ]	
+
+parabellum_script_set_battle = [
 pws_sky_bms,
 fgs_trees_ams,
 sound_man_death,
@@ -3265,7 +3270,7 @@ mission_templates = [
         (call_script, "script_neutral_behavior_in_fight"),
       ]),	  			
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),
 
 # This template is used in party encounters and such.
@@ -3284,7 +3289,7 @@ mission_templates = [
      (27,mtef_visitor_source,af_override_fullhelm,0,1,[]),(28,mtef_visitor_source,af_override_fullhelm,0,1,[]),(29,mtef_visitor_source,af_override_fullhelm,0,1,[]),(30,mtef_visitor_source,af_override_fullhelm,0,1,[]),(31,mtef_visitor_source,af_override_fullhelm,0,1,[]),
      ],
     []
-+ parabellum_script_set1a,
++ parabellum_script_set_conversation_screen,
   ),
   
 #----------------------------------------------------------------
@@ -3570,7 +3575,7 @@ mission_templates = [
      (try_end),
    ]),     
   ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
 ),
 
   (
@@ -3646,7 +3651,7 @@ mission_templates = [
         (try_end),
         ]),
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),
 
   (
@@ -3719,7 +3724,7 @@ mission_templates = [
          (finish_mission),
          ]),
       ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
     ),
 
   
@@ -3760,7 +3765,7 @@ mission_templates = [
          (finish_mission),
          ]),
       ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
     ),
     
   (
@@ -3848,7 +3853,7 @@ mission_templates = [
         (try_end),
         ]),
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),
 
 		  
@@ -3917,7 +3922,7 @@ mission_templates = [
            (finish_mission),
            ]),
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),
 
   (
@@ -3959,7 +3964,7 @@ mission_templates = [
            (finish_mission),
            ]),
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),
 
   (
@@ -4167,7 +4172,7 @@ mission_templates = [
       common_battle_order_panel_tick,
 
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),
 
   (
@@ -4224,7 +4229,7 @@ mission_templates = [
       common_battle_order_panel_tick,
       
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),
 
 
@@ -4316,7 +4321,7 @@ mission_templates = [
 ##          (call_script, "script_battle_tactic_apply"),
 ##          ], []),
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),
 
 
@@ -4539,7 +4544,7 @@ mission_templates = [
       common_battle_order_panel_tick,
       common_battle_inventory,
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),
 
   (
@@ -4604,7 +4609,7 @@ mission_templates = [
       common_battle_order_panel_tick,
       common_battle_inventory,
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),
 
   (
@@ -4704,7 +4709,7 @@ mission_templates = [
       common_battle_order_panel_tick,
       common_battle_inventory,
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),
 
 
@@ -4787,7 +4792,7 @@ mission_templates = [
       common_siege_rotate_belfry,
       common_siege_assign_men_to_belfry,
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),
 
   (
@@ -4903,7 +4908,7 @@ mission_templates = [
 ##         ],
 ##       []),
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),
   
 
@@ -5106,7 +5111,7 @@ mission_templates = [
         (finish_mission, 0),
       ]),
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),
 
 
@@ -5148,7 +5153,7 @@ mission_templates = [
           ]),
       
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),
 
   (
@@ -5201,7 +5206,7 @@ mission_templates = [
          ]),
       (ti_inventory_key_pressed, 0, 0, [(display_message,"str_cant_use_inventory_arena")], []),
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),
 
 
@@ -5414,7 +5419,7 @@ mission_templates = [
          ],
        []),
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),
 
   (
@@ -5626,7 +5631,7 @@ mission_templates = [
       (ti_inventory_key_pressed, 0, 0, [(display_message,"str_cant_use_inventory_arena")], []),
       
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),
 
    (
@@ -5656,7 +5661,7 @@ mission_templates = [
 ##        (mission_cam_set_target_agent, ":player_agent", 1),
 ##        (mission_cam_set_animation, "anim_test_cam"),], []),
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),
    (
     "camera_test",0,-1,
@@ -5672,7 +5677,7 @@ mission_templates = [
       (ti_tab_pressed, 0, 0, [],
        [(finish_mission,0)]),
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),
 
   (
@@ -5814,7 +5819,7 @@ mission_templates = [
            (finish_mission),
            ]),
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),
 
   (
@@ -5882,7 +5887,7 @@ mission_templates = [
            (finish_mission),
            ]),
     ]
-+ parabellum_script_set1a,
++ parabellum_script_set_battle,
   ),  
   
   

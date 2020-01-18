@@ -921,41 +921,62 @@ game_menus = [
     (str_clear,s15),
     ],
     [
-    ("start_noble",[],"An impoverished noble.",[
+    ("start_noble",[],"An aristocrat.",[
       (assign,"$background_type",cb_noble),
       (assign, reg3, "$character_gender"),
-      (str_store_string,s10,"@You came into the world a {reg3?daughter:son} of declining nobility,\
- owning only the house in which they lived. However, despite your family's hardships,\
- they afforded you a good education and trained you from childhood for the rigors of aristocracy and life at court."),
-	(jump_to_menu,"mnu_start_character_2"),
+      (str_store_string,s10,"@You were born the {reg3?daughter:son} of a minor noble,\
+ who's influence was decreasing with the new times. You had everything you needed:\
+ good education, happy childhood. You visited noble feasts and celebrations with your father,\
+ so you were welcome after his death, as also you managed to save family funds."),
+  (jump_to_menu,"mnu_start_character_2"),
     ]),
-    ("start_merchant",[],"A travelling merchant.",[
+    ("start_merchant",[],"An impoverished capitalist.",[
       (assign,"$background_type",cb_merchant),
       (assign, reg3, "$character_gender"),
-      (str_store_string,s10,"@You were born the {reg3?daughter:son} of travelling merchants,\
- always moving from place to place in search of a profit. Although your parents were wealthier than most\
- and educated you as well as they could, you found little opportunity to make friends on the road,\
- living mostly for the moments when you could sell something to somebody."),
-	(jump_to_menu,"mnu_start_character_2"),
+      (str_store_string,s10,"@You were born the {reg3?daughter:son} of a small businessman,\
+ always dealing with different sorts of customers and partners. Your parents were wealth enough\
+ to send you to a private school. You father wasn't able to deal with the new times,\
+ which changed trading technoligies, so after his death you had only a small part of his business."),
+  (jump_to_menu,"mnu_start_character_2"),
     ]),
-    ("start_guard",[],"A veteran warrior.",[
+    ("start_guard",[],"An army officer.",[
       (assign,"$background_type",cb_guard),
       (assign, reg3, "$character_gender"),
-      (str_store_string,s10,"@As a child, your family scrabbled out a meagre living from your father's wages\
- as a guardsman to the local lord. It was not an easy existence, and you were too poor to get much of an\
- education. You learned mainly how to defend yourself on the streets, with or without a weapon in hand."),
-	(jump_to_menu,"mnu_start_character_2"),
+      (str_store_string,s10,"@You were born the {reg3?daughter:son} of a minor staff officer,\
+ who took a part in a lot of conflicts of the early 19th century. Born in one of his campaigns,\
+ you never knew your mother. Although your father tried to teach you everything he knew,\
+ he wasn't a good teacher, so after his death you had only some army skills and his last bought gun."),
+  (jump_to_menu,"mnu_start_character_2"),
     ]),
-    ("start_forester",[],"A hunter.",[
+    ("start_forester",[],"A high-ranking member of organized crime syndicate.",[
       (assign,"$background_type",cb_forester),
       (assign, reg3, "$character_gender"),
       (str_store_string,s11,"@{reg3?daughter:son}"),
-      (str_store_string,s10,"@You were the {reg3?daughter:son} of a family who lived off the woods,\
- doing whatever they needed to make ends meet. Hunting, woodcutting, making arrows,\
- even a spot of poaching whenever things got tight. Winter was never a good time for your family\
- as the cold took animals and people alike, but you always lived to see another dawn,\
- though your brothers and sisters might not be so fortunate."),
-	(jump_to_menu,"mnu_start_character_2"),
+      (str_store_string,s10,"@You were born the {reg3?daughter:son} of a mafia capo,\
+ who was a respected member of a local band. Your father didn't want you\
+ to follow his steps, so you had a chance for a lawful life. But circumstances of the new times\
+ left you no choice, so after his death you replaced him with his mafia heritage."),
+  (jump_to_menu,"mnu_start_character_2"),
+    ]),
+    ("start_professor",[],"A university professor.",[
+      (assign,"$background_type",cb_professor),
+      (assign, reg3, "$character_gender"),
+      (str_store_string,s11,"@{reg3?daughter:son}"),
+      (str_store_string,s10,"@You were born the {reg3?daughter:son} of a university professor.\
+ As a son of a science man, you got a very good education. Although your family wasn't rich\
+ your father tought you that money aren't the most important,\
+ so after his death you entered the world with a good amount of knowledge."),
+  (jump_to_menu,"mnu_start_character_2"),
+    ]),
+    ("start_worker",[],"A factory worker.",[
+      (assign,"$background_type",cb_manufacture),
+      (assign, reg3, "$character_gender"),
+      (str_store_string,s11,"@{reg3?daughter:son}"),
+      (str_store_string,s10,"@You were born the {reg3?daughter:son} of a regular factory laborer,\
+ who spent his life toughly working for his family. Although you were tought to live fairly,\
+ your father gave you freedom of chosing your future profession.\
+ After his death, you still was seeking for a business to get in your live."),
+  (jump_to_menu,"mnu_start_character_2"),
     ]),
     ("start_nomad",[],"A steppe nomad.",[
       (assign,"$background_type",cb_nomad),
@@ -987,46 +1008,43 @@ game_menus = [
     "bg3",
     [],
     [
-      ("page",[
-          ],"A page at a nobleman's court.",[
-      (assign,"$background_answer_2", cb2_page),
+      ("page",
+        [
+          
+        ],
+        "A school student.",[
+      (assign,"$background_answer_2", cb2_schooler),
       (assign, reg3, "$character_gender"),
-      (str_store_string,s11,"@As a {reg3?girl:boy} growing out of childhood,\
- you were sent to live in the court of one of the nobles of the land.\
- There, your first lessons were in humility, as you waited upon the lords and ladies of the household.\
- But from their chess games, their gossip, even the poetry of great deeds and courtly love, you quickly began to learn about the adult world of conflict\
- and competition. You also learned from the rough games of the other children, who battered at each other with sticks in imitation of their elders' swords."),
-	(jump_to_menu,"mnu_start_character_3"),
+      (str_store_string,s11,"@You were, as far as anyone outside the university could tell, a studious person. Always obeying the rules, always getting good grades. If that was an illusion or not, only you know. But suffice you say, you were in university, be it because of a patronage from someone wealthy or because your family was rich enough to afford it, and even if you were a student whose record was questionable at best, it gained you valuable insight and experience."),
+  (jump_to_menu,"mnu_start_character_3"),
     ]),
-      ("apprentice",[
-          ],"A craftsman's apprentice.",[
-      (assign,"$background_answer_2", cb2_apprentice),
+      ("apprentice",
+        [
+        ],
+        "Factory worker.",[
+      (assign,"$background_answer_2", cb2_factory),
       (assign, reg3, "$character_gender"),
-      (str_store_string,s11,"@As a {reg3?girl:boy} growing out of childhood,\
- you apprenticed with a local craftsman to learn a trade. After years of hard work and study under your\
- new master, he promoted you to journeyman and employed you as a fully paid craftsman for as long as\
- you wished to stay."),
-	(jump_to_menu,"mnu_start_character_3"),
+      (str_store_string,s11,"@The thrumming of machines and the pounding of metal is a sound you know better than anyone. It was hard work, waking up real early and going to bed real late, working every second between those two events under the watchful eye of demanding overseers. You became intimately familiar with technology, particularly industry, as you worked. Your calloused hands are proof that you know hard work, and though you left the factory life behind, it will never leave you."),
+  (jump_to_menu,"mnu_start_character_3"),
     ]),
-      ("stockboy",[
-          ],"A shop assistant.",[
-      (assign,"$background_answer_2",cb2_merchants_helper),
+      ("stockboy",
+        [
+        ],
+        "A street urchin.",[
+      (assign,"$background_answer_2",cb2_mugger),
       (assign, reg3, "$character_gender"),
-      (str_store_string,s11,"@As a {reg3?girl:boy} growing out of childhood,\
- you apprenticed to a wealthy merchant, picking up the trade over years of working shops and driving caravans.\
- You soon became adept at the art of buying low, selling high, and leaving the customer thinking they'd\
- got the better deal."),
-	(jump_to_menu,"mnu_start_character_3"),
+      (str_store_string,s11,"@Living on the streets was tough. Stealing to live, if you could call the scraps you could get any sort of proper life, was part and parcel of your existence. Everyone looked down at you as a street urchin, as someone to be reviled and pitied at best, or actively driven out at worst. This hard life gave you perspective, it gave you skills others may see as unsavory. Luckily, in war, unsavory skills are quite useful."),
+  (jump_to_menu,"mnu_start_character_3"),
     ]),
-      ("urchin",[
-          ],"A street urchin.",[
-      (assign,"$background_answer_2",cb2_urchin),
+      ("urchin",
+        [
       (assign, reg3, "$character_gender"),
-      (str_store_string,s11,"@As a {reg3?girl:boy} growing out of childhood,\
- you took to the streets, doing whatever you must to survive.\
- Begging, thieving and working for gangs to earn your bread, you lived from day to day in this violent world,\
- always one step ahead of the law and those who wished you ill."),
-	(jump_to_menu,"mnu_start_character_3"),
+        ],
+        "News{reg3?girl:boy}.",[
+      (assign,"$background_answer_2",cb2_news),
+      (assign, reg3, "$character_gender"),
+      (str_store_string,s11,"@Extra extra! Local newspaper has a bunch of stories that you never really cared for! Hawking newspapers all day certainly improved your skills at speaking, making people who otherwise wouldn't care for the goings-on to buy a newspaper. Of course, a keen knowledge of business is hardly a bad thing. Perhaps the skills you learned will do you well in the new world you find yourself in."),
+  (jump_to_menu,"mnu_start_character_3"),
     ]),
       ("nomad",[
           ],"A steppe child.",[
@@ -1039,60 +1057,7 @@ game_menus = [
 	(jump_to_menu,"mnu_start_character_3"),
     ]),
       
-##      ("mummer",[],"Mummer.",[
-##      (assign,"$background_answer_2",5),
-##      (assign, reg3, "$character_gender"),
-##      (str_store_string,s13,"@{reg3?woman:man}"),
-##      (str_store_string,s12,"@{reg3?girl:boy}"),
-##      (str_store_string,s11,"@As a {s12} growing out of childhood,\
-## you attached yourself to a troupe of wandering entertainers, going from town to town setting up mummer's\
-## shows. It was a life of hard work, selling, begging and stealing your living from the punters who flocked\
-## to watch your antics. Over time you became a performer well capable of attracting a crowd."),
-##	(jump_to_menu,"mnu_start_character_3"),
-##    ]),
-##      ("courtier",[],"Courtier.",[
-##      (assign,"$background_answer_2",6),
-##      (assign, reg3, "$character_gender"),
-##      (str_store_string,s13,"@{reg3?woman:man}"),
-##      (str_store_string,s12,"@{reg3?girl:boy}"),
-##      (str_store_string,s11,"@As a {s12} growing out of childhood,\
-## you spent much of your life at court, inserting yourself into the tightly-knit circles of nobility.\
-## With the years you became more and more involved with the politics and intrigue demanded of a high-born {s13}.\
-## You could not afford to remain a stranger to backstabbing and political violence, even if you wanted to."),
-##	(jump_to_menu,"mnu_start_character_3"),
-##    ]),
-##      ("noble",[],"Noble in training.",[
-##      (assign,"$background_answer_2",7),
-##      (assign, reg3, "$character_gender"),
-##      (str_store_string,s13,"@{reg3?woman:man}"),
-##      (str_store_string,s12,"@{reg3?girl:boy}"),
-##      (try_begin),
-##      (eq,"$character_gender",tf_male),
-##      (str_store_string,s11,"@As a {s12} growing out of childhood,\
-## you were trained and educated to perform the duties and wield the rights of a noble landowner.\
-## The managing of taxes and rents were equally important in your education as diplomacy and even\
-## personal defence. You learned everything you needed to become a lord of your own hall."),
-##      (else_try),
-##      (str_store_string,s11,"@As a {s12} growing out of childhood,\
-## you were trained and educated to the duties of a noble {s13}. You learned much about the household arts,\
-## but even more about diplomacy and decorum, and all the things that a future husband might choose to speak of.\
-## Truly, you became every inch as shrewd as any lord, though it would be rude to admit it aloud."),
-##      (try_end),
-##	(jump_to_menu,"mnu_start_character_3"),
-##    ]),
-##      ("acolyte",[],"Cleric acolyte.",[
-##    (assign,"$background_answer_2",8),
-##      (assign, reg3, "$character_gender"),
-##      (str_store_string,s13,"@{reg3?woman:man}"),
-##      (str_store_string,s12,"@{reg3?girl:boy}"),
-##      (str_store_string,s11,"@As a {s12} growing out of childhood,\
-## you became an acolyte in the church, the lowest rank on the way to priesthood.\
-## Years of rigorous learning and hard work followed. You were one of several acolytes,\
-## performing most of the menial labour in the church in addition to being trained for more holy tasks.\
-## On the night of your adulthood you were allowed to conduct your first service.\
-## After that you were no longer an acolyte {s12}, but a {s13} waiting to take your vows into the service of God."),
-##	(jump_to_menu,"mnu_start_character_3"),
-##    ]),
+
       ("go_back",[],"Go back.",
      [(jump_to_menu,"mnu_start_character_1"),
     ]),
@@ -1127,36 +1092,42 @@ game_menus = [
 ## You were one of the charmed few who survived through every campaign in which you marched."),
 ##	(jump_to_menu,"mnu_start_character_4"),
 ##        ]),
-
-      ("squire",[(eq,"$character_gender",tf_male)],"A squire.",[
-        (assign,"$background_answer_3",cb3_squire),
-      (str_store_string,s14,"@{reg3?daughter:man}"),
+      ("student1",[],"A university student (medicine).",[
+        (assign,"$background_answer_3",cb3_student_med),
       (str_store_string,s12,"@Though the distinction felt sudden to you,\
  somewhere along the way you had become a {reg3?woman:man}, and the whole world seemed to change around you.\
- When you were named squire to a noble at court, you practiced long hours with weapons,\
- learning how to deal out hard knocks and how to take them, too.\
- You were instructed in your obligations to your lord, and of your duties to those who might one day be your vassals.\
- But in addition to learning the chivalric ideal, you also learned about the less uplifting side\
- -- old warriors' stories of ruthless power politics, of betrayals and usurpations,\
- of men who used guile as well as valor to achieve their aims."),
+ You found yourself as a student in one of the most prestigious medicine university in the world.\
+ where you studied theology, philosophy, and medicine.\
+ But not all your lessons were learned in the lecture halls.\
+ You may or may not have joined in with your fellows as they roamed the alleys in search of wine, women, and a good fight.\
+ However, you certainly were able to observe how a broken jaw is set,\
+ or how an angry townsman can be persuaded to set down his club and accept cash compensation for the destruction of his shop."),
 	(jump_to_menu,"mnu_start_character_4"),
         ]),
-      ("lady",[(eq,"$character_gender",tf_female)],"A lady-in-waiting.",[
-        (assign,"$background_answer_3",cb3_lady_in_waiting),
-      (str_store_string,s14,"@{reg3?daughter:man}"),
-      (str_store_string,s13,"@{reg3?woman:man}"),
+      ("student2",[],"A university student (engineering).",[
+        (assign,"$background_answer_3",cb3_student_eng),
       (str_store_string,s12,"@Though the distinction felt sudden to you,\
- somewhere along the way you had become a {s13}, and the whole world seemed to change around you.\
- You joined the tightly-knit circle of women at court, ladies who all did proper ladylike things,\
- the wives and mistresses of noble men as well as maidens who had yet to find a husband.\
- However, even here you found politics at work as the ladies schemed for prominence and fought each other\
- bitterly to catch the eye of whatever unmarried man was in fashion at court.\
- You soon learned ways of turning these situations and goings-on to your advantage. With it came the\
- realisation that you yourself could wield great influence in the world, if only you applied yourself\
- with a little bit of subtlety."),
+ somewhere along the way you had become a {reg3?woman:man}, and the whole world seemed to change around you.\
+ You found yourself as a student in one of the most prestigious engineering university in the world.\
+ where you studied theology, philosophy, and medicine.\
+ But not all your lessons were learned in the lecture halls.\
+ You may or may not have joined in with your fellows as they roamed the alleys in search of wine, women, and a good fight.\
+ However, you certainly were able to observe how a broken jaw is set,\
+ or how an angry townsman can be persuaded to set down his club and accept cash compensation for the destruction of his shop."),
 	(jump_to_menu,"mnu_start_character_4"),
         ]),
-      ("troubadour",[],"A troubadour.",[
+      ("student3",[],"A university student (philology).",[
+        (assign,"$background_answer_3",cb3_student_phi),
+      (str_store_string,s12,"@Though the distinction felt sudden to you,\
+ somewhere along the way you had become a {reg3?woman:man}, and the whole world seemed to change around you.\
+ You found yourself as a student in one of the most prestigious philology university in the world.\
+ But not all your lessons were learned in the lecture halls.\
+ You may or may not have joined in with your fellows as they roamed the alleys in search of wine, women, and a good fight.\
+ However, you certainly were able to observe how a broken jaw is set,\
+ or how an angry townsman can be persuaded to set down his club and accept cash compensation for the destruction of his shop."),
+	(jump_to_menu,"mnu_start_character_4"),
+        ]),
+      ("troubadour",[],"A touring musician.",[
         (assign,"$background_answer_3",cb3_troubadour),
       (str_store_string,s14,"@{reg3?daughter:man}"),
       (str_store_string,s13,"@{reg3?woman:man}"),
@@ -1168,41 +1139,14 @@ game_menus = [
  drunken crowds in your taverns, and even better at talking anyone out of anything you wanted."),
 	(jump_to_menu,"mnu_start_character_4"),
         ]),
-      ("student",[],"A university student.",[
-        (assign,"$background_answer_3",cb3_student),
-      (str_store_string,s12,"@Though the distinction felt sudden to you,\
- somewhere along the way you had become a {reg3?woman:man}, and the whole world seemed to change around you.\
- You found yourself as a student in the university of one of the great cities,\
- where you studied theology, philosophy, and medicine.\
- But not all your lessons were learned in the lecture halls.\
- You may or may not have joined in with your fellows as they roamed the alleys in search of wine, women, and a good fight.\
- However, you certainly were able to observe how a broken jaw is set,\
- or how an angry townsman can be persuaded to set down his club and accept cash compensation for the destruction of his shop."),
-	(jump_to_menu,"mnu_start_character_4"),
-        ]),
-      ("peddler",[],"A goods peddler.",[
-        (assign,"$background_answer_3",cb3_peddler),
-      (str_store_string,s14,"@{reg3?daughter:man}"),
-      (str_store_string,s13,"@{reg3?woman:man}"),
-      (str_store_string,s12,"@Though the distinction felt sudden to you,\
- somewhere along the way you had become a {s13}, and the whole world seemed to change around you.\
- Heeding the call of the open road, you travelled from village to village buying and selling what you could.\
- It was not a rich existence, but you became a master at haggling even the most miserly elders into\
- giving you a good price. Soon, you knew, you would be well-placed to start your own trading empire..."),
-	(jump_to_menu,"mnu_start_character_4"),
-        ]),
-      ("craftsman",[],"A smith.",[
+      ("craftsman",[],"An entrepreneur.",[
         (assign,"$background_answer_3", cb3_craftsman),
       (str_store_string,s14,"@{reg3?daughter:man}"),
       (str_store_string,s13,"@{reg3?woman:man}"),
-      (str_store_string,s12,"@Though the distinction felt sudden to you,\
- somewhere along the way you had become a {s13}, and the whole world seemed to change around you.\
- You pursued a career as a smith, crafting items of function and beauty out of simple metal.\
- As time wore on you became a master of your trade, and fine work started to fetch fine prices.\
- With food in your belly and logs on your fire, you could take pride in your work and your growing reputation."),
+      (str_store_string,s12,"@ "),
 	(jump_to_menu,"mnu_start_character_4"),
         ]),
-      ("poacher",[],"A game poacher.",[
+      ("poacher",[],"An outlaw.",[
         (assign,"$background_answer_3", cb3_poacher),
       (str_store_string,s14,"@{reg3?daughter:man}"),
       (str_store_string,s13,"@{reg3?woman:man}"),
@@ -1214,18 +1158,19 @@ game_menus = [
  firewood that warmed many freezing homes during winter. All for a few silvers, of course."),
 	(jump_to_menu,"mnu_start_character_4"),
         ]),
-##      ("preacher",[],"Itinerant preacher.",[
-##        (assign,"$background_answer_3",6),
-##      (str_store_string,s14,"@{reg3?daughter:man}"),
-##      (str_store_string,s13,"@{reg3?woman:man}"),
-##      (str_store_string,s12,"@Though the distinction felt sudden to you,\
-## somewhere along the way you had become a {s13}, and the whole world seemed to change around you.\
-## You packed your few belongings and went out into the world to spread the word of God. You preached to\
-## anyone who would listen, and impressed many with the passion of your sermons. Though you had taken a vow\
-## to remain in poverty through your itinerant years, you never lacked for food, drink or shelter; the\
-## hospitality of the peasantry was always generous to a rising {s13} of God."),
-##	(jump_to_menu,"mnu_start_character_4"),
-##        ]),
+      ("peddler",[],"The North America settler.",[
+        (assign,"$background_answer_3",cb3_peddler),
+      (str_store_string,s14,"@{reg3?daughter:man}"),
+      (str_store_string,s13,"@{reg3?woman:man}"),
+      (str_store_string,s12,"@ "),
+	(jump_to_menu,"mnu_start_character_4"),
+        ]),
+      ("squire",[(eq,"$character_gender",tf_male)],"A Crimean War veteran.",[
+        (assign,"$background_answer_3",cb3_squire),
+      (str_store_string,s14,"@{reg3?daughter:man}"),
+      (str_store_string,s12,"@ "),
+	(jump_to_menu,"mnu_start_character_4"),
+        ]),
       ("go_back",[],"Go back.",
        [(jump_to_menu,"mnu_start_character_2"),
         ]
@@ -1350,280 +1295,238 @@ game_menus = [
 ##        ]),
       ("begin_adventuring",[],"Become an adventurer and ride to your destiny.",[
            (set_show_messages, 0),
-           (try_begin),
-             (eq,"$character_gender",0),
-             (troop_raise_attribute, "trp_player",ca_strength,1),
-             (troop_raise_attribute, "trp_player",ca_charisma,1),
-		(troop_add_item, "trp_player","itm_clothes_adventurer_male1",0),
-		(troop_add_item, "trp_player","itm_clothes_adventurer_male_trousers1",0),
-           (else_try),
-		(troop_add_item, "trp_player","itm_clothes_adventurer_female1",0),
-		(troop_add_item, "trp_player","itm_clothes_adventurer_female_trousers1",0),
-             (troop_raise_attribute, "trp_player",ca_agility,1),
-             (troop_raise_attribute, "trp_player",ca_intelligence,1),
-           (try_end),
+	(try_begin),
+	(eq,"$character_gender",0),
+	(troop_add_item, "trp_player","itm_clothes_adventurer_male1",0),
+	(troop_add_item, "trp_player","itm_clothes_adventurer_male_trousers1",0),
+	(else_try),
+	(troop_add_item, "trp_player","itm_clothes_adventurer_female1",0),
+	(troop_add_item, "trp_player","itm_clothes_adventurer_female_trousers1",0),
+	(try_end),
 
-           (troop_raise_attribute, "trp_player",ca_strength,1),
-           (troop_raise_attribute, "trp_player",ca_agility,1),
-           (troop_raise_attribute, "trp_player",ca_charisma,1),
-           
-           (troop_raise_skill, "trp_player","skl_leadership",1),
-           (troop_raise_skill, "trp_player","skl_riding",1),
       (try_begin),
         (eq,"$background_type",cb_noble),
-        (eq,"$character_gender",tf_male),
-        (troop_raise_attribute, "trp_player",ca_intelligence,1),
-        (troop_raise_attribute, "trp_player",ca_charisma,2),
-        (troop_raise_skill, "trp_player",skl_weapon_master,1),
-        (troop_raise_skill, "trp_player",skl_power_strike,1),
-        (troop_raise_skill, "trp_player",skl_riding,1),
-        (troop_raise_skill, "trp_player",skl_tactics,1),
-        (troop_raise_skill, "trp_player",skl_leadership,1),
-        (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,10),
-        (troop_raise_proficiency, "trp_player",wpt_two_handed_weapon,10),
-        (troop_raise_proficiency, "trp_player",wpt_polearm,10),
-
         (troop_set_slot, "trp_player", slot_troop_renown, 100),
         (call_script, "script_change_player_honor", 3),
         (troop_add_gold, "trp_player", 100),
       (else_try),
-        (eq,"$background_type",cb_noble),
-        (eq,"$character_gender",tf_female),
-        (troop_raise_attribute, "trp_player",ca_intelligence,2),
-        (troop_raise_attribute, "trp_player",ca_charisma,1),
-        (troop_raise_skill, "trp_player",skl_wound_treatment,1),
-        (troop_raise_skill, "trp_player",skl_riding,2),
-        (troop_raise_skill, "trp_player",skl_first_aid,1),
-        (troop_raise_skill, "trp_player",skl_leadership,1),
-        (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,20),
-
-        (troop_set_slot, "trp_player", slot_troop_renown, 50),
-        (troop_add_gold, "trp_player", 100),
-      (else_try),
         (eq,"$background_type",cb_merchant),
-        (troop_raise_attribute, "trp_player",ca_intelligence,2),
-        (troop_raise_attribute, "trp_player",ca_charisma,1),
-        (troop_raise_skill, "trp_player",skl_riding,1),
-        (troop_raise_skill, "trp_player",skl_leadership,1),
-        (troop_raise_skill, "trp_player",skl_trade,2),
-        (troop_raise_skill, "trp_player",skl_inventory_management,1),
-        (troop_raise_proficiency, "trp_player",wpt_two_handed_weapon,10),
-        (troop_add_gold, "trp_player", 250),
+        (troop_add_gold, "trp_player", 1000),
+        (troop_raise_skill, "trp_player","skl_trade",1),
         (troop_set_slot, "trp_player", slot_troop_renown, 20),
       (else_try),
         (eq,"$background_type",cb_guard),
-        (troop_raise_attribute, "trp_player",ca_strength,1),
-        (troop_raise_attribute, "trp_player",ca_agility,1),
-        (troop_raise_attribute, "trp_player",ca_charisma,1),
         (troop_raise_skill, "trp_player","skl_ironflesh",1),
         (troop_raise_skill, "trp_player","skl_power_strike",1),
-        (troop_raise_skill, "trp_player","skl_weapon_master",1),
-        (troop_raise_skill, "trp_player","skl_leadership",1),
         (troop_raise_skill, "trp_player","skl_trainer",1),
+	(troop_add_item, "trp_player","itm_sidearm_caplock_pistol1",0),
+	(troop_add_item, "trp_player","itm_ammo_pistol",0),
         (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,10),
-        (troop_raise_proficiency, "trp_player",wpt_two_handed_weapon,15),
-        (troop_raise_proficiency, "trp_player",wpt_polearm,20),
+        (troop_raise_proficiency, "trp_player",wpt_two_handed_weapon,10),
+        (troop_raise_proficiency, "trp_player",wpt_archery,10),
         (troop_raise_proficiency, "trp_player",wpt_throwing,10),
+        (troop_raise_proficiency, "trp_player",wpt_crossbow,10),
+        (troop_raise_proficiency, "trp_player",wpt_polearm,10),
+        (troop_raise_proficiency, "trp_player",wpt_firearm,10),
         (troop_add_gold, "trp_player", 50),
-        (troop_set_slot, "trp_player", slot_troop_renown, 10),
+        (troop_set_slot, "trp_player", slot_troop_renown, 5),
       (else_try),
         (eq,"$background_type",cb_forester),
-        (troop_raise_attribute, "trp_player",ca_strength,1),
+        (troop_raise_attribute, "trp_player",ca_charisma,1),
         (troop_raise_attribute, "trp_player",ca_agility,2),
-        (troop_raise_skill, "trp_player","skl_power_draw",1),
-        (troop_raise_skill, "trp_player","skl_tracking",1),
-        (troop_raise_skill, "trp_player","skl_pathfinding",1),
-        (troop_raise_skill, "trp_player","skl_spotting",1),
-        (troop_raise_skill, "trp_player","skl_athletics",1),
-        (troop_raise_proficiency, "trp_player",wpt_two_handed_weapon,10),
-        (troop_raise_proficiency, "trp_player",wpt_archery,30),
-        (troop_add_gold, "trp_player", 30),
+        (troop_add_gold, "trp_player", 200),
+		(party_add_members, "p_main_party", "trp_european_outlaw_urban4", 6),
       (else_try),
         (eq,"$background_type",cb_nomad),
-        (eq,"$character_gender",tf_male),
         (troop_raise_attribute, "trp_player",ca_strength,1),
         (troop_raise_attribute, "trp_player",ca_agility,1),
         (troop_raise_attribute, "trp_player",ca_intelligence,1),
-        (troop_raise_skill, "trp_player","skl_power_draw",1),
+        (troop_raise_skill, "trp_player","skl_power_draw",2),
         (troop_raise_skill, "trp_player","skl_horse_archery",1),
         (troop_raise_skill, "trp_player","skl_pathfinding",1),
         (troop_raise_skill, "trp_player","skl_riding",2),
-        (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,10),
+        (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,20),
         (troop_raise_proficiency, "trp_player",wpt_archery,30),
-        (troop_raise_proficiency, "trp_player",wpt_throwing,10),
         (troop_add_gold, "trp_player", 15),
-        (troop_set_slot, "trp_player", slot_troop_renown, 10),
-      (else_try),
-        (eq,"$background_type",cb_nomad),
-        (eq,"$character_gender",tf_female),
-        (troop_raise_attribute, "trp_player",ca_strength,1),
-        (troop_raise_attribute, "trp_player",ca_agility,1),
-        (troop_raise_attribute, "trp_player",ca_intelligence,1),
-        (troop_raise_skill, "trp_player","skl_wound_treatment",1),
-        (troop_raise_skill, "trp_player","skl_first_aid",1),
-        (troop_raise_skill, "trp_player","skl_pathfinding",1),
-        (troop_raise_skill, "trp_player","skl_riding",2),
-        (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,5),
-        (troop_raise_proficiency, "trp_player",wpt_archery,20),
-        (troop_raise_proficiency, "trp_player",wpt_throwing,5),
-        (troop_add_gold, "trp_player", 20),
       (else_try),
         (eq,"$background_type",cb_thief),
         (troop_raise_attribute, "trp_player",ca_agility,3),
         (troop_raise_skill, "trp_player","skl_athletics",2),
-        (troop_raise_skill, "trp_player","skl_power_throw",1),
         (troop_raise_skill, "trp_player","skl_inventory_management",1),
         (troop_raise_skill, "trp_player","skl_looting",1),
         (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,20),
-        (troop_raise_proficiency, "trp_player",wpt_throwing,20),
         (troop_add_gold, "trp_player", 25),
       (try_end),
 
     (try_begin),
-        (eq,"$background_answer_2",cb2_page),
-        (troop_raise_attribute, "trp_player",ca_charisma,1),
-        (troop_raise_attribute, "trp_player",ca_strength,1),
-        (troop_raise_skill, "trp_player","skl_power_strike",1),
-        (troop_raise_skill, "trp_player","skl_persuasion",1),
-        (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,15),
-        (troop_raise_proficiency, "trp_player",wpt_polearm,5),
-    (else_try),
-        (eq,"$background_answer_2",cb2_apprentice),
-        (troop_raise_attribute, "trp_player",ca_intelligence,1),
-        (troop_raise_attribute, "trp_player",ca_strength,1),
+        (eq,"$background_answer_2",cb2_schooler),
+        (troop_raise_attribute, "trp_player",ca_intelligence,3),
+        (troop_raise_attribute, "trp_player",ca_agility,2),
         (troop_raise_skill, "trp_player","skl_engineer",1),
-        (troop_raise_skill, "trp_player","skl_trade",1),
+        (troop_raise_skill, "trp_player","skl_first_aid",1),
     (else_try),
-        (eq,"$background_answer_2",cb2_urchin),
-        (troop_raise_attribute, "trp_player",ca_agility,1),
+        (eq,"$background_answer_2",cb2_factory),
+        (troop_raise_attribute, "trp_player",ca_strength,3),
+        (troop_raise_attribute, "trp_player",ca_agility,3),
         (troop_raise_attribute, "trp_player",ca_intelligence,1),
+        (troop_raise_skill, "trp_player","skl_inventory_management",1),
+    (else_try),
+        (eq,"$background_answer_2",cb2_news),
+        (troop_raise_attribute, "trp_player",ca_charisma,3),
+        (troop_raise_attribute, "trp_player",ca_intelligence,2),
+        (troop_raise_skill, "trp_player","skl_trade",1),
+        (troop_raise_skill, "trp_player","skl_tracking",1),
         (troop_raise_skill, "trp_player","skl_spotting",1),
-        (troop_raise_skill, "trp_player","skl_looting",1),
-        (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,15),
-        (troop_raise_proficiency, "trp_player",wpt_throwing,5),
     (else_try),
         (eq,"$background_answer_2",cb2_steppe_child),
+        (troop_raise_attribute, "trp_player",ca_agility,3),
         (troop_raise_attribute, "trp_player",ca_strength,1),
-        (troop_raise_attribute, "trp_player",ca_agility,1),
-        (troop_raise_skill, "trp_player","skl_horse_archery",1),
-        (troop_raise_skill, "trp_player","skl_power_throw",1),
-        (troop_raise_proficiency, "trp_player",wpt_archery,15),
-        (call_script,"script_change_troop_renown", "trp_player", 5),
+        (troop_raise_skill, "trp_player","skl_riding", 1),
+        (troop_raise_skill, "trp_player","skl_horse_archery", 1),
     (else_try),
-        (eq,"$background_answer_2",cb2_merchants_helper),
-        (troop_raise_attribute, "trp_player",ca_intelligence,1),
-        (troop_raise_attribute, "trp_player",ca_charisma,1),
-        (troop_raise_skill, "trp_player","skl_inventory_management",1),
+        (eq,"$background_answer_2",cb2_mugger),
+        (troop_raise_attribute, "trp_player",ca_agility,4),
+        (troop_raise_attribute, "trp_player",ca_strength,3),
+        (troop_raise_skill, "trp_player","skl_prisoner_management",1),
+        (troop_raise_skill, "trp_player","skl_tracking",1),
+        (troop_raise_skill, "trp_player","skl_spotting",1),
+        (troop_raise_skill, "trp_player","skl_looting",1),
+        (troop_raise_skill, "trp_player","skl_pathfinding",1),
         (troop_raise_skill, "trp_player","skl_trade",1),
 	(try_end),
 
 	(try_begin),
         (eq,"$background_answer_3",cb3_poacher),
         (troop_raise_attribute, "trp_player",ca_strength,1),
-        (troop_raise_attribute, "trp_player",ca_agility,1),
-        (troop_raise_skill, "trp_player","skl_power_draw",1),
+        (troop_raise_attribute, "trp_player",ca_agility,3),
+        (troop_raise_skill, "trp_player","skl_riding",1),
+        (troop_raise_skill, "trp_player","skl_weapon_master",1),
+        (troop_raise_skill, "trp_player","skl_power_strike",2),
+        (troop_raise_skill, "trp_player","skl_ironflesh",2),
+        (troop_raise_skill, "trp_player","skl_leadership",1),
+        (troop_raise_skill, "trp_player","skl_trade",1),
+        (troop_raise_skill, "trp_player","skl_pathfinding",2),
+        (troop_raise_skill, "trp_player","skl_looting",3),
+        (troop_raise_skill, "trp_player","skl_inventory_management",1),
         (troop_raise_skill, "trp_player","skl_tracking",1),
         (troop_raise_skill, "trp_player","skl_spotting",1),
-        (troop_raise_skill, "trp_player","skl_athletics",1),
+        (troop_raise_skill, "trp_player","skl_prisoner_management",1),
         (troop_add_gold, "trp_player", 10),
-        (troop_raise_proficiency, "trp_player",wpt_polearm,10),
-        (troop_raise_proficiency, "trp_player",wpt_archery,35),
+        (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,20),
+        (troop_raise_proficiency, "trp_player",wpt_two_handed_weapon,20),
+        (troop_raise_proficiency, "trp_player",wpt_polearm,20),
+        (troop_raise_proficiency, "trp_player",wpt_archery,20),
+        (troop_raise_proficiency, "trp_player",wpt_crossbow,20),
+        (troop_raise_proficiency, "trp_player",wpt_throwing,20),
+        (troop_raise_proficiency, "trp_player",wpt_firearm,20),
            
     (else_try),
         (eq,"$background_answer_3",cb3_craftsman),
-        (troop_raise_attribute, "trp_player",ca_strength,1),
-        (troop_raise_attribute, "trp_player",ca_intelligence,1),
+        (troop_raise_attribute, "trp_player",ca_intelligence,2),
+        (troop_raise_attribute, "trp_player",ca_charisma,2),
 
-        (troop_raise_skill, "trp_player","skl_weapon_master",1),
-        (troop_raise_skill, "trp_player","skl_engineer",1),
-        (troop_raise_skill, "trp_player","skl_tactics",1),
-        (troop_raise_skill, "trp_player","skl_trade",1),
+        (troop_raise_skill, "trp_player","skl_engineer",2),
+        (troop_raise_skill, "trp_player","skl_trade",2),
+        (troop_raise_skill, "trp_player","skl_leadership",1),
+        (troop_raise_skill, "trp_player","skl_looting",1),
+        (troop_raise_skill, "trp_player","skl_prisoner_management",1),
+        (troop_raise_skill, "trp_player","skl_inventory_management",3),
 
         (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,15),
-        (troop_add_gold, "trp_player", 100),
+        (troop_add_gold, "trp_player", 500),
 
 
     (else_try),
         (eq,"$background_answer_3",cb3_peddler),
-        (troop_raise_attribute, "trp_player",ca_charisma,1),
-        (troop_raise_attribute, "trp_player",ca_intelligence,1),
-        (troop_raise_skill, "trp_player","skl_riding",1),
+        (troop_raise_attribute, "trp_player",ca_strength,2),
+        (troop_raise_attribute, "trp_player",ca_agility,2),
+        (troop_raise_skill, "trp_player","skl_riding",2),
         (troop_raise_skill, "trp_player","skl_trade",1),
-        (troop_raise_skill, "trp_player","skl_pathfinding",1),
-        (troop_raise_skill, "trp_player","skl_inventory_management",1),
+        (troop_raise_skill, "trp_player","skl_pathfinding",3),
+        (troop_raise_skill, "trp_player","skl_leadership",1),
+        (troop_raise_skill, "trp_player","skl_looting",2),
+        (troop_raise_skill, "trp_player","skl_inventory_management",2),
+        (troop_raise_skill, "trp_player","skl_tracking",3),
+        (troop_raise_skill, "trp_player","skl_spotting",3),
+        (troop_raise_skill, "trp_player","skl_prisoner_management",1),
            
-        (troop_add_gold, "trp_player", 90),
+        (troop_add_gold, "trp_player", 500),
         (troop_raise_proficiency, "trp_player",wpt_polearm,15),
     (else_try),
         (eq,"$background_answer_3",cb3_troubadour),
-        (troop_raise_attribute, "trp_player",ca_charisma,2),
+        (troop_raise_attribute, "trp_player",ca_charisma,3),
+        (troop_raise_attribute, "trp_player",ca_intelligence,2),
            
-        (troop_raise_skill, "trp_player","skl_weapon_master",1),
-        (troop_raise_skill, "trp_player","skl_persuasion",1),
-        (troop_raise_skill, "trp_player","skl_leadership",1),
+        (troop_raise_skill, "trp_player","skl_persuasion",2),
+        (troop_raise_skill, "trp_player","skl_leadership",2),
         (troop_raise_skill, "trp_player","skl_pathfinding",1),
+        (troop_raise_skill, "trp_player","skl_tracking",1),
+        (troop_raise_skill, "trp_player","skl_spotting",1),
            
-        (troop_add_gold, "trp_player", 80),
+        (troop_add_gold, "trp_player", 500),
         (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,25),
         (troop_raise_proficiency, "trp_player",wpt_crossbow,10),
 
     (else_try),
         (eq,"$background_answer_3",cb3_squire),
-        (troop_raise_attribute, "trp_player",ca_strength,1),
-        (troop_raise_attribute, "trp_player",ca_agility,1),
-        (troop_raise_skill, "trp_player","skl_riding",1),
-        (troop_raise_skill, "trp_player","skl_weapon_master",1),
-        (troop_raise_skill, "trp_player","skl_power_strike",1),
+        (troop_raise_attribute, "trp_player",ca_strength,3),
+        (troop_raise_attribute, "trp_player",ca_agility,3),
+        (troop_raise_attribute, "trp_player",ca_charisma,1),
+        (troop_raise_skill, "trp_player","skl_riding",3),
+        (troop_raise_skill, "trp_player","skl_weapon_master",3),
+        (troop_raise_skill, "trp_player","skl_power_strike",3),
+        (troop_raise_skill, "trp_player","skl_ironflesh",4),
         (troop_raise_skill, "trp_player","skl_leadership",1),
+        (troop_raise_skill, "trp_player","skl_trainer",2),
 
         (troop_add_gold, "trp_player", 20),
-        (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,30),
-        (troop_raise_proficiency, "trp_player",wpt_two_handed_weapon,30),
-        (troop_raise_proficiency, "trp_player",wpt_polearm,30),
-        (troop_raise_proficiency, "trp_player",wpt_archery,10),
-        (troop_raise_proficiency, "trp_player",wpt_crossbow,10),
-        (troop_raise_proficiency, "trp_player",wpt_throwing,10),
+        (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,50),
+        (troop_raise_proficiency, "trp_player",wpt_two_handed_weapon,50),
+        (troop_raise_proficiency, "trp_player",wpt_polearm,50),
+        (troop_raise_proficiency, "trp_player",wpt_archery,50),
+        (troop_raise_proficiency, "trp_player",wpt_crossbow,50),
+        (troop_raise_proficiency, "trp_player",wpt_throwing,50),
+        (troop_raise_proficiency, "trp_player",wpt_firearm,50),
 
     (else_try),
-        (eq,"$background_answer_3",cb3_lady_in_waiting),
-        (eq,"$character_gender",tf_female),
-        (troop_raise_attribute, "trp_player",ca_intelligence,1),
-        (troop_raise_attribute, "trp_player",ca_charisma,1),
-           
-        (troop_raise_skill, "trp_player","skl_persuasion",2),
-        (troop_raise_skill, "trp_player","skl_riding",1),
-        (troop_raise_skill, "trp_player","skl_wound_treatment",1),
-           
-        (troop_add_gold, "trp_player", 100),
-        (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,10),
-        (troop_raise_proficiency, "trp_player",wpt_crossbow,15),
+        (eq,"$background_answer_3",cb3_lady_in_waiting), #disabled
     (else_try),
-        (eq,"$background_answer_3",cb3_student),
-        (troop_raise_attribute, "trp_player",ca_intelligence,2),
-           
-        (troop_raise_skill, "trp_player","skl_weapon_master",1),
-        (troop_raise_skill, "trp_player","skl_surgery",1),
-        (troop_raise_skill, "trp_player","skl_wound_treatment",1),
+        (eq,"$background_answer_3",cb3_student_med),
+        (troop_raise_attribute, "trp_player",ca_intelligence,3),
+        (troop_raise_skill, "trp_player","skl_surgery",2),
+        (troop_raise_skill, "trp_player","skl_wound_treatment",2),
+        (troop_raise_skill, "trp_player","skl_first_aid",2),
         (troop_raise_skill, "trp_player","skl_persuasion",1),
-           
         (troop_add_gold, "trp_player", 80),
-        (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,20),
-        (troop_raise_proficiency, "trp_player",wpt_crossbow,20),
+
+    (else_try),
+        (eq,"$background_answer_3",cb3_student_eng),
+        (troop_raise_attribute, "trp_player",ca_intelligence,3),
+        (troop_raise_skill, "trp_player","skl_engineer", 4),
+        (troop_raise_skill, "trp_player","skl_persuasion",1),
+        (troop_add_gold, "trp_player", 80),
+
+    (else_try),
+        (eq,"$background_answer_3",cb3_student_phi),
+        (troop_raise_attribute, "trp_player",ca_intelligence,3),
+        (troop_raise_skill, "trp_player","skl_prisoner_management",2),
+        (troop_raise_skill, "trp_player","skl_inventory_management",1),
+        (troop_raise_skill, "trp_player","skl_leadership",2),
+        (troop_raise_skill, "trp_player","skl_trainer",2),
+        (troop_raise_skill, "trp_player","skl_persuasion",3),
+        (troop_add_gold, "trp_player", 80),
 
     (try_end),
 
       (try_begin),
         (eq,"$background_answer_4",cb4_revenge),
         (troop_raise_attribute, "trp_player",ca_strength,2),
-        (troop_raise_skill, "trp_player","skl_power_strike",1),
       (else_try),
         (eq,"$background_answer_4",cb4_loss),
         (troop_raise_attribute, "trp_player",ca_charisma,2),
-        (troop_raise_skill, "trp_player","skl_ironflesh",1),
       (else_try),
         (eq,"$background_answer_4",cb4_wanderlust),
         (troop_raise_attribute, "trp_player",ca_agility,2),
-        (troop_raise_skill, "trp_player","skl_pathfinding",1),
 ##        (else_try),
 ##        (eq,"$background_answer_4",4),
 ##        (troop_raise_attribute, "trp_player",ca_charisma,1),
@@ -1633,12 +1536,10 @@ game_menus = [
         (eq,"$background_answer_4",cb4_disown),
         (troop_raise_attribute, "trp_player",ca_strength,1),
         (troop_raise_attribute, "trp_player",ca_intelligence,1),
-        (troop_raise_skill, "trp_player","skl_weapon_master",1),
       (else_try),
         (eq,"$background_answer_4",cb4_greed),
         (troop_raise_attribute, "trp_player",ca_agility,1),
         (troop_raise_attribute, "trp_player",ca_intelligence,1),
-        (troop_raise_skill, "trp_player","skl_looting",1),
       (try_end),
 
 
@@ -8556,7 +8457,7 @@ game_menus = [
 			(else_try),
 			  (assign, "$town_entered", 1),              
               (call_script, "script_enter_court", "$current_town"),
-			 (music_set_situation, mtf_situation_lordhall),
+			 (music_set_situation, mtf_situation_headquarters),
            (try_end),
         ], "Door to the castle."),
       
