@@ -49,6 +49,8 @@ skl_reserved_16 = 39
 skl_reserved_17 = 40
 skl_reserved_18 = 41
 
+skl_captain = 3
+
 knows_trade_1 = 1
 knows_trade_2 = 2
 knows_trade_3 = 3

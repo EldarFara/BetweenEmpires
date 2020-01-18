@@ -52282,8 +52282,8 @@ scripts = [
       (assign, ":muzzle_y", 0),
       (assign, ":muzzle_x", -16),
       (assign, ":muzzle_y_rot", 0),
-      (assign, ":has_pan_sparks", 1),
-      (assign, ":has_pan_smoke", 1),
+      (assign, ":has_pan_sparks", 0),
+      (assign, ":has_pan_smoke", 0),
 	  
       (assign, ":smoke_size", 0),
       (assign, ":spark_size", 0),
@@ -52489,8 +52489,14 @@ scripts = [
       # the fire particles
       (position_rotate_z,pos41,":muzzle_y_rot"),
       (position_move_y,pos41,":muzzle_y"),
-      (particle_system_burst_no_sync, "psys_musket_smoke", pos41, ":smoke_size"),
-      (particle_system_burst_no_sync, "psys_musket_flash", pos41, ":spark_size"),
+      (try_begin),
+        (gt,":smoke_size",0),
+        (particle_system_burst_no_sync, "psys_musket_smoke", pos41, ":smoke_size"),
+      (try_end),
+      (try_begin),
+        (gt,":spark_size",0),
+       (particle_system_burst_no_sync, "psys_musket_flash", pos41, ":spark_size"),
+      (try_end),
     (try_end),
 	  
   ]),

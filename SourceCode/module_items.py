@@ -1585,6 +1585,12 @@ items = [
 ["rifle_mosin_carbine","Mosin-Nagant Carbine", [("mosin_carbine", 0),("mosin_carbine_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(100)|accuracy(int(accuracy_bolt_action_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_bolt_action_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_bolt_action_rifle)|max_ammo(5)|thrust_damage(damage_bolt_action_rifle, pierce), imodbits_firearm, []],
 ["rifle_mosin_carbine_m","Mosin-Nagant Carbine", [("mosin_carbine", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(30, blunt)|swing_damage(0, blunt), imodbits_none, []],
 
+["bow1", "Bow (Yew)", [("nomad_bow",0),("nomad_bow_case",ixmesh_carry)],itp_type_bow|itp_primary|itp_two_handed ,itcf_shoot_bow|itcf_carry_bow_back, 500 , weight(1.1)|difficulty(2)|spd_rtng(100) | shoot_speed(55) | thrust_damage(20 ,pierce) | accuracy(75),imodbits_bow ],
+["bow2", "Bow (Ash)", [("nomad_bow",0),("nomad_bow_case",ixmesh_carry)],itp_type_bow|itp_primary|itp_two_handed ,itcf_shoot_bow|itcf_carry_bow_back, 500 , weight(1.1)|difficulty(2)|spd_rtng(140) | shoot_speed(40) | thrust_damage(20 ,pierce) | accuracy(75),imodbits_bow ],
+["bow3", "Bow (Acacia)", [("nomad_bow",0),("nomad_bow_case",ixmesh_carry)],itp_type_bow|itp_primary|itp_two_handed ,itcf_shoot_bow|itcf_carry_bow_back, 500 , weight(1.1)|difficulty(2)|spd_rtng(140) | shoot_speed(55) | thrust_damage(15 ,pierce) | accuracy(75),imodbits_bow ],
+["bow4", "Composite Bow", [("strong_bow",0),("strong_bow_case",ixmesh_carry)],itp_type_bow|itp_primary|itp_two_handed ,itcf_shoot_bow|itcf_carry_bow_back, 1000 , weight(1.2)|difficulty(4)|spd_rtng(140) | shoot_speed(55) | thrust_damage(20 ,pierce) | accuracy(80),imodbits_bow ],
+["arrows1","Arrows", [("default_arrow",0),("flying_missile",ixmesh_flying_ammo),("quiver", ixmesh_carry)], itp_type_arrows|itp_default_ammo, itcf_carry_quiver_back, 100,weight(3)|abundance(160)|weapon_length(95)|thrust_damage(0,pierce)|max_ammo(30) | accuracy(70),imodbits_missile],
+
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 

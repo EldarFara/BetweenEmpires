@@ -1,5 +1,5 @@
 itemsfile version 3
-842
+847
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -3453,6 +3453,26 @@ itemsfile version 3
 0
 
  itm_rifle_mosin_carbine_m Mosin-Nagant_Carbine Mosin-Nagant_Carbine 1  mosin_carbine 0  6553604 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 80 0 542 530
+ 0
+0
+
+ itm_bow1 Bow_(Yew) Bow_(Yew) 2  nomad_bow 0  nomad_bow_case 3458764513820540928  6291464 5905584128 500 655370 1.000000 100 0 0 75 2 0 100 55 0 0 276 0
+ 0
+0
+
+ itm_bow2 Bow_(Ash) Bow_(Ash) 2  nomad_bow 0  nomad_bow_case 3458764513820540928  6291464 5905584128 500 655370 1.000000 100 0 0 75 2 0 140 40 0 0 276 0
+ 0
+0
+
+ itm_bow3 Bow_(Acacia) Bow_(Acacia) 2  nomad_bow 0  nomad_bow_case 3458764513820540928  6291464 5905584128 500 655370 1.000000 100 0 0 75 2 0 140 55 0 0 271 0
+ 0
+0
+
+ itm_bow4 Composite_Bow Composite_Bow 2  strong_bow 0  strong_bow_case 3458764513820540928  6291464 5905584128 1000 655370 1.000000 100 0 0 80 4 0 140 55 0 0 276 0
+ 0
+0
+
+ itm_arrows1 Arrows Arrows 3  default_arrow 0  flying_missile 2305843009213693952  quiver 3458764513820540928  32773 2147483648 100 4398046511112 3.000000 160 0 0 70 0 0 0 0 95 30 256 0
  0
 0
 

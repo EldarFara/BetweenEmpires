@@ -96,11 +96,11 @@ ui_charisma|charisma
 ui_not_enough_attributetype_to_learn_this_skill|(Not enough %s to learn this skill)
 ui_explanation_one_handed_weapon|Covers usage of one handed swords, axes and blunt weapons.
 ui_explanation_two_handed_weapon|Covers usage of two handed swords, great axes and mauls.
-ui_explanation_polearm|Covers usage of pole weapons like spears, lances, staffs, etc.
+ui_explanation_polearm|Covers usage of pole weapons like spears, lances, rifles with bayonets, etc.
 ui_explanation_archery|Covers usage of bows.
-ui_explanation_crossbow|Covers usage of crossbows.
+ui_explanation_crossbow|Covers usage of muskets and rifles.
 ui_explanation_throwing|Covers usage of thrown weapons like javelins, darts, stones etc.
-ui_explanation_firearms|Covers usage of pistols and muskets.
+ui_explanation_firearms|Covers usage of pistols.
 ui_explanation_strength|Strength: Every point adds +1 to hit points. The following skills can not be developed beyond 1/3 of Strength: ironflesh, Power-strike, Power-throw, Power-draw.
 ui_explanation_agility|Agility: Each point gives five weapon points and slightly increases movement speed. The following skills can not be developed beyond 1/3 of Agility: weapon-master, Shield, Athletics, Riding, Horse archery, Looting.
 ui_explanation_intelligence|Intelligence: Every point to intelligence immediately gives one extra skill point. The following skills can not be developed beyond 1/3 of Intelligence: Trainer, Tracking, Tactics,  Path finding, Spotting, Inventory Management, Wound treatment, Surgery, First-aid, Engineer, Persuasion.
@@ -272,9 +272,9 @@ ui_one_handed_weapons|One Handed Weapons
 ui_two_handed_weapons|Two Handed Weapons
 ui_polearms|Polearms
 ui_archery|Archery
-ui_crossbows|Crossbows
+ui_crossbows|Rifles
 ui_throwing|Throwing
-ui_firearms|Firearms
+ui_firearms|Pistols
 ui_reset|Reset
 ui_release_one|Release one
 ui_move_up|Move Up
@@ -507,7 +507,7 @@ ui_creating_game|Creating Game...
 ui_loading_savegame_file|Loading Savegame File...
 ui_loading_map_file|Loading Map File...
 ui_initializing_map|Initializing Map...
-ui_launching_game|Launching Game...
+ui_launching_game|Launching Game... This can take a few minutes.
 ui_capital_battle|BATTLE:
 ui_capital_versus|--VERSUS--
 ui_tracks|Tracks

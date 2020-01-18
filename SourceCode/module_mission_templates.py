@@ -567,7 +567,7 @@ pbs_agents_modifiers = (0.5, 0, 0, [
 		(try_end),
 		(try_begin),
 		(agent_slot_eq, ":agent", slot_agent_pbs_state, pbs_state_retreating),
-		(assign, ":marching_speed_modifier", 115),
+		(assign, ":marching_speed_modifier", 90),
 		(try_end),
 	(val_mul, ":speed", ":marching_speed_modifier"),
 	(val_div, ":speed", 100),
@@ -692,20 +692,27 @@ battle_start = (
 (assign, "$bugle_cooldown", 0),
 ])
 
-pai_calculate_company_average_coordinates_async = (0.2, 0, 0, [
+pai_calculate_company_average_coordinates_async = (0, 0.1, 0, [
+(val_add, "$async_calculate_company_average_coordinates_company", 1),
+	(try_begin),
+	(ge, "$async_calculate_company_average_coordinates_company", 8),
+	(assign, "$async_calculate_company_average_coordinates_company", 0),
+	(val_add, "$async_calculate_company_average_coordinates_team", 1),
+	(try_end),
 	(try_begin),
 	(ge, "$async_calculate_company_average_coordinates_team", 4),
 	(assign, "$async_calculate_company_average_coordinates_team", 0),
 	(try_end),
-	(try_begin),
-	(ge, "$async_calculate_company_average_coordinates_company", 8),
-	(assign, "$async_calculate_company_average_coordinates_company", 0),
-	(try_end),
-(val_add, "$async_calculate_company_average_coordinates_team", 1),
-(val_add, "$async_calculate_company_average_coordinates_company", 1),
-#(call_script, "script_calculate_company_average_coordinates", "$async_calculate_company_average_coordinates_team", "$async_calculate_company_average_coordinates_company"),
+(store_add, ":slot_team_soldier_number", slot_team_company1_soldier_number, "$async_calculate_company_average_coordinates_company"),
+(team_get_slot, ":soldier_number", "$async_calculate_company_average_coordinates_team", ":slot_team_soldier_number"),
+(neq, ":soldier_number", 0),
 ],
-[])
+[
+(store_add, ":slot_team_soldier_number", slot_team_company1_soldier_number, "$async_calculate_company_average_coordinates_company"),
+(team_get_slot, ":soldier_number", "$async_calculate_company_average_coordinates_team", ":slot_team_soldier_number"),
+(neq, ":soldier_number", 0),
+(call_script, "script_calculate_company_average_coordinates", "$async_calculate_company_average_coordinates_team", "$async_calculate_company_average_coordinates_company"),
+])
 
 pai_5000ms = (5, 0, 0, [
 (team_get_slot, ":timer", "$g_enemy_team", slot_team_pai_timer),
@@ -1187,13 +1194,21 @@ strategic_view_runtime = (0, 0, 0, [], [
 ])
 
 test = (0, 0, 0, [
-(key_clicked, key_y),
-(get_player_agent_no, ":player"),
-#(agent_get_position, pos1, ":player"),
-(agent_get_bone_position, pos1, ":player", 18, 1),
-	(try_for_prop_instances, ":prop", "spr_banner_ria1"),
-	(prop_instance_set_position, ":prop", pos1),
-	(try_end),
+# (set_fixed_point_multiplier, 1),
+# (store_add, ":slot_team_company_average_x", slot_team_company1_average_x, company1),
+# (team_get_slot, ":average_x", "$g_player_team", ":slot_team_company_average_x"),
+# (store_add, ":slot_team_company_average_y", slot_team_company1_average_y, company1),
+# (team_get_slot, ":average_y", "$g_player_team", ":slot_team_company_average_y"),
+# (store_add, ":slot_team_company_average_z", slot_team_company1_average_z_rot, company1),
+# (team_get_slot, ":average_z", "$g_player_team", ":slot_team_company_average_z"),
+# (init_position, pos1),
+# (position_set_x, pos1, ":average_x"),
+# (position_set_y, pos1, ":average_y"),
+# (position_rotate_z, pos1, ":average_z", 1),
+# (position_set_z_to_ground_level, pos1),
+	# (try_for_prop_instances, ":prop", "spr_fountain"),
+	# (prop_instance_set_position, ":prop", pos1),
+	# (try_end),
 
 ], [])
 
@@ -1228,7 +1243,7 @@ sound_man_death = (ti_on_agent_killed_or_wounded, 0, 0, [
 	(try_end),
 ], [])
 
-fgs_trees_ams = (ti_after_mission_start, 0, 0,[ #fgs - Flora Generating System
+fgs_trees_ams = (ti_after_mission_start, 0, 0,[ #fgs - Flora Generating System\
 (set_fixed_point_multiplier, 100),
 (store_current_scene, ":scene"),
 (this_or_next|eq, ":scene", "scn_random_scene_steppe"),

@@ -2938,7 +2938,7 @@ scene_props = [
   
  
 
- ("fountain", 0, "fountain", "bo_fountain", []),
+ ("fountain", 0, "fountain", "0", []),
 
  ("rhodok_houses_a",0,"rhodok_houses_a","bo_rhodok_houses_a", []),
  ("rhodok_houses_b",0,"rhodok_houses_b","bo_rhodok_houses_b", []),
