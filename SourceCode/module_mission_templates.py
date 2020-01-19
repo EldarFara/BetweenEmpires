@@ -1328,7 +1328,7 @@ aerial_view_runtime = (0, 0, 0, [], [
 ])
 
 test = (0, 0, 0, [
-(key_clicked, key_q),
+(key_clicked, key_t),
 (call_script, "script_store_company_average_position_to_pos30", 1, 0),
 (position_set_z_to_ground_level, pos30),
 (set_spawn_position, pos30),
