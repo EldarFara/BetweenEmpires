@@ -28273,7 +28273,7 @@ scripts = [
         (eq, ":is_cur_agent_running_away", 0),
         (try_begin),
           (eq, ":force_retreat", 1),
-          (agent_start_running_away, ":cur_agent"),
+         # (agent_start_running_away, ":cur_agent"),
           (agent_set_slot, ":cur_agent",  slot_agent_is_running_away, 1),
         (else_try),
           (ge, ":mission_time", 45), #first 45 seconds anyone does not run away whatever happens.
@@ -28291,7 +28291,7 @@ scripts = [
           (agent_get_troop_id, ":troop_id", ":cur_agent"), #for now do not let heroes to run away from battle
           (neg|troop_is_hero, ":troop_id"),
                                 
-          (agent_start_running_away, ":cur_agent"),
+         # (agent_start_running_away, ":cur_agent"),
           (agent_set_slot, ":cur_agent",  slot_agent_is_running_away, 1),
         (try_end),
       (else_try),
@@ -52918,6 +52918,10 @@ scripts = [
 [
 (store_script_param, ":team", 1),
 (store_script_param, ":formation_type", 2),
+
+# (position_set_z_to_ground_level, pos31),
+# (set_spawn_position, pos31),
+# (spawn_scene_prop, "spr_fountain"),
 
 (copy_position, pos30, pos31),
 (assign, ":light_companies_number", 0),

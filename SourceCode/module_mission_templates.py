@@ -766,6 +766,8 @@ pai_1000ms = (1, 0, 0, [
 	(copy_position, pos1, pos30),
 	(call_script, "script_store_average_coordinates_of_infantry_in_attack_formation_in_pos30", "$g_enemy_team"),
 	(get_distance_between_positions, ":distance", pos30, pos1),
+# (assign, reg0, ":distance"),
+# (display_message, "@distance {reg0}"),
 	(copy_position, pos31, pos30), (copy_position, pos30, pos1),
 	(call_script, "script_rotate_pos31_towards_pos30"),
 	(position_move_y, pos31, 2500, 0),
@@ -794,6 +796,8 @@ pai_1000ms = (1, 0, 0, [
 		(try_begin),
 		(le, ":distance", 5000), # Line infantry melee charge at 50 meters distance
 		(ge, ":distance", 3000),
+		(position_move_y, pos31, -1000, 0),
+		(call_script, "script_team_create_infantry_formation_on_pos31", "$g_enemy_team", formation_type_melee),
 			(try_for_range, ":company", 0, 8),
 			(call_script, "script_cf_if_company_has_soldiers", "$g_enemy_team", ":company"),
 			(store_add, ":slot_team_pai_state", slot_team_company1_pai_state, ":company"),
@@ -1324,22 +1328,11 @@ aerial_view_runtime = (0, 0, 0, [], [
 ])
 
 test = (0, 0, 0, [
-# (set_fixed_point_multiplier, 1),
-# (store_add, ":slot_team_company_average_x", slot_team_company1_average_x, company1),
-# (team_get_slot, ":average_x", "$g_player_team", ":slot_team_company_average_x"),
-# (store_add, ":slot_team_company_average_y", slot_team_company1_average_y, company1),
-# (team_get_slot, ":average_y", "$g_player_team", ":slot_team_company_average_y"),
-# (store_add, ":slot_team_company_average_z", slot_team_company1_average_z_rot, company1),
-# (team_get_slot, ":average_z", "$g_player_team", ":slot_team_company_average_z"),
-# (init_position, pos1),
-# (position_set_x, pos1, ":average_x"),
-# (position_set_y, pos1, ":average_y"),
-# (position_rotate_z, pos1, ":average_z", 1),
-# (position_set_z_to_ground_level, pos1),
-	# (try_for_prop_instances, ":prop", "spr_fountain"),
-	# (prop_instance_set_position, ":prop", pos1),
-	# (try_end),
-
+(key_clicked, key_q),
+(call_script, "script_store_company_average_position_to_pos30", 1, 0),
+(position_set_z_to_ground_level, pos30),
+(set_spawn_position, pos30),
+(spawn_scene_prop, "spr_fountain"),
 ], [])
 
 sound_man_death = (ti_on_agent_killed_or_wounded, 0, 0, [

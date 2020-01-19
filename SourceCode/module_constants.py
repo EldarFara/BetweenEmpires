@@ -38,7 +38,7 @@ pbs_state_moving_to_position = 1
 pbs_state_holding_position = 2
 pbs_state_charging = 3
 pbs_state_retreating = 4
-pbs_state_is_reinforcement = 4
+pbs_state_is_reinforcement = 5
 
 pbs_run_mode_walking = 0
 pbs_run_mode_running = 1
