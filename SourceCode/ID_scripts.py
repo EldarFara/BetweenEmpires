@@ -621,5 +621,10 @@ script_company_play_bugle = 619
 script_company_retreat = 620
 script_company_stop_retreat = 621
 script_calculate_company_average_coordinates = 622
+script_team_create_infantry_formation_on_pos31 = 623
+script_cf_if_company_has_soldiers = 624
+script_store_company_average_position_to_pos30 = 625
+script_rotate_pos31_towards_pos30 = 626
+script_store_average_coordinates_of_infantry_in_attack_formation_in_pos30 = 627
 
 

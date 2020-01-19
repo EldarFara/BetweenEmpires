@@ -1214,7 +1214,7 @@ current_clouds
 current_precipitation
 async_calculate_company_average_coordinates_team
 async_calculate_company_average_coordinates_company
-strategic_view_state
+aerial_view_state
 pbs_point1
 g_allies_team
 g_enemy_team

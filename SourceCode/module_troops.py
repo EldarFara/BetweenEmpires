@@ -116,6 +116,7 @@ def_attrib = str_7 | agi_5 | int_4 | cha_4
 def_attrib_multiplayer = int_30 | cha_30
 
 items_european_urban_clothing_male = [itm_clothes_urban_male_trousers1, itm_clothes_urban_male_trousers2, itm_clothes_urban_male_trousers3, itm_clothes_urban_male1, itm_clothes_urban_male2, itm_clothes_urban_male3, itm_civilian_hat1, itm_civilian_hat2, itm_civilian_hat3, itm_civilian_hat3b, itm_civilian_hat4, itm_civilian_hat4b, itm_civilian_hat4c, itm_civilian_hat4d]
+items_european_rural_clothing_male = [itm_clothes_urban_male_trousers1, itm_clothes_urban_male_trousers2, itm_clothes_urban_male_trousers3, itm_clothes_rural_male1, itm_clothes_rural_male2]
 items_melee_civilian_rural = [itm_sickle, itm_cleaver, itm_knife, itm_butchering_knife, itm_dagger, itm_clothes_urban_male3, itm_civilian_hat1, itm_falchion]
 items_smoothbore_pistols = [itm_ammo_pistol, itm_sidearm_flintlock_pistol1, itm_sidearm_caplock_pistol1]
 items_pocket_pistols = [itm_ammo_pistol, itm_sidearm_bacon1, itm_sidearm_pepperbox1, itm_sidearm_pepperbox2]

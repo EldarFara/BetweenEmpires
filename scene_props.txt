@@ -3054,7 +3054,7 @@ spr_tannery_pools_a 0 0 tannery_pools_a bo_tannery_pools_a 0
 spr_tannery_pools_b 0 0 tannery_pools_b bo_tannery_pools_b 0
 
 
-spr_fountain 0 0 fountain 0 0
+spr_fountain 0 0 debug_point 0 0
 
 
 spr_rhodok_houses_a 0 0 rhodok_houses_a bo_rhodok_houses_a 0

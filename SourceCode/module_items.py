@@ -39,15 +39,15 @@ speed_conversion_rifle = 50
 speed_rifle = 55
 speed_musket = 55
 
-damage_bolt_action_rifle = 60
-damage_small_caliber_rifle = 65
-damage_rifle = 70
-damage_musket = 60
+damage_bolt_action_rifle = 55
+damage_small_caliber_rifle = 60
+damage_rifle = 65
+damage_musket = 65
 
-shot_speed_bolt_action_rifle = 600
-shot_speed_small_caliber_rifle = 550
-shot_speed_rifle = 500
-shot_speed_musket = 300
+shot_speed_bolt_action_rifle = 700
+shot_speed_small_caliber_rifle = 650
+shot_speed_rifle = 600
+shot_speed_musket = 400
 
 accuracy_carbine_modifier = 0.85
 speed_carbine_modifier = 1.3
@@ -1387,8 +1387,8 @@ items = [
 
 ["sidearm_smithwesson_no2","Smith & Wesson Model 2", [("smithwesson_no2", 0),("pistol_holster1b", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,400, weight(1.2)|abundance(100)|accuracy(accuracy_heavy_pistol)|spd_rtng(45)|shoot_speed(200)|max_ammo(6)|thrust_damage(50, pierce), imodbits_firearm, []],
 
-["sidearm_flintlock_pistol1","Flintlock Pistol", [("flintlock_pistol1", 0)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,400, weight(1.5)|abundance(100)|accuracy(accuracy_smoothbore_pistol)|spd_rtng(10)|shoot_speed(150)|max_ammo(1)|thrust_damage(65, pierce), imodbits_firearm, []],
-["sidearm_caplock_pistol1","Caplock Pistol", [("caplock_pistol1", 0)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,400, weight(1.5)|abundance(100)|accuracy(accuracy_smoothbore_pistol)|spd_rtng(12)|shoot_speed(150)|max_ammo(1)|thrust_damage(65, pierce), imodbits_firearm, []],
+["sidearm_flintlock_pistol1","Flintlock Pistol", [("flintlock_pistol1", 0)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,400, weight(1.5)|abundance(100)|accuracy(accuracy_smoothbore_pistol)|spd_rtng(12)|shoot_speed(150)|max_ammo(1)|thrust_damage(65, pierce), imodbits_firearm, []],
+["sidearm_caplock_pistol1","Caplock Pistol", [("caplock_pistol1", 0)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,400, weight(1.5)|abundance(100)|accuracy(accuracy_smoothbore_pistol)|spd_rtng(15)|shoot_speed(150)|max_ammo(1)|thrust_damage(65, pierce), imodbits_firearm, []],
 
 ["horse_european1","Saddle Horse", [("horse_european1",0),("horse_european1",imodbits_horse_good)], itp_type_horse, 0, 240,abundance(90)|hit_points(200)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.00))|horse_maneuver(int(default_horse_maneuver*1.00))|horse_charge(5)|horse_scale(100),imodbits_horse_basic],
 ["horse_european2","Saddle Horse", [("horse_european2",0),("horse_european2",imodbits_horse_good)], itp_type_horse, 0, 240,abundance(90)|hit_points(200)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.00))|horse_maneuver(int(default_horse_maneuver*1.00))|horse_charge(5)|horse_scale(100),imodbits_horse_basic],
@@ -1568,7 +1568,7 @@ items = [
 
 ["sidearm_colt_m1851_navy","Colt M1851 Navy", [("colt_m1851_navy", 0),("pistol_holster1", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,400, weight(1.9)|abundance(100)|accuracy(accuracy_heavy_pistol)|spd_rtng(40)|shoot_speed(320)|max_ammo(6)|thrust_damage(50, pierce), imodbits_firearm, []],
 ["sidearm_bacon1","Bacon Pocket Revolver", [("bacon", 0),("pistol_holster1b", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,200, weight(1.3)|abundance(100)|accuracy(accuracy_light_pistol)|spd_rtng(50)|shoot_speed(150)|max_ammo(6)|thrust_damage(40, pierce), imodbits_firearm, []],
-["rifle_sharps","Sharps Rifle", [("sharps", 0),("sharps_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,800, weight(4.3)|abundance(100)|accuracy(accuracy_small_caliber_rifle+4)|spd_rtng(speed_small_caliber_rifle)|shoot_speed(shot_speed_small_caliber_rifle)|max_ammo(1)|thrust_damage(damage_rifle, pierce), imodbits_firearm, []],
+["rifle_sharps","Sharps Rifle", [("sharps", 0),("sharps_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,800, weight(4.3)|abundance(100)|accuracy(accuracy_small_caliber_rifle+4)|spd_rtng(speed_small_caliber_rifle)|shoot_speed(shot_speed_small_caliber_rifle)|max_ammo(1)|thrust_damage(damage_rifle, pierce), imodbits_firearm, []],
 ["rifle_sharps_m","Sharps Rifle", [("sharps", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(120)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],
 ["rifle_winchester_m1873","Winchester M1873 Rifle", [("winchester_m1873", 0),("winchester_m1873_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,800, weight(4.3)|abundance(100)|accuracy(accuracy_small_caliber_rifle-15)|spd_rtng(speed_small_caliber_rifle-30)|shoot_speed(shot_speed_small_caliber_rifle)|max_ammo(12)|thrust_damage(damage_rifle-15, pierce), imodbits_firearm, []],
 ["rifle_winchester_m1873_m","Winchester M1873 Rifle", [("winchester_m1873", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(120)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],
@@ -1590,6 +1590,11 @@ items = [
 ["bow3", "Bow (Acacia)", [("nomad_bow",0),("nomad_bow_case",ixmesh_carry)],itp_type_bow|itp_primary|itp_two_handed ,itcf_shoot_bow|itcf_carry_bow_back, 500 , weight(1.1)|difficulty(2)|spd_rtng(140) | shoot_speed(55) | thrust_damage(15 ,pierce) | accuracy(75),imodbits_bow ],
 ["bow4", "Composite Bow", [("strong_bow",0),("strong_bow_case",ixmesh_carry)],itp_type_bow|itp_primary|itp_two_handed ,itcf_shoot_bow|itcf_carry_bow_back, 1000 , weight(1.2)|difficulty(4)|spd_rtng(140) | shoot_speed(55) | thrust_damage(20 ,pierce) | accuracy(80),imodbits_bow ],
 ["arrows1","Arrows", [("default_arrow",0),("flying_missile",ixmesh_flying_ammo),("quiver", ixmesh_carry)], itp_type_arrows|itp_default_ammo, itcf_carry_quiver_back, 100,weight(3)|abundance(160)|weapon_length(95)|thrust_damage(0,pierce)|max_ammo(30) | accuracy(70),imodbits_missile],
+
+["clothes_rural_male1","Shirt", [("clothes_rural_male1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["clothes_rural_male2","Shirt", [("clothes_rural_male2", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["clothes_gala_male1","Three-piece Suit", [("clothes_gala_male1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,250, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["clothes_gala_male1_trousers","Trousers", [("clothes_gala_male1_trousers", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, []],
 
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],

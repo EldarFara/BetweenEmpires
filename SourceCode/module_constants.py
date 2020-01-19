@@ -8,10 +8,19 @@ from ID_factions import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+company_pai_state_generic = 0
+
+formation_type_ranged = 1
+formation_type_melee  = 2
+
 pai_global_tactic_simple_charge = 1
 pai_global_tactic_initial = 2
-pai_global_tactic_attack = 3
-pai_global_tactic_defend = 4
+pai_global_tactic_defend_initial = 3
+pai_global_tactic_attack_initial = 4
+pai_global_tactic_attack_forming_ranks = 5
+pai_global_tactic_attack_approaching = 6
+pai_global_tactic_defend_holding_position = 7
+pai_global_tactic_attack_charging = 8
 
 spawable_prop_limit = 4000
 
@@ -1195,6 +1204,43 @@ slot_team_company5_average_z_rot                       = 120
 slot_team_company6_average_z_rot                       = 121
 slot_team_company7_average_z_rot                       = 122
 slot_team_company8_average_z_rot                       = 123
+slot_team_company1_hold_order_x                       = 124
+slot_team_company2_hold_order_x                       = 125
+slot_team_company3_hold_order_x                       = 126
+slot_team_company4_hold_order_x                       = 127
+slot_team_company5_hold_order_x                       = 128
+slot_team_company6_hold_order_x                       = 129
+slot_team_company7_hold_order_x                       = 130
+slot_team_company8_hold_order_x                       = 131
+slot_team_company1_hold_order_y                       = 132
+slot_team_company2_hold_order_y                       = 133
+slot_team_company3_hold_order_y                       = 134
+slot_team_company4_hold_order_y                       = 135
+slot_team_company5_hold_order_y                       = 136
+slot_team_company6_hold_order_y                       = 137
+slot_team_company7_hold_order_y                       = 138
+slot_team_company8_hold_order_y                       = 139
+slot_team_company1_hold_order_z_rot                       = 140
+slot_team_company2_hold_order_z_rot                       = 141
+slot_team_company3_hold_order_z_rot                       = 142
+slot_team_company4_hold_order_z_rot                       = 143
+slot_team_company5_hold_order_z_rot                       = 144
+slot_team_company6_hold_order_z_rot                       = 145
+slot_team_company7_hold_order_z_rot                       = 146
+slot_team_company8_hold_order_z_rot                       = 147
+slot_team_pai_start_position_x                         = 148
+slot_team_pai_start_position_y                         = 149
+slot_team_pai_start_position_z_rot                     = 150
+slot_team_company1_pai_state                       = 151
+slot_team_company2_pai_state                       = 152
+slot_team_company3_pai_state                       = 153
+slot_team_company4_pai_state                       = 154
+slot_team_company5_pai_state                       = 155
+slot_team_company6_pai_state                       = 156
+slot_team_company7_pai_state                       = 157
+slot_team_company8_pai_state                       = 158
+slot_team_pai_target_team                       = 159
+slot_team_pai_target_company                    = 160
 
 #Rebellion changes end
 # character backgrounds

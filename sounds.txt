@@ -1,5 +1,5 @@
 soundsfile version 3
-752
+753
  drum_3.ogg 769
  tutorial_1.ogg 1793
  tutorial_2.ogg 1793
@@ -724,6 +724,7 @@ soundsfile version 3
  rifle_shot_far1_10.wav 3089
  rifle_shot_far1_11.wav 3089
  rifle_shot_far1_12.wav 3089
+ none 3089
  bugle_open_fire1.wav 4032
  bugle_open_fire2.wav 4032
  bugle_stop_fire1.wav 4032
@@ -966,15 +967,15 @@ snd_mandeath5 2976 32 660 0 661 0 662 0 663 0 664 0 665 0 666 0 667 0 668 0 669 
 snd_mandeath6 2976 12 692 0 693 0 694 0 695 0 696 0 697 0 698 0 699 0 700 0 701 0 702 0 703 0 
 snd_rifle_shot_reflection_small 3856 4 704 0 705 0 706 0 707 0 
 snd_rifle_shot_reflection 3856 4 708 0 709 0 710 0 711 0 
-snd_rifle_shot_far1 3089 12 712 0 713 0 714 0 715 0 716 0 717 0 718 0 719 0 720 0 721 0 722 0 723 0 
-snd_bugle_open_fire 4032 2 724 0 725 0 
-snd_bugle_stop_fire 4032 2 726 0 727 0 
-snd_bugle_run 4032 1 728 0 
-snd_bugle_walk 4032 1 729 0 
-snd_bugle_retreat 4032 1 730 0 
-snd_bugle_stop_retreat 4032 1 731 0 
-snd_bugle_cavalry_charge 4032 2 732 0 733 0 
-snd_winch_shot 4064 4 734 0 735 0 736 0 737 0 
-snd_shot_spencer 4064 4 738 0 739 0 740 0 741 0 
-snd_shot_pistol2 4064 3 742 0 743 0 744 0 
-snd_shot_boltaction1 4064 7 745 0 746 0 747 0 748 0 749 0 750 0 751 0 
+snd_rifle_shot_far1 3089 13 712 0 713 0 714 0 715 0 716 0 717 0 718 0 719 0 720 0 721 0 722 0 723 0 724 0 
+snd_bugle_open_fire 4032 2 725 0 726 0 
+snd_bugle_stop_fire 4032 2 727 0 728 0 
+snd_bugle_run 4032 1 729 0 
+snd_bugle_walk 4032 1 730 0 
+snd_bugle_retreat 4032 1 731 0 
+snd_bugle_stop_retreat 4032 1 732 0 
+snd_bugle_cavalry_charge 4032 2 733 0 734 0 
+snd_winch_shot 4064 4 735 0 736 0 737 0 738 0 
+snd_shot_spencer 4064 4 739 0 740 0 741 0 742 0 
+snd_shot_pistol2 4064 3 743 0 744 0 745 0 
+snd_shot_boltaction1 4064 7 746 0 747 0 748 0 749 0 750 0 751 0 752 0 

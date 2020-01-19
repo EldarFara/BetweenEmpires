@@ -15251,7 +15251,7 @@ presentations = [
 (val_add, ":x_energy", pbs_menu_distance_between_infolists),
 
 	(try_begin),
-	(neq, "$strategic_view_state", 2),
+	(neq, "$aerial_view_state", 2),
 	(presentation_set_duration, 0),
 	(try_end),
 ]),
