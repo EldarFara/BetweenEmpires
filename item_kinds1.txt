@@ -2623,7 +2623,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_berdan_m Berdan_Rifle Berdan_Rifle 1  berdan 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 64512 75 0 120 0 301 319
+ itm_rifle_berdan_m Berdan_Rifle Berdan_Rifle 1  berdan 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 52224 75 0 120 0 291 307
  0
 0
 
@@ -2651,7 +2651,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1845_m Russian_M1845_Musket Russian_M1845_Musket 1  russian_m1845 0  274989060 4222130824676096 0 0 4.500000 100 0 0 0 0 64512 75 0 120 0 301 319
+ itm_rifle_russian_m1845_m Russian_M1845_Musket Russian_M1845_Musket 1  russian_m1845 0  274989060 4222130824676096 0 0 4.500000 100 0 0 0 0 52224 75 0 120 0 291 307
  0
 0
 
@@ -2659,7 +2659,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1856_m Russian_M1856_Rifle Russian_M1856_Rifle 1  russian_m1856 0  274989060 4222130824676096 0 0 4.750000 100 0 0 0 0 64512 75 0 120 0 301 319
+ itm_rifle_russian_m1856_m Russian_M1856_Rifle Russian_M1856_Rifle 1  russian_m1856 0  274989060 4222130824676096 0 0 4.750000 100 0 0 0 0 52224 75 0 120 0 291 307
  0
 0
 
@@ -3376,7 +3376,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1867_m Krnka_Rifle Krnka_Rifle 1  russian_m1867 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 64512 75 0 120 0 301 319
+ itm_rifle_russian_m1867_m Krnka_Rifle Krnka_Rifle 1  russian_m1867 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 52224 75 0 120 0 291 307
  0
 0
 
@@ -3444,7 +3444,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mosin_m Mosin-Nagant_Rifle Mosin-Nagant_Rifle 1  mosin 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 64512 75 0 120 0 301 319
+ itm_rifle_mosin_m Mosin-Nagant_Rifle Mosin-Nagant_Rifle 1  mosin 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 52224 75 0 120 0 291 307
  0
 0
 
