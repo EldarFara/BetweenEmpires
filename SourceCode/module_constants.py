@@ -8,6 +8,12 @@ from ID_factions import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+rifle_type_smoothbore = 0
+rifle_type_rifled = 1
+rifle_type_converted = 2
+rifle_type_smallcaliber = 3
+rifle_type_boltaction = 4
+
 voices_1000ms_limit_warcry = 7
 
 company_pai_state_generic = 0
@@ -286,6 +292,7 @@ slot_faction_truce_days_with_factions_begin 			= 120
 slot_faction_provocation_days_with_factions_begin 		= 130
 slot_faction_war_damage_inflicted_on_factions_begin 	= 140
 slot_faction_sum_advice_about_factions_begin 			= 150
+slot_faction_technology_rifle_type 			= 151
 
 #revolts -- notes for self
 #type 1 -- minor revolt, aimed at negotiating change without changing the ruler

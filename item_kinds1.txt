@@ -2619,7 +2619,7 @@ itemsfile version 3
  44
 0
 
- itm_rifle_berdan Berdan_Rifle Berdan_Rifle 2  berdan 0  berdan_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 105 0 0 60 650 0 1 321 0
+ itm_rifle_berdan Berdan_Rifle Berdan_Rifle 2  berdan 0  berdan_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 100 0 0 60 650 0 1 316 0
  0
 0
 
@@ -2647,7 +2647,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1845 Russian_M1845_Musket Russian_M1845_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811663369 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 400 0 1 321 0
+ itm_rifle_russian_m1845 Russian_M1845_Musket Russian_M1845_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811663369 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 316 0
  0
 0
 
@@ -2655,7 +2655,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1856 Russian_M1856_Rifle Russian_M1856_Rifle 2  russian_m1856 0  russian_m1856_inv 1152921504606846976  811663369 6174031872 400 131082 4.750000 100 0 0 100 0 0 55 600 0 1 321 0
+ itm_rifle_russian_m1856 Russian_M1856_Rifle Russian_M1856_Rifle 2  russian_m1856 0  russian_m1856_inv 1152921504606846976  811663369 6174031872 400 131082 4.750000 100 0 0 95 0 0 55 600 0 1 316 0
  0
 0
 
@@ -2678,7 +2678,7 @@ itemsfile version 3
 1
 -52.000000  3 4 0 1975 3 1008806316530991164 1 8 3 0 
 
- itm_rifle_middle_east_musket1 Oriental_Musket Oriental_Musket 2  middle_east_musket1 0  middle_east_musket1_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 400 0 1 321 0
+ itm_rifle_middle_east_musket1 Oriental_Musket Oriental_Musket 2  middle_east_musket1 0  middle_east_musket1_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 316 0
  0
 0
 
@@ -2686,7 +2686,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_middle_east_musket2 Oriental_Musket Oriental_Musket 2  middle_east_musket2 0  middle_east_musket2_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 400 0 1 321 0
+ itm_rifle_middle_east_musket2 Oriental_Musket Oriental_Musket 2  middle_east_musket2 0  middle_east_musket2_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 316 0
  0
 0
 
@@ -2694,7 +2694,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_middle_east_musket3 Oriental_Musket Oriental_Musket 2  middle_east_musket3 0  middle_east_musket3_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 400 0 1 321 0
+ itm_rifle_middle_east_musket3 Oriental_Musket Oriental_Musket 2  middle_east_musket3 0  middle_east_musket3_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 316 0
  0
 0
 
@@ -2702,7 +2702,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_middle_east_musket4 Oriental_Musket Oriental_Musket 2  middle_east_musket4 0  middle_east_musket4_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 400 0 1 321 0
+ itm_rifle_middle_east_musket4 Oriental_Musket Oriental_Musket 2  middle_east_musket4 0  middle_east_musket4_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 316 0
  0
 0
 
@@ -2710,7 +2710,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_middle_east_musket5 Oriental_Musket Oriental_Musket 2  middle_east_musket5 0  middle_east_musket5_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 70 0 0 55 400 0 1 321 0
+ itm_rifle_middle_east_musket5 Oriental_Musket Oriental_Musket 2  middle_east_musket5 0  middle_east_musket5_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 316 0
  0
 0
 
@@ -2746,7 +2746,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_berdan_carbine Berdan_Carbine Berdan_Carbine 2  berdan_carbine 0  berdan_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 100 0 0 89 0 0 78 650 0 1 321 0
+ itm_rifle_berdan_carbine Berdan_Carbine Berdan_Carbine 2  berdan_carbine 0  berdan_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 100 0 0 85 0 0 78 650 0 1 316 0
  0
 0
 
@@ -2754,7 +2754,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1856_carbine Russian_M1856_Carbine Russian_M1856_Carbine 2  russian_m1856_carbine 0  russian_m1856_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 100 0 0 85 0 0 71 600 0 1 321 0
+ itm_rifle_russian_m1856_carbine Russian_M1856_Carbine Russian_M1856_Carbine 2  russian_m1856_carbine 0  russian_m1856_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 100 0 0 80 0 0 71 600 0 1 316 0
  0
 0
 
@@ -2992,7 +2992,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1845_carbine Russian_M1856_Carbine Russian_M1856_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 100 0 0 59 0 0 71 400 0 1 321 0
+ itm_rifle_russian_m1845_carbine Russian_M1856_Carbine Russian_M1856_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 100 0 0 55 0 0 71 400 0 1 316 0
  0
 0
 
@@ -3372,7 +3372,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1867 Krnka_Rifle Krnka_Rifle 2  russian_m1867 0  russian_m1867_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 100 0 0 50 600 0 1 321 0
+ itm_rifle_russian_m1867 Krnka_Rifle Krnka_Rifle 2  russian_m1867 0  russian_m1867_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 95 0 0 50 600 0 1 316 0
  0
 0
 
@@ -3380,7 +3380,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1867_carbine Krnka_Carbine Krnka_Carbine 2  russian_m1867_carbine 0  russian_m1867_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 100 0 0 85 0 0 65 600 0 1 321 0
+ itm_rifle_russian_m1867_carbine Krnka_Carbine Krnka_Carbine 2  russian_m1867_carbine 0  russian_m1867_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 100 0 0 80 0 0 65 600 0 1 316 0
  0
 0
 
@@ -3396,7 +3396,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_sharps Sharps_Rifle Sharps_Rifle 2  sharps 0  sharps_inv 1152921504606846976  811663369 555929845760 800 131082 4.250000 100 0 0 109 0 0 60 650 0 1 321 0
+ itm_rifle_sharps Sharps_Rifle Sharps_Rifle 2  sharps 0  sharps_inv 1152921504606846976  811663369 555929845760 800 131082 4.250000 100 0 0 104 0 0 60 650 0 1 316 0
  0
 0
 
@@ -3404,7 +3404,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_winchester_m1873 Winchester_M1873_Rifle Winchester_M1873_Rifle 2  winchester_m1873 0  winchester_m1873_inv 1152921504606846976  543227913 555929845760 800 131082 4.250000 100 0 0 90 0 0 30 650 0 12 306 0
+ itm_rifle_winchester_m1873 Winchester_M1873_Rifle Winchester_M1873_Rifle 2  winchester_m1873 0  winchester_m1873_inv 1152921504606846976  543227913 555929845760 800 131082 4.250000 100 0 0 85 0 0 30 650 0 12 301 0
  0
 0
 
@@ -3412,7 +3412,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_spencer Spencer_Repeating_Rifle Spencer_Repeating_Rifle 2  spencer_repeating_rifle 0  spencer_repeating_rifle_inv 1152921504606846976  811663369 555929845760 800 131082 4.250000 100 0 0 100 0 0 30 650 0 7 311 0
+ itm_rifle_spencer Spencer_Repeating_Rifle Spencer_Repeating_Rifle 2  spencer_repeating_rifle 0  spencer_repeating_rifle_inv 1152921504606846976  811663369 555929845760 800 131082 4.250000 100 0 0 95 0 0 30 650 0 7 306 0
  0
 0
 
@@ -3420,7 +3420,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_spencer_carbine Spencer_Repeating_Carbine Spencer_Repeating_Carbine 2  spencer_repeating_carbine 0  spencer_repeating_carbine_inv 1152921504606846976  543227913 555929845760 800 131082 3.250000 100 0 0 84 0 0 48 650 0 7 311 0
+ itm_rifle_spencer_carbine Spencer_Repeating_Carbine Spencer_Repeating_Carbine 2  spencer_repeating_carbine 0  spencer_repeating_carbine_inv 1152921504606846976  543227913 555929845760 800 131082 3.250000 100 0 0 80 0 0 48 650 0 7 306 0
  0
 0
 
@@ -3440,7 +3440,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mosin Mosin-Nagant_Rifle Mosin-Nagant_Rifle 2  mosin 0  mosin_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 105 0 0 40 700 0 5 311 0
+ itm_rifle_mosin Mosin-Nagant_Rifle Mosin-Nagant_Rifle 2  mosin 0  mosin_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 102 0 0 40 700 0 5 306 0
  0
 0
 
@@ -3448,7 +3448,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mosin_carbine Mosin-Nagant_Carbine Mosin-Nagant_Carbine 2  mosin_carbine 0  mosin_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 100 0 0 89 0 0 52 700 0 5 311 0
+ itm_rifle_mosin_carbine Mosin-Nagant_Carbine Mosin-Nagant_Carbine 2  mosin_carbine 0  mosin_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 100 0 0 86 0 0 52 700 0 5 306 0
  0
 0
 

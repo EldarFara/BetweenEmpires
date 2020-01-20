@@ -83,6 +83,9 @@ scripts = [
 	(troop_set_slot, ":npc", slot_troop_pbs_type, pbs_troop_type_line),
 	(try_end),
 
+(faction_set_slot, "fac_kingdom_2", slot_faction_technology_rifle_type, rifle_type_rifled),
+(faction_set_slot, "fac_kingdom_3", slot_faction_technology_rifle_type, rifle_type_rifled),
+
 (troop_set_slot, "trp_faction2_troop5", slot_troop_pbs_type, pbs_troop_type_light),
 (troop_set_slot, "trp_faction2_troop6", slot_troop_pbs_type, pbs_troop_type_light),
 (troop_set_slot, "trp_faction2_troop7", slot_troop_pbs_type, pbs_troop_type_guard),
@@ -7500,17 +7503,11 @@ scripts = [
       (item_set_slot, "itm_rifle_russian_m1845", slot_item_converted_analog, "itm_rifle_russian_m1867"),
       (item_set_slot, "itm_rifle_russian_m1845", slot_item_small_caliber_analog, "itm_rifle_berdan"),
       (item_set_slot, "itm_rifle_russian_m1845", slot_item_bolt_action_analog, "itm_rifle_mosin"),
-      (item_set_slot, "itm_rifle_russian_m1856", slot_item_converted_analog, "itm_rifle_russian_m1867"),
-      (item_set_slot, "itm_rifle_russian_m1856", slot_item_small_caliber_analog, "itm_rifle_berdan"),
-      (item_set_slot, "itm_rifle_russian_m1856", slot_item_bolt_action_analog, "itm_rifle_mosin"),
 	  
       (item_set_slot, "itm_rifle_russian_m1845_carbine", slot_item_rifled_analog, "itm_rifle_russian_m1856_carbine"),
       (item_set_slot, "itm_rifle_russian_m1845_carbine", slot_item_converted_analog, "itm_rifle_russian_m1867_carbine"),
       (item_set_slot, "itm_rifle_russian_m1845_carbine", slot_item_small_caliber_analog, "itm_rifle_berdan_carbine"),
       (item_set_slot, "itm_rifle_russian_m1845_carbine", slot_item_bolt_action_analog, "itm_rifle_mosin_carbine"),
-      (item_set_slot, "itm_rifle_russian_m1856_carbine", slot_item_converted_analog, "itm_rifle_russian_m1867_carbine"),
-      (item_set_slot, "itm_rifle_russian_m1856_carbine", slot_item_small_caliber_analog, "itm_rifle_berdan_carbine"),
-      (item_set_slot, "itm_rifle_russian_m1856_carbine", slot_item_bolt_action_analog, "itm_rifle_mosin_carbine"),
 	  # Setting food bonuses - these have been changed to incentivize using historical rations. Bread is the most cost-efficient
 	  #Staples
       (item_set_slot, "itm_bread", slot_item_food_bonus, 8), #brought up from 4
