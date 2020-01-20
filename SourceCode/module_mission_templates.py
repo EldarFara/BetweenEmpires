@@ -569,6 +569,10 @@ pbs_agents_modifiers = (0.5, 0, 0, [
 		(agent_slot_eq, ":agent", slot_agent_pbs_state, pbs_state_retreating),
 		(assign, ":marching_speed_modifier", 90),
 		(try_end),
+		(try_begin),
+		(agent_slot_eq, ":agent", slot_agent_pbs_state, pbs_state_holding_position),
+		(assign, ":marching_speed_modifier", 110),
+		(try_end),
 	(val_mul, ":speed", ":marching_speed_modifier"),
 	(val_div, ":speed", 100),
 	(store_add, ":slot_team_energy", slot_team_company1_energy, ":company"),
@@ -1172,6 +1176,32 @@ pbs_agent_spawn = (ti_on_agent_spawn, 0, 0, [
 	(team_set_slot, ":team", ":slot_team_company_soldier_number", ":company_soldier_number"),
 	(try_end),
 
+],
+[])
+
+pbs_restore_scripted_destination = (2, 0, 0, [
+	(try_for_agents,":agent"),
+	(agent_is_active, ":agent"),
+	(agent_is_alive, ":agent"),
+	(agent_is_human, ":agent"),
+	(agent_is_non_player, ":agent"),
+	(neg|agent_is_routed, ":agent"),
+		(try_begin),
+		(agent_slot_eq, ":agent", slot_agent_pbs_state, pbs_state_holding_position),
+		(agent_get_position, pos1, ":agent"),
+		(agent_get_scripted_destination, pos2, ":agent"),
+		(get_distance_between_positions, ":dist", pos1, pos2),
+		(ge, ":dist", 200),
+		(agent_get_position, pos1, ":agent"),
+		(agent_ai_get_look_target, ":enemy_agent", ":agent"),
+		(agent_is_active, ":enemy_agent"),
+		(agent_is_alive, ":enemy_agent"),
+		(agent_get_position, pos3, ":enemy_agent"),
+		(get_distance_between_positions, ":dist", pos1, pos3),
+		(gt, ":dist", 400),
+		(agent_set_scripted_destination, ":agent", pos2, 1, 1),
+		(try_end),
+	(try_end),
 ],
 [])
 
@@ -2027,6 +2057,7 @@ pai_volley_fire,
 pai_calculate_company_average_coordinates_async,
 voice_1000ms,
 voice_200ms,
+pbs_restore_scripted_destination,
 test,
   ]	
 
