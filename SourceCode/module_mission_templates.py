@@ -784,7 +784,7 @@ pai_1000ms = (1, 0, 0, [
 		(team_set_slot, "$g_enemy_team", slot_team_pai_global_tactic, pai_global_tactic_attack_charging),
 		(try_end),
 		(try_begin),
-		(le, ":distance", 5000), 
+		(le, ":distance", 5500), 
 		(eq, ":global_tactic", pai_global_tactic_attack_charging),
 		(team_set_slot, "$g_enemy_team", slot_team_pai_global_tactic, pai_global_tactic_attack_charging), # Continue charging after enemy fell back
 		(try_end),
@@ -795,7 +795,7 @@ pai_1000ms = (1, 0, 0, [
 		(try_end),
 		(try_begin),
 		(eq, ":global_tactic", pai_global_tactic_attack_approaching_close), # Switch to running and use melee formation at 100 meters distance
-		(ge, ":distance", 5000),
+		(ge, ":distance", 5500),
 			(try_for_range, ":company", 0, 8),
 			(call_script, "script_cf_if_company_has_soldiers", "$g_enemy_team", ":company"),
 			(store_add, ":slot_team_pai_state", slot_team_company1_pai_state, ":company"),
@@ -812,8 +812,8 @@ pai_1000ms = (1, 0, 0, [
 		(team_set_slot, "$g_enemy_team", slot_team_pai_timer, 20),
 		(try_end),
 		(try_begin),
-		(eq, ":global_tactic", pai_global_tactic_attack_approaching_close), # Line infantry melee charge at 50 meters distance, light infantry continues approaching
-		(lt, ":distance", 5000), 
+		(eq, ":global_tactic", pai_global_tactic_attack_approaching_close), # Line infantry melee charge at 55 meters distance, light infantry continues approaching
+		(lt, ":distance", 5500), 
 		(call_script, "script_team_create_infantry_formation_on_pos31", "$g_enemy_team", formation_type_melee),
 			(try_for_range, ":company", 0, 8),
 			(call_script, "script_cf_if_company_has_soldiers", "$g_enemy_team", ":company"),
