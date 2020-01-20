@@ -1,5 +1,5 @@
 soundsfile version 3
-899
+890
  drum_3.ogg 769
  tutorial_1.ogg 1793
  tutorial_2.ogg 1793
@@ -874,31 +874,22 @@ soundsfile version 3
  voice_all_whistle1.wav 3808
  voice_all_whistle2.wav 3808
  voice_all_whistle3.wav 3808
- rifle_shot_far2_01.wav 3857
- rifle_shot_far2_02.wav 3857
- rifle_shot_far2_03.wav 3857
- rifle_shot_far2_04.wav 3857
- rifle_shot_far2_05.wav 3857
- rifle_shot_far2_06.wav 3857
- rifle_shot_far2_07.wav 3857
- rifle_shot_far2_08.wav 3857
- rifle_shot_far2_09.wav 3857
- rifle_shot_far2_10.wav 3857
- rifle_shot_far2_11.wav 3857
- rifle_shot_far2_12.wav 3857
- rifle_shot_far2_13.wav 3857
- rifle_shot_far2_14.wav 3857
- rifle_shot_far2_15.wav 3857
- rifle_shot_far2_16.wav 3857
- rifle_shot_far3_01.wav 3857
- rifle_shot_far3_02.wav 3857
- rifle_shot_far3_03.wav 3857
- rifle_shot_far3_04.wav 3857
- rifle_shot_far3_05.wav 3857
- rifle_shot_far3_06.wav 3857
- rifle_shot_far3_07.wav 3857
- rifle_shot_far3_08.wav 3857
- rifle_shot_far3_09.wav 3857
+ rifle_shot_far2_01.wav 3089
+ rifle_shot_far2_02.wav 3089
+ rifle_shot_far2_03.wav 3089
+ rifle_shot_far2_04.wav 3089
+ rifle_shot_far2_05.wav 3089
+ rifle_shot_far2_06.wav 3089
+ rifle_shot_far2_07.wav 3089
+ rifle_shot_far2_08.wav 3089
+ rifle_shot_far2_09.wav 3089
+ rifle_shot_far2_10.wav 3089
+ rifle_shot_far2_11.wav 3089
+ rifle_shot_far2_12.wav 3089
+ rifle_shot_far2_13.wav 3089
+ rifle_shot_far2_14.wav 3089
+ rifle_shot_far2_15.wav 3089
+ rifle_shot_far2_16.wav 3089
 232
 snd_click 769 1 0 0 
 snd_tutorial_1 1793 1 1 0 
@@ -1130,5 +1121,5 @@ snd_voice_all_chargewarcry2 3808 32 785 0 786 0 787 0 788 0 789 0 790 0 791 0 79
 snd_voice_all_chargewarcry3 3808 32 817 0 818 0 819 0 820 0 821 0 822 0 823 0 824 0 825 0 826 0 827 0 828 0 829 0 830 0 831 0 832 0 833 0 834 0 835 0 836 0 837 0 838 0 839 0 840 0 841 0 842 0 843 0 844 0 845 0 846 0 847 0 848 0 
 snd_voice_all_chargewarcry4 3808 25 849 0 850 0 851 0 852 0 853 0 854 0 855 0 856 0 857 0 858 0 859 0 860 0 861 0 862 0 863 0 864 0 865 0 866 0 867 0 868 0 869 0 870 0 871 0 872 0 873 0 
 snd_voice_all_chargewarcry5 3808 32 360 0 361 0 362 0 363 0 364 0 365 0 366 0 367 0 368 0 369 0 370 0 371 0 372 0 373 0 374 0 375 0 376 0 377 0 378 0 379 0 380 0 381 0 382 0 383 0 384 0 385 0 386 0 387 0 388 0 389 0 390 0 391 0 
-snd_rifle_shot_far2 3857 17 874 0 875 0 876 0 877 0 878 0 879 0 880 0 881 0 882 0 883 0 884 0 885 0 886 0 887 0 888 0 889 0 724 0 
-snd_rifle_shot_far3 3857 9 890 0 891 0 892 0 893 0 894 0 895 0 896 0 897 0 898 0 
+snd_rifle_shot_far2 3089 17 874 0 875 0 876 0 877 0 878 0 879 0 880 0 881 0 882 0 883 0 884 0 885 0 886 0 887 0 888 0 889 0 724 0 
+snd_rifle_shot_far3 3857 17 874 0 875 0 876 0 877 0 878 0 879 0 880 0 881 0 882 0 883 0 884 0 885 0 886 0 887 0 888 0 889 0 724 0 

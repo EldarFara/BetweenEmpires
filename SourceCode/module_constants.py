@@ -23,6 +23,7 @@ pai_global_tactic_attack_forming_ranks = 5
 pai_global_tactic_attack_approaching = 6
 pai_global_tactic_defend_holding_position = 7
 pai_global_tactic_attack_charging = 8
+pai_global_tactic_attack_approaching_close = 9
 
 spawable_prop_limit = 4000
 
