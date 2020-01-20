@@ -223,5 +223,12 @@ snd_winch_shot = 221
 snd_shot_spencer = 222
 snd_shot_pistol2 = 223
 snd_shot_boltaction1 = 224
+snd_voice_all_chargewarcry1 = 225
+snd_voice_all_chargewarcry2 = 226
+snd_voice_all_chargewarcry3 = 227
+snd_voice_all_chargewarcry4 = 228
+snd_voice_all_chargewarcry5 = 229
+snd_rifle_shot_far2 = 230
+snd_rifle_shot_far3 = 231
 
 

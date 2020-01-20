@@ -1219,6 +1219,7 @@ pbs_point1
 g_allies_team
 g_enemy_team
 bugle_cooldown
+voices
 g_player_team
 g_ccoop_disallow_horses
 g_presentation_obj_coop_companion_0

@@ -690,6 +690,7 @@ battle_start = (
 (assign, "$g_allies_team", 3),
 (assign, "$g_enemy_team", 0),
 (assign, "$bugle_cooldown", 0),
+(assign, "$voices", 0),
 ])
 
 pai_calculate_company_average_coordinates_async = (0, 0.1, 0, [
@@ -901,6 +902,73 @@ pai_1000ms = (1, 0, 0, [
 ],
 [])
 
+voice_1000ms = (1, 0, 0, [], [
+(assign, "$voices", 0),
+	(try_for_agents, ":agent"),
+	(agent_is_alive, ":agent"),
+	(agent_is_human, ":agent"),
+	(agent_get_slot, ":cooldown", ":agent", slot_agent_speaking_cooldown),
+	(gt, ":cooldown", 0),
+		(try_begin),
+		(val_sub, ":cooldown", 1),
+		(agent_set_slot, ":agent", slot_agent_speaking_cooldown, ":cooldown"),
+		(try_end),
+	(try_end),
+])
+
+voice_200ms = (0.2, 0, 0, [], [
+(lt, "$voices", voices_1000ms_limit_warcry),
+(mission_cam_get_position, pos1),
+(assign, ":finished_chargewarcry", 0),
+	(try_for_agents, ":agent"), #VOICE CHARGEWARCRY
+	(eq, ":finished_chargewarcry", 0),
+	(agent_is_alive, ":agent"),
+	(agent_is_human, ":agent"),
+	(agent_slot_eq, ":agent", slot_agent_speaking_cooldown, 0),
+	(agent_get_position, pos2, ":agent"),
+	(get_distance_between_positions_in_meters, ":distance", pos1, pos2),
+	(lt, ":distance", 40),
+	(agent_get_troop_id, ":troop", ":agent"),
+	(troop_get_type, ":troop_type", ":troop"),
+	(eq, ":troop_type", 0),
+	(agent_get_team, ":team", ":agent"),
+	(agent_get_division , ":division", ":agent"),
+	(agent_slot_eq, ":agent", slot_agent_pbs_state, pbs_state_charging),
+	(team_get_weapon_usage_order, ":order", ":team", ":division"),
+	(eq, ":order", wordr_use_melee_weapons),
+	(agent_ai_get_look_target, ":enemy_agent", ":agent"),
+	(agent_is_active, ":enemy_agent"),
+	(agent_is_alive, ":enemy_agent"),
+	(agent_get_position, pos3, ":enemy_agent"),
+	(get_distance_between_positions_in_meters, ":dist", pos2, pos3),
+	(lt, ":dist", 50),
+	(gt, ":dist", 5),
+	(store_random_in_range, ":random", 1, 29),
+		(try_begin),
+		(eq, ":random", 1),
+		(assign, ":finished_chargewarcry", 1),
+		(val_add, "$voices", 1),
+		(agent_set_slot, ":agent", slot_agent_speaking_cooldown, 3),
+		(store_random_in_range, ":random2", 1, 6),
+			(try_begin),
+			(eq, ":random2", 1),
+			(agent_play_sound, ":agent", "snd_voice_all_chargewarcry1"),
+			(else_try),
+			(eq, ":random2", 2),
+			(agent_play_sound, ":agent", "snd_voice_all_chargewarcry2"),
+			(else_try),
+			(eq, ":random2", 3),
+			(agent_play_sound, ":agent", "snd_voice_all_chargewarcry3"),
+			(else_try),
+			(eq, ":random2", 4),
+			(agent_play_sound, ":agent", "snd_voice_all_chargewarcry4"),
+			(else_try),
+			(agent_play_sound, ":agent", "snd_voice_all_chargewarcry5"),
+			(try_end),
+		(try_end),
+	(try_end),
+])
+
 pai_start = (5, 0, ti_once, [
 (set_fixed_point_multiplier, 1),
 	(try_begin),
@@ -913,6 +981,7 @@ pai_start = (5, 0, ti_once, [
 	(team_set_slot, "$g_enemy_team", slot_team_pai_global_tactic, pai_global_tactic_initial),
 	(team_set_slot, "$g_enemy_team", slot_team_pai_timer, 4),
 	(agent_get_position, pos30, ":enemy_leader"),
+	(agent_set_division, ":enemy_leader", 0),
 	(position_get_x, ":x_coor", pos30),
 	(position_get_y, ":y_coor", pos30),
 	(position_get_rotation_around_z, ":z_coor", pos30),
@@ -1009,6 +1078,7 @@ player_spawn = (ti_on_agent_spawn, 0, 0, [
 pbs_agent_spawn = (ti_on_agent_spawn, 0, 0, [
 (store_trigger_param_1, ":agent"),
 (agent_is_non_player, ":agent"),
+(agent_set_slot, ":agent", slot_agent_speaking_cooldown, 0),
 (agent_set_slot, ":agent", slot_agent_pbs_state, pbs_state_generic),
 (agent_set_slot, ":agent", slot_agent_can_crouch, 0),
 (agent_ai_set_can_crouch, ":agent", 0),
@@ -1888,11 +1958,6 @@ pws_sky_bms = (ti_before_mission_start, 0, 0, [
 (set_skybox, ":sky", ":sky"),
 ], [])
 
-parabellum_script_set_conversation_screen = [
-pws_sky_bms,
-fgs_trees_ams,
-  ]	
-
 parabellum_script_set_battle = [
 pws_sky_bms,
 fgs_trees_ams,
@@ -1924,7 +1989,14 @@ pai_start,
 pai_1000ms,
 pai_volley_fire,
 pai_calculate_company_average_coordinates_async,
+voice_1000ms,
+voice_200ms,
 test,
+  ]	
+
+parabellum_script_set_conversation_screen = [
+pws_sky_bms,
+fgs_trees_ams,
   ]	
 
 multiplayer_server_check_belfry_movement = (

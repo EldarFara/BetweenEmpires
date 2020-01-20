@@ -8,6 +8,8 @@ from ID_factions import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+voices_1000ms_limit_warcry = 7
+
 company_pai_state_generic = 0
 
 formation_type_ranged = 1
@@ -160,6 +162,9 @@ slot_agent_doom_javelin_attacker  = 28
     
 slot_agent_pbs_state              = 29
 slot_agent_can_crouch             = 30
+slot_agent_hold_order_x           = 31
+slot_agent_hold_order_y           = 32
+slot_agent_speaking_cooldown      = 33
 
 ########################################################
 ##  FACTION SLOTS          #############################

@@ -1,5 +1,5 @@
 soundsfile version 3
-753
+899
  drum_3.ogg 769
  tutorial_1.ogg 1793
  tutorial_2.ogg 1793
@@ -753,7 +753,153 @@ soundsfile version 3
  shot_boltaction1_5.wav 4064
  shot_boltaction1_6.wav 4064
  shot_boltaction1_7.wav 4064
-225
+ voice_all_chargewarcry01.wav 3808
+ voice_all_chargewarcry02.wav 3808
+ voice_all_chargewarcry03.wav 3808
+ voice_all_chargewarcry04.wav 3808
+ voice_all_chargewarcry05.wav 3808
+ voice_all_chargewarcry06.wav 3808
+ voice_all_chargewarcry07.wav 3808
+ voice_all_chargewarcry08.wav 3808
+ voice_all_chargewarcry09.wav 3808
+ voice_all_chargewarcry10.wav 3808
+ voice_all_chargewarcry11.wav 3808
+ voice_all_chargewarcry12.wav 3808
+ voice_all_chargewarcry13.wav 3808
+ voice_all_chargewarcry14.wav 3808
+ voice_all_chargewarcry15.wav 3808
+ voice_all_chargewarcry16.wav 3808
+ voice_all_chargewarcry17.wav 3808
+ voice_all_chargewarcry18.wav 3808
+ voice_all_chargewarcry19.wav 3808
+ voice_all_chargewarcry20.wav 3808
+ voice_all_chargewarcry21.wav 3808
+ voice_all_chargewarcry22.wav 3808
+ voice_all_chargewarcry23.wav 3808
+ voice_all_chargewarcry24.wav 3808
+ voice_all_chargewarcry25.wav 3808
+ voice_all_chargewarcry26.wav 3808
+ voice_all_chargewarcry27.wav 3808
+ voice_all_chargewarcry28.wav 3808
+ voice_all_chargewarcry29.wav 3808
+ voice_all_chargewarcry30.wav 3808
+ voice_all_chargewarcry31.wav 3808
+ voice_all_chargewarcry32.wav 3808
+ voice_all_chargewarcry33.wav 3808
+ voice_all_chargewarcry34.wav 3808
+ voice_all_chargewarcry35.wav 3808
+ voice_all_chargewarcry36.wav 3808
+ voice_all_chargewarcry37.wav 3808
+ voice_all_chargewarcry38.wav 3808
+ voice_all_chargewarcry39.wav 3808
+ voice_all_chargewarcry40.wav 3808
+ voice_all_chargewarcry41.wav 3808
+ voice_all_chargewarcry42.wav 3808
+ voice_all_chargewarcry43.wav 3808
+ voice_all_chargewarcry44.wav 3808
+ voice_all_chargewarcry45.wav 3808
+ voice_all_chargewarcry46.wav 3808
+ voice_all_chargewarcry47.wav 3808
+ voice_all_chargewarcry48.wav 3808
+ voice_all_chargewarcry49.wav 3808
+ voice_all_chargewarcry50.wav 3808
+ voice_all_chargewarcry51.wav 3808
+ voice_all_chargewarcry52.wav 3808
+ voice_all_chargewarcry53.wav 3808
+ voice_all_chargewarcry54.wav 3808
+ voice_all_chargewarcry55.wav 3808
+ voice_all_chargewarcry56.wav 3808
+ voice_all_chargewarcry57.wav 3808
+ voice_all_chargewarcry58.wav 3808
+ voice_all_chargewarcry59.wav 3808
+ voice_all_chargewarcry60.wav 3808
+ voice_all_chargewarcry61.wav 3808
+ voice_all_chargewarcry62.wav 3808
+ voice_all_chargewarcry63.wav 3808
+ voice_all_chargewarcry64.wav 3808
+ voice_all_chargewarcry65.wav 3808
+ voice_all_chargewarcry66.wav 3808
+ voice_all_chargewarcry67.wav 3808
+ voice_all_chargewarcry68.wav 3808
+ voice_all_chargewarcry69.wav 3808
+ voice_all_chargewarcry70.wav 3808
+ voice_all_chargewarcry71.wav 3808
+ voice_all_chargewarcry72.wav 3808
+ voice_all_chargewarcry73.wav 3808
+ voice_all_chargewarcry74.wav 3808
+ voice_all_chargewarcry75.wav 3808
+ voice_all_chargewarcry76.wav 3808
+ voice_all_chargewarcry77.wav 3808
+ voice_all_chargewarcry78.wav 3808
+ voice_all_chargewarcry79.wav 3808
+ voice_all_chargewarcry80.wav 3808
+ voice_all_chargewarcry81.wav 3808
+ voice_all_chargewarcry82.wav 3808
+ voice_all_chargewarcry83.wav 3808
+ voice_all_chargewarcry84.wav 3808
+ voice_all_chargewarcry85.wav 3808
+ voice_all_chargewarcry86.wav 3808
+ voice_all_chargewarcry87.wav 3808
+ voice_all_chargewarcry88.wav 3808
+ voice_all_chargewarcry89.wav 3808
+ voice_all_chargewarcry90.wav 3808
+ voice_all_chargewarcry91.wav 3808
+ voice_all_chargewarcry92.wav 3808
+ voice_all_chargewarcry93.wav 3808
+ voice_all_chargewarcry94.wav 3808
+ voice_all_chargewarcry95.wav 3808
+ voice_all_chargewarcry96.wav 3808
+ voice_all_chargewarcry97.wav 3808
+ voice_all_chargewarcry98.wav 3808
+ voice_all_chargewarcry99.wav 3808
+ voice_all_chargewarcry100.wav 3808
+ voice_all_chargewarcry101.wav 3808
+ voice_all_chargewarcry102.wav 3808
+ voice_all_chargewarcry103.wav 3808
+ voice_all_chargewarcry104.wav 3808
+ voice_all_chargewarcry105.wav 3808
+ voice_all_chargewarcry106.wav 3808
+ voice_all_chargewarcry107.wav 3808
+ voice_all_chargewarcry108.wav 3808
+ voice_all_chargewarcry109.wav 3808
+ voice_all_chargewarcry110.wav 3808
+ voice_all_chargewarcry111.wav 3808
+ voice_all_chargewarcry112.wav 3808
+ voice_all_chargewarcry113.wav 3808
+ voice_all_chargewarcry114.wav 3808
+ voice_all_chargewarcry115.wav 3808
+ voice_all_chargewarcry116.wav 3808
+ voice_all_chargewarcry117.wav 3808
+ yell33.wav 3808
+ voice_all_whistle1.wav 3808
+ voice_all_whistle2.wav 3808
+ voice_all_whistle3.wav 3808
+ rifle_shot_far2_01.wav 3857
+ rifle_shot_far2_02.wav 3857
+ rifle_shot_far2_03.wav 3857
+ rifle_shot_far2_04.wav 3857
+ rifle_shot_far2_05.wav 3857
+ rifle_shot_far2_06.wav 3857
+ rifle_shot_far2_07.wav 3857
+ rifle_shot_far2_08.wav 3857
+ rifle_shot_far2_09.wav 3857
+ rifle_shot_far2_10.wav 3857
+ rifle_shot_far2_11.wav 3857
+ rifle_shot_far2_12.wav 3857
+ rifle_shot_far2_13.wav 3857
+ rifle_shot_far2_14.wav 3857
+ rifle_shot_far2_15.wav 3857
+ rifle_shot_far2_16.wav 3857
+ rifle_shot_far3_01.wav 3857
+ rifle_shot_far3_02.wav 3857
+ rifle_shot_far3_03.wav 3857
+ rifle_shot_far3_04.wav 3857
+ rifle_shot_far3_05.wav 3857
+ rifle_shot_far3_06.wav 3857
+ rifle_shot_far3_07.wav 3857
+ rifle_shot_far3_08.wav 3857
+ rifle_shot_far3_09.wav 3857
+232
 snd_click 769 1 0 0 
 snd_tutorial_1 1793 1 1 0 
 snd_tutorial_2 1793 1 2 0 
@@ -979,3 +1125,10 @@ snd_winch_shot 4064 4 735 0 736 0 737 0 738 0
 snd_shot_spencer 4064 4 739 0 740 0 741 0 742 0 
 snd_shot_pistol2 4064 3 743 0 744 0 745 0 
 snd_shot_boltaction1 4064 7 746 0 747 0 748 0 749 0 750 0 751 0 752 0 
+snd_voice_all_chargewarcry1 3808 32 753 0 754 0 755 0 756 0 757 0 758 0 759 0 760 0 761 0 762 0 763 0 764 0 765 0 766 0 767 0 768 0 769 0 770 0 771 0 772 0 773 0 774 0 775 0 776 0 777 0 778 0 779 0 780 0 781 0 782 0 783 0 784 0 
+snd_voice_all_chargewarcry2 3808 32 785 0 786 0 787 0 788 0 789 0 790 0 791 0 792 0 793 0 794 0 795 0 796 0 797 0 798 0 799 0 800 0 801 0 802 0 803 0 804 0 805 0 806 0 807 0 808 0 809 0 810 0 811 0 812 0 813 0 814 0 815 0 816 0 
+snd_voice_all_chargewarcry3 3808 32 817 0 818 0 819 0 820 0 821 0 822 0 823 0 824 0 825 0 826 0 827 0 828 0 829 0 830 0 831 0 832 0 833 0 834 0 835 0 836 0 837 0 838 0 839 0 840 0 841 0 842 0 843 0 844 0 845 0 846 0 847 0 848 0 
+snd_voice_all_chargewarcry4 3808 25 849 0 850 0 851 0 852 0 853 0 854 0 855 0 856 0 857 0 858 0 859 0 860 0 861 0 862 0 863 0 864 0 865 0 866 0 867 0 868 0 869 0 870 0 871 0 872 0 873 0 
+snd_voice_all_chargewarcry5 3808 32 360 0 361 0 362 0 363 0 364 0 365 0 366 0 367 0 368 0 369 0 370 0 371 0 372 0 373 0 374 0 375 0 376 0 377 0 378 0 379 0 380 0 381 0 382 0 383 0 384 0 385 0 386 0 387 0 388 0 389 0 390 0 391 0 
+snd_rifle_shot_far2 3857 17 874 0 875 0 876 0 877 0 878 0 879 0 880 0 881 0 882 0 883 0 884 0 885 0 886 0 887 0 888 0 889 0 724 0 
+snd_rifle_shot_far3 3857 9 890 0 891 0 892 0 893 0 894 0 895 0 896 0 897 0 898 0 
