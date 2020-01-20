@@ -28,19 +28,19 @@ scn_random_scene_desert random_scene_desert 1792 none none 0.000000 0.000000 240
   0 
   0 
  outer_terrain_desert_b 
-scn_random_scene_steppe_forest random_scene_steppe_forest 1792 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x300028000003e8fa0000034e00004b34000059be 
+scn_random_scene_steppe_forest random_scene_steppe_forest 1792 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x0000000229602800000ad6b500003efe00004b34000059be 
   0 
   0 
  outer_terrain_plain 
-scn_random_scene_plain_forest random_scene_plain_forest 1792 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x300028000003e8fa0000034e00004b34000059be 
+scn_random_scene_plain_forest random_scene_plain_forest 1792 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x0000000229602800000ad6b500003efe00004b34000059be 
   0 
   0 
  outer_terrain_plain 
-scn_random_scene_snow_forest random_scene_snow_forest 1792 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x300028000003e8fa0000034e00004b34000059be 
+scn_random_scene_snow_forest random_scene_snow_forest 1792 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x0000000229602800000ad6b500003efe00004b34000059be 
   0 
   0 
  outer_terrain_snow 
-scn_random_scene_desert_forest random_scene_desert_forest 1792 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x300028000003e8fa0000034e00004b34000059be 
+scn_random_scene_desert_forest random_scene_desert_forest 1792 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x0000000229602800000ad6b500003efe00004b34000059be 
   0 
   0 
  outer_terrain_desert 
