@@ -626,5 +626,6 @@ script_cf_if_company_has_soldiers = 624
 script_store_company_average_position_to_pos30 = 625
 script_rotate_pos31_towards_pos30 = 626
 script_store_average_coordinates_of_infantry_in_attack_formation_in_pos30 = 627
+script_store_mouse_projection_to_pos3 = 628
 
 
