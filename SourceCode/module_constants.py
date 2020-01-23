@@ -30,6 +30,8 @@ pai_global_tactic_attack_approaching = 6
 pai_global_tactic_defend_holding_position = 7
 pai_global_tactic_attack_charging = 8
 pai_global_tactic_attack_approaching_close = 9
+pai_global_tactic_attack_retreat = 10
+pai_global_tactic_attack_stop_retreat = 11
 
 spawable_prop_limit = 4000
 
@@ -292,7 +294,7 @@ slot_faction_truce_days_with_factions_begin 			= 120
 slot_faction_provocation_days_with_factions_begin 		= 130
 slot_faction_war_damage_inflicted_on_factions_begin 	= 140
 slot_faction_sum_advice_about_factions_begin 			= 150
-slot_faction_technology_rifle_type 			= 151
+slot_faction_technology_rifle_type 			= 200
 
 #revolts -- notes for self
 #type 1 -- minor revolt, aimed at negotiating change without changing the ruler
@@ -1254,6 +1256,7 @@ slot_team_company7_pai_state                       = 157
 slot_team_company8_pai_state                       = 158
 slot_team_pai_target_team                       = 159
 slot_team_pai_target_company                    = 160
+slot_team_pai_retreat_timer                     = 161
 
 #Rebellion changes end
 # character backgrounds
