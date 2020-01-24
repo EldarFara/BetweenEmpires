@@ -17,7 +17,7 @@ qstr_{s2}_has_heard_his_v {s2}_has_heard_his_vassals'_counsel._He_selects_{s1}_a
 qstr_Action Action
 qstr_Mount Mount
 qstr_Attack_Type Attack_Type
-qstr_Stand_Ground Stand_Ground
+qstr_Retreat Retreat
 qstr_Charge Charge
 qstr_Follow_Me Follow_Me
 qstr_Hold_This_Position Hold_This_Position
@@ -28,8 +28,8 @@ qstr_Advance Advance
 qstr_Dismount Dismount
 qstr_Fire_At_Will Fire_At_Will
 qstr_Hold_Your_Fire Hold_Your_Fire
-qstr_Use_Blunt_Weapons Use_Blunt_Weapons
-qstr_Use_Any_Weapon Use_Any_Weapon
+qstr_Use_Ranged_Weapons Use_Ranged_Weapons
+qstr_Use_Melee_Weapons Use_Melee_Weapons
 qstr_Ready Ready
 qstr_Wounded Wounded
 qstr_Dead Dead

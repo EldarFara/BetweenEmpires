@@ -17,6 +17,7 @@ rifle_type_boltaction = 4
 voices_1000ms_limit_warcry = 7
 
 company_pai_state_generic = 0
+company_pai_state_detached = 1
 
 formation_type_ranged = 1
 formation_type_melee  = 2
@@ -1257,6 +1258,22 @@ slot_team_company8_pai_state                       = 158
 slot_team_pai_target_team                       = 159
 slot_team_pai_target_company                    = 160
 slot_team_pai_retreat_timer                     = 161
+slot_team_company1_target_team                       = 162
+slot_team_company2_target_team                       = 163
+slot_team_company3_target_team                       = 164
+slot_team_company4_target_team                       = 165
+slot_team_company5_target_team                       = 166
+slot_team_company6_target_team                       = 167
+slot_team_company7_target_team                       = 168
+slot_team_company8_target_team                       = 169
+slot_team_company1_target_company                       = 170
+slot_team_company2_target_company                       = 171
+slot_team_company3_target_company                       = 172
+slot_team_company4_target_company                       = 173
+slot_team_company5_target_company                       = 174
+slot_team_company6_target_company                       = 175
+slot_team_company7_target_company                       = 176
+slot_team_company8_target_company                       = 177
 
 #Rebellion changes end
 # character backgrounds
