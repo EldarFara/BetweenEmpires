@@ -8,6 +8,16 @@ from ID_factions import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+square_forming_phase_outer_square1 = 0
+square_forming_phase_outer_square2 = 1
+square_forming_phase_outer_square3 = 2
+square_forming_phase_outer_square4 = 3
+square_forming_phase_inner_square1 = 4
+square_forming_phase_inner_square2 = 5
+square_forming_phase_inner_square3 = 6
+square_forming_phase_inner_square4 = 7
+square_forming_phase_excess = 8
+
 rifle_type_smoothbore = 0
 rifle_type_rifled = 1
 rifle_type_converted = 2
@@ -175,6 +185,7 @@ slot_agent_can_crouch             = 30
 slot_agent_hold_order_x           = 31
 slot_agent_hold_order_y           = 32
 slot_agent_speaking_cooldown      = 33
+slot_agent_square_formation_state = 34
 
 ########################################################
 ##  FACTION SLOTS          #############################

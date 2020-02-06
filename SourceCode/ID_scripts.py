@@ -628,5 +628,6 @@ script_rotate_pos31_towards_pos30 = 626
 script_store_average_coordinates_of_infantry_in_attack_formation_in_pos30 = 627
 script_store_mouse_projection_to_pos3 = 628
 script_store_highest_position_around_pos30_into_pos31 = 629
+script_player_team_form_square = 630
 
 

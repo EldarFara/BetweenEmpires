@@ -1,4 +1,4 @@
-784
+787
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
 qstr_Game_Rules:^ Game_Rules:^
@@ -20,7 +20,7 @@ qstr_Attack_Type Attack_Type
 qstr_Retreat Retreat
 qstr_Charge Charge
 qstr_Follow_Me Follow_Me
-qstr_Hold_This_Position Hold_This_Position
+qstr_Form_Square Form_Square
 qstr_Spread_Out Spread_Out
 qstr_Stand_Closer Stand_Closer
 qstr_Fall_Back Fall_Back
@@ -33,6 +33,8 @@ qstr_Use_Melee_Weapons Use_Melee_Weapons
 qstr_Ready Ready
 qstr_Wounded Wounded
 qstr_Dead Dead
+qstr_Cannot_form_square:_ Cannot_form_square:_too_many_companies_selected.
+qstr_Cannot_form_square:_w Cannot_form_square:_wrong_company_types_(only_line_infantry_and_guard_inantry_can_form_square).
 qstr_Number_of_men_knocke Number_of_men_knocked_down:_{reg1}
 qstr_Number_of_men_left:_ Number_of_men_left:_{reg1}
 qstr_Opponents_Beaten:_{r Opponents_Beaten:_{reg1}
@@ -414,6 +416,7 @@ qstr__G. _G.
 qstr_M.C. M.C.
 qstr_M.R. M.R.
 qstr_C.G. C.G.
+qstr_Cannot_form_square:_t Cannot_form_square:_too_few_soldiers_(need_at_least_25).
 qstr_day day
 qstr_cloud1 cloud1
 qstr_cloud2 cloud2
