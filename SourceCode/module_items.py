@@ -1428,7 +1428,7 @@ items = [
 
 ["civilian_hat1","Wide-brimmed Hat", [("civilian_hat1", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, []],
 ["civilian_hat2","Wide-brimmed Hat", [("civilian_hat2", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, []],
-["civilian_hat3","Top Hat", [("civilian_hat1", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, []],
+["civilian_hat3","Top Hat", [("civilian_hat3", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, []],
 ["civilian_hat3b","Top Hat", [("civilian_hat3b", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, []],
 ["civilian_hat4","Bowler Hat", [("civilian_hat4", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, []],
 ["civilian_hat4b","Bowler Hat", [("civilian_hat4b", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, []],
