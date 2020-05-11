@@ -3703,6 +3703,8 @@ scene_props = [
 ("eu_hospital1",0,"eu_hospital1","bo_eu_hospital1", []),
 ("eu_palace2",0,"eu_palace2","bo_eu_palace2", []),
 ("persian_taq",0,"persian_taq","bo_persian_taq", []),
+
+("pai_defensive_line", sokf_invisible, "pai_defensive_line", "0", []),
 ]
 
  # modmerger_start version=201 type=2

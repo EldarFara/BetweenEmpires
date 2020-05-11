@@ -752,7 +752,6 @@ battle_start = (
 (spawn_scene_prop, "spr_pbs_point1"),
 (assign, "$pbs_point1", reg0),
 (scene_prop_set_visibility, "$pbs_point1", 0),
-(assign, "$g_allies_team", 3),
 (assign, "$g_enemy_team", 0),
 (assign, "$bugle_cooldown", 0),
 (assign, "$voices", 0),
@@ -788,6 +787,12 @@ pai_1000ms = (1, 0, 0, [
 	(eq, ":global_tactic", pai_global_tactic_initial),
 	(eq, ":timer", 0),
 		(try_begin),
+		(assign,"$g_pai_battle_is_siege", 1),
+		(team_set_slot, "$defender_team", slot_team_pai_global_tactic, pai_global_tactic_siege_defend_initial),
+		(team_set_slot, "$defender_team_2", slot_team_pai_global_tactic, pai_global_tactic_siege_defend_initial),
+		(team_set_slot, "$attacker_team", slot_team_pai_global_tactic, pai_global_tactic_siege_attack_initial),
+		(team_set_slot, "$attacker_team_2", slot_team_pai_global_tactic, pai_global_tactic_siege_attack_initial),
+		(else_try),
 		(eq, "$cant_leave_encounter", 0),
 		(team_set_slot, "$g_enemy_team", slot_team_pai_global_tactic, pai_global_tactic_defend_initial),
 		(else_try),
@@ -1322,8 +1327,10 @@ player_spawn = (ti_on_agent_spawn, 0, 0, [
 	(try_begin),
 	(eq, ":team", 0),
 	(assign, "$g_enemy_team", 1),
+	(assign, "$g_allies_team", 2),
 	(else_try),
 	(assign, "$g_enemy_team", 0),
+	(assign, "$g_allies_team", 3),
 	(try_end),
 (team_set_slot, "$g_player_team", slot_team_company1_type, "$player_company1_type"),
 (team_set_slot, "$g_player_team", slot_team_company2_type, "$player_company2_type"),
@@ -1728,33 +1735,80 @@ test = (0, 0, 0, [
 (spawn_scene_prop, "spr_fountain"),
 ], [])
 
+sound_man_hit = (ti_on_agent_hit, 0, 0, [
+(store_trigger_param_1, ":agent"),
+(store_trigger_param_3, ":damage"),
+(gt, ":damage", 6),
+(agent_is_human, ":agent"),
+(agent_get_troop_id, ":troop", ":agent"),
+(troop_get_type, ":troop_type", ":troop"),
+(get_player_agent_no, ":player"),
+	(try_begin),
+	(eq, ":troop_type", 0),
+		(try_begin),
+		(eq, ":player", ":agent"),
+		(agent_play_sound, ":agent", "snd_man_hit_FP"),
+		(else_try),
+		(store_random_in_range, ":random", 1, 4),
+			(try_begin),
+			(eq, ":random", 1),
+			(agent_play_sound, ":agent", "snd_man_hit1"),
+			(else_try),
+			(eq, ":random", 2),
+			(agent_play_sound, ":agent", "snd_man_hit2"),
+			(else_try),
+			(eq, ":random", 3),
+			(agent_play_sound, ":agent", "snd_man_hit3"),
+			(try_end),
+		(try_end),
+	(try_end),
+], [])
+
 sound_man_death = (ti_on_agent_killed_or_wounded, 0, 0, [
 (store_trigger_param_1, ":dead_agent"),
-
+(store_trigger_param_2, ":Killer"),
 (agent_is_human, ":dead_agent"),
+(agent_stop_sound, ":dead_agent"),
 (agent_get_troop_id, ":troop", ":dead_agent"),
 (troop_get_type, ":troop_type", ":troop"),
 	(try_begin),
 	(eq, ":troop_type", 0),
-	(store_random_in_range, ":random", 1, 7),
 		(try_begin),
-		(eq, ":random", 1),
-		(play_sound_at_position, "snd_mandeath1", pos0),
+		(agent_is_human, ":Killer"),
+		(agent_get_position, pos1, ":Killer"),
+		(position_move_z, pos1, 85, 1),
+		(get_distance_between_positions, ":Distance", pos0, pos1),
+		(le, ":Distance", 150),
+		(store_random_in_range, ":random", 1, 3),
+			(try_begin),
+			(eq, ":random", 1),
+			(play_sound_at_position, "snd_MeleeDeathscream1", pos0),
+			(else_try),
+			(eq, ":random", 2),
+			(play_sound_at_position, "snd_MeleeDeathscream2", pos0),
+			(try_end),
+		(play_sound_at_position, "snd_MeleeBloodGore", pos0),
 		(else_try),
-		(eq, ":random", 2),
-		(play_sound_at_position, "snd_mandeath2", pos0),
-		(else_try),
-		(eq, ":random", 3),
-		(play_sound_at_position, "snd_mandeath3", pos0),
-		(else_try),
-		(eq, ":random", 4),
-		(play_sound_at_position, "snd_mandeath4", pos0),
-		(else_try),
-		(eq, ":random", 5),
-		(play_sound_at_position, "snd_mandeath5", pos0),
-		(else_try),
-		(eq, ":random", 6),
-		(play_sound_at_position, "snd_mandeath6", pos0),
+		(store_random_in_range, ":random", 1, 7),
+			(try_begin),
+			(eq, ":random", 1),
+			(play_sound_at_position, "snd_mandeath1", pos0),
+			(else_try),
+			(eq, ":random", 2),
+			(play_sound_at_position, "snd_mandeath2", pos0),
+			(else_try),
+			(eq, ":random", 3),
+			(play_sound_at_position, "snd_mandeath3", pos0),
+			(else_try),
+			(eq, ":random", 4),
+			(play_sound_at_position, "snd_mandeath4", pos0),
+			(else_try),
+			(eq, ":random", 5),
+			(play_sound_at_position, "snd_mandeath5", pos0),
+			(else_try),
+			(eq, ":random", 6),
+			(play_sound_at_position, "snd_mandeath6", pos0),
+			(try_end),
 		(try_end),
 	(try_end),
 ], [])
@@ -2277,6 +2331,7 @@ parabellum_script_set_battle = [
 pws_sky_bms,
 fgs_trees_ams,
 sound_man_death,
+sound_man_hit,
 spawn_of_first_agent,
 battle_start,
 aerial_view_runtime,
@@ -3043,10 +3098,17 @@ common_custom_siege_init = (
 common_siege_init = (
   0, 0, ti_once, [],
   [
+    (assign,"$g_pai_battle_is_siege", 1),
     (assign,"$g_battle_won",0),
     (assign,"$defender_reinforcement_stage",0),
     (assign,"$attacker_reinforcement_stage",0),
     (call_script, "script_music_set_situation_with_culture", mtf_sit_siege),
+    ])
+	
+common_battle_init = (
+  0, 0, ti_once, [],
+  [
+    (assign,"$g_pai_battle_is_siege", 0),
     ])
 
 common_music_situation_update = (
@@ -4541,6 +4603,7 @@ mission_templates = [
          ]),
 
       common_battle_init_banner,
+      common_battle_init,
 		 
       (ti_on_agent_killed_or_wounded, 0, 0, [],
        [
@@ -4724,6 +4787,7 @@ mission_templates = [
     [
       common_battle_tab_press,
       common_battle_init_banner,
+      common_battle_init,
 
       (ti_question_answered, 0, 0, [],
        [(store_trigger_param_1,":answer"),
@@ -4810,6 +4874,8 @@ mission_templates = [
 
       common_music_situation_update,
       common_battle_check_friendly_kills,
+	  
+      common_battle_init,
 
       (1, 0, 5, [(lt,"$defender_reinforcement_stage",2),
                  (store_mission_timer_a,":mission_time"),
@@ -5046,6 +5112,8 @@ mission_templates = [
 
       common_battle_tab_press,
       common_battle_init_banner,
+	  
+      common_siege_init,
 
       (ti_question_answered, 0, 0, [],
        [(store_trigger_param_1,":answer"),
@@ -5075,7 +5143,10 @@ mission_templates = [
       common_battle_check_victory_condition,
       common_battle_victory_display,
 
-      (1, 4, ti_once, [(main_hero_fallen)],
+      (1, 4, ti_once, [
+	  (main_hero_fallen),
+	  (eq, 1, 2), #parabellum cut
+	  ],
           [
               (assign, "$pin_player_fallen", 1),
               (str_store_string, s5, "str_retreat"),
@@ -5111,6 +5182,7 @@ mission_templates = [
 
       common_battle_tab_press,
       common_battle_init_banner,
+      common_siege_init,
 
       (ti_question_answered, 0, 0, [],
        [(store_trigger_param_1,":answer"),
@@ -5140,7 +5212,10 @@ mission_templates = [
       common_battle_check_victory_condition,
       common_battle_victory_display,
 
-      (1, 4, ti_once, [(main_hero_fallen)],
+      (1, 4, ti_once, [
+	  (main_hero_fallen),
+	  (eq, 1, 2), #parabellum cut
+	  ],
           [
               (assign, "$pin_player_fallen", 1),
               (str_store_string, s5, "str_retreat"),
@@ -5184,6 +5259,7 @@ mission_templates = [
 
       common_battle_tab_press,
       common_battle_init_banner,
+      common_battle_init,
 
       (ti_on_agent_killed_or_wounded, 0, 0, [], #new
        [
@@ -5241,7 +5317,10 @@ mission_templates = [
 
       common_battle_victory_display,
 
-      (1, 4, ti_once, [(main_hero_fallen)],
+      (1, 4, ti_once, [
+	  (main_hero_fallen),
+	  (eq, 1, 2), #parabellum cut
+	  ],
           [
               (assign, "$pin_player_fallen", 1),
               (str_store_string, s5, "str_retreat"),
@@ -5290,11 +5369,11 @@ mission_templates = [
 
       (0, 0, ti_once,
        [
-         (set_show_messages, 0),
-         (team_give_order, "$attacker_team", grc_everyone, mordr_spread_out),
-         (team_give_order, "$attacker_team", grc_everyone, mordr_spread_out),
-         (team_give_order, "$attacker_team", grc_everyone, mordr_spread_out),
-         (set_show_messages, 1),
+         # (set_show_messages, 0),
+         # (team_give_order, "$attacker_team", grc_everyone, mordr_spread_out),
+         # (team_give_order, "$attacker_team", grc_everyone, mordr_spread_out),
+         # (team_give_order, "$attacker_team", grc_everyone, mordr_spread_out),
+         # (set_show_messages, 1),
          ], []),
       
       (ti_on_agent_killed_or_wounded, 0, 0, [],

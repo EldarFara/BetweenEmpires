@@ -230,5 +230,14 @@ snd_voice_all_chargewarcry4 = 228
 snd_voice_all_chargewarcry5 = 229
 snd_rifle_shot_far2 = 230
 snd_rifle_shot_far3 = 231
+snd_MeleeDeathscream1 = 232
+snd_MeleeDeathscream2 = 233
+snd_MeleeBloodGore = 234
+snd_MeleeLanceImpaledDeathscream1 = 235
+snd_MeleeLanceOut1 = 236
+snd_man_hit1 = 237
+snd_man_hit2 = 238
+snd_man_hit3 = 239
+snd_man_hit_FP = 240
 
 

@@ -1,4 +1,4 @@
-826
+831
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
 qstr_Game_Rules:^ Game_Rules:^
@@ -710,6 +710,11 @@ qstr_{!}DEBUG___{s4}_faction_chang {!}DEBUG_-_{s4}_faction_changed_from_slot_tro
 qstr_{s1}_has_switched_fr {s1}_has_switched_from_{s2}_to_{s3}.
 qstr_{!}DEBUG_:_{s2}_is_b {!}DEBUG_:_{s2}_is_besieging_by_{s3}
 qstr_{!}DEBUG___Checking_ {!}DEBUG_-_Checking_fire_at_{s4}_for_{s5}_-_current_time_{reg3},_last_nearby_fire_{reg4}
+qstr_Army_of_{s1}_has_bee Army_of_{s1}_has_been_rearmed_and_now_uses_rifled_muskets.
+qstr_Army_of_{s1}_has_been Army_of_{s1}_has_been_rearmed_and_now_uses_converted_breech_loaded_rifles.
+qstr_Army_of_{s1}_has_been_ Army_of_{s1}_has_been_rearmed_and_now_uses_modern_breech_loaded_rifles.
+qstr_Army_of_{s1}_has_been_r Army_of_{s1}_has_been_rearmed_and_now_uses_magazine_rifles.
+qstr_The_year_is_{reg0}. The_year_is_{reg0}.
 qstr_{!}DEBUG____Wanted_b {!}DEBUG_--_Wanted_bandits_spotted_by_{s4}
 qstr_{reg65?my_Lady:my_Lo {reg65?my_Lady:my_Lord}
 qstr_{reg65?My_Lady:My_Lo {reg65?My_Lady:My_Lord}

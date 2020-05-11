@@ -1,6 +1,6 @@
 195
 cant_find_this.ogg 0 0
-main_menu.ogg 4194432 4194944
+main_menu.ogg 4194432 4194432
 game_start1.ogg 1152 1664
 headquarters_generic01.ogg 32768 32768
 battle_generic01.ogg 4096 4096

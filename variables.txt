@@ -1209,6 +1209,7 @@ g_advantegous_faction
 g_give_advantage_to_original_faction
 g_ccoop_currently_dropping_item
 pws_n_clouds
+g_game_speed
 current_wind
 current_clouds
 current_precipitation
@@ -1352,6 +1353,8 @@ g_presentation_obj_20
 current_item
 g_presentation_obj_11
 g_presentation_obj_12
+g_days_until_next_year
+g_current_year
 player_faction_preset
 pws_equatorward_temperature
 pws_poleward_temperature

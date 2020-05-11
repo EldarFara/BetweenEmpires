@@ -216,3 +216,5 @@ menu_lost_tavern_duel = 214
 menu_establish_court = 215
 menu_notification_relieved_as_marshal = 216
 menu_weather_report = 217
+menu_start_game_speed_selection = 218
+menu_change_game_speed = 219

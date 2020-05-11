@@ -43,6 +43,8 @@ pai_global_tactic_attack_charging = 8
 pai_global_tactic_attack_approaching_close = 9
 pai_global_tactic_attack_retreat = 10
 pai_global_tactic_attack_stop_retreat = 11
+pai_global_tactic_siege_defend_initial = 12
+pai_global_tactic_siege_attack_initial = 13
 
 spawable_prop_limit = 4000
 
@@ -54,6 +56,8 @@ pbs_troop_type_guard = 3
 pbs_troop_type_cavmelee = 4
 pbs_troop_type_cavranged = 5
 pbs_troop_type_cavguard = 6
+pbs_troop_type_fieldguns = 7
+pbs_troop_type_howitzers = 8
 
 pbs_state_generic = 0
 pbs_state_moving_to_position = 1
@@ -154,6 +158,7 @@ slot_item_rifled_analog = 62
 slot_item_converted_analog = 63
 slot_item_small_caliber_analog = 64
 slot_item_bolt_action_analog = 65
+slot_item_appearance_year = 65
 
 
 ########################################################
@@ -316,10 +321,15 @@ slot_faction_morale_of_player_troops    = 99
 
 #diplomacy
 slot_faction_truce_days_with_factions_begin 			= 120
-slot_faction_provocation_days_with_factions_begin 		= 130
-slot_faction_war_damage_inflicted_on_factions_begin 	= 140
-slot_faction_sum_advice_about_factions_begin 			= 150
-slot_faction_technology_rifle_type 			= 200
+slot_faction_provocation_days_with_factions_begin 		= 160
+slot_faction_war_damage_inflicted_on_factions_begin 	= 200
+slot_faction_sum_advice_about_factions_begin 			= 240
+slot_faction_technology_rifle_type 			= 280
+slot_faction_preset_year_to_switch_rifle_type_to_smoothbore    = 281
+slot_faction_preset_year_to_switch_rifle_type_to_rifled        = 282
+slot_faction_preset_year_to_switch_rifle_type_to_converted     = 283
+slot_faction_preset_year_to_switch_rifle_type_to_smallcaliber  = 284
+slot_faction_preset_year_to_switch_rifle_type_to_boltaction    = 285
 
 #revolts -- notes for self
 #type 1 -- minor revolt, aimed at negotiating change without changing the ruler

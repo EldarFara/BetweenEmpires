@@ -42,7 +42,7 @@ game_menus = [
     [],
     [
      ("continue",[],"Continue...",
-       [(jump_to_menu, "mnu_start_game_1"),
+       [(jump_to_menu, "mnu_start_game_speed_selection"),
         ]
        ),
       ("go_back",[],"Go back",
@@ -950,7 +950,7 @@ game_menus = [
        ),
 	  ("go_back",[],"Go back",
        [
-	     (jump_to_menu,"mnu_start_game_0"),
+	     (jump_to_menu,"mnu_start_game_speed_selection"),
        ]),
     ]
   ),
@@ -2948,6 +2948,10 @@ game_menus = [
        [
            (start_presentation, "prsnt_banner_selection"),
            #(start_presentation, "prsnt_custom_banner"),
+        ]
+       ),
+      ("change_game_speed",[(assign, reg0, "$g_game_speed"),],"Change game speed. (current speed - {reg0} days per year).",
+       [(jump_to_menu, "mnu_change_game_speed"),
         ]
        ),
       ("action_retire",[],"Retire from adventuring.",
@@ -14249,7 +14253,112 @@ game_menus = [
       ]
   ),
 
-  
+  ("start_game_speed_selection",menu_text_color(0xFF000000)|mnf_disable_all_keys,
+    "Select game speed. You will be able to change it later in the game. Game speed affects how fast countries will develop their military technology and start using more advanced firearms.",
+    "bg3",
+    [],
+    [
+      ("game_speed_extremely_fast",[],"Extremely fast (One year passes in 6 days).",
+       [
+		(assign, "$g_game_speed", 6),
+         (jump_to_menu,"mnu_start_game_1"),
+        ]
+       ),
+      ("game_speed_very_fast",[],"Very fast (One year passes in 9 days).",
+       [
+		(assign, "$g_game_speed", 9),
+         (jump_to_menu,"mnu_start_game_1"),
+        ]
+       ),
+      ("game_speed_fast",[],"Fast (One year passes in 12 days).",
+       [
+		(assign, "$g_game_speed", 12),
+         (jump_to_menu,"mnu_start_game_1"),
+        ]
+       ),
+      ("game_speed_normal",[],"Normal (One year passes in 15 days).",
+       [
+		(assign, "$g_game_speed", 15),
+         (jump_to_menu, "mnu_start_game_1"),
+       ]
+       ),
+      ("game_speed_slow",[],"Slow (One year passes in 20 days).",
+       [
+		(assign, "$g_game_speed", 20),
+         (jump_to_menu, "mnu_start_game_1"),
+       ]
+       ),
+      ("game_speed_very_slow",[],"Very slow (One year passes in 25 days).",
+       [
+		(assign, "$g_game_speed", 25),
+         (jump_to_menu, "mnu_start_game_1"),
+       ]
+       ),
+      ("game_speed_extremely_slow",[],"Extremely slow (One year passes in 30 days).",
+       [
+		(assign, "$g_game_speed", 30),
+         (jump_to_menu, "mnu_start_game_1"),
+       ]
+       ),
+	  ("go_back",[],"Go back",
+       [
+	     (jump_to_menu,"mnu_start_game_0"),
+       ]),
+    ]
+  ),
+  ("change_game_speed",menu_text_color(0xFF000000)|mnf_disable_all_keys,
+    "Select game speed.",
+    "bg3",
+    [],
+    [
+      ("game_speed_extremely_fast",[],"Extremely fast (One year passes in 6 days).",
+       [
+		(assign, "$g_game_speed", 6),
+         (jump_to_menu,"mnu_camp_action"),
+        ]
+       ),
+      ("game_speed_very_fast",[],"Very fast (One year passes in 9 days).",
+       [
+		(assign, "$g_game_speed", 9),
+         (jump_to_menu,"mnu_camp_action"),
+        ]
+       ),
+      ("game_speed_fast",[],"Fast (One year passes in 12 days).",
+       [
+		(assign, "$g_game_speed", 12),
+         (jump_to_menu,"mnu_camp_action"),
+        ]
+       ),
+      ("game_speed_normal",[],"Normal (One year passes in 15 days).",
+       [
+		(assign, "$g_game_speed", 15),
+         (jump_to_menu, "mnu_camp_action"),
+       ]
+       ),
+      ("game_speed_slow",[],"Slow (One year passes in 20 days).",
+       [
+		(assign, "$g_game_speed", 20),
+         (jump_to_menu, "mnu_camp_action"),
+       ]
+       ),
+      ("game_speed_very_slow",[],"Very slow (One year passes in 25 days).",
+       [
+		(assign, "$g_game_speed", 25),
+         (jump_to_menu, "mnu_camp_action"),
+       ]
+       ),
+      ("game_speed_extremely_slow",[],"Extremely slow (One year passes in 30 days).",
+       [
+		(assign, "$g_game_speed", 30),
+         (jump_to_menu, "mnu_camp_action"),
+       ]
+       ),
+	  ("go_back",[],"Go back",
+       [
+	     (jump_to_menu,"mnu_camp_action"),
+       ]),
+    ]
+  ),
   
 
   

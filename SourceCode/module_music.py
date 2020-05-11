@@ -10,7 +10,7 @@ from header_music import *
 tracks = [
 ("bogus", "cant_find_this.ogg", 0, 0),
 
-("main_menu", "main_menu.ogg", mtf_sit_main_title|mtf_start_immediately, mtf_situation_global_map),
+("main_menu", "main_menu.ogg", mtf_sit_main_title|mtf_start_immediately, 0),
 
 ("game_start1", "game_start1.ogg", mtf_situation_game_start|mtf_start_immediately, mtf_situation_global_map),
 

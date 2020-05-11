@@ -1,5 +1,5 @@
 itemsfile version 3
-1095
+1070
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -2846,10 +2846,6 @@ itemsfile version 3
  0
 0
 
- itm_lefaucheux Lefaucheux Lefaucheux 2  lefaucheux 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 90 0 0 50 210 0 6 304 0
- 0
-0
-
  itm_lou_hat2 Austrian_Hat Austrian_Hat 1  lou_hat2 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  45
@@ -3501,102 +3497,6 @@ itemsfile version 3
 0
 
  itm_rifle_russian_m1867_carbine_m Krnka_Carbine Krnka_Carbine 1  russian_m1867_carbine 0  6553604 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 80 0 532 530
- 0
-0
-
- itm_remington_rolling_block_bayonet Remington_Rifle Remington_Rifle 2  remington_rolling_block_bayonet 0  russian_m1867_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 95 0 0 45 600 0 1 316 0
- 0
-0
-
- itm_peabody_rifle_bayonet Peabody_Rifle Peabody_Rifle 2  peabody_rifle_bayonet 0  russian_m1867_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 95 0 0 45 600 0 1 316 0
- 0
-0
-
- itm_confederate_musket_1_bayonet Springfield_M1861_Rifle Springfield_M1861_Rifle 2  confederate_musket_1_bayonet 0  russian_m1867_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 95 0 0 45 600 0 1 316 0
- 0
-0
-
- itm_veterelli_bayonet Veterelli_Rifle Veterelli_Rifle 2  veterelli_bayonet 0  russian_m1867_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 95 0 0 45 600 0 1 316 0
- 0
-0
-
- itm_krag_jorgensen Krag_Jorgensen_Rifle Krag_Jorgensen_Rifle 2  krag_jorgensen 0  russian_m1867_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 95 0 0 45 600 0 1 316 0
- 0
-0
-
- itm_springfield_1873_rifle_bayonet Springfield_1873_Rifle Springfield_1873_Rifle 2  springfield_1873_rifle_bayonet 0  russian_m1867_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 95 0 0 45 600 0 1 316 0
- 0
-0
-
- itm_chassepot_bayonet Chassepot_Rifle Chassepot_Rifle 2  chassepot_bayonet 0  russian_m1867_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 95 0 0 45 600 0 1 316 0
- 0
-0
-
- itm_dreyse_needle_rifle_bayonet Dreyse_Needle_Rifle Dreyse_Needle_Rifle 2  dreyse_needle_rifle_bayonet 0  russian_m1867_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 95 0 0 45 600 0 1 316 0
- 0
-0
-
- itm_martini_henry_rifle_bayonet Martini_Henry_Rifle Martini_Henry_Rifle 2  martini_henry_rifle_bayonet 0  russian_m1867_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 95 0 0 45 600 0 1 316 0
- 0
-0
-
- itm_martini_henry_carbine Martini_Henry_Carbine Martini_Henry_Carbine 2  martini_henry_carbine 0  russian_m1867_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 80 0 0 58 600 0 1 316 0
- 0
-0
-
- itm_dreyse_needle_carbine Dreyse_Needle_Carbine Dreyse_Needle_Carbine 2  dreyse_needle_carbine 0  russian_m1867_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 80 0 0 58 600 0 1 316 0
- 0
-0
-
- itm_chassepot_cavalry_carbine Chassepot_Carbine Chassepot_Carbine 2  chassepot_cavalry_carbine 0  russian_m1867_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 80 0 0 58 600 0 1 316 0
- 0
-0
-
- itm_springfield_1873_carbine Springfield_1873_Carbine Springfield_1873_Carbine 2  springfield_1873_carbine 0  russian_m1867_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 80 0 0 58 600 0 1 316 0
- 0
-0
-
- itm_krag_jorgensen_carbine Krag_Jorgensen_Carbine Krag_Jorgensen_Carbine 2  krag_jorgensen_carbine 0  russian_m1867_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 80 0 0 58 600 0 1 316 0
- 0
-0
-
- itm_remington_rolling_block_carbine Remington_Carbine Remington_Carbine 2  remington_rolling_block_carbine 0  russian_m1867_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 80 0 0 58 600 0 1 316 0
- 0
-0
-
- itm_remington_rolling_block_bayonet_m Remington_Rifle Remington_Rifle 1  remington_rolling_block_bayonet 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
- 0
-0
-
- itm_peabody_rifle_bayonet_m Peabody_Rifle Peabody_Rifle 1  peabody_rifle_bayonet 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
- 0
-0
-
- itm_confederate_musket_1_bayonet_m Springfield_M1861_Rifle Springfield_M1861_Rifle 1  confederate_musket_1_bayonet 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
- 0
-0
-
- itm_veterelli_bayonet_m Veterelli_Rifle Veterelli_Rifle 1  veterelli_bayonet 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
- 0
-0
-
- itm_krag_jorgensen_m Krag_Jorgenson_Rifle Krag_Jorgenson_Rifle 1  krag_jorgensen 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
- 0
-0
-
- itm_springfield_1873_rifle_bayonet_m Springfield_1873_Rifle Springfield_1873_Rifle 1  springfield_1873_rifle_bayonet 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
- 0
-0
-
- itm_chassepot_bayonet_m Chassepot_Rifle Chassepot_Rifle 1  chassepot_bayonet 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
- 0
-0
-
- itm_dreyse_needle_rifle_bayonet_m Dreyse_Needle_Rifle Dreyse_Needle_Rifle 1  dreyse_needle_rifle_bayonet 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
- 0
-0
-
- itm_martini_henry_rifle_bayonet_m Martini_Henry_Rifle Martini_Henry_Rifle 1  martini_henry_rifle_bayonet 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
  0
 0
 
