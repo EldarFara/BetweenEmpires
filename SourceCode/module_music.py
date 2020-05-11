@@ -213,3 +213,15 @@ tracks = [
 ("globalmap_spain04", "globalmap_spain04.ogg", mtf_culture_spain|mtf_situation_global_map, mtf_culture_middleeast|mtf_culture_europe),
 ("globalmap_spain05", "globalmap_spain05.ogg", mtf_culture_spain|mtf_situation_global_map, mtf_culture_middleeast|mtf_culture_europe),
 ]
+
+
+# modmerger_start version=201 type=4
+try:
+    component_name = "music"
+    var_set = { "tracks":tracks, }
+    from modmerger import modmerge
+    modmerge(var_set, component_name)
+except:
+    raise
+# modmerger_end
+

@@ -294,12 +294,32 @@ map_icons = [
   ("town2",mcn_no_shadow,"town2", 0.35,0),
   ("town3",mcn_no_shadow,"town3", 0.35,0),
   ("town4",mcn_no_shadow,"town3", 0.35,0),
+  ("town5",mcn_no_shadow,"town5", 0.35,0),
+  ("town7",mcn_no_shadow,"town7", 0.35,0),
   ("village1",mcn_no_shadow,"village1", 0.35,0),
   ("village2",mcn_no_shadow,"village2", 0.35,0),
   ("village3",mcn_no_shadow,"village3", 0.35,0),
   ("village4",mcn_no_shadow,"village3", 0.35,0),
+  ("village5",mcn_no_shadow,"village5", 0.35,0),
+  ("village6",mcn_no_shadow,"village6", 0.35,0),
   ("castle1",mcn_no_shadow,"castle1", 0.35,0),
   ("castle2",mcn_no_shadow,"castle2", 0.35,0),
   ("castle3",mcn_no_shadow,"castle3", 0.35,0),
   ("castle4",mcn_no_shadow,"village3", 0.35,0),
+  ("pyramids",mcn_no_shadow,"pyramids", 0.35,0),
+  ("cyrustomb",mcn_no_shadow,"cyrustomb", 0.35,0),
+  ("alexandriaa",mcn_no_shadow,"alexandriaa", 0.35,0),
+  ("arg",mcn_no_shadow,"arg", 0.35,0),
+  ("naghsh",mcn_no_shadow,"naghsh", 0.35,0),
 ]
+
+
+# modmerger_start version=201 type=2
+try:
+    component_name = "map_icons"
+    var_set = { "map_icons" : map_icons }
+    from modmerger import modmerge
+    modmerge(var_set)
+except:
+    raise
+# modmerger_end

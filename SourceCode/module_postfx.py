@@ -35,3 +35,15 @@ postfx_params = [
  
  ("high_contrast", 0, 3, [128.0000, 1.0000, 1.2941, 10.0000], [0.4314, 2.0000, 1.0588, 0.0549], [2.0000, 0.7059, 1.4902, 1.0000]), 
   ]
+
+
+
+  # modmerger_start version=201 type=4
+try:
+    component_name = "postfx"
+    var_set = { "postfx_params":postfx_params, }
+    from modmerger import modmerge
+    modmerge(var_set, component_name)
+except:
+    raise
+# modmerger_end

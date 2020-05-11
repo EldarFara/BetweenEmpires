@@ -93,6 +93,19 @@ slot_party_prebattle_in_battle_count       = 76
 
 slot_troop_pbs_type = 162
 
+## ZZ Custom Kingdom Troops begin
+slot_item_difficulty                = 101
+slot_item_weight                    = 102
+slot_item_price                     = 103
+slot_custom_troop_wage              = 313
+slot_custom_troop_weight            = 314
+slot_custom_troop_ap                = 315
+slot_custom_troop_sp                = 316
+slot_custom_troop_wp                = 317
+custom_troop_begin = "trp_kingdom_recruit"
+custom_troop_end = "trp_array_a"
+## ZZ Custom Kingdom Troops end
+
 ########################################################
 ##  ITEM SLOTS             #############################
 ########################################################
@@ -2185,3 +2198,22 @@ ACHIEVEMENT_QUEEN = 77,
 ACHIEVEMENT_EMPRESS = 78,
 ACHIEVEMENT_TALK_OF_THE_TOWN = 79,
 ACHIEVEMENT_LADY_OF_THE_LAKE = 80,
+
+
+
+# modmerger_start version=201 type=1
+try:
+    from util_common import logger
+    from modmerger_options import mods_active
+    modcomp_name = "constants"
+    for mod_name in mods_active:
+        try:
+            logger.info("Importing constants from mod \"%s\"..."%(mod_name))
+            code = "from %s_constants import *" % mod_name
+            exec code
+        except ImportError:
+            errstring = "Component \"%s\" not found for mod \"%s\"." % (modcomp_name, mod_name)
+            logger.debug(errstring)
+except:
+    raise
+# modmerger_end

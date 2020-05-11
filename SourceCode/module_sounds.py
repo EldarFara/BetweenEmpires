@@ -269,3 +269,14 @@ sounds = [
 ("rifle_shot_far3", sf_2d|sf_priority_1|sf_vol_15, ["rifle_shot_far2_01.wav", "rifle_shot_far2_02.wav", "rifle_shot_far2_03.wav", "rifle_shot_far2_04.wav", "rifle_shot_far2_05.wav", "rifle_shot_far2_06.wav", "rifle_shot_far2_07.wav", "rifle_shot_far2_08.wav", "rifle_shot_far2_09.wav", "rifle_shot_far2_10.wav", "rifle_shot_far2_11.wav", "rifle_shot_far2_12.wav", "rifle_shot_far2_13.wav","rifle_shot_far2_14.wav","rifle_shot_far2_15.wav","rifle_shot_far2_16.wav","none"]),
 
 ]
+
+
+# modmerger_start version=201 type=2
+try:
+    component_name = "sounds"
+    var_set = { "sounds" : sounds }
+    from modmerger import modmerge
+    modmerge(var_set)
+except:
+    raise
+# modmerger_end

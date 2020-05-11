@@ -629,5 +629,25 @@ script_store_average_coordinates_of_infantry_in_attack_formation_in_pos30 = 627
 script_store_mouse_projection_to_pos3 = 628
 script_store_highest_position_around_pos30_into_pos31 = 629
 script_player_team_form_square = 630
+script_troop_tree_recursive_backtracking = 631
+script_troop_tree_recursive_detect_max_tier = 632
+script_prsnt_line = 633
+script_get_page_no_of_troop_tree_for_troop_on = 634
+script_prsnt_upgrade_tree_troop_and_name = 635
+script_prsnt_upgrade_tree_troop_cost = 636
+script_prsnt_lines = 637
+script_get_custom_troop_info = 638
+script_store_custom_troop_info_to_slot = 639
+script_clear_array = 640
+script_custom_troop_button_action = 641
+script_custom_troop_inventory_initialization = 642
+script_custom_troop_inventory_reset = 643
+script_custom_troop_inventory_change = 644
+script_custom_troop_inventory_total_price = 645
+script_custom_troop_inventory_total_weight = 646
+script_custom_troop_item_judge = 647
+script_set_custom_troop_pionts_initialization = 648
+script_player_faction_troops = 649
+script_item_detial = 650
 
 

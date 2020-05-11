@@ -413,3 +413,15 @@ quests = [
   
  ("quests_end", "Quests End", 0, "{!}."),
 ]
+
+
+
+# modmerger_start version=201 type=2
+try:
+    component_name = "quests"
+    var_set = { "quests" : quests }
+    from modmerger import modmerge
+    modmerge(var_set)
+except:
+    raise
+# modmerger_end

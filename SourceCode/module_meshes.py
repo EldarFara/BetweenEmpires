@@ -612,4 +612,27 @@ meshes = [
   ("pic_test", 0, "pic_test", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   
   ("pbs_company_info", 0, "pbs_company_info", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  
+
+  ("status_troop_ratio_bar", 0, "slider_hor", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("status_troop_ratio_bar_button", 0, "handle_hor", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+
+
+  ## ZZ Custom Kingdom Troops begin
+  ("troop_info_win_1", 0, "troop_info_win_1", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("troop_info_win_2", 0, "troop_info_win_2", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("button1_up", 0, "button1_up", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("button1_down", 0, "button1_down", 0, 0, 0, 0, 0, 0, 1, 1, 1), 
+  ## ZZ Custom Kingdom Troops end
+  
 ]
+
+# modmerger_start version=201 type=2
+try:
+    component_name = "meshes"
+    var_set = { "meshes" : meshes }
+    from modmerger import modmerge
+    modmerge(var_set)
+except:
+    raise
+# modmerger_end

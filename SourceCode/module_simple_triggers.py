@@ -4266,4 +4266,53 @@ simple_triggers = [
    []),
   (24,
    []),
+   
+   
+   ## ZZ Custom Kingdom Troops begin
+    (0,
+    [
+      (map_free),
+      (troop_get_inventory_slot, ":item", "trp_kingdom_inventory", 10),
+      (eq,":item","itm_velvet"),
+      (try_for_range, ":troop", custom_troop_begin,  custom_troop_end),
+		(store_sub,":slot_offset",":troop",custom_troop_begin),	
+		(val_mul,":slot_offset",10),	
+		(try_for_range, ":i_slot", 0, 9),
+			(store_add,":slot_no",":i_slot",":slot_offset"),		
+			(troop_get_slot,":item", "trp_kingdom_inventory", ":slot_no"),
+			(gt,":item",0),
+			(troop_set_inventory_slot,":troop", ":i_slot",":item"),
+		(try_end),
+	  (try_end),
+      (try_for_range, ":troop", custom_troop_begin,  custom_troop_end),
+          (store_sub,":offset",":troop","trp_kingdom_recruit"),
+          (store_add,":faction_troop_name","fac_troop_name_temp_1",":offset"),
+          (str_store_faction_name,s2,":faction_troop_name"),
+	  (troop_set_name, ":troop", s2),
+	  (troop_set_plural_name, ":troop", s2),
+	  (try_end),     
+      (troop_clear_inventory, "trp_kingdom_inventory"),
+    ]
+  ),
+ 
+(24,[
+      (try_for_range, ":center_no", centers_begin, centers_end),
+        (store_faction_of_party, ":now_faction", ":center_no"),
+        (faction_get_slot, ":culture", ":now_faction", slot_faction_culture),
+        (party_set_slot, ":center_no", slot_center_culture,  ":culture"),
+      (try_end),
+]), 
+## ZZ Custom Kingdom Troops end
+   
 ]
+
+
+# modmerger_start version=201 type=2
+try:
+    component_name = "simple_triggers"
+    var_set = { "simple_triggers" : simple_triggers }
+    from modmerger import modmerge
+    modmerge(var_set)
+except:
+    raise
+# modmerger_end

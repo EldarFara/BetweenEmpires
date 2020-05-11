@@ -555,5 +555,11 @@ mesh_ccoop_ranged_class = 553
 mesh_ccoop_mounted_class = 554
 mesh_pic_test = 555
 mesh_pbs_company_info = 556
+mesh_status_troop_ratio_bar = 557
+mesh_status_troop_ratio_bar_button = 558
+mesh_troop_info_win_1 = 559
+mesh_troop_info_win_2 = 560
+mesh_button1_up = 561
+mesh_button1_down = 562
 
 

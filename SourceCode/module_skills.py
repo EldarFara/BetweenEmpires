@@ -82,3 +82,15 @@ skills = [
   ("reserved_17","Reserved Skill 17",sf_base_att_str|sf_inactive,10,"This is a reserved skill."), 
   ("reserved_18","Reserved Skill 18",sf_base_att_str|sf_inactive,10,"This is a reserved skill."), 
 ]
+
+
+
+# modmerger_start version=201 type=2
+try:
+    component_name = "skills"
+    var_set = { "skills" : skills }
+    from modmerger import modmerge
+    modmerge(var_set)
+except:
+    raise
+# modmerger_end

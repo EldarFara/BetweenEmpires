@@ -1068,3 +1068,14 @@ particle_systems = [
     ),
 
 ]
+
+
+# modmerger_start version=201 type=2
+try:
+    component_name = "particle_systems"
+    var_set = { "particle_systems" : particle_systems }
+    from modmerger import modmerge
+    modmerge(var_set)
+except:
+    raise
+# modmerger_end

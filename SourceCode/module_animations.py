@@ -1753,6 +1753,8 @@ animations = [
  ],
  ["stand_lord", 0, 0,
    [10.0, "lord_stand", 0, 111, arf_use_stand_progress|arf_cyclic, 0, (0, 0, 0), 0.25],
+   [130, "stand_shopkeeper", 0, 3601, arf_cyclic|arf_use_stand_progress, 0, (0, 0, 0), 0.25],
+   [29, "new_idle_unarmed", 0, 315, arf_cyclic|arf_use_stand_progress, 0, (0, 0, 0), 0.25],
  ],
 
  ["dance", 0, 0,
@@ -2147,3 +2149,14 @@ animations = [
  ["unused_horse_anim_99", 0, 0, [1.0, "anim_horse", 0, 1, 0]],
  ["unused_horse_anim_100", 0, 0, [1.0, "anim_horse", 0, 1, 0]],
  ]
+ 
+ 
+  # modmerger_start version=201 type=2
+try:
+    component_name = "animations"
+    var_set = { "animations" : animations }
+    from modmerger import modmerge
+    modmerge(var_set)
+except:
+    raise
+# modmerger_end

@@ -53,17 +53,13 @@ game_menus = [
   ),
 
   ("start_phase_2",mnf_disable_all_keys,
-    "You hear about Calradia, a land torn between rival kingdoms battling each other for supremacy,\
- a haven for knights and mercenaries,  cutthroats and adventurers, all willing to risk their lives in pursuit of fortune, power, or glory...\
- In this land which holds great dangers and even greater opportunities, you believe you may leave your past behind and start a new life.\
- You feel that finally, you hold the key of your destiny in your hands, free to choose as you will,\
- and that whatever course you take, great adventures will await you. Drawn by the stories you hear about Calradia and its kingdoms, you...",
+    "Please select a city which you want to start your journey at.",
     "bg3",
     [],
     [
-      ("town_1",[(eq, "$current_startup_quest_phase", 0),],"Start the game.",
+      ("town_1",[(eq, "$current_startup_quest_phase", 0),],"Konstantiniyyeh",
        [
-         (assign, "$current_town", "p_town_6"),
+         (assign, "$current_town", "p_town_19"),
          (assign, "$g_starting_town", "$current_town"),
          (assign, "$g_journey_string", "str_journey_to_praven"),
          (party_relocate_near_party, "p_main_party", "$g_starting_town", 2),
@@ -71,7 +67,46 @@ game_menus = [
 #         (party_relocate_near_party, "p_main_party", "$g_starting_town", 2),
 #         (change_screen_return),
        ]),
-
+      ("town_2",[(eq, "$current_startup_quest_phase", 0),],"Tehran.",
+       [
+         (assign, "$current_town", "p_town_22"),
+         (assign, "$g_starting_town", "$current_town"),
+         (assign, "$g_journey_string", "str_journey_to_reyvadin"),
+         (party_relocate_near_party, "p_main_party", "$g_starting_town", 2),
+         (change_screen_return),
+#         (party_relocate_near_party, "p_main_party", "$g_starting_town", 2),
+#         (change_screen_return),
+       ]),	   
+      ("town_3",[(eq, "$current_startup_quest_phase", 0),],"Madrid.",
+       [
+         (assign, "$current_town", "p_town_5"),
+         (assign, "$g_starting_town", "$current_town"),
+         (assign, "$g_journey_string", "str_journey_to_jelkala"),
+         (party_relocate_near_party, "p_main_party", "$g_starting_town", 2),
+         (change_screen_return),
+#         (party_relocate_near_party, "p_main_party", "$g_starting_town", 2),
+#         (change_screen_return),
+       ]),
+      ("town_4",[(eq, "$current_startup_quest_phase", 0),],"London.",
+       [
+         (assign, "$current_town", "p_town_18"),
+         (assign, "$g_starting_town", "$current_town"),
+         (assign, "$g_journey_string", "str_journey_to_sargoth"),
+         (party_relocate_near_party, "p_main_party", "$g_starting_town", 2),
+         (change_screen_return),
+#         (party_relocate_near_party, "p_main_party", "$g_starting_town", 2),
+#         (change_screen_return),
+       ]),
+      ("town_5",[(eq, "$current_startup_quest_phase", 0),],"Saint Petersburg.",
+       [
+         (assign, "$current_town", "p_town_10"),
+         (assign, "$g_starting_town", "$current_town"),
+         (assign, "$g_journey_string", "str_journey_to_tulga"),
+         (party_relocate_near_party, "p_main_party", "$g_starting_town", 2),
+         (change_screen_return),
+#         (party_relocate_near_party, "p_main_party", "$g_starting_town", 2),
+#         (change_screen_return),
+       ]),	   	   
 	   
       ("tutorial_cheat",[(eq,1,0)],"{!}CHEAT!",
        [
@@ -526,6 +561,18 @@ game_menus = [
 
       ("view_morale_report",[],"View party morale report.",
        [(jump_to_menu, "mnu_morale_report"),
+        ]
+       ),
+       
+     ("action_view_troop_trees",[],"Troop Tres",
+       [
+        (start_presentation, "prsnt_faction_troop_trees"),
+        ]
+       ),
+       
+    ("action_view_world_map",[],"World Map",
+       [
+        (start_presentation, "prsnt_world_map"),
         ]
        ),
 
@@ -1297,14 +1344,20 @@ game_menus = [
            (set_show_messages, 0),
 	(try_begin),
 	(eq,"$character_gender",0),
-	(troop_add_item, "trp_player","itm_clothes_adventurer_male1",0),
-	(troop_add_item, "trp_player","itm_clothes_adventurer_male_trousers1",0),
+	(troop_add_item, "trp_player","itm_clothes_urban_male1",0),
+	(troop_add_item, "trp_player","itm_clothes_urban_male_trousers1",0),
+	(troop_add_item, "trp_player","itm_ammo_pistol",0),
+	(troop_add_item, "trp_player","itm_sidearm_smithwesson_no2",0),
+	(troop_add_item, "trp_player","itm_dagger",0),
 	(else_try),
 	(troop_add_item, "trp_player","itm_clothes_adventurer_female1",0),
 	(troop_add_item, "trp_player","itm_clothes_adventurer_female_trousers1",0),
+	(troop_add_item, "trp_player","itm_ammo_pistol",0),
+	(troop_add_item, "trp_player","itm_sidearm_smithwesson_no2",0),
+	(troop_add_item, "trp_player","itm_dagger",0),	
 	(try_end),
-(troop_remove_item, "trp_player", "itm_sidearm_pepperbox2"),
-(troop_remove_item, "trp_player", "itm_ammo_pistol"),
+#(troop_remove_item, "trp_player", "itm_sidearm_pepperbox2"),
+#(troop_remove_item, "trp_player", "itm_ammo_pistol"),
 
       (try_begin),
         (eq,"$background_type",cb_noble),
@@ -1322,7 +1375,7 @@ game_menus = [
         (troop_raise_skill, "trp_player","skl_power_strike",1),
         (troop_raise_skill, "trp_player", skl_captain, 1),
         (troop_raise_skill, "trp_player","skl_trainer",1),
-	(troop_add_item, "trp_player","itm_sidearm_caplock_pistol1",0),
+#	(troop_add_item, "trp_player","itm_sidearm_caplock_pistol1",0),
         (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,10),
         (troop_raise_proficiency, "trp_player",wpt_two_handed_weapon,10),
         (troop_raise_proficiency, "trp_player",wpt_throwing,10),
@@ -2879,6 +2932,17 @@ game_menus = [
        [(start_presentation, "prsnt_name_kingdom"),
         ]
        ),
+       
+       ## ZZ Custom Kingdom Troops begin
+      ("action_promote_kingdom_custom_troop",
+       [
+         (faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_active),
+         (faction_slot_eq, "fac_player_supporters_faction", slot_faction_leader, "trp_player"),
+         ],"Promote your kingdom custom troop.",
+       [(start_presentation, "prsnt_custom_kingdom_troop"),
+        ]
+       ),	   
+## ZZ Custom Kingdom Troops end
 
       ("action_modify_banner",[(eq, "$cheat_mode", 1)],"{!}Cheat: Modify your banner.",
        [
@@ -5342,7 +5406,7 @@ game_menus = [
 #             ]),
       ("approach_gates",[(this_or_next|eq,"$entry_to_town_forbidden",1),
                           (party_slot_eq,"$g_encountered_party", slot_party_type,spt_castle)],
-       "Approach the gates and hail the guard.",[
+       "Approach the HQ and hail the guards.",[
                                                   (jump_to_menu, "mnu_castle_guard"),
 ##                                                   (modify_visitors_at_site,"scn_conversation_scene"),(reset_visitors),
 ##                                                   (set_visitor,0,"trp_player"),
@@ -5469,7 +5533,7 @@ game_menus = [
     [
       ("request_shelter",[(party_slot_eq, "$g_encountered_party",slot_party_type, spt_castle),
                           (ge, "$g_encountered_party_relation", 0)],
-       "Request entry to the castle.",
+       "Request entry to the Headquarters.",
        [(party_get_slot, ":castle_lord", "$g_encountered_party", slot_town_lord),
         (try_begin),
           (lt, ":castle_lord", 0),
@@ -8394,7 +8458,7 @@ game_menus = [
           (faction_slot_eq, ":center_faction", slot_faction_ai_object, "$current_town"),
           (str_store_string, s1, "str__join_the_feast"),
         (try_end),
-        ],"Go to the Lord's hall{s1}.",
+        ],"Go to the HQ.{s1}.",
        [          
            (try_begin),
              (this_or_next|eq, "$all_doors_locked", 1),
@@ -8419,7 +8483,7 @@ game_menus = [
              (assign, "$town_entered", 1),
              (call_script, "script_enter_court", "$current_town"),
            (try_end),
-        ], "Door to the castle."),
+        ], "Door to the town hall."),
 		
       ("join_tournament", [(eq, 1, 2), #parabellum cut
 	  (neg|is_currently_night),(party_slot_ge, "$current_town", slot_town_has_tournament, 1),]
@@ -8447,7 +8511,7 @@ game_menus = [
             (str_store_string, s1, "str__join_the_feast"),
           (try_end),
 
-          ],"Go to the castle{s1}.",
+          ],"Go to the town hall{s1}.",
        [           
            (try_begin),
              (this_or_next|eq, "$all_doors_locked", 1),
@@ -8473,7 +8537,7 @@ game_menus = [
               (call_script, "script_enter_court", "$current_town"),
 			 (music_set_situation, mtf_situation_headquarters),
            (try_end),
-        ], "Door to the castle."),
+        ], "Door to the town hall."),
       
       ("town_center",
       [                        
@@ -8991,13 +9055,13 @@ game_menus = [
            (else_try),
              (display_message,"str_door_locked",0xFFFFAAAA),
            (try_end),
-        ],"Door to the dungeon."),
+        ],"Door to the jail."),
 		
       ("castle_inspect", 
       [
          (party_slot_eq,"$current_town",slot_party_type, spt_castle),
       ],
-       "Take a walk around the courtyard.",
+       "Take a walk around the HQ.",
        [
          (try_begin),
            (eq, "$talk_context", tc_prison_break),
@@ -10703,25 +10767,25 @@ game_menus = [
            (jump_to_menu,"mnu_town_trade_assessment_begin"),
         ]),
       ("trade_with_arms_merchant",[(party_slot_ge, "$current_town", slot_town_weaponsmith, 1)],
-       "Trade with the arms merchant.",
+       "Trade with the Gunsmith.",
        [
            (party_get_slot, ":merchant_troop", "$current_town", slot_town_weaponsmith),
            (change_screen_trade, ":merchant_troop"),
         ]),
       ("trade_with_armor_merchant",[(party_slot_ge, "$current_town", slot_town_armorer, 1)],
-       "Trade with the armor merchant.",
+       "Trade with the Tailor.",
        [
            (party_get_slot, ":merchant_troop", "$current_town", slot_town_armorer),
            (change_screen_trade, ":merchant_troop"),
         ]),
       ("trade_with_horse_merchant",[(party_slot_ge, "$current_town", slot_town_horse_merchant, 1)],
-       "Trade with the horse merchant.",
+       "Trade with the Horse merchant.",
        [
            (party_get_slot, ":merchant_troop", "$current_town", slot_town_horse_merchant),
            (change_screen_trade, ":merchant_troop"),
         ]),
       ("trade_with_goods_merchant",[(party_slot_ge, "$current_town", slot_town_merchant, 1)],
-       "Trade with the goods merchant.",
+       "Trade with the Goods merchant.",
        [
            (party_get_slot, ":merchant_troop", "$current_town", slot_town_merchant),
            (change_screen_trade, ":merchant_troop"),
@@ -14190,3 +14254,15 @@ game_menus = [
 
   
  ]
+ 
+ 
+ 
+  # modmerger_start version=201 type=2
+try:
+    component_name = "game_menus"
+    var_set = { "game_menus" : game_menus }
+    from modmerger import modmerge
+    modmerge(var_set)
+except:
+    raise
+# modmerger_end

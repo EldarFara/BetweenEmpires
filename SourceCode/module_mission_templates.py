@@ -2934,7 +2934,6 @@ common_battle_tab_press = (
       (call_script, "script_count_mission_casualties_from_agents"),
       (finish_mission,0),
     (else_try),
-      (call_script, "script_cf_check_enemies_nearby"),
       (question_box,"str_do_you_want_to_retreat"),
     (else_try),
       (display_message,"str_can_not_retreat"),
@@ -4766,6 +4765,14 @@ mission_templates = [
       common_battle_inventory,      
       common_battle_order_panel,
       common_battle_order_panel_tick,
+      
+      ##################################################
+##### troop_ratio_bar
+##################################################
+      (0, 0, ti_once, [], [(start_presentation, "prsnt_troop_ratio_bar")]),
+##################################################
+##### troop_ratio_bar
+##################################################
       
     ]
 + parabellum_script_set_battle,
@@ -18316,3 +18323,14 @@ mission_templates = [
 
 
 ]
+
+
+# modmerger_start version=201 type=4
+try:
+    component_name = "mission_templates"
+    var_set = { "mission_templates":mission_templates,"multiplayer_server_check_belfry_movement":multiplayer_server_check_belfry_movement,"multiplayer_server_spawn_bots":multiplayer_server_spawn_bots,"multiplayer_server_manage_bots":multiplayer_server_manage_bots,"multiplayer_server_check_polls":multiplayer_server_check_polls,"multiplayer_server_check_end_map":multiplayer_server_check_end_map,"multiplayer_once_at_the_first_frame":multiplayer_once_at_the_first_frame,"multiplayer_battle_window_opened":multiplayer_battle_window_opened,"common_battle_mission_start":common_battle_mission_start,"common_battle_tab_press":common_battle_tab_press,"common_battle_init_banner":common_battle_init_banner,"common_arena_fight_tab_press":common_arena_fight_tab_press,"common_custom_battle_tab_press":common_custom_battle_tab_press,"custom_battle_check_victory_condition":custom_battle_check_victory_condition,"custom_battle_check_defeat_condition":custom_battle_check_defeat_condition,"common_battle_victory_display":common_battle_victory_display,"common_siege_question_answered":common_siege_question_answered,"common_custom_battle_question_answered":common_custom_battle_question_answered,"common_custom_siege_init":common_custom_siege_init,"common_siege_init":common_siege_init,"common_music_situation_update":common_music_situation_update,"common_siege_ai_trigger_init":common_siege_ai_trigger_init,"common_siege_ai_trigger_init_2":common_siege_ai_trigger_init_2,"common_siege_ai_trigger_init_after_2_secs":common_siege_ai_trigger_init_after_2_secs,"common_siege_defender_reinforcement_check":common_siege_defender_reinforcement_check,"common_siege_defender_reinforcement_archer_reposition":common_siege_defender_reinforcement_archer_reposition,"common_siege_attacker_reinforcement_check":common_siege_attacker_reinforcement_check,"common_siege_attacker_do_not_stall":common_siege_attacker_do_not_stall,"common_battle_check_friendly_kills":common_battle_check_friendly_kills,"common_battle_check_victory_condition":common_battle_check_victory_condition,"common_battle_victory_display":common_battle_victory_display,"common_siege_refill_ammo":common_siege_refill_ammo,"common_siege_check_defeat_condition":common_siege_check_defeat_condition,"common_battle_order_panel":common_battle_order_panel,"common_battle_order_panel_tick":common_battle_order_panel_tick,"common_battle_inventory":common_battle_inventory,"common_inventory_not_available":common_inventory_not_available,"common_siege_init_ai_and_belfry":common_siege_init_ai_and_belfry,"common_siege_move_belfry":common_siege_move_belfry,"common_siege_rotate_belfry":common_siege_rotate_belfry,"common_siege_assign_men_to_belfry":common_siege_assign_men_to_belfry,"tournament_triggers":tournament_triggers, }
+    from modmerger import modmerge
+    modmerge(var_set, component_name)
+except:
+    raise
+# modmerger_end

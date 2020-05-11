@@ -1,5 +1,5 @@
 scene_propsfile version 1
- 1160
+ 1564
 spr_invalid_object 0 0 question_mark 0 0
 
 
@@ -3329,64 +3329,64 @@ spr_khiva_building_a 0 0 khiva_building_a bo_khiva_building_a 0
 spr_khiva_building_b 0 0 khiva_building_b bo_khiva_building_b 0
 
 
-spr_khiva_house_d 0 0 khiva_house_d khiva_house_d 0
+spr_khiva_house_d 0 0 khiva_house_d bo_khiva_house_d 0
 
 
-spr_village_6_church_c 0 0 village_6_church_c village_6_church_c 0
+spr_village_6_church_c 0 0 village_6_church_c bo_village_6_church_c 0
 
 
-spr_khiva_houses7 0 0 khiva_houses7 khiva_houses7 0
+spr_khiva_houses7 0 0 khiva_houses7 bo_khiva_houses7 0
 
 
-spr_khiva_houses6 0 0 khiva_houses6 khiva_houses6 0
+spr_khiva_houses6 0 0 khiva_houses6 bo_khiva_houses6 0
 
 
-spr_khiva_houses5 0 0 khiva_houses5 khiva_houses5 0
+spr_khiva_houses5 0 0 khiva_houses5 bo_khiva_houses5 0
 
 
-spr_khiva_houses4 0 0 khiva_houses4 khiva_houses4 0
+spr_khiva_houses4 0 0 khiva_houses4 bo_khiva_houses4 0
 
 
-spr_khiva_houses3 0 0 khiva_houses3 khiva_houses3 0
+spr_khiva_houses3 0 0 khiva_houses3 bo_khiva_houses3 0
 
 
-spr_khiva_houses2 0 0 khiva_houses2 khiva_houses2 0
+spr_khiva_houses2 0 0 khiva_houses2 bo_khiva_houses2 0
 
 
-spr_khiva_houses 0 0 khiva_houses khiva_houses 0
+spr_khiva_houses 0 0 khiva_houses bo_khiva_houses 0
 
 
-spr_shia_mosque 0 0 shia_mosque shia_mosque 0
+spr_shia_mosque 0 0 shia_mosque bo_shia_mosque 0
 
 
-spr_khiva_house_g 0 0 khiva_house_g khiva_house_g 0
+spr_khiva_house_g 0 0 khiva_house_g bo_khiva_house_g 0
 
 
-spr_khiva_house_e 0 0 khiva_house_e khiva_house_e 0
+spr_khiva_house_e 0 0 khiva_house_e bo_khiva_house_e 0
 
 
-spr_napo_persiancarpet 0 0 napo_persiancarpet 0 0
+spr_persiancarpet 0 0 persiancarpet 0 0
 
 
-spr_napo_persiancarpet2 0 0 napo_persiancarpet2 0 0
+spr_persiancarpet2 0 0 persiancarpet2 0 0
 
 
 spr_Tapijt 0 0 Tapijt 0 0
 
 
-spr_carpet_shop 0 0 carpet_shop carpet_shop 0
+spr_carpet_shop 0 0 carpet_shop bo_carpet_shop 0
 
 
-spr_mideast_gate 0 0 mideast_gate mideast_gate 0
+spr_mideast_gate 0 0 mideast_gate bo_mideast_gate 0
 
 
-spr_mideast_parterre 0 0 mideast_parterre mideast_parterre 0
+spr_mideast_parterre 0 0 mideast_parterre bo_mideast_parterre 0
 
 
-spr_mideast_wall 0 0 mideast_wall mideast_wall 0
+spr_mideast_wall 0 0 mideast_wall bo_mideast_wall 0
 
 
-spr_chair 0 0 chair 0 0
+spr_chair 0 0 chair bo_chair 0
 
 
 spr_Schilderij3 0 0 Schilderij3 0 0
@@ -3395,7 +3395,31 @@ spr_Schilderij3 0 0 Schilderij3 0 0
 spr_Schilderij 0 0 Schilderij 0 0
 
 
-spr_crate02 0 0 crate02 0 0
+spr_portrait2 0 0 portrait2 0 0
+
+
+spr_portrait3 0 0 portrait3 0 0
+
+
+spr_portrait4 0 0 portrait4 0 0
+
+
+spr_portrait5 0 0 portrait5 0 0
+
+
+spr_portrait6 0 0 portrait6 0 0
+
+
+spr_portrait7 0 0 portrait7 0 0
+
+
+spr_portrait8 0 0 portrait8 0 0
+
+
+spr_portrait9 0 0 portrait9 0 0
+
+
+spr_crate02 0 0 crate02 bo_crate02 0
 
 
 spr_winebottle04 0 0 winebottle04 0 0
@@ -3428,10 +3452,10 @@ spr_lantern 0 0 lantern 0 0
 spr_coffee 0 0 coffee 0 0
 
 
-spr_cavspikes 0 0 cavspikes 0 0
+spr_cavspikes 0 0 cavspikes bo_cavspikes 0
 
 
-spr_ale_barrel 0 0 ale_barrel 0 0
+spr_ale_barrel 0 0 ale_barrel bo_ale_barrel 0
 
 
 spr_ale_cask 0 0 ale_cask 0 0
@@ -3443,25 +3467,25 @@ spr_wrapped_tankard 0 0 wrapped_tankard 0 0
 spr_rum_bottle 0 0 rum_bottle 0 0
 
 
-spr_f_gallows01_t1 0 0 f_gallows01_t1 0 0
+spr_f_gallows01_t1 0 0 f_gallows01_t1 bo_f_gallows01_t1 0
 
 
-spr_cannon_6lb 0 0 cannon_6lb 0 0
+spr_cannon_6lb 0 0 cannon_6lb bo_cannon_6lb 0
 
 
-spr_chair01 0 0 chair01 0 0
+spr_chair01 0 0 chair01 bo_chair01 0
 
 
-spr_cart01 0 0 cart01 0 0
+spr_cart01 0 0 cart01 bo_cart01 0
 
 
 spr_plate01 0 0 plate01 0 0
 
 
-spr_recttable01 0 0 recttable01 0 0
+spr_recttable01 0 0 recttable01 bo_recttable01 0
 
 
-spr_roundtable01 0 0 roundtable01 0 0
+spr_roundtable01 0 0 roundtable01 bo_roundtable01 0
 
 
 spr_bread_slice_a 0 0 bread_slice_a 0 0
@@ -3476,10 +3500,10 @@ spr_fish_roasted_a 0 0 fish_roasted_a 0 0
 spr_chicken_roasted 0 0 chicken 0 0
 
 
-spr_sofa5 0 0 sofa5 0 0
+spr_sofa5 0 0 sofa5 bo_sofa5 0
 
 
-spr_table_trunk5 0 0 table_trunk5 0 0
+spr_table_trunk5 0 0 table_trunk5 bo_table_trunk5 0
 
 
 spr_chili4 0 0 chili4 0 0
@@ -3518,28 +3542,28 @@ spr_necturus_carpet_2 0 0 necturus_carpet_2 0 0
 spr_necturus_carpet_1 0 0 necturus_carpet_1 0 0
 
 
-spr_sillon_verde2 0 0 sillon_verde2 0 0
+spr_sillon_verde2 0 0 sillon_verde2 bo_sillon_verde2 0
 
 
-spr_sillon_taranjo 0 0 sillon_taranjo 0 0
+spr_sillon_taranjo 0 0 sillon_taranjo bo_sillon_taranjo 0
 
 
-spr_silla_larga_verde 0 0 silla_larga_verde 0 0
+spr_silla_larga_verde 0 0 silla_larga_verde bo_silla_larga_verde 0
 
 
-spr_silla_larga_azul 0 0 silla_larga_azul 0 0
+spr_silla_larga_azul 0 0 silla_larga_azul bo_silla_larga_azul 0
 
 
-spr_Biblioteca 0 0 Biblioteca 0 0
+spr_Biblioteca 0 0 Biblioteca bo_Biblioteca 0
 
 
-spr_fireplace 0 0 fireplace 0 0
+spr_fireplace 0 0 fireplace bo_fireplace_COLL 0
 
 
 spr_recuadro_chico5 0 0 recuadro_chico5 0 0
 
 
-spr_vase 0 0 vase 0 0
+spr_vase 0 0 vase bo_vase 0
 
 
 spr_chandelier 0 0 chandelier 0 0
@@ -3557,51 +3581,1248 @@ spr_libro3 0 0 libro3 0 0
 spr_libro2 0 0 libro2 0 0
 
 
-spr_fuente 0 0 fuente 0 0
+spr_fuente 0 0 fuente bo_fuente 0
 
 
-spr_sillon2 0 0 sillon2 0 0
+spr_sillon2 0 0 sillon2 bo_sillon2 0
 
 
-spr_piano 0 0 piano 0 0
+spr_piano 0 0 piano bo_piano 0
 
 
-spr_mesa6 0 0 mesa6 0 0
+spr_mesa6 0 0 mesa6 bo_mesa6 0
 
 
-spr_mesa4 0 0 mesa4 0 0
+spr_mesa4 0 0 mesa4 bo_mesa4 0
 
 
-spr_mueble3 0 0 mueble3 0 0
+spr_mueble3 0 0 mueble3 bo_mueble3 0
 
 
-spr_fenceE 0 0 fenceE 0 0
+spr_fenceA 0 0 fenceA bo_fenceA 0
 
 
-spr_fenceD 0 0 fenceD 0 0
+spr_fenceB 0 0 fenceB bo_fenceB 0
 
 
-spr_fenceC 0 0 fenceC 0 0
+spr_fenceC 0 0 fenceC bo_fenceC 0
 
 
-spr_fenceB 0 0 fenceB 0 0
+spr_fenceD 0 0 fenceD bo_fenceD 0
 
 
-spr_fenceA 0 0 fenceA 0 0
+spr_fenceE 0 0 fenceE bo_fenceE 0
+
+
+spr_fenceF 0 0 fenceF bo_fenceF 0
 
 
 spr_Lantaarnpaal 0 0 Lantaarnpaal 0 0
 
 
-spr_fenceF 0 0 fenceF 0 0
+spr_mueble6 0 0 mueble6 bo_mueble6 0
 
 
-spr_stagecoach 0 0 stagecoach 0 0
+spr_stagecoach 0 0 stagecoach bo_stagecoach 0
 
 
-spr_stool01 0 0 stool01 0 0
+spr_stool01 0 0 stool01 bo_stool01 0
 
 
 spr_cup01 0 0 cup01 0 0
+
+
+spr_bedouin_tent 0 0 bedouin_tent bo_bedouin_tent 0
+
+
+spr_bedouin_tent1 0 0 bedouin_tent1 bo_bedouin_tent1 0
+
+
+spr_mideast_fountain 0 0 mideast_fountain bo_mideast_fountain 0
+
+
+spr_mideast_house_b 0 0 mideast_house_b bo_mideast_house_b 0
+
+
+spr_mideast_house_c 0 0 mideast_house_c bo_mideast_house_c 0
+
+
+spr_mideast_house_f 0 0 mideast_house_f bo_mideast_house_f 0
+
+
+spr_mideast_house_g 0 0 mideast_house_g bo_mideast_house_g 0
+
+
+spr_mideast_house_h 0 0 mideast_house_h bo_mideast_house_h 0
+
+
+spr_mideast_square_keep_a 0 0 mideast_square_keep_a bo_mideast_square_keep_a 0
+
+
+spr_mideast_stairs 0 0 mideast_stairs bo_mideast_stairs 0
+
+
+spr_mideast_castle_stairs_b 0 0 mideast_castle_stairs_b bo_mideast_castle_stairs_b 0
+
+
+spr_mideast_castle_stairs 0 0 mideast_castle_stairs bo_mideast_castle_stairs 0
+
+
+spr_mideast_castle_stairs_ce 0 0 mideast_castle_stairs_ce bo_mideast_castle_stairs_ce 0
+
+
+spr_mideast_groundarab_ground 0 0 mideast_groundarab_ground bo_mideast_groundarab_ground 0
+
+
+spr_eu_wooden_fance 0 0 eu_wooden_fance bo_eu_wooden_fance 0
+
+
+spr_eu_wooden_door 0 0 eu_wooden_door bo_eu_wooden_door 0
+
+
+spr_eu_ladders 0 0 eu_ladders bo_eu_ladders 0
+
+
+spr_tent_d 0 0 tent_d bo_tent_d 0
+
+
+spr_tent_c 0 0 tent_c bo_tent_c 0
+
+
+spr_wooden_fort 0 0 wooden_fort bo_wooden_fort 0
+
+
+spr_eu_stodola 0 0 eu_stodola bo_eu_stodola 0
+
+
+spr_eu_bench1 0 0 eu_bench1 bo_eu_bench1 0
+
+
+spr_wooden_wall_V 0 0 wooden_wall_V bo_wooden_wall_V 0
+
+
+spr_boxes_b 0 0 boxes_b bo_boxes_b 0
+
+
+spr_boxes_c 0 0 boxes_c bo_boxes_c 0
+
+
+spr_eu_table 0 0 eu_table bo_eu_table 0
+
+
+spr_eu_wooden_bridge 0 0 eu_wooden_bridge bo_eu_wooden_bridge 0
+
+
+spr_eu_long_fance 0 0 eu_long_fance bo_eu_long_fance 0
+
+
+spr_eu_vllage_chair 0 0 eu_vllage_chair bo_eu_vllage_chair 0
+
+
+spr_eu_bench 0 0 eu_bench bo_eu_bench 0
+
+
+spr_eu_cheval_de_frise_a 0 0 eu_cheval_de_frise_a bo_eu_cheval_de_frise_a 0
+
+
+spr_cannon_balls 0 0 cannon_balls bo_cannon_balls 0
+
+
+spr_bowl4 0 0 bowl4 0 0
+
+
+spr_saucepan 0 0 saucepan 0 0
+
+
+spr_mugful 0 0 mugful 0 0
+
+
+spr_eu_star_fort 0 0 eu_star_fort bo_eu_star_fort 0
+
+
+spr_eu_square_fort 0 0 eu_square_fort bo_eu_square_fort 0
+
+
+spr_eu_fort 0 0 eu_fort bo_eu_fort 0
+
+
+spr_ammo_wooden_box_small 0 0 ammo_wooden_box_small bo_ammo_wooden_box_small 0
+
+
+spr_turk_house 0 0 turk_house bo_turk_house 0
+
+
+spr_turk_mosque 0 0 turk_mosque bo_turk_mosque 0
+
+
+spr_turk_house1 0 0 turk_house1 bo_turk_house1 0
+
+
+spr_turk_house2 0 0 turk_house2 bo_turk_house2 0
+
+
+spr_turk_house3 0 0 turk_house3 bo_turk_house3 0
+
+
+spr_turk_house4 0 0 turk_house4 bo_turk_house4 0
+
+
+spr_longcase_clock 0 0 longcase_clock bo_longcase_clock 0
+
+
+spr_piano1 0 0 piano1 bo_piano1 0
+
+
+spr_candlestick_med 0 0 candlestick_med bo_candlestick_med 0
+
+
+spr_eu_bench5 0 0 eu_bench5 bo_eu_bench5 0
+
+
+spr_village_church1 0 0 village_church1 bo_village_church1 0
+
+
+spr_wooden_house 0 0 wooden_house bo_wooden_house 0
+
+
+spr_wooden_house1 0 0 wooden_house1 bo_wooden_house1 0
+
+
+spr_interior_Bar1 0 0 interior_Bar1 bo_interior_Bar1 0
+
+
+spr_interior_Bar2 0 0 interior_Bar2 bo_interior_Bar2 0
+
+
+spr_eu_bench_town 0 0 eu_bench_town bo_eu_bench_town 0
+
+
+spr_eu_painting5 0 0 eu_painting5 bo_eu_painting5 0
+
+
+spr_eu_table_round 0 0 eu_table_round bo_eu_table_round 0
+
+
+spr_wooden_house5 0 0 wooden_house5 bo_wooden_house5 0
+
+
+spr_wooden_house3 0 0 wooden_house3 bo_wooden_house3 0
+
+
+spr_wooden_house4 0 0 wooden_house4 bo_wooden_house4 0
+
+
+spr_office_chandelier_c 0 0 office_chandelier_c 0 0
+
+
+spr_office_chandelier 0 0 office_chandelier 0 0
+
+
+spr_eu_factory 0 0 eu_factory bo_eu_factory 0
+
+
+spr_eu_ground_heap 0 0 eu_ground_heap bo_eu_ground_heap 0
+
+
+spr_eu_ground_heap1 0 0 eu_ground_heap1 bo_eu_ground_heap1 0
+
+
+spr_eu_trench_sandbag1 0 0 eu_trench_sandbag1 bo_eu_trench_sandbag1 0
+
+
+spr_eu_trench_set4 0 0 eu_trench_set4 bo_eu_trench_set4 0
+
+
+spr_eu_trench_sandbag2 0 0 eu_trench_sandbag2 bo_eu_trench_sandbag2 0
+
+
+spr_eu_trench_box_set 0 0 eu_trench_box_set bo_eu_trench_box_set 0
+
+
+spr_eu_trench_set5 0 0 eu_trench_set5 bo_eu_trench_set5 0
+
+
+spr_road_city_bend 0 0 road_city_bend bo_road_city_bend 0
+
+
+spr_road_city_crossroad 0 0 road_city_crossroad bo_road_city_crossroad 0
+
+
+spr_road_city_junction_01 0 0 road_city_junction_01 bo_road_city_junction_01 0
+
+
+spr_road_city_junction_02 0 0 road_city_junction_02 bo_road_city_junction_02 0
+
+
+spr_road_city_pavement_bend 0 0 road_city_pavement_bend bo_road_city_pavement_bend 0
+
+
+spr_road_city_pavement_long 0 0 road_city_pavement_long bo_road_city_pavement_long 0
+
+
+spr_road_city_pavement_short 0 0 road_city_pavement_short bo_road_city_pavement_short 0
+
+
+spr_road_city_straight 0 0 road_city_straight bo_road_city_straight 0
+
+
+spr_stagecoach 0 0 stagecoach bo_stagecoach 0
+
+
+spr_eu_street_lamp 0 0 eu_street_lamp bo_eu_street_lamp 0
+
+
+spr_eu_telegraph_pole 0 0 eu_telegraph_pole bo_eu_telegraph_pole 0
+
+
+spr_eu_telegraph_pole_end 0 0 eu_telegraph_pole_end bo_eu_telegraph_pole_end 0
+
+
+spr_eu_wagon_01 0 0 eu_wagon_01 bo_eu_wagon_01 0
+
+
+spr_eu_ground 0 0 eu_ground bo_eu_ground 0
+
+
+spr_pr_fake_houses_a 0 0 pr_fake_houses_a bo_pr_fake_houses_a 0
+
+
+spr_pr_farm_house_a 0 0 pr_farm_house_a bo_pr_farm_house_a 0
+
+
+spr_pr_fountain 0 0 pr_fountain bo_pr_fountain 0
+
+
+spr_pr_house_lods_a 0 0 pr_house_lods_a bo_pr_house_lods_a 0
+
+
+spr_pr_house_passage_a 0 0 pr_house_passage_a bo_pr_house_passage_a 0
+
+
+spr_pr_it_cathedral 0 0 pr_it_cathedral bo_pr_it_cathedral 0
+
+
+spr_pr_it_cathedral_campanile 0 0 pr_it_cathedral_campanile bo_pr_it_cathedral_campanile 0
+
+
+spr_pr_it_house_a 0 0 pr_it_house_a bo_pr_it_house_a 0
+
+
+spr_pr_it_house_a_2 0 0 pr_it_house_a_2 bo_pr_it_house_a_2 0
+
+
+spr_pr_it_house_b 0 0 pr_it_house_b bo_pr_it_house_b 0
+
+
+spr_pr_it_house_b_2 0 0 pr_it_house_b_2 bo_pr_it_house_b_2 0
+
+
+spr_pr_it_house_c 0 0 pr_it_house_c bo_pr_it_house_c 0
+
+
+spr_pr_it_house_d 0 0 pr_it_house_d bo_pr_it_house_d 0
+
+
+spr_pr_it_house_e 0 0 pr_it_house_e bo_pr_it_house_e 0
+
+
+spr_pr_it_house_f_new 0 0 pr_it_house_f_new bo_pr_it_house_f_new 0
+
+
+spr_pr_it_house_g 0 0 pr_it_house_g bo_pr_it_house_g 0
+
+
+spr_pr_it_house_h 0 0 pr_it_house_h bo_pr_it_house_h 0
+
+
+spr_pr_it_house_h_2 0 0 pr_it_house_h_2 bo_pr_it_house_h_2 0
+
+
+spr_pr_it_house_i 0 0 pr_it_house_i bo_pr_it_house_i 0
+
+
+spr_pr_it_house_j 0 0 pr_it_house_j bo_pr_it_house_j 0
+
+
+spr_pr_it_house_k 0 0 pr_it_house_k bo_pr_it_house_k 0
+
+
+spr_pr_it_house_l 0 0 pr_it_house_l bo_pr_it_house_l 0
+
+
+spr_pr_it_house_m 0 0 pr_it_house_m bo_pr_it_house_m 0
+
+
+spr_pr_it_house_n_int 0 0 pr_it_house_n_int bo_pr_it_house_n_int 0
+
+
+spr_it_firenze 0 0 it_firenze bo_it_firenze 0
+
+
+spr_it_plaza_statue 0 0 it_plaza_statue bo_it_plaza_statue 0
+
+
+spr_mmtrenches1 0 0 mmtrenches1 bo_mmtrenches1 0
+
+
+spr_mmtrenches2 0 0 mmtrenches2 bo_mmtrenches2 0
+
+
+spr_mmtunnel1 0 0 mmtunnel1 bo_mmtunnel1 0
+
+
+spr_mmtunnel2 0 0 mmtunnel2 bo_mmtunnel2 0
+
+
+spr_mmredoubts2 0 0 mmredoubts2 bo_mmredoubts2 0
+
+
+spr_mmredoubts7 0 0 mmredoubts7 bo_mmredoubts7 0
+
+
+spr_mm_trench_bastion 0 0 mm_trench_bastion bo_mm_trench_bastion 0
+
+
+spr_mm_trench_corner 0 0 mm_trench_corner bo_mm_trench_corner 0
+
+
+spr_mm_trench_cross 0 0 mm_trench_cross bo_mm_trench_cross 0
+
+
+spr_mm_trench_cross2 0 0 mm_trench_cross2 bo_mm_trench_cross2 0
+
+
+spr_mm_trench_curve 0 0 mm_trench_curve bo_mm_trench_curve 0
+
+
+spr_mm_trench_entrance1 0 0 mm_trench_entrance1 bo_mm_trench_entrance1 0
+
+
+spr_mm_trench_entrance2 0 0 mm_trench_entrance2 bo_mm_trench_entrance2 0
+
+
+spr_mm_trench_straight 0 0 mm_trench_straight bo_mm_trench_straight 0
+
+
+spr_eu_bench50 0 0 eu_bench50 bo_eu_bench50 0
+
+
+spr_oim_col_nasyp 0 0 oim_col_nasyp bo_oim_col_nasyp 0
+
+
+spr_oim_col_nasyp_long 0 0 oim_col_nasyp_long bo_oim_col_nasyp_long 0
+
+
+spr_oim_col_nasyp_left 0 0 oim_col_nasyp_left bo_oim_col_nasyp_left 0
+
+
+spr_oim_col_nasyp_right 0 0 oim_col_nasyp_right bo_oim_col_nasyp_right 0
+
+
+spr_oim_col_nasyp_ugol 0 0 oim_col_nasyp_ugol bo_oim_col_nasyp_ugol 0
+
+
+spr_trinchera_mimbre_destruida 0 0 trinchera_mimbre_destruida bo_trinchera_mimbre_destruida 0
+
+
+spr_asedio_trinchera_mimbre 0 0 asedio_trinchera_mimbre bo_asedio_trinchera_mimbre 0
+
+
+spr_oim_tyn 0 0 oim_tyn bo_oim_tyn 0
+
+
+spr_oim_tyn_b 0 0 oim_tyn_b bo_oim_tyn_b 0
+
+
+spr_oim_redut 0 0 oim_redut bo_oim_redut 0
+
+
+spr_oim_redut_round 0 0 oim_redut_round bo_oim_redut_round 0
+
+
+spr_dsedio_trinchera_mimbre1 0 0 dsedio_trinchera_mimbre1 bo_dsedio_trinchera_mimbre1 0
+
+
+spr_dsedio_trinchera_mimbre2 0 0 dsedio_trinchera_mimbre2 bo_dsedio_trinchera_mimbre2 0
+
+
+spr_dsedio_trinchera_mimbre3 0 0 dsedio_trinchera_mimbre3 bo_dsedio_trinchera_mimbre3 0
+
+
+spr_dsedio_trinchera_mimbre4 0 0 dsedio_trinchera_mimbre4 bo_dsedio_trinchera_mimbre4 0
+
+
+spr_trinchera_mimbre 0 0 trinchera_mimbre bo_trinchera_mimbre 0
+
+
+spr_oim_nasyp_long 0 0 oim_nasyp_long bo_oim_nasyp_long 0
+
+
+spr_oim_nasyp 0 0 oim_nasyp bo_oim_nasyp 0
+
+
+spr_oim_nasyp_left 0 0 oim_nasyp_left bo_oim_nasyp_left 0
+
+
+spr_oim_nasyp_right 0 0 oim_nasyp_right bo_oim_nasyp_right 0
+
+
+spr_oim_nasyp_ugol 0 0 oim_nasyp_ugol bo_oim_nasyp_ugol 0
+
+
+spr_trench1 0 0 trench1 bo_trench1 0
+
+
+spr_trench2 0 0 trench2 bo_trench2 0
+
+
+spr_1_trench 0 0 1_trench bo_trench3 0
+
+
+spr_4_rhodok_town_house1 0 0 4_rhodok_town_house1 bo_rhodok_town_house1 0
+
+
+spr_4_rhodok_town_house2 0 0 4_rhodok_town_house2 bo_rhodok_town_house2 0
+
+
+spr_4_rhodok_town_house3 0 0 4_rhodok_town_house3 bo_rhodok_town_house3 0
+
+
+spr_4_rhodok_town_house4 0 0 4_rhodok_town_house4 bo_rhodok_town_house4 0
+
+
+spr_4_rhodok_town_house5 0 0 4_rhodok_town_house5 bo_rhodok_town_house5 0
+
+
+spr_4_rhodok_town_house6 0 0 4_rhodok_town_house6 bo_rhodok_town_house6 0
+
+
+spr_4_rhodok_town_house7 0 0 4_rhodok_town_house7 bo_rhodok_town_house7 0
+
+
+spr_4_rhodok_town_house8 0 0 4_rhodok_town_house8 bo_rhodok_town_house8 0
+
+
+spr_4_rhodok_town_house9 0 0 4_rhodok_town_house9 bo_rhodok_town_house9 0
+
+
+spr_4_rhodok_town_house10 0 0 4_rhodok_town_house10 bo_rhodok_town_house10 0
+
+
+spr_4_rhodok_town_house11 0 0 4_rhodok_town_house11 bo_rhodok_town_house11 0
+
+
+spr_4_rhodok_town_house12 0 0 4_rhodok_town_house12 bo_rhodok_town_house12 0
+
+
+spr_4_rhodok_town_house13 0 0 4_rhodok_town_house13 bo_rhodok_town_house13 0
+
+
+spr_4_rhodok_town_house14 0 0 4_rhodok_town_house14 bo_rhodok_town_house14 0
+
+
+spr_4_rhodok_town_house15 0 0 4_rhodok_town_house15 bo_rhodok_town_house15 0
+
+
+spr_4_rhodok_town_house16 0 0 4_rhodok_town_house16 bo_rhodok_town_house16 0
+
+
+spr_4_rhodok_town_house17 0 0 4_rhodok_town_house17 bo_rhodok_town_house17 0
+
+
+spr_4_rhodok_town_house18 0 0 4_rhodok_town_house18 bo_rhodok_town_house18 0
+
+
+spr_4_rhodok_town_house19 0 0 4_rhodok_town_house19 bo_rhodok_town_house19 0
+
+
+spr_4_rhodok_town_house20 0 0 4_rhodok_town_house20 bo_rhodok_town_house20 0
+
+
+spr_4_rhodok_town_house21 0 0 4_rhodok_town_house21 bo_rhodok_town_house21 0
+
+
+spr_4_rhodok_town_house22 0 0 4_rhodok_town_house22 bo_rhodok_town_house22 0
+
+
+spr_4_rhodok_town_house23 0 0 4_rhodok_town_house23 bo_rhodok_town_house23 0
+
+
+spr_4_rhodok_town_house24 0 0 4_rhodok_town_house24 bo_rhodok_town_house24 0
+
+
+spr_4_rhodok_town_house25 0 0 4_rhodok_town_house25 bo_rhodok_town_house25 0
+
+
+spr_4_rhodok_town_house26 0 0 4_rhodok_town_house26 bo_rhodok_town_house26 0
+
+
+spr_4_rhodok_town_house27 0 0 4_rhodok_town_house27 bo_rhodok_town_house27 0
+
+
+spr_4_rhodok_town_house28 0 0 4_rhodok_town_house28 bo_rhodok_town_house28 0
+
+
+spr_4_rhodok_town_house29 0 0 4_rhodok_town_house29 bo_rhodok_town_house29 0
+
+
+spr_4_rhodok_town_house30 0 0 4_rhodok_town_house30 bo_rhodok_town_house30 0
+
+
+spr_4_rhodok_town_house31 0 0 4_rhodok_town_house31 bo_rhodok_town_house31 0
+
+
+spr_4_rhodok_town_house32 0 0 4_rhodok_town_house32 bo_rhodok_town_house32 0
+
+
+spr_3_road_city_straight 0 0 road_city_straight bo_road_city_straight 0
+
+
+spr_3_road_city_crossroad 0 0 road_city_crossroad bo_road_city_crossroad 0
+
+
+spr_3_road_city_junction_01 0 0 road_city_junction_01 bo_road_city_junction_01 0
+
+
+spr_3_road_city_junction_02 0 0 road_city_junction_02 bo_road_city_junction_02 0
+
+
+spr_3_road_city_pavement_bend 0 0 road_city_pavement_bend bo_road_city_pavement_bend 0
+
+
+spr_3_road_city_pavement_long 0 0 road_city_pavement_long bo_road_city_pavement_long 0
+
+
+spr_3_road_city_pavement_short 0 0 road_city_pavement_short bo_road_city_pavement_short 0
+
+
+spr_3_road_city_pavement_square 0 0 road_city_pavement_square bo_road_city_pavement_square 0
+
+
+spr_most_k 0 0 most_k bo_road_most_k 0
+
+
+spr_fence1_end 0 0 fence1_end bo_fence1_end 0
+
+
+spr_picture1 0 0 picture1 picture1 0
+
+
+spr_picture2 0 0 picture2 picture2 0
+
+
+spr_picture3 0 0 picture3 picture3 0
+
+
+spr_picture4 0 0 picture4 picture4 0
+
+
+spr_picture5 0 0 picture5 picture5 0
+
+
+spr_picture6 0 0 picture6 picture6 0
+
+
+spr_picture7 0 0 picture7 picture7 0
+
+
+spr_crator_explosion 0 0 crator_explosion crator_explosion 0
+
+
+spr_crator_explosion_desert 0 0 crator_explosion_desert crator_explosion_desert 0
+
+
+spr_table1 0 0 table1 bo_table1 0
+
+
+spr_sandbags7 0 0 sandbags7 bo_sandbags7 0
+
+
+spr_sandbags6 0 0 sandbags6 bo_sandbags6 0
+
+
+spr_sandbags4 0 0 sandbags4 bo_sandbags4 0
+
+
+spr_sandbags5 0 0 sandbags5 bo_sandbags5 0
+
+
+spr_sandbags2 0 0 sandbags2 bo_sandbags2 0
+
+
+spr_sandbags3 0 0 sandbags3 bo_sandbags3 0
+
+
+spr_sandbags1 0 0 sandbags1 bo_sandbags1 0
+
+
+spr_sandbags4 0 0 sandbags4 bo_sandbags4 0
+
+
+spr_harvester1 0 0 harvester1 bo_harvester1 0
+
+
+spr_hay2 0 0 hay2 bo_hay2 0
+
+
+spr_hay1 0 0 hay1 bo_hay1 0
+
+
+spr_woodpile2 0 0 woodpile2 bo_woodpile2 0
+
+
+spr_woodpile1 0 0 woodpile1 bo_woodpile1 0
+
+
+spr_water_well1 0 0 water_well1 bo_water_well1 0
+
+
+spr_interior_dresser1 0 0 interior_dresser1 bo_interior_dresser1 0
+
+
+spr_interior_table1 0 0 interior_table1 bo_interior_table1 0
+
+
+spr_house_plant1 0 0 house_plant1 house_plant1 0
+
+
+spr_house_plant1b 0 0 house_plant1b house_plant1b 0
+
+
+spr_house_plant2 0 0 house_plant2 house_plant2 0
+
+
+spr_house_plant2b 0 0 house_plant2b house_plant2b 0
+
+
+spr_interior_sofa1 0 0 interior_sofa1 bo_interior_sofa1 0
+
+
+spr_interior_chair1 0 0 interior_chair1 bo_interior_chair1 0
+
+
+spr_por1 0 0 por1 0 0
+
+
+spr_por2 0 0 por2 0 0
+
+
+spr_por3 0 0 por3 0 0
+
+
+spr_por4 0 0 por4 0 0
+
+
+spr_por5 0 0 por5 0 0
+
+
+spr_por6 0 0 por6 0 0
+
+
+spr_por7 0 0 por7 0 0
+
+
+spr_por8 0 0 por8 0 0
+
+
+spr_por9 0 0 por9 0 0
+
+
+spr_por10 0 0 por10 0 0
+
+
+spr_por11 0 0 por11 0 0
+
+
+spr_por12 0 0 por12 0 0
+
+
+spr_por13 0 0 por13 0 0
+
+
+spr_por14 0 0 por14 0 0
+
+
+spr_por15 0 0 por15 0 0
+
+
+spr_por16 0 0 por16 0 0
+
+
+spr_por17 0 0 por17 0 0
+
+
+spr_por18 0 0 por18 0 0
+
+
+spr_por19 0 0 por19 0 0
+
+
+spr_por20 0 0 por20 0 0
+
+
+spr_por21 0 0 por21 0 0
+
+
+spr_por22 0 0 por22 0 0
+
+
+spr_por23 0 0 por23 0 0
+
+
+spr_por24 0 0 por24 0 0
+
+
+spr_por25 0 0 por25 0 0
+
+
+spr_por26 0 0 por26 0 0
+
+
+spr_por27 0 0 por27 0 0
+
+
+spr_por28 0 0 por28 0 0
+
+
+spr_por29 0 0 por29 0 0
+
+
+spr_por30 0 0 por30 0 0
+
+
+spr_por31 0 0 por31 0 0
+
+
+spr_por32 0 0 por32 0 0
+
+
+spr_Rus_Interier_Shtora_Red 0 0 Rus_Interier_Shtora_Red 0 0
+
+
+spr_Rus_Interier_Shtora_Blue 0 0 Rus_Interier_Shtora_Blue 0 0
+
+
+spr_Rus_Interier_Candelyabr_1 0 0 Rus_Interier_Candelyabr_1 0 0
+
+
+spr_Rus_Painting_LandScape 0 0 Rus_Painting_LandScape 0 0
+
+
+spr_Rus_Table_Group_A 0 0 Rus_Table_Group_A 0 0
+
+
+spr_Rus_Table_Group_D 0 0 Rus_Table_Group_D 0 0
+
+
+spr_Rus_Interier_Candelyabr_Wall 0 0 Rus_Interier_Candelyabr_Wall 0 0
+
+
+spr_Rus_Furniture_Chair_A 0 0 Rus_Furniture_Chair_A bo_Rus_Furniture_Chair_A 0
+
+
+spr_Rus_Furniture_Chair_D 0 0 Rus_Furniture_Chair_D bo_Rus_Furniture_Chair_D 0
+
+
+spr_Rus_Interier_Divan_B 0 0 Rus_Interier_Divan_B bo_Rus_Interier_Divan_B 0
+
+
+spr_Rus_Furniture_Table_F 0 0 Rus_Furniture_Table_F bo_Rus_Furniture_Table_F 0
+
+
+spr_Rus_Town_Lord_Interier_3 0 0 Rus_Town_Lord_Interier_3 bo_Rus_Town_Lord_Interier_3 0
+
+
+spr_Rus_Taverna_Interier_A 0 0 Rus_Taverna_Interier_A bo_Rus_Taverna_Interier_A 0
+
+
+spr_Rus_Town_Lord_Interier_8 0 0 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 0
+
+
+spr_Rus_Taverna_Interier_H 0 0 Rus_Taverna_Interier_H bo_Rus_Taverna_Interier_H 0
+
+
+spr_int_palmtree1 0 0 int_palmtree1 co_co_ash_big1 1
+-40.000000  2 2071 1 1224979098644774912 2133 2 72057594037927936 1224979098644774912 
+
+
+spr_int_ash_cluster1 0 0 int_ash_cluster1 co_ash_big1 1
+-40.000000  2 2071 1 1224979098644774912 2133 2 72057594037927936 1224979098644774912 
+
+
+spr_int_ash1 0 0 int_ash1 co_ash_big1 1
+-40.000000  2 2071 1 1224979098644774912 2133 2 72057594037927936 1224979098644774912 
+
+
+spr_int_ash2 0 0 int_ash2 co_ash_big1 1
+-40.000000  2 2071 1 1224979098644774912 2133 2 72057594037927936 1224979098644774912 
+
+
+spr_int_oak1 0 0 int_oak1 co_ash_big1 1
+-40.000000  2 2071 1 1224979098644774912 2133 2 72057594037927936 1224979098644774912 
+
+
+spr_int_maple1 0 0 int_maple1 co_ash_big1 1
+-40.000000  2 2071 1 1224979098644774912 2133 2 72057594037927936 1224979098644774912 
+
+
+spr_wheat_big2 0 0 wheat_big2 0 1
+-40.000000  2 2071 1 1224979098644774912 2133 2 72057594037927936 1224979098644774912 
+
+
+spr_int_poppy1 0 0 int_poppy1 0 1
+-40.000000  2 2071 1 1224979098644774912 2133 2 72057594037927936 1224979098644774912 
+
+
+spr_int_bushpersicum1 65536 0 int_bushpersicum1 0 1
+-40.000000  2 2071 1 1224979098644774912 2133 2 72057594037927936 1224979098644774912 
+
+
+spr_persianwall 0 0 persianwall bo_persianwall 0
+
+
+spr_persianwall1 0 0 persianwall1 bo_persianwall1 0
+
+
+spr_persiangate 0 0 persiangate bo_persiangate 0
+
+
+spr_persianwal 0 0 persianwal bo_persianwal 0
+
+
+spr_swamp_water 0 0 swamp_water 0 0
+
+
+spr_hagia_sophia 0 0 hagia_sophia bo_hagia_sophia 0
+
+
+spr_ttr_big_mechet 0 0 ttr_big_mechet bo_ttr_big_mechet 0
+
+
+spr_ttr_dom_c 0 0 ttr_dom_c bo_ttr_dom_c 0
+
+
+spr_Rus_Tent_Oficer 0 0 Rus_Tent_Oficer bo_Rus_Tent_Oficer 0
+
+
+spr_Rus_Kareta 0 0 Rus_Kareta bo_Rus_Kareta 0
+
+
+spr_Edinorog 0 0 Edinorog bo_Edinorog 0
+
+
+spr_ttr_palac 0 0 ttr_palac bo_ttr_palac 0
+
+
+spr_ttr_mechet_a 0 0 ttr_mechet_a bo_ttr_mechet_a 0
+
+
+spr_oim_tatar_gate_house 0 0 oim_tatar_gate_house bo_oim_tatar_gate_house 0
+
+
+spr_oim_tatar_round_tower 0 0 oim_tatar_round_tower bo_oim_tatar_round_tower 0
+
+
+spr_oim_tatar_corner_tower 0 0 oim_tatar_corner_tower bo_oim_tatar_corner_tower 0
+
+
+spr_oim_tatar_battlement 0 0 oim_tatar_battlement bo_oim_tatar_battlement 0
+
+
+spr_oim_tatar_battlement_blasted 0 0 oim_tatar_battlement_blasted bo_oim_tatar_battlement_blasted 0
+
+
+spr_oim_tatar_battlement_destroyed 0 0 oim_tatar_battlement_destroyed bo_oim_tatar_battlement_destroyed 0
+
+
+spr_oim_tatar_battlement_half 0 0 oim_tatar_battlement_half bo_oim_tatar_battlement_half 0
+
+
+spr_oim_tatar_battlement_stairs 0 0 oim_tatar_battlement_stairs bo_oim_tatar_battlement_stairs 0
+
+
+spr_woz_b 0 0 woz_b bo_woz_b 0
+
+
+spr_voz_tactic 0 0 voz_tactic bo_voz_tactic 0
+
+
+spr_tehrangate 0 0 tehrangate bo_tehrangate 0
+
+
+spr_tzar_palata_krasniy_ugol 0 0 tzar_palata_krasniy_ugol tzar_palata_krasniy_ugol 0
+
+
+spr_statue_man_stone 0 0 statue_man_stone statue_man_stone 0
+
+
+spr_statue_pedastal_medium 0 0 statue_pedastal_medium bo_statue_pedastal_medium 0
+
+
+spr_statue_pedastal_small 0 0 statue_pedastal_small bo_statue_pedastal_small 0
+
+
+spr_alvion_memorial 0 0 alvion_memorial bo_alvion_memorial 0
+
+
+spr_statue_stand 0 0 statue_stand bo_statue_stand 0
+
+
+spr_statue_cast_gen 0 0 statue_cast_gen statue_cast_gen 0
+
+
+spr_statue_horse_hero 0 0 statue_horse_hero statue_horse_hero 0
+
+
+spr_statue_6 0 0 statue_6 statue_6 0
+
+
+spr_persianbench 0 0 persianbench bo_persianbench 0
+
+
+spr_persian_house1 0 0 persian_house1 bo_persian_house1 0
+
+
+spr_persian_abanbar 0 0 persian_abanbar bo_persian_abanbar 0
+
+
+spr_cyrus_tomb 0 0 cyrus_tomb bo_cyrus_tomb 0
+
+
+spr_persian_bazaar 0 0 persian_bazaar bo_persian_bazaar 0
+
+
+spr_pyramid1 0 0 pyramid1 bo_pyramid1 0
+
+
+spr_Rus_Church_Kolokolnya_A 0 0 Rus_Church_Kolokolnya_A bo_Rus_Church_Kolokolnya_A 0
+
+
+spr_Rus_Church_Kolokolnya_B 0 0 Rus_Church_Kolokolnya_B bo_Rus_Church_Kolokolnya_B 0
+
+
+spr_Rus_Church_Kolokolnya_C 0 0 Rus_Church_Kolokolnya_C bo_Rus_Church_Kolokolnya_C 0
+
+
+spr_Rus_Church_Kolokolnya_D 0 0 Rus_Church_Kolokolnya_D bo_Rus_Church_Kolokolnya_D 0
+
+
+spr_Rus_City_House_A_A 0 0 Rus_City_House_A_A bo_Rus_City_House_A_A 0
+
+
+spr_Rus_City_House_A 0 0 Rus_City_House_A bo_Rus_City_House_A 0
+
+
+spr_Rus_City_House_B 0 0 Rus_City_House_B bo_Rus_City_House_B 0
+
+
+spr_Rus_City_House_B_B 0 0 Rus_City_House_B_B bo_Rus_City_House_B_B 0
+
+
+spr_Rus_City_House_B_1 0 0 Rus_City_House_B_1 bo_Rus_City_House_B_1 0
+
+
+spr_Rus_City_House_C 0 0 Rus_City_House_C bo_Rus_City_House_C 0
+
+
+spr_Rus_City_House_C_C 0 0 Rus_City_House_C_C bo_Rus_City_House_C_C 0
+
+
+spr_Rus_City_House_C_1 0 0 Rus_City_House_C_1 bo_Rus_City_House_C_1 0
+
+
+spr_Rus_City_House_C_Portik 0 0 Rus_City_House_C_Portik bo_Rus_City_House_C_Portik 0
+
+
+spr_Rus_City_House_C_Portik_1 0 0 Rus_City_House_C_Portik_1 bo_Rus_City_House_C_Portik_1 0
+
+
+spr_Rus_City_House_D 0 0 Rus_City_House_D bo_Rus_Rus_City_House_D 0
+
+
+spr_Rus_City_House_D_D 0 0 Rus_City_House_D_D bo_Rus_City_House_D_D 0
+
+
+spr_Rus_City_House_D_1 0 0 Rus_City_House_D_1 bo_Rus_City_House_D_1 0
+
+
+spr_Rus_City_House_E 0 0 Rus_City_House_E bo_Rus_City_House_E 0
+
+
+spr_Rus_City_House_E_1 0 0 Rus_City_House_E_1 bo_Rus_City_House_E_1 0
+
+
+spr_Rus_City_House_E_Portik 0 0 Rus_City_House_E_Portik bo_Rus_City_House_E_Portik 0
+
+
+spr_Rus_City_House_F 0 0 Rus_City_House_F bo_Rus_City_House_F 0
+
+
+spr_Rus_City_House_F_1 0 0 Rus_City_House_F_1 bo_Rus_City_House_F_1 0
+
+
+spr_Rus_City_House_Gate 0 0 Rus_City_House_Gate bo_Rus_City_House_Gate 0
+
+
+spr_Rus_City_House_Gate_1 0 0 Rus_City_House_Gate_1 bo_Rus_City_House_Gate_1 0
+
+
+spr_Rus_City_House_Gate_A 0 0 Rus_City_House_Gate_A bo_Rus_City_House_Gate_A 0
+
+
+spr_Rus_City_House_Gate_A_1 0 0 Rus_City_House_Gate_A_1 bo_Rus_City_House_Gate_A_1 0
+
+
+spr_Rus_City_House_Corner 0 0 Rus_City_House_Corner bo_Rus_City_House_Corner 0
+
+
+spr_Rus_City_House_Corner_A 0 0 Rus_City_House_Corner_A bo_Rus_City_House_Corner_A 0
+
+
+spr_Rus_Kazarma_Empty_Small 0 0 Rus_Kazarma_Empty_Small bo_Rus_Kazarma_Empty_Small 0
+
+
+spr_Rus_Kazarma_Empty_Big_A 0 0 Rus_Kazarma_Empty_Big_A bo_Rus_Kazarma_Empty_Big_A 0
+
+
+spr_Rus_Kazarma_Empty_Big_2_Floor_A 0 0 Rus_Kazarma_Empty_Big_2_Floor_A bo_Rus_Kazarma_Empty_Big_2_Floor_A 0
+
+
+spr_Rus_Kazarma_A 0 0 Rus_Kazarma_A bo_Rus_Kazarma_A 0
+
+
+spr_Rus_Kazarma_B 0 0 Rus_Kazarma_B bo_Rus_Kazarma_B 0
+
+
+spr_Rus_Kazarma_J 0 0 Rus_Kazarma_J bo_Rus_Kazarma_J 0
+
+
+spr_Rus_Kazarma_Small 0 0 Rus_Kazarma_Small bo_Rus_Kazarma_Small 0
+
+
+spr_Rus_City_House_Gate_C 0 0 Rus_City_House_Gate_C bo_Rus_City_House_Gate_C 0
+
+
+spr_Rus_City_House_Gate_C_1 0 0 Rus_City_House_Gate_C_1 bo_Rus_City_House_Gate_C_1 0
+
+
+spr_Rus_Stone_Gate_C 0 0 Rus_Stone_Gate_C bo_Rus_Stone_Gate_C 0
+
+
+spr_Rus_Stone_Gate_Full_A 0 0 Rus_Stone_Gate_Full_A bo_Rus_Stone_Gate_C 0
+
+
+spr_Rus_Stone_Gate_Full_A_1 0 0 Rus_Stone_Gate_Full_A_1 bo_Rus_Stone_Gate_Full_A_1 0
+
+
+spr_Rus_Stone_Gate_Full_B 0 0 Rus_Stone_Gate_Full_B bo_Rus_Stone_Gate_Full_B 0
+
+
+spr_Rus_Stone_Gate_Full_B_1 0 0 Rus_Stone_Gate_Full_B_1 bo_Rus_Stone_Gate_Full_B_1 0
+
+
+spr_Rus_Stone_Zabor_E_Long 0 0 Rus_Stone_Zabor_E_Long bo_Rus_Stone_Zabor_E_Long 0
+
+
+spr_Rus_Stone_Zabor_F 0 0 Rus_Stone_Zabor_F bo_Rus_Stone_Zabor_F 0
+
+
+spr_Rus_Stone_Zabor_C 0 0 Rus_Stone_Zabor_C bo_Rus_Stone_Zabor_C 0
+
+
+spr_Rus_Stone_Zabor_C_Long 0 0 Rus_Stone_Zabor_C_Long bo_Rus_Stone_Zabor_C_Long 0
+
+
+spr_Rus_Stone_Zabor_C_1 0 0 Rus_Stone_Zabor_C_1 bo_Rus_Stone_Zabor_C_1 0
+
+
+spr_Rus_Traderows_flour_C 0 0 Rus_Traderows_flour_C bo_Rus_Traderows_flour_C 0
+
+
+spr_Rus_Wooden_Bridge_Small 0 0 Rus_Wooden_Bridge_Small bo_Rus_Wooden_Bridge_Small 0
+
+
+spr_Rus_Wooden_Bridge_Medium_A 0 0 Rus_Wooden_Bridge_Medium_A bo_Rus_Wooden_Bridge_Medium_A 0
+
+
+spr_Rus_church 0 0 Rus_church bo_Rus_church 0
+
+
+spr_Rus_church1 0 0 Rus_church1 bo_Rus_church1 0
+
+
+spr_eu_arch 0 0 eu_arch bo_eu_arch 0
+
+
+spr_eu_townhall5 0 0 eu_townhall5 bo_eu_townhall5 0
+
+
+spr_eu_arch_2 0 0 eu_arch_2 bo_eu_arch_2 0
+
+
+spr_eu_bridge_large 0 0 eu_bridge_large bo_eu_bridge_large 0
+
+
+spr_khiva_minaret 0 0 khiva_minaret bo_khiva_minaret 0
+
+
+spr_khiva_registan_wall_b 0 0 khiva_registan_wall_b bo_khiva_registan_wall_b 0
+
+
+spr_khiva_registran 0 0 khiva_registran bo_khiva_registran 0
+
+
+spr_khiva_registran2 0 0 khiva_registran2 bo_khiva_registran2 0
+
+
+spr_khiva_registran_wall 0 0 khiva_registran_wall bo_khiva_registran_wall 0
+
+
+spr_khiva_tower 0 0 khiva_tower bo_khiva_tower 0
+
+
+spr_Rus_palace 0 0 Rus_palace bo_Rus_palace 0
+
+
+spr_k_gokyurt 0 0 k_gokyurt bo_k_gokyurt 0
+
+
+spr_k_kizilyurt 0 0 k_kizilyurt bo_k_kizilyurt 0
+
+
+spr_k_akyurt 0 0 k_akyurt bo_k_akyurt 0
+
+
+spr_k_akyurt2 0 0 k_akyurt2 bo_k_akyurt2 0
+
+
+spr_k_susluyurt 0 0 k_susluyurt bo_k_susluyurt 0
+
+
+spr_k_kocayurt 0 0 k_kocayurt bo_k_kocayurt 0
+
+
+spr_k_yurt 0 0 k_yurt bo_k_yurt 0
+
+
+spr_k_basityurt 0 0 k_basityurt bo_k_basityurt 0
+
+
+spr_persian_fort 0 0 persian_fort bo_persian_fort 0
+
+
+spr_bigben 0 0 bigben bigben 0
+
+
+spr_persian_carvanseray 0 0 persian_carvanseray persian_carvanseray 0
+
+
+spr_eu_hospital1 0 0 eu_hospital1 bo_eu_hospital1 0
+
+
+spr_eu_palace2 0 0 eu_palace2 bo_eu_palace2 0
+
+
+spr_persian_taq 0 0 persian_taq bo_persian_taq 0
 
 
