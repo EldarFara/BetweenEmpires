@@ -3683,3 +3683,5 @@ trp_european_outlaw_urban1 = 3681
 trp_european_outlaw_urban2 = 3682
 trp_european_outlaw_urban3 = 3683
 trp_european_outlaw_urban4 = 3684
+trp_faction1_cannoneer_officer = 3685
+trp_faction1_cannoneer = 3686

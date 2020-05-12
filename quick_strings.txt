@@ -1,4 +1,4 @@
-831
+837
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
 qstr_Game_Rules:^ Game_Rules:^
@@ -85,6 +85,8 @@ qstr_6th 6th
 qstr_7th 7th
 qstr_8th 8th
 qstr_Disabled____________ Disabled____________________
+qstr_Howitzers_Battery___ Howitzers_Battery____
+qstr_Field_Guns_Battery__ Field_Guns_Battery___
 qstr_Guards_Cavalry_Compa Guards_Cavalry_Company___
 qstr_Mounted_Rifles_Compa Mounted_Rifles_Company___
 qstr_Melee_Cavalry_Compan Melee_Cavalry_Company___
@@ -447,6 +449,8 @@ qstr_Guard_Infantry_Compan Guard_Infantry_Company
 qstr_Cavalry_Squadron Cavalry_Squadron
 qstr_Mounted_Rifles_Squad Mounted_Rifles_Squadron
 qstr_Cavalry_Guard_Squadr Cavalry_Guard_Squadron
+qstr_Field_Guns_Battery Field_Guns_Battery
+qstr_Howitzers_Battery Howitzers_Battery
 qstr_Empty Empty
 qstr__I. _I.
 qstr_L.I. L.I.
@@ -454,6 +458,8 @@ qstr__G. _G.
 qstr_M.C. M.C.
 qstr_M.R. M.R.
 qstr_C.G. C.G.
+qstr_F.G.B. F.G.B.
+qstr_H.B. H.B.
 qstr_Cannot_form_square:_t Cannot_form_square:_too_few_soldiers_(need_at_least_25).
 qstr_{s1} {s1}
 qstr_day day

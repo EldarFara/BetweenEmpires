@@ -1,5 +1,5 @@
 stringsfile version 1
-3496
+3497
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -3496,3 +3496,4 @@ str_explanation_firearms Covers_usage_of_pistols_and_muskets.
 str_skills_info Current:_{reg36}^Base_Attribute:_{s10}
 str_troop_basic_info Level:_{reg45}^Health:_{reg46}^Experience:_{reg47}^Next_Level_at:e{reg48}
 str_end End
+str_ground_desert ground_desert

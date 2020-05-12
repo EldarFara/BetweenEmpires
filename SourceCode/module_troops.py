@@ -11295,6 +11295,14 @@ troops = [
   []+items_european_urban_clothing_male+items_melee_civilian_rural+items_bandit_rifles,
   str_7|agi_5|int_4|cha_4|level(12), wp(130), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x0000000fff0052064deeffffffffffff00000000001efff90000000000000000],
 
+["faction1_cannoneer_officer", "Officer", "Officers", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_28,
+[itm_ria_infantry_trousers2, itm_ria_infantry1, itm_ria_infantry2, itm_ria_infantry3, itm_ria_hat1],
+str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+["faction1_cannoneer", "Cannoneer", "Cannoneer", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_28,
+[itm_ria_infantry_trousers2, itm_ria_infantry1, itm_ria_infantry2, itm_ria_infantry3, itm_ria_hat1],
+str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+
+  
 ]
 
 

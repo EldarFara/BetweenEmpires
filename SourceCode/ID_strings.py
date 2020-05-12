@@ -3494,5 +3494,6 @@ str_explanation_firearms = 3492
 str_skills_info = 3493
 str_troop_basic_info = 3494
 str_end = 3495
+str_ground_desert = 3496
 
 

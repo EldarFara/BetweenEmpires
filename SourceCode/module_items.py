@@ -1818,6 +1818,13 @@ items = [
 ["srb_general_torso","Serbian General Torso", [("srb_general_torso", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, [],[fac_kingdom_28]],
 ["srb_general_trousers","Serbian General Trousers", [("srb_general_trousers", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(5), imodbits_none, [],[fac_kingdom_28]],
 
+["sidearm_lefaucheux","lefaucheux", [("lefaucheux", 0),("pistol_holster1b", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,400, weight(1.3)|abundance(100)|accuracy(accuracy_medium_pistol)|spd_rtng(50)|shoot_speed(210)|max_ammo(6)|thrust_damage(48, pierce), imodbits_firearm, []],
+["sidearm_reichsrevolver1879","reichsrevolver1879", [("reichsrevolver1879", 0),("pistol_holster1b", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,400, weight(1.3)|abundance(100)|accuracy(accuracy_medium_pistol)|spd_rtng(50)|shoot_speed(210)|max_ammo(6)|thrust_damage(48, pierce), imodbits_firearm, []],
+["sidearm_mas1873","mas1873", [("mas1873", 0),("pistol_holster1b", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,400, weight(1.3)|abundance(100)|accuracy(accuracy_medium_pistol)|spd_rtng(50)|shoot_speed(210)|max_ammo(6)|thrust_damage(48, pierce), imodbits_firearm, []],
+
+["YuriCannonballCartridge", "YuriCannonballCartridge", [("YuriCannonballCartridge",0)], itp_type_one_handed_wpn|itp_primary|itp_penalty_with_shield|itp_wooden_parry|itp_wooden_attack|itp_force_attach_left_hand, itc_scimitar, 0 , weight(4.5)|difficulty(0)|spd_rtng(50) | weapon_length(40)|swing_damage(0 , cut) | thrust_damage(20 ,  pierce),imodbits_polearm ],
+["YuriGrapeshotCartridge", "YuriGrapeshotCartridge", [("YuriGrapeshotCartridge",0)], itp_type_one_handed_wpn|itp_primary|itp_penalty_with_shield|itp_wooden_parry|itp_wooden_attack|itp_force_attach_left_hand, itc_scimitar, 0 , weight(4.5)|difficulty(0)|spd_rtng(50) | weapon_length(40)|swing_damage(0 , cut) | thrust_damage(20 ,  pierce),imodbits_polearm ],
+
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 
 ]

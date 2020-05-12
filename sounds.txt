@@ -1,5 +1,5 @@
 soundsfile version 3
-1024
+1097
  drum_3.ogg 769
  tutorial_1.ogg 1793
  tutorial_2.ogg 1793
@@ -1024,7 +1024,80 @@ soundsfile version 3
  manhit_FP22.wav 2416
  manhit_FP23.wav 2416
  manhit_FP24.wav 2416
-241
+ Yuri_CannonCarriageMoving1.wav 1074
+ Yuri_CannonRamrod1_1.wav 560
+ Yuri_CannonRamrod1_2.wav 560
+ Yuri_CannonRamrod1_3.wav 560
+ Yuri_CannonballInsert1_1.wav 560
+ Yuri_CannonballInsert1_2.wav 560
+ Yuri_CannonballInsert1_3.wav 560
+ Yuri_CannonFuseIgnite1_1.wav 1104
+ Yuri_CannonFuseIgnite1_2.wav 1104
+ Yuri_CannonFuseIgnite1_3.wav 1104
+ Yuri_CannonFuseIgnite1_4.wav 1104
+ Yuri_Cannon_Fire1_01.wav 4080
+ Yuri_Cannon_Fire1_02.wav 4080
+ Yuri_Cannon_Fire1_03.wav 4080
+ Yuri_Cannon_Fire1_04.wav 4080
+ Yuri_Cannon_Fire1_05.wav 4080
+ Yuri_Cannon_Fire1_06.wav 4080
+ Yuri_Cannon_Fire1_07.wav 4080
+ Yuri_Cannon_Fire1_08.wav 4080
+ Yuri_Cannon_Fire1_09.wav 4080
+ Yuri_Cannon_Fire1_10.wav 4080
+ Yuri_Cannon_Fire1_11.wav 4080
+ Yuri_Cannon_Fire1_12.wav 4080
+ Yuri_Cannon_Fire1_13.wav 4080
+ Yuri_Cannon_Fire1_14.wav 4080
+ Yuri_Cannon_Fire1_15.wav 4080
+ Yuri_Cannon_Fire1_16.wav 4080
+ Yuri_Cannon_Fire1_17.wav 4080
+ Yuri_Cannon_Fire1_18.wav 4080
+ Yuri_CannonballHit_Man01.wav 2640
+ Yuri_CannonballHit_Man02.wav 2640
+ Yuri_CannonballHit_Man03.wav 2640
+ Yuri_CannonballHit_Man04.wav 2640
+ Yuri_CannonballHit_Man05.wav 2640
+ Yuri_CannonballHit_Man06.wav 2640
+ Yuri_CannonballHit_Man07.wav 2640
+ Yuri_CannonballHit_Ground01.wav 2640
+ Yuri_CannonballHit_Ground02.wav 2640
+ Yuri_CannonballHit_Ground03.wav 2640
+ Yuri_CannonballHit_Ground04.wav 2640
+ Yuri_CannonballHit_Ground05.wav 2640
+ Yuri_CannonballHit_Ground06.wav 2640
+ Yuri_CannonballHit_Ground07.wav 2640
+ Yuri_CannonballHit_Ground08.wav 2640
+ Yuri_CannonballHit_Ground09.wav 2640
+ Yuri_CannonballHit_Ground10.wav 2640
+ Yuri_CannonballHit_Ground11.wav 2640
+ Yuri_CannonballHit_Ground12.wav 2640
+ Yuri_CannonballHit_Ground13.wav 2640
+ Yuri_CannonballHit_Ground14.wav 2640
+ Yuri_CannonballHit_Ground15.wav 2640
+ Yuri_CannonballHit_Ground16.wav 2640
+ Yuri_CannonballHit_Ground17.wav 2640
+ Yuri_CannonballHit_Ground18.wav 2640
+ Yuri_Cannon_Fire_Far01.wav 1265
+ Yuri_Cannon_Fire_Far02.wav 1265
+ Yuri_Cannon_Fire_Far03.wav 1265
+ Yuri_Cannon_Fire_Far04.wav 1265
+ Yuri_Incoming_Projectile1_01.wav 4032
+ Yuri_Incoming_Projectile1_02.wav 4032
+ Yuri_Incoming_Projectile1_03.wav 4032
+ Yuri_Incoming_Projectile1_04.wav 4032
+ Yuri_Incoming_Projectile1_05.wav 4032
+ Yuri_Incoming_Projectile1_06.wav 4032
+ Yuri_Incoming_Projectile1_07.wav 4032
+ Yuri_Incoming_Projectile1_08.wav 4032
+ Yuri_Incoming_Projectile1_09.wav 4032
+ Yuri_Incoming_Projectile1_10.wav 4032
+ Yuri_Incoming_Projectile1_11.wav 4032
+ Yuri_Incoming_Projectile1_12.wav 4032
+ Yuri_Incoming_Projectile1_13.wav 4032
+ Yuri_Incoming_Projectile1_14.wav 4032
+ Yuri_Incoming_Projectile1_15.wav 4032
+250
 snd_click 769 1 0 0 
 snd_tutorial_1 1793 1 1 0 
 snd_tutorial_2 1793 1 2 0 
@@ -1266,3 +1339,12 @@ snd_man_hit1 2928 24 927 0 928 0 929 0 930 0 931 0 932 0 933 0 934 0 935 0 936 0
 snd_man_hit2 2928 25 950 0 951 0 952 0 953 0 954 0 955 0 956 0 957 0 958 0 959 0 960 0 961 0 962 0 963 0 964 0 965 0 966 0 967 0 968 0 969 0 970 0 971 0 972 0 973 0 974 0 
 snd_man_hit3 2928 25 975 0 976 0 977 0 978 0 979 0 980 0 981 0 982 0 983 0 984 0 985 0 986 0 987 0 988 0 989 0 990 0 991 0 992 0 993 0 994 0 995 0 996 0 997 0 998 0 999 0 
 snd_man_hit_FP 2416 24 1000 0 1001 0 1002 0 1003 0 1004 0 1005 0 1006 0 1007 0 1008 0 1009 0 1010 0 1011 0 1012 0 1013 0 1014 0 1015 0 1016 0 1017 0 1018 0 1019 0 1020 0 1021 0 1022 0 1023 0 
+snd_Yuri_CannonCarriageMoving1 1074 1 1024 0 
+snd_Yuri_CannonRamrod1 560 3 1025 0 1026 0 1027 0 
+snd_Yuri_CannonballInsert1 560 3 1028 0 1029 0 1030 0 
+snd_Yuri_CannonFuseIgnite1 1104 4 1031 0 1032 0 1033 0 1034 0 
+snd_Yuri_Cannon_Fire1 4080 18 1035 0 1036 0 1037 0 1038 0 1039 0 1040 0 1041 0 1042 0 1043 0 1044 0 1045 0 1046 0 1047 0 1048 0 1049 0 1050 0 1051 0 1052 0 
+snd_Yuri_CannonballHit_Man 2640 7 1053 0 1054 0 1055 0 1056 0 1057 0 1058 0 1059 0 
+snd_Yuri_CannonballHit_Ground 2640 18 1060 0 1061 0 1062 0 1063 0 1064 0 1065 0 1066 0 1067 0 1068 0 1069 0 1070 0 1071 0 1072 0 1073 0 1074 0 1075 0 1076 0 1077 0 
+snd_Yuri_Cannon_Fire_Far1 1265 4 1078 0 1079 0 1080 0 1081 0 
+snd_Yuri_Incoming_Projectile1 4032 15 1082 0 1083 0 1084 0 1085 0 1086 0 1087 0 1088 0 1089 0 1090 0 1091 0 1092 0 1093 0 1094 0 1095 0 1096 0 

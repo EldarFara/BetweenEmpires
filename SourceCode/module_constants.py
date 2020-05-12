@@ -8,6 +8,88 @@ from ID_factions import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+cannon_he_type_early = 0
+cannon_he_type_late  = 1
+
+cannon_projectile_type_cannonball   = 0
+cannon_projectile_type_early_shell  = 1
+cannon_projectile_type_late_shell   = 2
+
+cannon_rifling_type_notrifled = 0
+cannon_rifling_type_rifled    = 1
+
+explosion_type_medium = 1
+explosion_type_big    = 2
+
+YuriCannonCartridgeType_Cannonball = 1
+YuriCannonCartridgeType_Grapeshot = 2
+
+YuriCannonMode_Initial = 1
+YuriCannonMode_Moving_Initial = 2
+YuriCannonMode_Moving_CannoneersWalkingToPositions = 3
+YuriCannonMode_Moving_Pulling = 4
+YuriCannonMode_Reloading_Initial = 5
+YuriCannonMode_Reloading_BarrelCleaning = 6
+YuriCannonMode_Reloading_BarrelWetting = 7
+YuriCannonMode_Reloading_LoadingCartridge = 8
+YuriCannonMode_Reloading_PushingCartridge = 9
+YuriCannonMode_Firing_Initial = 10
+YuriCannonMode_Firing_Aiming = 11
+YuriCannonMode_Firing_PreparingToFire = 12
+YuriCannonMode_Firing_Lighting = 13
+YuriCannonMode_Firing_Shot = 14
+YuriCannonMode_Firing_PreparingToPullBack = 15
+YuriCannonMode_Firing_PullingBack = 16
+
+ImpaledLanceMode_HasImpaledEnemy = 1
+ImpaledLanceMode_IsImpaled = 2
+
+ImpaledLanceDamage = 150
+
+YuriCannonMode_InterrruptedReloading_Initial = YuriCannonMode_Reloading_Initial + 100
+YuriCannonMode_InterrruptedReloading_LoadCartridge = YuriCannonMode_Reloading_LoadingCartridge + 100
+YuriCannonMode_InterrruptedReloading_LoadCartridge_Moving = YuriCannonMode_Reloading_LoadingCartridge + 200
+
+YuriSlotAgent_Cannoneer1 = 35
+YuriSlotAgent_Cannoneer2 = 36
+YuriSlotAgent_Cannoneer3 = 37
+YuriSlotAgent_CannonProp = 38
+YuriSlotAgent_ImpaledLanceMode = 39
+YuriSlotAgent_ImpaledLanceEnemy = 40
+YuriSlotAgent_ImpaledLanceTimer = 41
+
+YuriSlotTeam_CannonsAmount = 1
+
+YuriSlotProp_Cannoneer1 = 150
+YuriSlotProp_Cannoneer2 = YuriSlotProp_Cannoneer1 + 1
+YuriSlotProp_Cannoneer3 = YuriSlotProp_Cannoneer1 + 2
+YuriSlotProp_CannoneerOfficer = YuriSlotProp_Cannoneer1 + 3
+YuriSlotProp_CannonWheels = YuriSlotProp_Cannoneer1 + 4
+YuriSlotProp_CannonBarrel = YuriSlotProp_Cannoneer1 + 5
+YuriSlotProp_CannonRope1 = YuriSlotProp_Cannoneer1 + 6
+YuriSlotProp_CannonRope2 = YuriSlotProp_Cannoneer1 + 7
+YuriSlotProp_CannonMode = YuriSlotProp_Cannoneer1 + 8
+YuriSlotProp_CannonWheels_RotationX = YuriSlotProp_Cannoneer1 + 9
+YuriSlotProp_CannonTimer = YuriSlotProp_Cannoneer1 + 10
+YuriSlotProp_CannonRamrod1 = YuriSlotProp_Cannoneer1 + 11
+YuriSlotProp_CannonRamrod2 = YuriSlotProp_Cannoneer1 + 12
+YuriSlotProp_CannonBarrel_RotationX = YuriSlotProp_Cannoneer1 + 13
+YuriSlotProp_CannonBarrel_RotationZ = YuriSlotProp_Cannoneer1 + 14
+YuriSlotProp_CannonLastReloadingPhase = YuriSlotProp_Cannoneer1 + 15
+YuriSlotProp_CannonCannonball = YuriSlotProp_Cannoneer1 + 16
+YuriSlotProp_CannonballIsFlying = YuriSlotProp_Cannoneer1 + 17
+YuriSlotProp_CannonballAngleZ = YuriSlotProp_Cannoneer1 + 18
+YuriSlotProp_CannonballAngleAlpha = YuriSlotProp_Cannoneer1 + 19
+YuriSlotProp_CannonballMuzzleVelocity = YuriSlotProp_Cannoneer1 + 20
+YuriSlotProp_CannonballFlyingTime = YuriSlotProp_Cannoneer1 + 21
+YuriSlotProp_CannonRecoilVelocity = YuriSlotProp_Cannoneer1 + 22
+YuriSlotProp_CannonTeamNumber = YuriSlotProp_Cannoneer1 + 23
+YuriSlotProp_CannonCartridgeType = YuriSlotProp_Cannoneer1 + 24
+YuriSlotProp_CannonballIncomingSoundWasPlayed = YuriSlotProp_Cannoneer1 + 25
+YuriSlotProp_CannonIsActive = YuriSlotProp_Cannoneer1 + 26
+YuriSlotProp_CannonballProjectileType = YuriSlotProp_Cannoneer1 + 27
+YuriSlotProp_CannonballHEType = YuriSlotProp_Cannoneer1 + 28
+
 square_forming_phase_outer_square1 = 0
 square_forming_phase_outer_square2 = 1
 square_forming_phase_outer_square3 = 2
@@ -204,6 +286,7 @@ slot_agent_hold_order_x           = 31
 slot_agent_hold_order_y           = 32
 slot_agent_speaking_cooldown      = 33
 slot_agent_square_formation_state = 34
+#slots 35-41 are occupied
 
 ########################################################
 ##  FACTION SLOTS          #############################
@@ -330,6 +413,9 @@ slot_faction_preset_year_to_switch_rifle_type_to_rifled        = 282
 slot_faction_preset_year_to_switch_rifle_type_to_converted     = 283
 slot_faction_preset_year_to_switch_rifle_type_to_smallcaliber  = 284
 slot_faction_preset_year_to_switch_rifle_type_to_boltaction    = 285
+slot_faction_technology_cannon_projectile_type 			= 286
+slot_faction_technology_cannon_rifling_type 		     	= 287
+slot_faction_technology_cannon_he_type  		     	= 288
 
 #revolts -- notes for self
 #type 1 -- minor revolt, aimed at negotiating change without changing the ruler
@@ -1308,6 +1394,8 @@ slot_team_company5_target_company                       = 174
 slot_team_company6_target_company                       = 175
 slot_team_company7_target_company                       = 176
 slot_team_company8_target_company                       = 177
+
+slot_team_cannons_amount                                = 178
 
 #Rebellion changes end
 # character backgrounds

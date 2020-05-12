@@ -649,5 +649,18 @@ script_custom_troop_item_judge = 647
 script_set_custom_troop_pionts_initialization = 648
 script_player_faction_troops = 649
 script_item_detial = 650
+script_rotate_pos31_towards_pos30_xy = 651
+script_rotate_pos31_towards_pos30_yz = 652
+script_turn_pos_towards_pos = 653
+script_yuri_posalligntogroundlevel = 654
+script_yurispawncannon = 655
+script_yuri_getaveragepos = 656
+script_cf_yuri_didcannoneerarriveathisposition = 657
+script_yuri_cannoneerapplyramrodstance = 658
+script_cf_yuri_isagentalive = 659
+script_get_cannoneer_officer_faction_cannon_he_type = 660
+script_get_cannoneer_officer_faction_cannon_rifling_type = 661
+script_get_cannoneer_officer_faction_cannon_projectile_type = 662
+script_explode_at_pos = 663
 
 

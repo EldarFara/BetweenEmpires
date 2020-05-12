@@ -4442,6 +4442,7 @@ We apologize sincerely if you contributed your suggestions and feedback but were
 ("end", "End"),
 ## ZZ Custom Kingdom Troops end
   
+("ground_desert","ground_desert"),
 ]
 
 

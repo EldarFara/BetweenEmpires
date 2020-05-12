@@ -778,93 +778,93 @@
   0.600000 anim_human 37321 37330 2 0 0.0 0.0 0.0 0.0 
  defend_left_staff_parry_3 0 167817231  1
   0.800000 anim_human 37321 37330 2 0 0.0 0.0 0.0 0.0 
- strike_head_left 0 176160848  1
+ strike_head_left 0 176160847  1
   0.500000 strikes 55 71 4 0 0.0 0.0 0.0 0.0 
- strike_head_right 0 176160848  1
+ strike_head_right 0 176160847  1
   0.500000 strikes 4 19 4 0 0.0 0.0 0.0 0.0 
- strike_head_front 0 176160848  1
+ strike_head_front 0 176160847  1
   0.500000 strikes 180 198 4 0 0.0 0.0 0.0 0.0 
- strike_head_back 0 176160848  1
+ strike_head_back 0 176160847  1
   0.600000 strikes_back 4 25 4 0 0.0 0.0 0.0 0.0 
- strike_chest_left 0 176160848  1
+ strike_chest_left 0 176160847  1
   0.500000 strikes 706 724 4 0 0.0 0.0 0.0 0.0 
- strike_chest_right 0 176160848  1
+ strike_chest_right 0 176160847  1
   0.600000 strikes 487 512 4 0 0.0 0.0 0.0 0.0 
- strike_chest_front 0 176160848  1
+ strike_chest_front 0 176160847  1
   0.600000 strikes 881 905 4 0 0.0 0.0 0.0 0.0 
- strike_chest_back 0 176160848  1
+ strike_chest_back 0 176160847  1
   0.500000 strikes_back 401 418 4 0 0.0 0.0 0.0 0.0 
- strike_abdomen_left 0 176160848  1
+ strike_abdomen_left 0 176160847  1
   0.580000 strikes 1425 1444 4 0 0.0 0.0 0.0 0.0 
- strike_abdomen_right 0 176160848  1
+ strike_abdomen_right 0 176160847  1
   0.600000 strikes 1168 1188 4 0 0.0 0.0 0.0 0.0 
- strike_abdomen_front 0 176160848  1
+ strike_abdomen_front 0 176160847  1
   0.600000 strikes 1618 1640 4 0 0.0 0.0 0.0 0.0 
- strike_abdomen_back 0 176160848  1
+ strike_abdomen_back 0 176160847  1
   0.530000 strikes_back 886 904 4 0 0.0 0.0 0.0 0.0 
- strike_legs_left 0 176160848  1
+ strike_legs_left 0 176160847  1
   0.550000 strikes 2284 2305 4 0 0.0 0.0 0.0 0.0 
- strike_legs_right 0 176160848  1
+ strike_legs_right 0 176160847  1
   0.560000 strikes 1999 2020 4 0 0.0 0.0 0.0 0.0 
- strike_legs_front 0 176160848  1
+ strike_legs_front 0 176160847  1
   0.560000 strikes 2655 2676 4 0 0.0 0.0 0.0 0.0 
- strike_legs_back 0 176160848  1
+ strike_legs_back 0 176160847  1
   0.500000 strikes_back 1120 1137 4 0 0.0 0.0 0.0 0.0 
- strike2_head_left 1024 176160848  1
+ strike2_head_left 1024 176160847  1
   0.500000 strikes 55 71 4 0 0.0 0.0 0.0 0.0 
- strike2_head_right 1024 176160848  1
+ strike2_head_right 1024 176160847  1
   0.500000 strikes 4 19 4 0 0.0 0.0 0.0 0.0 
- strike2_head_front 1024 176160848  1
+ strike2_head_front 1024 176160847  1
   0.500000 strikes 180 198 4 0 0.0 0.0 0.0 0.0 
- strike2_head_back 1024 176160848  1
+ strike2_head_back 1024 176160847  1
   0.550000 strikes_back 4 25 4 0 0.0 0.0 0.0 0.0 
- strike2_chest_left 1024 176160848  1
+ strike2_chest_left 1024 176160847  1
   0.500000 strikes 706 724 4 0 0.0 0.0 0.0 0.0 
- strike2_chest_right 1024 176160848  1
+ strike2_chest_right 1024 176160847  1
   0.550000 strikes 487 512 4 0 0.0 0.0 0.0 0.0 
- strike2_chest_front 1024 176160848  1
+ strike2_chest_front 1024 176160847  1
   0.550000 strikes 881 905 4 0 0.0 0.0 0.0 0.0 
- strike2_chest_back 1024 176160848  1
+ strike2_chest_back 1024 176160847  1
   0.500000 strikes_back 401 418 4 0 0.0 0.0 0.0 0.0 
- strike2_abdomen_left 1024 176160848  1
+ strike2_abdomen_left 1024 176160847  1
   0.550000 strikes 1425 1444 4 0 0.0 0.0 0.0 0.0 
- strike2_abdomen_right 1024 176160848  1
+ strike2_abdomen_right 1024 176160847  1
   0.550000 strikes 1168 1188 4 0 0.0 0.0 0.0 0.0 
- strike2_abdomen_front 1024 176160848  1
+ strike2_abdomen_front 1024 176160847  1
   0.550000 strikes 1618 1640 4 0 0.0 0.0 0.0 0.0 
- strike2_abdomen_back 1024 176160848  1
+ strike2_abdomen_back 1024 176160847  1
   0.530000 strikes_back 886 904 4 0 0.0 0.0 0.0 0.0 
- strike2_legs_left 1024 176160848  1
+ strike2_legs_left 1024 176160847  1
   0.550000 strikes 2284 2305 4 0 0.0 0.0 0.0 0.0 
- strike2_legs_right 1024 176160848  1
+ strike2_legs_right 1024 176160847  1
   0.560000 strikes 1999 2020 4 0 0.0 0.0 0.0 0.0 
- strike2_legs_front 1024 176160848  1
+ strike2_legs_front 1024 176160847  1
   0.560000 strikes 2655 2676 4 0 0.0 0.0 0.0 0.0 
- strike2_legs_back 1024 176160848  1
+ strike2_legs_back 1024 176160847  1
   0.500000 strikes_back 1120 1137 4 0 0.0 0.0 0.0 0.0 
- strike3_head_left 1024 176160848  1
+ strike3_head_left 1024 176160847  1
   0.990000 strikes3_head 107 146 4 0 0.0 0.0 0.0 0.0 
- strike3_head_right 1024 176160848  1
+ strike3_head_right 1024 176160847  1
   0.900000 strikes3_head 208 251 4 0 0.0 0.0 0.0 0.0 
- strike3_head_front 1024 176160848  1
+ strike3_head_front 1024 176160847  1
   0.900000 strikes3_head 14 48 4 0 0.0 0.0 0.0 0.0 
- strike3_head_back 1024 176160848  1
+ strike3_head_back 1024 176160847  1
   0.900000 strikes3_head 309 346 4 0 0.0 0.0 0.0 0.0 
- strike3_chest_left 1024 176160848  1
+ strike3_chest_left 1024 176160847  1
   0.900000 strikes3_chest 61 97 4 0 0.0 0.0 0.0 0.0 
- strike3_chest_right 1024 176160848  1
+ strike3_chest_right 1024 176160847  1
   0.900000 strikes3_chest 108 145 4 0 0.0 0.0 0.0 0.0 
- strike3_chest_front 1024 176160848  1
+ strike3_chest_front 1024 176160847  1
   0.800000 strikes3_chest 3 27 4 0 0.0 0.0 0.0 0.0 
- strike3_abdomen_left 1024 176160848  1
+ strike3_abdomen_left 1024 176160847  1
   0.900000 strikes3_abdomen 105 150 4 0 0.000000 -0.000000 0.000000  0.0 
- strike3_abdomen_right 1024 176160848  1
+ strike3_abdomen_right 1024 176160847  1
   0.900000 strikes3_abdomen 63 98 4 0 0.000000 0.000000 0.000000  0.0 
- strike3_abdomen_front 1024 176160848  1
+ strike3_abdomen_front 1024 176160847  1
   0.900000 strikes3_abdomen 4 43 4 0 0.000000 0.000000 0.000000  0.0 
- strike3_abdomen_back 1024 176160848  1
+ strike3_abdomen_back 1024 176160847  1
   1.080000 strikes3_abdomen_back 0 53 4 0 0.0 0.0 0.0 0.0 
- strike_head_front_left_reloc 1024 176160848  1
+ strike_head_front_left_reloc 1024 176160847  1
   0.600000 strike_frontal 0 37 4 0 0.0 0.0 0.0 0.0 
  fall_face_hold 9218 92274783  1
   2.200000 death_face1 8 60 529 32512 0.000000 0.000000 0.000000  0.600000 
@@ -912,11 +912,11 @@
   2.500000 anim_human_02 350 382 9 0 0.800000 -1.800000 0.000000  0.500000 
  rider_fall_roll 17408 58720337  1
   2.500000 anim_human 42000 42084 9 0 0.000000 0.000000 0.000000  1.000000 
- strike_chest_front_stop 1024 176160848  1
+ strike_chest_front_stop 1024 176160847  1
   0.400000 anim_human 45000 45010 4 0 0.0 0.0 0.0 0.0 
- strike_fall_back_rise 258 176160848  1
+ strike_fall_back_rise 258 176160847  1
   1.700000 anim_human 45400 45453 515 102 0.000000 0.000000 0.000000  0.500000 
- strike_fall_back_rise_upper 2 176160848  1
+ strike_fall_back_rise_upper 2 176160847  1
   1.440000 anim_human 45400 45445 3 0 0.0 0.0 0.0 0.0 
  cheer 0 33554496  4
   6.000000 man_cheer 0 185 6 0 0.0 0.0 0.0 0.0 
@@ -1036,7 +1036,7 @@
   6.000000 stance_rifle2_2 0 60 1342177297 0 0.000000 0.000000 0.000000  0.000000 
   6.000000 stance_rifle2_3 0 60 1342177297 0 0.000000 0.000000 0.000000  0.000000 
   6.000000 stance_rifle2_4 0 60 1342177297 0 0.000000 0.000000 0.000000  0.000000 
- unused_human_anim_45 0 167772240  1
+ unused_human_anim_45 0 167772239  1
   0.010000 reload_rifle1 0 0 4 0 0.0 0.0 0.0 0.0 
  unused_human_anim_46 1678771200 570437696  1
   1.000000 lever_action_shot 0 4 67108866 0 0.0 0.0 0.0 0.0 
@@ -1044,52 +1044,53 @@
   1.800000 spencer_shot 0 7 67108866 0 0.0 0.0 0.0 0.0 
  unused_human_anim_48 1678771200 570437696  1
   1.600000 bolt_shot 0 38 67108866 0 0.0 0.0 0.0 0.0 
- unused_human_anim_49 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_50 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_51 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_52 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_53 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_54 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_55 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_56 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_57 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_58 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_59 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_60 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_61 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_62 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_63 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_64 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_65 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_66 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_67 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_68 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_69 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_70 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_71 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
+ Yuri_CannonRopePulling_Left 256 51380305  1
+  2.000000 Yuri_CannonRopePulling_Left 0 32 805306624 58726 0.000000 0.000000 0.000000  0.400000 
+ Yuri_CannonRopePulling_Right 256 51380305  1
+  2.000000 Yuri_CannonRopePulling_Right 0 32 805306624 58726 0.000000 0.000000 0.000000  0.400000 
+ YuriCancelAnimation 256 50331743  1
+  0.010000 anim_human 50 52 1 0 0.0 0.0 0.0 0.0 
+ Yuri_CannonBarrelCleaningLeft 256 50331729  1
+  4.000000 Yuri_CannonBarrelCleaningLeft 1 17 1 0 0.0 0.0 0.0 0.0 
+ Yuri_CannonBarrelCleaningRight 256 50331729  1
+  4.000000 Yuri_CannonBarrelCleaningRight 1 17 1 0 0.0 0.0 0.0 0.0 
+ Yuri_CannonRamrodWetting 256 117440593  1
+  3.000000 Yuri_CannonRamrodWetting 0 5 1 0 0.0 0.0 0.0 0.0 
+ Yuri_CannonRamrodStance 256 50331650  1
+  15.000000 Yuri_CannonRamrodStance 0 623 268435456 0 0.0 0.0 0.0 0.0 
+ Yuri_CannonRamrodDrop 256 50331729  1
+  4.000000 Yuri_CannonRamrodPick 0 21 1 0 0.0 0.0 0.0 0.0 
+ Yuri_CannonCartridgeInserting 256 50331729  1
+  2.000000 Yuri_CannonCartridgeInserting 0 2 1 0 0.0 0.0 0.0 0.0 
+ Yuri_CannonRamrodReadyStance 256 117440593  1
+  2.000000 Yuri_CannonRamrodReadyStance 0 1 1 0 0.0 0.0 0.0 0.0 
+ Yuri_CannonAiming 256 117440593  1
+  2.000000 Yuri_CannonAiming 0 0 1 0 0.0 0.0 0.0 0.0 
+ Yuri_CannonEarsPlugging_Left 256 117440593  1
+  2.000000 Yuri_CannonEarsPlugging_Left 0 0 1 0 0.0 0.0 0.0 0.0 
+ Yuri_CannonEarsPlugging_Right 256 117440593  1
+  2.000000 Yuri_CannonEarsPlugging_Right 0 0 1 0 0.0 0.0 0.0 0.0 
+ Yuri_CannonEarsPlugging_Left_Shot 256 50331729  1
+  0.800000 Yuri_CannonEarsPlugging_Left 0 6 1 0 0.0 0.0 0.0 0.0 
+ Yuri_CannonEarsPlugging_Right_Shot 256 50331729  1
+  0.800000 Yuri_CannonEarsPlugging_Right 0 6 1 0 0.0 0.0 0.0 0.0 
+ Yuri_CannonLighting 256 117440593  1
+  2.000000 Yuri_CannonLighting 0 0 1 0 0.0 0.0 0.0 0.0 
+ Yuri_CannonLighting_Shot 256 50331729  1
+  0.250000 Yuri_CannonLighting 0 2 1 0 0.0 0.0 0.0 0.0 
+ Yuri_ImpaledByLance_Front 1024 117440594  2
+  2.000000 Yuri_ImpaledByLance_Front1 8 0 1 0 0.0 0.0 0.0 0.0 
+  2.000000 Yuri_ImpaledByLance_Front2 8 0 1 0 0.0 0.0 0.0 0.0 
+ Yuri_CouchedLance 2097409 51417169  1
+  0.500000 Yuri_CouchedLance2 0 15 268435585 0 0.0 0.0 0.0 0.0 
+ Yuri_ThrowingImpaledOut 2097409 50368593  1
+  0.300000 Yuri_ThrowingImpaledOut 0 15 129 0 0.0 0.0 0.0 0.0 
+ Yuri_ImpaledByLance_Back 1024 117440594  1
+  2.000000 Yuri_ImpaledByLance_Back1 4 1 1 0 0.0 0.0 0.0 0.0 
+ Yuri_CannonOneEarPlugging_Right 256 117440593  1
+  2.000000 Yuri_CannonOneEarPlugging_Right 9 0 1 0 0.0 0.0 0.0 0.0 
+ Yuri_CannonOneEarPlugging_Right_Shot 256 50331729  1
+  0.600000 Yuri_CannonOneEarPlugging_Shot_Right 0 3 1 0 0.0 0.0 0.0 0.0 
  unused_human_anim_72 0 0  1
   1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
  unused_human_anim_73 0 0  1
@@ -1188,11 +1189,11 @@
  horse_slow 0 16777216  2
   3.000000 anim_horse 0 31 268435456 0 0.0 0.0 0.0 0.0 
   1.500000 anim_horse 0 31 268435456 0 0.0 0.0 0.0 0.0 
- horse_fall_in_place 1026 83886160  1
+ horse_fall_in_place 1026 83886159  1
   4.000000 anim_horse 0 38 529 0 0.0 0.0 0.0 0.0 
- horse_fall_right 1026 83886160  1
+ horse_fall_right 1026 83886159  1
   1.750000 anim_horse 350 375 521 153 0.000000 0.000000 0.000000  0.500000 
- horse_fall_roll 1026 83886160  1
+ horse_fall_roll 1026 83886159  1
   2.500000 anim_horse 400 428 521 76 0.000000 0.000000 0.000000  1.800000 
  unused_horse_anim_1 0 0  1
   1.000000 anim_horse 0 1 0 0 0.0 0.0 0.0 0.0 

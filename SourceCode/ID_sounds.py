@@ -239,5 +239,14 @@ snd_man_hit1 = 237
 snd_man_hit2 = 238
 snd_man_hit3 = 239
 snd_man_hit_FP = 240
+snd_Yuri_CannonCarriageMoving1 = 241
+snd_Yuri_CannonRamrod1 = 242
+snd_Yuri_CannonballInsert1 = 243
+snd_Yuri_CannonFuseIgnite1 = 244
+snd_Yuri_Cannon_Fire1 = 245
+snd_Yuri_CannonballHit_Man = 246
+snd_Yuri_CannonballHit_Ground = 247
+snd_Yuri_Cannon_Fire_Far1 = 248
+snd_Yuri_Incoming_Projectile1 = 249
 
 

@@ -1217,11 +1217,12 @@ async_calculate_company_average_coordinates_team
 async_calculate_company_average_coordinates_company
 aerial_view_state
 pbs_point1
-g_allies_team
 g_enemy_team
 bugle_cooldown
 voices
 g_player_team
+g_allies_team
+g_pai_battle_is_siege
 g_ccoop_disallow_horses
 g_presentation_obj_coop_companion_0
 g_presentation_obj_coop_companion_1

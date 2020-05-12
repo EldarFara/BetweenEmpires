@@ -1,5 +1,5 @@
 itemsfile version 3
-1070
+1075
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -2758,7 +2758,7 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_smithwesson_no2 Smith_&_Wesson_Model_2 Smith_&_Wesson_Model_2 2  smithwesson_no2 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.000000 100 0 0 95 0 0 45 200 0 6 306 0
+ itm_sidearm_smithwesson_no2 Smith_&_Wesson_Model_3 Smith_&_Wesson_Model_3 2  smithwesson_no2 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.000000 100 0 0 95 0 0 45 200 0 6 306 0
  0
 0
 
@@ -4539,6 +4539,26 @@ itemsfile version 3
  itm_srb_general_trousers Serbian_General_Trousers Serbian_General_Trousers 1  srb_general_trousers 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
  1
  70
+0
+
+ itm_sidearm_lefaucheux lefaucheux lefaucheux 2  lefaucheux 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 90 0 0 50 210 0 6 304 0
+ 0
+0
+
+ itm_sidearm_reichsrevolver1879 reichsrevolver1879 reichsrevolver1879 2  reichsrevolver1879 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 90 0 0 50 210 0 6 304 0
+ 0
+0
+
+ itm_sidearm_mas1873 mas1873 mas1873 2  mas1873 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 90 0 0 50 210 0 6 304 0
+ 0
+0
+
+ itm_yuricannonballcartridge YuriCannonballCartridge YuriCannonballCartridge 1  YuriCannonballCartridge 0  138805506 9223388529554358286 0 8202 4.500000 100 0 0 0 0 0 50 0 40 0 276 0
+ 0
+0
+
+ itm_yurigrapeshotcartridge YuriGrapeshotCartridge YuriGrapeshotCartridge 1  YuriGrapeshotCartridge 0  138805506 9223388529554358286 0 8202 4.500000 100 0 0 0 0 0 50 0 40 0 276 0
+ 0
 0
 
  itm_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0

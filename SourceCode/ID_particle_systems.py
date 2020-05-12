@@ -64,3 +64,5 @@ psys_musket_smoke = 62
 psys_pan_flash = 63
 psys_pan_smoke = 64
 psys_musket_sparks = 65
+psys_cannon_smoke = 66
+psys_cannon_ball_hit = 67
