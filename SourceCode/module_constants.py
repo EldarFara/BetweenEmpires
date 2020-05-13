@@ -8,6 +8,11 @@ from ID_factions import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+howitzer_muzzle_velocity = 80
+
+cannon_loading_type_muzzleloading = 0
+cannon_loading_type_breechloading = 1
+
 cannon_he_type_early = 0
 cannon_he_type_late  = 1
 
@@ -89,6 +94,7 @@ YuriSlotProp_CannonballIncomingSoundWasPlayed = YuriSlotProp_Cannoneer1 + 25
 YuriSlotProp_CannonIsActive = YuriSlotProp_Cannoneer1 + 26
 YuriSlotProp_CannonballProjectileType = YuriSlotProp_Cannoneer1 + 27
 YuriSlotProp_CannonballHEType = YuriSlotProp_Cannoneer1 + 28
+YuriSlotProp_CannonballFuseBallTimer = YuriSlotProp_Cannoneer1 + 29
 
 square_forming_phase_outer_square1 = 0
 square_forming_phase_outer_square2 = 1
@@ -415,7 +421,17 @@ slot_faction_preset_year_to_switch_rifle_type_to_smallcaliber  = 284
 slot_faction_preset_year_to_switch_rifle_type_to_boltaction    = 285
 slot_faction_technology_cannon_projectile_type 			= 286
 slot_faction_technology_cannon_rifling_type 		     	= 287
-slot_faction_technology_cannon_he_type  		     	= 288
+slot_faction_technology_cannon_he_type  		        	= 288
+slot_faction_technology_cannon_loading_type  		    = 289
+slot_faction_preset_year_to_switch_cannon_projectile_type_to_early_shell   = 290
+slot_faction_preset_year_to_switch_cannon_projectile_type_to_late_shell    = 291
+slot_faction_preset_year_to_switch_cannon_rifling_type_to_rifled    = 292
+slot_faction_preset_year_to_switch_cannon_he_type_to_late_he    = 293
+slot_faction_preset_year_to_switch_cannon_loading_type_to_breechloading    = 294
+slot_faction_fieldgun_cannoneer_officer   	 = 295
+slot_faction_howitzer_cannoneer_officer    	 = 296
+slot_faction_fieldgun_cannoneer    			 = 297
+slot_faction_howitzer_cannoneer    			 = 298
 
 #revolts -- notes for self
 #type 1 -- minor revolt, aimed at negotiating change without changing the ruler

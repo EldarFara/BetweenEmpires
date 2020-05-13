@@ -1,4 +1,4 @@
-837
+849
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
 qstr_Game_Rules:^ Game_Rules:^
@@ -84,9 +84,9 @@ qstr_5th 5th
 qstr_6th 6th
 qstr_7th 7th
 qstr_8th 8th
-qstr_Disabled____________ Disabled____________________
-qstr_Howitzers_Battery___ Howitzers_Battery____
-qstr_Field_Guns_Battery__ Field_Guns_Battery___
+qstr_Disabled____________ Disabled____________________________
+qstr_Howitzers_Battery___ Howitzers_Battery________________
+qstr_Field_Guns_Battery__ Field_Guns_Battery_______________
 qstr_Guards_Cavalry_Compa Guards_Cavalry_Company___
 qstr_Mounted_Rifles_Compa Mounted_Rifles_Company___
 qstr_Melee_Cavalry_Compan Melee_Cavalry_Company___
@@ -458,7 +458,7 @@ qstr__G. _G.
 qstr_M.C. M.C.
 qstr_M.R. M.R.
 qstr_C.G. C.G.
-qstr_F.G.B. F.G.B.
+qstr_G.B. G.B.
 qstr_H.B. H.B.
 qstr_Cannot_form_square:_t Cannot_form_square:_too_few_soldiers_(need_at_least_25).
 qstr_{s1} {s1}
@@ -486,6 +486,7 @@ qstr_5th_{s1} 5th_{s1}
 qstr_6th_{s1} 6th_{s1}
 qstr_7th_{s1} 7th_{s1}
 qstr_8th_{s1} 8th_{s1}
+qstr_PAI_RETREAT PAI_RETREAT
 qstr_You_got_keys_of_dung You_got_keys_of_dungeon.
 qstr_You_must_stay_behind You_must_stay_behind_the_line_on_the_ground!_Point_is_not_counted.
 qstr_Tutorial Tutorial
@@ -655,6 +656,7 @@ qstr__This_castle_has_no_ _This_castle_has_no_garrison.
 qstr__This_town_has_no_ga _This_town_has_no_garrison.
 qstr__You_have_successful _You_have_successfully_sneaked_in.
 qstr_{s13}_A_tournament_w {s13}_A_tournament_will_be_held_here_soon.
+qstr___Join_the_commander _(Join_the_commanders'_meeteing)
 qstr_{!}DEBUG___Current_t {!}DEBUG_-_Current_town_is_{s3},_but_also_checking_{s4}
 qstr___{reg1}_pounds_per_ _({reg1}_pounds_per_night)
 qstr_Moreover_you_earn_{r Moreover,_you_earn_{reg8}_pounds_from_the_clever_bets_you_placed_on_yourself...
@@ -685,6 +687,11 @@ qstr_{!}{s11}{s12} {!}{s11}{s12}
 qstr_{!}DEBUG____Hours_si {!}DEBUG_--_Hours_since_last_feast_started:_{reg4}
 qstr_^^Note_that_so_long_ ^^Note_that_so_long_as_you_remain_marshal,_the_lords_of_the_realm_will_be_expecting_you_to_lead_them_on_campaign._So,_if_you_are_awaiting_a_feast,_either_for_a_wedding_or_for_other_purposes,_you_may_wish_to_resign_the_marshalship_by_speaking_to_your_liege.
 qstr_Temperature:_+{reg0} Temperature:_+{reg0}_C_^Pressure:_{reg1}_hPa_^Humidity:_{reg2}%_^Wind:_{reg3}_km/h_^Cloudiness:_{reg4}%_^Precipitation:_{reg5}%
+qstr_You_have_bought_a_fi You_have_bought_a_field_gun.
+qstr_You_have_exceeded_pa You_have_exceeded_party_size_limit.
+qstr_You_have_no_enough_m You_have_no_enough_money.
+qstr_Not_available_in_thi Not_available_in_this_town.
+qstr_You_have_bought_a_ho You_have_bought_a_howizer.
 qstr_Breaking_camp... Breaking_camp...
 qstr_{!}{s3}_commander_of {!}{s3}_commander_of_party_#{reg4}_which_is_not_his_troop_leaded_party_{reg5}
 qstr_{!}DEBUG____Doing_po {!}DEBUG_--_Doing_political_calculations_for_{s9}
@@ -718,8 +725,13 @@ qstr_{!}DEBUG_:_{s2}_is_b {!}DEBUG_:_{s2}_is_besieging_by_{s3}
 qstr_{!}DEBUG___Checking_ {!}DEBUG_-_Checking_fire_at_{s4}_for_{s5}_-_current_time_{reg3},_last_nearby_fire_{reg4}
 qstr_Army_of_{s1}_has_bee Army_of_{s1}_has_been_rearmed_and_now_uses_rifled_muskets.
 qstr_Army_of_{s1}_has_been Army_of_{s1}_has_been_rearmed_and_now_uses_converted_breech_loaded_rifles.
-qstr_Army_of_{s1}_has_been_ Army_of_{s1}_has_been_rearmed_and_now_uses_modern_breech_loaded_rifles.
+qstr_Army_of_{s1}_has_been_ Army_of_{s1}_has_been_rearmed_and_now_uses_modern_breech-loading_rifles.
 qstr_Army_of_{s1}_has_been_r Army_of_{s1}_has_been_rearmed_and_now_uses_magazine_rifles.
+qstr_Army_of_{s1}_has_been_re Army_of_{s1}_has_been_rearmed_and_now_uses_breech-loading_cannons.
+qstr_Army_of_{s1}_have_im Army_of_{s1}_have_improved_their_weaponry_and_now_uses_smokeless_powder_explosive_shells.
+qstr_Army_of_{s1}_have_imp Army_of_{s1}_have_improved_their_weaponry_and_now_uses_rifled_cannons.
+qstr_Army_of_{s1}_have_impr Army_of_{s1}_have_improved_their_weaponry_and_now_uses_explosive_shells.
+qstr_Army_of_{s1}_have_impro Army_of_{s1}_have_improved_their_weaponry_and_now_uses_advanced_explosive_shells.
 qstr_The_year_is_{reg0}. The_year_is_{reg0}.
 qstr_{!}DEBUG____Wanted_b {!}DEBUG_--_Wanted_bandits_spotted_by_{s4}
 qstr_{reg65?my_Lady:my_Lo {reg65?my_Lady:my_Lord}
