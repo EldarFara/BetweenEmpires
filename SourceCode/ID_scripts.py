@@ -665,5 +665,6 @@ script_explode_at_pos = 663
 script_initialize_factions_technology_and_presets = 664
 script_yurigetangleforhowitzeraiming = 665
 script_yuribatteryholdposition = 666
+script_cf_if_party_has_low_cannons_amount = 667
 
 

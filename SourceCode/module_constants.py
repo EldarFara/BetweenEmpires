@@ -8,6 +8,8 @@ from ID_factions import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+cannons_limit = 5
+
 howitzer_muzzle_velocity = 80
 
 cannon_loading_type_muzzleloading = 0
@@ -432,6 +434,7 @@ slot_faction_fieldgun_cannoneer_officer   	 = 295
 slot_faction_howitzer_cannoneer_officer    	 = 296
 slot_faction_fieldgun_cannoneer    			 = 297
 slot_faction_howitzer_cannoneer    			 = 298
+slot_faction_reinforcements_artillery   	 = 299
 
 #revolts -- notes for self
 #type 1 -- minor revolt, aimed at negotiating change without changing the ruler

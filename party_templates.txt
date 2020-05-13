@@ -1,5 +1,5 @@
 partytemplatesfile version 1
-162
+196
 pt_none none 2 0 1 7 -1 -1 -1 -1 -1 -1 
 pt_rescued_prisoners Rescued_Prisoners 2 0 1 7 -1 -1 -1 -1 -1 -1 
 pt_enemy Enemy 2 0 84 7 -1 -1 -1 -1 -1 -1 
@@ -153,6 +153,40 @@ pt_faction32_reinforcements_c {!}faction32_reinforcements_c 0 0 1 0 613 2 4 0 61
 pt_faction33_reinforcements_a {!}faction33_reinforcements_a 0 0 1 0 625 2 4 0 626 5 7 0 -1 -1 -1 -1 
 pt_faction33_reinforcements_b {!}faction33_reinforcements_b 0 0 1 0 627 5 7 0 628 2 4 0 -1 -1 -1 -1 
 pt_faction33_reinforcements_c {!}faction33_reinforcements_c 0 0 1 0 629 2 4 0 630 1 2 0 -1 -1 -1 -1 
+pt_factionplayer_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3719 1 2 0 -1 -1 -1 -1 -1 
+pt_faction1_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3720 1 2 0 -1 -1 -1 -1 -1 
+pt_faction2_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3721 1 2 0 -1 -1 -1 -1 -1 
+pt_faction3_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3722 1 2 0 -1 -1 -1 -1 -1 
+pt_faction4_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3723 1 2 0 -1 -1 -1 -1 -1 
+pt_faction5_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3724 1 2 0 -1 -1 -1 -1 -1 
+pt_faction6_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3725 1 2 0 -1 -1 -1 -1 -1 
+pt_faction7_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3726 1 2 0 -1 -1 -1 -1 -1 
+pt_faction8_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3727 1 2 0 -1 -1 -1 -1 -1 
+pt_faction9_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3728 1 2 0 -1 -1 -1 -1 -1 
+pt_faction10_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3729 1 2 0 -1 -1 -1 -1 -1 
+pt_faction11_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3730 1 2 0 -1 -1 -1 -1 -1 
+pt_faction12_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3731 1 2 0 -1 -1 -1 -1 -1 
+pt_faction13_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3732 1 2 0 -1 -1 -1 -1 -1 
+pt_faction14_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3733 1 2 0 -1 -1 -1 -1 -1 
+pt_faction15_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3734 1 2 0 -1 -1 -1 -1 -1 
+pt_faction16_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3735 1 2 0 -1 -1 -1 -1 -1 
+pt_faction17_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3736 1 2 0 -1 -1 -1 -1 -1 
+pt_faction18_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3737 1 2 0 -1 -1 -1 -1 -1 
+pt_faction19_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3738 1 2 0 -1 -1 -1 -1 -1 
+pt_faction20_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3739 1 2 0 -1 -1 -1 -1 -1 
+pt_faction21_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3740 1 2 0 -1 -1 -1 -1 -1 
+pt_faction22_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3741 1 2 0 -1 -1 -1 -1 -1 
+pt_faction23_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3742 1 2 0 -1 -1 -1 -1 -1 
+pt_faction24_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3743 1 2 0 -1 -1 -1 -1 -1 
+pt_faction25_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3744 1 2 0 -1 -1 -1 -1 -1 
+pt_faction26_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3745 1 2 0 -1 -1 -1 -1 -1 
+pt_faction27_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3746 1 2 0 -1 -1 -1 -1 -1 
+pt_faction28_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3747 1 2 0 -1 -1 -1 -1 -1 
+pt_faction29_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3748 1 2 0 -1 -1 -1 -1 -1 
+pt_faction30_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3749 1 2 0 -1 -1 -1 -1 -1 
+pt_faction31_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3750 1 2 0 -1 -1 -1 -1 -1 
+pt_faction32_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3751 1 2 0 -1 -1 -1 -1 -1 
+pt_faction33_reinforcements_artillery {!}reinforcements_artillery 0 0 1 0 3752 1 2 0 -1 -1 -1 -1 -1 
 pt_steppe_bandit_lair Steppe_Bandit_Lair 562949955519676 0 3 312 647 15 58 0 -1 -1 -1 -1 -1 
 pt_taiga_bandit_lair Tundra_Bandit_Lair 562949955519676 0 3 312 648 15 58 0 -1 -1 -1 -1 -1 
 pt_desert_bandit_lair Desert_Bandit_Lair 562949955519676 0 3 312 649 15 58 0 -1 -1 -1 -1 -1 

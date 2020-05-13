@@ -7300,6 +7300,9 @@ scripts = [
         (faction_set_slot, ":faction_no",  slot_faction_tier_5_troop, ":troop"),
       
         (try_begin),
+          (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_player"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_factionplayer_reinforcements_artillery"),
+        (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_1"),
       
           (faction_set_slot, ":faction_no",  slot_faction_deserter_troop, "trp_swadian_deserter"),
@@ -7310,6 +7313,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction1_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction1_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction1_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction1_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_2"),
       
@@ -7321,6 +7325,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction2_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction2_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction2_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction2_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_3"),
       
@@ -7332,6 +7337,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction3_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction3_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction3_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction3_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_4"),
       
@@ -7343,6 +7349,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction4_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction4_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction4_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction4_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_5"),
       
@@ -7354,6 +7361,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction5_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction5_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction5_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction5_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_6"),
       
@@ -7365,6 +7373,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction6_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction6_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction6_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction6_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_7"),
       
@@ -7376,6 +7385,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction7_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction7_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction7_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction7_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_8"),
       
@@ -7387,6 +7397,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction8_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction8_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction8_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction8_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_9"),
       
@@ -7398,6 +7409,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction9_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction9_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction9_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction9_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_10"),
       
@@ -7409,6 +7421,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction10_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction10_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction10_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction10_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_11"),
       
@@ -7420,6 +7433,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction11_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction11_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction11_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction11_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_12"),
       
@@ -7431,6 +7445,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction12_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction12_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction12_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction12_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_13"),
       
@@ -7442,6 +7457,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction13_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction13_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction13_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction13_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_14"),
       
@@ -7453,6 +7469,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction14_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction14_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction14_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction14_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_15"),
       
@@ -7464,6 +7481,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction15_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction15_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction15_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction15_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_16"),
       
@@ -7475,6 +7493,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction16_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction16_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction16_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction16_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_17"),
       
@@ -7486,6 +7505,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction17_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction17_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction17_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction17_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_18"),
       
@@ -7497,6 +7517,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction18_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction18_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction18_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction18_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_19"),
       
@@ -7508,6 +7529,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction19_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction19_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction19_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction19_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_20"),
       
@@ -7519,6 +7541,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction20_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction20_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction20_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction20_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_21"),
       
@@ -7530,6 +7553,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction21_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction21_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction21_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction21_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_22"),
       
@@ -7541,6 +7565,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction22_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction22_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction22_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction22_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_23"),
       
@@ -7552,6 +7577,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction23_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction23_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction23_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction23_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_24"),
       
@@ -7563,6 +7589,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction24_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction24_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction24_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction24_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_25"),
       
@@ -7574,6 +7601,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction25_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction25_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction25_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction25_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_26"),
       
@@ -7585,6 +7613,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction26_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction26_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction26_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction26_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_27"),
       
@@ -7596,6 +7625,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction27_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction27_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction27_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction27_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_28"),
       
@@ -7607,6 +7637,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction28_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction28_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction28_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction28_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_29"),
       
@@ -7618,6 +7649,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction29_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction29_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction29_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction29_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_30"),
       
@@ -7629,6 +7661,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction30_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction30_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction30_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction30_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_31"),
       
@@ -7640,6 +7673,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction31_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction31_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction31_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction31_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_32"),
       
@@ -7651,6 +7685,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction32_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction32_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction32_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction32_reinforcements_artillery"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_33"),
       
@@ -7662,6 +7697,7 @@ scripts = [
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_faction33_reinforcements_a"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_faction33_reinforcements_b"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_faction33_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_faction33_reinforcements_artillery"),
         (try_end),
       (try_end),
 	]),
@@ -22956,6 +22992,7 @@ scripts = [
       (faction_get_slot, ":party_template_a", ":party_faction", slot_faction_reinforcements_a),
       (faction_get_slot, ":party_template_b", ":party_faction", slot_faction_reinforcements_b),
       (faction_get_slot, ":party_template_c", ":party_faction", slot_faction_reinforcements_c),
+      (faction_get_slot, ":party_template_arillery", ":party_faction", slot_faction_reinforcements_artillery),
 
       (assign, ":party_template", 0),
       (store_random_in_range, ":rand", 0, 100),
@@ -22982,10 +23019,15 @@ scripts = [
       (else_try),
       (try_end),
 
-      (try_begin),
-        (gt, ":party_template", 0),
-        (party_add_template, ":party_no", ":party_template"),
-      (try_end),
+	(try_begin),
+		(gt, ":party_template", 0),
+		(party_add_template, ":party_no", ":party_template"),
+	(try_end),
+	(try_begin),
+		(gt, ":party_template_arillery", 0),
+		(call_script, "script_cf_if_party_has_low_cannons_amount", ":party_no"),
+		(party_add_template, ":party_no", ":party_template_arillery"),
+	(try_end),
   ]),
   
   # script_hire_men_to_kingdom_hero_party
@@ -55370,7 +55412,7 @@ scripts = [
 	(try_begin),
 	(eq, ":explosion_type", explosion_type_big),
 	(assign, ":range", 700),
-	(assign, ":max_damage", 150),
+	(assign, ":max_damage", 180),
 	(assign, ":particle_flash", 50),
 	(assign, ":particle_smoke1", 140),
 	(assign, ":particle_smoke2", 170),
@@ -55394,7 +55436,7 @@ scripts = [
 	(else_try),
 	(eq, ":explosion_type", explosion_type_medium),
 	(assign, ":range", 500),
-	(assign, ":max_damage", 110),
+	(assign, ":max_damage", 130),
 	(assign, ":particle_flash", 30),
 	(assign, ":particle_smoke1", 100),
 	(assign, ":particle_smoke2", 130),
@@ -55919,7 +55961,18 @@ scripts = [
 	(try_end),
 
 ]),
+("cf_if_party_has_low_cannons_amount",
+[
+(store_script_param, ":party", 1),
 
+(assign, ":total_number", 0),
+	(try_for_range, ":troop", "trp_factionplayer_fieldgun_cannoneer_officer", "trp_cannoneers_end"),
+	(party_count_members_of_type, ":number", ":party", ":troop"),
+	(val_add, ":total_number", ":number"),
+	(try_end),
+(lt, ":total_number", cannons_limit),
+
+]),
 
 ]# modmerger_start version=201 type=2
 try:

@@ -1093,7 +1093,7 @@ particle_systems = [
      0.1,                       #rotation damping
     ),
   ("explosion_smoke_white1", psf_billboard_3d|psf_billboard_drop, "smoke_white1",
-    1000, 5, 2, -0.01, 40, 1.75,  #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+    1000, 4.25, 2, -0.01, 40, 1.75,  #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
     (0, 0.7), (1, 0),    #alpha keys
     (0, 1), (1, 1),    #red keys
     (0, 1), (1, 1),     #green keys
@@ -1122,7 +1122,7 @@ particle_systems = [
     (0, 0.5), (1, 0.5),    #blue keys
     (0, 1), (1, 1),  #scale keys
     (0, 0, 0),        #emit box size
-    (0, 0, 8),        #emit velocity
+    (0, 0, 5),        #emit velocity
     30                       #emit dir randomness         
   ),
   ("explosion_flash", psf_billboard_3d|psf_billboard_drop|psf_randomize_size, "flash_white1",
