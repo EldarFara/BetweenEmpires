@@ -1072,4 +1072,6 @@ itm_sidearm_reichsrevolver1879 = 1070
 itm_sidearm_mas1873 = 1071
 itm_yuricannonballcartridge = 1072
 itm_yurigrapeshotcartridge = 1073
-itm_items_end = 1074
+itm_victorian_dress1a = 1074
+itm_victorian_dress1b = 1075
+itm_items_end = 1076

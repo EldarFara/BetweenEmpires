@@ -1,11 +1,11 @@
-849
+857
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
 qstr_Game_Rules:^ Game_Rules:^
 qstr_0 0
 qstr_Lv._{reg0} Lv._{reg0}
 qstr_Show_game_rules Show_game_rules
-qstr_Create_your_own_kind Create_your_own_kindom_troops!
+qstr_Choose_name_for_your Choose_name_for_your_faction:
 qstr_Continue... Continue...
 qstr_Candidate_#1:_{s1} Candidate_#1:_{s1}
 qstr_Candidate_#2:_{s1} Candidate_#2:_{s1}
@@ -129,7 +129,8 @@ qstr_Show_castles Show_castles
 qstr_Show_villages Show_villages
 qstr_Tip:_move_the_mouse_ Tip:_move_the_mouse_onto_the_black_blocks_to_show_their_names.
 qstr_The_World_Map The_World_Map
-qstr__{s7}__s_troop^_Desi _{s7}_'s_troop^_Design_your_own_kingdom_troop
+qstr_Press_Escape_to_clos Press_Escape_to_close_menu...
+qstr_{s7}__s_Army {s7}_'s_Army
 qstr_Attribute_points_{re Attribute_points_{reg40}
 qstr_Skill_points_{reg41} Skill_points_{reg41}
 qstr_Weapon_points_{reg42 Weapon_points_{reg42}
@@ -140,6 +141,13 @@ qstr_{s2}^Base_Attribute: {s2}^Base_Attribute:CHA
 qstr_{s2}^Base_Attribute:I {s2}^Base_Attribute:INT
 qstr_{s2}^Base_Attribute:A {s2}^Base_Attribute:AGI
 qstr_{s2}^Base_Attribute:S {s2}^Base_Attribute:STR
+qstr_Battle_role: Battle_role:
+qstr_Line_Infantry Line_Infantry
+qstr_Light_Infantry Light_Infantry
+qstr_Guard_Infantry Guard_Infantry
+qstr_Melee_Cavalry Melee_Cavalry
+qstr_Ranged_Cavalry Ranged_Cavalry
+qstr_Guard_Cavalry Guard_Cavalry
 qstr_Next Next
 qstr_Price_{reg42}^Weight Price_{reg42}^Weight_{reg43}
 qstr_{reg5}_to_{reg6} {reg5}_to_{reg6}

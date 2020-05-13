@@ -1,5 +1,5 @@
 itemsfile version 3
-1075
+1077
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -4558,6 +4558,14 @@ itemsfile version 3
 0
 
  itm_yurigrapeshotcartridge YuriGrapeshotCartridge YuriGrapeshotCartridge 1  YuriGrapeshotCartridge 0  138805506 9223388529554358286 0 8202 4.500000 100 0 0 0 0 0 50 0 40 0 276 0
+ 0
+0
+
+ itm_victorian_dress1a Dress Dress 1  victorian_dress1a 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_victorian_dress1b Dress Dress 1  victorian_dress1a 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
  0
 0
 

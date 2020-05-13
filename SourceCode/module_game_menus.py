@@ -2933,7 +2933,7 @@ game_menus = [
          (eq, "$players_kingdom_name_set", 1),
          (faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_active),
          (faction_slot_eq, "fac_player_supporters_faction", slot_faction_leader, "trp_player"),
-         ],"Rename your kingdom.",
+         ],"Rename your faction.",
        [(start_presentation, "prsnt_name_kingdom"),
         ]
        ),
@@ -2943,7 +2943,7 @@ game_menus = [
        [
          (faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_active),
          (faction_slot_eq, "fac_player_supporters_faction", slot_faction_leader, "trp_player"),
-         ],"Promote your kingdom custom troop.",
+         ],"Customize your faction army.",
        [(start_presentation, "prsnt_custom_kingdom_troop"),
         ]
        ),	   
