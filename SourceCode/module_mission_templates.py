@@ -1706,6 +1706,10 @@ pbs_melee = (1, 0, 0, [
 pbs_company_retreat = (1, 0, 0, [
 	(try_for_range, ":team", 0, 4),
 		(try_for_range, ":company", 0, 8),
+		(store_add, ":slot_team_type", slot_team_company1_type, ":company"),
+		(team_get_slot, ":type", ":team", ":slot_team_type"),
+		(neq, ":type", pbs_troop_type_fieldguns),
+		(neq, ":type", pbs_troop_type_howitzers),
 		(store_add, ":slot_team_discipline", slot_team_company1_discipline, ":company"),
 		(team_get_slot, ":discipline", ":team", ":slot_team_discipline"),
 		(lt, ":discipline", 1500),
