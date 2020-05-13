@@ -3703,6 +3703,12 @@ scene_props = [
 ("eu_hospital1",0,"eu_hospital1","bo_eu_hospital1", []),
 ("eu_palace2",0,"eu_palace2","bo_eu_palace2", []),
 ("persian_taq",0,"persian_taq","bo_persian_taq", []),
+("Rus_Budka_B",0,"Rus_Budka_B","bo_Rus_Budka_B", []),
+("Rus_Budka_C",0,"Rus_Budka_C","bo_Rus_Budka_C", []),
+("Rus_Shlagbaum_Close",0,"Rus_Shlagbaum_Close","bo_Rus_Shlagbaum_Close", []),
+("Rus_Shlagbaum_Open",0,"Rus_Shlagbaum_Open","bo_Rus_Shlagbaum_Open", []),
+("Rus_Budka_A",0,"Rus_Budka_A","bo_Rus_Budka_A", []),
+("Rus_Budka",0,"Rus_Budka","bo_Rus_Budka", []),
 
 ("pai_defensive_line", sokf_invisible, "pai_defensive_line", "0", []),
 
