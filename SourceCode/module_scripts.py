@@ -55407,6 +55407,8 @@ scripts = [
 (store_script_param, ":explosion_type", 3),
 (store_script_param, ":he_type", 4),
 
+(copy_position, pos31, ":pos"),
+
 (set_fixed_point_multiplier, 100),
 (store_time_of_day, ":hours"),
 	(try_begin),
@@ -55521,6 +55523,7 @@ scripts = [
 	(try_end),
 
 	(try_for_agents, ":agent"),
+	(copy_position, ":pos", pos31),
 	(agent_is_active,":agent"),
 	(agent_is_alive,":agent"),
 		(try_begin),
