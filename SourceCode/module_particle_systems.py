@@ -1067,14 +1067,14 @@ particle_systems = [
      0,
     ),
     ("cannon_smoke", psf_billboard_3d, "smoke_white1",
-     10000, 12, 1.14, -0.015, 40, 1.75,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+     500, 12, 1.14, -0.015, 40, 1.75,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
      (0.0, 0.6), (0.85, 0),       #alpha keys
      (0.0, 0.9), (1, 0.9),      #red keys
      (0.0, 0.9),(1, 0.9),       #green keys
      (0.0, 0.99), (1, 0.99),      #blue keys
      (-0.1, 6),   (1.0, 17.0),   #scale keys
      (0.3, 0.3, 0.3),           #emit box size
-     (2, 7, 0),                 #emit velocity
+     (1, 7, 0),                 #emit velocity
      2.3,                        #emit dir randomness
      90,                       #rotation speed
      0.4,                        #rotation damping
@@ -1093,26 +1093,15 @@ particle_systems = [
      0.1,                       #rotation damping
     ),
   ("explosion_smoke_white1", psf_billboard_3d|psf_billboard_drop, "smoke_white1",
-    1000, 5, 2, -0.01, 40, 1.75,  #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
-    (0, 0.7), (1, 0),    #alpha keys
+    250, 5, 2, -0.01, 40, 1.75,  #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+    (0, 0.95), (1, 0),    #alpha keys
     (0, 1), (1, 1),    #red keys
     (0, 1), (1, 1),     #green keys
     (0, 1), (1, 1),    #blue keys
-    (0, 7), (0.8, 30),  #scale keys
+    (0, 7), (0.8, 33),  #scale keys
     (0, 0, 0),        #emit box size
-    (3, 0, 8.5),        #emit velocity
-    7                       #emit dir randomness         
-  ),
-  ("explosion_smoke_white2", psf_billboard_3d|psf_billboard_drop, "smoke_white1b",
-    1000, 8, -0.1, -0.007, 40, 1.75,  #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
-    (0.4, 0.5), (1, 0),    #alpha keys
-    (0, 1), (1, 1),    #red keys
-    (0, 1), (1, 1),     #green keys
-    (0, 1), (1, 1),    #blue keys
-    (0, 12), (0.7, 34),  #scale keys
-    (1, 1, 2),        #emit box size
-    (2, 0, 0),        #emit velocity
-    1.2                       #emit dir randomness         
+    (0, 0, 15),        #emit velocity
+    5                       #emit dir randomness         
   ),
     ("ground_debris1", psf_billboard_3d|psf_billboard_drop, "prt_ground_debris1",
     1000, 4, 2, 2, 10, 1,  #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
@@ -1126,13 +1115,13 @@ particle_systems = [
     30                       #emit dir randomness         
   ),
   ("explosion_flash", psf_billboard_3d|psf_billboard_drop|psf_randomize_size, "flash_white1",
-    3000, 2.8, 0, 0, 50, 1, #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+    3000, 2.8, 1.9, 3, 50, 1, #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
     (0.1, 0.8), (1, 0),		#alpha keys
     (0.5, 1), (1, 0.9),		#red keys
     (0.5, 0.6), (1, 0.1),		#green keys
     (0.5, 0.2), (1, 0),		#blue keys
     (0.05, 8), (0.5, 0.5),	#scale keys
-    (0.2, 0.2, 1),			#emit box size
+    (0.2, 0.2, 2.05),			#emit box size
     (0, 0, 0),				#emit velocity
     0.05,					#emit dir randomness         
     100, 0.5

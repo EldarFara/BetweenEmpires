@@ -218,4 +218,3 @@ menu_notification_relieved_as_marshal = 216
 menu_weather_report = 217
 menu_start_game_speed_selection = 218
 menu_change_game_speed = 219
-menu_cannoneers_store = 220

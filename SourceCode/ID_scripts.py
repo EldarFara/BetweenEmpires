@@ -662,8 +662,5 @@ script_get_cannoneer_officer_faction_cannon_he_type = 660
 script_get_cannoneer_officer_faction_cannon_rifling_type = 661
 script_get_cannoneer_officer_faction_cannon_projectile_type = 662
 script_explode_at_pos = 663
-script_initialize_factions_technology_and_presets = 664
-script_yurigetangleforhowitzeraiming = 665
-script_yuribatteryholdposition = 666
 
 

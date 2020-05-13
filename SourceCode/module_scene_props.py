@@ -3739,38 +3739,6 @@ scene_props = [
 (assign, reg1, ":Prop"),
 ]),
 ]),
-("YuriCannon2_Body", sokf_moveable, "field_gun_body2", "0",
-[
-(ti_on_scene_prop_init,
-[
-(store_trigger_param_1, ":Prop"),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_CannoneerOfficer, reg1),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_Cannoneer1, reg2),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_Cannoneer2, reg3),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_Cannoneer3, reg4),
-(prop_instance_get_position, pos1, ":Prop"),
-(set_spawn_position, pos1),
-(spawn_scene_prop, "spr_YuriCannon2_Wheels"),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_CannonWheels, reg5),
-(spawn_scene_prop, "spr_YuriCannon2_Barrel"),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_CannonBarrel, reg6),
-(spawn_scene_prop, "spr_YuriCannon1_Rope1"),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_CannonRope1, reg7),
-(spawn_scene_prop, "spr_YuriCannon1_Rope2"),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_CannonRope2, reg8),
-(spawn_scene_prop, "spr_YuriCannon1_Ramrod1"),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_CannonRamrod1, reg9),
-(spawn_scene_prop, "spr_YuriCannon1_Ramrod2"),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_CannonRamrod2, reg10),
-(spawn_scene_prop, "spr_YuriCannon1_Cannonball"),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_CannonCannonball, reg11),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_CannonMode, YuriCannonMode_Initial),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_CannonLastReloadingPhase, YuriCannonMode_Reloading_LoadingCartridge),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_CannonIsActive, 1),
-(prop_instance_deform_in_range, ":Prop", 1, 1, 0),
-(assign, reg1, ":Prop"),
-]),
-]),
 ("YuriCannon1_Wheels", sokf_moveable, "field_gun_wheels1", "0",
 [
 (ti_on_scene_prop_init,
@@ -3784,30 +3752,6 @@ scene_props = [
 ]),
 ]),
 ("YuriCannon1_Barrel", sokf_moveable, "field_gun_barrel1", "0",
-[
-(ti_on_scene_prop_init,
-[
-(store_trigger_param_1, ":Prop"),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_CannoneerOfficer, reg1),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_Cannoneer1, reg2),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_Cannoneer2, reg3),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_Cannoneer3, reg4),
-(assign, reg6, ":Prop"),
-]),
-]),
-("YuriCannon2_Wheels", sokf_moveable, "field_gun_wheels2", "0",
-[
-(ti_on_scene_prop_init,
-[
-(store_trigger_param_1, ":Prop"),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_CannoneerOfficer, reg1),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_Cannoneer1, reg2),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_Cannoneer2, reg3),
-(scene_prop_set_slot, ":Prop", YuriSlotProp_Cannoneer3, reg4),
-(assign, reg5, ":Prop"),
-]),
-]),
-("YuriCannon2_Barrel", sokf_moveable, "field_gun_barrel2", "0",
 [
 (ti_on_scene_prop_init,
 [
@@ -3885,7 +3829,6 @@ scene_props = [
 ]),
 ]),
 ("YuriCannonballCrater", sokf_moveable, "YuriCannonballCrater", 0, [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
-("YuriShellCrater", sokf_moveable, "YuriShellCrater", 0, [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
 ]
 
  # modmerger_start version=201 type=2

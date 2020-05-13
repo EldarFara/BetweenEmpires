@@ -2656,7 +2656,7 @@ game_menus = [
     [
 ("YuriDevAddCannoneer",[(eq,"$cheat_mode",1)],"{!}Cheat: Add Cannoneer.",
 	[
-	(party_add_members, "p_main_party", "trp_faction2_howitzer_cannoneer_officer", 1),
+	(party_add_members, "p_main_party", "trp_faction1_cannoneer_officer", 1),
 	]
 ),
       ("camp_action_1",[(eq,"$cheat_mode",1)],"{!}Cheat: Walk around.",
@@ -5542,7 +5542,7 @@ game_menus = [
     [
       ("request_shelter",[(party_slot_eq, "$g_encountered_party",slot_party_type, spt_castle),
                           (ge, "$g_encountered_party_relation", 0)],
-       "Request entry to the headquarters.",
+       "Request entry to the Headquarters.",
        [(party_get_slot, ":castle_lord", "$g_encountered_party", slot_town_lord),
         (try_begin),
           (lt, ":castle_lord", 0),
@@ -5584,7 +5584,7 @@ game_menus = [
   ),
   (
     "castle_entry_denied",mnf_scale_picture,
-    "The commander of this fort has forbidden you from coming inside these walls,\
+    "The lord of this castle has forbidden you from coming inside these walls,\
  and the guard sergeant informs you that his men will fire if you attempt to come any closer.",
     "bg3",
     [
@@ -8517,7 +8517,7 @@ game_menus = [
             (store_faction_of_party, ":center_faction", "$current_town"),
             (faction_slot_eq, ":center_faction", slot_faction_ai_state, sfai_feast),
             (faction_slot_eq, ":center_faction", slot_faction_ai_object, "$current_town"),
-            (str_store_string, s1, "@ (Join the commanders' meeteing)"),
+            (str_store_string, s1, "str__join_the_feast"),
           (try_end),
 
           ],"Go to the town hall{s1}.",
@@ -9499,14 +9499,7 @@ game_menus = [
         (jump_to_menu, "mnu_collect_taxes"),
       ]),
 
-("castle_to_cannoneers_store",
-[        
-	(party_slot_eq,"$current_town",slot_party_type, spt_castle),        
-	(eq, "$sneaked_into_town", 0),      
-],"Go to the armory.",
-[          
-	(jump_to_menu, "mnu_cannoneers_store"),
-], "Door to the armory."),
+       
 
 
       
@@ -14323,12 +14316,6 @@ game_menus = [
     "bg3",
     [],
     [
-("game_speed_debug",[(eq,"$cheat_mode",1)],"Debug mode (One year passes in 1 day).",
-	[
-		(assign, "$g_game_speed", 1),
-         (jump_to_menu,"mnu_camp_action"),
-	]
-),
       ("game_speed_extremely_fast",[],"Extremely fast (One year passes in 6 days).",
        [
 		(assign, "$g_game_speed", 6),
@@ -14371,85 +14358,13 @@ game_menus = [
          (jump_to_menu, "mnu_camp_action"),
        ]
        ),
-	  ("go_back",[],"Go back.",
+	  ("go_back",[],"Go back",
        [
 	     (jump_to_menu,"mnu_camp_action"),
        ]),
     ]
   ),
   
-  ("cannoneers_store",menu_text_color(0xFF000000)|mnf_disable_all_keys,
-    "The soldiers let you into the armory. Here you can order heavy weaponry - field guns and howitzers.^^Your current balance is {reg0} pounds.",
-    "bg3",
-    [
-	#todo add background image here
-	(store_troop_gold, reg0, "trp_player"),
-	#(store_relation, ":faction_relation", ":encountered_faction", "fac_player_supporters_faction"),
-	],
-    [
-      ("cannoneers_store_buy_fieldgun",[],"Order a field gun and hire a cannoneers crew (2000 pounds).",
-       [
-	(store_faction_of_party, ":faction", "$g_encountered_party"),
-	(faction_get_slot, ":cannoneer_officer", ":faction",  slot_faction_fieldgun_cannoneer_officer),
-		(try_begin),
-		(gt, ":cannoneer_officer", 0),
-			(try_begin),
-			(store_troop_gold, ":gold", "trp_player"),
-			(ge, ":gold", 2000),
-				(try_begin),
-				(call_script, "script_game_get_party_companion_limit"), (assign, ":party_size_limit", reg0),
-				(party_get_num_companions, ":party_size", "p_main_party"),
-				(lt, ":party_size", ":party_size_limit"),
-				(troop_remove_gold, "trp_player", 2000),
-				(display_message, "@You have bought a field gun."),
-				(party_add_members, "p_main_party", ":cannoneer_officer", 1),
-				(else_try),
-				(display_message, "@You have exceeded party size limit."),
-				(try_end),
-			(else_try),
-			(display_message, "@You have no enough money."),
-			(try_end),
-		(else_try),
-		(display_message, "@Not available in this town."),
-		(try_end),
-	(jump_to_menu,"mnu_cannoneers_store"),
-       ]
-       ),
-      ("cannoneers_store_buy_howitzer",[],"Order a howitzer and hire a cannoneers crew (2000 pounds).",
-       [
-	(store_faction_of_party, ":faction", "$g_encountered_party"),
-	(faction_get_slot, ":cannoneer_officer", ":faction",  slot_faction_howitzer_cannoneer_officer),
-		(try_begin),
-		(gt, ":cannoneer_officer", 0),
-			(try_begin),
-			(store_troop_gold, ":gold", "trp_player"),
-			(ge, ":gold", 2000),
-				(try_begin),
-				(call_script, "script_game_get_party_companion_limit"), (assign, ":party_size_limit", reg0),
-				(party_get_num_companions, ":party_size", "p_main_party"),
-				(lt, ":party_size", ":party_size_limit"),
-				(troop_remove_gold, "trp_player", 2000),
-				(display_message, "@You have bought a howizer."),
-				(party_add_members, "p_main_party", ":cannoneer_officer", 1),
-				(else_try),
-				(display_message, "@You have exceeded party size limit."),
-				(try_end),
-			(else_try),
-			(display_message, "@You have no enough money."),
-			(try_end),
-		(else_try),
-		(display_message, "@Not available in this town."),
-		(try_end),
-	(jump_to_menu,"mnu_cannoneers_store"),
-       ]
-       ),
-	  ("leave",[],"Leave.",
-       [
-	     (jump_to_menu,"mnu_town"),
-       ]),
-    ]
-  ),
-
 
   
  ]
