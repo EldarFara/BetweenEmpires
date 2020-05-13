@@ -1825,8 +1825,8 @@ items = [
 ["YuriCannonballCartridge", "YuriCannonballCartridge", [("YuriCannonballCartridge",0)], itp_type_one_handed_wpn|itp_primary|itp_penalty_with_shield|itp_wooden_parry|itp_wooden_attack|itp_force_attach_left_hand, itc_scimitar, 0 , weight(4.5)|difficulty(0)|spd_rtng(50) | weapon_length(40)|swing_damage(0 , cut) | thrust_damage(20 ,  pierce),imodbits_polearm ],
 ["YuriGrapeshotCartridge", "YuriGrapeshotCartridge", [("YuriGrapeshotCartridge",0)], itp_type_one_handed_wpn|itp_primary|itp_penalty_with_shield|itp_wooden_parry|itp_wooden_attack|itp_force_attach_left_hand, itc_scimitar, 0 , weight(4.5)|difficulty(0)|spd_rtng(50) | weapon_length(40)|swing_damage(0 , cut) | thrust_damage(20 ,  pierce),imodbits_polearm ],
 
-["victorian_dress1a","Dress", [("victorian_dress1a", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
-["victorian_dress1b","Dress", [("victorian_dress1a", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["victorian_dress1a","Dress", [("clothes_adventurer_female1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
+["victorian_dress1b","Dress", [("clothes_adventurer_female1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(15)|leg_armor(5), imodbits_none, []],
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 

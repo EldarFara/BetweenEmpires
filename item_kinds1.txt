@@ -4561,11 +4561,11 @@ itemsfile version 3
  0
 0
 
- itm_victorian_dress1a Dress Dress 1  victorian_dress1a 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_victorian_dress1a Dress Dress 1  clothes_adventurer_female1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
  0
 0
 
- itm_victorian_dress1b Dress Dress 1  victorian_dress1a 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_victorian_dress1b Dress Dress 1  clothes_adventurer_female1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
  0
 0
 
