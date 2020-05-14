@@ -97,6 +97,7 @@ YuriSlotProp_CannonIsActive = YuriSlotProp_Cannoneer1 + 26
 YuriSlotProp_CannonballProjectileType = YuriSlotProp_Cannoneer1 + 27
 YuriSlotProp_CannonballHEType = YuriSlotProp_Cannoneer1 + 28
 YuriSlotProp_CannonballFuseBallTimer = YuriSlotProp_Cannoneer1 + 29
+slot_prop_is_occupied = YuriSlotProp_Cannoneer1 + 30
 
 square_forming_phase_outer_square1 = 0
 square_forming_phase_outer_square2 = 1
@@ -135,6 +136,7 @@ pai_global_tactic_attack_retreat = 10
 pai_global_tactic_attack_stop_retreat = 11
 pai_global_tactic_siege_defend_initial = 12
 pai_global_tactic_siege_attack_initial = 13
+pai_global_tactic_siege_defend_holding_position = 14
 
 spawable_prop_limit = 4000
 
@@ -248,7 +250,7 @@ slot_item_rifled_analog = 62
 slot_item_converted_analog = 63
 slot_item_small_caliber_analog = 64
 slot_item_bolt_action_analog = 65
-slot_item_appearance_year = 65
+slot_item_appearance_year = 66
 
 
 ########################################################
