@@ -1102,4 +1102,6 @@ itm_empty_hands = 1100
 itm_sidearm_lemat = 1101
 itm_canister_shot_small = 1102
 itm_canister_shot_small_projectile = 1103
-itm_items_end = 1104
+itm_sidearm_beaumont = 1104
+itm_sidearm_webleymk6 = 1105
+itm_items_end = 1106

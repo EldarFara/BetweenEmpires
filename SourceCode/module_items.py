@@ -1868,6 +1868,9 @@ items = [
 ]),
 ]],
 
+["sidearm_beaumont","Beaumont–Adams Revolver", [("beaumont", 0),("pistol_holster1b", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,400, weight(1.3)|abundance(100)|accuracy(accuracy_rifled_pistol_medium)|spd_rtng(50)|shoot_speed(210)|max_ammo(6)|thrust_damage(48, pierce), imodbits_firearm, []],
+["sidearm_webleymk6","Webley Mk VI", [("webleymk6", 0),("pistol_holster1b", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,400, weight(1.3)|abundance(100)|accuracy(accuracy_rifled_pistol_medium)|spd_rtng(50)|shoot_speed(210)|max_ammo(6)|thrust_damage(48, pierce), imodbits_firearm, []],
+
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 

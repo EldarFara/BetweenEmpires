@@ -10,7 +10,7 @@ from ID_factions import *
 
 cannons_limit = 5
 
-howitzer_muzzle_velocity = 80
+howitzer_muzzle_velocity = 85
 
 cannon_loading_type_muzzleloading = 0
 cannon_loading_type_breechloading = 1

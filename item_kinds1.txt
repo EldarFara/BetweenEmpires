@@ -1,5 +1,5 @@
 itemsfile version 3
-1105
+1107
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -4684,6 +4684,14 @@ itemsfile version 3
  0
 1
 -52.000000  1 1975 3 1008806316530991164 1 5 
+
+ itm_sidearm_beaumont Beaumont–Adams_Revolver Beaumont–Adams_Revolver 2  beaumont 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 90 0 0 50 210 0 6 304 0
+ 0
+0
+
+ itm_sidearm_webleymk6 Webley_Mk_VI Webley_Mk_VI 2  webleymk6 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 90 0 0 50 210 0 6 304 0
+ 0
+0
 
  itm_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
