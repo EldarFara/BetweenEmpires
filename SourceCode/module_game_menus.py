@@ -2654,11 +2654,6 @@ game_menus = [
      (set_background_mesh, "mesh_pic_camp"),
     ],
     [
-("YuriDevAddCannoneer",[(eq,"$cheat_mode",1)],"{!}Cheat: Add Cannoneer.",
-	[
-	(party_add_members, "p_main_party", "trp_faction2_howitzer_cannoneer_officer", 1),
-	]
-),
       ("camp_action_1",[(eq,"$cheat_mode",1)],"{!}Cheat: Walk around.",
        [(set_jump_mission,"mt_ai_training"),
         (call_script, "script_setup_random_scene"),
