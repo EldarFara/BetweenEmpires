@@ -246,11 +246,11 @@ slot_item_ccoop_has_ammo                = 59 #should be set to 1 for Invasion it
 slot_item_multiplayer_item_class   = 60 #temporary, can be moved to higher values
 slot_item_multiplayer_availability_linked_list_begin = 61 #temporary, can be moved to higher values
 
-slot_item_rifled_analog = 62
-slot_item_converted_analog = 63
-slot_item_small_caliber_analog = 64
-slot_item_bolt_action_analog = 65
-slot_item_appearance_year = 66
+slot_item_rifled_analog = 2000
+slot_item_converted_analog = slot_item_rifled_analog + 1
+slot_item_small_caliber_analog = slot_item_rifled_analog + 2
+slot_item_bolt_action_analog = slot_item_rifled_analog + 3
+slot_item_appearance_year = slot_item_rifled_analog + 4
 
 
 ########################################################
@@ -297,6 +297,7 @@ slot_agent_hold_order_y           = 32
 slot_agent_speaking_cooldown      = 33
 slot_agent_square_formation_state = 34
 #slots 35-41 are occupied
+slot_agent_lemat_canister_has_been_shot = 42
 
 ########################################################
 ##  FACTION SLOTS          #############################

@@ -42,6 +42,7 @@ scripts = [
   # INPUT: none
   ("game_start",
    [
+(assign, "$ignore_script_game_missile_launch", 0),
 (assign, "$g_game_speed", 15),
 (assign, "$g_days_until_next_year", -1),
 (assign, "$g_current_year", 1860),
@@ -7754,6 +7755,7 @@ scripts = [
 	(item_set_slot, "itm_sidearm_reichsrevolver1879", slot_item_appearance_year, 1879),
 	(item_set_slot, "itm_sidearm_mas1873", slot_item_appearance_year, 1873),
 	(item_set_slot, "itm_sidearm_galand", slot_item_appearance_year, 1870),
+	(item_set_slot, "itm_sidearm_lemat", slot_item_appearance_year, 1861),
 	  # Setting food bonuses - these have been changed to incentivize using historical rations. Bread is the most cost-efficient
 	  #Staples
       (item_set_slot, "itm_bread", slot_item_food_bonus, 8), #brought up from 4
@@ -15397,6 +15399,12 @@ scripts = [
       (store_script_param, ":extra_text_id", 2),
       (store_script_param, ":item_modifier", 3),
 	(try_begin),
+	(eq, ":item_no", "itm_sidearm_lemat"),
+	(eq, ":extra_text_id", 1),
+	(set_trigger_result, 0xdd5e5e),
+	(set_result_string, "@Has second barrel (press action key while aiming to fire a buckshot)"),
+	(try_end),
+	(try_begin),
 	(eq, ":extra_text_id", 0),
 	(set_trigger_result, 0x44a2ff),
 		(try_begin),
@@ -15453,6 +15461,10 @@ scripts = [
 		(this_or_next|eq, ":item_no", "itm_sidearm_galand"),
 		(eq, ":item_no", "itm_sidearm_colt_m1873"),
 		(set_result_string, "@Revolver (6 rounds)"),
+		(try_end),
+		(try_begin),
+		(eq, ":item_no", "itm_sidearm_lemat"),
+		(set_result_string, "@Revolver (9 rounds)"),
 		(try_end),
 		(try_begin),
 		(this_or_next|eq, ":item_no", "itm_rifle_russian_mosin_carbine"),
@@ -52524,6 +52536,7 @@ scripts = [
 	(store_script_param, ":agent_id", 1),
 	(store_script_param, ":item_id", 2),
 	#(store_script_param, ":missile_weapon_id", 3),
+	(neq, "$ignore_script_game_missile_launch", 1),
 	(agent_is_active,":agent_id"),
 	(agent_is_alive,":agent_id"),
       
@@ -52550,6 +52563,7 @@ scripts = [
         (this_or_next|eq, ":item_id", "itm_sidearm_galand"),
         (this_or_next|eq, ":item_id", "itm_sidearm_remington1"),
         (this_or_next|eq, ":item_id", "itm_sidearm_gasser"),
+        (this_or_next|eq, ":item_id", "itm_sidearm_lemat"),
         (this_or_next|eq, ":item_id", "itm_sidearm_colt_m1851_navy"),
         (this_or_next|eq, ":item_id", "itm_sidearm_savage_revolver"),
         (this_or_next|eq, ":item_id", "itm_sidearm_bacon1"),
@@ -55503,8 +55517,6 @@ scripts = [
 (store_script_param, ":explosion_type", 3),
 (store_script_param, ":he_type", 4),
 
-(copy_position, pos31, ":pos"),
-
 (set_fixed_point_multiplier, 100),
 (store_time_of_day, ":hours"),
 	(try_begin),
@@ -55619,7 +55631,6 @@ scripts = [
 	(try_end),
 
 	(try_for_agents, ":agent"),
-	(copy_position, ":pos", pos31),
 	(agent_is_active,":agent"),
 	(agent_is_alive,":agent"),
 		(try_begin),
@@ -56190,7 +56201,7 @@ scripts = [
 	(try_for_range, ":item", "itm_ccoop_new_items_end", "itm_items_end"),
 	(item_get_slot, ":appearance_year", ":item", slot_item_appearance_year),
 	(gt, ":appearance_year", "$g_current_year"),
-	(set_item_probability_in_merchandise, ":item", 0),
+	(set_item_probability_in_merchandise, ":item", -100),
 	(try_end),
 ]),
 

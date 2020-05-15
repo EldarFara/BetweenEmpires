@@ -1222,6 +1222,7 @@ bugle_cooldown
 voices
 g_player_team
 g_allies_team
+ignore_script_game_missile_launch
 g_pai_battle_is_siege
 g_ccoop_disallow_horses
 g_presentation_obj_coop_companion_0
