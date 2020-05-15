@@ -7753,6 +7753,7 @@ scripts = [
 	(item_set_slot, "itm_sidearm_smithwesson_no2", slot_item_appearance_year, 1869),
 	(item_set_slot, "itm_sidearm_reichsrevolver1879", slot_item_appearance_year, 1879),
 	(item_set_slot, "itm_sidearm_mas1873", slot_item_appearance_year, 1873),
+	(item_set_slot, "itm_sidearm_galand", slot_item_appearance_year, 1870),
 	  # Setting food bonuses - these have been changed to incentivize using historical rations. Bread is the most cost-efficient
 	  #Staples
       (item_set_slot, "itm_bread", slot_item_food_bonus, 8), #brought up from 4
@@ -15448,6 +15449,8 @@ scripts = [
 		(this_or_next|eq, ":item_no", "itm_sidearm_mas1873"),
 		(this_or_next|eq, ":item_no", "itm_sidearm_lefaucheux"),
 		(this_or_next|eq, ":item_no", "itm_sidearm_reichsrevolver1879"),
+		(this_or_next|eq, ":item_no", "itm_sidearm_colt_walker"),
+		(this_or_next|eq, ":item_no", "itm_sidearm_galand"),
 		(eq, ":item_no", "itm_sidearm_colt_m1873"),
 		(set_result_string, "@Revolver (6 rounds)"),
 		(try_end),
@@ -52543,6 +52546,8 @@ scripts = [
       (try_begin),
         (this_or_next|eq, ":item_id", "itm_sidearm_smithwesson_no2"), # Revolvers
         (this_or_next|eq, ":item_id", "itm_sidearm_colt_dragoon"),
+        (this_or_next|eq, ":item_id", "itm_sidearm_colt_walker"),
+        (this_or_next|eq, ":item_id", "itm_sidearm_galand"),
         (this_or_next|eq, ":item_id", "itm_sidearm_remington1"),
         (this_or_next|eq, ":item_id", "itm_sidearm_gasser"),
         (this_or_next|eq, ":item_id", "itm_sidearm_colt_m1851_navy"),
