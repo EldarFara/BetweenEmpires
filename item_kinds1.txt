@@ -1,5 +1,5 @@
 itemsfile version 3
-1107
+1111
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -4689,7 +4689,23 @@ itemsfile version 3
  0
 0
 
+ itm_sidearm_enfieldmk1 Enfield_Mk_I Enfield_Mk_I 2  enfieldmk1 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 90 0 0 50 210 0 6 304 0
+ 0
+0
+
  itm_sidearm_webleymk6 Webley_Mk_VI Webley_Mk_VI 2  webleymk6 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 90 0 0 50 210 0 6 304 0
+ 0
+0
+
+ itm_sidearm_bodeo Bodeo_M1889 Bodeo_M1889 2  bodeo 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 90 0 0 50 210 0 6 304 0
+ 0
+0
+
+ itm_sidearm_webleybulldog Webley_Bull_Dog Webley_Bull_Dog 2  webleybulldog 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 90 0 0 50 210 0 6 304 0
+ 0
+0
+
+ itm_sidearm_c93 Borchardt_C-93 Borchardt_C-93 2  c93 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 90 0 0 50 210 0 8 301 0
  0
 0
 
