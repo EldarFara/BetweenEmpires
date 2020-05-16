@@ -7758,6 +7758,10 @@ scripts = [
 	(item_set_slot, "itm_sidearm_lemat", slot_item_appearance_year, 1861),
 	(item_set_slot, "itm_sidearm_beaumont", slot_item_appearance_year, 1862),
 	(item_set_slot, "itm_sidearm_webleymk6", slot_item_appearance_year, 1887),
+	(item_set_slot, "itm_sidearm_webleybulldog", slot_item_appearance_year, 1872),
+	(item_set_slot, "itm_sidearm_bodeo", slot_item_appearance_year, 1889),
+	(item_set_slot, "itm_sidearm_enfieldmk1", slot_item_appearance_year, 1880),
+	(item_set_slot, "itm_sidearm_c93", slot_item_appearance_year, 1893),
 	  # Setting food bonuses - these have been changed to incentivize using historical rations. Bread is the most cost-efficient
 	  #Staples
       (item_set_slot, "itm_bread", slot_item_food_bonus, 8), #brought up from 4
@@ -15463,8 +15467,15 @@ scripts = [
 		(this_or_next|eq, ":item_no", "itm_sidearm_galand"),
 		(this_or_next|eq, ":item_no", "itm_sidearm_beaumont"),
 		(this_or_next|eq, ":item_no", "itm_sidearm_webleymk6"),
+		(this_or_next|eq, ":item_no", "itm_sidearm_enfieldmk1"),
+		(this_or_next|eq, ":item_no", "itm_sidearm_bodeo"),
+		(this_or_next|eq, ":item_no", "itm_sidearm_webleybulldog"),
 		(eq, ":item_no", "itm_sidearm_colt_m1873"),
 		(set_result_string, "@Revolver (6 rounds)"),
+		(try_end),
+		(try_begin),
+		(eq, ":item_no", "itm_sidearm_c93"),
+		(set_result_string, "@Self-Loading Pistol (8 rounds)"),
 		(try_end),
 		(try_begin),
 		(eq, ":item_no", "itm_sidearm_lemat"),
