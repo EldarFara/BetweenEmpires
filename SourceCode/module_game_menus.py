@@ -532,6 +532,14 @@ game_menus = [
            (jump_to_menu, "mnu_weather_report"),
         ]
        ),
+     ("reports_to_faction_technologies",[
+	 (this_or_next|ge,"$cheat_mode",1),
+	 (neg|faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_inactive),
+	 ],"View your faction military technologies.",
+       [
+           (start_presentation, "prsnt_faction_technologies"),
+        ]
+       ),
 	   
       ("cheat_faction_orders",[(ge,"$cheat_mode",1)],"{!}Cheat: Faction orders.",
        [(jump_to_menu, "mnu_faction_orders"),
@@ -1342,22 +1350,19 @@ game_menus = [
 ##        ]),
       ("begin_adventuring",[],"Become an adventurer and ride to your destiny.",[
            (set_show_messages, 0),
-	(try_begin),
-	(eq,"$character_gender",0),
-	(troop_add_item, "trp_player","itm_clothes_urban_male1",0),
-	(troop_add_item, "trp_player","itm_clothes_urban_male_trousers1",0),
+		(try_begin),
+		(eq,"$character_gender",0),
+		(troop_add_item, "trp_player","itm_clothes_urban_male1",0),
+		(troop_add_item, "trp_player","itm_clothes_urban_male_trousers1",0),
+		(else_try),
+		(troop_add_item, "trp_player","itm_clothes_adventurer_female1",0),
+		(troop_add_item, "trp_player","itm_clothes_adventurer_female_trousers1",0),
+		(try_end),
+	(assign, ":pistol", "itm_sidearm_pepperbox2"),
 	(troop_add_item, "trp_player","itm_ammo_pistol",0),
-	(troop_add_item, "trp_player","itm_sidearm_smithwesson_no2",0),
-	(troop_add_item, "trp_player","itm_dagger",0),
-	(else_try),
-	(troop_add_item, "trp_player","itm_clothes_adventurer_female1",0),
-	(troop_add_item, "trp_player","itm_clothes_adventurer_female_trousers1",0),
-	(troop_add_item, "trp_player","itm_ammo_pistol",0),
-	(troop_add_item, "trp_player","itm_sidearm_smithwesson_no2",0),
-	(troop_add_item, "trp_player","itm_dagger",0),	
-	(try_end),
-#(troop_remove_item, "trp_player", "itm_sidearm_pepperbox2"),
-#(troop_remove_item, "trp_player", "itm_ammo_pistol"),
+	(troop_add_item, "trp_player","itm_ammo_rifle",0),
+	(troop_add_item, "trp_player","itm_rifle_sharps",0),	
+	(troop_add_gold, "trp_player", 300),
 
       (try_begin),
         (eq,"$background_type",cb_noble),
@@ -1375,7 +1380,6 @@ game_menus = [
         (troop_raise_skill, "trp_player","skl_power_strike",1),
         (troop_raise_skill, "trp_player", skl_captain, 1),
         (troop_raise_skill, "trp_player","skl_trainer",1),
-#	(troop_add_item, "trp_player","itm_sidearm_caplock_pistol1",0),
         (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,10),
         (troop_raise_proficiency, "trp_player",wpt_two_handed_weapon,10),
         (troop_raise_proficiency, "trp_player",wpt_throwing,10),
@@ -1505,10 +1509,7 @@ game_menus = [
 	(troop_remove_item, "trp_player", "itm_sidearm_pepperbox2"),
 	(troop_remove_item, "trp_player", "itm_ammo_pistol"),
 	(troop_remove_item, "trp_player", "itm_ammo_pistol"),
-	(troop_add_item, "trp_player","itm_sidearm_colt_dragoon",0),
-	(troop_add_item, "trp_player","itm_ammo_pistol",0),
-	(troop_add_item, "trp_player","itm_rifle_spencer_carbine",0),
-	(troop_add_item, "trp_player","itm_ammo_rifle",0),
+	(assign, ":pistol", "itm_sidearm_colt_dragoon"),
            
         (troop_add_gold, "trp_player", 500),
         (troop_raise_proficiency, "trp_player",wpt_polearm,15),
@@ -1543,8 +1544,7 @@ game_menus = [
 	(troop_remove_item, "trp_player", "itm_sidearm_pepperbox2"),
 	(troop_remove_item, "trp_player", "itm_ammo_pistol"),
 	(troop_remove_item, "trp_player", "itm_ammo_pistol"),
-	(troop_add_item, "trp_player","itm_sidearm_colt_m1851_navy",0),
-	(troop_add_item, "trp_player","itm_ammo_pistol",0),
+	(assign, ":pistol", "itm_sidearm_colt_m1851_navy"),
 
         (troop_add_gold, "trp_player", 20),
         (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,50),
@@ -1609,6 +1609,7 @@ game_menus = [
         (troop_raise_attribute, "trp_player",ca_intelligence,1),
       (try_end),
 
+	(troop_add_item, "trp_player", ":pistol", 0),
 
            (try_begin),
              (eq, "$background_type", cb_noble),

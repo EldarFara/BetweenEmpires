@@ -561,5 +561,13 @@ mesh_troop_info_win_1 = 559
 mesh_troop_info_win_2 = 560
 mesh_button1_up = 561
 mesh_button1_down = 562
+mesh_faction_technologies_tech_available = 563
+mesh_faction_technologies_tech_unavailable = 564
+mesh_faction_technologies_tech_invented = 565
+mesh_faction_technologies_tech_inprogress = 566
+mesh_faction_technologies_tech_shadow = 567
+mesh_faction_technologies_photo = 568
+mesh_faction_technologies_photo_shadow = 569
+mesh_faction_technologies_connection_line = 570
 
 

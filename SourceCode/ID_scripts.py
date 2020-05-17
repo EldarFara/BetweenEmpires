@@ -661,13 +661,18 @@ script_cf_yuri_isagentalive = 659
 script_get_cannoneer_officer_faction_cannon_he_type = 660
 script_get_cannoneer_officer_faction_cannon_rifling_type = 661
 script_get_cannoneer_officer_faction_cannon_projectile_type = 662
-script_explode_at_pos = 663
-script_initialize_factions_technology_and_presets = 664
-script_yurigetangleforhowitzeraiming = 665
-script_yuribatteryholdposition = 666
-script_cf_if_party_has_low_cannons_amount = 667
-script_get_company_soldiers_number = 668
-script_company_hold_pos30_defensive_line = 669
-script_set_item_merchandise_probabilities_according_to_current_year = 670
+script_cf_get_agent_faction_rifle_type = 663
+script_explode_at_pos = 664
+script_initialize_factions_technology_and_presets = 665
+script_yurigetangleforhowitzeraiming = 666
+script_yuribatteryholdposition = 667
+script_cf_if_party_has_low_cannons_amount = 668
+script_get_company_soldiers_number = 669
+script_company_hold_pos30_defensive_line = 670
+script_set_item_merchandise_probabilities_according_to_current_year = 671
+script_cf_pts_check_tech_availability = 672
+script_pts_create_tech_button = 673
+script_pts_create_selected_tech_name = 674
+script_pts_create_selected_tech_description = 675
 
 

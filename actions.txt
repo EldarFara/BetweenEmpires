@@ -403,7 +403,7 @@
  release_pistol 1679818752 570441738  1
   0.500000 pistol_aim1 14 19 2 0 0.0 0.0 0.0 0.0 
  reload_pistol 0 35651644  1
-  1.300000 reload_pistol1 0 14 9 0 0.0 0.0 0.0 0.0 
+  2.250000 reload_pistol2 0 13 9 0 0.0 0.0 0.0 0.0 
  ready_musket 1678770176 606089226  1
   1.500000 rifle_aim1 0 0 7 0 0.0 0.0 0.0 0.0 
  release_musket 1678770176 572534794  1
@@ -1060,6 +1060,8 @@
   15.000000 Yuri_CannonRamrodStance 0 623 268435456 0 0.0 0.0 0.0 0.0 
  Yuri_CannonRamrodDrop 256 50331729  1
   4.000000 Yuri_CannonRamrodPick 0 21 1 0 0.0 0.0 0.0 0.0 
+ Yuri_CannonFuseAdjusting 256 50331729  1
+  4.000000 reload_pistol2 0 5 1 0 0.0 0.0 0.0 0.0 
  Yuri_CannonCartridgeInserting 256 50331729  1
   2.000000 Yuri_CannonCartridgeInserting 0 2 1 0 0.0 0.0 0.0 0.0 
  Yuri_CannonRamrodReadyStance 256 117440593  1
@@ -1091,8 +1093,6 @@
   2.000000 Yuri_CannonOneEarPlugging_Right 9 0 1 0 0.0 0.0 0.0 0.0 
  Yuri_CannonOneEarPlugging_Right_Shot 256 50331729  1
   0.600000 Yuri_CannonOneEarPlugging_Shot_Right 0 3 1 0 0.0 0.0 0.0 0.0 
- unused_human_anim_72 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
  unused_human_anim_73 0 0  1
   1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
  unused_human_anim_74 0 0  1

@@ -625,6 +625,14 @@ meshes = [
   ("button1_down", 0, "button1_down", 0, 0, 0, 0, 0, 0, 1, 1, 1), 
   ## ZZ Custom Kingdom Troops end
   
+  ("faction_technologies_tech_available", 0, "faction_technologies_tech_available", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("faction_technologies_tech_unavailable", 0, "faction_technologies_tech_unavailable", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("faction_technologies_tech_invented", 0, "faction_technologies_tech_invented", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("faction_technologies_tech_inprogress", 0, "faction_technologies_tech_inprogress", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("faction_technologies_tech_shadow", 0, "faction_technologies_tech_shadow", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("faction_technologies_photo", 0, "faction_technologies_photo", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("faction_technologies_photo_shadow", 0, "faction_technologies_photo_shadow", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("faction_technologies_connection_line", 0, "faction_technologies_connection_line", 0, 0, 0, 0, 0, 0, 1, 1, 1),
 ]
 
 # modmerger_start version=201 type=2

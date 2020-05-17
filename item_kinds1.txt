@@ -1,5 +1,5 @@
 itemsfile version 3
-1111
+1114
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -2679,17 +2679,17 @@ itemsfile version 3
  0
 0
 
- itm_ammo_rifle Caliber_Rifle_Ammo Caliber_Rifle_Ammo 3  belt_ammo 0  bullet_projectile 2305843009213693952  bullet_packs 3458764513820540928  98310 0 100 4398046511104 0.250000 75 0 0 0 0 0 0 0 0 30 256 0
+ itm_ammo_rifle Ammunition_of_Rifle_Caliber Ammunition_of_Rifle_Caliber 3  belt_ammo 0  bullet_projectile 2305843009213693952  bullet_packs 3458764513820540928  98310 0 100 4398046511104 0.250000 75 0 0 0 0 0 0 0 0 40 256 0
  0
 1
 -52.000000  3 4 0 1975 3 1008806316530991164 1 8 3 0 
 
- itm_ammo_pistol Caliber_Pistol_Ammo Caliber_Pistol_Ammo 3  belt_ammo 0  bullet_projectile 2305843009213693952  bullet_packs 3458764513820540928  98322 0 100 4398046511104 0.250000 75 0 0 0 0 0 0 0 0 30 256 0
+ itm_ammo_pistol Ammunition_of_Pistol_Caliber Ammunition_of_Pistol_Caliber 3  belt_ammo 0  bullet_projectile 2305843009213693952  bullet_packs 3458764513820540928  98322 0 100 4398046511104 0.250000 75 0 0 0 0 0 0 0 0 30 256 0
  0
 1
 -52.000000  3 4 0 1975 3 1008806316530991164 1 8 3 0 
 
- itm_ammo_rifle_double Caliber_Rifle_Ammo_Double Caliber_Rifle_Ammo_Double 3  belt_ammo2 0  bullet_projectile 2305843009213693952  bullet_packs 3458764513820540928  65542 0 100 4398046511104 0.750000 75 0 0 0 0 0 0 0 0 60 256 0
+ itm_ammo_rifle_double Doubled_Ammunition_of_Rifle_Caliber Doubled_Ammunition_of_Rifle_Caliber 3  belt_ammo2 0  bullet_projectile 2305843009213693952  bullet_packs 3458764513820540928  65542 0 100 4398046511104 0.750000 75 0 0 0 0 0 0 0 0 80 256 0
  0
 1
 -52.000000  3 4 0 1975 3 1008806316530991164 1 8 3 0 
@@ -3436,11 +3436,11 @@ itemsfile version 3
  54
 0
 
- itm_sidearm_colt_m1851_navy Colt_M1851_Navy Colt_M1851_Navy 2  colt_m1851_navy 0  pistol_holster1 3458764513820540928  4259856 518080888832 500 131082 1.750000 100 0 0 95 0 0 40 320 0 6 306 0
+ itm_sidearm_colt_m1851_navy Colt_M1851_Navy Colt_M1851_Navy 2  colt_m1851_navy 0  pistol_holster1 3458764513820540928  4259856 518080888832 500 131082 1.750000 130 0 0 95 0 0 40 320 0 6 306 0
  0
 0
 
- itm_sidearm_bacon1 Bacon_Pocket_Revolver Bacon_Pocket_Revolver 2  bacon 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 85 0 0 50 150 0 6 296 0
+ itm_sidearm_bacon1 Bacon_Pocket_Revolver Bacon_Pocket_Revolver 2  bacon 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 50 0 0 85 0 0 50 150 0 6 296 0
  0
 0
 
@@ -3480,11 +3480,11 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_pepperbox1 Pepper-box_Revolver Pepper-box_Revolver 2  pepperbox1 0  pepperbox1 3458764513820540928  4259856 483721150464 300 131082 1.000000 100 0 0 85 0 0 50 150 0 6 291 0
+ itm_sidearm_pepperbox1 Pepper-box_Revolver Pepper-box_Revolver 2  pepperbox1 0  pepperbox1 3458764513820540928  4259856 483721150464 300 131082 1.000000 70 0 0 85 0 0 50 150 0 6 291 0
  0
 0
 
- itm_sidearm_pepperbox2 Pepper-box_Pistol Pepper-box_Pistol 2  pepperbox2 0  pepperbox2 3458764513820540928  4259856 483721150464 300 131082 1.000000 100 0 0 85 0 0 50 150 0 4 296 0
+ itm_sidearm_pepperbox2 Pepper-box_Pistol Pepper-box_Pistol 2  pepperbox2 0  pepperbox2 3458764513820540928  4259856 483721150464 300 131082 1.000000 70 0 0 85 0 0 50 150 0 4 296 0
  0
 0
 
@@ -4676,7 +4676,7 @@ itemsfile version 3
  0
 0
 
- itm_canister_shot_small canister_shot_small canister_shot_small 1  belt_ammo 0  6357001 555929845760 400 131082 4.000000 100 0 0 86 0 0 52 700 0 5 276 0
+ itm_canister_shot_small canister_shot_small canister_shot_small 1  belt_ammo 0  6291465 555929845760 400 131082 4.000000 100 0 0 86 0 0 52 700 0 5 276 0
  0
 0
 
@@ -4708,6 +4708,19 @@ itemsfile version 3
  itm_sidearm_c93 Borchardt_C-93 Borchardt_C-93 2  c93 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 90 0 0 50 210 0 8 301 0
  0
 0
+
+ itm_sidearm_colt1892 Colt_M1892 Colt_M1892 2  colt1892 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 90 0 0 50 210 0 6 304 0
+ 0
+0
+
+ itm_sidearm_colt1849 Colt_M1849_Pocket_Revolver Colt_M1849_Pocket_Revolver 2  colt1849 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 90 0 0 50 210 0 6 304 0
+ 0
+0
+
+ itm_ammo_pistol_double Doubled_Ammunition_of_Pistol_Caliber Doubled_Ammunition_of_Pistol_Caliber 3  belt_ammo 0  bullet_projectile 2305843009213693952  bullet_packs 3458764513820540928  65554 0 100 4398046511104 0.250000 75 0 0 0 0 0 0 0 0 100 256 0
+ 0
+1
+-52.000000  3 4 0 1975 3 1008806316530991164 1 8 3 0 
 
  itm_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0

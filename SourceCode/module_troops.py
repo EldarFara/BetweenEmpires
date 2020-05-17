@@ -120,7 +120,7 @@ items_european_rural_clothing_male = [itm_clothes_urban_male_trousers1, itm_clot
 items_melee_civilian_rural = [itm_sickle, itm_cleaver, itm_knife, itm_butchering_knife, itm_dagger, itm_clothes_urban_male3, itm_civilian_hat1, itm_falchion]
 items_smoothbore_pistols = [itm_ammo_pistol, itm_sidearm_flintlock_pistol1, itm_sidearm_caplock_pistol1]
 items_pocket_pistols = [itm_ammo_pistol, itm_sidearm_bacon1, itm_sidearm_pepperbox1, itm_sidearm_pepperbox2]
-items_revolvers = [itm_ammo_pistol, itm_sidearm_colt_dragoon, itm_sidearm_smithwesson_no2, itm_sidearm_remington1, itm_sidearm_colt_m1851_navy, itm_sidearm_gasser, itm_sidearm_savage_revolver, itm_sidearm_colt_m1873]
+items_revolvers = [itm_ammo_pistol, itm_sidearm_colt_dragoon, itm_sidearm_remington1, itm_sidearm_colt_m1851_navy, itm_sidearm_savage_revolver]
 items_bandit_rifles = [itm_ammo_rifle, itm_rifle_sharps, itm_rifle_winchester_m1873, itm_rifle_spencer, itm_rifle_spencer_carbine]
 
 items_european_horses = [itm_horse_european1, itm_horse_european3, itm_horse_european3]

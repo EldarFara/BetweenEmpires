@@ -17366,6 +17366,238 @@ presentations = [
   ]), 
  
 ## ZZ Custom Kingdom Troops end
+
+("faction_technologies",0,mesh_load_window,[
+(ti_on_presentation_load,
+	[
+	(assign, "$g_faction_technologies_selected_tech", -1),
+	(assign, "$g_faction_technologies_currentinprogress_tech_overlay", -1),
+	(set_fixed_point_multiplier, 1000),
+	(str_store_faction_name, s1, "fac_player_faction"),
+	(create_text_overlay, reg1, "@Military Technologies of the {s1}", tf_center_justify),
+	(position_set_x, pos1, 500), (position_set_y, pos1, 690), (overlay_set_position, reg1, pos1),
+	(create_game_button_overlay, "$g_faction_technologies_close", "@Close"),
+	(position_set_x, pos1, 835), (position_set_y, pos1, 30), (overlay_set_position, "$g_faction_technologies_close", pos1),
+	(create_game_button_overlay, "$g_faction_technologies_research", "@Research"),
+	(position_set_x, pos1, -835), (position_set_y, pos1, 87), (overlay_set_position, "$g_faction_technologies_research", pos1),
+	(create_text_overlay, "$g_faction_technologies_selected_tech_name", "@ ", tf_center_justify),
+	(create_text_overlay, "$g_faction_technologies_selected_tech_description", "@ ", tf_center_justify),
+	(str_store_string, s1, "@Select technology"), (call_script,"script_pts_create_selected_tech_name"),
+	(create_mesh_overlay, "$g_faction_technologies_photo_shadow", "mesh_faction_technologies_photo_shadow"),
+	(position_set_x, pos1, 835), (position_set_y, pos1, 270), (overlay_set_position, "$g_faction_technologies_photo_shadow", pos1),
+	(position_set_x, pos1, 1000), (position_set_y, pos1, 1000), (overlay_set_size, "$g_faction_technologies_photo_shadow", pos1),
+	(create_mesh_overlay, "$g_faction_technologies_photo", "mesh_faction_technologies_photo"),
+	(position_set_x, pos1, 835), (position_set_y, pos1, 270), (overlay_set_position, "$g_faction_technologies_photo", pos1),
+	(position_set_x, pos1, 1000), (position_set_y, pos1, 1000), (overlay_set_size, "$g_faction_technologies_photo", pos1),
+	(create_text_overlay, "$g_faction_technologies_selected_tech_cost_date_text", "@ ", tf_left_align),
+	(position_set_x, pos1, 690), (position_set_y, pos1, 400), (overlay_set_position, "$g_faction_technologies_selected_tech_cost_date_text", pos1),
+	(position_set_x, pos1, 750), (position_set_y, pos1, 750), (overlay_set_size, "$g_faction_technologies_selected_tech_cost_date_text", pos1),
+	
+	# Container
+	(str_clear, s0),
+	(create_text_overlay, "$g_faction_technologies_tech_container", s0, tf_scrollable),
+	(position_set_x, pos1, 60), (position_set_y, pos1, 35), (overlay_set_position, "$g_faction_technologies_tech_container", pos1),
+	(position_set_x, pos1, 600), (position_set_y, pos1, 600), (overlay_set_area_size, "$g_faction_technologies_tech_container", pos1),
+	(set_container_overlay, "$g_faction_technologies_tech_container"),
+	(position_set_x, pos2, 700), (position_set_y, pos2, 700), (position_set_x, pos3, 1000), (position_set_y, pos3, 1000),
+	
+	# Connection lines
+	(create_mesh_overlay, reg1, "mesh_faction_technologies_connection_line"),
+	(position_set_x, pos1, 110), (position_set_y, pos1, 1100), (overlay_set_position, reg1, pos1),
+	(position_set_x, pos1, 100), (position_set_y, pos1, 35000), (overlay_set_size, reg1, pos1),
+	(create_mesh_overlay, reg1, "mesh_faction_technologies_connection_line"),
+	(position_set_x, pos1, 410), (position_set_y, pos1, 1100), (overlay_set_position, reg1, pos1),
+	(position_set_x, pos1, 100), (position_set_y, pos1, 20800), (overlay_set_size, reg1, pos1),
+	(create_mesh_overlay, reg1, "mesh_faction_technologies_connection_line"),
+	(position_set_x, pos1, 407), (position_set_y, pos1, 722), (overlay_set_position, reg1, pos1),
+	(position_set_x, pos1, 10298), (position_set_y, pos1, 100), (overlay_set_size, reg1, pos1),
+	(create_mesh_overlay, reg1, "mesh_faction_technologies_connection_line"),
+	(position_set_x, pos1, 315), (position_set_y, pos1, 720), (overlay_set_position, reg1, pos1),
+	(position_set_x, pos1, 100), (position_set_y, pos1, 10000), (overlay_set_size, reg1, pos1),
+	(create_mesh_overlay, reg1, "mesh_faction_technologies_connection_line"),
+	(position_set_x, pos1, 505), (position_set_y, pos1, 720), (overlay_set_position, reg1, pos1),
+	(position_set_x, pos1, 100), (position_set_y, pos1, 10000), (overlay_set_size, reg1, pos1),
+	
+	# Techs
+	(position_set_x, pos1, 110), (position_set_y, pos1, 1100), (str_store_string, s1, "@Rifled Muskets"),
+	(call_script,"script_pts_create_tech_button", slot_faction_technology_riflesrifled, 0), (assign, "$g_faction_technologies_tech_riflesrifled", reg1),
+	(position_set_x, pos1, 110), (position_set_y, pos1, 950), (str_store_string, s1, "@Percussive Explosive^^Shells"),
+	(call_script,"script_pts_create_tech_button", slot_faction_technology_earlyshells, 7), (assign, "$g_faction_technologies_tech_earlyshells", reg1),
+	(position_set_x, pos1, 110), (position_set_y, pos1, 800), (str_store_string, s1, "@Shooting Training"),
+	(call_script,"script_pts_create_tech_button", slot_faction_technology_shootingtraining, 0), (assign, "$g_faction_technologies_tech_shootingtraining", reg1),
+	(position_set_x, pos1, 110), (position_set_y, pos1, 650), (str_store_string, s1, "@Amercan Civil War^^Logistical Experience"),
+	(call_script,"script_pts_create_tech_button", slot_faction_technology_acwexperience, 8), (assign, "$g_faction_technologies_tech_acwexperience", reg1),
+	(position_set_x, pos1, 410), (position_set_y, pos1, 1100), (str_store_string, s1, "@Crimean War^^Medical Experience"),
+	(call_script,"script_pts_create_tech_button", slot_faction_technology_medicinecrimeanwar, 10), (assign, "$g_faction_technologies_tech_medicinecrimeanwar", reg1),
+	(position_set_x, pos1, 410), (position_set_y, pos1, 950), (str_store_string, s1, "@Conscription"),
+	(call_script,"script_pts_create_tech_button", slot_faction_technology_conscription, 0), (assign, "$g_faction_technologies_tech_conscription", reg1),
+	(position_set_x, pos1, 410), (position_set_y, pos1, 800), (str_store_string, s1, "@Breech-loaded^^Rifles"),
+	(call_script,"script_pts_create_tech_button", slot_faction_technology_riflesconverted, 10), (assign, "$g_faction_technologies_tech_riflesconverted", reg1),
+	(position_set_x, pos1, 315), (position_set_y, pos1, 650), (str_store_string, s1, "@Rifled Cannons"),
+	(call_script,"script_pts_create_tech_button", slot_faction_technology_cannonsrifling, 0), (assign, "$g_faction_technologies_tech_cannonsrifling", reg1),
+	(position_set_x, pos1, 505), (position_set_y, pos1, 650), (str_store_string, s1, "@Increase of Ammunition"),
+	(call_script,"script_pts_create_tech_button", slot_faction_technology_ammoincrease, 0), (assign, "$g_faction_technologies_tech_ammoincrease", reg1),
+	
+	
+
+	(set_container_overlay, -1),
+	
+	(presentation_set_duration, 999999),
+]),
+(ti_on_presentation_event_state_change,
+	[
+	(store_trigger_param_1, ":object"),
+ 
+	(try_begin),
+	(eq, ":object", "$g_faction_technologies_close"),
+	(presentation_set_duration, 0),
+	(else_try),
+	(eq, ":object", "$g_faction_technologies_research"),
+	(faction_get_slot, ":progress", "fac_player_faction", "$g_faction_technologies_selected_tech"),
+	(store_troop_gold, ":gold", "trp_player"),
+		(try_begin),
+		(eq, ":progress", -1),
+		(lt, ":gold", "$g_faction_technologies_selected_tech_cost"),
+		(display_message, "@You do not have enough money."),
+		(try_end),
+	(this_or_next|ge, ":gold", "$g_faction_technologies_selected_tech_cost"),
+	(neq, ":progress", -1),
+		(try_begin),
+		(neq, "$g_faction_technologies_currentinprogress_tech_overlay", -1),
+		(overlay_set_material, "$g_faction_technologies_currentinprogress_tech_overlay", "@faction_technologies_tech_available"),
+		(try_end),
+	(overlay_set_material, "$g_faction_technologies_selected_tech_overlay", "@faction_technologies_tech_inprogress"),
+	(assign, "$g_faction_technologies_currentinprogress_tech_overlay", "$g_faction_technologies_selected_tech_overlay"),
+	(faction_set_slot, "fac_player_faction", slot_faction_current_research_technology, "$g_faction_technologies_selected_tech"),
+	(eq, ":progress", -1),
+	(troop_remove_gold, "trp_player", "$g_faction_technologies_selected_tech_cost"),
+	(faction_set_slot, "fac_player_faction", "$g_faction_technologies_selected_tech", 0),
+	(else_try),
+	(eq, ":object", "$g_faction_technologies_tech_riflesrifled"),
+	(str_store_string, s1, "@Rifled Muskets"), (call_script,"script_pts_create_selected_tech_name"),
+	(str_store_string, s1, "@Crimean war has clearly shown advantage of rifled guns - they significantly increase the\
+	effective range of fire, that even exceeds cannon grapeshot range. At first, the rearmament to rifled muskets was hampered\
+	by the fact that they were hard to reload from the muzzle, but with new inventions like Minie ball, we can rifle our\
+	already existing muskets without fear of increasing their reloading time.^^Effects: army changes it's firearms to rifled muskets."), (call_script,"script_pts_create_selected_tech_description"),
+	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_riflesrifled"),
+	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_riflesrifled),
+	(assign, "$g_faction_technologies_selected_tech_cost", 2500), (assign, "$g_faction_technologies_selected_tech_date", 1856),
+	(else_try),
+	(eq, ":object", "$g_faction_technologies_tech_conscription"),
+	(str_store_string, s1, "@Conscription"), (call_script,"script_pts_create_selected_tech_name"),
+	(str_store_string, s1, "@Latest achievements in military logistics and industry allow to arm, supply and deploy much\
+	more people at the same time than before. If we subject the entire male population of our country to military service for a\
+	few years, we will be able to increase the number of recruits in our army, while not greatly affecting the civilian industry.\
+	^^Effects: Increases party size limit of all faction party leaders by 10%."), (call_script,"script_pts_create_selected_tech_description"),
+	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_conscription"),
+	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_conscription),
+	(assign, "$g_faction_technologies_selected_tech_cost", 2000), (assign, "$g_faction_technologies_selected_tech_date", 1860),
+	(else_try),
+	(eq, ":object", "$g_faction_technologies_tech_earlyshells"),
+	(str_store_string, s1, "@Percussive Explosive^^Shells"), (call_script,"script_pts_create_selected_tech_name"),
+	(str_store_string, s1, "@Modern machinery allows mass production of percussive mechanisms, with which shells will explode\
+	on impact. Using percussive explosion shells instead of burning fuse allows to decrease cannon reloading time \
+	(because cannoneers needed to manually select length of fuse), though first percussive mechanisms are imperfect\
+	and have chance to not trigger.^^Effects: all artillery pieces will fire with percussive explosion shells. Decreases\
+	howitzers reloading time."), (call_script,"script_pts_create_selected_tech_description"),
+	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_earlyshells"),
+	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_earlyshells),
+	(assign, "$g_faction_technologies_selected_tech_cost", 2500), (assign, "$g_faction_technologies_selected_tech_date", 1860),
+	(else_try),
+	(eq, ":object", "$g_faction_technologies_tech_medicinecrimeanwar"),
+	(str_store_string, s1, "@Crimean War^^Medical Experience"), (call_script,"script_pts_create_selected_tech_name"),
+	(str_store_string, s1, "@Crimean War resulted in deaths of 300 thousands people, including 200 thousands dying from\
+	diseases rather than battle wounds. This backdrop of death and disease prompted medical innovations on all sides of\
+	the war, whose effects significantly changed shape of medical strategy in the field. Using experience of that war to\
+	improve our field surgery will allow us to save more lives in future wars.^^Effects: Increases chance of soldiers\
+	surviving critical hit by 10%."), (call_script,"script_pts_create_selected_tech_description"),
+	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_medicinecrimeanwar"),
+	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_medicinecrimeanwar),
+	(assign, "$g_faction_technologies_selected_tech_cost", 2000), (assign, "$g_faction_technologies_selected_tech_date", 1856),
+	(else_try),
+	(eq, ":object", "$g_faction_technologies_tech_shootingtraining"),
+	(str_store_string, s1, "@Shooting Training"), (call_script,"script_pts_create_selected_tech_name"),
+	(str_store_string, s1, "@The widespread use of rifled guns increased the requirements for shooting skills among soldiers. \
+	If we significantly increase the role of shooting training in combat training programs for soldiers, we can unleash the potential\
+	of rifles and increase the accuracy of shooting in combat, but at the cost of increasing the cost of ammunition used for training.\
+	^^Effects: Increases accuracy of shooting by 10%."), (call_script,"script_pts_create_selected_tech_description"),
+	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_shootingtraining"),
+	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_shootingtraining),
+	(assign, "$g_faction_technologies_selected_tech_cost", 1500), (assign, "$g_faction_technologies_selected_tech_date", 1860),
+	(else_try),
+	(eq, ":object", "$g_faction_technologies_tech_riflesconverted"),
+	(str_store_string, s1, "@Breech-loaded^^Rifles"), (call_script,"script_pts_create_selected_tech_name"),
+	(str_store_string, s1, "@Breech-loading rifle can be reloaded from the breech side, and thus have a lot higher rate of fire than that\
+	of muzzle-loading ones. However, process of rearming to breech-loading rifles has several difficulties. Producing of breech-loading\
+	mechanisms for such a massive army requires high production capacity and precision engineering, while high rate of fire will significantly\
+	increase ammunition consumption among soldiers and can change the battle tactics, which has been formed around muzzle-loading guns over\
+	the centuries, which the higher ranks and military theorists will not like. First step in rearming can be converting existing muzzle-loading\
+	rifles to breech-loading ones: it will be cheaper than adopting brand new weapon model, though this way has several issues, because existing\
+	rifles are not intended to fire so fast.\
+	^^Effects: army changes it's firearms to converted breech-loading rifles."), (call_script,"script_pts_create_selected_tech_description"),
+	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_riflesconverted"),
+	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_riflesconverted),
+	(assign, "$g_faction_technologies_selected_tech_cost", 3500), (assign, "$g_faction_technologies_selected_tech_date", 1866),
+	(else_try),
+	(eq, ":object", "$g_faction_technologies_tech_cannonsrifling"),
+	(str_store_string, s1, "@Rifled Cannons"), (call_script,"script_pts_create_selected_tech_name"),
+	(str_store_string, s1, "@desc"), (call_script,"script_pts_create_selected_tech_description"),
+	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_cannonsrifling"),
+	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_cannonsrifling),
+	(assign, "$g_faction_technologies_selected_tech_cost", 3000), (assign, "$g_faction_technologies_selected_tech_date", 1866),
+	(else_try),
+	(eq, ":object", "$g_faction_technologies_tech_acwexperience"),
+	(str_store_string, s1, "@Amercan Civil War^^Logistical Experience"), (call_script,"script_pts_create_selected_tech_name"),
+	(str_store_string, s1, "@desc"), (call_script,"script_pts_create_selected_tech_description"),
+	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_acwexperience"),
+	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_acwexperience),
+	(assign, "$g_faction_technologies_selected_tech_cost", 1500), (assign, "$g_faction_technologies_selected_tech_date", 1865),
+	(else_try),
+	(eq, ":object", "$g_faction_technologies_tech_ammoincrease"),
+	(str_store_string, s1, "@Increase of Ammunition"), (call_script,"script_pts_create_selected_tech_name"),
+	(str_store_string, s1, "@desc"), (call_script,"script_pts_create_selected_tech_description"),
+	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_ammoincrease"),
+	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_ammoincrease),
+	(assign, "$g_faction_technologies_selected_tech_cost", 2000), (assign, "$g_faction_technologies_selected_tech_date", 1866),
+	(try_end),
+
+	(try_begin),
+	(this_or_next|eq, ":object", "$g_faction_technologies_tech_medicinecrimeanwar"),
+	(this_or_next|eq, ":object", "$g_faction_technologies_tech_shootingtraining"),
+	(this_or_next|eq, ":object", "$g_faction_technologies_tech_earlyshells"),
+	(this_or_next|eq, ":object", "$g_faction_technologies_tech_riflesrifled"),
+	(this_or_next|eq, ":object", "$g_faction_technologies_tech_conscription"),
+	(eq, ":object", "$g_faction_technologies_tech_riflesconverted"),
+	(assign, "$g_faction_technologies_selected_tech_overlay", ":object"),
+	(assign, reg0, "$g_faction_technologies_selected_tech_cost"), (assign, reg1, "$g_faction_technologies_selected_tech_date"),
+		(try_begin),
+		(str_clear, s1), (str_clear, s2),
+		(faction_get_slot, ":progress", "fac_player_faction", "$g_faction_technologies_selected_tech"),
+		(ge, ":progress", 0),
+		(str_store_string, s1, "@ (already invested)"),
+			(try_begin),
+			(eq, ":progress", 10000),
+			(str_store_string, s1, "@ (already researched)"),
+			(try_end),
+		(gt, ":progress", 0),
+		(neq, ":progress", 10000),
+		(assign, reg2, ":progress"), (val_div, reg2, 100),
+		(str_store_string, s2, "@ Current progress - {reg2}%."),
+		(try_end),
+	(overlay_set_text, "$g_faction_technologies_selected_tech_cost_date_text", "@Cost - {reg0} pounds{s1}.^Available after {reg1} year.{s2}"),
+		(try_begin),
+		(call_script,"script_cf_pts_check_tech_availability", "$g_faction_technologies_selected_tech", "fac_player_faction"),
+		(faction_get_slot, ":progress", "fac_player_faction", "$g_faction_technologies_selected_tech"),
+		(neq, ":progress", 10000),
+		(position_set_x, pos1, 835), (position_set_y, pos1, 87), (overlay_set_position, "$g_faction_technologies_research", pos1),
+		(else_try),
+		(position_set_x, pos1, -835), (position_set_y, pos1, 100), (overlay_set_position, "$g_faction_technologies_research", pos1),
+		(try_end),
+	(try_end),
+]),
+]),
+
+
 	
   ]
   

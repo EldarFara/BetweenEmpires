@@ -8,6 +8,9 @@ from ID_factions import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+faction_technologies_number = 19
+faction_technology_preset_year = faction_technologies_number
+
 cannons_limit = 5
 
 howitzer_muzzle_velocity = 85
@@ -418,26 +421,33 @@ slot_faction_truce_days_with_factions_begin 			= 120
 slot_faction_provocation_days_with_factions_begin 		= 160
 slot_faction_war_damage_inflicted_on_factions_begin 	= 200
 slot_faction_sum_advice_about_factions_begin 			= 240
-slot_faction_technology_rifle_type 			= 280
-slot_faction_preset_year_to_switch_rifle_type_to_smoothbore    = 281
-slot_faction_preset_year_to_switch_rifle_type_to_rifled        = 282
-slot_faction_preset_year_to_switch_rifle_type_to_converted     = 283
-slot_faction_preset_year_to_switch_rifle_type_to_smallcaliber  = 284
-slot_faction_preset_year_to_switch_rifle_type_to_boltaction    = 285
-slot_faction_technology_cannon_projectile_type 			= 286
-slot_faction_technology_cannon_rifling_type 		     	= 287
-slot_faction_technology_cannon_he_type  		        	= 288
-slot_faction_technology_cannon_loading_type  		    = 289
-slot_faction_preset_year_to_switch_cannon_projectile_type_to_early_shell   = 290
-slot_faction_preset_year_to_switch_cannon_projectile_type_to_late_shell    = 291
-slot_faction_preset_year_to_switch_cannon_rifling_type_to_rifled    = 292
-slot_faction_preset_year_to_switch_cannon_he_type_to_late_he    = 293
-slot_faction_preset_year_to_switch_cannon_loading_type_to_breechloading    = 294
-slot_faction_fieldgun_cannoneer_officer   	 = 295
-slot_faction_howitzer_cannoneer_officer    	 = 296
-slot_faction_fieldgun_cannoneer    			 = 297
-slot_faction_howitzer_cannoneer    			 = 298
-slot_faction_reinforcements_artillery   	 = 299
+slot_faction_ve_mod_slots_begin = 300
+slot_faction_fieldgun_cannoneer_officer   	 = slot_faction_ve_mod_slots_begin + 1
+slot_faction_howitzer_cannoneer_officer    	 = slot_faction_ve_mod_slots_begin + 2
+slot_faction_fieldgun_cannoneer    			 = slot_faction_ve_mod_slots_begin + 3
+slot_faction_howitzer_cannoneer    			 = slot_faction_ve_mod_slots_begin + 4
+slot_faction_reinforcements_artillery   	 = slot_faction_ve_mod_slots_begin + 5
+slot_faction_technology_earlyshells   			 = slot_faction_ve_mod_slots_begin + 6
+slot_faction_technology_medicinecrimeanwar   	 = slot_faction_ve_mod_slots_begin + 7
+slot_faction_technology_shootingtraining   		 = slot_faction_ve_mod_slots_begin + 8
+slot_faction_technology_riflesconverted   		 = slot_faction_ve_mod_slots_begin + 9
+slot_faction_technology_riflessmallcaliber   	 = slot_faction_ve_mod_slots_begin + 10
+slot_faction_technology_riflesboltaction   		 = slot_faction_ve_mod_slots_begin + 11
+slot_faction_technology_lateshells		   		 = slot_faction_ve_mod_slots_begin + 12
+slot_faction_technology_hetypelate		   		 = slot_faction_ve_mod_slots_begin + 13
+slot_faction_technology_cannonsrifling		   	 = slot_faction_ve_mod_slots_begin + 14
+slot_faction_technology_cannonsbreechloading		 = slot_faction_ve_mod_slots_begin + 15
+slot_faction_technology_conscription			 = slot_faction_ve_mod_slots_begin + 16
+slot_faction_technology_acwexperience	 		 = slot_faction_ve_mod_slots_begin + 17
+slot_faction_technology_ammoincrease			 = slot_faction_ve_mod_slots_begin + 18
+slot_faction_technology_4					 = slot_faction_ve_mod_slots_begin + 19
+slot_faction_technology_5					 = slot_faction_ve_mod_slots_begin + 20
+slot_faction_technology_6					 = slot_faction_ve_mod_slots_begin + 21
+slot_faction_technology_7 					 = slot_faction_ve_mod_slots_begin + 22
+slot_faction_technology_8					 = slot_faction_ve_mod_slots_begin + 23
+slot_faction_technology_riflesrifled		 = slot_faction_ve_mod_slots_begin + 24
+# 24 - 43 are occupied with presets
+slot_faction_current_research_technology		 = slot_faction_ve_mod_slots_begin + 44
 
 #revolts -- notes for self
 #type 1 -- minor revolt, aimed at negotiating change without changing the ruler

@@ -1357,7 +1357,7 @@ items = [
 
 ["sidearm_colt_m1873","Colt Single Action Army", [("colt_m1873", 0),("pistol_holster1", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,price_pistol_average, weight(1)|abundance(100)|accuracy(accuracy_rifled_pistol_medium)|spd_rtng(50)|shoot_speed(198)|max_ammo(6)|thrust_damage(45, pierce), imodbits_firearm, []],
 
-  ["ammo_rifle","Caliber_Rifle_Ammo", [("belt_ammo", 0),("bullet_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bolts|itp_default_ammo|itp_merchandise, 0,100, weight(0.4)|abundance(75)|max_ammo(30)|thrust_damage(0, pierce), imodbit_large_bag, [
+  ["ammo_rifle","Ammunition of Rifle Caliber", [("belt_ammo", 0),("bullet_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bolts|itp_default_ammo|itp_merchandise, 0,100, weight(0.4)|abundance(75)|max_ammo(40)|thrust_damage(0, pierce), imodbit_large_bag, [
     (ti_on_missile_hit, [
       (try_begin),
         (particle_system_burst_no_sync, "psys_bullet_hit", pos1, 8),
@@ -1366,7 +1366,7 @@ items = [
    ]],
 
    
-  ["ammo_pistol","Caliber_Pistol_Ammo", [("belt_ammo", 0),("bullet_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bullets|itp_default_ammo|itp_merchandise, 0,100, weight(0.4)|abundance(75)|max_ammo(30)|thrust_damage(0, pierce), imodbit_large_bag, [
+  ["ammo_pistol","Ammunition of Pistol Caliber", [("belt_ammo", 0),("bullet_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bullets|itp_default_ammo|itp_merchandise, 0,100, weight(0.4)|abundance(75)|max_ammo(30)|thrust_damage(0, pierce), imodbit_large_bag, [
     (ti_on_missile_hit, [
       (try_begin),
         (particle_system_burst_no_sync, "psys_bullet_hit", pos1, 8),
@@ -1375,7 +1375,7 @@ items = [
    ]],
 
    
-  ["ammo_rifle_double","Caliber_Rifle_Ammo_Double", [("belt_ammo2", 0),("bullet_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bolts|itp_merchandise, 0,100, weight(0.8)|abundance(75)|max_ammo(60)|thrust_damage(0, pierce), imodbit_large_bag, [
+  ["ammo_rifle_double","Doubled Ammunition of Rifle Caliber", [("belt_ammo2", 0),("bullet_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bolts|itp_merchandise, 0,100, weight(0.8)|abundance(75)|max_ammo(80)|thrust_damage(0, pierce), imodbit_large_bag, [
     (ti_on_missile_hit, [
       (try_begin),
         (particle_system_burst_no_sync, "psys_bullet_hit", pos1, 8),
@@ -1578,8 +1578,8 @@ items = [
 ["gho_hat7","Persian Fez", [("gho_hat7", 0)], itp_type_head_armor|itp_civilian|itp_attach_armature|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_12]],
 
 
-["sidearm_colt_m1851_navy","Colt M1851 Navy", [("colt_m1851_navy", 0),("pistol_holster1", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,price_pistol_average, weight(1.9)|abundance(100)|accuracy(accuracy_rifled_pistol_good)|spd_rtng(40)|shoot_speed(320)|max_ammo(6)|thrust_damage(50, pierce), imodbits_firearm, []],
-["sidearm_bacon1","Bacon Pocket Revolver", [("bacon", 0),("pistol_holster1b", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,price_pistol_belowaverage, weight(1.3)|abundance(100)|accuracy(accuracy_rifled_pistol_bad)|spd_rtng(50)|shoot_speed(150)|max_ammo(6)|thrust_damage(40, pierce), imodbits_firearm, []],
+["sidearm_colt_m1851_navy","Colt M1851 Navy", [("colt_m1851_navy", 0),("pistol_holster1", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,price_pistol_average, weight(1.9)|abundance(130)|accuracy(accuracy_rifled_pistol_good)|spd_rtng(40)|shoot_speed(320)|max_ammo(6)|thrust_damage(50, pierce), imodbits_firearm, []],
+["sidearm_bacon1","Bacon Pocket Revolver", [("bacon", 0),("pistol_holster1b", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,price_pistol_belowaverage, weight(1.3)|abundance(50)|accuracy(accuracy_rifled_pistol_bad)|spd_rtng(50)|shoot_speed(150)|max_ammo(6)|thrust_damage(40, pierce), imodbits_firearm, []],
 ["rifle_sharps","Sharps Rifle", [("sharps", 0),("sharps_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,800, weight(4.3)|abundance(100)|accuracy(accuracy_small_caliber_rifle+4)|spd_rtng(speed_small_caliber_rifle)|shoot_speed(shot_speed_small_caliber_rifle)|max_ammo(1)|thrust_damage(damage_rifle, pierce), imodbits_firearm, []],
 ["rifle_sharps_m","Sharps Rifle", [("sharps", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(120)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],
 ["rifle_winchester_m1873","Winchester M1873 Rifle", [("winchester_m1873", 0),("winchester_m1873_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,800, weight(4.3)|abundance(100)|accuracy(accuracy_small_caliber_rifle-15)|spd_rtng(speed_small_caliber_rifle-30)|shoot_speed(shot_speed_small_caliber_rifle)|max_ammo(12)|thrust_damage(damage_rifle-15, pierce), imodbits_firearm, []],
@@ -1589,8 +1589,8 @@ items = [
 ["rifle_spencer_carbine","Spencer Repeating Carbine", [("spencer_repeating_carbine", 0),("spencer_repeating_carbine_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,800, weight(3.3)|abundance(100)|accuracy(int(accuracy_small_caliber_rifle*accuracy_carbine_modifier)-5)|spd_rtng(int(speed_small_caliber_rifle*speed_carbine_modifier)-30)|shoot_speed(shot_speed_small_caliber_rifle)|max_ammo(7)|thrust_damage(damage_rifle-10, pierce), imodbits_firearm, []],
 ["rifle_spencer_carbine_m","Spencer Repeating Carbine", [("spencer_repeating_carbine", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(3.2)|hit_points(18432)|spd_rtng(75)|weapon_length(120)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],
 ["sidearm_savage_revolver","Savage M1861 Navy", [("savage_revolver", 0),("pistol_holster1", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,price_pistol_average, weight(1.9)|abundance(100)|accuracy(accuracy_rifled_pistol_good)|spd_rtng(35)|shoot_speed(320)|max_ammo(6)|thrust_damage(50, pierce), imodbits_firearm, []],
-["sidearm_pepperbox1","Pepper-box Revolver", [("pepperbox1", 0),("pepperbox1", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,price_pistol_low, weight(1.1)|abundance(100)|accuracy(accuracy_rifled_pistol_bad)|spd_rtng(50)|shoot_speed(150)|max_ammo(6)|thrust_damage(35, pierce), imodbits_firearm, []],
-["sidearm_pepperbox2","Pepper-box Pistol", [("pepperbox2", 0),("pepperbox2", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,price_pistol_low, weight(1.1)|abundance(100)|accuracy(accuracy_rifled_pistol_bad)|spd_rtng(50)|shoot_speed(150)|max_ammo(4)|thrust_damage(40, pierce), imodbits_firearm, []],
+["sidearm_pepperbox1","Pepper-box Revolver", [("pepperbox1", 0),("pepperbox1", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,price_pistol_low, weight(1.1)|abundance(70)|accuracy(accuracy_rifled_pistol_bad)|spd_rtng(50)|shoot_speed(150)|max_ammo(6)|thrust_damage(35, pierce), imodbits_firearm, []],
+["sidearm_pepperbox2","Pepper-box Pistol", [("pepperbox2", 0),("pepperbox2", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol,price_pistol_low, weight(1.1)|abundance(70)|accuracy(accuracy_rifled_pistol_bad)|spd_rtng(50)|shoot_speed(150)|max_ammo(4)|thrust_damage(40, pierce), imodbits_firearm, []],
 
 ["rifle_russian_m1845","Russian M1845 Musket", [("russian_m1845", 0),("russian_m1845_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.7)|abundance(100)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_muzzleloaded_musket)|shoot_speed(shot_speed_musket)|max_ammo(1)|thrust_damage(damage_musket, pierce), imodbits_firearm, []],
 ["rifle_russian_m1845_m","Russian M1845 Musket", [("russian_m1845", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary|itp_cant_use_on_horseback, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(18432)|spd_rtng(75)|weapon_length(120)|thrust_damage(30, pierce)|swing_damage(30, pierce), imodbits_none, []],
@@ -1861,7 +1861,7 @@ items = [
 
 ["sidearm_lemat","LeMat Revolver", [("lemat", 0),("pistol_holster1b", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,400, weight(1.3)|abundance(100)|accuracy(accuracy_rifled_pistol_medium)|spd_rtng(15)|shoot_speed(210)|max_ammo(9)|thrust_damage(35, pierce), imodbits_firearm, []],
 
-["canister_shot_small","canister_shot_small", [("belt_ammo", 0),], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(100)|accuracy(int(accuracy_bolt_action_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_bolt_action_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_bolt_action_rifle)|max_ammo(5)|thrust_damage(20, pierce), imodbits_firearm, []],
+["canister_shot_small","canister_shot_small", [("belt_ammo", 0),], itp_type_crossbow|itp_two_handed|itp_primary, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(100)|accuracy(int(accuracy_bolt_action_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_bolt_action_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_bolt_action_rifle)|max_ammo(5)|thrust_damage(20, pierce), imodbits_firearm, []],
 ["canister_shot_small_projectile","canister_shot_small", [("belt_ammo", 0),("canister_shot_small_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bolts|itp_no_pick_up_from_ground, 0,100, weight(0.4)|abundance(0)|max_ammo(1)|thrust_damage(0, pierce), imodbit_large_bag, [
 (ti_on_missile_hit, [
 	(particle_system_burst_no_sync, "psys_bullet_hit", pos1, 5),
@@ -1874,6 +1874,16 @@ items = [
 ["sidearm_bodeo","Bodeo M1889", [("bodeo", 0),("pistol_holster1b", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,400, weight(1.3)|abundance(100)|accuracy(accuracy_rifled_pistol_medium)|spd_rtng(50)|shoot_speed(210)|max_ammo(6)|thrust_damage(48, pierce), imodbits_firearm, []],
 ["sidearm_webleybulldog","Webley Bull Dog", [("webleybulldog", 0),("pistol_holster1b", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,400, weight(1.3)|abundance(100)|accuracy(accuracy_rifled_pistol_medium)|spd_rtng(50)|shoot_speed(210)|max_ammo(6)|thrust_damage(48, pierce), imodbits_firearm, []],
 ["sidearm_c93","Borchardt C-93", [("c93", 0),("pistol_holster1b", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,400, weight(1.3)|abundance(100)|accuracy(accuracy_rifled_pistol_medium)|spd_rtng(50)|shoot_speed(210)|max_ammo(8)|thrust_damage(45, pierce), imodbits_firearm, []],
+["sidearm_colt1892","Colt M1892", [("colt1892", 0),("pistol_holster1b", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,400, weight(1.3)|abundance(100)|accuracy(accuracy_rifled_pistol_medium)|spd_rtng(50)|shoot_speed(210)|max_ammo(6)|thrust_damage(48, pierce), imodbits_firearm, []],
+["sidearm_colt1849","Colt M1849 Pocket Revolver", [("colt1849", 0),("pistol_holster1b", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,400, weight(1.3)|abundance(100)|accuracy(accuracy_rifled_pistol_medium)|spd_rtng(50)|shoot_speed(210)|max_ammo(6)|thrust_damage(48, pierce), imodbits_firearm, []],
+
+["ammo_pistol_double","Doubled Ammunition of Pistol Caliber", [("belt_ammo", 0),("bullet_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bullets|itp_merchandise, 0,100, weight(0.4)|abundance(75)|max_ammo(100)|thrust_damage(0, pierce), imodbit_large_bag, [
+(ti_on_missile_hit, [
+  (try_begin),
+	(particle_system_burst_no_sync, "psys_bullet_hit", pos1, 8),
+  (try_end),
+]),
+]],
 
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
