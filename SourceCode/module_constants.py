@@ -440,13 +440,13 @@ slot_faction_technology_cannonsbreechloading		 = slot_faction_ve_mod_slots_begin
 slot_faction_technology_conscription			 = slot_faction_ve_mod_slots_begin + 16
 slot_faction_technology_acwexperience	 		 = slot_faction_ve_mod_slots_begin + 17
 slot_faction_technology_ammoincrease			 = slot_faction_ve_mod_slots_begin + 18
-slot_faction_technology_4					 = slot_faction_ve_mod_slots_begin + 19
-slot_faction_technology_5					 = slot_faction_ve_mod_slots_begin + 20
-slot_faction_technology_6					 = slot_faction_ve_mod_slots_begin + 21
-slot_faction_technology_7 					 = slot_faction_ve_mod_slots_begin + 22
-slot_faction_technology_8					 = slot_faction_ve_mod_slots_begin + 23
-slot_faction_technology_riflesrifled		 = slot_faction_ve_mod_slots_begin + 24
-# 24 - 43 are occupied with presets
+slot_faction_technology_skirmishline			 = slot_faction_ve_mod_slots_begin + 19
+slot_faction_technology_adaptivetraining		 = slot_faction_ve_mod_slots_begin + 20
+slot_faction_technology_fourbattalions			 = slot_faction_ve_mod_slots_begin + 21
+slot_faction_technology_improvedlogistics 		 = slot_faction_ve_mod_slots_begin + 22
+slot_faction_technology_woundedevacuation		 = slot_faction_ve_mod_slots_begin + 23
+slot_faction_technology_riflesrifled			 = slot_faction_ve_mod_slots_begin + 24
+# 25 - 43 are occupied with presets
 slot_faction_current_research_technology		 = slot_faction_ve_mod_slots_begin + 44
 
 #revolts -- notes for self
