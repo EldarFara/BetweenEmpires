@@ -1,4 +1,4 @@
-909
+910
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
 qstr_Game_Rules:^ Game_Rules:^
@@ -157,7 +157,7 @@ qstr_Military_Technologie Military_Technologies_of_the_{s1}
 qstr_Research Research
 qstr__ _
 qstr_Select_technology Select_technology
-qstr_Rifled_Muskets Rifled_Muskets
+qstr_Rifled_Caplock^^Musk Rifled_Caplock^^Muskets
 qstr_Percussive_Explosive Percussive_Explosive^^Shells
 qstr_Shooting_Training Shooting_Training
 qstr_American_Civil_War^^ American_Civil_War^^Logistical_Experience
@@ -172,7 +172,7 @@ qstr_Skirmish_Line^^Tacti Skirmish_Line^^Tactics
 qstr_Four_battalion^^Regi Four-battalion^^Regiments
 qstr_Breech_loaded^^Canno Breech-loaded^^Cannons
 qstr_Magazine_Rifles Magazine_Rifles
-qstr_Improved_Shell^^Perc Improved_Shell^^Percussion_Mechanisms
+qstr_Improved_Shell^^Perc Improved_Shell^^Percussion_Mechanism
 qstr_Smokeless_Powder Smokeless_Powder
 qstr_Improved_Combat^^Log Improved_Combat^^Logistics
 qstr_Infantry_Adaptive^^T Infantry_Adaptive^^Training
@@ -204,6 +204,7 @@ qstr_faction_technologies_photo_f faction_technologies_photo_fourbattalions
 qstr_faction_technologies_photo_ri faction_technologies_photo_riflesboltaction
 qstr_faction_technologies_photo_ca faction_technologies_photo_cannonsbreechloading
 qstr_faction_technologies_photo_h faction_technologies_photo_hetypelate
+qstr_Improved_Shell^^Percu Improved_Shell^^Percussion_Mechanisms
 qstr_faction_technologies_photo_l faction_technologies_photo_lateshells
 qstr_faction_technologies_photo_i faction_technologies_photo_improvedlogistics
 qstr_faction_technologies_photo_ad faction_technologies_photo_adaptivetraining
