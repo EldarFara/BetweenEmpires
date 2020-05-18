@@ -17611,7 +17611,12 @@ presentations = [
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_riflessmallcaliber"),
 	(str_store_string, s1, "@Small Caliber^^Breech-loaded Rifles"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@desc"), (call_script,"script_pts_create_selected_tech_description"),
+	(str_store_string, s1, "@Converted breech-loaded rifles have several issues. They have big caliber, because of which\
+	during fast shooting the barrel heats up so much that it becomes hard to handle rifle during reload or melee fighting.\
+	Inserted breech-loading mechanisms are not perfect and often cause cartridge case to jam inside after shot, and being hard\
+	to get out. Next step in firearms rearmament should be adopting new breech-loaded rifle: it will have much smaller caliber\
+	than before, which will improve bullet ballistics, and will have improved breech-loading mechanism, that will further increase\
+	rate of fire by making reloading process easier.^^Effects: army changes it's firearms to small-caliber breech-loading rifles."), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_riflessmallcaliber"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_riflessmallcaliber),
 	(assign, "$g_faction_technologies_selected_tech_cost", 3500), (assign, "$g_faction_technologies_selected_tech_date", 1874),
@@ -17653,14 +17658,21 @@ presentations = [
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_hetypelate"),
 	(str_store_string, s1, "@Smokeless Powder"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@desc"), (call_script,"script_pts_create_selected_tech_description"),
+	(str_store_string, s1, "@Smokeless powder is a group name for propellants that don't produce much smoke when fired.\
+	Last inventions in chemical industry allow modern armies to replace black powder that was used as explosive in ammunition for centuries\
+	to a more effective alternative. Smokeless powder doesn't produce smoke and has better stronger explosive force than black powder.\
+	By adopting it in our army, we will improve effective range of our guns and make explosive shells more effective.\
+	^^Effects: increases accuracy of rifles by 5%, increases area of damage dealt by explosive shells by 40%"), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_hetypelate"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_hetypelate),
 	(assign, "$g_faction_technologies_selected_tech_cost", 2000), (assign, "$g_faction_technologies_selected_tech_date", 1884),
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_lateshells"),
 	(str_store_string, s1, "@Improved Shell^^Percussion Mechanisms"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@desc"), (call_script,"script_pts_create_selected_tech_description"),
+	(str_store_string, s1, "@More precision machinery allows mass production of more reliable percussive mechanisms for explosive shells.\
+	By adopting them in our artillery, we will turn cannons into a deadly force: explosive shells that they are using are very effective against\
+	enemy military personnel, and now they will misfire much less often.\
+	^^Effects: Reduces chance of percussing shell not triggering on impact by 90%."), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_lateshells"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_lateshells),
 	(assign, "$g_faction_technologies_selected_tech_cost", 1500), (assign, "$g_faction_technologies_selected_tech_date", 1880),

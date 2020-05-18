@@ -55672,7 +55672,7 @@ scripts = [
 	(try_end),
 	(try_begin),
 	(eq, ":he_type", cannon_he_type_late),
-	(val_add, ":range", 400),
+	(val_add, ":range", 300),
 	(try_end),
 (store_mul, ":doubled_range", ":range", 2),
 
