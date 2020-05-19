@@ -674,5 +674,8 @@ script_cf_pts_check_tech_availability = 672
 script_pts_create_tech_button = 673
 script_pts_create_selected_tech_name = 674
 script_pts_create_selected_tech_description = 675
+script_cf_if_agent_faction_invented_technology = 676
+script_cf_if_party_faction_invented_technology = 677
+script_set_player_kingdom_init = 678
 
 

@@ -38,6 +38,23 @@ from module_postfx import *
 pilgrim_disguise = [itm_pilgrim_hood,itm_pilgrim_disguise,itm_practice_staff, itm_throwing_daggers]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
+pts_surviving_bonus = (
+ti_on_agent_spawn, 0, 0, [],
+[
+(store_trigger_param_1, ":agent"),
+(agent_is_active, ":agent"),
+(assign, ":surviving_bonus", 0),
+	(try_begin),
+	(call_script, "script_cf_if_agent_faction_invented_technology", ":agent", slot_faction_technology_medicinecrimeanwar),
+	(val_add, ":surviving_bonus", 10),
+	(call_script, "script_cf_if_agent_faction_invented_technology", ":agent", slot_faction_technology_woundedevacuation),
+	(val_add, ":surviving_bonus", 10),
+	(try_end),
+(store_random_in_range, ":random", 1, 101),
+(le, ":random", ":surviving_bonus"),
+(agent_set_no_death_knock_down_only, ":agent", 1),
+])
+
 lemat_canister_shot = (
 0, 0, 0, [],
 [
@@ -1916,6 +1933,15 @@ pbs_agents_modifiers = (0.5, 0, 0, [
 		(try_end),
 	(val_mul, ":accuracy", ":discipline_accuracy_modifier"),
 	(val_div, ":accuracy", 100),
+		(try_begin),
+		(assign, ":accuracy_technology_bonus", 100),
+		(call_script, "script_cf_if_agent_faction_invented_technology", ":agent", slot_faction_technology_shootingtraining), (val_add, ":accuracy_technology_bonus", 10),
+		(try_end),
+		(try_begin),
+		(call_script, "script_cf_if_agent_faction_invented_technology", ":agent", slot_faction_technology_hetypelate), (val_add, ":accuracy_technology_bonus", 5),
+		(try_end),
+	(val_mul, ":accuracy", ":accuracy_technology_bonus"),
+	(val_div, ":accuracy", 100),
 	(agent_set_speed_modifier, ":agent", ":speed"),
 	(agent_set_horse_speed_factor, ":agent", ":speed"),
 	(agent_set_accuracy_modifier, ":agent", ":accuracy"),
@@ -3689,6 +3715,7 @@ YuriCannonCanoneersDie,
 YuriCannonOrder,
 YuriCannonSpawn,
 lemat_canister_shot,
+pts_surviving_bonus,
 test,
   ]	
 

@@ -17533,7 +17533,7 @@ presentations = [
 	(str_store_string, s1, "@Latest achievements in military logistics and industry allow to arm, supply and deploy much\
 	more people at the same time than before. If we subject the entire male population of our country to military service for a\
 	few years, we will be able to increase the number of recruits in our army, while not greatly affecting the civilian industry.\
-	^^Effects: Increases party size limit of all faction party leaders by 10%."), (call_script,"script_pts_create_selected_tech_description"),
+	^^Effects: Increases party size limit of all faction party leaders by 15%."), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_conscription"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_conscription),
 	(assign, "$g_faction_technologies_selected_tech_cost", 2000), (assign, "$g_faction_technologies_selected_tech_date", 1860),
@@ -17597,7 +17597,7 @@ presentations = [
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_acwexperience"),
 	(str_store_string, s1, "@American Civil War^^Logistical Experience"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@desc"), (call_script,"script_pts_create_selected_tech_description"),
+	(str_store_string, s1, "@desc^^Effects: Increases party size limit of all faction party leaders by 10%."), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_acwexperience"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_acwexperience),
 	(assign, "$g_faction_technologies_selected_tech_cost", 1500), (assign, "$g_faction_technologies_selected_tech_date", 1865),
@@ -17637,7 +17637,7 @@ presentations = [
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_fourbattalions"),
 	(str_store_string, s1, "@Four-battalion^^Regiments"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@desc"), (call_script,"script_pts_create_selected_tech_description"),
+	(str_store_string, s1, "@desc^^Effects: Increases party size limit of all faction party leaders by 20%."), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_fourbattalions"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_fourbattalions),
 	(assign, "$g_faction_technologies_selected_tech_cost", 1500), (assign, "$g_faction_technologies_selected_tech_date", 1860),

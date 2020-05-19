@@ -5678,9 +5678,21 @@ scripts = [
       (val_add, ":limit", ":charisma"),
 
       (troop_get_slot, ":troop_renown", ":troop_no", slot_troop_renown),
-      (store_div, ":renown_bonus", ":troop_renown", 25),
+      (store_div, ":renown_bonus", ":troop_renown", 50), # parabellum changed # was 25
       (val_add, ":limit", ":renown_bonus"),
 
+	(assign, ":limit_bonus", 100),
+	(try_begin),
+	(call_script, "script_cf_if_party_faction_invented_technology", "p_main_party", slot_faction_technology_conscription), (val_add, ":limit_bonus", 15),
+	(try_end),
+	(try_begin),
+	(call_script, "script_cf_if_party_faction_invented_technology", "p_main_party", slot_faction_technology_acwexperience), (val_add, ":limit_bonus", 10),
+	(try_end),
+	(try_begin),
+	(call_script, "script_cf_if_party_faction_invented_technology", "p_main_party", slot_faction_technology_fourbattalions), (val_add, ":limit_bonus", 20),
+	(try_end),
+	(val_mul, ":limit", ":limit_bonus"),
+	(val_div, ":limit", 100), 
       (assign, reg0, ":limit"),
       (set_trigger_result, reg0),
   ]),
@@ -15339,23 +15351,34 @@ scripts = [
         (party_slot_eq, ":party_no", slot_party_type, spt_kingdom_hero_party),
         (party_stack_get_troop_id, ":party_leader", ":party_no", 0),
         (store_faction_of_party, ":faction_id", ":party_no"),
-      
+
+	(assign, ":limit_bonus", 100),
+	(try_begin),
+	(call_script, "script_cf_if_party_faction_invented_technology", ":party_no", slot_faction_technology_conscription), (val_add, ":limit_bonus", 15),
+	(try_end),
+	(try_begin),
+	(call_script, "script_cf_if_party_faction_invented_technology", ":party_no", slot_faction_technology_acwexperience), (val_add, ":limit_bonus", 10),
+	(try_end),
+	(try_begin),
+	(call_script, "script_cf_if_party_faction_invented_technology", ":party_no", slot_faction_technology_fourbattalions), (val_add, ":limit_bonus", 20),
+	(try_end),
+	
         #default limit is 10 for kingdom lords
-        (assign, ":limit", 10),
+        (assign, ":limit", 80),
 
-        #each (leadership level) gives 5 to limit
-        (store_skill_level, ":skill", "skl_leadership", ":party_leader"),
-        (store_attribute_level, ":charisma", ":party_leader", ca_charisma),
-        (val_mul, ":skill", 5),
-        (val_add, ":limit", ":skill"),
+        #each (leadership level) gives 5 to limit # parabellum cut
+        # (store_skill_level, ":skill", "skl_leadership", ":party_leader"),
+        # (store_attribute_level, ":charisma", ":party_leader", ca_charisma),
+        # (val_mul, ":skill", 5),
+        # (val_add, ":limit", ":skill"),
 
-        #each (charisma level) gives 1 to limit      
-        (val_add, ":limit", ":charisma"),
+        #each (charisma level) gives 1 to limit       # parabellum cut
+        # (val_add, ":limit", ":charisma"),
 
-        #each (25 renown) gives 1 to limit
-        (troop_get_slot, ":troop_renown", ":party_leader", slot_troop_renown),
-        (store_div, ":renown_bonus", ":troop_renown", 25),
-        (val_add, ":limit", ":renown_bonus"),
+        # #each (25 renown) gives 1 to limit # parabellum cut
+        # (troop_get_slot, ":troop_renown", ":party_leader", slot_troop_renown),
+        # (store_div, ":renown_bonus", ":troop_renown", 25),
+        # (val_add, ":limit", ":renown_bonus"),
 
         #if this party is faction leader it takes additional 100 limit        
         (try_begin),
@@ -15369,20 +15392,23 @@ scripts = [
           (val_add, ":limit", 20),
         (try_end),        
 
-        #party takes additional 20 limit per each castle it's party leader owns
-        (try_for_range, ":cur_center", castles_begin, castles_end),
-          (party_slot_eq, ":cur_center", slot_town_lord, ":party_leader"),
-          (val_add, ":limit", 20),
-        (try_end),        
+        #party takes additional 20 limit per each castle it's party leader owns # parabellum cut
+        # (try_for_range, ":cur_center", castles_begin, castles_end),
+          # (party_slot_eq, ":cur_center", slot_town_lord, ":party_leader"),
+          # (val_add, ":limit", 20),
+        # (try_end),        
       (try_end),
 
       #if player has level of 0 then ideal limit will be exactly same, if player has level of 80 then ideal limit will be multiplied by 2 ((80 + 80) / 80)
       #below code will increase limits a little as the game progresses and player gains level
-      (store_character_level, ":level", "trp_player"),
-      (val_min, ":level", 80),
-      (store_add, ":level_factor", 80, ":level"),
-      (val_mul, ":limit", ":level_factor"),
-      (val_div, ":limit", 80), 
+	  # parabellum cut
+      # (store_character_level, ":level", "trp_player"),
+      # (val_min, ":level", 80),
+      # (store_add, ":level_factor", 80, ":level"),
+      # (val_mul, ":limit", ":level_factor"),
+      # (val_div, ":limit", 80), 
+      (val_mul, ":limit", ":limit_bonus"),
+      (val_div, ":limit", 100), 
       (assign, reg0, ":limit"),
   ]),
 
@@ -56479,6 +56505,146 @@ scripts = [
 	(position_set_y, pos1, 160),
 	(overlay_set_area_size, "$g_faction_technologies_selected_tech_description", pos1),
 ]),
+
+("cf_if_agent_faction_invented_technology",
+[
+(store_script_param, ":agent", 1),
+(store_script_param, ":technology", 2),
+(agent_get_party_id, ":party", ":agent"),
+(party_is_active, ":party"),
+(store_faction_of_party, ":faction", ":party"),
+	(try_begin),
+	(this_or_next|eq, ":faction", "fac_player_supporters_faction"),
+	(eq, ":faction", "fac_player_faction"),
+	(assign, ":faction", "fac_player_faction"),
+	(faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_inactive),
+	(agent_get_troop_id, ":troop", ":agent"),
+	(store_troop_faction, ":faction", ":troop"),
+	(try_end),
+(faction_get_slot, ":progress", ":faction", ":technology"),
+(eq, ":progress", 10000),
+]),
+("cf_if_party_faction_invented_technology",
+[
+(store_script_param, ":party", 1),
+(store_script_param, ":technology", 2),
+(party_is_active, ":party"),
+(store_faction_of_party, ":faction", ":party"),
+	(try_begin),
+	(eq, ":faction", "fac_player_supporters_faction"),
+	(assign, ":faction", "fac_player_faction"),
+	(try_end),
+(faction_get_slot, ":progress", ":faction", ":technology"),
+(eq, ":progress", 10000),
+]),
+
+  ("set_player_kingdom_init",
+  [
+    (set_show_messages, 0),
+    (store_script_param, ":orginal_faction", 1),
+    (store_script_param, ":capital", 2),
+    (store_script_param, ":culture", 3),
+    (store_script_param, ":troop_start", 4),
+    (store_script_param, ":troop_end", 5),
+    (store_script_param, ":liege", 6),
+    (store_script_param, ":scene", 7),
+    (remove_troop_from_site,":liege",":scene"),
+
+    (str_store_troop_name, s10, "trp_player"),
+
+    (call_script, "script_activate_player_faction", "trp_player"),
+    (call_script, "script_give_center_to_faction_aux", ":capital", "fac_player_supporters_faction"),
+    (call_script, "script_give_center_to_lord", ":capital", "trp_player", 1),
+    (troop_set_slot, "trp_player", slot_troop_leaded_party, 1),
+    (troop_set_slot, "trp_player", slot_troop_cur_center, ":capital"),
+    (troop_set_slot, "trp_player", slot_troop_home, ":capital"),
+
+    #####Removing the active King 
+     #(call_script,"script_change_troop_faction",":liege","fac_player_supporters_faction"),
+     (troop_get_slot, ":king_party", ":liege", slot_troop_leaded_party),
+     (remove_party,":king_party"),
+     (troop_set_slot, ":liege", slot_troop_leaded_party, -1),
+     (troop_set_slot, ":liege", slot_troop_occupation, slto_inactive),
+     (troop_set_slot, ":liege", slot_troop_cur_center, -1),
+     (troop_set_slot, ":liege", slot_troop_home, -1),
+     (troop_set_note_available, ":liege", 0),
+    #####King remove end
+
+     (try_for_range,":cur_village",villages_begin,villages_end),
+     (party_slot_eq, ":cur_village", slot_village_bound_center, ":capital"),
+     (party_set_faction, ":cur_village", "fac_player_supporters_faction"),
+     (try_end),
+     (assign, "$g_player_court", ":capital"),
+    ###capitol transfer end
+   
+    ##culture the player faction will have. (The recruit type for your kingdoms villages) 
+         (faction_set_slot, "fac_player_supporters_faction",  slot_faction_culture, ":culture"),
+         (faction_set_slot, "fac_player_faction",  slot_faction_culture, ":culture"),
+    ##culture end
+
+         (assign, "$players_kingdom", "fac_player_supporters_faction"),
+    ##knights/npc lords Transferring to the players kingdom
+        (try_for_range,":npc",":troop_start",":troop_end"),      
+            (call_script,"script_change_troop_faction",":npc","fac_player_supporters_faction"),
+            (troop_set_slot, ":npc", slot_troop_occupation, slto_kingdom_hero),    
+            (store_random_in_range,":new_relation",0,35),
+            (call_script, "script_troop_change_relation_with_troop", "trp_player", ":npc", ":new_relation"),
+        (try_end),  
+    
+        (try_for_range,":npc_lady",kingdom_ladies_begin,kingdom_ladies_end),   
+            (store_faction_of_troop, ":lady_faction", ":npc_lady"),
+            (eq, ":lady_faction", ":orginal_faction"),
+            (call_script,"script_change_troop_faction",":npc_lady","fac_player_supporters_faction"),
+        (try_end),  
+
+    #####Knights/NPC lord end    
+       (faction_set_note_available,"fac_player_supporters_faction",1),
+       (call_script, "script_update_faction_notes","fac_player_supporters_faction"),
+       (call_script, "script_change_player_right_to_rule", 25),
+
+
+    ##Set old king as player parent
+    # (troop_set_slot, "trp_player", slot_troop_father, ":liege"),
+
+     (assign, "$players_kingdom_name_set", 1),
+     (faction_set_slot, ":orginal_faction", slot_faction_state, sfs_inactive),  
+     (store_random_in_range,":new_controversy",0,45),
+     (troop_set_slot, "trp_player", slot_troop_controversy, ":new_controversy"), 
+     (call_script, "script_update_all_notes"), 
+     
+  (str_store_faction_name, s1, ":orginal_faction"),
+  (faction_set_name, "fac_player_supporters_faction", s1),
+  (faction_set_name, "fac_player_faction", s1),
+  (faction_get_color, ":color", ":orginal_faction"),
+  (faction_set_color, "fac_player_supporters_faction", ":color"),
+  (faction_set_color, "fac_player_faction", ":color"),
+
+
+     (faction_set_slot, "fac_player_supporters_faction",  slot_faction_leader, "trp_player"),
+     (troop_set_name, "trp_player", s10),
+     (troop_set_plural_name, "trp_player", s10),
+     (assign, "$kaos_title_run", 1),
+
+     (troop_get_slot, ":troop_party", "trp_player", slot_troop_leaded_party),
+     (str_store_troop_name, s5, "trp_player"),
+     (party_set_name, ":troop_party", "str_s5_s_party"),
+     (troop_set_plural_name, "trp_player", s5),
+
+     (assign, "$g_player_minister", "trp_temporary_minister"),
+     (troop_set_faction, "trp_temporary_minister", "fac_player_supporters_faction"),
+
+	(try_for_range,":slot",0,10),   
+	(troop_get_inventory_slot, ":item", ":liege", ":slot"),
+	(troop_set_inventory_slot, "trp_player", ":slot", ":item"),
+	(try_end),
+
+	(try_for_range, ":technology", slot_faction_technology_earlyshells, slot_faction_technology_riflesrifled+1),   
+	(faction_get_slot, ":progress", ":orginal_faction", ":technology"),
+	(faction_set_slot, "fac_player_faction",  ":technology", ":progress"),
+	(try_end), 
+
+    (set_show_messages, 1),
+    ]),
 
 ]# modmerger_start version=201 type=2
 try:

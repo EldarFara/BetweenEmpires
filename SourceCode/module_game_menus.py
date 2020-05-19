@@ -37,7 +37,7 @@ from module_constants import *
 
 game_menus = [
   ("start_game_0",menu_text_color(0xFF000000)|mnf_disable_all_keys,
-    "Welcome to Victorian Era mod.",
+    "Welcome to the Victorian Era mod.",
     "bg3",
     [],
     [
@@ -53,11 +53,11 @@ game_menus = [
   ),
 
   ("start_phase_2",mnf_disable_all_keys,
-    "Please select a city which you want to start your journey at.",
+    "Select a city which you want to start your journey at.",
     "bg3",
     [],
     [
-      ("town_1",[(eq, "$current_startup_quest_phase", 0),],"Konstantiniyyeh",
+      ("town_1",[(eq, "$current_startup_quest_phase", 0),],"Constantinople",
        [
          (assign, "$current_town", "p_town_19"),
          (assign, "$g_starting_town", "$current_town"),
@@ -946,14 +946,14 @@ game_menus = [
        [
          (troop_set_type,"trp_player", 0),
          (assign,"$character_gender",tf_male),
-         (jump_to_menu,"mnu_start_character_1"),
+         (jump_to_menu,"mnu_start_game_choose_as_who_to_start"),
         ]
        ),
       ("start_female",[],"Female",
        [
          (troop_set_type, "trp_player", 1),
          (assign, "$character_gender", tf_female),
-         (jump_to_menu, "mnu_start_character_1"),
+         (jump_to_menu, "mnu_start_game_choose_as_who_to_start"),
        ]
        ),
 	  ("go_back",[],"Go back",
@@ -1053,7 +1053,7 @@ game_menus = [
 	(jump_to_menu,"mnu_start_character_2"),
     ]),
     ("go_back",[],"Go back",
-     [(jump_to_menu,"mnu_start_game_1"),
+     [(jump_to_menu,"mnu_start_game_choose_as_who_to_start"),
     ]),
     ]
   ),
@@ -14446,6 +14446,47 @@ game_menus = [
     ]
   ),
 
+  ("start_game_start_as_leader",menu_text_color(0xFF000000)|mnf_disable_all_keys,
+    "Select a faction.",
+    "bg3",
+    [],
+    [
+	#(call_script,"script_set_player_kingdom_init", "fac_FACTION", "p_FACTION_CAPITAL_TOWN", "fac_FACTION_CULTURE", "trp_FACTION_LORDS_BEGIN", "trp_FACTION_LORDS_END", "trp_FACTION_LEADER", "scn_CAPITAL_TOWN_CASTLE_SCENE"),
+      ("start_as_leader_france",[],"French Empire.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_1", "p_town_3", "fac_culture_1", "trp_knight_1_1", "trp_knight_2_1", "trp_kingdom_1_lord", "scn_town_3_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_3", 2), (change_screen_return), ] ),
+      ("start_as_leader_russia",[],"Russian Empire.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_2", "p_town_37", "fac_culture_2", "trp_knight_2_1", "trp_knight_3_1", "trp_kingdom_2_lord", "scn_town_37_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_37", 2), (change_screen_return), ] ),
+      ("start_as_leader_austria",[],"Austrian Empire.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_3", "p_town_7", "fac_culture_3", "trp_knight_3_1", "trp_knight_4_1", "trp_kingdom_3_lord", "scn_town_7_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_7", 2), (change_screen_return), ] ),
+	  ("go_back",[],"Go back",
+       [
+	     (jump_to_menu,"mnu_start_game_choose_as_who_to_start"),
+       ]),
+    ]
+  ),
+  
+  ("start_game_choose_as_who_to_start",menu_text_color(0xFF000000)|mnf_disable_all_keys,
+    "Choose who you want to start the game as.",
+    "bg3",
+    [],
+    [
+     ("start_as_adventurer",[],"Start as adventurer.",
+       [(jump_to_menu, "mnu_start_character_1"),
+        ]
+       ),
+     ("start_as_leader",[],"Start as faction leader.",
+       [(jump_to_menu, "mnu_start_game_start_as_leader"),
+        ]
+       ),
+      ("go_back",[],"Go back",
+       [
+         (jump_to_menu, "mnu_start_game_1"),
+       ]),
+    ]
+  ),
 
   
  ]
