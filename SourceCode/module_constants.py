@@ -50,6 +50,9 @@ YuriCannonMode_Firing_Lighting = 13
 YuriCannonMode_Firing_Shot = 14
 YuriCannonMode_Firing_PreparingToPullBack = 15
 YuriCannonMode_Firing_PullingBack = 16
+YuriCannonMode_BreechReloading_Initial = 17
+YuriCannonMode_BreechReloading_BarrelCleaning = 18
+YuriCannonMode_BreechReloading_LoadingCartridge = 19
 
 ImpaledLanceMode_HasImpaledEnemy = 1
 ImpaledLanceMode_IsImpaled = 2
@@ -59,6 +62,9 @@ ImpaledLanceDamage = 150
 YuriCannonMode_InterrruptedReloading_Initial = YuriCannonMode_Reloading_Initial + 100
 YuriCannonMode_InterrruptedReloading_LoadCartridge = YuriCannonMode_Reloading_LoadingCartridge + 100
 YuriCannonMode_InterrruptedReloading_LoadCartridge_Moving = YuriCannonMode_Reloading_LoadingCartridge + 200
+YuriCannonMode_InterrruptedBreechReloading_Initial = YuriCannonMode_BreechReloading_Initial + 100
+YuriCannonMode_InterrruptedBreechReloading_LoadingCartridge = YuriCannonMode_BreechReloading_LoadingCartridge + 100
+YuriCannonMode_InterrruptedBreechReloading_LoadingCartridge_Moving = YuriCannonMode_BreechReloading_LoadingCartridge + 200
 
 YuriSlotAgent_Cannoneer1 = 35
 YuriSlotAgent_Cannoneer2 = 36
