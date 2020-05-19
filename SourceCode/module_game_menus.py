@@ -14461,6 +14461,96 @@ game_menus = [
       ("start_as_leader_austria",[],"Austrian Empire.", [
 	(call_script,"script_set_player_kingdom_init", "fac_kingdom_3", "p_town_7", "fac_culture_3", "trp_knight_3_1", "trp_knight_4_1", "trp_kingdom_3_lord", "scn_town_7_castle"),
 	(party_relocate_near_party, "p_main_party", "p_town_7", 2), (change_screen_return), ] ),
+      ("start_as_leader_sardinia",[],"Kingdom of Sardinia.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_4", "p_town_11", "fac_culture_4", "trp_knight_4_1", "trp_knight_5_1", "trp_kingdom_4_lord", "scn_town_11_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_11", 2), (change_screen_return), ] ),
+      ("start_as_leader_prussia",[],"Kingdom of Prussia.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_5", "p_town_2", "fac_culture_5", "trp_knight_5_1", "trp_knight_6_1", "trp_kingdom_5_lord", "scn_town_2_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_2", 2), (change_screen_return), ] ),
+      ("start_as_leader_ottomans",[],"Ottoman Empire.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_6", "p_town_19", "fac_culture_6", "trp_knight_6_1", "trp_knight_7_1", "trp_kingdom_6_lord", "scn_town_19_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_19", 2), (change_screen_return), ] ),
+      ("start_as_leader_britain",[],"British Empire.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_7", "p_town_18", "fac_culture_7", "trp_knight_7_1", "trp_knight_8_1", "trp_kingdom_7_lord", "scn_town_18_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_18", 2), (change_screen_return), ] ),
+      ("start_as_leader_netherlands",[],"Kingdom of Netherlands.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_8", "p_town_1", "fac_culture_8", "trp_knight_8_1", "trp_knight_9_1", "trp_kingdom_8_lord", "scn_town_1_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_1", 2), (change_screen_return), ] ),
+      ("start_as_leader_spain",[],"Spanish Empire.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_9", "p_town_5", "fac_culture_9", "trp_knight_9_1", "trp_knight_10_1", "trp_kingdom_9_lord", "scn_town_5_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_5", 2), (change_screen_return), ] ),
+      ("start_as_leader_tunisia",[],"Emirate of Tunisia.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_10", "p_town_15", "fac_culture_10", "trp_knight_10_1", "trp_knight_11_1", "trp_kingdom_10_lord", "scn_town_15_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_15", 2), (change_screen_return), ] ),
+      ("start_as_leader_sicily",[],"Kingdom of Two Sicilies.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_11", "p_town_23", "fac_culture_11", "trp_knight_11_1", "trp_knight_12_1", "trp_kingdom_11_lord", "scn_town_23_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_23", 2), (change_screen_return), ] ),
+      ("start_as_leader_persia",[],"Shahdom of Persia.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_12", "p_town_22", "fac_culture_12", "trp_knight_12_1", "trp_knight_13_1", "trp_kingdom_12_lord", "scn_town_22_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_22", 2), (change_screen_return), ] ),
+      ("start_as_leader_switzerland",[],"Switzerland.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_13", "p_town_9", "fac_culture_13", "trp_knight_13_1", "trp_knight_14_1", "trp_kingdom_13_lord", "scn_town_9_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_9", 2), (change_screen_return), ] ),
+      ("start_as_leader_egypt",[],"Khedivate of Egypt.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_14", "p_town_13", "fac_culture_14", "trp_knight_14_1", "trp_knight_15_1", "trp_kingdom_14_lord", "scn_town_13_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_13", 2), (change_screen_return), ] ),
+      ("start_as_leader_morocco",[],"Sultanate of Morocco.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_15", "p_castle_65", "fac_culture_15", "trp_knight_15_1", "trp_knight_16_1", "trp_kingdom_15_lord", "scn_castle_65_interior"),
+	(party_relocate_near_party, "p_main_party", "p_castle_65", 2), (change_screen_return), ] ),
+      ("start_as_leader_portugal",[],"Kingdom of Portugal.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_16", "p_town_27", "fac_culture_16", "trp_knight_16_1", "trp_knight_17_1", "trp_kingdom_16_lord", "scn_town_27_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_27", 2), (change_screen_return), ] ),
+      ("start_as_leader_oman",[],"Sultanate of Oman.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_17", "p_town_24", "fac_culture_17", "trp_knight_17_1", "trp_knight_18_1", "trp_kingdom_17_lord", "scn_town_24_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_24", 2), (change_screen_return), ] ),
+      ("start_as_leader_denmark",[],"Kingdom of Denmark.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_18", "p_town_39", "fac_culture_18", "trp_knight_18_1", "trp_knight_19_1", "trp_kingdom_18_lord", "scn_town_39_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_39", 2), (change_screen_return), ] ),
+      ("start_as_leader_papal",[],"Papal States.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_19", "p_town_40", "fac_culture_19", "trp_knight_19_1", "trp_knight_20_1", "trp_kingdom_19_lord", "scn_town_40_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_40", 2), (change_screen_return), ] ),
+      ("start_as_leader_colonies",[],"British Colonies.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_20", "p_town_59", "fac_culture_20", "trp_knight_20_1", "trp_knight_21_1", "trp_kingdom_20_lord", "scn_town_59_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_59", 2), (change_screen_return), ] ),
+      ("start_as_leader_afghanistan",[],"Emirate of Afghanistan.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_21", "p_town_26", "fac_culture_21", "trp_knight_21_1", "trp_knight_22_1", "trp_kingdom_21_lord", "scn_town_26_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_26", 2), (change_screen_return), ] ),
+      ("start_as_leader_bukhara",[],"Emirate of Bukhara.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_22", "p_town_25", "fac_culture_22", "trp_knight_22_1", "trp_knight_23_1", "trp_kingdom_22_lord", "scn_town_25_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_25", 2), (change_screen_return), ] ),
+      ("start_as_leader_khiva",[],"Khanate of Khiva.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_23", "p_town_20", "fac_culture_23", "trp_knight_23_1", "trp_knight_24_1", "trp_kingdom_23_lord", "scn_town_20_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_20", 2), (change_screen_return), ] ),
+     ("start_as_leader_greece",[],"Kingdom of Greece.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_24", "p_town_43", "fac_culture_24", "trp_knight_24_1", "trp_knight_25_1", "trp_kingdom_24_lord", "scn_town_43_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_43", 2), (change_screen_return), ] ),
+     ("start_as_leader_wallachia",[],"Principality of Wallachia and Moldavia.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_25", "p_town_28", "fac_culture_25", "trp_knight_25_1", "trp_knight_26_1", "trp_kingdom_25_lord", "scn_town_28_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_28", 2), (change_screen_return), ] ),
+     ("start_as_leader_belgium",[],"Kingdom of Belgium.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_26", "p_town_50", "fac_culture_26", "trp_knight_26_1", "trp_knight_27_1", "trp_kingdom_26_lord", "scn_town_50_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_50", 2), (change_screen_return), ] ),
+     ("start_as_leader_wurttemberg",[],"Kingdom of Wurttemberg.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_27", "p_town_46", "fac_culture_27", "trp_knight_27_1", "trp_knight_28_1", "trp_kingdom_27_lord", "scn_town_46_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_46", 2), (change_screen_return), ] ),
+     ("start_as_leader_serbia",[],"Principality of Serbia.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_28", "p_castle_102", "fac_culture_28", "trp_knight_28_1", "trp_knight_29_1", "trp_kingdom_28_lord", "scn_castle_102_interior"),
+	(party_relocate_near_party, "p_main_party", "p_castle_102", 2), (change_screen_return), ] ),
+     ("start_as_leader_sweden",[],"Kingdom of Sweden.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_29", "p_town_48", "fac_culture_29", "trp_knight_29_1", "trp_knight_30_1", "trp_kingdom_29_lord", "scn_town_48_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_48", 2), (change_screen_return), ] ),
+     ("start_as_leader_bavaria",[],"Kingdom of Bavaria.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_30", "p_town_45", "fac_culture_30", "trp_knight_30_1", "trp_knight_31_1", "trp_kingdom_30_lord", "scn_town_45_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_45", 2), (change_screen_return), ] ),
+     ("start_as_leader_hannover",[],"Kingdom of Hannover.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_31", "p_town_47", "fac_culture_31", "trp_knight_31_1", "trp_knight_32_1", "trp_kingdom_31_lord", "scn_town_47_castle"),
+	(party_relocate_near_party, "p_main_party", "p_town_47", 2), (change_screen_return), ] ),
+     ("start_as_leader_shammar",[],"Emirate of Shmmar.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_32", "p_castle_114", "fac_culture_32", "trp_knight_32_1", "trp_knight_33_1", "trp_kingdom_32_lord", "scn_castle_114_interior"),
+	(party_relocate_near_party, "p_main_party", "p_castle_114", 2), (change_screen_return), ] ),
+     ("start_as_leader_najd",[],"Emirate of Najd.", [
+	(call_script,"script_set_player_kingdom_init", "fac_kingdom_33", "p_castle_120", "fac_culture_33", "trp_knight_33_1", "trp_kingdom_1_pretender", "trp_kingdom_33_lord", "scn_castle_120_interior"),
+	(party_relocate_near_party, "p_main_party", "p_castle_120", 2), (change_screen_return), ] ),
 	  ("go_back",[],"Go back",
        [
 	     (jump_to_menu,"mnu_start_game_choose_as_who_to_start"),
