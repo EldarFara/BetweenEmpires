@@ -74,8 +74,6 @@ YuriSlotAgent_ImpaledLanceMode = 39
 YuriSlotAgent_ImpaledLanceEnemy = 40
 YuriSlotAgent_ImpaledLanceTimer = 41
 
-YuriSlotTeam_CannonsAmount = 1
-
 YuriSlotProp_Cannoneer1 = 150
 YuriSlotProp_Cannoneer2 = YuriSlotProp_Cannoneer1 + 1
 YuriSlotProp_Cannoneer3 = YuriSlotProp_Cannoneer1 + 2
@@ -1434,6 +1432,8 @@ slot_team_company7_target_company                       = 176
 slot_team_company8_target_company                       = 177
 
 slot_team_cannons_amount                                = 178
+
+YuriSlotTeam_CannonsAmount = slot_team_cannons_amount
 
 #Rebellion changes end
 # character backgrounds

@@ -38,6 +38,22 @@ from module_postfx import *
 pilgrim_disguise = [itm_pilgrim_hood,itm_pilgrim_disguise,itm_practice_staff, itm_throwing_daggers]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
+pai_bandits_spawn = (
+ti_on_agent_spawn, 0, 0, [],
+[
+(store_trigger_param_1, ":agent"),
+(agent_is_active, ":agent"),
+(agent_get_party_id, ":party", ":agent"),
+(party_is_active, ":party"),
+(party_get_template_id, ":template", ":party"),
+(this_or_next|eq, ":template", "pt_forest_bandits"),
+(eq, ":template", "pt_sea_raiders"),
+(agent_get_position, pos1, ":agent"),
+(store_random_in_range, ":random", -8000, 8000),
+(position_move_x, pos1, ":random", 0),
+(agent_set_position, ":agent", pos1),
+])
+
 damage_control = (
 ti_on_agent_hit, 0, 0, [],
 [
@@ -155,7 +171,7 @@ lemat_canister_shot = (
 		(try_end),
 	(assign, "$ignore_script_game_missile_launch", 0),
 	(agent_play_sound, ":player", "snd_shot_caplockpistol"),		
-	(agent_set_animation, ":player", "anim_release_pistol", 0),
+	(agent_set_animation, ":player", "anim_release_pistol", 1),
 	(try_end),
 	(try_begin),
 	(agent_slot_eq, ":player", slot_agent_lemat_canister_has_been_shot, 1),
@@ -3909,6 +3925,7 @@ YuriCannonSpawn,
 lemat_canister_shot,
 pts_surviving_bonus,
 damage_control,
+pai_bandits_spawn,
 test,
   ]	
 
@@ -6114,9 +6131,9 @@ mission_templates = [
     "lead_charge",mtf_battle_mode|mtf_synch_inventory,charge,
     "You lead your men to battle.",
     [
-     (1,mtef_defenders|mtef_team_0,0,aif_start_alarmed,12,[]),
+     (1,mtef_defenders|mtef_team_0,0,aif_start_alarmed,30,[]),
      (0,mtef_defenders|mtef_team_0,0,aif_start_alarmed,0,[]),
-     (4,mtef_attackers|mtef_team_1,0,aif_start_alarmed,12,[]),
+     (4,mtef_attackers|mtef_team_1,0,aif_start_alarmed,30,[]),
      (4,mtef_attackers|mtef_team_1,0,aif_start_alarmed,0,[]),
      ],
     [
@@ -6327,9 +6344,9 @@ mission_templates = [
     "village_attack_bandits",mtf_battle_mode|mtf_synch_inventory,charge,
     "You lead your men to battle.",
     [
-     (3,mtef_visitor_source|mtef_team_1,0,aif_start_alarmed,1,[]),
-     (1,mtef_team_0|mtef_use_exact_number,0,aif_start_alarmed, 7,[]),
-     (1,mtef_visitor_source|mtef_team_0,0,aif_start_alarmed,1,[]),
+     (3,mtef_visitor_source|mtef_team_1,0,aif_start_alarmed,3,[]),
+     (1,mtef_team_0|mtef_use_exact_number,0,aif_start_alarmed, 21,[]),
+     (1,mtef_visitor_source|mtef_team_0,0,aif_start_alarmed,3,[]),
      ],
     [
       common_battle_tab_press,
@@ -6395,9 +6412,9 @@ mission_templates = [
     "village_raid",mtf_battle_mode|mtf_synch_inventory,charge,
     "You lead your men to battle.",
     [
-     (3,mtef_defenders|mtef_team_0,af_override_horse,aif_start_alarmed,12,[]),
+     (3,mtef_defenders|mtef_team_0,af_override_horse,aif_start_alarmed,40,[]),
      (3,mtef_defenders|mtef_team_0,0,aif_start_alarmed,0,[]),
-     (1,mtef_attackers|mtef_team_1,0,aif_start_alarmed,12,[]),
+     (1,mtef_attackers|mtef_team_1,0,aif_start_alarmed,40,[]),
      (1,mtef_attackers|mtef_team_1,0,aif_start_alarmed,0,[]),
      ],
     [
@@ -6784,9 +6801,9 @@ mission_templates = [
     "castle_attack_walls_defenders_sally",mtf_battle_mode|mtf_synch_inventory,-1,
     "You attack the walls of the castle...",
     [
-     (0,mtef_attackers|mtef_team_1,af_override_horse,aif_start_alarmed,12,[]),
+     (0,mtef_attackers|mtef_team_1,af_override_horse,aif_start_alarmed,40,[]),
      (0,mtef_attackers|mtef_team_1,af_override_horse,aif_start_alarmed,0,[]),
-     (3,mtef_defenders|mtef_team_0,af_override_horse,aif_start_alarmed,12,[]),
+     (3,mtef_defenders|mtef_team_0,af_override_horse,aif_start_alarmed,40,[]),
      (3,mtef_defenders|mtef_team_0,af_override_horse,aif_start_alarmed,0,[]),
      ],
     [
@@ -6889,20 +6906,20 @@ mission_templates = [
     "castle_attack_walls_belfry",mtf_battle_mode|mtf_synch_inventory,-1,
     "You attack the walls of the castle...",
     [
-     (0,mtef_attackers|mtef_team_1,af_override_horse,aif_start_alarmed,12,[]),
+     (0,mtef_attackers|mtef_team_1,af_override_horse,aif_start_alarmed,40,[]),
      (0,mtef_attackers|mtef_team_1,af_override_horse,aif_start_alarmed,0,[]),
      (10,mtef_defenders|mtef_team_0,af_override_horse,aif_start_alarmed,0,[]),
-     (11,mtef_defenders|mtef_team_0,af_override_horse,aif_start_alarmed,7,[]),
+     (11,mtef_defenders|mtef_team_0,af_override_horse,aif_start_alarmed,21,[]),
      (15,mtef_defenders|mtef_team_0,af_override_horse,aif_start_alarmed,0,[]),
 
-     (40,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,1,[]),
-     (41,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,1,[]),
-     (42,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,1,[]),
-     (43,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,1,[]),
-     (44,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,1,[]),
-     (45,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,1,[]),
-     (46,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,1,[]),
-     (47,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,1,[]),
+     (40,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,3,[]),
+     (41,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,3,[]),
+     (42,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,3,[]),
+     (43,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,3,[]),
+     (44,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,3,[]),
+     (45,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,3,[]),
+     (46,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,3,[]),
+     (47,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,3,[]),
      ],
     [
       common_battle_mission_start,
@@ -6971,19 +6988,19 @@ mission_templates = [
     "castle_attack_walls_ladder",mtf_battle_mode|mtf_synch_inventory,-1,
     "You attack the walls of the castle...",
     [
-     (0,mtef_attackers|mtef_team_1,af_override_horse,aif_start_alarmed,12,[]),
+     (0,mtef_attackers|mtef_team_1,af_override_horse,aif_start_alarmed,40,[]),
      (0,mtef_attackers|mtef_team_1,af_override_horse,aif_start_alarmed,0,[]),
      (10,mtef_defenders|mtef_team_0,af_override_horse,aif_start_alarmed,0,[]),
-     (11,mtef_defenders|mtef_team_0,af_override_horse,aif_start_alarmed,7,[]),
+     (11,mtef_defenders|mtef_team_0,af_override_horse,aif_start_alarmed,21,[]),
      (15,mtef_defenders|mtef_team_0,af_override_horse,aif_start_alarmed,0,[]),
 
-     (40,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,1,[]),
-     (41,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,1,[]),
-     (42,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,1,[]),
-     (43,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,1,[]),
-     (44,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,1,[]),
-     (45,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,1,[]),
-     (46,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,1,[]),
+     (40,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,3,[]),
+     (41,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,3,[]),
+     (42,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,3,[]),
+     (43,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,3,[]),
+     (44,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,3,[]),
+     (45,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,3,[]),
+     (46,mtef_defenders|mtef_team_0|mtef_archers_first,af_override_horse,aif_start_alarmed,3,[]),
      ],
     [
       common_battle_mission_start,
