@@ -1093,10 +1093,10 @@
   2.000000 Yuri_CannonOneEarPlugging_Right 9 0 1 0 0.0 0.0 0.0 0.0 
  Yuri_CannonOneEarPlugging_Right_Shot 256 50331729  1
   0.600000 Yuri_CannonOneEarPlugging_Shot_Right 0 3 1 0 0.0 0.0 0.0 0.0 
- unused_human_anim_73 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_74 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
+ Yuri_CannonCartridgeInsertingBreech 256 50331729  1
+  2.000000 Yuri_CannonCartridgeInsertingBreech 0 1 1 0 0.0 0.0 0.0 0.0 
+ Yuri_CannonBarrelCleaningBreech 256 50331729  1
+  4.000000 Yuri_CannonBarrelCleaningBreech 1 17 1 0 0.0 0.0 0.0 0.0 
  unused_human_anim_75 0 0  1
   1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
  unused_human_anim_76 0 0  1

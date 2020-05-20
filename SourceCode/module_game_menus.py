@@ -2939,6 +2939,8 @@ game_menus = [
        [
          (faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_active),
          (faction_slot_eq, "fac_player_supporters_faction", slot_faction_leader, "trp_player"),
+		(eq, "$player_faction_preset", -1),
+		
          ],"Customize your faction army.",
        [(start_presentation, "prsnt_custom_kingdom_troop"),
         ]
@@ -14322,6 +14324,8 @@ game_menus = [
 ("game_speed_debug",[(eq,"$cheat_mode",1)],"Debug mode (One year passes in 1 day).",
 	[
 		(assign, "$g_game_speed", 1),
+		
+		
          (jump_to_menu,"mnu_camp_action"),
 	]
 ),

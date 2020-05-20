@@ -17448,7 +17448,7 @@ presentations = [
 	(call_script,"script_pts_create_tech_button", slot_faction_technology_riflesrifled, 0), (assign, "$g_faction_technologies_tech_riflesrifled", reg1),
 	(position_set_x, pos1, 110), (position_set_y, pos1, 1150), (str_store_string, s1, "@Percussive Explosive^^Shells"),
 	(call_script,"script_pts_create_tech_button", slot_faction_technology_earlyshells, 7), (assign, "$g_faction_technologies_tech_earlyshells", reg1),
-	(position_set_x, pos1, 110), (position_set_y, pos1, 1000), (str_store_string, s1, "@Shooting Training"),
+	(position_set_x, pos1, 110), (position_set_y, pos1, 1000), (str_store_string, s1, "@Firearms Training"),
 	(call_script,"script_pts_create_tech_button", slot_faction_technology_shootingtraining, 0), (assign, "$g_faction_technologies_tech_shootingtraining", reg1),
 	(position_set_x, pos1, 110), (position_set_y, pos1, 850), (str_store_string, s1, "@American Civil War^^Logistical Experience"),
 	(call_script,"script_pts_create_tech_button", slot_faction_technology_acwexperience, 8), (assign, "$g_faction_technologies_tech_acwexperience", reg1),
@@ -17520,91 +17520,54 @@ presentations = [
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_riflesrifled"),
 	(str_store_string, s1, "@Rifled Caplock^^Muskets"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@Crimean war has clearly shown advantage of rifled guns - they significantly increase the\
-	effective range of fire, that even exceeds cannon grapeshot range. At first, the rearmament to rifled muskets was hampered\
-	by the fact that they were hard to reload from the muzzle, but with new inventions like Minie ball, we can rifle our\
-	already existing muskets without fear of increasing their reloading time.^^Effects: army changes it's firearms to rifled muskets."), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_riflesrifled"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_riflesrifled),
 	(assign, "$g_faction_technologies_selected_tech_cost", 2500), (assign, "$g_faction_technologies_selected_tech_date", 1856),
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_conscription"),
 	(str_store_string, s1, "@Conscription"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@Latest achievements in military logistics and industry allow to arm, supply and deploy much\
-	more people at the same time than before. If we subject the entire male population of our country to military service for a\
-	few years, we will be able to increase the number of recruits in our army, while not greatly affecting the civilian industry.\
-	^^Effects: Increases party size limit of all faction party leaders by 15%."), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_conscription"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_conscription),
 	(assign, "$g_faction_technologies_selected_tech_cost", 2000), (assign, "$g_faction_technologies_selected_tech_date", 1860),
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_earlyshells"),
 	(str_store_string, s1, "@Percussive Explosive^^Shells"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@Modern machinery allows mass production of percussive mechanisms, with which shells will explode\
-	on impact. Using percussive explosion shells instead of burning fuse allows to decrease cannon reloading time \
-	(because cannoneers needed to manually select length of fuse), though first percussive mechanisms are imperfect\
-	and have chance to not trigger.^^Effects: all artillery pieces will fire with percussive explosion shells. Decreases\
-	howitzers reloading time."), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_earlyshells"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_earlyshells),
 	(assign, "$g_faction_technologies_selected_tech_cost", 2500), (assign, "$g_faction_technologies_selected_tech_date", 1860),
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_medicinecrimeanwar"),
 	(str_store_string, s1, "@Crimean War^^Medical Experience"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@Crimean War resulted in deaths of 300 thousands people, including 200 thousands dying from\
-	diseases rather than battle wounds. This backdrop of death and disease prompted medical innovations on all sides of\
-	the war, whose effects significantly changed shape of medical strategy in the field. Using experience of that war to\
-	improve our field surgery will allow us to save more lives in future wars.^^Effects: Increases chance of soldiers\
-	surviving critical hit by 10%."), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_medicinecrimeanwar"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_medicinecrimeanwar),
 	(assign, "$g_faction_technologies_selected_tech_cost", 2000), (assign, "$g_faction_technologies_selected_tech_date", 1856),
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_shootingtraining"),
-	(str_store_string, s1, "@Shooting Training"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@The widespread use of rifled guns increased the requirements for shooting skills among soldiers. \
-	If we significantly increase the role of shooting training in combat training programs for soldiers, we can unleash the potential\
-	of rifles and increase the accuracy of shooting in combat, but at the cost of increasing the cost of ammunition used for training.\
-	^^Effects: Increases accuracy of shooting by 10%."), (call_script,"script_pts_create_selected_tech_description"),
+	(str_store_string, s1, "@Firearms Training"), (call_script,"script_pts_create_selected_tech_name"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_shootingtraining"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_shootingtraining),
-	(assign, "$g_faction_technologies_selected_tech_cost", 1500), (assign, "$g_faction_technologies_selected_tech_date", 1860),
+	(assign, "$g_faction_technologies_selected_tech_cost", 1500), (assign, "$g_faction_technologies_selected_tech_date", 1864),
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_riflesconverted"),
 	(str_store_string, s1, "@Breech-loaded^^Rifles"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@Breech-loading rifle can be reloaded from the breech side, and thus have a lot higher rate of fire than that\
-	of muzzle-loading ones. However, process of rearming to breech-loading rifles has several difficulties. Producing of breech-loading\
-	mechanisms for such a massive army requires high production capacity and precision engineering, while high rate of fire will significantly\
-	increase ammunition consumption among soldiers and can change the battle tactics, which has been formed around muzzle-loading guns over\
-	the centuries, which the higher ranks and military theorists will not like. First step in rearming can be converting existing muzzle-loading\
-	rifles to breech-loading ones: it will be cheaper than adopting brand new weapon model, though this way has several issues, because existing\
-	rifles are not intended to fire so fast.\
-	^^Effects: army changes it's firearms to converted breech-loading rifles."), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_riflesconverted"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_riflesconverted),
 	(assign, "$g_faction_technologies_selected_tech_cost", 3500), (assign, "$g_faction_technologies_selected_tech_date", 1866),
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_cannonsrifling"),
 	(str_store_string, s1, "@Rifled Cannons"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@Rifling a cannon barrel improves it's projectile aerodynamic stability, and thus greatly increases cannon's\
-	effective range. Over the centuries, artillery used cannons with smoothbore barrels, but now it's starting to change. New technologies\
-	in military industry allow to adopt rifled cannon models in our artillery units - this is costly, but makes our artillery pieces\
-	much more effective than before.\
-	^^Effects: Increases all cannons accuracy by 50%."), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_cannonsrifling"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_cannonsrifling),
 	(assign, "$g_faction_technologies_selected_tech_cost", 3000), (assign, "$g_faction_technologies_selected_tech_date", 1868),
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_acwexperience"),
 	(str_store_string, s1, "@American Civil War^^Logistical Experience"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@desc^^Effects: Increases party size limit of all faction party leaders by 10%."), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_acwexperience"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_acwexperience),
 	(assign, "$g_faction_technologies_selected_tech_cost", 1500), (assign, "$g_faction_technologies_selected_tech_date", 1865),
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_ammoincrease"),
 	(str_store_string, s1, "@Increase of Ammunition"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@desc"), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_ammoincrease"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_ammoincrease),
 	(assign, "$g_faction_technologies_selected_tech_cost", 2000), (assign, "$g_faction_technologies_selected_tech_date", 1868),
@@ -17623,70 +17586,54 @@ presentations = [
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_woundedevacuation"),
 	(str_store_string, s1, "@Organization of Evacuation^^of Wounded"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@desc"), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_woundedevacuation"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_woundedevacuation),
 	(assign, "$g_faction_technologies_selected_tech_cost", 1500), (assign, "$g_faction_technologies_selected_tech_date", 1870),
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_skirmishline"),
 	(str_store_string, s1, "@Skirmish Line^^Tactics"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@desc"), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_skirmishline"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_skirmishline),
 	(assign, "$g_faction_technologies_selected_tech_cost", 2000), (assign, "$g_faction_technologies_selected_tech_date", 1882),
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_fourbattalions"),
 	(str_store_string, s1, "@Four-battalion^^Regiments"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@desc^^Effects: Increases party size limit of all faction party leaders by 20%."), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_fourbattalions"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_fourbattalions),
-	(assign, "$g_faction_technologies_selected_tech_cost", 1500), (assign, "$g_faction_technologies_selected_tech_date", 1860),
+	(assign, "$g_faction_technologies_selected_tech_cost", 1500), (assign, "$g_faction_technologies_selected_tech_date", 1884),
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_riflesboltaction"),
 	(str_store_string, s1, "@Magazine Rifles"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@desc"), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_riflesboltaction"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_riflesboltaction),
 	(assign, "$g_faction_technologies_selected_tech_cost", 4000), (assign, "$g_faction_technologies_selected_tech_date", 1886),
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_cannonsbreechloading"),
 	(str_store_string, s1, "@Breech-loaded^^Cannons"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@desc"), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_cannonsbreechloading"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_cannonsbreechloading),
 	(assign, "$g_faction_technologies_selected_tech_cost", 3500), (assign, "$g_faction_technologies_selected_tech_date", 1884),
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_hetypelate"),
 	(str_store_string, s1, "@Smokeless Powder"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@Smokeless powder is a group name for propellants that don't produce much smoke when fired.\
-	Last inventions in chemical industry allow modern armies to replace black powder that was used as explosive in ammunition for centuries\
-	to a more effective alternative. Smokeless powder doesn't produce smoke and has better stronger explosive force than black powder.\
-	By adopting it in our army, we will improve effective range of our guns and make explosive shells more effective.\
-	^^Effects: increases accuracy of rifles by 5%, increases area of damage dealt by explosive shells by 40%"), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_hetypelate"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_hetypelate),
 	(assign, "$g_faction_technologies_selected_tech_cost", 2000), (assign, "$g_faction_technologies_selected_tech_date", 1884),
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_lateshells"),
 	(str_store_string, s1, "@Improved Shell^^Percussion Mechanisms"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@More precision machinery allows mass production of more reliable percussive mechanisms for explosive shells.\
-	By adopting them in our artillery, we will turn cannons into a deadly force: explosive shells that they are using are very effective against\
-	enemy military personnel, and now they will misfire much less often.\
-	^^Effects: Reduces chance of percussing shell not triggering on impact by 90%."), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_lateshells"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_lateshells),
-	(assign, "$g_faction_technologies_selected_tech_cost", 1500), (assign, "$g_faction_technologies_selected_tech_date", 1880),
+	(assign, "$g_faction_technologies_selected_tech_cost", 1500), (assign, "$g_faction_technologies_selected_tech_date", 1884),
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_improvedlogistics"),
 	(str_store_string, s1, "@Improved Combat^^Logistics"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@desc"), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_improvedlogistics"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_improvedlogistics),
 	(assign, "$g_faction_technologies_selected_tech_cost", 2000), (assign, "$g_faction_technologies_selected_tech_date", 1890),
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_adaptivetraining"),
 	(str_store_string, s1, "@Infantry Adaptive^^Training"), (call_script,"script_pts_create_selected_tech_name"),
-	(str_store_string, s1, "@desc"), (call_script,"script_pts_create_selected_tech_description"),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_adaptivetraining"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_adaptivetraining),
 	(assign, "$g_faction_technologies_selected_tech_cost", 2000), (assign, "$g_faction_technologies_selected_tech_date", 1892),
@@ -17713,6 +17660,10 @@ presentations = [
 	(this_or_next|eq, ":object", "$g_faction_technologies_tech_adaptivetraining"),
 	(eq, ":object", "$g_faction_technologies_tech_riflesconverted"),
 	(assign, "$g_faction_technologies_selected_tech_overlay", ":object"),
+	(assign, ":string_description", "str_faction_technology_earlyshells_description"),
+	(store_sub, ":slot_number", "$g_faction_technologies_selected_tech", slot_faction_technology_earlyshells),
+	(val_add, ":string_description", ":slot_number"), (val_add, ":string_description", ":slot_number"),
+	(str_store_string, s1, ":string_description"), (call_script,"script_pts_create_selected_tech_description"),
 	(assign, reg0, "$g_faction_technologies_selected_tech_cost"), (assign, reg1, "$g_faction_technologies_selected_tech_date"),
 		(try_begin),
 		(str_clear, s1), (str_clear, s2),

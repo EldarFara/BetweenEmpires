@@ -1,4 +1,4 @@
-915
+914
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
 qstr_Game_Rules:^ Game_Rules:^
@@ -159,7 +159,7 @@ qstr__ _
 qstr_Select_technology Select_technology
 qstr_Rifled_Caplock^^Musk Rifled_Caplock^^Muskets
 qstr_Percussive_Explosive Percussive_Explosive^^Shells
-qstr_Shooting_Training Shooting_Training
+qstr_Firearms_Training Firearms_Training
 qstr_American_Civil_War^^ American_Civil_War^^Logistical_Experience
 qstr_Organization_of_Evac Organization_of_Evacuation^^of_the_Wounded
 qstr_Crimean_War^^Medical Crimean_War^^Medical_Experience
@@ -797,7 +797,6 @@ qstr_{!}DEBUG___{s4}_faction_chang {!}DEBUG_-_{s4}_faction_changed_from_slot_tro
 qstr_{s1}_has_switched_fr {s1}_has_switched_from_{s2}_to_{s3}.
 qstr_{!}DEBUG_:_{s2}_is_b {!}DEBUG_:_{s2}_is_besieging_by_{s3}
 qstr_{!}DEBUG___Checking_ {!}DEBUG_-_Checking_fire_at_{s4}_for_{s5}_-_current_time_{reg3},_last_nearby_fire_{reg4}
-qstr_{s1}_invented_techno {s1}_invented_technology_#{reg0}
 qstr_The_year_is_{reg0}. The_year_is_{reg0}.
 qstr_{!}DEBUG____Wanted_b {!}DEBUG_--_Wanted_bandits_spotted_by_{s4}
 qstr_{reg65?my_Lady:my_Lo {reg65?my_Lady:my_Lord}
