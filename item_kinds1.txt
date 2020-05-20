@@ -672,7 +672,7 @@ itemsfile version 3
  0
 0
 
- itm_blue_hose Blue_Hose Blue_Hose 1  blue_hose_a 0  536874766 0 11 123731968 1.000000 100 0 0 5 0 0 0 0 0 0 0 0
+ itm_blue_hose Blue_Hose Blue_Hose 1  blue_hose_a 0  536874766 0 11 123731968 1.000000 100 0 0 1 0 0 0 0 0 0 0 0
  0
 0
 
@@ -808,7 +808,7 @@ itemsfile version 3
  0
 0
 
- itm_nobleman_outfit Nobleman_Outfit Nobleman_Outfit 1  nobleman_outfit_b_new 0  553648141 0 348 123731968 4.000000 100 0 15 12 0 0 0 0 0 0 0 0
+ itm_nobleman_outfit Nobleman_Outfit Nobleman_Outfit 1  nobleman_outfit_b_new 0  553648141 0 348 123731968 4.000000 100 0 2 12 0 0 0 0 0 0 0 0
  0
 0
 
@@ -976,7 +976,7 @@ itemsfile version 3
  0
 0
 
- itm_leather_vest Leather_Vest Leather_Vest 1  leather_vest_a 0  553648141 0 146 123731968 4.000000 100 0 15 7 0 0 0 0 0 0 0 0
+ itm_leather_vest Leather_Vest Leather_Vest 1  leather_vest_a 0  553648141 0 146 123731968 4.000000 100 0 2 7 0 0 0 0 0 0 0 0
  0
 0
 
@@ -984,15 +984,15 @@ itemsfile version 3
  0
 0
 
- itm_gambeson Gambeson Gambeson 1  white_gambeson 0  553648141 0 260 123731968 5.000000 100 0 20 5 0 0 0 0 0 0 0 0
+ itm_gambeson Gambeson Gambeson 1  white_gambeson 0  553648141 0 260 123731968 5.000000 100 0 20 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_blue_gambeson Blue_Gambeson Blue_Gambeson 1  blue_gambeson 0  553648141 0 270 123731968 5.000000 100 0 21 5 0 0 0 0 0 0 0 0
+ itm_blue_gambeson Blue_Gambeson Blue_Gambeson 1  blue_gambeson 0  553648141 0 270 123731968 5.000000 100 0 21 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_red_gambeson Red_Gambeson Red_Gambeson 1  red_gambeson_a 0  553648141 0 275 123731968 5.000000 100 0 21 5 0 0 0 0 0 0 0 0
+ itm_red_gambeson Red_Gambeson Red_Gambeson 1  red_gambeson_a 0  553648141 0 275 123731968 5.000000 100 0 21 1 0 0 0 0 0 0 0 0
  0
 0
 
@@ -1132,7 +1132,7 @@ itemsfile version 3
  0
 0
 
- itm_skirmisher_armor Skirmisher_Armor Skirmisher_Armor 1  skirmisher_armor 0  16777229 0 74 123731968 3.000000 100 0 15 9 0 0 0 0 0 0 0 0
+ itm_skirmisher_armor Skirmisher_Armor Skirmisher_Armor 1  skirmisher_armor 0  16777229 0 74 123731968 3.000000 100 0 2 9 0 0 0 0 0 0 0 0
  0
 0
 
@@ -2051,7 +2051,7 @@ itemsfile version 3
 1
 -50.000000  3 2071 1 1224979098644774912 2072 1 1224979098644774913 1 4 936748722493063579 1729382256910270470 1224979098644774912 1224979098644774913 
 
- itm_tab_shield_round_d Heavy_Round_Shield Heavy_Round_Shield 1  tableau_shield_round_1 0  262151 5100273664 210 167772194 4.000000 100 0 15 0 0 350 84 0 50 0 0 0
+ itm_tab_shield_round_d Heavy_Round_Shield Heavy_Round_Shield 1  tableau_shield_round_1 0  262151 5100273664 210 167772194 4.000000 100 0 2 0 0 350 84 0 50 0 0 0
  0
 1
 -50.000000  3 2071 1 1224979098644774912 2072 1 1224979098644774913 1 4 936748722493063579 1729382256910270469 1224979098644774912 1224979098644774913 
@@ -2514,77 +2514,77 @@ itemsfile version 3
  0
 0
 
- itm_ria_infantry_trousers1 Russian_Infantry_Trousers Russian_Infantry_Trousers 1  ria_infantry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_ria_infantry_trousers1 Russian_Infantry_Trousers Russian_Infantry_Trousers 1  ria_infantry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_infantry_trousers2 Russian_Infantry_Trousers Russian_Infantry_Trousers 1  ria_infantry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_ria_infantry_trousers2 Russian_Infantry_Trousers Russian_Infantry_Trousers 1  ria_infantry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_infantry_trousers3 Russian_Infantry_Trousers Russian_Infantry_Trousers 1  ria_infantry_trousers3 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_ria_infantry_trousers3 Russian_Infantry_Trousers Russian_Infantry_Trousers 1  ria_infantry_trousers3 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_cavalry_trousers1 Russian_Cavalry_Trousers Russian_Cavalry_Trousers 1  ria_cavalry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_ria_cavalry_trousers1 Russian_Cavalry_Trousers Russian_Cavalry_Trousers 1  ria_cavalry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_cavalry_trousers2 Russian_Cavalry_Trousers Russian_Cavalry_Trousers 1  ria_cavalry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_ria_cavalry_trousers2 Russian_Cavalry_Trousers Russian_Cavalry_Trousers 1  ria_cavalry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_cavalry_trousers3 Russian_Cossack_Trousers Russian_Cossack_Trousers 1  ria_cavalry_trousers3 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_ria_cavalry_trousers3 Russian_Cossack_Trousers Russian_Cossack_Trousers 1  ria_cavalry_trousers3 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_cavalry_trousers4 Russian_Cavalry_Trousers Russian_Cavalry_Trousers 1  ria_cavalry_trousers4 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_ria_cavalry_trousers4 Russian_Cavalry_Trousers Russian_Cavalry_Trousers 1  ria_cavalry_trousers4 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_infantry1 Russian_Military_Uniform Russian_Military_Uniform 1  ria_infantry2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_ria_infantry1 Russian_Military_Uniform Russian_Military_Uniform 1  ria_infantry2 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_infantry2 Russian_Military_Uniform Russian_Military_Uniform 1  ria_infantry2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_ria_infantry2 Russian_Military_Uniform Russian_Military_Uniform 1  ria_infantry2 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_infantry3 Russian_Military_Uniform Russian_Military_Uniform 1  ria_infantry3 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_ria_infantry3 Russian_Military_Uniform Russian_Military_Uniform 1  ria_infantry3 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_infantry4 Russian_Military_Uniform Russian_Military_Uniform 1  ria_infantry4 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_ria_infantry4 Russian_Military_Uniform Russian_Military_Uniform 1  ria_infantry4 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_cavalry1 Russian_Military_Uniform Russian_Military_Uniform 1  ria_cavalry1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_ria_cavalry1 Russian_Military_Uniform Russian_Military_Uniform 1  ria_cavalry1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_cavalry2 Russian_Military_Uniform Russian_Military_Uniform 1  ria_cavalry2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_ria_cavalry2 Russian_Military_Uniform Russian_Military_Uniform 1  ria_cavalry2 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_cavalry3 Russian_Cossack_Torso Russian_Cossack_Torso 1  ria_cavalry3 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_ria_cavalry3 Russian_Cossack_Torso Russian_Cossack_Torso 1  ria_cavalry3 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_cavalry4 Russian_General_Torso Russian_General_Torso 1  ria_cavalry4 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_ria_cavalry4 Russian_General_Torso Russian_General_Torso 1  ria_cavalry4 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  44
 0
@@ -2614,68 +2614,68 @@ itemsfile version 3
  44
 0
 
- itm_ria_leader1 Russian_Tsar_Torso Russian_Tsar_Torso 1  ria_leader1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_ria_leader1 Russian_Tsar_Torso Russian_Tsar_Torso 1  ria_leader1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_clothes_adventurer_male_trousers1 Adventurer's_Trousers Adventurer's_Trousers 1  clothes_adventurer_male_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_clothes_adventurer_male_trousers1 Adventurer's_Trousers Adventurer's_Trousers 1  clothes_adventurer_male_trousers1 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_clothes_adventurer_male1 Adventurer's_Clothes Adventurer's_Clothes 1  clothes_adventurer_male1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_clothes_adventurer_male1 Adventurer's_Clothes Adventurer's_Clothes 1  clothes_adventurer_male1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_clothes_adventurer_female_trousers1 Adventurer's_Skirt Adventurer's_Skirt 1  clothes_adventurer_female_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_clothes_adventurer_female_trousers1 Adventurer's_Skirt Adventurer's_Skirt 1  clothes_adventurer_female_trousers1 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_clothes_adventurer_female1 Adventurer's_Clothes Adventurer's_Clothes 1  clothes_adventurer_female1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_clothes_adventurer_female1 Adventurer's_Clothes Adventurer's_Clothes 1  clothes_adventurer_female1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_court_dress1 Court_Dress Court_Dress 1  court_dress1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_court_dress1 Court_Dress Court_Dress 1  court_dress1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_court_dress2 Court_Dress Court_Dress 1  court_dress2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_court_dress2 Court_Dress Court_Dress 1  court_dress2 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_court_dress3 Court_Dress Court_Dress 1  court_dress3 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_court_dress3 Court_Dress Court_Dress 1  court_dress3 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_court_dress4 Court_Dress Court_Dress 1  court_dress4 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_court_dress4 Court_Dress Court_Dress 1  court_dress4 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_rural_dress1 Rural_Dress Rural_Dress 1  rural_dress1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_rural_dress1 Rural_Dress Rural_Dress 1  rural_dress1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_rural_dress2 Rural_Dress Rural_Dress 1  rural_dress2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_rural_dress2 Rural_Dress Rural_Dress 1  rural_dress2 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_urban_dress1 Urban_Dress Urban_Dress 1  urban_dress1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_urban_dress1 Urban_Dress Urban_Dress 1  urban_dress1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_urban_dress2 Urban_Dress Urban_Dress 1  urban_dress2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_urban_dress2 Urban_Dress Urban_Dress 1  urban_dress2 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_urban_dress3 Urban_Dress Urban_Dress 1  urban_dress3 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_urban_dress3 Urban_Dress Urban_Dress 1  urban_dress3 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_urban_dress4 Urban_Dress Urban_Dress 1  urban_dress4 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_urban_dress4 Urban_Dress Urban_Dress 1  urban_dress4 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_sidearm_colt_m1873 Colt_Single_Action_Army Colt_Single_Action_Army 2  colt_m1873 0  pistol_holster1 3458764513820540928  4259856 518080888832 600 131082 1.000000 100 0 0 94 0 0 20 150 0 6 296 0
+ itm_sidearm_colt_m1873 Colt_Single_Action_Army Colt_Single_Action_Army 2  colt_m1873 0  pistol_holster1 3458764513820540928  4259856 518080888832 600 131082 1.000000 100 0 0 94 0 0 20 150 0 6 301 0
  0
 0
 
@@ -2694,7 +2694,7 @@ itemsfile version 3
 1
 -52.000000  3 4 0 1975 3 1008806316530991164 1 8 3 0 
 
- itm_rifle_middle_east_musket1 Oriental_Musket Oriental_Musket 2  middle_east_musket1 0  middle_east_musket1_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 316 0
+ itm_rifle_middle_east_musket1 Oriental_Musket Oriental_Musket 2  middle_east_musket1 0  middle_east_musket1_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
  0
 0
 
@@ -2702,7 +2702,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_middle_east_musket2 Oriental_Musket Oriental_Musket 2  middle_east_musket2 0  middle_east_musket2_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 316 0
+ itm_rifle_middle_east_musket2 Oriental_Musket Oriental_Musket 2  middle_east_musket2 0  middle_east_musket2_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
  0
 0
 
@@ -2710,7 +2710,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_middle_east_musket3 Oriental_Musket Oriental_Musket 2  middle_east_musket3 0  middle_east_musket3_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 316 0
+ itm_rifle_middle_east_musket3 Oriental_Musket Oriental_Musket 2  middle_east_musket3 0  middle_east_musket3_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
  0
 0
 
@@ -2718,7 +2718,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_middle_east_musket4 Oriental_Musket Oriental_Musket 2  middle_east_musket4 0  middle_east_musket4_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 316 0
+ itm_rifle_middle_east_musket4 Oriental_Musket Oriental_Musket 2  middle_east_musket4 0  middle_east_musket4_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
  0
 0
 
@@ -2726,7 +2726,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_middle_east_musket5 Oriental_Musket Oriental_Musket 2  middle_east_musket5 0  middle_east_musket5_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 316 0
+ itm_rifle_middle_east_musket5 Oriental_Musket Oriental_Musket 2  middle_east_musket5 0  middle_east_musket5_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
  0
 0
 
@@ -2734,15 +2734,15 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_smithwesson_no2 Smith_&_Wesson_Model_3 Smith_&_Wesson_Model_3 2  smithwesson_no2 0  pistol_holster1b 3458764513820540928  4259856 518080888832 900 131082 1.000000 100 0 0 94 0 0 20 175 0 6 301 0
+ itm_sidearm_smithwesson_no2 Smith_&_Wesson_Model_3 Smith_&_Wesson_Model_3 2  smithwesson_no2 0  pistol_holster1b 3458764513820540928  4259856 518080888832 900 131082 1.000000 100 0 0 94 0 0 20 175 0 6 306 0
  0
 0
 
- itm_sidearm_flintlock_pistol1 Flintlock_Pistol Flintlock_Pistol 1  flintlock_pistol1 0  4259856 483721150464 200 131082 1.500000 100 0 0 82 0 0 10 20 0 1 306 0
+ itm_sidearm_flintlock_pistol1 Flintlock_Pistol Flintlock_Pistol 1  flintlock_pistol1 0  4259856 483721150464 200 131082 1.500000 100 0 0 82 0 0 10 20 0 1 311 0
  0
 0
 
- itm_sidearm_caplock_pistol1 Caplock_Pistol Caplock_Pistol 1  caplock_pistol1 0  4259856 483721150464 200 131082 1.500000 100 0 0 82 0 0 13 20 0 1 306 0
+ itm_sidearm_caplock_pistol1 Caplock_Pistol Caplock_Pistol 1  caplock_pistol1 0  4259856 483721150464 200 131082 1.500000 100 0 0 82 0 0 13 20 0 1 311 0
  0
 0
 
@@ -2774,25 +2774,25 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_colt_dragoon Colt_Dragoon Colt_Dragoon 2  colt_dragoon 0  pistol_holster1 3458764513820540928  4259856 518080888832 300 131082 1.250000 100 0 0 86 0 0 15 175 0 6 296 0
+ itm_sidearm_colt_dragoon Colt_Dragoon Colt_Dragoon 2  colt_dragoon 0  pistol_holster1 3458764513820540928  4259856 518080888832 300 131082 1.250000 100 0 0 86 0 0 15 175 0 6 301 0
  0
 0
 
- itm_sidearm_remington1 Remington_Model_1858 Remington_Model_1858 2  remington1 0  pistol_holster1 3458764513820540928  4259856 518080888832 300 131082 1.250000 100 0 0 90 0 0 15 150 0 6 291 0
+ itm_sidearm_remington1 Remington_Model_1858 Remington_Model_1858 2  remington1 0  pistol_holster1 3458764513820540928  4259856 518080888832 300 131082 1.250000 100 0 0 90 0 0 15 150 0 6 296 0
  0
 0
 
- itm_lou_infantry_trousers1 Austrian_Infantry_Trousers Austrian_Infantry_Trousers 1  lou_infantry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_lou_infantry_trousers1 Austrian_Infantry_Trousers Austrian_Infantry_Trousers 1  lou_infantry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  45
 0
 
- itm_lou_infantry1 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_lou_infantry1 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  45
 0
 
- itm_lou_infantry2 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_lou_infantry2 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry2 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  45
 0
@@ -2802,7 +2802,7 @@ itemsfile version 3
  45
 0
 
- itm_sidearm_gasser Gasser_M1870 Gasser_M1870 2  gasser 0  pistol_holster1b 3458764513820540928  4259856 518080888832 300 131082 1.250000 100 0 0 90 0 0 20 150 0 6 296 0
+ itm_sidearm_gasser Gasser_M1870 Gasser_M1870 2  gasser 0  pistol_holster1b 3458764513820540928  4259856 518080888832 300 131082 1.250000 100 0 0 90 0 0 20 150 0 6 301 0
  0
 0
 
@@ -2811,41 +2811,41 @@ itemsfile version 3
  45
 0
 
- itm_lou_infantry_trousers2 Austrian_Infantry_Trousers Austrian_Infantry_Trousers 1  lou_infantry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_lou_infantry_trousers2 Austrian_Infantry_Trousers Austrian_Infantry_Trousers 1  lou_infantry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  45
 0
 
- itm_lou_infantry3 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry3 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_lou_infantry3 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry3 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  45
 0
 
- itm_clothes_urban_male_trousers1 Trousers Trousers 1  clothes_urban_male_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_clothes_urban_male_trousers1 Trousers Trousers 1  clothes_urban_male_trousers1 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_clothes_urban_male_trousers2 Trousers Trousers 1  clothes_urban_male_trousers2 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_clothes_urban_male_trousers2 Trousers Trousers 1  clothes_urban_male_trousers2 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_clothes_urban_male_trousers3 Trousers Trousers 1  clothes_urban_male_trousers3 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_clothes_urban_male_trousers3 Trousers Trousers 1  clothes_urban_male_trousers3 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_dress_shoes Dress_Shoes Dress_Shoes 1  dress_shoes 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_dress_shoes Dress_Shoes Dress_Shoes 1  dress_shoes 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_clothes_urban_male1 Three-piece_Suit Three-piece_Suit 1  clothes_urban_male1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_clothes_urban_male1 Three-piece_Suit Three-piece_Suit 1  clothes_urban_male1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_clothes_urban_male2 Three-piece_Suit Three-piece_Suit 1  clothes_urban_male2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_clothes_urban_male2 Three-piece_Suit Three-piece_Suit 1  clothes_urban_male2 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_clothes_urban_male3 Three-piece_Suit Three-piece_Suit 1  clothes_urban_male3 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_clothes_urban_male3 Three-piece_Suit Three-piece_Suit 1  clothes_urban_male3 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
@@ -2894,17 +2894,17 @@ itemsfile version 3
  0
 0
 
- itm_lou_infantry4 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry4 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_lou_infantry4 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry4 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  45
 0
 
- itm_lou_cavalry1 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_cavalry1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_lou_cavalry1 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_cavalry1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  45
 0
 
- itm_lou_cavalry2 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_cavalry2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_lou_cavalry2 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_cavalry2 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  45
 0
@@ -2919,12 +2919,12 @@ itemsfile version 3
  45
 0
 
- itm_lou_cavalry_trousers1 Austrian_Cavalry_Trousers Austrian_Cavalry_Trousers 1  lou_cavalry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_lou_cavalry_trousers1 Austrian_Cavalry_Trousers Austrian_Cavalry_Trousers 1  lou_cavalry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  45
 0
 
- itm_lou_cavalry_trousers2 Austrian_Cavalry_Trousers Austrian_Cavalry_Trousers 1  lou_cavalry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_lou_cavalry_trousers2 Austrian_Cavalry_Trousers Austrian_Cavalry_Trousers 1  lou_cavalry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  45
 0
@@ -2953,82 +2953,82 @@ itemsfile version 3
  54
 0
 
- itm_gho_infantry1 Persian_Military_Uniform Persian_Military_Uniform 1  gho_infantry1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_gho_infantry1 Persian_Military_Uniform Persian_Military_Uniform 1  gho_infantry1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_gho_infantry2 Persian_Military_Uniform Persian_Military_Uniform 1  gho_infantry2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_gho_infantry2 Persian_Military_Uniform Persian_Military_Uniform 1  gho_infantry2 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_gho_infantry3 Persian_Military_Uniform Persian_Military_Uniform 1  gho_infantry3 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_gho_infantry3 Persian_Military_Uniform Persian_Military_Uniform 1  gho_infantry3 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_gho_infantry4 Persian_Military_Uniform Persian_Military_Uniform 1  gho_infantry4 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_gho_infantry4 Persian_Military_Uniform Persian_Military_Uniform 1  gho_infantry4 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_gho_infantry5 Persian_Military_Uniform Persian_Military_Uniform 1  gho_infantry5 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_gho_infantry5 Persian_Military_Uniform Persian_Military_Uniform 1  gho_infantry5 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_gho_infantry1 Persian_Military_Uniform Persian_Military_Uniform 1  gho_infantry1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_gho_infantry1 Persian_Military_Uniform Persian_Military_Uniform 1  gho_infantry1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_gho_cavalry_robe2 Persian_Civilian_Robe Persian_Civilian_Robe 1  gho_cavalry_robe2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_gho_cavalry_robe2 Persian_Civilian_Robe Persian_Civilian_Robe 1  gho_cavalry_robe2 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_gho_cavalry_robe1 Persian_Civilian_Robe Persian_Civilian_Robe 1  gho_cavalry_robe1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_gho_cavalry_robe1 Persian_Civilian_Robe Persian_Civilian_Robe 1  gho_cavalry_robe1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_gho_cavalry1 Persian_Military_Uniform Persian_Military_Uniform 1  gho_cavalry1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_gho_cavalry1 Persian_Military_Uniform Persian_Military_Uniform 1  gho_cavalry1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_gho_cavalry2 Persian_Cossack_Torso Persian_Cossack_Torso 1  gho_cavalry2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_gho_cavalry2 Persian_Cossack_Torso Persian_Cossack_Torso 1  gho_cavalry2 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_gho_infantry_trousers1 Persian_Infantry_Trousers Persian_Infantry_Trousers 1  gho_infantry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_gho_infantry_trousers1 Persian_Infantry_Trousers Persian_Infantry_Trousers 1  gho_infantry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_gho_infantry_trousers2 Persian_Infantry_Trousers Persian_Infantry_Trousers 1  gho_infantry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_gho_infantry_trousers2 Persian_Infantry_Trousers Persian_Infantry_Trousers 1  gho_infantry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_gho_infantry_trousers3 Persian_Infantry_Trousers Persian_Infantry_Trousers 1  gho_infantry_trousers3 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_gho_infantry_trousers3 Persian_Infantry_Trousers Persian_Infantry_Trousers 1  gho_infantry_trousers3 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_gho_cavalry_trousers1 Persian_Cavalry_Trousers Persian_Cavalry_Trousers 1  gho_cavalry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_gho_cavalry_trousers1 Persian_Cavalry_Trousers Persian_Cavalry_Trousers 1  gho_cavalry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_gho_cavalry_trousers2 Persian_Cossack_Trousers Persian_Cossack_Trousers 1  gho_cavalry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_gho_cavalry_trousers2 Persian_Cossack_Trousers Persian_Cossack_Trousers 1  gho_cavalry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_gho_cavalry_boots Persian_Cavalry_Boots Persian_Cavalry_Boots 1  gho_cavalry_boots 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_gho_cavalry_boots Persian_Cavalry_Boots Persian_Cavalry_Boots 1  gho_cavalry_boots 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  54
 0
@@ -3401,50 +3401,50 @@ itemsfile version 3
  0
 0
 
- itm_gho_leader1 Persian_General_Torso Persian_General_Torso 1  gho_leader1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_gho_leader1 Persian_General_Torso Persian_General_Torso 1  gho_leader1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_gho_leader_trousers1 Persian_General_Trousers Persian_General_Trousers 1  gho_leader_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_gho_leader_trousers1 Persian_General_Trousers Persian_General_Trousers 1  gho_leader_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_gho_leader_trousers2 Persian_Shah_Trousers Persian_Shah_Trousers 1  gho_leader_trousers2 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_gho_leader_trousers2 Persian_Shah_Trousers Persian_Shah_Trousers 1  gho_leader_trousers2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_gho_shah1 Persian_Shah_Torso Persian_Shah_Torso 1  gho_shah1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_gho_shah1 Persian_Shah_Torso Persian_Shah_Torso 1  gho_shah1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_gho_hat5 Persian_Shah_Hat Persian_Shah_Hat 1  gho_hat5 0  536940300 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_gho_hat5 Persian_Shah_Hat Persian_Shah_Hat 1  gho_hat5 0  536874764 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_gho_hat6 Persian_Shah_Hat Persian_Shah_Hat 1  gho_hat6 0  536940300 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_gho_hat6 Persian_Shah_Hat Persian_Shah_Hat 1  gho_hat6 0  536874764 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_gho_hat7 Persian_Fez Persian_Fez 1  gho_hat7 0  536940300 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_gho_hat7 Persian_Fez Persian_Fez 1  gho_hat7 0  536874764 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  54
 0
 
- itm_sidearm_colt_m1851_navy Colt_M1851_Navy Colt_M1851_Navy 2  colt_m1851_navy 0  pistol_holster1 3458764513820540928  4259856 518080888832 700 131082 1.750000 130 0 0 92 0 0 40 175 0 6 301 0
+ itm_sidearm_colt_m1851_navy Colt_M1851_Navy Colt_M1851_Navy 2  colt_m1851_navy 0  pistol_holster1 3458764513820540928  4259856 518080888832 700 131082 1.750000 130 0 0 92 0 0 40 175 0 6 306 0
  0
 0
 
- itm_sidearm_bacon1 Bacon_Pocket_Revolver Bacon_Pocket_Revolver 2  bacon 0  pistol_holster1b 3458764513820540928  4259856 518080888832 200 131082 1.250000 50 0 0 85 0 0 20 150 0 6 291 0
+ itm_sidearm_bacon1 Bacon_Pocket_Revolver Bacon_Pocket_Revolver 2  bacon 0  pistol_holster1b 3458764513820540928  4259856 518080888832 200 131082 1.250000 50 0 0 85 0 0 20 150 0 6 296 0
  0
 0
 
- itm_rifle_sharps Sharps_Rifle Sharps_Rifle 2  sharps 0  sharps_inv 1152921504606846976  811663369 555929845760 800 131082 4.250000 100 0 0 104 0 0 60 650 0 1 316 0
+ itm_rifle_sharps Sharps_Rifle Sharps_Rifle 2  sharps 0  sharps_inv 1152921504606846976  811663369 555929845760 800 131082 4.250000 100 0 0 104 0 0 60 650 0 1 311 0
  0
 0
 
@@ -3452,7 +3452,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_winchester_m1873 Winchester_M1873_Rifle Winchester_M1873_Rifle 2  winchester_m1873 0  winchester_m1873_inv 1152921504606846976  543227913 555929845760 800 131082 4.250000 100 0 0 85 0 0 30 650 0 12 301 0
+ itm_rifle_winchester_m1873 Winchester_M1873_Rifle Winchester_M1873_Rifle 2  winchester_m1873 0  winchester_m1873_inv 1152921504606846976  543227913 555929845760 800 131082 4.250000 100 0 0 85 0 0 30 650 0 12 296 0
  0
 0
 
@@ -3460,7 +3460,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_spencer Spencer_Repeating_Rifle Spencer_Repeating_Rifle 2  spencer_repeating_rifle 0  spencer_repeating_rifle_inv 1152921504606846976  811663369 555929845760 800 131082 4.250000 100 0 0 95 0 0 30 650 0 7 306 0
+ itm_rifle_spencer Spencer_Repeating_Rifle Spencer_Repeating_Rifle 2  spencer_repeating_rifle 0  spencer_repeating_rifle_inv 1152921504606846976  811663369 555929845760 800 131082 4.250000 100 0 0 95 0 0 30 650 0 7 301 0
  0
 0
 
@@ -3468,7 +3468,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_spencer_carbine Spencer_Repeating_Carbine Spencer_Repeating_Carbine 2  spencer_repeating_carbine 0  spencer_repeating_carbine_inv 1152921504606846976  6357001 555929845760 800 131082 3.250000 100 0 0 80 0 0 48 650 0 7 306 0
+ itm_rifle_spencer_carbine Spencer_Repeating_Carbine Spencer_Repeating_Carbine 2  spencer_repeating_carbine 0  spencer_repeating_carbine_inv 1152921504606846976  6357001 555929845760 800 131082 3.250000 100 0 0 80 0 0 48 650 0 7 301 0
  0
 0
 
@@ -3476,19 +3476,19 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_savage_revolver Savage_M1861_Navy Savage_M1861_Navy 2  savage_revolver 0  pistol_holster1 3458764513820540928  4259856 518080888832 500 131082 1.750000 100 0 0 95 0 0 14 320 0 6 295 0
+ itm_sidearm_savage_revolver Savage_M1861_Navy Savage_M1861_Navy 2  savage_revolver 0  pistol_holster1 3458764513820540928  4259856 518080888832 500 131082 1.750000 100 0 0 95 0 0 14 320 0 6 300 0
  0
 0
 
- itm_sidearm_pepperbox1 Pepper-box_Revolver Pepper-box_Revolver 2  pepperbox1 0  pepperbox1 3458764513820540928  4259856 483721150464 200 131082 1.000000 70 0 0 84 0 0 25 150 0 6 286 0
+ itm_sidearm_pepperbox1 Pepper-box_Revolver Pepper-box_Revolver 2  pepperbox1 0  pepperbox1 3458764513820540928  4259856 483721150464 200 131082 1.000000 70 0 0 84 0 0 25 150 0 6 291 0
  0
 0
 
- itm_sidearm_pepperbox2 Pepper-box_Pistol Pepper-box_Pistol 2  pepperbox2 0  pepperbox2 3458764513820540928  4259856 483721150464 200 131082 1.000000 70 0 0 84 0 0 25 150 0 4 286 0
+ itm_sidearm_pepperbox2 Pepper-box_Pistol Pepper-box_Pistol 2  pepperbox2 0  pepperbox2 3458764513820540928  4259856 483721150464 200 131082 1.000000 70 0 0 84 0 0 25 150 0 4 291 0
  0
 0
 
- itm_rifle_russian_m1845 Russian_M1845_Musket Russian_M1845_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811663369 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 316 0
+ itm_rifle_russian_m1845 Russian_M1845_Musket Russian_M1845_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811663369 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
  0
 0
 
@@ -3496,7 +3496,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1845_carbine Russian_M1842_Carbine Russian_M1842_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6357001 6174031872 400 131082 4.750000 100 0 0 55 0 0 71 400 0 1 316 0
+ itm_rifle_russian_m1845_carbine Russian_M1842_Carbine Russian_M1842_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6357001 6174031872 400 131082 4.750000 100 0 0 55 0 0 71 400 0 1 311 0
  0
 0
 
@@ -3504,7 +3504,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1856 Russian_M1856_Rifle Russian_M1856_Rifle 2  russian_m1856 0  russian_m1856_inv 1152921504606846976  811663369 6174031872 400 131082 4.750000 100 0 0 95 0 0 55 600 0 1 316 0
+ itm_rifle_russian_m1856 Russian_M1856_Rifle Russian_M1856_Rifle 2  russian_m1856 0  russian_m1856_inv 1152921504606846976  811663369 6174031872 400 131082 4.750000 100 0 0 95 0 0 55 600 0 1 311 0
  0
 0
 
@@ -3512,7 +3512,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1856_carbine Russian_M1856_Carbine Russian_M1856_Carbine 2  russian_m1856_carbine 0  russian_m1856_carbine_inv 1152921504606846976  6357001 6174031872 400 131082 4.750000 100 0 0 80 0 0 71 600 0 1 316 0
+ itm_rifle_russian_m1856_carbine Russian_M1856_Carbine Russian_M1856_Carbine 2  russian_m1856_carbine 0  russian_m1856_carbine_inv 1152921504606846976  6357001 6174031872 400 131082 4.750000 100 0 0 80 0 0 71 600 0 1 311 0
  0
 0
 
@@ -3520,7 +3520,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1867 Krnka_Rifle Krnka_Rifle 2  russian_m1867 0  russian_m1867_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 95 0 0 45 600 0 1 316 0
+ itm_rifle_russian_m1867 Krnka_Rifle Krnka_Rifle 2  russian_m1867 0  russian_m1867_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 95 0 0 45 600 0 1 311 0
  0
 0
 
@@ -3528,7 +3528,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1867_carbine Krnka_Carbine Krnka_Carbine 2  russian_m1867_carbine 0  russian_m1867_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 80 0 0 58 600 0 1 316 0
+ itm_rifle_russian_m1867_carbine Krnka_Carbine Krnka_Carbine 2  russian_m1867_carbine 0  russian_m1867_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 80 0 0 58 600 0 1 311 0
  0
 0
 
@@ -3536,7 +3536,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_berdan Berdan_Rifle Berdan_Rifle 2  berdan 0  berdan_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 100 0 0 60 650 0 1 316 0
+ itm_rifle_russian_berdan Berdan_Rifle Berdan_Rifle 2  berdan 0  berdan_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 100 0 0 60 650 0 1 311 0
  0
 0
 
@@ -3544,7 +3544,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_berdan_carbine Berdan_Carbine Berdan_Carbine 2  berdan_carbine 0  berdan_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 85 0 0 78 650 0 1 316 0
+ itm_rifle_russian_berdan_carbine Berdan_Carbine Berdan_Carbine 2  berdan_carbine 0  berdan_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 85 0 0 78 650 0 1 311 0
  0
 0
 
@@ -3552,7 +3552,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_mosin Mosin-Nagant_Rifle Mosin-Nagant_Rifle 2  mosin 0  mosin_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 102 0 0 40 700 0 5 306 0
+ itm_rifle_russian_mosin Mosin-Nagant_Rifle Mosin-Nagant_Rifle 2  mosin 0  mosin_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 102 0 0 40 700 0 5 301 0
  0
 0
 
@@ -3560,7 +3560,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_mosin_carbine Mosin-Nagant_Carbine Mosin-Nagant_Carbine 2  mosin_carbine 0  mosin_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 86 0 0 52 700 0 5 306 0
+ itm_rifle_russian_mosin_carbine Mosin-Nagant_Carbine Mosin-Nagant_Carbine 2  mosin_carbine 0  mosin_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 86 0 0 52 700 0 5 301 0
  0
 0
 
@@ -3588,43 +3588,43 @@ itemsfile version 3
  0
 0
 
- itm_clothes_rural_male1 Shirt Shirt 1  clothes_rural_male1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_clothes_rural_male1 Shirt Shirt 1  clothes_rural_male1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_clothes_rural_male2 Shirt Shirt 1  clothes_rural_male2 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_clothes_rural_male2 Shirt Shirt 1  clothes_rural_male2 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_clothes_gala_male1 Three-piece_Suit Three-piece_Suit 1  clothes_gala_male1 0  553713677 0 250 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_clothes_gala_male1 Three-piece_Suit Three-piece_Suit 1  clothes_gala_male1 0  553713677 0 250 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_clothes_gala_male1_trousers Trousers Trousers 1  clothes_gala_male1_trousers 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_clothes_gala_male1_trousers Trousers Trousers 1  clothes_gala_male1_trousers 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_lou_general Austrian_General_Torso Austrian_General_Torso 1  lou_general 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_lou_general Austrian_General_Torso Austrian_General_Torso 1  lou_general 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  45
 0
 
- itm_lou_emperor Austrian_Kaiser_Torso Austrian_Kaiser_Torso 1  lou_emperor 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_lou_emperor Austrian_Kaiser_Torso Austrian_Kaiser_Torso 1  lou_emperor 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  45
 0
 
- itm_lou_emperor_trousers1 Austrian_Kaiser_Trousers Austrian_Kaiser_Trousers 1  lou_emperor_trousers1 0  553713678 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_lou_emperor_trousers1 Austrian_Kaiser_Trousers Austrian_Kaiser_Trousers 1  lou_emperor_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  69
 0
 
- itm_lou_bicorne Austrian_Bicorne Austrian_Bicorne 1  lou_bicorne 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_lou_bicorne Austrian_Bicorne Austrian_Bicorne 1  lou_bicorne 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  72
 0
 
- itm_rifle_austrian_m1842 Austrian_M1842_Musket Austrian_M1842_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811663369 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 316 0
+ itm_rifle_austrian_m1842 Austrian_M1842_Musket Austrian_M1842_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811663369 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
  0
 0
 
@@ -3632,7 +3632,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1842_carbine Austrian_M1842_Carbine Austrian_M1842_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6357001 6174031872 400 131082 4.750000 100 0 0 55 0 0 71 400 0 1 316 0
+ itm_rifle_austrian_m1842_carbine Austrian_M1842_Carbine Austrian_M1842_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6357001 6174031872 400 131082 4.750000 100 0 0 55 0 0 71 400 0 1 311 0
  0
 0
 
@@ -3640,7 +3640,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1854 Lorenz_Rifle Lorenz_Rifle 2  russian_m1856 0  russian_m1867_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 95 0 0 45 600 0 1 316 0
+ itm_rifle_austrian_m1854 Lorenz_Rifle Lorenz_Rifle 2  russian_m1856 0  russian_m1867_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 95 0 0 45 600 0 1 311 0
  0
 0
 
@@ -3648,7 +3648,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1854_carbine Lorenz_Carbine Lorenz_Carbine 2  russian_m1856_carbine 0  russian_m1856_carbine_inv 1152921504606846976  6357001 6174031872 400 131082 4.750000 100 0 0 80 0 0 71 600 0 1 316 0
+ itm_rifle_austrian_m1854_carbine Lorenz_Carbine Lorenz_Carbine 2  russian_m1856_carbine 0  russian_m1856_carbine_inv 1152921504606846976  6357001 6174031872 400 131082 4.750000 100 0 0 80 0 0 71 600 0 1 311 0
  0
 0
 
@@ -3656,7 +3656,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1867 Wanzl_Rifle Wanzl_Rifle 2  russian_m1867 0  russian_m1867_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 95 0 0 45 600 0 1 316 0
+ itm_rifle_austrian_m1867 Wanzl_Rifle Wanzl_Rifle 2  russian_m1867 0  russian_m1867_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 95 0 0 45 600 0 1 311 0
  0
 0
 
@@ -3664,7 +3664,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1867_carbine Wanzl_Carbine Wanzl_Carbine 2  russian_m1867_carbine 0  russian_m1867_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 80 0 0 58 600 0 1 316 0
+ itm_rifle_austrian_m1867_carbine Wanzl_Carbine Wanzl_Carbine 2  russian_m1867_carbine 0  russian_m1867_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 80 0 0 58 600 0 1 311 0
  0
 0
 
@@ -3672,7 +3672,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_werndl Werndl_Rifle Werndl_Rifle 2  berdan 0  berdan_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 100 0 0 60 650 0 1 316 0
+ itm_rifle_austrian_werndl Werndl_Rifle Werndl_Rifle 2  berdan 0  berdan_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 100 0 0 60 650 0 1 311 0
  0
 0
 
@@ -3680,7 +3680,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_werndl_carbine Werndl_Carbine Werndl_Carbine 2  berdan_carbine 0  berdan_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 85 0 0 78 650 0 1 316 0
+ itm_rifle_austrian_werndl_carbine Werndl_Carbine Werndl_Carbine 2  berdan_carbine 0  berdan_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 85 0 0 78 650 0 1 311 0
  0
 0
 
@@ -3688,7 +3688,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1886 Steyr_Mannlicher_M1886 Steyr_Mannlicher_M1886 2  mosin 0  mosin_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 102 0 0 40 700 0 5 306 0
+ itm_rifle_austrian_m1886 Steyr_Mannlicher_M1886 Steyr_Mannlicher_M1886 2  mosin 0  mosin_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 102 0 0 40 700 0 5 301 0
  0
 0
 
@@ -3696,7 +3696,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1886_carbine Steyr_Mannlicher_M1886_Carbine Steyr_Mannlicher_M1886_Carbine 2  mosin_carbine 0  mosin_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 86 0 0 52 700 0 5 306 0
+ itm_rifle_austrian_m1886_carbine Steyr_Mannlicher_M1886_Carbine Steyr_Mannlicher_M1886_Carbine 2  mosin_carbine 0  mosin_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 86 0 0 52 700 0 5 301 0
  0
 0
 
@@ -3704,7 +3704,7 @@ itemsfile version 3
  0
 0
 
- itm_ria_leader1 ria_leader1 ria_leader1 1  ria_leader1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_ria_leader1 ria_leader1 ria_leader1 1  ria_leader1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  44
 0
@@ -3719,17 +3719,17 @@ itemsfile version 3
  67
 0
 
- itm_rom_infantry1 rom_infantry1 rom_infantry1 1  rom_infantry1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_rom_infantry1 rom_infantry1 rom_infantry1 1  rom_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  67
 0
 
- itm_rom_infantry2 rom_infantry2 rom_infantry2 1  rom_infantry2 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_rom_infantry2 rom_infantry2 rom_infantry2 1  rom_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  67
 0
 
- itm_rom_infantry1_pants rom_infantry1_pants rom_infantry1_pants 1  rom_infantry1_pants 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_rom_infantry1_pants rom_infantry1_pants rom_infantry1_pants 1  rom_infantry1_pants 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  67
 0
@@ -3762,42 +3762,42 @@ itemsfile version 3
  0
 0
 
- itm_bav_pants2 Bavarian_Trousers Bavarian_Trousers 1  bav_pants2 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_bav_pants2 Bavarian_Trousers Bavarian_Trousers 1  bav_pants2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  72
 0
 
- itm_bav_pants1 Bavarian_Trousers Bavarian_Trousers 1  bav_pants1 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_bav_pants1 Bavarian_Trousers Bavarian_Trousers 1  bav_pants1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  72
 0
 
- itm_bav_pants4 Bavarian_Trousers Bavarian_Trousers 1  bav_pants4 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_bav_pants4 Bavarian_Trousers Bavarian_Trousers 1  bav_pants4 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  72
 0
 
- itm_bav_pants3 Bavarian_Trousers Bavarian_Trousers 1  bav_pants3 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_bav_pants3 Bavarian_Trousers Bavarian_Trousers 1  bav_pants3 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  72
 0
 
- itm_bav_cavalry2 Bavarian_Military_Uniform Bavarian_Military_Uniform 1  bav_cavalry2 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_bav_cavalry2 Bavarian_Military_Uniform Bavarian_Military_Uniform 1  bav_cavalry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  72
 0
 
- itm_bav_infantry3 Bavarian_Military_Uniform Bavarian_Military_Uniform 1  bav_infantry3 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_bav_infantry3 Bavarian_Military_Uniform Bavarian_Military_Uniform 1  bav_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  72
 0
 
- itm_bav_infantry2 Bavarian_Military_Uniform Bavarian_Military_Uniform 1  bav_infantry2 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_bav_infantry2 Bavarian_Military_Uniform Bavarian_Military_Uniform 1  bav_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  72
 0
 
- itm_bav_infantry1 Bavarian_Military_Uniform Bavarian_Military_Uniform 1  bav_infantry1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_bav_infantry1 Bavarian_Military_Uniform Bavarian_Military_Uniform 1  bav_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  72
 0
@@ -3822,7 +3822,7 @@ itemsfile version 3
  72
 0
 
- itm_bav_cavalry1 Bavarian_Military_Uniform Bavarian_Military_Uniform 1  bav_cavalry1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_bav_cavalry1 Bavarian_Military_Uniform Bavarian_Military_Uniform 1  bav_cavalry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  72
 0
@@ -3862,122 +3862,122 @@ itemsfile version 3
  47
 0
 
- itm_pru_torso_infantry1 Prussian_Military_Uniform Prussian_Military_Uniform 1  pru_torso_infantry1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_pru_torso_infantry1 Prussian_Military_Uniform Prussian_Military_Uniform 1  pru_torso_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_torso_infantry2 Prussian_Military_Uniform Prussian_Military_Uniform 1  pru_torso_infantry2 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_pru_torso_infantry2 Prussian_Military_Uniform Prussian_Military_Uniform 1  pru_torso_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_torso_infantry3 Prussian_Military_Uniform Prussian_Military_Uniform 1  pru_torso_infantry3 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_pru_torso_infantry3 Prussian_Military_Uniform Prussian_Military_Uniform 1  pru_torso_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_torso_infantry4 Prussian_Military_Uniform Prussian_Military_Uniform 1  pru_torso_infantry4 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_pru_torso_infantry4 Prussian_Military_Uniform Prussian_Military_Uniform 1  pru_torso_infantry4 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_torso_cavalry1 Prussian_Military_Uniform Prussian_Military_Uniform 1  pru_torso_cavalry1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_pru_torso_cavalry1 Prussian_Military_Uniform Prussian_Military_Uniform 1  pru_torso_cavalry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_torso_cavalry2 Prussian_Military_Uniform Prussian_Military_Uniform 1  pru_torso_cavalry2 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_pru_torso_cavalry2 Prussian_Military_Uniform Prussian_Military_Uniform 1  pru_torso_cavalry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_torso_leader1 Prussian_King_Torso Prussian_King_Torso 1  pru_torso_leader1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_pru_torso_leader1 Prussian_King_Torso Prussian_King_Torso 1  pru_torso_leader1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_torso_general1 Prussian_General_Torso Prussian_General_Torso 1  pru_torso_general1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_pru_torso_general1 Prussian_General_Torso Prussian_General_Torso 1  pru_torso_general1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_torso_general2 Prussian_General_Torso Prussian_General_Torso 1  pru_torso_general2 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_pru_torso_general2 Prussian_General_Torso Prussian_General_Torso 1  pru_torso_general2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_trousers_infantry Prussian_Infantry_Trousers Prussian_Infantry_Trousers 1  pru_trousers_infantry 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_pru_trousers_infantry Prussian_Infantry_Trousers Prussian_Infantry_Trousers 1  pru_trousers_infantry 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_trousers_cavalry1 Prussian_Cavalry_Trousers Prussian_Cavalry_Trousers 1  pru_trousers_cavalry1 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_pru_trousers_cavalry1 Prussian_Cavalry_Trousers Prussian_Cavalry_Trousers 1  pru_trousers_cavalry1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_trousers_cavalry2 Prussian_Cavalry_Trousers Prussian_Cavalry_Trousers 1  pru_trousers_cavalry2 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_pru_trousers_cavalry2 Prussian_Cavalry_Trousers Prussian_Cavalry_Trousers 1  pru_trousers_cavalry2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_trousers_leadgen Prussian_General_Trousers Prussian_General_Trousers 1  pru_trousers_leadgen 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_pru_trousers_leadgen Prussian_General_Trousers Prussian_General_Trousers 1  pru_trousers_leadgen 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_bav_trousers_general Bavarian_General_Trousers Bavarian_General_Trousers 1  bav_trousers_general 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_bav_trousers_general Bavarian_General_Trousers Bavarian_General_Trousers 1  bav_trousers_general 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  72
 0
 
- itm_bav_torso_leadgen1 Bavarian_General_Torso Bavarian_General_Torso 1  bav_torso_leadgen1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_bav_torso_leadgen1 Bavarian_General_Torso Bavarian_General_Torso 1  bav_torso_leadgen1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  72
 0
 
- itm_wur_torso_infantry1 Wurttemberg_Military_Uniform Wurttemberg_Military_Uniform 1  wur_torso_infantry1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_wur_torso_infantry1 Wurttemberg_Military_Uniform Wurttemberg_Military_Uniform 1  wur_torso_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  69
 0
 
- itm_wur_torso_infantry2 Wurttemberg_Military_Uniform Wurttemberg_Military_Uniform 1  wur_torso_infantry2 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_wur_torso_infantry2 Wurttemberg_Military_Uniform Wurttemberg_Military_Uniform 1  wur_torso_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  69
 0
 
- itm_wur_torso_infantry3 Wurttemberg_Military_Uniform Wurttemberg_Military_Uniform 1  wur_torso_infantry3 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_wur_torso_infantry3 Wurttemberg_Military_Uniform Wurttemberg_Military_Uniform 1  wur_torso_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  69
 0
 
- itm_wur_torso_cavalry1 Wurttemberg_Military_Uniform Wurttemberg_Military_Uniform 1  wur_torso_cavalry1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_wur_torso_cavalry1 Wurttemberg_Military_Uniform Wurttemberg_Military_Uniform 1  wur_torso_cavalry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  69
 0
 
- itm_wur_torso_cavalry2 Wurttemberg_Military_Uniform Wurttemberg_Military_Uniform 1  wur_torso_cavalry2 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_wur_torso_cavalry2 Wurttemberg_Military_Uniform Wurttemberg_Military_Uniform 1  wur_torso_cavalry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  69
 0
 
- itm_wur_torso_general1 Wurttemberg_General_Torso Wurttemberg_General_Torso 1  wur_torso_general1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_wur_torso_general1 Wurttemberg_General_Torso Wurttemberg_General_Torso 1  wur_torso_general1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  69
 0
 
- itm_wur_trousers1 Wurttemberg_Trousers Wurttemberg_Trousers 1  wur_trousers1 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_wur_trousers1 Wurttemberg_Trousers Wurttemberg_Trousers 1  wur_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  69
 0
 
- itm_wur_trousers2 Wurttemberg_Trousers Wurttemberg_Trousers 1  wur_trousers2 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_wur_trousers2 Wurttemberg_Trousers Wurttemberg_Trousers 1  wur_trousers2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  69
 0
 
- itm_wur_trousers3 Wurttemberg_Trousers Wurttemberg_Trousers 1  wur_trousers3 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_wur_trousers3 Wurttemberg_Trousers Wurttemberg_Trousers 1  wur_trousers3 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  69
 0
@@ -4022,37 +4022,37 @@ itemsfile version 3
  73
 0
 
- itm_han_trousers1 Hanoverian_Trousers Hanoverian_Trousers 1  han_trousers1 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_han_trousers1 Hanoverian_Trousers Hanoverian_Trousers 1  han_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  73
 0
 
- itm_han_trousers2 Hanoverian_Trousers Hanoverian_Trousers 1  han_trousers2 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_han_trousers2 Hanoverian_Trousers Hanoverian_Trousers 1  han_trousers2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  73
 0
 
- itm_han_torso_leadgen1 Hanoverian_General_Torso Hanoverian_General_Torso 1  han_torso_leadgen1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_han_torso_leadgen1 Hanoverian_General_Torso Hanoverian_General_Torso 1  han_torso_leadgen1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  73
 0
 
- itm_han_torso_cavalry Hanoverian_Military_Uniform Hanoverian_Military_Uniform 1  han_torso_cavalry 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_han_torso_cavalry Hanoverian_Military_Uniform Hanoverian_Military_Uniform 1  han_torso_cavalry 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  73
 0
 
- itm_han_torso_infantry3 Hanoverian_Military_Uniform Hanoverian_Military_Uniform 1  han_torso_infantry3 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_han_torso_infantry3 Hanoverian_Military_Uniform Hanoverian_Military_Uniform 1  han_torso_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  73
 0
 
- itm_han_torso_infantry2 Hanoverian_Military_Uniform Hanoverian_Military_Uniform 1  han_torso_infantry2 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_han_torso_infantry2 Hanoverian_Military_Uniform Hanoverian_Military_Uniform 1  han_torso_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  73
 0
 
- itm_han_torso_infantry1 Hanoverian_Military_Uniform Hanoverian_Military_Uniform 1  han_torso_infantry1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_han_torso_infantry1 Hanoverian_Military_Uniform Hanoverian_Military_Uniform 1  han_torso_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  73
 0
@@ -4087,137 +4087,137 @@ itemsfile version 3
  48
 0
 
- itm_tur_infantry1 Ottoman_Military_Uniform Ottoman_Military_Uniform 1  tur_infantry1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_tur_infantry1 Ottoman_Military_Uniform Ottoman_Military_Uniform 1  tur_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  48
 0
 
- itm_tur_infantry2 Ottoman_Military_Uniform Ottoman_Military_Uniform 1  tur_infantry2 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_tur_infantry2 Ottoman_Military_Uniform Ottoman_Military_Uniform 1  tur_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  48
 0
 
- itm_tur_infantry3 Ottoman_Military_Uniform Ottoman_Military_Uniform 1  tur_infantry3 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_tur_infantry3 Ottoman_Military_Uniform Ottoman_Military_Uniform 1  tur_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  48
 0
 
- itm_tur_torso_zouave Ottoman_Zouave_Torso Ottoman_Zouave_Torso 1  tur_torso_zouave 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_tur_torso_zouave Ottoman_Zouave_Torso Ottoman_Zouave_Torso 1  tur_torso_zouave 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  48
 0
 
- itm_tur_infantry4 Ottoman_Military_Uniform Ottoman_Military_Uniform 1  tur_infantry4 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_tur_infantry4 Ottoman_Military_Uniform Ottoman_Military_Uniform 1  tur_infantry4 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  48
 0
 
- itm_tur_torso_cavalry1 Ottoman_Military_Uniform Ottoman_Military_Uniform 1  tur_torso_cavalry1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_tur_torso_cavalry1 Ottoman_Military_Uniform Ottoman_Military_Uniform 1  tur_torso_cavalry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  48
 0
 
- itm_tur_torso_cavalry2 Ottoman_Military_Uniform Ottoman_Military_Uniform 1  tur_torso_cavalry2 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_tur_torso_cavalry2 Ottoman_Military_Uniform Ottoman_Military_Uniform 1  tur_torso_cavalry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  48
 0
 
- itm_tur_torso_cavalryy4 Ottoman_Military_Uniform Ottoman_Military_Uniform 1  tur_torso_cavalryy4 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_tur_torso_cavalryy4 Ottoman_Military_Uniform Ottoman_Military_Uniform 1  tur_torso_cavalryy4 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  48
 0
 
- itm_tur_torso_general Ottoman_General_Torso Ottoman_General_Torso 1  tur_torso_general 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_tur_torso_general Ottoman_General_Torso Ottoman_General_Torso 1  tur_torso_general 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  48
 0
 
- itm_tur_torso_sultan Ottoman_Sultan_Torso Ottoman_Sultan_Torso 1  tur_torso_sultan 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_tur_torso_sultan Ottoman_Sultan_Torso Ottoman_Sultan_Torso 1  tur_torso_sultan 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  48
 0
 
- itm_tur_trousers_general Ottoman_General_Trousers Ottoman_General_Trousers 1  tur_trousers_general 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_tur_trousers_general Ottoman_General_Trousers Ottoman_General_Trousers 1  tur_trousers_general 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  48
 0
 
- itm_tur_trousers_infantry1 Ottoman_Infantry_Trousers Ottoman_Infantry_Trousers 1  tur_trousers_infantry1 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_tur_trousers_infantry1 Ottoman_Infantry_Trousers Ottoman_Infantry_Trousers 1  tur_trousers_infantry1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  48
 0
 
- itm_tur_trousers_infantry2 Ottoman_Infantry_Trousers Ottoman_Infantry_Trousers 1  tur_trousers_infantry2 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_tur_trousers_infantry2 Ottoman_Infantry_Trousers Ottoman_Infantry_Trousers 1  tur_trousers_infantry2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  48
 0
 
- itm_tur_trousers_zouave Ottoman_Zouave_Trousers Ottoman_Zouave_Trousers 1  tur_trousers_zouave 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_tur_trousers_zouave Ottoman_Zouave_Trousers Ottoman_Zouave_Trousers 1  tur_trousers_zouave 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  48
 0
 
- itm_tur_trousers_cavalry Ottoman_Cavalry_Trousers Ottoman_Cavalry_Trousers 1  tur_trousers_cavalry 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_tur_trousers_cavalry Ottoman_Cavalry_Trousers Ottoman_Cavalry_Trousers 1  tur_trousers_cavalry 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  48
 0
 
- itm_tur_trousers_sultan Ottoman_Sultan_Trousers Ottoman_Sultan_Trousers 1  tur_trousers_sultan 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_tur_trousers_sultan Ottoman_Sultan_Trousers Ottoman_Sultan_Trousers 1  tur_trousers_sultan 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  48
 0
 
- itm_egy_trousers1 Egyptian_Infantry_Trousers Egyptian_Infantry_Trousers 1  egy_trousers1 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_egy_trousers1 Egyptian_Infantry_Trousers Egyptian_Infantry_Trousers 1  egy_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  56
 0
 
- itm_egy_trousers_infantry2 Egyptian_Infantry_Trousers Egyptian_Infantry_Trousers 1  egy_trousers_infantry2 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_egy_trousers_infantry2 Egyptian_Infantry_Trousers Egyptian_Infantry_Trousers 1  egy_trousers_infantry2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  56
 0
 
- itm_egy_trousers_infantry3 Egyptian_Infantry_Trousers Egyptian_Infantry_Trousers 1  egy_trousers_infantry3 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_egy_trousers_infantry3 Egyptian_Infantry_Trousers Egyptian_Infantry_Trousers 1  egy_trousers_infantry3 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  56
 0
 
- itm_egy_trousers_pasha Egyptian_Pasha_Trousers Egyptian_Pasha_Trousers 1  egy_trousers_pasha 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_egy_trousers_pasha Egyptian_Pasha_Trousers Egyptian_Pasha_Trousers 1  egy_trousers_pasha 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  56
 0
 
- itm_egy_trousers_general Egyptian_General_Trousers Egyptian_General_Trousers 1  egy_trousers_general 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_egy_trousers_general Egyptian_General_Trousers Egyptian_General_Trousers 1  egy_trousers_general 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  56
 0
 
- itm_egy_infantry3 Egyptian_Military_Uniform Egyptian_Military_Uniform 1  egy_infantry3 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_egy_infantry3 Egyptian_Military_Uniform Egyptian_Military_Uniform 1  egy_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  56
 0
 
- itm_egy_torso_cavalry Egyptian_Military_Uniform Egyptian_Military_Uniform 1  egy_torso_cavalry 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_egy_torso_cavalry Egyptian_Military_Uniform Egyptian_Military_Uniform 1  egy_torso_cavalry 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  56
 0
 
- itm_egy_infantry2 Egyptian_Military_Uniform Egyptian_Military_Uniform 1  egy_infantry2 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_egy_infantry2 Egyptian_Military_Uniform Egyptian_Military_Uniform 1  egy_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  56
 0
 
- itm_egy_infantry1 Egyptian_Military_Uniform Egyptian_Military_Uniform 1  egy_infantry1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_egy_infantry1 Egyptian_Military_Uniform Egyptian_Military_Uniform 1  egy_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  56
 0
 
- itm_egy_general Egyptian_General_Torso Egyptian_General_Torso 1  egy_general 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_egy_general Egyptian_General_Torso Egyptian_General_Torso 1  egy_general 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  56
 0
 
- itm_egy_pasha Egyptian_Pasha_Torso Egyptian_Pasha_Torso 1  egy_pasha 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_egy_pasha Egyptian_Pasha_Torso Egyptian_Pasha_Torso 1  egy_pasha 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  56
 0
@@ -4257,87 +4257,87 @@ itemsfile version 3
  60
 0
 
- itm_dan_torso_infantry1 Danish_Military_Uniform Danish_Military_Uniform 1  dan_torso_infantry1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_dan_torso_infantry1 Danish_Military_Uniform Danish_Military_Uniform 1  dan_torso_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  60
 0
 
- itm_dan_torso_infantry2 Danish_Military_Uniform Danish_Military_Uniform 1  dan_torso_infantry2 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_dan_torso_infantry2 Danish_Military_Uniform Danish_Military_Uniform 1  dan_torso_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  60
 0
 
- itm_dan_torso_infantry3 Danish_Military_Uniform Danish_Military_Uniform 1  dan_torso_infantry3 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_dan_torso_infantry3 Danish_Military_Uniform Danish_Military_Uniform 1  dan_torso_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  60
 0
 
- itm_dan_torso_cavalry Danish_Military_Uniform Danish_Military_Uniform 1  dan_torso_cavalry 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_dan_torso_cavalry Danish_Military_Uniform Danish_Military_Uniform 1  dan_torso_cavalry 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  60
 0
 
- itm_dan_general Danish_General_Torso Danish_General_Torso 1  dan_general 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_dan_general Danish_General_Torso Danish_General_Torso 1  dan_general 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  60
 0
 
- itm_dan_torso_king Danish_King_Torso Danish_King_Torso 1  dan_torso_king 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_dan_torso_king Danish_King_Torso Danish_King_Torso 1  dan_torso_king 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  60
 0
 
- itm_dan_trousers Danish_Infantry_Trousers Danish_Infantry_Trousers 1  dan_trousers 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_dan_trousers Danish_Infantry_Trousers Danish_Infantry_Trousers 1  dan_trousers 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  60
 0
 
- itm_dan_trousers_guard Danish_Infantry_Trousers Danish_Infantry_Trousers 1  dan_trousers_guard 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_dan_trousers_guard Danish_Infantry_Trousers Danish_Infantry_Trousers 1  dan_trousers_guard 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  60
 0
 
- itm_sve_trousers_cavalry1 Swedish_Cavalry_Trousers Swedish_Cavalry_Trousers 1  sve_trousers_cavalry1 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_sve_trousers_cavalry1 Swedish_Cavalry_Trousers Swedish_Cavalry_Trousers 1  sve_trousers_cavalry1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  71
 0
 
- itm_sve_trousers_cavalry2 Swedish_Cavalry_Trousers Swedish_Cavalry_Trousers 1  sve_trousers_cavalry2 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_sve_trousers_cavalry2 Swedish_Cavalry_Trousers Swedish_Cavalry_Trousers 1  sve_trousers_cavalry2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  71
 0
 
- itm_sve_trousers_infantry Swedish_Infantry_Trousers Swedish_Infantry_Trousers 1  sve_trousers_infantry 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_sve_trousers_infantry Swedish_Infantry_Trousers Swedish_Infantry_Trousers 1  sve_trousers_infantry 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  71
 0
 
- itm_sve_torso_infantry1 Swedish_Military_Uniform Swedish_Military_Uniform 1  sve_torso_infantry1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_sve_torso_infantry1 Swedish_Military_Uniform Swedish_Military_Uniform 1  sve_torso_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  71
 0
 
- itm_sve_torso_infantry2 Swedish_Military_Uniform Swedish_Military_Uniform 1  sve_torso_infantry2 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_sve_torso_infantry2 Swedish_Military_Uniform Swedish_Military_Uniform 1  sve_torso_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  71
 0
 
- itm_sve_torso_infantry3 Swedish_Military_Uniform Swedish_Military_Uniform 1  sve_torso_infantry3 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_sve_torso_infantry3 Swedish_Military_Uniform Swedish_Military_Uniform 1  sve_torso_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  71
 0
 
- itm_sve_torso_cavalry1 Swedish_Military_Uniform Swedish_Military_Uniform 1  sve_torso_cavalry1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_sve_torso_cavalry1 Swedish_Military_Uniform Swedish_Military_Uniform 1  sve_torso_cavalry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  71
 0
 
- itm_sve_torso_cavalry2 Swedish_Military_Uniform Swedish_Military_Uniform 1  sve_torso_cavalry2 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_sve_torso_cavalry2 Swedish_Military_Uniform Swedish_Military_Uniform 1  sve_torso_cavalry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  71
 0
 
- itm_sve_torso_general Swedish_General_Torso Swedish_General_Torso 1  sve_torso_general 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_sve_torso_general Swedish_General_Torso Swedish_General_Torso 1  sve_torso_general 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  71
 0
@@ -4387,79 +4387,79 @@ itemsfile version 3
  43
 0
 
- itm_fra_torso_infantry1 French_Military_Uniform French_Military_Uniform 1  fra_torso_infantry1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_fra_torso_infantry1 French_Military_Uniform French_Military_Uniform 1  fra_torso_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  43
 0
 
- itm_fra_torso_infantry2 French_Military_Uniform French_Military_Uniform 1  fra_torso_infantry2 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_fra_torso_infantry2 French_Military_Uniform French_Military_Uniform 1  fra_torso_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  43
 0
 
- itm_fra_torso_infantry3 French_Military_Uniform French_Military_Uniform 1  fra_torso_infantry3 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_fra_torso_infantry3 French_Military_Uniform French_Military_Uniform 1  fra_torso_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  43
 0
 
- itm_fra_torso_cavalry1 French_Military_Uniform French_Military_Uniform 1  fra_torso_cavalry1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_fra_torso_cavalry1 French_Military_Uniform French_Military_Uniform 1  fra_torso_cavalry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  43
 0
 
- itm_fra_torso_cavalry2 French_Military_Uniform French_Military_Uniform 1  fra_torso_cavalry2 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_fra_torso_cavalry2 French_Military_Uniform French_Military_Uniform 1  fra_torso_cavalry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  43
 0
 
- itm_fra_torso_general French_General_Torso French_General_Torso 1  fra_torso_general 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_fra_torso_general French_General_Torso French_General_Torso 1  fra_torso_general 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  43
 0
 
- itm_fra_torso_napoleon3 French_Napoleon_Torso French_Napoleon_Torso 1  fra_torso_napoleon3 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_fra_torso_napoleon3 French_Napoleon_Torso French_Napoleon_Torso 1  fra_torso_napoleon3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  43
 0
 
- itm_fra_infantry_trousers1 French_Infantry_Trousers French_Infantry_Trousers 1  fra_infantry_trousers1 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_fra_infantry_trousers1 French_Infantry_Trousers French_Infantry_Trousers 1  fra_infantry_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  43
 0
 
- itm_fra_infantry_trousers2 French_Infantry_Trousers French_Infantry_Trousers 1  fra_infantry_trousers2 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_fra_infantry_trousers2 French_Infantry_Trousers French_Infantry_Trousers 1  fra_infantry_trousers2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  43
 0
 
- itm_fra_infantry_trousers3 French_Infantry_Trousers French_Infantry_Trousers 1  fra_infantry_trousers3 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_fra_infantry_trousers3 French_Infantry_Trousers French_Infantry_Trousers 1  fra_infantry_trousers3 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  43
 0
 
- itm_fra_trousers_cavalry French_Cavalry_Trousers French_Cavalry_Trousers 1  fra_trousers_cavalry 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_fra_trousers_cavalry French_Cavalry_Trousers French_Cavalry_Trousers 1  fra_trousers_cavalry 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  43
 0
 
- itm_fra_trousers_general French_General_Trousers French_General_Trousers 1  fra_trousers_general 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_fra_trousers_general French_General_Trousers French_General_Trousers 1  fra_trousers_general 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  43
 0
 
- itm_us_trousers US_Trousers US_Trousers 1  us_trousers 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_us_trousers US_Trousers US_Trousers 1  us_trousers 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_jap_trousers Japanese_Trousers Japanese_Trousers 1  jap_trousers 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_jap_trousers Japanese_Trousers Japanese_Trousers 1  jap_trousers 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_us_infantry US_Military_Uniform US_Military_Uniform 1  us_infantry 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_us_infantry US_Military_Uniform US_Military_Uniform 1  us_infantry 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_jap_infantry Japanese_Military_Uniform Japanese_Military_Uniform 1  jap_infantry 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_jap_infantry Japanese_Military_Uniform Japanese_Military_Uniform 1  jap_infantry 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
@@ -4496,60 +4496,60 @@ itemsfile version 3
  70
 0
 
- itm_srb_trousers1 Serbian_Infantry_Trousers Serbian_Infantry_Trousers 1  srb_trousers1 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_srb_trousers1 Serbian_Infantry_Trousers Serbian_Infantry_Trousers 1  srb_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  70
 0
 
- itm_srb_trousers2 Serbian_Infantry_Trousers Serbian_Infantry_Trousers 1  srb_trousers2 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_srb_trousers2 Serbian_Infantry_Trousers Serbian_Infantry_Trousers 1  srb_trousers2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  70
 0
 
- itm_srb_infantry3 Serbian_Greatcoat Serbian_Greatcoat 1  srb_infantry3 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_srb_infantry3 Serbian_Greatcoat Serbian_Greatcoat 1  srb_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  70
 0
 
- itm_srb_infantry1 Serbian_Military_Uniform Serbian_Military_Uniform 1  srb_infantry1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_srb_infantry1 Serbian_Military_Uniform Serbian_Military_Uniform 1  srb_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  70
 0
 
- itm_srb_infantry2 Serbian_Military_Uniform Serbian_Military_Uniform 1  srb_infantry2 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_srb_infantry2 Serbian_Military_Uniform Serbian_Military_Uniform 1  srb_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  70
 0
 
- itm_srb_infantry3 Serbian_Military_Uniform Serbian_Military_Uniform 1  srb_infantry3 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_srb_infantry3 Serbian_Military_Uniform Serbian_Military_Uniform 1  srb_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  70
 0
 
- itm_srb_cavalry1 Serbian_Military_Uniform Serbian_Military_Uniform 1  srb_cavalry1 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_srb_cavalry1 Serbian_Military_Uniform Serbian_Military_Uniform 1  srb_cavalry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  70
 0
 
- itm_srb_general_torso Serbian_General_Torso Serbian_General_Torso 1  srb_general_torso 0  553648141 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_srb_general_torso Serbian_General_Torso Serbian_General_Torso 1  srb_general_torso 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  70
 0
 
- itm_srb_general_trousers Serbian_General_Trousers Serbian_General_Trousers 1  srb_general_trousers 0  553648142 0 100 0 3.000000 50 0 0 5 0 0 0 0 0 0 0 0
+ itm_srb_general_trousers Serbian_General_Trousers Serbian_General_Trousers 1  srb_general_trousers 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  70
 0
 
- itm_sidearm_lefaucheux Lefaucheux Lefaucheux 2  lefaucheux 0  pistol_holster1b 3458764513820540928  4259856 518080888832 600 131082 1.250000 100 0 0 91 0 0 18 150 0 6 297 0
+ itm_sidearm_lefaucheux Lefaucheux Lefaucheux 2  lefaucheux 0  pistol_holster1b 3458764513820540928  4259856 518080888832 600 131082 1.250000 100 0 0 91 0 0 18 150 0 6 302 0
  0
 0
 
- itm_sidearm_reichsrevolver1879 Reichsrevolver_M1879 Reichsrevolver_M1879 2  reichsrevolver1879 0  pistol_holster1b 3458764513820540928  4259856 518080888832 600 131082 1.250000 100 0 0 92 0 0 17 175 0 6 303 0
+ itm_sidearm_reichsrevolver1879 Reichsrevolver_M1879 Reichsrevolver_M1879 2  reichsrevolver1879 0  pistol_holster1b 3458764513820540928  4259856 518080888832 600 131082 1.250000 100 0 0 92 0 0 17 175 0 6 308 0
  0
 0
 
- itm_sidearm_mas1873 MAS_1873 MAS_1873 2  mas1873 0  pistol_holster1b 3458764513820540928  4259856 518080888832 500 131082 1.250000 100 0 0 93 0 0 23 90 0 6 296 0
+ itm_sidearm_mas1873 MAS_1873 MAS_1873 2  mas1873 0  pistol_holster1b 3458764513820540928  4259856 518080888832 500 131082 1.250000 100 0 0 93 0 0 23 90 0 6 301 0
  0
 0
 
@@ -4561,15 +4561,15 @@ itemsfile version 3
  0
 0
 
- itm_victorian_dress1a Dress Dress 1  clothes_adventurer_female1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_victorian_dress1a Dress Dress 1  clothes_adventurer_female1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_victorian_dress1b Dress Dress 1  clothes_adventurer_female1 0  553713677 0 200 0 15.000000 100 0 15 5 0 0 0 0 0 0 0 0
+ itm_victorian_dress1b Dress Dress 1  clothes_adventurer_female1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_rifle_german_m1831 Potsdam_M1831_Musket Potsdam_M1831_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811663369 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 316 0
+ itm_rifle_german_m1831 Potsdam_M1831_Musket Potsdam_M1831_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811663369 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
  0
 0
 
@@ -4577,7 +4577,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1831_carbine Potsdam_M1831_Carbine Potsdam_M1831_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6357001 6174031872 400 131082 4.750000 100 0 0 55 0 0 71 400 0 1 316 0
+ itm_rifle_german_m1831_carbine Potsdam_M1831_Carbine Potsdam_M1831_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6357001 6174031872 400 131082 4.750000 100 0 0 55 0 0 71 400 0 1 311 0
  0
 0
 
@@ -4585,7 +4585,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1831_rifle Potsdam_M1831_Rifle Potsdam_M1831_Rifle 2  russian_m1856 0  russian_m1856_inv 1152921504606846976  811663369 6174031872 400 131082 4.750000 100 0 0 95 0 0 55 600 0 1 316 0
+ itm_rifle_german_m1831_rifle Potsdam_M1831_Rifle Potsdam_M1831_Rifle 2  russian_m1856 0  russian_m1856_inv 1152921504606846976  811663369 6174031872 400 131082 4.750000 100 0 0 95 0 0 55 600 0 1 311 0
  0
 0
 
@@ -4593,7 +4593,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1831_rifle_carbine Potsdam_M1831_Carbine Potsdam_M1831_Carbine 2  russian_m1856_carbine 0  russian_m1856_carbine_inv 1152921504606846976  6357001 6174031872 400 131082 4.750000 100 0 0 80 0 0 71 600 0 1 316 0
+ itm_rifle_german_m1831_rifle_carbine Potsdam_M1831_Carbine Potsdam_M1831_Carbine 2  russian_m1856_carbine 0  russian_m1856_carbine_inv 1152921504606846976  6357001 6174031872 400 131082 4.750000 100 0 0 80 0 0 71 600 0 1 311 0
  0
 0
 
@@ -4601,7 +4601,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_dreyse Dreyse_Needle_Rifle Dreyse_Needle_Rifle 2  dreyse 0  dreyse_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 95 0 0 45 600 0 1 316 0
+ itm_rifle_german_dreyse Dreyse_Needle_Rifle Dreyse_Needle_Rifle 2  dreyse 0  dreyse_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 95 0 0 45 600 0 1 311 0
  0
 0
 
@@ -4609,7 +4609,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_dreyse_carbine Dreyse_Needle_Carbine Dreyse_Needle_Carbine 2  dreyse_carbine 0  dreyse_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 80 0 0 58 600 0 1 316 0
+ itm_rifle_german_dreyse_carbine Dreyse_Needle_Carbine Dreyse_Needle_Carbine 2  dreyse_carbine 0  dreyse_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 80 0 0 58 600 0 1 311 0
  0
 0
 
@@ -4617,7 +4617,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1871 Mauser_M1871_Rifle Mauser_M1871_Rifle 2  mauser_m1871 0  mauser_m1871_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 100 0 0 60 650 0 1 316 0
+ itm_rifle_german_m1871 Mauser_M1871_Rifle Mauser_M1871_Rifle 2  mauser_m1871 0  mauser_m1871_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 100 0 0 60 650 0 1 311 0
  0
 0
 
@@ -4625,7 +4625,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1871_carbine Mauser_M1871_Carbine Mauser_M1871_Carbine 2  mauser_m1871_carbine 0  mauser_m1871_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 85 0 0 78 650 0 1 316 0
+ itm_rifle_german_m1871_carbine Mauser_M1871_Carbine Mauser_M1871_Carbine 2  mauser_m1871_carbine 0  mauser_m1871_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 85 0 0 78 650 0 1 311 0
  0
 0
 
@@ -4633,7 +4633,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1888 Gewehr_M1888_Rifle Gewehr_M1888_Rifle 2  gewehr88 0  gewehr88_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 102 0 0 40 700 0 5 306 0
+ itm_rifle_german_m1888 Gewehr_M1888_Rifle Gewehr_M1888_Rifle 2  gewehr88 0  gewehr88_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 102 0 0 40 700 0 5 301 0
  0
 0
 
@@ -4641,7 +4641,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1888_carbine Gewehr_M1888_Carbine Gewehr_M1888_Carbine 2  gewehr88_carbine 0  gewehr88_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 86 0 0 52 700 0 5 306 0
+ itm_rifle_german_m1888_carbine Gewehr_M1888_Carbine Gewehr_M1888_Carbine 2  gewehr88_carbine 0  gewehr88_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 86 0 0 52 700 0 5 301 0
  0
 0
 
@@ -4649,30 +4649,30 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_colt_walker Colt_Walker Colt_Walker 2  colt_walker 0  pistol_holster1b 3458764513820540928  4259856 518080888832 900 131082 1.750000 100 0 0 88 0 0 11 150 0 6 302 0
+ itm_sidearm_colt_walker Colt_Walker Colt_Walker 2  colt_walker 0  pistol_holster1b 3458764513820540928  4259856 518080888832 900 131082 1.750000 100 0 0 88 0 0 11 150 0 6 307 0
  0
 0
 
- itm_sidearm_galand Galand_M1870 Galand_M1870 2  galand 0  pistol_holster1b 3458764513820540928  4259856 518080888832 700 131082 1.000000 100 0 0 93 0 0 26 150 0 6 297 0
+ itm_sidearm_galand Galand_M1870 Galand_M1870 2  galand 0  pistol_holster1b 3458764513820540928  4259856 518080888832 700 131082 1.000000 100 0 0 93 0 0 26 150 0 6 302 0
  0
 0
 
- itm_empty_legs empty_legs empty_legs 1  emptymodel 0  16777230 0 100 0 3.000000 100 0 0 5 0 0 0 0 0 0 0 0
+ itm_empty_legs empty_legs empty_legs 1  emptymodel 0  16777230 0 100 0 3.000000 100 0 0 1 0 0 0 0 0 0 0 0
  1
  70
 0
 
- itm_empty_head empty_head empty_head 1  emptymodel 0  2684354572 0 100 0 3.000000 100 0 0 5 0 0 0 0 0 0 0 0
+ itm_empty_head empty_head empty_head 1  emptymodel 0  2684354572 0 100 0 3.000000 100 0 0 1 0 0 0 0 0 0 0 0
  1
  70
 0
 
- itm_empty_hands empty_hands empty_hands 1  emptymodel 0  536870927 0 100 0 3.000000 100 0 0 5 0 0 0 0 0 0 0 0
+ itm_empty_hands empty_hands empty_hands 1  emptymodel 0  536870927 0 100 0 3.000000 100 0 0 1 0 0 0 0 0 0 0 0
  1
  70
 0
 
- itm_sidearm_lemat LeMat_Revolver LeMat_Revolver 2  lemat 0  pistol_holster1b 3458764513820540928  4259856 518080888832 1000 131082 1.750000 100 0 0 92 0 0 12 150 0 9 294 0
+ itm_sidearm_lemat LeMat_Revolver LeMat_Revolver 2  lemat 0  pistol_holster1b 3458764513820540928  4259856 518080888832 1000 131082 1.750000 100 0 0 92 0 0 12 150 0 9 299 0
  0
 0
 
@@ -4685,35 +4685,35 @@ itemsfile version 3
 1
 -52.000000  1 1975 3 1008806316530991164 1 5 
 
- itm_sidearm_beaumont Beaumont–Adams_Revolver Beaumont–Adams_Revolver 2  beaumont 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 92 0 0 19 150 0 6 298 0
+ itm_sidearm_beaumont Beaumont–Adams_Revolver Beaumont–Adams_Revolver 2  beaumont 0  pistol_holster1b 3458764513820540928  4259856 518080888832 400 131082 1.250000 100 0 0 92 0 0 19 150 0 6 303 0
  0
 0
 
- itm_sidearm_enfieldmk1 Enfield_Mk_I Enfield_Mk_I 2  enfieldmk1 0  pistol_holster1b 3458764513820540928  4259856 518080888832 500 131082 1.250000 100 0 0 93 0 0 26 175 0 6 296 0
+ itm_sidearm_enfieldmk1 Enfield_Mk_I Enfield_Mk_I 2  enfieldmk1 0  pistol_holster1b 3458764513820540928  4259856 518080888832 500 131082 1.250000 100 0 0 93 0 0 26 175 0 6 301 0
  0
 0
 
- itm_sidearm_webleymk6 Webley_Mk_VI Webley_Mk_VI 2  webleymk6 0  pistol_holster1b 3458764513820540928  4259856 518080888832 700 131082 1.250000 100 0 0 92 0 0 24 175 0 6 305 0
+ itm_sidearm_webleymk6 Webley_Mk_VI Webley_Mk_VI 2  webleymk6 0  pistol_holster1b 3458764513820540928  4259856 518080888832 700 131082 1.250000 100 0 0 92 0 0 24 175 0 6 310 0
  0
 0
 
- itm_sidearm_bodeo Bodeo_M1889 Bodeo_M1889 2  bodeo 0  pistol_holster1b 3458764513820540928  4259856 518080888832 700 131082 1.250000 100 0 0 95 0 0 20 150 0 6 304 0
+ itm_sidearm_bodeo Bodeo_M1889 Bodeo_M1889 2  bodeo 0  pistol_holster1b 3458764513820540928  4259856 518080888832 700 131082 1.250000 100 0 0 95 0 0 20 150 0 6 309 0
  0
 0
 
- itm_sidearm_webleybulldog Webley_Bull_Dog Webley_Bull_Dog 2  webleybulldog 0  pistol_holster1b 3458764513820540928  4259856 518080888832 300 131082 1.000000 100 0 0 91 0 0 24 150 0 6 297 0
+ itm_sidearm_webleybulldog Webley_Bull_Dog Webley_Bull_Dog 2  webleybulldog 0  pistol_holster1b 3458764513820540928  4259856 518080888832 300 131082 1.000000 100 0 0 91 0 0 24 150 0 6 302 0
  0
 0
 
- itm_sidearm_c93 Borchardt_C-93 Borchardt_C-93 2  c93 0  pistol_holster1b 3458764513820540928  4259856 518080888832 700 131082 1.250000 100 0 0 93 0 0 35 150 0 8 299 0
+ itm_sidearm_c93 Borchardt_C-93 Borchardt_C-93 2  c93 0  pistol_holster1b 3458764513820540928  4259856 518080888832 700 131082 1.250000 100 0 0 93 0 0 35 150 0 8 304 0
  0
 0
 
- itm_sidearm_colt1892 Colt_M1892 Colt_M1892 2  colt1892 0  pistol_holster1b 3458764513820540928  4259856 518080888832 700 131082 1.250000 100 0 0 95 0 0 50 175 0 6 308 0
+ itm_sidearm_colt1892 Colt_M1892 Colt_M1892 2  colt1892 0  pistol_holster1b 3458764513820540928  4259856 518080888832 700 131082 1.250000 100 0 0 95 0 0 50 175 0 6 313 0
  0
 0
 
- itm_sidearm_colt1849 Colt_M1849_Pocket_Revolver Colt_M1849_Pocket_Revolver 2  colt1849 0  pistol_holster1b 3458764513820540928  4259856 518080888832 300 131082 1.250000 100 0 0 87 0 0 50 150 0 6 293 0
+ itm_sidearm_colt1849 Colt_M1849_Pocket_Revolver Colt_M1849_Pocket_Revolver 2  colt1849 0  pistol_holster1b 3458764513820540928  4259856 518080888832 300 131082 1.250000 100 0 0 87 0 0 50 150 0 6 298 0
  0
 0
 
