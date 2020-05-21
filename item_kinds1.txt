@@ -3552,7 +3552,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_mosin Mosin-Nagant_Rifle Mosin-Nagant_Rifle 2  mosin 0  mosin_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 102 0 0 40 700 0 5 301 0
+ itm_rifle_russian_mosin Mosin-Nagant_Rifle Mosin-Nagant_Rifle 2  mosin 0  mosin_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 102 0 0 55 700 0 5 301 0
  0
 0
 
@@ -3560,7 +3560,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_mosin_carbine Mosin-Nagant_Carbine Mosin-Nagant_Carbine 2  mosin_carbine 0  mosin_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 86 0 0 52 700 0 5 301 0
+ itm_rifle_russian_mosin_carbine Mosin-Nagant_Carbine Mosin-Nagant_Carbine 2  mosin_carbine 0  mosin_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 86 0 0 71 700 0 5 301 0
  0
 0
 
@@ -3640,7 +3640,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1854 Lorenz_Rifle Lorenz_Rifle 2  russian_m1856 0  russian_m1867_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 95 0 0 45 600 0 1 311 0
+ itm_rifle_austrian_m1854 Lorenz_Rifle Lorenz_Rifle 2  russian_m1856 0  russian_m1856_inv 1152921504606846976  811663369 6174031872 400 131082 4.750000 100 0 0 95 0 0 55 600 0 1 311 0
  0
 0
 
@@ -3688,7 +3688,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1886 Steyr_Mannlicher_M1886 Steyr_Mannlicher_M1886 2  mosin 0  mosin_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 102 0 0 40 700 0 5 301 0
+ itm_rifle_austrian_m1886 Steyr_Mannlicher_M1886 Steyr_Mannlicher_M1886 2  mosin 0  mosin_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 102 0 0 55 700 0 5 301 0
  0
 0
 
@@ -3696,7 +3696,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1886_carbine Steyr_Mannlicher_M1886_Carbine Steyr_Mannlicher_M1886_Carbine 2  mosin_carbine 0  mosin_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 86 0 0 52 700 0 5 301 0
+ itm_rifle_austrian_m1886_carbine Steyr_Mannlicher_M1886_Carbine Steyr_Mannlicher_M1886_Carbine 2  mosin_carbine 0  mosin_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 86 0 0 71 700 0 5 301 0
  0
 0
 
@@ -4633,7 +4633,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1888 Gewehr_M1888_Rifle Gewehr_M1888_Rifle 2  gewehr88 0  gewehr88_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 102 0 0 40 700 0 5 301 0
+ itm_rifle_german_m1888 Gewehr_M1888_Rifle Gewehr_M1888_Rifle 2  gewehr88 0  gewehr88_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 102 0 0 55 700 0 5 301 0
  0
 0
 
@@ -4641,7 +4641,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1888_carbine Gewehr_M1888_Carbine Gewehr_M1888_Carbine 2  gewehr88_carbine 0  gewehr88_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 86 0 0 52 700 0 5 301 0
+ itm_rifle_german_m1888_carbine Gewehr_M1888_Carbine Gewehr_M1888_Carbine 2  gewehr88_carbine 0  gewehr88_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 86 0 0 71 700 0 5 301 0
  0
 0
 
@@ -4676,7 +4676,7 @@ itemsfile version 3
  0
 0
 
- itm_canister_shot_small canister_shot_small canister_shot_small 1  belt_ammo 0  6291465 555929845760 400 131082 4.000000 100 0 0 86 0 0 52 700 0 5 276 0
+ itm_canister_shot_small canister_shot_small canister_shot_small 1  belt_ammo 0  6291465 555929845760 400 131082 4.000000 100 0 0 86 0 0 71 700 0 5 276 0
  0
 0
 

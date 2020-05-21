@@ -11,7 +11,7 @@ from ID_factions import *
 faction_technologies_number = 19
 faction_technology_preset_year = faction_technologies_number
 
-cannons_limit = 5
+cannons_limit = 4
 
 howitzer_muzzle_velocity = 85
 

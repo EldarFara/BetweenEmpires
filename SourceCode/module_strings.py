@@ -4454,7 +4454,7 @@ We apologize sincerely if you contributed your suggestions and feedback but were
 ("faction_technology_riflessmallcaliber_description", "Conversion Breech-loaders had a number of downsides, one of the most major being their inability to fire modern metallic cartridges, and inaccuracy and range compared to new model breech-loaders. Their dedicated design also allowed for a more streamlined, and hence faster reloading process, though it did little to negate overheating issues.^^The prohibitive element in rearmament was the immense cost widespread replacement of service rifles carried with it, but over the course of the mid-late 19th century most nations felt forced to make the switch. Among others, France, Britain, Prussia, and Russia switched from conversion breech-loaders to entirely new, modern breech-loaders, such as the Martini-Henry or Berdan rifles, in the 1870s, finally putting an end to the centuries old Brown-Bess and Charleville based infantry rifles of Europe.^^Effects: All conversion breech-loaders are replaced by even faster firing, more accurate modern breech-loaders."),
 ("faction_technology_riflesboltaction_name", "Magazine Rifles"),
 ("faction_technology_riflesboltaction_description", "desc"),
-("faction_technology_lateshells_name", "Improved Shell Percussion Mechanism"),
+("faction_technology_lateshells_name", "Improved Percussion Mechanisms"),
 ("faction_technology_lateshells_description", "desc"),
 ("faction_technology_hetypelate_name", "Smokeless Powder"),
 ("faction_technology_hetypelate_description", "desc"),
