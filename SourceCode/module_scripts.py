@@ -35256,14 +35256,14 @@ scripts = [
      (try_end),
      (try_begin),
        (store_num_parties_of_template, ":num_parties", "pt_forest_bandits"),
-       (lt,":num_parties",30), #was 14 at mount&blade, 18 in warband, 16 last decision
+       (lt,":num_parties",35), #was 14 at mount&blade, 18 in warband, 16 last decision
        (store_random_in_range,":spawn_point",villages_begin,villages_end),
        (set_spawn_radius, 25),
        (spawn_around_party,":spawn_point","pt_forest_bandits"),
      (try_end),
      (try_begin),
        (store_num_parties_of_template, ":num_parties", "pt_sea_raiders"),
-       (lt,":num_parties",20), #was 14 at mount&blade, 18 in warband, 16 last decision
+       (lt,":num_parties",35), #was 14 at mount&blade, 18 in warband, 16 last decision
        (store_random_in_range,":spawn_point",towns_begin,towns_end),
        (set_spawn_radius, 25),
        (spawn_around_party,":spawn_point","pt_sea_raiders"),
@@ -35294,7 +35294,7 @@ scripts = [
      (try_end),
      (try_begin),
        (store_num_parties_of_template, ":num_parties", "pt_looters"),
-       (lt,":num_parties",60), #was 33 at mount&blade, 50 in warband, 42 last decision
+       (lt,":num_parties",100), #was 33 at mount&blade, 50 in warband, 42 last decision
        (store_random_in_range,":spawn_point",villages_begin,villages_end), #spawn looters twice to have lots of them at the beginning       
        (set_spawn_radius, 25),
        (spawn_around_party,":spawn_point","pt_looters"),
@@ -35308,7 +35308,7 @@ scripts = [
      (try_end),
      (try_begin),
        (store_num_parties_of_template, ":num_parties", "pt_deserters"),
-       (lt,":num_parties",15),
+       (lt,":num_parties",50),
        (set_spawn_radius, 4),
        (try_for_range, ":troop_no", active_npcs_begin, active_npcs_end),
 	     (troop_slot_eq, ":troop_no", slot_troop_occupation, slto_kingdom_hero),
