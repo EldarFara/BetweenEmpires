@@ -13,6 +13,7 @@ from header_terrain_types import *
 from header_music import *
 from header_map_icons import *
 from header_presentations import *
+from header_sounds import *
 from ID_animations import *
 
 ## ZZ Custom Kingdom Troops begin
@@ -52728,7 +52729,7 @@ scripts = [
         (eq,":item_id", "itm_rifle_russian_berdan_carbine"),
         (assign, ":penaltytodiscipline_fromfire", 1),
         (assign, ":sound_id", "snd_shot_rifle3"),
-        (assign, ":sound_far", "snd_rifle_shot_far3"),(assign, ":sound_far2", "snd_rifle_shot_far1"),
+        (assign, ":sound_far", "snd_rifle_shot_far1"),(assign, ":sound_far2", "snd_rifle_shot_far1"),
         (assign, ":sound_reflection", -1),
         (assign, ":muzzle_y", 125),
         (assign, ":has_pan_sparks", 0),
@@ -52744,7 +52745,7 @@ scripts = [
         (eq,":item_id", "itm_rifle_russian_mosin_carbine"),
         (assign, ":penaltytodiscipline_fromfire", 1),
         (assign, ":sound_id", "snd_shot_boltaction1"),
-        (assign, ":sound_far", "snd_rifle_shot_far3"),(assign, ":sound_far2", "snd_rifle_shot_far1"),
+        (assign, ":sound_far", "snd_rifle_shot_far1"),(assign, ":sound_far2", "snd_rifle_shot_far1"),
         (assign, ":sound_reflection", "snd_rifle_shot_reflection_small"),
         (assign, ":muzzle_y", 125),
         (assign, ":has_pan_sparks", 0),
@@ -52829,14 +52830,10 @@ scripts = [
 	(mission_cam_get_position, pos2),
 	(get_distance_between_positions,":distance",pos41,pos2),
 		(try_begin),
-		(ge, ":distance", 12000),
-         (gt, ":sound_far", -1),
-         (play_sound_at_position, ":sound_far", pos41),   
-		(else_try),
-		(le, ":distance", 12000),
 		(ge, ":distance", 4500),
          (gt, ":sound_far2", -1),
-         (play_sound_at_position, ":sound_far2", pos41),   
+		(call_script, "script_play_distant_shot_sound_at_pos_based_on_distance", ":sound_far", ":distance", pos41),
+         #(play_sound_at_position, ":sound_far2", pos41),   
 		(else_try),
 		(le, ":distance", 4500),
          (gt, ":sound_id", -1),
@@ -56876,6 +56873,24 @@ scripts = [
 
     (set_show_messages, 1),
     ]),
+("play_distant_shot_sound_at_pos_based_on_distance",
+[
+(store_script_param, ":sound", 1),
+(store_script_param, ":distance", 2),
+(store_script_param, ":pos", 3),
+
+(mission_cam_get_position, pos30),
+(init_position, pos31),
+(position_copy_origin, pos31, ":pos"),
+(call_script, "script_rotate_pos31_towards_pos30_xy"),
+(assign, ":shift", ":distance"), (assign, ":shift2", ":distance"),
+(val_div, ":shift2", -3),
+(val_add, ":shift", 1000),
+(val_add, ":shift", ":shift2"),
+(position_move_y, pos31, ":shift", 0),
+(play_sound_at_position, ":sound", pos31),
+
+]),
 
 ]# modmerger_start version=201 type=2
 try:

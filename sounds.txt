@@ -28,45 +28,45 @@ soundsfile version 3
  melee_swing4.wav 2080
  melee_swing5.wav 2080
  melee_swing6.wav 2080
- footstep_grass1.wav 528
- footstep_grass2.wav 528
- footstep_grass3.wav 528
- footstep_grass4.wav 528
- footstep_grass5.wav 528
- footstep_grass6.wav 528
- footstep_grass7.wav 528
- footstep_grass8.wav 528
- footstep_grass9.wav 528
- footstep_grass10.wav 528
- footstep_grass11.wav 528
- footstep_grass12.wav 528
- footstep_grass13.wav 528
- footstep_grass14.wav 528
- footstep_grass15.wav 528
- footstep_grass16.wav 528
- footstep_grass17.wav 528
- footstep_grass18.wav 528
- footstep_grass19.wav 528
- footstep_grass20.wav 528
- footstep_grass21.wav 528
- footstep_grass22.wav 528
- footstep_grass23.wav 528
- footstep_grass24.wav 528
- footstep_grass25.wav 528
- footstep_grass26.wav 528
- footstep_grass27.wav 528
- footstep_grass28.wav 528
- footstep_grass29.wav 528
- footstep_grass30.wav 528
- footstep_grass31.wav 528
- footstep_grass32.wav 528
- footstep_wood_1.ogg 1296
- footstep_wood_2.ogg 1296
- footstep_wood_4.ogg 1296
- water_walk_1.ogg 1072
- water_walk_2.ogg 1072
- water_walk_3.ogg 1072
- water_walk_4.ogg 1072
+ footstep_grass1.wav 272
+ footstep_grass2.wav 272
+ footstep_grass3.wav 272
+ footstep_grass4.wav 272
+ footstep_grass5.wav 272
+ footstep_grass6.wav 272
+ footstep_grass7.wav 272
+ footstep_grass8.wav 272
+ footstep_grass9.wav 272
+ footstep_grass10.wav 272
+ footstep_grass11.wav 272
+ footstep_grass12.wav 272
+ footstep_grass13.wav 272
+ footstep_grass14.wav 272
+ footstep_grass15.wav 272
+ footstep_grass16.wav 272
+ footstep_grass17.wav 272
+ footstep_grass18.wav 272
+ footstep_grass19.wav 272
+ footstep_grass20.wav 272
+ footstep_grass21.wav 272
+ footstep_grass22.wav 272
+ footstep_grass23.wav 272
+ footstep_grass24.wav 272
+ footstep_grass25.wav 272
+ footstep_grass26.wav 272
+ footstep_grass27.wav 272
+ footstep_grass28.wav 272
+ footstep_grass29.wav 272
+ footstep_grass30.wav 272
+ footstep_grass31.wav 272
+ footstep_grass32.wav 272
+ footstep_wood_1.ogg 528
+ footstep_wood_2.ogg 528
+ footstep_wood_4.ogg 528
+ water_walk_1.ogg 528
+ water_walk_2.ogg 528
+ water_walk_3.ogg 528
+ water_walk_4.ogg 528
  footstep_horse_5.ogg 2096
  footstep_horse_2.ogg 2096
  footstep_horse_3.ogg 2096
@@ -698,30 +698,30 @@ soundsfile version 3
  rifle_shot_reflection2.wav 3856
  rifle_shot_reflection3.wav 3856
  rifle_shot_reflection4.wav 3856
- rifle_shot_far1_1.wav 1809
- rifle_shot_far1_2.wav 1809
- rifle_shot_far1_3.wav 1809
- rifle_shot_far1_4.wav 1809
- rifle_shot_far1_5.wav 1809
- rifle_shot_far1_6.wav 1809
- rifle_shot_far1_7.wav 1809
- rifle_shot_far1_8.wav 1809
- rifle_shot_far1_9.wav 1809
- rifle_shot_far1_10.wav 1809
- rifle_shot_far1_11.wav 1809
- rifle_shot_far1_12.wav 1809
- none 1809
- rifle_shot_far2_1.wav 3089
- rifle_shot_far2_2.wav 3089
- rifle_shot_far2_3.wav 3089
- rifle_shot_far2_4.wav 3089
- rifle_shot_far2_5.wav 3089
- rifle_shot_far2_6.wav 3089
- rifle_shot_far3_1.wav 3089
- rifle_shot_far3_2.wav 3089
- rifle_shot_far3_3.wav 3089
- rifle_shot_far3_4.wav 3089
- rifle_shot_far3_5.wav 3089
+ rifle_shot_far1_1.wav 4000
+ rifle_shot_far1_2.wav 4000
+ rifle_shot_far1_3.wav 4000
+ rifle_shot_far1_4.wav 4000
+ rifle_shot_far1_5.wav 4000
+ rifle_shot_far1_6.wav 4000
+ rifle_shot_far1_7.wav 4000
+ rifle_shot_far1_8.wav 4000
+ rifle_shot_far1_9.wav 4000
+ rifle_shot_far1_10.wav 4000
+ rifle_shot_far1_11.wav 4000
+ rifle_shot_far1_12.wav 4000
+ none 4000
+ rifle_shot_far2_1.wav 4000
+ rifle_shot_far2_2.wav 4000
+ rifle_shot_far2_3.wav 4000
+ rifle_shot_far2_4.wav 4000
+ rifle_shot_far2_5.wav 4000
+ rifle_shot_far2_6.wav 4000
+ rifle_shot_far3_1.wav 4000
+ rifle_shot_far3_2.wav 4000
+ rifle_shot_far3_3.wav 4000
+ rifle_shot_far3_4.wav 4000
+ rifle_shot_far3_5.wav 4000
  bugle_open_fire1.wav 4032
  bugle_open_fire2.wav 4032
  bugle_stop_fire1.wav 4032
@@ -1389,9 +1389,9 @@ snd_sword_clash_1 2128 8 12 0 13 0 14 0 15 0 16 0 17 0 18 0 19 0
 snd_sword_clash_2 2384 1 20 0 
 snd_sword_clash_3 2384 1 21 0 
 snd_sword_swing 2080 6 22 0 23 0 24 0 25 0 26 0 27 0 
-snd_footstep_grass 528 32 28 0 29 0 30 0 31 0 32 0 33 0 34 0 35 0 36 0 37 0 38 0 39 0 40 0 41 0 42 0 43 0 44 0 45 0 46 0 47 0 48 0 49 0 50 0 51 0 52 0 53 0 54 0 55 0 56 0 57 0 58 0 59 0 
-snd_footstep_wood 1296 3 60 0 61 0 62 0 
-snd_footstep_water 1072 4 63 0 64 0 65 0 66 0 
+snd_footstep_grass 272 32 28 0 29 0 30 0 31 0 32 0 33 0 34 0 35 0 36 0 37 0 38 0 39 0 40 0 41 0 42 0 43 0 44 0 45 0 46 0 47 0 48 0 49 0 50 0 51 0 52 0 53 0 54 0 55 0 56 0 57 0 58 0 59 0 
+snd_footstep_wood 528 3 60 0 61 0 62 0 
+snd_footstep_water 528 4 63 0 64 0 65 0 66 0 
 snd_footstep_horse 2096 4 67 0 68 0 69 0 70 0 
 snd_footstep_horse_1b 2096 4 71 0 72 0 73 0 74 0 
 snd_footstep_horse_1f 2096 4 75 0 76 0 77 0 78 0 
@@ -1586,9 +1586,9 @@ snd_mandeath5 2976 32 646 0 647 0 648 0 649 0 650 0 651 0 652 0 653 0 654 0 655 
 snd_mandeath6 2976 12 678 0 679 0 680 0 681 0 682 0 683 0 684 0 685 0 686 0 687 0 688 0 689 0 
 snd_rifle_shot_reflection_small 3856 4 690 0 691 0 692 0 693 0 
 snd_rifle_shot_reflection 3856 4 694 0 695 0 696 0 697 0 
-snd_rifle_shot_far1 1809 13 698 0 699 0 700 0 701 0 702 0 703 0 704 0 705 0 706 0 707 0 708 0 709 0 710 0 
-snd_rifle_shot_far2 3089 7 711 0 712 0 713 0 714 0 715 0 716 0 710 0 
-snd_rifle_shot_far3 3089 6 717 0 718 0 719 0 720 0 721 0 710 0 
+snd_rifle_shot_far1 4000 13 698 0 699 0 700 0 701 0 702 0 703 0 704 0 705 0 706 0 707 0 708 0 709 0 710 0 
+snd_rifle_shot_far2 4000 7 711 0 712 0 713 0 714 0 715 0 716 0 710 0 
+snd_rifle_shot_far3 4000 5 717 0 718 0 719 0 720 0 721 0 
 snd_bugle_open_fire 4032 2 722 0 723 0 
 snd_bugle_stop_fire 4032 2 724 0 725 0 
 snd_bugle_run 4032 1 726 0 

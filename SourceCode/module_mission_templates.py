@@ -1036,6 +1036,7 @@ YuriCannon33MS = (
 			(set_fixed_point_multiplier, 1),
 			(get_angle_between_positions, ":Angle", pos3, pos1),
 			(le, ":Angle", 5), (ge, ":Angle", -5),
+			(agent_get_team, ":TeamOfOfficer", ":CannonCannoneerOfficer"),
 			(agent_get_division , ":Division", ":CannonCannoneerOfficer"),
 			(team_get_hold_fire_order, ":Order", ":TeamOfOfficer", ":Division"),
 			(eq, ":Order", aordr_fire_at_will), # to do add volley fire
