@@ -126,7 +126,7 @@ sounds = [
  ("shield_broken",sf_priority_9, ["shield_broken.ogg"]),
  ("man_hit",sf_priority_7|sf_vol_7, []),
  ("man_die",sf_priority_10|sf_vol_8,  []),# ["man_fall_1.ogg","man_fall_2.ogg","man_fall_3.ogg","man_fall_4.ogg"]),
- ("woman_hit",sf_priority_7|sf_vol_2, ["womanhit1.wav","womanhit2.wav","womanhit3.wav","womanhit4.wav","womanhit5.wav","womanhit6.wav","womanhit7.wav","womanhit8.wav","womanhit9.wav","womanhit10.wav","womanhit11.wav","womanhit12.wav","womanhit13.wav","womanhit14.wav","womanhit15.wav","womanhit16.wav","womanhit17.wav","womanhit18.wav","womanhit19.wav","womanhit20.wav","womanhit21.wav","womanhit22.wav","womanhit23.wav","womanhit24.wav","womanhit25.wav","womanhit26.wav","womanhit27.wav","womanhit28.wav","womanhit29.wav","womanhit30.wav","womanhit31.wav","womanhit32.wav"]),
+ ("woman_hit",sf_priority_7|sf_vol_6, ["womanhit1.wav","womanhit2.wav","womanhit3.wav","womanhit4.wav","womanhit5.wav","womanhit6.wav","womanhit7.wav","womanhit8.wav","womanhit9.wav","womanhit10.wav","womanhit11.wav","womanhit12.wav","womanhit13.wav","womanhit14.wav","womanhit15.wav","womanhit16.wav","womanhit17.wav","womanhit18.wav","womanhit19.wav","womanhit20.wav","womanhit21.wav","womanhit22.wav","womanhit23.wav","womanhit24.wav","womanhit25.wav","womanhit26.wav","womanhit27.wav","womanhit28.wav","womanhit29.wav","womanhit30.wav","womanhit31.wav","womanhit32.wav"]),
  ("woman_die",sf_priority_10|sf_vol_9, []),
  ("woman_yell",sf_priority_8|sf_vol_9, []),
  ("hide",0, ["s_hide.wav"]),
@@ -247,7 +247,7 @@ sounds = [
 ("rifle_shot_reflection", sf_priority_1|sf_vol_15, ["rifle_shot_reflection1.wav", "rifle_shot_reflection2.wav", "rifle_shot_reflection3.wav", "rifle_shot_reflection4.wav"]),
 ("rifle_shot_far1", sf_priority_10|sf_vol_15, ["rifle_shot_far1_1.wav", "rifle_shot_far1_2.wav", "rifle_shot_far1_3.wav", "rifle_shot_far1_4.wav", "rifle_shot_far1_5.wav", "rifle_shot_far1_6.wav", "rifle_shot_far1_7.wav", "rifle_shot_far1_8.wav", "rifle_shot_far1_9.wav", "rifle_shot_far1_10.wav", "rifle_shot_far1_11.wav", "rifle_shot_far1_12.wav", "none"]),
 ("rifle_shot_far2", sf_priority_10|sf_vol_15, ["rifle_shot_far2_1.wav", "rifle_shot_far2_2.wav", "rifle_shot_far2_3.wav", "rifle_shot_far2_4.wav", "rifle_shot_far2_5.wav", "rifle_shot_far2_6.wav", "none"]),
-("rifle_shot_far3", sf_priority_10|sf_vol_15, ["rifle_shot_far3_1.wav", "rifle_shot_far3_2.wav", "rifle_shot_far3_3.wav", "rifle_shot_far3_4.wav", "rifle_shot_far3_5.wav"]),
+("rifle_shot_far3", sf_priority_10|sf_vol_15, ["rifle_shot_far3_1.wav", "rifle_shot_far3_2.wav", "rifle_shot_far3_3.wav", "rifle_shot_far3_4.wav", "rifle_shot_far3_5.wav", "rifle_shot_far3_6.wav", "rifle_shot_far3_7.wav", "rifle_shot_far3_8.wav", "rifle_shot_far3_9.wav"]),
 
 ("bugle_open_fire", sf_priority_12|sf_vol_15, ["bugle_open_fire1.wav", "bugle_open_fire2.wav"]),
 ("bugle_stop_fire", sf_priority_12|sf_vol_15, ["bugle_stop_fire1.wav", "bugle_stop_fire2.wav"]),

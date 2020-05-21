@@ -677,6 +677,6 @@ script_pts_create_selected_tech_description = 675
 script_cf_if_agent_faction_invented_technology = 676
 script_cf_if_party_faction_invented_technology = 677
 script_set_player_kingdom_init = 678
-script_play_distant_shot_sound_at_pos_based_on_distance = 679
+script_play_distant_sound_at_pos_based_on_distance = 679
 
 

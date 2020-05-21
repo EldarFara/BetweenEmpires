@@ -38,6 +38,23 @@ from module_postfx import *
 pilgrim_disguise = [itm_pilgrim_hood,itm_pilgrim_disguise,itm_practice_staff, itm_throwing_daggers]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
+player_ranged_damage_decrease = (
+ti_on_agent_hit, 0, 0, [],
+[
+(store_trigger_param_1, ":agent"),
+(store_trigger_param_2, ":attacker"),
+(assign, ":damage", reg0),
+(agent_is_active, ":agent"), (agent_is_active, ":attacker"),
+(agent_is_alive, ":agent"), (agent_is_alive, ":attacker"),
+(neg|agent_is_non_player, ":agent"),
+(agent_get_position, pos1, ":agent"),
+(agent_get_position, pos2, ":attacker"),
+(get_distance_between_positions_in_meters, ":distance", pos0, pos1),
+(ge, ":distance", 5),
+(val_div, ":damage", 3),
+(set_trigger_result, ":damage"),
+])
+
 pai_bandits_spawn = (
 ti_on_agent_spawn, 0, 0, [],
 [
@@ -54,7 +71,7 @@ ti_on_agent_spawn, 0, 0, [],
 (agent_set_position, ":agent", pos1),
 ])
 
-damage_control = (
+rifle_damage_model = (
 ti_on_agent_hit, 0, 0, [],
 [
 (store_trigger_param_1, ":agent"),
@@ -3928,8 +3945,9 @@ YuriCannonOrder,
 YuriCannonSpawn,
 lemat_canister_shot,
 pts_surviving_bonus,
-damage_control,
+rifle_damage_model,
 pai_bandits_spawn,
+player_ranged_damage_decrease,
 test,
   ]	
 
