@@ -17,7 +17,7 @@ strings = [
   ("s50_and_s51", "{s50} and {s51}"),
   ("s52_comma_s51", "{!}{s52}, {s51}"),
   ("s52_and_s51", "{s52} and {s51}"),
-  ("s5_s_party", "{s5}'s Yuri Party"),
+  ("s5_s_party", "{s5}'s Party"),
 
   ("given_by_s1_at_s2", "Given by {s1} at {s2}"),
   ("given_by_s1_in_wilderness", "Given by {s1} whilst in the field"),
@@ -4448,10 +4448,10 @@ We apologize sincerely if you contributed your suggestions and feedback but were
 ("faction_technology_medicinecrimeanwar_description", "The backdrop of death and disease during the Crimean War, especially during the Siege of Sevastopol prompted medical innovations on all sides of the war. Those innovations, among them a new understanding for the importance of clean conduct, would influence modern medicine and medical practice for decades, making it increasingly likely a soldier would survive wounds formerly considered a death sentence.^^Florence Nightingale, a British nurse serving in Crimea, first introduced hand-washing, cleaning and disinfecting wounds, and revolutionary measures to avoid cross-contamination. This lowered the rate of infection following a wound dramatically, making death much more avoidable. Europe's militaries began to implement her nursing tactics shortly after the war, and the Crimean War would influence European medicinal understanding for the remainder of the 19th century.^^Effects: Adds a 10% chance a soldier will survive being wounded."),
 ("faction_technology_shootingtraining_name", "Shooting Training"),
 ("faction_technology_shootingtraining_description", "Doubling the frequency and duration of our army's firearms drill can significantly improve our men's performance in extended firefights, though our military budget will have to be increased considerably in order to pay for ammunition.^^Effects: Increases small arms accuracy by 10%."),
-("faction_technology_riflesconverted_name", "Breech-loaded Rifles"),
-("faction_technology_riflesconverted_description", "desc"),
-("faction_technology_riflessmallcaliber_name", "Small Caliber Breech-loaded Rifles"),
-("faction_technology_riflessmallcaliber_description", "desc"),
+("faction_technology_riflesconverted_name", "Conversion Breech-loaded Rifles"),
+("faction_technology_riflesconverted_description", "Following the advent of mass production and the emerging superiority of breech-loaders over the course of the early Victorian era, the militaries of Europe began seeking for a cost-effective way to upgrade their armies arsenal. While being prone to overheating during prolonged firing, these breech-loaders had the advantage of being faster to reload, averaging a fire rate more than twice as fast than muzzle-loading muskets, though most European generals were more than sceptical of the new technology, curtailing their troops rate of fire and relying on coordinated fire instead still.^^Inventors such as Jacob Snider and James Lee came up with a number of breech-loading conversion systems, notably the Pattern 1853 Enfield, the Springfield 1861.^These conversion systems would turn the existing service rifles of the Western powers into breech-loaders at a much lower cost than producing new rifles. The British adopted their Snider-Enfield conversion breech-loader in 1866, using it to great effect in Africa, yet failing to adopt tactics to the new rifles fully.^^Effects: All muzzle-loading rifles are replaced by faster firing, more accurate conversion system breech-loaders."),
+("faction_technology_riflessmallcaliber_name", "Modern Breech-loaded Rifles"),
+("faction_technology_riflessmallcaliber_description", "Conversion Breech-loaders had a number of downsides, one of the most major being their inability to fire modern metallic cartridges, and inaccuracy and range compared to new model breech-loaders. Their dedicated design also allowed for a more streamlined, and hence faster reloading process, though it did little to negate overheating issues.^^The prohibitive element in rearmament was the immense cost widespread replacement of service rifles carried with it, but over the course of the mid-late 19th century most nations felt forced to make the switch. Among others, France, Britain, Prussia, and Russia switched from conversion breech-loaders to entirely new, modern breech-loaders, such as the Martini-Henry or Berdan rifles, in the 1870s, finally putting an end to the centuries old Brown-Bess and Charleville based infantry rifles of Europe.^^Effects: All conversion breech-loaders are replaced by even faster firing, more accurate modern breech-loaders."),
 ("faction_technology_riflesboltaction_name", "Magazine Rifles"),
 ("faction_technology_riflesboltaction_description", "desc"),
 ("faction_technology_lateshells_name", "Improved Shell Percussion Mechanism"),
@@ -4459,14 +4459,14 @@ We apologize sincerely if you contributed your suggestions and feedback but were
 ("faction_technology_hetypelate_name", "Smokeless Powder"),
 ("faction_technology_hetypelate_description", "desc"),
 ("faction_technology_cannonsrifling_name", "Rifled Cannons"),
-("faction_technology_cannonsrifling_description", "desc"),
+("faction_technology_cannonsrifling_description", "Cannon rifling, helical grooves machined into the artillery piece's barrel, serve to impart a spin to a projectile, stabilizing the projectile, hence improving it's aerodynamic stability and accuracy over smooth-bore cannons. Rifling was originally a tedious and expensive task, but became more viable as industrialisation marched on. As rifling became more commonplace in the 1860s, the accuracy of cannon was significantly improved, and they became deadlier than ever, especially to infantry.^^The Armstrong guns were among the first rifled cannons widely used since the fall of Venetian metallurgy, and proved devastating in the American Civil War, prompting European powers to invest into research, and eventually, adaption of rifled cannon.^^Effects: Increases cannon accuracy by 50%."),
 ("faction_technology_cannonsbreechloading_name", "Breech-loaded Cannons"),
 ("faction_technology_cannonsbreechloading_description", "Rifled breech loaders are cannons that are loaded from the back of the gun, rather than the front as is the case with muzzle-loaders. The most important difference between the two are the breech-loaders massively increased firing speed, at little to no loss in accuracy, safety or fire power. Early breech-loaders paved the way for bagged charges and screw breeches pioneered by the French, which meant massive calibres became viable, and by the end of the 19th century, commonplace.^^Breech-loading cannons were invented in 1837 in Sweden, and later on improved by British engineers after the Crimean War, most famously George Armstrong. Rifled breech loaders were initially popularized during the late 1850s, but only adopted by most major European powers in the 1870s and 1880s. Especially the French and the Prussians shared a great affinity for early breech-loaders, and went on to utilize them to great effect in the conflicts of the late Victorian era.^^Effects: All muzzle-loading artillery pieces are replaced by substantially faster firing breech-loaders."),
 ("faction_technology_conscription_name", "Conscription"),
 ("faction_technology_conscription_description", "desc"),
 ("faction_technology_acwexperience_name", "American Civil War Logistical Experience"),
 ("faction_technology_acwexperience_description", "desc"),
-("faction_technology_ammoincrease_name", "Increase of Ammunition"),
+("faction_technology_ammoincrease_name", "Baggage Trains"),
 ("faction_technology_ammoincrease_description", "desc"),
 ("faction_technology_skirmishline_name", "Skirmish Line Tactics"),
 ("faction_technology_skirmishline_description", "desc"),
@@ -4481,8 +4481,9 @@ We apologize sincerely if you contributed your suggestions and feedback but were
 ("faction_technology_riflesrifled_name", "Rifled Muskets"),
 ("faction_technology_riflesrifled_description", "Rifled muskets, as the name implies, utilized rifling, helical grooves machined into the bore of the gun's barrel. These grooves would cause the bullet to spin as it left the barrel, stabilizing it as it travels through the air. This grants extra accuracy and range, but prior to the invention of the Minié ball in the 1840s, fouling made rifles impractical for general infantry use. Paired with the advent of the percussion lock mechanism, misfires, fouling, and rifle inaccuracy were minimized, allowing for rifles to be adopted by skirmishers, sharpshooters, and fusiliers alike.^^Come the middle of the 19th century, the majority of western powers had already adopted rifled muskets, the British for instance choosing the Enfield in 1853 to replace their Pattern 1839 smooth-bore. Rifling remained immensely important for all modern military rifles, eventually even being used for cannons and handguns.^^Effects: All smooth-bore muskets are replaced with rifled muskets. Rifling increases accuracy by up to 50%."),
 
-  
 ("ground_desert","ground_desert"),
+
+("s5_s_generalparty", "{s5}'s Division"),
 ]
 
 

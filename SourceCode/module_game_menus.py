@@ -572,13 +572,15 @@ game_menus = [
         ]
        ),
        
-     ("action_view_troop_trees",[],"Troop Tres",
+     ("action_view_troop_trees",[],"View factions troop trees.",
        [
         (start_presentation, "prsnt_faction_troop_trees"),
         ]
        ),
        
-    ("action_view_world_map",[],"World Map",
+    ("action_view_world_map",[
+	(eq, 0, 1), # parabellum cut
+	],"World Map",
        [
         (start_presentation, "prsnt_world_map"),
         ]

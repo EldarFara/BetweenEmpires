@@ -3533,5 +3533,6 @@ str_faction_technology_woundedevacuation_description = 3531
 str_faction_technology_riflesrifled_name = 3532
 str_faction_technology_riflesrifled_description = 3533
 str_ground_desert = 3534
+str_s5_s_generalparty = 3535
 
 

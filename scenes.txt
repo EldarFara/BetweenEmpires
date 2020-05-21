@@ -1,5 +1,5 @@
 scenesfile version 1
- 1670
+ 1682
 scn_random_scene random_scene 1792 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x0000000239600563000ad6b500003efe00004b3400002a5b 
   0 
   0 
@@ -6680,3 +6680,51 @@ scn_enterprise_oil_press enterprise_oil_press 1 oil_press_interior bo_oil_press_
   0 
   0 
  0 
+scn_preset_battle_map_europe1 preset_battle_map_europe1 1280 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x0000000239630754000ad6b50000408f00004b34000031b0 
+  0 
+  0 
+ outer_terrain_plain 
+scn_preset_battle_map_europe2 preset_battle_map_europe2 1280 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x0000000239620654000ad6b50000408f00004b340000092b 
+  0 
+  0 
+ outer_terrain_plain 
+scn_preset_battle_map_europe3 preset_battle_map_europe3 1280 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x0000000239620754000ad6b50000408f00004b3400003e22 
+  0 
+  0 
+ outer_terrain_plain 
+scn_preset_battle_map_europe4 preset_battle_map_europe4 1280 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x0000000239620754000ad6b50000408f00004b3400000569 
+  0 
+  0 
+ outer_terrain_plain 
+scn_preset_battle_map_europe5 preset_battle_map_europe5 1280 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x0000000239620cdd000ad6b50000408f00004b3400001c64 
+  0 
+  0 
+ outer_terrain_plain 
+scn_preset_battle_map_europe6 preset_battle_map_europe6 1280 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x0000000239620be3000ad6b50000408f00004b3400001169 
+  0 
+  0 
+ outer_terrain_plain 
+scn_preset_battle_map_europe7 preset_battle_map_europe7 1280 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x000000023963c74f000ad6b50000408f00004b3400005a53 
+  0 
+  0 
+ outer_terrain_plain 
+scn_preset_battle_map_europe8 preset_battle_map_europe8 1280 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x000000023962874f000ad6b50000408f00004b3400000032 
+  0 
+  0 
+ outer_terrain_plain 
+scn_preset_battle_map_europe9 preset_battle_map_europe9 1280 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x0000000239628657000ad6b50000408f00004b3400000034 
+  0 
+  0 
+ outer_terrain_plain 
+scn_preset_battle_map_europe10 preset_battle_map_europe10 1280 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x0000000239628763800ad6b50000092b00006a7000000036 
+  0 
+  0 
+ outer_terrain_plain 
+scn_preset_battle_map_europe11 preset_battle_map_europe11 1280 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x0000000239628763800ad6b50000092b00006a7000000036 
+  0 
+  0 
+ outer_terrain_plain 
+scn_preset_battle_map_europe_end preset_battle_map_europe_end 1280 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x0000000239610680000ad6b50000092b00006a7000000354 
+  0 
+  0 
+ outer_terrain_plain 

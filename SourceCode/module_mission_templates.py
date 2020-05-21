@@ -122,7 +122,7 @@ ti_on_agent_hit, 0, 0, [],
 ])
 
 pts_surviving_bonus = (
-ti_on_agent_spawn, 0, 0, [],
+ti_on_agent_killed_or_wounded, 0, 0, [],
 [
 (store_trigger_param_1, ":agent"),
 (agent_is_active, ":agent"),
@@ -135,7 +135,7 @@ ti_on_agent_spawn, 0, 0, [],
 	(try_end),
 (store_random_in_range, ":random", 1, 101),
 (le, ":random", ":surviving_bonus"),
-(agent_set_no_death_knock_down_only, ":agent", 1),
+(set_trigger_result, 2),
 ])
 
 lemat_canister_shot = (
@@ -1036,6 +1036,9 @@ YuriCannon33MS = (
 			(set_fixed_point_multiplier, 1),
 			(get_angle_between_positions, ":Angle", pos3, pos1),
 			(le, ":Angle", 5), (ge, ":Angle", -5),
+			(agent_get_division , ":Division", ":CannonCannoneerOfficer"),
+			(team_get_hold_fire_order, ":Order", ":TeamOfOfficer", ":Division"),
+			(eq, ":Order", aordr_fire_at_will), # to do add volley fire
 			(scene_prop_set_slot, ":CannonBody", YuriSlotProp_CannonMode, YuriCannonMode_Firing_PreparingToFire),
 			(store_random_in_range, ":Random", 30, 60),
 			(scene_prop_set_slot, ":CannonBody", YuriSlotProp_CannonTimer, ":Random"),
@@ -3372,6 +3375,7 @@ fgs_trees_ams = (ti_after_mission_start, 0, 0,[ #fgs - Flora Generating System\
 (this_or_next|eq, ":scene", "scn_random_scene_steppe"),
 (this_or_next|eq, ":scene", "scn_random_scene_steppe_forest"),
 (this_or_next|eq, ":scene", "scn_random_scene_plain_forest"),
+(this_or_next|is_between, ":scene", "scn_preset_battle_map_europe1", "scn_preset_battle_map_europe_end"),
 (eq, ":scene", "scn_random_scene_plain"),
 #(get_scene_boundaries, pos1, pos2),
 (assign, ":x_coor1", 0),
@@ -3379,8 +3383,7 @@ fgs_trees_ams = (ti_after_mission_start, 0, 0,[ #fgs - Flora Generating System\
 (assign, ":y_coor1", 0),
 (assign, ":y_coor2", 6000),
 	(try_begin),
-	(this_or_next|eq, ":scene", "scn_random_scene_steppe"),
-	(eq, ":scene", "scn_random_scene_plain"),
+	(eq, "$scene_is_forest", 0),
 	(assign, ":bushes1", 80),
 	(assign, ":bushes2", 80),
 	(assign, ":bushes3", 80),
@@ -3390,14 +3393,14 @@ fgs_trees_ams = (ti_after_mission_start, 0, 0,[ #fgs - Flora Generating System\
 	(assign, ":poplar", 25),
 	(assign, ":ash1", 25),
 	(else_try),
-	(assign, ":bushes1", 80),
-	(assign, ":bushes2", 80),
-	(assign, ":bushes3", 80),
+	(assign, ":bushes1", 100),
+	(assign, ":bushes2", 100),
+	(assign, ":bushes3", 100),
 	(assign, ":flowers1a", 8),
 	(assign, ":flowers1b", 8),
 	(assign, ":flowers2", 12),
-	(assign, ":poplar", 80),
-	(assign, ":ash1", 80),
+	(assign, ":poplar", 120),
+	(assign, ":ash1", 120),
 	(try_end),
 
 	(try_for_range, ":unused", 0, ":ash1"), 
