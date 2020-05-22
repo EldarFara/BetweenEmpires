@@ -67,6 +67,7 @@ ti_on_agent_spawn, 0, 0, [],
 (party_is_active, ":party"),
 (party_get_template_id, ":template", ":party"),
 (this_or_next|eq, ":template", "pt_forest_bandits"),
+(this_or_next|eq, ":template", "pt_deserters"),
 (eq, ":template", "pt_sea_raiders"),
 (agent_get_position, pos1, ":agent"),
 (store_random_in_range, ":random", -8000, 8000),
@@ -4778,7 +4779,7 @@ common_siege_defender_reinforcement_check = (
    (ge,":mission_time",10),
    (store_normalized_team_count,":num_defenders",0),
    (lt,":num_defenders",8),
-   (add_reinforcements_to_entry,4, 7),
+   (add_reinforcements_to_entry,4, 10),
    (val_add,"$defender_reinforcement_stage",1),
    (try_begin),
      (gt, ":mission_time", 300), #5 minutes, don't let small armies charge
@@ -4820,7 +4821,7 @@ common_siege_attacker_reinforcement_check = (
     (lt,":num_attackers",6)
     ],
   [
-    (add_reinforcements_to_entry, 1, 8),
+    (add_reinforcements_to_entry, 1, 11),
     (val_add,"$attacker_reinforcement_stage", 1),
     ])
 
@@ -6327,14 +6328,14 @@ mission_templates = [
                  (ge,":mission_time",10),
                  (store_normalized_team_count,":num_defenders", 0),
                  (lt,":num_defenders",6)],
-           [(add_reinforcements_to_entry,0,7),(assign, "$defender_reinforcement_limit_increased", 0),(val_add,"$defender_reinforcement_stage",1)]),
+           [(add_reinforcements_to_entry,0,10),(assign, "$defender_reinforcement_limit_increased", 0),(val_add,"$defender_reinforcement_stage",1)]),
       
       (1, 0, 5, [(lt,"$attacker_reinforcement_stage",2),
                  (store_mission_timer_a,":mission_time"),
                  (ge,":mission_time",10),
                  (store_normalized_team_count,":num_attackers", 1),
                  (lt,":num_attackers",6)],
-           [(add_reinforcements_to_entry,3,7),(val_add,"$attacker_reinforcement_stage",1)]),
+           [(add_reinforcements_to_entry,3,10),(val_add,"$attacker_reinforcement_stage",1)]),
 
       common_battle_check_victory_condition,
       common_battle_victory_display,
@@ -6421,7 +6422,7 @@ mission_templates = [
                            (assign, "$attacker_reinforcement_stage", 0),
                            (try_begin),
                              (eq, "$g_mt_mode", vba_after_training),
-                             (add_reinforcements_to_entry, 1, 6),
+                             (add_reinforcements_to_entry, 1, 9),
                            (else_try),
                              (add_reinforcements_to_entry, 1, 29),
                            (try_end),
@@ -6499,13 +6500,13 @@ mission_templates = [
                  (ge,":mission_time",10),
                  (store_normalized_team_count,":num_defenders", 0),
                  (lt,":num_defenders",6)],
-           [(add_reinforcements_to_entry,0,6),(val_add,"$defender_reinforcement_stage",1)]),
+           [(add_reinforcements_to_entry,0,9),(val_add,"$defender_reinforcement_stage",1)]),
       (1, 0, 5, [(lt,"$attacker_reinforcement_stage",2),
                  (store_mission_timer_a,":mission_time"),
                  (ge,":mission_time",10),
                  (store_normalized_team_count,":num_attackers", 1),
                  (lt,":num_attackers",6)],
-           [(add_reinforcements_to_entry,3,6),(val_add,"$attacker_reinforcement_stage",1)]),
+           [(add_reinforcements_to_entry,3,9),(val_add,"$attacker_reinforcement_stage",1)]),
 
       (1, 60, ti_once,
        [

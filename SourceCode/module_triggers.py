@@ -1527,10 +1527,17 @@ triggers = [
 
 (0, 0, 0, [],
 [
+(eq, "$auto_besiege_town", 0),
 (assign, ":music_situation", mtf_culture_westeurope),
 
 	(try_for_range, ":center_no", centers_begin, centers_end),
 	(store_faction_of_party, ":faction", ":center_no"),
+		(try_begin),
+		(this_or_next|eq, ":faction", "fac_player_supporters_faction"),
+		(eq, ":faction", "fac_player_faction"),
+		(neq, "$player_faction_preset", -1),
+		(assign, ":faction", "$player_faction_preset"),
+		(try_end),
 		(try_begin),
 		(eq, ":faction", "fac_kingdom_2"),
 		(store_distance_to_party_from_party, ":party_distance", "p_main_party", ":center_no"),
