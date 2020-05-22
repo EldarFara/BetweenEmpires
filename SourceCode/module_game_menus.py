@@ -1617,7 +1617,7 @@ game_menus = [
              (eq, "$background_type", cb_noble),
              (jump_to_menu, "mnu_auto_return"),
 #normal_banner_begin
-             (start_presentation, "prsnt_banner_selection"),
+            # (start_presentation, "prsnt_banner_selection"), # parabellum cut
 #custom_banner_begin
 #             (start_presentation, "prsnt_custom_banner"),
            (else_try),
@@ -2949,7 +2949,8 @@ game_menus = [
        ),	   
 ## ZZ Custom Kingdom Troops end
 
-      ("action_modify_banner",[(eq, "$cheat_mode", 1)],"{!}Cheat: Modify your banner.",
+      ("action_modify_banner",[(eq, 0, 1)# parabellum cut
+	  ],"{!}Cheat: Modify your banner.",
        [
            (start_presentation, "prsnt_banner_selection"),
            #(start_presentation, "prsnt_custom_banner"),

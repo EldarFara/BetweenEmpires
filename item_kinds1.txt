@@ -1,5 +1,5 @@
 itemsfile version 3
-1114
+1142
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -2514,77 +2514,77 @@ itemsfile version 3
  0
 0
 
- itm_ria_infantry_trousers1 Russian_Infantry_Trousers Russian_Infantry_Trousers 1  ria_infantry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ itm_ria_infantry_trousers1 Russian_Infantry_Trousers Russian_Infantry_Trousers 1  ria_infantry_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_infantry_trousers2 Russian_Infantry_Trousers Russian_Infantry_Trousers 1  ria_infantry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ itm_ria_infantry_trousers2 Russian_Infantry_Trousers Russian_Infantry_Trousers 1  ria_infantry_trousers2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_infantry_trousers3 Russian_Infantry_Trousers Russian_Infantry_Trousers 1  ria_infantry_trousers3 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ itm_ria_infantry_trousers3 Russian_Infantry_Trousers Russian_Infantry_Trousers 1  ria_infantry_trousers3 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_cavalry_trousers1 Russian_Cavalry_Trousers Russian_Cavalry_Trousers 1  ria_cavalry_trousers1 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ itm_ria_cavalry_trousers1 Russian_Cavalry_Trousers Russian_Cavalry_Trousers 1  ria_cavalry_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_cavalry_trousers2 Russian_Cavalry_Trousers Russian_Cavalry_Trousers 1  ria_cavalry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ itm_ria_cavalry_trousers2 Russian_Cavalry_Trousers Russian_Cavalry_Trousers 1  ria_cavalry_trousers2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_cavalry_trousers3 Russian_Cossack_Trousers Russian_Cossack_Trousers 1  ria_cavalry_trousers3 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ itm_ria_cavalry_trousers3 Russian_Cossack_Trousers Russian_Cossack_Trousers 1  ria_cavalry_trousers3 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_cavalry_trousers4 Russian_Cavalry_Trousers Russian_Cavalry_Trousers 1  ria_cavalry_trousers4 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ itm_ria_cavalry_trousers4 Russian_Cavalry_Trousers Russian_Cavalry_Trousers 1  ria_cavalry_trousers4 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_infantry1 Russian_Military_Uniform Russian_Military_Uniform 1  ria_infantry2 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_ria_infantry1 Russian_Military_Uniform Russian_Military_Uniform 1  ria_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_infantry2 Russian_Military_Uniform Russian_Military_Uniform 1  ria_infantry2 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_ria_infantry2 Russian_Military_Uniform Russian_Military_Uniform 1  ria_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_infantry3 Russian_Military_Uniform Russian_Military_Uniform 1  ria_infantry3 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_ria_infantry3 Russian_Military_Uniform Russian_Military_Uniform 1  ria_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_infantry4 Russian_Military_Uniform Russian_Military_Uniform 1  ria_infantry4 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_ria_infantry4 Russian_Military_Uniform Russian_Military_Uniform 1  ria_infantry4 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_cavalry1 Russian_Military_Uniform Russian_Military_Uniform 1  ria_cavalry1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_ria_cavalry1 Russian_Military_Uniform Russian_Military_Uniform 1  ria_cavalry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_cavalry2 Russian_Military_Uniform Russian_Military_Uniform 1  ria_cavalry2 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_ria_cavalry2 Russian_Military_Uniform Russian_Military_Uniform 1  ria_cavalry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_cavalry3 Russian_Cossack_Torso Russian_Cossack_Torso 1  ria_cavalry3 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_ria_cavalry3 Russian_Cossack_Torso Russian_Cossack_Torso 1  ria_cavalry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_cavalry4 Russian_General_Torso Russian_General_Torso 1  ria_cavalry4 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_ria_cavalry4 Russian_General_Torso Russian_General_Torso 1  ria_cavalry4 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  44
 0
@@ -2614,7 +2614,7 @@ itemsfile version 3
  44
 0
 
- itm_ria_leader1 Russian_Tsar_Torso Russian_Tsar_Torso 1  ria_leader1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_ria_leader1 Russian_Tsar_Torso Russian_Tsar_Torso 1  ria_leader1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  44
 0
@@ -4721,6 +4721,126 @@ itemsfile version 3
  0
 1
 -52.000000  3 4 0 1975 3 1008806316530991164 1 8 3 0 
+
+ itm_res_trousers1 Italian_Military_Trousers Italian_Military_Trousers 1  res_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 44
+0
+
+ itm_res_trousers2 Italian_Military_Trousers Italian_Military_Trousers 1  res_trousers2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 44
+0
+
+ itm_res_infantry1 Italian_Military_Uniform Italian_Military_Uniform 1  res_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 44
+0
+
+ itm_res_infantry2 Italian_Military_Uniform Italian_Military_Uniform 1  res_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 44
+0
+
+ itm_res_infantry3 Italian_Military_Uniform Italian_Military_Uniform 1  res_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 44
+0
+
+ itm_res_hat1 Italian_Military_Hat Italian_Military_Hat 1  res_hat1 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 44
+0
+
+ itm_res_hat1b Italian_Military_Hat Italian_Military_Hat 1  res_hat1b 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 44
+0
+
+ itm_res_hat2 Italian_Military_Hat Italian_Military_Hat 1  res_hat2 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 44
+0
+
+ itm_rifle_italian_m1844 Italian_M1844_Musket Italian_M1844_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811663369 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ 0
+0
+
+ itm_rifle_italian_m1844_m Italian_M1844_Musket Italian_M1844_Musket 1  russian_m1845 0  274989060 4222130824676096 0 0 4.500000 100 0 0 0 0 30720 75 0 120 0 286 286
+ 0
+0
+
+ itm_rifle_italian_m1844_carbine Italian_M1844_Carbine Italian_M1844_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6357001 6174031872 400 131082 4.750000 100 0 0 55 0 0 71 400 0 1 311 0
+ 0
+0
+
+ itm_rifle_italian_m1844_carbine_m Italian_M1844_Carbine Italian_M1844_Carbine 1  russian_m1845_carbine 0  6553604 4222130824676096 0 0 4.750000 100 0 0 0 0 18432 75 0 80 0 532 530
+ 0
+0
+
+ itm_rifle_italian_m1860 Italian_M1860_Rifle Italian_M1860_Rifle 2  russian_m1856 0  russian_m1856_inv 1152921504606846976  811663369 6174031872 400 131082 4.750000 100 0 0 95 0 0 55 600 0 1 311 0
+ 0
+0
+
+ itm_rifle_italian_m1860_m Italian_M1860_Rifle Italian_M1860_Rifle 1  russian_m1856 0  274989060 4222130824676096 0 0 4.750000 100 0 0 0 0 30720 75 0 120 0 286 286
+ 0
+0
+
+ itm_rifle_italian_m1860_carbine Italian_M1860_Carbine Italian_M1860_Carbine 2  russian_m1856_carbine 0  russian_m1856_carbine_inv 1152921504606846976  6357001 6174031872 400 131082 4.750000 100 0 0 80 0 0 71 600 0 1 311 0
+ 0
+0
+
+ itm_rifle_italian_m1860_carbine_m Italian_M1860_Carbine Italian_M1860_Carbine 1  russian_m1856_carbine 0  6553604 4222130824676096 0 0 4.750000 100 0 0 0 0 18432 75 0 80 0 532 530
+ 0
+0
+
+ itm_rifle_italian_carcano Carcano_System_M1867_Rifle Carcano_System_M1867_Rifle 2  sniderenfield 0  sniderenfield_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 95 0 0 45 600 0 1 311 0
+ 0
+0
+
+ itm_rifle_italian_carcano_m Carcano_System_M1867_Rifle Carcano_System_M1867_Rifle 1  sniderenfield 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
+ 0
+0
+
+ itm_rifle_italian_carcano_carbine Carcano_System_M1860_Carbine Carcano_System_M1860_Carbine 2  sniderenfield_carbine 0  sniderenfield_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 80 0 0 58 600 0 1 311 0
+ 0
+0
+
+ itm_rifle_italian_carcano_carbine_m Carcano_System_M1860_Carbine Carcano_System_M1860_Carbine 1  sniderenfield_carbine 0  6553604 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 80 0 532 530
+ 0
+0
+
+ itm_rifle_italian_vetterli Italian_Vetterli_M1870_Rifle Italian_Vetterli_M1870_Rifle 2  vetterli1870 0  vetterli1870_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 100 0 0 60 650 0 1 311 0
+ 0
+0
+
+ itm_rifle_italian_vetterli_m Italian_Vetterli_M1870_Rifle Italian_Vetterli_M1870_Rifle 1  vetterli1870 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
+ 0
+0
+
+ itm_rifle_italian_vetterli_carbine Italian_Vetterli_M1870_Carbine Italian_Vetterli_M1870_Carbine 2  vetterli1870_carbine 0  vetterli1870_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 85 0 0 78 650 0 1 311 0
+ 0
+0
+
+ itm_rifle_italian_vetterli_carbine_m Italian_Vetterli_M1870_Carbine Italian_Vetterli_M1870_Carbine 1  vetterli1870_carbine 0  6553604 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 80 0 532 530
+ 0
+0
+
+ itm_rifle_italian_vetterlivitali Vetterli-Vitali_M1887_Rifle Vetterli-Vitali_M1887_Rifle 2  vetterli1887 0  vetterli1887_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 100 0 0 102 0 0 55 700 0 5 301 0
+ 0
+0
+
+ itm_rifle_italian_vetterlivitali_m Vetterli-Vitali_M1887_Rifle Vetterli-Vitali_M1887_Rifle 1  vetterli1887 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
+ 0
+0
+
+ itm_rifle_italian_vetterlivitali_carbine Vetterli-Vitali_M1887_Carbine Vetterli-Vitali_M1887_Carbine 2  vetterli1887_carbine 0  vetterli1887_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 100 0 0 86 0 0 71 700 0 5 301 0
+ 0
+0
+
+ itm_rifle_italian_vetterlivitali_carbine_m Vetterli-Vitali_M1887_Carbine Vetterli-Vitali_M1887_Carbine 1  vetterli1887_carbine 0  6553604 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 80 0 532 530
+ 0
+0
 
  itm_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0

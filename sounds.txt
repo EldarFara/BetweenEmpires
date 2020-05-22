@@ -1,5 +1,5 @@
 soundsfile version 3
-1375
+1382
  drum_3.ogg 769
  tutorial_1.ogg 1793
  tutorial_2.ogg 1793
@@ -1375,7 +1375,14 @@ soundsfile version 3
  explosion_ricochet_small11.wav 3040
  explosion_ricochet_small12.wav 3040
  explosion_ricochet_small13.wav 3040
-275
+ womanhit_FP_1.wav 4048
+ womanhit_FP_2.wav 4048
+ womanhit_FP_3.wav 4048
+ womanhit_FP_4.wav 4048
+ womanhit_FP_5.wav 4048
+ womanhit_FP_6.wav 4048
+ womanhit_FP_7.wav 4048
+276
 snd_click 769 1 0 0 
 snd_tutorial_1 1793 1 1 0 
 snd_tutorial_2 1793 1 2 0 
@@ -1651,3 +1658,4 @@ snd_explosion_reflection_close 4080 9 1341 0 1342 0 1343 0 1344 0 1345 0 1346 0 
 snd_explosion_reflection_distant 4080 6 1350 0 1351 0 1352 0 1353 0 1354 0 1355 0 
 snd_explosion_ricochet_big 3808 6 1356 0 1357 0 1358 0 1359 0 1360 0 1361 0 
 snd_explosion_ricochet_small 3040 13 1362 0 1363 0 1364 0 1365 0 1366 0 1367 0 1368 0 1369 0 1370 0 1371 0 1372 0 1373 0 1374 0 
+snd_woman_hit_FP 4048 7 1375 0 1376 0 1377 0 1378 0 1379 0 1380 0 1381 0 

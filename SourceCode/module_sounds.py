@@ -313,6 +313,8 @@ sounds = [
 ("explosion_ricochet_big",sf_priority_14|sf_vol_14, ["explosion_ricochet_big01.wav","explosion_ricochet_big02.wav","explosion_ricochet_big03.wav","explosion_ricochet_big04.wav","explosion_ricochet_big05.wav","explosion_ricochet_big06.wav"]),
 ("explosion_ricochet_small",sf_priority_14|sf_vol_11, ["explosion_ricochet_small01.wav","explosion_ricochet_small02.wav","explosion_ricochet_small03.wav","explosion_ricochet_small04.wav","explosion_ricochet_small05.wav","explosion_ricochet_small06.wav","explosion_ricochet_small07.wav","explosion_ricochet_small08.wav","explosion_ricochet_small09.wav","explosion_ricochet_small10.wav","explosion_ricochet_small11.wav","explosion_ricochet_small12.wav","explosion_ricochet_small13.wav"]),
 
+("woman_hit_FP",sf_priority_13|sf_vol_15, ["womanhit_FP_1.wav","womanhit_FP_2.wav","womanhit_FP_3.wav","womanhit_FP_4.wav","womanhit_FP_5.wav","womanhit_FP_6.wav","womanhit_FP_7.wav"]),
+
 ]
 
 

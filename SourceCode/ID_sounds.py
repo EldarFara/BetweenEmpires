@@ -273,5 +273,6 @@ snd_explosion_reflection_close = 271
 snd_explosion_reflection_distant = 272
 snd_explosion_ricochet_big = 273
 snd_explosion_ricochet_small = 274
+snd_woman_hit_FP = 275
 
 
