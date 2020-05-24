@@ -1210,14 +1210,14 @@ game_menus = [
 	(jump_to_menu,"mnu_start_character_4"),
         ]),
       ("craftsman",[],"An entrepreneur.",[
-        (assign,"$background_answer_3", cb3_craftsman),
+        (assign,"$background_answer_3", cb3_entrepreneur),
       (str_store_string,s14,"@{reg3?daughter:man}"),
       (str_store_string,s13,"@{reg3?woman:man}"),
       (str_store_string,s12,"@ "),
 	(jump_to_menu,"mnu_start_character_4"),
         ]),
       ("poacher",[],"An outlaw.",[
-        (assign,"$background_answer_3", cb3_poacher),
+        (assign,"$background_answer_3", cb3_outlaw),
       (str_store_string,s14,"@{reg3?daughter:man}"),
       (str_store_string,s13,"@{reg3?woman:man}"),
       (str_store_string,s12,"@Though the distinction felt sudden to you,\
@@ -1229,14 +1229,14 @@ game_menus = [
 	(jump_to_menu,"mnu_start_character_4"),
         ]),
       ("peddler",[],"The North America settler.",[
-        (assign,"$background_answer_3",cb3_peddler),
+        (assign,"$background_answer_3",cb3_americasettler),
       (str_store_string,s14,"@{reg3?daughter:man}"),
       (str_store_string,s13,"@{reg3?woman:man}"),
       (str_store_string,s12,"@ "),
 	(jump_to_menu,"mnu_start_character_4"),
         ]),
       ("squire",[(eq,"$character_gender",tf_male)],"A Crimean War veteran.",[
-        (assign,"$background_answer_3",cb3_squire),
+        (assign,"$background_answer_3",cb3_warvet),
       (str_store_string,s14,"@{reg3?daughter:man}"),
       (str_store_string,s12,"@ "),
 	(jump_to_menu,"mnu_start_character_4"),
@@ -1468,7 +1468,7 @@ game_menus = [
 	(try_end),
 
 	(try_begin),
-        (eq,"$background_answer_3",cb3_poacher),
+        (eq,"$background_answer_3",cb3_outlaw),
         (troop_raise_attribute, "trp_player",ca_strength,1),
         (troop_raise_attribute, "trp_player",ca_agility,2),
         (troop_raise_skill, "trp_player","skl_riding",1),
@@ -1492,7 +1492,7 @@ game_menus = [
         (troop_raise_proficiency, "trp_player",wpt_firearm,20),
            
     (else_try),
-        (eq,"$background_answer_3",cb3_craftsman),
+        (eq,"$background_answer_3",cb3_entrepreneur),
         (troop_raise_attribute, "trp_player",ca_intelligence,2),
         (troop_raise_attribute, "trp_player",ca_charisma,2),
 
@@ -1508,7 +1508,7 @@ game_menus = [
 
 
     (else_try),
-        (eq,"$background_answer_3",cb3_peddler),
+        (eq,"$background_answer_3",cb3_americasettler),
         (troop_raise_attribute, "trp_player",ca_strength,2),
         (troop_raise_attribute, "trp_player",ca_agility,2),
         (troop_raise_skill, "trp_player","skl_riding",2),
@@ -1544,7 +1544,7 @@ game_menus = [
         (troop_raise_proficiency, "trp_player",wpt_crossbow,10),
 
     (else_try),
-        (eq,"$background_answer_3",cb3_squire),
+        (eq,"$background_answer_3",cb3_warvet),
         (troop_raise_attribute, "trp_player",ca_strength,4),
         (troop_raise_attribute, "trp_player",ca_agility,2),
         (troop_raise_attribute, "trp_player",ca_charisma,1),

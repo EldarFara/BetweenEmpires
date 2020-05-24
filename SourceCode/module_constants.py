@@ -1432,8 +1432,16 @@ slot_team_company7_target_company                       = 176
 slot_team_company8_target_company                       = 177
 
 slot_team_cannons_amount                                = 178
-
 YuriSlotTeam_CannonsAmount = slot_team_cannons_amount
+
+slot_team_company1_accuracy                       = 179
+slot_team_company2_accuracy                       = 180
+slot_team_company3_accuracy                       = 181
+slot_team_company4_accuracy                       = 182
+slot_team_company5_accuracy                       = 183
+slot_team_company6_accuracy                       = 184
+slot_team_company7_accuracy                       = 185
+slot_team_company8_accuracy                       = 186
 
 #Rebellion changes end
 # character backgrounds
@@ -1458,11 +1466,11 @@ cb2_factory = cb2_apprentice
 cb2_mugger = cb2_urchin
 cb2_news = cb2_merchants_helper
 
-cb3_poacher = 3
-cb3_craftsman = 4
-cb3_peddler = 5
+cb3_outlaw = 3
+cb3_entrepreneur = 4
+cb3_americasettler = 5
 cb3_troubadour = 7
-cb3_squire = 8
+cb3_warvet = 8
 cb3_lady_in_waiting = 9
 cb3_student = 10
 cb3_student_med = 10

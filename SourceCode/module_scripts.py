@@ -34534,7 +34534,7 @@ scripts = [
        (store_script_param, ":agent_no", 1),
        (store_script_param, ":troop_no", 2),
        (assign, ":banner_troop", -1),
-       (assign, ":banner_mesh", "mesh_banners_default_b"),
+       (assign, ":banner_mesh", "mesh_banners_default_d"),
        (try_begin),
          (lt, ":agent_no", 0),
          (try_begin),
@@ -34681,7 +34681,7 @@ scripts = [
          (ge, ":banner_troop", 0),
          (try_begin),
            (neg|troop_slot_ge, ":banner_troop", slot_troop_banner_scene_prop, 1),
-           (assign, ":banner_mesh", "mesh_banners_default_b"),
+           (assign, ":banner_mesh", "mesh_banners_default_d"),
          (else_try), 
            (troop_get_slot, ":banner_spr", ":banner_troop", slot_troop_banner_scene_prop),
            (store_add, ":banner_scene_props_end", banner_scene_props_end_minus_one, 1),
@@ -55798,7 +55798,7 @@ scripts = [
 	(play_sound_at_position, "snd_explosion_reflection_close", ":pos"),
 	(particle_system_burst,"psys_ground_debris1",":pos",":particle_debris"),
 	(else_try),
-	(lt,":distance",4500), # distant
+	(lt,":distance",5500), # distant
 	(play_sound_at_position, ":sound_add", pos36),
 	(play_sound_at_position, ":sound_ambience_distant", pos36),
 	(play_sound_at_position, ":sound_nose_distant", pos36),
@@ -56980,6 +56980,15 @@ scripts = [
 	(assign, reg10, ":number"),
 	(try_end),
 
+]),
+("reset_companies_accuracy",
+[
+	(try_for_range, ":team", 0, 4),
+		(try_for_range, ":company", 0, 8),
+		(store_add, ":slot_team_accuracy", slot_team_company1_accuracy, ":company"),
+		(team_set_slot, ":team", ":slot_team_accuracy", 0),
+		(try_end),
+	(try_end),
 ]),
 
 ]# modmerger_start version=201 type=2
