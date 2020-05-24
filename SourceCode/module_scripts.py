@@ -56932,7 +56932,7 @@ scripts = [
 	(party_set_banner_icon, "p_main_party", ":number"),
 	(party_set_banner_icon, ":capital", ":number"),
 
-	(troop_raise_skill, "trp_player", skl_riding, 2),
+	(troop_raise_skill, "trp_player", skl_riding, 2), (troop_raise_skill, "trp_player", skl_leadership, 8),
 	(try_for_range,":slot",0,10),   
 	(troop_get_inventory_slot, ":item", ":liege", ":slot"),
 	(troop_set_inventory_slot, "trp_player", ":slot", ":item"),
