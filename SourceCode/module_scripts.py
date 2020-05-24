@@ -52805,7 +52805,7 @@ scripts = [
 	(store_add, ":slot_team_soldier_number", slot_team_company1_soldier_number, ":company"),
 	(team_get_slot, ":soldier_number", ":team", ":slot_team_soldier_number"),
 		(try_begin),
-		(le, ":soldier_number", 10),
+		(lt, ":soldier_number", 10),
 		(assign, ":soldier_number", 10),
 		(try_end),
 	(val_div, ":dist", 2),

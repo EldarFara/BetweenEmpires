@@ -305,6 +305,8 @@ slot_agent_speaking_cooldown      = 33
 slot_agent_square_formation_state = 34
 #slots 35-41 are occupied
 slot_agent_lemat_canister_has_been_shot = 42
+slot_agent_reloading_animation_acceleration_progress = 43
+slot_agent_reloading_animation_acceleration = 44
 
 ########################################################
 ##  FACTION SLOTS          #############################
@@ -1442,6 +1444,14 @@ slot_team_company5_accuracy                       = 183
 slot_team_company6_accuracy                       = 184
 slot_team_company7_accuracy                       = 185
 slot_team_company8_accuracy                       = 186
+slot_team_company1_penaltytodiscipline_fromcasualties                       = 187
+slot_team_company2_penaltytodiscipline_fromcasualties                       = 188
+slot_team_company3_penaltytodiscipline_fromcasualties                       = 189
+slot_team_company4_penaltytodiscipline_fromcasualties                       = 190
+slot_team_company5_penaltytodiscipline_fromcasualties                       = 191
+slot_team_company6_penaltytodiscipline_fromcasualties                       = 192
+slot_team_company7_penaltytodiscipline_fromcasualties                       = 193
+slot_team_company8_penaltytodiscipline_fromcasualties                       = 194
 
 #Rebellion changes end
 # character backgrounds
