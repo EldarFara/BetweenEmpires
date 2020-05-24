@@ -3870,21 +3870,21 @@ simple_triggers = [
  # reserved for future use. For backward compatibility, we need to use these triggers instead of creating new ones.
   
   (1,
-   [
+   [ # parabellum cut # PARABELLUM UNKNOWN EFFECT
      (call_script, "script_calculate_castle_prosperities_by_using_its_villages"),
 
-     (store_add, ":fac_kingdom_6_plus_one", "fac_kingdom_6", 1),
+     # (store_add, ":fac_kingdom_6_plus_one", "fac_kingdom_6", 1),
 
-     (try_for_range, ":faction_1", "fac_kingdom_1", ":fac_kingdom_6_plus_one"),
-       (try_for_range, ":faction_2", "fac_kingdom_1", ":fac_kingdom_6_plus_one"),
-         (store_relation, ":faction_relation", ":faction_1", ":faction_2"),
-         (str_store_faction_name, s7, ":faction_1"),
-         (str_store_faction_name, s8, ":faction_2"),
-         (neq, ":faction_1", ":faction_2"),
-         (assign, reg1, ":faction_relation"),
-         #(display_message, "@{s7}-{s8}, relation is {reg1}"),
-       (try_end),
-     (try_end),          
+     # (try_for_range, ":faction_1", "fac_kingdom_1", ":fac_kingdom_6_plus_one"),
+       # (try_for_range, ":faction_2", "fac_kingdom_1", ":fac_kingdom_6_plus_one"),
+         # (store_relation, ":faction_relation", ":faction_1", ":faction_2"),
+         # (str_store_faction_name, s7, ":faction_1"),
+         # (str_store_faction_name, s8, ":faction_2"),
+         # (neq, ":faction_1", ":faction_2"),
+         # (assign, reg1, ":faction_relation"),
+         # #(display_message, "@{s7}-{s8}, relation is {reg1}"),
+       # (try_end),
+     # (try_end),          
    ]),
    
   (1,
