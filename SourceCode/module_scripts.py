@@ -15406,14 +15406,14 @@ scripts = [
         #if this party is faction leader it takes additional 100 limit        
         (try_begin),
           (faction_slot_eq, ":faction_id", slot_faction_leader, ":party_leader"),
-          (val_add, ":limit", 100),
+          (val_add, ":limit", 25),
         (try_end),
 
-        #if this party is faction marshall it takes additional 20 limit        
-        (try_begin),
-          (faction_slot_eq, ":faction_id", slot_faction_marshall, ":party_leader"),
-          (val_add, ":limit", 20),
-        (try_end),        
+        #if this party is faction marshall it takes additional 20 limit    # parabellum cut
+        # (try_begin),
+          # (faction_slot_eq, ":faction_id", slot_faction_marshall, ":party_leader"),
+          # (val_add, ":limit", 20),
+        # (try_end),        
 
         #party takes additional 20 limit per each castle it's party leader owns # parabellum cut
         # (try_for_range, ":cur_center", castles_begin, castles_end),
@@ -22596,19 +22596,13 @@ scripts = [
         (party_set_faction, ":farmer_party_no", ":center_faction"),
       (try_end),
 
-    (try_begin),
-        (this_or_next|party_slot_eq, ":center_no", slot_party_type, spt_town),
-			(party_slot_eq, ":center_no", slot_party_type, spt_castle),
-		(gt, ":lord_troop_id", -1),
-		
-		(try_begin),
-		(is_between, ":lord_troop_faction", "fac_kingdom_1", "fac_kingdoms_end"),
-		(store_sub, ":number", "fac_kingdom_33", ":lord_troop_faction"),
-		(store_sub, ":number", 32, ":number"),
-		(val_add, ":number", "icon_map_flag_faction1"),
-		(party_set_banner_icon, ":center_no", ":number"),
-		(try_end),
-    (try_end),
+	(try_begin),
+	(this_or_next|party_slot_eq, ":center_no", slot_party_type, spt_town),
+	(party_slot_eq, ":center_no", slot_party_type, spt_castle),
+	(gt, ":lord_troop_id", -1),
+	(call_script, "script_get_banner_icon_for_faction", ":lord_troop_faction"),
+	(party_set_banner_icon, ":center_no", reg10),
+	(try_end),
 
 #    (try_begin),
 #		(eq, 1, 0),
@@ -23468,13 +23462,8 @@ scripts = [
 
       #Setting the flag icon
       #normal_banner_begin
-		(try_begin),
-		(is_between, ":troop_faction_no", "fac_kingdom_1", "fac_kingdoms_end"),
-		(store_sub, ":number", "fac_kingdom_33", ":troop_faction_no"),
-		(store_sub, ":number", 32, ":number"),
-		(val_add, ":number", "icon_map_flag_faction1"),
-		(party_set_banner_icon, "$pout_party", ":number"),
-		(try_end),
+		(call_script, "script_get_banner_icon_for_faction", ":troop_faction_no"),
+		(party_set_banner_icon, "$pout_party", reg10),
 
       (try_begin),
         #because of below two lines, lords can only hire more than one party_template(stack) at game start once a time during all game.
@@ -56842,7 +56831,7 @@ scripts = [
     (remove_troop_from_site,":liege",":scene"),
 
 (assign, "$player_faction_preset", ":orginal_faction"),
-	
+(assign, "$g_starting_town", ":capital"),
     (str_store_troop_name, s10, "trp_player"),
 
     (call_script, "script_activate_player_faction", "trp_player"),
@@ -56926,11 +56915,9 @@ scripts = [
 	(faction_get_color, ":color", ":orginal_faction"),
 	(faction_set_color, "fac_player_supporters_faction", ":color"),
 	(faction_set_color, "fac_player_faction", ":color"),
-	(store_sub, ":number", "fac_kingdom_33", ":orginal_faction"),
-	(store_sub, ":number", 32, ":number"),
-	(val_add, ":number", "icon_map_flag_faction1"),
-	(party_set_banner_icon, "p_main_party", ":number"),
-	(party_set_banner_icon, ":capital", ":number"),
+	(call_script, "script_get_banner_icon_for_faction", ":orginal_faction"),
+	(party_set_banner_icon, "p_main_party", reg10),
+	(party_set_banner_icon, ":capital", reg10),
 
 	(troop_raise_skill, "trp_player", skl_riding, 2), (troop_raise_skill, "trp_player", skl_leadership, 8),
 	(try_for_range,":slot",0,10),   
@@ -56972,6 +56959,26 @@ scripts = [
 (val_add, ":shift", ":shift2"),
 (position_move_y, pos36, ":shift", 0),
 (play_sound_at_position, ":sound", pos36),
+]),
+("get_banner_icon_for_faction",
+[
+(store_script_param, ":faction", 1),
+
+	(try_begin),
+	(is_between, ":faction", "fac_player_faction", "fac_kingdom_1"),
+		(try_begin),
+		(neq, "$player_faction_preset", -1),
+		(assign, ":faction", "$player_faction_preset"),
+		(try_end),
+	(assign, ":faction", "$player_faction_preset"),
+	(try_end),
+	(try_begin),
+	(is_between, ":faction", "fac_kingdom_1", "fac_kingdoms_end"),
+	(store_sub, ":number", "fac_kingdom_33", ":faction"),
+	(store_sub, ":number", 32, ":number"),
+	(val_add, ":number", "icon_map_flag_faction1"),
+	(assign, reg10, ":number"),
+	(try_end),
 
 ]),
 

@@ -57,6 +57,19 @@ game_menus = [
     "bg3",
     [],
     [
+      ("town_factionleader",[
+	  (neq, "$player_faction_preset", -1),
+	  (str_store_party_name, s1, "$g_starting_town"),
+	  ],"Your country's capital ({s1})",
+       [
+         (assign, "$current_town", "$g_starting_town"),
+         (assign, "$g_starting_town", "$current_town"),
+         (assign, "$g_journey_string", "str_journey_to_praven"),
+         (party_relocate_near_party, "p_main_party", "$g_starting_town", 2),
+         (change_screen_return),
+#         (party_relocate_near_party, "p_main_party", "$g_starting_town", 2),
+#         (change_screen_return),
+       ]),
       ("town_1",[(eq, "$current_startup_quest_phase", 0),],"Constantinople",
        [
          (assign, "$current_town", "p_town_19"),
