@@ -1453,6 +1453,8 @@ slot_team_company6_penaltytodiscipline_fromcasualties                       = 19
 slot_team_company7_penaltytodiscipline_fromcasualties                       = 193
 slot_team_company8_penaltytodiscipline_fromcasualties                       = 194
 
+slot_team_artllery_ammo_shells_amount                    = 195
+
 #Rebellion changes end
 # character backgrounds
 cb_noble = 1

@@ -44880,8 +44880,6 @@ scripts = [
 		(try_end),
 	(else_try),			
 		(troop_get_slot, ":faction_marshall_party", ":faction_marshall", slot_troop_leaded_party),
-(assign, reg20, ":faction_marshall_party"),
-(display_message, "@{reg20}"),
 		(neg|party_is_active, ":faction_marshall_party"),
 
 		#Not doing an offensive
@@ -52806,12 +52804,9 @@ scripts = [
 	(team_get_slot, ":penaltytodiscipline_fromfire", ":team", ":slot_team_penaltytodiscipline_fromfire"),
 	(store_add, ":slot_team_soldier_number", slot_team_company1_soldier_number, ":company"),
 	(team_get_slot, ":soldier_number", ":team", ":slot_team_soldier_number"),
-		(try_begin),
-		(lt, ":soldier_number", 10),
-		(assign, ":soldier_number", 10),
-		(try_end),
+	(val_clamp, ":soldier_number", 10, 41),
 	(val_div, ":dist", 2),
-	(store_div, ":penalty", 50000, ":dist"),
+	(store_div, ":penalty", 25000, ":dist"),
 	(val_div, ":penalty", ":soldier_number"),
 		(try_begin),
 		(agent_get_team, ":agent_team", ":agent_id"),
@@ -55867,6 +55862,25 @@ scripts = [
 			(try_end),
 		(try_end),
 	(try_end),
+
+	(try_for_agents, ":enemy_agent"),
+	(agent_is_active,":enemy_agent"),
+	(agent_is_alive,":enemy_agent"),
+	(agent_get_position, pos30, ":enemy_agent"),
+	(get_distance_between_positions, ":distance", ":pos", pos30),
+	(le, ":distance", ":doubled_range"),
+	(agent_get_team, ":team", ":enemy_agent"),
+	(agent_get_division , ":company", ":enemy_agent"),
+	(is_between, ":company", 0, 7+1),
+	(store_add, ":slot_team_penaltytodiscipline_fromfire", slot_team_company1_penaltytodiscipline_fromfire, ":company"),
+	(team_get_slot, ":penaltytodiscipline_fromfire", ":team", ":slot_team_penaltytodiscipline_fromfire"),
+	(store_add, ":slot_team_soldier_number", slot_team_company1_soldier_number, ":company"),
+	(team_get_slot, ":soldier_number", ":team", ":slot_team_soldier_number"),
+	(val_clamp, ":soldier_number", 10, 41),
+	(store_div, ":penalty", 500, ":soldier_number"),
+	(val_add, ":penaltytodiscipline_fromfire", ":penalty"),
+	(team_set_slot, ":team", ":slot_team_penaltytodiscipline_fromfire", ":penaltytodiscipline_fromfire"),
+	(try_end),
 ]),
 
 ("initialize_factions_technology_and_presets",
@@ -57003,6 +57017,22 @@ scripts = [
 		(try_end),
 	(try_end),
 ]),
+("cf_if_team_has_artillery_shells",
+[
+(store_script_param, ":CannonCannoneerOfficer", 1),
+(agent_get_team, ":TeamOfOfficer", ":CannonCannoneerOfficer"),
+(team_get_slot, ":TeamShellsAmount", ":TeamOfOfficer", slot_team_artllery_ammo_shells_amount),
+(gt, ":TeamShellsAmount", 0),
+]),
+("team_consume_artillery_shell",
+[
+(store_script_param, ":CannonCannoneerOfficer", 1),
+(agent_get_team, ":TeamOfOfficer", ":CannonCannoneerOfficer"),
+(team_get_slot, ":TeamShellsAmount", ":TeamOfOfficer", slot_team_artllery_ammo_shells_amount),
+(val_sub, ":TeamShellsAmount", 1),
+(team_set_slot, ":TeamOfOfficer", slot_team_artllery_ammo_shells_amount, ":TeamShellsAmount"),
+]),
+
 
 ]# modmerger_start version=201 type=2
 try:

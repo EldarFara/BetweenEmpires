@@ -680,5 +680,7 @@ script_set_player_kingdom_init = 678
 script_play_distant_sound_at_pos_based_on_distance = 679
 script_get_banner_icon_for_faction = 680
 script_reset_companies_accuracy = 681
+script_cf_if_team_has_artillery_shells = 682
+script_team_consume_artillery_shell = 683
 
 
