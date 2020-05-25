@@ -988,215 +988,215 @@ itemsfile version 3
  0
 0
 
- itm_blue_gambeson Blue_Gambeson Blue_Gambeson 1  blue_gambeson 0  553648141 0 270 123731968 5.000000 100 0 21 1 0 0 0 0 0 0 0 0
+ itm_blue_gambeson Blue_Gambeson Blue_Gambeson 1  disabled_item_nm 0  553648141 0 270 123731968 5.000000 100 0 21 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_red_gambeson Red_Gambeson Red_Gambeson 1  red_gambeson_a 0  553648141 0 275 123731968 5.000000 100 0 21 1 0 0 0 0 0 0 0 0
+ itm_red_gambeson Red_Gambeson Red_Gambeson 1  disabled_item_nm 0  553648141 0 275 123731968 5.000000 100 0 21 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_padded_cloth Aketon Aketon 1  padded_cloth_a 0  16777229 0 297 123731968 11.000000 100 0 22 6 0 0 0 0 0 0 0 0
+ itm_padded_cloth Aketon Aketon 1  disabled_item_nm 0  16777229 0 297 123731968 11.000000 100 0 22 6 0 0 0 0 0 0 0 0
  0
 0
 
- itm_aketon_green Padded_Cloth Padded_Cloth 1  padded_cloth_b 0  16777229 0 297 123731968 11.000000 100 0 22 6 0 0 0 0 0 0 0 0
+ itm_aketon_green Padded_Cloth Padded_Cloth 1  disabled_item_nm 0  16777229 0 297 123731968 11.000000 100 0 22 6 0 0 0 0 0 0 0 0
  0
 0
 
- itm_leather_jerkin Leather_Jerkin Leather_Jerkin 1  ragged_leather_jerkin 0  553648141 0 321 123731968 6.000000 100 0 23 6 0 0 0 0 0 0 0 0
+ itm_leather_jerkin Leather_Jerkin Leather_Jerkin 1  disabled_item_nm 0  553648141 0 321 123731968 6.000000 100 0 23 6 0 0 0 0 0 0 0 0
  0
 0
 
- itm_nomad_vest Nomad_Vest Nomad_Vest 1  nomad_vest_new 0  553648141 0 360 123731968 7.000000 50 0 22 8 0 0 0 0 0 0 0 0
+ itm_nomad_vest Nomad_Vest Nomad_Vest 1  disabled_item_nm 0  553648141 0 360 123731968 7.000000 50 0 22 8 0 0 0 0 0 0 0 0
  0
 0
 
- itm_ragged_outfit Ragged_Outfit Ragged_Outfit 1  ragged_outfit_a_new 0  553648141 0 390 123731968 7.000000 100 0 23 9 0 0 0 0 0 0 0 0
+ itm_ragged_outfit Ragged_Outfit Ragged_Outfit 1  disabled_item_nm 0  553648141 0 390 123731968 7.000000 100 0 23 9 0 0 0 0 0 0 0 0
  0
 0
 
- itm_padded_leather Padded_Leather Padded_Leather 1  leather_armor_b 0  553648141 0 454 123731968 12.000000 100 0 27 10 0 0 0 0 0 0 0 0
+ itm_padded_leather Padded_Leather Padded_Leather 1  disabled_item_nm 0  553648141 0 454 123731968 12.000000 100 0 27 10 0 0 0 0 0 0 0 0
  0
 0
 
- itm_tribal_warrior_outfit Tribal_Warrior_Outfit Tribal_Warrior_Outfit 1  tribal_warrior_outfit_a_new 0  553648141 0 520 123731968 14.000000 100 0 30 10 0 0 0 0 0 0 0 0
+ itm_tribal_warrior_outfit Tribal_Warrior_Outfit Tribal_Warrior_Outfit 1  disabled_item_nm 0  553648141 0 520 123731968 14.000000 100 0 30 10 0 0 0 0 0 0 0 0
  0
 0
 
- itm_nomad_robe Nomad_Robe Nomad_Robe 1  nomad_robe_a 0  553648141 0 610 123731968 15.000000 100 0 32 10 0 0 0 0 0 0 0 0
+ itm_nomad_robe Nomad_Robe Nomad_Robe 1  disabled_item_nm 0  553648141 0 610 123731968 15.000000 100 0 32 10 0 0 0 0 0 0 0 0
  0
 0
 
- itm_studded_leather_coat Studded_Leather_Coat Studded_Leather_Coat 1  leather_armor_a 0  16777229 0 690 704643236 14.000000 100 0 36 10 7 0 0 0 0 0 0 0
+ itm_studded_leather_coat Studded_Leather_Coat Studded_Leather_Coat 1  disabled_item_nm 0  16777229 0 690 704643236 14.000000 100 0 36 10 7 0 0 0 0 0 0 0
  0
 0
 
- itm_byrnie Byrnie Byrnie 1  byrnie_a_new 0  16777229 0 795 704643236 17.000000 100 0 39 6 7 0 0 0 0 0 0 0
+ itm_byrnie Byrnie Byrnie 1  disabled_item_nm 0  16777229 0 795 704643236 17.000000 100 0 39 6 7 0 0 0 0 0 0 0
  0
 0
 
- itm_haubergeon Haubergeon Haubergeon 1  haubergeon_c 0  16777229 0 863 704643236 18.000000 100 0 41 6 6 0 0 0 0 0 0 0
+ itm_haubergeon Haubergeon Haubergeon 1  disabled_item_nm 0  16777229 0 863 704643236 18.000000 100 0 41 6 6 0 0 0 0 0 0 0
  0
 0
 
- itm_lamellar_vest Lamellar_Vest Lamellar_Vest 1  lamellar_vest_a 0  553648141 0 970 123731968 18.000000 100 0 40 8 7 0 0 0 0 0 0 0
+ itm_lamellar_vest Lamellar_Vest Lamellar_Vest 1  disabled_item_nm 0  553648141 0 970 123731968 18.000000 100 0 40 8 7 0 0 0 0 0 0 0
  0
 0
 
- itm_lamellar_vest_khergit Khergit_Lamellar_Vest Khergit_Lamellar_Vest 1  lamellar_vest_b 0  553648141 0 970 123731968 18.000000 100 0 40 8 7 0 0 0 0 0 0 0
+ itm_lamellar_vest_khergit Khergit_Lamellar_Vest Khergit_Lamellar_Vest 1  disabled_item_nm 0  553648141 0 970 123731968 18.000000 100 0 40 8 7 0 0 0 0 0 0 0
  0
 0
 
- itm_mail_shirt Mail_Shirt Mail_Shirt 1  mail_shirt_a 0  16777229 0 1040 704643236 19.000000 100 0 37 12 7 0 0 0 0 0 0 0
+ itm_mail_shirt Mail_Shirt Mail_Shirt 1  disabled_item_nm 0  16777229 0 1040 704643236 19.000000 100 0 37 12 7 0 0 0 0 0 0 0
  0
 0
 
- itm_mail_hauberk Mail_Hauberk Mail_Hauberk 1  hauberk_a_new 0  16777229 0 1320 704643236 19.000000 100 0 40 12 7 0 0 0 0 0 0 0
+ itm_mail_hauberk Mail_Hauberk Mail_Hauberk 1  disabled_item_nm 0  16777229 0 1320 704643236 19.000000 100 0 40 12 7 0 0 0 0 0 0 0
  0
 0
 
- itm_mail_with_surcoat Mail_with_Surcoat Mail_with_Surcoat 1  mail_long_surcoat_new 0  16777229 0 1544 704643236 22.000000 100 0 42 14 7 0 0 0 0 0 0 0
+ itm_mail_with_surcoat Mail_with_Surcoat Mail_with_Surcoat 1  disabled_item_nm 0  16777229 0 1544 704643236 22.000000 100 0 42 14 7 0 0 0 0 0 0 0
  0
 0
 
- itm_surcoat_over_mail Surcoat_over_Mail Surcoat_over_Mail 1  surcoat_over_mail_new 0  16777229 0 1720 704643236 22.000000 100 0 43 14 7 0 0 0 0 0 0 0
+ itm_surcoat_over_mail Surcoat_over_Mail Surcoat_over_Mail 1  disabled_item_nm 0  16777229 0 1720 704643236 22.000000 100 0 43 14 7 0 0 0 0 0 0 0
  0
 0
 
- itm_brigandine_red Brigandine Brigandine 1  brigandine_b 0  16777229 0 1830 704643236 19.000000 100 0 46 12 0 0 0 0 0 0 0 0
+ itm_brigandine_red Brigandine Brigandine 1  disabled_item_nm 0  16777229 0 1830 704643236 19.000000 100 0 46 12 0 0 0 0 0 0 0 0
  0
 0
 
- itm_lamellar_armor Lamellar_Armor Lamellar_Armor 1  lamellar_armor_b 0  16777229 0 2410 704643236 25.000000 100 0 48 13 0 0 0 0 0 0 0 0
+ itm_lamellar_armor Lamellar_Armor Lamellar_Armor 1  disabled_item_nm 0  16777229 0 2410 704643236 25.000000 100 0 48 13 0 0 0 0 0 0 0 0
  0
 0
 
- itm_scale_armor Scale_Armor Scale_Armor 1  lamellar_armor_e 0  16777229 0 2558 704643236 25.000000 100 0 52 13 8 0 0 0 0 0 0 0
+ itm_scale_armor Scale_Armor Scale_Armor 1  disabled_item_nm 0  16777229 0 2558 704643236 25.000000 100 0 52 13 8 0 0 0 0 0 0 0
  0
 0
 
- itm_banded_armor Banded_Armor Banded_Armor 1  banded_armor_a 0  16777229 0 2710 704643236 23.000000 100 0 49 14 8 0 0 0 0 0 0 0
+ itm_banded_armor Banded_Armor Banded_Armor 1  disabled_item_nm 0  16777229 0 2710 704643236 23.000000 100 0 49 14 8 0 0 0 0 0 0 0
  0
 0
 
- itm_cuir_bouilli Cuir_Bouilli Cuir_Bouilli 1  cuir_bouilli_a 0  16777229 0 3100 704643236 24.000000 100 0 50 15 8 0 0 0 0 0 0 0
+ itm_cuir_bouilli Cuir_Bouilli Cuir_Bouilli 1  disabled_item_nm 0  16777229 0 3100 704643236 24.000000 100 0 50 15 8 0 0 0 0 0 0 0
  0
 0
 
- itm_coat_of_plates Coat_of_Plates Coat_of_Plates 1  coat_of_plates_a 0  16777229 0 3828 704643236 25.000000 100 0 52 16 8 0 0 0 0 0 0 0
+ itm_coat_of_plates Coat_of_Plates Coat_of_Plates 1  disabled_item_nm 0  16777229 0 3828 704643236 25.000000 100 0 52 16 8 0 0 0 0 0 0 0
  0
 0
 
- itm_coat_of_plates_red Coat_of_Plates Coat_of_Plates 1  coat_of_plates_red 0  16777229 0 3828 704643236 25.000000 100 0 52 16 8 0 0 0 0 0 0 0
+ itm_coat_of_plates_red Coat_of_Plates Coat_of_Plates 1  disabled_item_nm 0  16777229 0 3828 704643236 25.000000 100 0 52 16 8 0 0 0 0 0 0 0
  0
 0
 
- itm_plate_armor Plate_Armor Plate_Armor 1  full_plate_armor 0  16777229 0 6553 704643238 27.000000 100 0 55 17 9 0 0 0 0 0 0 0
+ itm_plate_armor Plate_Armor Plate_Armor 1  disabled_item_nm 0  16777229 0 6553 704643238 27.000000 100 0 55 17 9 0 0 0 0 0 0 0
  0
 0
 
- itm_black_armor Black_Armor Black_Armor 1  black_armor 0  16777229 0 9496 704643238 28.000000 100 0 57 18 10 0 0 0 0 0 0 0
+ itm_black_armor Black_Armor Black_Armor 1  disabled_item_nm 0  16777229 0 9496 704643238 28.000000 100 0 57 18 10 0 0 0 0 0 0 0
  0
 0
 
- itm_pelt_coat Pelt_Coat Pelt_Coat 1  thick_coat_a 0  16777229 0 14 123731968 2.000000 100 0 9 1 0 0 0 0 0 0 0 0
+ itm_pelt_coat Pelt_Coat Pelt_Coat 1  disabled_item_nm 0  16777229 0 14 123731968 2.000000 100 0 9 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_khergit_elite_armor Khergit_Elite_Armor Khergit_Elite_Armor 1  lamellar_armor_d 0  16777229 0 3828 704643236 25.000000 100 0 52 16 8 0 0 0 0 0 0 0
+ itm_khergit_elite_armor Khergit_Elite_Armor Khergit_Elite_Armor 1  disabled_item_nm 0  16777229 0 3828 704643236 25.000000 100 0 52 16 8 0 0 0 0 0 0 0
  0
 0
 
- itm_vaegir_elite_armor Vaegir_Elite_Armor Vaegir_Elite_Armor 1  lamellar_armor_c 0  16777229 0 3828 704643236 25.000000 100 0 52 16 8 0 0 0 0 0 0 0
+ itm_vaegir_elite_armor Vaegir_Elite_Armor Vaegir_Elite_Armor 1  disabled_item_nm 0  16777229 0 3828 704643236 25.000000 100 0 52 16 8 0 0 0 0 0 0 0
  0
 0
 
- itm_sarranid_elite_armor Sarranid_Elite_Armor Sarranid_Elite_Armor 1  tunic_armor_a 0  553648141 0 3828 704643236 25.000000 100 0 52 16 8 0 0 0 0 0 0 0
+ itm_sarranid_elite_armor Sarranid_Elite_Armor Sarranid_Elite_Armor 1  disabled_item_nm 0  553648141 0 3828 704643236 25.000000 100 0 52 16 8 0 0 0 0 0 0 0
  0
 0
 
- itm_sarranid_dress_a Dress Dress 1  woolen_dress 0  16777229 0 33 123731968 1.000000 100 0 9 9 0 0 0 0 0 0 0 0
+ itm_sarranid_dress_a Dress Dress 1  disabled_item_nm 0  16777229 0 33 123731968 1.000000 100 0 9 9 0 0 0 0 0 0 0 0
  0
 0
 
- itm_sarranid_dress_b Dress Dress 1  woolen_dress 0  16777229 0 33 123731968 1.000000 100 0 9 9 0 0 0 0 0 0 0 0
+ itm_sarranid_dress_b Dress Dress 1  disabled_item_nm 0  16777229 0 33 123731968 1.000000 100 0 9 9 0 0 0 0 0 0 0 0
  0
 0
 
- itm_sarranid_cloth_robe Worn_Robe Worn_Robe 1  sar_robe 0  16777229 0 33 123731968 1.000000 100 0 9 9 0 0 0 0 0 0 0 0
+ itm_sarranid_cloth_robe Worn_Robe Worn_Robe 1  disabled_item_nm 0  16777229 0 33 123731968 1.000000 100 0 9 9 0 0 0 0 0 0 0 0
  0
 0
 
- itm_sarranid_cloth_robe_b Worn_Robe Worn_Robe 1  sar_robe_b 0  16777229 0 33 123731968 1.000000 100 0 9 9 0 0 0 0 0 0 0 0
+ itm_sarranid_cloth_robe_b Worn_Robe Worn_Robe 1  disabled_item_nm 0  16777229 0 33 123731968 1.000000 100 0 9 9 0 0 0 0 0 0 0 0
  0
 0
 
- itm_skirmisher_armor Skirmisher_Armor Skirmisher_Armor 1  skirmisher_armor 0  16777229 0 74 123731968 3.000000 100 0 2 9 0 0 0 0 0 0 0 0
+ itm_skirmisher_armor Skirmisher_Armor Skirmisher_Armor 1  disabled_item_nm 0  16777229 0 74 123731968 3.000000 100 0 2 9 0 0 0 0 0 0 0 0
  0
 0
 
- itm_archers_vest Archer's_Padded_Vest Archer's_Padded_Vest 1  archers_vest 0  16777229 0 260 123731968 6.000000 100 0 23 12 0 0 0 0 0 0 0 0
+ itm_archers_vest Archer's_Padded_Vest Archer's_Padded_Vest 1  disabled_item_nm 0  16777229 0 260 123731968 6.000000 100 0 23 12 0 0 0 0 0 0 0 0
  0
 0
 
- itm_sarranid_leather_armor Sarranid_Leather_Armor Sarranid_Leather_Armor 1  sarranid_leather_armor 0  16777229 0 650 704643236 9.000000 100 0 32 12 0 0 0 0 0 0 0 0
+ itm_sarranid_leather_armor Sarranid_Leather_Armor Sarranid_Leather_Armor 1  disabled_item_nm 0  16777229 0 650 704643236 9.000000 100 0 32 12 0 0 0 0 0 0 0 0
  0
 0
 
- itm_sarranid_cavalry_robe Cavalry_Robe Cavalry_Robe 1  arabian_armor_a 0  553648141 0 990 704643236 15.000000 100 0 36 8 0 0 0 0 0 0 0 0
+ itm_sarranid_cavalry_robe Cavalry_Robe Cavalry_Robe 1  disabled_item_nm 0  553648141 0 990 704643236 15.000000 100 0 36 8 0 0 0 0 0 0 0 0
  0
 0
 
- itm_arabian_armor_b Sarranid_Guard_Armor Sarranid_Guard_Armor 1  arabian_armor_b 0  16777229 0 1200 704643236 19.000000 100 0 38 8 0 0 0 0 0 0 0 0
+ itm_arabian_armor_b Sarranid_Guard_Armor Sarranid_Guard_Armor 1  disabled_item_nm 0  16777229 0 1200 704643236 19.000000 100 0 38 8 0 0 0 0 0 0 0 0
  0
 0
 
- itm_sarranid_mail_shirt Sarranid_Mail_Shirt Sarranid_Mail_Shirt 1  sarranian_mail_shirt 0  553648141 0 1400 704643236 19.000000 100 0 40 14 7 0 0 0 0 0 0 0
+ itm_sarranid_mail_shirt Sarranid_Mail_Shirt Sarranid_Mail_Shirt 1  disabled_item_nm 0  553648141 0 1400 704643236 19.000000 100 0 40 14 7 0 0 0 0 0 0 0
  0
 0
 
- itm_mamluke_mail Mamluke_Mail Mamluke_Mail 1  sarranid_elite_cavalary 0  553648141 0 2900 704643236 24.000000 100 0 48 16 8 0 0 0 0 0 0 0
+ itm_mamluke_mail Mamluke_Mail Mamluke_Mail 1  disabled_item_nm 0  553648141 0 2900 704643236 24.000000 100 0 48 16 8 0 0 0 0 0 0 0
  0
 0
 
- itm_burlap_tunic Burlap_Tunic Burlap_Tunic 1  shirt 0  16777229 0 5 704643236 1.000000 100 0 3 1 0 0 0 0 0 0 0 0
+ itm_burlap_tunic Burlap_Tunic Burlap_Tunic 1  disabled_item_nm 0  16777229 0 5 704643236 1.000000 100 0 3 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_heraldic_mail_with_surcoat Heraldic_Mail_with_Surcoat Heraldic_Mail_with_Surcoat 1  heraldic_armor_new_a 0  16777229 0 3454 704643236 22.000000 100 0 49 17 7 0 0 0 0 0 0 0
+ itm_heraldic_mail_with_surcoat Heraldic_Mail_with_Surcoat Heraldic_Mail_with_Surcoat 1  disabled_item_nm 0  16777229 0 3454 704643236 22.000000 100 0 49 17 7 0 0 0 0 0 0 0
  0
 1
 -50.000000  3 2071 1 1224979098644774912 2072 1 1224979098644774913 1 4 936748722493063579 1729382256910270485 1224979098644774912 1224979098644774913 
 
- itm_heraldic_mail_with_tunic Heraldic_Mail Heraldic_Mail 1  heraldic_armor_new_b 0  16777229 0 3520 704643236 22.000000 100 0 50 16 7 0 0 0 0 0 0 0
+ itm_heraldic_mail_with_tunic Heraldic_Mail Heraldic_Mail 1  disabled_item_nm 0  16777229 0 3520 704643236 22.000000 100 0 50 16 7 0 0 0 0 0 0 0
  0
 1
 -50.000000  3 2071 1 1224979098644774912 2072 1 1224979098644774913 1 4 936748722493063579 1729382256910270486 1224979098644774912 1224979098644774913 
 
- itm_heraldic_mail_with_tunic_b Heraldic_Mail Heraldic_Mail 1  heraldic_armor_new_c 0  16777229 0 3610 704643236 22.000000 100 0 50 16 7 0 0 0 0 0 0 0
+ itm_heraldic_mail_with_tunic_b Heraldic_Mail Heraldic_Mail 1  disabled_item_nm 0  16777229 0 3610 704643236 22.000000 100 0 50 16 7 0 0 0 0 0 0 0
  0
 1
 -50.000000  3 2071 1 1224979098644774912 2072 1 1224979098644774913 1 4 936748722493063579 1729382256910270487 1224979098644774912 1224979098644774913 
 
- itm_heraldic_mail_with_tabard Heraldic_Mail_with_Tabard Heraldic_Mail_with_Tabard 1  heraldic_armor_new_d 0  16777229 0 3654 704643236 21.000000 100 0 51 15 7 0 0 0 0 0 0 0
+ itm_heraldic_mail_with_tabard Heraldic_Mail_with_Tabard Heraldic_Mail_with_Tabard 1  disabled_item_nm 0  16777229 0 3654 704643236 21.000000 100 0 51 15 7 0 0 0 0 0 0 0
  0
 1
 -50.000000  3 2071 1 1224979098644774912 2072 1 1224979098644774913 1 4 936748722493063579 1729382256910270488 1224979098644774912 1224979098644774913 
 
- itm_turret_hat_ruby Turret_Hat Turret_Hat 1  turret_hat_r 0  1610612748 0 70 123731968 0.500000 100 8 0 0 0 0 0 0 0 0 0 0
+ itm_turret_hat_ruby Turret_Hat Turret_Hat 1  disabled_item_nm 0  1610612748 0 70 123731968 0.500000 100 8 0 0 0 0 0 0 0 0 0 0
  0
 0
 
- itm_turret_hat_blue Turret_Hat Turret_Hat 1  turret_hat_b 0  1610612748 0 80 123731968 0.500000 100 8 0 0 0 0 0 0 0 0 0 0
+ itm_turret_hat_blue Turret_Hat Turret_Hat 1  disabled_item_nm 0  1610612748 0 80 123731968 0.500000 100 8 0 0 0 0 0 0 0 0 0 0
  0
 0
 
- itm_turret_hat_green Barbette Barbette 1  barbette_new 0  1610612748 0 70 123731968 0.500000 100 6 0 0 0 0 0 0 0 0 0 0
+ itm_turret_hat_green Barbette Barbette 1  disabled_item_nm 0  1610612748 0 70 123731968 0.500000 100 6 0 0 0 0 0 0 0 0 0 0
  0
 0
 
- itm_head_wrappings Head_Wrapping Head_Wrapping 1  head_wrapping 0  1073741836 0 16 56623104 0.250000 100 3 0 0 0 0 0 0 0 0 0 0
+ itm_head_wrappings Head_Wrapping Head_Wrapping 1  disabled_item_nm 0  1073741836 0 16 56623104 0.250000 100 3 0 0 0 0 0 0 0 0 0 0
  0
 0
 

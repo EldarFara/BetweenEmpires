@@ -15368,14 +15368,14 @@ scripts = [
       (store_script_param_1, ":party_no"),
 
       #default limit is 30 for any party
-      (assign, ":limit", 30),
+	(assign, ":limit", 30),
+	(assign, ":limit_bonus", 100),
       
       (try_begin),
         (party_slot_eq, ":party_no", slot_party_type, spt_kingdom_hero_party),
         (party_stack_get_troop_id, ":party_leader", ":party_no", 0),
         (store_faction_of_party, ":faction_id", ":party_no"),
 
-	(assign, ":limit_bonus", 100),
 	(try_begin),
 	(call_script, "script_cf_if_party_faction_invented_technology", ":party_no", slot_faction_technology_conscription), (val_add, ":limit_bonus", 15),
 	(try_end),
@@ -44880,6 +44880,8 @@ scripts = [
 		(try_end),
 	(else_try),			
 		(troop_get_slot, ":faction_marshall_party", ":faction_marshall", slot_troop_leaded_party),
+(assign, reg20, ":faction_marshall_party"),
+(display_message, "@{reg20}"),
 		(neg|party_is_active, ":faction_marshall_party"),
 
 		#Not doing an offensive
@@ -56837,7 +56839,7 @@ scripts = [
     (call_script, "script_activate_player_faction", "trp_player"),
     (call_script, "script_give_center_to_faction_aux", ":capital", "fac_player_supporters_faction"),
     (call_script, "script_give_center_to_lord", ":capital", "trp_player", 1),
-    (troop_set_slot, "trp_player", slot_troop_leaded_party, 1),
+    (troop_set_slot, "trp_player", slot_troop_leaded_party, "p_main_party"),
     (troop_set_slot, "trp_player", slot_troop_cur_center, ":capital"),
     (troop_set_slot, "trp_player", slot_troop_home, ":capital"),
 
@@ -56872,7 +56874,18 @@ scripts = [
             (store_random_in_range,":new_relation",0,35),
             (call_script, "script_troop_change_relation_with_troop", "trp_player", ":npc", ":new_relation"),
         (try_end),  
-    
+
+# marshall appointment
+(faction_get_slot, ":old_marshall", ":orginal_faction", slot_faction_marshall),
+	(try_begin),
+	(ge, ":old_marshall", 0),
+	(troop_get_slot, ":old_marshall_party", ":old_marshall", slot_troop_leaded_party),
+	(party_is_active, ":old_marshall_party"),
+	(party_set_marshall, ":old_marshall_party", 0),
+	(try_end),  
+(faction_set_slot, "fac_player_faction", slot_faction_ai_state, sfai_default),
+(assign, "$g_recalculate_ais", 1),
+	
         (try_for_range,":npc_lady",kingdom_ladies_begin,kingdom_ladies_end),   
             (store_faction_of_troop, ":lady_faction", ":npc_lady"),
             (eq, ":lady_faction", ":orginal_faction"),
@@ -56940,7 +56953,7 @@ scripts = [
 (faction_get_slot, ":tier_1_troop", ":orginal_faction", slot_faction_tier_1_troop), (faction_get_slot, ":tier_2_troop", ":orginal_faction", slot_faction_tier_2_troop),
 (party_add_members, "p_main_party", ":tier_1_troop", 20), (party_add_members, "p_main_party", ":tier_2_troop", 30),
 (troop_add_gold, "trp_player", 10000),
-(add_xp_to_troop, 5000),
+(add_xp_to_troop, 8000),
     (set_show_messages, 1),
     ]),
 ("play_distant_sound_at_pos_based_on_distance",

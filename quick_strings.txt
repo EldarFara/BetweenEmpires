@@ -1,4 +1,4 @@
-914
+915
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
 qstr_Game_Rules:^ Game_Rules:^
@@ -475,6 +475,7 @@ qstr_{!}DEBUG____Vassal_r {!}DEBUG_--_Vassal_response_rate:_{reg4}
 qstr_{!}DEBUG___{s4}_s_fe {!}DEBUG_-_{s4}'s_feast_has_rating_of_{reg4}
 qstr_{!}_DEBUG___{s4}_fac {!}_DEBUG_-_{s4}_faction_change_in_marriage_case_5
 qstr_{!}DEBUG___{s4}_faction_ch {!}DEBUG_-_{s4}_faction_changed_by_marriage,_case_6
+qstr_{reg20} {reg20}
 qstr_{!}DEBUG___{s4}_stro {!}DEBUG_-_{s4}_strongest_kingdom_with_{reg3}_strength
 qstr_{!}Actor_centers_hel {!}Actor_centers_held_by_target_noted
 qstr_{!}War_damage_under_ {!}War_damage_under_minimum

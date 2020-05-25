@@ -38,29 +38,6 @@ from module_postfx import *
 pilgrim_disguise = [itm_pilgrim_hood,itm_pilgrim_disguise,itm_practice_staff, itm_throwing_daggers]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
-# pbs_reload_accerelation = (
-# 0.01, 0, 0, [],
-# [
-	# (try_for_agents, ":agent"),
-	# (agent_is_active, ":agent"),
-	# (agent_is_alive, ":agent"),
-	# (agent_is_human, ":agent"),
-	# (agent_get_animation, ":anim", ":agent", 1),
-	# (this_or_next|eq, ":anim", "anim_reload_crossbow"),
-	# (this_or_next|eq, ":anim", "anim_reload_pistol"),
-	# (eq, ":anim", "anim_reload_musket"),
-	# (agent_get_slot, ":progress", ":agent", slot_agent_reloading_animation_acceleration_progress),
-	# (val_add, ":progress", 3),
-	# (val_clamp, ":progress", 0, 100+1),
-	# (set_fixed_point_multiplier, 1),
-	# (agent_set_slot, ":agent",  slot_agent_reloading_animation_acceleration_progress, ":progress"),
-	# (eq, ":progress", 100),
-# (display_message, "@1"),
-	# (agent_get_wielded_item, ":weapon", ":agent", 0),
-	#(agent_set_ammo, ":agent", <item_id>, <value>),
-	# (try_end),
-# ])
-
 pai_bandits_spawn = (
 ti_on_agent_spawn, 0, 0, [],
 [
@@ -4025,7 +4002,6 @@ lemat_canister_shot,
 pts_surviving_bonus,
 rifle_damage_model,
 pai_bandits_spawn,
-#pbs_reload_accerelation,
 test,
   ]	
 
