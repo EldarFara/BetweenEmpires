@@ -52847,6 +52847,7 @@ scripts = [
 	(try_end),
        
 	(try_begin), # Pepperbox
+	(this_or_next|eq,":item_id", "itm_sidearm_pepperbox1"), 
 	(eq,":item_id", "itm_sidearm_pepperbox2"), 
 	(assign, ":sound_id", "snd_shot_pistol2"),
 	(assign, ":smoke_size", 6),
