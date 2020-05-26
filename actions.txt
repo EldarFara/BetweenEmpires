@@ -1100,9 +1100,9 @@
  fanning 2097152 603996172  1
   0.300000 fanning 0 20 9 0 0.0 0.0 0.0 0.0 
  fanning_sa 2097152 570441740  1
-  0.800000 fanning_sa 24 41 9 0 0.0 0.0 0.0 0.0 
- pistol_stand3 0 50331650  1
-  6.000000 pistol_stand3 0 100 1342177297 0 0.000000 0.000000 0.000000  0.000000 
+  0.800000 fanning_sa 0 17 9 0 0.0 0.0 0.0 0.0 
+ unused_human_anim_77 0 0  1
+  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
  unused_human_anim_78 0 0  1
   1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
  unused_human_anim_79 0 0  1
