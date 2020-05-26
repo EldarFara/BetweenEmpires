@@ -5495,7 +5495,7 @@ game_menus = [
            ],
        "Besiege the {reg6?town:castle}.",
        [
-(music_set_situation, mtf_situation_siege_attacker),
+(music_set_situation, mtf_situation_siege_attacker_preparing),
          (assign,"$g_player_besiege_town","$g_encountered_party"),
          (store_relation, ":relation", "fac_player_supporters_faction", "$g_encountered_party_faction"),
          (val_min, ":relation", -40),

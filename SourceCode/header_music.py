@@ -50,8 +50,9 @@ mtf_situation_victory_heavy = mtf_sit_siege
 mtf_situation_headquarters = mtf_sit_killed
 mtf_situation_silence = mtf_sit_travel
 mtf_situation_prebattle = mtf_sit_arena
-mtf_situation_siege_attacker = mtf_sit_night
+mtf_situation_siege_attacker_preparing = mtf_sit_night
 mtf_situation_game_start = mtf_sit_fight
+mtf_situation_siege_assault = mtf_sit_feast
 
 mtf_culture_westeurope = mtf_culture_1
 mtf_culture_easteurope = mtf_culture_2

@@ -1,4 +1,4 @@
-910
+914
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
 qstr_Game_Rules:^ Game_Rules:^
@@ -106,6 +106,7 @@ qstr_5._{s1} 5._{s1}
 qstr_6._{s1} 6._{s1}
 qstr_7._{s1} 7._{s1}
 qstr_8._{s1} 8._{s1}
+qstr_Form_Square^^Selecte Form_Square^^Selected_companies_(not_more_than_two)^will_form_a_square_formation._It_is_effective_in_melee^fighting,_especially_against_cavalry,_but_vulnarable^to_an_enemy_fire._To_selected_companies_be_able_to^form_square,_they_need_to_have_at_least_25_soldiers^in_total.^Company_types:_Line_infantry,_Guard.
 qstr_{reg0}% {reg0}%
 qstr_{reg0}_c. {reg0}_c.
 qstr_Others Others
@@ -540,10 +541,11 @@ qstr_cloud3 cloud3
 qstr_cloud4 cloud4
 qstr_cloud5 cloud5
 qstr_sunset sunset
-qstr_evening evening
 qstr_clouds1 clouds1
 qstr_clouds2 clouds2
 qstr_clouds3 clouds3
+qstr_clouds4 clouds4
+qstr_evening evening
 qstr_night night
 qstr_dusk dusk
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_running.
@@ -558,6 +560,8 @@ qstr_6th_{s1} 6th_{s1}
 qstr_7th_{s1} 7th_{s1}
 qstr_8th_{s1} 8th_{s1}
 qstr_PAI_RETREAT PAI_RETREAT
+qstr_notrifled notrifled
+qstr_rifled rifled
 qstr_You_got_keys_of_dung You_got_keys_of_dungeon.
 qstr_You_must_stay_behind You_must_stay_behind_the_line_on_the_ground!_Point_is_not_counted.
 qstr_Tutorial Tutorial

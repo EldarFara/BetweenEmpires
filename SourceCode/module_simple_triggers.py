@@ -4271,6 +4271,7 @@ simple_triggers = [
    ## ZZ Custom Kingdom Troops begin
     (0,
     [
+    (assign,"$g_battle_type", battle_type_nobattle),
       (map_free),
       (troop_get_inventory_slot, ":item", "trp_kingdom_inventory", 10),
       (eq,":item","itm_velvet"),

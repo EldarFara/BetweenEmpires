@@ -8,6 +8,13 @@ from ID_factions import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+battle_type_nobattle		= 0
+battle_type_fieldbattle 	= 1
+battle_type_siege			= 2
+
+army_drill_level_good = 0
+army_drill_level_bad = 1
+
 faction_technologies_number = 19
 faction_technology_preset_year = faction_technologies_number
 
@@ -454,6 +461,7 @@ slot_faction_technology_woundedevacuation		 = slot_faction_ve_mod_slots_begin + 
 slot_faction_technology_riflesrifled			 = slot_faction_ve_mod_slots_begin + 24
 # 25 - 43 are occupied with presets
 slot_faction_current_research_technology		 = slot_faction_ve_mod_slots_begin + 44
+slot_faction_army_drill_level					 = slot_faction_ve_mod_slots_begin + 45
 
 #revolts -- notes for self
 #type 1 -- minor revolt, aimed at negotiating change without changing the ruler

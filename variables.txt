@@ -1223,7 +1223,7 @@ voices
 g_player_team
 g_allies_team
 ignore_script_game_missile_launch
-g_pai_battle_is_siege
+g_battle_type
 g_ccoop_disallow_horses
 g_presentation_obj_coop_companion_0
 g_presentation_obj_coop_companion_1
@@ -1343,6 +1343,7 @@ menu_pbs_company8_soldiers_number
 menu_pbs_company8_discipline
 menu_pbs_company8_energy
 menu_pbs_company8_accuracy
+menu_pbs_activeability_square
 g_presentation_obj_1
 g_presentation_obj_2
 g_cur_slot_no
