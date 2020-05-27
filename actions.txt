@@ -1042,8 +1042,8 @@
   1.000000 lever_action_shot 0 4 67108866 0 0.0 0.0 0.0 0.0 
  unused_human_anim_47 1678771200 570437696  1
   1.800000 spencer_shot 0 7 67108866 0 0.0 0.0 0.0 0.0 
- unused_human_anim_48 1678771200 570437696  1
-  1.600000 bolt_shot 0 38 67108866 0 0.0 0.0 0.0 0.0 
+ bolt_action_shot 1678771200 570437696  1
+  1.600000 bolt_shot 4 38 67108866 0 0.0 0.0 0.0 0.0 
  Yuri_CannonRopePulling_Left 256 51380305  1
   2.000000 Yuri_CannonRopePulling_Left 0 32 805306624 58726 0.000000 0.000000 0.000000  0.400000 
  Yuri_CannonRopePulling_Right 256 51380305  1
@@ -1097,10 +1097,10 @@
   2.000000 Yuri_CannonCartridgeInsertingBreech 0 1 1 0 0.0 0.0 0.0 0.0 
  Yuri_CannonBarrelCleaningBreech 256 50331729  1
   4.000000 Yuri_CannonBarrelCleaningBreech 1 17 1 0 0.0 0.0 0.0 0.0 
- fanning 2097152 603996172  1
-  0.300000 fanning 0 20 9 0 0.0 0.0 0.0 0.0 
- fanning_sa 2097152 570441740  1
-  0.800000 fanning_sa 0 17 9 0 0.0 0.0 0.0 0.0 
+ fanning 2097152 738213900  1
+  0.200000 fanning 0 3 9 0 0.0 0.0 0.0 0.0 
+ fanning_sa 2097152 738213900  1
+  0.600000 fanning_sa 0 17 9 0 0.0 0.0 0.0 0.0 
  unused_human_anim_77 0 0  1
   1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
  unused_human_anim_78 0 0  1

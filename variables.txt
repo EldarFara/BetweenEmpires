@@ -1223,6 +1223,7 @@ voices
 g_player_team
 g_allies_team
 ignore_script_game_missile_launch
+player_fanning_timer
 g_battle_type
 g_ccoop_disallow_horses
 g_presentation_obj_coop_companion_0

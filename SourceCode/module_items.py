@@ -42,8 +42,8 @@ accuracy_conversion_rifle = 95
 accuracy_muzzleloaded_rifle = 95
 accuracy_muzzleloaded_musket = 65
 
-speed_bolt_action_rifle = 55
-speed_small_caliber_rifle = 60
+speed_bolt_action_rifle = 47
+speed_small_caliber_rifle = 52
 speed_conversion_rifle = 45
 speed_muzzleloaded_rifle = 55
 speed_muzzleloaded_musket = 55
@@ -59,7 +59,7 @@ shot_speed_rifle = 600
 shot_speed_musket = 400
 
 accuracy_carbine_modifier = 0.85
-speed_carbine_modifier = 1.3
+speed_carbine_modifier = 1.15
 
 accuracy_pistol_medium = 90
 accuracy_pistol_verylow = accuracy_pistol_medium - 8
@@ -1861,9 +1861,9 @@ items = [
 ["rifle_german_dreyse_m","Dreyse Needle Rifle", [("dreyse", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary|itp_cant_use_on_horseback, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(120)|thrust_damage(30, pierce)|swing_damage(30, pierce), imodbits_none, []],
 ["rifle_german_dreyse_carbine","Dreyse Needle Carbine", [("dreyse_carbine", 0),("dreyse_carbine_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(60)|accuracy(int(accuracy_conversion_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_conversion_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_rifle)|max_ammo(1)|thrust_damage(damage_rifle, pierce), imodbits_firearm, []],
 ["rifle_german_dreyse_carbine_m","Dreyse Needle Carbine", [("dreyse_carbine", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(20, blunt)|swing_damage(0, blunt), imodbits_none, []],
-["rifle_german_m1871","Mauser M1871 Rifle", [("mauser1871", 0),("mauser_m1871_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(60)|accuracy(accuracy_small_caliber_rifle)|spd_rtng(speed_small_caliber_rifle)|shoot_speed(shot_speed_small_caliber_rifle)|max_ammo(1)|thrust_damage(damage_rifle, pierce), imodbits_firearm, []],
+["rifle_german_m1871","Mauser M1871 Rifle", [("mauser1871", 0),("mauser1871_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(60)|accuracy(accuracy_small_caliber_rifle)|spd_rtng(speed_small_caliber_rifle)|shoot_speed(shot_speed_small_caliber_rifle)|max_ammo(1)|thrust_damage(damage_rifle, pierce), imodbits_firearm, []],
 ["rifle_german_m1871_m","Mauser M1871 Rifle", [("mauser1871", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary|itp_cant_use_on_horseback, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(120)|thrust_damage(30, pierce)|swing_damage(30, pierce), imodbits_none, []],
-["rifle_german_m1871_carbine","Mauser M1871 Carbine", [("mauser1871_carbine", 0),("mauser_m1871_carbine_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(60)|accuracy(int(accuracy_small_caliber_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_small_caliber_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_small_caliber_rifle)|max_ammo(1)|thrust_damage(damage_rifle, pierce), imodbits_firearm, []],
+["rifle_german_m1871_carbine","Mauser M1871 Carbine", [("mauser1871_carbine", 0),("mauser1871_carbine_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(60)|accuracy(int(accuracy_small_caliber_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_small_caliber_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_small_caliber_rifle)|max_ammo(1)|thrust_damage(damage_rifle, pierce), imodbits_firearm, []],
 ["rifle_german_m1871_carbine_m","Mauser M1871 Carbine", [("mauser1871_carbine", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(20, blunt)|swing_damage(0, blunt), imodbits_none, []],
 ["rifle_german_m1888","Gewehr M1888 Rifle", [("gewehr88", 0),("gewehr88_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(60)|accuracy(accuracy_bolt_action_rifle)|spd_rtng(speed_bolt_action_rifle)|shoot_speed(shot_speed_bolt_action_rifle)|max_ammo(5)|thrust_damage(damage_bolt_action_rifle, pierce), imodbits_firearm, []],
 ["rifle_german_m1888_m","Gewehr M1888 Rifle", [("gewehr88", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary|itp_cant_use_on_horseback, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(120)|thrust_damage(30, pierce)|swing_damage(30, pierce), imodbits_none, []],

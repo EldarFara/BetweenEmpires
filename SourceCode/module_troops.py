@@ -266,7 +266,7 @@ tf_guarantee_all_wo_ranged = tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_
 
 
 troops = [
-  ["player", "Player", "Player", tf_hero|tf_unmoveable_in_party_window, 0, 0, fac_player_faction,
+  ["player", "Player", "Player", tf_hero|knows_horse_archery_5|tf_unmoveable_in_party_window, 0, 0, fac_player_faction,
   [],
   str_4|agi_4|int_4|cha_4|level(0), wp(15), 0,0x000000018000000136db6db6db6db6db00000000001db6db0000000000000000, 0x0000000000000000000000000000000000000000000000000000000000000000],
   ["multiplayer_profile_troop_male", "multiplayer profile troop male", "multiplayer profile troop male", tf_guarantee_all|tf_hero, 0, 0, fac_commoners,

@@ -70,3 +70,4 @@ psys_explosion_smoke_white1 = 68
 psys_explosion_smoke_white2 = 69
 psys_ground_debris1 = 70
 psys_explosion_flash = 71
+psys_musket_smoke_smokelesspowder = 72

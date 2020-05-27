@@ -1016,9 +1016,9 @@ particle_systems = [
      100.0,                       #rotation speed
      0.5,                        #rotation damping
     ),
-    ("musket_smoke", psf_billboard_3d|psf_randomize_size|psf_randomize_rotation, "prtcl_dust_a", # psf_global_emit_dir psf_billboard_3d | psf_randomize_size psf_always_emit
+    ("musket_smoke", psf_billboard_3d|psf_randomize_size|psf_randomize_rotation, "smoke_white1", # psf_global_emit_dir psf_billboard_3d | psf_randomize_size psf_always_emit
      75, 22, 2, -0.006040, 90, 3.3,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
-     (0.0, 0.45), (0.449, 0),       #alpha keys
+     (0.0, 0.4), (0.449, 0),       #alpha keys
      (0.0, 0.99), (1, 0.99),      #red keys
      (0.0, 0.99),(1, 0.99),       #green keys
      (0.0, 0.99), (1, 0.99),      #blue keys
@@ -1137,6 +1137,19 @@ particle_systems = [
     0.05,					#emit dir randomness         
     100, 0.5
 ),
+  ("musket_smoke_smokelesspowder", psf_billboard_3d|psf_randomize_size|psf_randomize_rotation, "prtcl_dust_a", # psf_global_emit_dir psf_billboard_3d | psf_randomize_size psf_always_emit
+     75, 22, 2, -0.006040, 90, 3.3,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+     (0.0, 0.4), (0.449, 0),       #alpha keys
+     (0.0, 0.99), (1, 0.99),      #red keys
+     (0.0, 0.99),(1, 0.99),       #green keys
+     (0.0, 0.99), (1, 0.99),      #blue keys
+     (-0.01, 2.45),   (0.5, 9),   #scale keys
+     (0.05, 0.05, 0.05),           #emit box size
+     (0.0, 5.6, 0.0),                 #emit velocity
+     0.85,                        #emit dir randomness
+     90,                       #rotation speed
+     0.25,                        #rotation damping
+    ),
 
 ]
 
