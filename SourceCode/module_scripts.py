@@ -1072,6 +1072,8 @@ scripts = [
 	(call_script, "script_give_center_to_faction_aux", "p_village_553", "fac_kingdom_3"),
     (party_set_slot, "p_village_26", slot_village_bound_center, "p_castle_139"),
 	(call_script, "script_give_center_to_faction_aux", "p_village_26", "fac_kingdom_6"),
+    (party_set_slot, "p_village_493", slot_village_bound_center, "p_castle_145"),
+	(call_script, "script_give_center_to_faction_aux", "p_village_493", "fac_kingdom_3"),
     
     
 
