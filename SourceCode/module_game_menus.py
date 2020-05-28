@@ -7261,9 +7261,16 @@ game_menus = [
         ]),
       ("recruit_volunteers",
       [
-        (call_script, "script_cf_village_recruit_volunteers_cond"),
+	(call_script, "script_cf_village_recruit_volunteers_cond"),
+		(try_begin),
+		(store_faction_of_party, ":faction", "$current_town"),
+		(eq, ":faction", "$players_kingdom"),
+		(str_store_string, s20, "@soldiers"),
+		(else_try),
+		(str_store_string, s20, "@rebels"),
+		(try_end),
        ]
-       ,"Recruit Volunteers.",
+       ,"Recruit {s20}.",
        [
          (try_begin),
            (call_script, "script_cf_enter_center_location_bandit_check"),
