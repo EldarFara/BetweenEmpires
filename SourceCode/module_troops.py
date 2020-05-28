@@ -117,18 +117,19 @@ def_attrib_multiplayer = int_30 | cha_30
 
 items_european_urban_clothing_male = [itm_clothes_urban_male_trousers1, itm_clothes_urban_male_trousers2, itm_clothes_urban_male_trousers3, itm_clothes_urban_male1, itm_clothes_urban_male2, itm_clothes_urban_male3, itm_civilian_hat1, itm_civilian_hat2, itm_civilian_hat3, itm_civilian_hat3b, itm_civilian_hat4, itm_civilian_hat4b, itm_civilian_hat4c, itm_civilian_hat4d]
 items_european_rural_clothing_male = [itm_clothes_urban_male_trousers1, itm_clothes_urban_male_trousers2, itm_clothes_urban_male_trousers3, itm_clothes_rural_male1, itm_clothes_rural_male2]
-items_melee_civilian_rural = [itm_sickle, itm_cleaver, itm_knife, itm_butchering_knife, itm_dagger, itm_clothes_urban_male3, itm_civilian_hat1, itm_falchion]
+items_melee_civilian_rural = [itm_sickle, itm_cleaver, itm_knife, itm_butchering_knife, itm_dagger, itm_falchion]
 items_smoothbore_pistols = [itm_ammo_pistol, itm_sidearm_flintlock_pistol1, itm_sidearm_caplock_pistol1]
 items_pocket_pistols = [itm_ammo_pistol, itm_sidearm_bacon1, itm_sidearm_pepperbox1, itm_sidearm_pepperbox2]
 items_revolvers = [itm_ammo_pistol, itm_sidearm_colt_dragoon, itm_sidearm_remington1, itm_sidearm_colt_m1851_navy, itm_sidearm_savage_revolver]
 items_bandit_rifles = [itm_ammo_rifle, itm_rifle_sharps, itm_rifle_winchester_m1873, itm_rifle_spencer, itm_rifle_spencer_carbine]
-
-items_european_horses = [itm_horse_european1, itm_horse_european3, itm_horse_european3]
+items_arabian_clothing = [itm_thawb1, itm_thawb1b, itm_thawb1c, itm_thawb1d, itm_thawb1_vest1, itm_thawb1_vest2, itm_thawb1_vest3, itm_thawb1_vest4, itm_thawb1_vest5, itm_arab_pants, itm_arab_headwear1, itm_arab_headwear1b, itm_arab_headwear1c, itm_arab_headwear1d, itm_arab_headwear2, itm_arab_headwear2b, itm_arab_headwear2c, itm_arab_headwear2d, itm_arab_headwear2e, itm_arab_headwear3, itm_arab_headwear3b, itm_arab_headwear3c, itm_arab_headwear3d, itm_arab_headwear4, itm_arab_headwear6, itm_arab_headwear7]
+items_arabian_clothing_oman = [itm_thawb1, itm_thawb1b, itm_thawb1c, itm_thawb1d, itm_thawb1_vest1, itm_thawb1_vest2, itm_thawb1_vest3, itm_thawb1_vest4, itm_thawb1_vest5, itm_arab_pants, itm_arab_headwear5, itm_arab_headwear5b, itm_arab_headwear5c, itm_arab_headwear5d, itm_arab_headwear5e]
 
 items_russian_horses = [itm_horse_russian1a, itm_horse_russian1b, itm_horse_russian3a, itm_horse_russian3b, itm_horse_russian4a, itm_horse_russian4b]
 items_cossack_horses = [itm_horse_russian4a, itm_horse_russian4b, itm_horse_russian5a, itm_horse_russian5b]
 items_austrian_horses = [itm_horse_austrian1a, itm_horse_austrian1b, itm_horse_austrian1c, itm_horse_austrian1d, itm_horse_austrian3a, itm_horse_austrian4a, itm_horse_austrian4b, itm_horse_austrian5a]
 items_persian_horses = [itm_horse_arabian1a, itm_horse_arabian2a, itm_horse_arabian2b, itm_horse_arabian3a, itm_horse_arabian4a, itm_horse_arabian4b, itm_horse_arabian4c, itm_horse_turkmen1a, itm_horse_turkmen1b, itm_horse_turkmen1c, itm_horse_turkmen1d, itm_horse_karabakh1a, itm_horse_karabakh1b]
+items_arabian_horses = [itm_horse_arabian1a, itm_horse_arabian2a, itm_horse_arabian2b, itm_horse_arabian3a, itm_horse_arabian4a, itm_horse_arabian4b, itm_horse_arabian4c]
 
 knows_lord_1 = knows_riding_3|knows_trade_2|knows_inventory_management_2|knows_tactics_4|knows_prisoner_management_4|knows_leadership_7
 
