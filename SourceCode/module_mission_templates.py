@@ -310,7 +310,6 @@ ti_on_agent_hit, 0, 0, [],
 (this_or_next|eq,":item_id", "itm_rifle_russian_m1867"),
 (this_or_next|eq,":item_id", "itm_rifle_russian_m1867_carbine"),
 (this_or_next|eq,":item_id", "itm_rifle_sharps"),
-(this_or_next|eq,":item_id", "itm_rifle_winchester_m1873"),
 (this_or_next|eq,":item_id", "itm_rifle_spencer"),
 (this_or_next|eq,":item_id", "itm_rifle_spencer_carbine"),
 (this_or_next|eq,":item_id", "itm_rifle_russian_berdan_carbine"),
@@ -5055,7 +5054,7 @@ common_custom_siege_init = (
     ])
 
 common_siege_init = (
-  0, 0, ti_once, [],
+  ti_before_mission_start, 0, ti_once, [],
   [
     (assign,"$g_battle_type", battle_type_siege),
     (assign,"$g_battle_won",0),
@@ -5065,7 +5064,7 @@ common_siege_init = (
     ])
 	
 common_battle_init = (
-  0, 0, ti_once, [],
+  ti_before_mission_start, 0, ti_once, [],
   [
 	(assign,"$g_battle_type", battle_type_fieldbattle),
 	(music_set_situation, mtf_situation_battle),

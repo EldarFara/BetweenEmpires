@@ -121,7 +121,7 @@ items_melee_civilian_rural = [itm_sickle, itm_cleaver, itm_knife, itm_butchering
 items_smoothbore_pistols = [itm_ammo_pistol, itm_sidearm_flintlock_pistol1, itm_sidearm_caplock_pistol1]
 items_pocket_pistols = [itm_ammo_pistol, itm_sidearm_bacon1, itm_sidearm_pepperbox1, itm_sidearm_pepperbox2]
 items_revolvers = [itm_ammo_pistol, itm_sidearm_colt_dragoon, itm_sidearm_remington1, itm_sidearm_colt_m1851_navy, itm_sidearm_savage_revolver]
-items_bandit_rifles = [itm_ammo_rifle, itm_rifle_sharps, itm_rifle_winchester_m1873, itm_rifle_spencer, itm_rifle_spencer_carbine]
+items_bandit_rifles = [itm_ammo_rifle, itm_rifle_sharps, itm_rifle_henry, itm_rifle_spencer, itm_rifle_spencer_carbine]
 items_arabian_clothing = [itm_thawb1, itm_thawb1b, itm_thawb1c, itm_thawb1d, itm_thawb1_vest1, itm_thawb1_vest2, itm_thawb1_vest3, itm_thawb1_vest4, itm_thawb1_vest5, itm_arab_pants, itm_arab_headwear1, itm_arab_headwear1b, itm_arab_headwear1c, itm_arab_headwear1d, itm_arab_headwear2, itm_arab_headwear2b, itm_arab_headwear2c, itm_arab_headwear2d, itm_arab_headwear2e, itm_arab_headwear3, itm_arab_headwear3b, itm_arab_headwear3c, itm_arab_headwear3d, itm_arab_headwear4, itm_arab_headwear6, itm_arab_headwear7]
 items_arabian_clothing_oman = [itm_thawb1, itm_thawb1b, itm_thawb1c, itm_thawb1d, itm_thawb1_vest1, itm_thawb1_vest2, itm_thawb1_vest3, itm_thawb1_vest4, itm_thawb1_vest5, itm_arab_pants, itm_arab_headwear5, itm_arab_headwear5b, itm_arab_headwear5c, itm_arab_headwear5d, itm_arab_headwear5e]
 
@@ -352,10 +352,10 @@ troops = [
   [itm_clothes_gala_male1_trousers, itm_clothes_urban_male1, itm_clothes_urban_male3, itm_clothes_urban_male_trousers3, itm_civilian_hat4, itm_sidearm_colt_dragoon, itm_ammo_pistol],
   str_7|agi_5|int_4|cha_4|level(9), wp(75), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1|knows_shield_1,0x0000000000000000000000000000000000000000001c00000000000000000000, 0x0000000cff00730b6db6db6db7fbffff00000000001efffe0000000000000000],
   ["caravan_guard", "Hired Gun (Exp.)", "Hired Gun (Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_commoners,
-  [itm_clothes_gala_male1_trousers, itm_clothes_urban_male1, itm_clothes_urban_male3, itm_clothes_urban_male_trousers3, itm_civilian_hat4, itm_rifle_winchester_m1873, itm_ammo_rifle],
+  [itm_clothes_gala_male1_trousers, itm_clothes_urban_male1, itm_clothes_urban_male3, itm_clothes_urban_male_trousers3, itm_civilian_hat4, itm_rifle_henry, itm_ammo_rifle],
   str_7|agi_5|int_4|cha_4|level(14), wp(85), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_3|knows_shield_3|knows_ironflesh_1,0x0000000000000000000000000000000000000000001c00000000000000000000, 0x0000000cff00730b6db6db6db7fbffff00000000001efffe0000000000000000],
   ["mercenary_swordsman", "Hired Gun (Very Exp.)", "Hired Gun (Very Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_commoners,
-  [itm_clothes_gala_male1_trousers, itm_clothes_urban_male1, itm_clothes_urban_male3, itm_clothes_urban_male_trousers3, itm_civilian_hat4, itm_rifle_winchester_m1873, itm_ammo_rifle],
+  [itm_clothes_gala_male1_trousers, itm_clothes_urban_male1, itm_clothes_urban_male3, itm_clothes_urban_male_trousers3, itm_civilian_hat4, itm_rifle_henry, itm_ammo_rifle],
   str_7|agi_5|int_4|cha_4|level(17), wp(100), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_3|knows_shield_3|knows_power_strike_3|knows_ironflesh_3,0x0000000000000000000000000000000000000000001c00000000000000000000, 0x0000000cff00730b6db6db6db7fbffff00000000001efffe0000000000000000],
   ["hired_blade", "Japanese Imperial Infantry", "Japanese Imperial Infantry", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_commoners,
   [itm_jap_trousers, itm_jap_infantry, itm_jap_hat, itm_rifle_russian_m1845, itm_ammo_rifle],

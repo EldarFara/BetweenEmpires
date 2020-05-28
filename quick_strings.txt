@@ -1,4 +1,5 @@
-914
+915
+qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
 qstr_Game_Rules:^ Game_Rules:^
@@ -266,7 +267,7 @@ qstr_Bolt_action_magazine Bolt-action_magazine_rifle_(5_rounds)
 qstr_Pocket_Pistol__6_rou Pocket_Pistol_(6_rounds)
 qstr_Pocket_Pistol__4_rou Pocket_Pistol_(4_rounds)
 qstr_Breech_loaded_rifle Breech_loaded_rifle
-qstr_Lever_action_magazin Lever_action_magazine_rifle_(12_rounds)
+qstr_Lever_action_magazin Lever_action_magazine_rifle_(16_rounds)
 qstr_Lever_action_magazine Lever_action_magazine_rifle_(7_rounds)
 qstr_+{reg1}_to_party_mor +{reg1}_to_party_morale
 qstr_Requires_{reg1}_inte Requires_{reg1}_intelligence_to_read
