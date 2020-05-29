@@ -212,6 +212,8 @@ tracks = [
 ("globalmap_spain03", "globalmap_spain03.ogg", mtf_culture_spain|mtf_situation_global_map, mtf_culture_middleeast|mtf_culture_europe),
 ("globalmap_spain04", "globalmap_spain04.ogg", mtf_culture_spain|mtf_situation_global_map, mtf_culture_middleeast|mtf_culture_europe),
 ("globalmap_spain05", "globalmap_spain05.ogg", mtf_culture_spain|mtf_situation_global_map, mtf_culture_middleeast|mtf_culture_europe),
+
+("globalmap_italian01", "globalmap_italian01.ogg", mtf_culture_italy|mtf_situation_global_map, mtf_culture_middleeast|mtf_culture_europe),
 ]
 
 

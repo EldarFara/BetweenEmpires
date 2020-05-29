@@ -112,7 +112,7 @@ scripts = [
 (faction_set_slot, "fac_player_faction", slot_faction_flag_map, "icon_map_flag_faction0"), (faction_set_slot, "fac_player_faction", slot_faction_flag_scene, "str_flag1_0"),
 (faction_set_slot, "fac_player_supporters_faction", slot_faction_flag_map, "icon_map_flag_faction0"), (faction_set_slot, "fac_player_supporters_faction", slot_faction_flag_scene, "str_flag1_0"),
 	
-	(try_for_range, ":npc", 0, "trp_cannoneers_end"),
+	(try_for_range, ":npc", 0, "trp_troops_end"),
 	(troop_set_class, ":npc", 8),
 	(troop_set_slot, ":npc", slot_troop_pbs_type, pbs_troop_type_line),
 	(try_end),

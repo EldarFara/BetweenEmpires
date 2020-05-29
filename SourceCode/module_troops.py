@@ -11836,11 +11836,41 @@ str_9|agi_5|int_4|cha_4|level(8), wp1(70, 75), knows_trade_2|knows_leadership_1|
 [itm_ammo_rifle, itm_rifle_russian_m1845_carbine, itm_saber1]+items_european_urban_clothing_male+items_european_rural_clothing_male+items_austrian_horses,
 str_11|agi_5|int_4|cha_4|level(12), wp1(85, 90), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
 
-  
+["troops_end", "{!}quick battle troops end", "{!}quick battle troops end", 0, 0, 0, fac_kingdom_5,
+[],
 ]
 
 
 #Troop upgrade declarations
+
+upgrade2(troops,"rebel_european1", "rebel_european2", "rebel_european3")
+upgrade(troops,"rebel_european2", "rebel_european5")
+upgrade(troops,"rebel_european3", "rebel_european4")
+upgrade(troops,"rebel_european5", "rebel_european6")
+upgrade2(troops,"rebel_indian1", "rebel_indian2", "rebel_indian3")
+upgrade(troops,"rebel_indian2", "rebel_indian5")
+upgrade(troops,"rebel_indian3", "rebel_indian4")
+upgrade(troops,"rebel_indian5", "rebel_indian6")
+upgrade2(troops,"rebel_middleasia1", "rebel_middleasia2", "rebel_middleasia3")
+upgrade(troops,"rebel_middleasia2", "rebel_middleasia5")
+upgrade(troops,"rebel_middleasia3", "rebel_middleasia4")
+upgrade(troops,"rebel_middleasia5", "rebel_middleasia6")
+upgrade2(troops,"rebel_persian1", "rebel_persian2", "rebel_persian3")
+upgrade(troops,"rebel_persian2", "rebel_persian5")
+upgrade(troops,"rebel_persian3", "rebel_persian4")
+upgrade(troops,"rebel_persian5", "rebel_persian6")
+upgrade2(troops,"rebel_turkish1", "rebel_turkish2", "rebel_turkish3")
+upgrade(troops,"rebel_turkish2", "rebel_turkish5")
+upgrade(troops,"rebel_turkish3", "rebel_turkish4")
+upgrade(troops,"rebel_turkish5", "rebel_turkish6")
+upgrade2(troops,"rebel_arab1", "rebel_arab2", "rebel_arab3")
+upgrade(troops,"rebel_arab2", "rebel_arab5")
+upgrade(troops,"rebel_arab3", "rebel_arab4")
+upgrade(troops,"rebel_arab5", "rebel_arab6")
+upgrade2(troops,"rebel_caucasus1", "rebel_caucasus2", "rebel_caucasus3")
+upgrade(troops,"rebel_caucasus2", "rebel_caucasus5")
+upgrade(troops,"rebel_caucasus3", "rebel_caucasus4")
+upgrade(troops,"rebel_caucasus5", "rebel_caucasus6")
 
 upgrade2(troops,"faction1_troop1", "faction1_troop2", "faction1_troop9")
 upgrade(troops,"faction1_troop3", "faction1_troop4")
