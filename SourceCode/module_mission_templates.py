@@ -310,7 +310,6 @@ ti_on_agent_hit, 0, 0, [],
 (this_or_next|eq,":item_id", "itm_rifle_russian_m1867"),
 (this_or_next|eq,":item_id", "itm_rifle_russian_m1867_carbine"),
 (this_or_next|eq,":item_id", "itm_rifle_sharps"),
-(this_or_next|eq,":item_id", "itm_rifle_winchester_m1873"),
 (this_or_next|eq,":item_id", "itm_rifle_spencer"),
 (this_or_next|eq,":item_id", "itm_rifle_spencer_carbine"),
 (this_or_next|eq,":item_id", "itm_rifle_russian_berdan_carbine"),
@@ -1526,11 +1525,11 @@ YuriCannon33MS = (
 			(agent_set_look_target_position, ":CannonCannoneer1", pos1), (agent_set_look_target_position, ":CannonCannoneer2", pos1),
 			(agent_set_look_target_position, ":CannonCannoneer3", pos1),
 			(prop_instance_get_position, pos1, ":CannonBarrel"),
-			(position_move_z, pos1, 10, 0), (position_move_y, pos1, -50, 0),
+			(position_move_z, pos1, 10, 1), (position_move_y, pos1, -50, 0),
 			(agent_get_bone_position, pos2, ":CannonCannoneer3", 18, 1),
 			(call_script, "script_turn_pos_towards_pos", pos1, pos2),
 			(prop_instance_animate_to_position, ":CannonRope1", pos1, 5),
-			(get_distance_between_positions, ":Scale", pos5, pos6),
+			(agent_get_position, pos3, ":CannonCannoneer3"), (get_distance_between_positions, ":Scale", pos1, pos3),
 			(val_div, ":Scale", 2), (val_sub, ":Scale", 40),
 			(set_fixed_point_multiplier, 100), (prop_instance_set_scale, ":CannonRope1", 100, ":Scale", 100), (set_fixed_point_multiplier, 1),
 				(try_begin),
@@ -5055,7 +5054,7 @@ common_custom_siege_init = (
     ])
 
 common_siege_init = (
-  0, 0, ti_once, [],
+  ti_before_mission_start, 0, ti_once, [],
   [
     (assign,"$g_battle_type", battle_type_siege),
     (assign,"$g_battle_won",0),
@@ -5065,7 +5064,7 @@ common_siege_init = (
     ])
 	
 common_battle_init = (
-  0, 0, ti_once, [],
+  ti_before_mission_start, 0, ti_once, [],
   [
 	(assign,"$g_battle_type", battle_type_fieldbattle),
 	(music_set_situation, mtf_situation_battle),

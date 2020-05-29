@@ -1,4 +1,5 @@
-912
+915
+qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
 qstr_Game_Rules:^ Game_Rules:^
@@ -266,7 +267,7 @@ qstr_Bolt_action_magazine Bolt-action_magazine_rifle_(5_rounds)
 qstr_Pocket_Pistol__6_rou Pocket_Pistol_(6_rounds)
 qstr_Pocket_Pistol__4_rou Pocket_Pistol_(4_rounds)
 qstr_Breech_loaded_rifle Breech_loaded_rifle
-qstr_Lever_action_magazin Lever_action_magazine_rifle_(12_rounds)
+qstr_Lever_action_magazin Lever_action_magazine_rifle_(16_rounds)
 qstr_Lever_action_magazine Lever_action_magazine_rifle_(7_rounds)
 qstr_+{reg1}_to_party_mor +{reg1}_to_party_morale
 qstr_Requires_{reg1}_inte Requires_{reg1}_intelligence_to_read
@@ -705,6 +706,8 @@ qstr_{!}_{s3}__{reg9}_. {!}_{s3}_({reg9}).
 qstr__The_village_is_infe _The_village_is_infested_by_{reg8}_{s35}.
 qstr__The_village_has_bee _The_village_has_been_looted._A_handful_of_souls_scatter_as_you_pass_through_the_burnt_out_houses.
 qstr__The_village_is_bein _The_village_is_being_raided.
+qstr_soldiers soldiers
+qstr_rebels rebels
 qstr_No_one_here_seems_to No_one_here_seems_to_be_willing_to_join_your_party.
 qstr_One_{s3}_volunteers_ One_{s3}_volunteers_to_follow_you.
 qstr_{reg5}_{s3}_voluntee {reg5}_{s3}_volunteer_to_follow_you.
