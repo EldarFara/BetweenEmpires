@@ -678,12 +678,12 @@ script_cf_if_agent_faction_invented_technology = 676
 script_cf_if_party_faction_invented_technology = 677
 script_set_player_kingdom_init = 678
 script_play_distant_sound_at_pos_based_on_distance = 679
-script_get_banner_icon_for_faction = 680
-script_reset_companies_accuracy = 681
-script_cf_if_team_has_artillery_shells = 682
-script_team_consume_artillery_shell = 683
-script_cf_if_team_faction_uses_volley_fire = 684
-script_cf_if_team_faction_invented_technology = 685
-script_cf_random = 686
+script_reset_companies_accuracy = 680
+script_cf_if_team_has_artillery_shells = 681
+script_team_consume_artillery_shell = 682
+script_cf_if_team_faction_uses_volley_fire = 683
+script_cf_if_team_faction_invented_technology = 684
+script_cf_random = 685
+script_change_faction_flag = 686
 
 

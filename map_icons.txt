@@ -1,5 +1,5 @@
 map_icons_file version 1
-243
+361
 player 0 player 0.150000 17 0.150000 0.173000 0.000000 0
 
 
@@ -570,6 +570,72 @@ banner_136 0 map_flag_15 0.300000 0 0 0 0 0
 bandit_lair 1 map_bandit_lair 0.450000 0 0 0 0 0
 
 
+town1 1 town1 0.350000 0 0 0 0 0
+
+
+town2 1 town2 0.350000 0 0 0 0 0
+
+
+town3 1 town3 0.350000 0 0 0 0 0
+
+
+town4 1 town3 0.350000 0 0 0 0 0
+
+
+town5 1 town5 0.350000 0 0 0 0 0
+
+
+town7 1 town7 0.350000 0 0 0 0 0
+
+
+village1 1 village1 0.350000 0 0 0 0 0
+
+
+village2 1 village2 0.350000 0 0 0 0 0
+
+
+village3 1 village3 0.350000 0 0 0 0 0
+
+
+village4 1 village3 0.350000 0 0 0 0 0
+
+
+village5 1 village5 0.350000 0 0 0 0 0
+
+
+village6 1 village6 0.350000 0 0 0 0 0
+
+
+castle1 1 castle1 0.350000 0 0 0 0 0
+
+
+castle2 1 castle2 0.350000 0 0 0 0 0
+
+
+castle3 1 castle3 0.350000 0 0 0 0 0
+
+
+castle4 1 village3 0.350000 0 0 0 0 0
+
+
+pyramids 1 pyramids 0.350000 0 0 0 0 0
+
+
+cyrustomb 1 cyrustomb 0.350000 0 0 0 0 0
+
+
+alexandriaa 1 alexandriaa 0.350000 0 0 0 0 0
+
+
+arg 1 arg 0.350000 0 0 0 0 0
+
+
+naghsh 1 naghsh 0.350000 0 0 0 0 0
+
+
+map_flag_faction0 0 map_flag_faction1 0.300000 0 0 0 0 0
+
+
 map_flag_faction1 0 map_flag_faction1 0.300000 0 0 0 0 0
 
 
@@ -669,66 +735,354 @@ map_flag_faction32 0 map_flag_faction32 0.300000 0 0 0 0 0
 map_flag_faction33 0 map_flag_faction33 0.300000 0 0 0 0 0
 
 
-town1 1 town1 0.350000 0 0 0 0 0
+map_flag_faction34 0 map_flag_faction34 0.300000 0 0 0 0 0
 
 
-town2 1 town2 0.350000 0 0 0 0 0
+map_flag_faction35 0 map_flag_faction35 0.300000 0 0 0 0 0
 
 
-town3 1 town3 0.350000 0 0 0 0 0
+map_flag_faction36 0 map_flag_faction36 0.300000 0 0 0 0 0
 
 
-town4 1 town3 0.350000 0 0 0 0 0
+map_flag_faction37 0 map_flag_faction37 0.300000 0 0 0 0 0
 
 
-town5 1 town5 0.350000 0 0 0 0 0
+map_flag_faction38 0 map_flag_faction38 0.300000 0 0 0 0 0
 
 
-town7 1 town7 0.350000 0 0 0 0 0
+map_flag_faction39 0 map_flag_faction39 0.300000 0 0 0 0 0
 
 
-village1 1 village1 0.350000 0 0 0 0 0
+map_flag_faction40 0 map_flag_faction40 0.300000 0 0 0 0 0
 
 
-village2 1 village2 0.350000 0 0 0 0 0
+map_flag_faction41 0 map_flag_faction41 0.300000 0 0 0 0 0
 
 
-village3 1 village3 0.350000 0 0 0 0 0
+map_flag_faction42 0 map_flag_faction42 0.300000 0 0 0 0 0
 
 
-village4 1 village3 0.350000 0 0 0 0 0
+map_flag_faction43 0 map_flag_faction43 0.300000 0 0 0 0 0
 
 
-village5 1 village5 0.350000 0 0 0 0 0
+map_flag_faction44 0 map_flag_faction44 0.300000 0 0 0 0 0
 
 
-village6 1 village6 0.350000 0 0 0 0 0
+map_flag_faction45 0 map_flag_faction45 0.300000 0 0 0 0 0
 
 
-castle1 1 castle1 0.350000 0 0 0 0 0
+map_flag_faction46 0 map_flag_faction46 0.300000 0 0 0 0 0
 
 
-castle2 1 castle2 0.350000 0 0 0 0 0
+map_flag_faction47 0 map_flag_faction47 0.300000 0 0 0 0 0
 
 
-castle3 1 castle3 0.350000 0 0 0 0 0
+map_flag_faction48 0 map_flag_faction48 0.300000 0 0 0 0 0
 
 
-castle4 1 village3 0.350000 0 0 0 0 0
+map_flag_faction49 0 map_flag_faction49 0.300000 0 0 0 0 0
 
 
-pyramids 1 pyramids 0.350000 0 0 0 0 0
+map_flag_faction50 0 map_flag_faction50 0.300000 0 0 0 0 0
 
 
-cyrustomb 1 cyrustomb 0.350000 0 0 0 0 0
+map_flag_faction51 0 map_flag_faction51 0.300000 0 0 0 0 0
 
 
-alexandriaa 1 alexandriaa 0.350000 0 0 0 0 0
+map_flag_faction52 0 map_flag_faction52 0.300000 0 0 0 0 0
 
 
-arg 1 arg 0.350000 0 0 0 0 0
+map_flag_faction53 0 map_flag_faction53 0.300000 0 0 0 0 0
 
 
-naghsh 1 naghsh 0.350000 0 0 0 0 0
+map_flag_faction54 0 map_flag_faction54 0.300000 0 0 0 0 0
+
+
+map_flag_faction55 0 map_flag_faction55 0.300000 0 0 0 0 0
+
+
+map_flag_faction56 0 map_flag_faction56 0.300000 0 0 0 0 0
+
+
+map_flag_faction57 0 map_flag_faction57 0.300000 0 0 0 0 0
+
+
+map_flag_faction58 0 map_flag_faction58 0.300000 0 0 0 0 0
+
+
+map_flag_faction59 0 map_flag_faction59 0.300000 0 0 0 0 0
+
+
+map_flag_faction60 0 map_flag_faction60 0.300000 0 0 0 0 0
+
+
+map_flag_faction61 0 map_flag_faction61 0.300000 0 0 0 0 0
+
+
+map_flag_faction62 0 map_flag_faction62 0.300000 0 0 0 0 0
+
+
+map_flag_faction63 0 map_flag_faction63 0.300000 0 0 0 0 0
+
+
+map_flag_faction64 0 map_flag_faction64 0.300000 0 0 0 0 0
+
+
+map_flag_faction65 0 map_flag_faction65 0.300000 0 0 0 0 0
+
+
+map_flag_faction66 0 map_flag_faction66 0.300000 0 0 0 0 0
+
+
+map_flag_faction67 0 map_flag_faction67 0.300000 0 0 0 0 0
+
+
+map_flag_faction68 0 map_flag_faction68 0.300000 0 0 0 0 0
+
+
+map_flag_faction69 0 map_flag_faction69 0.300000 0 0 0 0 0
+
+
+map_flag_faction70 0 map_flag_faction70 0.300000 0 0 0 0 0
+
+
+map_flag_faction71 0 map_flag_faction71 0.300000 0 0 0 0 0
+
+
+map_flag_faction72 0 map_flag_faction72 0.300000 0 0 0 0 0
+
+
+map_flag_faction73 0 map_flag_faction73 0.300000 0 0 0 0 0
+
+
+map_flag_faction74 0 map_flag_faction74 0.300000 0 0 0 0 0
+
+
+map_flag_faction75 0 map_flag_faction75 0.300000 0 0 0 0 0
+
+
+map_flag_faction76 0 map_flag_faction76 0.300000 0 0 0 0 0
+
+
+map_flag_faction77 0 map_flag_faction77 0.300000 0 0 0 0 0
+
+
+map_flag_faction78 0 map_flag_faction78 0.300000 0 0 0 0 0
+
+
+map_flag_faction79 0 map_flag_faction79 0.300000 0 0 0 0 0
+
+
+map_flag_faction80 0 map_flag_faction80 0.300000 0 0 0 0 0
+
+
+map_flag_faction81 0 map_flag_faction81 0.300000 0 0 0 0 0
+
+
+map_flag_faction82 0 map_flag_faction82 0.300000 0 0 0 0 0
+
+
+map_flag_faction83 0 map_flag_faction83 0.300000 0 0 0 0 0
+
+
+map_flag_faction84 0 map_flag_faction84 0.300000 0 0 0 0 0
+
+
+map_flag_faction85 0 map_flag_faction85 0.300000 0 0 0 0 0
+
+
+map_flag_faction86 0 map_flag_faction86 0.300000 0 0 0 0 0
+
+
+map_flag_faction87 0 map_flag_faction87 0.300000 0 0 0 0 0
+
+
+map_flag_faction88 0 map_flag_faction88 0.300000 0 0 0 0 0
+
+
+map_flag_faction89 0 map_flag_faction89 0.300000 0 0 0 0 0
+
+
+map_flag_faction90 0 map_flag_faction90 0.300000 0 0 0 0 0
+
+
+map_flag_faction91 0 map_flag_faction91 0.300000 0 0 0 0 0
+
+
+map_flag_faction92 0 map_flag_faction92 0.300000 0 0 0 0 0
+
+
+map_flag_faction93 0 map_flag_faction93 0.300000 0 0 0 0 0
+
+
+map_flag_faction94 0 map_flag_faction94 0.300000 0 0 0 0 0
+
+
+map_flag_faction95 0 map_flag_faction95 0.300000 0 0 0 0 0
+
+
+map_flag_faction96 0 map_flag_faction96 0.300000 0 0 0 0 0
+
+
+map_flag_faction97 0 map_flag_faction97 0.300000 0 0 0 0 0
+
+
+map_flag_faction98 0 map_flag_faction98 0.300000 0 0 0 0 0
+
+
+map_flag_faction99 0 map_flag_faction99 0.300000 0 0 0 0 0
+
+
+map_flag_faction100 0 map_flag_faction100 0.300000 0 0 0 0 0
+
+
+map_flag_faction101 0 map_flag_faction101 0.300000 0 0 0 0 0
+
+
+map_flag_faction102 0 map_flag_faction102 0.300000 0 0 0 0 0
+
+
+map_flag_faction103 0 map_flag_faction103 0.300000 0 0 0 0 0
+
+
+map_flag_faction104 0 map_flag_faction104 0.300000 0 0 0 0 0
+
+
+map_flag_faction105 0 map_flag_faction105 0.300000 0 0 0 0 0
+
+
+map_flag_faction106 0 map_flag_faction106 0.300000 0 0 0 0 0
+
+
+map_flag_faction107 0 map_flag_faction107 0.300000 0 0 0 0 0
+
+
+map_flag_faction108 0 map_flag_faction108 0.300000 0 0 0 0 0
+
+
+map_flag_faction109 0 map_flag_faction109 0.300000 0 0 0 0 0
+
+
+map_flag_faction110 0 map_flag_faction110 0.300000 0 0 0 0 0
+
+
+map_flag_faction111 0 map_flag_faction111 0.300000 0 0 0 0 0
+
+
+map_flag_faction112 0 map_flag_faction112 0.300000 0 0 0 0 0
+
+
+map_flag_faction113 0 map_flag_faction113 0.300000 0 0 0 0 0
+
+
+map_flag_faction114 0 map_flag_faction114 0.300000 0 0 0 0 0
+
+
+map_flag_faction115 0 map_flag_faction115 0.300000 0 0 0 0 0
+
+
+map_flag_faction116 0 map_flag_faction116 0.300000 0 0 0 0 0
+
+
+map_flag_faction117 0 map_flag_faction117 0.300000 0 0 0 0 0
+
+
+map_flag_faction118 0 map_flag_faction118 0.300000 0 0 0 0 0
+
+
+map_flag_faction119 0 map_flag_faction119 0.300000 0 0 0 0 0
+
+
+map_flag_faction120 0 map_flag_faction120 0.300000 0 0 0 0 0
+
+
+map_flag_faction121 0 map_flag_faction121 0.300000 0 0 0 0 0
+
+
+map_flag_faction122 0 map_flag_faction122 0.300000 0 0 0 0 0
+
+
+map_flag_faction123 0 map_flag_faction123 0.300000 0 0 0 0 0
+
+
+map_flag_faction124 0 map_flag_faction124 0.300000 0 0 0 0 0
+
+
+map_flag_faction125 0 map_flag_faction125 0.300000 0 0 0 0 0
+
+
+map_flag_faction126 0 map_flag_faction126 0.300000 0 0 0 0 0
+
+
+map_flag_faction127 0 map_flag_faction127 0.300000 0 0 0 0 0
+
+
+map_flag_faction128 0 map_flag_faction128 0.300000 0 0 0 0 0
+
+
+map_flag_faction129 0 map_flag_faction129 0.300000 0 0 0 0 0
+
+
+map_flag_faction130 0 map_flag_faction130 0.300000 0 0 0 0 0
+
+
+map_flag_faction131 0 map_flag_faction131 0.300000 0 0 0 0 0
+
+
+map_flag_faction132 0 map_flag_faction132 0.300000 0 0 0 0 0
+
+
+map_flag_faction133 0 map_flag_faction133 0.300000 0 0 0 0 0
+
+
+map_flag_faction134 0 map_flag_faction134 0.300000 0 0 0 0 0
+
+
+map_flag_faction135 0 map_flag_faction135 0.300000 0 0 0 0 0
+
+
+map_flag_faction136 0 map_flag_faction136 0.300000 0 0 0 0 0
+
+
+map_flag_faction137 0 map_flag_faction137 0.300000 0 0 0 0 0
+
+
+map_flag_faction138 0 map_flag_faction138 0.300000 0 0 0 0 0
+
+
+map_flag_faction139 0 map_flag_faction139 0.300000 0 0 0 0 0
+
+
+map_flag_faction140 0 map_flag_faction140 0.300000 0 0 0 0 0
+
+
+map_flag_faction141 0 map_flag_faction141 0.300000 0 0 0 0 0
+
+
+map_flag_faction142 0 map_flag_faction142 0.300000 0 0 0 0 0
+
+
+map_flag_faction143 0 map_flag_faction143 0.300000 0 0 0 0 0
+
+
+map_flag_faction144 0 map_flag_faction144 0.300000 0 0 0 0 0
+
+
+map_flag_faction145 0 map_flag_faction145 0.300000 0 0 0 0 0
+
+
+map_flag_faction146 0 map_flag_faction146 0.300000 0 0 0 0 0
+
+
+map_flag_faction147 0 map_flag_faction147 0.300000 0 0 0 0 0
+
+
+map_flag_faction148 0 map_flag_faction148 0.300000 0 0 0 0 0
+
+
+map_flag_faction149 0 map_flag_faction149 0.300000 0 0 0 0 0
+
+
+map_flag_faction150 0 map_flag_faction150 0.300000 0 0 0 0 0
 
 
