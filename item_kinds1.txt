@@ -3480,11 +3480,11 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_pepperbox1 Pepper-box_Revolver Pepper-box_Revolver 2  pepperbox1 0  pepperbox1 3458764513820540928  4259856 483721150464 200 131082 1.000000 70 0 0 84 0 0 25 150 0 6 291 0
+ itm_sidearm_pepperbox1 Pepper-box_Revolver Pepper-box_Revolver 2  pepperbox1 0  pepperbox1 3458764513820540928  4259856 483721150464 200 131082 1.000000 70 0 0 84 0 0 28 150 0 6 291 0
  0
 0
 
- itm_sidearm_pepperbox2 Pepper-box_Pistol Pepper-box_Pistol 2  pepperbox2 0  pepperbox2 3458764513820540928  4259856 483721150464 200 131082 1.000000 70 0 0 84 0 0 25 150 0 4 291 0
+ itm_sidearm_pepperbox2 Pepper-box_Pistol Pepper-box_Pistol 2  pepperbox2 0  pepperbox2 3458764513820540928  4259856 483721150464 200 131082 1.000000 70 0 0 84 0 0 28 150 0 4 291 0
  0
 0
 
@@ -4549,7 +4549,7 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_mas1873 MAS_1873 MAS_1873 2  mas1873 0  pistol_holster1b 3458764513820540928  4259856 518080888832 500 131082 1.250000 100 0 0 93 0 0 23 90 0 6 301 0
+ itm_sidearm_mas1873 MAS_1873 MAS_1873 2  mas1873 0  pistol_holster1b 3458764513820540928  4259856 518080888832 500 131082 1.250000 100 0 0 93 0 0 26 90 0 6 301 0
  0
 0
 
@@ -4653,7 +4653,7 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_galand Galand_M1870 Galand_M1870 2  galand 0  pistol_holster1b 3458764513820540928  4259856 518080888832 700 131082 1.000000 100 0 0 93 0 0 26 150 0 6 302 0
+ itm_sidearm_galand Galand_M1870 Galand_M1870 2  galand 0  pistol_holster1b 3458764513820540928  4259856 518080888832 700 131082 1.000000 100 0 0 93 0 0 29 150 0 6 302 0
  0
 0
 
@@ -4689,11 +4689,11 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_enfieldmk1 Enfield_Mk_I Enfield_Mk_I 2  enfieldmk1 0  pistol_holster1b 3458764513820540928  4259856 518080888832 500 131082 1.250000 100 0 0 93 0 0 26 175 0 6 301 0
+ itm_sidearm_enfieldmk1 Enfield_Mk_I Enfield_Mk_I 2  enfieldmk1 0  pistol_holster1b 3458764513820540928  4259856 518080888832 500 131082 1.250000 100 0 0 93 0 0 29 175 0 6 301 0
  0
 0
 
- itm_sidearm_webleymk6 Webley_Mk_VI Webley_Mk_VI 2  webleymk6 0  pistol_holster1b 3458764513820540928  4259856 518080888832 700 131082 1.250000 100 0 0 92 0 0 24 175 0 6 310 0
+ itm_sidearm_webleymk6 Webley_Mk_VI Webley_Mk_VI 2  webleymk6 0  pistol_holster1b 3458764513820540928  4259856 518080888832 700 131082 1.250000 100 0 0 92 0 0 27 175 0 6 310 0
  0
 0
 
@@ -4701,11 +4701,11 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_webleybulldog Webley_Bull_Dog Webley_Bull_Dog 2  webleybulldog 0  pistol_holster1b 3458764513820540928  4259856 518080888832 300 131082 1.000000 100 0 0 91 0 0 24 150 0 6 302 0
+ itm_sidearm_webleybulldog Webley_Bull_Dog Webley_Bull_Dog 2  webleybulldog 0  pistol_holster1b 3458764513820540928  4259856 518080888832 300 131082 1.000000 100 0 0 91 0 0 27 150 0 6 302 0
  0
 0
 
- itm_sidearm_c93 Borchardt_C-93 Borchardt_C-93 2  c93 0  pistol_holster1b 3458764513820540928  4259856 518080888832 700 131082 1.250000 100 0 0 93 0 0 35 150 0 8 304 0
+ itm_sidearm_c93 Borchardt_C-93 Borchardt_C-93 2  c93 0  pistol_holster1b 3458764513820540928  4259856 518080888832 700 131082 1.250000 100 0 0 93 0 0 45 150 0 8 304 0
  0
 0
 
@@ -5007,7 +5007,7 @@ itemsfile version 3
  53
 0
 
- itm_sidearm_sw_sh Smith_&_Wesson_Safety_Hammerless Smith_&_Wesson_Safety_Hammerless 2  sw_sh 0  pistol_holster1b 3458764513820540928  4259856 518080888832 300 131082 1.000000 100 0 0 93 0 0 22 150 0 6 304 0
+ itm_sidearm_sw_sh Smith_&_Wesson_Safety_Hammerless Smith_&_Wesson_Safety_Hammerless 2  sw_sh 0  pistol_holster1b 3458764513820540928  4259856 518080888832 300 131082 1.000000 100 0 0 93 0 0 25 150 0 6 304 0
  0
 0
 
