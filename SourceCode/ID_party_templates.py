@@ -194,3 +194,7 @@ pt_sea_raider_lair = 192
 pt_looter_lair = 193
 pt_bandit_lair_templates_end = 194
 pt_leaded_looters = 195
+pt_persian_bandits = 196
+pt_turkish_bandits = 197
+pt_indian_bandits = 198
+pt_middleasia_bandits = 199

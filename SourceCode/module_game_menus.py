@@ -5866,12 +5866,6 @@ game_menus = [
            (assign, "$g_siege_battle_state", 1),
            (assign, ":siege_sally", 0),
            (try_begin),
-             (le, ":battle_advantage", -4), #we are outnumbered, defenders sally out
-             (eq, "$g_siege_sallied_out_once", 0),
-             (set_jump_mission,"mt_castle_attack_walls_defenders_sally"),
-             (assign, "$g_siege_battle_state", 0),
-             (assign, ":siege_sally", 1),
-           (else_try),
              (party_slot_eq, "$current_town", slot_center_siege_with_belfry, 1),
              (set_jump_mission,"mt_castle_attack_walls_belfry"),
            (else_try),
@@ -14348,8 +14342,6 @@ game_menus = [
 ("game_speed_debug",[(eq,"$cheat_mode",1)],"Debug mode (One year passes in 1 day).",
 	[
 		(assign, "$g_game_speed", 1),
-		
-		
          (jump_to_menu,"mnu_camp_action"),
 	]
 ),

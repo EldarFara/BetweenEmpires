@@ -3862,3 +3862,4 @@ trp_rebel_caucasus3 = 3860
 trp_rebel_caucasus4 = 3861
 trp_rebel_caucasus5 = 3862
 trp_rebel_caucasus6 = 3863
+trp_troops_end = 3864

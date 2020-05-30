@@ -193,5 +193,6 @@ track_globalmap_spain02 = 191
 track_globalmap_spain03 = 192
 track_globalmap_spain04 = 193
 track_globalmap_spain05 = 194
+track_globalmap_italian01 = 195
 
 

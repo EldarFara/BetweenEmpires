@@ -1,4 +1,4 @@
-915
+916
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -253,7 +253,7 @@ qstr_{s5}_has_been_defeat {s5}_has_been_defeated!
 qstr_{!}DEBUG____Assigned {!}DEBUG_--_Assigned_lord_reputation_and_relations
 qstr_{s7}_opened_the_gate {s7}_opened_the_gate
 qstr_{s7}_closed_the_gate {s7}_closed_the_gate
-qstr_Has_second_barrel__p Has_second_barrel_(press_action_key_while_aiming_to_fire_a_buckshot)
+qstr_Has_second_barrel__p Has_second_barrel_(press_action^key_while_aiming_to_fire_a_buckshot)
 qstr_Smoothbore_musket Smoothbore_musket
 qstr_Rifled_musket Rifled_musket
 qstr_Converted_breech_load Converted_breech_loaded_rifle
@@ -264,6 +264,7 @@ qstr_Pocket_Revolver__6_r Pocket_Revolver_(6_rounds)
 qstr_Self_Loading_Pistol_ Self-Loading_Pistol_(8_rounds)
 qstr_Revolver__9_rounds_ Revolver_(9_rounds)
 qstr_Bolt_action_magazine Bolt-action_magazine_rifle_(5_rounds)
+qstr_Bolt_action_magazine_ Bolt-action_magazine_rifle_(10_rounds)
 qstr_Pocket_Pistol__6_rou Pocket_Pistol_(6_rounds)
 qstr_Pocket_Pistol__4_rou Pocket_Pistol_(4_rounds)
 qstr_Breech_loaded_rifle Breech_loaded_rifle

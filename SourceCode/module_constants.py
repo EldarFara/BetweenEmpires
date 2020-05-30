@@ -8,6 +8,8 @@ from ID_factions import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+maximum_amount_of_bandit_parties = 350
+
 battle_type_nobattle		= 0
 battle_type_fieldbattle 	= 1
 battle_type_siege			= 2
