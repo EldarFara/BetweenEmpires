@@ -42,7 +42,7 @@ scripts = [
   # This script is called when a new game is started
   # INPUT: none
   ("game_start",
-   [
+	[
 (assign, "$ignore_script_game_missile_launch", 0),
 (assign, "$g_game_speed", 15),
 (assign, "$g_days_until_next_year", -1),
@@ -102,7 +102,17 @@ scripts = [
 (assign, "$player_company7_type", 0),
 (assign, "$player_company8_type", 0),
 
-	(try_for_range, ":npc", 0, "trp_cannoneers_end"),
+(assign, ":flag_scene", "str_flag1_0"),
+(assign, ":flag_map", "icon_map_flag_faction0"),
+	(try_for_range, ":faction", npc_kingdoms_begin, npc_kingdoms_end),
+	(val_add, ":flag_scene", 1), (val_add, ":flag_map", 1),
+	(faction_set_slot, ":faction", slot_faction_flag_scene, ":flag_scene"),
+	(faction_set_slot, ":faction", slot_faction_flag_map, ":flag_map"),
+	(try_end),
+(faction_set_slot, "fac_player_faction", slot_faction_flag_map, "icon_map_flag_faction0"), (faction_set_slot, "fac_player_faction", slot_faction_flag_scene, "str_flag1_0"),
+(faction_set_slot, "fac_player_supporters_faction", slot_faction_flag_map, "icon_map_flag_faction0"), (faction_set_slot, "fac_player_supporters_faction", slot_faction_flag_scene, "str_flag1_0"),
+	
+	(try_for_range, ":npc", 0, "trp_troops_end"),
 	(troop_set_class, ":npc", 8),
 	(troop_set_slot, ":npc", slot_troop_pbs_type, pbs_troop_type_line),
 	(try_end),
@@ -22645,8 +22655,8 @@ scripts = [
 	(this_or_next|party_slot_eq, ":center_no", slot_party_type, spt_town),
 	(party_slot_eq, ":center_no", slot_party_type, spt_castle),
 	(gt, ":lord_troop_id", -1),
-	(call_script, "script_get_banner_icon_for_faction", ":lord_troop_faction"),
-	(party_set_banner_icon, ":center_no", reg10),
+	(faction_get_slot, ":map_icon", ":lord_troop_faction", slot_faction_flag_map),
+	(party_set_banner_icon, ":center_no", ":map_icon"),
 	(try_end),
 
 #    (try_begin),
@@ -23507,8 +23517,8 @@ scripts = [
 
       #Setting the flag icon
       #normal_banner_begin
-		(call_script, "script_get_banner_icon_for_faction", ":troop_faction_no"),
-		(party_set_banner_icon, "$pout_party", reg10),
+		(faction_get_slot, ":map_icon", ":troop_faction_no", slot_faction_flag_map),
+		(party_set_banner_icon, "$pout_party", ":map_icon"),
 
       (try_begin),
         #because of below two lines, lords can only hire more than one party_template(stack) at game start once a time during all game.
@@ -57037,9 +57047,11 @@ scripts = [
 	(faction_get_color, ":color", ":orginal_faction"),
 	(faction_set_color, "fac_player_supporters_faction", ":color"),
 	(faction_set_color, "fac_player_faction", ":color"),
-	(call_script, "script_get_banner_icon_for_faction", ":orginal_faction"),
-	(party_set_banner_icon, "p_main_party", reg10),
-	(party_set_banner_icon, ":capital", reg10),
+	(faction_get_slot, ":map_icon", ":orginal_faction", slot_faction_flag_map), (faction_get_slot, ":flag_scene", ":orginal_faction", slot_faction_flag_scene),
+	(faction_set_slot, "fac_player_faction", slot_faction_flag_map, ":map_icon"), (faction_set_slot, "fac_player_faction", slot_faction_flag_scene, ":flag_scene"),
+	(faction_set_slot, "fac_player_supporters_faction", slot_faction_flag_map, ":map_icon"), (faction_set_slot, "fac_player_supporters_faction", slot_faction_flag_scene, ":flag_scene"),
+	(party_set_banner_icon, "p_main_party", ":map_icon"),
+	(party_set_banner_icon, ":capital", ":map_icon"),
 
 	(troop_raise_skill, "trp_player", skl_riding, 2), (troop_raise_skill, "trp_player", skl_leadership, 8),
 	(try_for_range,":slot",0,10),   
@@ -57088,27 +57100,6 @@ scripts = [
 (val_add, ":shift", ":shift2"),
 (position_move_y, pos36, ":shift", 0),
 (play_sound_at_position, ":sound", pos36),
-]),
-("get_banner_icon_for_faction",
-[
-(store_script_param, ":faction", 1),
-
-	(try_begin),
-	(is_between, ":faction", "fac_player_faction", "fac_kingdom_1"),
-		(try_begin),
-		(neq, "$player_faction_preset", -1),
-		(assign, ":faction", "$player_faction_preset"),
-		(try_end),
-	(assign, ":faction", "$player_faction_preset"),
-	(try_end),
-	(try_begin),
-	(is_between, ":faction", "fac_kingdom_1", "fac_kingdoms_end"),
-	(store_sub, ":number", "fac_kingdom_33", ":faction"),
-	(store_sub, ":number", 32, ":number"),
-	(val_add, ":number", "icon_map_flag_faction1"),
-	(assign, reg10, ":number"),
-	(try_end),
-
 ]),
 ("reset_companies_accuracy",
 [
@@ -57178,6 +57169,30 @@ scripts = [
 (store_script_param, ":chance", 1),
 (store_random_in_range, ":random", 1, 101),
 (lt, ":random", ":chance"),
+]),
+
+("change_faction_flag",
+[
+(store_script_param, ":faction", 1),
+(store_script_param, ":number", 2),
+
+(store_add, ":flag_material_string", "str_flag1_0", ":number"),
+(store_add, ":map_icon", "icon_map_flag_faction0", ":number"),
+(faction_set_slot, ":faction", slot_faction_flag_scene, ":flag_material_string"),
+(faction_set_slot, ":faction", slot_faction_flag_map, ":map_icon"),
+	(try_for_parties, ":party"),
+	(store_faction_of_party, ":party_faction", ":party"),
+		(try_begin),
+		(eq, ":party_faction", "fac_player_faction"),
+		(assign, ":party_faction", "fac_player_supporters_faction"),
+		(try_end),
+	(eq, ":party_faction", ":faction"),
+	(party_get_template_id, ":template", ":party"),
+	(this_or_next|is_between, ":party", towns_begin, towns_end),
+	(this_or_next|is_between, ":party", castles_begin, castles_end),
+	(eq, ":template", "pt_kingdom_hero_party"),
+	(party_set_banner_icon, ":party", ":map_icon"),
+	(try_end),
 ]),
 
 

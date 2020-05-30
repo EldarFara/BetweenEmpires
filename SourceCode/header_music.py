@@ -58,4 +58,5 @@ mtf_culture_westeurope = mtf_culture_1
 mtf_culture_easteurope = mtf_culture_2
 mtf_culture_middleeast = mtf_culture_3
 mtf_culture_spain = mtf_culture_4
-mtf_culture_europe = mtf_culture_westeurope|mtf_culture_easteurope|mtf_culture_spain
+mtf_culture_italy = mtf_culture_5
+mtf_culture_europe = mtf_culture_westeurope|mtf_culture_easteurope|mtf_culture_spain|mtf_culture_italy
