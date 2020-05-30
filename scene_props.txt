@@ -4824,10 +4824,12 @@ spr_Rus_Budka_A 0 0 Rus_Budka_A bo_Rus_Budka_A 0
 spr_Rus_Budka 0 0 Rus_Budka bo_Rus_Budka 0
 
 
-spr_pai_defensive_line 16384 0 pai_defensive_line 0 0
+spr_pai_defensive_line 16384 0 pai_defensive_line 0 1
+-40.000000  2 2071 1 1224979098644774912 510 3 1224979098644774912 180 0 
 
 
-spr_pai_artillery_position 16384 0 pai_artillery_position 0 0
+spr_pai_artillery_position 16384 0 pai_artillery_position 0 1
+-40.000000  2 2071 1 1224979098644774912 510 3 1224979098644774912 180 0 
 
 
 spr_YuriCannon1_Body 65536 0 field_gun_body1 0 1

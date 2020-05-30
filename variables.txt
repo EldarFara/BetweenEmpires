@@ -1217,10 +1217,10 @@ async_calculate_company_average_coordinates_team
 async_calculate_company_average_coordinates_company
 aerial_view_state
 pbs_point1
-g_enemy_team
 bugle_cooldown
 voices
 g_player_team
+g_enemy_team
 g_allies_team
 ignore_script_game_missile_launch
 player_fanning_timer

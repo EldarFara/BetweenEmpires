@@ -2080,7 +2080,7 @@ scn_castle_1_interior castle_1_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_L
   1  100000 
   1  1514 
  0 
-scn_castle_1_prison castle_1_prison 1 interior_prison_a bo_interior_prison_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_1_prison castle_1_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2092,7 +2092,7 @@ scn_castle_2_interior castle_2_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_L
   1  100000 
   1  1515 
  0 
-scn_castle_2_prison castle_2_prison 1 interior_prison_d bo_interior_prison_d -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_2_prison castle_2_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2104,7 +2104,7 @@ scn_castle_3_interior castle_3_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_L
   1  100000 
   1  1516 
  0 
-scn_castle_3_prison castle_3_prison 1 interior_prison_e bo_interior_prison_e -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_3_prison castle_3_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2116,7 +2116,7 @@ scn_castle_4_interior castle_4_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_L
   1  100000 
   1  1517 
  0 
-scn_castle_4_prison castle_4_prison 1 interior_prison_l bo_interior_prison_l -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_4_prison castle_4_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2128,7 +2128,7 @@ scn_castle_5_interior castle_5_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_L
   1  100000 
   1  1518 
  0 
-scn_castle_5_prison castle_5_prison 1 interior_prison_l bo_interior_prison_l -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_5_prison castle_5_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2140,7 +2140,7 @@ scn_castle_6_interior castle_6_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_L
   1  100000 
   1  1519 
  0 
-scn_castle_6_prison castle_6_prison 1 interior_prison_j bo_interior_prison_j -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_6_prison castle_6_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2152,7 +2152,7 @@ scn_castle_7_interior castle_7_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_L
   1  100000 
   1  1520 
  0 
-scn_castle_7_prison castle_7_prison 1 interior_prison_i bo_interior_prison_i -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_7_prison castle_7_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2164,7 +2164,7 @@ scn_castle_8_interior castle_8_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_L
   1  100000 
   1  1521 
  0 
-scn_castle_8_prison castle_8_prison 1 interior_prison_e bo_interior_prison_e -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_8_prison castle_8_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2176,7 +2176,7 @@ scn_castle_9_interior castle_9_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_L
   1  100000 
   1  1522 
  0 
-scn_castle_9_prison castle_9_prison 1 interior_prison_d bo_interior_prison_d -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_9_prison castle_9_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2188,7 +2188,7 @@ scn_castle_10_interior castle_10_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1523 
  0 
-scn_castle_10_prison castle_10_prison 1 interior_prison_l bo_interior_prison_l -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_10_prison castle_10_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2200,7 +2200,7 @@ scn_castle_11_interior castle_11_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1524 
  0 
-scn_castle_11_prison castle_11_prison 1 interior_prison_k bo_interior_prison_k -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_11_prison castle_11_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2212,7 +2212,7 @@ scn_castle_12_interior castle_12_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1525 
  0 
-scn_castle_12_prison castle_12_prison 1 interior_prison_i bo_interior_prison_i -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_12_prison castle_12_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2224,7 +2224,7 @@ scn_castle_13_interior castle_13_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1526 
  0 
-scn_castle_13_prison castle_13_prison 1 interior_prison_j bo_interior_prison_j -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_13_prison castle_13_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2236,7 +2236,7 @@ scn_castle_14_interior castle_14_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1527 
  0 
-scn_castle_14_prison castle_14_prison 1 interior_prison_m bo_interior_prison_m -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_14_prison castle_14_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2248,7 +2248,7 @@ scn_castle_15_interior castle_15_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1528 
  0 
-scn_castle_15_prison castle_15_prison 1 interior_prison_a bo_interior_prison_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_15_prison castle_15_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2260,7 +2260,7 @@ scn_castle_16_interior castle_16_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1529 
  0 
-scn_castle_16_prison castle_16_prison 1 interior_prison_l bo_interior_prison_l -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_16_prison castle_16_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2272,7 +2272,7 @@ scn_castle_17_interior castle_17_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1530 
  0 
-scn_castle_17_prison castle_17_prison 1 interior_prison_a bo_interior_prison_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_17_prison castle_17_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2284,7 +2284,7 @@ scn_castle_18_interior castle_18_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1531 
  0 
-scn_castle_18_prison castle_18_prison 1 interior_prison_k bo_interior_prison_k -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_18_prison castle_18_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2296,7 +2296,7 @@ scn_castle_19_interior castle_19_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1532 
  0 
-scn_castle_19_prison castle_19_prison 1 interior_prison_e bo_interior_prison_e -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_19_prison castle_19_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2308,7 +2308,7 @@ scn_castle_20_interior castle_20_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1533 
  0 
-scn_castle_20_prison castle_20_prison 1 interior_prison_d bo_interior_prison_d -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_20_prison castle_20_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2320,7 +2320,7 @@ scn_castle_21_interior castle_21_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1534 
  0 
-scn_castle_21_prison castle_21_prison 1 interior_prison_d bo_interior_prison_d -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_21_prison castle_21_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2332,7 +2332,7 @@ scn_castle_22_interior castle_22_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1535 
  0 
-scn_castle_22_prison castle_22_prison 1 interior_prison_i bo_interior_prison_i -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_22_prison castle_22_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2344,7 +2344,7 @@ scn_castle_23_interior castle_23_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1536 
  0 
-scn_castle_23_prison castle_23_prison 1 interior_prison_b bo_interior_prison_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_23_prison castle_23_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2356,7 +2356,7 @@ scn_castle_24_interior castle_24_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1537 
  0 
-scn_castle_24_prison castle_24_prison 1 interior_prison_f bo_interior_prison_f -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_24_prison castle_24_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2368,7 +2368,7 @@ scn_castle_25_interior castle_25_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1538 
  0 
-scn_castle_25_prison castle_25_prison 1 interior_prison_a bo_interior_prison_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_25_prison castle_25_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2380,7 +2380,7 @@ scn_castle_26_interior castle_26_interior 1 mideast_interior_keep_b bo_mideast_i
   1  100000 
   1  1539 
  0 
-scn_castle_26_prison castle_26_prison 1 interior_prison_h bo_interior_prison_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_26_prison castle_26_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2392,7 +2392,7 @@ scn_castle_27_interior castle_27_interior 1 mideast_interior_keep_b bo_mideast_i
   1  100000 
   1  1540 
  0 
-scn_castle_27_prison castle_27_prison 1 interior_prison_i bo_interior_prison_i -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_27_prison castle_27_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2404,7 +2404,7 @@ scn_castle_28_interior castle_28_interior 1 mideast_interior_keep_b bo_mideast_i
   1  100000 
   1  1541 
  0 
-scn_castle_28_prison castle_28_prison 1 interior_prison_j bo_interior_prison_j -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_28_prison castle_28_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2416,7 +2416,7 @@ scn_castle_29_interior castle_29_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1542 
  0 
-scn_castle_29_prison castle_29_prison 1 interior_prison_a bo_interior_prison_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_29_prison castle_29_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2428,7 +2428,7 @@ scn_castle_30_interior castle_30_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1543 
  0 
-scn_castle_30_prison castle_30_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_30_prison castle_30_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2440,7 +2440,7 @@ scn_castle_31_interior castle_31_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1544 
  0 
-scn_castle_31_prison castle_31_prison 1 interior_prison_i bo_interior_prison_i -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_31_prison castle_31_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2452,7 +2452,7 @@ scn_castle_32_interior castle_32_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1545 
  0 
-scn_castle_32_prison castle_32_prison 1 interior_prison_j bo_interior_prison_j -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_32_prison castle_32_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2464,7 +2464,7 @@ scn_castle_33_interior castle_33_interior 1 interior_palacio_c bo_interior_palac
   1  100000 
   1  1546 
  0 
-scn_castle_33_prison castle_33_prison 1 interior_prison_d bo_interior_prison_d -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_33_prison castle_33_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2476,7 +2476,7 @@ scn_castle_34_interior castle_34_interior 1 interior_palacio_c bo_interior_palac
   1  100000 
   1  1547 
  0 
-scn_castle_34_prison castle_34_prison 1 interior_prison_f bo_interior_prison_f -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_34_prison castle_34_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2488,7 +2488,7 @@ scn_castle_35_interior castle_35_interior 1 mideast_interior_keep_a bo_mideast_i
   1  100000 
   1  1548 
  0 
-scn_castle_35_prison castle_35_prison 1 interior_prison_f bo_interior_prison_f -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_35_prison castle_35_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2500,7 +2500,7 @@ scn_castle_36_interior castle_36_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1549 
  0 
-scn_castle_36_prison castle_36_prison 1 interior_prison_h bo_interior_prison_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_36_prison castle_36_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2512,7 +2512,7 @@ scn_castle_37_interior castle_37_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1550 
  0 
-scn_castle_37_prison castle_37_prison 1 interior_prison_l bo_interior_prison_l -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_37_prison castle_37_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2524,7 +2524,7 @@ scn_castle_38_interior castle_38_interior 1 mideast_interior_keep_b bo_mideast_i
   1  100000 
   1  1548 
  0 
-scn_castle_38_prison castle_38_prison 1 interior_prison_o bo_interior_prison_o -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_38_prison castle_38_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2536,7 +2536,7 @@ scn_castle_39_interior castle_39_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1552 
  0 
-scn_castle_39_prison castle_39_prison 1 interior_prison_k bo_interior_prison_k -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_39_prison castle_39_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2548,7 +2548,7 @@ scn_castle_40_interior castle_40_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1553 
  0 
-scn_castle_40_prison castle_40_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_40_prison castle_40_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2560,7 +2560,7 @@ scn_castle_41_interior castle_41_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1544 
  0 
-scn_castle_41_prison castle_41_prison 1 interior_prison_i bo_interior_prison_i -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_41_prison castle_41_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2572,7 +2572,7 @@ scn_castle_42_interior castle_42_interior 1 interior_palacio_c bo_interior_palac
   1  100000 
   1  1545 
  0 
-scn_castle_42_prison castle_42_prison 1 interior_prison_o bo_interior_prison_o -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_42_prison castle_42_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2584,7 +2584,7 @@ scn_castle_43_interior castle_43_interior 1 interior_palacio_h bo_interior_palac
   1  100000 
   1  1546 
  0 
-scn_castle_43_prison castle_43_prison 1 interior_prison_o bo_interior_prison_o -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_43_prison castle_43_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2596,7 +2596,7 @@ scn_castle_44_interior castle_44_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1547 
  0 
-scn_castle_44_prison castle_44_prison 1 interior_prison_o bo_interior_prison_o -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_44_prison castle_44_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2608,7 +2608,7 @@ scn_castle_45_interior castle_45_interior 1 interior_palacio_h bo_interior_palac
   1  100000 
   1  1548 
  0 
-scn_castle_45_prison castle_45_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_45_prison castle_45_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2620,7 +2620,7 @@ scn_castle_46_interior castle_46_interior 1 interior_palacio_h bo_interior_palac
   1  100000 
   1  1549 
  0 
-scn_castle_46_prison castle_46_prison 1 interior_prison_o bo_interior_prison_o -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_46_prison castle_46_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2632,7 +2632,7 @@ scn_castle_47_interior castle_47_interior 1 interior_palacio_h bo_interior_palac
   1  100000 
   1  1550 
  0 
-scn_castle_47_prison castle_47_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_47_prison castle_47_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2644,7 +2644,7 @@ scn_castle_48_interior castle_48_interior 1 interior_palacio_h bo_interior_palac
   1  100000 
   1  1550 
  0 
-scn_castle_48_prison castle_48_prison 1 interior_prison_o bo_interior_prison_o -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_48_prison castle_48_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2656,7 +2656,7 @@ scn_castle_49_interior castle_49_interior 1 interior_palacio_h bo_interior_palac
   1  100000 
   1  1562 
  0 
-scn_castle_49_prison castle_49_prison 1 interior_prison_f bo_interior_prison_f -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_49_prison castle_49_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2668,7 +2668,7 @@ scn_castle_50_interior castle_50_interior 1 interior_palacio_h bo_interior_palac
   1  100000 
   1  1563 
  0 
-scn_castle_50_prison castle_50_prison 1 interior_prison_j bo_interior_prison_j -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_50_prison castle_50_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2680,7 +2680,7 @@ scn_castle_51_interior castle_51_interior 1 interior_palacio_h bo_interior_palac
   1  100000 
   1  1564 
  0 
-scn_castle_51_prison castle_51_prison 1 interior_prison_i bo_interior_prison_i -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_51_prison castle_51_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2692,7 +2692,7 @@ scn_castle_52_interior castle_52_interior 1 mideast_interior_keep_b bo_mideast_i
   1  100000 
   1  1565 
  0 
-scn_castle_52_prison castle_52_prison 1 interior_prison_d bo_interior_prison_d -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_52_prison castle_52_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2704,7 +2704,7 @@ scn_castle_53_interior castle_53_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1566 
  0 
-scn_castle_53_prison castle_53_prison 1 interior_prison_f bo_interior_prison_f -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_53_prison castle_53_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2716,7 +2716,7 @@ scn_castle_54_interior castle_54_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1567 
  0 
-scn_castle_54_prison castle_54_prison 1 interior_prison_e bo_interior_prison_e -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_54_prison castle_54_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2728,7 +2728,7 @@ scn_castle_55_interior castle_55_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1568 
  0 
-scn_castle_55_prison castle_55_prison 1 interior_prison_k bo_interior_prison_k -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_55_prison castle_55_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2740,7 +2740,7 @@ scn_castle_56_interior castle_56_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1569 
  0 
-scn_castle_56_prison castle_56_prison 1 interior_prison_a bo_interior_prison_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_56_prison castle_56_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2752,7 +2752,7 @@ scn_castle_57_interior castle_57_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1570 
  0 
-scn_castle_57_prison castle_57_prison 1 interior_prison_h bo_interior_prison_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_57_prison castle_57_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2764,7 +2764,7 @@ scn_castle_58_interior castle_58_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1571 
  0 
-scn_castle_58_prison castle_58_prison 1 interior_prison_l bo_interior_prison_l -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_58_prison castle_58_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2776,7 +2776,7 @@ scn_castle_59_interior castle_59_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1572 
  0 
-scn_castle_59_prison castle_59_prison 1 interior_prison_a bo_interior_prison_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_59_prison castle_59_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2788,7 +2788,7 @@ scn_castle_60_interior castle_60_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1573 
  0 
-scn_castle_60_prison castle_60_prison 1 interior_prison_m bo_interior_prison_m -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_60_prison castle_60_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2800,7 +2800,7 @@ scn_castle_61_interior castle_61_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1574 
  0 
-scn_castle_61_prison castle_61_prison 1 interior_prison_l bo_interior_prison_l -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_61_prison castle_61_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2812,7 +2812,7 @@ scn_castle_62_interior castle_62_interior 1 interior_palacio_h bo_interior_palac
   1  100000 
   1  1575 
  0 
-scn_castle_62_prison castle_62_prison 1 interior_prison_o bo_interior_prison_o -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_62_prison castle_62_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2824,7 +2824,7 @@ scn_castle_63_interior castle_63_interior 1 interior_palacio_h bo_interior_palac
   1  100000 
   1  1576 
  0 
-scn_castle_63_prison castle_63_prison 1 interior_prison_o bo_interior_prison_o -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_63_prison castle_63_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2836,7 +2836,7 @@ scn_castle_64_interior castle_64_interior 1 interior_palacio_h bo_interior_palac
   1  100000 
   1  1577 
  0 
-scn_castle_64_prison castle_64_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_64_prison castle_64_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2848,7 +2848,7 @@ scn_castle_65_interior castle_65_interior 1 mideast_interior_keep_a bo_mideast_i
   1  100000 
   1  1578 
  0 
-scn_castle_65_prison castle_65_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_65_prison castle_65_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2860,7 +2860,7 @@ scn_castle_66_interior castle_66_interior 1 mideast_interior_keep_b bo_mideast_i
   1  100000 
   1  1579 
  0 
-scn_castle_66_prison castle_66_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_66_prison castle_66_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2872,7 +2872,7 @@ scn_castle_67_interior castle_67_interior 1 mideast_interior_keep_b bo_mideast_i
   1  100000 
   1  1580 
  0 
-scn_castle_67_prison castle_67_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_67_prison castle_67_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2884,7 +2884,7 @@ scn_castle_68_interior castle_68_interior 1 interior_palacio_h bo_interior_palac
   1  100000 
   1  1581 
  0 
-scn_castle_68_prison castle_68_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_68_prison castle_68_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2896,7 +2896,7 @@ scn_castle_69_interior castle_69_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1582 
  0 
-scn_castle_69_prison castle_69_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_69_prison castle_69_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2908,7 +2908,7 @@ scn_castle_70_interior castle_70_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1577 
  0 
-scn_castle_70_prison castle_70_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_70_prison castle_70_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2920,7 +2920,7 @@ scn_castle_71_interior castle_71_interior 1 interior_palacio_h bo_interior_palac
   1  100000 
   1  1577 
  0 
-scn_castle_71_prison castle_71_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_71_prison castle_71_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2932,7 +2932,7 @@ scn_castle_72_interior castle_72_interior 1 mideast_interior_keep_b bo_mideast_i
   1  100000 
   1  1577 
  0 
-scn_castle_72_prison castle_72_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_72_prison castle_72_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2944,7 +2944,7 @@ scn_castle_73_interior castle_73_interior 1 mideast_interior_keep_b bo_mideast_i
   1  100000 
   1  1577 
  0 
-scn_castle_73_prison castle_73_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_73_prison castle_73_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2956,7 +2956,7 @@ scn_castle_74_interior castle_74_interior 1 mideast_interior_keep_b bo_mideast_i
   1  100000 
   1  1577 
  0 
-scn_castle_74_prison castle_74_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_74_prison castle_74_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2968,7 +2968,7 @@ scn_castle_75_interior castle_75_interior 1 mideast_interior_keep_b bo_mideast_i
   1  100000 
   1  1577 
  0 
-scn_castle_75_prison castle_75_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_75_prison castle_75_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2980,7 +2980,7 @@ scn_castle_76_interior castle_76_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1577 
  0 
-scn_castle_76_prison castle_76_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_76_prison castle_76_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -2992,7 +2992,7 @@ scn_castle_77_interior castle_77_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1577 
  0 
-scn_castle_77_prison castle_77_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_77_prison castle_77_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3004,7 +3004,7 @@ scn_castle_78_interior castle_78_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1577 
  0 
-scn_castle_78_prison castle_78_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_78_prison castle_78_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3016,7 +3016,7 @@ scn_castle_79_interior castle_79_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1577 
  0 
-scn_castle_79_prison castle_79_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_79_prison castle_79_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3028,7 +3028,7 @@ scn_castle_80_interior castle_80_interior 1 mideast_interior_keep_b bo_mideast_i
   1  100000 
   1  1577 
  0 
-scn_castle_80_prison castle_80_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_80_prison castle_80_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3040,7 +3040,7 @@ scn_castle_81_interior castle_81_interior 1 mideast_interior_keep_b bo_mideast_i
   1  100000 
   1  1577 
  0 
-scn_castle_81_prison castle_81_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_81_prison castle_81_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3052,7 +3052,7 @@ scn_castle_82_interior castle_82_interior 1 mideast_interior_keep_b bo_mideast_i
   1  100000 
   1  1577 
  0 
-scn_castle_82_prison castle_82_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_82_prison castle_82_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3064,7 +3064,7 @@ scn_castle_83_interior castle_83_interior 1 interior_palacio_h bo_interior_palac
   1  100000 
   1  1577 
  0 
-scn_castle_83_prison castle_83_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_83_prison castle_83_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3076,7 +3076,7 @@ scn_castle_84_interior castle_84_interior 1 interior_palacio_h bo_interior_palac
   1  100000 
   1  1597 
  0 
-scn_castle_84_prison castle_84_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_84_prison castle_84_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3088,7 +3088,7 @@ scn_castle_85_interior castle_85_interior 1 interior_palacio_h bo_interior_palac
   1  100000 
   1  1598 
  0 
-scn_castle_85_prison castle_85_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_85_prison castle_85_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3100,7 +3100,7 @@ scn_castle_86_interior castle_86_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1599 
  0 
-scn_castle_86_prison castle_86_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_86_prison castle_86_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3112,7 +3112,7 @@ scn_castle_87_interior castle_87_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1600 
  0 
-scn_castle_87_prison castle_87_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_87_prison castle_87_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3124,7 +3124,7 @@ scn_castle_88_interior castle_88_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1601 
  0 
-scn_castle_88_prison castle_88_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_88_prison castle_88_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3136,7 +3136,7 @@ scn_castle_89_interior castle_89_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1602 
  0 
-scn_castle_89_prison castle_89_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_89_prison castle_89_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3148,7 +3148,7 @@ scn_castle_90_interior castle_90_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1603 
  0 
-scn_castle_90_prison castle_90_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_90_prison castle_90_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3160,7 +3160,7 @@ scn_castle_91_interior castle_91_interior 1 interior_palacio_h bo_interior_palac
   1  100000 
   1  1604 
  0 
-scn_castle_91_prison castle_91_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_91_prison castle_91_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3172,7 +3172,7 @@ scn_castle_92_interior castle_92_interior 1 eu_interior4 bo_eu_interior4 -100.00
   1  100000 
   1  1605 
  0 
-scn_castle_92_prison castle_92_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_92_prison castle_92_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3184,7 +3184,7 @@ scn_castle_93_interior castle_93_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1606 
  0 
-scn_castle_93_prison castle_93_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_93_prison castle_93_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3196,7 +3196,7 @@ scn_castle_94_interior castle_94_interior 1 mideast_interior_keep_b bo_mideast_i
   1  100000 
   1  1607 
  0 
-scn_castle_94_prison castle_94_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_94_prison castle_94_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3208,7 +3208,7 @@ scn_castle_95_interior castle_95_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town
   1  100000 
   1  1608 
  0 
-scn_castle_95_prison castle_95_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_95_prison castle_95_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3220,7 +3220,7 @@ scn_castle_96_interior castle_96_interior 1 interior_palacio_h bo_interior_palac
   1  100000 
   1  1609 
  0 
-scn_castle_96_prison castle_96_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_96_prison castle_96_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3232,7 +3232,7 @@ scn_castle_97_interior castle_97_interior 1 mideast_interior_keep_b bo_mideast_i
   1  100000 
   1  1610 
  0 
-scn_castle_97_prison castle_97_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_97_prison castle_97_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3244,7 +3244,7 @@ scn_castle_98_interior castle_98_interior 1 castle_h_interior_a bo_castle_h_inte
   1  100000 
   1  1609 
  0 
-scn_castle_98_prison castle_98_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_98_prison castle_98_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3256,7 +3256,7 @@ scn_castle_99_interior castle_99_interior 1 mideast_interior_keep_b bo_mideast_i
   1  100000 
   1  1612 
  0 
-scn_castle_99_prison castle_99_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_99_prison castle_99_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3268,7 +3268,7 @@ scn_castle_100_interior castle_100_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1613 
  0 
-scn_castle_100_prison castle_100_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_100_prison castle_100_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3280,7 +3280,7 @@ scn_castle_101_interior castle_101_interior 1 eu_interior4 bo_eu_interior4 -100.
   1  100000 
   1  1614 
  0 
-scn_castle_101_prison castle_101_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_101_prison castle_101_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3292,7 +3292,7 @@ scn_castle_102_interior castle_102_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1615 
  0 
-scn_castle_102_prison castle_102_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_102_prison castle_102_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3304,7 +3304,7 @@ scn_castle_103_interior castle_103_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1616 
  0 
-scn_castle_103_prison castle_103_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_103_prison castle_103_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3316,7 +3316,7 @@ scn_castle_104_interior castle_104_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1617 
  0 
-scn_castle_104_prison castle_104_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_104_prison castle_104_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3328,7 +3328,7 @@ scn_castle_105_interior castle_105_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1618 
  0 
-scn_castle_105_prison castle_105_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_105_prison castle_105_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3340,7 +3340,7 @@ scn_castle_106_interior castle_106_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1619 
  0 
-scn_castle_106_prison castle_106_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_106_prison castle_106_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3352,7 +3352,7 @@ scn_castle_107_interior castle_107_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1620 
  0 
-scn_castle_107_prison castle_107_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_107_prison castle_107_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3364,7 +3364,7 @@ scn_castle_108_interior castle_108_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1621 
  0 
-scn_castle_108_prison castle_108_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_108_prison castle_108_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3376,7 +3376,7 @@ scn_castle_109_interior castle_109_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1622 
  0 
-scn_castle_109_prison castle_109_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_109_prison castle_109_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3388,7 +3388,7 @@ scn_castle_110_interior castle_110_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1623 
  0 
-scn_castle_110_prison castle_110_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_110_prison castle_110_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3400,7 +3400,7 @@ scn_castle_111_interior castle_111_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1624 
  0 
-scn_castle_111_prison castle_111_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_111_prison castle_111_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3412,7 +3412,7 @@ scn_castle_112_interior castle_112_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1625 
  0 
-scn_castle_112_prison castle_112_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_112_prison castle_112_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3424,7 +3424,7 @@ scn_castle_113_interior castle_113_interior 1 mideast_interior_keep_b bo_mideast
   1  100000 
   1  1626 
  0 
-scn_castle_113_prison castle_113_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_113_prison castle_113_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3436,7 +3436,7 @@ scn_castle_114_interior castle_114_interior 1 mideast_interior_keep_b bo_mideast
   1  100000 
   1  1627 
  0 
-scn_castle_114_prison castle_114_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_114_prison castle_114_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3448,7 +3448,7 @@ scn_castle_115_interior castle_115_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1628 
  0 
-scn_castle_115_prison castle_115_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_115_prison castle_115_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3460,7 +3460,7 @@ scn_castle_116_interior castle_116_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1629 
  0 
-scn_castle_116_prison castle_116_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_116_prison castle_116_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3472,7 +3472,7 @@ scn_castle_117_interior castle_117_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1630 
  0 
-scn_castle_117_prison castle_117_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_117_prison castle_117_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3484,7 +3484,7 @@ scn_castle_118_interior castle_118_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1631 
  0 
-scn_castle_118_prison castle_118_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_118_prison castle_118_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3496,7 +3496,7 @@ scn_castle_119_interior castle_119_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1632 
  0 
-scn_castle_119_prison castle_119_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_119_prison castle_119_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3508,7 +3508,7 @@ scn_castle_120_interior castle_120_interior 1 mideast_interior_keep_a bo_mideast
   1  100000 
   1  1633 
  0 
-scn_castle_120_prison castle_120_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_120_prison castle_120_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3520,7 +3520,7 @@ scn_castle_121_interior castle_121_interior 1 mideast_interior_keep_b bo_mideast
   1  100000 
   1  1634 
  0 
-scn_castle_121_prison castle_121_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_121_prison castle_121_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3532,7 +3532,7 @@ scn_castle_122_interior castle_122_interior 1 mideast_interior_keep_b bo_mideast
   1  100000 
   1  1635 
  0 
-scn_castle_122_prison castle_122_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_122_prison castle_122_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3544,7 +3544,7 @@ scn_castle_123_interior castle_123_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1636 
  0 
-scn_castle_123_prison castle_123_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_123_prison castle_123_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3556,7 +3556,7 @@ scn_castle_124_interior castle_124_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1637 
  0 
-scn_castle_124_prison castle_124_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_124_prison castle_124_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3568,7 +3568,7 @@ scn_castle_125_interior castle_125_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1638 
  0 
-scn_castle_125_prison castle_125_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_125_prison castle_125_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3580,7 +3580,7 @@ scn_castle_126_interior castle_126_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1639 
  0 
-scn_castle_126_prison castle_126_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_126_prison castle_126_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3592,7 +3592,7 @@ scn_castle_127_interior castle_127_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1640 
  0 
-scn_castle_127_prison castle_127_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_127_prison castle_127_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3604,7 +3604,7 @@ scn_castle_128_interior castle_128_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1641 
  0 
-scn_castle_128_prison castle_128_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_128_prison castle_128_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3616,7 +3616,7 @@ scn_castle_129_interior castle_129_interior 1 mideast_interior_keep_b bo_mideast
   1  100000 
   1  1642 
  0 
-scn_castle_129_prison castle_129_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_129_prison castle_129_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3628,7 +3628,7 @@ scn_castle_130_interior castle_130_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1643 
  0 
-scn_castle_130_prison castle_130_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_130_prison castle_130_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3640,7 +3640,7 @@ scn_castle_131_interior castle_131_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1644 
  0 
-scn_castle_131_prison castle_131_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_131_prison castle_131_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3652,7 +3652,7 @@ scn_castle_132_interior castle_132_interior 1 eu_interior4 bo_eu_interior4 -100.
   1  100000 
   1  1645 
  0 
-scn_castle_132_prison castle_132_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_132_prison castle_132_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3664,7 +3664,7 @@ scn_castle_133_interior castle_133_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1646 
  0 
-scn_castle_133_prison castle_133_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_133_prison castle_133_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3676,7 +3676,7 @@ scn_castle_134_interior castle_134_interior 1 mideast_interior_keep_b bo_mideast
   1  100000 
   1  1647 
  0 
-scn_castle_134_prison castle_134_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_134_prison castle_134_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3688,7 +3688,7 @@ scn_castle_135_interior castle_135_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_135_prison castle_135_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_135_prison castle_135_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3700,7 +3700,7 @@ scn_castle_136_interior castle_136_interior 1 eu_interior4 bo_eu_interior4 -100.
   1  100000 
   1  1648 
  0 
-scn_castle_136_prison castle_136_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_136_prison castle_136_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3712,7 +3712,7 @@ scn_castle_137_interior castle_137_interior 1 eu_interior4 bo_eu_interior4 -100.
   1  100000 
   1  1648 
  0 
-scn_castle_137_prison castle_137_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_137_prison castle_137_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3724,7 +3724,7 @@ scn_castle_138_interior castle_138_interior 1 eu_interior4 bo_eu_interior4 -100.
   1  100000 
   1  1648 
  0 
-scn_castle_138_prison castle_138_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_138_prison castle_138_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3736,7 +3736,7 @@ scn_castle_139_interior castle_139_interior 1 eu_interior4 bo_eu_interior4 -100.
   1  100000 
   1  1648 
  0 
-scn_castle_139_prison castle_139_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_139_prison castle_139_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3748,7 +3748,7 @@ scn_castle_140_interior castle_140_interior 1 eu_interior4 bo_eu_interior4 -100.
   1  100000 
   1  1648 
  0 
-scn_castle_140_prison castle_140_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_140_prison castle_140_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3760,7 +3760,7 @@ scn_castle_141_interior castle_141_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_141_prison castle_141_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_141_prison castle_141_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3772,7 +3772,7 @@ scn_castle_142_interior castle_142_interior 1 eu_interior4 bo_eu_interior4 -100.
   1  100000 
   1  1648 
  0 
-scn_castle_142_prison castle_142_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_142_prison castle_142_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3784,7 +3784,7 @@ scn_castle_143_interior castle_143_interior 1 eu_interior4 bo_eu_interior4 -100.
   1  100000 
   1  1648 
  0 
-scn_castle_143_prison castle_143_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_143_prison castle_143_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3796,7 +3796,7 @@ scn_castle_144_interior castle_144_interior 1 eu_interior4 bo_eu_interior4 -100.
   1  100000 
   1  1648 
  0 
-scn_castle_144_prison castle_144_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_144_prison castle_144_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3808,7 +3808,7 @@ scn_castle_145_interior castle_145_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_145_prison castle_145_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_145_prison castle_145_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3820,7 +3820,7 @@ scn_castle_146_interior castle_146_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_146_prison castle_146_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_146_prison castle_146_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3832,7 +3832,7 @@ scn_castle_147_interior castle_147_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_147_prison castle_147_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_147_prison castle_147_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3844,7 +3844,7 @@ scn_castle_148_interior castle_148_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_148_prison castle_148_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_148_prison castle_148_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3856,7 +3856,7 @@ scn_castle_149_interior castle_149_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_149_prison castle_149_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_149_prison castle_149_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3868,7 +3868,7 @@ scn_castle_150_interior castle_150_interior 1 mideast_interior_keep_b bo_mideast
   1  100000 
   1  1648 
  0 
-scn_castle_150_prison castle_150_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_150_prison castle_150_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3880,7 +3880,7 @@ scn_castle_151_interior castle_151_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_151_prison castle_151_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_151_prison castle_151_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3892,7 +3892,7 @@ scn_castle_152_interior castle_152_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_152_prison castle_152_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_152_prison castle_152_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3904,7 +3904,7 @@ scn_castle_153_interior castle_153_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_153_prison castle_153_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_153_prison castle_153_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3916,7 +3916,7 @@ scn_castle_154_interior castle_154_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_154_prison castle_154_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_154_prison castle_154_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3928,7 +3928,7 @@ scn_castle_155_interior castle_155_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_155_prison castle_155_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_155_prison castle_155_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3940,7 +3940,7 @@ scn_castle_156_interior castle_156_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_156_prison castle_156_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_156_prison castle_156_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3952,7 +3952,7 @@ scn_castle_157_interior castle_157_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_157_prison castle_157_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_157_prison castle_157_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3964,7 +3964,7 @@ scn_castle_158_interior castle_158_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_158_prison castle_158_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_158_prison castle_158_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3976,7 +3976,7 @@ scn_castle_159_interior castle_159_interior 1 eu_interior4 bo_eu_interior4 -100.
   1  100000 
   1  1648 
  0 
-scn_castle_159_prison castle_159_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_159_prison castle_159_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -3988,7 +3988,7 @@ scn_castle_160_interior castle_160_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_160_prison castle_160_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_160_prison castle_160_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4000,7 +4000,7 @@ scn_castle_161_interior castle_161_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_161_prison castle_161_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_161_prison castle_161_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4012,7 +4012,7 @@ scn_castle_162_interior castle_162_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_162_prison castle_162_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_162_prison castle_162_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4024,7 +4024,7 @@ scn_castle_163_interior castle_163_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_163_prison castle_163_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_163_prison castle_163_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4036,7 +4036,7 @@ scn_castle_164_interior castle_164_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_164_prison castle_164_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_164_prison castle_164_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4048,7 +4048,7 @@ scn_castle_165_interior castle_165_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_165_prison castle_165_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_165_prison castle_165_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4060,7 +4060,7 @@ scn_castle_166_interior castle_166_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_166_prison castle_166_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_166_prison castle_166_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4072,7 +4072,7 @@ scn_castle_167_interior castle_167_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_167_prison castle_167_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_167_prison castle_167_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4084,7 +4084,7 @@ scn_castle_168_interior castle_168_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_168_prison castle_168_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_168_prison castle_168_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4096,7 +4096,7 @@ scn_castle_169_interior castle_169_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_169_prison castle_169_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_169_prison castle_169_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4108,7 +4108,7 @@ scn_castle_170_interior castle_170_interior 1 mideast_interior_keep_b bo_mideast
   1  100000 
   1  1648 
  0 
-scn_castle_170_prison castle_170_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_170_prison castle_170_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4120,7 +4120,7 @@ scn_castle_171_interior castle_171_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_171_prison castle_171_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_171_prison castle_171_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4132,7 +4132,7 @@ scn_castle_172_interior castle_172_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_172_prison castle_172_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_172_prison castle_172_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4144,7 +4144,7 @@ scn_castle_173_interior castle_173_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_173_prison castle_173_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_173_prison castle_173_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4156,7 +4156,7 @@ scn_castle_174_interior castle_174_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_174_prison castle_174_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_174_prison castle_174_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4168,7 +4168,7 @@ scn_castle_175_interior castle_175_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_175_prison castle_175_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_175_prison castle_175_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4180,7 +4180,7 @@ scn_castle_176_interior castle_176_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_176_prison castle_176_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_176_prison castle_176_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4192,7 +4192,7 @@ scn_castle_177_interior castle_177_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_177_prison castle_177_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_177_prison castle_177_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4204,7 +4204,7 @@ scn_castle_178_interior castle_178_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_178_prison castle_178_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_178_prison castle_178_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4216,7 +4216,7 @@ scn_castle_179_interior castle_179_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_179_prison castle_179_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_179_prison castle_179_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4228,7 +4228,7 @@ scn_castle_180_interior castle_180_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_180_prison castle_180_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_180_prison castle_180_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4240,7 +4240,7 @@ scn_castle_181_interior castle_181_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_181_prison castle_181_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_181_prison castle_181_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4252,7 +4252,7 @@ scn_castle_182_interior castle_182_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_182_prison castle_182_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_182_prison castle_182_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4264,7 +4264,7 @@ scn_castle_183_interior castle_183_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_183_prison castle_183_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_183_prison castle_183_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4276,7 +4276,7 @@ scn_castle_184_interior castle_184_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_184_prison castle_184_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_184_prison castle_184_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4288,7 +4288,7 @@ scn_castle_185_interior castle_185_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_185_prison castle_185_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_185_prison castle_185_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4300,7 +4300,7 @@ scn_castle_186_interior castle_186_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_186_prison castle_186_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_186_prison castle_186_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4312,7 +4312,7 @@ scn_castle_187_interior castle_187_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_187_prison castle_187_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_187_prison castle_187_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4324,7 +4324,7 @@ scn_castle_188_interior castle_188_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_188_prison castle_188_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_188_prison castle_188_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4336,7 +4336,7 @@ scn_castle_189_interior castle_189_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_189_prison castle_189_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_189_prison castle_189_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4348,7 +4348,7 @@ scn_castle_190_interior castle_190_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_190_prison castle_190_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_190_prison castle_190_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4360,7 +4360,7 @@ scn_castle_191_interior castle_191_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_191_prison castle_191_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_191_prison castle_191_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4372,7 +4372,7 @@ scn_castle_192_interior castle_192_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_192_prison castle_192_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_192_prison castle_192_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4384,7 +4384,7 @@ scn_castle_193_interior castle_193_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_193_prison castle_193_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_193_prison castle_193_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4396,7 +4396,7 @@ scn_castle_194_interior castle_194_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_194_prison castle_194_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_194_prison castle_194_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4408,7 +4408,7 @@ scn_castle_195_interior castle_195_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_195_prison castle_195_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_195_prison castle_195_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4420,7 +4420,7 @@ scn_castle_196_interior castle_196_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_196_prison castle_196_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_196_prison castle_196_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4432,7 +4432,7 @@ scn_castle_197_interior castle_197_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_197_prison castle_197_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_197_prison castle_197_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4444,7 +4444,7 @@ scn_castle_198_interior castle_198_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_198_prison castle_198_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_198_prison castle_198_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4456,7 +4456,7 @@ scn_castle_199_interior castle_199_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_199_prison castle_199_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_199_prison castle_199_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4468,7 +4468,7 @@ scn_castle_200_interior castle_200_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_200_prison castle_200_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_200_prison castle_200_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4480,7 +4480,7 @@ scn_castle_201_interior castle_201_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_201_prison castle_201_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_201_prison castle_201_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4492,7 +4492,7 @@ scn_castle_202_interior castle_202_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_202_prison castle_202_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_202_prison castle_202_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4504,7 +4504,7 @@ scn_castle_203_interior castle_203_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_203_prison castle_203_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_203_prison castle_203_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4516,7 +4516,7 @@ scn_castle_204_interior castle_204_interior 1 mideast_interior_keep_b bo_mideast
   1  100000 
   1  1648 
  0 
-scn_castle_204_prison castle_204_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_204_prison castle_204_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4528,7 +4528,7 @@ scn_castle_205_interior castle_205_interior 1 interior_palacio_c bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_205_prison castle_205_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_205_prison castle_205_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4540,7 +4540,7 @@ scn_castle_206_interior castle_206_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_206_prison castle_206_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_206_prison castle_206_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4552,7 +4552,7 @@ scn_castle_207_interior castle_207_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_207_prison castle_207_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_207_prison castle_207_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4564,7 +4564,7 @@ scn_castle_208_interior castle_208_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_208_prison castle_208_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_208_prison castle_208_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4576,7 +4576,7 @@ scn_castle_209_interior castle_209_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_209_prison castle_209_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_209_prison castle_209_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4588,7 +4588,7 @@ scn_castle_210_interior castle_210_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_210_prison castle_210_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_210_prison castle_210_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4600,7 +4600,7 @@ scn_castle_211_interior castle_211_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_211_prison castle_211_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_211_prison castle_211_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4612,7 +4612,7 @@ scn_castle_212_interior castle_212_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_212_prison castle_212_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_212_prison castle_212_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4624,7 +4624,7 @@ scn_castle_213_interior castle_213_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_213_prison castle_213_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_213_prison castle_213_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4636,7 +4636,7 @@ scn_castle_214_interior castle_214_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_214_prison castle_214_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_214_prison castle_214_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4648,7 +4648,7 @@ scn_castle_215_interior castle_215_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_215_prison castle_215_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_215_prison castle_215_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4660,7 +4660,7 @@ scn_castle_216_interior castle_216_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_216_prison castle_216_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_216_prison castle_216_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4672,7 +4672,7 @@ scn_castle_217_interior castle_217_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_217_prison castle_217_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_217_prison castle_217_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4684,7 +4684,7 @@ scn_castle_218_interior castle_218_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_218_prison castle_218_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_218_prison castle_218_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4696,7 +4696,7 @@ scn_castle_219_interior castle_219_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_219_prison castle_219_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_219_prison castle_219_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4708,7 +4708,7 @@ scn_castle_220_interior castle_220_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_220_prison castle_220_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_220_prison castle_220_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4720,7 +4720,7 @@ scn_castle_221_interior castle_221_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_221_prison castle_221_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_221_prison castle_221_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4732,7 +4732,7 @@ scn_castle_222_interior castle_222_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_222_prison castle_222_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_222_prison castle_222_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4744,7 +4744,7 @@ scn_castle_223_interior castle_223_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_223_prison castle_223_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_223_prison castle_223_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4756,7 +4756,7 @@ scn_castle_224_interior castle_224_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_224_prison castle_224_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_224_prison castle_224_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4768,7 +4768,7 @@ scn_castle_225_interior castle_225_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_225_prison castle_225_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_225_prison castle_225_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4780,7 +4780,7 @@ scn_castle_226_interior castle_226_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_226_prison castle_226_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_226_prison castle_226_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4792,7 +4792,7 @@ scn_castle_227_interior castle_227_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_227_prison castle_227_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_227_prison castle_227_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4804,7 +4804,7 @@ scn_castle_228_interior castle_228_interior 1 interior_palacio_h bo_interior_pal
   1  100000 
   1  1648 
  0 
-scn_castle_228_prison castle_228_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_228_prison castle_228_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4816,7 +4816,7 @@ scn_castle_229_interior castle_229_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_229_prison castle_229_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_229_prison castle_229_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4828,7 +4828,7 @@ scn_castle_230_interior castle_230_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_230_prison castle_230_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_230_prison castle_230_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4840,7 +4840,7 @@ scn_castle_231_interior castle_231_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_231_prison castle_231_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_231_prison castle_231_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4852,7 +4852,7 @@ scn_castle_232_interior castle_232_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_232_prison castle_232_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_232_prison castle_232_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4864,7 +4864,7 @@ scn_castle_233_interior castle_233_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_233_prison castle_233_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_233_prison castle_233_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4876,7 +4876,7 @@ scn_castle_234_interior castle_234_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_234_prison castle_234_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_234_prison castle_234_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4888,7 +4888,7 @@ scn_castle_235_interior castle_235_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_235_prison castle_235_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_235_prison castle_235_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4900,7 +4900,7 @@ scn_castle_236_interior castle_236_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_236_prison castle_236_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_236_prison castle_236_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4912,7 +4912,7 @@ scn_castle_237_interior castle_237_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_237_prison castle_237_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_237_prison castle_237_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4924,7 +4924,7 @@ scn_castle_238_interior castle_238_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_238_prison castle_238_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_238_prison castle_238_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4936,7 +4936,7 @@ scn_castle_239_interior castle_239_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_239_prison castle_239_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_239_prison castle_239_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4948,7 +4948,7 @@ scn_castle_240_interior castle_240_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_240_prison castle_240_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_240_prison castle_240_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4960,7 +4960,7 @@ scn_castle_241_interior castle_241_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_241_prison castle_241_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_241_prison castle_241_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4972,7 +4972,7 @@ scn_castle_242_interior castle_242_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_242_prison castle_242_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_242_prison castle_242_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4984,7 +4984,7 @@ scn_castle_243_interior castle_243_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_243_prison castle_243_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_243_prison castle_243_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -4996,7 +4996,7 @@ scn_castle_244_interior castle_244_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_244_prison castle_244_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_244_prison castle_244_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -5008,7 +5008,7 @@ scn_castle_245_interior castle_245_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_245_prison castle_245_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_245_prison castle_245_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -5020,7 +5020,7 @@ scn_castle_246_interior castle_246_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_246_prison castle_246_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_246_prison castle_246_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -5032,7 +5032,7 @@ scn_castle_247_interior castle_247_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_247_prison castle_247_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_247_prison castle_247_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -5044,7 +5044,7 @@ scn_castle_248_interior castle_248_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_248_prison castle_248_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_248_prison castle_248_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -5056,7 +5056,7 @@ scn_castle_249_interior castle_249_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_249_prison castle_249_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_249_prison castle_249_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -5068,7 +5068,7 @@ scn_castle_250_interior castle_250_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_250_prison castle_250_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_250_prison castle_250_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -5080,7 +5080,7 @@ scn_castle_251_interior castle_251_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_251_prison castle_251_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_251_prison castle_251_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -5092,7 +5092,7 @@ scn_castle_252_interior castle_252_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_252_prison castle_252_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_252_prison castle_252_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -5104,7 +5104,7 @@ scn_castle_253_interior castle_253_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_253_prison castle_253_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_253_prison castle_253_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 
@@ -5116,7 +5116,7 @@ scn_castle_254_interior castle_254_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_To
   1  100000 
   1  1648 
  0 
-scn_castle_254_prison castle_254_prison 1 interior_prison_n bo_interior_prison_n -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+scn_castle_254_prison castle_254_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
   0 
  0 

@@ -3705,8 +3705,8 @@ scene_props = [
 ("Rus_Budka_A",0,"Rus_Budka_A","bo_Rus_Budka_A", []),
 ("Rus_Budka",0,"Rus_Budka","bo_Rus_Budka", []),
 
-("pai_defensive_line", sokf_invisible, "pai_defensive_line", "0", []),
-("pai_artillery_position", sokf_invisible, "pai_artillery_position", "0", []),
+("pai_defensive_line", sokf_invisible, "pai_defensive_line", 0, [(ti_on_scene_prop_init,[(store_trigger_param_1, ":prop"),(scene_prop_set_slot, ":prop", slot_prop_is_occupied, 0),]),]),
+("pai_artillery_position", sokf_invisible, "pai_artillery_position", 0, [(ti_on_scene_prop_init,[(store_trigger_param_1, ":prop"),(scene_prop_set_slot, ":prop", slot_prop_is_occupied, 0),]),]),
 
 
 ("YuriCannon1_Body", sokf_moveable, "field_gun_body1", "0",

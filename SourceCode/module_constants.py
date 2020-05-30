@@ -62,6 +62,8 @@ YuriCannonMode_Firing_PullingBack = 16
 YuriCannonMode_BreechReloading_Initial = 17
 YuriCannonMode_BreechReloading_BarrelCleaning = 18
 YuriCannonMode_BreechReloading_LoadingCartridge = 19
+YuriCannonMode_SiegeDefender_Initial = 20
+YuriCannonMode_BreechSiegeDefender_Initial = 21
 
 ImpaledLanceMode_HasImpaledEnemy = 1
 ImpaledLanceMode_IsImpaled = 2
