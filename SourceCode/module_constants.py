@@ -316,8 +316,7 @@ slot_agent_speaking_cooldown      = 33
 slot_agent_square_formation_state = 34
 #slots 35-41 are occupied
 slot_agent_lemat_canister_has_been_shot = 42
-slot_agent_reloading_animation_acceleration_progress = 43
-slot_agent_reloading_animation_acceleration = 44
+slot_agent_pbs_stuck_timer = 43
 
 ########################################################
 ##  FACTION SLOTS          #############################

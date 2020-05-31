@@ -1,4 +1,4 @@
-917
+918
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -550,6 +550,9 @@ qstr_clouds4 clouds4
 qstr_evening evening
 qstr_night night
 qstr_dusk dusk
+qstr_1 1
+qstr_2 2
+qstr_3 3
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_running.
 qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_was_ {reg0}._Company_was_forced_to_retreat.
@@ -561,8 +564,6 @@ qstr_5th_{s1} 5th_{s1}
 qstr_6th_{s1} 6th_{s1}
 qstr_7th_{s1} 7th_{s1}
 qstr_8th_{s1} 8th_{s1}
-qstr_1 1
-qstr_2 2
 qstr_You_got_keys_of_dung You_got_keys_of_dungeon.
 qstr_You_must_stay_behind You_must_stay_behind_the_line_on_the_ground!_Point_is_not_counted.
 qstr_Tutorial Tutorial
