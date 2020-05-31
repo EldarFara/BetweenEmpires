@@ -3483,6 +3483,7 @@ pbs_cancel_running_away = (1, 0, 0, [
 		(agent_slot_eq, ":agent", slot_agent_pbs_state, pbs_state_moving_to_position),
 		(agent_get_position, pos1, ":agent"),
 		(agent_get_scripted_destination, pos2, ":agent"),
+		(position_set_z_to_ground_level, pos1), (position_set_z_to_ground_level, pos2),
 		(get_distance_between_positions, ":dist", pos1, pos2),
 		(le, ":dist", 130),
 		(agent_set_slot, ":agent", slot_agent_pbs_state, pbs_state_holding_position),
@@ -3715,10 +3716,32 @@ aerial_view_runtime = (0, 0, 0, [], [
 
 test = (0, 0, 0, [
 # (key_clicked, key_t),
-# (call_script, "script_store_company_average_position_to_pos30", 1, 0),
-# (position_set_z_to_ground_level, pos30),
-# (set_spawn_position, pos30),
-# (spawn_scene_prop, "spr_fountain"),
+# (get_player_agent_no, ":player"),
+# (agent_get_position, pos3, ":player"),
+	# (try_for_agents,":agent"),
+	# (agent_is_active, ":agent"),
+	# (agent_is_alive, ":agent"),
+	# (agent_is_human, ":agent"),
+	# (agent_is_non_player, ":agent"),
+	# (neg|agent_is_routed, ":agent"),
+	# (agent_get_position, pos1, ":agent"),
+	# (get_distance_between_positions, ":dist", pos1, pos3),
+	# (le, ":dist", 300),
+# (display_message, "@1"),
+		# (try_begin),
+		# (agent_slot_eq, ":agent", slot_agent_pbs_state, pbs_state_moving_to_position),
+# (display_message, "@2"),
+		# (agent_get_position, pos1, ":agent"),
+		# (agent_get_scripted_destination, pos2, ":agent"),
+		# (position_set_z_to_ground_level, pos1), (position_set_z_to_ground_level, pos2),
+		# (get_distance_between_positions, ":dist", pos1, pos2),
+		# (get_distance_between_positions, reg0, pos1, pos2),
+# (display_message, "@{reg0}"),
+		# (le, ":dist", 130),
+		# (agent_set_slot, ":agent", slot_agent_pbs_state, pbs_state_holding_position),
+		# (agent_stop_running_away, ":agent"),
+		# (try_end),
+	# (try_end),
 ], [])
 
 sound_man_hit = (ti_on_agent_hit, 0, 0, [
@@ -5236,30 +5259,30 @@ common_siege_ai_trigger_init = (
 common_siege_ai_trigger_init_2 = (
   0, 0, ti_once,
   [
-    (set_show_messages, 0),
-    (entry_point_get_position, pos10, 10),
-    (try_for_range, ":cur_group", 0, grc_everyone),
-      (neq, ":cur_group", grc_archers),
-      (team_give_order, "$defender_team", ":cur_group", mordr_hold),
-      (team_give_order, "$defender_team", ":cur_group", mordr_stand_closer),
-      (team_give_order, "$defender_team", ":cur_group", mordr_stand_closer),
-      (team_give_order, "$defender_team_2", ":cur_group", mordr_hold),
-      (team_give_order, "$defender_team_2", ":cur_group", mordr_stand_closer),
-      (team_give_order, "$defender_team_2", ":cur_group", mordr_stand_closer),
-    (try_end),
-    (team_give_order, "$defender_team", grc_archers, mordr_stand_ground),
-    (team_set_order_position, "$defender_team", grc_everyone, pos10),
-    (team_give_order, "$defender_team_2", grc_archers, mordr_stand_ground),
-    (team_set_order_position, "$defender_team_2", grc_everyone, pos10),
-    (set_show_messages, 1),
+    # (set_show_messages, 0),
+    # (entry_point_get_position, pos10, 10),
+    # (try_for_range, ":cur_group", 0, grc_everyone),
+      # (neq, ":cur_group", grc_archers),
+      # (team_give_order, "$defender_team", ":cur_group", mordr_hold),
+      # (team_give_order, "$defender_team", ":cur_group", mordr_stand_closer),
+      # (team_give_order, "$defender_team", ":cur_group", mordr_stand_closer),
+      # (team_give_order, "$defender_team_2", ":cur_group", mordr_hold),
+      # (team_give_order, "$defender_team_2", ":cur_group", mordr_stand_closer),
+      # (team_give_order, "$defender_team_2", ":cur_group", mordr_stand_closer),
+    # (try_end),
+    # (team_give_order, "$defender_team", grc_archers, mordr_stand_ground),
+    # (team_set_order_position, "$defender_team", grc_everyone, pos10),
+    # (team_give_order, "$defender_team_2", grc_archers, mordr_stand_ground),
+    # (team_set_order_position, "$defender_team_2", grc_everyone, pos10),
+    # (set_show_messages, 1),
     ], [])
 
 common_siege_ai_trigger_init_after_2_secs = (
   0, 2, ti_once, [],
   [
-    (try_for_agents, ":agent_no"),
-      (agent_set_slot, ":agent_no", slot_agent_is_not_reinforcement, 1),
-    (try_end),
+    # (try_for_agents, ":agent_no"),
+      # (agent_set_slot, ":agent_no", slot_agent_is_not_reinforcement, 1),
+    # (try_end),
     ])
 
 common_siege_defender_reinforcement_check = (
@@ -5298,7 +5321,7 @@ common_siege_defender_reinforcement_archer_reposition = (
     (gt, "$defender_reinforcement_stage", 0),
     ],
   [
-    (call_script, "script_siege_move_archers_to_archer_positions"),
+    #(call_script, "script_siege_move_archers_to_archer_positions"),
     ])
 
 common_siege_attacker_reinforcement_check = (
@@ -5318,14 +5341,14 @@ common_siege_attacker_reinforcement_check = (
 common_siege_attacker_do_not_stall = (
   5, 0, 0, [],
   [ #Make sure attackers do not stall on the ladders...
-    (try_for_agents, ":agent_no"),
-      (agent_is_human, ":agent_no"),
-      (agent_is_alive, ":agent_no"),
-      (agent_get_team, ":agent_team", ":agent_no"),
-      (this_or_next|eq, ":agent_team", "$attacker_team"),
-      (eq, ":agent_team", "$attacker_team_2"),
-      (agent_ai_set_always_attack_in_melee, ":agent_no", 1),
-    (try_end),
+    # (try_for_agents, ":agent_no"),
+      # (agent_is_human, ":agent_no"),
+      # (agent_is_alive, ":agent_no"),
+      # (agent_get_team, ":agent_team", ":agent_no"),
+      # (this_or_next|eq, ":agent_team", "$attacker_team"),
+      # (eq, ":agent_team", "$attacker_team_2"),
+      # (agent_ai_set_always_attack_in_melee, ":agent_no", 1),
+    # (try_end),
     ])
 
 common_battle_check_friendly_kills = (
@@ -5430,19 +5453,19 @@ common_inventory_not_available = (
 common_siege_init_ai_and_belfry = (
   0, 0, ti_once,
   [
-    (call_script, "script_siege_init_ai_and_belfry"),
+  #  (call_script, "script_siege_init_ai_and_belfry"),
     ], [])
 
 common_siege_move_belfry = (
   0, 0, ti_once,
   [
-    (call_script, "script_cf_siege_move_belfry"),
+   # (call_script, "script_cf_siege_move_belfry"),
     ], [])
 
 common_siege_rotate_belfry = (
   0, 2, ti_once,
   [
-    (call_script, "script_cf_siege_rotate_belfry_platform"),
+  #  (call_script, "script_cf_siege_rotate_belfry_platform"),
     ],
   [
     (assign, "$belfry_positioned", 3),
@@ -5451,7 +5474,7 @@ common_siege_rotate_belfry = (
 common_siege_assign_men_to_belfry = (
   0, 0, ti_once,
   [
-    (call_script, "script_cf_siege_assign_men_to_belfry"),
+  #  (call_script, "script_cf_siege_assign_men_to_belfry"),
     ], [])
 
 
