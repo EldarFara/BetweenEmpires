@@ -1210,6 +1210,17 @@ g_give_advantage_to_original_faction
 g_ccoop_currently_dropping_item
 pws_n_clouds
 g_game_speed
+ambience_sound_type
+ambience_prop_front
+ambience_prop_back
+ambience_prop_left
+ambience_prop_right
+ambience_prop_sky_left
+ambience_prop_sky_right
+g_ambience_random1_1
+g_ambience_random1_2
+g_ambience_random2_1
+g_ambience_random2_2
 current_wind
 current_clouds
 current_precipitation

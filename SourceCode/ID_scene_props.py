@@ -1582,3 +1582,4 @@ spr_YuriCannon1_Ramrod2 = 1580
 spr_YuriCannon1_Cannonball = 1581
 spr_YuriCannonballCrater = 1582
 spr_YuriShellCrater = 1583
+spr_ambience_prop = 1584

@@ -8,6 +8,16 @@ from ID_factions import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+ambience_sound_type_nosound = 1
+ambience_sound_type_dusk = 2
+ambience_sound_type_sunny = 3
+ambience_sound_type_dawn = 4
+ambience_sound_type_dawnsunset = 5
+ambience_sound_type_overcast = 6
+ambience_sound_type_desertday = 7
+ambience_sound_type_desertnight = 8
+ambience_sound_type_night = 9
+
 maximum_amount_of_bandit_parties = 350
 
 battle_type_nobattle		= 0

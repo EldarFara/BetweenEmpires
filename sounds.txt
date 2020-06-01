@@ -1,5 +1,5 @@
 soundsfile version 3
-1382
+1419
  drum_3.ogg 769
  tutorial_1.ogg 1793
  tutorial_2.ogg 1793
@@ -1382,7 +1382,44 @@ soundsfile version 3
  womanhit_FP_5.wav 4048
  womanhit_FP_6.wav 4048
  womanhit_FP_7.wav 4048
-276
+ shot_boltaction_straightpull1_1.wav 4064
+ shot_boltaction_straightpull1_2.wav 4064
+ shot_boltaction_straightpull1_3.wav 4064
+ ambience_sky1_left.wav 2874
+ ambience_sky1_right.wav 2874
+ ambience_dusk1_left.wav 1594
+ ambience_dusk1_right.wav 1594
+ ambience_dusk2_left.wav 1594
+ ambience_dusk2_right.wav 1594
+ ambience_sunny1_left.wav 1594
+ ambience_sunny1_right.wav 1594
+ ambience_sunny2_left.wav 1594
+ ambience_sunny2_right.wav 1594
+ ambience_sunny3_left.wav 1594
+ ambience_sunny3_right.wav 1594
+ ambience_sunny4_left.wav 1594
+ ambience_sunny4_right.wav 1594
+ ambience_sunny5_left.wav 1594
+ ambience_sunny5_right.wav 1594
+ ambience_sunny6_left.wav 1594
+ ambience_sunny6_right.wav 1594
+ ambience_dawn1_left.wav 1594
+ ambience_dawn1_right.wav 1594
+ ambience_dawn2_left.wav 1594
+ ambience_dawn2_right.wav 1594
+ ambience_dawnsunset1_left.wav 1594
+ ambience_dawnsunset1_right.wav 1594
+ ambience_dawnsunset2_left.wav 1594
+ ambience_dawnsunset2_right.wav 1594
+ ambience_desertday1_left.wav 1594
+ ambience_desertday1_right.wav 1594
+ ambience_desertday2_left.wav 1594
+ ambience_desertday2_right.wav 1594
+ ambience_desertnight1_left.wav 1594
+ ambience_desertnight1_right.wav 1594
+ ambience_desertnight2_left.wav 1594
+ ambience_desertnight2_right.wav 1594
+311
 snd_click 769 1 0 0 
 snd_tutorial_1 1793 1 1 0 
 snd_tutorial_2 1793 1 2 0 
@@ -1659,3 +1696,38 @@ snd_explosion_reflection_distant 4080 6 1350 0 1351 0 1352 0 1353 0 1354 0 1355 
 snd_explosion_ricochet_big 3808 6 1356 0 1357 0 1358 0 1359 0 1360 0 1361 0 
 snd_explosion_ricochet_small 3040 13 1362 0 1363 0 1364 0 1365 0 1366 0 1367 0 1368 0 1369 0 1370 0 1371 0 1372 0 1373 0 1374 0 
 snd_woman_hit_FP 4048 7 1375 0 1376 0 1377 0 1378 0 1379 0 1380 0 1381 0 
+snd_shot_boltaction_straightpull1 4064 3 1382 0 1383 0 1384 0 
+snd_ambience_sky1_left 2874 1 1385 0 
+snd_ambience_sky1_right 2874 1 1386 0 
+snd_ambience_dusk1_left 1594 1 1387 0 
+snd_ambience_dusk1_right 1594 1 1388 0 
+snd_ambience_dusk2_left 1594 1 1389 0 
+snd_ambience_dusk2_right 1594 1 1390 0 
+snd_ambience_sunny1_left 1594 1 1391 0 
+snd_ambience_sunny1_right 1594 1 1392 0 
+snd_ambience_sunny2_left 1594 1 1393 0 
+snd_ambience_sunny2_right 1594 1 1394 0 
+snd_ambience_sunny3_left 1594 1 1395 0 
+snd_ambience_sunny3_right 1594 1 1396 0 
+snd_ambience_sunny4_left 1594 1 1397 0 
+snd_ambience_sunny4_right 1594 1 1398 0 
+snd_ambience_sunny5_left 1594 1 1399 0 
+snd_ambience_sunny5_right 1594 1 1400 0 
+snd_ambience_sunny6_left 1594 1 1401 0 
+snd_ambience_sunny6_right 1594 1 1402 0 
+snd_ambience_dawn1_left 1594 1 1403 0 
+snd_ambience_dawn1_right 1594 1 1404 0 
+snd_ambience_dawn2_left 1594 1 1405 0 
+snd_ambience_dawn2_right 1594 1 1406 0 
+snd_ambience_dawnsunset1_left 1594 1 1407 0 
+snd_ambience_dawnsunset1_right 1594 1 1408 0 
+snd_ambience_dawnsunset2_left 1594 1 1409 0 
+snd_ambience_dawnsunset2_right 1594 1 1410 0 
+snd_ambience_desertday1_left 1594 1 1411 0 
+snd_ambience_desertday1_right 1594 1 1412 0 
+snd_ambience_desertday2_left 1594 1 1413 0 
+snd_ambience_desertday2_right 1594 1 1414 0 
+snd_ambience_desertnight1_left 1594 1 1415 0 
+snd_ambience_desertnight1_right 1594 1 1416 0 
+snd_ambience_desertnight2_left 1594 1 1417 0 
+snd_ambience_desertnight2_right 1594 1 1418 0 

@@ -3976,6 +3976,9 @@ scene_props = [
 ]),
 ("YuriCannonballCrater", sokf_moveable, "YuriCannonballCrater", 0, [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
 ("YuriShellCrater", sokf_moveable, "YuriShellCrater", 0, [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
+
+("ambience_prop", sokf_invisible, 0, 0, [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
+
 ]
 
  # modmerger_start version=201 type=2

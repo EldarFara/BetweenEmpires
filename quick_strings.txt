@@ -1,4 +1,4 @@
-918
+920
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -254,6 +254,7 @@ qstr_{!}DEBUG____Assigned {!}DEBUG_--_Assigned_lord_reputation_and_relations
 qstr_{s7}_opened_the_gate {s7}_opened_the_gate
 qstr_{s7}_closed_the_gate {s7}_closed_the_gate
 qstr_Has_second_barrel__p Has_second_barrel_(press_action^key_while_aiming_to_fire_a_buckshot)
+qstr_Uses_pistol_cartridg Uses_pistol_cartridges
 qstr_Smoothbore_musket Smoothbore_musket
 qstr_Rifled_musket Rifled_musket
 qstr_Converted_breech_load Converted_breech_loaded_rifle
@@ -264,12 +265,16 @@ qstr_Pocket_Revolver__6_r Pocket_Revolver_(6_rounds)
 qstr_Self_Loading_Pistol_ Self-Loading_Pistol_(8_rounds)
 qstr_Revolver__9_rounds_ Revolver_(9_rounds)
 qstr_Bolt_action_magazine Bolt-action_magazine_rifle_(5_rounds)
+qstr_Straight_pull_bolt_a Straight-pull_bolt-action^magazine_rifle_(5_rounds)
 qstr_Bolt_action_magazine_ Bolt-action_magazine_rifle_(10_rounds)
 qstr_Pocket_Pistol__6_rou Pocket_Pistol_(6_rounds)
 qstr_Pocket_Pistol__4_rou Pocket_Pistol_(4_rounds)
 qstr_Breech_loaded_rifle Breech_loaded_rifle
-qstr_Lever_action_magazin Lever_action_magazine_rifle_(16_rounds)
-qstr_Lever_action_magazine Lever_action_magazine_rifle_(7_rounds)
+qstr_Lever_action_magazin Lever_action_magazine_rifle_(8_rounds)
+qstr_Lever_action_magazine Lever_action_magazine_rifle_(5_rounds)
+qstr_Lever_action_magazine_ Lever_action_magazine_rifle_(9_rounds)
+qstr_Lever_action_magazine_r Lever_action_magazine_rifle_(16_rounds)
+qstr_Lever_action_magazine_ri Lever_action_magazine_rifle_(7_rounds)
 qstr_+{reg1}_to_party_mor +{reg1}_to_party_morale
 qstr_Requires_{reg1}_inte Requires_{reg1}_intelligence_to_read
 qstr_Reading_Progress:_{r Reading_Progress:_{reg1}%
@@ -550,9 +555,6 @@ qstr_clouds4 clouds4
 qstr_evening evening
 qstr_night night
 qstr_dusk dusk
-qstr_1 1
-qstr_2 2
-qstr_3 3
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_running.
 qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_was_ {reg0}._Company_was_forced_to_retreat.

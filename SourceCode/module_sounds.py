@@ -314,6 +314,43 @@ sounds = [
 ("explosion_ricochet_small",sf_priority_14|sf_vol_11, ["explosion_ricochet_small01.wav","explosion_ricochet_small02.wav","explosion_ricochet_small03.wav","explosion_ricochet_small04.wav","explosion_ricochet_small05.wav","explosion_ricochet_small06.wav","explosion_ricochet_small07.wav","explosion_ricochet_small08.wav","explosion_ricochet_small09.wav","explosion_ricochet_small10.wav","explosion_ricochet_small11.wav","explosion_ricochet_small12.wav","explosion_ricochet_small13.wav"]),
 
 ("woman_hit_FP",sf_priority_13|sf_vol_15, ["womanhit_FP_1.wav","womanhit_FP_2.wav","womanhit_FP_3.wav","womanhit_FP_4.wav","womanhit_FP_5.wav","womanhit_FP_6.wav","womanhit_FP_7.wav"]),
+("shot_boltaction_straightpull1", sf_priority_14|sf_vol_15, ["shot_boltaction_straightpull1_1.wav", "shot_boltaction_straightpull1_2.wav", "shot_boltaction_straightpull1_3.wav"]),
+
+("ambience_sky1_left", sf_vol_11|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_sky1_left.wav"]),
+("ambience_sky1_right", sf_vol_11|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_sky1_right.wav"]),
+("ambience_dusk1_left", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_dusk1_left.wav"]), # outofgas night
+("ambience_dusk1_right", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_dusk1_right.wav"]),
+("ambience_dusk2_left", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_dusk2_left.wav"]), # outofgas night
+("ambience_dusk2_right", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_dusk2_right.wav"]),
+("ambience_sunny1_left", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_sunny1_left.wav"]), # scar field sunny
+("ambience_sunny1_right", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_sunny1_right.wav"]),
+("ambience_sunny2_left", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_sunny2_left.wav"]), # scar field sunny
+("ambience_sunny2_right", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_sunny2_right.wav"]),
+("ambience_sunny3_left", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_sunny3_left.wav"]), # graveyard field clear
+("ambience_sunny3_right", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_sunny3_right.wav"]),
+("ambience_sunny4_left", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_sunny4_left.wav"]), # graveyard field clear
+("ambience_sunny4_right", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_sunny4_right.wav"]),
+("ambience_sunny5_left", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_sunny5_left.wav"]), # chauteu field gravel clear
+("ambience_sunny5_right", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_sunny5_right.wav"]),
+("ambience_sunny6_left", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_sunny6_left.wav"]), # chauteu field gravel clear
+("ambience_sunny6_right", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_sunny6_right.wav"]),
+("ambience_dawn1_left", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_dawn1_left.wav"]), # fields field clear
+("ambience_dawn1_right", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_dawn1_right.wav"]),
+("ambience_dawn2_left", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_dawn2_left.wav"]), # fields field clear
+("ambience_dawn2_right", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_dawn2_right.wav"]),
+("ambience_dawnsunset1_left", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_dawnsunset1_left.wav"]), # giant field clear
+("ambience_dawnsunset1_right", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_dawnsunset1_right.wav"]),
+("ambience_dawnsunset2_left", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_dawnsunset2_left.wav"]), # giant field clear
+("ambience_dawnsunset2_right", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_dawnsunset2_right.wav"]),
+("ambience_desertday1_left", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_desertday1_left.wav"]), # desert field clear
+("ambience_desertday1_right", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_desertday1_right.wav"]),
+("ambience_desertday2_left", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_desertday2_left.wav"]), # desert field clear
+("ambience_desertday2_right", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_desertday2_right.wav"]),
+("ambience_desertnight1_left", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_desertnight1_left.wav"]), # e2b desert field
+("ambience_desertnight1_right", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_desertnight1_right.wav"]),
+("ambience_desertnight2_left", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_desertnight2_left.wav"]), # e2b desert field
+("ambience_desertnight2_right", sf_vol_6|sf_priority_3|sf_looping|sf_stream_from_hd,["ambience_desertnight2_right.wav"]),
+
 
 ]
 

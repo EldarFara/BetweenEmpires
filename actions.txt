@@ -1101,8 +1101,8 @@
   0.200000 fanning 0 3 9 0 0.0 0.0 0.0 0.0 
  fanning_sa 2097152 738213900  1
   0.600000 fanning_sa 0 17 9 0 0.0 0.0 0.0 0.0 
- unused_human_anim_77 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
+ bolt_shot_straightpull 1678771200 570437696  1
+  0.900000 bolt_shot_straightpull 4 17 67108866 0 0.0 0.0 0.0 0.0 
  unused_human_anim_78 0 0  1
   1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
  unused_human_anim_79 0 0  1
