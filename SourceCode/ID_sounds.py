@@ -317,11 +317,15 @@ snd_ambience_forestovercast1_left = 315
 snd_ambience_forestovercast1_right = 316
 snd_ambience_forestovercast2_left = 317
 snd_ambience_forestovercast2_right = 318
-snd_ambience_tree_birds1 = 319
-snd_ambience_tree_birds2 = 320
-snd_ambience_tree_birds3 = 321
-snd_ambience_tree_birds4 = 322
-snd_ambience_tree_birds5 = 323
-snd_ambience_tree_birds_end = 324
+snd_ambience_night1_left = 319
+snd_ambience_night1_right = 320
+snd_ambience_night2_left = 321
+snd_ambience_night2_right = 322
+snd_ambience_tree_birds1 = 323
+snd_ambience_tree_birds2 = 324
+snd_ambience_tree_birds3 = 325
+snd_ambience_tree_birds4 = 326
+snd_ambience_tree_birds5 = 327
+snd_ambience_tree_birds_end = 328
 
 
