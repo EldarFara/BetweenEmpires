@@ -17,6 +17,8 @@ ambience_sound_type_overcast = 6
 ambience_sound_type_desertday = 7
 ambience_sound_type_desertnight = 8
 ambience_sound_type_night = 9
+ambience_sound_type_forestsunny = 10
+ambience_sound_type_forestovercast = 11
 
 maximum_amount_of_bandit_parties = 350
 

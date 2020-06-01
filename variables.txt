@@ -1210,6 +1210,7 @@ g_give_advantage_to_original_faction
 g_ccoop_currently_dropping_item
 pws_n_clouds
 g_game_speed
+ambience_tree_birds_cooldown
 ambience_sound_type
 ambience_prop_front
 ambience_prop_back
