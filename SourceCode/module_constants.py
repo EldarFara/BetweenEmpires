@@ -329,6 +329,7 @@ slot_agent_square_formation_state = 34
 #slots 35-41 are occupied
 slot_agent_lemat_canister_has_been_shot = 42
 slot_agent_pbs_stuck_timer = 43
+slot_agent_was_killed_or_knocked_down      = 44
 
 ########################################################
 ##  FACTION SLOTS          #############################

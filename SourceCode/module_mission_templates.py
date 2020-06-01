@@ -39,6 +39,50 @@ from header_skills import *
 pilgrim_disguise = [itm_pilgrim_hood,itm_pilgrim_disguise,itm_practice_staff, itm_throwing_daggers]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
+pbs_enemy_retreating_end_battle = (
+5, 1, 0, [
+(assign, ":number_total", 0),
+(assign, ":number_retreating", 0),
+	(try_for_agents,":agent"),
+	(agent_is_active, ":agent"),
+	(agent_is_alive, ":agent"),
+	(agent_is_human, ":agent"),
+	(agent_is_non_player, ":agent"),
+	(agent_get_team, ":team", ":agent"),
+	(eq, ":team", "$g_enemy_team"),
+	(val_add, ":number_total", 1),
+	(agent_slot_eq, ":agent", slot_agent_is_running_away, 1),
+	(val_add, ":number_retreating", 1),
+	(try_end),
+	(try_begin),
+	(neq, ":number_total", 0),
+	(eq, ":number_total", ":number_retreating"),
+	(store_mission_timer_a,reg(1)),
+	(ge,reg(1),10),
+	(neg|main_hero_fallen, 0),
+	(set_mission_result,1),
+	(display_message,"str_msg_battle_won"),
+	(assign, "$g_battle_won",1),
+	(assign, "$g_battle_result", 1),
+	(try_end),
+(eq, "$g_battle_won",1),
+],
+[
+(eq, "$g_battle_won",1),
+	(try_for_agents,":agent"),
+	(agent_is_active, ":agent"),
+	(agent_is_alive, ":agent"),
+	(agent_is_human, ":agent"),
+	(agent_is_non_player, ":agent"),
+	(agent_get_team, ":team", ":agent"),
+	(eq, ":team", "$g_enemy_team"),
+	(neg|agent_slot_eq, ":agent", slot_agent_pbs_state, pbs_state_retreating),
+	(agent_set_slot, ":agent",  slot_agent_pbs_state, pbs_state_retreating),
+	(agent_set_slot, ":agent",  slot_agent_is_running_away, 1),
+	(agent_start_running_away, ":agent"),
+	(try_end),
+])
+
 ambience_tree_birds = (0.6, 0, 0, [
 (store_time_of_day, ":hours"),
 (is_between, ":hours", 4, 21+1),
@@ -3489,6 +3533,7 @@ pbs_agent_spawn = (ti_on_agent_spawn, 0, 0, [
 (agent_set_slot, ":agent", slot_agent_speaking_cooldown, 0),
 (agent_set_slot, ":agent", slot_agent_pbs_state, pbs_state_generic),
 (agent_set_slot, ":agent", slot_agent_can_crouch, 0),
+(agent_set_slot, ":agent", slot_agent_was_killed_or_knocked_down, 0),
 (agent_ai_set_can_crouch, ":agent", 0),
 # Company Assignment
 (agent_set_division, ":agent", 0),
@@ -3952,6 +3997,7 @@ sound_man_hit = (ti_on_agent_hit, 0, 0, [
 sound_man_death = (ti_on_agent_killed_or_wounded, 0, 0, [
 (store_trigger_param_1, ":dead_agent"),
 (store_trigger_param_2, ":Killer"),
+(agent_set_slot, ":dead_agent", slot_agent_was_killed_or_knocked_down, 1),
 (agent_is_human, ":dead_agent"),
 (agent_stop_sound, ":dead_agent"),
 (agent_get_troop_id, ":troop", ":dead_agent"),
@@ -4633,6 +4679,7 @@ pws_sky_bms = (ti_before_mission_start, 0, 0, [
 ], [])
 
 parabellum_script_set_battle = [
+pbs_enemy_retreating_end_battle,
 ambience_start,
 ambience_runtime,
 ambience_tree_birds,

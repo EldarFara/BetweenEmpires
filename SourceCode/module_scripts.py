@@ -28318,7 +28318,6 @@ scripts = [
       # (try_end),
 
       # (try_for_agents, ":cur_agent"),
-        # (agent_set_slot, ":cur_agent",  slot_agent_is_running_away, 0), #initially nobody is running away.
       # (try_end),
   ]),
 
@@ -28821,7 +28820,9 @@ scripts = [
         (val_mul, ":agent_hit_points", 10),
         (store_sub, ":stop_running_away_courage_score_limit", 3700, ":agent_hit_points"), 
         (ge, ":agent_courage_score", ":stop_running_away_courage_score_limit"), #if (courage score > 3700 - agent hit points) and (agent is running away) then stop running away, average hit points : 50, average running away limit = 1700
-        (agent_stop_running_away, ":cur_agent"),
+		(this_or_next|agent_is_ally, ":cur_agent"),
+		(eq, "$g_battle_won", 0),
+		(agent_stop_running_away, ":cur_agent"),
         (agent_set_slot, ":cur_agent",  slot_agent_is_running_away, 0),
       (try_end),      
   ]), #ozan
@@ -35569,7 +35570,8 @@ scripts = [
        (try_end),
        #count routed agents in player party, ally parties and enemy parties
        (try_begin),
-         (agent_is_routed, ":cur_agent"),
+         #(agent_is_routed, ":cur_agent"), # parabellum cut
+		(agent_slot_eq, ":cur_agent", slot_agent_was_killed_or_knocked_down, 0),
          (agent_get_slot, ":agent_was_running_away", ":cur_agent", slot_agent_is_running_away),
          (eq, ":agent_was_running_away", 1),
          (try_begin),
@@ -47407,6 +47409,8 @@ scripts = [
           (entry_point_get_position, pos6, ":target_entry_point"),
           (get_distance_between_positions, ":agent_distance_to_target", pos6, pos4),
           (lt, ":agent_distance_to_target", 100),
+		  (this_or_next|agent_is_ally, ":agent"),
+		(eq, "$g_battle_won", 0),
           (agent_set_slot, ":agent", slot_agent_is_running_away, 0),
         (try_end),
 			
@@ -53421,6 +53425,7 @@ scripts = [
 		(try_end),
 	(agent_set_scripted_destination, ":agent", pos1, 1, 1),
 	(agent_start_running_away, ":agent", pos1),
+	(agent_set_slot, ":agent",  slot_agent_is_running_away, 1),
 		# (try_begin),
 		# (this_or_next|eq, ":company_type", pbs_troop_type_line),
 		# (this_or_next|eq, ":company_type", pbs_troop_type_light),
@@ -53445,7 +53450,10 @@ scripts = [
 	(agent_get_division , ":division", ":agent"),
 	(eq, ":division", ":company"),
 	(agent_set_slot, ":agent", slot_agent_pbs_state, pbs_state_generic),
+	(this_or_next|agent_is_ally, ":agent"),
+	(eq, "$g_battle_won", 0),
 	(agent_stop_running_away, ":agent"),
+	(agent_set_slot, ":agent",  slot_agent_is_running_away, 0),
 	(try_end),
 ]),
 
