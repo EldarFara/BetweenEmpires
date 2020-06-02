@@ -6,6 +6,7 @@ from header_skills import *
 from header_triggers import *
 from header_troops import *
 from header_music import *
+from header_terrain_types import *
 
 from module_constants import *
 
@@ -4271,7 +4272,29 @@ simple_triggers = [
    ## ZZ Custom Kingdom Troops begin
     (0,
     [
-    (assign,"$g_battle_type", battle_type_nobattle),
+(party_get_current_terrain, ":terrain_type", "p_main_party"),
+(try_begin),
+(this_or_next|eq, ":terrain_type", rt_water),
+(this_or_next|eq, ":terrain_type", rt_mountain),
+(this_or_next|eq, ":terrain_type", rt_plain),
+(this_or_next|eq, ":terrain_type", rt_mountain_forest),
+(this_or_next|eq, ":terrain_type", rt_bridge),
+(eq, ":terrain_type", rt_forest),
+(assign, "$current_wind", "$pws_n_wind"),
+(assign, "$current_clouds", "$pws_n_clouds"),
+(assign, "$current_precipitation", "$pws_n_precipitation"),
+(else_try),
+(this_or_next|eq, ":terrain_type", rt_steppe),
+(eq, ":terrain_type", rt_steppe_forest),
+(assign, "$current_wind", "$pws_m_wind"),
+(assign, "$current_clouds", "$pws_m_clouds"),
+(assign, "$current_precipitation", "$pws_m_precipitation"),
+(else_try),
+(assign, "$current_wind", "$pws_s_wind"),
+(assign, "$current_clouds", "$pws_s_clouds"),
+(assign, "$current_precipitation", "$pws_s_precipitation"),
+(try_end),
+(assign,"$g_battle_type", battle_type_nobattle),
       (map_free),
       (troop_get_inventory_slot, ":item", "trp_kingdom_inventory", 10),
       (eq,":item","itm_velvet"),

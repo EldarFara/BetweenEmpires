@@ -8,6 +8,9 @@ from ID_factions import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+default_fog_distance = 1600
+rain_fog_distance = 350
+
 ambience_sound_type_nosound = 1
 ambience_sound_type_dusk = 2
 ambience_sound_type_sunny = 3

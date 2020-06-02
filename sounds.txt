@@ -1385,52 +1385,52 @@ soundsfile version 3
  shot_boltaction_straightpull1_1.wav 4064
  shot_boltaction_straightpull1_2.wav 4064
  shot_boltaction_straightpull1_3.wav 4064
- ambience_sky1_left.wav 2874
- ambience_sky1_right.wav 2874
- ambience_dusk1_left.wav 1594
- ambience_dusk1_right.wav 1594
- ambience_dusk2_left.wav 1594
- ambience_dusk2_right.wav 1594
- ambience_sunny1_left.wav 1594
- ambience_sunny1_right.wav 1594
- ambience_sunny2_left.wav 1594
- ambience_sunny2_right.wav 1594
- ambience_sunny3_left.wav 1594
- ambience_sunny3_right.wav 1594
- ambience_sunny4_left.wav 1594
- ambience_sunny4_right.wav 1594
- ambience_sunny5_left.wav 1594
- ambience_sunny5_right.wav 1594
- ambience_sunny6_left.wav 1594
- ambience_sunny6_right.wav 1594
- ambience_dawn1_left.wav 1594
- ambience_dawn1_right.wav 1594
- ambience_dawn2_left.wav 1594
- ambience_dawn2_right.wav 1594
- ambience_dawnsunset1_left.wav 1594
- ambience_dawnsunset1_right.wav 1594
- ambience_dawnsunset2_left.wav 1594
- ambience_dawnsunset2_right.wav 1594
- ambience_desertday1_left.wav 826
- ambience_desertday1_right.wav 826
- ambience_desertday2_left.wav 826
- ambience_desertday2_right.wav 826
- ambience_desertnight1_left.wav 826
- ambience_desertnight1_right.wav 826
- ambience_desertnight2_left.wav 826
- ambience_desertnight2_right.wav 826
- ambience_forestsunny1_left.wav 1594
- ambience_forestsunny1_right.wav 1594
- ambience_forestsunny2_left.wav 1594
- ambience_forestsunny2_right.wav 1594
- ambience_forestovercast1_left.wav 1594
- ambience_forestovercast1_right.wav 1594
- ambience_forestovercast2_left.wav 1594
- ambience_forestovercast2_right.wav 1594
- ambience_night1_left.wav 1594
- ambience_night1_right.wav 1594
- ambience_night2_left.wav 1594
- ambience_night2_right.wav 1594
+ ambience_sky1_left.wav 2842
+ ambience_sky1_right.wav 2842
+ ambience_dusk1_left.wav 1562
+ ambience_dusk1_right.wav 1562
+ ambience_dusk2_left.wav 1562
+ ambience_dusk2_right.wav 1562
+ ambience_sunny1_left.wav 1562
+ ambience_sunny1_right.wav 1562
+ ambience_sunny2_left.wav 1562
+ ambience_sunny2_right.wav 1562
+ ambience_sunny3_left.wav 1562
+ ambience_sunny3_right.wav 1562
+ ambience_sunny4_left.wav 1562
+ ambience_sunny4_right.wav 1562
+ ambience_sunny5_left.wav 1562
+ ambience_sunny5_right.wav 1562
+ ambience_sunny6_left.wav 1562
+ ambience_sunny6_right.wav 1562
+ ambience_dawn1_left.wav 1562
+ ambience_dawn1_right.wav 1562
+ ambience_dawn2_left.wav 1562
+ ambience_dawn2_right.wav 1562
+ ambience_dawnsunset1_left.wav 1562
+ ambience_dawnsunset1_right.wav 1562
+ ambience_dawnsunset2_left.wav 1562
+ ambience_dawnsunset2_right.wav 1562
+ ambience_desertday1_left.wav 794
+ ambience_desertday1_right.wav 794
+ ambience_desertday2_left.wav 794
+ ambience_desertday2_right.wav 794
+ ambience_desertnight1_left.wav 794
+ ambience_desertnight1_right.wav 794
+ ambience_desertnight2_left.wav 794
+ ambience_desertnight2_right.wav 794
+ ambience_forestsunny1_left.wav 1562
+ ambience_forestsunny1_right.wav 1562
+ ambience_forestsunny2_left.wav 1562
+ ambience_forestsunny2_right.wav 1562
+ ambience_forestovercast1_left.wav 1562
+ ambience_forestovercast1_right.wav 1562
+ ambience_forestovercast2_left.wav 1562
+ ambience_forestovercast2_right.wav 1562
+ ambience_night1_left.wav 1562
+ ambience_night1_right.wav 1562
+ ambience_night2_left.wav 1562
+ ambience_night2_right.wav 1562
  ambience_tree_birds01.wav 3632
  ambience_tree_birds02.wav 3632
  ambience_tree_birds03.wav 3632
@@ -1858,52 +1858,52 @@ snd_explosion_ricochet_big 3808 6 1356 0 1357 0 1358 0 1359 0 1360 0 1361 0
 snd_explosion_ricochet_small 3040 13 1362 0 1363 0 1364 0 1365 0 1366 0 1367 0 1368 0 1369 0 1370 0 1371 0 1372 0 1373 0 1374 0 
 snd_woman_hit_FP 4048 7 1375 0 1376 0 1377 0 1378 0 1379 0 1380 0 1381 0 
 snd_shot_boltaction_straightpull1 4064 3 1382 0 1383 0 1384 0 
-snd_ambience_sky1_left 2874 1 1385 0 
-snd_ambience_sky1_right 2874 1 1386 0 
-snd_ambience_dusk1_left 1594 1 1387 0 
-snd_ambience_dusk1_right 1594 1 1388 0 
-snd_ambience_dusk2_left 1594 1 1389 0 
-snd_ambience_dusk2_right 1594 1 1390 0 
-snd_ambience_sunny1_left 1594 1 1391 0 
-snd_ambience_sunny1_right 1594 1 1392 0 
-snd_ambience_sunny2_left 1594 1 1393 0 
-snd_ambience_sunny2_right 1594 1 1394 0 
-snd_ambience_sunny3_left 1594 1 1395 0 
-snd_ambience_sunny3_right 1594 1 1396 0 
-snd_ambience_sunny4_left 1594 1 1397 0 
-snd_ambience_sunny4_right 1594 1 1398 0 
-snd_ambience_sunny5_left 1594 1 1399 0 
-snd_ambience_sunny5_right 1594 1 1400 0 
-snd_ambience_sunny6_left 1594 1 1401 0 
-snd_ambience_sunny6_right 1594 1 1402 0 
-snd_ambience_dawn1_left 1594 1 1403 0 
-snd_ambience_dawn1_right 1594 1 1404 0 
-snd_ambience_dawn2_left 1594 1 1405 0 
-snd_ambience_dawn2_right 1594 1 1406 0 
-snd_ambience_dawnsunset1_left 1594 1 1407 0 
-snd_ambience_dawnsunset1_right 1594 1 1408 0 
-snd_ambience_dawnsunset2_left 1594 1 1409 0 
-snd_ambience_dawnsunset2_right 1594 1 1410 0 
-snd_ambience_desertday1_left 826 1 1411 0 
-snd_ambience_desertday1_right 826 1 1412 0 
-snd_ambience_desertday2_left 826 1 1413 0 
-snd_ambience_desertday2_right 826 1 1414 0 
-snd_ambience_desertnight1_left 826 1 1415 0 
-snd_ambience_desertnight1_right 826 1 1416 0 
-snd_ambience_desertnight2_left 826 1 1417 0 
-snd_ambience_desertnight2_right 826 1 1418 0 
-snd_ambience_forestsunny1_left 1594 1 1419 0 
-snd_ambience_forestsunny1_right 1594 1 1420 0 
-snd_ambience_forestsunny2_left 1594 1 1421 0 
-snd_ambience_forestsunny2_right 1594 1 1422 0 
-snd_ambience_forestovercast1_left 1594 1 1423 0 
-snd_ambience_forestovercast1_right 1594 1 1424 0 
-snd_ambience_forestovercast2_left 1594 1 1425 0 
-snd_ambience_forestovercast2_right 1594 1 1426 0 
-snd_ambience_night1_left 1594 1 1427 0 
-snd_ambience_night1_right 1594 1 1428 0 
-snd_ambience_night2_left 1594 1 1429 0 
-snd_ambience_night2_right 1594 1 1430 0 
+snd_ambience_sky1_left 2842 1 1385 0 
+snd_ambience_sky1_right 2842 1 1386 0 
+snd_ambience_dusk1_left 1562 1 1387 0 
+snd_ambience_dusk1_right 1562 1 1388 0 
+snd_ambience_dusk2_left 1562 1 1389 0 
+snd_ambience_dusk2_right 1562 1 1390 0 
+snd_ambience_sunny1_left 1562 1 1391 0 
+snd_ambience_sunny1_right 1562 1 1392 0 
+snd_ambience_sunny2_left 1562 1 1393 0 
+snd_ambience_sunny2_right 1562 1 1394 0 
+snd_ambience_sunny3_left 1562 1 1395 0 
+snd_ambience_sunny3_right 1562 1 1396 0 
+snd_ambience_sunny4_left 1562 1 1397 0 
+snd_ambience_sunny4_right 1562 1 1398 0 
+snd_ambience_sunny5_left 1562 1 1399 0 
+snd_ambience_sunny5_right 1562 1 1400 0 
+snd_ambience_sunny6_left 1562 1 1401 0 
+snd_ambience_sunny6_right 1562 1 1402 0 
+snd_ambience_dawn1_left 1562 1 1403 0 
+snd_ambience_dawn1_right 1562 1 1404 0 
+snd_ambience_dawn2_left 1562 1 1405 0 
+snd_ambience_dawn2_right 1562 1 1406 0 
+snd_ambience_dawnsunset1_left 1562 1 1407 0 
+snd_ambience_dawnsunset1_right 1562 1 1408 0 
+snd_ambience_dawnsunset2_left 1562 1 1409 0 
+snd_ambience_dawnsunset2_right 1562 1 1410 0 
+snd_ambience_desertday1_left 794 1 1411 0 
+snd_ambience_desertday1_right 794 1 1412 0 
+snd_ambience_desertday2_left 794 1 1413 0 
+snd_ambience_desertday2_right 794 1 1414 0 
+snd_ambience_desertnight1_left 794 1 1415 0 
+snd_ambience_desertnight1_right 794 1 1416 0 
+snd_ambience_desertnight2_left 794 1 1417 0 
+snd_ambience_desertnight2_right 794 1 1418 0 
+snd_ambience_forestsunny1_left 1562 1 1419 0 
+snd_ambience_forestsunny1_right 1562 1 1420 0 
+snd_ambience_forestsunny2_left 1562 1 1421 0 
+snd_ambience_forestsunny2_right 1562 1 1422 0 
+snd_ambience_forestovercast1_left 1562 1 1423 0 
+snd_ambience_forestovercast1_right 1562 1 1424 0 
+snd_ambience_forestovercast2_left 1562 1 1425 0 
+snd_ambience_forestovercast2_right 1562 1 1426 0 
+snd_ambience_night1_left 1562 1 1427 0 
+snd_ambience_night1_right 1562 1 1428 0 
+snd_ambience_night2_left 1562 1 1429 0 
+snd_ambience_night2_right 1562 1 1430 0 
 snd_ambience_tree_birds1 3632 32 1431 0 1432 0 1433 0 1434 0 1435 0 1436 0 1437 0 1438 0 1439 0 1440 0 1441 0 1442 0 1443 0 1444 0 1445 0 1446 0 1447 0 1448 0 1449 0 1450 0 1451 0 1452 0 1453 0 1454 0 1455 0 1456 0 1457 0 1458 0 1459 0 1460 0 1461 0 1462 0 
 snd_ambience_tree_birds2 3632 32 1463 0 1464 0 1465 0 1466 0 1467 0 1468 0 1469 0 1470 0 1471 0 1472 0 1473 0 1474 0 1475 0 1476 0 1477 0 1478 0 1479 0 1480 0 1481 0 1482 0 1483 0 1484 0 1485 0 1486 0 1487 0 1488 0 1489 0 1490 0 1491 0 1492 0 1493 0 1494 0 
 snd_ambience_tree_birds3 3632 32 1495 0 1496 0 1497 0 1498 0 1499 0 1500 0 1501 0 1502 0 1503 0 1504 0 1505 0 1506 0 1507 0 1508 0 1509 0 1510 0 1511 0 1512 0 1513 0 1514 0 1515 0 1516 0 1517 0 1518 0 1519 0 1520 0 1521 0 1522 0 1523 0 1524 0 1525 0 1526 0 

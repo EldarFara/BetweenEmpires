@@ -685,5 +685,7 @@ script_cf_if_team_faction_uses_volley_fire = 683
 script_cf_if_team_faction_invented_technology = 684
 script_cf_random = 685
 script_change_faction_flag = 686
+script_cf_current_sky_can_rain = 687
+script_cf_yuricannoncanoneersretreat = 688
 
 

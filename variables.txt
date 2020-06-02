@@ -1208,8 +1208,11 @@ g_there_is_no_avaliable_centers
 g_advantegous_faction
 g_give_advantage_to_original_faction
 g_ccoop_currently_dropping_item
+pws_n_precipitation
 pws_n_clouds
 g_game_speed
+g_rain_intensity
+g_rain_state
 ambience_tree_birds_cooldown
 ambience_sound_type
 ambience_prop_front
@@ -1222,9 +1225,10 @@ g_ambience_random1_1
 g_ambience_random1_2
 g_ambience_random2_1
 g_ambience_random2_2
-current_wind
-current_clouds
-current_precipitation
+current_fog_distance
+g_ambience_random3_1
+g_ambience_random4_1
+current_sky
 async_calculate_company_average_coordinates_team
 async_calculate_company_average_coordinates_company
 aerial_view_state
@@ -1443,7 +1447,6 @@ pws_m_actualwind
 pws_s_actualwind
 pws_m_clouds
 pws_s_clouds
-pws_n_precipitation
 pws_m_precipitation
 pws_s_precipitation
 shader_season
@@ -1456,3 +1459,6 @@ g_ccoop_king_troop
 scene_is_forest
 g_prison_cart_previous_point
 killed_agents_count
+current_wind
+current_clouds
+current_precipitation

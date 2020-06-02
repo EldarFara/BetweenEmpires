@@ -2866,23 +2866,36 @@ game_menus = [
   ),
 
    ("cheat_change_weather",0,
-   "{!}Current cloud amount (north region): {reg5}^Current Fog Strength: {reg6}^Season number: {reg7}",
+   "{!}Current cloud amount ({s1}): {reg5}^Current Fog Strength: {reg6}^Season number: {reg7}",
    "bg3",
    [
-	(assign, reg5, "$pws_n_clouds"),
-     #(get_global_cloud_amount, reg5),
+	(assign, reg5, "$current_clouds"),
+(try_begin),
+(eq, "$pws_n_clouds", "$current_clouds"),
+(str_store_string, s1, "@north region"),
+(else_try),
+(eq, "$pws_m_clouds", "$current_clouds"),
+(str_store_string, s1, "@middle region"),
+(else_try),
+(eq, "$pws_s_clouds", "$current_clouds"),
+(str_store_string, s1, "@south region"),
+(try_end),
      (get_global_haze_amount, reg6),
 	(assign, reg7, "$shader_season"),
      ],
     [
-      ("cheat_increase_cloud",[], "{!}Increase Cloud Amount.",
+      ("cheat_increase_cloud",[], "{!}Increase cloud and precipitation amount (north region).",
        [
+		(val_add, "$pws_n_precipitation", 5),
+		(val_min, "$pws_n_precipitation", 100),
 		(val_add, "$pws_n_clouds", 5),
 		(val_min, "$pws_n_clouds", 100),
 	   ]
        ),
-      ("cheat_decrease_cloud",[], "{!}Decrease Cloud Amount.",
+      ("cheat_decrease_cloud",[], "{!}Decrease cloud and precipitation amount (north region).",
        [
+		(val_add, "$pws_n_precipitation", -5),
+		(val_max, "$pws_n_precipitation", 0),
 		(val_add, "$pws_n_clouds", -5),
 		(val_max, "$pws_n_clouds", 0),
 	   ]
