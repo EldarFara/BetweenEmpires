@@ -1150,6 +1150,58 @@ particle_systems = [
      90,                       #rotation speed
      0.25,                        #rotation damping
     ),
+  ("rain1", psf_billboard_2d|psf_global_emit_dir|psf_always_emit, "rain1",
+     9999, 0.9, 0.33, 2.0, 10.0, 0.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+     (1.0, 0.25), (1, 0.25),        #alpha keys
+     (1.0, 1.0), (1, 1.0),      #red keys
+     (1.0, 1.0), (1, 1.0),      #green keys
+     (1.0, 1.0), (1, 1.0),      #blue keys
+     (1.0, 1.0),   (1.0, 1.0),   #scale keys
+     (9.2, 9.2, 0.2),           #emit box size
+     (0, 0, -12.0),               #emit velocity
+     0.0,                       #emit dir randomness
+     0,                       #rotation speed
+     0.5                        #rotation damping
+    ),
+  ("thunder1", psf_billboard_2d|psf_global_emit_dir|psf_always_emit, "thunder1",
+     1.5, 1, 0, 0, 0.0, 0.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+     (0.2, 1), (1, 0),        #alpha keys
+     (1.0, 1.0), (1, 1.0),      #red keys
+     (1.0, 1.0), (1, 1.0),      #green keys
+     (1.0, 1.0), (1, 1.0),      #blue keys
+     (1.0, 1.0),   (1.0, 1.0),   #scale keys
+     (0, 0, 0),           #emit box size
+     (0, 0, 0),               #emit velocity
+     0.0,                       #emit dir randomness
+     0,                       #rotation speed
+     0                        #rotation damping
+    ),
+  ("thunder2", psf_billboard_2d|psf_global_emit_dir|psf_always_emit, "thunder2",
+     1.5, 1, 0, 0, 0.0, 0.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+     (0.2, 1), (1, 0),        #alpha keys
+     (1.0, 1.0), (1, 1.0),      #red keys
+     (1.0, 1.0), (1, 1.0),      #green keys
+     (1.0, 1.0), (1, 1.0),      #blue keys
+     (1.0, 1.0),   (1.0, 1.0),   #scale keys
+     (0, 0, 0),           #emit box size
+     (0, 0, 0),               #emit velocity
+     0.0,                       #emit dir randomness
+     0,                       #rotation speed
+     0                        #rotation damping
+    ),
+  ("thunder_end", psf_billboard_2d|psf_global_emit_dir|psf_always_emit, "thunder2",
+     1.5, 1, 0, 0, 0.0, 0.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+     (0.2, 1), (1, 0),        #alpha keys
+     (1.0, 1.0), (1, 1.0),      #red keys
+     (1.0, 1.0), (1, 1.0),      #green keys
+     (1.0, 1.0), (1, 1.0),      #blue keys
+     (1.0, 1.0),   (1.0, 1.0),   #scale keys
+     (0, 0, 0),           #emit box size
+     (0, 0, 0),               #emit velocity
+     0.0,                       #emit dir randomness
+     0,                       #rotation speed
+     0                        #rotation damping
+    ),
 
 ]
 

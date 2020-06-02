@@ -1213,6 +1213,9 @@ pws_n_clouds
 g_game_speed
 g_rain_intensity
 g_rain_state
+g_rain_position_modifier
+ambience_prop_rain_left
+ambience_prop_rain_right
 ambience_tree_birds_cooldown
 ambience_sound_type
 ambience_prop_front

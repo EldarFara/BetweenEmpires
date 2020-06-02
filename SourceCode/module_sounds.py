@@ -334,6 +334,18 @@ sounds = [
 ("ambience_sunny5_right", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_sunny5_right.wav"]),
 ("ambience_sunny6_left", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_sunny6_left.wav"]), # chauteu field gravel clear
 ("ambience_sunny6_right", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_sunny6_right.wav"]),
+("ambience_overcast1_left", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_overcast1_left.wav"]), # scar field overcast
+("ambience_overcast1_right", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_overcast1_right.wav"]),
+("ambience_overcast2_left", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_overcast2_left.wav"]), # scar field overcast
+("ambience_overcast2_right", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_overcast2_right.wav"]),
+("ambience_overcast3_left", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_overcast3_left.wav"]), # graveyard field overcast
+("ambience_overcast3_right", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_overcast3_right.wav"]),
+("ambience_overcast4_left", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_overcast4_left.wav"]), # graveyard field overcast
+("ambience_overcast4_right", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_overcast4_right.wav"]),
+("ambience_overcast5_left", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_overcast5_left.wav"]), # chauteu field gravel overcast
+("ambience_overcast5_right", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_overcast5_right.wav"]),
+("ambience_overcast6_left", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_overcast6_left.wav"]), # chauteu field gravel overcast
+("ambience_overcast6_right", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_overcast6_right.wav"]),
 ("ambience_dawn1_left", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_dawn1_left.wav"]), # fields field clear
 ("ambience_dawn1_right", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_dawn1_right.wav"]),
 ("ambience_dawn2_left", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_dawn2_left.wav"]), # fields field clear
@@ -362,6 +374,9 @@ sounds = [
 ("ambience_night1_right", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_night1_right.wav"]),
 ("ambience_night2_left", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_night2_left.wav"]),
 ("ambience_night2_right", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_night2_right.wav"]),
+("ambience_rain1_left", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_rain1_left.wav"]), # e0 prologue field rain
+("ambience_rain1_right", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_rain1_right.wav"]),
+("ambience_thunder", sf_vol_15|sf_priority_15|sf_stream_from_hd,["ambience_thunder1.wav", "ambience_thunder2.wav", "ambience_thunder3.wav", "ambience_thunder4.wav", "ambience_thunder5.wav", "ambience_thunder6.wav", "ambience_thunder7.wav", "ambience_thunder8.wav", "ambience_thunder9.wav"]),
 
 ("ambience_tree_birds1",sf_priority_3|sf_vol_14, ["ambience_tree_birds01.wav","ambience_tree_birds02.wav","ambience_tree_birds03.wav","ambience_tree_birds04.wav","ambience_tree_birds05.wav","ambience_tree_birds06.wav","ambience_tree_birds07.wav","ambience_tree_birds08.wav","ambience_tree_birds09.wav","ambience_tree_birds10.wav","ambience_tree_birds11.wav","ambience_tree_birds12.wav","ambience_tree_birds13.wav","ambience_tree_birds14.wav","ambience_tree_birds15.wav","ambience_tree_birds16.wav","ambience_tree_birds17.wav","ambience_tree_birds18.wav","ambience_tree_birds19.wav","ambience_tree_birds20.wav","ambience_tree_birds21.wav","ambience_tree_birds22.wav","ambience_tree_birds23.wav","ambience_tree_birds24.wav","ambience_tree_birds25.wav","ambience_tree_birds26.wav","ambience_tree_birds27.wav","ambience_tree_birds28.wav","ambience_tree_birds29.wav","ambience_tree_birds30.wav","ambience_tree_birds31.wav","ambience_tree_birds32.wav"]),
 ("ambience_tree_birds2",sf_priority_3|sf_vol_14, ["ambience_tree_birds33.wav","ambience_tree_birds34.wav","ambience_tree_birds35.wav","ambience_tree_birds36.wav","ambience_tree_birds37.wav","ambience_tree_birds38.wav","ambience_tree_birds39.wav","ambience_tree_birds40.wav","ambience_tree_birds41.wav","ambience_tree_birds42.wav","ambience_tree_birds43.wav","ambience_tree_birds44.wav","ambience_tree_birds45.wav","ambience_tree_birds46.wav","ambience_tree_birds47.wav","ambience_tree_birds48.wav","ambience_tree_birds49.wav","ambience_tree_birds50.wav","ambience_tree_birds51.wav","ambience_tree_birds52.wav","ambience_tree_birds53.wav","ambience_tree_birds54.wav","ambience_tree_birds55.wav","ambience_tree_birds56.wav","ambience_tree_birds57.wav","ambience_tree_birds58.wav","ambience_tree_birds59.wav","ambience_tree_birds60.wav","ambience_tree_birds61.wav","ambience_tree_birds62.wav","ambience_tree_birds63.wav","ambience_tree_birds64.wav"]),
