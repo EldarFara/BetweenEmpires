@@ -102,6 +102,10 @@ scripts = [
 (assign, "$player_company7_type", 0),
 (assign, "$player_company8_type", 0),
 
+	(try_for_range, ":faction", 0, "fac_ccoop_all_stars"),
+	(faction_set_slot, ":faction", slot_faction_flag_scene, -1),
+	(faction_set_slot, ":faction", slot_faction_flag_map, -1),
+	(try_end),
 (assign, ":flag_scene", "str_flag1_0"),
 (assign, ":flag_map", "icon_map_flag_faction0"),
 	(try_for_range, ":faction", npc_kingdoms_begin, npc_kingdoms_end),
@@ -57380,6 +57384,18 @@ scripts = [
 (scene_prop_set_visibility, ":CannonRamrod2", 0),
 (scene_prop_set_slot, ":CannonBody", YuriSlotProp_CannonIsActive, 0),
   ]),
+  
+("cf_get_agent_faction_flag_material",
+[
+(store_script_param, ":agent", 1),
+(agent_is_active, ":agent"),
+(agent_get_party_id, ":party", ":agent"),
+(party_is_active, ":party"),
+(store_faction_of_party, ":faction", ":party"),
+(faction_get_slot, ":string", ":faction", slot_faction_flag_scene),
+(neq, ":string", -1),
+(str_store_string, s1, ":string"),
+]),
 
 ]# modmerger_start version=201 type=2
 try:

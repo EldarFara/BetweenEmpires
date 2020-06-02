@@ -1,5 +1,5 @@
 soundsfile version 3
-1603
+1604
  drum_3.ogg 769
  tutorial_1.ogg 1793
  tutorial_2.ogg 1793
@@ -1387,62 +1387,62 @@ soundsfile version 3
  shot_boltaction_straightpull1_3.wav 4064
  ambience_sky1_left.wav 2842
  ambience_sky1_right.wav 2842
- ambience_dusk1_left.wav 1562
- ambience_dusk1_right.wav 1562
- ambience_dusk2_left.wav 1562
- ambience_dusk2_right.wav 1562
- ambience_sunny1_left.wav 1562
- ambience_sunny1_right.wav 1562
- ambience_sunny2_left.wav 1562
- ambience_sunny2_right.wav 1562
- ambience_sunny3_left.wav 1562
- ambience_sunny3_right.wav 1562
- ambience_sunny4_left.wav 1562
- ambience_sunny4_right.wav 1562
- ambience_sunny5_left.wav 1562
- ambience_sunny5_right.wav 1562
- ambience_sunny6_left.wav 1562
- ambience_sunny6_right.wav 1562
- ambience_overcast1_left.wav 1562
- ambience_overcast1_right.wav 1562
- ambience_overcast2_left.wav 1562
- ambience_overcast2_right.wav 1562
- ambience_overcast3_left.wav 1562
- ambience_overcast3_right.wav 1562
- ambience_overcast4_left.wav 1562
- ambience_overcast4_right.wav 1562
- ambience_overcast5_left.wav 1562
- ambience_overcast5_right.wav 1562
- ambience_overcast6_left.wav 1562
- ambience_overcast6_right.wav 1562
- ambience_dawn1_left.wav 1562
- ambience_dawn1_right.wav 1562
- ambience_dawn2_left.wav 1562
- ambience_dawn2_right.wav 1562
- ambience_dawnsunset1_left.wav 1562
- ambience_dawnsunset1_right.wav 1562
- ambience_dawnsunset2_left.wav 1562
- ambience_dawnsunset2_right.wav 1562
- ambience_desertday1_left.wav 794
- ambience_desertday1_right.wav 794
- ambience_desertday2_left.wav 794
- ambience_desertday2_right.wav 794
- ambience_desertnight1_left.wav 794
- ambience_desertnight1_right.wav 794
- ambience_desertnight2_left.wav 794
- ambience_desertnight2_right.wav 794
- ambience_forestsunny1_left.wav 1562
- ambience_forestsunny1_right.wav 1562
- ambience_forestsunny2_left.wav 1562
- ambience_forestsunny2_right.wav 1562
- ambience_forestovercast1_left.wav 1562
- ambience_forestovercast1_right.wav 1562
- ambience_forestovercast2_left.wav 1562
- ambience_forestovercast2_right.wav 1562
- ambience_night1_left.wav 1562
- ambience_night1_right.wav 1562
- ambience_night2_left.wav 1562
- ambience_night2_right.wav 1562
+ ambience_dusk1_left.wav 282
+ ambience_dusk1_right.wav 282
+ ambience_dusk2_left.wav 282
+ ambience_dusk2_right.wav 282
+ ambience_sunny1_left.wav 282
+ ambience_sunny1_right.wav 282
+ ambience_sunny2_left.wav 282
+ ambience_sunny2_right.wav 282
+ ambience_sunny3_left.wav 282
+ ambience_sunny3_right.wav 282
+ ambience_sunny4_left.wav 282
+ ambience_sunny4_right.wav 282
+ ambience_sunny5_left.wav 282
+ ambience_sunny5_right.wav 282
+ ambience_sunny6_left.wav 282
+ ambience_sunny6_right.wav 282
+ ambience_overcast1_left.wav 282
+ ambience_overcast1_right.wav 282
+ ambience_overcast2_left.wav 282
+ ambience_overcast2_right.wav 282
+ ambience_overcast3_left.wav 282
+ ambience_overcast3_right.wav 282
+ ambience_overcast4_left.wav 282
+ ambience_overcast4_right.wav 282
+ ambience_overcast5_left.wav 282
+ ambience_overcast5_right.wav 282
+ ambience_overcast6_left.wav 282
+ ambience_overcast6_right.wav 282
+ ambience_dawn1_left.wav 282
+ ambience_dawn1_right.wav 282
+ ambience_dawn2_left.wav 282
+ ambience_dawn2_right.wav 282
+ ambience_dawnsunset1_left.wav 282
+ ambience_dawnsunset1_right.wav 282
+ ambience_dawnsunset2_left.wav 282
+ ambience_dawnsunset2_right.wav 282
+ ambience_desertday1_left.wav 282
+ ambience_desertday1_right.wav 282
+ ambience_desertday2_left.wav 282
+ ambience_desertday2_right.wav 282
+ ambience_desertnight1_left.wav 282
+ ambience_desertnight1_right.wav 282
+ ambience_desertnight2_left.wav 282
+ ambience_desertnight2_right.wav 282
+ ambience_forestsunny1_left.wav 282
+ ambience_forestsunny1_right.wav 282
+ ambience_forestsunny2_left.wav 282
+ ambience_forestsunny2_right.wav 282
+ ambience_forestovercast1_left.wav 282
+ ambience_forestovercast1_right.wav 282
+ ambience_forestovercast2_left.wav 282
+ ambience_forestovercast2_right.wav 282
+ ambience_night1_left.wav 282
+ ambience_night1_right.wav 282
+ ambience_night2_left.wav 282
+ ambience_night2_right.wav 282
  ambience_rain1_left.wav 1562
  ambience_rain1_right.wav 1562
  ambience_thunder1.wav 4088
@@ -1454,156 +1454,157 @@ soundsfile version 3
  ambience_thunder7.wav 4088
  ambience_thunder8.wav 4088
  ambience_thunder9.wav 4088
- ambience_tree_birds01.wav 3632
- ambience_tree_birds02.wav 3632
- ambience_tree_birds03.wav 3632
- ambience_tree_birds04.wav 3632
- ambience_tree_birds05.wav 3632
- ambience_tree_birds06.wav 3632
- ambience_tree_birds07.wav 3632
- ambience_tree_birds08.wav 3632
- ambience_tree_birds09.wav 3632
- ambience_tree_birds10.wav 3632
- ambience_tree_birds11.wav 3632
- ambience_tree_birds12.wav 3632
- ambience_tree_birds13.wav 3632
- ambience_tree_birds14.wav 3632
- ambience_tree_birds15.wav 3632
- ambience_tree_birds16.wav 3632
- ambience_tree_birds17.wav 3632
- ambience_tree_birds18.wav 3632
- ambience_tree_birds19.wav 3632
- ambience_tree_birds20.wav 3632
- ambience_tree_birds21.wav 3632
- ambience_tree_birds22.wav 3632
- ambience_tree_birds23.wav 3632
- ambience_tree_birds24.wav 3632
- ambience_tree_birds25.wav 3632
- ambience_tree_birds26.wav 3632
- ambience_tree_birds27.wav 3632
- ambience_tree_birds28.wav 3632
- ambience_tree_birds29.wav 3632
- ambience_tree_birds30.wav 3632
- ambience_tree_birds31.wav 3632
- ambience_tree_birds32.wav 3632
- ambience_tree_birds33.wav 3632
- ambience_tree_birds34.wav 3632
- ambience_tree_birds35.wav 3632
- ambience_tree_birds36.wav 3632
- ambience_tree_birds37.wav 3632
- ambience_tree_birds38.wav 3632
- ambience_tree_birds39.wav 3632
- ambience_tree_birds40.wav 3632
- ambience_tree_birds41.wav 3632
- ambience_tree_birds42.wav 3632
- ambience_tree_birds43.wav 3632
- ambience_tree_birds44.wav 3632
- ambience_tree_birds45.wav 3632
- ambience_tree_birds46.wav 3632
- ambience_tree_birds47.wav 3632
- ambience_tree_birds48.wav 3632
- ambience_tree_birds49.wav 3632
- ambience_tree_birds50.wav 3632
- ambience_tree_birds51.wav 3632
- ambience_tree_birds52.wav 3632
- ambience_tree_birds53.wav 3632
- ambience_tree_birds54.wav 3632
- ambience_tree_birds55.wav 3632
- ambience_tree_birds56.wav 3632
- ambience_tree_birds57.wav 3632
- ambience_tree_birds58.wav 3632
- ambience_tree_birds59.wav 3632
- ambience_tree_birds60.wav 3632
- ambience_tree_birds61.wav 3632
- ambience_tree_birds62.wav 3632
- ambience_tree_birds63.wav 3632
- ambience_tree_birds64.wav 3632
- ambience_tree_birds65.wav 3632
- ambience_tree_birds66.wav 3632
- ambience_tree_birds67.wav 3632
- ambience_tree_birds68.wav 3632
- ambience_tree_birds69.wav 3632
- ambience_tree_birds70.wav 3632
- ambience_tree_birds71.wav 3632
- ambience_tree_birds72.wav 3632
- ambience_tree_birds73.wav 3632
- ambience_tree_birds74.wav 3632
- ambience_tree_birds75.wav 3632
- ambience_tree_birds76.wav 3632
- ambience_tree_birds77.wav 3632
- ambience_tree_birds78.wav 3632
- ambience_tree_birds79.wav 3632
- ambience_tree_birds80.wav 3632
- ambience_tree_birds81.wav 3632
- ambience_tree_birds82.wav 3632
- ambience_tree_birds83.wav 3632
- ambience_tree_birds84.wav 3632
- ambience_tree_birds85.wav 3632
- ambience_tree_birds86.wav 3632
- ambience_tree_birds87.wav 3632
- ambience_tree_birds88.wav 3632
- ambience_tree_birds89.wav 3632
- ambience_tree_birds90.wav 3632
- ambience_tree_birds91.wav 3632
- ambience_tree_birds92.wav 3632
- ambience_tree_birds93.wav 3632
- ambience_tree_birds94.wav 3632
- ambience_tree_birds95.wav 3632
- ambience_tree_birds96.wav 3632
- ambience_tree_birds97.wav 3632
- ambience_tree_birds98.wav 3632
- ambience_tree_birds99.wav 3632
- ambience_tree_birds100.wav 3632
- ambience_tree_birds101.wav 3632
- ambience_tree_birds102.wav 3632
- ambience_tree_birds103.wav 3632
- ambience_tree_birds104.wav 3632
- ambience_tree_birds105.wav 3632
- ambience_tree_birds106.wav 3632
- ambience_tree_birds107.wav 3632
- ambience_tree_birds108.wav 3632
- ambience_tree_birds109.wav 3632
- ambience_tree_birds110.wav 3632
- ambience_tree_birds111.wav 3632
- ambience_tree_birds112.wav 3632
- ambience_tree_birds113.wav 3632
- ambience_tree_birds114.wav 3632
- ambience_tree_birds115.wav 3632
- ambience_tree_birds116.wav 3632
- ambience_tree_birds117.wav 3632
- ambience_tree_birds118.wav 3632
- ambience_tree_birds119.wav 3632
- ambience_tree_birds120.wav 3632
- ambience_tree_birds121.wav 3632
- ambience_tree_birds122.wav 3632
- ambience_tree_birds123.wav 3632
- ambience_tree_birds124.wav 3632
- ambience_tree_birds125.wav 3632
- ambience_tree_birds126.wav 3632
- ambience_tree_birds127.wav 3632
- ambience_tree_birds128.wav 3632
- ambience_tree_birds129.wav 3632
- ambience_tree_birds130.wav 3632
- ambience_tree_birds131.wav 3632
- ambience_tree_birds132.wav 3632
- ambience_tree_birds133.wav 3632
- ambience_tree_birds134.wav 3632
- ambience_tree_birds135.wav 3632
- ambience_tree_birds136.wav 3632
- ambience_tree_birds137.wav 3632
- ambience_tree_birds138.wav 3632
- ambience_tree_birds139.wav 3632
- ambience_tree_birds140.wav 3632
- ambience_tree_birds141.wav 3632
- ambience_tree_birds142.wav 3632
- ambience_tree_birds143.wav 3632
- ambience_tree_birds144.wav 3632
- ambience_tree_birds145.wav 3632
- ambience_tree_birds146.wav 3632
- ambience_tree_birds147.wav 3632
- ambience_tree_birds148.wav 3632
- ambience_tree_birds149.wav 3632
-344
+ ambience_tree_birds01.wav 2608
+ ambience_tree_birds02.wav 2608
+ ambience_tree_birds03.wav 2608
+ ambience_tree_birds04.wav 2608
+ ambience_tree_birds05.wav 2608
+ ambience_tree_birds06.wav 2608
+ ambience_tree_birds07.wav 2608
+ ambience_tree_birds08.wav 2608
+ ambience_tree_birds09.wav 2608
+ ambience_tree_birds10.wav 2608
+ ambience_tree_birds11.wav 2608
+ ambience_tree_birds12.wav 2608
+ ambience_tree_birds13.wav 2608
+ ambience_tree_birds14.wav 2608
+ ambience_tree_birds15.wav 2608
+ ambience_tree_birds16.wav 2608
+ ambience_tree_birds17.wav 2608
+ ambience_tree_birds18.wav 2608
+ ambience_tree_birds19.wav 2608
+ ambience_tree_birds20.wav 2608
+ ambience_tree_birds21.wav 2608
+ ambience_tree_birds22.wav 2608
+ ambience_tree_birds23.wav 2608
+ ambience_tree_birds24.wav 2608
+ ambience_tree_birds25.wav 2608
+ ambience_tree_birds26.wav 2608
+ ambience_tree_birds27.wav 2608
+ ambience_tree_birds28.wav 2608
+ ambience_tree_birds29.wav 2608
+ ambience_tree_birds30.wav 2608
+ ambience_tree_birds31.wav 2608
+ ambience_tree_birds32.wav 2608
+ ambience_tree_birds33.wav 2608
+ ambience_tree_birds34.wav 2608
+ ambience_tree_birds35.wav 2608
+ ambience_tree_birds36.wav 2608
+ ambience_tree_birds37.wav 2608
+ ambience_tree_birds38.wav 2608
+ ambience_tree_birds39.wav 2608
+ ambience_tree_birds40.wav 2608
+ ambience_tree_birds41.wav 2608
+ ambience_tree_birds42.wav 2608
+ ambience_tree_birds43.wav 2608
+ ambience_tree_birds44.wav 2608
+ ambience_tree_birds45.wav 2608
+ ambience_tree_birds46.wav 2608
+ ambience_tree_birds47.wav 2608
+ ambience_tree_birds48.wav 2608
+ ambience_tree_birds49.wav 2608
+ ambience_tree_birds50.wav 2608
+ ambience_tree_birds51.wav 2608
+ ambience_tree_birds52.wav 2608
+ ambience_tree_birds53.wav 2608
+ ambience_tree_birds54.wav 2608
+ ambience_tree_birds55.wav 2608
+ ambience_tree_birds56.wav 2608
+ ambience_tree_birds57.wav 2608
+ ambience_tree_birds58.wav 2608
+ ambience_tree_birds59.wav 2608
+ ambience_tree_birds60.wav 2608
+ ambience_tree_birds61.wav 2608
+ ambience_tree_birds62.wav 2608
+ ambience_tree_birds63.wav 2608
+ ambience_tree_birds64.wav 2608
+ ambience_tree_birds65.wav 2608
+ ambience_tree_birds66.wav 2608
+ ambience_tree_birds67.wav 2608
+ ambience_tree_birds68.wav 2608
+ ambience_tree_birds69.wav 2608
+ ambience_tree_birds70.wav 2608
+ ambience_tree_birds71.wav 2608
+ ambience_tree_birds72.wav 2608
+ ambience_tree_birds73.wav 2608
+ ambience_tree_birds74.wav 2608
+ ambience_tree_birds75.wav 2608
+ ambience_tree_birds76.wav 2608
+ ambience_tree_birds77.wav 2608
+ ambience_tree_birds78.wav 2608
+ ambience_tree_birds79.wav 2608
+ ambience_tree_birds80.wav 2608
+ ambience_tree_birds81.wav 2608
+ ambience_tree_birds82.wav 2608
+ ambience_tree_birds83.wav 2608
+ ambience_tree_birds84.wav 2608
+ ambience_tree_birds85.wav 2608
+ ambience_tree_birds86.wav 2608
+ ambience_tree_birds87.wav 2608
+ ambience_tree_birds88.wav 2608
+ ambience_tree_birds89.wav 2608
+ ambience_tree_birds90.wav 2608
+ ambience_tree_birds91.wav 2608
+ ambience_tree_birds92.wav 2608
+ ambience_tree_birds93.wav 2608
+ ambience_tree_birds94.wav 2608
+ ambience_tree_birds95.wav 2608
+ ambience_tree_birds96.wav 2608
+ ambience_tree_birds97.wav 2608
+ ambience_tree_birds98.wav 2608
+ ambience_tree_birds99.wav 2608
+ ambience_tree_birds100.wav 2608
+ ambience_tree_birds101.wav 2608
+ ambience_tree_birds102.wav 2608
+ ambience_tree_birds103.wav 2608
+ ambience_tree_birds104.wav 2608
+ ambience_tree_birds105.wav 2608
+ ambience_tree_birds106.wav 2608
+ ambience_tree_birds107.wav 2608
+ ambience_tree_birds108.wav 2608
+ ambience_tree_birds109.wav 2608
+ ambience_tree_birds110.wav 2608
+ ambience_tree_birds111.wav 2608
+ ambience_tree_birds112.wav 2608
+ ambience_tree_birds113.wav 2608
+ ambience_tree_birds114.wav 2608
+ ambience_tree_birds115.wav 2608
+ ambience_tree_birds116.wav 2608
+ ambience_tree_birds117.wav 2608
+ ambience_tree_birds118.wav 2608
+ ambience_tree_birds119.wav 2608
+ ambience_tree_birds120.wav 2608
+ ambience_tree_birds121.wav 2608
+ ambience_tree_birds122.wav 2608
+ ambience_tree_birds123.wav 2608
+ ambience_tree_birds124.wav 2608
+ ambience_tree_birds125.wav 2608
+ ambience_tree_birds126.wav 2608
+ ambience_tree_birds127.wav 2608
+ ambience_tree_birds128.wav 2608
+ ambience_tree_birds129.wav 2608
+ ambience_tree_birds130.wav 2608
+ ambience_tree_birds131.wav 2608
+ ambience_tree_birds132.wav 2608
+ ambience_tree_birds133.wav 2608
+ ambience_tree_birds134.wav 2608
+ ambience_tree_birds135.wav 2608
+ ambience_tree_birds136.wav 2608
+ ambience_tree_birds137.wav 2608
+ ambience_tree_birds138.wav 2608
+ ambience_tree_birds139.wav 2608
+ ambience_tree_birds140.wav 2608
+ ambience_tree_birds141.wav 2608
+ ambience_tree_birds142.wav 2608
+ ambience_tree_birds143.wav 2608
+ ambience_tree_birds144.wav 2608
+ ambience_tree_birds145.wav 2608
+ ambience_tree_birds146.wav 2608
+ ambience_tree_birds147.wav 2608
+ ambience_tree_birds148.wav 2608
+ ambience_tree_birds149.wav 2608
+ flag_animated1.wav 274
+345
 snd_click 769 1 0 0 
 snd_tutorial_1 1793 1 1 0 
 snd_tutorial_2 1793 1 2 0 
@@ -1883,68 +1884,69 @@ snd_woman_hit_FP 4048 7 1375 0 1376 0 1377 0 1378 0 1379 0 1380 0 1381 0
 snd_shot_boltaction_straightpull1 4064 3 1382 0 1383 0 1384 0 
 snd_ambience_sky1_left 2842 1 1385 0 
 snd_ambience_sky1_right 2842 1 1386 0 
-snd_ambience_dusk1_left 1562 1 1387 0 
-snd_ambience_dusk1_right 1562 1 1388 0 
-snd_ambience_dusk2_left 1562 1 1389 0 
-snd_ambience_dusk2_right 1562 1 1390 0 
-snd_ambience_sunny1_left 1562 1 1391 0 
-snd_ambience_sunny1_right 1562 1 1392 0 
-snd_ambience_sunny2_left 1562 1 1393 0 
-snd_ambience_sunny2_right 1562 1 1394 0 
-snd_ambience_sunny3_left 1562 1 1395 0 
-snd_ambience_sunny3_right 1562 1 1396 0 
-snd_ambience_sunny4_left 1562 1 1397 0 
-snd_ambience_sunny4_right 1562 1 1398 0 
-snd_ambience_sunny5_left 1562 1 1399 0 
-snd_ambience_sunny5_right 1562 1 1400 0 
-snd_ambience_sunny6_left 1562 1 1401 0 
-snd_ambience_sunny6_right 1562 1 1402 0 
-snd_ambience_overcast1_left 1562 1 1403 0 
-snd_ambience_overcast1_right 1562 1 1404 0 
-snd_ambience_overcast2_left 1562 1 1405 0 
-snd_ambience_overcast2_right 1562 1 1406 0 
-snd_ambience_overcast3_left 1562 1 1407 0 
-snd_ambience_overcast3_right 1562 1 1408 0 
-snd_ambience_overcast4_left 1562 1 1409 0 
-snd_ambience_overcast4_right 1562 1 1410 0 
-snd_ambience_overcast5_left 1562 1 1411 0 
-snd_ambience_overcast5_right 1562 1 1412 0 
-snd_ambience_overcast6_left 1562 1 1413 0 
-snd_ambience_overcast6_right 1562 1 1414 0 
-snd_ambience_dawn1_left 1562 1 1415 0 
-snd_ambience_dawn1_right 1562 1 1416 0 
-snd_ambience_dawn2_left 1562 1 1417 0 
-snd_ambience_dawn2_right 1562 1 1418 0 
-snd_ambience_dawnsunset1_left 1562 1 1419 0 
-snd_ambience_dawnsunset1_right 1562 1 1420 0 
-snd_ambience_dawnsunset2_left 1562 1 1421 0 
-snd_ambience_dawnsunset2_right 1562 1 1422 0 
-snd_ambience_desertday1_left 794 1 1423 0 
-snd_ambience_desertday1_right 794 1 1424 0 
-snd_ambience_desertday2_left 794 1 1425 0 
-snd_ambience_desertday2_right 794 1 1426 0 
-snd_ambience_desertnight1_left 794 1 1427 0 
-snd_ambience_desertnight1_right 794 1 1428 0 
-snd_ambience_desertnight2_left 794 1 1429 0 
-snd_ambience_desertnight2_right 794 1 1430 0 
-snd_ambience_forestsunny1_left 1562 1 1431 0 
-snd_ambience_forestsunny1_right 1562 1 1432 0 
-snd_ambience_forestsunny2_left 1562 1 1433 0 
-snd_ambience_forestsunny2_right 1562 1 1434 0 
-snd_ambience_forestovercast1_left 1562 1 1435 0 
-snd_ambience_forestovercast1_right 1562 1 1436 0 
-snd_ambience_forestovercast2_left 1562 1 1437 0 
-snd_ambience_forestovercast2_right 1562 1 1438 0 
-snd_ambience_night1_left 1562 1 1439 0 
-snd_ambience_night1_right 1562 1 1440 0 
-snd_ambience_night2_left 1562 1 1441 0 
-snd_ambience_night2_right 1562 1 1442 0 
+snd_ambience_dusk1_left 282 1 1387 0 
+snd_ambience_dusk1_right 282 1 1388 0 
+snd_ambience_dusk2_left 282 1 1389 0 
+snd_ambience_dusk2_right 282 1 1390 0 
+snd_ambience_sunny1_left 282 1 1391 0 
+snd_ambience_sunny1_right 282 1 1392 0 
+snd_ambience_sunny2_left 282 1 1393 0 
+snd_ambience_sunny2_right 282 1 1394 0 
+snd_ambience_sunny3_left 282 1 1395 0 
+snd_ambience_sunny3_right 282 1 1396 0 
+snd_ambience_sunny4_left 282 1 1397 0 
+snd_ambience_sunny4_right 282 1 1398 0 
+snd_ambience_sunny5_left 282 1 1399 0 
+snd_ambience_sunny5_right 282 1 1400 0 
+snd_ambience_sunny6_left 282 1 1401 0 
+snd_ambience_sunny6_right 282 1 1402 0 
+snd_ambience_overcast1_left 282 1 1403 0 
+snd_ambience_overcast1_right 282 1 1404 0 
+snd_ambience_overcast2_left 282 1 1405 0 
+snd_ambience_overcast2_right 282 1 1406 0 
+snd_ambience_overcast3_left 282 1 1407 0 
+snd_ambience_overcast3_right 282 1 1408 0 
+snd_ambience_overcast4_left 282 1 1409 0 
+snd_ambience_overcast4_right 282 1 1410 0 
+snd_ambience_overcast5_left 282 1 1411 0 
+snd_ambience_overcast5_right 282 1 1412 0 
+snd_ambience_overcast6_left 282 1 1413 0 
+snd_ambience_overcast6_right 282 1 1414 0 
+snd_ambience_dawn1_left 282 1 1415 0 
+snd_ambience_dawn1_right 282 1 1416 0 
+snd_ambience_dawn2_left 282 1 1417 0 
+snd_ambience_dawn2_right 282 1 1418 0 
+snd_ambience_dawnsunset1_left 282 1 1419 0 
+snd_ambience_dawnsunset1_right 282 1 1420 0 
+snd_ambience_dawnsunset2_left 282 1 1421 0 
+snd_ambience_dawnsunset2_right 282 1 1422 0 
+snd_ambience_desertday1_left 282 1 1423 0 
+snd_ambience_desertday1_right 282 1 1424 0 
+snd_ambience_desertday2_left 282 1 1425 0 
+snd_ambience_desertday2_right 282 1 1426 0 
+snd_ambience_desertnight1_left 282 1 1427 0 
+snd_ambience_desertnight1_right 282 1 1428 0 
+snd_ambience_desertnight2_left 282 1 1429 0 
+snd_ambience_desertnight2_right 282 1 1430 0 
+snd_ambience_forestsunny1_left 282 1 1431 0 
+snd_ambience_forestsunny1_right 282 1 1432 0 
+snd_ambience_forestsunny2_left 282 1 1433 0 
+snd_ambience_forestsunny2_right 282 1 1434 0 
+snd_ambience_forestovercast1_left 282 1 1435 0 
+snd_ambience_forestovercast1_right 282 1 1436 0 
+snd_ambience_forestovercast2_left 282 1 1437 0 
+snd_ambience_forestovercast2_right 282 1 1438 0 
+snd_ambience_night1_left 282 1 1439 0 
+snd_ambience_night1_right 282 1 1440 0 
+snd_ambience_night2_left 282 1 1441 0 
+snd_ambience_night2_right 282 1 1442 0 
 snd_ambience_rain1_left 1562 1 1443 0 
 snd_ambience_rain1_right 1562 1 1444 0 
 snd_ambience_thunder 4088 9 1445 0 1446 0 1447 0 1448 0 1449 0 1450 0 1451 0 1452 0 1453 0 
-snd_ambience_tree_birds1 3632 32 1454 0 1455 0 1456 0 1457 0 1458 0 1459 0 1460 0 1461 0 1462 0 1463 0 1464 0 1465 0 1466 0 1467 0 1468 0 1469 0 1470 0 1471 0 1472 0 1473 0 1474 0 1475 0 1476 0 1477 0 1478 0 1479 0 1480 0 1481 0 1482 0 1483 0 1484 0 1485 0 
-snd_ambience_tree_birds2 3632 32 1486 0 1487 0 1488 0 1489 0 1490 0 1491 0 1492 0 1493 0 1494 0 1495 0 1496 0 1497 0 1498 0 1499 0 1500 0 1501 0 1502 0 1503 0 1504 0 1505 0 1506 0 1507 0 1508 0 1509 0 1510 0 1511 0 1512 0 1513 0 1514 0 1515 0 1516 0 1517 0 
-snd_ambience_tree_birds3 3632 32 1518 0 1519 0 1520 0 1521 0 1522 0 1523 0 1524 0 1525 0 1526 0 1527 0 1528 0 1529 0 1530 0 1531 0 1532 0 1533 0 1534 0 1535 0 1536 0 1537 0 1538 0 1539 0 1540 0 1541 0 1542 0 1543 0 1544 0 1545 0 1546 0 1547 0 1548 0 1549 0 
-snd_ambience_tree_birds4 3632 32 1550 0 1551 0 1552 0 1553 0 1554 0 1555 0 1556 0 1557 0 1558 0 1559 0 1560 0 1561 0 1562 0 1563 0 1564 0 1565 0 1566 0 1567 0 1568 0 1569 0 1570 0 1571 0 1572 0 1573 0 1574 0 1575 0 1576 0 1577 0 1578 0 1579 0 1580 0 1581 0 
-snd_ambience_tree_birds5 3632 21 1582 0 1583 0 1584 0 1585 0 1586 0 1587 0 1588 0 1589 0 1590 0 1591 0 1592 0 1593 0 1594 0 1595 0 1596 0 1597 0 1598 0 1599 0 1600 0 1601 0 1602 0 
+snd_ambience_tree_birds1 2608 32 1454 0 1455 0 1456 0 1457 0 1458 0 1459 0 1460 0 1461 0 1462 0 1463 0 1464 0 1465 0 1466 0 1467 0 1468 0 1469 0 1470 0 1471 0 1472 0 1473 0 1474 0 1475 0 1476 0 1477 0 1478 0 1479 0 1480 0 1481 0 1482 0 1483 0 1484 0 1485 0 
+snd_ambience_tree_birds2 2608 32 1486 0 1487 0 1488 0 1489 0 1490 0 1491 0 1492 0 1493 0 1494 0 1495 0 1496 0 1497 0 1498 0 1499 0 1500 0 1501 0 1502 0 1503 0 1504 0 1505 0 1506 0 1507 0 1508 0 1509 0 1510 0 1511 0 1512 0 1513 0 1514 0 1515 0 1516 0 1517 0 
+snd_ambience_tree_birds3 2608 32 1518 0 1519 0 1520 0 1521 0 1522 0 1523 0 1524 0 1525 0 1526 0 1527 0 1528 0 1529 0 1530 0 1531 0 1532 0 1533 0 1534 0 1535 0 1536 0 1537 0 1538 0 1539 0 1540 0 1541 0 1542 0 1543 0 1544 0 1545 0 1546 0 1547 0 1548 0 1549 0 
+snd_ambience_tree_birds4 2608 32 1550 0 1551 0 1552 0 1553 0 1554 0 1555 0 1556 0 1557 0 1558 0 1559 0 1560 0 1561 0 1562 0 1563 0 1564 0 1565 0 1566 0 1567 0 1568 0 1569 0 1570 0 1571 0 1572 0 1573 0 1574 0 1575 0 1576 0 1577 0 1578 0 1579 0 1580 0 1581 0 
+snd_ambience_tree_birds5 2608 21 1582 0 1583 0 1584 0 1585 0 1586 0 1587 0 1588 0 1589 0 1590 0 1591 0 1592 0 1593 0 1594 0 1595 0 1596 0 1597 0 1598 0 1599 0 1600 0 1601 0 1602 0 
 snd_ambience_tree_birds_end 3632 0 
+snd_flag_animated1 274 1 1603 0 

@@ -342,5 +342,6 @@ snd_ambience_tree_birds3 = 340
 snd_ambience_tree_birds4 = 341
 snd_ambience_tree_birds5 = 342
 snd_ambience_tree_birds_end = 343
+snd_flag_animated1 = 344
 
 

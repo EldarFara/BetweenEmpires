@@ -687,5 +687,6 @@ script_cf_random = 685
 script_change_faction_flag = 686
 script_cf_current_sky_can_rain = 687
 script_cf_yuricannoncanoneersretreat = 688
+script_cf_get_agent_faction_flag_material = 689
 
 

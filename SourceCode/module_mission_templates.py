@@ -39,6 +39,27 @@ from header_skills import *
 pilgrim_disguise = [itm_pilgrim_hood,itm_pilgrim_disguise,itm_practice_staff, itm_throwing_daggers]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
+flag_bearer = (
+0, 0, 0, [],
+[
+	(try_for_agents,":agent"),
+	(agent_is_active, ":agent"),
+	(agent_is_alive, ":agent"),
+	(agent_is_human, ":agent"),
+	(agent_get_slot, ":prop", ":agent", slot_agent_flag_prop),
+	(prop_instance_is_valid, ":prop"),
+	(prop_instance_get_scene_prop_kind, ":type_of_prop", ":prop"),
+	(eq, ":type_of_prop", "spr_flag_animated1"),
+	(agent_get_wielded_item, ":item", ":agent", 0),
+	(eq, ":item", "itm_flagbearer_flag"),
+	(agent_get_bone_position, pos1, ":agent", 19, 1),
+	(position_move_y, pos1, 90, 0),
+	(position_rotate_x, pos1, -90),
+	(position_rotate_z, pos1, 90, 0),
+	(prop_instance_set_position, ":prop", pos1),
+	(try_end),
+])
+
 pbs_enemy_cannoneers_retreat = (
 10, 0, 0, [
 (assign, ":number_total", 0),
@@ -2972,6 +2993,7 @@ spawn_of_first_agent = (ti_on_agent_spawn, 0, 0, [
 (set_show_messages, 0),
 	(try_for_range, ":team", 0, 4),
 	(team_set_slot, ":team", slot_team_pai_retreat_timer, 0),
+	(team_set_slot, ":team", slot_team_has_flagbearer, 0),
 	(team_set_slot, ":team", slot_team_artllery_ammo_shells_amount, 60),
 		(try_for_range, ":company", 0, 8),
 		(team_give_order, ":team", ":company", mordr_mount),
@@ -3717,7 +3739,6 @@ pbs_agent_spawn = (ti_on_agent_spawn, 0, 0, [
 		(assign, ":company_to_assign", ":current_company"),
 		(try_end),
 	(try_end),
-	
 	(try_begin),
 	(neq, ":company_to_assign", -1),
 	(agent_set_division, ":agent", ":company_to_assign"),
@@ -3725,6 +3746,27 @@ pbs_agent_spawn = (ti_on_agent_spawn, 0, 0, [
 	(team_get_slot, ":company_soldier_number", ":team", ":slot_team_company_soldier_number"),
 	(val_add, ":company_soldier_number", 1),
 	(team_set_slot, ":team", ":slot_team_company_soldier_number", ":company_soldier_number"),
+	(try_end),
+	(try_begin),
+	(team_slot_eq, ":team", slot_team_has_flagbearer, 0),
+	(neq, ":company_to_assign", -1),
+	(store_add, ":slot_team_company_type", slot_team_company1_type, ":company_to_assign"),
+	(team_get_slot, ":company_type", ":team", ":slot_team_company_type"),
+	(neq, ":company_type", pbs_troop_type_cavmelee),
+	(neq, ":company_type", pbs_troop_type_cavranged),
+	(neq, ":company_type", pbs_troop_type_cavguard),
+	(neq, ":company_type", pbs_troop_type_fieldguns),
+	(neq, ":company_type", pbs_troop_type_howitzers),
+	(call_script, "script_cf_get_agent_faction_flag_material", ":agent"),
+	(call_script, "script_cf_random", 20),
+		(try_for_range, ":item", "itm_ccoop_new_items_end", "itm_items_end"),
+		(item_get_max_ammo, ":value", ":item"),
+		(gt, ":value", 0),
+		(agent_unequip_item, ":agent", ":item", 0),
+		(try_end),
+	(agent_equip_item, ":agent", "itm_flagbearer_flag", 0),
+	(agent_set_wielded_item, ":agent", "itm_flagbearer_flag"),
+	(team_set_slot, ":team", slot_team_has_flagbearer, 1),
 	(try_end),
 
 ],
@@ -4792,6 +4834,7 @@ pws_sky_bms = (ti_before_mission_start, 0, 0, [
 ], [])
 
 parabellum_script_set_battle = [
+flag_bearer,
 pbs_enemy_retreating_end_battle,
 pbs_enemy_cannoneers_retreat,
 ambience_start,

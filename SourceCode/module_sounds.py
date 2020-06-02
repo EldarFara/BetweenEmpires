@@ -385,6 +385,8 @@ sounds = [
 ("ambience_tree_birds5",sf_priority_3|sf_vol_10, ["ambience_tree_birds129.wav","ambience_tree_birds130.wav","ambience_tree_birds131.wav","ambience_tree_birds132.wav","ambience_tree_birds133.wav","ambience_tree_birds134.wav","ambience_tree_birds135.wav","ambience_tree_birds136.wav","ambience_tree_birds137.wav","ambience_tree_birds138.wav","ambience_tree_birds139.wav","ambience_tree_birds140.wav","ambience_tree_birds141.wav","ambience_tree_birds142.wav","ambience_tree_birds143.wav","ambience_tree_birds144.wav","ambience_tree_birds145.wav","ambience_tree_birds146.wav","ambience_tree_birds147.wav","ambience_tree_birds148.wav","ambience_tree_birds149.wav"]),
 ("ambience_tree_birds_end",sf_priority_3|sf_vol_14, []),
 
+("flag_animated1",sf_priority_1|sf_vol_1|sf_looping, ["flag_animated1.wav"]),
+
 ]
 
 

@@ -333,6 +333,7 @@ slot_agent_square_formation_state = 34
 slot_agent_lemat_canister_has_been_shot = 42
 slot_agent_pbs_stuck_timer = 43
 slot_agent_was_killed_or_knocked_down      = 44
+slot_agent_flag_prop      = 45
 
 ########################################################
 ##  FACTION SLOTS          #############################
@@ -1483,6 +1484,7 @@ slot_team_company7_penaltytodiscipline_fromcasualties                       = 19
 slot_team_company8_penaltytodiscipline_fromcasualties                       = 194
 
 slot_team_artllery_ammo_shells_amount                    = 195
+slot_team_has_flagbearer                    = 196
 
 #Rebellion changes end
 # character backgrounds

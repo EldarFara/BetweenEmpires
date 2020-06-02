@@ -1268,4 +1268,5 @@ itm_rifle_winchester_m1895 = 1266
 itm_rifle_winchester_m1895_m = 1267
 itm_rifle_winchester_lee = 1268
 itm_rifle_winchester_lee_m = 1269
-itm_items_end = 1270
+itm_flagbearer_flag = 1270
+itm_items_end = 1271

@@ -2069,6 +2069,18 @@ items = [
 ["rifle_winchester_lee","M1895 Lee Navy Rifle", [("winchester_lee", 0),("winchester_lee_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,price_pistol_high, weight(3.7)|abundance(80)|accuracy(accuracy_conversion_rifle+4)|spd_rtng(speed_bolt_action_rifle+2)|shoot_speed(shot_speed_small_caliber_rifle+100)|max_ammo(5)|thrust_damage(damage_bolt_action_rifle+1, pierce), imodbits_firearm, []],
 ["rifle_winchester_lee_m","M1895 Lee Navy Rifle", [("winchester_lee", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(3.7)|hit_points(18432)|spd_rtng(75)|weapon_length(100)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],
 
+["flagbearer_flag", "National Flag", [("flag_pole3",0)], itp_type_two_handed_wpn|itp_two_handed|itp_primary|itp_wooden_parry|itp_wooden_attack, itc_cut_two_handed|itc_parry_polearm|itcf_thrust_onehanded_lance, 0 , weight(5)|difficulty(0)|spd_rtng(80)|weapon_length(200)|swing_damage(30, blunt) | thrust_damage(0 , pierce),imodbits_axe, [
+(ti_on_init_item, [
+(store_trigger_param_1, ":agent"),
+(call_script, "script_cf_get_agent_faction_flag_material", ":agent"),
+(set_spawn_position, pos1),
+(spawn_scene_prop, "spr_flag_animated1"),
+(agent_set_slot, ":agent",  slot_agent_flag_prop, reg0),
+(set_fixed_point_multiplier, 100),
+(prop_instance_set_scale, reg0, 50, 50, 50),
+(set_fixed_point_multiplier, 1),
+])],[]],
+
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 
