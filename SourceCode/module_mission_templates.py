@@ -44,7 +44,7 @@ flag_bearer = (
 [
 	(try_for_agents,":agent"),
 	(agent_is_active, ":agent"),
-	(agent_is_alive, ":agent"),
+	#(agent_is_alive, ":agent"),
 	(agent_is_human, ":agent"),
 	(agent_get_slot, ":prop", ":agent", slot_agent_flag_prop),
 	(prop_instance_is_valid, ":prop"),
