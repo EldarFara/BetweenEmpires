@@ -60,6 +60,22 @@ flag_bearer = (
 	(try_end),
 ])
 
+flag_bearer_drop = (
+ti_on_item_dropped, 0, 0, [],
+[
+(store_trigger_param_1, ":agent"),
+(store_trigger_param_3, ":item"),
+(agent_get_slot, ":prop", ":agent", slot_agent_flag_prop),
+(prop_instance_is_valid, ":prop"),
+(prop_instance_get_scene_prop_kind, ":type_of_prop", ":prop"),
+(eq, ":type_of_prop", "spr_flag_animated1"),
+(agent_set_slot, ":agent",  slot_agent_flag_prop, -1),
+(prop_instance_get_position, pos1, ":item"),
+(position_move_z, pos1, -5000, 1),
+(prop_instance_set_position, ":prop", pos1),
+(scene_prop_set_visibility, ":prop", 0),
+])
+
 pbs_enemy_cannoneers_retreat = (
 10, 0, 0, [
 (assign, ":number_total", 0),
@@ -4835,6 +4851,7 @@ pws_sky_bms = (ti_before_mission_start, 0, 0, [
 
 parabellum_script_set_battle = [
 flag_bearer,
+flag_bearer_drop,
 pbs_enemy_retreating_end_battle,
 pbs_enemy_cannoneers_retreat,
 ambience_start,
