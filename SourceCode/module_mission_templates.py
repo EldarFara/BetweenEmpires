@@ -70,7 +70,6 @@ ti_on_item_unwielded, 0, 0, [],
 (prop_instance_get_scene_prop_kind, ":type_of_prop", ":prop"),
 (eq, ":type_of_prop", "spr_flag_animated1"),
 (agent_set_slot, ":agent",  slot_agent_flag_prop, -1),
-(display_message, "@1"),
 (prop_instance_get_position, pos1, ":item"),
 (position_move_z, pos1, -5000, 1),
 (prop_instance_set_position, ":prop", pos1),
@@ -4120,7 +4119,9 @@ aerial_view_runtime = (0, 0, 0, [], [
 ])
 
 test = (0, 0, 0, [
-# (key_clicked, key_t),
+# (key_is_down, key_t),
+# (team_get_slot, reg0, "$g_player_team", slot_team_company1_discipline),
+# (display_message, "@{reg0}"),
 # (get_player_agent_no, ":player"),
 # (agent_get_position, pos3, ":player"),
 	# (try_for_agents,":agent"),
