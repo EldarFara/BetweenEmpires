@@ -7919,6 +7919,14 @@ scripts = [
 	(item_set_slot, "itm_sidearm_c93", slot_item_appearance_year, 1893),
 	(item_set_slot, "itm_sidearm_colt1892", slot_item_appearance_year, 1892),
 	(item_set_slot, "itm_sidearm_sw_sh", slot_item_appearance_year, 1887),
+	(item_set_slot, "itm_rifle_winchester_m1866", slot_item_appearance_year, 1866),
+	(item_set_slot, "itm_rifle_winchester_m1873", slot_item_appearance_year, 1873),
+	(item_set_slot, "itm_rifle_winchester_m1876", slot_item_appearance_year, 1876),
+	(item_set_slot, "itm_rifle_winchester_m1886", slot_item_appearance_year, 1886),
+	(item_set_slot, "itm_rifle_winchester_m1892", slot_item_appearance_year, 1892),
+	(item_set_slot, "itm_rifle_winchester_m1894", slot_item_appearance_year, 1894),
+	(item_set_slot, "itm_rifle_winchester_m1895", slot_item_appearance_year, 1895),
+	(item_set_slot, "itm_rifle_winchester_lee", slot_item_appearance_year, 1895),
 	  # Setting food bonuses - these have been changed to incentivize using historical rations. Bread is the most cost-efficient
 	  #Staples
       (item_set_slot, "itm_bread", slot_item_food_bonus, 8), #brought up from 4
@@ -57391,6 +57399,8 @@ scripts = [
 (agent_is_active, ":agent"),
 (agent_get_party_id, ":party", ":agent"),
 (party_is_active, ":party"),
+(this_or_next|party_slot_eq, ":agent_party", slot_party_type, spt_kingdom_hero_party),
+(eq, ":party", "p_main_party"),
 (store_faction_of_party, ":faction", ":party"),
 (faction_get_slot, ":string", ":faction", slot_faction_flag_scene),
 (neq, ":string", -1),
