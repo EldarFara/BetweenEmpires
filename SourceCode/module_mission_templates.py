@@ -3774,7 +3774,7 @@ pbs_agent_spawn = (ti_on_agent_spawn, 0, 0, [
 	(neq, ":company_type", pbs_troop_type_fieldguns),
 	(neq, ":company_type", pbs_troop_type_howitzers),
 	(call_script, "script_cf_get_agent_faction_flag_material", ":agent"),
-	(call_script, "script_cf_random", 20),
+	(call_script, "script_cf_random", 10),
 		(try_for_range, ":item", "itm_ccoop_new_items_end", "itm_items_end"),
 		(item_get_max_ammo, ":value", ":item"),
 		(gt, ":value", 0),

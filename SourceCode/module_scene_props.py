@@ -3979,7 +3979,7 @@ scene_props = [
 
 ("ambience_prop", sokf_invisible, 0, 0, [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
 
-("flag_animated1", 0, "flag_animated1", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(prop_instance_deform_in_cycle_loop, ":scene_prop_id", 0, 999, 50000),(prop_instance_set_material, ":scene_prop_id", -1, s1),(assign, reg0, ":scene_prop_id"),]),]),
+("flag_animated1", 0, "flag_animated1", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(prop_instance_deform_in_cycle_loop, ":scene_prop_id", 0, 999, 40000),(prop_instance_set_material, ":scene_prop_id", -1, s1),(assign, reg0, ":scene_prop_id"),]),]),
 
 ]
 
