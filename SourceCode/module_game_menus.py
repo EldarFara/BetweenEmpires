@@ -37,7 +37,7 @@ from module_constants import *
 
 game_menus = [
   ("start_game_0",menu_text_color(0xFF000000)|mnf_disable_all_keys,
-    "Welcome to the Victorian Era mod.",
+    "Welcome to the Between Empires mod.",
     "bg3",
     [],
     [
