@@ -1377,6 +1377,7 @@ game_menus = [
 	(troop_add_item, "trp_player","itm_ammo_pistol",0),
 	(troop_add_item, "trp_player","itm_ammo_rifle",0),
 	(troop_add_item, "trp_player","itm_rifle_sharps",0),	
+	(troop_add_item, "trp_player","itm_bread",0),	
 	(troop_add_gold, "trp_player", 300),
 
       (try_begin),
