@@ -603,5 +603,6 @@ mesh_flag_faction31 = 601
 mesh_flag_faction32 = 602
 mesh_flag_faction33 = 603
 mesh_pbs_activeability = 604
+mesh_menu_flag1 = 605
 
 

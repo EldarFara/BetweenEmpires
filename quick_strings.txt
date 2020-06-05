@@ -1,4 +1,4 @@
-923
+926
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -215,6 +215,9 @@ qstr___already_invested_ _(already_invested)
 qstr___already_researched _(already_researched)
 qstr__Current_progress___ _Current_progress_-_{reg2}%.
 qstr_Cost___{reg0}_pounds Cost_-_{reg0}_pounds{s1}.^Available_after_{reg1}_year.{s2}
+qstr_Select_Faction Select_Faction
+qstr_Start_Game Start_Game
+qstr_Chosen_Faction:^{s1} Chosen_Faction:^{s1}
 qstr_vSeason vSeason
 qstr_{!}DEBUG_:_Completed {!}DEBUG_:_Completed_faction_troop_assignments,_cheat_mode:_{reg3}
 qstr_{!}DEBUG____initial_ {!}DEBUG_--_initial_war/peace_check_begins

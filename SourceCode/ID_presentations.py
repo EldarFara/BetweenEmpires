@@ -56,3 +56,4 @@ prsnt_custom_kingdom_troop = 54
 prsnt_custom_troop = 55
 prsnt_custom_troop_item = 56
 prsnt_faction_technologies = 57
+prsnt_faction_selection = 58

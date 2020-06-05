@@ -57182,7 +57182,7 @@ scripts = [
 (faction_get_slot, ":tier_1_troop", ":orginal_faction", slot_faction_tier_1_troop), (faction_get_slot, ":tier_2_troop", ":orginal_faction", slot_faction_tier_2_troop),
 (party_add_members, "p_main_party", ":tier_1_troop", 20), (party_add_members, "p_main_party", ":tier_2_troop", 30),
 (troop_add_gold, "trp_player", 10000),
-(add_xp_to_troop, 8000),
+(add_xp_to_troop, 6000),
 	#refresh recruits in player's faction villages
 	(try_for_range, ":village_no", villages_begin, villages_end),
 	(store_faction_of_party, ":faction", ":village_no"),

@@ -668,6 +668,7 @@ meshes = [
   ("flag_faction32", 0, "flag_faction32", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("flag_faction33", 0, "flag_faction33", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("pbs_activeability", 0, "pbs_activeability", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("menu_flag1", 0, "menu_flag1", 0, 0, 0, 0, 0, 0, 1, 1, 1),
 ]
 
 # modmerger_start version=201 type=2
