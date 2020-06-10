@@ -2091,6 +2091,21 @@ items = [
 ]),
 ],[]],
 
+["baf_infantry1","British Military Uniform", [("baf_infantry1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
+["baf_infantry2","British Military Uniform", [("baf_infantry2", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
+["baf_infantry3","British Military Uniform", [("baf_infantry3", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
+["baf_cavalry1","British Military Uniform", [("baf_cavalry1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
+["baf_cavalry2","British Military Uniform", [("baf_cavalry2", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
+["baf_trousers1","British Military Trousers", [("baf_trousers1", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
+["baf_trousers2","British Military Trousers", [("baf_trousers2", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
+["baf_trousers3","British Military Trousers", [("baf_trousers3", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
+["baf_hat1","British Service Kepi", [("baf_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
+["baf_hat2","British Service Kepi", [("baf_hat2", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
+["baf_hat3","British Service Kepi", [("baf_hat3", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
+["baf_hat4","British Service Kepi", [("baf_hat4", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
+["baf_hat5","British Service Kepi", [("baf_hat5", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
+["cavalry_gloves1","Gloves", [("cavalry_gloves1_L",0)], itp_type_hand_armor,0, 90, weight(0.25)|abundance(50)|body_armor(1)|difficulty(0),imodbits_cloth],
+
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 

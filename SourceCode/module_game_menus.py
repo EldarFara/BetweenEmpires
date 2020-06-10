@@ -7294,7 +7294,10 @@ game_menus = [
         ]),
       ("village_center",[(neg|party_slot_eq, "$current_town", slot_village_state, svs_looted),
                          (neg|party_slot_eq, "$current_town", slot_village_state, svs_being_raided),
-                         (neg|party_slot_ge, "$current_town", slot_village_infested_by_bandits, 1),]
+                         (neg|party_slot_ge, "$current_town", slot_village_infested_by_bandits, 1),
+		# parabellum cut
+        (eq, 0 ,1), # parabellum todo reenable this
+						 ]
        ,"Go to the village center.",
        [
          (try_begin),
@@ -8588,7 +8591,9 @@ game_menus = [
       [                        
         (party_slot_eq, "$current_town", slot_party_type, spt_town),
         (this_or_next|eq,"$entry_to_town_forbidden",0),
-        (eq, "$sneaked_into_town",1)
+        (eq, "$sneaked_into_town",1),
+		# parabellum cut
+        (eq, 0 ,1), # parabellum todo reenable this
       ],
       "Take a walk around the streets.",
        [
@@ -9105,6 +9110,8 @@ game_menus = [
       ("castle_inspect", 
       [
          (party_slot_eq,"$current_town",slot_party_type, spt_castle),
+		# parabellum cut
+        (eq, 0 ,1), # parabellum todo reenable this
       ],
        "Take a walk around the HQ.",
        [

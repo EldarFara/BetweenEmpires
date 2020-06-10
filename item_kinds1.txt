@@ -1,5 +1,5 @@
 itemsfile version 3
-1272
+1286
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -5450,6 +5450,75 @@ itemsfile version 3
 
 1
 -50.000000  17 2071 1 1224979098644774912 1 2 936748722493063857 1224979098644774912 525 3 1224979098644774913 1224979098644774912 45 2133 2 1224979098644774914 -1 4 0 1838 1 1224979098644774913 1853 2 1224979098644774914 1224979098644774913 31 2 1224979098644774914 1080863910568920625 2133 2 1224979098644774914 0 3 0 31 2 1224979098644774914 -1 1970 1 1 1974 1 1080863910568920625 505 3 1224979098644774912 45 72057594037927936 2124 1 100 1854 4 72057594037927936 50 50 50 2124 1 1 
+
+ itm_baf_infantry1 British_Military_Uniform British_Military_Uniform 1  baf_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 49
+0
+
+ itm_baf_infantry2 British_Military_Uniform British_Military_Uniform 1  baf_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 49
+0
+
+ itm_baf_infantry3 British_Military_Uniform British_Military_Uniform 1  baf_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 49
+0
+
+ itm_baf_cavalry1 British_Military_Uniform British_Military_Uniform 1  baf_cavalry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 49
+0
+
+ itm_baf_cavalry2 British_Military_Uniform British_Military_Uniform 1  baf_cavalry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 49
+0
+
+ itm_baf_trousers1 British_Military_Trousers British_Military_Trousers 1  baf_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 49
+0
+
+ itm_baf_trousers2 British_Military_Trousers British_Military_Trousers 1  baf_trousers2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 49
+0
+
+ itm_baf_trousers3 British_Military_Trousers British_Military_Trousers 1  baf_trousers3 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 49
+0
+
+ itm_baf_hat1 British_Service_Kepi British_Service_Kepi 1  baf_hat1 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 49
+0
+
+ itm_baf_hat2 British_Service_Kepi British_Service_Kepi 1  baf_hat2 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 49
+0
+
+ itm_baf_hat3 British_Service_Kepi British_Service_Kepi 1  baf_hat3 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 49
+0
+
+ itm_baf_hat4 British_Service_Kepi British_Service_Kepi 1  baf_hat4 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 49
+0
+
+ itm_baf_hat5 British_Service_Kepi British_Service_Kepi 1  baf_hat5 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 49
+0
+
+ itm_cavalry_gloves1 Gloves Gloves 1  cavalry_gloves1_L 0  15 0 90 123731968 0.250000 50 0 1 0 0 0 0 0 0 0 0 0
+ 0
+0
 
  itm_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
