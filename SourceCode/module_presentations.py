@@ -14648,7 +14648,6 @@ presentations = [
 				(overlay_animate_to_size, reg0, 2000, pos1),
 			(else_try),
 			    (party_set_slot, "p_main_party", slot_party_prebattle_customized_deployment, 1),
-			    (jump_to_menu, "$g_next_menu"),
 			    (presentation_set_duration, 0),
 			(try_end),
 		(else_try), #Number Boxes

@@ -5491,12 +5491,12 @@ itemsfile version 3
  49
 0
 
- itm_baf_hat4 British_Service_Kepi British_Service_Kepi 1  baf_hat4 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_baf_hat4 British_Dragoon's_Helmet British_Dragoon's_Helmet 1  baf_hat4 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  49
 0
 
- itm_baf_hat5 British_Service_Kepi British_Service_Kepi 1  baf_hat5 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_baf_hat5 British_Uhlan's_Helmet British_Uhlan's_Helmet 1  baf_hat5 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  49
 0

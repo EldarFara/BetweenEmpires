@@ -35,7 +35,7 @@ army_drill_level_bad = 1
 faction_technologies_number = 19
 faction_technology_preset_year = faction_technologies_number
 
-cannons_limit = 4
+cannons_limit = 5
 
 howitzer_muzzle_velocity = 85
 

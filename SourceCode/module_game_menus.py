@@ -3654,7 +3654,6 @@ game_menus = [
       ],
       "Change the troops deployment plan.",
       [
-  		(assign, "$g_next_menu", "mnu_simple_encounter"),
 		(start_presentation, "prsnt_prebattle_custom_deployment"),
       ]),
       ("encounter_attack",
@@ -5857,6 +5856,22 @@ game_menus = [
           (assign, "$cant_talk_to_enemy", 0),
           (change_screen_return),
           ]),
+	  ("encounter_attack_deployment",
+      [
+        (eq, "$encountered_party_friendly", 0),
+        (neg|troop_is_wounded, "trp_player"),
+		
+		(call_script, "script_prebattle_calculate_battle_advantage_and_size"),
+		(assign, ":friend_count", reg1),
+		(assign, ":enemy_count", reg2),
+		(store_add, ":total_combatants", ":friend_count", ":enemy_count"),
+		(party_get_slot, ":battle_size", "p_main_party", slot_party_prebattle_battle_size),
+		(gt, ":total_combatants", ":battle_size"),
+      ],
+      "Change the troops deployment plan.",
+      [
+		(start_presentation, "prsnt_prebattle_custom_deployment"),
+      ]),
 
       
       ("castle_lead_attack",
