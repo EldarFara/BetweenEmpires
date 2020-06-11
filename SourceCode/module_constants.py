@@ -484,6 +484,8 @@ slot_faction_current_research_technology		 = slot_faction_ve_mod_slots_begin + 4
 slot_faction_army_drill_level					 = slot_faction_ve_mod_slots_begin + 45
 slot_faction_flag_map							 = slot_faction_ve_mod_slots_begin + 46
 slot_faction_flag_scene						 = slot_faction_ve_mod_slots_begin + 47
+slot_faction_wardrobe_begin					 = slot_faction_ve_mod_slots_begin + 48
+slot_faction_wardrobe_end						 = slot_faction_ve_mod_slots_begin + 49
 
 #revolts -- notes for self
 #type 1 -- minor revolt, aimed at negotiating change without changing the ruler

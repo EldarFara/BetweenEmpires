@@ -9547,7 +9547,16 @@ game_menus = [
 	(party_slot_eq,"$current_town",slot_party_type, spt_castle),        
 	(eq, "$sneaked_into_town", 0),      
 ],"Go to the armory.",
-[          
+[         
+	# (store_faction_of_party, ":faction", "$g_encountered_party"),
+	# (store_relation, ":relation", ":faction", "fac_player_supporters_faction"),
+		# (try_begin), 
+		# (this_or_next|neq, "$fac_player_supporters_faction", ":faction"),
+		# (lt, ":relation", 5), 
+		# (display_message, "@You are not allowed here (need to have relation with faction 5 and higher)."), 
+		# (try_end), 
+	# (this_or_next|eq, "$fac_player_supporters_faction", ":faction"),
+	# (ge, ":relation", 5), 
 	(jump_to_menu, "mnu_cannoneers_store"),
 ], "Door to the armory."),
 
@@ -14427,7 +14436,6 @@ game_menus = [
     [
 	#todo add background image here
 	(store_troop_gold, reg0, "trp_player"),
-	#(store_relation, ":faction_relation", ":encountered_faction", "fac_player_supporters_faction"),
 	],
     [
       ("cannoneers_store_buy_fieldgun",[],"Order a field gun and hire a cannoneers crew (2000 pounds).",
@@ -14484,6 +14492,23 @@ game_menus = [
 		(display_message, "@Not available in this town."),
 		(try_end),
 	(jump_to_menu,"mnu_cannoneers_store"),
+       ]
+       ),
+      ("cannoneers_store_access_wardrobe",[
+	  ],"Access wardrobe.",
+       [
+		(troop_clear_inventory, "trp_temp_troop"),
+		(store_faction_of_party, ":faction", "$g_encountered_party"),
+		(faction_get_slot, ":items_begin", ":faction",  slot_faction_wardrobe_begin),
+		(faction_get_slot, ":items_end", ":faction",  slot_faction_wardrobe_end),
+		(gt, ":items_begin", 0),
+		(val_add, ":items_end", 1),
+			(try_for_range, ":item", ":items_begin", ":items_end"), 
+			(troop_add_item, "trp_temp_troop", ":item", 0),
+			(try_end),
+		(troop_sort_inventory, "trp_temp_troop"),
+		(change_screen_trade, "trp_temp_troop"),
+	
        ]
        ),
 	  ("leave",[],"Leave.",

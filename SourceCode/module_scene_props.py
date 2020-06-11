@@ -3518,7 +3518,6 @@ scene_props = [
 ("sandbags2",0,"sandbags2","bo_sandbags2", []),
 ("sandbags3",0,"sandbags3","bo_sandbags3", []),
 ("sandbags1",0,"sandbags1","bo_sandbags1", []),
-("sandbags4",0,"sandbags4","bo_sandbags4", []),
 ("harvester1",0,"harvester1","bo_harvester1", []),
 ("hay2",0,"hay2","bo_hay2", []),
 ("hay1",0,"hay1","bo_hay1", []),
@@ -3980,6 +3979,25 @@ scene_props = [
 ("ambience_prop", sokf_invisible, 0, 0, [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
 
 ("flag_animated1", 0, "flag_animated1", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(prop_instance_deform_in_cycle_loop, ":scene_prop_id", 0, 999, 40000),(prop_instance_set_material, ":scene_prop_id", -1, s1),(assign, reg0, ":scene_prop_id"),]),]),
+
+("0siege_spikes1",0,"spikes1",0, []),
+("0siege_platform_planks1",0,"platform_planks1",0, []),
+("0siege_platform_planks2",0,"platform_planks2",0, []),
+("0siege_nw_cdf",0,"nw_cdf","bo_nw_cdf", []),
+("0siege_nw_earthwall_corner",0,"nw_earthwall_corner","bo_nw_earthwall_corner", []),
+("0siege_nw_earthwall_endpart",0,"nw_earthwall_endpart","bo_nw_earthwall_endpart", []),
+("0siege_nw_earthwall_straight",0,"nw_earthwall_straight","bo_nw_earthwall_straight", []),
+("0siege_nw_earthwall_straight_damaged1",0,"nw_earthwall_straight_d","bo_nw_earthwall_straight_d", []),
+("0siege_nw_earthwall_straight_damaged2",0,"nw_earthwall_straight_d1","bo_nw_earthwall_straight_d1", []),
+("0siege_sandbags1",0,"sandbags1","bo_sandbags1", []),
+("0siege_sandbags2",0,"sandbags2","bo_sandbags2", []),
+("0siege_sandbags3",0,"sandbags3","bo_sandbags3", []),
+("0siege_sandbags4",0,"sandbags4","bo_sandbags4", []),
+("0siege_sandbags5",0,"sandbags5","bo_sandbags5", []),
+("0siege_sandbags6",0,"sandbags6","bo_sandbags6", []),
+("0siege_sandbags7",0,"sandbags7","bo_sandbags7", []),
+("0siege_oim_redoubt_line",0,"oim_redut","bo_oim_redut", []),
+("0siege_oim_redoubt_round",0,"oim_redut_round","bo_oim_redut_round", []),
 
 ]
 

@@ -4305,6 +4305,10 @@ scenes = [
 [],[], "outer_terrain_plain"),
 ("preset_battle_map_europe_end",sf_generate|sf_auto_entry_points,"none", "none", (0,0),(240,240),-0.5,"0x0000000239610680000ad6b50000092b00006a7000000354",
 [],[], "outer_terrain_plain"),
+
+("town_european_walls",sf_generate,"none", "none", (0,0),(100,100),-100,"0x0000000130014acf000d212c00002ff900007e9800001edc",
+[],[],"outer_terrain_plain"),
+
 ]
 
 

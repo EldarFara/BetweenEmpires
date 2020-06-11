@@ -1434,12 +1434,24 @@ items = [
 ["lou_infantry1","Austrian Military Uniform", [("lou_infantry1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
 ["lou_infantry2","Austrian Military Uniform", [("lou_infantry2", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
 ["lou_hat1","Austrian Hat", [("lou_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_3]],
-
-["sidearm_gasser","Gasser M1870", [("gasser", 0),("pistol_holster1b", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn, price_pistol_low, weight(1.4)|abundance(100)|accuracy(accuracy_pistol_medium)|spd_rtng(speed_pistol_medium)|shoot_speed(shot_speed_pistol_medium)|max_ammo(6)|thrust_damage(damage_pistol_medium, pierce), imodbits_firearm, []],
-
 ["lou_hat2","Austrian Military Hat", [("lou_hat2", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_3]],
 ["lou_infantry_trousers2","Austrian Infantry Trousers", [("lou_infantry_trousers2", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
 ["lou_infantry3","Austrian Military Uniform", [("lou_infantry3", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
+["lou_hat3","Austrian Military Hat", [("lou_hat3", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_3]],
+["lou_infantry4","Austrian Military Uniform", [("lou_infantry4", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
+["lou_cavalry1","Austrian Military Uniform", [("lou_cavalry1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
+["lou_cavalry2","Austrian Military Uniform", [("lou_cavalry2", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
+["lou_hat4","Austrian Helmet", [("lou_hat4", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_3]],
+["lou_hat5","Austrian Hat", [("lou_hat5", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_3]],
+["lou_cavalry_trousers1","Austrian Cavalry Trousers", [("lou_cavalry_trousers1", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
+["lou_cavalry_trousers2","Austrian Cavalry Trousers", [("lou_cavalry_trousers2", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
+["lou_general","Austrian General Torso", [("lou_general", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
+["lou_emperor","Austrian Kaiser Torso", [("lou_emperor", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
+["lou_emperor_trousers1","Austrian Kaiser Trousers", [("lou_emperor_trousers1", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_27]],
+["lou_bicorne","Austrian Bicorne", [("lou_bicorne", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_30]],
+
+["sidearm_gasser","Gasser M1870", [("gasser", 0),("pistol_holster1b", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn, price_pistol_low, weight(1.4)|abundance(100)|accuracy(accuracy_pistol_medium)|spd_rtng(speed_pistol_medium)|shoot_speed(shot_speed_pistol_medium)|max_ammo(6)|thrust_damage(damage_pistol_medium, pierce), imodbits_firearm, []],
+
 
 ["clothes_urban_male_trousers1","Trousers", [("clothes_urban_male_trousers1", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, []],
 ["clothes_urban_male_trousers2","Trousers", [("clothes_urban_male_trousers2", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, []],
@@ -1448,8 +1460,6 @@ items = [
 ["clothes_urban_male1","Three-piece Suit", [("clothes_urban_male1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, []],
 ["clothes_urban_male2","Three-piece Suit", [("clothes_urban_male2", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, []],
 ["clothes_urban_male3","Three-piece Suit", [("clothes_urban_male3", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, []],
-
-["lou_hat3","Austrian Military Hat", [("lou_hat3", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_3]],
 
 ["civilian_hat1","Wide-brimmed Hat", [("civilian_hat1", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, []],
 ["civilian_hat2","Wide-brimmed Hat", [("civilian_hat2", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, []],
@@ -1462,14 +1472,6 @@ items = [
 ["urban_dress_hat2","Dress Hat", [("urban_dress_hat2", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, []],
 ["urban_dress_hat1","Dress Hat", [("urban_dress_hat1", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, []],
 
-["lou_infantry4","Austrian Military Uniform", [("lou_infantry4", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
-["lou_cavalry1","Austrian Military Uniform", [("lou_cavalry1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
-["lou_cavalry2","Austrian Military Uniform", [("lou_cavalry2", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
-["lou_hat4","Austrian Helmet", [("lou_hat4", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_3]],
-["lou_hat5","Austrian Hat", [("lou_hat5", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_3]],
-["lou_cavalry_trousers1","Austrian Cavalry Trousers", [("lou_cavalry_trousers1", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
-["lou_cavalry_trousers2","Austrian Cavalry Trousers", [("lou_cavalry_trousers2", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
-
 ["lance2","Lance", [("lance2",0)], itp_couchable|itp_type_polearm|itp_offset_lance| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
 
 ["gho_hat1","Persian Hat", [("gho_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_12]],
@@ -1481,7 +1483,6 @@ items = [
 ["gho_infantry3","Persian Military Uniform", [("gho_infantry3", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_12]],
 ["gho_infantry4","Persian Military Uniform", [("gho_infantry4", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_12]],
 ["gho_infantry5","Persian Military Uniform", [("gho_infantry5", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_12]],
-["gho_infantry1","Persian Military Uniform", [("gho_infantry1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_12]],
 ["gho_cavalry_robe2","Persian Civilian Robe", [("gho_cavalry_robe2", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_12]],
 ["gho_cavalry_robe1","Persian Civilian Robe", [("gho_cavalry_robe1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_12]],
 ["gho_cavalry1","Persian Military Uniform", [("gho_cavalry1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_12]],
@@ -1492,6 +1493,13 @@ items = [
 ["gho_cavalry_trousers1","Persian Cavalry Trousers", [("gho_cavalry_trousers1", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_12]],
 ["gho_cavalry_trousers2","Persian Cossack Trousers", [("gho_cavalry_trousers2", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_12]],
 ["gho_cavalry_boots","Persian Cavalry Boots", [("gho_cavalry_boots", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_12]],
+["gho_leader1","Persian General Torso", [("gho_leader1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_12]],
+["gho_leader_trousers1","Persian General Trousers", [("gho_leader_trousers1", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_12]],
+["gho_leader_trousers2","Persian Shah Trousers", [("gho_leader_trousers2", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_12]],
+["gho_shah1","Persian Shah Torso", [("gho_shah1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_12]],
+["gho_hat5","Persian Shah Hat", [("gho_hat5", 0)], itp_type_head_armor|itp_civilian|itp_attach_armature, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_12]],
+["gho_hat6","Persian Shah Hat", [("gho_hat6", 0)], itp_type_head_armor|itp_civilian|itp_attach_armature, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_12]],
+["gho_hat7","Persian Fez", [("gho_hat7", 0)], itp_type_head_armor|itp_civilian|itp_attach_armature, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_12]],
 
 ["lance3","Lance", [("lance3",0)], itp_couchable|itp_type_polearm|itp_offset_lance|itp_merchandise| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
 
@@ -1587,15 +1595,6 @@ items = [
 ["horse_french5d","Gray French Warmblood", [("horse_european4",0),("horse_european4",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 300,abundance(100)|hit_points(190)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.00))|horse_maneuver(int(default_horse_maneuver*1.06))|horse_charge(30)|horse_scale(100),imodbits_horse_basic],
 ["horse_french6a","Gray Camargue Horse", [("horse_european4",0),("horse_european4",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 350,abundance(100)|hit_points(235)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.03))|horse_maneuver(int(default_horse_maneuver*1.09))|horse_charge(35)|horse_scale(100),imodbits_horse_basic],
 
-["gho_leader1","Persian General Torso", [("gho_leader1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_12]],
-["gho_leader_trousers1","Persian General Trousers", [("gho_leader_trousers1", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_12]],
-["gho_leader_trousers2","Persian Shah Trousers", [("gho_leader_trousers2", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_12]],
-["gho_shah1","Persian Shah Torso", [("gho_shah1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_12]],
-["gho_hat5","Persian Shah Hat", [("gho_hat5", 0)], itp_type_head_armor|itp_civilian|itp_attach_armature, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_12]],
-["gho_hat6","Persian Shah Hat", [("gho_hat6", 0)], itp_type_head_armor|itp_civilian|itp_attach_armature, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_12]],
-["gho_hat7","Persian Fez", [("gho_hat7", 0)], itp_type_head_armor|itp_civilian|itp_attach_armature, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_12]],
-
-
 ["sidearm_colt_m1851_navy","Colt M1851 Navy", [("colt_m1851_navy", 0),("pistol_holster1", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,price_pistol_high, weight(1.9)|abundance(130)|accuracy(accuracy_pistol_high-2)|spd_rtng(40)|shoot_speed(shot_speed_pistol_high)|max_ammo(6)|thrust_damage(damage_pistol_high, pierce), imodbits_firearm, []],
 ["sidearm_bacon1","Bacon Pocket Revolver", [("bacon", 0),("pistol_holster1b", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn,price_pistol_verylow, weight(1.3)|abundance(50)|accuracy(accuracy_pistol_low-1)|spd_rtng(speed_pistol_medium)|shoot_speed(shot_speed_pistol_medium)|max_ammo(6)|thrust_damage(damage_pistol_low, pierce), imodbits_firearm, []],
 ["rifle_sharps","Sharps Rifle", [("sharps", 0),("sharps_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,800, weight(4.3)|abundance(100)|accuracy(accuracy_small_caliber_rifle+4)|spd_rtng(speed_small_caliber_rifle)|shoot_speed(shot_speed_small_caliber_rifle)|max_ammo(1)|thrust_damage(damage_rifle, pierce), imodbits_firearm, []],
@@ -1642,11 +1641,6 @@ items = [
 ["clothes_gala_male1","Three-piece Suit", [("clothes_gala_male1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,250, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, []],
 ["clothes_gala_male1_trousers","Trousers", [("clothes_gala_male1_trousers", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, []],
 
-["lou_general","Austrian General Torso", [("lou_general", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
-["lou_emperor","Austrian Kaiser Torso", [("lou_emperor", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
-["lou_emperor_trousers1","Austrian Kaiser Trousers", [("lou_emperor_trousers1", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_27]],
-["lou_bicorne","Austrian Bicorne", [("lou_bicorne", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_30]],
-
 ["rifle_austrian_m1842","Austrian M1842 Musket", [("russian_m1845", 0),("russian_m1845_inv", ixmesh_inventory)], itp_type_crossbow|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.7)|abundance(0)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_muzzleloaded_musket)|shoot_speed(shot_speed_musket)|max_ammo(1)|thrust_damage(damage_musket, pierce), imodbits_firearm, []],
 ["rifle_austrian_m1842_m","Austrian M1842 Musket", [("russian_m1845", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary|itp_cant_use_on_horseback, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(18432)|spd_rtng(75)|weapon_length(120)|thrust_damage(30, pierce)|swing_damage(30, pierce), imodbits_none, []],
 ["rifle_austrian_m1842_carbine","Austrian M1842 Carbine", [("russian_m1845_carbine", 0),("russian_m1845_carbine_inv", ixmesh_inventory)], itp_type_crossbow|itp_two_handed|itp_primary, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.8)|abundance(0)|accuracy(int(accuracy_muzzleloaded_musket*accuracy_carbine_modifier))|spd_rtng(int(speed_muzzleloaded_musket*speed_carbine_modifier))|shoot_speed(shot_speed_musket)|max_ammo(1)|thrust_damage(damage_musket, pierce), imodbits_firearm, []],
@@ -1668,7 +1662,6 @@ items = [
 ["rifle_austrian_m1886_carbine","Steyr Mannlicher M1886 Carbine", [("mosin_carbine", 0),("mosin_carbine_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(60)|accuracy(int(accuracy_bolt_action_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_bolt_action_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_bolt_action_rifle)|max_ammo(5)|thrust_damage(damage_bolt_action_rifle, pierce), imodbits_firearm, []],
 ["rifle_austrian_m1886_carbine_m","Steyr Mannlicher M1886 Carbine", [("mosin_carbine", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(20, blunt)|swing_damage(0, blunt), imodbits_none, []],
 
-["ria_leader1","ria_leader1", [("ria_leader1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
 ["rom_shako","rom_shako", [("rom_shako", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_25]],
 ["rom_kepi","rom_kepi", [("rom_kepi", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_25]],
 ["rom_infantry1","rom_infantry1", [("rom_infantry1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
@@ -1681,6 +1674,8 @@ items = [
 ["lance8","Lance", [("lance8",0)], itp_couchable|itp_type_polearm|itp_offset_lance| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
 ["lance9","Lance", [("lance9",0)], itp_couchable|itp_type_polearm|itp_offset_lance| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
 ["lance10","Lance", [("lance10",0)], itp_couchable|itp_type_polearm|itp_offset_lance| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
+["bav_trousers_general","Bavarian General Trousers", [("bav_trousers_general", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_30]],
+["bav_torso_leadgen1","Bavarian General Torso", [("bav_torso_leadgen1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_30]],
 ["bav_pants2","Bavarian Trousers", [("bav_pants2", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_30]],
 ["bav_pants1","Bavarian Trousers", [("bav_pants1", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_30]],
 ["bav_pants4","Bavarian Trousers", [("bav_pants4", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_30]],
@@ -1714,8 +1709,6 @@ items = [
 ["pru_trousers_cavalry1","Prussian Cavalry Trousers", [("pru_trousers_cavalry1", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_5]],
 ["pru_trousers_cavalry2","Prussian Cavalry Trousers", [("pru_trousers_cavalry2", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_5]],
 ["pru_trousers_leadgen","Prussian General Trousers", [("pru_trousers_leadgen", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_5]],
-["bav_trousers_general","Bavarian General Trousers", [("bav_trousers_general", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_30]],
-["bav_torso_leadgen1","Bavarian General Torso", [("bav_torso_leadgen1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_30]],
 ["wur_torso_infantry1","Wurttemberg Military Uniform", [("wur_torso_infantry1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_27]],
 ["wur_torso_infantry2","Wurttemberg Military Uniform", [("wur_torso_infantry2", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_27]],
 ["wur_torso_infantry3","Wurttemberg Military Uniform", [("wur_torso_infantry3", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_27]],
@@ -1725,7 +1718,6 @@ items = [
 ["wur_trousers1","Wurttemberg Trousers", [("wur_trousers1", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_27]],
 ["wur_trousers2","Wurttemberg Trousers", [("wur_trousers2", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_27]],
 ["wur_trousers3","Wurttemberg Trousers", [("wur_trousers3", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_27]],
-["pru_dragoon_picklehaube","Prussian Dragoon Picklehaube", [("pru_dragoon_picklehaube", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_27]],
 ["wur_hat1","Hanoverian Hat", [("wur_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_27]],
 ["wur_hat2","Hanoverian Hat", [("wur_hat2", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_27]],
 ["wur_hat3","Hanoverian Hat", [("wur_hat3", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_27]],
@@ -2102,8 +2094,8 @@ items = [
 ["baf_hat1","British Service Kepi", [("baf_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 ["baf_hat2","British Service Kepi", [("baf_hat2", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 ["baf_hat3","British Service Kepi", [("baf_hat3", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
-["baf_hat4","British Service Kepi", [("baf_hat4", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
-["baf_hat5","British Service Kepi", [("baf_hat5", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
+["baf_hat4","British Dragoon's Helmet", [("baf_hat4", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
+["baf_hat5","British Uhlan's Helmet", [("baf_hat5", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 ["cavalry_gloves1","Gloves", [("cavalry_gloves1_L",0)], itp_type_hand_armor,0, 90, weight(0.25)|abundance(50)|body_armor(1)|difficulty(0),imodbits_cloth],
 
 
