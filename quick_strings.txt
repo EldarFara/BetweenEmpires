@@ -1,4 +1,4 @@
-926
+929
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -96,6 +96,8 @@ qstr_Light_Infantry_Compa Light_Infantry_Company____
 qstr_Line_Infantry_Compan Line_Infantry_Company___
 qstr_{reg1} {reg1}
 qstr_Too_many_troops^Chec Too_many_troops^Check_number_available
+qstr__ _
+qstr_Number_of^artillery_ Number_of^artillery_shells.
 qstr_1._{s1} 1._{s1}
 qstr___c. __c.
 qstr_90% 90%
@@ -157,7 +159,6 @@ qstr_Back Back
 qstr_You_can_t_equip_this You_can't_equip_this_item._Wrong_Place_or_too_heavy!!
 qstr_Military_Technologie Military_Technologies_of_the_{s1}
 qstr_Research Research
-qstr__ _
 qstr_Select_technology Select_technology
 qstr_Rifled_Caplock^^Musk Rifled_Caplock^^Muskets
 qstr_Percussive_Explosive Percussive_Explosive^^Shells
@@ -544,6 +545,7 @@ qstr_G.B. G.B.
 qstr_H.B. H.B.
 qstr_Cannot_form_square:_t Cannot_form_square:_too_few_soldiers_(need_at_least_25).
 qstr_{s1} {s1}
+qstr_ammo_refill ammo_refill
 qstr_day day
 qstr_cloud1 cloud1
 qstr_cloud2 cloud2
@@ -745,6 +747,7 @@ qstr_{s13}_A_tournament_w {s13}_A_tournament_will_be_held_here_soon.
 qstr___Join_the_commander _(Join_the_commanders'_meeteing)
 qstr_{!}DEBUG___Current_t {!}DEBUG_-_Current_town_is_{s3},_but_also_checking_{s4}
 qstr___{reg1}_pounds_per_ _({reg1}_pounds_per_night)
+qstr_You_are_not_allowed_ You_are_not_allowed_here_(need_to_have_relation_with_faction_5_and_higher).
 qstr_Moreover_you_earn_{r Moreover,_you_earn_{reg8}_pounds_from_the_clever_bets_you_placed_on_yourself...
 qstr_Victory_is_yours!_Yo Victory_is_yours!_You_have_won_this_melee,_but_now_you_must_prepare_yourself_for_the_next_round._
 qstr_You_have_been_bested You_have_been_bested_in_this_melee,_but_the_master_of_ceremonies_declares_a_recognition_of_your_skill_and_bravery,_allowing_you_to_take_part_in_the_next_round._

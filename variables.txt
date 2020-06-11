@@ -1315,6 +1315,8 @@ player_company5_type
 player_company6_type
 player_company7_type
 player_company8_type
+menu_pbs_artillery_ammo_amount
+menu_pbs_artillery_ammo_amount_text
 menu_pbs_company1_infolist
 menu_pbs_company1_name
 menu_pbs_company1_soldiers_number

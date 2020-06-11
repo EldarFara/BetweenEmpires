@@ -39,6 +39,35 @@ from header_skills import *
 pilgrim_disguise = [itm_pilgrim_hood,itm_pilgrim_disguise,itm_practice_staff, itm_throwing_daggers]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
+ammo_refill = (
+1, 0, 0, [],
+[
+	(try_for_agents, ":agent"),
+	(agent_is_active, ":agent"),
+	(agent_is_alive, ":agent"),
+	(agent_is_human, ":agent"),
+	(agent_get_wielded_item, ":item_id", ":agent", 0),
+		(try_for_range, ":item_slot", 0, 4),
+		(agent_get_item_slot, ":item_on_slot", ":agent", ":item_slot"),
+		(eq, ":item_on_slot", ":item_id"),
+		(assign, ":slot", ":item_slot"),
+		(try_end),
+	(agent_get_ammo_for_slot, ":ammo", ":agent", ":slot"),
+	(eq, ":ammo", 0),
+	(assign, ":bonus", 5),
+		(try_begin),
+		(call_script, "script_cf_if_agent_faction_invented_technology", ":agent", slot_faction_technology_ammoincrease),
+		(val_add, ":bonus", 15),
+		(call_script, "script_cf_if_agent_faction_invented_technology", ":agent", slot_faction_technology_improvedlogistics),
+		(val_add, ":bonus", 15),
+		(try_end),
+	(store_random_in_range, ":random", 1, 101),
+	(le, ":random", ":bonus"),
+	(agent_refill_ammo, ":agent"),
+(display_message, "@ammo_refill"),
+	(try_end),
+])
+
 flag_bearer = (
 0, 0, 0, [],
 [
@@ -4864,6 +4893,7 @@ pws_sky_bms = (ti_before_mission_start, 0, 0, [
 ], [])
 
 parabellum_script_set_battle = [
+ammo_refill,
 flag_bearer,
 flag_bearer_drop,
 pbs_enemy_retreating_end_battle,

@@ -14693,6 +14693,19 @@ presentations = [
 (ti_on_presentation_load, [     
 (set_fixed_point_multiplier, 1000),
 
+(create_image_button_overlay, "$menu_pbs_artillery_ammo_amount", "mesh_pbs_artillery_ammo_amount", "mesh_pbs_artillery_ammo_amount"),
+(position_set_x, pos1, 915),
+(position_set_y, pos1, 110),
+(overlay_set_position, "$menu_pbs_artillery_ammo_amount", pos1),
+(create_text_overlay, "$menu_pbs_artillery_ammo_amount_text", "@ "),
+(position_set_x, pos1, 919),
+(position_set_y, pos1, 104),
+(overlay_set_position, "$menu_pbs_artillery_ammo_amount_text", pos1),
+(position_set_x, pos1, 700),
+(position_set_y, pos1, 700),
+(overlay_set_size, "$menu_pbs_artillery_ammo_amount_text", pos1),
+(overlay_set_tooltip, "$menu_pbs_artillery_ammo_amount", "@Number of^artillery shells."),
+
 (assign, ":x_infolist", 83),
 (assign, ":x_name", 50),
 (assign, ":x_soldiers_number", 50),
@@ -15111,6 +15124,16 @@ in total.^Company types: Line infantry, Guard."),
 
 (ti_on_presentation_run, [
 (set_fixed_point_multiplier, 1000),
+	(try_begin),
+	(team_get_slot, ":amount", "$g_player_team", YuriSlotTeam_CannonsAmount),
+	(gt, ":amount", 0),
+	(team_get_slot, reg0, "$g_player_team", slot_team_artllery_ammo_shells_amount),
+	(overlay_set_text, "$menu_pbs_artillery_ammo_amount_text", "@{reg0}"),
+	(else_try),
+	(position_set_x, pos1, 0), (position_set_y, pos1, 0),
+	(overlay_set_size, "$menu_pbs_artillery_ammo_amount", pos1),
+	(overlay_set_size, "$menu_pbs_artillery_ammo_amount_text", pos1),
+	(try_end),
 
 (team_get_slot, reg0, "$g_player_team", slot_team_company1_energy),
 (val_div, reg0, 100),
