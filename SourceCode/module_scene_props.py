@@ -3978,7 +3978,7 @@ scene_props = [
 
 ("ambience_prop", sokf_invisible, 0, 0, [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
 
-("flag_animated1", 0, "flag_animated1", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(prop_instance_deform_in_cycle_loop, ":scene_prop_id", 0, 999, 40000),(prop_instance_set_material, ":scene_prop_id", -1, s1),(assign, reg0, ":scene_prop_id"),]),]),
+("flag_animated1", sokf_moveable, "flag_animated1", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(prop_instance_deform_in_cycle_loop, ":scene_prop_id", 0, 999, 40000),(prop_instance_set_material, ":scene_prop_id", -1, s1),(assign, reg0, ":scene_prop_id"),]),]),
 
 ("0siege_spikes1",0,"spikes1",0, []),
 ("0siege_platform_planks1",0,"platform_planks1",0, []),
@@ -4013,7 +4013,7 @@ scene_props = [
 ("0shared_flag_pole1",0,"flag_pole1","0", []),
 ("0shared_flag_pole2",0,"flag_pole2","0", []),
 ("0shared_flag_pole3",0,"flag_pole3","0", []),
-("0shared_flag_animated1_encountered_party", 0, "flag_animated1", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(call_script, "script_cf_get_party_faction_flag_material", "$g_encountered_party"),(prop_instance_deform_in_cycle_loop, ":scene_prop_id", 0, 999, 40000),(prop_instance_set_material, ":scene_prop_id", -1, s1),(assign, reg0, ":scene_prop_id"),]),]),
+("0shared_flag_animated1_encountered_party", sokf_moveable, "flag_animated1", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(call_script, "script_cf_get_party_faction_flag_material", "$g_encountered_party"),(prop_instance_deform_in_cycle_loop, ":scene_prop_id", 0, 999, 40000),(prop_instance_set_material, ":scene_prop_id", -1, s1),(assign, reg0, ":scene_prop_id"),]),]),
 ("0shared_lantern1",0,"lantern1","0", []),
 
 ]
