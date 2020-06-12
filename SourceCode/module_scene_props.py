@@ -3998,6 +3998,17 @@ scene_props = [
 ("0siege_sandbags7",0,"sandbags7","bo_sandbags7", []),
 ("0siege_oim_redoubt_line",0,"oim_redut","bo_oim_redut", []),
 ("0siege_oim_redoubt_round",0,"oim_redut_round","bo_oim_redut_round", []),
+("0siege_wooden_stand1",0,"wooden_stand1","bo_wooden_stand1", []),
+("0shared_goods_pile1",0,"goods_pile1","bo_goods_pile1", []),
+("0shared_sack1",0,"sack1","0", []),
+("0shared_sack_empty1",0,"sack_empty1","0", []),
+("0shared_barrel1",0,"barrel1","bo_barrel1", []),
+("0shared_cart_wooden1",0,"cart_wooden1","bo_cart_wooden1", []),
+("0shared_cart_wooden2",0,"cart_wooden2","bo_cart_wooden2", []),
+("0shared_cart_wooden3",0,"cart_wooden3","bo_cart_wooden3", []),
+("0shared_cratewood1",0,"cratewood1","0", []),
+("0shared_cratewood2",0,"cratewood2","0", []),
+("0shared_cratewood3",0,"cratewood3","0", []),
 
 ]
 
