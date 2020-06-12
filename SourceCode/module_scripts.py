@@ -57305,10 +57305,16 @@ scripts = [
 	(party_set_banner_icon, "p_main_party", ":map_icon"),
 	(party_set_banner_icon, ":capital", ":map_icon"),
 
-	(troop_raise_skill, "trp_player", skl_riding, 2), (troop_raise_skill, "trp_player", skl_leadership, 8),
+	(troop_raise_skill, "trp_player", skl_riding, 3), (troop_raise_skill, "trp_player", skl_leadership, 8),
 	(try_for_range,":slot",0,10),   
 	(troop_get_inventory_slot, ":item", ":liege", ":slot"),
 	(troop_set_inventory_slot, "trp_player", ":slot", ":item"),
+	(try_end),
+	(try_begin),
+	(eq, ":orginal_faction", "fac_kingdom_7"),
+	(eq, "$character_gender", tf_male),
+	(troop_remove_item, "trp_player", "itm_baf_trousers4"),
+	(troop_add_item, "trp_player", "itm_baf_trousers1"),
 	(try_end),
 
 	(try_for_range, ":technology", slot_faction_technology_earlyshells, slot_faction_technology_riflesrifled+1),   
@@ -57577,6 +57583,16 @@ scripts = [
 	(try_end),
 (assign, "$ignore_script_game_missile_launch", 0),
 (set_fixed_point_multiplier, 1),
+]),
+  
+("cf_get_party_faction_flag_material",
+[
+(store_script_param, ":party", 1),
+(party_is_active, ":party"),
+(store_faction_of_party, ":faction", ":party"),
+(faction_get_slot, ":string", ":faction", slot_faction_flag_scene),
+(neq, ":string", -1),
+(str_store_string, s1, ":string"),
 ]),
 
 ]# modmerger_start version=201 type=2

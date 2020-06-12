@@ -1612,3 +1612,7 @@ spr_0shared_cart_wooden3 = 1610
 spr_0shared_cratewood1 = 1611
 spr_0shared_cratewood2 = 1612
 spr_0shared_cratewood3 = 1613
+spr_0shared_flag_pole1 = 1614
+spr_0shared_flag_pole2 = 1615
+spr_0shared_flag_pole3 = 1616
+spr_0shared_flag_animated1_encountered_party = 1617

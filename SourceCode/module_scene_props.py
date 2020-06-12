@@ -4010,6 +4010,11 @@ scene_props = [
 ("0shared_cratewood2",0,"cratewood2","0", []),
 ("0shared_cratewood3",0,"cratewood3","0", []),
 
+("0shared_flag_pole1",0,"flag_pole1","0", []),
+("0shared_flag_pole2",0,"flag_pole2","0", []),
+("0shared_flag_pole3",0,"flag_pole3","0", []),
+("0shared_flag_animated1_encountered_party", 0, "flag_animated1", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(call_script, "script_cf_get_party_faction_flag_material", "$g_encountered_party"),(prop_instance_deform_in_cycle_loop, ":scene_prop_id", 0, 999, 40000),(prop_instance_set_material, ":scene_prop_id", -1, s1),(assign, reg0, ":scene_prop_id"),]),]),
+
 ]
 
  # modmerger_start version=201 type=2
