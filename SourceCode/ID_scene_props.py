@@ -1616,3 +1616,4 @@ spr_0shared_flag_pole1 = 1614
 spr_0shared_flag_pole2 = 1615
 spr_0shared_flag_pole3 = 1616
 spr_0shared_flag_animated1_encountered_party = 1617
+spr_0shared_lantern1 = 1618
