@@ -1,5 +1,5 @@
 scenesfile version 1
- 2040
+ 2041
 scn_random_scene random_scene 1792 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x0000000239600563000ad6b500003efe00004b3400002a5b 
   0 
   0 
@@ -8157,6 +8157,10 @@ scn_preset_battle_map_europe_end preset_battle_map_europe_end 1280 none none 0.0
   0 
  outer_terrain_plain 
 scn_town_european_walls town_european_walls 256 none none 0.000000 0.000000 100.000000 100.000000 -100.000000 0x0000000130014acf000d212c00002ff900007e9800001edc 
+  0 
+  0 
+ outer_terrain_plain 
+scn_town_european_center town_european_center 256 none none 0.000000 0.000000 100.000000 100.000000 -100.000000 0x000000003002498000035cd50000104100005e940000147b 
   0 
   0 
  outer_terrain_plain 
