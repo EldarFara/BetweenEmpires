@@ -1,4 +1,4 @@
-929
+931
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -268,6 +268,9 @@ qstr_Revolver__6_rounds_ Revolver_(6_rounds)
 qstr_Pocket_Revolver__6_r Pocket_Revolver_(6_rounds)
 qstr_Self_Loading_Pistol_ Self-Loading_Pistol_(8_rounds)
 qstr_Revolver__9_rounds_ Revolver_(9_rounds)
+qstr_Shotgun__2_rounds_ Shotgun_(2_rounds)
+qstr_Lever_action_shotgun Lever_action_shotgun_(6_rounds)
+qstr_Lever_action_shotgun_ Lever_action_shotgun_(1_round)
 qstr_Bolt_action_magazine Bolt-action_magazine_rifle_(5_rounds)
 qstr_Straight_pull_bolt_a Straight-pull_bolt-action^magazine_rifle_(5_rounds)
 qstr_Bolt_action_magazine_ Bolt-action_magazine_rifle_(10_rounds)
@@ -545,7 +548,6 @@ qstr_G.B. G.B.
 qstr_H.B. H.B.
 qstr_Cannot_form_square:_t Cannot_form_square:_too_few_soldiers_(need_at_least_25).
 qstr_{s1} {s1}
-qstr_ammo_refill ammo_refill
 qstr_day day
 qstr_cloud1 cloud1
 qstr_cloud2 cloud2

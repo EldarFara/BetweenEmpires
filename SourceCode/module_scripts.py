@@ -7943,6 +7943,11 @@ scripts = [
 	(item_set_slot, "itm_rifle_winchester_m1894", slot_item_appearance_year, 1894),
 	(item_set_slot, "itm_rifle_winchester_m1895", slot_item_appearance_year, 1895),
 	(item_set_slot, "itm_rifle_winchester_lee", slot_item_appearance_year, 1895),
+	(item_set_slot, "itm_shotgun_doublebarrel", slot_item_appearance_year, 1870),
+	(item_set_slot, "itm_shotgun_doublebarrel_short", slot_item_appearance_year, 1870),
+	(item_set_slot, "itm_shotgun_winchester_m1887", slot_item_appearance_year, 1887),
+	(item_set_slot, "itm_shotgun_greener", slot_item_appearance_year, 1871),
+
 	  # Setting food bonuses - these have been changed to incentivize using historical rations. Bread is the most cost-efficient
 	  #Staples
       (item_set_slot, "itm_bread", slot_item_food_bonus, 8), #brought up from 4
@@ -15719,6 +15724,20 @@ scripts = [
 		(try_begin),
 		(eq, ":item_no", "itm_sidearm_lemat"),
 		(set_result_string, "@Revolver (9 rounds)"),
+		(try_end),
+		(try_begin),
+		(this_or_next|eq, ":item_no", "itm_shotgun_caplock"),
+		(this_or_next|eq, ":item_no", "itm_shotgun_doublebarrel"),
+		(eq, ":item_no", "itm_shotgun_doublebarrel_short"),
+		(set_result_string, "@Shotgun (2 rounds)"),
+		(try_end),
+		(try_begin),
+		(eq, ":item_no", "itm_shotgun_winchester_m1887"),
+		(set_result_string, "@Lever action shotgun (6 rounds)"),
+		(try_end),
+		(try_begin),
+		(eq, ":item_no", "itm_shotgun_greener"),
+		(set_result_string, "@Lever action shotgun (1 round)"),
 		(try_end),
 		(try_begin),
 		(this_or_next|eq, ":item_no", "itm_rifle_russian_mosin_carbine"),
@@ -52855,6 +52874,7 @@ scripts = [
         (this_or_next|eq,":item_id", "itm_rifle_austrian_m1842_carbine"),
         (this_or_next|eq,":item_id", "itm_rifle_austrian_m1854"),
         (this_or_next|eq,":item_id", "itm_rifle_austrian_m1854_carbine"),
+        (this_or_next|eq,":item_id", "itm_shotgun_caplock"),
         (eq,":item_id", "itm_rifle_russian_m1856"),
         (assign, ":penaltytodiscipline_fromfire", 1),
         (assign, ":sound_id", "snd_shot_caplock"),
@@ -52867,6 +52887,10 @@ scripts = [
         (assign, ":spark_size", 20),
       (else_try),
         (this_or_next|eq,":item_id", "itm_rifle_russian_berdan"), # Modern Rifles
+        (this_or_next|eq,":item_id", "itm_shotgun_doublebarrel"),
+        (this_or_next|eq,":item_id", "itm_shotgun_doublebarrel_short"),
+        (this_or_next|eq,":item_id", "itm_shotgun_winchester_m1887"),
+        (this_or_next|eq,":item_id", "itm_shotgun_greener"),
         (this_or_next|eq,":item_id", "itm_rifle_austrian_werndl"),
         (this_or_next|eq,":item_id", "itm_rifle_austrian_werndl_carbine"),
         (this_or_next|eq,":item_id", "itm_rifle_german_dreyse"),
@@ -52982,6 +53006,9 @@ scripts = [
 	(this_or_next|eq,":item_id", "itm_rifle_winchester_m1894"),
 	(this_or_next|eq,":item_id", "itm_rifle_winchester_m1895"),
 	(this_or_next|eq,":item_id", "itm_rifle_winchester_lee"),
+	(this_or_next|eq, ":item_id", "itm_shotgun_caplock"),
+	(this_or_next|eq, ":item_id", "itm_shotgun_winchester_m1887"),
+	(this_or_next|eq, ":item_id", "itm_shotgun_doublebarrel_short"),
 	(eq,":item_id", "itm_rifle_russian_m1856_carbine"), 
 	(assign, ":muzzle_y", 104),
 	(try_end),
@@ -53028,6 +53055,14 @@ scripts = [
 	(agent_set_animation, ":agent_id", "anim_spencer_shot", 1),
 	(try_end),
        
+	(try_begin), # Shotgun
+	(this_or_next|eq, ":item_id", "itm_shotgun_caplock"),
+	(this_or_next|eq, ":item_id", "itm_shotgun_doublebarrel"),
+	(this_or_next|eq, ":item_id", "itm_shotgun_greener"),
+	(eq, ":item_id", "itm_shotgun_doublebarrel_short"),
+	(assign, ":sound_id", "snd_shot_shotgun1"),
+	(try_end),
+       
 	(try_begin), # Lever action
 	(this_or_next|eq,":item_id", "itm_rifle_winchester_m1866"), 
 	(this_or_next|eq,":item_id", "itm_rifle_winchester_m1873"), 
@@ -53036,6 +53071,7 @@ scripts = [
 	(this_or_next|eq,":item_id", "itm_rifle_winchester_m1892"), 
 	(this_or_next|eq,":item_id", "itm_rifle_winchester_m1894"), 
 	(this_or_next|eq,":item_id", "itm_rifle_winchester_m1895"), 
+	(this_or_next|eq,":item_id", "itm_shotgun_winchester_m1887"), 
 	(eq,":item_id", "itm_rifle_henry"), 
 	(assign, ":sound_id", "snd_winch_shot"),
 	(agent_set_animation, ":agent_id", "anim_lever_action_shot", 1),
@@ -57505,6 +57541,30 @@ scripts = [
 (faction_get_slot, ":string", ":faction", slot_faction_flag_scene),
 (neq, ":string", -1),
 (str_store_string, s1, ":string"),
+]),
+  
+("shotgun_shot",
+[
+(store_script_param, ":pellets", 1),
+(store_script_param, ":spray", 2),
+(store_script_param, ":pos", 3),
+(store_script_param, ":item", 4),
+(store_script_param, ":agent", 5),
+
+(store_mul, ":spray_minus", ":spray", -1),
+
+(assign, "$ignore_script_game_missile_launch", 1),
+	(try_for_range, ":unused", 0, ":pellets"),
+	(copy_position, pos30, ":pos"),
+	(set_fixed_point_multiplier, 100),
+	(store_random_in_range, ":x_offset", ":spray_minus", ":spray"),
+	(store_random_in_range, ":z_offset", ":spray_minus", ":spray"),
+	(position_rotate_x_floating, pos30, ":x_offset"),
+	(position_rotate_z_floating, pos30, ":z_offset"),
+	(add_missile, ":agent", pos30, shotgun_muzzle_velocity, ":item", 0, "itm_ammo_rifle", 0),
+	(try_end),
+(assign, "$ignore_script_game_missile_launch", 0),
+(set_fixed_point_multiplier, 1),
 ]),
 
 ]# modmerger_start version=201 type=2

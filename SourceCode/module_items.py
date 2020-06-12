@@ -48,6 +48,8 @@ speed_conversion_rifle = 45
 speed_muzzleloaded_rifle = 55
 speed_muzzleloaded_musket = 55
 
+damage_shotgun = 20
+
 damage_bolt_action_rifle = 45
 damage_small_caliber_rifle = 50
 damage_rifle = 55
@@ -1375,7 +1377,7 @@ items = [
 
 ["sidearm_colt_m1873","Colt Single Action Army", [("colt_m1873", 0),("pistol_holster1", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn, price_pistol_aboveaverage, weight(1)|abundance(100)|accuracy(accuracy_pistol_high)|spd_rtng(speed_pistol_medium)|shoot_speed(shot_speed_pistol_medium)|max_ammo(6)|thrust_damage(damage_pistol_medium, pierce), imodbits_firearm, []],
 
-  ["ammo_rifle","Ammunition of Rifle Caliber", [("belt_ammo", 0),("bullet_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bolts|itp_default_ammo|itp_merchandise, 0,100, weight(0.4)|abundance(75)|max_ammo(3)|thrust_damage(0, pierce), imodbit_large_bag, [
+  ["ammo_rifle","Ammunition of Rifle Caliber", [("belt_ammo", 0),("bullet_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bolts|itp_default_ammo|itp_merchandise, 0,100, weight(0.4)|abundance(75)|max_ammo(40)|thrust_damage(0, pierce), imodbit_large_bag, [
     (ti_on_missile_hit, [
       (try_begin),
         (particle_system_burst_no_sync, "psys_bullet_hit", pos1, 8),
@@ -1871,7 +1873,7 @@ items = [
 
 ["sidearm_lemat","LeMat Revolver", [("lemat", 0),("pistol_holster1b", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn, price_pistol_extremelyhigh, weight(1.8)|abundance(100)|accuracy(accuracy_pistol_medium+2)|spd_rtng(speed_pistol_low-3)|shoot_speed(shot_speed_pistol_medium)|max_ammo(9)|thrust_damage(damage_pistol_medium-2, pierce), imodbits_firearm, []],
 
-["canister_shot_small","canister_shot_small", [("belt_ammo", 0),], itp_type_crossbow|itp_two_handed|itp_primary, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(100)|accuracy(int(accuracy_bolt_action_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_bolt_action_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_bolt_action_rifle)|max_ammo(5)|thrust_damage(20, pierce), imodbits_firearm, []],
+["canister_shot_small","canister_shot_small", [("belt_ammo", 0),], itp_type_crossbow|itp_two_handed|itp_primary, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(100)|accuracy(int(accuracy_bolt_action_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_bolt_action_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_bolt_action_rifle)|max_ammo(5)|thrust_damage(damage_shotgun, pierce), imodbits_firearm, []],
 ["canister_shot_small_projectile","canister_shot_small", [("belt_ammo", 0),("canister_shot_small_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bolts|itp_no_pick_up_from_ground, 0,100, weight(0.4)|abundance(0)|max_ammo(1)|thrust_damage(0, pierce), imodbit_large_bag, [
 (ti_on_missile_hit, [
 	(particle_system_burst_no_sync, "psys_bullet_hit", pos1, 5),
@@ -2097,6 +2099,22 @@ items = [
 ["baf_hat4","British Dragoon's Helmet", [("baf_hat4", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 ["baf_hat5","British Uhlan's Helmet", [("baf_hat5", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 ["cavalry_gloves1","Gloves", [("cavalry_gloves1_L",0)], itp_type_hand_armor,0, 90, weight(0.25)|abundance(50)|body_armor(1)|difficulty(0),imodbits_cloth],
+
+["shotgun_caplock","Double-Barrel Caplock Shotgun", [("shotgun_caplock", 0),("shotgun_caplock_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear,price_pistol_aboveaverage, weight(3.7)|abundance(80)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_muzzleloaded_musket)|shoot_speed(shotgun_muzzle_velocity)|max_ammo(2)|thrust_damage(damage_shotgun, pierce), imodbits_firearm, 
+[(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 60, 600, pos10, "itm_shotgun_caplock", ":agent"),])]],
+["shotgun_caplock_m","Double-Barrel Caplock Shotgun", [("shotgun_caplock", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(3.7)|hit_points(18432)|spd_rtng(75)|weapon_length(100)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],
+["shotgun_doublebarrel","Double-Barrel Shotgun", [("shotgun_doublebarrel", 0),("shotgun_doublebarrel_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,price_pistol_high, weight(3.7)|abundance(80)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_conversion_rifle)|shoot_speed(shotgun_muzzle_velocity)|max_ammo(2)|thrust_damage(damage_shotgun+4, pierce), imodbits_firearm, 
+[(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 80, 500, pos10, "itm_shotgun_doublebarrel", ":agent"),])]],
+["shotgun_doublebarrel_m","Double-Barrel Shotgun", [("shotgun_doublebarrel", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(3.7)|hit_points(18432)|spd_rtng(75)|weapon_length(100)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],
+["shotgun_doublebarrel_short","Shortened Double-Barrel Shotgun", [("shotgun_doublebarrel", 0),("shotgun_doublebarrel_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,price_pistol_high, weight(3.7)|abundance(80)|accuracy(accuracy_muzzleloaded_musket-5)|spd_rtng(speed_small_caliber_rifle)|shoot_speed(shotgun_muzzle_velocity)|max_ammo(2)|thrust_damage(damage_shotgun+4, pierce), imodbits_firearm, 
+[(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 80, 750, pos10, "itm_shotgun_doublebarrel_short", ":agent"),])]],
+["shotgun_doublebarrel_short_m","Shortened Double-Barrel Shotgun", [("shotgun_doublebarrel", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(3.7)|hit_points(18432)|spd_rtng(75)|weapon_length(100)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],
+["shotgun_winchester_m1887","Winchester M1887", [("winchester_m1887", 0),("winchester_m1887_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,price_pistol_veryhigh, weight(3.7)|abundance(80)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_conversion_rifle)|shoot_speed(shotgun_muzzle_velocity)|max_ammo(6)|thrust_damage(damage_shotgun+4, pierce), imodbits_firearm, 
+[(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 65, 600, pos10, "itm_shotgun_winchester_m1887", ":agent"),])]],
+["shotgun_winchester_m1887_m","Winchester M1887", [("winchester_m1887", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(3.7)|hit_points(18432)|spd_rtng(75)|weapon_length(100)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],
+["shotgun_greener","Greener Shotgun", [("greener", 0),("greener_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,price_pistol_low, weight(3.7)|abundance(80)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_conversion_rifle+10)|shoot_speed(shotgun_muzzle_velocity)|max_ammo(1)|thrust_damage(damage_shotgun+15, pierce), imodbits_firearm, 
+[(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 90, 650, pos10, "itm_shotgun_greener", ":agent"),])]],
+["shotgun_greener_m","Greener Shotgun", [("greener", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(3.7)|hit_points(18432)|spd_rtng(75)|weapon_length(100)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],
 
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],

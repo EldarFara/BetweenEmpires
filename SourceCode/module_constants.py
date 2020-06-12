@@ -8,6 +8,8 @@ from ID_factions import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+shotgun_muzzle_velocity = 5500
+
 default_fog_distance = 1600
 rain_fog_distance = 350
 
@@ -1378,14 +1380,14 @@ slot_team_company5_timer                       = 88
 slot_team_company6_timer                       = 89
 slot_team_company7_timer                       = 90
 slot_team_company8_timer                       = 91
-slot_team_company1_aiming_soldier_number                       = 92
-slot_team_company2_aiming_soldier_number                       = 93
-slot_team_company3_aiming_soldier_number                       = 94
-slot_team_company4_aiming_soldier_number                       = 95
-slot_team_company5_aiming_soldier_number                       = 96
-slot_team_company6_aiming_soldier_number                       = 97
-slot_team_company7_aiming_soldier_number                       = 98
-slot_team_company8_aiming_soldier_number                       = 99
+slot_team_company1_reloading_soldier_number                       = 92
+slot_team_company2_reloading_soldier_number                       = 93
+slot_team_company3_reloading_soldier_number                       = 94
+slot_team_company4_reloading_soldier_number                       = 95
+slot_team_company5_reloading_soldier_number                       = 96
+slot_team_company6_reloading_soldier_number                       = 97
+slot_team_company7_reloading_soldier_number                       = 98
+slot_team_company8_reloading_soldier_number                       = 99
 slot_team_company1_average_x                       = 100
 slot_team_company2_average_x                       = 101
 slot_team_company3_average_x                       = 102
