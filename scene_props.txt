@@ -1,5 +1,5 @@
 scene_propsfile version 1
- 1603
+ 1614
 spr_invalid_object 0 0 question_mark 0 0
 
 
@@ -4957,5 +4957,38 @@ spr_0siege_oim_redoubt_line 0 0 oim_redut bo_oim_redut 0
 
 
 spr_0siege_oim_redoubt_round 0 0 oim_redut_round bo_oim_redut_round 0
+
+
+spr_0siege_wooden_stand1 0 0 wooden_stand1 bo_wooden_stand1 0
+
+
+spr_0shared_goods_pile1 0 0 goods_pile1 bo_goods_pile1 0
+
+
+spr_0shared_sack1 0 0 sack1 0 0
+
+
+spr_0shared_sack_empty1 0 0 sack_empty1 0 0
+
+
+spr_0shared_barrel1 0 0 barrel1 bo_barrel1 0
+
+
+spr_0shared_cart_wooden1 0 0 cart_wooden1 bo_cart_wooden1 0
+
+
+spr_0shared_cart_wooden2 0 0 cart_wooden2 bo_cart_wooden2 0
+
+
+spr_0shared_cart_wooden3 0 0 cart_wooden3 bo_cart_wooden3 0
+
+
+spr_0shared_cratewood1 0 0 cratewood1 0 0
+
+
+spr_0shared_cratewood2 0 0 cratewood2 0 0
+
+
+spr_0shared_cratewood3 0 0 cratewood3 0 0
 
 
