@@ -2887,6 +2887,7 @@ pbs_agents_modifiers = (0.5, 0, 0, [
 	(assign, ":energy_damage_modifier", 100),
 		(try_begin),
 		(le, ":energy", 60),
+		(neg|agent_slot_eq, ":agent", slot_agent_pbs_state, pbs_state_retreating),
 		(store_div, ":energy_speed_modifier", ":energy", 3),
 		(val_mul, ":energy_speed_modifier", 2),
 		(val_add, ":energy_speed_modifier", 60),
