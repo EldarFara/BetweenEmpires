@@ -7311,7 +7311,7 @@ game_menus = [
                          (neg|party_slot_eq, "$current_town", slot_village_state, svs_being_raided),
                          (neg|party_slot_ge, "$current_town", slot_village_infested_by_bandits, 1),
 		# parabellum cut
-        (eq, 0 ,1), # parabellum todo reenable this
+      #  (eq, 0 ,1), # parabellum todo reenable this
 						 ]
        ,"Go to the village center.",
        [
