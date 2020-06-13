@@ -1186,7 +1186,8 @@ scripts = [
        # (party_set_slot,":town_no", slot_town_center, ":cur_object_no"),
         (party_set_slot,":town_no", slot_town_center, "scn_town_european_center"),
         (store_add, ":cur_object_no", "scn_town_1_castle", ":offset"),
-        (party_set_slot,":town_no", slot_town_castle, ":cur_object_no"),
+       # (party_set_slot,":town_no", slot_town_castle, ":cur_object_no"),
+        (party_set_slot,":town_no", slot_town_castle, "scn_town_european_hq"),
         (store_add, ":cur_object_no", "scn_town_1_prison", ":offset"),
         (party_set_slot,":town_no", slot_town_prison, ":cur_object_no"),
         (store_add, ":cur_object_no", "scn_town_1_walls", ":offset"),
@@ -1224,11 +1225,12 @@ scripts = [
 
 #        (store_add, ":senechal_troop_no", "trp_castle_1_seneschal", ":offset"),
 #        (party_set_slot,":castle_no", slot_town_seneschal, ":senechal_troop_no"),
-        (store_add, ":exterior_scene_no", "scn_castle_1_exterior", ":offset"),
+       # (store_add, ":exterior_scene_no", "scn_castle_1_exterior", ":offset"),
        # (party_set_slot,":castle_no", slot_castle_exterior, ":exterior_scene_no"),
         (party_set_slot,":castle_no", slot_castle_exterior, "scn_town_european_walls"),
         (store_add, ":interior_scene_no", "scn_castle_1_interior", ":offset"),
-        (party_set_slot,":castle_no", slot_town_castle, ":interior_scene_no"),
+       # (party_set_slot,":castle_no", slot_town_castle, ":interior_scene_no"),
+        (party_set_slot,":castle_no", slot_town_castle, "scn_town_european_hq"),
         (store_add, ":interior_scene_no", "scn_castle_1_prison", ":offset"),
         (party_set_slot,":castle_no", slot_town_prison, ":interior_scene_no"),
         
@@ -1263,8 +1265,9 @@ scripts = [
       (try_for_range, ":village_no", villages_begin, villages_end),
         (store_sub, ":offset", ":village_no", villages_begin),
 
-        (store_add, ":exterior_scene_no", "scn_village_1", ":offset"),
-        (party_set_slot,":village_no", slot_castle_exterior, ":exterior_scene_no"),
+       # (store_add, ":exterior_scene_no", "scn_village_1", ":offset"),
+       # (party_set_slot,":village_no", slot_castle_exterior, ":exterior_scene_no"),
+        (party_set_slot,":village_no", slot_castle_exterior, "scn_village_european"),
       
         (store_add, ":store_troop_no", "trp_village_1_elder", ":offset"),
         (party_set_slot,":village_no", slot_town_elder, ":store_troop_no"),

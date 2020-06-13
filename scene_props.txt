@@ -1,5 +1,5 @@
 scene_propsfile version 1
- 1619
+ 1662
 spr_invalid_object 0 0 question_mark 0 0
 
 
@@ -4435,16 +4435,16 @@ spr_Rus_Interier_Divan_B 0 0 Rus_Interier_Divan_B bo_Rus_Interier_Divan_B 0
 spr_Rus_Furniture_Table_F 0 0 Rus_Furniture_Table_F bo_Rus_Furniture_Table_F 0
 
 
-spr_Rus_Town_Lord_Interier_3 0 0 Rus_Town_Lord_Interier_3 bo_Rus_Town_Lord_Interier_3 0
+spr_Rus_Town_Lord_Interier_3 65536 0 Rus_Town_Lord_Interier_3 bo_Rus_Town_Lord_Interier_3 0
 
 
-spr_Rus_Taverna_Interier_A 0 0 Rus_Taverna_Interier_A bo_Rus_Taverna_Interier_A 0
+spr_Rus_Taverna_Interier_A 65536 0 Rus_Taverna_Interier_A bo_Rus_Taverna_Interier_A 0
 
 
-spr_Rus_Town_Lord_Interier_8 0 0 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 0
+spr_Rus_Town_Lord_Interier_8 65536 0 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 0
 
 
-spr_Rus_Taverna_Interier_H 0 0 Rus_Taverna_Interier_H bo_Rus_Taverna_Interier_H 0
+spr_Rus_Taverna_Interier_H 65536 0 Rus_Taverna_Interier_H bo_Rus_Taverna_Interier_H 0
 
 
 spr_int_palmtree1 0 0 int_palmtree1 co_co_ash_big1 1
@@ -5006,5 +5006,134 @@ spr_0shared_flag_animated1_encountered_party 65536 0 flag_animated1 0 1
 
 
 spr_0shared_lantern1 0 0 lantern1 0 0
+
+
+spr_0interior_interior_dresser1 0 0 interior_dresser1 bo_interior_dresser1 0
+
+
+spr_0interior_interior_chair1 0 0 interior_chair1 bo_interior_chair1 0
+
+
+spr_0interior_interior_table1 0 0 interior_table1 bo_interior_table1 0
+
+
+spr_0interior_interior_table2 0 0 interior_table2 bo_interior_table2 0
+
+
+spr_0interior_interior_table3 0 0 table1 bo_table1 0
+
+
+spr_0interior_interior_sofa1 0 0 interior_sofa1 bo_interior_sofa1 0
+
+
+spr_0office_office_typewriter1a 0 0 office_typewriter1a 0 0
+
+
+spr_0office_office_typewriter1b 0 0 office_typewriter1b 0 0
+
+
+spr_0office_office_paperpile1 0 0 office_paperpile1 0 0
+
+
+spr_0office_office_desk1 0 0 office_desk1 bo_office_desk 0
+
+
+spr_0office_office_desk2 0 0 office_desk2 bo_office_desk 0
+
+
+spr_0office_office_desk3 0 0 office_desk3 bo_office_desk 0
+
+
+spr_0office_office_desk_cover1 0 0 office_desk_cover1 0 0
+
+
+spr_0office_office_pen_holder1 0 0 office_pen_holder1 0 0
+
+
+spr_0office_office_document_box1 0 0 office_document_box1 0 0
+
+
+spr_0office_office_ashtray1 0 0 office_ashtray1 0 0
+
+
+spr_0office_office_chair1 0 0 office_chair1 bo_office_chair1 0
+
+
+spr_0office_office_letter_opener1 0 0 office_letter_opener1 0 0
+
+
+spr_0office_office_letter1 0 0 office_letter1 0 0
+
+
+spr_0office_office_scissors1 0 0 office_scissors1 0 0
+
+
+spr_0office_office_clock1 0 0 office_clock1 0 0
+
+
+spr_0office_office_document_basket1 0 0 office_document_basket1 0 0
+
+
+spr_0office_office_document1 0 0 office_document1 0 0
+
+
+spr_0office_office_document2 0 0 office_document2 0 0
+
+
+spr_0office_office_document3 0 0 office_document3 0 0
+
+
+spr_0office_office_document4 0 0 office_document4 0 0
+
+
+spr_0office_office_book_cart1 0 0 office_book_cart1 0 0
+
+
+spr_0office_office_filing_cabinet1 0 0 office_filing_cabinet1 bo_office_filing_cabinet1 0
+
+
+spr_0office_office_filing_cabinet2 0 0 office_filing_cabinet2 bo_office_filing_cabinet2 0
+
+
+spr_0office_office_filing_cabinet3 0 0 office_filing_cabinet3 bo_office_filing_cabinet3 0
+
+
+spr_0office_office_wallclock1 0 0 office_wallclock1 0 0
+
+
+spr_0office_office_pen1 0 0 office_pen1 0 0
+
+
+spr_0office_office_pen2 0 0 office_pen2 0 0
+
+
+spr_0office_office_book1 0 0 office_book1 0 0
+
+
+spr_0office_office_book2 0 0 office_book2 0 0
+
+
+spr_0office_office_book3 0 0 office_book3 0 0
+
+
+spr_0office_office_books_pile1 0 0 office_books_pile1 0 0
+
+
+spr_0interior_piano1 0 0 piano1 0 0
+
+
+spr_0interior_piano2 0 0 piano2 0 0
+
+
+spr_0interior_restaurant_table1 0 0 interior_restaurant_table1 bo_interior_restaurant_table1 0
+
+
+spr_0interior_restaurant_table1b 0 0 interior_restaurant_table1b bo_interior_restaurant_table1 0
+
+
+spr_0interior_restaurant_table1c 0 0 interior_restaurant_table1c bo_interior_restaurant_table1 0
+
+
+spr_0interior_restaurant_table2 0 0 interior_restaurant_table2 bo_interior_restaurant_table1 0
 
 

@@ -2039,3 +2039,5 @@ scn_preset_battle_map_europe11 = 2037
 scn_preset_battle_map_europe_end = 2038
 scn_town_european_walls = 2039
 scn_town_european_center = 2040
+scn_town_european_hq = 2041
+scn_village_european = 2042
