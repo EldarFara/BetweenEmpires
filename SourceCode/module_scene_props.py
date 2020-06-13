@@ -187,7 +187,6 @@ scene_props = [
           (try_end),
           (try_begin),
 		 (call_script, "script_cf_current_sky_has_no_direct_sunlight"),
-		 (display_message, "@1"),
           (val_div, ":red", 2),
           (val_div, ":green", 2),
           (val_div, ":blue", 2),
