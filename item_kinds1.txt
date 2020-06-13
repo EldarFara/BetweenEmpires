@@ -3551,11 +3551,11 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_berdan Berdan_Rifle Berdan_Rifle 2  berdan 0  berdan_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 100 0 0 52 650 0 1 311 0
+ itm_rifle_russian_berdan Berdan_Rifle Berdan_Rifle 2  berdan_rifle 0  berdan_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 100 0 0 52 650 0 1 311 0
  0
 0
 
- itm_rifle_russian_berdan_m Berdan_Rifle Berdan_Rifle 1  berdan 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
+ itm_rifle_russian_berdan_m Berdan_Rifle Berdan_Rifle 1  berdan_rifle 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
  0
 0
 
@@ -3667,11 +3667,11 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_werndl Werndl_Rifle Werndl_Rifle 2  berdan 0  berdan_inv 1152921504606846976  811597833 555929845760 400 131082 4.000000 100 0 0 100 0 0 52 650 0 1 311 0
+ itm_rifle_austrian_werndl Werndl_Rifle Werndl_Rifle 2  berdan_rifle 0  berdan_inv 1152921504606846976  811597833 555929845760 400 131082 4.000000 100 0 0 100 0 0 52 650 0 1 311 0
  0
 0
 
- itm_rifle_austrian_werndl_m Werndl_Rifle Werndl_Rifle 1  berdan 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
+ itm_rifle_austrian_werndl_m Werndl_Rifle Werndl_Rifle 1  berdan_rifle 0  274989060 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
  0
 0
 

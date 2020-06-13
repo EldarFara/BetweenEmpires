@@ -156,7 +156,7 @@ qstr_Next Next
 qstr_Price_{reg42}^Weight Price_{reg42}^Weight_{reg43}
 qstr_{reg5}_to_{reg6} {reg5}_to_{reg6}
 qstr_Back Back
-qstr_You_can_t_equip_this You_can't_equip_this_item._Wrong_Place_or_too_heavy!!
+qstr_You_can_t_equip_this You_can't_equip_this_item_-_wrong_slot.
 qstr_Military_Technologie Military_Technologies_of_the_{s1}
 qstr_Research Research
 qstr_Select_technology Select_technology

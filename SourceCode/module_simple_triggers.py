@@ -4312,8 +4312,8 @@ simple_triggers = [
           (store_sub,":offset",":troop","trp_kingdom_recruit"),
           (store_add,":faction_troop_name","fac_kingdom_1",":offset"),
           (str_store_faction_name,s2,":faction_troop_name"),
-	  (troop_set_name, ":troop", s2),
-	  (troop_set_plural_name, ":troop", s2),
+	  # (troop_set_name, ":troop", s2),
+	  # (troop_set_plural_name, ":troop", s2),
 	  (try_end),     
       (troop_clear_inventory, "trp_kingdom_inventory"),
     ]
