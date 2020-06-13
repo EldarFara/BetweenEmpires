@@ -1661,3 +1661,4 @@ spr_0interior_restaurant_table1 = 1659
 spr_0interior_restaurant_table1b = 1660
 spr_0interior_restaurant_table1c = 1661
 spr_0interior_restaurant_table2 = 1662
+spr_0town_street_pole1 = 1663

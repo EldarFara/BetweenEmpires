@@ -4062,6 +4062,8 @@ scene_props = [
 ("0interior_restaurant_table1c",0,"interior_restaurant_table1c","bo_interior_restaurant_table1", []),
 ("0interior_restaurant_table2",0,"interior_restaurant_table2","bo_interior_restaurant_table1", []),
 
+("0town_street_pole1",0,"street_pole1","0", []),
+
 ]
 
  # modmerger_start version=201 type=2
