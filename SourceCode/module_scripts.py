@@ -57600,6 +57600,17 @@ scripts = [
 (str_store_string, s1, ":string"),
 ]),
 
+  ("cf_current_sky_has_no_direct_sunlight",
+    [
+	 (this_or_next|eq, "$current_sky", 5),
+	 (this_or_next|eq, "$current_sky", 7),
+	 (this_or_next|is_between, "$current_sky", 9, 17),
+	 (this_or_next|eq, "$current_sky", 18),
+	 (this_or_next|is_between, "$current_sky", 36, 44),
+	 (this_or_next|eq, "$current_sky", 45),
+	 (eq, "$current_sky", 46),
+  ]),
+
 ]# modmerger_start version=201 type=2
 try:
     component_name = "scripts"
