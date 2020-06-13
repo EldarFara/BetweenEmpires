@@ -691,5 +691,6 @@ script_cf_get_agent_faction_flag_material = 689
 script_shotgun_shot = 690
 script_cf_get_party_faction_flag_material = 691
 script_cf_current_sky_has_no_direct_sunlight = 692
+script_cf_item_can_be_used_by_custom_troop = 693
 
 

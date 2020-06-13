@@ -57610,6 +57610,12 @@ scripts = [
 	 (this_or_next|eq, "$current_sky", 45),
 	 (eq, "$current_sky", 46),
   ]),
+  
+("cf_item_can_be_used_by_custom_troop",
+[
+(store_script_param, ":item", 1),
+(ge, ":item", 619),
+]),
 
 ]# modmerger_start version=201 type=2
 try:
