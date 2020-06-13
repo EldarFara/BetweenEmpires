@@ -2041,7 +2041,7 @@ YuriCannon33MS = (
 			(prop_instance_stop_sound, ":CannonBody"),
 			(prop_instance_play_sound, ":CannonBody", "snd_Yuri_CannonCarriageMoving1"),
 			(prop_instance_get_position, pos2, ":CannonBody"),
-			(position_move_y, pos2, 210, 0),
+			(position_move_y, pos2, 230, 0),
 			(copy_position, pos3, pos2),
 			(position_move_y, pos3, 200, 0),
 			(position_move_x, pos3, -125, 0),

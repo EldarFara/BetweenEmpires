@@ -1373,8 +1373,8 @@ game_menus = [
            (set_show_messages, 0),
 		(try_begin),
 		(eq,"$character_gender",0),
-		(troop_add_item, "trp_player","itm_clothes_urban_male1",0),
-		(troop_add_item, "trp_player","itm_clothes_urban_male_trousers1",0),
+		(troop_add_item, "trp_player","itm_clothes_adventurer_male1",0),
+		(troop_add_item, "trp_player","itm_clothes_adventurer_male_trousers1",0),
 		(else_try),
 		(troop_add_item, "trp_player","itm_clothes_adventurer_female1",0),
 		(troop_add_item, "trp_player","itm_clothes_adventurer_female_trousers1",0),
@@ -12827,6 +12827,7 @@ game_menus = [
     [
       ("continue",[],"Continue...",
        [
+        (change_screen_return),
          (start_presentation, "prsnt_name_kingdom"),
         ]),
      ]
