@@ -2694,43 +2694,43 @@ itemsfile version 3
 1
 -52.000000  3 4 0 1975 3 1008806316530991164 1 8 3 0 
 
- itm_rifle_middle_east_musket1 Oriental_Musket Oriental_Musket 2  middle_east_musket1 0  middle_east_musket1_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 50 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_middle_east_musket1 Flintlock_Musket Flintlock_Musket 2  middle_east_musket1 0  middle_east_musket1_inv 1152921504606846976  543227913 6174031872 400 0 4.500000 50 0 0 65 0 0 55 400 0 1 311 0
  0
 0
 
- itm_rifle_middle_east_musket1_m Oriental_Musket Oriental_Musket 1  middle_east_musket1 0  6553604 4222130824676096 0 0 4.500000 100 0 0 0 0 18432 75 0 85 0 532 530
+ itm_rifle_middle_east_musket1_m Flintlock_Musket Flintlock_Musket 1  middle_east_musket1 0  6553604 4222130824676096 0 0 4.500000 100 0 0 0 0 18432 75 0 85 0 532 530
  0
 0
 
- itm_rifle_middle_east_musket2 Oriental_Musket Oriental_Musket 2  middle_east_musket2 0  middle_east_musket2_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 50 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_middle_east_musket2 Flintlock_Musket Flintlock_Musket 2  middle_east_musket2 0  middle_east_musket2_inv 1152921504606846976  543227913 6174031872 400 0 4.500000 50 0 0 65 0 0 55 400 0 1 311 0
  0
 0
 
- itm_rifle_middle_east_musket2_m Oriental_Musket Oriental_Musket 1  middle_east_musket2 0  6553604 4222130824676096 0 0 4.500000 100 0 0 0 0 18432 75 0 85 0 532 530
+ itm_rifle_middle_east_musket2_m Flintlock_Musket Flintlock_Musket 1  middle_east_musket2 0  6553604 4222130824676096 0 0 4.500000 100 0 0 0 0 18432 75 0 85 0 532 530
  0
 0
 
- itm_rifle_middle_east_musket3 Oriental_Musket Oriental_Musket 2  middle_east_musket3 0  middle_east_musket3_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 50 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_middle_east_musket3 Flintlock_Musket Flintlock_Musket 2  middle_east_musket3 0  middle_east_musket3_inv 1152921504606846976  543227913 6174031872 400 0 4.500000 50 0 0 65 0 0 55 400 0 1 311 0
  0
 0
 
- itm_rifle_middle_east_musket3_m Oriental_Musket Oriental_Musket 1  middle_east_musket3 0  6553604 4222130824676096 0 0 4.500000 100 0 0 0 0 18432 75 0 85 0 532 530
+ itm_rifle_middle_east_musket3_m Flintlock_Musket Flintlock_Musket 1  middle_east_musket3 0  6553604 4222130824676096 0 0 4.500000 100 0 0 0 0 18432 75 0 85 0 532 530
  0
 0
 
- itm_rifle_middle_east_musket4 Oriental_Musket Oriental_Musket 2  middle_east_musket4 0  middle_east_musket4_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 50 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_middle_east_musket4 Flintlock_Musket Flintlock_Musket 2  middle_east_musket4 0  middle_east_musket4_inv 1152921504606846976  543227913 6174031872 400 0 4.500000 50 0 0 65 0 0 55 400 0 1 311 0
  0
 0
 
- itm_rifle_middle_east_musket4_m Oriental_Musket Oriental_Musket 1  middle_east_musket4 0  6553604 4222130824676096 0 0 4.500000 100 0 0 0 0 18432 75 0 85 0 532 530
+ itm_rifle_middle_east_musket4_m Flintlock_Musket Flintlock_Musket 1  middle_east_musket4 0  6553604 4222130824676096 0 0 4.500000 100 0 0 0 0 18432 75 0 85 0 532 530
  0
 0
 
- itm_rifle_middle_east_musket5 Oriental_Musket Oriental_Musket 2  middle_east_musket5 0  middle_east_musket5_inv 1152921504606846976  543227913 6174031872 400 131082 4.500000 50 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_middle_east_musket5 Flintlock_Musket Flintlock_Musket 2  middle_east_musket5 0  middle_east_musket5_inv 1152921504606846976  543227913 6174031872 400 0 4.500000 50 0 0 65 0 0 55 400 0 1 311 0
  0
 0
 
- itm_rifle_middle_east_musket5_m Oriental_Musket Oriental_Musket 1  middle_east_musket5 0  6553604 4222130824676096 0 0 4.500000 100 0 0 0 0 18432 75 0 85 0 532 530
+ itm_rifle_middle_east_musket5_m Flintlock_Musket Flintlock_Musket 1  middle_east_musket5 0  6553604 4222130824676096 0 0 4.500000 100 0 0 0 0 18432 75 0 85 0 532 530
  0
 0
 
@@ -2893,7 +2893,7 @@ itemsfile version 3
  0
 0
 
- itm_dress_shoes Dress_Shoes Dress_Shoes 1  dress_shoes 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ itm_dress_shoes Dress_Shoes Dress_Shoes 1  dress_shoes 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  0
 0
 

@@ -4019,7 +4019,7 @@ scene_props = [
 ("0shared_flag_pole1",0,"flag_pole1","0", []),
 ("0shared_flag_pole2",0,"flag_pole2","0", []),
 ("0shared_flag_pole3",0,"flag_pole3","0", []),
-("0shared_flag_animated1_encountered_party", sokf_moveable, "flag_animated1", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(call_script, "script_cf_get_party_faction_flag_material", "$g_encountered_party"),(prop_instance_deform_in_cycle_loop, ":scene_prop_id", 0, 999, 40000),(prop_instance_set_material, ":scene_prop_id", -1, s1),(assign, reg0, ":scene_prop_id"),]),]),
+("0shared_flag_animated1_encountered_party", sokf_moveable, "flag_animated1", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(call_script, "script_cf_get_party_faction_flag_material", "$g_encountered_party"),(prop_instance_deform_in_cycle_loop, ":scene_prop_id", 0, 999, 50000),(prop_instance_set_material, ":scene_prop_id", -1, s1),(assign, reg0, ":scene_prop_id"),]),]),
 ("0shared_lantern1",0,"lantern1","0", []),
 
 ("0interior_dresser1",0,"interior_dresser1","bo_interior_dresser1", []),
@@ -4069,6 +4069,14 @@ scene_props = [
 ("0interior_restaurant_table2",0,"interior_restaurant_table2","bo_interior_restaurant_table1", []),
 
 ("0town_street_pole1",0,"street_pole1","0", []),
+("0town_street_pole_chain1",0,"street_pole_chain1","0", []),
+("0town_bench1",0,"bench1","bo_bench1", []),
+("0interior_armchair1",0,"interior_armchair1","bo_interior_armchair2", []),
+("0interior_armchair2",0,"interior_armchair2","bo_interior_armchair2", []),
+("0interior_armchair1_ottoman",0,"interior_armchair1_ottoman","bo_interior_armchair1_ottoman", []),
+("0office_cabinet1",0,"office_cabinet1","bo_office_cabinet1", []),
+("0office_desk4",0,"office_desk4","bo_office_desk4", []),
+
 
 ]
 
