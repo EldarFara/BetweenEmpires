@@ -12827,6 +12827,7 @@ game_menus = [
     [
       ("continue",[],"Continue...",
        [
+        (change_screen_return),
          (start_presentation, "prsnt_name_kingdom"),
         ]),
      ]
