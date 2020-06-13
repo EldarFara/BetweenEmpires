@@ -4310,8 +4310,6 @@ scenes = [
 [],[],"outer_terrain_plain"),
 ("town_european_center",sf_generate,"none", "none",(0,0),(100,100),-100,"0x000000003002498000035cd50000104100005e940000147b",
 [],[],"outer_terrain_plain"),
-# ("town_european_hq",sf_indoors,"Rus_Town_Lord_Interier_8", "bo_Rus_Town_Lord_Interier_8", (-100,-100),(100,100),-100,"0",
-# ["exit"],["town_2_seneschal"]),
 ("town_european_hq",sf_generate,"none", "none", (0,0),(100,100),-100,"0x0000000230079732000651a00000044c0000177200000234",
 [],[],"outer_terrain_plain"),
 ("village_european",sf_generate,"none", "none", (0,0),(100,100),-100,"0x0000000230079732000651a00000044c0000177200000234",
