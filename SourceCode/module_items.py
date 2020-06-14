@@ -1370,7 +1370,7 @@ items = [
 ["court_dress4","Court Dress", [("court_dress4", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, []],
 ["rural_dress1","Rural Dress", [("rural_dress1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, []],
 ["rural_dress2","Rural Dress", [("rural_dress2", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, []],
-["urban_dress1","Urban Dress", [("urban_dress1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, []],
+["urban_dress1","Urban Dress", [("urban_dress1b", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, []],
 ["urban_dress2","Urban Dress", [("urban_dress2", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, []],
 ["urban_dress3","Urban Dress", [("urban_dress3", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, []],
 ["urban_dress4","Urban Dress", [("urban_dress4", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, []],
@@ -2115,6 +2115,9 @@ items = [
 ["shotgun_greener","Greener Shotgun", [("greener", 0),("greener_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,price_pistol_low, weight(3.7)|abundance(80)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_conversion_rifle+10)|shoot_speed(shotgun_muzzle_velocity)|max_ammo(1)|thrust_damage(damage_shotgun+15, pierce), imodbits_firearm, 
 [(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 90, 650, pos10, "itm_shotgun_greener", ":agent"),])]],
 ["shotgun_greener_m","Greener Shotgun", [("greener", 0)], itp_type_polearm|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(3.7)|hit_points(18432)|spd_rtng(75)|weapon_length(100)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],
+
+["urban_dress1_trousers","Skirt", [("urban_dress1b_trousers", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, []],
+["hat_afab1","Hat", [("hat_afab1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],

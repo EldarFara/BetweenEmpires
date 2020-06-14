@@ -1,4 +1,4 @@
-932
+931
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -548,7 +548,6 @@ qstr_G.B. G.B.
 qstr_H.B. H.B.
 qstr_Cannot_form_square:_t Cannot_form_square:_too_few_soldiers_(need_at_least_25).
 qstr_{s1} {s1}
-qstr_1 1
 qstr_day day
 qstr_cloud1 cloud1
 qstr_cloud2 cloud2

@@ -1299,4 +1299,6 @@ itm_shotgun_winchester_m1887 = 1297
 itm_shotgun_winchester_m1887_m = 1298
 itm_shotgun_greener = 1299
 itm_shotgun_greener_m = 1300
-itm_items_end = 1301
+itm_urban_dress1_trousers = 1301
+itm_hat_afab1 = 1302
+itm_items_end = 1303
