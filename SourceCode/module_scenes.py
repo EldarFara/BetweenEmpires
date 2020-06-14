@@ -4312,6 +4312,8 @@ scenes = [
 [],[],"outer_terrain_plain"),
 ("town_european_hq",sf_generate,"none", "none", (0,0),(100,100),-100,"0x0000000230079732000651a00000044c0000177200000234",
 [],[],"outer_terrain_plain"),
+("town_european_tavern",sf_indoors,"Rus_Taverna_Interier_H", "bo_Rus_Taverna_Interier_H", (-100,-100),(100,100),-100,"0",
+["exit"],[]),
 ("village_european",sf_generate,"none", "none", (0,0),(100,100),-100,"0x0000000230079732000651a00000044c0000177200000234",
 [],[],"outer_terrain_plain"),
 

@@ -1,5 +1,5 @@
 scenesfile version 1
- 2043
+ 2044
 scn_random_scene random_scene 1792 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x0000000239600563000ad6b500003efe00004b3400002a5b 
   0 
   0 
@@ -8168,6 +8168,10 @@ scn_town_european_hq town_european_hq 256 none none 0.000000 0.000000 100.000000
   0 
   0 
  outer_terrain_plain 
+scn_town_european_tavern town_european_tavern 1 Rus_Taverna_Interier_H bo_Rus_Taverna_Interier_H -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
+  1  100000 
+  0 
+ 0 
 scn_village_european village_european 256 none none 0.000000 0.000000 100.000000 100.000000 -100.000000 0x0000000230079732000651a00000044c0000177200000234 
   0 
   0 
