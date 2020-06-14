@@ -39,7 +39,7 @@ def density(g):
 
 
 fauna_kinds = [
-("grass",fkf_grass|fkf_on_green_ground|fkf_guarantee|fkf_align_with_ground|fkf_point_up|fkf_plain|fkf_plain_forest|fkf_steppe|fkf_steppe_forest|density(1000),[["grass1","0"],["grass2","0"],["grass3","0"],["grass4","0"],["grass5","0"]]),
+("grass",fkf_grass|fkf_guarantee|fkf_align_with_ground|fkf_point_up|fkf_plain|fkf_plain_forest|fkf_steppe|fkf_steppe_forest|density(1000),[["grass1","0"],["grass2","0"],["grass3","0"],["grass4","0"],["grass5","0"]]),
 ("bush1",fkf_plain|fkf_plain_forest|fkf_steppe|fkf_steppe_forest|density(0),[["bush1","0"]]),
 ("bush2",fkf_plain|fkf_plain_forest|fkf_steppe|fkf_steppe_forest|density(0),[["bush2","0"]]),
 ("bush3",fkf_plain|fkf_plain_forest|fkf_steppe|fkf_steppe_forest|density(0),[["bush3_1","0"], ["bush3_2","0"], ["bush3_3","0"], ["bush3_4","0"], ["bush3_5","0"], ["bush3_6","0"], ["bush3_7","0"]]),
