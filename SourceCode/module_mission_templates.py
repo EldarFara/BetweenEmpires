@@ -6239,6 +6239,15 @@ mission_templates = [
      (31,mtef_visitor_source,af_override_horse,0,1,[]),
      ],     
      [
+      (0, 0, ti_once, [], 
+      [
+        (store_current_scene, ":cur_scene"),
+		(eq, ":cur_scene", "scn_town_european_tavern"),
+        (party_get_slot, ":tavernkeeper", "$current_town", slot_town_tavernkeeper),
+		(entry_point_get_position, pos1, 9),
+		(set_spawn_position, pos1),
+		(spawn_agent, ":tavernkeeper"),
+      ]),
       (1, 0, ti_once, [], 
       [
         (store_current_scene, ":cur_scene"),

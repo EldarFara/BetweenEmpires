@@ -8785,8 +8785,6 @@ game_menus = [
                (mission_tpl_entry_set_override_flags, "mt_town_default", 0, af_override_all),
              (try_end),
              (party_get_slot, ":cur_scene", "$current_town", slot_town_tavern),
-             (party_get_slot, ":cur_tavernkeeper", "$current_town", slot_town_tavernkeeper),
-             (set_visitor, 9, ":cur_tavernkeeper"),
              (jump_to_scene, ":cur_scene"),
              (scene_set_slot, ":cur_scene", slot_scene_visited, 1),
 
