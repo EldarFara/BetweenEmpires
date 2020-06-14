@@ -4077,6 +4077,17 @@ scene_props = [
 ("0office_cabinet1",0,"office_cabinet1","bo_office_cabinet1", []),
 ("0office_desk4",0,"office_desk4","bo_office_desk4", []),
 
+("0interior_dishset1_napkin",0,"interior_dishset1_napkin","0", []),
+("0interior_dishset1_wineglass1",0,"interior_dishset1_wineglass1","0", []),
+("0interior_dishset1_bottle1",0,"interior_dishset1_bottle1","0", []),
+("0interior_dishset1_bottle2",0,"interior_dishset1_bottle2","0", []),
+("0interior_dishset1_plate",0,"interior_dishset1_plate","0", []),
+("0interior_dishset1_fork",0,"interior_dishset1_fork","0", []),
+("0interior_dishset1_knife",0,"interior_dishset1_knife","0", []),
+("0interior_dishset1_spoon",0,"interior_dishset1_spoon","0", []),
+("0interior_bar_counter1",0,"interior_bar_counter1","bo_interior_bar_counter1", []),
+("0office_chair1b",0,"office_chair1b","bo_office_chair1", []),
+
 
 ]
 
