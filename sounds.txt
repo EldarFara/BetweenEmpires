@@ -1,5 +1,5 @@
 soundsfile version 3
-1606
+1608
  drum_3.ogg 769
  tutorial_1.ogg 1793
  tutorial_2.ogg 1793
@@ -1606,7 +1606,9 @@ soundsfile version 3
  flag_animated1.wav 274
  shot_shotgun1_1.wav 4064
  shot_shotgun1_2.wav 4064
-346
+ ambience_interior1_left.wav 1562
+ ambience_interior1_right.wav 1562
+348
 snd_click 769 1 0 0 
 snd_tutorial_1 1793 1 1 0 
 snd_tutorial_2 1793 1 2 0 
@@ -1953,3 +1955,5 @@ snd_ambience_tree_birds5 2608 21 1582 0 1583 0 1584 0 1585 0 1586 0 1587 0 1588 
 snd_ambience_tree_birds_end 3632 0 
 snd_flag_animated1 274 1 1603 0 
 snd_shot_shotgun1 4064 2 1604 0 1605 0 
+snd_ambience_interior1_left 1562 1 1606 0 
+snd_ambience_interior1_right 1562 1 1607 0 

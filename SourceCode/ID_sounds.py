@@ -344,5 +344,7 @@ snd_ambience_tree_birds5 = 342
 snd_ambience_tree_birds_end = 343
 snd_flag_animated1 = 344
 snd_shot_shotgun1 = 345
+snd_ambience_interior1_left = 346
+snd_ambience_interior1_right = 347
 
 

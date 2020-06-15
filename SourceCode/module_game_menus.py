@@ -556,7 +556,6 @@ game_menus = [
 	 ],"View your faction military technologies.",
        [
            (start_presentation, "prsnt_faction_technologies"),
-		   #(start_presentation, "prsnt_faction_selection"),
         ]
        ),
 	   
@@ -14670,6 +14669,35 @@ game_menus = [
        ]),
     ]
   ),
+  
+  (
+    "tech_invented",0,
+    "Your faction has researched {s1}!^^^{s2}",
+    "bg3",
+    [
+		(try_begin),
+		(eq, reg21, 11111),
+         (change_screen_return),
+		(try_end),
+	(assign, ":current_research_technology", reg20),
+	(assign, ":string_name", "str_faction_technology_earlyshells_name"),
+	(assign, ":string_description", "str_faction_technology_earlyshells_description"),
+	(store_sub, ":slot_number", ":current_research_technology", slot_faction_technology_earlyshells),
+	(val_add, ":string_name", ":slot_number"), (val_add, ":string_name", ":slot_number"),
+	(val_add, ":string_description", ":slot_number"), (val_add, ":string_description", ":slot_number"),
+	(str_store_string, s1, ":string_name"),
+	(str_store_string, s2, ":string_description"),
+	],
+    [
+	("to_the_tech_menu", [],"To technologies menu",
+       [
+        (start_presentation, "prsnt_faction_technologies"),
+        ]),
+	("close", [],"Close",
+       [
+        (change_screen_return),
+        ]),
+	]),
 
   
  ]

@@ -221,3 +221,4 @@ menu_change_game_speed = 219
 menu_cannoneers_store = 220
 menu_start_game_start_as_leader = 221
 menu_start_game_choose_as_who_to_start = 222
+menu_tech_invented = 223

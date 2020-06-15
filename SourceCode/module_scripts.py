@@ -57674,6 +57674,16 @@ scripts = [
 (neq, ":item", "itm_rifle_french_tabatiere_carbine"),
 (neq, ":item", "itm_rifle_french_chassepot_carbine"),
 (neq, ":item", "itm_rifle_french_lebel_carbine"),
+(neq, ":item", "itm_rifle_spencer"),
+(neq, ":item", "itm_rifle_spencer_carbine"),
+(neq, ":item", "itm_rifle_winchester_lee"),
+(neq, ":item", "itm_rifle_winchester_m1895"),
+(neq, ":item", "itm_rifle_winchester_m1894"),
+(neq, ":item", "itm_rifle_winchester_m1892"),
+(neq, ":item", "itm_rifle_winchester_m1886"),
+(neq, ":item", "itm_rifle_winchester_m1876"),
+(item_get_slot, ":appearance_year", ":item", slot_item_appearance_year),
+(le, ":appearance_year", "$g_current_year"),
 ]),
 
 ]# modmerger_start version=201 type=2

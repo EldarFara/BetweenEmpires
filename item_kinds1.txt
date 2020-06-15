@@ -3511,11 +3511,11 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1845_carbine Russian_M1842_Carbine Russian_M1842_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6357001 6174031872 400 131082 4.750000 60 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_russian_m1845_carbine Russian_M1845_Carbine Russian_M1845_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6357001 6174031872 400 131082 4.750000 60 0 0 55 0 0 63 400 0 1 311 0
  0
 0
 
- itm_rifle_russian_m1845_carbine_m Russian_M1842_Carbine Russian_M1842_Carbine 1  russian_m1845_carbine 0  6553604 4222130824676096 0 0 4.750000 100 0 0 0 0 18432 75 0 80 0 532 530
+ itm_rifle_russian_m1845_carbine_m Russian_M1845_Carbine Russian_M1845_Carbine 1  russian_m1845_carbine 0  6553604 4222130824676096 0 0 4.750000 100 0 0 0 0 18432 75 0 80 0 532 530
  0
 0
 
