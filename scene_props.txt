@@ -1,5 +1,5 @@
 scene_propsfile version 1
- 1681
+ 1713
 spr_invalid_object 0 0 question_mark 0 0
 
 
@@ -4141,46 +4141,46 @@ spr_4_rhodok_town_house17 0 0 4_rhodok_town_house17 bo_rhodok_town_house17 0
 spr_4_rhodok_town_house18 0 0 4_rhodok_town_house18 bo_rhodok_town_house18 0
 
 
-spr_4_rhodok_town_house19 0 0 4_rhodok_town_house19 bo_rhodok_town_house19 0
+spr_4_rhodok_town_house19 0 0 4_rhodok_town_house19 bo_rhodok_town_house14 0
 
 
-spr_4_rhodok_town_house20 0 0 4_rhodok_town_house20 bo_rhodok_town_house20 0
+spr_4_rhodok_town_house20 0 0 4_rhodok_town_house20 bo_rhodok_town_house13 0
 
 
-spr_4_rhodok_town_house21 0 0 4_rhodok_town_house21 bo_rhodok_town_house21 0
+spr_4_rhodok_town_house21 0 0 4_rhodok_town_house21 bo_rhodok_town_house6 0
 
 
-spr_4_rhodok_town_house22 0 0 4_rhodok_town_house22 bo_rhodok_town_house22 0
+spr_4_rhodok_town_house22 0 0 4_rhodok_town_house22 bo_rhodok_town_house6 0
 
 
-spr_4_rhodok_town_house23 0 0 4_rhodok_town_house23 bo_rhodok_town_house23 0
+spr_4_rhodok_town_house23 0 0 4_rhodok_town_house23 bo_rhodok_town_house12 0
 
 
-spr_4_rhodok_town_house24 0 0 4_rhodok_town_house24 bo_rhodok_town_house24 0
+spr_4_rhodok_town_house24 0 0 4_rhodok_town_house24 bo_rhodok_town_house4 0
 
 
-spr_4_rhodok_town_house25 0 0 4_rhodok_town_house25 bo_rhodok_town_house25 0
+spr_4_rhodok_town_house25 0 0 4_rhodok_town_house25 bo_rhodok_town_house5 0
 
 
-spr_4_rhodok_town_house26 0 0 4_rhodok_town_house26 bo_rhodok_town_house26 0
+spr_4_rhodok_town_house26 0 0 4_rhodok_town_house26 bo_rhodok_town_house8 0
 
 
-spr_4_rhodok_town_house27 0 0 4_rhodok_town_house27 bo_rhodok_town_house27 0
+spr_4_rhodok_town_house27 0 0 4_rhodok_town_house27 bo_rhodok_town_house11 0
 
 
-spr_4_rhodok_town_house28 0 0 4_rhodok_town_house28 bo_rhodok_town_house28 0
+spr_4_rhodok_town_house28 0 0 4_rhodok_town_house28 bo_rhodok_town_house9 0
 
 
-spr_4_rhodok_town_house29 0 0 4_rhodok_town_house29 bo_rhodok_town_house29 0
+spr_4_rhodok_town_house29 0 0 4_rhodok_town_house29 bo_rhodok_town_house9 0
 
 
-spr_4_rhodok_town_house30 0 0 4_rhodok_town_house30 bo_rhodok_town_house30 0
+spr_4_rhodok_town_house30 0 0 4_rhodok_town_house30 bo_rhodok_town_house15 0
 
 
-spr_4_rhodok_town_house31 0 0 4_rhodok_town_house31 bo_rhodok_town_house31 0
+spr_4_rhodok_town_house31 0 0 4_rhodok_town_house31 bo_rhodok_town_house16 0
 
 
-spr_4_rhodok_town_house32 0 0 4_rhodok_town_house32 bo_rhodok_town_house32 0
+spr_4_rhodok_town_house32 0 0 4_rhodok_town_house32 bo_rhodok_town_house5 0
 
 
 spr_3_road_city_straight 0 0 road_city_straight bo_road_city_straight 0
@@ -5192,5 +5192,101 @@ spr_0interior_bar_counter1 0 0 interior_bar_counter1 bo_interior_bar_counter1 0
 
 
 spr_0office_chair1b 0 0 office_chair1b bo_office_chair1 0
+
+
+spr_0town_house_europe_brick1 0 0 4_rhodok_town_house_brick1 bo_rhodok_town_house1 0
+
+
+spr_0town_house_europe_brick2 0 0 4_rhodok_town_house_brick2 bo_rhodok_town_house2 0
+
+
+spr_0town_house_europe_brick3 0 0 4_rhodok_town_house_brick3 bo_rhodok_town_house3 0
+
+
+spr_0town_house_europe_brick4 0 0 4_rhodok_town_house_brick4 bo_rhodok_town_house4 0
+
+
+spr_0town_house_europe_brick5 0 0 4_rhodok_town_house_brick5 bo_rhodok_town_house5 0
+
+
+spr_0town_house_europe_brick6 0 0 4_rhodok_town_house_brick6 bo_rhodok_town_house6 0
+
+
+spr_0town_house_europe_brick7 0 0 4_rhodok_town_house_brick7 bo_rhodok_town_house7 0
+
+
+spr_0town_house_europe_brick8 0 0 4_rhodok_town_house_brick8 bo_rhodok_town_house8 0
+
+
+spr_0town_house_europe_brick9 0 0 4_rhodok_town_house_brick9 bo_rhodok_town_house9 0
+
+
+spr_0town_house_europe_brick10 0 0 4_rhodok_town_house_brick10 bo_rhodok_town_house10 0
+
+
+spr_0town_house_europe_brick11 0 0 4_rhodok_town_house_brick11 bo_rhodok_town_house11 0
+
+
+spr_0town_house_europe_brick12 0 0 4_rhodok_town_house_brick12 bo_rhodok_town_house12 0
+
+
+spr_0town_house_europe_brick13 0 0 4_rhodok_town_house_brick13 bo_rhodok_town_house13 0
+
+
+spr_0town_house_europe_brick14 0 0 4_rhodok_town_house_brick14 bo_rhodok_town_house14 0
+
+
+spr_0town_house_europe_brick15 0 0 4_rhodok_town_house_brick15 bo_rhodok_town_house15 0
+
+
+spr_0town_house_europe_brick16 0 0 4_rhodok_town_house_brick16 bo_rhodok_town_house16 0
+
+
+spr_0town_house_europe_brick17 0 0 4_rhodok_town_house_brick17 bo_rhodok_town_house17 0
+
+
+spr_0town_house_europe_brick18 0 0 4_rhodok_town_house_brick18 bo_rhodok_town_house18 0
+
+
+spr_0town_house_europe_brick19 0 0 4_rhodok_town_house_brick19 bo_rhodok_town_house14 0
+
+
+spr_0town_house_europe_brick20 0 0 4_rhodok_town_house_brick20 bo_rhodok_town_house13 0
+
+
+spr_0town_house_europe_brick21 0 0 4_rhodok_town_house_brick21 bo_rhodok_town_house6 0
+
+
+spr_0town_house_europe_brick22 0 0 4_rhodok_town_house_brick22 bo_rhodok_town_house6 0
+
+
+spr_0town_house_europe_brick23 0 0 4_rhodok_town_house_brick23 bo_rhodok_town_house12 0
+
+
+spr_0town_house_europe_brick24 0 0 4_rhodok_town_house_brick24 bo_rhodok_town_house4 0
+
+
+spr_0town_house_europe_brick25 0 0 4_rhodok_town_house_brick25 bo_rhodok_town_house5 0
+
+
+spr_0town_house_europe_brick26 0 0 4_rhodok_town_house_brick26 bo_rhodok_town_house8 0
+
+
+spr_0town_house_europe_brick27 0 0 4_rhodok_town_house_brick27 bo_rhodok_town_house11 0
+
+
+spr_0town_house_europe_brick28 0 0 4_rhodok_town_house_brick28 bo_rhodok_town_house9 0
+
+
+spr_0town_house_europe_brick29 0 0 4_rhodok_town_house_brick29 bo_rhodok_town_house9 0
+
+
+spr_0town_house_europe_brick30 0 0 4_rhodok_town_house_brick30 bo_rhodok_town_house15 0
+
+
+spr_0town_house_europe_brick31 0 0 4_rhodok_town_house_brick31 bo_rhodok_town_house16 0
+
+
+spr_0town_house_europe_brick32 0 0 4_rhodok_town_house_brick32 bo_rhodok_town_house5 0
 
 
