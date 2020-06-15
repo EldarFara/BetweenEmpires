@@ -2776,7 +2776,7 @@ simple_triggers = [
     ]),
     
   # Spawn some bandits.
-  (12,
+  (8,
    [
        (call_script, "script_spawn_bandits"),
     ]),

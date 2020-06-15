@@ -35579,7 +35579,7 @@ scripts = [
      (try_end),
      (try_begin),
        (store_num_parties_of_template, ":num_parties", "pt_deserters"),
-       (lt,":num_parties",50),
+       (lt,":num_parties",70),
        (set_spawn_radius, 4),
        (try_for_range, ":troop_no", active_npcs_begin, active_npcs_end),
 	     (troop_slot_eq, ":troop_no", slot_troop_occupation, slto_kingdom_hero),

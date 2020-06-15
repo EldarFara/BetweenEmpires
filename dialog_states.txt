@@ -940,7 +940,10 @@ deserter_paid_talk
 deserter_paid_talk_2a
 deserter_paid_talk_2b
 deserter_talk
+deserter_buy_proposal_0
 deserter_barter
+deserter_buy_proposal
+deserter_buy_proposal_price_named
 deserter_barter_2
 deserter_barter_3a
 deserter_barter_3b

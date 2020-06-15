@@ -19743,23 +19743,29 @@ I suppose there are plenty of bounty hunters around to get the job done . . .", 
                     ], "We are the free brothers.\
  We will fight only for ourselves from now on.\
  Now give us your gold or taste our steel.", "deserter_talk",[]],
-##  [anyone|plyr,"deserter_talk", [(check_quest_active, "qst_bring_back_deserters"),
-##                                 (quest_get_slot, ":target_deserter_troop", "qst_bring_back_deserters", slot_quest_target_troop),
-##                                 (party_count_members_of_type, ":num_deserters", "$g_encountered_party",":target_deserter_troop"),
-##                                 (gt, ":num_deserters", 1)],
-##   "If you surrender to me now, you will rejoin the army of your kingdom without being punished. Otherwise you'll get a taste of my sword.", "deserter_join_as_prisoner",[]],
   [anyone|plyr,"deserter_talk", [], "When I'm done with you, you'll regret ever leaving your army.", "close_window",[]],
+  [anyone|plyr,"deserter_talk", [], "Join our ranks, or refuse and I will have you all cut down to the last man!", "deserter_buy_proposal_0",[]],
   [anyone|plyr,"deserter_talk", [], "There's no need to fight. I am ready to pay for free passage.", "deserter_barter",[]],
 
-##  [anyone,"deserter_join_as_prisoner", [(call_script, "script_party_calculate_strength", "p_main_party"),
-##                                        (assign, ":player_strength", reg0),
-##                                        (store_encountered_party,":encountered_party"),
-##                                        (call_script, "script_party_calculate_strength", ":encountered_party"),
-##                                        (assign, ":enemy_strength", reg0),
-##                                        (val_mul, ":enemy_strength", 2),
-##                                        (ge, ":player_strength", ":enemy_strength")],
-##   "All right we join you then.", "close_window",[(assign, "$g_enemy_surrenders", 1)]],
-##  [anyone,"deserter_join_as_prisoner", [], "TODO: We will never surrender!", "close_window",[(encounter_attack)]],
+  [anyone|plyr,"deserter_buy_proposal_0", [], "Rest your arms! Despite you being deserters, and by extension enemies of our people, I am willing to grant you one last chance at quarter. Join our ranks, or refuse and I will have you all cut down to the last man!", "deserter_buy_proposal",[]],
+  
+  [anyone,"deserter_buy_proposal", [
+  (store_encountered_party,":encountered_party"),
+  (call_script, "script_party_calculate_strength", ":encountered_party", 0),
+  (assign, reg5, reg0),
+  (val_mul, reg5, 32),
+  ], "Fine! We don't want to die or rot in prison, but how can we believe you? We want a guarantee! We want {reg5}, that should be enough to cover our debts. Else, we just can't go back, they'd gun us down like criminals.", "deserter_buy_proposal_price_named",[]],
+
+  [anyone|plyr,"deserter_buy_proposal_price_named", [
+  (store_troop_gold, ":money", "trp_player"),
+  (ge, ":money", reg5),
+  ], "Here, have your money. Now go fall in with the provost!", "close_window",[
+	(assign, "$g_leave_encounter", 1),
+	(party_join),
+	(call_script, "script_change_player_party_morale", -3),
+	(troop_remove_gold, "trp_player", reg5),
+  ]],
+  [anyone|plyr,"deserter_buy_proposal_price_named", [], "Maybe you don't deserve quarter, after all. I will have you all lined up and shot.", "close_window",[]],
 
   [anyone,"deserter_barter", [], "Good. You are clever. Now, having a look at your baggage, I reckon a fellow like you could pretty easily afford {reg5} pounds. We wouldn't want to be too greedy, now would we? Pay us, and then you can go.", "deserter_barter_2",[
     (store_troop_gold, ":total_value", "trp_player"),
@@ -19773,13 +19779,13 @@ I suppose there are plenty of bounty hunters around to get the job done . . .", 
            (val_add, ":total_value", ":item_value"),
          (try_end),
     (try_end),
-    (store_div, "$g_tribute_amount", ":total_value", 10), #10000 gold = excellent_target
+    (store_div, "$g_tribute_amount", ":total_value", 14), #10000 gold = excellent_target
     (val_max, "$g_tribute_amount", 10),
     (assign,reg(5),"$g_tribute_amount")]],
   [anyone|plyr,"deserter_barter_2", [(store_troop_gold,reg(2)),(ge,reg(2),"$g_tribute_amount"),(assign,reg(5),"$g_tribute_amount")],
    "All right here's your {reg5} pounds.", "deserter_barter_3a",[(troop_remove_gold, "trp_player","$g_tribute_amount")]],
   [anyone|plyr,"deserter_barter_2", [],
-   "I don't have that much money with me", "deserter_barter_3b",[]],
+   "I don't have that much money with me.", "deserter_barter_3b",[]],
   [anyone,"deserter_barter_3b", [],
    "Too bad. Then we'll have to sell you to the slavers.", "close_window",[]],
 
