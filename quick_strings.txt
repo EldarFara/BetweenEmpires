@@ -1,4 +1,4 @@
-931
+932
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -562,6 +562,7 @@ qstr_clouds4 clouds4
 qstr_evening evening
 qstr_night night
 qstr_dusk dusk
+qstr_Hotkeys:_U_to_access Hotkeys:_U_to_access_the_aerial_view_E_and_Q_to_turn_Shift_and_Control_to_control_your_height_~_tilde_(next_to_1)_to_make_your_troops_run._You_can_select_companies_either_by_clicking_on_the_units_on_screen,_or_by_selecting_them_in_the_UI_in_the_bottom_left_Use_your_right_mouse_button_to_place,_and_orientate_your_units.
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_running.
 qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_was_ {reg0}._Company_was_forced_to_retreat.
