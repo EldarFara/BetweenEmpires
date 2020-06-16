@@ -8606,7 +8606,6 @@ game_menus = [
         (party_slot_eq, "$current_town", slot_party_type, spt_town),
         (this_or_next|eq,"$entry_to_town_forbidden",0),
         (eq, "$sneaked_into_town",1),
-        (eq, "$cheat_mode",1),
       ],
       "Take a walk around the streets.",
        [

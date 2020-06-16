@@ -1194,7 +1194,7 @@ scripts = [
         #(party_set_slot,":town_no", slot_town_seneschal, ":cur_object_no"),
         (store_add, ":cur_object_no", "scn_town_1_center", ":offset"),
        # (party_set_slot,":town_no", slot_town_center, ":cur_object_no"),
-        (party_set_slot,":town_no", slot_town_center, "scn_town_european_center"),
+        (party_set_slot,":town_no", slot_town_center, "scn_town_london_center"),
         (store_add, ":cur_object_no", "scn_town_1_castle", ":offset"),
        # (party_set_slot,":town_no", slot_town_castle, ":cur_object_no"),
         (party_set_slot,":town_no", slot_town_castle, "scn_town_european_hq"),
@@ -1225,11 +1225,9 @@ scripts = [
         (store_add, ":cur_object_no", "trp_town_1_horse_merchant", ":offset"),
         (party_set_slot,":town_no", slot_town_horse_merchant, ":cur_object_no"),
         (store_add, ":cur_object_no", "scn_town_1_center", ":offset"),
-       # (party_set_slot,":town_no", slot_town_center, ":cur_object_no"),
-        (party_set_slot,":town_no", slot_town_center, "scn_town_european_center"),
         (party_set_slot,":town_no", slot_town_reinforcement_party_template, "pt_center_reinforcements"),
       (try_end),
-        (party_set_slot,"p_town_18", slot_town_center, "scn_town_london_center"),
+        (party_set_slot,"p_town_25", slot_town_center, "scn_town_european_center"),
 	  	  
 # Castles
       (try_for_range, ":castle_no", castles_begin, castles_end),
