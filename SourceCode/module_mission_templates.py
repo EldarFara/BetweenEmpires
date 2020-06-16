@@ -4320,7 +4320,7 @@ sound_man_death = (ti_on_agent_killed_or_wounded, 0, 0, [
 
 fgs_trees_ams = (ti_after_mission_start, 0, 0,[ #fgs - Flora Generating System
 	(try_begin),
-	(this_or_next|eq, "$g_battle_type", battle_type_siege),
+	(this_or_next|eq, "$g_battle_type", battle_type_fieldbattle),
 	(eq, "$g_battle_type", battle_type_siege),
 	(display_message, "@Hotkeys:\
 	U to access the aerial view\
