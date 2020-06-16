@@ -31157,6 +31157,8 @@ scripts = [
 	  (gt, ":item", 0),
 	  (agent_set_wielded_item, ":agent_no", ":item"),
         (agent_stop_sound, ":agent_no"),
+        (agent_set_animation, ":agent_no", "anim_YuriCancelAnimation", 0),
+        (agent_set_animation, ":agent_no", "anim_YuriCancelAnimation", 1),
       (try_end),
       (try_begin),
         (ge, ":stand_animation", 0),
@@ -56231,7 +56233,7 @@ scripts = [
 	(try_end),
 
 (faction_set_slot, "fac_kingdom_6", slot_faction_army_drill_level, army_drill_level_bad),
-(faction_set_slot, "fac_kingdom_9", slot_faction_army_drill_level, army_drill_level_bad),
+(faction_set_slot, "fac_kingdom_10", slot_faction_army_drill_level, army_drill_level_bad),
 (faction_set_slot, "fac_kingdom_12", slot_faction_army_drill_level, army_drill_level_bad),
 (faction_set_slot, "fac_kingdom_14", slot_faction_army_drill_level, army_drill_level_bad),
 (faction_set_slot, "fac_kingdom_15", slot_faction_army_drill_level, army_drill_level_bad),
