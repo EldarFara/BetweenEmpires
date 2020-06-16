@@ -2043,3 +2043,5 @@ scn_town_european_hq = 2041
 scn_town_european_tavern = 2042
 scn_village_european = 2043
 scn_town_london_center = 2044
+scn_town_european_center2 = 2045
+scn_village_european2 = 2046

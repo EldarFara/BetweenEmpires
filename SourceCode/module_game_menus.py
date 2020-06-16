@@ -14699,6 +14699,18 @@ game_menus = [
         ]),
 	]),
 
+  (
+    "welcome_to_be_mod",0,
+    "Welcome to Between Empires!^^Please take a moment to read this, it contains vital information.^^^In order to play the mod properly, you have to use our company system, which you can access in the pre-battle deployment menu, and our new command interface, which you can access via the U key during battles. Hotkeys are listed at the beginning of each battle, take a moment to memorize them.^The company system allows you to split your units into up to 9 infantry, cavalry, or artillery companies. In order for artillery to spawn, you need an artillery company.^^Furthermore, Between Empires includes a unique technology system. Said technology system can be accessed by the player via the reports menu, where it is listed under the technology menu. Certain technologies are required for others to unlock, and researching a technology takes two in-game years, (between 12 and 60 days, depending on your chosen game speed).^Researching technologies is vital for the survival of your nation, as the AI factions will also gain access to technologies as time progresses.^Some factions, such as Wurttemberg and Prussia, have already unlocked advanced armaments at game start and should be approached accordingly.",
+    "bg3",
+    [],
+    [
+	("close", [],"Close",
+       [
+        (change_screen_return),
+        ]),
+	]),
+
   
  ]
  

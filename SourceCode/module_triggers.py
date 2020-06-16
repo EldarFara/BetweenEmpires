@@ -32,7 +32,7 @@ num_merchandise_goods = 36
 
 triggers = [
 # Tutorial:
-  (0.1, 0, ti_once, [(map_free,0)], [(dialog_box,"str_tutorial_map1")]),
+  (0.1, 0, ti_once, [(map_free,0)], [(jump_to_menu,"mnu_welcome_to_be_mod")]),
 
 # Refresh Merchants
   (0.0, 0, 168.0, [],

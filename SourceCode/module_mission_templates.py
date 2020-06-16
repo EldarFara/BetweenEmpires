@@ -48,7 +48,7 @@ ammo_refill = (
 	(agent_is_human, ":agent"),
 	(agent_is_non_player, ":agent"),
 	(agent_get_ammo, ":ammo", ":agent", 1),
-	(eq, ":ammo", 0),
+	(le, ":ammo", 2),
 	(assign, ":bonus", 5),
 		(try_begin),
 		(call_script, "script_cf_if_agent_faction_invented_technology", ":agent", slot_faction_technology_ammoincrease),
@@ -59,6 +59,7 @@ ammo_refill = (
 	(store_random_in_range, ":random", 1, 501),
 	(le, ":random", ":bonus"),
 	(agent_get_wielded_item, ":item", ":agent", 0),
+	(gt, ":item", 0),
 	(item_get_max_ammo, ":max_ammo", ":item"),
 	(val_max, ":max_ammo", 3),
 	(agent_set_ammo, ":agent", "itm_ammo_rifle", ":max_ammo"),
@@ -773,6 +774,14 @@ ti_on_agent_hit, 0, 0, [],
 (this_or_next|eq,":item_id", "itm_rifle_german_dreyse"),
 (this_or_next|eq,":item_id", "itm_rifle_german_dreyse_carbine"),
 (this_or_next|eq,":item_id", "itm_rifle_german_m1871"),
+(this_or_next|eq, ":item_id", "itm_rifle_spanish_m1859"),
+(this_or_next|eq, ":item_id", "itm_rifle_spanish_m1865"),
+(this_or_next|eq, ":item_id", "itm_rifle_spanish_mauser"),
+(this_or_next|eq, ":item_id", "itm_rifle_rollingblock"),
+(this_or_next|eq, ":item_id", "itm_rifle_spanish_m1859_carbine"),
+(this_or_next|eq, ":item_id", "itm_rifle_spanish_m1865_carbine"),
+(this_or_next|eq, ":item_id", "itm_rifle_spanish_mauser_carbine"),
+(this_or_next|eq, ":item_id", "itm_rifle_rollingblock_carbine"),
 (this_or_next|eq,":item_id", "itm_rifle_german_m1871_carbine"),
 (this_or_next|eq,":item_id", "itm_rifle_austrian_m1867"),
 (this_or_next|eq,":item_id", "itm_rifle_austrian_m1867_carbine"),
@@ -3849,6 +3858,7 @@ pbs_agent_spawn = (ti_on_agent_spawn, 0, 0, [
 	(call_script, "script_cf_get_agent_faction_flag_material", ":agent"),
 	(call_script, "script_cf_random", 10),
 		(try_for_range, ":item", "itm_ccoop_new_items_end", "itm_items_end"),
+		(gt, ":item", 0),
 		(item_get_max_ammo, ":value", ":item"),
 		(gt, ":value", 0),
 		(agent_unequip_item, ":agent", ":item", 0),
@@ -4309,6 +4319,17 @@ sound_man_death = (ti_on_agent_killed_or_wounded, 0, 0, [
 ], [])
 
 fgs_trees_ams = (ti_after_mission_start, 0, 0,[ #fgs - Flora Generating System
+	(try_begin),
+	(this_or_next|eq, "$g_battle_type", battle_type_siege),
+	(eq, "$g_battle_type", battle_type_siege),
+	(display_message, "@Hotkeys:\
+	U to access the aerial view\
+	E and Q to turn\
+	Shift and Control to control your height\
+	~ tilde (next to 1) to make your troops run.\
+	You can select companies either by clicking on the units on screen, or by selecting them in the UI in the bottom left\
+	Use your right mouse button to place, and orientate your units."),
+	(try_end),
 (set_fixed_point_multiplier, 100),
 (store_current_scene, ":scene"),
 (this_or_next|eq, ":scene", "scn_random_scene_steppe"),
