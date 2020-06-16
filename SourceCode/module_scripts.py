@@ -57380,6 +57380,11 @@ scripts = [
 	(eq, "$character_gender", tf_male),
 	(troop_remove_item, "trp_player", "itm_baf_trousers4"),
 	(troop_add_item, "trp_player", "itm_baf_trousers1"),
+	(else_try),
+	(eq, ":orginal_faction", "fac_kingdom_9"),
+	(eq, "$character_gender", tf_male),
+	(troop_remove_item, "trp_player", "itm_baf_trousers4"),
+	(troop_add_item, "trp_player", "itm_edt_trousers5"),
 	(try_end),
 
 	(try_for_range, ":technology", slot_faction_technology_earlyshells, slot_faction_technology_riflesrifled+1),   
