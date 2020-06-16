@@ -1,5 +1,5 @@
 scene_propsfile version 1
- 1713
+ 1723
 spr_invalid_object 0 0 question_mark 0 0
 
 
@@ -5288,5 +5288,35 @@ spr_0town_house_europe_brick31 0 0 4_rhodok_town_house_brick31 bo_4_rhodok_town_
 
 
 spr_0town_house_europe_brick32 0 0 4_rhodok_town_house_brick32 bo_4_rhodok_town_house5 0
+
+
+spr_0town_tree_protector1 0 0 tree_protector1 bo_tree_protector1 0
+
+
+spr_0town_sewer1 0 0 sewer1 0 0
+
+
+spr_0town_awning1 0 0 awning1 bo_awning1 0
+
+
+spr_0town_awning1b 0 0 awning1b bo_awning1 0
+
+
+spr_0town_awning1c 0 0 awning1c bo_awning1 0
+
+
+spr_0town_awning1d 0 0 awning1d bo_awning1 0
+
+
+spr_0town_awning2 0 0 awning2 bo_awning2 0
+
+
+spr_0town_awning2b 0 0 awning2b bo_awning2 0
+
+
+spr_0town_awning2c 0 0 awning2c bo_awning2 0
+
+
+spr_0town_awning2d 0 0 awning2d bo_awning2 0
 
 
