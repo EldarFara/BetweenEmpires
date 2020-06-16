@@ -4121,6 +4121,18 @@ scene_props = [
 ("0town_house_europe_brick31",0,"4_rhodok_town_house_brick31","bo_4_rhodok_town_house16", []),
 ("0town_house_europe_brick32",0,"4_rhodok_town_house_brick32","bo_4_rhodok_town_house5", []),
 
+("0town_tree_protector1",0,"tree_protector1","bo_tree_protector1", []),
+("0town_sewer1",0,"sewer1","0", []),
+("0town_awning1",0,"awning1","bo_awning1", []),
+("0town_awning1b",0,"awning1b","bo_awning1", []),
+("0town_awning1c",0,"awning1c","bo_awning1", []),
+("0town_awning1d",0,"awning1d","bo_awning1", []),
+("0town_awning2",0,"awning2","bo_awning2", []),
+("0town_awning2b",0,"awning2b","bo_awning2", []),
+("0town_awning2c",0,"awning2c","bo_awning2", []),
+("0town_awning2d",0,"awning2d","bo_awning2", []),
+
+
 
 ]
 
