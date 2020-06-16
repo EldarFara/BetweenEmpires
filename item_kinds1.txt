@@ -5496,7 +5496,7 @@ itemsfile version 3
  49
 0
 
- itm_baf_trousers4 British_Military_Trousers British_Military_Trousers 1  baf_trousers4 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ itm_baf_trousers4 Skirt Skirt 1  baf_trousers4 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  49
 0

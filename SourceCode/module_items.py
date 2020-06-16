@@ -2088,7 +2088,7 @@ items = [
 ["baf_trousers1","British Military Trousers", [("baf_trousers1", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
 ["baf_trousers2","British Military Trousers", [("baf_trousers2", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
 ["baf_trousers3","British Military Trousers", [("baf_trousers3", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
-["baf_trousers4","British Military Trousers", [("baf_trousers4", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
+["baf_trousers4","Skirt", [("baf_trousers4", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
 ["baf_trousers5","British Military Trousers", [("baf_trousers5", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
 ["baf_trousers6","British Military Trousers", [("baf_trousers6", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
 ["baf_hat1","British Service Kepi", [("baf_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
