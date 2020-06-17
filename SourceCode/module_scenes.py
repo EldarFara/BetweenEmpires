@@ -4322,6 +4322,22 @@ scenes = [
 [],[],"outer_terrain_plain"),
 ("village_european2",sf_generate,"none", "none", (0,0),(100,100),-100,"0x0000000230079732000651a00000044c0000177200000234",
 [],[],"outer_terrain_plain"),
+("town_arab_center",sf_generate,"none", "none",(0,0),(100,100),-100,"0x00000002200005000005f57b00005885000046bd00006d9c",
+[],[],"outer_terrain_plain"),
+("town_indian_center",sf_generate,"none", "none",(0,0),(100,100),-100,"0x00000002200005000005f57b00005885000046bd00006d9c",
+[],[],"outer_terrain_plain"),
+("town_middleeast_center",sf_generate,"none", "none",(0,0),(100,100),-100,"0x00000002200005000005f57b00005885000046bd00006d9c",
+[],[],"outer_terrain_plain"),
+("town_turkish_center",sf_generate,"none", "none",(0,0),(100,100),-100,"0x00000002200005000005f57b00005885000046bd00006d9c",
+[],[],"outer_terrain_plain"),
+("village_arab",sf_generate,"none", "none", (0,0),(100,100),-100,"0x0000000230079732000651a00000044c0000177200000234",
+[],[],"outer_terrain_plain"),
+("village_indian",sf_generate,"none", "none", (0,0),(100,100),-100,"0x0000000230079732000651a00000044c0000177200000234",
+[],[],"outer_terrain_plain"),
+("village_turkish",sf_generate,"none", "none", (0,0),(100,100),-100,"0x0000000230079732000651a00000044c0000177200000234",
+[],[],"outer_terrain_plain"),
+("village_middleeast",sf_generate,"none", "none", (0,0),(100,100),-100,"0x0000000230079732000651a00000044c0000177200000234",
+[],[],"outer_terrain_plain"),
 
 ]
 
