@@ -1232,6 +1232,7 @@ current_fog_distance
 g_ambience_random3_1
 g_ambience_random4_1
 current_sky
+killed_agents_count
 async_calculate_company_average_coordinates_team
 async_calculate_company_average_coordinates_company
 aerial_view_state
@@ -1469,7 +1470,6 @@ g_multiplayer_ccoop_difficulty_string_i
 g_ccoop_king_troop
 scene_is_forest
 g_prison_cart_previous_point
-killed_agents_count
 current_wind
 current_clouds
 current_precipitation

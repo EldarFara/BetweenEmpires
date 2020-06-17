@@ -1,4 +1,4 @@
-933
+932
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -575,7 +575,6 @@ qstr_6th_{s1} 6th_{s1}
 qstr_7th_{s1} 7th_{s1}
 qstr_8th_{s1} 8th_{s1}
 qstr_You_got_keys_of_dung You_got_keys_of_dungeon.
-qstr_Watch_Yuru_Yuri. Watch_Yuru_Yuri.
 qstr_You_must_stay_behind You_must_stay_behind_the_line_on_the_ground!_Point_is_not_counted.
 qstr_Tutorial Tutorial
 qstr_{!}sending_prisoner_ {!}sending_prisoner_cart_6_feet_underground!

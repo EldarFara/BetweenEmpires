@@ -4087,10 +4087,10 @@ game_menus = [
        (eq, "$g_enemy_fit_for_battle", 0),
        (str_store_string, s11, "@You were victorious!"),
 		(try_begin),
-		#(ge, "$killed_agents_count", 80),
+		(ge, "$killed_agents_count", 80),
 		(music_set_situation, mtf_situation_victory_heavy),
-		#(else_try),
-		#(music_set_situation, mtf_situation_victory_light),
+		(else_try),
+		(music_set_situation, mtf_situation_victory_light),
 		(try_end),
 #       (play_track, "track_bogus"), #clear current track.
 #       (call_script, "script_music_set_situation_with_culture", mtf_sit_victorious),
