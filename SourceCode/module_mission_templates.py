@@ -139,6 +139,7 @@ pbs_enemy_cannoneers_retreat = (
 pbs_enemy_retreating_end_battle = (
 5, 1, 0, [
 (neq, "$g_battle_type", battle_type_siege),
+(neq, "$g_battle_type", battle_type_bandits_at_night),
 (assign, ":number_total", 0),
 (assign, ":number_retreating", 0),
 	(try_for_agents,":agent"),
@@ -3776,6 +3777,7 @@ pbs_agent_spawn = (ti_on_agent_spawn, 0, 0, [
 (agent_set_slot, ":agent", slot_agent_pbs_state, pbs_state_generic),
 (agent_set_slot, ":agent", slot_agent_can_crouch, 0),
 (agent_set_slot, ":agent", slot_agent_was_killed_or_knocked_down, 0),
+(agent_set_slot, ":agent",  slot_agent_is_running_away, 0),
 (agent_ai_set_can_crouch, ":agent", 0),
 	(try_begin),
 	(agent_is_ally, ":agent"),
@@ -6929,10 +6931,13 @@ mission_templates = [
          (agent_get_troop_id, ":troop_no", ":agent_no"),
          (neq, ":troop_no", "trp_player"),
          (agent_set_team, ":agent_no", 1),
-         (agent_set_division, ":agent_no", 8),
+		 (display_message, "@Watch Yuru Yuri."),
          ]),
 
-      (ti_before_mission_start, 0, 0, [], [(call_script, "script_change_banners_and_chest")]),
+      (ti_before_mission_start, 0, 0, [], [
+	  (call_script, "script_change_banners_and_chest"),
+	(assign, "$g_battle_type", battle_type_bandits_at_night),
+	  ]),
 
       common_inventory_not_available,
       

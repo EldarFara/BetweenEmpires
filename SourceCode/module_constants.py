@@ -28,9 +28,10 @@ ambience_sound_type_interior = 11
 
 maximum_amount_of_bandit_parties = 350
 
-battle_type_nobattle		= 0
-battle_type_fieldbattle 	= 1
-battle_type_siege			= 2
+battle_type_nobattle			= 0
+battle_type_fieldbattle 		= 1
+battle_type_siege				= 2
+battle_type_bandits_at_night	= 3
 
 army_drill_level_good = 0
 army_drill_level_bad = 1

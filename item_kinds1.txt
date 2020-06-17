@@ -3595,7 +3595,7 @@ itemsfile version 3
  0
 0
 
- itm_bow4 Composite_Bow Composite_Bow 2  strong_bow 0  strong_bow_case 3458764513820540928  6291464 5905584128 1000 655370 1.000000 100 0 0 80 4 0 140 55 0 0 276 0
+ itm_bow4 Composite_Bow Composite_Bow 2  nomad_bow 0  nomad_bow_case 3458764513820540928  6291464 5905584128 1000 655370 1.000000 100 0 0 80 4 0 140 55 0 0 276 0
  0
 0
 
