@@ -4009,7 +4009,7 @@ game_menus = [
   ),
 
   (
-    "battle_debrief",mnf_scale_picture|mnf_disable_all_keys,
+    "battle_debrief",mnf_disable_all_keys,
     "{s11}^^Your Casualties:{s8}{s10}^^Enemy Casualties:{s9}",
     "bg3",
     [
@@ -14534,7 +14534,7 @@ game_menus = [
     ]
   ),
 
-  ("start_game_start_as_leader",menu_text_color(0xFF000000)|mnf_disable_all_keys,
+  ("start_game_start_as_leader",menu_text_color(0xFF000000)|mnf_disable_all_keys, # parabellum DEPRECATED
     "Select a faction.",
     "bg3",
     [
