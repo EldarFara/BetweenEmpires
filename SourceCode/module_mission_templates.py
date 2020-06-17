@@ -4273,6 +4273,7 @@ sound_man_hit = (ti_on_agent_hit, 0, 0, [
 sound_man_death = (ti_on_agent_killed_or_wounded, 0, 0, [
 (store_trigger_param_1, ":dead_agent"),
 (store_trigger_param_2, ":Killer"),
+(val_add, "$killed_agents_count", 1),
 (agent_set_slot, ":dead_agent", slot_agent_was_killed_or_knocked_down, 1),
 (agent_is_human, ":dead_agent"),
 (agent_stop_sound, ":dead_agent"),
@@ -6931,7 +6932,6 @@ mission_templates = [
          (agent_get_troop_id, ":troop_no", ":agent_no"),
          (neq, ":troop_no", "trp_player"),
          (agent_set_team, ":agent_no", 1),
-		 (display_message, "@Watch Yuru Yuri."),
          ]),
 
       (ti_before_mission_start, 0, 0, [], [

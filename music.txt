@@ -1,4 +1,4 @@
-196
+198
 cant_find_this.ogg 0 0
 main_menu.ogg 4194432 4194432
 game_start1.ogg 1152 1664
@@ -80,10 +80,12 @@ battle_generic74.ogg 4096 4096
 battle_generic75.ogg 4096 4096
 battle_generic76.ogg 4096 4096
 battle_generic77.ogg 4096 4096
-victory_heavy01.ogg 278528 279040
-victory_heavy02.ogg 278528 279040
-victory_heavy03.ogg 278528 279040
-victory_heavy04.ogg 278528 279040
+victory_heavy01.ogg 262144 262656
+victory_heavy02.ogg 262144 262656
+victory_heavy03.ogg 262144 262656
+victory_heavy04.ogg 262144 262656
+victory_light01.ogg 16384 16896
+victory_light02.ogg 16384 16896
 globalmap_generic01.ogg 539 543
 globalmap_generic01b.ogg 539 543
 globalmap_generic02.ogg 539 543

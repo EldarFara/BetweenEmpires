@@ -1298,14 +1298,6 @@ slot_team_company8_type                       = 8
 
 slot_team_company_assignment_order_number     = 9
 
-slot_team_company1_discipline                       = 10
-slot_team_company2_discipline                       = 11
-slot_team_company3_discipline                       = 12
-slot_team_company4_discipline                       = 13
-slot_team_company5_discipline                       = 14
-slot_team_company6_discipline                       = 15
-slot_team_company7_discipline                       = 16
-slot_team_company8_discipline                       = 17
 slot_team_company1_energy                       = 18
 slot_team_company2_energy                       = 19
 slot_team_company3_energy                       = 20
@@ -1491,6 +1483,15 @@ slot_team_company8_penaltytodiscipline_fromcasualties                       = 19
 
 slot_team_artllery_ammo_shells_amount                    = 195
 slot_team_has_flagbearer                    = 196
+
+slot_team_company1_discipline                       = 197
+slot_team_company2_discipline                       = 198
+slot_team_company3_discipline                       = 199
+slot_team_company4_discipline                       = 200
+slot_team_company5_discipline                       = 201
+slot_team_company6_discipline                       = 202
+slot_team_company7_discipline                       = 203
+slot_team_company8_discipline                       = 204
 
 #Rebellion changes end
 # character backgrounds
