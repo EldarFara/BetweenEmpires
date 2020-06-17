@@ -6929,6 +6929,7 @@ mission_templates = [
          (agent_get_troop_id, ":troop_no", ":agent_no"),
          (neq, ":troop_no", "trp_player"),
          (agent_set_team, ":agent_no", 1),
+         (agent_set_division, ":agent_no", 8),
          ]),
 
       (ti_before_mission_start, 0, 0, [], [(call_script, "script_change_banners_and_chest")]),
