@@ -3483,7 +3483,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_spencer_carbine Spencer_Repeating_Carbine Spencer_Repeating_Carbine 2  spencer_repeating_carbine 0  spencer_repeating_carbine_inv 1152921504606846976  6357001 555929845760 800 131082 3.250000 100 0 0 80 0 0 29 650 0 7 301 0
+ itm_rifle_spencer_carbine Spencer_Repeating_Carbine Spencer_Repeating_Carbine 2  spencer_repeating_carbine 0  spencer_repeating_carbine_inv 1152921504606846976  543227913 555929845760 800 131082 3.250000 100 0 0 80 0 0 29 650 0 7 301 0
  0
 0
 
@@ -3511,7 +3511,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1845_carbine Russian_M1845_Carbine Russian_M1845_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6357001 6174031872 400 131082 4.750000 60 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_russian_m1845_carbine Russian_M1845_Carbine Russian_M1845_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 60 0 0 55 0 0 63 400 0 1 311 0
  0
 0
 
@@ -3527,7 +3527,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1856_carbine Russian_M1856_Carbine Russian_M1856_Carbine 2  russian_m1856_carbine 0  russian_m1856_carbine_inv 1152921504606846976  6357001 6174031872 400 131082 4.750000 60 0 0 80 0 0 63 600 0 1 311 0
+ itm_rifle_russian_m1856_carbine Russian_M1856_Carbine Russian_M1856_Carbine 2  russian_m1856_carbine 0  russian_m1856_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 60 0 0 80 0 0 63 600 0 1 311 0
  0
 0
 
@@ -3543,7 +3543,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1867_carbine Krnka_Carbine Krnka_Carbine 2  russian_m1867_carbine 0  russian_m1867_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 60 0 0 80 0 0 51 600 0 1 311 0
+ itm_rifle_russian_m1867_carbine Krnka_Carbine Krnka_Carbine 2  russian_m1867_carbine 0  russian_m1867_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 80 0 0 51 600 0 1 311 0
  0
 0
 
@@ -3559,7 +3559,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_berdan_carbine Berdan_Carbine Berdan_Carbine 2  berdan_carbine 0  berdan_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 60 0 0 85 0 0 59 650 0 1 311 0
+ itm_rifle_russian_berdan_carbine Berdan_Carbine Berdan_Carbine 2  berdan_carbine 0  berdan_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 85 0 0 59 650 0 1 311 0
  0
 0
 
@@ -3575,7 +3575,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_mosin_carbine Mosin-Nagant_Carbine Mosin-Nagant_Carbine 2  mosin_carbine 0  mosin_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_russian_mosin_carbine Mosin-Nagant_Carbine Mosin-Nagant_Carbine 2  mosin_carbine 0  mosin_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
  0
 0
 
@@ -3643,7 +3643,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1854_carbine Lorenz_Carbine Lorenz_Carbine 2  lorenz_carbine 0  russian_m1856_carbine_inv 1152921504606846976  6357001 6174031872 400 131082 4.750000 60 0 0 80 0 0 63 600 0 1 311 0
+ itm_rifle_austrian_m1854_carbine Lorenz_Carbine Lorenz_Carbine 2  lorenz_carbine 0  russian_m1856_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 60 0 0 80 0 0 63 600 0 1 311 0
  0
 0
 
@@ -3691,7 +3691,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1886_carbine Steyr_Mannlicher_M1886_Carbine Steyr_Mannlicher_M1886_Carbine 2  mosin_carbine 0  mosin_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_austrian_m1886_carbine Steyr_Mannlicher_M1886_Carbine Steyr_Mannlicher_M1886_Carbine 2  mosin_carbine 0  mosin_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
  0
 0
 
@@ -4594,7 +4594,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_dreyse_carbine Dreyse_Needle_Carbine Dreyse_Needle_Carbine 2  dreyse_carbine 0  dreyse_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 60 0 0 80 0 0 51 600 0 1 311 0
+ itm_rifle_german_dreyse_carbine Dreyse_Needle_Carbine Dreyse_Needle_Carbine 2  dreyse_carbine 0  dreyse_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 80 0 0 51 600 0 1 311 0
  0
 0
 
@@ -4610,7 +4610,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1871_carbine Mauser_M1871_Carbine Mauser_M1871_Carbine 2  mauser1871_carbine 0  mauser1871_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 60 0 0 85 0 0 59 650 0 1 311 0
+ itm_rifle_german_m1871_carbine Mauser_M1871_Carbine Mauser_M1871_Carbine 2  mauser1871_carbine 0  mauser1871_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 85 0 0 59 650 0 1 311 0
  0
 0
 
@@ -4626,7 +4626,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1888_carbine Gewehr_M1888_Carbine Gewehr_M1888_Carbine 2  gewehr88_carbine 0  gewehr88_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_german_m1888_carbine Gewehr_M1888_Carbine Gewehr_M1888_Carbine 2  gewehr88_carbine 0  gewehr88_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
  0
 0
 
@@ -4873,7 +4873,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_italian_vetterli_carbine Italian_Vetterli_M1870_Carbine Italian_Vetterli_M1870_Carbine 2  vetterli1870_carbine 0  vetterli1870_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 60 0 0 85 0 0 59 650 0 1 311 0
+ itm_rifle_italian_vetterli_carbine Italian_Vetterli_M1870_Carbine Italian_Vetterli_M1870_Carbine 2  vetterli1870_carbine 0  vetterli1870_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 85 0 0 59 650 0 1 311 0
  0
 0
 
@@ -4889,7 +4889,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_italian_vetterlivitali_carbine Vetterli-Vitali_M1887_Carbine Vetterli-Vitali_M1887_Carbine 2  vetterli1887_carbine 0  vetterli1887_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_italian_vetterlivitali_carbine Vetterli-Vitali_M1887_Carbine Vetterli-Vitali_M1887_Carbine 2  vetterli1887_carbine 0  vetterli1887_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
  0
 0
 
@@ -5226,7 +5226,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_british_m1853_carbine Pattern_1853_Enfield_Carbine Pattern_1853_Enfield_Carbine 2  enfield1853_carbine 0  enfield1853_carbine_inv 1152921504606846976  6357001 6174031872 400 131082 4.750000 60 0 0 80 0 0 63 600 0 1 311 0
+ itm_rifle_british_m1853_carbine Pattern_1853_Enfield_Carbine Pattern_1853_Enfield_Carbine 2  enfield1853_carbine 0  enfield1853_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 60 0 0 80 0 0 63 600 0 1 311 0
  0
 0
 
@@ -5242,7 +5242,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_british_snider_carbine Snider-Enfield_Carbine Snider-Enfield_Carbine 2  sniderenfield_carbine 0  sniderenfield_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 60 0 0 80 0 0 51 600 0 1 311 0
+ itm_rifle_british_snider_carbine Snider-Enfield_Carbine Snider-Enfield_Carbine 2  sniderenfield_carbine 0  sniderenfield_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 80 0 0 51 600 0 1 311 0
  0
 0
 
@@ -5258,7 +5258,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_british_martinihenry_carbine Martini-Henry_Carbine Martini-Henry_Carbine 2  martinihenry_carbine 0  martinihenry_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 60 0 0 85 0 0 59 650 0 1 311 0
+ itm_rifle_british_martinihenry_carbine Martini-Henry_Carbine Martini-Henry_Carbine 2  martinihenry_carbine 0  martinihenry_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 85 0 0 59 650 0 1 311 0
  0
 0
 
@@ -5274,7 +5274,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_british_metford_carbine Lee-Metford_Carbine Lee-Metford_Carbine 2  metford_carbine 0  metford_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 10 301 0
+ itm_rifle_british_metford_carbine Lee-Metford_Carbine Lee-Metford_Carbine 2  metford_carbine 0  metford_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 10 301 0
  0
 0
 
@@ -5306,7 +5306,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_french_m1849_carbine French_Minie_Carbine French_Minie_Carbine 2  lorenzb_carbine 0  lorenzb_carbine_inv 1152921504606846976  6357001 6174031872 400 131082 4.750000 100 0 0 80 0 0 63 600 0 1 311 0
+ itm_rifle_french_m1849_carbine French_Minie_Carbine French_Minie_Carbine 2  lorenzb_carbine 0  lorenzb_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 100 0 0 80 0 0 63 600 0 1 311 0
  0
 0
 
@@ -5338,7 +5338,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_french_chassepot_carbine Chassepot_M1866_Carbine Chassepot_M1866_Carbine 2  chassepot_carbine 0  chassepot_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 60 0 0 85 0 0 59 650 0 1 311 0
+ itm_rifle_french_chassepot_carbine Chassepot_M1866_Carbine Chassepot_M1866_Carbine 2  chassepot_carbine 0  chassepot_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 85 0 0 59 650 0 1 311 0
  0
 0
 
@@ -5354,7 +5354,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_french_lebel_carbine Lebel_M1886_Carbine Lebel_M1886_Carbine 2  lebel1886_carbine 0  lebel1886_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_french_lebel_carbine Lebel_M1886_Carbine Lebel_M1886_Carbine 2  lebel1886_carbine 0  lebel1886_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
  0
 0
 
@@ -5724,7 +5724,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_rollingblock_carbine Remington_Rolling_Block_Carbine Remington_Rolling_Block_Carbine 2  rrb_carbine 0  rrb_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 60 0 0 85 0 0 59 650 0 1 311 0
+ itm_rifle_rollingblock_carbine Remington_Rolling_Block_Carbine Remington_Rolling_Block_Carbine 2  rrb_carbine 0  rrb_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 85 0 0 59 650 0 1 311 0
  0
 0
 
