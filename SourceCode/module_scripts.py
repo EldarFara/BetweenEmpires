@@ -1127,9 +1127,9 @@ scripts = [
 	(call_script, "script_give_center_to_faction_aux", "p_village_191", "fac_kingdom_3"),
     (party_set_slot, "p_village_190", slot_village_bound_center, "p_castle_88"),
 	(call_script, "script_give_center_to_faction_aux", "p_village_190", "fac_kingdom_3"),
-    (party_set_slot, "p_village_169", slot_village_bound_center, "p_castle_102"),
+    (party_set_slot, "p_village_169", slot_village_bound_center, "p_town_68"),
 	(call_script, "script_give_center_to_faction_aux", "p_village_169", "fac_kingdom_28"),
-    (party_set_slot, "p_village_168", slot_village_bound_center, "p_castle_102"),
+    (party_set_slot, "p_village_168", slot_village_bound_center, "p_town_68"),
 	(call_script, "script_give_center_to_faction_aux", "p_village_168", "fac_kingdom_28"),
     (party_set_slot, "p_village_543", slot_village_bound_center, "p_castle_236"),
 	(call_script, "script_give_center_to_faction_aux", "p_village_543", "fac_kingdom_2"),
@@ -1579,7 +1579,7 @@ scripts = [
       (call_script, "script_give_center_to_faction_aux", "p_castle_99", "fac_kingdom_20"),
       (call_script, "script_give_center_to_faction_aux", "p_castle_100", "fac_kingdom_27"),
       (call_script, "script_give_center_to_faction_aux", "p_castle_101", "fac_kingdom_24"),
-      (call_script, "script_give_center_to_faction_aux", "p_castle_102", "fac_kingdom_28"),
+      (call_script, "script_give_center_to_faction_aux", "p_town_68", "fac_kingdom_28"),
       (call_script, "script_give_center_to_faction_aux", "p_castle_103", "fac_kingdom_6"),
       (call_script, "script_give_center_to_faction_aux", "p_castle_104", "fac_kingdom_23"),
       (call_script, "script_give_center_to_faction_aux", "p_castle_105", "fac_kingdom_23"),
@@ -1835,7 +1835,7 @@ scripts = [
 
       (call_script, "script_give_center_to_lord", "p_castle_101", "trp_knight_24_1", 0), #Biliya_Castle
       (call_script, "script_give_center_to_lord", "p_castle_100", "trp_knight_27_2", 0), #Biliya_Castle
-      (call_script, "script_give_center_to_lord", "p_castle_102", "trp_kingdom_28_lord", 0), #Biliya_Castle
+      (call_script, "script_give_center_to_lord", "p_town_68", "trp_kingdom_28_lord", 0), #Biliya_Castle
       (call_script, "script_give_center_to_lord", "p_castle_86", "trp_knight_25_1", 0), #Biliya_Castle
       (call_script, "script_give_center_to_lord", "p_castle_87", "trp_knight_25_2", 0), #Biliya_Castle
       (call_script, "script_give_center_to_lord", "p_castle_89", "trp_kingdom_26_lord", 0), #Biliya_Castle

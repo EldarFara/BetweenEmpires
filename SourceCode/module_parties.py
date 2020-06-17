@@ -160,6 +160,7 @@ parties = [
  ("town_65","Riga",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(257.88,-315.86),[], 225),
  ("town_66","Minsk",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(242.68,-251.57),[], 225),
  ("town_67","Nizhny_Novgorod",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-13.59,-329.12),[], 225),
+ ("town_68","Belgrade",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(276.55,-70.62),[],260),
  
 
 #   Aztaq_Castle       
@@ -298,7 +299,7 @@ parties = [
 #scot
  ("castle_101","Tripolis",icon_town7|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(247.25,68.30),[],260),
 #hospita
- ("castle_102","Belgrade",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(276.55,-70.62),[],260),#yifeng
+ ("castle_102","disabled",icon_castle1|pf_castle|pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(276.55,-70.62),[],260),#yifeng
 #ott
  ("castle_103","Pristine",icon_town2|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(282.90,-36.91),[],260),
 #egyp
