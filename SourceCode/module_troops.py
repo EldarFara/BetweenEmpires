@@ -344,7 +344,7 @@ troops = [
   [],
   str_7|agi_5|int_4|cha_4|level(1), wp(60), 0,0x0000000000000000000000000000000000000000001c00000000000000000000, 0x0000000cff00730b6db6db6db7fbffff00000000001efffe0000000000000000],
   ["farmer", "Farmer", "Farmers", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_commoners,
-  [itm_clothes_gala_male1_trousers, itm_clothes_rural_male1, itm_clothes_rural_male2, itm_clothes_adventurer_male1, itm_sidearm_colt_dragoon, itm_ammo_pistol],
+  [itm_clothes_gala_male1_trousers, itm_clothes_rural_male1, itm_clothes_rural_male2, itm_clothes_adventurer_male1, itm_rifle_british_m1842, itm_ammo_rifle],
   str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000800000001124000000020000000000000001c00800000000000000000, 0x0000000bff0052064deeffffffffffff00000000001efff90000000000000000],
   ["townsman", "Townsman", "Townsmen", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_commoners,
   [itm_clothes_rural_male2, itm_clothes_rural_male1, itm_clothes_adventurer_male1, itm_clothes_adventurer_male_trousers1, itm_clothes_urban_male_trousers3],
@@ -2252,7 +2252,7 @@ troops = [
   [itm_rural_dress1, itm_rural_dress2, itm_dress_shoes]+items_bandit_rifles,
   str_7|agi_5|int_4|cha_4|level(1), wp(45), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000001000000000000000000000000001c00000000000000000000, 0x00000003bf0030067ff7fbffefff6dff00000000001f6dbf0000000000000000],
   ["peasant_woman", "Peasant Woman", "Peasant Women", tf_female|tf_guarantee_armor, 0, 0, fac_commoners,
-  [itm_rural_dress1, itm_rural_dress2, itm_dress_shoes],
+  [itm_rural_dress1, itm_rural_dress2, itm_dress_shoes]+items_melee_civilian_rural,
   str_7|agi_5|int_4|cha_4|level(1), wp(40), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000001000000000000000000000000001c00000000000000000000, 0x00000003bf0030067ff7fbffefff6dff00000000001f6dbf0000000000000000],
   ["caravan_master", "Caravan Master", "Caravan Masters", tf_mounted|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_horse, 0, 0, fac_commoners,
   []+items_european_urban_clothing_male+items_melee_civilian_rural+items_bandit_rifles,
@@ -10815,15 +10815,15 @@ troops = [
     ## ZZ Custom Kingdom Troops begin
   ["kingdom_temp","Kingdom Temp","Kingdom Temps",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(4),wp(0),0,swadian_face_younger_1, swadian_face_middle_2],#420 #2
   ["kingdom_recruit","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(4),wp(0),0,swadian_face_younger_1, swadian_face_middle_2],#420 #2
-  ["kingdom_militia","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(9),wp(0),0,swadian_face_young_1, swadian_face_old_2],#525 #3
-  ["kingdom_footman","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(14),wp(0),0,swadian_face_young_1, swadian_face_old_2],#600 #10
-  ["kingdom_infantry","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(20),wp(0),0,swadian_face_middle_1, swadian_face_old_2],#740 #14
-  ["kingdom_sergeant","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(25),wp(0),0,swadian_face_middle_1, swadian_face_older_2],#900 #20
-  ["kingdom_skirmisher","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(14),wp(0),0,swadian_face_young_1, swadian_face_middle_2],#600 #10
-  ["kingdom_crossbowman","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(20),wp(0),0,swadian_face_young_1, swadian_face_old_2],#740 #14
-  ["kingdom_sharpshooter","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(25),wp(0),0,swadian_face_middle_1, swadian_face_older_2],#900 #20
-  ["kingdom_man_at_arms","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(20),wp(0),0,swadian_face_middle_1, swadian_face_old_2],#740 #14
-  ["kingdom_knight","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(25),wp(0),0,swadian_face_middle_1, swadian_face_older_2], #900 #20 
+  ["kingdom_militia","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(8),wp(0),0,swadian_face_young_1, swadian_face_old_2],#525 #3
+  ["kingdom_footman","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(12),wp(0),0,swadian_face_young_1, swadian_face_old_2],#600 #10
+  ["kingdom_infantry","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(16),wp(0),0,swadian_face_middle_1, swadian_face_old_2],#740 #14
+  ["kingdom_sergeant","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(20),wp(0),0,swadian_face_middle_1, swadian_face_older_2],#900 #20
+  ["kingdom_skirmisher","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(12),wp(0),0,swadian_face_young_1, swadian_face_middle_2],#600 #10
+  ["kingdom_crossbowman","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(16),wp(0),0,swadian_face_young_1, swadian_face_old_2],#740 #14
+  ["kingdom_sharpshooter","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(20),wp(0),0,swadian_face_middle_1, swadian_face_older_2],#900 #20
+  ["kingdom_man_at_arms","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(16),wp(0),0,swadian_face_middle_1, swadian_face_old_2],#740 #14
+  ["kingdom_knight","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(20),wp(0),0,swadian_face_middle_1, swadian_face_older_2], #900 #20 
 
   ["array_a","{!}temp_array_a","{!}temp_array_a",tf_hero|tf_inactive, 0,reserved,  fac_neutral,[],def_attrib|level(18),wp(60),knows_common, 0],
   ["array_b","{!}temp_array_b","{!}temp_array_b",tf_hero|tf_inactive, 0,reserved,  fac_neutral,[],def_attrib|level(18),wp(60),knows_common, 0],

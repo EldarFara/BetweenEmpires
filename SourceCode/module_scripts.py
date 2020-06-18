@@ -44674,6 +44674,8 @@ scripts = [
 	  (lt, ":hours_since_last_rest", 96),
 	  (eq, ":operation_in_progress", 0),
 	  
+	  (eq, 1, 2), # parabellum disabled
+	  
 	  (eq, ":faction_is_at_war", 1),
 	  (this_or_next|eq, ":troop_reputation", lrep_debauched),
 	  (eq, ":troop_reputation", lrep_quarrelsome),

@@ -6915,8 +6915,6 @@ game_menus = [
             (try_begin),
             #check whether enemy retreats
               (eq, "$g_battle_result", 1),
-  ##            (store_mul, ":min_enemy_str", "$g_enemy_fit_for_battle", 2),
-  ##            (lt, ":min_enemy_str", "$g_friend_fit_for_battle"),
               (assign, ":attackers_retreat", 1),
             (else_try),
               (eq, "$g_battle_result", 0),

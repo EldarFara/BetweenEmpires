@@ -14632,6 +14632,7 @@ presentations = [
 				(overlay_animate_to_size, reg0, 2000, pos1),
 			(else_try),
 			    (party_set_slot, "p_main_party", slot_party_prebattle_customized_deployment, 1),
+				(assign, "$g_siege_first_encounter", 1),
 			    (presentation_set_duration, 0),
 			(try_end),
 		(else_try), #Number Boxes
@@ -17046,7 +17047,7 @@ in total.^Company types: Line infantry, Guard."),
 			
 			(store_character_level,":skill_point","$temp_troop"),
 			(troop_set_slot,  "$temp_troop", slot_custom_troop_sp, ":skill_point"),			
-		    (store_mul,":weapon_point",":skill_point",40),
+		    (store_mul,":weapon_point",":skill_point", 5),
 			(troop_set_slot,  "$temp_troop", slot_custom_troop_wp, ":weapon_point"),				
 			(store_div,":attribute_point",":skill_point",3),
 			(troop_set_slot,  "$temp_troop", slot_custom_troop_ap, ":attribute_point"),			

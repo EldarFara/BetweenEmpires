@@ -39,6 +39,15 @@ from header_skills import *
 pilgrim_disguise = [itm_pilgrim_hood,itm_pilgrim_disguise,itm_practice_staff, itm_throwing_daggers]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
+player_accuracy_modifier = (
+1, 0, 0, [],
+[
+(get_player_agent_no, ":player"),
+(agent_is_active, ":player"),
+(agent_is_alive, ":player"),
+(agent_set_accuracy_modifier, ":player", 85),
+])
+
 ammo_refill = (
 1, 0, 0, [],
 [
@@ -4949,6 +4958,7 @@ pws_sky_bms = (ti_before_mission_start, 0, 0, [
 ], [])
 
 parabellum_script_set_battle = [
+player_accuracy_modifier,
 ammo_refill,
 flag_bearer,
 flag_bearer_drop,
