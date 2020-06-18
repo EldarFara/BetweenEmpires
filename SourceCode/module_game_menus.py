@@ -6963,6 +6963,22 @@ game_menus = [
         (assign, "$new_encounter", 0),
         ],
     [
+	  ("encounter_attack_deployment",
+      [
+        (eq, "$encountered_party_friendly", 0),
+        (neg|troop_is_wounded, "trp_player"),
+		
+		(call_script, "script_prebattle_calculate_battle_advantage_and_size"),
+		(assign, ":friend_count", reg1),
+		(assign, ":enemy_count", reg2),
+		(store_add, ":total_combatants", ":friend_count", ":enemy_count"),
+		(party_get_slot, ":battle_size", "p_main_party", slot_party_prebattle_battle_size),
+		(gt, ":total_combatants", ":battle_size"),
+      ],
+      "Change the troops deployment plan.",
+      [
+		(start_presentation, "prsnt_prebattle_custom_deployment"),
+      ]),
       ("siege_defender_join_battle",
        [
          (neg|troop_is_wounded, "trp_player"),

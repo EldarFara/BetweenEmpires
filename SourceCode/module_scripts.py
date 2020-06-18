@@ -1884,16 +1884,8 @@ scripts = [
       (try_end),
 	  	  
 	  #set territorial disputes/outstanding border issues 
-	  (party_set_slot, "p_castle_10", slot_center_ex_faction, "fac_kingdom_2"), #vaegirs claim nord-held alburq
-	  (party_set_slot, "p_castle_13", slot_center_ex_faction, "fac_kingdom_4"), #nords claim swadian-held kelredan
-	  (party_set_slot, "p_castle_15", slot_center_ex_faction, "fac_kingdom_1"), #swadians claim rhodok-held ergelon
-	  (party_set_slot, "p_castle_46", slot_center_ex_faction, "fac_kingdom_5"), #rhodoks claim sarranid-held weyyah
-	  (party_set_slot, "p_castle_40", slot_center_ex_faction, "fac_kingdom_6"), #sarranids claim khergit-held uhhun
-	  (party_set_slot, "p_town_11",   slot_center_ex_faction, "fac_kingdom_3"), #Khergits claim vaegir-held curaw
-	  
-	  #Swadians, being in the middle, will have additional claims on two of their neighhbors
-	  (party_set_slot, "p_castle_15", slot_center_ex_faction, "fac_kingdom_1"), #swadians claim vaegir-held tilbault
-	  (party_set_slot, "p_castle_22", slot_center_ex_faction, "fac_kingdom_1"), #swadians claim khergit-held unuzdaq	  	  	  	  
+	  (party_set_slot, "p_castle_151", slot_center_ex_faction, "fac_kingdom_5"),
+	  (party_set_slot, "p_town_8", slot_center_ex_faction, "fac_kingdom_4"),
 	  
       (call_script, "script_update_village_market_towns"),	  
 
@@ -52960,6 +52952,10 @@ scripts = [
         (this_or_next|eq,":item_id", "itm_rifle_german_m1831_rifle_carbine"),
         (this_or_next|eq,":item_id", "itm_rifle_italian_m1844"),
         (this_or_next|eq,":item_id", "itm_rifle_italian_m1844_carbine"),
+        (this_or_next|eq,":item_id", "itm_rifle_french_m1844"),
+        (this_or_next|eq,":item_id", "itm_rifle_french_m1844_carbine"),
+        (this_or_next|eq,":item_id", "itm_rifle_french_m1849"),
+        (this_or_next|eq,":item_id", "itm_rifle_french_m1849_carbine"),
         (this_or_next|eq,":item_id", "itm_rifle_spanish_m1859"),
         (this_or_next|eq,":item_id", "itm_rifle_spanish_m1859_carbine"),
         (this_or_next|eq,":item_id", "itm_rifle_spanish_m1865"),
@@ -52992,6 +52988,12 @@ scripts = [
         (this_or_next|eq,":item_id", "itm_shotgun_doublebarrel_short"),
         (this_or_next|eq,":item_id", "itm_shotgun_winchester_m1887"),
         (this_or_next|eq,":item_id", "itm_shotgun_greener"),
+        (this_or_next|eq,":item_id", "itm_rifle_french_tabatiere"),
+        (this_or_next|eq,":item_id", "itm_rifle_french_tabatiere_carbine"),
+        (this_or_next|eq,":item_id", "itm_rifle_french_chassepot"),
+        (this_or_next|eq,":item_id", "itm_rifle_french_chassepot_carbine"),
+        (this_or_next|eq,":item_id", "itm_rifle_french_lebel"),
+        (this_or_next|eq,":item_id", "itm_rifle_french_lebel_carbine"),
         (this_or_next|eq,":item_id", "itm_rifle_austrian_werndl"),
         (this_or_next|eq,":item_id", "itm_rifle_austrian_werndl_carbine"),
         (this_or_next|eq,":item_id", "itm_rifle_german_dreyse"),
@@ -53016,7 +53018,6 @@ scripts = [
         (this_or_next|eq,":item_id", "itm_rifle_italian_vetterli_carbine"),
         (this_or_next|eq,":item_id", "itm_rifle_russian_m1867_carbine"),
         (this_or_next|eq,":item_id", "itm_rifle_russian_m1867"),
-        (this_or_next|eq,":item_id", "itm_rifle_russian_m1867_carbine"),
         (this_or_next|eq,":item_id", "itm_rifle_sharps"),
         (this_or_next|eq,":item_id", "itm_rifle_henry"),
         (this_or_next|eq,":item_id", "itm_rifle_spencer"),
@@ -53084,6 +53085,17 @@ scripts = [
 	(try_begin), # Carbines
 	(this_or_next|eq,":item_id", "itm_rifle_russian_berdan_carbine"), 
 	(this_or_next|eq,":item_id", "itm_rifle_russian_m1867_carbine"), 
+	(this_or_next|eq,":item_id", "itm_rifle_french_chassepot_carbine"), 
+	(this_or_next|eq,":item_id", "itm_rifle_french_lebel_carbine"), 
+	(this_or_next|eq,":item_id", "itm_rifle_french_m1844_carbine"), 
+	(this_or_next|eq,":item_id", "itm_rifle_french_m1849_carbine"), 
+	(this_or_next|eq,":item_id", "itm_rifle_french_tabatiere_carbine"), 
+	(this_or_next|eq,":item_id", "itm_rifle_french_chassepot_carbine"), 
+	(this_or_next|eq,":item_id", "itm_rifle_british_metford_carbine"), 
+	(this_or_next|eq,":item_id", "itm_rifle_british_snider_carbine"), 
+	(this_or_next|eq,":item_id", "itm_rifle_british_martinihenry_carbine"), 
+	(this_or_next|eq,":item_id", "itm_rifle_british_m1853_carbine"), 
+	(this_or_next|eq,":item_id", "itm_rifle_british_m1842_carbine"), 
 	(this_or_next|eq,":item_id", "itm_rifle_german_dreyse_carbine"), 
 	(this_or_next|eq,":item_id", "itm_rifle_german_m1831_carbine"), 
 	(this_or_next|eq,":item_id", "itm_rifle_german_m1831_rifle_carbine"), 
@@ -53128,6 +53140,12 @@ scripts = [
 	(this_or_next|eq,":item_id", "itm_rifle_german_m1888_carbine"),
 	(this_or_next|eq,":item_id", "itm_rifle_austrian_m1886"),
 	(this_or_next|eq,":item_id", "itm_rifle_austrian_m1886_carbine"),
+	(this_or_next|eq,":item_id", "itm_rifle_french_lebel"),
+	(this_or_next|eq,":item_id", "itm_rifle_french_lebel_carbine"),
+	(this_or_next|eq,":item_id", "itm_rifle_spanish_mauser"),
+	(this_or_next|eq,":item_id", "itm_rifle_spanish_mauser_carbine"),
+	(this_or_next|eq,":item_id", "itm_rifle_british_metford"),
+	(this_or_next|eq,":item_id", "itm_rifle_british_metford_carbine"),
 	(this_or_next|eq,":item_id", "itm_rifle_italian_vetterlivitali"),
 	(eq,":item_id", "itm_rifle_italian_vetterlivitali_carbine"),
 	(assign, ":sound_id", "snd_shot_boltaction1"),

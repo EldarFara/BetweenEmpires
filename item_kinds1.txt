@@ -5346,7 +5346,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_french_lebel Lebel_M1886_Rifle Lebel_M1886_Rifle 2  lebel1886 0  lebel1886_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 301 0
+ itm_rifle_french_lebel Lebel_M1886_Rifle Lebel_M1886_Rifle 2  lebel1886 0  lebel1886_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 8 301 0
  0
 0
 
@@ -5354,7 +5354,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_french_lebel_carbine Lebel_M1886_Carbine Lebel_M1886_Carbine 2  lebel1886_carbine 0  lebel1886_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_french_lebel_carbine Lebel_M1886_Carbine Lebel_M1886_Carbine 2  lebel1886_carbine 0  lebel1886_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 8 301 0
  0
 0
 
