@@ -459,6 +459,7 @@ def save_statement_block(ofile,statement_name,can_fail_statement,statement_block
   if (len(local_vars) > 128):
 	  print "WARNING: Script uses more than 128 local wariables: " + str(statement_name) + "variables count:" + str(len(local_vars))
 
+
 def compile_global_vars(statement_block,variable_list, variable_uses):
   for statement in statement_block:
     compile_global_vars_in_statement(statement, variable_list, variable_uses)
