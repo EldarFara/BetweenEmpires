@@ -198,6 +198,15 @@ scripts = [
 (troop_set_slot, "trp_faction20_troop11", slot_troop_pbs_type, pbs_troop_type_cavmelee),
 (troop_set_slot, "trp_faction20_troop12", slot_troop_pbs_type, pbs_troop_type_cavranged),
 (troop_set_slot, "trp_faction20_troop13", slot_troop_pbs_type, pbs_troop_type_cavranged),
+(troop_set_slot, "trp_faction25_troop5", slot_troop_pbs_type, pbs_troop_type_light),
+(troop_set_slot, "trp_faction25_troop6", slot_troop_pbs_type, pbs_troop_type_light),
+(troop_set_slot, "trp_faction25_troop7", slot_troop_pbs_type, pbs_troop_type_light),
+(troop_set_slot, "trp_faction25_troop8", slot_troop_pbs_type, pbs_troop_type_guard),
+(troop_set_slot, "trp_faction25_troop9", slot_troop_pbs_type, pbs_troop_type_guard),
+(troop_set_slot, "trp_faction25_troop10", slot_troop_pbs_type, pbs_troop_type_cavmelee),
+(troop_set_slot, "trp_faction25_troop11", slot_troop_pbs_type, pbs_troop_type_cavmelee),
+(troop_set_slot, "trp_faction25_troop12", slot_troop_pbs_type, pbs_troop_type_cavranged),
+(troop_set_slot, "trp_faction25_troop13", slot_troop_pbs_type, pbs_troop_type_cavranged),
 (troop_set_slot, "trp_faction11_troop5", slot_troop_pbs_type, pbs_troop_type_light),
 (troop_set_slot, "trp_faction11_troop6", slot_troop_pbs_type, pbs_troop_type_light),
 (troop_set_slot, "trp_faction11_troop7", slot_troop_pbs_type, pbs_troop_type_light),
@@ -1540,7 +1549,7 @@ scripts = [
        # (party_set_slot,":town_no", slot_town_center, ":cur_object_no"),
 			(try_begin),
 			(store_faction_of_party, ":faction", ":town_no"),
-			(party_set_slot,":town_no", slot_town_center, "scn_town_london_center"),
+			(party_set_slot,":town_no", slot_town_center, "scn_town_european_center"),
 			(eq, ":faction", "fac_kingdom_6"),
 			(party_set_slot,":town_no", slot_town_center, "scn_town_turkish_center"),
 			(else_try),
@@ -1593,7 +1602,11 @@ scripts = [
         (store_add, ":cur_object_no", "scn_town_1_center", ":offset"),
         (party_set_slot,":town_no", slot_town_reinforcement_party_template, "pt_center_reinforcements"),
       (try_end),
-        (party_set_slot,"p_town_25", slot_town_center, "scn_town_european_center"),
+        (party_set_slot,"p_town_2", slot_town_center, "scn_town_london_center"),
+        (party_set_slot,"p_town_3", slot_town_center, "scn_town_london_center"),
+        (party_set_slot,"p_town_7", slot_town_center, "scn_town_london_center"),
+        (party_set_slot,"p_town_10", slot_town_center, "scn_town_london_center"),
+        (party_set_slot,"p_town_18", slot_town_center, "scn_town_london_center"),
 	  	  
 # Castles
       (try_for_range, ":castle_no", castles_begin, castles_end),
@@ -7090,7 +7103,10 @@ scripts = [
 		(troop_set_slot, ":cur_troop", slot_troop_occupation, slto_kingdom_hero),
 		(store_random_in_range, ":age", 50, 60),
 		(troop_set_slot, ":cur_troop", slot_troop_age, ":age"),
-		(eq, ":cur_troop", "trp_kingdom_5_lord"),
+	  (try_end),
+	  
+	  (try_begin),
+		(eq, ":cur_troop", "trp_kingdom_1_lord"),
 		(troop_set_slot, ":cur_troop", slot_troop_age, 47),	
 	  (try_end),
 	  	  
@@ -7152,7 +7168,7 @@ scripts = [
 			
 			(store_random_in_range, ":father", 0, 6), #six possible fathers
 			(val_add, ":father", ":ancestor_seed"),
-			(troop_set_slot, ":cur_troop", slot_troop_father, ":father"),
+			#(troop_set_slot, ":cur_troop", slot_troop_father, ":father"),
 			
 			#wife
 			(troop_set_slot, ":cur_troop", slot_troop_spouse, ":cur_lady"),
@@ -7239,7 +7255,7 @@ scripts = [
 		(else_try),	#Younger unmarried lords 
 			#age is father's minus 20 to 25
 			(store_sub, ":father", ":cur_troop", 12),
-			(troop_set_slot, ":cur_troop", slot_troop_father, ":father"),
+			#(troop_set_slot, ":cur_troop", slot_troop_father, ":father"),
 			(troop_get_slot, ":mother", ":father", slot_troop_spouse),
 			(troop_set_slot, ":cur_troop", slot_troop_mother, ":mother"),
 			
@@ -7276,8 +7292,6 @@ scripts = [
 		(troop_set_slot, ":cur_troop", slot_troop_occupation, slto_inactive_pretender),
 		(store_random_in_range, ":age", 25, 30),
 		(troop_set_slot, ":cur_troop", slot_troop_age, ":age"),
-		(eq, ":cur_troop", "trp_kingdom_5_pretender"),
-		(troop_set_slot, ":cur_troop", slot_troop_age, 45),		
 	  (try_end),
 	]),
 
@@ -15811,8 +15825,6 @@ scripts = [
 		(this_or_next|eq, ":item_no", "itm_rifle_german_m1888_carbine"),
 		(this_or_next|eq, ":item_no", "itm_rifle_spanish_mauser"),
 		(this_or_next|eq, ":item_no", "itm_rifle_spanish_mauser_carbine"),
-		(this_or_next|eq, ":item_no", "itm_rifle_french_lebel"),
-		(this_or_next|eq, ":item_no", "itm_rifle_french_lebel_carbine"),
 		(this_or_next|eq, ":item_no", "itm_rifle_russian_mosin_carbine"),
 		(eq, ":item_no", "itm_rifle_russian_mosin"),
 		(set_result_string, "@Bolt-action magazine rifle (5 rounds)"),
@@ -15822,6 +15834,11 @@ scripts = [
 		(this_or_next|eq, ":item_no", "itm_rifle_austrian_m1886"),
 		(eq, ":item_no", "itm_rifle_austrian_m1886_carbine"),
 		(set_result_string, "@Straight-pull bolt-action^magazine rifle (5 rounds)"),
+		(try_end),
+		(try_begin),
+		(this_or_next|eq, ":item_no", "itm_rifle_french_lebel"),
+		(eq, ":item_no", "itm_rifle_french_lebel_carbine"),
+		(set_result_string, "@Bolt-action magazine rifle (8 rounds)"),
 		(try_end),
 		(try_begin),
 		(this_or_next|eq, ":item_no", "itm_rifle_british_metford"),
@@ -23778,7 +23795,7 @@ scripts = [
         (try_end),           
 
         (troop_get_slot, ":renown", ":troop_no", slot_troop_renown),
-        (store_div, ":renown_xp_rounds", ":renown", 75),
+        (store_div, ":renown_xp_rounds", ":renown", 85),
         (val_add, ":xp_rounds", ":renown_xp_rounds"),
         (try_for_range, ":unused", 0, ":xp_rounds"),
           (call_script, "script_upgrade_hero_party", "$pout_party", 4000),
@@ -56735,6 +56752,8 @@ scripts = [
 (faction_set_slot, "fac_kingdom_18", slot_faction_wardrobe_end, "itm_dan_trousers_guard"),
 (faction_set_slot, "fac_kingdom_20", slot_faction_wardrobe_begin, "itm_baf_infantry1"),
 (faction_set_slot, "fac_kingdom_20", slot_faction_wardrobe_end, "itm_baf_hat5"),
+(faction_set_slot, "fac_kingdom_25", slot_faction_wardrobe_begin, "itm_far_infantry1"),
+(faction_set_slot, "fac_kingdom_25", slot_faction_wardrobe_end, "itm_far_hat6"),
 (faction_set_slot, "fac_kingdom_27", slot_faction_wardrobe_begin, "itm_wur_torso_infantry1"),
 (faction_set_slot, "fac_kingdom_27", slot_faction_wardrobe_end, "itm_wur_hat5"),
 (faction_set_slot, "fac_kingdom_28", slot_faction_wardrobe_begin, "itm_srb_hat2"),

@@ -2153,6 +2153,21 @@ items = [
 ["rifle_spanish_mauser_carbine","Mauser M1893 Rifle", [("g98", 0),("g98_inv", ixmesh_inventory)], itp_type_crossbow|itp_two_handed|itp_primary, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(60)|accuracy(int(accuracy_bolt_action_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_bolt_action_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_bolt_action_rifle)|max_ammo(5)|thrust_damage(damage_bolt_action_rifle, pierce), imodbits_firearm, []],
 ["rifle_spanish_mauser_carbine_m","Mauser M1893 Rifle", [("g98", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(20, blunt)|swing_damage(0, blunt), imodbits_none, []],
 
+["far_infantry1","Romanian Military Uniform", [("far_infantry1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
+["far_infantry2","Romanian Military Uniform", [("far_infantry2", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
+["far_infantry3","Romanian Military Uniform", [("far_infantry3", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
+["far_infantry4","Romanian Military Uniform", [("far_infantry4", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
+["far_cavalry1","Romanian Military Uniform", [("far_cavalry1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
+["far_cavalry2","Romanian Military Uniform", [("far_cavalry2", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
+["far_trousers1","Romanian Military Trousers", [("far_trousers1", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
+["far_trousers2","Romanian Military Trousers", [("far_trousers2", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
+["far_hat1","Romanian Shako", [("far_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_25]],
+["far_hat2","Romanian Shako", [("far_hat2", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_25]],
+["far_hat3","Romanian Shako", [("far_hat3", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_25]],
+["far_hat4","Romanian Shako", [("far_hat4", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_25]],
+["far_hat5","Romanian Shako", [("far_hat5", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_25]],
+["far_hat6","Romanian Shako", [("far_hat6", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_25]],
+
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 
