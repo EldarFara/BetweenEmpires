@@ -1244,6 +1244,8 @@ game_menus = [
         (assign,"$background_answer_3",cb3_warvet),
       (str_store_string,s14,"@{reg3?daughter:man}"),
       (str_store_string,s12,"@ "),
+	  
+	  
 	(jump_to_menu,"mnu_start_character_4"),
         ]),
       ("go_back",[],"Go back.",
@@ -2683,7 +2685,12 @@ game_menus = [
         ]
        ),
       ("camp_action",[],"Take an action.",
-       [(jump_to_menu, "mnu_camp_action"),
+       [
+           # (try_begin),  
+                # (call_script, "script_cf_if_faction_borders_a_faction_by_land", "fac_kingdom_1", ":cur_kingdom_2"),
+           # (try_end),  
+	   
+	   (jump_to_menu, "mnu_camp_action"),
         ]
        ),
       ("camp_wait_here",[],"Wait here for some time.",
@@ -2989,7 +2996,8 @@ game_menus = [
         ]
        ),
       ("change_game_speed",[(assign, reg0, "$g_game_speed"),],"Change game speed. (current speed - {reg0} days per year).",
-       [(jump_to_menu, "mnu_change_game_speed"),
+       [
+	   (jump_to_menu, "mnu_change_game_speed"),
         ]
        ),
       ("action_retire",[],"Retire from adventuring.",
@@ -5513,6 +5521,31 @@ game_menus = [
            ],
        "Besiege the {reg6?town:castle}.",
        [
+	(try_begin),
+	(assign, ":can_be_besieged_from_land", 0),
+	(call_script, "script_cf_if_center_borders_a_faction", "$g_encountered_party", "fac_player_supporters_faction"),
+	(assign, ":can_be_besieged_from_land", 1),
+(display_message, "@can_be_besieged_from_land"),
+	(try_end),
+	(try_begin),
+	(assign, ":can_be_besieged_from_sea", 0),
+	(party_slot_eq, "$g_encountered_party", slot_center_can_be_besieged_by_sea, 1),
+	(call_script, "script_cf_if_faction_has_access_to_sea", "fac_player_supporters_faction"),
+	(assign, ":can_be_besieged_from_sea", 1),
+(display_message, "@can_be_besieged_from_sea"),
+	(try_end),
+	(try_begin),
+	(neg|faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_inactive),
+	(eq, ":can_be_besieged_from_land", 0),
+	(eq, ":can_be_besieged_from_sea", 0),
+	(party_get_slot, ":closest_center1", "$g_encountered_party", slot_center_closest_center1), (party_get_slot, ":closest_center2", "$g_encountered_party", slot_center_closest_center2), (party_get_slot, ":closest_center3", "$g_encountered_party", slot_center_closest_center3),
+	(str_store_party_name_link, s60, ":closest_center1"), (str_store_party_name_link, s61, ":closest_center2"), (str_store_party_name_link, s62, ":closest_center3"),
+	(display_message, "@Cannot besiege: too far from any center of your faction (closest centers to this {reg6?town:castle} are {s60}, {s61} and {s62})."),
+	(try_end),
+(this_or_next|faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_inactive),
+(this_or_next|eq, ":can_be_besieged_from_land", 1),
+(eq, ":can_be_besieged_from_sea", 1),
+
 (music_set_situation, mtf_situation_siege_attacker_preparing),
          (assign,"$g_player_besiege_town","$g_encountered_party"),
          (store_relation, ":relation", "fac_player_supporters_faction", "$g_encountered_party_faction"),
@@ -8304,16 +8337,26 @@ game_menus = [
  
   (
     "town",mnf_enable_hot_keys|mnf_scale_picture,
-    "{s10} {s14}^{s11}{s12}{s13}",
+    "{s10} {s14}^{s11}^{s15}{s12}{s13}",
     "bg3",
     [    
+        (store_encountered_party, "$current_town"),
+        (try_begin),
+		 (str_clear, s15),
+        (str_store_party_name, s2, "$current_town"),
+	(party_get_slot, ":closest_center1", "$current_town", slot_center_closest_center1), (party_get_slot, ":closest_center2", "$current_town", slot_center_closest_center2), (party_get_slot, ":closest_center3", "$current_town", slot_center_closest_center3),
+	(str_store_party_name_link, s60, ":closest_center1"), (str_store_party_name_link, s61, ":closest_center2"), (str_store_party_name_link, s62, ":closest_center3"),
+		(party_slot_eq, "$current_town", slot_center_can_be_besieged_by_sea, 1),
+          (str_store_string,s15,"@The local road network connects {s2} to the cities of {s16}, {s17} and {s18}. This region has access to the sea."),
+        (else_try),
+          (str_store_string,s15,"@The local road network connects {s2} to the cities of {s16}, {s17} and {s18}."),
+        (try_end),
         (try_begin),
           (eq, "$sneaked_into_town", 1),
           (call_script, "script_music_set_situation_with_culture", mtf_sit_town_infiltrate),
         (else_try),
           (call_script, "script_music_set_situation_with_culture", mtf_sit_travel),
         (try_end),
-        (store_encountered_party, "$current_town"),
         (call_script, "script_update_center_recon_notes", "$current_town"),
         (assign, "$g_defending_against_siege", 0),
         (str_clear, s3),

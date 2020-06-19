@@ -1,4 +1,4 @@
-933
+940
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -221,7 +221,6 @@ qstr_Start_Game Start_Game
 qstr_Chosen_Faction:^{s1} Chosen_Faction:^{s1}
 qstr_vSeason vSeason
 qstr_{!}DEBUG_:_Completed {!}DEBUG_:_Completed_faction_troop_assignments,_cheat_mode:_{reg3}
-qstr_{!}DEBUG____initial_ {!}DEBUG_--_initial_war/peace_check_begins
 qstr_{!}DEBUG_:_Completed_ {!}DEBUG_:_Completed_political_events,_cheat_mode:_{reg3}
 qstr_{!}DEBUG_:_Assigned_ {!}DEBUG_:_Assigned_love_interests._Attraction_seed:_{reg3}
 qstr_{!}DEBUG_:_Located_k {!}DEBUG_:_Located_kingdom_ladies,_cheat_mode:_{reg3}
@@ -248,7 +247,9 @@ qstr_{s7}_and_{s8} {s7}_and_{s8}
 qstr_{!}{s7}_{s8} {!}{s7},_{s8}
 qstr_{s2}It_has_no_villag {s2}It_has_no_villages.^
 qstr_{s2}{reg0?Its_villag {s2}{reg0?Its_villages_are:Its_village_is}_{s8}.^
-qstr_{s2}Its_prosperity_i {s2}Its_prosperity_is:_{s50}
+qstr_{s63}_is_connected_t {s63}_is_connected_to_the_cities_of_{s60},_{s61}_and_{s62}_by_the_local_road_network._Region_of_this_center_has_access_to_a_seaport.
+qstr_{s63}_is_connected_to {s63}_is_connected_to_the_cities_of_{s60},_{s61}_and_{s62}_by_the_local_road_network.
+qstr_{s2}Its_prosperity_i {s2}Its_prosperity_is:_{s50}.^{s20}
 qstr_noone noone
 qstr_{s9}_and_{s10} {s9}_and_{s10}
 qstr_{!}{s9}_{s10} {!}{s9},_{s10}
@@ -549,6 +550,7 @@ qstr_G.B. G.B.
 qstr_H.B. H.B.
 qstr_Cannot_form_square:_t Cannot_form_square:_too_few_soldiers_(need_at_least_25).
 qstr_{s1} {s1}
+qstr_Random_War_Declarati Random_War_Declaration
 qstr_day day
 qstr_cloud1 cloud1
 qstr_cloud2 cloud2
@@ -700,6 +702,9 @@ qstr__Your_own_banner_fli _Your_own_banner_flies_over_the_castle_gate.
 qstr__You_see_the_banner_ _You_see_the_banner_of_{s7}_over_the_castle_gate.
 qstr__Your_own_banner_flie _Your_own_banner_flies_over_the_town_gates.
 qstr__You_see_the_banner_o _You_see_the_banner_of_{s7}_over_the_town_gates.
+qstr_can_be_besieged_from can_be_besieged_from_land
+qstr_can_be_besieged_from_ can_be_besieged_from_sea
+qstr_Cannot_besiege:_too_ Cannot_besiege:_too_far_from_any_center_of_your_faction_(closest_centers_to_this_{reg6?town:castle}_are_{s60},_{s61}_and_{s62}).
 qstr_The_{reg6?town_s:cas The_{reg6?town's:castle's}_food_stores_should_last_for_{reg3}_more_days.
 qstr_The_{reg6?town_s:cast The_{reg6?town's:castle's}_food_stores_have_run_out_and_the_defenders_are_starving.
 qstr_You_re_preparing_to_ You're_preparing_to_attack_the_walls,_the_work_should_finish_in_{reg9}_hours.
@@ -742,6 +747,8 @@ qstr_Luckily_some_of_your Luckily_some_of_your_companions_come_to_search_for_you
 qstr_Luckily_some_passing Luckily_some_passing_townspeople_find_you_lying_by_the_side_of_the_road,_and_recognise_you_as_something_other_than_a_simple_beggar._They_carry_you_to_the_nearest_inn_and_dress_your_wounds.
 qstr_You_fail_to_steal_an You_fail_to_steal_any_cattle.
 qstr_You_drive_away_{reg1 You_drive_away_{reg17}_{reg12?heads:head}_of_cattle_from_the_village's_herd.
+qstr_The_local_road_netwo The_local_road_network_connects_{s2}_to_the_cities_of_{s16},_{s17}_and_{s18}._This_region_has_access_to_the_sea.
+qstr_The_local_road_networ The_local_road_network_connects_{s2}_to_the_cities_of_{s16},_{s17}_and_{s18}.
 qstr_{!}DEBUG____Prosperi {!}DEBUG_--_Prosperity:_{reg4}
 qstr_You_are_at_{s2}. You_are_at_{s2}.
 qstr__This_castle_has_no_ _This_castle_has_no_garrison.

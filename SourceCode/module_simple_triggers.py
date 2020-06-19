@@ -636,8 +636,7 @@ simple_triggers = [
 #diplomatic indices
   (24,
    [
-   (call_script, "script_randomly_start_war_peace_new", 1),
-
+   #(call_script, "script_randomly_start_war_peace_new", 1),
    (try_begin),
 		(store_random_in_range, ":acting_village", villages_begin, villages_end),
 		(store_random_in_range, ":target_village", villages_begin, villages_end),
@@ -4379,6 +4378,23 @@ simple_triggers = [
 		(try_end),
 	(try_end),
 ]), 
+
+(0.001,
+[
+(map_free),
+(val_add, "$async_randomly_start_war_peace_new_cur_kingdom_2", 1),
+	(try_begin),
+	(ge, "$async_randomly_start_war_peace_new_cur_kingdom_2", kingdoms_end),
+	(assign, "$async_randomly_start_war_peace_new_cur_kingdom_2", kingdoms_begin),
+	(val_add, "$async_randomly_start_war_peace_new_cur_kingdom", 1),
+	(try_end),
+	(try_begin),
+	(ge, "$async_randomly_start_war_peace_new_cur_kingdom", kingdoms_end),
+	(assign, "$async_randomly_start_war_peace_new_cur_kingdom", "fac_kingdom_1"),
+	(try_end),
+(call_script, "script_async_randomly_start_war_peace_new", 1),
+]),
+
 ]
 
 

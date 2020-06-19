@@ -692,5 +692,11 @@ script_shotgun_shot = 690
 script_cf_get_party_faction_flag_material = 691
 script_cf_current_sky_has_no_direct_sunlight = 692
 script_cf_item_can_be_used_by_custom_troop = 693
+script_walled_centers_assign_closest_centers = 694
+script_cf_if_center_borders_a_faction = 695
+script_cf_if_faction_has_access_to_sea = 696
+script_cf_if_faction_borders_a_faction = 697
+script_cf_if_faction_borders_a_faction_by_land = 698
+script_async_randomly_start_war_peace_new = 699
 
 

@@ -695,7 +695,10 @@ slot_center_player_enterprise_balance             = 140 #not used
 slot_center_player_enterprise_input_price         = 141 #not used
 slot_center_player_enterprise_output_price        = 142 #not used
 
-
+slot_center_closest_center1 = 140
+slot_center_closest_center2 = 141
+slot_center_closest_center3 = 142
+slot_center_can_be_besieged_by_sea = 143
 
 slot_center_has_bandits                        = 155
 slot_town_has_tournament                       = 156
