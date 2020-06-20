@@ -419,7 +419,7 @@ parties = [
  ("castle_197","Siirt",icon_town2|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-100.21,-0.08),[],260),
  ("castle_198","Sinjar",icon_town2|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-109.20,39.30),[],260),
  ("castle_199","Al_Rutbah",icon_town2|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-127.59,79.50),[],260),
- ("castle_200","Beirut",icon_town2|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-16.23,99.12),[],260),
+ ("castle_200","Beirut",icon_town2|pf_castle|pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-16.23,99.12),[],260),
  ("castle_201","Aleppo",icon_town2|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-47.56,70.25),[],260),
  ("castle_202","Beirut",icon_town2|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-16.23,99.12),[],260),
  ("castle_203","Al_Raqqah",icon_town2|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-78.58,70.46),[],260),

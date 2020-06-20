@@ -36,7 +36,7 @@ from header_skills import *
 # 
 ####################################################################################################################
 
-pilgrim_disguise = [itm_pilgrim_hood,itm_pilgrim_disguise,itm_practice_staff, itm_throwing_daggers]
+pilgrim_disguise = [itm_ammo_pistol, itm_dagger, itm_sidearm_colt_m1851_navy, itm_clothes_urban_male_trousers1, itm_civilian_hat1, itm_clothes_urban_male1]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
 player_accuracy_modifier = (
@@ -147,9 +147,7 @@ pbs_enemy_cannoneers_retreat = (
 
 pbs_enemy_retreating_end_battle = (
 5, 1, 0, [
-(neq, "$g_battle_type", battle_type_siege),
-(neq, "$g_battle_type", battle_type_bandits_at_night),
-(neq, "$g_battle_type", battle_type_not_a_battle),
+(eq, "$g_battle_type", battle_type_fieldbattle),
 (assign, ":number_total", 0),
 (assign, ":number_retreating", 0),
 	(try_for_agents,":agent"),

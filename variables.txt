@@ -1211,6 +1211,7 @@ g_ccoop_currently_dropping_item
 pws_n_precipitation
 pws_n_clouds
 g_game_speed
+g_battle_type
 g_rain_intensity
 g_rain_state
 g_rain_position_modifier
@@ -1244,7 +1245,6 @@ g_enemy_team
 g_allies_team
 ignore_script_game_missile_launch
 player_fanning_timer
-g_battle_type
 g_ccoop_disallow_horses
 g_presentation_obj_coop_companion_0
 g_presentation_obj_coop_companion_1
