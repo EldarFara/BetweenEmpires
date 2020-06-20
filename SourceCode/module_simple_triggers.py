@@ -2849,7 +2849,7 @@ simple_triggers = [
           (call_script, "script_add_notification_menu", "mnu_notification_oath_renounced_faction_defeated", ":cur_kingdom", 0),
         (try_end),
         #This menu must be at the end because faction banner will change after this menu if the player's supported pretender's original faction is cur_kingdom
-        #(call_script, "script_add_notification_menu", "mnu_notification_faction_defeated", ":cur_kingdom", 0),
+        (call_script, "script_add_notification_menu", "mnu_notification_faction_defeated", ":cur_kingdom", 0),
       (try_end),
       (try_begin),
         (eq, ":faction_removed", 1),

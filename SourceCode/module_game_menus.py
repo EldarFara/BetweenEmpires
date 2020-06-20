@@ -13343,7 +13343,7 @@ game_menus = [
   
   (
     "notification_faction_defeated",0,
-    "Faction Eliminated^^{s1} is no more!",
+    "Faction eliminated:^^{s1} does not longer exist!",
     "bg3",
     [
       (str_store_faction_name, s1, "$g_notification_menu_var1"),
