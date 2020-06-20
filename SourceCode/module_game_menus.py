@@ -5250,7 +5250,7 @@ game_menus = [
 
   (
     "castle_outside",mnf_scale_picture,
-    "You are outside {s2}.{s11} {s3} {s4} {s15}",
+    "You are outside {s2}.{s11} {s3} {s4}^{s15}",
     "bg3",
     [
         (store_encountered_party, "$current_town"),
@@ -5260,9 +5260,9 @@ game_menus = [
 	(party_get_slot, ":closest_center1", "$current_town", slot_center_closest_center1), (party_get_slot, ":closest_center2", "$current_town", slot_center_closest_center2), (party_get_slot, ":closest_center3", "$current_town", slot_center_closest_center3),
 	(str_store_party_name_link, s60, ":closest_center1"), (str_store_party_name_link, s61, ":closest_center2"), (str_store_party_name_link, s62, ":closest_center3"),
 	(party_slot_eq, "$current_town", slot_center_can_be_besieged_by_sea, 1),
-	(str_store_string,s15,"@The local road network connects {s2} to the cities of {s16}, {s17} and {s18}. This region has access to the sea."),
+	(str_store_string,s15,"@The local road network connects {s2} to the cities of {s60}, {s61} and {s62}. This region has access to the sea."),
 	(else_try),
-	(str_store_string,s15,"@The local road network connects {s2} to the cities of {s16}, {s17} and {s18}."),
+	(str_store_string,s15,"@The local road network connects {s2} to the cities of {s60}, {s61} and {s62}."),
 	(try_end),
         (assign, "$g_enemy_party", "$g_encountered_party"),
         (assign, "$g_ally_party", -1),
@@ -8359,9 +8359,9 @@ game_menus = [
 	(party_get_slot, ":closest_center1", "$current_town", slot_center_closest_center1), (party_get_slot, ":closest_center2", "$current_town", slot_center_closest_center2), (party_get_slot, ":closest_center3", "$current_town", slot_center_closest_center3),
 	(str_store_party_name_link, s60, ":closest_center1"), (str_store_party_name_link, s61, ":closest_center2"), (str_store_party_name_link, s62, ":closest_center3"),
 	(party_slot_eq, "$current_town", slot_center_can_be_besieged_by_sea, 1),
-	(str_store_string,s15,"@The local road network connects {s2} to the cities of {s16}, {s17} and {s18}. This region has access to the sea."),
+	(str_store_string,s15,"@The local road network connects {s2} to the cities of {s60}, {s61} and {s62}. This region has access to the sea."),
 	(else_try),
-	(str_store_string,s15,"@The local road network connects {s2} to the cities of {s16}, {s17} and {s18}."),
+	(str_store_string,s15,"@The local road network connects {s2} to the cities of {s60}, {s61} and {s62}."),
 	(try_end),
         (try_begin),
           (eq, "$sneaked_into_town", 1),

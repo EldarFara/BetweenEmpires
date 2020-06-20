@@ -46514,7 +46514,7 @@ scripts = [
 		(eq, ":num_third_party_wars", 0),
 		(try_begin),
 			(ge, "$cheat_mode", 1),
-			(display_message, "@{!}DEBUG -- No third party wars for {s15}"),
+			#(display_message, "@{!}DEBUG -- No third party wars for {s15}"),
 		(try_end),
 		(eq, ":actor_faction", ":strongest_kingdom"),
 		#peace with no truce or provocation
@@ -55407,7 +55407,7 @@ scripts = [
 	    (try_for_range, ":troop_no", custom_troop_begin, custom_troop_end),
 			(store_character_level,":skill_point",":troop_no"),
 			(troop_set_slot,  ":troop_no", slot_custom_troop_sp, ":skill_point"),			
-		    (store_mul,":weapon_point",":skill_point",40),
+		    (store_mul,":weapon_point",":skill_point", 5),
 			(troop_set_slot,  ":troop_no", slot_custom_troop_wp, ":weapon_point"),				
 			(store_div,":attribute_point",":skill_point",3),
 			(troop_set_slot,  ":troop_no", slot_custom_troop_ap, ":attribute_point"),	
