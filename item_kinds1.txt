@@ -1,5 +1,5 @@
 itemsfile version 3
-1350
+1362
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -2589,27 +2589,27 @@ itemsfile version 3
  44
 0
 
- itm_ria_hat1 Russian_Hat Russian_Hat 1  ria_hat1 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_ria_hat1 Russian_Hat Russian_Hat 1  ria_hat1 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_hat2 Russian_Hat Russian_Hat 1  ria_hat2 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_ria_hat2 Russian_Hat Russian_Hat 1  ria_hat2 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_hat3 Russian_Hat Russian_Hat 1  ria_hat3 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_ria_hat3 Russian_Hat Russian_Hat 1  ria_hat3 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_hat4 Russian_Hat Russian_Hat 1  ria_hat4 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_ria_hat4 Russian_Hat Russian_Hat 1  ria_hat4 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_hat5 Russian_Cossack_Hat Russian_Cossack_Hat 1  ria_hat5 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_ria_hat5 Russian_Cossack_Hat Russian_Cossack_Hat 1  ria_hat5 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  44
 0
@@ -2802,22 +2802,22 @@ itemsfile version 3
  45
 0
 
- itm_lou_hat2 Austrian_Military_Hat Austrian_Military_Hat 1  lou_hat2 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_lou_hat2 Austrian_Military_Hat Austrian_Military_Hat 1  lou_hat2 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  45
 0
 
- itm_lou_infantry_trousers2 Austrian_Infantry_Trousers Austrian_Infantry_Trousers 1  lou_infantry_trousers2 0  553713678 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ itm_lou_infantry_trousers2 Austrian_Infantry_Trousers Austrian_Infantry_Trousers 1  lou_infantry_trousers2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  45
 0
 
- itm_lou_infantry3 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry3 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_lou_infantry3 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  45
 0
 
- itm_lou_hat3 Austrian_Military_Hat Austrian_Military_Hat 1  lou_hat3 0  536936460 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_lou_hat3 Austrian_Military_Hat Austrian_Military_Hat 1  lou_hat3 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  45
 0
@@ -3699,27 +3699,27 @@ itemsfile version 3
  0
 0
 
- itm_rom_shako rom_shako rom_shako 1  rom_shako 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_rom_shako rom_shako rom_shako 1  disabled_item 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  67
 0
 
- itm_rom_kepi rom_kepi rom_kepi 1  rom_kepi 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_rom_kepi rom_kepi rom_kepi 1  disabled_item 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  67
 0
 
- itm_rom_infantry1 rom_infantry1 rom_infantry1 1  rom_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_rom_infantry1 rom_infantry1 rom_infantry1 1  disabled_item 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  67
 0
 
- itm_rom_infantry2 rom_infantry2 rom_infantry2 1  rom_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_rom_infantry2 rom_infantry2 rom_infantry2 1  disabled_item 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  67
 0
 
- itm_rom_infantry1_pants rom_infantry1_pants rom_infantry1_pants 1  rom_infantry1_pants 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ itm_rom_infantry1_pants rom_infantry1_pants rom_infantry1_pants 1  disabled_item 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  67
 0
@@ -4432,27 +4432,27 @@ itemsfile version 3
  43
 0
 
- itm_us_trousers US_Trousers US_Trousers 1  us_trousers 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ itm_us_trousers DI DI 1  disabled_item 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_jap_trousers Japanese_Trousers Japanese_Trousers 1  jap_trousers 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ itm_jap_trousers DI DI 1  disabled_item 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_us_infantry US_Military_Uniform US_Military_Uniform 1  us_infantry 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_us_infantry DI DI 1  disabled_item 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_jap_infantry Japanese_Military_Uniform Japanese_Military_Uniform 1  jap_infantry 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_jap_infantry DI DI 1  disabled_item 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
 0
 
- itm_us_hat US_Hat US_Hat 1  us_hat 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_us_hat DI DI 1  disabled_item 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  0
 0
 
- itm_jap_hat Japanese_Hat Japanese_Hat 1  jap_hat 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_jap_hat DI DI 1  disabled_item 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  0
 0
 
@@ -5816,6 +5816,66 @@ itemsfile version 3
  itm_far_hat6 Romanian_Shako Romanian_Shako 1  far_hat6 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  67
+0
+
+ itm_sta_infantry1 Dutch_Military_Uniform Dutch_Military_Uniform 1  sta_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_infantry2 Dutch_Military_Uniform Dutch_Military_Uniform 1  sta_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_infantry3 Dutch_Military_Uniform Dutch_Military_Uniform 1  sta_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_infantry4 Dutch_Military_Uniform Dutch_Military_Uniform 1  sta_infantry4 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_cavalry1 Dutch_Military_Uniform Dutch_Military_Uniform 1  sta_cavalry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_cavalry2 Dutch_Military_Uniform Dutch_Military_Uniform 1  sta_cavalry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_trousers1 Dutch_Military_Trousers Dutch_Military_Trousers 1  sta_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_trousers2 Dutch_Military_Trousers Dutch_Military_Trousers 1  sta_trousers2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_trousers3 Dutch_Military_Trousers Dutch_Military_Trousers 1  sta_trousers3 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_trousers4 Dutch_Military_Trousers Dutch_Military_Trousers 1  sta_trousers4 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_hat1 Dutch_Shako Dutch_Shako 1  sta_hat1 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_hat2 Dutch_Shako Dutch_Shako 1  sta_hat2 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 50
 0
 
  itm_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0

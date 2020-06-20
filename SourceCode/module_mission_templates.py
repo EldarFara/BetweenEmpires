@@ -149,6 +149,7 @@ pbs_enemy_retreating_end_battle = (
 5, 1, 0, [
 (neq, "$g_battle_type", battle_type_siege),
 (neq, "$g_battle_type", battle_type_bandits_at_night),
+(neq, "$g_battle_type", battle_type_not_a_battle),
 (assign, ":number_total", 0),
 (assign, ":number_retreating", 0),
 	(try_for_agents,":agent"),
@@ -6333,6 +6334,7 @@ mission_templates = [
 	  		  	        
       (ti_before_mission_start, 0, 0, [], 
       [
+	  (assign, "$g_battle_type", battle_type_not_a_battle),
         (call_script, "script_change_banners_and_chest"),
         (call_script, "script_initialize_tavern_variables"),
 	  ]),
@@ -7001,6 +7003,7 @@ mission_templates = [
     [
       (ti_before_mission_start, 0, 0, [],
        [
+	(assign, "$g_battle_type", battle_type_not_a_battle),
          (assign, "$g_train_peasants_against_bandits_training_succeeded", 0),
          (call_script, "script_change_banners_and_chest"),
          ]),

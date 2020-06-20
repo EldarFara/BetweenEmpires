@@ -2975,6 +2975,15 @@ game_menus = [
         ]
        ),
        
+      ("action_change_flag",
+       [
+         (faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_active),
+         (faction_slot_eq, "fac_player_supporters_faction", slot_faction_leader, "trp_player"),
+         ],"Change flag of your nation.",
+       [
+	   (start_presentation, "prsnt_flag_selection"),
+        ]
+       ),
        ## ZZ Custom Kingdom Troops begin
       ("action_promote_kingdom_custom_troop",
        [
@@ -2987,14 +2996,6 @@ game_menus = [
         ]
        ),	   
 ## ZZ Custom Kingdom Troops end
-
-      ("action_modify_banner",[(eq, 0, 1)# parabellum cut
-	  ],"{!}Cheat: Modify your banner.",
-       [
-           (start_presentation, "prsnt_banner_selection"),
-           #(start_presentation, "prsnt_custom_banner"),
-        ]
-       ),
       ("change_game_speed",[(assign, reg0, "$g_game_speed"),],"Change game speed. (current speed - {reg0} days per year).",
        [
 	   (jump_to_menu, "mnu_change_game_speed"),

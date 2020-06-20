@@ -57,3 +57,4 @@ prsnt_custom_troop = 55
 prsnt_custom_troop_item = 56
 prsnt_faction_technologies = 57
 prsnt_faction_selection = 58
+prsnt_flag_selection = 59

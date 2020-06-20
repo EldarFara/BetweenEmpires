@@ -1,4 +1,4 @@
-939
+940
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -219,6 +219,7 @@ qstr_Cost___{reg0}_pounds Cost_-_{reg0}_pounds{s1}.^Available_after_{reg1}_year.
 qstr_Select_Faction Select_Faction
 qstr_Start_Game Start_Game
 qstr_Chosen_Faction:^{s1} Chosen_Faction:^{s1}
+qstr_Select_flag_for_your Select_flag_for_your_faction
 qstr_vSeason vSeason
 qstr_{!}DEBUG_:_Completed {!}DEBUG_:_Completed_faction_troop_assignments,_cheat_mode:_{reg3}
 qstr_{!}DEBUG_:_Completed_ {!}DEBUG_:_Completed_political_events,_cheat_mode:_{reg3}

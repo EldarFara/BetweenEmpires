@@ -18026,6 +18026,57 @@ in total.^Company types: Line infantry, Guard."),
 ]),
 ]),
 
+("flag_selection", 0, mesh_load_window, [
+(ti_on_presentation_load, [
+	(set_fixed_point_multiplier, 1000),      
+	(assign, "$g_faction_selection_selected_faction_number", -1),
+
+	(create_text_overlay, reg1, "@Select flag for your faction", tf_center_justify),
+	(position_set_x, pos1, 500), (position_set_y, pos1, 680), (overlay_set_position, reg1, pos1),
+	(position_set_x, pos1, 1500), (position_set_y, pos1, 1500), (overlay_set_size, reg1, pos1),
+	(create_game_button_overlay, "$g_faction_selection_close", "@Close"),
+	(position_set_x, pos1, 920), (position_set_y, pos1, 30), (overlay_set_position, "$g_faction_selection_close", pos1),
+
+	(str_clear, s0),
+	(create_text_overlay, "$g_faction_selection_container", s0, tf_scrollable),
+	(position_set_x, pos1, 60), (position_set_y, pos1, 35), (overlay_set_position, "$g_faction_selection_container", pos1),
+	(position_set_x, pos1, 760), (position_set_y, pos1, 600), (overlay_set_area_size, "$g_faction_selection_container", pos1),
+	(set_container_overlay, "$g_faction_selection_container"),
+	
+	(position_set_x, pos2, 800), (position_set_y, pos2, 800), 
+	(assign, ":faction_number", 0),
+		(try_for_range, ":index_y", 0, 15),
+		(store_mul, ":coor_y", ":index_y", 150), (store_sub, ":coor_y", 1900, ":coor_y"),
+			(try_for_range, ":index_x", 0, 5),
+			(val_add, ":faction_number", 1),
+			(le, ":faction_number", 39),
+			(store_mul, ":coor_x", ":index_x", 150), (val_add, ":coor_x", 60),
+			(create_image_button_overlay, reg1, "mesh_menu_flag1", "mesh_menu_flag1"),
+			(position_set_x, pos1, ":coor_x"), (position_set_y, pos1, ":coor_y"), (overlay_set_position, reg1, pos1), (overlay_set_size, reg1, pos2),
+			(store_add, ":string", "str_flag1_0", ":faction_number"),
+			(str_store_string, s1, ":string"),
+			(overlay_set_material, reg1, s1),
+			(troop_set_slot, "trp_temp_array_a", reg1, ":faction_number"),
+			(try_end),
+		(try_end),
+	(set_container_overlay, -1),
+	
+	(presentation_set_duration, 999999),
+	]),
+(ti_on_presentation_event_state_change, [
+	(store_trigger_param_1, ":object"),
+ 
+	(try_begin),
+	(eq, ":object", "$g_faction_selection_close"),
+	(presentation_set_duration, 0),
+	(else_try),
+	(troop_get_slot, "$g_faction_selection_selected_faction_number", "trp_temp_array_a", ":object"),
+	(call_script, "script_change_faction_flag", "fac_player_supporters_faction", "$g_faction_selection_selected_faction_number"),
+	(presentation_set_duration, 0),
+	(try_end),
+]),
+]),
+
 	
   ]
   
