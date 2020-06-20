@@ -43,9 +43,9 @@ scripts = [
   # INPUT: none
   ("game_start",
 	[
+(call_script, "script_walled_centers_assign_closest_centers"),
 (assign, "$async_randomly_start_war_peace_new_cur_kingdom", "fac_kingdom_1"),
 (assign, "$async_randomly_start_war_peace_new_cur_kingdom_2", kingdoms_begin),
-(call_script, "script_walled_centers_assign_closest_centers"),
 (assign, "$ignore_script_game_missile_launch", 0),
 (assign, "$g_game_speed", 15),
 (assign, "$g_days_until_next_year", -1),
@@ -1541,6 +1541,7 @@ scripts = [
       (call_script, "script_give_center_to_faction_aux", "p_castle_254", "fac_kingdom_2"),#indu
 #yifeng 1.5
 
+(call_script, "script_randomize_preset_wars"),
       		  	  
 	# Towns (loop)
       (try_for_range, ":town_no", towns_begin, towns_end),
@@ -27329,7 +27330,7 @@ scripts = [
         (str_store_faction_name_link, s1, ":kingdom_a"),
         (str_store_faction_name_link, s2, ":kingdom_b"),
         (display_log_message, "@{s1} and {s2} have made peace with each other."),
-        (call_script, "script_add_notification_menu", "mnu_notification_peace_declared", ":kingdom_a", ":kingdom_b"), #stability penalty for early peace is in the menu		
+       # (call_script, "script_add_notification_menu", "mnu_notification_peace_declared", ":kingdom_a", ":kingdom_b"), #stability penalty for early peace is in the menu		
         (call_script, "script_event_kingdom_make_peace_with_kingdom", ":kingdom_a", ":kingdom_b"), #cancels quests
         (call_script, "script_event_kingdom_make_peace_with_kingdom", ":kingdom_b", ":kingdom_a"), #cancels quests
         (assign, "$g_recalculate_ais", 1),				
@@ -58026,6 +58027,56 @@ scripts = [
 (party_set_slot, "p_town_54", slot_center_can_be_besieged_by_sea, 1),
 (party_set_slot, "p_town_58", slot_center_can_be_besieged_by_sea, 1),
 (party_set_slot, "p_town_65", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_1", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_3", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_4", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_5", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_8", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_10", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_11", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_12", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_13", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_14", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_16", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_17", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_18", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_19", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_26", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_27", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_28", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_33", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_35", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_36", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_37", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_39", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_41", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_43", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_46", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_49", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_51", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_52", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_53", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_54", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_55", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_56", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_57", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_58", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_59", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_60", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_61", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_63", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_65", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_66", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_69", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_73", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_74", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_80", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_81", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_82", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_79", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_77", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_76", slot_center_can_be_besieged_by_sea, 1),
+(party_set_slot, "p_castle_75", slot_center_can_be_besieged_by_sea, 1),
 
 ]),
 
@@ -58146,7 +58197,7 @@ scripts = [
 				(ge, ":kingdom_2_to_kingdom_1", 1),
 
 				(store_mul, ":goodwill_level", ":kingdom_1_to_kingdom_2", ":kingdom_2_to_kingdom_1"),
-				(store_random_in_range, ":random", 0, 20),
+				(store_random_in_range, ":random", 0, 70),
 				(lt, ":random", ":goodwill_level"),
 
 				(try_begin),
@@ -58174,7 +58225,7 @@ scripts = [
 			(val_add, ":hostility", reg0), #increase hostility if there is a provocation
 			
 			(store_mul, ":hostility_squared", ":hostility", ":hostility"),
-			(store_random_in_range, ":random", 0, 15),
+			(store_random_in_range, ":random", 0, 35),
 
 			(lt, ":random", ":hostility_squared"),
 			
@@ -58184,7 +58235,6 @@ scripts = [
 				(str_store_string, s57, "str_s14"),
 			(try_end),	
 			(call_script, "script_cf_if_faction_borders_a_faction_by_land", ":cur_kingdom", ":cur_kingdom_2"),
-(display_message, "@Random War Declaration"),
 			(call_script, "script_diplomacy_start_war_between_kingdoms", ":cur_kingdom", ":cur_kingdom_2", ":initializing_war_peace_cond"),
 			
 			(try_begin), #do some war damage for 
@@ -58202,6 +58252,21 @@ scripts = [
 
 (try_end),
  ]),
+
+("randomize_preset_wars",
+[
+	(try_for_range, ":faction1", npc_kingdoms_begin, npc_kingdoms_end),
+		(try_for_range, ":faction2", npc_kingdoms_begin, npc_kingdoms_end),
+		(neq, ":faction1", ":faction2"),
+		(store_relation, ":relation", ":faction1", ":faction2"),
+		(le, ":relation", 10),
+		(call_script, "script_cf_if_faction_borders_a_faction_by_land", ":faction1", ":faction2"),
+		(call_script, "script_cf_random", 30),
+		(set_relation, ":faction1", ":faction2", -30),
+		(set_relation, ":faction2", ":faction1", -30),
+		(try_end),
+	(try_end),
+]),
 
 
 ]# modmerger_start version=201 type=2
