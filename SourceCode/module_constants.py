@@ -1550,7 +1550,7 @@ slto_inactive           = 0 #for companions at the beginning of the game
 slto_kingdom_hero       = 2
 
 slto_player_companion   = 5 #This is specifically for companions in the employ of the player -- ie, in the party, or on a mission
-slto_kingdom_lady       = 6 #Usually inactive (Calradia is a traditional place). However, can be made potentially active if active_npcs are expanded to include ladies
+slto_kingdom_lady       = 6 #Usually inactive (Europe is a traditional place). However, can be made potentially active if active_npcs are expanded to include ladies
 slto_kingdom_seneschal  = 7
 slto_robber_knight      = 8
 slto_inactive_pretender = 9

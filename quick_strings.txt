@@ -901,7 +901,7 @@ qstr_{!}DEBUG:_Gossip_for {!}DEBUG:_Gossip_for_troop_{reg3}
 qstr_{!}DEBUG:_{s3} {!}DEBUG:_{s3}
 qstr_A_villager_from_{s7} A_villager_from_{s7}_begged_you_to_save_their_village_from_the_bandits_that_took_refuge_there.
 qstr_You_chose_well_{sir/ You_chose_well,_{sir/madam}._My_lads_know_how_to_keep_their_word_and_earn_their_pay.
-qstr_Well_done_{sir/madam Well_done,_{sir/madam}._Keep_the_money_and_wine_coming_our_way,_and_there's_no_foe_in_Calradia_you_need_fear.
+qstr_Well_done_{sir/madam Well_done,_{sir/madam}._Keep_the_money_and_wine_coming_our_way,_and_there's_no_foe_in_Europe_you_need_fear.
 qstr_We_are_at_your_servi We_are_at_your_service,_{sir/madam}._Point_us_in_the_direction_of_those_who_need_hurting,_and_we'll_do_the_rest.
 qstr_The_Guildmaster_of_{ The_Guildmaster_of_{s13}_has_asked_you_to_deal_with_looters_in_the_surrounding_countryside.
 qstr_{s9}_of_{s3}_asked_y {s9}_of_{s3}_asked_you_to_deliver_{reg5}_units_of_{s6}_to_the_tavern_in_{s4}_in_7_days.

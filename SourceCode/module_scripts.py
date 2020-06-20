@@ -16546,13 +16546,13 @@ scripts = [
 		
 		#Grain products
 		(try_begin),
-			(eq, ":cur_good", "itm_bread"), #Demand = 3000 across Calradia
+			(eq, ":cur_good", "itm_bread"), #Demand = 3000 across Europe
 			(party_get_slot, ":base_production", ":center_no", slot_center_mills),
 			(val_mul, ":base_production", 20), #one mills per village, five mills per town = 160 mills 
 		(else_try),
 			(eq, ":cur_good", "itm_grain"), #Demand =  3200+, 1600 to mills, 1500 on its own, extra to breweries
 			(party_get_slot, ":base_production", ":center_no", slot_center_acres_grain),
-			(val_div, ":base_production", 125), #10000 acres is the average across Calradia, extra in Swadia, less in snows and steppes, a bit from towns 
+			(val_div, ":base_production", 125), #10000 acres is the average across Europe, extra in Swadia, less in snows and steppes, a bit from towns 
 		(else_try),
 			(eq, ":cur_good", "itm_ale"), #
 			(party_get_slot, ":base_production", ":center_no", slot_center_breweries),
@@ -16628,9 +16628,9 @@ scripts = [
 			(party_get_slot, ":base_production", ":center_no", slot_center_head_sheep), #average of 90 sheep
 			(val_div, ":base_production", 5),
 		(else_try),
-			(eq, ":cur_good", "itm_wool_cloth"), 	 #(Demand = 1500 across Calradia)
+			(eq, ":cur_good", "itm_wool_cloth"), 	 #(Demand = 1500 across Europe)
 			(party_get_slot, ":base_production", ":center_no", slot_center_wool_looms),
-			(val_mul, ":base_production", 5), #300 across Calradia
+			(val_mul, ":base_production", 5), #300 across Europe
 		
 		(else_try),
 			(this_or_next|eq, ":cur_good", "itm_pork"), 	 
@@ -16647,7 +16647,7 @@ scripts = [
 			(party_get_slot, ":base_production", ":center_no", slot_center_iron_deposits),
 			(val_mul, ":base_production", 10),
 		(else_try),
-			(eq, ":cur_good", "itm_tools"), 	 #Demand = 560 across Calradia
+			(eq, ":cur_good", "itm_tools"), 	 #Demand = 560 across Europe
 			(party_get_slot, ":base_production", ":center_no", slot_center_smithies),
 			(val_mul, ":base_production", 3),
 
@@ -16700,7 +16700,7 @@ scripts = [
 			(party_get_slot, ":base_production", ":center_no", slot_center_acres_dates),
 			(val_div, ":base_production", 120),
 		(else_try),
-			(eq, ":cur_good", "itm_furs"), 	 #Demand = 90 across Calradia
+			(eq, ":cur_good", "itm_furs"), 	 #Demand = 90 across Europe
 			(party_get_slot, ":base_production", ":center_no", slot_center_fur_traps),
 			(val_mul, ":base_production", 25),
 		(else_try),
@@ -42746,7 +42746,7 @@ scripts = [
 	
 	
 	
-	("get_kingdom_lady_social_determinants", #Calradian society is rather patriarchal, at least among the upper classes
+	("get_kingdom_lady_social_determinants", #Europen society is rather patriarchal, at least among the upper classes
     [
 	(store_script_param, ":kingdom_lady", 1),
 	
@@ -46338,7 +46338,7 @@ scripts = [
 		(try_end),
 	(try_end),
 
-	#Total Calradia strength = 110 x 1 (villages,), 48? x 2 castles, 22 x 3 towns, 88 x 2 lord parties = 272 + 176 = 448
+	#Total Europe strength = 110 x 1 (villages,), 48? x 2 castles, 22 x 3 towns, 88 x 2 lord parties = 272 + 176 = 448
 	(assign, ":strongest_kingdom", -1),
 	(assign, ":score_to_beat", 60), #Maybe raise once it works
 	(try_for_range, ":strongest_kingdom_candidate", kingdoms_begin, kingdoms_end),
@@ -46517,7 +46517,7 @@ scripts = [
 		(assign, ":result", -1),
 		(assign, ":explainer_string", "str_s12s15_is_alarmed_by_the_growing_power_of_s16"),
 		
-	#bid to conquer all Calradia
+	#bid to conquer all Europe
 	(else_try),
 		(eq, ":num_third_party_wars", 0),
 		(try_begin),
@@ -58250,7 +58250,7 @@ scripts = [
 			(val_add, ":hostility", reg0), #increase hostility if there is a provocation
 			
 			(store_mul, ":hostility_squared", ":hostility", ":hostility"),
-			(store_random_in_range, ":random", 0, 65),
+			(store_random_in_range, ":random", 0, 50),
 
 			(lt, ":random", ":hostility_squared"),
 			
