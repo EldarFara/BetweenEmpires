@@ -58250,7 +58250,7 @@ scripts = [
 			(val_add, ":hostility", reg0), #increase hostility if there is a provocation
 			
 			(store_mul, ":hostility_squared", ":hostility", ":hostility"),
-			(store_random_in_range, ":random", 0, 80),
+			(store_random_in_range, ":random", 0, 65),
 
 			(lt, ":random", ":hostility_squared"),
 			
