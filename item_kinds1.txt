@@ -1,5 +1,5 @@
 itemsfile version 3
-1362
+1374
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -5876,6 +5876,66 @@ itemsfile version 3
  itm_sta_hat2 Dutch_Shako Dutch_Shako 1  sta_hat2 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  50
+0
+
+ itm_def_infantry1 Belgian_Military_Uniform Belgian_Military_Uniform 1  def_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_def_infantry2 Belgian_Military_Uniform Belgian_Military_Uniform 1  def_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_def_infantry3 Belgian_Military_Uniform Belgian_Military_Uniform 1  def_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_def_infantry4 Belgian_Military_Uniform Belgian_Military_Uniform 1  def_infantry4 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_def_infantry5 Belgian_Military_Uniform Belgian_Military_Uniform 1  def_infantry5 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_def_cavalry1 Belgian_Military_Uniform Belgian_Military_Uniform 1  def_cavalry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_def_cavalry2 Belgian_Military_Uniform Belgian_Military_Uniform 1  def_cavalry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_def_trousers1 Belgian_Military_Trousers Belgian_Military_Trousers 1  def_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_def_trousers2 Belgian_Military_Trousers Belgian_Military_Trousers 1  def_trousers2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_def_trousers3 Belgian_Military_Trousers Belgian_Military_Trousers 1  def_trousers3 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_def_hat1 Belgian_Shako Belgian_Shako 1  def_hat1 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_def_hat2 Belgian_Shako Belgian_Shako 1  def_hat2 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 68
 0
 
  itm_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0

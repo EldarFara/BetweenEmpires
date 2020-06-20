@@ -2181,6 +2181,19 @@ items = [
 ["sta_hat1","Dutch Shako", [("sta_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_8]],
 ["sta_hat2","Dutch Shako", [("sta_hat2", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_8]],
 
+["def_infantry1","Belgian Military Uniform", [("def_infantry1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_26]],
+["def_infantry2","Belgian Military Uniform", [("def_infantry2", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_26]],
+["def_infantry3","Belgian Military Uniform", [("def_infantry3", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_26]],
+["def_infantry4","Belgian Military Uniform", [("def_infantry4", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_26]],
+["def_infantry5","Belgian Military Uniform", [("def_infantry5", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_26]],
+["def_cavalry1","Belgian Military Uniform", [("def_cavalry1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_26]],
+["def_cavalry2","Belgian Military Uniform", [("def_cavalry2", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_26]],
+["def_trousers1","Belgian Military Trousers", [("def_trousers1", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_26]],
+["def_trousers2","Belgian Military Trousers", [("def_trousers2", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_26]],
+["def_trousers3","Belgian Military Trousers", [("def_trousers3", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_26]],
+["def_hat1","Belgian Shako", [("def_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_26]],
+["def_hat2","Belgian Shako", [("def_hat2", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_26]],
+
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 
