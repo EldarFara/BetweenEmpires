@@ -1423,7 +1423,7 @@ items = [
 ["horse_european2","Saddle Horse", [("horse_european2",0),("horse_european2",imodbits_horse_good)], itp_type_horse, 0, 240,abundance(90)|hit_points(200)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.00))|horse_maneuver(int(default_horse_maneuver*1.00))|horse_charge(5)|horse_scale(100),imodbits_horse_basic],
 ["horse_european3","Saddle Horse", [("horse_european3",0),("horse_european3",imodbits_horse_good)], itp_type_horse, 0, 240,abundance(90)|hit_points(200)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.00))|horse_maneuver(int(default_horse_maneuver*1.00))|horse_charge(5)|horse_scale(100),imodbits_horse_basic],
 
-["saber1", "Saber", [("saber",0),("saber_scab", ixmesh_carry)], itp_type_one_handed_wpn|itp_merchandise|itp_primary, itc_longsword|itcf_carry_sword_left_hip|itcf_show_holster_when_drawn,163 , weight(1.5)|difficulty(0)|spd_rtng(105) | weapon_length(100)|swing_damage(30 , cut) | thrust_damage(25 ,  pierce),imodbits_sword_high ],
+["saber1", "Saber", [("saber",0),("saber_scab", ixmesh_carry)], itp_type_one_handed_wpn|itp_merchandise|itp_primary, itc_longsword|itcf_carry_sword_left_hip|itcf_show_holster_when_drawn,163 , weight(1.5)|difficulty(0)|spd_rtng(105) | weapon_length(100)|swing_damage(30 , cut) | thrust_damage(23 ,  pierce),imodbits_sword_high ],
 ["persian_broadsword", "Persian Sabre", [("persian_broadsword",0),("persian_sabre_a_scab", ixmesh_carry)], itp_type_one_handed_wpn|itp_merchandise|itp_primary, itc_longsword|itcf_carry_sword_left_hip|itcf_show_holster_when_drawn,163 , weight(1.5)|difficulty(0)|spd_rtng(105) | weapon_length(100)|swing_damage(30 , cut) | thrust_damage(25 ,  pierce),imodbits_sword_high ],
 ["turk_broadsword_a", "Turkish Sabre", [("turk_broadsword_a",0),("saber_scab", ixmesh_carry)], itp_type_one_handed_wpn|itp_merchandise|itp_primary, itc_longsword|itcf_carry_sword_left_hip|itcf_show_holster_when_drawn,163 , weight(1.5)|difficulty(0)|spd_rtng(105) | weapon_length(100)|swing_damage(30 , cut) | thrust_damage(25 ,  pierce),imodbits_sword_high ],
 
@@ -2098,6 +2098,7 @@ items = [
 ["baf_hat5","British Uhlan's Helmet", [("baf_hat5", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 ["baf_hat6","British Shako", [("baf_hat6", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 ["baf_hat7","British Service Kepi", [("baf_hat7", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
+["baf_hat8","Pith Helmet", [("baf_hat8", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 ["cavalry_gloves1","Gloves", [("cavalry_gloves1_L",0)], itp_type_hand_armor,0, 90, weight(0.25)|abundance(50)|body_armor(1)|difficulty(0),imodbits_cloth],
 
 ["shotgun_caplock","Double-Barrel Caplock Shotgun", [("shotgun_caplock", 0),("shotgun_caplock_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear,price_pistol_aboveaverage, weight(3.7)|abundance(80)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_muzzleloaded_musket)|shoot_speed(shotgun_muzzle_velocity)|max_ammo(2)|thrust_damage(damage_shotgun, pierce), imodbits_firearm, 
@@ -2193,6 +2194,9 @@ items = [
 ["def_trousers3","Belgian Military Trousers", [("def_trousers3", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_26]],
 ["def_hat1","Belgian Shako", [("def_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_26]],
 ["def_hat2","Belgian Shako", [("def_hat2", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_26]],
+
+["saber2", "British Pattern 1821 Light Cavalry Sword", [("1821_light_cavalry_sword",0),("saber_scab", ixmesh_carry)], itp_type_one_handed_wpn|itp_merchandise|itp_primary, itc_longsword|itcf_carry_sword_left_hip|itcf_show_holster_when_drawn,163 , weight(1.5)|difficulty(0)|spd_rtng(105) | weapon_length(100)|swing_damage(30 , cut) | thrust_damage(23 ,  pierce),imodbits_sword_high ],
+["saber3", "British Pattern 1864 Trooper Sword", [("1864_trooper_sword",0),("saber_scab", ixmesh_carry)], itp_type_one_handed_wpn|itp_merchandise|itp_primary, itc_longsword|itcf_carry_sword_left_hip|itcf_show_holster_when_drawn,163 , weight(1.5)|difficulty(0)|spd_rtng(105) | weapon_length(100)|swing_damage(30 , cut) | thrust_damage(23 ,  pierce),imodbits_sword_high ],
 
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],

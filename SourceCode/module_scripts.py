@@ -1568,7 +1568,6 @@ scripts = [
         #(store_add, ":cur_object_no", "trp_town_1_seneschal", ":offset"),
         #(party_set_slot,":town_no", slot_town_seneschal, ":cur_object_no"),
         (store_add, ":cur_object_no", "scn_town_1_center", ":offset"),
-       # (party_set_slot,":town_no", slot_town_center, ":cur_object_no"),
 			(try_begin),
 			(store_faction_of_party, ":faction", ":town_no"),
 			(party_set_slot,":town_no", slot_town_center, "scn_town_european_center"),
