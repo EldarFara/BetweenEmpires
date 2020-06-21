@@ -166,7 +166,7 @@ pbs_enemy_retreating_end_battle = (
 	(eq, ":number_total", ":number_retreating"),
 	(store_mission_timer_a,reg(1)),
 	(ge,reg(1),10),
-	(neg|main_hero_fallen, 0),
+#	(neg|main_hero_fallen, 0),
 	(le, ":number_total", 40),
 	(set_mission_result,1),
 	(display_message,"str_msg_battle_won"),
@@ -5681,7 +5681,7 @@ custom_battle_check_victory_condition = (
     (store_mission_timer_a,reg(1)),
     (ge,reg(1),10),
     (all_enemies_defeated, 2),
-    (neg|main_hero_fallen, 0),
+   # (neg|main_hero_fallen, 0),
     (set_mission_result,1),
     (display_message,"str_msg_battle_won"),
     (assign, "$g_battle_won",1),
@@ -6995,8 +6995,8 @@ mission_templates = [
   (
     "village_training", mtf_arena_fight, -1,
     "village_training",
-    [(2,mtef_visitor_source|mtef_team_0,af_override_everything,aif_start_alarmed,1,[itm_practice_staff, itm_practice_boots]),
-     (4,mtef_visitor_source|mtef_team_1,af_override_everything,aif_start_alarmed,1,[itm_practice_staff, itm_practice_boots]),
+    [(2,mtef_visitor_source|mtef_team_0,af_override_everything,aif_start_alarmed,1,[itm_practice_staff, itm_clothes_urban_male_trousers1]),
+     (4,mtef_visitor_source|mtef_team_1,af_override_everything,aif_start_alarmed,1,[itm_practice_staff, itm_clothes_urban_male_trousers1]),
      ],
     [
       (ti_before_mission_start, 0, 0, [],
@@ -7777,7 +7777,9 @@ mission_templates = [
      (20, mtef_defenders|mtef_use_exact_number|mtef_team_0,af_override_horse,aif_start_alarmed,1,[]),
      ],
     [
-      (ti_before_mission_start, 0, 0, [], [(call_script, "script_change_banners_and_chest")]),
+      (ti_before_mission_start, 0, 0, [], [
+	  (assign, "$g_battle_type", battle_type_siege_interior),
+	  (call_script, "script_change_banners_and_chest"),]),
 
       common_battle_tab_press,
       common_battle_init_banner,
@@ -7847,7 +7849,10 @@ mission_templates = [
      (28, mtef_defenders|mtef_use_exact_number|mtef_team_0,af_override_horse,aif_start_alarmed,1,[]),
      ],
     [
-      (ti_before_mission_start, 0, 0, [], [(call_script, "script_change_banners_and_chest")]),
+      (ti_before_mission_start, 0, 0, [], [(call_script, "script_change_banners_and_chest"),
+	  (assign, "$g_battle_type", battle_type_siege_interior),
+	  
+	  ]),
 
       common_battle_tab_press,
       common_battle_init_banner,

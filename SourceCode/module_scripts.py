@@ -255,6 +255,14 @@ scripts = [
 (troop_set_slot, "trp_faction6_troop11", slot_troop_pbs_type, pbs_troop_type_cavranged),
 (troop_set_slot, "trp_faction6_troop12", slot_troop_pbs_type, pbs_troop_type_cavranged),
 (troop_set_slot, "trp_faction6_troop13", slot_troop_pbs_type, pbs_troop_type_light),
+(troop_set_slot, "trp_faction10_troop6", slot_troop_pbs_type, pbs_troop_type_light),
+(troop_set_slot, "trp_faction10_troop7", slot_troop_pbs_type, pbs_troop_type_guard),
+(troop_set_slot, "trp_faction10_troop8", slot_troop_pbs_type, pbs_troop_type_guard),
+(troop_set_slot, "trp_faction10_troop9", slot_troop_pbs_type, pbs_troop_type_cavmelee),
+(troop_set_slot, "trp_faction10_troop10", slot_troop_pbs_type, pbs_troop_type_cavmelee),
+(troop_set_slot, "trp_faction10_troop11", slot_troop_pbs_type, pbs_troop_type_cavranged),
+(troop_set_slot, "trp_faction10_troop12", slot_troop_pbs_type, pbs_troop_type_cavranged),
+(troop_set_slot, "trp_faction10_troop13", slot_troop_pbs_type, pbs_troop_type_light),
 (troop_set_slot, "trp_faction12_troop5", slot_troop_pbs_type, pbs_troop_type_light),
 (troop_set_slot, "trp_faction12_troop6", slot_troop_pbs_type, pbs_troop_type_light),
 (troop_set_slot, "trp_faction12_troop7", slot_troop_pbs_type, pbs_troop_type_guard),
@@ -275,6 +283,14 @@ scripts = [
 (troop_set_slot, "trp_faction14_troop11", slot_troop_pbs_type, pbs_troop_type_cavranged),
 (troop_set_slot, "trp_faction14_troop12", slot_troop_pbs_type, pbs_troop_type_cavranged),
 (troop_set_slot, "trp_faction14_troop13", slot_troop_pbs_type, pbs_troop_type_light),
+(troop_set_slot, "trp_faction15_troop6", slot_troop_pbs_type, pbs_troop_type_light),
+(troop_set_slot, "trp_faction15_troop7", slot_troop_pbs_type, pbs_troop_type_guard),
+(troop_set_slot, "trp_faction15_troop8", slot_troop_pbs_type, pbs_troop_type_guard),
+(troop_set_slot, "trp_faction15_troop9", slot_troop_pbs_type, pbs_troop_type_cavmelee),
+(troop_set_slot, "trp_faction15_troop10", slot_troop_pbs_type, pbs_troop_type_cavmelee),
+(troop_set_slot, "trp_faction15_troop11", slot_troop_pbs_type, pbs_troop_type_cavranged),
+(troop_set_slot, "trp_faction15_troop12", slot_troop_pbs_type, pbs_troop_type_cavranged),
+(troop_set_slot, "trp_faction15_troop13", slot_troop_pbs_type, pbs_troop_type_light),
 (troop_set_slot, "trp_faction17_troop5", slot_troop_pbs_type, pbs_troop_type_light),
 (troop_set_slot, "trp_faction17_troop6", slot_troop_pbs_type, pbs_troop_type_light),
 (troop_set_slot, "trp_faction17_troop7", slot_troop_pbs_type, pbs_troop_type_guard),
@@ -22491,21 +22507,6 @@ scripts = [
 		(faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_inactive),
 		(call_script, "script_activate_player_faction", "trp_player"),
 	  (try_end),
-	  	  
-      #(call_script, "script_activate_deactivate_player_faction", ":old_faction"),
-      #(try_begin),
-      #(eq, ":faction_no", "fac_player_supporters_faction"),
-      #(faction_slot_eq, "fac_player_supporters_faction", slot_faction_leader, "trp_player"),
-      #(call_script, "script_give_center_to_lord", ":center_no", "trp_player", 0),
-	
-      #check with Armagan -- what is this here for?
-      #(try_for_range, ":cur_village", villages_begin, villages_end),
-      #(store_faction_of_party, ":cur_village_faction", ":cur_village"),
-      #(eq, ":cur_village_faction", "fac_player_supporters_faction"),
-      #(neg|party_slot_eq, ":cur_village", slot_town_lord, "trp_player"),
-      #(call_script, "script_give_center_to_lord", ":cur_village", "trp_player", 0),
-      #(try_end),
-      #(try_end),
     ]),
   
   # script_give_center_to_faction_aux
@@ -55835,6 +55836,8 @@ scripts = [
 ]),
 ("cf_YuriSpawnCannon",
 [
+(neq, "$g_battle_type", battle_type_siege_interior),
+
 (store_script_param, ":Agent", 1),
 (agent_get_team, ":TeamOfOfficer", ":Agent"),
 (agent_get_division , ":Company", ":Agent"),
@@ -57435,7 +57438,6 @@ scripts = [
     (troop_set_slot, "trp_player", slot_troop_home, ":capital"),
 
     #####Removing the active King 
-     #(call_script,"script_change_troop_faction",":liege","fac_player_supporters_faction"),
      (troop_get_slot, ":king_party", ":liege", slot_troop_leaded_party),
      (remove_party,":king_party"),
      (troop_set_slot, ":liege", slot_troop_leaded_party, -1),
@@ -58291,6 +58293,68 @@ scripts = [
 		(set_relation, ":faction2", ":faction1", -30),
 		(try_end),
 	(try_end),
+]),
+
+("randomize_preset_wars",
+[
+	(try_for_range, ":faction1", npc_kingdoms_begin, npc_kingdoms_end),
+		(try_for_range, ":faction2", npc_kingdoms_begin, npc_kingdoms_end),
+		(neq, ":faction1", ":faction2"),
+		(store_relation, ":relation", ":faction1", ":faction2"),
+		(le, ":relation", 10),
+		(call_script, "script_cf_if_faction_borders_a_faction_by_land", ":faction1", ":faction2"),
+		(call_script, "script_cf_random", 25),
+		(set_relation, ":faction1", ":faction2", -30),
+		(set_relation, ":faction2", ":faction1", -30),
+		(try_end),
+	(try_end),
+]),
+
+("faction_annex_faction",
+[
+(store_script_param, ":faction_annexer", 1),
+(store_script_param, ":faction_being_annexed", 2),
+(store_script_param, ":chance_of_lords_leaving", 3),
+
+(faction_get_slot, ":liege", ":faction_being_annexed", slot_faction_leader),
+(call_script, "script_remove_lord_from_game", ":liege"),
+	 
+	(try_for_range, ":lord", lords_begin, lords_end),
+	(store_faction_of_troop, ":faction", ":lord"),
+	(eq, ":faction", ":faction_being_annexed"),
+		(try_begin),
+		(call_script, "script_cf_random", ":chance_of_lords_leaving"),
+		(call_script, "script_remove_lord_from_game", ":lord"),
+		(else_try),
+		(call_script,"script_change_troop_faction", ":lord", ":faction_annexer"),
+		(troop_set_slot, ":lord", slot_troop_occupation, slto_kingdom_hero),
+		(try_end),
+	(try_end),
+	(try_for_range, ":center", walled_centers_begin, walled_centers_end),
+	(store_faction_of_party, ":faction", ":center"),
+	(eq, ":faction", ":faction_being_annexed"),
+	(call_script, "script_give_center_to_faction_aux", ":center", ":faction_annexer"),
+	(try_end),
+(faction_get_slot, ":string", ":faction_annexer", slot_faction_flag_scene),
+(store_sub, ":flag", ":string", "str_flag1_0"),
+(call_script, "script_change_faction_flag", ":faction_annexer", ":flag"),
+
+]),
+
+("remove_lord_from_game",
+[
+(store_script_param, ":lord", 1),
+
+(troop_get_slot, ":lord_party", ":lord", slot_troop_leaded_party),
+(remove_party,":lord_party"),
+(troop_set_slot, ":lord", slot_troop_leaded_party, -1),
+(troop_set_slot, ":lord", slot_troop_occupation, slto_inactive),
+(troop_set_slot, ":lord", slot_troop_cur_center, -1),
+(troop_set_slot, ":lord", slot_troop_home, -1),
+(troop_set_slot, ":troop_no", slot_troop_change_to_faction, "fac_no_faction"),
+(troop_set_slot, ":troop_no", slot_troop_original_faction, "fac_no_faction"),
+(troop_set_faction, ":lord", "fac_no_faction"),
+#(troop_set_note_available, ":lord", 0),
 ]),
 
 

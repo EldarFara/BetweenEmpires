@@ -2743,6 +2743,12 @@ game_menus = [
          (jump_to_menu, "mnu_cheat_change_weather"),
 	   ]
        ),	   
+
+      ("camp_cheat_annex_sicily",[], "Annex Sicily",
+       [
+         (call_script, "script_faction_annex_faction", "fac_player_supporters_faction", "fac_kingdom_11", 50),
+	   ]
+       ),	  
 	   
       ("camp_cheat_1",[],"{!}Increase player renown.",
        [
@@ -10449,7 +10455,7 @@ game_menus = [
         (quest_get_slot, ":target_center", "qst_collect_taxes", slot_quest_target_center),
         (try_begin),
           (party_slot_eq, ":target_center", slot_party_type, spt_town),
-          (party_get_slot, ":town_alley", ":target_center", slot_town_alley),
+          (party_get_slot, ":town_alley", ":target_center", slot_town_center),
         (else_try),
           (party_get_slot, ":town_alley", ":target_center", slot_castle_exterior),
         (try_end),
@@ -14740,7 +14746,7 @@ game_menus = [
   
   (
     "tech_invented",0,
-    "Your faction has researched {s1}!^^^{s2}",
+    "The {s3} has researched {s1}!^^^{s2}",
     "bg3",
     [
 		(try_begin),
@@ -14755,9 +14761,12 @@ game_menus = [
 	(val_add, ":string_description", ":slot_number"), (val_add, ":string_description", ":slot_number"),
 	(str_store_string, s1, ":string_name"),
 	(str_store_string, s2, ":string_description"),
+	(str_store_faction_name, s3, "$players_kingdom"),
 	],
     [
-	("to_the_tech_menu", [],"To technologies menu",
+	("to_the_tech_menu", [
+	(eq, "$players_kingdom", "fac_player_supporters_faction"),
+	],"To technologies menu",
        [
         (start_presentation, "prsnt_faction_technologies"),
         ]),

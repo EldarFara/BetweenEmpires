@@ -100,7 +100,7 @@ itemsfile version 3
  0
 0
 
- itm_practice_staff Practice_Staff Practice_Staff 1  disabled_item_mw 0  2251801026232324 4222129415393024 9 0 2.500000 100 0 0 0 0 18432 103 0 118 0 530 530
+ itm_practice_staff Practice_Staff Practice_Staff 1  quarter_staff 0  2251801026232324 4222129415393024 9 0 2.500000 100 0 0 0 0 18432 103 0 118 0 530 530
  0
 0
 

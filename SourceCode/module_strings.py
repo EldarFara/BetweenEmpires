@@ -4060,7 +4060,7 @@ We apologize sincerely if you contributed your suggestions and feedback but were
   ("feast_wedding_opportunity", " If your betrothed and her family are present, then this may be an opportunity for you to celebrate the wedding."),
   ("s21_the_s8_declared_war_as_part_of_a_bid_to_conquer_all_calradia", "{s21}. The {s8} declared war with very little pretext, as part of a bid to conquer all Europe."),
   ("master_vinter", "Master vinter"),
-  ("s54_has_left_the_realm", "{s54} has left the realm."),
+  ("s54_has_left_the_realm", "{s54} has resigned his post."),
   ("enterprise_s5_at_s0", "Net revenue from {s5} at {s0}"),  
   
   ("bread_site", "mill"),
