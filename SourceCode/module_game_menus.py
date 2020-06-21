@@ -638,6 +638,11 @@ game_menus = [
        [(jump_to_menu, "mnu_faction_relations_report"),
         ]
        ),
+      # ("view_reports_war_damage",[],"View faction war damage report.",
+       # [
+	   # (jump_to_menu, "mnu_reports_war_damage"),
+        # ]
+       # ),
       ("resume_travelling",[],"Resume travelling.",
        [(change_screen_return),
         ]
@@ -2744,11 +2749,11 @@ game_menus = [
 	   ]
        ),	   
 
-      ("camp_cheat_annex_sicily",[], "Annex Sicily",
-       [
-         (call_script, "script_faction_annex_faction", "fac_player_supporters_faction", "fac_kingdom_11", 50),
-	   ]
-       ),	  
+      # ("camp_cheat_annex_sicily",[], "Annex Sicily",
+       # [
+         # (call_script, "script_faction_annex_faction", "fac_player_supporters_faction", "fac_kingdom_11", 50),
+	   # ]
+       # ),	  
 	   
       ("camp_cheat_1",[],"{!}Increase player renown.",
        [
@@ -14787,6 +14792,18 @@ game_menus = [
         (change_screen_return),
         ]),
 	]),
+
+  ("italian_unification",0,
+    "{s2} annexed!^^Following intense fighting against the armies of the {s1}, the {s2} was forced to surrender. After the national committee signed a treaty in the national palace, {s3} ratified the agreement in the early morning hours and effectively ended {s2}'s national sovereignty. Italian Unification has just become a looming reality.",
+    "bg3",
+    [],
+    [
+	("close", [],"Close",
+       [
+        (change_screen_return),
+        ]),
+	]),
+
 
   
  ]

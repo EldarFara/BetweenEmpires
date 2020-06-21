@@ -1,8 +1,17 @@
-198
+207
 cant_find_this.ogg 0 0
 main_menu.ogg 4194432 4194432
 game_start1.ogg 1152 1664
 headquarters_generic01.ogg 32768 32768
+prebattle_generic01.ogg 131072 131072
+prebattle_generic02.ogg 131072 131072
+prebattle_generic03.ogg 131072 131072
+prebattle_generic04.ogg 131072 131072
+prebattle_generic05.ogg 131072 131072
+prebattle_generic06.ogg 131072 131072
+prebattle_generic07.ogg 131072 131072
+prebattle_generic08.ogg 131072 131072
+prebattle_generic09.ogg 131072 131072
 battle_generic01.ogg 4096 4096
 battle_generic02.ogg 4096 4096
 battle_generic03.ogg 4096 4096

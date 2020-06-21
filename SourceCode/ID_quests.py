@@ -88,7 +88,10 @@ qst_collect_men = 86
 qst_learn_where_merchant_brother_is = 87
 qst_save_relative_of_merchant = 88
 qst_save_town_from_bandits = 89
-qst_quests_end = 90
+qst_italy_unification_defeat_sardinia = 90
+qst_italy_unification_defeat_sicily = 91
+qst_italy_unification_defeat_papalstates = 92
+qst_quests_end = 93
 qsttag_deliver_message = 504403158265495552
 qsttag_deliver_message_to_enemy_lord = 504403158265495553
 qsttag_raise_troops = 504403158265495554
@@ -179,6 +182,9 @@ qsttag_collect_men = 504403158265495638
 qsttag_learn_where_merchant_brother_is = 504403158265495639
 qsttag_save_relative_of_merchant = 504403158265495640
 qsttag_save_town_from_bandits = 504403158265495641
-qsttag_quests_end = 504403158265495642
+qsttag_italy_unification_defeat_sardinia = 504403158265495642
+qsttag_italy_unification_defeat_sicily = 504403158265495643
+qsttag_italy_unification_defeat_papalstates = 504403158265495644
+qsttag_quests_end = 504403158265495645
 
 

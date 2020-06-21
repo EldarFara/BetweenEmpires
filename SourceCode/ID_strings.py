@@ -3685,5 +3685,8 @@ str_flag1_147 = 3683
 str_flag1_148 = 3684
 str_flag1_149 = 3685
 str_flag1_150 = 3686
+str_italy_unification_defeat_sardinia_desc = 3687
+str_italy_unification_defeat_sicily_desc = 3688
+str_italy_unification_defeat_papalstates_desc = 3689
 
 

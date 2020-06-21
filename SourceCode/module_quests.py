@@ -409,7 +409,29 @@ quests = [
 
   ("save_town_from_bandits", "Save Town from Bandits", 0,
   "{!}placeholder."
-  ),   
+  ),
+
+("italy_unification_defeat_sardinia", "Italy Unification: Conquer the Kingdom of Sardinia", 0,
+"In order to unite Italy, {s1} will have to conquer the two Italian states still remaining on the Italian Peninsula. One of those states is the Kingdom of\
+Sardinia. In order to force her government to surrender to our forces, we will have to focus on two strategic goals.\
+^^-Conquer the Sardinian capital of Turin.\
+^-Cripple the Kingdom of Sardinia by defeating their armies, laying waste to settlements, and conquering cities.\
+^^Once we've caused enough damage to the Sardinian military and economy, they will be forced to surrender to our army, allowing us to begin integration procedures."
+),
+("italy_unification_defeat_sicily", "Italy Unification: Conquer the Kingdom of Two Sicilies", 0,
+"In order to unite Italy, {s1} will have to conquer the two Italian states still remaining on the Italian Peninsula. One of those states is the Kingdom of Two\
+Sicilies. In order to force her government to surrender to our forces, we will have to focus on two strategic goals.\
+^^-Conquer the Sicilian capital of Naples.\
+^-Cripple the Kingdom of two Sicilies by defeating the Bourbon armies, laying waste to settlements, and conquering cities.\
+^^Once we've caused enough damage to the Sicilian military and economy, they will be forced to surrender to our army, allowing us to begin integration procedures."
+),
+("italy_unification_defeat_papalstates", "Italy Unification: Conquer the Papal States", 0,
+"In order to unite Italy, {s1} will have to conquer the two Italian states still remaining on the Italian Peninsula. One of those states is the Papal\
+State. In order to force her government to surrender to our forces, we will have to focus on two strategic goals.\
+^^-Conquer the Italian capital of Rome.\
+^-Cripple the Papal State by defeating Papal armies, laying waste to settlements, and conquering cities.\
+^^Once we've caused enough damage to the Papal military and economy, they will be forced to surrender to our army, allowing us to begin integration procedures."
+),
   
  ("quests_end", "Quests End", 0, "{!}."),
 ]

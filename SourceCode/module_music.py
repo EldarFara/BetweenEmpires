@@ -16,6 +16,16 @@ tracks = [
 
 ("headquarters_generic01", "headquarters_generic01.ogg", mtf_situation_headquarters, 0),
 
+("prebattle_generic01", "prebattle_generic01.ogg", mtf_situation_prebattle, 0),
+("prebattle_generic02", "prebattle_generic02.ogg", mtf_situation_prebattle, 0),
+("prebattle_generic03", "prebattle_generic03.ogg", mtf_situation_prebattle, 0),
+("prebattle_generic04", "prebattle_generic04.ogg", mtf_situation_prebattle, 0),
+("prebattle_generic05", "prebattle_generic05.ogg", mtf_situation_prebattle, 0),
+("prebattle_generic06", "prebattle_generic06.ogg", mtf_situation_prebattle, 0),
+("prebattle_generic07", "prebattle_generic07.ogg", mtf_situation_prebattle, 0),
+("prebattle_generic08", "prebattle_generic08.ogg", mtf_situation_prebattle, 0),
+("prebattle_generic09", "prebattle_generic09.ogg", mtf_situation_prebattle, 0),
+
 ("battle_generic01", "battle_generic01.ogg", mtf_situation_battle, 0),
 ("battle_generic02", "battle_generic02.ogg", mtf_situation_battle, 0),
 ("battle_generic03", "battle_generic03.ogg", mtf_situation_battle, 0),

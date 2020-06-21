@@ -3495,6 +3495,75 @@ dialogs = [
    
    
    [anyone|plyr, "minister_talk",
+   [
+	(this_or_next|eq, "$player_faction_preset", "fac_kingdom_4"),
+	(this_or_next|eq, "$player_faction_preset", "fac_kingdom_11"),
+	(eq, "$player_faction_preset", "fac_kingdom_19"),
+   ],
+   "It's time to expand our influence and unite the Italian people. How could we go about this?", "italy_unification_start1",
+   []],
+   
+   [anyone, "italy_unification_start1",
+   [
+   (try_begin),
+	(eq, "$player_faction_preset", "fac_kingdom_4"),
+	(str_store_string, s1, "@Papal State, and our primary Italian adversary, the Kingdom of Two Sicilies"),
+   (else_try),   
+	(eq, "$player_faction_preset", "fac_kingdom_11"),
+	(str_store_string, s1, "@Papal State, and our primary Italian adversary, the Kingdom of Sardinia"),
+   (else_try),   
+	(eq, "$player_faction_preset", "fac_kingdom_19"),
+	(str_store_string, s1, "@Kingdom of Two Sicilies, and our primary Italian adversary, the the Kingdom of Sardinia"),
+   (try_end),   
+   ],
+"Quite ambitions, {Sir\my Lady}, yet very righteous, if I dare say so myself. To unite Italy, we will have to conquer the illegitimate \
+{s1}. Conquering their capitals will be of utmost importance, but it will hardly be enough to force them to surrender. You will need to cause some... \
+disdain with the current affairs within their general population, be that through military victories on the fields on our part, or having \
+forts and cities at the frontiers fall into our hands.", "italy_unification_start2",
+   []],
+   
+   [anyone|plyr, "italy_unification_start2",
+   [],
+   "So be it, we will reunite Italy. We can't let the deaths of our fathers be in vain.", "italy_unification_start3_proceed",
+   []],
+   
+   [anyone|plyr, "italy_unification_start2",
+   [],
+   "We can't spill the blood of Italians and pretend it will bring us together. I will have to rethink.", "italy_unification_start3_cancel",
+   []],
+   
+   [anyone, "italy_unification_start3_proceed",
+   [
+	(str_store_faction_name, s1, "fac_player_supporters_faction"),
+		(try_begin),
+		(eq, "$player_faction_preset", "fac_kingdom_4"),
+		(str_store_string, s2, "str_italy_unification_defeat_sicily_desc"),
+		(call_script, "script_start_quest", "qst_italy_unification_defeat_sicily", "$g_talk_troop"),
+		(str_store_string, s2, "str_italy_unification_defeat_papalstates_desc"),
+		(call_script, "script_start_quest", "qst_italy_unification_defeat_papalstates", "$g_talk_troop"),
+		(else_try),   
+		(eq, "$player_faction_preset", "fac_kingdom_11"),
+		(str_store_string, s2, "str_italy_unification_defeat_sardinia_desc"),
+		(call_script, "script_start_quest", "qst_italy_unification_defeat_sardinia", "$g_talk_troop"),
+		(str_store_string, s2, "str_italy_unification_defeat_papalstates_desc"),
+		(call_script, "script_start_quest", "qst_italy_unification_defeat_papalstates", "$g_talk_troop"),
+		(else_try),   
+		(eq, "$player_faction_preset", "fac_kingdom_19"),
+		(str_store_string, s2, "str_italy_unification_defeat_sardinia_desc"),
+		(call_script, "script_start_quest", "qst_italy_unification_defeat_sardinia", "$g_talk_troop"),
+		(str_store_string, s2, "str_italy_unification_defeat_sicily_desc"),
+		(call_script, "script_start_quest", "qst_italy_unification_defeat_sicily", "$g_talk_troop"),
+		(try_end),
+   ],
+   "Glory to Italy, {Sir\my Lady}! I pray we soon unite with the rest of the Italian people, and that we may bring the terre irredente back into the Kingdom.", "close_window",
+   []],
+   
+   [anyone, "italy_unification_start3_cancel",
+   [],
+   "So be it, my {King\Queen}. I support your decision regardless, but consider the importance freeing our people from the yolk of foreign oppression has for all of us.", "close_window",
+   []],
+   
+   [anyone|plyr, "minister_talk",
    [],
    "That is all for now.", "close_window",
    []],

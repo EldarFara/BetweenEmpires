@@ -1,4 +1,4 @@
-939
+942
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -255,7 +255,7 @@ qstr_noone noone
 qstr_{s9}_and_{s10} {s9}_and_{s10}
 qstr_{!}{s9}_{s10} {!}{s9},_{s10}
 qstr_{!}DEBUG_:_{s21}.^CH {!}DEBUG_:_{s21}.^CHEAT_MODE_ASSESSMENT:_{s14}^
-qstr_{s5}_has_been_defeat {s5}_has_been_defeated!
+qstr_{s5}_has_been_defeat {s5}_has_been_defeated.
 qstr_{!}DEBUG____Assigned {!}DEBUG_--_Assigned_lord_reputation_and_relations
 qstr_{s7}_opened_the_gate {s7}_opened_the_gate
 qstr_{s7}_closed_the_gate {s7}_closed_the_gate
@@ -842,6 +842,9 @@ qstr_we_have_become_a_sig we_have_become_a_significant_force,_and_we_have_an_eve
 qstr_we_are_winning_the_w we_are_winning_the_war,_but_our_enemies_are_still_holding_on.
 qstr_we_are_on_the_verge_ we_are_on_the_verge_of_victory._The_remaining_enemies_pose_no_threat,_but_we_still_need_to_hunt_them_down.
 qstr_{!}current_town_was_ {!}current_town_was_{reg1},_now_moved_to_{s7}
+qstr_Papal_State_and_our_ Papal_State,_and_our_primary_Italian_adversary,_the_Kingdom_of_Two_Sicilies
+qstr_Papal_State_and_our_p Papal_State,_and_our_primary_Italian_adversary,_the_Kingdom_of_Sardinia
+qstr_Kingdom_of_Two_Sicil Kingdom_of_Two_Sicilies,_and_our_primary_Italian_adversary,_the_the_Kingdom_of_Sardinia
 qstr_{playername}_when_we {playername},_when_we_started_our_long_walk,_few_people_had_the_courage_to_support_me._And_fewer_still_would_be_willing_to_put_their_lives_at_risk_for_my_cause._But_you_didn't_hesitate_for_a_moment_in_throwing_yourself_at_my_enemies._We_have_gone_through_a_lot_together,_and_there_were_times_I_came_close_to_losing_all_hope._But_with_God's_help,_we_prevailed._It_is_now_time_for_me_to_leave_your_company_and_take_what's_rightfully_mine._From_now_on,_I_will_carry_out_the_great_responsibility_of_ruling_{s3}._There_still_lie_many_challanges_ahead_and_I_count_on_your_help_in_overcoming_those._And_of_course,_you_will_always_remain_as_my_foremost_vassal.
 qstr__We_will_of_course_n _We_will_of_course_need_to_wait_until_the_realm_is_no_longer_on_campaign.
 qstr_I_am_{s4}_the_ruler_ I_am_{s4},_the_ruler_of_{s6}

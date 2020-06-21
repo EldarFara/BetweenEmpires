@@ -2749,7 +2749,7 @@ troops = [
   ["knight_3_17", "General Koloman Kass", "Rimusk", tf_hero, 0, 0, fac_kingdom_3,
   [itm_lou_general, itm_lou_infantry_trousers1, itm_lou_hat1, itm_saber1, itm_sidearm_colt_dragoon, itm_ammo_pistol, itm_horse_british1a],
   str_19|agi_19|int_13|cha_22|level(35), wp(220), knows_leadership_7|knows_prisoner_management_3|knows_tactics_5|knows_trainer_6|knows_riding_6|knows_athletics_4|knows_power_strike_6|knows_ironflesh_5,0x000000054000824236db6db6db6db6db00000000001db6db0000000000000000, 0x000000054000824236db6db6db6db6db00000000001db6db0000000000000000],
-  ["knight_4_1", "General_Alfonso_La_Marmara", "General_Alfonso_La_Marmara", tf_hero, 0, 0, fac_kingdom_4,
+  ["knight_4_1", "General_Alfonso_La_Marmora", "General_Alfonso_La_Marmora", tf_hero, 0, 0, fac_kingdom_4,
   [itm_res_hat5, itm_res_general1, itm_res_trousers4, itm_saber1, itm_sidearm_colt_m1851_navy, itm_ammo_pistol, itm_horse_british1a],
   str_20|agi_20|int_15|cha_25|level(41), wp(250), knows_leadership_9|knows_prisoner_management_3|knows_tactics_6|knows_trainer_4|knows_riding_7|knows_athletics_5|knows_power_strike_7|knows_ironflesh_6,0x000000057300824236db6db6db6db6db00000000001db6db0000000000000000, 0x000000057300824236db6db6db6db6db00000000001db6db0000000000000000],
   ["knight_4_2", "Major_General_Stefano_Turr", "Major_General_Stefano_Turr", tf_hero, 0, 0, fac_kingdom_4,
@@ -2965,7 +2965,7 @@ troops = [
   ["knight_9_2", "General_Juan_de_Zavala", "General_Juan_de_Zavala", tf_hero, 0, 0, fac_kingdom_9,
   [itm_edt_trousers5, itm_edt_cavalry3, itm_edt_hat4, itm_sidearm_colt_m1851_navy, itm_ammo_pistol, itm_horse_british1a, itm_saber1],
   str_16|agi_16|int_10|cha_18|level(26), wp(160), knows_leadership_5|knows_prisoner_management_2|knows_tactics_3|knows_riding_4|knows_athletics_2|knows_power_draw_4|knows_power_strike_4|knows_ironflesh_3,0x000000057300834236db6db6db6db6db00000000001db6db0000000000000000, 0x000000057300834236db6db6db6db6db00000000001db6db0000000000000000],
-  ["knight_9_3", "Officer_Juhan_Prim_Pras", "Officer_Juhan_Prim_Pras", tf_hero, 0, 0, fac_kingdom_9,
+  ["knight_9_3", "Officer Juan Prim y Prats", "Officer Juan Prim y Prats", tf_hero, 0, 0, fac_kingdom_9,
   [itm_edt_trousers5, itm_edt_cavalry3, itm_edt_hat4, itm_sidearm_colt_m1851_navy, itm_ammo_pistol, itm_horse_british1a, itm_saber1],
   str_18|agi_17|int_12|cha_20|level(30), wp(190), knows_leadership_6|knows_prisoner_management_2|knows_tactics_4|knows_trainer_5|knows_riding_5|knows_athletics_3|knows_power_draw_4|knows_power_strike_5|knows_ironflesh_4,0x00000005730083c336db6db6db6db6db00000000001db6db0000000000000000, 0x00000005730083c336db6db6db6db6db00000000001db6db0000000000000000],
   ["knight_9_4", "General_Leopoldo_Donnell", "General_Leopoldo_Donnell", tf_hero, 0, 0, fac_kingdom_9,
@@ -11836,6 +11836,26 @@ str_9|agi_5|int_4|cha_4|level(8), wp1(70, 75), knows_trade_2|knows_leadership_1|
 ["rebel_caucasus6", "Caucasus Insurgent Cavalry (Exp.)", "Caucasus Insurgent Cavalry (Exp.)", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_2,
 [itm_ammo_rifle, itm_rifle_russian_m1845_carbine, itm_saber1]+items_european_urban_clothing_male+items_european_rural_clothing_male+items_austrian_horses,
 str_11|agi_5|int_4|cha_4|level(12), wp1(85, 90), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+["rebel_redshirt1", "Red Shirt Volunteer", "Red Shirt Volunteers", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_gloves|tf_guarantee_ranged|tf_guarantee_helmet, 0, 0, fac_kingdom_7,
+[itm_res_trousers6, itm_res_infantry6, itm_res_hat7, itm_ammo_rifle, itm_rifle_italian_m1844],
+str_5|agi_5|int_4|cha_4|level(4), wp1(60, 50), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000208236db6db6db6db6db00000000001db6db0000000000000000, 0x00000001800021c236db6db6db6db6db00000000001db6db0000000000000000],
+["rebel_redshirt2", "Red Shirt Volunteer (Exp.)", "Red Shirt Volunteers (Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_gloves|tf_guarantee_ranged|tf_guarantee_helmet, 0, 0, fac_kingdom_7,
+[itm_res_trousers6, itm_res_infantry6, itm_res_hat7, itm_ammo_rifle, itm_rifle_italian_m1844],
+str_5|agi_5|int_4|cha_4|level(8), wp1(75, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000208236db6db6db6db6db00000000001db6db0000000000000000, 0x00000001800021c236db6db6db6db6db00000000001db6db0000000000000000],
+["rebel_redshirt3", "Red Shirt Sharpshooter", "Red Shirt Sharpshooters", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_gloves|tf_guarantee_ranged|tf_guarantee_helmet, 0, 0, fac_kingdom_7,
+[itm_res_trousers6, itm_res_infantry6, itm_res_hat7, itm_ammo_rifle, itm_rifle_italian_m1844],
+str_5|agi_5|int_4|cha_4|level(8), wp1(55, 80), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000208236db6db6db6db6db00000000001db6db0000000000000000, 0x00000001800021c236db6db6db6db6db00000000001db6db0000000000000000],
+["rebel_redshirt4", "Red Shirt Sharpshooter (Exp.)", "Red Shirt Sharpshooters", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_gloves|tf_guarantee_ranged|tf_guarantee_helmet, 0, 0, fac_kingdom_7,
+[itm_res_trousers6, itm_res_infantry6, itm_res_hat7, itm_ammo_rifle, itm_rifle_italian_m1844],
+str_5|agi_5|int_4|cha_4|level(12), wp1(60, 90), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000208236db6db6db6db6db00000000001db6db0000000000000000, 0x00000001800021c236db6db6db6db6db00000000001db6db0000000000000000],
+["rebel_redshirt5", "Red Shirt Cavalry", "Red Shirt Cavalry", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_7,
+[itm_res_trousers6, itm_res_infantry6, itm_res_hat7, itm_ammo_rifle, itm_rifle_italian_m1844_carbine, itm_saber1]+items_austrian_horses,
+str_9|agi_5|int_4|cha_4|level(8), wp1(70, 75), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000034236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000040236db6db6db6db6db00000000001db6db0000000000000000],
+["rebel_redshirt6", "Red Shirt Cavalry (Exp.)", "Red Shirt Cavalry (Exp.)", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_7,
+[itm_res_trousers6, itm_res_infantry6, itm_res_hat7, itm_ammo_rifle, itm_rifle_italian_m1844_carbine, itm_saber1]+items_austrian_horses,
+str_11|agi_5|int_4|cha_4|level(12), wp1(85, 90), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+
+
 
 ["troops_end", "{!}quick battle troops end", "{!}quick battle troops end", 0, 0, 0, fac_kingdom_5,
 [],
@@ -11849,6 +11869,10 @@ upgrade2(troops,"rebel_european1", "rebel_european2", "rebel_european3")
 upgrade(troops,"rebel_european2", "rebel_european5")
 upgrade(troops,"rebel_european3", "rebel_european4")
 upgrade(troops,"rebel_european5", "rebel_european6")
+upgrade2(troops,"rebel_redshirt1", "rebel_redshirt2", "rebel_redshirt3")
+upgrade(troops,"rebel_redshirt2", "rebel_redshirt5")
+upgrade(troops,"rebel_redshirt3", "rebel_redshirt4")
+upgrade(troops,"rebel_redshirt5", "rebel_redshirt6")
 upgrade2(troops,"rebel_indian1", "rebel_indian2", "rebel_indian3")
 upgrade(troops,"rebel_indian2", "rebel_indian5")
 upgrade(troops,"rebel_indian3", "rebel_indian4")

@@ -702,5 +702,6 @@ script_randomize_preset_wars = 700
 script_randomize_preset_wars = 701
 script_faction_annex_faction = 702
 script_remove_lord_from_game = 703
+script_get_strength_modifier_for_faction_by_technologies = 704
 
 
