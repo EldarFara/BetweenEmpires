@@ -702,5 +702,7 @@ script_init_preset_wars = 700
 script_faction_annex_faction = 701
 script_remove_lord_from_game = 702
 script_get_strength_modifier_for_faction_by_technologies = 703
+script_async_init_ai_calculation = 704
+script_async_recalculate_ais = 705
 
 

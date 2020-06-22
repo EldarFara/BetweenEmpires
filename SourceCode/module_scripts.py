@@ -24187,7 +24187,14 @@ scripts = [
   # called from triggers every two hours
   ("process_village_raids",
     [
-       (try_for_range, ":village_no", villages_begin, villages_end),
+(val_clamp, "$async_process_village_raids", villages_begin, villages_end),
+(val_add, "$async_process_village_raids", 1),
+	(try_begin),	
+	(ge, "$async_process_village_raids", villages_end),
+	(assign, "$async_process_village_raids", villages_begin),
+	(try_end),
+		(try_begin),
+       (assign, ":village_no", "$async_process_village_raids"),
         ##CABA Fix 
         (try_begin), 
           (this_or_next|is_between, ":village_no", "p_village_16", "p_village_23"), #Shapeshte through Shulus (up to Ilvia) 
@@ -24356,7 +24363,14 @@ scripts = [
   #called from triggers
   ("process_sieges",
     [
-       (try_for_range, ":center_no", walled_centers_begin, walled_centers_end),
+(val_clamp, "$async_process_sieges", walled_centers_begin, walled_centers_end),
+(val_add, "$async_process_sieges", 1),
+	(try_begin),	
+	(ge, "$async_process_sieges", walled_centers_end),
+	(assign, "$async_process_sieges", walled_centers_begin),
+	(try_end),
+		(try_begin),
+       (assign, ":center_no", "$async_process_sieges"),
          #Reducing siege hardness every day by 20
          (party_get_slot, ":siege_hardness", ":center_no", slot_center_siege_hardness),
          (val_sub, ":siege_hardness", 20),
@@ -58274,7 +58288,97 @@ scripts = [
 
 (assign, reg1, ":modifier"),
 ]),
+  
+  # script_async_init_ai_calculation
+  # Input: none
+  # Output: none
+  ("async_init_ai_calculation",
+    [
+(val_clamp, "$async_init_ai_calculation_1", heroes_begin, heroes_end),
+(val_add, "$async_init_ai_calculation_1", 1),
+	(try_begin),	
+	(ge, "$async_init_ai_calculation_1", heroes_end),
+	(assign, "$async_init_ai_calculation_1", heroes_begin),
+	(try_end),
+		(try_begin),
+      (assign, ":cur_troop", "$async_init_ai_calculation_1"),
+        (troop_slot_eq, ":cur_troop", slot_troop_occupation, slto_kingdom_hero),
+        (troop_get_slot, ":cur_party", ":cur_troop", slot_troop_leaded_party),
+        (party_is_active, ":cur_party"),
+        (call_script, "script_party_calculate_strength", ":cur_party", 0), #will update slot_party_cached_strength
+      (try_end),
+      (call_script, "script_party_calculate_strength", "p_main_party", 0), #will update slot_party_cached_strength
+	  
+(val_clamp, "$async_init_ai_calculation_2", walled_centers_begin, walled_centers_end),
+(val_add, "$async_init_ai_calculation_2", 1),
+	(try_begin),	
+	(ge, "$async_init_ai_calculation_2", walled_centers_end),
+	(assign, "$async_init_ai_calculation_2", walled_centers_begin),
+	(try_end),
+		(try_begin),
+      (assign, ":cur_center", "$async_init_ai_calculation_2"),
+        (call_script, "script_party_calculate_strength", ":cur_center", 0), #will update slot_party_cached_strength
+      (try_end),
 
+(val_clamp, "$async_init_ai_calculation_3", walled_centers_begin, walled_centers_end),
+(val_add, "$async_init_ai_calculation_3", 1),
+	(try_begin),	
+	(ge, "$async_init_ai_calculation_3", walled_centers_end),
+	(assign, "$async_init_ai_calculation_3", walled_centers_begin),
+	(try_end),
+		(try_begin),
+      (assign, ":cur_center", "$async_init_ai_calculation_3"),
+        (call_script, "script_party_calculate_and_set_nearby_friend_enemy_follower_strengths", ":cur_center"),
+      (try_end),
+
+(val_clamp, "$async_init_ai_calculation_4", heroes_begin, heroes_end),
+(val_add, "$async_init_ai_calculation_4", 1),
+	(try_begin),	
+	(ge, "$async_init_ai_calculation_4", heroes_end),
+	(assign, "$async_init_ai_calculation_4", heroes_begin),
+	(try_end),
+		(try_begin),
+      (assign, ":cur_troop", "$async_init_ai_calculation_4"),
+        (troop_get_slot, ":cur_troop_party", ":cur_troop", slot_troop_leaded_party),
+        (gt, ":cur_troop_party", 0),
+        (party_is_active, ":cur_troop_party"),
+        (call_script, "script_party_calculate_and_set_nearby_friend_enemy_follower_strengths", ":cur_troop_party"),
+      (try_end),
+      (call_script, "script_party_calculate_and_set_nearby_friend_enemy_follower_strengths", "p_main_party"),
+      ]),
+
+  # script_async_recalculate_ais
+  # Input: none
+  # Output: none
+    ("async_recalculate_ais",
+    [
+(val_clamp, "$async_recalculate_ais_1", kingdoms_begin, kingdoms_end),
+(val_add, "$async_recalculate_ais_1", 1),
+	(try_begin),	
+	(ge, "$async_recalculate_ais_1", kingdoms_end),
+	(assign, "$async_recalculate_ais_1", kingdoms_begin),
+	(try_end),
+		(try_begin),
+      (assign, ":faction_no", "$async_recalculate_ais_1"),
+      (assign, reg8, ":faction_no"),
+        (faction_slot_eq, ":faction_no", slot_faction_state, sfs_active),
+        #(neg|faction_slot_eq, ":faction_no",  slot_faction_marshall, "trp_player"),
+        (call_script, "script_decide_faction_ai", ":faction_no"),
+      (try_end),
+      
+(val_clamp, "$async_recalculate_ais_2", active_npcs_begin, active_npcs_end),
+(val_add, "$async_recalculate_ais_2", 1),
+	(try_begin),	
+	(ge, "$async_recalculate_ais_2", active_npcs_end),
+	(assign, "$async_recalculate_ais_2", active_npcs_begin),
+	(try_end),
+		(try_begin),
+      (assign, ":troop_no", "$async_recalculate_ais_2"),
+        (store_troop_faction, ":faction_no", ":troop_no"),        
+        (troop_slot_eq, ":troop_no", slot_troop_occupation, slto_kingdom_hero),
+        (call_script, "script_calculate_troop_ai", ":troop_no"),
+      (try_end),	  
+    ]),
 
 ]# modmerger_start version=201 type=2
 try:

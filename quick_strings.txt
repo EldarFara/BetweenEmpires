@@ -1,4 +1,4 @@
-945
+942
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -802,10 +802,8 @@ qstr_Party_has_nothing_to Party_has_nothing_to_eat!
 qstr_{reg1}_{s1}_{reg2?ha {reg1}_{s1}_{reg2?have:has}_escaped_from_your_party_during_the_night.
 qstr_{s1}_of_{s3}_has_bee {s1}_of_{s3}_has_been_released_from_captivity.
 qstr_Building_of_{s0}_in_ Building_of_{s0}_in_{s4}_has_been_completed.
-qstr_{s1}_has_won_the_tou {s1}_has_won_the_tournament_at_{s2}.
 qstr_{!}{s1}_is_infested_ {!}{s1}_is_infested_by_bandits_(at_night).
 qstr_{s1}_is_no_longer_in {s1}_is_no_longer_infested_by_bandits_(at_night).
-qstr_{!}{s1}_is_holding_a {!}{s1}_is_holding_a_tournament.
 qstr_You_pay_for_accommod You_pay_for_accommodation.
 qstr_Betrothal_to_{s5}_ex Betrothal_to_{s5}_expires
 qstr__Your_tactics_skill_ _Your_tactics_skill_has_increased_by_1.
@@ -824,7 +822,6 @@ qstr_{!}DEBUG_:_{s2}_is_b {!}DEBUG_:_{s2}_is_besieging_by_{s3}
 qstr_{!}DEBUG___Checking_ {!}DEBUG_-_Checking_fire_at_{s4}_for_{s5}_-_current_time_{reg3},_last_nearby_fire_{reg4}
 qstr_The_{s1}_has_finishe The_{s1}_has_finished_researching_technology_of_{s2}
 qstr_The_year_is_{reg0}. The_year_is_{reg0}.
-qstr_x_{reg1}_y_{reg2} x_{reg1}_y_{reg2}
 qstr_Kingdom_of_Italy Kingdom_of_Italy
 qstr_{!}DEBUG____Wanted_b {!}DEBUG_--_Wanted_bandits_spotted_by_{s4}
 qstr_{reg65?my_Lady:my_Lo {reg65?my_Lady:my_Lord}
