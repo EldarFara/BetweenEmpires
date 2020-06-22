@@ -698,10 +698,9 @@ script_cf_if_faction_has_access_to_sea = 696
 script_cf_if_faction_borders_a_faction = 697
 script_cf_if_faction_borders_a_faction_by_land = 698
 script_async_randomly_start_war_peace_new = 699
-script_randomize_preset_wars = 700
-script_randomize_preset_wars = 701
-script_faction_annex_faction = 702
-script_remove_lord_from_game = 703
-script_get_strength_modifier_for_faction_by_technologies = 704
+script_init_preset_wars = 700
+script_faction_annex_faction = 701
+script_remove_lord_from_game = 702
+script_get_strength_modifier_for_faction_by_technologies = 703
 
 

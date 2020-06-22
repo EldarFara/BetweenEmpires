@@ -25795,7 +25795,7 @@ trp_european_outlaw_urban4 Urban_Fugitive Urban_Fugitive 0 70254592 0 0 2 0 0
 274 131072 0 1 0 0 
   1056964610 3952873730080618203 1947355 0 68702720518 5615707260354297855 2031609 0 
 
-trp_factionplayer_fieldgun_cannoneer_officer factionplayer_Field_Gun_Crew_Officer Field_Gun_Crew_Officers 0 82837504 0 0 41 0 0
+trp_factionplayer_fieldgun_cannoneer_officer Field_Gun_Crew_Officer Field_Gun_Crew_Officers 0 82837504 0 0 41 0 0
   620 0 626 0 627 0 628 0 634 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 
   10 5 4 4 12
  55 55 55 70 70 55 70

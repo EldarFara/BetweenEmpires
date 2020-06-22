@@ -18,7 +18,7 @@ import string
 ####################################################################################################################
 
 presentations = [
-  ("game_credits",prsntf_read_only,mesh_load_window,[
+  ("game_credits",prsntf_read_only,mesh_load_window2,[
       (ti_on_presentation_load,
        [(assign, "$g_presentation_credits_obj_1", -1),
         (assign, "$g_presentation_credits_obj_2", -1),
@@ -277,7 +277,7 @@ presentations = [
         ]),
       ]),
 
-  ("game_profile_banner_selection", 0, mesh_load_window, [
+  ("game_profile_banner_selection", 0, mesh_load_window2, [
     (ti_on_presentation_load, [
       (set_fixed_point_multiplier, 1000),
       (str_store_string, s1, "str_profile_banner_selection_text"),
@@ -8587,7 +8587,7 @@ presentations = [
       ]),
 
 ## ZZ Custom Kingdom Troops begin	 
-  ("name_kingdom",0,mesh_load_window,[
+  ("name_kingdom",0,mesh_load_window2,[
       (ti_on_presentation_load,
        [(set_fixed_point_multiplier, 1000),
 	   
@@ -8624,7 +8624,6 @@ presentations = [
 	(else_try),
 		(eq, ":object", "$g_presentation_obj_name_kingdom_2"),
 		(faction_set_name, "fac_player_supporters_faction", s7),
-		(faction_set_color, "fac_player_supporters_faction", 0xFF0000),
 		(assign, "$players_kingdom_name_set", 1),
 		(assign,"$g_player_culture",0),
 		(call_script, "script_player_faction_troops"),
@@ -8644,7 +8643,7 @@ presentations = [
       ]),
 	  ## ZZ Custom Kingdom Troops end
   
-  ("banner_selection",0,mesh_load_window,[
+  ("banner_selection",0,mesh_load_window2,[
       (ti_on_presentation_load,
        [(set_fixed_point_multiplier, 1000),
         (str_store_string, s1, "str_banner_selection_text"),
@@ -8746,7 +8745,7 @@ presentations = [
         ]),
       ]),
 
-  ("custom_banner", 0, mesh_load_window,
+  ("custom_banner", 0, mesh_load_window2,
    [
      (ti_on_presentation_load,
       [
@@ -9288,7 +9287,7 @@ presentations = [
 ##       ]),
      ]),
 
-  ("banner_charge_positioning", 0, mesh_load_window,
+  ("banner_charge_positioning", 0, mesh_load_window2,
    [
      (ti_on_presentation_load,
       [
@@ -9334,7 +9333,7 @@ presentations = [
         ]),
      ]),
 
-  ("banner_charge_selection", 0, mesh_load_window,
+  ("banner_charge_selection", 0, mesh_load_window2,
    [
      (ti_on_presentation_load,
       [
@@ -9384,7 +9383,7 @@ presentations = [
         ]),
      ]),
 
-  ("banner_background_selection", 0, mesh_load_window,
+  ("banner_background_selection", 0, mesh_load_window2,
    [
      (ti_on_presentation_load,
       [
@@ -9430,7 +9429,7 @@ presentations = [
         ]),
      ]),
 
-  ("banner_flag_type_selection", 0, mesh_load_window,
+  ("banner_flag_type_selection", 0, mesh_load_window2,
    [
      (ti_on_presentation_load,
       [
@@ -9476,7 +9475,7 @@ presentations = [
         ]),
      ]),
 
-  ("banner_flag_map_type_selection", 0, mesh_load_window,
+  ("banner_flag_map_type_selection", 0, mesh_load_window2,
    [
      (ti_on_presentation_load,
       [
@@ -9531,7 +9530,7 @@ presentations = [
         ]),
      ]),
 
-  ("color_selection", 0, mesh_load_window,
+  ("color_selection", 0, mesh_load_window2,
    [
      (ti_on_presentation_load,
       [
@@ -9588,7 +9587,7 @@ presentations = [
         ]),
      ]),
 
-  ("marshall_selection", 0, mesh_load_window,
+  ("marshall_selection", 0, mesh_load_window2,
    [
      (ti_on_presentation_load,
       [
@@ -11763,7 +11762,7 @@ presentations = [
         ]),
       ]),
 
-  ("retirement", 0, mesh_load_window,
+  ("retirement", 0, mesh_load_window2,
    [
      (ti_on_presentation_load,
       [
@@ -12456,7 +12455,7 @@ presentations = [
         ]),
      ]),
 
-  ("budget_report", 0, mesh_load_window,
+  ("budget_report", 0, mesh_load_window2,
    [(ti_on_presentation_load,
      [(presentation_set_duration, 999999),
       (set_fixed_point_multiplier, 1000),
@@ -13085,7 +13084,7 @@ presentations = [
       ]),
     ]),
 
-  ("game_before_quit", 0, mesh_load_window,
+  ("game_before_quit", 0, mesh_load_window2,
    [
      (ti_on_presentation_load,
       [
@@ -13719,7 +13718,7 @@ presentations = [
     ]),
     #INVASION MODE END
 
- ("prebattle_custom_deployment", 0, mesh_load_window, [
+ ("prebattle_custom_deployment", 0, mesh_load_window2, [
     (ti_on_presentation_load,
      [(set_fixed_point_multiplier, 1000),
 	  (assign, ":in_count", 0),
@@ -15666,7 +15665,7 @@ in total.^Company types: Line infantry, Guard."),
         (presentation_set_duration, 999999),
         (set_fixed_point_multiplier, 1000),
        
-        (create_mesh_overlay, reg1, "mesh_load_window"),
+        (create_mesh_overlay, reg1, "mesh_load_window2"),
         (position_set_x, pos1, 0),
         (position_set_y, pos1, 0),
         (overlay_set_position, reg1, pos1),
@@ -16054,7 +16053,7 @@ in total.^Company types: Line infantry, Guard."),
       ]),
   ]),
   
-    ("world_map", 0, mesh_load_window, [
+    ("world_map", 0, mesh_load_window2, [
     (ti_on_presentation_load,
       [
         (presentation_set_duration, 999999),
@@ -16553,7 +16552,7 @@ in total.^Company types: Line infantry, Guard."),
 
 
 ## ZZ Custom Kingdom Troops begin
-  ("custom_kingdom_troop", 0, mesh_load_window, [
+  ("custom_kingdom_troop", 0, mesh_load_window2, [
     (ti_on_presentation_load,
       [
         (presentation_set_duration, 999999),
@@ -17506,7 +17505,7 @@ in total.^Company types: Line infantry, Guard."),
  
 ## ZZ Custom Kingdom Troops end
 
-("faction_technologies",0,mesh_load_window,[
+("faction_technologies",0,mesh_load_window2,[
 (ti_on_presentation_load,
 	[
 	(assign, "$g_faction_technologies_selected_tech", -1),
@@ -17833,7 +17832,7 @@ in total.^Company types: Line infantry, Guard."),
 ]),
 
       
-("faction_selection", 0, mesh_load_window, [
+("faction_selection", 0, mesh_load_window2, [
 (ti_on_presentation_load, [
 	(set_fixed_point_multiplier, 1000),      
 	(assign, "$g_faction_selection_selected_faction_number", -1),
@@ -18011,7 +18010,7 @@ in total.^Company types: Line infantry, Guard."),
 ]),
 ]),
 
-("flag_selection", 0, mesh_load_window, [
+("flag_selection", 0, mesh_load_window2, [
 (ti_on_presentation_load, [
 	(set_fixed_point_multiplier, 1000),      
 	(assign, "$g_faction_selection_selected_faction_number", -1),
@@ -18034,7 +18033,7 @@ in total.^Company types: Line infantry, Guard."),
 		(store_mul, ":coor_y", ":index_y", 150), (store_sub, ":coor_y", 1900, ":coor_y"),
 			(try_for_range, ":index_x", 0, 5),
 			(val_add, ":faction_number", 1),
-			(le, ":faction_number", 39),
+			(le, ":faction_number", 45),
 			(store_mul, ":coor_x", ":index_x", 150), (val_add, ":coor_x", 60),
 			(create_image_button_overlay, reg1, "mesh_menu_flag1", "mesh_menu_flag1"),
 			(position_set_x, pos1, ":coor_x"), (position_set_y, pos1, ":coor_y"), (overlay_set_position, reg1, pos1), (overlay_set_size, reg1, pos2),

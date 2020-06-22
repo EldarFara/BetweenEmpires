@@ -38,7 +38,7 @@ from module_constants import *
 game_menus = [
   ("start_game_0",menu_text_color(0xFF000000)|mnf_disable_all_keys,
     "Welcome to the Between Empires mod.",
-    "bg3",
+    "none",
     [],
     [
      ("continue",[],"Continue...",
@@ -54,7 +54,7 @@ game_menus = [
 
   ("start_phase_2",mnf_disable_all_keys,
     "Select a city which you want to start your journey at.",
-    "bg3",
+    "none",
     [],
     [
       ("town_factionleader",[
@@ -201,7 +201,7 @@ game_menus = [
   (
     "start_game_3",mnf_disable_all_keys,
     "Choose your scenario:",
-    "bg3",
+    "none",
     [
       (assign, "$g_custom_battle_scenario", 0),
       (assign, "$g_custom_battle_scenario", "$g_custom_battle_scenario"),
@@ -262,7 +262,7 @@ game_menus = [
 
 ##  ("start_game_3",mnf_disable_all_keys,
 ##    "Choose your scenario:",
-##    "bg3",
+##    "none",
 ##    [
 ##      (assign, "$g_custom_battle_scenario", 0),
 ##      (assign, "$g_custom_battle_scenario", "$g_custom_battle_scenario"),
@@ -324,7 +324,7 @@ game_menus = [
   (
     "tutorial",mnf_disable_all_keys,
     "You approach a field where the locals are training with weapons. You can practice here to improve your combat skills.",
-    "bg3",
+    "none",
     [
       (try_begin),
         (eq, "$g_tutorial_entered", 1),
@@ -533,7 +533,7 @@ game_menus = [
 
   ("reports",0,
    "Character Renown: {reg5}^Honor Rating: {reg6}^Party Morale: {reg8}^Party Size Limit: {reg7}^",
-   "bg3",
+   "none",
    [(call_script, "script_game_get_party_companion_limit"),
     (assign, ":party_size_limit", reg0),
     (troop_get_slot, ":renown", "trp_player", slot_troop_renown),
@@ -654,7 +654,7 @@ game_menus = [
     "custom_battle_scene",menu_text_color(0xFF000000)|mnf_disable_all_keys,
     "(NO_TRANS)",
 	
-    "bg3",
+    "none",
     [],
     [
 
@@ -700,7 +700,7 @@ game_menus = [
 ##  (
 ##    "custom_battle_2",mnf_disable_all_keys,
 ##    "{s16}",
-##    "bg3",
+##    "none",
 ##    [
 ##     (assign, "$g_battle_result", 0),
 ##     (set_show_messages, 0),
@@ -935,7 +935,7 @@ game_menus = [
   (
     "custom_battle_end",mnf_disable_all_keys,
     "The battle is over. {s1} Your side killed {reg5} enemies and lost {reg6} troops over the battle. You personally slew {reg7} men in the fighting.",
-    "bg3",
+    "none",
     [
      (assign, reg5, "$g_custom_battle_team2_death_count"),
      (assign, reg6, "$g_custom_battle_team1_death_count"),
@@ -964,7 +964,7 @@ game_menus = [
   
   ("start_game_1",menu_text_color(0xFF000000)|mnf_disable_all_keys,
     "Select your character's gender.",
-    "bg3",
+    "none",
     [],
     [
       ("start_male",[],"Male",
@@ -991,7 +991,7 @@ game_menus = [
   (
     "start_character_1",mnf_disable_all_keys,
     "You were born years ago. Your father was...",
-    "bg3",
+    "none",
     [
     (str_clear,s10),
     (str_clear,s11),
@@ -1085,7 +1085,7 @@ game_menus = [
   (
     "start_character_2",0,
     "{s10}^^ You started to learn about the world almost as soon as you could walk and talk. You spent your early life as...",
-    "bg3",
+    "none",
     [],
     [
       ("page",
@@ -1146,7 +1146,7 @@ game_menus = [
   (
     "start_character_3",mnf_disable_all_keys,
     "{s11}^^ Then, as a young adult, life changed as it always does. You became...",
-    "bg3",
+    "none",
     [(assign, reg3, "$character_gender"),],
     [
 ##      ("bravo",[],"A travelling bravo.",[
@@ -1264,7 +1264,7 @@ game_menus = [
     "start_character_4",mnf_disable_all_keys,
     "{s12}^^But soon everything changed and you decided to strike out on your own as an adventurer. What made you take this decision was...",
     #Finally, what made you decide to strike out on your own as an adventurer?",
-    "bg3",
+    "none",
     [],
     [
       ("revenge",[],"Personal revenge.",[
@@ -1328,7 +1328,7 @@ game_menus = [
   (
     "choose_skill",mnf_disable_all_keys,
     "{s13}", 
-    "bg3",
+    "none",
     [(assign,"$current_string_reg",10),
 	 (assign, ":difficulty", 0),
 	 
@@ -1660,7 +1660,7 @@ game_menus = [
   (
     "past_life_explanation",mnf_disable_all_keys,
     "{s3}",
-    "bg3",
+    "none",
     [
      (try_begin),
        (gt,"$current_string_reg",14),
@@ -1691,14 +1691,14 @@ game_menus = [
   (
     "auto_return",0,
     "{!}This menu automatically returns to caller.",
-    "bg3",
+    "none",
     [(change_screen_return, 0)],
     [
     ]
   ),
   ("morale_report",0,
    "{s1}",
-   "bg3",
+   "none",
    [
      (call_script, "script_get_player_party_morale_values"),     
 
@@ -1775,7 +1775,7 @@ game_menus = [
 
   ("courtship_relations",0,
    "{s1}",
-   "bg3",
+   "none",
    [(str_store_string, s1, "str_courtships_in_progress_"),
     (try_for_range, ":lady", kingdom_ladies_begin, kingdom_ladies_end),
 		(troop_slot_eq, ":lady", slot_troop_met, 2),
@@ -1828,7 +1828,7 @@ game_menus = [
 
   ("lord_relations",0,
    "{s1}",
-   "bg3",
+   "none",
    [   
     (try_for_range, ":active_npc", active_npcs_begin, active_npcs_end),
 		(troop_set_slot, ":active_npc", slot_troop_temp_slot, 0),
@@ -1872,7 +1872,7 @@ game_menus = [
   
   ("companion_report",0,
    "{s7}{s1}",
-   "bg3",
+   "none",
    [
    (str_clear, s1),
    (str_store_string, s7, "str_no_companions_in_service"),
@@ -2058,7 +2058,7 @@ game_menus = [
   
   ("faction_orders",0,
    "{!}{s9}",
-   "bg3",
+   "none",
    [
     (str_clear, s9),
     (store_current_hours, ":cur_hours"),
@@ -2373,7 +2373,7 @@ game_menus = [
   
   ("character_report",0,
    "{s9}",
-   "bg3",
+   "none",
    [(try_begin),
       (gt, "$g_player_reading_book", 0),
       (player_has_item, "$g_player_reading_book"),
@@ -2553,7 +2553,7 @@ game_menus = [
 
   ("party_size_report",0,
    "{s1}",
-   "bg3",
+   "none",
    [(call_script, "script_game_get_party_companion_limit"),
     (assign, ":party_size_limit", reg0),
 
@@ -2597,7 +2597,7 @@ game_menus = [
 
   ("faction_relations_report",0,
    "{s1}",
-   "bg3",
+   "none",
    [(str_clear, s2),
     (try_for_range, ":cur_kingdom", kingdoms_begin, kingdoms_end),
       (faction_slot_eq, ":cur_kingdom", slot_faction_state, sfs_active),
@@ -2677,10 +2677,10 @@ game_menus = [
 
   ("camp",mnf_scale_picture,
    "You set up camp. What do you want to do?",
-   "bg3",
+   "none",
    [
      (assign, "$g_player_icon_state", pis_normal),
-     (set_background_mesh, "mesh_pic_camp"),
+     #(set_background_mesh, "mesh_pic_camp"),
     ],
     [
       ("camp_action_1",[(eq,"$cheat_mode",1)],"{!}Cheat: Walk around.",
@@ -2733,7 +2733,7 @@ game_menus = [
   ),
   ("camp_cheat",0,
    "Select a cheat:",
-   "bg3",
+   "none",
    [
      ],
     [
@@ -2849,7 +2849,7 @@ game_menus = [
   
   ("cheat_find_item",0,
    "{!}Current item range: {reg5} to {reg6}",
-   "bg3",
+   "none",
    [
      (assign, reg5, "$cheat_find_item_range_begin"),
      (store_add, reg6, "$cheat_find_item_range_begin", max_inventory_items),
@@ -2891,7 +2891,7 @@ game_menus = [
 
    ("cheat_change_weather",0,
    "{!}Current cloud amount ({s1}): {reg5}^Current Fog Strength: {reg6}^Season number: {reg7}",
-   "bg3",
+   "none",
    [
 	(assign, reg5, "$current_clouds"),
 (try_begin),
@@ -2950,7 +2950,7 @@ game_menus = [
 
   ("camp_action",0,
    "Choose an action:",
-   "bg3",
+   "none",
    [
      ],
     [
@@ -3025,7 +3025,7 @@ game_menus = [
 
   ("camp_recruit_prisoners",0,
    "You offer your prisoners freedom if they agree to join you as soldiers. {s18}",
-   "bg3",
+   "none",
    [(assign, ":num_regular_prisoner_slots", 0),
     (party_get_num_prisoner_stacks, ":num_stacks", "p_main_party"),
     (try_for_range, ":cur_stack", 0, ":num_stacks"),
@@ -3109,7 +3109,7 @@ game_menus = [
   
   ("camp_no_prisoners",0,
    "You have no prisoners to recruit from.",
-   "bg3",
+   "none",
    [],
     [
       ("continue",[],"Continue...",
@@ -3121,7 +3121,7 @@ game_menus = [
 
   ("camp_action_read_book",0,
    "Choose a book to read:",
-   "bg3",
+   "none",
    [],
     [
       ("action_read_book_1",[(player_has_item, "itm_book_tactics"),
@@ -3189,7 +3189,7 @@ game_menus = [
 
   ("camp_action_read_book_start",0,
    "{s1}",
-   "bg3",
+   "none",
    [(assign, ":new_book", "$temp"),
     (str_store_item_name, s2, ":new_book"),
     (try_begin),
@@ -3214,7 +3214,7 @@ game_menus = [
 
   ("retirement_verify",0,
    "You are at day {reg0}. Your current luck is {reg1}. Are you sure you want to retire?",
-   "bg3",
+   "none",
    [
      (store_current_day, reg0),
      (assign, reg1, "$g_player_luck"),
@@ -3237,7 +3237,7 @@ game_menus = [
    "The decision is made, and you resolve to give up your adventurer's\
  life and settle down. You sell off your weapons and armour, gather up\
  all your money, and ride off into the sunset....",
-   "bg3",
+   "none",
    [],
     [
       ("end_game_bye",[],"Farewell.",
@@ -3250,9 +3250,9 @@ game_menus = [
 
   ("cattle_herd",mnf_scale_picture,
    "You encounter a herd of cattle.",
-   "bg3",
+   "none",
    [(play_sound, "snd_cow_moo"),
-    (set_background_mesh, "mesh_pic_cattle"),
+    #(set_background_mesh, "mesh_pic_cattle"),
    ],
     [
       ("cattle_drive_away",[],"Drive the cattle onward.",
@@ -3289,7 +3289,7 @@ game_menus = [
 
   ("cattle_herd_kill",0,
    "How many animals do you want to slaughter?",
-   "bg3",
+   "none",
    [(party_get_num_companions, reg5, "$g_encountered_party")],
     [
       ("cattle_kill_1",[(ge, reg5, 1),],"One.",
@@ -3336,7 +3336,7 @@ game_menus = [
 
   ("cattle_herd_kill_end",0,
    "{!}You shouldn't be reading this.",
-   "bg3",
+   "none",
    [(change_screen_return)],
     [
       ]
@@ -3345,7 +3345,7 @@ game_menus = [
 
   ("arena_duel_fight",0,
    "You and your opponent prepare to duel.",
-   "bg3",
+   "none",
    [],
    [
      ("continue",[],"Continue...",
@@ -3396,7 +3396,7 @@ game_menus = [
   
   ("arena_duel_conclusion",0,
    "{!}{s11}",
-   "bg3",
+   "none",
    [
    
     (try_begin),
@@ -3613,25 +3613,25 @@ game_menus = [
        
         (try_begin),
           (eq, "$g_encountered_party_template", "pt_looters"),
-          (set_background_mesh, "mesh_pic_bandits"),
+          #(set_background_mesh, "mesh_pic_bandits"),
         (else_try),
           (eq, "$g_encountered_party_template", "pt_mountain_bandits"),
-          (set_background_mesh, "mesh_pic_mountain_bandits"),
+          #(set_background_mesh, "mesh_pic_mountain_bandits"),
         (else_try),
           (eq, "$g_encountered_party_template", "pt_steppe_bandits"),
-          (set_background_mesh, "mesh_pic_steppe_bandits"),
+          #(set_background_mesh, "mesh_pic_steppe_bandits"),
         (else_try),
           (eq, "$g_encountered_party_template", "pt_taiga_bandits"),
-          (set_background_mesh, "mesh_pic_steppe_bandits"),
+          #(set_background_mesh, "mesh_pic_steppe_bandits"),
         (else_try),
           (eq, "$g_encountered_party_template", "pt_sea_raiders"),
-          (set_background_mesh, "mesh_pic_sea_raiders"),
+          #(set_background_mesh, "mesh_pic_sea_raiders"),
         (else_try),
           (eq, "$g_encountered_party_template", "pt_forest_bandits"),
-          (set_background_mesh, "mesh_pic_forest_bandits"),
+          #(set_background_mesh, "mesh_pic_forest_bandits"),
         (else_try),
           (eq, "$g_encountered_party_template", "pt_deserters"),
-          (set_background_mesh, "mesh_pic_deserters"),
+          #(set_background_mesh, "mesh_pic_deserters"),
         (else_try),
           (eq, "$g_encountered_party_template", "pt_kingdom_hero_party"),
 		  (party_stack_get_troop_id, ":leader_troop", "$g_encountered_party", 0),
@@ -3639,22 +3639,22 @@ game_menus = [
 		  (troop_get_slot, ":leader_troop_faction", ":leader_troop", slot_troop_original_faction),
 		  (try_begin),
 			(eq, ":leader_troop_faction", fac_kingdom_1),
-            (set_background_mesh, "mesh_pic_swad"),
+            #(set_background_mesh, "mesh_pic_swad"),
 		  (else_try),
 			(eq, ":leader_troop_faction", fac_kingdom_2),
-            (set_background_mesh, "mesh_pic_vaegir"),
+            #(set_background_mesh, "mesh_pic_vaegir"),
 		  (else_try),
 			(eq, ":leader_troop_faction", fac_kingdom_3),
-            (set_background_mesh, "mesh_pic_khergit"),
+            #(set_background_mesh, "mesh_pic_khergit"),
 		  (else_try),
 			(eq, ":leader_troop_faction", fac_kingdom_4),
-            (set_background_mesh, "mesh_pic_nord"),
+            #(set_background_mesh, "mesh_pic_nord"),
 		  (else_try),
 			(eq, ":leader_troop_faction", fac_kingdom_5),
-            (set_background_mesh, "mesh_pic_rhodock"),
+            #(set_background_mesh, "mesh_pic_rhodock"),
 		  (else_try),
 			(eq, ":leader_troop_faction", fac_kingdom_6),
-            (set_background_mesh, "mesh_pic_sarranid_encounter"),
+            #(set_background_mesh, "mesh_pic_sarranid_encounter"),
 		  (try_end),
         (try_end),
     ],
@@ -3783,7 +3783,7 @@ game_menus = [
     "As the party member with the highest tactics skill,\
  ({reg2}), {reg3?you devise:{s3} devises} a plan that will allow you and your men to escape with your lives,\
  but you'll have to leave {reg4} soldiers behind to stop the enemy from giving chase.",
-    "bg3",
+    "none",
     [(call_script, "script_get_max_skill_of_player_party", "skl_tactics"),
      (assign, ":max_skill", reg0),
      (assign, ":max_skill_owner", reg1),
@@ -3825,7 +3825,7 @@ game_menus = [
   (
     "encounter_retreat",0,
     "You tell {reg4} of your troops to hold the enemy while you retreat with the rest of your party.",
-    "bg3",
+    "none",
     [
      ],
     [
@@ -3851,7 +3851,7 @@ game_menus = [
   (
     "order_attack_begin",0,
     "Your troops prepare to attack the enemy.",
-    "bg3",
+    "none",
     [],
     [
       ("order_attack_begin",[],"Order the attack to begin.", 
@@ -3871,9 +3871,9 @@ game_menus = [
   (
     "order_attack_2",mnf_disable_all_keys,
     "{s4}^^Your casualties: {s8}^^Enemy casualties: {s9}",
-    "bg3",
+    "none",
     [
-      (set_background_mesh, "mesh_pic_charge"),
+      #(set_background_mesh, "mesh_pic_charge"),
 
       (call_script, "script_party_calculate_strength", "p_main_party", 1), #exclude player
       (assign, ":player_party_strength", reg0),
@@ -4031,7 +4031,7 @@ game_menus = [
   (
     "battle_debrief",mnf_disable_all_keys,
     "{s11}^^Your Casualties:{s8}{s10}^^Enemy Casualties:{s9}",
-    "bg3",
+    "none",
     [
      (try_begin),
        (eq, "$g_battle_result", 1),
@@ -4116,7 +4116,7 @@ game_menus = [
 #       (call_script, "script_music_set_situation_with_culture", mtf_sit_victorious),
        (try_begin),
          (gt, "$g_friend_fit_for_battle", 1),
-       #  (set_background_mesh, "mesh_pic_victory"),
+       #  #(set_background_mesh, "mesh_pic_victory"),
        (try_end),
      (else_try),
        (eq, "$g_battle_result", -1),
@@ -4124,16 +4124,16 @@ game_menus = [
        (this_or_next|le, "$g_friend_fit_for_battle",0),
        (le, "$playerparty_postbattle_regulars", 0),
        (str_store_string, s11, "@Battle was lost. Your forces were utterly crushed."),
-      # (set_background_mesh, "mesh_pic_defeat"),
+      # #(set_background_mesh, "mesh_pic_defeat"),
      (else_try),
        (eq, "$g_battle_result", -1),
        (str_store_string, s11, "@Your companions carry you away from the fighting."),
        (troop_get_type, ":is_female", "trp_player"),
        (try_begin),
          (eq, ":is_female", 1),
-       #  (set_background_mesh, "mesh_pic_wounded_fem"),
+       #  #(set_background_mesh, "mesh_pic_wounded_fem"),
        (else_try),
-       #  (set_background_mesh, "mesh_pic_wounded"),
+       #  #(set_background_mesh, "mesh_pic_wounded"),
        (try_end),
      (else_try),
        (eq, "$g_battle_result", 1),
@@ -4141,7 +4141,7 @@ game_menus = [
 	  (music_set_situation, mtf_situation_victory_light),
        (try_begin),
          (gt, "$g_friend_fit_for_battle", 1),
-        # (set_background_mesh, "mesh_pic_victory"),
+        # #(set_background_mesh, "mesh_pic_victory"),
        (try_end),
      (else_try),
        (eq, "$g_battle_result", 0),
@@ -4179,7 +4179,7 @@ game_menus = [
   (
     "total_victory", 0,
     "You shouldn't be reading this... {s9}",
-    "bg3",
+    "none",
     [
         # We exploit the menu condition system below.
         # The conditions should make sure that always another screen or menu is called.
@@ -4555,7 +4555,7 @@ game_menus = [
   (
     "enemy_slipped_away",0,
     "{s17}",
-    "bg3",
+    "none",
     [],
     [
       ("continue",[],"Continue...",[(jump_to_menu,"mnu_total_victory")]),
@@ -4565,7 +4565,7 @@ game_menus = [
   (
     "total_defeat",0,
     "{!}You shouldn't be reading this...",
-    "bg3",
+    "none",
     [
            # Free prisoners
           (party_get_num_prisoner_stacks, ":num_prisoner_stacks","p_main_party"),
@@ -4635,7 +4635,7 @@ game_menus = [
   (
     "permanent_damage",mnf_disable_all_keys,
     "{s0}",
-    "bg3",
+    "none",
     [
       (assign, ":end_cond", 1),
       (try_for_range, ":unused", 0, ":end_cond"),
@@ -4715,7 +4715,7 @@ game_menus = [
   (
     "pre_join",0,
     "You come across a battle between {s2} and {s1}. You decide to...",
-    "bg3",
+    "none",
     [
         (str_store_party_name, 1,"$g_encountered_party"),
         (str_store_party_name, 2,"$g_encountered_party_2"),
@@ -4754,7 +4754,7 @@ game_menus = [
   (
     "join_battle",0,
     "You are helping the {s2} against the {s1}. You have {reg10} troops fit for battle against the enemy's {reg11}.",
-    "bg3",
+    "none",
     [                
 (music_set_situation, mtf_situation_prebattle),
         (str_store_party_name, 1,"$g_enemy_party"),
@@ -4880,7 +4880,7 @@ game_menus = [
   (
     "join_order_attack",mnf_disable_all_keys,
     "{s4}^^Your casualties: {s8}^^Allies' casualties: {s9}^^Enemy casualties: {s10}",
-    "bg3",
+    "none",
     [
       (call_script, "script_party_calculate_strength", "p_main_party", 1), #skip player
       (assign, ":player_party_strength", reg0),
@@ -4973,7 +4973,7 @@ game_menus = [
   (
     "zendar",mnf_auto_enter,
     "You enter the town of Zendar.",
-    "bg3",
+    "none",
     [(reset_price_rates,0),(set_price_rate_for_item,"itm_tools",70),(set_price_rate_for_item,"itm_salt",140)],
     [
       ("zendar_enter",[],"_",[(set_jump_mission,"mt_town_default"),(jump_to_scene,"scn_zendar_center"),(change_screen_mission)],"Door to the town center."),
@@ -4993,7 +4993,7 @@ game_menus = [
   (
     "salt_mine",mnf_auto_enter,
     "You enter the salt mine.",
-    "bg3",
+    "none",
     [(reset_price_rates,0),(set_price_rate_for_item,"itm_salt",55)],
     [
       ("enter",[],"Enter.",[(set_jump_mission,"mt_town_center"),(jump_to_scene,"scn_salt_mine"),(change_screen_mission)]),
@@ -5003,7 +5003,7 @@ game_menus = [
   (
     "four_ways_inn",mnf_auto_enter,
     "You arrive at the Four Ways Inn.",
-    "bg3",
+    "none",
     [],
     [
 
@@ -5015,7 +5015,7 @@ game_menus = [
   (
     "test_scene",0,
     "You enter the test scene.",
-    "bg3",
+    "none",
     [],
     [
 
@@ -5034,7 +5034,7 @@ game_menus = [
   (
     "battlefields",0,
     "{!}Select a field...",
-    "bg3",
+    "none",
     [],
     [
 
@@ -5050,7 +5050,7 @@ game_menus = [
     "dhorak_keep",0,
 #    "Dhorak Keep, the stronghold of the bandits stands overlooking the barren wilderness.",
     "You enter the Dhorak Keep",
-    "bg3",
+    "none",
     [],
     [
       ("enter",[],"Enter.",[(set_jump_mission,"mt_town_center"),(jump_to_scene,"scn_dhorak_keep"),(change_screen_mission)]),
@@ -5062,7 +5062,7 @@ game_menus = [
 ##    "center_under_attack_while_resting",0,
 ##    "{s1} has been besieged by {s2}, and the enemy seems to be preparing for an assault!\
 ## What will you do?",
-##    "bg3",
+##    "none",
 ##    [
 ##        (party_get_battle_opponent, ":besieger_party", "$auto_enter_town"),
 ##        (str_store_party_name, s1, "$auto_enter_town"),
@@ -5086,16 +5086,16 @@ game_menus = [
   (
     "join_siege_outside",mnf_scale_picture,
     "{s1} has come under siege by {s2}.",
-    "bg3",
+    "none",
     [
         (str_store_party_name, s1, "$g_encountered_party"),
         (str_store_party_name, s2, "$g_encountered_party_2"),
         (troop_get_type, ":is_female", "trp_player"),
         (try_begin),
           (eq, ":is_female", 1),
-          (set_background_mesh, "mesh_pic_siege_sighted_fem"),
+          #(set_background_mesh, "mesh_pic_siege_sighted_fem"),
         (else_try),
-          (set_background_mesh, "mesh_pic_siege_sighted"),
+          #(set_background_mesh, "mesh_pic_siege_sighted"),
         (try_end),
     ],
     [
@@ -5122,7 +5122,7 @@ game_menus = [
   (
     "cut_siege_without_fight",0,
     "The besiegers let you approach the gates without challenge.",
-    "bg3",
+    "none",
     [],
     [
       ("continue",[],"Continue...",[(try_begin),
@@ -5138,7 +5138,7 @@ game_menus = [
     "besiegers_camp_with_allies",0,
     "{s1} remains under siege. The banners of {s2} fly above the camp of the besiegers,\
  where you and your men are welcomed.",
-    "bg3",
+    "none",
     [        
         (str_store_party_name, s1, "$g_encountered_party"),
         (str_store_party_name, s2, "$g_encountered_party_2"),
@@ -5262,7 +5262,7 @@ game_menus = [
   (
     "castle_outside",mnf_scale_picture,
     "You are outside {s2}.{s11} {s3} {s4}^{s15}",
-    "bg3",
+    "none",
     [
         (store_encountered_party, "$current_town"),
 	(try_begin),
@@ -5624,7 +5624,7 @@ game_menus = [
    (
     "castle_guard",mnf_scale_picture,
     "You approach the gate. The men on the walls watch you closely.",
-    "bg3",
+    "none",
     [
 		(call_script, "script_set_town_picture"),
     ],
@@ -5661,7 +5661,7 @@ game_menus = [
   (
     "castle_entry_granted",mnf_scale_picture,
     "After a brief wait, the guards open the gates for you and allow your party inside.",
-    "bg3",
+    "none",
     [
 		(call_script, "script_set_town_picture"),
     ],
@@ -5675,7 +5675,7 @@ game_menus = [
     "castle_entry_denied",mnf_scale_picture,
     "The commander of this fort has forbidden you from coming inside these walls,\
  and the guard sergeant informs you that his men will fire if you attempt to come any closer.",
-    "bg3",
+    "none",
     [
 		(call_script, "script_set_town_picture"),
     ],
@@ -5688,7 +5688,7 @@ game_menus = [
   (
     "castle_meeting",mnf_scale_picture,
     "With whom do you want to meet?",
-    "bg3",
+    "none",
     [
         (assign, "$num_castle_meeting_troops", 0),
         (try_for_range, ":troop_no", active_npcs_begin, active_npcs_end),
@@ -5730,7 +5730,7 @@ game_menus = [
   (
     "castle_meeting_selected",0,
     "Your request for a meeting is relayed inside, and finally {s6} appears in the courtyard to speak with you.",
-    "bg3",
+    "none",
     [(str_store_troop_name, s6, "$castle_meeting_selected_troop")],
     [
       ("continue",[],
@@ -5751,14 +5751,14 @@ game_menus = [
    (
     "castle_besiege",mnf_scale_picture,
     "You are laying siege to {s1}. {s2} {s3}",
-    "bg3",
+    "none",
     [
         (troop_get_type, ":is_female", "trp_player"),
         (try_begin),
           (eq, ":is_female", 1),
-          (set_background_mesh, "mesh_pic_siege_sighted_fem"),
+          #(set_background_mesh, "mesh_pic_siege_sighted_fem"),
         (else_try),
-          (set_background_mesh, "mesh_pic_siege_sighted"),
+          #(set_background_mesh, "mesh_pic_siege_sighted"),
         (try_end),
         (assign, "$g_siege_force_wait", 0),
         (try_begin),
@@ -6017,9 +6017,9 @@ game_menus = [
   (
     "siege_attack_meets_sally",mnf_scale_picture,
     "The defenders sally out to meet your assault.",
-    "bg3",
+    "none",
     [
-        (set_background_mesh, "mesh_pic_sally_out"),
+        #(set_background_mesh, "mesh_pic_sally_out"),
     ],
     [
       ("continue",[],
@@ -6034,14 +6034,14 @@ game_menus = [
    (
     "castle_besiege_inner_battle",mnf_scale_picture,
     "{s1}",
-    "bg3",
+    "none",
     [
         (troop_get_type, ":is_female", "trp_player"),
         (try_begin),
           (eq, ":is_female", 1),
-          (set_background_mesh, "mesh_pic_siege_sighted_fem"),
+          #(set_background_mesh, "mesh_pic_siege_sighted_fem"),
         (else_try),
-          (set_background_mesh, "mesh_pic_siege_sighted"),
+          #(set_background_mesh, "mesh_pic_siege_sighted"),
         (try_end),
         (assign, ":result", "$g_battle_result"),#will be reset at script_encounter_calculate_fit
         (call_script, "script_encounter_calculate_fit"),
@@ -6129,7 +6129,7 @@ game_menus = [
     "construct_ladders",0,
     "As the party member with the highest Engineer skill ({reg2}), {reg3?you estimate:{s3} estimates} that it will take\
  {reg4} hours to build enough scaling ladders for the assault.",
-    "bg3",
+    "none",
     [(call_script, "script_get_max_skill_of_player_party", "skl_engineer"),
      (assign, ":max_skill", reg0),
      (assign, ":max_skill_owner", reg1),
@@ -6171,7 +6171,7 @@ game_menus = [
     "construct_siege_tower",0,
     "As the party member with the highest Engineer skill ({reg2}), {reg3?you estimate:{s3} estimates} that building a siege tower will take\
  {reg4} hours.",
-    "bg3",
+    "none",
     [(call_script, "script_get_max_skill_of_player_party", "skl_engineer"),
      (assign, ":max_skill", reg0),
      (assign, ":max_skill_owner", reg1),
@@ -6209,10 +6209,10 @@ game_menus = [
    (
     "castle_attack_walls_simulate",mnf_scale_picture|mnf_disable_all_keys,
     "{s4}^^Your casualties:{s8}^^Enemy casualties were: {s9}",
-    "bg3",
+    "none",
     [
         (try_begin),
-          (set_background_mesh, "mesh_pic_siege_attack"),
+          #(set_background_mesh, "mesh_pic_siege_attack"),
         (try_end),
         
         (call_script, "script_party_calculate_strength", "p_main_party", 1), #skip player
@@ -6267,10 +6267,10 @@ game_menus = [
    (
     "castle_attack_walls_with_allies_simulate",mnf_scale_picture|mnf_disable_all_keys,
     "{s4}^^Your casualties: {s8}^^Allies' casualties: {s9}^^Enemy casualties: {s10}",
-    "bg3",
+    "none",
     [
         (try_begin),
-          (set_background_mesh, "mesh_pic_siege_attack"),
+          #(set_background_mesh, "mesh_pic_siege_attack"),
         (try_end),
 
         (call_script, "script_party_calculate_strength", "p_main_party", 1), #skip player
@@ -6344,7 +6344,7 @@ game_menus = [
   (
     "castle_taken_by_friends",0,
     "Nothing to see here.",
-    "bg3",
+    "none",
     [
         (party_clear, "$g_encountered_party"),
         (party_stack_get_troop_id, ":leader", "$g_encountered_party_2", 0),
@@ -6376,7 +6376,7 @@ game_menus = [
     "castle_taken",mnf_disable_all_keys,
     "{s3} has fallen to your troops, and you now have full control of the {reg2?town:castle}.\
 {reg1? You may station troops here to defend it against enemies who may try to recapture it. Also, you should select now whether you will hold the {reg2?town:castle} yourself or give it to a faithful vassal...:}",# Only visible when castle is taken without being a vassal of a kingdom.
-    "bg3",
+    "none",
     [
         (party_clear, "$g_encountered_party"),
 
@@ -6444,7 +6444,7 @@ game_menus = [
     "castle_taken_2",mnf_disable_all_keys,
     "{s3} has fallen to your troops, and you now have full control of the castle.\
  It is time to send word to {s9} about your victory. {s5}",
-    "bg3",
+    "none",
     [
         (str_store_party_name, s3, "$g_encountered_party"),
         (str_clear, s5),
@@ -6504,9 +6504,9 @@ game_menus = [
     "requested_castle_granted_to_player",mnf_scale_picture,
     "You receive a message from your liege, {s3}.^^\
  {reg4?She:He} has decided to grant {s2}{reg3? and the nearby village of {s4}:} to you, with all due incomes and titles, to hold in {reg4?her:his} name for as long as you maintain your oath of homage..",
-    "bg3",
+    "none",
     [
-		(set_background_mesh, "mesh_pic_messenger"),
+		#(set_background_mesh, "mesh_pic_messenger"),
 		(faction_get_slot, ":faction_leader", "$players_kingdom", slot_faction_leader),
 		(str_store_troop_name, s3, ":faction_leader"),
 		(str_store_party_name, s2, "$g_center_to_give_to_player"),
@@ -6539,9 +6539,9 @@ game_menus = [
     "requested_castle_granted_to_player_husband", mnf_scale_picture,
     "You receive a message from your liege, {s3}.^^\
  {reg4?She:He} has decided to grant {s2}{reg3? and the nearby village of {s4}:} to your husband, {s7}.",	 
-    "bg3",
+    "none",
     [
-		(set_background_mesh, "mesh_pic_messenger"),
+		#(set_background_mesh, "mesh_pic_messenger"),
 		(faction_get_slot, ":faction_leader", "$players_kingdom", slot_faction_leader),
 		(str_store_troop_name, s3, ":faction_leader"),
 		(str_store_party_name, s2, "$g_center_to_give_to_player"),
@@ -6585,8 +6585,8 @@ game_menus = [
  as you already hold significant estates in my realm.\
  Instead I have sent you {reg6} pounds to cover the expenses of your campaign, but {s2} I give to {s5}.'\
  ",
-    "bg3",
-    [(set_background_mesh, "mesh_pic_messenger"),
+    "none",
+    [#(set_background_mesh, "mesh_pic_messenger"),
      (faction_get_slot, ":faction_leader", "$players_kingdom", slot_faction_leader),
      (str_store_troop_name, s3, ":faction_leader"),
      (str_store_party_name, s2, "$g_center_to_give_to_player"),
@@ -6622,8 +6622,8 @@ game_menus = [
  as he already holds significant estates in my realm.\
  Instead I have sent you {reg6} pounds to cover the expenses of your campaign, but {s2} I give to {s5}.'\
  ",
-    "bg3",
-    [(set_background_mesh, "mesh_pic_messenger"),
+    "none",
+    [#(set_background_mesh, "mesh_pic_messenger"),
      (faction_get_slot, ":faction_leader", "$players_kingdom", slot_faction_leader),
      (str_store_troop_name, s3, ":faction_leader"),
      (str_store_party_name, s2, "$g_center_to_give_to_player"),
@@ -6651,7 +6651,7 @@ game_menus = [
     "leave_faction",0,
     "Renouncing your oath is a grave act. Your lord may condemn you and confiscate your lands and holdings.\
  However, if you return them of your own free will, he may let the betrayal go without a fight.",
-    "bg3",
+    "none",
     [
     ],
     [
@@ -6684,8 +6684,8 @@ game_menus = [
     "Your lord offers to extend your fiefs!\
  {s1} sends word that he is willing to grant {s2} to you in payment for your loyal service,\
  adding it to your holdings. What is your answer?",
-    "bg3",
-    [(set_background_mesh, "mesh_pic_messenger"),
+    "none",
+    [#(set_background_mesh, "mesh_pic_messenger"),
      (store_faction_of_party, ":center_faction", "$g_center_to_give_to_player"),
      (faction_get_slot, ":faction_leader", ":center_faction", slot_faction_leader),
      (str_store_troop_name, s1, ":faction_leader"),
@@ -6711,7 +6711,7 @@ game_menus = [
  and manage the lands as you see fit.\
  However, you are also expected to defend your fief and your people from harm,\
  as well as maintaining the rule of law and order.",
-    "bg3",
+    "none",
     [
       (str_store_party_name, s2, "$g_center_to_give_to_player"),
       (assign, reg3, 0),
@@ -6736,7 +6736,7 @@ game_menus = [
     "oath_fulfilled",0,
     "You had a contract with {s1} to serve him for a certain duration.\
  Your contract has now expired. What will you do?",
-    "bg3",
+    "none",
     [
       (faction_get_slot, ":faction_leader", "$players_kingdom", slot_faction_leader),
       (str_store_troop_name, s1, ":faction_leader"),
@@ -6762,7 +6762,7 @@ game_menus = [
 ##    "castle_garrison_stationed",0,
 ###    "The rest of the castle garrison recognizes that their situation is hopeless and surrenders. {s1} is at your mercy now. What do you want to do with this castle?",
 ##    "_",
-##    "bg3",
+##    "none",
 ##    [
 ##        (jump_to_menu, "mnu_town"),
 ##    ],
@@ -6772,7 +6772,7 @@ game_menus = [
 ##  (
 ##    "castle_choose_captain",0,
 ##    "You will need to assign one of your companions as the castellan. Who will it be?",
-##    "bg3",
+##    "none",
 ##    [
 ##        (try_for_range, ":slot_no", 0, 20),
 ##          (troop_set_slot, "trp_temp_troop", ":slot_no", 0),
@@ -6828,7 +6828,7 @@ game_menus = [
 ##  (
 ##    "castle_captain_chosen",0,
 ##    "h this castle?",
-##    "bg3",
+##    "none",
 ##    [
 ##        (party_add_leader, "$g_encountered_party",  "$selected_castellan"),
 ##        (party_remove_members, "p_main_party", "$selected_castellan",1),
@@ -6846,7 +6846,7 @@ game_menus = [
 ##  (
 ##    "under_siege_attacked_continue",0,
 ##    "Nothing to see here.",
-##    "bg3",
+##    "none",
 ##    [
 ##        (assign, "$g_enemy_party", "$g_encountered_party_2"),
 ##        (assign, "$g_ally_party", "$g_encountered_party"),
@@ -6916,7 +6916,7 @@ game_menus = [
   (
     "siege_started_defender",0,
     "{s1} is launching an assault against the walls of {s2}. You have {reg10} troops fit for battle against the enemy's {reg11}. You decide to...",
-    "bg3",
+    "none",
     [
 (music_set_situation, mtf_situation_prebattle),
         (select_enemy,1),
@@ -7077,7 +7077,7 @@ game_menus = [
   (
     "siege_join_defense",mnf_disable_all_keys,
     "{s4}^^Your casualties: {s8}^^Allies' casualties: {s9}^^Enemy casualties: {s10}",
-    "bg3",
+    "none",
     [
         (try_begin),
           (eq, "$g_siege_join", 1),
@@ -7143,7 +7143,7 @@ game_menus = [
   (
     "enter_your_own_castle",0,
     "{s10}",
-    "bg3",
+    "none",
     [
       (try_begin),
         (neg|is_between, "$players_kingdom", npc_kingdoms_begin, npc_kingdoms_end),
@@ -7166,7 +7166,7 @@ game_menus = [
   (
     "village",mnf_enable_hot_keys,
     "{s10} {s12}^{s11}^{s6}{s7}",
-    "bg3",
+    "none",
     [
         (assign, "$current_town", "$g_encountered_party"),
         (call_script, "script_update_center_recon_notes", "$current_town"),
@@ -7276,21 +7276,21 @@ game_menus = [
           
           (try_begin),
             (eq, ":bandit_troop", "trp_forest_bandit"),
-            (set_background_mesh, "mesh_pic_forest_bandits"),
+            #(set_background_mesh, "mesh_pic_forest_bandits"),
           (else_try),
             (eq, ":bandit_troop", "trp_steppe_bandit"),
-            (set_background_mesh, "mesh_pic_steppe_bandits"),
+            #(set_background_mesh, "mesh_pic_steppe_bandits"),
           (else_try),
             (eq, ":bandit_troop", "trp_taiga_bandit"),
-            (set_background_mesh, "mesh_pic_steppe_bandits"),
+            #(set_background_mesh, "mesh_pic_steppe_bandits"),
           (else_try),
             (eq, ":bandit_troop", "trp_mountain_bandit"),
-            (set_background_mesh, "mesh_pic_mountain_bandits"),
+            #(set_background_mesh, "mesh_pic_mountain_bandits"),
           (else_try),
             (eq, ":bandit_troop", "trp_sea_raider"),
-            (set_background_mesh, "mesh_pic_sea_raiders"),
+            #(set_background_mesh, "mesh_pic_sea_raiders"),
           (else_try),
-            (set_background_mesh, "mesh_pic_bandits"),
+            #(set_background_mesh, "mesh_pic_bandits"),
           (try_end),
         (else_try),
           (party_slot_eq, "$current_town", slot_village_state, svs_looted),
@@ -7298,7 +7298,7 @@ game_menus = [
           (try_begin),
             (neq, "$g_player_raid_complete", 1),
           (try_end),
-          (set_background_mesh, "mesh_pic_looted_village"),
+          #(set_background_mesh, "mesh_pic_looted_village"),
         (else_try),
           (party_slot_eq, "$current_town", slot_village_state, svs_being_raided),
           (str_store_string, s6, "@ The village is being raided."),
@@ -7309,13 +7309,13 @@ game_menus = [
             (this_or_next|eq, ":cur_terrain", rt_steppe_forest),
             (this_or_next|eq, ":cur_terrain", rt_desert),
             (             eq, ":cur_terrain", rt_desert_forest),
-            (set_background_mesh, "mesh_pic_village_s"),
+            #(set_background_mesh, "mesh_pic_village_s"),
           (else_try),
             (this_or_next|eq, ":cur_terrain", rt_snow),
             (             eq, ":cur_terrain", rt_snow_forest),
-            (set_background_mesh, "mesh_pic_village_w"),
+            #(set_background_mesh, "mesh_pic_village_w"),
           (else_try),
-            (set_background_mesh, "mesh_pic_village_p"),
+            #(set_background_mesh, "mesh_pic_village_p"),
           (try_end),
         (try_end),
 
@@ -7516,7 +7516,7 @@ game_menus = [
   (
     "village_hostile_action",0,
     "What action do you have in mind?",
-    "bg3",
+    "none",
     [],
     [
       ("village_take_food",[
@@ -7566,7 +7566,7 @@ game_menus = [
   (
     "recruit_volunteers",0,
     "{s18}",
-    "bg3",
+    "none",
     [(party_get_slot, ":volunteer_troop", "$current_town", slot_center_volunteer_troop_type),
      (party_get_slot, ":volunteer_amount", "$current_town", slot_center_volunteer_troop_amount),
      (party_get_free_companions_capacity, ":free_capacity", "p_main_party"),
@@ -7596,7 +7596,7 @@ game_menus = [
        (else_try),
          (str_store_string, s18, "@{reg5} {s3} volunteer to follow you."),
        (try_end),
-       (set_background_mesh, "mesh_pic_recruits"),
+       #(set_background_mesh, "mesh_pic_recruits"),
      (try_end),
     ],
     [
@@ -7649,7 +7649,7 @@ game_menus = [
     "A heavy blow from the fugitive sends you to the ground, and your vision spins and goes dark.\
  Time passes. When you open your eyes again you find yourself battered and bloody,\
  but luckily none of the wounds appear to be lethal.",
-    "bg3",
+    "none",
     [],
     [
       ("continue",[],"Continue...",[(jump_to_menu, "mnu_village"),]),
@@ -7659,7 +7659,7 @@ game_menus = [
   (
     "village_infest_bandits_result",mnf_scale_picture,
     "{s9}",
-    "bg3",
+    "none",
     [(try_begin),
        (eq, "$g_battle_result", 1),
        (jump_to_menu, "mnu_village_infestation_removed"),
@@ -7667,7 +7667,7 @@ game_menus = [
        (str_store_string, s9, "@Try as you might, you could not defeat the bandits.\
  Infuriated, they raze the village to the ground to punish the peasants,\
  and then leave the burning wasteland behind to find greener pastures to plunder."),
-       (set_background_mesh, "mesh_pic_looted_village"),
+       #(set_background_mesh, "mesh_pic_looted_village"),
      (try_end),
     ],
     [
@@ -7701,7 +7701,7 @@ game_menus = [
     "In a battle worthy of song, you and your men drive the bandits out of the village, making it safe once more.\
  The villagers have little left in the way of wealth after their ordeal,\
  but they offer you all they can find.",
-    "bg3",
+    "none",
     [(party_get_slot, ":bandit_troop", "$g_encountered_party", slot_village_infested_by_bandits),
      (party_set_slot, "$g_encountered_party", slot_village_infested_by_bandits, 0),
      (party_clear, "p_temp_party"),
@@ -7749,7 +7749,7 @@ game_menus = [
     "center_manage",0,
     "{s19}^{reg6?^^You are\
  currently building {s7}. The building will be completed after {reg8} day{reg9?s:}.:}",
-    "bg3",
+    "none",
     [(assign, ":num_improvements", 0),
      (str_clear, s18),
      (try_begin),
@@ -7846,7 +7846,7 @@ game_menus = [
     "center_improve",0,
     "{s19} As the party member with the highest engineer skill ({reg2}), {reg3?you reckon:{s3} reckons} that building the {s4} will cost you\
  {reg5} pounds and will take {reg6} days.",
-    "bg3",
+    "none",
     [(call_script, "script_get_improvement_details", "$g_improvement_type"),
      (assign, ":improvement_cost", reg0),
      (str_store_string, s4, s0),
@@ -7897,7 +7897,7 @@ game_menus = [
   (
     "town_bandits_failed",mnf_disable_all_keys,
     "{s4} {s5}",
-    "bg3",
+    "none",
     [
 #      (call_script, "script_loot_player_items", 0),
       (store_troop_gold, ":total_gold", "trp_player"),
@@ -7929,7 +7929,7 @@ game_menus = [
  while most of your attackers lie unconscious, dead or dying.\
  Searching the bodies, you find a purse which must have belonged to a previous victim of these brutes.\
  Or perhaps, it was given to them by someone who wanted to arrange a suitable ending to your life.",
-    "bg3",
+    "none",
     [
       (party_set_slot, "$current_town", slot_center_has_bandits, 0),
       (assign, "$g_last_defeated_bandits_town", "$g_encountered_party"),
@@ -7953,7 +7953,7 @@ game_menus = [
    (
     "village_steal_cattle_confirm",0,
     "As the party member with the highest looting skill ({reg2}), {reg3?you reckon:{s1} reckons} that you can steal as many as {reg4} heads of village's cattle.",
-    "bg3",
+    "none",
     [
       (call_script, "script_get_max_skill_of_player_party", "skl_looting"),
       (assign, reg2, reg0),
@@ -7982,7 +7982,7 @@ game_menus = [
   (
     "village_steal_cattle",mnf_disable_all_keys,
     "{s1}",
-    "bg3",
+    "none",
     [
       (call_script, "script_calculate_amount_of_cattle_can_be_stolen", "$current_town"),
       (assign, ":max_value", reg0),
@@ -8029,7 +8029,7 @@ game_menus = [
     "village_take_food_confirm",0,
     "It will be difficult to force and threaten the peasants into giving their precious supplies. You think you will need at least one hour.",
     #TODO: mention looting skill?
-    "bg3",
+    "none",
     [],
     [
       ("village_take_food_confirm",[],"Go ahead.",
@@ -8047,7 +8047,7 @@ game_menus = [
   (
     "village_take_food",0,
     "The villagers grudgingly bring out what they have for you.",
-    "bg3",
+    "none",
     [
        (call_script, "script_party_count_members_with_full_health","p_main_party"),
        (assign, ":player_party_size", reg0),
@@ -8109,9 +8109,9 @@ game_menus = [
     "village_start_attack",mnf_disable_all_keys|mnf_scale_picture,
     "Some of the angry villagers grab their tools and prepare to resist you.\
  It looks like you'll have a fight on your hands if you continue.",
-    "bg3",
+    "none",
     [
-       (set_background_mesh, "mesh_pic_villageriot"),
+       #(set_background_mesh, "mesh_pic_villageriot"),
        (call_script, "script_party_count_members_with_full_health","p_main_party"),
        (assign, ":player_party_size", reg0),
        (call_script, "script_party_count_members_with_full_health","$current_town"),
@@ -8172,7 +8172,7 @@ game_menus = [
     "village_loot_no_resist",0,
     "The villagers here are few and frightened, and they quickly scatter and run before you.\
  The village is at your mercy.",
-    "bg3",
+    "none",
     [],
     [
       ("village_loot",[], "Plunder the village, then raze it.",
@@ -8198,7 +8198,7 @@ game_menus = [
     "village_loot_complete",mnf_disable_all_keys,
     "On your orders your troops sack the village, pillaging everything of any value,\
  and then put the buildings to the torch. From the coins and valuables that are found, you get your share of {reg1} pounds.",
-    "bg3",
+    "none",
     [
         (get_achievement_stat, ":number_of_village_raids", ACHIEVEMENT_THE_BANDIT, 0),
         (get_achievement_stat, ":number_of_caravan_raids", ACHIEVEMENT_THE_BANDIT, 1),
@@ -8323,9 +8323,9 @@ game_menus = [
   (
     "village_loot_defeat",mnf_scale_picture,
     "Fighting with courage and determination, the villagers manage to hold together and drive off your forces.",
-    "bg3",
+    "none",
     [
-        (set_background_mesh, "mesh_pic_villageriot"),
+        #(set_background_mesh, "mesh_pic_villageriot"),
 	],
     [
       ("continue",[],"Continue...",[(change_screen_return)]),
@@ -8335,7 +8335,7 @@ game_menus = [
   (
     "village_loot_continue",0,
     "Do you wish to continue looting this village?",
-    "bg3",
+    "none",
     [],
     [
       ("disembark_yes",[],"Yes.",[ (rest_for_hours, 3, 5, 1), #rest while attackable (3 hours will be extended by the trigger)
@@ -8351,7 +8351,7 @@ game_menus = [
   (
     "close",0,
     "Nothing.",
-    "bg3",
+    "none",
     [
         (change_screen_return),
       ],
@@ -8361,7 +8361,7 @@ game_menus = [
   (
     "town",mnf_enable_hot_keys|mnf_scale_picture,
     "{s10} {s14}^{s11}^{s15}{s12}{s13}",
-    "bg3",
+    "none",
     [    
         (store_encountered_party, "$current_town"),
 	(try_begin),
@@ -9771,7 +9771,7 @@ game_menus = [
   (
     "cannot_enter_court",0,
     "There is a feast in progress in the lord's hall, but you are not of sufficient status to be invited inside. Perhaps increasing your renown would win you admittance -- or you might also try distinguishing yourself at a tournament while the feast is in progress...",
-    "bg3",
+    "none",
     [],
     [
 	("continue", [],"Continue",
@@ -9784,7 +9784,7 @@ game_menus = [
   (
     "lady_visit",0,
     "Whom do you wish to visit?",
-    "bg3",
+    "none",
     [],
     [		
 		
@@ -9845,7 +9845,7 @@ game_menus = [
   (
     "town_tournament_lost",0,
     "You have been eliminated from the tournament.{s8}",
-    "bg3",
+    "none",
     [
 	(str_clear, s8),
 	(try_begin),
@@ -9870,7 +9870,7 @@ game_menus = [
     "town_tournament_won",mnf_disable_all_keys,
     "You have won the tournament of {s3}! You are filled with pride as the crowd cheers your name.\
  In addition to honour, fame and glory, you earn a prize of {reg9} pounds. {s8}",
-    "bg3",
+    "none",
     [
         (str_store_party_name, s3, "$current_town"),
         (call_script, "script_change_troop_renown", "trp_player", 20),
@@ -9915,7 +9915,7 @@ game_menus = [
   (
     "town_tournament_won_by_another",mnf_disable_all_keys,
     "As the only {reg3?fighter:man} to remain undefeated this day, {s1} wins the lists and the glory of this tournament.",
-    "bg3",
+    "none",
     [
       (call_script, "script_get_num_tournament_participants"),
       (store_sub, ":needed_to_remove_randomly", reg0, 1),
@@ -9944,7 +9944,7 @@ game_menus = [
   (
     "town_tournament",mnf_disable_all_keys,
     "{s1}You are at tier {reg0} of the tournament, with {reg1} participants remaining. In the next round, there will be {reg2} teams with {reg3} {reg4?fighters:fighter} each.",
-    "bg3",
+    "none",
     [
         (party_set_slot, "$current_town", slot_town_has_tournament, 0), #No way to return back if this menu is left
         (call_script, "script_sort_tournament_participant_troops"),#Moving trp_player to the top of the list
@@ -10146,7 +10146,7 @@ game_menus = [
   (
     "tournament_withdraw_verify",0,
     "Are you sure you want to withdraw from the tournament?",
-    "bg3",
+    "none",
     [],
     [
       ("tournament_withdraw_yes", [], "Yes. This is a pointless affectation.",
@@ -10161,7 +10161,7 @@ game_menus = [
   (
     "tournament_bet",0,
     "The odds against you are {reg5} to {reg6}.{reg1? You have already bet {reg1} pounds on yourself, and if you win, you will earn {reg2} pounds.:} How much do you want to bet?",
-    "bg3",
+    "none",
     [
       (assign, reg1, "$g_tournament_bet_placed"),
       (store_add, reg2, "$g_tournament_bet_win_amount", "$g_tournament_bet_placed"),
@@ -10236,7 +10236,7 @@ game_menus = [
   (
     "tournament_bet_confirm",0,
     "If you bet {reg1} pounds, you will earn {reg2} pounds if you win the tournament. Is that all right?",
-    "bg3",
+    "none",
     [
       (call_script, "script_get_win_amount_for_tournament_bet"),
       (assign, ":win_amount", reg0),
@@ -10263,7 +10263,7 @@ game_menus = [
   (
     "tournament_participants",0,
     "You ask one of the criers for the names of the tournament participants. They are:^{s11}",
-    "bg3",
+    "none",
     [
         (str_clear, s11),
         (call_script, "script_sort_tournament_participant_troops"),
@@ -10286,7 +10286,7 @@ game_menus = [
   (
     "collect_taxes",mnf_disable_all_keys,
     "As the party member with the highest trade skill ({reg2}), {reg3?you expect:{s1} expects} that collecting taxes from here will take {reg4} days...",
-    "bg3",
+    "none",
     [(call_script, "script_get_max_skill_of_player_party", "skl_trade"),
      (assign, ":max_skill", reg0),
      (assign, reg2, reg0),
@@ -10371,7 +10371,7 @@ game_menus = [
   (
     "collect_taxes_complete",mnf_disable_all_keys,
     "You've collected {reg3} pounds in taxes from {s3}. {s19} will be expecting you to take the money to him.",
-    "bg3",
+    "none",
     [(str_store_party_name, s3, "$current_town"),
      (quest_get_slot, ":quest_giver", "qst_collect_taxes", slot_quest_giver_troop),
      (str_store_troop_name, s19, ":quest_giver"),
@@ -10393,7 +10393,7 @@ game_menus = [
     "collect_taxes_rebels_killed",0,
     "Your quick action and strong arm have successfully put down the revolt.\
  Surely, anyone with a mind to rebel against you will think better of it after this.",
-    "bg3",
+    "none",
     [
     ],
     [
@@ -10407,7 +10407,7 @@ game_menus = [
     "collect_taxes_failed",mnf_disable_all_keys,
     "You could collect only {reg3} pounds as tax from {s3} before the revolt broke out.\
  {s1} won't be happy, but some silver will placate him better than nothing at all...",
-    "bg3",
+    "none",
     [(str_store_party_name, s3, "$current_town"),
      (quest_get_slot, ":quest_giver", "qst_collect_taxes", slot_quest_giver_troop),
      (str_store_troop_name, s1, ":quest_giver"),
@@ -10427,7 +10427,7 @@ game_menus = [
     "collect_taxes_revolt_warning",0,
     "The people of {s3} are outraged at your demands and decry it as nothing more than extortion.\
  They're getting very restless, and they may react badly if you keep pressing them.",
-    "bg3",
+    "none",
     [(str_store_party_name, s3, "$current_town"),
      ],
     [
@@ -10446,7 +10446,7 @@ game_menus = [
     "collect_taxes_revolt",0,
     "You are interrupted while collecting the taxes at {s3}. A large band of angry {reg9?peasants:townsmen} is marching nearer,\
  shouting about the exorbitant taxes and waving torches and weapons. It looks like they aim to fight you!",
-    "bg3",
+    "none",
     [(str_store_party_name, s3, "$current_town"),
      (assign, reg9, 0),
      (try_begin),
@@ -10481,7 +10481,7 @@ game_menus = [
   (
     "train_peasants_against_bandits",0,
     "As the party member with the highest training skill ({reg2}), {reg3?you expect:{s1} expects} that getting some peasants ready for practice will take {reg4} hours.",
-    "bg3",
+    "none",
     [(call_script, "script_get_max_skill_of_player_party", "skl_trainer"),
      (assign, ":max_skill", reg0),
      (assign, reg2, reg0),
@@ -10518,7 +10518,7 @@ game_menus = [
     "train_peasants_against_bandits_ready",0,
     "You put the peasants through the basics of soldiering, discipline and obedience.\
  You think {reg0} of them {reg1?have:has} fully grasped the training and {reg1?are:is} ready for some practice.",
-    "bg3",
+    "none",
     [
       (store_character_level, ":level", "trp_player"),
       (val_div, ":level", 10),
@@ -10556,7 +10556,7 @@ game_menus = [
   (
     "train_peasants_against_bandits_training_result",mnf_disable_all_keys,
     "{s0}",
-    "bg3",
+    "none",
     [
       (assign, reg5, "$g_train_peasants_against_bandits_num_peasants"),
       (str_store_troop_name_by_count, s0, "trp_trainee_peasant", "$g_train_peasants_against_bandits_num_peasants"),
@@ -10589,7 +10589,7 @@ game_menus = [
     "As you get ready to continue the training, a sentry from the village runs up to you, shouting alarums.\
  The bandits have been spotted on the horizon, riding hard for {s3}.\
  The elder begs that you organize your newly-trained militia and face them.",
-    "bg3",
+    "none",
     [
 	(str_store_party_name, s3, "$current_town"),
      ],
@@ -10633,7 +10633,7 @@ game_menus = [
   (
     "train_peasants_against_bandits_attack_result",mnf_scale_picture|mnf_disable_all_keys,
     "{s9}",
-    "bg3",
+    "none",
     [
       (try_begin),
         (eq, "$g_battle_result", 1),
@@ -10647,7 +10647,7 @@ game_menus = [
         (str_store_string, s9, "@Try as you might, you could not defeat the bandits.\
  Infuriated, they raze the village to the ground to punish the peasants,\
  and then leave the burning wasteland behind to find greener pastures to plunder."),
-        (set_background_mesh, "mesh_pic_looted_village"),
+        #(set_background_mesh, "mesh_pic_looted_village"),
       (try_end),
      ],
     [
@@ -10671,7 +10671,7 @@ game_menus = [
  terrified of the peasants and their new champion.\
  The villagers have little left in the way of wealth after their ordeal,\
  but they offer you all they can find to show their gratitude.",
-    "bg3",
+    "none",
     [(party_clear, "p_temp_party"),
      (call_script, "script_end_quest", "qst_train_peasants_against_bandits"),
      (call_script, "script_change_player_relation_with_center", "$g_encountered_party", 4),
@@ -10701,7 +10701,7 @@ game_menus = [
   (
     "disembark",0,
     "Do you wish to disembark?",
-    "bg3",
+    "none",
     [],
     [
       ("disembark_yes", [], "Yes.",
@@ -10735,7 +10735,7 @@ game_menus = [
   (
     "ship_reembark",0,
     "Do you wish to embark?",
-    "bg3",
+    "none",
     [],
     [
       ("reembark_yes", [], "Yes.",
@@ -10757,7 +10757,7 @@ game_menus = [
   (
     "center_reports",0,
     "Town Name: {s1}^Rent Income: {reg1} pounds^Tariff Income: {reg2} pounds^Food Stock: for {reg3} days",
-    "bg3",
+    "none",
     [(party_get_slot, ":town_food_store", "$g_encountered_party", slot_party_food_store),
      (call_script, "script_center_get_food_consumption", "$g_encountered_party"),
      (assign, ":food_consumption", reg0),
@@ -10790,7 +10790,7 @@ game_menus = [
   (
     "price_and_production",0,
     "Productions are:^(Note: base/modified by raw materials/modified by materials plus prosperity)^{s1}^^Price factors are:^{s2}",
-    "bg3",
+    "none",
     [
 	
 	 (assign, ":calradian_average_urban_hardship", 0),
@@ -10916,7 +10916,7 @@ game_menus = [
   (
     "town_trade",0,
     "You head towards the marketplace.",
-    "bg3",
+    "none",
     [],
     [
       ("assess_prices",
@@ -10964,7 +10964,7 @@ game_menus = [
    "town_trade_assessment_begin",0, 
    #"You overhear the following details about the roads out of town :^(experimental feature -- this may go into dialogs)^{s42}^You also overhear several discussions about the price of trade goods across the local area.^You listen closely, trying to work out the best deals around.",
    "You overhear several discussions about the price of trade goods across the local area.^You listen closely, trying to work out the best deals around.",
-    "bg3",
+    "none",
     [
 	(str_clear, s42),
 ##	(call_script, "script_merchant_road_info_to_s42", "$g_encountered_party"),
@@ -10994,7 +10994,7 @@ game_menus = [
   (
     "town_trade_assessment",mnf_disable_all_keys,
     "As the party member with the highest trade skill ({reg2}), {reg3?you try to figure out:{s1} tries to figure out} the best goods to trade in. {s2}",
-    "bg3",
+    "none",
     [
 
 (call_script, "script_get_max_skill_of_player_party", "skl_trade"),
@@ -11266,7 +11266,7 @@ game_menus = [
   (
     "sneak_into_town_suceeded",0,
     "Disguised in the garments of a poor pilgrim, you fool the guards and make your way into the town.",
-    "bg3",
+    "none",
     [],
     [
       ("continue",[],"Continue...",
@@ -11280,7 +11280,7 @@ game_menus = [
     "sneak_into_town_caught",0,
     "As you try to sneak in, one of the guards recognizes you and raises the alarm!\
  You must flee back through the gates before all the guards in the town come down on you!",
-    "bg3",
+    "none",
     [
        (assign,"$auto_menu","mnu_captivity_start_castle_surrender"),
     ],
@@ -11342,7 +11342,7 @@ game_menus = [
   (
     "sneak_into_town_caught_dispersed_guards",0,
     "You drive off the guards and cover your trail before running off, easily losing your pursuers in the maze of streets.",
-    "bg3",
+    "none",
     [],
     [
       ("continue",[],"Continue...",
@@ -11357,7 +11357,7 @@ game_menus = [
   (
     "sneak_into_town_caught_ran_away",0,
     "You make your way back through the gates and quickly retreat to the safety of the countryside.{s11}",
-    "bg3",
+    "none",
     [
     
 	(str_clear, s11),
@@ -11407,7 +11407,7 @@ game_menus = [
   (
     "enemy_offer_ransom_for_prisoner",0,
     "{s2} offers you a sum of {reg12} pounds in silver if you are willing to sell him {s1}.",
-    "bg3",
+    "none",
     [(call_script, "script_calculate_ransom_amount_for_troop", "$g_ransom_offer_troop"),
      (assign, reg12, reg0),
      (str_store_troop_name, s1, "$g_ransom_offer_troop"),
@@ -11447,7 +11447,7 @@ game_menus = [
   (
     "training_ground",0,
     "You approach a training field where you can practice your martial skills. What kind of training do you want to do?",
-    "bg3",
+    "none",
     [
       (store_add, "$g_training_ground_melee_training_scene", "scn_training_ground_ranged_melee_1", "$g_encountered_party"),
       (val_sub, "$g_training_ground_melee_training_scene", training_grounds_begin),
@@ -11515,7 +11515,7 @@ game_menus = [
 
   ("training_ground_selection_details_melee_1",0,
    "How many opponents will you go against?",
-   "bg3",
+   "none",
    [
      (call_script, "script_write_fit_party_members_to_stack_selection", "p_main_party", 1),
      (troop_get_slot, "$temp", "trp_stack_selection_amounts", 1), #number of men fit
@@ -11551,7 +11551,7 @@ game_menus = [
 
   ("training_ground_selection_details_melee_2",0,
    "Choose your opponent #{reg1}:",
-   "bg3",
+   "none",
    [
      (assign, reg1, "$temp_2"),
      (troop_get_slot, "$temp_3", "trp_stack_selection_amounts", 0), #number of slots
@@ -11609,7 +11609,7 @@ game_menus = [
 
   ("training_ground_selection_details_mounted",0,
    "What kind of weapon do you want to train with?",
-   "bg3",
+   "none",
    [],
     [
       ("camp_train_mounted_details_1",[], "One handed weapon.",
@@ -11638,7 +11638,7 @@ game_menus = [
 
   ("training_ground_selection_details_ranged_1",0,
    "What kind of ranged weapon do you want to train with?",
-   "bg3",
+   "none",
    [],
     [
       ("camp_train_ranged_weapon_bow",[], "Bow and arrows.",
@@ -11669,7 +11669,7 @@ game_menus = [
 
   ("training_ground_selection_details_ranged_2",0,
    "What range do you want to practice at?",
-   "bg3",
+   "none",
    [],
     [
       ("camp_train_ranged_details_1",[], "10 yards.",
@@ -11710,7 +11710,7 @@ game_menus = [
 
   ("training_ground_description",0,
    "{s0}",
-   "bg3",
+   "none",
    [],
     [
       ("continue", [], "Continue...",
@@ -11724,7 +11724,7 @@ game_menus = [
 
   ("training_ground_training_result",mnf_disable_all_keys,
    "{s7}{s2}",
-   "bg3",
+   "none",
    [
      (store_skill_level, ":trainer_skill", "skl_trainer", "trp_player"),
      (store_add, ":trainer_skill_multiplier", 5, ":trainer_skill"),
@@ -11825,7 +11825,7 @@ game_menus = [
   
   ("marshall_selection_candidate_ask",0,
    "{s15} will soon select a new marshall for {s23}. Some of the lords have suggested your name as a likely candidate.",
-   "bg3",
+   "none",
    [
      (try_begin),
        (eq, "$g_presentation_marshall_selection_ended", 1),
@@ -11889,7 +11889,7 @@ game_menus = [
  However, it seems that none of your wound were lethal,\
  and altough you feel awful, you find out that can still walk.\
  You get up and try to look for any other survivors from your party.",
-    "bg3",
+    "none",
     [
       ],
     []
@@ -11898,7 +11898,7 @@ game_menus = [
   (
     "captivity_start_wilderness",0,
     "Stub",
-    "bg3",
+    "none",
     [
           (assign, "$g_player_is_captive", 1),
           (try_begin),
@@ -11914,7 +11914,7 @@ game_menus = [
   (
     "captivity_start_wilderness_surrender",0,
     "Stub",
-    "bg3",
+    "none",
     [
        (assign, "$g_player_is_captive", 1),
        (assign,"$auto_menu",-1), #We need this since we may come here by something other than auto_menu
@@ -11926,7 +11926,7 @@ game_menus = [
   (
     "captivity_start_wilderness_defeat",0,
     "Your enemies take you prisoner.",
-    "bg3",
+    "none",
     [
        (assign, "$g_player_is_captive", 1),
        (assign,"$auto_menu",-1),
@@ -11947,7 +11947,7 @@ game_menus = [
   (
     "captivity_start_castle_surrender",0,
     "Stub",
-    "bg3",
+    "none",
     [
        (assign, "$g_player_is_captive", 1),
        (assign,"$auto_menu",-1),
@@ -11959,7 +11959,7 @@ game_menus = [
   (
     "captivity_start_castle_defeat",0,
     "Stub",
-    "bg3",
+    "none",
     [
        (assign, "$g_player_is_captive", 1),
        (assign,"$auto_menu",-1),
@@ -11971,7 +11971,7 @@ game_menus = [
   (
     "captivity_start_under_siege_defeat",0,
     "Your enemies take you prisoner.",
-    "bg3",
+    "none",
     [
        (assign, "$g_player_is_captive", 1),
        (assign,"$auto_menu",-1),
@@ -11984,9 +11984,9 @@ game_menus = [
   (
     "captivity_wilderness_taken_prisoner",mnf_scale_picture,
     "Your enemies take you prisoner.",
-    "bg3",
+    "none",
     [
-        (set_background_mesh, "mesh_pic_prisoner_wilderness"),
+        #(set_background_mesh, "mesh_pic_prisoner_wilderness"),
      ],
     [
       ("continue",[],"Continue...",
@@ -12033,21 +12033,21 @@ game_menus = [
   (
     "captivity_wilderness_check",0,
     "stub",
-    "bg3",
+    "none",
     [(jump_to_menu,"mnu_captivity_end_wilderness_escape")],
     []
   ),
   (
     "captivity_end_wilderness_escape", mnf_scale_picture,
     "After painful days of being dragged about as a prisoner, you find a chance and escape from your captors!",
-    "bg3",
+    "none",
     [
         (troop_get_type, ":is_female", "trp_player"),
         (try_begin),
           (eq, ":is_female", 1),
-          (set_background_mesh, "mesh_pic_escape_1_fem"),
+          #(set_background_mesh, "mesh_pic_escape_1_fem"),
         (else_try),
-          (set_background_mesh, "mesh_pic_escape_1"),
+          #(set_background_mesh, "mesh_pic_escape_1"),
         (try_end),
     ],
     [
@@ -12069,14 +12069,14 @@ game_menus = [
   (
     "captivity_castle_taken_prisoner",0,
     "You are quickly surrounded by guards who take away your weapons. With curses and insults, they throw you into the dungeon where you must while away the miserable days of your captivity.",
-    "bg3",
+    "none",
     [
         (troop_get_type, ":is_female", "trp_player"),
         (try_begin),
           (eq, ":is_female", 1),
-          (set_background_mesh, "mesh_pic_prisoner_fem"),
+          #(set_background_mesh, "mesh_pic_prisoner_fem"),
         (else_try),
-          (set_background_mesh, "mesh_pic_prisoner_man"),
+          #(set_background_mesh, "mesh_pic_prisoner_man"),
         (try_end),
     ],
     [
@@ -12095,14 +12095,14 @@ game_menus = [
     "captivity_rescue_lord_taken_prisoner",0,
     "You remain in disguise for as long as possible before revealing yourself.\
  The guards are outraged and beat you savagely before throwing you back into the cell for God knows how long...",
-    "bg3",
+    "none",
     [
         (troop_get_type, ":is_female", "trp_player"),
         (try_begin),
           (eq, ":is_female", 1),
-          (set_background_mesh, "mesh_pic_prisoner_fem"),
+          #(set_background_mesh, "mesh_pic_prisoner_fem"),
         (else_try),
-          (set_background_mesh, "mesh_pic_prisoner_man"),
+          #(set_background_mesh, "mesh_pic_prisoner_man"),
         (try_end),
    ],
     [
@@ -12120,7 +12120,7 @@ game_menus = [
   (
     "captivity_castle_check",0,
     "stub",
-    "bg3",
+    "none",
     [
         (store_random_in_range, reg(7), 0, 10),
         (try_begin),
@@ -12154,7 +12154,7 @@ game_menus = [
   (
     "captivity_end_exchanged_with_prisoner",0,
     "After days of imprisonment, you are finally set free when your captors exchange you with another prisoner.",
-    "bg3",
+    "none",
     [
       ],
     [
@@ -12178,7 +12178,7 @@ game_menus = [
     "You spend long hours in the sunless dank of the dungeon, more than you can count.\
  Suddenly one of your captors enters your cell with an offer;\
  he proposes to free you in return for {reg5} pounds of your hidden wealth. You decide to...",
-    "bg3",
+    "none",
     [
       (assign, reg5, "$player_ransom_amount"),
     ],
@@ -12217,14 +12217,14 @@ game_menus = [
     "captivity_castle_remain",mnf_scale_picture|mnf_disable_all_keys,
     "More days pass in the darkness of your cell. You get through them as best you can,\
  enduring the kicks and curses of the guards, watching your underfed body waste away more and more...",
-    "bg3",
+    "none",
     [
         (troop_get_type, ":is_female", "trp_player"),
         (try_begin),
           (eq, ":is_female", 1),
-          (set_background_mesh, "mesh_pic_prisoner_fem"),
+          #(set_background_mesh, "mesh_pic_prisoner_fem"),
         (else_try),
-          (set_background_mesh, "mesh_pic_prisoner_man"),
+          #(set_background_mesh, "mesh_pic_prisoner_man"),
         (try_end),
         (store_random_in_range, ":random_hours", 16, 22),
         (call_script, "script_stay_captive_for_hours", ":random_hours"),
@@ -12245,9 +12245,9 @@ game_menus = [
     "{s8} sends word that he wishes you to join {reg4?her:his} new military campaign.\
  You need to bring at least {reg13} troops to the army,\
  and are instructed to raise more men with all due haste if you do not have enough.",
-    "bg3",
+    "none",
     [
-        (set_background_mesh, "mesh_pic_messenger"),
+        #(set_background_mesh, "mesh_pic_messenger"),
         (quest_get_slot, ":quest_target_troop", "qst_report_to_army", slot_quest_target_troop),
         (quest_get_slot, ":quest_target_amount", "qst_report_to_army", slot_quest_target_amount),
         (call_script, "script_get_information_about_troops_position", ":quest_target_troop", 0),
@@ -12280,9 +12280,9 @@ game_menus = [
     "kingdom_army_quest_messenger",mnf_scale_picture,
     "{s8} sends word that he wishes to speak with you about a task he needs performed.\
  He requests you to come and see him as soon as possible.",
-    "bg3",
+    "none",
     [
-        (set_background_mesh, "mesh_pic_messenger"),
+        #(set_background_mesh, "mesh_pic_messenger"),
         (faction_get_slot, ":faction_marshall", "$players_kingdom", slot_faction_marshall),
         (str_store_troop_name, s8, ":faction_marshall"),
       ],
@@ -12297,9 +12297,9 @@ game_menus = [
     "kingdom_army_quest_join_siege_order",mnf_scale_picture,
     "{s8} sends word that you are to join the siege of {s9} in preparation for a full assault.\
  Your troops are to take {s9} at all costs.",
-    "bg3",
+    "none",
     [
-		(set_background_mesh, "mesh_pic_messenger"),
+		#(set_background_mesh, "mesh_pic_messenger"),
         (faction_get_slot, ":faction_marshall", "$players_kingdom", slot_faction_marshall),
         (quest_get_slot, ":quest_target_center", "qst_join_siege_with_army", slot_quest_target_center),
         (str_store_troop_name, s8, ":faction_marshall"),
@@ -12324,9 +12324,9 @@ game_menus = [
   (
     "kingdom_army_follow_failed",mnf_scale_picture,
     "You have failed to follow {s8}. The marshal assumes that you were otherwise engaged, but would have appreciated your support.",
-    "bg3",
+    "none",
     [
-        (set_background_mesh, "mesh_pic_messenger"),
+        #(set_background_mesh, "mesh_pic_messenger"),
         (faction_get_slot, ":faction_marshall", "$players_kingdom", slot_faction_marshall),
         (str_store_troop_name, s8, ":faction_marshall"),
         (call_script, "script_abort_quest", "qst_follow_army", 1),
@@ -12348,9 +12348,9 @@ game_menus = [
  and in return {s8} asks you to swear an oath of homage to him and fight in his military campaigns,\
  although he offers you no lands or titles.\
  He will surely be offended if you do not take the offer...",
-    "bg3",
+    "none",
     [
-        (set_background_mesh, "mesh_pic_messenger"),
+        #(set_background_mesh, "mesh_pic_messenger"),
         (faction_get_slot, "$g_invite_faction_lord", "$g_invite_faction", slot_faction_leader),
         (str_store_troop_name, s8, "$g_invite_faction_lord"),
         (str_store_faction_name, s9, "$g_invite_faction"),
@@ -12391,9 +12391,9 @@ game_menus = [
  and in return {s8} asks you to swear an oath of homage to him and fight in his military campaigns,\
  offering you the fief of {s2} for your loyal service.\
  He will surely be offended if you do not take the offer...",
-    "bg3",
+    "none",
     [
-        (set_background_mesh, "mesh_pic_messenger"),
+        #(set_background_mesh, "mesh_pic_messenger"),
         (faction_get_slot, "$g_invite_faction_lord", "$g_invite_faction", slot_faction_leader),
         (str_store_troop_name, s8, "$g_invite_faction_lord"),
         (str_store_faction_name, s9, "$g_invite_faction"),
@@ -12427,7 +12427,7 @@ game_menus = [
     "invite_player_to_faction_accepted",0,
     "In order to become a vassal, you must swear an oath of homage to {s3}.\
  You shall have to find him and give him your oath in person. {s5}",
-    "bg3",
+    "none",
     [
         (call_script, "script_get_information_about_troops_position", "$g_invite_faction_lord", 0),
         (str_store_troop_name, s3, "$g_invite_faction_lord"),
@@ -12443,7 +12443,7 @@ game_menus = [
   (
     "question_peace_offer",0,
     "You Receive a Peace Offer^^The {s1} offers you a peace agreement. What is your answer?",
-    "bg3",
+    "none",
     [
       (str_store_faction_name, s1, "$g_notification_menu_var1"),
       (set_fixed_point_multiplier, 100),
@@ -12469,7 +12469,7 @@ game_menus = [
   (
     "notification_truce_expired",0,
     "Truce Has Expired^^The truce between {s1} and {s2} has expired.",
-    "bg3",
+    "none",
     [
       (str_store_faction_name, s1, "$g_notification_menu_var1"),
       (str_store_faction_name, s2, "$g_notification_menu_var2"),
@@ -12491,7 +12491,7 @@ game_menus = [
   (
     "notification_feast_quest_expired",0,
     "{s10}",
-    "bg3",
+    "none",
     [
     (str_store_string, s10, "str_feast_quest_expired"),
     ],
@@ -12506,7 +12506,7 @@ game_menus = [
   (
     "notification_sortie_possible",0,
     "Enemy Sighted: Enemies have been sighted outside the walls of {s4}, and {s5} and others are preparing for a sortie. You may join them if you wish.",
-    "bg3",
+    "none",
     [
 	(str_store_party_name, s4, "$g_notification_menu_var1"),
 	(party_stack_get_troop_id, ":leader", "$g_notification_menu_var2", 0),
@@ -12528,7 +12528,7 @@ game_menus = [
   (
     "notification_casus_belli_expired",0,
     "Kingdom Fails to Respond^^The {s1} has not responded to the {s2}'s provocations, and {s3} suffers a loss of face among {reg4?her:his} more bellicose subjects...^",
-    "bg3",
+    "none",
     [
       (str_store_faction_name, s1, "$g_notification_menu_var1"),
       (str_store_faction_name, s2, "$g_notification_menu_var2"),
@@ -12554,7 +12554,7 @@ game_menus = [
   (
     "notification_lord_defects",0,
     "Defection: {s4} has abandoned the {s5} and joined the {s7}, taking {reg4?her:his} his fiefs with him",
-    "bg3",
+    "none",
 	[
 	  (assign, ":defecting_lord", "$g_notification_menu_var1"),
 	  (assign, ":old_faction", "$g_notification_menu_var2"),
@@ -12577,7 +12577,7 @@ game_menus = [
   (
     "notification_treason_indictment",0,
     "Treason Indictment^^{s9}",
-    "bg3",
+    "none",
     [
 	  (assign, ":indicted_lord", "$g_notification_menu_var1"),
 	  (assign, ":former_faction", "$g_notification_menu_var2"),
@@ -12620,7 +12620,7 @@ game_menus = [
   (
     "notification_border_incident",0,
     "Border incident^^Word reaches you that {s9}. Though you don't know whether or not the rumors are true, you do know one thing -- this seemingly minor incident has raised passions among the {s4}, making it easier for them to go to war against the {s3}, if they want it...",
-    "bg3",
+    "none",
     [
 	  (assign, ":acting_village", "$g_notification_menu_var1"),
 	  (assign, ":target_village", "$g_notification_menu_var2"),
@@ -12702,7 +12702,7 @@ game_menus = [
   (
     "notification_player_faction_active",0,
     "You now possess land in your name, without being tied to any kingdom. This makes you a monarch in your own right, with your court temporarily located at {s12}. However, the other kings in Europe will at first consider you a threat, for if any upstart warlord can grab a throne, then their own legitimacy is called into question.^^You may find it desirable at this time to pledge yourself to an existing kingdom. If you want to continue as a sovereign monarch, then your first priority should be to establish an independent right to rule. You can establish your right to rule through several means -- marrying into a high-born family, recruiting new lords, governing your lands, treating with other kings, or dispatching your companions on missions.^^At any rate, your first step should be to appoint a chief minister from among your companions, to handle affairs of state. Different companions have different capabilities.^You may appoint new ministers from time to time. You may also change the location of your court, by speaking to the minister.",
-    "bg3",
+    "none",
     [
       (set_fixed_point_multiplier, 100),
       (position_set_x, pos0, 65),
@@ -12881,7 +12881,7 @@ game_menus = [
   (
     "minister_confirm",0,
     "{s9}can be found at your court in {s12}. You should consult periodically, to avoid the accumulation of unresolved issues that may sap your authority...",
-    "bg3",
+    "none",
     [
     (try_begin),
         (eq, "$players_kingdom_name_set", 1),
@@ -12915,7 +12915,7 @@ game_menus = [
   (
   "notification_court_lost",0,
   "{s12}",
-  "bg3",
+  "none",
   [
     (try_begin),
 		(is_between, "$g_player_court", centers_begin, centers_end),
@@ -12988,7 +12988,7 @@ game_menus = [
   (
     "notification_player_faction_deactive",0,
     "Your kingdom no longer holds any land.",
-    "bg3",
+    "none",
     [
       (set_fixed_point_multiplier, 100),
       (position_set_x, pos0, 65),
@@ -13018,9 +13018,9 @@ game_menus = [
   (
     "notification_player_wedding_day",mnf_scale_picture,
     "{s8} wishes to inform you that preparations for your wedding at {s10} have been complete, and that your presence is expected imminently .",
-    "bg3",
+    "none",
     [
-		(set_background_mesh, "mesh_pic_messenger"),
+		#(set_background_mesh, "mesh_pic_messenger"),
 		(str_store_troop_name, s8, "$g_notification_menu_var1"),
 		(str_store_party_name, s10, "$g_notification_menu_var2"),
       ],
@@ -13035,9 +13035,9 @@ game_menus = [
   (
     "notification_player_kingdom_holds_feast",mnf_scale_picture,
     "{s11}",
-    "bg3",
+    "none",
     [
-		(set_background_mesh, "mesh_pic_messenger"),
+		#(set_background_mesh, "mesh_pic_messenger"),
 		
 		(str_store_troop_name, s8, "$g_notification_menu_var1"),
 		(store_faction_of_troop, ":host_faction", "$g_notification_menu_var1"),
@@ -13085,7 +13085,7 @@ game_menus = [
   (
     "notification_center_under_siege",0,
     "{s1} has been besieged by {s2} of {s3}!",
-    "bg3",
+    "none",
     [
       (str_store_party_name, s1, "$g_notification_menu_var1"),
       (str_store_troop_name, s2, "$g_notification_menu_var2"),
@@ -13107,7 +13107,7 @@ game_menus = [
   (
     "notification_village_raided",0,
     "Enemies have Laid Waste to a Fief^^{s1} has been raided by {s2} of {s3}!",
-    "bg3",
+    "none",
     [
       (str_store_party_name, s1, "$g_notification_menu_var1"),
       (str_store_troop_name, s2, "$g_notification_menu_var2"),
@@ -13129,7 +13129,7 @@ game_menus = [
   (
     "notification_village_raid_started",0,
     "Your Village is under Attack!^^{s2} of {s3} is laying waste to {s1}.",
-    "bg3",
+    "none",
     [
       (str_store_party_name, s1, "$g_notification_menu_var1"),
       (str_store_troop_name, s2, "$g_notification_menu_var2"),
@@ -13151,7 +13151,7 @@ game_menus = [
   (
     "notification_one_faction_left",0,
     "Europe Conquered by One Kingdom^^{s1} has defeated all rivals and stands as the sole kingdom.",
-    "bg3",
+    "none",
     [
       (str_store_faction_name, s1, "$g_notification_menu_var1"),
       (set_fixed_point_multiplier, 100),
@@ -13187,7 +13187,7 @@ game_menus = [
   (
     "notification_oath_renounced_faction_defeated",0,
     "Your Old Faction was Defeated^^You won the battle against {s1}! This ends your struggle which started after you renounced your oath to them.",
-    "bg3",
+    "none",
     [
       (str_store_faction_name, s1, "$g_notification_menu_var1"),
       (set_fixed_point_multiplier, 100),
@@ -13211,7 +13211,7 @@ game_menus = [
   (
     "notification_center_lost",0,
     "An Estate was Lost^^You have lost {s1} to {s2}.",
-    "bg3",
+    "none",
     [
       (str_store_party_name, s1, "$g_notification_menu_var1"),
       (str_store_faction_name, s2, "$g_notification_menu_var2"),
@@ -13232,7 +13232,7 @@ game_menus = [
   (
     "notification_troop_left_players_faction",0,
     "Betrayal!^^{s1} has left {s2} and joined {s3}.",
-    "bg3",
+    "none",
     [
       (str_store_troop_name, s1, "$g_notification_menu_var1"),
       (str_store_faction_name, s2, "$players_kingdom"),
@@ -13253,7 +13253,7 @@ game_menus = [
   (
     "notification_troop_joined_players_faction",0,
     "Good news!^^ {s1} has left {s2} and joined {s3}.",
-    "bg3",
+    "none",
     [
       (str_store_troop_name, s1, "$g_notification_menu_var1"),
       (str_store_faction_name, s2, "$g_notification_menu_var2"),
@@ -13274,7 +13274,7 @@ game_menus = [
   (
     "notification_war_declared",0,
     "Declaration of War^^{s1} has declared war against {s2}!",
-    "bg3",
+    "none",
     [
 
 #	  (try_begin),
@@ -13321,7 +13321,7 @@ game_menus = [
   (
     "notification_peace_declared",0,
     "Peace Agreement^^{s1} and {s2} have made peace!^{s57}",
-    "bg3",
+    "none",
     [
 
 	  (try_begin),
@@ -13355,7 +13355,7 @@ game_menus = [
   (
     "notification_faction_defeated",0,
     "Faction eliminated:^^{s1} does not longer exist!",
-    "bg3",
+    "none",
     [
       (str_store_faction_name, s1, "$g_notification_menu_var1"),
       (set_fixed_point_multiplier, 100),
@@ -13456,7 +13456,7 @@ game_menus = [
   (
     "notification_rebels_switched_to_faction",0,
     "Rebellion Success^^ Your rebellion is victorious! Your faction now has the sole claim to the title of {s11}, with {s12} as the single ruler.",
-    "bg3",
+    "none",
     [
       (str_store_faction_name, s11, "$g_notification_menu_var1"),
       (str_store_troop_name, s12, "$g_notification_menu_var2"),
@@ -13485,7 +13485,7 @@ game_menus = [
   (
     "notification_player_should_consult",0,
     "Your minister send words that there are problems brewing in the realm which, if left untreated, could sap your authority. You should consult with him at your earliest convenience",
-    "bg3",
+    "none",
     [
       ],
     [
@@ -13518,7 +13518,7 @@ game_menus = [
   (
     "notification_player_feast_in_progress",0,
     "Feast in Preparation^^Your wife has started preparations for a feast in your hall in {s11}",
-    "bg3",
+    "none",
     [
     (str_store_party_name, s11, "$g_notification_menu_var1"),
     ],
@@ -13533,7 +13533,7 @@ game_menus = [
   (
     "notification_lady_requests_visit",0, #add this once around seven days after the last visit, or three weeks, or three months
     "An elderly woman approaches your party and passes one of your men a letter, sealed in plain wax. It is addressed to you. When you break the seal, you see it is from {s15}. It reads, 'I so enjoyed your last visit. {s14} I am currently in {s10}.{s12}'",
-    "bg3",
+    "none",
     [
 
 	  (assign, ":lady_no", "$g_notification_menu_var1"),
@@ -13627,7 +13627,7 @@ game_menus = [
   ( #pre lady visit
     "garden",0,
     "{s12}",
-    "bg3",
+    "none",
     [
 	
     (call_script, "script_get_kingdom_lady_social_determinants", "$love_interest_in_town"),
@@ -13739,7 +13739,7 @@ game_menus = [
     "kill_local_merchant_begin",0,
     "You spot your victim and follow him, observing as he turns a corner into a dark alley.\
  This will surely be your best opportunity to attack him.",
-    "bg3",
+    "none",
     [
     ],
     [
@@ -13761,7 +13761,7 @@ game_menus = [
     (
     "debug_alert_from_s65",0,
     "DEBUG ALERT: {s65}",
-    "bg3",
+    "none",
     [
     ],
     [
@@ -13776,7 +13776,7 @@ game_menus = [
   (
     "auto_return_to_map",0,
     "stub",
-    "bg3",
+    "none",
     [(change_screen_map)],
     []
   ),
@@ -13784,7 +13784,7 @@ game_menus = [
     (
     "bandit_lair",0,
     "{s3}",
-    "bg3",
+    "none",
     [
       (try_begin),
         (eq, "$loot_screen_shown", 1),
@@ -14051,7 +14051,7 @@ game_menus = [
   (
     "notification_player_faction_political_issue_resolved",0,
     "After consulting with the peers of the realm, {s10} has decided to confer {s11} on {s12}.",
-    "bg3",
+    "none",
     [
 	(assign, ":faction_issue_resolved", "$g_notification_menu_var1"),
 	(assign, ":faction_decision", "$g_notification_menu_var2"),
@@ -14080,7 +14080,7 @@ game_menus = [
   (
     "notification_player_faction_political_issue_resolved_for_player",0,
     "After consulting with the peers of the realm, {s10} has decided to confer {s11} on you. You may decline the honor, but it will probably mean that you will not receive other awards for a little while.{s12}",
-    "bg3",
+    "none",
     [
 	(faction_get_slot, ":leader", "$players_kingdom", slot_faction_leader),
 	(str_store_troop_name, s10, ":leader"),
@@ -14141,7 +14141,7 @@ game_menus = [
   
   ("start_phase_2_5",mnf_disable_all_keys,
     "{!}{s16}",
-    "bg3",
+    "none",
     [
       (str_store_party_name, s1, "$g_starting_town"),
       (str_store_string, s16, "$g_journey_string"),
@@ -14157,7 +14157,7 @@ game_menus = [
   
   ("start_phase_3",mnf_disable_all_keys,
     "{s16}^^You are exhausted by the time you find the inn in {s1}, and fall asleep quickly. However, you awake before dawn and are eager to explore your surroundings. You venture out onto the streets, which are still deserted. All of a sudden, you hear a sound that stands the hairs of your neck on end -- the rasp of a blade sliding from its scabbard...",
-    "bg3",
+    "none",
     [      
       (assign, ":continue", 1),
       (try_begin),
@@ -14200,7 +14200,7 @@ game_menus = [
 
   ("start_phase_4",mnf_disable_all_keys,
     "{s11}",
-    "bg3",
+    "none",
     [      
       (assign, ":continue", 1),
       (try_begin),  
@@ -14287,7 +14287,7 @@ game_menus = [
 
   ("lost_tavern_duel",mnf_disable_all_keys,
     "{s11}",
-    "bg3",
+    "none",
     [
 	(try_begin),
 		(agent_get_troop_id, ":type", "$g_main_attacker_agent"),
@@ -14311,7 +14311,7 @@ game_menus = [
 
   ("establish_court",mnf_disable_all_keys,
     "To establish {s4} as your court will require a small refurbishment. In particular, you will need a set of tools and a bolt of velvet. it may also take a short while for some of your followers to relocate here. Do you wish to proceed?",
-    "bg3",
+    "none",
     [
 	(str_store_party_name, s4, "$g_encountered_party"),
 	],
@@ -14338,7 +14338,7 @@ game_menus = [
 
   ("notification_relieved_as_marshal", mnf_disable_all_keys,
     "{s4} wishes to inform you that your services as marshal are no longer required. In honor of valiant efforts on behalf of the realm over the last {reg4} days, however, {reg8?she:he} offers you a purse of {reg5} pounds.",
-    "bg3",
+    "none",
     [
 	(assign, reg4, "$g_player_days_as_marshal"),
 	
@@ -14415,7 +14415,7 @@ game_menus = [
 
   ("start_game_speed_selection",menu_text_color(0xFF000000)|mnf_disable_all_keys,
     "Select game speed. You will be able to change it later in the game. Game speed affects how fast countries will develop their military technology and start using more advanced firearms.",
-    "bg3",
+    "none",
     [],
     [
       ("game_speed_extremely_fast",[],"Extremely fast (One year passes in 6 days).",
@@ -14468,7 +14468,7 @@ game_menus = [
   ),
   ("change_game_speed",menu_text_color(0xFF000000)|mnf_disable_all_keys,
     "Select game speed.",
-    "bg3",
+    "none",
     [],
     [
 ("game_speed_debug",[(eq,"$cheat_mode",1)],"Debug mode (One year passes in 1 day).",
@@ -14528,7 +14528,7 @@ game_menus = [
   
   ("cannoneers_store",menu_text_color(0xFF000000)|mnf_disable_all_keys,
     "The soldiers let you into the armory. Here you can order heavy weaponry - field guns and howitzers.^^Your current balance is {reg0} pounds.",
-    "bg3",
+    "none",
     [
 	#todo add background image here
 	(store_troop_gold, reg0, "trp_player"),
@@ -14616,7 +14616,7 @@ game_menus = [
 
   ("start_game_start_as_leader",menu_text_color(0xFF000000)|mnf_disable_all_keys, # parabellum DEPRECATED
     "Select a faction.",
-    "bg3",
+    "none",
     [
 	(change_screen_return),],
     [
@@ -14729,7 +14729,7 @@ game_menus = [
   
   ("start_game_choose_as_who_to_start",menu_text_color(0xFF000000)|mnf_disable_all_keys,
     "Choose who you want to start the game as.",
-    "bg3",
+    "none",
     [],
     [
      ("start_as_adventurer",[],"Start as adventurer.",
@@ -14752,7 +14752,7 @@ game_menus = [
   (
     "tech_invented",0,
     "The {s3} has researched {s1}!^^^{s2}",
-    "bg3",
+    "none",
     [
 		(try_begin),
 		(eq, reg21, 11111),
@@ -14784,7 +14784,7 @@ game_menus = [
   (
     "welcome_to_be_mod",0,
     "Welcome to Between Empires!^^Please take a moment to read this, it contains vital information.^^^In order to play the mod properly, you have to use our company system, which you can access in the pre-battle deployment menu, and our new command interface, which you can access via the U key during battles. Hotkeys are listed at the beginning of each battle, take a moment to memorize them.^The company system allows you to split your units into up to 9 infantry, cavalry, or artillery companies. In order for artillery to spawn, you need an artillery company.^^Furthermore, Between Empires includes a unique technology system. Said technology system can be accessed by the player via the reports menu, where it is listed under the technology menu. Certain technologies are required for others to unlock, and researching a technology takes two in-game years, (between 12 and 60 days, depending on your chosen game speed).^Researching technologies is vital for the survival of your nation, as the AI factions will also gain access to technologies as time progresses.^Some factions, such as Wurttemberg and Prussia, have already unlocked advanced armaments at game start and should be approached accordingly.",
-    "bg3",
+    "none",
     [],
     [
 	("close", [],"Close",
@@ -14794,9 +14794,11 @@ game_menus = [
 	]),
 
   ("italian_unification",0,
-    "{s2} annexed!^^Following intense fighting against the armies of the {s1}, the {s2} was forced to surrender. After the national committee signed a treaty in the national palace, {s3} ratified the agreement in the early morning hours and effectively ended {s2}'s national sovereignty. Italian Unification has just become a looming reality.",
-    "bg3",
-    [],
+    "{s32} annexed!^^Following intense fighting against the armies of the {s31}, the {s32} was forced to surrender. After the national committee signed a treaty in the national palace, {s33} ratified the agreement in the early morning hours and effectively ended {s32}'s national sovereignty. Italian Unification has just become a looming reality.",
+    "none",
+    [
+		(set_background_mesh, "mesh_pic_italian_unification"),
+	],
     [
 	("close", [],"Close",
        [

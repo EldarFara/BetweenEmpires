@@ -1472,6 +1472,8 @@ g_multiplayer_ccoop_difficulty_string_i
 g_ccoop_king_troop
 scene_is_forest
 g_prison_cart_previous_point
+async_simple_trigger1
+async_simple_trigger2
 current_wind
 current_clouds
 current_precipitation

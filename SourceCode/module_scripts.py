@@ -1106,8 +1106,6 @@ scripts = [
 	
 	(party_set_slot, "p_village_223", slot_village_bound_center, "p_castle_206"),
 	(call_script, "script_give_center_to_faction_aux", "p_village_223", "fac_kingdom_12"),
-    (party_set_slot, "p_village_677", slot_village_bound_center, "p_castle_115"),
-	(call_script, "script_give_center_to_faction_aux", "p_village_677", "fac_kingdom_12"),
     (party_set_slot, "p_village_148", slot_village_bound_center, "p_castle_8"),
 	(call_script, "script_give_center_to_faction_aux", "p_village_148", "fac_kingdom_1"),
     (party_set_slot, "p_village_251", slot_village_bound_center, "p_castle_8"),
@@ -1198,6 +1196,16 @@ scripts = [
 	(call_script, "script_give_center_to_faction_aux", "p_village_26", "fac_kingdom_6"),
     (party_set_slot, "p_village_493", slot_village_bound_center, "p_castle_145"),
 	(call_script, "script_give_center_to_faction_aux", "p_village_493", "fac_kingdom_3"),
+    (party_set_slot, "p_village_321", slot_village_bound_center, "p_castle_89"),
+	(call_script, "script_give_center_to_faction_aux", "p_village_321", "fac_kingdom_26"),
+    (party_set_slot, "p_village_677", slot_village_bound_center, "p_castle_256"),
+	(call_script, "script_give_center_to_faction_aux", "p_village_677", "fac_kingdom_18"),
+    (party_set_slot, "p_village_678", slot_village_bound_center, "p_castle_255"),
+	(call_script, "script_give_center_to_faction_aux", "p_village_678", "fac_kingdom_18"),
+    (party_set_slot, "p_village_318", slot_village_bound_center, "p_castle_110"),
+	(call_script, "script_give_center_to_faction_aux", "p_village_318", "fac_kingdom_31"),
+    (party_set_slot, "p_village_682", slot_village_bound_center, "p_castle_133"),
+	(call_script, "script_give_center_to_faction_aux", "p_village_682", "fac_kingdom_12"),
     
     
 
@@ -1575,10 +1583,12 @@ scripts = [
       (call_script, "script_give_center_to_faction_aux", "p_castle_251", "fac_kingdom_2"),#indu
       (call_script, "script_give_center_to_faction_aux", "p_castle_252", "fac_kingdom_2"),#indu
       (call_script, "script_give_center_to_faction_aux", "p_castle_253", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_254", "fac_kingdom_2"),#indu
+      (call_script, "script_give_center_to_faction_aux", "p_castle_254", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_255", "fac_kingdom_18"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_256", "fac_kingdom_18"),
 #yifeng 1.5
 
-(call_script, "script_randomize_preset_wars"),
+(call_script, "script_init_preset_wars"),
       		  	  
 	# Towns (loop)
       (try_for_range, ":town_no", towns_begin, towns_end),
@@ -6258,6 +6268,9 @@ scripts = [
         (try_end),
         (call_script, "script_get_prosperity_text_to_s50", ":center_no"),
         #(party_get_slot, reg7, ":center_no", slot_town_prosperity),
+	(str_clear, s20),
+		(try_begin),
+		(neg|is_between, ":center_no", villages_begin, villages_end),
 			(try_begin),
 			(str_store_party_name, s63, ":center_no"),
 			(party_get_slot, ":closest_center1", ":center_no", slot_center_closest_center1), (party_get_slot, ":closest_center2", ":center_no", slot_center_closest_center2), (party_get_slot, ":closest_center3", ":center_no", slot_center_closest_center3),
@@ -6267,6 +6280,7 @@ scripts = [
 			(else_try),
 			(str_store_string,s20,"@{s63} is connected to the cities of {s60}, {s61} and {s62} by the local road network."),
 			(try_end),
+		(try_end),
         (str_store_string, s0, "@{s2}Its prosperity is: {s50}.^{s20}", 0),
       
         (set_trigger_result, 1),
@@ -25249,7 +25263,7 @@ scripts = [
             (lt, ":dist", 15),
             (party_slot_eq, ":enemy_village_no", slot_village_state, 0), #village is not already raided
             #CHANGE STATE TO RAID THIS VILLAGE
-            (assign, ":selected_village", ":enemy_village_no"),
+            (assign, ":selected_village", ":enemy_village_no"), # parabellum todo
           (try_end),
           (try_begin),
             (eq, ":selected_village", 0),
@@ -32943,13 +32957,13 @@ scripts = [
             (this_or_next|eq, ":cur_terrain", rt_steppe_forest),
             (this_or_next|eq, ":cur_terrain", rt_desert),
             (             eq, ":cur_terrain", rt_desert_forest),
-            (set_background_mesh, "mesh_pic_towndes"),
+            #(set_background_mesh, "mesh_pic_towndes"),
           (else_try),
             (this_or_next|eq, ":cur_terrain", rt_snow),
             (             eq, ":cur_terrain", rt_snow_forest),
-            (set_background_mesh, "mesh_pic_townsnow"),
+            #(set_background_mesh, "mesh_pic_townsnow"),
           (else_try),
-            (set_background_mesh, "mesh_pic_town1"),
+            #(set_background_mesh, "mesh_pic_town1"),
           (try_end),
         (else_try),
           (try_begin),
@@ -32957,13 +32971,13 @@ scripts = [
             (this_or_next|eq, ":cur_terrain", rt_steppe_forest),
             (this_or_next|eq, ":cur_terrain", rt_desert),
             (             eq, ":cur_terrain", rt_desert_forest),
-            (set_background_mesh, "mesh_pic_castledes"),
+            #(set_background_mesh, "mesh_pic_castledes"),
           (else_try),
             (this_or_next|eq, ":cur_terrain", rt_snow),
             (             eq, ":cur_terrain", rt_snow_forest),
-            (set_background_mesh, "mesh_pic_castlesnow"),
+            #(set_background_mesh, "mesh_pic_castlesnow"),
           (else_try),
-            (set_background_mesh, "mesh_pic_castle1"),
+            #(set_background_mesh, "mesh_pic_castle1"),
           (try_end),
         (try_end),
     ]),
@@ -33953,6 +33967,8 @@ scripts = [
 	   (store_faction_of_party, ":faction", ":center_no"),
        (faction_get_slot, ":center_culture", ":faction", slot_faction_culture),
 	(try_begin),
+	(this_or_next|eq, ":faction", "fac_player_faction"),
+	(this_or_next|eq, ":faction", "fac_player_supporters_faction"),
 	(eq, ":faction", "$players_kingdom"),
 	(faction_get_slot, ":volunteer_troop", ":center_culture", slot_faction_tier_1_troop),
 	(assign, ":volunteer_troop_tier", 1),
@@ -57256,11 +57272,6 @@ scripts = [
      (troop_set_slot, ":liege", slot_troop_home, -1),
      (troop_set_note_available, ":liege", 0),
     #####King remove end
-
-     (try_for_range,":cur_village",villages_begin,villages_end),
-     (party_slot_eq, ":cur_village", slot_village_bound_center, ":capital"),
-     (party_set_faction, ":cur_village", "fac_player_supporters_faction"),
-     (try_end),
      (assign, "$g_player_court", ":capital"),
     ###capitol transfer end
    
@@ -57277,6 +57288,12 @@ scripts = [
             (store_random_in_range,":new_relation",0,35),
             (call_script, "script_troop_change_relation_with_troop", "trp_player", ":npc", ":new_relation"),
         (try_end),  
+
+     (try_for_range,":cur_village",villages_begin,villages_end),
+	(store_faction_of_party, ":faction", ":cur_village"),
+	(eq, ":faction", ":orginal_faction"),
+     (party_set_faction, ":cur_village", "fac_player_supporters_faction"),
+     (try_end),
 
 # marshall appointment
 (faction_get_slot, ":old_marshall", ":orginal_faction", slot_faction_marshall),
@@ -57378,9 +57395,11 @@ scripts = [
 	#refresh recruits in player's faction villages
 	(try_for_range, ":village_no", villages_begin, villages_end),
 	(store_faction_of_party, ":faction", ":village_no"),
+	(this_or_next|eq, ":faction", "fac_player_faction"),
 	(eq, ":faction", "fac_player_supporters_faction"),
 	(call_script, "script_update_volunteer_troops_in_village", ":village_no"),
 	(try_end),
+(call_script, "script_update_volunteer_troops_in_village", "p_village_321"),
 (set_show_messages, 1),
     ]),
 ("play_distant_sound_at_pos_based_on_distance",
@@ -58090,34 +58109,25 @@ scripts = [
 (try_end),
  ]),
 
-("randomize_preset_wars",
+("init_preset_wars",
 [
 	(try_for_range, ":faction1", npc_kingdoms_begin, npc_kingdoms_end),
 		(try_for_range, ":faction2", npc_kingdoms_begin, npc_kingdoms_end),
 		(neq, ":faction1", ":faction2"),
+		(neq, ":faction1", "fac_kingdom_4"), (neq, ":faction2", "fac_kingdom_4"),
+		(neq, ":faction1", "fac_kingdom_11"), (neq, ":faction2", "fac_kingdom_11"),
+		(neq, ":faction1", "fac_kingdom_19"), (neq, ":faction2", "fac_kingdom_19"),
 		(store_relation, ":relation", ":faction1", ":faction2"),
 		(le, ":relation", 10),
 		(call_script, "script_cf_if_faction_borders_a_faction_by_land", ":faction1", ":faction2"),
-		(call_script, "script_cf_random", 25),
+		(call_script, "script_cf_random", 20),
 		(set_relation, ":faction1", ":faction2", -30),
 		(set_relation, ":faction2", ":faction1", -30),
 		(try_end),
 	(try_end),
-]),
-
-("randomize_preset_wars",
-[
-	(try_for_range, ":faction1", npc_kingdoms_begin, npc_kingdoms_end),
-		(try_for_range, ":faction2", npc_kingdoms_begin, npc_kingdoms_end),
-		(neq, ":faction1", ":faction2"),
-		(store_relation, ":relation", ":faction1", ":faction2"),
-		(le, ":relation", 10),
-		(call_script, "script_cf_if_faction_borders_a_faction_by_land", ":faction1", ":faction2"),
-		(call_script, "script_cf_random", 25),
-		(set_relation, ":faction1", ":faction2", -30),
-		(set_relation, ":faction2", ":faction1", -30),
-		(try_end),
-	(try_end),
+(set_relation, "fac_kingdom_4", "fac_kingdom_11", -30), (set_relation, "fac_kingdom_11", "fac_kingdom_4", -30),
+(set_relation, "fac_kingdom_19", "fac_kingdom_11", -30), (set_relation, "fac_kingdom_11", "fac_kingdom_19", -30),
+(set_relation, "fac_kingdom_4", "fac_kingdom_19", -30), (set_relation, "fac_kingdom_19", "fac_kingdom_4", -30),
 ]),
 
 ("faction_annex_faction",
@@ -58165,6 +58175,15 @@ scripts = [
 (store_sub, ":flag", ":string", "str_flag1_0"),
 (call_script, "script_change_faction_flag", ":faction_annexer", ":flag"),
 
+(faction_set_slot, ":faction_being_annexed", slot_faction_state, sfs_inactive),
+	(try_begin),
+	(eq, "$players_oath_renounced_against_kingdom", ":faction_being_annexed"),
+	(assign, "$players_oath_renounced_against_kingdom", 0),
+	(assign, "$players_oath_renounced_given_center", 0),
+	(assign, "$players_oath_renounced_begin_time", 0),
+	(call_script, "script_add_notification_menu", "mnu_notification_oath_renounced_faction_defeated", ":faction_being_annexed", 0),
+	(try_end),
+
 ]),
 
 ("remove_lord_from_game",
@@ -58195,7 +58214,7 @@ scripts = [
 	(try_begin),
 	(faction_get_slot, ":progress", ":faction", slot_faction_technology_riflesconverted),
 	(eq, ":progress", 10000),
-	(val_mul, ":modifier", 130),
+	(val_mul, ":modifier", 140),
 	(val_div, ":modifier", 100),
 	(try_end),
 	(try_begin),
