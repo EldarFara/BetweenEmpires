@@ -705,5 +705,10 @@ script_get_strength_modifier_for_faction_by_technologies = 703
 script_async_init_ai_calculation = 704
 script_async_recalculate_ais = 705
 script_create_random_provocation = 706
+script_faction_change_infamy = 707
+script_cf_peace_negotiations_if_center_can_appear_in_the_list = 708
+script_peace_negotiations_add_center = 709
+script_cf_peace_negotiations_if_center_is_of_allies = 710
+script_cf_peace_negotiations_if_center_is_of_enemies = 711
 
 

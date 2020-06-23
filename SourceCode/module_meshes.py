@@ -639,6 +639,8 @@ meshes = [
   ("pbs_artillery_ammo_amount", 0, "pbs_artillery_ammo_amount", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("pic_italian_unification", 0, "pic_italian_unification", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("load_window2", 0, "bg3", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("load_window3", 0, "bg4", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("menu_flag2", render_order_plus_1, "menu_flag2", 0, 0, 0, 0, 0, 0, 1, 1, 1),
 ]
 
 # modmerger_start version=201 type=2

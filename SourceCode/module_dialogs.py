@@ -3497,38 +3497,67 @@ dialogs = [
    [anyone|plyr, "minister_talk",
    [
 	(eq, "$player_faction_preset", "fac_kingdom_5"),
+	(eq, "$prussia_unification_progress", 2),
+   ],
+   "The war with the Danes has caused tensions with the Austrians. It's time to usurp them as German hegemon.", "prussia_unification_austria1",
+   []],
+   
+   [anyone, "prussia_unification_austria1",
+   [],
+"We are on the brink of war already, we won't have much of a choice anyways. The Austrian Emperor is still the leader of \
+the German Confederation, so we will have to fend both the Austrians, aswell as their Bavarian allies, and the major members \
+of the German Confederation; Wurttemberg and Hannover. Hannover is going to fall into our hands should we best the Austro-Hungarians, \
+their English benefactors don't care enough to protect them, and they are the only Northern German state outside our sphere of influence. \
+We will have to destroy the Confederate armies entirely, and conquer Nurmberg and Stuttgart to force the Southerners to surrender.", "prussia_unification_austria2",
+   []],
+   
+   [anyone|plyr, "prussia_unification_austria2",
+   [],
+   "War it is. The Austrians won't stand a chance, and they will never return to power.", "close_window",
+   [
+(assign, "$prussia_unification_progress", 3),
+(str_store_string, s2, "@Ever since the fall of the Holy Roman Empire, the Austrian Emperor\
+ has been doing their best to undermine Northern conglomeration efforts. We will have to defeat\
+ and dissolve the weak German Confederation, lead by the Austrians, in order to rise to the position\
+ of a German hegemon, and annex the Kingdom of Hannover.^^ - Defeat the German Confederation armies\
+ belonging to Austria, Wurtemberg and Hannover^ - Conquer and hold the Bavarian fortification of Nurnberg\
+ ^ - Conquer the capital city of Stuttgart^^We will be able to hold onto any conquests we make during the war,\
+ and our ultimate goal is to annex the Northern German states. Victory will pave the way to ultimate unification\
+ after we take back Alsace-Lorraine."),
+(call_script, "script_start_quest", "qst_prussia_unification_defeat_austria", "$g_talk_troop"),
+# war declarations
+   ]],
+   [anyone|plyr, "prussia_unification_austria2",
+   [],
+   "We can't fight our German neighbours, we wouldn't stand a chance against them.", "close_window",
+   []],
+  
+   
+   [anyone|plyr, "minister_talk",
+   [
+	(eq, "$player_faction_preset", "fac_kingdom_5"),
 	(eq, "$prussia_unification_progress", 0),
    ],
-   "prussia_unification_start1", "prussia_unification_start1",
+   "The chancellor has me convinced, it's time to put an end to German disunity. What's your advice, Secretary?", "prussia_unification_start1",
    []],
    
    [anyone, "prussia_unification_start1",
    [],
-"prussia_unification_start2", "prussia_unification_start2",
+"Why, then it's finally time to make ''forever inseparable'' the war shout it was meant to be. Schleswig has to be brought back into German hands, and so does Holstein. The Danes have been holding onto Schleswig for four centuries, and their barbaric attempts at destroying the local movement undermined our ambitions in 1848. We have to secure the fortified city\
+of Schleswig, and destroy the Danish armies in the process. Volunteers have bolstered their numbers following our recent skirmishes, so you will have to drive those Swedes back into the sea alongside their Danish compatriots.", "prussia_unification_start2",
    []],
    
    [anyone|plyr, "prussia_unification_start2",
    [],
-   "prussia_unification_start3_proceed", "prussia_unification_start3_proceed",
-   []],
-   
-   [anyone|plyr, "prussia_unification_start2",
-   [],
-   "prussia_unification_start3_cancel", "prussia_unification_start3_cancel",
-   []],
-   
-   [anyone, "prussia_unification_start3_proceed",
+   "So be it, inform the general staff that we are going to war.", "close_window",
    [
 	(assign, "$prussia_unification_progress", 1),
 	(str_store_string, s2, "@The first step towards German unification must be the reconquest of the Northern German regions of Schleswig, Holstein, and Lauenburg, which, for the past centuries, have been under occupation by the Danish Kingdom. Taking back the region, and destroying the Danish in the process, would certainly display might and competence in the eyes of the German states.^^ - Conquer the city of Kiel.^ - Defeat the Danish armies and destroy their economy to force them to surrender.^^Once we've defeated the Danes, we can move on to our Southern rival, the Austro-Hungarian Empire."),
 	(call_script, "script_start_quest", "qst_prussia_unification_defeat_denmark", "$g_talk_troop"),
-   ],
-   "close_window", "close_window",
-   []],
-   
-   [anyone, "prussia_unification_start3_cancel",
+   ]],
+   [anyone|plyr, "prussia_unification_start2",
    [],
-   "close_window", "close_window",
+   "Unnecessary bloodshed, through and through. Try to difuse the situation.", "close_window",
    []],
    
 
@@ -3555,7 +3584,7 @@ dialogs = [
 	(str_store_string, s1, "@Kingdom of Two Sicilies, and our primary Italian adversary, the the Kingdom of Sardinia"),
    (try_end),   
    ],
-"Quite ambitions, {Sir\my Lady}, yet very righteous, if I dare say so myself. To unite Italy, we will have to conquer the illegitimate \
+"Quite ambitions, {Sir/my Lady}, yet very righteous, if I dare say so myself. To unite Italy, we will have to conquer the illegitimate \
 {s1}. Conquering their capitals will be of utmost importance, but it will hardly be enough to force them to surrender. You will need to cause some... \
 disdain with the current affairs within their general population, be that through military victories on the fields on our part, or having \
 forts and cities at the frontiers fall into our hands.", "italy_unification_start2",
@@ -3595,13 +3624,49 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
 		(call_script, "script_start_quest", "qst_italy_unification_defeat_sicily", "$g_talk_troop"),
 		(try_end),
    ],
-   "Glory to Italy, {Sir\my Lady}! I pray we soon unite with the rest of the Italian people, and that we may bring the terre irredente back into the Kingdom.", "close_window",
+   "Glory to Italy, {Sir/my Lady}! I pray we soon unite with the rest of the Italian people, and that we may bring the terre irredente back into the Kingdom.", "close_window",
    []],
    
    [anyone, "italy_unification_start3_cancel",
    [],
-   "So be it, my {King\Queen}. I support your decision regardless, but consider the importance freeing our people from the yolk of foreign oppression has for all of us.", "close_window",
+   "So be it, my {King/Queen}. I support your decision regardless, but consider the importance freeing our people from the yolk of foreign oppression has for all of us.", "close_window",
    []],
+   
+   [anyone|plyr, "minister_talk",
+   [],
+   "I want you to initiate peace negotiations with a foreign power.", "peace_negotiations_initial",
+   []],
+   
+   [anyone, "peace_negotiations_initial",
+   [],
+   "Most certainly. The people are growing tired of conflict already. Who shall I try to convince to lay down arms?", "peace_negotiations_choose_faction",
+   []],
+   
+   [anyone|plyr|repeat_for_factions, "peace_negotiations_choose_faction",
+   [
+	(store_repeat_object, ":faction"),
+	(is_between, ":faction", npc_kingdoms_begin, npc_kingdoms_end),
+	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", "fac_player_supporters_faction", ":faction"),
+	(eq, reg0, -2),
+	(str_store_faction_name, s31, ":faction"),
+	],
+   "{s31}.", "peace_negotiations_proceed",
+   [
+   (store_repeat_object, "$peace_negotiations_enemy_faction"),
+   ]],
+   
+   [anyone|plyr, "peace_negotiations_choose_faction",
+   [],
+   "Nevermind.", "minister_pretalk",
+   []],
+   
+   [anyone, "peace_negotiations_proceed",
+   [],
+   "I will send for their ambassador immediately.", "close_window",
+   [
+   (finish_mission),
+   (jump_to_menu, "mnu_peace_negotiations_initial"),
+   ]],
    
    [anyone|plyr, "minister_talk",
    [],
@@ -10563,6 +10628,8 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
                              (str_store_faction_name, s4, "$g_talk_troop_faction"),],
    "I wish to make peace with the {s4}.", "lord_ask_pardon",[]],
    
+  [anyone,"lord_ask_pardon", [(faction_set_slot, "fac_player_supporters_faction", slot_faction_state, sfs_active),], "Talk to our ambassador then.", "lord_pretalk",[]],
+  
   [anyone,"lord_ask_pardon", [(lt, "$g_talk_troop_relation", -10)], "Do you indeed, {playername}? Then go and trip on your sword. Give us all peace.", "lord_pretalk",[]],
 
   [anyone,"lord_ask_pardon",

@@ -18061,6 +18061,62 @@ in total.^Company types: Line infantry, Guard."),
 ]),
 ]),
 
+("peace_negotiations", 0, mesh_load_window3, [
+(ti_on_presentation_load, [
+	(set_fixed_point_multiplier, 1000),
+
+	(str_store_faction_name, s1, "$peace_negotiations_enemy_faction"),
+	(str_store_faction_name, s2, "fac_player_supporters_faction"),
+	(create_text_overlay, reg1, "@Peace negotiations with {s1}", tf_center_justify),
+	(position_set_x, pos1, 500), (position_set_y, pos1, 680), (overlay_set_position, reg1, pos1),
+	(position_set_x, pos1, 1500), (position_set_y, pos1, 1500), (overlay_set_size, reg1, pos1),
+	(create_text_overlay, reg1, s2, tf_center_justify),
+	(position_set_x, pos1, 90), (position_set_y, pos1, 680), (overlay_set_position, reg1, pos1),
+	(position_set_x, pos1, 900), (position_set_y, pos1, 900), (overlay_set_size, reg1, pos1),
+	(create_text_overlay, reg1, s1, tf_center_justify),
+	(position_set_x, pos1, 910), (position_set_y, pos1, 680), (overlay_set_position, reg1, pos1),
+	(position_set_x, pos1, 900), (position_set_y, pos1, 900), (overlay_set_size, reg1, pos1),
+	(create_game_button_overlay, "$g_peace_negotiations_close", "@Stop Negotiations"),
+	(position_set_x, pos1, 920), (position_set_y, pos1, 30), (overlay_set_position, "$g_peace_negotiations_close", pos1),
+
+	(position_set_x, pos2, 1100), (position_set_y, pos2, 1100),
+	(faction_get_slot, ":material_string", "fac_player_supporters_faction", slot_faction_flag_material), (create_mesh_overlay, reg1, "mesh_menu_flag1"),
+	(position_set_x, pos1, 90), (position_set_y, pos1, 610), (overlay_set_position, reg1, pos1), (overlay_set_size, reg1, pos2), (str_store_string, s1, ":material_string"), (overlay_set_material, reg1, s1),
+	# add allies flags here
+	(faction_get_slot, ":material_string", "$peace_negotiations_enemy_faction", slot_faction_flag_material), (create_mesh_overlay, reg1, "mesh_menu_flag1"),
+	(position_set_x, pos1, 910), (position_set_y, pos1, 610), (overlay_set_position, reg1, pos1), (overlay_set_size, reg1, pos2), (str_store_string, s1, ":material_string"), (overlay_set_material, reg1, s1),
+	# add enemies flags here
+
+	(str_clear, s0),
+	(create_text_overlay, "$g_peace_negotiations_container", s0, tf_scrollable),
+	(position_set_x, pos1, 0), (position_set_y, pos1, 100), (overlay_set_position, "$g_peace_negotiations_container", pos1),
+	(position_set_x, pos1, 720), (position_set_y, pos1, 400), (overlay_set_area_size, "$g_peace_negotiations_container", pos1),
+	(set_container_overlay, "$g_peace_negotiations_container"),
+	
+	(assign, ":y_coordinate", 900),
+	(position_set_x, pos3, 800), (position_set_y, pos3, 800),
+	(position_set_x, pos4, 190), (position_set_y, pos4, 190),
+		(try_for_range, ":center", walled_centers_begin, walled_centers_end),
+		(call_script, "script_cf_peace_negotiations_if_center_can_appear_in_the_list", ":center"),
+		(call_script, "script_peace_negotiations_add_center", ":center", ":y_coordinate"),
+		(val_add, ":y_coordinate", -30),
+		(try_end),
+	(set_container_overlay, -1),
+	
+	(presentation_set_duration, 999999),
+	]),
+(ti_on_presentation_event_state_change, [
+	(store_trigger_param_1, ":object"),
+ 
+	(try_begin),
+	(eq, ":object", "$g_peace_negotiations_close"),
+	(presentation_set_duration, 0),
+	(else_try),
+	
+	(try_end),
+]),
+]),
+
 	
   ]
   

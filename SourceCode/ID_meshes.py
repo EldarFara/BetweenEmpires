@@ -574,5 +574,7 @@ mesh_menu_flag1 = 572
 mesh_pbs_artillery_ammo_amount = 573
 mesh_pic_italian_unification = 574
 mesh_load_window2 = 575
+mesh_load_window3 = 576
+mesh_menu_flag2 = 577
 
 

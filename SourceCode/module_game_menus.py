@@ -5559,8 +5559,8 @@ game_menus = [
 	(try_end),
 	(try_begin),
 	(neg|faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_inactive),
-	(eq, ":can_be_besieged_from_land", 0),
-	(eq, ":can_be_besieged_from_sea", 0),
+	(neq, ":can_be_besieged_from_land", 1),
+	(neq, ":can_be_besieged_from_sea", 1),
 	(party_get_slot, ":closest_center1", "$g_encountered_party", slot_center_closest_center1), (party_get_slot, ":closest_center2", "$g_encountered_party", slot_center_closest_center2), (party_get_slot, ":closest_center3", "$g_encountered_party", slot_center_closest_center3),
 	(str_store_party_name_link, s60, ":closest_center1"), (str_store_party_name_link, s61, ":closest_center2"), (str_store_party_name_link, s62, ":closest_center3"),
 	(display_message, "@Cannot besiege: too far from any center of your faction (closest centers to this {reg6?town:castle} are {s60}, {s61} and {s62})."),
@@ -14807,7 +14807,7 @@ game_menus = [
 	]),
 
   ("provocation_created",0,
-    "{s31} created a provocation for {s32} for {reg10} days.",
+    "Tensions between {s31} and {s32}!^^Public disagreements over the borders created during the Vienna Congress have led to open hostility, with loyalist militias belonging to both states clashing in the entire border region. {s31} has decried the violence, stating their intentions to defend their ethnic enclaves in the nation should it be necessary, while {s32} has declared the fighters as hostile, sovereign actors in an attempt to ease international pressure.^Telegrams and messengers on horseback have been arriving in the capitals of the Western powers since the early morning hours, trying to secure their support for what might well be the prelude to another bloody conflict.",
     "none",
     [
 	],
@@ -14815,6 +14815,31 @@ game_menus = [
 	("close", [],"Close",
        [
         (change_screen_return),
+        ]),
+	]),
+
+  ("provocation_created",0,
+    "Tensions between {s31} and {s32}!^^Public disagreements over the borders created during the Vienna Congress have led to open hostility, with loyalist militias belonging to both states clashing in the entire border region. {s31} has decried the violence, stating their intentions to defend their ethnic enclaves in the nation should it be necessary, while {s32} has declared the fighters as hostile, sovereign actors in an attempt to ease international pressure.^Telegrams and messengers on horseback have been arriving in the capitals of the Western powers since the early morning hours, trying to secure their support for what might well be the prelude to another bloody conflict.",
+    "none",
+    [
+	],
+    [
+	("close", [],"Close",
+       [
+        (change_screen_return),
+        ]),
+	]),
+
+  ("peace_negotiations_initial",0,
+    "Peace negotiations begin.",
+    "none",
+    [
+	],
+    [
+	("continue", [],"Continue...",
+       [
+		(jump_to_menu, "mnu_town"),
+		(start_presentation, "prsnt_peace_negotiations"),
         ]),
 	]),
 

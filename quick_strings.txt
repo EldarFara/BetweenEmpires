@@ -1,4 +1,4 @@
-944
+945
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -220,6 +220,8 @@ qstr_Select_Faction Select_Faction
 qstr_Start_Game Start_Game
 qstr_Chosen_Faction:^{s1} Chosen_Faction:^{s1}
 qstr_Select_flag_for_your Select_flag_for_your_faction
+qstr_Peace_negotiations_w Peace_negotiations_with_{s1}
+qstr_Stop_Negotiations Stop_Negotiations
 qstr_vSeason vSeason
 qstr_{!}DEBUG_:_Completed {!}DEBUG_:_Completed_faction_troop_assignments,_cheat_mode:_{reg3}
 qstr_{!}DEBUG_:_Completed_ {!}DEBUG_:_Completed_political_events,_cheat_mode:_{reg3}
@@ -551,6 +553,8 @@ qstr_H.B. H.B.
 qstr_Cannot_form_square:_t Cannot_form_square:_too_few_soldiers_(need_at_least_25).
 qstr_{s1} {s1}
 qstr_{s31}_created_a_casu {s31}_created_a_casus_belli_for_{s32}_for_{reg10}_days.
+qstr_{s31}_s_infamy_is_in {s31}'s_infamy_is_increased_by_{reg10}_and_is_now_{reg11}.
+qstr_{s31}_s_infamy_is_de {s31}'s_infamy_is_decreased_by_{reg10}_and_is_now_{reg11}.
 qstr_day day
 qstr_cloud1 cloud1
 qstr_cloud2 cloud2
@@ -794,11 +798,7 @@ qstr_Not_available_in_thi Not_available_in_this_town.
 qstr_You_have_bought_a_ho You_have_bought_a_howizer.
 qstr_Breaking_camp... Breaking_camp...
 qstr_{!}{s3}_commander_of {!}{s3}_commander_of_party_#{reg4}_which_is_not_his_troop_leaded_party_{reg5}
-qstr_{!}DEBUG____Doing_po {!}DEBUG_--_Doing_political_calculations_for_{s9}
-qstr_{!}DEBUG___{s4}_faction_chan {!}DEBUG_-_{s4}_faction_changed_in_defection
-qstr_{!}{s4} {!}{s4}
 qstr_{!}DEBUG___{s4}_is_i {!}DEBUG_-_{s4}_is_in_{s5},_should_be_in_{s6},_disabling_political_cheat_mode
-qstr_Your_party_is_spotte Your_party_is_spotted_by_{s1}.
 qstr_Party_has_nothing_to Party_has_nothing_to_eat!
 qstr_{reg1}_{s1}_{reg2?ha {reg1}_{s1}_{reg2?have:has}_escaped_from_your_party_during_the_night.
 qstr_{s1}_of_{s3}_has_bee {s1}_of_{s3}_has_been_released_from_captivity.
@@ -817,7 +817,7 @@ qstr__Your_engineer_skill _Your_engineer_skill_has_increased_by_1.
 qstr_You_have_finished_re You_have_finished_reading_{s1}.{s2}
 qstr_Book_Read Book_Read
 qstr_{s1}_is_scouted. {s1}_is_scouted.
-qstr_{!}DEBUG___{s4}_faction_chang {!}DEBUG_-_{s4}_faction_changed_from_slot_troop_change_to_faction
+qstr_{!}DEBUG___{s4}_faction_chan {!}DEBUG_-_{s4}_faction_changed_from_slot_troop_change_to_faction
 qstr_{s1}_has_switched_fr {s1}_has_switched_from_{s2}_to_{s3}.
 qstr_{!}DEBUG_:_{s2}_is_b {!}DEBUG_:_{s2}_is_besieging_by_{s3}
 qstr_{!}DEBUG___Checking_ {!}DEBUG_-_Checking_fire_at_{s4}_for_{s5}_-_current_time_{reg3},_last_nearby_fire_{reg4}
@@ -843,6 +843,7 @@ qstr_we_have_become_a_sig we_have_become_a_significant_force,_and_we_have_an_eve
 qstr_we_are_winning_the_w we_are_winning_the_war,_but_our_enemies_are_still_holding_on.
 qstr_we_are_on_the_verge_ we_are_on_the_verge_of_victory._The_remaining_enemies_pose_no_threat,_but_we_still_need_to_hunt_them_down.
 qstr_{!}current_town_was_ {!}current_town_was_{reg1},_now_moved_to_{s7}
+qstr_Ever_since_the_fall_ Ever_since_the_fall_of_the_Holy_Roman_Empire,_the_Austrian_Emperor_has_been_doing_their_best_to_undermine_Northern_conglomeration_efforts._We_will_have_to_defeat_and_dissolve_the_weak_German_Confederation,_lead_by_the_Austrians,_in_order_to_rise_to_the_position_of_a_German_hegemon,_and_annex_the_Kingdom_of_Hannover.^^_-_Defeat_the_German_Confederation_armies_belonging_to_Austria,_Wurtemberg_and_Hannover^_-_Conquer_and_hold_the_Bavarian_fortification_of_Nurnberg_^_-_Conquer_the_capital_city_of_Stuttgart^^We_will_be_able_to_hold_onto_any_conquests_we_make_during_the_war,_and_our_ultimate_goal_is_to_annex_the_Northern_German_states._Victory_will_pave_the_way_to_ultimate_unification_after_we_take_back_Alsace-Lorraine.
 qstr_The_first_step_towar The_first_step_towards_German_unification_must_be_the_reconquest_of_the_Northern_German_regions_of_Schleswig,_Holstein,_and_Lauenburg,_which,_for_the_past_centuries,_have_been_under_occupation_by_the_Danish_Kingdom._Taking_back_the_region,_and_destroying_the_Danish_in_the_process,_would_certainly_display_might_and_competence_in_the_eyes_of_the_German_states.^^_-_Conquer_the_city_of_Kiel.^_-_Defeat_the_Danish_armies_and_destroy_their_economy_to_force_them_to_surrender.^^Once_we've_defeated_the_Danes,_we_can_move_on_to_our_Southern_rival,_the_Austro-Hungarian_Empire.
 qstr_Papal_State_and_our_ Papal_State,_and_our_primary_Italian_adversary,_the_Kingdom_of_Two_Sicilies
 qstr_Papal_State_and_our_p Papal_State,_and_our_primary_Italian_adversary,_the_Kingdom_of_Sardinia

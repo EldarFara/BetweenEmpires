@@ -225,3 +225,5 @@ menu_tech_invented = 223
 menu_welcome_to_be_mod = 224
 menu_italian_unification = 225
 menu_provocation_created = 226
+menu_provocation_created = 227
+menu_peace_negotiations_initial = 228

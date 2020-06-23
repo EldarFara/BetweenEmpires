@@ -489,9 +489,10 @@ slot_faction_technology_riflesrifled			 = slot_faction_ve_mod_slots_begin + 24
 slot_faction_current_research_technology		 = slot_faction_ve_mod_slots_begin + 44
 slot_faction_army_drill_level					 = slot_faction_ve_mod_slots_begin + 45
 slot_faction_flag_map							 = slot_faction_ve_mod_slots_begin + 46
-slot_faction_flag_scene						 = slot_faction_ve_mod_slots_begin + 47
+slot_faction_flag_material						 = slot_faction_ve_mod_slots_begin + 47
 slot_faction_wardrobe_begin					 = slot_faction_ve_mod_slots_begin + 48
 slot_faction_wardrobe_end						 = slot_faction_ve_mod_slots_begin + 49
+slot_faction_infamy							 = slot_faction_ve_mod_slots_begin + 50
 
 #revolts -- notes for self
 #type 1 -- minor revolt, aimed at negotiating change without changing the ruler
@@ -701,6 +702,8 @@ slot_center_closest_center1 = 140
 slot_center_closest_center2 = 141
 slot_center_closest_center3 = 142
 slot_center_can_be_besieged_by_sea = 143
+slot_center_official_faction = 144
+slot_center_faction_to_assign = 145
 
 slot_center_has_bandits                        = 155
 slot_town_has_tournament                       = 156

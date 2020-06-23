@@ -108,14 +108,14 @@ scripts = [
 (assign, "$player_company8_type", 0),
 
 	(try_for_range, ":faction", 0, "fac_ccoop_all_stars"),
-	(faction_set_slot, ":faction", slot_faction_flag_scene, -1),
+	(faction_set_slot, ":faction", slot_faction_flag_material, -1),
 	(faction_set_slot, ":faction", slot_faction_flag_map, -1),
 	(try_end),
 (assign, ":flag_scene", "str_flag1_0"),
 (assign, ":flag_map", "icon_map_flag_faction0"),
 	(try_for_range, ":faction", npc_kingdoms_begin, npc_kingdoms_end),
 	(val_add, ":flag_scene", 1), (val_add, ":flag_map", 1),
-	(faction_set_slot, ":faction", slot_faction_flag_scene, ":flag_scene"),
+	(faction_set_slot, ":faction", slot_faction_flag_material, ":flag_scene"),
 	(faction_set_slot, ":faction", slot_faction_flag_map, ":flag_map"),
 	(try_end),
 (faction_set_slot, "fac_player_faction", slot_faction_flag_map, "icon_map_flag_faction0"),
@@ -462,6 +462,7 @@ scripts = [
       
       # Setting random feast time
       (try_for_range, ":faction_no", kingdoms_begin, kingdoms_end),
+        (faction_set_slot, ":faction_no", slot_faction_infamy, 0),
         (store_random_in_range, ":last_feast_time", 0, 312), #240 + 72
         (val_mul, ":last_feast_time", -1),
         (faction_set_slot, ":faction_no", slot_faction_last_feast_start_time, ":last_feast_time"),
@@ -1200,14 +1201,16 @@ scripts = [
 	(call_script, "script_give_center_to_faction_aux", "p_village_493", "fac_kingdom_3"),
     (party_set_slot, "p_village_321", slot_village_bound_center, "p_castle_89"),
 	(call_script, "script_give_center_to_faction_aux", "p_village_321", "fac_kingdom_26"),
-    (party_set_slot, "p_village_677", slot_village_bound_center, "p_castle_256"),
+    (party_set_slot, "p_village_677", slot_village_bound_center, "p_castle_255"),
 	(call_script, "script_give_center_to_faction_aux", "p_village_677", "fac_kingdom_18"),
-    (party_set_slot, "p_village_678", slot_village_bound_center, "p_castle_255"),
+    (party_set_slot, "p_village_678", slot_village_bound_center, "p_castle_256"),
 	(call_script, "script_give_center_to_faction_aux", "p_village_678", "fac_kingdom_18"),
     (party_set_slot, "p_village_318", slot_village_bound_center, "p_castle_110"),
 	(call_script, "script_give_center_to_faction_aux", "p_village_318", "fac_kingdom_31"),
     (party_set_slot, "p_village_682", slot_village_bound_center, "p_castle_133"),
 	(call_script, "script_give_center_to_faction_aux", "p_village_682", "fac_kingdom_12"),
+    (party_set_slot, "p_village_683", slot_village_bound_center, "p_castle_257"),
+	(call_script, "script_give_center_to_faction_aux", "p_village_683", "fac_kingdom_5"),
     
     
 
@@ -1588,6 +1591,7 @@ scripts = [
       (call_script, "script_give_center_to_faction_aux", "p_castle_254", "fac_kingdom_2"),
       (call_script, "script_give_center_to_faction_aux", "p_castle_255", "fac_kingdom_18"),
       (call_script, "script_give_center_to_faction_aux", "p_castle_256", "fac_kingdom_18"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_257", "fac_kingdom_5"),
 #yifeng 1.5
 
 (call_script, "script_init_preset_wars"),
@@ -2001,6 +2005,9 @@ scripts = [
       (try_end),
 
       (try_for_range, ":center_no", walled_centers_begin, walled_centers_end),#add town garrisons
+	  (party_set_slot, ":center_no", slot_center_faction_to_assign, -1),
+	  (store_faction_of_party, ":faction", ":center_no"),
+	  (party_set_slot, ":center_no", slot_center_official_faction, ":faction"),
         #Add initial center wealth
         (assign, ":initial_wealth", 2000),
         (try_begin),
@@ -22634,6 +22641,7 @@ scripts = [
       (try_for_range, ":center_no", walled_centers_begin, walled_centers_end),
         (party_slot_eq, ":center_no", slot_town_lord, ":troop_no"),
         (party_set_faction, ":center_no", ":faction_no"),
+	  (party_set_slot, ":center_no", slot_center_official_faction, ":faction_no"),
         (try_for_range, ":village_no", villages_begin, villages_end),
           (party_slot_eq, ":village_no", slot_village_bound_center, ":center_no"),
           (party_set_faction, ":village_no", ":faction_no"),
@@ -26958,9 +26966,11 @@ scripts = [
 	    (eq, ":initializing_war_peace_cond", 1),	  
 		(eq, ":current_diplomatic_status", 0),
 		(call_script, "script_faction_follows_controversial_policy", ":kingdom_a", logent_policy_ruler_attacks_without_provocation),
+		(call_script, "script_faction_change_infamy", ":kingdom_a", 20),
 	  (else_try),
 		(eq, ":current_diplomatic_status", 1),
 		(call_script, "script_faction_follows_controversial_policy", ":kingdom_a", logent_policy_ruler_breaks_truce),
+		(call_script, "script_faction_change_infamy", ":kingdom_a", 30),
 	  (try_end),
       
       (store_relation, ":relation", ":kingdom_a", ":kingdom_b"),
@@ -57259,12 +57269,13 @@ scripts = [
 (assign, "$g_starting_town", ":capital"),
     (str_store_troop_name, s10, "trp_player"),
 
-    (call_script, "script_activate_player_faction", "trp_player"),
-    (call_script, "script_give_center_to_faction_aux", ":capital", "fac_player_supporters_faction"),
-    (call_script, "script_give_center_to_lord", ":capital", "trp_player", 1),
-    (troop_set_slot, "trp_player", slot_troop_leaded_party, "p_main_party"),
-    (troop_set_slot, "trp_player", slot_troop_cur_center, ":capital"),
-    (troop_set_slot, "trp_player", slot_troop_home, ":capital"),
+	(call_script, "script_activate_player_faction", "trp_player"),
+	(call_script, "script_give_center_to_faction_aux", ":capital", "fac_player_supporters_faction"),
+	(call_script, "script_give_center_to_lord", ":capital", "trp_player", 1),
+	(troop_set_slot, "trp_player", slot_troop_leaded_party, "p_main_party"),
+	(troop_set_slot, "trp_player", slot_troop_cur_center, ":capital"),
+	(troop_set_slot, "trp_player", slot_troop_home, ":capital"),
+	(party_set_slot, ":capital", slot_center_official_faction, "fac_player_supporters_faction"),
 
     #####Removing the active King 
      (troop_get_slot, ":king_party", ":liege", slot_troop_leaded_party),
@@ -57351,9 +57362,9 @@ scripts = [
 	(faction_get_color, ":color", ":orginal_faction"),
 	(faction_set_color, "fac_player_supporters_faction", ":color"),
 	(faction_set_color, "fac_player_faction", ":color"),
-	(faction_get_slot, ":map_icon", ":orginal_faction", slot_faction_flag_map), (faction_get_slot, ":flag_scene", ":orginal_faction", slot_faction_flag_scene),
-	(faction_set_slot, "fac_player_faction", slot_faction_flag_map, ":map_icon"), (faction_set_slot, "fac_player_faction", slot_faction_flag_scene, ":flag_scene"),
-	(faction_set_slot, "fac_player_supporters_faction", slot_faction_flag_map, ":map_icon"), (faction_set_slot, "fac_player_supporters_faction", slot_faction_flag_scene, ":flag_scene"),
+	(faction_get_slot, ":map_icon", ":orginal_faction", slot_faction_flag_map), (faction_get_slot, ":flag_scene", ":orginal_faction", slot_faction_flag_material),
+	(faction_set_slot, "fac_player_faction", slot_faction_flag_map, ":map_icon"), (faction_set_slot, "fac_player_faction", slot_faction_flag_material, ":flag_scene"),
+	(faction_set_slot, "fac_player_supporters_faction", slot_faction_flag_map, ":map_icon"), (faction_set_slot, "fac_player_supporters_faction", slot_faction_flag_material, ":flag_scene"),
 	(party_set_banner_icon, "p_main_party", ":map_icon"),
 	(party_set_banner_icon, ":capital", ":map_icon"),
 
@@ -57394,7 +57405,7 @@ scripts = [
 (faction_set_slot, "fac_player_faction", slot_faction_wardrobe_end, ":items_end"), (faction_set_slot, "fac_player_supporters_faction", slot_faction_wardrobe_end, ":items_end"),
 (party_add_members, "p_main_party", ":tier_1_troop", 20), (party_add_members, "p_main_party", ":tier_2_troop", 30),
 (troop_add_gold, "trp_player", 10000),
-(add_xp_to_troop, 6000),
+(add_xp_to_troop, 600),
 	#refresh recruits in player's faction villages
 	(try_for_range, ":village_no", villages_begin, villages_end),
 	(store_faction_of_party, ":faction", ":village_no"),
@@ -57499,12 +57510,12 @@ scripts = [
 
 (store_add, ":flag_material_string", "str_flag1_0", ":number"),
 (store_add, ":map_icon", "icon_map_flag_faction0", ":number"),
-(faction_set_slot, ":faction", slot_faction_flag_scene, ":flag_material_string"),
+(faction_set_slot, ":faction", slot_faction_flag_material, ":flag_material_string"),
 (faction_set_slot, ":faction", slot_faction_flag_map, ":map_icon"),
 	(try_begin),
 	(eq, ":faction", "fac_player_supporters_faction"),
 	(party_set_banner_icon, "p_main_party", ":map_icon"),
-	(faction_set_slot, "fac_player_faction", slot_faction_flag_scene, ":flag_material_string"),
+	(faction_set_slot, "fac_player_faction", slot_faction_flag_material, ":flag_material_string"),
 	(faction_set_slot, "fac_player_faction", slot_faction_flag_map, ":map_icon"),
 	(try_end),
 	(try_for_parties, ":party"),
@@ -57622,7 +57633,7 @@ scripts = [
 (this_or_next|party_slot_eq, ":party", slot_party_type, spt_kingdom_hero_party),
 (eq, ":party", "p_main_party"),
 (store_faction_of_party, ":faction", ":party"),
-(faction_get_slot, ":string", ":faction", slot_faction_flag_scene),
+(faction_get_slot, ":string", ":faction", slot_faction_flag_material),
 (neq, ":string", -1),
 (str_store_string, s1, ":string"),
 ]),
@@ -57656,7 +57667,7 @@ scripts = [
 (store_script_param, ":party", 1),
 (party_is_active, ":party"),
 (store_faction_of_party, ":faction", ":party"),
-(faction_get_slot, ":string", ":faction", slot_faction_flag_scene),
+(faction_get_slot, ":string", ":faction", slot_faction_flag_material),
 (neq, ":string", -1),
 (str_store_string, s1, ":string"),
 ]),
@@ -58183,7 +58194,7 @@ scripts = [
 	(eq, ":faction", ":faction_being_annexed"),
 	(call_script, "script_give_center_to_faction_aux", ":center", ":faction_annexer"),
 	(try_end),
-(faction_get_slot, ":string", ":faction_annexer", slot_faction_flag_scene),
+(faction_get_slot, ":string", ":faction_annexer", slot_faction_flag_material),
 (store_sub, ":flag", ":string", "str_flag1_0"),
 (call_script, "script_change_faction_flag", ":faction_annexer", ":flag"),
 
@@ -58402,7 +58413,93 @@ scripts = [
 	(display_message, "@{s31} created a casus belli for {s32} for {reg10} days."),
 	#(jump_to_menu,"mnu_provocation_created"),
 	(try_end),	
+
 ]),
+
+  
+  # script_faction_change_infamy
+  # Input: arg1 = infamy difference
+  # Output: none
+  ("faction_change_infamy",
+    [
+(store_script_param_1, ":faction"),
+(store_script_param_2, ":difference"),
+(faction_get_slot, ":infamy", ":faction", slot_faction_infamy),
+(val_add, ":infamy", ":difference"),
+(val_clamp, ":infamy", 0, 151),
+(faction_set_slot, ":faction", slot_faction_infamy, ":infamy"),
+	(try_begin),
+	(eq, ":faction", "fac_player_supporters_faction"),
+	(call_script, "script_get_modulus_of_value", ":difference"), (assign, reg10, reg0),
+	(assign, reg11, ":infamy"),
+	(str_store_faction_name, s31, "fac_player_supporters_faction"),
+		(try_begin),
+		(gt, ":difference", 0),
+		(display_message, "@{s31}'s infamy is increased by {reg10} and is now {reg11}."),
+		(else_try),
+		(lt, ":difference", 0),
+		(display_message, "@{s31}'s infamy is decreased by {reg10} and is now {reg11}."),
+		(try_end),
+	(try_end),
+  ]),
+
+  ("cf_peace_negotiations_if_center_can_appear_in_the_list",
+    [
+(store_script_param_1, ":center"),
+(store_faction_of_party, ":faction", ":center"),
+(this_or_next|eq, ":faction", "$peace_negotiations_enemy_faction"),
+(eq, ":faction", "fac_player_supporters_faction"),
+  ]),
+
+  ("peace_negotiations_add_center",
+    [
+(store_script_param_1, ":center"),
+(store_script_param_2, ":y_coordinate"),
+
+(str_store_party_name, s1, ":center"),
+(store_faction_of_party, ":faction", ":center"),
+(create_text_overlay, reg1, s1, tf_center_justify), (overlay_set_size, reg1, pos3),
+(position_set_x, pos1, 500), (position_set_y, pos1, ":y_coordinate"), (overlay_set_position, reg1, pos1),
+(create_check_box_overlay, reg1, "mesh_checkbox_off", "mesh_checkbox_on"),
+(position_set_x, pos1, 320), (position_set_y, pos1, ":y_coordinate"), (overlay_set_position, reg1, pos1),
+	(try_begin),
+	(call_script, "script_cf_peace_negotiations_if_center_is_of_allies", ":center"),
+	(overlay_set_val, reg1, 1),
+	(try_end),
+(troop_set_slot, "trp_temp_array_a", reg1, ":center"),
+(create_check_box_overlay, reg1, "mesh_checkbox_off", "mesh_checkbox_on"),
+(position_set_x, pos1, 680), (position_set_y, pos1, ":y_coordinate"), (overlay_set_position, reg1, pos1),
+	(try_begin),
+	(call_script, "script_cf_peace_negotiations_if_center_is_of_enemies", ":center"),
+	(overlay_set_val, reg1, 1),
+	(try_end),
+(troop_set_slot, "trp_temp_array_b", reg1, ":center"),
+(val_add, ":y_coordinate", 7),
+(faction_get_slot, ":material_string", ":faction", slot_faction_flag_material), (create_mesh_overlay, reg1, "mesh_menu_flag1"),
+(position_set_x, pos1, 400), (position_set_y, pos1, ":y_coordinate"), (overlay_set_position, reg1, pos1), (overlay_set_size, reg1, pos4),
+(str_store_string, s1, ":material_string"), (overlay_set_material, reg1, s1),
+(party_get_slot, ":official_faction", ":center", slot_center_official_faction),
+	(try_begin),
+	(neq, ":official_faction", ":faction"),
+	(faction_get_slot, ":material_string", ":official_faction", slot_faction_flag_material), (create_mesh_overlay, reg1, "mesh_menu_flag2"),
+	(str_store_string, s1, ":material_string"), (overlay_set_material, reg1, s1),
+	(overlay_set_position, reg1, pos1), (overlay_set_size, reg1, pos4),
+	(try_end),
+  ]),
+
+  ("cf_peace_negotiations_if_center_is_of_allies",
+    [
+(store_script_param_1, ":center"),
+(store_faction_of_party, ":faction", ":center"),
+(eq, ":faction", "fac_player_supporters_faction"),
+  ]),
+
+  ("cf_peace_negotiations_if_center_is_of_enemies",
+    [
+(store_script_param_1, ":center"),
+(store_faction_of_party, ":faction", ":center"),
+(eq, ":faction", "$peace_negotiations_enemy_faction"),
+  ]),
 
 ]# modmerger_start version=201 type=2
 try:
