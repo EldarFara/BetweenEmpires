@@ -819,7 +819,14 @@ simple_triggers = [
          (party_upgrade_with_xp, ":hero_party", ":xp_gain"),
        (try_end),
        
-       (try_for_range, ":center_no", walled_centers_begin, walled_centers_end),         
+(val_clamp, "$async_simple_trigger24", walled_centers_begin, walled_centers_end),
+(val_add, "$async_simple_trigger24", 1),
+	(try_begin),	
+	(ge, "$async_simple_trigger24", walled_centers_end),
+	(assign, "$async_simple_trigger24", walled_centers_begin),
+	(try_end),
+		(try_begin),
+       (assign, ":center_no", "$async_simple_trigger24"),         
          (party_get_slot, ":center_lord", ":center_no", slot_town_lord),
          (neq, ":center_lord", "trp_player"),
          

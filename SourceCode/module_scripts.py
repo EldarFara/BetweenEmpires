@@ -58388,7 +58388,7 @@ scripts = [
 	(str_store_faction_name, s31, ":faction1"),
 	(str_store_faction_name, s32, ":faction2"),
 	(assign, reg10, ":days"),
-	(display_message, "@{s31} created a provocation for {s32} for {reg10} days."),
+	(display_message, "@{s31} created a casus belli for {s32} for {reg10} days."),
 	#(jump_to_menu,"mnu_provocation_created"),
 	(try_end),	
 ]),
