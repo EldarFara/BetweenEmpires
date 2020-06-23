@@ -744,7 +744,7 @@ simple_triggers = [
 			(val_sub, ":slot_provocation_days", kingdoms_begin),
 			(faction_get_slot, ":provocation_days", ":faction_1", ":slot_provocation_days"),
 			(try_begin),
-				(ge, ":provocation_days", 1),
+			(ge, ":provocation_days", 1),
 				(try_begin),#factions already at war
 					(store_relation, ":relation", ":faction_1", ":faction_2"),
 					(lt, ":relation", 0),
@@ -757,6 +757,10 @@ simple_triggers = [
 					(val_sub, ":provocation_days", 1), 
 					(faction_set_slot, ":faction_1", ":slot_provocation_days", ":provocation_days"),
 				(try_end),
+			(else_try),
+			(lt, ":provocation_days", -1),
+			(val_add, ":provocation_days", 1), 
+			(faction_set_slot, ":faction_1", ":slot_provocation_days", ":provocation_days"),
 			(try_end),
 
 			(try_begin), #at war
@@ -1768,17 +1772,6 @@ simple_triggers = [
        (try_end),
     ]),
 
-  # Spawn merchant caravan parties
-##  (3,
-##   [
-##       (try_for_range, ":troop_no", merchants_begin, merchants_end),
-##         (troop_slot_eq, ":troop_no", slot_troop_occupation, slto_merchant),
-##         (troop_slot_eq, ":troop_no", slot_troop_is_prisoner, 0),
-##         (neg|troop_slot_ge, ":troop_no", slot_troop_leaded_party, 1),
-##
-##         (call_script, "script_cf_create_merchant_party", ":troop_no"),
-##       (try_end),
-##    ]),
 
   # Spawn village farmer parties
   (0.035,
@@ -1796,7 +1789,7 @@ simple_triggers = [
          (this_or_next|eq, ":farmer_party", 0),
          (neg|party_is_active, ":farmer_party"),
          (store_random_in_range, ":random_no", 0, 100),
-         (lt, ":random_no", 5),
+         (lt, ":random_no", 3),
          (call_script, "script_create_village_farmer_party", ":village_no"),
          (party_set_slot, ":village_no", slot_village_farmer_party, reg0),
 #         (str_store_party_name, s1, ":village_no"),

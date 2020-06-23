@@ -27007,7 +27007,7 @@ scripts = [
 		(val_sub, ":truce_slot", kingdoms_begin),
 		(val_sub, ":provocation_slot", kingdoms_begin),
 		(faction_set_slot, ":kingdom_a", ":truce_slot", 0),
-		(faction_set_slot, ":kingdom_a", ":provocation_slot", -20),
+		(faction_set_slot, ":kingdom_a", ":provocation_slot", -30),
 
 		(store_add, ":truce_slot", ":kingdom_a", slot_faction_truce_days_with_factions_begin),
 		(store_add, ":provocation_slot", ":kingdom_a", slot_faction_provocation_days_with_factions_begin),
@@ -27366,6 +27366,12 @@ scripts = [
 		#(faction_get_slot, ":damage_inflicted_by_b", ":kingdom_b", ":slot_war_damage_inflicted_on_a"),
 		(faction_set_slot, ":kingdom_b", ":slot_war_damage_inflicted_on_a", 0),		
 	  (try_end),
+			(store_add, ":slot_provocation_days1", ":kingdom_b", slot_faction_provocation_days_with_factions_begin),
+			(store_add, ":slot_provocation_days2", ":kingdom_a", slot_faction_provocation_days_with_factions_begin),
+			(val_sub, ":slot_provocation_days1", kingdoms_begin),
+			(val_sub, ":slot_provocation_days2", kingdoms_begin),
+			(faction_set_slot, ":kingdom_a", ":slot_provocation_days1", 0),
+			(faction_set_slot, ":kingdom_b", ":slot_provocation_days2", 0),
   ]),
 
   
@@ -58049,9 +58055,14 @@ scripts = [
 				(assign, ":kingdom_2_to_kingdom_1", reg0),
 				(ge, ":kingdom_2_to_kingdom_1", 1),
 
+			(store_add, ":slot_provocation_days", ":cur_kingdom_2", slot_faction_provocation_days_with_factions_begin),
+			(val_sub, ":slot_provocation_days", kingdoms_begin),
+			(faction_get_slot, ":provocation_days", ":cur_kingdom", ":slot_provocation_days"),
+			
 				(store_mul, ":goodwill_level", ":kingdom_1_to_kingdom_2", ":kingdom_2_to_kingdom_1"),
 				(store_random_in_range, ":random", 0, 70),
-				(lt, ":random", ":goodwill_level"),
+				(this_or_next|lt, ":random", ":goodwill_level"),
+				(eq, ":provocation_days", -1),
 
 				(try_begin),
 					(eq, "$g_include_diplo_explanation", 0),
@@ -58379,7 +58390,7 @@ scripts = [
 	(call_script, "script_cf_if_faction_borders_a_faction_by_land", ":faction1", ":faction2"),
 	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", ":faction1", ":faction2"),
 	(eq, reg0, 0),
-	(call_script, "script_cf_random", 10),
+	(call_script, "script_cf_random", 5),
 	(store_random_in_range, ":days", 10, 15),
 	(store_add, ":provocation_slot", ":faction2", slot_faction_provocation_days_with_factions_begin),
 	(val_sub, ":provocation_slot", kingdoms_begin),
