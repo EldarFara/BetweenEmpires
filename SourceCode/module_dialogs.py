@@ -3496,9 +3496,48 @@ dialogs = [
    
    [anyone|plyr, "minister_talk",
    [
+	(eq, "$player_faction_preset", "fac_kingdom_5"),
+	(eq, "$prussia_unification_progress", 0),
+   ],
+   "prussia_unification_start1", "prussia_unification_start1",
+   []],
+   
+   [anyone, "prussia_unification_start1",
+   [],
+"prussia_unification_start2", "prussia_unification_start2",
+   []],
+   
+   [anyone|plyr, "prussia_unification_start2",
+   [],
+   "prussia_unification_start3_proceed", "prussia_unification_start3_proceed",
+   []],
+   
+   [anyone|plyr, "prussia_unification_start2",
+   [],
+   "prussia_unification_start3_cancel", "prussia_unification_start3_cancel",
+   []],
+   
+   [anyone, "prussia_unification_start3_proceed",
+   [
+	(assign, "$prussia_unification_progress", 1),
+	(str_store_string, s2, "@The first step towards German unification must be the reconquest of the Northern German regions of Schleswig, Holstein, and Lauenburg, which, for the past centuries, have been under occupation by the Danish Kingdom. Taking back the region, and destroying the Danish in the process, would certainly display might and competence in the eyes of the German states.^^ - Conquer the city of Kiel.^ - Defeat the Danish armies and destroy their economy to force them to surrender.^^Once we've defeated the Danes, we can move on to our Southern rival, the Austro-Hungarian Empire."),
+	(call_script, "script_start_quest", "qst_prussia_unification_defeat_denmark", "$g_talk_troop"),
+   ],
+   "close_window", "close_window",
+   []],
+   
+   [anyone, "prussia_unification_start3_cancel",
+   [],
+   "close_window", "close_window",
+   []],
+   
+
+   [anyone|plyr, "minister_talk",
+   [
 	(this_or_next|eq, "$player_faction_preset", "fac_kingdom_4"),
 	(this_or_next|eq, "$player_faction_preset", "fac_kingdom_11"),
 	(eq, "$player_faction_preset", "fac_kingdom_19"),
+	(eq, "$italy_unification_progress", 0),
    ],
    "It's time to expand our influence and unite the Italian people. How could we go about this?", "italy_unification_start1",
    []],
@@ -3534,6 +3573,7 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    
    [anyone, "italy_unification_start3_proceed",
    [
+	(assign, "$italy_unification_progress", 1),
 	(str_store_faction_name, s1, "fac_player_supporters_faction"),
 		(try_begin),
 		(eq, "$player_faction_preset", "fac_kingdom_4"),

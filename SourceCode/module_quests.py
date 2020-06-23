@@ -432,6 +432,9 @@ State. In order to force her government to surrender to our forces, we will have
 ^-Cripple the Papal State by defeating Papal armies, laying waste to settlements, and conquering cities.\
 ^^Once we've caused enough damage to the Papal military and economy, they will be forced to surrender to our army, allowing us to begin integration procedures."
 ),
+("prussia_unification_defeat_denmark", "German Unification: Defeat the Danes", 0, "DESCRIPTION"),
+("prussia_unification_defeat_austria", "German Unification: Surpress the Austrians", 0, "DESCRIPTION"),
+("prussia_unification_defeat_france", "German Unification: Conquer Alsace-Lorraine", 0, "DESCRIPTION"),
   
  ("quests_end", "Quests End", 0, "{!}."),
 ]

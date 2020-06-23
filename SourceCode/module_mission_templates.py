@@ -39,6 +39,34 @@ from header_skills import *
 pilgrim_disguise = [itm_ammo_pistol, itm_dagger, itm_sidearm_colt_m1851_navy, itm_clothes_urban_male_trousers1, itm_civilian_hat1, itm_clothes_urban_male1]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
+carbine_melee_mode_fix = (
+1, 0, 0, [],
+[
+	(try_for_agents, ":agent"),
+	(agent_is_active, ":agent"),
+	(agent_is_alive, ":agent"),
+	(agent_is_human, ":agent"),
+	(agent_is_non_player, ":agent"),
+	(agent_get_team, ":team", ":agent"),
+	(agent_get_division, ":company", ":agent"),
+	(team_get_weapon_usage_order, ":order", ":team", ":company"),
+	(eq, ":order", wordr_use_melee_weapons),
+	(agent_get_wielded_item, ":item", ":agent", 0),
+	(gt, ":item", 0),
+	(item_get_weapon_length, ":length", ":item"),
+	(eq, ":length", 80),
+	(item_get_thrust_damage, ":damage", ":item"),
+	(eq, ":damage", 20),
+	(agent_set_wielded_item, ":agent", "itm_saber1"),
+	(agent_set_wielded_item, ":agent", "itm_saber2"),
+	(agent_set_wielded_item, ":agent", "itm_saber3"),
+	(agent_set_wielded_item, ":agent", "itm_scimitar"),
+	(agent_set_wielded_item, ":agent", "itm_turk_broadsword_a"),
+	(agent_set_wielded_item, ":agent", "itm_persian_broadsword"),
+	(try_end),
+
+])
+
 player_accuracy_modifier = (
 1, 0, 0, [],
 [
@@ -4957,6 +4985,7 @@ pws_sky_bms = (ti_before_mission_start, 0, 0, [
 ], [])
 
 parabellum_script_set_battle = [
+carbine_melee_mode_fix,
 player_accuracy_modifier,
 ammo_refill,
 flag_bearer,

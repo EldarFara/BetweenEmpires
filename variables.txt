@@ -1208,6 +1208,8 @@ g_there_is_no_avaliable_centers
 g_advantegous_faction
 g_give_advantage_to_original_faction
 g_ccoop_currently_dropping_item
+prussia_unification_progress
+italy_unification_progress
 pws_n_precipitation
 pws_n_clouds
 g_game_speed

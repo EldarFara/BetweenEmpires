@@ -91,7 +91,10 @@ qst_save_town_from_bandits = 89
 qst_italy_unification_defeat_sardinia = 90
 qst_italy_unification_defeat_sicily = 91
 qst_italy_unification_defeat_papalstates = 92
-qst_quests_end = 93
+qst_prussia_unification_defeat_denmark = 93
+qst_prussia_unification_defeat_austria = 94
+qst_prussia_unification_defeat_france = 95
+qst_quests_end = 96
 qsttag_deliver_message = 504403158265495552
 qsttag_deliver_message_to_enemy_lord = 504403158265495553
 qsttag_raise_troops = 504403158265495554
@@ -185,6 +188,9 @@ qsttag_save_town_from_bandits = 504403158265495641
 qsttag_italy_unification_defeat_sardinia = 504403158265495642
 qsttag_italy_unification_defeat_sicily = 504403158265495643
 qsttag_italy_unification_defeat_papalstates = 504403158265495644
-qsttag_quests_end = 504403158265495645
+qsttag_prussia_unification_defeat_denmark = 504403158265495645
+qsttag_prussia_unification_defeat_austria = 504403158265495646
+qsttag_prussia_unification_defeat_france = 504403158265495647
+qsttag_quests_end = 504403158265495648
 
 

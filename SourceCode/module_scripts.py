@@ -46,6 +46,8 @@ scripts = [
 (call_script, "script_walled_centers_assign_closest_centers"),
 (assign, "$async_randomly_start_war_peace_new_cur_kingdom", "fac_kingdom_1"),
 (assign, "$async_randomly_start_war_peace_new_cur_kingdom_2", kingdoms_begin),
+(assign, "$prussia_unification_progress", 0),
+(assign, "$italy_unification_progress", 0),
 (assign, "$ignore_script_game_missile_launch", 0),
 (assign, "$g_game_speed", 15),
 (assign, "$g_days_until_next_year", -1),
@@ -2137,7 +2139,7 @@ scripts = [
       (set_spawn_radius, 25),
 		(try_for_range, ":cur_village", villages_begin, villages_end),
 		(store_random_in_range, ":random_value", 0, 10),              
-		(is_between, ":random_value", 0, 5),
+		(eq, ":random_value", 0),
 		(party_get_slot, ":center_culture", ":cur_village", slot_center_culture),
 			(try_begin),
 			(this_or_next|eq, ":random_value", 0),              
@@ -21161,16 +21163,6 @@ scripts = [
 			(le, ":provocation_days", 0), #disqualifies if the faction has already provoked someone
 			
 			(store_random_in_range, ":faction_candidate_score", 0, 100),
-			#add in scores - no truce?
-#				(store_add, ":truce_slot", ":giver_troop_faction", slot_faction_truce_days_with_factions_begin),
-#				(store_add, ":provocation_slot", ":giver_troop_faction", slot_faction_provocation_days_with_factions_begin),
-#				(val_sub, ":truce_slot", kingdoms_begin),
-#				(val_sub, ":provocation_slot", kingdoms_begin),				
-#				(faction_slot_eq, ":faction_candidate", ":provocation_slot", 0),
-#				(try_begin),
-#					(faction_slot_ge, ":faction_candidate", ":truce_slot", 1),
-#					(val_sub, ":faction_to_attack_temp_score", 1),
-#				(try_end),
 				
 			(gt, ":faction_candidate_score", ":faction_to_attack_score"),
 			(assign, ":faction_to_attack", ":faction_candidate"),
@@ -24721,6 +24713,7 @@ scripts = [
          #(faction_slot_eq, ":faction_no", slot_faction_ai_state, sfai_attacking_enemies_around_center),
          (party_slot_eq, ":party_no", slot_party_ai_state, spai_accompanying_army),
          (party_get_slot, ":commander_party", ":party_no", slot_party_ai_object),
+		 (party_is_active, ":commander_party"),
          (gt, ":commander_party", 0),
          (party_is_active, ":commander_party"),
                
@@ -24728,6 +24721,7 @@ scripts = [
          (try_begin),
            (party_slot_eq, ":commander_party", slot_party_ai_state, spai_holding_center), #if commander is holding a center
            (party_get_slot, ":commander_object", ":commander_party", slot_party_ai_object), #get commander's ai object (center they are holding)
+		   (party_is_active, ":commander_object"),
            (party_get_battle_opponent, ":besieger_enemy", ":commander_object"), #get this object's battle opponent
            (party_is_active, ":besieger_enemy"),
            (assign, ":besieged_center", ":commander_object"),
@@ -24735,6 +24729,7 @@ scripts = [
          (else_try),
            (party_slot_eq, ":commander_party", slot_party_ai_state, spai_engaging_army), #if commander is engaging an army          
            (party_get_slot, ":commander_object", ":commander_party", slot_party_ai_object), #get commander's ai object (army which they engaded)
+		   (party_is_active, ":commander_object"),
            (ge, ":commander_object", 0), #if commander has an object
            (neg|is_between, ":commander_object", centers_begin, centers_end), #if this object is not a center, so it is a party
            (party_is_active, ":commander_object"),
@@ -25230,6 +25225,7 @@ scripts = [
         (store_faction_of_party, ":faction_no", ":party_no"),
         (party_get_slot, ":ai_state", ":party_no", slot_party_ai_state),
         (party_get_slot, ":ai_object", ":party_no", slot_party_ai_object),
+	   (party_is_active, ":ai_object"),
         (try_begin),
           (eq, ":ai_state", spai_besieging_center),
           (try_begin),
@@ -27011,7 +27007,7 @@ scripts = [
 		(val_sub, ":truce_slot", kingdoms_begin),
 		(val_sub, ":provocation_slot", kingdoms_begin),
 		(faction_set_slot, ":kingdom_a", ":truce_slot", 0),
-		(faction_set_slot, ":kingdom_a", ":provocation_slot", 0),
+		(faction_set_slot, ":kingdom_a", ":provocation_slot", -20),
 
 		(store_add, ":truce_slot", ":kingdom_a", slot_faction_truce_days_with_factions_begin),
 		(store_add, ":provocation_slot", ":kingdom_a", slot_faction_provocation_days_with_factions_begin),
@@ -27128,7 +27124,7 @@ scripts = [
 	  (try_begin),
 	        (neq, ":diplomatic_status", -2),
 		(faction_slot_eq, ":defender_faction", ":slot_provocation_days", 0),
-		(faction_set_slot, ":defender_faction", ":slot_provocation_days", 30),
+		(faction_set_slot, ":defender_faction", ":slot_provocation_days", 15),
 	  (try_end),	  
 	]),
 	
@@ -46160,19 +46156,6 @@ scripts = [
 				(try_end),
 			(try_end),
 
-# Could include two factions share border, but war is unlikely to break out in the first place unless there is a common border
-			
-#			(try_begin),
-#				(is_between, ":party_no", walled_centers_begin, walled_centers_end),
-#				(try_for_range, ":other_center", walled_centers_begin, walled_centers_end),
-#					(assign, ":two_factions_share_border", 0),
-#					(store_faction_of_party, ":other_faction", ":other_center"),
-#					(eq, ":other_faction", ":actor_faction"),
-#					(store_distance_to_party_from_party, ":distance", ":party_no", ":other_center"),
-#					(le, ":distance", 15),
-#					(assign, ":two_factions_share_border", 1),
-#				(try_end),
-#			(try_end),
 		(else_try),
 			(eq, ":party_current_faction", ":actor_faction"),
 			(val_add, ":actor_strength", ":party_value"),
@@ -58085,6 +58068,10 @@ scripts = [
 			
 			#negative, leans towards war/positive, leans towards peace
 			#(le, reg0, 0), #still no chance of war unless provocation, or at start of game
+			(store_add, ":slot_provocation_days", ":cur_kingdom_2", slot_faction_provocation_days_with_factions_begin),
+			(val_sub, ":slot_provocation_days", kingdoms_begin),
+			(faction_get_slot, ":provocation_days", ":cur_kingdom", ":slot_provocation_days"),
+			(gt, ":provocation_days", 0),
 		 
 			(assign, ":hostility", reg0),
 
@@ -58095,7 +58082,7 @@ scripts = [
 			(val_add, ":hostility", reg0), #increase hostility if there is a provocation
 			
 			(store_mul, ":hostility_squared", ":hostility", ":hostility"),
-			(store_random_in_range, ":random", 0, 50),
+			(store_random_in_range, ":random", 0, 5),
 
 			(lt, ":random", ":hostility_squared"),
 			
@@ -58134,7 +58121,7 @@ scripts = [
 		(store_relation, ":relation", ":faction1", ":faction2"),
 		(le, ":relation", 10),
 		(call_script, "script_cf_if_faction_borders_a_faction_by_land", ":faction1", ":faction2"),
-		(call_script, "script_cf_random", 20),
+		(call_script, "script_cf_random", 10),
 		(set_relation, ":faction1", ":faction2", -30),
 		(set_relation, ":faction2", ":faction1", -30),
 		(try_end),
@@ -58379,6 +58366,32 @@ scripts = [
         (call_script, "script_calculate_troop_ai", ":troop_no"),
       (try_end),	  
     ]),
+	
+
+("create_random_provocation",
+[
+	(try_begin),
+	(store_random_in_range, ":faction1", npc_kingdoms_begin, npc_kingdoms_end),
+	(store_random_in_range, ":faction2", kingdoms_begin, kingdoms_end),
+	(neq, ":faction1", ":faction2"),
+	(faction_slot_eq, ":faction1", slot_faction_state, sfs_active),
+	(faction_slot_eq, ":faction2", slot_faction_state, sfs_active),
+	(call_script, "script_cf_if_faction_borders_a_faction_by_land", ":faction1", ":faction2"),
+	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", ":faction1", ":faction2"),
+	(eq, reg0, 0),
+	(call_script, "script_cf_random", 10),
+	(store_random_in_range, ":days", 10, 15),
+	(store_add, ":provocation_slot", ":faction2", slot_faction_provocation_days_with_factions_begin),
+	(val_sub, ":provocation_slot", kingdoms_begin),
+	(faction_set_slot, ":faction1", ":provocation_slot", ":days"),
+	(set_relation, ":faction1", ":faction2", 0), (set_relation, ":faction2", ":faction1", 0),
+	(str_store_faction_name, s31, ":faction1"),
+	(str_store_faction_name, s32, ":faction2"),
+	(assign, reg10, ":days"),
+	(display_message, "@{s31} created a provocation for {s32} for {reg10} days."),
+	#(jump_to_menu,"mnu_provocation_created"),
+	(try_end),	
+]),
 
 ]# modmerger_start version=201 type=2
 try:

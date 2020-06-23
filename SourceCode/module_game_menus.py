@@ -14806,6 +14806,18 @@ game_menus = [
         ]),
 	]),
 
+  ("provocation_created",0,
+    "{s31} created a provocation for {s32} for {reg10} days.",
+    "none",
+    [
+	],
+    [
+	("close", [],"Close",
+       [
+        (change_screen_return),
+        ]),
+	]),
+
 
   
  ]

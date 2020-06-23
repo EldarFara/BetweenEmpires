@@ -26,7 +26,7 @@ ambience_sound_type_forestsunny = 10
 ambience_sound_type_forestovercast = 11
 ambience_sound_type_interior = 11
 
-maximum_amount_of_bandit_parties = 350
+maximum_amount_of_bandit_parties = 50
 
 battle_type_nobattle			= 0
 battle_type_fieldbattle 		= 1

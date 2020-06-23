@@ -216,6 +216,10 @@ minister_change_marshal
 minister_replace
 minister_grant_fief
 minister_grant_self_fief
+prussia_unification_start1
+prussia_unification_start2
+prussia_unification_start3_proceed
+prussia_unification_start3_cancel
 italy_unification_start1
 italy_unification_start2
 italy_unification_start3_proceed
