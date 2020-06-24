@@ -1210,6 +1210,7 @@ g_give_advantage_to_original_faction
 g_ccoop_currently_dropping_item
 prussia_unification_progress
 italy_unification_progress
+improve_relations_chosen_faction
 peace_negotiations_enemy_faction
 pws_n_precipitation
 pws_n_clouds
@@ -1432,6 +1433,8 @@ g_faction_selection_selected_faction_name
 g_faction_selection_selected_faction_flag
 g_faction_selection_container
 g_peace_negotiations_close
+g_peace_negotiations_make_peace
+g_peace_negotiations_cannot_agree_text
 g_peace_negotiations_container
 async_randomly_start_war_peace_new_cur_kingdom
 async_randomly_start_war_peace_new_cur_kingdom_2
@@ -1485,6 +1488,8 @@ async_init_ai_calculation_3
 async_init_ai_calculation_4
 async_recalculate_ais_1
 async_recalculate_ais_2
+number_of_allies
+number_of_enemies
 async_simple_trigger1
 async_simple_trigger2
 async_simple_trigger3
@@ -1512,3 +1517,4 @@ async_simple_trigger23
 current_wind
 current_clouds
 current_precipitation
+async_simple_trigger25

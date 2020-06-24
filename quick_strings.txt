@@ -1,4 +1,4 @@
-945
+951
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -222,6 +222,10 @@ qstr_Chosen_Faction:^{s1} Chosen_Faction:^{s1}
 qstr_Select_flag_for_your Select_flag_for_your_faction
 qstr_Peace_negotiations_w Peace_negotiations_with_{s1}
 qstr_Stop_Negotiations Stop_Negotiations
+qstr_Make_Peace Make_Peace
+qstr_Opposite_side_diplom Opposite_side_diplomats^cannot_agree_with_terms
+qstr_Current_winner:_{s1} Current_winner:_{s1}
+qstr_Cannot_claim_{s31}__ Cannot_claim_{s31}_-_it_doesn't_have_supply_routes_to_your_faction.
 qstr_vSeason vSeason
 qstr_{!}DEBUG_:_Completed {!}DEBUG_:_Completed_faction_troop_assignments,_cheat_mode:_{reg3}
 qstr_{!}DEBUG_:_Completed_ {!}DEBUG_:_Completed_political_events,_cheat_mode:_{reg3}
@@ -372,6 +376,7 @@ qstr_You_gain_honour. You_gain_honour.
 qstr_You_lose_honour. You_lose_honour.
 qstr_{s1}_has_declared_wa {s1}_has_declared_war_against_{s2}.
 qstr_{!}DEbug___{s5}_cara {!}DEbug_-_{s5}_caravan_attacked
+qstr_init_ai_calculation init_ai_calculation
 qstr_{s1}_and_{s2}_have_m {s1}_and_{s2}_have_made_peace_with_each_other.
 qstr_{!}DEBUG____Player_s {!}DEBUG_--_Player's_kingdom_has_had_{reg3}_days_of_peace
 qstr_{s2}_{reg3?was:is_cu {s2}_{reg3?was:is_currently}_at_{s3}.
@@ -555,6 +560,8 @@ qstr_{s1} {s1}
 qstr_{s31}_created_a_casu {s31}_created_a_casus_belli_for_{s32}_for_{reg10}_days.
 qstr_{s31}_s_infamy_is_in {s31}'s_infamy_is_increased_by_{reg10}_and_is_now_{reg11}.
 qstr_{s31}_s_infamy_is_de {s31}'s_infamy_is_decreased_by_{reg10}_and_is_now_{reg11}.
+qstr_Enemy___{s31} Enemy_-_{s31}
+qstr_Ally___{s31} Ally_-_{s31}
 qstr_day day
 qstr_cloud1 cloud1
 qstr_cloud2 cloud2
@@ -708,9 +715,7 @@ qstr__Your_own_banner_fli _Your_own_banner_flies_over_the_castle_gate.
 qstr__You_see_the_banner_ _You_see_the_banner_of_{s7}_over_the_castle_gate.
 qstr__Your_own_banner_flie _Your_own_banner_flies_over_the_town_gates.
 qstr__You_see_the_banner_o _You_see_the_banner_of_{s7}_over_the_town_gates.
-qstr_can_be_besieged_from can_be_besieged_from_land
-qstr_can_be_besieged_from_ can_be_besieged_from_sea
-qstr_Cannot_besiege:_too_ Cannot_besiege:_too_far_from_any_center_of_your_faction_(closest_centers_to_this_{reg6?town:castle}_are_{s60},_{s61}_and_{s62}).
+qstr_Cannot_besiege:_too_ Cannot_besiege:_too_far_from_any_center_of_your_faction_(closest_centers_to_this_{reg6?town:castle}_are_{s60},_{s61}_and_{s62})_and_can't_be_besieged_from_the_sea.
 qstr_The_{reg6?town_s:cas The_{reg6?town's:castle's}_food_stores_should_last_for_{reg3}_more_days.
 qstr_The_{reg6?town_s:cast The_{reg6?town's:castle's}_food_stores_have_run_out_and_the_defenders_are_starving.
 qstr_You_re_preparing_to_ You're_preparing_to_attack_the_walls,_the_work_should_finish_in_{reg9}_hours.
@@ -824,6 +829,7 @@ qstr_{!}DEBUG___Checking_ {!}DEBUG_-_Checking_fire_at_{s4}_for_{s5}_-_current_ti
 qstr_The_{s1}_has_finishe The_{s1}_has_finished_researching_technology_of_{s2}
 qstr_The_year_is_{reg0}. The_year_is_{reg0}.
 qstr_Kingdom_of_Italy Kingdom_of_Italy
+qstr_Finished_improving_r Finished_improving_relations_with_{s31}.
 qstr_{!}DEBUG____Wanted_b {!}DEBUG_--_Wanted_bandits_spotted_by_{s4}
 qstr_{reg65?my_Lady:my_Lo {reg65?my_Lady:my_Lord}
 qstr_{reg65?My_Lady:My_Lo {reg65?My_Lady:My_Lord}

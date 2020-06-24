@@ -20023,17 +20023,17 @@ mission_templates = [
           (party_wound_members, "p_temp_casualties", ":dead_agent_troop_id", 1), 
         (try_end),
         
-        (assign, ":number_of_enemies", 0),
+        (assign, ":l_number_of_enemies", 0),
         (try_for_agents, ":cur_agent"),
           (agent_is_non_player, ":cur_agent"),
           (agent_is_human, ":cur_agent"),
           (agent_is_alive, ":cur_agent"),
           (neg|agent_is_ally, ":cur_agent"),
-          (val_add, ":number_of_enemies", 1),
+          (val_add, ":l_number_of_enemies", 1),
         (try_end),
         
         (try_begin),
-          (le, ":number_of_enemies", 2),
+          (le, ":l_number_of_enemies", 2),
           (le, "$defender_reinforcement_stage", 1),
           (val_add, "$defender_reinforcement_stage", 1),
 

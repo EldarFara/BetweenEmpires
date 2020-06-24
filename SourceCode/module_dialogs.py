@@ -3634,6 +3634,74 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    
    [anyone|plyr, "minister_talk",
    [],
+   "I would like to improve relations with faction.", "improve_relations_initial",
+   []],
+   
+   [anyone, "improve_relations_initial",
+   [
+   (neg|faction_slot_eq, "fac_player_supporters_faction", slot_faction_improve_relations_target, 0),
+   (faction_get_slot, ":faction_improve_relations_target", "fac_player_supporters_faction", slot_faction_improve_relations_target),
+   (str_store_faction_name, s31, ":faction_improve_relations_target"),
+   ],
+   "Already improving relations with {s31}.", "minister_pretalk",
+   []],
+   
+   [anyone, "improve_relations_initial",
+   [],
+   "With what faction?", "improve_relations_choose_faction",
+   []],
+   
+   [anyone|plyr|repeat_for_factions, "improve_relations_choose_faction",
+   [
+	(store_repeat_object, ":faction"),
+	(is_between, ":faction", npc_kingdoms_begin, npc_kingdoms_end),
+	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", "fac_player_supporters_faction", ":faction"),
+	(eq, reg0, 0),
+	(str_store_faction_name, s31, ":faction"),
+	],
+   "{s31}.", "improve_relations_proceed",
+   [
+   (store_repeat_object, "$improve_relations_chosen_faction"),
+   ]],
+   
+   [anyone|plyr, "improve_relations_choose_faction",
+   [],
+   "Never mind.", "minister_pretalk",
+   []],
+   
+   [anyone, "improve_relations_proceed",
+   [
+   (store_random_in_range, ":price", 100, 200),
+   (val_mul, ":price", 10),
+   (assign, reg10, ":price"),
+   ],
+   "I can improve relations with chosen country for {reg10} pounds.", "improve_relations_proceed_price_named",
+   []],
+   
+   [anyone|plyr, "improve_relations_proceed_price_named",
+   [
+	(store_troop_gold, ":gold", "trp_player"),
+	(ge, ":gold", reg10),
+   ],
+   "Alright, do it.", "improve_relations_proceed_completed",
+   [
+	(troop_remove_gold, "trp_player", reg10),
+	(faction_set_slot, "fac_player_supporters_faction", slot_faction_improve_relations_target, "$improve_relations_chosen_faction"),
+	(faction_set_slot, "fac_player_supporters_faction", slot_faction_improve_relations_progress, 0),
+	]],
+   
+   [anyone, "improve_relations_proceed_completed",
+   [],
+   "Improving relations with this country will take some time.", "minister_pretalk",
+   []],
+   
+   [anyone|plyr, "improve_relations_proceed_price_named",
+   [],
+   "I changed my mind.", "minister_pretalk",
+   []],
+   
+   [anyone|plyr, "minister_talk",
+   [],
    "I want you to initiate peace negotiations with a foreign power.", "peace_negotiations_initial",
    []],
    
@@ -13497,7 +13565,7 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
      (assign, ":num_centers_owned", reg0),
      (store_mul, ":center_affect", ":num_centers_owned", 50),
      (val_add, ":vassal_potential", ":center_affect"),
-     (ge, ":vassal_potential", 150),
+     (ge, ":vassal_potential", 50),
      (try_begin),
 	   (troop_get_type, ":is_female", "trp_player"),
 	   (eq, ":is_female", 0),

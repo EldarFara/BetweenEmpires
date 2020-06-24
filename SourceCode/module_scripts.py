@@ -463,6 +463,9 @@ scripts = [
       # Setting random feast time
       (try_for_range, ":faction_no", kingdoms_begin, kingdoms_end),
         (faction_set_slot, ":faction_no", slot_faction_infamy, 0),
+        (faction_set_slot, ":faction_no", slot_faction_casus_belli_target, 0),
+        (faction_set_slot, ":faction_no", slot_faction_casus_belli_progress, 0),
+        (faction_set_slot, ":faction_no", slot_faction_improve_relations_target, 0),
         (store_random_in_range, ":last_feast_time", 0, 312), #240 + 72
         (val_mul, ":last_feast_time", -1),
         (faction_set_slot, ":faction_no", slot_faction_last_feast_start_time, ":last_feast_time"),
@@ -1211,6 +1214,8 @@ scripts = [
 	(call_script, "script_give_center_to_faction_aux", "p_village_682", "fac_kingdom_12"),
     (party_set_slot, "p_village_683", slot_village_bound_center, "p_castle_257"),
 	(call_script, "script_give_center_to_faction_aux", "p_village_683", "fac_kingdom_5"),
+    (party_set_slot, "p_village_290", slot_village_bound_center, "p_castle_77"),
+	(call_script, "script_give_center_to_faction_aux", "p_village_290", "fac_kingdom_18"),
     
     
 
@@ -27017,7 +27022,8 @@ scripts = [
 		(val_sub, ":truce_slot", kingdoms_begin),
 		(val_sub, ":provocation_slot", kingdoms_begin),
 		(faction_set_slot, ":kingdom_a", ":truce_slot", 0),
-		(faction_set_slot, ":kingdom_a", ":provocation_slot", -30),
+		(store_random_in_range, ":war_days", -60, -40),
+		(faction_set_slot, ":kingdom_a", ":provocation_slot", ":war_days"),
 
 		(store_add, ":truce_slot", ":kingdom_a", slot_faction_truce_days_with_factions_begin),
 		(store_add, ":provocation_slot", ":kingdom_a", slot_faction_provocation_days_with_factions_begin),
@@ -27257,7 +27263,6 @@ scripts = [
     ("recalculate_ais",
     [
       (call_script, "script_init_ai_calculation"),
-            
       (try_for_range, ":faction_no", kingdoms_begin, kingdoms_end),
       (assign, reg8, ":faction_no"),
         (faction_slot_eq, ":faction_no", slot_faction_state, sfs_active),
@@ -27332,6 +27337,15 @@ scripts = [
         (eq, ":besieger_party_faction_no", ":kingdom_b"),
         (call_script, "script_lift_siege", ":cur_center", 0),
       (try_end),
+      
+	(try_for_range, ":cur_center", walled_centers_begin, walled_centers_end),
+	(store_faction_of_party, ":faction_no", ":cur_center"),
+	(this_or_next|eq, ":faction_no", ":kingdom_a"),
+	(eq, ":faction_no", ":kingdom_b"),
+	(party_get_slot, ":faction_to_assign", ":cur_center", slot_center_faction_to_assign),
+	(neq, ":faction_to_assign", -1),
+	(call_script, "script_give_center_to_faction", ":cur_center", ":faction_to_assign"),
+	(try_end),
       
       (try_begin),
         (this_or_next|eq, "$players_kingdom", ":kingdom_a"),
@@ -27465,7 +27479,6 @@ scripts = [
   ("randomly_start_war_peace_new",
     [
     (store_script_param_1, ":initializing_war_peace_cond"),
-	
 	(assign, ":players_kingdom_at_peace", 0), #if the player kingdom is at peace, then create an enmity
 	(try_begin),
 		(is_between, "$players_kingdom", "fac_kingdom_1", kingdoms_end),
@@ -46956,7 +46969,7 @@ scripts = [
 
 	(
 	"diplomacy_faction_get_diplomatic_status_with_faction", 
-	#result: -1 faction_1 has a casus belli against faction_2. 1, faction_1 has a truce with faction_2, -2, the two factions are at war
+	#result: -1 faction_1 has a casus belli against faction_2. 1, faction_1 has a truce with faction_2, -2, the two factions are at war # parabellum add - reg60 will be 1 if ally
 	[
 	(store_script_param, ":actor_faction", 1),
 	(store_script_param, ":target_faction", 2),
@@ -46984,9 +46997,16 @@ scripts = [
 		
 		(faction_get_slot, ":duration", ":actor_faction", ":provocation_slot"),
 	(try_end),
+	(try_begin),
+	(ge, ":relation", 80),
+	(assign, ":is_ally", 1),
+	(else_try),
+	(assign, ":is_ally", 0),
+	(try_end),
 	
 	(assign, reg0, ":result"),
 	(assign, reg1, ":duration"),
+	(assign, reg60, ":is_ally"),
 	]),
 	
 	("faction_follows_controversial_policy",
@@ -48316,7 +48336,7 @@ scripts = [
 		(store_faction_of_troop, ":faction", ":troop_no"), # parabellum add
 			(try_begin),
 			(assign, ":can_be_besieged_from_land", 0),
-			(call_script, "script_cf_if_center_borders_a_faction", ":center_no", ":faction"),
+			(call_script, "script_cf_if_center_borders_a_faction_by_land", ":center_no", ":faction"),
 			(assign, ":can_be_besieged_from_land", 1),
 			(try_end),
 			(try_begin),
@@ -57950,7 +57970,7 @@ scripts = [
 
 ]),
 
-("cf_if_center_borders_a_faction",
+("cf_if_center_borders_a_faction_by_land",
 [
 (store_script_param, ":center", 1),
 (store_script_param, ":faction1", 2),
@@ -57969,6 +57989,26 @@ scripts = [
 	(assign, ":is_true", 1),
 	(try_end),
 (eq, ":is_true", 1),
+]),
+
+("cf_if_center_borders_a_faction",
+[
+(store_script_param, ":center", 1),
+(store_script_param, ":faction1", 2),
+	(try_begin),
+	(assign, ":can_be_besieged_from_land", 0),
+	(call_script, "script_cf_if_center_borders_a_faction_by_land", ":center", ":faction1"),
+	(assign, ":can_be_besieged_from_land", 1),
+	(try_end),
+	(try_begin),
+	(assign, ":can_be_besieged_from_sea", 0),
+	(party_slot_eq, ":center", slot_center_can_be_besieged_by_sea, 1),
+	(call_script, "script_cf_if_faction_has_access_to_sea", ":faction1"),
+	(assign, ":can_be_besieged_from_sea", 1),
+	(try_end),
+(this_or_next|eq, ":can_be_besieged_from_land", 1),
+(eq, ":can_be_besieged_from_sea", 1),
+
 ]),
 
 ("cf_if_faction_has_access_to_sea",
@@ -58001,7 +58041,7 @@ scripts = [
 	(eq, ":is_true", 0),
 	(store_faction_of_party, ":faction", ":center"),
 	(eq, ":faction", ":faction1"),
-	(call_script, "script_cf_if_center_borders_a_faction", ":center", ":faction2"),
+	(call_script, "script_cf_if_center_borders_a_faction_by_land", ":center", ":faction2"),
 	(assign, ":is_true", 1),
 	(try_end),
 (eq, ":is_true", 1),
@@ -58017,7 +58057,7 @@ scripts = [
 	(eq, ":is_true", 0),
 	(store_faction_of_party, ":faction", ":center"),
 	(eq, ":faction", ":faction1"),
-	(call_script, "script_cf_if_center_borders_a_faction", ":center", ":faction2"),
+	(call_script, "script_cf_if_center_borders_a_faction_by_land", ":center", ":faction2"),
 	(assign, ":is_true", 1),
 	(try_end),
 (eq, ":is_true", 1),
@@ -58401,6 +58441,7 @@ scripts = [
 	(call_script, "script_cf_if_faction_borders_a_faction_by_land", ":faction1", ":faction2"),
 	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", ":faction1", ":faction2"),
 	(eq, reg0, 0),
+	(neq, reg60, 1),
 	(call_script, "script_cf_random", 5),
 	(store_random_in_range, ":days", 10, 15),
 	(store_add, ":provocation_slot", ":faction2", slot_faction_provocation_days_with_factions_begin),
@@ -58460,20 +58501,22 @@ scripts = [
 (store_faction_of_party, ":faction", ":center"),
 (create_text_overlay, reg1, s1, tf_center_justify), (overlay_set_size, reg1, pos3),
 (position_set_x, pos1, 500), (position_set_y, pos1, ":y_coordinate"), (overlay_set_position, reg1, pos1),
-(create_check_box_overlay, reg1, "mesh_checkbox_off", "mesh_checkbox_on"),
-(position_set_x, pos1, 320), (position_set_y, pos1, ":y_coordinate"), (overlay_set_position, reg1, pos1),
+(create_check_box_overlay, ":checkbox1", "mesh_checkbox_off", "mesh_checkbox_on"),
+(position_set_x, pos1, 320), (position_set_y, pos1, ":y_coordinate"), (overlay_set_position, ":checkbox1", pos1),
 	(try_begin),
 	(call_script, "script_cf_peace_negotiations_if_center_is_of_allies", ":center"),
-	(overlay_set_val, reg1, 1),
+	(overlay_set_val, ":checkbox1", 1),
 	(try_end),
-(troop_set_slot, "trp_temp_array_a", reg1, ":center"),
-(create_check_box_overlay, reg1, "mesh_checkbox_off", "mesh_checkbox_on"),
-(position_set_x, pos1, 680), (position_set_y, pos1, ":y_coordinate"), (overlay_set_position, reg1, pos1),
+(create_check_box_overlay, ":checkbox2", "mesh_checkbox_off", "mesh_checkbox_on"),
+(position_set_x, pos1, 680), (position_set_y, pos1, ":y_coordinate"), (overlay_set_position, ":checkbox2", pos1),
 	(try_begin),
 	(call_script, "script_cf_peace_negotiations_if_center_is_of_enemies", ":center"),
-	(overlay_set_val, reg1, 1),
+	(overlay_set_val, ":checkbox2", 1),
 	(try_end),
-(troop_set_slot, "trp_temp_array_b", reg1, ":center"),
+(troop_set_slot, "trp_temp_array_a", ":checkbox1", ":checkbox2"),
+(troop_set_slot, "trp_temp_array_a", ":checkbox2", ":checkbox1"),
+(troop_set_slot, "trp_temp_array_b", ":checkbox1", ":center"),
+(troop_set_slot, "trp_temp_array_b", ":checkbox2", ":center"),
 (val_add, ":y_coordinate", 7),
 (faction_get_slot, ":material_string", ":faction", slot_faction_flag_material), (create_mesh_overlay, reg1, "mesh_menu_flag1"),
 (position_set_x, pos1, 400), (position_set_y, pos1, ":y_coordinate"), (overlay_set_position, reg1, pos1), (overlay_set_size, reg1, pos4),
@@ -58491,14 +58534,104 @@ scripts = [
     [
 (store_script_param_1, ":center"),
 (store_faction_of_party, ":faction", ":center"),
-(eq, ":faction", "fac_player_supporters_faction"),
+(call_script, "script_cf_peace_negotiations_if_faction_is_ally", ":faction"),
   ]),
 
   ("cf_peace_negotiations_if_center_is_of_enemies",
     [
 (store_script_param_1, ":center"),
 (store_faction_of_party, ":faction", ":center"),
+(call_script, "script_cf_peace_negotiations_if_faction_is_enemy", ":faction"),
+  ]),
+
+  ("cf_peace_negotiations_if_faction_is_ally",
+    [
+(store_script_param_1, ":faction"),
+(eq, ":faction", "fac_player_supporters_faction"),
+  ]),
+
+  ("cf_peace_negotiations_if_faction_is_enemy",
+    [
+(store_script_param_1, ":faction"),
 (eq, ":faction", "$peace_negotiations_enemy_faction"),
+  ]),
+
+  ("peace_negotiations_detect_allies_and_enemies",
+    [
+(assign, "$number_of_allies", 0),
+(assign, "$number_of_enemies", 0),
+	(try_for_range, ":faction", npc_kingdoms_begin, npc_kingdoms_end),
+	(faction_slot_eq, ":faction", slot_faction_state, sfs_active),
+	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", ":faction", "fac_player_supporters_faction"),
+	(eq, reg0, -2),
+	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", ":faction", "$peace_negotiations_enemy_faction"),
+	(eq, reg60, 1),
+	(troop_set_slot, "trp_temp_array_c", "$number_of_enemies", ":faction"),
+(str_store_string, s31, ":faction"),
+(display_message, "@Enemy - {s31}"),
+	(val_add, "$number_of_enemies", 1),
+	(try_end),
+	(try_for_range, ":faction", npc_kingdoms_begin, npc_kingdoms_end),
+	(faction_slot_eq, ":faction", slot_faction_state, sfs_active),
+	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", ":faction", "fac_player_supporters_faction"),
+	(eq, reg60, 1),
+	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", ":faction", "$peace_negotiations_enemy_faction"),
+	(eq, reg0, -2),
+	(troop_set_slot, "trp_temp_array_d", "$number_of_allies", ":faction"),
+(str_store_string, s31, ":faction"),
+(display_message, "@Ally - {s31}"),
+	(val_add, "$number_of_allies", 1),
+	(try_end),
+  ]),
+
+  ("peace_negotiations_calculate_victory_points",
+    [
+	
+	(store_add, ":slot_war_damage_suffered", "$peace_negotiations_enemy_faction", slot_faction_war_damage_inflicted_on_factions_begin),
+	(val_sub, ":slot_war_damage_suffered", kingdoms_begin), (faction_get_slot, reg10, "fac_player_supporters_faction", ":slot_war_damage_suffered"),
+	(store_add, ":slot_war_damage_suffered", "fac_player_supporters_faction", slot_faction_war_damage_inflicted_on_factions_begin),
+	(val_sub, ":slot_war_damage_suffered", kingdoms_begin), (faction_get_slot, ":war_damage_suffered_allies", "$peace_negotiations_enemy_faction", ":slot_war_damage_suffered"),
+	# add allies war damage here
+	(val_sub, reg10, ":war_damage_suffered_allies"),
+  ]),
+
+  ("peace_negotiations_enemy_rethink",
+    [
+	(call_script, "script_peace_negotiations_calculate_victory_points"),
+	(assign, ":victory_points", reg10),
+	(assign, ":victory_points_used", 0),
+		(try_for_range, ":center", walled_centers_begin, walled_centers_end),
+			(try_begin),
+			(party_get_slot, ":official_faction", ":center", slot_center_official_faction),
+			(party_get_slot, ":faction_to_assign", ":center", slot_center_faction_to_assign),
+			(store_faction_of_party, ":faction", ":center"),
+			(call_script, "script_cf_peace_negotiations_if_faction_is_enemy", ":official_faction"),
+			(eq, ":faction_to_assign", "fac_player_supporters_faction"),
+				(try_begin),
+				(is_between, ":center", towns_begin, towns_end),
+				(val_add, ":victory_points_used", 40),
+				(else_try),
+				(val_add, ":victory_points_used", 20),
+				(try_end),
+			(else_try),
+			(call_script, "script_cf_peace_negotiations_if_faction_is_ally", ":faction"),
+			(call_script, "script_cf_peace_negotiations_if_faction_is_enemy", ":faction_to_assign"),
+				(try_begin),
+				(is_between, ":center", towns_begin, towns_end),
+				(val_add, ":victory_points_used", -40),
+				(else_try),
+				(val_add, ":victory_points_used", -20),
+				(try_end),
+			(try_end),
+		(try_end),
+	(try_begin),
+	(lt, ":victory_points_used", ":victory_points"),
+	(position_set_x, pos1, 740), (position_set_y, pos1, 30), (overlay_set_position, "$g_peace_negotiations_make_peace", pos1),
+	(position_set_x, pos1, -740), (position_set_y, pos1, 35), (overlay_set_position, "$g_peace_negotiations_cannot_agree_text", pos1),
+	(else_try),
+	(position_set_x, pos1, -740), (position_set_y, pos1, 30), (overlay_set_position, "$g_peace_negotiations_make_peace", pos1),
+	(position_set_x, pos1, 740), (position_set_y, pos1, 35), (overlay_set_position, "$g_peace_negotiations_cannot_agree_text", pos1),
+	(try_end),
   ]),
 
 ]# modmerger_start version=201 type=2
