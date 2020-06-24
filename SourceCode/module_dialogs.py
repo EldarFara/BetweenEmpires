@@ -3655,8 +3655,10 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    [
 	(store_repeat_object, ":faction"),
 	(is_between, ":faction", npc_kingdoms_begin, npc_kingdoms_end),
+	(faction_slot_eq, ":faction", slot_faction_state, sfs_active),
 	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", "fac_player_supporters_faction", ":faction"),
 	(eq, reg0, 0),
+	(eq, reg60, 0),
 	(str_store_faction_name, s31, ":faction"),
 	],
    "{s31}.", "improve_relations_proceed",
@@ -3701,7 +3703,16 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    []],
    
    [anyone|plyr, "minister_talk",
-   [],
+   [
+	(assign, ":l_number_of_enemies", 0),
+		(try_for_range, ":faction", npc_kingdoms_begin, npc_kingdoms_end),
+		(faction_slot_eq, ":faction", slot_faction_state, sfs_active),
+		(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", ":faction", "fac_player_supporters_faction"),
+		(eq, reg0, -2),
+		(val_add, ":l_number_of_enemies", 1),
+		(try_end),
+	(neq, ":l_number_of_enemies", 0),
+   ],
    "I want you to initiate peace negotiations with a foreign power.", "peace_negotiations_initial",
    []],
    
@@ -3735,7 +3746,76 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    (finish_mission),
    (jump_to_menu, "mnu_peace_negotiations_initial"),
    ]],
+
+   [anyone|plyr, "minister_talk",
+   [],
+   "I would like to create an alliance with faction.", "create_alliance_initial",
+   []],
    
+   [anyone, "create_alliance_initial",
+   [
+	(assign, ":l_number_of_allies", 0),
+		(try_for_range, ":faction", npc_kingdoms_begin, npc_kingdoms_end),
+		(faction_slot_eq, ":faction", slot_faction_state, sfs_active),
+		(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", ":faction", "fac_player_supporters_faction"),
+		(eq, reg0, 0),
+		(store_relation, ":relation", ":faction", "fac_player_supporters_faction"),
+		(ge, ":relation", 30),
+		(val_add, ":l_number_of_allies", 1),
+		(try_end),
+	(eq, ":l_number_of_allies", 0),
+   ],
+   "We don't have factions with relations good enough to create an alliance (must be at least 30).", "minister_pretalk",
+   []],
+   
+   [anyone, "create_alliance_initial",
+   [],
+   "With what faction?", "create_alliance_choose_faction",
+   []],
+   
+   [anyone|plyr|repeat_for_factions, "create_alliance_choose_faction",
+   [
+	(store_repeat_object, ":faction"),
+	(is_between, ":faction", npc_kingdoms_begin, npc_kingdoms_end),
+	(faction_slot_eq, ":faction", slot_faction_state, sfs_active),
+	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", ":faction", "fac_player_supporters_faction"),
+	(eq, reg0, 0),
+	(store_relation, ":relation", ":faction", "fac_player_supporters_faction"),
+	(ge, ":relation", 30),
+	(str_store_faction_name, s31, ":faction"),
+	],
+   "{s31}.", "create_alliance_proceed",
+   [
+   (store_repeat_object, "$create_alliance_chosen_faction"),
+   ]],
+   
+   [anyone|plyr, "create_alliance_choose_faction",
+   [],
+   "Never mind.", "minister_pretalk",
+   []],
+   
+   [anyone, "create_alliance_proceed",
+   [
+   ],
+   "I will send for their ambassador to discuss possibility of creating an alliance between our countries.", "create_alliance_proceed_final_answer",
+   []],
+   
+   [anyone|plyr, "create_alliance_proceed_final_answer",
+   [],
+   "Alright, do it.", "close_window",
+   [
+   (finish_mission),
+	(jump_to_menu, "mnu_create_alliance"),
+	(str_store_faction_name, s31, "$create_alliance_chosen_faction"),
+	(str_store_faction_name, s32, "fac_player_supporters_faction"),
+   ]],
+   
+   [anyone|plyr, "create_alliance_proceed_final_answer",
+   [],
+   "I changed my mind.", "minister_pretalk",
+   []],
+
+
    [anyone|plyr, "minister_talk",
    [],
    "That is all for now.", "close_window",

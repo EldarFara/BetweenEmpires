@@ -1212,6 +1212,7 @@ prussia_unification_progress
 italy_unification_progress
 improve_relations_chosen_faction
 peace_negotiations_enemy_faction
+create_alliance_chosen_faction
 pws_n_precipitation
 pws_n_clouds
 g_game_speed
@@ -1518,3 +1519,4 @@ current_wind
 current_clouds
 current_precipitation
 async_simple_trigger25
+async_simple_trigger26

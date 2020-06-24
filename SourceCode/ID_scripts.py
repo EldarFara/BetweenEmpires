@@ -716,5 +716,9 @@ script_cf_peace_negotiations_if_faction_is_enemy = 714
 script_peace_negotiations_detect_allies_and_enemies = 715
 script_peace_negotiations_calculate_victory_points = 716
 script_peace_negotiations_enemy_rethink = 717
+script_create_alliance_between_factions = 718
+script_cf_if_faction_decides_to_support_ally_against_enemy = 719
+script_break_alliance_between_factions = 720
+script_cf_if_faction_is_in_alliance_with_faction = 721
 
 

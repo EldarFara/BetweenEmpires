@@ -227,3 +227,5 @@ menu_italian_unification = 225
 menu_provocation_created = 226
 menu_provocation_created = 227
 menu_peace_negotiations_initial = 228
+menu_create_alliance = 229
+menu_alliance_support_ally_in_war = 230

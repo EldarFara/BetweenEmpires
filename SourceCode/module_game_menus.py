@@ -7377,8 +7377,6 @@ game_menus = [
       ("village_center",[(neg|party_slot_eq, "$current_town", slot_village_state, svs_looted),
                          (neg|party_slot_eq, "$current_town", slot_village_state, svs_being_raided),
                          (neg|party_slot_ge, "$current_town", slot_village_infested_by_bandits, 1),
-		# parabellum cut
-      #  (eq, 0 ,1), # parabellum todo reenable this
 						 ]
        ,"Go to the village center.",
        [
@@ -14838,6 +14836,52 @@ game_menus = [
        [
 		(jump_to_menu, "mnu_town"),
 		(start_presentation, "prsnt_peace_negotiations"),
+        ]),
+	]),
+
+  ("create_alliance",0,
+    "{s31} will become an ally of {s32} for {reg10} pounds.",
+    "none",
+    [
+   (store_random_in_range, ":price", 300, 400),
+   (val_mul, ":price", 10),
+   (assign, reg10, ":price"),
+	],
+    [
+	("continue", [
+	(store_troop_gold, ":gold", "trp_player"),
+	(ge, ":gold", reg10),
+	],"Accept.",
+       [
+	(troop_remove_gold, "trp_player", reg10),
+	(call_script, "script_create_alliance_between_factions", "fac_player_supporters_faction", "$create_alliance_chosen_faction"),
+	(jump_to_menu, "mnu_town"),
+        ]),
+	("decline", [],"Decline.",
+       [
+		(jump_to_menu, "mnu_town"),
+        ]),
+	]),
+
+  ("alliance_support_ally_in_war",0,
+    "Diplomats sent by {s33} arrived at your location, asking to support {s31} in their war against {s32}.",
+    "none",
+    [],
+    [
+	("continue", [],"Support allies and declare war on {s32}.",
+       [
+	   
+		(store_add, ":provocation_slot", reg11, slot_faction_provocation_days_with_factions_begin),
+		(val_sub, ":provocation_slot", kingdoms_begin),
+		(faction_set_slot, "fac_player_supporters_faction", ":provocation_slot", 10),
+		(call_script, "script_diplomacy_start_war_between_kingdoms", "fac_player_supporters_faction", reg11, 1),
+		(change_screen_return),
+        ]),
+	("decline", [],"Decline and break alliance with {s31}.",
+       [
+	   (call_script, "script_break_alliance_between_factions", "fac_player_supporters_faction", reg10),
+	(call_script, "script_faction_change_infamy", "fac_player_supporters_faction", 15),
+		(change_screen_return),
         ]),
 	]),
 

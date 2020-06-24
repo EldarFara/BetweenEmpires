@@ -1,4 +1,4 @@
-950
+955
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -226,6 +226,7 @@ qstr_Make_Peace Make_Peace
 qstr_Opposite_side_diplom Opposite_side_diplomats^cannot_agree_with_terms
 qstr_Current_winner:_{s1} Current_winner:_{s1}
 qstr_Cannot_claim_{s31}__ Cannot_claim_{s31}_-_it_doesn't_have_supply_routes_to_your_faction.
+qstr_Diplomats_from_{s32} Diplomats_from_{s32}_refuse_to_give_{s31}_to_the_{s33}.
 qstr_vSeason vSeason
 qstr_{!}DEBUG_:_Completed {!}DEBUG_:_Completed_faction_troop_assignments,_cheat_mode:_{reg3}
 qstr_{!}DEBUG_:_Completed_ {!}DEBUG_:_Completed_political_events,_cheat_mode:_{reg3}
@@ -260,6 +261,8 @@ qstr_{s2}Its_prosperity_i {s2}Its_prosperity_is:_{s50}.^{s20}
 qstr_noone noone
 qstr_{s9}_and_{s10} {s9}_and_{s10}
 qstr_{!}{s9}_{s10} {!}{s9},_{s10}
+qstr_{s21}^*_The_{s5}_is_ {s21}^*_The_{s5}_is_in_alliance_with_{s14}.
+qstr_{s21}^*_The_{s5}_has {s21}^*_The_{s5}_has_warm_diplomatic_relationship_with_{s14}.
 qstr_{!}DEBUG_:_{s21}.^CH {!}DEBUG_:_{s21}.^CHEAT_MODE_ASSESSMENT:_{s14}^
 qstr_{s5}_has_been_defeat {s5}_has_been_defeated.
 qstr_{!}DEBUG____Assigned {!}DEBUG_--_Assigned_lord_reputation_and_relations
@@ -559,8 +562,10 @@ qstr_{s1} {s1}
 qstr_{s31}_created_a_casu {s31}_created_a_casus_belli_for_{s32}_for_{reg10}_days.
 qstr_{s31}_s_infamy_is_in {s31}'s_infamy_is_increased_by_{reg10}_and_is_now_{reg11}.
 qstr_{s31}_s_infamy_is_de {s31}'s_infamy_is_decreased_by_{reg10}_and_is_now_{reg11}.
-qstr_Enemy___{s31} Enemy_-_{s31}
-qstr_Ally___{s31} Ally_-_{s31}
+qstr_Enemy___{reg10} Enemy_-_{reg10}
+qstr_Ally___{reg10} Ally_-_{reg10}
+qstr_{s31}_becomes_an_all {s31}_becomes_an_ally_of_{s32}.
+qstr_{s31}_breaks_an_alli {s31}_breaks_an_alliance_with_{s32}.
 qstr_day day
 qstr_cloud1 cloud1
 qstr_cloud2 cloud2
