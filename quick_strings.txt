@@ -1,4 +1,4 @@
-955
+960
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -225,6 +225,8 @@ qstr_Stop_Negotiations Stop_Negotiations
 qstr_Make_Peace Make_Peace
 qstr_Opposite_side_diplom Opposite_side_diplomats^cannot_agree_with_terms
 qstr_Current_winner:_{s1} Current_winner:_{s1}
+qstr_War_reparations_amou War_reparations_amount:_{reg11}_pounds
+qstr_Infamy_penalty:_{reg Infamy_penalty:_{reg12}
 qstr_Cannot_claim_{s31}__ Cannot_claim_{s31}_-_it_doesn't_have_supply_routes_to_your_faction.
 qstr_Diplomats_from_{s32} Diplomats_from_{s32}_refuse_to_give_{s31}_to_the_{s33}.
 qstr_vSeason vSeason
@@ -378,6 +380,7 @@ qstr_Your_relation_with_{s Your_relation_with_{s1}_has_deteriorated.
 qstr_You_gain_honour. You_gain_honour.
 qstr_You_lose_honour. You_lose_honour.
 qstr_{s1}_has_declared_wa {s1}_has_declared_war_against_{s2}.
+qstr_{s1}_has_declared_war {s1}_has_declared_war_against_{s2}_in_support_of_{s31}.
 qstr_{!}DEbug___{s5}_cara {!}DEbug_-_{s5}_caravan_attacked
 qstr_{s1}_and_{s2}_have_m {s1}_and_{s2}_have_made_peace_with_each_other.
 qstr_{!}DEBUG____Player_s {!}DEBUG_--_Player's_kingdom_has_had_{reg3}_days_of_peace
@@ -562,8 +565,8 @@ qstr_{s1} {s1}
 qstr_{s31}_created_a_casu {s31}_created_a_casus_belli_for_{s32}_for_{reg10}_days.
 qstr_{s31}_s_infamy_is_in {s31}'s_infamy_is_increased_by_{reg10}_and_is_now_{reg11}.
 qstr_{s31}_s_infamy_is_de {s31}'s_infamy_is_decreased_by_{reg10}_and_is_now_{reg11}.
-qstr_Enemy___{reg10} Enemy_-_{reg10}
-qstr_Ally___{reg10} Ally_-_{reg10}
+qstr_victory_points_used_ victory_points_used_{reg20}
+qstr_victory_points_{reg2 victory_points_{reg20}
 qstr_{s31}_becomes_an_all {s31}_becomes_an_ally_of_{s32}.
 qstr_{s31}_breaks_an_alli {s31}_breaks_an_alliance_with_{s32}.
 qstr_day day
@@ -599,6 +602,7 @@ qstr_{!}sending_prisoner_ {!}sending_prisoner_cart_6_feet_underground!
 qstr_{!}spawn_prison_cart {!}spawn_prison_cart_5_secs_initiated!
 qstr_{!}spawn_prison_cart! {!}spawn_prison_cart!
 qstr_{!}g_multiplayer_cco {!}g_multiplayer_ccoop_spawn_alive_player_squad:_{reg0}
+qstr_^{s31}_s_Infamy:_{re ^{s31}'s_Infamy:_{reg10}
 qstr_{!}{s4}:_M{reg3}_2M{ {!}{s4}:_M{reg3},_2M{reg4},_PC{reg5},_2PC{reg6},_PM{reg7}
 qstr_You_were_born_the_{r You_were_born_the_{reg3?daughter:son}_of_a_minor_noble,_who's_influence_was_decreasing_with_the_new_times._You_had_everything_you_needed:_good_education,_happy_childhood._You_visited_noble_feasts_and_celebrations_with_your_father,_so_you_were_welcome_after_his_death,_as_also_you_managed_to_save_family_funds.
 qstr_You_were_born_the_{re You_were_born_the_{reg3?daughter:son}_of_a_small_businessman,_always_dealing_with_different_sorts_of_customers_and_partners._Your_parents_were_wealth_enough_to_send_you_to_a_private_school._You_father_wasn't_able_to_deal_with_the_new_times,_which_changed_trading_technoligies,_so_after_his_death_you_had_only_a_small_part_of_his_business.
@@ -807,6 +811,7 @@ qstr_Not_available_in_thi Not_available_in_this_town.
 qstr_You_have_bought_a_ho You_have_bought_a_howizer.
 qstr_Breaking_camp... Breaking_camp...
 qstr_{!}{s3}_commander_of {!}{s3}_commander_of_party_#{reg4}_which_is_not_his_troop_leaded_party_{reg5}
+qstr_The_{s31}_gets_1_inf The_{s31}_gets_1_infamy_because_of_prolonged_war_with_{s32}.
 qstr_{!}DEBUG___{s4}_is_i {!}DEBUG_-_{s4}_is_in_{s5},_should_be_in_{s6},_disabling_political_cheat_mode
 qstr_Party_has_nothing_to Party_has_nothing_to_eat!
 qstr_{reg1}_{s1}_{reg2?ha {reg1}_{s1}_{reg2?have:has}_escaped_from_your_party_during_the_night.

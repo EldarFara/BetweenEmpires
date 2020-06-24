@@ -497,6 +497,8 @@ slot_faction_casus_belli_target				 = slot_faction_ve_mod_slots_begin + 51
 slot_faction_casus_belli_progress				 = slot_faction_ve_mod_slots_begin + 52
 slot_faction_improve_relations_target			 = slot_faction_ve_mod_slots_begin + 53
 slot_faction_improve_relations_progress			 = slot_faction_ve_mod_slots_begin + 54
+slot_faction_days_of_war_with_faction_before_pressure_begin= slot_faction_ve_mod_slots_begin + 55
+# 56 - 96 are occupied
 
 #revolts -- notes for self
 #type 1 -- minor revolt, aimed at negotiating change without changing the ruler

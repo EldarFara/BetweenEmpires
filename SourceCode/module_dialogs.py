@@ -3634,7 +3634,7 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    
    [anyone|plyr, "minister_talk",
    [],
-   "I would like to improve relations with faction.", "improve_relations_initial",
+   "I want you to leverage our governments ties to improve relations with a foreign power.", "improve_relations_initial",
    []],
    
    [anyone, "improve_relations_initial",
@@ -3643,12 +3643,12 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    (faction_get_slot, ":faction_improve_relations_target", "fac_player_supporters_faction", slot_faction_improve_relations_target),
    (str_store_faction_name, s31, ":faction_improve_relations_target"),
    ],
-   "Already improving relations with {s31}.", "minister_pretalk",
+   "Sorry to say, we are already in the midst of the political circus, we are still attempting to improve relations with {s31}. I am afraid you will have to wait for our ambassadors to return.", "minister_pretalk",
    []],
    
    [anyone, "improve_relations_initial",
    [],
-   "With what faction?", "improve_relations_choose_faction",
+   "Most certainly. With the right gifts and events, I am sure we can convince some King, Queens, Lords and Ladies to look upon us a bit more favourably. Which court should I contact?", "improve_relations_choose_faction",
    []],
    
    [anyone|plyr|repeat_for_factions, "improve_relations_choose_faction",
@@ -3677,7 +3677,7 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    (val_mul, ":price", 10),
    (assign, reg10, ":price"),
    ],
-   "I can improve relations with chosen country for {reg10} pounds.", "improve_relations_proceed_price_named",
+   "I figure we'll be able to improve our relations with them over the next few days if you can give us a budget of {reg10} pounds.", "improve_relations_proceed_price_named",
    []],
    
    [anyone|plyr, "improve_relations_proceed_price_named",
@@ -3685,7 +3685,7 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
 	(store_troop_gold, ":gold", "trp_player"),
 	(ge, ":gold", reg10),
    ],
-   "Alright, do it.", "improve_relations_proceed_completed",
+   "Go ahead, you have my blessings.", "improve_relations_proceed_completed",
    [
 	(troop_remove_gold, "trp_player", reg10),
 	(faction_set_slot, "fac_player_supporters_faction", slot_faction_improve_relations_target, "$improve_relations_chosen_faction"),
@@ -3694,12 +3694,12 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    
    [anyone, "improve_relations_proceed_completed",
    [],
-   "Improving relations with this country will take some time.", "minister_pretalk",
+   "I will get right to it. Give it a few days, and  I am sure relations are bound to come up roses.", "minister_pretalk",
    []],
    
    [anyone|plyr, "improve_relations_proceed_price_named",
    [],
-   "I changed my mind.", "minister_pretalk",
+   "What a waste, we don't need their support.", "minister_pretalk",
    []],
    
    [anyone|plyr, "minister_talk",
@@ -3749,7 +3749,7 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
 
    [anyone|plyr, "minister_talk",
    [],
-   "I would like to create an alliance with faction.", "create_alliance_initial",
+   "Let's strengthen our position in the world and send out an invitation for an alliance.", "create_alliance_initial",
    []],
    
    [anyone, "create_alliance_initial",
@@ -3765,12 +3765,12 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
 		(try_end),
 	(eq, ":l_number_of_allies", 0),
    ],
-   "We don't have factions with relations good enough to create an alliance (must be at least 30).", "minister_pretalk",
+   "I am afraid no one is willing to even consider an alliance with us, they simply don't favour us over others. We will have to improve relations before we can even think about an alliance (Minimum 30+ relations required).", "minister_pretalk",
    []],
    
    [anyone, "create_alliance_initial",
    [],
-   "With what faction?", "create_alliance_choose_faction",
+   "A stellar idea, your highness. We've got friends in politics, let's make them allies. For what ambassador shall I send?", "create_alliance_choose_faction",
    []],
    
    [anyone|plyr|repeat_for_factions, "create_alliance_choose_faction",
@@ -3797,7 +3797,7 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    [anyone, "create_alliance_proceed",
    [
    ],
-   "I will send for their ambassador to discuss possibility of creating an alliance between our countries.", "create_alliance_proceed_final_answer",
+   "Right away! I will let them contact their embassy immediately and let you know what they have to offer.", "create_alliance_proceed_final_answer",
    []],
    
    [anyone|plyr, "create_alliance_proceed_final_answer",

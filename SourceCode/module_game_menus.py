@@ -532,7 +532,7 @@ game_menus = [
   ),
 
   ("reports",0,
-   "Character Renown: {reg5}^Honor Rating: {reg6}^Party Morale: {reg8}^Party Size Limit: {reg7}^",
+   "Character Renown: {reg5}{s31}^Honor Rating: {reg6}^Party Morale: {reg8}^Party Size Limit: {reg7}^",
    "none",
    [(call_script, "script_game_get_party_companion_limit"),
     (assign, ":party_size_limit", reg0),
@@ -543,6 +543,13 @@ game_menus = [
     #(call_script, "script_get_player_party_morale_values"),
     #(party_set_morale, "p_main_party", reg0),
     (party_get_morale, reg8, "p_main_party"),
+	(str_clear, s31),
+		(try_begin),
+		(faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_active),
+		(str_store_faction_name, s32, "fac_player_supporters_faction"),
+		(faction_get_slot, reg10, "fac_player_supporters_faction", slot_faction_infamy),
+		(str_store_string, s31, "@^{s31}'s Infamy: {reg10}"),
+		(try_end),
    ],
     [
      ("show_weather_report",[],"View weather report.",
@@ -14875,6 +14882,9 @@ game_menus = [
 		(val_sub, ":provocation_slot", kingdoms_begin),
 		(faction_set_slot, "fac_player_supporters_faction", ":provocation_slot", 10),
 		(call_script, "script_diplomacy_start_war_between_kingdoms", "fac_player_supporters_faction", reg11, 1),
+		(store_add, ":provocation_slot", reg11, slot_faction_days_of_war_with_faction_before_pressure_begin),
+		(val_sub, ":provocation_slot", kingdoms_begin),
+		(faction_set_slot, "fac_player_supporters_faction", ":provocation_slot", 500),
 		(change_screen_return),
         ]),
 	("decline", [],"Decline and break alliance with {s31}.",
@@ -14897,6 +14907,34 @@ game_menus = [
         ]),
 	]),
 
+  ("high_infamy_notification",0,
+    "High Infamy^^The world is weary with your nations aggression, and general unreliability. Foreign offices around Europe and Asia have denounced your actions, and distanced themselves from our diplomats. If we don't defuse the situation immediately, declarations of hostility, or even war, might soon flood into our capital.",
+    "none",
+    [
+	],
+    [
+	("continue", [],"Close",
+       [
+		(change_screen_return),
+        ]),
+	]),
+
+  ("create_alliance2",0,
+    "Diplomats sent by {s31} arrived at your location, proposing creating an alliance with {s32}.",
+    "none",
+    [
+	],
+    [
+	("continue", [],"Accept.",
+       [
+	(call_script, "script_create_alliance_between_factions", "fac_player_supporters_faction", reg10),
+		(change_screen_return),
+        ]),
+	("decline", [],"Decline.",
+       [
+		(change_screen_return),
+        ]),
+	]),
 
   
  ]

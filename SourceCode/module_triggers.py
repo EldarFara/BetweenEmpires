@@ -1580,6 +1580,32 @@ triggers = [
 (music_set_situation, mtf_situation_global_map),
 ]),
 
+(6, 48, 0, # Long war penalty
+[
+(assign, ":continue", 0),
+	(try_for_range, ":faction", npc_kingdoms_begin, npc_kingdoms_end),
+	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", "fac_player_supporters_faction", ":faction"),
+	(eq, reg0, -2),
+	(store_add, ":slot_provocation_days", ":faction", slot_faction_days_of_war_with_faction_before_pressure_begin),
+	(val_sub, ":slot_provocation_days", kingdoms_begin),
+	(faction_get_slot, ":provocation_days", "fac_player_supporters_faction", ":slot_provocation_days"),
+	(eq, ":provocation_days", 1),
+	(call_script, "script_faction_change_infamy", "fac_player_supporters_faction", 3),
+	(str_store_faction_name, s31, ":faction"),
+	(jump_to_menu, "mnu_long_war_notification"),
+	(assign, ":continue", 1),
+	(try_end),
+(eq, ":continue", 0),
+],[]),
+
+(1, 0, 24*7, # High infamy notification
+[
+(faction_get_slot, ":infamy", "fac_player_supporters_faction", slot_faction_infamy),
+(ge, ":infamy", 35),
+],[
+(jump_to_menu, "mnu_high_infamy_notification"),
+]),
+
 
 
  

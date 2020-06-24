@@ -683,7 +683,7 @@ simple_triggers = [
     ]),
 
 #diplomatic indices
-  (0.7,
+  (0.65,
    [
    #(call_script, "script_randomly_start_war_peace_new", 1),
    # (try_begin),
@@ -757,9 +757,6 @@ simple_triggers = [
 					(eq, ":provocation_days", 1),
 					#(call_script, "script_add_notification_menu", "mnu_notification_casus_belli_expired", ":faction_1", ":faction_2"),
 					(faction_set_slot, ":faction_1", ":slot_provocation_days", 0),
-				(else_try),
-					(val_sub, ":provocation_days", 1), 
-					(faction_set_slot, ":faction_1", ":slot_provocation_days", ":provocation_days"),
 				(try_end),
 			(else_try),
 			(lt, ":provocation_days", -1),
@@ -775,6 +772,22 @@ simple_triggers = [
 				(faction_get_slot, ":war_damage", ":faction_1", ":slot_war_damage"),
 				(val_add, ":war_damage", 1),
 				(faction_set_slot, ":faction_1", ":slot_war_damage", ":war_damage"),
+				
+				(store_add, ":slot_days_of_war_with_faction_before_pressure", ":faction_2", slot_faction_days_of_war_with_faction_before_pressure_begin),
+				(val_sub, ":slot_days_of_war_with_faction_before_pressure", kingdoms_begin),
+				(faction_get_slot, ":days", ":faction_1", ":slot_days_of_war_with_faction_before_pressure"),
+					(try_begin),
+					(gt, ":days", 1),
+					(val_add, ":days", -1),
+					(faction_set_slot, ":faction_1", ":slot_days_of_war_with_faction_before_pressure", ":days"),
+					(try_end),
+					(try_begin),
+					(eq, ":days", 1),
+					(call_script, "script_faction_change_infamy", ":faction_1", 1),
+					(str_store_faction_name_link, s31, ":faction_1"),
+					(str_store_faction_name_link, s31, ":faction_2"),
+					(display_message, "@The {s31} gets 1 infamy because of prolonged war with {s32}."),
+					(try_end),
 			(try_end),	
 			
 		(try_end),
@@ -4230,6 +4243,8 @@ simple_triggers = [
 	(try_end),
 (call_script, "script_async_randomly_start_war_peace_new", 1),
 (call_script, "script_create_random_provocation"),
+(call_script, "script_create_random_relation_increasing"),
+(call_script, "script_create_random_alliance"),
 ]),
 
 (1,
@@ -4427,7 +4442,7 @@ simple_triggers = [
 
 ]),
 
-(24, # Decreasing infamy over time
+(48, # Decreasing infamy over time
 [
 	(try_for_range, ":faction_no", kingdoms_begin, kingdoms_end),
 	(faction_get_slot, ":infamy", ":faction_no", slot_faction_infamy),
@@ -4436,7 +4451,7 @@ simple_triggers = [
 	(try_end),
 ]),
 
-(0.1, # Faction relation improvement going
+(0.8, # Faction relation improvement going
 [
 	(val_clamp, "$async_simple_trigger25", kingdoms_begin, kingdoms_end),
 	(val_add, "$async_simple_trigger25", 1),
@@ -4449,15 +4464,23 @@ simple_triggers = [
 	(faction_get_slot, ":faction_improve_relations_target", ":faction", slot_faction_improve_relations_target),
 	(faction_get_slot, ":faction_improve_relations_progress", ":faction", slot_faction_improve_relations_progress),
 	(is_between, ":faction_improve_relations_target", kingdoms_begin, kingdoms_end),
+	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", ":faction", ":faction_improve_relations_target"),
+	(eq, reg0, 0),
 	(store_relation, ":relation", ":faction", ":faction_improve_relations_target"),
 	(val_add, ":relation", 2),
 	(val_add, ":faction_improve_relations_progress", 10),
 		(try_begin),
 		(eq, ":faction", "fac_player_supporters_faction"),
-		(lt, ":relation", 48),
+		(le, ":relation", 50),
 		(call_script, "script_change_player_relation_with_faction_ex", ":faction_improve_relations_target", 2),
 		(else_try),
-		(set_relation, ":relation", ":faction", ":faction_improve_relations_target"),
+		(eq, ":faction_improve_relations_target", "fac_player_supporters_faction"),
+		(le, ":relation", 50),
+		(call_script, "script_change_player_relation_with_faction_ex", ":faction", 2),
+		(else_try),
+		(le, ":relation", 50),
+		(set_relation, ":faction", ":faction_improve_relations_target", ":relation"),
+		(set_relation, ":faction_improve_relations_target", ":faction", ":relation"),
 		(try_end),
 	(faction_set_slot, ":faction", slot_faction_improve_relations_progress, ":faction_improve_relations_progress"),
 		(try_begin),
@@ -4493,6 +4516,7 @@ simple_triggers = [
 			(eq, reg0, -2),
 			(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", ":faction1", ":faction3"),
 			(neq, reg0, -2),
+			(neq, reg0, 1),
 				(try_begin),
 				(eq, ":faction1", "fac_player_supporters_faction"),
 				(faction_get_slot, ":faction_leader", ":faction2", slot_faction_leader),
@@ -4508,7 +4532,13 @@ simple_triggers = [
 					(store_add, ":provocation_slot", ":faction3", slot_faction_provocation_days_with_factions_begin),
 					(val_sub, ":provocation_slot", kingdoms_begin),
 					(faction_set_slot, ":faction1", ":provocation_slot", 10),
+					(assign, "$war_supports_allies", 1),
+					(str_store_faction_name, s31, ":faction2"),
 					(call_script, "script_diplomacy_start_war_between_kingdoms", ":faction1", ":faction3", 1),
+					(assign, "$war_supports_allies", 0),
+					(store_add, ":provocation_slot", ":faction3", slot_faction_days_of_war_with_faction_before_pressure_begin),
+					(val_sub, ":provocation_slot", kingdoms_begin),
+					(faction_set_slot, ":faction1", ":provocation_slot", 500),
 					(else_try),
 					(call_script, "script_break_alliance_between_factions", ":faction1", ":faction2"),
 					(call_script, "script_faction_change_infamy", ":faction1", 12),
@@ -4516,21 +4546,6 @@ simple_triggers = [
 				(try_end),
 			(try_end),
 		(try_end),
-	(try_end),
-]),
-
-(12, # Long war penalty
-[
-	(try_for_range, ":faction", npc_kingdoms_begin, npc_kingdoms_end),
-	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", "fac_player_supporters_faction", ":faction"),
-	(eq, reg0, -2),
-	(store_add, ":slot_provocation_days", ":faction", slot_faction_provocation_days_with_factions_begin),
-	(val_sub, ":slot_provocation_days", kingdoms_begin),
-	(faction_get_slot, ":provocation_days", "fac_player_supporters_faction", ":slot_provocation_days"),
-(faction_get_slot, reg0, ":faction", ":slot_provocation_days"),
-(display_message, "@{reg0}"),
-	(eq, ":provocation_days", -1),
-	(call_script, "script_faction_change_infamy", "fac_player_supporters_faction", 3),
 	(try_end),
 ]),
 
