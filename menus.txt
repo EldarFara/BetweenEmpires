@@ -1,5 +1,5 @@
 menusfile version 1
- 231
+ 232
 menu_start_game_0 18374686479671624192 Welcome_to_the_Between_Empires_mod. none 0 2
  mno_continue  0  Continue...  1 2060 1 864691128455135450  .  mno_go_back  0  Go_back  1 2055 0  . 
 menu_start_phase_2 512 Select_a_city_which_you_want_to_start_your_journey_at. none 0 7
@@ -461,4 +461,6 @@ menu_peace_negotiations_initial 0 Peace_negotiations_begin. none 0 1
 menu_create_alliance 0 {s31}_will_become_an_ally_of_{s32}_for_{reg10}_pounds. none 3 2136 3 1224979098644774912 300 400 2107 2 1224979098644774912 10 2133 2 72057594037927946 1224979098644774912 2
  mno_continue  2 2149 2 1224979098644774912 360287970189639680 30 2 1224979098644774912 72057594037927946  Accept.  3 1529 2 360287970189639680 72057594037927946 1 3 936748722493063886 432345564227567658 144115188075857086 2060 1 864691128455135340  .  mno_decline  0  Decline.  1 2060 1 864691128455135340  . 
 menu_alliance_support_ally_in_war 0 Diplomats_sent_by_{s33}_arrived_at_your_location,_asking_to_support_{s31}_in_their_war_against_{s32}. none 0 2
- mno_continue  0  Support_allies_and_declare_war_on_{s32}.  5 2120 3 1224979098644774912 72057594037927947 160 2106 2 1224979098644774912 432345564227567658 502 3 432345564227567658 1224979098644774912 10 1 4 936748722493063450 432345564227567658 72057594037927947 1 2040 0  .  mno_decline  0  Decline_and_break_alliance_with_{s31}.  1 2040 0  . 
+ mno_continue  0  Support_allies_and_declare_war_on_{s32}.  5 2120 3 1224979098644774912 72057594037927947 160 2106 2 1224979098644774912 432345564227567658 502 3 432345564227567658 1224979098644774912 10 1 4 936748722493063450 432345564227567658 72057594037927947 1 2040 0  .  mno_decline  0  Decline_and_break_alliance_with_{s31}.  3 1 3 936748722493063888 432345564227567658 72057594037927946 1 3 936748722493063876 432345564227567658 15 2040 0  . 
+menu_long_war_notification 0 Foreign_Pressure^^Our_international_allies_and_adversaries_are_growing_anxious_at_seeing_us_engage_in_prolonged_combat_with_{s31}._Following_multiple_incidents_in_which_foreign_diplomats_and_nationals_had_their_supposed_rights_violated,_and_troops_had_been_quartered_in_an_ambassadors_estate_for_more_than_two_weeks,_pressure_has_been_growing_on_our_foreign_office._Calls_for_a_ceasefire,_or_even_peace,_to_allow_Laissez-faire_trade_to_open_up_again_have_been_growing_louder,_and_more_emphasised._If_we_drag_this_war_on_for_too_long,_certain_nations_hostile_to_our_cause_might_see_it_as_a_justification_to_take_up_arms_against_us_and_aid_our_enemies_in_the_ongoing_war. none 0 1
+ mno_continue  0  Close  1 2040 0  . 

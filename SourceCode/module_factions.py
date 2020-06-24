@@ -71,39 +71,39 @@ factions = [
 
   ("player_faction","Player Faction",0, 0.9, [], []),
   ("player_supporters_faction","Player's Supporters",0, 0.9, [("player_faction",1.00),("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 0xFF4433), #changed name so that can tell difference if shows up on map
-  ("kingdom_1",  "French_Empire", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("kingdom_7",0.1),("kingdom_10",0.1),("kingdom_11",0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0.05)], [], 23805),
-  ("kingdom_2",  "Russian_Empire",    0, 0.9, [("outlaws",-0.05),("kingdom_13",0.4),("kingdom_27",0.1),("kingdom_7",0.1),("kingdom_11",0.1),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 29440),
-  ("kingdom_3",  "Austrian_Empire", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("kingdom_7",0.1),("kingdom_10",0.1),("kingdom_11",0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 15724020),#0xFFAAAAAA #30303
-  ("kingdom_4",  "Kingdom_of_Sardinia",    0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_7",0.1),("kingdom_10",0.1),("kingdom_11",0.1),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 39198),
-  ("kingdom_5",  "Kingdom_of_Prussia",  0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_7",0.1),("kingdom_10",0.1),("kingdom_11",0.1),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 5065283),
-  ("kingdom_6",  "Ottoman_Empire",  0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("kingdom_7",0.1),("kingdom_11",0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", -0.05)], [], 8781824),
-("kingdom_7",  "British_Empire", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("kingdom_14",0.1),("kingdom_13",0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 13636204),#0xFF6AAA89 #0x931124
-("kingdom_8",  "Kingdom_of_Netherlands", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_7",0.1),("kingdom_10",0.1),("kingdom_11",0.1),("mountain_bandits", -0.05),("forest_bandits", -0.45)], [], 15961892),
-("kingdom_9",  "Spanish_Empire", 0, 0.9, [("outlaws",-0.05),("kingdom_16",0.2),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_7",0.1),("kingdom_10",0.1),("kingdom_11",0.1),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 6959360),
-("kingdom_10",  "Emirate_of_Tunisia", 0, 0.9, [("outlaws",-0.05),("kingdom_1",0.1),("kingdom_5",0.1),("kingdom_13",0.1),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", -0.05)], [], 13611157),
-("kingdom_11",  "Kingdom_of_Two_Sicilies", 0, 0.9, [("outlaws",-0.05),("kingdom_1",0.1),("kingdom_3",0.1),("kingdom_4",0.1),("kingdom_5",0.1),("kingdom_8",0.1),("kingdom_9",0.1),("kingdom_14",0.1),("kingdom_12",0.1),("kingdom_13",0.1),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05)], [], 8852121),
-("kingdom_12",  "Shahdom_of_Persia", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_7",0.1),("kingdom_10",0.1),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 3640261),
-("kingdom_13",  "Switzerland", 0, 0.9, [("outlaws",-0.05),("kingdom_22",0.2),("kingdom_2",0.4),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_11",0.1),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 12058624),
-("kingdom_14",  "Khedivate_of_Egypt", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_7",0.1),("kingdom_10",0.1),("kingdom_11",0.1),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 13796892),
-("kingdom_15",  "Sultanate_of_Morocco", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_7",0.1),("kingdom_10",0.1),("kingdom_11",0.1),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 12058787),#15
-("kingdom_16",  "Kingdom_of_Portugal", 0, 0.9, [("outlaws",-0.05),("kingdom_9",0.2),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_10",0.1),("kingdom_11",0.1),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 0x0000CD),
-("kingdom_17",  "Sultanate_of_Oman", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_7",0.1),("kingdom_10",0.1),("kingdom_11",0.1),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 7264768),
-("kingdom_18",  "Kingdom_of_Denmark", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_7",0.1),("kingdom_10",0.1),("kingdom_11",0.1),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 15682423),
-("kingdom_19",  "Papal_States", 0, 0.9, [("outlaws",-0.05),("kingdom_7",0.2),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_7",0.1),("kingdom_10",0.1),("mountain_bandits", -0.05),("kingdom_14",0.1),("forest_bandits", 0)], [], 16233991),
-("kingdom_20",  "British_Colonies", 0, 0.9, [("outlaws",-0.05),("kingdom_7",0.8),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_7",0.1),("kingdom_10",0.1),("kingdom_11",0.1),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 13636204),
-("kingdom_21",  "Emirate_of_Afghanistan", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_7",0.1),("kingdom_10",0.1),("kingdom_11",0.1),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 3352843),
-("kingdom_22",  "Emirate_of_Bukhara", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_7",0.1),("kingdom_10",0.1),("kingdom_11",0.1),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 15178273),
-("kingdom_23",  "Khanate_of_Khiva", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_7",0.1),("kingdom_10",0.1),("kingdom_11",0.1),("mountain_bandits", -0.05),("kingdom_14",0.2),("forest_bandits", 0)], [], 8886135),
-("kingdom_24",  "Kingdom_of_Greece", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_7",0.1),("kingdom_10",0.1),("kingdom_11",0.1),("mountain_bandits", -0.05),("kingdom_1",0.2),("forest_bandits", 0)], [], 308981),
-("kingdom_25",  "Romanian Principalities", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_7",0.1),("kingdom_10",0.1),("kingdom_11",0.1),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 8342049),
-("kingdom_26",  "Kingdom_of_Belgium", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_7",0.1),("kingdom_10",0.1),("kingdom_11",0.1),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 13465578),
-("kingdom_27",  "Kingdom_of_Wurttemberg", 0, 0.9, [("outlaws",-0.05),("kingdom_2",0.1),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_7",0.1),("kingdom_10",0.1),("kingdom_11",0.1),("mountain_bandits", -0.05),("kingdom_3",0.2),("forest_bandits", 0)], [], 14522962),
-("kingdom_28",  "Principality of Serbia", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_7",0.1),("kingdom_10",0.1),("kingdom_11",0.1),("mountain_bandits", -0.05),("kingdom_4",0.2),("forest_bandits", 0)], [], 23805),##0xFFAAAAAA
-("kingdom_29",  "Kingdom_of_Sweden", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_11",0.1),("kingdom_4",0.2),("forest_bandits", 0)], [], 6658814),##0xFFAAAAAA
-("kingdom_30",  "Kingdom_of_Bavaria", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_11",0.1),("forest_bandits", 0)], [], 308981),##0xFFAAAAAA
-("kingdom_31",  "Kingdom_of_Hannover", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_11",0.1),("forest_bandits", 0)], [], 8505753),##0xFFAAAAAA
-("kingdom_32",  "Emirate_of_Shammar", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_11",0.1),("forest_bandits", 0)], [], 8342049),##0xFFAAAAAA
-("kingdom_33",  "Emirate_of_Najd", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("kingdom_11",0.1),("forest_bandits", 0)], [], 1863680),##0xFFAAAAAA
+  ("kingdom_1",  "French_Empire", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0.05)], [], 23805),
+  ("kingdom_2",  "Russian_Empire",    0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 29440),
+  ("kingdom_3",  "Austrian_Empire", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 15724020),#0xFFAAAAAA #30303
+  ("kingdom_4",  "Kingdom_of_Sardinia",    0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 39198),
+  ("kingdom_5",  "Kingdom_of_Prussia",  0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 5065283),
+  ("kingdom_6",  "Ottoman_Empire",  0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", -0.05)], [], 8781824),
+("kingdom_7",  "British_Empire", 0, 0.9, [("outlaws",-0.05),("kingdom_20",0.8),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 13636204),#0xFF6AAA89 #0x931124
+("kingdom_8",  "Kingdom_of_Netherlands", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", -0.45)], [], 15961892),
+("kingdom_9",  "Spanish_Empire", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 6959360),
+("kingdom_10",  "Emirate_of_Tunisia", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", -0.05)], [], 13611157),
+("kingdom_11",  "Kingdom_of_Two_Sicilies", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05)], [], 8852121),
+("kingdom_12",  "Shahdom_of_Persia", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 3640261),
+("kingdom_13",  "Switzerland", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 12058624),
+("kingdom_14",  "Khedivate_of_Egypt", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 13796892),
+("kingdom_15",  "Sultanate_of_Morocco", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 12058787),#15
+("kingdom_16",  "Kingdom_of_Portugal", 0, 0.9, [("outlaws",-0.05),("kingdom_9",0.2),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 0x0000CD),
+("kingdom_17",  "Sultanate_of_Oman", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 7264768),
+("kingdom_18",  "Kingdom_of_Denmark", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 15682423),
+("kingdom_19",  "Papal_States", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 16233991),
+("kingdom_20",  "British_Colonies", 0, 0.9, [("outlaws",-0.05),("kingdom_7",0.8),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 13636204),
+("kingdom_21",  "Emirate_of_Afghanistan", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 3352843),
+("kingdom_22",  "Emirate_of_Bukhara", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 15178273),
+("kingdom_23",  "Khanate_of_Khiva", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 8886135),
+("kingdom_24",  "Kingdom_of_Greece", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 308981),
+("kingdom_25",  "Romanian Principalities", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 8342049),
+("kingdom_26",  "Kingdom_of_Belgium", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 13465578),
+("kingdom_27",  "Kingdom_of_Wurttemberg", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 14522962),
+("kingdom_28",  "Principality of Serbia", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 23805),##0xFFAAAAAA
+("kingdom_29",  "Kingdom_of_Sweden", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("forest_bandits", 0)], [], 6658814),##0xFFAAAAAA
+("kingdom_30",  "Kingdom_of_Bavaria", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("forest_bandits", 0)], [], 308981),##0xFFAAAAAA
+("kingdom_31",  "Kingdom_of_Hannover", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("forest_bandits", 0)], [], 8505753),##0xFFAAAAAA
+("kingdom_32",  "Emirate_of_Shammar", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("forest_bandits", 0)], [], 8342049),##0xFFAAAAAA
+("kingdom_33",  "Emirate_of_Najd", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("forest_bandits", 0)], [], 1863680),##0xFFAAAAAA
 
   ("kingdoms_end","{!}kingdoms_end", 0, 0,[], []),
 

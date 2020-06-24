@@ -4436,7 +4436,7 @@ simple_triggers = [
 	(try_end),
 ]),
 
-(0.01, # Faction relation improvement going
+(0.1, # Faction relation improvement going
 [
 	(val_clamp, "$async_simple_trigger25", kingdoms_begin, kingdoms_end),
 	(val_add, "$async_simple_trigger25", 1),
@@ -4471,7 +4471,7 @@ simple_triggers = [
 	(try_end),
 ]),
 
-(0.01, # Faction supporting allies
+(0.1, # Faction supporting allies
 [
 	(val_clamp, "$async_simple_trigger26", kingdoms_begin, kingdoms_end),
 	(val_add, "$async_simple_trigger26", 1),
@@ -4516,6 +4516,21 @@ simple_triggers = [
 				(try_end),
 			(try_end),
 		(try_end),
+	(try_end),
+]),
+
+(12, # Long war penalty
+[
+	(try_for_range, ":faction", npc_kingdoms_begin, npc_kingdoms_end),
+	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", "fac_player_supporters_faction", ":faction"),
+	(eq, reg0, -2),
+	(store_add, ":slot_provocation_days", ":faction", slot_faction_provocation_days_with_factions_begin),
+	(val_sub, ":slot_provocation_days", kingdoms_begin),
+	(faction_get_slot, ":provocation_days", "fac_player_supporters_faction", ":slot_provocation_days"),
+(faction_get_slot, reg0, ":faction", ":slot_provocation_days"),
+(display_message, "@{reg0}"),
+	(eq, ":provocation_days", -1),
+	(call_script, "script_faction_change_infamy", "fac_player_supporters_faction", 3),
 	(try_end),
 ]),
 

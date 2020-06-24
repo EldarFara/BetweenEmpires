@@ -14802,7 +14802,7 @@ game_menus = [
         ]),
 	]),
 
-  ("provocation_created",0,
+  ("provocation_created1",0,
     "Tensions between {s31} and {s32}!^^Public disagreements over the borders created during the Vienna Congress have led to open hostility, with loyalist militias belonging to both states clashing in the entire border region. {s31} has decried the violence, stating their intentions to defend their ethnic enclaves in the nation should it be necessary, while {s32} has declared the fighters as hostile, sovereign actors in an attempt to ease international pressure.^Telegrams and messengers on horseback have been arriving in the capitals of the Western powers since the early morning hours, trying to secure their support for what might well be the prelude to another bloody conflict.",
     "none",
     [
@@ -14814,8 +14814,8 @@ game_menus = [
         ]),
 	]),
 
-  ("provocation_created",0,
-    "Tensions between {s31} and {s32}!^^Public disagreements over the borders created during the Vienna Congress have led to open hostility, with loyalist militias belonging to both states clashing in the entire border region. {s31} has decried the violence, stating their intentions to defend their ethnic enclaves in the nation should it be necessary, while {s32} has declared the fighters as hostile, sovereign actors in an attempt to ease international pressure.^Telegrams and messengers on horseback have been arriving in the capitals of the Western powers since the early morning hours, trying to secure their support for what might well be the prelude to another bloody conflict.",
+  ("provocation_created2",0,
+    "Aboltionist incident!^^News reached the {s31}'s capital in the evening hours that one of its most prolific traders, and in more colonial regions more so known as one of the richest slave traders in the world had been captured, and subsequently executed by staunch abolitionists who had sworn loyalty to the {s32}. {s32} has refused to hand over the perpetrators, probably more so due to the fact that the trader had been a thorn in the side of their traders for many years. Local militia companies have been promising revenge should the abolitionists not be surrendered, and the situation is quickly escalating. Only aimed de-escalation can avert conflict now.",
     "none",
     [
 	],
@@ -14881,6 +14881,18 @@ game_menus = [
        [
 	   (call_script, "script_break_alliance_between_factions", "fac_player_supporters_faction", reg10),
 	(call_script, "script_faction_change_infamy", "fac_player_supporters_faction", 15),
+		(change_screen_return),
+        ]),
+	]),
+
+  ("long_war_notification",0,
+    "Foreign Pressure^^Our international allies and adversaries are growing anxious at seeing us engage in prolonged combat with {s31}. Following multiple incidents in which foreign diplomats and nationals had their supposed rights violated, and troops had been quartered in an ambassadors estate for more than two weeks, pressure has been growing on our foreign office. Calls for a ceasefire, or even peace, to allow Laissez-faire trade to open up again have been growing louder, and more emphasised. If we drag this war on for too long, certain nations hostile to our cause might see it as a justification to take up arms against us and aid our enemies in the ongoing war.",
+    "none",
+    [
+	],
+    [
+	("continue", [],"Close",
+       [
 		(change_screen_return),
         ]),
 	]),
