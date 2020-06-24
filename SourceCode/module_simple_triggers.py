@@ -569,17 +569,21 @@ simple_triggers = [
 	(try_end),
 		(try_begin),
      (assign, ":center_no", "$async_simple_trigger6"),
+     (party_is_active, ":center_no"),
+	 
        (neg|party_slot_eq, ":center_no", slot_town_lord, "trp_player"), #center does not belong to player.
        (party_slot_ge, ":center_no", slot_town_lord, 1), #center belongs to someone.       
        (party_slot_eq, ":center_no", slot_center_is_besieged_by, -1), #center not under siege
 		 
        (store_faction_of_party, ":center_faction", ":center_no"),
+       (assign, ":num_hiring_rounds", 0),
        (try_begin),
          (this_or_next|eq, ":center_faction", "fac_player_supporters_faction"),
          (eq, ":center_faction", "$players_kingdom"),        
          (assign, ":reinforcement_cost", reinforcement_cost_moderate),
+       (assign, ":num_hiring_rounds", 1),
        (else_try),
-         (game_get_reduce_campaign_ai, ":reduce_campaign_ai"),
+         (options_get_campaign_ai, ":reduce_campaign_ai"),
          (assign, ":reinforcement_cost", reinforcement_cost_moderate),
          (try_begin), 
            (eq, ":reduce_campaign_ai", 0), #hard (1x or 2x reinforcing)
@@ -597,7 +601,7 @@ simple_triggers = [
          (try_end),           
        (try_end),
        
-       (try_for_range, ":unused", 0, ":num_hiring_rounds"), 		 
+       (try_for_range, ":unused", 0, ":num_hiring_rounds"), 	
          (party_get_slot, ":cur_wealth", ":center_no", slot_town_wealth),
          (assign, ":hiring_budget", ":cur_wealth"),
          (val_div, ":hiring_budget", 2),

@@ -23437,14 +23437,6 @@ scripts = [
       (store_faction_of_party, ":party_faction", ":party_no"),
       (party_get_slot, ":party_type",":party_no", slot_party_type),
 
-#Rebellion changes begin: 
-      # (try_begin),
-        # (eq, ":party_type", spt_kingdom_hero_party),
-        # (party_stack_get_troop_id, ":leader", ":party_no"),
-        # (troop_get_slot, ":party_faction",  ":leader", slot_troop_original_faction),
-      # (try_end),
-#Rebellion changes end
-
       (try_begin),
         (eq, ":party_faction", "fac_player_supporters_faction"),
         (party_get_slot, ":town_lord", ":party_no", slot_town_lord),

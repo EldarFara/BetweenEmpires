@@ -1,4 +1,4 @@
-951
+950
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -376,7 +376,6 @@ qstr_You_gain_honour. You_gain_honour.
 qstr_You_lose_honour. You_lose_honour.
 qstr_{s1}_has_declared_wa {s1}_has_declared_war_against_{s2}.
 qstr_{!}DEbug___{s5}_cara {!}DEbug_-_{s5}_caravan_attacked
-qstr_init_ai_calculation init_ai_calculation
 qstr_{s1}_and_{s2}_have_m {s1}_and_{s2}_have_made_peace_with_each_other.
 qstr_{!}DEBUG____Player_s {!}DEBUG_--_Player's_kingdom_has_had_{reg3}_days_of_peace
 qstr_{s2}_{reg3?was:is_cu {s2}_{reg3?was:is_currently}_at_{s3}.
