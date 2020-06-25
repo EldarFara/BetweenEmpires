@@ -24502,22 +24502,21 @@ scripts = [
       ]),
 
 
-  # script_process_alarms
+  # script_async_process_alarms
   # Input: none
   # Output: none
   #called from triggers
-  ("process_alarms",
+  ("async_process_alarms",
     [	
-      (assign, ":current_modula", "$g_alarm_modula"),
-      (val_add, "$g_alarm_modula", 1),
-      (try_begin),
-        (eq, "$g_alarm_modula", 3),
-        (assign, "$g_alarm_modula", 0),
-      (try_end),
-      
-      (try_for_range, ":center_no", centers_begin, centers_end),
-        (store_mod, ":center_modula", ":center_no", 3),
-        (eq, ":center_modula", ":current_modula"),
+
+(val_clamp, "$async_process_alarms_1", centers_begin, centers_end),
+(val_add, "$async_process_alarms_1", 1),
+	(try_begin),	
+	(ge, "$async_process_alarms_1", centers_end),
+	(assign, "$async_process_alarms_1", centers_begin),
+	(try_end),
+		(try_begin),
+      (assign, ":center_no", "$async_process_alarms_1"),
         
         (party_set_slot, ":center_no", slot_center_last_spotted_enemy, -1),
         (party_set_slot, ":center_no", slot_center_sortie_strength, 0),
@@ -24595,9 +24594,14 @@ scripts = [
         (try_end),
       (try_end),
       
-      (try_for_range, ":center_no", centers_begin, centers_end),
-        (store_mod, ":center_modula", ":center_no", 3),
-        (eq, ":center_modula", ":current_modula"),
+(val_clamp, "$async_process_alarms_2", centers_begin, centers_end),
+(val_add, "$async_process_alarms_2", 1),
+	(try_begin),	
+	(ge, "$async_process_alarms_2", centers_end),
+	(assign, "$async_process_alarms_2", centers_begin),
+	(try_end),
+		(try_begin),
+      (assign, ":center_no", "$async_process_alarms_2"),
         
         (try_begin), #eligible units sortie out of castle
           (is_between, ":center_no", walled_centers_begin, walled_centers_end),
@@ -24715,13 +24719,20 @@ scripts = [
       (try_end),
      ]),
 
-  # script_allow_vassals_to_join_indoor_battle
+  # script_async_allow_vassals_to_join_indoor_battle
   # Input: none
   # Output: none 
-  ("allow_vassals_to_join_indoor_battle",
+  ("async_allow_vassals_to_join_indoor_battle",
     [
      #if our commander attacks an enemy army
-     (try_for_range, ":troop_no", active_npcs_begin, active_npcs_end),
+(val_clamp, "$async_allow_vassals_to_join_indoor_battle", active_npcs_begin, active_npcs_end),
+(val_add, "$async_allow_vassals_to_join_indoor_battle", 1),
+	(try_begin),	
+	(ge, "$async_allow_vassals_to_join_indoor_battle", active_npcs_end),
+	(assign, "$async_allow_vassals_to_join_indoor_battle", active_npcs_begin),
+	(try_end),
+		(try_begin),
+     (assign, ":troop_no", "$async_allow_vassals_to_join_indoor_battle"),
        (troop_slot_eq, ":troop_no", slot_troop_occupation, slto_kingdom_hero),
        (neg|troop_slot_ge, ":troop_no", slot_troop_prisoner_of_party, 0),
        (troop_get_slot, ":party_no", ":troop_no", slot_troop_leaded_party),
@@ -25218,14 +25229,21 @@ scripts = [
     (try_end),	
     ]),
 
-  # script_process_kingdom_parties_ai
+  # script_async_process_kingdom_parties_ai
   # This is called more frequently than decide_kingdom_parties_ai
   # Input: none
   # Output: none
   #called from triggers
-  ("process_kingdom_parties_ai",
+  ("async_process_kingdom_parties_ai",
     [
-       (try_for_range, ":troop_no", active_npcs_begin, active_npcs_end),
+(val_clamp, "$async_process_kingdom_parties_ai", active_npcs_begin, active_npcs_end),
+(val_add, "$async_process_kingdom_parties_ai", 1),
+	(try_begin),	
+	(ge, "$async_process_kingdom_parties_ai", active_npcs_end),
+	(assign, "$async_process_kingdom_parties_ai", active_npcs_begin),
+	(try_end),
+		(try_begin),
+       (assign, ":troop_no", "$async_process_kingdom_parties_ai"),
          (troop_slot_eq, ":troop_no", slot_troop_occupation, slto_kingdom_hero),
          (neg|troop_slot_ge, ":troop_no", slot_troop_prisoner_of_party, 0),
          (troop_get_slot, ":party_no", ":troop_no", slot_troop_leaded_party),
@@ -58992,12 +59010,42 @@ scripts = [
 (store_add, ":power", ":number_of_armies", ":number_of_castles"),
 (val_add, ":power", ":number_of_towns"),
 (assign, reg0, ":power"),
-    ]),  
+    ]),
 
-("temp_bugfix1",
-[
+ 	(
+	"async_calculate_castle_prosperities_by_using_its_villages",
+	[	  	
+(val_clamp, "$async_calculate_castle_prosperities_by_using_its_villages", castles_begin, castles_end),
+(val_add, "$async_calculate_castle_prosperities_by_using_its_villages", 1),
+	(try_begin),	
+	(ge, "$async_calculate_castle_prosperities_by_using_its_villages", castles_end),
+	(assign, "$async_calculate_castle_prosperities_by_using_its_villages", castles_begin),
+	(try_end),
+		(try_begin),
+	  (assign, ":cur_castle", "$async_calculate_castle_prosperities_by_using_its_villages"),	  
+	    (assign, ":total_prosperity", 0),
+	    (assign, ":total_villages", 0),
+	    
+	    (try_for_range, ":cur_village", villages_begin, villages_end),	  
+	      (party_get_slot, ":bound_center", ":cur_village", slot_village_bound_center),
+	      (eq, ":cur_castle", ":bound_center"),
+	      
+	      (party_get_slot, ":village_prosperity", ":cur_village", slot_town_prosperity),
+	      
+	      (val_add, ":total_prosperity", ":village_prosperity"),
+	      (val_add, ":total_villages", 1),
+	    (try_end),
+	    
+	    (try_begin),
+	      (store_div, ":castle_prosperity", ":total_prosperity", ":total_villages"),
+	    (else_try),  
+	      (assign, ":castle_prosperity", 50),
+	    (try_end),
+	    
+	    (party_set_slot, ":cur_castle", slot_town_prosperity, ":castle_prosperity"),
+	  (try_end),
+	]),
 
-]),  
 
 ]# modmerger_start version=201 type=2
 try:

@@ -42,7 +42,8 @@ game_menus = [
     [],
     [
      ("continue",[],"Continue...",
-       [(jump_to_menu, "mnu_start_game_speed_selection"),
+       [
+	   (jump_to_menu, "mnu_start_game_speed_selection"),
         ]
        ),
       ("go_back",[],"Go back",

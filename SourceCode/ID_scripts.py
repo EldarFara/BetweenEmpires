@@ -254,12 +254,12 @@ script_village_set_state = 252
 script_process_village_raids = 253
 script_process_sieges = 254
 script_lift_siege = 255
-script_process_alarms = 256
-script_allow_vassals_to_join_indoor_battle = 257
+script_async_process_alarms = 256
+script_async_allow_vassals_to_join_indoor_battle = 257
 script_party_set_ai_state = 258
 script_cf_party_under_player_suggestion = 259
 script_troop_does_business_in_center = 260
-script_process_kingdom_parties_ai = 261
+script_async_process_kingdom_parties_ai = 261
 script_process_hero_ai = 262
 script_begin_assault_on_center = 263
 script_select_faction_marshall = 264
@@ -724,6 +724,6 @@ script_cf_if_faction_decides_to_support_ally_against_enemy = 722
 script_break_alliance_between_factions = 723
 script_cf_if_faction_is_in_alliance_with_faction = 724
 script_faction_calculate_power = 725
-script_temp_bugfix1 = 726
+script_async_calculate_castle_prosperities_by_using_its_villages = 726
 
 

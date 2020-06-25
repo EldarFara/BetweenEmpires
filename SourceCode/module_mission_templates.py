@@ -7443,7 +7443,7 @@ mission_templates = [
         ]),
       
       (3, 0, 0, [
-          (call_script, "script_apply_effect_of_other_people_on_courage_scores"),
+        #  (call_script, "script_apply_effect_of_other_people_on_courage_scores"),
               ], []), #calculating and applying effect of people on others courage scores
 
       (3, 0, 0, [
