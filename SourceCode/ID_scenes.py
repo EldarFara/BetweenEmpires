@@ -2053,3 +2053,4 @@ scn_village_arab = 2051
 scn_village_indian = 2052
 scn_village_turkish = 2053
 scn_village_middleeast = 2054
+scn_town_arab_walls = 2055

@@ -4338,6 +4338,8 @@ scenes = [
 [],[],"outer_terrain_plain"),
 ("village_middleeast",sf_generate,"none", "none", (0,0),(100,100),-100,"0x0000000230079732000651a00000044c0000177200000234",
 [],[],"outer_terrain_plain"),
+("town_arab_walls",sf_generate,"none", "none", (0,0),(100,100),-100,"0x0000000130014acf000d212c00002ff900007e9800001edc",
+[],[],"outer_terrain_desert"),
 
 ]
 

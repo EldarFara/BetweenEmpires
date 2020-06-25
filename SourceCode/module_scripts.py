@@ -1672,6 +1672,7 @@ scripts = [
         (party_set_slot,"p_town_7", slot_town_center, "scn_town_london_center"),
         (party_set_slot,"p_town_10", slot_town_center, "scn_town_london_center"),
         (party_set_slot,"p_town_18", slot_town_center, "scn_town_london_center"),
+        (party_set_slot,"p_town_36", slot_town_walls, "scn_town_arab_walls"),
 	  	  
 # Castles
       (try_for_range, ":castle_no", castles_begin, castles_end),
@@ -56247,12 +56248,10 @@ scripts = [
 (faction_set_slot, "fac_kingdom_25", slot_faction_technology_riflesrifled, 10000),
 (faction_set_slot, "fac_kingdom_26", slot_faction_technology_riflesrifled, 10000),
 (faction_set_slot, "fac_kingdom_27", slot_faction_technology_riflesrifled, 10000),
-(faction_set_slot, "fac_kingdom_27", slot_faction_technology_riflesconverted, 10000),
 (faction_set_slot, "fac_kingdom_28", slot_faction_technology_riflesrifled, 10000),
 (faction_set_slot, "fac_kingdom_29", slot_faction_technology_riflesrifled, 10000),
 (faction_set_slot, "fac_kingdom_30", slot_faction_technology_riflesrifled, 10000),
 (faction_set_slot, "fac_kingdom_31", slot_faction_technology_riflesrifled, 10000),
-(faction_set_slot, "fac_kingdom_31", slot_faction_technology_riflesconverted, 10000),
 (faction_set_slot, "fac_kingdom_32", slot_faction_technology_riflesrifled, 10000),
 
 
