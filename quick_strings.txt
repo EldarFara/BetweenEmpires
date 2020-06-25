@@ -1,4 +1,4 @@
-968
+948
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -815,26 +815,6 @@ qstr_You_have_no_enough_m You_have_no_enough_money.
 qstr_Not_available_in_thi Not_available_in_this_town.
 qstr_You_have_bought_a_ho You_have_bought_a_howizer.
 qstr_Breaking_camp... Breaking_camp...
-qstr_{!}{s3}_commander_of {!}{s3}_commander_of_party_#{reg4}_which_is_not_his_troop_leaded_party_{reg5}
-qstr_The_{s31}_gets_1_inf The_{s31}_gets_1_infamy_because_of_the_prolonged_war_with_{s32}.
-qstr_{!}DEBUG___{s4}_is_i {!}DEBUG_-_{s4}_is_in_{s5},_should_be_in_{s6},_disabling_political_cheat_mode
-qstr_Party_has_nothing_to Party_has_nothing_to_eat!
-qstr_{reg1}_{s1}_{reg2?ha {reg1}_{s1}_{reg2?have:has}_escaped_from_your_party_during_the_night.
-qstr_{s1}_of_{s3}_has_bee {s1}_of_{s3}_has_been_released_from_captivity.
-qstr_Building_of_{s0}_in_ Building_of_{s0}_in_{s4}_has_been_completed.
-qstr_{!}{s1}_is_infested_ {!}{s1}_is_infested_by_bandits_(at_night).
-qstr_{s1}_is_no_longer_in {s1}_is_no_longer_infested_by_bandits_(at_night).
-qstr_You_pay_for_accommod You_pay_for_accommodation.
-qstr_Betrothal_to_{s5}_ex Betrothal_to_{s5}_expires
-qstr__Your_tactics_skill_ _Your_tactics_skill_has_increased_by_1.
-qstr__Your_persuasion_ski _Your_persuasion_skill_has_increased_by_1.
-qstr__Your_leadership_ski _Your_leadership_skill_has_increased_by_1.
-qstr__Your_intelligence_h _Your_intelligence_has_increased_by_1.
-qstr__Your_trade_skill_ha _Your_trade_skill_has_increased_by_1.
-qstr__Your_weapon_master_ _Your_weapon_master_skill_has_increased_by_1.
-qstr__Your_engineer_skill _Your_engineer_skill_has_increased_by_1.
-qstr_You_have_finished_re You_have_finished_reading_{s1}.{s2}
-qstr_Book_Read Book_Read
 qstr_{s1}_is_scouted. {s1}_is_scouted.
 qstr_{!}DEBUG___{s4}_faction_chan {!}DEBUG_-_{s4}_faction_changed_from_slot_troop_change_to_faction
 qstr_{s1}_has_switched_fr {s1}_has_switched_from_{s2}_to_{s3}.
