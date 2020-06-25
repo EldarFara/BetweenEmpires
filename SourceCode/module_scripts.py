@@ -58515,7 +58515,7 @@ scripts = [
 	(assign, reg10, ":days"),
 	(display_message, "@{s31} created a casus belli for {s32} for {reg10} days."),
 		(try_begin),
-		(assign, ":infamy_penalty", 8),
+		(assign, ":infamy_penalty", 10),
 		(val_sub, ":infamy_penalty", ":infamy"),
 		(try_end),
 	(call_script, "script_faction_change_infamy", ":faction1", ":infamy_penalty"),
