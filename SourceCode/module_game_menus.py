@@ -1,10 +1,10 @@
+# -*- coding: utf-8 -*-
 from header_game_menus import *
 from header_parties import *
 from header_items import *
 from header_mission_templates import *
 from header_music import *
 from header_terrain_types import *
-
 from module_constants import *
 
 ####################################################################################################################
@@ -548,7 +548,7 @@ game_menus = [
 		(faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_active),
 		(str_store_faction_name, s32, "fac_player_supporters_faction"),
 		(faction_get_slot, reg10, "fac_player_supporters_faction", slot_faction_infamy),
-		(str_store_string, s31, "@^{s31}'s Infamy: {reg10}"),
+		(str_store_string, s31, "@^{s32}'s Infamy: {reg10}"),
 		(try_end),
    ],
     [
@@ -1181,81 +1181,71 @@ game_menus = [
 ##        ]),
       ("student1",[],"A university student (medicine).",[
         (assign,"$background_answer_3",cb3_student_med),
-      (str_store_string,s12,"@Though the distinction felt sudden to you,\
- somewhere along the way you had become a {reg3?woman:man}, and the whole world seemed to change around you.\
- You found yourself as a student in one of the most prestigious medicine university in the world.\
- where you studied theology, philosophy, and medicine.\
- But not all your lessons were learned in the lecture halls.\
- You may or may not have joined in with your fellows as they roamed the alleys in search of wine, women, and a good fight.\
- However, you certainly were able to observe how a broken jaw is set,\
- or how an angry townsman can be persuaded to set down his club and accept cash compensation for the destruction of his shop."),
+(str_store_string,s12,"@You were drawn to the human body, and how it functioned. \
+Perhaps a family member got sick, and you vowed to help others through the same. \
+Perhaps you liked giving people hope and treating them. Maybe you just liked cutting \
+things apart. Either way, in college, you went into the fields of medicine."),
 	(jump_to_menu,"mnu_start_character_4"),
         ]),
       ("student2",[],"A university student (engineering).",[
         (assign,"$background_answer_3",cb3_student_eng),
-      (str_store_string,s12,"@Though the distinction felt sudden to you,\
- somewhere along the way you had become a {reg3?woman:man}, and the whole world seemed to change around you.\
- You found yourself as a student in one of the most prestigious engineering university in the world.\
- where you studied theology, philosophy, and medicine.\
- But not all your lessons were learned in the lecture halls.\
- You may or may not have joined in with your fellows as they roamed the alleys in search of wine, women, and a good fight.\
- However, you certainly were able to observe how a broken jaw is set,\
- or how an angry townsman can be persuaded to set down his club and accept cash compensation for the destruction of his shop."),
+(str_store_string,s12,"@Perhaps you live somewhere where grand architecture spirals up into \
+the sky, or where imposing walls surrounded you. Or a small village, with beautiful and ancient\
+churches, was where your interest in buildings came. It doesn’t matter, because you loved buildings,\
+and learned to raise them up in university. Perhaps now, you shall use that to tear them down. "),
 	(jump_to_menu,"mnu_start_character_4"),
         ]),
       ("student3",[],"A university student (philology).",[
         (assign,"$background_answer_3",cb3_student_phi),
-      (str_store_string,s12,"@Though the distinction felt sudden to you,\
- somewhere along the way you had become a {reg3?woman:man}, and the whole world seemed to change around you.\
- You found yourself as a student in one of the most prestigious philology university in the world.\
- But not all your lessons were learned in the lecture halls.\
- You may or may not have joined in with your fellows as they roamed the alleys in search of wine, women, and a good fight.\
- However, you certainly were able to observe how a broken jaw is set,\
- or how an angry townsman can be persuaded to set down his club and accept cash compensation for the destruction of his shop."),
+(str_store_string,s12,"@Philology, the study of languages and how they compare, is extremely important \
+to the diplomacy of Europe, where besides Latin, language like English, Russian, French, and so forth must\
+be mastered. Studying this in university gave you a keen tongue and learned how to speak and communicate with\
+the high lords and common folk across the many realms of Europe."),
 	(jump_to_menu,"mnu_start_character_4"),
         ]),
       ("troubadour",[],"A touring musician.",[
         (assign,"$background_answer_3",cb3_troubadour),
       (str_store_string,s14,"@{reg3?daughter:man}"),
       (str_store_string,s13,"@{reg3?woman:man}"),
-      (str_store_string,s12,"@Though the distinction felt sudden to you,\
- somewhere along the way you had become a {s13}, and the whole world seemed to change around you.\
- You set out on your own with nothing except the instrument slung over your back and your own voice.\
- It was a poor existence, with many a hungry night when people failed to appreciate your play,\
- but you managed to survive on your music alone. As the years went by you became adept at playing the\
- drunken crowds in your taverns, and even better at talking anyone out of anything you wanted."),
+(str_store_string,s12,"@You decided to lead a bohemian life, travelling from place to place playing music.\
+ This has put you in touch with the common people, and most of your interactions with higher society consisted\
+ of a tip of the hat when they tossed a coin into your cup. But still, you have learned how to advertise yourself,\
+ how to speak to a crowd, and how to entertain. All very useful skills, indeed."),
 	(jump_to_menu,"mnu_start_character_4"),
         ]),
       ("craftsman",[],"An entrepreneur.",[
         (assign,"$background_answer_3", cb3_entrepreneur),
       (str_store_string,s14,"@{reg3?daughter:man}"),
       (str_store_string,s13,"@{reg3?woman:man}"),
-      (str_store_string,s12,"@ "),
+      (str_store_string,s12,"@You’re a businessperson, someone who has capital and funds enough to make more\
+	  capital. Perhaps you rose from the working class, or perhaps you started with a small loan from your family.\
+	  Either way, you’re well-off and can definitely get a foot in wherever you go now."),
 	(jump_to_menu,"mnu_start_character_4"),
         ]),
       ("poacher",[],"An outlaw.",[
         (assign,"$background_answer_3", cb3_outlaw),
       (str_store_string,s14,"@{reg3?daughter:man}"),
       (str_store_string,s13,"@{reg3?woman:man}"),
-      (str_store_string,s12,"@Though the distinction felt sudden to you,\
- somewhere along the way you had become a {s13}, and the whole world seemed to change around you.\
- Dissatisfied with common men's desperate scrabble for coin, you took to your local lord's own forests\
- and decided to help yourself to its bounty, laws be damned. You hunted stags, boars and geese and sold\
- the precious meat under the table. You cut down trees right under the watchmen's noses and turned them into\
- firewood that warmed many freezing homes during winter. All for a few silvers, of course."),
+      (str_store_string,s12,"@You fell into criminal life, and never really got out. The police know who you are \
+	  in some places, and in others they leer as if they should know you. No matter, of course, since between arrests\
+	  and brief jail times, you’ve learned how to survive outside the law."),
 	(jump_to_menu,"mnu_start_character_4"),
         ]),
       ("peddler",[],"The North America settler.",[
         (assign,"$background_answer_3",cb3_americasettler),
       (str_store_string,s14,"@{reg3?daughter:man}"),
       (str_store_string,s13,"@{reg3?woman:man}"),
-      (str_store_string,s12,"@ "),
+      (str_store_string,s12,"@You went to the Americas to seek a new life, perhaps to escape persecution\
+	  in Europe, perhaps to make a new life free from debts. Whatever your reasons, you took the journey\
+	  across to the Atlantic. And now, for whatever reason, you have returned to Europe."),
 	(jump_to_menu,"mnu_start_character_4"),
         ]),
       ("squire",[(eq,"$character_gender",tf_male)],"A Crimean War veteran.",[
         (assign,"$background_answer_3",cb3_warvet),
       (str_store_string,s14,"@{reg3?daughter:man}"),
-      (str_store_string,s12,"@ "),
+      (str_store_string,s12,"@You fought in the Crimea, either with or against Russia, and your\
+	  experiences in that war were invaluable and horrific. You saw men die, you saw foolish cavalry\
+	  charges, you saw the awesome power of cannons. As you returned home, weary and war-shocked, you knew you would never be the same."),
 	  
 	  
 	(jump_to_menu,"mnu_start_character_4"),
@@ -14850,8 +14840,7 @@ game_menus = [
     "{s31} will become an ally of {s32} for {reg10} pounds.",
     "none",
     [
-   (store_random_in_range, ":price", 300, 400),
-   (val_mul, ":price", 10),
+   (faction_get_slot, ":price", "$create_alliance_chosen_faction", slot_faction_alliance_price),
    (assign, reg10, ":price"),
 	],
     [

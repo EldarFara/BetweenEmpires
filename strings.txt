@@ -1914,7 +1914,7 @@ str_s21__the_s5_has_recently_suffered_provocation_by_subjects_of_the_s14_and_the
 str_s21__the_s5_has_no_outstanding_issues_with_the_s14 {s21}^*_The_{s5}_has_stable_diplomatic_relationship_with_the_{s14}.
 str_s21_the_s14_was_recently_provoked_by_subjects_of_the_s5_and_there_is_a_risk_of_war_ {s21}_The_{s14}_was_recently_provoked_by_subjects_of_the_{s5},_and_there_is_a_risk_of_war.^
 str_s21_cheat_mode_assessment_s14_ {!}{s21}^CHEAT_MODE_ASSESSMENT:_{s14}^
-str_the_s5_is_ruled_by_s6_it_occupies_s8_its_vassals_are_s10__s21 The_{s5}_is_ruled_by_{s6}.^It_occupies_{s8}.^Its_army_commanders_are_{s10}.^^{s21}
+str_the_s5_is_ruled_by_s6_it_occupies_s8_its_vassals_are_s10__s21 The_{s5}_is_ruled_by_{s6}.^Infamy_is_{reg12}.^It_occupies_{s8}.^Its_army_commanders_are_{s10}.^^{s21}
 str_assigned_lord_reputation_and_relations_cheat_mode_reg3 {!}Assigned_lord_reputation_and_relations,_cheat_mode:_{reg3}
 str_caravan_trades_in_s5_originally_from_s4_ {!}Caravan_trades_in_{s5},_originally_from_{s4}_
 str_your_hero_prisoned_at_s1 {!}your_hero_prisoned_at_{s1}.

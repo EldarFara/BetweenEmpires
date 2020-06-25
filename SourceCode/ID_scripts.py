@@ -723,5 +723,6 @@ script_create_alliance_between_factions = 721
 script_cf_if_faction_decides_to_support_ally_against_enemy = 722
 script_break_alliance_between_factions = 723
 script_cf_if_faction_is_in_alliance_with_faction = 724
+script_faction_calculate_power = 725
 
 

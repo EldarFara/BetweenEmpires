@@ -1,6 +1,7 @@
 from module_info import *
 from process_operations import *
 import os
+# -*- coding: utf-8 -*-
 
 print "Initializing..."
 

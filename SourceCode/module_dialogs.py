@@ -3371,6 +3371,7 @@ dialogs = [
    
    [anyone|plyr, "minister_talk",
    [
+   (eq, 1, 2), # parabellum disabled
    (is_between, "$g_player_minister", active_npcs_begin, kingdom_ladies_end),
    ],
    "I wish to dispatch an emissary.", "minister_diplomatic_kingdoms",
@@ -3637,71 +3638,6 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    "I want you to leverage our governments ties to improve relations with a foreign power.", "improve_relations_initial",
    []],
    
-   [anyone, "improve_relations_initial",
-   [
-   (neg|faction_slot_eq, "fac_player_supporters_faction", slot_faction_improve_relations_target, 0),
-   (faction_get_slot, ":faction_improve_relations_target", "fac_player_supporters_faction", slot_faction_improve_relations_target),
-   (str_store_faction_name, s31, ":faction_improve_relations_target"),
-   ],
-   "Sorry to say, we are already in the midst of the political circus, we are still attempting to improve relations with {s31}. I am afraid you will have to wait for our ambassadors to return.", "minister_pretalk",
-   []],
-   
-   [anyone, "improve_relations_initial",
-   [],
-   "Most certainly. With the right gifts and events, I am sure we can convince some King, Queens, Lords and Ladies to look upon us a bit more favourably. Which court should I contact?", "improve_relations_choose_faction",
-   []],
-   
-   [anyone|plyr|repeat_for_factions, "improve_relations_choose_faction",
-   [
-	(store_repeat_object, ":faction"),
-	(is_between, ":faction", npc_kingdoms_begin, npc_kingdoms_end),
-	(faction_slot_eq, ":faction", slot_faction_state, sfs_active),
-	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", "fac_player_supporters_faction", ":faction"),
-	(eq, reg0, 0),
-	(eq, reg60, 0),
-	(str_store_faction_name, s31, ":faction"),
-	],
-   "{s31}.", "improve_relations_proceed",
-   [
-   (store_repeat_object, "$improve_relations_chosen_faction"),
-   ]],
-   
-   [anyone|plyr, "improve_relations_choose_faction",
-   [],
-   "Never mind.", "minister_pretalk",
-   []],
-   
-   [anyone, "improve_relations_proceed",
-   [
-   (store_random_in_range, ":price", 100, 200),
-   (val_mul, ":price", 10),
-   (assign, reg10, ":price"),
-   ],
-   "I figure we'll be able to improve our relations with them over the next few days if you can give us a budget of {reg10} pounds.", "improve_relations_proceed_price_named",
-   []],
-   
-   [anyone|plyr, "improve_relations_proceed_price_named",
-   [
-	(store_troop_gold, ":gold", "trp_player"),
-	(ge, ":gold", reg10),
-   ],
-   "Go ahead, you have my blessings.", "improve_relations_proceed_completed",
-   [
-	(troop_remove_gold, "trp_player", reg10),
-	(faction_set_slot, "fac_player_supporters_faction", slot_faction_improve_relations_target, "$improve_relations_chosen_faction"),
-	(faction_set_slot, "fac_player_supporters_faction", slot_faction_improve_relations_progress, 0),
-	]],
-   
-   [anyone, "improve_relations_proceed_completed",
-   [],
-   "I will get right to it. Give it a few days, and  I am sure relations are bound to come up roses.", "minister_pretalk",
-   []],
-   
-   [anyone|plyr, "improve_relations_proceed_price_named",
-   [],
-   "What a waste, we don't need their support.", "minister_pretalk",
-   []],
-   
    [anyone|plyr, "minister_talk",
    [
 	(assign, ":l_number_of_enemies", 0),
@@ -3746,7 +3682,71 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    (finish_mission),
    (jump_to_menu, "mnu_peace_negotiations_initial"),
    ]],
-
+   
+   [anyone, "improve_relations_initial",
+   [
+   (neg|faction_slot_eq, "fac_player_supporters_faction", slot_faction_improve_relations_target, 0),
+   (faction_get_slot, ":faction_improve_relations_target", "fac_player_supporters_faction", slot_faction_improve_relations_target),
+   (str_store_faction_name, s31, ":faction_improve_relations_target"),
+   ],
+   "Sorry to say, we are already in the midst of the political circus, we are still attempting to improve relations with {s31}. I am afraid you will have to wait for our ambassadors to return.", "minister_pretalk",
+   []],
+   
+   [anyone, "improve_relations_initial",
+   [],
+   "Most certainly. With the right gifts and events, I am sure we can convince some King, Queens, Lords and Ladies to look upon us a bit more favourably. Which court should I contact?", "improve_relations_choose_faction",
+   []],
+   
+   [anyone|plyr|repeat_for_factions, "improve_relations_choose_faction",
+   [
+	(store_repeat_object, ":faction"),
+	(is_between, ":faction", npc_kingdoms_begin, npc_kingdoms_end),
+	(faction_slot_eq, ":faction", slot_faction_state, sfs_active),
+	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", "fac_player_supporters_faction", ":faction"),
+	(eq, reg0, 0),
+	(eq, reg60, 0),
+	(str_store_faction_name, s31, ":faction"),
+	],
+   "{s31}.", "improve_relations_proceed",
+   [
+   (store_repeat_object, "$improve_relations_chosen_faction"),
+   ]],
+   
+   [anyone|plyr, "improve_relations_choose_faction",
+   [],
+   "Never mind.", "minister_pretalk",
+   []],
+   
+   [anyone, "improve_relations_proceed",
+   [
+   (faction_get_slot, ":price", "$improve_relations_chosen_faction", slot_faction_increase_relations_price),
+   (assign, reg10, ":price"),
+   ],
+   "I figure we'll be able to improve our relations with them over the next few days if you can give us a budget of {reg10} pounds.", "improve_relations_proceed_price_named",
+   []],
+   
+   [anyone|plyr, "improve_relations_proceed_price_named",
+   [
+	(store_troop_gold, ":gold", "trp_player"),
+	(ge, ":gold", reg10),
+   ],
+   "Go ahead, you have my blessings.", "improve_relations_proceed_completed",
+   [
+	(troop_remove_gold, "trp_player", reg10),
+	(faction_set_slot, "fac_player_supporters_faction", slot_faction_improve_relations_target, "$improve_relations_chosen_faction"),
+	(faction_set_slot, "fac_player_supporters_faction", slot_faction_improve_relations_progress, 0),
+	]],
+   
+   [anyone, "improve_relations_proceed_completed",
+   [],
+   "I will get right to it. Give it a few days, and  I am sure relations are bound to come up roses.", "minister_pretalk",
+   []],
+   
+   [anyone|plyr, "improve_relations_proceed_price_named",
+   [],
+   "What a waste, we don't need their support.", "minister_pretalk",
+   []],
+   
    [anyone|plyr, "minister_talk",
    [],
    "Let's strengthen our position in the world and send out an invitation for an alliance.", "create_alliance_initial",
@@ -3814,7 +3814,149 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    [],
    "I changed my mind.", "minister_pretalk",
    []],
-
+   
+   [anyone|plyr, "minister_talk",
+   [],
+   "I would like to create casus belli for faction.", "create_casus_belli_initial",
+   []],
+   
+   [anyone, "create_casus_belli_initial",
+   [
+   (neg|faction_slot_eq, "fac_player_supporters_faction", slot_faction_casus_belli_target, 0),
+   (faction_get_slot, ":faction_create_casus_belli_target", "fac_player_supporters_faction", slot_faction_casus_belli_target),
+   (str_store_faction_name, s31, ":faction_create_casus_belli_target"),
+   ],
+   "Already creating casus belli for {s31}.", "minister_pretalk",
+   []],
+   
+   [anyone, "create_casus_belli_initial",
+   [],
+   "With what faction?", "create_casus_belli_choose_faction",
+   []],
+   
+   [anyone|plyr|repeat_for_factions, "create_casus_belli_choose_faction",
+   [
+	(store_repeat_object, ":faction"),
+	(is_between, ":faction", npc_kingdoms_begin, npc_kingdoms_end),
+	(faction_slot_eq, ":faction", slot_faction_state, sfs_active),
+	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", "fac_player_supporters_faction", ":faction"),
+	(eq, reg0, 0),
+	(eq, reg60, 0),
+	(str_store_faction_name, s31, ":faction"),
+	],
+   "{s31}.", "create_casus_belli_proceed",
+   [
+   (store_repeat_object, "$create_casus_belli_chosen_faction"),
+   ]],
+   
+   [anyone|plyr, "create_casus_belli_choose_faction",
+   [],
+   "Never mind.", "minister_pretalk",
+   []],
+   
+   [anyone, "create_casus_belli_proceed",
+   [
+   (faction_get_slot, ":price", "$create_casus_belli_chosen_faction", slot_faction_increase_relations_price),
+   (assign, reg10, ":price"),
+   (val_div, reg10, 5),
+   ],
+   "I can create casus belli for {reg10} pounds.", "create_casus_belli_proceed_price_named",
+   []],
+   
+   [anyone|plyr, "create_casus_belli_proceed_price_named",
+   [
+	(store_troop_gold, ":gold", "trp_player"),
+	(ge, ":gold", reg10),
+   ],
+   "Go ahead, you have my blessings.", "create_casus_belli_proceed_completed",
+   [
+	(troop_remove_gold, "trp_player", reg10),
+	(faction_set_slot, "fac_player_supporters_faction", slot_faction_casus_belli_target, "$create_casus_belli_chosen_faction"),
+	(faction_set_slot, "fac_player_supporters_faction", slot_faction_casus_belli_progress, 0),
+	]],
+   
+   [anyone, "create_casus_belli_proceed_completed",
+   [],
+   "I will get right to it. Give it a few days.", "minister_pretalk",
+   []],
+   
+   [anyone|plyr, "create_casus_belli_proceed_price_named",
+   [],
+   "I changed my mind.", "minister_pretalk",
+   []],
+   
+   [anyone|plyr, "minister_talk",
+   [],
+   "I would like to declare war against faction.", "declare_war_initial",
+   []],
+   
+   [anyone, "declare_war_initial",
+   [],
+   "Against what faction?", "declare_war_choose_faction",
+   []],
+   
+   [anyone|plyr|repeat_for_factions, "declare_war_choose_faction",
+   [
+	(store_repeat_object, ":faction"),
+	(is_between, ":faction", npc_kingdoms_begin, npc_kingdoms_end),
+	(faction_slot_eq, ":faction", slot_faction_state, sfs_active),
+	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", "fac_player_supporters_faction", ":faction"),
+	(neq, reg0, -2),
+	(str_store_faction_name, s31, ":faction"),
+	],
+   "{s31}.", "declare_war_proceed",
+   [
+   (store_repeat_object, "$declare_war_chosen_faction"),
+   ]],
+   
+   [anyone|plyr, "declare_war_choose_faction",
+   [],
+   "Never mind.", "minister_pretalk",
+   []],
+   
+   [anyone, "declare_war_proceed",
+   [
+	(str_store_faction_name, s31, "$declare_war_chosen_faction"),
+	(store_add, ":provocation_slot", "$declare_war_chosen_faction", slot_faction_provocation_days_with_factions_begin),
+	(val_sub, ":provocation_slot", kingdoms_begin),
+	(faction_get_slot, ":provocation_days", "fac_player_supporters_faction", ":provocation_slot"),
+	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", "fac_player_supporters_faction", "$declare_war_chosen_faction"),
+	   (try_begin),
+	   (gt, reg60, 0),
+	   (str_store_string, s32, "@We are allies with {s31}. Proceed?"),
+	   (else_try),
+	   (eq, reg0, 1),
+	   (str_store_string, s32, "@We have truce with {s31}. Proceed?"),
+	   (else_try),
+	   (gt, ":provocation_days", 0),
+	   (str_store_string, s32, "@We have casus belli for {s31}. Proceed?"),
+	   (else_try),
+	   (str_store_string, s32, "@We don't have casus belli for {s31}. Proceed?"),
+	   (try_end),
+   ],
+   "{s32}", "declare_war_proceed_final_answer",
+   []],
+   
+   [anyone|plyr, "declare_war_proceed_final_answer",
+   [
+   ],
+   "Go ahead.", "declare_war_proceed_final_answer_completed",
+   [
+   
+	]],
+   
+   [anyone, "declare_war_proceed_final_answer_completed",
+   [],
+   "War declared.", "minister_pretalk",
+   [
+   (assign, "$war_supports_allies", 0),
+   (call_script, "script_diplomacy_start_war_between_kingdoms", "fac_player_supporters_faction", "$declare_war_chosen_faction", 1),
+   ]],
+   
+   [anyone|plyr, "declare_war_proceed_final_answer",
+   [],
+   "I changed my mind.", "minister_pretalk",
+   []],
 
    [anyone|plyr, "minister_talk",
    [],

@@ -142,7 +142,7 @@ scn_reserved12 reserved12 1 thirsty_lion bo_thirsty_lion -100.000000 -100.000000
  0 
 scn_training_ground training_ground 256 none none 0.000000 0.000000 120.000000 120.000000 -100.000000 0x30000500400360d80000189f00002a8380006d91 
   0 
-  2  3407  3408 
+  2  3404  3405 
  outer_terrain_plain_1 
 scn_tutorial_1 tutorial_1 1 tutorial_1_scene bo_tutorial_1_scene -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -210,7 +210,7 @@ scn_zendar_center zendar_center 256 none none 0.000000 0.000000 100.000000 100.0
  outer_terrain_plain_1 
 scn_the_happy_boar the_happy_boar 1 interior_town_house_f bo_interior_town_house_f -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  51 
-  1  3406 
+  1  3403 
  0 
 scn_zendar_merchant zendar_merchant 1 interior_town_house_i bo_interior_town_house_i -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -218,11 +218,11 @@ scn_zendar_merchant zendar_merchant 1 interior_town_house_i bo_interior_town_hou
  0 
 scn_town_1_center town_1_center 256 none none 0.000000 0.000000 100.000000 100.000000 -100.000000 0x000000003002498000035cd50000104100005e940000147b 
   0 
-  1  3411 
+  1  3408 
  outer_terrain_town_thir_1 
 scn_town_2_center town_2_center 256 none none 0.000000 0.000000 100.000000 100.000000 -100.000000 0x000000003002498000035cd50000104100005e940000147b 
   0 
-  1  3411 
+  1  3408 
  outer_terrain_plain  
 scn_town_3_center town_3_center 256 none none 0.000000 0.000000 100.000000 100.000000 -100.000000 0x000000003002498000035cd50000104100005e940000147b 
   0 
@@ -234,7 +234,7 @@ scn_town_4_center town_4_center 256 none none 0.000000 0.000000 100.000000 100.0
  outer_terrain_plain 
 scn_town_5_center town_5_center 256 none none 0.000000 0.000000 100.000000 100.000000 -100.000000 0x0000000030015f2b000350d4000011a4000017ee000054af 
   0 
-  1  3410 
+  1  3407 
  outer_terrain_plain 
 scn_town_6_center town_6_center 256 none none 0.000000 0.000000 100.000000 100.000000 -100.000000 0x0000000030015f2b000350d4000011a4000017ee000054af 
   0 
@@ -486,271 +486,271 @@ scn_town_67_center town_67_center 256 none none 0.000000 0.000000 100.000000 100
  outer_terrain_plain 
 scn_town_1_castle town_1_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x0000000430000500000609820000213500003ef9000079a9 
   1  100000 
-  1  1447 
+  1  1444 
  0 
 scn_town_2_castle town_2_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1448 
+  1  1445 
  0 
 scn_town_3_castle town_3_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1449 
+  1  1446 
  0 
 scn_town_4_castle town_4_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1450 
+  1  1447 
  0 
 scn_town_5_castle town_5_castle 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1451 
+  1  1448 
  0 
 scn_town_6_castle town_6_castle 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1452 
+  1  1449 
  0 
 scn_town_7_castle town_7_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1453 
+  1  1450 
  0 
 scn_town_8_castle town_8_castle 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1454 
+  1  1451 
  0 
 scn_town_9_castle town_9_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1455 
+  1  1452 
  0 
 scn_town_10_castle town_10_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1463 
+  1  1460 
  0 
 scn_town_11_castle town_11_castle 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1457 
+  1  1454 
  0 
 scn_town_12_castle town_12_castle 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1458 
+  1  1455 
  0 
 scn_town_13_castle town_13_castle 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1459 
+  1  1456 
  0 
 scn_town_14_castle town_14_castle 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1460 
+  1  1457 
  0 
 scn_town_15_castle town_15_castle 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1461 
+  1  1458 
  0 
 scn_town_16_castle town_16_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1462 
+  1  1459 
  0 
 scn_town_17_castle town_17_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1463 
+  1  1460 
  0 
 scn_town_18_castle town_18_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1463 
+  1  1460 
  0 
 scn_town_19_castle town_19_castle 1 Rus_Town_Lord_Interier_81 bo_Rus_Town_Lord_Interier_81 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1465 
+  1  1462 
  0 
 scn_town_20_castle town_20_castle 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1466 
+  1  1463 
  0 
 scn_town_21_castle town_21_castle 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1467 
+  1  1464 
  0 
 scn_town_22_castle town_22_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1468 
+  1  1465 
  0 
 scn_town_23_castle town_23_castle 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
-  1  1468 
+  1  1465 
  0 
 scn_town_24_castle town_24_castle 1 mideast_interior_keep_a bo_mideast_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1468 
+  1  1465 
  0 
 scn_town_25_castle town_25_castle 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
-  1  1468 
+  1  1465 
  0 
 scn_town_26_castle town_26_castle 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
-  1  1468 
+  1  1465 
  0 
 scn_town_27_castle town_27_castle 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1468 
+  1  1465 
  0 
 scn_town_28_castle town_28_castle 1 Rus_Town_Lord_Interier_81 bo_Rus_Town_Lord_Interier_81 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1474 
+  1  1471 
  0 
 scn_town_29_castle town_29_castle 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
-  1  1475 
+  1  1472 
  0 
 scn_town_30_castle town_30_castle 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
-  1  1476 
+  1  1473 
  0 
 scn_town_31_castle town_31_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1477 
+  1  1474 
  0 
 scn_town_32_castle town_32_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1478 
+  1  1475 
  0 
 scn_town_33_castle town_33_castle 1 mideast_interior_keep_a bo_mideast_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1479 
+  1  1476 
  0 
 scn_town_34_castle town_34_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1480 
+  1  1477 
  0 
 scn_town_35_castle town_35_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1481 
+  1  1478 
  0 
 scn_town_36_castle town_36_castle 1 mideast_interior_keep_a bo_mideast_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1482 
+  1  1479 
  0 
 scn_town_37_castle town_37_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1483 
+  1  1480 
  0 
 scn_town_38_castle town_38_castle 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1484 
+  1  1481 
  0 
 scn_town_39_castle town_39_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1485 
+  1  1482 
  0 
 scn_town_40_castle town_40_castle 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
-  1  1486 
+  1  1483 
  0 
 scn_town_41_castle town_41_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1487 
+  1  1484 
  0 
 scn_town_42_castle town_42_castle 1 mideast_interior_keep_a bo_mideast_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1488 
+  1  1485 
  0 
 scn_town_43_castle town_43_castle 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_44_castle town_44_castle 1 Rus_Town_Lord_Interier_81 bo_Rus_Town_Lord_Interier_81 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_45_castle town_45_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_46_castle town_46_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_47_castle town_47_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_48_castle town_48_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_49_castle town_49_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_50_castle town_50_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_51_castle town_51_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_52_castle town_52_castle 1 Rus_Town_Lord_Interier_81 bo_Rus_Town_Lord_Interier_81 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_53_castle town_53_castle 1 Rus_Town_Lord_Interier_81 bo_Rus_Town_Lord_Interier_81 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_54_castle town_54_castle 1 Rus_Town_Lord_Interier_81 bo_Rus_Town_Lord_Interier_81 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_55_castle town_55_castle 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_56_castle town_56_castle 1 Rus_Town_Lord_Interier_81 bo_Rus_Town_Lord_Interier_81 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_57_castle town_57_castle 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_58_castle town_58_castle 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_59_castle town_59_castle 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_60_castle town_60_castle 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_61_castle town_61_castle 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_62_castle town_62_castle 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_63_castle town_63_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_64_castle town_64_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_65_castle town_65_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_66_castle town_66_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_67_castle town_67_castle 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1489 
+  1  1486 
  0 
 scn_town_1_tavern town_1_tavern 1 Rus_Taverna_Interier_H bo_Rus_Taverna_Interier_H -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
@@ -2078,7 +2078,7 @@ scn_castle_1_exterior castle_1_exterior 256 none none 0.000000 0.000000 100.0000
  outer_terrain_steppe 
 scn_castle_1_interior castle_1_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1514 
+  1  1511 
  0 
 scn_castle_1_prison castle_1_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2090,7 +2090,7 @@ scn_castle_2_exterior castle_2_exterior 256 none none 0.000000 0.000000 100.0000
  outer_terrain_plain 
 scn_castle_2_interior castle_2_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1515 
+  1  1512 
  0 
 scn_castle_2_prison castle_2_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2102,7 +2102,7 @@ scn_castle_3_exterior castle_3_exterior 256 none none 0.000000 0.000000 100.0000
  outer_terrain_plain 
 scn_castle_3_interior castle_3_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1516 
+  1  1513 
  0 
 scn_castle_3_prison castle_3_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2114,7 +2114,7 @@ scn_castle_4_exterior castle_4_exterior 256 none none 0.000000 0.000000 100.0000
  outer_terrain_plain 
 scn_castle_4_interior castle_4_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1517 
+  1  1514 
  0 
 scn_castle_4_prison castle_4_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2126,7 +2126,7 @@ scn_castle_5_exterior castle_5_exterior 256 none none 0.000000 0.000000 100.0000
  outer_terrain_plain 
 scn_castle_5_interior castle_5_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1518 
+  1  1515 
  0 
 scn_castle_5_prison castle_5_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2138,7 +2138,7 @@ scn_castle_6_exterior castle_6_exterior 256 none none 0.000000 0.000000 100.0000
  outer_terrain_plain 
 scn_castle_6_interior castle_6_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1519 
+  1  1516 
  0 
 scn_castle_6_prison castle_6_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2150,7 +2150,7 @@ scn_castle_7_exterior castle_7_exterior 256 none none 0.000000 0.000000 100.0000
  outer_terrain_snow 
 scn_castle_7_interior castle_7_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1520 
+  1  1517 
  0 
 scn_castle_7_prison castle_7_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2162,7 +2162,7 @@ scn_castle_8_exterior castle_8_exterior 256 none none 0.000000 0.000000 100.0000
  outer_terrain_plain 
 scn_castle_8_interior castle_8_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1521 
+  1  1518 
  0 
 scn_castle_8_prison castle_8_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2174,7 +2174,7 @@ scn_castle_9_exterior castle_9_exterior 256 none none 0.000000 0.000000 100.0000
  outer_terrain_steppe 
 scn_castle_9_interior castle_9_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1522 
+  1  1519 
  0 
 scn_castle_9_prison castle_9_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2186,7 +2186,7 @@ scn_castle_10_exterior castle_10_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_castle_9 
 scn_castle_10_interior castle_10_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1523 
+  1  1520 
  0 
 scn_castle_10_prison castle_10_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2198,7 +2198,7 @@ scn_castle_11_exterior castle_11_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_11_interior castle_11_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1524 
+  1  1521 
  0 
 scn_castle_11_prison castle_11_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2210,7 +2210,7 @@ scn_castle_12_exterior castle_12_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_town_thir_1 
 scn_castle_12_interior castle_12_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1525 
+  1  1522 
  0 
 scn_castle_12_prison castle_12_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2222,7 +2222,7 @@ scn_castle_13_exterior castle_13_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_13_interior castle_13_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1526 
+  1  1523 
  0 
 scn_castle_13_prison castle_13_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2234,7 +2234,7 @@ scn_castle_14_exterior castle_14_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_14_interior castle_14_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1527 
+  1  1524 
  0 
 scn_castle_14_prison castle_14_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2246,7 +2246,7 @@ scn_castle_15_exterior castle_15_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_15_interior castle_15_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1528 
+  1  1525 
  0 
 scn_castle_15_prison castle_15_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2258,7 +2258,7 @@ scn_castle_16_exterior castle_16_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_16_interior castle_16_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1529 
+  1  1526 
  0 
 scn_castle_16_prison castle_16_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2270,7 +2270,7 @@ scn_castle_17_exterior castle_17_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_steppe 
 scn_castle_17_interior castle_17_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1530 
+  1  1527 
  0 
 scn_castle_17_prison castle_17_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2282,7 +2282,7 @@ scn_castle_18_exterior castle_18_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_snow 
 scn_castle_18_interior castle_18_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1531 
+  1  1528 
  0 
 scn_castle_18_prison castle_18_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2294,7 +2294,7 @@ scn_castle_19_exterior castle_19_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_snow 
 scn_castle_19_interior castle_19_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1532 
+  1  1529 
  0 
 scn_castle_19_prison castle_19_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2306,7 +2306,7 @@ scn_castle_20_exterior castle_20_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_20_interior castle_20_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1533 
+  1  1530 
  0 
 scn_castle_20_prison castle_20_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2318,7 +2318,7 @@ scn_castle_21_exterior castle_21_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_21_interior castle_21_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1534 
+  1  1531 
  0 
 scn_castle_21_prison castle_21_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2330,7 +2330,7 @@ scn_castle_22_exterior castle_22_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_22_interior castle_22_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1535 
+  1  1532 
  0 
 scn_castle_22_prison castle_22_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2342,7 +2342,7 @@ scn_castle_23_exterior castle_23_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_23_interior castle_23_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1536 
+  1  1533 
  0 
 scn_castle_23_prison castle_23_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2354,7 +2354,7 @@ scn_castle_24_exterior castle_24_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_24_interior castle_24_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1537 
+  1  1534 
  0 
 scn_castle_24_prison castle_24_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2366,7 +2366,7 @@ scn_castle_25_exterior castle_25_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_25_interior castle_25_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1538 
+  1  1535 
  0 
 scn_castle_25_prison castle_25_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2378,7 +2378,7 @@ scn_castle_26_exterior castle_26_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_26_interior castle_26_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1539 
+  1  1536 
  0 
 scn_castle_26_prison castle_26_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2390,7 +2390,7 @@ scn_castle_27_exterior castle_27_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_27_interior castle_27_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1540 
+  1  1537 
  0 
 scn_castle_27_prison castle_27_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2402,7 +2402,7 @@ scn_castle_28_exterior castle_28_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_28_interior castle_28_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1541 
+  1  1538 
  0 
 scn_castle_28_prison castle_28_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2414,7 +2414,7 @@ scn_castle_29_exterior castle_29_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_snow 
 scn_castle_29_interior castle_29_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1542 
+  1  1539 
  0 
 scn_castle_29_prison castle_29_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2426,7 +2426,7 @@ scn_castle_30_exterior castle_30_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_30_interior castle_30_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1543 
+  1  1540 
  0 
 scn_castle_30_prison castle_30_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2438,7 +2438,7 @@ scn_castle_31_exterior castle_31_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_31_interior castle_31_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1544 
+  1  1541 
  0 
 scn_castle_31_prison castle_31_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2450,7 +2450,7 @@ scn_castle_32_exterior castle_32_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_32_interior castle_32_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1545 
+  1  1542 
  0 
 scn_castle_32_prison castle_32_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2462,7 +2462,7 @@ scn_castle_33_exterior castle_33_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_33_interior castle_33_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1546 
+  1  1543 
  0 
 scn_castle_33_prison castle_33_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2474,7 +2474,7 @@ scn_castle_34_exterior castle_34_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_34_interior castle_34_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1547 
+  1  1544 
  0 
 scn_castle_34_prison castle_34_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2486,7 +2486,7 @@ scn_castle_35_exterior castle_35_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_35_interior castle_35_interior 1 mideast_interior_keep_a bo_mideast_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1548 
+  1  1545 
  0 
 scn_castle_35_prison castle_35_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2498,7 +2498,7 @@ scn_castle_36_exterior castle_36_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_36_interior castle_36_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1549 
+  1  1546 
  0 
 scn_castle_36_prison castle_36_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2510,7 +2510,7 @@ scn_castle_37_exterior castle_37_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_37_interior castle_37_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1550 
+  1  1547 
  0 
 scn_castle_37_prison castle_37_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2522,7 +2522,7 @@ scn_castle_38_exterior castle_38_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_steppe 
 scn_castle_38_interior castle_38_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1548 
+  1  1545 
  0 
 scn_castle_38_prison castle_38_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2534,7 +2534,7 @@ scn_castle_39_exterior castle_39_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_snow 
 scn_castle_39_interior castle_39_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1552 
+  1  1549 
  0 
 scn_castle_39_prison castle_39_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2546,7 +2546,7 @@ scn_castle_40_exterior castle_40_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_steppe 
 scn_castle_40_interior castle_40_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1553 
+  1  1550 
  0 
 scn_castle_40_prison castle_40_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2558,7 +2558,7 @@ scn_castle_41_exterior castle_41_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_41_interior castle_41_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1544 
+  1  1541 
  0 
 scn_castle_41_prison castle_41_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2570,7 +2570,7 @@ scn_castle_42_exterior castle_42_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_42_interior castle_42_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1545 
+  1  1542 
  0 
 scn_castle_42_prison castle_42_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2582,7 +2582,7 @@ scn_castle_43_exterior castle_43_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_43_interior castle_43_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1546 
+  1  1543 
  0 
 scn_castle_43_prison castle_43_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2594,7 +2594,7 @@ scn_castle_44_exterior castle_44_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_44_interior castle_44_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1547 
+  1  1544 
  0 
 scn_castle_44_prison castle_44_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2606,7 +2606,7 @@ scn_castle_45_exterior castle_45_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_45_interior castle_45_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1548 
+  1  1545 
  0 
 scn_castle_45_prison castle_45_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2618,7 +2618,7 @@ scn_castle_46_exterior castle_46_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_46_interior castle_46_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1549 
+  1  1546 
  0 
 scn_castle_46_prison castle_46_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2630,7 +2630,7 @@ scn_castle_47_exterior castle_47_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_47_interior castle_47_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1550 
+  1  1547 
  0 
 scn_castle_47_prison castle_47_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2642,7 +2642,7 @@ scn_castle_48_exterior castle_48_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_48_interior castle_48_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1550 
+  1  1547 
  0 
 scn_castle_48_prison castle_48_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2654,7 +2654,7 @@ scn_castle_49_exterior castle_49_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_49_interior castle_49_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1562 
+  1  1559 
  0 
 scn_castle_49_prison castle_49_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2666,7 +2666,7 @@ scn_castle_50_exterior castle_50_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_50_interior castle_50_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1563 
+  1  1560 
  0 
 scn_castle_50_prison castle_50_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2678,7 +2678,7 @@ scn_castle_51_exterior castle_51_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_51_interior castle_51_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1564 
+  1  1561 
  0 
 scn_castle_51_prison castle_51_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2690,7 +2690,7 @@ scn_castle_52_exterior castle_52_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_52_interior castle_52_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1565 
+  1  1562 
  0 
 scn_castle_52_prison castle_52_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2702,7 +2702,7 @@ scn_castle_53_exterior castle_53_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_53_interior castle_53_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1566 
+  1  1563 
  0 
 scn_castle_53_prison castle_53_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2714,7 +2714,7 @@ scn_castle_54_exterior castle_54_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_snow 
 scn_castle_54_interior castle_54_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1567 
+  1  1564 
  0 
 scn_castle_54_prison castle_54_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2726,7 +2726,7 @@ scn_castle_55_exterior castle_55_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_snow 
 scn_castle_55_interior castle_55_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1568 
+  1  1565 
  0 
 scn_castle_55_prison castle_55_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2738,7 +2738,7 @@ scn_castle_56_exterior castle_56_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_steppe 
 scn_castle_56_interior castle_56_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1569 
+  1  1566 
  0 
 scn_castle_56_prison castle_56_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2750,7 +2750,7 @@ scn_castle_57_exterior castle_57_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_57_interior castle_57_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1570 
+  1  1567 
  0 
 scn_castle_57_prison castle_57_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2762,7 +2762,7 @@ scn_castle_58_exterior castle_58_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_castle_9 
 scn_castle_58_interior castle_58_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1571 
+  1  1568 
  0 
 scn_castle_58_prison castle_58_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2774,7 +2774,7 @@ scn_castle_59_exterior castle_59_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_59_interior castle_59_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1572 
+  1  1569 
  0 
 scn_castle_59_prison castle_59_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2786,7 +2786,7 @@ scn_castle_60_exterior castle_60_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_60_interior castle_60_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1573 
+  1  1570 
  0 
 scn_castle_60_prison castle_60_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2798,7 +2798,7 @@ scn_castle_61_exterior castle_61_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_plain 
 scn_castle_61_interior castle_61_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1574 
+  1  1571 
  0 
 scn_castle_61_prison castle_61_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2810,7 +2810,7 @@ scn_castle_62_exterior castle_62_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_62_interior castle_62_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1575 
+  1  1572 
  0 
 scn_castle_62_prison castle_62_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2822,7 +2822,7 @@ scn_castle_63_exterior castle_63_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_63_interior castle_63_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1576 
+  1  1573 
  0 
 scn_castle_63_prison castle_63_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2834,7 +2834,7 @@ scn_castle_64_exterior castle_64_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_64_interior castle_64_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1577 
+  1  1574 
  0 
 scn_castle_64_prison castle_64_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2846,7 +2846,7 @@ scn_castle_65_exterior castle_65_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_65_interior castle_65_interior 1 mideast_interior_keep_a bo_mideast_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1578 
+  1  1575 
  0 
 scn_castle_65_prison castle_65_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2858,7 +2858,7 @@ scn_castle_66_exterior castle_66_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_66_interior castle_66_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1579 
+  1  1576 
  0 
 scn_castle_66_prison castle_66_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2870,7 +2870,7 @@ scn_castle_67_exterior castle_67_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_67_interior castle_67_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1580 
+  1  1577 
  0 
 scn_castle_67_prison castle_67_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2882,7 +2882,7 @@ scn_castle_68_exterior castle_68_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_68_interior castle_68_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1581 
+  1  1578 
  0 
 scn_castle_68_prison castle_68_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2894,7 +2894,7 @@ scn_castle_69_exterior castle_69_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_69_interior castle_69_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1582 
+  1  1579 
  0 
 scn_castle_69_prison castle_69_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2906,7 +2906,7 @@ scn_castle_70_exterior castle_70_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_70_interior castle_70_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1577 
+  1  1574 
  0 
 scn_castle_70_prison castle_70_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2918,7 +2918,7 @@ scn_castle_71_exterior castle_71_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_71_interior castle_71_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1577 
+  1  1574 
  0 
 scn_castle_71_prison castle_71_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2930,7 +2930,7 @@ scn_castle_72_exterior castle_72_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_72_interior castle_72_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1577 
+  1  1574 
  0 
 scn_castle_72_prison castle_72_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2942,7 +2942,7 @@ scn_castle_73_exterior castle_73_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_73_interior castle_73_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1577 
+  1  1574 
  0 
 scn_castle_73_prison castle_73_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2954,7 +2954,7 @@ scn_castle_74_exterior castle_74_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_74_interior castle_74_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1577 
+  1  1574 
  0 
 scn_castle_74_prison castle_74_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2966,7 +2966,7 @@ scn_castle_75_exterior castle_75_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_75_interior castle_75_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1577 
+  1  1574 
  0 
 scn_castle_75_prison castle_75_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2978,7 +2978,7 @@ scn_castle_76_exterior castle_76_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_76_interior castle_76_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1577 
+  1  1574 
  0 
 scn_castle_76_prison castle_76_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -2990,7 +2990,7 @@ scn_castle_77_exterior castle_77_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_77_interior castle_77_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1577 
+  1  1574 
  0 
 scn_castle_77_prison castle_77_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3002,7 +3002,7 @@ scn_castle_78_exterior castle_78_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_78_interior castle_78_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1577 
+  1  1574 
  0 
 scn_castle_78_prison castle_78_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3014,7 +3014,7 @@ scn_castle_79_exterior castle_79_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_79_interior castle_79_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1577 
+  1  1574 
  0 
 scn_castle_79_prison castle_79_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3026,7 +3026,7 @@ scn_castle_80_exterior castle_80_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_80_interior castle_80_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1577 
+  1  1574 
  0 
 scn_castle_80_prison castle_80_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3038,7 +3038,7 @@ scn_castle_81_exterior castle_81_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_81_interior castle_81_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1577 
+  1  1574 
  0 
 scn_castle_81_prison castle_81_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3050,7 +3050,7 @@ scn_castle_82_exterior castle_82_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_82_interior castle_82_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1577 
+  1  1574 
  0 
 scn_castle_82_prison castle_82_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3062,7 +3062,7 @@ scn_castle_83_exterior castle_83_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_83_interior castle_83_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1577 
+  1  1574 
  0 
 scn_castle_83_prison castle_83_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3074,7 +3074,7 @@ scn_castle_84_exterior castle_84_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_84_interior castle_84_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1597 
+  1  1594 
  0 
 scn_castle_84_prison castle_84_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3086,7 +3086,7 @@ scn_castle_85_exterior castle_85_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_85_interior castle_85_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1598 
+  1  1595 
  0 
 scn_castle_85_prison castle_85_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3098,7 +3098,7 @@ scn_castle_86_exterior castle_86_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_86_interior castle_86_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1599 
+  1  1596 
  0 
 scn_castle_86_prison castle_86_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3110,7 +3110,7 @@ scn_castle_87_exterior castle_87_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_87_interior castle_87_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1600 
+  1  1597 
  0 
 scn_castle_87_prison castle_87_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3122,7 +3122,7 @@ scn_castle_88_exterior castle_88_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_88_interior castle_88_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1601 
+  1  1598 
  0 
 scn_castle_88_prison castle_88_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3134,7 +3134,7 @@ scn_castle_89_exterior castle_89_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_89_interior castle_89_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1602 
+  1  1599 
  0 
 scn_castle_89_prison castle_89_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3146,7 +3146,7 @@ scn_castle_90_exterior castle_90_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_90_interior castle_90_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1603 
+  1  1600 
  0 
 scn_castle_90_prison castle_90_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3158,7 +3158,7 @@ scn_castle_91_exterior castle_91_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_91_interior castle_91_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1604 
+  1  1601 
  0 
 scn_castle_91_prison castle_91_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3170,7 +3170,7 @@ scn_castle_92_exterior castle_92_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_92_interior castle_92_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1605 
+  1  1602 
  0 
 scn_castle_92_prison castle_92_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3182,7 +3182,7 @@ scn_castle_93_exterior castle_93_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_93_interior castle_93_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1606 
+  1  1603 
  0 
 scn_castle_93_prison castle_93_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3194,7 +3194,7 @@ scn_castle_94_exterior castle_94_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_94_interior castle_94_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1607 
+  1  1604 
  0 
 scn_castle_94_prison castle_94_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3206,7 +3206,7 @@ scn_castle_95_exterior castle_95_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_95_interior castle_95_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1608 
+  1  1605 
  0 
 scn_castle_95_prison castle_95_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3218,7 +3218,7 @@ scn_castle_96_exterior castle_96_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_96_interior castle_96_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1609 
+  1  1606 
  0 
 scn_castle_96_prison castle_96_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3230,7 +3230,7 @@ scn_castle_97_exterior castle_97_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_97_interior castle_97_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1610 
+  1  1607 
  0 
 scn_castle_97_prison castle_97_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3242,7 +3242,7 @@ scn_castle_98_exterior castle_98_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_98_interior castle_98_interior 1 castle_h_interior_a bo_castle_h_interior_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1609 
+  1  1606 
  0 
 scn_castle_98_prison castle_98_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3254,7 +3254,7 @@ scn_castle_99_exterior castle_99_exterior 256 none none 0.000000 0.000000 100.00
  outer_terrain_desert 
 scn_castle_99_interior castle_99_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1612 
+  1  1609 
  0 
 scn_castle_99_prison castle_99_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3266,7 +3266,7 @@ scn_castle_100_exterior castle_100_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_100_interior castle_100_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1613 
+  1  1610 
  0 
 scn_castle_100_prison castle_100_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3278,7 +3278,7 @@ scn_castle_101_exterior castle_101_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_101_interior castle_101_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1614 
+  1  1611 
  0 
 scn_castle_101_prison castle_101_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3290,7 +3290,7 @@ scn_castle_102_exterior castle_102_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_102_interior castle_102_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1615 
+  1  1612 
  0 
 scn_castle_102_prison castle_102_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3302,7 +3302,7 @@ scn_castle_103_exterior castle_103_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_103_interior castle_103_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1616 
+  1  1613 
  0 
 scn_castle_103_prison castle_103_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3314,7 +3314,7 @@ scn_castle_104_exterior castle_104_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_104_interior castle_104_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1617 
+  1  1614 
  0 
 scn_castle_104_prison castle_104_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3326,7 +3326,7 @@ scn_castle_105_exterior castle_105_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_105_interior castle_105_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1618 
+  1  1615 
  0 
 scn_castle_105_prison castle_105_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3338,7 +3338,7 @@ scn_castle_106_exterior castle_106_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_106_interior castle_106_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1619 
+  1  1616 
  0 
 scn_castle_106_prison castle_106_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3350,7 +3350,7 @@ scn_castle_107_exterior castle_107_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_107_interior castle_107_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1620 
+  1  1617 
  0 
 scn_castle_107_prison castle_107_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3362,7 +3362,7 @@ scn_castle_108_exterior castle_108_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_108_interior castle_108_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1621 
+  1  1618 
  0 
 scn_castle_108_prison castle_108_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3374,7 +3374,7 @@ scn_castle_109_exterior castle_109_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_109_interior castle_109_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1622 
+  1  1619 
  0 
 scn_castle_109_prison castle_109_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3386,7 +3386,7 @@ scn_castle_110_exterior castle_110_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_110_interior castle_110_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1623 
+  1  1620 
  0 
 scn_castle_110_prison castle_110_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3398,7 +3398,7 @@ scn_castle_111_exterior castle_111_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_111_interior castle_111_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1624 
+  1  1621 
  0 
 scn_castle_111_prison castle_111_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3410,7 +3410,7 @@ scn_castle_112_exterior castle_112_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_112_interior castle_112_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1625 
+  1  1622 
  0 
 scn_castle_112_prison castle_112_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3422,7 +3422,7 @@ scn_castle_113_exterior castle_113_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_113_interior castle_113_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1626 
+  1  1623 
  0 
 scn_castle_113_prison castle_113_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3434,7 +3434,7 @@ scn_castle_114_exterior castle_114_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_114_interior castle_114_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1627 
+  1  1624 
  0 
 scn_castle_114_prison castle_114_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3446,7 +3446,7 @@ scn_castle_115_exterior castle_115_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_115_interior castle_115_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1628 
+  1  1625 
  0 
 scn_castle_115_prison castle_115_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3458,7 +3458,7 @@ scn_castle_116_exterior castle_116_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_116_interior castle_116_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1629 
+  1  1626 
  0 
 scn_castle_116_prison castle_116_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3470,7 +3470,7 @@ scn_castle_117_exterior castle_117_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_117_interior castle_117_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1630 
+  1  1627 
  0 
 scn_castle_117_prison castle_117_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3482,7 +3482,7 @@ scn_castle_118_exterior castle_118_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_118_interior castle_118_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1631 
+  1  1628 
  0 
 scn_castle_118_prison castle_118_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3494,7 +3494,7 @@ scn_castle_119_exterior castle_119_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_119_interior castle_119_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1632 
+  1  1629 
  0 
 scn_castle_119_prison castle_119_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3506,7 +3506,7 @@ scn_castle_120_exterior castle_120_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_120_interior castle_120_interior 1 mideast_interior_keep_a bo_mideast_interior_keep_a -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1633 
+  1  1630 
  0 
 scn_castle_120_prison castle_120_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3518,7 +3518,7 @@ scn_castle_121_exterior castle_121_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_121_interior castle_121_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1634 
+  1  1631 
  0 
 scn_castle_121_prison castle_121_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3530,7 +3530,7 @@ scn_castle_122_exterior castle_122_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_122_interior castle_122_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1635 
+  1  1632 
  0 
 scn_castle_122_prison castle_122_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3542,7 +3542,7 @@ scn_castle_123_exterior castle_123_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_steppe 
 scn_castle_123_interior castle_123_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1636 
+  1  1633 
  0 
 scn_castle_123_prison castle_123_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3554,7 +3554,7 @@ scn_castle_124_exterior castle_124_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_124_interior castle_124_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1637 
+  1  1634 
  0 
 scn_castle_124_prison castle_124_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3566,7 +3566,7 @@ scn_castle_125_exterior castle_125_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_125_interior castle_125_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1638 
+  1  1635 
  0 
 scn_castle_125_prison castle_125_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3578,7 +3578,7 @@ scn_castle_126_exterior castle_126_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_126_interior castle_126_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1639 
+  1  1636 
  0 
 scn_castle_126_prison castle_126_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3590,7 +3590,7 @@ scn_castle_127_exterior castle_127_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_127_interior castle_127_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1640 
+  1  1637 
  0 
 scn_castle_127_prison castle_127_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3602,7 +3602,7 @@ scn_castle_128_exterior castle_128_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_128_interior castle_128_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1641 
+  1  1638 
  0 
 scn_castle_128_prison castle_128_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3614,7 +3614,7 @@ scn_castle_129_exterior castle_129_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_129_interior castle_129_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1642 
+  1  1639 
  0 
 scn_castle_129_prison castle_129_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3626,7 +3626,7 @@ scn_castle_130_exterior castle_130_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_130_interior castle_130_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1643 
+  1  1640 
  0 
 scn_castle_130_prison castle_130_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3638,7 +3638,7 @@ scn_castle_131_exterior castle_131_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_131_interior castle_131_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1644 
+  1  1641 
  0 
 scn_castle_131_prison castle_131_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3650,7 +3650,7 @@ scn_castle_132_exterior castle_132_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_132_interior castle_132_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1645 
+  1  1642 
  0 
 scn_castle_132_prison castle_132_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3662,7 +3662,7 @@ scn_castle_133_exterior castle_133_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_133_interior castle_133_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1646 
+  1  1643 
  0 
 scn_castle_133_prison castle_133_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3674,7 +3674,7 @@ scn_castle_134_exterior castle_134_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_134_interior castle_134_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1647 
+  1  1644 
  0 
 scn_castle_134_prison castle_134_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3686,7 +3686,7 @@ scn_castle_135_exterior castle_135_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_135_interior castle_135_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_135_prison castle_135_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3698,7 +3698,7 @@ scn_castle_136_exterior castle_136_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_136_interior castle_136_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_136_prison castle_136_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3710,7 +3710,7 @@ scn_castle_137_exterior castle_137_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_137_interior castle_137_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_137_prison castle_137_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3722,7 +3722,7 @@ scn_castle_138_exterior castle_138_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_138_interior castle_138_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_138_prison castle_138_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3734,7 +3734,7 @@ scn_castle_139_exterior castle_139_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_139_interior castle_139_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_139_prison castle_139_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3746,7 +3746,7 @@ scn_castle_140_exterior castle_140_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_140_interior castle_140_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_140_prison castle_140_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3758,7 +3758,7 @@ scn_castle_141_exterior castle_141_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_141_interior castle_141_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_141_prison castle_141_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3770,7 +3770,7 @@ scn_castle_142_exterior castle_142_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_142_interior castle_142_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_142_prison castle_142_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3782,7 +3782,7 @@ scn_castle_143_exterior castle_143_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_143_interior castle_143_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_143_prison castle_143_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3794,7 +3794,7 @@ scn_castle_144_exterior castle_144_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_144_interior castle_144_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_144_prison castle_144_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3806,7 +3806,7 @@ scn_castle_145_exterior castle_145_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_145_interior castle_145_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_145_prison castle_145_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3818,7 +3818,7 @@ scn_castle_146_exterior castle_146_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_146_interior castle_146_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_146_prison castle_146_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3830,7 +3830,7 @@ scn_castle_147_exterior castle_147_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_147_interior castle_147_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_147_prison castle_147_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3842,7 +3842,7 @@ scn_castle_148_exterior castle_148_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_148_interior castle_148_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_148_prison castle_148_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3854,7 +3854,7 @@ scn_castle_149_exterior castle_149_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_149_interior castle_149_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_149_prison castle_149_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3866,7 +3866,7 @@ scn_castle_150_exterior castle_150_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_150_interior castle_150_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_150_prison castle_150_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3878,7 +3878,7 @@ scn_castle_151_exterior castle_151_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_151_interior castle_151_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_151_prison castle_151_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3890,7 +3890,7 @@ scn_castle_152_exterior castle_152_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_152_interior castle_152_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_152_prison castle_152_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3902,7 +3902,7 @@ scn_castle_153_exterior castle_153_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_153_interior castle_153_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_153_prison castle_153_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3914,7 +3914,7 @@ scn_castle_154_exterior castle_154_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_154_interior castle_154_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_154_prison castle_154_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3926,7 +3926,7 @@ scn_castle_155_exterior castle_155_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_155_interior castle_155_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_155_prison castle_155_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3938,7 +3938,7 @@ scn_castle_156_exterior castle_156_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_156_interior castle_156_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_156_prison castle_156_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3950,7 +3950,7 @@ scn_castle_157_exterior castle_157_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_157_interior castle_157_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_157_prison castle_157_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3962,7 +3962,7 @@ scn_castle_158_exterior castle_158_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_158_interior castle_158_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_158_prison castle_158_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3974,7 +3974,7 @@ scn_castle_159_exterior castle_159_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_159_interior castle_159_interior 1 eu_interior4 bo_eu_interior4 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_159_prison castle_159_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3986,7 +3986,7 @@ scn_castle_160_exterior castle_160_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_160_interior castle_160_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_160_prison castle_160_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -3998,7 +3998,7 @@ scn_castle_161_exterior castle_161_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_161_interior castle_161_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_161_prison castle_161_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4010,7 +4010,7 @@ scn_castle_162_exterior castle_162_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_162_interior castle_162_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_162_prison castle_162_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4022,7 +4022,7 @@ scn_castle_163_exterior castle_163_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_163_interior castle_163_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_163_prison castle_163_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4034,7 +4034,7 @@ scn_castle_164_exterior castle_164_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_164_interior castle_164_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_164_prison castle_164_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4046,7 +4046,7 @@ scn_castle_165_exterior castle_165_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_165_interior castle_165_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_165_prison castle_165_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4058,7 +4058,7 @@ scn_castle_166_exterior castle_166_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_166_interior castle_166_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_166_prison castle_166_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4070,7 +4070,7 @@ scn_castle_167_exterior castle_167_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_167_interior castle_167_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_167_prison castle_167_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4082,7 +4082,7 @@ scn_castle_168_exterior castle_168_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_168_interior castle_168_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_168_prison castle_168_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4094,7 +4094,7 @@ scn_castle_169_exterior castle_169_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_169_interior castle_169_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_169_prison castle_169_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4106,7 +4106,7 @@ scn_castle_170_exterior castle_170_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_170_interior castle_170_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_170_prison castle_170_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4118,7 +4118,7 @@ scn_castle_171_exterior castle_171_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_171_interior castle_171_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_171_prison castle_171_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4130,7 +4130,7 @@ scn_castle_172_exterior castle_172_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_172_interior castle_172_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_172_prison castle_172_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4142,7 +4142,7 @@ scn_castle_173_exterior castle_173_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_173_interior castle_173_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_173_prison castle_173_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4154,7 +4154,7 @@ scn_castle_174_exterior castle_174_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_174_interior castle_174_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_174_prison castle_174_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4166,7 +4166,7 @@ scn_castle_175_exterior castle_175_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_175_interior castle_175_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_175_prison castle_175_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4178,7 +4178,7 @@ scn_castle_176_exterior castle_176_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_176_interior castle_176_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_176_prison castle_176_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4190,7 +4190,7 @@ scn_castle_177_exterior castle_177_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_177_interior castle_177_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_177_prison castle_177_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4202,7 +4202,7 @@ scn_castle_178_exterior castle_178_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_178_interior castle_178_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_178_prison castle_178_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4214,7 +4214,7 @@ scn_castle_179_exterior castle_179_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_179_interior castle_179_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_179_prison castle_179_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4226,7 +4226,7 @@ scn_castle_180_exterior castle_180_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_180_interior castle_180_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_180_prison castle_180_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4238,7 +4238,7 @@ scn_castle_181_exterior castle_181_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_181_interior castle_181_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_181_prison castle_181_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4250,7 +4250,7 @@ scn_castle_182_exterior castle_182_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_182_interior castle_182_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_182_prison castle_182_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4262,7 +4262,7 @@ scn_castle_183_exterior castle_183_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_183_interior castle_183_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_183_prison castle_183_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4274,7 +4274,7 @@ scn_castle_184_exterior castle_184_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_184_interior castle_184_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_184_prison castle_184_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4286,7 +4286,7 @@ scn_castle_185_exterior castle_185_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_185_interior castle_185_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_185_prison castle_185_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4298,7 +4298,7 @@ scn_castle_186_exterior castle_186_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_186_interior castle_186_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_186_prison castle_186_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4310,7 +4310,7 @@ scn_castle_187_exterior castle_187_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_187_interior castle_187_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_187_prison castle_187_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4322,7 +4322,7 @@ scn_castle_188_exterior castle_188_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_188_interior castle_188_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_188_prison castle_188_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4334,7 +4334,7 @@ scn_castle_189_exterior castle_189_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_189_interior castle_189_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_189_prison castle_189_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4346,7 +4346,7 @@ scn_castle_190_exterior castle_190_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_190_interior castle_190_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_190_prison castle_190_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4358,7 +4358,7 @@ scn_castle_191_exterior castle_191_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_191_interior castle_191_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_191_prison castle_191_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4370,7 +4370,7 @@ scn_castle_192_exterior castle_192_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_192_interior castle_192_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_192_prison castle_192_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4382,7 +4382,7 @@ scn_castle_193_exterior castle_193_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_193_interior castle_193_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_193_prison castle_193_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4394,7 +4394,7 @@ scn_castle_194_exterior castle_194_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_194_interior castle_194_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_194_prison castle_194_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4406,7 +4406,7 @@ scn_castle_195_exterior castle_195_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_195_interior castle_195_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_195_prison castle_195_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4418,7 +4418,7 @@ scn_castle_196_exterior castle_196_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_196_interior castle_196_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_196_prison castle_196_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4430,7 +4430,7 @@ scn_castle_197_exterior castle_197_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_197_interior castle_197_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_197_prison castle_197_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4442,7 +4442,7 @@ scn_castle_198_exterior castle_198_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_198_interior castle_198_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_198_prison castle_198_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4454,7 +4454,7 @@ scn_castle_199_exterior castle_199_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_199_interior castle_199_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_199_prison castle_199_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4466,7 +4466,7 @@ scn_castle_200_exterior castle_200_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_200_interior castle_200_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_200_prison castle_200_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4478,7 +4478,7 @@ scn_castle_201_exterior castle_201_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_201_interior castle_201_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_201_prison castle_201_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4490,7 +4490,7 @@ scn_castle_202_exterior castle_202_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_202_interior castle_202_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_202_prison castle_202_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4502,7 +4502,7 @@ scn_castle_203_exterior castle_203_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_203_interior castle_203_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_203_prison castle_203_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4514,7 +4514,7 @@ scn_castle_204_exterior castle_204_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_204_interior castle_204_interior 1 mideast_interior_keep_b bo_mideast_interior_keep_b -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_204_prison castle_204_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4526,7 +4526,7 @@ scn_castle_205_exterior castle_205_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_205_interior castle_205_interior 1 interior_palacio_c bo_interior_palacio_c -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_205_prison castle_205_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4538,7 +4538,7 @@ scn_castle_206_exterior castle_206_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_206_interior castle_206_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_206_prison castle_206_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4550,7 +4550,7 @@ scn_castle_207_exterior castle_207_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_207_interior castle_207_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_207_prison castle_207_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4562,7 +4562,7 @@ scn_castle_208_exterior castle_208_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_208_interior castle_208_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_208_prison castle_208_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4574,7 +4574,7 @@ scn_castle_209_exterior castle_209_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_209_interior castle_209_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_209_prison castle_209_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4586,7 +4586,7 @@ scn_castle_210_exterior castle_210_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_210_interior castle_210_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_210_prison castle_210_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4598,7 +4598,7 @@ scn_castle_211_exterior castle_211_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_211_interior castle_211_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_211_prison castle_211_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4610,7 +4610,7 @@ scn_castle_212_exterior castle_212_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_212_interior castle_212_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_212_prison castle_212_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4622,7 +4622,7 @@ scn_castle_213_exterior castle_213_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_213_interior castle_213_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_213_prison castle_213_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4634,7 +4634,7 @@ scn_castle_214_exterior castle_214_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_214_interior castle_214_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_214_prison castle_214_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4646,7 +4646,7 @@ scn_castle_215_exterior castle_215_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_215_interior castle_215_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_215_prison castle_215_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4658,7 +4658,7 @@ scn_castle_216_exterior castle_216_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_216_interior castle_216_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_216_prison castle_216_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4670,7 +4670,7 @@ scn_castle_217_exterior castle_217_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_217_interior castle_217_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_217_prison castle_217_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4682,7 +4682,7 @@ scn_castle_218_exterior castle_218_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_218_interior castle_218_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_218_prison castle_218_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4694,7 +4694,7 @@ scn_castle_219_exterior castle_219_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_219_interior castle_219_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_219_prison castle_219_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4706,7 +4706,7 @@ scn_castle_220_exterior castle_220_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_220_interior castle_220_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_220_prison castle_220_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4718,7 +4718,7 @@ scn_castle_221_exterior castle_221_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_221_interior castle_221_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_221_prison castle_221_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4730,7 +4730,7 @@ scn_castle_222_exterior castle_222_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_222_interior castle_222_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_222_prison castle_222_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4742,7 +4742,7 @@ scn_castle_223_exterior castle_223_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_223_interior castle_223_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_223_prison castle_223_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4754,7 +4754,7 @@ scn_castle_224_exterior castle_224_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_224_interior castle_224_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_224_prison castle_224_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4766,7 +4766,7 @@ scn_castle_225_exterior castle_225_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_225_interior castle_225_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_225_prison castle_225_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4778,7 +4778,7 @@ scn_castle_226_exterior castle_226_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_226_interior castle_226_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_226_prison castle_226_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4790,7 +4790,7 @@ scn_castle_227_exterior castle_227_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_227_interior castle_227_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_227_prison castle_227_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4802,7 +4802,7 @@ scn_castle_228_exterior castle_228_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_228_interior castle_228_interior 1 interior_palacio_h bo_interior_palacio_h -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_228_prison castle_228_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4814,7 +4814,7 @@ scn_castle_229_exterior castle_229_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_229_interior castle_229_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_229_prison castle_229_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4826,7 +4826,7 @@ scn_castle_230_exterior castle_230_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_230_interior castle_230_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_230_prison castle_230_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4838,7 +4838,7 @@ scn_castle_231_exterior castle_231_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_231_interior castle_231_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_231_prison castle_231_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4850,7 +4850,7 @@ scn_castle_232_exterior castle_232_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_232_interior castle_232_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_232_prison castle_232_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4862,7 +4862,7 @@ scn_castle_233_exterior castle_233_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_233_interior castle_233_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_233_prison castle_233_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4874,7 +4874,7 @@ scn_castle_234_exterior castle_234_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_234_interior castle_234_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_234_prison castle_234_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4886,7 +4886,7 @@ scn_castle_235_exterior castle_235_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_235_interior castle_235_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_235_prison castle_235_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4898,7 +4898,7 @@ scn_castle_236_exterior castle_236_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_236_interior castle_236_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_236_prison castle_236_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4910,7 +4910,7 @@ scn_castle_237_exterior castle_237_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_237_interior castle_237_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_237_prison castle_237_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4922,7 +4922,7 @@ scn_castle_238_exterior castle_238_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_238_interior castle_238_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_238_prison castle_238_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4934,7 +4934,7 @@ scn_castle_239_exterior castle_239_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_239_interior castle_239_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_239_prison castle_239_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4946,7 +4946,7 @@ scn_castle_240_exterior castle_240_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_240_interior castle_240_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_240_prison castle_240_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4958,7 +4958,7 @@ scn_castle_241_exterior castle_241_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_241_interior castle_241_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_241_prison castle_241_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4970,7 +4970,7 @@ scn_castle_242_exterior castle_242_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_242_interior castle_242_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_242_prison castle_242_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4982,7 +4982,7 @@ scn_castle_243_exterior castle_243_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_243_interior castle_243_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_243_prison castle_243_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -4994,7 +4994,7 @@ scn_castle_244_exterior castle_244_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_244_interior castle_244_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_244_prison castle_244_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -5006,7 +5006,7 @@ scn_castle_245_exterior castle_245_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_245_interior castle_245_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_245_prison castle_245_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -5018,7 +5018,7 @@ scn_castle_246_exterior castle_246_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_246_interior castle_246_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_246_prison castle_246_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -5030,7 +5030,7 @@ scn_castle_247_exterior castle_247_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_247_interior castle_247_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_247_prison castle_247_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -5042,7 +5042,7 @@ scn_castle_248_exterior castle_248_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_248_interior castle_248_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_248_prison castle_248_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -5054,7 +5054,7 @@ scn_castle_249_exterior castle_249_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_249_interior castle_249_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_249_prison castle_249_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -5066,7 +5066,7 @@ scn_castle_250_exterior castle_250_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_250_interior castle_250_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_250_prison castle_250_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -5078,7 +5078,7 @@ scn_castle_251_exterior castle_251_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_251_interior castle_251_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_251_prison castle_251_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -5090,7 +5090,7 @@ scn_castle_252_exterior castle_252_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_252_interior castle_252_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_252_prison castle_252_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -5102,7 +5102,7 @@ scn_castle_253_exterior castle_253_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_253_interior castle_253_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0x00000007300005000002308c00004a840000624700004fda 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_253_prison castle_253_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
@@ -5114,7 +5114,7 @@ scn_castle_254_exterior castle_254_exterior 256 none none 0.000000 0.000000 100.
  outer_terrain_desert 
 scn_castle_254_interior castle_254_interior 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   1  100000 
-  1  1648 
+  1  1645 
  0 
 scn_castle_254_prison castle_254_prison 1 interior_barraca3 bo_interior_barraca3 -100.000000 -100.000000 100.000000 100.000000 -100.000000 0 
   0 
