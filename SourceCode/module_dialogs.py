@@ -3817,7 +3817,7 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    
    [anyone|plyr, "minister_talk",
    [],
-   "I would like to create casus belli for faction.", "create_casus_belli_initial",
+   "I want our government to fabricate a reason for a conflict with a foreign power.", "create_casus_belli_initial",
    []],
    
    [anyone, "create_casus_belli_initial",
@@ -3831,7 +3831,7 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    
    [anyone, "create_casus_belli_initial",
    [],
-   "With what faction?", "create_casus_belli_choose_faction",
+   "I hope you have considered your other options thoroughly, but if you feel this is the best course of action, I will naturally abide. I am sure we could provoke an incident, or dig up some 'old' documents. Though do keep in mind, pushing for conflict, as 'justified' as it might be, is going to bring some attention and international pressure onto us. If you are sure, who do you wish to provoke?", "create_casus_belli_choose_faction",
    []],
    
    [anyone|plyr|repeat_for_factions, "create_casus_belli_choose_faction",
@@ -3887,12 +3887,12 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    
    [anyone|plyr, "minister_talk",
    [],
-   "I would like to declare war against faction.", "declare_war_initial",
+   "It's time to go to war. Send out an emissary.", "declare_war_initial",
    []],
    
    [anyone, "declare_war_initial",
    [],
-   "Against what faction?", "declare_war_choose_faction",
+   "I won't question your decision, if this is what you want. Against whom do you wish to take up arms against?", "declare_war_choose_faction",
    []],
    
    [anyone|plyr|repeat_for_factions, "declare_war_choose_faction",
@@ -3923,15 +3923,15 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
 	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", "fac_player_supporters_faction", "$declare_war_chosen_faction"),
 	   (try_begin),
 	   (gt, reg60, 0),
-	   (str_store_string, s32, "@We are allies with {s31}. Proceed?"),
+	   (str_store_string, s32, "@Your highness, those people are our allies! We will be condemned by the entire international community, and lose a valuable ally! Are you sure?"),
 	   (else_try),
 	   (eq, reg0, 1),
-	   (str_store_string, s32, "@We have truce with {s31}. Proceed?"),
+	   (str_store_string, s32, "@I am afraid we don't have a justification for conflict at this point in time. We can naturally still declare war against {s31}, but expect international pressure to mount extremely quickly, and for it to put us in the crossfire of future and ongoing conflicts."),
 	   (else_try),
 	   (gt, ":provocation_days", 0),
-	   (str_store_string, s32, "@We have casus belli for {s31}. Proceed?"),
+	   (str_store_string, s32, "@Considering we have a valid reason to attack {s31}, I don't see any inherent reason why this should speak against us. If you wish, I will send out a message to their ambassador immediately."),
 	   (else_try),
-	   (str_store_string, s32, "@We don't have casus belli for {s31}. Proceed?"),
+	   (str_store_string, s32, "@I am afraid we don't have a justification for conflict at this point in time. We can naturally still declare war against {s31}, but expect international pressure to mount extremely quickly, and for it to put us in the crossfire of future and ongoing conflicts."),
 	   (try_end),
    ],
    "{s32}", "declare_war_proceed_final_answer",
@@ -3940,7 +3940,7 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    [anyone|plyr, "declare_war_proceed_final_answer",
    [
    ],
-   "Go ahead.", "declare_war_proceed_final_answer_completed",
+   "Then send that ambassador a message, and one to our generals, too.", "declare_war_proceed_final_answer_completed",
    [
    
 	]],
@@ -3955,7 +3955,7 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    
    [anyone|plyr, "declare_war_proceed_final_answer",
    [],
-   "I changed my mind.", "minister_pretalk",
+   "This will be unnecessary bloodshed through and through. Hold off on it.", "minister_pretalk",
    []],
 
    [anyone|plyr, "minister_talk",

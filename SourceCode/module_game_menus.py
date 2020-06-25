@@ -14453,6 +14453,12 @@ the high lords and common folk across the many realms of Europe."),
          (jump_to_menu, "mnu_start_game_1"),
        ]
        ),
+      ("game_speed_minimum",[],"Minimum (One year passes in 365 days).",
+       [
+		(assign, "$g_game_speed", 365),
+         (jump_to_menu, "mnu_start_game_1"),
+       ]
+       ),
 	  ("go_back",[],"Go back",
        [
 	     (jump_to_menu,"mnu_start_game_0"),
@@ -14509,6 +14515,12 @@ the high lords and common folk across the many realms of Europe."),
       ("game_speed_extremely_slow",[],"Extremely slow (One year passes in 30 days).",
        [
 		(assign, "$g_game_speed", 30),
+         (jump_to_menu, "mnu_camp_action"),
+       ]
+       ),
+      ("game_speed_minimum",[],"Minimum (One year passes in 365 days).",
+       [
+		(assign, "$g_game_speed", 365),
          (jump_to_menu, "mnu_camp_action"),
        ]
        ),
@@ -14864,7 +14876,7 @@ the high lords and common folk across the many realms of Europe."),
     "none",
     [],
     [
-	("continue", [],"Support allies and declare war on {s32}.",
+	("alliance_support_ally_in_war_accept", [],"Support allies and declare war on {s32}.",
        [
 	   
 		(store_add, ":provocation_slot", reg11, slot_faction_provocation_days_with_factions_begin),
@@ -14876,10 +14888,12 @@ the high lords and common folk across the many realms of Europe."),
 		(faction_set_slot, "fac_player_supporters_faction", ":provocation_slot", 500),
 		(change_screen_return),
         ]),
-	("decline", [],"Decline and break alliance with {s31}.",
+	("alliance_support_ally_in_war_decline", [],"Decline and break alliance with {s31}.",
        [
 	   (call_script, "script_break_alliance_between_factions", "fac_player_supporters_faction", reg10),
-	(call_script, "script_faction_change_infamy", "fac_player_supporters_faction", 15),
+		(faction_get_slot, ":ally_infamy", reg10, slot_faction_infamy), (val_div, ":ally_infamy", 2),
+		(store_sub, ":infamy_penalty", 15, ":ally_infamy"),
+		(call_script, "script_faction_change_infamy", "fac_player_supporters_faction", ":infamy_penalty"),
 		(change_screen_return),
         ]),
 	]),

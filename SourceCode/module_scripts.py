@@ -55771,6 +55771,10 @@ scripts = [
 	(agent_set_slot, ":Agent", slot_agent_can_crouch, 0), (agent_ai_set_can_crouch, ":Agent", 0),
 	(store_troop_faction, ":Faction", ":TroopOfAgent"),
 		(try_begin),
+		(eq, ":Faction", "fac_player_faction"),
+		(assign, ":Faction", "fac_player_supporters_faction"),
+		(try_end),
+		(try_begin),
 		(is_between, ":TroopOfAgent", "trp_factionplayer_fieldgun_cannoneer_officer", "trp_factionplayer_howitzer_cannoneer_officer"),
 		(faction_get_slot, ":TroopToSpawn", ":Faction", slot_faction_fieldgun_cannoneer),
 			(try_begin),
@@ -56690,6 +56694,7 @@ scripts = [
 (faction_set_slot, "fac_kingdom_31", slot_faction_wardrobe_begin, "itm_han_hat3"),
 (faction_set_slot, "fac_kingdom_31", slot_faction_wardrobe_end, "itm_han_torso_infantry1"),
 
+(faction_set_slot, "fac_player_faction", slot_faction_fieldgun_cannoneer_officer, "trp_factionplayer_fieldgun_cannoneer_officer"),
 (faction_set_slot, "fac_player_supporters_faction", slot_faction_fieldgun_cannoneer_officer, "trp_factionplayer_fieldgun_cannoneer_officer"),
 (faction_set_slot, "fac_kingdom_1", slot_faction_fieldgun_cannoneer_officer, "trp_faction1_fieldgun_cannoneer_officer"),
 (faction_set_slot, "fac_kingdom_2", slot_faction_fieldgun_cannoneer_officer, "trp_faction2_fieldgun_cannoneer_officer"),
@@ -56724,6 +56729,7 @@ scripts = [
 (faction_set_slot, "fac_kingdom_31", slot_faction_fieldgun_cannoneer_officer, "trp_faction31_fieldgun_cannoneer_officer"),
 (faction_set_slot, "fac_kingdom_32", slot_faction_fieldgun_cannoneer_officer, "trp_faction32_fieldgun_cannoneer_officer"),
 (faction_set_slot, "fac_kingdom_33", slot_faction_fieldgun_cannoneer_officer, "trp_faction33_fieldgun_cannoneer_officer"),
+(faction_set_slot, "fac_player_faction", slot_faction_howitzer_cannoneer_officer, "trp_factionplayer_howitzer_cannoneer_officer"),
 (faction_set_slot, "fac_player_supporters_faction", slot_faction_howitzer_cannoneer_officer, "trp_factionplayer_howitzer_cannoneer_officer"),
 (faction_set_slot, "fac_kingdom_1", slot_faction_howitzer_cannoneer_officer, "trp_faction1_howitzer_cannoneer_officer"),
 (faction_set_slot, "fac_kingdom_2", slot_faction_howitzer_cannoneer_officer, "trp_faction2_howitzer_cannoneer_officer"),
@@ -56758,6 +56764,7 @@ scripts = [
 (faction_set_slot, "fac_kingdom_31", slot_faction_howitzer_cannoneer_officer, "trp_faction31_howitzer_cannoneer_officer"),
 (faction_set_slot, "fac_kingdom_32", slot_faction_howitzer_cannoneer_officer, "trp_faction32_howitzer_cannoneer_officer"),
 (faction_set_slot, "fac_kingdom_33", slot_faction_howitzer_cannoneer_officer, "trp_faction33_howitzer_cannoneer_officer"),
+(faction_set_slot, "fac_player_faction", slot_faction_fieldgun_cannoneer, "trp_factionplayer_fieldgun_cannoneer"),
 (faction_set_slot, "fac_player_supporters_faction", slot_faction_fieldgun_cannoneer, "trp_factionplayer_fieldgun_cannoneer"),
 (faction_set_slot, "fac_kingdom_1", slot_faction_fieldgun_cannoneer, "trp_faction1_fieldgun_cannoneer"),
 (faction_set_slot, "fac_kingdom_2", slot_faction_fieldgun_cannoneer, "trp_faction2_fieldgun_cannoneer"),
@@ -56792,6 +56799,7 @@ scripts = [
 (faction_set_slot, "fac_kingdom_31", slot_faction_fieldgun_cannoneer, "trp_faction31_fieldgun_cannoneer"),
 (faction_set_slot, "fac_kingdom_32", slot_faction_fieldgun_cannoneer, "trp_faction32_fieldgun_cannoneer"),
 (faction_set_slot, "fac_kingdom_33", slot_faction_fieldgun_cannoneer, "trp_faction33_fieldgun_cannoneer"),
+(faction_set_slot, "fac_player_faction", slot_faction_howitzer_cannoneer, "trp_factionplayer_howitzer_cannoneer"),
 (faction_set_slot, "fac_player_supporters_faction", slot_faction_howitzer_cannoneer, "trp_factionplayer_howitzer_cannoneer"),
 (faction_set_slot, "fac_kingdom_1", slot_faction_howitzer_cannoneer, "trp_faction1_howitzer_cannoneer"),
 (faction_set_slot, "fac_kingdom_2", slot_faction_howitzer_cannoneer, "trp_faction2_howitzer_cannoneer"),
@@ -57391,7 +57399,7 @@ scripts = [
     #####Knights/NPC lord end    
        (faction_set_note_available,"fac_player_supporters_faction",1),
        (call_script, "script_update_faction_notes","fac_player_supporters_faction"),
-       (call_script, "script_change_player_right_to_rule", 25),
+       (call_script, "script_change_player_right_to_rule", 100),
 
 
     ##Set old king as player parent
@@ -58677,12 +58685,14 @@ scripts = [
 (faction_get_slot, ":material_string", ":faction", slot_faction_flag_material), (create_mesh_overlay, reg1, "mesh_menu_flag1"),
 (position_set_x, pos1, 400), (position_set_y, pos1, ":y_coordinate"), (overlay_set_position, reg1, pos1), (overlay_set_size, reg1, pos4),
 (str_store_string, s1, ":material_string"), (overlay_set_material, reg1, s1),
+(str_store_faction_name, s31, ":faction"), (str_store_string, s32, "@Belongs to {s31}"), (overlay_set_tooltip, reg1, s32), 
 (party_get_slot, ":official_faction", ":center", slot_center_official_faction),
 	(try_begin),
 	(neq, ":official_faction", ":faction"),
-	(faction_get_slot, ":material_string", ":official_faction", slot_faction_flag_material), (create_mesh_overlay, reg1, "mesh_menu_flag2"),
-	(str_store_string, s1, ":material_string"), (overlay_set_material, reg1, s1),
-	(overlay_set_position, reg1, pos1), (overlay_set_size, reg1, pos4),
+	(faction_get_slot, ":material_string", ":official_faction", slot_faction_flag_material), (create_mesh_overlay, reg2, "mesh_menu_flag2"),
+	(str_store_string, s1, ":material_string"), (overlay_set_material, reg2, s1),
+	(overlay_set_position, reg2, pos1), (overlay_set_size, reg2, pos4),
+	(str_store_faction_name, s31, ":faction"), (str_store_faction_name, s32, ":official_faction"), (str_store_string, s33, "@Occupied by {s31}^Belongs to {s32}"), (overlay_set_tooltip, reg1, s33), 
 	(try_end),
   ]),
 
@@ -58984,6 +58994,11 @@ scripts = [
 (val_add, ":power", ":number_of_towns"),
 (assign, reg0, ":power"),
     ]),  
+
+("temp_bugfix1",
+[
+
+]),  
 
 ]# modmerger_start version=201 type=2
 try:

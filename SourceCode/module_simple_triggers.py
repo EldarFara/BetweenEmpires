@@ -4104,10 +4104,6 @@ simple_triggers = [
    ## ZZ Custom Kingdom Troops begin
     (0,
     [
-(faction_set_slot, "fac_player_supporters_faction", slot_faction_fieldgun_cannoneer_officer, "trp_factionplayer_fieldgun_cannoneer_officer"),
-(faction_set_slot, "fac_player_supporters_faction", slot_faction_howitzer_cannoneer_officer, "trp_factionplayer_howitzer_cannoneer_officer"),
-(faction_set_slot, "fac_player_supporters_faction", slot_faction_fieldgun_cannoneer, "trp_factionplayer_fieldgun_cannoneer"),
-(faction_set_slot, "fac_player_supporters_faction", slot_faction_howitzer_cannoneer, "trp_factionplayer_howitzer_cannoneer"),
 (party_get_current_terrain, ":terrain_type", "p_main_party"),
 (try_begin),
 (this_or_next|eq, ":terrain_type", rt_water),

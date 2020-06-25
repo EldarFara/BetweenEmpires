@@ -1,4 +1,4 @@
-967
+968
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -567,6 +567,8 @@ qstr_{s1} {s1}
 qstr_{s31}_created_a_casu {s31}_created_a_casus_belli_for_{s32}_for_{reg10}_days.
 qstr_{s31}_s_infamy_is_in {s31}'s_infamy_is_increased_by_{reg10}_and_is_now_{reg11}.
 qstr_{s31}_s_infamy_is_de {s31}'s_infamy_is_decreased_by_{reg10}_and_is_now_{reg11}.
+qstr_Belongs_to_{s31} Belongs_to_{s31}
+qstr_Occupied_by_{s31}^Be Occupied_by_{s31}^Belongs_to_{s32}
 qstr_{s31}_becomes_an_all {s31}_becomes_an_ally_of_{s32}.
 qstr_{s31}_breaks_an_alli {s31}_breaks_an_alliance_with_{s32}.
 qstr_day day
@@ -814,7 +816,7 @@ qstr_Not_available_in_thi Not_available_in_this_town.
 qstr_You_have_bought_a_ho You_have_bought_a_howizer.
 qstr_Breaking_camp... Breaking_camp...
 qstr_{!}{s3}_commander_of {!}{s3}_commander_of_party_#{reg4}_which_is_not_his_troop_leaded_party_{reg5}
-qstr_The_{s31}_gets_1_inf The_{s31}_gets_1_infamy_because_of_prolonged_war_with_{s32}.
+qstr_The_{s31}_gets_1_inf The_{s31}_gets_1_infamy_because_of_the_prolonged_war_with_{s32}.
 qstr_{!}DEBUG___{s4}_is_i {!}DEBUG_-_{s4}_is_in_{s5},_should_be_in_{s6},_disabling_political_cheat_mode
 qstr_Party_has_nothing_to Party_has_nothing_to_eat!
 qstr_{reg1}_{s1}_{reg2?ha {reg1}_{s1}_{reg2?have:has}_escaped_from_your_party_during_the_night.
@@ -866,10 +868,9 @@ qstr_The_first_step_towar The_first_step_towards_German_unification_must_be_the_
 qstr_Papal_State_and_our_ Papal_State,_and_our_primary_Italian_adversary,_the_Kingdom_of_Two_Sicilies
 qstr_Papal_State_and_our_p Papal_State,_and_our_primary_Italian_adversary,_the_Kingdom_of_Sardinia
 qstr_Kingdom_of_Two_Sicil Kingdom_of_Two_Sicilies,_and_our_primary_Italian_adversary,_the_the_Kingdom_of_Sardinia
-qstr_We_are_allies_with_{ We_are_allies_with_{s31}._Proceed?
-qstr_We_have_truce_with_{ We_have_truce_with_{s31}._Proceed?
-qstr_We_have_casus_belli_ We_have_casus_belli_for_{s31}._Proceed?
-qstr_We_don_t_have_casus_ We_don't_have_casus_belli_for_{s31}._Proceed?
+qstr_Your_highness_those_ Your_highness,_those_people_are_our_allies!_We_will_be_condemned_by_the_entire_international_community,_and_lose_a_valuable_ally!_Are_you_sure?
+qstr_I_am_afraid_we_don_t I_am_afraid_we_don't_have_a_justification_for_conflict_at_this_point_in_time._We_can_naturally_still_declare_war_against_{s31},_but_expect_international_pressure_to_mount_extremely_quickly,_and_for_it_to_put_us_in_the_crossfire_of_future_and_ongoing_conflicts.
+qstr_Considering_we_have_ Considering_we_have_a_valid_reason_to_attack_{s31},_I_don't_see_any_inherent_reason_why_this_should_speak_against_us._If_you_wish,_I_will_send_out_a_message_to_their_ambassador_immediately.
 qstr_{playername}_when_we {playername},_when_we_started_our_long_walk,_few_people_had_the_courage_to_support_me._And_fewer_still_would_be_willing_to_put_their_lives_at_risk_for_my_cause._But_you_didn't_hesitate_for_a_moment_in_throwing_yourself_at_my_enemies._We_have_gone_through_a_lot_together,_and_there_were_times_I_came_close_to_losing_all_hope._But_with_God's_help,_we_prevailed._It_is_now_time_for_me_to_leave_your_company_and_take_what's_rightfully_mine._From_now_on,_I_will_carry_out_the_great_responsibility_of_ruling_{s3}._There_still_lie_many_challanges_ahead_and_I_count_on_your_help_in_overcoming_those._And_of_course,_you_will_always_remain_as_my_foremost_vassal.
 qstr__We_will_of_course_n _We_will_of_course_need_to_wait_until_the_realm_is_no_longer_on_campaign.
 qstr_I_am_{s4}_the_ruler_ I_am_{s4},_the_ruler_of_{s6}
