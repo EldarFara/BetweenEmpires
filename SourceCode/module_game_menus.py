@@ -2810,7 +2810,7 @@ the high lords and common folk across the many realms of Europe."),
          (assign,"$g_camp_mode", 1),
          (assign, "$g_infinite_camping", 1),
          (assign, "$g_player_icon_state", pis_camping),
-         (rest_for_hours_interactive, 10 * 24 * 365, 20), #10 year rest while not attackable with 20x speed
+         (rest_for_hours_interactive, 10 * 24 * 365, 2), #10 year rest while not attackable with 20x speed
          (change_screen_return),
         ]
        ),	   

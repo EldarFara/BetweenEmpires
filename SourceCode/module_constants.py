@@ -501,6 +501,10 @@ slot_faction_days_of_war_with_faction_before_pressure_begin= slot_faction_ve_mod
 # 56 - 96 are occupied
 slot_faction_alliance_price = slot_faction_ve_mod_slots_begin + 97
 slot_faction_increase_relations_price = slot_faction_ve_mod_slots_begin + 98
+slot_faction_preset_aggressiveness = slot_faction_ve_mod_slots_begin + 99
+slot_faction_preset_reliability = slot_faction_ve_mod_slots_begin + 100
+
+
 #revolts -- notes for self
 #type 1 -- minor revolt, aimed at negotiating change without changing the ruler
 #type 2 -- alternate ruler revolt (ie, pretender, chinese dynastic revolt -- keep the same polity but switch the ruler)

@@ -3530,7 +3530,43 @@ We will have to destroy the Confederate armies entirely, and conquer Nurmberg an
    ]],
    [anyone|plyr, "prussia_unification_austria2",
    [],
-   "We can't fight our German neighbours, we wouldn't stand a chance against them.", "close_window",
+   "We can't fight our German neighbours, we wouldn't stand a chance against them.", "minister_pretalk",
+   []],
+   
+
+   [anyone|plyr, "minister_talk",
+   [
+	(eq, "$player_faction_preset", "fac_kingdom_5"),
+	(eq, "$prussia_unification_progress", 4),
+   ],
+   "Revenge, Secretary, I want revenge for thousands of dead Prussians at Napoleon's hand.", "prussia_unification_france1",
+   []],
+   
+   [anyone, "prussia_unification_france1",
+   [],
+"Very well, my {King/Queen}. 'All' that's left to do is to capture Alsace-Lorraine's capital, \
+Strasbourg, and defeat the French army. If accomplished, we will have displayed our might to an \
+extend even the Bavarians can't deny. It will be a bloody war, and the French have done all they can \
+to match our technological might, and I must say, I am afraid they have us outmatched. But once utterly \
+defeated, we can declare empire on their own empire's rotten corpse.", "prussia_unification_france2",
+   []],
+   
+   [anyone|plyr, "prussia_unification_france2",
+   [],
+   "Very well indeed! To war, I say!", "close_window",
+   [
+(assign, "$prussia_unification_progress", 5),
+(str_store_string, s2, "@War with France has broken out, and our goal will be to utterly destroy them,\
+ take back German clay in Alsace-Lorraine, and ultimately declare Empire under our soon-to-be Emperor\
+ {playername}. It's time to display to the Southern Germans, foremost the Bavarians, that we are indeed\
+ capable of defending and leading the German people.^^ - Conquer the French border city of Strasbourg^\
+ - Annihilate the French Army entirely^^Let a united Germany rise from the ashes of the 2nd French Empire."),
+(call_script, "script_start_quest", "qst_prussia_unification_defeat_france", "$g_talk_troop"),
+# war declarations
+   ]],
+   [anyone|plyr, "prussia_unification_france2",
+   [],
+   "We'd be mad to fight the French under current circumstances, they have us outmatched.", "minister_pretalk",
    []],
   
    
@@ -3544,7 +3580,7 @@ We will have to destroy the Confederate armies entirely, and conquer Nurmberg an
    
    [anyone, "prussia_unification_start1",
    [],
-"Why, then it's finally time to make ''forever inseparable'' the war shout it was meant to be. Schleswig has to be brought back into German hands, and so does Holstein. The Danes have been holding onto Schleswig for four centuries, and their barbaric attempts at destroying the local movement undermined our ambitions in 1848. We have to secure the fortified city\
+"Why, then it's finally time to make 'forever inseparable' the war shout it was meant to be. Schleswig has to be brought back into German hands, and so does Holstein. The Danes have been holding onto Schleswig for four centuries, and their barbaric attempts at destroying the local movement undermined our ambitions in 1848. We have to secure the fortified city\
 of Schleswig, and destroy the Danish armies in the process. Volunteers have bolstered their numbers following our recent skirmishes, so you will have to drive those Swedes back into the sea alongside their Danish compatriots.", "prussia_unification_start2",
    []],
    
@@ -3558,7 +3594,7 @@ of Schleswig, and destroy the Danish armies in the process. Volunteers have bols
    ]],
    [anyone|plyr, "prussia_unification_start2",
    [],
-   "Unnecessary bloodshed, through and through. Try to difuse the situation.", "close_window",
+   "Unnecessary bloodshed, through and through. Try to difuse the situation.", "minister_pretalk",
    []],
    
 

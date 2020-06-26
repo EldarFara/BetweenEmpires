@@ -3451,7 +3451,7 @@ itemsfile version 3
  0
 0
 
- itm_sidearm_colt_m1851_navy Colt_M1851_Navy Colt_M1851_Navy 2  colt_m1851_navy 0  pistol_holster1 3458764513820540928  4259856 518080888832 700 131082 1.750000 130 0 0 92 0 0 40 175 0 6 306 0
+ itm_sidearm_colt_m1851_navy Colt_M1851_Navy Colt_M1851_Navy 2  colt_m1851_navy 0  pistol_holster1 3458764513820540928  4259856 518080888832 700 131082 1.750000 130 0 0 92 0 0 15 175 0 6 306 0
  0
 0
 
@@ -3467,7 +3467,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_henry Henry_Repeating_Rifle Henry_Repeating_Rifle 2  henry 0  henry_inv 1152921504606846976  543227920 555929845760 900 131082 4.000000 110 0 0 90 0 0 10 150 0 16 301 0
+ itm_rifle_henry Henry_Repeating_Rifle Henry_Repeating_Rifle 2  henry 0  henry 1152921504606846976  543227920 555929845760 900 131082 4.000000 110 0 0 90 0 0 10 150 0 16 301 0
  0
 0
 

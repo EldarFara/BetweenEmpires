@@ -218,6 +218,8 @@ minister_grant_fief
 minister_grant_self_fief
 prussia_unification_austria1
 prussia_unification_austria2
+prussia_unification_france1
+prussia_unification_france2
 prussia_unification_start1
 prussia_unification_start2
 italy_unification_start1

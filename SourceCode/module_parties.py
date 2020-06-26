@@ -173,7 +173,7 @@ parties = [
   ("castle_7","Kassel",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(444.74,-203.70),[],45),
   ("castle_8","Marseille",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(556.41,-53.56),[],30),
   ("castle_9","Orleans",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(590.40,-143.46),[],100),
-  ("castle_10","Politers",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(641.86,-131.44),[],110), 
+  ("castle_10","Poitiers",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(641.86,-131.44),[],110), 
   ("castle_11","Lugo",icon_town5|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(766.77,-78.81),[],75),
   ("castle_12","Seville",icon_town5|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(784.37,34.11),[],95),
   ("castle_13","Granada",icon_town5|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(708.54,41.89),[],115),
