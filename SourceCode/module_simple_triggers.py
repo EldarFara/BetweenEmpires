@@ -4291,6 +4291,11 @@ simple_triggers = [
 	(complete_quest, "qst_prussia_unification_defeat_austria"),
 	(assign, "$prussia_unification_progress", 4),
 	#form north german confederation
+	(faction_set_name, "fac_player_supporters_faction", "@North German Confederation"),
+	(call_script, "script_change_faction_flag", "fac_player_supporters_faction", 36),
+	(call_script, "script_faction_annex_faction", "fac_player_supporters_faction", "fac_kingdom_27", 50),
+	(call_script, "script_faction_annex_faction", "fac_player_supporters_faction", "fac_kingdom_31", 50),
+	(jump_to_menu, "mnu_prussia_unification_austria_defeated"),
 	(try_end),
 	(try_begin),
 	(check_quest_active, "qst_prussia_unification_defeat_france"),
@@ -4301,6 +4306,9 @@ simple_triggers = [
 	(complete_quest, "qst_prussia_unification_defeat_france"),
 	(assign, "$prussia_unification_progress", 6),
 	#form german empire
+	(call_script, "script_faction_annex_faction", "fac_player_supporters_faction", "fac_kingdom_30", 50),
+	(faction_set_name, "fac_player_supporters_faction", "@German Empire"),
+	(jump_to_menu, "mnu_german_empire_forming"),
 	(try_end),
 	(try_begin), # Player unificating Italy
 	(check_quest_active, "qst_italy_unification_defeat_sardinia"),

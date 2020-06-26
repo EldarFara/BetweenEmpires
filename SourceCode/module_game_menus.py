@@ -14940,6 +14940,42 @@ the high lords and common folk across the many realms of Europe."),
         ]),
 	]),
 
+  ("north_german_confederation_forming",0,
+    "north_german_confederation_forming",
+    "none",
+    [
+	],
+    [
+	("continue", [],"Close",
+       [
+		(change_screen_return),
+        ]),
+	]),
+
+  ("german_empire_forming",0,
+    "german_empire_forming",
+    "none",
+    [
+	],
+    [
+	("continue", [],"Close",
+       [
+		(change_screen_return),
+        ]),
+	]),
+
+  ("prussia_unification_austria_defeated",0,
+    "prussia_unification_austria_defeated",
+    "none",
+    [
+	],
+    [
+	("continue", [],"Close",
+       [
+		(jump_to_menu, "mnu_north_german_confederation_forming"),
+        ]),
+	]),
+
   
  ]
  

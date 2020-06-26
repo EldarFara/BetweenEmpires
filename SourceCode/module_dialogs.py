@@ -3521,8 +3521,9 @@ We will have to destroy the Confederate armies entirely, and conquer Nurmberg an
  has been doing their best to undermine Northern conglomeration efforts. We will have to defeat\
  and dissolve the weak German Confederation, lead by the Austrians, in order to rise to the position\
  of a German hegemon, and annex the Kingdom of Hannover.^^ - Defeat the German Confederation armies\
- belonging to Austria, Wurtemberg and Hannover^ - Conquer and hold the Bavarian fortification of Nurnberg\
- ^ - Conquer the capital city of Stuttgart^^We will be able to hold onto any conquests we make during the war,\
+ belonging to Austria, Wurtemberg and Hannover^ - Conquer and hold the Bavarian fortification of Nuremberg\
+ ^ - Conquer the capital city of Stuttgart^ - Sign peace with German Confederation on conditions of taking Nuremberg and Stuttgart^^\
+ We will be able to hold onto any conquests we make during the war,\
  and our ultimate goal is to annex the Northern German states. Victory will pave the way to ultimate unification\
  after we take back Alsace-Lorraine."),
 (call_script, "script_start_quest", "qst_prussia_unification_defeat_austria", "$g_talk_troop"),
@@ -3560,7 +3561,7 @@ defeated, we can declare empire on their own empire's rotten corpse.", "prussia_
  take back German clay in Alsace-Lorraine, and ultimately declare Empire under our soon-to-be Emperor\
  {playername}. It's time to display to the Southern Germans, foremost the Bavarians, that we are indeed\
  capable of defending and leading the German people.^^ - Conquer the French border city of Strasbourg^\
- - Annihilate the French Army entirely^^Let a united Germany rise from the ashes of the 2nd French Empire."),
+ - Annihilate the French Army entirely^ - Sign peace with France on conditions of taking Strasbourg^^Let a united Germany rise from the ashes of the 2nd French Empire."),
 (call_script, "script_start_quest", "qst_prussia_unification_defeat_france", "$g_talk_troop"),
 # war declarations
    ]],
@@ -3589,7 +3590,7 @@ of Schleswig, and destroy the Danish armies in the process. Volunteers have bols
    "So be it, inform the general staff that we are going to war.", "close_window",
    [
 	(assign, "$prussia_unification_progress", 1),
-	(str_store_string, s2, "@The first step towards German unification must be the reconquest of the Northern German regions of Schleswig, Holstein, and Lauenburg, which, for the past centuries, have been under occupation by the Danish Kingdom. Taking back the region, and destroying the Danish in the process, would certainly display might and competence in the eyes of the German states.^^ - Conquer the city of Kiel.^ - Defeat the Danish armies and destroy their economy to force them to surrender.^^Once we've defeated the Danes, we can move on to our Southern rival, the Austro-Hungarian Empire."),
+	(str_store_string, s2, "@The first step towards German unification must be the reconquest of the Northern German regions of Schleswig, Holstein, and Lauenburg, which, for the past centuries, have been under occupation by the Danish Kingdom. Taking back the region, and destroying the Danish in the process, would certainly display might and competence in the eyes of the German states.^^ - Conquer the city of Kiel.^ - Defeat the Danish armies and destroy their economy to force them to surrender.^ - Sign peace with Denmark on conditions of taking Kiel^^Once we've defeated the Danes, we can move on to our Southern rival, the Austro-Hungarian Empire."),
 	(call_script, "script_start_quest", "qst_prussia_unification_defeat_denmark", "$g_talk_troop"),
    ]],
    [anyone|plyr, "prussia_unification_start2",
