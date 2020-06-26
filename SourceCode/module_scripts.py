@@ -1627,6 +1627,7 @@ scripts = [
 			(try_begin),
 			(store_faction_of_party, ":faction", ":town_no"),
 			(party_set_slot,":town_no", slot_town_center, "scn_town_european_center"),
+			(party_set_slot,":town_no", slot_town_walls, "scn_town_european_walls"),
 			(eq, ":faction", "fac_kingdom_6"),
 			(party_set_slot,":town_no", slot_town_center, "scn_town_turkish_center"),
 			(else_try),
@@ -1645,7 +1646,8 @@ scripts = [
 			(this_or_next|eq, ":faction", "fac_kingdom_17"),
 			(this_or_next|eq, ":faction", "fac_kingdom_32"),
 			(eq, ":faction", "fac_kingdom_33"),
-			#(party_set_slot,":town_no", slot_town_center, "scn_town_arab_center"),
+			(party_set_slot,":town_no", slot_town_center, "scn_town_arab_center"),
+			(party_set_slot,"p_town_36", slot_town_walls, "scn_town_arab_walls"),
 			(try_end),
         (store_add, ":cur_object_no", "scn_town_1_castle", ":offset"),
        # (party_set_slot,":town_no", slot_town_castle, ":cur_object_no"),
@@ -1654,7 +1656,6 @@ scripts = [
         (party_set_slot,":town_no", slot_town_prison, ":cur_object_no"),
         (store_add, ":cur_object_no", "scn_town_1_walls", ":offset"),
        # (party_set_slot,":town_no", slot_town_walls, ":cur_object_no"),
-        (party_set_slot,":town_no", slot_town_walls, "scn_town_european_walls"),
         (store_add, ":cur_object_no", "scn_town_1_tavern", ":offset"),
        # (party_set_slot,":town_no", slot_town_tavern, ":cur_object_no"),
         (party_set_slot,":town_no", slot_town_tavern, "scn_town_european_tavern"),
@@ -1684,7 +1685,6 @@ scripts = [
         (party_set_slot,"p_town_7", slot_town_center, "scn_town_london_center"),
         (party_set_slot,"p_town_10", slot_town_center, "scn_town_london_center"),
         (party_set_slot,"p_town_18", slot_town_center, "scn_town_london_center"),
-        (party_set_slot,"p_town_36", slot_town_walls, "scn_town_arab_walls"),
 	  	  
 # Castles
       (try_for_range, ":castle_no", castles_begin, castles_end),
