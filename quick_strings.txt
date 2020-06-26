@@ -1,4 +1,4 @@
-979
+976
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -842,9 +842,6 @@ qstr_{!}DEBUG_:_{s2}_is_b {!}DEBUG_:_{s2}_is_besieging_by_{s3}
 qstr_{!}DEBUG___Checking_ {!}DEBUG_-_Checking_fire_at_{s4}_for_{s5}_-_current_time_{reg3},_last_nearby_fire_{reg4}
 qstr_The_{s1}_has_finishe The_{s1}_has_finished_researching_technology_of_{s2}
 qstr_The_year_is_{reg0}. The_year_is_{reg0}.
-qstr_tech_invented tech_invented
-qstr_faction_{reg10} faction_{reg10}
-qstr_111 111
 qstr_Kingdom_of_Italy Kingdom_of_Italy
 qstr_Finished_improving_r Finished_improving_relations_with_{s31}.
 qstr_{!}DEBUG____Wanted_b {!}DEBUG_--_Wanted_bandits_spotted_by_{s4}
