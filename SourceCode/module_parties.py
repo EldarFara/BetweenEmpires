@@ -370,7 +370,7 @@ parties = [
  ("castle_148","Qarshi",icon_town1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-501.52,-143.85),[],260),
  ("castle_149","Khorramabad",icon_town2|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-291.10,48.52),[],260),
  ("castle_150","British_Military_Base",icon_town2|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-418.43,208.90),[],260),
- ("castle_151","Strasbourg",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(527.79,-149.70),[],260),
+ ("castle_151","Strasbourg",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(524.49,-149.60),[],260),
  ("castle_152","Magon",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(556.72,-122.05),[],260),
  ("castle_153","Toulouse",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(591.84,-64.23),[],260),
  ("castle_154","Mont_de_Marsan",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(633.70,-81.77),[],260),
@@ -477,6 +477,10 @@ parties = [
  ("castle_255","Dybbol",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(462.13,-277.91),[],260),
  ("castle_256","Kiel",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(459.85,-270.93),[],260),
  ("castle_257","Lubeck",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(449.93,-259.11),[],260),
+ ("castle_258","Grindelwald",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(507.57,-105.01),[],260),
+ ("castle_259","Zurich",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(512.38,-114.54),[], 60),
+ ("castle_260","Saarbrucken",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(512.19,-180.59),[], 60),
+ ("castle_261","Wurtzburg",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(463.34,-169.91),[], 60),
  
 #     Rinimad      
 #              Rietal Derchios Gerdus
@@ -549,7 +553,7 @@ parties = [
   ("village_60","Grandola",  icon_village5|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(810.86,-0.82),[], 170),
 
   ("village_61","Lagos",  icon_village5|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(817.97,24.26),[], 100),
-  ("village_62","Novas_Evora",  icon_village5|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(795.73,-3.41),[], 100),
+  ("village_62","Evora",  icon_village5|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(795.73,-3.41),[], 100),
   ("village_63","Covilha",  icon_village5|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(779.81,-40.53),[], 100),
   ("village_64","Vila_Real",  icon_village5|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(774.79,-54.24),[], 100),
   ("village_65","Mora",  icon_village5|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(790.21,-20.06),[], 100),
@@ -593,10 +597,10 @@ parties = [
   ("village_100","Udaipur",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-769.03,101.13),[], 40),
 
   ("village_101","Uzgha",  icon_village2|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-345.78,196.31),[], 20),
-  ("village_102","Zurich",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(512.38,-114.54),[], 60),
-  ("village_103","Brig",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(513.32,-106.52),[], 55),
+  ("village_102","Biel",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(533.09,-115.23),[], 60),
+  ("village_103","Locarno",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(500.94,-100.80),[], 55),
   ("village_104","Lausanne",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(525.43,-105.94),[], 15),
-  ("village_105","Basel",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(520.11,-115.61),[], 10),
+  ("village_105","Frauenfeld",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(506.44,-119.37),[], 10),
   ("village_106","Thebes",  icon_village6|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(244.79,28.16),[], 35),
   ("village_107","Yanbu",  icon_village2|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-128.55,293.08),[], 160),
   ("village_108","Zalim",  icon_village2|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-175.51,293.49),[], 180),
@@ -1211,7 +1215,9 @@ parties = [
     ("village_680", "Ramhormoz",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-330.35,70.08),[], 170),
     ("village_681", "Lar",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-449.62,118.02),[], 170),
     ("village_682", "Jiroft",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-494.54,108.56),[], 170),
-    ("village_683", "Neustadt",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(447.11,-262.60),[], 170),
+    ("village_683", "Neustadt",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(447.11,-262.60),[], 170),
+    ("village_684", "Trier",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(509.97,-185.0),[], 170),
+    ("village_685", "Wertheim",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(469.12,-170.50),[], 170),
     
     
   

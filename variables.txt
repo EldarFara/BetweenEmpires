@@ -1288,7 +1288,6 @@ g_presentation_obj_coop_companion_class_select_0_mounted
 g_presentation_obj_coop_companion_class_select_1_mounted
 g_presentation_obj_coop_companion_select_done
 g_presentation_obj_name_kingdom_0
-g_player_culture
 g_presentation_obj_assign_drop_container
 g_presentation_obj_coop_assign_drop_player
 g_coop_assign_drop_companion_1
@@ -1392,6 +1391,7 @@ temp_troop
 skill_points
 weapon_points
 attribute_points
+custom_troops_set
 g_presentation_obj_20
 current_item
 g_custom_troops_pbs_type_selection_text

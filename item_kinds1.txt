@@ -1,5 +1,5 @@
 itemsfile version 3
-1380
+1396
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -5704,35 +5704,35 @@ itemsfile version 3
  49
 0
 
- itm_rifle_spanish_m1859 Pattern_1859_Musket Pattern_1859_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_spanish_m1859 Spanish_Pattern_1859_Musket Spanish_Pattern_1859_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
  0
 0
 
- itm_rifle_spanish_m1859_m Pattern_1859_Musket Pattern_1859_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30720 75 0 120 0 286 286
+ itm_rifle_spanish_m1859_m Spanish_Pattern_1859_Musket Spanish_Pattern_1859_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30720 75 0 120 0 286 286
  0
 0
 
- itm_rifle_spanish_m1859_carbine Pattern_1859_Carbine Pattern_1859_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_spanish_m1859_carbine Spanish_Pattern_1859_Carbine Spanish_Pattern_1859_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
  0
 0
 
- itm_rifle_spanish_m1859_carbine_m Pattern_1859_Carbine Pattern_1859_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 18432 75 0 80 0 532 530
+ itm_rifle_spanish_m1859_carbine_m Spanish_Pattern_1859_Carbine Spanish_Pattern_1859_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 18432 75 0 80 0 532 530
  0
 0
 
- itm_rifle_spanish_m1865 Pattern_1865_Rifle Pattern_1865_Rifle 2  enfield1853 0  enfield1853_inv 1152921504606846976  811597833 6174031872 400 131082 4.750000 60 0 0 95 0 0 55 600 0 1 311 0
+ itm_rifle_spanish_m1865 Spanish_Pattern_1865_Rifle Spanish_Pattern_1865_Rifle 2  enfield1853 0  enfield1853_inv 1152921504606846976  811597833 6174031872 400 131082 4.750000 60 0 0 95 0 0 55 600 0 1 311 0
  0
 0
 
- itm_rifle_spanish_m1865_m Pattern_1865_Rifle Pattern_1865_Rifle 1  enfield1853 0  2251800088674308 4222130824676096 0 0 4.750000 100 0 0 0 0 30720 75 0 120 0 286 286
+ itm_rifle_spanish_m1865_m Spanish_Pattern_1865_Rifle Spanish_Pattern_1865_Rifle 1  enfield1853 0  2251800088674308 4222130824676096 0 0 4.750000 100 0 0 0 0 30720 75 0 120 0 286 286
  0
 0
 
- itm_rifle_spanish_m1865_carbine Pattern_1865_Carbine Pattern_1865_Carbine 2  enfield1853_carbine 0  enfield1853_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 60 0 0 80 0 0 63 600 0 1 311 0
+ itm_rifle_spanish_m1865_carbine Spanish_Pattern_1865_Carbine Spanish_Pattern_1865_Carbine 2  enfield1853_carbine 0  enfield1853_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 60 0 0 80 0 0 63 600 0 1 311 0
  0
 0
 
- itm_rifle_spanish_m1865_carbine_m Pattern_1865_Carbine Pattern_1865_Carbine 1  enfield1853_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 18432 75 0 80 0 532 530
+ itm_rifle_spanish_m1865_carbine_m Spanish_Pattern_1865_Carbine Spanish_Pattern_1865_Carbine 1  enfield1853_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 18432 75 0 80 0 532 530
  0
 0
 
@@ -5760,11 +5760,11 @@ itemsfile version 3
  0
 0
 
- itm_rifle_spanish_mauser_carbine Mauser_M1893_Rifle Mauser_M1893_Rifle 2  g98 0  g98_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_spanish_mauser_carbine Mauser_M1893_Carbine Mauser_M1893_Carbine 2  g98 0  g98_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
  0
 0
 
- itm_rifle_spanish_mauser_carbine_m Mauser_M1893_Rifle Mauser_M1893_Rifle 1  g98 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 80 0 532 530
+ itm_rifle_spanish_mauser_carbine_m Mauser_M1893_Carbine Mauser_M1893_Carbine 1  g98 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 80 0 532 530
  0
 0
 
@@ -5963,6 +5963,78 @@ itemsfile version 3
 0
 
  itm_saber3 British_Pattern_1864_Trooper_Sword British_Pattern_1864_Trooper_Sword 2  1864_trooper_sword 0  saber_scab 3458764513820540928  4259842 9223388564182532111 163 155668 1.500000 100 0 0 0 0 30720 105 0 100 0 279 30
+ 0
+0
+
+ itm_sar_infantry1 Swiss_Military_Uniform Swiss_Military_Uniform 1  sar_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_sar_infantry2 Swiss_Military_Uniform Swiss_Military_Uniform 1  sar_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_sar_infantry3 Swiss_Military_Uniform Swiss_Military_Uniform 1  sar_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_sar_infantry4 Swiss_Military_Uniform Swiss_Military_Uniform 1  sar_infantry4 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_sar_trousers1 Swiss_Military_Trousers Swiss_Military_Trousers 1  sar_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_sar_trousers2 Swiss_Military_Trousers Swiss_Military_Trousers 1  sar_trousers2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_sar_hat1 Swiss_Shako Swiss_Shako 1  sar_hat1 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_sar_hat2 Swiss_Shako Swiss_Shako 1  sar_hat2 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_rifle_swiss_m1842 Swiss_Smoothbore_Musket Swiss_Smoothbore_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ 0
+0
+
+ itm_rifle_swiss_m1842_m Swiss_Smoothbore_Musket Swiss_Smoothbore_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30720 75 0 120 0 286 286
+ 0
+0
+
+ itm_rifle_swiss_m1842_carbine Swiss_Smoothbore_Carbine Swiss_Smoothbore_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
+ 0
+0
+
+ itm_rifle_swiss_m1842_carbine_m Swiss_Smoothbore_Carbine Swiss_Smoothbore_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 18432 75 0 80 0 532 530
+ 0
+0
+
+ itm_rifle_swiss_vetterli Vetterli_M1869_Rifle Vetterli_M1869_Rifle 2  vetterli1878 0  vetterli1878_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 99 0 0 47 700 0 5 301 0
+ 0
+0
+
+ itm_rifle_swiss_vetterli_m Vetterli_M1869_Rifle Vetterli_M1869_Rifle 1  vetterli1878 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
+ 0
+0
+
+ itm_rifle_swiss_vetterli_carbine Vetterli_M1869_Carbine Vetterli_M1869_Carbine 2  vetterli1878_carbine 0  vetterli1878_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 60 0 0 83 0 0 54 700 0 5 301 0
+ 0
+0
+
+ itm_rifle_swiss_vetterli_carbine_m Vetterli_M1869_Carbine Vetterli_M1869_Carbine 1  vetterli1878_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 80 0 532 530
  0
 0
 

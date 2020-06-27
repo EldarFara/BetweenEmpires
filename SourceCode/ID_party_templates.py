@@ -198,3 +198,6 @@ pt_persian_bandits = 196
 pt_turkish_bandits = 197
 pt_indian_bandits = 198
 pt_middleasia_bandits = 199
+pt_factionplayer_reinforcements_a = 200
+pt_factionplayer_reinforcements_b = 201
+pt_factionplayer_reinforcements_c = 202

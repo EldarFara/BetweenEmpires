@@ -12880,6 +12880,9 @@ the high lords and common folk across the many realms of Europe."),
     (try_begin),
         (eq, "$players_kingdom_name_set", 1),
         (change_screen_return),
+    (else_try),
+		(eq, "$custom_troops_set", 0),
+         (start_presentation, "prsnt_custom_kingdom_troop"),
     (try_end),
 	  
 	(try_begin),
@@ -14533,7 +14536,7 @@ the high lords and common folk across the many realms of Europe."),
   ),
   
   ("cannoneers_store",menu_text_color(0xFF000000)|mnf_disable_all_keys,
-    "The soldiers let you into the armory. Here you can order heavy weaponry - field guns and howitzers.^^Your current balance is {reg0} pounds.",
+    "The soldiers let you into the armory. Here you can order heavy weaponry - field guns and howitzers.^^Your current balance is {reg0} pounds.^^^Note that cannons won't spawn in battle unless you have either field guns or howitzer company set in prebattle menu.",
     "none",
     [
 	#todo add background image here
@@ -14837,7 +14840,7 @@ the high lords and common folk across the many realms of Europe."),
 	]),
 
   ("peace_negotiations_initial",0,
-    "Peace negotiations begin.",
+    "Diplomats and ambassadors arrive in your nations court, shuffling around papers, telegrams, and letters, trying to come to terms with the current state of affairs. This is where you can make the most out of the casualties you suffered.",
     "none",
     [
 	],
@@ -14850,11 +14853,12 @@ the high lords and common folk across the many realms of Europe."),
 	]),
 
   ("create_alliance",0,
-    "{s31} will become an ally of {s32} for {reg10} pounds.",
+    "News are reaching your court from the foreign embassy in the capital city. The {s31} is willing to become our declared ally for a number of minor agreements, and foremost, {reg10} in monetary assurance.^^^Your balance is {reg20} pounds.",
     "none",
     [
    (faction_get_slot, ":price", "$create_alliance_chosen_faction", slot_faction_alliance_price),
    (assign, reg10, ":price"),
+   (store_troop_gold, reg20, "trp_player"),
 	],
     [
 	("continue", [
@@ -14889,7 +14893,10 @@ the high lords and common folk across the many realms of Europe."),
 		(faction_set_slot, "fac_player_supporters_faction", ":provocation_slot", 500),
 		(change_screen_return),
         ]),
-	("alliance_support_ally_in_war_decline", [],"Decline and break alliance with {s31}.",
+	("alliance_support_ally_in_war_decline", [
+		(faction_get_slot, ":ally_infamy", reg10, slot_faction_infamy), (val_div, ":ally_infamy", 2),
+		(store_sub, reg21, 15, ":ally_infamy"),
+	],"Decline and break alliance with {s31} (Infamy penalty - {reg21}).",
        [
 	   (call_script, "script_break_alliance_between_factions", "fac_player_supporters_faction", reg10),
 		(faction_get_slot, ":ally_infamy", reg10, slot_faction_infamy), (val_div, ":ally_infamy", 2),
@@ -14924,24 +14931,24 @@ the high lords and common folk across the many realms of Europe."),
 	]),
 
   ("create_alliance2",0,
-    "Diplomats sent by {s31} arrived at your location, proposing creating an alliance with {s32}.",
+    "You receive a message from your Secretary, stating that {s31} is seeking to form an alliance with your nation. While an alliance would certainly be useful, it'd also put new obligations onto your shoulders.",
     "none",
     [
 	],
     [
-	("continue", [],"Accept.",
+	("continue", [],"Accept proposal.",
        [
 	(call_script, "script_create_alliance_between_factions", "fac_player_supporters_faction", reg10),
 		(change_screen_return),
         ]),
-	("decline", [],"Decline.",
+	("decline", [],"Decline proposal.",
        [
 		(change_screen_return),
         ]),
 	]),
 
   ("north_german_confederation_forming",0,
-    "north_german_confederation_forming",
+    "Following the defeat of the Hannoveranians and Austrians at Prussian hands, and the dissolution of the German Confederation, a new state, the North German Confederation, led by Prussia, has been formed. Only a few German states, most notably Bavaria, are excluded from the Confederation, which is certainly looking towards integrating them soon. The German tricolour is flying over the Hannoveranian gardens.",
     "none",
     [
 	],
@@ -14953,7 +14960,19 @@ the high lords and common folk across the many realms of Europe."),
 	]),
 
   ("german_empire_forming",0,
-    "german_empire_forming",
+    "Germany founded^^The German Empire has today been declared in the Hall of Mirrors in the French royal palace of Versailles. The French Second Empire has been dissolved, and from it's ruins, a new united Germany has risen. The black-white-and-red Imperial flag has been hoisted in the city of Strasbourge, and the Bavarians have finally joined their German sister states.",
+    "none",
+    [
+	],
+    [
+	("continue", [],"Close",
+       [
+		(change_screen_return),
+        ]),
+	]),
+
+  ("prussia_unification_denmark_defeated",0,
+    "German-Danish War over^^The Second Schleswig war has ended with a decisive victory for the Germans, led foremost by the Prussian general Helmuth von Moltke.The Danish were beaten back decisively, and the fortress of Schleswig fell to modern artillery fire and massed infantry attacks. Austro-Hungarian field marshal Wilhelm von Tegetthoff has called the war a “decisive and defintive moment in the history of the German people”, and the Regions have Schleswig, Holstein, and Lauenburg have been firmly taken control off by German forces.^Observers fear this is only the first step in German exapansionism...",
     "none",
     [
 	],
@@ -14965,7 +14984,7 @@ the high lords and common folk across the many realms of Europe."),
 	]),
 
   ("prussia_unification_austria_defeated",0,
-    "prussia_unification_austria_defeated",
+    "The German War^^The war between Prussia and the German Confederation, led by the Austro-Hungarian Emperor Franz Joseph I, has come to a close. Prussian forces were able to beat the major German states of Wurttemberg, Bavaria, and Hannover, occupying the latter, and forcing the Austrians to surrender, soon after dissolving the German Confederation and forever barring Austria from a place at the helm of the German people.^German unification is inching closer by the day.",
     "none",
     [
 	],
@@ -14973,6 +14992,18 @@ the high lords and common folk across the many realms of Europe."),
 	("continue", [],"Close",
        [
 		(jump_to_menu, "mnu_north_german_confederation_forming"),
+        ]),
+	]),
+
+  ("prussia_unification_france_defeated",0,
+    "The Franco-Prussian War^^The war between the North German Confederation, aided by Southern German forces, has been decisively won by Prussian forces. Though outgunned, German marshal von Moltke managed to utilize new technologies, especially the new railway system, to its fullest effect, taking the French off-guard dozens of times, ultimately defeating them entirely, forcing the Government to surrender.^German unification is only a matter of time now.",
+    "none",
+    [
+	],
+    [
+	("continue", [],"Close",
+       [
+		(jump_to_menu, "mnu_german_empire_forming"),
         ]),
 	]),
 

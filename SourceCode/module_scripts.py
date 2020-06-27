@@ -53,6 +53,7 @@ scripts = [
 (assign, "$g_game_speed", 15),
 (assign, "$g_days_until_next_year", -1),
 (assign, "$g_current_year", 1860),
+(assign, "$custom_troops_set", 0),
    
    	  ## ZZ Custom Kingdom Troops begin
 	  (call_script,"script_item_detial"),
@@ -204,6 +205,15 @@ scripts = [
 (troop_set_slot, "trp_faction7_troop11", slot_troop_pbs_type, pbs_troop_type_cavmelee),
 (troop_set_slot, "trp_faction7_troop12", slot_troop_pbs_type, pbs_troop_type_cavranged),
 (troop_set_slot, "trp_faction7_troop13", slot_troop_pbs_type, pbs_troop_type_cavranged),
+(troop_set_slot, "trp_faction13_troop5", slot_troop_pbs_type, pbs_troop_type_light),
+(troop_set_slot, "trp_faction13_troop6", slot_troop_pbs_type, pbs_troop_type_light),
+(troop_set_slot, "trp_faction13_troop7", slot_troop_pbs_type, pbs_troop_type_light),
+(troop_set_slot, "trp_faction13_troop8", slot_troop_pbs_type, pbs_troop_type_guard),
+(troop_set_slot, "trp_faction13_troop9", slot_troop_pbs_type, pbs_troop_type_guard),
+(troop_set_slot, "trp_faction13_troop10", slot_troop_pbs_type, pbs_troop_type_cavmelee),
+(troop_set_slot, "trp_faction13_troop11", slot_troop_pbs_type, pbs_troop_type_cavmelee),
+(troop_set_slot, "trp_faction13_troop12", slot_troop_pbs_type, pbs_troop_type_cavranged),
+(troop_set_slot, "trp_faction13_troop13", slot_troop_pbs_type, pbs_troop_type_cavranged),
 (troop_set_slot, "trp_faction20_troop5", slot_troop_pbs_type, pbs_troop_type_light),
 (troop_set_slot, "trp_faction20_troop6", slot_troop_pbs_type, pbs_troop_type_light),
 (troop_set_slot, "trp_faction20_troop7", slot_troop_pbs_type, pbs_troop_type_light),
@@ -717,6 +727,13 @@ scripts = [
       (faction_set_slot, "fac_culture_player",  slot_faction_tier_5_troop, "trp_kingdom_knight"),
 ## ZZ Custom Kingdom Troops end
 	  
+      (faction_set_slot, "fac_culture_player", slot_faction_town_walker_male_troop, "trp_town_walker_1"),
+      (faction_set_slot, "fac_culture_player", slot_faction_town_walker_female_troop, "trp_town_walker_3"),
+      (faction_set_slot, "fac_culture_player", slot_faction_village_walker_male_troop, "trp_village_walker_1"),
+      (faction_set_slot, "fac_culture_player", slot_faction_village_walker_female_troop, "trp_village_walker_2"),
+      (faction_set_slot, "fac_culture_player", slot_faction_town_spy_male_troop, "trp_spy_walker_1"),
+      (faction_set_slot, "fac_culture_player", slot_faction_town_spy_female_troop, "trp_spy_walker_2"),
+	  
       (faction_set_slot, "fac_culture_1", slot_faction_town_walker_male_troop, "trp_town_walker_1"),
       (faction_set_slot, "fac_culture_1", slot_faction_town_walker_female_troop, "trp_town_walker_3"),
       (faction_set_slot, "fac_culture_1", slot_faction_village_walker_male_troop, "trp_village_walker_1"),
@@ -1087,7 +1104,7 @@ scripts = [
       (faction_set_slot, "fac_kingdom_33",  slot_faction_leader, "trp_kingdom_33_lord"),
 	  (troop_set_slot, "trp_kingdom_33_lord", slot_troop_renown, 1200),
 	  
-      (assign, ":player_faction_culture", "fac_culture_1"),
+      (assign, ":player_faction_culture", "fac_culture_player"),
       (faction_set_slot, "fac_player_supporters_faction",  slot_faction_culture, ":player_faction_culture"),
       (faction_set_slot, "fac_player_faction",  slot_faction_culture, ":player_faction_culture"),
 	  
@@ -1222,7 +1239,9 @@ scripts = [
 	(call_script, "script_give_center_to_faction_aux", "p_village_321", "fac_kingdom_26"),
     (party_set_slot, "p_village_677", slot_village_bound_center, "p_castle_255"),
 	(call_script, "script_give_center_to_faction_aux", "p_village_677", "fac_kingdom_18"),
-    (party_set_slot, "p_village_678", slot_village_bound_center, "p_castle_256"),
+    (party_set_slot, "p_village_286", slot_village_bound_center, "p_castle_255"),
+	(call_script, "script_give_center_to_faction_aux", "p_village_286", "fac_kingdom_18"),
+    (party_set_slot, "p_village_678", slot_village_bound_center, "p_town_39"),
 	(call_script, "script_give_center_to_faction_aux", "p_village_678", "fac_kingdom_18"),
     (party_set_slot, "p_village_318", slot_village_bound_center, "p_castle_110"),
 	(call_script, "script_give_center_to_faction_aux", "p_village_318", "fac_kingdom_31"),
@@ -1232,6 +1251,14 @@ scripts = [
 	(call_script, "script_give_center_to_faction_aux", "p_village_683", "fac_kingdom_5"),
     (party_set_slot, "p_village_290", slot_village_bound_center, "p_castle_77"),
 	(call_script, "script_give_center_to_faction_aux", "p_village_290", "fac_kingdom_18"),
+    (party_set_slot, "p_village_312", slot_village_bound_center, "p_town_47"),
+	(call_script, "script_give_center_to_faction_aux", "p_village_312", "fac_kingdom_31"),
+    (party_set_slot, "p_village_160", slot_village_bound_center, "p_castle_135"),
+	(call_script, "script_give_center_to_faction_aux", "p_village_160", "fac_kingdom_1"),
+    (party_set_slot, "p_village_103", slot_village_bound_center, "p_castle_258"),
+	(call_script, "script_give_center_to_faction_aux", "p_village_103", "fac_kingdom_13"),
+    (party_set_slot, "p_village_684", slot_village_bound_center, "p_castle_261"),
+	(call_script, "script_give_center_to_faction_aux", "p_village_684", "fac_kingdom_5"),
     
     
 
@@ -1490,130 +1517,133 @@ scripts = [
       (call_script, "script_give_center_to_faction_aux", "p_castle_132", "fac_kingdom_11"),#japan
       (call_script, "script_give_center_to_faction_aux", "p_castle_133", "fac_kingdom_12"),#incan
       (call_script, "script_give_center_to_faction_aux", "p_castle_134", "fac_kingdom_15"),#indian
-      (call_script, "script_give_center_to_faction_aux", "p_castle_135", "fac_kingdom_1"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_136", "fac_kingdom_19"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_137", "fac_kingdom_4"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_138", "fac_kingdom_4"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_139", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_140", "fac_kingdom_24"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_141", "fac_kingdom_1"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_142", "fac_kingdom_1"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_143", "fac_kingdom_7"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_144", "fac_kingdom_7"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_145", "fac_kingdom_3"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_146", "fac_kingdom_3"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_147", "fac_kingdom_12"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_148", "fac_kingdom_22"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_149", "fac_kingdom_12"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_150", "fac_kingdom_20"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_151", "fac_kingdom_1"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_152", "fac_kingdom_1"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_153", "fac_kingdom_1"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_154", "fac_kingdom_1"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_155", "fac_kingdom_1"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_156", "fac_kingdom_1"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_157", "fac_kingdom_1"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_158", "fac_kingdom_1"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_159", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_160", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_161", "fac_kingdom_30"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_162", "fac_kingdom_30"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_163", "fac_kingdom_30"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_164", "fac_kingdom_5"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_165", "fac_kingdom_5"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_166", "fac_kingdom_5"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_167", "fac_kingdom_5"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_168", "fac_kingdom_5"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_169", "fac_kingdom_5"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_170", "fac_kingdom_33"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_171", "fac_kingdom_29"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_172", "fac_kingdom_29"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_173", "fac_kingdom_29"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_174", "fac_kingdom_29"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_175", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_176", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_177", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_178", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_179", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_180", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_181", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_182", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_183", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_184", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_185", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_186", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_187", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_188", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_189", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_190", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_191", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_192", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_193", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_194", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_195", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_196", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_197", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_198", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_199", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_200", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_201", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_202", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_203", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_204", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_205", "fac_kingdom_6"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_206", "fac_kingdom_12"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_207", "fac_kingdom_20"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_208", "fac_kingdom_20"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_209", "fac_kingdom_20"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_210", "fac_kingdom_20"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_211", "fac_kingdom_20"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_212", "fac_kingdom_20"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_213", "fac_kingdom_3"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_214", "fac_kingdom_7"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_215", "fac_kingdom_7"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_216", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_217", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_218", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_219", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_220", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_221", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_222", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_223", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_224", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_225", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_226", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_227", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_228", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_229", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_230", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_231", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_232", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_233", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_234", "fac_kingdom_5"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_235", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_236", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_237", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_238", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_239", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_240", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_241", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_242", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_243", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_244", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_245", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_246", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_247", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_248", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_249", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_250", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_251", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_252", "fac_kingdom_2"),#indu
-      (call_script, "script_give_center_to_faction_aux", "p_castle_253", "fac_kingdom_2"),#indu
+      (call_script, "script_give_center_to_faction_aux", "p_castle_135", "fac_kingdom_1"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_136", "fac_kingdom_19"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_137", "fac_kingdom_4"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_138", "fac_kingdom_4"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_139", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_140", "fac_kingdom_24"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_141", "fac_kingdom_1"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_142", "fac_kingdom_1"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_143", "fac_kingdom_7"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_144", "fac_kingdom_7"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_145", "fac_kingdom_3"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_146", "fac_kingdom_3"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_147", "fac_kingdom_12"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_148", "fac_kingdom_22"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_149", "fac_kingdom_12"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_150", "fac_kingdom_20"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_151", "fac_kingdom_1"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_152", "fac_kingdom_1"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_153", "fac_kingdom_1"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_154", "fac_kingdom_1"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_155", "fac_kingdom_1"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_156", "fac_kingdom_1"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_157", "fac_kingdom_1"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_158", "fac_kingdom_1"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_159", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_160", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_161", "fac_kingdom_30"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_162", "fac_kingdom_30"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_163", "fac_kingdom_30"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_164", "fac_kingdom_5"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_165", "fac_kingdom_5"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_166", "fac_kingdom_5"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_167", "fac_kingdom_5"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_168", "fac_kingdom_5"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_169", "fac_kingdom_5"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_170", "fac_kingdom_33"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_171", "fac_kingdom_29"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_172", "fac_kingdom_29"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_173", "fac_kingdom_29"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_174", "fac_kingdom_29"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_175", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_176", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_177", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_178", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_179", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_180", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_181", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_182", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_183", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_184", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_185", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_186", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_187", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_188", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_189", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_190", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_191", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_192", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_193", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_194", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_195", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_196", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_197", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_198", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_199", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_200", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_201", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_202", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_203", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_204", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_205", "fac_kingdom_6"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_206", "fac_kingdom_12"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_207", "fac_kingdom_20"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_208", "fac_kingdom_20"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_209", "fac_kingdom_20"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_210", "fac_kingdom_20"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_211", "fac_kingdom_20"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_212", "fac_kingdom_20"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_213", "fac_kingdom_3"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_214", "fac_kingdom_7"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_215", "fac_kingdom_7"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_216", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_217", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_218", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_219", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_220", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_221", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_222", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_223", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_224", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_225", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_226", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_227", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_228", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_229", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_230", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_231", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_232", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_233", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_234", "fac_kingdom_5"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_235", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_236", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_237", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_238", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_239", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_240", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_241", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_242", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_243", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_244", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_245", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_246", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_247", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_248", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_249", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_250", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_251", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_252", "fac_kingdom_2"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_253", "fac_kingdom_2"),
       (call_script, "script_give_center_to_faction_aux", "p_castle_254", "fac_kingdom_2"),
       (call_script, "script_give_center_to_faction_aux", "p_castle_255", "fac_kingdom_18"),
       (call_script, "script_give_center_to_faction_aux", "p_castle_256", "fac_kingdom_18"),
       (call_script, "script_give_center_to_faction_aux", "p_castle_257", "fac_kingdom_5"),
-#yifeng 1.5
+      (call_script, "script_give_center_to_faction_aux", "p_castle_258", "fac_kingdom_13"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_259", "fac_kingdom_13"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_260", "fac_kingdom_5"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_261", "fac_kingdom_5"),
 
 (call_script, "script_init_preset_wars"),
       		  	  
@@ -7559,6 +7589,14 @@ scripts = [
         (try_begin),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_player"),
           (faction_set_slot, ":faction_no",  slot_faction_reinforcements_artillery, "pt_factionplayer_reinforcements_artillery"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_a, "pt_factionplayer_reinforcements_a"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_b, "pt_factionplayer_reinforcements_b"),
+          (faction_set_slot, ":faction_no",  slot_faction_reinforcements_c, "pt_factionplayer_reinforcements_c"),
+          (faction_set_slot, ":faction_no",  slot_faction_deserter_troop, "trp_kingdom_recruit"),
+          (faction_set_slot, ":faction_no",  slot_faction_guard_troop, "trp_kingdom_recruit"),
+          (faction_set_slot, ":faction_no",  slot_faction_messenger_troop, "trp_kingdom_recruit"),
+          (faction_set_slot, ":faction_no",  slot_faction_prison_guard_troop, "trp_kingdom_recruit"),
+          (faction_set_slot, ":faction_no",  slot_faction_castle_guard_troop, "trp_kingdom_recruit"),
         (else_try),
           (faction_slot_eq, ":faction_no", slot_faction_culture, "fac_culture_1"),
       
@@ -8000,6 +8038,10 @@ scripts = [
       (item_set_slot, "itm_rifle_spanish_m1859", slot_item_converted_analog, "itm_rifle_russian_berdan"),
       (item_set_slot, "itm_rifle_spanish_m1859", slot_item_small_caliber_analog, "itm_rifle_rollingblock"),
       (item_set_slot, "itm_rifle_spanish_m1859", slot_item_bolt_action_analog, "itm_rifle_spanish_mauser"),
+      (item_set_slot, "itm_rifle_swiss_m1842", slot_item_rifled_analog, "itm_rifle_french_m1849"),
+      (item_set_slot, "itm_rifle_swiss_m1842", slot_item_converted_analog, "itm_rifle_french_tabatiere"),
+      (item_set_slot, "itm_rifle_swiss_m1842", slot_item_small_caliber_analog, "itm_rifle_french_chassepot"),
+      (item_set_slot, "itm_rifle_swiss_m1842", slot_item_bolt_action_analog, "itm_rifle_swiss_vetterli"),
 	  
       (item_set_slot, "itm_rifle_russian_m1845_carbine", slot_item_rifled_analog, "itm_rifle_russian_m1856_carbine"),
       (item_set_slot, "itm_rifle_russian_m1845_carbine", slot_item_converted_analog, "itm_rifle_russian_m1867_carbine"),
@@ -8029,6 +8071,10 @@ scripts = [
       (item_set_slot, "itm_rifle_spanish_m1859_carbine", slot_item_converted_analog, "itm_rifle_russian_berdan_carbine"),
       (item_set_slot, "itm_rifle_spanish_m1859_carbine", slot_item_small_caliber_analog, "itm_rifle_rollingblock_carbine"),
       (item_set_slot, "itm_rifle_spanish_m1859_carbine", slot_item_bolt_action_analog, "itm_rifle_spanish_mauser_carbine"),
+      (item_set_slot, "itm_rifle_swiss_m1842_carbine", slot_item_rifled_analog, "itm_rifle_french_m1849_carbine"),
+      (item_set_slot, "itm_rifle_swiss_m1842_carbine", slot_item_converted_analog, "itm_rifle_french_tabatiere_carbine"),
+      (item_set_slot, "itm_rifle_swiss_m1842_carbine", slot_item_small_caliber_analog, "itm_rifle_french_chassepot_carbine"),
+      (item_set_slot, "itm_rifle_swiss_m1842_carbine", slot_item_bolt_action_analog, "itm_rifle_swiss_vetterli_carbine"),
 	  
 	(item_set_slot, "itm_rifle_spanish_mauser", slot_item_appearance_year, 1893),
 	(item_set_slot, "itm_rifle_spanish_mauser_carbine", slot_item_appearance_year, 1893),
@@ -8070,6 +8116,8 @@ scripts = [
 	(item_set_slot, "itm_rifle_french_chassepot_carbine", slot_item_appearance_year, 1866),
 	(item_set_slot, "itm_rifle_french_lebel", slot_item_appearance_year, 1886),
 	(item_set_slot, "itm_rifle_french_lebel_carbine", slot_item_appearance_year, 1886),
+	(item_set_slot, "itm_rifle_swiss_vetterli", slot_item_appearance_year, 1869),
+	(item_set_slot, "itm_rifle_swiss_vetterli_carbine", slot_item_appearance_year, 1869),
 	(item_set_slot, "itm_sidearm_colt_m1873", slot_item_appearance_year, 1873),
 	(item_set_slot, "itm_sidearm_gasser", slot_item_appearance_year, 1870),
 	(item_set_slot, "itm_sidearm_savage_revolver", slot_item_appearance_year, 1861),
@@ -15775,6 +15823,8 @@ scripts = [
 		(try_begin),
 		(this_or_next|eq, ":item_no", "itm_rifle_russian_m1845"),
 		(this_or_next|eq, ":item_no", "itm_rifle_russian_m1845_carbine"),
+		(this_or_next|eq, ":item_no", "itm_rifle_swiss_m1842"),
+		(this_or_next|eq, ":item_no", "itm_rifle_swiss_m1842_carbine"),
 		(this_or_next|eq, ":item_no", "itm_rifle_french_m1844"),
 		(this_or_next|eq, ":item_no", "itm_rifle_french_m1844_carbine"),
 		(this_or_next|eq, ":item_no", "itm_rifle_austrian_m1842"),
@@ -15898,6 +15948,8 @@ scripts = [
 		(try_end),
 		(try_begin),
 		(this_or_next|eq, ":item_no", "itm_rifle_russian_mosin_carbine"),
+		(this_or_next|eq, ":item_no", "itm_rifle_swiss_vetterli"),
+		(this_or_next|eq, ":item_no", "itm_rifle_swiss_vetterli_carbine"),
 		(this_or_next|eq, ":item_no", "itm_rifle_italian_vetterlivitali"),
 		(this_or_next|eq, ":item_no", "itm_rifle_italian_vetterlivitali_carbine"),
 		(this_or_next|eq, ":item_no", "itm_rifle_german_m1888"),
@@ -23089,47 +23141,6 @@ scripts = [
     (try_end),       
   ]),
   
-##  # script_give_town_to_besiegers
-##  # Input: arg1 = center_no, arg2 = besieger_party
-##  ("give_town_to_besiegers",
-##    [
-##      (store_script_param_1, ":center_no"),
-##      (store_script_param_2, ":besieger_party"),
-##      (store_faction_of_party, ":besieger_faction", ":besieger_party"),
-##      
-##      (try_begin),
-##        (call_script, "script_cf_get_party_leader", ":besieger_party"),
-##        (assign, ":new_leader", reg0),
-##      (else_try),
-##        (call_script, "script_select_kingdom_hero_for_new_center", ":besieger_faction"),
-##        (assign, ":new_leader", reg0),
-##      (try_end),
-##      
-##      (call_script, "script_give_center_to_lord", ":center_no", ":new_leader"),
-##      
-##      (try_for_parties, ":party_no"),
-##        (get_party_ai_object, ":object", ":party_no"),
-##        (get_party_ai_behavior, ":behavior", ":party_no"),
-##        (eq, ":object", ":center_no"),
-##        (this_or_next|eq, ":behavior", ai_bhvr_travel_to_party),
-##        (eq, ":behavior", ai_bhvr_attack_party),
-##        (party_set_ai_behavior, ":party_no", ai_bhvr_hold),
-##        (party_set_slot, ":party_no", slot_party_ai_state, spai_undefined),
-##        (party_set_flags, ":party_no", pf_default_behavior, 0),
-##      (try_end),
-##      
-##      #Staying at the center for a while
-##      (party_set_ai_behavior, ":besieger_party", ai_bhvr_hold),
-##      (party_set_slot, ":besieger_party", slot_party_ai_state, spai_undefined),
-##      (party_set_flags, ":besieger_party", pf_default_behavior, 0),
-##      
-##      (faction_get_slot, ":reinforcement_a", ":besieger_faction", slot_faction_reinforcements_a),
-##      (faction_get_slot, ":reinforcement_b", ":besieger_faction", slot_faction_reinforcements_b),
-##      (party_add_template, ":center_no", ":reinforcement_a"),
-##      (party_add_template, ":center_no", ":reinforcement_b"),
-##  ]),
-##  
-  
   # script_get_number_of_hero_centers
   # Input: arg1 = troop_no
   # Output: reg0 = number of centers that are ruled by the hero
@@ -23467,17 +23478,6 @@ scripts = [
       
       (store_faction_of_party, ":party_faction", ":party_no"),
       (party_get_slot, ":party_type",":party_no", slot_party_type),
-
-      (try_begin),
-        (eq, ":party_faction", "fac_player_supporters_faction"),
-        (party_get_slot, ":town_lord", ":party_no", slot_town_lord),
-        (try_begin),
-          (gt, ":town_lord", 0),
-          (troop_get_slot, ":party_faction", ":town_lord", slot_troop_original_faction),
-        (else_try),
-          (party_get_slot, ":party_faction", ":party_no", slot_center_original_faction),
-        (try_end),
-      (try_end),
       
       (faction_get_slot, ":party_template_a", ":party_faction", slot_faction_reinforcements_a),
       (faction_get_slot, ":party_template_b", ":party_faction", slot_faction_reinforcements_b),
@@ -26682,6 +26682,7 @@ scripts = [
 		  
 		  (str_store_faction_name_link, s1, ":faction_no"),
 		  (try_begin),
+	  (neq, ":faction_no", "fac_no_faction"),
 			(gt, ":difference", 0),
 			(display_message, "str_faction_relation_increased"),
 		  (else_try),
@@ -26725,11 +26726,14 @@ scripts = [
       
       (str_store_faction_name_link, s1, ":faction_no"),
       (try_begin),
-        (gt, ":difference", 0),
-        (display_message, "str_faction_relation_increased"),
-      (else_try),
-        (lt, ":difference", 0),
-        (display_message, "str_faction_relation_detoriated"),
+	  (neq, ":faction_no", "fac_no_faction"),
+		  (try_begin),
+			(gt, ":difference", 0),
+			(display_message, "str_faction_relation_increased"),
+		  (else_try),
+			(lt, ":difference", 0),
+			(display_message, "str_faction_relation_detoriated"),
+		  (try_end),
       (try_end),
       
       (try_for_range, ":other_faction", kingdoms_begin, kingdoms_end),
@@ -26965,6 +26969,8 @@ scripts = [
       (store_script_param, ":initializing_war_peace_cond", 3), #1 = after start of game
 
 (try_begin),
+	(faction_slot_eq, ":kingdom_a", slot_faction_state, sfs_active),
+	(faction_slot_eq, ":kingdom_b", slot_faction_state, sfs_active),
 	
 		(try_begin), # preset lock
 		(assign, ":continue", 1),
@@ -27041,16 +27047,6 @@ scripts = [
 
       (try_begin),
         (eq, ":initializing_war_peace_cond", 1),
-		
-		#Remove this -- this scrambles who declares war on whom
-#        (try_begin),
- #         (store_random_in_range, ":random_no", 0, 2),
-  #        (this_or_next|eq, ":kingdom_a", "fac_player_supporters_faction"),
-	#		(eq, ":random_no", 0),
-     #     (assign, ":local_temp", ":kingdom_a"),
-      #    (assign, ":kingdom_a", ":kingdom_b"),
-       #   (assign, ":kingdom_b", ":local_temp"),
-        #(try_end),
 		
         (str_store_faction_name_link, s1, ":kingdom_a"),
         (str_store_faction_name_link, s2, ":kingdom_b"),
@@ -52925,6 +52921,8 @@ scripts = [
         (this_or_next|eq,":item_id", "itm_rifle_german_m1831_rifle_carbine"),
         (this_or_next|eq,":item_id", "itm_rifle_italian_m1844"),
         (this_or_next|eq,":item_id", "itm_rifle_italian_m1844_carbine"),
+        (this_or_next|eq,":item_id", "itm_rifle_swiss_m1842"),
+        (this_or_next|eq,":item_id", "itm_rifle_swiss_m1842_carbine"),
         (this_or_next|eq,":item_id", "itm_rifle_french_m1844"),
         (this_or_next|eq,":item_id", "itm_rifle_french_m1844_carbine"),
         (this_or_next|eq,":item_id", "itm_rifle_french_m1849"),
@@ -52981,6 +52979,8 @@ scripts = [
         (this_or_next|eq,":item_id", "itm_rifle_british_snider_carbine"),
         (this_or_next|eq,":item_id", "itm_rifle_british_martinihenry"),
         (this_or_next|eq,":item_id", "itm_rifle_british_martinihenry_carbine"),
+        (this_or_next|eq,":item_id", "itm_rifle_swiss_vetterli"),
+        (this_or_next|eq,":item_id", "itm_rifle_swiss_vetterli_carbine"),
         (this_or_next|eq,":item_id", "itm_rifle_british_metford"),
         (this_or_next|eq,":item_id", "itm_rifle_british_metford_carbine"),
         (this_or_next|eq,":item_id", "itm_rifle_austrian_m1867"),
@@ -53061,9 +53061,11 @@ scripts = [
 	(this_or_next|eq,":item_id", "itm_rifle_french_chassepot_carbine"), 
 	(this_or_next|eq,":item_id", "itm_rifle_french_lebel_carbine"), 
 	(this_or_next|eq,":item_id", "itm_rifle_french_m1844_carbine"), 
+	(this_or_next|eq,":item_id", "itm_rifle_swiss_m1842_carbine"), 
 	(this_or_next|eq,":item_id", "itm_rifle_french_m1849_carbine"), 
 	(this_or_next|eq,":item_id", "itm_rifle_french_tabatiere_carbine"), 
 	(this_or_next|eq,":item_id", "itm_rifle_french_chassepot_carbine"), 
+	(this_or_next|eq,":item_id", "itm_rifle_swiss_vetterli_carbine"),
 	(this_or_next|eq,":item_id", "itm_rifle_british_metford_carbine"), 
 	(this_or_next|eq,":item_id", "itm_rifle_british_snider_carbine"), 
 	(this_or_next|eq,":item_id", "itm_rifle_british_martinihenry_carbine"), 
@@ -53119,6 +53121,8 @@ scripts = [
 	(this_or_next|eq,":item_id", "itm_rifle_spanish_mauser_carbine"),
 	(this_or_next|eq,":item_id", "itm_rifle_british_metford"),
 	(this_or_next|eq,":item_id", "itm_rifle_british_metford_carbine"),
+	(this_or_next|eq,":item_id", "itm_rifle_swiss_vetterli"),
+	(this_or_next|eq,":item_id", "itm_rifle_swiss_vetterli_carbine"),
 	(this_or_next|eq,":item_id", "itm_rifle_italian_vetterlivitali"),
 	(eq,":item_id", "itm_rifle_italian_vetterlivitali_carbine"),
 	(assign, ":sound_id", "snd_shot_boltaction1"),
@@ -55360,245 +55364,35 @@ scripts = [
 ]),
 
 ("player_faction_troops",[
-	(try_begin),
-	  (eq,"$g_player_culture",0),
       (faction_set_slot, "fac_culture_player",  slot_faction_tier_1_troop, "trp_kingdom_recruit"),
       (faction_set_slot, "fac_culture_player",  slot_faction_tier_2_troop, "trp_kingdom_militia"),
       (faction_set_slot, "fac_culture_player",  slot_faction_tier_3_troop, "trp_kingdom_footman"),
       (faction_set_slot, "fac_culture_player",  slot_faction_tier_4_troop, "trp_kingdom_infantry"),
       (faction_set_slot, "fac_culture_player",  slot_faction_tier_5_troop, "trp_kingdom_knight"),
-	(else_try),
-	  (eq,"$g_player_culture",1),
-      (faction_set_slot, "fac_culture_player",  slot_faction_tier_1_troop, "trp_faction1_troop1"),
-      (faction_set_slot, "fac_culture_player",  slot_faction_tier_2_troop, "trp_faction1_troop2"),
-      (faction_set_slot, "fac_culture_player",  slot_faction_tier_3_troop, "trp_faction1_troop3"),
-      (faction_set_slot, "fac_culture_player",  slot_faction_tier_4_troop, "trp_faction1_troop4"),
-      (faction_set_slot, "fac_culture_player",  slot_faction_tier_5_troop, "trp_faction1_troop5"),
-	(else_try),
-	  (eq,"$g_player_culture",2),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction2_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction2_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction2_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction2_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction2_troop5"),
-	(else_try),
-	  (eq,"$g_player_culture",3),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction3_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction3_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction3_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction3_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction3_troop5"),
-	(else_try),
-	  (eq,"$g_player_culture",4),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction4_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction4_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction4_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction4_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction4_troop5"),
-	(else_try),
-	  (eq,"$g_player_culture",5),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction5_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction5_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction5_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction5_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction5_troop5"),
-	(else_try),
-	  (eq,"$g_player_culture",6),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction6_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction6_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction6_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction6_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction6_troop5"),
-      	(else_try),
-	  (eq,"$g_player_culture",7),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction7_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction7_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction7_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction7_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction7_troop5"),
-      	(else_try),
-	  (eq,"$g_player_culture",8),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction8_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction8_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction8_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction8_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction8_troop5"),
-      	(else_try),
-	  (eq,"$g_player_culture",9),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction9_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction9_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction9_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction9_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction9_troop5"),
-      	(else_try),
-	  (eq,"$g_player_culture",10),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction10_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction10_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction10_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction10_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction10_troop5"),
-      	(else_try),
-	  (eq,"$g_player_culture",11),
-      (faction_set_slot, "fac_culture_player",  slot_faction_tier_1_troop, "trp_faction11_troop1"),
-      (faction_set_slot, "fac_culture_player",  slot_faction_tier_2_troop, "trp_faction11_troop2"),
-      (faction_set_slot, "fac_culture_player",  slot_faction_tier_3_troop, "trp_faction11_troop3"),
-      (faction_set_slot, "fac_culture_player",  slot_faction_tier_4_troop, "trp_faction11_troop4"),
-      (faction_set_slot, "fac_culture_player",  slot_faction_tier_5_troop, "trp_faction11_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",12),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction12_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction12_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction12_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction12_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction12_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",13),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction13_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction13_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction13_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction13_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction13_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",14),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction14_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction14_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction14_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction14_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction14_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",15),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction15_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction15_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction15_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction15_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction15_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",16),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction16_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction16_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction16_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction16_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction16_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",17),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction17_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction17_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction17_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction17_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction17_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",18),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction18_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction18_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction18_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction18_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction18_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",19),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction19_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction19_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction19_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction19_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction19_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",20),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction20_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction20_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction20_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction20_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction20_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",21),
-      (faction_set_slot, "fac_culture_player",  slot_faction_tier_1_troop, "trp_faction21_troop1"),
-      (faction_set_slot, "fac_culture_player",  slot_faction_tier_2_troop, "trp_faction21_troop2"),
-      (faction_set_slot, "fac_culture_player",  slot_faction_tier_3_troop, "trp_faction21_troop3"),
-      (faction_set_slot, "fac_culture_player",  slot_faction_tier_4_troop, "trp_faction21_troop4"),
-      (faction_set_slot, "fac_culture_player",  slot_faction_tier_5_troop, "trp_faction21_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",22),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction22_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction22_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction22_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction22_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction22_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",23),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction23_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction23_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction23_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction23_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction23_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",24),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction24_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction24_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction24_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction24_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction24_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",25),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction25_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction25_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction25_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction25_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction25_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",26),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction26_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction26_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction26_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction26_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction26_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",27),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction27_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction27_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction27_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction27_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction27_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",28),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction28_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction28_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction28_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction28_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction28_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",29),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction29_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction29_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction29_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction29_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction29_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",30),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction30_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction30_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction30_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction30_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction30_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",31),
-      (faction_set_slot, "fac_culture_player",  slot_faction_tier_1_troop, "trp_faction31_troop1"),
-      (faction_set_slot, "fac_culture_player",  slot_faction_tier_2_troop, "trp_faction31_troop2"),
-      (faction_set_slot, "fac_culture_player",  slot_faction_tier_3_troop, "trp_faction31_troop3"),
-      (faction_set_slot, "fac_culture_player",  slot_faction_tier_4_troop, "trp_faction31_troop4"),
-      (faction_set_slot, "fac_culture_player",  slot_faction_tier_5_troop, "trp_faction31_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",32),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction32_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction32_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction32_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction32_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction32_troop5"),
-            	(else_try),
-	  (eq,"$g_player_culture",33),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_1_troop, "trp_faction33_troop1"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_2_troop, "trp_faction33_troop2"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_3_troop, "trp_faction33_troop3"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_4_troop, "trp_faction33_troop4"),
-      (faction_set_slot, "fac_culture_player", slot_faction_tier_5_troop, "trp_faction33_troop5"),
-	  (try_end),]),
+      (faction_set_slot, "fac_player_faction",  slot_faction_tier_1_troop, "trp_kingdom_recruit"),
+      (faction_set_slot, "fac_player_faction",  slot_faction_tier_2_troop, "trp_kingdom_militia"),
+      (faction_set_slot, "fac_player_faction",  slot_faction_tier_3_troop, "trp_kingdom_footman"),
+      (faction_set_slot, "fac_player_faction",  slot_faction_tier_4_troop, "trp_kingdom_infantry"),
+      (faction_set_slot, "fac_player_faction",  slot_faction_tier_5_troop, "trp_kingdom_knight"),
+      (faction_set_slot, "fac_player_supporters_faction",  slot_faction_tier_1_troop, "trp_kingdom_recruit"),
+      (faction_set_slot, "fac_player_supporters_faction",  slot_faction_tier_2_troop, "trp_kingdom_militia"),
+      (faction_set_slot, "fac_player_supporters_faction",  slot_faction_tier_3_troop, "trp_kingdom_footman"),
+      (faction_set_slot, "fac_player_supporters_faction",  slot_faction_tier_4_troop, "trp_kingdom_infantry"),
+      (faction_set_slot, "fac_player_supporters_faction",  slot_faction_tier_5_troop, "trp_kingdom_knight"),
+      (faction_set_slot, "fac_culture_player",  slot_faction_reinforcements_a, "pt_factionplayer_reinforcements_a"),
+      (faction_set_slot, "fac_player_faction",  slot_faction_reinforcements_a, "pt_factionplayer_reinforcements_a"),
+      (faction_set_slot, "fac_player_supporters_faction",  slot_faction_reinforcements_a, "pt_factionplayer_reinforcements_a"),
+      (faction_set_slot, "fac_culture_player",  slot_faction_reinforcements_b, "pt_factionplayer_reinforcements_b"),
+      (faction_set_slot, "fac_player_faction",  slot_faction_reinforcements_b, "pt_factionplayer_reinforcements_b"),
+      (faction_set_slot, "fac_player_supporters_faction",  slot_faction_reinforcements_b, "pt_factionplayer_reinforcements_b"),
+      (faction_set_slot, "fac_culture_player",  slot_faction_reinforcements_c, "pt_factionplayer_reinforcements_c"),
+      (faction_set_slot, "fac_player_faction",  slot_faction_reinforcements_c, "pt_factionplayer_reinforcements_c"),
+      (faction_set_slot, "fac_player_supporters_faction",  slot_faction_reinforcements_c, "pt_factionplayer_reinforcements_c"),
+      (faction_set_slot, "fac_culture_player",  slot_faction_reinforcements_artillery, "pt_factionplayer_reinforcements_artillery"),
+      (faction_set_slot, "fac_player_faction",  slot_faction_reinforcements_artillery, "pt_factionplayer_reinforcements_artillery"),
+      (faction_set_slot, "fac_player_supporters_faction",  slot_faction_reinforcements_artillery, "pt_factionplayer_reinforcements_artillery"),
+	  
+	  ]),
 	 
   ("item_detial",set_item_detial()),
  
@@ -57370,7 +57164,17 @@ scripts = [
 
 (assign, "$player_faction_preset", ":orginal_faction"),
 (assign, "$g_starting_town", ":capital"),
+(assign, "$custom_troops_set", 1),
     (str_store_troop_name, s10, "trp_player"),
+   
+    ##culture the player faction will have. (The recruit type for your kingdoms villages) 
+         (faction_set_slot, "fac_player_supporters_faction",  slot_faction_culture, ":culture"),
+         (faction_set_slot, "fac_player_faction",  slot_faction_culture, ":culture"),
+    ##culture end
+	(try_for_range, ":slot", slot_faction_tier_1_troop, slot_faction_reinforcements_c+1),   
+	(faction_get_slot, ":slot_value", ":orginal_faction", ":slot"),
+	(faction_set_slot, "fac_player_faction",  ":slot", ":slot_value"), (faction_set_slot, "fac_player_supporters_faction",  ":slot", ":slot_value"), (faction_set_slot, "fac_culture_player",  ":slot", ":slot_value"),
+	(try_end), 
 
 	(call_script, "script_activate_player_faction", "trp_player"),
 	(call_script, "script_give_center_to_faction_aux", ":capital", "fac_player_supporters_faction"),
@@ -57391,11 +57195,6 @@ scripts = [
     #####King remove end
      (assign, "$g_player_court", ":capital"),
     ###capitol transfer end
-   
-    ##culture the player faction will have. (The recruit type for your kingdoms villages) 
-         (faction_set_slot, "fac_player_supporters_faction",  slot_faction_culture, ":culture"),
-         (faction_set_slot, "fac_player_faction",  slot_faction_culture, ":culture"),
-    ##culture end
 
          (assign, "$players_kingdom", "fac_player_supporters_faction"),
     ##knights/npc lords Transferring to the players kingdom
@@ -57497,10 +57296,8 @@ scripts = [
 	(faction_get_slot, ":slot_value", ":orginal_faction", ":slot"),
 	(faction_set_slot, "fac_player_faction",  ":slot", ":slot_value"), (faction_set_slot, "fac_player_supporters_faction",  ":slot", ":slot_value"), (faction_set_slot, "fac_culture_player",  ":slot", ":slot_value"),
 	(try_end), 
-	(try_for_range, ":slot", slot_faction_tier_1_troop, slot_faction_reinforcements_c+1),   
-	(faction_get_slot, ":slot_value", ":orginal_faction", ":slot"),
-	(faction_set_slot, "fac_player_faction",  ":slot", ":slot_value"), (faction_set_slot, "fac_player_supporters_faction",  ":slot", ":slot_value"), (faction_set_slot, "fac_culture_player",  ":slot", ":slot_value"),
-	(try_end), 
+(faction_get_slot, ":slot_value", ":orginal_faction", slot_faction_reinforcements_artillery),
+(faction_set_slot, "fac_player_faction",  slot_faction_reinforcements_artillery, ":slot_value"), (faction_set_slot, "fac_player_supporters_faction",  slot_faction_reinforcements_artillery, ":slot_value"), (faction_set_slot, "fac_culture_player",  slot_faction_reinforcements_artillery, ":slot_value"),
 (faction_get_slot, ":army_drill_level", ":orginal_faction", slot_faction_army_drill_level), (faction_set_slot, "fac_player_faction", slot_faction_army_drill_level, ":army_drill_level"),
 (faction_get_slot, ":tier_1_troop", ":orginal_faction", slot_faction_tier_1_troop), (faction_get_slot, ":tier_2_troop", ":orginal_faction", slot_faction_tier_2_troop),
 (faction_get_slot, ":items_begin", ":orginal_faction",  slot_faction_wardrobe_begin), (faction_get_slot, ":items_end", ":orginal_faction",  slot_faction_wardrobe_end),
@@ -57814,6 +57611,7 @@ scripts = [
 (neq, ":item", "itm_rifle_british_snider"),
 (neq, ":item", "itm_rifle_british_martinihenry"),
 (neq, ":item", "itm_rifle_british_metford"),
+(neq, ":item", "itm_rifle_swiss_vetterli"),
 (neq, ":item", "itm_rifle_french_m1849"),
 (neq, ":item", "itm_rifle_french_tabatiere"),
 (neq, ":item", "itm_rifle_french_chassepot"),
@@ -57821,7 +57619,6 @@ scripts = [
 (neq, ":item", "itm_rifle_british_m1853"),
 (neq, ":item", "itm_rifle_british_snider"),
 (neq, ":item", "itm_rifle_british_martinihenry"),
-(neq, ":item", "itm_rifle_british_metford"),
 (neq, ":item", "itm_rifle_rollingblock_carbine"),
 (neq, ":item", "itm_rifle_spanish_m1859_carbine"),
 (neq, ":item", "itm_rifle_spanish_m1865_carbine"),
@@ -57846,6 +57643,7 @@ scripts = [
 (neq, ":item", "itm_rifle_british_snider_carbine"),
 (neq, ":item", "itm_rifle_british_martinihenry_carbine"),
 (neq, ":item", "itm_rifle_british_metford_carbine"),
+(neq, ":item", "itm_rifle_swiss_vetterli_carbine"),
 (neq, ":item", "itm_rifle_french_m1849_carbine"),
 (neq, ":item", "itm_rifle_french_tabatiere_carbine"),
 (neq, ":item", "itm_rifle_french_chassepot_carbine"),
@@ -58864,10 +58662,6 @@ scripts = [
 		(else_try),
 		(check_quest_active, "qst_prussia_unification_defeat_france"),
 		(eq, "$peace_negotiations_enemy_faction", "fac_kingdom_1"),
-		(assign, ":continue", 1),
-		(else_try),
-		(check_quest_active, "qst_prussia_unification_defeat_denmark"),
-		(eq, "$peace_negotiations_enemy_faction", "fac_kingdom_18"),
 		(assign, ":continue", 1),
 		(try_end),
 		(try_begin),

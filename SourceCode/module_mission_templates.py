@@ -125,7 +125,7 @@ flag_bearer = (
 ])
 
 flag_bearer_drop = (
-ti_on_item_unwielded, 0, 0, [],
+ti_on_item_dropped, 0, 0, [],
 [
 (store_trigger_param_1, ":agent"),
 (store_trigger_param_2, ":item"),
@@ -805,6 +805,7 @@ ti_on_agent_hit, 0, 0, [],
 (this_or_next|is_between,":item_id", "itm_rifle_british_m1842", "itm_rifle_british_metford_carbine_m"),
 (this_or_next|is_between,":item_id", "itm_rifle_french_m1844", "itm_rifle_french_lebel_carbine_m"),
 (this_or_next|is_between,":item_id", "itm_rifle_winchester_m1886", "itm_rifle_winchester_lee_m"),
+(this_or_next|is_between,":item_id", "itm_rifle_swiss_m1842", "itm_rifle_swiss_vetterli_carbine_m"),
 (this_or_next|eq,":item_id", "itm_rifle_russian_berdan"),
 (this_or_next|eq,":item_id", "itm_rifle_austrian_werndl"),
 (this_or_next|eq,":item_id", "itm_rifle_austrian_werndl_carbine"),

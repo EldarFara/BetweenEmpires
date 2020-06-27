@@ -270,6 +270,10 @@ party_templates = [
   ("turkish_bandits","Turkish Bandits",icon_vaegir_knight|carries_goods(2),0,fac_outlaws,bandit_personality,[(trp_desert_bandit,4,58)]),
   ("indian_bandits","Indian Bandits",icon_vaegir_knight|carries_goods(2),0,fac_outlaws,bandit_personality,[(trp_desert_bandit,4,58)]),
   ("middleasia_bandits","Middle Asian Bandits",icon_vaegir_knight|carries_goods(2),0,fac_outlaws,bandit_personality,[(trp_desert_bandit,4,58)]),
+  
+  ("factionplayer_reinforcements_a", "{!}faction1_reinforcements_a", 0, 0, fac_commoners, 0, [(trp_kingdom_recruit,2,4),(trp_kingdom_militia,5,7)]),
+  ("factionplayer_reinforcements_b", "{!}faction1_reinforcements_b", 0, 0, fac_commoners, 0, [(trp_kingdom_footman,5,7),(trp_kingdom_infantry,2,4)]),
+  ("factionplayer_reinforcements_c", "{!}faction1_reinforcements_c", 0, 0, fac_commoners, 0, [(trp_kingdom_sergeant,2,4),(trp_kingdom_skirmisher,1,2)]),
 ]
 
 

@@ -4244,6 +4244,11 @@ simple_triggers = [
 # (position_get_x, reg1, pos1),
 # (position_get_y, reg2, pos1),
 # (display_message, "@x {reg1} y {reg2}"),
+
+# (faction_get_slot, reg1, "fac_player_supporters_faction", slot_faction_reinforcements_a),
+# (faction_get_slot, reg2, "fac_player_supporters_faction", slot_faction_reinforcements_artillery),
+# (display_message, "@{reg1} {reg2}"),
+
 (val_add, "$async_randomly_start_war_peace_new_cur_kingdom_2", 1),
 	(try_begin),
 	(gt, "$async_randomly_start_war_peace_new_cur_kingdom_2", kingdoms_end),
@@ -4295,6 +4300,7 @@ simple_triggers = [
 	(call_script, "script_change_faction_flag", "fac_player_supporters_faction", 36),
 	(call_script, "script_faction_annex_faction", "fac_player_supporters_faction", "fac_kingdom_27", 50),
 	(call_script, "script_faction_annex_faction", "fac_player_supporters_faction", "fac_kingdom_31", 50),
+	(call_script, "script_give_center_to_faction", "p_castle_162", "fac_kingdom_30"), (party_set_slot, "p_castle_162", slot_center_official_faction, "fac_kingdom_30"),
 	(jump_to_menu, "mnu_prussia_unification_austria_defeated"),
 	(try_end),
 	(try_begin),
@@ -4308,7 +4314,7 @@ simple_triggers = [
 	#form german empire
 	(call_script, "script_faction_annex_faction", "fac_player_supporters_faction", "fac_kingdom_30", 50),
 	(faction_set_name, "fac_player_supporters_faction", "@German Empire"),
-	(jump_to_menu, "mnu_german_empire_forming"),
+	(jump_to_menu, "mnu_prussia_unification_france_defeated"),
 	(try_end),
 	(try_begin), # Player unificating Italy
 	(check_quest_active, "qst_italy_unification_defeat_sardinia"),

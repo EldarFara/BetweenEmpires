@@ -3290,211 +3290,6 @@ dialogs = [
    [],
    "At this point, there are no particularly urgent matters which need your attention. Is there anything you wish done?", "minister_talk",[]],
 
-   [anyone, "minister_pretalk",
-   [],
-   "Is there anything you wish done?", "minister_talk", 
-   []],
-   
-  [anyone|plyr,"minister_talk",
-   [
-   (is_between, "$g_player_minister", active_npcs_begin, kingdom_ladies_end),
-   ],
-   "Do you have any ideas to strengthen our kingdom's unity?", "combined_political_quests",[
-   (call_script, "script_get_political_quest", "$g_talk_troop"),
-   (assign, "$political_quest_found", reg0),
-   (assign, "$political_quest_target_troop", reg1),
-   (assign, "$political_quest_object_troop", reg2),
-   
- ]],
-
-   [anyone|plyr,"minister_talk", [
-	(check_quest_active, "qst_offer_gift"),
-    (quest_slot_eq, "qst_offer_gift", slot_quest_giver_troop, "$g_talk_troop"),
-	
-    (quest_get_slot, ":target_troop", "qst_offer_gift", slot_quest_target_troop),
-	(str_store_troop_name, s4, ":target_troop"),
-	(player_has_item, "itm_furs"),
-	(player_has_item, "itm_velvet"),
-   ],
-   "I have the materials for {s4}'s gift.", "offer_gift_quest_complete",[
-   ]],
-
-   [anyone,"offer_gift_quest_complete", [
-   (quest_get_slot, ":target_troop", "qst_offer_gift", slot_quest_target_troop),
-   (troop_get_type, reg4, ":target_troop"),
-   ],
-   "Ah, let me take those. Hopefully this will mend the quarrel between you two. You may wish to speak to {reg4?her:him}, and see if I had any success.", "close_window",[
-   (quest_set_slot, "qst_offer_gift", slot_quest_current_state, 2),
-   (quest_set_slot, "qst_offer_gift", slot_quest_expiration_days, 365),
-   (troop_remove_item, "trp_player", "itm_furs"),
-   (troop_remove_item, "trp_player", "itm_velvet"),
-   (assign, "$g_leave_encounter", 1),
-   ]],
- 
-   
-  [anyone|plyr,"minister_talk",
-   [
-   (assign, "$political_quest_to_cancel", -1),
-   (try_begin),
-	(check_quest_active, "qst_offer_gift"),
-	(quest_slot_eq, "qst_offer_gift", slot_quest_giver_troop, "$g_talk_troop"),
-    (assign, "$political_quest_to_cancel", "qst_offer_gift"),
-	(str_store_string, s10, "str_offer_gift_description"),
-   (else_try),
-	(check_quest_active, "qst_resolve_dispute"),
-	(quest_slot_eq, "qst_resolve_dispute", slot_quest_giver_troop, "$g_talk_troop"),
-    (assign, "$political_quest_to_cancel", "qst_resolve_dispute"),
-	(str_store_string, s10, "str_resolve_dispute_description"),
-   (try_end),	
-   (gt, "$political_quest_to_cancel", 0),
-   ],
-   "Let's abandon our plan to {s10}.", "minister_cancel_political_quest",[
- ]],
- 
-  [anyone,"minister_cancel_political_quest",
-   [],
-   "Are you sure you want to drop that idea?", "minister_cancel_political_quest_confirm",[
- ]],
- 
-  [anyone|plyr,"minister_cancel_political_quest_confirm",
-   [],
-   "Yes, I am sure. Let's abandon that idea.", "minister_pretalk",[
-   (call_script, "script_abort_quest", "$political_quest_to_cancel", 1),
- ]],
- 
-  [anyone|plyr,"minister_cancel_political_quest_confirm",
-   [],
-   "Actually, never mind.", "minister_pretalk",[
- ]],   
-   
-   
-   
-   [anyone|plyr, "minister_talk",
-   [
-   (eq, 1, 2), # parabellum disabled
-   (is_between, "$g_player_minister", active_npcs_begin, kingdom_ladies_end),
-   ],
-   "I wish to dispatch an emissary.", "minister_diplomatic_kingdoms",
-   []],
-
-   [anyone|plyr, "minister_talk",
-   [
-   (is_between, "$g_player_minister", active_npcs_begin, kingdom_ladies_end),
-   ],
-   "I wish to indict a disloyal vassal for treason.", "minister_indict",
-   []],   
-
-   [anyone|plyr, "minister_talk",
-   [
-   (faction_get_slot, ":current_marshal", "$players_kingdom", slot_faction_marshall),
-   (ge, ":current_marshal", 0),
-   (try_begin),
-    (gt, ":current_marshal", 0),
-	(str_store_troop_name, s4, ":current_marshal"),
-   (else_try),	
-	(str_store_string, s4, "str_myself"),
-   (try_end),
-   ],
-   "I wish to replace {s4} as marshal.", "minister_change_marshal",
-   []],
-   
-   [anyone|plyr, "minister_talk",
-   [
-   (faction_slot_eq,  "$players_kingdom", slot_faction_marshall, -1),
-   ],
-   "I wish to appoint a new marshal.", "minister_change_marshal",
-   []],
-   
-   [anyone, "minister_change_marshal",
-   [
-   (store_current_hours, ":hours"),
-   (val_sub, ":hours", "$g_player_faction_last_marshal_appointment"),
-   (lt, ":hours", 48),
-   ],
-   "You have just made such an appointment, {sire/my lady}. If you countermand your decree so soon, there will be great confusion. We will need to wait a few days.", "minister_pretalk",
-   []],
-
-   
-   [anyone|plyr, "minister_talk",
-   [
-   (neg|is_between, "$g_player_minister", active_npcs_begin, active_npcs_end),
-   ],
-   "I wish for you to retire as minister.", "minister_replace",
-   []],
-
-   [anyone|plyr, "minister_talk",
-   [
-   (is_between, "$g_player_minister", active_npcs_begin, active_npcs_end),
-	(neg|troop_slot_eq, "$g_talk_troop", slot_troop_occupation, slto_kingdom_hero),
-   
-   ],
-   "I wish you to rejoin my party.", "minister_replace",
-   []],
-
-   [anyone|plyr, "minister_talk",
-   [
-   (is_between, "$g_player_minister", active_npcs_begin, kingdom_ladies_end),
-   ],
-   "I wish you to grant one of my vassals a fief.", "minister_grant_fief",
-   []],
-
-   [anyone|plyr, "minister_talk",
-   [
-   (is_between, "$g_player_minister", active_npcs_begin, kingdom_ladies_end),
-   (assign, ":fief_found", -1),
-   (try_for_range, ":center", centers_begin, centers_end),
-    (eq, ":fief_found", -1),
-	(store_faction_of_party, ":center_faction", ":center"),
-    (eq, ":center_faction", "fac_player_supporters_faction"),
-	(party_get_slot, ":town_lord", ":center", slot_town_lord),
-	(try_begin),
-		(ge, ":town_lord", active_npcs_begin),
-		(store_faction_of_troop, ":town_lord_faction", ":town_lord"),
-		(neq, ":town_lord_faction", "fac_player_supporters_faction"),
-		(assign, ":town_lord", -1),
-	(try_end),
-	(lt, ":town_lord", 0),
-	(assign, ":fief_found", ":center"),
-   (try_end),
-   (gt, ":fief_found", -1),
-   (str_store_party_name, s4, ":fief_found"),
-   ],
-   "I wish to make myself lord of {s4}.", "minister_grant_self_fief",
-   []],
-
-   [anyone, "minister_grant_self_fief",
-   [
-   ],
-   "As you wish. You shall be lord of {s4}.", "minister_pretalk",
-   [
-   (assign, ":fief_found", -1),
-   (try_for_range, ":center", centers_begin, centers_end),
-    (eq, ":fief_found", -1),
-	(store_faction_of_party, ":center_faction", ":center"),
-    (eq, ":center_faction", "fac_player_supporters_faction"),
-	(party_get_slot, ":town_lord", ":center", slot_town_lord),
-	(try_begin),
-		(ge, ":town_lord", active_npcs_begin),
-		(store_faction_of_troop, ":town_lord_faction", ":town_lord"),
-		(neq, ":town_lord_faction", "fac_player_supporters_faction"),
-		(assign, ":town_lord", -1),
-	(try_end),
-	(lt, ":town_lord", 0),
-	(assign, ":fief_found", ":center"),	
-   (try_end),
-   
-   
-   (call_script, "script_give_center_to_lord", ":fief_found", "trp_player", 0),
-   (try_begin),
-	(faction_slot_eq, "$players_kingdom", slot_faction_political_issue, ":fief_found"),
-	(faction_set_slot, "$players_kingdom", slot_faction_political_issue, -1),
-   (try_end),   
-   (str_store_party_name, s4, ":fief_found"),
-   
-   ]],
-   
-   
-   
    [anyone|plyr, "minister_talk",
    [
 	(eq, "$player_faction_preset", "fac_kingdom_5"),
@@ -3527,7 +3322,14 @@ We will have to destroy the Confederate armies entirely, and conquer Nurmberg an
  and our ultimate goal is to annex the Northern German states. Victory will pave the way to ultimate unification\
  after we take back Alsace-Lorraine."),
 (call_script, "script_start_quest", "qst_prussia_unification_defeat_austria", "$g_talk_troop"),
-# war declarations
+(store_add, ":provocation_slot", "fac_kingdom_3", slot_faction_provocation_days_with_factions_begin), (val_sub, ":provocation_slot", kingdoms_begin), (faction_set_slot, "fac_player_supporters_faction", ":provocation_slot", 30),
+(call_script, "script_diplomacy_start_war_between_kingdoms", "fac_player_supporters_faction", "fac_kingdom_3", 1),
+(store_add, ":provocation_slot", "fac_kingdom_27", slot_faction_provocation_days_with_factions_begin), (val_sub, ":provocation_slot", kingdoms_begin), (faction_set_slot, "fac_player_supporters_faction", ":provocation_slot", 30),
+(call_script, "script_diplomacy_start_war_between_kingdoms", "fac_player_supporters_faction", "fac_kingdom_27", 1),
+(store_add, ":provocation_slot", "fac_kingdom_30", slot_faction_provocation_days_with_factions_begin), (val_sub, ":provocation_slot", kingdoms_begin), (faction_set_slot, "fac_player_supporters_faction", ":provocation_slot", 30),
+(call_script, "script_diplomacy_start_war_between_kingdoms", "fac_player_supporters_faction", "fac_kingdom_30", 1),
+(store_add, ":provocation_slot", "fac_kingdom_31", slot_faction_provocation_days_with_factions_begin), (val_sub, ":provocation_slot", kingdoms_begin), (faction_set_slot, "fac_player_supporters_faction", ":provocation_slot", 30),
+(call_script, "script_diplomacy_start_war_between_kingdoms", "fac_player_supporters_faction", "fac_kingdom_31", 1),
    ]],
    [anyone|plyr, "prussia_unification_austria2",
    [],
@@ -3563,7 +3365,10 @@ defeated, we can declare empire on their own empire's rotten corpse.", "prussia_
  capable of defending and leading the German people.^^ - Conquer the French border city of Strasbourg^\
  - Annihilate the French Army entirely^ - Sign peace with France on conditions of taking Strasbourg^^Let a united Germany rise from the ashes of the 2nd French Empire."),
 (call_script, "script_start_quest", "qst_prussia_unification_defeat_france", "$g_talk_troop"),
-# war declarations
+(store_add, ":provocation_slot", "fac_kingdom_1", slot_faction_provocation_days_with_factions_begin),
+(val_sub, ":provocation_slot", kingdoms_begin),
+(faction_set_slot, "fac_player_supporters_faction", ":provocation_slot", 30),
+(call_script, "script_diplomacy_start_war_between_kingdoms", "fac_player_supporters_faction", "fac_kingdom_1", 1),
    ]],
    [anyone|plyr, "prussia_unification_france2",
    [],
@@ -3592,6 +3397,8 @@ of Schleswig, and destroy the Danish armies in the process. Volunteers have bols
 	(assign, "$prussia_unification_progress", 1),
 	(str_store_string, s2, "@The first step towards German unification must be the reconquest of the Northern German regions of Schleswig, Holstein, and Lauenburg, which, for the past centuries, have been under occupation by the Danish Kingdom. Taking back the region, and destroying the Danish in the process, would certainly display might and competence in the eyes of the German states.^^ - Conquer the city of Kiel.^ - Defeat the Danish armies and destroy their economy to force them to surrender.^ - Sign peace with Denmark on conditions of taking Kiel^^Once we've defeated the Danes, we can move on to our Southern rival, the Austro-Hungarian Empire."),
 	(call_script, "script_start_quest", "qst_prussia_unification_defeat_denmark", "$g_talk_troop"),
+(store_add, ":provocation_slot", "fac_kingdom_18", slot_faction_provocation_days_with_factions_begin), (val_sub, ":provocation_slot", kingdoms_begin), (faction_set_slot, "fac_player_supporters_faction", ":provocation_slot", 30),
+(call_script, "script_diplomacy_start_war_between_kingdoms", "fac_player_supporters_faction", "fac_kingdom_18", 1),
    ]],
    [anyone|plyr, "prussia_unification_start2",
    [],
@@ -3661,6 +3468,13 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
 		(str_store_string, s2, "str_italy_unification_defeat_sicily_desc"),
 		(call_script, "script_start_quest", "qst_italy_unification_defeat_sicily", "$g_talk_troop"),
 		(try_end),
+(store_add, ":provocation_slot", "fac_kingdom_4", slot_faction_provocation_days_with_factions_begin), (val_sub, ":provocation_slot", kingdoms_begin), (faction_set_slot, "fac_player_supporters_faction", ":provocation_slot", 30),
+(call_script, "script_diplomacy_start_war_between_kingdoms", "fac_player_supporters_faction", "fac_kingdom_4", 1),
+(store_add, ":provocation_slot", "fac_kingdom_11", slot_faction_provocation_days_with_factions_begin), (val_sub, ":provocation_slot", kingdoms_begin), (faction_set_slot, "fac_player_supporters_faction", ":provocation_slot", 30),
+(call_script, "script_diplomacy_start_war_between_kingdoms", "fac_player_supporters_faction", "fac_kingdom_11", 1),
+(store_add, ":provocation_slot", "fac_kingdom_19", slot_faction_provocation_days_with_factions_begin), (val_sub, ":provocation_slot", kingdoms_begin), (faction_set_slot, "fac_player_supporters_faction", ":provocation_slot", 30),
+(call_script, "script_diplomacy_start_war_between_kingdoms", "fac_player_supporters_faction", "fac_kingdom_19", 1),
+
    ],
    "Glory to Italy, {Sir/my Lady}! I pray we soon unite with the rest of the Italian people, and that we may bring the terre irredente back into the Kingdom.", "close_window",
    []],
@@ -3668,11 +3482,6 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    [anyone, "italy_unification_start3_cancel",
    [],
    "So be it, my {King/Queen}. I support your decision regardless, but consider the importance freeing our people from the yolk of foreign oppression has for all of us.", "close_window",
-   []],
-   
-   [anyone|plyr, "minister_talk",
-   [],
-   "I want you to leverage our governments ties to improve relations with a foreign power.", "improve_relations_initial",
    []],
    
    [anyone|plyr, "minister_talk",
@@ -3687,6 +3496,11 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
 	(neq, ":l_number_of_enemies", 0),
    ],
    "I want you to initiate peace negotiations with a foreign power.", "peace_negotiations_initial",
+   []],
+   
+   [anyone|plyr, "minister_talk",
+   [],
+   "I want you to leverage our governments ties to improve relations with a foreign power.", "improve_relations_initial",
    []],
    
    [anyone, "peace_negotiations_initial",
@@ -4025,6 +3839,213 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
 	   ],
    "{s32}", "minister_pretalk",
    []],
+
+
+   [anyone, "minister_pretalk",
+   [],
+   "Is there anything you wish done?", "minister_talk", 
+   []],
+   
+  [anyone|plyr,"minister_talk",
+   [
+   (is_between, "$g_player_minister", active_npcs_begin, kingdom_ladies_end),
+   ],
+   "Do you have any ideas to strengthen our kingdom's unity?", "combined_political_quests",[
+   (call_script, "script_get_political_quest", "$g_talk_troop"),
+   (assign, "$political_quest_found", reg0),
+   (assign, "$political_quest_target_troop", reg1),
+   (assign, "$political_quest_object_troop", reg2),
+   
+ ]],
+
+   [anyone|plyr,"minister_talk", [
+	(check_quest_active, "qst_offer_gift"),
+    (quest_slot_eq, "qst_offer_gift", slot_quest_giver_troop, "$g_talk_troop"),
+	
+    (quest_get_slot, ":target_troop", "qst_offer_gift", slot_quest_target_troop),
+	(str_store_troop_name, s4, ":target_troop"),
+	(player_has_item, "itm_furs"),
+	(player_has_item, "itm_velvet"),
+   ],
+   "I have the materials for {s4}'s gift.", "offer_gift_quest_complete",[
+   ]],
+
+   [anyone,"offer_gift_quest_complete", [
+   (quest_get_slot, ":target_troop", "qst_offer_gift", slot_quest_target_troop),
+   (troop_get_type, reg4, ":target_troop"),
+   ],
+   "Ah, let me take those. Hopefully this will mend the quarrel between you two. You may wish to speak to {reg4?her:him}, and see if I had any success.", "close_window",[
+   (quest_set_slot, "qst_offer_gift", slot_quest_current_state, 2),
+   (quest_set_slot, "qst_offer_gift", slot_quest_expiration_days, 365),
+   (troop_remove_item, "trp_player", "itm_furs"),
+   (troop_remove_item, "trp_player", "itm_velvet"),
+   (assign, "$g_leave_encounter", 1),
+   ]],
+ 
+   
+  [anyone|plyr,"minister_talk",
+   [
+   (assign, "$political_quest_to_cancel", -1),
+   (try_begin),
+	(check_quest_active, "qst_offer_gift"),
+	(quest_slot_eq, "qst_offer_gift", slot_quest_giver_troop, "$g_talk_troop"),
+    (assign, "$political_quest_to_cancel", "qst_offer_gift"),
+	(str_store_string, s10, "str_offer_gift_description"),
+   (else_try),
+	(check_quest_active, "qst_resolve_dispute"),
+	(quest_slot_eq, "qst_resolve_dispute", slot_quest_giver_troop, "$g_talk_troop"),
+    (assign, "$political_quest_to_cancel", "qst_resolve_dispute"),
+	(str_store_string, s10, "str_resolve_dispute_description"),
+   (try_end),	
+   (gt, "$political_quest_to_cancel", 0),
+   ],
+   "Let's abandon our plan to {s10}.", "minister_cancel_political_quest",[
+ ]],
+ 
+  [anyone,"minister_cancel_political_quest",
+   [],
+   "Are you sure you want to drop that idea?", "minister_cancel_political_quest_confirm",[
+ ]],
+ 
+  [anyone|plyr,"minister_cancel_political_quest_confirm",
+   [],
+   "Yes, I am sure. Let's abandon that idea.", "minister_pretalk",[
+   (call_script, "script_abort_quest", "$political_quest_to_cancel", 1),
+ ]],
+ 
+  [anyone|plyr,"minister_cancel_political_quest_confirm",
+   [],
+   "Actually, never mind.", "minister_pretalk",[
+ ]],   
+   
+   
+   
+   [anyone|plyr, "minister_talk",
+   [
+   (eq, 1, 2), # parabellum disabled
+   (is_between, "$g_player_minister", active_npcs_begin, kingdom_ladies_end),
+   ],
+   "I wish to dispatch an emissary.", "minister_diplomatic_kingdoms",
+   []],
+
+   [anyone|plyr, "minister_talk",
+   [
+   (is_between, "$g_player_minister", active_npcs_begin, kingdom_ladies_end),
+   ],
+   "I wish to indict a disloyal vassal for treason.", "minister_indict",
+   []],   
+
+   [anyone|plyr, "minister_talk",
+   [
+   (faction_get_slot, ":current_marshal", "$players_kingdom", slot_faction_marshall),
+   (ge, ":current_marshal", 0),
+   (try_begin),
+    (gt, ":current_marshal", 0),
+	(str_store_troop_name, s4, ":current_marshal"),
+   (else_try),	
+	(str_store_string, s4, "str_myself"),
+   (try_end),
+   ],
+   "I wish to replace {s4} as marshal.", "minister_change_marshal",
+   []],
+   
+   [anyone|plyr, "minister_talk",
+   [
+   (faction_slot_eq,  "$players_kingdom", slot_faction_marshall, -1),
+   ],
+   "I wish to appoint a new marshal.", "minister_change_marshal",
+   []],
+   
+   [anyone, "minister_change_marshal",
+   [
+   (store_current_hours, ":hours"),
+   (val_sub, ":hours", "$g_player_faction_last_marshal_appointment"),
+   (lt, ":hours", 48),
+   ],
+   "You have just made such an appointment, {sire/my lady}. If you countermand your decree so soon, there will be great confusion. We will need to wait a few days.", "minister_pretalk",
+   []],
+
+   
+   [anyone|plyr, "minister_talk",
+   [
+   (neg|is_between, "$g_player_minister", active_npcs_begin, active_npcs_end),
+   ],
+   "I wish for you to retire as minister.", "minister_replace",
+   []],
+
+   [anyone|plyr, "minister_talk",
+   [
+   (is_between, "$g_player_minister", active_npcs_begin, active_npcs_end),
+	(neg|troop_slot_eq, "$g_talk_troop", slot_troop_occupation, slto_kingdom_hero),
+   
+   ],
+   "I wish you to rejoin my party.", "minister_replace",
+   []],
+
+   [anyone|plyr, "minister_talk",
+   [
+   (is_between, "$g_player_minister", active_npcs_begin, kingdom_ladies_end),
+   ],
+   "I wish you to grant one of my vassals a fief.", "minister_grant_fief",
+   []],
+
+   [anyone|plyr, "minister_talk",
+   [
+   (is_between, "$g_player_minister", active_npcs_begin, kingdom_ladies_end),
+   (assign, ":fief_found", -1),
+   (try_for_range, ":center", centers_begin, centers_end),
+    (eq, ":fief_found", -1),
+	(store_faction_of_party, ":center_faction", ":center"),
+    (eq, ":center_faction", "fac_player_supporters_faction"),
+	(party_get_slot, ":town_lord", ":center", slot_town_lord),
+	(try_begin),
+		(ge, ":town_lord", active_npcs_begin),
+		(store_faction_of_troop, ":town_lord_faction", ":town_lord"),
+		(neq, ":town_lord_faction", "fac_player_supporters_faction"),
+		(assign, ":town_lord", -1),
+	(try_end),
+	(lt, ":town_lord", 0),
+	(assign, ":fief_found", ":center"),
+   (try_end),
+   (gt, ":fief_found", -1),
+   (str_store_party_name, s4, ":fief_found"),
+   ],
+   "I wish to make myself lord of {s4}.", "minister_grant_self_fief",
+   []],
+
+   [anyone, "minister_grant_self_fief",
+   [
+   ],
+   "As you wish. You shall be lord of {s4}.", "minister_pretalk",
+   [
+   (assign, ":fief_found", -1),
+   (try_for_range, ":center", centers_begin, centers_end),
+    (eq, ":fief_found", -1),
+	(store_faction_of_party, ":center_faction", ":center"),
+    (eq, ":center_faction", "fac_player_supporters_faction"),
+	(party_get_slot, ":town_lord", ":center", slot_town_lord),
+	(try_begin),
+		(ge, ":town_lord", active_npcs_begin),
+		(store_faction_of_troop, ":town_lord_faction", ":town_lord"),
+		(neq, ":town_lord_faction", "fac_player_supporters_faction"),
+		(assign, ":town_lord", -1),
+	(try_end),
+	(lt, ":town_lord", 0),
+	(assign, ":fief_found", ":center"),	
+   (try_end),
+   
+   
+   (call_script, "script_give_center_to_lord", ":fief_found", "trp_player", 0),
+   (try_begin),
+	(faction_slot_eq, "$players_kingdom", slot_faction_political_issue, ":fief_found"),
+	(faction_set_slot, "$players_kingdom", slot_faction_political_issue, -1),
+   (try_end),   
+   (str_store_party_name, s4, ":fief_found"),
+   
+   ]],
+   
+   
+   
 
    [anyone|plyr, "minister_talk",
    [],
@@ -7544,89 +7565,6 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
   [anyone, "lord_pay_debt_3_2", [],
    "Well, don't keep me waiting much longer.", "lord_pretalk", []],
 
-##  [anyone,"lord_start", [(troop_slot_eq, "$g_talk_troop", slot_troop_is_prisoner, 0),
-##                         (is_between,"$g_talk_troop_faction_relation",0,3),
-###                         (eq,"$players_kingdom",0),
-##                         ],
-##   "Why don't you join us in our cause? You seem to be an able fighter.\
-## We need {men/people} like you who will take part in our glory and share the spoils of our victory.", "lord_talk",[]],
-
-
-#Claim center begin
-##  [anyone,"lord_start", [(troop_slot_eq, "$g_talk_troop", slot_troop_is_prisoner, 0),
-##                         (eq,"$g_talk_troop_faction","$players_kingdom"),
-##                         (faction_slot_eq, "$g_talk_troop_faction", slot_faction_leader, "$g_talk_troop"),
-##                         (call_script, "script_get_number_of_unclaimed_centers_by_player"),
-##                         (gt, reg1, 0),
-##                         (assign, "$center_to_be_claimed", reg1),
-##                         (str_store_party_name, s4, "$center_to_be_claimed"),
-##                         ],
-##   "I heard that your forces have taken {s4}. I commend you for your victory {playername}.\
-## But we need to decide what to do with this new castle now.", "lord_claim_center_begin", []],
-
-
-##  [anyone,"lord_start", [(troop_slot_eq, "$g_talk_troop", slot_troop_is_prisoner, 0),
-##                         (ge,"$g_talk_troop_faction_relation",0),
-##                         (call_script, "script_get_number_of_unclaimed_centers_by_player"),
-##                         (gt, reg1, 0),
-##                         (assign, "$center_wanted_to_be_bought", reg1),
-##                         (str_store_party_name, s4, "$center_wanted_to_be_bought"),
-##                         (call_script, "script_get_number_of_hero_centers", "$g_talk_troop"),
-##                         (assign, ":no_of_owned_centers", reg0),
-##                         (neg|faction_slot_eq, "$g_talk_troop_faction", slot_faction_leader, "$g_talk_troop"),
-##                         (lt, ":no_of_owned_centers", 2),
-##                         (troop_get_slot, ":wealth", "$g_talk_troop", slot_troop_wealth),
-##                         (ge, ":wealth", 6000)],
-##   "I heard that your forces have taken {s4}. I applaud your victory {playername}, but you know as well as I do that\
-## as a person of low rank and status you cannot be permitted to hold that castle for yourself.\
-## It is to your benefit to sell it to a Lord like myself who can hold and protect the castle and the surrounding estates.\
-## Anyway, I am ready to make you an offer of 5000 pounds, should you decide to sell that castle.", "lord_buy_center", []],
-##
-##
-##  [anyone|plyr,"lord_buy_center", [],
-##   "I accept your offer sir. The castle is yours for 5000 pounds.", "lord_buy_center_accept", []],
-##  [anyone|plyr,"lord_buy_center", [],
-##   "I am afraid I can't accept that offer.", "lord_buy_center_deny", []],
-##
-##  [anyone,"lord_buy_center_accept", [],
-##   "Excellent, {playername}! You have decided wisely.\
-## Why bother yourself with the necessities of keeping a castle while you can leave all those boring details to noble Lords like me?\
-## I am sure money will be much more useful to you than a castle would.", "lord_buy_center_accept_2", []],
-##
-##  [anyone|plyr,"lord_buy_center_accept_2", [],
-##   "One day sir, one day I'll have my own castle.", "lord_buy_center_accept_3", []],
-##  [anyone|plyr,"lord_buy_center_accept_2", [],
-##   "Everyone needs money sir. I can take another castle anytime.", "lord_buy_center_accept_3", []],
-##
-##  [anyone,"lord_buy_center_accept_3", [],
-##   "Of course, of course, {playername}.  Then let us conclude our deal. Here's the 5000 pounds I offered you.\
-## I'll have my clerk handle the necessary details.\
-## I guess from now on, {s4} belongs to me. Well, that worked very well for both of us, I guess.", "lord_pretalk",
-##   [(troop_get_slot, ":wealth", "$g_talk_troop", slot_troop_wealth),
-##    (val_sub, ":wealth", 6000),
-##    (troop_set_slot, "$g_talk_troop", slot_troop_wealth, ":wealth"),
-##    (call_script, "script_troop_add_gold", "trp_player", 5000),
-##    (party_set_slot, "$center_wanted_to_be_bought", slot_town_lord, "$g_talk_troop"),
-##    #Changing center faction
-##    (party_set_faction, "$center_wanted_to_be_bought", "$g_talk_troop_faction"),
-##    (set_spawn_radius, 1),
-##    (spawn_around_party, "$center_wanted_to_be_bought", "pt_old_garrison"),
-##    (assign, ":new_party", reg0),
-##    (party_set_ai_behavior, ":new_party", ai_bhvr_attack_party),
-##    (party_set_ai_object, ":new_party", "p_main_party"),
-##    (party_set_flags, ":new_party", pf_default_behavior, 0),
-##    (call_script, "script_party_copy", ":new_party", "$center_wanted_to_be_bought"),
-##    (party_clear, "$center_wanted_to_be_bought"),
-##
-##    (faction_get_slot, ":reinforcement_template_archers", "$g_talk_troop_faction", slot_faction_reinforcements_archers),
-##    (faction_get_slot, ":reinforcement_template_infantry", "$g_talk_troop_faction", slot_faction_reinforcements_infantry),
-##    (party_add_template, "$center_wanted_to_be_bought", ":reinforcement_template_archers"),
-##    (party_add_template, "$center_wanted_to_be_bought", ":reinforcement_template_infantry"),
-##    ]],
-##
-##  [anyone,"lord_buy_center_deny", [],
-##   "As you wish {playername}. But don't forget, the great lords of the country won't like a low born {man/woman} like you holding such an estate without their consent.\
-## It is the nature of this world {playername}. Everyone should know their place.", "lord_pretalk", []],
 
 
   [anyone,"lord_start",[
@@ -14686,6 +14624,8 @@ Hand over my {reg19} pounds, if you please, and end our business together.", "lo
    "{!}CHEAT: Raid a village.", "lord_suggest_raid_village",[]],
   [anyone|plyr,"lord_suggest_action", [],
    "{!}CHEAT: Like me.", "lord_pretalk",[(call_script,"script_change_player_relation_with_troop","$g_talk_troop",20)]],
+  [anyone|plyr,"lord_suggest_action", [],
+   "{!}CHEAT: Join my faction.", "lord_pretalk",[(call_script,"script_change_troop_faction","$g_talk_troop", "fac_player_supporters_faction")]],
 
   [anyone,"lord_suggest_lift_siege", [],
    "{!}As you wish, {playername}.", "close_window",[(call_script, "script_party_set_ai_state", "$g_talk_troop_party", spai_undefined),

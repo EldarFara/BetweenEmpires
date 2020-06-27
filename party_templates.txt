@@ -1,5 +1,5 @@
 partytemplatesfile version 1
-200
+203
 pt_none none 2 0 1 7 -1 -1 -1 -1 -1 -1 
 pt_rescued_prisoners Rescued_Prisoners 2 0 1 7 -1 -1 -1 -1 -1 -1 
 pt_enemy Enemy 2 0 84 7 -1 -1 -1 -1 -1 -1 
@@ -200,3 +200,6 @@ pt_persian_bandits Persian_Bandits 562949953421315 0 2 312 649 4 58 0 -1 -1 -1 -
 pt_turkish_bandits Turkish_Bandits 562949953421315 0 2 312 649 4 58 0 -1 -1 -1 -1 -1 
 pt_indian_bandits Indian_Bandits 562949953421315 0 2 312 649 4 58 0 -1 -1 -1 -1 -1 
 pt_middleasia_bandits Middle_Asian_Bandits 562949953421315 0 2 312 649 4 58 0 -1 -1 -1 -1 -1 
+pt_factionplayer_reinforcements_a {!}faction1_reinforcements_a 0 0 1 0 3512 2 4 0 3513 5 7 0 -1 -1 -1 -1 
+pt_factionplayer_reinforcements_b {!}faction1_reinforcements_b 0 0 1 0 3514 5 7 0 3515 2 4 0 -1 -1 -1 -1 
+pt_factionplayer_reinforcements_c {!}faction1_reinforcements_c 0 0 1 0 3516 2 4 0 3517 1 2 0 -1 -1 -1 -1 
