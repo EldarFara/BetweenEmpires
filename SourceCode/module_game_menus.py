@@ -14606,6 +14606,10 @@ the high lords and common folk across the many realms of Europe."),
 		(store_faction_of_party, ":faction", "$g_encountered_party"),
 		(faction_get_slot, ":items_begin", ":faction",  slot_faction_wardrobe_begin),
 		(faction_get_slot, ":items_end", ":faction",  slot_faction_wardrobe_end),
+			(try_begin),
+			(le, ":items_begin", 0),
+			(display_message, "@Not available for this faction."),
+			(try_end),
 		(gt, ":items_begin", 0),
 		(val_add, ":items_end", 1),
 			(try_for_range, ":item", ":items_begin", ":items_end"), 
@@ -14829,6 +14833,30 @@ the high lords and common folk across the many realms of Europe."),
 
   ("provocation_created2",0,
     "Aboltionist incident!^^News reached the {s31}'s capital in the evening hours that one of its most prolific traders, and in more colonial regions more so known as one of the richest slave traders in the world had been captured, and subsequently executed by staunch abolitionists who had sworn loyalty to the {s32}. {s32} has refused to hand over the perpetrators, probably more so due to the fact that the trader had been a thorn in the side of their traders for many years. Local militia companies have been promising revenge should the abolitionists not be surrendered, and the situation is quickly escalating. Only aimed de-escalation can avert conflict now.",
+    "none",
+    [
+	],
+    [
+	("close", [],"Close",
+       [
+        (change_screen_return),
+        ]),
+	]),
+
+  ("provocation_created3",0,
+    "Territorial claims of {s31} against {s32}!^^A political movement supporting the revanchist aims of {s31} has lead to a boil-over in tensions, with the leadership vowing to claim territory that they believe to be rightfully theirs from {s32}! Some pacifists claim the tension could be resolved over tea, but the military of {s31} is already mobilizing for warfare, and will soon try to take the territory they claim. In Europe, the borders between regions are often messy, and linguistic or ethnic groups can be in multiple countries. Whatever leads the revanchists to believe their claim, one can only hope the war resolves swiftly.",
+    "none",
+    [
+	],
+    [
+	("close", [],"Close",
+       [
+        (change_screen_return),
+        ]),
+	]),
+
+  ("provocation_created4",0,
+    "Border skirmish can lead to full conflict!^^Soldiers from {s31} were killed in a border skirmish with {s32}, either through malice or incompetence, and attempts to peacefully resolve the situation can fail. Mounting political and social forces have chance to bring war to the two nations, and now there is nothing to do but wait and see. How much more blood must be spilled before {s31} feels they have gotten their revenge?",
     "none",
     [
 	],

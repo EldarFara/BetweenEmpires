@@ -1,4 +1,4 @@
-978
+979
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -814,6 +814,7 @@ qstr_You_have_exceeded_pa You_have_exceeded_party_size_limit.
 qstr_You_have_no_enough_m You_have_no_enough_money.
 qstr_Not_available_in_thi Not_available_in_this_town.
 qstr_You_have_bought_a_ho You_have_bought_a_howizer.
+qstr_Not_available_for_th Not_available_for_this_faction.
 qstr_Breaking_camp... Breaking_camp...
 qstr_{!}{s3}_commander_of {!}{s3}_commander_of_party_#{reg4}_which_is_not_his_troop_leaded_party_{reg5}
 qstr_The_{s31}_gets_1_inf The_{s31}_gets_1_infamy_because_of_the_prolonged_war_with_{s32}.

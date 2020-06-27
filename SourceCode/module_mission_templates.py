@@ -770,6 +770,20 @@ pbs_company_penaltytodiscipline_fromcasualties = (ti_on_agent_killed_or_wounded,
 (team_set_slot, ":team", ":slot_team_penaltytodiscipline_fromcasualties", ":penaltytodiscipline_fromcasualties"),
 ], [])
 
+pai_fieldbattle_spawn = (
+ti_on_agent_spawn, 0, 0, [],
+[
+(this_or_next|eq, "$g_battle_type", battle_type_fieldbattle),
+(eq, "$g_battle_type", battle_type_siege),
+(store_trigger_param_1, ":agent"),
+(agent_is_active, ":agent"),
+(agent_is_non_player, ":agent"),
+(agent_get_position, pos1, ":agent"),
+(store_random_in_range, ":random", -3000, 3000),
+(position_move_x, pos1, ":random", 0),
+(agent_set_position, ":agent", pos1),
+])
+
 pai_bandits_spawn = (
 ti_on_agent_spawn, 0, 0, [],
 [
@@ -788,7 +802,7 @@ ti_on_agent_spawn, 0, 0, [],
 (this_or_next|eq, ":template", "pt_deserters"),
 (eq, ":template", "pt_sea_raiders"),
 (agent_get_position, pos1, ":agent"),
-(store_random_in_range, ":random", -8000, 8000),
+(store_random_in_range, ":random", -6000, 6000),
 (position_move_x, pos1, ":random", 0),
 (agent_set_position, ":agent", pos1),
 ])
@@ -3610,7 +3624,7 @@ pai_1000ms = (1, 0, 0, [
 		(agent_is_ally, ":agent"),
 		(val_add, ":l_number_of_enemies", 1),
 		(try_end),
-	(lt, ":l_number_of_enemies", 10),
+	(eq, ":l_number_of_enemies", 1),
 		(try_for_range, ":company", 0, 8),
 		(call_script, "script_cf_if_company_has_soldiers", "$g_enemy_team", ":company"),
 		(call_script, "script_company_charge", "$g_enemy_team", ":company"),
@@ -5055,6 +5069,7 @@ lemat_canister_shot,
 pts_surviving_bonus,
 rifle_damage_model,
 pai_bandits_spawn,
+pai_fieldbattle_spawn,
 pbs_company_penaltytodiscipline_fromcasualties,
 pbs_company_penaltytodiscipline_fromcasualties_1000ms,
 player_fanning_first_shot,
