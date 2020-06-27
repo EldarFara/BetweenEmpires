@@ -1268,6 +1268,8 @@ scripts = [
 	(call_script, "script_give_center_to_faction_aux", "p_village_103", "fac_kingdom_13"),
     (party_set_slot, "p_village_684", slot_village_bound_center, "p_castle_261"),
 	(call_script, "script_give_center_to_faction_aux", "p_village_684", "fac_kingdom_5"),
+    (party_set_slot, "p_village_686", slot_village_bound_center, "p_castle_262"),
+	(call_script, "script_give_center_to_faction_aux", "p_village_686", "fac_kingdom_3"),
     
     
 
@@ -1653,6 +1655,7 @@ scripts = [
       (call_script, "script_give_center_to_faction_aux", "p_castle_259", "fac_kingdom_13"),
       (call_script, "script_give_center_to_faction_aux", "p_castle_260", "fac_kingdom_5"),
       (call_script, "script_give_center_to_faction_aux", "p_castle_261", "fac_kingdom_5"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_262", "fac_kingdom_3"),
 
 (call_script, "script_init_preset_wars"),
       		  	  
@@ -1668,16 +1671,16 @@ scripts = [
 			(party_set_slot,":town_no", slot_town_center, "scn_town_european_center"),
 			(party_set_slot,":town_no", slot_town_walls, "scn_town_european_walls"),
 			(eq, ":faction", "fac_kingdom_6"),
-			(party_set_slot,":town_no", slot_town_center, "scn_town_turkish_center"),
+			#(party_set_slot,":town_no", slot_town_center, "scn_town_turkish_center"),
 			(else_try),
 			(eq, ":faction", "fac_kingdom_20"),
-			(party_set_slot,":town_no", slot_town_center, "scn_town_indian_center"),
+			#(party_set_slot,":town_no", slot_town_center, "scn_town_indian_center"),
 			(else_try),
 			(this_or_next|eq, ":faction", "fac_kingdom_22"),
 			(this_or_next|eq, ":faction", "fac_kingdom_21"),
 			(this_or_next|eq, ":faction", "fac_kingdom_12"),
 			(eq, ":faction", "fac_kingdom_23"),
-			(party_set_slot,":town_no", slot_town_center, "scn_town_middleeast_center"),
+			#(party_set_slot,":town_no", slot_town_center, "scn_town_middleeast_center"),
 			(else_try),
 			(this_or_next|eq, ":faction", "fac_kingdom_10"),
 			(this_or_next|eq, ":faction", "fac_kingdom_14"),
@@ -1685,7 +1688,7 @@ scripts = [
 			(this_or_next|eq, ":faction", "fac_kingdom_17"),
 			(this_or_next|eq, ":faction", "fac_kingdom_32"),
 			(eq, ":faction", "fac_kingdom_33"),
-			(party_set_slot,":town_no", slot_town_center, "scn_town_arab_center"),
+			#(party_set_slot,":town_no", slot_town_center, "scn_town_arab_center"),
 			(party_set_slot,"p_town_36", slot_town_walls, "scn_town_arab_walls"),
 			(try_end),
         (store_add, ":cur_object_no", "scn_town_1_castle", ":offset"),
@@ -1760,13 +1763,13 @@ scripts = [
 			(party_set_slot,":village_no", slot_castle_exterior, "scn_village_turkish"),
 			(else_try),
 			(eq, ":faction", "fac_kingdom_20"),
-			(party_set_slot,":village_no", slot_castle_exterior, "scn_village_indian"),
+			#(party_set_slot,":village_no", slot_castle_exterior, "scn_village_indian"),
 			(else_try),
 			(this_or_next|eq, ":faction", "fac_kingdom_22"),
 			(this_or_next|eq, ":faction", "fac_kingdom_21"),
 			(this_or_next|eq, ":faction", "fac_kingdom_12"),
 			(eq, ":faction", "fac_kingdom_23"),
-			(party_set_slot,":village_no", slot_castle_exterior, "scn_village_middleeast"),
+			#(party_set_slot,":village_no", slot_castle_exterior, "scn_village_middleeast"),
 			(else_try),
 			(this_or_next|eq, ":faction", "fac_kingdom_10"),
 			(this_or_next|eq, ":faction", "fac_kingdom_14"),
@@ -1774,7 +1777,7 @@ scripts = [
 			(this_or_next|eq, ":faction", "fac_kingdom_17"),
 			(this_or_next|eq, ":faction", "fac_kingdom_32"),
 			(eq, ":faction", "fac_kingdom_33"),
-			(party_set_slot,":village_no", slot_castle_exterior, "scn_village_arab"),
+			#(party_set_slot,":village_no", slot_castle_exterior, "scn_village_arab"),
 			(try_end),
       
         (store_add, ":store_troop_no", "trp_village_1_elder", ":offset"),
@@ -46589,6 +46592,9 @@ scripts = [
 	[
 	(store_script_param, ":lord", 1),
 	(store_script_param, ":suitor", 2),
+	(try_begin),
+	(ge, ":lord", 0),
+	(ge, ":suitor", 0),
 	
 	(troop_get_slot, ":lord_reputation", ":lord", slot_lord_reputation_type),
 	(store_faction_of_troop, ":lord_faction", ":lord"),
@@ -46727,6 +46733,7 @@ scripts = [
 	(assign, reg0, ":result"),
 	(assign, reg1, ":explainer_string"),
 	
+	(try_end),
 	]),	
 	
 	("npc_decision_checklist_marry_female_pc", #

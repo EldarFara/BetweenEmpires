@@ -576,5 +576,6 @@ mesh_pic_italian_unification = 574
 mesh_load_window2 = 575
 mesh_load_window3 = 576
 mesh_menu_flag2 = 577
+mesh_pic_prussian_unification = 578
 
 

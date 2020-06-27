@@ -4239,15 +4239,12 @@ simple_triggers = [
 (0.001,
 [
 (map_free),
+
 # (party_get_position, pos1, "p_main_party"),
 # (set_fixed_point_multiplier, 100),
 # (position_get_x, reg1, pos1),
 # (position_get_y, reg2, pos1),
 # (display_message, "@x {reg1} y {reg2}"),
-
-# (faction_get_slot, reg1, "fac_player_supporters_faction", slot_faction_reinforcements_a),
-# (faction_get_slot, reg2, "fac_player_supporters_faction", slot_faction_reinforcements_artillery),
-# (display_message, "@{reg1} {reg2}"),
 
 (val_add, "$async_randomly_start_war_peace_new_cur_kingdom_2", 1),
 	(try_begin),
