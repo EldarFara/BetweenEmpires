@@ -1156,7 +1156,7 @@ parties = [
     ("village_620", "Fieldburg",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(514.34,-133.34),[], 170),
     ("village_621", "Offenburg",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(512.68,-149.89),[], 170),
     ("village_622", "Ettlingen",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(511.54,-165.53),[], 170),
-    ("village_623", "Wertheim",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(453.41,-178.41),[], 170),
+    ("village_623", "Kerkau",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(453.41,-178.41),[], 170),
     ("village_624", "Brunswick",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(436.35,-227.56),[], 170),
     ("village_625", "Swaszow",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(279.35,-179.88),[], 170),
     ("village_626", "Pleven",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(209.48,-57.79),[], 170),

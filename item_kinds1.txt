@@ -3683,19 +3683,19 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1886 Steyr_Mannlicher_M1886 Steyr_Mannlicher_M1886 2  mosin 0  mosin_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 301 0
+ itm_rifle_austrian_m1886 Steyr_Mannlicher_M1886 Steyr_Mannlicher_M1886 2  mannlicher 0  mannlicher_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 301 0
  0
 0
 
- itm_rifle_austrian_m1886_m Steyr_Mannlicher_M1886 Steyr_Mannlicher_M1886 1  mosin 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
+ itm_rifle_austrian_m1886_m Steyr_Mannlicher_M1886 Steyr_Mannlicher_M1886 1  mannlicher 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
  0
 0
 
- itm_rifle_austrian_m1886_carbine Steyr_Mannlicher_M1886_Carbine Steyr_Mannlicher_M1886_Carbine 2  mosin_carbine 0  mosin_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_austrian_m1886_carbine Steyr_Mannlicher_M1886_Carbine Steyr_Mannlicher_M1886_Carbine 2  mannlicher_carbine 0  mannlicher_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
  0
 0
 
- itm_rifle_austrian_m1886_carbine_m Steyr_Mannlicher_M1886_Carbine Steyr_Mannlicher_M1886_Carbine 1  mosin_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 80 0 532 530
+ itm_rifle_austrian_m1886_carbine_m Steyr_Mannlicher_M1886_Carbine Steyr_Mannlicher_M1886_Carbine 1  mannlicher_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 80 0 532 530
  0
 0
 

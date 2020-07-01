@@ -34101,18 +34101,20 @@ scripts = [
 	(faction_get_slot, ":volunteer_troop", ":center_culture", slot_faction_tier_1_troop),
 	(assign, ":volunteer_troop_tier", 1),
 	(store_div, ":tier_upgrades", ":player_relation", 10),
-		(try_for_range, ":unused", 0, ":tier_upgrades"),
-		(store_random_in_range, ":random_no", 0, 100),
-		(lt, ":random_no", 10),
-		(store_random_in_range, ":random_no", 0, 2),
-		(troop_get_upgrade_troop, ":upgrade_troop_no", ":volunteer_troop", ":random_no"),
-			(try_begin),
-			(le, ":upgrade_troop_no", 0),
-			(troop_get_upgrade_troop, ":upgrade_troop_no", ":volunteer_troop", 0),
+		(try_begin),
+			(try_for_range, ":unused", 0, ":tier_upgrades"),
+			(store_random_in_range, ":random_no", 0, 100),
+			(lt, ":random_no", 10),
+			(store_random_in_range, ":random_no", 0, 2),
+			(troop_get_upgrade_troop, ":upgrade_troop_no", ":volunteer_troop", ":random_no"),
+				(try_begin),
+				(le, ":upgrade_troop_no", 0),
+				(troop_get_upgrade_troop, ":upgrade_troop_no", ":volunteer_troop", 0),
+				(try_end),
+			(gt, ":upgrade_troop_no", 0),
+			(val_add, ":volunteer_troop_tier", 1),
+			(assign, ":volunteer_troop", ":upgrade_troop_no"),
 			(try_end),
-		(gt, ":upgrade_troop_no", 0),
-		(val_add, ":volunteer_troop_tier", 1),
-		(assign, ":volunteer_troop", ":upgrade_troop_no"),
 		(try_end),
 	(else_try),
 	(assign, ":volunteer_troop", "trp_rebel_european1"),
@@ -48443,7 +48445,7 @@ scripts = [
 		
         (call_script, "script_npc_decision_checklist_evaluate_enemy_center_for_attack",	":troop_no", ":center_no", ":attack_by_faction", ":all_vassals_included"),
         (assign, ":score", reg0),
-                
+
         (gt, ":score", ":score_to_beat"),
         
         (assign, ":result", ":center_no"),
@@ -48562,7 +48564,9 @@ scripts = [
         (this_or_next|troop_slot_eq, ":troop_no", slot_lord_reputation_type, lrep_debauched),
         (this_or_next|troop_slot_eq, ":troop_no", slot_lord_reputation_type, lrep_goodnatured),
         (troop_slot_eq, ":troop_no", slot_lord_reputation_type, lrep_cunning),
-        
+
+		(eq, 0, 1), # parabellum disabled
+
         (assign, ":result", -1),
         (assign, ":explainer_string", "str_center_far_away_our_cautious_marshal_does_not_wish_to_reconnoiter"),				
       #RECONNOITERING BEGINS HERE - VALUE WILL BE TEN OR LESS
@@ -48588,7 +48592,9 @@ scripts = [
           (assign, ":close_center_found", 1),
         (try_end),
         (eq, ":close_center_found", 0),
-        
+
+		(eq, 0, 1), # parabellum disabled
+
         (assign, ":result", -1),
         (assign, ":explainer_string", "str_center_is_indefensible"),	
       #(else_try),
@@ -48642,11 +48648,17 @@ scripts = [
         (lt, ":power_ratio", 150), 
         
         (assign, ":result", -1),
+
+		(eq, 0, 1), # parabellum disabled
+
         (assign, ":explainer_string", "str_center_protected_by_enemy_army_aggressive"),
       (else_try),
         (ge, ":enemy_strength", ":total_strength"), #if enemy is powerful
         
         (assign, ":result", -1),
+
+		(eq, 0, 1), # parabellum disabled
+
         (assign, ":explainer_string", "str_center_protected_by_enemy_army_cautious"),
       (else_try),               
         (store_mul, ":power_ratio", ":total_strength", 100),
@@ -48657,13 +48669,15 @@ scripts = [
         (this_or_next|troop_slot_eq, ":troop_no", slot_lord_reputation_type, lrep_debauched),
         (this_or_next|troop_slot_eq, ":troop_no", slot_lord_reputation_type, lrep_goodnatured),
         (troop_slot_eq, ":troop_no", slot_lord_reputation_type, lrep_cunning),
-        
+
+		(eq, 0, 1), # parabellum disabled
+
         #equations here
         (assign, ":result", -1),
         (assign, ":explainer_string", "str_center_cautious_marshal_believes_center_too_difficult_to_capture"),
       (else_try),
-        (lt, ":power_ratio", 140), #it was 140
-        
+        (lt, ":power_ratio", 125), #it was 140
+
         (assign, ":result", -1),
         (assign, ":explainer_string", "str_center_even_aggressive_marshal_believes_center_too_difficult_to_capture"),
       #To Steve - I moved below two if statement here from upper places, to enable in answering different different answers even 

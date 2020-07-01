@@ -773,7 +773,8 @@ pbs_company_penaltytodiscipline_fromcasualties = (ti_on_agent_killed_or_wounded,
 pai_fieldbattle_spawn = (
 ti_on_agent_spawn, 0, 0, [],
 [
-(eq, "$g_battle_type", battle_type_fieldbattle),
+(this_or_next|eq, "$g_battle_type", battle_type_fieldbattle),
+(eq, "$g_battle_type", battle_type_siege),
 (store_trigger_param_1, ":agent"),
 (agent_is_active, ":agent"),
 (agent_is_non_player, ":agent"),
