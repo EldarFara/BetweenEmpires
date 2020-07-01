@@ -14600,6 +14600,10 @@ the high lords and common folk across the many realms of Europe."),
        ]
        ),
       ("cannoneers_store_access_wardrobe",[
+		(store_faction_of_party, ":faction", "$g_encountered_party"),
+		(faction_get_slot, ":items_begin", ":faction",  slot_faction_wardrobe_begin),
+		(gt, ":items_begin", 0),
+	  
 	  ],"Access wardrobe.",
        [
 		(troop_clear_inventory, "trp_temp_troop"),

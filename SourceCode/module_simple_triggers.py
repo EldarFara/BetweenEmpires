@@ -570,6 +570,14 @@ simple_triggers = [
 		(try_begin),
      (assign, ":center_no", "$async_simple_trigger6"),
      (party_is_active, ":center_no"),
+		(try_begin),
+		(store_faction_of_party, ":faction", ":center_no"),
+		(party_get_slot, ":official_faction", ":center_no", slot_center_official_faction),
+		(neq, ":faction", ":official_faction"),
+		(faction_slot_eq, ":official_faction", slot_faction_state, sfs_inactive),
+		(party_set_slot, ":center_no", slot_center_official_faction, ":faction"),
+		(call_script, "script_faction_change_infamy", ":faction", 1),
+		(try_end),
 	 
        (neg|party_slot_eq, ":center_no", slot_town_lord, "trp_player"), #center does not belong to player.
        (party_slot_ge, ":center_no", slot_town_lord, 1), #center belongs to someone.       
@@ -4260,6 +4268,10 @@ simple_triggers = [
 (call_script, "script_create_random_provocation"),
 (call_script, "script_create_random_relation_increasing"),
 (call_script, "script_create_random_alliance"),
+	(try_begin),
+	(le, "$player_faction_preset", 0),
+	(call_script, "script_player_faction_troops"),
+	(try_end),
 ]),
 
 (1,

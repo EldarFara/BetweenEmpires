@@ -2758,7 +2758,7 @@ itemsfile version 3
  0
 0
 
- itm_saber1 Saber Saber 2  saber 0  saber_scab 3458764513820540928  4259842 9223388564182532111 163 155668 1.500000 100 0 0 0 0 30720 105 0 100 0 279 30
+ itm_saber1 Saber Saber 2  saber 0  saber_scab 3458764513820540928  4259842 9223388564182532111 163 155668 1.500000 100 0 0 0 0 30720 105 0 75 0 279 30
  0
 0
 
@@ -5012,209 +5012,209 @@ itemsfile version 3
 0
 
  itm_thawb1 Arabian_Thobe Arabian_Thobe 1  thawb1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 1
 -50.000000  3 33 3 144115188075857093 1 3 1 2 936748722493063853 70 1964 2 1585267068834414592 0 
 
  itm_thawb1b Arabian_Thobe Arabian_Thobe 1  thawb1b 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 1
 -50.000000  3 33 3 144115188075857093 1 3 1 2 936748722493063853 70 1964 2 1585267068834414592 0 
 
  itm_thawb1c Arabian_Thobe Arabian_Thobe 1  thawb1c 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 1
 -50.000000  3 33 3 144115188075857093 1 3 1 2 936748722493063853 70 1964 2 1585267068834414592 0 
 
  itm_thawb1d Arabian_Thobe Arabian_Thobe 1  thawb1d 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 1
 -50.000000  3 33 3 144115188075857093 1 3 1 2 936748722493063853 70 1964 2 1585267068834414592 0 
 
  itm_thawb1_vest1 Arabian_Thobe_with_Vest Arabian_Thobe_with_Vest 1  thawb1_vest1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 1
 -50.000000  3 33 3 144115188075857093 1 3 1 2 936748722493063853 70 1964 2 1585267068834414592 0 
 
  itm_thawb1_vest2 Arabian_Thobe_with_Vest Arabian_Thobe_with_Vest 1  thawb1_vest2 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 1
 -50.000000  3 33 3 144115188075857093 1 3 1 2 936748722493063853 70 1964 2 1585267068834414592 0 
 
  itm_thawb1_vest3 Arabian_Thobe_with_Vest Arabian_Thobe_with_Vest 1  thawb1_vest3 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 1
 -50.000000  3 33 3 144115188075857093 1 3 1 2 936748722493063853 70 1964 2 1585267068834414592 0 
 
  itm_thawb1_vest4 Arabian_Thobe_with_Vest Arabian_Thobe_with_Vest 1  thawb1_vest4 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 1
 -50.000000  3 33 3 144115188075857093 1 3 1 2 936748722493063853 70 1964 2 1585267068834414592 0 
 
  itm_thawb1_vest5 Arabian_Thobe_with_Vest Arabian_Thobe_with_Vest 1  thawb1_vest5 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 1
 -50.000000  3 33 3 144115188075857093 1 3 1 2 936748722493063853 70 1964 2 1585267068834414592 0 
 
  itm_thawb1_bisht1 Arabian_Thobe_with_Bisht Arabian_Thobe_with_Bisht 1  thawb1_bisht1 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 1
 -50.000000  3 33 3 144115188075857093 1 3 1 2 936748722493063853 70 1964 2 1585267068834414592 0 
 
  itm_thawb1_bisht2 Arabian_Thobe_with_Bisht Arabian_Thobe_with_Bisht 1  thawb1_bisht2 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 1
 -50.000000  3 33 3 144115188075857093 1 3 1 2 936748722493063853 70 1964 2 1585267068834414592 0 
 
  itm_thawb1_bisht3 Arabian_Thobe_with_Bisht Arabian_Thobe_with_Bisht 1  thawb1_bisht3 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 1
 -50.000000  3 33 3 144115188075857093 1 3 1 2 936748722493063853 70 1964 2 1585267068834414592 0 
 
  itm_thawb1_bisht4 Arabian_Thobe_with_Bisht Arabian_Thobe_with_Bisht 1  thawb1_bisht4 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 1
 -50.000000  3 33 3 144115188075857093 1 3 1 2 936748722493063853 70 1964 2 1585267068834414592 0 
 
  itm_thawb1_bisht5 Arabian_Thobe_with_Bisht Arabian_Thobe_with_Bisht 1  thawb1_bisht5 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 1
 -50.000000  3 33 3 144115188075857093 1 3 1 2 936748722493063853 70 1964 2 1585267068834414592 0 
 
  itm_thawb1_bisht6 Arabian_Thobe_with_Bisht Arabian_Thobe_with_Bisht 1  thawb1_bisht6 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 1
 -50.000000  3 33 3 144115188075857093 1 3 1 2 936748722493063853 70 1964 2 1585267068834414592 0 
 
  itm_thawb1_bisht7 Arabian_Thobe_with_Bisht Arabian_Thobe_with_Bisht 1  thawb1_bisht7 0  553713677 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 1
 -50.000000  3 33 3 144115188075857093 1 3 1 2 936748722493063853 70 1964 2 1585267068834414592 0 
 
  itm_arab_headwear1 Arabian_Headwear Arabian_Headwear 1  arab_headwear1 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_arab_headwear1b Arabian_Headwear Arabian_Headwear 1  arab_headwear1b 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_arab_headwear1c Arabian_Headwear Arabian_Headwear 1  arab_headwear1c 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_arab_headwear1d Arabian_Headwear Arabian_Headwear 1  arab_headwear1d 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_arab_headwear2 Arabian_Headwear Arabian_Headwear 1  arab_headwear2 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_arab_headwear2b Arabian_Headwear Arabian_Headwear 1  arab_headwear2b 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_arab_headwear2c Arabian_Headwear Arabian_Headwear 1  arab_headwear2c 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_arab_headwear2d Arabian_Headwear Arabian_Headwear 1  arab_headwear2d 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_arab_headwear2e Arabian_Headwear Arabian_Headwear 1  arab_headwear2e 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_arab_headwear3 Arabian_Headwear Arabian_Headwear 1  arab_headwear3 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_arab_headwear3b Arabian_Headwear Arabian_Headwear 1  arab_headwear3b 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_arab_headwear3c Arabian_Headwear Arabian_Headwear 1  arab_headwear3c 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_arab_headwear3d Arabian_Headwear Arabian_Headwear 1  arab_headwear3d 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_arab_headwear4 Arabian_Headwear Arabian_Headwear 1  arab_headwear4 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_arab_headwear5 Arabian_Headwear Arabian_Headwear 1  arab_headwear5 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_arab_headwear5b Arabian_Headwear Arabian_Headwear 1  arab_headwear5b 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_arab_headwear5c Arabian_Headwear Arabian_Headwear 1  arab_headwear5c 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_arab_headwear5d Arabian_Headwear Arabian_Headwear 1  arab_headwear5d 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_arab_headwear5e Arabian_Headwear Arabian_Headwear 1  arab_headwear5e 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_arab_headwear6 Arabian_Headwear Arabian_Headwear 1  arab_headwear6 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_arab_headwear7 Arabian_Headwear Arabian_Headwear 1  arab_headwear7 0  536936460 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_arab_pants Arabian_Pants Arabian_Pants 1  arab_pants 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
- 1
- 59
+ 5
+ 52 57 59 74 75
 0
 
  itm_rifle_british_m1842 Pattern_1842_Musket Pattern_1842_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
@@ -5958,11 +5958,11 @@ itemsfile version 3
  68
 0
 
- itm_saber2 British_Pattern_1821_Light_Cavalry_Sword British_Pattern_1821_Light_Cavalry_Sword 2  1821_light_cavalry_sword 0  saber_scab 3458764513820540928  4259842 9223388564182532111 163 155668 1.500000 100 0 0 0 0 30720 105 0 100 0 279 30
+ itm_saber2 British_Pattern_1821_Light_Cavalry_Sword British_Pattern_1821_Light_Cavalry_Sword 2  1821_light_cavalry_sword 0  saber_scab 3458764513820540928  4259842 9223388564182532111 163 155668 1.500000 100 0 0 0 0 30720 105 0 75 0 279 30
  0
 0
 
- itm_saber3 British_Pattern_1864_Trooper_Sword British_Pattern_1864_Trooper_Sword 2  1864_trooper_sword 0  saber_scab 3458764513820540928  4259842 9223388564182532111 163 155668 1.500000 100 0 0 0 0 30720 105 0 100 0 279 30
+ itm_saber3 British_Pattern_1864_Trooper_Sword British_Pattern_1864_Trooper_Sword 2  1864_trooper_sword 0  saber_scab 3458764513820540928  4259842 9223388564182532111 163 155668 1.500000 100 0 0 0 0 30720 105 0 75 0 279 30
  0
 0
 

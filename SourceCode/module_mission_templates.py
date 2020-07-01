@@ -773,8 +773,7 @@ pbs_company_penaltytodiscipline_fromcasualties = (ti_on_agent_killed_or_wounded,
 pai_fieldbattle_spawn = (
 ti_on_agent_spawn, 0, 0, [],
 [
-(this_or_next|eq, "$g_battle_type", battle_type_fieldbattle),
-(eq, "$g_battle_type", battle_type_siege),
+(eq, "$g_battle_type", battle_type_fieldbattle),
 (store_trigger_param_1, ":agent"),
 (agent_is_active, ":agent"),
 (agent_is_non_player, ":agent"),
@@ -3848,7 +3847,10 @@ pbs_agent_spawn = (ti_on_agent_spawn, 0, 0, [
 	(agent_get_party_id, ":party", ":agent"),
 	(party_is_active, ":party"),
 	(store_faction_of_party, ":faction", ":party"),
-	(eq, ":faction", "fac_player_supporters_faction"),
+	(this_or_next|eq, ":faction", "fac_player_faction"),
+	(this_or_next|eq, ":faction", "fac_player_supporters_faction"),
+	(this_or_next|eq, ":faction", "$players_kingdom"),
+	(call_script, "script_cf_if_faction_is_in_alliance_with_faction", "fac_player_supporters_faction", ":faction"),
 	(agent_set_team, ":agent", "$g_player_team"),
 	(try_end),
 # Company Assignment
@@ -4392,7 +4394,7 @@ fgs_trees_ams = (ti_after_mission_start, 0, 0,[ #fgs - Flora Generating System
 	(display_message, "@Hotkeys:\
 	U to access the aerial view\
 	E and Q to turn\
-	Shift and Control to control your height\
+	Space and Ctrl to control your height\
 	~ tilde (next to 1) to make your troops run.\
 	You can select companies either by clicking on the units on screen, or by selecting them in the UI in the bottom left\
 	Use your right mouse button to place, and orientate your units."),
@@ -7835,14 +7837,15 @@ mission_templates = [
      (20, mtef_defenders|mtef_use_exact_number|mtef_team_0,af_override_horse,aif_start_alarmed,1,[]),
      ],
     [
-      (ti_before_mission_start, 0, 0, [], [
-	  (assign, "$g_battle_type", battle_type_siege_interior),
-	  (call_script, "script_change_banners_and_chest"),]),
 
       common_battle_tab_press,
       common_battle_init_banner,
 	  
       common_siege_init,
+	  
+      (ti_before_mission_start, 0, 0, [], [
+	  (assign, "$g_battle_type", battle_type_siege_interior),
+	  (call_script, "script_change_banners_and_chest"),]),
 
       (ti_question_answered, 0, 0, [],
        [(store_trigger_param_1,":answer"),
@@ -7907,14 +7910,14 @@ mission_templates = [
      (28, mtef_defenders|mtef_use_exact_number|mtef_team_0,af_override_horse,aif_start_alarmed,1,[]),
      ],
     [
-      (ti_before_mission_start, 0, 0, [], [(call_script, "script_change_banners_and_chest"),
-	  (assign, "$g_battle_type", battle_type_siege_interior),
-	  
-	  ]),
 
       common_battle_tab_press,
       common_battle_init_banner,
       common_siege_init,
+      (ti_before_mission_start, 0, 0, [], [(call_script, "script_change_banners_and_chest"),
+	  (assign, "$g_battle_type", battle_type_siege_interior),
+	  
+	  ]),
 
       (ti_question_answered, 0, 0, [],
        [(store_trigger_param_1,":answer"),

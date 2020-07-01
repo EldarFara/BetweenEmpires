@@ -17012,7 +17012,8 @@ I suppose there are plenty of bounty hunters around to get the job done . . .", 
 
 
   #first time greetings
-	[anyone ,"start", [(troop_slot_eq,"$g_talk_troop",slot_troop_occupation, slto_kingdom_lady),
+	[anyone ,"start", [
+	(troop_slot_eq,"$g_talk_troop",slot_troop_occupation, slto_kingdom_lady),
                      (eq, "$g_talk_troop_met", 0),
                      (gt, "$g_player_tournament_placement", 4),
 					 (str_clear, s8),
@@ -17048,7 +17049,8 @@ I suppose there are plenty of bounty hunters around to get the job done . . .", 
    "lady_meet_end", []],
   
   
-  [anyone ,"start", [(troop_slot_eq,"$g_talk_troop",slot_troop_occupation, slto_kingdom_lady),
+  [anyone ,"start", [
+  (troop_slot_eq,"$g_talk_troop",slot_troop_occupation, slto_kingdom_lady),
                      (eq, "$g_talk_troop_met", 0),
                      (le,"$talk_context",tc_siege_commander),
                      ],

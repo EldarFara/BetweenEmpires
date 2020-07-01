@@ -1,0 +1,760 @@
+qstr_thawb1_belt1|thawb1 belt1
+qstr_banner_ria1|banner ria1
+qstr_Next_Page|Следующая страница
+qstr_Game_Rules:^|Правила:^
+qstr_0|0
+qstr_Lv._{reg0}|Lv. {reg0}
+qstr_Show_game_rules|Показать правила
+qstr_Choose_name_for_your|Choose name for your faction:
+qstr_Continue...|Продолжить...
+qstr_Candidate_#1:_{s1}|Кандидат №1: {s1}
+qstr_Candidate_#2:_{s1}|Кандидат №2: {s1}
+qstr_{s3}_of_{s4}_wishes_|{s3} ({s4}) желает выбрать нового маршала и приглашает его вассалов для совещания. {s1} и {s2} - вероятные кандидаты.
+qstr_Who_do_you_wish_to_s|Кого вы желаете поддержать?
+qstr_{s1}_gives_his_suppo|{s1} поддерживает {s2}.
+qstr_Number_of_Supporters|Количество поддерживающих: {reg0}
+qstr_{s2}_has_heard_his_v|{s2} услышал своих вассалов. Им выбран {s1} в качестве маршала {s3}.
+qstr_Action|Действия
+qstr_Mount|Сесть верхом
+qstr_Attack_Type|Тип атаки
+qstr_Retreat|Retreat
+qstr_Charge|В атаку
+qstr_Follow_Me|За мной
+qstr_Form_Square|Form Square
+qstr_Spread_Out|Рассыпаться
+qstr_Stand_Closer|Сдвинуться
+qstr_Fall_Back|Отступить
+qstr_Advance|Продвинуться
+qstr_Dismount|Спешиться
+qstr_Fire_At_Will|Стрелять по готовности
+qstr_Hold_Your_Fire|Не стрелять
+qstr_Use_Ranged_Weapons|Use Ranged Weapons
+qstr_Use_Melee_Weapons|Use Melee Weapons
+qstr_Ready|В бою
+qstr_Wounded|Ранено
+qstr_Dead|Убито
+qstr_Cannot_form_square:_|Cannot form square: too many companies selected.
+qstr_Cannot_form_square:_w|Cannot form square: wrong company types (only line infantry and guard inantry can form square).
+qstr_Number_of_men_knocke|Количество сбитых: {reg1}
+qstr_Number_of_men_left:_|Количество оставшихся: {reg1}
+qstr_Opponents_Beaten:_{r|Выведено из строя противников: {reg1}
+qstr_Opponents_Remaining:|Противников в строю: {reg1}
+qstr_Remain_in_retirement|В отставку.
+qstr_Go_back_to_the_adven|На поиски приключений.
+qstr_You_have_retired_at_|Вы ушли в отставку на уровне {reg4} после {reg5}-ти дневных путешествий.
+qstr_Effect_on_Score|Влияние на счет
+qstr_Settlements_owned_by|Вы владеете поселениями: {reg0}
+qstr_Friendly_Settlements|Дружественные поселения: {reg0}
+qstr_Hostile_Settlements:|Враждебные поселения: {reg0}
+qstr_Friendly_Lords:_{reg|Дружественные лорды: {reg0}
+qstr_Enemy_Lords:_{reg0}|Вражеские лорды: {reg0}
+qstr_Victories:_{reg0}|Победы: {reg0}
+qstr_Defeats:_{reg0}|Поражения: {reg0}
+qstr_Quests_Completed:_{r|Выполненные квесты: {reg0}
+qstr_Companions_Found:_{r|Привлеченные компаньоны: {reg0}
+qstr_Companions_Lost/Depa|Потерянные/ушедшие компаньоны: {reg0}
+qstr_Wealth:_{reg0}_pound|Wealth: {reg0} pounds
+qstr_Inventory:_{reg0}_po|Inventory: {reg0} pounds
+qstr_Renown:_{reg0}|Известность: {reg0}
+qstr_Experience:_{reg0}|Опыт: {reg0}
+qstr_Days_Passed:_{reg0}|Прошло дней: {reg0}
+qstr_Difficulty:_{reg0}%|Сложность: {reg0}%
+qstr_TOTAL_SCORE:_{reg0}|Общий счет: {reg0}
+qstr_None|Нет
+qstr_Deployment_Plan|Deployment Plan
+qstr_You_have_{reg1}_comb|You have {reg1} combatants available.
+qstr_Combatant|Combatant
+qstr_at_start/in_party|at start/in party
+qstr_/{reg1}|/{reg1}
+qstr_{reg0}|{reg0}
+qstr_of_{reg0}_combatants|of {reg0} combatants
+qstr_Done|Done
+qstr_All_to_max|All to max
+qstr_All_to_zero|All to zero
+qstr_1st|1st
+qstr_2nd|2nd
+qstr_3rd|3rd
+qstr_4th|4th
+qstr_5th|5th
+qstr_6th|6th
+qstr_7th|7th
+qstr_8th|8th
+qstr_Disabled____________|Disabled                            
+qstr_Howitzers_Battery___|Howitzers Battery                
+qstr_Field_Guns_Battery__|Field Guns Battery               
+qstr_Guards_Cavalry_Compa|Guards Cavalry Company   
+qstr_Mounted_Rifles_Compa|Mounted Rifles Company   
+qstr_Melee_Cavalry_Compan|Melee Cavalry Company   
+qstr_Guard_Infantry_Compa|Guard Infantry Company    
+qstr_Light_Infantry_Compa|Light Infantry Company    
+qstr_Line_Infantry_Compan|Line Infantry Company   
+qstr_{reg1}|{reg1}
+qstr_Too_many_troops^Chec|Too many troops^Check number available
+qstr__| 
+qstr_Number_of^artillery_|Number of^artillery shells.
+qstr_1._{s1}|1. {s1}
+qstr___c.|  c.
+qstr_90%|90%
+qstr_2._{s1}|2. {s1}
+qstr__%| %
+qstr_3._{s1}|3. {s1}
+qstr_4._{s1}|4. {s1}
+qstr_5._{s1}|5. {s1}
+qstr_6._{s1}|6. {s1}
+qstr_7._{s1}|7. {s1}
+qstr_8._{s1}|8. {s1}
+qstr_Form_Square^^Selecte|Form Square^^Selected companies (not more than two)^will form a square formation. It is effective in melee^fighting, especially against cavalry, but vulnarable^to an enemy fire. To selected companies be able to^form square, they need to have at least 25 soldiers^in total.^Company types: Line infantry, Guard.
+qstr_{reg0}%|{reg0}%
+qstr_{reg0}_c.|{reg0} c.
+qstr_Others|Others
+qstr_Outlaws|Outlaws
+qstr_Mercenary|Mercenary
+qstr_Close|Close
+qstr_Click_the_center_but|Click the center button to toggle faction^Click the avatars to view details of them
+qstr_Level:_{reg3}^Health|Level: {reg3}^Health: {reg4}
+qstr_Attributes|Attributes
+qstr_STR^AGI^INT^CHA|STR^AGI^INT^CHA
+qstr_{reg2}|{reg2}
+qstr_{s1}^{reg2}|{s1}^{reg2}
+qstr_Skills|Skills
+qstr_Ironflesh^Power_Stri|Ironflesh^Power Strike^Power Throw^Power Draw^Shield^Athletics^Riding^Horse Archery
+qstr_Proficiencies|Proficiencies
+qstr_1H_Weapons^2H_Weapon|1H Weapons^2H Weapons^Polearms^Archery^Crossbows^Throwing
+qstr_Equipments|Equipments
+qstr_Factions|Factions
+qstr_Show_towns|Show towns
+qstr_Show_castles|Show castles
+qstr_Show_villages|Show villages
+qstr_Tip:_move_the_mouse_|Tip: move the mouse onto the black blocks to show their names.
+qstr_The_World_Map|The World Map
+qstr_Press_Escape_to_clos|Нажмите на Escape, чтобы закрыть...
+qstr_{s7}__s_Army|{s7} 's Army
+qstr_Attribute_points_{re|Attribute points {reg40}
+qstr_Skill_points_{reg41}|Skill points {reg41}
+qstr_Weapon_points_{reg42|Weapon points {reg42}
+qstr_Save|Save
+qstr_Reset|Reset
+qstr_Current:{s1}|Current:{s1}
+qstr_{s2}^Base_Attribute:|{s2}^Base Attribute:CHA
+qstr_{s2}^Base_Attribute:I|{s2}^Base Attribute:INT
+qstr_{s2}^Base_Attribute:A|{s2}^Base Attribute:AGI
+qstr_{s2}^Base_Attribute:S|{s2}^Base Attribute:STR
+qstr_Battle_role:|Battle role:
+qstr_Line_Infantry|Line Infantry
+qstr_Light_Infantry|Light Infantry
+qstr_Guard_Infantry|Guard Infantry
+qstr_Melee_Cavalry|Melee Cavalry
+qstr_Ranged_Cavalry|Ranged Cavalry
+qstr_Guard_Cavalry|Guard Cavalry
+qstr_Next|Next
+qstr_Price_{reg42}^Weight|Price {reg42}^Weight {reg43}
+qstr_{reg5}_to_{reg6}|{reg5} to {reg6}
+qstr_Back|Back
+qstr_You_can_t_equip_this|You can't equip this item - wrong slot.
+qstr_Military_Technologie|Military Technologies of the {s1}
+qstr_Research|Research
+qstr_Select_technology|Select technology
+qstr_Rifled_Caplock^^Musk|Rifled Caplock^^Muskets
+qstr_Percussive_Explosive|Percussive Explosive^^Shells
+qstr_Firearms_Training|Firearms Training
+qstr_American_Civil_War^^|American Civil War^^Experience
+qstr_Ambulances|Ambulances
+qstr_Crimean_War^^Medical|Crimean War^^Medical Experience
+qstr_Conscription|Conscription
+qstr_Conversion_Breech_lo|Conversion Breech-loaded^^Rifles
+qstr_Rifled_Cannons|Rifled Cannons
+qstr_Baggage_Trains|Baggage Trains
+qstr_Modern^^Breech_loade|Modern^^Breech-loaded Rifles
+qstr_Skirmish_Line^^Tacti|Skirmish Line^^Tactics
+qstr_Regimental_System^^R|Regimental System^^Reform
+qstr_Breech_loaded^^Canno|Breech-loaded^^Cannons
+qstr_Magazine_Rifles|Magazine Rifles
+qstr_Improved_Percussion^|Improved Percussion^^Mechanisms
+qstr_Smokeless_Powder|Smokeless Powder
+qstr_Combat_Logistics|Combat Logistics
+qstr_Infantry_Adaptive^^T|Infantry Adaptive^^Training
+qstr_You_do_not_have_enou|You do not have enough money.
+qstr_faction_technologies|faction technologies tech available
+qstr_faction_technologies_|faction technologies tech inprogress
+qstr_Rifled_Caplock^Muske|Rifled Caplock^Muskets
+qstr_faction_technologies_p|faction technologies photo riflesrifled
+qstr_faction_technologies_ph|faction technologies photo conscription
+qstr_Percussive_Explosive^|Percussive Explosive^Shells
+qstr_faction_technologies_pho|faction technologies photo earlyshells
+qstr_Crimean_War^Medical_|Crimean War^Medical Experience
+qstr_faction_technologies_phot|faction technologies photo medicinecrimeanwar
+qstr_faction_technologies_photo|faction technologies photo shootingtraining
+qstr_Conversion_Breech_loa|Conversion Breech-loaded^Rifles
+qstr_faction_technologies_photo_|faction technologies photo riflesconverted
+qstr_faction_technologies_photo_c|faction technologies photo cannonsrifling
+qstr_American_Civil_War^L|American Civil War^Logistical Experience
+qstr_faction_technologies_photo_a|faction technologies photo acwexperience
+qstr_faction_technologies_photo_am|faction technologies photo ammoincrease
+qstr_Converted_breech_loa|Converted breech-loaded rifles have several issues. They have big caliber, because of which during fast shooting the barrel heats up so much that it becomes hard to handle rifle during reload or melee fighting. Inserted breech-loading mechanisms are not perfect and often cause cartridge case to jam inside after shot, and being hard to get out. Next step in firearms rearmament should be adopting new breech-loaded rifle: it will have much smaller caliber than before, which will improve bullet ballistics, and will have improved breech-loading mechanism, that will further increase rate of fire by making reloading process easier.^^Effects: army changes it's firearms to small-caliber breech-loading rifles.
+qstr_faction_technologies_photo_r|faction technologies photo riflessmallcaliber
+qstr_faction_technologies_photo_w|faction technologies photo woundedevacuation
+qstr_Skirmish_Line^Tactic|Skirmish Line^Tactics
+qstr_faction_technologies_photo_s|faction technologies photo skirmishline
+qstr_Regimental_System^Re|Regimental System^Reform
+qstr_faction_technologies_photo_f|faction technologies photo fourbattalions
+qstr_faction_technologies_photo_ri|faction technologies photo riflesboltaction
+qstr_Breech_loaded^Cannon|Breech-loaded^Cannons
+qstr_faction_technologies_photo_ca|faction technologies photo cannonsbreechloading
+qstr_faction_technologies_photo_h|faction technologies photo hetypelate
+qstr_Improved_Percussion^M|Improved Percussion^Mechanisms
+qstr_faction_technologies_photo_l|faction technologies photo lateshells
+qstr_faction_technologies_photo_i|faction technologies photo improvedlogistics
+qstr_Infantry_Adaptive^Tr|Infantry Adaptive^Training
+qstr_faction_technologies_photo_ad|faction technologies photo adaptivetraining
+qstr___already_invested_| (already invested)
+qstr___already_researched| (already researched)
+qstr__Current_progress___| Current progress - {reg2}%.
+qstr_Cost___{reg0}_pounds|Cost - {reg0} pounds{s1}.^Available after {reg1} year.{s2}
+qstr_Select_Faction|Select Faction
+qstr_Start_Game|Start Game
+qstr_Chosen_Faction:^{s1}|Chosen Faction:^{s1}
+qstr_Select_flag_for_your|Select flag for your faction
+qstr_Peace_negotiations_w|Peace negotiations with {s1}
+qstr_Stop_Negotiations|Stop Negotiations
+qstr_Make_Peace|Make Peace
+qstr_Opposite_side_diplom|Opposite side diplomats^cannot agree with terms
+qstr_Current_winner:_{s1}|Current winner: {s1}
+qstr_War_reparations_amou|War reparations amount: {reg11} pounds
+qstr_Infamy_penalty:_{reg|Infamy penalty: {reg12}
+qstr_Cannot_claim_{s31}__|Cannot claim {s31} - it doesn't have supply routes to your faction.
+qstr_Diplomats_from_{s32}|Diplomats from {s32} refuse to give {s31} to the {s33}.
+qstr_vSeason|vSeason
+qstr_{s1}_of_{s3}_was_def|{s1} ({s3}) потерпел поражение в битве но смог сбежать.
+qstr_{s54}_is_a_claimant_|{s54} является претендентом на трон {s56}.
+qstr_nowhere|нигде
+qstr_{s57}_and_{s58}|{s57} и {s58}
+qstr_{reg3?She:He}|{reg3?Она:Он}
+qstr_The_town_of_{s50}|Город {s50}
+qstr_The_village_of_{s50}|Деревня {s50} около {s52}
+qstr_{s51}_belongs_to_{s1|{s51}, владельцем является {s1} ({s2}).^
+qstr_{s7}_and_{s8}|{s7} и {s8}
+qstr_{s2}It_has_no_villag|{s2} не имеет деревень.^
+qstr_{s2}{reg0?Its_villag|{s2}{reg0?Деревни:Деревня} {s8}.^
+qstr_{s63}_is_connected_t|{s63} is connected to the cities of {s60}, {s61} and {s62} by the local road network. Region of this center has access to a seaport.
+qstr_{s63}_is_connected_to|{s63} is connected to the cities of {s60}, {s61} and {s62} by the local road network.
+qstr_{s2}Its_prosperity_i|{s2}Достаток: {s50}
+qstr_noone|пусто
+qstr_{s9}_and_{s10}|{s9} и {s10}
+qstr_{s21}^*_The_{s5}_is_|{s21}^* The {s5} is in alliance with {s14} ({reg11}).
+qstr_{s21}^*_The_{s5}_has|{s21}^* The {s5} has friendly diplomatic relationship with {s14} ({reg11}).
+qstr_{s21}^*_The_{s5}_has_|{s21}^* The {s5} has warm diplomatic relationship with {s14} ({reg11}).
+qstr_{s21}^*_The_{s5}_has_i|{s21}^* The {s5} has indifferent diplomatic relationship with {s14} ({reg11}).
+qstr_{s5}_has_been_defeat|{s5} потерпел поражение!
+qstr_{s7}_opened_the_gate|{s7} открыл ворота
+qstr_{s7}_closed_the_gate|{s7} закрыл ворота
+qstr_Has_second_barrel__p|Has second barrel (press action^key while aiming to fire a buckshot)
+qstr_Uses_pistol_cartridg|Uses pistol cartridges
+qstr_Smoothbore_musket|Smoothbore musket
+qstr_Rifled_musket|Rifled musket
+qstr_Converted_breech_load|Converted breech loaded rifle
+qstr_Modern_breech_loaded|Modern breech loaded rifle
+qstr_Smoothbore_pistol|Smoothbore pistol
+qstr_Revolver__6_rounds_|Revolver (6 rounds)
+qstr_Pocket_Revolver__6_r|Pocket Revolver (6 rounds)
+qstr_Self_Loading_Pistol_|Self-Loading Pistol (8 rounds)
+qstr_Revolver__9_rounds_|Revolver (9 rounds)
+qstr_Shotgun__2_rounds_|Shotgun (2 rounds)
+qstr_Lever_action_shotgun|Lever action shotgun (6 rounds)
+qstr_Lever_action_shotgun_|Lever action shotgun (1 round)
+qstr_Bolt_action_magazine|Bolt-action magazine rifle (5 rounds)
+qstr_Straight_pull_bolt_a|Straight-pull bolt-action^magazine rifle (5 rounds)
+qstr_Bolt_action_magazine_|Bolt-action magazine rifle (8 rounds)
+qstr_Bolt_action_magazine_r|Bolt-action magazine rifle (10 rounds)
+qstr_Pocket_Pistol__6_rou|Pocket Pistol (6 rounds)
+qstr_Pocket_Pistol__4_rou|Pocket Pistol (4 rounds)
+qstr_Breech_loaded_rifle|Breech loaded rifle
+qstr_Lever_action_magazin|Lever action magazine rifle (8 rounds)
+qstr_Lever_action_magazine|Lever action magazine rifle (5 rounds)
+qstr_Lever_action_magazine_|Lever action magazine rifle (9 rounds)
+qstr_Lever_action_magazine_r|Lever action magazine rifle (16 rounds)
+qstr_Lever_action_magazine_ri|Lever action magazine rifle (7 rounds)
+qstr_+{reg1}_to_party_mor|+{reg1} к морали отряда
+qstr_Requires_{reg1}_inte|Требует {reg1} интеллекта для прочтения
+qstr_Reading_Progress:_{r|Прогресс чтения: {reg1}%
+qstr_wound_treament|первой помощи
+qstr_trainer|обучению
+qstr_surgery|хирургии
+qstr_+1_to_{s1}_while_in_|+1 к {s1} пока находится в инвентаре
+qstr_Move_here|Перейти
+qstr_View_notes|Заметки
+qstr_Accompany|Сопровождать
+qstr_killed|убито
+qstr_wounded|ранено
+qstr_{s0}^TOTAL:_{reg3}__|{s0}^Всего: {reg3} ({s2})
+qstr_^None|^ничего
+qstr_nothing|ничего
+qstr_{reg0}_village{reg1?|{reg0} {reg1?деревень:деревня}
+qstr_{reg0}_castle{reg1?s|{reg0} {reg1?замков:замок}
+qstr_{reg0}_castle{reg1?s:|{reg0} {reg1?замков:замок} и {s0}
+qstr_{reg0}_town{reg1?s:}|{reg0} {reg1?городов:город}
+qstr_{reg0}_town{reg1?s:}_|{reg0} {reg1?городов:город} и {s0}
+qstr_{reg0}_town{reg1?s:}_{|{reg0} {reg1?городов:город}, {s0}
+qstr_Your_opponents_are_r|Ваши противники готовы к бою.
+qstr_Try_to_destroy_as_ma|Старайтесь уничтожить как можно больше целей. У Вас две с половиной минуты для того, чтобы очистить путь.
+qstr_Stay_behind_the_line|Стойте перед чертой и стреляйте по мишеням. Старайтесь не промахиваться.
+qstr_Battle_Advantage_=_{|Боевое преимущество = {reg0}.
+qstr_{s9}_wants_you_to_re|{s9} хочет, чтобы Вы следовали за его армией до его дальнейших указаний.
+qstr__Being_Raided_|(Под нападением)
+qstr__Looted_|(Разграблено)
+qstr__Under_Siege_|(В осаде)
+qstr_The_village_of_{s1}_|{s2} ограбил деревню {s1}.
+qstr_{s3}_is_no_longer_un|{s3} более не находится в осаде.
+qstr_Small_bands_of_enemi|Малые отряды врагов замечены около {s1}.
+qstr_Enemy_patrols_spotte|Вражеские патрули замечены около {s1}.
+qstr_Medium_sized_group_o|Средняя группа врагов замечена около {s1}.
+qstr_Significant_group_of|Большая группа врагов замечена около {s1}.
+qstr_Army_of_enemies_spot|Вражеская армия замечена около {s1}.
+qstr_Large_army_of_enemie|Большая вражеская армия замечена около {s1}.
+qstr_Great_host_of_enemie|Гигантская вражеская армия замечена около {s1}.
+qstr_{s1}_has_been_besieg|{s1} осаждает {s2} ({s3}).
+qstr__{s1}__{s11}:_{s14}|({s1}) {s11}:{s14}
+qstr_{s14}__{s21}_|{s14} ({s21})
+qstr_{s1}_is_the_new_mars|{s1} стал новым маршалом {s2}.
+qstr_You_gained_{reg12}_r|Вы получили {reg12} к известности.
+qstr_You_lose_{reg12}_ren|Вы потеряли {reg12} известности.
+qstr_Your_relation_with_{|Ваши отношения с {s1} улучшились.
+qstr_Your_relation_with_{s|Ваши отношения с {s1} ухудшились.
+qstr_You_gain_honour.|Ваша честь увеличивается.
+qstr_You_lose_honour.|Ваша честь уменьшается.
+qstr_{s1}_has_declared_wa|{s1} и {s2} теперь в состоянии войны.
+qstr_{s1}_has_declared_war|{s1} has declared war against {s2} in support of {s31}.
+qstr_{s1}_and_{s2}_have_m|{s1} и {s2} заключили мирное соглашение.
+qstr_{s2}_{reg3?was:is_cu|{s2} {reg3?{reg4?была:был}:находится} в {s3}.
+qstr_{s2}_{reg3?was:is}_t|{s2} {reg3?{reg4?направлялась:направлялся}:направляется} в {s3} и{reg3?: на данный момент} {reg3?{reg4?находилась:находился}:{reg4?должна быть:должен быть}} около {s4}.
+qstr_{s2}_{reg3?was:is}_i|{s2} {reg3?{reg4?была:был}:находится} в пути и{reg3?: на данный момент} {reg3?{reg4?находилась:находился}:{reg4?должна быть:должен быть}} около {s3}.
+qstr_{s2}_{reg3?was:is}_b|{s2} {reg3?{reg4?была:был}:находится} пленником в {s3}.
+qstr_{s2}_{reg3?was:has_b|{s2} {reg3?{reg4?была:был}:находится} в плену у {reg4?ее:его} врагов.
+qstr_{reg3?{s2}_s_locatio|{reg3?{s2} находится неизвестно где:Я не знаю, где сейчас {s2}}.
+qstr_{s6}_has_joined_your|{s6} присоединяется к Вашему отряду.
+qstr_You_now_owe_{reg2}_p|You now owe {reg2} pounds to {s1}.
+qstr_Renown_value_for_thi|Рейтинг битвы {reg8}.
+qstr_You_have_run_into_a_|Вы попали в западню!
+qstr_You_are_attacked_by_|Вас атаковала группа разбойников!
+qstr_Holding|Держат позицию
+qstr_Following|Следуют
+qstr_Charging|Атакуют
+qstr_Advancing|Продвигаются
+qstr_Falling_Back|Отступают
+qstr_Standing_Closer|Сдвигаются
+qstr_Spreading_Out|Рассыпаются
+qstr_Standing|Стоят
+qstr_N/A|Н/Д
+qstr_Free|Свободно
+qstr_Any_Weapon|Любое оружие
+qstr_Blunt_Weapons|Дробящее оружие
+qstr_{s1}_Rebels|{s1} мятежники
+qstr_Given_by:_{s62}|Получено у: {s62}
+qstr_Given_on:_{s60}|Получено: {s60}
+qstr_You_have_{reg0}_days|У Вас {reg0} дней до истечения срока задания.
+qstr_This_quest_has_been_|Это задание выполнено. {s59} ожидает Вас.
+qstr_This_quest_has_been_s|Это задание успешно выполнено. {s59} ждет Вас для вручения награды.
+qstr_This_quest_has_faile|Это задание провалено. {s59} ждет Ваших объяснений.
+qstr_At_the_time_quest_wa|Во время начала задания:^{s1}
+qstr_{s5}_has_a_strength_|{s5} располагает армией численностью: {reg1}.
+qstr_The_last_time_you_sa|В последний раз, когда Вы {reg1?ее:его} видели, {s1}
+qstr_The_last_time_you_he|В последний раз, когда Вы о {reg1?ней:нем} слышали, {s1}
+qstr_Current_garrison_con|В настоящий момент гарнизон составляет {reg5} человек.^Запасов еды хватит на {reg6} дней.
+qstr_Very_Poor|Очень бедный
+qstr_Poor|Бедный
+qstr_Average|Средний
+qstr_Rich|Богатый
+qstr_Very_Rich|Очень богатый
+qstr_Manor|Поместье
+qstr_A_manor_lets_you_res|Поместье позволяет Вам отдыхать в деревне и плата войскам в это время уменьшается на 50%.
+qstr_Mill|Мельница
+qstr_A_mill_increases_vil|Мельница увеличивает благосостояние деревни на 5%.
+qstr_Watch_Tower|Вышка дозорного
+qstr_A_watch_tower_lets_t|Вышка дозорного позволяет жителям деревни раньше поднять тревогу. Время необходимое врагам на грабеж деревни увеличивается на 50%.
+qstr_School|Школа
+qstr_A_shool_increases_th|Школа увеличивает верность жителей деревни к вам на +1 ежемесячно.
+qstr_Messenger_Post|Пост посыльного
+qstr_A_messenger_post_let|Пост посыльного позволяет жителям отправить Вам сообщение о находящихся поблизости врагах, даже когда Вы находитесь вдалеке.
+qstr_Prison_Tower|Тюрьма
+qstr_A_prison_tower_reduc|Тюрьма уменьшает шанс на успешный побег пленников.
+qstr_Prosperity_of_{s2}_h|Благосостояние {s2} изменилось с {s3} до {s4}.
+qstr_{s4}_looks_upset.|{s4} огорчается.
+qstr_your_party|ваш отряд
+qstr_{reg0?One_of_your_pr|{reg0?Ваш пленник, :}{s1} ({s3}){reg0?, сбежал: сбегает из плена}!
+qstr_You_brought_{reg3}_h|Вы доставили {reg3} голов скота {s1}.
+qstr_I_heard_that_there_w|Говорят, что скоро в {s62} будет турнир.
+qstr_I_heard_that_one_can|Говорят, что можно дешево купить товар {s62} в {s63}.
+qstr_I_heard_that_they_pa|Говорят, что можно дорого продать товар {s62} в {s63}.
+qstr_two_days_ago|два дня назад
+qstr_Best_threat_of_{s4}_|Самый опасный из {s4} имеет {reg1} уровень
+qstr_No_center_found_to_d|Не найдено центра для защиты
+qstr_You_gain_right_to_ru|Ваше право на правление увеличивается.
+qstr_You_lose_right_to_ru|Ваше право на правление уменьшается.
+qstr_Added_money_for_your|Добавлены деньги за вашу старую лошадь
+qstr_Line_Infantry_Company|Line Infantry Company
+qstr_Light_Infantry_Compan|Light Infantry Company
+qstr_Guard_Infantry_Compan|Guard Infantry Company
+qstr_Cavalry_Squadron|Cavalry Squadron
+qstr_Mounted_Rifles_Squad|Mounted Rifles Squadron
+qstr_Cavalry_Guard_Squadr|Cavalry Guard Squadron
+qstr_Field_Guns_Battery|Field Guns Battery
+qstr_Howitzers_Battery|Howitzers Battery
+qstr_Empty|Empty
+qstr__I.| I.
+qstr_L.I.|L.I.
+qstr__G.| G.
+qstr_M.C.|M.C.
+qstr_M.R.|M.R.
+qstr_C.G.|C.G.
+qstr_G.B.|G.B.
+qstr_H.B.|H.B.
+qstr_Cannot_form_square:_t|Cannot form square: too few soldiers (need at least 25).
+qstr_{s1}|{s1}
+qstr_{s31}_created_a_casu|{s31} created a casus belli for {s32} for {reg10} days.
+qstr_{s31}_s_infamy_is_in|{s31}'s infamy is increased by {reg10} and is now {reg11}.
+qstr_{s31}_s_infamy_is_de|{s31}'s infamy is decreased by {reg10} and is now {reg11}.
+qstr_Belongs_to_{s31}|Belongs to {s31}
+qstr_Controlled_by_{s31}^|Controlled by {s31}^Belongs to {s32}
+qstr_{s31}_becomes_an_all|{s31} becomes an ally of {s32}.
+qstr_{s31}_breaks_an_alli|{s31} breaks an alliance with {s32}.
+qstr_day|day
+qstr_cloud1|cloud1
+qstr_cloud2|cloud2
+qstr_cloud3|cloud3
+qstr_cloud4|cloud4
+qstr_cloud5|cloud5
+qstr_sunset|sunset
+qstr_clouds1|clouds1
+qstr_clouds2|clouds2
+qstr_clouds3|clouds3
+qstr_clouds4|clouds4
+qstr_evening|evening
+qstr_night|night
+qstr_dusk|dusk
+qstr_Hotkeys:_U_to_access|Hotkeys: U to access the aerial view E and Q to turn Shift and Control to control your height ~ tilde (next to 1) to make your troops run. You can select companies either by clicking on the units on screen, or by selecting them in the UI in the bottom left Use your right mouse button to place, and orientate your units.
+qstr_{reg0}._Company_has_|{reg0}. Company has switched to running.
+qstr_{reg0}._Company_has_s|{reg0}. Company has switched to walking.
+qstr_{reg0}._Company_was_|{reg0}. Company was forced to retreat.
+qstr_1st_{s1}|1st {s1}
+qstr_2nd_{s1}|2nd {s1}
+qstr_3rd_{s1}|3rd {s1}
+qstr_4th_{s1}|4th {s1}
+qstr_5th_{s1}|5th {s1}
+qstr_6th_{s1}|6th {s1}
+qstr_7th_{s1}|7th {s1}
+qstr_8th_{s1}|8th {s1}
+qstr_You_got_keys_of_dung|Вы получаете ключи от темницы.
+qstr_You_must_stay_behind|Вы должны стоять ЗА линией! Очки не засчитываются.
+qstr_Tutorial|Инструкция
+qstr_^{s32}_s_Infamy:_{re|^{s32}'s Infamy: {reg10}
+qstr_You_were_born_the_{r|Вы родились {reg3?дочерью:сыном} в чете странствующих торговцев, путешествовавших с места на место в поисках дохода. Несмотря на то, что родители Ваши по благосостоянию превосходили большинство людей и дали Вам настолько хорошее образование, насколько были в силах, у Вас было немного возможностей обзавестись друзьями, поскольку основой жизни было желание продать кому-нибудь что либо.
+qstr_You_were_born_the_{re|You were born the {reg3?daughter:son} of a small businessman, always dealing with different sorts of customers and partners. Your parents were wealth enough to send you to a private school. You father wasn't able to deal with the new times, which changed trading technoligies, so after his death you had only a small part of his business.
+qstr_You_were_born_the_{reg|You were born the {reg3?daughter:son} of a minor staff officer, who took a part in a lot of conflicts of the early 19th century. Born in one of his campaigns, you never knew your mother. Although your father tried to teach you everything he knew, he wasn't a good teacher, so after his death you had only some army skills and his last bought gun.
+qstr_{reg3?daughter:son}|{reg3?дочерью:сыном}
+qstr_You_were_born_the_{reg3|You were born the {reg3?daughter:son} of a mafia capo, who was a respected member of a local band. Your father didn't want you to follow his steps, so you had a chance for a lawful life. But circumstances of the new times left you no choice, so after his death you replaced him with his mafia heritage.
+qstr_You_were_born_the_{reg3?|You were born the {reg3?daughter:son} of a university professor. As a son of a science man, you got a very good education. Although your family wasn't rich your father tought you that money aren't the most important, so after his death you entered the world with a good amount of knowledge.
+qstr_You_were_born_the_{reg3?d|You were born the {reg3?daughter:son} of a regular factory laborer, who spent his life toughly working for his family. Although you were tought to live fairly, your father gave you freedom of chosing your future profession. After his death, you still was seeking for a business to get in your live.
+qstr_You_were_a_child_of_|Вы родились и выросли в степях в одном из племен, которое кочевало по засушливым пастбищам. Как и у других кочевников, в Вашей семье превыше всего ценились лошади и умение ездить верхом, которое Вы освоили еще до того, как стать на ноги.
+qstr_As_the_{reg3?daughte|Будучи {reg3?дочерью:сыном} вора Вы не получили никакого упорядоченного образования. Вместо учебы Вы все время проводили на улице, попрошайничали, пока не научились срезать кошельки у прохожих, срезая кошельки, пока не научились вскрывать замки. Так прошло все детство и подобный образ жизни открыл Вам много городских секретов и потайных путей.
+qstr_You_were_as_far_as_a|You were, as far as anyone outside the university could tell, a studious person. Always obeying the rules, always getting good grades. If that was an illusion or not, only you know. But suffice you say, you were in university, be it because of a patronage from someone wealthy or because your family was rich enough to afford it, and even if you were a student whose record was questionable at best, it gained you valuable insight and experience.
+qstr_The_thrumming_of_mac|The thrumming of machines and the pounding of metal is a sound you know better than anyone. It was hard work, waking up real early and going to bed real late, working every second between those two events under the watchful eye of demanding overseers. You became intimately familiar with technology, particularly industry, as you worked. Your calloused hands are proof that you know hard work, and though you left the factory life behind, it will never leave you.
+qstr_Living_on_the_street|Living on the streets was tough. Stealing to live, if you could call the scraps you could get any sort of proper life, was part and parcel of your existence. Everyone looked down at you as a street urchin, as someone to be reviled and pitied at best, or actively driven out at worst. This hard life gave you perspective, it gave you skills others may see as unsavory. Luckily, in war, unsavory skills are quite useful.
+qstr_Extra_extra!_Local_n|Extra extra! Local newspaper has a bunch of stories that you never really cared for! Hawking newspapers all day certainly improved your skills at speaking, making people who otherwise wouldn't care for the goings-on to buy a newspaper. Of course, a keen knowledge of business is hardly a bad thing. Perhaps the skills you learned will do you well in the new world you find yourself in.
+qstr_As_a_{reg3?girl:boy}|{reg3?Девушкой:Юношей} Вас отослали ко двору одного из знатных людей. Одним из первых уроков, выученных во время служения знатным господам и дамам стало смирение. Но, наблюдая за ними во время игр и развлечений, подслушивая сплетни, внимая стихам о великих свершениях и любви, Вы очень быстро осознали, что мир взрослых это мир состязаний и противостояния.
+qstr_You_were_drawn_to_th|You were drawn to the human body, and how it functioned. Perhaps a family member got sick, and you vowed to help others through the same. Perhaps you liked giving people hope and treating them. Maybe you just liked cutting things apart. Either way, in college, you went into the fields of medicine.
+qstr_Perhaps_you_live_som|Perhaps you live somewhere where grand architecture spirals up into the sky, or where imposing walls surrounded you. Or a small village, with beautiful and ancientchurches, was where your interest in buildings came. It doesn’t matter, because you loved buildings,and learned to raise them up in university. Perhaps now, you shall use that to tear them down. 
+qstr_Philology_the_study_|Philology, the study of languages and how they compare, is extremely important to the diplomacy of Europe, where besides Latin, language like English, Russian, French, and so forth mustbe mastered. Studying this in university gave you a keen tongue and learned how to speak and communicate withthe high lords and common folk across the many realms of Europe.
+qstr_{reg3?daughter:man}|{reg3?дочь:сын}
+qstr_{reg3?woman:man}|{reg3?взрослой женщиной:взрослым мужчиной}
+qstr_You_decided_to_lead_|You decided to lead a bohemian life, travelling from place to place playing music. This has put you in touch with the common people, and most of your interactions with higher society consisted of a tip of the hat when they tossed a coin into your cup. But still, you have learned how to advertise yourself, how to speak to a crowd, and how to entertain. All very useful skills, indeed.
+qstr_You’re_a_businessp|You’re a businessperson, someone who has capital and funds enough to make more   capital. Perhaps you rose from the working class, or perhaps you started with a small loan from your family.   Either way, you’re well-off and can definitely get a foot in wherever you go now.
+qstr_You_fell_into_crimin|You fell into criminal life, and never really got out. The police know who you are    in some places, and in others they leer as if they should know you. No matter, of course, since between arrests   and brief jail times, you’ve learned how to survive outside the law.
+qstr_You_went_to_the_Amer|You went to the Americas to seek a new life, perhaps to escape persecution   in Europe, perhaps to make a new life free from debts. Whatever your reasons, you took the journey   across to the Atlantic. And now, for whatever reason, you have returned to Europe.
+qstr_You_fought_in_the_Cr|You fought in the Crimea, either with or against Russia, and your   experiences in that war were invaluable and horrific. You saw men die, you saw foolish cavalry   charges, you saw the awesome power of cannons. As you returned home, weary and war-shocked, you knew you would never be the same.
+qstr_Only_you_know_exactl|Только вам известно, что заставило вас отказаться от прежней жизни и отправиться в путешествие. И все же, это не было трудным решением, учитывая какой огонь ярости пылал в вашем сердце. Вы жаждали мести. Вы требовали справедливости. Зло, причиненное вам, не будет забыто, этот долг может быть оплачен только кровью...
+qstr_Only_you_know_exactly|Только вам известно, что заставило вас отказаться от прежней жизни и отправиться в путешествие. Вы просто не могли остаться, не могли переносить воспоминания о тех, кого любили так близко и так мучительно. Возможно, новая жизнь позволит вам забыть или прославить то имя, которое вы уже не в силах произнести...
+qstr_Only_you_know_exactly_|Только вам известно, что заставило вас отказаться от прежней жизни и отправиться в путешествие. Вы даже не можете сказать, когда ваш дом стал тюрьмой, когда знакомое стало чужим, но грезы о странствиях прочно вошли в жизнь. Тоска ли это по дальним краям или вас просто манит дорога, но вам было невыносимо оставаться на одном месте. Вы просто ушли, не оглядываясь назад...
+qstr_Only_you_know_exactly_w|Только вам известно, что заставило вас отказаться от прежней жизни и отправиться в путешествие. Однако, вы знаете, что уже не сможете вернуться. Там не осталось ничего, к чему стоило бы возвращаться. Что бы там ни произошло, это уже в прошлом, и теперь вы один на один с большим безжалостным миром. Остается или плыть, или утонуть...
+qstr_Only_you_know_exactly_wh|Только вам известно, что заставило вас отказаться от прежней жизни и отправиться в путешествие. Любому ясно, что вами движет исключительно жажда личной выгоды. Вы желаете богатства, власти и уважения. Вы хотите быть тем, кому спешат повиноваться. Вы хотите, чтобы люди знали ваше имя и дрожали всякий раз, когда его произносят. Вы хотите все и никому не позволите встать у вас на пути...
+qstr_Back_to_the_beginnin|Вернуться к началу...
+qstr_View_next_segment...|Следующий отрывок...
+qstr_^No_food:___{reg7}|^Еды нет:  -{reg7}
+qstr_^Wage_debt:___{reg6}|^Задолженность:  -{reg6}
+qstr_On_loan|Взаймы,
+qstr_Appoint_next_marshal|Назначить другого маршала
+qstr_Award_{s12}_as_fief|Отдать {s12} во владение
+qstr_No_one|Ни одного
+qstr_Selected_faction_is:|Выбранная фракция: {s10}^^{s9}
+qstr_You_are_currently_re|В настоящий момент Вы читаете {s8}.
+qstr_You_are_not_reading_|Вы не читаете никаких книг.
+qstr_none|никого
+qstr_{s5}_and_{s6}|{s5} и {s6}
+qstr_Your_estates_are:_{s|Ваши владения: {s8}.^{s9}
+qstr_Current_party_size_l|Текущий предельный размер отряда: {reg5}.^Текущие модификаторы размера отряда:^^Основной размер: +30^Лидерство:{s2}{reg1}^Харизма:{s3}{reg2}^Известность:{s4}{reg3}^ВСЕГО: {reg5}
+qstr_Loyal|Верные
+qstr_Devoted|Преданные
+qstr_Fond|Теплые
+qstr_Gracious|Благодарные
+qstr_Friendly|Дружелюбные
+qstr_Supportive|Поддерживающие
+qstr_Favorable|Благоприятные
+qstr_Cooperative|Сотрудничающие
+qstr_Accepting|Приязненные
+qstr_Indifferent|Безразличные
+qstr_Suspicious|Подозрительные
+qstr_Grumbling|Недовольные
+qstr_Hostile|Неприязненные
+qstr_Resentful|Возмущенные
+qstr_Angry|Сердитые
+qstr_Hateful|Ненавидящие
+qstr_Revengeful|Мстительные
+qstr_Vengeful|Кровожадные
+qstr_Your_relation_with_t|Ваши отношения с фракциями:^{s2}
+qstr_Player_renown_is_inc|Известность игрока повышена на 100.
+qstr_Player_honor_is_incr|Честь игрока повышена на 1 и составляет {reg7}.
+qstr_north_region|north region
+qstr_middle_region|middle region
+qstr_south_region|south region
+qstr_{reg1}_{s1}_{reg2?ac|{reg1} {s1} принима{reg2?е:ю}т предложение.
+qstr_No_one_accepts_the_o|Никто не принимает Вашего предложения.
+qstr_You_start_reading_{s|Вы начали читать {s2} и после прочтения нескольких страниц поняли, что можете многое узнать из этой книги. Вы решаете держать ее поближе и читать всякий раз как предоставляется возможность.
+qstr_You_flip_through_the|Вы просматриваете страницы {s2}, но видите трудный для понимания текст. Упорное чтение вызывает у Вас головную боль и Вы решаете отложить книгу до лучших времен.
+qstr_Villagers|Селяне
+qstr_You_have_encountered|Ваш противник - {s1}.
+qstr_You_have_engaged_{s1|{s1} атакован вами во время их нападения на {s3}.
+qstr_You_were_caught_by_{|{s1} прерывает нападение вашего войска на {s3}.
+qstr_You_were_victorious!|Вы победили!
+qstr_Battle_was_lost._You|Битва проиграна. Ваши войска были полностью разбиты.
+qstr_Your_companions_carr|Ваши соратники выносят вас с поля битвы.
+qstr_You_have_defeated_th|Вы разбили врага.
+qstr_You_have_retreated_f|Вы бежали с поля боя.
+qstr_^^Ally_Casualties:{s|^^Потери союзников:{s0}
+qstr_{s1}_of_{s3}_managed|{s1} ({s3}) сумел бежать.
+qstr_Some_of_your_tendons|Во время боя Вы повредили сухожилие. Ваша сила уменьшилась на 1.
+qstr_You_took_a_nasty_wou|Вы получили рану, которая оставит вас слегка хромым даже после исцеления. Вы теряете 1 единицу ловкости.
+qstr_You_have_trouble_thi|Ваши мысли путаются после битвы. Возможно, это является следствием сильного удара по голове. Частые головные боли отныне станут Вашим спутником. Ваш интеллект уменьшился на 1 пункт.
+qstr_Perhaps_I_m_getting_|Кажется, мне перестало везти...
+qstr_Retirement_is_starti|Слово отставка" звучит все лучше и лучше.
+qstr_No_matter!_I_will_pe|Не важно! Я продолжу!
+qstr_What_did_I_do_to_des|Что я сделал, чтобы заслужить подобное?
+qstr_I_suppose_it_ll_make|Как минимум, из этого может получиться неплохая история...
+qstr_{s9}_wants_you_to_fo|{s9} требует, чтобы Вы следовали за его армией до особого распоряжения.
+qstr_The_local_road_netwo|The local road network connects {s2} to the cities of {s60}, {s61} and {s62}. This region has access to the sea.
+qstr_The_local_road_networ|The local road network connects {s2} to the cities of {s60}, {s61} and {s62}.
+qstr_{s8}_of_{s9}|{s8} ({s9})
+qstr__Your_own_banner_fli|Ваше знамя развивается над воротами замка.
+qstr__You_see_the_banner_|По знамени, развивающемся над воротами, вы понимаете, что замком владеет {s7}.
+qstr__Your_own_banner_flie|Ваше знамя развивается над воротами города.
+qstr__You_see_the_banner_o|По знамени, развивающемся над воротами, вы понимаете, что городом владеет {s7}.
+qstr_Cannot_besiege:_too_|Cannot besiege: too far from any center of your faction (closest centers to this {reg6?town:castle} are {s60}, {s61} and {s62}) and can't be besieged from the sea.
+qstr_The_{reg6?town_s:cas|Запасов продуктов в {reg6?городе:замке} хватит по крайней мере еще на {reg3} дней.
+qstr_The_{reg6?town_s:cast|Запасы продуктов в {reg6?городе:замке} подошли к концу и защитники голодают.
+qstr_You_re_preparing_to_|Вы начинаете подготовку к штурму. Работы будут закончены через {reg9} часов.
+qstr_Your_forces_are_buil|Ваши войска приступают к постройке осадной башни. Им потребуется около {reg9} часов для завершения строительства.
+qstr_You_are_ready_to_att|Ваши войска готовы к штурму.
+qstr_The_siege_tower_is_b|Осадная башня построена и войска готовы к атаке.
+qstr_As_a_last_defensive_|Последним оплотом остается главный зал замка, куда вы отступаете с остатками Ваших войск. Вас ждет отчаянная схватка. Если Вы будете побеждены, отступать Вам будет некуда.
+qstr_You_ve_been_driven_a|Вас оттеснили со стен и войска атакующих вливаются на улицы. Если победа останется за Вами, Вы сможете повернуть ход событий в свою пользу.
+qstr_You_ve_breached_the_|Ваши войска пробились на стены, но упорные защитники продолжают сопротивляться на улицах города! Вашим войскам придется преодолеть их сопротивление, прежде чем атаковать цитадель.
+qstr_The_town_centre_is_y|Центр города в Ваших руках. Для окончательной победы ваши войска должны сломить сопротивление последних защитников цитадели.
+qstr_The_remaining_defend|Оставшиеся защитники отступили в замок, создав там последний рубеж обороны. Вам необходимо во что бы то ни стало взять его.
+qstr_However_since_you_ar|Так как {s9} не принимал Вашей вассальной присяги, то он не признает Вас владельцем этого {reg8?города:замка}.
+qstr_The_enemy_has_been_f|Враг обращен в бегство. Атака отбита, но осада продолжается.
+qstr_As_you_approach_you_|При Вашем приближении стражники приветствуют Вас и распахивают перед Вами ворота.
+qstr_As_you_approach_you_a|Замечая Ваше приближение, стражники приветствуют Вас и распахивают перед Вами ворота.
+qstr__This_village_and_th| Эта деревня и прилегающие земли принадлежат Вам.
+qstr__You_remember_that_t| Вы вспоминаете, что этой деревней владеет {s7}.
+qstr__These_lands_belong_| Эти земли не имеют лорда.
+qstr__The_village_is_infe| Деревню наводнили {reg8} {s35}.
+qstr__The_village_has_bee| Деревня разграблена. Немногие выжившие разбегаются, когда Вы проезжаете мимо сгоревших домов.
+qstr__The_village_is_bein| На деревню совершено нападение.
+qstr_soldiers|soldiers
+qstr_rebels|rebels
+qstr_No_one_here_seems_to|Желающих присоединиться к Вашему отряду не видно.
+qstr_One_{s3}_volunteers_|Один {s3} пожелал следовать за Вами.
+qstr_{reg5}_{s3}_voluntee|{reg5} {s3} пожелали последовать за Вами.
+qstr_Try_as_you_might_you|Несмотря на все усилия, Вам не удалось победить бандитов. В ярости они сравняли деревню с землей в наказание за сопротивление и, оставив позади пылающие развалины, отправились на поиски новых угодий.
+qstr_village|Деревня
+qstr_town|Город
+qstr_castle|Замок
+qstr_The_{s17}_has_no_imp|{s17} не содержит улучшений.
+qstr_The_{s17}_has_the_fo|{s17} содержит следующие улучшения: {s18}.
+qstr_The_assasins_beat_yo|Убийцы избивают вас и бросают, решив, будто вы умерли.
+qstr_You_have_fallen._The|Вы упали без сознания. Бандиты быстро обчищают Ваши карманы, не оставляя даже мелкой монетки и растворяются в ночи. Впрочем, они оставили Вас в живых, если это можно так назвать.
+qstr_Luckily_some_of_your|К счастью, после того как Вы не вернулись, Ваши спутники отправились на поиски и нашли Вас на обочине дороги. Они перенесли Вас в безопасное место и перевязали раны.
+qstr_Luckily_some_passing|К счастью, жители города, проходившие мимо заметили Вас, лежащего на обочине дороги и, поняв, что это не обычный бродяга, отнесли Вас в ближайшую таверну, где перевязали Ваши раны.
+qstr_You_fail_to_steal_an|Вы не смогли украсть скот.
+qstr_You_drive_away_{reg1|Вы угнали {reg17} {reg12?голов:голову} скота из деревенского стада.
+qstr_You_are_at_{s2}.|{s2}.
+qstr__This_castle_has_no_| В этом замке нет гарнизона.
+qstr__This_town_has_no_ga| В этом городе нет гарнизона.
+qstr__You_have_successful| Вы благополучно проскользнули мимо стражи.
+qstr_{s13}_A_tournament_w|{s13} Скоро здесь состоится турнир.
+qstr___Join_the_commander| (Join the commanders' meeteing)
+qstr___{reg1}_pounds_per_| ({reg1} pounds per night)
+qstr_You_are_not_allowed_|You are not allowed here (need to have relation with faction 5 and higher).
+qstr_Moreover_you_earn_{r|Кроме того, Вы получаете {reg8} динар от ставок на себя...
+qstr_Victory_is_yours!_Yo|Победа за Вами! Вы выиграли в этом поединке, теперь Вам нужно подготовиться к следующему.
+qstr_You_have_been_bested|Вы проиграли в этом поединке, но признав ваше мастерство и храбрость, герольд позволяет вам принять участие в следующем.
+qstr_You_were_beaten._The|Вы проиграли. Селяне радуются своему успеху, но урок, который Вы хотели им преподать пропал даром...
+qstr_After_beating_your_l|После победы над последним противником вы объясняете крестьянам, каким образом можно защититься от подобной атаки. Возможно, они примут это к сведению и будут лучше подготовлены в следующий раз.
+qstr_The_bandits_are_brok|Бандиты повержены! Те немногие кто выжил убегают с поджатыми хвостами в страхе перед крестьянами и их новым защитником.
+qstr_{s1}_s_Ship|Судно, принадлежащее {s1}
+qstr_However_{reg3?You_ar|{reg3?Вы не смогли:{s1} не смог} найти товаров, которые могут принести прибыль.
+qstr_^Buying_{s4}_here_an|^Купив {s4} здесь и продав его в {s5} Вы получите прибыль в размере {reg6} динар за единицу товара.{s3}
+qstr_{reg3?You_find:{s1}_|{reg3?Вы обнаружили:{s1} обнаружил} следующее:^{s3}
+qstr_{s2}^{reg1}_{s1}_ear|{s2}^{reg1} {s1} получают {reg0} опыта.
+qstr_{s2}^{s1}_earned_an_|{s2}^{s1} дополнительно получает {reg0} опыта.
+qstr_^You_earned_{reg0}_e|^Вы получаете {reg0} опыта.{s2}
+qstr_The_training_didn_t_|Тренировка прошла плохо.
+qstr_The_training_didn_t_g|Тренировка прошла не совсем хорошо.
+qstr_The_training_went_qu|Тренировка прошла удовлетворительно.
+qstr_The_training_went_ve|Тренировка прошла хорошо.
+qstr_The_training_went_pe|Тренировка прошла отлично.
+qstr_{s13}_asked_you_to_r|{s13} просил вас явиться к нему, имея минимум {reg13} воинов в отряде.
+qstr_{s13}_ordered_you_to|{s13} приказал Вам присоединиться к осаде {s14}.
+qstr_Find_and_speak_with_|Разыщите и поговорите с {s3} ({s4}) для принесения ему вассальной присяги.
+qstr_There_has_been_an_al|Ходят слухи о пограничной стычке: {s9}
+qstr_^^Note_that_so_long_|^^Обратите внимание: пока Вы являетесь маршалом, другие вассалы будут ожидать, что Вы поведете их за собой. Если Вы ждете начала пира, свадьбы или других событий, вы можете сложить с себя полномочия маршала, обратившись к Вашему сеньору.
+qstr_Temperature:_+{reg0}|Temperature: +{reg0} C ^Pressure: {reg1} hPa ^Humidity: {reg2}% ^Wind: {reg3} km/h ^Cloudiness: {reg4}% ^Precipitation: {reg5}%
+qstr_You_have_bought_a_fi|You have bought a field gun.
+qstr_You_have_exceeded_pa|You have exceeded party size limit.
+qstr_You_have_no_enough_m|You have no enough money.
+qstr_Not_available_in_thi|Not available in this town.
+qstr_You_have_bought_a_ho|You have bought a howizer.
+qstr_Not_available_for_th|Not available for this faction.
+qstr_Breaking_camp...|Лагерь свернут...
+qstr_The_{s31}_gets_1_inf|The {s31} gets 1 infamy because of the prolonged war with {s32}.
+qstr_Party_has_nothing_to|Бойцам нечего есть!
+qstr_{reg1}_{s1}_{reg2?ha|{reg1} {s1} {reg2?бежали:бежал} из вашего отряда ночью.
+qstr_{s1}_of_{s3}_has_bee|{s1} ({s3}) был освобожден из заточения.
+qstr_Building_of_{s0}_in_|Строительство улучшения {s0} в {s4} было завершено.
+qstr_{s1}_is_no_longer_in|В {s1} больше нет бандитов (ночью).
+qstr_You_pay_for_accommod|Вы платите за постой.
+qstr_Betrothal_to_{s5}_ex|Помолвка с {s5} утратила силу
+qstr__Your_tactics_skill_| Ваш навык тактики увеличен на 1 пункт.
+qstr__Your_persuasion_ski| Ваш навык убеждения увеличен на 1 пункт.
+qstr__Your_leadership_ski| Ваш навык лидерства увеличен на 1 пункт.
+qstr__Your_intelligence_h| Ваш интеллект увеличен на 1 пункт.
+qstr__Your_trade_skill_ha| Ваш навык торговли увеличен на 1 пункт.
+qstr__Your_weapon_master_| Ваш навык владения оружием увеличен на 1 пункт.
+qstr__Your_engineer_skill| Ваше инженерное мастерство увеличено на 1 пункт.
+qstr_You_have_finished_re|Вы прочли {s1}.{s2}
+qstr_Book_Read|Чтение книги
+qstr_{s1}_is_scouted.|Разведка у {s1} завершена.
+qstr_{s1}_has_switched_fr|{s1} перешел от {s2} к {s3}.
+qstr_The_{s1}_has_finishe|The {s1} has finished researching technology of {s2}
+qstr_The_year_is_{reg0}.|The year is {reg0}.
+qstr_North_German_Confede|North German Confederation
+qstr_German_Empire|German Empire
+qstr_Kingdom_of_Italy|Kingdom of Italy
+qstr_Finished_improving_r|Finished improving relations with {s31}.
+qstr_{reg65?my_Lady:my_Lo|{reg65?миледи:милорд}
+qstr_{reg65?My_Lady:My_Lo|{reg65?Миледи:Милорд}
+qstr_{reg65?madame:sir}|{reg65?мадам:сир}
+qstr_{reg65?Madame:Sir}|{reg65?Мадам:Сир}
+qstr__no_fiefs_|(нет владений)
+qstr__fiefs:_{s0}_|(владения: {s0})
+qstr_It_s_your_money_or_y|Кошелек или жизнь, {парень/девчонка}. Только без резких движений, а то мои парни нервничают.
+qstr_Lucky_for_you_you_ca|Твое счастье, что я в хорошем настроении. Давай всю наличность и, может быть, мы оставим тебя в живых.
+qstr_This_a_robbery_eh?_I|Это ограбление, ясно? Даю тебе один шанс: отдавай все что есть или прощайся с жизнью. Уразумел?
+qstr_we_have_made_very_li|пока мы практически не продвинулись к цели
+qstr_we_have_suceeded_in_|мы получили кое-что, но впереди еще долгий путь
+qstr_we_have_become_a_sig|мы представляем из себя силу, с которой нельзя не считаться и у нас хорошие шансы на победу
+qstr_we_are_winning_the_w|мы практически победили, но еще враги еще строят козни.
+qstr_we_are_on_the_verge_|мы в шаге от победы. Оставшиеся противники не представляют угрозы, но их необходимо нейтрализовать окончательно.
+qstr_Ever_since_the_fall_|Ever since the fall of the Holy Roman Empire, the Austrian Emperor has been doing their best to undermine Northern conglomeration efforts. We will have to defeat and dissolve the weak German Confederation, lead by the Austrians, in order to rise to the position of a German hegemon, and annex the Kingdom of Hannover.^^ - Defeat the German Confederation armies belonging to Austria, Wurtemberg and Hannover^ - Conquer and hold the Bavarian fortification of Nuremberg ^ - Conquer the capital city of Stuttgart^ - Sign peace with German Confederation on conditions of taking Nuremberg and Stuttgart^^ We will be able to hold onto any conquests we make during the war, and our ultimate goal is to annex the Northern German states. Victory will pave the way to ultimate unification after we take back Alsace-Lorraine.
+qstr_War_with_France_has_|War with France has broken out, and our goal will be to utterly destroy them, take back German clay in Alsace-Lorraine, and ultimately declare Empire under our soon-to-be Emperor {playername}. It's time to display to the Southern Germans, foremost the Bavarians, that we are indeed capable of defending and leading the German people.^^ - Conquer the French border city of Strasbourg^ - Annihilate the French Army entirely^ - Sign peace with France on conditions of taking Strasbourg^^Let a united Germany rise from the ashes of the 2nd French Empire.
+qstr_The_first_step_towar|The first step towards German unification must be the reconquest of the Northern German regions of Schleswig, Holstein, and Lauenburg, which, for the past centuries, have been under occupation by the Danish Kingdom. Taking back the region, and destroying the Danish in the process, would certainly display might and competence in the eyes of the German states.^^ - Conquer the city of Kiel.^ - Defeat the Danish armies and destroy their economy to force them to surrender.^ - Sign peace with Denmark on conditions of taking Kiel^^Once we've defeated the Danes, we can move on to our Southern rival, the Austro-Hungarian Empire.
+qstr_Papal_State_and_our_|Papal State, and our primary Italian adversary, the Kingdom of Two Sicilies
+qstr_Papal_State_and_our_p|Papal State, and our primary Italian adversary, the Kingdom of Sardinia
+qstr_Kingdom_of_Two_Sicil|Kingdom of Two Sicilies, and our primary Italian adversary, the the Kingdom of Sardinia
+qstr_Your_highness_those_|Your highness, those people are our allies! We will be condemned by the entire international community, and lose a valuable ally! Are you sure?
+qstr_We_ve_agreed_by_truc|We've agreed by truce not to attack them, at least for the moment being. We will face extreme scrutiny if we do, regardless of how righteous our cause my be. Are you sure?
+qstr_Considering_we_have_|Considering we have a valid reason to attack {s31}, I don't see any inherent reason why this should speak against us. If you wish, I will send out a message to their ambassador immediately.
+qstr_I_am_afraid_we_don_t|I am afraid we don't have a justification for conflict at this point in time. We can naturally still declare war against {s31}, but expect international pressure to mount extremely quickly, and for it to put us in the crossfire of future and ongoing conflicts.
+qstr_This_is_my_decision_|This is my decision to make, go ahead anyways.
+qstr_Then_send_that_ambas|Then send that ambassador a message, and one to our generals, too.
+qstr_You_have_my_blessing|You have my blessings, go ahead.
+qstr_Let_s_not_act_rashly|Let's not act rashly. We have all the time we need, let's wait.
+qstr_Hold_it_then_we_can_|Hold it, then, we can't get ourselves condemned by a dozen nations at once!
+qstr_This_will_be_unneces|This will be unnecessary bloodshed through and through. Hold off on it.
+qstr_{playername}_when_we|{playername}, в начале этого долгого пути практически никто не обладал достаточным мужеством, чтобы поддержать Нас, и еще меньше было готово отдать за Нас свою жизнь. Но Вы ни минуты не колеблясь бросились на Наших врагов. Вместе мы прошли через многое и часто надежда оставляла нас, но с Божьей помощью мы преодолели все. Теперь для Нас настало время покинуть Ваш отряд и взять принадлежащее Нам по праву. Отныне Мы несем ответственность за правление {s3}. Перед Нами стоит множество задач и Мы надеемся на Вашу помощь в их решении. И, конечно, Вы навсегда останетесь первейшим из Наших почитаемых вассалов.
+qstr__We_will_of_course_n| Естественно, необходимо дождаться окончания кампании.
+qstr_I_am_{s4}_the_ruler_|Я {s4}, сюзерен {s6}
+qstr_I_am_{s4}_a_vassal_o|Я {s4}, вассал {s6}
+qstr_{s9}{reg5?_and_the_l|{s9}{reg5? и правитель {s8}.:.
+qstr_{s13}_asked_you_to_g|{s13} приказал Вам найти и доставить ему {reg3} голов скота.
+qstr_{s9}_asked_you_to_sc|{s9} приказал Вам разведать окрестности {s13}, {s14} и {s15}, после чего доложить ему о результатах разведки.
+qstr_you|вы
+qstr_You_are_challenging_|Вы вызываете меня на дуэль? Фигляр! Впрочем, как пожелаете, {playername}. Я готов размяться с Вами, всадник без головы.
+qstr_{s16}_and_{s17}|{s16} и {s17}
+qstr_Very_well_I_will_acc|Хорошо, Мы вновь примем Вас в ряды Наших вассалов, если Вы готовы снова принести Нам торжественную присягу.
+qstr_A_pardon_will_only_b|Мы даруем Вам прощение, если Вы готовы отказаться от {s17} в Нашу пользу. Вы согласны с таким условием?
+qstr_No._There_is_no_chan|Никогда! Никогда не бывать миру между нами!
+qstr_Our_marshal_{s1}|Наш маршал, {s1}
+qstr_{s11}_and_{s12}|{s11} и {s12}
+qstr_We_are_not_at_war_wi|В настоящее время мы ни с кем не воюем.
+qstr_We_are_at_war_with_{|Мы воюем с {s12}.
+qstr_go_on_the_offensive_|перейти в наступление
+qstr_act_to_defend_our_la|принять меры для защиты наших земель
+qstr_take_more_time_to_ga|ждать больше времени до сбора армии
+qstr_You_promised_to_help|Вы обещали поддержку {s13} в его претензиях на трон {s14}.
+qstr_What_do_you_say_to_e|Что Вы скажете о службе в качестве капитана наемников у {s9}? Без сомнения, Вы подходите для этой задачи.
+qstr_{s9}_asked_you_to_ta|{s9} просил Вас доставить сообщение {s13}. {s13} по всей вероятности находился в {s4} во время получения этого задания.
+qstr_{s9}_asked_you_to_tak|{s9} просил Вас доставить сообщение {s13} ({s15}). {s13} по всей вероятности находился в {s4} во время получения этого задания.
+qstr_{s11}_asked_you_to_e|{s11} просил Вас сопровождать его {s17} {s13} в {s14}.
+qstr_{s13}_asked_you_to_d|{s13} просил Вас разобраться с бандитами, захватившими деревню {s15} и после этого связаться с ним.
+qstr_{s9}_asked_you_to_ra|{s9} просил, чтобы Вы обучили {reg1} человек до {s14} и привели их к нему.
+qstr_{s9}_asked_you_to_co|{s9} просил Вас помочь в сборе налогов с {s3}. Он предложил Вам 1/5 от тех денег, что Вы соберете.
+qstr_{s9}_asked_you_to_hu|{s9} просил Вас помочь в охоте на беглеца по имени {s4}. По всей вероятности, сейчас он находится в {s3}.
+qstr_{s9}_asked_you_to_as|{s9} просил Вас помочь в убийстве торговца из {s3}.
+qstr_{s9}_has_asked_you_t|{s9} просил Вас встретиться с его шпионом в {s13}.
+qstr_{s11}_asked_you_to_f|{s11} просил Вас проследить за шпионом, который покинет {s12}. Будьте осторожны, чтобы шпион не заметил Вас, в противном случае он начнет подозревать слежку и повернет обратно. Когда шпион встретится со своим связником, Вам необходимо захватить их и привезти к {s11}.
+qstr_{s11}_asked_you_to_c|{s11} просил Вас захватить одного из вассалов {s13} (любого) и привезти его к {s11}.
+qstr_{s9}_asked_you_to_le|{s9} просил, чтобы Вы одолжили ему Вашего спутника {s3} на неделю.
+qstr_{s9}_asked_you_to_col|{s9} просил Вас взыскать {reg4} динар, которые {s3} должен ему. На момент получения задания {s3} был в {s4}.
+qstr_{s11}_gave_you_a_fak|{s11} дал Вам подложное письмо для {s13}, изобличающее его вассала {s16}. Поблизости от {s14}, отдайте это письмо одному из ваших {s15} и пошлите его в город гонцом. Он должен быть твердо уверен в истинности Ваших намерений.
+qstr_{s9}_has_requested_y|{s9} просил, чтобы Вы привели ему {reg1} пленных {s3}.
+qstr_Lend_your_experience|Предоставить Вашего опытного хирурга {s3} для {s1}.
+qstr_Then_take_it_with_my|Примите это вкупе с моей вечной признательностью. Вы благородный человек. Я никогда не забуду, как Вы помогли мне в трудную минуту.
+qstr_Forgive_me_{playerna|Простите меня, {playername}, но я настаиваю, чтобы Вы приняли их. Деньги мало значат для меня, а мой долг перед Вами высок. Возьмите-же и не будем больше об этом.
+qstr_{playername}_what_a_|{playername}, Вы прекрасный человек и я не позволю Вам отказаться от награды. Мой долг перед Вами больше, нежели возможно выразить в словах, так возьмите эти деньги. Вы распорядитесь ими гораздо лучше чем я.
+qstr_{s11}_asked_you_to_r|{s11} просила Вас спасти ее {s17}, {s13}, из {s14} поменявшись с ним одеждой и заняв его место в темнице.
+qstr_{s11}_asked_you_to_re|{s11} просила Вас спасти ее {s17}, {s13}, томящегося в {s14}.
+qstr_{s11}_asked_you_to_d|{s11} просила Вас доставить послание {s13}, находящемуся в плену в {s14}.
+qstr_You_agreed_to_challe|Вы согласились бросить вызов {s13} в защиту чести госпожи {s11}.
+qstr_{s5}__Persuasion_str|{s5} (сила убеждения: {reg5})
+qstr_Persuasion_Attempt|Попытка убеждения
+qstr_A_villager_from_{s7}|Селянин из деревни {s7} умолял Вас спасти ее от разбойников, нашедших там пристанище.
+qstr_You_chose_well_{sir/|Одобряю Ваш выбор, {сир/мадам}. Мои соратники знают как держать слово и сполна отрабатывают свою плату.
+qstr_Well_done_{sir/madam|Прекрасно, {сир/мадам}. Деньги и вино, и во всей Кальрадии Вам некого опасаться.
+qstr_We_are_at_your_servi|Мы к Вашим услугам, {сир/мадам}. Просто покажите, кого нужно поучить манерам, а остальное мы сделаем сами.
+qstr_The_Guildmaster_of_{|Цеховой мастер города {s13} просил Вас позаботиться о разбойниках, промышляющих в округе.
+qstr_{s9}_of_{s3}_asked_y|{s9} ({s3}) просил Вас доставить {s6} в количестве {reg5} шт. в таверну города {s4} за 7 дн.
+qstr_Escort_the_merchant_|Сопроводить торговый караван до {s8}.
+qstr_Merchant_{s9}_of_{s4|Торговец {s9} ({s4}) просил Вас разобраться с беспокоящими его бандитами, промышляющими в окрестностях города.
+qstr_Guildmaster_of_{s4}_|Цеховой мастер города {s4} передал вам {reg12} динар для уплаты выкупа бандитам, похитившим девушку. Вы должны встретиться с бандитами неподалеку от селения {s3} для передачи выкупа. После этого Вам необходимо привезти девушку обратно в город {s4}.
+qstr_Guildmaster_of_{s4}_p|Цеховой мастер города {s4} обещал Вам {reg12} динар если Вы убедите {s12} и {s13} не препятствовать заключению мира между государствами {s15} и {s14}. Добиться этого можно либо убедив их, либо захватив в плен и изолировав до подписания мирного соглашения между государствами.
+qstr_The_Guildmaster_of_{s|Цеховой мастер города {s14} просил вас разобраться с бандой уличных грабителей в городе {s14}. Они появляются ночью и нападают только на одиноких прохожих.
+qstr_Guildmaster_of_{s10}|Цеховой мастер города {s10} просил Вас перегнать стадо в {s13}. Вы получите {reg8} динар за хлопоты.
+qstr_He_is_not_commanding|В настоящий момент у него в подчинении никого нет.
+qstr_He_currently_command|В настоящий момент под его командой {reg0} человек{reg1?, {reg1} из которых ранены:}.
+qstr_The_elder_of_the_vil|Старейшина деревни {s3} просил Вас доставить им {reg5} мешков пшеницы.
+qstr_The_elder_of_the_vill|Старейшина деревни {s13} просил Вас обучить {reg5} крестьян для противостояния бандитам.
+qstr_The_elder_of_the_villa|старейшина деревни {s3} просил Вас пригнать {reg5} голов скота.
+qstr_{s16}_and_{s15}|{s16} и {s15}
+qstr_I_can_smell_a_fat_pu|Я чую толстый кошелек за версту.
+qstr_Why_it_be_another_tr|Какая приятная, неожиданная встреча! Предупреждаю, для {паренька/девушки} вроде тебя дороги здесь опасны. Но за небольшую мзду мы с моими ребятами проследим, чтобы дорога для тебя была поспокойнее, идет?
+qstr_Well_well_look_at_th|Посмотрите-ка сюда! Лучше начинай выгружать из карманов монеты, а то мы с моими друзьями будем тебя немножко бить.
+qstr_There_s_a_toll_for_p|Проход здесь платный, а мы собираем эту плату. Надеюсь, Вы не будете возражать, если мы немного облегчим Ваш кошелек?
+qstr_Another_fool_come_to|Еще одно тупое создание решило броситься на мой клинок? Прекрасно, к бою!
+qstr_We_re_not_afraid_of_|Ничтожество! Мы не боимся таких как ты и сейчас проломим парочку голов!
+qstr_That_was_a_mistake._|Большая ошибка с твоей стороны. Я буду убивать тебя медленно и мучительно.
+qstr_Brave_words._Let_s_s|Храбрые речи. Сможешь подтвердить их делами, пес?
+qstr_A_{s5}?_Well..._Yes_|{s5}? Хм... Да, полагаю, так и есть. Странный вопрос.
+qstr_Eh?_No_it_most_certa|А? Нет, скорее всего не {s5}. На Вашем месте я бы опросил всех кого возможно.
+qstr_This_is_the_{reg4?to|Это {reg4?город:деревня} {s5}, {сир/мадам}.
+qstr_{s6}_Our_{reg4?town:|{s6} Наше поселение и прилегающие земли принадлежат Вам, {милорд/миледи}.
+qstr_{s6}_Our_{reg4?town:v|{s6} {reg4?Нашим городом:Нашей деревней} и окружающими землями владеет {s7} из {s8}.
+qstr_{s3}_and_{s5}|{s3} и {s5}
+qstr_{reg20?We_mostly_pro|{reg20?В основном мы производим здесь {s5}:В последнее время производство упало}. Если Вы хотите узнать больше, обратитесь к {reg4?цеховому мастеру:старосте}. Он там, недалеко.

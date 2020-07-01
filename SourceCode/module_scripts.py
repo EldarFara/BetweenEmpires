@@ -24227,6 +24227,7 @@ scripts = [
   # called from triggers every two hours
   ("process_village_raids",
     [
+(try_for_range, ":unused", 0, 7),
 (val_clamp, "$async_process_village_raids", villages_begin, villages_end),
 (val_add, "$async_process_village_raids", 1),
 	(try_begin),	
@@ -24394,6 +24395,7 @@ scripts = [
            (try_end),
          (try_end),
        (try_end),
+(try_end),
   ]),
 
  
@@ -27414,6 +27416,7 @@ scripts = [
 		(neq, ":faction_to_assign", -1),
 		(party_set_slot, ":cur_center", slot_center_official_faction, ":faction_to_assign"),
 		(call_script, "script_give_center_to_faction", ":cur_center", ":faction_to_assign"),
+		(party_set_slot, ":cur_center", slot_center_faction_to_assign, -1),
 		(else_try),
 		(neq, ":official_faction", ":faction_no"),
 		(this_or_next|eq, ":official_faction", ":kingdom_a"),
@@ -32218,6 +32221,7 @@ scripts = [
     (else_try),
       (str_store_string, s1, "@N/A"),
     (try_end),
+     (str_store_string, s1, "@ "),
   ]),
 
   # script_store_riding_order_name_to_s1
@@ -43618,7 +43622,7 @@ scripts = [
         (this_or_next|eq, ":groom", "trp_player"),
            (eq, ":bride", "trp_player"),
 		#(eq, ":elopement", 0),    
-        (call_script, "script_start_wedding_cutscene", ":groom", ":bride"),
+       # (call_script, "script_start_wedding_cutscene", ":groom", ":bride"),
     (try_end),
 	]),
 

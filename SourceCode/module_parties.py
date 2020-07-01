@@ -921,7 +921,7 @@ parties = [
     ("village_385", "Mugla",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(151.04,59.96),[], 170),
     ("village_386", "Aydin",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(154.36,50.04),[], 170),
     ("village_387", "Manisa",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(155.62,29.08),[], 170),
-    ("village_388", "Baliksehir",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(157.59,18.54),[], 170),
+    ("village_388", "Balikesir",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(157.59,18.54),[], 170),
     ("village_389", "Bandirma",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(157.45,3.63),[], 170),
     ("village_390", "Usak",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(123.72,25.66),[], 170),
     ("village_391", "Eskisehir",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(110.16,4.02),[], 170),

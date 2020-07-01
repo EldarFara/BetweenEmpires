@@ -1,4 +1,4 @@
-979
+978
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -16,7 +16,7 @@ qstr_{!}{s1} {!}{s1}
 qstr_{s1}_gives_his_suppo {s1}_gives_his_support_to_{s2}.
 qstr_Number_of_Supporters Number_of_Supporters:_{reg0}
 qstr_{s2}_has_heard_his_v {s2}_has_heard_his_vassals'_counsel._He_selects_{s1}_as_the_marshall_of_{s3}.
-qstr_Action Action
+qstr__ _
 qstr_Mount Mount
 qstr_Attack_Type Attack_Type
 qstr_Retreat Retreat
@@ -96,7 +96,6 @@ qstr_Light_Infantry_Compa Light_Infantry_Company____
 qstr_Line_Infantry_Compan Line_Infantry_Company___
 qstr_{reg1} {reg1}
 qstr_Too_many_troops^Chec Too_many_troops^Check_number_available
-qstr__ _
 qstr_Number_of^artillery_ Number_of^artillery_shells.
 qstr_1._{s1} 1._{s1}
 qstr___c. __c.
@@ -585,7 +584,7 @@ qstr_clouds4 clouds4
 qstr_evening evening
 qstr_night night
 qstr_dusk dusk
-qstr_Hotkeys:_U_to_access Hotkeys:_U_to_access_the_aerial_view_E_and_Q_to_turn_Shift_and_Control_to_control_your_height_~_tilde_(next_to_1)_to_make_your_troops_run._You_can_select_companies_either_by_clicking_on_the_units_on_screen,_or_by_selecting_them_in_the_UI_in_the_bottom_left_Use_your_right_mouse_button_to_place,_and_orientate_your_units.
+qstr_Hotkeys:_U_to_access Hotkeys:_U_to_access_the_aerial_view_E_and_Q_to_turn_Space_and_Ctrl_to_control_your_height_~_tilde_(next_to_1)_to_make_your_troops_run._You_can_select_companies_either_by_clicking_on_the_units_on_screen,_or_by_selecting_them_in_the_UI_in_the_bottom_left_Use_your_right_mouse_button_to_place,_and_orientate_your_units.
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_running.
 qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_was_ {reg0}._Company_was_forced_to_retreat.
