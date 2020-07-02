@@ -1107,7 +1107,7 @@ parties = [
     ("village_572", "Liepaja",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(303.26,-312.98),[], 170),
     ("village_573", "Oyonnax",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(549.54,-104.24),[], 170),
     ("village_574", "Pontarlier",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(544.74,-122.55),[], 170),
-    ("village_575", "Lesezno",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(358.83,-209.22),[], 170),
+    ("village_575", "Lemgow",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(358.83,-209.22),[], 170),
     ("village_576", "Grudziads",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(322.81,-243.93),[], 170),
     ("village_577", "Kolo",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(323.66,-220.84),[], 170),
     ("village_578", "Poltava",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(86.76,-206.74),[], 170),

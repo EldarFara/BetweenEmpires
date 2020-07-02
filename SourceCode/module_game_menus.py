@@ -9632,7 +9632,7 @@ the high lords and common folk across the many realms of Europe."),
 	(eq, "$sneaked_into_town", 0),      
 ],"Go to the armory.",
 [         
-	(store_faction_of_party, ":faction", "$g_encountered_party"),
+	(store_faction_of_party, ":faction", "$current_town"),
 	(store_relation, ":relation", ":faction", "fac_player_supporters_faction"),
 		(try_begin), 
 		(neq, "fac_player_supporters_faction", ":faction"),

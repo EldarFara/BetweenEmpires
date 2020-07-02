@@ -124,7 +124,7 @@ qstr_{s1}^{reg2} {s1}^{reg2}
 qstr_Skills Skills
 qstr_Ironflesh^Power_Stri Ironflesh^Power_Strike^Power_Throw^Power_Draw^Shield^Athletics^Riding^Horse_Archery
 qstr_Proficiencies Proficiencies
-qstr_1H_Weapons^2H_Weapon 1H_Weapons^2H_Weapons^Polearms^Archery^Crossbows^Throwing
+qstr_1H_Weapons^2H_Weapon 1H_Weapons^2H_Weapons^Polearms^Archery^Rifles^Throwing
 qstr_Equipments Equipments
 qstr_Factions Factions
 qstr_Show_towns Show_towns
