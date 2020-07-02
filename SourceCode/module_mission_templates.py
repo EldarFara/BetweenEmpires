@@ -8078,8 +8078,8 @@ mission_templates = [
     "castle_attack_walls_belfry",mtf_battle_mode|mtf_synch_inventory,-1,
     "You attack the walls of the castle...",
     [
-     (0,mtef_attackers|mtef_team_1,af_override_horse,aif_start_alarmed,40,[]),
-     (0,mtef_attackers|mtef_team_1,af_override_horse,aif_start_alarmed,0,[]),
+     (0,mtef_attackers|mtef_team_1,0,aif_start_alarmed,40,[]),
+     (0,mtef_attackers|mtef_team_1,0,aif_start_alarmed,0,[]),
      (10,mtef_defenders|mtef_team_0,af_override_horse,aif_start_alarmed,0,[]),
      (11,mtef_defenders|mtef_team_0,af_override_horse,aif_start_alarmed,21,[]),
      (15,mtef_defenders|mtef_team_0,af_override_horse,aif_start_alarmed,0,[]),
@@ -8160,8 +8160,8 @@ mission_templates = [
     "castle_attack_walls_ladder",mtf_battle_mode|mtf_synch_inventory,-1,
     "You attack the walls of the castle...",
     [
-     (0,mtef_attackers|mtef_team_1,af_override_horse,aif_start_alarmed,40,[]),
-     (0,mtef_attackers|mtef_team_1,af_override_horse,aif_start_alarmed,0,[]),
+     (0,mtef_attackers|mtef_team_1,0,aif_start_alarmed,40,[]),
+     (0,mtef_attackers|mtef_team_1,0,aif_start_alarmed,0,[]),
      (10,mtef_defenders|mtef_team_0,af_override_horse,aif_start_alarmed,0,[]),
      (11,mtef_defenders|mtef_team_0,af_override_horse,aif_start_alarmed,21,[]),
      (15,mtef_defenders|mtef_team_0,af_override_horse,aif_start_alarmed,0,[]),
