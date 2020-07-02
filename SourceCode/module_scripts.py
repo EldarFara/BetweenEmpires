@@ -22579,7 +22579,6 @@ scripts = [
       (store_script_param_1, ":center_no"),
       (store_script_param_2, ":faction_no"),
 	  
-      (store_faction_of_party, ":old_faction", ":center_no"),
       (try_begin),
         (eq, ":faction_no", "fac_player_supporters_faction"),        
         (faction_get_slot, ":player_faction_king", "fac_player_supporters_faction", slot_faction_leader),
@@ -22627,7 +22626,7 @@ scripts = [
         (eq, ":faction_no", "fac_player_supporters_faction"),
 		(faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_inactive),
 			(try_for_range, ":technology", slot_faction_technology_earlyshells, slot_faction_technology_riflesrifled+1),   
-			(faction_get_slot, ":progress", ":old_faction", ":technology"),
+			(faction_get_slot, ":progress", "$g_old_faction", ":technology"),
 			(faction_set_slot, "fac_player_faction",  ":technology", ":progress"),
 			(try_end), 
 		(call_script, "script_activate_player_faction", "trp_player"),

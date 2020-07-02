@@ -1218,6 +1218,7 @@ declare_war_chosen_faction
 war_supports_allies
 pws_n_precipitation
 pws_n_clouds
+g_old_faction
 g_game_speed
 g_battle_type
 g_rain_intensity
