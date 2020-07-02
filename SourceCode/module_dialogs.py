@@ -3984,7 +3984,6 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
 
    [anyone|plyr, "minister_talk",
    [
-   (is_between, "$g_player_minister", active_npcs_begin, kingdom_ladies_end),
    ],
    "I wish you to grant one of my vassals a fief.", "minister_grant_fief",
    []],
