@@ -1,4 +1,4 @@
-978
+981
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -109,8 +109,11 @@ qstr_6._{s1} 6._{s1}
 qstr_7._{s1} 7._{s1}
 qstr_8._{s1} 8._{s1}
 qstr_Form_Square^^Selecte Form_Square^^Selected_companies_(not_more_than_two)^will_form_a_square_formation._It_is_effective_in_melee^fighting,_especially_against_cavalry,_but_vulnarable^to_an_enemy_fire._To_selected_companies_be_able_to^form_square,_they_need_to_have_at_least_25_soldiers^in_total.^Company_types:_Line_infantry,_Guard.
+qstr_pbs_activeability_me pbs_activeability_merge
+qstr_Merge_Companies^^Sel Merge_Companies^^Selected_companies_(not_less_than_one)^will_be_merged_into_one_that_has_highest_number_of_soldiers.
 qstr_{reg0}% {reg0}%
 qstr_{reg0}_c. {reg0}_c.
+qstr_Select_2_or_more_com Select_2_or_more_companies_with_soldiers_to_merge.
 qstr_Others Others
 qstr_Outlaws Outlaws
 qstr_Mercenary Mercenary
@@ -584,7 +587,7 @@ qstr_clouds4 clouds4
 qstr_evening evening
 qstr_night night
 qstr_dusk dusk
-qstr_Hotkeys:_U_to_access Hotkeys:_U_to_access_the_aerial_view_E_and_Q_to_turn_Space_and_Ctrl_to_control_your_height_~_tilde_(next_to_1)_to_make_your_troops_run._You_can_select_companies_either_by_clicking_on_the_units_on_screen,_or_by_selecting_them_in_the_UI_in_the_bottom_left_Use_your_right_mouse_button_to_place,_and_orientate_your_units.
+qstr_Hotkeys:_U_to_access Hotkeys:_U_to_access_the_aerial_view_E_and_Q_to_rotate_camera_horizontally_Middle_mouse_button_and_moving_mouse_up_and_down_to_rotate_camera_vertically_Space_and_Ctrl_to_control_your_height_~_tilde_(next_to_1)_to_make_selected_companies_run._You_can_select_companies_either_by_clicking_on_the_units_on_screen,_or_by_selecting_them_in_the_UI_in_the_bottom_left_Use_your_right_mouse_button_to_place,_and_orientate_your_units.
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_running.
 qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_was_ {reg0}._Company_was_forced_to_retreat.

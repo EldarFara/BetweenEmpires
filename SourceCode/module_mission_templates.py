@@ -778,6 +778,8 @@ ti_on_agent_spawn, 0, 0, [],
 (store_trigger_param_1, ":agent"),
 (agent_is_active, ":agent"),
 (agent_is_non_player, ":agent"),
+(agent_get_troop_id, ":troop", ":agent"),
+(neg|is_between, ":troop", "trp_factionplayer_fieldgun_cannoneer_officer", "trp_cannoneers_end"),
 (agent_get_position, pos1, ":agent"),
 (store_random_in_range, ":random", -3000, 3000),
 (position_move_x, pos1, ":random", 0),
@@ -2699,6 +2701,30 @@ timer_1000ms = (1, 0, 0, [
 (val_sub, "$bugle_cooldown", 1),
 ],[])
 
+pbs_order_player_f1 = (0.01, 0, 0, [],
+[
+	(try_begin),
+	(ge, "$f1_key_state", 15),
+	(neg|game_key_is_down, gk_order_1),
+	(assign, "$f1_key_state", 0),
+	(get_player_agent_no, ":player"),
+	(set_show_messages, 0),
+	(agent_get_team, ":player_team", ":player"),
+		(try_for_range, ":company", 0, 8),
+		(class_is_listening_order, ":player_team", ":company"),
+		(store_add, ":slot_team_state", slot_team_company1_state, ":company"),
+		(neg|team_slot_eq, ":player_team", ":slot_team_state", pbs_state_retreating),
+		(team_get_order_position, pos30, ":player_team", ":company"),
+		(call_script, "script_company_hold_pos30", ":player_team", ":company"),
+		(try_end),
+	(set_show_messages, 1),
+	(try_end),
+	(try_begin),
+	(game_key_is_down, gk_order_1),
+	(val_add, "$f1_key_state", 1),
+	(try_end),
+])
+
 pbs_order_player = (ti_on_order_issued, 0, 0, [],
 [
 (store_trigger_param_1,":order"),
@@ -2872,10 +2898,10 @@ pbs_company_energy = (0.5, 0, 0, [
 			(try_begin),
 			(team_slot_eq, ":team", ":slot_team_run_mode", pbs_run_mode_running),
 			(ge, ":proportion", 50),
-			(val_sub, ":energy", 65),
+			(val_sub, ":energy", 62),
 			(else_try),
 			(le, ":proportion", 30),
-			(val_add, ":energy", 20),
+			(val_add, ":energy", 40),
 				(try_begin),
 				(this_or_next|eq, ":type", pbs_troop_type_cavmelee),
 				(this_or_next|eq, ":type", pbs_troop_type_cavranged),
@@ -3117,6 +3143,7 @@ spawn_of_first_agent = (ti_on_agent_spawn, 0, 0, [
 (team_set_slot, 0, slot_team_battle_started, 1),
 (assign, "$async_calculate_company_average_coordinates_team", 0),
 (assign, "$async_calculate_company_average_coordinates_company", 0),
+(assign, "$f1_key_state", 0),
 (set_show_messages, 0),
 	(try_for_range, ":team", 0, 4),
 	(team_set_slot, ":team", slot_team_pai_retreat_timer, 0),
@@ -4100,15 +4127,10 @@ pbs_run_toggle = (0, 0, 0, [
 aerial_view_toggle = (0, 0.3, 0, [
 (key_clicked, key_u),
 (get_player_agent_no, ":player"),
-(agent_get_position, pos2, ":player"),
-(position_get_x, ":x_coor", pos2),
-(position_get_y, ":y_coor", pos2),
-(position_get_z, ":z_coor", pos2),
+(agent_get_look_position, pos2, ":player"),
 (position_get_rotation_around_z, ":z_rot", pos2),
 (init_position, pos1),
-(position_set_x, pos1, ":x_coor"),
-(position_set_y, pos1, ":y_coor"),
-(position_set_z, pos1, ":z_coor"),
+(position_copy_origin, pos1, pos2),
 (position_rotate_z, pos1, ":z_rot", 1),
 	(try_begin),
 	(eq, "$aerial_view_state", 0),
@@ -4263,6 +4285,16 @@ aerial_view_runtime = (0, 0, 0, [], [
 	(game_key_is_down, gk_move_right),
 	(position_move_x, pos1, 160, 0),
 	(try_end),
+	(try_begin),
+	(assign, ":previous_mouse_y", "$g_mouse_y"),
+	(mouse_get_position, pos3),
+	(set_fixed_point_multiplier, 1000),
+	(position_get_y, "$g_mouse_y", pos3),
+	(set_fixed_point_multiplier, 1),
+	(key_is_down, key_middle_mouse_button),
+	(store_sub, ":x_rotation", "$g_mouse_y", ":previous_mouse_y"),
+	(position_rotate_x_floating, pos1, ":x_rotation", 0),
+	(try_end),
 (set_fixed_point_multiplier, 100),
 (position_set_z, pos1, ":z_coor"),
 (set_fixed_point_multiplier, 1),
@@ -4394,9 +4426,10 @@ fgs_trees_ams = (ti_after_mission_start, 0, 0,[ #fgs - Flora Generating System
 	(eq, "$g_battle_type", battle_type_siege),
 	(display_message, "@Hotkeys:\
 	U to access the aerial view\
-	E and Q to turn\
+	E and Q to rotate camera horizontally\
+	Middle mouse button and moving mouse up and down to rotate camera vertically\
 	Space and Ctrl to control your height\
-	~ tilde (next to 1) to make your troops run.\
+	~ tilde (next to 1) to make selected companies run.\
 	You can select companies either by clicking on the units on screen, or by selecting them in the UI in the bottom left\
 	Use your right mouse button to place, and orientate your units."),
 	(try_end),
@@ -5036,6 +5069,7 @@ battle_start,
 aerial_view_runtime,
 aerial_view_toggle,
 pbs_order_player,
+pbs_order_player_f1,
 pbs_agent_spawn,
 pbs_teleport_to_scripted_destination,
 pbs_cancel_running_away,
@@ -5915,10 +5949,10 @@ common_siege_attacker_reinforcement_check = (
     (store_mission_timer_a,":mission_time"),
     (ge,":mission_time",10),
     (store_normalized_team_count,":num_attackers",1),
-    (lt,":num_attackers",6)
+    (lt,":num_attackers", 15)
     ],
   [
-    (add_reinforcements_to_entry, 1, 11),
+    (add_reinforcements_to_entry, 1, 40),
     (val_add,"$attacker_reinforcement_stage", 1),
     ])
 

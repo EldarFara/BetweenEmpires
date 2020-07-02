@@ -26,7 +26,7 @@ ambience_sound_type_forestsunny = 10
 ambience_sound_type_forestovercast = 11
 ambience_sound_type_interior = 11
 
-maximum_amount_of_bandit_parties = 60
+maximum_amount_of_bandit_parties = 70
 
 battle_type_nobattle			= 0
 battle_type_fieldbattle 		= 1
@@ -854,7 +854,7 @@ spt_town               = 3
 spt_village            = 4
 ##spt_forager            = 5
 ##spt_war_party          = 6
-##spt_patrol             = 7
+spt_patrol             = 7
 ##spt_messenger          = 8
 ##spt_raider             = 9
 ##spt_scout              = 10

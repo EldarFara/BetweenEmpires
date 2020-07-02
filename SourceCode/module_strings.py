@@ -4340,9 +4340,9 @@ We apologize sincerely if you contributed your suggestions and feedback but were
   #INVASION MODE END
   
   ## ZZ Custom Kingdom Troops begin
-("firearm", "Firearm: {reg35}"), 
+("firearm", "Pistols: {reg35}"), 
 ("throwing", "Throwing: {reg34}"),
-("crossbow", "Crossbow: {reg33}"), 
+("crossbow", "Rifles: {reg33}"), 
 ("archery", "Archery: {reg32}"),
 ("polearm", "Polearm: {reg31}"),
 ("two_handed_weapon", "Two Handed Weapon: {reg30}"), 
@@ -4433,9 +4433,9 @@ We apologize sincerely if you contributed your suggestions and feedback but were
 ("explanation_two_handed_weapon", "Covers usage of two handed swords, ^great axes and mauls."),
 ("explanation_polearm", "Covers usage of pole weapons like ^spears, lances, staffs, etc."),
 ("explanation_archery", "Covers usage of bows."),
-("explanation_crossbow", "Covers usage of crossbows."),
+("explanation_crossbow", "Covers usage of rifles."),
 ("explanation_throwing", "Covers usage of thrown weapons like ^javelins, darts, stones etc."),
-("explanation_firearms", "Covers usage of pistols and muskets."),
+("explanation_firearms", "Covers usage of pistols."),
 
 ("skills_info", "Current: {reg36}^Base Attribute: {s10}"),
 ("troop_basic_info", "Level: {reg45}^Health: {reg46}^Experience: {reg47}^Next Level at:e{reg48}"),

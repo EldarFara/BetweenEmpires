@@ -12412,7 +12412,7 @@ the high lords and common folk across the many realms of Europe."),
 
   (
     "question_peace_offer",0,
-    "You Receive a Peace Offer^^The {s1} offers you a peace agreement. What is your answer?",
+    "You Receive a Peace Offer^^Diplomats from {s1} arrived at your location, offering to start peace negotiations. What is your answer?",
     "none",
     [
       (str_store_faction_name, s1, "$g_notification_menu_var1"),
@@ -12425,12 +12425,14 @@ the high lords and common folk across the many realms of Europe."),
     [
       ("peace_offer_accept",[],"Accept",
        [
-         (call_script, "script_diplomacy_start_peace_between_kingdoms", "fac_player_supporters_faction", "$g_notification_menu_var1", 1),
+	   (assign, "$peace_negotiations_ai_offer", 1),
          (change_screen_return),
+   (assign, "$peace_negotiations_enemy_faction", "$g_notification_menu_var1"),
+		(start_presentation, "prsnt_peace_negotiations"),
         ]),
       ("peace_offer_reject",[],"Reject",
        [
-         (call_script, "script_change_player_relation_with_faction", "$g_notification_menu_var1", -5),
+         (call_script, "script_change_player_relation_with_faction", "$g_notification_menu_var1", -2),
          (change_screen_return),
         ]),
      ]
@@ -14939,7 +14941,7 @@ the high lords and common folk across the many realms of Europe."),
 	]),
 
   ("create_alliance2",0,
-    "You receive a message from your Secretary, stating that {s31} is seeking to form an alliance with your nation. While an alliance would certainly be useful, it'd also put new obligations onto your shoulders.",
+    "You receive a message from your Secretary, stating that {s31} from is {s32} seeking to form an alliance with your nation. While an alliance would certainly be useful, it'd also put new obligations onto your shoulders.",
     "none",
     [
 	],

@@ -1219,6 +1219,7 @@ war_supports_allies
 pws_n_precipitation
 pws_n_clouds
 g_old_faction
+peace_negotiations_ai_offer
 g_game_speed
 g_battle_type
 g_rain_intensity
@@ -1245,10 +1246,12 @@ current_sky
 killed_agents_count
 async_calculate_company_average_coordinates_team
 async_calculate_company_average_coordinates_company
+f1_key_state
 aerial_view_state
 pbs_point1
 bugle_cooldown
 voices
+g_mouse_y
 g_player_team
 g_enemy_team
 g_allies_team
@@ -1375,6 +1378,7 @@ menu_pbs_company8_discipline
 menu_pbs_company8_energy
 menu_pbs_company8_accuracy
 menu_pbs_activeability_square
+menu_pbs_activeability_merge
 g_presentation_obj_1
 g_presentation_obj_2
 g_cur_slot_no

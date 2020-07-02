@@ -3399,9 +3399,9 @@ str_npc13_1 -Good_with_1h_and_bows^-Poor_with_2h
 str_npc14_1 -Good_with_1h^-Good_all-rounder
 str_npc15_1 -Good_with_2h_and_bows^-Poor_with_crossbows_and_throwing
 str_npc16_1 -Good_with_throwing_and_1h^-Poor_with_2h_and_crossbows
-str_firearm Firearm:_{reg35}
+str_firearm Pistols:_{reg35}
 str_throwing Throwing:_{reg34}
-str_crossbow Crossbow:_{reg33}
+str_crossbow Rifles:_{reg33}
 str_archery Archery:_{reg32}
 str_polearm Polearm:_{reg31}
 str_two_handed_weapon Two_Handed_Weapon:_{reg30}
@@ -3490,9 +3490,9 @@ str_explanation_one_handed_weapon Covers_usage_of_one_handed_swords,_^axes_and_b
 str_explanation_two_handed_weapon Covers_usage_of_two_handed_swords,_^great_axes_and_mauls.
 str_explanation_polearm Covers_usage_of_pole_weapons_like_^spears,_lances,_staffs,_etc.
 str_explanation_archery Covers_usage_of_bows.
-str_explanation_crossbow Covers_usage_of_crossbows.
+str_explanation_crossbow Covers_usage_of_rifles.
 str_explanation_throwing Covers_usage_of_thrown_weapons_like_^javelins,_darts,_stones_etc.
-str_explanation_firearms Covers_usage_of_pistols_and_muskets.
+str_explanation_firearms Covers_usage_of_pistols.
 str_skills_info Current:_{reg36}^Base_Attribute:_{s10}
 str_troop_basic_info Level:_{reg45}^Health:_{reg46}^Experience:_{reg47}^Next_Level_at:e{reg48}
 str_end End
