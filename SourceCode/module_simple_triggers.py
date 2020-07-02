@@ -1822,7 +1822,7 @@ simple_triggers = [
          (this_or_next|eq, ":farmer_party", 0),
          (neg|party_is_active, ":farmer_party"),
          (store_random_in_range, ":random_no", 0, 100),
-         (lt, ":random_no", 3),
+         (lt, ":random_no", 5),
          (call_script, "script_create_village_farmer_party", ":village_no"),
          (party_set_slot, ":village_no", slot_village_farmer_party, reg0),
 #         (str_store_party_name, s1, ":village_no"),
