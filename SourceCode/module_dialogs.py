@@ -3616,7 +3616,7 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
 		(try_end),
 	(eq, ":l_number_of_allies", 0),
    ],
-   "I am afraid no one is willing to even consider an alliance with us, they simply don't favour us over others. We will have to improve relations before we can even think about an alliance (Minimum 30+ relations required).", "minister_pretalk",
+   "I am afraid no one is willing to even consider an alliance with us, they simply don't favour us over others. We will have to improve relations before we can even think about an alliance (Minimum 30+ relations and no provocation and truce required).", "minister_pretalk",
    []],
    
    [anyone, "create_alliance_initial",

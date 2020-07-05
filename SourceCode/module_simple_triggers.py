@@ -4482,7 +4482,7 @@ simple_triggers = [
 
 ]),
 
-(48, # Decreasing infamy over time
+(72, # Decreasing infamy over time
 [
 	(try_for_range, ":faction_no", kingdoms_begin, kingdoms_end),
 	(faction_get_slot, ":infamy", ":faction_no", slot_faction_infamy),
@@ -4702,7 +4702,7 @@ simple_triggers = [
 		(val_div, ":ally_infamy", -10),
 			(try_begin),
 			(eq, ":ally_infamy", 0),
-			(call_script, "script_cf_random", 1),
+			(call_script, "script_cf_random", 3),
 			(assign, ":ally_infamy", -1),
 			(try_end),
 		(val_add, ":relation", ":ally_infamy"),
