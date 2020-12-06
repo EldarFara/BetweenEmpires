@@ -4185,6 +4185,7 @@ simple_triggers = [
    
 (24,[
 	(try_for_range, ":faction", npc_kingdoms_begin, npc_kingdoms_end),
+	(faction_slot_eq, ":faction", slot_faction_state, sfs_active),
 		(try_for_range, ":slot_technology", slot_faction_technology_earlyshells, slot_faction_technology_earlyshells + faction_technologies_number),
 		(store_add, ":slot_technology_preset", ":slot_technology", faction_technology_preset_year),
 		(faction_get_slot, ":technology_progress", ":faction", ":slot_technology"),

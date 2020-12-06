@@ -1416,8 +1416,8 @@ You_attack_the_walls_of_the_castle...
 mst_castle_attack_walls_belfry castle_attack_walls_belfry 65538  -1
 You_attack_the_walls_of_the_castle... 
 
-13 0 8320 0 16 40 0  
-0 8320 0 16 0 0  
+13 0 8320 256 16 40 0  
+0 8320 256 16 0 0  
 10 4160 256 16 0 0  
 11 4160 256 16 21 0  
 15 4160 256 16 0 0  
@@ -1525,8 +1525,8 @@ You_attack_the_walls_of_the_castle...
 mst_castle_attack_walls_ladder castle_attack_walls_ladder 65538  -1
 You_attack_the_walls_of_the_castle... 
 
-12 0 8320 0 16 40 0  
-0 8320 0 16 0 0  
+12 0 8320 256 16 40 0  
+0 8320 256 16 0 0  
 10 4160 256 16 0 0  
 11 4160 256 16 21 0  
 15 4160 256 16 0 0  
