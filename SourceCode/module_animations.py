@@ -732,6 +732,8 @@ animations = [
  ],
  ["reload_crossbow", 0, amf_priority_reload|amf_use_weapon_speed|amf_play,
     [7, "reload_rifle1", 0, 340, arf_blend_in_8|arf_stick_item_to_left_hand, pack2f(0.40, 0.94)],
+    [7, "reload_rifle1b", 0, 640, arf_blend_in_8|arf_stick_item_to_left_hand, pack2f(0.40, 0.94)],
+    [7, "reload_rifle1c", 0, 580, arf_blend_in_8|arf_stick_item_to_left_hand, pack2f(0.40, 0.94)],
   ],
  ["reload_crossbow_horseback", 0, amf_priority_reload|amf_use_weapon_speed|amf_play,
     [10, "reload_rifle1", 0, 340, arf_blend_in_8|arf_stick_item_to_left_hand],

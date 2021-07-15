@@ -1768,12 +1768,14 @@ scripts = [
 
        # (store_add, ":exterior_scene_no", "scn_village_1", ":offset"),
        # (party_set_slot,":village_no", slot_castle_exterior, ":exterior_scene_no"),
+		(store_faction_of_party, ":faction", ":village_no"),
+		(party_set_slot,":village_no", slot_castle_exterior, "scn_village_european"),
 			(try_begin),
-			(store_faction_of_party, ":faction", ":village_no"),
-			(party_set_slot,":village_no", slot_castle_exterior, "scn_village_european"),
-			(eq, ":faction", "fac_kingdom_6"),
-			(party_set_slot,":village_no", slot_castle_exterior, "scn_village_turkish"),
-			(else_try),
+			(store_mod, ":mod", ":village_no", 2),
+			(eq, ":mod", 0),
+			(party_set_slot,":village_no", slot_castle_exterior, "scn_village_european2"),
+			(try_end),
+			(try_begin),
 			(this_or_next|eq, ":faction", "fac_kingdom_10"),
 			(this_or_next|eq, ":faction", "fac_kingdom_14"),
 			(this_or_next|eq, ":faction", "fac_kingdom_15"),
@@ -1782,16 +1784,10 @@ scripts = [
 			(this_or_next|eq, ":faction", "fac_kingdom_33"),
 			(this_or_next|eq, ":terrain_type", rt_desert_forest),
 			(eq, ":terrain_type", rt_desert),
-			#(party_set_slot,":village_no", slot_castle_exterior, "scn_village_arab"),
+			(party_set_slot,":village_no", slot_castle_exterior, "scn_village_arab"),
 			(else_try),
-			(eq, ":faction", "fac_kingdom_20"),
-			#(party_set_slot,":village_no", slot_castle_exterior, "scn_village_indian"),
-			(else_try),
-			(this_or_next|eq, ":faction", "fac_kingdom_22"),
-			(this_or_next|eq, ":faction", "fac_kingdom_21"),
-			(this_or_next|eq, ":faction", "fac_kingdom_12"),
-			(eq, ":faction", "fac_kingdom_23"),
-			#(party_set_slot,":village_no", slot_castle_exterior, "scn_village_middleeast"),
+			(eq, ":faction", "fac_kingdom_6"),
+			(party_set_slot,":village_no", slot_castle_exterior, "scn_village_turkish"),
 			(try_end),
       
         (store_add, ":store_troop_no", "trp_village_1_elder", ":offset"),
@@ -1972,7 +1968,7 @@ scripts = [
       (call_script, "script_give_center_to_lord", "p_town_59", "trp_kingdom_20_lord", 0),
 	  
       # Give family castles to certain nobles.
-      (call_script, "script_give_center_to_lord", "p_castle_29", "trp_kingdom_27_lord", 0), #Nelag_Castle
+      (call_script, "script_give_center_to_lord", "p_castle_29", "trp_knight_27_1", 0), #Nelag_Castle
       (call_script, "script_give_center_to_lord", "p_castle_30", "trp_knight_2_4", 0), #Asugan_Castle
       (call_script, "script_give_center_to_lord", "p_castle_35", "trp_knight_6_3", 0), #Haringoth_Castle
 
@@ -1998,26 +1994,26 @@ scripts = [
       (call_script, "script_give_center_to_lord", "p_castle_63", "trp_knight_14_3", 0), #Muhnir_Castle
       (call_script, "script_give_center_to_lord", "p_castle_64", "trp_knight_14_4", 0), #Biliya_Castle
 
-      (call_script, "script_give_center_to_lord", "p_castle_65", "trp_kingdom_15_lord", 0), #Biliya_Castle
+      (call_script, "script_give_center_to_lord", "p_castle_65", "trp_knight_15_1", 0), #Biliya_Castle
       (call_script, "script_give_center_to_lord", "p_castle_76", "trp_knight_18_4", 0), #Biliya_Castle
       (call_script, "script_give_center_to_lord", "p_castle_78", "trp_knight_19_1", 0), #Biliya_Castle
-      (call_script, "script_give_center_to_lord", "p_castle_81", "trp_kingdom_20_lord", 0), #Biliya_Castle
+      (call_script, "script_give_center_to_lord", "p_castle_81", "trp_knight_20_1", 0), #Biliya_Castle
       (call_script, "script_give_center_to_lord", "p_castle_68", "trp_knight_12_1", 0), #Biliya_Castle
 
       (call_script, "script_give_center_to_lord", "p_castle_101", "trp_knight_24_1", 0), #Biliya_Castle
       (call_script, "script_give_center_to_lord", "p_castle_100", "trp_knight_27_2", 0), #Biliya_Castle
-      (call_script, "script_give_center_to_lord", "p_castle_102", "trp_kingdom_28_lord", 0), #Biliya_Castle
+      (call_script, "script_give_center_to_lord", "p_castle_102", "trp_knight_28_1", 0), #Biliya_Castle
       (call_script, "script_give_center_to_lord", "p_castle_86", "trp_knight_25_1", 0), #Biliya_Castle
       (call_script, "script_give_center_to_lord", "p_castle_87", "trp_knight_25_2", 0), #Biliya_Castle
-      (call_script, "script_give_center_to_lord", "p_castle_89", "trp_kingdom_26_lord", 0), #Biliya_Castle
+      (call_script, "script_give_center_to_lord", "p_castle_89", "trp_knight_26_1", 0), #Biliya_Castle
       (call_script, "script_give_center_to_lord", "p_castle_90", "trp_knight_26_1", 0), #Biliya_Castle
 
-      (call_script, "script_give_center_to_lord", "p_castle_126", "trp_kingdom_29_lord", 0), #Biliya_Castle
+      (call_script, "script_give_center_to_lord", "p_castle_126", "trp_knight_29_1", 0), #Biliya_Castle
 
-      (call_script, "script_give_center_to_lord", "p_castle_133", "trp_kingdom_12_lord", 0), #Biliya_Castle
-      (call_script, "script_give_center_to_lord", "p_castle_112", "trp_kingdom_31_lord", 0), #Biliya_Castle
-      (call_script, "script_give_center_to_lord", "p_castle_114", "trp_kingdom_32_lord", 0), #Biliya_Castle
-      (call_script, "script_give_center_to_lord", "p_castle_120", "trp_kingdom_33_lord", 0), #Biliya_Castle
+      (call_script, "script_give_center_to_lord", "p_castle_133", "trp_knight_12_1", 0), #Biliya_Castle
+      (call_script, "script_give_center_to_lord", "p_castle_112", "trp_knight_31_1", 0), #Biliya_Castle
+      (call_script, "script_give_center_to_lord", "p_castle_114", "trp_knight_32_1", 0), #Biliya_Castle
+      (call_script, "script_give_center_to_lord", "p_castle_120", "trp_knight_33_1", 0), #Biliya_Castle
       (call_script, "script_give_center_to_lord", "p_castle_136", "trp_knight_19_2", 0), #Biliya_Castle
 	  
       (call_script, "script_assign_lords_to_empty_centers"),	  	  

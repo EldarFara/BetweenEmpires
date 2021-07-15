@@ -1251,6 +1251,7 @@ aerial_view_state
 pbs_point1
 bugle_cooldown
 voices
+aerial_view_hol_pos_order_timer
 g_mouse_y
 g_player_team
 g_enemy_team

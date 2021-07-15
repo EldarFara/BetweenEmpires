@@ -843,7 +843,7 @@ qstr_{!}DEBUG___{s4}_faction_chan {!}DEBUG_-_{s4}_faction_changed_from_slot_troo
 qstr_{s1}_has_switched_fr {s1}_has_switched_from_{s2}_to_{s3}.
 qstr_{!}DEBUG_:_{s2}_is_b {!}DEBUG_:_{s2}_is_besieging_by_{s3}
 qstr_{!}DEBUG___Checking_ {!}DEBUG_-_Checking_fire_at_{s4}_for_{s5}_-_current_time_{reg3},_last_nearby_fire_{reg4}
-qstr_The_{s1}_has_finishe The_{s1}_has_finished_researching_technology_of_{s2}
+qstr_The_{s1}_has_finishe The_{s1}_has_finished_researching_technology_of_{s2}.
 qstr_The_year_is_{reg0}. The_year_is_{reg0}.
 qstr_North_German_Confede North_German_Confederation
 qstr_German_Empire German_Empire

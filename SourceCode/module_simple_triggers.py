@@ -4202,7 +4202,7 @@ simple_triggers = [
 			(store_sub, ":slot_number", ":slot_technology", slot_faction_technology_earlyshells),
 			(val_add, ":string_name", ":slot_number"), (val_add, ":string_name", ":slot_number"),
 			(str_store_string, s2, ":string_name"),
-			(str_store_faction_name, s1, ":faction"), (display_message, "@The {s1} has finished researching technology of {s2}", 0x8ae2ff),
+			(str_store_faction_name, s1, ":faction"), (display_message, "@The {s1} has finished researching technology of {s2}.", 0x8ae2ff),
 			(try_end),
 		(try_end),
 	(try_end),

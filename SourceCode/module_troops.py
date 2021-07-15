@@ -10814,16 +10814,16 @@ troops = [
   
     ## ZZ Custom Kingdom Troops begin
   ["kingdom_temp","Kingdom Temp","Kingdom Temps",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(4),wp(0),0,swadian_face_younger_1, swadian_face_middle_2],#420 #2
-  ["kingdom_recruit","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(4),wp(0),0,swadian_face_younger_1, swadian_face_middle_2],#420 #2
-  ["kingdom_militia","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(8),wp(0),0,swadian_face_young_1, swadian_face_old_2],#525 #3
-  ["kingdom_footman","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(12),wp(0),0,swadian_face_young_1, swadian_face_old_2],#600 #10
-  ["kingdom_infantry","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(16),wp(0),0,swadian_face_middle_1, swadian_face_old_2],#740 #14
-  ["kingdom_sergeant","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(20),wp(0),0,swadian_face_middle_1, swadian_face_older_2],#900 #20
-  ["kingdom_skirmisher","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(12),wp(0),0,swadian_face_young_1, swadian_face_middle_2],#600 #10
-  ["kingdom_crossbowman","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(16),wp(0),0,swadian_face_young_1, swadian_face_old_2],#740 #14
-  ["kingdom_sharpshooter","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(20),wp(0),0,swadian_face_middle_1, swadian_face_older_2],#900 #20
-  ["kingdom_man_at_arms","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(16),wp(0),0,swadian_face_middle_1, swadian_face_old_2],#740 #14
-  ["kingdom_knight","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(20),wp(0),0,swadian_face_middle_1, swadian_face_older_2], #900 #20 
+  ["kingdom_recruit","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(4),wp(40),0,swadian_face_younger_1, swadian_face_middle_2],#420 #2
+  ["kingdom_militia","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(8),wp(40),0,swadian_face_young_1, swadian_face_old_2],#525 #3
+  ["kingdom_footman","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(12),wp(40),0,swadian_face_young_1, swadian_face_old_2],#600 #10
+  ["kingdom_infantry","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(16),wp(40),0,swadian_face_middle_1, swadian_face_old_2],#740 #14
+  ["kingdom_sergeant","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(20),wp(40),0,swadian_face_middle_1, swadian_face_older_2],#900 #20
+  ["kingdom_skirmisher","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(12),wp(40),0,swadian_face_young_1, swadian_face_middle_2],#600 #10
+  ["kingdom_crossbowman","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(16),wp(40),0,swadian_face_young_1, swadian_face_old_2],#740 #14
+  ["kingdom_sharpshooter","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(20),wp(40),0,swadian_face_middle_1, swadian_face_older_2],#900 #20
+  ["kingdom_man_at_arms","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(16),wp(40),0,swadian_face_middle_1, swadian_face_old_2],#740 #14
+  ["kingdom_knight","Troop","Troop",tf_guarantee_all,0,0,fac_neutral,[],str_10|agi_10|int_10|cha_10|level(20),wp(40),0,swadian_face_middle_1, swadian_face_older_2], #900 #20 
 
   ["array_a","{!}temp_array_a","{!}temp_array_a",tf_hero|tf_inactive, 0,reserved,  fac_neutral,[],def_attrib|level(18),wp(60),knows_common, 0],
   ["array_b","{!}temp_array_b","{!}temp_array_b",tf_hero|tf_inactive, 0,reserved,  fac_neutral,[],def_attrib|level(18),wp(60),knows_common, 0],

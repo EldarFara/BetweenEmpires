@@ -378,8 +378,10 @@
   0.500000 rifle_aim1 0 0 7 0 0.0 0.0 0.0 0.0 
  release_crossbow 1678770176 572534794  1
   0.200000 rifle_aim1 4 7 2 0 0.0 0.0 0.0 0.0 
- reload_crossbow 0 35651644  1
+ reload_crossbow 0 35651644  3
   7.000000 reload_rifle1 0 340 67108873 61286 0.0 0.0 0.0 0.0 
+  7.000000 reload_rifle1b 0 640 67108873 61286 0.0 0.0 0.0 0.0 
+  7.000000 reload_rifle1c 0 580 67108873 61286 0.0 0.0 0.0 0.0 
  reload_crossbow_horseback 0 35651644  1
   10.000000 reload_rifle1 0 340 67108873 0 0.0 0.0 0.0 0.0 
  ready_javelin 1048576 606085130  1

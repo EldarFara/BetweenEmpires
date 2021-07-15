@@ -4341,6 +4341,9 @@ scenes = [
 ("town_arab_walls",sf_generate,"none", "none", (0,0),(100,100),-100,"0x0000000130014acf000d212c00002ff900007e9800001edc",
 [],[],"outer_terrain_desert"),
 
+("town_european_walls2",sf_generate,"none", "none", (0,0),(100,100),-100,"0x0000000130014acf000d212c00002ff900007e9800001edc",
+[],[],"outer_terrain_plain"),
+
 ]
 
 

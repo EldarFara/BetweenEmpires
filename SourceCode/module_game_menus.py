@@ -2735,6 +2735,15 @@ the high lords and common folk across the many realms of Europe."),
    [
      ],
     [
+      ("camp_cheat_all_factions_research_all_tech",[], "Make all factions immediately research all technologies.",
+       [
+	(try_for_range, ":faction", "fac_player_faction", kingdoms_end),
+		(try_for_range, ":technology", slot_faction_technology_earlyshells, slot_faction_technology_riflesrifled+1),
+		(faction_set_slot, ":faction",  ":technology", 10000),
+		(try_end),
+	(try_end),
+	   ]
+       ),
       ("camp_cheat_find_item",[], "Find an item...",
        [
          (jump_to_menu, "mnu_cheat_find_item"),

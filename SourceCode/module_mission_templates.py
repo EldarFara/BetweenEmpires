@@ -3174,6 +3174,7 @@ battle_start = (
 (scene_prop_set_visibility, "$pbs_point1", 0),
 (assign, "$bugle_cooldown", 0),
 (assign, "$voices", 0),
+(assign, "$aerial_view_hol_pos_order_timer", 0),
 ])
 
 pai_calculate_company_average_coordinates_async = (0, 0.1, 0, [
@@ -4165,6 +4166,10 @@ aerial_view_toggle = (0, 0.3, 0, [
 ])
 
 aerial_view_runtime = (0, 0, 0, [], [
+	(try_begin),
+	(gt, "$aerial_view_hol_pos_order_timer", 0),
+	(val_sub, "$aerial_view_hol_pos_order_timer", 1),
+	(try_end),
 (set_show_messages, 1),
 (eq, "$aerial_view_state", 2),
 (mission_cam_get_position, pos1),
@@ -4175,8 +4180,10 @@ aerial_view_runtime = (0, 0, 0, [], [
 	(try_end),
 	(try_begin),
 	(neg|key_is_down, key_right_mouse_button),
+	(eq, "$aerial_view_hol_pos_order_timer", 0),
 	(scene_prop_get_visibility, ":visibility", "$pbs_point1"),
 	(eq, ":visibility", 1),
+	(assign, "$aerial_view_hol_pos_order_timer", 20),
 	(scene_prop_set_visibility, "$pbs_point1", 0),
 	(agent_get_team, ":player_team", ":player"),
 	(prop_instance_get_position, pos3, "$pbs_point1"),
