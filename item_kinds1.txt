@@ -1,5 +1,5 @@
 itemsfile version 3
-1422
+1426
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -6166,6 +6166,22 @@ itemsfile version 3
  itm_exp_hat4 Portuguese_Shako Portuguese_Shako 1  exp_hat4 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  58
+0
+
+ itm_rifle_kropatschek Kropatschek_Rifle Kropatschek_Rifle 2  kropatschek 0  kropatschek_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 301 0
+ 0
+0
+
+ itm_rifle_kropatschek_m Kropatschek_Rifle Kropatschek_Rifle 1  kropatschek 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
+ 0
+0
+
+ itm_rifle_kropatschek_carbine Kropatschek_Carbine Kropatschek_Carbine 2  kropatschek_carbine 0  kropatschek_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ 0
+0
+
+ itm_rifle_kropatschek_carbine_m Kropatschek_Carbine Kropatschek_Carbine 1  kropatschek_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 80 0 532 530
+ 0
 0
 
  itm_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
