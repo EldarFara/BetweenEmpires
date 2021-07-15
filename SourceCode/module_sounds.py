@@ -392,6 +392,10 @@ sounds = [
 ("ambience_interior1_left", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_interior1_left.wav"]),
 ("ambience_interior1_right", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_interior1_right.wav"]),
 
+("MeleeBloodGore",sf_priority_5|sf_vol_4, ["MeleeBloodGore01.wav","MeleeBloodGore02.wav","MeleeBloodGore03.wav","MeleeBloodGore04.wav","MeleeBloodGore05.wav","MeleeBloodGore06.wav","MeleeBloodGore07.wav","MeleeBloodGore08.wav"]),
+("MeleeLanceImpaledDeathscream1",sf_priority_5|sf_vol_2, ["MeleeLanceImpaledDeathscream01.wav","MeleeLanceImpaledDeathscream02.wav","MeleeLanceImpaledDeathscream03.wav","MeleeLanceImpaledDeathscream04.wav","MeleeLanceImpaledDeathscream05.wav","MeleeLanceImpaledDeathscream06.wav","MeleeLanceImpaledDeathscream07.wav","MeleeLanceImpaledDeathscream08.wav","MeleeLanceImpaledDeathscream09.wav","MeleeLanceImpaledDeathscream10.wav","MeleeLanceImpaledDeathscream11.wav"]),
+("MeleeLanceOut1",sf_priority_5|sf_vol_10, ["MeleeLanceOut01.wav","MeleeLanceOut02.wav","MeleeLanceOut03.wav","MeleeLanceOut04.wav","MeleeLanceOut05.wav","MeleeLanceOut06.wav"]),
+
 ]
 
 

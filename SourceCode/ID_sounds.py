@@ -346,5 +346,8 @@ snd_flag_animated1 = 344
 snd_shot_shotgun1 = 345
 snd_ambience_interior1_left = 346
 snd_ambience_interior1_right = 347
+snd_MeleeBloodGore = 348
+snd_MeleeLanceImpaledDeathscream1 = 349
+snd_MeleeLanceOut1 = 350
 
 

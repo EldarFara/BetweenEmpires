@@ -599,7 +599,7 @@ parties = [
 
   ("village_101","Uzgha",  icon_village2|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-345.78,196.31),[], 20),
   ("village_102","Biel",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(533.09,-115.23),[], 60),
-  ("village_103","Locarno",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(500.94,-100.80),[], 55),
+  ("village_103","Lucerne",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(499.85,-100.80),[], 55),
   ("village_104","Lausanne",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(525.43,-105.94),[], 15),
   ("village_105","Frauenfeld",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(506.44,-119.37),[], 10),
   ("village_106","Thebes",  icon_village6|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(244.79,28.16),[], 35),
