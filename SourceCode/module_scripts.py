@@ -56568,6 +56568,8 @@ scripts = [
 (faction_set_slot, "fac_kingdom_13", slot_faction_wardrobe_end, "itm_sar_hat2"),
 (faction_set_slot, "fac_kingdom_14", slot_faction_wardrobe_begin, "itm_egy_trousers1"),
 (faction_set_slot, "fac_kingdom_14", slot_faction_wardrobe_end, "itm_egy_fez2"),
+(faction_set_slot, "fac_kingdom_16", slot_faction_wardrobe_begin, "itm_exp_infantry1"),
+(faction_set_slot, "fac_kingdom_16", slot_faction_wardrobe_end, "itm_exp_hat4"),
 (faction_set_slot, "fac_kingdom_18", slot_faction_wardrobe_begin, "itm_dan_hat1"),
 (faction_set_slot, "fac_kingdom_18", slot_faction_wardrobe_end, "itm_dan_trousers_guard"),
 (faction_set_slot, "fac_kingdom_19", slot_faction_wardrobe_begin, "itm_esp_infantry1"),
