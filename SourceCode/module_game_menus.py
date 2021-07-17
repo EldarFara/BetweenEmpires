@@ -14742,7 +14742,6 @@ the high lords and common folk across the many realms of Europe."),
        ),
      ("start_as_leader",[],"Start as faction leader.",
        [
-	  # (jump_to_menu, "mnu_start_game_start_as_leader"),
            (start_presentation, "prsnt_faction_selection"),
         ]
        ),

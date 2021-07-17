@@ -726,5 +726,8 @@ script_cf_if_faction_is_in_alliance_with_faction = 724
 script_faction_calculate_power = 725
 script_async_calculate_castle_prosperities_by_using_its_villages = 726
 script_cf_get_faction_rifle_type = 727
+script_get_company_foramtion_discipline_penalty_multiplier = 728
+script_copmany_decide_prone_or_crouch = 729
+script_pai_siege_defender_take_cover = 730
 
 

@@ -4148,6 +4148,7 @@ simple_triggers = [
 (assign, "$current_wind", "$pws_s_wind"),
 (assign, "$current_clouds", "$pws_s_clouds"),
 (assign, "$current_precipitation", "$pws_s_precipitation"),
+(eq, "$current_wind", "$current_wind"),
 (try_end),
 (assign,"$g_battle_type", battle_type_nobattle),
       (map_free),

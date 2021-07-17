@@ -8,6 +8,12 @@ from ID_factions import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+formation_column = 1
+formation_extended_column = 2
+formation_dense_line = 3
+formation_line = 4
+formation_extended_line = 5
+
 shotgun_muzzle_velocity = 5500
 
 default_fog_distance = 1600
@@ -340,6 +346,8 @@ slot_agent_lemat_canister_has_been_shot = 42
 slot_agent_pbs_stuck_timer = 43
 slot_agent_was_killed_or_knocked_down      = 44
 slot_agent_flag_prop      = 45
+slot_agent_prone_status      = 46
+slot_agent_prone_reload_timer      = 47
 
 ########################################################
 ##  FACTION SLOTS          #############################
@@ -1512,6 +1520,16 @@ slot_team_company5_discipline                       = 201
 slot_team_company6_discipline                       = 202
 slot_team_company7_discipline                       = 203
 slot_team_company8_discipline                       = 204
+
+slot_team_company1_formation                       = 205
+slot_team_company2_formation                       = 206
+slot_team_company3_formation                       = 207
+slot_team_company4_formation                       = 208
+slot_team_company5_formation                       = 209
+slot_team_company6_formation                       = 210
+slot_team_company7_formation                       = 211
+slot_team_company8_formation                       = 212
+
 
 #Rebellion changes end
 # character backgrounds

@@ -1,4 +1,4 @@
-981
+987
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -573,6 +573,12 @@ qstr_Belongs_to_{s31} Belongs_to_{s31}
 qstr_Controlled_by_{s31}^ Controlled_by_{s31}^Belongs_to_{s32}
 qstr_{s31}_becomes_an_all {s31}_becomes_an_ally_of_{s32}.
 qstr_{s31}_breaks_an_alli {s31}_breaks_an_alliance_with_{s32}.
+qstr_{s1}_cannot_change_f {s1}_cannot_change_formation_-_only_light_infantry_can_apply_extended_line_formation.
+qstr_{s1}_cannot_change_fo {s1}_cannot_change_formation_-_you_need_to_research_Adaptive_Training_technology_to_apply_line_formation.
+qstr_{s1}_cannot_change_for {s1}_cannot_change_formation_-_you_need_to_research_Skirmish_Line_Tactics_technology_to_apply_dense_line_formation.
+qstr_{s1}_cannot_change_form {s1}_cannot_change_formation_-_you_need_to_research_Adaptive_Training_technology_to_apply_extended_line_formation.
+qstr_{s1}_cannot_change_forma {s1}_cannot_change_formation_-_you_need_to_research_Skirmish_Line_Tactics_technology_to_apply_line_formation.
+qstr_{s1}_cannot_change_format {s1}_cannot_change_formation_-_discipline_level_is_less_than_50%.
 qstr_day day
 qstr_cloud1 cloud1
 qstr_cloud2 cloud2
