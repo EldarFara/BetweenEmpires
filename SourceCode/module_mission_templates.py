@@ -334,6 +334,11 @@ pai_1000ms = (1, 0, 0, [
 	(team_slot_eq, "$ai_defender_team", slot_team_pai_global_tactic, pai_global_tactic_defend_initial),
 	(team_set_slot, "$g_enemy_team", slot_team_pai_global_tactic, pai_global_tactic_defend_holding_position), # Forming battle formation for defend
 	(team_set_slot, "$g_enemy_team", slot_team_pai_timer, 50),
+		(try_for_range, ":company", 0, 8),
+		(store_add, ":slot_team_formation", slot_team_company1_formation, ":company"),
+		(team_slot_eq, "$ai_defender_team", ":slot_team_formation", formation_column),
+		(team_set_slot, "$ai_defender_team", ":slot_team_formation", formation_extended_column),
+		(try_end),
 	(team_get_slot, ":x_coor", "$g_enemy_team", slot_team_pai_start_position_x),
 	(team_get_slot, ":y_coor", "$g_enemy_team", slot_team_pai_start_position_y),
 	(team_get_slot, ":z_coor", "$g_enemy_team", slot_team_pai_start_position_z_rot),

@@ -59324,13 +59324,6 @@ scripts = [
 			(try_end),
 		(try_end),
 	(try_end),
-	(try_begin),
-		(try_for_range, ":company", 0, 8),
-		(store_add, ":slot_team_formation", slot_team_company1_formation, ":company"),
-		(team_slot_eq, ":team", ":slot_team_formation", formation_column),
-		(team_set_slot, ":team", ":slot_team_formation", formation_extended_column),
-		(try_end),
-	(try_end),
 ]),
 
 ("pai_find_teams_company_closest_to_pos",
