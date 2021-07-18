@@ -1221,6 +1221,7 @@ pws_n_clouds
 g_old_faction
 peace_negotiations_ai_offer
 g_game_speed
+preferred_ai_party_size
 g_battle_type
 g_rain_intensity
 g_rain_state

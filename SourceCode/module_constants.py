@@ -182,6 +182,8 @@ pai_global_tactic_attack_stop_retreat = 11
 pai_global_tactic_siege_defend_initial = 12
 pai_global_tactic_siege_attack_initial = 13
 pai_global_tactic_siege_defend_holding_position = 14
+pai_global_tactic_attack_forming_ranks = 15
+pai_global_tactic_attack = 16
 
 spawable_prop_limit = 4000
 
@@ -1529,6 +1531,28 @@ slot_team_company5_formation                       = 209
 slot_team_company6_formation                       = 210
 slot_team_company7_formation                       = 211
 slot_team_company8_formation                       = 212
+
+slot_team_pai_attack_groups_amount                 = 213
+slot_team_pai_attack_group_1_1                 = 214
+slot_team_pai_attack_group_2_1                 = 215
+slot_team_pai_attack_group_3_1                 = 216
+slot_team_pai_attack_group_1_2                 = 217
+slot_team_pai_attack_group_2_2                 = 218
+slot_team_pai_attack_group_3_2                 = 219
+slot_team_pai_attack_group_1_3                 = 220
+slot_team_pai_attack_group_2_3                 = 221
+slot_team_pai_attack_group_3_3                 = 222
+slot_team_pai_attack_cavalry_company_number    = 223
+slot_team_pai_attack_group_1_1_state                 = 224
+slot_team_pai_attack_group_2_1_state                 = 225
+slot_team_pai_attack_group_3_1_state                 = 226
+slot_team_pai_attack_group_1_2_state                 = 227
+slot_team_pai_attack_group_2_2_state                 = 228
+slot_team_pai_attack_group_3_2_state                 = 229
+slot_team_pai_attack_group_1_3_state                 = 230
+slot_team_pai_attack_group_2_3_state                 = 231
+slot_team_pai_attack_group_3_3_state                 = 232
+slot_team_pai_attack_artillery_company_number    = 233
 
 
 #Rebellion changes end

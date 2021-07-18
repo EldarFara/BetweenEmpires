@@ -43,7 +43,7 @@ game_menus = [
     [
      ("continue",[],"Continue...",
        [
-	   (jump_to_menu, "mnu_start_game_speed_selection"),
+	   (jump_to_menu, "mnu_start_game_ai_party_size_selection"),
         ]
        ),
       ("go_back",[],"Go back",
@@ -991,7 +991,7 @@ game_menus = [
        ),
 	  ("go_back",[],"Go back",
        [
-	     (jump_to_menu,"mnu_start_game_speed_selection"),
+	     (jump_to_menu,"mnu_start_game_ai_party_size_selection"),
        ]),
     ]
   ),
@@ -14400,7 +14400,22 @@ the high lords and common folk across the many realms of Europe."),
   ("start_game_speed_selection",menu_text_color(0xFF000000)|mnf_disable_all_keys,
     "Select game speed. You will be able to change it later in the game. Game speed affects how fast countries will develop their military technology and start using more advanced firearms.",
     "none",
-    [],
+    [
+      (try_for_range, ":center_no", walled_centers_begin, walled_centers_end),
+	  (assign, ":garrison_strength", "$preferred_ai_party_size"),
+	  (val_sub, ":garrison_strength", 80),
+	  (val_div, ":garrison_strength", 9),
+        (try_for_range, ":unused", 0, ":garrison_strength"),
+          (call_script, "script_cf_reinforce_party", ":center_no"),
+        (try_end),
+        (party_get_slot, ":center_lord", ":center_no", slot_town_lord),
+        (ge, ":center_lord", 1),
+        (try_for_range, ":unused", 0, 15),
+          (call_script, "script_hire_men_to_kingdom_hero_party", ":center_lord"),
+        (try_end),
+	 (try_end),
+	
+	],
     [
       ("game_speed_extremely_fast",[],"Extremely fast (One year passes in 6 days).",
        [
@@ -14452,10 +14467,41 @@ the high lords and common folk across the many realms of Europe."),
        ),
 	  ("go_back",[],"Go back",
        [
+	     (jump_to_menu,"mnu_start_game_ai_party_size_selection"),
+       ]),
+    ]
+  ),
+
+  ("start_game_ai_party_size_selection",menu_text_color(0xFF000000)|mnf_disable_all_keys,
+    "Select preferred lords party size. This affects lords parties maximum soldiers amount and can't be changed later in game. ^^Note that lords party size can also be increased by technologies.",
+    "none",
+    [],
+    [
+      ("game_speed_extremely_fast",[],"80 - Small (Battle size at least 200 is recommended).",
+       [
+		(assign, "$preferred_ai_party_size", 80),
+         (jump_to_menu,"mnu_start_game_speed_selection"),
+        ]
+       ),
+      ("game_speed_very_fast",[],"110 - Medium (Battle size at least 300 is recommended).",
+       [
+		(assign, "$preferred_ai_party_size", 110),
+         (jump_to_menu,"mnu_start_game_speed_selection"),
+        ]
+       ),
+      ("game_speed_fast",[],"140 - Big (Battle size at least 400 is recommended).",
+       [
+		(assign, "$preferred_ai_party_size", 140),
+         (jump_to_menu,"mnu_start_game_speed_selection"),
+        ]
+       ),
+	  ("go_back",[],"Go back",
+       [
 	     (jump_to_menu,"mnu_start_game_0"),
        ]),
     ]
   ),
+  
   ("change_game_speed",menu_text_color(0xFF000000)|mnf_disable_all_keys,
     "Select game speed.",
     "none",

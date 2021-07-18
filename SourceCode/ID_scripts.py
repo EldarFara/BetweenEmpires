@@ -729,5 +729,7 @@ script_cf_get_faction_rifle_type = 727
 script_get_company_foramtion_discipline_penalty_multiplier = 728
 script_copmany_decide_prone_or_crouch = 729
 script_pai_siege_defender_take_cover = 730
+script_pai_find_teams_company_closest_to_pos = 731
+script_cf_if_company_has_no_soldiers = 732
 
 
