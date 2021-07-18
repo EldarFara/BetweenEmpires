@@ -1,4 +1,4 @@
-990
+987
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -573,7 +573,6 @@ qstr_Belongs_to_{s31} Belongs_to_{s31}
 qstr_Controlled_by_{s31}^ Controlled_by_{s31}^Belongs_to_{s32}
 qstr_{s31}_becomes_an_all {s31}_becomes_an_ally_of_{s32}.
 qstr_{s31}_breaks_an_alli {s31}_breaks_an_alliance_with_{s32}.
-qstr_penaltytodiscipline_ penaltytodiscipline_fromfire_{reg0}
 qstr_{s1}_cannot_change_f {s1}_cannot_change_formation_-_only_light_infantry_can_apply_extended_line_formation.
 qstr_{s1}_cannot_change_fo {s1}_cannot_change_formation_-_you_need_to_research_Adaptive_Training_technology_to_apply_line_formation.
 qstr_{s1}_cannot_change_for {s1}_cannot_change_formation_-_you_need_to_research_Skirmish_Line_Tactics_technology_to_apply_dense_line_formation.
@@ -606,8 +605,6 @@ qstr_5th_{s1} 5th_{s1}
 qstr_6th_{s1} 6th_{s1}
 qstr_7th_{s1} 7th_{s1}
 qstr_8th_{s1} 8th_{s1}
-qstr_g_player_team_{reg0} g_player_team_{reg0}_g_allies_team_{reg1}_g_enemy_team_{reg2}_attackers_team_{reg3}_defenders_team_{reg4}_ai_attackers_team_{reg5}_ai_defenders_team_{reg6}
-qstr_distance_{reg2}_targ distance_{reg2}_target_team_{reg0}_target_company_{reg1}
 qstr_You_got_keys_of_dung You_got_keys_of_dungeon.
 qstr_You_must_stay_behind You_must_stay_behind_the_line_on_the_ground!_Point_is_not_counted.
 qstr_Tutorial Tutorial
