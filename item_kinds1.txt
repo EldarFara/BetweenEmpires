@@ -1,5 +1,5 @@
 itemsfile version 3
-1426
+1448
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -6182,6 +6182,112 @@ itemsfile version 3
 
  itm_rifle_kropatschek_carbine_m Kropatschek_Carbine Kropatschek_Carbine 1  kropatschek_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 80 0 532 530
  0
+0
+
+ itm_rifle_guedes Guedes_Rifle Guedes_Rifle 2  guedes 0  guedes_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 100 0 0 52 650 0 1 311 0
+ 0
+0
+
+ itm_rifle_guedes_m Guedes_Rifle Guedes_Rifle 1  guedes 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
+ 0
+0
+
+ itm_rifle_guedes_carbine Guedes_Rifle Guedes_Rifle 2  martinihenry_carbine 0  martinihenry_carbine_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 100 0 0 52 650 0 1 311 0
+ 0
+0
+
+ itm_rifle_guedes_carbine_m Guedes_Rifle Guedes_Rifle 1  martinihenry_carbine 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
+ 0
+0
+
+ itm_els_infantry1 Greek_Military_Uniform Greek_Military_Uniform 1  els_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_els_infantry2 Greek_Military_Uniform Greek_Military_Uniform 1  els_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_els_infantry3 Greek_Military_Uniform Greek_Military_Uniform 1  els_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_els_infantry4 Greek_Military_Uniform Greek_Military_Uniform 1  els_infantry4 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_els_cavalry1 Greek_Military_Uniform Greek_Military_Uniform 1  els_cavalry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_els_cavalry2 Greek_Military_Uniform Greek_Military_Uniform 1  els_cavalry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_els_trousers1 Greek_Military_Trousers Greek_Military_Trousers 1  els_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_els_trousers2 Greek_Military_Trousers Greek_Military_Trousers 1  els_trousers2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_els_trousers3 Greek_Military_Trousers Greek_Military_Trousers 1  els_trousers3 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_els_trousers4 Greek_Military_Trousers Greek_Military_Trousers 1  els_trousers4 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_els_hat1 Greek_Shako Greek_Shako 1  els_hat1 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_els_hat2a Greek_Shako Greek_Shako 1  els_hat2a 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_els_hat2b Greek_Shako Greek_Shako 1  els_hat2b 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_els_hat2c Greek_Shako Greek_Shako 1  els_hat2c 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_els_hat3 Greek_Shako Greek_Shako 1  els_hat3 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_els_hat4 Greek_Shako Greek_Shako 1  els_hat4 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_els_hat5 Greek_Shako Greek_Shako 1  els_hat5 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_els_hat6 Greek_Shako Greek_Shako 1  els_hat6 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 58
 0
 
  itm_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0

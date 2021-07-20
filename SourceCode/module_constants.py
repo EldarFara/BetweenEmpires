@@ -513,6 +513,7 @@ slot_faction_alliance_price = slot_faction_ve_mod_slots_begin + 97
 slot_faction_increase_relations_price = slot_faction_ve_mod_slots_begin + 98
 slot_faction_preset_aggressiveness = slot_faction_ve_mod_slots_begin + 99
 slot_faction_preset_reliability = slot_faction_ve_mod_slots_begin + 100
+slot_faction_clothes_progression_state = slot_faction_ve_mod_slots_begin + 101
 
 
 #revolts -- notes for self

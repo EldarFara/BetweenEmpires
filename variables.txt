@@ -1547,3 +1547,4 @@ async_simple_trigger25
 async_simple_trigger26
 async_simple_trigger27
 async_simple_trigger28
+async_simple_trigger31
