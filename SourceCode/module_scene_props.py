@@ -4132,6 +4132,8 @@ scene_props = [
 ("0town_awning2c",0,"awning2c","bo_awning2", []),
 ("0town_awning2d",0,"awning2d","bo_awning2", []),
 
+("0wheat1",0,"wheat1","0", []),
+("0flax1",0,"flax1","0", []),
 
 
 ]

@@ -994,7 +994,7 @@ items = [
 
 ["shortened_spear",         "Shortened Spear", [("spear_g_1-9m",0)], itp_type_polearm|itp_no_blur|itp_offset_lance| itp_primary|itp_wooden_parry, itc_staff|itcf_carry_spear,
  53 , weight(2.0)|difficulty(0)|spd_rtng(102) | weapon_length(120)|swing_damage(19 , blunt) | thrust_damage(25 ,  pierce),imodbits_polearm ],
-["spear",         "Spear", [("spear_h_2-15m",0)], itp_type_polearm|itp_no_blur|itp_offset_lance| itp_primary|itp_wooden_parry, itc_staff|itcf_carry_spear,
+["spear",         "Spear", [("spear_h_2-15m",0)], itp_type_polearm|itp_no_blur|itp_offset_lance| itp_primary|itp_wooden_parry, itc_staff,
  85 , weight(2.25)|difficulty(0)|spd_rtng(98) | weapon_length(135)|swing_damage(20 , blunt) | thrust_damage(26 ,  pierce),imodbits_polearm ],
 
 ["bamboo_spear",         "Bamboo Spear", [("arabian_spear_a_3m",0)], itp_type_polearm|itp_no_blur|itp_offset_lance| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_staff|itcf_carry_spear,
@@ -1358,7 +1358,7 @@ items = [
 ["ria_hat3","Russian Hat", [("ria_hat3", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_2]],
 ["ria_hat4","Russian Hat", [("ria_hat4", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_2]],
 ["ria_hat5","Russian Cossack Hat", [("ria_hat5", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_2]],
-["ria_leader1","Russian Tsar Torso", [("ria_leader1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
+["ria_leader1","Russian Military Uniform", [("ria_leader1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
 
 ["clothes_adventurer_male_trousers1","Adventurer's Trousers", [("clothes_adventurer_male_trousers1", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, []],
 ["clothes_adventurer_male1","Adventurer's Clothes", [("clothes_adventurer_male1", 0)], itp_type_body_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, []],
@@ -2331,6 +2331,17 @@ items = [
 ["rifle_papal_smoothbore_carbine","Papal M1777 Conversion Carbine", [("russian_m1845_carbine", 0),("russian_m1845_carbine_inv", ixmesh_inventory)], itp_type_crossbow|itp_two_handed|itp_primary, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.8)|abundance(0)|accuracy(int(accuracy_muzzleloaded_musket*accuracy_carbine_modifier))|spd_rtng(int(speed_muzzleloaded_musket*speed_carbine_modifier))|shoot_speed(shot_speed_musket)|max_ammo(1)|thrust_damage(damage_musket, pierce), imodbits_firearm, []],
 ["rifle_papal_smoothbore_carbine_m","Papal M1777 Conversion Carbine", [("russian_m1845_carbine", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.8)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(20, blunt)|swing_damage(0, blunt), imodbits_none, []],
 
+["bkh_infantry1","Bukharan Military Clothes", [("bkh_infantry1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_22]],
+["bkh_infantry2","Bukharan Military Clothes", [("bkh_infantry2", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_22]],
+["bkh_cavalry1","Bukharan Military Clothes", [("bkh_cavalry1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_22]],
+["bkh_cavalry2","Bukharan Military Clothes", [("bkh_cavalry2", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_22]],
+["bkh_cavalry3","Bukharan Military Clothes", [("bkh_cavalry3", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_22]],
+["bkh_cavalry4","Bukharan Military Clothes", [("bkh_cavalry4", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_22]],
+["bkh_cavalry5","Bukharan Military Clothes", [("bkh_cavalry5", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_22]],
+["bkh_cavalry6","Bukharan Military Clothes", [("bkh_cavalry6", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_22]],
+["bkh_trousers1","Bukharan Military Trousers", [("bkh_trousers1", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_22]],
+["bkh_trousers2","Bukharan Military Trousers", [("bkh_trousers2", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_22]],
+["bkh_hat1","Bukharan Hat", [("bkh_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_22]],
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 
