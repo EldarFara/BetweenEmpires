@@ -3599,6 +3599,65 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    []],
    
    [anyone|plyr, "minister_talk",
+   [
+	(assign, ":l_number_of_allies", 0),
+		(try_for_range, ":faction", npc_kingdoms_begin, npc_kingdoms_end),
+		(faction_slot_eq, ":faction", slot_faction_state, sfs_active),
+		(call_script, "script_cf_if_faction_is_in_alliance_with_faction", ":faction", "fac_player_supporters_faction"),
+		(val_add, ":l_number_of_allies", 1),
+		(try_end),
+	(neq, ":l_number_of_allies", 0),
+   ],
+   "I want you to break alliance.", "break_alliance_initial",
+   []],
+   
+   [anyone, "break_alliance_initial",
+   [],
+   "With who?", "break_alliance_choose_faction",
+   []],   [anyone|plyr|repeat_for_factions, "break_alliance_choose_faction",
+   [
+	(store_repeat_object, ":faction"),
+	(is_between, ":faction", npc_kingdoms_begin, npc_kingdoms_end),
+	(call_script, "script_cf_if_faction_is_in_alliance_with_faction", "fac_player_supporters_faction", ":faction"),
+	(str_store_faction_name, s31, ":faction"),
+	],
+   "{s31}.", "break_alliance_areyousure",
+   [
+   (store_repeat_object, "$break_alliance_choosen_faction"),
+   ]],
+   
+   [anyone|plyr, "break_alliance_choose_faction",
+   [],
+   "Nevermind.", "minister_pretalk",
+   []],
+   
+   [anyone, "break_alliance_areyousure",
+   [
+	(str_store_faction_name, s31, "$break_alliance_choosen_faction"),
+   ],
+   "Are you sure you want to break alliance with {s31}?", "break_alliance_areyousure_answer",
+   [
+   
+   ]],
+   
+   [anyone|plyr, "break_alliance_areyousure_answer",
+   [],
+   "Yes I am.", "break_alliance_proceed",
+   [
+   (call_script, "script_break_alliance_between_factions", "fac_player_supporters_faction", "$break_alliance_choosen_faction"),
+   ]],
+   
+   [anyone, "break_alliance_proceed",
+   [],
+   "Breaking alliance with {s31}.", "minister_pretalk",
+   []],
+   
+   [anyone|plyr, "break_alliance_areyousure_answer",
+   [],
+   "No I'm not.", "minister_pretalk",
+   []],
+   
+   [anyone|plyr, "minister_talk",
    [],
    "Let's strengthen our position in the world and send out an invitation for an alliance.", "create_alliance_initial",
    []],

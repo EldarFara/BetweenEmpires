@@ -124,6 +124,8 @@ items_revolvers = [itm_ammo_pistol, itm_sidearm_colt_dragoon, itm_sidearm_reming
 items_bandit_rifles = [itm_ammo_rifle, itm_rifle_sharps, itm_rifle_spencer, itm_rifle_spencer_carbine]
 items_arabian_clothing = [itm_thawb1, itm_thawb1b, itm_thawb1c, itm_thawb1d, itm_thawb1_vest1, itm_thawb1_vest2, itm_thawb1_vest3, itm_thawb1_vest4, itm_thawb1_vest5, itm_arab_pants, itm_arab_headwear1, itm_arab_headwear1b, itm_arab_headwear1c, itm_arab_headwear1d, itm_arab_headwear2, itm_arab_headwear2b, itm_arab_headwear2c, itm_arab_headwear2d, itm_arab_headwear2e, itm_arab_headwear3, itm_arab_headwear3b, itm_arab_headwear3c, itm_arab_headwear3d, itm_arab_headwear4, itm_arab_headwear6, itm_arab_headwear7]
 items_arabian_clothing_oman = [itm_thawb1, itm_thawb1b, itm_thawb1c, itm_thawb1d, itm_thawb1_vest1, itm_thawb1_vest2, itm_thawb1_vest3, itm_thawb1_vest4, itm_thawb1_vest5, itm_arab_pants, itm_arab_headwear5, itm_arab_headwear5b, itm_arab_headwear5c, itm_arab_headwear5d, itm_arab_headwear5e]
+items_middleasia_clothing = [itm_khi_infantry1, itm_khi_infantry2, itm_khi_infantry3, itm_khi_infantry4, itm_khi_infantry5, itm_khi_infantry6, itm_khi_hat1, itm_khi_trousers1, itm_khi_trousers2]
+items_bows = [itm_bow1, itm_bow2, itm_bow3, itm_bow4, itm_arrows1]
 
 items_russian_horses = [itm_horse_russian1a, itm_horse_russian1b, itm_horse_russian3a, itm_horse_russian3b, itm_horse_russian4a, itm_horse_russian4b]
 items_cossack_horses = [itm_horse_russian4a, itm_horse_russian4b, itm_horse_russian5a, itm_horse_russian5b]
@@ -1663,54 +1665,54 @@ troops = [
   ["faction22_castleguard", "Bukharan Infantry", "Bukharan Infantry", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_22,
   [itm_bkh_trousers1, itm_bkh_trousers2, itm_scimitar, itm_spear, itm_bkh_infantry1, itm_bkh_hat1, itm_ammo_rifle, itm_rifle_middle_east_musket1],
   str_7|agi_5|int_4|cha_4|level(8), wp1(75, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000120236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000134236db6db6db6db6db00000000001db6db0000000000000000],
-  ["faction23_troop1", "troop", "troop", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_kingdom_1,
+  ["faction23_troop1", "Khivan Recruit", "Khivan Recruits", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_23,
+  [itm_khi_trousers1, itm_khi_trousers2, itm_scimitar, itm_spear, itm_khi_infantry1, itm_khi_infantry2, itm_khi_infantry3, itm_khi_infantry4, itm_khi_infantry5, itm_khi_infantry6, itm_khi_hat1, itm_ammo_rifle, itm_rifle_middle_east_musket1],
+  str_5|agi_5|int_4|cha_4|level(4), wp1(60, 20), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000208236db6db6db6db6db00000000001db6db0000000000000000, 0x00000001800021c236db6db6db6db6db00000000001db6db0000000000000000],
+  ["faction23_troop2", "Khivan Infantry", "Khivan Infantry", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_23,
+  [itm_khi_trousers1, itm_khi_trousers2, itm_scimitar, itm_spear, itm_khi_infantry1, itm_khi_infantry2, itm_khi_infantry3, itm_khi_infantry4, itm_khi_infantry5, itm_khi_infantry6, itm_khi_hat1, itm_ammo_rifle, itm_rifle_middle_east_musket1],
+  str_7|agi_5|int_4|cha_4|level(8), wp1(75, 25), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000120236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000134236db6db6db6db6db00000000001db6db0000000000000000],
+  ["faction23_troop3", "Khivan Infantry (Exp.)", "Khivan Infantry (Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_23,
+  [itm_khi_trousers1, itm_khi_trousers2, itm_scimitar, itm_spear, itm_khi_infantry1, itm_khi_infantry2, itm_khi_infantry3, itm_khi_infantry4, itm_khi_infantry5, itm_khi_infantry6, itm_khi_hat1, itm_ammo_rifle, itm_rifle_middle_east_musket1],
+  str_7|agi_5|int_4|cha_4|level(8), wp1(75, 30), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000120236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000134236db6db6db6db6db00000000001db6db0000000000000000],
+  ["faction23_troop4", "Khivan Infantry (Very Exp.)", "Khivan Infantry (Very Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_23,
+  [itm_khi_trousers1, itm_khi_trousers2, itm_scimitar, itm_spear, itm_khi_infantry1, itm_khi_infantry2, itm_khi_infantry3, itm_khi_infantry4, itm_khi_infantry5, itm_khi_infantry6, itm_khi_hat1, itm_ammo_rifle, itm_rifle_middle_east_musket1],
+  str_11|agi_5|int_4|cha_4|level(16), wp1(105, 35), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+  ["faction23_troop5", "Khivan Light Infantry", "Khivan Light Infantry", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_23,
+  [itm_khi_trousers1, itm_khi_trousers2, itm_scimitar, itm_spear, itm_khi_infantry1, itm_khi_infantry2, itm_khi_infantry3, itm_khi_infantry4, itm_khi_infantry5, itm_khi_infantry6, itm_khi_hat1, itm_ammo_rifle, itm_rifle_middle_east_musket1],
+  str_5|agi_5|int_4|cha_4|level(12), wp1(55, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000208236db6db6db6db6db00000000001db6db0000000000000000, 0x00000001800021c236db6db6db6db6db00000000001db6db0000000000000000],
+  ["faction23_troop6", "Khivan Light Infantry (Exp.)", "Khivan Light Infantry (Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_23,
+  [itm_khi_trousers1, itm_khi_trousers2, itm_scimitar, itm_spear, itm_khi_infantry1, itm_khi_infantry2, itm_khi_infantry3, itm_khi_infantry4, itm_khi_infantry5, itm_khi_infantry6, itm_khi_hat1, itm_ammo_rifle, itm_rifle_middle_east_musket1],
+  str_5|agi_5|int_4|cha_4|level(16), wp1(60, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000120236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000134236db6db6db6db6db00000000001db6db0000000000000000],
+  ["faction23_troop7", "Khivan Light Infantry (Very Exp.)", "Khivan Light Infantry (Very Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_23,
+  [itm_khi_trousers1, itm_khi_trousers2, itm_scimitar, itm_spear, itm_khi_infantry1, itm_khi_infantry2, itm_khi_infantry3, itm_khi_infantry4, itm_khi_infantry5, itm_khi_infantry6, itm_khi_hat1, itm_ammo_rifle, itm_rifle_middle_east_musket1],
+  str_5|agi_5|int_4|cha_4|level(20), wp1(65, 85), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000208236db6db6db6db6db00000000001db6db0000000000000000, 0x00000001800021c236db6db6db6db6db00000000001db6db0000000000000000],
+  ["faction23_troop8", "Khivan Guard", "Khivan Guards", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_23,
+  [itm_khi_trousers1, itm_khi_trousers2, itm_scimitar, itm_khi_infantry1, itm_khi_infantry2, itm_khi_infantry3, itm_khi_infantry4, itm_khi_infantry5, itm_khi_infantry6, itm_khi_hat1, itm_ammo_rifle, itm_rifle_middle_east_musket1],
+  str_13|agi_5|int_4|cha_4|level(20), wp1(120, 65), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000034236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000040236db6db6db6db6db00000000001db6db0000000000000000],
+  ["faction23_troop9", "Khivan Guard (Exp.)", "Khivan Guards (Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_23,
+  [itm_khi_trousers1, itm_khi_trousers2, itm_scimitar, itm_khi_infantry1, itm_khi_infantry2, itm_khi_infantry3, itm_khi_infantry4, itm_khi_infantry5, itm_khi_infantry6, itm_khi_hat1, itm_ammo_rifle, itm_rifle_middle_east_musket1],
+  str_15|agi_5|int_4|cha_4|level(22), wp1(140, 75), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+  ["faction23_troop10", "Khivan Cavalry", "Khivan Cavalry", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_23,
+  [itm_scimitar, itm_khi_trousers1, itm_khi_trousers2, itm_khi_infantry1, itm_khi_infantry2, itm_khi_infantry3, itm_khi_infantry4, itm_khi_infantry5, itm_khi_infantry6, itm_khi_hat1]+items_middleeast_horses+items_bows,
+  str_7|agi_5|int_4|cha_4|level(8), wp1(100, 50), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1|knows_power_draw_5,0x000000018000208236db6db6db6db6db00000000001db6db0000000000000000, 0x00000001800021c236db6db6db6db6db00000000001db6db0000000000000000],
+  ["faction23_troop11", "Khivan Cavalry (Exp.)", "Khivan Cavalry (Exp.)", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_23,
+  [itm_scimitar, itm_khi_trousers1, itm_khi_trousers2, itm_khi_infantry1, itm_khi_infantry2, itm_khi_infantry3, itm_khi_infantry4, itm_khi_infantry5, itm_khi_infantry6, itm_khi_hat1]+items_middleeast_horses+items_bows,
+  str_9|agi_5|int_4|cha_4|level(13), wp1(115, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1|knows_power_draw_5,0x000000018000120236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000134236db6db6db6db6db00000000001db6db0000000000000000],
+  ["faction23_troop12", "Khivan Ranged Cavalry", "Khivan Ranged Cavalry", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_23,
+  [itm_scimitar, itm_khi_trousers1, itm_khi_trousers2, itm_khi_infantry1, itm_khi_infantry2, itm_khi_infantry3, itm_khi_infantry4, itm_khi_infantry5, itm_khi_infantry6, itm_khi_hat1, itm_ammo_rifle, itm_rifle_middle_east_musket1]+items_middleeast_horses,
+  str_9|agi_5|int_4|cha_4|level(13), wp1(70, 75), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000034236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000040236db6db6db6db6db00000000001db6db0000000000000000],
+  ["faction23_troop13", "Khivan Ranged Cavalry (Exp.)", "Khivan Ranged Cavalry (Exp.)", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_23,
+  [itm_scimitar, itm_khi_trousers1, itm_khi_trousers2, itm_khi_infantry1, itm_khi_infantry2, itm_khi_infantry3, itm_khi_infantry4, itm_khi_infantry5, itm_khi_infantry6, itm_khi_hat1, itm_ammo_rifle, itm_rifle_middle_east_musket1]+items_middleeast_horses,
+  str_11|agi_5|int_4|cha_4|level(18), wp1(85, 90), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+  ["faction23_troop14", "troop", "s", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_kingdom_23,
   [],
   str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000002200c1c8191053471d3749a100000000001da39c0000000000000000],
-  ["faction23_troop2", "troop", "troop", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_kingdom_1,
-  [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000002200c1c8191053471d3749a100000000001da39c0000000000000000],
-  ["faction23_troop3", "troop", "troop", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_kingdom_1,
-  [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000002200c1c8191053471d3749a100000000001da39c0000000000000000],
-  ["faction23_troop4", "troop", "troop", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_kingdom_1,
-  [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000002200c1c8191053471d3749a100000000001da39c0000000000000000],
-  ["faction23_troop5", "troop", "troop", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_kingdom_1,
-  [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000002200c1c8191053471d3749a100000000001da39c0000000000000000],
-  ["faction23_troop6", "troop", "troop", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_kingdom_1,
-  [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000002200c1c8191053471d3749a100000000001da39c0000000000000000],
-  ["faction23_troop7", "troop", "troop", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_kingdom_1,
-  [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000002200c1c8191053471d3749a100000000001da39c0000000000000000],
-  ["faction23_troop8", "troop", "troop", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_kingdom_1,
-  [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000002200c1c8191053471d3749a100000000001da39c0000000000000000],
-  ["faction23_troop9", "troop", "troop", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_kingdom_1,
-  [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000002200c1c8191053471d3749a100000000001da39c0000000000000000],
-  ["faction23_troop10", "troop", "troop", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_kingdom_1,
-  [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000002200c1c8191053471d3749a100000000001da39c0000000000000000],
-  ["faction23_troop11", "troop", "troop", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_kingdom_1,
-  [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000002200c1c8191053471d3749a100000000001da39c0000000000000000],
-  ["faction23_troop12", "troop", "troop", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_kingdom_1,
-  [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000002200c1c8191053471d3749a100000000001da39c0000000000000000],
-  ["faction23_troop13", "troop", "troop", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_kingdom_1,
-  [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000002200c1c8191053471d3749a100000000001da39c0000000000000000],
-  ["faction23_troop14", "troop", "troop", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_kingdom_1,
-  [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000002200c1c8191053471d3749a100000000001da39c0000000000000000],
-  ["faction23_prisonguard", "troop", "troop", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_kingdom_1,
-  [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000002200c1c8191053471d3749a100000000001da39c0000000000000000],
-  ["faction23_castleguard", "troop", "troop", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_kingdom_1,
-  [],
-  str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000002200c1c8191053471d3749a100000000001da39c0000000000000000],
+  ["faction23_prisonguard", "Khivan Infantry", "Khivan Infantry", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_23,
+  [itm_khi_trousers1, itm_khi_trousers2, itm_scimitar, itm_spear, itm_khi_infantry1, itm_khi_infantry2, itm_khi_infantry3, itm_khi_infantry4, itm_khi_infantry5, itm_khi_infantry6, itm_khi_hat1, itm_ammo_rifle, itm_rifle_middle_east_musket1],
+  str_7|agi_5|int_4|cha_4|level(8), wp1(75, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000120236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000134236db6db6db6db6db00000000001db6db0000000000000000],
+  ["faction23_castleguard", "Khivan Infantry", "Khivan Infantry", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_23,
+  [itm_khi_trousers1, itm_khi_trousers2, itm_scimitar, itm_spear, itm_khi_infantry1, itm_khi_infantry2, itm_khi_infantry3, itm_khi_infantry4, itm_khi_infantry5, itm_khi_infantry6, itm_khi_hat1, itm_ammo_rifle, itm_rifle_middle_east_musket1],
+  str_7|agi_5|int_4|cha_4|level(8), wp1(75, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000120236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000134236db6db6db6db6db00000000001db6db0000000000000000],
   ["faction24_troop1", "Greek Recruit", "Greek Recruits", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_24,
   [itm_els_trousers1, itm_els_infantry1, itm_els_hat2a, itm_ammo_rifle, itm_rifle_greek_smoothbore],
   str_5|agi_5|int_4|cha_4|level(4), wp1(60, 50), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000208236db6db6db6db6db00000000001db6db0000000000000000, 0x00000001800021c236db6db6db6db6db00000000001db6db0000000000000000],
@@ -2210,7 +2212,7 @@ troops = [
   []+items_european_urban_clothing_male+items_melee_civilian_rural+items_bandit_rifles,
   str_7|agi_5|int_4|cha_4|level(16), wp(110), knows_riding_1|knows_athletics_2|knows_power_draw_3|knows_power_throw_2|knows_power_strike_2|knows_ironflesh_2,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x0000000c710023084deeffffffffffff00000000001efff90000000000000000],
   ["steppe_bandit", "Steppe Bandit", "Steppe Bandits", tf_mounted|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_horse|tf_guarantee_ranged, 0, 0, fac_outlaws,
-  []+items_european_urban_clothing_male+items_melee_civilian_rural+items_bandit_rifles,
+  [itm_scimitar]+items_middleasia_clothing+items_middleeast_horses+items_bows,
   str_7|agi_5|int_4|cha_4|level(12), wp(100), knows_horse_archery_3|knows_riding_4|knows_power_draw_3,0x00000003c9003109207000000000000000000000001c80470000000000000000, 0x0000000b3f0061cd6d7ffbdf9df6ebee00000000001ffb7f0000000000000000],
   ["taiga_bandit", "Taiga Bandit", "Taiga Bandits", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_ranged, 0, 0, fac_outlaws,
   []+items_european_urban_clothing_male+items_melee_civilian_rural+items_bandit_rifles,
@@ -2552,7 +2554,7 @@ troops = [
   [itm_bkh_cavalry6, itm_bkh_hat1, itm_bkh_trousers1, itm_sidearm_flintlock_pistol1, itm_ammo_pistol, itm_scimitar, itm_horse_turkmen1a],
   str_19|agi_19|int_13|cha_22|level(35), wp(220), knows_leadership_9|knows_prisoner_management_3|knows_tactics_6|knows_trainer_5|knows_riding_7|knows_athletics_5|knows_power_strike_7|knows_ironflesh_6,0x000000007c00360436db6db6db6db6db00000000001db6db0000000000000000, 0x000000007c00360436db6db6db6db6db00000000001db6db0000000000000000],
   ["kingdom_23_lord", "Khan Sayyid Muhammed Rahim", "Khan Sayyid Muhammed Rahim", tf_hero, 0, 0, fac_kingdom_23,
-  [],
+  [itm_khi_infantry5, itm_khi_hat1, itm_khi_trousers1, itm_sidearm_flintlock_pistol1, itm_ammo_pistol, itm_scimitar, itm_horse_turkmen1a],
   str_19|agi_19|int_13|cha_22|level(35), wp(220), knows_leadership_9|knows_prisoner_management_3|knows_tactics_6|knows_trainer_5|knows_riding_7|knows_athletics_5|knows_power_strike_7|knows_ironflesh_6,0x000000007c00350636db6db6db6db6db00000000001db6db0000000000000000, 0x000000007c00350636db6db6db6db6db00000000001db6db0000000000000000],
   ["kingdom_24_lord", "King Otto of Greece", "King Otto of Greece", tf_hero, 0, 0, fac_kingdom_24,
   [itm_els_infantry4, itm_els_hat1, itm_els_trousers1, itm_sidearm_colt_m1851_navy, itm_ammo_pistol, itm_saber1, itm_horse_british1a],
@@ -3230,16 +3232,16 @@ troops = [
   [itm_bkh_cavalry6, itm_bkh_hat1, itm_bkh_trousers1, itm_sidearm_flintlock_pistol1, itm_ammo_pistol, itm_scimitar, itm_horse_turkmen1a],
   str_18|agi_17|int_12|cha_20|level(30), wp(190), knows_leadership_6|knows_prisoner_management_2|knows_tactics_4|knows_riding_5|knows_athletics_3|knows_power_strike_5|knows_ironflesh_4,0x00000000f800358636db6db6db6db6db00000000001db6db0000000000000000, 0x00000000f800358636db6db6db6db6db00000000001db6db0000000000000000],
   ["knight_23_1", "Atabeg_Burkhanov", "Atabeg_Burkhanov", tf_hero, 0, 0, fac_kingdom_23,
-  [],
+  [itm_khi_infantry5, itm_khi_hat1, itm_khi_trousers1, itm_sidearm_flintlock_pistol1, itm_ammo_pistol, itm_scimitar, itm_horse_turkmen1a],
   str_19|agi_19|int_13|cha_22|level(35), wp(220), knows_leadership_7|knows_prisoner_management_3|knows_tactics_5|knows_riding_6|knows_athletics_4|knows_power_strike_6|knows_ironflesh_5,0x00000000f800350236db6db6db6db6db00000000001db6db0000000000000000, 0x00000000f800350236db6db6db6db6db00000000001db6db0000000000000000],
   ["knight_23_2", "Atabeg_Karimov", "Atabeg_Karimov", tf_hero, 0, 0, fac_kingdom_23,
-  [],
+  [itm_khi_infantry5, itm_khi_hat1, itm_khi_trousers1, itm_sidearm_flintlock_pistol1, itm_ammo_pistol, itm_scimitar, itm_horse_turkmen1a],
   str_20|agi_20|int_15|cha_25|level(41), wp(250), knows_leadership_9|knows_prisoner_management_3|knows_tactics_6|knows_riding_7|knows_athletics_5|knows_power_strike_7|knows_ironflesh_6,0x0000000fb800850836db6db6db6db6db00000000001db6db0000000000000000, 0x0000000fb800850836db6db6db6db6db00000000001db6db0000000000000000],
   ["knight_23_3", "Atabeg_Aitchleck", "Atabeg_Aitchleck", tf_hero, 0, 0, fac_kingdom_23,
-  [],
+  [itm_khi_infantry5, itm_khi_hat1, itm_khi_trousers1, itm_sidearm_flintlock_pistol1, itm_ammo_pistol, itm_scimitar, itm_horse_turkmen1a],
   str_15|agi_14|int_8|cha_16|level(22), wp(130), knows_leadership_3|knows_prisoner_management_1|knows_tactics_2|knows_riding_3|knows_athletics_1|knows_power_strike_3|knows_ironflesh_2,0x00000000f80086c736db6db6db6db6db00000000001db6db0000000000000000, 0x00000000f80086c736db6db6db6db6db00000000001db6db0000000000000000],
   ["knight_23_4", "Atabeg_Abdulin", "Atabeg_Abdulin", tf_hero, 0, 0, fac_kingdom_23,
-  [],
+  [itm_khi_infantry5, itm_khi_hat1, itm_khi_trousers1, itm_sidearm_flintlock_pistol1, itm_ammo_pistol, itm_scimitar, itm_horse_turkmen1a],
   str_16|agi_16|int_10|cha_18|level(26), wp(160), knows_leadership_5|knows_prisoner_management_2|knows_tactics_3|knows_riding_4|knows_athletics_2|knows_power_strike_4|knows_ironflesh_3,0x00000000f80087c836db6db6db6db6db00000000001db6db0000000000000000, 0x00000000f80087c836db6db6db6db6db00000000001db6db0000000000000000],
   ["knight_24_1", "General_Loannis_Mamouris", "General_Loannis_Mamouris", tf_hero, 0, 0, fac_kingdom_24,
   [itm_els_infantry4, itm_els_hat1, itm_els_trousers1, itm_sidearm_colt_m1851_navy, itm_ammo_pistol, itm_saber1, itm_horse_british1a],
@@ -11367,7 +11369,7 @@ str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_
 [itm_bkh_trousers1, itm_bkh_trousers2, itm_bkh_infantry2, itm_bkh_hat1],
 str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
 ["faction23_fieldgun_cannoneer_officer", "Khivan Field Gun Crew Officer", "Field Gun Crew Officers", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_23,
-[itm_ria_infantry_trousers2, itm_ria_infantry1, itm_ria_infantry2, itm_ria_infantry3, itm_ria_hat1],
+[itm_khi_trousers1, itm_khi_trousers2, itm_khi_infantry2, itm_khi_infantry3, itm_khi_hat1],
 str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
 ["faction24_fieldgun_cannoneer_officer", "Greek Field Gun Crew Officer", "Field Gun Crew Officers", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_24,
 [itm_els_infantry3, itm_els_hat1, itm_els_trousers2],
@@ -11469,7 +11471,7 @@ str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_
 [itm_bkh_trousers1, itm_bkh_trousers2, itm_bkh_infantry2, itm_bkh_hat1],
 str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
 ["faction23_howitzer_cannoneer_officer", "Khiva Howitzer Crew Officer", "Howitzer Crew Officers", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_23,
-[itm_ria_infantry_trousers2, itm_ria_infantry1, itm_ria_infantry2, itm_ria_infantry3, itm_ria_hat1],
+[itm_khi_trousers1, itm_khi_trousers2, itm_khi_infantry2, itm_khi_infantry3, itm_khi_hat1],
 str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
 ["faction24_howitzer_cannoneer_officer", "Greek Howitzer Crew Officer", "Howitzer Crew Officers", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_24,
 [itm_els_infantry3, itm_els_hat1, itm_els_trousers2],
@@ -11572,7 +11574,7 @@ str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_
 [itm_bkh_trousers1, itm_bkh_trousers2, itm_bkh_infantry2, itm_bkh_hat1],
 str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
 ["faction23_fieldgun_cannoneer", "Khivan Field Gun Cannoneer", "Field Gun Cannoneers", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_23,
-[itm_ria_infantry_trousers2, itm_ria_infantry1, itm_ria_infantry2, itm_ria_infantry3, itm_ria_hat1],
+[itm_khi_trousers1, itm_khi_trousers2, itm_khi_infantry2, itm_khi_infantry3, itm_khi_hat1],
 str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
 ["faction24_fieldgun_cannoneer", "Greek Field Gun Cannoneer", "Field Gun Cannoneers", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_24,
 [itm_els_infantry3, itm_els_hat4, itm_els_trousers2],
@@ -11674,7 +11676,7 @@ str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_
 [itm_bkh_trousers1, itm_bkh_trousers2, itm_bkh_infantry2, itm_bkh_hat1],
 str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
 ["faction23_howitzer_cannoneer", "Khivan Howitzer Cannoneer", "Howitzer Cannoneers", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_23,
-[itm_ria_infantry_trousers2, itm_ria_infantry1, itm_ria_infantry2, itm_ria_infantry3, itm_ria_hat1],
+[itm_khi_trousers1, itm_khi_trousers2, itm_khi_infantry2, itm_khi_infantry3, itm_khi_hat1],
 str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
 ["faction24_howitzer_cannoneer", "Greek Howitzer Cannoneer", "Howitzer Cannoneers", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_24,
 [itm_els_infantry3, itm_els_hat4, itm_els_trousers2],
@@ -12112,6 +12114,16 @@ upgrade(troops,"faction22_troop8", "faction22_troop9")
 upgrade2(troops,"faction22_troop10", "faction22_troop11", "faction22_troop12")
 upgrade(troops,"faction22_troop12", "faction22_troop13")
 
+upgrade2(troops,"faction23_troop1", "faction23_troop2", "faction23_troop10")
+upgrade(troops,"faction23_troop3", "faction23_troop4")
+upgrade2(troops,"faction23_troop2", "faction23_troop3", "faction23_troop5")
+upgrade(troops,"faction23_troop5", "faction23_troop6")
+upgrade(troops,"faction23_troop6", "faction23_troop7")
+upgrade(troops,"faction23_troop4", "faction23_troop8")
+upgrade(troops,"faction23_troop8", "faction23_troop9")
+upgrade2(troops,"faction23_troop10", "faction23_troop11", "faction23_troop12")
+upgrade(troops,"faction23_troop12", "faction23_troop13")
+
 upgrade2(troops,"faction24_troop1", "faction24_troop2", "faction24_troop10")
 upgrade(troops,"faction24_troop3", "faction24_troop4")
 upgrade2(troops,"faction24_troop2", "faction24_troop3", "faction24_troop5")
@@ -12280,12 +12292,6 @@ upgrade(troops,"sarranid_horseman","sarranid_mamluke")
 upgrade2(troops,"looter","mountain_bandit", "forest_bandit")
 
 #new tree connections
-upgrade(troops,"mountain_bandit","rhodok_tribesman")
-upgrade(troops,"forest_bandit","swadian_recruit")
-upgrade(troops,"steppe_bandit","khergit_tribesman")
-upgrade(troops,"taiga_bandit","vaegir_recruit")
-upgrade(troops,"sea_raider","nord_recruit")
-upgrade(troops,"desert_bandit","sarranid_recruit")
 #new tree connections ended
 
 upgrade2(troops,"bandit","brigand","mercenary_swordsman")
