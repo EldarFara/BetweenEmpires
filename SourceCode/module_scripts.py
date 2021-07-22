@@ -520,7 +520,6 @@ scripts = [
       
       # Setting random feast time
       (try_for_range, ":faction_no", kingdoms_begin, kingdoms_end),
-		(faction_set_slot, ":faction_no", slot_faction_clothes_progression_state, 0),
 		(faction_set_slot, ":faction_no", slot_faction_infamy, 0),
 		(faction_set_slot, ":faction_no", slot_faction_casus_belli_target, 0),
 		(faction_set_slot, ":faction_no", slot_faction_casus_belli_progress, 0),
@@ -57276,7 +57275,6 @@ scripts = [
 			(store_random_in_range, ":x_offset", ":x_offset_min", ":x_offset_max"), (store_random_in_range, ":y_offset", ":y_offset_min", ":y_offset_max"),
 			(position_move_x, pos50, ":x_offset"), (position_move_y, pos50, ":y_offset"),
 			(ge, ":y_offset", 40),
-			(store_random_in_range, ":random", 0, 2),
 			(agent_set_slot, ":agent", slot_agent_can_crouch, 0),
 			(agent_ai_set_can_crouch, ":agent", 0),
 			(try_end),
