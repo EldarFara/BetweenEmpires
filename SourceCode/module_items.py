@@ -1352,6 +1352,7 @@ items = [
 ["ria_infantry4","Russian Military Uniform", [("ria_infantry4", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
 ["ria_infantry5","Russian Military Uniform", [("ria_infantry5", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
 ["ria_infantry6","Russian Military Uniform", [("ria_infantry6", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
+["ria_infantry7","Russian Military Uniform", [("ria_infantry7", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
 ["ria_cavalry1","Russian Military Uniform", [("ria_cavalry1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
 ["ria_cavalry2","Russian Military Uniform", [("ria_cavalry2", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
 ["ria_cavalry3","Russian Cossack Torso", [("ria_cavalry3", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
@@ -2108,6 +2109,7 @@ items = [
 ["baf_hat6","British Shako", [("baf_hat6", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 ["baf_hat7","British Service Kepi", [("baf_hat7", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 ["baf_hat8","Pith Helmet", [("baf_hat8", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
+["baf_hat9","Pith Helmet", [("baf_hat9", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 ["cavalry_gloves1","Gloves", [("cavalry_gloves1_L",0)], itp_type_hand_armor,0, 90, weight(0.25)|abundance(50)|body_armor(1)|difficulty(0),imodbits_cloth],
 
 ["shotgun_caplock","Double-Barrel Caplock Shotgun", [("shotgun_caplock", 0),("shotgun_caplock_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear,price_pistol_aboveaverage, weight(3.7)|abundance(80)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_muzzleloaded_musket)|shoot_speed(shotgun_muzzle_velocity)|max_ammo(2)|thrust_damage(damage_shotgun, pierce), imodbits_firearm, 

@@ -56667,7 +56667,7 @@ scripts = [
 (faction_set_slot, "fac_kingdom_4", slot_faction_technology_skirmishline + faction_technology_preset_year, 1884),
 (faction_set_slot, "fac_kingdom_5", slot_faction_technology_skirmishline + faction_technology_preset_year, 1884),
 (faction_set_slot, "fac_kingdom_6", slot_faction_technology_skirmishline + faction_technology_preset_year, 1884),
-(faction_set_slot, "fac_kingdom_7", slot_faction_technology_skirmishline + faction_technology_preset_year, 1895),
+(faction_set_slot, "fac_kingdom_7", slot_faction_technology_skirmishline + faction_technology_preset_year, 1884),
 (faction_set_slot, "fac_kingdom_8", slot_faction_technology_skirmishline + faction_technology_preset_year, 1884),
 (faction_set_slot, "fac_kingdom_9", slot_faction_technology_skirmishline + faction_technology_preset_year, 1884),
 (faction_set_slot, "fac_kingdom_11", slot_faction_technology_skirmishline + faction_technology_preset_year, 1884),
