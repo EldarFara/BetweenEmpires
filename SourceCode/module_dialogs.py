@@ -3608,12 +3608,12 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
 		(try_end),
 	(neq, ":l_number_of_allies", 0),
    ],
-   "I want you to break alliance.", "break_alliance_initial",
+   "I want our nation to break alliance with other nation.", "break_alliance_initial",
    []],
    
    [anyone, "break_alliance_initial",
    [],
-   "With who?", "break_alliance_choose_faction",
+   "With what nation?", "break_alliance_choose_faction",
    []],   [anyone|plyr|repeat_for_factions, "break_alliance_choose_faction",
    [
 	(store_repeat_object, ":faction"),
@@ -3907,7 +3907,6 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    
   [anyone|plyr,"minister_talk",
    [
-   (is_between, "$g_player_minister", active_npcs_begin, kingdom_ladies_end),
    ],
    "Do you have any ideas to strengthen our kingdom's unity?", "combined_political_quests",[
    (call_script, "script_get_political_quest", "$g_talk_troop"),
@@ -3989,7 +3988,6 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
 
    [anyone|plyr, "minister_talk",
    [
-   (is_between, "$g_player_minister", active_npcs_begin, kingdom_ladies_end),
    ],
    "I wish to indict a disloyal vassal for treason.", "minister_indict",
    []],   
@@ -4049,7 +4047,6 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
 
    [anyone|plyr, "minister_talk",
    [
-   (is_between, "$g_player_minister", active_npcs_begin, kingdom_ladies_end),
    (assign, ":fief_found", -1),
    (try_for_range, ":center", centers_begin, centers_end),
     (eq, ":fief_found", -1),
