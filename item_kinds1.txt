@@ -1,5 +1,5 @@
 itemsfile version 3
-1529
+1537
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -6641,6 +6641,46 @@ itemsfile version 3
  itm_khi_hat1 Middle_Asian_Hat Middle_Asian_Hat 1  khi_hat1 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  65
+0
+
+ itm_afg_infantry1 Middle_Asian_Clothes Middle_Asian_Clothes 1  afg_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 63
+0
+
+ itm_afg_infantry2 Middle_Asian_Clothes Middle_Asian_Clothes 1  afg_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 63
+0
+
+ itm_afg_infantry3 Middle_Asian_Clothes Middle_Asian_Clothes 1  afg_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 63
+0
+
+ itm_afg_infantry4 Middle_Asian_Clothes Middle_Asian_Clothes 1  afg_infantry4 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 63
+0
+
+ itm_afg_trousers1 Middle_Asian_Trousers Middle_Asian_Trousers 1  bkh_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 63
+0
+
+ itm_afg_trousers2 Middle_Asian_Trousers Middle_Asian_Trousers 1  bkh_trousers2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 63
+0
+
+ itm_afg_hat1 Middle_Asian_Hat Middle_Asian_Hat 1  khi_hat1 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 63
+0
+
+ itm_afg_hat2 Middle_Asian_Hat Middle_Asian_Hat 1  bkh_hat1 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 63
 0
 
  itm_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
