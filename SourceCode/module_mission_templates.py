@@ -512,6 +512,36 @@ prone_100ms = (0.1, 0, 0, [
 	(try_end),
 ], [])
 
+pbs_walkrun_order = (
+ti_on_order_issued, 0, 0, [],
+[
+(set_fixed_point_multiplier, 1),
+(store_trigger_param_1, ":order"),
+(is_between, ":order", mordr_stand_closer, mordr_spread_out+1),
+(val_sub, ":order", mordr_stand_closer),
+	(try_begin),
+	(eq, ":order", pbs_run_mode_walking),
+	(assign, ":order", pbs_run_mode_running),
+	(else_try),
+	(assign, ":order", pbs_run_mode_walking),
+	(try_end),
+	(try_for_range, ":company", 0, 8),
+	(class_is_listening_order, "$g_player_team", ":company"),
+	(store_add, ":slot_team_run_mode", slot_team_company1_run_mode, ":company"),
+	(team_set_slot, "$g_player_team", ":slot_team_run_mode", ":order"),
+	(store_add, reg0, ":company", 1),
+		(try_begin),
+		(eq, ":order", pbs_run_mode_walking),
+		(display_message, "@{reg0}. Company has switched to walking."),
+		(call_script, "script_company_play_bugle", "$g_player_team", ":company", "snd_bugle_walk"),
+		(else_try),
+		(display_message, "@{reg0}. Company has switched to running."),
+		(call_script, "script_company_play_bugle", "$g_player_team", ":company", "snd_bugle_run"),
+		(try_end),
+	(try_end),
+
+])
+
 pbs_formation_order = (
 ti_on_order_issued, 0, 0, [],
 [
@@ -5939,6 +5969,7 @@ ams = (ti_after_mission_start, 0, 0, [
 parabellum_script_set_battle = [
 ams,
 bms,
+pbs_walkrun_order,
 prone_100ms,
 pbs_formation_order,
 carbine_melee_mode_fix,

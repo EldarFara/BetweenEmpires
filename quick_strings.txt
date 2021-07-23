@@ -573,6 +573,8 @@ qstr_Belongs_to_{s31} Belongs_to_{s31}
 qstr_Controlled_by_{s31}^ Controlled_by_{s31}^Belongs_to_{s32}
 qstr_{s31}_becomes_an_all {s31}_becomes_an_ally_of_{s32}.
 qstr_{s31}_breaks_an_alli {s31}_breaks_an_alliance_with_{s32}.
+qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_walking.
+qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_running.
 qstr_{s1}_cannot_change_f {s1}_cannot_change_formation_-_only_light_infantry_can_apply_extended_line_formation.
 qstr_{s1}_cannot_change_fo {s1}_cannot_change_formation_-_you_need_to_research_Adaptive_Training_technology_to_apply_line_formation.
 qstr_{s1}_cannot_change_for {s1}_cannot_change_formation_-_you_need_to_research_Skirmish_Line_Tactics_technology_to_apply_dense_line_formation.
@@ -594,8 +596,6 @@ qstr_evening evening
 qstr_night night
 qstr_dusk dusk
 qstr_Hotkeys:_U_to_access Hotkeys:_U_to_access_the_aerial_view_E_and_Q_to_rotate_camera_horizontally_Middle_mouse_button_and_moving_mouse_up_and_down_to_rotate_camera_vertically_Space_and_Ctrl_to_control_your_height_~_tilde_(next_to_1)_to_make_selected_companies_run._You_can_select_companies_either_by_clicking_on_the_units_on_screen,_or_by_selecting_them_in_the_UI_in_the_bottom_left_Use_your_right_mouse_button_to_place,_and_orientate_your_units.
-qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_running.
-qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_was_ {reg0}._Company_was_forced_to_retreat.
 qstr_1st_{s1} 1st_{s1}
 qstr_2nd_{s1} 2nd_{s1}

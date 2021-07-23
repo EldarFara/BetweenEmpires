@@ -6663,12 +6663,12 @@ itemsfile version 3
  63
 0
 
- itm_afg_trousers1 Middle_Asian_Trousers Middle_Asian_Trousers 1  bkh_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ itm_afg_trousers1 Middle_Asian_Trousers Middle_Asian_Trousers 1  afg_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  63
 0
 
- itm_afg_trousers2 Middle_Asian_Trousers Middle_Asian_Trousers 1  bkh_trousers2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ itm_afg_trousers2 Middle_Asian_Trousers Middle_Asian_Trousers 1  afg_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  63
 0
