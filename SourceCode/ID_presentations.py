@@ -59,3 +59,5 @@ prsnt_faction_technologies = 57
 prsnt_faction_selection = 58
 prsnt_flag_selection = 59
 prsnt_peace_negotiations = 60
+prsnt_pps_menu = 61
+prsnt_debug_display_slots = 62

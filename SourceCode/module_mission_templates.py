@@ -20,7 +20,25 @@ from header_skills import *
 pilgrim_disguise = [itm_ammo_pistol, itm_dagger, itm_sidearm_colt_m1851_navy, itm_clothes_urban_male_trousers1, itm_civilian_hat1, itm_clothes_urban_male1]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
-pai_start = (5, 0, ti_once, [
+vo_on_company_select = (
+0, 0, 0, [],
+[
+	(try_for_range, ":company", 0, 8),
+	(store_add, ":gk", 30, ":company"),
+	(game_key_clicked, ":gk"),
+	(call_script, "script_company_play_vo", "$g_player_team", ":company", vo_type_on_company_select),
+	(try_end),
+])
+
+vo_500ms = (
+0.5, 0, 0, [],
+[
+	(try_for_range, ":team", 0, 3),
+	(team_set_slot, ":team", slot_team_vo_allowed, 1),
+	(try_end),
+])
+
+pai_start = (9, 0, ti_once, [
 (set_fixed_point_multiplier, 1),
 	(try_begin),
 	(eq, "$defenders_team", "$g_player_team"),
@@ -613,6 +631,7 @@ ti_on_order_issued, 0, 0, [],
 	(ge, ":discipline", 5000),
 	(store_add, ":slot_team_formation", slot_team_company1_formation, ":company"),
 	(team_set_slot, "$g_player_team", ":slot_team_formation", ":order"),
+	(call_script, "script_company_play_vo", "$g_player_team", ":company", vo_type_yes_sir),
 	(call_script, "script_cf_if_company_has_soldiers", "$g_player_team", ":company"),
 	(store_add, ":slot_team_state", slot_team_company1_state, ":company"),
 		(try_begin),
@@ -2596,8 +2615,8 @@ YuriCannon33MS = (
 			(agent_get_team, ":TeamOfOfficer", ":CannonCannoneerOfficer"),
 			(agent_get_division , ":Division", ":CannonCannoneerOfficer"),
 			(scene_prop_slot_eq, ":CannonBody", YuriSlotProp_CannonTimer, 0),
-			#(team_get_hold_fire_order, ":Order", ":TeamOfOfficer", ":Division"),
-			#(eq, ":Order", aordr_fire_at_will), # to do add volley fire
+			(team_get_hold_fire_order, ":Order", ":TeamOfOfficer", ":Division"),
+			(eq, ":Order", aordr_fire_at_will), # to do add volley fire
 			(agent_ai_get_look_target, ":Target", ":CannonCannoneerOfficer"),
 			(agent_is_active, ":Target"), (agent_is_alive, ":Target"),
 			(agent_get_position, pos1, ":CannonCannoneerOfficer"),
@@ -5124,6 +5143,7 @@ aerial_view_runtime = (0, 0, 0, [], [
 		(try_end),
 	(agent_is_active, ":target_agent"),
 	(agent_get_division, ":company", ":target_agent"),
+	(call_script, "script_company_play_vo", "$g_player_team", ":company", vo_type_on_company_select),
 		(try_begin),
 		(key_is_down, key_left_shift),
 		(team_set_order_listener, "$g_player_team", ":company", 1),
@@ -5969,6 +5989,8 @@ ams = (ti_after_mission_start, 0, 0, [
 parabellum_script_set_battle = [
 ams,
 bms,
+vo_on_company_select,
+vo_500ms,
 pbs_walkrun_order,
 prone_100ms,
 pbs_formation_order,

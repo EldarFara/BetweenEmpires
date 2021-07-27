@@ -3688,5 +3688,13 @@ str_flag1_150 = 3686
 str_italy_unification_defeat_sardinia_desc = 3687
 str_italy_unification_defeat_sicily_desc = 3688
 str_italy_unification_defeat_papalstates_desc = 3689
+str_liberal_party = 3690
+str_conservative_party = 3691
+str_reactionary_party = 3692
+str_socialist_party = 3693
+str_tories = 3694
+str_whigs = 3695
+str_tories_desc = 3696
+str_whigs_desc = 3697
 
 

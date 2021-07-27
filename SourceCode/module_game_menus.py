@@ -553,6 +553,11 @@ game_menus = [
 		(try_end),
    ],
     [
+     ("show_pps_menu",[],"View faction internal politics menu.",
+       [
+           (start_presentation, "prsnt_pps_menu"),
+        ]
+       ),
      ("show_weather_report",[],"View weather report.",
        [
            (jump_to_menu, "mnu_weather_report"),
@@ -2750,6 +2755,11 @@ the high lords and common folk across the many realms of Europe."),
    [
      ],
     [
+      ("camp_cheat_dds",[], "Open Debug Display Slots.",
+       [
+         (start_presentation, "prsnt_debug_display_slots"),
+	   ]
+       ),
       ("camp_cheat_all_factions_research_all_tech",[], "Make all factions immediately research all technologies.",
        [
 	(try_for_range, ":faction", "fac_player_faction", kingdoms_end),

@@ -642,6 +642,12 @@ meshes = [
   ("load_window3", 0, "bg4", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("menu_flag2", render_order_plus_1, "menu_flag2", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("pic_prussian_unification", 0, "pic_prussian_unification", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pps_party1", 0, "pps_party1", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pps_party2", 0, "pps_party2", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pps_party3", 0, "pps_party3", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pps_party4", 0, "pps_party4", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pps_law_card", 0, "pps_law_card", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pps_ruling_party", 0, "pps_ruling_party", 0, 0, 0, 0, 0, 0, 1, 1, 1),
 ]
 
 # modmerger_start version=201 type=2

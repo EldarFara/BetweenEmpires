@@ -4653,6 +4653,14 @@ State. In order to force her government to surrender to our forces, we will have
 ^- Cripple the Papal State by defeating Papal armies, laying waste to settlements, and conquering cities.\
 ^^Once we've caused enough damage to the Papal military and economy, they will be forced to surrender to our army, allowing us to begin integration procedures."),
 
+("liberal_party", "Liberal Party"),
+("conservative_party", "Conservative Party"),
+("reactionary_party", "Reactionary Party"),
+("socialist_party", "Socialist Party"),
+("tories", "Conservative Party (Tories)"),
+("whigs", "Liberal Party (Whigs)"),
+("tories_desc", "Conservative party in British Empire originates from Tories political faction. Their political views are traditionalism and conservatism. Tories defend the ideas of hierarchy, natural order, and aristocracy."),
+("whigs_desc", "Liberal party in British Empire originates from Whigs political faction. It seeks political freedom for upper strata of the population and is supporting laissez-faire economic policies such as free trade and minimal government interference in the economy."),
 
 ]
 

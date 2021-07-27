@@ -577,5 +577,11 @@ mesh_load_window2 = 575
 mesh_load_window3 = 576
 mesh_menu_flag2 = 577
 mesh_pic_prussian_unification = 578
+mesh_pps_party1 = 579
+mesh_pps_party2 = 580
+mesh_pps_party3 = 581
+mesh_pps_party4 = 582
+mesh_pps_law_card = 583
+mesh_pps_ruling_party = 584
 
 

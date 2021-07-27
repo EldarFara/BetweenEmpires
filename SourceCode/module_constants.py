@@ -1,12 +1,140 @@
 from ID_items import *
 from ID_quests import *
 from ID_factions import *
+from ID_parties import *
 ##############################################################
 # These constants are used in various files.
 # If you need to define a value that will be used in those files,
 # just define it here rather than copying it across each file, so
 # that it will be easy to change it if you need to.
 ##############################################################
+
+vo_type_on_company_select = 1
+vo_type_yes_sir = 2
+vo_type_gogogo = 3
+vo_type_retreat = 4
+
+resource_iron = 1
+resource_coal = 2
+resource_steel = 3
+
+ideology_reactionary = 1
+ideology_liberal = 2
+ideology_socialist = 3
+
+class_upper_aristocracy = 0
+class_upper_bourgeoisie = 1
+class_middle = 2
+class_lower_urban = 3
+class_lower_rural = 4
+
+laws_number = 17
+
+law_military_service_term = 0
+law_nomination_rules = 1
+law_voting_franchise = 2
+law_public_meetings = 3
+law_press = 4
+law_voting_openness = 5
+law_executive_branch = 6
+law_income_tax = 7
+law_goodsservices_tax = 8
+law_importexport_tax = 9
+law_education_expenses = 10
+law_infrastucture_expenses = 11
+law_healthcare_expenses = 12
+law_workers_conditions = 13
+law_workers_wage = 14
+law_trade_unions = 15
+law_military_expenses = 16
+
+law_military_service_term_short = 0
+law_military_service_term_medium = 50
+law_military_service_term_long = 100
+
+law_nomination_rules_rich_only = 0
+law_nomination_rules_universal = 100
+
+law_voting_franchise_aristocracy_only = 0
+law_voting_franchise_rich_only = 100
+law_voting_franchise_middle_and_upper_class_only = 125
+law_voting_franchise_universal_weighted = 150
+law_voting_franchise_universal = 175
+
+law_public_meetings_not_allowed = 0
+law_public_meetings_allowed = 100
+
+law_press_state_press = 0
+law_press_heavy_censorship = 33
+law_press_light_censorship = 66
+law_press_free_press = 100
+
+law_voting_openness_harassment = 0
+law_voting_openness_non_secret_ballot = 50
+law_voting_openness_secret_ballot = 100
+
+law_executive_branch_selected_by_state = 0
+law_executive_branch_partially_by_voting = 50
+law_executive_branch_mostly_by_voting = 100
+
+law_income_tax_very_small = 0
+law_income_tax_small = 25
+law_income_tax_medium = 50
+law_income_tax_big = 75
+law_income_tax_very_big = 100
+
+law_goodsservices_tax_very_small = 0
+law_goodsservices_tax_small = 25
+law_goodsservices_tax_medium = 50
+law_goodsservices_tax_big = 75
+law_goodsservices_tax_very_big = 100
+
+law_importexport_tax_very_small = 0
+law_importexport_tax_small = 25
+law_importexport_tax_medium = 50
+law_importexport_tax_big = 75
+law_importexport_tax_very_big = 100
+
+law_education_expenses_very_small = 0
+law_education_expenses_small = 25
+law_education_expenses_medium = 50
+law_education_expenses_big = 75
+law_education_expenses_very_big = 100
+
+law_infrastucture_expenses_very_small = 0
+law_infrastucture_expenses_small = 25
+law_infrastucture_expenses_medium = 50
+law_infrastucture_expenses_big = 75
+law_infrastucture_expenses_very_big = 100
+
+law_healthcare_expenses_very_small = 0
+law_healthcare_expenses_small = 25
+law_healthcare_expenses_medium = 50
+law_healthcare_expenses_big = 75
+law_healthcare_expenses_very_big = 100
+
+law_workers_conditions_very_bad = 0
+law_workers_conditions_bad = 33
+law_workers_conditions_medium = 66
+law_workers_conditions_good = 100
+
+law_workers_wage_very_small = 0
+law_workers_wage_small = 33
+law_workers_wage_medium = 66
+law_workers_wage_big = 100
+
+law_trade_unions_not_allowed = 0
+law_trade_unions_allowed = 100
+
+law_military_expenses_very_small = 0
+law_military_expenses_small = 25
+law_military_expenses_medium = 50
+law_military_expenses_big = 75
+law_military_expenses_very_big = 100
+
+government_type_absolute_monarchy = 1
+government_type_constitutional_monarchy = 2
+government_type_republic = 3
 
 formation_column = 1
 formation_extended_column = 2
@@ -514,19 +642,288 @@ slot_faction_increase_relations_price = slot_faction_ve_mod_slots_begin + 98
 slot_faction_preset_aggressiveness = slot_faction_ve_mod_slots_begin + 99
 slot_faction_preset_reliability = slot_faction_ve_mod_slots_begin + 100
 
+slot_faction_government_type = slot_faction_ve_mod_slots_begin + 101
+slot_faction_ruling_political_party = slot_faction_ve_mod_slots_begin + 102
+slot_faction_does_have_parliament = slot_faction_ve_mod_slots_begin + 103
+slot_faction_law_military_service_term = slot_faction_ve_mod_slots_begin + 104
+slot_faction_law_nomination_rules = slot_faction_ve_mod_slots_begin + 105
+slot_faction_law_voting_franchise = slot_faction_ve_mod_slots_begin + 106
+slot_faction_law_public_meetings = slot_faction_ve_mod_slots_begin + 107
+slot_faction_law_press = slot_faction_ve_mod_slots_begin + 108
+slot_faction_law_voting_openness = slot_faction_ve_mod_slots_begin + 109
+slot_faction_law_executive_branch = slot_faction_ve_mod_slots_begin + 110
+slot_faction_law_income_tax = slot_faction_ve_mod_slots_begin + 111
+slot_faction_law_goodsservices_tax = slot_faction_ve_mod_slots_begin + 112
+slot_faction_law_importexport_tax = slot_faction_ve_mod_slots_begin + 113
+slot_faction_law_education_expenses = slot_faction_ve_mod_slots_begin + 114
+slot_faction_law_infrastucture_expenses = slot_faction_ve_mod_slots_begin + 115
+slot_faction_law_healthcare_expenses = slot_faction_ve_mod_slots_begin + 116
+slot_faction_law_workers_conditions = slot_faction_ve_mod_slots_begin + 117
+slot_faction_law_workers_wage = slot_faction_ve_mod_slots_begin + 118
+slot_faction_law_trade_unions = slot_faction_ve_mod_slots_begin + 119
+slot_faction_law_military_expenses = slot_faction_ve_mod_slots_begin + 120
+slot_faction_aileader_political_party = slot_faction_ve_mod_slots_begin + 121
+slot_faction_aileader_pvol_military_service_term = slot_faction_ve_mod_slots_begin + 122
+slot_faction_aileader_pvol_nomination_rules = slot_faction_ve_mod_slots_begin + 123
+slot_faction_aileader_pvol_voting_franchise = slot_faction_ve_mod_slots_begin + 124
+slot_faction_aileader_pvol_public_meetings = slot_faction_ve_mod_slots_begin + 125
+slot_faction_aileader_pvol_press = slot_faction_ve_mod_slots_begin + 126
+slot_faction_aileader_pvol_voting_openness = slot_faction_ve_mod_slots_begin + 127
+slot_faction_aileader_pvol_executive_branch = slot_faction_ve_mod_slots_begin + 128
+slot_faction_aileader_pvol_income_tax = slot_faction_ve_mod_slots_begin + 129
+slot_faction_aileader_pvol_goodsservices_tax = slot_faction_ve_mod_slots_begin + 130
+slot_faction_aileader_pvol_importexport_tax = slot_faction_ve_mod_slots_begin + 131
+slot_faction_aileader_pvol_education_expenses = slot_faction_ve_mod_slots_begin + 132
+slot_faction_aileader_pvol_infrastucture_expenses = slot_faction_ve_mod_slots_begin + 133
+slot_faction_aileader_pvol_healthcare_expenses = slot_faction_ve_mod_slots_begin + 134
+slot_faction_aileader_pvol_workers_conditions = slot_faction_ve_mod_slots_begin + 135
+slot_faction_aileader_pvol_workers_wage = slot_faction_ve_mod_slots_begin + 136
+slot_faction_aileader_pvol_trade_unions = slot_faction_ve_mod_slots_begin + 137
+slot_faction_aileader_pvol_military_expenses = slot_faction_ve_mod_slots_begin + 138
+slot_faction_political_party1_name = slot_faction_ve_mod_slots_begin + 139
+slot_faction_political_party2_name = slot_faction_ve_mod_slots_begin + 140
+slot_faction_political_party3_name = slot_faction_ve_mod_slots_begin + 141
+slot_faction_political_party4_name = slot_faction_ve_mod_slots_begin + 142
+slot_faction_political_party1_ideology = slot_faction_ve_mod_slots_begin + 143
+slot_faction_political_party2_ideology = slot_faction_ve_mod_slots_begin + 144
+slot_faction_political_party3_ideology = slot_faction_ve_mod_slots_begin + 145
+slot_faction_political_party4_ideology = slot_faction_ve_mod_slots_begin + 146
+slot_faction_political_party1_desc = slot_faction_ve_mod_slots_begin + 147
+slot_faction_political_party2_desc = slot_faction_ve_mod_slots_begin + 148
+slot_faction_political_party3_desc = slot_faction_ve_mod_slots_begin + 149
+slot_faction_political_party4_desc = slot_faction_ve_mod_slots_begin + 150
+slot_faction_political_party1_places_in_parliament = slot_faction_ve_mod_slots_begin + 151
+slot_faction_political_party2_places_in_parliament = slot_faction_ve_mod_slots_begin + 152
+slot_faction_political_party3_places_in_parliament = slot_faction_ve_mod_slots_begin + 153
+slot_faction_political_party4_places_in_parliament = slot_faction_ve_mod_slots_begin + 154
+slot_faction_political_party1_influence = slot_faction_ve_mod_slots_begin + 155
+slot_faction_political_party2_influence = slot_faction_ve_mod_slots_begin + 156
+slot_faction_political_party3_influence = slot_faction_ve_mod_slots_begin + 157
+slot_faction_political_party4_influence = slot_faction_ve_mod_slots_begin + 158
+slot_faction_political_party1_conservatism = slot_faction_ve_mod_slots_begin + 159
+slot_faction_political_party2_conservatism = slot_faction_ve_mod_slots_begin + 160
+slot_faction_political_party3_conservatism = slot_faction_ve_mod_slots_begin + 161
+slot_faction_political_party4_conservatism = slot_faction_ve_mod_slots_begin + 162
+slot_faction_political_party1_pvol_military_service_term = slot_faction_ve_mod_slots_begin + 163
+slot_faction_political_party1_pvol_nomination_rules = slot_faction_ve_mod_slots_begin + 164
+slot_faction_political_party1_pvol_voting_franchise = slot_faction_ve_mod_slots_begin + 165
+slot_faction_political_party1_pvol_public_meetings = slot_faction_ve_mod_slots_begin + 166
+slot_faction_political_party1_pvol_press = slot_faction_ve_mod_slots_begin + 167
+slot_faction_political_party1_pvol_voting_openness = slot_faction_ve_mod_slots_begin + 168
+slot_faction_political_party1_pvol_executive_branch = slot_faction_ve_mod_slots_begin + 169
+slot_faction_political_party1_pvol_income_tax = slot_faction_ve_mod_slots_begin + 170
+slot_faction_political_party1_pvol_goodsservices_tax = slot_faction_ve_mod_slots_begin + 171
+slot_faction_political_party1_pvol_importexport_tax = slot_faction_ve_mod_slots_begin + 172
+slot_faction_political_party1_pvol_education_expenses = slot_faction_ve_mod_slots_begin + 173
+slot_faction_political_party1_pvol_infrastucture_expenses = slot_faction_ve_mod_slots_begin + 174
+slot_faction_political_party1_pvol_healthcare_expenses = slot_faction_ve_mod_slots_begin + 175
+slot_faction_political_party1_pvol_workers_conditions = slot_faction_ve_mod_slots_begin + 176
+slot_faction_political_party1_pvol_workers_wage = slot_faction_ve_mod_slots_begin + 177
+slot_faction_political_party1_pvol_trade_unions = slot_faction_ve_mod_slots_begin + 178
+slot_faction_political_party1_pvol_military_expenses = slot_faction_ve_mod_slots_begin + 179
+slot_faction_political_party2_pvol_military_service_term = slot_faction_ve_mod_slots_begin + 180
+slot_faction_political_party2_pvol_nomination_rules = slot_faction_ve_mod_slots_begin + 181
+slot_faction_political_party2_pvol_voting_franchise = slot_faction_ve_mod_slots_begin + 182
+slot_faction_political_party2_pvol_public_meetings = slot_faction_ve_mod_slots_begin + 183
+slot_faction_political_party2_pvol_press = slot_faction_ve_mod_slots_begin + 184
+slot_faction_political_party2_pvol_voting_openness = slot_faction_ve_mod_slots_begin + 185
+slot_faction_political_party2_pvol_executive_branch = slot_faction_ve_mod_slots_begin + 186
+slot_faction_political_party2_pvol_income_tax = slot_faction_ve_mod_slots_begin + 187
+slot_faction_political_party2_pvol_goodsservices_tax = slot_faction_ve_mod_slots_begin + 188
+slot_faction_political_party2_pvol_importexport_tax = slot_faction_ve_mod_slots_begin + 189
+slot_faction_political_party2_pvol_education_expenses = slot_faction_ve_mod_slots_begin + 190
+slot_faction_political_party2_pvol_infrastucture_expenses = slot_faction_ve_mod_slots_begin + 191
+slot_faction_political_party2_pvol_healthcare_expenses = slot_faction_ve_mod_slots_begin + 192
+slot_faction_political_party2_pvol_workers_conditions = slot_faction_ve_mod_slots_begin + 193
+slot_faction_political_party2_pvol_workers_wage = slot_faction_ve_mod_slots_begin + 194
+slot_faction_political_party2_pvol_trade_unions = slot_faction_ve_mod_slots_begin + 195
+slot_faction_political_party2_pvol_military_expenses = slot_faction_ve_mod_slots_begin + 196
+slot_faction_political_party3_pvol_military_service_term = slot_faction_ve_mod_slots_begin + 197
+slot_faction_political_party3_pvol_nomination_rules = slot_faction_ve_mod_slots_begin + 198
+slot_faction_political_party3_pvol_voting_franchise = slot_faction_ve_mod_slots_begin + 199
+slot_faction_political_party3_pvol_public_meetings = slot_faction_ve_mod_slots_begin + 200
+slot_faction_political_party3_pvol_press = slot_faction_ve_mod_slots_begin + 201
+slot_faction_political_party3_pvol_voting_openness = slot_faction_ve_mod_slots_begin + 202
+slot_faction_political_party3_pvol_executive_branch = slot_faction_ve_mod_slots_begin + 203
+slot_faction_political_party3_pvol_income_tax = slot_faction_ve_mod_slots_begin + 204
+slot_faction_political_party3_pvol_goodsservices_tax = slot_faction_ve_mod_slots_begin + 205
+slot_faction_political_party3_pvol_importexport_tax = slot_faction_ve_mod_slots_begin + 206
+slot_faction_political_party3_pvol_education_expenses = slot_faction_ve_mod_slots_begin + 207
+slot_faction_political_party3_pvol_infrastucture_expenses = slot_faction_ve_mod_slots_begin + 208
+slot_faction_political_party3_pvol_healthcare_expenses = slot_faction_ve_mod_slots_begin + 209
+slot_faction_political_party3_pvol_workers_conditions = slot_faction_ve_mod_slots_begin + 210
+slot_faction_political_party3_pvol_workers_wage = slot_faction_ve_mod_slots_begin + 211
+slot_faction_political_party3_pvol_trade_unions = slot_faction_ve_mod_slots_begin + 212
+slot_faction_political_party3_pvol_military_expenses = slot_faction_ve_mod_slots_begin + 213
+slot_faction_political_party4_pvol_military_service_term = slot_faction_ve_mod_slots_begin + 214
+slot_faction_political_party4_pvol_nomination_rules = slot_faction_ve_mod_slots_begin + 215
+slot_faction_political_party4_pvol_voting_franchise = slot_faction_ve_mod_slots_begin + 216
+slot_faction_political_party4_pvol_public_meetings = slot_faction_ve_mod_slots_begin + 217
+slot_faction_political_party4_pvol_press = slot_faction_ve_mod_slots_begin + 218
+slot_faction_political_party4_pvol_voting_openness = slot_faction_ve_mod_slots_begin + 219
+slot_faction_political_party4_pvol_executive_branch = slot_faction_ve_mod_slots_begin + 220
+slot_faction_political_party4_pvol_income_tax = slot_faction_ve_mod_slots_begin + 221
+slot_faction_political_party4_pvol_goodsservices_tax = slot_faction_ve_mod_slots_begin + 222
+slot_faction_political_party4_pvol_importexport_tax = slot_faction_ve_mod_slots_begin + 223
+slot_faction_political_party4_pvol_education_expenses = slot_faction_ve_mod_slots_begin + 224
+slot_faction_political_party4_pvol_infrastucture_expenses = slot_faction_ve_mod_slots_begin + 225
+slot_faction_political_party4_pvol_healthcare_expenses = slot_faction_ve_mod_slots_begin + 226
+slot_faction_political_party4_pvol_workers_conditions = slot_faction_ve_mod_slots_begin + 227
+slot_faction_political_party4_pvol_workers_wage = slot_faction_ve_mod_slots_begin + 228
+slot_faction_political_party4_pvol_trade_unions = slot_faction_ve_mod_slots_begin + 229
+slot_faction_political_party4_pvol_military_expenses = slot_faction_ve_mod_slots_begin + 230
+slot_faction_class_upper_aristocracy_political_activity = slot_faction_ve_mod_slots_begin + 231
+slot_faction_class_upper_bourgeoisie_political_activity = slot_faction_ve_mod_slots_begin + 232
+slot_faction_class_middle_political_activity = slot_faction_ve_mod_slots_begin + 233
+slot_faction_class_lower_urban_political_activity = slot_faction_ve_mod_slots_begin + 234
+slot_faction_class_lower_rural_political_activity = slot_faction_ve_mod_slots_begin + 235
+slot_faction_class_upper_aristocracy_attitude = slot_faction_ve_mod_slots_begin + 236
+slot_faction_class_upper_bourgeoisie_attitude = slot_faction_ve_mod_slots_begin + 237
+slot_faction_class_middle_attitude = slot_faction_ve_mod_slots_begin + 238
+slot_faction_class_lower_urban_attitude = slot_faction_ve_mod_slots_begin + 239
+slot_faction_class_lower_rural_attitude = slot_faction_ve_mod_slots_begin + 240
+slot_faction_class_upper_aristocracy_pvol_military_service_term = slot_faction_ve_mod_slots_begin + 241
+slot_faction_class_upper_aristocracy_pvol_nomination_rules = slot_faction_ve_mod_slots_begin + 242
+slot_faction_class_upper_aristocracy_pvol_voting_franchise = slot_faction_ve_mod_slots_begin + 243
+slot_faction_class_upper_aristocracy_pvol_public_meetings = slot_faction_ve_mod_slots_begin + 244
+slot_faction_class_upper_aristocracy_pvol_press = slot_faction_ve_mod_slots_begin + 245
+slot_faction_class_upper_aristocracy_pvol_voting_openness = slot_faction_ve_mod_slots_begin + 246
+slot_faction_class_upper_aristocracy_pvol_executive_branch = slot_faction_ve_mod_slots_begin + 247
+slot_faction_class_upper_aristocracy_pvol_income_tax = slot_faction_ve_mod_slots_begin + 248
+slot_faction_class_upper_aristocracy_pvol_goodsservices_tax = slot_faction_ve_mod_slots_begin + 249
+slot_faction_class_upper_aristocracy_pvol_importexport_tax = slot_faction_ve_mod_slots_begin + 250
+slot_faction_class_upper_aristocracy_pvol_education_expenses = slot_faction_ve_mod_slots_begin + 251
+slot_faction_class_upper_aristocracy_pvol_infrastucture_expenses = slot_faction_ve_mod_slots_begin + 252
+slot_faction_class_upper_aristocracy_pvol_healthcare_expenses = slot_faction_ve_mod_slots_begin + 253
+slot_faction_class_upper_aristocracy_pvol_workers_conditions = slot_faction_ve_mod_slots_begin + 254
+slot_faction_class_upper_aristocracy_pvol_workers_wage = slot_faction_ve_mod_slots_begin + 255
+slot_faction_class_upper_aristocracy_pvol_trade_unions = slot_faction_ve_mod_slots_begin + 256
+slot_faction_class_upper_aristocracy_pvol_military_expenses = slot_faction_ve_mod_slots_begin + 257
+slot_faction_class_upper_bourgeoisie_pvol_military_service_term = slot_faction_ve_mod_slots_begin + 258
+slot_faction_class_upper_bourgeoisie_pvol_nomination_rules = slot_faction_ve_mod_slots_begin + 259
+slot_faction_class_upper_bourgeoisie_pvol_voting_franchise = slot_faction_ve_mod_slots_begin + 260
+slot_faction_class_upper_bourgeoisie_pvol_public_meetings = slot_faction_ve_mod_slots_begin + 261
+slot_faction_class_upper_bourgeoisie_pvol_press = slot_faction_ve_mod_slots_begin + 262
+slot_faction_class_upper_bourgeoisie_pvol_voting_openness = slot_faction_ve_mod_slots_begin + 263
+slot_faction_class_upper_bourgeoisie_pvol_executive_branch = slot_faction_ve_mod_slots_begin + 264
+slot_faction_class_upper_bourgeoisie_pvol_income_tax = slot_faction_ve_mod_slots_begin + 265
+slot_faction_class_upper_bourgeoisie_pvol_goodsservices_tax = slot_faction_ve_mod_slots_begin + 266
+slot_faction_class_upper_bourgeoisie_pvol_importexport_tax = slot_faction_ve_mod_slots_begin + 267
+slot_faction_class_upper_bourgeoisie_pvol_education_expenses = slot_faction_ve_mod_slots_begin + 268
+slot_faction_class_upper_bourgeoisie_pvol_infrastucture_expenses = slot_faction_ve_mod_slots_begin + 269
+slot_faction_class_upper_bourgeoisie_pvol_healthcare_expenses = slot_faction_ve_mod_slots_begin + 270
+slot_faction_class_upper_bourgeoisie_pvol_workers_conditions = slot_faction_ve_mod_slots_begin + 271
+slot_faction_class_upper_bourgeoisie_pvol_workers_wage = slot_faction_ve_mod_slots_begin + 272
+slot_faction_class_upper_bourgeoisie_pvol_trade_unions = slot_faction_ve_mod_slots_begin + 273
+slot_faction_class_upper_bourgeoisie_pvol_military_expenses = slot_faction_ve_mod_slots_begin + 274
+slot_faction_class_middle_pvol_military_service_term = slot_faction_ve_mod_slots_begin + 275
+slot_faction_class_middle_pvol_nomination_rules = slot_faction_ve_mod_slots_begin + 276
+slot_faction_class_middle_pvol_voting_franchise = slot_faction_ve_mod_slots_begin + 277
+slot_faction_class_middle_pvol_public_meetings = slot_faction_ve_mod_slots_begin + 278
+slot_faction_class_middle_pvol_press = slot_faction_ve_mod_slots_begin + 279
+slot_faction_class_middle_pvol_voting_openness = slot_faction_ve_mod_slots_begin + 280
+slot_faction_class_middle_pvol_executive_branch = slot_faction_ve_mod_slots_begin + 281
+slot_faction_class_middle_pvol_income_tax = slot_faction_ve_mod_slots_begin + 282
+slot_faction_class_middle_pvol_goodsservices_tax = slot_faction_ve_mod_slots_begin + 283
+slot_faction_class_middle_pvol_importexport_tax = slot_faction_ve_mod_slots_begin + 284
+slot_faction_class_middle_pvol_education_expenses = slot_faction_ve_mod_slots_begin + 285
+slot_faction_class_middle_pvol_infrastucture_expenses = slot_faction_ve_mod_slots_begin + 286
+slot_faction_class_middle_pvol_healthcare_expenses = slot_faction_ve_mod_slots_begin + 287
+slot_faction_class_middle_pvol_workers_conditions = slot_faction_ve_mod_slots_begin + 288
+slot_faction_class_middle_pvol_workers_wage = slot_faction_ve_mod_slots_begin + 289
+slot_faction_class_middle_pvol_trade_unions = slot_faction_ve_mod_slots_begin + 290
+slot_faction_class_middle_pvol_military_expenses = slot_faction_ve_mod_slots_begin + 291
+slot_faction_class_lower_urban_pvol_military_service_term = slot_faction_ve_mod_slots_begin + 292
+slot_faction_class_lower_urban_pvol_nomination_rules = slot_faction_ve_mod_slots_begin + 293
+slot_faction_class_lower_urban_pvol_voting_franchise = slot_faction_ve_mod_slots_begin + 294
+slot_faction_class_lower_urban_pvol_public_meetings = slot_faction_ve_mod_slots_begin + 295
+slot_faction_class_lower_urban_pvol_press = slot_faction_ve_mod_slots_begin + 296
+slot_faction_class_lower_urban_pvol_voting_openness = slot_faction_ve_mod_slots_begin + 297
+slot_faction_class_lower_urban_pvol_executive_branch = slot_faction_ve_mod_slots_begin + 298
+slot_faction_class_lower_urban_pvol_income_tax = slot_faction_ve_mod_slots_begin + 299
+slot_faction_class_lower_urban_pvol_goodsservices_tax = slot_faction_ve_mod_slots_begin + 300
+slot_faction_class_lower_urban_pvol_importexport_tax = slot_faction_ve_mod_slots_begin + 301
+slot_faction_class_lower_urban_pvol_education_expenses = slot_faction_ve_mod_slots_begin + 302
+slot_faction_class_lower_urban_pvol_infrastucture_expenses = slot_faction_ve_mod_slots_begin + 303
+slot_faction_class_lower_urban_pvol_healthcare_expenses = slot_faction_ve_mod_slots_begin + 304
+slot_faction_class_lower_urban_pvol_workers_conditions = slot_faction_ve_mod_slots_begin + 305
+slot_faction_class_lower_urban_pvol_workers_wage = slot_faction_ve_mod_slots_begin + 306
+slot_faction_class_lower_urban_pvol_trade_unions = slot_faction_ve_mod_slots_begin + 307
+slot_faction_class_lower_urban_pvol_military_expenses = slot_faction_ve_mod_slots_begin + 308
+slot_faction_class_lower_rural_pvol_military_service_term = slot_faction_ve_mod_slots_begin + 309
+slot_faction_class_lower_rural_pvol_nomination_rules = slot_faction_ve_mod_slots_begin + 310
+slot_faction_class_lower_rural_pvol_voting_franchise = slot_faction_ve_mod_slots_begin + 311
+slot_faction_class_lower_rural_pvol_public_meetings = slot_faction_ve_mod_slots_begin + 312
+slot_faction_class_lower_rural_pvol_press = slot_faction_ve_mod_slots_begin + 313
+slot_faction_class_lower_rural_pvol_voting_openness = slot_faction_ve_mod_slots_begin + 314
+slot_faction_class_lower_rural_pvol_executive_branch = slot_faction_ve_mod_slots_begin + 315
+slot_faction_class_lower_rural_pvol_income_tax = slot_faction_ve_mod_slots_begin + 316
+slot_faction_class_lower_rural_pvol_goodsservices_tax = slot_faction_ve_mod_slots_begin + 317
+slot_faction_class_lower_rural_pvol_importexport_tax = slot_faction_ve_mod_slots_begin + 318
+slot_faction_class_lower_rural_pvol_education_expenses = slot_faction_ve_mod_slots_begin + 319
+slot_faction_class_lower_rural_pvol_infrastucture_expenses = slot_faction_ve_mod_slots_begin + 320
+slot_faction_class_lower_rural_pvol_healthcare_expenses = slot_faction_ve_mod_slots_begin + 321
+slot_faction_class_lower_rural_pvol_workers_conditions = slot_faction_ve_mod_slots_begin + 322
+slot_faction_class_lower_rural_pvol_workers_wage = slot_faction_ve_mod_slots_begin + 323
+slot_faction_class_lower_rural_pvol_trade_unions = slot_faction_ve_mod_slots_begin + 324
+slot_faction_class_lower_rural_pvol_military_expenses = slot_faction_ve_mod_slots_begin + 325
+slot_faction_class_upper_aristocracy_support_of_political_party1 = slot_faction_ve_mod_slots_begin + 326
+slot_faction_class_upper_bourgeoisie_support_of_political_party1 = slot_faction_ve_mod_slots_begin + 327
+slot_faction_class_middle_support_of_political_party1 = slot_faction_ve_mod_slots_begin + 328
+slot_faction_class_lower_urban_support_of_political_party1 = slot_faction_ve_mod_slots_begin + 329
+slot_faction_class_lower_rural_support_of_political_party1 = slot_faction_ve_mod_slots_begin + 330
+slot_faction_class_upper_aristocracy_support_of_political_party2 = slot_faction_ve_mod_slots_begin + 331
+slot_faction_class_upper_bourgeoisie_support_of_political_party2 = slot_faction_ve_mod_slots_begin + 332
+slot_faction_class_middle_support_of_political_party2 = slot_faction_ve_mod_slots_begin + 333
+slot_faction_class_lower_urban_support_of_political_party2 = slot_faction_ve_mod_slots_begin + 334
+slot_faction_class_lower_rural_support_of_political_party2 = slot_faction_ve_mod_slots_begin + 335
+slot_faction_class_upper_aristocracy_support_of_political_party3 = slot_faction_ve_mod_slots_begin + 336
+slot_faction_class_upper_bourgeoisie_support_of_political_party3 = slot_faction_ve_mod_slots_begin + 337
+slot_faction_class_middle_support_of_political_party3 = slot_faction_ve_mod_slots_begin + 338
+slot_faction_class_lower_urban_support_of_political_party3 = slot_faction_ve_mod_slots_begin + 339
+slot_faction_class_lower_rural_support_of_political_party3 = slot_faction_ve_mod_slots_begin + 340
+slot_faction_class_upper_aristocracy_support_of_political_party4 = slot_faction_ve_mod_slots_begin + 341
+slot_faction_class_upper_bourgeoisie_support_of_political_party4 = slot_faction_ve_mod_slots_begin + 342
+slot_faction_class_middle_support_of_political_party4 = slot_faction_ve_mod_slots_begin + 343
+slot_faction_class_lower_urban_support_of_political_party4 = slot_faction_ve_mod_slots_begin + 344
+slot_faction_class_lower_rural_support_of_political_party4 = slot_faction_ve_mod_slots_begin + 345
+slot_faction_class_upper_aristocracy_influence = slot_faction_ve_mod_slots_begin + 346
+slot_faction_class_upper_bourgeoisie_influence = slot_faction_ve_mod_slots_begin + 347
+slot_faction_class_middle_influence = slot_faction_ve_mod_slots_begin + 348
+slot_faction_class_lower_urban_influence = slot_faction_ve_mod_slots_begin + 349
+slot_faction_class_lower_rural_influence = slot_faction_ve_mod_slots_begin + 350
+slot_faction_parliament_current_bill_law_type = slot_faction_ve_mod_slots_begin + 351
+slot_faction_parliament_current_bill_law = slot_faction_ve_mod_slots_begin + 352
+slot_faction_movement1_type = slot_faction_ve_mod_slots_begin + 353
+slot_faction_movement2_type = slot_faction_ve_mod_slots_begin + 354
+slot_faction_movement3_type = slot_faction_ve_mod_slots_begin + 355
+slot_faction_movement4_type = slot_faction_ve_mod_slots_begin + 356
+slot_faction_movement5_type = slot_faction_ve_mod_slots_begin + 357
+slot_faction_movement1_influence = slot_faction_ve_mod_slots_begin + 358
+slot_faction_movement2_influence = slot_faction_ve_mod_slots_begin + 359
+slot_faction_movement3_influence = slot_faction_ve_mod_slots_begin + 360
+slot_faction_movement4_influence = slot_faction_ve_mod_slots_begin + 361
+slot_faction_movement5_influence = slot_faction_ve_mod_slots_begin + 362
+slot_faction_movement1_popularity = slot_faction_ve_mod_slots_begin + 363
+slot_faction_movement2_popularity = slot_faction_ve_mod_slots_begin + 364
+slot_faction_movement3_popularity = slot_faction_ve_mod_slots_begin + 365
+slot_faction_movement4_popularity = slot_faction_ve_mod_slots_begin + 366
+slot_faction_movement5_popularity = slot_faction_ve_mod_slots_begin + 367
+slot_faction_literacy = slot_faction_ve_mod_slots_begin + 368
+slot_faction_population = slot_faction_ve_mod_slots_begin + 369
+slot_faction_urbanization = slot_faction_ve_mod_slots_begin + 370
+slot_faction_class_upper_aristocracy_wealth = slot_faction_ve_mod_slots_begin + 371
+slot_faction_class_upper_bourgeoisie_wealth = slot_faction_ve_mod_slots_begin + 372
+slot_faction_class_middle_wealth = slot_faction_ve_mod_slots_begin + 373
+slot_faction_class_lower_urban_wealth = slot_faction_ve_mod_slots_begin + 374
+slot_faction_class_lower_rural_wealth = slot_faction_ve_mod_slots_begin + 375
+slot_faction_political_party1_places_in_executivebranch = slot_faction_ve_mod_slots_begin + 376
+slot_faction_political_party2_places_in_executivebranch = slot_faction_ve_mod_slots_begin + 377
+slot_faction_political_party3_places_in_executivebranch = slot_faction_ve_mod_slots_begin + 378
+slot_faction_political_party4_places_in_executivebranch = slot_faction_ve_mod_slots_begin + 379
 
-#revolts -- notes for self
-#type 1 -- minor revolt, aimed at negotiating change without changing the ruler
-#type 2 -- alternate ruler revolt (ie, pretender, chinese dynastic revolt -- keep the same polity but switch the ruler)
-	#subtype -- pretender (keeps the same dynasty)
-	#"mandate of heaven" -- same basic rules, but a different dynasty
-	#alternate/religious
-	#alternate/political
-#type 3 -- separatist revolt
-	# reGonalist/dynastic (based around an alternate ruling house
-	# regionalist/republican
-	# messianic (ie, Canudos)
-	
+
+
 ########################################################
 ##  PARTY SLOTS            #############################
 ########################################################
@@ -854,8 +1251,60 @@ slot_center_last_reconnoitered_by_faction_time 				= 350
 #slot_center_last_reconnoitered_by_faction_cached_strength 	= 360
 #slot_center_last_reconnoitered_by_faction_friend_strength 	= 370
 
-
-
+pes_slots_start = 400
+slot_center_population = pes_slots_start + 1
+slot_center_literacy = pes_slots_start + 2
+slot_center_urbanization = pes_slots_start + 3
+slot_center_ = pes_slots_start + 4
+slot_center_factory1_type = pes_slots_start + 5
+slot_center_factory2_type = pes_slots_start + 6
+slot_center_factory3_type = pes_slots_start + 7
+slot_center_factory4_type = pes_slots_start + 8
+slot_center_factory5_type = pes_slots_start + 9
+slot_center_factory6_type = pes_slots_start + 10
+slot_center_factory1_budget = pes_slots_start + 11
+slot_center_factory2_budget = pes_slots_start + 12
+slot_center_factory3_budget = pes_slots_start + 13
+slot_center_factory4_budget = pes_slots_start + 14
+slot_center_factory5_budget = pes_slots_start + 15
+slot_center_factory6_budget = pes_slots_start + 16
+slot_center_factory1_workers = pes_slots_start + 17
+slot_center_factory2_workers = pes_slots_start + 18
+slot_center_factory3_workers = pes_slots_start + 19
+slot_center_factory4_workers = pes_slots_start + 20
+slot_center_factory5_workers = pes_slots_start + 21
+slot_center_factory6_workers = pes_slots_start + 22
+slot_center_factory1_resource_amount = pes_slots_start + 23
+slot_center_factory2_resource_amount = pes_slots_start + 24
+slot_center_factory3_resource_amount = pes_slots_start + 25
+slot_center_factory4_resource_amount = pes_slots_start + 26
+slot_center_factory5_resource_amount = pes_slots_start + 27
+slot_center_factory6_resource_amount = pes_slots_start + 28
+slot_center_factory1_resource_quality = pes_slots_start + 29
+slot_center_factory2_resource_quality = pes_slots_start + 30
+slot_center_factory3_resource_quality = pes_slots_start + 31
+slot_center_factory4_resource_quality = pes_slots_start + 32
+slot_center_factory5_resource_quality = pes_slots_start + 33
+slot_center_factory6_resource_quality = pes_slots_start + 34
+slot_center_factory1_machine_tools_quality = pes_slots_start + 35
+slot_center_factory2_machine_tools_quality = pes_slots_start + 36
+slot_center_factory3_machine_tools_quality = pes_slots_start + 37
+slot_center_factory4_machine_tools_quality = pes_slots_start + 38
+slot_center_factory5_machine_tools_quality = pes_slots_start + 39
+slot_center_factory6_machine_tools_quality = pes_slots_start + 40
+slot_center_meat_amount = pes_slots_start + 41
+slot_center_coal_amount = pes_slots_start + 42
+slot_center_cotton_amount = pes_slots_start + 43
+slot_center_flour_amount = pes_slots_start + 44
+slot_center_iron_amount = pes_slots_start + 45
+slot_center_wood_amount = pes_slots_start + 46
+slot_center_villages_machine_tools_quality = pes_slots_start + 47
+slot_center_factory1_max_workers = pes_slots_start + 48
+slot_center_factory2_max_workers = pes_slots_start + 49
+slot_center_factory3_max_workers = pes_slots_start + 50
+slot_center_factory4_max_workers = pes_slots_start + 51
+slot_center_factory5_max_workers = pes_slots_start + 52
+slot_center_factory6_max_workers = pes_slots_start + 53
 
 #slot_party_type values
 ##spt_caravan            = 1
@@ -1553,6 +2002,7 @@ slot_team_pai_attack_group_1_3_state                 = 230
 slot_team_pai_attack_group_2_3_state                 = 231
 slot_team_pai_attack_group_3_3_state                 = 232
 slot_team_pai_attack_artillery_company_number    = 233
+slot_team_vo_allowed    = 234
 
 
 #Rebellion changes end
@@ -1922,6 +2372,7 @@ kingdom_titles_female_begin = "str_faction_title_female_player"
 
 kingdoms_begin = "fac_player_supporters_faction"
 kingdoms_end = "fac_kingdoms_end"
+kingdoms_end_int = fac_kingdoms_end
 
 npc_kingdoms_begin = "fac_kingdom_1"
 npc_kingdoms_end = kingdoms_end
@@ -2109,9 +2560,11 @@ all_quests_end = "qst_quests_end"
 towns_begin = "p_town_1"
 castles_begin = "p_castle_1"
 villages_begin = "p_village_1"
+villages_begin_int = p_village_1
 
 towns_end = castles_begin
 castles_end = villages_begin
+castles_end_int = villages_begin_int
 villages_end   = "p_salt_mine"
 
 walled_centers_begin = towns_begin

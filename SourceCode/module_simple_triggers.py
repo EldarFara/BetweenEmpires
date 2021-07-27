@@ -4879,6 +4879,47 @@ simple_triggers = [
 	(try_end),
     ]),
 
+  (0,
+   [
+(val_max, "$async_simple_trigger32", kingdoms_begin),
+	(try_begin),	
+	(le, "$async_simple_trigger32", kingdoms_end),
+	(val_add, "$async_simple_trigger32", 1),
+	(try_end),
+	(try_begin),	
+	(eq, "$pps_start_new_iteration_cycle", 1),
+	(assign, "$async_simple_trigger32", kingdoms_begin),
+	(assign, "$pps_start_new_iteration_cycle", 0),
+	(try_end),
+	(try_begin),	
+	(le, "$async_simple_trigger32", kingdoms_end),
+	(call_script, "script_pps_faction_iteration", "$async_simple_trigger32"),
+	(try_end),
+    ]),
+  (24,
+   [
+	(assign, "$pps_start_new_iteration_cycle", 1),
+    ]),
+  (0,
+   [
+	(try_begin),	
+	(le, "$async_simple_trigger33", castles_end),
+	(val_add, "$async_simple_trigger33", 1),
+	(try_end),
+	(try_begin),	
+	(eq, "$pes_start_new_iteration_cycle", 1),
+	(assign, "$async_simple_trigger33", towns_begin),
+	(assign, "$pes_start_new_iteration_cycle", 0),
+	(try_end),
+	(try_begin),	
+	(le, "$async_simple_trigger33", castles_end),
+	(call_script, "script_pes_center_iteration", "$async_simple_trigger33"),
+	(try_end),
+    ]),
+  (24,
+   [
+	(assign, "$pes_start_new_iteration_cycle", 1),
+    ]),
 ]
 
 
