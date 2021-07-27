@@ -45,8 +45,8 @@ accuracy_muzzleloaded_musket = 65
 speed_bolt_action_rifle = 47
 speed_small_caliber_rifle = 52
 speed_conversion_rifle = 35
-speed_muzzleloaded_rifle = 55
-speed_muzzleloaded_musket = 55
+speed_muzzleloaded_rifle = 40
+speed_muzzleloaded_musket = 40
 
 damage_shotgun = 20
 

@@ -2734,7 +2734,7 @@ itemsfile version 3
 1
 -52.000000  3 4 0 1975 3 1008806316530991164 1 8 3 0 
 
- itm_rifle_middle_east_musket1 Flintlock_Musket Flintlock_Musket 2  middle_east_musket1 0  middle_east_musket1_inv 1152921504606846976  543227913 6174031872 400 0 4.500000 50 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_middle_east_musket1 Flintlock_Musket Flintlock_Musket 2  middle_east_musket1 0  middle_east_musket1_inv 1152921504606846976  543227913 6174031872 400 0 4.500000 50 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -2742,7 +2742,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_middle_east_musket2 Flintlock_Musket Flintlock_Musket 2  middle_east_musket2 0  middle_east_musket2_inv 1152921504606846976  543227913 6174031872 400 0 4.500000 50 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_middle_east_musket2 Flintlock_Musket Flintlock_Musket 2  middle_east_musket2 0  middle_east_musket2_inv 1152921504606846976  543227913 6174031872 400 0 4.500000 50 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -2750,7 +2750,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_middle_east_musket3 Flintlock_Musket Flintlock_Musket 2  middle_east_musket3 0  middle_east_musket3_inv 1152921504606846976  543227913 6174031872 400 0 4.500000 50 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_middle_east_musket3 Flintlock_Musket Flintlock_Musket 2  middle_east_musket3 0  middle_east_musket3_inv 1152921504606846976  543227913 6174031872 400 0 4.500000 50 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -2758,7 +2758,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_middle_east_musket4 Flintlock_Musket Flintlock_Musket 2  middle_east_musket4 0  middle_east_musket4_inv 1152921504606846976  543227913 6174031872 400 0 4.500000 50 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_middle_east_musket4 Flintlock_Musket Flintlock_Musket 2  middle_east_musket4 0  middle_east_musket4_inv 1152921504606846976  543227913 6174031872 400 0 4.500000 50 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -2766,7 +2766,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_middle_east_musket5 Flintlock_Musket Flintlock_Musket 2  middle_east_musket5 0  middle_east_musket5_inv 1152921504606846976  543227913 6174031872 400 0 4.500000 50 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_middle_east_musket5 Flintlock_Musket Flintlock_Musket 2  middle_east_musket5 0  middle_east_musket5_inv 1152921504606846976  543227913 6174031872 400 0 4.500000 50 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -3543,7 +3543,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1845 Russian_M1845_Musket Russian_M1845_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811663369 6174031872 400 131082 4.500000 60 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_russian_m1845 Russian_M1845_Musket Russian_M1845_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811663369 6174031872 400 131082 4.500000 60 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -3551,7 +3551,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1845_carbine Russian_M1845_Carbine Russian_M1845_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 60 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_russian_m1845_carbine Russian_M1845_Carbine Russian_M1845_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 60 0 0 55 0 0 46 400 0 1 311 0
  0
 0
 
@@ -3559,7 +3559,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1856 Russian_M1856_Rifle Russian_M1856_Rifle 2  russian_m1856 0  russian_m1856_inv 1152921504606846976  811663369 6174031872 400 131082 4.750000 60 0 0 95 0 0 55 600 0 1 311 0
+ itm_rifle_russian_m1856 Russian_M1856_Rifle Russian_M1856_Rifle 2  russian_m1856 0  russian_m1856_inv 1152921504606846976  811663369 6174031872 400 131082 4.750000 60 0 0 95 0 0 40 600 0 1 311 0
  0
 0
 
@@ -3567,7 +3567,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1856_carbine Russian_M1856_Carbine Russian_M1856_Carbine 2  russian_m1856_carbine 0  russian_m1856_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 60 0 0 80 0 0 63 600 0 1 311 0
+ itm_rifle_russian_m1856_carbine Russian_M1856_Carbine Russian_M1856_Carbine 2  russian_m1856_carbine 0  russian_m1856_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 60 0 0 80 0 0 46 600 0 1 311 0
  0
 0
 
@@ -3659,7 +3659,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1842 Austrian_M1842_Musket Austrian_M1842_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_austrian_m1842 Austrian_M1842_Musket Austrian_M1842_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -3667,7 +3667,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1842_carbine Austrian_M1842_Carbine Austrian_M1842_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_austrian_m1842_carbine Austrian_M1842_Carbine Austrian_M1842_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 46 400 0 1 311 0
  0
 0
 
@@ -3675,7 +3675,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1854 Lorenz_Rifle Lorenz_Rifle 2  lorenz 0  russian_m1856_inv 1152921504606846976  811663369 6174031872 400 131082 4.750000 60 0 0 95 0 0 55 600 0 1 311 0
+ itm_rifle_austrian_m1854 Lorenz_Rifle Lorenz_Rifle 2  lorenz 0  russian_m1856_inv 1152921504606846976  811663369 6174031872 400 131082 4.750000 60 0 0 95 0 0 40 600 0 1 311 0
  0
 0
 
@@ -3683,7 +3683,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1854_carbine Lorenz_Carbine Lorenz_Carbine 2  lorenz_carbine 0  russian_m1856_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 60 0 0 80 0 0 63 600 0 1 311 0
+ itm_rifle_austrian_m1854_carbine Lorenz_Carbine Lorenz_Carbine 2  lorenz_carbine 0  russian_m1856_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 60 0 0 80 0 0 46 600 0 1 311 0
  0
 0
 
@@ -4594,7 +4594,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1831 Potsdam_M1831_Musket Potsdam_M1831_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_german_m1831 Potsdam_M1831_Musket Potsdam_M1831_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -4602,7 +4602,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1831_carbine Potsdam_M1831_Carbine Potsdam_M1831_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_german_m1831_carbine Potsdam_M1831_Carbine Potsdam_M1831_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 46 400 0 1 311 0
  0
 0
 
@@ -4610,7 +4610,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1831_rifle Potsdam_M1831_Rifle Potsdam_M1831_Rifle 2  russian_m1856 0  russian_m1856_inv 1152921504606846976  811597833 6174031872 400 131082 4.750000 100 0 0 95 0 0 55 600 0 1 311 0
+ itm_rifle_german_m1831_rifle Potsdam_M1831_Rifle Potsdam_M1831_Rifle 2  russian_m1856 0  russian_m1856_inv 1152921504606846976  811597833 6174031872 400 131082 4.750000 100 0 0 95 0 0 40 600 0 1 311 0
  0
 0
 
@@ -4618,7 +4618,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1831_rifle_carbine Potsdam_M1831_Carbine Potsdam_M1831_Carbine 2  russian_m1856_carbine 0  russian_m1856_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 80 0 0 63 600 0 1 311 0
+ itm_rifle_german_m1831_rifle_carbine Potsdam_M1831_Carbine Potsdam_M1831_Carbine 2  russian_m1856_carbine 0  russian_m1856_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 80 0 0 46 600 0 1 311 0
  0
 0
 
@@ -4872,7 +4872,7 @@ itemsfile version 3
  46
 0
 
- itm_rifle_italian_m1844 Italian_M1844_Musket Italian_M1844_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_italian_m1844 Italian_M1844_Musket Italian_M1844_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -4880,7 +4880,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_italian_m1844_carbine Italian_M1844_Carbine Italian_M1844_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_italian_m1844_carbine Italian_M1844_Carbine Italian_M1844_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 46 400 0 1 311 0
  0
 0
 
@@ -4888,7 +4888,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_italian_m1860 Italian_M1860_Rifle Italian_M1860_Rifle 2  russian_m1856 0  russian_m1856_inv 1152921504606846976  811597833 6174031872 400 131082 4.750000 100 0 0 95 0 0 55 600 0 1 311 0
+ itm_rifle_italian_m1860 Italian_M1860_Rifle Italian_M1860_Rifle 2  russian_m1856 0  russian_m1856_inv 1152921504606846976  811597833 6174031872 400 131082 4.750000 100 0 0 95 0 0 40 600 0 1 311 0
  0
 0
 
@@ -4896,7 +4896,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_italian_m1860_carbine Italian_M1860_Carbine Italian_M1860_Carbine 2  russian_m1856_carbine 0  russian_m1856_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 80 0 0 63 600 0 1 311 0
+ itm_rifle_italian_m1860_carbine Italian_M1860_Carbine Italian_M1860_Carbine 2  russian_m1856_carbine 0  russian_m1856_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 80 0 0 46 600 0 1 311 0
  0
 0
 
@@ -5257,7 +5257,7 @@ itemsfile version 3
  52 57 59 74 75
 0
 
- itm_rifle_british_m1842 Pattern_1842_Musket Pattern_1842_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_british_m1842 Pattern_1842_Musket Pattern_1842_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -5265,7 +5265,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_british_m1842_carbine Pattern_1842_Carbine Pattern_1842_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_british_m1842_carbine Pattern_1842_Carbine Pattern_1842_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 46 400 0 1 311 0
  0
 0
 
@@ -5273,7 +5273,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_british_m1853 Pattern_1853_Enfield Pattern_1853_Enfield 2  enfield1853 0  enfield1853_inv 1152921504606846976  811663369 6174031872 400 131082 4.750000 60 0 0 95 0 0 55 600 0 1 311 0
+ itm_rifle_british_m1853 Pattern_1853_Enfield Pattern_1853_Enfield 2  enfield1853 0  enfield1853_inv 1152921504606846976  811663369 6174031872 400 131082 4.750000 60 0 0 95 0 0 40 600 0 1 311 0
  0
 0
 
@@ -5281,7 +5281,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_british_m1853_carbine Pattern_1853_Enfield_Carbine Pattern_1853_Enfield_Carbine 2  enfield1853_carbine 0  enfield1853_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 60 0 0 80 0 0 63 600 0 1 311 0
+ itm_rifle_british_m1853_carbine Pattern_1853_Enfield_Carbine Pattern_1853_Enfield_Carbine 2  enfield1853_carbine 0  enfield1853_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 60 0 0 80 0 0 46 600 0 1 311 0
  0
 0
 
@@ -5337,7 +5337,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_french_m1844 French_Smoothbore_Musket French_Smoothbore_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_french_m1844 French_Smoothbore_Musket French_Smoothbore_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -5345,7 +5345,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_french_m1844_carbine French_Smoothbore_Carbine French_Smoothbore_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_french_m1844_carbine French_Smoothbore_Carbine French_Smoothbore_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 46 400 0 1 311 0
  0
 0
 
@@ -5353,7 +5353,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_french_m1849 French_Minie_Rifle French_Minie_Rifle 2  lorenzb 0  lorenzb_inv 1152921504606846976  811663369 6174031872 400 131082 4.750000 100 0 0 95 0 0 55 600 0 1 311 0
+ itm_rifle_french_m1849 French_Minie_Rifle French_Minie_Rifle 2  lorenzb 0  lorenzb_inv 1152921504606846976  811663369 6174031872 400 131082 4.750000 100 0 0 95 0 0 40 600 0 1 311 0
  0
 0
 
@@ -5361,7 +5361,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_french_m1849_carbine French_Minie_Carbine French_Minie_Carbine 2  lorenzb_carbine 0  lorenzb_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 100 0 0 80 0 0 63 600 0 1 311 0
+ itm_rifle_french_m1849_carbine French_Minie_Carbine French_Minie_Carbine 2  lorenzb_carbine 0  lorenzb_carbine_inv 1152921504606846976  543227913 6174031872 400 131082 4.750000 100 0 0 80 0 0 46 600 0 1 311 0
  0
 0
 
@@ -5615,7 +5615,7 @@ itemsfile version 3
  0
 0
 
- itm_shotgun_caplock Double-Barrel_Caplock_Shotgun Double-Barrel_Caplock_Shotgun 2  shotgun_caplock 0  shotgun_caplock_inv 1152921504606846976  811663369 6174031872 600 131082 3.500000 80 0 0 65 0 0 55 380 0 2 276 0
+ itm_shotgun_caplock Double-Barrel_Caplock_Shotgun Double-Barrel_Caplock_Shotgun 2  shotgun_caplock 0  shotgun_caplock_inv 1152921504606846976  811663369 6174031872 600 131082 3.500000 80 0 0 65 0 0 40 380 0 2 276 0
  0
 1
 -51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063858 60 600 10 288230376151713048 1224979098644774912 
@@ -5749,7 +5749,7 @@ itemsfile version 3
  49
 0
 
- itm_rifle_spanish_m1859 Spanish_Pattern_1859_Musket Spanish_Pattern_1859_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_spanish_m1859 Spanish_Pattern_1859_Musket Spanish_Pattern_1859_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -5757,7 +5757,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_spanish_m1859_carbine Spanish_Pattern_1859_Carbine Spanish_Pattern_1859_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_spanish_m1859_carbine Spanish_Pattern_1859_Carbine Spanish_Pattern_1859_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 46 400 0 1 311 0
  0
 0
 
@@ -5765,7 +5765,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_spanish_m1865 Spanish_Pattern_1865_Rifle Spanish_Pattern_1865_Rifle 2  enfield1853 0  enfield1853_inv 1152921504606846976  811597833 6174031872 400 131082 4.750000 60 0 0 95 0 0 55 600 0 1 311 0
+ itm_rifle_spanish_m1865 Spanish_Pattern_1865_Rifle Spanish_Pattern_1865_Rifle 2  enfield1853 0  enfield1853_inv 1152921504606846976  811597833 6174031872 400 131082 4.750000 60 0 0 95 0 0 40 600 0 1 311 0
  0
 0
 
@@ -5773,7 +5773,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_spanish_m1865_carbine Spanish_Pattern_1865_Carbine Spanish_Pattern_1865_Carbine 2  enfield1853_carbine 0  enfield1853_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 60 0 0 80 0 0 63 600 0 1 311 0
+ itm_rifle_spanish_m1865_carbine Spanish_Pattern_1865_Carbine Spanish_Pattern_1865_Carbine 2  enfield1853_carbine 0  enfield1853_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 60 0 0 80 0 0 46 600 0 1 311 0
  0
 0
 
@@ -6051,7 +6051,7 @@ itemsfile version 3
  55
 0
 
- itm_rifle_swiss_m1842 Swiss_Smoothbore_Musket Swiss_Smoothbore_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_swiss_m1842 Swiss_Smoothbore_Musket Swiss_Smoothbore_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -6059,7 +6059,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_swiss_m1842_carbine Swiss_Smoothbore_Carbine Swiss_Smoothbore_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_swiss_m1842_carbine Swiss_Smoothbore_Carbine Swiss_Smoothbore_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 46 400 0 1 311 0
  0
 0
 
@@ -6356,7 +6356,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_dutch_smoothbore Dutch_M1815_Musket Dutch_M1815_Musket 2  middle_east_musket4 0  middle_east_musket4_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_dutch_smoothbore Dutch_M1815_Musket Dutch_M1815_Musket 2  middle_east_musket4 0  middle_east_musket4_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -6364,7 +6364,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_dutch_smoothbore_carbine Dutch_M1815_Carbine Dutch_M1815_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_dutch_smoothbore_carbine Dutch_M1815_Carbine Dutch_M1815_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 46 400 0 1 311 0
  0
 0
 
@@ -6372,7 +6372,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_belgian_smoothbore Belgian_M1842_Musket Belgian_M1842_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_belgian_smoothbore Belgian_M1842_Musket Belgian_M1842_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -6380,7 +6380,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_belgian_smoothbore_carbine Belgian_M1842_Carbine Belgian_M1842_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_belgian_smoothbore_carbine Belgian_M1842_Carbine Belgian_M1842_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 46 400 0 1 311 0
  0
 0
 
@@ -6388,7 +6388,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_greek_smoothbore Ktoros_M1837_Musket Ktoros_M1837_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_greek_smoothbore Ktoros_M1837_Musket Ktoros_M1837_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -6396,7 +6396,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_greek_smoothbore_carbine Ktoros_M1837_Carbine Ktoros_M1837_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_greek_smoothbore_carbine Ktoros_M1837_Carbine Ktoros_M1837_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 46 400 0 1 311 0
  0
 0
 
@@ -6404,7 +6404,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_portuguese_smoothbore Spanish_M1752_Musket Spanish_M1752_Musket 2  middle_east_musket4 0  middle_east_musket4_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_portuguese_smoothbore Spanish_M1752_Musket Spanish_M1752_Musket 2  middle_east_musket4 0  middle_east_musket4_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -6412,7 +6412,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_portuguese_smoothbore_carbine Spanish_M1752_Carbine Spanish_M1752_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_portuguese_smoothbore_carbine Spanish_M1752_Carbine Spanish_M1752_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 46 400 0 1 311 0
  0
 0
 
@@ -6420,7 +6420,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_romanian_smoothbore Charleville_M1844_Musket Charleville_M1844_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_romanian_smoothbore Charleville_M1844_Musket Charleville_M1844_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -6428,7 +6428,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_romanian_smoothbore_carbine Charleville_M1844_Carbine Charleville_M1844_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_romanian_smoothbore_carbine Charleville_M1844_Carbine Charleville_M1844_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 46 400 0 1 311 0
  0
 0
 
@@ -6436,7 +6436,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_serbian_smoothbore Charleville_Musket Charleville_Musket 2  middle_east_musket4 0  middle_east_musket4_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_serbian_smoothbore Charleville_Musket Charleville_Musket 2  middle_east_musket4 0  middle_east_musket4_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -6444,7 +6444,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_serbian_smoothbore_carbine Charleville_Carbine Charleville_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_serbian_smoothbore_carbine Charleville_Carbine Charleville_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 46 400 0 1 311 0
  0
 0
 
@@ -6452,7 +6452,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_ottoman_smoothbore Charleville_M1844_Musket Charleville_M1844_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_ottoman_smoothbore Charleville_M1844_Musket Charleville_M1844_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -6460,7 +6460,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_ottoman_smoothbore_carbine Charleville_M1844_Carbine Charleville_M1844_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_ottoman_smoothbore_carbine Charleville_M1844_Carbine Charleville_M1844_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 46 400 0 1 311 0
  0
 0
 
@@ -6468,7 +6468,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_egyptian_smoothbore Charleville_M1844_Musket Charleville_M1844_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_egyptian_smoothbore Charleville_M1844_Musket Charleville_M1844_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -6476,7 +6476,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_egyptian_smoothbore_carbine Charleville_M1844_Carbine Charleville_M1844_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_egyptian_smoothbore_carbine Charleville_M1844_Carbine Charleville_M1844_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 46 400 0 1 311 0
  0
 0
 
@@ -6484,7 +6484,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_danish_smoothbore Danish_M1828/46_Musket Danish_M1828/46_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_danish_smoothbore Danish_M1828/46_Musket Danish_M1828/46_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -6492,7 +6492,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_danish_smoothbore_carbine Danish_M1828/46_Carbine Danish_M1828/46_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_danish_smoothbore_carbine Danish_M1828/46_Carbine Danish_M1828/46_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 46 400 0 1 311 0
  0
 0
 
@@ -6500,7 +6500,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_swedish_smoothbore Swedish_M1815/45_Musket Swedish_M1815/45_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_swedish_smoothbore Swedish_M1815/45_Musket Swedish_M1815/45_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -6508,7 +6508,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_swedish_smoothbore_carbine Danish_M1815/45_Carbine Danish_M1815/45_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_swedish_smoothbore_carbine Danish_M1815/45_Carbine Danish_M1815/45_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 46 400 0 1 311 0
  0
 0
 
@@ -6516,7 +6516,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_bavarian_smoothbore Bavarian_M1842_Musket Bavarian_M1842_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_bavarian_smoothbore Bavarian_M1842_Musket Bavarian_M1842_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -6524,7 +6524,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_bavarian_smoothbore_carbine Bavarian_M1842_Carbine Bavarian_M1842_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_bavarian_smoothbore_carbine Bavarian_M1842_Carbine Bavarian_M1842_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 46 400 0 1 311 0
  0
 0
 
@@ -6532,7 +6532,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_papal_smoothbore Papal_M1777_Conversion_Musket Papal_M1777_Conversion_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 55 400 0 1 311 0
+ itm_rifle_papal_smoothbore Papal_M1777_Conversion_Musket Papal_M1777_Conversion_Musket 2  russian_m1845 0  russian_m1845_inv 1152921504606846976  811597833 6174031872 400 131082 4.500000 100 0 0 65 0 0 40 400 0 1 311 0
  0
 0
 
@@ -6540,7 +6540,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_papal_smoothbore_carbine Papal_M1777_Conversion_Carbine Papal_M1777_Conversion_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 63 400 0 1 311 0
+ itm_rifle_papal_smoothbore_carbine Papal_M1777_Conversion_Carbine Papal_M1777_Conversion_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 46 400 0 1 311 0
  0
 0
 
