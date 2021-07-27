@@ -1330,8 +1330,6 @@ items = [
 #["scatter_crossbow", "Scatter Crossbow", [("crossbow_c",0)], itp_type_crossbow |itp_primary|itp_two_handed|itp_cant_reload_on_horseback ,itcf_shoot_crossbow|itcf_carry_crossbow_back, 
 #0 , weight(3.75)|spd_rtng(20) | shoot_speed(90) | thrust_damage(90 ,pierce)|max_ammo(1),imodbits_crossbow ],
 
-["resource_steel_pointer","PES", [("bkh_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.0)|head_armor(0), imodbits_none, [],[]],
-
 #additional items for coop
 ["javelin_bow_ammo",         "Shooting Javelins", [("javelin_bow_ammo",0),("javelins_quiver_new", ixmesh_carry)], itp_type_arrows ,itcf_carry_quiver_back, 
 0, weight(4) | thrust_damage(34 ,  pierce)|max_ammo(15)|weapon_length(75),0 ],
@@ -2369,6 +2367,11 @@ items = [
 ["afg_trousers2","Middle Asian Trousers", [("afg_trousers1", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_21]],
 ["afg_hat1","Middle Asian Hat", [("khi_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_21]],
 ["afg_hat2","Middle Asian Hat", [("bkh_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_21]],
+
+["resource_steel_pointer","PES", [("bkh_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.0)|head_armor(0), imodbits_none, [],[]],
+["resource_steel","PES", [("bkh_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.0)|head_armor(0), imodbits_none, [],[]],
+["resource_iron","PES", [("bkh_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.0)|head_armor(0), imodbits_none, [],[]],
+["resource_coal","PES", [("bkh_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.0)|head_armor(0), imodbits_none, [],[]],
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 

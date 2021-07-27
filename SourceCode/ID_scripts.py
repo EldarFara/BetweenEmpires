@@ -749,10 +749,11 @@ script_pps_menu_display_faction = 747
 script_pps_faction_iteration = 748
 script_pes_open_factory_in_center = 749
 script_pes_center_iteration = 750
-script_pes_center_factory_iteration = 751
-script_pes_employ_workers = 752
-script_pes_find_and_buy_resource = 753
-script_pes_init = 754
-script_company_play_vo = 755
+script_pes_center_villages_iteration = 751
+script_pes_center_factory_iteration = 752
+script_pes_employ_workers = 753
+script_pes_find_and_buy_resource = 754
+script_pes_init = 755
+script_company_play_vo = 756
 
 

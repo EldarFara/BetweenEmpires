@@ -1614,6 +1614,7 @@ async_randomly_start_war_peace_new_cur_kingdom
 async_randomly_start_war_peace_new_cur_kingdom_2
 g_days_until_next_year
 g_current_year
+async_simple_trigger32
 player_faction_preset
 pws_equatorward_temperature
 pws_poleward_temperature
@@ -1700,7 +1701,6 @@ async_simple_trigger26
 async_simple_trigger27
 async_simple_trigger28
 async_simple_trigger31
-async_simple_trigger32
 pps_start_new_iteration_cycle
 async_simple_trigger33
 pes_start_new_iteration_cycle

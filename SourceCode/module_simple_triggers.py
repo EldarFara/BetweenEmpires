@@ -4881,11 +4881,11 @@ simple_triggers = [
 
   (0,
    [
-(val_max, "$async_simple_trigger32", kingdoms_begin),
 	(try_begin),	
 	(le, "$async_simple_trigger32", kingdoms_end),
 	(val_add, "$async_simple_trigger32", 1),
 	(try_end),
+(val_max, "$async_simple_trigger32", kingdoms_begin),
 	(try_begin),	
 	(eq, "$pps_start_new_iteration_cycle", 1),
 	(assign, "$async_simple_trigger32", kingdoms_begin),

@@ -427,7 +427,6 @@ slot_item_small_caliber_analog = slot_item_rifled_analog + 2
 slot_item_bolt_action_analog = slot_item_rifled_analog + 3
 slot_item_appearance_year = slot_item_rifled_analog + 4
 
-
 ########################################################
 ##  AGENT SLOTS            #############################
 ########################################################
@@ -1305,6 +1304,7 @@ slot_center_factory3_max_workers = pes_slots_start + 50
 slot_center_factory4_max_workers = pes_slots_start + 51
 slot_center_factory5_max_workers = pes_slots_start + 52
 slot_center_factory6_max_workers = pes_slots_start + 53
+slot_center_villages_resource_bonus_type = pes_slots_start + 54
 
 #slot_party_type values
 ##spt_caravan            = 1
@@ -2371,6 +2371,7 @@ kingdom_titles_male_begin = "str_faction_title_male_player"
 kingdom_titles_female_begin = "str_faction_title_female_player"
 
 kingdoms_begin = "fac_player_supporters_faction"
+kingdoms_begin_int = fac_player_supporters_faction
 kingdoms_end = "fac_kingdoms_end"
 kingdoms_end_int = fac_kingdoms_end
 
