@@ -1,5 +1,5 @@
 soundsfile version 3
-1770
+1864
  drum_3.ogg 769
  tutorial_1.ogg 1793
  tutorial_2.ogg 1793
@@ -1770,7 +1770,101 @@ soundsfile version 3
  voice_ger_yes_sir46.wav 2272
  voice_ger_yes_sir47.wav 2272
  voice_ger_yes_sir48.wav 2272
-355
+ voice_rus_on_company_select01.wav 2784
+ voice_rus_on_company_select02.wav 2784
+ voice_rus_on_company_select03.wav 2784
+ voice_rus_on_company_select04.wav 2784
+ voice_rus_on_company_select05.wav 2784
+ voice_rus_on_company_select06.wav 2784
+ voice_rus_on_company_select07.wav 2784
+ voice_rus_on_company_select08.wav 2784
+ voice_rus_on_company_select09.wav 2784
+ voice_rus_on_company_select10.wav 2784
+ voice_rus_on_company_select11.wav 2784
+ voice_rus_on_company_select12.wav 2784
+ voice_rus_on_company_select13.wav 2784
+ voice_rus_on_company_select14.wav 2784
+ voice_rus_on_company_select15.wav 2784
+ voice_rus_on_company_select16.wav 2784
+ voice_rus_on_company_select17.wav 2784
+ voice_rus_on_company_select18.wav 2784
+ voice_rus_on_company_select19.wav 2784
+ voice_rus_on_company_select20.wav 2784
+ voice_rus_on_company_select21.wav 2784
+ voice_rus_on_company_select22.wav 2784
+ voice_rus_on_company_select23.wav 2784
+ voice_rus_on_company_select24.wav 2784
+ voice_rus_on_company_select25.wav 2784
+ voice_rus_on_company_select26.wav 2784
+ voice_rus_on_company_select27.wav 2784
+ voice_rus_on_company_select28.wav 2784
+ voice_rus_on_company_select29.wav 2784
+ voice_rus_on_company_select30.wav 2784
+ voice_rus_on_company_select31.wav 2784
+ voice_rus_on_company_select32.wav 2784
+ voice_rus_yes_sir01.wav 2272
+ voice_rus_yes_sir02.wav 2272
+ voice_rus_yes_sir03.wav 2272
+ voice_rus_yes_sir04.wav 2272
+ voice_rus_yes_sir05.wav 2272
+ voice_rus_yes_sir06.wav 2272
+ voice_rus_yes_sir07.wav 2272
+ voice_rus_yes_sir08.wav 2272
+ voice_rus_yes_sir09.wav 2272
+ voice_rus_yes_sir10.wav 2272
+ voice_rus_yes_sir11.wav 2272
+ voice_rus_yes_sir12.wav 2272
+ voice_rus_yes_sir13.wav 2272
+ voice_rus_yes_sir14.wav 2272
+ voice_rus_yes_sir15.wav 2272
+ voice_rus_yes_sir16.wav 2272
+ voice_rus_yes_sir17.wav 2272
+ voice_rus_yes_sir18.wav 2272
+ voice_rus_yes_sir19.wav 2272
+ voice_rus_yes_sir20.wav 2272
+ voice_rus_yes_sir21.wav 2272
+ voice_rus_yes_sir22.wav 2272
+ voice_rus_yes_sir23.wav 2272
+ voice_rus_yes_sir24.wav 2272
+ voice_rus_yes_sir25.wav 2272
+ voice_rus_yes_sir26.wav 2272
+ voice_rus_yes_sir27.wav 2272
+ voice_rus_yes_sir28.wav 2272
+ voice_rus_yes_sir29.wav 2272
+ voice_rus_yes_sir30.wav 2272
+ voice_rus_yes_sir31.wav 2272
+ voice_rus_yes_sir32.wav 2272
+ voice_rus_yes_sir33.wav 2272
+ voice_rus_yes_sir34.wav 2272
+ voice_rus_yes_sir35.wav 2272
+ voice_rus_yes_sir36.wav 2272
+ voice_rus_yes_sir37.wav 2272
+ voice_rus_yes_sir38.wav 2272
+ voice_rus_yes_sir39.wav 2272
+ voice_rus_yes_sir40.wav 2272
+ voice_rus_yes_sir41.wav 2272
+ voice_rus_yes_sir42.wav 2272
+ voice_rus_yes_sir43.wav 2272
+ voice_rus_yes_sir44.wav 2272
+ voice_rus_yes_sir45.wav 2272
+ voice_rus_yes_sir46.wav 2272
+ voice_rus_yes_sir47.wav 2272
+ voice_rus_yes_sir48.wav 2272
+ voice_rus_yes_sir49.wav 2272
+ voice_rus_yes_sir50.wav 2272
+ voice_rus_yes_sir51.wav 2272
+ voice_rus_yes_sir52.wav 2272
+ voice_rus_yes_sir54.wav 2272
+ voice_rus_yes_sir55.wav 2272
+ voice_rus_yes_sir56.wav 2272
+ voice_rus_yes_sir57.wav 2272
+ voice_rus_yes_sir58.wav 2272
+ voice_rus_yes_sir59.wav 2272
+ voice_rus_yes_sir60.wav 2272
+ voice_rus_yes_sir61.wav 2272
+ voice_rus_yes_sir62.wav 2272
+ voice_rus_yes_sir63.wav 2272
+358
 snd_click 769 1 0 0 
 snd_tutorial_1 1793 1 1 0 
 snd_tutorial_2 1793 1 2 0 
@@ -2126,3 +2220,6 @@ snd_voice_ukm_yes_sir2 2272 7 1683 0 1684 0 1685 0 1686 0 1687 0 1688 0 1689 0
 snd_voice_ger_on_company_select1 2784 32 1690 0 1691 0 1692 0 1693 0 1694 0 1695 0 1696 0 1697 0 1698 0 1699 0 1700 0 1701 0 1702 0 1703 0 1704 0 1705 0 1706 0 1707 0 1708 0 1709 0 1710 0 1711 0 1712 0 1713 0 1714 0 1715 0 1716 0 1717 0 1718 0 1719 0 1720 0 1721 0 
 snd_voice_ger_yes_sir1 2272 32 1722 0 1723 0 1724 0 1725 0 1726 0 1727 0 1728 0 1729 0 1730 0 1731 0 1732 0 1733 0 1734 0 1735 0 1736 0 1737 0 1738 0 1739 0 1740 0 1741 0 1742 0 1743 0 1744 0 1745 0 1746 0 1747 0 1748 0 1749 0 1750 0 1751 0 1752 0 1753 0 
 snd_voice_ger_yes_sir2 2272 16 1754 0 1755 0 1756 0 1757 0 1758 0 1759 0 1760 0 1761 0 1762 0 1763 0 1764 0 1765 0 1766 0 1767 0 1768 0 1769 0 
+snd_voice_rus_on_company_select1 2784 32 1770 0 1771 0 1772 0 1773 0 1774 0 1775 0 1776 0 1777 0 1778 0 1779 0 1780 0 1781 0 1782 0 1783 0 1784 0 1785 0 1786 0 1787 0 1788 0 1789 0 1790 0 1791 0 1792 0 1793 0 1794 0 1795 0 1796 0 1797 0 1798 0 1799 0 1800 0 1801 0 
+snd_voice_rus_yes_sir1 2272 32 1802 0 1803 0 1804 0 1805 0 1806 0 1807 0 1808 0 1809 0 1810 0 1811 0 1812 0 1813 0 1814 0 1815 0 1816 0 1817 0 1818 0 1819 0 1820 0 1821 0 1822 0 1823 0 1824 0 1825 0 1826 0 1827 0 1828 0 1829 0 1830 0 1831 0 1832 0 1833 0 
+snd_voice_rus_yes_sir2 2272 31 1834 0 1835 0 1836 0 1837 0 1838 0 1839 0 1840 0 1841 0 1842 0 1843 0 1844 0 1845 0 1846 0 1847 0 1848 0 1849 0 1850 0 1851 0 1852 0 1853 0 1854 0 1855 0 1855 0 1856 0 1857 0 1858 0 1859 0 1860 0 1861 0 1862 0 1863 0 

@@ -31,7 +31,7 @@ vo_on_company_select = (
 ])
 
 vo_500ms = (
-0.5, 0, 0, [],
+1.5, 0, 0, [],
 [
 	(try_for_range, ":team", 0, 3),
 	(team_set_slot, ":team", slot_team_vo_allowed, 1),

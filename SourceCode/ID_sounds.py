@@ -353,5 +353,8 @@ snd_voice_ukm_yes_sir2 = 351
 snd_voice_ger_on_company_select1 = 352
 snd_voice_ger_yes_sir1 = 353
 snd_voice_ger_yes_sir2 = 354
+snd_voice_rus_on_company_select1 = 355
+snd_voice_rus_yes_sir1 = 356
+snd_voice_rus_yes_sir2 = 357
 
 
