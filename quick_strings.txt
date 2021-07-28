@@ -1,4 +1,4 @@
-1052
+1051
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -1050,4 +1050,3 @@ qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
 qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
-qstr_Support_of_{reg1}._p Support_of_{reg1}._party_for_{reg2}._class_is_{reg3};_sum_difference_was_{reg4};_influence_of_party_was_{reg5};_political_activity_was_{reg6};_slot_was_{reg7}

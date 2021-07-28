@@ -9,14 +9,42 @@ from ID_parties import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+language_english = 1
+language_russian = 2
+language_german = 3
+language_turkish = 4
+
+
 vo_type_on_company_select = 1
 vo_type_yes_sir = 2
 vo_type_gogogo = 3
 vo_type_retreat = 4
+vo_type_attack = 5
+vo_type_fire_at_will = 6
+vo_type_keep_shooting = 7
+vo_type_hold_ground = 8
+vo_type_cease_fire = 9
+vo_type_bayonets = 10
+vo_type_fire = 10
 
 resource_iron = 1
 resource_coal = 2
-resource_steel = 3
+resource_meat = 3
+resource_cotton = 4
+resource_flour = 5
+resource_iron = 6
+resource_wood = 7
+resource_ammunition = 8
+resource_weaponry = 9
+resource_military_supplies = 10
+resource_fabric = 11
+resource_construction_materials = 12
+resource_furniture = 13
+resource_machine_parts = 14
+resource_paper = 15
+resource_clothes = 16
+resource_timber = 17
+resource_steel = 18
 
 ideology_reactionary = 1
 ideology_liberal = 2
@@ -363,6 +391,7 @@ slot_party_prebattle_in_battle_count       = 76
 ## Prebattle Deployment End
 
 slot_troop_pbs_type = 162
+slot_troop_language = 163
 
 ## ZZ Custom Kingdom Troops begin
 slot_item_difficulty                = 101
