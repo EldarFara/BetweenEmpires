@@ -4596,7 +4596,7 @@ aerial_view_runtime = (0, 0, 0, [], [
 			(store_add, ":slot_team_state", slot_team_company1_state, ":company"),
 			(neg|team_slot_eq, ":player_team", ":slot_team_state", pbs_state_retreating),
 			(call_script, "script_get_company_soldiers_number", ":player_team", ":company"), (neq, reg0, 0), (assign, ":soldiers_number", reg0),
-			(val_mul, ":soldiers_number", -45),
+			(val_mul, ":soldiers_number", -75),
 			(position_move_x, pos3, ":soldiers_number", 0),
 			(try_end),
 			(try_for_range, ":company", 0, 8),

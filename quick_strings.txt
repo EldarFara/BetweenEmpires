@@ -1,4 +1,4 @@
-1051
+1053
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -637,6 +637,8 @@ qstr_Parliament_Compositi Parliament_Composition
 qstr_{s1}:_{reg1}% {s1}:_{reg1}%
 qstr_Ruling_party Ruling_party
 qstr_Influence:_{reg1}% Influence:_{reg1}%
+qstr_vo_type_bayonets vo_type_bayonets
+qstr_snd_voice_rus_bayone snd_voice_rus_bayonets1
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_running.
 qstr_{s1}_cannot_change_f {s1}_cannot_change_formation_-_only_light_infantry_can_apply_extended_line_formation.

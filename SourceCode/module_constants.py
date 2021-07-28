@@ -25,7 +25,7 @@ vo_type_keep_shooting = 7
 vo_type_hold_ground = 8
 vo_type_cease_fire = 9
 vo_type_bayonets = 10
-vo_type_fire = 10
+vo_type_fire = 11
 
 resource_iron = 1
 resource_coal = 2
