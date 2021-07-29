@@ -4510,7 +4510,7 @@ simple_triggers = [
 		(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", ":faction", ":faction_casus_belli_target"),
 		(eq, reg0, 0),
 		(lt, reg60, 1),
-		(val_add, ":faction_casus_belli_progress", 16),
+		(val_add, ":faction_casus_belli_progress", 8),
 		(faction_set_slot, ":faction", slot_faction_casus_belli_progress, ":faction_casus_belli_progress"),
 			(try_begin),
 			(ge, ":faction_casus_belli_progress", 100),

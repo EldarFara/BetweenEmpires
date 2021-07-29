@@ -2032,14 +2032,6 @@ slot_team_pai_attack_group_2_3_state                 = 231
 slot_team_pai_attack_group_3_3_state                 = 232
 slot_team_pai_attack_artillery_company_number    = 233
 slot_team_vo_allowed    = 234
-slot_team_company1_digin_status                       = 235
-slot_team_company2_digin_status                       = 236
-slot_team_company3_digin_status                       = 237
-slot_team_company4_digin_status                       = 238
-slot_team_company5_digin_status                       = 239
-slot_team_company6_digin_status                       = 240
-slot_team_company7_digin_status                       = 241
-slot_team_company8_digin_status                       = 242
 
 
 #Rebellion changes end

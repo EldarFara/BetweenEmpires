@@ -1390,7 +1390,6 @@ menu_pbs_company8_energy
 menu_pbs_company8_accuracy
 menu_pbs_activeability_square
 menu_pbs_activeability_merge
-menu_pbs_activeability_digin
 g_presentation_obj_1
 g_presentation_obj_2
 g_cur_slot_no
