@@ -583,5 +583,6 @@ mesh_pps_party3 = 581
 mesh_pps_party4 = 582
 mesh_pps_law_card = 583
 mesh_pps_ruling_party = 584
+mesh_monika = 585
 
 

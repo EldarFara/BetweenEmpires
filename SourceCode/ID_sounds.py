@@ -389,5 +389,6 @@ snd_voice_tur_yes_sir2 = 387
 snd_voice_tur_chargewarcry1 = 388
 snd_voice_tur_retreat1 = 389
 snd_voice_tur_charge1 = 390
+snd_beep = 391
 
 

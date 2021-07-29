@@ -436,6 +436,8 @@ sounds = [
 ("voice_tur_retreat1",sf_priority_14|sf_vol_12, ["voice_tur_retreat01.wav","voice_tur_retreat02.wav","voice_tur_retreat03.wav","voice_tur_retreat04.wav","voice_tur_retreat05.wav","voice_tur_retreat06.wav","voice_tur_retreat07.wav","voice_tur_retreat08.wav","voice_tur_retreat09.wav","voice_tur_retreat10.wav","voice_tur_retreat11.wav","voice_tur_retreat12.wav","voice_tur_retreat13.wav","voice_tur_retreat14.wav","voice_tur_retreat15.wav","voice_tur_retreat16.wav","voice_tur_retreat17.wav","voice_tur_retreat18.wav","voice_tur_retreat19.wav","voice_tur_retreat20.wav","voice_tur_retreat21.wav","voice_tur_retreat22.wav","voice_tur_retreat23.wav","voice_tur_retreat24.wav","voice_tur_retreat25.wav","voice_tur_retreat26.wav","voice_tur_retreat27.wav","voice_tur_retreat28.wav","voice_tur_retreat29.wav","voice_tur_retreat30.wav","voice_tur_retreat31.wav","voice_tur_retreat32.wav"]),
 ("voice_tur_charge1",sf_priority_14|sf_vol_8, ["voice_tur_charge01.wav","voice_tur_charge02.wav","voice_tur_charge03.wav","voice_tur_charge04.wav","voice_tur_charge05.wav","voice_tur_charge06.wav","voice_tur_charge07.wav","voice_tur_charge08.wav","voice_tur_charge09.wav","voice_tur_charge10.wav","voice_tur_charge11.wav","voice_tur_charge12.wav","voice_tur_charge13.wav","voice_tur_charge14.wav","voice_tur_charge15.wav","voice_tur_charge16.wav","voice_tur_charge17.wav","voice_tur_charge18.wav","voice_tur_charge19.wav","voice_tur_charge20.wav","voice_tur_charge21.wav","voice_tur_charge22.wav","voice_tur_charge23.wav","voice_tur_charge24.wav","voice_tur_charge25.wav","voice_tur_charge26.wav","voice_tur_charge27.wav","voice_tur_charge28.wav","voice_tur_charge29.wav","voice_tur_charge30.wav"]),
 
+("beep", sf_2d|sf_priority_15|sf_vol_14, ["beep.wav"]),
+
 ]
 
 

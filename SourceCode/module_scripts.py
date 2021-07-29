@@ -49218,6 +49218,7 @@ scripts = [
 				(try_begin),
 					(party_slot_eq, ":marshal_party", slot_party_ai_state, spai_holding_center), #if commander is holding a center
 					(party_get_slot, ":marshal_object", ":marshal_party", slot_party_ai_object), #get commander's ai object (center they are holding)
+					(ge, ":marshal_object", 0),
 					(party_get_battle_opponent, ":besieger_enemy", ":marshal_object"), #get this object's battle opponent
 					(ge, ":besieger_enemy", 0),
 					(assign, ":besieged_center", ":marshal_object"),
@@ -49356,6 +49357,7 @@ scripts = [
                 (try_begin),
                   (party_slot_eq, ":marshal_party", slot_party_ai_state, spai_holding_center), #if commander is holding a center
                   (party_get_slot, ":marshal_object", ":marshal_party", slot_party_ai_object), #get commander's ai object (center they are holding)
+				(ge, ":marshal_object", 0),
                   (party_get_battle_opponent, ":besieger_enemy", ":marshal_object"), #get this object's battle opponent
                   (ge, ":besieger_enemy", 0),
                   (assign, ":besieged_center", ":marshal_object"),

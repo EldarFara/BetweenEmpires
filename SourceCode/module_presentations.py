@@ -17597,6 +17597,7 @@ will be merged into one that has highest number of soldiers."),
 ("faction_technologies",0,mesh_load_window2,[
 (ti_on_presentation_load,
 	[
+(assign, "$g_monika", 0),
 	(assign, "$g_faction_technologies_selected_tech", -1),
 	(assign, "$g_faction_technologies_currentinprogress_tech_overlay", -1),
 	(set_fixed_point_multiplier, 1000),
@@ -17722,7 +17723,12 @@ will be merged into one that has highest number of soldiers."),
  
 	(try_begin),
 	(eq, ":object", "$g_faction_technologies_close"),
-	(presentation_set_duration, 0),
+		(try_begin),
+		(eq, "$g_monika", 0),
+		(presentation_set_duration, 0),
+		(try_end),
+(eq, "$g_monika", 1),
+(start_presentation, "prsnt_ddlc_reference"),
 	(assign, reg21, 11111), # for exiting from pop-up menu
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_research"),
@@ -17859,6 +17865,7 @@ will be merged into one that has highest number of soldiers."),
 	(overlay_set_material, "$g_faction_technologies_photo", "@faction_technologies_photo_improvedlogistics"),
 	(assign, "$g_faction_technologies_selected_tech", slot_faction_technology_improvedlogistics),
 	(assign, "$g_faction_technologies_selected_tech_cost", 2000), (assign, "$g_faction_technologies_selected_tech_date", 1890),
+(assign, "$g_monika", 1),
 	(else_try),
 	(eq, ":object", "$g_faction_technologies_tech_adaptivetraining"),
 	(str_store_string, s1, "@Infantry Adaptive^Training"), (call_script,"script_pts_create_selected_tech_name"),
@@ -18877,6 +18884,28 @@ will be merged into one that has highest number of soldiers."),
 	(presentation_set_duration, 0),
 	]),
 ]),
+
+("ddlc_reference",0,mesh_load_window2,[
+(ti_on_presentation_load,
+	[
+(display_message, "@JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^", 0xFF0000),
+	(presentation_set_duration, 250),
+	(play_sound, "snd_beep"),
+	(create_mesh_overlay, "$overlay_mesh_monika", "mesh_monika"),
+	(assign, "$g_ddlc_reference_timer", 0),
+	
+]),
+(ti_on_presentation_run,
+	[
+(val_add, "$g_ddlc_reference_timer", 1),
+	(try_begin),
+	(eq, "$g_ddlc_reference_timer", 50),
+	(overlay_set_material, "$overlay_mesh_monika", "@monika1"),
+	(assign, "$g_monika", 0),
+	(try_end),
+]),
+]),
+
   ]
   
   

@@ -648,6 +648,7 @@ meshes = [
   ("pps_party4", 0, "pps_party4", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("pps_law_card", 0, "pps_law_card", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("pps_ruling_party", 0, "pps_ruling_party", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("monika", 0, "monika2", 0, 0, 0, 0, 0, 0, 1, 1, 1),
 ]
 
 # modmerger_start version=201 type=2
