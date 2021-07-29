@@ -1723,3 +1723,6 @@ spr_0town_awning2c = 1721
 spr_0town_awning2d = 1722
 spr_0wheat1 = 1723
 spr_0flax1 = 1724
+spr_pbs_trench1 = 1725
+spr_pbs_trench2a = 1726
+spr_pbs_trench2b = 1727
