@@ -951,6 +951,8 @@ slot_faction_political_party2_places_in_executivebranch = slot_faction_ve_mod_sl
 slot_faction_political_party3_places_in_executivebranch = slot_faction_ve_mod_slots_begin + 378
 slot_faction_political_party4_places_in_executivebranch = slot_faction_ve_mod_slots_begin + 379
 
+slot_faction_mgoperator    			 = slot_faction_ve_mod_slots_begin + 380
+
 
 
 ########################################################
