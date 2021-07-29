@@ -256,6 +256,7 @@ sounds = [
 ("bugle_retreat", sf_priority_12|sf_vol_15, ["bugle_retreat1.wav"]),
 ("bugle_stop_retreat", sf_priority_12|sf_vol_15, ["bugle_stop_retreat1.wav"]),
 ("bugle_cavalry_charge", sf_priority_12|sf_vol_15, ["bugle_cavalry_charge1.wav", "bugle_cavalry_charge2.wav"]),
+("bugle_whistle_charge", sf_priority_12|sf_vol_15, ["bugle_whistle_charge1.wav"]),
 
 ("winch_shot", sf_priority_14|sf_vol_15, ["winch_shot1.wav", "winch_shot2.wav", "winch_shot3.wav", "winch_shot4.wav"]),
 ("shot_spencer", sf_priority_14|sf_vol_15, ["shot_spencer1.wav", "shot_spencer2.wav", "shot_spencer3.wav", "shot_spencer4.wav"]),

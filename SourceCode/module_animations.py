@@ -2042,7 +2042,7 @@ animations = [
    [1, "walk_rifle3_2", 0, 32, arf_cyclic|arf_make_walk_sound,pack2f(0.4,0.9), (0, 0, 0), 0.0],
    [1, "walk_rifle3_3", 0, 32, arf_cyclic|arf_make_walk_sound,pack2f(0.4,0.9), (0, 0, 0), 0.0],
  ],
- ["digging", acf_enforce_lowerbody, amf_priority_fall_from_horse|amf_play|amf_client_prediction,
+ ["digging", acf_enforce_all, amf_priority_fall_from_horse|amf_use_cycle_period|amf_client_prediction,
    [2.0, "digging1", 0, 6, arf_blend_in_0|arf_cyclic],
    [5.0, "digging2", 0, 125, arf_blend_in_0|arf_cyclic],
  ],
