@@ -4138,6 +4138,7 @@ scene_props = [
 ("pbs_trench1",0,"pbs_trench1","bo_pbs_trench1", []),
 ("pbs_trench2a",0,"pbs_trench2a","bo_pbs_trench2", []),
 ("pbs_trench2b",0,"pbs_trench2b","bo_pbs_trench2", []),
+("pbs_trench2c",0,"pbs_trench2b","bo_pbs_trench2", []),
 
 ]
 

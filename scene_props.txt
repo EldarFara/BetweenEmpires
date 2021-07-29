@@ -1,5 +1,5 @@
 scene_propsfile version 1
- 1728
+ 1729
 spr_invalid_object 0 0 question_mark 0 0
 
 
@@ -5333,5 +5333,8 @@ spr_pbs_trench2a 0 0 pbs_trench2a bo_pbs_trench2 0
 
 
 spr_pbs_trench2b 0 0 pbs_trench2b bo_pbs_trench2 0
+
+
+spr_pbs_trench2c 0 0 pbs_trench2b bo_pbs_trench2 0
 
 
