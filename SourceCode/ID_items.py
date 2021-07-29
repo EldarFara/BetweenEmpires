@@ -1563,4 +1563,5 @@ itm_afg_trousers1 = 1561
 itm_afg_trousers2 = 1562
 itm_afg_hat1 = 1563
 itm_afg_hat2 = 1564
-itm_items_end = 1565
+itm_shovel1 = 1565
+itm_items_end = 1566

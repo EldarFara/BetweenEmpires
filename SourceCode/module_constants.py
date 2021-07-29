@@ -506,6 +506,7 @@ slot_agent_was_killed_or_knocked_down      = 44
 slot_agent_flag_prop      = 45
 slot_agent_prone_status      = 46
 slot_agent_prone_reload_timer      = 47
+slot_agent_digin_timer      = 48
 
 ########################################################
 ##  FACTION SLOTS          #############################

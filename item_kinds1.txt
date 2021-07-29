@@ -1,5 +1,5 @@
 itemsfile version 3
-1566
+1567
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -6826,6 +6826,10 @@ itemsfile version 3
  itm_afg_hat2 Middle_Asian_Hat Middle_Asian_Hat 1  bkh_hat1 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  63
+0
+
+ itm_shovel1 Shovel Shovel 1  shovel1 0  4194306 9223388529822793743 163 155668 1.500000 100 0 0 0 0 40960 105 0 75 0 296 40
+ 0
 0
 
  itm_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0

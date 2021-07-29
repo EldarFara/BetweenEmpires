@@ -20,6 +20,43 @@ from header_skills import *
 pilgrim_disguise = [itm_ammo_pistol, itm_dagger, itm_sidearm_colt_m1851_navy, itm_clothes_urban_male_trousers1, itm_civilian_hat1, itm_clothes_urban_male1]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
+digin_1000ms = (
+1, 0, 0, [],
+[
+	(try_for_agents,":agent"),
+	(agent_is_active, ":agent"),
+	(agent_is_alive, ":agent"),
+	(agent_is_human, ":agent"),
+	(agent_is_non_player, ":agent"),
+	(agent_get_slot, ":timer", ":agent", slot_agent_digin_timer),
+	(gt, ":timer", 0),
+	(val_sub, ":timer", 1),
+	(agent_set_slot, ":agent", slot_agent_digin_timer, ":timer"),
+		(try_begin),
+		(eq, ":timer", 0),
+		(agent_unequip_item, ":agent", "itm_shovel1"),
+		(agent_set_animation, ":agent", "anim_YuriCancelAnimation", 0),
+		(agent_set_animation, ":agent", "anim_YuriCancelAnimation", 1),
+		(try_end),
+	(try_end),
+])
+
+digin_runtime = (
+0, 0, 0, [],
+[
+	(try_for_agents,":agent"),
+	(agent_is_active, ":agent"),
+	(agent_is_alive, ":agent"),
+	(agent_is_human, ":agent"),
+	(agent_is_non_player, ":agent"),
+	(agent_get_slot, ":timer", ":agent", slot_agent_digin_timer),
+	(gt, ":timer", 0),
+	(agent_set_wielded_item, ":agent", "itm_shovel1"),
+	(agent_set_animation, ":agent", "anim_digging", 0),
+	(agent_set_animation, ":agent", "anim_digging", 1),
+	(try_end),
+])
+
 vo_on_company_select = (
 0, 0, 0, [],
 [
@@ -5528,6 +5565,8 @@ ams = (ti_after_mission_start, 0, 0, [
 parabellum_script_set_battle = [
 ams,
 bms,
+digin_1000ms,
+digin_runtime,
 vo_on_company_select,
 vo_500ms,
 pbs_walkrun_order,

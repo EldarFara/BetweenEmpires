@@ -2398,6 +2398,7 @@ items = [
 ["afg_hat1","Middle Asian Hat", [("khi_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_21]],
 ["afg_hat2","Middle Asian Hat", [("bkh_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_21]],
 
+["shovel1", "Shovel", [("shovel1",0)], itp_type_one_handed_wpn|itp_primary, itc_longsword|itcf_carry_sword_left_hip,163 , weight(1.5)|difficulty(0)|spd_rtng(105) | weapon_length(75)|swing_damage(40 , cut) | thrust_damage(40 ,  pierce),imodbits_sword_high ],
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 
