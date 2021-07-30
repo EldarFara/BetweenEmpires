@@ -74,18 +74,6 @@ mg_runtime = (
 	(try_end),
 ])
 
-mg_10ms = (
-0.004, 0, 0, [],
-[
-	(try_for_agents,":agent"),
-	(agent_is_active, ":agent"),
-	(agent_get_slot, ":timer", ":agent", slot_agent_mg_bullets_timer),
-	(gt, ":timer", 0),
-	(val_sub, ":timer", 1),
-	(agent_set_slot, ":agent", slot_agent_mg_bullets_timer, ":timer"),
-	(try_end),
-])
-
 digin_1000ms = (
 1, 0, 0, [],
 [
@@ -5668,7 +5656,6 @@ parabellum_script_set_battle = [
 ams,
 bms,
 mg_1000ms,
-mg_10ms,
 mg_runtime,
 digin_1000ms,
 digin_runtime,
