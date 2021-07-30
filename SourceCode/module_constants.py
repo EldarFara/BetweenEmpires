@@ -512,9 +512,9 @@ slot_agent_prone_reload_timer      = 47
 slot_agent_digin_timer      = 48
 slot_agent_prop1      = 49
 slot_agent_prop2      = 50
-slot_agent_mg_is_deployed      = 52
-slot_agent_mg_bullets      = 53
-slot_agent_mg_bullets_timer      = 54
+slot_agent_mg_is_deployed      = 51
+slot_agent_mg_bullets      = 52
+slot_agent_mg_bullets_timer      = 53
 
 ########################################################
 ##  FACTION SLOTS          #############################
