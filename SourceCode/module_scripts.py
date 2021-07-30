@@ -60827,6 +60827,8 @@ scripts = [
 	(position_copy_rotation, pos50, pos51),
 	(agent_get_slot, ":mg", ":agent", slot_agent_prop1),
 	(agent_get_slot, ":mg_barrel", ":agent", slot_agent_prop2),
+	(prop_instance_is_valid, ":mg"),
+	(prop_instance_is_valid, ":mg_barrel"),
 	(scene_prop_set_visibility, ":mg", 1),
 	(scene_prop_set_visibility, ":mg_barrel", 1),
 	(prop_instance_set_position, ":mg", pos50),
