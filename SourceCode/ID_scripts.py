@@ -759,5 +759,6 @@ script_company_play_vo = 757
 script_company_decide_play_vo = 758
 script_company_digin = 759
 script_cf_if_agent_is_in_trench = 760
+script_turn_pos_towards_pos_2 = 761
 
 
