@@ -759,6 +759,11 @@ script_company_play_vo = 757
 script_company_decide_play_vo = 758
 script_company_digin = 759
 script_cf_if_agent_is_in_trench = 760
-script_turn_pos_towards_pos_2 = 761
+script_mg_spawn = 761
+script_mg_deploy = 762
+script_mg_undeploy = 763
+script_mg_decide_fire = 764
+script_mg_fire = 765
+script_add_penaltytodiscipline_fromfire_to_target_of_agent = 766
 
 

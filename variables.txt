@@ -1613,7 +1613,6 @@ text_dds_selected_center
 text_dds_selected_center_value
 overlay_mesh_monika
 g_ddlc_reference_timer
-g_monika
 async_randomly_start_war_peace_new_cur_kingdom
 async_randomly_start_war_peace_new_cur_kingdom_2
 g_days_until_next_year

@@ -9,11 +9,13 @@ from ID_parties import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+mg_limit = 2
+
 language_english = 1
 language_russian = 2
 language_german = 3
 language_turkish = 4
-
+language_spanish = 5
 
 vo_type_on_company_select = 1
 vo_type_yes_sir = 2
@@ -299,6 +301,7 @@ YuriSlotProp_CannonballProjectileType = YuriSlotProp_Cannoneer1 + 27
 YuriSlotProp_CannonballHEType = YuriSlotProp_Cannoneer1 + 28
 YuriSlotProp_CannonballFuseBallTimer = YuriSlotProp_Cannoneer1 + 29
 slot_prop_is_occupied = YuriSlotProp_Cannoneer1 + 30
+slot_prop_agent_attached = YuriSlotProp_Cannoneer1 + 31
 
 square_forming_phase_outer_square1 = 0
 square_forming_phase_outer_square2 = 1
@@ -507,6 +510,11 @@ slot_agent_flag_prop      = 45
 slot_agent_prone_status      = 46
 slot_agent_prone_reload_timer      = 47
 slot_agent_digin_timer      = 48
+slot_agent_prop1      = 49
+slot_agent_prop2      = 50
+slot_agent_mg_is_deployed      = 52
+slot_agent_mg_bullets      = 53
+slot_agent_mg_bullets_timer      = 54
 
 ########################################################
 ##  FACTION SLOTS          #############################
@@ -2044,6 +2052,16 @@ slot_team_company6_digin_status                       = 240
 slot_team_company7_digin_status                       = 241
 slot_team_company8_digin_status                       = 242
 
+slot_team_mg_amount                                = 243
+
+slot_team_company1_pai_digin_timer                       = 244
+slot_team_company2_pai_digin_timer                       = 245
+slot_team_company3_pai_digin_timer                       = 246
+slot_team_company4_pai_digin_timer                       = 247
+slot_team_company5_pai_digin_timer                       = 248
+slot_team_company6_pai_digin_timer                       = 249
+slot_team_company7_pai_digin_timer                       = 250
+slot_team_company8_pai_digin_timer                       = 251
 
 #Rebellion changes end
 # character backgrounds

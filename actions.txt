@@ -1127,8 +1127,8 @@
  digging 1024 50331729  2
   2.000000 digging1 0 6 268435456 0 0.0 0.0 0.0 0.0 
   5.000000 digging2 0 125 268435456 0 0.0 0.0 0.0 0.0 
- unused_human_anim_84 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
+ mg_shooting1 2 201326656  1
+  0.250000 mg_shooting1 1 3 2 0 0.0 0.0 0.0 0.0 
  unused_human_anim_85 0 0  1
   1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
  unused_human_anim_86 0 0  1

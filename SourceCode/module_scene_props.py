@@ -3521,9 +3521,9 @@ scene_props = [
 ("sandbags6",0,"sandbags6","bo_sandbags6", []),
 ("sandbags4",0,"sandbags4","bo_sandbags4", []),
 ("sandbags5",0,"sandbags5","bo_sandbags5", []),
-("sandbags2",0,"sandbags2","bo_sandbags2", []),
+("sandbags2",0,"sandbags2","bo_sandbags2b", []),
 ("sandbags3",0,"sandbags3","bo_sandbags3", []),
-("sandbags1",0,"sandbags1","bo_sandbags1", []),
+("sandbags1",0,"sandbags1","bo_sandbags1b", []),
 ("harvester1",0,"harvester1","bo_harvester1", []),
 ("hay2",0,"hay2","bo_hay2", []),
 ("hay1",0,"hay1","bo_hay1", []),
@@ -4140,6 +4140,24 @@ scene_props = [
 ("pbs_trench2b",0,"pbs_trench2b","bo_pbs_trench2", []),
 ("pbs_trench2c",0,"pbs_trench2b","bo_pbs_trench2", []),
 
+  ("mg1", sokf_moveable, "mg1", "bo_mg1",
+   [
+   (ti_on_scene_prop_init,
+    [
+	(store_trigger_param_1, ":scene_prop_id"),
+	(scene_prop_set_slot, ":scene_prop_id", slot_prop_agent_attached, reg0),
+	(assign, reg1, ":scene_prop_id"),
+    ]),
+   ]),
+  ("mg1_barrel", sokf_moveable, "mg1_barrel", "0",
+   [
+   (ti_on_scene_prop_init,
+    [
+	(store_trigger_param_1, ":scene_prop_id"),
+	(scene_prop_set_slot, ":scene_prop_id", slot_prop_agent_attached, reg0),
+	(assign, reg2, ":scene_prop_id"),
+    ]),
+   ]),
 ]
 
  # modmerger_start version=201 type=2

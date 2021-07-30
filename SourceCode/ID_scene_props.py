@@ -1727,3 +1727,5 @@ spr_pbs_trench1 = 1725
 spr_pbs_trench2a = 1726
 spr_pbs_trench2b = 1727
 spr_pbs_trench2c = 1728
+spr_mg1 = 1729
+spr_mg1_barrel = 1730

@@ -1568,4 +1568,6 @@ itm_rifle_comblain = 1566
 itm_rifle_comblain_m = 1567
 itm_rifle_comblain_carbine = 1568
 itm_rifle_comblain_carbine_m = 1569
-itm_items_end = 1570
+itm_mg1 = 1570
+itm_mg_weapon = 1571
+itm_items_end = 1572
