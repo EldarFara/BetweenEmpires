@@ -75,3 +75,4 @@ psys_rain1 = 73
 psys_thunder1 = 74
 psys_thunder2 = 75
 psys_thunder_end = 76
+psys_cartridge_case = 77

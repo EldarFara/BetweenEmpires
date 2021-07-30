@@ -196,7 +196,7 @@ pt_sea_raider_lair Sea_Raider_Landing 562949955519676 0 3 312 646 15 50 0 -1 -1 
 pt_looter_lair Kidnappers'_Hideout 562949955519676 0 3 312 641 15 25 0 -1 -1 -1 -1 -1 
 pt_bandit_lair_templates_end {!}bandit_lair_templates_end 562949953422345 0 2 312 646 15 50 0 -1 -1 -1 -1 -1 
 pt_leaded_looters Band_of_robbers 2251799813947401 0 3 312 3507 1 1 0 641 3 3 0 -1 -1 -1 -1 
-pt_persian_bandits Persian_Bandits 562949953421315 0 2 312 649 4 58 0 -1 -1 -1 -1 -1 
+pt_persian_bandits Persian_Bandits 562949953421315 0 2 312 647 4 58 0 -1 -1 -1 -1 -1 
 pt_turkish_bandits Middle_East_Bandits 562949953421315 0 2 312 647 4 58 0 -1 -1 -1 -1 -1 
 pt_indian_bandits Indian_Bandits 562949953421315 0 2 312 649 4 58 0 -1 -1 -1 -1 -1 
 pt_middleasia_bandits Middle_Asian_Bandits 562949953421315 0 2 312 647 4 58 0 -1 -1 -1 -1 -1 

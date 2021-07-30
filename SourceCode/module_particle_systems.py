@@ -1202,6 +1202,19 @@ particle_systems = [
      0,                       #rotation speed
      0                        #rotation damping
     ),
+  ("cartridge_case", psf_randomize_rotation, "cartridge_case", # psf_global_emit_dir psf_billboard_3d | psf_randomize_size psf_always_emit
+     100, 3, 2, 2.5, 0.1, 0.05,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+     (0.0, 1), (1, 1),       #alpha keys
+     (0.0, 1), (1, 1),      #red keys
+     (0.0, 1),(1, 1),       #green keys
+     (0.0, 1), (1, 1),      #blue keys
+     (0, 1),   (1, 1),   #scale keys
+     (0, 0, 0),           #emit box size
+     (-6, 1, 0.0),                 #emit velocity
+     0.1,                        #emit dir randomness
+     0.1,                       #rotation speed
+     1,                        #rotation damping
+    ),
 
 ]
 
