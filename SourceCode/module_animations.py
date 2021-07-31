@@ -1930,7 +1930,7 @@ animations = [
  ["spencer_shot", acf_anim_length(100)|acf_enforce_all|acf_rot_vertical_bow, amf_priority_mount|amf_rider_rot_crossbow|amf_play|amf_client_owner_prediction,
     [1.8, "spencer_shot", 0, 7, arf_blend_in_1|arf_stick_item_to_left_hand],],
   ["bolt_action_shot", acf_anim_length(100)|acf_enforce_all|acf_rot_vertical_bow, amf_priority_mount|amf_rider_rot_crossbow|amf_play|amf_client_owner_prediction,
-    [1.6, "bolt_shot", 4, 38, arf_blend_in_1|arf_stick_item_to_left_hand],
+    [1.6, "bolt_shot", 2, 38, arf_blend_in_1|arf_stick_item_to_left_hand],
   ],
  ["Yuri_CannonRopePulling_Left", acf_enforce_lowerbody, amf_priority_fall_from_horse|amf_use_cycle_period|amf_client_prediction|amf_play,
    [2, "Yuri_CannonRopePulling_Left", 0, 32, arf_use_walk_progress|arf_cyclic|arf_make_walk_sound,pack2f(0.4,0.9), (0, 0, 0), 0.4], 

@@ -1047,7 +1047,7 @@
  spencer_shot 1678771200 570437696  1
   1.800000 spencer_shot 0 7 67108866 0 0.0 0.0 0.0 0.0 
  bolt_action_shot 1678771200 570437696  1
-  1.600000 bolt_shot 4 38 67108866 0 0.0 0.0 0.0 0.0 
+  1.600000 bolt_shot 2 38 67108866 0 0.0 0.0 0.0 0.0 
  Yuri_CannonRopePulling_Left 256 51380305  1
   2.000000 Yuri_CannonRopePulling_Left 0 32 805306624 58726 0.000000 0.000000 0.000000  0.400000 
  Yuri_CannonRopePulling_Right 256 51380305  1

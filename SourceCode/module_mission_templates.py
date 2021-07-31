@@ -21,32 +21,45 @@ pilgrim_disguise = [itm_ammo_pistol, itm_dagger, itm_sidearm_colt_m1851_navy, it
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
 iron_sight_runtime = (
-0, 0, 0, [],
-[
-# (get_player_agent_no, ":player"),
-# (agent_get_animation, ":animation", ":player", 1),
-	# (try_begin),
-	# (this_or_next|eq, ":animation", "anim_release_crossbow"),
-	# (this_or_next|eq, ":animation", "anim_release_musket"),
-	# (this_or_next|eq, ":animation", "anim_ready_crossbow"),
-	# (eq, ":animation", "anim_ready_musket"),
-	# (assign, "$ironsight_mode", 1),
-	# (mission_cam_set_mode, 1, 0, 0),
-	# (else_try),
-	# (eq, "$ironsight_mode", 1),
-	# (assign, "$ironsight_mode", 0),
-	# (mission_cam_set_mode, 0, 300, 0),
-	# (try_end),
-	# (try_begin),
-	# (eq, "$ironsight_mode", 1),
-	# (agent_get_bone_position, pos1, ":player", 19, 1),
-	# (position_rotate_y, pos1, -90),
-	# (position_move_y, pos1, -10),
-	# (position_move_z, pos1, 10),
-	# (mission_cam_set_position, pos1),
-	# (try_end),
-
-])
+0, 0, 0, [
+(eq, "$ironsight_enabled", 1),
+(get_player_agent_no, ":player"),
+(agent_get_animation, ":animation", ":player", 1),
+	(try_begin),
+	(this_or_next|eq, ":animation", "anim_bolt_shot_straightpull"),
+	(this_or_next|eq, ":animation", "anim_bolt_action_shot"),
+	(this_or_next|eq, ":animation", "anim_release_crossbow"),
+	(this_or_next|eq, ":animation", "anim_release_musket"),
+	(this_or_next|eq, ":animation", "anim_ready_crossbow"),
+	(eq, ":animation", "anim_ready_musket"),
+	(is_camera_in_first_person),
+	(assign, "$ironsight_mode", 1),
+	(mission_cam_set_mode, 1, 0, 0),
+	(else_try),
+	(eq, "$ironsight_mode", 1),
+	(assign, "$ironsight_mode", 0),
+	(mission_cam_set_mode, 0, 300, 0),
+	(try_end),
+	(try_begin),
+	(eq, "$ironsight_mode", 1),
+		(try_begin),
+		(this_or_next|eq, ":animation", "anim_bolt_shot_straightpull"),
+		(this_or_next|eq, ":animation", "anim_lever_action_shot"),
+		(eq, ":animation", "anim_bolt_action_shot"),
+		(agent_get_bone_position, pos1, ":player", 14, 1),
+		(position_rotate_y, pos1, -90),
+		(position_move_y, pos1, -44),
+		(position_move_z, pos1, 9),
+		(mission_cam_set_position, pos1),
+		(else_try),
+		(agent_get_bone_position, pos1, ":player", 19, 1),
+		(position_rotate_y, pos1, -90),
+		(position_move_y, pos1, -10),
+		(position_move_z, pos1, 9),
+		(mission_cam_set_position, pos1),
+		(try_end),
+	(try_end),
+],[])
 
 mg_1000ms = (
 1, 0, 0, [],
@@ -780,10 +793,10 @@ ti_on_order_issued, 0, 0, [],
 	(store_add, ":slot_team_discipline", slot_team_company1_discipline, ":company"),
 	(team_get_slot, ":discipline", "$g_player_team", ":slot_team_discipline"),
 		(try_begin),
-		(lt, ":discipline", 5000),
-		(display_message, "@{s1} cannot change formation - discipline level is less than 50%.", 0xFF0000),
+		(lt, ":discipline", 3500),
+		(display_message, "@{s1} cannot change formation - discipline level is less than 30%.", 0xFF0000),
 		(try_end),
-	(ge, ":discipline", 5000),
+	(ge, ":discipline", 3500),
 	(store_add, ":slot_team_formation", slot_team_company1_formation, ":company"),
 	(team_set_slot, "$g_player_team", ":slot_team_formation", ":order"),
 	(call_script, "script_company_play_vo", "$g_player_team", ":company", vo_type_yes_sir),
@@ -8256,13 +8269,6 @@ mission_templates = [
       common_battle_order_panel,
       common_battle_order_panel_tick,
       
-      ##################################################
-##### troop_ratio_bar
-##################################################
-      (0, 0, ti_once, [], [(start_presentation, "prsnt_troop_ratio_bar")]),
-##################################################
-##### troop_ratio_bar
-##################################################
       
     ]
 + parabellum_script_set_battle,

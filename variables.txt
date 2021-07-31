@@ -1219,6 +1219,7 @@ declare_war_chosen_faction
 war_supports_allies
 pws_n_precipitation
 pws_n_clouds
+ironsight_enabled
 g_old_faction
 peace_negotiations_ai_offer
 g_game_speed

@@ -1,4 +1,4 @@
-1058
+1060
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -650,7 +650,7 @@ qstr_{s1}_cannot_change_fo {s1}_cannot_change_formation_-_you_need_to_research_A
 qstr_{s1}_cannot_change_for {s1}_cannot_change_formation_-_you_need_to_research_Skirmish_Line_Tactics_technology_to_apply_dense_line_formation.
 qstr_{s1}_cannot_change_form {s1}_cannot_change_formation_-_you_need_to_research_Adaptive_Training_technology_to_apply_extended_line_formation.
 qstr_{s1}_cannot_change_forma {s1}_cannot_change_formation_-_you_need_to_research_Skirmish_Line_Tactics_technology_to_apply_line_formation.
-qstr_{s1}_cannot_change_format {s1}_cannot_change_formation_-_discipline_level_is_less_than_50%.
+qstr_{s1}_cannot_change_format {s1}_cannot_change_formation_-_discipline_level_is_less_than_30%.
 qstr_day day
 qstr_cloud1 cloud1
 qstr_cloud2 cloud2
@@ -770,6 +770,8 @@ qstr_Player_honor_is_incr Player_honor_is_increased_by_1_and_it_is_now_{reg7}.
 qstr_north_region north_region
 qstr_middle_region middle_region
 qstr_south_region south_region
+qstr_Ironsight_mode_disab Ironsight_mode_disabled.
+qstr_Ironsight_mode_enabl Ironsight_mode_enabled.
 qstr_{reg1}_{s1}_{reg2?ac {reg1}_{s1}_{reg2?accept:accepts}_the_offer.
 qstr_No_one_accepts_the_o No_one_accepts_the_offer.
 qstr_You_start_reading_{s You_start_reading_{s2}._After_a_few_pages,_you_feel_you_could_learn_a_lot_from_this_book._You_decide_to_keep_it_close_by_and_read_whenever_you_have_the_time.

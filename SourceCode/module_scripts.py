@@ -58,6 +58,7 @@ scripts = [
 (assign, "$preferred_ai_party_size", 80),
 (assign, "$pps_menu_selected_faction", -1),
 (assign, "$async_simple_trigger32", 0),
+(assign, "$ironsight_enabled", 0),
    
    	  ## ZZ Custom Kingdom Troops begin
 	  (call_script,"script_item_detial"),
@@ -43821,6 +43822,7 @@ scripts = [
 	
 	(store_script_param, ":troop_no", 1),
 	
+    (try_begin),
 	(troop_get_slot, ":party_no", ":troop_no", slot_troop_leaded_party),
     #(party_get_slot, ":our_strength", ":party_no", slot_party_cached_strength),
     #(store_div, ":min_strength_behind", ":our_strength", 2),
@@ -43862,6 +43864,7 @@ scripts = [
     (call_script, "script_party_get_ideal_size", ":party_no"),
     (assign, ":ideal_size", reg0),
     (store_mul, ":party_strength_as_percentage_of_ideal", ":party_fit_for_battle", 100),
+	(neq, ":ideal_size", 0),
     (val_div, ":party_strength_as_percentage_of_ideal", ":ideal_size"),
     (try_begin),
       (faction_slot_eq, ":faction_no", slot_faction_num_towns, 0),
@@ -43870,6 +43873,7 @@ scripts = [
     (else_try),
       (party_get_num_prisoners, ":num_prisoners", ":party_no"),
       (val_max, ":party_fit_for_battle", 1), #avoid division by zero error
+	(neq, ":party_fit_for_battle", 0),
       (store_div, ":party_ratio_of_prisoners", ":num_prisoners", ":party_fit_for_battle"),
     (try_end),
 				
@@ -44085,6 +44089,7 @@ scripts = [
         (try_begin),
           (gt, ":total_vassals", 0),
           (store_mul, ":ratio_of_vassals_assembled", ":vassals_already_assembled", 100),
+	(neq, ":total_vassals", 0),
           (val_div, ":ratio_of_vassals_assembled", ":total_vassals"),
         (try_end),
           
@@ -45233,6 +45238,7 @@ scripts = [
 			
     (assign, reg0, ":action"),
 	(assign, reg1, ":object"),  	
+    (try_end),        
 	]),
 	
 	#script_npc_decision_checklist_troop_follow_or_not
@@ -60959,7 +60965,8 @@ scripts = [
 			(val_add, ":bullets", 1),
 			(else_try),
 			(gt, ":bullets", 1),
-			(agent_is_in_line_of_sight, ":target", pos1),
+			(agent_get_bone_position, pos2, ":target", 9, 1),
+			(position_has_line_of_sight_to_position, pos1, pos2),
 			(val_sub, ":bullets", 1),
 			(agent_get_team, ":team", ":agent"), (agent_get_division, ":company", ":agent"), (team_get_hold_fire_order, ":order", ":team", ":company"),
 			(eq, ":order", aordr_fire_at_will),
@@ -60976,8 +60983,6 @@ scripts = [
 	(agent_set_slot, ":agent", slot_agent_mg_bullets, ":bullets"),
 		(try_begin),
 		(prop_instance_is_valid, ":mg_barrel"),
-		(agent_is_active, ":target"),
-		(agent_is_alive, ":target"),
 		(agent_get_look_position, pos2, ":agent"),
 		(prop_instance_get_position, pos3, ":mg_barrel"),
 		(position_copy_rotation, pos3, pos2),
@@ -61090,9 +61095,8 @@ scripts = [
 				(val_add, ":total_number", ":number"),
 				(try_end),
 			(ge, ":total_number", cannons_limit-mg_limit),
-			(assign, ":number_to_remove", mg_limit),
 				(try_for_range, ":troop", "trp_factionplayer_fieldgun_cannoneer_officer", "trp_cannoneers_end"),
-				(party_remove_members, ":party", ":troop", ":number_to_remove"),
+				(party_remove_members, ":party", ":troop", 1),
 				(try_end),
 			(try_end),
 		(try_end),
