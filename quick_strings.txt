@@ -1,4 +1,4 @@
-1057
+1058
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -353,8 +353,9 @@ qstr_Lever_action_shotgun Lever_action_shotgun_(6_rounds)
 qstr_Lever_action_shotgun_ Lever_action_shotgun_(1_round)
 qstr_Bolt_action_magazine Bolt-action_magazine_rifle_(5_rounds)
 qstr_Straight_pull_bolt_a Straight-pull_bolt-action^magazine_rifle_(5_rounds)
-qstr_Bolt_action_magazine_ Bolt-action_magazine_rifle_(8_rounds)
-qstr_Bolt_action_magazine_r Bolt-action_magazine_rifle_(10_rounds)
+qstr_Bolt_action_magazine_ Bolt-action_magazine_rifle_(4_rounds)
+qstr_Bolt_action_magazine_r Bolt-action_magazine_rifle_(8_rounds)
+qstr_Bolt_action_magazine_ri Bolt-action_magazine_rifle_(10_rounds)
 qstr_Pocket_Pistol__6_rou Pocket_Pistol_(6_rounds)
 qstr_Pocket_Pistol__4_rou Pocket_Pistol_(4_rounds)
 qstr_Breech_loaded_rifle Breech_loaded_rifle
