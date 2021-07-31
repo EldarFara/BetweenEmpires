@@ -4980,6 +4980,20 @@ simple_triggers = [
    [
 	(assign, "$pes_start_new_iteration_cycle", 1),
     ]),
+	
+  (0,
+   [
+	(val_clamp, "$async_simple_trigger34", kingdoms_begin, kingdoms_end),
+	(val_add, "$async_simple_trigger34", 1),
+	(try_begin),	
+	(ge, "$async_simple_trigger34", kingdoms_end),
+	(assign, "$async_simple_trigger34", kingdoms_begin),
+	(try_end),
+	(try_begin),
+	(assign, ":faction", "$async_simple_trigger34"),
+	(call_script, "script_faction_get_machineguns", ":faction"),
+	(try_end),
+    ]),
 ]
 
 

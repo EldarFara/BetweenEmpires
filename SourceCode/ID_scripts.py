@@ -765,5 +765,7 @@ script_mg_undeploy = 763
 script_mg_decide_fire = 764
 script_mg_fire = 765
 script_add_penaltytodiscipline_fromfire_to_target_of_agent = 766
+script_faction_get_machineguns = 767
+script_cf_if_party_has_low_mg_amount = 768
 
 

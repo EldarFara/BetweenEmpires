@@ -2062,6 +2062,7 @@ slot_team_company5_pai_digin_timer                       = 248
 slot_team_company6_pai_digin_timer                       = 249
 slot_team_company7_pai_digin_timer                       = 250
 slot_team_company8_pai_digin_timer                       = 251
+slot_team_pai_mg_company_number    = 252
 
 #Rebellion changes end
 # character backgrounds
