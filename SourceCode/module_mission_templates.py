@@ -20,6 +20,33 @@ from header_skills import *
 pilgrim_disguise = [itm_ammo_pistol, itm_dagger, itm_sidearm_colt_m1851_navy, itm_clothes_urban_male_trousers1, itm_civilian_hat1, itm_clothes_urban_male1]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
+iron_sight_runtime = (
+0, 0, 0, [],
+[
+(get_player_agent_no, ":player"),
+(agent_get_animation, ":animation", ":player", 1),
+	(try_begin),
+	(this_or_next|eq, ":animation", "anim_release_crossbow"),
+	(this_or_next|eq, ":animation", "anim_release_musket"),
+	(this_or_next|eq, ":animation", "anim_ready_crossbow"),
+	(eq, ":animation", "anim_ready_musket"),
+	(assign, "$ironsight_mode", 1),
+	(mission_cam_set_mode, 1, 0, 0),
+	(else_try),
+	(eq, "$ironsight_mode", 1),
+	(assign, "$ironsight_mode", 0),
+	(mission_cam_set_mode, 0, 300, 0),
+	(try_end),
+	(try_begin),
+	(eq, "$ironsight_mode", 1),
+	(agent_get_bone_position, pos1, ":player", 19),
+	(position_move_y, pos1, -20),
+	(position_move_z, pos1, 15),
+	(mission_cam_set_position, pos1),
+	(try_end),
+
+])
+
 mg_1000ms = (
 1, 0, 0, [],
 [
@@ -4159,6 +4186,7 @@ battle_start = (
 (assign, "$bugle_cooldown", 0),
 (assign, "$voices", 0),
 (assign, "$aerial_view_hol_pos_order_timer", 0),
+(assign, "$ironsight_mode", 0),
 ])
 
 pai_calculate_company_average_coordinates_async = (0, 0.1, 0, [
@@ -5670,6 +5698,7 @@ ams = (ti_after_mission_start, 0, 0, [
 parabellum_script_set_battle = [
 ams,
 bms,
+iron_sight_runtime,
 mg_1000ms,
 mg_runtime,
 digin_1000ms,

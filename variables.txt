@@ -1224,6 +1224,7 @@ peace_negotiations_ai_offer
 g_game_speed
 preferred_ai_party_size
 g_battle_type
+ironsight_mode
 g_rain_intensity
 g_rain_state
 g_rain_position_modifier
