@@ -4217,7 +4217,6 @@ simple_triggers = [
 (val_clamp, "$g_days_until_next_year", 0, "$g_game_speed"),
 (eq, "$g_days_until_next_year", 0),
 (assign, "$g_days_until_next_year", "$g_game_speed"),
-#(le, "$g_current_year", 1896),
 (val_add, "$g_current_year", 1),
 (assign, reg0, "$g_current_year"),
 (display_message, "@The year is {reg0}.", 0x8ae2ff),

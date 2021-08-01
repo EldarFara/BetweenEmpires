@@ -43,7 +43,7 @@ game_menus = [
     [
      ("continue",[],"Continue...",
        [
-	   (jump_to_menu, "mnu_start_game_ai_party_size_selection"),
+	   (jump_to_menu, "mnu_start_game_choose_date"),
         ]
        ),
       ("go_back",[],"Go back",
@@ -206,54 +206,8 @@ game_menus = [
     [
       (assign, "$g_custom_battle_scenario", 0),
       (assign, "$g_custom_battle_scenario", "$g_custom_battle_scenario"),
-##      #Default banners
-##      (troop_set_slot, "trp_banner_background_color_array", 126, 0xFF212221),
-##      (troop_set_slot, "trp_banner_background_color_array", 127, 0xFF212221),
-##      (troop_set_slot, "trp_banner_background_color_array", 128, 0xFF2E3B10),
-##      (troop_set_slot, "trp_banner_background_color_array", 129, 0xFF425D7B),
-##      (troop_set_slot, "trp_banner_background_color_array", 130, 0xFF394608),
       ],
     [
-##      ("custom_battle_scenario_1",[], "Skirmish 1",
-##       [
-##           (assign, "$g_custom_battle_scenario", 0),
-##           (jump_to_menu, "mnu_custom_battle_2"),
-##
-##        ]
-##       ),
-####      ("custom_battle_scenario_2",[],"Siege Attack 1",
-####       [
-####           (assign, "$g_custom_battle_scenario", 1),
-####           (jump_to_menu, "mnu_custom_battle_2"),
-####
-####        ]
-####       ),
-##      ("custom_battle_scenario_3",[],"Skirmish 2",
-##       [
-##           (assign, "$g_custom_battle_scenario", 1),
-##           (jump_to_menu, "mnu_custom_battle_2"),
-##
-##        ]
-##       ),
-##       ("custom_battle_scenario_4",[],"Siege Defense",
-##       [
-##           (assign, "$g_custom_battle_scenario", 2),
-##           (jump_to_menu, "mnu_custom_battle_2"),
-##        ]
-##       ),
-##       ("custom_battle_scenario_5",[],"Skirmish 3",
-##       [
-##           (assign, "$g_custom_battle_scenario", 3),
-##           (jump_to_menu, "mnu_custom_battle_2"),
-##        ]
-##       ),
-##      ("custom_battle_scenario_6",[],"Siege Attack",
-##       [
-##           (assign, "$g_custom_battle_scenario", 4),
-##           (jump_to_menu, "mnu_custom_battle_2"),
-##
-##        ]
-##       ),
       ("go_back",[],"Go back",
        [(change_screen_quit), 
         ]
@@ -996,7 +950,7 @@ game_menus = [
        ),
 	  ("go_back",[],"Go back",
        [
-	     (jump_to_menu,"mnu_start_game_ai_party_size_selection"),
+	     (jump_to_menu,"mnu_start_game_speed_selection"),
        ]),
     ]
   ),
@@ -14434,6 +14388,35 @@ the high lords and common folk across the many realms of Europe."),
        ),
       ]
   ),
+  
+  (
+    "start_game_choose_date",mnf_disable_all_keys,
+    "Choose game starting date. It affects coutries military technology level as well as countries borders (only affects technology level for now).",
+    "none",
+    [],
+    [
+      ("go_back",[],"1860.",
+       [
+	   (jump_to_menu, "mnu_start_game_ai_party_size_selection"),
+        ]
+		),
+      ("go_back",[],"1890.",
+       [
+	(try_for_range, ":faction", "fac_player_faction", kingdoms_end),
+		(try_for_range, ":technology", slot_faction_technology_earlyshells, slot_faction_technology_riflesrifled+1),
+		(faction_set_slot, ":faction",  ":technology", 10000),
+		(try_end),
+	(try_end),
+	(assign, "$g_current_year", 1890),
+	(jump_to_menu, "mnu_start_game_ai_party_size_selection"),
+        ]
+		),
+      ("go_back",[],"Go back",
+       [(change_screen_quit), 
+        ]
+		),
+    ]
+  ),
 
   ("start_game_speed_selection",menu_text_color(0xFF000000)|mnf_disable_all_keys,
     "Select game speed. You will be able to change it later in the game. Game speed affects how fast countries will develop their military technology and start using more advanced firearms.",
@@ -14522,7 +14505,7 @@ the high lords and common folk across the many realms of Europe."),
        ),
 	  ("go_back",[],"Go back",
        [
-	     (jump_to_menu,"mnu_start_game_0"),
+	     (jump_to_menu,"mnu_start_game_choose_date"),
        ]),
     ]
   ),
