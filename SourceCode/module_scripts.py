@@ -59,6 +59,7 @@ scripts = [
 (assign, "$pps_menu_selected_faction", -1),
 (assign, "$async_simple_trigger32", 0),
 (assign, "$ironsight_enabled", 0),
+(assign, "$ironsight_mode", 0),
    
    	  ## ZZ Custom Kingdom Troops begin
 	  (call_script,"script_item_detial"),
@@ -1722,7 +1723,7 @@ scripts = [
         (store_add, ":cur_object_no", "scn_town_1_center", ":offset"),
 		(store_faction_of_party, ":faction", ":town_no"),
 		(party_set_slot,":town_no", slot_town_center, "scn_town_european_center"),
-		(party_set_slot,":town_no", slot_town_walls, "scn_town_european_walls"),
+		(party_set_slot,":town_no", slot_town_walls, "scn_town_european_walls2"),
 			(try_begin),
 			(this_or_next|eq, ":faction", "fac_kingdom_10"),
 			(this_or_next|eq, ":faction", "fac_kingdom_14"),
@@ -1780,7 +1781,7 @@ scripts = [
 #        (party_set_slot,":castle_no", slot_town_seneschal, ":senechal_troop_no"),
        # (store_add, ":exterior_scene_no", "scn_castle_1_exterior", ":offset"),
        # (party_set_slot,":castle_no", slot_castle_exterior, ":exterior_scene_no"),
-        (party_set_slot,":castle_no", slot_castle_exterior, "scn_town_european_walls"),
+        (party_set_slot,":castle_no", slot_castle_exterior, "scn_town_european_walls2"),
 			(try_begin),
 			(this_or_next|eq, ":faction", "fac_kingdom_10"),
 			(this_or_next|eq, ":faction", "fac_kingdom_14"),
