@@ -39,7 +39,7 @@ def density(g):
 
 
 fauna_kinds = [
-("grass",fkf_grass|fkf_on_green_ground|fkf_guarantee|fkf_align_with_ground|fkf_point_up|fkf_plain|fkf_plain_forest|fkf_steppe|fkf_steppe_forest|density(1000),[["grass1","0"],["grass2","0"],["grass3","0"],["grass4","0"],["grass5","0"]]),
+("grass2",fkf_grass|fkf_on_green_ground|fkf_guarantee|fkf_align_with_ground|fkf_point_up|fkf_plain|fkf_plain_forest|fkf_steppe|fkf_steppe_forest|density(0),[["grass1","0"],["grass2","0"],["grass3","0"],["grass4","0"],["grass5","0"]]),
 ("bush1",fkf_plain|fkf_plain_forest|fkf_steppe|fkf_steppe_forest|density(0),[["bush1","0"]]),
 ("bush2",fkf_plain|fkf_plain_forest|fkf_steppe|fkf_steppe_forest|density(0),[["bush2","0"]]),
 ("bush3",fkf_plain|fkf_plain_forest|fkf_steppe|fkf_steppe_forest|density(0),[["bush3_1","0"], ["bush3_2","0"], ["bush3_3","0"], ["bush3_4","0"], ["bush3_5","0"], ["bush3_6","0"], ["bush3_7","0"]]),
@@ -48,6 +48,26 @@ fauna_kinds = [
 ("flower2",fkf_plain|fkf_plain_forest|fkf_steppe|fkf_steppe_forest|density(0),[["flower2_1","0"]]),
 ("flower3",fkf_plain|fkf_plain_forest|fkf_steppe|fkf_steppe_forest|density(0),[["flower3_1","0"]]),
 ("flower4",fkf_plain|fkf_plain_forest|fkf_steppe|fkf_steppe_forest|density(0),[["flower4_1","0"]]),
+
+  ("grass", density(1500)|fkf_plain|fkf_plain_forest|fkf_point_up|fkf_align_with_ground|fkf_grass|fkf_on_green_ground|fkf_guarantee, [["grass_a", "0"],["grass_b", "0"],["grass_c", "0"],["grass_d", "0"],["grass_e", "0"]]),
+  ("grass_bush", density(10)|fkf_plain|fkf_steppe|fkf_steppe_forest|fkf_align_with_ground|fkf_grass, [["grass_bush_a", "0"],["grass_bush_b", "0"]]),
+  ("grass_saz", density(500)|fkf_plain|fkf_steppe|fkf_steppe_forest|fkf_grass|fkf_on_green_ground, [["grass_bush_c", "0"],["grass_bush_d", "0"]]),
+  ("grass_purple", density(500)|fkf_plain|fkf_steppe|fkf_steppe_forest|fkf_grass, [["grass_bush_e", "0"],["grass_bush_f", "0"]]),
+  ("fern", density(1000)|fkf_plain_forest|fkf_align_with_ground|fkf_grass, [["fern_a", "0"],["fern_b", "0"]]),
+  ("grass_steppe", density(1500)|fkf_steppe|fkf_steppe_forest|fkf_point_up|fkf_align_with_ground|fkf_grass|fkf_on_green_ground|fkf_guarantee, [["grass_yellow_a", "0"],["grass_yellow_b", "0"],["grass_yellow_c", "0"],["grass_yellow_d", "0"],["grass_yellow_e", "0"]]),
+  ("grass_bush_g", density(400)|fkf_plain|fkf_steppe|fkf_plain_forest|fkf_steppe_forest|fkf_align_with_ground|fkf_grass, [["grass_bush_g01", "0"],["grass_bush_g02", "0"],["grass_bush_g03", "0"]]),
+  ("grass_bush_h", density(400)|fkf_plain|fkf_plain_forest|fkf_align_with_ground|fkf_grass, [["grass_bush_h01", "0"],["grass_bush_h02", "0"],["grass_bush_h03", "0"]]),
+  ("grass_bush_i", density(400)|fkf_plain|fkf_plain_forest|fkf_align_with_ground|fkf_grass, [["grass_bush_i01", "0"],["grass_bush_i02", "0"]]),
+  ("grass_bush_j", density(400)|fkf_plain|fkf_steppe|fkf_plain_forest|fkf_steppe_forest|fkf_align_with_ground|fkf_grass, [["grass_bush_j01", "0"],["grass_bush_j02", "0"]]),
+  ("grass_bush_k", density(400)|fkf_plain|fkf_plain_forest|fkf_align_with_ground|fkf_grass, [["grass_bush_k01", "0"],["grass_bush_k02", "0"]]),
+  ("grass_bush_l", density(50)|fkf_plain|fkf_plain_forest|fkf_align_with_ground, [["grass_bush_l01", "0"],["grass_bush_l02", "0"]]),
+  ("thorn_a", density(50)|fkf_plain|fkf_plain_forest|fkf_align_with_ground, [["thorn_a", "0"],["thorn_b", "0"],["thorn_c", "0"],["thorn_d", "0"]]),
+  ("basak", density(70)|fkf_plain|fkf_steppe|fkf_plain_forest|fkf_steppe_forest, [["basak", "0"]]),
+  ("common_plant", density(70)|fkf_plain|fkf_steppe|fkf_plain_forest|fkf_steppe_forest, [["common_plant", "0"]]),
+  ("yellow_flower", density(50)|fkf_plain|fkf_steppe|fkf_plain_forest|fkf_steppe_forest|fkf_align_with_ground, [["yellow_flower", "0"],["yellow_flower_b", "0"]]),
+  ("spiky_plant", density(50)|fkf_plain|fkf_steppe|fkf_plain_forest|fkf_steppe_forest|fkf_align_with_ground, [["spiky_plant", "0"]]),
+  ("blue_flower", density(30)|fkf_plain|fkf_steppe|fkf_plain_forest|fkf_steppe_forest, [["blue_flower", "0"]]),
+  ("big_bush", density(30)|fkf_plain|fkf_steppe|fkf_plain_forest|fkf_steppe_forest, [["big_bush", "0"]]),
 
 ]
 
