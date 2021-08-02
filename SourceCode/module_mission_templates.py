@@ -20,6 +20,33 @@ from header_skills import *
 pilgrim_disguise = [itm_ammo_pistol, itm_dagger, itm_sidearm_colt_m1851_navy, itm_clothes_urban_male_trousers1, itm_civilian_hat1, itm_clothes_urban_male1]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
+player_hp_regen_hit = (
+ti_on_agent_hit, 0, 0, [],
+[
+(store_trigger_param_1, ":agent"),
+(agent_is_active, ":agent"), (agent_is_active, ":agent"),
+(get_player_agent_no, ":player"),
+(eq, ":player", ":agent"),
+(assign, "$hp_regen_timer", 50),
+],[])
+
+player_hp_regen_100ms = (
+0.1, 0, 0, [],
+[
+	(try_begin),
+	(gt, "$hp_regen_timer", 0),
+	(val_sub, "$hp_regen_timer", 1),
+	(try_end),
+	(try_begin),
+	(eq, "$hp_regen_timer", 0),
+	(get_player_agent_no, ":player"),
+	(store_agent_hit_points, ":hp", ":player", 0),
+	(lt, ":hp", 100),
+	(val_add, ":hp", 1),
+	(agent_set_hit_points, ":player", ":hp", 0),
+	(try_end),
+],[])
+
 iron_sight_runtime = (
 0, 0, 0, [
 (eq, "$ironsight_enabled", 1),
@@ -95,7 +122,7 @@ iron_sight_runtime = (
 		(this_or_next|eq, ":animation", "anim_lever_action_shot"),
 		(eq, ":animation", "anim_bolt_action_shot"),
 		(eq, "$ironsight_timer2", 0),
-		(assign, "$ironsight_timer", 9),
+		(assign, "$ironsight_timer", 14),
 		(assign, "$ironsight_timer2", 9999999),
 		(try_end),
 	(try_end),
@@ -225,18 +252,6 @@ vo_500ms = (
 
 pai_start = (9, 0, ti_once, [
 (set_fixed_point_multiplier, 1),
-	(try_begin),
-	(eq, "$defenders_team", "$g_player_team"),
-	(assign, "$ai_defender_team", "$g_allies_team"),
-	(assign, "$nai_defender_team", "$g_player_team"),
-	(assign, "$ai_attacker_team", "$g_enemy_team"),
-	(assign, "$nai_attacker_team", -1),
-	(else_try),
-	(assign, "$ai_defender_team", "$g_enemy_team"),
-	(assign, "$nai_defender_team", -1),
-	(assign, "$ai_attacker_team", "$g_allies_team"),
-	(assign, "$nai_attacker_team", "$g_player_team"),
-	(try_end),
 	(try_begin),
 	(eq, "$g_battle_type", battle_type_siege),
 	(team_set_slot, "$ai_defender_team", slot_team_pai_global_tactic, pai_global_tactic_siege_defend_initial),
@@ -1058,12 +1073,17 @@ carbine_melee_mode_fix = (
 ])
 
 player_accuracy_modifier = (
-1, 0, 0, [],
+0, 0, 0, [],
 [
 (get_player_agent_no, ":player"),
 (agent_is_active, ":player"),
 (agent_is_alive, ":player"),
-(agent_set_accuracy_modifier, ":player", 850),
+	(try_begin),
+	(eq, "$ironsight_mode", 1),
+	(agent_set_accuracy_modifier, ":player", 500),
+	(else_try),
+	(agent_set_accuracy_modifier, ":player", 85),
+	(try_end),
 ])
 
 ammo_refill = (
@@ -1913,6 +1933,13 @@ ti_on_agent_hit, 0, 0, [],
 		(eq, ":options_damage_to_player", 1),
 		(val_div, ":damage", 2),
 		(try_end),
+	(try_end),
+	(try_begin),
+	(eq, "$g_battle_type", battle_type_siege),
+	(agent_is_defender, ":agent"),
+	(ge, ":distance", 10),
+	(agent_is_non_player, ":attacker"),
+	(val_div, ":damage", 2),
 	(try_end),
 (set_trigger_result, ":damage"),
 ])
@@ -4408,6 +4435,18 @@ player_spawn = (ti_on_agent_spawn, 0, 0, [
 	(assign, "$attackers_team_2", 3),   
 	(try_end),
 	(try_begin),
+	(eq, "$defenders_team", "$g_player_team"),
+	(assign, "$ai_defender_team", "$g_allies_team"),
+	(assign, "$nai_defender_team", "$g_player_team"),
+	(assign, "$ai_attacker_team", "$g_enemy_team"),
+	(assign, "$nai_attacker_team", -1),
+	(else_try),
+	(assign, "$ai_defender_team", "$g_enemy_team"),
+	(assign, "$nai_defender_team", -1),
+	(assign, "$ai_attacker_team", "$g_allies_team"),
+	(assign, "$nai_attacker_team", "$g_player_team"),
+	(try_end),
+	(try_begin),
 	(eq, "$g_battle_type", battle_type_siege),
 	(team_set_slot, "$defenders_team", slot_team_company1_type, pbs_troop_type_line),
 	(team_set_slot, "$defenders_team", slot_team_company2_type, pbs_troop_type_line),
@@ -5767,6 +5806,8 @@ ams = (ti_after_mission_start, 0, 0, [
 parabellum_script_set_battle = [
 ams,
 bms,
+player_hp_regen_hit,
+player_hp_regen_100ms,
 iron_sight_runtime,
 iron_sight_100ms,
 mg_1000ms,

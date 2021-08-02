@@ -11564,7 +11564,7 @@ presentations = [
             (agent_set_slot, ":cur_agent", slot_agent_map_overlay_id, 0),
           (try_end),
           (presentation_set_duration, 0),
-          (start_presentation, "prsnt_troop_ratio_bar"),
+         # (start_presentation, "prsnt_troop_ratio_bar"),
         (try_end),
         ]),
       ]),

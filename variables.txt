@@ -1226,6 +1226,7 @@ g_current_year
 g_game_speed
 preferred_ai_party_size
 g_battle_type
+hp_regen_timer
 ironsight_mode
 ironsight_timer
 ironsight_timer2
@@ -1269,12 +1270,12 @@ defenders_team
 defenders_team_2
 attackers_team
 attackers_team_2
-ignore_script_game_missile_launch
-player_fanning_timer
 ai_defender_team
 nai_defender_team
 ai_attacker_team
 nai_attacker_team
+ignore_script_game_missile_launch
+player_fanning_timer
 g_ccoop_disallow_horses
 g_presentation_obj_coop_companion_0
 g_presentation_obj_coop_companion_1
