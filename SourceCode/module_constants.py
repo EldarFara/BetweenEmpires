@@ -9,7 +9,7 @@ from ID_parties import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
-mg_limit = 2
+mg_limit = 3
 
 language_english = 1
 language_russian = 2
