@@ -5799,6 +5799,12 @@ pws_sky_bms = (ti_before_mission_start, 0, 0, [
 ], [])
 
 bms = (ti_before_mission_start, 0, 0, [
+	(try_begin),
+	(troop_has_item_equipped, "trp_player", "itm_yuruyuri_chinatsu"),
+	(troop_set_type, "trp_player", 2),
+	(else_try),
+	(troop_set_type, "trp_player", "$character_gender"),
+	(try_end),
 ], [])
 ams = (ti_after_mission_start, 0, 0, [
 ], [])

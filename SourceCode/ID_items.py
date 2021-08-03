@@ -1585,4 +1585,5 @@ itm_rifle_peabody = 1583
 itm_rifle_peabody_m = 1584
 itm_rifle_peabody_carbine = 1585
 itm_rifle_peabody_carbine_m = 1586
-itm_items_end = 1587
+itm_yuruyuri_chinatsu = 1587
+itm_items_end = 1588

@@ -58072,6 +58072,7 @@ scripts = [
 [
 (store_script_param, ":item", 1),
 (ge, ":item", 648),
+(neq, ":item", "itm_yuruyuri_chinatsu"),
 (neq, ":item", "itm_rifle_russian_m1856"),
 (neq, ":item", "itm_rifle_russian_m1867"),
 (neq, ":item", "itm_rifle_peabody"),
@@ -58083,6 +58084,8 @@ scripts = [
 (neq, ":item", "itm_rifle_beaumont1871_88_carbine"),
 (neq, ":item", "itm_rifle_comblain"),
 (neq, ":item", "itm_rifle_comblain_carbine"),
+(neq, ":item", "itm_rifle_kropatschek"),
+(neq, ":item", "itm_rifle_kropatschek_carbine"),
 (neq, ":item", "itm_rifle_guedes"),
 (neq, ":item", "itm_rifle_guedes_carbine"),
 (neq, ":item", "itm_rifle_russian_mosin"),

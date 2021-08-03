@@ -2425,6 +2425,9 @@ items = [
 ["rifle_peabody_carbine","Peabody Carbine", [("peabody_carbine", 0),("peabody_carbine_inv", ixmesh_inventory)], itp_type_crossbow|itp_two_handed|itp_primary, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(0)|accuracy(int(accuracy_conversion_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_conversion_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_rifle)|max_ammo(1)|thrust_damage(damage_rifle, pierce), imodbits_firearm, []],
 ["rifle_peabody_carbine_m","Peabody Carbine", [("peabody_carbine", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(20, blunt)|swing_damage(0, blunt), imodbits_none, []],
 
+["yuruyuri_chinatsu","Yuru Yuri Chinatsu Yoshikawa", [("yuruyuri_chinatsu", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_11]],
+
+
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 
 ]

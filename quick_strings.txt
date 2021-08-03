@@ -645,6 +645,7 @@ qstr_{s1}:_{reg1}% {s1}:_{reg1}%
 qstr_Ruling_party Ruling_party
 qstr_Influence:_{reg1}% Influence:_{reg1}%
 qstr_Produced_{reg1}_with Produced_{reg1}_with_{reg2}_workers,_raw_resources_multiplier_was_{reg3}.
+qstr_Bought_{reg10}_cotto Bought_{reg10}_cotton_overseas._Budget_is_now_{reg2}.
 qstr_Bought_{reg10}_from_ Bought_{reg10}_from_{s1}._Budget_is_now_{reg2}.
 qstr_In_sum_bought_{reg1} In_sum,_bought_{reg1}_out_of_{reg10}._Budget_is_now_{reg2}.
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_walking.
@@ -1063,4 +1064,3 @@ qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
 qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
-qstr_Bought_{reg10}_cotto Bought_{reg10}_cotton_overseas._Budget_is_now_{reg2}.
