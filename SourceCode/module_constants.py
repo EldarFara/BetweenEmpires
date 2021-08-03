@@ -34,19 +34,18 @@ resource_coal = 2
 resource_meat = 3
 resource_cotton = 4
 resource_flour = 5
-resource_iron = 6
-resource_wood = 7
-resource_ammunition = 8
-resource_weaponry = 9
-resource_military_supplies = 10
-resource_fabric = 11
-resource_construction_materials = 12
-resource_furniture = 13
-resource_machine_parts = 14
-resource_paper = 15
-resource_clothes = 16
-resource_timber = 17
-resource_steel = 18
+resource_wood = 6
+resource_ammunition = 7
+resource_weaponry = 8
+resource_military_supplies = 9
+resource_fabric = 10
+resource_construction_materials = 11
+resource_furniture = 12
+resource_machine_parts = 13
+resource_paper = 14
+resource_clothes = 15
+resource_timber = 16
+resource_steel = 17
 
 ideology_reactionary = 1
 ideology_liberal = 2
@@ -408,6 +407,8 @@ slot_custom_troop_wp                = 317
 custom_troop_begin = "trp_kingdom_recruit"
 custom_troop_end = "trp_array_a"
 ## ZZ Custom Kingdom Troops end
+
+slot_item_pointer_number_of_pointers   = 400
 
 ########################################################
 ##  ITEM SLOTS             #############################
@@ -1345,6 +1346,8 @@ slot_center_factory4_max_workers = pes_slots_start + 51
 slot_center_factory5_max_workers = pes_slots_start + 52
 slot_center_factory6_max_workers = pes_slots_start + 53
 slot_center_villages_resource_bonus_type = pes_slots_start + 54
+slot_center_villages_production_size = pes_slots_start + 55
+slot_center_villages_budget = pes_slots_start + 56
 
 #slot_party_type values
 ##spt_caravan            = 1
