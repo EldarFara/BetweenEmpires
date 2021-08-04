@@ -10566,7 +10566,7 @@ PS_OUTPUT ps_toon( VS_OUTPUT_TOON In )
     float4 shadow = smoothstep(0.75,0.76, dot(vSunDir, In.WorldNormal)) * ambientColor; // Basically makes a antisun to make a shadow
     float4 isLit = NdotL * sun_amount;
 
-    isLit = isLit.r > 0.15 ? float4(1,1,1,1): float4(0,0,0,1); // If under 50% shade, make it completely shaded
+    isLit = isLit.r > 0.07 ? float4(1,1,1,1): float4(0,0,0,1); // If under 50% shade, make it completely shaded
 
 
     specular = specular * pow(abs(NdotH) * smoothstep(0.75, 0.78, abs(NdotL)), fMaterialPower);
@@ -10580,7 +10580,7 @@ PS_OUTPUT ps_toon( VS_OUTPUT_TOON In )
    
     specular *= specularIntensitySmooth;
    
-    fresnel = smoothstep(0.81, 0.83, fresnel);
+    fresnel = smoothstep(0.82, 0.84, fresnel);
    
     float4 ambientSun;
     float4 ambientSky;
@@ -10599,7 +10599,7 @@ PS_OUTPUT ps_toon( VS_OUTPUT_TOON In )
 
     float sunIntensity = smoothstep(0.02, 0.05, NdotL);
 
-    float4 light = saturate(ambientColor/1.5 + ambientSun/1.5 + ambientSky/1.5 + (sunIntensity * isLit * vSunColor));
+    float4 light = saturate(ambientColor/1.4 + ambientSun/1.4 + ambientSky/1.4 + (sunIntensity * isLit * vSunColor));
    
     light -= shadow * 0.25;
 

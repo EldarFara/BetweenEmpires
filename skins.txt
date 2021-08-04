@@ -85,7 +85,7 @@ test 1
  0 
  1  womanface_young 4293062892 1 4  hair_blonde  4294967295  4289742615  4283443737  4279832588 
  4  0 snd_woman_die  4 snd_woman_yell  2 snd_woman_grunt  3 snd_woman_grunt 
- skel_human3 0.800000 
+ skel_human3 0.910000 
 2 3
 0
 
