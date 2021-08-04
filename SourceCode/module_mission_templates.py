@@ -5800,6 +5800,7 @@ pws_sky_bms = (ti_before_mission_start, 0, 0, [
 
 bms = (ti_before_mission_start, 0, 0, [
 	(try_begin),
+	(this_or_next|troop_has_item_equipped, "trp_player", "itm_be_chan1"),
 	(this_or_next|troop_has_item_equipped, "trp_player", "itm_sailor_moon_usagi_tsukino"),
 	(this_or_next|troop_has_item_equipped, "trp_player", "itm_ddlc_monika"),
 	(this_or_next|troop_has_item_equipped, "trp_player", "itm_yuruyuri_akari"),

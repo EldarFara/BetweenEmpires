@@ -58076,6 +58076,7 @@ scripts = [
 (neq, ":item", "itm_yuruyuri_akari"),
 (neq, ":item", "itm_ddlc_monika"),
 (neq, ":item", "itm_sailor_moon_usagi_tsukino"),
+(neq, ":item", "itm_be_chan1"),
 (neq, ":item", "itm_rifle_russian_m1856"),
 (neq, ":item", "itm_rifle_russian_m1867"),
 (neq, ":item", "itm_rifle_peabody"),

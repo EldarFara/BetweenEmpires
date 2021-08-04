@@ -1589,4 +1589,5 @@ itm_yuruyuri_chinatsu = 1587
 itm_yuruyuri_akari = 1588
 itm_ddlc_monika = 1589
 itm_sailor_moon_usagi_tsukino = 1590
-itm_items_end = 1591
+itm_be_chan1 = 1591
+itm_items_end = 1592
