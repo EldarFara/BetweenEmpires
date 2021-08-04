@@ -5044,19 +5044,19 @@ itemsfile version 3
  0
 0
 
- itm_rifle_italian_carcano Carcano_System_M1867_Rifle Carcano_System_M1867_Rifle 2  sniderenfield 0  sniderenfield_inv 1152921504606846976  811597833 555929845760 400 131082 4.000000 100 0 0 95 0 0 35 600 0 1 311 0
+ itm_rifle_italian_carcano Carcano_System_M1868_Rifle Carcano_System_M1868_Rifle 2  carcano1868 0  carcano1868_inv 1152921504606846976  811597833 555929845760 400 131082 4.000000 100 0 0 95 0 0 35 600 0 1 311 0
  0
 0
 
- itm_rifle_italian_carcano_m Carcano_System_M1867_Rifle Carcano_System_M1867_Rifle 1  sniderenfield 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
+ itm_rifle_italian_carcano_m Carcano_System_M1868_Rifle Carcano_System_M1868_Rifle 1  carcano1868 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
  0
 0
 
- itm_rifle_italian_carcano_carbine Carcano_System_M1867_Carbine Carcano_System_M1867_Carbine 2  sniderenfield_carbine 0  sniderenfield_carbine_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 100 0 0 80 0 0 40 600 0 1 311 0
+ itm_rifle_italian_carcano_carbine Carcano_System_M1868_Carbine Carcano_System_M1868_Carbine 2  carcano1868_carbine 0  carcano1868_carbine_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 100 0 0 80 0 0 40 600 0 1 311 0
  0
 0
 
- itm_rifle_italian_carcano_carbine_m Carcano_System_M1867_Carbine Carcano_System_M1867_Carbine 1  sniderenfield_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 80 0 532 530
+ itm_rifle_italian_carcano_carbine_m Carcano_System_M1868_Carbine Carcano_System_M1868_Carbine 1  carcano1868_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 80 0 532 530
  0
 0
 
