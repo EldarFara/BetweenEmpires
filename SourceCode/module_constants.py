@@ -9,6 +9,16 @@ from ID_parties import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+pes_region_menu_overlay_factory_name = 1
+pes_region_menu_overlay_factory_workers_number = 2
+pes_region_menu_overlay_factory_photo = 3
+pes_region_menu_overlay_factory_budget = 4
+pes_region_menu_overlay_factory_card = 5
+pes_region_menu_overlay_factory_add = 6
+pes_region_menu_overlay_factory_income = 7
+pes_region_menu_overlay_factory_spent = 8
+pes_region_menu_overlay_factory_earnt = 9
+
 mg_limit = 3
 
 language_english = 1
@@ -301,6 +311,8 @@ YuriSlotProp_CannonballHEType = YuriSlotProp_Cannoneer1 + 28
 YuriSlotProp_CannonballFuseBallTimer = YuriSlotProp_Cannoneer1 + 29
 slot_prop_is_occupied = YuriSlotProp_Cannoneer1 + 30
 slot_prop_agent_attached = YuriSlotProp_Cannoneer1 + 31
+slot_prop_pss_next_route_prop = YuriSlotProp_Cannoneer1 + 32
+slot_prop_pss_previous_route_prop = YuriSlotProp_Cannoneer1 + 33
 
 square_forming_phase_outer_square1 = 0
 square_forming_phase_outer_square2 = 1
@@ -516,6 +528,9 @@ slot_agent_prop2      = 50
 slot_agent_mg_is_deployed      = 51
 slot_agent_mg_bullets      = 52
 slot_agent_mg_bullets_timer      = 53
+slot_agent_pss_current_route_prop      = 54
+slot_agent_pss_current_direction      = 55
+slot_agent_pss_wide_offset      = 56
 
 ########################################################
 ##  FACTION SLOTS          #############################
@@ -1348,6 +1363,30 @@ slot_center_factory6_max_workers = pes_slots_start + 53
 slot_center_villages_resource_bonus_type = pes_slots_start + 54
 slot_center_villages_production_size = pes_slots_start + 55
 slot_center_villages_budget = pes_slots_start + 56
+slot_center_factory1_income = pes_slots_start + 57
+slot_center_factory2_income = pes_slots_start + 58
+slot_center_factory3_income = pes_slots_start + 59
+slot_center_factory4_income = pes_slots_start + 60
+slot_center_factory5_income = pes_slots_start + 61
+slot_center_factory6_income = pes_slots_start + 62
+slot_center_factory1_spentlastday = pes_slots_start + 63
+slot_center_factory2_spentlastday = pes_slots_start + 64
+slot_center_factory3_spentlastday = pes_slots_start + 65
+slot_center_factory4_spentlastday = pes_slots_start + 66
+slot_center_factory5_spentlastday = pes_slots_start + 67
+slot_center_factory6_spentlastday = pes_slots_start + 68
+slot_center_factory1_earntlastday = pes_slots_start + 69
+slot_center_factory2_earntlastday = pes_slots_start + 70
+slot_center_factory3_earntlastday = pes_slots_start + 71
+slot_center_factory4_earntlastday = pes_slots_start + 72
+slot_center_factory5_earntlastday = pes_slots_start + 73
+slot_center_factory6_earntlastday = pes_slots_start + 74
+slot_center_factory1_budgetlastday = pes_slots_start + 75
+slot_center_factory2_budgetlastday = pes_slots_start + 76
+slot_center_factory3_budgetlastday = pes_slots_start + 77
+slot_center_factory4_budgetlastday = pes_slots_start + 78
+slot_center_factory5_budgetlastday = pes_slots_start + 79
+slot_center_factory6_budgetlastday = pes_slots_start + 80
 
 #slot_party_type values
 ##spt_caravan            = 1

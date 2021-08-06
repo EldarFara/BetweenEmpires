@@ -11977,6 +11977,9 @@ str_11|agi_5|int_4|cha_4|level(12), wp1(85, 90), knows_trade_2|knows_leadership_
 ["array_8", "{!}temp array d", "{!}temp array d", tf_hero|tf_inactive, 0, 0, fac_neutral, [], str_7|agi_5|int_4|cha_4|level(18), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000000000000000000000000000000000000000000000000000000, 0x0000000000000000000000000000000000000000000000000000000000000000],
 ["array_9", "{!}temp array d", "{!}temp array d", tf_hero|tf_inactive, 0, 0, fac_neutral, [], str_7|agi_5|int_4|cha_4|level(18), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x0000000000000000000000000000000000000000000000000000000000000000, 0x0000000000000000000000000000000000000000000000000000000000000000],
 
+["coachman", "Coachman", "Coachmen", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_commoners,
+[itm_horse_carriage1, itm_horse_carriage1, itm_horse_carriage1, itm_horse_carriage1, itm_horse_carriage1, itm_horse_carriage1, itm_horse_carriage1, itm_horse_carriage1, itm_horse_carriage1]+items_european_urban_clothing_male,
+str_11|agi_5|int_4|cha_4|level(12), wp1(85, 90), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
 
 ["troops_end", "{!}quick battle troops end", "{!}quick battle troops end", 0, 0, 0, fac_kingdom_5,
 [],

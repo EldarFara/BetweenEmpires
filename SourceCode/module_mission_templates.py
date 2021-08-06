@@ -20,6 +20,29 @@ from header_skills import *
 pilgrim_disguise = [itm_ammo_pistol, itm_dagger, itm_sidearm_colt_m1851_navy, itm_clothes_urban_male_trousers1, itm_civilian_hat1, itm_clothes_urban_male1]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
+pss_init = (
+ti_after_mission_start, 0, 0, [],
+[
+(store_current_scene, ":scene"),
+(this_or_next|eq, ":scene", "scn_town_european_center"),
+(eq, ":scene", "scn_town_london_center"),
+# (store_trigger_param_1, ":agent"),
+# (agent_is_active, ":agent"),
+# (neg|agent_is_non_player, ":agent"),
+(call_script, "script_pss_init"),
+],[])
+
+pss_100ms = (
+0.1, 0, 0, [],
+[
+(store_current_scene, ":scene"),
+(this_or_next|eq, ":scene", "scn_town_european_center"),
+(eq, ":scene", "scn_town_london_center"),
+	(try_for_agents, ":agent"),
+	(call_script, "script_pss_agent_iteration", ":agent"),
+	(try_end),
+],[])
+
 player_hp_regen_hit = (
 ti_on_agent_hit, 0, 0, [],
 [
@@ -5816,6 +5839,8 @@ ams = (ti_after_mission_start, 0, 0, [
 parabellum_script_set_battle = [
 ams,
 bms,
+pss_init,
+pss_100ms,
 player_hp_regen_hit,
 player_hp_regen_100ms,
 iron_sight_runtime,
@@ -7584,7 +7609,7 @@ mission_templates = [
 
 	(3, 0, 0, 
 	[
-	  (call_script, "script_tick_town_walkers")
+	#  (call_script, "script_tick_town_walkers") # parabellum disabled
 	], 
 	[]),
 	

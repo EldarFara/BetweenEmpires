@@ -3912,4 +3912,5 @@ trp_array_6 = 3910
 trp_array_7 = 3911
 trp_array_8 = 3912
 trp_array_9 = 3913
-trp_troops_end = 3914
+trp_coachman = 3914
+trp_troops_end = 3915

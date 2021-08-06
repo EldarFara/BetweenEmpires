@@ -768,5 +768,11 @@ script_mg_fire = 766
 script_add_penaltytodiscipline_fromfire_to_target_of_agent = 767
 script_faction_get_machineguns = 768
 script_cf_if_party_has_low_mg_amount = 769
+script_faction_calculate_pps_pes_slots = 770
+script_pss_init = 771
+script_pss_agent_iteration = 772
+script_pes_region_menu_display_region = 773
+script_get_factory_name_and_photo_for_type = 774
+script_pes_resource_bought = 775
 
 

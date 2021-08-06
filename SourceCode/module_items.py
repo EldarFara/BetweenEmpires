@@ -2431,6 +2431,7 @@ items = [
 ["sailor_moon_usagi_tsukino","Sailor Moon Usagi Tsukino", [("sailor_moon_usagi_tsukino", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_11]],
 ["be_chan1","BE-chan", [("be_chan1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_11]],
 
+["horse_carriage1","Carriage Horse", [("horse_carriage1",0)], itp_type_horse, 0, 134,abundance(90)|hit_points(100)|body_armor(14)|difficulty(0)|horse_speed(11)|horse_maneuver(39)|horse_charge(9)|horse_scale(100),imodbits_horse_basic],
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 
