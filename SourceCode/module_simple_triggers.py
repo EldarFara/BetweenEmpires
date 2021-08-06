@@ -4996,6 +4996,8 @@ simple_triggers = [
 	(call_script, "script_faction_get_machineguns", ":faction"),
 	(try_end),
     ]),
+	
+	
 ]
 
 

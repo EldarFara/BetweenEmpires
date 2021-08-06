@@ -43,6 +43,9 @@ game_menus = [
     [
      ("continue",[],"Continue...",
        [
+	(try_for_range, ":center", towns_begin, castles_end),
+	(call_script, "script_pes_center_iteration", ":center"),
+	(try_end),
 	   (jump_to_menu, "mnu_start_game_choose_date"),
         ]
        ),
