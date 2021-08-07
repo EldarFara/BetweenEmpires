@@ -9,13 +9,18 @@ from ID_parties import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
-display_pes_debug_messages = 1
+# PAS:
+# script_decide_faction_ai
+# script_calculate_troop_ai
+# script_async_recalculate_ais
+
+display_pes_debug_messages = 0
 
 preset_factory_slots_filling_percent_britain = 50
 preset_factory_slots_filling_percent_germany = 40
 preset_factory_slots_filling_percent_france = 40
 preset_factory_slots_filling_percent_italy = 20
-preset_factory_slots_filling_percent_russia = 5
+preset_factory_slots_filling_percent_russia = 8
 preset_factory_slots_filling_percent_austria = 15
 preset_factory_slots_filling_percent_spain = 20
 preset_factory_slots_filling_percent_portugal = 20
@@ -435,6 +440,26 @@ slot_custom_troop_wp                = 317
 custom_troop_begin = "trp_kingdom_recruit"
 custom_troop_end = "trp_array_a"
 ## ZZ Custom Kingdom Troops end
+
+slot_item_pes_begin      = 104
+slot_item_price_history_begin      = slot_item_pes_begin + 0
+slot_item_price_history_end      = slot_item_pes_begin + 100
+slot_item_factions_production1_begin      = slot_item_price_history_end + 0
+slot_item_factions_production1_end      = slot_item_price_history_end + 40
+slot_item_factions_production2_begin      = slot_item_price_history_end + 40
+slot_item_factions_production2_end      = slot_item_price_history_end + 80
+slot_item_factions_quality1_begin      = slot_item_price_history_end + 80
+slot_item_factions_quality1_end      = slot_item_price_history_end + 120
+slot_item_factions_quality2_begin      = slot_item_price_history_end + 120
+slot_item_factions_quality2_end      = slot_item_price_history_end + 160
+slot_item_factions_factory_number1_begin      = slot_item_price_history_end + 160
+slot_item_factions_factory_number1_end      = slot_item_price_history_end + 200
+slot_item_factions_factory_number2_begin      = slot_item_price_history_end + 200
+slot_item_factions_factory_number2_end      = slot_item_price_history_end + 240
+slot_item_supply1      = slot_item_price_history_end + 241
+slot_item_supply2      = slot_item_price_history_end + 242
+slot_item_demand1      = slot_item_price_history_end + 243
+slot_item_demand2      = slot_item_price_history_end + 244
 
 slot_item_pointer_number_of_pointers   = 400
 
@@ -1257,7 +1282,7 @@ slot_town_trade_routes_end = slot_town_trade_route_15 + 1
 num_trade_goods = itm_siege_supply - itm_spice
 slot_town_trade_good_productions_begin       = 500 #a harmless number, until it can be deprecated
 
-#These affect production but in some cases also demand, so it is perhaps easier to itemize them than to have separate 
+#These affect production but in some cases also , so it is perhaps easier to itemize them than to have separate 
 
 slot_village_number_of_cattle   = 205
 slot_center_head_cattle         = 205 #dried meat, cheese, hides, butter

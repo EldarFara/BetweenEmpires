@@ -773,7 +773,12 @@ script_pss_init = 771
 script_pss_agent_iteration = 772
 script_pes_region_menu_display_region = 773
 script_get_factory_name_and_photo_for_type = 774
-script_get_resource_name_for_type = 775
+script_get_resource_measure_string_for_type = 775
 script_pes_resource_bought = 776
+script_pes_center_factory_decide_fire_workers = 777
+script_pes_center_population_buy_resources = 778
+script_pes_iteration_start = 779
+script_get_resource_name_for_type_capitalized = 780
+script_pes_resource_menu_display_resource = 781
 
 

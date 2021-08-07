@@ -63,3 +63,4 @@ prsnt_pps_menu = 61
 prsnt_debug_display_slots = 62
 prsnt_ddlc_reference = 63
 prsnt_pes_region = 64
+prsnt_pes_resource = 65

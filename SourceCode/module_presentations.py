@@ -18949,6 +18949,10 @@ will be merged into one that has highest number of soldiers."),
 		(try_end),
 	(troop_get_slot, ":index", "trp_temp_array_b", "$pes_region_selected_center"),
 	(overlay_set_val, "$overlay_combo_label_selected_center", ":index"),
+	
+	(create_button_overlay, "$overlay_button_pes_view_resources_info", "@View Information on Resources", tf_center_justify),
+	(position_set_x, pos1, 900), (position_set_y, pos1, 900), (overlay_set_size, "$overlay_button_pes_view_resources_info", pos1),
+	(position_set_x, pos1, 150), (position_set_y, pos1, 100), (overlay_set_position, "$overlay_button_pes_view_resources_info", pos1),
 
 	(create_text_overlay, "$overlay_text_pes_center_population", "@ thousands of population", tf_center_justify),
 	(create_text_overlay, "$overlay_text_pes_center_literacy", "@Literacy is .%", tf_center_justify),
@@ -18989,6 +18993,10 @@ will be merged into one that has highest number of soldiers."),
 		(eq, ":object", "$overlay_combo_label_selected_center"),
 		(troop_get_slot, "$pes_region_selected_center", "trp_temp_array_a", ":value"),
 		(call_script, "script_pes_region_menu_display_region"),
+		(else_try),
+		(eq, ":object", "$overlay_button_pes_view_resources_info"),
+		(assign, "$pes_resource_menu_return_to_region", 1),
+		(start_presentation, "prsnt_pes_resource"),
 		(try_end),
 	
 	]),
@@ -18997,9 +19005,51 @@ will be merged into one that has highest number of soldiers."),
 	(this_or_next|key_clicked, key_escape),
 	(key_clicked, key_back_space),
 	(presentation_set_duration, 0),
+	(jump_to_menu, "mnu_town"),
 	]),
 ]),
 
+("pes_resource", 0, mesh_load_window2, [
+	(ti_on_presentation_load,
+	[
+	(presentation_set_duration, 999999),
+	(set_fixed_point_multiplier, 1000),
+	
+	(create_combo_label_overlay, "$overlay_combo_selected_resource"),
+	(position_set_x, pos1, 800), (position_set_y, pos1, 1200), (overlay_set_size, "$overlay_combo_selected_resource", pos1),
+	(position_set_x, pos1, 250), (position_set_y, pos1, 600), (overlay_set_position, "$overlay_combo_selected_resource", pos1),
+		(try_for_range, ":resource_type", resource_iron, resource_steel+1),
+		(call_script, "script_get_resource_name_for_type_capitalized", ":resource_type", s1),
+		(overlay_add_item, "$overlay_combo_selected_resource", "@{s1}"),
+		(try_end),
+	(create_game_button_overlay, "$overlay_button_pes_resource_back", "@Back", tf_center_justify),
+	(position_set_x, pos1, 200), (position_set_y, pos1, 100), (overlay_set_position, "$overlay_button_pes_resource_back", pos1),
+	
+	(create_text_overlay, "$overlay_text_pes_resource_price", "@ ", tf_center_justify),
+	(create_text_overlay, "$overlay_text_pes_resource_supply", "@ ", tf_left_align),
+	(create_text_overlay, "$overlay_text_pes_resource_demand", "@ ", tf_left_align),
+	
+	(call_script, "script_pes_resource_menu_display_resource"),
+	]),
+	(ti_on_presentation_event_state_change,
+	[
+	(store_trigger_param_1, ":object"),
+	(store_trigger_param_2, ":value"),
+		(try_begin),
+		(eq, ":object", "$overlay_button_pes_resource_back"),
+		(presentation_set_duration, 0),
+		(jump_to_menu, "mnu_reports"),
+		(else_try),
+		(eq, ":object", "$overlay_combo_selected_resource"),
+		(store_add, "$pes_resource_menu_selected_resource", ":value", 1),
+		(call_script, "script_pes_resource_menu_display_resource"),
+		(try_end),
+	
+	]),
+	(ti_on_presentation_run,
+	[
+	]),
+]),
 
   ]
   

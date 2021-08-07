@@ -43,9 +43,11 @@ game_menus = [
     [
      ("continue",[],"Continue...",
        [
+(call_script, "script_pes_iteration_start"),
 	(try_for_range, ":center", towns_begin, castles_end),
 	(call_script, "script_pes_center_iteration", ":center"),
 	(try_end),
+(call_script, "script_pes_iteration_start"),
 	   (jump_to_menu, "mnu_start_game_choose_date"),
         ]
        ),
@@ -492,7 +494,13 @@ game_menus = [
   ("reports",0,
    "Character Renown: {reg5}{s31}^Honor Rating: {reg6}^Party Morale: {reg8}^Party Size Limit: {reg7}^",
    "none",
-   [(call_script, "script_game_get_party_companion_limit"),
+   [
+	(try_begin),
+	(eq, "$pes_resource_menu_return_to_region", 1),
+	(start_presentation, "prsnt_pes_region"),
+	(assign, "$pes_resource_menu_return_to_region", 0),
+	(try_end),
+   (call_script, "script_game_get_party_companion_limit"),
     (assign, ":party_size_limit", reg0),
     (troop_get_slot, ":renown", "trp_player", slot_troop_renown),
     (assign, reg5, ":renown"),
