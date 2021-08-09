@@ -1,4 +1,4 @@
-1150
+1151
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -728,6 +728,7 @@ qstr_Machine_parts Machine_parts
 qstr_Military_supplies Military_supplies
 qstr_Paper Paper
 qstr_Meat Meat
+qstr_Flour Flour
 qstr_Price___{reg10}_poun Price_-_{reg10}_pounds
 qstr_Supply___{reg11}.{re Supply_-_{reg11}.{reg12}_tons
 qstr_Demand___{reg11}.{re Demand_-_{reg11}.{reg12}_tons

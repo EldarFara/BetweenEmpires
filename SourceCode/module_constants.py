@@ -14,7 +14,7 @@ from ID_parties import *
 # script_calculate_troop_ai
 # script_async_recalculate_ais
 
-display_pes_debug_messages = 0
+display_pes_debug_messages = 1
 
 preset_factory_slots_filling_percent_britain = 50
 preset_factory_slots_filling_percent_germany = 40
@@ -38,7 +38,7 @@ pes_region_menu_overlay_factory_income = 7
 pes_region_menu_overlay_factory_spent_and_earnt = 8
 pes_region_menu_overlay_factory_product_quality = 9
 pes_region_menu_overlay_factory_produced_and_sold = 10
-pes_region_menu_overlay_factory_found_raw_resources = 11
+pes_region_menu_overlay_factory_found_raw_resources1 = 11
 
 mg_limit = 3
 
@@ -1434,24 +1434,42 @@ slot_center_factory3_earntlastday2 = pes_slots_start + 83
 slot_center_factory4_earntlastday2 = pes_slots_start + 84
 slot_center_factory5_earntlastday2 = pes_slots_start + 85
 slot_center_factory6_earntlastday2 = pes_slots_start + 86
-slot_center_factory1_producedlastday = pes_slots_start + 87
-slot_center_factory2_producedlastday = pes_slots_start + 88
-slot_center_factory3_producedlastday = pes_slots_start + 89
-slot_center_factory4_producedlastday = pes_slots_start + 90
-slot_center_factory5_producedlastday = pes_slots_start + 91
-slot_center_factory6_producedlastday = pes_slots_start + 92
+slot_center_factory1_producedduringday = pes_slots_start + 87
+slot_center_factory2_producedduringday = pes_slots_start + 88
+slot_center_factory3_producedduringday = pes_slots_start + 89
+slot_center_factory4_producedduringday = pes_slots_start + 90
+slot_center_factory5_producedduringday = pes_slots_start + 91
+slot_center_factory6_producedduringday = pes_slots_start + 92
 slot_center_factory1_soldpercent = pes_slots_start + 93
 slot_center_factory2_soldpercent = pes_slots_start + 94
 slot_center_factory3_soldpercent = pes_slots_start + 95
 slot_center_factory4_soldpercent = pes_slots_start + 96
 slot_center_factory5_soldpercent = pes_slots_start + 97
 slot_center_factory6_soldpercent = pes_slots_start + 98
-slot_center_factory1_found_raw_resources = pes_slots_start + 99
-slot_center_factory2_found_raw_resources = pes_slots_start + 100
-slot_center_factory3_found_raw_resources = pes_slots_start + 101
-slot_center_factory4_found_raw_resources = pes_slots_start + 102
-slot_center_factory5_found_raw_resources = pes_slots_start + 103
-slot_center_factory6_found_raw_resources = pes_slots_start + 104
+slot_center_factory1_found_raw_resources1 = pes_slots_start + 99
+slot_center_factory2_found_raw_resources1 = pes_slots_start + 100
+slot_center_factory3_found_raw_resources1 = pes_slots_start + 101
+slot_center_factory4_found_raw_resources1 = pes_slots_start + 102
+slot_center_factory5_found_raw_resources1 = pes_slots_start + 103
+slot_center_factory6_found_raw_resources1 = pes_slots_start + 104
+slot_center_factory1_producedlastday = pes_slots_start + 105
+slot_center_factory2_producedlastday = pes_slots_start + 106
+slot_center_factory3_producedlastday = pes_slots_start + 107
+slot_center_factory4_producedlastday = pes_slots_start + 108
+slot_center_factory5_producedlastday = pes_slots_start + 109
+slot_center_factory6_producedlastday = pes_slots_start + 110
+slot_center_factory1_spentlastday3 = pes_slots_start + 111
+slot_center_factory2_spentlastday3 = pes_slots_start + 112
+slot_center_factory3_spentlastday3 = pes_slots_start + 113
+slot_center_factory4_spentlastday3 = pes_slots_start + 114
+slot_center_factory5_spentlastday3 = pes_slots_start + 115
+slot_center_factory6_spentlastday3 = pes_slots_start + 116
+slot_center_factory1_found_raw_resources2 = pes_slots_start + 117
+slot_center_factory2_found_raw_resources2 = pes_slots_start + 118
+slot_center_factory3_found_raw_resources2 = pes_slots_start + 119
+slot_center_factory4_found_raw_resources2 = pes_slots_start + 120
+slot_center_factory5_found_raw_resources2 = pes_slots_start + 121
+slot_center_factory6_found_raw_resources2 = pes_slots_start + 122
 
 #slot_party_type values
 ##spt_caravan            = 1

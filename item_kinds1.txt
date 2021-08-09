@@ -1,5 +1,5 @@
 itemsfile version 3
-1594
+1604
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -2967,12 +2967,67 @@ itemsfile version 3
  45
 0
 
+ itm_lou_infantry_trousers2 Austrian_Infantry_Trousers Austrian_Infantry_Trousers 1  lou_infantry_trousers2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 45
+0
+
+ itm_lou_infantry_trousers3 Austrian_Infantry_Trousers Austrian_Infantry_Trousers 1  lou_infantry_trousers3 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 45
+0
+
+ itm_lou_infantry_trousers4 Austrian_Infantry_Trousers Austrian_Infantry_Trousers 1  lou_infantry_trousers4 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 45
+0
+
  itm_lou_infantry1 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  45
 0
 
  itm_lou_infantry2 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 45
+0
+
+ itm_lou_infantry3 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 45
+0
+
+ itm_lou_infantry4 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry4 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 45
+0
+
+ itm_lou_infantry5 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry5 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 45
+0
+
+ itm_lou_infantry6 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry6 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 45
+0
+
+ itm_lou_infantry7 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry7 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 45
+0
+
+ itm_lou_infantry8 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry8 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 45
+0
+
+ itm_lou_infantry9 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry9 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 45
+0
+
+ itm_lou_infantry10 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry10 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  45
 0
@@ -2987,32 +3042,7 @@ itemsfile version 3
  45
 0
 
- itm_lou_infantry_trousers2 Austrian_Infantry_Trousers Austrian_Infantry_Trousers 1  lou_infantry_trousers2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
- 1
- 45
-0
-
- itm_lou_infantry3 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
- 1
- 45
-0
-
  itm_lou_hat3 Austrian_Military_Hat Austrian_Military_Hat 1  lou_hat3 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
- 1
- 45
-0
-
- itm_lou_infantry4 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_infantry4 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
- 1
- 45
-0
-
- itm_lou_cavalry1 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_cavalry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
- 1
- 45
-0
-
- itm_lou_cavalry2 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_cavalry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  45
 0
@@ -3023,6 +3053,26 @@ itemsfile version 3
 0
 
  itm_lou_hat5 Austrian_Hat Austrian_Hat 1  lou_hat5 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 45
+0
+
+ itm_lou_hat6 Austrian_Military_Hat Austrian_Military_Hat 1  lou_hat6 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 45
+0
+
+ itm_lou_hat7 Austrian_Military_Hat Austrian_Military_Hat 1  lou_hat7 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 45
+0
+
+ itm_lou_cavalry1 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_cavalry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 45
+0
+
+ itm_lou_cavalry2 Austrian_Military_Uniform Austrian_Military_Uniform 1  lou_cavalry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  45
 0
@@ -3847,19 +3897,19 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_werndl Werndl_Rifle Werndl_Rifle 2  berdan_rifle 0  berdan_inv 1152921504606846976  811597833 555929845760 400 131082 4.000000 100 0 0 100 0 0 52 650 0 1 311 0
+ itm_rifle_austrian_werndl Werndl_Rifle Werndl_Rifle 2  werndl 0  werndl_inv 1152921504606846976  811597833 555929845760 400 131082 4.000000 100 0 0 100 0 0 52 650 0 1 311 0
  0
 0
 
- itm_rifle_austrian_werndl_m Werndl_Rifle Werndl_Rifle 1  berdan_rifle 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
+ itm_rifle_austrian_werndl_m Werndl_Rifle Werndl_Rifle 1  werndl 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30720 75 0 120 0 286 286
  0
 0
 
- itm_rifle_austrian_werndl_carbine Werndl_Carbine Werndl_Carbine 2  berdan_carbine 0  berdan_carbine_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 100 0 0 85 0 0 59 650 0 1 311 0
+ itm_rifle_austrian_werndl_carbine Werndl_Carbine Werndl_Carbine 2  werndl_carbine 0  werndl_carbine_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 100 0 0 85 0 0 59 650 0 1 311 0
  0
 0
 
- itm_rifle_austrian_werndl_carbine_m Werndl_Carbine Werndl_Carbine 1  berdan_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 80 0 532 530
+ itm_rifle_austrian_werndl_carbine_m Werndl_Carbine Werndl_Carbine 1  werndl_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 18432 75 0 80 0 532 530
  0
 0
 
@@ -5773,7 +5823,7 @@ itemsfile version 3
  itm_shotgun_caplock Double-Barrel_Caplock_Shotgun Double-Barrel_Caplock_Shotgun 2  shotgun_caplock 0  shotgun_caplock_inv 1152921504606846976  811663369 6174031872 600 131082 3.500000 80 0 0 65 0 0 40 380 0 2 276 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063859 60 600 10 288230376151713079 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063859 60 600 10 288230376151713089 1224979098644774912 
 
  itm_shotgun_caplock_m Double-Barrel_Caplock_Shotgun Double-Barrel_Caplock_Shotgun 1  shotgun_caplock 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 22528 75 0 100 0 276 534
  0
@@ -5782,7 +5832,7 @@ itemsfile version 3
  itm_shotgun_doublebarrel Double-Barrel_Shotgun Double-Barrel_Shotgun 2  shotgun_doublebarrel 0  shotgun_doublebarrel_inv 1152921504606846976  811663369 555929845760 700 131082 3.500000 80 0 0 65 0 0 35 380 0 2 280 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063859 80 500 10 288230376151713081 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063859 80 500 10 288230376151713091 1224979098644774912 
 
  itm_shotgun_doublebarrel_m Double-Barrel_Shotgun Double-Barrel_Shotgun 1  shotgun_doublebarrel 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 22528 75 0 100 0 276 534
  0
@@ -5791,7 +5841,7 @@ itemsfile version 3
  itm_shotgun_doublebarrel_short Shortened_Double-Barrel_Shotgun Shortened_Double-Barrel_Shotgun 2  shotgun_doublebarrel 0  shotgun_doublebarrel_inv 1152921504606846976  543227913 555929845760 700 131082 3.500000 80 0 0 60 0 0 52 380 0 2 280 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063859 80 750 10 288230376151713083 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063859 80 750 10 288230376151713093 1224979098644774912 
 
  itm_shotgun_doublebarrel_short_m Shortened_Double-Barrel_Shotgun Shortened_Double-Barrel_Shotgun 1  shotgun_doublebarrel 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 22528 75 0 100 0 276 534
  0
@@ -5800,7 +5850,7 @@ itemsfile version 3
  itm_shotgun_winchester_m1887 Winchester_M1887 Winchester_M1887 2  winchester_m1887 0  winchester_m1887_inv 1152921504606846976  543227913 555929845760 900 131082 3.500000 80 0 0 65 0 0 35 380 0 6 280 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063859 65 600 10 288230376151713085 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063859 65 600 10 288230376151713095 1224979098644774912 
 
  itm_shotgun_winchester_m1887_m Winchester_M1887 Winchester_M1887 1  winchester_m1887 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 22528 75 0 100 0 276 534
  0
@@ -5809,7 +5859,7 @@ itemsfile version 3
  itm_shotgun_greener Greener_Shotgun Greener_Shotgun 2  greener 0  greener_inv 1152921504606846976  543227913 555929845760 300 131082 3.500000 80 0 0 65 0 0 45 380 0 1 291 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063859 90 650 10 288230376151713087 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063859 90 650 10 288230376151713097 1224979098644774912 
 
  itm_shotgun_greener_m Greener_Shotgun Greener_Shotgun 1  greener 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 22528 75 0 100 0 276 534
  0
