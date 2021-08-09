@@ -20,6 +20,26 @@ from header_skills import *
 pilgrim_disguise = [itm_ammo_pistol, itm_dagger, itm_sidearm_colt_m1851_navy, itm_clothes_urban_male_trousers1, itm_civilian_hat1, itm_clothes_urban_male1]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
+smoke_animated_200ms = (
+0.08, 0, 0, [],
+[
+	(try_for_prop_instances, ":prop", "spr_0siege_smokepillar1_animated"),
+	(scene_prop_get_slot, ":max_frame", ":prop", slot_prop_animation_number_of_frames),
+	(scene_prop_get_slot, ":frame", ":prop", slot_prop_animation_current_frame),
+	(scene_prop_get_slot, ":start_material_string", ":prop", slot_prop_animation_start_material_string),
+	(val_sub, ":max_frame", 1),
+	(val_add, ":frame", 1),
+		(try_begin),
+		(ge, ":frame", ":max_frame"),
+		(assign, ":frame", 0),
+		(try_end),
+	(scene_prop_set_slot, ":prop", slot_prop_animation_current_frame, ":frame"),
+	(store_add, ":material_string", ":start_material_string", ":frame"),
+	(str_store_string, s1, ":material_string"),
+	(prop_instance_set_material, ":prop", 0, s1),
+	(try_end),
+],[])
+
 pss_init = (
 ti_after_mission_start, 0, 0, [],
 [
@@ -2257,7 +2277,8 @@ YuriCannonRuntime = (
 			(store_current_scene, ":Scene"),
 			(eq|this_or_next, ":Scene", "scn_random_scene_desert"),
 			(eq, ":Scene", "scn_random_scene_desert_forest"),
-			(prop_instance_set_material, ":Prop", 0, "str_ground_desert"),
+			(str_store_string, s1, "str_ground_desert"),
+			(prop_instance_set_material, ":Prop", 0, s1),
 			(try_end),
 		(try_end),
 	(try_end),
@@ -5840,6 +5861,7 @@ ams = (ti_after_mission_start, 0, 0, [
 parabellum_script_set_battle = [
 ams,
 bms,
+smoke_animated_200ms,
 pss_init,
 pss_100ms,
 player_hp_regen_hit,

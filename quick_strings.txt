@@ -1,4 +1,4 @@
-1160
+1166
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -304,6 +304,12 @@ qstr_View_Information_on_ View_Information_on_Resources
 qstr__thousands_of_popula _thousands_of_population
 qstr_Literacy_is_.% Literacy_is_.%
 qstr_Urbanization_is_.% Urbanization_is_.%
+qstr__+ _+
+qstr_Balance_change:{s1}{ Balance_change:{s1}{reg10}_pounds.
+qstr_BUY BUY
+qstr_SELL SELL
+qstr_Balance_change:_+0_p Balance_change:_+0_pounds.
+qstr_Not_enough_money. Not_enough_money.
 qstr_vSeason vSeason
 qstr_{!}DEBUG_:_Completed {!}DEBUG_:_Completed_faction_troop_assignments,_cheat_mode:_{reg3}
 qstr_{!}DEBUG_:_Completed_ {!}DEBUG_:_Completed_political_events,_cheat_mode:_{reg3}
@@ -995,6 +1001,7 @@ qstr_You_have_exceeded_pa You_have_exceeded_party_size_limit.
 qstr_You_have_no_enough_m You_have_no_enough_money.
 qstr_Not_available_in_thi Not_available_in_this_town.
 qstr_You_have_bought_a_ho You_have_bought_a_howizer.
+qstr_You_have_bought_a_ma You_have_bought_a_machine_gun.
 qstr_Not_available_for_th Not_available_for_this_faction.
 qstr_Breaking_camp... Breaking_camp...
 qstr_{!}{s3}_commander_of {!}{s3}_commander_of_party_#{reg4}_which_is_not_his_troop_leaded_party_{reg5}
@@ -1157,5 +1164,4 @@ qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
 qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
-qstr_Balance_change:_0_po Balance_change:_0_pounds.
-qstr_BUY BUY
+qstr_{reg10} {reg10}

@@ -43,6 +43,8 @@ pes_region_menu_overlay_factory_playershare_slider = 12
 pes_region_menu_overlay_factory_playershare_buy = 13
 pes_region_menu_overlay_factory_playershare_name = 14
 pes_region_menu_overlay_factory_playershare_price = 15
+pes_region_menu_variable_factory_playershare_balance_change = 16
+pes_region_menu_variable_factory_playershare_selected_amount = 17
 
 mg_limit = 3
 
@@ -338,6 +340,9 @@ slot_prop_is_occupied = YuriSlotProp_Cannoneer1 + 30
 slot_prop_agent_attached = YuriSlotProp_Cannoneer1 + 31
 slot_prop_pss_next_route_prop = YuriSlotProp_Cannoneer1 + 32
 slot_prop_pss_previous_route_prop = YuriSlotProp_Cannoneer1 + 33
+slot_prop_animation_start_material_string = YuriSlotProp_Cannoneer1 + 34
+slot_prop_animation_number_of_frames = YuriSlotProp_Cannoneer1 + 35
+slot_prop_animation_current_frame = YuriSlotProp_Cannoneer1 + 36
 
 square_forming_phase_outer_square1 = 0
 square_forming_phase_outer_square2 = 1

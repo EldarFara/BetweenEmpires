@@ -1783,3 +1783,4 @@ spr_pss_couple = 1781
 spr_pss_newspaperman = 1782
 spr_pss_carriage1 = 1783
 spr_pss_carriage2 = 1784
+spr_0siege_smokepillar1_animated = 1785

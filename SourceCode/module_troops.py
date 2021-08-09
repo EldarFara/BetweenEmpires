@@ -10544,7 +10544,7 @@ troops = [
   [],
   str_7|agi_5|int_4|cha_4|level(5), wp(40), knows_power_strike_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x0000000fff0052064deeffffffffffff00000000001efff90000000000000000],
   ["tax_rebel", "Peasant Rebel", "Peasant Rebels", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_commoners,
-  []+items_european_rural_clothing_male+items_melee_civilian_rural+items_melee_civilian_rural,
+  []+items_european_rural_clothing_male+items_melee_civilian_rural,
   str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x0000000ff100230c4deeffffffffffff00000000001efff90000000000000000],
   ["trainee_peasant", "Peasant", "Peasants", tf_guarantee_boots|tf_guarantee_armor, 0, 0, fac_commoners,
   [],

@@ -523,8 +523,8 @@ ui_order_button_follow_me|Follow me
 ui_order_button_charge|Charge
 ui_order_button_stand_ground|Stand ground
 ui_order_button_retreat|Retreat
-ui_order_button_advance|Advance ten paces
-ui_order_button_fall_back|Fall back ten paces
+ui_order_button_advance| 
+ui_order_button_fall_back| 
 ui_order_button_spread_out|Change to walking
 ui_order_button_stand_closer|Change to running
 ui_order_button_mount_horses|Mount horses
@@ -543,8 +543,8 @@ ui_retreat_e_|%s, retreat!
 ui_mount_horses_e_|%s, mount horses!
 ui_dismount_e_|%s, dismount!
 ui_advance_e_|%s, advance ten paces!
-ui_fall_back_e_|%s, fall back ten paces!
-ui_stand_closer_e_|%s, change to running!
+ui_fall_back_e_| 
+ui_stand_closer_e_| 
 ui_spread_out_e_|%s, change to walking!
 ui_use_blunt_weapons_e_|%s, use only blunt weapons!
 ui_use_any_weapon_e_|%s, use weapons at will!
@@ -761,15 +761,15 @@ ui_fire_now_e_|Fire now!
 ui_order_button_fire_at_my_command|Fire at my command
 ui_order_button_fire_now|Fire now
 ui_order_form_1_row|Form column
-ui_order_form_2_row|Form extended column
-ui_order_form_3_row|Form dense line
-ui_order_form_4_row|Form line
-ui_order_form_5_row|Form extended line
+ui_order_form_2_row|Form two-row line
+ui_order_form_3_row|Form dense one-row line
+ui_order_form_4_row|Form one-row line
+ui_order_form_5_row|Form extended one-row line
 ui_form_1_row_e_|Form column!
-ui_form_2_row_e_|Form extended column!
-ui_form_3_row_e_|Form dense line!
-ui_form_4_row_e_|Form line!
-ui_form_5_row_e_|Form extended line!
+ui_form_2_row_e_|Form two-row line!
+ui_form_3_row_e_|Form dense one-row line!
+ui_form_4_row_e_|Form one-row line!
+ui_form_5_row_e_|Form extended one-row line!
 ui_order_7|Select Order 7
 ui_order_8|Select Order 8
 ui_all_fire_now_e_|All fire now!

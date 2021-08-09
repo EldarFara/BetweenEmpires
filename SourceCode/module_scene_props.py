@@ -4215,6 +4215,7 @@ scene_props = [
 ("pss_carriage1", 0, "carriage1", "bo_carriage1", []),
 ("pss_carriage2", 0, "carriage1", "bo_carriage1", []),
 #("hq_interior",0,"Rus_Town_Lord_Interier_8","bo_Rus_Town_Lord_Interier_8", []),
+("0siege_smokepillar1_animated", 0, "smokepillar1", 0, [(ti_on_scene_prop_init,[(store_trigger_param_1, ":prop"),(scene_prop_set_slot, ":prop", slot_prop_animation_start_material_string, "str_smokepillar1_01"),(scene_prop_set_slot, ":prop", slot_prop_animation_number_of_frames, 64),(scene_prop_set_slot, ":prop", slot_prop_animation_current_frame, 0),]),]),
 
 ]
 
