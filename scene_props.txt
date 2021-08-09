@@ -4435,16 +4435,16 @@ spr_Rus_Interier_Divan_B 0 0 Rus_Interier_Divan_B bo_Rus_Interier_Divan_B 0
 spr_Rus_Furniture_Table_F 0 0 Rus_Furniture_Table_F bo_Rus_Furniture_Table_F 0
 
 
-spr_Rus_Town_Lord_Interier_3 1048576 1 Rus_Town_Lord_Interier_3 bo_Rus_Town_Lord_Interier_3 0
+spr_Rus_Town_Lord_Interier_3 0 0 Rus_Town_Lord_Interier_3 bo_Rus_Town_Lord_Interier_3 0
 
 
-spr_Rus_Taverna_Interier_A 1048576 1 Rus_Taverna_Interier_A bo_Rus_Taverna_Interier_A 0
+spr_Rus_Taverna_Interier_A 0 0 Rus_Taverna_Interier_A bo_Rus_Taverna_Interier_A 0
 
 
-spr_Rus_Town_Lord_Interier_8 1048576 1 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 0
+spr_Rus_Town_Lord_Interier_8 0 0 Rus_Town_Lord_Interier_8 bo_Rus_Town_Lord_Interier_8 0
 
 
-spr_Rus_Taverna_Interier_H 1048576 1 Rus_Taverna_Interier_H bo_Rus_Taverna_Interier_H 0
+spr_Rus_Taverna_Interier_H 0 0 Rus_Taverna_Interier_H bo_Rus_Taverna_Interier_H 0
 
 
 spr_int_palmtree1 0 0 int_palmtree1 co_co_ash_big1 1

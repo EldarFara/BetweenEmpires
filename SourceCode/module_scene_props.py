@@ -3582,10 +3582,10 @@ scene_props = [
 ("Rus_Furniture_Chair_D",0,"Rus_Furniture_Chair_D","bo_Rus_Furniture_Chair_D", []),
 ("Rus_Interier_Divan_B",0,"Rus_Interier_Divan_B","bo_Rus_Interier_Divan_B", []),
 ("Rus_Furniture_Table_F",0,"Rus_Furniture_Table_F","bo_Rus_Furniture_Table_F", []),
-("Rus_Town_Lord_Interier_3",sokf_enforce_shadows,"Rus_Town_Lord_Interier_3","bo_Rus_Town_Lord_Interier_3", []),
-("Rus_Taverna_Interier_A",sokf_enforce_shadows,"Rus_Taverna_Interier_A","bo_Rus_Taverna_Interier_A", []),
-("Rus_Town_Lord_Interier_8",sokf_enforce_shadows,"Rus_Town_Lord_Interier_8","bo_Rus_Town_Lord_Interier_8", []),
-("Rus_Taverna_Interier_H",sokf_enforce_shadows,"Rus_Taverna_Interier_H","bo_Rus_Taverna_Interier_H", []),
+("Rus_Town_Lord_Interier_3",0,"Rus_Town_Lord_Interier_3","bo_Rus_Town_Lord_Interier_3", []),
+("Rus_Taverna_Interier_A",0,"Rus_Taverna_Interier_A","bo_Rus_Taverna_Interier_A", []),
+("Rus_Town_Lord_Interier_8",0,"Rus_Town_Lord_Interier_8","bo_Rus_Town_Lord_Interier_8", []),
+("Rus_Taverna_Interier_H",0,"Rus_Taverna_Interier_H","bo_Rus_Taverna_Interier_H", []),
 ("int_palmtree1", 0, "int_palmtree1", "co_co_ash_big1", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
 ("int_bushpersicum1", sokf_moveable, "int_bushpersicum1", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
 ("persianwall",0,"persianwall","bo_persianwall", []),
@@ -4214,6 +4214,7 @@ scene_props = [
 ("pss_newspaperman", sokf_invisible, "pss_route1", 0, []),
 ("pss_carriage1", 0, "carriage1", "bo_carriage1", []),
 ("pss_carriage2", 0, "carriage1", "bo_carriage1", []),
+#("hq_interior",0,"Rus_Town_Lord_Interier_8","bo_Rus_Town_Lord_Interier_8", []),
 
 ]
 

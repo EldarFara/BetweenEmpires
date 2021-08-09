@@ -1,4 +1,4 @@
-1158
+1160
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -223,7 +223,6 @@ qstr__Current_progress___ _Current_progress_-_{reg2}%.
 qstr_Cost___{reg0}_pounds Cost_-_{reg0}_pounds{s1}.^Available_after_{reg1}_year.{s2}
 qstr_Select_Faction Select_Faction
 qstr_Start_Game Start_Game
-qstr_{reg10} {reg10}
 qstr_Chosen_Faction:^{s1} Chosen_Faction:^{s1}
 qstr_Select_flag_for_your Select_flag_for_your_faction
 qstr_Peace_negotiations_w Peace_negotiations_with_{s1}
@@ -668,6 +667,7 @@ qstr_Spent_{reg10}_pounds Spent_{reg10}_pounds_and_earnt_{reg11}_pounds_last_day
 qstr_Managed_to_buy_{reg1 Managed_to_buy_{reg10}%_of_needed_raw_resources^needed_for_production.
 qstr_Produced_{reg10}.{re Produced_{reg10}.{reg12}_{s1}_(sold_{reg11}%).
 qstr_Quality_of_product_i Quality_of_product_is_{reg10}%.
+qstr_Manage_share__Now_is Manage_share_(Now_is_{reg10})%.
 qstr_pes_region_factory_p pes_region_factory_photo_notavailable
 qstr_pes_region_factory_ph pes_region_factory_photo_empty
 qstr_Steel_Factory Steel_Factory
@@ -982,9 +982,11 @@ qstr_{!}{s11}{s12} {!}{s11}{s12}
 qstr_{!}DEBUG____Hours_si {!}DEBUG_--_Hours_since_last_feast_started:_{reg4}
 qstr_^^Note_that_so_long_ ^^Note_that_so_long_as_you_remain_marshal,_the_lords_of_the_realm_will_be_expecting_you_to_lead_them_on_campaign._So,_if_you_are_awaiting_a_feast,_either_for_a_wedding_or_for_other_purposes,_you_may_wish_to_resign_the_marshalship_by_speaking_to_your_liege.
 qstr_Temperature:_+{reg0} Temperature:_+{reg0}_C_^Pressure:_{reg1}_hPa_^Humidity:_{reg2}%_^Wind:_{reg3}_km/h_^Cloudiness:_{reg4}%_^Precipitation:_{reg5}%
+qstr_French_Empire French_Empire
 qstr_Austrian_Empire Austrian_Empire
 qstr_Kingdom_of_Sardinia Kingdom_of_Sardinia
 qstr_Kingdom_of_Prussia Kingdom_of_Prussia
+qstr_French_Republic French_Republic
 qstr_Austria_Hungary Austria-Hungary
 qstr_Kingdom_of_Italy Kingdom_of_Italy
 qstr_German_Empire German_Empire
@@ -1155,5 +1157,5 @@ qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
 qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
-qstr_French_Empire French_Empire
-qstr_French_Republic French_Republic
+qstr_Balance_change:_0_po Balance_change:_0_pounds.
+qstr_BUY BUY

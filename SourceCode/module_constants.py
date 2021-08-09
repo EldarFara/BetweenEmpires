@@ -24,7 +24,7 @@ preset_factory_slots_filling_percent_russia = 8
 preset_factory_slots_filling_percent_austria = 15
 preset_factory_slots_filling_percent_spain = 20
 preset_factory_slots_filling_percent_portugal = 20
-preset_factory_slots_filling_percent_scandinavia = 35
+preset_factory_slots_filling_percent_scandinavia = 20
 preset_factory_slots_filling_percent_benelux = 35
 preset_factory_slots_filling_percent_balkans = 3
 
@@ -39,6 +39,10 @@ pes_region_menu_overlay_factory_spent_and_earnt = 8
 pes_region_menu_overlay_factory_product_quality = 9
 pes_region_menu_overlay_factory_produced_and_sold = 10
 pes_region_menu_overlay_factory_found_raw_resources1 = 11
+pes_region_menu_overlay_factory_playershare_slider = 12
+pes_region_menu_overlay_factory_playershare_buy = 13
+pes_region_menu_overlay_factory_playershare_name = 14
+pes_region_menu_overlay_factory_playershare_price = 15
 
 mg_limit = 3
 
@@ -1470,6 +1474,36 @@ slot_center_factory3_found_raw_resources2 = pes_slots_start + 119
 slot_center_factory4_found_raw_resources2 = pes_slots_start + 120
 slot_center_factory5_found_raw_resources2 = pes_slots_start + 121
 slot_center_factory6_found_raw_resources2 = pes_slots_start + 122
+slot_center_factory1_playershare = pes_slots_start + 123
+slot_center_factory2_playershare = pes_slots_start + 124
+slot_center_factory3_playershare = pes_slots_start + 125
+slot_center_factory4_playershare = pes_slots_start + 126
+slot_center_factory5_playershare = pes_slots_start + 127
+slot_center_factory6_playershare = pes_slots_start + 128
+slot_center_factory1_devmode = pes_slots_start + 129
+slot_center_factory2_devmode = pes_slots_start + 130
+slot_center_factory3_devmode = pes_slots_start + 131
+slot_center_factory4_devmode = pes_slots_start + 132
+slot_center_factory5_devmode = pes_slots_start + 133
+slot_center_factory6_devmode = pes_slots_start + 134
+slot_center_factory1_workers_wage = pes_slots_start + 135
+slot_center_factory2_workers_wage = pes_slots_start + 136
+slot_center_factory3_workers_wage = pes_slots_start + 137
+slot_center_factory4_workers_wage = pes_slots_start + 138
+slot_center_factory5_workers_wage = pes_slots_start + 139
+slot_center_factory6_workers_wage = pes_slots_start + 140
+slot_center_factory1_workers_conditions = pes_slots_start + 141
+slot_center_factory2_workers_conditions = pes_slots_start + 142
+slot_center_factory3_workers_conditions = pes_slots_start + 143
+slot_center_factory4_workers_conditions = pes_slots_start + 144
+slot_center_factory5_workers_conditions = pes_slots_start + 145
+slot_center_factory6_workers_conditions = pes_slots_start + 146
+slot_center_factory1_price = pes_slots_start + 147
+slot_center_factory2_price = pes_slots_start + 148
+slot_center_factory3_price = pes_slots_start + 149
+slot_center_factory4_price = pes_slots_start + 150
+slot_center_factory5_price = pes_slots_start + 151
+slot_center_factory6_price = pes_slots_start + 152
 
 #slot_party_type values
 ##spt_caravan            = 1
