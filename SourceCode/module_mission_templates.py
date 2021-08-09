@@ -20,6 +20,76 @@ from header_skills import *
 pilgrim_disguise = [itm_ammo_pistol, itm_dagger, itm_sidearm_colt_m1851_navy, itm_clothes_urban_male_trousers1, itm_civilian_hat1, itm_clothes_urban_male1]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
+smoke_animated_200ms = (
+0.08, 0, 0, [],
+[
+	(try_for_prop_instances, ":prop", "spr_0siege_smokepillar1_animated"),
+	(scene_prop_get_slot, ":max_frame", ":prop", slot_prop_animation_number_of_frames),
+	(scene_prop_get_slot, ":frame", ":prop", slot_prop_animation_current_frame),
+	(scene_prop_get_slot, ":start_material_string", ":prop", slot_prop_animation_start_material_string),
+	(val_sub, ":max_frame", 1),
+	(val_add, ":frame", 1),
+		(try_begin),
+		(ge, ":frame", ":max_frame"),
+		(assign, ":frame", 0),
+		(try_end),
+	(scene_prop_set_slot, ":prop", slot_prop_animation_current_frame, ":frame"),
+	(store_add, ":material_string", ":start_material_string", ":frame"),
+	(str_store_string, s1, ":material_string"),
+	(prop_instance_set_material, ":prop", 0, s1),
+	(try_end),
+],[])
+
+pss_init = (
+ti_after_mission_start, 0, 0, [],
+[
+(store_current_scene, ":scene"),
+(this_or_next|eq, ":scene", "scn_town_european_center"),
+(eq, ":scene", "scn_town_london_center"),
+# (store_trigger_param_1, ":agent"),
+# (agent_is_active, ":agent"),
+# (neg|agent_is_non_player, ":agent"),
+(call_script, "script_pss_init"),
+],[])
+
+pss_100ms = (
+0.1, 0, 0, [],
+[
+(store_current_scene, ":scene"),
+(this_or_next|eq, ":scene", "scn_town_european_center"),
+(eq, ":scene", "scn_town_london_center"),
+	(try_for_agents, ":agent"),
+	(call_script, "script_pss_agent_iteration", ":agent"),
+	(try_end),
+],[])
+
+player_hp_regen_hit = (
+ti_on_agent_hit, 0, 0, [],
+[
+(store_trigger_param_1, ":agent"),
+(agent_is_active, ":agent"), (agent_is_active, ":agent"),
+(get_player_agent_no, ":player"),
+(eq, ":player", ":agent"),
+(assign, "$hp_regen_timer", 50),
+],[])
+
+player_hp_regen_100ms = (
+0.1, 0, 0, [],
+[
+	(try_begin),
+	(gt, "$hp_regen_timer", 0),
+	(val_sub, "$hp_regen_timer", 1),
+	(try_end),
+	(try_begin),
+	(eq, "$hp_regen_timer", 0),
+	(get_player_agent_no, ":player"),
+	(store_agent_hit_points, ":hp", ":player", 0),
+	(lt, ":hp", 100),
+	(val_add, ":hp", 1),
+	(agent_set_hit_points, ":player", ":hp", 0),
+	(try_end),
+],[])
+
 iron_sight_runtime = (
 0, 0, 0, [
 (eq, "$ironsight_enabled", 1),
@@ -95,7 +165,7 @@ iron_sight_runtime = (
 		(this_or_next|eq, ":animation", "anim_lever_action_shot"),
 		(eq, ":animation", "anim_bolt_action_shot"),
 		(eq, "$ironsight_timer2", 0),
-		(assign, "$ironsight_timer", 9),
+		(assign, "$ironsight_timer", 14),
 		(assign, "$ironsight_timer2", 9999999),
 		(try_end),
 	(try_end),
@@ -225,18 +295,6 @@ vo_500ms = (
 
 pai_start = (9, 0, ti_once, [
 (set_fixed_point_multiplier, 1),
-	(try_begin),
-	(eq, "$defenders_team", "$g_player_team"),
-	(assign, "$ai_defender_team", "$g_allies_team"),
-	(assign, "$nai_defender_team", "$g_player_team"),
-	(assign, "$ai_attacker_team", "$g_enemy_team"),
-	(assign, "$nai_attacker_team", -1),
-	(else_try),
-	(assign, "$ai_defender_team", "$g_enemy_team"),
-	(assign, "$nai_defender_team", -1),
-	(assign, "$ai_attacker_team", "$g_allies_team"),
-	(assign, "$nai_attacker_team", "$g_player_team"),
-	(try_end),
 	(try_begin),
 	(eq, "$g_battle_type", battle_type_siege),
 	(team_set_slot, "$ai_defender_team", slot_team_pai_global_tactic, pai_global_tactic_siege_defend_initial),
@@ -487,16 +545,17 @@ pai_1000ms = (1, 0, 0, [
 			(call_script, "script_store_company_average_position_to_pos30", ":target_team", ":target_company"),
  # (position_get_x, reg0, pos30), (position_get_y, reg1, pos30), (position_get_z, reg2, pos30), (display_message, "@2 TARGET COMPANY x {reg0} y {reg1} z {reg2}", 0xFF0000),
 			(copy_position, pos31, pos1), (call_script, "script_rotate_pos31_towards_pos30"), (copy_position, pos1, pos31),
-			(position_move_y, pos1, 3700, 0),
+			(position_move_y, pos1, 3900, 0),
 			(position_set_z_to_ground_level, pos1), 
  # (position_get_x, reg0, pos1), (position_get_y, reg1, pos1), (position_get_z, reg2, pos1), (display_message, "@3 TARGET POSITION x {reg0} y {reg1} z {reg2}", 0xFF0000),
 			(assign, ":slot3", ":slot"),
 			(team_get_slot, ":company", "$ai_attacker_team", ":slot"),
 				(try_begin),
-				(le, ":distance", 5500),
+				(le, ":distance", 6000),
 				(call_script, "script_company_charge", "$ai_attacker_team", ":company"),
 				(else_try),
-				(le, ":distance", 9000),
+				(le, ":distance", 12000),
+				(store_add, ":slot_team_run_mode", slot_team_company1_run_mode, ":company"),
 				(store_add, ":slot_team_run_mode", slot_team_company1_run_mode, ":company"),
 				(team_set_slot, "$ai_attacker_team", ":slot_team_run_mode", pbs_run_mode_running),
 				(copy_position, pos30, pos1), (call_script, "script_company_hold_pos30", "$ai_attacker_team", ":company"),
@@ -1058,12 +1117,17 @@ carbine_melee_mode_fix = (
 ])
 
 player_accuracy_modifier = (
-1, 0, 0, [],
+0, 0, 0, [],
 [
 (get_player_agent_no, ":player"),
 (agent_is_active, ":player"),
 (agent_is_alive, ":player"),
-(agent_set_accuracy_modifier, ":player", 850),
+	(try_begin),
+	(eq, "$ironsight_mode", 1),
+	(agent_set_accuracy_modifier, ":player", 500),
+	(else_try),
+	(agent_set_accuracy_modifier, ":player", 85),
+	(try_end),
 ])
 
 ammo_refill = (
@@ -1914,6 +1978,13 @@ ti_on_agent_hit, 0, 0, [],
 		(val_div, ":damage", 2),
 		(try_end),
 	(try_end),
+	(try_begin),
+	(eq, "$g_battle_type", battle_type_siege),
+	(agent_is_defender, ":agent"),
+	(ge, ":distance", 10),
+	(agent_is_non_player, ":attacker"),
+	(val_div, ":damage", 2),
+	(try_end),
 (set_trigger_result, ":damage"),
 ])
 
@@ -2206,7 +2277,8 @@ YuriCannonRuntime = (
 			(store_current_scene, ":Scene"),
 			(eq|this_or_next, ":Scene", "scn_random_scene_desert"),
 			(eq, ":Scene", "scn_random_scene_desert_forest"),
-			(prop_instance_set_material, ":Prop", 0, "str_ground_desert"),
+			(str_store_string, s1, "str_ground_desert"),
+			(prop_instance_set_material, ":Prop", 0, s1),
 			(try_end),
 		(try_end),
 	(try_end),
@@ -3013,11 +3085,11 @@ YuriCannon33MS = (
 					(position_rotate_x_floating, pos2, ":AngleForHowitzer", 0), (position_move_y, pos2, 100, 0),
 						(try_begin),
 						(eq, ":RiflingType", cannon_rifling_type_notrifled),
-						(store_random_in_range, ":Random1", -1200, 1200),
-						(store_random_in_range, ":Random2", -1100, 1100),
+						(store_random_in_range, ":Random1", -1800, 1800),
+						(store_random_in_range, ":Random2", -1500, 1500),
 						(else_try),
-						(store_random_in_range, ":Random1", -900, 900),
-						(store_random_in_range, ":Random2", -800, 800),
+						(store_random_in_range, ":Random1", -1400, 1400),
+						(store_random_in_range, ":Random2", -1200, 1200),
 						(try_end),
 					(position_rotate_x_floating, pos2, ":Random1"),
 					(position_rotate_z_floating, pos2, ":Random2"),
@@ -4408,6 +4480,18 @@ player_spawn = (ti_on_agent_spawn, 0, 0, [
 	(assign, "$attackers_team_2", 3),   
 	(try_end),
 	(try_begin),
+	(eq, "$defenders_team", "$g_player_team"),
+	(assign, "$ai_defender_team", "$g_allies_team"),
+	(assign, "$nai_defender_team", "$g_player_team"),
+	(assign, "$ai_attacker_team", "$g_enemy_team"),
+	(assign, "$nai_attacker_team", -1),
+	(else_try),
+	(assign, "$ai_defender_team", "$g_enemy_team"),
+	(assign, "$nai_defender_team", -1),
+	(assign, "$ai_attacker_team", "$g_allies_team"),
+	(assign, "$nai_attacker_team", "$g_player_team"),
+	(try_end),
+	(try_begin),
 	(eq, "$g_battle_type", battle_type_siege),
 	(team_set_slot, "$defenders_team", slot_team_company1_type, pbs_troop_type_line),
 	(team_set_slot, "$defenders_team", slot_team_company2_type, pbs_troop_type_line),
@@ -5760,6 +5844,16 @@ pws_sky_bms = (ti_before_mission_start, 0, 0, [
 ], [])
 
 bms = (ti_before_mission_start, 0, 0, [
+	(try_begin),
+	(this_or_next|troop_has_item_equipped, "trp_player", "itm_be_chan1"),
+	(this_or_next|troop_has_item_equipped, "trp_player", "itm_sailor_moon_usagi_tsukino"),
+	(this_or_next|troop_has_item_equipped, "trp_player", "itm_ddlc_monika"),
+	(this_or_next|troop_has_item_equipped, "trp_player", "itm_yuruyuri_akari"),
+	(troop_has_item_equipped, "trp_player", "itm_yuruyuri_chinatsu"),
+	(troop_set_type, "trp_player", 2),
+	(else_try),
+	(troop_set_type, "trp_player", "$character_gender"),
+	(try_end),
 ], [])
 ams = (ti_after_mission_start, 0, 0, [
 ], [])
@@ -5767,6 +5861,11 @@ ams = (ti_after_mission_start, 0, 0, [
 parabellum_script_set_battle = [
 ams,
 bms,
+smoke_animated_200ms,
+pss_init,
+pss_100ms,
+player_hp_regen_hit,
+player_hp_regen_100ms,
 iron_sight_runtime,
 iron_sight_100ms,
 mg_1000ms,
@@ -7533,7 +7632,7 @@ mission_templates = [
 
 	(3, 0, 0, 
 	[
-	  (call_script, "script_tick_town_walkers")
+	#  (call_script, "script_tick_town_walkers") # parabellum disabled
 	], 
 	[]),
 	

@@ -199,6 +199,25 @@ skins = [
     "skel_human2", 0.93,
     psys_game_blood,psys_game_blood_2,
   ),
+  (
+    "test", skf_use_morph_key_10,
+    "invisible",  "invisible", "invisible",
+    "invisible", woman_face_keys,
+    ["invisible"], #woman_hair_meshes
+#    ["woman_hair_a","woman_hair_b","woman_hair_c","woman_hair_d","woman_hair_e","woman_hair_f","woman_hair_g"], #woman_hair_meshes
+    [],
+    ["hair_blonde", "hair_red", "hair_brunette", "hair_black", "hair_white"], #hair textures
+    [],
+    [("womanface_young",0xFFE2F0EC,["hair_blonde"],[0xffffffff, 0xffb04717, 0xff502a19, 0xff19100c]),
+	
+#     ("womanface_midage",0xffe5eaf0,["hair_black","hair_brunette","hair_red","hair_white"],[0xffffcded, 0xffbbcded, 0xff99eebb]),
+     ],#woman_face_textures
+    [
+	(voice_die,"snd_woman_die"),(voice_yell,"snd_woman_yell"),(voice_grunt, "snd_woman_grunt"),(voice_grunt_long, "snd_woman_grunt")
+	], #voice sounds
+    "skel_human3", 0.91,
+    psys_game_blood,psys_game_blood_2,
+  ),
 
 ]
 

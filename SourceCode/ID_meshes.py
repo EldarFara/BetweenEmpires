@@ -584,5 +584,7 @@ mesh_pps_party4 = 582
 mesh_pps_law_card = 583
 mesh_pps_ruling_party = 584
 mesh_monika = 585
+mesh_pes_region_factorycard = 586
+mesh_pes_region_factory_photo = 587
 
 

@@ -1531,6 +1531,7 @@ triggers = [
 (assign, ":music_situation", mtf_culture_westeurope),
 
 	(try_for_range, ":center_no", centers_begin, centers_end),
+	(party_is_active, ":center_no"),
 	(store_faction_of_party, ":faction", ":center_no"),
 		(try_begin),
 		(this_or_next|eq, ":faction", "fac_player_supporters_faction"),

@@ -9,6 +9,43 @@ from ID_parties import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+# PAS:
+# script_decide_faction_ai
+# script_calculate_troop_ai
+# script_async_recalculate_ais
+
+display_pes_debug_messages = 0
+
+preset_factory_slots_filling_percent_britain = 50
+preset_factory_slots_filling_percent_germany = 40
+preset_factory_slots_filling_percent_france = 40
+preset_factory_slots_filling_percent_italy = 20
+preset_factory_slots_filling_percent_russia = 8
+preset_factory_slots_filling_percent_austria = 15
+preset_factory_slots_filling_percent_spain = 20
+preset_factory_slots_filling_percent_portugal = 20
+preset_factory_slots_filling_percent_scandinavia = 20
+preset_factory_slots_filling_percent_benelux = 35
+preset_factory_slots_filling_percent_balkans = 3
+
+pes_region_menu_overlay_factory_name = 1
+pes_region_menu_overlay_factory_workers_number = 2
+pes_region_menu_overlay_factory_photo = 3
+pes_region_menu_overlay_factory_budget = 4
+pes_region_menu_overlay_factory_card = 5
+pes_region_menu_overlay_factory_add = 6
+pes_region_menu_overlay_factory_income = 7
+pes_region_menu_overlay_factory_spent_and_earnt = 8
+pes_region_menu_overlay_factory_product_quality = 9
+pes_region_menu_overlay_factory_produced_and_sold = 10
+pes_region_menu_overlay_factory_found_raw_resources1 = 11
+pes_region_menu_overlay_factory_playershare_slider = 12
+pes_region_menu_overlay_factory_playershare_buy = 13
+pes_region_menu_overlay_factory_playershare_name = 14
+pes_region_menu_overlay_factory_playershare_price = 15
+pes_region_menu_variable_factory_playershare_balance_change = 16
+pes_region_menu_variable_factory_playershare_selected_amount = 17
+
 mg_limit = 3
 
 language_english = 1
@@ -34,19 +71,18 @@ resource_coal = 2
 resource_meat = 3
 resource_cotton = 4
 resource_flour = 5
-resource_iron = 6
-resource_wood = 7
-resource_ammunition = 8
-resource_weaponry = 9
-resource_military_supplies = 10
-resource_fabric = 11
-resource_construction_materials = 12
-resource_furniture = 13
-resource_machine_parts = 14
-resource_paper = 15
-resource_clothes = 16
-resource_timber = 17
-resource_steel = 18
+resource_wood = 6
+resource_ammunition = 7
+resource_weaponry = 8
+resource_military_supplies = 9
+resource_fabric = 10
+resource_construction_materials = 11
+resource_furniture = 12
+resource_machine_parts = 13
+resource_paper = 14
+resource_clothes = 15
+resource_timber = 16
+resource_steel = 17
 
 ideology_reactionary = 1
 ideology_liberal = 2
@@ -302,6 +338,11 @@ YuriSlotProp_CannonballHEType = YuriSlotProp_Cannoneer1 + 28
 YuriSlotProp_CannonballFuseBallTimer = YuriSlotProp_Cannoneer1 + 29
 slot_prop_is_occupied = YuriSlotProp_Cannoneer1 + 30
 slot_prop_agent_attached = YuriSlotProp_Cannoneer1 + 31
+slot_prop_pss_next_route_prop = YuriSlotProp_Cannoneer1 + 32
+slot_prop_pss_previous_route_prop = YuriSlotProp_Cannoneer1 + 33
+slot_prop_animation_start_material_string = YuriSlotProp_Cannoneer1 + 34
+slot_prop_animation_number_of_frames = YuriSlotProp_Cannoneer1 + 35
+slot_prop_animation_current_frame = YuriSlotProp_Cannoneer1 + 36
 
 square_forming_phase_outer_square1 = 0
 square_forming_phase_outer_square2 = 1
@@ -409,6 +450,28 @@ custom_troop_begin = "trp_kingdom_recruit"
 custom_troop_end = "trp_array_a"
 ## ZZ Custom Kingdom Troops end
 
+slot_item_pes_begin      = 104
+slot_item_price_history_begin      = slot_item_pes_begin + 0
+slot_item_price_history_end      = slot_item_pes_begin + 100
+slot_item_factions_production1_begin      = slot_item_price_history_end + 0
+slot_item_factions_production1_end      = slot_item_price_history_end + 40
+slot_item_factions_production2_begin      = slot_item_price_history_end + 40
+slot_item_factions_production2_end      = slot_item_price_history_end + 80
+slot_item_factions_quality1_begin      = slot_item_price_history_end + 80
+slot_item_factions_quality1_end      = slot_item_price_history_end + 120
+slot_item_factions_quality2_begin      = slot_item_price_history_end + 120
+slot_item_factions_quality2_end      = slot_item_price_history_end + 160
+slot_item_factions_factory_number1_begin      = slot_item_price_history_end + 160
+slot_item_factions_factory_number1_end      = slot_item_price_history_end + 200
+slot_item_factions_factory_number2_begin      = slot_item_price_history_end + 200
+slot_item_factions_factory_number2_end      = slot_item_price_history_end + 240
+slot_item_supply1      = slot_item_price_history_end + 241
+slot_item_supply2      = slot_item_price_history_end + 242
+slot_item_demand1      = slot_item_price_history_end + 243
+slot_item_demand2      = slot_item_price_history_end + 244
+
+slot_item_pointer_number_of_pointers   = 400
+
 ########################################################
 ##  ITEM SLOTS             #############################
 ########################################################
@@ -515,6 +578,9 @@ slot_agent_prop2      = 50
 slot_agent_mg_is_deployed      = 51
 slot_agent_mg_bullets      = 52
 slot_agent_mg_bullets_timer      = 53
+slot_agent_pss_current_route_prop      = 54
+slot_agent_pss_current_direction      = 55
+slot_agent_pss_wide_offset      = 56
 
 ########################################################
 ##  FACTION SLOTS          #############################
@@ -1225,7 +1291,7 @@ slot_town_trade_routes_end = slot_town_trade_route_15 + 1
 num_trade_goods = itm_siege_supply - itm_spice
 slot_town_trade_good_productions_begin       = 500 #a harmless number, until it can be deprecated
 
-#These affect production but in some cases also demand, so it is perhaps easier to itemize them than to have separate 
+#These affect production but in some cases also , so it is perhaps easier to itemize them than to have separate 
 
 slot_village_number_of_cattle   = 205
 slot_center_head_cattle         = 205 #dried meat, cheese, hides, butter
@@ -1262,7 +1328,7 @@ slot_center_wool_looms          = 227 #wool cloth
 slot_center_pottery_kilns		= 228 #pottery
 slot_center_smithies			= 229 #tools
 slot_center_tanneries			= 230 #leatherwork
-slot_center_shipyards			= 231 #naval stores - uses timber, pitch, and linen
+slot_center_shipyards			= 231 
 
 slot_center_household_gardens   = 232 #cabbages
 slot_production_sources_end = 233
@@ -1345,6 +1411,104 @@ slot_center_factory4_max_workers = pes_slots_start + 51
 slot_center_factory5_max_workers = pes_slots_start + 52
 slot_center_factory6_max_workers = pes_slots_start + 53
 slot_center_villages_resource_bonus_type = pes_slots_start + 54
+slot_center_villages_production_size = pes_slots_start + 55
+slot_center_villages_budget = pes_slots_start + 56
+slot_center_factory1_income = pes_slots_start + 57
+slot_center_factory2_income = pes_slots_start + 58
+slot_center_factory3_income = pes_slots_start + 59
+slot_center_factory4_income = pes_slots_start + 60
+slot_center_factory5_income = pes_slots_start + 61
+slot_center_factory6_income = pes_slots_start + 62
+slot_center_factory1_spentlastday1 = pes_slots_start + 63
+slot_center_factory2_spentlastday1 = pes_slots_start + 64
+slot_center_factory3_spentlastday1 = pes_slots_start + 65
+slot_center_factory4_spentlastday1 = pes_slots_start + 66
+slot_center_factory5_spentlastday1 = pes_slots_start + 67
+slot_center_factory6_spentlastday1 = pes_slots_start + 68
+slot_center_factory1_earntlastday1 = pes_slots_start + 69
+slot_center_factory2_earntlastday1 = pes_slots_start + 70
+slot_center_factory3_earntlastday1 = pes_slots_start + 71
+slot_center_factory4_earntlastday1 = pes_slots_start + 72
+slot_center_factory5_earntlastday1 = pes_slots_start + 73
+slot_center_factory6_earntlastday1 = pes_slots_start + 74
+slot_center_factory1_spentlastday2 = pes_slots_start + 75
+slot_center_factory2_spentlastday2 = pes_slots_start + 76
+slot_center_factory3_spentlastday2 = pes_slots_start + 77
+slot_center_factory4_spentlastday2 = pes_slots_start + 78
+slot_center_factory5_spentlastday2 = pes_slots_start + 79
+slot_center_factory6_spentlastday2 = pes_slots_start + 80
+slot_center_factory1_earntlastday2 = pes_slots_start + 81
+slot_center_factory2_earntlastday2 = pes_slots_start + 82
+slot_center_factory3_earntlastday2 = pes_slots_start + 83
+slot_center_factory4_earntlastday2 = pes_slots_start + 84
+slot_center_factory5_earntlastday2 = pes_slots_start + 85
+slot_center_factory6_earntlastday2 = pes_slots_start + 86
+slot_center_factory1_producedduringday = pes_slots_start + 87
+slot_center_factory2_producedduringday = pes_slots_start + 88
+slot_center_factory3_producedduringday = pes_slots_start + 89
+slot_center_factory4_producedduringday = pes_slots_start + 90
+slot_center_factory5_producedduringday = pes_slots_start + 91
+slot_center_factory6_producedduringday = pes_slots_start + 92
+slot_center_factory1_soldpercent = pes_slots_start + 93
+slot_center_factory2_soldpercent = pes_slots_start + 94
+slot_center_factory3_soldpercent = pes_slots_start + 95
+slot_center_factory4_soldpercent = pes_slots_start + 96
+slot_center_factory5_soldpercent = pes_slots_start + 97
+slot_center_factory6_soldpercent = pes_slots_start + 98
+slot_center_factory1_found_raw_resources1 = pes_slots_start + 99
+slot_center_factory2_found_raw_resources1 = pes_slots_start + 100
+slot_center_factory3_found_raw_resources1 = pes_slots_start + 101
+slot_center_factory4_found_raw_resources1 = pes_slots_start + 102
+slot_center_factory5_found_raw_resources1 = pes_slots_start + 103
+slot_center_factory6_found_raw_resources1 = pes_slots_start + 104
+slot_center_factory1_producedlastday = pes_slots_start + 105
+slot_center_factory2_producedlastday = pes_slots_start + 106
+slot_center_factory3_producedlastday = pes_slots_start + 107
+slot_center_factory4_producedlastday = pes_slots_start + 108
+slot_center_factory5_producedlastday = pes_slots_start + 109
+slot_center_factory6_producedlastday = pes_slots_start + 110
+slot_center_factory1_spentlastday3 = pes_slots_start + 111
+slot_center_factory2_spentlastday3 = pes_slots_start + 112
+slot_center_factory3_spentlastday3 = pes_slots_start + 113
+slot_center_factory4_spentlastday3 = pes_slots_start + 114
+slot_center_factory5_spentlastday3 = pes_slots_start + 115
+slot_center_factory6_spentlastday3 = pes_slots_start + 116
+slot_center_factory1_found_raw_resources2 = pes_slots_start + 117
+slot_center_factory2_found_raw_resources2 = pes_slots_start + 118
+slot_center_factory3_found_raw_resources2 = pes_slots_start + 119
+slot_center_factory4_found_raw_resources2 = pes_slots_start + 120
+slot_center_factory5_found_raw_resources2 = pes_slots_start + 121
+slot_center_factory6_found_raw_resources2 = pes_slots_start + 122
+slot_center_factory1_playershare = pes_slots_start + 123
+slot_center_factory2_playershare = pes_slots_start + 124
+slot_center_factory3_playershare = pes_slots_start + 125
+slot_center_factory4_playershare = pes_slots_start + 126
+slot_center_factory5_playershare = pes_slots_start + 127
+slot_center_factory6_playershare = pes_slots_start + 128
+slot_center_factory1_devmode = pes_slots_start + 129
+slot_center_factory2_devmode = pes_slots_start + 130
+slot_center_factory3_devmode = pes_slots_start + 131
+slot_center_factory4_devmode = pes_slots_start + 132
+slot_center_factory5_devmode = pes_slots_start + 133
+slot_center_factory6_devmode = pes_slots_start + 134
+slot_center_factory1_workers_wage = pes_slots_start + 135
+slot_center_factory2_workers_wage = pes_slots_start + 136
+slot_center_factory3_workers_wage = pes_slots_start + 137
+slot_center_factory4_workers_wage = pes_slots_start + 138
+slot_center_factory5_workers_wage = pes_slots_start + 139
+slot_center_factory6_workers_wage = pes_slots_start + 140
+slot_center_factory1_workers_conditions = pes_slots_start + 141
+slot_center_factory2_workers_conditions = pes_slots_start + 142
+slot_center_factory3_workers_conditions = pes_slots_start + 143
+slot_center_factory4_workers_conditions = pes_slots_start + 144
+slot_center_factory5_workers_conditions = pes_slots_start + 145
+slot_center_factory6_workers_conditions = pes_slots_start + 146
+slot_center_factory1_price = pes_slots_start + 147
+slot_center_factory2_price = pes_slots_start + 148
+slot_center_factory3_price = pes_slots_start + 149
+slot_center_factory4_price = pes_slots_start + 150
+slot_center_factory5_price = pes_slots_start + 151
+slot_center_factory6_price = pes_slots_start + 152
 
 #slot_party_type values
 ##spt_caravan            = 1
