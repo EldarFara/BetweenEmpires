@@ -1,4 +1,4 @@
-1151
+1156
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -223,6 +223,7 @@ qstr__Current_progress___ _Current_progress_-_{reg2}%.
 qstr_Cost___{reg0}_pounds Cost_-_{reg0}_pounds{s1}.^Available_after_{reg1}_year.{s2}
 qstr_Select_Faction Select_Faction
 qstr_Start_Game Start_Game
+qstr_{reg10} {reg10}
 qstr_Chosen_Faction:^{s1} Chosen_Faction:^{s1}
 qstr_Select_flag_for_your Select_flag_for_your_faction
 qstr_Peace_negotiations_w Peace_negotiations_with_{s1}
@@ -981,6 +982,12 @@ qstr_{!}{s11}{s12} {!}{s11}{s12}
 qstr_{!}DEBUG____Hours_si {!}DEBUG_--_Hours_since_last_feast_started:_{reg4}
 qstr_^^Note_that_so_long_ ^^Note_that_so_long_as_you_remain_marshal,_the_lords_of_the_realm_will_be_expecting_you_to_lead_them_on_campaign._So,_if_you_are_awaiting_a_feast,_either_for_a_wedding_or_for_other_purposes,_you_may_wish_to_resign_the_marshalship_by_speaking_to_your_liege.
 qstr_Temperature:_+{reg0} Temperature:_+{reg0}_C_^Pressure:_{reg1}_hPa_^Humidity:_{reg2}%_^Wind:_{reg3}_km/h_^Cloudiness:_{reg4}%_^Precipitation:_{reg5}%
+qstr_Austrian_Empire Austrian_Empire
+qstr_Kingdom_of_Sardinia Kingdom_of_Sardinia
+qstr_Kingdom_of_Prussia Kingdom_of_Prussia
+qstr_Austria_Hungary Austria-Hungary
+qstr_Kingdom_of_Italy Kingdom_of_Italy
+qstr_German_Empire German_Empire
 qstr_You_have_bought_a_fi You_have_bought_a_field_gun.
 qstr_You_have_exceeded_pa You_have_exceeded_party_size_limit.
 qstr_You_have_no_enough_m You_have_no_enough_money.
@@ -1016,8 +1023,6 @@ qstr_{!}DEBUG___Checking_ {!}DEBUG_-_Checking_fire_at_{s4}_for_{s5}_-_current_ti
 qstr_The_{s1}_has_finishe The_{s1}_has_finished_researching_technology_of_{s2}.
 qstr_The_year_is_{reg0}. The_year_is_{reg0}.
 qstr_North_German_Confede North_German_Confederation
-qstr_German_Empire German_Empire
-qstr_Kingdom_of_Italy Kingdom_of_Italy
 qstr_Finished_improving_r Finished_improving_relations_with_{s31}.
 qstr_{!}DEBUG____Wanted_b {!}DEBUG_--_Wanted_bandits_spotted_by_{s4}
 qstr_{reg65?my_Lady:my_Lo {reg65?my_Lady:my_Lord}

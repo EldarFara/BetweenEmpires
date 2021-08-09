@@ -14,7 +14,7 @@ from ID_parties import *
 # script_calculate_troop_ai
 # script_async_recalculate_ais
 
-display_pes_debug_messages = 1
+display_pes_debug_messages = 0
 
 preset_factory_slots_filling_percent_britain = 50
 preset_factory_slots_filling_percent_germany = 40
