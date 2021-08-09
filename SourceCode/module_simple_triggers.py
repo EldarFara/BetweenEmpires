@@ -4888,7 +4888,7 @@ simple_triggers = [
 			(eq, "$player_faction_preset", "fac_kingdom_3"),
 			(assign, ":faction", "fac_player_faction"),
 			(try_end),
-		(faction_slot_ge, ":faction", slot_faction_technology_riflessmallcaliber, 10000),
+		(faction_slot_ge, ":faction", slot_faction_technology_woundedevacuation, 10000),
 		(troop_has_item_equipped, "trp_faction3_troop1", "itm_lou_infantry5"),
 		(troop_remove_item, "trp_faction3_castleguard", "itm_lou_infantry_trousers3"), (troop_remove_item, "trp_faction3_castleguard", "itm_lou_infantry5"), (troop_remove_item, "trp_faction3_castleguard", "itm_lou_hat2"),
 		(troop_remove_item, "trp_faction3_prisonguard", "itm_lou_infantry_trousers3"), (troop_remove_item, "trp_faction3_prisonguard", "itm_lou_infantry5"), (troop_remove_item, "trp_faction3_prisonguard", "itm_lou_hat2"),

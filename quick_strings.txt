@@ -1,4 +1,4 @@
-1166
+1165
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -309,6 +309,7 @@ qstr_Balance_change:{s1}{ Balance_change:{s1}{reg10}_pounds.
 qstr_BUY BUY
 qstr_SELL SELL
 qstr_Balance_change:_+0_p Balance_change:_+0_pounds.
+qstr_Manage_share__Now_is Manage_share_(Now_is_{reg10})%.
 qstr_Not_enough_money. Not_enough_money.
 qstr_vSeason vSeason
 qstr_{!}DEBUG_:_Completed {!}DEBUG_:_Completed_faction_troop_assignments,_cheat_mode:_{reg3}
@@ -673,7 +674,6 @@ qstr_Spent_{reg10}_pounds Spent_{reg10}_pounds_and_earnt_{reg11}_pounds_last_day
 qstr_Managed_to_buy_{reg1 Managed_to_buy_{reg10}%_of_needed_raw_resources^needed_for_production.
 qstr_Produced_{reg10}.{re Produced_{reg10}.{reg12}_{s1}_(sold_{reg11}%).
 qstr_Quality_of_product_i Quality_of_product_is_{reg10}%.
-qstr_Manage_share__Now_is Manage_share_(Now_is_{reg10})%.
 qstr_pes_region_factory_p pes_region_factory_photo_notavailable
 qstr_pes_region_factory_ph pes_region_factory_photo_empty
 qstr_Steel_Factory Steel_Factory
@@ -1164,4 +1164,3 @@ qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
 qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
-qstr_{reg10} {reg10}
