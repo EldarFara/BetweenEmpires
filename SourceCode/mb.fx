@@ -7188,13 +7188,13 @@ VS_OUTPUT_FLORA vs_flora(uniform const int PcfMode, float4 vPosition : POSITION,
 	
 	
 	float windAmount = sin(time_var*0.1014) + cos(time_var*0.1413);
-    //windAmount*=windAmount; 
+    windAmount/=3; 
     float2 treePos = //float2 (matWorld._m03, matWorld._m13) + 
                     vPosition.xy;
     float t2 = time_var + dot( treePos , float2(6.5,4.5)) ;
     float windPhase = sin(t2*3.9)*cos(t2*2.3);
     vPosition.xy += float2(0.018,0.018) // *(vPosition.z+50.0)
-				    *windPhase*(windAmount+0.2)
+				    *windPhase*(windAmount+0.1)
                    *(ShadowedPos.z*0.1); // distance from ground stored in alpha channes with openbrf easteregg! ;)
  	vPosition.z += 0.02 * sin(0.1* vPosition.y + 0.7 * time_var); // NO.1= HEIGHT OF WAVE       NO.2= NUMBER OF WAVES    NO.3= SPEED OF WAVES
 	

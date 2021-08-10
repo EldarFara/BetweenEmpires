@@ -62,6 +62,7 @@ scripts = [
 (assign, "$ironsight_mode", 0),
 (assign, "$pes_resource_menu_return_to_region", 0),
 (assign, "$pes_resource_menu_selected_resource", 1),
+(assign, "$g_player_income_factories", 0),
    
    	  ## ZZ Custom Kingdom Troops begin
 	  (call_script,"script_item_detial"),
@@ -57510,8 +57511,8 @@ scripts = [
 	(faction_set_slot, "fac_player_supporters_faction",  ":slot", ":slot_value"),
 	(try_end), 
 	(try_for_range, ":slot", slot_faction_town_walker_male_troop, slot_faction_town_spy_female_troop+1),   
-	(faction_get_slot, ":slot_value", ":orginal_faction", ":slot"),
-	(faction_set_slot, "fac_player_supporters_faction",  ":slot", ":slot_value"),
+	(faction_get_slot, ":slot_value", ":culture", ":slot"),
+	(faction_set_slot, "fac_culture_player",  ":slot", ":slot_value"),
 	(try_end), 
 
 	(call_script, "script_activate_player_faction", "trp_player"),
@@ -60317,6 +60318,7 @@ scripts = [
 (store_add, ":slot_found_raw_resources1", slot_center_factory1_found_raw_resources1, ":factory"),
 (store_add, ":slot_found_raw_resources2", slot_center_factory1_found_raw_resources2, ":factory"),
 (store_add, ":slot_factory_price", slot_center_factory1_price, ":factory"),
+(store_add, ":slot_playershare", slot_center_factory1_playershare, ":factory"),
 (party_get_slot, ":type", ":center", ":slot_type"),
 
 (try_begin),
@@ -60332,6 +60334,7 @@ scripts = [
 (party_get_slot, ":resource_amount", ":center", ":slot_resource_amount"),
 (party_get_slot, ":producedduringday", ":center", ":slot_producedduringday"),
 (party_get_slot, ":found_raw_resources1", ":center", ":slot_found_raw_resources1"),
+(party_get_slot, ":playershare", ":center", ":slot_playershare"),
 (party_set_slot, ":center", ":slot_producedlastday", ":producedduringday"),
 	(try_begin),
 	(assign, ":sold_percent", 0),
@@ -60482,8 +60485,14 @@ scripts = [
 
 (store_mul, ":factory_price", ":workers", 10),
 (val_mul, ":factory_price", ":machine_tools_quality"),
-(val_div, ":factory_price", 100),
+(val_div, ":factory_price", 70),
 (party_set_slot, ":center", ":slot_factory_price", ":factory_price"),
+	(try_begin),
+	(gt, ":income", 0),
+	(store_mul, ":player_income", ":income", ":playershare"),
+	(val_div, ":player_income", 300),
+	(val_add, "$g_player_income_factories", ":player_income"),
+	(try_end),
 ]),
 
 ("pes_find_and_buy_resource", # output: reg1 - bought amount

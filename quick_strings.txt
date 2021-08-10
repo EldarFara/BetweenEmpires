@@ -1,4 +1,4 @@
-1165
+1166
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -65,7 +65,8 @@ qstr_Days_Passed:_{reg0} Days_Passed:_{reg0}
 qstr_Difficulty:_{reg0}% Difficulty:_{reg0}%
 qstr_{!}{reg3?+:}{reg0} {!}{reg3?+:}{reg0}
 qstr_TOTAL_SCORE:_{reg0} TOTAL_SCORE:_{reg0}
-qstr_{!}DEBUG____Adding_{ {!}DEBUG_--_Adding_{reg3}_items_to_{s3}
+qstr_Income_from_factorie Income_from_factories_share:
+qstr_{reg10} {reg10}
 qstr_None None
 qstr_Deployment_Plan Deployment_Plan
 qstr_You_have_{reg1}_comb You_have_{reg1}_combatants_available.
