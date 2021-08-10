@@ -1207,6 +1207,7 @@ scripts = [
 	  # fill_village_bound_centers
     #pass 1: Give one village to each castle
 	
+	(party_set_slot, "p_village_287", slot_village_bound_center, "p_town_39"),
 	(party_set_slot, "p_village_223", slot_village_bound_center, "p_castle_206"),
 	(call_script, "script_give_center_to_faction_aux", "p_village_223", "fac_kingdom_12"),
     (party_set_slot, "p_village_148", slot_village_bound_center, "p_castle_8"),
@@ -60490,7 +60491,7 @@ scripts = [
 	(try_begin),
 	(gt, ":income", 0),
 	(store_mul, ":player_income", ":income", ":playershare"),
-	(val_div, ":player_income", 300),
+	(val_div, ":player_income", 250),
 	(val_add, "$g_player_income_factories", ":player_income"),
 	(try_end),
 ]),
