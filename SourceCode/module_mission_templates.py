@@ -21,7 +21,7 @@ pilgrim_disguise = [itm_ammo_pistol, itm_dagger, itm_sidearm_colt_m1851_navy, it
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
 smoke_animated_200ms = (
-0.08, 0, 0, [],
+0.07, 0, 0, [],
 [
 	(try_for_prop_instances, ":prop", "spr_0siege_smokepillar1_animated"),
 	(scene_prop_get_slot, ":max_frame", ":prop", slot_prop_animation_number_of_frames),
