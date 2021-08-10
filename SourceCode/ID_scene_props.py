@@ -1785,3 +1785,4 @@ spr_pss_carriage1 = 1783
 spr_pss_carriage2 = 1784
 spr_0siege_smokepillar1_animated = 1785
 spr_0siege_fort_ruins1 = 1786
+spr_brick = 1787

@@ -21,7 +21,7 @@ pilgrim_disguise = [itm_ammo_pistol, itm_dagger, itm_sidearm_colt_m1851_navy, it
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
 smoke_animated_200ms = (
-0.07, 0, 0, [],
+0.05, 0, 0, [],
 [
 	(try_for_prop_instances, ":prop", "spr_0siege_smokepillar1_animated"),
 	(scene_prop_get_slot, ":max_frame", ":prop", slot_prop_animation_number_of_frames),
@@ -5093,11 +5093,11 @@ aerial_view_runtime = (0, 0, 0, [], [
 ])
 
 test = (0, 0, 0, [
-(key_is_down, key_t),
-(get_player_agent_no, ":player"),
-(agent_set_slot, ":player", slot_agent_prone_status, 1),
-		(agent_set_animation, ":player", "anim_prone_rifle_idle", 0),
-		(agent_set_animation, ":player", "anim_prone_rifle_idle", 1),
+# (key_is_down, key_t),
+# (get_player_agent_no, ":player"),
+# (agent_set_slot, ":player", slot_agent_prone_status, 1),
+		# (agent_set_animation, ":player", "anim_prone_rifle_idle", 0),
+		# (agent_set_animation, ":player", "anim_prone_rifle_idle", 1),
 # (team_get_slot, reg0, "$g_player_team", slot_team_company1_discipline),
 # (display_message, "@{reg0}"),
 # (get_player_agent_no, ":player"),

@@ -1,5 +1,5 @@
 scene_propsfile version 1
- 1787
+ 1788
 spr_invalid_object 0 0 question_mark 0 0
 
 
@@ -5561,5 +5561,8 @@ spr_0siege_smokepillar1_animated 0 0 smokepillar1 0 1
 
 
 spr_0siege_fort_ruins1 0 0 fort_ruins1 bo_fort_ruins1 0
+
+
+spr_brick 0 0 brick 0 0
 
 

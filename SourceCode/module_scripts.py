@@ -59423,6 +59423,8 @@ scripts = [
 [
 (store_script_param, ":team", 1),
 
+#(display_message, "@pai_siege_defender_take_cover", 0xFF0000),
+
 (team_set_slot, ":team", slot_team_pai_global_tactic, pai_global_tactic_siege_defend_holding_position),
 	(try_for_range, ":company", 0, 8), # Take defensive lines and switch to running
 	(call_script, "script_cf_if_company_has_soldiers", ":team", ":company"),
@@ -59432,8 +59434,10 @@ scripts = [
 	(store_add, ":slot_team_run_mode", slot_team_company1_run_mode, ":company"),
 	(team_set_slot, ":team", ":slot_team_run_mode", pbs_run_mode_running),
 	(call_script, "script_get_company_soldiers_number", ":team", ":company"), (neq, reg0, 0),
+#(display_message, "@company", 0xFF0000),
 	(assign, ":done", 0),
 		(try_for_prop_instances, ":prop", "spr_pai_defensive_line"),
+#(display_message, "@prop", 0xFF0000),
 		(eq, ":done", 0),
 		(scene_prop_get_slot, ":is_occupied", ":prop", slot_prop_is_occupied),
 		(eq, ":is_occupied", 0),
