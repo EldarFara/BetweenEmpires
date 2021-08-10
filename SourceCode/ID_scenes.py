@@ -2055,3 +2055,4 @@ scn_village_turkish = 2053
 scn_village_middleeast = 2054
 scn_town_arab_walls = 2055
 scn_town_european_walls2 = 2056
+scn_town_european_walls3 = 2057

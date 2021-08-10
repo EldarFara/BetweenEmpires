@@ -4217,6 +4217,7 @@ scene_props = [
 #("hq_interior",0,"Rus_Town_Lord_Interier_8","bo_Rus_Town_Lord_Interier_8", []),
 ("0siege_smokepillar1_animated", 0, "smokepillar1", 0, [(ti_on_scene_prop_init,[(store_trigger_param_1, ":prop"),(scene_prop_set_slot, ":prop", slot_prop_animation_start_material_string, "str_smokepillar1_01"),(scene_prop_set_slot, ":prop", slot_prop_animation_number_of_frames, 64),(scene_prop_set_slot, ":prop", slot_prop_animation_current_frame, 0),]),]),
 
+("0siege_fort_ruins1", 0, "fort_ruins1", "bo_fort_ruins1", []),
 ]
 
  # modmerger_start version=201 type=2

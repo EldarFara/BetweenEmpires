@@ -2744,12 +2744,12 @@ itemsfile version 3
  44
 0
 
- itm_ria_cavalry3 Russian_Cossack_Torso Russian_Cossack_Torso 1  ria_cavalry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_ria_cavalry3 Russian_Cossack_Uniform Russian_Cossack_Uniform 1  ria_cavalry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  44
 0
 
- itm_ria_cavalry4 Russian_General_Torso Russian_General_Torso 1  ria_cavalry4 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_ria_cavalry4 Russian_General_Uniform Russian_General_Uniform 1  ria_cavalry4 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  44
 0
@@ -3087,12 +3087,12 @@ itemsfile version 3
  45
 0
 
- itm_lou_general Austrian_General_Torso Austrian_General_Torso 1  lou_general 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_lou_general Austrian_General_Uniform Austrian_General_Uniform 1  lou_general 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  45
 0
 
- itm_lou_emperor Austrian_Kaiser_Torso Austrian_Kaiser_Torso 1  lou_emperor 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_lou_emperor Austrian_Kaiser_Uniform Austrian_Kaiser_Uniform 1  lou_emperor 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  45
 0
@@ -3243,7 +3243,7 @@ itemsfile version 3
  54
 0
 
- itm_gho_cavalry2 Persian_Cossack_Torso Persian_Cossack_Torso 1  gho_cavalry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_gho_cavalry2 Persian_Cossack_Uniform Persian_Cossack_Uniform 1  gho_cavalry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  54
 0
@@ -3278,7 +3278,7 @@ itemsfile version 3
  54
 0
 
- itm_gho_leader1 Persian_General_Torso Persian_General_Torso 1  gho_leader1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_gho_leader1 Persian_General_Uniform Persian_General_Uniform 1  gho_leader1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  54
 0
@@ -3293,7 +3293,7 @@ itemsfile version 3
  54
 0
 
- itm_gho_shah1 Persian_Shah_Torso Persian_Shah_Torso 1  gho_shah1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_gho_shah1 Persian_Shah_Uniform Persian_Shah_Uniform 1  gho_shah1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  54
 0
@@ -3987,7 +3987,7 @@ itemsfile version 3
  72
 0
 
- itm_bav_torso_leadgen1 Bavarian_General_Torso Bavarian_General_Torso 1  bav_torso_leadgen1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_bav_torso_leadgen1 Bavarian_General_Uniform Bavarian_General_Uniform 1  bav_torso_leadgen1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  72
 0
@@ -4122,17 +4122,17 @@ itemsfile version 3
  47
 0
 
- itm_pru_torso_leader1 Prussian_King_Torso Prussian_King_Torso 1  pru_torso_leader1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_pru_torso_leader1 Prussian_King_Uniform Prussian_King_Uniform 1  pru_torso_leader1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_torso_general1 Prussian_General_Torso Prussian_General_Torso 1  pru_torso_general1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_pru_torso_general1 Prussian_General_Uniform Prussian_General_Uniform 1  pru_torso_general1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_torso_general2 Prussian_General_Torso Prussian_General_Torso 1  pru_torso_general2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_pru_torso_general2 Prussian_General_Uniform Prussian_General_Uniform 1  pru_torso_general2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  47
 0
@@ -4182,7 +4182,7 @@ itemsfile version 3
  69
 0
 
- itm_wur_torso_general1 Wurttemberg_General_Torso Wurttemberg_General_Torso 1  wur_torso_general1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_wur_torso_general1 Wurttemberg_General_Uniform Wurttemberg_General_Uniform 1  wur_torso_general1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  69
 0
@@ -4247,7 +4247,7 @@ itemsfile version 3
  73
 0
 
- itm_han_torso_leadgen1 Hanoverian_General_Torso Hanoverian_General_Torso 1  han_torso_leadgen1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_han_torso_leadgen1 Hanoverian_General_Uniform Hanoverian_General_Uniform 1  han_torso_leadgen1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  73
 0
@@ -4317,7 +4317,7 @@ itemsfile version 3
  48
 0
 
- itm_tur_torso_zouave Ottoman_Zouave_Torso Ottoman_Zouave_Torso 1  tur_torso_zouave 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_tur_torso_zouave Ottoman_Zouave_Uniform Ottoman_Zouave_Uniform 1  tur_torso_zouave 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  48
 0
@@ -4342,12 +4342,12 @@ itemsfile version 3
  48
 0
 
- itm_tur_torso_general Ottoman_General_Torso Ottoman_General_Torso 1  tur_torso_general 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_tur_torso_general Ottoman_General_Uniform Ottoman_General_Uniform 1  tur_torso_general 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  48
 0
 
- itm_tur_torso_sultan Ottoman_Sultan_Torso Ottoman_Sultan_Torso 1  tur_torso_sultan 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_tur_torso_sultan Ottoman_Sultan_Uniform Ottoman_Sultan_Uniform 1  tur_torso_sultan 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  48
 0
@@ -4427,12 +4427,12 @@ itemsfile version 3
  56
 0
 
- itm_egy_general Egyptian_General_Torso Egyptian_General_Torso 1  egy_general 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_egy_general Egyptian_General_Uniform Egyptian_General_Uniform 1  egy_general 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  56
 0
 
- itm_egy_pasha Egyptian_Pasha_Torso Egyptian_Pasha_Torso 1  egy_pasha 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_egy_pasha Egyptian_Pasha_Uniform Egyptian_Pasha_Uniform 1  egy_pasha 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  56
 0
@@ -4492,12 +4492,12 @@ itemsfile version 3
  60
 0
 
- itm_dan_general Danish_General_Torso Danish_General_Torso 1  dan_general 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_dan_general Danish_General_Uniform Danish_General_Uniform 1  dan_general 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  60
 0
 
- itm_dan_torso_king Danish_King_Torso Danish_King_Torso 1  dan_torso_king 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_dan_torso_king Danish_King_Uniform Danish_King_Uniform 1  dan_torso_king 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  60
 0
@@ -4552,7 +4552,7 @@ itemsfile version 3
  71
 0
 
- itm_sve_torso_general Swedish_General_Torso Swedish_General_Torso 1  sve_torso_general 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_sve_torso_general Swedish_General_Uniform Swedish_General_Uniform 1  sve_torso_general 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  71
 0
@@ -4627,12 +4627,12 @@ itemsfile version 3
  43
 0
 
- itm_fra_torso_general French_General_Torso French_General_Torso 1  fra_torso_general 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_fra_torso_general French_General_Uniform French_General_Uniform 1  fra_torso_general 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  43
 0
 
- itm_fra_torso_napoleon3 French_Napoleon_Torso French_Napoleon_Torso 1  fra_torso_napoleon3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_fra_torso_napoleon3 French_Napoleon_Uniform French_Napoleon_Uniform 1  fra_torso_napoleon3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  43
 0
@@ -4746,7 +4746,7 @@ itemsfile version 3
  70
 0
 
- itm_srb_general_torso Serbian_General_Torso Serbian_General_Torso 1  srb_general_torso 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_srb_general_torso Serbian_General_Uniform Serbian_General_Uniform 1  srb_general_torso 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  70
 0

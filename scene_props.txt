@@ -1,5 +1,5 @@
 scene_propsfile version 1
- 1786
+ 1787
 spr_invalid_object 0 0 question_mark 0 0
 
 
@@ -5558,5 +5558,8 @@ spr_pss_carriage2 0 0 carriage1 bo_carriage1 0
 
 spr_0siege_smokepillar1_animated 0 0 smokepillar1 0 1
 -40.000000  4 2071 1 1224979098644774912 510 3 1224979098644774912 184 216172782113787506 510 3 1224979098644774912 185 64 510 3 1224979098644774912 186 0 
+
+
+spr_0siege_fort_ruins1 0 0 fort_ruins1 bo_fort_ruins1 0
 
 

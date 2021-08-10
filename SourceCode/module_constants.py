@@ -469,6 +469,7 @@ slot_item_supply1      = slot_item_price_history_end + 241
 slot_item_supply2      = slot_item_price_history_end + 242
 slot_item_demand1      = slot_item_price_history_end + 243
 slot_item_demand2      = slot_item_price_history_end + 244
+slot_item_base_price      = slot_item_price_history_end + 245
 
 slot_item_pointer_number_of_pointers   = 400
 
