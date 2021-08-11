@@ -780,5 +780,7 @@ script_pes_center_population_buy_resources = 778
 script_pes_iteration_start = 779
 script_get_resource_name_for_type_capitalized = 780
 script_pes_resource_menu_display_resource = 781
+script_pes_resource_is_produced_by_center = 782
+script_pes_resource_is_demanded_by_center = 783
 
 

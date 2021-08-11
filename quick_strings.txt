@@ -1,4 +1,4 @@
-1169
+1171
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -655,9 +655,6 @@ qstr_Belongs_to_{s31} Belongs_to_{s31}
 qstr_Controlled_by_{s31}^ Controlled_by_{s31}^Belongs_to_{s32}
 qstr_{s31}_becomes_an_all {s31}_becomes_an_ally_of_{s32}.
 qstr_{s31}_breaks_an_alli {s31}_breaks_an_alliance_with_{s32}.
-qstr_pai_siege_defender_t pai_siege_defender_take_cover
-qstr_company company
-qstr_prop prop
 qstr_Absolute_Monarchy Absolute_Monarchy
 qstr_Constitutional_Monar Constitutional_Monarchy
 qstr_Republic Republic
@@ -665,9 +662,13 @@ qstr_Parliament_Compositi Parliament_Composition
 qstr_{s1}:_{reg1}% {s1}:_{reg1}%
 qstr_Ruling_party Ruling_party
 qstr_Influence:_{reg1}% Influence:_{reg1}%
+qstr_Faction_iteration_of Faction_iteration_of_{s1}.
+qstr_Center_iteration_of_ Center_iteration_of_{s1}.
 qstr_{s1}_s_{s2}_Iteratio {s1}'s_{s2}_Iteration:
 qstr_Produced_{reg1}_with Produced_{reg1}_with_{reg2}_workers,_raw_resources_multiplier_was_{reg3}.
-qstr_In_sum_bought_{reg1} In_sum,_bought_{reg1}_out_of_{reg10}.
+qstr_Searching_for_{s1}_i Searching_for_{s1}_in_{reg10}_centers.
+qstr_{s1}_has_{reg10}_of_ {s1}_has_{reg10}_of_{s2}.
+qstr_In_sum_bought_{reg1} In_sum,_bought_{reg1}/{reg10}_of_{s1}.
 qstr_Workers_unemployed__ Workers_unemployed_-_{reg1},_employed_{reg2}_workers.
 qstr_{reg1}_thousands_of_ {reg1}_thousands_of_population
 qstr_{s2} {s2}
@@ -743,6 +744,7 @@ qstr_Flour Flour
 qstr_Price___{reg10}_poun Price_-_{reg10}_pounds
 qstr_Supply___{reg11}.{re Supply_-_{reg11}.{reg12}_tons
 qstr_Demand___{reg11}.{re Demand_-_{reg11}.{reg12}_tons
+qstr_animation_progress_{ animation_progress_{reg10}
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_running.
 qstr_{s1}_cannot_change_f {s1}_cannot_change_formation_-_only_light_infantry_can_apply_extended_line_formation.

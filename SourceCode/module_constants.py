@@ -14,6 +14,15 @@ from ID_parties import *
 # script_calculate_troop_ai
 # script_async_recalculate_ais
 
+pes_resource_menu_faction_flag1 = 1
+pes_resource_menu_faction_flag2 = 2
+pes_resource_menu_faction_name1 = 3
+pes_resource_menu_faction_name2 = 4
+pes_resource_menu_faction_supply = 5
+pes_resource_menu_faction_demand = 6
+
+pes_number_of_factions = 34
+
 display_pes_debug_messages = 0
 
 preset_factory_slots_filling_percent_britain = 50
@@ -440,7 +449,7 @@ slot_troop_language = 163
 ## ZZ Custom Kingdom Troops begin
 slot_item_difficulty                = 101
 slot_item_weight                    = 102
-slot_item_price                     = 103
+slot_item_price                     = 401
 slot_custom_troop_wage              = 313
 slot_custom_troop_weight            = 314
 slot_custom_troop_ap                = 315
@@ -450,26 +459,30 @@ custom_troop_begin = "trp_kingdom_recruit"
 custom_troop_end = "trp_array_a"
 ## ZZ Custom Kingdom Troops end
 
-slot_item_pes_begin      = 104
+slot_item_pes_begin      = 402
 slot_item_price_history_begin      = slot_item_pes_begin + 0
 slot_item_price_history_end      = slot_item_pes_begin + 100
-slot_item_factions_production1_begin      = slot_item_price_history_end + 0
-slot_item_factions_production1_end      = slot_item_price_history_end + 40
-slot_item_factions_production2_begin      = slot_item_price_history_end + 40
-slot_item_factions_production2_end      = slot_item_price_history_end + 80
-slot_item_factions_quality1_begin      = slot_item_price_history_end + 80
-slot_item_factions_quality1_end      = slot_item_price_history_end + 120
-slot_item_factions_quality2_begin      = slot_item_price_history_end + 120
-slot_item_factions_quality2_end      = slot_item_price_history_end + 160
-slot_item_factions_factory_number1_begin      = slot_item_price_history_end + 160
-slot_item_factions_factory_number1_end      = slot_item_price_history_end + 200
-slot_item_factions_factory_number2_begin      = slot_item_price_history_end + 200
-slot_item_factions_factory_number2_end      = slot_item_price_history_end + 240
-slot_item_supply1      = slot_item_price_history_end + 241
-slot_item_supply2      = slot_item_price_history_end + 242
-slot_item_demand1      = slot_item_price_history_end + 243
-slot_item_demand2      = slot_item_price_history_end + 244
-slot_item_base_price      = slot_item_price_history_end + 245
+slot_item_factions_quality1_begin      = slot_item_price_history_end + 0
+slot_item_factions_quality1_end      = slot_item_price_history_end + 40
+slot_item_factions_quality2_begin      = slot_item_price_history_end + 40
+slot_item_factions_quality2_end      = slot_item_price_history_end + 80
+slot_item_factions_factory_number1_begin      = slot_item_price_history_end + 80
+slot_item_factions_factory_number1_end      = slot_item_price_history_end + 160
+slot_item_factions_factory_number2_begin      = slot_item_price_history_end + 160
+slot_item_factions_factory_number2_end      = slot_item_price_history_end + 200
+slot_item_factions_supply1_begin      = slot_item_price_history_end + 200
+slot_item_factions_supply1_end      = slot_item_price_history_end + 240
+slot_item_factions_supply2_begin      = slot_item_price_history_end + 240
+slot_item_factions_supply2_end      = slot_item_price_history_end + 280
+slot_item_factions_demand1_begin      = slot_item_price_history_end + 280
+slot_item_factions_demand1_end      = slot_item_price_history_end + 320
+slot_item_factions_demand2_begin      = slot_item_price_history_end + 320
+slot_item_factions_demand2_end      = slot_item_price_history_end + 360
+slot_item_supply1      = slot_item_factions_demand2_end + 1
+slot_item_supply2      = slot_item_factions_demand2_end + 2
+slot_item_demand1      = slot_item_factions_demand2_end + 3
+slot_item_demand2      = slot_item_factions_demand2_end + 4
+slot_item_base_price      = slot_item_factions_demand2_end + 5
 
 slot_item_pointer_number_of_pointers   = 400
 
@@ -582,6 +595,8 @@ slot_agent_mg_bullets_timer      = 53
 slot_agent_pss_current_route_prop      = 54
 slot_agent_pss_current_direction      = 55
 slot_agent_pss_wide_offset      = 56
+slot_agent_musketramordanimation_animation_progress      = 57
+slot_agent_musketramordanimation_ramrod_prop      = 58
 
 ########################################################
 ##  FACTION SLOTS          #############################
@@ -1295,9 +1310,9 @@ slot_town_trade_good_productions_begin       = 500 #a harmless number, until it 
 #These affect production but in some cases also , so it is perhaps easier to itemize them than to have separate 
 
 slot_village_number_of_cattle   = 205
-slot_center_head_cattle         = 205 #dried meat, cheese, hides, butter
-slot_center_head_sheep			= 206 #sausages, wool
-slot_center_head_horses		 	= 207 #horses can be a trade item used in tracking but which are never offered for sale
+slot_center_head_cattle         = 205 
+slot_center_head_sheep			= 206 
+slot_center_head_horses		 	= 207 
 
 slot_center_acres_pasture       = 208 #pasture area for grazing of cattles and sheeps, if this value is high then number of cattles and sheeps increase faster
 slot_production_sources_begin = 209
@@ -1398,11 +1413,11 @@ slot_center_factory3_machine_tools_quality = pes_slots_start + 37
 slot_center_factory4_machine_tools_quality = pes_slots_start + 38
 slot_center_factory5_machine_tools_quality = pes_slots_start + 39
 slot_center_factory6_machine_tools_quality = pes_slots_start + 40
-slot_center_meat_amount = pes_slots_start + 41
+slot_center_iron_amount = pes_slots_start + 41
 slot_center_coal_amount = pes_slots_start + 42
-slot_center_cotton_amount = pes_slots_start + 43
-slot_center_flour_amount = pes_slots_start + 44
-slot_center_iron_amount = pes_slots_start + 45
+slot_center_meat_amount = pes_slots_start + 43
+slot_center_cotton_amount = pes_slots_start + 44
+slot_center_flour_amount = pes_slots_start + 45
 slot_center_wood_amount = pes_slots_start + 46
 slot_center_villages_machine_tools_quality = pes_slots_start + 47
 slot_center_factory1_max_workers = pes_slots_start + 48

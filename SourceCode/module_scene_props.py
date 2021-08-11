@@ -4219,6 +4219,7 @@ scene_props = [
 
 ("0siege_fort_ruins1", 0, "fort_ruins1", "bo_fort_ruins1", []),
 ("brick", 0, "brick", 0, []),
+("musketramrod1", 0, "musketramrod1", 0, []),
 ]
 
  # modmerger_start version=201 type=2

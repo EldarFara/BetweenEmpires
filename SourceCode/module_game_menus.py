@@ -43,11 +43,6 @@ game_menus = [
     [
      ("continue",[],"Continue...",
        [
-(call_script, "script_pes_iteration_start"),
-	(try_for_range, ":center", towns_begin, castles_end),
-	(call_script, "script_pes_center_iteration", ":center"),
-	(try_end),
-(call_script, "script_pes_iteration_start"),
 	   (jump_to_menu, "mnu_start_game_choose_date"),
         ]
        ),
@@ -62,6 +57,15 @@ game_menus = [
     "Select a city which you want to start your journey at.",
     "none",
     [
+(call_script, "script_pes_iteration_start"),
+	(try_for_range, ":center", towns_begin, castles_end),
+	(call_script, "script_pes_center_iteration", ":center"),
+	(try_end),
+(call_script, "script_pes_iteration_start"),
+	(try_for_range, ":center", towns_begin, castles_end),
+	(call_script, "script_pes_center_iteration", ":center"),
+	(try_end),
+(call_script, "script_pes_iteration_start"),
 	(try_begin),
 	(eq, "$player_faction_preset", "fac_kingdom_2"),
 	(assign, ":faction", "fac_player_supporters_faction"),
