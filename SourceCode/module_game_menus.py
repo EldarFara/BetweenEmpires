@@ -9311,7 +9311,7 @@ the high lords and common folk across the many realms of Europe."),
       [
          (party_slot_eq,"$current_town",slot_party_type, spt_castle),
       ],
-       "Take a walk around the HQ.",
+       "Take a walk around the streets.",
        [
          (try_begin),
            (eq, "$talk_context", tc_prison_break),

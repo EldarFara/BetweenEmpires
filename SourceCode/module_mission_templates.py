@@ -51,7 +51,7 @@ musket_ramrod_animation_100ms = (
 	(item_get_speed_rating, ":speed", ":item"),
 	(store_sub, ":difference2", ":speed", 40), (val_div, ":difference2", 3),
 	(assign, ":frame_min", 75),
-	(assign, ":frame_max", 130),
+	(assign, ":frame_max", 120),
 	(val_add, ":difference1", ":difference2"),
 	(val_add, ":difference1", 100),
 	(val_mul, ":frame_min", ":difference1"), (val_div, ":frame_min", 100),
@@ -107,8 +107,8 @@ musket_ramrod_animation_runtime = (
 	(agent_get_bone_position, pos2, ":agent", 14, 1),
 	(get_distance_between_positions, ":distance", pos1, pos2),
 	(position_move_y, pos2, ":distance"),
-	(position_move_x, pos2, -4, 0),
-	(prop_instance_animate_to_position, ":ramrod", pos2, 5),
+	(position_move_x, pos2, 1, 0),
+	(prop_instance_animate_to_position, ":ramrod", pos2, 4),
 	(try_end),
 ],[])
 
