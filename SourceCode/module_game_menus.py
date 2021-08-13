@@ -59,6 +59,7 @@ game_menus = [
     [
 (call_script, "script_pes_iteration_start"),
 	(try_for_range, ":center", towns_begin, castles_end),
+	(call_script, "script_pes_employ_workers_initial", ":center"),
 	(call_script, "script_pes_center_iteration", ":center"),
 	(try_end),
 (call_script, "script_pes_iteration_start"),
@@ -66,6 +67,10 @@ game_menus = [
 	(call_script, "script_pes_center_iteration", ":center"),
 	(try_end),
 (call_script, "script_pes_iteration_start"),
+	(try_for_range, ":faction", kingdoms_begin, kingdoms_end),	
+	(faction_slot_eq, ":faction", slot_faction_state, sfs_active),
+	(call_script, "script_pps_faction_iteration", ":faction"),
+	(try_end),
 	(try_begin),
 	(eq, "$player_faction_preset", "fac_kingdom_2"),
 	(assign, ":faction", "fac_player_supporters_faction"),

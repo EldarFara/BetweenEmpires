@@ -14,6 +14,8 @@ from ID_parties import *
 # script_calculate_troop_ai
 # script_async_recalculate_ais
 
+pes_workers_base_number = 9
+
 pes_resource_menu_faction_flag1 = 1
 pes_resource_menu_faction_flag2 = 2
 pes_resource_menu_faction_name1 = 3
@@ -54,6 +56,9 @@ pes_region_menu_overlay_factory_playershare_name = 14
 pes_region_menu_overlay_factory_playershare_price = 15
 pes_region_menu_variable_factory_playershare_balance_change = 16
 pes_region_menu_variable_factory_playershare_selected_amount = 17
+pes_region_menu_overlay_factory_clerks_percentage = 18
+pes_region_menu_overlay_factory_deterioration = 19
+pes_region_menu_overlay_factory_conditions = 20
 
 mg_limit = 3
 
@@ -449,7 +454,7 @@ slot_troop_language = 163
 ## ZZ Custom Kingdom Troops begin
 slot_item_difficulty                = 101
 slot_item_weight                    = 102
-slot_item_price                     = 401
+slot_item_price                     = 450
 slot_custom_troop_wage              = 313
 slot_custom_troop_weight            = 314
 slot_custom_troop_ap                = 315
@@ -459,7 +464,7 @@ custom_troop_begin = "trp_kingdom_recruit"
 custom_troop_end = "trp_array_a"
 ## ZZ Custom Kingdom Troops end
 
-slot_item_pes_begin      = 402
+slot_item_pes_begin      = 500
 slot_item_price_history_begin      = slot_item_pes_begin + 0
 slot_item_price_history_end      = slot_item_pes_begin + 100
 slot_item_factions_quality1_begin      = slot_item_price_history_end + 0
@@ -1040,8 +1045,11 @@ slot_faction_political_party1_places_in_executivebranch = slot_faction_ve_mod_sl
 slot_faction_political_party2_places_in_executivebranch = slot_faction_ve_mod_slots_begin + 377
 slot_faction_political_party3_places_in_executivebranch = slot_faction_ve_mod_slots_begin + 378
 slot_faction_political_party4_places_in_executivebranch = slot_faction_ve_mod_slots_begin + 379
-
 slot_faction_mgoperator    			 = slot_faction_ve_mod_slots_begin + 380
+slot_faction_workers    			 = slot_faction_ve_mod_slots_begin + 381
+slot_faction_workers_handicraft    			 = slot_faction_ve_mod_slots_begin + 382
+slot_faction_workers_massproduction    			 = slot_faction_ve_mod_slots_begin + 383
+slot_faction_gdp    			 = slot_faction_ve_mod_slots_begin + 384
 
 
 
@@ -1376,7 +1384,7 @@ pes_slots_start = 400
 slot_center_population = pes_slots_start + 1
 slot_center_literacy = pes_slots_start + 2
 slot_center_urbanization = pes_slots_start + 3
-slot_center_ = pes_slots_start + 4
+slot_center_workers = pes_slots_start + 4
 slot_center_factory1_type = pes_slots_start + 5
 slot_center_factory2_type = pes_slots_start + 6
 slot_center_factory3_type = pes_slots_start + 7
@@ -1525,6 +1533,16 @@ slot_center_factory3_price = pes_slots_start + 149
 slot_center_factory4_price = pes_slots_start + 150
 slot_center_factory5_price = pes_slots_start + 151
 slot_center_factory6_price = pes_slots_start + 152
+slot_center_factory1_machine_tools_deterioration = pes_slots_start + 153
+slot_center_factory2_machine_tools_deterioration = pes_slots_start + 154
+slot_center_factory3_machine_tools_deterioration = pes_slots_start + 155
+slot_center_factory4_machine_tools_deterioration = pes_slots_start + 156
+slot_center_factory5_machine_tools_deterioration = pes_slots_start + 157
+slot_center_factory6_machine_tools_deterioration = pes_slots_start + 158
+slot_center_workers_handicraft = pes_slots_start + 159
+slot_center_workers_massproduction = pes_slots_start + 160
+slot_center_gdp1 = pes_slots_start + 161
+slot_center_gdp2 = pes_slots_start + 162
 
 #slot_party_type values
 ##spt_caravan            = 1

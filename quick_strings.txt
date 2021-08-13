@@ -1,4 +1,4 @@
-1171
+1180
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -300,11 +300,13 @@ qstr_00 00
 qstr_{reg1}.{s2}{reg2}_mi {reg1}.{s2}{reg2}_millions_of_population
 qstr_Literacy_is_{reg1}.{ Literacy_is_{reg1}.{reg2}%
 qstr_Urbanization_is_{reg Urbanization_is_{reg1}.{reg2}%
+qstr_Daily_GDP_is_{reg1}_ Daily_GDP_is_{reg1}_pounds.
+qstr_{reg1}_craftsmen_{re {reg1}_craftsmen,_{reg2}_of_which_are_employed^in_mass_production,_and_{reg3}_are^occupied_in_handicraft_production.
 qstr_Region_of_{s1} Region_of_{s1}
 qstr_View_Information_on_ View_Information_on_Resources
-qstr__thousands_of_popula _thousands_of_population
-qstr_Literacy_is_.% Literacy_is_.%
-qstr_Urbanization_is_.% Urbanization_is_.%
+qstr_X_thousands_of_popul X_thousands_of_population
+qstr_Literacy_is_X% Literacy_is_X%
+qstr_Urbanization_is_X% Urbanization_is_X%
 qstr__+ _+
 qstr_Balance_change:{s1}{ Balance_change:{s1}{reg10}_pounds.
 qstr_BUY BUY
@@ -662,7 +664,7 @@ qstr_Parliament_Compositi Parliament_Composition
 qstr_{s1}:_{reg1}% {s1}:_{reg1}%
 qstr_Ruling_party Ruling_party
 qstr_Influence:_{reg1}% Influence:_{reg1}%
-qstr_Faction_iteration_of Faction_iteration_of_{s1}.
+qstr_PPS_Faction_iteratio PPS_Faction_iteration_of_{s1}.
 qstr_Center_iteration_of_ Center_iteration_of_{s1}.
 qstr_{s1}_s_{s2}_Iteratio {s1}'s_{s2}_Iteration:
 qstr_Produced_{reg1}_with Produced_{reg1}_with_{reg2}_workers,_raw_resources_multiplier_was_{reg3}.
@@ -671,14 +673,22 @@ qstr_{s1}_has_{reg10}_of_ {s1}_has_{reg10}_of_{s2}.
 qstr_In_sum_bought_{reg1} In_sum,_bought_{reg1}/{reg10}_of_{s1}.
 qstr_Workers_unemployed__ Workers_unemployed_-_{reg1},_employed_{reg2}_workers.
 qstr_{reg1}_thousands_of_ {reg1}_thousands_of_population
+qstr_Daily_GDP_is_{reg1}_p Daily_GDP_is_{reg1}_pounds^({reg2}%_of_{s1}'s_economy).
 qstr_{s2} {s2}
 qstr_{reg10}/{reg11}_work {reg10}/{reg11}_workers
 qstr_Budget:_{reg10}_poun Budget:_{reg10}_pounds.
 qstr_Income:_{reg10}_poun Income:_{reg10}_pounds.
-qstr_Spent_{reg10}_pounds Spent_{reg10}_pounds_and_earnt_{reg11}_pounds_last_day.
+qstr_Spent_{reg10}_pounds Spent_{reg10}_pounds_and_earnt_{reg11}_pounds.
 qstr_Managed_to_buy_{reg1 Managed_to_buy_{reg10}%_of_needed_raw_resources^needed_for_production.
 qstr_Produced_{reg10}.{re Produced_{reg10}.{reg12}_{s1}_(sold_{reg11}%).
 qstr_Quality_of_product_i Quality_of_product_is_{reg10}%.
+qstr_Engineers_percentage Engineers_percentage_is_{reg10}%.
+qstr_Deterioration_of_mac Deterioration_of_machine_tools_is_{reg10}%.
+qstr_bad bad
+qstr_medium medium
+qstr_good good
+qstr_exellent exellent
+qstr_Workers_wage_is_{s1} Workers_wage_is_{s1};_Working_conditions_are_{s2}.
 qstr_pes_region_factory_p pes_region_factory_photo_notavailable
 qstr_pes_region_factory_ph pes_region_factory_photo_empty
 qstr_Steel_Factory Steel_Factory
@@ -744,7 +754,6 @@ qstr_Flour Flour
 qstr_Price___{reg10}_poun Price_-_{reg10}_pounds
 qstr_Supply___{reg11}.{re Supply_-_{reg11}.{reg12}_tons
 qstr_Demand___{reg11}.{re Demand_-_{reg11}.{reg12}_tons
-qstr_animation_progress_{ animation_progress_{reg10}
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_running.
 qstr_{s1}_cannot_change_f {s1}_cannot_change_formation_-_only_light_infantry_can_apply_extended_line_formation.
