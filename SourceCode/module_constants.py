@@ -14,7 +14,8 @@ from ID_parties import *
 # script_calculate_troop_ai
 # script_async_recalculate_ais
 
-pes_workers_base_number = 9
+pes_workers_base_number_urban = 9
+pes_workers_base_number_rural = 8
 
 pes_resource_menu_faction_flag1 = 1
 pes_resource_menu_faction_flag2 = 2
@@ -29,12 +30,12 @@ display_pes_debug_messages = 0
 
 preset_factory_slots_filling_percent_britain = 50
 preset_factory_slots_filling_percent_germany = 40
-preset_factory_slots_filling_percent_france = 40
-preset_factory_slots_filling_percent_italy = 20
+preset_factory_slots_filling_percent_france = 35
+preset_factory_slots_filling_percent_italy = 15
 preset_factory_slots_filling_percent_russia = 8
 preset_factory_slots_filling_percent_austria = 15
-preset_factory_slots_filling_percent_spain = 20
-preset_factory_slots_filling_percent_portugal = 20
+preset_factory_slots_filling_percent_spain = 15
+preset_factory_slots_filling_percent_portugal = 15
 preset_factory_slots_filling_percent_scandinavia = 20
 preset_factory_slots_filling_percent_benelux = 35
 preset_factory_slots_filling_percent_balkans = 3
@@ -59,6 +60,15 @@ pes_region_menu_variable_factory_playershare_selected_amount = 17
 pes_region_menu_overlay_factory_clerks_percentage = 18
 pes_region_menu_overlay_factory_deterioration = 19
 pes_region_menu_overlay_factory_conditions = 20
+pes_region_menu_overlay_factory_devmode_title = 21
+pes_region_menu_overlay_factory_devmode1 = 22
+pes_region_menu_overlay_factory_devmode2 = 23
+pes_region_menu_overlay_factory_devmode3 = 24
+pes_region_menu_overlay_factory_devmode4 = 25
+pes_region_menu_overlay_factory_devmode_selected = 26
+pes_region_menu_overlay_factory_worker_wage_title = 27
+pes_region_menu_overlay_factory_worker_wage_slider = 28
+pes_region_menu_overlay_factory_sell = 29
 
 mg_limit = 3
 
@@ -1543,6 +1553,18 @@ slot_center_workers_handicraft = pes_slots_start + 159
 slot_center_workers_massproduction = pes_slots_start + 160
 slot_center_gdp1 = pes_slots_start + 161
 slot_center_gdp2 = pes_slots_start + 162
+slot_center_factory1_building_type = pes_slots_start + 163
+slot_center_factory2_building_type = pes_slots_start + 164
+slot_center_factory3_building_type = pes_slots_start + 165
+slot_center_factory4_building_type = pes_slots_start + 166
+slot_center_factory5_building_type = pes_slots_start + 167
+slot_center_factory6_building_type = pes_slots_start + 168
+slot_center_factory1_building_progress = pes_slots_start + 169
+slot_center_factory2_building_progress = pes_slots_start + 170
+slot_center_factory3_building_progress = pes_slots_start + 171
+slot_center_factory4_building_progress = pes_slots_start + 172
+slot_center_factory5_building_progress = pes_slots_start + 173
+slot_center_factory6_building_progress = pes_slots_start + 174
 
 #slot_party_type values
 ##spt_caravan            = 1

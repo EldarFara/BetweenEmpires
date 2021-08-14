@@ -1,4 +1,4 @@
-1180
+1187
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -674,6 +674,10 @@ qstr_In_sum_bought_{reg1} In_sum,_bought_{reg1}/{reg10}_of_{s1}.
 qstr_Workers_unemployed__ Workers_unemployed_-_{reg1},_employed_{reg2}_workers.
 qstr_{reg1}_thousands_of_ {reg1}_thousands_of_population
 qstr_Daily_GDP_is_{reg1}_p Daily_GDP_is_{reg1}_pounds^({reg2}%_of_{s1}'s_economy).
+qstr_Add_Workplaces^^Buyi Add_Workplaces^^Buying_more_equipment_will_increase^number_of_workplaces.
+qstr_Improve_Worker_Condi Improve_Worker_Conditions^^Improving_working_conditions_means_inceasing^worker_wage,_improving_production_safety_and,^in_the_end,_introducing_social_benefits_to_workers.^This_will_increase_quality_of_product^and_increase_factory_attractiveness^for_potential_workers.
+qstr_Improve_Equipment^^T Improve_Equipment^^Thorough_maintaining_and_improving_factory^equipment_increases_quality_of_product,_making^it_more_likely_to_be_sold.
+qstr_No_development_mode. No_development_mode.
 qstr_{s2} {s2}
 qstr_{reg10}/{reg11}_work {reg10}/{reg11}_workers
 qstr_Budget:_{reg10}_poun Budget:_{reg10}_pounds.
@@ -689,6 +693,9 @@ qstr_medium medium
 qstr_good good
 qstr_exellent exellent
 qstr_Workers_wage_is_{s1} Workers_wage_is_{s1};_Working_conditions_are_{s2}.
+qstr_Select_development_m Select_development_mode:
+qstr_Set_workers_wage_lev Set_workers_wage_level:
+qstr_Sell_factory__{reg10 Sell_factory_({reg10}_pounds)
 qstr_pes_region_factory_p pes_region_factory_photo_notavailable
 qstr_pes_region_factory_ph pes_region_factory_photo_empty
 qstr_Steel_Factory Steel_Factory

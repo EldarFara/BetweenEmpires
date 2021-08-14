@@ -651,6 +651,11 @@ meshes = [
   ("monika", 0, "monika2", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("pes_region_factorycard", 0, "pes_region_factorycard", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("pes_region_factory_photo", 0, "pes_region_factory_photo", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("factory_devmode1", 0, "factory_devmode1", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("factory_devmode2", 0, "factory_devmode2", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("factory_devmode3", 0, "factory_devmode3", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("factory_devmode4", 0, "factory_devmode4", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("factory_devmode_selected", 0, "factory_devmode_selected", 0, 0, 0, 0, 0, 0, 1, 1, 1),
 ]
 
 # modmerger_start version=201 type=2

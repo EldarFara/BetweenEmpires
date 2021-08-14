@@ -586,5 +586,10 @@ mesh_pps_ruling_party = 584
 mesh_monika = 585
 mesh_pes_region_factorycard = 586
 mesh_pes_region_factory_photo = 587
+mesh_factory_devmode1 = 588
+mesh_factory_devmode2 = 589
+mesh_factory_devmode3 = 590
+mesh_factory_devmode4 = 591
+mesh_factory_devmode_selected = 592
 
 

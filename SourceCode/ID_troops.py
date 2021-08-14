@@ -3939,4 +3939,5 @@ trp_array_33 = 3937
 trp_array_34 = 3938
 trp_array_35 = 3939
 trp_coachman = 3940
-trp_troops_end = 3941
+trp_pes_centers = 3941
+trp_troops_end = 3942
