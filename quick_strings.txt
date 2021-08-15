@@ -1,4 +1,4 @@
-1187
+1189
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -303,7 +303,7 @@ qstr_Urbanization_is_{reg Urbanization_is_{reg1}.{reg2}%
 qstr_Daily_GDP_is_{reg1}_ Daily_GDP_is_{reg1}_pounds.
 qstr_{reg1}_craftsmen_{re {reg1}_craftsmen,_{reg2}_of_which_are_employed^in_mass_production,_and_{reg3}_are^occupied_in_handicraft_production.
 qstr_Region_of_{s1} Region_of_{s1}
-qstr_View_Information_on_ View_Information_on_Resources
+qstr_Resource_Menu Resource_Menu
 qstr_X_thousands_of_popul X_thousands_of_population
 qstr_Literacy_is_X% Literacy_is_X%
 qstr_Urbanization_is_X% Urbanization_is_X%
@@ -314,6 +314,10 @@ qstr_SELL SELL
 qstr_Balance_change:_+0_p Balance_change:_+0_pounds.
 qstr_Manage_share__Now_is Manage_share_(Now_is_{reg10})%.
 qstr_Not_enough_money. Not_enough_money.
+qstr_pes_region_factoryca pes_region_factorycard2
+qstr_pes_region_factory_p pes_region_factory_photo_steel
+qstr_Steel_Factory Steel_Factory
+qstr_Produces_steel_out^o Produces_steel_out^of_coal_and_iron.
 qstr_vSeason vSeason
 qstr_{!}DEBUG_:_Completed {!}DEBUG_:_Completed_faction_troop_assignments,_cheat_mode:_{reg3}
 qstr_{!}DEBUG_:_Completed_ {!}DEBUG_:_Completed_political_events,_cheat_mode:_{reg3}
@@ -696,10 +700,8 @@ qstr_Workers_wage_is_{s1} Workers_wage_is_{s1};_Working_conditions_are_{s2}.
 qstr_Select_development_m Select_development_mode:
 qstr_Set_workers_wage_lev Set_workers_wage_level:
 qstr_Sell_factory__{reg10 Sell_factory_({reg10}_pounds)
-qstr_pes_region_factory_p pes_region_factory_photo_notavailable
-qstr_pes_region_factory_ph pes_region_factory_photo_empty
-qstr_Steel_Factory Steel_Factory
-qstr_pes_region_factory_pho pes_region_factory_photo_steel
+qstr_pes_region_factory_ph pes_region_factory_photo_notavailable
+qstr_pes_region_factory_pho pes_region_factory_photo_empty
 qstr_Ammunition_Factory Ammunition_Factory
 qstr_pes_region_factory_phot pes_region_factory_photo_ammunition
 qstr_Timber_Mill Timber_Mill

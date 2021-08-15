@@ -61937,7 +61937,7 @@ scripts = [
 			(str_store_string, s1, "@exellent"),
 			(try_end),
 		(overlay_set_text, ":overlay_factory_conditions", "@Workers wage is {s1}; Working conditions are {s2}."),
-		(position_set_x, pos1, 350), (position_set_y, pos1, 350), (overlay_set_size, ":overlay_factory_conditions", pos1),
+		(position_set_x, pos1, 400), (position_set_y, pos1, 400), (overlay_set_size, ":overlay_factory_conditions", pos1),
 		(position_set_x, pos1, ":x_local"), (position_set_y, pos1, ":y_local"), (overlay_set_position, ":overlay_factory_conditions", pos1),
 			(try_begin),
 			(lt, ":playershare", 100),
