@@ -783,5 +783,6 @@ script_get_resource_name_for_type_capitalized = 781
 script_pes_resource_menu_display_resource = 782
 script_pes_resource_is_produced_by_center = 783
 script_pes_resource_is_demanded_by_center = 784
+script_get_factory_description_for_type = 785
 
 

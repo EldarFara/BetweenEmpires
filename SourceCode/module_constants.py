@@ -14,6 +14,11 @@ from ID_parties import *
 # script_calculate_troop_ai
 # script_async_recalculate_ais
 
+pes_region_build_factory_overlay_bg = 1
+pes_region_build_factory_overlay_photo = 2
+pes_region_build_factory_overlay_name = 3
+pes_region_build_factory_overlay_desc = 4
+
 pes_workers_base_number_urban = 9
 pes_workers_base_number_rural = 8
 
@@ -69,6 +74,8 @@ pes_region_menu_overlay_factory_devmode_selected = 26
 pes_region_menu_overlay_factory_worker_wage_title = 27
 pes_region_menu_overlay_factory_worker_wage_slider = 28
 pes_region_menu_overlay_factory_sell = 29
+pes_region_menu_overlay_factory_build_icon = 30
+pes_region_menu_variable_factory_build_icon_rotation = 31
 
 mg_limit = 3
 
@@ -1370,9 +1377,6 @@ slot_production_sources_end = 233
 #all spice comes overland to Tulga
 #all dyes come by sea to Jelkala
 
-#chicken and pork are perishable and non-tradeable, and based on grain production
-#timber and pitch if we ever have a shipbuilding industry
-#limestone and timber for mortar, if we allow building
 
 slot_town_last_nearby_fire_time                         = 240
 

@@ -162,11 +162,11 @@ ti_on_agent_hit, 0, 0, [],
 (agent_is_active, ":agent"), (agent_is_active, ":agent"),
 (get_player_agent_no, ":player"),
 (eq, ":player", ":agent"),
-(assign, "$hp_regen_timer", 50),
+(assign, "$hp_regen_timer", 120),
 ],[])
 
 player_hp_regen_100ms = (
-0.1, 0, 0, [],
+0.05, 0, 0, [],
 [
 	(try_begin),
 	(gt, "$hp_regen_timer", 0),
@@ -175,10 +175,11 @@ player_hp_regen_100ms = (
 	(try_begin),
 	(eq, "$hp_regen_timer", 0),
 	(get_player_agent_no, ":player"),
-	(store_agent_hit_points, ":hp", ":player", 0),
-	(lt, ":hp", 100),
+	(store_agent_hit_points, ":hp", ":player", 1),
+	(store_troop_health, ":max_hp",  "trp_player", 1),
+	(lt, ":hp", ":max_hp"),
 	(val_add, ":hp", 1),
-	(agent_set_hit_points, ":player", ":hp", 0),
+	(agent_set_hit_points, ":player", ":hp", 1),
 	(try_end),
 ],[])
 
@@ -1709,6 +1710,7 @@ player_fanning_first_shot = (
 (this_or_next|eq, ":item_id", "itm_sidearm_colt_walker"),
 (this_or_next|eq, ":item_id", "itm_sidearm_galand"),
 (this_or_next|eq, ":item_id", "itm_sidearm_webleymk6"),
+(this_or_next|eq, ":item_id", "itm_sidearm_enfieldmk1"),
 (this_or_next|eq, ":item_id", "itm_sidearm_webleybulldog"),
 (this_or_next|eq, ":item_id", "itm_sidearm_c93"),
 (this_or_next|eq, ":item_id", "itm_sidearm_colt1892"),

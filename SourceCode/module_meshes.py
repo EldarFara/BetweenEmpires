@@ -656,6 +656,7 @@ meshes = [
   ("factory_devmode3", 0, "factory_devmode3", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("factory_devmode4", 0, "factory_devmode4", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("factory_devmode_selected", 0, "factory_devmode_selected", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("factory_building", 0, "factory_building", 0, 0, 0, 0, 0, 0, 1, 1, 1),
 ]
 
 # modmerger_start version=201 type=2

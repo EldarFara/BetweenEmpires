@@ -1,4 +1,4 @@
-1189
+1212
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -314,10 +314,16 @@ qstr_SELL SELL
 qstr_Balance_change:_+0_p Balance_change:_+0_pounds.
 qstr_Manage_share__Now_is Manage_share_(Now_is_{reg10})%.
 qstr_Not_enough_money. Not_enough_money.
+qstr_Select_factory_to_bu Select_factory_to_build:
+qstr_Your_current_balance Your_current_balance_is_{reg10}_pounds.
+qstr_Initial_Capital:_500 Initial_Capital:_50000_pounds.
+qstr_*Rest_of_initial_bud *Rest_of_initial_budget_will_be_found_via_investitions.^Speed_of_funding_depends_on_region_and_country.
+qstr_Start_Enterprice Start_Enterprice
 qstr_pes_region_factoryca pes_region_factorycard2
-qstr_pes_region_factory_p pes_region_factory_photo_steel
-qstr_Steel_Factory Steel_Factory
-qstr_Produces_steel_out^o Produces_steel_out^of_coal_and_iron.
+qstr_{s3} {s3}
+qstr_{s2} {s2}
+qstr_Same_type_of_factory Same_type_of_factory_is_already_built_in_this_town.
+qstr_Initial_Capital:_{re Initial_Capital:_{reg10}_pounds.
 qstr_vSeason vSeason
 qstr_{!}DEBUG_:_Completed {!}DEBUG_:_Completed_faction_troop_assignments,_cheat_mode:_{reg3}
 qstr_{!}DEBUG_:_Completed_ {!}DEBUG_:_Completed_political_events,_cheat_mode:_{reg3}
@@ -682,7 +688,6 @@ qstr_Add_Workplaces^^Buyi Add_Workplaces^^Buying_more_equipment_will_increase^nu
 qstr_Improve_Worker_Condi Improve_Worker_Conditions^^Improving_working_conditions_means_inceasing^worker_wage,_improving_production_safety_and,^in_the_end,_introducing_social_benefits_to_workers.^This_will_increase_quality_of_product^and_increase_factory_attractiveness^for_potential_workers.
 qstr_Improve_Equipment^^T Improve_Equipment^^Thorough_maintaining_and_improving_factory^equipment_increases_quality_of_product,_making^it_more_likely_to_be_sold.
 qstr_No_development_mode. No_development_mode.
-qstr_{s2} {s2}
 qstr_{reg10}/{reg11}_work {reg10}/{reg11}_workers
 qstr_Budget:_{reg10}_poun Budget:_{reg10}_pounds.
 qstr_Income:_{reg10}_poun Income:_{reg10}_pounds.
@@ -700,8 +705,11 @@ qstr_Workers_wage_is_{s1} Workers_wage_is_{s1};_Working_conditions_are_{s2}.
 qstr_Select_development_m Select_development_mode:
 qstr_Set_workers_wage_lev Set_workers_wage_level:
 qstr_Sell_factory__{reg10 Sell_factory_({reg10}_pounds)
-qstr_pes_region_factory_ph pes_region_factory_photo_notavailable
-qstr_pes_region_factory_pho pes_region_factory_photo_empty
+qstr_Building^{s1}^_{reg1 Building^{s1}^({reg10}%)
+qstr_pes_region_factory_p pes_region_factory_photo_notavailable
+qstr_pes_region_factory_ph pes_region_factory_photo_empty
+qstr_Steel_Factory Steel_Factory
+qstr_pes_region_factory_pho pes_region_factory_photo_steel
 qstr_Ammunition_Factory Ammunition_Factory
 qstr_pes_region_factory_phot pes_region_factory_photo_ammunition
 qstr_Timber_Mill Timber_Mill
@@ -712,10 +720,12 @@ qstr_Cotton_Mill Cotton_Mill
 qstr_pes_region_factory_photo_f pes_region_factory_photo_fabric
 qstr_Paper_Mill Paper_Mill
 qstr_pes_region_factory_photo_p pes_region_factory_photo_paper
-qstr_Construction_Materia Construction_Materials_Factory
+qstr_Construction_Materia Construction_Materials^Factory
+qstr_Construction_Material Construction_Materials_Factory
 qstr_pes_region_factory_photo_c pes_region_factory_photo_constructionmaterials
 qstr_Weaponry_Factory Weaponry_Factory
 qstr_pes_region_factory_photo_w pes_region_factory_photo_weaponry
+qstr_Military_Supplies^Fa Military_Supplies^Factory
 qstr_Military_Supplies_Fa Military_Supplies_Factory
 qstr_pes_region_factory_photo_m pes_region_factory_photo_militarysupplies
 qstr_Clothing_Factory Clothing_Factory
@@ -763,6 +773,18 @@ qstr_Flour Flour
 qstr_Price___{reg10}_poun Price_-_{reg10}_pounds
 qstr_Supply___{reg11}.{re Supply_-_{reg11}.{reg12}_tons
 qstr_Demand___{reg11}.{re Demand_-_{reg11}.{reg12}_tons
+qstr_Produces_steel_out^o Produces_steel_out^of_iron_and_coal.
+qstr_Produces_ammunition_ Produces_ammunition_out^of_steel.
+qstr_Produces_timber_out^ Produces_timber_out^of_wood.
+qstr_Produces_weaponry_ou Produces_weaponry_out^of_steel_and_timber.
+qstr_Produces_clothes_out Produces_clothes_out^of_fabric.
+qstr_Produces_constructio Produces_construction^materials_out_of_steel_and_coal.
+qstr_Produces_fabric_out^ Produces_fabric_out^_of_cotton.
+qstr_Produces_furniture_o Produces_furniture_out^_of_timber.
+qstr_Produces_machine_par Produces_machine_parts_out^_of_steel_and_coal.
+qstr_Produces_military_su Produces_military_supplies_out^_of_steel_and_fabric.
+qstr_Produces_paper_out^_ Produces_paper_out^_of_wood.
+qstr_hp_{reg10} hp_{reg10}
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_running.
 qstr_{s1}_cannot_change_f {s1}_cannot_change_formation_-_only_light_infantry_can_apply_extended_line_formation.
@@ -1188,3 +1210,4 @@ qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
 qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
+qstr_max_hp_{reg10} max_hp_{reg10}
