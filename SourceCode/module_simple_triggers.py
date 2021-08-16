@@ -5083,7 +5083,6 @@ simple_triggers = [
 	(le, "$async_simple_trigger33", castles_end),
 	(call_script, "script_pes_center_iteration", "$async_simple_trigger33"),
 	(try_end),
-	#(call_script, "script_pes_center_iteration", "p_town_18"),
     ]),
   (24,
    [

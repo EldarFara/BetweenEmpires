@@ -14,10 +14,10 @@ from ID_parties import *
 # script_calculate_troop_ai
 # script_async_recalculate_ais
 
-pes_region_build_factory_overlay_bg = 1
-pes_region_build_factory_overlay_photo = 2
-pes_region_build_factory_overlay_name = 3
-pes_region_build_factory_overlay_desc = 4
+pes_factory_devmode_addworkplaces = 0
+pes_factory_devmode_improveconditions = 1
+pes_factory_devmode_improvetools = 2
+pes_factory_devmode_none = 3
 
 pes_workers_base_number_urban = 9
 pes_workers_base_number_rural = 8
@@ -84,6 +84,7 @@ language_russian = 2
 language_german = 3
 language_turkish = 4
 language_spanish = 5
+language_italian = 6
 
 vo_type_on_company_select = 1
 vo_type_yes_sir = 2

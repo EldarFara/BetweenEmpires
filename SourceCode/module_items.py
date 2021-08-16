@@ -2154,6 +2154,7 @@ items = [
 ["baf_hat9","Pith Helmet", [("baf_hat9", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 ["baf_hat10","Pith Helmet", [("baf_hat10", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 ["baf_hat11","Diggers Hat", [("baf_hat11", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
+["baf_hat12","British Service Hat", [("baf_hat12", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 ["cavalry_gloves1","Gloves", [("cavalry_gloves1_L",0)], itp_type_hand_armor,0, 90, weight(0.25)|abundance(50)|body_armor(1)|difficulty(0),imodbits_cloth],
 
 ["shotgun_caplock","Double-Barrel Caplock Shotgun", [("shotgun_caplock", 0),("shotgun_caplock_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear,price_pistol_aboveaverage, weight(3.7)|abundance(80)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_muzzleloaded_musket)|shoot_speed(shotgun_muzzle_velocity)|max_ammo(2)|thrust_damage(damage_shotgun, pierce), imodbits_firearm, 

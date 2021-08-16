@@ -1,4 +1,4 @@
-1212
+1215
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -675,6 +675,8 @@ qstr_{s1}:_{reg1}% {s1}:_{reg1}%
 qstr_Ruling_party Ruling_party
 qstr_Influence:_{reg1}% Influence:_{reg1}%
 qstr_PPS_Faction_iteratio PPS_Faction_iteration_of_{s1}.
+qstr_pes_open_factory_in_ pes_open_factory_in_center
+qstr_factory_type_{reg10} factory_type_{reg10}
 qstr_Center_iteration_of_ Center_iteration_of_{s1}.
 qstr_{s1}_s_{s2}_Iteratio {s1}'s_{s2}_Iteration:
 qstr_Produced_{reg1}_with Produced_{reg1}_with_{reg2}_workers,_raw_resources_multiplier_was_{reg3}.
@@ -784,7 +786,6 @@ qstr_Produces_furniture_o Produces_furniture_out^_of_timber.
 qstr_Produces_machine_par Produces_machine_parts_out^_of_steel_and_coal.
 qstr_Produces_military_su Produces_military_supplies_out^_of_steel_and_fabric.
 qstr_Produces_paper_out^_ Produces_paper_out^_of_wood.
-qstr_hp_{reg10} hp_{reg10}
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_running.
 qstr_{s1}_cannot_change_f {s1}_cannot_change_formation_-_only_light_infantry_can_apply_extended_line_formation.
@@ -1210,4 +1211,6 @@ qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
 qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
-qstr_max_hp_{reg10} max_hp_{reg10}
+qstr_p_town_18_slot_cente p_town_18_slot_center_factory3_building_type_{reg10}
+qstr_center_{reg10}_facto center_{reg10}_factory_{reg11}
+qstr_Worker_wage_is_{s1}; Worker_wage_is_{s1};_Working_conditions_are_{s2}.

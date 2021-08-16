@@ -399,7 +399,16 @@ snd_voice_spa_bayonets1 = 397
 snd_voice_spa_fire_at_will1 = 398
 snd_voice_spa_hold_ground1 = 399
 snd_voice_spa_keep_shooting1 = 400
-snd_hmg_shot1 = 401
-snd_hmg_shot_distant1 = 402
+snd_voice_ita_on_company_select1 = 401
+snd_voice_ita_yes_sir1 = 402
+snd_voice_ita_charge1 = 403
+snd_voice_ita_retreat1 = 404
+snd_voice_ita_chargewarcry1 = 405
+snd_voice_ita_bayonets1 = 406
+snd_voice_ita_fire_at_will1 = 407
+snd_voice_ita_hold_ground1 = 408
+snd_voice_ita_keep_shooting1 = 409
+snd_hmg_shot1 = 410
+snd_hmg_shot_distant1 = 411
 
 

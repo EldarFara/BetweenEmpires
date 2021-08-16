@@ -1,5 +1,5 @@
 soundsfile version 3
-2531
+2666
  drum_3.ogg 769
  tutorial_1.ogg 1793
  tutorial_2.ogg 1793
@@ -2520,6 +2520,141 @@ soundsfile version 3
  voice_spa_keep_shooting06.wav 3296
  voice_spa_keep_shooting07.wav 3296
  voice_spa_keep_shooting08.wav 3296
+ voice_ita_on_company_select01.wav 2784
+ voice_ita_on_company_select02.wav 2784
+ voice_ita_on_company_select03.wav 2784
+ voice_ita_on_company_select04.wav 2784
+ voice_ita_on_company_select05.wav 2784
+ voice_ita_on_company_select06.wav 2784
+ voice_ita_on_company_select07.wav 2784
+ voice_ita_on_company_select08.wav 2784
+ voice_ita_on_company_select09.wav 2784
+ voice_ita_on_company_select10.wav 2784
+ voice_ita_on_company_select11.wav 2784
+ voice_ita_on_company_select12.wav 2784
+ voice_ita_on_company_select13.wav 2784
+ voice_ita_on_company_select14.wav 2784
+ voice_ita_on_company_select15.wav 2784
+ voice_ita_on_company_select16.wav 2784
+ voice_ita_on_company_select17.wav 2784
+ voice_ita_on_company_select18.wav 2784
+ voice_ita_on_company_select19.wav 2784
+ voice_ita_on_company_select20.wav 2784
+ voice_ita_on_company_select21.wav 2784
+ voice_ita_on_company_select22.wav 2784
+ voice_ita_on_company_select23.wav 2784
+ voice_ita_on_company_select24.wav 2784
+ voice_ita_yes_sir01.wav 2272
+ voice_ita_yes_sir02.wav 2272
+ voice_ita_yes_sir03.wav 2272
+ voice_ita_yes_sir04.wav 2272
+ voice_ita_yes_sir05.wav 2272
+ voice_ita_yes_sir06.wav 2272
+ voice_ita_yes_sir07.wav 2272
+ voice_ita_yes_sir08.wav 2272
+ voice_ita_yes_sir09.wav 2272
+ voice_ita_yes_sir10.wav 2272
+ voice_ita_yes_sir11.wav 2272
+ voice_ita_yes_sir12.wav 2272
+ voice_ita_yes_sir13.wav 2272
+ voice_ita_yes_sir14.wav 2272
+ voice_ita_yes_sir15.wav 2272
+ voice_ita_yes_sir16.wav 2272
+ voice_ita_yes_sir17.wav 2272
+ voice_ita_yes_sir18.wav 2272
+ voice_ita_yes_sir19.wav 2272
+ voice_ita_yes_sir20.wav 2272
+ voice_ita_yes_sir21.wav 2272
+ voice_ita_yes_sir22.wav 2272
+ voice_ita_yes_sir23.wav 2272
+ voice_ita_yes_sir24.wav 2272
+ voice_ita_yes_sir25.wav 2272
+ voice_ita_yes_sir26.wav 2272
+ voice_ita_yes_sir27.wav 2272
+ voice_ita_yes_sir28.wav 2272
+ voice_ita_yes_sir29.wav 2272
+ voice_ita_charge01.wav 3296
+ voice_ita_charge02.wav 3296
+ voice_ita_charge03.wav 3296
+ voice_ita_charge04.wav 3296
+ voice_ita_charge05.wav 3296
+ voice_ita_charge06.wav 3296
+ voice_ita_charge07.wav 3296
+ voice_ita_charge08.wav 3296
+ voice_ita_charge09.wav 3296
+ voice_ita_charge10.wav 3296
+ voice_ita_charge11.wav 3296
+ voice_ita_charge12.wav 3296
+ voice_ita_charge13.wav 3296
+ voice_ita_charge14.wav 3296
+ voice_ita_charge15.wav 3296
+ voice_ita_charge16.wav 3296
+ voice_ita_charge17.wav 3296
+ voice_ita_charge18.wav 3296
+ voice_ita_charge19.wav 3296
+ voice_ita_charge20.wav 3296
+ voice_ita_charge21.wav 3296
+ voice_ita_charge22.wav 3296
+ voice_ita_charge24.wav 3296
+ voice_ita_retreat01.wav 3296
+ voice_ita_retreat02.wav 3296
+ voice_ita_retreat03.wav 3296
+ voice_ita_retreat04.wav 3296
+ voice_ita_retreat05.wav 3296
+ voice_ita_retreat06.wav 3296
+ voice_ita_retreat07.wav 3296
+ voice_ita_retreat08.wav 3296
+ voice_ita_retreat09.wav 3296
+ voice_ita_retreat10.wav 3296
+ voice_ita_retreat11.wav 3296
+ voice_ita_retreat12.wav 3296
+ voice_ita_retreat13.wav 3296
+ voice_ita_retreat14.wav 3296
+ voice_ita_retreat15.wav 3296
+ voice_ita_retreat16.wav 3296
+ voice_ita_retreat17.wav 3296
+ voice_ita_retreat18.wav 3296
+ voice_ita_retreat19.wav 3296
+ voice_ita_retreat20.wav 3296
+ voice_ita_retreat21.wav 3296
+ voice_ita_retreat22.wav 3296
+ voice_ita_retreat23.wav 3296
+ voice_ita_retreat24.wav 3296
+ voice_ita_chargewarcry01.wav 2784
+ voice_ita_chargewarcry02.wav 2784
+ voice_ita_chargewarcry03.wav 2784
+ voice_ita_chargewarcry04.wav 2784
+ voice_ita_chargewarcry05.wav 2784
+ voice_ita_chargewarcry06.wav 2784
+ voice_ita_chargewarcry07.wav 2784
+ voice_ita_chargewarcry08.wav 2784
+ voice_ita_chargewarcry09.wav 2784
+ voice_ita_chargewarcry10.wav 2784
+ voice_ita_chargewarcry11.wav 2784
+ voice_ita_chargewarcry12.wav 2784
+ voice_ita_chargewarcry13.wav 2784
+ voice_ita_chargewarcry14.wav 2784
+ voice_ita_chargewarcry15.wav 2784
+ voice_ita_chargewarcry16.wav 2784
+ voice_ita_chargewarcry17.wav 2784
+ voice_ita_chargewarcry18.wav 2784
+ voice_ita_chargewarcry19.wav 2784
+ voice_ita_chargewarcry20.wav 2784
+ voice_ita_bayonets01.wav 3808
+ voice_ita_fire_at_will01.wav 3808
+ voice_ita_hold_ground01.wav 2272
+ voice_ita_hold_ground02.wav 2272
+ voice_ita_hold_ground03.wav 2272
+ voice_ita_hold_ground04.wav 2272
+ voice_ita_hold_ground05.wav 2272
+ voice_ita_hold_ground06.wav 2272
+ voice_ita_keep_shooting01.wav 3296
+ voice_ita_keep_shooting02.wav 3296
+ voice_ita_keep_shooting03.wav 3296
+ voice_ita_keep_shooting04.wav 3296
+ voice_ita_keep_shooting05.wav 3296
+ voice_ita_keep_shooting06.wav 3296
+ voice_ita_keep_shooting07.wav 3296
  hmg_shot1_1.wav 3808
  hmg_shot1_2.wav 3808
  hmg_shot1_3.wav 3808
@@ -2531,7 +2666,7 @@ soundsfile version 3
  hmg_shot_distant1_3.wav 4064
  hmg_shot_distant1_4.wav 4064
  hmg_shot_distant1_5.wav 4064
-403
+412
 snd_click 769 1 0 0 
 snd_tutorial_1 1793 1 1 0 
 snd_tutorial_2 1793 1 2 0 
@@ -2933,5 +3068,14 @@ snd_voice_spa_bayonets1 3808 1 2503 0
 snd_voice_spa_fire_at_will1 3808 2 2504 0 2505 0 
 snd_voice_spa_hold_ground1 2272 6 2506 0 2507 0 2508 0 2509 0 2510 0 2511 0 
 snd_voice_spa_keep_shooting1 3296 8 2512 0 2513 0 2514 0 2515 0 2516 0 2517 0 2518 0 2519 0 
-snd_hmg_shot1 3808 6 2520 0 2521 0 2522 0 2523 0 2524 0 2525 0 
-snd_hmg_shot_distant1 4064 5 2526 0 2527 0 2528 0 2529 0 2530 0 
+snd_voice_ita_on_company_select1 2784 24 2520 0 2521 0 2522 0 2523 0 2524 0 2525 0 2526 0 2527 0 2528 0 2529 0 2530 0 2531 0 2532 0 2533 0 2534 0 2535 0 2536 0 2537 0 2538 0 2539 0 2540 0 2541 0 2542 0 2543 0 
+snd_voice_ita_yes_sir1 2272 29 2544 0 2545 0 2546 0 2547 0 2548 0 2549 0 2550 0 2551 0 2552 0 2553 0 2554 0 2555 0 2556 0 2557 0 2558 0 2559 0 2560 0 2561 0 2562 0 2563 0 2564 0 2565 0 2566 0 2567 0 2568 0 2569 0 2570 0 2571 0 2572 0 
+snd_voice_ita_charge1 3296 24 2573 0 2574 0 2575 0 2576 0 2577 0 2578 0 2579 0 2580 0 2581 0 2582 0 2583 0 2584 0 2585 0 2586 0 2587 0 2588 0 2589 0 2590 0 2591 0 2592 0 2593 0 2594 0 2594 0 2595 0 
+snd_voice_ita_retreat1 3296 24 2596 0 2597 0 2598 0 2599 0 2600 0 2601 0 2602 0 2603 0 2604 0 2605 0 2606 0 2607 0 2608 0 2609 0 2610 0 2611 0 2612 0 2613 0 2614 0 2615 0 2616 0 2617 0 2618 0 2619 0 
+snd_voice_ita_chargewarcry1 2784 20 2620 0 2621 0 2622 0 2623 0 2624 0 2625 0 2626 0 2627 0 2628 0 2629 0 2630 0 2631 0 2632 0 2633 0 2634 0 2635 0 2636 0 2637 0 2638 0 2639 0 
+snd_voice_ita_bayonets1 3808 1 2640 0 
+snd_voice_ita_fire_at_will1 3808 1 2641 0 
+snd_voice_ita_hold_ground1 2272 6 2642 0 2643 0 2644 0 2645 0 2646 0 2647 0 
+snd_voice_ita_keep_shooting1 3296 7 2648 0 2649 0 2650 0 2651 0 2652 0 2653 0 2654 0 
+snd_hmg_shot1 3808 6 2655 0 2656 0 2657 0 2658 0 2659 0 2660 0 
+snd_hmg_shot_distant1 4064 5 2661 0 2662 0 2663 0 2664 0 2665 0 
