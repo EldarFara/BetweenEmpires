@@ -1,4 +1,4 @@
-1211
+1221
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -314,6 +314,15 @@ qstr_SELL SELL
 qstr_Balance_change:_+0_p Balance_change:_+0_pounds.
 qstr_Manage_share__Now_is Manage_share_(Now_is_{reg10})%.
 qstr_Not_enough_money. Not_enough_money.
+qstr_Country Country
+qstr_Supply Supply
+qstr_Demand Demand
+qstr_Producer^amount Producer^amount
+qstr_Quality Quality
+qstr_GDP GDP
+qstr_Population Population
+qstr_Literacy Literacy
+qstr_Urbanization Urbanization
 qstr_Select_factory_to_bu Select_factory_to_build:
 qstr_Your_current_balance Your_current_balance_is_{reg10}_pounds.
 qstr_Initial_Capital:_500 Initial_Capital:_50000_pounds.
@@ -752,7 +761,6 @@ qstr_tons_of_flour tons_of_flour
 qstr_{reg12}_{s3}_has_bou {reg12}_{s3}_has_bought_{reg10}_{s1}_from_{s4}_for_{reg11}.
 qstr_{s1}_s_{s2}_decided_ {s1}'s_{s2}_decided_to_fire_{reg10}_workers.
 qstr_Population_of_{s1}_i Population_of_{s1}_is_buying_resources._Literacy_{reg10},_population_{reg11},_urbanization_{reg12}.
-qstr_Paper_to_buy___{reg1 Paper_to_buy_-_{reg10}
 qstr_Steel Steel
 qstr_Ammunition Ammunition
 qstr_Timber Timber
@@ -773,6 +781,9 @@ qstr_Flour Flour
 qstr_Price___{reg10}_poun Price_-_{reg10}_pounds
 qstr_Supply___{reg11}.{re Supply_-_{reg11}.{reg12}_tons
 qstr_Demand___{reg11}.{re Demand_-_{reg11}.{reg12}_tons
+qstr_prsnt_price_item_{s1 prsnt_price_item_{s1}_slot_faction_supply_{reg10}
+qstr_{reg10}._{s1} {reg10}._{s1}
+qstr_{s1}_produced_{reg10 {s1}_produced_{reg10}_{s2}.
 qstr_Produces_steel_out^o Produces_steel_out^of_iron_and_coal.
 qstr_Produces_ammunition_ Produces_ammunition_out^of_steel.
 qstr_Produces_timber_out^ Produces_timber_out^of_wood.
@@ -1209,4 +1220,3 @@ qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
 qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
-qstr_resource_quality_{re resource_quality_{reg1}_resource_quality_add_{reg2}_resource_quality_add2_{reg3}.

@@ -2511,142 +2511,142 @@ itemsfile version 3
 
 0
 
- itm_resource_weaponry_pointer PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_weaponry_pointer resource_weaponry_pointer resource_weaponry_pointer 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_military_supplies_pointer PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_military_supplies_pointer resource_military_supplies_pointer resource_military_supplies_pointer 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_fabric_pointer PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_fabric_pointer resource_fabric_pointer resource_fabric_pointer 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_construction_materials_pointer PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_construction_materials_pointer resource_construction_materials_pointer resource_construction_materials_pointer 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_furniture_pointer PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_furniture_pointer resource_furniture_pointer resource_furniture_pointer 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_machine_parts_pointer PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_machine_parts_pointer resource_machine_parts_pointer resource_machine_parts_pointer 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_pape_pointerr PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_paper_pointer resource_paper_pointer resource_paper_pointer 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_clothes_pointer PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_clothes_pointer resource_clothes_pointer resource_clothes_pointer 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_timber_pointer PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_timber_pointer resource_timber_pointer resource_timber_pointer 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_steel_pointer PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_steel_pointer resource_steel_pointer resource_steel_pointer 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_iron PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_iron resource_iron resource_iron 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_coal PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_coal resource_coal resource_coal 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_meat PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_meat resource_meat resource_meat 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_cotton PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_cotton resource_cotton resource_cotton 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_flour PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_flour resource_flour resource_flour 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_wood PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_wood resource_wood resource_wood 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_ammunition PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_ammunition resource_ammunition resource_ammunition 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_weaponry PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_weaponry resource_weaponry resource_weaponry 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_military_supplies PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_military_supplies resource_military_supplies resource_military_supplies 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_fabric PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_fabric resource_fabric resource_fabric 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_construction_materials PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_construction_materials resource_construction_materials resource_construction_materials 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_furniture PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_furniture resource_furniture resource_furniture 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_machine_parts PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_machine_parts resource_machine_parts resource_machine_parts 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_paper PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_paper resource_paper resource_paper 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_clothes PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_clothes resource_clothes resource_clothes 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_timber PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_timber resource_timber resource_timber 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_resource_steel PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_resource_steel resource_steel resource_steel 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0
 
- itm_pes_end PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_pes_end pes_end pes_end 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 
 0

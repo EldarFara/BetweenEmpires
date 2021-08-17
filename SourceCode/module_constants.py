@@ -23,15 +23,18 @@ pes_workers_base_number_urban = 9
 pes_workers_base_number_rural = 8
 
 pes_resource_menu_faction_flag1 = 1
-pes_resource_menu_faction_flag2 = 2
-pes_resource_menu_faction_name1 = 3
-pes_resource_menu_faction_name2 = 4
-pes_resource_menu_faction_supply = 5
-pes_resource_menu_faction_demand = 6
+pes_resource_menu_faction_name1 = 2
+pes_resource_menu_faction_supply = 3
+pes_resource_menu_faction_demand = 4
+pes_resource_menu_faction_quality = 5
+pes_resource_menu_faction_gdp = 6
+pes_resource_menu_faction_produceramount = 7
+pes_resource_menu_faction_population = 8
+pes_resource_menu_faction_literacy = 9
+pes_resource_menu_faction_urbanization = 10
 
-pes_number_of_factions = 34
 
-display_pes_debug_messages = 0
+display_pes_debug_messages = 1
 
 preset_factory_slots_filling_percent_britain = 50
 preset_factory_slots_filling_percent_germany = 40
@@ -486,26 +489,24 @@ slot_item_pes_begin      = 500
 slot_item_price_history_begin      = slot_item_pes_begin + 0
 slot_item_price_history_end      = slot_item_pes_begin + 100
 slot_item_factions_quality1_begin      = slot_item_price_history_end + 0
-slot_item_factions_quality1_end      = slot_item_price_history_end + 40
 slot_item_factions_quality2_begin      = slot_item_price_history_end + 40
-slot_item_factions_quality2_end      = slot_item_price_history_end + 80
 slot_item_factions_factory_number1_begin      = slot_item_price_history_end + 80
-slot_item_factions_factory_number1_end      = slot_item_price_history_end + 160
 slot_item_factions_factory_number2_begin      = slot_item_price_history_end + 160
-slot_item_factions_factory_number2_end      = slot_item_price_history_end + 200
 slot_item_factions_supply1_begin      = slot_item_price_history_end + 200
-slot_item_factions_supply1_end      = slot_item_price_history_end + 240
 slot_item_factions_supply2_begin      = slot_item_price_history_end + 240
-slot_item_factions_supply2_end      = slot_item_price_history_end + 280
 slot_item_factions_demand1_begin      = slot_item_price_history_end + 280
-slot_item_factions_demand1_end      = slot_item_price_history_end + 320
 slot_item_factions_demand2_begin      = slot_item_price_history_end + 320
-slot_item_factions_demand2_end      = slot_item_price_history_end + 360
+slot_item_factions_demand2_end        = slot_item_price_history_end + 360
 slot_item_supply1      = slot_item_factions_demand2_end + 1
 slot_item_supply2      = slot_item_factions_demand2_end + 2
 slot_item_demand1      = slot_item_factions_demand2_end + 3
 slot_item_demand2      = slot_item_factions_demand2_end + 4
 slot_item_base_price      = slot_item_factions_demand2_end + 5
+slot_item_raw_resource1      = slot_item_factions_demand2_end + 6
+slot_item_raw_resource2      = slot_item_factions_demand2_end + 7
+slot_item_raw_resource1_amount      = slot_item_factions_demand2_end + 8
+slot_item_raw_resource2_amount      = slot_item_factions_demand2_end + 9
+slot_item_output_size      = slot_item_factions_demand2_end + 10
 
 slot_item_pointer_number_of_pointers   = 400
 
@@ -539,7 +540,7 @@ slot_item_multiplayer_faction_price_multipliers_begin = 30 #reserve around 10 sl
 slot_item_primary_raw_material    		= 50
 slot_item_is_raw_material_only_for      = 51
 slot_item_input_number                  = 52 #ie, how many items of inputs consumed per run
-slot_item_base_price                    = 53 #taken from module_items
+slot_item_base_price_old                    = 53 #taken from module_items
 #slot_item_production_site			    = 54 #a string replaced with function - Armagan
 slot_item_output_per_run                = 55 #number of items produced per run
 slot_item_overhead_per_run              = 56 #labor and overhead per run
@@ -1068,6 +1069,7 @@ slot_faction_workers    			 = slot_faction_ve_mod_slots_begin + 381
 slot_faction_workers_handicraft    			 = slot_faction_ve_mod_slots_begin + 382
 slot_faction_workers_massproduction    			 = slot_faction_ve_mod_slots_begin + 383
 slot_faction_gdp    			 = slot_faction_ve_mod_slots_begin + 384
+slot_faction_pes_temp    			 = slot_faction_ve_mod_slots_begin + 385
 
 
 
