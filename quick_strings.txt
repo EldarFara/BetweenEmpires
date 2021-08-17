@@ -1,4 +1,4 @@
-1221
+1236
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -317,7 +317,7 @@ qstr_Not_enough_money. Not_enough_money.
 qstr_Country Country
 qstr_Supply Supply
 qstr_Demand Demand
-qstr_Producer^amount Producer^amount
+qstr_Number_of^Factories Number_of^Factories
 qstr_Quality Quality
 qstr_GDP GDP
 qstr_Population Population
@@ -781,8 +781,13 @@ qstr_Flour Flour
 qstr_Price___{reg10}_poun Price_-_{reg10}_pounds
 qstr_Supply___{reg11}.{re Supply_-_{reg11}.{reg12}_tons
 qstr_Demand___{reg11}.{re Demand_-_{reg11}.{reg12}_tons
-qstr_prsnt_price_item_{s1 prsnt_price_item_{s1}_slot_faction_supply_{reg10}
 qstr_{reg10}._{s1} {reg10}._{s1}
+qstr_{reg10}.{reg11} {reg10}.{reg11}
+qstr_{reg10}k_p. {reg10}k_p.
+qstr_{reg10}_p. {reg10}_p.
+qstr_{reg10}_m. {reg10}_m.
+qstr_{reg10}_t. {reg10}_t.
+qstr_{reg10}.{reg11}% {reg10}.{reg11}%
 qstr_{s1}_produced_{reg10 {s1}_produced_{reg10}_{s2}.
 qstr_Produces_steel_out^o Produces_steel_out^of_iron_and_coal.
 qstr_Produces_ammunition_ Produces_ammunition_out^of_steel.
@@ -795,6 +800,7 @@ qstr_Produces_furniture_o Produces_furniture_out^_of_timber.
 qstr_Produces_machine_par Produces_machine_parts_out^_of_steel_and_coal.
 qstr_Produces_military_su Produces_military_supplies_out^_of_steel_and_fabric.
 qstr_Produces_paper_out^_ Produces_paper_out^_of_wood.
+qstr_Produced_{reg2}_{s1} Produced_{reg2}_{s1}_with_{reg11}_artisans,_raw_resources_multiplier_was_{reg12}.
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_running.
 qstr_{s1}_cannot_change_f {s1}_cannot_change_formation_-_only_light_infantry_can_apply_extended_line_formation.
@@ -1220,3 +1226,12 @@ qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
 qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
+qstr____ _-_
+qstr_{reg10}% {reg10}%
+qstr_handicraft^only handicraft^only
+qstr_Chance_to_build_fact Chance_to_build_factory_in_{s1}_is_{reg10}.{reg11}%.
+qstr_price_item_{s1}_raw_ price_item_{s1}_raw_resource1_{reg10}_raw_resource1_amount_{reg11}_output_size_{reg12}.
+qstr_Produced_{reg10}_wit Produced_{reg10}_with_{reg20}_workers,_raw_resources_multiplier_was_{reg30}.
+qstr_Spent_{reg10}_pounds_ Spent_{reg10}_pounds_for_wage.
+qstr_{reg10}_mil. {reg10}_mil.
+qstr_{reg10}_th. {reg10}_th.

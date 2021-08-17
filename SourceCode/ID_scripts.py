@@ -785,5 +785,7 @@ script_pes_resource_menu_display_resource = 783
 script_pes_resource_is_produced_by_center = 784
 script_pes_resource_is_demanded_by_center = 785
 script_get_factory_description_for_type = 786
+script_pes_produce_handicraft_resource_in_center = 787
+script_pes_center_decide_build_factory = 788
 
 

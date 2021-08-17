@@ -76,7 +76,7 @@ game_menus = [
 			(val_mul, ":population", 110), (val_div, ":population", 100),
 			(try_end),
 			(try_begin),
-			(val_max, ":literacy", 8000),
+			(val_min, ":literacy", 8000),
 			(party_set_slot, ":center", slot_center_literacy, ":literacy"),
 			(try_end),
 		(party_set_slot, ":center", slot_center_urbanization, ":urbanization"),
