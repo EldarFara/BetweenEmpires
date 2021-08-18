@@ -63100,7 +63100,7 @@ scripts = [
 	(troop_get_slot, ":resource_type", "trp_array_1", ":random_slot"),
 	(gt, ":resource_type", 0),
 (try_begin),
-#(eq, 1, display_pes_debug_messages),
+(eq, 1, display_pes_debug_messages),
 (str_store_party_name, s1, ":center"),
 (display_message, "@Building factory in {s1}", 0xFF0000),
 (try_end),
