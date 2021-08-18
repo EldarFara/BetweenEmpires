@@ -107,6 +107,9 @@ factions = [
 
   ("kingdoms_end","{!}kingdoms_end", 0, 0,[], []),
 
+("kingdom_usa",  "United States of America", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0.05)], [], 23805),
+("kingdom_china",  "Qing Empire",    0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 29440),
+
   ("robber_knights",  "{!}robber_knights", 0, 0.1, [], []),
 
   ("khergits","{!}Khergits", 0, 0.5,[("player_faction",0.0)], []),
@@ -126,4 +129,5 @@ factions = [
 #INVASION MODE START
   ("ccoop_all_stars","All Stars", 0, 0.5,[], []),
 #INVASION MODE END
+
 ]

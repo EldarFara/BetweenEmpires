@@ -659,6 +659,7 @@ meshes = [
   ("factory_building", 0, "factory_building", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("pes_resource_list", 0, "pes_resource_list", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("pes_region_bg", 0, "pes_region_bg", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pes_resource_price", 0, "pes_resource_price", 0, 0, 0, 0, 0, 0, 1, 1, 1),
 ]
 
 # modmerger_start version=201 type=2

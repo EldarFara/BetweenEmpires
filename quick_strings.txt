@@ -331,7 +331,7 @@ qstr_Start_Enterprise Start_Enterprise
 qstr_pes_region_factoryca pes_region_factorycard2
 qstr_{s3} {s3}
 qstr_{s2} {s2}
-qstr_Same_type_of_factory Same_type_of_factory_is_already_built_in_this_town.
+qstr_Same_type_of_factory Same_type_of_factory_does_already_exist_in_this_town.
 qstr_Initial_Capital:_{re Initial_Capital:_{reg10}_pounds.
 qstr_vSeason vSeason
 qstr_{!}DEBUG_:_Completed {!}DEBUG_:_Completed_faction_troop_assignments,_cheat_mode:_{reg3}
@@ -763,8 +763,6 @@ qstr_tons_of_flour tons_of_flour
 qstr_{reg12}_{s3}_has_bou {reg12}_{s3}_has_bought_{reg10}_{s1}_from_{s4}_for_{reg11}.
 qstr_{s1}_s_{s2}_decided_ {s1}'s_{s2}_decided_to_fire_{reg10}_workers.
 qstr_Population_of_{s1}_i Population_of_{s1}_is_buying_resources._Literacy_{reg10},_population_{reg11},_urbanization_{reg12}.
-qstr_before_shuffle_{reg1 before_shuffle_{reg10}
-qstr_after_shuffle_{reg10 after_shuffle_{reg10}
 qstr_Steel Steel
 qstr_Ammunition Ammunition
 qstr_Lumber Lumber
@@ -783,8 +781,8 @@ qstr_Paper Paper
 qstr_Meat Meat
 qstr_Flour Flour
 qstr_Price___{reg10}_poun Price_-_{reg10}_pounds
-qstr_Supply___{reg11}.{re Supply_-_{reg11}.{reg12}_tons
-qstr_Demand___{reg11}.{re Demand_-_{reg11}.{reg12}_tons
+qstr_Supply___{reg11}.{re Supply_-_{reg11}.{reg12}_{s1}
+qstr_Demand___{reg11}.{re Demand_-_{reg11}.{reg12}_{s1}
 qstr_{reg10}._{s1} {reg10}._{s1}
 qstr_{reg10}.{reg11} {reg10}.{reg11}
 qstr____ _-_
@@ -809,6 +807,7 @@ qstr_Produces_military_su Produces_military_supplies_out^_of_steel_and_fabric.
 qstr_Produces_paper_out^_ Produces_paper_out^_of_wood.
 qstr_Produced_{reg2}_{s1} Produced_{reg2}_{s1}_with_{reg11}_artisans,_raw_resources_multiplier_was_{reg12}.
 qstr_Chance_to_build_fact Chance_to_build_factory_in_{s1}_is_{reg10}.{reg11}%.
+qstr_Building_factory_in_ Building_factory_in_{s1}
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_running.
 qstr_{s1}_cannot_change_f {s1}_cannot_change_formation_-_only_light_infantry_can_apply_extended_line_formation.
@@ -1234,4 +1233,5 @@ qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
 qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
-qstr_Building_factory_in_ Building_factory_in_{s1}
+qstr_Price_of_{s1}_has_ch Price_of_{s1}_has_changed_by_{reg10}.
+qstr_Price_of_{s1}_has_cha Price_of_{s1}_has_changed_by_{reg10}%.

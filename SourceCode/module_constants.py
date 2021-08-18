@@ -524,12 +524,13 @@ slot_item_supply1      = slot_item_factions_demand2_end + 1
 slot_item_supply2      = slot_item_factions_demand2_end + 2
 slot_item_demand1      = slot_item_factions_demand2_end + 3
 slot_item_demand2      = slot_item_factions_demand2_end + 4
-slot_item_base_price      = slot_item_factions_demand2_end + 5
+slot_item_price_initial      = slot_item_factions_demand2_end + 5
 slot_item_raw_resource1      = slot_item_factions_demand2_end + 6
 slot_item_raw_resource2      = slot_item_factions_demand2_end + 7
 slot_item_raw_resource1_amount      = slot_item_factions_demand2_end + 8
 slot_item_raw_resource2_amount      = slot_item_factions_demand2_end + 9
 slot_item_output_size      = slot_item_factions_demand2_end + 10
+slot_item_price_aux      = slot_item_factions_demand2_end + 11
 
 slot_item_pointer_number_of_pointers   = 400
 
@@ -563,7 +564,7 @@ slot_item_multiplayer_faction_price_multipliers_begin = 30 #reserve around 10 sl
 slot_item_primary_raw_material    		= 50
 slot_item_is_raw_material_only_for      = 51
 slot_item_input_number                  = 52 #ie, how many items of inputs consumed per run
-slot_item_base_price_old                    = 53 #taken from module_items
+slot_item_base_price                    = 53 #taken from module_items
 #slot_item_production_site			    = 54 #a string replaced with function - Armagan
 slot_item_output_per_run                = 55 #number of items produced per run
 slot_item_overhead_per_run              = 56 #labor and overhead per run
@@ -1595,6 +1596,7 @@ slot_center_factory3_building_progress = pes_slots_start + 171
 slot_center_factory4_building_progress = pes_slots_start + 172
 slot_center_factory5_building_progress = pes_slots_start + 173
 slot_center_factory6_building_progress = pes_slots_start + 174
+slot_center_cotton_production_size = pes_slots_start + 175
 
 #slot_party_type values
 ##spt_caravan            = 1

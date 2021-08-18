@@ -787,5 +787,8 @@ script_pes_resource_is_demanded_by_center = 785
 script_get_factory_description_for_type = 786
 script_pes_produce_handicraft_resource_in_center = 787
 script_pes_center_decide_build_factory = 788
+script_pes_iteration_start_reshuffle = 789
+script_pes_iteration_start_oversea_supply = 790
+script_pes_iteration_start_prices_change = 791
 
 
