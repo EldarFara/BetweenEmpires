@@ -1331,6 +1331,7 @@ items = [
 #0 , weight(3.75)|spd_rtng(20) | shoot_speed(90) | thrust_damage(90 ,pierce)|max_ammo(1),imodbits_crossbow ],
 
 ["pes_start","PES", [("bkh_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.0)|head_armor(0), imodbits_none, [],[]],
+["resource_ammunition_pointer","resource_ammunition_pointer", [("bkh_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.0)|head_armor(0), imodbits_none, [],[]],
 ["resource_weaponry_pointer","resource_weaponry_pointer", [("bkh_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.0)|head_armor(0), imodbits_none, [],[]],
 ["resource_military_supplies_pointer","resource_military_supplies_pointer", [("bkh_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.0)|head_armor(0), imodbits_none, [],[]],
 ["resource_fabric_pointer","resource_fabric_pointer", [("bkh_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.0)|head_armor(0), imodbits_none, [],[]],

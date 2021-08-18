@@ -36,16 +36,39 @@ pes_resource_menu_faction_urbanization = 10
 
 display_pes_debug_messages = 0
 
-preset_factory_slots_filling_percent_britain = 50
-preset_factory_slots_filling_percent_germany = 40
-preset_factory_slots_filling_percent_france = 35
+preset_number_of_factories_britain = 20
+preset_number_of_factories_germany = 17
+preset_number_of_factories_france = 15
+preset_number_of_factories_italy = 8
+preset_number_of_factories_russia = 3
+preset_number_of_factories_austria = 6
+preset_number_of_factories_iberia = 6
+preset_number_of_factories_scandinavia = 5
+preset_number_of_factories_benelux = 10
+preset_number_of_factories_balkans = 4
+preset_number_of_factories_switzerland = 1
+
+preset_factory_slots_filling_percent_germany = 45
+preset_factory_slots_filling_percent_france = 45
 preset_factory_slots_filling_percent_italy = 17
 preset_factory_slots_filling_percent_russia = 8
 preset_factory_slots_filling_percent_austria = 15
 preset_factory_slots_filling_percent_spain = 15
 preset_factory_slots_filling_percent_portugal = 15
 preset_factory_slots_filling_percent_scandinavia = 20
-preset_factory_slots_filling_percent_benelux = 35
+preset_factory_slots_filling_percent_benelux = 40
+preset_factory_slots_filling_percent_balkans = 3
+
+preset_factory_slots_filling_percent_britain = 50
+preset_factory_slots_filling_percent_germany = 45
+preset_factory_slots_filling_percent_france = 45
+preset_factory_slots_filling_percent_italy = 17
+preset_factory_slots_filling_percent_russia = 8
+preset_factory_slots_filling_percent_austria = 15
+preset_factory_slots_filling_percent_spain = 15
+preset_factory_slots_filling_percent_portugal = 15
+preset_factory_slots_filling_percent_scandinavia = 20
+preset_factory_slots_filling_percent_benelux = 40
 preset_factory_slots_filling_percent_balkans = 3
 
 pes_region_menu_overlay_factory_name = 1

@@ -593,5 +593,6 @@ mesh_factory_devmode4 = 591
 mesh_factory_devmode_selected = 592
 mesh_factory_building = 593
 mesh_pes_resource_list = 594
+mesh_pes_region_bg = 595
 
 
