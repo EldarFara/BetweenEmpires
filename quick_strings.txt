@@ -780,7 +780,7 @@ qstr_Military_supplies Military_supplies
 qstr_Paper Paper
 qstr_Meat Meat
 qstr_Flour Flour
-qstr_Price___{reg10}_poun Price_-_{reg10}_pounds
+qstr_Price___{reg10}.{reg Price_-_{reg10}.{reg11}_pounds
 qstr_Supply___{reg11}.{re Supply_-_{reg11}.{reg12}_{s1}
 qstr_Demand___{reg11}.{re Demand_-_{reg11}.{reg12}_{s1}
 qstr_{reg10}._{s1} {reg10}._{s1}
@@ -808,6 +808,8 @@ qstr_Produces_paper_out^_ Produces_paper_out^_of_wood.
 qstr_Produced_{reg2}_{s1} Produced_{reg2}_{s1}_with_{reg11}_artisans,_raw_resources_multiplier_was_{reg12}.
 qstr_Chance_to_build_fact Chance_to_build_factory_in_{s1}_is_{reg10}.{reg11}%.
 qstr_Building_factory_in_ Building_factory_in_{s1}
+qstr_Price_of_{s1}_has_ch Price_of_{s1}_has_changed_by_{reg10}.
+qstr_price_history_{reg10 price_history_{reg10}
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_running.
 qstr_{s1}_cannot_change_f {s1}_cannot_change_formation_-_only_light_infantry_can_apply_extended_line_formation.
@@ -1233,5 +1235,3 @@ qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
 qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
-qstr_Price_of_{s1}_has_ch Price_of_{s1}_has_changed_by_{reg10}.
-qstr_Price_of_{s1}_has_cha Price_of_{s1}_has_changed_by_{reg10}%.
