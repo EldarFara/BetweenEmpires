@@ -1,4 +1,4 @@
-1236
+1238
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -247,7 +247,6 @@ qstr_Loyalty_to_parties: Loyalty_to_parties:
 qstr_Wealth:_{reg1}% Wealth:_{reg1}%
 qstr_Satisfaction_with_ne Satisfaction_with_needs:_{reg2}%
 qstr_Political_activity:_ Political_activity:_{reg3}%
-qstr_Militancy:_{reg4}% Militancy:_{reg4}%
 qstr_State_Laws: State_Laws:
 qstr_Nomination_Rules Nomination_Rules
 qstr_Upper_Class_Only Upper_Class_Only
@@ -273,21 +272,11 @@ qstr_Military_Service_Ter Military_Service_Term
 qstr_Short Short
 qstr_Medium Medium
 qstr_Long Long
-qstr_Income_Tax Income_Tax
-qstr_Very_Big Very_Big
-qstr_Big Big
-qstr_Low Low
-qstr_Very_Low Very_Low
-qstr_Goods_and_Services_T Goods_and_Services_Tax
-qstr_Import_Duties Import_Duties
-qstr_Education_Expenses Education_Expenses
-qstr_Infrastructure_Expen Infrastructure_Expenses
-qstr_Healthcare_Expenses Healthcare_Expenses
 qstr_Production_Safety_Re Production_Safety_Regulations
 qstr_Minimum_Wage Minimum_Wage
 qstr_Trade_Unions Trade_Unions
 qstr_Public_Meetings Public_Meetings
-qstr_Military_Expenses Military_Expenses
+qstr_Income_tax:_{reg10}% Income_tax:_{reg10}%
 qstr_Slot:_not_selected Slot:_not_selected
 qstr_Party:_not_selected Party:_not_selected
 qstr_Party:_{reg1}___{s1} Party:_{reg1}_-_{s1}
@@ -314,6 +303,7 @@ qstr_SELL SELL
 qstr_Balance_change:_+0_p Balance_change:_+0_pounds.
 qstr_Manage_share__Now_is Manage_share_(Now_is_{reg10})%.
 qstr_Not_enough_money. Not_enough_money.
+qstr_Price_history_chart: Price_history_chart:
 qstr_Country Country
 qstr_Supply Supply
 qstr_Demand Demand
@@ -683,6 +673,8 @@ qstr_Parliament_Compositi Parliament_Composition
 qstr_{s1}:_{reg1}% {s1}:_{reg1}%
 qstr_Ruling_party Ruling_party
 qstr_Influence:_{reg1}% Influence:_{reg1}%
+qstr_Annual_Income:_{reg1 Annual_Income:_{reg1}.{reg10}_p.
+qstr_Goods_and_services_t Goods_and_services_tax:_{reg10}%
 qstr_PPS_Faction_iteratio PPS_Faction_iteration_of_{s1}.
 qstr_Center_iteration_of_ Center_iteration_of_{s1}.
 qstr_{s1}_s_{s2}_Iteratio {s1}'s_{s2}_Iteration:
@@ -695,6 +687,7 @@ qstr_In_sum_bought_{reg1} In_sum,_bought_{reg1}/{reg10}_of_{s1}.
 qstr_Workers_unemployed__ Workers_unemployed_-_{reg1},_employed_{reg2}_workers.
 qstr_{reg1}_thousands_of_ {reg1}_thousands_of_population
 qstr_Daily_GDP_is_{reg1}_p Daily_GDP_is_{reg1}_pounds^({reg2}%_of_{s1}'s_economy).
+qstr_This_region_produces This_region_produces_increased_amount_of_{s2}.
 qstr_Add_Workplaces^^Buyi Add_Workplaces^^Buying_more_equipment_will_increase^number_of_workplaces.
 qstr_Improve_Worker_Condi Improve_Worker_Conditions^^Improving_working_conditions_means_inceasing^worker_wage,_improving_production_safety_and,^in_the_end,_introducing_social_benefits_to_workers.^This_will_increase_quality_of_product^and_increase_factory_attractiveness^for_potential_workers.
 qstr_Improve_Equipment^^T Improve_Equipment^^Thorough_maintaining_and_improving_factory^equipment_increases_quality_of_product,_making^it_more_likely_to_be_sold.
@@ -809,7 +802,9 @@ qstr_Produced_{reg2}_{s1} Produced_{reg2}_{s1}_with_{reg11}_artisans,_raw_resour
 qstr_Chance_to_build_fact Chance_to_build_factory_in_{s1}_is_{reg10}.{reg11}%.
 qstr_Building_factory_in_ Building_factory_in_{s1}
 qstr_Price_of_{s1}_has_ch Price_of_{s1}_has_changed_by_{reg10}.
-qstr_price_history_{reg10 price_history_{reg10}
+qstr_Urbanization_of_{s1} Urbanization_of_{s1}'s_center_{s2}_was_increased_by_{reg10}.
+qstr_{reg10}._party_gives {reg10}._party_gives_{reg11}_votes
+qstr_{s1}_rural_wealth_{r {s1}_rural_wealth_{reg10}_urban_wealth_{reg11}_middle_wealth_{reg12}_bourgeoisie_wealth_{reg13}_aristocracy_wealth_{reg14}_sum_wage_{reg15}_gdp_rural_{reg16}_gdp_urban_{reg17}
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_running.
 qstr_{s1}_cannot_change_f {s1}_cannot_change_formation_-_only_light_infantry_can_apply_extended_line_formation.
@@ -1235,3 +1230,10 @@ qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
 qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
+qstr_classes_support_of_p classes_support_of_party_{reg10}
+qstr_sum_support_of_party sum_support_of_party2_{reg10}
+qstr_support_of_party_{re support_of_party_{reg10}
+qstr_support_of_party_2_{ support_of_party_2_{reg10}
+qstr_places_in_parliament places_in_parliament_of_party_{reg10}
+qstr_sum_support_of_party1 sum_support_of_party1_{reg10}
+qstr_support_of_party_1_{ support_of_party_1_{reg10}

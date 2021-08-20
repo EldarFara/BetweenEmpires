@@ -1,5 +1,5 @@
 stringsfile version 1
-3762
+3766
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -3694,6 +3694,10 @@ str_liberal_party Liberal_Party
 str_conservative_party Conservative_Party
 str_reactionary_party Reactionary_Party
 str_socialist_party Socialist_Party
+str_royalists Royalists
+str_legitimists Legitimists
+str_bonapartists Bonapartists
+str_republicans Republicans
 str_tories Conservative_Party_(Tories)
 str_whigs Liberal_Party_(Whigs)
 str_tories_desc Conservative_party_in_British_Empire_originates_from_Tories_political_faction._Their_political_views_are_traditionalism_and_conservatism._Tories_defend_the_ideas_of_hierarchy,_natural_order,_and_aristocracy.
