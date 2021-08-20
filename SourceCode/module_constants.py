@@ -1073,6 +1073,10 @@ slot_faction_gdp    			 = slot_faction_ve_mod_slots_begin + 384
 slot_faction_pes_temp    			 = slot_faction_ve_mod_slots_begin + 385
 slot_faction_gdp_urban    			 = slot_faction_ve_mod_slots_begin + 386
 slot_faction_gdp_rural    			 = slot_faction_ve_mod_slots_begin + 387
+slot_faction_political_party1_color_material_string = slot_faction_ve_mod_slots_begin + 388
+slot_faction_political_party2_color_material_string = slot_faction_ve_mod_slots_begin + 389
+slot_faction_political_party3_color_material_string = slot_faction_ve_mod_slots_begin + 390
+slot_faction_political_party4_color_material_string = slot_faction_ve_mod_slots_begin + 391
 
 
 

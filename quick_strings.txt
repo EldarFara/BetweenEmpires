@@ -1,4 +1,4 @@
-1238
+1234
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -277,6 +277,9 @@ qstr_Minimum_Wage Minimum_Wage
 qstr_Trade_Unions Trade_Unions
 qstr_Public_Meetings Public_Meetings
 qstr_Income_tax:_{reg10}% Income_tax:_{reg10}%
+qstr_+{reg10}_pounds +{reg10}_pounds
+qstr_Goods_and_Services_t Goods_and_Services_tax:_{reg10}%
+qstr_Import/Export_tax:_{ Import/Export_tax:_{reg10}%
 qstr_Slot:_not_selected Slot:_not_selected
 qstr_Party:_not_selected Party:_not_selected
 qstr_Party:_{reg1}___{s1} Party:_{reg1}_-_{s1}
@@ -804,7 +807,7 @@ qstr_Building_factory_in_ Building_factory_in_{s1}
 qstr_Price_of_{s1}_has_ch Price_of_{s1}_has_changed_by_{reg10}.
 qstr_Urbanization_of_{s1} Urbanization_of_{s1}'s_center_{s2}_was_increased_by_{reg10}.
 qstr_{reg10}._party_gives {reg10}._party_gives_{reg11}_votes
-qstr_{s1}_rural_wealth_{r {s1}_rural_wealth_{reg10}_urban_wealth_{reg11}_middle_wealth_{reg12}_bourgeoisie_wealth_{reg13}_aristocracy_wealth_{reg14}_sum_wage_{reg15}_gdp_rural_{reg16}_gdp_urban_{reg17}
+qstr_{s1}_rural_wealth_{r {s1}_rural_wealth_{reg10}_urban_wealth_{reg11}_middle_wealth_{reg12}_bourgeoisie_wealth_{reg13}_aristocracy_wealth_{reg14}_sum_wage_{reg15}_gdp_rural_{reg16}_gdp_urban_{reg17}_population_root_{reg18}
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_running.
 qstr_{s1}_cannot_change_f {s1}_cannot_change_formation_-_only_light_infantry_can_apply_extended_line_formation.
@@ -1230,10 +1233,3 @@ qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
 qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
-qstr_classes_support_of_p classes_support_of_party_{reg10}
-qstr_sum_support_of_party sum_support_of_party2_{reg10}
-qstr_support_of_party_{re support_of_party_{reg10}
-qstr_support_of_party_2_{ support_of_party_2_{reg10}
-qstr_places_in_parliament places_in_parliament_of_party_{reg10}
-qstr_sum_support_of_party1 sum_support_of_party1_{reg10}
-qstr_support_of_party_1_{ support_of_party_1_{reg10}
