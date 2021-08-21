@@ -12457,7 +12457,7 @@ presentations = [
         ]),
      ]),
 
-  ("budget_report", 0, mesh_load_window2,
+  ("budget_report", 0, mesh_load_window,
    [(ti_on_presentation_load,
      [(presentation_set_duration, 999999),
       (set_fixed_point_multiplier, 1000),
@@ -12507,11 +12507,11 @@ presentations = [
       (assign, ":num_owned_center_values_for_tax_efficiency", 0),
       (assign, ":all_centers_accumulated_total", 0),
       (assign, ":all_centers_accumulated_taxes_and_rents", 0),
-	    (try_begin),
-	  (gt, "$g_player_income_factories", 0),
-	   (val_add, ":num_lines", 1),
-	    (try_end),	  
       (try_for_range, ":center_no", centers_begin, centers_end),	  
+	    (try_begin),
+		  (party_slot_ge, ":center_no", slot_center_player_enterprise, 1),		  
+		  (val_add, ":num_lines", 1),
+	    (try_end),	  
 	  
         (party_slot_eq, ":center_no", slot_town_lord, "trp_player"),
         (val_add, ":num_lines", 1),
@@ -12521,6 +12521,7 @@ presentations = [
           (val_add, ":num_lines", 1),
           (val_add, ":num_owned_center_values_for_tax_efficiency", 1),
         (try_end),
+      (try_end),
       (try_begin),
         (gt, "$players_kingdom", 0),
         (neq, "$players_kingdom", "fac_player_supporters_faction"),
@@ -12528,6 +12529,10 @@ presentations = [
         (eq, "$player_has_homage", 0),
         (val_add, ":num_lines", 1),
       (try_end),
+	    (try_begin),
+	  (gt, "$g_player_income_factories", 0),
+	   (val_add, ":num_lines", 1),
+	    (try_end),	
       (try_begin),      
         (gt, ":num_owned_center_values_for_tax_efficiency", ":num_centers_needed_for_efficiency_loss"),
       #gt accumulated total is ignored
@@ -12582,6 +12587,187 @@ presentations = [
 		(overlay_set_position, reg1, pos1),
 		(val_sub, ":cur_y", 27),
       (try_end),
+      (try_for_range, ":center_no", centers_begin, centers_end),		
+		#Enterprise
+        (try_begin),
+		  (party_get_slot, ":enterprise_output", ":center_no", slot_center_player_enterprise),
+		  (gt, ":enterprise_output", 1),
+		  (neg|party_slot_ge, ":center_no", slot_center_player_enterprise_days_until_complete, 1),
+		  
+          (str_store_party_name, s0, ":center_no"),
+		  
+		  (call_script, "script_process_player_enterprise", ":enterprise_output", ":center_no"),
+		  (assign, ":net_profit", reg0),
+		  (assign, ":price_of_single_output", reg4),
+		  (assign, ":price_of_single_input", reg5),
+		  (assign, ":price_of_secondary_input", reg10),
+		  
+		  (store_sub, ":town_order", ":center_no", towns_begin),
+		  (store_add, ":craftsman_troop", ":town_order", "trp_town_1_master_craftsman"),
+
+		  (item_get_slot, ":outputs_added_to_market", ":enterprise_output", slot_item_output_per_run),
+		  (assign, ":outputs_added_to_warehouse", 0),
+		  
+		  #Enterprise impact of outputs
+		  (try_begin),
+		    #output placed in inventory: deduct selling price and add one good
+			(party_slot_eq, ":center_no", slot_center_player_enterprise_production_order, 1),
+			
+			#Count empty slots
+			(assign, ":empty_slots", 0),
+			(troop_get_inventory_capacity, ":total_capacity", ":craftsman_troop"),
+			(try_for_range, ":capacity_iterator", 0, ":total_capacity"),
+				(troop_get_inventory_slot, ":slot", ":craftsman_troop", ":capacity_iterator"),
+				(lt, ":slot", 1),
+				(val_add, ":empty_slots", 1),
+			(try_end),
+			
+			(assign, ":outputs_added_to_warehouse", ":outputs_added_to_market"),
+			(val_min, ":outputs_added_to_warehouse",  ":empty_slots"),
+			(gt, ":outputs_added_to_warehouse", 0),
+			
+			(store_mul, ":cancelled_sales", ":price_of_single_output", ":outputs_added_to_warehouse"),
+			(val_sub, ":net_profit", ":cancelled_sales"),
+			(val_sub, ":outputs_added_to_market", ":outputs_added_to_warehouse"),
+		  (try_end),
+		  
+		  #If the transaction is for real, and not just a budget check
+		  (try_begin),
+		    (eq, "$g_apply_budget_report_to_gold", 1),
+			(troop_add_items, ":craftsman_troop", ":enterprise_output", ":outputs_added_to_warehouse"),
+
+			#Affect prices by outputs added to market
+			(store_sub, ":item_slot_no", ":enterprise_output", trade_goods_begin),
+			(val_add, ":item_slot_no", slot_town_trade_good_prices_begin),
+			(party_get_slot, ":current_index", ":center_no", ":item_slot_no"),			
+			(store_mul, ":impact_on_price", ":outputs_added_to_market", 15),
+			(val_sub, ":current_index", ":impact_on_price"),
+			(party_set_slot, ":center_no", ":item_slot_no",":current_index"),			
+						
+			(gt, "$cheat_mode", 0),
+			(str_store_troop_name, s3, ":craftsman_troop"),
+			(assign, reg3, ":outputs_added_to_warehouse"),
+			(display_message, "@{!}DEBUG -- Adding {reg3} items to {s3}"),
+		  (try_end),
+		  
+		  #Enterprise impact of outputs
+		  (item_get_slot, ":inputs_taken_from_market", ":enterprise_output", slot_item_input_number),		  
+		  (try_begin),
+			(item_slot_ge, ":enterprise_output", slot_item_secondary_raw_material, 1),
+		    (assign, ":2ary_inputs_taken_from_market", ":inputs_taken_from_market"),
+		  (else_try),
+		    (assign, ":2ary_inputs_taken_from_market", 0),
+		  (try_end),
+		  
+		  (assign, ":inputs_taken_from_warehouse", 0),
+		  (assign, ":2ary_inputs_taken_from_warehouse", 0),
+		  
+		  (try_begin),
+		    #input present in inventory: reimburse for input cost and remove one good
+			(troop_get_inventory_capacity, ":total_capacity", ":craftsman_troop"),
+			(try_for_range, ":capacity_iterator", 0, ":total_capacity"),
+				(troop_get_inventory_slot, ":item_in_slot", ":craftsman_troop", ":capacity_iterator"),
+			
+				(lt, ":inputs_taken_from_warehouse", ":inputs_taken_from_market"),
+				(item_slot_eq, ":enterprise_output", slot_item_primary_raw_material, ":item_in_slot"),
+                #(troop_inventory_slot_get_item_amount, ":item_ammo", ":craftsman_troop", ":capacity_iterator"),
+                #(troop_inventory_slot_get_item_max_amount, ":item_max_ammo", ":craftsman_troop", ":capacity_iterator"),
+                #(eq, ":item_ammo", ":item_max_ammo"),
+				
+				(val_add, ":inputs_taken_from_warehouse", 1),
+			(else_try),	
+				(lt, ":2ary_inputs_taken_from_warehouse", ":2ary_inputs_taken_from_market"),
+				(item_slot_eq, ":enterprise_output", slot_item_secondary_raw_material, ":item_in_slot"),
+                #(troop_inventory_slot_get_item_amount, ":item_ammo", ":craftsman_troop", ":capacity_iterator"),
+                #(troop_inventory_slot_get_item_max_amount, ":item_max_ammo", ":craftsman_troop", ":capacity_iterator"),
+                #(eq, ":item_ammo", ":item_max_ammo"),
+
+				(val_add, ":2ary_inputs_taken_from_warehouse", 1),
+			(try_end),
+		  
+		    (try_begin),
+				(gt, ":inputs_taken_from_warehouse", 0),
+				(val_sub, ":inputs_taken_from_market", ":inputs_taken_from_warehouse"),
+				(store_mul, ":savings_from_warehoused_inputs",	":price_of_single_input", ":inputs_taken_from_warehouse"),
+				(val_add, ":net_profit", ":savings_from_warehoused_inputs"),
+			(try_end),	
+		    (try_begin),
+				(gt, ":2ary_inputs_taken_from_warehouse", 0),
+				(val_sub, ":2ary_inputs_taken_from_market", ":2ary_inputs_taken_from_warehouse"),
+				(assign, ":savings_from_warehoused_inputs",	":price_of_secondary_input"),
+				(val_add, ":net_profit", ":savings_from_warehoused_inputs"),
+			(try_end),					
+		  (try_end),
+		  
+		  #If the transaction is for real, and not just a budget check
+		  (try_begin),
+		    (eq, "$g_apply_budget_report_to_gold", 1),
+			(item_get_slot, ":raw_material", ":enterprise_output", slot_item_primary_raw_material),
+			(troop_remove_items, ":craftsman_troop", ":raw_material", ":inputs_taken_from_warehouse"),
+			(item_get_slot, ":secondary_raw_material", ":enterprise_output", slot_item_secondary_raw_material),
+			(troop_remove_items, ":craftsman_troop", ":secondary_raw_material", ":2ary_inputs_taken_from_warehouse"),
+			
+			#Affect prices by intputs added to market
+			(store_sub, ":item_slot_no", ":raw_material", trade_goods_begin),
+			(val_add, ":item_slot_no", slot_town_trade_good_prices_begin),
+			(party_get_slot, ":current_index", ":center_no", ":item_slot_no"),			
+			(store_mul, ":impact_on_price", ":outputs_added_to_market", 15),
+			(val_add, ":current_index", ":impact_on_price"),
+			(party_set_slot, ":center_no", ":item_slot_no",":current_index"),			
+			
+			(try_begin),
+				(gt, ":2ary_inputs_taken_from_market", 0),
+				(store_sub, ":item_slot_no", ":secondary_raw_material", trade_goods_begin),
+				(val_add, ":item_slot_no", slot_town_trade_good_prices_begin),
+				(party_get_slot, ":current_index", ":center_no", ":item_slot_no"),			
+				(val_add, ":current_index", 15),
+				(party_set_slot, ":center_no", ":item_slot_no",":current_index"),			
+			(try_end),
+		  (try_end),		  
+		  		  
+		  (call_script, "script_get_enterprise_name", ":enterprise_output"),
+		  (str_store_string, s5, reg0),
+		  
+          (create_text_overlay, reg1, "str_enterprise_s5_at_s0", 0),
+          (position_set_x, pos1, 900),
+          (position_set_y, pos1, 900),
+          (overlay_set_size, reg1, pos1),
+          (position_set_x, pos1, 25),
+          (position_set_y, pos1, ":cur_y"),
+          (overlay_set_position, reg1, pos1),
+		  
+          (assign, reg0, ":net_profit"),
+		  
+		  #Enterprise revenue strings
+          (try_begin),
+     	    (store_faction_of_party, ":faction_no", ":center_no"),
+		    (store_relation, ":relation", ":faction_no", "$players_kingdom"),
+		    (lt, ":relation", 0),
+		    (assign, reg0, 0), 
+		    (assign, ":net_profit", 0), 
+		  
+            (create_text_overlay, reg1, "str_under_sequestration", tf_right_align|tf_single_line),
+            (overlay_set_color, reg1, 0xFF0000),		  
+		  (else_try),
+		    (ge, reg0, 0), 
+            (create_text_overlay, reg1, "@{!}{reg0}", tf_right_align|tf_single_line),
+            (overlay_set_color, reg1, 0x00AA00),
+          (else_try),
+            (create_text_overlay, reg1, "@{!}{reg0}", tf_right_align|tf_single_line),
+            (overlay_set_color, reg1, 0xFF0000),
+          (try_end),
+		  
+          (val_add, ":all_centers_accumulated_total", ":net_profit"),
+          (val_add, ":net_change", ":net_profit"),		  
+		  
+          (position_set_x, pos1, 900),
+          (position_set_y, pos1, 900),
+          (overlay_set_size, reg1, pos1),
+          (position_set_x, pos1, 500),
+          (position_set_y, pos1, ":cur_y"),
+          (overlay_set_position, reg1, pos1),
+          (val_sub, ":cur_y", 27),
+        (try_end),
 
 		#Enterprise ends, taxes begin
         (party_slot_eq, ":center_no", slot_town_lord, "trp_player"),
@@ -12924,6 +13110,7 @@ presentations = [
       (try_end),
       ]),
     ]),
+
 
   ("game_before_quit", 0, mesh_load_window2,
    [
