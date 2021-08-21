@@ -797,5 +797,7 @@ script_pes_center_build_factories = 795
 script_pes_center_change_population_literacy_urbanization = 796
 script_cf_pps_will_law_bill_succeed_in_faction = 797
 script_pps_calculate_faction_classes_wealth = 798
+script_pps_get_bonus_party_support_for_class = 799
+script_pps_calculate_balance_from_law_in_faction = 800
 
 

@@ -1077,6 +1077,9 @@ slot_faction_political_party1_color_material_string = slot_faction_ve_mod_slots_
 slot_faction_political_party2_color_material_string = slot_faction_ve_mod_slots_begin + 389
 slot_faction_political_party3_color_material_string = slot_faction_ve_mod_slots_begin + 390
 slot_faction_political_party4_color_material_string = slot_faction_ve_mod_slots_begin + 391
+slot_faction_law_balance_income_tax = slot_faction_ve_mod_slots_begin + 392
+slot_faction_law_balance_importexport_tax = slot_faction_ve_mod_slots_begin + 393
+slot_faction_law_balance_goodservices_tax = slot_faction_ve_mod_slots_begin + 394
 
 
 
