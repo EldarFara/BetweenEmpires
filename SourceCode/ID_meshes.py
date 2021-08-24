@@ -596,5 +596,6 @@ mesh_pes_resource_list = 594
 mesh_pes_region_bg = 595
 mesh_pes_resource_price = 596
 mesh_pes_resource_price_line = 597
+mesh_pps_menu_bg = 598
 
 

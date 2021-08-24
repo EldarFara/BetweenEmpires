@@ -1,4 +1,4 @@
-1235
+1245
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -67,6 +67,7 @@ qstr_{!}{reg3?+:}{reg0} {!}{reg3?+:}{reg0}
 qstr_TOTAL_SCORE:_{reg0} TOTAL_SCORE:_{reg0}
 qstr_Income_from_factorie Income_from_factories_share:
 qstr_{reg10} {reg10}
+qstr_{!}DEBUG____Adding_{ {!}DEBUG_--_Adding_{reg3}_items_to_{s3}
 qstr_None None
 qstr_Deployment_Plan Deployment_Plan
 qstr_You_have_{reg1}_comb You_have_{reg1}_combatants_available.
@@ -277,9 +278,12 @@ qstr_Minimum_Wage Minimum_Wage
 qstr_Trade_Unions Trade_Unions
 qstr_Public_Meetings Public_Meetings
 qstr_Income_tax:_{reg10}% Income_tax:_{reg10}%
-qstr_+{reg10}_pounds +{reg10}_pounds
 qstr_Goods_and_Services_t Goods_and_Services_tax:_{reg10}%
-qstr_Import/Export_tax:_{ Import/Export_tax:_{reg10}%
+qstr_Import/Export_tax:_{ Import/Export_tax:_{reg11}%/{reg12}%
+qstr_Military_Expenses:_{ Military_Expenses:_{reg10}%
+qstr_Education_Expenses:_ Education_Expenses:_{reg10}%
+qstr_Infrastructure_Expen Infrastructure_Expenses:_{reg10}%
+qstr_Healthcare_Expenses: Healthcare_Expenses:_{reg10}%
 qstr_Slot:_not_selected Slot:_not_selected
 qstr_Party:_not_selected Party:_not_selected
 qstr_Party:_{reg1}___{s1} Party:_{reg1}_-_{s1}
@@ -677,7 +681,13 @@ qstr_{s1}:_{reg1}% {s1}:_{reg1}%
 qstr_Ruling_party Ruling_party
 qstr_Influence:_{reg1}% Influence:_{reg1}%
 qstr_Annual_Income:_{reg1 Annual_Income:_{reg1}.{reg10}_p.
+qstr_Corruption_level:_{r Corruption_level:_{reg10}%
+qstr_+{reg10}_pounds +{reg10}_pounds
 qstr_Goods_and_services_t Goods_and_services_tax:_{reg10}%
+qstr__{reg10}_pounds -{reg10}_pounds
+qstr_Public_servants_wage Public_servants_wage_expenses:^-{reg10}_pounds
+qstr_Last_budget_change:^ Last_budget_change:^{reg10}_pounds
+qstr_Lost_from_corruption Lost_from_corruption:_{reg10}_pounds
 qstr_PPS_Faction_iteratio PPS_Faction_iteration_of_{s1}.
 qstr_Center_iteration_of_ Center_iteration_of_{s1}.
 qstr_{s1}_s_{s2}_Iteratio {s1}'s_{s2}_Iteration:
@@ -1233,4 +1243,4 @@ qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
 qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
-qstr_{!}DEBUG____Adding_{ {!}DEBUG_--_Adding_{reg3}_items_to_{s3}
+qstr_Lost_from_corruption: Lost_from_corruption:_-{reg10}_pounds
