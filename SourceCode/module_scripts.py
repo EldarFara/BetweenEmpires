@@ -22871,7 +22871,11 @@ scripts = [
         (faction_set_slot, ":faction_no", slot_faction_state, sfs_active),
         #(call_script, "script_store_average_center_value_per_faction"),
       (try_end),
-
+			(try_begin),
+			(troop_get_slot, ":leaded_party", ":troop_no", slot_troop_leaded_party),
+			(gt, ":leaded_party", "p_main_party"),
+			(party_set_faction, ":leaded_party", ":faction_no"),
+			(try_end),
 	  #Political ramifications
 	  (store_faction_of_troop, ":orig_faction", ":troop_no"),
 	  
