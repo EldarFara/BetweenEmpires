@@ -2949,13 +2949,7 @@ the high lords and common folk across the many realms of Europe."),
        [
          (jump_to_menu, "mnu_cheat_change_weather"),
 	   ]
-       ),	   
-
-      # ("camp_cheat_annex_sicily",[], "Annex Sicily",
-       # [
-         # (call_script, "script_faction_annex_faction", "fac_player_supporters_faction", "fac_kingdom_11", 50),
-	   # ]
-       # ),	  
+       ),	     
 	   
       ("camp_cheat_1",[],"{!}Increase player renown.",
        [
