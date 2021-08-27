@@ -14,6 +14,9 @@ from ID_parties import *
 # script_calculate_troop_ai
 # script_async_recalculate_ais
 
+pai_preset_attack_setup_earlygame = 1
+pai_preset_attack_setup_lategame = 2
+
 pps_income_tax_rate_divider = 3
 pps_import_tax_rate_divider = 6
 pps_export_tax_rate_divider = 4
@@ -2282,13 +2285,13 @@ slot_team_company8_formation                       = 212
 
 slot_team_pai_attack_groups_amount                 = 213
 slot_team_pai_attack_group_1_1                 = 214
-slot_team_pai_attack_group_2_1                 = 215
-slot_team_pai_attack_group_3_1                 = 216
-slot_team_pai_attack_group_1_2                 = 217
+slot_team_pai_attack_group_1_2                 = 215
+slot_team_pai_attack_group_1_3                 = 216
+slot_team_pai_attack_group_2_1                 = 217
 slot_team_pai_attack_group_2_2                 = 218
-slot_team_pai_attack_group_3_2                 = 219
-slot_team_pai_attack_group_1_3                 = 220
-slot_team_pai_attack_group_2_3                 = 221
+slot_team_pai_attack_group_2_3                 = 219
+slot_team_pai_attack_group_3_1                 = 220
+slot_team_pai_attack_group_3_2                 = 221
 slot_team_pai_attack_group_3_3                 = 222
 slot_team_pai_cavalry_company    = 223
 slot_team_pai_attack_group_1_1_state                 = 224
@@ -2322,6 +2325,8 @@ slot_team_company6_pai_digin_timer                       = 249
 slot_team_company7_pai_digin_timer                       = 250
 slot_team_company8_pai_digin_timer                       = 251
 slot_team_pai_mg_company_number    = 252
+slot_team_pai_distance_between_groups    = 253
+slot_team_pai_distance_between_companies_within_group    = 254
 
 #Rebellion changes end
 # character backgrounds
