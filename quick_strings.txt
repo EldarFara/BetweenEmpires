@@ -1,4 +1,4 @@
-1252
+1244
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -384,6 +384,7 @@ qstr_Revolver__6_rounds_ Revolver_(6_rounds)
 qstr_Pocket_Revolver__6_r Pocket_Revolver_(6_rounds)
 qstr_Self_Loading_Pistol_ Self-Loading_Pistol_(8_rounds)
 qstr_Revolver__9_rounds_ Revolver_(9_rounds)
+qstr_Pump_shotgun__6_roun Pump_shotgun_(6_rounds)
 qstr_Shotgun__2_rounds_ Shotgun_(2_rounds)
 qstr_Lever_action_shotgun Lever_action_shotgun_(6_rounds)
 qstr_Lever_action_shotgun_ Lever_action_shotgun_(1_round)
@@ -1242,12 +1243,3 @@ qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
 qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
-qstr_PAI_DEFEND PAI_DEFEND
-qstr_PAI_ATTACK_FORMING_R PAI_ATTACK_FORMING_RANKS
-qstr_PAI_ATTACK PAI_ATTACK
-qstr_PAI_ATTACK_INITIAL PAI_ATTACK_INITIAL
-qstr_distance_{reg10} distance_{reg10}
-qstr_1 1
-qstr_2 2
-qstr_3 3
-qstr_4 4

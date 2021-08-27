@@ -389,6 +389,7 @@ sounds = [
 ("flag_animated1",sf_priority_1|sf_vol_1|sf_looping, ["flag_animated1.wav"]),
 
 ("shot_shotgun1", sf_priority_14|sf_vol_15, ["shot_shotgun1_1.wav", "shot_shotgun1_2.wav"]),
+("shot_shotgun2", sf_priority_14|sf_vol_15, ["shot_shotgun2_1.wav"]),
 
 ("ambience_interior1_left", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_interior1_left.wav"]),
 ("ambience_interior1_right", sf_vol_6|sf_priority_1|sf_looping|sf_stream_from_hd,["ambience_interior1_right.wav"]),

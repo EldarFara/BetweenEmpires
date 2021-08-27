@@ -1787,3 +1787,4 @@ spr_0siege_smokepillar1_animated = 1785
 spr_0siege_fort_ruins1 = 1786
 spr_brick = 1787
 spr_musketramrod1 = 1788
+spr_gray_noshade = 1789

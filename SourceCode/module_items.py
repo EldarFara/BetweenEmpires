@@ -48,7 +48,7 @@ speed_conversion_rifle = 35
 speed_muzzleloaded_rifle = 40
 speed_muzzleloaded_musket = 40
 
-damage_shotgun = 20
+damage_shotgun = 25
 
 damage_bolt_action_rifle = 45
 damage_small_caliber_rifle = 50
@@ -2442,9 +2442,22 @@ items = [
 ["yuruyuri_akari","Yuru Yuri Akari Akaza", [("yuruyuri_akari", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_11]],
 ["ddlc_monika","DDLC Monika", [("ddlc_monika", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_11]],
 ["sailor_moon_usagi_tsukino","Sailor Moon Usagi Tsukino", [("sailor_moon_usagi_tsukino", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_11]],
-["be_chan1","BE-chan", [("be_chan1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_11]],
+["be_chan1","B", [("be_chan1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_11]],
 
 ["horse_carriage1","Carriage Horse", [("horse_carriage1",0)], itp_type_horse, 0, 134,abundance(90)|hit_points(100)|body_armor(14)|difficulty(0)|horse_speed(11)|horse_maneuver(39)|horse_charge(9)|horse_scale(100),imodbits_horse_basic],
+
+["rifle_krag","Krag-Jorgensen Rifle", [("krag", 0),("krag_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(60)|accuracy(accuracy_bolt_action_rifle)|spd_rtng(speed_bolt_action_rifle)|shoot_speed(shot_speed_bolt_action_rifle)|max_ammo(5)|thrust_damage(damage_bolt_action_rifle, pierce), imodbits_firearm, []],
+["rifle_krag_m","Krag-Jorgensen Rifle", [("krag", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary|itp_cant_use_on_horseback, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(160)|thrust_damage(30, pierce)|swing_damage(30, pierce), imodbits_none, []],
+["rifle_krag_carbine","Krag-Jorgensen Carbine", [("krag_carbine", 0),("krag_carbine_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(60)|accuracy(int(accuracy_bolt_action_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_bolt_action_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_bolt_action_rifle)|max_ammo(5)|thrust_damage(damage_bolt_action_rifle, pierce), imodbits_firearm, []],
+["rifle_krag_carbine_m","Krag-Jorgensen Carbine", [("krag_carbine", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(20, blunt)|swing_damage(0, blunt), imodbits_none, []],
+
+["shotgun_winchester_m1897","Winchester M1897", [("winchester_m1897", 0),("winchester_m1897_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,price_pistol_veryhigh, weight(3.7)|abundance(80)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_conversion_rifle)|shoot_speed(shotgun_muzzle_velocity)|max_ammo(6)|thrust_damage(damage_shotgun+10, pierce), imodbits_firearm, 
+[(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 65, 600, pos10, "itm_shotgun_winchester_m1897", ":agent"),])]],
+["shotgun_winchester_m1897_m","Winchester M1897", [("winchester_m1897", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(3.7)|hit_points(18432)|spd_rtng(75)|weapon_length(100)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],
+["shotgun_spencer_m1882","Spencer Shotgun Model 1882", [("spencer_m1882", 0),("spencer_m1882_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,price_pistol_veryhigh, weight(3.7)|abundance(80)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_conversion_rifle)|shoot_speed(shotgun_muzzle_velocity)|max_ammo(6)|thrust_damage(damage_shotgun+10, pierce), imodbits_firearm, 
+[(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 65, 600, pos10, "itm_shotgun_spencer_m1882", ":agent"),])]],
+["shotgun_spencer_m1882_m","Spencer Shotgun Model 1882", [("spencer_m1882", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(3.7)|hit_points(18432)|spd_rtng(75)|weapon_length(100)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],
+
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 

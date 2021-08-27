@@ -1,5 +1,5 @@
 scene_propsfile version 1
- 1789
+ 1790
 spr_invalid_object 0 0 question_mark 0 0
 
 
@@ -5567,5 +5567,8 @@ spr_brick 0 0 brick 0 0
 
 
 spr_musketramrod1 0 0 musketramrod1 0 0
+
+
+spr_gray_noshade 0 0 gray_noshade 0 0
 
 
