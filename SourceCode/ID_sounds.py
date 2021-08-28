@@ -411,5 +411,7 @@ snd_voice_ita_hold_ground1 = 409
 snd_voice_ita_keep_shooting1 = 410
 snd_hmg_shot1 = 411
 snd_hmg_shot_distant1 = 412
+snd_shot_lmg1 = 413
+snd_shot_lmg2 = 414
 
 

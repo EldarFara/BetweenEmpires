@@ -301,8 +301,9 @@ cannon_projectile_type_late_shell   = 2
 cannon_rifling_type_notrifled = 0
 cannon_rifling_type_rifled    = 1
 
-explosion_type_medium = 1
-explosion_type_big    = 2
+explosion_type_small = 1
+explosion_type_medium = 2
+explosion_type_big    = 3
 
 YuriCannonCartridgeType_Cannonball = 1
 YuriCannonCartridgeType_Grapeshot = 2
@@ -386,6 +387,8 @@ slot_prop_pss_previous_route_prop = YuriSlotProp_Cannoneer1 + 33
 slot_prop_animation_start_material_string = YuriSlotProp_Cannoneer1 + 34
 slot_prop_animation_number_of_frames = YuriSlotProp_Cannoneer1 + 35
 slot_prop_animation_current_frame = YuriSlotProp_Cannoneer1 + 36
+slot_prop_grenade_timer = YuriSlotProp_Cannoneer1 + 37
+slot_prop_grenade_agent = YuriSlotProp_Cannoneer1 + 38
 
 square_forming_phase_outer_square1 = 0
 square_forming_phase_outer_square2 = 1
@@ -573,6 +576,7 @@ slot_item_small_caliber_analog = slot_item_rifled_analog + 2
 slot_item_bolt_action_analog = slot_item_rifled_analog + 3
 slot_item_bolt_action_modern_analog = slot_item_rifled_analog + 4
 slot_item_appearance_year = slot_item_rifled_analog + 5
+slot_item_rpm = slot_item_rifled_analog + 6
 
 ########################################################
 ##  AGENT SLOTS            #############################
@@ -635,6 +639,8 @@ slot_agent_pss_current_direction      = 55
 slot_agent_pss_wide_offset      = 56
 slot_agent_musketramordanimation_animation_progress      = 57
 slot_agent_musketramordanimation_ramrod_prop      = 58
+slot_agent_lmg_fire_start_timer      = 59
+slot_agent_grenade_state      = 60
 
 ########################################################
 ##  FACTION SLOTS          #############################
@@ -1105,6 +1111,7 @@ slot_faction_law_balance_state_expenses = slot_faction_ve_mod_slots_begin + 403
 slot_faction_last_balance_change = slot_faction_ve_mod_slots_begin + 404
 slot_faction_corruption_level = slot_faction_ve_mod_slots_begin + 405
 slot_faction_last_balance_change_lost_from_corruption = slot_faction_ve_mod_slots_begin + 406
+slot_faction_lmg =  slot_faction_ve_mod_slots_begin + 406
 
 
 
@@ -2332,6 +2339,14 @@ slot_team_company8_pai_digin_timer                       = 251
 slot_team_pai_mg_company_number    = 252
 slot_team_pai_distance_between_groups    = 253
 slot_team_pai_distance_between_companies_within_group    = 254
+slot_team_company1_grenade_timer                       = 255
+slot_team_company2_grenade_timer                       = 256
+slot_team_company3_grenade_timer                       = 257
+slot_team_company4_grenade_timer                       = 258
+slot_team_company5_grenade_timer                       = 259
+slot_team_company6_grenade_timer                       = 260
+slot_team_company7_grenade_timer                       = 261
+slot_team_company8_grenade_timer                       = 262
 
 #Rebellion changes end
 # character backgrounds

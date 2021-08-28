@@ -1788,3 +1788,4 @@ spr_0siege_fort_ruins1 = 1786
 spr_brick = 1787
 spr_musketramrod1 = 1788
 spr_gray_noshade = 1789
+spr_grenade_timer = 1790

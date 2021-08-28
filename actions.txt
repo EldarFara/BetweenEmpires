@@ -378,7 +378,7 @@
   0.300000 anim_human 20830 20832 3 0 0.0 0.0 0.0 0.0 
  ready_crossbow 1678770176 603992074  1
   0.500000 rifle_aim1 0 0 7 0 0.0 0.0 0.0 0.0 
- release_crossbow 1678770176 572534794  1
+ release_crossbow 1678770176 572534796  1
   0.200000 rifle_aim1 4 7 2 0 0.0 0.0 0.0 0.0 
  reload_crossbow 0 35651644  3
   7.000000 reload_rifle1 0 340 67108873 61286 0.0 0.0 0.0 0.0 
@@ -594,15 +594,15 @@
   0.300000 anim_human 27615 27613 3 0 0.0 0.0 0.0 0.0 
  parried_slash_horseback_polearm_left 1679818752 35684367  1
   0.300000 anim_human 27615 27613 3 0 0.0 0.0 0.0 0.0 
- ready_overswing_staff 524288 1679818762  1
+ ready_overswing_staff 1572864 1679818762  1
   0.350000 spear_thrust_overhead 0 20 7 0 0.0 0.0 0.0 0.0 
- release_overswing_staff 524288 2183135242  1
+ release_overswing_staff 1572864 2183135242  1
   0.600000 spear_thrust_overhead 20 41 6 0 0.0 0.0 0.0 0.0 
- release_overswing_staff_continue 0 572522497  1
+ release_overswing_staff_continue 1048576 572522497  1
   0.300000 spear_thrust_overhead 41 52 3 0 0.0 0.0 0.0 0.0 
- blocked_overswing_staff 0 35651599  1
+ blocked_overswing_staff 1048576 35651599  1
   0.300000 spear_thrust_overhead 26 22 3 0 0.0 0.0 0.0 0.0 
- parried_overswing_staff 0 35651599  1
+ parried_overswing_staff 1048576 35651599  1
   0.300000 spear_thrust_overhead 26 22 3 0 0.0 0.0 0.0 0.0 
  ready_thrust_staff 1678835712 1679818762  1
   0.350000 attacks_staff_thrust 14 21 7 0 0.0 0.0 0.0 0.0 
@@ -1133,10 +1133,10 @@
   300.000000 coachman 0 456 268435456 0 0.0 0.0 0.0 0.0 
  shotgun_shot 1678771200 570437696  1
   0.600000 shotgun_shot 1 5 2 0 0.0 0.0 0.0 0.0 
- unused_human_anim_87 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
- unused_human_anim_88 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
+ release_lmg 1678770176 570437696  1
+  2.000000 rifle_aim1 0 0 2 0 0.0 0.0 0.0 0.0 
+ grenade_throw 1049600 572530752  1
+  0.900000 throwing_grenade_left 20 65 1 0 0.0 0.0 0.0 0.0 
  unused_human_anim_89 0 0  1
   1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
  unused_human_anim_90 0 0  1

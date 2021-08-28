@@ -459,6 +459,8 @@ sounds = [
 
 ("hmg_shot1", sf_priority_14|sf_vol_14, ["hmg_shot1_1.wav", "hmg_shot1_2.wav", "hmg_shot1_3.wav", "hmg_shot1_4.wav", "hmg_shot1_5.wav", "hmg_shot1_6.wav"]),
 ("hmg_shot_distant1", sf_priority_14|sf_vol_15, ["hmg_shot_distant1_1.wav", "hmg_shot_distant1_2.wav", "hmg_shot_distant1_3.wav", "hmg_shot_distant1_4.wav", "hmg_shot_distant1_5.wav"]),
+("shot_lmg1", sf_priority_14|sf_vol_15, ["shot_lmg1_1.wav", "shot_lmg1_2.wav", "shot_lmg1_3.wav"]),
+("shot_lmg2", sf_priority_14|sf_vol_15, ["shot_lmg2_1.wav", "shot_lmg2_2.wav", "shot_lmg2_3.wav"]),
 
 ]
 

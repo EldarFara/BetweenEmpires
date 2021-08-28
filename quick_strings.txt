@@ -1,4 +1,4 @@
-1227
+1231
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -87,11 +87,14 @@ qstr_Form_Square^^Selecte Form_Square^^Selected_companies_(not_more_than_two)^wi
 qstr_pbs_activeability_me pbs_activeability_merge
 qstr_Merge_Companies^^Sel Merge_Companies^^Selected_companies_(not_less_than_one)^will_be_merged_into_one_that_has_highest_number_of_soldiers.
 qstr_pbs_activeability_di pbs_activeability_digin
-qstr_\Dig_In^^Selected_co \Dig_In^^Selected_companies_will_dig_in,^creating_trenches_on_their_position.^Company_types:_Line_infantry,_Guard.
+qstr_Dig_In^^Selected_com Dig_In^^Selected_companies_will_dig_in,^creating_trenches_on_their_position.^Only_available_once_per_battle.^Company_types:_Line_infantry,_Guard.
+qstr_pbs_activeability_gr pbs_activeability_grenades
+qstr_Grenade_Attack^^Sele Grenade_Attack^^Selected_companies_launch_a_grenade_attack,_throwing^hand_grenades_at_enemies_which_are_at_close_distance.^Only_available_once_per_3_minutes.^Company_types:_Shock_troops.
 qstr_{reg0} {reg0}
 qstr_{reg0}% {reg0}%
 qstr_{reg0}_c. {reg0}_c.
-qstr_Cannot_dig_in:_wrong Cannot_dig_in:_wrong_company_types_(only_line_infantry_and_guard_inantry_can_dig_in).
+qstr_Cannot_dig_in:_wrong Cannot_dig_in:_wrong_company_types_(only_line_infantry_and_guard_infantry_can_dig_in).
+qstr_Cannot_launch_grenad Cannot_launch_grenade_attack:_wrong_company_types_(only_shock_troops_can_throw_grenades).
 qstr_Select_2_or_more_com Select_2_or_more_companies_with_soldiers_to_merge.
 qstr_Others Others
 qstr_Outlaws Outlaws
@@ -802,6 +805,7 @@ qstr_Price_of_{s1}_has_ch Price_of_{s1}_has_changed_by_{reg10}.
 qstr_Urbanization_of_{s1} Urbanization_of_{s1}'s_center_{s2}_was_increased_by_{reg10}.
 qstr_{reg10}._party_gives {reg10}._party_gives_{reg11}_votes
 qstr_{s1}_rural_wealth_{r {s1}_rural_wealth_{reg10}_urban_wealth_{reg11}_middle_wealth_{reg12}_bourgeoisie_wealth_{reg13}_aristocracy_wealth_{reg14}_sum_wage_{reg15}_gdp_rural_{reg16}_gdp_urban_{reg17}_population_root_{reg18}
+qstr_{s1}_cannot_launch_g {s1}_cannot_launch_grenade_attack_-_{reg1}_seconds_cooldown.
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_running.
 qstr_{s1}_cannot_change_f {s1}_cannot_change_formation_-_only_light_infantry_can_apply_extended_line_formation.

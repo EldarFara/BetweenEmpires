@@ -1,5 +1,5 @@
 soundsfile version 3
-2667
+2673
  drum_3.ogg 769
  tutorial_1.ogg 1793
  tutorial_2.ogg 1793
@@ -2667,7 +2667,13 @@ soundsfile version 3
  hmg_shot_distant1_3.wav 4064
  hmg_shot_distant1_4.wav 4064
  hmg_shot_distant1_5.wav 4064
-413
+ shot_lmg1_1.wav 4064
+ shot_lmg1_2.wav 4064
+ shot_lmg1_3.wav 4064
+ shot_lmg2_1.wav 4064
+ shot_lmg2_2.wav 4064
+ shot_lmg2_3.wav 4064
+415
 snd_click 769 1 0 0 
 snd_tutorial_1 1793 1 1 0 
 snd_tutorial_2 1793 1 2 0 
@@ -3081,3 +3087,5 @@ snd_voice_ita_hold_ground1 2272 6 2643 0 2644 0 2645 0 2646 0 2647 0 2648 0
 snd_voice_ita_keep_shooting1 3296 7 2649 0 2650 0 2651 0 2652 0 2653 0 2654 0 2655 0 
 snd_hmg_shot1 3808 6 2656 0 2657 0 2658 0 2659 0 2660 0 2661 0 
 snd_hmg_shot_distant1 4064 5 2662 0 2663 0 2664 0 2665 0 2666 0 
+snd_shot_lmg1 4064 3 2667 0 2668 0 2669 0 
+snd_shot_lmg2 4064 3 2670 0 2671 0 2672 0 
