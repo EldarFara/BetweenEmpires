@@ -28,7 +28,7 @@ grenades_100ms = (
 	(agent_is_alive, ":agent"),
 	(agent_is_human, ":agent"),
 	(agent_slot_eq, ":agent", slot_agent_grenade_state, 1),
-	(call_script, "script_cf_random", 5),
+	(call_script, "script_cf_random", 3),
 	(agent_set_slot, ":agent", slot_agent_grenade_state, 0),
 	(agent_get_position, pos1, ":agent"),
 	(agent_ai_get_look_target, ":enemy_agent", ":agent"),
