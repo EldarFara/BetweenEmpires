@@ -1229,6 +1229,7 @@ g_current_year
 g_game_speed
 preferred_ai_party_size
 g_battle_type
+battle_timer
 hp_regen_timer
 ironsight_mode
 ironsight_timer
