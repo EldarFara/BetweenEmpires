@@ -88,7 +88,7 @@ pes_region_menu_overlay_factory_sell = 29
 pes_region_menu_overlay_factory_build_icon = 30
 pes_region_menu_variable_factory_build_icon_rotation = 31
 
-mg_limit = 3
+mg_limit = 2
 
 language_english = 1
 language_russian = 2
@@ -402,6 +402,7 @@ rifle_type_rifled = 1
 rifle_type_converted = 2
 rifle_type_smallcaliber = 3
 rifle_type_boltaction = 4
+rifle_type_boltactionmodern = 5
 
 voices_1000ms_limit_warcry = 7
 
@@ -440,6 +441,9 @@ pbs_troop_type_cavranged = 5
 pbs_troop_type_cavguard = 6
 pbs_troop_type_fieldguns = 7
 pbs_troop_type_howitzers = 8
+pbs_troop_type_mg = 9
+pbs_troop_type_shock = 10
+pbs_troop_type_armor = 11
 
 pbs_state_generic = 0
 pbs_state_moving_to_position = 1
@@ -567,7 +571,8 @@ slot_item_rifled_analog = 2000
 slot_item_converted_analog = slot_item_rifled_analog + 1
 slot_item_small_caliber_analog = slot_item_rifled_analog + 2
 slot_item_bolt_action_analog = slot_item_rifled_analog + 3
-slot_item_appearance_year = slot_item_rifled_analog + 4
+slot_item_bolt_action_modern_analog = slot_item_rifled_analog + 4
+slot_item_appearance_year = slot_item_rifled_analog + 5
 
 ########################################################
 ##  AGENT SLOTS            #############################
@@ -756,24 +761,24 @@ slot_faction_howitzer_cannoneer_officer    	 = slot_faction_ve_mod_slots_begin +
 slot_faction_fieldgun_cannoneer    			 = slot_faction_ve_mod_slots_begin + 3
 slot_faction_howitzer_cannoneer    			 = slot_faction_ve_mod_slots_begin + 4
 slot_faction_reinforcements_artillery   	 = slot_faction_ve_mod_slots_begin + 5
-slot_faction_technology_earlyshells   			 = slot_faction_ve_mod_slots_begin + 6
-slot_faction_technology_medicinecrimeanwar   	 = slot_faction_ve_mod_slots_begin + 7
-slot_faction_technology_shootingtraining   		 = slot_faction_ve_mod_slots_begin + 8
+slot_faction_technology_modernattack   			 = slot_faction_ve_mod_slots_begin + 6
+slot_faction_technology_crimeanwar   			 = slot_faction_ve_mod_slots_begin + 7
+slot_faction_technology_riflesboltactionmodern    = slot_faction_ve_mod_slots_begin + 8
 slot_faction_technology_riflesconverted   		 = slot_faction_ve_mod_slots_begin + 9
 slot_faction_technology_riflessmallcaliber   	 = slot_faction_ve_mod_slots_begin + 10
 slot_faction_technology_riflesboltaction   		 = slot_faction_ve_mod_slots_begin + 11
 slot_faction_technology_lateshells		   		 = slot_faction_ve_mod_slots_begin + 12
-slot_faction_technology_hetypelate		   		 = slot_faction_ve_mod_slots_begin + 13
-slot_faction_technology_cannonsrifling		   	 = slot_faction_ve_mod_slots_begin + 14
+slot_faction_technology_machineguns		   		 = slot_faction_ve_mod_slots_begin + 13
+slot_faction_technology_infantrymgtactics		   	 = slot_faction_ve_mod_slots_begin + 14
 slot_faction_technology_cannonsbreechloading		 = slot_faction_ve_mod_slots_begin + 15
-slot_faction_technology_conscription			 = slot_faction_ve_mod_slots_begin + 16
-slot_faction_technology_acwexperience	 		 = slot_faction_ve_mod_slots_begin + 17
-slot_faction_technology_ammoincrease			 = slot_faction_ve_mod_slots_begin + 18
+slot_faction_technology_deepdefence			 = slot_faction_ve_mod_slots_begin + 16
+slot_faction_technology_coveringfire	 		 = slot_faction_ve_mod_slots_begin + 17
+slot_faction_technology_antirecoil			 = slot_faction_ve_mod_slots_begin + 18
 slot_faction_technology_skirmishline			 = slot_faction_ve_mod_slots_begin + 19
-slot_faction_technology_adaptivetraining		 = slot_faction_ve_mod_slots_begin + 20
-slot_faction_technology_fourbattalions			 = slot_faction_ve_mod_slots_begin + 21
-slot_faction_technology_improvedlogistics 		 = slot_faction_ve_mod_slots_begin + 22
-slot_faction_technology_woundedevacuation		 = slot_faction_ve_mod_slots_begin + 23
+slot_faction_technology_moderndefence		 = slot_faction_ve_mod_slots_begin + 20
+slot_faction_technology_lmgs			 = slot_faction_ve_mod_slots_begin + 21
+slot_faction_technology_shocktroops 		 = slot_faction_ve_mod_slots_begin + 22
+slot_faction_technology_tanks		 = slot_faction_ve_mod_slots_begin + 23
 slot_faction_technology_riflesrifled			 = slot_faction_ve_mod_slots_begin + 24
 # 25 - 43 are occupied with presets
 slot_faction_current_research_technology		 = slot_faction_ve_mod_slots_begin + 44

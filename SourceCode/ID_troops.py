@@ -3946,4 +3946,5 @@ trp_array_40 = 3944
 trp_array_price_history = 3945
 trp_coachman = 3946
 trp_pes_centers = 3947
-trp_troops_end = 3948
+trp_player_company_types = 3948
+trp_troops_end = 3949
