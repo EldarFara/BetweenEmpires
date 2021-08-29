@@ -1,4 +1,4 @@
-1238
+1242
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -1237,3 +1237,7 @@ qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
 qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
+qstr_Suppression_fire:_on Suppression_fire:_on
+qstr_Suppression_fire:_of Suppression_fire:_off
+qstr_Suppression_fire:_on/ Suppression_fire:_on/off
+qstr_{s1}^^Turning_on_sup {s1}^^Turning_on_suppression_fire_will_increase_shooting_speed^and_decreasing_enemy_discipline_level_three_times_faster,^on_exchange_of_drastically_decreasing_your_own_accuracy.^Company_types:_any.
