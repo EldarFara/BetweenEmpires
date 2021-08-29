@@ -5330,7 +5330,7 @@ simple_triggers = [
 			(try_end),
 		(faction_slot_ge, ":tech_faction", slot_faction_technology_shocktroops, 10000),
 		(troop_has_item_equipped, "trp_faction5_troop1", "itm_pru_torso_infantry5"),
-			(try_for_range, ":troop", "trp_faction5_troop1", "trp_faction30_troop1"),
+			(try_for_range, ":troop", "trp_faction5_troop1", "trp_faction6_troop1"),
 			(neg|is_between, "trp_faction5_troop5", "trp_faction5_troop7"),
 			(neg|is_between, "trp_faction5_troop9", "trp_faction5_troop14"),
 			(neg|is_between, "trp_faction5_prisonguard", "trp_faction6_troop1"),
