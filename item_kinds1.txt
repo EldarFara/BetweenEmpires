@@ -1,5 +1,5 @@
 itemsfile version 3
-1633
+1648
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -4078,97 +4078,142 @@ itemsfile version 3
  72
 0
 
- itm_pru_inf_picklehaube Prussian_Picklehaube Prussian_Picklehaube 1  pru_inf_picklehaube 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_pru_inf_picklehaube German_Picklehaube German_Picklehaube 1  pru_inf_picklehaube 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_prus_general_bismarck_hat Prussian_Bismarck_Helmet Prussian_Bismarck_Helmet 1  prus_general_bismarck_hat 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_prus_general_bismarck_hat German_Bismarck_Helmet German_Bismarck_Helmet 1  prus_general_bismarck_hat 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_dragoon_picklehaube Prussian_Dragoon_Picklehaube Prussian_Dragoon_Picklehaube 1  pru_dragoon_picklehaube 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_pru_dragoon_picklehaube German_Dragoon_Picklehaube German_Dragoon_Picklehaube 1  pru_dragoon_picklehaube 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_uhlan_hat Prussian_Uhlan_Hat Prussian_Uhlan_Hat 1  pru_uhlan_hat 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_pru_uhlan_hat German_Uhlan_Hat German_Uhlan_Hat 1  pru_uhlan_hat 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_hat4 Prussian_Hat Prussian_Hat 1  pru_hat4 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_pru_hat1 German_Helmet German_Helmet 1  pru_hat1 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_jager_hat1 Prussian_Jagers_Hat Prussian_Jagers_Hat 1  pru_jager_hat1 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_pru_hat2 German_Helmet German_Helmet 1  pru_hat2 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_torso_infantry1 Prussian_Military_Uniform Prussian_Military_Uniform 1  pru_torso_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_pru_hat3 German_Hat German_Hat 1  pru_hat3 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_torso_infantry2 Prussian_Military_Uniform Prussian_Military_Uniform 1  pru_torso_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_pru_hat4 German_Hat German_Hat 1  pru_hat4 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_torso_infantry3 Prussian_Military_Uniform Prussian_Military_Uniform 1  pru_torso_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_pru_hat5 German_Hat German_Hat 1  pru_hat5 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_torso_infantry4 Prussian_Military_Uniform Prussian_Military_Uniform 1  pru_torso_infantry4 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_pru_jager_hat1 German_Jager's_Hat German_Jager's_Hat 1  pru_jager_hat1 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_torso_cavalry1 Prussian_Military_Uniform Prussian_Military_Uniform 1  pru_torso_cavalry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_pru_torso_infantry1 German_Military_Uniform German_Military_Uniform 1  pru_torso_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_torso_cavalry2 Prussian_Military_Uniform Prussian_Military_Uniform 1  pru_torso_cavalry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_pru_torso_infantry2 German_Military_Uniform German_Military_Uniform 1  pru_torso_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_torso_leader1 Prussian_King_Uniform Prussian_King_Uniform 1  pru_torso_leader1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_pru_torso_infantry3 German_Military_Uniform German_Military_Uniform 1  pru_torso_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_torso_general1 Prussian_General_Uniform Prussian_General_Uniform 1  pru_torso_general1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_pru_torso_infantry4 German_Military_Uniform German_Military_Uniform 1  pru_torso_infantry4 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_torso_general2 Prussian_General_Uniform Prussian_General_Uniform 1  pru_torso_general2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_pru_torso_infantry5 German_Military_Uniform German_Military_Uniform 1  pru_torso_infantry5 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_trousers_infantry Prussian_Infantry_Trousers Prussian_Infantry_Trousers 1  pru_trousers_infantry 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ itm_pru_torso_infantry6 German_Military_Uniform German_Military_Uniform 1  pru_torso_infantry6 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_trousers_cavalry1 Prussian_Cavalry_Trousers Prussian_Cavalry_Trousers 1  pru_trousers_cavalry1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ itm_pru_torso_infantry7 German_Military_Uniform German_Military_Uniform 1  pru_torso_infantry7 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_trousers_cavalry2 Prussian_Cavalry_Trousers Prussian_Cavalry_Trousers 1  pru_trousers_cavalry2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ itm_pru_torso_cavalry1 German_Military_Uniform German_Military_Uniform 1  pru_torso_cavalry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  47
 0
 
- itm_pru_trousers_leadgen Prussian_General_Trousers Prussian_General_Trousers 1  pru_trousers_leadgen 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ itm_pru_torso_cavalry2 German_Military_Uniform German_Military_Uniform 1  pru_torso_cavalry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 47
+0
+
+ itm_pru_torso_leader1 German_King_Uniform German_King_Uniform 1  pru_torso_leader1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 47
+0
+
+ itm_pru_torso_general1 German_General_Uniform German_General_Uniform 1  pru_torso_general1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 47
+0
+
+ itm_pru_torso_general2 German_General_Uniform German_General_Uniform 1  pru_torso_general2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 47
+0
+
+ itm_pru_trousers_infantry German_Infantry_Trousers German_Infantry_Trousers 1  pru_trousers_infantry 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 47
+0
+
+ itm_pru_trousers_infantry2 German_Infantry_Trousers German_Infantry_Trousers 1  pru_trousers_infantry2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 47
+0
+
+ itm_pru_trousers_infantry3 German_Infantry_Trousers German_Infantry_Trousers 1  pru_trousers_infantry3 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 47
+0
+
+ itm_pru_trousers_cavalry1 German_Cavalry_Trousers German_Cavalry_Trousers 1  pru_trousers_cavalry1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 47
+0
+
+ itm_pru_trousers_cavalry2 German_Cavalry_Trousers German_Cavalry_Trousers 1  pru_trousers_cavalry2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 47
+0
+
+ itm_pru_trousers_leadgen German_General_Trousers German_General_Trousers 1  pru_trousers_leadgen 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  47
 0
@@ -4543,6 +4588,11 @@ itemsfile version 3
  71
 0
 
+ itm_sve_trousers_infantry2 Swedish_Infantry_Trousers Swedish_Infantry_Trousers 1  sve_trousers_infantry2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 71
+0
+
  itm_sve_torso_infantry1 Swedish_Military_Uniform Swedish_Military_Uniform 1  sve_torso_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  71
@@ -4554,6 +4604,16 @@ itemsfile version 3
 0
 
  itm_sve_torso_infantry3 Swedish_Military_Uniform Swedish_Military_Uniform 1  sve_torso_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 71
+0
+
+ itm_sve_torso_infantry4 Swedish_Military_Uniform Swedish_Military_Uniform 1  sve_torso_infantry4 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 71
+0
+
+ itm_sve_torso_infantry5 Swedish_Military_Uniform Swedish_Military_Uniform 1  sve_torso_infantry5 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  71
 0
@@ -4584,6 +4644,16 @@ itemsfile version 3
 0
 
  itm_sve_hat3 Swedish_Hat Swedish_Hat 1  sve_hat3 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 71
+0
+
+ itm_sve_hat4 Swedish_Hat Swedish_Hat 1  sve_hat4 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 71
+0
+
+ itm_sve_hat4b Swedish_Hat Swedish_Hat 1  sve_hat4b 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  71
 0
@@ -5752,6 +5822,11 @@ itemsfile version 3
  49
 0
 
+ itm_baf_infantry11 British_Military_Uniform British_Military_Uniform 1  baf_infantry11 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 49
+0
+
  itm_baf_cavalry1 British_Military_Uniform British_Military_Uniform 1  baf_cavalry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  49
@@ -5884,7 +5959,7 @@ itemsfile version 3
  itm_shotgun_caplock Double-Barrel_Caplock_Shotgun Double-Barrel_Caplock_Shotgun 2  shotgun_caplock 0  shotgun_caplock_inv 1152921504606846976  811663369 6174031872 600 131082 3.500000 80 0 0 65 0 0 40 380 0 2 281 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063861 60 600 10 288230376151713100 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063861 60 600 10 288230376151713115 1224979098644774912 
 
  itm_shotgun_caplock_m Double-Barrel_Caplock_Shotgun Double-Barrel_Caplock_Shotgun 1  shotgun_caplock 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 22528 75 0 100 0 276 534
  0
@@ -5893,7 +5968,7 @@ itemsfile version 3
  itm_shotgun_doublebarrel Double-Barrel_Shotgun Double-Barrel_Shotgun 2  shotgun_doublebarrel 0  shotgun_doublebarrel_inv 1152921504606846976  811663369 555929845760 700 131082 3.500000 80 0 0 65 0 0 35 380 0 2 285 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063861 80 500 10 288230376151713102 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063861 80 500 10 288230376151713117 1224979098644774912 
 
  itm_shotgun_doublebarrel_m Double-Barrel_Shotgun Double-Barrel_Shotgun 1  shotgun_doublebarrel 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 22528 75 0 100 0 276 534
  0
@@ -5902,7 +5977,7 @@ itemsfile version 3
  itm_shotgun_doublebarrel_short Shortened_Double-Barrel_Shotgun Shortened_Double-Barrel_Shotgun 2  shotgun_doublebarrel 0  shotgun_doublebarrel_inv 1152921504606846976  543227913 555929845760 700 131082 3.500000 80 0 0 60 0 0 52 380 0 2 285 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063861 80 750 10 288230376151713104 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063861 80 750 10 288230376151713119 1224979098644774912 
 
  itm_shotgun_doublebarrel_short_m Shortened_Double-Barrel_Shotgun Shortened_Double-Barrel_Shotgun 1  shotgun_doublebarrel 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 22528 75 0 100 0 276 534
  0
@@ -5911,7 +5986,7 @@ itemsfile version 3
  itm_shotgun_winchester_m1887 Winchester_M1887 Winchester_M1887 2  winchester_m1887 0  winchester_m1887_inv 1152921504606846976  543227913 555929845760 900 131082 3.500000 80 0 0 65 0 0 35 380 0 6 285 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063861 65 600 10 288230376151713106 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063861 65 600 10 288230376151713121 1224979098644774912 
 
  itm_shotgun_winchester_m1887_m Winchester_M1887 Winchester_M1887 1  winchester_m1887 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 22528 75 0 100 0 276 534
  0
@@ -5920,7 +5995,7 @@ itemsfile version 3
  itm_shotgun_greener Greener_Shotgun Greener_Shotgun 2  greener 0  greener_inv 1152921504606846976  543227913 555929845760 300 131082 3.500000 80 0 0 65 0 0 45 380 0 1 296 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063861 90 650 10 288230376151713108 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063861 90 650 10 288230376151713123 1224979098644774912 
 
  itm_shotgun_greener_m Greener_Shotgun Greener_Shotgun 1  greener 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 22528 75 0 100 0 276 534
  0
@@ -6770,15 +6845,15 @@ itemsfile version 3
  0
 0
 
- itm_rifle_swedish_smoothbore_m Danish_M1815/45_Musket Danish_M1815/45_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30720 75 0 160 0 286 286
+ itm_rifle_swedish_smoothbore_m Swedish_M1815/45_Musket Swedish_M1815/45_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30720 75 0 160 0 286 286
  0
 0
 
- itm_rifle_swedish_smoothbore_carbine Danish_M1815/45_Carbine Danish_M1815/45_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 46 400 0 1 311 0
+ itm_rifle_swedish_smoothbore_carbine Swedish_M1815/45_Carbine Swedish_M1815/45_Carbine 2  russian_m1845_carbine 0  russian_m1845_carbine_inv 1152921504606846976  6291465 6174031872 400 131082 4.750000 100 0 0 55 0 0 46 400 0 1 311 0
  0
 0
 
- itm_rifle_swedish_smoothbore_carbine_m Danish_M1815/45_Carbine Danish_M1815/45_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 18432 75 0 80 0 532 530
+ itm_rifle_swedish_smoothbore_carbine_m Swedish_M1815/45_Carbine Swedish_M1815/45_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 18432 75 0 80 0 532 530
  0
 0
 
@@ -7078,7 +7153,7 @@ itemsfile version 3
  itm_shotgun_winchester_m1897 Winchester_M1897 Winchester_M1897 2  winchester_m1897 0  winchester_m1897_inv 1152921504606846976  543227913 555929845760 900 131082 3.500000 80 0 0 65 0 0 35 380 0 6 291 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063861 65 600 10 288230376151713362 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063861 65 600 10 288230376151713377 1224979098644774912 
 
  itm_shotgun_winchester_m1897_m Winchester_M1897 Winchester_M1897 1  winchester_m1897 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 22528 75 0 100 0 276 534
  0
@@ -7087,7 +7162,7 @@ itemsfile version 3
  itm_shotgun_spencer_m1882 Spencer_Shotgun_Model_1882 Spencer_Shotgun_Model_1882 2  spencer_m1882 0  spencer_m1882_inv 1152921504606846976  543227913 555929845760 900 131082 3.500000 80 0 0 65 0 0 35 380 0 6 291 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063861 65 600 10 288230376151713364 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063861 65 600 10 288230376151713379 1224979098644774912 
 
  itm_shotgun_spencer_m1882_m Spencer_Shotgun_Model_1882 Spencer_Shotgun_Model_1882 1  spencer_m1882 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 22528 75 0 100 0 276 534
  0

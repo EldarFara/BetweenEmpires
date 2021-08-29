@@ -69,14 +69,14 @@ factions = [
 #  ("swadian_caravans","Swadian Caravans", 0, 0.5,[("outlaws",-0.8), ("dark_knights",-0.2)], []),#,("kingdom_1",0.1),("kingdom_3",0.1),("kingdom_4",0.1),("kingdom_5",0.1),("kingdom_8",0.1),("kingdom_9",0.1),("kingdom_14",0.1),("kingdom_12",0.1),("kingdom_13",0.1)
 #  ("vaegir_caravans","Vaegir Caravans", 0, 0.5,[("outlaws",-0.8), ("dark_knights",-0.2)], []),
 
-  ("player_faction","Player Faction",0, 0.9, [], []),
-  ("player_supporters_faction","Player's Supporters",0, 0.9, [("no_faction",0.00),("player_faction",1.00),("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 0xFF4433), #changed name so that can tell difference if shows up on map
-  ("kingdom_1",  "French_Empire", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0.05)], [], 23805),
-  ("kingdom_2",  "Russian_Empire",    0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 29440),
-  ("kingdom_3",  "Austrian_Empire", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 15724020),#0xFFAAAAAA #30303
-  ("kingdom_4",  "Kingdom_of_Sardinia",    0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 39198),
-  ("kingdom_5",  "Kingdom_of_Prussia",  0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 5065283),
-  ("kingdom_6",  "Ottoman_Empire",  0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", -0.05)], [], 8781824),
+("player_faction","Player Faction",0, 0.9, [], []),
+("player_supporters_faction","Player's Supporters",0, 0.9, [("no_faction",0.00),("player_faction",1.00),("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 0xFF4433), #changed name so that can tell difference if shows up on map
+("kingdom_1",  "French_Empire", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0.05)], [], 23805),
+("kingdom_2",  "Russian_Empire",    0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 29440),
+("kingdom_3",  "Austrian_Empire", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 15724020),#0xFFAAAAAA #30303
+("kingdom_4",  "Kingdom_of_Sardinia",    0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 39198),
+("kingdom_5",  "Kingdom_of_Prussia",  0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 5065283),
+("kingdom_6",  "Ottoman_Empire",  0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", -0.05)], [], 8781824),
 ("kingdom_7",  "British_Empire", 0, 0.9, [("outlaws",-0.05),("kingdom_20",0.8),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 13636204),#0xFF6AAA89 #0x931124
 ("kingdom_8",  "Kingdom_of_Netherlands", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", -0.45)], [], 15961892),
 ("kingdom_9",  "Spanish_Empire", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 6959360),

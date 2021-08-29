@@ -8192,6 +8192,10 @@ scripts = [
       (item_set_slot, "itm_rifle_romanian_smoothbore", slot_item_converted_analog, "itm_rifle_peabody"),
       (item_set_slot, "itm_rifle_romanian_smoothbore", slot_item_small_caliber_analog, "itm_rifle_british_martinihenry"),
       (item_set_slot, "itm_rifle_romanian_smoothbore", slot_item_bolt_action_analog, "itm_rifle_austrian_m1886"),
+      (item_set_slot, "itm_rifle_swedish_smoothbore", slot_item_rifled_analog, "itm_rifle_french_m1849"),
+      (item_set_slot, "itm_rifle_swedish_smoothbore", slot_item_converted_analog, "itm_rifle_peabody"),
+      (item_set_slot, "itm_rifle_swedish_smoothbore", slot_item_small_caliber_analog, "itm_rifle_rollingblock"),
+      (item_set_slot, "itm_rifle_swedish_smoothbore", slot_item_bolt_action_analog, "itm_rifle_krag"),
 	  
       (item_set_slot, "itm_rifle_russian_m1845_carbine", slot_item_rifled_analog, "itm_rifle_russian_m1856_carbine"),
       (item_set_slot, "itm_rifle_russian_m1845_carbine", slot_item_converted_analog, "itm_rifle_russian_m1867_carbine"),
@@ -8249,6 +8253,11 @@ scripts = [
       (item_set_slot, "itm_rifle_middle_east_musket1_carbine", slot_item_converted_analog, "itm_rifle_british_snider_carbine"),
       (item_set_slot, "itm_rifle_middle_east_musket1_carbine", slot_item_small_caliber_analog, "itm_rifle_british_martinihenry_carbine"),
       (item_set_slot, "itm_rifle_middle_east_musket1_carbine", slot_item_bolt_action_analog, "itm_rifle_british_metford_carbine"),
+      (item_set_slot, "itm_rifle_swedish_smoothbore_carbine", slot_item_rifled_analog, "itm_rifle_french_m1849_carbine"),
+      (item_set_slot, "itm_rifle_swedish_smoothbore_carbine", slot_item_converted_analog, "itm_rifle_peabody_carbine"),
+      (item_set_slot, "itm_rifle_swedish_smoothbore_carbine", slot_item_small_caliber_analog, "itm_rifle_rollingblock_carbine"),
+      (item_set_slot, "itm_rifle_swedish_smoothbore_carbine", slot_item_bolt_action_analog, "itm_rifle_krag_carbine"),
+	  
 		(try_for_range, ":item", "itm_ccoop_new_items_end", "itm_items_end"),
 		(item_get_slot, ":bolt_action_analog", ":item", slot_item_bolt_action_analog),
 		(item_set_slot, ":item", slot_item_bolt_action_modern_analog, ":bolt_action_analog"),
@@ -56007,6 +56016,7 @@ scripts = [
 (set_fixed_point_multiplier, 100),
 (position_set_z, ":pos", ":CoorZ"),
 ]),
+
 ("cf_YuriSpawnCannon",
 [
 (neq, "$g_battle_type", battle_type_siege_interior),
@@ -56633,7 +56643,7 @@ scripts = [
 (faction_set_slot, "fac_kingdom_28", slot_faction_wardrobe_begin, "itm_srb_hat2"),
 (faction_set_slot, "fac_kingdom_28", slot_faction_wardrobe_end, "itm_srb_general_trousers"),
 (faction_set_slot, "fac_kingdom_29", slot_faction_wardrobe_begin, "itm_sve_trousers_cavalry1"),
-(faction_set_slot, "fac_kingdom_29", slot_faction_wardrobe_end, "itm_sve_hat3"),
+(faction_set_slot, "fac_kingdom_29", slot_faction_wardrobe_end, "itm_sve_hat4b"),
 (faction_set_slot, "fac_kingdom_30", slot_faction_wardrobe_begin, "itm_bav_trousers_general"),
 (faction_set_slot, "fac_kingdom_30", slot_faction_wardrobe_end, "itm_bav_dragoon_helm"),
 (faction_set_slot, "fac_kingdom_31", slot_faction_wardrobe_begin, "itm_han_hat3"),

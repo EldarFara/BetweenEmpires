@@ -287,7 +287,6 @@ game_menus = [
 			(faction_set_slot, ":faction",  slot_faction_technology_deepdefence, 10000),
 			(faction_set_slot, ":faction",  slot_faction_technology_modernattack, 10000),
 			(faction_set_slot, ":faction",  slot_faction_technology_moderndefence, 10000),
-			(faction_set_slot, ":faction",  slot_faction_technology_gasattacks, 10000),
 			(else_try),
 			(faction_set_slot, ":faction",  slot_faction_technology_riflesrifled, 10000),
 			(faction_set_slot, ":faction",  slot_faction_technology_riflesconverted, 10000),
