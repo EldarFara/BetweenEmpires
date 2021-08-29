@@ -2347,6 +2347,14 @@ slot_team_company5_grenade_timer                       = 259
 slot_team_company6_grenade_timer                       = 260
 slot_team_company7_grenade_timer                       = 261
 slot_team_company8_grenade_timer                       = 262
+slot_team_company1_coveringfire                       = 263
+slot_team_company2_coveringfire                       = 264
+slot_team_company3_coveringfire                       = 265
+slot_team_company4_coveringfire                       = 266
+slot_team_company5_coveringfire                       = 267
+slot_team_company6_coveringfire                       = 268
+slot_team_company7_coveringfire                       = 269
+slot_team_company8_coveringfire                       = 270
 
 #Rebellion changes end
 # character backgrounds

@@ -818,5 +818,6 @@ script_agent_faction_get_lmg = 816
 script_company_launch_grenade_attack = 817
 script_grenade_hit = 818
 script_uniform_progression_change_officer_clothes = 819
+script_if_coveringfire_is_on_for_selected_companies = 820
 
 

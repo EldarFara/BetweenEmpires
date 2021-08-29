@@ -52974,6 +52974,7 @@ scripts = [
       (assign, ":muzzle_y_rot", 0),
       (assign, ":has_pan_sparks", 0),
       (assign, ":has_pan_smoke", 0),
+      (assign, ":bolt_action_animation", 0),
 	  
       (assign, ":smoke_size", 0),
       (assign, ":spark_size", 0),
@@ -53186,6 +53187,8 @@ scripts = [
 	(get_distance_between_positions_in_meters, ":dist", pos10, pos11),
 	(agent_get_team, ":team", ":enemy_agent"),
 	(agent_get_division , ":company", ":enemy_agent"),
+	(agent_get_team, ":agent_team", ":agent_id"),
+	(agent_get_division , ":agent_company", ":agent_id"),
 	(is_between, ":company", 0, 7+1),
 	(store_add, ":slot_team_penaltytodiscipline_fromfire", slot_team_company1_penaltytodiscipline_fromfire, ":company"),
 	(team_get_slot, ":penaltytodiscipline_fromfire", ":team", ":slot_team_penaltytodiscipline_fromfire"),
@@ -53197,8 +53200,11 @@ scripts = [
 	(store_div, ":penalty", 6000, ":dist"),
 	(val_div, ":penalty", ":soldier_number"),
 		(try_begin),
-		(agent_get_team, ":agent_team", ":agent_id"),
-		(agent_get_division , ":agent_company", ":agent_id"),
+		(store_add, ":slot_team_company_coveringfire", slot_team_company1_coveringfire, ":agent_company"),
+		(team_slot_eq, ":agent_team", ":slot_team_company_coveringfire", 1),
+		(val_mul, ":penalty", 3),
+		(try_end),
+		(try_begin),
 		(team_get_hold_fire_order, ":order", ":agent_team", ":agent_company"),
 		(neq, ":order", aordr_fire_at_will),
 		(val_mul, ":penalty", 120),
@@ -53316,6 +53322,7 @@ scripts = [
 	(eq,":item_id", "itm_rifle_italian_vetterlivitali_carbine"),
 	(assign, ":sound_id", "snd_shot_boltaction1"),
 	(agent_set_animation, ":agent_id", "anim_bolt_action_shot", 1),
+	(assign, ":bolt_action_animation", 1),
 	(try_end),
        
 	(try_begin), # Straight-pull bolt-action sound and animation
@@ -53325,6 +53332,7 @@ scripts = [
 	(assign, ":sound_id", "snd_shot_boltaction_straightpull1"),
 	(agent_set_animation, ":agent_id", "anim_bolt_shot_straightpull", 1),
 	(assign, ":sound_reflection", "snd_rifle_shot_reflection_small"),
+	(assign, ":bolt_action_animation", 1),
 	(try_end),
        
 	(try_begin), # Pepperbox
@@ -53389,6 +53397,16 @@ scripts = [
 		(try_end),
 	(val_mul, ":smoke_size", 50), (val_div, ":smoke_size", 100),
 	(assign, ":spark_size", 0),
+	(try_end),
+	
+	(try_begin), # covering fire
+	(agent_is_non_player, ":agent_id"),
+	(agent_get_team, ":team", ":agent_id"),
+	(agent_get_division , ":company", ":agent_id"),
+	(store_add, ":slot_team_coveringfire", slot_team_company1_coveringfire, ":company"),
+	(team_slot_eq, ":team", ":slot_team_coveringfire", 1),
+	(eq, ":bolt_action_animation", 1),
+	(agent_set_animation, ":agent_id", "anim_bolt_action_shot_fast", 1),
 	(try_end),
       # Sounds
 	(mission_cam_get_position, pos2),
@@ -64290,6 +64308,24 @@ scripts = [
 	(troop_add_items, "trp_player", ":footwear", 1),
 	(troop_equip_items, "trp_player"),
 	(set_show_messages, 1),
+	(try_end),
+]),
+("if_coveringfire_is_on_for_selected_companies",
+[
+(assign, reg1, 0),
+(assign, reg2, 0),
+(assign, reg3, 0),
+	(try_for_range, ":company", 0, 8),
+	(class_is_listening_order, "$g_player_team", ":company"),
+	(assign, reg3, 1),
+	(store_add, ":slot_team_coveringfire", slot_team_company1_coveringfire, ":company"),
+	(team_get_slot, ":coveringfire", "$g_player_team", ":slot_team_coveringfire"),
+		(try_begin),
+		(eq, ":coveringfire", 1),
+		(assign, reg1, 1),
+		(else_try),
+		(assign, reg2, 1),
+		(try_end),
 	(try_end),
 ]),
 ]# modmerger_start version=201 type=2

@@ -1387,6 +1387,7 @@ menu_pbs_company8_accuracy
 menu_pbs_activeability_square
 menu_pbs_activeability_merge
 menu_pbs_activeability_digin
+menu_pbs_activeability_coveringfire
 menu_pbs_activeability_grenades
 g_presentation_obj_1
 g_presentation_obj_2
