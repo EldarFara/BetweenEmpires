@@ -1,4 +1,4 @@
-1242
+1238
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -91,14 +91,14 @@ qstr_Dig_In^^Selected_com Dig_In^^Selected_companies_will_dig_in,^creating_trenc
 qstr_pbs_activeability_co pbs_activeability_coveringfire_on
 qstr_pbs_activeability_gr pbs_activeability_grenades
 qstr_Grenade_Attack^^Sele Grenade_Attack^^Selected_companies_launch_a_grenade_attack,_throwing^hand_grenades_at_enemies_which_are_at_close_distance.^Only_available_once_per_3_minutes.^Company_types:_Shock_troops.
-qstr_Suspression_fire:_on Suspression_fire:_on
-qstr_Suspression_fire:_of Suspression_fire:_off
+qstr_Suppression_fire:_on Suppression_fire:_on
+qstr_Suppression_fire:_of Suppression_fire:_off
 qstr_pbs_activeability_cov pbs_activeability_coveringfire_off
-qstr_Suspression_fire:_on/ Suspression_fire:_on/off
+qstr_Suppression_fire:_on/ Suppression_fire:_on/off
 qstr_pbs_activeability_cove pbs_activeability_coveringfire_onoff
 qstr_No_companies_selecte No_companies_selected
 qstr_pbs_activeability_cover pbs_activeability_coveringfire_noselected
-qstr_{s1}^^Turning_on_sus {s1}^^Turning_on_suspression_fire_will_increase_shooting_speed^and_decreasing_enemy_discipline_level_three_times_faster,^on_exchange_of_drastically_decreasing_your_own_accuracy.^Company_types:_any.
+qstr_{s1}^^Turning_on_sup {s1}^^Turning_on_suppression_fire_will_increase_shooting_speed^and_decreasing_enemy_discipline_level_three_times_faster,^on_exchange_of_drastically_decreasing_your_own_accuracy.^Company_types:_any.
 qstr_{reg0} {reg0}
 qstr_{reg0}% {reg0}%
 qstr_{reg0}_c. {reg0}_c.
@@ -1237,7 +1237,3 @@ qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
 qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
-qstr_Suppression_fire:_on Suppression_fire:_on
-qstr_Suppression_fire:_of Suppression_fire:_off
-qstr_Suppression_fire:_on/ Suppression_fire:_on/off
-qstr_{s1}^^Turning_on_sup {s1}^^Turning_on_suppression_fire_will_increase_shooting_speed^and_decreasing_enemy_discipline_level_three_times_faster,^on_exchange_of_drastically_decreasing_your_own_accuracy.^Company_types:_any.
