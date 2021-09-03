@@ -56624,7 +56624,7 @@ scripts = [
 (faction_set_slot, "fac_kingdom_3", slot_faction_wardrobe_begin, "itm_lou_infantry_trousers1"),
 (faction_set_slot, "fac_kingdom_3", slot_faction_wardrobe_end, "itm_lou_bicorne"),
 (faction_set_slot, "fac_kingdom_4", slot_faction_wardrobe_begin, "itm_res_trousers1"),
-(faction_set_slot, "fac_kingdom_4", slot_faction_wardrobe_end, "itm_res_hat7"),
+(faction_set_slot, "fac_kingdom_4", slot_faction_wardrobe_end, "itm_res_hat11"),
 (faction_set_slot, "fac_kingdom_5", slot_faction_wardrobe_begin, "itm_pru_inf_picklehaube"),
 (faction_set_slot, "fac_kingdom_5", slot_faction_wardrobe_end, "itm_pru_trousers_leadgen"),
 (faction_set_slot, "fac_kingdom_6", slot_faction_wardrobe_begin, "itm_tur_fez1"),
