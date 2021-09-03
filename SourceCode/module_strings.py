@@ -4443,7 +4443,7 @@ We apologize sincerely if you contributed your suggestions and feedback but were
 ## ZZ Custom Kingdom Troops end
   
 ("faction_technology_modernattack_name", "Modern Attack Tactics"),
-("faction_technology_modernattack_description", "^Effects: Unlocks line and extended line formations for line infantry adn light infantry respectively."),
+("faction_technology_modernattack_description", "^Effects: Unlocks line and extended line formations for line infantry and light infantry respectively."),
 ("faction_technology_crimeanwar_name", "Crimean War Experience"),
 ("faction_technology_crimeanwar_description", "The backdrop of death and disease during the Crimean War, especially during the Siege of Sevastopol prompted medical innovations on all sides of the war. Those innovations, among them a new understanding for the importance of clean conduct, would influence modern medicine and medical practice for decades, making it increasingly likely a soldier would survive wounds formerly considered a death sentence.^^Florence Nightingale, a British nurse serving in Crimea, first introduced hand-washing, cleaning and disinfecting wounds, and revolutionary measures to avoid cross-contamination. This lowered the rate of infection following a wound dramatically, making death much more avoidable. Europe's militaries began to implement her nursing tactics shortly after the war, and the Crimean War would influence European medicinal understanding for the remainder of the 19th century.^^Effects: Not done yet"),
 ("faction_technology_riflesboltactionmodern_name", "Modern Magazine Rifles"),
