@@ -76,3 +76,5 @@ psys_thunder1 = 74
 psys_thunder2 = 75
 psys_thunder_end = 76
 psys_cartridge_case = 77
+psys_smoke_gas = 78
+psys_smoke_gas2 = 79

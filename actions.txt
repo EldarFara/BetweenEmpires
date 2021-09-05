@@ -1139,8 +1139,8 @@
   0.900000 throwing_grenade_left 20 65 1 0 0.0 0.0 0.0 0.0 
  bolt_action_shot_fast 1678771200 704655430  1
   0.500000 bolt_shot 21 37 67108866 0 0.0 0.0 0.0 0.0 
- unused_human_anim_90 0 0  1
-  1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
+ gasmask_wearing 2 50331712  1
+  1.200000 gasmask_wearing1 0 4 2 0 0.0 0.0 0.0 0.0 
  unused_human_anim_91 0 0  1
   1.000000 anim_human 0 1 0 0 0.0 0.0 0.0 0.0 
  unused_human_anim_92 0 0  1

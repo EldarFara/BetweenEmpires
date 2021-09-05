@@ -2547,6 +2547,17 @@ items = [
 ["rifle_gewehr98_carbine","Karabiner 98", [("g98", 0),("g98_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(60)|accuracy(int(accuracy_bolt_action_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_bolt_action_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_bolt_action_rifle)|max_ammo(5)|thrust_damage(damage_bolt_action_rifle, pierce), imodbits_firearm, []],
 ["rifle_gewehr98_carbine_m","Karabiner 98", [("g98", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(20, blunt)|swing_damage(0, blunt), imodbits_none, []],
 
+["damage_pure",  "damage_pure", [("none",0)], itp_type_two_handed_wpn|itp_two_handed|itp_primary|itp_extra_penetration, itc_greatsword|itcf_carry_sword_back,
+ 670 , weight(5)|spd_rtng(80) | weapon_length(100)|swing_damage(5 , blunt) | thrust_damage(5 ,  blunt),imodbits_sword_high ],
+["gasmask_russian","Zelinsky-Kummant Gas Mask", [("gasmask_russian_L", 0)], itp_type_hand_armor|itp_covers_beard, 0,100, weight(10)|abundance(100)|head_armor(20), imodbits_cloth, []],
+["gasmask_german","Leather Gas Mask", [("gasmask_german_L", 0)], itp_type_hand_armor|itp_covers_beard, 0,100, weight(10)|abundance(100)|head_armor(20), imodbits_cloth, []],
+["gasmask_british","Small Box Respirator", [("gasmask_british_L", 0)], itp_type_hand_armor|itp_covers_beard, 0,100, weight(10)|abundance(100)|head_armor(20), imodbits_cloth, []],
+["gasmask_french","M2 Gas Mask", [("gasmask_british_L", 0)], itp_type_hand_armor|itp_covers_beard, 0,100, weight(10)|abundance(100)|head_armor(20), imodbits_cloth, []],
+["gasmask_imrovised1","Improvised Face Bandage", [("gasmask_british_L", 0)], itp_type_hand_armor|itp_covers_beard, 0,100, weight(10)|abundance(100)|head_armor(20), imodbits_cloth, []],
+["gasmask_imrovised2","Improvised Face Bandage", [("gasmask_british_L", 0)], itp_type_hand_armor|itp_covers_beard, 0,100, weight(10)|abundance(100)|head_armor(20), imodbits_cloth, []],
+["gasmask_imrovised3","Improvised Face Bandage", [("gasmask_british_L", 0)], itp_type_hand_armor|itp_covers_beard, 0,100, weight(10)|abundance(100)|head_armor(20), imodbits_cloth, []],
+
+
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 
 ]

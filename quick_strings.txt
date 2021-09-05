@@ -1,4 +1,4 @@
-1238
+1250
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -89,6 +89,8 @@ qstr_Merge_Companies^^Sel Merge_Companies^^Selected_companies_(not_less_than_one
 qstr_pbs_activeability_di pbs_activeability_digin
 qstr_Dig_In^^Selected_com Dig_In^^Selected_companies_will_dig_in,^creating_trenches_on_their_position.^Only_available_once_per_battle.^Company_types:_Line_infantry,_Guard.
 qstr_pbs_activeability_co pbs_activeability_coveringfire_on
+qstr_pbs_activeability_ga pbs_activeability_gas
+qstr_Gas_Attack^^.^Compan Gas_Attack^^.^Company_types:_Field_Guns_and_Howitzers.
 qstr_pbs_activeability_gr pbs_activeability_grenades
 qstr_Grenade_Attack^^Sele Grenade_Attack^^Selected_companies_launch_a_grenade_attack,_throwing^hand_grenades_at_enemies_which_are_at_close_distance.^Only_available_once_per_3_minutes.^Company_types:_Shock_troops.
 qstr_Suppression_fire:_on Suppression_fire:_on
@@ -99,10 +101,19 @@ qstr_pbs_activeability_cove pbs_activeability_coveringfire_onoff
 qstr_No_companies_selecte No_companies_selected
 qstr_pbs_activeability_cover pbs_activeability_coveringfire_noselected
 qstr_{s1}^^Turning_on_sup {s1}^^Turning_on_suppression_fire_will_increase_shooting_speed^and_decreasing_enemy_discipline_level_three_times_faster,^on_exchange_of_drastically_decreasing_your_own_accuracy.^Company_types:_any.
+qstr_Gas_masks:_always_we Gas_masks:_always_wear
+qstr_pbs_activeability_gas pbs_activeability_gasmasks_on
+qstr_Gas_masks:_at_will Gas_masks:_at_will
+qstr_pbs_activeability_gasm pbs_activeability_gasmasks_off
+qstr_Gas_masks:_always_wea Gas_masks:_always_wear/at_will
+qstr_pbs_activeability_gasma pbs_activeability_gasmasks_onoff
+qstr_pbs_activeability_gasmas pbs_activeability_gasmasks_noselected
+qstr_{s1}^^Gas_masks_make {s1}^^Gas_masks_make_troops_invulnerable_to_poison_gas,_but_decrease_shooting_accuracy_and_energy_level.^Company_types:_any.
 qstr_{reg0} {reg0}
 qstr_{reg0}% {reg0}%
 qstr_{reg0}_c. {reg0}_c.
 qstr_Cannot_dig_in:_wrong Cannot_dig_in:_wrong_company_types_(only_line_infantry_and_guard_infantry_can_dig_in).
+qstr_Cannot_launch_gas_at Cannot_launch_gas_attack:_wrong_company_types_(only_artillery_can_use_gas_attack).
 qstr_Cannot_launch_grenad Cannot_launch_grenade_attack:_wrong_company_types_(only_shock_troops_can_throw_grenades).
 qstr_Select_2_or_more_com Select_2_or_more_companies_with_soldiers_to_merge.
 qstr_Others Others
@@ -813,6 +824,7 @@ qstr_Urbanization_of_{s1} Urbanization_of_{s1}'s_center_{s2}_was_increased_by_{r
 qstr_{reg10}._party_gives {reg10}._party_gives_{reg11}_votes
 qstr_{s1}_rural_wealth_{r {s1}_rural_wealth_{reg10}_urban_wealth_{reg11}_middle_wealth_{reg12}_bourgeoisie_wealth_{reg13}_aristocracy_wealth_{reg14}_sum_wage_{reg15}_gdp_rural_{reg16}_gdp_urban_{reg17}_population_root_{reg18}
 qstr_{s1}_cannot_launch_g {s1}_cannot_launch_grenade_attack_-_{reg1}_seconds_cooldown.
+qstr_{s1}_cannot_launch_ga {s1}_cannot_launch_gas_attack_-_{reg1}_seconds_cooldown.
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_running.
 qstr_{s1}_cannot_change_f {s1}_cannot_change_formation_-_only_light_infantry_can_apply_extended_line_formation.

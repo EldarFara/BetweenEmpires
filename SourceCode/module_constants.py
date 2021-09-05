@@ -108,6 +108,9 @@ vo_type_hold_ground = 8
 vo_type_cease_fire = 9
 vo_type_bayonets = 10
 vo_type_fire = 11
+vo_type_gas = 12
+vo_type_gas_attack = 13
+vo_type_gas_masks_on = 14
 
 resource_iron = 1
 resource_coal = 2
@@ -297,6 +300,7 @@ cannon_he_type_late  = 1
 cannon_projectile_type_cannonball   = 0
 cannon_projectile_type_early_shell  = 1
 cannon_projectile_type_late_shell   = 2
+cannon_projectile_type_gas_shell    = 3
 
 cannon_rifling_type_notrifled = 0
 cannon_rifling_type_rifled    = 1
@@ -641,6 +645,8 @@ slot_agent_musketramordanimation_animation_progress      = 57
 slot_agent_musketramordanimation_ramrod_prop      = 58
 slot_agent_lmg_fire_start_timer      = 59
 slot_agent_grenade_state      = 60
+slot_agent_cannon_gas_shell 	= 61
+slot_agent_under_gas_attack_timer 	= 62
 
 ########################################################
 ##  FACTION SLOTS          #############################
@@ -1111,7 +1117,8 @@ slot_faction_law_balance_state_expenses = slot_faction_ve_mod_slots_begin + 403
 slot_faction_last_balance_change = slot_faction_ve_mod_slots_begin + 404
 slot_faction_corruption_level = slot_faction_ve_mod_slots_begin + 405
 slot_faction_last_balance_change_lost_from_corruption = slot_faction_ve_mod_slots_begin + 406
-slot_faction_lmg =  slot_faction_ve_mod_slots_begin + 406
+slot_faction_lmg =  slot_faction_ve_mod_slots_begin + 407
+slot_faction_gasmask =  slot_faction_ve_mod_slots_begin + 408
 
 
 
@@ -2355,6 +2362,14 @@ slot_team_company5_coveringfire                       = 267
 slot_team_company6_coveringfire                       = 268
 slot_team_company7_coveringfire                       = 269
 slot_team_company8_coveringfire                       = 270
+slot_team_company1_gasmasks                       = 271
+slot_team_company2_gasmasks                       = 272
+slot_team_company3_gasmasks                       = 273
+slot_team_company4_gasmasks                       = 274
+slot_team_company5_gasmasks                       = 275
+slot_team_company6_gasmasks                       = 276
+slot_team_company7_gasmasks                       = 277
+slot_team_company8_gasmasks                       = 278
 
 #Rebellion changes end
 # character backgrounds

@@ -815,9 +815,13 @@ script_pai_attack_group_charge = 813
 script_cf_pai_attack_group_get_lead_company = 814
 script_get_mg_limit_for_party = 815
 script_agent_faction_get_lmg = 816
-script_company_launch_grenade_attack = 817
-script_grenade_hit = 818
-script_uniform_progression_change_officer_clothes = 819
-script_if_coveringfire_is_on_for_selected_companies = 820
+script_agent_faction_get_gasmask = 817
+script_company_launch_grenade_attack = 818
+script_grenade_hit = 819
+script_uniform_progression_change_officer_clothes = 820
+script_if_coveringfire_is_on_for_selected_companies = 821
+script_if_gasmasks_is_on_for_selected_companies = 822
+script_company_launch_gas_attack = 823
+script_company_decide_wear_gasmasks = 824
 
 

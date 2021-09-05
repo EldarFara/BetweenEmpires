@@ -4222,6 +4222,7 @@ scene_props = [
 ("musketramrod1", 0, "musketramrod1", 0, []),
 ("gray_noshade", 0, "gray_noshade", 0, []),
 ("grenade_timer", sokf_invisible, "0", "0", []),
+("gas_shell", sokf_invisible, "0", "0", []),
 ]
 
  # modmerger_start version=201 type=2

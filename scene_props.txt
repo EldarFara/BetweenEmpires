@@ -1,5 +1,5 @@
 scene_propsfile version 1
- 1791
+ 1792
 spr_invalid_object 0 0 question_mark 0 0
 
 
@@ -5573,5 +5573,8 @@ spr_gray_noshade 0 0 gray_noshade 0 0
 
 
 spr_grenade_timer 16384 0 0 0 0
+
+
+spr_gas_shell 16384 0 0 0 0
 
 

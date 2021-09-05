@@ -1789,3 +1789,4 @@ spr_brick = 1787
 spr_musketramrod1 = 1788
 spr_gray_noshade = 1789
 spr_grenade_timer = 1790
+spr_gas_shell = 1791

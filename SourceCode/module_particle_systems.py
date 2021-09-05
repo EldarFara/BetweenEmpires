@@ -1018,7 +1018,7 @@ particle_systems = [
     ),
     ("musket_smoke", psf_billboard_3d|psf_randomize_size|psf_randomize_rotation, "smoke_white1", # psf_global_emit_dir psf_billboard_3d | psf_randomize_size psf_always_emit
      75, 22, 2, -0.006040, 90, 3.3,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
-     (0.0, 0.4), (0.449, 0),       #alpha keys
+     (0.0, 0.3), (0.349, 0),       #alpha keys
      (0.0, 0.99), (1, 0.99),      #red keys
      (0.0, 0.99),(1, 0.99),       #green keys
      (0.0, 0.99), (1, 0.99),      #blue keys
@@ -1068,7 +1068,7 @@ particle_systems = [
     ),
     ("cannon_smoke", psf_billboard_3d, "smoke_white1",
      10000, 12, 1.14, -0.015, 40, 1.75,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
-     (0.0, 0.6), (0.85, 0),       #alpha keys
+     (0.0, 0.4), (0.65, 0),       #alpha keys
      (0.0, 0.9), (1, 0.9),      #red keys
      (0.0, 0.9),(1, 0.9),       #green keys
      (0.0, 0.99), (1, 0.99),      #blue keys
@@ -1215,6 +1215,28 @@ particle_systems = [
      0.1,                       #rotation speed
      1,                        #rotation damping
     ),
+  ("smoke_gas", psf_billboard_2d, "smoke_gas1",
+    10000, 50, 20, 0, 7, 7,  #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+    (0.7, 0.5), (1, 0),    #alpha keys
+    (0, 1), (1, 1),    #red keys
+    (0, 1), (1, 1),     #green keys
+    (0, 1), (1, 1),    #blue keys
+    (0, 70), (0.5, 70),  #scale keys
+    (21, 21, 5),        #emit box size
+    (10, 10, 30),        #emit velocity
+    20                       #emit dir randomness         
+  ),
+  ("smoke_gas2", psf_billboard_2d|psf_global_emit_dir, "smoke_gas2",
+    14, 2.5, 0, -0.14, 0, 0,  #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+    (0.5, 0.3), (1, 0),    #alpha keys
+    (0, 1), (1, 1),    #red keys
+    (0, 1), (1, 1),     #green keys
+    (0, 1), (1, 1),    #blue keys
+    (0, 0.5), (0.5, 4),  #scale keys
+    (0, 0, 0),        #emit box size
+    (0.1, 0, 0.1),        #emit velocity
+    0.3                       #emit dir randomness         
+  ),
 
 ]
 
