@@ -7485,15 +7485,15 @@ itemsfile version 3
  0
 0
 
- itm_gasmask_imrovised1 Improvised_Face_Bandage Improvised_Face_Bandage 1  gasmask_british_L 0  68719476751 0 100 123731968 10.000000 100 20 0 0 0 0 0 0 0 0 0 0
+ itm_gasmask_imrovised1 Improvised_Face_Bandage Improvised_Face_Bandage 1  gasmask_improvised1_L 0  68719476751 0 100 123731968 10.000000 100 20 0 0 0 0 0 0 0 0 0 0
  0
 0
 
- itm_gasmask_imrovised2 Improvised_Face_Bandage Improvised_Face_Bandage 1  gasmask_british_L 0  68719476751 0 100 123731968 10.000000 100 20 0 0 0 0 0 0 0 0 0 0
+ itm_gasmask_imrovised2 Improvised_Face_Bandage Improvised_Face_Bandage 1  gasmask_improvised2_L 0  68719476751 0 100 123731968 10.000000 100 20 0 0 0 0 0 0 0 0 0 0
  0
 0
 
- itm_gasmask_imrovised3 Improvised_Face_Bandage Improvised_Face_Bandage 1  gasmask_british_L 0  68719476751 0 100 123731968 10.000000 100 20 0 0 0 0 0 0 0 0 0 0
+ itm_gasmask_imrovised3 Improvised_Face_Bandage Improvised_Face_Bandage 1  gasmask_improvised2_L 0  68719476751 0 100 123731968 10.000000 100 20 0 0 0 0 0 0 0 0 0 0
  0
 0
 

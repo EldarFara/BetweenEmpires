@@ -2555,9 +2555,9 @@ items = [
 ["gasmask_german","Leather Gas Mask", [("gasmask_german_L", 0)], itp_type_hand_armor|itp_covers_beard, 0,100, weight(10)|abundance(100)|head_armor(20), imodbits_cloth, []],
 ["gasmask_british","Small Box Respirator", [("gasmask_british_L", 0)], itp_type_hand_armor|itp_covers_beard, 0,100, weight(10)|abundance(100)|head_armor(20), imodbits_cloth, []],
 ["gasmask_french","M2 Gas Mask", [("gasmask_british_L", 0)], itp_type_hand_armor|itp_covers_beard, 0,100, weight(10)|abundance(100)|head_armor(20), imodbits_cloth, []],
-["gasmask_imrovised1","Improvised Face Bandage", [("gasmask_british_L", 0)], itp_type_hand_armor|itp_covers_beard, 0,100, weight(10)|abundance(100)|head_armor(20), imodbits_cloth, []],
-["gasmask_imrovised2","Improvised Face Bandage", [("gasmask_british_L", 0)], itp_type_hand_armor|itp_covers_beard, 0,100, weight(10)|abundance(100)|head_armor(20), imodbits_cloth, []],
-["gasmask_imrovised3","Improvised Face Bandage", [("gasmask_british_L", 0)], itp_type_hand_armor|itp_covers_beard, 0,100, weight(10)|abundance(100)|head_armor(20), imodbits_cloth, []],
+["gasmask_imrovised1","Improvised Face Bandage", [("gasmask_improvised1_L", 0)], itp_type_hand_armor|itp_covers_beard, 0,100, weight(10)|abundance(100)|head_armor(20), imodbits_cloth, []],
+["gasmask_imrovised2","Improvised Face Bandage", [("gasmask_improvised2_L", 0)], itp_type_hand_armor|itp_covers_beard, 0,100, weight(10)|abundance(100)|head_armor(20), imodbits_cloth, []],
+["gasmask_imrovised3","Improvised Face Bandage", [("gasmask_improvised2_L", 0)], itp_type_hand_armor|itp_covers_beard, 0,100, weight(10)|abundance(100)|head_armor(20), imodbits_cloth, []],
 
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
