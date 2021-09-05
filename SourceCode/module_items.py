@@ -1496,6 +1496,8 @@ items = [
 ["lou_infantry15","Austrian Military Uniform", [("lou_infantry15", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
 ["lou_infantry16","Austrian Military Uniform", [("lou_infantry16", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
 ["lou_infantry17","Austrian Military Uniform", [("lou_infantry17", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
+["lou_infantry18","Austrian Military Uniform", [("lou_infantry18", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
+["lou_infantry19","Austrian Military Uniform", [("lou_infantry19", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
 ["lou_hat1","Austrian Hat", [("lou_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_3]],
 ["lou_hat2","Austrian Military Hat", [("lou_hat2", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_3]],
 ["lou_hat3","Austrian Military Hat", [("lou_hat3", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_3]],
