@@ -556,9 +556,9 @@ simple_triggers = [
          (val_add, ":num_hiring_rounds", 1),
        (try_end),
                 
-       (try_for_range, ":unused", 0, ":num_hiring_rounds"),         
-         (call_script, "script_hire_men_to_kingdom_hero_party", ":troop_no"), #Hiring men with current wealth        
-       (try_end),  
+       # (try_for_range, ":unused", 0, ":num_hiring_rounds"),          # parabellum disabled
+         # (call_script, "script_hire_men_to_kingdom_hero_party", ":troop_no"), #Hiring men with current wealth        
+       # (try_end),  
      (try_end),
 
 (val_clamp, "$async_simple_trigger6", walled_centers_begin, walled_centers_end),
@@ -916,7 +916,7 @@ simple_triggers = [
 		(try_begin),
       (assign, ":troop_no", "$async_simple_trigger10"),
         (troop_slot_eq, ":troop_no", slot_troop_occupation, slto_kingdom_hero),
-        (call_script, "script_calculate_troop_ai", ":troop_no"),
+      #  (call_script, "script_calculate_troop_ai", ":troop_no"),
       (try_end),
       ]),
 
@@ -1294,7 +1294,7 @@ simple_triggers = [
     # Decide faction ais
     (0.01, #it was 23
     [
-      (call_script, "script_async_recalculate_ais"),
+   #   (call_script, "script_async_recalculate_ais"),
     ]),
 	
     
@@ -5738,6 +5738,62 @@ simple_triggers = [
 	(call_script, "script_faction_get_machineguns", ":faction"),
 	(try_end),
     ]),
+  (0,
+   [
+	(try_begin),
+	(le, "$player_faction_preset", 0),
+	(assign, ":finished", 0),
+	(faction_set_slot, "fac_player_faction", slot_faction_troop_lineinf, "trp_kingdom_recruit"),
+	(faction_set_slot, "fac_player_faction", slot_faction_troop_lightinf, "trp_kingdom_recruit"),
+	(faction_set_slot, "fac_player_faction", slot_faction_troop_guardinf, "trp_kingdom_recruit"),
+	(faction_set_slot, "fac_player_faction", slot_faction_troop_cav, "trp_kingdom_recruit"),
+	(faction_set_slot, "fac_player_supporters_faction", slot_faction_troop_lineinf, "trp_kingdom_recruit"),
+	(faction_set_slot, "fac_player_supporters_faction", slot_faction_troop_lightinf, "trp_kingdom_recruit"),
+	(faction_set_slot, "fac_player_supporters_faction", slot_faction_troop_guardinf, "trp_kingdom_recruit"),
+	(faction_set_slot, "fac_player_supporters_faction", slot_faction_troop_cav, "trp_kingdom_recruit"),
+		(try_for_range, ":troop", "trp_kingdom_recruit", "trp_array_a"),
+		(eq, ":finished", 0),
+		(troop_get_slot, ":pbs_troop_type", ":troop", slot_troop_pbs_type),
+		(eq, ":pbs_troop_type", pbs_troop_type_line),
+		(faction_set_slot, "fac_player_faction", slot_faction_troop_lineinf, ":troop"),
+		(faction_set_slot, "fac_player_faction", slot_faction_troop_lightinf, ":troop"),
+		(faction_set_slot, "fac_player_faction", slot_faction_troop_guardinf, ":troop"),
+		(faction_set_slot, "fac_player_supporters_faction", slot_faction_troop_lineinf, ":troop"),
+		(faction_set_slot, "fac_player_supporters_faction", slot_faction_troop_lightinf, ":troop"),
+		(faction_set_slot, "fac_player_supporters_faction", slot_faction_troop_guardinf, ":troop"),
+		(assign, ":finished", 1),
+		(try_end),
+	(assign, ":finished", 0),
+		(try_for_range, ":troop", "trp_kingdom_recruit", "trp_array_a"),
+		(eq, ":finished", 0),
+		(troop_get_slot, ":pbs_troop_type", ":troop", slot_troop_pbs_type),
+		(eq, ":pbs_troop_type", pbs_troop_type_light),
+		(faction_set_slot, "fac_player_faction", slot_faction_troop_lightinf, ":troop"),
+		(faction_set_slot, "fac_player_supporters_faction", slot_faction_troop_lightinf, ":troop"),
+		(assign, ":finished", 1),
+		(try_end),
+	(assign, ":finished", 0),
+		(try_for_range, ":troop", "trp_kingdom_recruit", "trp_array_a"),
+		(eq, ":finished", 0),
+		(troop_get_slot, ":pbs_troop_type", ":troop", slot_troop_pbs_type),
+		(eq, ":pbs_troop_type", pbs_troop_type_guard),
+		(faction_set_slot, "fac_player_faction", slot_faction_troop_guardinf, ":troop"),
+		(faction_set_slot, "fac_player_supporters_faction", slot_faction_troop_guardinf, ":troop"),
+		(assign, ":finished", 1),
+		(try_end),
+	(assign, ":finished", 0),
+		(try_for_range, ":troop", "trp_kingdom_recruit", "trp_array_a"),
+		(eq, ":finished", 0),
+		(troop_get_slot, ":pbs_troop_type", ":troop", slot_troop_pbs_type),
+		(this_or_next|eq, ":pbs_troop_type", pbs_troop_type_cavmelee),
+		(this_or_next|eq, ":pbs_troop_type", pbs_troop_type_cavranged),
+		(eq, ":pbs_troop_type", pbs_troop_type_cavguard),
+		(faction_set_slot, "fac_player_faction", slot_faction_troop_cav, ":troop"),
+		(faction_set_slot, "fac_player_supporters_faction", slot_faction_troop_cav, ":troop"),
+		(assign, ":finished", 1),
+		(try_end),
+	(try_end),
+]),
 
 	
 ]

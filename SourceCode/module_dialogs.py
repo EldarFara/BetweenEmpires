@@ -11782,7 +11782,7 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    [
 	 (assign, "$player_marshal_ai_state", sfai_gathering_army),
 	 (assign, "$player_marshal_ai_object", "p_main_party"),
-     (call_script, "script_decide_faction_ai", "$players_kingdom"),
+    # (call_script, "script_decide_faction_ai", "$players_kingdom"),
 	 (assign, "$g_recalculate_ais", 1),
      ]],
 
@@ -11809,7 +11809,7 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    [
      (assign, "$player_marshal_ai_state", sfai_default),
 	 (assign, "$player_marshal_ai_object", -1),
-     (call_script, "script_decide_faction_ai", "$players_kingdom"),
+    # (call_script, "script_decide_faction_ai", "$players_kingdom"),
      (assign, "$g_recalculate_ais", 1),
      ]],
 
@@ -26461,7 +26461,7 @@ I suppose there are plenty of bounty hunters around to get the job done . . .", 
    
 	 (assign, "$player_marshal_ai_state", sfai_feast),
 	 (assign, "$player_marshal_ai_object", ":venue"),
-     (call_script, "script_decide_faction_ai", "$players_kingdom"),
+    # (call_script, "script_decide_faction_ai", "$players_kingdom"),
 	 (assign, "$g_recalculate_ais", 1),
 	 (str_store_party_name, s4, ":venue"),
 	 
@@ -26483,7 +26483,7 @@ I suppose there are plenty of bounty hunters around to get the job done . . .", 
    [
 	 (assign, "$player_marshal_ai_state", sfai_gathering_army),
 	 (assign, "$player_marshal_ai_object", "p_main_party"),
-     (call_script, "script_decide_faction_ai", "$players_kingdom"),
+    # (call_script, "script_decide_faction_ai", "$players_kingdom"),
 	 (assign, "$g_recalculate_ais", 1),
      ]],
 
@@ -26500,7 +26500,7 @@ I suppose there are plenty of bounty hunters around to get the job done . . .", 
    [
 	 (assign, "$player_marshal_ai_state", sfai_default),
 	 (assign, "$player_marshal_ai_object", -1),
-     (call_script, "script_decide_faction_ai", "$players_kingdom"),
+    # (call_script, "script_decide_faction_ai", "$players_kingdom"),
 	 (assign, "$g_recalculate_ais", 1),
 	 
      ]],

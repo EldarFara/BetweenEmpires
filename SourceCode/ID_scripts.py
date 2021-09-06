@@ -823,5 +823,9 @@ script_if_coveringfire_is_on_for_selected_companies = 821
 script_if_gasmasks_is_on_for_selected_companies = 822
 script_company_launch_gas_attack = 823
 script_company_decide_wear_gasmasks = 824
+script_game_start_second = 825
+script_pas_init = 826
+script_pas_reinforce_party = 827
+script_pas_ai_lord_decide = 828
 
 

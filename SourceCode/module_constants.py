@@ -287,7 +287,7 @@ army_drill_level_bad = 1
 faction_technologies_number = 19
 faction_technology_preset_year = faction_technologies_number
 
-cannons_limit = 5
+cannons_limit = 10
 
 howitzer_muzzle_velocity = 85
 
@@ -1119,6 +1119,12 @@ slot_faction_corruption_level = slot_faction_ve_mod_slots_begin + 405
 slot_faction_last_balance_change_lost_from_corruption = slot_faction_ve_mod_slots_begin + 406
 slot_faction_lmg =  slot_faction_ve_mod_slots_begin + 407
 slot_faction_gasmask =  slot_faction_ve_mod_slots_begin + 408
+slot_faction_troop_lineinf =  slot_faction_ve_mod_slots_begin + 409
+slot_faction_troop_lightinf =  slot_faction_ve_mod_slots_begin + 410
+slot_faction_troop_guardinf =  slot_faction_ve_mod_slots_begin + 411
+slot_faction_troop_cav =  slot_faction_ve_mod_slots_begin + 412
+slot_faction_is_cav_based =  slot_faction_ve_mod_slots_begin + 413
+slot_faction_capital =  slot_faction_ve_mod_slots_begin + 414
 
 
 
@@ -1626,6 +1632,7 @@ slot_center_gdp_rural1 = pes_slots_start + 176
 slot_center_gdp_rural2 = pes_slots_start + 177
 slot_center_gdp_urban1 = pes_slots_start + 178
 slot_center_gdp_urban2 = pes_slots_start + 179
+slot_party_size_bonus = pes_slots_start + 180
 
 #slot_party_type values
 ##spt_caravan            = 1
