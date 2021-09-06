@@ -14,6 +14,14 @@ from ID_parties import *
 # script_calculate_troop_ai
 # script_async_recalculate_ais
 
+pas_lord_state_undefined = 0
+pas_lord_state_patrolling_center_peace_border = 1
+pas_lord_state_patrolling_center_war_border = 2
+pas_lord_state_following_marshall = 3
+
+pas_faction_state_no_campaign = 0
+pas_faction_state_campaign = 1
+
 pai_preset_attack_setup_earlygame = 1
 pai_preset_attack_setup_lategame = 2
 
@@ -43,6 +51,7 @@ pes_resource_menu_faction_urbanization = 10
 
 display_pps_debug_messages = 0
 display_pes_debug_messages = 0
+display_pas_debug_messages = 1
 
 preset_number_of_factories_britain = 24
 preset_number_of_factories_germany = 18
@@ -1125,6 +1134,8 @@ slot_faction_troop_guardinf =  slot_faction_ve_mod_slots_begin + 411
 slot_faction_troop_cav =  slot_faction_ve_mod_slots_begin + 412
 slot_faction_is_cav_based =  slot_faction_ve_mod_slots_begin + 413
 slot_faction_capital =  slot_faction_ve_mod_slots_begin + 414
+slot_faction_pas_state =  slot_faction_ve_mod_slots_begin + 415
+slot_faction_pas_center_target =  slot_faction_ve_mod_slots_begin + 416
 
 
 
@@ -1633,6 +1644,8 @@ slot_center_gdp_rural2 = pes_slots_start + 177
 slot_center_gdp_urban1 = pes_slots_start + 178
 slot_center_gdp_urban2 = pes_slots_start + 179
 slot_party_size_bonus = pes_slots_start + 180
+slot_party_pas_lord_state = pes_slots_start + 181
+slot_party_pas_center_target = pes_slots_start + 182
 
 #slot_party_type values
 ##spt_caravan            = 1

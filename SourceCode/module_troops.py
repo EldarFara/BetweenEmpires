@@ -2565,7 +2565,7 @@ troops = [
   ["kingdom_26_lord", "King Leopold I", "King Leopold I", tf_hero, 0, 0, fac_kingdom_26,
   [itm_def_trousers2, itm_def_infantry4, itm_def_hat1, itm_sidearm_colt_m1851_navy, itm_ammo_pistol, itm_saber1, itm_horse_british1a],
   str_19|agi_19|int_13|cha_22|level(35), wp(220), knows_leadership_9|knows_prisoner_management_3|knows_tactics_6|knows_trainer_5|knows_riding_7|knows_athletics_5|knows_power_strike_7|knows_ironflesh_6,0x000000004000864236db6db6db6db6db00000000001db6db0000000000000000, 0x000000004000864236db6db6db6db6db00000000001db6db0000000000000000],
-  ["kingdom_27_lord", "King William III", "King William III", tf_hero, 0, 0, fac_kingdom_27,
+  ["kingdom_27_lord", "King William II", "King William II", tf_hero, 0, 0, fac_kingdom_27,
   [itm_wur_hat3, itm_wur_torso_general1, itm_wur_trousers2, itm_saber1, itm_sidearm_colt_dragoon, itm_ammo_pistol, itm_horse_british1a],
   str_19|agi_19|int_13|cha_22|level(35), wp(220), knows_leadership_9|knows_prisoner_management_3|knows_tactics_6|knows_trainer_5|knows_riding_7|knows_athletics_5|knows_power_strike_7|knows_ironflesh_6,0x0000000f7a00b08836db6db6db6db6db00000000001db6db0000000000000000, 0x0000000f7a00b08836db6db6db6db6db00000000001db6db0000000000000000],
   ["kingdom_28_lord", "Prince Milosh Obrenovich", "Milosh", tf_hero, 0, 0, fac_kingdom_28,

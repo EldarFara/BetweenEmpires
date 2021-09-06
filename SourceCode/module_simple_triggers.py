@@ -614,7 +614,7 @@ simple_triggers = [
          (assign, ":hiring_budget", ":cur_wealth"),
          (val_div, ":hiring_budget", 2),
          (gt, ":hiring_budget", ":reinforcement_cost"),       
-         (call_script, "script_cf_reinforce_party", ":center_no"),       
+       #  (call_script, "script_cf_reinforce_party", ":center_no"),       
          (val_sub, ":cur_wealth", ":reinforcement_cost"),
          (party_set_slot, ":center_no", slot_town_wealth, ":cur_wealth"),
        (try_end),  
@@ -5795,6 +5795,16 @@ simple_triggers = [
 	(try_end),
 ]),
 
+(0.001,
+[
+(val_clamp, "$async_simple_trigger35", kings_begin, lords_end),
+(val_add, "$async_simple_trigger35", 1),
+	(try_begin),	
+	(ge, "$async_simple_trigger35", lords_end),
+	(assign, "$async_simple_trigger35", kings_begin),
+	(try_end),
+(call_script, "script_pas_ai_lord_decide", "$async_simple_trigger35"),
+]),
 	
 ]
 
