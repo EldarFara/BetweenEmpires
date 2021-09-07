@@ -1,4 +1,4 @@
-1256
+1259
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -825,12 +825,8 @@ qstr_{reg10}._party_gives {reg10}._party_gives_{reg11}_votes
 qstr_{s1}_rural_wealth_{r {s1}_rural_wealth_{reg10}_urban_wealth_{reg11}_middle_wealth_{reg12}_bourgeoisie_wealth_{reg13}_aristocracy_wealth_{reg14}_sum_wage_{reg15}_gdp_rural_{reg16}_gdp_urban_{reg17}_population_root_{reg18}
 qstr_{s1}_cannot_launch_g {s1}_cannot_launch_grenade_attack_-_{reg1}_seconds_cooldown.
 qstr_{s1}_cannot_launch_ga {s1}_cannot_launch_gas_attack_-_{reg1}_seconds_cooldown.
-qstr_pas_ai_lord_decide_f pas_ai_lord_decide_for_{s1}
-qstr_pas_lord_state_undef pas_lord_state_undefined
-qstr_follow_marshall follow_marshall
-qstr_is_at_war is_at_war
-qstr_no_party no_party
-qstr_for_patrol_selected_ for_patrol_selected_{s1}
+qstr_SIEGE SIEGE
+qstr_no_land_border no_land_border
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_running.
 qstr_{s1}_cannot_change_f {s1}_cannot_change_formation_-_only_light_infantry_can_apply_extended_line_formation.
@@ -1255,3 +1251,10 @@ qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
 qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
+qstr_PRE_SIEGE PRE_SIEGE
+qstr_PRE_SIEGE_1 PRE_SIEGE_1
+qstr_PRE_SIEGE_CANCEL PRE_SIEGE_CANCEL
+qstr_PRE_SIEGE_2 PRE_SIEGE_2
+qstr_PRE_SIEGE_0 PRE_SIEGE_0
+qstr_SIEGE_END SIEGE_END
+qstr_HELP_SIEGE HELP_SIEGE

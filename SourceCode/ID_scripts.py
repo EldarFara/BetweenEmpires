@@ -831,6 +831,12 @@ script_pas_reinforce_party = 829
 script_pas_ai_lord_decide = 830
 script_pas_get_random_border_center_for_faction = 831
 script_pas_get_random_war_border_center_for_faction = 832
-script_cf_pas_if_faction_is_at_war_with_anyone = 833
+script_pas_get_random_war_border_center_for_faction_universal = 833
+script_cf_pas_if_faction_is_at_war_with_anyone = 834
+script_pas_lord_follow_marshall = 835
+script_pas_lord_patrol_center = 836
+script_pas_faction_end_campaign = 837
+script_pas_faction_start_campaign = 838
+script_pas_faction_get_center_to_attack = 839
 
 

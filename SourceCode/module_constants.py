@@ -18,6 +18,11 @@ pas_lord_state_undefined = 0
 pas_lord_state_patrolling_center_peace_border = 1
 pas_lord_state_patrolling_center_war_border = 2
 pas_lord_state_following_marshall = 3
+pas_marshall_state_traveling_to_siege_enemy_center = 4
+pas_marshall_state_siege_enemy_center = 5
+pas_marshall_state_assault_enemy_center = 6
+pas_marshall_state_defend_center = 7
+pas_marshall_state_gathering = 8
 
 pas_faction_state_no_campaign = 0
 pas_faction_state_campaign = 1
@@ -1646,6 +1651,7 @@ slot_center_gdp_urban2 = pes_slots_start + 179
 slot_party_size_bonus = pes_slots_start + 180
 slot_party_pas_lord_state = pes_slots_start + 181
 slot_party_pas_center_target = pes_slots_start + 182
+slot_party_pas_timer = pes_slots_start + 183
 
 #slot_party_type values
 ##spt_caravan            = 1

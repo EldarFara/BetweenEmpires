@@ -5797,11 +5797,11 @@ simple_triggers = [
 
 (0.001,
 [
-(val_clamp, "$async_simple_trigger35", kings_begin, lords_end),
+(val_clamp, "$async_simple_trigger35", active_npcs_begin, active_npcs_end),
 (val_add, "$async_simple_trigger35", 1),
 	(try_begin),	
-	(ge, "$async_simple_trigger35", lords_end),
-	(assign, "$async_simple_trigger35", kings_begin),
+	(ge, "$async_simple_trigger35", active_npcs_end),
+	(assign, "$async_simple_trigger35", active_npcs_begin),
 	(try_end),
 (call_script, "script_pas_ai_lord_decide", "$async_simple_trigger35"),
 ]),
