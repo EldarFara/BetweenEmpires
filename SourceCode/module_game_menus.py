@@ -9508,6 +9508,20 @@ the high lords and common folk across the many realms of Europe."),
         (change_screen_exchange_members,1),
       ]),
 	  
+      ("towncastle_to_enlistment_office",
+      [	  
+	(eq, "$sneaked_into_town", 0),  
+	(store_faction_of_party, ":faction", "$g_encountered_party"),
+	(store_relation, ":relation", ":faction", "fac_player_supporters_faction"),
+	(ge, ":relation", 0), 
+	(eq, "$players_kingdom", 0),
+      ],
+      "Go to local military enlistment office.",
+      [
+       # (jump_to_menu, "mnu_enlistment_office"),
+	  
+      ]),
+	  
       ("open_pes_region_menu",
       [	  
       ],
@@ -9628,7 +9642,6 @@ the high lords and common folk across the many realms of Europe."),
 
 ("castle_to_cannoneers_store",
 [        
-	(party_slot_eq,"$current_town",slot_party_type, spt_castle),        
 	(eq, "$sneaked_into_town", 0),      
 ],"Go to the armory.",
 [         

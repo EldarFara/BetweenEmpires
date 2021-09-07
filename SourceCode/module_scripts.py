@@ -67,6 +67,7 @@ scripts = [
 (assign, "$pes_overseacotton_usa", 0),
 (assign, "$pes_overseacotton_china_supply", 0),
 (assign, "$pes_overseacotton_usa_supply", 0),
+(assign, "$players_kingdom", 0),
    
    	  ## ZZ Custom Kingdom Troops begin
 	  (call_script,"script_item_detial"),
@@ -2440,11 +2441,6 @@ scripts = [
 	  (faction_set_slot, "fac_kingdom_5", slot_faction_adjective, "str_kingdom_5_adjective"),
 	  (faction_set_slot, "fac_kingdom_6", slot_faction_adjective, "str_kingdom_6_adjective"),
 	  
-##      (assign, "$players_kingdom", "fac_kingdom_1"),
-##      (call_script, "script_give_center_to_lord", "p_town_7", "trp_player", 0),
-##      (call_script, "script_give_center_to_lord", "p_town_16", "trp_player", 0),
-####      (call_script, "script_give_center_to_lord", "p_castle_10", "trp_player", 0),
-##      (assign, "$g_castle_requested_by_player", "p_castle_10"),
       (call_script, "script_get_player_party_morale_values"),
       (party_set_morale, "p_main_party", reg0),
 
@@ -33653,7 +33649,7 @@ scripts = [
   ("player_join_faction",
     [
       (store_script_param, ":faction_no", 1),
-      (assign,"$players_kingdom",":faction_no"),
+      (assign, "$players_kingdom",":faction_no"),
       (faction_set_slot, "fac_player_supporters_faction", slot_faction_ai_state, sfai_default),
       (assign, "$players_oath_renounced_against_kingdom", 0),
       (assign, "$players_oath_renounced_given_center", 0),

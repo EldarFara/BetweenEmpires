@@ -11289,7 +11289,8 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    
    
 
-  [anyone|plyr,"lord_talk", [(le,"$talk_context", tc_party_encounter),
+  [anyone|plyr,"lord_talk", [ (eq, 1, 2), # parabellum disabled
+  (le,"$talk_context", tc_party_encounter),
                              (ge, "$g_talk_troop_faction_relation", 0),
                              #(troop_slot_eq, "$g_talk_troop", slot_troop_is_prisoner, 0),
                              (neg|troop_slot_ge, "$g_talk_troop", slot_troop_prisoner_of_party, 0),
