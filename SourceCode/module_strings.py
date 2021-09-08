@@ -4754,6 +4754,17 @@ State. In order to force her government to surrender to our forces, we will have
 ("smokepillar1_63", "smokepillar1_63"),
 ("smokepillar1_64", "smokepillar1_64"),
 
+("pas_rank_ukm_1", "Private (1)"),
+("pas_rank_ukm_2", "Corporal (2)"),
+("pas_rank_ukm_3", "Sergeant (3)"),
+("pas_rank_ukm_4", "Lieutenant (4)"),
+("pas_rank_ukm_5", "Captain (5)"),
+("pas_rank_ukm_6", "Major (6)"),
+("pas_rank_ukm_7", "Colonel (7)"),
+("pas_rank_ukm_8", "Lieutenant General (8)"),
+("pas_rank_ukm_8", "General (9)"),
+("pas_rank_ukm_8", "Field Marshall (10)"),
+
 ]
 
 

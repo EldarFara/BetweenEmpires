@@ -241,3 +241,4 @@ menu_german_empire_forming = 239
 menu_prussia_unification_denmark_defeated = 240
 menu_prussia_unification_austria_defeated = 241
 menu_prussia_unification_france_defeated = 242
+menu_enlistment_office = 243

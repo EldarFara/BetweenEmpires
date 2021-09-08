@@ -1,5 +1,5 @@
 stringsfile version 1
-3788
+3798
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -3788,3 +3788,13 @@ str_smokepillar1_61 smokepillar1_61
 str_smokepillar1_62 smokepillar1_62
 str_smokepillar1_63 smokepillar1_63
 str_smokepillar1_64 smokepillar1_64
+str_pas_rank_ukm_1 Private_(1)
+str_pas_rank_ukm_2 Corporal_(2)
+str_pas_rank_ukm_3 Sergeant_(3)
+str_pas_rank_ukm_4 Lieutenant_(4)
+str_pas_rank_ukm_5 Captain_(5)
+str_pas_rank_ukm_6 Major_(6)
+str_pas_rank_ukm_7 Colonel_(7)
+str_pas_rank_ukm_8 Lieutenant_General_(8)
+str_pas_rank_ukm_8 General_(9)
+str_pas_rank_ukm_8 Field_Marshall_(10)

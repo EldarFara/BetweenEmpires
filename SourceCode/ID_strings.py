@@ -3786,5 +3786,15 @@ str_smokepillar1_61 = 3784
 str_smokepillar1_62 = 3785
 str_smokepillar1_63 = 3786
 str_smokepillar1_64 = 3787
+str_pas_rank_ukm_1 = 3788
+str_pas_rank_ukm_2 = 3789
+str_pas_rank_ukm_3 = 3790
+str_pas_rank_ukm_4 = 3791
+str_pas_rank_ukm_5 = 3792
+str_pas_rank_ukm_6 = 3793
+str_pas_rank_ukm_7 = 3794
+str_pas_rank_ukm_8 = 3795
+str_pas_rank_ukm_8 = 3796
+str_pas_rank_ukm_8 = 3797
 
 

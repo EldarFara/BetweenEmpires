@@ -6123,6 +6123,7 @@ the high lords and common folk across the many realms of Europe."),
      (store_sub, reg4, 14, ":max_skill"),
      (val_mul, reg4, 2),
      (val_div, reg4, 3),
+     (val_add, reg4, 63),
      
      (try_begin),
        (eq, ":max_skill_owner", "trp_player"),
@@ -9459,6 +9460,7 @@ the high lords and common folk across the many realms of Europe."),
 								
       ("castle_station_troops",
       [	  
+		  (eq, 1, 2), # parabellum disabled
 		(party_get_slot, ":town_lord", "$current_town", slot_town_lord),
 	    (str_clear, s10),
 		  
@@ -9518,7 +9520,7 @@ the high lords and common folk across the many realms of Europe."),
       ],
       "Go to local military enlistment office.",
       [
-       # (jump_to_menu, "mnu_enlistment_office"),
+        (jump_to_menu, "mnu_enlistment_office"),
 	  
       ]),
 	  
@@ -15168,6 +15170,25 @@ the high lords and common folk across the many realms of Europe."),
 	("continue", [],"Close",
        [
 		(jump_to_menu, "mnu_german_empire_forming"),
+        ]),
+	]),
+
+  ("enlistment_office",0,
+    "You enter military enlistment office of {s1}. Here you can enlist in {s2}'s army as regular soldier and try to pave your way to an army high command post. However, if you are of noble blood or are well renowned, you will start your military career as officer.",
+    "none",
+    [
+	(store_faction_of_party, ":faction", "$g_encountered_party"),
+	(str_store_party_name, s1, "$g_encountered_party"),
+	(str_store_faction_name, s2, ":faction"),
+	],
+    [
+	("enlistment_office_go_ahead", [],"Freelancer never.",
+       [
+		(jump_to_menu, "mnu_town"),
+        ]),
+	("go_back", [],"Go back.",
+       [
+		(jump_to_menu, "mnu_town"),
         ]),
 	]),
 

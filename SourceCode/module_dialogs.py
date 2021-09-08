@@ -11781,10 +11781,8 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    [],
    "All right then. I will send messengers and tell everyone to come here.", "lord_pretalk",
    [
-	 (assign, "$player_marshal_ai_state", sfai_gathering_army),
-	 (assign, "$player_marshal_ai_object", "p_main_party"),
-    # (call_script, "script_decide_faction_ai", "$players_kingdom"),
-	 (assign, "$g_recalculate_ais", 1),
+	(call_script, "script_pas_faction_start_campaign", "fac_player_supporters_faction"),
+   
      ]],
 
   [anyone|plyr,"lord_talk",
@@ -11799,7 +11797,7 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    "I want to end the campaign and let everyone return home.", "lord_give_order_disband_army_verify", []],
 
   [anyone,"lord_give_order_disband_army_verify", [],
-   "You want to end the current campaign and release all lords from duty?", "lord_give_order_disband_army_2",[]],
+   "You want to end the current campaign and release all commanders from duty?", "lord_give_order_disband_army_2",[]],
 
   [anyone|plyr,"lord_give_order_disband_army_2", [], "Yes. We no longer need all our forces here.", "lord_give_order_disband_army",[]],
   [anyone|plyr,"lord_give_order_disband_army_2", [], "On second thought, it will be better to stay together for now.", "lord_pretalk",[]],
@@ -11808,10 +11806,7 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    [],
    "All right. I will let everyone know that they are released from duty.", "lord_pretalk",
    [
-     (assign, "$player_marshal_ai_state", sfai_default),
-	 (assign, "$player_marshal_ai_object", -1),
-    # (call_script, "script_decide_faction_ai", "$players_kingdom"),
-     (assign, "$g_recalculate_ais", 1),
+	(call_script, "script_pas_faction_end_campaign", "fac_player_supporters_faction"),
      ]],
 
   [anyone|plyr,"lord_talk", [
