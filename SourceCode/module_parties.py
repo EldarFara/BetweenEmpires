@@ -291,7 +291,7 @@ parties = [
  ("castle_96","Kulob",icon_town1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-567.99,-132.97),[],260),
 #pol
  ("castle_97","Setif",icon_town2|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(594.92,81.85),[],260),
- ("castle_98","Castle",icon_castle1|pf_disabled|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(563,207),[],260),
+ ("castle_98","Zintan",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(535.19,80.88),[],260),
  ("castle_99","San'A",icon_town2|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-281.62,386.44),[],260),
 #knight
 ("castle_100","Tuttlingen",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(485.36,-139.03),[],260),
@@ -632,7 +632,7 @@ parties = [
  ("village_127","Qa'en",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-469.39,-7.24),[], 40),
 #nvzhen
  ("village_128","Neyshapur",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-437.54,-45.89),[], 40),
- ("village_129","Spanish_Village",  icon_village5|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(698.36,-9.48),[], 40),
+ ("village_129","Beteta",  icon_village5|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(698.36,-9.48),[], 40),
  ("village_130","Damghan",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-378.66,-32.56),[], 40),
 #kzakh  
  ("village_131","Hamadan",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-293.07,15.56),[], 40),
@@ -766,7 +766,7 @@ parties = [
     ("village_230", "Farish",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-519.06,-156.58),[], 170),
     ("village_231", "Termaz",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-499.44,-122.42),[], 170),
     ("village_232", "Shuroabad",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-558.55,-116.61),[], 170),
-    ("village_233", "Afghan_Village",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-592.83,-27.15),[], 170),
+    ("village_233", "Gaba",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-592.83,-27.15),[], 170),
     ("village_234", "Panj",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-517.69,-106.74),[], 170),
     ("village_235", "Omani_Village",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-546.30,219.94),[], 170),
     ("village_236", "Omani_Village",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-511.40,230.73),[], 170),
@@ -839,7 +839,7 @@ parties = [
     ("village_303", "Dinkelsbuhl",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(438.32,-182.91),[], 170),
     ("village_304", "Schonburg",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(413.97,-148.68),[], 170),
     ("village_305", "Konstanz",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(478.26,-133.86),[], 170),
-    ("village_306", "Romanian_Village",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(173.91,-93.33),[], 170),
+    ("village_306", "Braila",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(173.91,-93.33),[], 170),
     ("village_307", "Freiburg",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(496.25,-144.15),[], 170),
     ("village_308", "Freudenstadt",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(502.20,-149.73),[], 170),
     ("village_309", "Bilberach",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(474.00,-144.38),[], 170),
@@ -904,7 +904,7 @@ parties = [
     ("village_368", "Linkoping",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(382.64,-336.90),[], 170),
     ("village_369", "Uppsala",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(368.76,-356.81),[], 170),
     ("village_370", "Hudiksvall",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(345.85,-373.87),[], 170),
-    ("village_371", "Swedish_Village",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(390.24,-382.86),[], 170),
+    ("village_371", "Falun",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(390.24,-382.86),[], 170),
     ("village_372", "Falun",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(388.03,-353.14),[], 170),
     ("village_373", "Karlstad",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(426.58,-352.99),[], 170),
     ("village_374", "Goteborg",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(408.76,-322.83),[], 170),

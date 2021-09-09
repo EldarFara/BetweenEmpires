@@ -5805,6 +5805,19 @@ simple_triggers = [
 	(try_end),
 (call_script, "script_pas_ai_lord_decide", "$async_simple_trigger35"),
 ]),
+
+(0.1,
+[
+(gt, "$pas_enlistment_lord", 0),
+	(try_begin),
+	(troop_get_slot, ":party", "$pas_enlistment_lord", slot_troop_leaded_party),
+	(gt, ":party", 0),
+	(party_is_active, ":party"),
+	(set_camera_follow_party, ":party"),
+	(else_try),
+	(party_detach, "p_main_party"),
+	(try_end),
+]),
 	
 ]
 

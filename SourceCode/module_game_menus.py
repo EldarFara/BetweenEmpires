@@ -9431,6 +9431,7 @@ the high lords and common folk across the many realms of Europe."),
 
       ("walled_center_manage",
       [
+        (eq, 1, 2), # parabellum disabled
         (neg|party_slot_eq, "$current_town", slot_village_state, svs_under_siege),
         (party_slot_eq, "$current_town", slot_town_lord, "trp_player"),
         (assign, reg0, 1),
@@ -9447,6 +9448,7 @@ the high lords and common folk across the many realms of Europe."),
 		
       ("walled_center_move_court",
       [
+        (eq, 1, 2), # parabellum disabled
         (neg|party_slot_eq, "$current_town", slot_village_state, svs_under_siege),
         (faction_slot_eq, "fac_player_supporters_faction", slot_faction_leader, "trp_player"),
         (party_slot_eq, "$current_town", slot_town_lord, "trp_player"),
@@ -15177,18 +15179,96 @@ the high lords and common folk across the many realms of Europe."),
     "You enter military enlistment office of {s1}. Here you can enlist in {s2}'s army as regular soldier and try to pave your way to an army high command post. However, if you are of noble blood or are well renowned, you will start your military career as officer.",
     "none",
     [
-	(store_faction_of_party, ":faction", "$g_encountered_party"),
+	(store_faction_of_party, "$g_encountered_party_faction", "$g_encountered_party"),
 	(str_store_party_name, s1, "$g_encountered_party"),
-	(str_store_faction_name, s2, ":faction"),
+	(str_store_faction_name, s2, "$g_encountered_party_faction"),
+	
 	],
     [
-	("enlistment_office_go_ahead", [],"Freelancer never.",
+	("enlistment_office_go_ahead", [
+	(call_script, "script_pas_enlistment_get_lord_to_enlist_for_faction", "$g_encountered_party_faction"),
+	(gt, reg1, 0),
+	(assign, "$pas_enlistment_lord", reg1),
+	],"Enlist in army of {s2}.",
        [
-		(jump_to_menu, "mnu_town"),
+		(jump_to_menu, "mnu_enlistment_office_select_class"),
         ]),
 	("go_back", [],"Go back.",
        [
 		(jump_to_menu, "mnu_town"),
+        ]),
+	]),
+	
+  ("enlistment_office_select_class",0,
+    "Select branch of the troops:",
+    "none",
+    [
+	(assign, "$pas_enlistment_player_troop_is_cav", 0),
+	],
+    [
+	("enlistment_office_select_class_lineinf", [],"Line Infantry",
+	[
+	(faction_get_slot, "$pas_enlistment_player_troop", "$g_encountered_party_faction",  slot_faction_troop_lineinf),
+	(jump_to_menu, "mnu_enlistment_office_enlisted"),
+        ]),
+	("enlistment_office_select_class_lightinf", [],"Light Infantry",
+	[
+	(faction_get_slot, "$pas_enlistment_player_troop", "$g_encountered_party_faction",  slot_faction_troop_lightinf),
+	(jump_to_menu, "mnu_enlistment_office_enlisted"),
+        ]),
+	("enlistment_office_select_class_guardinf", [],"Guard Infantry",
+	[
+	(faction_get_slot, "$pas_enlistment_player_troop", "$g_encountered_party_faction",  slot_faction_troop_guardinf),
+	(jump_to_menu, "mnu_enlistment_office_enlisted"),
+        ]),
+	("enlistment_office_select_class_cav", [],"Cavalry",
+	[
+	(assign, "$pas_enlistment_player_troop_is_cav", 1),
+	(faction_get_slot, "$pas_enlistment_player_troop", "$g_encountered_party_faction",  slot_faction_troop_cav),
+	(jump_to_menu, "mnu_enlistment_office_enlisted"),
+        ]),
+	("go_back", [],"Go back.",
+       [
+		(jump_to_menu, "mnu_enlistment_office"),
+        ]),
+	]),
+	
+  ("enlistment_office_enlisted",0,
+    "You have been assigned to {s1} as {s2} {s3}.^^You have been transported to the place of performance of duty and start your service.",
+    "none",
+    [
+	(try_for_range, ":slot", 0, 10),
+	(troop_get_inventory_slot, ":item", "$pas_enlistment_player_troop", ":slot"),
+	(gt, ":item", 1),
+		(try_begin),
+		(call_script, "script_cf_get_faction_rifle_type", "$g_encountered_party_faction"), (assign, ":rifle_type", reg0),
+		(gt, ":rifle_type", rifle_type_smoothbore),
+		(store_add, ":slot_item_analog", slot_item_rifled_analog-1, ":rifle_type"),
+		(item_get_slot, ":analog", ":item", ":slot_item_analog"),
+		(gt, ":analog", 1),
+		(assign, ":item", ":analog"),
+		(try_end),
+	(troop_set_inventory_slot, "trp_player", ":slot", -1),
+	(troop_set_inventory_slot, "trp_player", ":slot", ":item"),
+	(try_end),
+	(call_script, "script_player_join_faction", "$g_encountered_party_faction"),
+	(str_store_troop_name, s1, "$pas_enlistment_lord"),
+	(str_store_troop_name, s2, "$pas_enlistment_player_troop"),
+	(faction_get_slot, ":rank_string", "$g_encountered_party_faction", slot_faction_pas_rank_infantry_string),
+		(try_begin),
+		(eq, "$pas_enlistment_player_troop_is_cav", 1),
+		(faction_get_slot, ":rank_string", "$g_encountered_party_faction", slot_faction_pas_rank_cavalry_string),
+		(try_end),
+	(call_script, "script_pas_enlistment_get_rank_from_renown"),
+	(assign, "$pas_enlistment_rank", reg1),
+	(val_add, ":rank_string", "$pas_enlistment_rank"),
+	(str_store_string, s3, ":rank_string"),
+	],
+    [
+	("enlistment_office_enlisted_start", [],"Start your military career.",
+       [
+	(party_attach_to_party, "p_main_party", "$pas_enlistment_lord"),
+	(change_screen_return),
         ]),
 	]),
 

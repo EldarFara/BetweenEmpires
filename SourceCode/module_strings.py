@@ -4761,7 +4761,7 @@ State. In order to force her government to surrender to our forces, we will have
 ("pas_rank_ukm_5", "Captain (5)"),
 ("pas_rank_ukm_6", "Major (6)"),
 ("pas_rank_ukm_7", "Colonel (7)"),
-("pas_rank_ukm_8", "Lieutenant General (8)"),
+("pas_rank_ukm_8", "Major General (8)"),
 ("pas_rank_ukm_8", "General (9)"),
 ("pas_rank_ukm_8", "Field Marshall (10)"),
 

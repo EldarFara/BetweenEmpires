@@ -1141,7 +1141,8 @@ slot_faction_is_cav_based =  slot_faction_ve_mod_slots_begin + 413
 slot_faction_capital =  slot_faction_ve_mod_slots_begin + 414
 slot_faction_pas_state =  slot_faction_ve_mod_slots_begin + 415
 slot_faction_pas_center_target =  slot_faction_ve_mod_slots_begin + 416
-slot_faction_pas_rank_string =  slot_faction_ve_mod_slots_begin + 417
+slot_faction_pas_rank_infantry_string =  slot_faction_ve_mod_slots_begin + 417
+slot_faction_pas_rank_cavalry_string =  slot_faction_ve_mod_slots_begin + 418
 
 
 

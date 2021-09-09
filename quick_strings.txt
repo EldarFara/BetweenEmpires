@@ -1,4 +1,4 @@
-1250
+1251
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -1118,6 +1118,7 @@ qstr_The_{s1}_has_finishe The_{s1}_has_finished_researching_technology_'{s2}'.
 qstr_The_year_is_{reg0}. The_year_is_{reg0}.
 qstr_North_German_Confede North_German_Confederation
 qstr_Finished_improving_r Finished_improving_relations_with_{s31}.
+qstr_pas_enlistment_lord_ pas_enlistment_lord_{reg10}
 qstr_{!}DEBUG____Wanted_b {!}DEBUG_--_Wanted_bandits_spotted_by_{s4}
 qstr_{reg65?my_Lady:my_Lo {reg65?my_Lady:my_Lord}
 qstr_{reg65?My_Lady:My_Lo {reg65?My_Lady:My_Lord}

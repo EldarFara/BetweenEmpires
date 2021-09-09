@@ -839,5 +839,7 @@ script_pas_faction_end_campaign = 837
 script_pas_faction_start_campaign = 838
 script_pas_faction_get_center_to_attack = 839
 script_pas_faction_get_center_to_defend = 840
+script_pas_enlistment_get_lord_to_enlist_for_faction = 841
+script_pas_enlistment_get_rank_from_renown = 842
 
 

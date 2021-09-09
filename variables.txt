@@ -1228,6 +1228,10 @@ peace_negotiations_ai_offer
 g_current_year
 g_game_speed
 preferred_ai_party_size
+pas_enlistment_lord
+pas_enlistment_player_troop_is_cav
+pas_enlistment_player_troop
+pas_enlistment_rank
 g_battle_type
 battle_timer
 hp_regen_timer
