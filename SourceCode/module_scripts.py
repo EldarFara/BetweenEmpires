@@ -2517,6 +2517,7 @@ scripts = [
 	(try_end),
 (call_script, "script_change_party_morale", "p_main_party", 50),
 (faction_set_slot, "fac_kingdoms_end", slot_faction_state, sfs_inactive),
+(troop_set_slot, "trp_player", slot_troop_leaded_party, "p_main_party"),
     ]),
 
   #script_game_get_use_string

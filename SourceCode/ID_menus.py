@@ -245,3 +245,5 @@ menu_enlistment_office = 243
 menu_enlistment_office_select_class = 244
 menu_enlistment_office_enlisted = 245
 menu_pas_enlistment_menu = 246
+menu_pas_enlistment_reassign = 247
+menu_pas_enlistment_end_service_no_lords = 248
