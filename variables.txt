@@ -1232,6 +1232,7 @@ pas_enlistment_lord
 pas_enlistment_player_troop_is_cav
 pas_enlistment_player_troop
 pas_enlistment_rank
+pas_enlistment_points
 pas_enlistment_opponent_to_ignore
 pas_enlistment_opponent_to_ignore_timer
 g_battle_type

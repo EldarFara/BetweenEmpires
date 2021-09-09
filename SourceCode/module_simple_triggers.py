@@ -5864,6 +5864,13 @@ simple_triggers = [
 (gt, ":mouse_y", 50),
 (jump_to_menu, "mnu_pas_enlistment_menu"),
 ]),
+
+(0.1,
+[
+(gt, "$players_kingdom", "fac_player_supporters_faction"),
+(val_add, "$pas_enlistment_points", 1),
+(call_script, "script_pas_enlistment_get_promotion"),
+]),
 	
 ]
 

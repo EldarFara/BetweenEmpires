@@ -20,6 +20,19 @@ from header_skills import *
 pilgrim_disguise = [itm_ammo_pistol, itm_dagger, itm_sidearm_colt_m1851_navy, itm_clothes_urban_male_trousers1, itm_civilian_hat1, itm_clothes_urban_male1]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 	 
+pas_points = (
+ti_on_agent_killed_or_wounded, 0, 0, [],
+[
+(gt, "$players_kingdom", "fac_player_supporters_faction"),
+(store_trigger_param_1, ":victim"),
+(store_trigger_param_2, ":killer"),
+(agent_is_active, ":victim"),
+(agent_is_active, ":killer"),
+(agent_get_team, ":team", ":killer"),
+(eq, ":team", "$g_player_team"),
+(val_add, "$pas_enlistment_points", 400),
+],[])
+
 gas_100ms = (
 0.1, 0, 0, [],
 [
@@ -6002,6 +6015,7 @@ ams = (ti_after_mission_start, 0, 0, [
 parabellum_script_set_battle = [
 ams,
 bms,
+pas_points,
 gas_100ms,
 grenades_100ms,
 lmg_runtime,

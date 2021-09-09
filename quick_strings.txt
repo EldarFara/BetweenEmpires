@@ -1,4 +1,4 @@
-1251
+1253
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -826,6 +826,7 @@ qstr_{s1}_rural_wealth_{r {s1}_rural_wealth_{reg10}_urban_wealth_{reg11}_middle_
 qstr_earlygame earlygame
 qstr_{s1}_cannot_launch_g {s1}_cannot_launch_grenade_attack_-_{reg1}_seconds_cooldown.
 qstr_{s1}_cannot_launch_ga {s1}_cannot_launch_gas_attack_-_{reg1}_seconds_cooldown.
+qstr_You_became_a_high_co You_became_a_high_command_officer,_which_means_you_are_free_to_act_independent_during_service.
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_running.
 qstr_{s1}_cannot_change_f {s1}_cannot_change_formation_-_only_light_infantry_can_apply_extended_line_formation.
@@ -865,6 +866,7 @@ qstr_{!}sending_prisoner_ {!}sending_prisoner_cart_6_feet_underground!
 qstr_{!}spawn_prison_cart {!}spawn_prison_cart_5_secs_initiated!
 qstr_{!}spawn_prison_cart! {!}spawn_prison_cart!
 qstr_{!}g_multiplayer_cco {!}g_multiplayer_ccoop_spawn_alive_player_squad:_{reg0}
+qstr_Your_current_rank_is Your_current_rank_is_{s1}.^^Current_points/points_needed_for_promotion:_{reg10}/{reg11}
 qstr_^{s32}_s_Infamy:_{re ^{s32}'s_Infamy:_{reg10}
 qstr_{!}{s4}:_M{reg3}_2M{ {!}{s4}:_M{reg3},_2M{reg4},_PC{reg5},_2PC{reg6},_PM{reg7}
 qstr_You_were_born_the_{r You_were_born_the_{reg3?daughter:son}_of_a_minor_noble,_who's_influence_was_decreasing_with_the_new_times._You_had_everything_you_needed:_good_education,_happy_childhood._You_visited_noble_feasts_and_celebrations_with_your_father,_so_you_were_welcome_after_his_death,_as_also_you_managed_to_save_family_funds.
