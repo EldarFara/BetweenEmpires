@@ -773,6 +773,7 @@ pai_1000ms = (1, 0, 0, [
 		(try_begin),
 		(call_script, "script_cf_if_team_faction_invented_technology", "$ai_attacker_team", slot_faction_technology_skirmishline),
 		(call_script, "script_pai_set_up_attack_according_to_preset", "$ai_attacker_team", pai_preset_attack_setup_earlygame, pos1),
+(display_message, "@earlygame"),
 		(else_try),
 		(call_script, "script_pai_set_up_attack_according_to_preset", "$ai_attacker_team", pai_preset_attack_setup_lategame, pos1),
 		(try_end),

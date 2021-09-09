@@ -69,6 +69,8 @@ scripts = [
 (assign, "$pes_overseacotton_usa_supply", 0),
 (assign, "$players_kingdom", 0),
 (assign, "$pas_enlistment_lord", 0),
+(assign, "$pas_enlistment_opponent_to_ignore", 0),
+(assign, "$pas_enlistment_opponent_to_ignore_timer", 0),
    
    	  ## ZZ Custom Kingdom Troops begin
 	  (call_script,"script_item_detial"),
@@ -4697,18 +4699,6 @@ scripts = [
     [
       (store_script_param_1, ":root_defender_party"),
       (store_script_param_2, ":root_attacker_party"),
-
-	(try_begin),
-	(gt, "$pas_enlistment_lord", 0),
-	(troop_get_slot, ":party", "$pas_enlistment_lord", slot_troop_leaded_party),
-	(gt, ":party", 0),
-	(party_is_active, ":party"),
-	(this_or_next|eq, ":party", ":root_defender_party"),
-	(eq, ":party", ":root_attacker_party"),
-	(assign, "$g_encountered_party", ":root_defender_party"),
-	(assign, "$g_encountered_party_2", ":root_attacker_party"),
-	(jump_to_menu, "mnu_pre_join"),
-	(try_end),
 	  
       (assign, "$marshall_defeated_in_battle", -1),
 
@@ -64189,7 +64179,7 @@ scripts = [
 	(team_set_slot, "$ai_attacker_team", slot_team_pai_attack_artillery_company_number, company8),
 		(try_begin),
 		(eq, ":preset", pai_preset_attack_setup_earlygame),
-		(store_random_in_range, ":distance_between_groups", 5000, 7000),
+		(store_random_in_range, ":distance_between_groups", 7000, 9000),
 		(store_random_in_range, ":distance_between_companies_within_group", -1200, -1800),
 		(team_set_slot, ":team", slot_team_pai_distance_between_groups, ":distance_between_groups"),
 		(team_set_slot, ":team", slot_team_pai_distance_between_companies_within_group, ":distance_between_companies_within_group"),
@@ -64200,8 +64190,9 @@ scripts = [
 		(team_set_slot, ":team", slot_team_pai_attack_group_2_2, company2),
 		(team_set_slot, ":team", slot_team_pai_attack_group_3_1, company6),
 		(team_set_slot, ":team", slot_team_pai_attack_group_3_2, company3),
+(display_message, "@earlygame"),
 		(else_try),
-		(store_random_in_range, ":distance_between_groups", 9500, 11000),
+		(store_random_in_range, ":distance_between_groups", 11500, 13000),
 		(store_random_in_range, ":distance_between_companies_within_group", -1800, -2000),
 		(team_set_slot, ":team", slot_team_pai_distance_between_groups, ":distance_between_groups"),
 		(team_set_slot, ":team", slot_team_pai_distance_between_companies_within_group, ":distance_between_companies_within_group"),
