@@ -1289,7 +1289,7 @@ scripts = [
 	(party_set_slot, "p_village_283", slot_village_bound_center, "p_castle_103"),
 	(party_set_slot, "p_village_266", slot_village_bound_center, "p_castle_159"),
 	(party_set_slot, "p_village_278", slot_village_bound_center, "p_castle_159"),
-	(party_set_slot, "p_village_36", slot_village_bound_center, "p_castle_139"),
+	(party_set_slot, "p_village_266", slot_village_bound_center, "p_castle_139"),
 	(party_set_slot, "p_village_273", slot_village_bound_center, "p_castle_36"),
 	(party_set_slot, "p_village_279", slot_village_bound_center, "p_castle_36"),
 	(party_set_slot, "p_village_268", slot_village_bound_center, "p_castle_33"),

@@ -5683,7 +5683,7 @@ simple_triggers = [
 			(assign, ":tech_faction", "fac_player_faction"),
 			(try_end),
 		(faction_slot_ge, ":tech_faction", slot_faction_technology_deepdefence, 10000),
-		(troop_has_item_equipped, "trp_faction6_troop1", "itm_res_hat6"),
+		(troop_has_item_equipped, "trp_faction6_troop1", "itm_tur_fez4"),
 			(try_begin),
 			(eq, ":tech_faction", "fac_player_faction"),
 			(assign, ":tech_faction", "fac_player_supporters_faction"),
