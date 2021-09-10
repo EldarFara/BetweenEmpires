@@ -143,16 +143,30 @@ scripts = [
 (faction_set_slot, "fac_kingdom_2", slot_faction_pas_rank_cavalry_string, "str_pas_rank_rus_cav_1"),
 (faction_set_slot, "fac_kingdom_3", slot_faction_pas_rank_infantry_string, "str_pas_rank_aus_inf_1"),
 (faction_set_slot, "fac_kingdom_3", slot_faction_pas_rank_cavalry_string, "str_pas_rank_aus_cav_1"),
+(faction_set_slot, "fac_kingdom_30", slot_faction_pas_rank_infantry_string, "str_pas_rank_aus_inf_1"),
+(faction_set_slot, "fac_kingdom_30", slot_faction_pas_rank_cavalry_string, "str_pas_rank_aus_cav_1"),
 (faction_set_slot, "fac_kingdom_4", slot_faction_pas_rank_infantry_string, "str_pas_rank_ita_1"),
 (faction_set_slot, "fac_kingdom_4", slot_faction_pas_rank_cavalry_string, "str_pas_rank_ita_1"),
 (faction_set_slot, "fac_kingdom_5", slot_faction_pas_rank_infantry_string, "str_pas_rank_ger_inf_1"),
 (faction_set_slot, "fac_kingdom_5", slot_faction_pas_rank_cavalry_string, "str_pas_rank_ger_cav_1"),
+(faction_set_slot, "fac_kingdom_27", slot_faction_pas_rank_infantry_string, "str_pas_rank_ger_inf_1"),
+(faction_set_slot, "fac_kingdom_27", slot_faction_pas_rank_cavalry_string, "str_pas_rank_ger_cav_1"),
+(faction_set_slot, "fac_kingdom_31", slot_faction_pas_rank_infantry_string, "str_pas_rank_ger_inf_1"),
+(faction_set_slot, "fac_kingdom_31", slot_faction_pas_rank_cavalry_string, "str_pas_rank_ger_cav_1"),
 (faction_set_slot, "fac_kingdom_6", slot_faction_pas_rank_infantry_string, "str_pas_rank_tur_1"),
 (faction_set_slot, "fac_kingdom_6", slot_faction_pas_rank_cavalry_string, "str_pas_rank_tur_1"),
 (faction_set_slot, "fac_kingdom_8", slot_faction_pas_rank_infantry_string, "str_pas_rank_bel_1"),
 (faction_set_slot, "fac_kingdom_8", slot_faction_pas_rank_cavalry_string, "str_pas_rank_bel_1"),
+(faction_set_slot, "fac_kingdom_9", slot_faction_pas_rank_infantry_string, "str_pas_rank_spa_1"),
+(faction_set_slot, "fac_kingdom_9", slot_faction_pas_rank_cavalry_string, "str_pas_rank_spa_1"),
+(faction_set_slot, "fac_kingdom_16", slot_faction_pas_rank_infantry_string, "str_pas_rank_por_1"),
+(faction_set_slot, "fac_kingdom_16", slot_faction_pas_rank_cavalry_string, "str_pas_rank_por_1"),
 (faction_set_slot, "fac_kingdom_26", slot_faction_pas_rank_infantry_string, "str_pas_rank_bel_1"),
 (faction_set_slot, "fac_kingdom_26", slot_faction_pas_rank_cavalry_string, "str_pas_rank_bel_1"),
+(faction_set_slot, "fac_kingdom_28", slot_faction_pas_rank_infantry_string, "str_pas_rank_ser_1"),
+(faction_set_slot, "fac_kingdom_28", slot_faction_pas_rank_cavalry_string, "str_pas_rank_ser_1"),
+(faction_set_slot, "fac_kingdom_24", slot_faction_pas_rank_infantry_string, "str_pas_rank_gre_1"),
+(faction_set_slot, "fac_kingdom_24", slot_faction_pas_rank_cavalry_string, "str_pas_rank_gre_1"),
 
 (faction_set_slot, "fac_kingdom_1", slot_faction_lmg, "itm_lmg_chauchat"),
 (faction_set_slot, "fac_kingdom_4", slot_faction_lmg, "itm_lmg_chauchat"),
@@ -53291,6 +53305,8 @@ scripts = [
 
 (set_fixed_point_multiplier, 1),
 
+(store_add, ":slot_team_is_following_leader", slot_team_company1_is_following_leader, ":company"),
+(team_set_slot, ":team", ":slot_team_is_following_leader", 0),
 	(try_begin),
 	(store_add, ":slot_team_state", slot_team_company1_state, ":company"),
 	(neg|team_slot_eq, ":team", ":slot_team_state", pbs_state_retreating),
@@ -53515,7 +53531,6 @@ scripts = [
 	(store_add, ":slot_team_state", slot_team_company1_state, ":company"),
 	(neg|team_slot_eq, ":team", ":slot_team_state", pbs_state_retreating),
 	(team_set_slot, ":team", ":slot_team_state", pbs_state_charging),
-
 		(try_for_agents,":agent"),
 		(agent_is_active, ":agent"),
 		(agent_is_alive, ":agent"),
@@ -53531,6 +53546,8 @@ scripts = [
 		(agent_clear_scripted_mode, ":agent"),
 		(agent_stop_running_away, ":agent"),
 		(try_end),
+	(store_add, ":slot_team_is_following_leader", slot_team_company1_is_following_leader, ":company"),
+	(team_set_slot, ":team", ":slot_team_is_following_leader", 0),
 	(try_end),
 ]),
 
@@ -53752,6 +53769,8 @@ scripts = [
 (team_set_slot, ":team", ":slot_team_timer", 22),
 (store_add, ":slot_team_company_type", slot_team_company1_type, ":company"),
 (team_get_slot, ":company_type", ":team", ":slot_team_company_type"),
+(store_add, ":slot_team_is_following_leader", slot_team_company1_is_following_leader, ":company"),
+(team_set_slot, ":team", ":slot_team_is_following_leader", 0),
 
 (assign, ":min_dist", 99999),
 (assign, ":found", 0),
@@ -54022,6 +54041,24 @@ scripts = [
 (position_set_y, pos30, ":average_y"),
 (position_rotate_z, pos30, ":average_z", 1),
 ]),
+("store_company_order_position_to_pos",
+[
+(store_script_param, ":team", 1),
+(store_script_param, ":company", 2),
+(store_script_param, ":pos", 3),
+
+(set_fixed_point_multiplier, 1),
+(store_add, ":slot_team_company_average_x", slot_team_company1_hold_order_x, ":company"),
+(team_get_slot, ":average_x", ":team", ":slot_team_company_average_x"),
+(store_add, ":slot_team_company_average_y", slot_team_company1_hold_order_y, ":company"),
+(team_get_slot, ":average_y", ":team", ":slot_team_company_average_y"),
+(store_add, ":slot_team_company_average_z", slot_team_company1_hold_order_z_rot, ":company"),
+(team_get_slot, ":average_z", ":team", ":slot_team_company_average_z"),
+(init_position, ":pos"),
+(position_set_x, ":pos", ":average_x"),
+(position_set_y, ":pos", ":average_y"),
+(position_rotate_z, ":pos", ":average_z", 1),
+]),
 
 ("store_company_average_position_to_pos",
 [
@@ -54260,6 +54297,8 @@ scripts = [
 		(position_get_y, ":y_coor2", pos30),
 		(val_add, ":x_coor", ":x_coor2"),
 		(val_add, ":y_coor", ":y_coor2"),
+		(store_add, ":slot_team_is_following_leader", slot_team_company1_is_following_leader, ":company"),
+		(team_set_slot, "$g_player_team", ":slot_team_is_following_leader", 0),
 		(try_end),
 
 	(neq, ":number", 0),
@@ -56842,6 +56881,8 @@ scripts = [
 
 (set_fixed_point_multiplier, 1),
 
+(store_add, ":slot_team_is_following_leader", slot_team_company1_is_following_leader, ":company"),
+(team_set_slot, ":team", ":slot_team_is_following_leader", 0),
 	(try_begin),
 	(store_add, ":slot_team_state", slot_team_company1_state, ":company"),
 	(neg|team_slot_eq, ":team", ":slot_team_state", pbs_state_retreating),

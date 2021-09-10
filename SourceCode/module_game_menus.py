@@ -15348,12 +15348,16 @@ the high lords and common folk across the many realms of Europe."),
 	]),
 	
   ("pas_enlistment_menu",0,
-    "Your current rank is {s1}.^^Current points/points needed for promotion: {reg10}/{reg11}",
+    "You are serving in {s2}. Your current rank is {s1}.^^Current points/points needed for promotion: {reg10}/{reg11}",
     "none",
     [ 
 	(assign, reg10, "$pas_enlistment_points"),
 	(call_script, "script_pas_enlistment_get_promotion"),
 	(call_script, "script_pas_enlistment_get_rank_name", s1),
+	(troop_get_slot, ":party", "$pas_enlistment_lord", slot_troop_leaded_party),
+	(gt, ":party", 0),
+	(party_is_active, ":party"),
+	(str_store_party_name, s2, ":party"),
 	],
     [
 	("pas_enlistment_menu_join_battle", [

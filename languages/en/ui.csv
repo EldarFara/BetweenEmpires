@@ -523,8 +523,8 @@ ui_order_button_follow_me|Follow me
 ui_order_button_charge|Charge
 ui_order_button_stand_ground|Stand ground
 ui_order_button_retreat|Retreat
-ui_order_button_advance| 
-ui_order_button_fall_back| 
+ui_order_button_advance|Advance 10 paces
+ui_order_button_fall_back|Fall back 10 paces
 ui_order_button_spread_out|Change to walking
 ui_order_button_stand_closer|Change to running
 ui_order_button_mount_horses|Mount horses
@@ -543,8 +543,8 @@ ui_retreat_e_|%s, retreat!
 ui_mount_horses_e_|%s, mount horses!
 ui_dismount_e_|%s, dismount!
 ui_advance_e_|%s, advance ten paces!
-ui_fall_back_e_| 
-ui_stand_closer_e_| 
+ui_fall_back_e_| %s, fall back ten paces!
+ui_stand_closer_e_| %s, change to running!
 ui_spread_out_e_|%s, change to walking!
 ui_use_blunt_weapons_e_|%s, use only blunt weapons!
 ui_use_any_weapon_e_|%s, use weapons at will!

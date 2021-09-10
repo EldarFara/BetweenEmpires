@@ -393,12 +393,12 @@ dlga_improve_relations_proceed:improve_relations_proceed_price_named 4095 223  2
 dlga_improve_relations_proceed_price_named:improve_relations_proceed_completed 69631 224  2 2149 2 1224979098644774912 360287970189639680 30 2 1224979098644774912 72057594037927946 Go_ahead,_you_have_my_blessings.  225  3 1529 2 360287970189639680 72057594037927946 502 3 432345564227567658 453 144115188075857085 502 3 432345564227567658 454 0 NO_VOICEOVER 
 dlga_improve_relations_proceed_completed:minister_pretalk 4095 225  0 I_will_get_right_to_it._Give_it_a_few_days,_and__I_am_sure_relations_are_bound_to_come_up_roses.  205  0 NO_VOICEOVER 
 dlga_improve_relations_proceed_price_named:minister_pretalk 69631 224  0 What_a_waste,_we_don't_need_their_support.  205  0 NO_VOICEOVER 
-dlga_minister_talk:break_alliance_initial 69631 206  7 2133 2 1224979098644774912 0 6 3 1224979098644774913 432345564227567659 432345564227567692 542 3 1224979098644774913 21 0 1 3 936748722493063899 1224979098644774913 432345564227567658 2105 2 1224979098644774912 1 3 0 2147483679 2 1224979098644774912 0 I_want_our_nation_to_break_alliance_with_other_nation.  226  0 NO_VOICEOVER 
+dlga_minister_talk:break_alliance_initial 69631 206  7 2133 2 1224979098644774912 0 6 3 1224979098644774913 432345564227567659 432345564227567692 542 3 1224979098644774913 21 0 1 3 936748722493063900 1224979098644774913 432345564227567658 2105 2 1224979098644774912 1 3 0 2147483679 2 1224979098644774912 0 I_want_our_nation_to_break_alliance_with_other_nation.  226  0 NO_VOICEOVER 
 dlga_break_alliance_initial:break_alliance_choose_faction 4095 226  0 With_what_nation?  227  0 NO_VOICEOVER 
-dlga_break_alliance_choose_faction:break_alliance_areyousure 73727 227  4 50 1 1224979098644774912 33 3 1224979098644774912 432345564227567659 432345564227567692 1 3 936748722493063899 432345564227567658 1224979098644774912 2335 2 31 1224979098644774912 {s31}.  228  1 50 1 144115188075857086 NO_VOICEOVER 
+dlga_break_alliance_choose_faction:break_alliance_areyousure 73727 227  4 50 1 1224979098644774912 33 3 1224979098644774912 432345564227567659 432345564227567692 1 3 936748722493063900 432345564227567658 1224979098644774912 2335 2 31 1224979098644774912 {s31}.  228  1 50 1 144115188075857086 NO_VOICEOVER 
 dlga_break_alliance_choose_faction:minister_pretalk 69631 227  0 Nevermind.  205  0 NO_VOICEOVER 
 dlga_break_alliance_areyousure:break_alliance_areyousure_answer 4095 228  1 2335 2 31 144115188075857086 Are_you_sure_you_want_to_break_alliance_with_{s31}?  229  0 NO_VOICEOVER 
-dlga_break_alliance_areyousure_answer:break_alliance_proceed 69631 229  0 Yes_I_am.  230  1 1 3 936748722493063898 432345564227567658 144115188075857086 NO_VOICEOVER 
+dlga_break_alliance_areyousure_answer:break_alliance_proceed 69631 229  0 Yes_I_am.  230  1 1 3 936748722493063899 432345564227567658 144115188075857086 NO_VOICEOVER 
 dlga_break_alliance_proceed:minister_pretalk 4095 230  0 Breaking_alliance_with_{s31}.  205  0 NO_VOICEOVER 
 dlga_break_alliance_areyousure_answer:minister_pretalk 69631 229  0 No_I'm_not.  205  0 NO_VOICEOVER 
 dlga_minister_talk:create_alliance_initial 69631 206  0 Let's_strengthen_our_position_in_the_world_and_send_out_an_invitation_for_an_alliance.  231  0 NO_VOICEOVER 
@@ -1086,12 +1086,12 @@ dlga_lord_talk:lord_give_order_call_to_arms_verify 69631 401  3 31 2 14411518807
 dlga_lord_give_order_call_to_arms_verify:lord_give_order_call_to_arms_verify_2 4095 521  0 You_wish_to_summon_all_lords_for_a_new_campaign?  522  0 NO_VOICEOVER 
 dlga_lord_give_order_call_to_arms_verify_2:lord_give_order_call_to_arms 69631 522  0 Yes._We_must_gather_all_our_forces_before_we_march_on_the_enemy.  523  0 NO_VOICEOVER 
 dlga_lord_give_order_call_to_arms_verify_2:lord_pretalk 69631 522  0 On_second_thought,_it_won't_be_necessary_to_summon_everyone.  154  0 NO_VOICEOVER 
-dlga_lord_give_order_call_to_arms:lord_pretalk 4095 523  0 All_right_then._I_will_send_messengers_and_tell_everyone_to_come_here.  154  1 1 2 936748722493064008 432345564227567658 NO_VOICEOVER 
+dlga_lord_give_order_call_to_arms:lord_pretalk 4095 523  0 All_right_then._I_will_send_messengers_and_tell_everyone_to_come_here.  154  1 1 2 936748722493064009 432345564227567658 NO_VOICEOVER 
 dlga_lord_talk:lord_give_order_disband_army_verify 69631 401  3 31 2 144115188075855989 144115188075856287 542 3 144115188075856287 8 360287970189639680 542 3 144115188075856287 815 1 I_want_to_end_the_campaign_and_let_everyone_return_home.  524  0 NO_VOICEOVER 
 dlga_lord_give_order_disband_army_verify:lord_give_order_disband_army_2 4095 524  0 You_want_to_end_the_current_campaign_and_release_all_commanders_from_duty?  525  0 NO_VOICEOVER 
 dlga_lord_give_order_disband_army_2:lord_give_order_disband_army 69631 525  0 Yes._We_no_longer_need_all_our_forces_here.  526  0 NO_VOICEOVER 
 dlga_lord_give_order_disband_army_2:lord_pretalk 69631 525  0 On_second_thought,_it_will_be_better_to_stay_together_for_now.  154  0 NO_VOICEOVER 
-dlga_lord_give_order_disband_army:lord_pretalk 4095 526  0 All_right._I_will_let_everyone_know_that_they_are_released_from_duty.  154  1 1 2 936748722493064007 432345564227567658 NO_VOICEOVER 
+dlga_lord_give_order_disband_army:lord_pretalk 4095 526  0 All_right._I_will_let_everyone_know_that_they_are_released_from_duty.  154  1 1 2 936748722493064008 432345564227567658 NO_VOICEOVER 
 dlga_lord_talk:lord_talk_ask_something 69631 401  2 30 2 144115188075856788 0 2147484208 3 144115188075855987 8 0 I_wish_to_ask_you_something.  527  0 NO_VOICEOVER 
 dlga_lord_talk_ask_something:lord_talk_ask_something_2 4095 527  0 Aye?_What_is_it?  528  0 NO_VOICEOVER 
 dlga_lord_talk_ask_something_again:lord_talk_ask_something_2 4095 549  0 Is_there_anything_else?  528  0 NO_VOICEOVER 

@@ -2410,6 +2410,14 @@ slot_team_company5_gasmasks                       = 275
 slot_team_company6_gasmasks                       = 276
 slot_team_company7_gasmasks                       = 277
 slot_team_company8_gasmasks                       = 278
+slot_team_company1_is_following_leader                       = 279
+slot_team_company2_is_following_leader                       = 280
+slot_team_company3_is_following_leader                       = 281
+slot_team_company4_is_following_leader                       = 282
+slot_team_company5_is_following_leader                       = 283
+slot_team_company6_is_following_leader                       = 284
+slot_team_company7_is_following_leader                       = 285
+slot_team_company8_is_following_leader                       = 286
 
 #Rebellion changes end
 # character backgrounds
