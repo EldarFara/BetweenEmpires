@@ -5749,6 +5749,7 @@ simple_triggers = [
 				(troop_add_items, ":troop", "itm_tur_hat1", 1),
 				(troop_equip_items, ":troop"),
 				(try_end),
+			(try_end),
 		(else_try),
 		(eq, ":faction", "fac_kingdom_6"),
 			(try_begin),
