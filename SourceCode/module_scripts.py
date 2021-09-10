@@ -65743,6 +65743,23 @@ scripts = [
 	(try_end),
 (assign, reg11, ":points_for_promotion"),
 ]),
+("pas_enlistment_get_rank_name",
+[
+(store_script_param, ":string", 1),
+
+(faction_get_slot, ":rank_string", "$g_encountered_party_faction", slot_faction_pas_rank_infantry_string),
+	(try_begin),
+	(eq, "$pas_enlistment_player_troop_is_cav", 1),
+	(faction_get_slot, ":rank_string", "$g_encountered_party_faction", slot_faction_pas_rank_cavalry_string),
+	(try_end),
+	(try_begin),
+	(this_or_next|eq, "$pas_enlistment_player_troop", "trp_faction12_troop13"),
+	(eq, "$pas_enlistment_player_troop", "trp_faction2_troop13"),
+	(assign, ":rank_string", "str_pas_rank_rus_cos_1"),
+	(try_end),
+(val_add, ":rank_string", "$pas_enlistment_rank"),
+(str_store_string, ":string", ":rank_string"),
+]),
 ]# modmerger_start version=201 type=2
 try:
     component_name = "scripts"

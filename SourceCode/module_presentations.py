@@ -12842,7 +12842,7 @@ presentations = [
         (position_set_x, pos1, 25),
         (position_set_y, pos1, ":cur_y"),
         (overlay_set_position, reg1, pos1),
-        (call_script, "script_party_calculate_strength", "p_main_party", 0),
+        (store_mul, reg0, "$pas_enlistment_rank", 50),
         (assign, ":offer_value", reg0),
         (val_div, ":offer_value", 2),
         (val_add, ":offer_value", 30),

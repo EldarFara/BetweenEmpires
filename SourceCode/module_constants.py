@@ -14,15 +14,15 @@ from ID_parties import *
 # script_calculate_troop_ai
 # script_async_recalculate_ais
 
-pas_points_for_rank_2 = 250
-pas_points_for_rank_3 = 600
-pas_points_for_rank_4 = 1000
-pas_points_for_rank_5 = 1500
-pas_points_for_rank_6 = 2000
-pas_points_for_rank_7 = 2500
-pas_points_for_rank_8 = 3500
-pas_points_for_rank_9 = 4500
-pas_points_for_rank_10 = 5500
+pas_points_for_rank_2 = 1000
+pas_points_for_rank_3 = 3000
+pas_points_for_rank_4 = 8000
+pas_points_for_rank_5 = 15000
+pas_points_for_rank_6 = 25000
+pas_points_for_rank_7 = 40000
+pas_points_for_rank_8 = 55000
+pas_points_for_rank_9 = 75000
+pas_points_for_rank_10 = 100000
 
 pas_lord_state_undefined = 0
 pas_lord_state_patrolling_center_peace_border = 1
@@ -1153,8 +1153,8 @@ slot_faction_pas_state =  slot_faction_ve_mod_slots_begin + 415
 slot_faction_pas_center_target =  slot_faction_ve_mod_slots_begin + 416
 slot_faction_pas_rank_infantry_string =  slot_faction_ve_mod_slots_begin + 417
 slot_faction_pas_rank_cavalry_string =  slot_faction_ve_mod_slots_begin + 418
-slot_faction_pas_player_rank =  slot_faction_ve_mod_slots_begin + 419
-slot_faction_pas_player_points =  slot_faction_ve_mod_slots_begin + 420
+slot_faction_pas_player_rank =  slot_faction_ve_mod_slots_begin + 420
+slot_faction_pas_player_points =  slot_faction_ve_mod_slots_begin + 421
 
 
 

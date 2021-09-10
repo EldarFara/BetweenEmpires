@@ -845,5 +845,6 @@ script_pas_enlistment_get_lord_to_enlist_for_faction = 843
 script_pas_enlistment_get_rank_from_renown = 844
 script_pas_enlistment_retire = 845
 script_pas_enlistment_get_promotion = 846
+script_pas_enlistment_get_rank_name = 847
 
 

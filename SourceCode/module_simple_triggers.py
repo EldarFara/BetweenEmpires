@@ -374,7 +374,7 @@ simple_triggers = [
 	  
       (store_current_day, ":cur_day"),
       (gt, ":cur_day", "$mercenary_service_next_renew_day"),
-      (jump_to_menu, "mnu_oath_fulfilled"),
+    #  (jump_to_menu, "mnu_oath_fulfilled"),
     ]),
 
   # Reducing luck by 1 in every 180 hours
@@ -5660,8 +5660,11 @@ simple_triggers = [
 			(try_for_range, ":troop", "trp_faction4_troop8", "trp_faction4_troop10"),
 			(troop_add_items, ":troop", "itm_res_hat8", 1), (troop_add_items, ":troop", "itm_res_infantry7", 1), (troop_add_items, ":troop", "itm_res_trousers7", 1),
 			(try_end),
-			(try_for_range, ":troop", "trp_faction4_troop10", "trp_faction5_troop1"),
-			(troop_add_items, ":troop", "itm_res_hat8", 1), (troop_add_items, ":troop", "itm_res_infantry8", 1), (troop_add_items, ":troop", "itm_res_trousers7", 1),
+			(try_for_range, ":troop", "trp_faction4_troop10", "trp_faction4_prisonguard"),
+			(troop_add_items, ":troop", "itm_res_hat4", 1), (troop_add_items, ":troop", "itm_res_infantry8", 1), (troop_add_items, ":troop", "itm_res_trousers7", 1),
+			(try_end),
+			(try_for_range, ":troop", "trp_faction4_prisonguard", "trp_faction5_troop1"),
+			(troop_add_items, ":troop", "itm_res_hat11", 1), (troop_add_items, ":troop", "itm_res_infantry8", 1), (troop_add_items, ":troop", "itm_res_trousers7", 1),
 			(try_end),
 		(troop_add_items, "trp_faction4_howitzer_cannoneer_officer", "itm_res_hat11", 1), (troop_add_items, "trp_faction4_howitzer_cannoneer_officer", "itm_res_infantry8", 1), (troop_add_items, "trp_faction4_howitzer_cannoneer_officer", "itm_res_trousers7", 1),
 		(troop_add_items, "trp_faction4_fieldgun_cannoneer_officer", "itm_res_hat11", 1), (troop_add_items, "trp_faction4_fieldgun_cannoneer_officer", "itm_res_infantry8", 1), (troop_add_items, "trp_faction4_fieldgun_cannoneer_officer", "itm_res_trousers7", 1),
@@ -5932,7 +5935,7 @@ simple_triggers = [
 	(troop_get_inventory_slot, ":item", "$pas_enlistment_player_troop", ":slot"),
 	(gt, ":item", 1),
 		(try_begin),
-		(call_script, "script_cf_get_faction_rifle_type", "$g_encountered_party_faction"), (assign, ":rifle_type", reg0),
+		(call_script, "script_cf_get_faction_rifle_type", "$players_kingdom"), (assign, ":rifle_type", reg0),
 		(gt, ":rifle_type", rifle_type_smoothbore),
 		(store_add, ":slot_item_analog", slot_item_rifled_analog-1, ":rifle_type"),
 		(item_get_slot, ":analog", ":item", ":slot_item_analog"),

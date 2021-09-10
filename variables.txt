@@ -1237,6 +1237,7 @@ pas_enlistment_opponent_to_ignore
 pas_enlistment_opponent_to_ignore_timer
 g_battle_type
 battle_timer
+g_player_team
 hp_regen_timer
 ironsight_mode
 ironsight_timer
@@ -1274,7 +1275,6 @@ bugle_cooldown
 voices
 aerial_view_hol_pos_order_timer
 g_mouse_y
-g_player_team
 g_enemy_team
 g_allies_team
 defenders_team
