@@ -5555,7 +5555,7 @@ simple_triggers = [
 			(assign, ":tech_faction", "fac_player_faction"),
 			(try_end),
 		(faction_slot_ge, ":tech_faction", slot_faction_technology_shocktroops, 10000),
-		(troop_has_item_equipped, "trp_faction3_troop1", "itm_lou_infantry9"),
+		(troop_has_item_equipped, "trp_faction3_troop1", "itm_lou_infantry18"),
 			(try_begin),
 			(eq, ":tech_faction", "fac_player_faction"),
 			(assign, ":tech_faction", "fac_player_supporters_faction"),
@@ -5870,6 +5870,10 @@ simple_triggers = [
 (gt, "$players_kingdom", "fac_player_supporters_faction"),
 (val_add, "$pas_enlistment_points", 1),
 (call_script, "script_pas_enlistment_get_promotion"),
+	(try_begin),
+	(eq, "$pas_enlistment_rank", 9),
+	(faction_set_slot, slot_faction_marshall, "trp_player"),
+	(try_end),
 ]),
 	
 ]

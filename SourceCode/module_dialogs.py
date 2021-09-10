@@ -11763,10 +11763,7 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    [
      (eq, "$g_talk_troop_faction", "$players_kingdom"),
      (faction_slot_eq, "$players_kingdom", slot_faction_marshall, "trp_player"),
-     #(troop_slot_eq, "$g_talk_troop", slot_troop_is_prisoner, 0),
-     (neg|troop_slot_ge, "$g_talk_troop", slot_troop_prisoner_of_party, 0),
-     (this_or_next|faction_slot_eq, "$players_kingdom", slot_faction_ai_state, sfai_default),
-     (faction_slot_eq, "$players_kingdom", slot_faction_ai_state, sfai_feast),
+	(faction_slot_eq, "$players_kingdom", slot_faction_pas_state, pas_faction_state_no_campaign),
    ],
    "I want to start a new campaign. Let us assemble the army here.", "lord_give_order_call_to_arms_verify",
    []],
@@ -11787,12 +11784,9 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
 
   [anyone|plyr,"lord_talk",
    [
-     (eq, "$g_talk_troop_faction", "$players_kingdom"),
-     (faction_slot_eq, "$players_kingdom", slot_faction_marshall, "trp_player"),
-     #(troop_slot_eq, "$g_talk_troop", slot_troop_is_prisoner, 0),
-     (neg|troop_slot_ge, "$g_talk_troop", slot_troop_prisoner_of_party, 0),
-     (neg|faction_slot_eq, "$players_kingdom", slot_faction_ai_state, sfai_default),
-     (neg|faction_slot_eq, "$players_kingdom", slot_faction_ai_state, sfai_feast),
+	(eq, "$g_talk_troop_faction", "$players_kingdom"),
+	(faction_slot_eq, "$players_kingdom", slot_faction_marshall, "trp_player"),
+	(faction_slot_eq, "$players_kingdom", slot_faction_pas_state, pas_faction_state_campaign),
      ],
    "I want to end the campaign and let everyone return home.", "lord_give_order_disband_army_verify", []],
 

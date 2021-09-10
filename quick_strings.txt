@@ -1,4 +1,4 @@
-1253
+1260
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -827,6 +827,8 @@ qstr_earlygame earlygame
 qstr_{s1}_cannot_launch_g {s1}_cannot_launch_grenade_attack_-_{reg1}_seconds_cooldown.
 qstr_{s1}_cannot_launch_ga {s1}_cannot_launch_gas_attack_-_{reg1}_seconds_cooldown.
 qstr_You_became_a_high_co You_became_a_high_command_officer,_which_means_you_are_free_to_act_independent_during_service.
+qstr_You_became_a_non_com You_became_a_non-commissioned_officer,_which_means_you_will_now_command_troops_in_battle.
+qstr_You_became_a_marshal You_became_a_marshall_of_{s10},_which_means_you_can_start_and_manage_campaigns.
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_running.
 qstr_{s1}_cannot_change_f {s1}_cannot_change_formation_-_only_light_infantry_can_apply_extended_line_formation.
@@ -1076,14 +1078,19 @@ qstr_{!}{s11}{s12} {!}{s11}{s12}
 qstr_{!}DEBUG____Hours_si {!}DEBUG_--_Hours_since_last_feast_started:_{reg4}
 qstr_^^Note_that_so_long_ ^^Note_that_so_long_as_you_remain_marshal,_the_lords_of_the_realm_will_be_expecting_you_to_lead_them_on_campaign._So,_if_you_are_awaiting_a_feast,_either_for_a_wedding_or_for_other_purposes,_you_may_wish_to_resign_the_marshalship_by_speaking_to_your_liege.
 qstr_Temperature:_+{reg0} Temperature:_+{reg0}_C_^Pressure:_{reg1}_hPa_^Humidity:_{reg2}%_^Wind:_{reg3}_km/h_^Cloudiness:_{reg4}%_^Precipitation:_{reg5}%
+qstr_Kingdom_of_Wurttembe Kingdom_of_Wurttemberg
+qstr_Kingdom_of_Hannover Kingdom_of_Hannover
 qstr_French_Empire French_Empire
 qstr_Austrian_Empire Austrian_Empire
 qstr_Kingdom_of_Sardinia Kingdom_of_Sardinia
 qstr_Kingdom_of_Prussia Kingdom_of_Prussia
+qstr_Principality_of_Bulg Principality_of_Bulgaria
 qstr_French_Republic French_Republic
 qstr_Austria_Hungary Austria-Hungary
 qstr_Kingdom_of_Italy Kingdom_of_Italy
 qstr_German_Empire German_Empire
+qstr_Kingdom_of_Bulgaria Kingdom_of_Bulgaria
+qstr_Principality_of_Alba Principality_of_Albania
 qstr_You_have_bought_a_fi You_have_bought_a_field_gun.
 qstr_You_have_exceeded_pa You_have_exceeded_party_size_limit.
 qstr_You_have_no_enough_m You_have_no_enough_money.
