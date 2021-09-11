@@ -14511,6 +14511,23 @@ the high lords and common folk across the many realms of Europe."),
 	(jump_to_menu, "mnu_start_game_ai_party_size_selection"),
         ]
 		),
+      ("start_game_choose_date_1916",[],"1916 (Temporary).",
+       [
+	(assign, "$g_current_year", 1916),
+	(faction_set_name, "fac_kingdom_27", "@Kingdom of Bulgaria"),
+	(faction_set_name, "fac_kingdom_31", "@Principality of Albania"),
+	(faction_set_name, "fac_kingdom_1", "@French Republic"),
+	(faction_set_name, "fac_kingdom_3", "@Austria-Hungary"),
+	(faction_set_name, "fac_kingdom_4", "@Kingdom of Italy"),
+	(faction_set_name, "fac_kingdom_5", "@German Empire"),
+	(call_script, "script_change_faction_flag", "fac_kingdom_31", 63),
+	(call_script, "script_change_faction_flag", "fac_kingdom_27", 40),
+	(call_script, "script_change_faction_flag", "fac_kingdom_2", 34),
+	(call_script, "script_change_faction_flag", "fac_kingdom_3", 35),
+	(call_script, "script_change_faction_flag", "fac_kingdom_5", 36),
+	(jump_to_menu, "mnu_start_game_ai_party_size_selection"),
+        ]
+		),
       ("go_back",[],"Go back",
        [(change_screen_quit), 
         ]
