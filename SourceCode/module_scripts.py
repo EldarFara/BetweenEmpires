@@ -65141,6 +65141,7 @@ scripts = [
 	(troop_slot_eq, ":lord", slot_troop_occupation, slto_kingdom_hero),
 	(neq, ":lord", "$player_faction_leader_start_deleted_troop"),
 	(store_faction_of_troop, ":faction", ":lord"),
+	(faction_slot_eq, ":faction", slot_faction_state, sfs_active),
 	(faction_get_slot, ":capital", ":faction", slot_faction_capital),
 	(assign, "$g_there_is_no_avaliable_centers", 1),
 	(call_script, "script_create_kingdom_hero_party", ":lord", ":capital"),

@@ -1,4 +1,4 @@
-1260
+1261
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -868,6 +868,7 @@ qstr_{!}sending_prisoner_ {!}sending_prisoner_cart_6_feet_underground!
 qstr_{!}spawn_prison_cart {!}spawn_prison_cart_5_secs_initiated!
 qstr_{!}spawn_prison_cart! {!}spawn_prison_cart!
 qstr_{!}g_multiplayer_cco {!}g_multiplayer_ccoop_spawn_alive_player_squad:_{reg0}
+qstr_2_{reg1} 2_{reg1}
 qstr_Your_current_rank_is Your_current_rank_is_{s1}.^^Current_points/points_needed_for_promotion:_{reg10}/{reg11}
 qstr_^{s32}_s_Infamy:_{re ^{s32}'s_Infamy:_{reg10}
 qstr_{!}{s4}:_M{reg3}_2M{ {!}{s4}:_M{reg3},_2M{reg4},_PC{reg5},_2PC{reg6},_PM{reg7}
