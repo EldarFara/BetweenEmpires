@@ -269,6 +269,7 @@ lmg_runtime = (
 	(agent_get_animation, ":animation", ":agent", 1),
 		(try_begin),
 		(neq, ":animation", "anim_ready_crossbow"),
+		(neq, ":animation", "anim_prone_rifle_idle"),
 		(agent_set_slot, ":agent", slot_agent_lmg_fire_start_timer, 5),
 		(try_end),
 	(eq, ":animation", "anim_ready_crossbow"),
