@@ -847,5 +847,6 @@ script_pas_enlistment_get_rank_from_renown = 845
 script_pas_enlistment_retire = 846
 script_pas_enlistment_get_promotion = 847
 script_pas_enlistment_get_rank_name = 848
+script_cf_agent_is_in_line_of_sight_from_pos = 849
 
 
