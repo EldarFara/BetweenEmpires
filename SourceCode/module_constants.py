@@ -1155,6 +1155,8 @@ slot_faction_pas_rank_infantry_string =  slot_faction_ve_mod_slots_begin + 417
 slot_faction_pas_rank_cavalry_string =  slot_faction_ve_mod_slots_begin + 418
 slot_faction_pas_player_rank =  slot_faction_ve_mod_slots_begin + 420
 slot_faction_pas_player_points =  slot_faction_ve_mod_slots_begin + 421
+slot_faction_mg_prop =  slot_faction_ve_mod_slots_begin + 422
+slot_faction_mg_item =  slot_faction_ve_mod_slots_begin + 423
 
 
 

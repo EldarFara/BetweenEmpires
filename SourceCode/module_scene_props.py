@@ -4223,6 +4223,97 @@ scene_props = [
 ("gray_noshade", 0, "gray_noshade", 0, []),
 ("grenade_timer", sokf_invisible, "0", "0", []),
 ("gas_shell", sokf_invisible, "0", "0", []),
+  ("mg2_russian", sokf_moveable, "mg2_russian", "bo_mg1",
+   [
+   (ti_on_scene_prop_init,
+    [
+	(store_trigger_param_1, ":scene_prop_id"),
+	(scene_prop_set_slot, ":scene_prop_id", slot_prop_agent_attached, reg0),
+	(assign, reg1, ":scene_prop_id"),
+    ]),
+   ]),
+  ("mg2_russian_barrel", sokf_moveable, "mg2_russian_barrel", "0",
+   [
+   (ti_on_scene_prop_init,
+    [
+	(store_trigger_param_1, ":scene_prop_id"),
+	(scene_prop_set_slot, ":scene_prop_id", slot_prop_agent_attached, reg0),
+	(assign, reg2, ":scene_prop_id"),
+    ]),
+   ]),
+  ("mg3_german", sokf_moveable, "mg3_german", "bo_mg1",
+   [
+   (ti_on_scene_prop_init,
+    [
+	(store_trigger_param_1, ":scene_prop_id"),
+	(scene_prop_set_slot, ":scene_prop_id", slot_prop_agent_attached, reg0),
+	(assign, reg1, ":scene_prop_id"),
+    ]),
+   ]),
+  ("mg3_german_barrel", sokf_moveable, "mg3_german_barrel", "0",
+   [
+   (ti_on_scene_prop_init,
+    [
+	(store_trigger_param_1, ":scene_prop_id"),
+	(scene_prop_set_slot, ":scene_prop_id", slot_prop_agent_attached, reg0),
+	(assign, reg2, ":scene_prop_id"),
+    ]),
+   ]),
+  ("mg4_french", sokf_moveable, "mg4_french", "bo_mg1",
+   [
+   (ti_on_scene_prop_init,
+    [
+	(store_trigger_param_1, ":scene_prop_id"),
+	(scene_prop_set_slot, ":scene_prop_id", slot_prop_agent_attached, reg0),
+	(assign, reg1, ":scene_prop_id"),
+    ]),
+   ]),
+  ("mg4_french_barrel", sokf_moveable, "mg4_french_barrel", "0",
+   [
+   (ti_on_scene_prop_init,
+    [
+	(store_trigger_param_1, ":scene_prop_id"),
+	(scene_prop_set_slot, ":scene_prop_id", slot_prop_agent_attached, reg0),
+	(assign, reg2, ":scene_prop_id"),
+    ]),
+   ]),
+  ("mg5_austrian", sokf_moveable, "mg3_german", "bo_mg1",
+   [
+   (ti_on_scene_prop_init,
+    [
+	(store_trigger_param_1, ":scene_prop_id"),
+	(scene_prop_set_slot, ":scene_prop_id", slot_prop_agent_attached, reg0),
+	(assign, reg1, ":scene_prop_id"),
+    ]),
+   ]),
+  ("mg5_austrian_barrel", sokf_moveable, "mg3_german_barrel", "0",
+   [
+   (ti_on_scene_prop_init,
+    [
+	(store_trigger_param_1, ":scene_prop_id"),
+	(scene_prop_set_slot, ":scene_prop_id", slot_prop_agent_attached, reg0),
+	(assign, reg2, ":scene_prop_id"),
+    ]),
+   ]),
+  ("mg6_british", sokf_moveable, "mg1", "bo_mg1",
+   [
+   (ti_on_scene_prop_init,
+    [
+	(store_trigger_param_1, ":scene_prop_id"),
+	(scene_prop_set_slot, ":scene_prop_id", slot_prop_agent_attached, reg0),
+	(assign, reg1, ":scene_prop_id"),
+    ]),
+   ]),
+  ("mg6_british_barrel", sokf_moveable, "mg1_barrel", "0",
+   [
+   (ti_on_scene_prop_init,
+    [
+	(store_trigger_param_1, ":scene_prop_id"),
+	(scene_prop_set_slot, ":scene_prop_id", slot_prop_agent_attached, reg0),
+	(assign, reg2, ":scene_prop_id"),
+	(prop_instance_set_material, ":scene_prop_id", "@vickers2b"),
+    ]),
+   ]),
 ]
 
  # modmerger_start version=201 type=2

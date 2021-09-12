@@ -1,6 +1,7 @@
-1261
+1283
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
+qstr_vickers2b vickers2b
 qstr_Next_Page Next_Page
 qstr_Game_Rules:^ Game_Rules:^
 qstr_0 0
@@ -1260,3 +1261,24 @@ qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
 qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
+qstr_bms bms
+qstr_0_0_once 0,_0,_once
+qstr_spawn_of_first_agent spawn_of_first_agent
+qstr_player_spawn player_spawn
+qstr_pbs_agent_spawn_begi pbs_agent_spawn_begin
+qstr_pbs_agent_spawn_end pbs_agent_spawn_end
+qstr_player_spawn_end player_spawn_end
+qstr_1 1
+qstr_2 2
+qstr_3 3
+qstr_4 4
+qstr_5 5
+qstr_6 6
+qstr_4.1 4.1
+qstr_4.2 4.2
+qstr_4.3 4.3
+qstr_4.4 4.4
+qstr_4.5 4.5
+qstr_4.6 4.6
+qstr_4.5.1 4.5.1
+qstr_4.5.2 4.5.2

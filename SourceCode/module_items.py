@@ -2564,6 +2564,11 @@ items = [
 ["gasmask_imrovised2","Improvised Face Bandage", [("gasmask_improvised2_L", 0)], itp_type_hand_armor|itp_covers_beard, 0,100, weight(10)|abundance(100)|head_armor(20), imodbits_cloth, []],
 ["gasmask_imrovised3","Improvised Face Bandage", [("gasmask_improvised2_L", 0)], itp_type_hand_armor|itp_covers_beard, 0,100, weight(10)|abundance(100)|head_armor(20), imodbits_cloth, []],
 
+["mg2_russian","Machine Gun", [("mg2_russian_item", 0)], itp_type_polearm|itp_two_handed|itp_primary, itcf_carry_spear,0, weight(30)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(0, pierce)|swing_damage(0, blunt), imodbits_none, []],
+["mg3_german","Machine Gun", [("mg3_german_item", 0)], itp_type_polearm|itp_two_handed|itp_primary, itcf_carry_spear,0, weight(30)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(0, pierce)|swing_damage(0, blunt), imodbits_none, []],
+["mg4_french","Machine Gun", [("mg4_french_item", 0)], itp_type_polearm|itp_two_handed|itp_primary, itcf_carry_spear,0, weight(30)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(0, pierce)|swing_damage(0, blunt), imodbits_none, []],
+["mg5_austrian","Machine Gun", [("mg5_austrian_item", 0)], itp_type_polearm|itp_two_handed|itp_primary, itcf_carry_spear,0, weight(30)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(0, pierce)|swing_damage(0, blunt), imodbits_none, []],
+["mg6_british","Machine Gun", [("mg_item", 0)], itp_type_polearm|itp_two_handed|itp_primary, itcf_carry_spear,0, weight(30)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(0, pierce)|swing_damage(0, blunt), imodbits_none, []],
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 
