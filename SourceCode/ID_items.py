@@ -1717,4 +1717,5 @@ itm_mg3_german = 1715
 itm_mg4_french = 1716
 itm_mg5_austrian = 1717
 itm_mg6_british = 1718
-itm_items_end = 1719
+itm_ramrod1 = 1719
+itm_items_end = 1720

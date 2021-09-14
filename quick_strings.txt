@@ -1,4 +1,4 @@
-1283
+1267
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_vickers2b vickers2b
@@ -179,7 +179,7 @@ qstr_Crimean_War^^Experie Crimean_War^^Experience
 qstr_Skirmish_Line^^Tacti Skirmish_Line^^Tactics
 qstr_Modern_Defence^^Tact Modern_Defence^^Tactics
 qstr_Modern_Attack_Tactic Modern_Attack_Tactics
-qstr_Deep_Defence Deep_Defence
+qstr_Rapid_Firing^^Artill Rapid_Firing^^Artillery
 qstr_Infantry_Machine^^Gu Infantry_Machine^^Gun_Tactics
 qstr_Covering_Fire Covering_Fire
 qstr_Gas_Attacks Gas_Attacks
@@ -189,7 +189,8 @@ qstr_faction_technologies faction_technologies_tech_available
 qstr_faction_technologies_ faction_technologies_tech_inprogress
 qstr_Rifled_Caplock^Muske Rifled_Caplock^Muskets
 qstr_faction_technologies_p faction_technologies_photo_riflesrifled
-qstr_faction_technologies_ph faction_technologies_photo_deepdefence
+qstr_Rapid_Firing^Artille Rapid_Firing^Artillery
+qstr_faction_technologies_ph faction_technologies_photo_modernartillery
 qstr_faction_technologies_pho faction_technologies_photo_modernattack
 qstr_Crimean_War^Experien Crimean_War^Experience
 qstr_faction_technologies_phot faction_technologies_photo_crimeanwar
@@ -656,6 +657,7 @@ qstr_Mounted_Rifles_Squad Mounted_Rifles_Squadron
 qstr_Cavalry_Guard_Squadr Cavalry_Guard_Squadron
 qstr_Field_Guns_Battery Field_Guns_Battery
 qstr_Howitzers_Battery Howitzers_Battery
+qstr_Heavy_Howitzers_Batt Heavy_Howitzers_Battery
 qstr_Machine_Guns_Crew Machine_Guns_Crew
 qstr_Shock_Troops_Company Shock_Troops_Company
 qstr_Armor_Squadron Armor_Squadron
@@ -667,11 +669,13 @@ qstr_M.R. M.R.
 qstr_C.G. C.G.
 qstr_G.B. G.B.
 qstr_H.B. H.B.
+qstr_H.H. H.H.
 qstr_M.G. M.G.
 qstr_S.I. S.I.
 qstr_A. A.
 qstr_Cannot_form_square:_t Cannot_form_square:_too_few_soldiers_(need_at_least_25).
 qstr_1_{reg1} 1_{reg1}
+qstr_flag1_0 flag1_0
 qstr_{s31}_created_a_casu {s31}_created_a_casus_belli_for_{s32}_for_{reg10}_days.
 qstr_{s31}_s_infamy_is_in {s31}'s_infamy_is_increased_by_{reg10}_and_is_now_{reg11}.
 qstr_{s31}_s_infamy_is_de {s31}'s_infamy_is_decreased_by_{reg10}_and_is_now_{reg11}.
@@ -1098,6 +1102,7 @@ qstr_You_have_exceeded_pa You_have_exceeded_party_size_limit.
 qstr_You_have_no_enough_m You_have_no_enough_money.
 qstr_Not_available_in_thi Not_available_in_this_town.
 qstr_You_have_bought_a_ho You_have_bought_a_howizer.
+qstr_You_have_bought_a_he You_have_bought_a_heavy_howizer.
 qstr_You_have_bought_a_ma You_have_bought_a_machine_gun.
 qstr_Not_available_for_th Not_available_for_this_faction.
 qstr_Breaking_camp... Breaking_camp...
@@ -1261,24 +1266,3 @@ qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
 qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
 qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
-qstr_bms bms
-qstr_0_0_once 0,_0,_once
-qstr_spawn_of_first_agent spawn_of_first_agent
-qstr_player_spawn player_spawn
-qstr_pbs_agent_spawn_begi pbs_agent_spawn_begin
-qstr_pbs_agent_spawn_end pbs_agent_spawn_end
-qstr_player_spawn_end player_spawn_end
-qstr_1 1
-qstr_2 2
-qstr_3 3
-qstr_4 4
-qstr_5 5
-qstr_6 6
-qstr_4.1 4.1
-qstr_4.2 4.2
-qstr_4.3 4.3
-qstr_4.4 4.4
-qstr_4.5 4.5
-qstr_4.6 4.6
-qstr_4.5.1 4.5.1
-qstr_4.5.2 4.5.2

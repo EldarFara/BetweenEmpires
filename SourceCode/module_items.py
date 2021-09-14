@@ -2570,6 +2570,8 @@ items = [
 ["mg5_austrian","Machine Gun", [("mg5_austrian_item", 0)], itp_type_polearm|itp_two_handed|itp_primary, itcf_carry_spear,0, weight(30)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(0, pierce)|swing_damage(0, blunt), imodbits_none, []],
 ["mg6_british","Machine Gun", [("mg_item", 0)], itp_type_polearm|itp_two_handed|itp_primary, itcf_carry_spear,0, weight(30)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(0, pierce)|swing_damage(0, blunt), imodbits_none, []],
 
+["ramrod1","Cannon Ramrod", [("field_gun_ramrod1", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(3.7)|hit_points(18432)|spd_rtng(75)|weapon_length(100)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],
+
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 
 ]

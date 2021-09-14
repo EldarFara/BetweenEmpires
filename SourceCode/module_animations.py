@@ -1948,7 +1948,7 @@ animations = [
    [4.0, "Yuri_CannonBarrelCleaningRight", 1, 17, arf_blend_in_0],
  ],
  ["Yuri_CannonRamrodWetting", acf_enforce_lowerbody, amf_priority_fall_from_horse|amf_play|amf_client_prediction|amf_keep,
-   [3.0, "Yuri_CannonRamrodWetting", 0, 5, arf_blend_in_0],
+   [3.0, "Yuri_CannonRamrodWetting", 5, 5, arf_blend_in_0],
  ],
  ["Yuri_CannonRamrodStance", acf_enforce_lowerbody, amf_priority_jump|amf_play|amf_client_prediction,
    [15.0, "Yuri_CannonRamrodStance", 0, 623, arf_cyclic],

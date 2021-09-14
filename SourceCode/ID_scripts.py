@@ -849,5 +849,16 @@ script_pas_enlistment_retire = 847
 script_pas_enlistment_get_promotion = 848
 script_pas_enlistment_get_rank_name = 849
 script_cf_agent_is_in_line_of_sight_from_pos = 850
+script_cannon_body_spawn = 851
+script_cannon_tick_timer = 852
+script_cannon_process_moving = 853
+script_cannon_reassign_cannoneers = 854
+script_cannon_cancel_cannoneers_animations = 855
+script_cannon_process_reloading = 856
+script_cannon_process_aiming = 857
+script_cannon_fire = 858
+script_cf_if_agent_has_valid_target_agent = 859
+script_shell_hits_pos = 860
+script_cf_if_pos_is_valid = 861
 
 

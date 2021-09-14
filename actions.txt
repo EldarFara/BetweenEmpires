@@ -1059,7 +1059,7 @@
  Yuri_CannonBarrelCleaningRight 256 50331729  1
   4.000000 Yuri_CannonBarrelCleaningRight 1 17 1 0 0.0 0.0 0.0 0.0 
  Yuri_CannonRamrodWetting 256 117440593  1
-  3.000000 Yuri_CannonRamrodWetting 0 5 1 0 0.0 0.0 0.0 0.0 
+  3.000000 Yuri_CannonRamrodWetting 5 5 1 0 0.0 0.0 0.0 0.0 
  Yuri_CannonRamrodStance 256 50331650  1
   15.000000 Yuri_CannonRamrodStance 0 623 268435456 0 0.0 0.0 0.0 0.0 
  Yuri_CannonRamrodDrop 256 50331729  1

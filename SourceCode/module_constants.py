@@ -14,6 +14,9 @@ from ID_parties import *
 # script_calculate_troop_ai
 # script_async_recalculate_ais
 
+cannon_type_fieldgun = 0
+cannon_type_howitzer = 1
+
 pas_points_for_rank_2 = 1500
 pas_points_for_rank_3 = 4000
 pas_points_for_rank_4 = 8000
@@ -311,7 +314,8 @@ army_drill_level_bad = 1
 faction_technologies_number = 19
 faction_technology_preset_year = faction_technologies_number
 
-cannons_limit = 10
+cannons_limit = 5
+cannons_limit_lategame = 10
 
 howitzer_muzzle_velocity = 85
 
@@ -374,6 +378,7 @@ YuriSlotAgent_Cannoneer1 = 35
 YuriSlotAgent_Cannoneer2 = 36
 YuriSlotAgent_Cannoneer3 = 37
 YuriSlotAgent_CannonProp = 38
+slot_agent_cannon_prop = YuriSlotAgent_CannonProp
 YuriSlotAgent_ImpaledLanceMode = 39
 YuriSlotAgent_ImpaledLanceEnemy = 40
 YuriSlotAgent_ImpaledLanceTimer = 41
@@ -417,6 +422,75 @@ slot_prop_animation_number_of_frames = YuriSlotProp_Cannoneer1 + 35
 slot_prop_animation_current_frame = YuriSlotProp_Cannoneer1 + 36
 slot_prop_grenade_timer = YuriSlotProp_Cannoneer1 + 37
 slot_prop_grenade_agent = YuriSlotProp_Cannoneer1 + 38
+slot_prop_cannon_wheels_offset_y = YuriSlotProp_Cannoneer1 + 39
+slot_prop_cannon_wheels_offset_z = YuriSlotProp_Cannoneer1 + 40
+slot_prop_cannon_barrel_offset_z = YuriSlotProp_Cannoneer1 + 41
+slot_prop_cannon_cannoneer_officer = YuriSlotProp_Cannoneer1 + 42
+slot_prop_cannon_cannoneer1 = YuriSlotProp_Cannoneer1 + 43
+slot_prop_cannon_cannoneer2 = YuriSlotProp_Cannoneer1 + 44
+slot_prop_cannon_cannoneer3 = YuriSlotProp_Cannoneer1 + 45
+slot_prop_cannon_timer = YuriSlotProp_Cannoneer1 + 46
+slot_prop_cannon_state = YuriSlotProp_Cannoneer1 + 47
+slot_prop_cannon_order_target_postion_x = YuriSlotProp_Cannoneer1 + 48
+slot_prop_cannon_order_target_postion_y = YuriSlotProp_Cannoneer1 + 49
+slot_prop_cannon_rope1 = YuriSlotProp_Cannoneer1 + 50
+slot_prop_cannon_rope2 = YuriSlotProp_Cannoneer1 + 51
+slot_prop_cannon_ramrod1 = YuriSlotProp_Cannoneer1 + 52
+slot_prop_cannon_ramrod2 = YuriSlotProp_Cannoneer1 + 53
+slot_prop_cannon_shell = YuriSlotProp_Cannoneer1 + 54
+slot_prop_cannon_wheels = YuriSlotProp_Cannoneer1 + 55
+slot_prop_cannon_barrel = YuriSlotProp_Cannoneer1 + 56
+slot_prop_cannon_wheels_rotation_x = YuriSlotProp_Cannoneer1 + 57
+slot_prop_cannon_barrel_rotation_x = YuriSlotProp_Cannoneer1 + 58
+slot_prop_cannon_reload_time = YuriSlotProp_Cannoneer1 + 59
+slot_prop_cannon_reload_state_initial = YuriSlotProp_Cannoneer1 + 60
+slot_prop_cannon_reload_state = YuriSlotProp_Cannoneer1 + 61
+slot_prop_cannon_timer_reload = YuriSlotProp_Cannoneer1 + 62
+slot_prop_cannon_type = YuriSlotProp_Cannoneer1 + 63
+slot_prop_cannon_era = YuriSlotProp_Cannoneer1 + 64
+slot_prop_shell_phase = YuriSlotProp_Cannoneer1 + 65
+slot_prop_shell_agent = YuriSlotProp_Cannoneer1 + 66
+slot_prop_cannon_pos_x = YuriSlotProp_Cannoneer1 + 67
+slot_prop_cannon_pos_y = YuriSlotProp_Cannoneer1 + 68
+slot_prop_cannon_recoil_velocity = YuriSlotProp_Cannoneer1 + 69
+slot_prop_cannon_shell_phase = YuriSlotProp_Cannoneer1 + 70
+slot_prop_cannon_target_x = YuriSlotProp_Cannoneer1 + 71
+slot_prop_cannon_target_y = YuriSlotProp_Cannoneer1 + 72
+slot_prop_cannon_target_z = YuriSlotProp_Cannoneer1 + 73
+
+projectile_type_fieldgun_explosive_earlygame = 1
+projectile_type_fieldgun_explosive_lategame = 2
+projectile_type_fieldgun_gas_shell = 3
+projectile_type_howitzer_explosive_earlygame = 4
+projectile_type_howitzer_explosive_lategame = 5
+projectile_type_howitzer_gas_shell = 6
+
+cannon_state_inactive = -1
+cannon_state_moving1 = 1
+cannon_state_moving2 = 2
+cannon_state_reloading = 3
+cannon_state_aiming1 = 4
+cannon_state_aiming2 = 5
+cannon_state_aiming_finished = 6
+cannon_state_firing1 = 7
+cannon_state_firing2 = 8
+
+cannon_reload_state_1_cleaning_barrel_1 = 1
+cannon_reload_state_1_cleaning_barrel_2 = 2
+cannon_reload_state_1_inserting_shell_1 = 3
+cannon_reload_state_1_inserting_shell_2 = 4
+cannon_reload_state_1_pushing_shell_1 = 5
+cannon_reload_state_1_pushing_shell_2 = 6
+
+cannon_reload_state_2_cleaning_barrel_1 = 7
+cannon_reload_state_2_cleaning_barrel_2 = 8
+cannon_reload_state_2_inserting_shell_1 = 9
+cannon_reload_state_2_inserting_shell_2 = 10
+
+cannon_reload_state_3_inserting_shell_1 = 11
+cannon_reload_state_3_inserting_shell_2 = 12
+
+cannon_reload_state_finished = 20
 
 square_forming_phase_outer_square1 = 0
 square_forming_phase_outer_square2 = 1
@@ -472,9 +546,10 @@ pbs_troop_type_cavranged = 5
 pbs_troop_type_cavguard = 6
 pbs_troop_type_fieldguns = 7
 pbs_troop_type_howitzers = 8
-pbs_troop_type_mg = 9
-pbs_troop_type_shock = 10
-pbs_troop_type_armor = 11
+pbs_troop_type_heavyhowitzers = 9
+pbs_troop_type_mg = 10
+pbs_troop_type_shock = 11
+pbs_troop_type_armor = 12
 
 pbs_state_generic = 0
 pbs_state_moving_to_position = 1
@@ -807,7 +882,7 @@ slot_faction_technology_lateshells		   		 = slot_faction_ve_mod_slots_begin + 12
 slot_faction_technology_machineguns		   		 = slot_faction_ve_mod_slots_begin + 13
 slot_faction_technology_infantrymgtactics		   	 = slot_faction_ve_mod_slots_begin + 14
 slot_faction_technology_cannonsbreechloading		 = slot_faction_ve_mod_slots_begin + 15
-slot_faction_technology_deepdefence			 = slot_faction_ve_mod_slots_begin + 16
+slot_faction_technology_modernartillery			 = slot_faction_ve_mod_slots_begin + 16
 slot_faction_technology_coveringfire	 		 = slot_faction_ve_mod_slots_begin + 17
 slot_faction_technology_gasattacks			 = slot_faction_ve_mod_slots_begin + 18
 slot_faction_technology_skirmishline			 = slot_faction_ve_mod_slots_begin + 19
@@ -1157,6 +1232,7 @@ slot_faction_pas_player_rank =  slot_faction_ve_mod_slots_begin + 420
 slot_faction_pas_player_points =  slot_faction_ve_mod_slots_begin + 421
 slot_faction_mg_prop =  slot_faction_ve_mod_slots_begin + 422
 slot_faction_mg_item =  slot_faction_ve_mod_slots_begin + 423
+slot_faction_heavyhowitzer_cannoneer_officer =  slot_faction_ve_mod_slots_begin + 424
 
 
 

@@ -279,7 +279,7 @@ sounds = [
 ("man_hit3",sf_priority_7|sf_vol_11, ["manhit49.wav","manhit50.wav","manhit51.wav","manhit52.wav","manhit53.wav","manhit54.wav","manhit55.wav","manhit56.wav","manhit57.wav","manhit58.wav","manhit59.wav","manhit60.wav","manhit61.wav","manhit62.wav","manhit63.wav","manhit64.wav","manhit65.wav","manhit66.wav","manhit67.wav","manhit68.wav","manhit69.wav","manhit70.wav","manhit71.wav","manhit72.wav","manhit73.wav"]),
 ("man_hit_FP",sf_priority_7|sf_vol_9, ["manhit_FP1.wav","manhit_FP2.wav","manhit_FP3.wav","manhit_FP4.wav","manhit_FP5.wav","manhit_FP6.wav","manhit_FP7.wav","manhit_FP8.wav","manhit_FP9.wav","manhit_FP10.wav","manhit_FP11.wav","manhit_FP12.wav","manhit_FP13.wav","manhit_FP14.wav","manhit_FP15.wav","manhit_FP16.wav","manhit_FP17.wav","manhit_FP18.wav","manhit_FP19.wav","manhit_FP20.wav","manhit_FP21.wav","manhit_FP22.wav","manhit_FP23.wav","manhit_FP24.wav"]),
 
-("Yuri_CannonCarriageMoving1", sf_priority_3|sf_vol_4|sf_looping, ["Yuri_CannonCarriageMoving1.wav"]),
+("Yuri_CannonCarriageMoving1", sf_priority_1|sf_vol_2|sf_looping, ["Yuri_CannonCarriageMoving1.wav"]),
 ("Yuri_CannonRamrod1", sf_priority_3|sf_vol_2, ["Yuri_CannonRamrod1_1.wav", "Yuri_CannonRamrod1_2.wav", "Yuri_CannonRamrod1_3.wav"]),
 ("Yuri_CannonballInsert1", sf_priority_3|sf_vol_2, ["Yuri_CannonballInsert1_1.wav", "Yuri_CannonballInsert1_2.wav", "Yuri_CannonballInsert1_3.wav"]),
 ("Yuri_CannonFuseIgnite1", sf_priority_5|sf_vol_4, ["Yuri_CannonFuseIgnite1_1.wav", "Yuri_CannonFuseIgnite1_2.wav", "Yuri_CannonFuseIgnite1_3.wav", "Yuri_CannonFuseIgnite1_4.wav"]),
