@@ -9,6 +9,8 @@ from ID_parties import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+craters_limit = 200
+
 # PAS:
 # script_decide_faction_ai
 # script_calculate_troop_ai
@@ -299,7 +301,7 @@ ambience_sound_type_forestsunny = 10
 ambience_sound_type_forestovercast = 11
 ambience_sound_type_interior = 11
 
-maximum_amount_of_bandit_parties = 70
+maximum_amount_of_bandit_parties = 150
 
 battle_type_nobattle			= 0
 battle_type_fieldbattle 		= 1

@@ -2773,8 +2773,8 @@ cannon_10ms = (
 				(init_position, pos3),
 				(position_set_x, pos3, ":x"), (position_set_y, pos3, ":y"), (position_set_z, pos3, ":z"),
 				(position_copy_rotation, pos3, pos2),
-				(store_random_in_range, ":x_offset", -2000, 2000), (store_random_in_range, ":y_offset", -2000, 2000),
-				(position_move_x, pos3, ":x_offset", 1), (position_move_x, pos3, ":y_offset", 1),
+				(store_random_in_range, ":x_offset", -4000, 4000), (store_random_in_range, ":y_offset", -4000, 4000),
+				(position_move_x, pos3, ":x_offset", 1), (position_move_y, pos3, ":y_offset", 1),
 				(position_set_z_to_ground_level, pos3),
 				(prop_instance_animate_to_position, ":shell", pos3, 250),
 				(else_try),
@@ -6275,6 +6275,7 @@ bms = (ti_before_mission_start, 0, 0, [
 	(try_end),
 (assign, "$battle_timer", 0),
 (assign, "$g_player_team", -1),
+(assign, "$number_of_craters", 0),
 ], [])
 ams = (ti_after_mission_start, 0, 0, [
 ], [])

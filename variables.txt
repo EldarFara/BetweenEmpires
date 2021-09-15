@@ -1238,6 +1238,7 @@ pas_enlistment_opponent_to_ignore_timer
 g_battle_type
 battle_timer
 g_player_team
+number_of_craters
 hp_regen_timer
 ironsight_mode
 ironsight_timer
