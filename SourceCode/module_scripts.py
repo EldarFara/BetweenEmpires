@@ -65992,7 +65992,7 @@ scripts = [
 	(eq, ":kind", "spr_fieldgun_3_body"),
 	(scene_prop_set_slot, ":prop", slot_prop_cannon_wheels_offset_y, -20),
 	(scene_prop_set_slot, ":prop", slot_prop_cannon_wheels_offset_z, 70),
-	(scene_prop_set_slot, ":prop", slot_prop_cannon_barrel_offset_z, 145),
+	(scene_prop_set_slot, ":prop", slot_prop_cannon_barrel_offset_z, 125),
 	(scene_prop_set_slot, ":prop", slot_prop_cannon_reload_time, 50),
 	(scene_prop_set_slot, ":prop", slot_prop_cannon_reload_state_initial, cannon_reload_state_3_inserting_shell_1),
 	(scene_prop_set_slot, ":prop", slot_prop_cannon_era, 3),
