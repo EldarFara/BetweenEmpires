@@ -4587,7 +4587,7 @@ spawn_of_first_agent = (ti_on_agent_spawn, 0, 0, [
 	(try_for_range, ":team", 0, 4),
 	(team_set_slot, ":team", slot_team_pai_retreat_timer, 0),
 	(team_set_slot, ":team", slot_team_has_flagbearer, 0),
-	(team_set_slot, ":team", slot_team_artllery_ammo_shells_amount, 300),
+	(team_set_slot, ":team", slot_team_artllery_ammo_shells_amount, 800),
 		(try_for_range, ":company", 0, 8),
 		#(team_give_order, ":team", ":company", mordr_mount),
 		(store_add, ":slot_team_discipline", slot_team_company1_discipline, ":company"),
