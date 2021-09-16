@@ -52782,6 +52782,7 @@ scripts = [
   # Output: none 
   ("game_missile_launch",
     [
+(display_message, "@debug game_missile_launch begin"),
    (try_begin),
 	(store_script_param, ":agent_id", 1),
 	(store_script_param, ":item_id", 2),
@@ -53304,6 +53305,7 @@ scripts = [
       (try_end),
     (try_end),
 	  
+(display_message, "@debug game_missile_launch end"),
   ]),
 
 ("company_hold_pos30",

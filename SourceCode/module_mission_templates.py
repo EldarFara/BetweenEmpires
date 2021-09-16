@@ -23,6 +23,7 @@ af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 order_move_forwards_backwards = (
 ti_on_order_issued, 0, 0, [],
 [
+(display_message, "@debug order_move_forwards_backwards begin"),
 (store_trigger_param_1, ":order"),
 (store_trigger_param_2, ":leader"),
 (get_player_agent_no, ":player"),
@@ -39,11 +40,13 @@ ti_on_order_issued, 0, 0, [],
 		(try_end),
 	(call_script, "script_company_hold_pos30", "$g_player_team", ":company"),
 	(try_end),
-],[])
+(display_message, "@debug order_move_forwards_backwards end"),
+])
 
 order_follow_me_1000ms = (
 1, 0, 0, [],
 [
+(display_message, "@debug order_follow_me_1000ms begin"),
 (assign, ":companies", 0),
 	(try_for_range, ":company", 0, 8),
 	(call_script, "script_cf_if_company_has_soldiers", "$g_player_team", ":company"),
@@ -84,11 +87,13 @@ order_follow_me_1000ms = (
 	(team_set_slot, "$g_player_team", ":slot_team_is_following_leader", 1),
 	(position_move_x, pos1, 1000),
 	(try_end),
-],[])
+(display_message, "@debug order_follow_me_1000ms end"),
+])
 
 order_follow_me = (
 ti_on_order_issued, 0, 0, [],
 [
+(display_message, "@debug order_follow_me begin"),
 (store_trigger_param_1, ":order"),
 (store_trigger_param_2, ":leader"),
 (get_player_agent_no, ":player"),
@@ -101,11 +106,13 @@ ti_on_order_issued, 0, 0, [],
 	(store_add, ":slot_team_is_following_leader", slot_team_company1_is_following_leader, ":company"),
 	(team_set_slot, "$g_player_team", ":slot_team_is_following_leader", 1),
 	(try_end),
-],[])
+(display_message, "@debug order_follow_me end"),
+])
 
 pas_points = (
 ti_on_agent_killed_or_wounded, 0, 0, [],
 [
+(display_message, "@debug pas_points begin"),
 (gt, "$players_kingdom", "fac_player_supporters_faction"),
 (store_trigger_param_1, ":victim"),
 (store_trigger_param_2, ":killer"),
@@ -114,11 +121,13 @@ ti_on_agent_killed_or_wounded, 0, 0, [],
 (agent_get_team, ":team", ":killer"),
 (eq, ":team", "$g_player_team"),
 (val_add, "$pas_enlistment_points", 400),
-],[])
+(display_message, "@debug pas_points end"),
+])
 
 gas_100ms = (
 0.1, 0, 0, [],
 [
+(display_message, "@debug gas_100ms begin"),
 	(try_for_prop_instances, ":gas_shell_prop", "spr_gas_shell"),
 	(scene_prop_get_slot, ":timer", ":gas_shell_prop", slot_prop_grenade_timer),
 	(gt, ":timer", 0),
@@ -189,11 +198,13 @@ gas_100ms = (
 			(try_end),
 		(try_end),
 	(try_end),
-],[])
+(display_message, "@debug gas_100ms end"),
+])
 
 grenades_100ms = (
 0.1, 0, 0, [],
 [
+(display_message, "@debug grenades_100ms begin"),
 	(try_for_agents,":agent"),
 	(agent_is_active, ":agent"),
 	(agent_is_alive, ":agent"),
@@ -242,11 +253,13 @@ grenades_100ms = (
 	(prop_instance_get_position, pos1, ":grenade_scene_prop_id"),
 	(call_script,"script_explode_at_pos",":agent", pos1, explosion_type_small),
 	(try_end),
-],[])
+(display_message, "@debug grenades_100ms end"),
+])
 
 lmg_runtime = (
 0, 0, 0, [],
 [
+(display_message, "@debug lmg_runtime begin"),
 	(try_for_agents,":agent"),
 	(agent_is_active, ":agent"),
 	(agent_is_alive, ":agent"),
@@ -347,11 +360,13 @@ lmg_runtime = (
 	(set_fixed_point_multiplier, 1),
 	(add_missile, ":agent", pos1, ":missile_speed", ":item", 0, "itm_ammo_rifle", 0),
 	(try_end),
-],[])
+(display_message, "@debug lmg_runtime end"),
+])
 
 musket_ramrod_animation_100ms = (
 0.1, 0, 0, [],
 [
+(display_message, "@debug musket_ramrod_animation_100ms begin"),
 	(try_for_agents,":agent"),
 	(agent_is_active, ":agent"),
 	(agent_is_alive, ":agent"),
@@ -419,11 +434,13 @@ musket_ramrod_animation_100ms = (
 		(scene_prop_set_visibility, ":ramrod", 0),
 		(try_end),
 	(try_end),
-],[])
+(display_message, "@debug musket_ramrod_animation_100ms end"),
+])
 
 musket_ramrod_animation_runtime = (
 0, 0, 0, [],
 [
+(display_message, "@debug musket_ramrod_animation_runtime begin"),
 	(try_for_agents,":agent"),
 	(agent_is_active, ":agent"),
 	(agent_is_alive, ":agent"),
@@ -439,11 +456,13 @@ musket_ramrod_animation_runtime = (
 	(position_move_x, pos2, 1, 0),
 	(prop_instance_animate_to_position, ":ramrod", pos2, 4),
 	(try_end),
-],[])
+(display_message, "@debug musket_ramrod_animation_runtime end"),
+])
 
 smoke_animated_200ms = (
 0.05, 0, 0, [],
 [
+(display_message, "@debug smoke_animated_200ms begin"),
 	(try_for_prop_instances, ":prop", "spr_0siege_smokepillar1_animated"),
 	(scene_prop_get_slot, ":max_frame", ":prop", slot_prop_animation_number_of_frames),
 	(scene_prop_get_slot, ":frame", ":prop", slot_prop_animation_current_frame),
@@ -459,41 +478,49 @@ smoke_animated_200ms = (
 	(str_store_string, s1, ":material_string"),
 	(prop_instance_set_material, ":prop", 0, s1),
 	(try_end),
-],[])
+(display_message, "@debug smoke_animated_200ms end"),
+])
 
 pss_init = (
 ti_after_mission_start, 0, 0, [],
 [
+(display_message, "@debug pss_init begin"),
 (store_current_scene, ":scene"),
 (this_or_next|eq, ":scene", "scn_town_european_center"),
 (eq, ":scene", "scn_town_london_center"),
 (call_script, "script_pss_init"),
-],[])
+(display_message, "@debug pss_init end"),
+])
 
 pss_100ms = (
 0.1, 0, 0, [],
 [
+(display_message, "@debug pss_100ms begin"),
 (store_current_scene, ":scene"),
 (this_or_next|eq, ":scene", "scn_town_european_center"),
 (eq, ":scene", "scn_town_london_center"),
 	(try_for_agents, ":agent"),
 	(call_script, "script_pss_agent_iteration", ":agent"),
 	(try_end),
-],[])
+(display_message, "@debug pss_100ms end"),
+])
 
 player_hp_regen_hit = (
 ti_on_agent_hit, 0, 0, [],
 [
+(display_message, "@debug player_hp_regen_hit begin"),
 (store_trigger_param_1, ":agent"),
 (agent_is_active, ":agent"), (agent_is_active, ":agent"),
 (get_player_agent_no, ":player"),
 (eq, ":player", ":agent"),
 (assign, "$hp_regen_timer", 120),
-],[])
+(display_message, "@debug player_hp_regen_hit end"),
+])
 
 player_hp_regen_100ms = (
 0.05, 0, 0, [],
 [
+(display_message, "@debug player_hp_regen_100ms begin"),
 	(try_begin),
 	(gt, "$hp_regen_timer", 0),
 	(val_sub, "$hp_regen_timer", 1),
@@ -507,10 +534,12 @@ player_hp_regen_100ms = (
 	(val_add, ":hp", 1),
 	(agent_set_hit_points, ":player", ":hp", 1),
 	(try_end),
-],[])
+(display_message, "@debug player_hp_regen_100ms end"),
+])
 
 iron_sight_runtime = (
-0, 0, 0, [
+0, 0, 0, [], [
+(display_message, "@debug iron_sight_runtime begin"),
 (eq, "$ironsight_enabled", 1),
 (get_player_agent_no, ":player"),
 (agent_get_animation, ":animation", ":player", 1),
@@ -588,11 +617,13 @@ iron_sight_runtime = (
 		(assign, "$ironsight_timer2", 9999999),
 		(try_end),
 	(try_end),
-],[])
+(display_message, "@debug iron_sight_runtime end"),
+])
 
 iron_sight_100ms = (
 0.1, 0, 0, [],
 [
+(display_message, "@debug iron_sight_100ms begin"),
 	(try_begin),
 	(gt, "$ironsight_timer", 0),
 	(val_sub, "$ironsight_timer", 1),
@@ -601,11 +632,13 @@ iron_sight_100ms = (
 	(gt, "$ironsight_timer2", 0),
 	(val_sub, "$ironsight_timer2", 1),
 	(try_end),
-],[])
+(display_message, "@debug iron_sight_100ms end"),
+])
 
 mg_1000ms = (
 1, 0, 0, [],
 [
+(display_message, "@debug mg_1000ms begin"),
 	(try_for_agents,":agent"),
 	(agent_is_active, ":agent"),
 	(agent_is_alive, ":agent"),
@@ -641,11 +674,13 @@ mg_1000ms = (
 		(call_script, "script_mg_undeploy", ":agent"),
 		(try_end),
 	(try_end),
+(display_message, "@debug mg_1000ms end"),
 ])
 
 mg_runtime = (
 0, 0, 0, [],
 [
+(display_message, "@debug mg_runtime begin"),
 	(try_for_agents,":agent"),
 	(agent_is_active, ":agent"),
 	(agent_is_alive, ":agent"),
@@ -655,11 +690,13 @@ mg_runtime = (
 	(is_between, ":troop", "trp_factionplayer_mgoperator", "trp_mgoperator_end"),
 	(call_script, "script_mg_decide_fire", ":agent"),
 	(try_end),
+(display_message, "@debug mg_runtime end"),
 ])
 
 digin_1000ms = (
 1, 0, 0, [],
 [
+(display_message, "@debug digin_1000ms begin"),
 	(try_for_agents,":agent"),
 	(agent_is_active, ":agent"),
 	(agent_is_alive, ":agent"),
@@ -676,11 +713,13 @@ digin_1000ms = (
 		(agent_set_animation, ":agent", "anim_YuriCancelAnimation", 1),
 		(try_end),
 	(try_end),
+(display_message, "@debug digin_1000ms end"),
 ])
 
 digin_runtime = (
 0, 0, 0, [],
 [
+(display_message, "@debug digin_runtime begin"),
 	(try_for_agents,":agent"),
 	(agent_is_active, ":agent"),
 	(agent_is_alive, ":agent"),
@@ -692,27 +731,33 @@ digin_runtime = (
 	(agent_set_animation, ":agent", "anim_digging", 0),
 	(agent_set_animation, ":agent", "anim_digging", 1),
 	(try_end),
+(display_message, "@debug digin_runtime end"),
 ])
 
 vo_on_company_select = (
 0, 0, 0, [],
 [
+(display_message, "@debug vo_on_company_select begin"),
 	(try_for_range, ":company", 0, 8),
 	(store_add, ":gk", 30, ":company"),
 	(game_key_clicked, ":gk"),
 	(call_script, "script_company_play_vo", "$g_player_team", ":company", vo_type_on_company_select),
 	(try_end),
+(display_message, "@debug vo_on_company_select end"),
 ])
 
 vo_500ms = (
 1.5, 0, 0, [],
 [
+(display_message, "@debug vo_500ms begin"),
 	(try_for_range, ":team", 0, 3),
 	(team_set_slot, ":team", slot_team_vo_allowed, 1),
 	(try_end),
+(display_message, "@debug vo_500ms begin"),
 ])
 
 pai_start = (9, 0, ti_once, [
+(display_message, "@debug pai_start begin"),
 (set_fixed_point_multiplier, 1),
 	(try_begin),
 	(gt, "$pas_enlistment_lord", 0),
@@ -780,9 +825,7 @@ pai_start = (9, 0, ti_once, [
 			(team_set_slot, ":team", slot_team_pai_global_tactic, pai_global_tactic_defend_initial),
 			(try_end),
 			(try_begin),
-(display_message, "@CHECK slot_faction_technology_modernattack"),
 			(call_script, "script_cf_if_team_faction_invented_technology", ":team", slot_faction_technology_modernattack),
-(display_message, "@slot_faction_technology_modernattack"),
 				(try_for_range, ":company", company1, company8+1),
 				(store_add, ":slot_team_company_type", slot_team_company1_type, ":company"),
 				(store_add, ":slot_team_formation", slot_team_company1_formation, ":company"),
@@ -854,10 +897,12 @@ pai_start = (9, 0, ti_once, [
 # (assign, reg5, "$ai_attacker_team"),
 # (assign, reg6, "$ai_defender_team"),
 # (display_message, "@g_player_team {reg0} g_allies_team {reg1} g_enemy_team {reg2} attackers_team {reg3} defenders_team {reg4} ai_attacker_team {reg5} ai_defender_team {reg6}"),
+(display_message, "@debug pai_start end"),
 ],
 [])
 
 pai_1000ms = (1, 0, 0, [
+(display_message, "@debug pai_1000ms begin"),
 (set_fixed_point_multiplier, 1),
 	(try_begin),
 	(ge, "$battle_timer", 5),
@@ -1110,10 +1155,12 @@ pai_1000ms = (1, 0, 0, [
 		(team_set_slot, "$ai_defender_team", ":slot_pai_digin_timer", 15),
 		(try_end),
 	(try_end),
+(display_message, "@debug pai_1000ms end"),
 ],
 [])
 
 prone_100ms = (0.1, 0, 0, [
+(display_message, "@debug prone_100ms begin"),
 (set_fixed_point_multiplier, 1),
 	(try_for_agents, ":agent"),
 	(agent_is_active, ":agent"),
@@ -1195,11 +1242,13 @@ prone_100ms = (0.1, 0, 0, [
 		(agent_set_ammo, ":agent", ":item", ":max_ammo"),
 		(try_end),
 	(try_end),
+(display_message, "@debug prone_100ms end"),
 ], [])
 
 pbs_walkrun_order = (
 ti_on_order_issued, 0, 0, [],
 [
+(display_message, "@debug pbs_walkrun_order begin"),
 (set_fixed_point_multiplier, 1),
 (store_trigger_param_1, ":order"),
 (is_between, ":order", mordr_stand_closer, mordr_spread_out+1),
@@ -1224,12 +1273,13 @@ ti_on_order_issued, 0, 0, [],
 		(call_script, "script_company_play_bugle", "$g_player_team", ":company", "snd_bugle_run"),
 		(try_end),
 	(try_end),
-
+(display_message, "@debug pbs_walkrun_order end"),
 ])
 
 pbs_formation_order = (
 ti_on_order_issued, 0, 0, [],
 [
+(display_message, "@debug pbs_formation_order begin"),
 (set_fixed_point_multiplier, 1),
 (store_trigger_param_1, ":order"),
 (is_between, ":order", mordr_form_1_row, mordr_form_5_row+1),
@@ -1317,7 +1367,7 @@ ti_on_order_issued, 0, 0, [],
 		(call_script, "script_company_hold_pos30", "$g_player_team", ":company"),
 		(try_end),
 	(try_end),
-
+(display_message, "@debug pbs_formation_order end"),
 ])
 
 YuriImpalingLanceInterrupt = (ti_on_agent_killed_or_wounded, 0, 0, [
@@ -1479,6 +1529,7 @@ YuriImpalingLanceRuntime = (0, 0, 0, [
 carbine_melee_mode_fix = (
 1, 0, 0, [],
 [
+(display_message, "@debug carbine_melee_mode_fix begin"),
 	(try_for_agents, ":agent"),
 	(agent_is_active, ":agent"),
 	(agent_is_alive, ":agent"),
@@ -1501,12 +1552,13 @@ carbine_melee_mode_fix = (
 	(agent_set_wielded_item, ":agent", "itm_turk_broadsword_a"),
 	(agent_set_wielded_item, ":agent", "itm_persian_broadsword"),
 	(try_end),
-
+(display_message, "@debug carbine_melee_mode_fix end"),
 ])
 
 player_accuracy_modifier = (
 0, 0, 0, [],
 [
+(display_message, "@debug player_accuracy_modifier begin"),
 (get_player_agent_no, ":player"),
 (agent_is_active, ":player"),
 (agent_is_alive, ":player"),
@@ -1516,11 +1568,13 @@ player_accuracy_modifier = (
 	(else_try),
 	(agent_set_accuracy_modifier, ":player", 85),
 	(try_end),
+(display_message, "@debug player_accuracy_modifier end"),
 ])
 
 ammo_refill = (
 5, 0, 0, [],
 [
+(display_message, "@debug ammo_refill begin"),
 	(try_for_agents, ":agent"),
 	(agent_is_active, ":agent"),
 	(agent_is_alive, ":agent"),
@@ -1530,11 +1584,13 @@ ammo_refill = (
 	(call_script, "script_cf_random", ":bonus"),
 	(agent_refill_ammo, ":agent"),
 	(try_end),
+(display_message, "@debug ammo_refill end"),
 ])
 
 flag_bearer = (
 0, 0, 0, [],
 [
+(display_message, "@debug flag_bearer begin"),
 	(try_for_agents,":agent"),
 	(agent_is_active, ":agent"),
 	#(agent_is_alive, ":agent"),
@@ -1552,11 +1608,13 @@ flag_bearer = (
 	(position_rotate_z, pos1, 90, 0),
 	(prop_instance_set_position, ":prop", pos1),
 	(try_end),
+(display_message, "@debug flag_bearer end"),
 ])
 
 flag_bearer_drop = (
 ti_on_item_dropped, 0, 0, [],
 [
+(display_message, "@debug flag_bearer begin"),
 (store_trigger_param_1, ":agent"),
 (store_trigger_param_2, ":item"),
 (agent_get_slot, ":prop", ":agent", slot_agent_flag_prop),
@@ -1568,10 +1626,12 @@ ti_on_item_dropped, 0, 0, [],
 (position_move_z, pos1, -5000, 1),
 (prop_instance_set_position, ":prop", pos1),
 (scene_prop_set_visibility, ":prop", 0),
+(display_message, "@debug flag_bearer end"),
 ])
 
 pbs_enemy_cannoneers_retreat = (
 10, 0, 0, [
+(display_message, "@debug pbs_enemy_cannoneers_retreat begin"),
 (assign, ":number_total", 0),
 (assign, ":number_retreating", 0),
 	(try_for_range, ":team", 0, 4),
@@ -1602,24 +1662,30 @@ pbs_enemy_cannoneers_retreat = (
 		(call_script, "script_cf_YuriCannonCanoneersRetreat", ":agent"),
 		(try_end),
 	(try_end),
+(display_message, "@debug pbs_enemy_cannoneers_retreat end"),
 ],
 [])
 
 siege_win_battle = (
 1, 1, 1, [
+(display_message, "@debug siege_win_battle begin"),
 (this_or_next|eq, "$g_battle_type", battle_type_siege),
 (eq, "$g_battle_type", battle_type_siege_interior),
 (ge, "$battle_timer", 10),
 (eq, "$g_battle_won", 0),
 (all_enemies_defeated),
+(display_message, "@debug siege_win_battle end"),
 ],
 [
+(display_message, "@debug siege_win_battle 2 begin"),
 (assign, "$g_battle_won", 1),
 (assign, "$g_battle_result", 1),
+(display_message, "@debug siege_win_battle 2 end"),
 ])
 
 pbs_enemy_retreating_end_battle = (
 5, 1, 0, [
+(display_message, "@debug pbs_enemy_retreating_end_battle begin"),
 (eq, "$g_battle_type", battle_type_fieldbattle),
 (assign, ":number_total", 0),
 (assign, ":number_retreating", 0),
@@ -1647,8 +1713,10 @@ pbs_enemy_retreating_end_battle = (
 	(assign, "$g_battle_result", 1),
 	(try_end),
 (eq, "$g_battle_won",1),
+(display_message, "@debug pbs_enemy_retreating_end_battle end"),
 ],
 [
+(display_message, "@debug pbs_enemy_retreating_end_battle 2 begin"),
 (eq, "$g_battle_won",1),
 	(try_for_agents,":agent"),
 	(agent_is_active, ":agent"),
@@ -1662,9 +1730,11 @@ pbs_enemy_retreating_end_battle = (
 	(agent_set_slot, ":agent",  slot_agent_is_running_away, 1),
 	(agent_start_running_away, ":agent"),
 	(try_end),
+(display_message, "@debug pbs_enemy_retreating_end_battle 2 end"),
 ])
 
 ambience_rain_1000ms = (1, 0, 0, [
+(display_message, "@debug ambience_rain_1000ms begin"),
 (gt, "$g_rain_intensity", 0),
 	(try_begin),
 	(call_script, "script_cf_random", 7),
@@ -1729,9 +1799,11 @@ ambience_rain_1000ms = (1, 0, 0, [
 		(assign, "$g_rain_position_modifier", -1),
 		(try_end),
 	(try_end),
+(display_message, "@debug ambience_rain_1000ms end"),
 ], [])
 
 ambience_tree_birds = (0.6, 0, 0, [
+(display_message, "@debug ambience_tree_birds begin"),
 (store_time_of_day, ":hours"),
 (is_between, ":hours", 4, 21+1),
 	(try_begin),
@@ -1755,9 +1827,11 @@ ambience_tree_birds = (0.6, 0, 0, [
 		(store_random_in_range, "$ambience_tree_birds_cooldown", 1, 6),
 		(try_end),
 	(try_end),
+(display_message, "@debug ambience_tree_birds end"),
 ], [])
 
 ambience_start = (0, 0, ti_once, [
+(display_message, "@debug ambience_start begin"),
 (assign, "$g_rain_intensity", 0),
 (assign, "$g_rain_state", 0),
 (assign, "$g_rain_position_modifier", -2),
@@ -1896,9 +1970,11 @@ ambience_start = (0, 0, ti_once, [
 	(try_end),
 (prop_instance_play_sound, "$ambience_prop_sky_left", "snd_ambience_sky1_left"),
 (prop_instance_play_sound, "$ambience_prop_sky_right", "snd_ambience_sky1_right"),
+(display_message, "@debug ambience_start end"),
 ], [])
 
 ambience_runtime = (0, 0, 0, [
+(display_message, "@debug ambience_start begin"),
 (mission_cam_get_position, pos1),
 (copy_position, pos2, pos1),
 (position_set_z_to_ground_level, pos2),
@@ -1980,10 +2056,12 @@ ambience_runtime = (0, 0, 0, [
 	(position_move_z, pos1, 300, 0),
 	(particle_system_burst_no_sync, "psys_rain1", pos1, ":rain_intensity"),
 	(try_end),
+(display_message, "@debug ambience_start end"),
 ], [])
 
 player_fanning_first_shot = (
 0, 0.6, 0, [
+(display_message, "@debug player_fanning_first_shot begin"),
 (eq, "$aerial_view_state", 0),
 (get_player_agent_no, ":player"),
 (agent_is_active, ":player"),
@@ -2057,7 +2135,9 @@ player_fanning_first_shot = (
 (set_fixed_point_multiplier, 100),
 (agent_set_animation_progress, ":player", 100),
 (set_fixed_point_multiplier, 1),
+(display_message, "@debug player_fanning_first_shot end"),
 ], [
+(display_message, "@debug player_fanning_first_shot 2 begin"),
 (get_player_agent_no, ":player"),
 (agent_is_active, ":player"),
 (agent_is_alive, ":player"),
@@ -2106,9 +2186,11 @@ player_fanning_first_shot = (
 (set_fixed_point_multiplier, 100),
 (agent_set_animation_progress, ":player", 100),
 (set_fixed_point_multiplier, 1),
+(display_message, "@debug player_fanning_first_shot 2 end"),
 ])
 
 player_fanning_90ms = (0.09, 0, 0, [
+(display_message, "@debug player_fanning_90ms begin"),
 (get_player_agent_no, ":player"),
 (agent_is_active, ":player"),
 (agent_is_alive, ":player"),
@@ -2185,10 +2267,11 @@ player_fanning_90ms = (0.09, 0, 0, [
 (position_rotate_x_floating, pos11, ":x_offset"),
 (position_rotate_z_floating, pos11, ":z_offset"),
 (add_missile, ":player", pos11, 10000, ":item_id", 0, "itm_ammo_pistol", 0),
-
+(display_message, "@debug player_fanning_90ms end"),
 ], [])
 
 pbs_company_penaltytodiscipline_fromcasualties_1000ms = (1, 0, 0, [
+(display_message, "@debug pbs_company_penaltytodiscipline_fromcasualties_1000ms begin"),
 	(try_for_range, ":team", 0, 4),
 		(try_for_range, ":company", 0, 8),
 		(call_script, "script_cf_if_company_has_soldiers", ":team", ":company"),
@@ -2199,9 +2282,11 @@ pbs_company_penaltytodiscipline_fromcasualties_1000ms = (1, 0, 0, [
 		(team_set_slot, ":team", ":slot_team_penaltytodiscipline_fromcasualties", ":penaltytodiscipline_fromcasualties"),
 		(try_end),
 	(try_end),
+(display_message, "@debug pbs_company_penaltytodiscipline_fromcasualties_1000ms end"),
 ], [])
 
 pbs_company_penaltytodiscipline_fromcasualties = (ti_on_agent_killed_or_wounded, 0, 0, [
+(display_message, "@debug pbs_company_penaltytodiscipline_fromcasualties begin"),
 (store_trigger_param_1, ":dead_agent"),
 (agent_get_team, ":team", ":dead_agent"),
 (agent_get_division , ":company", ":dead_agent"),
@@ -2215,11 +2300,13 @@ pbs_company_penaltytodiscipline_fromcasualties = (ti_on_agent_killed_or_wounded,
 (call_script, "script_get_company_foramtion_discipline_penalty_multiplier", ":team", ":company"), (val_mul, ":penalty", reg0), (val_div, ":penalty", 100),
 (val_add, ":penaltytodiscipline_fromcasualties", ":penalty"),
 (team_set_slot, ":team", ":slot_team_penaltytodiscipline_fromcasualties", ":penaltytodiscipline_fromcasualties"),
+(display_message, "@debug pbs_company_penaltytodiscipline_fromcasualties end"),
 ], [])
 
 pai_fieldbattle_spawn = (
 ti_on_agent_spawn, 0, 0, [],
 [
+(display_message, "@debug pai_fieldbattle_spawn begin"),
 (this_or_next|eq, "$g_battle_type", battle_type_fieldbattle),
 (eq, "$g_battle_type", battle_type_siege),
 (store_trigger_param_1, ":agent"),
@@ -2232,11 +2319,13 @@ ti_on_agent_spawn, 0, 0, [],
 (position_move_x, pos1, ":random", 0),
 (agent_set_position, ":agent", pos1),
 (agent_set_scripted_destination, ":agent", pos1, 1, 1),
+(display_message, "@debug pai_fieldbattle_spawn end"),
 ])
 
 pai_bandits_spawn = (
 ti_on_agent_spawn, 0, 0, [],
 [
+(display_message, "@debug pai_bandits_spawn begin"),
 (store_trigger_param_1, ":agent"),
 (agent_is_active, ":agent"),
 (agent_get_party_id, ":party", ":agent"),
@@ -2255,11 +2344,13 @@ ti_on_agent_spawn, 0, 0, [],
 (store_random_in_range, ":random", -6000, 6000),
 (position_move_x, pos1, ":random", 0),
 (agent_set_position, ":agent", pos1),
+(display_message, "@debug pai_bandits_spawn end"),
 ])
 
 rifle_damage_model = (
 ti_on_agent_hit, 0, 0, [],
 [
+(display_message, "@debug rifle_damage_model begin"),
 (store_trigger_param_1, ":agent"),
 (store_trigger_param_2, ":attacker"),
 (agent_is_active, ":agent"), (agent_is_active, ":attacker"),
@@ -2398,22 +2489,26 @@ ti_on_agent_hit, 0, 0, [],
 	(val_div, ":damage", 2),
 	(try_end),
 (set_trigger_result, ":damage"),
+(display_message, "@debug rifle_damage_model end"),
 ])
 
 pts_surviving_bonus = (
 ti_on_agent_killed_or_wounded, 0, 0, [],
 [
+(display_message, "@debug pts_surviving_bonus begin"),
 (store_trigger_param_1, ":agent"),
 (agent_is_active, ":agent"),
 (assign, ":surviving_bonus", 10),
 (store_random_in_range, ":random", 1, 101),
 (le, ":random", ":surviving_bonus"),
 (set_trigger_result, 2),
+(display_message, "@debug pts_surviving_bonus end"),
 ])
 
 lemat_canister_shot = (
 0, 0, 0, [],
 [
+(display_message, "@debug lemat_canister_shot begin"),
 (get_player_agent_no, ":player"),
 (agent_is_active, ":player"),
 (agent_is_alive, ":player"),
@@ -2452,7 +2547,7 @@ lemat_canister_shot = (
 	(eq, ":animation", "anim_reload_pistol"),
 	(agent_set_slot, ":player",  slot_agent_lemat_canister_has_been_shot, 0),
 	(try_end),
-
+(display_message, "@debug lemat_canister_shot end"),
 ])
 
 YuriCannonCanoneersDie = (
@@ -2467,9 +2562,11 @@ ti_on_agent_killed_or_wounded, 0, 0, [],
 YuriCannonSpawn = (
 ti_on_agent_spawn, 0, 0, [],
 [
+(display_message, "@debug YuriCannonSpawn begin"),
 (store_trigger_param_1, ":Agent"),
 (agent_is_active, ":Agent"),
 (call_script, "script_cf_YuriSpawnCannon", ":Agent"),
+(display_message, "@debug YuriCannonSpawn end"),
 ])
 
 YuriCannon100MS = (
@@ -2542,7 +2639,7 @@ YuriCannon100MS = (
 YuriCannonOrder = (
 ti_on_order_issued, 0, 0, [],
 [
-#(display_debug_message, "@YuriCannonOrder Begin"),
+(display_debug_message, "@debug YuriCannonOrder Begin"),
 (store_trigger_param_1, ":Order"),
 (eq, ":Order", mordr_hold),
 
@@ -2551,7 +2648,7 @@ ti_on_order_issued, 0, 0, [],
 	(call_script, "script_YuriBatteryHoldPosition", "$g_player_team", ":Company"),
 	(try_end),
 
-#(display_debug_message, "@YuriCannonOrder End"),
+(display_debug_message, "@debug YuriCannonOrder End"),
 ])
 
 YuriCannonRuntime = (
@@ -2758,6 +2855,7 @@ YuriCannonRuntime = (
 cannon_10ms = (
 0.01, 0, 0, [],
 [
+(display_message, "@debug cannon_10ms begin"),
 	(try_for_prop_instances, ":shell", "spr_YuriCannon1_Cannonball"),
 	(scene_prop_slot_eq, ":shell", YuriSlotProp_CannonballIsFlying, 1),
 	(scene_prop_get_slot, ":projectile_type", ":shell", YuriSlotProp_CannonballProjectileType),
@@ -2804,11 +2902,13 @@ cannon_10ms = (
 			(try_end),
 		(try_end),
 	(try_end),
+(display_message, "@debug cannon_10ms end"),
 ])
 
 cannon_33ms = (
 0.03333, 0, 0, [],
 [
+(display_message, "@debug cannon_33ms begin"),
 	(try_for_range, ":type_of_body", "spr_fieldgun_1_body", "spr_fieldgun_1_wheels"),
 		(try_for_prop_instances, ":body", ":type_of_body"),
 		(call_script, "script_cannon_reassign_cannoneers", ":body"),
@@ -2848,6 +2948,7 @@ cannon_33ms = (
 			(try_end),
 		(try_end),
 	(try_end),
+(display_message, "@debug cannon_33ms end"),
 ])
 YuriCannon33MS = (
 0.03333, 0, 0, [],
@@ -3924,6 +4025,7 @@ YuriCannon33MS = (
 
 	
 pbs_company_penaltytodiscipline_fromcloseenemy = (0.5, 0, 0, [
+(display_message, "@debug pbs_company_penaltytodiscipline_fromcloseenemy begin"),
 	(try_for_agents,":agent"),
 	(agent_is_active, ":agent"),
 	(agent_is_alive, ":agent"),
@@ -3966,9 +4068,11 @@ pbs_company_penaltytodiscipline_fromcloseenemy = (0.5, 0, 0, [
 	(val_add, ":penaltytodiscipline_fromcloseenemy", ":penalty"),
 	(team_set_slot, ":team", ":slot_team_penaltytodiscipline_fromcloseenemy", ":penaltytodiscipline_fromcloseenemy"),
 	(try_end),
+(display_message, "@debug pbs_company_penaltytodiscipline_fromcloseenemy end"),
 ],[])
 	
 pbs_company_discipline = (0.2, 0, 0, [
+(display_message, "@debug pbs_company_discipline begin"),
 	(try_for_range, ":team", 0, 4),
 		(try_for_range, ":company", 0, 8),
 		(store_add, ":slot_team_penaltytodiscipline_fromfire", slot_team_company1_penaltytodiscipline_fromfire, ":company"),
@@ -4023,9 +4127,11 @@ pbs_company_discipline = (0.2, 0, 0, [
 		(team_set_slot, ":team", ":slot_team_discipline", ":discipline"),
 		(try_end),
 	(try_end),
+(display_message, "@debug pbs_company_discipline end"),
 ],[])
 	
 timer_1000ms = (1, 0, 0, [
+(display_message, "@debug timer_1000ms begin"),
 	(try_for_range, ":team", 0, 4),
 		(try_for_range, ":company", 0, 8),
 			(try_begin),
@@ -4055,10 +4161,12 @@ timer_1000ms = (1, 0, 0, [
 	(gt, "$bugle_cooldown", 0),
 	(val_sub, "$bugle_cooldown", 1),
 	(try_end),
+(display_message, "@debug timer_1000ms end"),
 ],[])
 
 pbs_order_player_f1 = (0.01, 0, 0, [],
 [
+(display_message, "@debug pbs_order_player_f1 begin"),
 	(try_begin),
 	(ge, "$f1_key_state", 15),
 	(neg|game_key_is_down, gk_order_1),
@@ -4079,10 +4187,12 @@ pbs_order_player_f1 = (0.01, 0, 0, [],
 	(game_key_is_down, gk_order_1),
 	(val_add, "$f1_key_state", 1),
 	(try_end),
+(display_message, "@debug pbs_order_player_f1 end"),
 ])
 
 pbs_order_player = (ti_on_order_issued, 0, 0, [],
 [
+(display_message, "@debug pbs_order_player begin"),
 (store_trigger_param_1,":order"),
 (store_trigger_param_2,":leader"),	
 (get_player_agent_no, ":player"),
@@ -4145,9 +4255,11 @@ pbs_order_player = (ti_on_order_issued, 0, 0, [],
 		(try_end),
 	(try_end),
 (set_show_messages, 1),
+(display_message, "@debug pbs_order_player end"),
 ])
 	
 pbs_company_state = (0.4, 0, 0, [
+(display_message, "@debug pbs_company_state begin"),
 	(try_for_range, ":team", 0, 4),
 		(try_for_range, ":company", 0, 8),
 		(store_add, ":slot_team_moving_soldier_number", slot_team_company1_moving_soldier_number, ":company"),
@@ -4206,9 +4318,11 @@ pbs_company_state = (0.4, 0, 0, [
 	(team_set_slot, ":team", ":slot_team_guards_number", ":guards_number"),
 	(team_set_slot, ":team", ":slot_team_aiming_number", ":reloading_soldier_number"),
 	(try_end),
+(display_message, "@debug pbs_company_state end"),
 ],[])
 	
 pbs_melee = (1, 0, 0, [
+(display_message, "@debug pbs_melee begin"),
 	(try_for_agents,":agent"),
 	(agent_is_active, ":agent"),
 	(agent_is_alive, ":agent"),
@@ -4230,9 +4344,11 @@ pbs_melee = (1, 0, 0, [
 		(agent_set_animation, ":enemy_agent", "anim_YuriCancelAnimation", 1),
 		(try_end),
 	(try_end),
+(display_message, "@debug pbs_melee end"),
 ],[])
 	
 pbs_company_retreat = (1, 0, 0, [
+(display_message, "@debug pbs_company_retreat begin"),
 	(try_for_range, ":team", 0, 4),
 		(try_for_range, ":company", 0, 8),
 		(call_script, "script_cf_if_company_has_soldiers", ":team", ":company"),
@@ -4260,9 +4376,11 @@ pbs_company_retreat = (1, 0, 0, [
 			(try_end),
 		(try_end),
 	(try_end),
+(display_message, "@debug pbs_company_retreat end"),
 ],[])
 	
 pbs_company_energy = (0.5, 0, 0, [
+(display_message, "@debug pbs_company_energy begin"),
 	(try_for_range, ":team", 0, 4),
 		(try_for_range, ":company", 0, 8),
 		(store_add, ":slot_team_type", slot_team_company1_type, ":company"),
@@ -4308,9 +4426,11 @@ pbs_company_energy = (0.5, 0, 0, [
 		(team_set_slot, ":team", ":slot_team_energy", ":energy"),
 		(try_end),
 	(try_end),
+(display_message, "@debug pbs_company_energy end"),
 ],[])
 	
 pbs_agents_modifiers = (0.5, 0, 0, [
+(display_message, "@debug pbs_agents_modifiers begin"),
 (call_script, "script_reset_companies_accuracy"),
 	(try_for_agents,":agent"),
 	(agent_is_active, ":agent"),
@@ -4492,10 +4612,12 @@ pbs_agents_modifiers = (0.5, 0, 0, [
 			(try_end),
 		(try_end),
 	(try_end),
+(display_message, "@debug pbs_agents_modifiers end"),
 ],
 [])
 
 pts_weapon_change = (ti_on_agent_spawn, 0, 0,[
+(display_message, "@debug pts_weapon_change begin"),
 (store_trigger_param_1, ":agent"),
 (agent_is_active, ":agent"),
 (agent_is_human, ":agent"),
@@ -4516,9 +4638,11 @@ pts_weapon_change = (ti_on_agent_spawn, 0, 0,[
 		(agent_equip_item, ":agent", "itm_spear", ":slot"),
 		(try_end),
 	(try_end),
+(display_message, "@debug pts_weapon_change end"),
 ], [])
 
 bot_animation = (0, 0, 0,[
+(display_message, "@debug bot_animation begin"),
 	(try_for_agents, ":agent"),
 	(agent_is_active, ":agent"),
 	(agent_is_alive, ":agent"),
@@ -4557,9 +4681,11 @@ bot_animation = (0, 0, 0,[
 		(agent_set_animation, ":agent", "anim_unused_human_anim_44", 1),
 		(try_end),
 	(try_end),
+(display_message, "@debug bot_animation end"),
 ], [])
 
 bot_crouching = (0, 0, 0,[
+(display_message, "@debug bot_crouching begin"),
 	(try_for_agents, ":agent"),
 	(agent_is_active, ":agent"),
 	(agent_is_human, ":agent"),
@@ -4586,9 +4712,11 @@ bot_crouching = (0, 0, 0,[
 		(agent_set_crouch_mode, ":agent", 1),
 		(try_end),
 	(try_end),
+(display_message, "@debug bot_crouching end"),
 ], [])
 
 spawn_of_first_agent = (ti_on_agent_spawn, 0, 0, [
+(display_message, "@debug spawn_of_first_agent begin"),
 (store_trigger_param_1, ":agent"),
 (team_slot_eq, 0, slot_team_battle_started, 0),
 (eq, ":agent", ":agent"),
@@ -4619,12 +4747,14 @@ spawn_of_first_agent = (ti_on_agent_spawn, 0, 0, [
 	(scene_prop_set_visibility, reg0, 0),
 	(try_end),
 (set_show_messages, 1),
+(display_message, "@debug spawn_of_first_agent end"),
 ],
 [])
 
 battle_start = (
   0, 0, ti_once, [],
 [
+(display_message, "@debug battle_start begin"),
 (assign, "$aerial_view_state", 0),
 (init_position, pos1),
 (set_spawn_position, pos1),
@@ -4635,9 +4765,11 @@ battle_start = (
 (assign, "$voices", 0),
 (assign, "$aerial_view_hol_pos_order_timer", 0),
 (assign, "$ironsight_mode", 0),
+(display_message, "@debug battle_start end"),
 ])
 
 pai_calculate_company_average_coordinates_async = (0, 0.1, 0, [
+(display_message, "@debug battle_start begin"),
 (val_add, "$async_calculate_company_average_coordinates_company", 1),
 	(try_begin),
 	(ge, "$async_calculate_company_average_coordinates_company", 8),
@@ -4651,8 +4783,10 @@ pai_calculate_company_average_coordinates_async = (0, 0.1, 0, [
 (store_add, ":slot_team_soldier_number", slot_team_company1_soldier_number, "$async_calculate_company_average_coordinates_company"),
 (team_get_slot, ":soldier_number", "$async_calculate_company_average_coordinates_team", ":slot_team_soldier_number"),
 (neq, ":soldier_number", 0),
+(display_message, "@debug battle_start end"),
 ],
 [
+(display_message, "@debug battle_start 2 begin"),
 (store_add, ":slot_team_soldier_number", slot_team_company1_soldier_number, "$async_calculate_company_average_coordinates_company"),
 (team_get_slot, ":soldier_number", "$async_calculate_company_average_coordinates_team", ":slot_team_soldier_number"),
 (neq, ":soldier_number", 0),
@@ -4660,10 +4794,12 @@ pai_calculate_company_average_coordinates_async = (0, 0.1, 0, [
 (call_script, "script_copmany_decide_prone_or_crouch", "$async_calculate_company_average_coordinates_team", "$async_calculate_company_average_coordinates_company"),
 (call_script, "script_company_decide_play_vo", "$async_calculate_company_average_coordinates_team", "$async_calculate_company_average_coordinates_company"),
 (call_script, "script_company_decide_wear_gasmasks", "$async_calculate_company_average_coordinates_team", "$async_calculate_company_average_coordinates_company"),
+(display_message, "@debug battle_start 2 end"),
 ])
 
 
 voice_1000ms = (1, 0, 0, [], [
+(display_message, "@debug voice_1000ms begin"),
 (assign, "$voices", 0),
 	(try_for_agents, ":agent"),
 	(agent_is_active, ":agent"),
@@ -4676,9 +4812,11 @@ voice_1000ms = (1, 0, 0, [], [
 		(agent_set_slot, ":agent", slot_agent_speaking_cooldown, ":cooldown"),
 		(try_end),
 	(try_end),
+(display_message, "@debug voice_1000ms end"),
 ])
 
 voice_200ms = (0.2, 0, 0, [], [
+(display_message, "@debug voice_200ms begin"),
 (lt, "$voices", voices_1000ms_limit_warcry),
 (mission_cam_get_position, pos1),
 (assign, ":finished_chargewarcry", 0),
@@ -4756,9 +4894,11 @@ voice_200ms = (0.2, 0, 0, [], [
 			(try_end),
 		(try_end),
 	(try_end),
+(display_message, "@debug voice_200ms end"),
 ])
 
 player_spawn = (ti_on_agent_spawn, 0, 0, [
+(display_message, "@debug player_spawn begin"),
 (store_trigger_param_1, ":agent"),
 (agent_is_active, ":agent"),
 (neg|agent_is_non_player, ":agent"),
@@ -4928,9 +5068,11 @@ player_spawn = (ti_on_agent_spawn, 0, 0, [
 	(store_add, ":slot_team_run_mode", slot_team_company1_run_mode, ":company"),
 	(team_set_slot, "$g_player_team", ":slot_team_run_mode", pbs_run_mode_running),
 	(try_end),
+(display_message, "@debug player_spawn end"),
 ], [])
 
 pbs_agent_spawn = (ti_on_agent_spawn, 0, 0, [
+(display_message, "@debug pbs_agent_spawn begin"),
 (store_trigger_param_1, ":agent"),
 (agent_is_active, ":agent"),
 (assign, reg63, ":agent"),
@@ -5117,10 +5259,12 @@ pbs_agent_spawn = (ti_on_agent_spawn, 0, 0, [
 	(agent_equip_item, ":agent", "itm_ammo_rifle_double"),
 	(agent_equip_item, ":agent", "itm_shovel_melee"),
 	(try_end),
+(display_message, "@debug pbs_agent_spawn end"),
 ],
 [])
 
 pbs_restore_scripted_destination = (2, 0, 0, [
+(display_message, "@debug pbs_restore_scripted_destination begin"),
 	(try_for_agents,":agent"),
 	(agent_is_active, ":agent"),
 	(agent_is_alive, ":agent"),
@@ -5143,10 +5287,12 @@ pbs_restore_scripted_destination = (2, 0, 0, [
 		(agent_set_scripted_destination, ":agent", pos2, 1, 1),
 		(try_end),
 	(try_end),
+(display_message, "@debug pbs_restore_scripted_destination end"),
 ],
 [])
 
 pbs_teleport_to_scripted_destination = (0, 0, 0, [
+(display_message, "@debug pbs_teleport_to_scripted_destination begin"),
 	(try_for_agents,":agent"),
 	(agent_is_active, ":agent"),
 	(agent_is_alive, ":agent"),
@@ -5204,10 +5350,12 @@ pbs_teleport_to_scripted_destination = (0, 0, 0, [
 			(try_end),
 		(try_end),
 	(try_end),
+(display_message, "@debug pbs_teleport_to_scripted_destination end"),
 ],
 [])
 
 pbs_cancel_running_away = (1, 0, 0, [
+(display_message, "@debug pbs_cancel_running_away begin"),
 	(try_for_agents,":agent"),
 	(agent_is_active, ":agent"),
 	(agent_is_alive, ":agent"),
@@ -5242,10 +5390,12 @@ pbs_cancel_running_away = (1, 0, 0, [
 		(agent_stop_running_away, ":agent"),
 		(try_end),
 	(try_end),
+(display_message, "@debug pbs_cancel_running_away end"),
 ],
 [])
 
 pbs_reload_cancellation = (0.8, 0, 0, [
+(display_message, "@debug pbs_reload_cancellation begin"),
 	(try_for_agents,":agent"),
 	(agent_is_active, ":agent"),
 	(agent_is_alive, ":agent"),
@@ -5269,10 +5419,11 @@ pbs_reload_cancellation = (0.8, 0, 0, [
 	(le, ":random", ":chance"),
 	(agent_set_animation, ":agent", "anim_unused_human_anim_45", 1),
 	(try_end),
-
+(display_message, "@debug pbs_reload_cancellation end"),
 ], [])
 
 pbs_run_toggle = (0, 0, 0, [
+(display_message, "@debug pbs_run_toggle begin"),
 (key_clicked, key_tilde),
 (is_presentation_active, "prsnt_pbs"),
 	(try_for_range, ":company", 0, 8),
@@ -5292,9 +5443,11 @@ pbs_run_toggle = (0, 0, 0, [
 		(try_end),
 	(team_set_slot, "$g_player_team", ":slot_team_run_mode", ":run_mode"),
 	(try_end),
+(display_message, "@debug pbs_run_toggle end"),
 ], [])
 
 aerial_view_toggle = (0, 0.3, 0, [
+(display_message, "@debug aerial_view_toggle begin"),
 (key_clicked, key_u),
 (get_player_agent_no, ":player"),
 (agent_get_look_position, pos2, ":player"),
@@ -5326,13 +5479,17 @@ aerial_view_toggle = (0, 0.3, 0, [
 		(agent_set_no_dynamics, ":horse", 0),
 		(try_end),
 	(try_end),
+(display_message, "@debug aerial_view_toggle end"),
 	], [
+(display_message, "@debug aerial_view_toggle 2 begin"),
 (eq, "$aerial_view_state", 1),
 (assign, "$aerial_view_state", 2),
 (start_presentation, "prsnt_pbs"),
+(display_message, "@debug aerial_view_toggle 2 end"),
 ])
 
 aerial_view_runtime = (0, 0, 0, [], [
+(display_message, "@debug aerial_view_runtime begin"),
 (set_fixed_point_multiplier, 1),
 	(try_begin),
 	(gt, "$aerial_view_hol_pos_order_timer", 0),
@@ -5534,6 +5691,7 @@ aerial_view_runtime = (0, 0, 0, [], [
 (position_set_z, pos1, ":z_coor"),
 (set_fixed_point_multiplier, 1),
 (mission_cam_animate_to_position, pos1, 60, 0),
+(display_message, "@debug aerial_view_runtime end"),
 ])
 
 test = (0, 0, 0, [
@@ -5573,6 +5731,7 @@ test = (0, 0, 0, [
 ], [])
 
 sound_man_hit = (ti_on_agent_hit, 0, 0, [
+(display_message, "@debug sound_man_hit begin"),
 (store_trigger_param_1, ":agent"),
 (store_trigger_param_3, ":damage"),
 (agent_is_active, ":agent"),
@@ -5607,9 +5766,11 @@ sound_man_hit = (ti_on_agent_hit, 0, 0, [
 		(agent_play_sound, ":agent", "snd_woman_hit"),
 		(try_end),
 	(try_end),
+(display_message, "@debug sound_man_hit end"),
 ], [])
 
 sound_man_death = (ti_on_agent_killed_or_wounded, 0, 0, [
+(display_message, "@debug sound_man_death begin"),
 (store_trigger_param_1, ":dead_agent"),
 (store_trigger_param_2, ":Killer"),
 (val_add, "$killed_agents_count", 1),
@@ -5658,9 +5819,11 @@ sound_man_death = (ti_on_agent_killed_or_wounded, 0, 0, [
 			(try_end),
 		(try_end),
 	(try_end),
+(display_message, "@debug sound_man_death end"),
 ], [])
 
 fgs_trees_ams = (ti_after_mission_start, 0, 0,[ #fgs - Flora Generating System
+(display_message, "@debug fgs_trees_ams begin"),
 	(try_begin),
 	(this_or_next|eq, "$g_battle_type", battle_type_fieldbattle),
 	(eq, "$g_battle_type", battle_type_siege),
@@ -6007,9 +6170,11 @@ fgs_trees_ams = (ti_after_mission_start, 0, 0,[ #fgs - Flora Generating System
 		(position_move_x, pos1, ":interval", 0),
 		(try_end),
 	(try_end),
+(display_message, "@debug fgs_trees_ams end"),
 ], [])
 
 pws_sky_bms = (ti_before_mission_start, 0, 0, [
+(display_message, "@debug pws_sky_bms begin"),
 (assign, "$ambience_sound_type", ambience_sound_type_nosound),
 (store_random_in_range, "$g_ambience_random1_1", 0, 6),
 (store_random_in_range, "$g_ambience_random2_1", 0, 6),
@@ -6286,9 +6451,11 @@ pws_sky_bms = (ti_before_mission_start, 0, 0, [
 	(try_end),
 (set_skybox, ":sky", ":sky"),
 (assign, "$current_sky", ":sky"),
+(display_message, "@debug pws_sky_bms end"),
 ], [])
 
 bms = (ti_before_mission_start, 0, 0, [
+(display_message, "@debug bms begin"),
 	(try_begin),
 	(this_or_next|troop_has_item_equipped, "trp_player", "itm_be_chan1"),
 	(this_or_next|troop_has_item_equipped, "trp_player", "itm_sailor_moon_usagi_tsukino"),
@@ -6302,6 +6469,7 @@ bms = (ti_before_mission_start, 0, 0, [
 (assign, "$battle_timer", 0),
 (assign, "$g_player_team", -1),
 (assign, "$number_of_craters", 0),
+(display_message, "@debug bms end"),
 ], [])
 ams = (ti_after_mission_start, 0, 0, [
 ], [])
