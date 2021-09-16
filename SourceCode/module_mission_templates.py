@@ -1605,6 +1605,19 @@ pbs_enemy_cannoneers_retreat = (
 ],
 [])
 
+siege_win_battle = (
+1, 1, 1, [
+(this_or_next|eq, "$g_battle_type", battle_type_siege),
+(eq, "$g_battle_type", battle_type_siege_interior),
+(ge, "$battle_timer", 10),
+(eq, "$g_battle_won", 0),
+(all_enemies_defeated),
+],
+[
+(assign, "$g_battle_won", 1),
+(assign, "$g_battle_result", 1),
+])
+
 pbs_enemy_retreating_end_battle = (
 5, 1, 0, [
 (eq, "$g_battle_type", battle_type_fieldbattle),
@@ -4773,6 +4786,19 @@ player_spawn = (ti_on_agent_spawn, 0, 0, [
 		(assign, "$defenders_team", "$g_enemy_team"),
 		(assign, "$defenders_team_2", 3),
 		(try_end),
+		(try_begin),
+		(gt, "$pas_enlistment_lord", 0),
+		(call_script, "script_cf_random", 70),
+		(assign, "$defenders_team", "$g_player_team"),
+		(assign, "$defenders_team_2", "$g_allies_team"),
+		(assign, "$attackers_team", "$g_enemy_team"),
+		(assign, "$attackers_team_2", 3),
+		(else_try),
+		(assign, "$attackers_team", "$g_player_team"),
+		(assign, "$attackers_team_2", "$g_allies_team"),
+		(assign, "$defenders_team", "$g_enemy_team"),
+		(assign, "$defenders_team_2", 3),
+		(try_end),
 	(else_try), 
 	(assign, "$defenders_team", 0),
 	(assign, "$attackers_team", 1),
@@ -6283,6 +6309,7 @@ ams = (ti_after_mission_start, 0, 0, [
 parabellum_script_set_battle = [
 ams,
 bms,
+siege_win_battle,
 order_move_forwards_backwards,
 order_follow_me,
 order_follow_me_1000ms,
