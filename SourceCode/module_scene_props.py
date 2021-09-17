@@ -4078,7 +4078,7 @@ scene_props = [
 	(assign, reg2, ":scene_prop_id"),
     ]),
    ]),
-  ("mg5_austrian", sokf_moveable, "mg3_german", "bo_mg1",
+  ("mg5_austrian", sokf_moveable, "mg5_austrian", "bo_mg1",
    [
    (ti_on_scene_prop_init,
     [
@@ -4087,7 +4087,7 @@ scene_props = [
 	(assign, reg1, ":scene_prop_id"),
     ]),
    ]),
-  ("mg5_austrian_barrel", sokf_moveable, "mg3_german_barrel", "0",
+  ("mg5_austrian_barrel", sokf_moveable, "mg5_austrian_barrel", "0",
    [
    (ti_on_scene_prop_init,
     [
