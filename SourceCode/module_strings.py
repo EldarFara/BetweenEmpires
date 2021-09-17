@@ -4925,6 +4925,7 @@ State. In order to force her government to surrender to our forces, we will have
 ("pas_rank_gre_9", "Hypostrategos (9)"),
 ("pas_rank_gre_10", "Strategos (10)"),
 
+("vickers2b", "vickers2b"),
 ]
 
 

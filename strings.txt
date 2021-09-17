@@ -1,5 +1,5 @@
 stringsfile version 1
-3958
+3959
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -3958,3 +3958,4 @@ str_pas_rank_gre_7 Syntagmatarchos_(7)
 str_pas_rank_gre_8 Taxiarchos_(8)
 str_pas_rank_gre_9 Hypostrategos_(9)
 str_pas_rank_gre_10 Strategos_(10)
+str_vickers2b vickers2b

@@ -1,7 +1,6 @@
-1438
+1437
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
-qstr_vickers2b vickers2b
 qstr_Next_Page Next_Page
 qstr_Game_Rules:^ Game_Rules:^
 qstr_0 0

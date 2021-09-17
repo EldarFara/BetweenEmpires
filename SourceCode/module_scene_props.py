@@ -4112,7 +4112,8 @@ scene_props = [
 	(store_trigger_param_1, ":scene_prop_id"),
 	(scene_prop_set_slot, ":scene_prop_id", slot_prop_agent_attached, reg0),
 	(assign, reg2, ":scene_prop_id"),
-	(prop_instance_set_material, ":scene_prop_id", "@vickers2b"),
+	(str_store_string, s1, "str_vickers2b"),
+	(prop_instance_set_material, ":scene_prop_id", 0, s1),
     ]),
    ]),
 ]
