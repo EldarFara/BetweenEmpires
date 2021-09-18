@@ -5247,6 +5247,8 @@ pbs_agent_spawn = (ti_on_agent_spawn, 0, 0, [
 	(try_end),
 	(try_begin),
 	(agent_is_non_player, ":agent"),
+	(agent_get_troop_id, ":troop", ":agent"),
+	(neg|is_between, ":troop", "trp_factionplayer_fieldgun_cannoneer_officer", "trp_cannoneers_end"),
 	(call_script, "script_cf_if_agent_faction_invented_technology", ":agent", slot_faction_technology_lmgs),
 	(call_script, "script_cf_random", 10),
 	(call_script, "script_agent_faction_get_lmg", ":agent"), (assign, ":lmg_item", reg1),
