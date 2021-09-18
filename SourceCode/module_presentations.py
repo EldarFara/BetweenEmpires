@@ -16015,7 +16015,7 @@ will be merged into one that has highest number of soldiers."),
 			(try_begin),
 			(faction_get_slot, ":progress", "fac_player_faction", slot_faction_technology_machineguns),
 			(eq, ":progress", 10000),
-			(call_script, "script_prsnt_upgrade_tree_troop_and_name","trp_factionplayer_mgoperator", 880, 375,15),
+			(call_script, "script_prsnt_upgrade_tree_troop_and_name","trp_factionplayer_mgoperator", 910, 375,15),
 			(try_end),
 
         ## cost
