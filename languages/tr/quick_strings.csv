@@ -1,0 +1,1217 @@
+qstr_thawb1_belt1|thawb1 belt1
+qstr_banner_ria1|banner ria1
+qstr_Next_Page|Sonraki sayfa
+qstr_Game_Rules:^|Oyun Kuralları:^
+qstr_0|0
+qstr_Lv._{reg0}|Lv. {reg0}
+qstr_Show_game_rules|Oyun kurallarını göster
+qstr_Choose_name_for_your|Choose name for your faction:
+qstr_Continue...|Devam et...
+qstr_Candidate_#1:_{s1}|Aday #1: {s1}
+qstr_Candidate_#2:_{s1}|Aday #2: {s1}
+qstr_{s3}_of_{s4}_wishes_|{s4} {s3}ı yeni bir mareşal seçmek istiyor ve derebeylerini tavsiye almak için çağırıyor. {s1} ve {s2} olası adaylar.
+qstr_Who_do_you_wish_to_s|Kimi desteklemek istiyorsun?
+qstr_{s1}_gives_his_suppo|{s1} oyunu {s2} için kullanıyor.
+qstr_Number_of_Supporters|Destekçi sayısı: {reg0}
+qstr_{s2}_has_heard_his_v|{s2} derebeylerinin görüşlerini aldı ve {s3}'{.nin} mareşalı olarak {s1}'{.i} seçti.
+qstr__| 
+qstr_Mount|Ata Bin
+qstr_Attack_Type|Saldırı Türü
+qstr_Retreat|Retreat
+qstr_Charge|Hücum
+qstr_Follow_Me|Beni Takip Edin
+qstr_Form_Square|Form Square
+qstr_Spread_Out|Yayılın
+qstr_Stand_Closer|Yakın durun
+qstr_Fall_Back|Geri çekilin
+qstr_Advance|İleri
+qstr_Dismount|Attan İnin
+qstr_Fire_At_Will|Atış Serbest
+qstr_Hold_Your_Fire|Atışı Kes
+qstr_Use_Ranged_Weapons|Use Ranged Weapons
+qstr_Use_Melee_Weapons|Use Melee Weapons
+qstr_Ready|Hazır
+qstr_Wounded|Yaralı
+qstr_Dead|Ölü
+qstr_Cannot_form_square:_|Cannot form square: too many companies selected.
+qstr_Cannot_form_square:_w|Cannot form square: wrong company types (only line infantry and guard inantry can form square).
+qstr_Number_of_men_knocke|Bayıltılan adam sayısı: {reg1}
+qstr_Number_of_men_left:_|Kalan adam sayısı: {reg1}
+qstr_Opponents_Beaten:_{r|Yenilen Düşmanlar: {reg1}
+qstr_Opponents_Remaining:|Kalan Düşmanlar: {reg1}
+qstr_Remain_in_retirement|Emekliliğe devam et
+qstr_Go_back_to_the_adven|Maceraya geri dön.
+qstr_You_have_retired_at_|{reg5} günlük maceradan sonra {reg4}. seviyede emekli oldun.
+qstr_Effect_on_Score|Skora etki
+qstr_Settlements_owned_by|Sahip olduğun yerleşimler: {reg0}
+qstr_Friendly_Settlements|Dost yerleşimler: {reg0}
+qstr_Hostile_Settlements:|Düşman yerleşimler: {reg0}
+qstr_Friendly_Lords:_{reg|Dost Lordlar: {reg0}
+qstr_Enemy_Lords:_{reg0}|Düşman Lordlar: {reg0}
+qstr_Victories:_{reg0}|Galibiyetler: {reg0}
+qstr_Defeats:_{reg0}|Mağlubiyetler: {reg0}
+qstr_Quests_Completed:_{r|Tamamlanan Görevler: {reg0}
+qstr_Companions_Found:_{r|Bulunan Yoldaşlar: {reg0}
+qstr_Companions_Lost/Depa|Ayrılan/Kaybedilen Yoldaşlar: {reg0}
+qstr_Wealth:_{reg0}_pound|Wealth: {reg0} pounds
+qstr_Inventory:_{reg0}_po|Inventory: {reg0} pounds
+qstr_Renown:_{reg0}|Nam: {reg0}
+qstr_Experience:_{reg0}|Tecrübe: {reg0}
+qstr_Days_Passed:_{reg0}|Geçen gün sayısı: {reg0}
+qstr_Difficulty:_{reg0}%|Zorluk: %{reg0}
+qstr_TOTAL_SCORE:_{reg0}|TOPLAM PUAN: {reg0}
+qstr_Income_from_factorie|Income from factories share:
+qstr_{reg10}|{reg10}
+qstr_None|Hiç
+qstr_Back|Back
+qstr_Empty|Empty
+qstr_Number_of^artillery_|Number of^artillery shells.
+qstr_1._{s1}|1. {s1}
+qstr___c.|  c.
+qstr_90%|90%
+qstr_2._{s1}|2. {s1}
+qstr__%| %
+qstr_3._{s1}|3. {s1}
+qstr_4._{s1}|4. {s1}
+qstr_5._{s1}|5. {s1}
+qstr_6._{s1}|6. {s1}
+qstr_7._{s1}|7. {s1}
+qstr_8._{s1}|8. {s1}
+qstr_Form_Square^^Selecte|Form Square^^Selected companies (not more than two)^will form a square formation. It is effective in melee^fighting, especially against cavalry, but vulnarable^to an enemy fire. To selected companies be able to^form square, they need to have at least 25 soldiers^in total.^Company types: Line infantry, Guard.
+qstr_pbs_activeability_me|pbs activeability merge
+qstr_Merge_Companies^^Sel|Merge Companies^^Selected companies (not less than one)^will be merged into one that has highest number of soldiers.
+qstr_pbs_activeability_di|pbs activeability digin
+qstr_Dig_In^^Selected_com|Dig In^^Selected companies will dig in,^creating trenches on their position.^Only available once per battle.^Company types: Line infantry, Guard.
+qstr_pbs_activeability_co|pbs activeability coveringfire on
+qstr_pbs_activeability_ga|pbs activeability gas
+qstr_Gas_Attack^^.^Compan|Gas Attack^^.^Company types: Field Guns and Howitzers.
+qstr_pbs_activeability_gr|pbs activeability grenades
+qstr_Grenade_Attack^^Sele|Grenade Attack^^Selected companies launch a grenade attack, throwing^hand grenades at enemies which are at close distance.^Only available once per 3 minutes.^Company types: Shock troops.
+qstr_Suppression_fire:_on|Suppression fire: on
+qstr_Suppression_fire:_of|Suppression fire: off
+qstr_pbs_activeability_cov|pbs activeability coveringfire off
+qstr_Suppression_fire:_on/|Suppression fire: on/off
+qstr_pbs_activeability_cove|pbs activeability coveringfire onoff
+qstr_No_companies_selecte|No companies selected
+qstr_pbs_activeability_cover|pbs activeability coveringfire noselected
+qstr_{s1}^^Turning_on_sup|{s1}^^Turning on suppression fire will increase shooting speed^and decreasing enemy discipline level three times faster,^on exchange of drastically decreasing your own accuracy.^Company types: any.
+qstr_Gas_masks:_always_we|Gas masks: always wear
+qstr_pbs_activeability_gas|pbs activeability gasmasks on
+qstr_Gas_masks:_at_will|Gas masks: at will
+qstr_pbs_activeability_gasm|pbs activeability gasmasks off
+qstr_Gas_masks:_always_wea|Gas masks: always wear/at will
+qstr_pbs_activeability_gasma|pbs activeability gasmasks onoff
+qstr_pbs_activeability_gasmas|pbs activeability gasmasks noselected
+qstr_{s1}^^Gas_masks_make|{s1}^^Gas masks make troops invulnerable to poison gas, but decrease shooting accuracy and energy level.^Company types: any.
+qstr_{reg0}|{reg0}
+qstr_{reg0}%|{reg0}%
+qstr_{reg0}_c.|{reg0} c.
+qstr_Cannot_dig_in:_wrong|Cannot dig in: wrong company types (only line infantry and guard infantry can dig in).
+qstr_Cannot_launch_gas_at|Cannot launch gas attack: wrong company types (only artillery can use gas attack).
+qstr_Cannot_launch_grenad|Cannot launch grenade attack: wrong company types (only shock troops can throw grenades).
+qstr_Select_2_or_more_com|Select 2 or more companies with soldiers to merge.
+qstr_Others|Others
+qstr_Outlaws|Outlaws
+qstr_Mercenary|Mercenary
+qstr_Close|Close
+qstr_Click_the_center_but|Click the center button to toggle faction^Click the avatars to view details of them
+qstr_Level:_{reg3}^Health|Level: {reg3}^Health: {reg4}
+qstr_Attributes|Attributes
+qstr_STR^AGI^INT^CHA|STR^AGI^INT^CHA
+qstr_{reg2}|{reg2}
+qstr_{s1}^{reg2}|{s1}^{reg2}
+qstr_Skills|Skills
+qstr_Ironflesh^Power_Stri|Ironflesh^Power Strike^Power Throw^Power Draw^Shield^Athletics^Riding^Horse Archery
+qstr_Proficiencies|Proficiencies
+qstr_1H_Weapons^2H_Weapon|1H Weapons^2H Weapons^Polearms^Archery^Rifles^Throwing
+qstr_Equipments|Equipments
+qstr_Factions|Factions
+qstr_Show_towns|Show towns
+qstr_Show_castles|Show castles
+qstr_Show_villages|Show villages
+qstr_Tip:_move_the_mouse_|Tip: move the mouse onto the black blocks to show their names.
+qstr_The_World_Map|The World Map
+qstr_Done|Done
+qstr_Press_Escape_to_clos|Press Escape to close menu...
+qstr_{s7}__s_Army|{s7} 's Army
+qstr_Attribute_points_{re|Attribute points {reg40}
+qstr_Skill_points_{reg41}|Skill points {reg41}
+qstr_Weapon_points_{reg42|Weapon points {reg42}
+qstr_Save|Save
+qstr_Reset|Reset
+qstr_Current:{s1}|Current:{s1}
+qstr_{s2}^Base_Attribute:|{s2}^Base Attribute:CHA
+qstr_{s2}^Base_Attribute:I|{s2}^Base Attribute:INT
+qstr_{s2}^Base_Attribute:A|{s2}^Base Attribute:AGI
+qstr_{s2}^Base_Attribute:S|{s2}^Base Attribute:STR
+qstr_Battle_role:|Battle role:
+qstr_Line_Infantry|Line Infantry
+qstr_Light_Infantry|Light Infantry
+qstr_Guard_Infantry|Guard Infantry
+qstr_Melee_Cavalry|Melee Cavalry
+qstr_Ranged_Cavalry|Ranged Cavalry
+qstr_Guard_Cavalry|Guard Cavalry
+qstr_Next|Next
+qstr_Price_{reg42}^Weight|Price {reg42}^Weight {reg43}
+qstr_{reg5}_to_{reg6}|{reg5} to {reg6}
+qstr_You_can_t_equip_this|You can't equip this item - wrong slot.
+qstr_Military_Technologie|Military Technologies of the {s1}
+qstr_Research|Research
+qstr_Select_technology|Select technology
+qstr_Rifled_Caplock^^Musk|Rifled Caplock^^Muskets
+qstr_Conversion_Breech_lo|Conversion Breech-loaded^^Rifles
+qstr_Modern^^Breech_loade|Modern^^Breech-loaded Rifles
+qstr_Breech_loaded^^Canno|Breech-loaded^^Cannons
+qstr_Improved_Percussion^|Improved Percussion^^Mechanisms
+qstr_Early_Magazine^^Rifl|Early Magazine^^Rifles
+qstr_Machine_Guns|Machine Guns
+qstr_Modern_Magazine_Rifl|Modern Magazine Rifles
+qstr_Light_Machine^^Guns|Light Machine^^Guns
+qstr_Landships|Landships
+qstr_Crimean_War^^Experie|Crimean War^^Experience
+qstr_Skirmish_Line^^Tacti|Skirmish Line^^Tactics
+qstr_Modern_Defence^^Tact|Modern Defence^^Tactics
+qstr_Modern_Attack_Tactic|Modern Attack Tactics
+qstr_Rapid_Firing^^Artill|Rapid Firing^^Artillery
+qstr_Infantry_Machine^^Gu|Infantry Machine^^Gun Tactics
+qstr_Covering_Fire|Covering Fire
+qstr_Gas_Attacks|Gas Attacks
+qstr_Shock_Troops|Shock Troops
+qstr_You_do_not_have_enou|You do not have enough money.
+qstr_faction_technologies|faction technologies tech available
+qstr_faction_technologies_|faction technologies tech inprogress
+qstr_Rifled_Caplock^Muske|Rifled Caplock^Muskets
+qstr_faction_technologies_p|faction technologies photo riflesrifled
+qstr_Rapid_Firing^Artille|Rapid Firing^Artillery
+qstr_faction_technologies_ph|faction technologies photo modernartillery
+qstr_faction_technologies_pho|faction technologies photo modernattack
+qstr_Crimean_War^Experien|Crimean War^Experience
+qstr_faction_technologies_phot|faction technologies photo crimeanwar
+qstr_Modern_Magazine^Rifl|Modern Magazine^Rifles
+qstr_faction_technologies_photo|faction technologies photo riflesboltactionmodern
+qstr_Conversion_Breech_loa|Conversion Breech-loaded^Rifles
+qstr_faction_technologies_photo_|faction technologies photo riflesconverted
+qstr_Infantry_Machine^Gun|Infantry Machine^Gun Tactics
+qstr_faction_technologies_photo_i|faction technologies photo infantrymgtactics
+qstr_faction_technologies_photo_c|faction technologies photo coveringfire
+qstr_faction_technologies_photo_g|faction technologies photo gasattacks
+qstr_Converted_breech_loa|Converted breech-loaded rifles have several issues. They have big caliber, because of which during fast shooting the barrel heats up so much that it becomes hard to handle rifle during reload or melee fighting. Inserted breech-loading mechanisms are not perfect and often cause cartridge case to jam inside after shot, and being hard to get out. Next step in firearms rearmament should be adopting new breech-loaded rifle: it will have much smaller caliber than before, which will improve bullet ballistics, and will have improved breech-loading mechanism, that will further increase rate of fire by making reloading process easier.^^Effects: army changes it's firearms to small-caliber breech-loading rifles.
+qstr_faction_technologies_photo_r|faction technologies photo riflessmallcaliber
+qstr_faction_technologies_photo_t|faction technologies photo tanks
+qstr_Skirmish_Line^Tactic|Skirmish Line^Tactics
+qstr_faction_technologies_photo_s|faction technologies photo skirmishline
+qstr_Light_Machine^Guns|Light Machine^Guns
+qstr_faction_technologies_photo_l|faction technologies photo lmgs
+qstr_Early_Magazine^Rifle|Early Magazine^Rifles
+qstr_faction_technologies_photo_ri|faction technologies photo riflesboltaction
+qstr_Breech_loaded^Cannon|Breech-loaded^Cannons
+qstr_faction_technologies_photo_ca|faction technologies photo cannonsbreechloading
+qstr_faction_technologies_photo_m|faction technologies photo machineguns
+qstr_Improved_Percussion^M|Improved Percussion^Mechanisms
+qstr_faction_technologies_photo_la|faction technologies photo lateshells
+qstr_faction_technologies_photo_sh|faction technologies photo shocktroops
+qstr_Modern_Defence^Tacti|Modern Defence^Tactics
+qstr_faction_technologies_photo_mo|faction technologies photo moderndefence
+qstr___already_invested_| (already invested)
+qstr___already_researched| (already researched)
+qstr__Current_progress___| Current progress - {reg2}%.
+qstr_Cost___{reg0}_pounds|Cost - {reg0} pounds{s1}.^Available after {reg1} year.{s2}
+qstr_Select_Faction|Select Faction
+qstr_Start_Game|Start Game
+qstr_Chosen_Faction:^{s1}|Chosen Faction:^{s1}
+qstr_Select_flag_for_your|Select flag for your faction
+qstr_Peace_negotiations_w|Peace negotiations with {s1}
+qstr_Stop_Negotiations|Stop Negotiations
+qstr_Make_Peace|Make Peace
+qstr_Opposite_side_diplom|Opposite side diplomats^cannot agree with terms
+qstr_Current_winner:_{s1}|Current winner: {s1}
+qstr_War_reparations_amou|War reparations amount: {reg11} pounds
+qstr_Infamy_penalty:_{reg|Infamy penalty: {reg12}
+qstr_Cannot_claim_{s31}__|Cannot claim {s31} - it doesn't have supply routes to your faction.
+qstr_Diplomats_from_{s32}|Diplomats from {s32} refuse to give {s31} to the {s33}.
+qstr_{s1}|{s1}
+qstr_Executive_Branch_Com|Executive Branch Composition 
+qstr_Not_a_ruling_party.^|Not a ruling party.^Click to make this party^ a ruling party.
+qstr_Upper_Class___Aristo|Upper Class - Aristocracy
+qstr_Upper_Class___Bourge|Upper Class - Bourgeoisie
+qstr_Middle_Class|Middle Class
+qstr_Lower_Class___Urban|Lower Class - Urban
+qstr_Lower_Class___Rural|Lower Class - Rural
+qstr_Loyalty_to_parties:|Loyalty to parties:
+qstr_Wealth:_{reg1}%|Wealth: {reg1}%
+qstr_Satisfaction_with_ne|Satisfaction with needs: {reg2}%
+qstr_Political_activity:_|Political activity: {reg3}%
+qstr_State_Laws:|State Laws:
+qstr_Nomination_Rules|Nomination Rules
+qstr_Upper_Class_Only|Upper Class Only
+qstr_Universal|Universal
+qstr_Vote_Franchise|Vote Franchise
+qstr_Aristocracy_Only|Aristocracy Only
+qstr_Upper_and_Middle_Cla|Upper and Middle Class Only
+qstr_Universal_Weighted|Universal Weighted
+qstr_Voting_System|Voting System
+qstr_Ruling_Party_Influen|Ruling Party Influence
+qstr_Non_secret_Ballot|Non-secret Ballot
+qstr_Secret_Ballot|Secret Ballot
+qstr_Press_Censorship|Press Censorship
+qstr_State_Press|State Press
+qstr_Heavy_Censorship|Heavy Censorship
+qstr_Light_Censorship|Light Censorship
+qstr_Free_Press|Free Press
+qstr_Executive_Branch_Ele|Executive Branch Elective Posts
+qstr_Selected_by_State|Selected by State
+qstr_Partially_Elected|Partially Elected
+qstr_Mostly_Elected|Mostly Elected
+qstr_Military_Service_Ter|Military Service Term
+qstr_Short|Short
+qstr_Medium|Medium
+qstr_Long|Long
+qstr_Production_Safety_Re|Production Safety Regulations
+qstr_Minimum_Wage|Minimum Wage
+qstr_Trade_Unions|Trade Unions
+qstr_Public_Meetings|Public Meetings
+qstr_Income_tax:_{reg10}%|Income tax: {reg10}%
+qstr_Goods_and_Services_t|Goods and Services tax: {reg10}%
+qstr_Import/Export_tax:_{|Import/Export tax: {reg11}%/{reg12}%
+qstr_Military_Expenses:_{|Military Expenses: {reg10}%
+qstr_Education_Expenses:_|Education Expenses: {reg10}%
+qstr_Infrastructure_Expen|Infrastructure Expenses: {reg10}%
+qstr_Healthcare_Expenses:|Healthcare Expenses: {reg10}%
+qstr_Slot:_not_selected|Slot: not selected
+qstr_Party:_not_selected|Party: not selected
+qstr_Party:_{reg1}___{s1}|Party: {reg1} - {s1}
+qstr_{reg1}|{reg1}
+qstr_N_A|N A
+qstr_Slot:_{reg1}|Slot: {reg1}
+qstr_JUST_MONIKA_JUST_MON|JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^
+qstr_monika1|monika1
+qstr_00|00
+qstr_{reg1}.{s2}{reg2}_mi|{reg1}.{s2}{reg2} millions of population
+qstr_Literacy_is_{reg1}.{|Literacy is {reg1}.{reg2}%
+qstr_Urbanization_is_{reg|Urbanization is {reg1}.{reg2}%
+qstr_Daily_GDP_is_{reg1}_|Daily GDP is {reg1} pounds.
+qstr_{reg1}_craftsmen_{re|{reg1} craftsmen, {reg2} of which are employed^in mass production, and {reg3} are^occupied in handicraft production.
+qstr_Region_of_{s1}|Region of {s1}
+qstr_Resource_Menu|Resource Menu
+qstr_X_thousands_of_popul|X thousands of population
+qstr_Literacy_is_X%|Literacy is X%
+qstr_Urbanization_is_X%|Urbanization is X%
+qstr__+| +
+qstr_Balance_change:{s1}{|Balance change:{s1}{reg10} pounds.
+qstr_BUY|BUY
+qstr_SELL|SELL
+qstr_Balance_change:_+0_p|Balance change: +0 pounds.
+qstr_Manage_share__Now_is|Manage share (Now is {reg10})%.
+qstr_Not_enough_money.|Not enough money.
+qstr_Price_history_chart:|Price history chart:
+qstr_Country|Country
+qstr_Supply|Supply
+qstr_Demand|Demand
+qstr_Number_of^Factories|Number of^Factories
+qstr_Quality|Quality
+qstr_GDP|GDP
+qstr_Population|Population
+qstr_Literacy|Literacy
+qstr_Urbanization|Urbanization
+qstr_Select_factory_to_bu|Select factory to build:
+qstr_Your_current_balance|Your current balance is {reg10} pounds.
+qstr_Initial_Capital:_500|Initial Capital: 50000 pounds.
+qstr_*Rest_of_initial_bud|*Rest of initial budget will be found via investitions.^Speed of funding depends on region and country.
+qstr_Start_Enterprise|Start Enterprise
+qstr_pes_region_factoryca|pes region factorycard2
+qstr_{s3}|{s3}
+qstr_{s2}|{s2}
+qstr_Same_type_of_factory|Same type of factory does already exist in this town.
+qstr_Initial_Capital:_{re|Initial Capital: {reg10} pounds.
+qstr_vSeason|vSeason
+qstr_{s1}_of_{s3}_was_def|{s3} {s1}ı yenildi, ama kaçmayı başardı.
+qstr_{s54}_is_a_claimant_|{s54}, {s56} tahtında hak talep ediyor.
+qstr_nowhere|Hiçbir yer
+qstr_{s57}_and_{s58}|{s57} ve {s58}
+qstr_{reg3?She:He}|{reg3?O:O}
+qstr_The_town_of_{s50}|{s50}
+qstr_The_village_of_{s50}|{s52} yakınlarındaki {s50}
+qstr_{s51}_belongs_to_{s1|{s51} {s2}ndan {s1}'{.e} ait.^
+qstr_{s7}_and_{s8}|{s7} ve {s8}
+qstr_{s2}It_has_no_villag|{s2}Hiç köyü yok.^
+qstr_{s2}{reg0?Its_villag|{s2}{reg0?Bağlı köyleri:Bağlı köyü} {s8}.^
+qstr_{s63}_is_connected_t|{s63} is connected to the cities of {s60}, {s61} and {s62} by the local road network. Region of this center has access to a seaport.
+qstr_{s63}_is_connected_to|{s63} is connected to the cities of {s60}, {s61} and {s62} by the local road network.
+qstr_{s2}Its_prosperity_i|{s2}Refah durumu: {s50}
+qstr_noone|hiçkimse
+qstr_{s9}_and_{s10}|{s9} ve {s10}
+qstr_{s21}^*_The_{s5}_is_|{s21}^* The {s5} is in alliance with {s14} ({reg11}).
+qstr_{s21}^*_The_{s5}_has|{s21}^* The {s5} has friendly diplomatic relationship with {s14} ({reg11}).
+qstr_{s21}^*_The_{s5}_has_|{s21}^* The {s5} has warm diplomatic relationship with {s14} ({reg11}).
+qstr_{s21}^*_The_{s5}_has_i|{s21}^* The {s5} has indifferent diplomatic relationship with {s14} ({reg11}).
+qstr_{s5}_has_been_defeat|{s5} yenildi!
+qstr_{s7}_opened_the_gate|{s7} kapıları açtı
+qstr_{s7}_closed_the_gate|{s7} kapıları kapattı
+qstr_Has_second_barrel__p|Has second barrel (press action^key while aiming to fire a buckshot)
+qstr_Uses_pistol_cartridg|Uses pistol cartridges
+qstr_Smoothbore_musket|Smoothbore musket
+qstr_Rifled_musket|Rifled musket
+qstr_Converted_breech_load|Converted breech loaded rifle
+qstr_Modern_breech_loaded|Modern breech loaded rifle
+qstr_Smoothbore_pistol|Smoothbore pistol
+qstr_Revolver__6_rounds_|Revolver (6 rounds)
+qstr_Pocket_Revolver__6_r|Pocket Revolver (6 rounds)
+qstr_Self_Loading_Pistol_|Self-Loading Pistol (8 rounds)
+qstr_Revolver__9_rounds_|Revolver (9 rounds)
+qstr_Pump_shotgun__6_roun|Pump shotgun (6 rounds)
+qstr_Shotgun__2_rounds_|Shotgun (2 rounds)
+qstr_Lever_action_shotgun|Lever action shotgun (6 rounds)
+qstr_Lever_action_shotgun_|Lever action shotgun (1 round)
+qstr_Bolt_action_magazine|Bolt-action magazine rifle (5 rounds)
+qstr_Straight_pull_bolt_a|Straight-pull bolt-action^magazine rifle (5 rounds)
+qstr_Bolt_action_magazine_|Bolt-action magazine rifle (4 rounds)
+qstr_Bolt_action_magazine_r|Bolt-action magazine rifle (8 rounds)
+qstr_Bolt_action_magazine_ri|Bolt-action magazine rifle (10 rounds)
+qstr_Pocket_Pistol__6_rou|Pocket Pistol (6 rounds)
+qstr_Pocket_Pistol__4_rou|Pocket Pistol (4 rounds)
+qstr_Breech_loaded_rifle|Breech loaded rifle
+qstr_Lever_action_magazin|Lever action magazine rifle (8 rounds)
+qstr_Lever_action_magazine|Lever action magazine rifle (5 rounds)
+qstr_Lever_action_magazine_|Lever action magazine rifle (9 rounds)
+qstr_Lever_action_magazine_r|Lever action magazine rifle (16 rounds)
+qstr_Lever_action_magazine_ri|Lever action magazine rifle (7 rounds)
+qstr_+{reg1}_to_party_mor|Grup moraline +{reg1}
+qstr_Requires_{reg1}_inte|Okumak için {reg1} zekâ gerekir.
+qstr_Reading_Progress:_{r|Okuma süreci: %{reg1}
+qstr_wound_treament|yara bakımı
+qstr_trainer|talimci
+qstr_surgery|cerrahlık
+qstr_+1_to_{s1}_while_in_|Envanterdeyken {s1} becerisine +1
+qstr_Move_here|Buraya hareket et.
+qstr_View_notes|Notlara bak.
+qstr_Accompany|Refakat et.
+qstr_killed|ölü
+qstr_wounded|yaralı
+qstr_{s0}^TOTAL:_{reg3}__|{s0}^TOPLAM: {reg3} ({s2})
+qstr_^None|^Hiç
+qstr_nothing|hiç
+qstr_{reg0}_village{reg1?|{reg0} köy{reg1?s:}
+qstr_{reg0}_castle{reg1?s|{reg0} kale{reg1?s:}
+qstr_{reg0}_castle{reg1?s:|{reg0} kale{reg1?s:} ve {s0}
+qstr_{reg0}_town{reg1?s:}|{reg0} şehir{reg1?s:}
+qstr_{reg0}_town{reg1?s:}_|{reg0} şehir{reg1?s:} ve {s0}
+qstr_{reg0}_town{reg1?s:}_{|{reg0} şehir{reg1?s:}, {s0}
+qstr_Your_opponents_are_r|Rakiplerin dövüşe hazır.
+qstr_Try_to_destroy_as_ma|Olabildiğince fazla hedefi yoketmeye çalış. Pisti tamamlamak için iki buçuk dakikan var.
+qstr_Stay_behind_the_line|Çizginin arkasında durup hedefleri vur. Boşa sallamamaya çalış.
+qstr_Battle_Advantage_=_{|Savaş Avantajı = {reg0}.
+qstr_{s9}_wants_you_to_re|{s9} sonraki emre kadar ordusunu takip etmeni istiyor.
+qstr__Being_Raided_|(Saldırı altında)
+qstr__Looted_|(Yağmalandı)
+qstr__Under_Siege_|(Kuşatma Altında)
+qstr_The_village_of_{s1}_|{s1} {s2} tarafından yağmalandı.
+qstr_{s3}_is_no_longer_un|{s3} artık kuşatma altında değil.
+qstr_Small_bands_of_enemi|{s1} yakınlarında ufak bir düşman grubu tespit edildi.
+qstr_Enemy_patrols_spotte|{s1} yakınlarında düşman grubu tespit edildi.
+qstr_Medium_sized_group_o|{s1} yakınlarında orta büyüklükte bir düşman grubu tepit edildi.
+qstr_Significant_group_of|{s1} yakınlarında kalabalık bir düşman grubu tespit edildi..
+qstr_Army_of_enemies_spot|Düşman ordusu {s1} yakınlarında tespit edildi.
+qstr_Large_army_of_enemie|Kalabalık bir düşman ordusu {s1} yakınlarında tespit edildi.
+qstr_Great_host_of_enemie|Dev bir düşman ordusu {s1} yakınlarında tepsit edildi.
+qstr_{s1}_has_been_besieg|{s1} {s3}ndan {s2} tarafından kuşatıldı.
+qstr__{s1}__{s11}:_{s14}|({s1}) {s11}: {s14}
+qstr_{s14}__{s21}_|{s14} ({s21})
+qstr_{s1}_is_the_new_mars|{s1}'nın yenimareşali {s2}.
+qstr_You_gained_{reg12}_r|{reg12} nam kazandın.
+qstr_You_lose_{reg12}_ren|{reg12} nam kaybettin.
+qstr_Your_relation_with_{|{s1} ile ilişkin ilerledi.
+qstr_Your_relation_with_{s|{s1} ile ilişkin geriledi.
+qstr_You_gain_honour.|Onur kazandın.
+qstr_You_lose_honour.|Onur kaybettin.
+qstr_{s1}_has_declared_wa|{s1}, {s2}na savaş açtı.
+qstr_{s1}_has_declared_war|{s1} has declared war against {s2} in support of {s31}.
+qstr_{s1}_and_{s2}_have_m|{s1} ve {s2} barış anlaşması imzaladılar.
+qstr_{s2}_{reg3?was:is_cu|{s2} {reg3?{s3} topraklarındaydı:şu anda {s3} topraklarında}.
+qstr_{s2}_{reg3?was:is}_t|{s2} {s3} topraklarına doğru {reg3?gidiyordu:gidiyor} ve {reg3?:şu sıralar} {s4} yakınlarında {reg3?idi:olmalı}.
+qstr_{s2}_{reg3?was:is}_i|{s2} {reg3?kırdaydı:kırda} ve {reg3?: şu sıralar} {s3} {reg3?yakınlarındaydı:yakınlarında olmalı}.
+qstr_{s2}_{reg3?was:is}_b|{s2} {s3} zindanında {reg3?hapsedilmişti:tutuluyor}.
+qstr_{s2}_{reg3?was:has_b|{s2} düşmanları tarafından esir {reg3?alınmıştı:tutuluyor}. 
+qstr_{reg3?{s2}_s_locatio|{reg3?{s2} nerede bilinmiyordu:{s2} nerede bilmiyorum}.
+qstr_{s6}_has_joined_your|{s6} grubuna katıldı
+qstr_You_now_owe_{reg2}_p|You now owe {reg2} pounds to {s1}.
+qstr_Renown_value_for_thi|Bu savaşın nam değeri {reg8}.
+qstr_You_have_run_into_a_|Bir tuzağa düştün!
+qstr_You_are_attacked_by_|Bir grup haydut tarafından saldırıya uğradın!
+qstr_Holding|Duruyor
+qstr_Following|İzliyor
+qstr_Charging|Hücum ediyor
+qstr_Advancing|İlerliyor
+qstr_Falling_Back|Geri Çekiliyor
+qstr_Standing_Closer|Birbirine yaklaşıyor
+qstr_Spreading_Out|Birbirinden uzaklaşıyor
+qstr_Standing|Duruyor
+qstr_N/A|N/A
+qstr_Free|Serbest
+qstr_Any_Weapon|Silah serbest
+qstr_Blunt_Weapons|Bayıltıcı Silahlar
+qstr_{s1}_Rebels|{s1} Asileri
+qstr_Given_by:_{s62}|{s62} tarafından verildi.
+qstr_Given_on:_{s60}|{s60} tarihinde verildi.
+qstr_You_have_{reg0}_days|Bu görevi bitirmek için {reg0} günün var.
+qstr_This_quest_has_been_|Bu görev sonlandı. Bitirmek için {s59} ile konuş.
+qstr_This_quest_has_been_s|Bu görev başarıyla tamamlandı. {s59} ile konuşup ödülünü al.
+qstr_This_quest_has_faile|Bu görev başarısız oldu. {s59} ile konuşup durumu açıkla.
+qstr_At_the_time_quest_wa|Görev verildiğinde:^{s1}
+qstr_{s5}_has_a_strength_|{s5} gücü : {reg1} asker
+qstr_The_last_time_you_sa|Onu son gördüğün yer {s1}.
+qstr_The_last_time_you_he|Onun hakkında son haber aldığın zaman {s1}.
+qstr_Current_garrison_con|Garnizonda {reg5} asker bulunuyor.{reg4?^{reg6} gün yetecek yiyecek stoğu var.:}
+qstr_Very_Poor|Çok Fakir
+qstr_Poor|Fakir
+qstr_Average|Ortalama
+qstr_Rich|Zengin
+qstr_Very_Rich|Çok Zengin
+qstr_Manor|Malikane
+qstr_A_manor_lets_you_res|Malikane köyde kalmanı sağlar ve  burada kalırken askerlerin maaşını yarıya düşürür.
+qstr_Mill|Değirmen
+qstr_A_mill_increases_vil|Değirmen köyün refah seviyesini %5 artırır.
+qstr_Watch_Tower|Gözcü Kulesi
+qstr_A_watch_tower_lets_t|Gözcü kulesi köylülerin daha erken alarm vermelerini sağlar. Düşmanların köyü yağmalaması için gereken zamanı %25 artırır.
+qstr_School|Okul
+qstr_A_shool_increases_th|Okul köylülerin sadakatini her ay +1 artırır.
+qstr_Messenger_Post|Ulak Karakolu
+qstr_A_messenger_post_let|Ulak karakolu, yakında düşman olduğu zamanlarda çok uzakta olsan da köylülerin sana mesaj yollamasına olanak tanır.
+qstr_Prison_Tower|Kule Hapishanesi
+qstr_A_prison_tower_reduc|Kule Hapishanesi burada tutulan mahkumların başarıyla kaçma şansını düşürür.
+qstr_Prosperity_of_{s2}_h|{s2}nde refah seviyesi {s3} durumdan {s4} durumuna geçti.
+qstr_{s4}_looks_upset.|{s4} sinirli görünüyor.
+qstr_your_party|grubun
+qstr_{reg0?One_of_your_pr|{reg0?Senin mahkumun olan, :}{s3}ndan {s1} tutsaklıktan kaçtı!
+qstr_You_brought_{reg3}_h|{s1} için {reg3} baş sığır götürdün.
+qstr_I_heard_that_there_w|Yakında {s62} içinde bir turnuva olacağını duydum.
+qstr_I_heard_that_one_can|{s63}nde çok ucuza {s62} bulunduğunu duydum.
+qstr_I_heard_that_they_pa|{s63}nde {s62} için çok yüksek fiyatlar ödendiğini duydum.
+qstr_two_days_ago|iki gün önce
+qstr_Best_threat_of_{s4}_|{s4} en iyi tehdit {reg1} değerinde
+qstr_No_center_found_to_d|Savunulacak toprak yok
+qstr_You_gain_right_to_ru|Yönetme hakkı kazandın
+qstr_You_lose_right_to_ru|Yönetme hakkını kaybettin
+qstr_Added_money_for_your|Added money for your old horse
+qstr_debug_game_missile_l|debug game missile launch begin
+qstr_debug_game_missile_la|debug game missile launch end
+qstr_Line_Infantry_Compan|Line Infantry Company
+qstr_Light_Infantry_Compa|Light Infantry Company
+qstr_Guard_Infantry_Compa|Guard Infantry Company
+qstr_Cavalry_Squadron|Cavalry Squadron
+qstr_Mounted_Rifles_Squad|Mounted Rifles Squadron
+qstr_Cavalry_Guard_Squadr|Cavalry Guard Squadron
+qstr_Field_Guns_Battery|Field Guns Battery
+qstr_Howitzers_Battery|Howitzers Battery
+qstr_Heavy_Howitzers_Batt|Heavy Howitzers Battery
+qstr_Machine_Guns_Crew|Machine Guns Crew
+qstr_Shock_Troops_Company|Shock Troops Company
+qstr_Armor_Squadron|Armor Squadron
+qstr__I.| I.
+qstr_L.I.|L.I.
+qstr__G.| G.
+qstr_M.C.|M.C.
+qstr_M.R.|M.R.
+qstr_C.G.|C.G.
+qstr_G.B.|G.B.
+qstr_H.B.|H.B.
+qstr_H.H.|H.H.
+qstr_M.G.|M.G.
+qstr_S.I.|S.I.
+qstr_A.|A.
+qstr_Cannot_form_square:_t|Cannot form square: too few soldiers (need at least 25).
+qstr_1_{reg1}|1 {reg1}
+qstr_flag1_0|flag1 0
+qstr_{s31}_created_a_casu|{s31} created a casus belli for {s32} for {reg10} days.
+qstr_{s31}_s_infamy_is_in|{s31}'s infamy is increased by {reg10} and is now {reg11}.
+qstr_{s31}_s_infamy_is_de|{s31}'s infamy is decreased by {reg10} and is now {reg11}.
+qstr_Belongs_to_{s31}|Belongs to {s31}
+qstr_Controlled_by_{s31}^|Controlled by {s31}^Belongs to {s32}
+qstr_{s31}_becomes_an_all|{s31} becomes an ally of {s32}.
+qstr_{s31}_breaks_an_alli|{s31} breaks an alliance with {s32}.
+qstr_Absolute_Monarchy|Absolute Monarchy
+qstr_Constitutional_Monar|Constitutional Monarchy
+qstr_Republic|Republic
+qstr_Parliament_Compositi|Parliament Composition
+qstr_{s1}:_{reg1}%|{s1}: {reg1}%
+qstr_Ruling_party|Ruling party
+qstr_Influence:_{reg1}%|Influence: {reg1}%
+qstr_Annual_Income:_{reg1|Annual Income: {reg1}.{reg10} p.
+qstr_Corruption_level:_{r|Corruption level: {reg10}%
+qstr_+{reg10}_pounds|+{reg10} pounds
+qstr_Goods_and_services_t|Goods and services tax: {reg10}%
+qstr__{reg10}_pounds|-{reg10} pounds
+qstr_Public_servants_wage|Public servants wage expenses:^-{reg10} pounds
+qstr_Lost_from_corruption|Lost from corruption: -{reg10} pounds
+qstr_Last_budget_change:^|Last budget change:^{reg10} pounds
+qstr_PPS_Faction_iteratio|PPS Faction iteration of {s1}.
+qstr_Center_iteration_of_|Center iteration of {s1}.
+qstr_{s1}_s_{s2}_Iteratio|{s1}'s {s2} Iteration:
+qstr_price_item_{s1}_raw_|price item {s1} raw resource1 {reg10} raw resource1 amount {reg11} output size {reg12}.
+qstr_Produced_{reg10}_wit|Produced {reg10} with {reg20} workers, raw resources multiplier was {reg30}.
+qstr_Spent_{reg10}_pounds|Spent {reg10} pounds for wage.
+qstr_Searching_for_{s1}_i|Searching for {s1} in {reg10} centers.
+qstr_{s1}_has_{reg10}_of_|{s1} has {reg10} of {s2}.
+qstr_In_sum_bought_{reg1}|In sum, bought {reg1}/{reg10} of {s1}.
+qstr_Workers_unemployed__|Workers unemployed - {reg1}, employed {reg2} workers.
+qstr_{reg1}_thousands_of_|{reg1} thousands of population
+qstr_Daily_GDP_is_{reg1}_p|Daily GDP is {reg1} pounds^({reg2}% of {s1}'s economy).
+qstr_This_region_produces|This region produces increased amount of {s2}.
+qstr_Add_Workplaces^^Buyi|Add Workplaces^^Buying more equipment will increase^number of workplaces.
+qstr_Improve_Worker_Condi|Improve Worker Conditions^^Improving working conditions means inceasing^worker wage, improving production safety and,^in the end, introducing social benefits to workers.^This will increase quality of product^and increase factory attractiveness^for potential workers.
+qstr_Improve_Equipment^^T|Improve Equipment^^Thorough maintaining and improving factory^equipment increases quality of product, making^it more likely to be sold.
+qstr_No_development_mode.|No development mode.
+qstr_{reg10}/{reg11}_work|{reg10}/{reg11} workers
+qstr_Budget:_{reg10}_poun|Budget: {reg10} pounds.
+qstr_Income:_{reg10}_poun|Income: {reg10} pounds.
+qstr_Spent_{reg10}_pounds_|Spent {reg10} pounds and earnt {reg11} pounds.
+qstr_Managed_to_buy_{reg1|Managed to buy {reg10}% of needed raw resources^needed for production.
+qstr_Produced_{reg10}.{re|Produced {reg10}.{reg12} {s1} (sold {reg11}%).
+qstr_Quality_of_product_i|Quality of product is {reg10}%.
+qstr_Engineers_percentage|Engineers percentage is {reg10}%.
+qstr_Deterioration_of_mac|Deterioration of machine tools is {reg10}%.
+qstr_bad|bad
+qstr_medium|medium
+qstr_good|good
+qstr_exellent|exellent
+qstr_Worker_wage_is_{s1};|Worker wage is {s1}; Working conditions are {s2}.
+qstr_Select_development_m|Select development mode:
+qstr_Set_workers_wage_lev|Set workers wage level:
+qstr_Sell_factory__{reg10|Sell factory ({reg10} pounds)
+qstr_Building^{s1}^_{reg1|Building^{s1}^({reg10}%)
+qstr_pes_region_factory_p|pes region factory photo notavailable
+qstr_pes_region_factory_ph|pes region factory photo empty
+qstr_Steel_Factory|Steel Factory
+qstr_pes_region_factory_pho|pes region factory photo steel
+qstr_Ammunition_Factory|Ammunition Factory
+qstr_pes_region_factory_phot|pes region factory photo ammunition
+qstr_Lumber_Mill|Lumber Mill
+qstr_pes_region_factory_photo|pes region factory photo timber
+qstr_Machinery_Parts_Plan|Machinery Parts Plant
+qstr_pes_region_factory_photo_|pes region factory photo machineparts
+qstr_Cotton_Mill|Cotton Mill
+qstr_pes_region_factory_photo_f|pes region factory photo fabric
+qstr_Paper_Mill|Paper Mill
+qstr_pes_region_factory_photo_p|pes region factory photo paper
+qstr_Construction_Materia|Construction Materials^Factory
+qstr_Construction_Material|Construction Materials Factory
+qstr_pes_region_factory_photo_c|pes region factory photo constructionmaterials
+qstr_Weaponry_Factory|Weaponry Factory
+qstr_pes_region_factory_photo_w|pes region factory photo weaponry
+qstr_Military_Supplies^Fa|Military Supplies^Factory
+qstr_Military_Supplies_Fa|Military Supplies Factory
+qstr_pes_region_factory_photo_m|pes region factory photo militarysupplies
+qstr_Clothing_Factory|Clothing Factory
+qstr_pes_region_factory_photo_cl|pes region factory photo clothes
+qstr_Furniture_Factory|Furniture Factory
+qstr_pes_region_factory_photo_fu|pes region factory photo furniture
+qstr_tons_of_steel|tons of steel
+qstr_ammunition|ammunition
+qstr_tons_of_timber|tons of timber
+qstr_tons_of_lumber|tons of lumber
+qstr_weapons|weapons
+qstr_clothings|clothings
+qstr_tons_of_coal|tons of coal
+qstr_tons_of_iron|tons of iron
+qstr_tons_of_constr._mate|tons of constr. materials
+qstr_kilograms_of_cotton|kilograms of cotton
+qstr_kilograms_of_fabric|kilograms of fabric
+qstr_pieces_of_furniture|pieces of furniture
+qstr_machine_parts|machine parts
+qstr_tons_of_military_sup|tons of military supplies
+qstr_kilograms_of_paper|kilograms of paper
+qstr_tons_of_meat|tons of meat
+qstr_tons_of_flour|tons of flour
+qstr_{reg12}_{s3}_has_bou|{reg12} {s3} has bought {reg10} {s1} from {s4} for {reg11}.
+qstr_{s1}_s_{s2}_decided_|{s1}'s {s2} decided to fire {reg10} workers.
+qstr_Population_of_{s1}_i|Population of {s1} is buying resources. Literacy {reg10}, population {reg11}, urbanization {reg12}.
+qstr_Steel|Steel
+qstr_Ammunition|Ammunition
+qstr_Lumber|Lumber
+qstr_Wood|Wood
+qstr_Weaponry|Weaponry
+qstr_Clothes|Clothes
+qstr_Coal|Coal
+qstr_Iron|Iron
+qstr_Construction_materia|Construction materials
+qstr_Cotton|Cotton
+qstr_Fabric|Fabric
+qstr_Furniture|Furniture
+qstr_Machine_parts|Machine parts
+qstr_Military_supplies|Military supplies
+qstr_Paper|Paper
+qstr_Meat|Meat
+qstr_Flour|Flour
+qstr_Price___{reg10}.{reg|Price - {reg10}.{reg11} pounds
+qstr_Supply___{reg11}.{re|Supply - {reg11}.{reg12} {s1}
+qstr_Demand___{reg11}.{re|Demand - {reg11}.{reg12} {s1}
+qstr_{reg10}._{s1}|{reg10}. {s1}
+qstr_{reg10}.{reg11}|{reg10}.{reg11}
+qstr____| - 
+qstr_{reg10}%|{reg10}%
+qstr_handicraft^only|handicraft^only
+qstr_{reg10}k_p.|{reg10}k p.
+qstr_{reg10}_p.|{reg10} p.
+qstr_{reg10}_mil.|{reg10} mil.
+qstr_{reg10}_th.|{reg10} th.
+qstr_{reg10}.{reg11}%|{reg10}.{reg11}%
+qstr_{s1}_produced_{reg10|{s1} produced {reg10} {s2}.
+qstr_Produces_steel_out^o|Produces steel out^of iron and coal.
+qstr_Produces_ammunition_|Produces ammunition out^of steel.
+qstr_Produces_lumber_out^|Produces lumber out^of wood.
+qstr_Produces_weaponry_ou|Produces weaponry out^of steel and lumber.
+qstr_Produces_clothes_out|Produces clothes out^of fabric.
+qstr_Produces_constructio|Produces construction^materials out of steel and coal.
+qstr_Produces_fabric_out^|Produces fabric out^ of cotton.
+qstr_Produces_furniture_o|Produces furniture out^ of lumber.
+qstr_Produces_machine_par|Produces machine parts out^ of steel and coal.
+qstr_Produces_military_su|Produces military supplies out^ of steel and fabric.
+qstr_Produces_paper_out^_|Produces paper out^ of wood.
+qstr_Produced_{reg2}_{s1}|Produced {reg2} {s1} with {reg11} artisans, raw resources multiplier was {reg12}.
+qstr_Chance_to_build_fact|Chance to build factory in {s1} is {reg10}.{reg11}%.
+qstr_Building_factory_in_|Building factory in {s1}
+qstr_Price_of_{s1}_has_ch|Price of {s1} has changed by {reg10}.
+qstr_Urbanization_of_{s1}|Urbanization of {s1}'s center {s2} was increased by {reg10}.
+qstr_{reg10}._party_gives|{reg10}. party gives {reg11} votes
+qstr_{s1}_rural_wealth_{r|{s1} rural wealth {reg10} urban wealth {reg11} middle wealth {reg12} bourgeoisie wealth {reg13} aristocracy wealth {reg14} sum wage {reg15} gdp rural {reg16} gdp urban {reg17} population root {reg18}
+qstr_{s1}_cannot_launch_g|{s1} cannot launch grenade attack - {reg1} seconds cooldown.
+qstr_{s1}_cannot_launch_ga|{s1} cannot launch gas attack - {reg1} seconds cooldown.
+qstr_You_became_a_high_co|You became a high command officer, which means you are free to act independent during service.
+qstr_You_became_a_non_com|You became a non-commissioned officer, which means you will now command troops in battle.
+qstr_You_became_a_marshal|You became a marshall of {s10}, which means you can start and manage campaigns.
+qstr_debug_bms_begin|debug bms begin
+qstr_debug_bms_end|debug bms end
+qstr_debug_siege_win_batt|debug siege win battle begin
+qstr_debug_siege_win_battl|debug siege win battle end
+qstr_debug_siege_win_battle|debug siege win battle 2 begin
+qstr_debug_siege_win_battle_|debug siege win battle 2 end
+qstr_debug_order_move_for|debug order move forwards backwards begin
+qstr_debug_order_move_forw|debug order move forwards backwards end
+qstr_debug_order_follow_m|debug order follow me begin
+qstr_debug_order_follow_me|debug order follow me end
+qstr_debug_order_follow_me_|debug order follow me 1000ms begin
+qstr_debug_order_follow_me_1|debug order follow me 1000ms end
+qstr_debug_pas_points_beg|debug pas points begin
+qstr_debug_pas_points_end|debug pas points end
+qstr_debug_gas_100ms_begi|debug gas 100ms begin
+qstr_debug_gas_100ms_end|debug gas 100ms end
+qstr_debug_grenades_100ms|debug grenades 100ms begin
+qstr_debug_grenades_100ms_|debug grenades 100ms end
+qstr_debug_lmg_runtime_be|debug lmg runtime begin
+qstr_debug_lmg_runtime_en|debug lmg runtime end
+qstr_debug_musket_ramrod_|debug musket ramrod animation 100ms begin
+qstr_debug_musket_ramrod_a|debug musket ramrod animation 100ms end
+qstr_debug_musket_ramrod_an|debug musket ramrod animation runtime begin
+qstr_debug_musket_ramrod_ani|debug musket ramrod animation runtime end
+qstr_debug_smoke_animated|debug smoke animated 200ms begin
+qstr_debug_smoke_animated_|debug smoke animated 200ms end
+qstr_debug_pss_init_begin|debug pss init begin
+qstr_debug_pss_init_end|debug pss init end
+qstr_debug_pss_100ms_begi|debug pss 100ms begin
+qstr_debug_pss_100ms_end|debug pss 100ms end
+qstr_debug_player_hp_rege|debug player hp regen hit begin
+qstr_debug_player_hp_regen|debug player hp regen hit end
+qstr_debug_player_hp_regen_|debug player hp regen 100ms begin
+qstr_debug_player_hp_regen_1|debug player hp regen 100ms end
+qstr_debug_iron_sight_run|debug iron sight runtime begin
+qstr_debug_iron_sight_runt|debug iron sight runtime end
+qstr_debug_iron_sight_100|debug iron sight 100ms begin
+qstr_debug_iron_sight_100m|debug iron sight 100ms end
+qstr_debug_mg_1000ms_begi|debug mg 1000ms begin
+qstr_debug_mg_1000ms_end|debug mg 1000ms end
+qstr_debug_mg_runtime_beg|debug mg runtime begin
+qstr_debug_mg_runtime_end|debug mg runtime end
+qstr_debug_digin_1000ms_b|debug digin 1000ms begin
+qstr_debug_digin_1000ms_e|debug digin 1000ms end
+qstr_debug_digin_runtime_|debug digin runtime begin
+qstr_debug_digin_runtime_e|debug digin runtime end
+qstr_debug_vo_on_company_|debug vo on company select begin
+qstr_debug_vo_on_company_s|debug vo on company select end
+qstr_debug_vo_500ms_begin|debug vo 500ms begin
+qstr_debug_pbs_walkrun_or|debug pbs walkrun order begin
+qstr_{reg0}._Company_has_|{reg0}. Company has switched to walking.
+qstr_{reg0}._Company_has_s|{reg0}. Company has switched to running.
+qstr_debug_pbs_walkrun_ord|debug pbs walkrun order end
+qstr_debug_prone_100ms_be|debug prone 100ms begin
+qstr_debug_prone_100ms_en|debug prone 100ms end
+qstr_debug_pbs_formation_|debug pbs formation order begin
+qstr_{s1}_cannot_change_f|{s1} cannot change formation - only light infantry can apply extended line formation.
+qstr_{s1}_cannot_change_fo|{s1} cannot change formation - you need to research Modern Attack Tactics technology to apply line formation.
+qstr_{s1}_cannot_change_for|{s1} cannot change formation - you need to research Skirmish Line Tactics technology to apply dense line formation.
+qstr_{s1}_cannot_change_form|{s1} cannot change formation - you need to research Adaptive Training technology to apply extended line formation.
+qstr_{s1}_cannot_change_forma|{s1} cannot change formation - you need to research Skirmish Line Tactics technology to apply line formation.
+qstr_{s1}_cannot_change_format|{s1} cannot change formation - discipline level is less than 30%.
+qstr_debug_pbs_formation_o|debug pbs formation order end
+qstr_debug_carbine_melee_|debug carbine melee mode fix begin
+qstr_debug_carbine_melee_m|debug carbine melee mode fix end
+qstr_debug_player_accurac|debug player accuracy modifier begin
+qstr_debug_player_accuracy|debug player accuracy modifier end
+qstr_debug_ammo_refill_be|debug ammo refill begin
+qstr_debug_ammo_refill_en|debug ammo refill end
+qstr_debug_flag_bearer_be|debug flag bearer begin
+qstr_debug_flag_bearer_en|debug flag bearer end
+qstr_debug_pbs_enemy_retr|debug pbs enemy retreating end battle begin
+qstr_debug_pbs_enemy_retre|debug pbs enemy retreating end battle end
+qstr_debug_pbs_enemy_retrea|debug pbs enemy retreating end battle 2 begin
+qstr_debug_pbs_enemy_retreat|debug pbs enemy retreating end battle 2 end
+qstr_debug_pbs_enemy_cann|debug pbs enemy cannoneers retreat begin
+qstr_debug_pbs_enemy_canno|debug pbs enemy cannoneers retreat end
+qstr_debug_ambience_start|debug ambience start begin
+qstr_debug_ambience_start_|debug ambience start end
+qstr_debug_ambience_tree_|debug ambience tree birds begin
+qstr_debug_ambience_tree_b|debug ambience tree birds end
+qstr_debug_ambience_rain_|debug ambience rain 1000ms begin
+qstr_debug_ambience_rain_1|debug ambience rain 1000ms end
+qstr_debug_pws_sky_bms_be|debug pws sky bms begin
+qstr_day|day
+qstr_cloud1|cloud1
+qstr_cloud2|cloud2
+qstr_cloud3|cloud3
+qstr_cloud4|cloud4
+qstr_cloud5|cloud5
+qstr_sunset|sunset
+qstr_clouds1|clouds1
+qstr_clouds2|clouds2
+qstr_clouds3|clouds3
+qstr_clouds4|clouds4
+qstr_evening|evening
+qstr_night|night
+qstr_dusk|dusk
+qstr_debug_pws_sky_bms_en|debug pws sky bms end
+qstr_debug_fgs_trees_ams_|debug fgs trees ams begin
+qstr_Hotkeys:_U_to_access|Hotkeys: U to access the aerial view E and Q to rotate camera horizontally Middle mouse button and moving mouse up and down to rotate camera vertically Space and Ctrl to control your height ~ tilde (next to 1) to make selected companies run. You can select companies either by clicking on the units on screen, or by selecting them in the UI in the bottom left Use your right mouse button to place, and orientate your units.
+qstr_debug_fgs_trees_ams_e|debug fgs trees ams end
+qstr_debug_sound_man_deat|debug sound man death begin
+qstr_debug_sound_man_death|debug sound man death end
+qstr_debug_sound_man_hit_|debug sound man hit begin
+qstr_debug_sound_man_hit_e|debug sound man hit end
+qstr_debug_spawn_of_first|debug spawn of first agent begin
+qstr_debug_spawn_of_first_|debug spawn of first agent end
+qstr_debug_battle_start_b|debug battle start begin
+qstr_debug_battle_start_e|debug battle start end
+qstr_debug_aerial_view_ru|debug aerial view runtime begin
+qstr_debug_aerial_view_run|debug aerial view runtime end
+qstr_debug_aerial_view_to|debug aerial view toggle begin
+qstr_debug_aerial_view_tog|debug aerial view toggle end
+qstr_debug_aerial_view_togg|debug aerial view toggle 2 begin
+qstr_debug_aerial_view_toggl|debug aerial view toggle 2 end
+qstr_debug_pbs_order_play|debug pbs order player begin
+qstr_debug_pbs_order_playe|debug pbs order player end
+qstr_debug_pbs_order_player|debug pbs order player f1 begin
+qstr_debug_pbs_order_player_|debug pbs order player f1 end
+qstr_debug_pbs_agent_spaw|debug pbs agent spawn begin
+qstr_debug_pbs_agent_spawn|debug pbs agent spawn end
+qstr_debug_pbs_teleport_t|debug pbs teleport to scripted destination begin
+qstr_debug_pbs_teleport_to|debug pbs teleport to scripted destination end
+qstr_debug_pbs_cancel_run|debug pbs cancel running away begin
+qstr_debug_pbs_cancel_runn|debug pbs cancel running away end
+qstr_debug_bot_crouching_|debug bot crouching begin
+qstr_debug_bot_crouching_e|debug bot crouching end
+qstr_debug_bot_animation_|debug bot animation begin
+qstr_debug_bot_animation_e|debug bot animation end
+qstr_debug_pbs_run_toggle|debug pbs run toggle begin
+qstr_debug_pbs_run_toggle_|debug pbs run toggle end
+qstr_debug_pbs_company_en|debug pbs company energy begin
+qstr_debug_pbs_company_ene|debug pbs company energy end
+qstr_debug_pbs_company_st|debug pbs company state begin
+qstr_debug_pbs_company_sta|debug pbs company state end
+qstr_debug_pbs_agents_mod|debug pbs agents modifiers begin
+qstr_debug_pbs_agents_modi|debug pbs agents modifiers end
+qstr_debug_pbs_company_pe|debug pbs company penaltytodiscipline fromcloseenemy begin
+qstr_debug_pbs_company_pen|debug pbs company penaltytodiscipline fromcloseenemy end
+qstr_debug_pbs_company_di|debug pbs company discipline begin
+qstr_debug_pbs_company_dis|debug pbs company discipline end
+qstr_debug_pbs_reload_can|debug pbs reload cancellation begin
+qstr_debug_pbs_reload_canc|debug pbs reload cancellation end
+qstr_debug_pbs_company_re|debug pbs company retreat begin
+qstr_{reg0}._Company_was_|{reg0}. Company was forced to retreat.
+qstr_debug_pbs_company_ret|debug pbs company retreat end
+qstr_debug_timer_1000ms_b|debug timer 1000ms begin
+qstr_debug_timer_1000ms_e|debug timer 1000ms end
+qstr_debug_player_spawn_b|debug player spawn begin
+qstr_1st_{s1}|1st {s1}
+qstr_2nd_{s1}|2nd {s1}
+qstr_3rd_{s1}|3rd {s1}
+qstr_4th_{s1}|4th {s1}
+qstr_5th_{s1}|5th {s1}
+qstr_6th_{s1}|6th {s1}
+qstr_7th_{s1}|7th {s1}
+qstr_8th_{s1}|8th {s1}
+qstr_debug_player_spawn_e|debug player spawn end
+qstr_debug_pbs_melee_begi|debug pbs melee begin
+qstr_debug_pbs_melee_end|debug pbs melee end
+qstr_debug_battle_start_2|debug battle start 2 begin
+qstr_debug_battle_start_2_|debug battle start 2 end
+qstr_debug_voice_1000ms_b|debug voice 1000ms begin
+qstr_debug_voice_1000ms_e|debug voice 1000ms end
+qstr_debug_voice_200ms_be|debug voice 200ms begin
+qstr_debug_voice_200ms_en|debug voice 200ms end
+qstr_debug_pbs_restore_sc|debug pbs restore scripted destination begin
+qstr_debug_pbs_restore_scr|debug pbs restore scripted destination end
+qstr_debug_pts_weapon_cha|debug pts weapon change begin
+qstr_debug_pts_weapon_chan|debug pts weapon change end
+qstr_debug_cannon_33ms_be|debug cannon 33ms begin
+qstr_debug_cannon_33ms_en|debug cannon 33ms end
+qstr_debug_cannon_10ms_be|debug cannon 10ms begin
+qstr_debug_cannon_10ms_en|debug cannon 10ms end
+qstr_debug_YuriCannonOrde|debug YuriCannonOrder Begin
+qstr_debug_YuriCannonOrder|debug YuriCannonOrder End
+qstr_debug_YuriCannonSpaw|debug YuriCannonSpawn begin
+qstr_debug_YuriCannonSpawn|debug YuriCannonSpawn end
+qstr_debug_lemat_canister|debug lemat canister shot begin
+qstr_debug_lemat_canister_|debug lemat canister shot end
+qstr_debug_pts_surviving_|debug pts surviving bonus begin
+qstr_debug_pts_surviving_b|debug pts surviving bonus end
+qstr_debug_rifle_damage_m|debug rifle damage model begin
+qstr_debug_rifle_damage_mo|debug rifle damage model end
+qstr_debug_pai_bandits_sp|debug pai bandits spawn begin
+qstr_debug_pai_bandits_spa|debug pai bandits spawn end
+qstr_debug_pai_fieldbattl|debug pai fieldbattle spawn begin
+qstr_debug_pai_fieldbattle|debug pai fieldbattle spawn end
+qstr_debug_pbs_company_pena|debug pbs company penaltytodiscipline fromcasualties begin
+qstr_debug_pbs_company_penal|debug pbs company penaltytodiscipline fromcasualties end
+qstr_debug_pbs_company_penalt|debug pbs company penaltytodiscipline fromcasualties 1000ms begin
+qstr_debug_pbs_company_penalty|debug pbs company penaltytodiscipline fromcasualties 1000ms end
+qstr_debug_player_fanning|debug player fanning first shot begin
+qstr_debug_player_fanning_|debug player fanning first shot end
+qstr_debug_player_fanning_f|debug player fanning first shot 2 begin
+qstr_debug_player_fanning_fi|debug player fanning first shot 2 end
+qstr_debug_player_fanning_9|debug player fanning 90ms begin
+qstr_debug_player_fanning_90|debug player fanning 90ms end
+qstr_debug_pai_start_begi|debug pai start begin
+qstr_debug_pai_start_end|debug pai start end
+qstr_debug_pai_1000ms_beg|debug pai 1000ms begin
+qstr_debug_pai_1000ms_end|debug pai 1000ms end
+qstr_You_got_keys_of_dung|Zindanın anahtarlarını aldın.
+qstr_You_must_stay_behind|Yerdeki çizginin ardında durmalısın! Puan sayılmadı.
+qstr_Tutorial|Eğitim
+qstr_Your_current_rank_is|Your current rank is {s1}.^^Current points/points needed for promotion: {reg10}/{reg11}
+qstr_^{s32}_s_Infamy:_{re|^{s32}'s Infamy: {reg10}
+qstr_You_were_born_the_{r|Kâr peşinde oradan oraya giden gezgin tüccarların {reg3?kızı:oğlu} olarak dünyaya geldin. Ailen çoğundan daha zengin olsa ve seni olabildiğince eğitseler de, yolda arkadaş edinecek pek az zamanın oldu ve zamanın çoğunu birilerine birşeyler satarak geçirdin.
+qstr_You_were_born_the_{re|You were born the {reg3?daughter:son} of a small businessman, always dealing with different sorts of customers and partners. Your parents were wealth enough to send you to a private school. You father wasn't able to deal with the new times, which changed trading technoligies, so after his death you had only a small part of his business.
+qstr_You_were_born_the_{reg|You were born the {reg3?daughter:son} of a minor staff officer, who took a part in a lot of conflicts of the early 19th century. Born in one of his campaigns, you never knew your mother. Although your father tried to teach you everything he knew, he wasn't a good teacher, so after his death you had only some army skills and his last bought gun.
+qstr_{reg3?daughter:son}|{reg3?kız:oğlan}
+qstr_You_were_born_the_{reg3|You were born the {reg3?daughter:son} of a mafia capo, who was a respected member of a local band. Your father didn't want you to follow his steps, so you had a chance for a lawful life. But circumstances of the new times left you no choice, so after his death you replaced him with his mafia heritage.
+qstr_You_were_born_the_{reg3?|You were born the {reg3?daughter:son} of a university professor. As a son of a science man, you got a very good education. Although your family wasn't rich your father tought you that money aren't the most important, so after his death you entered the world with a good amount of knowledge.
+qstr_You_were_born_the_{reg3?d|You were born the {reg3?daughter:son} of a regular factory laborer, who spent his life toughly working for his family. Although you were tought to live fairly, your father gave you freedom of chosing your future profession. After his death, you still was seeking for a business to get in your live.
+qstr_You_were_a_child_of_|Sen kuru topraklardaki büyük kamplarda yaşayan bir gezgin göçmen kabilesinde doğan bir bozkır çocuğuydun. Kabiledeki diğerleri gibi, ailen atları herşeyin üstünde tutardı, ve neredeyse daha yürümeyi öğrenmeden sana ata binmeyi öğretmişlerdi.
+qstr_As_the_{reg3?daughte|Bir hırsızın {reg3?kızı:oğlu} olarak, çok az 'resmi' bir eğitim aldın. Bunun yerine sokaklarda cüzdan çalmayı öğrenene kadar dilendin, maymuncuk kullanmayı öğrenene kadar cüzdan çaldın ve tüm çocukluk hayatın böyle geçti. Yine de, bu uzun yıllar seni sokakların üstadı yaptı, şehirlerde ve gölgelerde yatan sırları herkesten iyi farkedebildin.
+qstr_You_were_as_far_as_a|You were, as far as anyone outside the university could tell, a studious person. Always obeying the rules, always getting good grades. If that was an illusion or not, only you know. But suffice you say, you were in university, be it because of a patronage from someone wealthy or because your family was rich enough to afford it, and even if you were a student whose record was questionable at best, it gained you valuable insight and experience.
+qstr_The_thrumming_of_mac|The thrumming of machines and the pounding of metal is a sound you know better than anyone. It was hard work, waking up real early and going to bed real late, working every second between those two events under the watchful eye of demanding overseers. You became intimately familiar with technology, particularly industry, as you worked. Your calloused hands are proof that you know hard work, and though you left the factory life behind, it will never leave you.
+qstr_Living_on_the_street|Living on the streets was tough. Stealing to live, if you could call the scraps you could get any sort of proper life, was part and parcel of your existence. Everyone looked down at you as a street urchin, as someone to be reviled and pitied at best, or actively driven out at worst. This hard life gave you perspective, it gave you skills others may see as unsavory. Luckily, in war, unsavory skills are quite useful.
+qstr_Extra_extra!_Local_n|Extra extra! Local newspaper has a bunch of stories that you never really cared for! Hawking newspapers all day certainly improved your skills at speaking, making people who otherwise wouldn't care for the goings-on to buy a newspaper. Of course, a keen knowledge of business is hardly a bad thing. Perhaps the skills you learned will do you well in the new world you find yourself in.
+qstr_As_a_{reg3?girl:boy}|Çocukluktan çıkan bir {reg3?kız:oğlan} olarak, bölgenin asillerinden birinin sarayında yaşamaya yollandın. Orada ilk dersin, evin lord ve hanımlarını beklerken göstereceğin tevazuydu. Ama onların satranç oyunlarından, dedikodularından ve hatta büyük işler ve saray aşkları üzerine şiirlerden, yetişkinlerin çatışma ve yarışma dünyaları hakkında çok şey öğrendin. Ayrıca diğer çocukların, büyüklerini taklit edercesine birbirlerine sopa salladıkları kaba oyunlarını öğrendin.
+qstr_You_were_drawn_to_th|You were drawn to the human body, and how it functioned. Perhaps a family member got sick, and you vowed to help others through the same. Perhaps you liked giving people hope and treating them. Maybe you just liked cutting things apart. Either way, in college, you went into the fields of medicine.
+qstr_Perhaps_you_live_som|Perhaps you live somewhere where grand architecture spirals up into the sky, or where imposing walls surrounded you. Or a small village, with beautiful and ancientchurches, was where your interest in buildings came. It doesn’t matter, because you loved buildings,and learned to raise them up in university. Perhaps now, you shall use that to tear them down. 
+qstr_Philology_the_study_|Philology, the study of languages and how they compare, is extremely important to the diplomacy of Europe, where besides Latin, language like English, Russian, French, and so forth mustbe mastered. Studying this in university gave you a keen tongue and learned how to speak and communicate withthe high lords and common folk across the many realms of Europe.
+qstr_{reg3?daughter:man}|{reg3?kadını:adamı}
+qstr_{reg3?woman:man}|{reg3?yetişkin:yetişkin}
+qstr_You_decided_to_lead_|You decided to lead a bohemian life, travelling from place to place playing music. This has put you in touch with the common people, and most of your interactions with higher society consisted of a tip of the hat when they tossed a coin into your cup. But still, you have learned how to advertise yourself, how to speak to a crowd, and how to entertain. All very useful skills, indeed.
+qstr_You’re_a_businessp|You’re a businessperson, someone who has capital and funds enough to make more   capital. Perhaps you rose from the working class, or perhaps you started with a small loan from your family.   Either way, you’re well-off and can definitely get a foot in wherever you go now.
+qstr_You_fell_into_crimin|You fell into criminal life, and never really got out. The police know who you are    in some places, and in others they leer as if they should know you. No matter, of course, since between arrests   and brief jail times, you’ve learned how to survive outside the law.
+qstr_You_went_to_the_Amer|You went to the Americas to seek a new life, perhaps to escape persecution   in Europe, perhaps to make a new life free from debts. Whatever your reasons, you took the journey   across to the Atlantic. And now, for whatever reason, you have returned to Europe.
+qstr_You_fought_in_the_Cr|You fought in the Crimea, either with or against Russia, and your   experiences in that war were invaluable and horrific. You saw men die, you saw foolish cavalry   charges, you saw the awesome power of cannons. As you returned home, weary and war-shocked, you knew you would never be the same.
+qstr_Only_you_know_exactl|Eski hayatını bitirip maceracı olmaya niye karar verdiğini tam olarak sadece sen biliyorsun. Yine de, öfken yüreğini kavururken, ayrılmak zor bir seçim olmadı. İntikam istiyorsun. Adalet istiyorsun. Sana yapılmış olan geri alınamaz ve bu borçlar sadece kanla ödenebilir...
+qstr_Only_you_know_exactly|Eski hayatını bitirip maceracı olmaya niye karar verdiğini tam olarak sadece sen biliyorsun. Aklında tek şey var, o da kalamayacağın. Öylesine sevdiğin birinin anıları bu kadar acı dolu ve bu kadar yakınken değil. Belki de yeni bir hayat sana, ismini ağzına almaktan çekindiğin o kişinin adını onurlandırmanı ya da unutmanı sağlayabilir...
+qstr_Only_you_know_exactly_|Eski hayatını bitirip maceracı olmaya niye karar verdiğini tam olarak sadece sen biliyorsun. Tanıdık olan şeyler sıkıcı olup da gezip görme hayallerin hayatını ele geçirdiğinde, evin niye adeta bir hapishaneye dönmüştü emin değilsin bile. Belki uzak bir yere dair isteklerin vardı, belki de sadece açık yol ve yol alma özgürlüğüne; ama aynı yerde kalamayacağın artık kesindi. Sadece gittin ve asla arkana bakmadın...
+qstr_Only_you_know_exactly_w|Eski hayatını bitirip maceracı olmaya niye karar verdiğini tam olarak sadece sen biliyorsun. Ne var ki, geri dönemeyeceğini biliyorsun. Geri dönecek bir yer kalmadı. Evin diye bildiğin yer artık yok ve geniş mi geniş bu dünyada bir başına kaldığın gerçeğiyle yüzleşmelisin. Ya batacaksın, ya çıkacaksın...
+qstr_Only_you_know_exactly_wh|Eski hayatını bitirip maceracı olmaya niye karar verdiğini tam olarak sadece sen biliyorsun. Diğerlerine göre, açıkça ve tamamen kişisel kazanç peşindesin. Zengin, güçlü, saygıdeğer, korkulan. Diğerlerinin sözüne uymak için koşuşturduğu kişi olmak istiyorsun. İnsanların adını bilmesini ve adının konuşulduğu yerde titremelerini istiyorsun. Herşeyi istiyorsun, ve kimsenin seni alıkoymasına izin verecek değilsin...
+qstr_Back_to_the_beginnin|Başa dön...
+qstr_View_next_segment...|Sonraki kısma geç...
+qstr_^No_food:___{reg7}|^Yiyecek yok:  -{reg7}
+qstr_^Wage_debt:___{reg6}|^Maaş borcu:  -{reg6}
+qstr_On_loan|On loan,
+qstr_Appoint_next_marshal|Sonraki Mareşali Tayin Et
+qstr_Award_{s12}_as_fief|{s12} toprağını ödül olarak ver
+qstr_No_one|Hiç kimse
+qstr_Selected_faction_is:|Seçili taraf: {s10}^^{s9}
+qstr_You_are_currently_re|Bu aralar şu kitabı okuyorsun: {s8}.
+qstr_You_are_not_reading_|Şimdilik herhangi bir kitabı okumuyorsun.
+qstr_none|hiçbiri
+qstr_{s5}_and_{s6}|{s5} ve {s6}
+qstr_Your_estates_are:_{s|Mülklerin: {s8}.^{s9}
+qstr_Current_party_size_l|Grup büyüklüğü limiti {reg5}.^Grup büyüklüğü bileşenleri:^^Temel büyüklük:  +10^Liderlik: {s2}{reg1}^Karizma: {s3}{reg2}^Nam: {s4}{reg3}^TOPLAM:  {reg5}
+qstr_Loyal|Adanmış
+qstr_Devoted|Sadık
+qstr_Fond|Dostça
+qstr_Gracious|Minnettar
+qstr_Friendly|Arkadaşça
+qstr_Supportive|Destekleyici
+qstr_Favorable|Olumlu
+qstr_Cooperative|Yardımcı
+qstr_Accepting|Kabullenici
+qstr_Indifferent|Kayıtsız
+qstr_Suspicious|Şüpheci
+qstr_Grumbling|Rahatsız
+qstr_Hostile|Muhalif
+qstr_Resentful|Düşmanca
+qstr_Angry|Kızgın
+qstr_Hateful|Saldırgan
+qstr_Revengeful|Öfkeli
+qstr_Vengeful|Nefret dolu
+qstr_Your_relation_with_t|Krallıklarla ilişkin:^{s2}
+qstr_Player_renown_is_inc|Oyuncunun namı 100 arttı. 
+qstr_Player_honor_is_incr|Oyuncunun namı 1 yükseldi ve {reg7} oldu.
+qstr_north_region|north region
+qstr_middle_region|middle region
+qstr_south_region|south region
+qstr_Ironsight_mode_disab|Ironsight mode disabled.
+qstr_Ironsight_mode_enabl|Ironsight mode enabled.
+qstr_{reg1}_{s1}_{reg2?ac|{reg1} {s1} teklifi kabul ediyor.
+qstr_No_one_accepts_the_o|Kimse teklifi kabul etmiyor.
+qstr_You_start_reading_{s|{s2} isimli kitabı okumaya başlıyorsun. Bir kaç sayfa sonra, bu kitaptan öğreneceğin çok şey olduğunu hissediyorsun. Kitabı yakınında tutup uygun her fırsatta okumaya karar veriyorsun.
+qstr_You_flip_through_the|{s2} kitabının sayfalarını karıştırıyorsun, ama takibi zor geliyor. Deneyip zorlasan da, birazdan başın ağrımaya başlıyor ve bırakman gerekiyor.
+qstr_Villagers|Köylüler
+qstr_You_have_encountered|{s1}
+qstr_You_have_engaged_{s1|{s3} {s1} tarafından yağmalanıyorken, {s1} ile çarpışmaya girdin.
+qstr_You_were_caught_by_{|{s3} askerlerin tarafından yağmalanırken {s1} tarafından yakalandın.
+qstr_You_were_victorious!|Zafer kazandın!
+qstr_Battle_was_lost._You|Savaş kaybedildi. Güçlerin feci bir şekilde ezildi.
+qstr_Your_companions_carr|Arkadaşların seni savaş alanından uzaklaştırıyor.
+qstr_You_have_defeated_th|Düşmanı yendin.
+qstr_You_have_retreated_f|Savaştan geri çekildin.
+qstr_^^Ally_Casualties:{s|^^Müttefik Kayıpları:{s0}
+qstr_{s1}_of_{s3}_managed|{s1} kaçmayı başardı.
+qstr_Some_of_your_tendons|Kirişlerin savaşta kısmen hasar almış. 1 Güç kaybettin.
+qstr_You_took_a_nasty_wou|İyileştikten sonra bile topallamana sebep olan sağlam bir yara aldın. 1 Çeviklik kaybettin.
+qstr_You_have_trouble_thi|Savaştan sonra düşünürken zorlanmaya başlıyorsun, muhtemelen başına aldığın sert bir darbeden, ve sürekli başağrıları musallat oluyor. Zekan 1 düştü.
+qstr_Perhaps_I_m_getting_|Belki de şansım azalıyordur...
+qstr_Retirement_is_starti|Emeklilik gittikçe kulağa daha iyi geliyor.
+qstr_No_matter!_I_will_pe|Neyse ne! Dayanacağım!
+qstr_What_did_I_do_to_des|Bunu haketmek için ne yaptım?
+qstr_I_suppose_it_ll_make|En azından iyi bir hikaye çıkar, sanırım.
+qstr_{s9}_wants_you_to_fo|{s9} ordusunu sonraki emre kadar takip etmeni istiyor.
+qstr_The_local_road_netwo|The local road network connects {s2} to the cities of {s60}, {s61} and {s62}. This region has access to the sea.
+qstr_The_local_road_networ|The local road network connects {s2} to the cities of {s60}, {s61} and {s62}.
+qstr_{s8}_of_{s9}|{s9}ndan {s8}
+qstr__Your_own_banner_fli| Sancağın kale girişinde dalgalanıyor.
+qstr__You_see_the_banner_| Kale kapısının üzerinde {s7}{.nin} sancağının dalgalandığını farkediyorsun.
+qstr__Your_own_banner_flie| Sancağın şehir girişinde dalgalanıyor.
+qstr__You_see_the_banner_o| Şehir kapılarının üzerinde {s7}{.nin} sancağının dalgalandığını farkediyorsun.
+qstr_Cannot_besiege:_too_|Cannot besiege: too far from any center of your faction (closest centers to this {reg6?town:castle} are {s60}, {s61} and {s62}) and can't be besieged from the sea.
+qstr_The_{reg6?town_s:cas|{reg6?Kentin:Kalenin} yiyecek stokları {reg3} gün daha dayanabilir.
+qstr_The_{reg6?town_s:cast|{reg6?Kentin:Kalenin} yiyecek stokları tükendi ve müdafaadakiler açlık çekiyor.
+qstr_You_re_preparing_to_|Duvarlara saldırmaya hazırlanıyorsunuz, iş {reg9} saate bitmeli.
+qstr_Your_forces_are_buil|Askerlerin bir kuşatma kulesi inşa ediyor (bitmesine {reg9} saat var).
+qstr_You_are_ready_to_att|Duvarlara saldırmaya hazırsınız.
+qstr_The_siege_tower_is_b|Kuşatma kulesinin inşası bitti, saldırıda kullanmaya hazır.
+qstr_As_a_last_defensive_|Son bir savunma şansı için kalenin ana salonuna çekiliyorsunuz. Kalan adamlarınla burada çaresiz bir savaşa girişiyorsunuz. Eğer yenilirseniz, geri çekilecek bir yer kalmayacak.
+qstr_You_ve_been_driven_a|Duvarlardan sürüldünüz. Saldırganlar sokaklara akmaya başladı. Eğer onları yenebilirseniz, belki işin akışını çevirip günü kurtarabilirsiniz.
+qstr_You_ve_breached_the_|Şehir duvarlarından girdiniz. Ama inatçı müdafiler dirençlerine sokaklarda devam ediyorlar! Şehrin kalbindeki kaleye saldırmadan önce onları halletmeniz lazım.
+qstr_The_town_is_yours_bu|The town is yours, but the remaining defenders have retreated to the castle. It must fall before you can complete your victory.
+qstr_The_remaining_defend|Savunmada kalanlar son savunma için kaleye çekildiler. Girip kalan direnci de kırmalısınız.
+qstr_However_since_you_ar|Ne var ki, {s9}'{.nin} yeminli bir {adamı/takipçisi} olmadığından,  seni bu {reg8?şehrin:kalenin} {lordu/hanımı} olarak tanımasına imkan yok.
+qstr_The_enemy_has_been_f|Düşman çekilmeye zorlandı. Saldırı sona erdi, ama kuşatma devam ediyor.
+qstr_As_you_approach_you_|Yaklaştıkça, kalenin muhafızları tarafından fark ediliyorsun ve seni {kralları/kraliçeleri} adına selamlayıp, kapıları açıyorlar.
+qstr_As_you_approach_you_a|Yaklaştıkça, kalenin muhafızları tarafından fark ediliyorsun ve seni {lordları/hanımları} adına selamlayıp, kapıları açıyorlar.
+qstr__This_village_and_th| Bu köy ve onu çevreleyen alan sana ait.
+qstr__You_remember_that_t| Bu köyün ve civardaki toprakların sahibinin {s7} olduğunu hatırlıyorsun.
+qstr__These_lands_belong_| Bu topraklar kimseye ait değil.
+qstr__The_village_is_infe| Köy {reg8} {s35} tarafından istila edildi.
+qstr__The_village_has_bee| Köy yağmalandı. Yanmış evlerin arasından geçerken birkaç köylünün kaçıştığını görüyorsun.
+qstr__The_village_is_bein| Köy yağmalanıyor.
+qstr_soldiers|soldiers
+qstr_rebels|rebels
+qstr_No_one_here_seems_to|Burada kimse birliğine katılmaya istekli görünmüyor.
+qstr_One_{s3}_volunteers_|Bir {s3} seni izlemek için gönüllü oluyor.
+qstr_{reg5}_{s3}_voluntee|{reg5} {s3} seni izlemek için gönüllü oluyor.
+qstr_Try_as_you_might_you|Elinizden geleni yapsanız da, haydutları yenemiyorsunuz. Öfkeden kudurmuş bir şekilde, köylüleri cezalandırmak için köyü yerle bir ediyorlar ve daha yeşil meralar bulmak üzere yanan bu çorak topraklardan ayrılıyorlar.
+qstr_village|köy
+qstr_town|kasaba
+qstr_castle|kale
+qstr_The_{s17}_has_no_imp|{s17} için hiçbir gelişme yapılmamış.
+qstr_The_{s17}_has_the_fo|{s17} için yapılan gelişmeler:{s18}.
+qstr_The_assasins_beat_yo|Suikastçiler seni dövüp ölüme terkediyorlar.
+qstr_You_have_fallen._The|Düştün. Haydutlar hızlıca vücudunu arayıp bulabildikleri tüm parayı kapıp gecenin karanlığına karışıyorlar. Seni canlı bıraktılar, neredeyse.
+qstr_Luckily_some_of_your|Neyse ki dönmeyince bazı yandaşların seni aramaya geliyorlar ve yolun kenarında yatarken buluyorlar. Seni güvenliğe götürüp yaralarını sarıyorlar.
+qstr_Luckily_some_passing|Neyse ki yoldan geçen bazı kasabalılar seni yolun kenarında buluyorlar ve bir dilenciden fazlası olduğunu farkediyorlar. Seni en yakın hana taşıyıp yaralarını sarıyorlar.
+qstr_You_fail_to_steal_an|Hiç bir sığırı kaçırmayı başaramadınız.
+qstr_You_drive_away_{reg1|Köyün sürüsünden {reg17} baş sığır kaçırıyorsunuz.
+qstr_You_are_at_{s2}.|{s2}{.e} geldin.
+qstr__This_castle_has_no_| Bu kalede garnizon yok.
+qstr__Your_own_flag_flies| Your own flag flies over the town gates.
+qstr__You_see_the_flag_of| You see the flag of {s7} over the town gates.
+qstr__This_town_has_no_ga| Bu şehirde garnizon yok.
+qstr__You_have_successful| Başarıyla içeri sızdın.
+qstr_{s13}_A_tournament_w|{s13} Yakında burada bir turnuva yapılacak.
+qstr___Join_the_commander| (Join the commanders' meeteing)
+qstr___{reg1}_pounds_per_| ({reg1} pounds per night)
+qstr_You_are_not_allowed_|You are not allowed here (need to have relation with faction 5 and higher).
+qstr_Moreover_you_earn_{r|Üstüne bir de, kendi üstüne oynadığın zekice bahislerden {reg8} dinar kazandın...
+qstr_Victory_is_yours!_Yo|Galibiyet senin! Bu turu kazandın ama şimdi sonraki tura hazırlanman gerekiyor.
+qstr_You_have_been_bested|Bu kavgada yenildin, ama turnuva hakemi yetenek ve cesaretini alkışlayıp sonraki turda savaşmana izin veriyor.
+qstr_You_were_beaten._The|Yenildin. Köylüler başarılarından dolayı yüreklendiler, ancak almalarını istediğin dersi muhtemelen kapamadılar.
+qstr_After_beating_your_l|Son rakibini de yendikten sonra, köylülere bu tip saldırılara karşı kendilerini nasıl korumaları gerektiğini anlatıyorsun. Bir dahaki sefere bu deneyimlerini kullanarak daha hazırlıklı olabileceklerini umut ediyorsun.
+qstr_The_bandits_are_brok|Haydutlar dağıldı! Hayatta kalıp bilinci yerinde olanlar da kuyruklarını bacaklarının arasına sıkıştırıp, köylüler ve yeni müdafilerinden dehşete düşmüş bir şekilde kaçıyorlar.
+qstr_{s1}_s_Ship|{s1}'in Gemisi
+qstr_However_{reg3?You_ar|Ne yazık ki,{reg3? :{s1} }kâr edecek mallar {reg3?bulamıyorsun:bulamıyor.}
+qstr_^Buying_{s4}_here_an|^Buradan {s4} alıp {s5}nde satmak, mal başına {reg6} dinar kâr getirecektir.{s3}
+qstr_{reg3?You_find:{s1}_|{reg3?Şunları buluyorsun:{s1} şunları buluyor}:^{s3}
+qstr_{s2}^{reg1}_{s1}_ear|{s2}^{reg1} {s1}, {reg0} tecrübe kazandı.
+qstr_{s2}^{s1}_earned_an_|{s2}^{s1}, ek olarak {reg0} tecrübe kazandı.
+qstr_^You_earned_{reg0}_e|^{reg0} tecrübe kazandın.{s2}
+qstr_The_training_didn_t_|Talim hiç de iyi geçmedi.
+qstr_The_training_didn_t_g|Talim pek iyi geçmedi.
+qstr_The_training_went_qu|Talim fena geçmedi.
+qstr_The_training_went_ve|Talim oldukça iyi geçti.
+qstr_The_training_went_pe|Talim mükemmel geçti.
+qstr_{s13}_asked_you_to_r|{s13}, en az {reg13} askerle ona rapor vermeni emretti.
+qstr_{s13}_ordered_you_to|{s13}, {s14}ne yapılan saldırıya katılmanı emretti.
+qstr_Find_and_speak_with_|{s4}ndan {s3} ile konuşup ona bağlılık yeminini sunmalısın.
+qstr_There_has_been_an_al|Bir hudud hadisesi oldu: {s9}
+qstr_^^Note_that_so_long_|^^Mareşal olarak kaldığın sürece, ülkenin lordları senin seferde onlara öncülük etmeni bekleyeceklerdir. Yani eğer bir şölenin başlamasını evlilik veya başka bir nedenle beklersen, öncelikle hükümdarınla konuşup mareşalliğini başkasına devretmek isteyebilirsin.
+qstr_Temperature:_+{reg0}|Temperature: +{reg0} C ^Pressure: {reg1} hPa ^Humidity: {reg2}% ^Wind: {reg3} km/h ^Cloudiness: {reg4}% ^Precipitation: {reg5}%
+qstr_Kingdom_of_Wurttembe|Kingdom of Wurttemberg
+qstr_Kingdom_of_Hannover|Kingdom of Hannover
+qstr_French_Empire|French Empire
+qstr_Austrian_Empire|Austrian Empire
+qstr_Kingdom_of_Sardinia|Kingdom of Sardinia
+qstr_Kingdom_of_Prussia|Kingdom of Prussia
+qstr_Principality_of_Bulg|Principality of Bulgaria
+qstr_French_Republic|French Republic
+qstr_Austria_Hungary|Austria-Hungary
+qstr_Kingdom_of_Italy|Kingdom of Italy
+qstr_German_Empire|German Empire
+qstr_Kingdom_of_Bulgaria|Kingdom of Bulgaria
+qstr_Principality_of_Alba|Principality of Albania
+qstr_You_have_bought_a_fi|You have bought a field gun.
+qstr_You_have_exceeded_pa|You have exceeded party size limit.
+qstr_You_have_no_enough_m|You have no enough money.
+qstr_Not_available_in_thi|Not available in this town.
+qstr_You_have_bought_a_ho|You have bought a howizer.
+qstr_You_have_bought_a_he|You have bought a heavy howizer.
+qstr_You_have_bought_a_ma|You have bought a machine gun.
+qstr_Not_available_for_th|Not available for this faction.
+qstr_Breaking_camp...|Kamp toplanıyor...
+qstr_The_{s31}_gets_1_inf|The {s31} gets 1 infamy because of the prolonged war with {s32}.
+qstr_Party_has_nothing_to|Grubunun yiyecek hiçbir şeyi yok!
+qstr_{reg1}_{s1}_{reg2?ha|Gece vakti grubundan {reg1} {s1} kaçtı.
+qstr_{s1}_of_{s3}_has_bee|{s3}ndan {s1} esaretten serbest bırakıldı.
+qstr_Building_of_{s0}_in_|{s4}ndeki {s0} inşası tamamlandı.
+qstr_{s1}_is_no_longer_in|{s1}ndeki haydut istilası sonra erdi (gece).
+qstr_You_pay_for_accommod|Barınma için ücret ödüyorsun.
+qstr_Betrothal_to_{s5}_ex|{s5} ile olan nişan atıldı.
+qstr__Your_tactics_skill_| Taktik yeteneğin 1 yükseldi.
+qstr__Your_persuasion_ski| İkna yeteneğin 1 yükseldi.
+qstr__Your_leadership_ski| Liderlik yeteneğin 1 yükseldi.
+qstr__Your_intelligence_h| Zekan 1 yükseldi.
+qstr__Your_trade_skill_ha| Ticaret yeteneğin1 yükseldi.
+qstr__Your_weapon_master_| Silah ustası yeteneğin 1 yükseldi.
+qstr__Your_engineer_skill| Mühendislik yeteneğin 1 yükseldi.
+qstr_You_have_finished_re|{s1} kitabını okumayı bitirdin.{s2}
+qstr_Book_Read|Kitap okundu.
+qstr_{s1}_is_scouted.|{s1} gözlendi.
+qstr_{s1}_has_switched_fr|{s1}, {s2}ndan {s3}na geçti.
+qstr_The_{s1}_has_finishe|The {s1} has finished researching technology '{s2}'.
+qstr_The_year_is_{reg0}.|The year is {reg0}.
+qstr_North_German_Confede|North German Confederation
+qstr_Finished_improving_r|Finished improving relations with {s31}.
+qstr_{reg65?my_Lady:my_Lo|{reg65?hanımım:lordum}
+qstr_{reg65?My_Lady:My_Lo|{reg65?Hanımım:Lordum}
+qstr_{reg65?madame:sir}|{reg65?hanımefendi:efendim}
+qstr_{reg65?Madame:Sir}|{reg65?Hanımefendi:Efendim}
+qstr__no_fiefs_|(kendine ait bölgesi yok)
+qstr__fiefs:_{s0}_|(ait bölgeler: {s0})
+qstr_It_s_your_money_or_y|Ya paran ya canın, {koçum/güzelim}. Ani hareket yapma, deşeriz.
+qstr_Lucky_for_you_you_ca|Şanslısın bugün sağımdan kalktım. Tüm paranızı verirseniz yaşamanıza izin verebilirim.
+qstr_This_a_robbery_eh?_I|Bu bi' soygun, ha? Size herşeyinizi vermek için bi' şans veriyorum, yoksa ben ve kankalarım sizi öldürüveririz. Çaktın mı?
+qstr_we_have_made_very_li|şimdilik çok az ilerleme katettik
+qstr_we_have_suceeded_in_|yer kazanmaya başladık, ama yine de yapacak çok işimiz var
+qstr_we_have_become_a_sig|dikkate alınacak bir güç olduk ve kazanma şansımız bile var
+qstr_we_are_winning_the_w|savaşı kazanıyoruz, ama düşmanlarımız hala direniyor
+qstr_we_are_on_the_verge_|galibiyetin eşiğindeyiz. Kalan düşmanlar bir tehdit oluşturmuyorlar, ama yine de onları avlamamız gerekiyor
+qstr_Ever_since_the_fall_|Ever since the fall of the Holy Roman Empire, the Austrian Emperor has been doing their best to undermine Northern conglomeration efforts. We will have to defeat and dissolve the weak German Confederation, lead by the Austrians, in order to rise to the position of a German hegemon, and annex the Kingdom of Hannover.^^ - Defeat the German Confederation armies belonging to Austria, Wurtemberg and Hannover^ - Conquer and hold the Bavarian fortification of Nuremberg ^ - Conquer the capital city of Stuttgart^ - Sign peace with German Confederation on conditions of taking Nuremberg and Stuttgart^^ We will be able to hold onto any conquests we make during the war, and our ultimate goal is to annex the Northern German states. Victory will pave the way to ultimate unification after we take back Alsace-Lorraine.
+qstr_War_with_France_has_|War with France has broken out, and our goal will be to utterly destroy them, take back German clay in Alsace-Lorraine, and ultimately declare Empire under our soon-to-be Emperor {playername}. It's time to display to the Southern Germans, foremost the Bavarians, that we are indeed capable of defending and leading the German people.^^ - Conquer the French border city of Strasbourg^ - Annihilate the French Army entirely^ - Sign peace with France on conditions of taking Strasbourg^^Let a united Germany rise from the ashes of the 2nd French Empire.
+qstr_The_first_step_towar|The first step towards German unification must be the reconquest of the Northern German regions of Schleswig, Holstein, and Lauenburg, which, for the past centuries, have been under occupation by the Danish Kingdom. Taking back the region, and destroying the Danish in the process, would certainly display might and competence in the eyes of the German states.^^ - Conquer the city of Kiel.^ - Defeat the Danish armies and destroy their economy to force them to surrender.^ - Sign peace with Denmark on conditions of taking Kiel^^Once we've defeated the Danes, we can move on to our Southern rival, the Austro-Hungarian Empire.
+qstr_Papal_State_and_our_|Papal State, and our primary Italian adversary, the Kingdom of Two Sicilies
+qstr_Papal_State_and_our_p|Papal State, and our primary Italian adversary, the Kingdom of Sardinia
+qstr_Kingdom_of_Two_Sicil|Kingdom of Two Sicilies, and our primary Italian adversary, the the Kingdom of Sardinia
+qstr_Your_highness_those_|Your highness, those people are our allies! We will be condemned by the entire international community, and lose a valuable ally! Are you sure?
+qstr_We_ve_agreed_by_truc|We've agreed by truce not to attack them, at least for the moment being. We will face extreme scrutiny if we do, regardless of how righteous our cause my be. Are you sure?
+qstr_Considering_we_have_|Considering we have a valid reason to attack {s31}, I don't see any inherent reason why this should speak against us. If you wish, I will send out a message to their ambassador immediately.
+qstr_I_am_afraid_we_don_t|I am afraid we don't have a justification for conflict at this point in time. We can naturally still declare war against {s31}, but expect international pressure to mount extremely quickly, and for it to put us in the crossfire of future and ongoing conflicts.
+qstr_This_is_my_decision_|This is my decision to make, go ahead anyways.
+qstr_Then_send_that_ambas|Then send that ambassador a message, and one to our generals, too.
+qstr_You_have_my_blessing|You have my blessings, go ahead.
+qstr_Let_s_not_act_rashly|Let's not act rashly. We have all the time we need, let's wait.
+qstr_Hold_it_then_we_can_|Hold it, then, we can't get ourselves condemned by a dozen nations at once!
+qstr_This_will_be_unneces|This will be unnecessary bloodshed through and through. Hold off on it.
+qstr_{playername}_when_we|{playername}, uzun yürüyüşümüze başladığımızda pek az kişinin beni destekleyecek cesareti vardı. Ve çok daha azı davam için hayatlarını riske atmaya istekliydi. Ama sen, kendini düşmanlarımın önüne atmak için bir an bile durmadın. Beraber çok şey geçirdik ve umudu kaybetmeye yaklaştığım zamanlar oldu. Ama Tanrı'nın yardımıyla, alnımız açık çıktık. Artık yanından ayrılma ve hakettiğimi alma vakti geldi. Bu andan itibaren {s3}nı yönetme sorumluluğunu taşıyacağım. Hala pek çok engelle karşılaşabiliriz ve bunları aşmak için sana güveniyorum. Ve tabi ki, her zaman en önemli vasalım olarak kalacaksın.
+qstr__We_will_of_course_n| Tabi ordularımız seferden dönene kadar beklememiz gerekiyor.
+qstr_I_am_{s4}_the_ruler_|Ben {s4}, {s6} yöneticisi
+qstr_I_am_{s4}_a_vassal_o|Ben {s4}, {s6} derebeyi.
+qstr_{s9}{reg5?_and_the_l|{s9}{reg5? Ve {s8} lordu.:.
+qstr_{s13}_asked_you_to_g|{s13}, {reg3} baş sığır toplamanı ve ona getirmeni emretti.
+qstr_{s9}_asked_you_to_sc|{s9}; {s13}, {s14} ve {s15} bölgelerini gözlemeni ve ona rapor etmeni istedi.
+qstr_you|sen
+qstr_You_are_challenging_|Bana düello mu teklif ediyorsun? Ne akıllıca! Nasıl istersen {playername}, senin kafanı ezerek bugünün sporunu da aradan çıkarmış olurum.
+qstr_{s16}_and_{s17}|{s16} ve {s17}
+qstr_Very_well_I_will_acc|Pekala, seni saflarıma tekrar kabul edeceğim, eğer kutsal yemini tekrar etmeye hazırsan.
+qstr_A_pardon_will_only_b|Seni affetmemin tek yolu, bana esirin olarak {s17} ile gelmen. Şartlarımı kabul ediyor musun?
+qstr_No._There_is_no_chan|Hayır, aramızda barış olma şansı yok. İlgilenmiyorum.
+qstr_Our_marshal_{s1}|Mareşalimiz, {s1}
+qstr_{s11}_and_{s12}|{s11} ve {s12}
+qstr_We_are_not_at_war_wi|Kimseyle savaş durumunda değiliz.
+qstr_We_are_at_war_with_{|{s12} ile savaş halindeyiz.
+qstr_go_on_the_offensive_|şimdi saldırıya geçmek
+qstr_act_to_defend_our_la|topraklarımızı korumak için harekete geçmek
+qstr_take_more_time_to_ga|orduyu toplamak için biraz daha beklemek
+qstr_You_promised_to_help|{s13}, {s14} tacını elde edene kadar ona yardım etmeye söz verdin.
+qstr_What_do_you_say_to_e|Kiralık askerlerin komutanı olarak {s9} servisi altına girmeye ne dersin? 
+qstr_{s9}_asked_you_to_ta|{s9} senden {s13} için yazdığı bir mesajı götürmeni istiyor. Görevi aldığın sırada {s13}, {s4}nde bulunuyordu.
+qstr_{s9}_asked_you_to_tak|{s9} senden {s15}ndan {s13}'{.e} bir mesaj götürmeni istiyor. Görevi aldığında, {s13}, {s4}{.de} bulunuyordu.
+qstr_{s11}_asked_you_to_e|{s11} senden ona ait {s17} {s13} için {s14}ne kadar refakatçilik yapmanı istiyor.
+qstr_{s13}_asked_you_to_d|{s13}, senden ona ait {s15}ne yerleşen haydutlarla ilgilenmeni, ardından kendisine rapor vermeni istedi.
+qstr_{s9}_asked_you_to_ra|{s9}, {reg1} {s14} yetiştirip kendisine getirmeni istedi.
+qstr_{s9}_asked_you_to_co|{s9}, {s3}nden vergileri toplamanı istedi. Topladığın tüm paranın beşte birini sana bırakmayı önerdi
+qstr_{s9}_asked_you_to_hu|{s9}, senden {s4} olarak bilinen kaçağı avlamanı istedi. Şu an {s3}nde olduğu sanılıyor.
+qstr_{s9}_asked_you_to_as|{s9}, {s3}ndeki yerli tüccarı öldürmeni istedi.
+qstr_{s9}_has_asked_you_t|{s9}, {s13}nde bulunan casusla buluşmanı istedi.
+qstr_{s11}_asked_you_to_f|{s11}, {s12}nden ayrılan casusu izlemeni istedi. Casusun seni yolda görmemesine dikkat etmelisin, yoksa şüphelenip geri dönebilir. Casus bir kere suç ortağıyla buluştuktan sonra, her ikisini de yakalayıp {s11}ne getirmen gerekiyor.
+qstr_{s11}_asked_you_to_c|{s11}, {s13}ndan bir lord yakalamanı, herhangi bir tanesi, ve ardından kurbanını saklamak üzere {s11}ne sürüklemeni istedi.
+qstr_{s9}_asked_you_to_le|{s9}, yardımcın {s3}'{.i} ona bir hafta ödünç vermeni istedi.
+qstr_{s9}_asked_you_to_col|{s9}, {s3}'{.nin} ona olan {reg4} dinarlık borcunu toplamanı istedi. {s3}, sen bu görevi aldığında {s4}ndeydi.
+qstr_{s11}_gave_you_a_fak|{s11} sana {s13}'{.nin}, {s16} vasalını sürmesi için kandırmak üzere sahte bir mektup verdi. {s14} civarına gitmen, mektubu {s15} askerlerinden birine vermen ve onu şehre, mesajının gerçek olduğuna inanarak, ulak olarak yollaman gerekiyor.
+qstr_{s9}_has_requested_y|{s9}, ona {reg1} {s3} mahkum getirmeni istedi.
+qstr_Lend_your_experience|{s1} senden tecrübeli cerrah {s3}'{.i} istedi.
+qstr_Then_take_it_with_my|O zaman en derin minnet duygularımla onu alın. Gerçek bir asilsiniz. Bana zor anımda yardım ettiğinizi asla unutmayacağım.
+qstr_Forgive_me_{playerna|Kusura bakma {playername}, ama kabul etmeniz için ısrar edeceğim. Paranın benim için anlamı küçük ve size borcum büyük. Buyrun, kabul edin, ve bundan daha fazla bahsetmeyelim.
+qstr_{playername}_what_a_|{playername}, ne kadar değerli birisiniz, ancak bunu reddetmenize izin vermeyeceğim. Size söyleyebileceğimden fazlasını borçluyum ve eminim bu parayı benden daha iyi bir şekilde kullanabilirsiniz.
+qstr_{s11}_asked_you_to_r|{s11} senden onun için {s17}{.i}, {s13}'{.i} {s14}'{.den} zindanda onun yerine geçerek kurtarmanı istedi.
+qstr_{s11}_asked_you_to_re|{s11} senden {s17}{.i} {s13}'{.i} {s14}'{.den} kurtarmanı istedi.
+qstr_{s11}_asked_you_to_d|{s11}, {s14}nde tutsak olan {s13} için bir mesaj iletmeni istedi.
+qstr_You_agreed_to_challe|{s11}'{.nin} onurunu korumak için {s13}'{.nin} karşısına çıkmayı kabul ettin.
+qstr_{s5}__Persuasion_str|{s5} (İkna gücü: {reg5})
+qstr_Persuasion_Attempt|İkna Denemesi
+qstr_A_villager_from_{s7}|{s7}nden bir köylü, köylerini oraya yerleşen haydutlardan kurtarman için senden yardım dilendi.
+qstr_You_chose_well_{sir/|İyi seçim, {efendim/hanımefendi}. Adamlarım sözlerini tutmasını ve ücretlerini haketmesini bilirler.
+qstr_Well_done_{sir/madam|Çok güzel, {efendim/hanımefendi}. Paramızı ve şarabımızı eksik etmeyin; koca Kalradya'da kimseden korkunuz olmasın.
+qstr_We_are_at_your_servi|Hizmetinizdeyiz, {efendim/efendim}. Kime zarar verilecekse bize yerini gösterin, gerisini biz hallederiz.
+qstr_The_Guildmaster_of_{|{s13} lonca başkanı, şehrin etrafında çapulcularla ilgilenmeni istedi.
+qstr_{s9}_of_{s3}_asked_y|{s3}nden {s9} 7 gün içinde {s4}ndeki hana {reg5} adet {s6} ulaştırmanı istedi.
+qstr_Escort_the_merchant_|{s1} topraklarına doğru giden ticaret kervanına refakat et.
+qstr_Merchant_{s9}_of_{s4|{s4}nden tüccar {s9}, senden şehrin civarındaki belalı haydutları avlamanı istedi. 
+qstr_Guildmaster_of_{s4}_|{s4} lonca başkanı haydutlar tarafından kaçırılan bir kızın fidyesini ödemen için sana {reg12} dinar verdi. Haydutlarla {s3} yakınlarında buluşup fidyeyi ödemen gerekiyor. Ardından kızı {s4}ne geri getirmen bekleniyor.
+qstr_Guildmaster_of_{s4}_p|{s4} lonca başkanı {s12} ve {s13} kişilerinin, {s15} ve {s14} arasında olası bir barış durumuna karşı tehdit olmamalarını sağlamayı başarırsan sana {reg12} dinar önerdi. Bunu yapmak için onları ya ikna etmeli ya da anlaşma yapılana kadar esir olarak tutmalısın.
+qstr_The_Guildmaster_of_{s|{s14} lonca başkanı {s14} sokaklarına terör saçan bir grup haydutla ilgilenmeni istedi. Sadece geceleri ortaya çıkıyorlar ve sadece sokaklardaki yalnız yolculara saldırıyorlar.
+qstr_Guildmaster_of_{s10}|{s10} lonca başkanı bir sığır sürüsünü {s13}ne sürmeni istedi. Karşılığında {reg8} dinar kazanacaksın.
+qstr_He_is_not_commanding|Şu an hiçkimseyi yönetmiyor.
+qstr_He_currently_command|Şu an {reg1?, yaklaşık {reg1} tanesi yaralı olan }{reg0} askere hükmediyor.
+qstr_The_elder_of_the_vil|{s3}nün yaşlısı ona {reg5} çuval buğday getirmeni istedi.
+qstr_The_elder_of_the_vill|{s3}nün yaşlısı haydutlarla savaşabilmeleri için {reg5} çiftçiyi eğitmeni istedi.
+qstr_The_elder_of_the_villa|{s3}nün yaşlısı ona {reg5} baş sığır getirmeni istedi.
+qstr_{s16}_and_{s15}|{s16} ve {s15}
+qstr_I_can_smell_a_fat_pu|Kalın cüzdan kokusunu yolun öbür ucundan alırım. Bana kalırsa biraz hafifleme vaktin gelmiş!
+qstr_Why_it_be_another_tr|Ah, yolların denk getirdiği başka bir yolcu! Sizi uyarmalıyım, bu kırlar sizin gibi hoş bir {bay/bayan} için tehlikeli olabilir. Ama küçük bir bağış karşılığı ben ve dostlarım doğru yere ulaşmanızı sağlayabilir...
+qstr_Well_well_look_at_th|Bak, bak hele! Gümüşlerini uçlanmaya başlasan iyi olur arkadaşım, yoksa ben ve arkadaşlarım seni kırmak zorunda kalacağız.
+qstr_There_s_a_toll_for_p|Bu topraktan geçmenin bir ücreti var, bize ödeniyor; siz rahatınızı bozmayın, biz ücretimizi cüzdanlarınızdan kapıveririz...
+qstr_Another_fool_come_to|Kendini silahıma atmaya gelen başka bir şaklaban daha, ha? Öyle olsun, gel de kapışalım!
+qstr_We_re_not_afraid_of_|Senin gibi bir {heriften/yellozdan} korkacak değiliz. Kafanın kırıdığımızda görürsün!
+qstr_That_was_a_mistake._|Bu bir hataydı. Şimdi ölümünü uzun ve acı dolu hale getirmem gerekecek.
+qstr_Brave_words._Let_s_s|Cesur laflar. Bakalım arkasında durabilecek misin, it!
+qstr_A_{s5}?_Well..._Yes_|Bir {s5}? Sanırım öyle. Ne kadar ilginç bir soru bu.
+qstr_Eh?_No_it_most_certa|Eh? Hayır! Bu kesinlikle bir {s5} değil. Yerinde olsam gözlerimi bir kontrol ederdim.
+qstr_This_is_the_{reg4?to|Burası {s5} {beyim/hanımım}.
+qstr_{s6}_Our_{reg4?town:|{s6} {reg4?Şehrimiz:Köyümüz} ve içinde bulunduğu topraklar tabiki siz {beyime/hanımıma} aittir.
+qstr_{s6}_Our_{reg4?town:v|{s6} {reg4?Şehrimiz:Köyümüz} ve içinde bulunduğu toprakların sahibi {s8}ndan {s7} olur.
+qstr_{s3}_and_{s5}|{s3} ve {s5}
+qstr_{reg20?We_mostly_pro|{reg20?Burada genelde {s5} üretiyoruz:Şu sıralar pek birşey ürettiğimiz yok}. Eğer daha fazla öğrenmek istiyorsan {reg4?lonca başkanımızla:köyümüzün ihtiyarıyla} konuşabilirsin. Hemen şurada, ileride.
