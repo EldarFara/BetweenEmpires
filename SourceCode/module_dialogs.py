@@ -3536,9 +3536,9 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    
    [anyone, "improve_relations_initial",
    [
-   (neg|faction_slot_eq, "fac_player_supporters_faction", slot_faction_improve_relations_target, 0),
-   (faction_get_slot, ":faction_improve_relations_target", "fac_player_supporters_faction", slot_faction_improve_relations_target),
-   (str_store_faction_name, s31, ":faction_improve_relations_target"),
+	(neg|faction_slot_eq, "fac_player_supporters_faction", slot_faction_improve_relations_target, 0),
+	(faction_get_slot, ":faction_improve_relations_target", "fac_player_supporters_faction", slot_faction_improve_relations_target),
+	(str_store_faction_name, s31, ":faction_improve_relations_target"),
    ],
    "Sorry to say, we are already in the midst of the political circus, we are still attempting to improve relations with {s31}. I am afraid you will have to wait for our ambassadors to return.", "minister_pretalk",
    []],
@@ -22857,6 +22857,7 @@ I suppose there are plenty of bounty hunters around to get the job done . . .", 
   
 
   [anyone|plyr,"mayor_talk",[  
+  (eq, 1, 2),
   (item_slot_ge, "itm_velvet", slot_item_secondary_raw_material, "itm_raw_dyes"), #ie, the item information has been updated, to ensure savegame compatibility
   ], "I wish to buy land in this town for a productive enterprise", "mayor_investment_possible",[
   ]],

@@ -20300,6 +20300,7 @@ scripts = [
 		#KINGDOM LADY OR KINGDOM HERO QUESTS	
 		(else_try),	
 	        (eq, ":result", "qst_rescue_prisoner"),
+	        (eq, 1, 2),
 			(assign, ":quest_target_troop", ":relevant_troop"),
 			(assign, ":quest_target_center", ":relevant_party"),
 
@@ -20579,6 +20580,7 @@ scripts = [
 	          (try_end),
 	        (else_try),
 	          (eq, ":quest_no", "qst_deliver_message_to_prisoner_lord"),
+			  (eq, 1, 0),
 			  (eq, "$player_has_homage", 0),
 			  
 	          (try_begin),
@@ -21007,6 +21009,7 @@ scripts = [
 	        (else_try),
 	          (eq, ":quest_no", "qst_hunt_down_fugitive"),
 	          (try_begin),
+	            (eq, 1, 2), # parabellum disabled
 	            (ge, "$g_talk_troop_faction_relation", 0),
 	            (call_script, "script_cf_select_random_village_with_faction", ":giver_faction_no"),
 	            (assign, ":quest_target_center", reg0),
@@ -31283,6 +31286,7 @@ scripts = [
   # Output: none
   ("cf_enter_center_location_bandit_check",
     [
+      (eq, 1, 2), # parabellum disabled
       (neq, "$town_nighttime", 0),
       (party_slot_ge, "$current_town", slot_center_has_bandits, 1),
       (eq, "$g_defending_against_siege", 0),#Skip if the center is under siege (because of resting)
@@ -56553,7 +56557,7 @@ scripts = [
 (faction_set_slot, "fac_kingdom_6", slot_faction_wardrobe_begin, "itm_tur_fez1"),
 (faction_set_slot, "fac_kingdom_6", slot_faction_wardrobe_end, "itm_tur_trousers_sultan"),
 (faction_set_slot, "fac_kingdom_7", slot_faction_wardrobe_begin, "itm_baf_infantry1"),
-(faction_set_slot, "fac_kingdom_7", slot_faction_wardrobe_end, "itm_baf_hat14"),
+(faction_set_slot, "fac_kingdom_7", slot_faction_wardrobe_end, "itm_baf_hat15"),
 (faction_set_slot, "fac_kingdom_8", slot_faction_wardrobe_begin, "itm_sta_infantry1"),
 (faction_set_slot, "fac_kingdom_8", slot_faction_wardrobe_end, "itm_sta_hat2"),
 (faction_set_slot, "fac_kingdom_9", slot_faction_wardrobe_begin, "itm_edt_infantry1"),
@@ -61870,9 +61874,10 @@ scripts = [
 	(init_position, pos33),
 	(position_copy_origin, pos33, pos30),
 	(position_rotate_z, pos33, ":angle"),
+	(position_move_y, pos33, -10, 0),
 		(try_begin),
 		(eq, ":team", "$g_player_team"),
-		(position_move_y, pos33, -60, 0),
+		(position_move_y, pos33, -70, 0),
 		(try_end),
 	(store_add, ":slot_number", slot_team_company1_soldier_number, ":company"),
 	(team_get_slot, ":number", ":team", ":slot_number"),
@@ -61982,7 +61987,7 @@ scripts = [
 	(val_add, ":mg_amount", 1),
 	(team_set_slot, ":team", slot_team_mg_amount, ":mg_amount"),
 	(call_script, "script_agent_faction_get_mg", ":agent"), (assign, ":mg_item", reg2),
-	(agent_equip_item, ":agent", ":mg_item"),
+	#(agent_equip_item, ":agent", ":mg_item"),
 	(assign, reg0, ":agent"),
 	(init_position, pos50),
 	(set_spawn_position, pos50),

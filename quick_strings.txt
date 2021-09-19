@@ -71,7 +71,6 @@ qstr_{!}DEBUG____Adding_{ {!}DEBUG_--_Adding_{reg3}_items_to_{s3}
 qstr_None None
 qstr_Back Back
 qstr_Empty Empty
-qstr_Number_of^artillery_ Number_of^artillery_shells.
 qstr_1._{s1} 1._{s1}
 qstr___c. __c.
 qstr_90% 90%
@@ -109,7 +108,6 @@ qstr_Gas_masks:_always_wea Gas_masks:_always_wear/at_will
 qstr_pbs_activeability_gasma pbs_activeability_gasmasks_onoff
 qstr_pbs_activeability_gasmas pbs_activeability_gasmasks_noselected
 qstr_{s1}^^Gas_masks_make {s1}^^Gas_masks_make_troops_invulnerable_to_poison_gas,_but_decrease_shooting_accuracy_and_energy_level.^Company_types:_any.
-qstr_{reg0} {reg0}
 qstr_{reg0}% {reg0}%
 qstr_{reg0}_c. {reg0}_c.
 qstr_Cannot_dig_in:_wrong Cannot_dig_in:_wrong_company_types_(only_line_infantry_and_guard_infantry_can_dig_in).
@@ -673,6 +671,7 @@ qstr_M.G. M.G.
 qstr_S.I. S.I.
 qstr_A. A.
 qstr_Cannot_form_square:_t Cannot_form_square:_too_few_soldiers_(need_at_least_25).
+qstr_{reg0} {reg0}
 qstr_1_{reg1} 1_{reg1}
 qstr_flag1_0 flag1_0
 qstr_{s31}_created_a_casu {s31}_created_a_casus_belli_for_{s32}_for_{reg10}_days.
@@ -1134,6 +1133,7 @@ qstr_The_{s1}_has_finishe The_{s1}_has_finished_researching_technology_'{s2}'.
 qstr_The_year_is_{reg0}. The_year_is_{reg0}.
 qstr_North_German_Confede North_German_Confederation
 qstr_Finished_improving_r Finished_improving_relations_with_{s31}.
+qstr_Interrupted_improvin Interrupted_improving_relations_with_{s31}.
 qstr_{!}DEBUG____Wanted_b {!}DEBUG_--_Wanted_bandits_spotted_by_{s4}
 qstr_{reg65?my_Lady:my_Lo {reg65?my_Lady:my_Lord}
 qstr_{reg65?My_Lady:My_Lo {reg65?My_Lady:My_Lord}

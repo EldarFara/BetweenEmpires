@@ -7348,6 +7348,21 @@ the high lords and common folk across the many realms of Europe."),
         (try_end),
     ],
     [
+      ("village_talk_to_elder",[
+        (neg|party_slot_eq, "$current_town", slot_village_state, svs_looted),
+        (neg|party_slot_eq, "$current_town", slot_village_state, svs_being_raided),
+        (neg|party_slot_ge, "$current_town", slot_village_infested_by_bandits, 1),
+	  ],"Talk to a village elder.",
+      [
+		(jump_to_menu, "mnu_village"),
+		(modify_visitors_at_site,"scn_conversation_scene"),(reset_visitors),
+		(party_get_slot, ":major", "$current_town", slot_town_elder),
+		(set_visitor,0,"trp_player"),
+		(set_visitor,17,":major"),
+		(set_jump_mission,"mt_conversation_encounter"),
+		(jump_to_scene,"scn_conversation_scene"),
+		(change_screen_map_conversation, ":major"),
+      ]," "),
       ("village_manage",
       [
         (neg|party_slot_eq, "$current_town", slot_village_state, svs_looted),
@@ -8601,7 +8616,7 @@ the high lords and common folk across the many realms of Europe."),
           (faction_slot_eq, ":center_faction", slot_faction_ai_object, "$current_town"),
           (str_store_string, s1, "str__join_the_feast"),
         (try_end),
-        ],"Go to the HQ.{s1}.",
+        ],"Go to the headquarters.{s1}.",
        [          
            (try_begin),
              (this_or_next|eq, "$all_doors_locked", 1),
@@ -8654,7 +8669,7 @@ the high lords and common folk across the many realms of Europe."),
             (str_store_string, s1, "@ (Join the commanders' meeteing)"),
           (try_end),
 
-          ],"Go to the town hall{s1}.",
+          ],"Go to the headquarters.{s1}.",
        [           
            (try_begin),
              (this_or_next|eq, "$all_doors_locked", 1),
@@ -8682,6 +8697,21 @@ the high lords and common folk across the many realms of Europe."),
            (try_end),
         ], "Door to the town hall."),
       
+      ("town_major_talk",[
+	(eq, "$sneaked_into_town", 0),
+	(party_slot_eq, "$current_town", slot_party_type, spt_town),
+	  ],"Talk to a town mayor.",
+      [
+		(jump_to_menu, "mnu_town"),
+		(modify_visitors_at_site,"scn_conversation_scene"),(reset_visitors),
+		(party_get_slot, ":major", "$current_town", slot_town_elder),
+		(set_visitor,0,"trp_player"),
+		(set_visitor,17,":major"),
+		(set_jump_mission,"mt_conversation_encounter"),
+		(jump_to_scene,"scn_conversation_scene"),
+		(change_screen_map_conversation, ":major"),
+      ]," "),
+	  
       ("town_center",
       [                        
            (eq, 1, 2), # parabellum disabled

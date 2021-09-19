@@ -19,15 +19,15 @@ craters_limit = 200
 cannon_type_fieldgun = 0
 cannon_type_howitzer = 1
 
-pas_points_for_rank_2 = 1500
-pas_points_for_rank_3 = 4000
-pas_points_for_rank_4 = 8000
-pas_points_for_rank_5 = 13000
-pas_points_for_rank_6 = 21000
-pas_points_for_rank_7 = 35000
-pas_points_for_rank_8 = 55000
-pas_points_for_rank_9 = 75000
-pas_points_for_rank_10 = 100000
+pas_points_for_rank_2 = 3000
+pas_points_for_rank_3 = 8000
+pas_points_for_rank_4 = 16000
+pas_points_for_rank_5 = 30000
+pas_points_for_rank_6 = 50000
+pas_points_for_rank_7 = 70000
+pas_points_for_rank_8 = 100000
+pas_points_for_rank_9 = 170000
+pas_points_for_rank_10 = 300000
 
 pas_lord_state_undefined = 0
 pas_lord_state_patrolling_center_peace_border = 1
