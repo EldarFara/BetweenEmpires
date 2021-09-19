@@ -7534,7 +7534,7 @@ itemsfile version 3
  0
 0
 
- itm_mg5_austrian Machine_Gun Machine_Gun 1  mg5_austrian_item 0  6291460 6174015488 0 0 30.000000 100 0 0 0 0 18432 75 0 80 0 256 530
+ itm_mg5_austrian Machine_Gun Machine_Gun 1  mg5_austrian_barrel 0  6291460 6174015488 0 0 30.000000 100 0 0 0 0 18432 75 0 80 0 256 530
  0
 0
 
