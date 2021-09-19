@@ -16995,10 +16995,6 @@ scripts = [
 		
         (val_clamp, ":new_price", minimum_price_factor, maximum_price_factor),
         (party_set_slot, ":center_no", ":cur_good_price_slot", ":new_price"),
-
-		#(assign, reg3, ":new_price"),
-		#(str_store_item_name, s2, ":cur_good"),
-		#(display_log_message, "@DEBUG : {s1}-{s2}, prod:{reg1}, cons:{reg2}, price:{reg3}"),
       (try_end),
   ]),
   
@@ -49382,7 +49378,7 @@ scripts = [
 				(assign, ":minimum_needed_target_value_level", ":minimum_possible_attackable_target_value_level"),
 			(try_end),  
 
-            (try_begin), #agressive marshal            
+            (try_begin),
 			  (troop_get_slot, ":reputation", ":troop_no", slot_lord_reputation_type),
 			  (this_or_next|eq, ":reputation", lrep_martial),
 			  (this_or_next|eq, ":reputation", lrep_quarrelsome),
@@ -52802,7 +52798,7 @@ scripts = [
   # Output: none 
   ("game_missile_launch",
     [
-(display_message, "@debug game_missile_launch begin"),
+#(display_message, "@debug game_missile_launch begin"),
    (try_begin),
 	(store_script_param, ":agent_id", 1),
 	(store_script_param, ":item_id", 2),
@@ -53325,7 +53321,7 @@ scripts = [
       (try_end),
     (try_end),
 	  
-(display_message, "@debug game_missile_launch end"),
+#(display_message, "@debug game_missile_launch end"),
   ]),
 
 ("company_hold_pos30",
@@ -57693,6 +57689,7 @@ scripts = [
 [
 (store_script_param, ":item", 1),
 (ge, ":item", 648),
+(le, ":item", "itm_items_end"),
 (neq, ":item", "itm_yuruyuri_chinatsu"),
 (neq, ":item", "itm_yuruyuri_akari"),
 (neq, ":item", "itm_ddlc_monika"),
@@ -57796,6 +57793,7 @@ scripts = [
 (item_get_slot, ":appearance_year", ":item", slot_item_appearance_year),
 (le, ":appearance_year", "$g_current_year"),
 (item_get_weapon_length, ":length", ":item"),
+(neq, ":length", 160),
 (neq, ":length", 120),
 (neq, ":length", 100),
 (neq, ":length", 80),
@@ -65482,8 +65480,8 @@ scripts = [
 				(map_get_random_position_around_position, pos2, pos1, 2),
 				(party_set_ai_behavior, ":party", ai_bhvr_travel_to_point),
 				(party_set_ai_target_position, ":party", pos2),
-				(party_set_aggressiveness, ":party", 12),
-				(party_set_courage, ":party", 12),
+				(party_set_aggressiveness, ":party", 15),
+				(party_set_courage, ":party", 15),
 				(party_set_ai_initiative, ":party", 100),
 				(party_set_helpfulness, ":party", 200),
 				(party_set_flags, ":party", pf_default_behavior, 0),
@@ -65691,9 +65689,9 @@ scripts = [
 	(party_set_ai_behavior, ":party", ai_bhvr_escort_party),
 	(party_set_ai_object, ":party", ":marshall_party"),
 	(party_set_aggressiveness, ":party", 2),
-	(party_set_courage, ":party", 4),
+	(party_set_courage, ":party", 15),
 	(party_set_ai_initiative, ":party", 10),
-	(party_set_helpfulness, ":party", 200),
+	(party_set_helpfulness, ":party", 1000),
 	(party_set_flags, ":party", pf_default_behavior, 0),
 	(try_end),
 ]),
@@ -65710,8 +65708,8 @@ scripts = [
 	(party_set_ai_behavior, ":party", ai_bhvr_patrol_party),
 	(party_set_ai_object, ":party", ":center"),
 	(party_set_ai_patrol_radius, ":party", 3),
-	(party_set_aggressiveness, ":party", 12),
-	(party_set_courage, ":party", 12),
+	(party_set_aggressiveness, ":party", 15),
+	(party_set_courage, ":party", 15),
 	(party_set_ai_initiative, ":party", 100),
 	(party_set_helpfulness, ":party", 200),
 	(party_set_flags, ":party", pf_default_behavior, 0),

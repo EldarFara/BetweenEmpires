@@ -8684,6 +8684,7 @@ the high lords and common folk across the many realms of Europe."),
       
       ("town_center",
       [                        
+           (eq, 1, 2), # parabellum disabled
         (party_slot_eq, "$current_town", slot_party_type, spt_town),
         (this_or_next|eq,"$entry_to_town_forbidden",0),
         (eq, "$sneaked_into_town",1),
@@ -9202,6 +9203,7 @@ the high lords and common folk across the many realms of Europe."),
 		
       ("castle_inspect", 
       [
+           (eq, 1, 2), # parabellum disabled
          (party_slot_eq,"$current_town",slot_party_type, spt_castle),
       ],
        "Take a walk around the streets.",
