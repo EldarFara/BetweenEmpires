@@ -138,6 +138,7 @@ qstr_The_World_Map The_World_Map
 qstr_Done Done
 qstr_Press_Escape_to_clos Press_Escape_to_close_menu...
 qstr_{s7}__s_Army {s7}_'s_Army
+qstr_{reg1} {reg1}
 qstr_Attribute_points_{re Attribute_points_{reg40}
 qstr_Skill_points_{reg41} Skill_points_{reg41}
 qstr_Weapon_points_{reg42 Weapon_points_{reg42}
@@ -284,7 +285,6 @@ qstr_Healthcare_Expenses: Healthcare_Expenses:_{reg10}%
 qstr_Slot:_not_selected Slot:_not_selected
 qstr_Party:_not_selected Party:_not_selected
 qstr_Party:_{reg1}___{s1} Party:_{reg1}_-_{s1}
-qstr_{reg1} {reg1}
 qstr_N_A N_A
 qstr_Slot:_{reg1} Slot:_{reg1}
 qstr_JUST_MONIKA_JUST_MON JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^

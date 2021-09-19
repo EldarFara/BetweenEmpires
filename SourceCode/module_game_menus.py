@@ -14789,7 +14789,10 @@ the high lords and common folk across the many realms of Europe."),
 	(jump_to_menu,"mnu_cannoneers_store"),
        ]
        ),
-      ("cannoneers_store_buy_howitzer",[],"Order a heavy howitzer and hire a cannoneers crew (3000 pounds).",
+      ("cannoneers_store_buy_howitzer",[
+	(store_faction_of_party, ":faction", "$g_encountered_party"),
+	(faction_slot_ge, ":faction", slot_faction_technology_modernartillery, 10000),
+	],"Order a heavy howitzer and hire a cannoneers crew (3000 pounds).",
        [
 	(store_faction_of_party, ":faction", "$g_encountered_party"),
 	(faction_slot_ge, ":faction", slot_faction_technology_modernartillery, 10000),
