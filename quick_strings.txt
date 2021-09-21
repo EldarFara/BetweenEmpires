@@ -1,4 +1,4 @@
-1266
+1283
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -91,7 +91,7 @@ qstr_pbs_activeability_co pbs_activeability_coveringfire_on
 qstr_pbs_activeability_ga pbs_activeability_gas
 qstr_Gas_Attack^^.^Compan Gas_Attack^^.^Company_types:_Field_Guns_and_Howitzers.
 qstr_pbs_activeability_gr pbs_activeability_grenades
-qstr_Grenade_Attack^^Sele Grenade_Attack^^Selected_companies_launch_a_grenade_attack,_throwing^hand_grenades_at_enemies_which_are_at_close_distance.^Only_available_once_per_3_minutes.^Company_types:_Shock_troops.
+qstr_Grenade_Attack^^Sele Grenade_Attack^^Selected_companies_launch_a_grenade_attack_at_range_up_to_50_meters,_throwing^hand_grenades_at_enemies_which_are_at_close_distance.^Only_available_once_per_3_minutes.^Company_types:_Shock_troops.
 qstr_Suppression_fire:_on Suppression_fire:_on
 qstr_Suppression_fire:_of Suppression_fire:_off
 qstr_pbs_activeability_cov pbs_activeability_coveringfire_off
@@ -1134,6 +1134,23 @@ qstr_The_year_is_{reg0}. The_year_is_{reg0}.
 qstr_North_German_Confede North_German_Confederation
 qstr_Finished_improving_r Finished_improving_relations_with_{s31}.
 qstr_Interrupted_improvin Interrupted_improving_relations_with_{s31}.
+qstr_President_Raymond_Po President_Raymond_Poincare
+qstr_Tsar_Nicholas_II Tsar_Nicholas_II
+qstr_Kaiser_Franz_Joseph_ Kaiser_Franz_Joseph_I
+qstr_King_Victor_Emmanuel King_Victor_Emmanuel_III
+qstr_Kaiser_Wilhelm_II Kaiser_Wilhelm_II
+qstr_Sultan_Mehmed_V Sultan_Mehmed_V
+qstr_King_Edward_VII King_Edward_VII
+qstr_Queen_Wilhelmina Queen_Wilhelmina
+qstr_President_Armand_Fal President_Armand_Fallières
+qstr_Sultan_Abdulhamid_II Sultan_Abdulhamid_II
+qstr_President_Sadi_Carno President_Sadi_Carnot
+qstr_Tsar_Alexander_III Tsar_Alexander_III
+qstr_King_Umberto_I King_Umberto_I
+qstr_Queen_Victoria Queen_Victoria
+qstr_President_Patrice_de President_Patrice_de_MacMahon
+qstr_Kaiser_Wilhelm_I Kaiser_Wilhelm_I
+qstr_King_Wilhelm_III King_Wilhelm_III
 qstr_{!}DEBUG____Wanted_b {!}DEBUG_--_Wanted_bandits_spotted_by_{s4}
 qstr_{reg65?my_Lady:my_Lo {reg65?my_Lady:my_Lord}
 qstr_{reg65?My_Lady:My_Lo {reg65?My_Lady:My_Lord}

@@ -1037,8 +1037,7 @@ pai_1000ms = (1, 0, 0, [
 	
 	(try_begin), # Launch gas attack randomly
 	(neq, "$g_enemy_team", -1),
-	(team_get_leader, ":leader", "$g_enemy_team"),
-	(call_script, "script_cf_if_agent_faction_invented_technology", ":leader", slot_faction_technology_gasattacks),
+	(call_script, "script_cf_if_team_faction_invented_technology", "$g_enemy_team", slot_faction_technology_gasattacks),
 		(try_for_range, ":company", 0, 8),
 		(call_script, "script_cf_if_company_has_soldiers", "$g_enemy_team", ":company"),
 		(store_add, ":slot_type", slot_team_company1_type, ":company"),
