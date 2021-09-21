@@ -14634,19 +14634,19 @@ the high lords and common folk across the many realms of Europe."),
     "none",
     [],
     [
-      ("game_speed_extremely_fast",[],"100 - Small (Battle size at least 200 is recommended).",
+      ("start_game_ai_party_size_selection_100",[],"100 - Small (Battle size at least 200 is recommended).",
        [
 		(assign, "$preferred_ai_party_size", 100),
          (jump_to_menu,"mnu_start_game_speed_selection"),
         ]
        ),
-      ("game_speed_very_fast",[],"125 - Medium (Battle size at least 300 is recommended).",
+      ("start_game_ai_party_size_selection_125",[],"125 - Medium (Battle size at least 300 is recommended).",
        [
 		(assign, "$preferred_ai_party_size", 125),
          (jump_to_menu,"mnu_start_game_speed_selection"),
         ]
        ),
-      ("game_speed_fast",[],"150 - Big (Battle size at least 400 is recommended).",
+      ("start_game_ai_party_size_selection_150",[],"150 - Big (Battle size at least 400 is recommended).",
        [
 		(assign, "$preferred_ai_party_size", 150),
          (jump_to_menu,"mnu_start_game_speed_selection"),
