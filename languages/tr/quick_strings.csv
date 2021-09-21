@@ -33,8 +33,8 @@ qstr_Use_Melee_Weapons|Use Melee Weapons
 qstr_Ready|Hazır
 qstr_Wounded|Yaralı
 qstr_Dead|Ölü
-qstr_Cannot_form_square:_|Cannot form square: too many companies selected.
-qstr_Cannot_form_square:_w|Cannot form square: wrong company types (only line infantry and guard inantry can form square).
+qstr_Cannot_form_square:_|Kare Formasyonuna Geçilemiyor : Çok fazla bölük seçili.
+qstr_Cannot_form_square:_w|Kare Formasyonuna Geçilemiyor (Sadece Piyade ve Muhafız Piyade kare formasyonuna geçebilir) 
 qstr_Number_of_men_knocke|Bayıltılan adam sayısı: {reg1}
 qstr_Number_of_men_left:_|Kalan adam sayısı: {reg1}
 qstr_Opponents_Beaten:_{r|Yenilen Düşmanlar: {reg1}
@@ -60,12 +60,12 @@ qstr_Experience:_{reg0}|Tecrübe: {reg0}
 qstr_Days_Passed:_{reg0}|Geçen gün sayısı: {reg0}
 qstr_Difficulty:_{reg0}%|Zorluk: %{reg0}
 qstr_TOTAL_SCORE:_{reg0}|TOPLAM PUAN: {reg0}
-qstr_Income_from_factorie|Income from factories share:
+qstr_Income_from_factorie|Fabrikalardan Gelirler:
 qstr_{reg10}|{reg10}
 qstr_None|Hiç
-qstr_Back|Back
-qstr_Empty|Empty
-qstr_Number_of^artillery_|Number of^artillery shells.
+qstr_Back|Geri
+qstr_Empty|Boş
+qstr_Number_of^artillery_|Topcu Mermisi^Sayısı
 qstr_1._{s1}|1. {s1}
 qstr___c.|  c.
 qstr_90%|90%
@@ -77,43 +77,43 @@ qstr_5._{s1}|5. {s1}
 qstr_6._{s1}|6. {s1}
 qstr_7._{s1}|7. {s1}
 qstr_8._{s1}|8. {s1}
-qstr_Form_Square^^Selecte|Form Square^^Selected companies (not more than two)^will form a square formation. It is effective in melee^fighting, especially against cavalry, but vulnarable^to an enemy fire. To selected companies be able to^form square, they need to have at least 25 soldiers^in total.^Company types: Line infantry, Guard.
+qstr_Form_Square^^Selecte|Kare Formasyonuna Geç^^Seçili Bölükler (2'den fazla değil)^bir kare formasyonuna geçecek.Bu formasyon yakın dövüşte^etkilidir, özellikle Süvarilere karşı savaşırken fakat düşman ateşine karşı savunmasızdır.Seçili Bölüklerin Kare formasyonuna geçmesi için enazından 25 asker gerekir^Bölük Tipleri : Piyade Muhafız Piyade
 qstr_pbs_activeability_me|pbs activeability merge
-qstr_Merge_Companies^^Sel|Merge Companies^^Selected companies (not less than one)^will be merged into one that has highest number of soldiers.
+qstr_Merge_Companies^^Sel|Bölükleri Birleştir^^Seçili Bölükler (Birden Az Değil)^içinde en çok asker olan bölüğe birleştirilir.
 qstr_pbs_activeability_di|pbs activeability digin
-qstr_Dig_In^^Selected_com|Dig In^^Selected companies will dig in,^creating trenches on their position.^Only available once per battle.^Company types: Line infantry, Guard.
+qstr_Dig_In^^Selected_com|Siper Kaz^^Seçili bölükler siper kazar^Her Savaşta 1 kere kullanılabilir^Bölük Tipleri : Piyade Muhafız Piyade
 qstr_pbs_activeability_co|pbs activeability coveringfire on
 qstr_pbs_activeability_ga|pbs activeability gas
-qstr_Gas_Attack^^.^Compan|Gas Attack^^.^Company types: Field Guns and Howitzers.
+qstr_Gas_Attack^^.^Compan|Gaz Saldırısı^^.^Bölük Tipleri: Top ve Havan Topu.
 qstr_pbs_activeability_gr|pbs activeability grenades
-qstr_Grenade_Attack^^Sele|Grenade Attack^^Selected companies launch a grenade attack, throwing^hand grenades at enemies which are at close distance.^Only available once per 3 minutes.^Company types: Shock troops.
-qstr_Suppression_fire:_on|Suppression fire: on
-qstr_Suppression_fire:_of|Suppression fire: off
+qstr_Grenade_Attack^^Sele|Bomba Saldırısı^^Seçili Bölükler Bomba Saldırısı yapar,^Kendilerine yakın olan düşmanlara Bomba fırlatırlar.^3 Dakikada bir kullanılabilir.^Bölük Tipleri:Baskın Birlikleri.
+qstr_Suppression_fire:_on|Bastırma Ateşi: açık
+qstr_Suppression_fire:_of|Bastırma Ateşi: kapalı
 qstr_pbs_activeability_cov|pbs activeability coveringfire off
 qstr_Suppression_fire:_on/|Suppression fire: on/off
 qstr_pbs_activeability_cove|pbs activeability coveringfire onoff
 qstr_No_companies_selecte|No companies selected
 qstr_pbs_activeability_cover|pbs activeability coveringfire noselected
-qstr_{s1}^^Turning_on_sup|{s1}^^Turning on suppression fire will increase shooting speed^and decreasing enemy discipline level three times faster,^on exchange of drastically decreasing your own accuracy.^Company types: any.
-qstr_Gas_masks:_always_we|Gas masks: always wear
+qstr_{s1}^^Turning_on_sup|{s1}^^Bastırma Ateşini açmak atış hızını 3 kat artırır^ve düşman disiplin düşüşünüde 3 kat artırır^fakat atış isabeti oranını yüksek ölçüde düşürür.^Bölük Tipi: Herhangi.
+qstr_Gas_masks:_always_we|Gaz Maskesi: Hep giy
 qstr_pbs_activeability_gas|pbs activeability gasmasks on
-qstr_Gas_masks:_at_will|Gas masks: at will
+qstr_Gas_masks:_at_will|Gaz Maskesi : Serbest
 qstr_pbs_activeability_gasm|pbs activeability gasmasks off
-qstr_Gas_masks:_always_wea|Gas masks: always wear/at will
+qstr_Gas_masks:_always_wea|Gaz Maskesi: her zaman iradeyle giy
 qstr_pbs_activeability_gasma|pbs activeability gasmasks onoff
 qstr_pbs_activeability_gasmas|pbs activeability gasmasks noselected
-qstr_{s1}^^Gas_masks_make|{s1}^^Gas masks make troops invulnerable to poison gas, but decrease shooting accuracy and energy level.^Company types: any.
+qstr_{s1}^^Gas_masks_make|{s1}^^Gaz maskeleri askerleri zehirli gaza karşı zarar görmez hale getirir,ama enerji ve atış isabetini düşürür^Bölük tipi: Herhangi
 qstr_{reg0}|{reg0}
 qstr_{reg0}%|{reg0}%
 qstr_{reg0}_c.|{reg0} c.
-qstr_Cannot_dig_in:_wrong|Cannot dig in: wrong company types (only line infantry and guard infantry can dig in).
-qstr_Cannot_launch_gas_at|Cannot launch gas attack: wrong company types (only artillery can use gas attack).
-qstr_Cannot_launch_grenad|Cannot launch grenade attack: wrong company types (only shock troops can throw grenades).
+qstr_Cannot_dig_in:_wrong|Siper Kazamaz: Yanlış Bölük Tipi (Sadece Piyade ve Muhafız Piyade Siper Kazabilir).
+qstr_Cannot_launch_gas_at|Gaz Saldırısı Yapamaz: Yanlış bölük tipi(sadece top gaz saldırısı yapabilir).
+qstr_Cannot_launch_grenad|Bomba Saldırısı Yapamaz: Yanlış bölük tipi(Sadece Şok Askerleri Bomba Saldırısı Yapabilir).
 qstr_Select_2_or_more_com|Select 2 or more companies with soldiers to merge.
-qstr_Others|Others
-qstr_Outlaws|Outlaws
-qstr_Mercenary|Mercenary
-qstr_Close|Close
+qstr_Others|Öbürleri
+qstr_Outlaws|Kaçak
+qstr_Mercenary|Paralı Asker
+qstr_Close|Kapat
 qstr_Click_the_center_but|Click the center button to toggle faction^Click the avatars to view details of them
 qstr_Level:_{reg3}^Health|Level: {reg3}^Health: {reg4}
 qstr_Attributes|Attributes
@@ -124,16 +124,16 @@ qstr_Skills|Skills
 qstr_Ironflesh^Power_Stri|Ironflesh^Power Strike^Power Throw^Power Draw^Shield^Athletics^Riding^Horse Archery
 qstr_Proficiencies|Proficiencies
 qstr_1H_Weapons^2H_Weapon|1H Weapons^2H Weapons^Polearms^Archery^Rifles^Throwing
-qstr_Equipments|Equipments
-qstr_Factions|Factions
-qstr_Show_towns|Show towns
-qstr_Show_castles|Show castles
-qstr_Show_villages|Show villages
-qstr_Tip:_move_the_mouse_|Tip: move the mouse onto the black blocks to show their names.
-qstr_The_World_Map|The World Map
-qstr_Done|Done
-qstr_Press_Escape_to_clos|Press Escape to close menu...
-qstr_{s7}__s_Army|{s7} 's Army
+qstr_Equipments|Ekipmanlar
+qstr_Factions|Ülkeler
+qstr_Show_towns|Şehirleri Göster
+qstr_Show_castles|Kaleleri Göster
+qstr_Show_villages|Köyleri Göster
+qstr_Tip:_move_the_mouse_|Tip: isimlerini göstermek için mous'u siyah blokların üzerine götür.
+qstr_The_World_Map|Dünya Haritası
+qstr_Done|Tamamlandı
+qstr_Press_Escape_to_clos|Menüyü kapatmak için esc'ye basın...
+qstr_{s7}__s_Army|{s7} 'nın ordusu
 qstr_Attribute_points_{re|Attribute points {reg40}
 qstr_Skill_points_{reg41}|Skill points {reg41}
 qstr_Weapon_points_{reg42|Weapon points {reg42}
@@ -177,152 +177,153 @@ qstr_Infantry_Machine^^Gu|Infantry Machine^^Gun Tactics
 qstr_Covering_Fire|Covering Fire
 qstr_Gas_Attacks|Gas Attacks
 qstr_Shock_Troops|Shock Troops
-qstr_You_do_not_have_enou|You do not have enough money.
-qstr_faction_technologies|faction technologies tech available
-qstr_faction_technologies_|faction technologies tech inprogress
-qstr_Rifled_Caplock^Muske|Rifled Caplock^Muskets
+qstr_You_do_not_have_enou|Yeterince Paran yok.
+qstr_faction_technologies|Ülke teknolojisi mevcut.
+qstr_faction_technologies_|ülke teknolojisi devam etmekte
+qstr_Rifled_Caplock^Muske|Rifled Caplock^Misket Tüfeği
 qstr_faction_technologies_p|faction technologies photo riflesrifled
-qstr_Rapid_Firing^Artille|Rapid Firing^Artillery
+qstr_Rapid_Firing^Artille|Seri Ateş Eden^Top
 qstr_faction_technologies_ph|faction technologies photo modernartillery
 qstr_faction_technologies_pho|faction technologies photo modernattack
-qstr_Crimean_War^Experien|Crimean War^Experience
+qstr_Crimean_War^Experien|Kırım Savaşı^Tecrübesi
 qstr_faction_technologies_phot|faction technologies photo crimeanwar
-qstr_Modern_Magazine^Rifl|Modern Magazine^Rifles
+qstr_Modern_Magazine^Rifl|Modern Jarjör^Tüfeği
 qstr_faction_technologies_photo|faction technologies photo riflesboltactionmodern
-qstr_Conversion_Breech_loa|Conversion Breech-loaded^Rifles
+qstr_Conversion_Breech_loa|Çevrilmiş Arkadan Yüklemeli^Tüfekler
 qstr_faction_technologies_photo_|faction technologies photo riflesconverted
-qstr_Infantry_Machine^Gun|Infantry Machine^Gun Tactics
+qstr_Infantry_Machine^Gun|Piyade Makineli^Tüfek Taktikleri
 qstr_faction_technologies_photo_i|faction technologies photo infantrymgtactics
 qstr_faction_technologies_photo_c|faction technologies photo coveringfire
 qstr_faction_technologies_photo_g|faction technologies photo gasattacks
-qstr_Converted_breech_loa|Converted breech-loaded rifles have several issues. They have big caliber, because of which during fast shooting the barrel heats up so much that it becomes hard to handle rifle during reload or melee fighting. Inserted breech-loading mechanisms are not perfect and often cause cartridge case to jam inside after shot, and being hard to get out. Next step in firearms rearmament should be adopting new breech-loaded rifle: it will have much smaller caliber than before, which will improve bullet ballistics, and will have improved breech-loading mechanism, that will further increase rate of fire by making reloading process easier.^^Effects: army changes it's firearms to small-caliber breech-loading rifles.
+qstr_Converted_breech_loa|Çevrilmiş arkadan yüklemeli tüfeklerin birkaç tane sorunu var.Kaliberleri çok yüksek , çok hızlı ateş ettiği için silah namlusu çok fazla ısınr ve silahı yeniden doldurmayı yada yakın dövüşü zorlaştırır.Takılan arkadan yüklemeli tüfek mekanizmaları mükemmel değildir ve bazen ateş edildikten sonra merminin kalan parçası içinde takılı kalır ve çıkarması zordur.Ateşli silahlardaki yeni adım arkadan yüklemeli tüfeği sahiplenmektir: kaliberi çok daha düşük olacağından mermi balistği daha iyi olacaktır ve arkadan yükleme mekanizmasıda çok daha iyi oalcaktır buda tekrar yükleme süresini düşürür ve kolaylaştırır.^^Etkileri : Ordu ateşli silahlarını düşük kaliberli arkadan yüklemeli tüfeklere çevirir.
 qstr_faction_technologies_photo_r|faction technologies photo riflessmallcaliber
 qstr_faction_technologies_photo_t|faction technologies photo tanks
-qstr_Skirmish_Line^Tactic|Skirmish Line^Tactics
+qstr_Skirmish_Line^Tactic|Çatışma Hattı^Taktikleri
 qstr_faction_technologies_photo_s|faction technologies photo skirmishline
-qstr_Light_Machine^Guns|Light Machine^Guns
+qstr_Light_Machine^Guns|Hafif Makineli^Tüfekler
 qstr_faction_technologies_photo_l|faction technologies photo lmgs
-qstr_Early_Magazine^Rifle|Early Magazine^Rifles
+qstr_Early_Magazine^Rifle|Erken Jarjörlü^Tüfekler
 qstr_faction_technologies_photo_ri|faction technologies photo riflesboltaction
-qstr_Breech_loaded^Cannon|Breech-loaded^Cannons
+qstr_Breech_loaded^Cannon|Arkadan Yüklemeli^Toplar
 qstr_faction_technologies_photo_ca|faction technologies photo cannonsbreechloading
 qstr_faction_technologies_photo_m|faction technologies photo machineguns
-qstr_Improved_Percussion^M|Improved Percussion^Mechanisms
+qstr_Improved_Percussion^M|Gelitirilmiş Perküsyon^Mekanizması
 qstr_faction_technologies_photo_la|faction technologies photo lateshells
 qstr_faction_technologies_photo_sh|faction technologies photo shocktroops
-qstr_Modern_Defence^Tacti|Modern Defence^Tactics
+qstr_Modern_Defence^Tacti|Modern Defans^Taktikleri
 qstr_faction_technologies_photo_mo|faction technologies photo moderndefence
-qstr___already_invested_| (already invested)
-qstr___already_researched| (already researched)
-qstr__Current_progress___| Current progress - {reg2}%.
-qstr_Cost___{reg0}_pounds|Cost - {reg0} pounds{s1}.^Available after {reg1} year.{s2}
-qstr_Select_Faction|Select Faction
-qstr_Start_Game|Start Game
-qstr_Chosen_Faction:^{s1}|Chosen Faction:^{s1}
-qstr_Select_flag_for_your|Select flag for your faction
-qstr_Peace_negotiations_w|Peace negotiations with {s1}
-qstr_Stop_Negotiations|Stop Negotiations
-qstr_Make_Peace|Make Peace
-qstr_Opposite_side_diplom|Opposite side diplomats^cannot agree with terms
-qstr_Current_winner:_{s1}|Current winner: {s1}
-qstr_War_reparations_amou|War reparations amount: {reg11} pounds
-qstr_Infamy_penalty:_{reg|Infamy penalty: {reg12}
-qstr_Cannot_claim_{s31}__|Cannot claim {s31} - it doesn't have supply routes to your faction.
-qstr_Diplomats_from_{s32}|Diplomats from {s32} refuse to give {s31} to the {s33}.
+qstr___already_invested_| (zaten yatırım yapılmış)
+qstr___already_researched| (zaten araştırlmış)
+qstr__Current_progress___| Mevcut İlerleme - {reg2}%.
+qstr_Cost___{reg0}_pounds|Cost - {reg0} pounds{s1}.^ {reg1} Yılından sonra araştırlabilir {s2}
+qstr_Select_Faction|Ülke Seç
+qstr_Start_Game|Oyuna Başla
+qstr_Chosen_Faction:^{s1}|Seçili Ülke:^{s1}
+qstr_Select_flag_for_your|Ülke bayrağını seç
+qstr_Peace_negotiations_w| {s1}'yla barış Görüşmelerine Başla
+qstr_Stop_Negotiations|Barış Görüşmelerini Bitir
+qstr_Make_Peace|Barış Yap
+qstr_Opposite_side_diplom|Karşı tarafın diplomatları bunu^kabul edemez.
+qstr_Current_winner:_{s1}|Şuan Kazanan: {s1}
+qstr_War_reparations_amou|Savaş Tazminatı: {reg11} pound
+qstr_Infamy_penalty:_{reg|Şöhrete Verilen Zarar: {reg12}
+qstr_Cannot_claim_{s31}__|Talep Edilemez{s31} - Ülkenize tedarik yolu yok
+qstr_Diplomats_from_{s32}| {s32} 'dan diplomatlar size {s31}'nı vermeyi red ediyor {s33}.
 qstr_{s1}|{s1}
-qstr_Executive_Branch_Com|Executive Branch Composition 
-qstr_Not_a_ruling_party.^|Not a ruling party.^Click to make this party^ a ruling party.
-qstr_Upper_Class___Aristo|Upper Class - Aristocracy
-qstr_Upper_Class___Bourge|Upper Class - Bourgeoisie
-qstr_Middle_Class|Middle Class
-qstr_Lower_Class___Urban|Lower Class - Urban
-qstr_Lower_Class___Rural|Lower Class - Rural
-qstr_Loyalty_to_parties:|Loyalty to parties:
-qstr_Wealth:_{reg1}%|Wealth: {reg1}%
-qstr_Satisfaction_with_ne|Satisfaction with needs: {reg2}%
-qstr_Political_activity:_|Political activity: {reg3}%
-qstr_State_Laws:|State Laws:
-qstr_Nomination_Rules|Nomination Rules
-qstr_Upper_Class_Only|Upper Class Only
-qstr_Universal|Universal
-qstr_Vote_Franchise|Vote Franchise
-qstr_Aristocracy_Only|Aristocracy Only
-qstr_Upper_and_Middle_Cla|Upper and Middle Class Only
-qstr_Universal_Weighted|Universal Weighted
-qstr_Voting_System|Voting System
-qstr_Ruling_Party_Influen|Ruling Party Influence
-qstr_Non_secret_Ballot|Non-secret Ballot
-qstr_Secret_Ballot|Secret Ballot
-qstr_Press_Censorship|Press Censorship
-qstr_State_Press|State Press
-qstr_Heavy_Censorship|Heavy Censorship
-qstr_Light_Censorship|Light Censorship
-qstr_Free_Press|Free Press
-qstr_Executive_Branch_Ele|Executive Branch Elective Posts
-qstr_Selected_by_State|Selected by State
-qstr_Partially_Elected|Partially Elected
-qstr_Mostly_Elected|Mostly Elected
-qstr_Military_Service_Ter|Military Service Term
-qstr_Short|Short
-qstr_Medium|Medium
-qstr_Long|Long
-qstr_Production_Safety_Re|Production Safety Regulations
-qstr_Minimum_Wage|Minimum Wage
-qstr_Trade_Unions|Trade Unions
-qstr_Public_Meetings|Public Meetings
-qstr_Income_tax:_{reg10}%|Income tax: {reg10}%
-qstr_Goods_and_Services_t|Goods and Services tax: {reg10}%
-qstr_Import/Export_tax:_{|Import/Export tax: {reg11}%/{reg12}%
-qstr_Military_Expenses:_{|Military Expenses: {reg10}%
-qstr_Education_Expenses:_|Education Expenses: {reg10}%
-qstr_Infrastructure_Expen|Infrastructure Expenses: {reg10}%
-qstr_Healthcare_Expenses:|Healthcare Expenses: {reg10}%
-qstr_Slot:_not_selected|Slot: not selected
-qstr_Party:_not_selected|Party: not selected
-qstr_Party:_{reg1}___{s1}|Party: {reg1} - {s1}
+qstr_Executive_Branch_Com|Yönetici Kompozisyonu
+qstr_Not_a_ruling_party.^|Yönetici Parti Değil.^Bu partiyi yönetici yapmak için^tıklayın.
+qstr_Upper_Class___Aristo|Üst Sınıf - aristokrasi
+qstr_Upper_Class___Bourge|Üst Sınıf - burjuvazi
+qstr_Middle_Class|Orta Sınıf
+qstr_Lower_Class___Urban|Alt Sınıf - Kentsel
+qstr_Lower_Class___Rural|Alt Sınıf - Kırsal
+qstr_Loyalty_to_parties:|Partilere bağlılık:
+qstr_Wealth:_{reg1}%|Servet: {reg1}%
+qstr_Satisfaction_with_ne|İhtiyaçlarının karşılanması: {reg2}%
+qstr_Political_activity:_|Siyası aktiflik: {reg3}%
+qstr_State_Laws:|Devlet Yasaları:
+qstr_Nomination_Rules|Seçilme Yasası
+qstr_Upper_Class_Only|Sadece Üst Sınıf
+qstr_Universal|Evrensel
+qstr_Vote_Franchise|Oy hakkı
+qstr_Aristocracy_Only|Sadece Aristokrasi
+qstr_Upper_and_Middle_Cla|Sadece Üst ve Orta Sınıf
+qstr_Universal_Weighted|Evrensel Ağırlıklı
+qstr_Voting_System|Oy Sistemi
+qstr_Ruling_Party_Influen|İktidar Parti Etkisi
+qstr_Non_secret_Ballot|Açık Oy
+qstr_Secret_Ballot|Gizli Oy
+qstr_Press_Censorship|Sensör Uygula
+qstr_State_Press|Devlet Basını
+qstr_Heavy_Censorship|Ağır Sensör
+qstr_Light_Censorship|Hafif Sensör
+qstr_Free_Press|Özgür Basın
+qstr_Executive_Branch_Ele|Yöneticiler
+qstr_Selected_by_State|Devlet Tarafından Seçilen
+qstr_Partially_Elected|Kısmen Seçilen
+qstr_Mostly_Elected|Çoğunlukla Seçilen
+qstr_Military_Service_Ter|Askerlik Süresi
+qstr_Short|Kısa
+qstr_Medium|Orta
+qstr_Long|Uzun
+qstr_Production_Safety_Re|Üretim Güvenliği Yönetmelikleri
+qstr_Minimum_Wage|Askari Ücret
+qstr_Trade_Unions|Sendikalar
+qstr_Public_Meetings|Halka Açık Toplantılar
+qstr_Income_tax:_{reg10}%|Gelir Vergisi: {reg10}%
+qstr_Goods_and_Services_t|Ürün ve Servis Vergisi: {reg10}%
+qstr_Import/Export_tax:_{|İhracat/İthalat Vergisi: {reg11}%/{reg12}%
+qstr_Military_Expenses:_{|Ordu Harcamaları: {reg10}%
+qstr_Education_Expenses:_|Eğitim Harcamaları: {reg10}%
+qstr_Infrastructure_Expen|Altyapı Harcamaları : {reg10}%
+qstr_Healthcare_Expenses:|Sağlık Harcamaları : {reg10}%
+qstr_Slot:_not_selected|Slot:seçilmemiş
+qstr_Party:_not_selected|Parti:seçilmemiş
+qstr_Party:_{reg1}___{s1}|Parti: {reg1} - {s1}
 qstr_{reg1}|{reg1}
 qstr_N_A|N A
 qstr_Slot:_{reg1}|Slot: {reg1}
 qstr_JUST_MONIKA_JUST_MON|JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^
 qstr_monika1|monika1
 qstr_00|00
-qstr_{reg1}.{s2}{reg2}_mi|{reg1}.{s2}{reg2} millions of population
-qstr_Literacy_is_{reg1}.{|Literacy is {reg1}.{reg2}%
-qstr_Urbanization_is_{reg|Urbanization is {reg1}.{reg2}%
-qstr_Daily_GDP_is_{reg1}_|Daily GDP is {reg1} pounds.
-qstr_{reg1}_craftsmen_{re|{reg1} craftsmen, {reg2} of which are employed^in mass production, and {reg3} are^occupied in handicraft production.
-qstr_Region_of_{s1}|Region of {s1}
-qstr_Resource_Menu|Resource Menu
-qstr_X_thousands_of_popul|X thousands of population
-qstr_Literacy_is_X%|Literacy is X%
-qstr_Urbanization_is_X%|Urbanization is X%
+qstr_{reg1}.{s2}{reg2}_mi|{reg1}.{s2}{reg2} Milyonlarca Popülasyon
+qstr_Literacy_is_{reg1}.{|Okuma Yazma Oranı {reg1}.{reg2}%
+qstr_Urbanization_is_{reg|Kentselleşme {reg1}.{reg2}%
+qstr_Daily_GDP_is_{reg1}_|Günlük GDP {reg1} pound.
+qstr_{reg1}_craftsmen_{re|{reg1} zanaatkar,ve {reg2} bukadarı^çalışıyor, ve {reg3} el^sanatları üretiminde meşgul.
+.
+qstr_Region_of_{s1}| {s1}'Böglesi
+qstr_Resource_Menu|Kaynak Menüsü
+qstr_X_thousands_of_popul|X Binlerce Popülasyon
+qstr_Literacy_is_X%|Okur Yazarlık oranı X%
+qstr_Urbanization_is_X%|Kentselleşme Oranı X%
 qstr__+| +
-qstr_Balance_change:{s1}{|Balance change:{s1}{reg10} pounds.
-qstr_BUY|BUY
-qstr_SELL|SELL
-qstr_Balance_change:_+0_p|Balance change: +0 pounds.
-qstr_Manage_share__Now_is|Manage share (Now is {reg10})%.
-qstr_Not_enough_money.|Not enough money.
-qstr_Price_history_chart:|Price history chart:
-qstr_Country|Country
-qstr_Supply|Supply
-qstr_Demand|Demand
-qstr_Number_of^Factories|Number of^Factories
-qstr_Quality|Quality
+qstr_Balance_change:{s1}{|Bakiye Değişimi:{s1}{reg10} pounds.
+qstr_BUY|AL
+qstr_SELL|SAT
+qstr_Balance_change:_+0_p|Bakiye Değişimi: +0 pounds.
+qstr_Manage_share__Now_is|hisselerini yönet (Şuan {reg10})%.
+qstr_Not_enough_money.|Yeterince Para yok.
+qstr_Price_history_chart:|Fiyat Çizergesi:
+qstr_Country|Ülke
+qstr_Supply|Arz
+qstr_Demand|Talep
+qstr_Number_of^Factories|Fabrika^Sayısı
+qstr_Quality|Kalite
 qstr_GDP|GDP
-qstr_Population|Population
-qstr_Literacy|Literacy
-qstr_Urbanization|Urbanization
-qstr_Select_factory_to_bu|Select factory to build:
-qstr_Your_current_balance|Your current balance is {reg10} pounds.
-qstr_Initial_Capital:_500|Initial Capital: 50000 pounds.
-qstr_*Rest_of_initial_bud|*Rest of initial budget will be found via investitions.^Speed of funding depends on region and country.
-qstr_Start_Enterprise|Start Enterprise
+qstr_Population|Popülasyon
+qstr_Literacy|Okur Yazarlık
+qstr_Urbanization|Kentselleşme
+qstr_Select_factory_to_bu|İnşa Edilecek Fabrikayı Seç:
+qstr_Your_current_balance|Şuanki Bakiyen {reg10} pound.
+qstr_Initial_Capital:_500|Sermaye: 50000 pound.
+qstr_*Rest_of_initial_bud|* bütçenin geri kalanı araştırmalar yoluyla bulunacak.^Finanse edilme hızı ülkeye ve bölgeye göre değişir.
+qstr_Start_Enterprise|Girişim Başlat
 qstr_pes_region_factoryca|pes region factorycard2
 qstr_{s3}|{s3}
 qstr_{s2}|{s2}
-qstr_Same_type_of_factory|Same type of factory does already exist in this town.
-qstr_Initial_Capital:_{re|Initial Capital: {reg10} pounds.
+qstr_Same_type_of_factory|Aynı tip fabrika zaten bu şehirde var.
+qstr_Initial_Capital:_{re|Sermaye: {reg10} pound.
 qstr_vSeason|vSeason
 qstr_{s1}_of_{s3}_was_def|{s3} {s1}ı yenildi, ama kaçmayı başardı.
 qstr_{s54}_is_a_claimant_|{s54}, {s56} tahtında hak talep ediyor.
@@ -351,30 +352,30 @@ qstr_Has_second_barrel__p|Has second barrel (press action^key while aiming to fi
 qstr_Uses_pistol_cartridg|Uses pistol cartridges
 qstr_Smoothbore_musket|Smoothbore musket
 qstr_Rifled_musket|Rifled musket
-qstr_Converted_breech_load|Converted breech loaded rifle
-qstr_Modern_breech_loaded|Modern breech loaded rifle
-qstr_Smoothbore_pistol|Smoothbore pistol
-qstr_Revolver__6_rounds_|Revolver (6 rounds)
-qstr_Pocket_Revolver__6_r|Pocket Revolver (6 rounds)
-qstr_Self_Loading_Pistol_|Self-Loading Pistol (8 rounds)
-qstr_Revolver__9_rounds_|Revolver (9 rounds)
-qstr_Pump_shotgun__6_roun|Pump shotgun (6 rounds)
-qstr_Shotgun__2_rounds_|Shotgun (2 rounds)
-qstr_Lever_action_shotgun|Lever action shotgun (6 rounds)
-qstr_Lever_action_shotgun_|Lever action shotgun (1 round)
-qstr_Bolt_action_magazine|Bolt-action magazine rifle (5 rounds)
-qstr_Straight_pull_bolt_a|Straight-pull bolt-action^magazine rifle (5 rounds)
-qstr_Bolt_action_magazine_|Bolt-action magazine rifle (4 rounds)
-qstr_Bolt_action_magazine_r|Bolt-action magazine rifle (8 rounds)
-qstr_Bolt_action_magazine_ri|Bolt-action magazine rifle (10 rounds)
-qstr_Pocket_Pistol__6_rou|Pocket Pistol (6 rounds)
-qstr_Pocket_Pistol__4_rou|Pocket Pistol (4 rounds)
-qstr_Breech_loaded_rifle|Breech loaded rifle
-qstr_Lever_action_magazin|Lever action magazine rifle (8 rounds)
-qstr_Lever_action_magazine|Lever action magazine rifle (5 rounds)
-qstr_Lever_action_magazine_|Lever action magazine rifle (9 rounds)
-qstr_Lever_action_magazine_r|Lever action magazine rifle (16 rounds)
-qstr_Lever_action_magazine_ri|Lever action magazine rifle (7 rounds)
+qstr_Converted_breech_load|Çevrilmiş arkadan yüklemeli tüfek
+qstr_Modern_breech_loaded|Modern arkadan yüklemeli tüfek
+qstr_Smoothbore_pistol|Smoothbore tabanca
+qstr_Revolver__6_rounds_|altı patlar (6 mermi)
+qstr_Pocket_Revolver__6_r|cep altı patları(6 mermi)
+qstr_Self_Loading_Pistol_|Kendinden Yüklemeli Tabanca (8 mermi)
+qstr_Revolver__9_rounds_|Dokuz Patlar (9 mermi)
+qstr_Pump_shotgun__6_roun|Pompalı tüfek (6 mermi)
+qstr_Shotgun__2_rounds_|Pompalı tüfek (2 mermi)
+qstr_Lever_action_shotgun|Levyeli aksiyon tüfeği (6 mermi)
+qstr_Lever_action_shotgun_|Levyeli aksiyon tüfeği (1 mermi)
+qstr_Bolt_action_magazine|Sürgülü jarjörlü aksiyon tüfeği (5 mermi)
+qstr_Straight_pull_bolt_a|Düz çekmeli sürgülü jarjörlü aksiyon^tüfeği (5 mermi)
+qstr_Bolt_action_magazine_|Sürgülü jarjörlü aksiyon tüfeğ (4 mermi)
+qstr_Bolt_action_magazine_r|Sürgülü jarjörlü aksiyon tüfeğ (8 mermi)
+qstr_Bolt_action_magazine_ri|Sürgülü jarjörlü aksiyon tüfeğ(10 mermi)
+qstr_Pocket_Pistol__6_rou|Cep tabancası (6 mermi)
+qstr_Pocket_Pistol__4_rou|Cep tabancası (4 mermi)
+qstr_Breech_loaded_rifle|Arkadan yüklemeli tüfek
+qstr_Lever_action_magazin|Levyeli aksiyon tüfeği (8 mermi)
+qstr_Lever_action_magazine|Levyeli jarjörlü aksiyon tüfeği(5 mermi)
+qstr_Lever_action_magazine_|Levyeli jarjrölü aksiyon tüfeği (9 mermi)
+qstr_Lever_action_magazine_r|Levyeli jarjörlü aksiyon tüfeği(16 mermi)
+qstr_Lever_action_magazine_ri|Levyeli jarjörlü aksiyon tüfeği(7 mermi)
 qstr_+{reg1}_to_party_mor|Grup moraline +{reg1}
 qstr_Requires_{reg1}_inte|Okumak için {reg1} zekâ gerekir.
 qstr_Reading_Progress:_{r|Okuma süreci: %{reg1}
@@ -494,18 +495,18 @@ qstr_You_lose_right_to_ru|Yönetme hakkını kaybettin
 qstr_Added_money_for_your|Added money for your old horse
 qstr_debug_game_missile_l|debug game missile launch begin
 qstr_debug_game_missile_la|debug game missile launch end
-qstr_Line_Infantry_Compan|Line Infantry Company
-qstr_Light_Infantry_Compa|Light Infantry Company
-qstr_Guard_Infantry_Compa|Guard Infantry Company
-qstr_Cavalry_Squadron|Cavalry Squadron
-qstr_Mounted_Rifles_Squad|Mounted Rifles Squadron
-qstr_Cavalry_Guard_Squadr|Cavalry Guard Squadron
-qstr_Field_Guns_Battery|Field Guns Battery
-qstr_Howitzers_Battery|Howitzers Battery
-qstr_Heavy_Howitzers_Batt|Heavy Howitzers Battery
-qstr_Machine_Guns_Crew|Machine Guns Crew
-qstr_Shock_Troops_Company|Shock Troops Company
-qstr_Armor_Squadron|Armor Squadron
+qstr_Line_Infantry_Compan|Hafif Piyade Bölüğü
+qstr_Light_Infantry_Compa|Hafif Piyade Bölüğü
+qstr_Guard_Infantry_Compa|Muhafız Piyade Bölüğü
+qstr_Cavalry_Squadron|Süvari Birliği
+qstr_Mounted_Rifles_Squad|Atlı Silahtar Birliği
+qstr_Cavalry_Guard_Squadr|Muhafiz Süvari Birliği
+qstr_Field_Guns_Battery|Top Bataryası
+qstr_Howitzers_Battery|Havan Topu Bataryası
+qstr_Heavy_Howitzers_Batt|Ağır Havan Topu Bataryası
+qstr_Machine_Guns_Crew|Makineli Tüfek Birliği
+qstr_Shock_Troops_Company|Şok Askeri
+qstr_Armor_Squadron|Zırhlı Birlik
 qstr__I.| I.
 qstr_L.I.|L.I.
 qstr__G.| G.
@@ -518,166 +519,166 @@ qstr_H.H.|H.H.
 qstr_M.G.|M.G.
 qstr_S.I.|S.I.
 qstr_A.|A.
-qstr_Cannot_form_square:_t|Cannot form square: too few soldiers (need at least 25).
+qstr_Cannot_form_square:_t|Kare Formasyonuna geçilemiyor:Yetersiz Asker (En Az 25 Gerekli).
 qstr_1_{reg1}|1 {reg1}
 qstr_flag1_0|flag1 0
-qstr_{s31}_created_a_casu|{s31} created a casus belli for {s32} for {reg10} days.
-qstr_{s31}_s_infamy_is_in|{s31}'s infamy is increased by {reg10} and is now {reg11}.
-qstr_{s31}_s_infamy_is_de|{s31}'s infamy is decreased by {reg10} and is now {reg11}.
+qstr_{s31}_created_a_casu|{s31} {s32} için {reg10} günlük casus belli oluşturdu.
+qstr_{s31}_s_infamy_is_in|{s31}'nın Kötü Şöhreti Arttı {reg10} ve Şimdi{reg11}.
+qstr_{s31}_s_infamy_is_de|{s31}'nın Kötü Şöhreti Düştü ve {reg10} Şimdi {reg11}.
 qstr_Belongs_to_{s31}|Belongs to {s31}
-qstr_Controlled_by_{s31}^|Controlled by {s31}^Belongs to {s32}
-qstr_{s31}_becomes_an_all|{s31} becomes an ally of {s32}.
-qstr_{s31}_breaks_an_alli|{s31} breaks an alliance with {s32}.
-qstr_Absolute_Monarchy|Absolute Monarchy
+qstr_Controlled_by_{s31}^|{s31}^Tarafından Kontrol Ediliyor {s32}'un
+qstr_{s31}_becomes_an_all|{s31} ile {s32} müttefik oldu.
+qstr_{s31}_breaks_an_alli|{s31} ile {s32} müttefikliğini bozdu.
+qstr_Absolute_Monarchy|Mutlak monarşi
 qstr_Constitutional_Monar|Constitutional Monarchy
-qstr_Republic|Republic
-qstr_Parliament_Compositi|Parliament Composition
+qstr_Republic|Cumhuriyet
+qstr_Parliament_Compositi|Meşruyet
 qstr_{s1}:_{reg1}%|{s1}: {reg1}%
-qstr_Ruling_party|Ruling party
-qstr_Influence:_{reg1}%|Influence: {reg1}%
-qstr_Annual_Income:_{reg1|Annual Income: {reg1}.{reg10} p.
-qstr_Corruption_level:_{r|Corruption level: {reg10}%
+qstr_Ruling_party|Yönetici Parti
+qstr_Influence:_{reg1}%|Nüfuz: {reg1}%
+qstr_Annual_Income:_{reg1|Yıllık gelir: {reg1}.{reg10} p.
+qstr_Corruption_level:_{r|Yolsuzluk seviyesi: {reg10}%
 qstr_+{reg10}_pounds|+{reg10} pounds
-qstr_Goods_and_services_t|Goods and services tax: {reg10}%
-qstr__{reg10}_pounds|-{reg10} pounds
-qstr_Public_servants_wage|Public servants wage expenses:^-{reg10} pounds
-qstr_Lost_from_corruption|Lost from corruption: -{reg10} pounds
-qstr_Last_budget_change:^|Last budget change:^{reg10} pounds
+qstr_Goods_and_services_t|Mal Ve Servis Vergisi : {reg10}%
+qstr__{reg10}_pounds|-{reg10} pound
+qstr_Public_servants_wage|Kamu görevlilerinin ücret giderleri:^-{reg10} pound
+qstr_Lost_from_corruption|Yolsuzluk yüzünden kaybedilen : -{reg10} pound
+qstr_Last_budget_change:^|En Son Bütçe Değişikliği :^{reg10} pound
 qstr_PPS_Faction_iteratio|PPS Faction iteration of {s1}.
 qstr_Center_iteration_of_|Center iteration of {s1}.
 qstr_{s1}_s_{s2}_Iteratio|{s1}'s {s2} Iteration:
-qstr_price_item_{s1}_raw_|price item {s1} raw resource1 {reg10} raw resource1 amount {reg11} output size {reg12}.
-qstr_Produced_{reg10}_wit|Produced {reg10} with {reg20} workers, raw resources multiplier was {reg30}.
-qstr_Spent_{reg10}_pounds|Spent {reg10} pounds for wage.
+qstr_price_item_{s1}_raw_|öğenin fiyatı {s1} raw resource1 {reg10} raw resource1 amount {reg11} output size {reg12}.
+qstr_Produced_{reg10}_wit| {reg20}İşçiyle {reg10} üretildi ham kaynak çarpanı {reg30}'du.
+qstr_Spent_{reg10}_pounds| {reg10} pound Maaş için harcandı.
 qstr_Searching_for_{s1}_i|Searching for {s1} in {reg10} centers.
-qstr_{s1}_has_{reg10}_of_|{s1} has {reg10} of {s2}.
-qstr_In_sum_bought_{reg1}|In sum, bought {reg1}/{reg10} of {s1}.
-qstr_Workers_unemployed__|Workers unemployed - {reg1}, employed {reg2} workers.
-qstr_{reg1}_thousands_of_|{reg1} thousands of population
-qstr_Daily_GDP_is_{reg1}_p|Daily GDP is {reg1} pounds^({reg2}% of {s1}'s economy).
-qstr_This_region_produces|This region produces increased amount of {s2}.
-qstr_Add_Workplaces^^Buyi|Add Workplaces^^Buying more equipment will increase^number of workplaces.
-qstr_Improve_Worker_Condi|Improve Worker Conditions^^Improving working conditions means inceasing^worker wage, improving production safety and,^in the end, introducing social benefits to workers.^This will increase quality of product^and increase factory attractiveness^for potential workers.
-qstr_Improve_Equipment^^T|Improve Equipment^^Thorough maintaining and improving factory^equipment increases quality of product, making^it more likely to be sold.
+qstr_{s1}_has_{reg10}_of_|{s1} var {reg10} nin {s2}.
+qstr_In_sum_bought_{reg1}|özetle satın alındı {reg1}/{reg10} nin {s1}.
+qstr_Workers_unemployed__|İşsiz İşçi - {reg1}, çalışan {reg2} işçi.
+qstr_{reg1}_thousands_of_|{reg1} binlerce popüasyon
+qstr_Daily_GDP_is_{reg1}_p|Günlük GDP {reg1} pound^({reg2}% nin {s1}'nun ekonomisi).
+qstr_This_region_produces|Bu bölge yükseltilmiş miktarda {s2} üretir.
+qstr_Add_Workplaces^^Buyi|Çalışma alanı ekle^^Daha fazla ekipman almak ^çalışma alanları sayısını yükseltir.
+qstr_Improve_Worker_Condi|İşçi durumunu iyileştir^^İşçi durumunu iyileştirmek maaşı artırmak demektir^üretim güvenliğini artırır ve ^ işçilere sosyal avantaj sağlar^Bu Ürünün Kalitesini Artırır^ve potensiyal işçiler için ve fabrika çekiciliğini artırır.
+qstr_Improve_Equipment^^T|Ekipmanı Geliştir^^Fabrikanın kapsamlı bakımı ve iyileştirilmesi^ekipman, ürünün kalitesini artırır sonuç olarak^satılma olasılığı artar.
 qstr_No_development_mode.|No development mode.
-qstr_{reg10}/{reg11}_work|{reg10}/{reg11} workers
-qstr_Budget:_{reg10}_poun|Budget: {reg10} pounds.
-qstr_Income:_{reg10}_poun|Income: {reg10} pounds.
-qstr_Spent_{reg10}_pounds_|Spent {reg10} pounds and earnt {reg11} pounds.
-qstr_Managed_to_buy_{reg1|Managed to buy {reg10}% of needed raw resources^needed for production.
-qstr_Produced_{reg10}.{re|Produced {reg10}.{reg12} {s1} (sold {reg11}%).
-qstr_Quality_of_product_i|Quality of product is {reg10}%.
-qstr_Engineers_percentage|Engineers percentage is {reg10}%.
-qstr_Deterioration_of_mac|Deterioration of machine tools is {reg10}%.
-qstr_bad|bad
-qstr_medium|medium
-qstr_good|good
-qstr_exellent|exellent
-qstr_Worker_wage_is_{s1};|Worker wage is {s1}; Working conditions are {s2}.
+qstr_{reg10}/{reg11}_work|{reg10}/{reg11} işçi.
+qstr_Budget:_{reg10}_poun|Bütçe: {reg10} pound.
+qstr_Income:_{reg10}_poun|Gelir: {reg10} pound.
+qstr_Spent_{reg10}_pounds_|Harcanan {reg10} pound ve {reg11} pound kazandı.
+qstr_Managed_to_buy_{reg1| Üretim için gerekli Materyallerin yüzde {reg10}% alındı^needed for production.
+qstr_Produced_{reg10}.{re|Üretildi {reg10}.{reg12} {s1} (sold {reg11}%).
+qstr_Quality_of_product_i|Ürünün Kalitesi {reg10}%.
+qstr_Engineers_percentage|Mühendis Yüzdesi{reg10}%.
+qstr_Deterioration_of_mac|Makine Aletlerinin bozulması{reg10}%.
+qstr_bad|kötü
+qstr_medium|orta
+qstr_good|iyi
+qstr_exellent|mükemmel
+qstr_Worker_wage_is_{s1};|İşçi Maaşı {s1}; Çalışma Şartları{s2}.
 qstr_Select_development_m|Select development mode:
 qstr_Set_workers_wage_lev|Set workers wage level:
 qstr_Sell_factory__{reg10|Sell factory ({reg10} pounds)
 qstr_Building^{s1}^_{reg1|Building^{s1}^({reg10}%)
 qstr_pes_region_factory_p|pes region factory photo notavailable
 qstr_pes_region_factory_ph|pes region factory photo empty
-qstr_Steel_Factory|Steel Factory
+qstr_Steel_Factory|Çelik Fabrikası
 qstr_pes_region_factory_pho|pes region factory photo steel
-qstr_Ammunition_Factory|Ammunition Factory
+qstr_Ammunition_Factory|Mühimmat Fabrikası
 qstr_pes_region_factory_phot|pes region factory photo ammunition
-qstr_Lumber_Mill|Lumber Mill
+qstr_Lumber_Mill|Kereste Fabrikası
 qstr_pes_region_factory_photo|pes region factory photo timber
-qstr_Machinery_Parts_Plan|Machinery Parts Plant
+qstr_Machinery_Parts_Plan|Makine Parçası tesisi
 qstr_pes_region_factory_photo_|pes region factory photo machineparts
-qstr_Cotton_Mill|Cotton Mill
+qstr_Cotton_Mill|Pamuklu dokuma Fabrikası
 qstr_pes_region_factory_photo_f|pes region factory photo fabric
-qstr_Paper_Mill|Paper Mill
+qstr_Paper_Mill|Kâğıt fabrikası
 qstr_pes_region_factory_photo_p|pes region factory photo paper
-qstr_Construction_Materia|Construction Materials^Factory
-qstr_Construction_Material|Construction Materials Factory
+qstr_Construction_Materia|İnşaat Malzemesi^Fabrikası
+qstr_Construction_Material|İnşaat Malzemesi Fabrikası
 qstr_pes_region_factory_photo_c|pes region factory photo constructionmaterials
-qstr_Weaponry_Factory|Weaponry Factory
+qstr_Weaponry_Factory|Silah Fabrikası
 qstr_pes_region_factory_photo_w|pes region factory photo weaponry
-qstr_Military_Supplies^Fa|Military Supplies^Factory
-qstr_Military_Supplies_Fa|Military Supplies Factory
+qstr_Military_Supplies^Fa|Askeri Erzak^Fabrikası
+qstr_Military_Supplies_Fa|Askeri Erzak Fabrikası
 qstr_pes_region_factory_photo_m|pes region factory photo militarysupplies
-qstr_Clothing_Factory|Clothing Factory
+qstr_Clothing_Factory|Kıyafet Fabrikası
 qstr_pes_region_factory_photo_cl|pes region factory photo clothes
-qstr_Furniture_Factory|Furniture Factory
+qstr_Furniture_Factory|Mobilya fabrikası
 qstr_pes_region_factory_photo_fu|pes region factory photo furniture
-qstr_tons_of_steel|tons of steel
+qstr_tons_of_steel|ton çelik
 qstr_ammunition|ammunition
-qstr_tons_of_timber|tons of timber
-qstr_tons_of_lumber|tons of lumber
-qstr_weapons|weapons
-qstr_clothings|clothings
-qstr_tons_of_coal|tons of coal
-qstr_tons_of_iron|tons of iron
-qstr_tons_of_constr._mate|tons of constr. materials
-qstr_kilograms_of_cotton|kilograms of cotton
-qstr_kilograms_of_fabric|kilograms of fabric
-qstr_pieces_of_furniture|pieces of furniture
-qstr_machine_parts|machine parts
-qstr_tons_of_military_sup|tons of military supplies
-qstr_kilograms_of_paper|kilograms of paper
-qstr_tons_of_meat|tons of meat
-qstr_tons_of_flour|tons of flour
-qstr_{reg12}_{s3}_has_bou|{reg12} {s3} has bought {reg10} {s1} from {s4} for {reg11}.
-qstr_{s1}_s_{s2}_decided_|{s1}'s {s2} decided to fire {reg10} workers.
-qstr_Population_of_{s1}_i|Population of {s1} is buying resources. Literacy {reg10}, population {reg11}, urbanization {reg12}.
+qstr_tons_of_timber|ton kerestelik ağaç
+qstr_tons_of_lumber|ton kereste
+qstr_weapons|silahlar
+qstr_clothings|kıyafetler
+qstr_tons_of_coal|ton kömür
+qstr_tons_of_iron|ton demir
+qstr_tons_of_constr._mate|ton inşaat malzemesi
+qstr_kilograms_of_cotton|kilo pamuk
+qstr_kilograms_of_fabric|kilo kumaş
+qstr_pieces_of_furniture|mobilya parçaları
+qstr_machine_parts|makine parçaları
+qstr_tons_of_military_sup|ton askeri erzak
+qstr_kilograms_of_paper|kilo kağıt
+qstr_tons_of_meat|ton et
+qstr_tons_of_flour|ton un
+qstr_{reg12}_{s3}_has_bou|{reg12} {s3} aldı {reg10} {s1} tarafından {s4} için{reg11}.
+qstr_{s1}_s_{s2}_decided_|{s1}'s {s2} {reg10} bukadar işçi atmaya karar verdi.
+qstr_Population_of_{s1}_i|{s1}'nun popülasyonu kaynak alıyor. eğitim {reg10}, popülasyon {reg11}, kentselleşme{reg12}.
 qstr_Steel|Steel
-qstr_Ammunition|Ammunition
-qstr_Lumber|Lumber
-qstr_Wood|Wood
-qstr_Weaponry|Weaponry
-qstr_Clothes|Clothes
-qstr_Coal|Coal
-qstr_Iron|Iron
-qstr_Construction_materia|Construction materials
-qstr_Cotton|Cotton
-qstr_Fabric|Fabric
-qstr_Furniture|Furniture
-qstr_Machine_parts|Machine parts
-qstr_Military_supplies|Military supplies
-qstr_Paper|Paper
-qstr_Meat|Meat
-qstr_Flour|Flour
-qstr_Price___{reg10}.{reg|Price - {reg10}.{reg11} pounds
-qstr_Supply___{reg11}.{re|Supply - {reg11}.{reg12} {s1}
-qstr_Demand___{reg11}.{re|Demand - {reg11}.{reg12} {s1}
+qstr_Ammunition|Mühimmat
+qstr_Lumber|Kerestelik odun
+qstr_Wood|Odun
+qstr_Weaponry|Silahlar
+qstr_Clothes|Kıyafetler
+qstr_Coal|Kömür
+qstr_Iron|Demir
+qstr_Construction_materia|İnşaat Materyali
+qstr_Cotton|Pamuk
+qstr_Fabric|Kumaş
+qstr_Furniture|Mobilya
+qstr_Machine_parts|Makine parçaları
+qstr_Military_supplies|Askeri erzak
+qstr_Paper|Kağıt
+qstr_Meat|Et
+qstr_Flour|Un
+qstr_Price___{reg10}.{reg|Fiyat- {reg10}.{reg11} pound
+qstr_Supply___{reg11}.{re|Arz - {reg11}.{reg12} {s1}
+qstr_Demand___{reg11}.{re|Talep - {reg11}.{reg12} {s1}
 qstr_{reg10}._{s1}|{reg10}. {s1}
 qstr_{reg10}.{reg11}|{reg10}.{reg11}
 qstr____| - 
 qstr_{reg10}%|{reg10}%
-qstr_handicraft^only|handicraft^only
+qstr_handicraft^only|sadece el işi
 qstr_{reg10}k_p.|{reg10}k p.
 qstr_{reg10}_p.|{reg10} p.
 qstr_{reg10}_mil.|{reg10} mil.
 qstr_{reg10}_th.|{reg10} th.
 qstr_{reg10}.{reg11}%|{reg10}.{reg11}%
 qstr_{s1}_produced_{reg10|{s1} produced {reg10} {s2}.
-qstr_Produces_steel_out^o|Produces steel out^of iron and coal.
-qstr_Produces_ammunition_|Produces ammunition out^of steel.
-qstr_Produces_lumber_out^|Produces lumber out^of wood.
-qstr_Produces_weaponry_ou|Produces weaponry out^of steel and lumber.
-qstr_Produces_clothes_out|Produces clothes out^of fabric.
-qstr_Produces_constructio|Produces construction^materials out of steel and coal.
-qstr_Produces_fabric_out^|Produces fabric out^ of cotton.
-qstr_Produces_furniture_o|Produces furniture out^ of lumber.
-qstr_Produces_machine_par|Produces machine parts out^ of steel and coal.
-qstr_Produces_military_su|Produces military supplies out^ of steel and fabric.
-qstr_Produces_paper_out^_|Produces paper out^ of wood.
-qstr_Produced_{reg2}_{s1}|Produced {reg2} {s1} with {reg11} artisans, raw resources multiplier was {reg12}.
+qstr_Produces_steel_out^o|Demir Ve Kömürden^Çelik Üretir.
+qstr_Produces_ammunition_|Çeliktent^Mühimmat üretir.
+qstr_Produces_lumber_out^|Odundan^Kereste Üretir.
+qstr_Produces_weaponry_ou|Çelik Ve Keresteden^Demir üretir.
+qstr_Produces_clothes_out|Kumaştan^Kıyafet üretir.
+qstr_Produces_constructio|Çelik ve kömürden^İnşaat malzemesi üretir.
+qstr_Produces_fabric_out^|Pamuktan^Kumaş üretir.
+qstr_Produces_furniture_o|Keresteden^Mobilya üretir.
+qstr_Produces_machine_par|Çelik ve kömürden^Makine parçaları üretir.
+qstr_Produces_military_su|Çelik ve kumaştan^Askeri erzak üretir.
+qstr_Produces_paper_out^_|Odundan^Kağıt üretir.
+qstr_Produced_{reg2}_{s1}|Üretildi {reg2},{s1}{reg11}zanaatkarlarla üretildi, ham kaynak çarpanı {reg12}.
 qstr_Chance_to_build_fact|Chance to build factory in {s1} is {reg10}.{reg11}%.
-qstr_Building_factory_in_|Building factory in {s1}
-qstr_Price_of_{s1}_has_ch|Price of {s1} has changed by {reg10}.
-qstr_Urbanization_of_{s1}|Urbanization of {s1}'s center {s2} was increased by {reg10}.
-qstr_{reg10}._party_gives|{reg10}. party gives {reg11} votes
-qstr_{s1}_rural_wealth_{r|{s1} rural wealth {reg10} urban wealth {reg11} middle wealth {reg12} bourgeoisie wealth {reg13} aristocracy wealth {reg14} sum wage {reg15} gdp rural {reg16} gdp urban {reg17} population root {reg18}
-qstr_{s1}_cannot_launch_g|{s1} cannot launch grenade attack - {reg1} seconds cooldown.
-qstr_{s1}_cannot_launch_ga|{s1} cannot launch gas attack - {reg1} seconds cooldown.
-qstr_You_became_a_high_co|You became a high command officer, which means you are free to act independent during service.
-qstr_You_became_a_non_com|You became a non-commissioned officer, which means you will now command troops in battle.
-qstr_You_became_a_marshal|You became a marshall of {s10}, which means you can start and manage campaigns.
+qstr_Building_factory_in_|{s1}'Da fabrika inşa ediliyor.
+qstr_Price_of_{s1}_has_ch|{s1}'nn {reg10} değişti .
+qstr_Urbanization_of_{s1}|{s1}'nın kentselleşmesi {s2} {reg10} arttı.
+qstr_{reg10}._party_gives|{reg10}.parti{reg11} oy verir
+qstr_{s1}_rural_wealth_{r|{s1} kırsal zenginlik {reg10} kentsel zenginlik {reg11} orta sınıf zenginliği {reg12} burjavizi zenginliği {reg13} aristokrasi zenginliği {reg14} toplam maaş {reg15} gdp kırsal {reg16} gdp kentsel {reg17} nüfus kökü {reg18}
+qstr_{s1}_cannot_launch_g|{s1} Bomba Saldırısı Yapamaz - {reg1} saniye bekleme süresi.
+qstr_{s1}_cannot_launch_ga|{s1} Gaz Saldırısı Yapamaz - {reg1} saniye bekleme süresi.
+qstr_You_became_a_high_co|Yüksek komuta subayı oldun,yani hizmet sırasında bağımsız hareket etmekte özgürsün.
+qstr_You_became_a_non_com|Astsubay oldunuz, yani artık savaşta birliklere komuta edeceksiniz.
+qstr_You_became_a_marshal|{s10} mareşali oldunuz, yani sefer başlatabilir ve yönetebilirsiniz.
 qstr_debug_bms_begin|debug bms begin
 qstr_debug_bms_end|debug bms end
 qstr_debug_siege_win_batt|debug siege win battle begin
@@ -734,12 +735,12 @@ qstr_debug_pbs_walkrun_ord|debug pbs walkrun order end
 qstr_debug_prone_100ms_be|debug prone 100ms begin
 qstr_debug_prone_100ms_en|debug prone 100ms end
 qstr_debug_pbs_formation_|debug pbs formation order begin
-qstr_{s1}_cannot_change_f|{s1} cannot change formation - only light infantry can apply extended line formation.
-qstr_{s1}_cannot_change_fo|{s1} cannot change formation - you need to research Modern Attack Tactics technology to apply line formation.
-qstr_{s1}_cannot_change_for|{s1} cannot change formation - you need to research Skirmish Line Tactics technology to apply dense line formation.
-qstr_{s1}_cannot_change_form|{s1} cannot change formation - you need to research Adaptive Training technology to apply extended line formation.
-qstr_{s1}_cannot_change_forma|{s1} cannot change formation - you need to research Skirmish Line Tactics technology to apply line formation.
-qstr_{s1}_cannot_change_format|{s1} cannot change formation - discipline level is less than 30%.
+qstr_{s1}_cannot_change_f|{s1} Formasyon değiştirilemez  - Sadece hafif piyadeler uzun hat formasyonunu uygulayabilir.
+qstr_{s1}_cannot_change_fo|{s1} Formasyon değiştirilemez  - hat oluşumunu uygulamak için Modern Saldırı Taktikleri teknolojisini araştırmanız gerekir.
+qstr_{s1}_cannot_change_for|{s1} Formasyon değiştirilemez - Çarpışma hattı oluşumunu uygulamak için Çarpışma hattı taktikleri teknolojisini araştırmanız gerekiyor.
+qstr_{s1}_cannot_change_form|{s1} Formasyon değiştirilemez  - Uzatılmış hat oluşumunu uygulamak için Uyarlanabilir Antrenman teknolojisini araştırmanız gerekir.
+qstr_{s1}_cannot_change_forma|{s1} Formasyon değiştirilemez  - Çatışma hattı oluşumunu uygulamak için Çatışma Hattı Taktikleri teknolojisini araştırmanız gerekir.
+qstr_{s1}_cannot_change_format|{s1} Formasyon değiştirilemez - Disiplin seviyesi yüzde 30% dan daha az.
 qstr_debug_pbs_formation_o|debug pbs formation order end
 qstr_debug_carbine_melee_|debug carbine melee mode fix begin
 qstr_debug_carbine_melee_m|debug carbine melee mode fix end
