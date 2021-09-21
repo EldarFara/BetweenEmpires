@@ -169,7 +169,11 @@
 <character code="253" page="0" u="937" v="0" w="985" h="77" preshift="-7" yadjust="44" postshift="34" />
 <character code="254" page="0" u="86" v="0" w="134" h="78" preshift="-7" yadjust="46" postshift="36" />
 <character code="255" page="0" u="1624" v="0" w="1672" h="74" preshift="-7" yadjust="42" postshift="34" />
-<character code="304" page="0" u="4" v="317" w="29" h="356" preshift="-7" yadjust="42" postshift="34" />
-<character code="305" page="0" u="4" v="317" w="29" h="356" preshift="-7" yadjust="42" postshift="34" />
+<character code="286" page="0" u="81" v="288" w="132" h="356" preshift="-2" yadjust="21" postshift="25" />
+<character code="287" page="0" u="142" v="301" w="131" h="357" preshift="-2" yadjust="21" postshift="25" />
+<character code="304" page="0" u="4" v="317" w="68" h="357" preshift="-2" yadjust="25" postshift="25" />
+<character code="305" page="0" u="4" v="317" w="29" h="357" preshift="-2" yadjust="25" postshift="25" />
+<character code="350" page="0" u="307" v="304" w="351" h="369" preshift="-2" yadjust="21" postshift="25" />
+<character code="351" page="0" u="367" v="319" w="398" h="369" preshift="-2" yadjust="21" postshift="25" />
 </FontDetails>
 </FontData>
