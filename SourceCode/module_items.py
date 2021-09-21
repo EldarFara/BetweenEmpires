@@ -1424,7 +1424,7 @@ items = [
 
 ["sidearm_colt_m1873","Colt Single Action Army", [("colt_m1873", 0),("pistol_holster1", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn, price_pistol_aboveaverage, weight(1)|abundance(100)|accuracy(accuracy_pistol_high)|spd_rtng(speed_pistol_medium)|shoot_speed(shot_speed_pistol_medium)|max_ammo(6)|thrust_damage(damage_pistol_medium, pierce), imodbits_firearm, []],
 
-  ["ammo_rifle","Ammunition of Rifle Caliber", [("belt_ammo", 0),("bullet_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bolts|itp_default_ammo|itp_merchandise, 0,100, weight(0.4)|abundance(75)|max_ammo(40)|thrust_damage(0, pierce), imodbit_large_bag, [
+  ["ammo_rifle","Ammunition of Rifle Caliber", [("belt_ammo", 0),("bullet_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bolts|itp_default_ammo|itp_merchandise, 0,100, weight(0.4)|abundance(75)|max_ammo(50)|thrust_damage(0, pierce), imodbit_large_bag, [
     (ti_on_missile_hit, [
       (try_begin),
         (particle_system_burst_no_sync, "psys_bullet_hit", pos1, 8),
@@ -1442,7 +1442,7 @@ items = [
    ]],
 
    
-  ["ammo_rifle_double","Doubled Ammunition of Rifle Caliber", [("belt_ammo2", 0),("bullet_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bolts|itp_merchandise, 0,100, weight(0.8)|abundance(75)|max_ammo(80)|thrust_damage(0, pierce), imodbit_large_bag, [
+  ["ammo_rifle_double","Doubled Ammunition of Rifle Caliber", [("belt_ammo2", 0),("bullet_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bolts|itp_merchandise, 0,100, weight(0.8)|abundance(75)|max_ammo(100)|thrust_damage(0, pierce), imodbit_large_bag, [
     (ti_on_missile_hit, [
       (try_begin),
         (particle_system_burst_no_sync, "psys_bullet_hit", pos1, 8),
@@ -2567,7 +2567,7 @@ items = [
 ["mg2_russian","Machine Gun", [("mg2_russian_item", 0)], itp_type_polearm|itp_two_handed|itp_primary, itcf_carry_spear,0, weight(30)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(0, pierce)|swing_damage(0, blunt), imodbits_none, []],
 ["mg3_german","Machine Gun", [("mg3_german_item", 0)], itp_type_polearm|itp_two_handed|itp_primary, itcf_carry_spear,0, weight(30)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(0, pierce)|swing_damage(0, blunt), imodbits_none, []],
 ["mg4_french","Machine Gun", [("mg4_french_item", 0)], itp_type_polearm|itp_two_handed|itp_primary, itcf_carry_spear,0, weight(30)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(0, pierce)|swing_damage(0, blunt), imodbits_none, []],
-["mg5_austrian","Machine Gun", [("mg5_austrian_item", 0)], itp_type_polearm|itp_two_handed|itp_primary, itcf_carry_spear,0, weight(30)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(0, pierce)|swing_damage(0, blunt), imodbits_none, []],
+["mg5_austrian","Machine Gun", [("mg5_austrian_barrel", 0)], itp_type_polearm|itp_two_handed|itp_primary, itcf_carry_spear,0, weight(30)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(0, pierce)|swing_damage(0, blunt), imodbits_none, []],
 ["mg6_british","Machine Gun", [("mg_item", 0)], itp_type_polearm|itp_two_handed|itp_primary, itcf_carry_spear,0, weight(30)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(0, pierce)|swing_damage(0, blunt), imodbits_none, []],
 
 ["ramrod1","Cannon Ramrod", [("field_gun_ramrod1", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(3.7)|hit_points(18432)|spd_rtng(75)|weapon_length(100)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],

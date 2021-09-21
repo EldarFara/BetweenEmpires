@@ -19,15 +19,15 @@ craters_limit = 200
 cannon_type_fieldgun = 0
 cannon_type_howitzer = 1
 
-pas_points_for_rank_2 = 1500
-pas_points_for_rank_3 = 4000
-pas_points_for_rank_4 = 8000
-pas_points_for_rank_5 = 13000
-pas_points_for_rank_6 = 21000
-pas_points_for_rank_7 = 35000
-pas_points_for_rank_8 = 55000
-pas_points_for_rank_9 = 75000
-pas_points_for_rank_10 = 100000
+pas_points_for_rank_2 = 3000
+pas_points_for_rank_3 = 8000
+pas_points_for_rank_4 = 16000
+pas_points_for_rank_5 = 30000
+pas_points_for_rank_6 = 50000
+pas_points_for_rank_7 = 70000
+pas_points_for_rank_8 = 100000
+pas_points_for_rank_9 = 170000
+pas_points_for_rank_10 = 300000
 
 pas_lord_state_undefined = 0
 pas_lord_state_patrolling_center_peace_border = 1
@@ -73,15 +73,15 @@ display_pps_debug_messages = 0
 display_pes_debug_messages = 0
 display_pas_debug_messages = 1
 
-preset_number_of_factories_britain = 24
-preset_number_of_factories_germany = 18
-preset_number_of_factories_france = 17
-preset_number_of_factories_italy = 6
-preset_number_of_factories_russia = 3
-preset_number_of_factories_austria = 6
+preset_number_of_factories_britain = 37
+preset_number_of_factories_germany = 15
+preset_number_of_factories_france = 20
+preset_number_of_factories_italy = 7
+preset_number_of_factories_russia = 7
+preset_number_of_factories_austria = 10
 preset_number_of_factories_iberia = 6
 preset_number_of_factories_scandinavia = 5
-preset_number_of_factories_benelux = 10
+preset_number_of_factories_benelux = 15
 preset_number_of_factories_balkans = 4
 preset_number_of_factories_switzerland = 1
 
