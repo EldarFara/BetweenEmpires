@@ -636,3 +636,6 @@ mno_pas_enlistment_reassign_continue|Devam et...
 menu_pas_enlistment_end_service_no_lords|Bütün ordular yenildi oyüzden emekliye ayrıldın.
 mno_pas_enlistment_end_service_no_lords_continue|Devam et...
 menu_pas_enlistment_promoted|Rütben {s1} 'e yükseltildi.
+start_game_ai_party_size_selection_100|100 - Small (Battle size at least 200 is recommended).
+start_game_ai_party_size_selection_125|125 - Medium (Battle size at least 300 is recommended).
+start_game_ai_party_size_selection_150|150 - Big (Battle size at least 400 is recommended).
