@@ -5,7 +5,7 @@ qstr_Game_Rules:^|Oyun Kuralları:^
 qstr_0|0
 qstr_Lv._{reg0}|Lv. {reg0}
 qstr_Show_game_rules|Oyun kurallarını göster
-qstr_Choose_name_for_your|Choose name for your faction:
+qstr_Choose_name_for_your|Ülken için isim seç:
 qstr_Continue...|Devam et...
 qstr_Candidate_#1:_{s1}|Aday #1: {s1}
 qstr_Candidate_#2:_{s1}|Aday #2: {s1}
@@ -106,24 +106,24 @@ qstr_{s1}^^Gas_masks_make|{s1}^^Gaz maskeleri askerleri zehirli gaza karşı zar
 qstr_{reg0}|{reg0}
 qstr_{reg0}%|{reg0}%
 qstr_{reg0}_c.|{reg0} c.
-qstr_Cannot_dig_in:_wrong|Siper Kazamaz: Yanlış Bölük Tipi (Sadece Piyade ve Muhafız Piyade Siper Kazabilir).
+qstr_Cannot_dig_in:_wrong|Siper Kazılamaz: Yanlış Bölük Tipi (Sadece Piyade ve Muhafız Piyade Siper Kazabilir).
 qstr_Cannot_launch_gas_at|Gaz Saldırısı Yapamaz: Yanlış bölük tipi(sadece top gaz saldırısı yapabilir).
 qstr_Cannot_launch_grenad|Bomba Saldırısı Yapamaz: Yanlış bölük tipi(Sadece Şok Askerleri Bomba Saldırısı Yapabilir).
-qstr_Select_2_or_more_com|Select 2 or more companies with soldiers to merge.
+qstr_Select_2_or_more_com|Birleştirmek için 2 yada daha fazla bölük seçin.
 qstr_Others|Öbürleri
 qstr_Outlaws|Kaçak
 qstr_Mercenary|Paralı Asker
 qstr_Close|Kapat
-qstr_Click_the_center_but|Click the center button to toggle faction^Click the avatars to view details of them
-qstr_Level:_{reg3}^Health|Level: {reg3}^Health: {reg4}
+qstr_Click_the_center_but|Ülkeler arasında geçiş yapmak için ortadaki düğmeye tıklayın^Detaylarını görmek için Avatarlara tıklayın
+qstr_Level:_{reg3}^Health|Level: {reg3}^Sağlık: {reg4}
 qstr_Attributes|Attributes
 qstr_STR^AGI^INT^CHA|STR^AGI^INT^CHA
 qstr_{reg2}|{reg2}
 qstr_{s1}^{reg2}|{s1}^{reg2}
 qstr_Skills|Skills
-qstr_Ironflesh^Power_Stri|Ironflesh^Power Strike^Power Throw^Power Draw^Shield^Athletics^Riding^Horse Archery
-qstr_Proficiencies|Proficiencies
-qstr_1H_Weapons^2H_Weapon|1H Weapons^2H Weapons^Polearms^Archery^Rifles^Throwing
+qstr_Ironflesh^Power_Stri|Demir Vücut^Güçlü Vurma^Güçlü Fırlatma^Güçlü Germe^Kalkan^Athletizm^Binicilik^Atlı Okçuluk
+qstr_Proficiencies|Hünerler
+qstr_1H_Weapons^2H_Weapon|Tek Elli Silahlar^Çift Elli Silahlar^Gönderli Silahlar^Okçuluk^Tüfekler^Fırlatma
 qstr_Equipments|Ekipmanlar
 qstr_Factions|Ülkeler
 qstr_Show_towns|Şehirleri Göster

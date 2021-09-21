@@ -1,26 +1,26 @@
-p_zendar|Zendar Şehri
-p_town_1|Sargoth Şehri
-p_town_2|Tihr Şehri
-p_town_3|Veluca Şehri
-p_town_4|Suno Şehri
-p_town_5|Jelkala Şehri
-p_town_6|Praven Şehri
-p_town_7|Uxkhal Şehri
-p_town_8|Reyvadin Şehri
-p_town_9|Khudan Şehri
-p_town_10|Tulga Şehri
-p_town_11|Curaw Şehri
-p_town_12|Wercheg Şehri
-p_town_13|Rivacheg Şehri
-p_town_14|Halmar Şehri
-p_town_15|Yalen Şehri
-p_town_16|Dhirim Şehri
-p_town_17|Ichamur Şehri
-p_town_18|Narra Şehri
-p_town_19|Shariz Şehri
-p_town_20|Durquba Şehri
-p_town_21|Ahmerrad Şehri
-p_town_22|Bariyye Şehri
+p_zendar|Zendar
+p_town_1|Amsterdam
+p_town_2|Berlin
+p_town_3|Paris
+p_town_4|Bordeaux
+p_town_5|Madrid
+p_town_6|Cordoba
+p_town_7|Vienna
+p_town_8|Venice
+p_town_9|Bern
+p_town_10|Saint Petersburg
+p_town_11|Turin
+p_town_12|Milan
+p_town_13|Cairo
+p_town_14|Alexandria
+p_town_15|Tunis
+p_town_16|Dublin
+p_town_17|Edinburgh
+p_town_18|London
+p_town_19|Constantinople
+p_town_20|Khiva
+p_town_21|Esfahan
+p_town_22|Tehran
 p_town_23|Naples
 p_town_24|Muscat
 p_town_25|Bukhara
@@ -66,54 +66,54 @@ p_town_64|Warsaw
 p_town_65|Riga
 p_town_66|Minsk
 p_town_67|Nizhny Novgorod
-p_castle_1|Culmarr Kalesi
-p_castle_2|Malayurg Kalesi
-p_castle_3|Bulugha Kalesi
-p_castle_4|Radoghir Kalesi
-p_castle_5|Tehlrog Kalesi
-p_castle_6|Tilbaut Kalesi
-p_castle_7|Sungetche Kalesi
-p_castle_8|Jeirbe Kalesi
-p_castle_9|Jamiche Kalesi
-p_castle_10|Alburq Kalesi
-p_castle_11|Curin Kalesi
-p_castle_12|Chalbek Kalesi
-p_castle_13|Kelredan Kalesi
-p_castle_14|Maras Kalesi
-p_castle_15|Ergellon Kalesi
-p_castle_16|Almerra Kalesi
-p_castle_17|Distar Kalesi
-p_castle_18|Ismirala Kalesi
-p_castle_19|Yruma Kalesi
-p_castle_20|Derchios Kalesi
-p_castle_21|Ibdeles Kalesi
-p_castle_22|Unuzdaq Kalesi
-p_castle_23|Tevarin Kalesi
-p_castle_24|Reindi Kalesi
-p_castle_25|Ryibelet Kalesi
-p_castle_26|Senuzgda Kalesi
-p_castle_27|Rindyar Kalesi
-p_castle_28|Grunwalder Kalesi
-p_castle_29|Nelag Kalesi
-p_castle_30|Asugan Kalesi
-p_castle_31|Vyincourd Kalesi
-p_castle_32|Knudarr Kalesi
-p_castle_33|Etrosq Kalesi
-p_castle_34|Hrus Kalesi
-p_castle_35|Haringoth Kalesi
-p_castle_36|Jelbegi Kalesi
-p_castle_37|Dramug Kalesi
-p_castle_38|Tulbuk Kalesi
-p_castle_39|Slezkh Kalesi
-p_castle_40|Uhhun Kalesi
-p_castle_41|Jameyyed Kalesi
-p_castle_42|Teramma Kalesi
-p_castle_43|Sharwa Kalesi
-p_castle_44|Durrin Kalesi
-p_castle_45|Caraf Kalesi
-p_castle_46|Weyyah Kalesi
-p_castle_47|Samarra Kalesi
-p_castle_48|Bardaq Kalesi
+p_castle_1|Rotterdam
+p_castle_2|Breda
+p_castle_3|Zwolle
+p_castle_4|Danzig
+p_castle_5|Stettin
+p_castle_6|Cologne
+p_castle_7|Kassel
+p_castle_8|Marseille
+p_castle_9|Orleans
+p_castle_10|Poitiers
+p_castle_11|Lugo
+p_castle_12|Seville
+p_castle_13|Granada
+p_castle_14|Palma
+p_castle_15|Pamplona
+p_castle_16|Valencia
+p_castle_17|Florence
+p_castle_18|Ravenna
+p_castle_19|Genoa
+p_castle_20|Verona
+p_castle_21|Zagreb
+p_castle_22|Krakow
+p_castle_23|Szeged
+p_castle_24|Graz
+p_castle_25|Salzburg
+p_castle_26|Surt
+p_castle_27|Trabulus
+p_castle_28|Telemcen
+p_castle_29|Baden
+p_castle_30|Ufa
+p_castle_31|Novosibirsk
+p_castle_32|Balkhash
+p_castle_33|Tirana
+p_castle_34|Plovdiv
+p_castle_35|Medina
+p_castle_36|Thessaloniki
+p_castle_37|Rhodes
+p_castle_38|Tabuk
+p_castle_39|Nicosia
+p_castle_40|Rodez
+p_castle_41|Crete
+p_castle_42|Sarajevo
+p_castle_43|Ahvaz
+p_castle_44|Kyzylorda
+p_castle_45|Kerman
+p_castle_46|Shiraz
+p_castle_47|Mashhad
+p_castle_48|Al Kef
 p_castle_49|Sfax
 p_castle_50|Gafsa
 p_castle_51|Hamma
@@ -163,7 +163,7 @@ p_castle_94|Dahab
 p_castle_95|Dijon
 p_castle_96|Kulob
 p_castle_97|Setif
-p_castle_98|Zintan
+p_castle_98|Castle
 p_castle_99|San'A
 p_castle_100|Tuttlingen
 p_castle_101|Tripolis
@@ -328,116 +328,116 @@ p_castle_259|Zurich
 p_castle_260|Saarbrucken
 p_castle_261|Wurtzburg
 p_castle_262|Trieste
-p_village_1|Yaragar Köyü
-p_village_2|Burglen Köyü
-p_village_3|Azgad Köyü
-p_village_4|Nomar Köyü
-p_village_5|Kulum Köyü
-p_village_6|Emirin Köyü
-p_village_7|Amere Köyü
-p_village_8|Haen Köyü
-p_village_9|Buvran Köyü
-p_village_10|Mechin Köyü
-p_village_11|Dusturil Köyü
-p_village_12|Emer Köyü
-p_village_13|Nemeja Köyü
-p_village_14|Sumbuja Köyü
-p_village_15|Ryibelet Köyü
-p_village_16|Shapeshte Köyü
-p_village_17|Mazen Köyü
-p_village_18|Ulburban Köyü
-p_village_19|Hanun Köyü
-p_village_20|Uslum Köyü
-p_village_21|Bazeck Köyü
-p_village_22|Shulus Köyü
-p_village_23|Ilvia Köyü
-p_village_24|Ruldi Köyü
-p_village_25|Dashbigha Köyü
-p_village_26|Pagundur Köyü
-p_village_27|Glunmar Köyü
-p_village_28|Tash Kulun Köyü
-p_village_29|Buillin Köyü
-p_village_30|Ruvar Köyü
-p_village_31|Ambean Köyü
-p_village_32|Tosdhar Köyü
-p_village_33|Ruluns Köyü
-p_village_34|Ehlerdah Köyü
-p_village_35|Fearichen Köyü
-p_village_36|Jayek Köyü
-p_village_37|Ada Kulun Köyü
-p_village_38|Ibiran Köyü
-p_village_39|Reveran Köyü
-p_village_40|Saren Köyü
-p_village_41|Dugan Köyü
-p_village_42|Dirigh Aban Köyü
-p_village_43|Zagush Köyü
-p_village_44|Peshmi Köyü
-p_village_45|Bulugur Köyü
-p_village_46|Fedner Köyü
-p_village_47|Epeshe Köyü
-p_village_48|Veidar Köyü
-p_village_49|Tismirr Köyü
-p_village_50|Karindi Köyü
-p_village_51|Jelbegi Köyü
-p_village_52|Amashke Köyü
-p_village_53|Balanli Köyü
-p_village_54|Chide Köyü
-p_village_55|Tadsamesh Köyü
-p_village_56|Fenada Köyü
-p_village_57|Ushkuru Köyü
-p_village_58|Vezin Köyü
-p_village_59|Dumar Köyü
-p_village_60|Tahlberl Köyü
-p_village_61|Aldelen Köyü
-p_village_62|Rebache Köyü
-p_village_63|Rduna Köyü
-p_village_64|Serindiar Köyü
-p_village_65|Iyindah Köyü
-p_village_66|Fisdnar Köyü
-p_village_67|Tebandra Köyü
-p_village_68|Ibdeles Köyü
-p_village_69|Kwynn Köyü
-p_village_70|Dirigsene Köyü
-p_village_71|Tshibtin Köyü
-p_village_72|Elberl Köyü
-p_village_73|Chaeza Köyü
-p_village_74|Ayyike Köyü
-p_village_75|Bhulaban Köyü
-p_village_76|Kedelke Köyü
-p_village_77|Rizi Köyü
-p_village_78|Sarimish Köyü
-p_village_79|Istiniar Köyü
-p_village_80|Vayejeg Köyü
-p_village_81|Odasan Köyü
-p_village_82|Yalibe Köyü
-p_village_83|Gisim Köyü
-p_village_84|Chelez Köyü
-p_village_85|Ismirala Köyü
-p_village_86|Slezkh Köyü
-p_village_87|Udiniad Köyü
-p_village_88|Tulbuk Köyü
-p_village_89|Uhhun Köyü
-p_village_90|Jamiche Köyü
-p_village_91|Ayn Assuadi Köyü
-p_village_92|Dhibbain Köyü
-p_village_93|Qalyut Köyü
-p_village_94|Mazigh Köyü
-p_village_95|Tamnuh Köyü
-p_village_96|Habba Köyü
-p_village_97|Sekhtem Köyü
-p_village_98|Mawiti Köyü
-p_village_99|Fisara Köyü
-p_village_100|Ikbayl Köyü
-p_village_101|Uzga Köyü
-p_village_102|Şibal Zumr Köyü
-p_village_103|Micayet Köyü
-p_village_104|Tazcunat Köyü
-p_village_105|Aab Köyü
-p_village_106|Hawaha Köyü
-p_village_107|Unriya Köyü
-p_village_108|Mit Nun Köyü
-p_village_109|Tilimsal Köyü
-p_village_110|Rusdih Köyü
+p_village_1|Frosinone
+p_village_2|L'Aquila
+p_village_3|Perugia
+p_village_4|Macerata
+p_village_5|Isernia
+p_village_6|Imperia
+p_village_7|Varese
+p_village_8|Cremona
+p_village_9|Pesaro
+p_village_10|Pisa
+p_village_11|Siena
+p_village_12|Bergamo
+p_village_13|Cuneo
+p_village_14|Oristano
+p_village_15|Trapani
+p_village_16|Viterbo
+p_village_17|Syracusa
+p_village_18|Catanzaro
+p_village_19|Benevento
+p_village_20|Bari
+p_village_21|Lecce
+p_village_22|Andria
+p_village_23|Kefallonia
+p_village_24|Livadia
+p_village_25|Mystras
+p_village_26|Agrinia
+p_village_27|Amaliada
+p_village_28|Evia
+p_village_29|Tanta
+p_village_30|Al Faiyum
+p_village_31|Matruh
+p_village_32|Ismailiyah
+p_village_33|Asyut
+p_village_34|Edfu
+p_village_35|Berenice
+p_village_36|Baris
+p_village_37|Siwa
+p_village_38|Helwan
+p_village_39|Al Tur
+p_village_40|Sidi
+p_village_41|Thala
+p_village_42|Bizerte
+p_village_43|Sousse
+p_village_44|Tabarqa
+p_village_45|Nefta
+p_village_46|Casablanca
+p_village_47|Taza
+p_village_48|Tetuan
+p_village_49|Tata
+p_village_50|Bergen
+p_village_51|Al Bayda
+p_village_52|Marsa Al
+p_village_53|Al Khums
+p_village_54|Yafran
+p_village_55|Annaba
+p_village_56|Bechar
+p_village_57|Laghouat
+p_village_58|Constantine
+p_village_59|Caldas da Rainha
+p_village_60|Grandola
+p_village_61|Lagos
+p_village_62|Evora
+p_village_63|Covilha
+p_village_64|Vila Real
+p_village_65|Mora
+p_village_66|Zaragoza
+p_village_67|Huesca
+p_village_68|Bilbao
+p_village_69|Santiago
+p_village_70|Segovia
+p_village_71|Zamora
+p_village_72|Merida
+p_village_73|Antequera
+p_village_74|Ibiza
+p_village_75|Toledo
+p_village_76|Ciudad Real
+p_village_77|Badajoz
+p_village_78|Qurayyat
+p_village_79|Al Khaburah
+p_village_80|Khaluf
+p_village_81|Fahud
+p_village_82|Sumail
+p_village_83|Sawqirah
+p_village_84|Buraydah
+p_village_85|Sakakah
+p_village_86|Tayma
+p_village_87|Sajir
+p_village_88|Halaban
+p_village_89|Ad Dawadimi
+p_village_90|Nafy
+p_village_91|Kuwait
+p_village_92|Al Baydah
+p_village_93|Taiz
+p_village_94|Hodaydeh
+p_village_95|Dubai
+p_village_96|Hisar
+p_village_97|Tarif
+p_village_98|Jodhpur
+p_village_99|Ar Khuwayr
+p_village_100|Udaipur
+p_village_101|Uzgha
+p_village_102|Biel
+p_village_103|Lucerne
+p_village_104|Lausanne
+p_village_105|Frauenfeld
+p_village_106|Thebes
+p_village_107|Yanbu
+p_village_108|Zalim
+p_village_109|Jiddah
+p_village_110|Albih
 p_village_111|Alwajh
 p_village_112|Umm Lajj
 p_village_113|Abha
@@ -456,7 +456,7 @@ p_village_125|Negour
 p_village_126|Zahedan
 p_village_127|Qa'en
 p_village_128|Neyshapur
-p_village_129|Beteta
+p_village_129|Spanish Village
 p_village_130|Damghan
 p_village_131|Hamadan
 p_village_132|Zanjan
@@ -560,7 +560,7 @@ p_village_229|Angren
 p_village_230|Farish
 p_village_231|Termaz
 p_village_232|Shuroabad
-p_village_233|Gaba
+p_village_233|Afghan Village
 p_village_234|Panj
 p_village_235|Omani Village
 p_village_236|Omani Village
@@ -633,7 +633,7 @@ p_village_302|Passau
 p_village_303|Dinkelsbuhl
 p_village_304|Schonburg
 p_village_305|Konstanz
-p_village_306|Braila
+p_village_306|Romanian Village
 p_village_307|Freiburg
 p_village_308|Freudenstadt
 p_village_309|Bilberach
@@ -698,7 +698,7 @@ p_village_367|Vaxjo
 p_village_368|Linkoping
 p_village_369|Uppsala
 p_village_370|Hudiksvall
-p_village_371|Falun
+p_village_371|Swedish Village
 p_village_372|Falun
 p_village_373|Karlstad
 p_village_374|Goteborg
