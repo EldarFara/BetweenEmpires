@@ -1424,7 +1424,7 @@ items = [
 
 ["sidearm_colt_m1873","Colt Single Action Army", [("colt_m1873", 0),("pistol_holster1", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn, price_pistol_aboveaverage, weight(1)|abundance(100)|accuracy(accuracy_pistol_high)|spd_rtng(speed_pistol_medium)|shoot_speed(shot_speed_pistol_medium)|max_ammo(6)|thrust_damage(damage_pistol_medium, pierce), imodbits_firearm, []],
 
-  ["ammo_rifle","Ammunition of Rifle Caliber", [("belt_ammo", 0),("bullet_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bolts|itp_default_ammo|itp_merchandise, 0,100, weight(0.4)|abundance(75)|max_ammo(40)|thrust_damage(0, pierce), imodbit_large_bag, [
+  ["ammo_rifle","Ammunition of Rifle Caliber", [("belt_ammo", 0),("bullet_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bolts|itp_default_ammo|itp_merchandise, 0,100, weight(0.4)|abundance(75)|max_ammo(50)|thrust_damage(0, pierce), imodbit_large_bag, [
     (ti_on_missile_hit, [
       (try_begin),
         (particle_system_burst_no_sync, "psys_bullet_hit", pos1, 8),
@@ -1442,7 +1442,7 @@ items = [
    ]],
 
    
-  ["ammo_rifle_double","Doubled Ammunition of Rifle Caliber", [("belt_ammo2", 0),("bullet_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bolts|itp_merchandise, 0,100, weight(0.8)|abundance(75)|max_ammo(80)|thrust_damage(0, pierce), imodbit_large_bag, [
+  ["ammo_rifle_double","Doubled Ammunition of Rifle Caliber", [("belt_ammo2", 0),("bullet_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bolts|itp_merchandise, 0,100, weight(0.8)|abundance(75)|max_ammo(100)|thrust_damage(0, pierce), imodbit_large_bag, [
     (ti_on_missile_hit, [
       (try_begin),
         (particle_system_burst_no_sync, "psys_bullet_hit", pos1, 8),

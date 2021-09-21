@@ -1050,7 +1050,7 @@ dlga_lord_talk:lord_ask_leave_service 69631 401  6 2147483680 2 1441151880758561
 dlga_lord_talk:lord_talk_preoffer 69631 401  3 31 2 1 0 2147483680 2 144115188075856110 2 30 2 144115188075855992 0 I_have_an_offer_for_you.  511  0 NO_VOICEOVER 
 dlga_lord_talk:lord_give_troops 69631 401  2 31 2 144115188075855989 432345564227567658 2147484208 3 144115188075855987 8 0 I_want_to_give_some_troops_to_you.  512  0 NO_VOICEOVER 
 dlga_lord_give_troops:lord_pretalk 4095 512  0 Well,_I_could_use_some_good_soldiers._Thank_you.  154  1 2056 1 144115188075855993 NO_VOICEOVER 
-dlga_lord_talk:lord_give_order_ask 69631 401  3 31 2 144115188075855989 144115188075856287 542 3 144115188075856287 8 360287970189639680 2147484208 3 144115188075855987 8 0 I_have_a_new_task_for_you.  513  0 NO_VOICEOVER 
+dlga_lord_talk:lord_give_order_ask 69631 401  4 31 2 1 2 31 2 144115188075855989 144115188075856287 542 3 144115188075856287 8 360287970189639680 2147484208 3 144115188075855987 8 0 I_have_a_new_task_for_you.  513  0 NO_VOICEOVER 
 dlga_lord_talk:lord_give_suggestion_ask 69631 401  3 31 2 144115188075855989 144115188075856287 2147484190 3 144115188075856287 8 360287970189639680 2147484208 3 144115188075855987 8 0 May_I_suggest_a_course_of_action?  514  0 NO_VOICEOVER 
 dlga_lord_give_order_ask:lord_give_order 4095 513  0 Yes?  515  0 NO_VOICEOVER 
 dlga_lord_give_suggestion_ask:lord_give_order 4095 514  1 542 3 144115188075856287 11 360287970189639680 I_will_gladly_follow_your_direction,_{sire/your_Highness}._If_you_intend_to_direct_an_extensive_campaign,_however,_you_may_also_wish_to_declare_yourself_marshal,_so_there_is_no_cause_for_confusion.  515  0 NO_VOICEOVER 

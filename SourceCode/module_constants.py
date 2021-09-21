@@ -73,15 +73,15 @@ display_pps_debug_messages = 0
 display_pes_debug_messages = 0
 display_pas_debug_messages = 1
 
-preset_number_of_factories_britain = 24
-preset_number_of_factories_germany = 18
-preset_number_of_factories_france = 17
-preset_number_of_factories_italy = 6
-preset_number_of_factories_russia = 3
-preset_number_of_factories_austria = 6
+preset_number_of_factories_britain = 37
+preset_number_of_factories_germany = 15
+preset_number_of_factories_france = 20
+preset_number_of_factories_italy = 7
+preset_number_of_factories_russia = 7
+preset_number_of_factories_austria = 10
 preset_number_of_factories_iberia = 6
 preset_number_of_factories_scandinavia = 5
-preset_number_of_factories_benelux = 10
+preset_number_of_factories_benelux = 15
 preset_number_of_factories_balkans = 4
 preset_number_of_factories_switzerland = 1
 

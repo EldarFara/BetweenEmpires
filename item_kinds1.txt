@@ -2904,7 +2904,7 @@ itemsfile version 3
  0
 0
 
- itm_ammo_rifle Ammunition_of_Rifle_Caliber Ammunition_of_Rifle_Caliber 3  belt_ammo 0  bullet_projectile 2305843009213693952  bullet_packs 3458764513820540928  98310 0 100 4398046511104 0.250000 75 0 0 0 0 0 0 0 0 40 256 0
+ itm_ammo_rifle Ammunition_of_Rifle_Caliber Ammunition_of_Rifle_Caliber 3  belt_ammo 0  bullet_projectile 2305843009213693952  bullet_packs 3458764513820540928  98310 0 100 4398046511104 0.250000 75 0 0 0 0 0 0 0 0 50 256 0
  0
 1
 -52.000000  3 4 0 1975 3 1008806316530991164 1 8 3 0 
@@ -2914,7 +2914,7 @@ itemsfile version 3
 1
 -52.000000  3 4 0 1975 3 1008806316530991164 1 8 3 0 
 
- itm_ammo_rifle_double Doubled_Ammunition_of_Rifle_Caliber Doubled_Ammunition_of_Rifle_Caliber 3  belt_ammo2 0  bullet_projectile 2305843009213693952  bullet_packs 3458764513820540928  65542 0 100 4398046511104 0.750000 75 0 0 0 0 0 0 0 0 80 256 0
+ itm_ammo_rifle_double Doubled_Ammunition_of_Rifle_Caliber Doubled_Ammunition_of_Rifle_Caliber 3  belt_ammo2 0  bullet_projectile 2305843009213693952  bullet_packs 3458764513820540928  65542 0 100 4398046511104 0.750000 75 0 0 0 0 0 0 0 0 100 256 0
  0
 1
 -52.000000  3 4 0 1975 3 1008806316530991164 1 8 3 0 
