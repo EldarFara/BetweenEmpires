@@ -2,7 +2,7 @@ menu_start_game_0|Merhaba yabancı, Mount&Blade Warband'e hoşgeldin. Oyuna baş
 mno_continue|Devam...
 mno_go_back|Geri dön
 menu_start_phase_2|Kalradya adındaki diyar hakkında hikayeler anlatıp dururlar. Krallıklar arasındaki savaşlar yüzünden paramparça bölünmüş, fırsatçıları, şövalyeleri, maceracıları ve haydutları kendisine çekip onlara büyük tehlikelerle birlikte büyük fırsatlar da sunan bu ülkede belki sen de geçmişini ardında bırakıp yepyeni bir hayata başlayabilirsin. Bu yeni ülkede özgür olacağını ve seçtiğin yol her ne olursa olsun büyük maceraların seni bekliyor olacağını hissediyorsun. Bir gün, Kalradya ve krallıkları ile ilgili anlatılagelen olağanüstü hikayelerin etkisinde kalarak...
-mno_town_factionleader|Your country's capital ({s1})
+mno_town_factionleader|Kendi baş kentinde başla ({s1})
 mno_town_1|Svadya Krallığı'nın Praven şehrine giden bir kervana katıldın.
 mno_town_2|Vaegir Krallığı'nın Reyvadin şehrine giden bir kervana katıldın.
 mno_town_3|Kergit Hanlığı'nın Tulga şehrine giden bir kervana katıldın.
@@ -14,14 +14,14 @@ mno_go_back_dot|Geri dön.
 menu_reports|Hangi raporu görüntülemek istiyorsun?
 mno_show_pps_menu|View faction internal politics menu.
 mno_show_weather_report|View weather report.
-mno_reports_to_faction_technologies|View your faction military technologies.
+mno_reports_to_faction_technologies|Ülkenin askeri teknolojilerine göz at.
 mno_view_character_report|Karakter raporunu görüntüle.
 mno_view_party_size_report|Grup büyüklüğü raporunu görüntüle.
 mno_view_npc_mission_report|Yoldaşların görev raporlarını görüntüle.
 mno_view_weekly_budget_report|Haftalık bütçe raporunu görüntüle.
 mno_view_morale_report|Grup morali raporunu görüntüle.
-mno_action_view_troop_trees|View factions troop trees.
-mno_action_view_world_map|World Map
+mno_action_view_troop_trees|Bütün ülkelerin asker ağaçlarını görüntüle.
+mno_action_view_world_map|Dünya haritası
 mno_lord_relations|Tanınan lordların ilişkiye göre sıralamasını görüntüle.
 mno_courtship_relations|Soylularla ilişkilerini incele.
 mno_view_faction_relations_report|Krallıklarla ilişkiler raporunu görüntüle.
@@ -36,8 +36,8 @@ mno_start_noble|fakir düşmüş bir asildi.
 mno_start_merchant|gezgin bir tüccardı.
 mno_start_guard|kıdemli bir savaşçıydı.
 mno_start_forester|bir avcıydı.
-mno_start_professor|A university professor.
-mno_start_worker|A factory worker.
+mno_start_professor|Üniversite profesorüydü.
+mno_start_worker|Fabrika iştisiydi.
 mno_start_nomad|bir bozkır göçebesiydi.
 mno_start_thief|bir hırsızdı.
 menu_start_character_2|{s10}^^ Dünyayı öğrenmeye neredeyse konuşup yürüyebildiğin gibi başladın. Hayatının başlarında..
@@ -47,9 +47,9 @@ mno_stockboy|bir dükkan kalfasıydın.
 mno_urchin|bir sokak çocuğuydun.
 mno_nomad|bir bozkır çocuğuydun.
 menu_start_character_3|{s11}^^ Daha sonra, gençlik döneminde, her zaman olduğu gibi hayat değişti. O dönem sen...
-mno_student1|A university student (medicine).
-mno_student2|A university student (engineering).
-mno_student3|A university student (philology).
+mno_student1|Bir üniversite öğrencisiydin  (Sağlık).
+mno_student2|Bir üniversite öğrencisiydin (Mühendislik).
+mno_student3|Bir üniversite öğrencisiydin (Piskoloji).
 mno_troubadour|bir halk ozanıydın.
 mno_craftsman|bir demirciydin.
 mno_poacher|kaçak bir avcıydın.
@@ -78,18 +78,18 @@ mno_camp_wait_here|Burada bir süre bekle.
 mno_camp_cheat|HİLE MENÜSÜ!
 menu_camp_cheat|Hile seç:
 mno_camp_cheat_dds|Open Debug Display Slots.
-mno_camp_cheat_all_factions_research_all_tech|Make all factions immediately research all technologies.
+mno_camp_cheat_all_factions_research_all_tech|Bütüng ülkelere her teknolojiyi ver.
 mno_camp_cheat_find_item|Hava durumunu değiştir..
 mno_camp_action_4|Kamp menüsüne dön.
 menu_camp_action|Bir eylem seç:
-mno_camp_action_pas_enlistment_retire|Retire from service.
+mno_camp_action_pas_enlistment_retire|Emekliye ayrl.
 mno_camp_recruit_prisoners|Tutsaklardan adam al.
 mno_action_read_book|Okumak üzere bir kitap seç:
-mno_action_rename_kingdom|Krallığını tekrar adlandır.
-mno_action_change_flag|Change flag of your nation.
-mno_action_promote_kingdom_custom_troop|Customize your faction army.
-mno_change_game_speed|Change game speed. (current speed - {reg0} days per year).
-mno_enable_ironsight|Toggle ironsight mode.
+mno_action_rename_kingdom|Ülkeni tekrar adlandır.
+mno_action_change_flag|Bayrağını değiştir.
+mno_action_promote_kingdom_custom_troop|Ülkenin ordusunu özelleştir.
+mno_change_game_speed|Oyun hızını değiştir. (Şuanki hız yılda - {reg0} gün).
+mno_enable_ironsight|Nişan modunu aç.
 mno_action_retire|Maceracılıktan emekli ol.
 menu_camp_recruit_prisoners|Sana katılmayı kabul ederlerse esirlerine özgürlük vaad ediyorsun. {s18}
 mno_camp_recruit_prisoners_accept|Kabul et.
@@ -316,11 +316,11 @@ mno_trade_with_merchants|Pazar yerine gir.
 mno_walled_center_manage|Bu {reg0?şehri:kaleyi} düzenle.
 mno_walled_center_move_court|Sarayını buraya taşı.
 mno_castle_station_troops|Birliklerinin bir kısmını buraya yerleştir.
-mno_towncastle_to_enlistment_office|Go to local military enlistment office.
-mno_open_pes_region_menu|Go to industrial zone.
+mno_towncastle_to_enlistment_office|Yerel ordu kayıt ofisine git.
+mno_open_pes_region_menu|Endüstriyal alana git.
 mno_castle_wait|Burada biraz bekle {s1}.
-mno_castle_to_cannoneers_store|Go to the armory.
-mno_castle_to_cannoneers_store_door|Door to the armory.
+mno_castle_to_cannoneers_store|Cephaneliğe git.
+mno_castle_to_cannoneers_store_door|Cephaneliğe giden kapı.
 mno_town_leave|Şehirden ayrıl.
 mno_town_leave_door|Bölgeyi terket.
 menu_cannot_enter_court|Lordun salonunda şu anda bir ziyafet var, fakat sen içeri davet edilmek için yeterli mevkide değilsin. Belki şanını artırmak sana içeri kabul şansı verecektir -- veya ziyafet sürecinde bir turnuvada kendini kanıtlamayı deneyebilirsin.
@@ -529,72 +529,72 @@ menu_start_phase_4|{s11}
 menu_lost_tavern_duel|{s11}
 menu_establish_court|Sarayını {s4}'{.a} kurmak için küçük bir tadilata ihtiyaç var. Bunun için bir alet takımı ve bir rulo kadife gerekiyor. Ayrıca bazı takipçilerinin buraya taşınması biraz vakit alabilir. Devam etmek istiyor musun?
 mno_establish|Sarayı {s4}'{.a} kur.
-menu_notification_relieved_as_marshal|{s4} wishes to inform you that your services as marshal are no longer required. In honor of valiant efforts on behalf of the realm over the last {reg4} days, however, {reg8?she:he} offers you a purse of {reg5} denars.
+menu_notification_relieved_as_marshal|{s4} Size artık mareşal olarak ihtiyacın kalmadığını belirtmek istedi.Sizin ülkeye olan asil katkınız yüzündende In honor of valiant efforts on behalf of the realm over the last {reg4} days, however, {reg8?she:he} offers you a purse of {reg5} denars.
 menu_weather_report|{s1}
-menu_start_game_choose_date|Choose game starting date. It affects coutries military technology level as well as countries borders.
+menu_start_game_choose_date|Başlangıç tarihini seç. Bu ülkelerin askeri teknoloji seviyesini ve dünya haritasını etkiler.Choose game starting date.
 mno_start_game_choose_date_1860|1860.
 mno_start_game_choose_date_1878|1878.
 mno_start_game_choose_date_1891|1891.
 mno_start_game_choose_date_1907|1907.
 mno_start_game_choose_date_1914|1914.
 mno_start_game_choose_date_1916|1916 (Temporary).
-menu_start_game_speed_selection|Select game speed. You will be able to change it later in the game. Game speed affects how fast countries will develop their military technology and start using more advanced firearms.
-mno_game_speed_extremely_fast|Extremely fast (One year passes in 6 days).
-mno_game_speed_very_fast|Very fast (One year passes in 9 days).
-mno_game_speed_fast|Fast (One year passes in 12 days).
-mno_game_speed_normal|Normal (One year passes in 15 days).
-mno_game_speed_slow|Slow (One year passes in 20 days).
-mno_game_speed_very_slow|Very slow (One year passes in 25 days).
-mno_game_speed_extremely_slow|Extremely slow (One year passes in 30 days).
-mno_game_speed_minimum|Minimum (One year passes in 365 days).
-menu_start_game_ai_party_size_selection|Select preferred lords party size. This affects lords parties maximum soldiers amount and can't be changed later in game.
-menu_change_game_speed|Select game speed.
-mno_game_speed_debug|Debug mode (One year passes in 1 day).
-menu_cannoneers_store|The soldiers let you into the armory. Here you can order heavy weaponry - field guns and howitzers.^^Your current balance is {reg0} pounds.^^^Note that cannons won't spawn in battle unless you have either field guns or howitzer company set in prebattle menu.
-mno_cannoneers_store_buy_fieldgun|Order a field gun and hire a cannoneers crew (2000 pounds).
-mno_cannoneers_store_buy_howitzer|Order a howitzer and hire a cannoneers crew (2000 pounds).
-mno_cannoneers_store_buy_mg|Order a machine gun and hire an operator (2500 pounds).
-mno_cannoneers_store_access_wardrobe|Access wardrobe.
-menu_start_game_start_as_leader|Select a faction.
-mno_start_as_leader_france|French Empire.
-mno_start_as_leader_russia|Russian Empire.
-mno_start_as_leader_austria|Austrian Empire.
-mno_start_as_leader_sardinia|Kingdom of Sardinia.
-mno_start_as_leader_prussia|Kingdom of Prussia.
-mno_start_as_leader_ottomans|Ottoman Empire.
-mno_start_as_leader_britain|British Empire.
-mno_start_as_leader_netherlands|Kingdom of Netherlands.
-mno_start_as_leader_spain|Spanish Empire.
-mno_start_as_leader_tunisia|Emirate of Tunisia.
-mno_start_as_leader_sicily|Kingdom of Two Sicilies.
-mno_start_as_leader_persia|Shahdom of Persia.
-mno_start_as_leader_switzerland|Switzerland.
-mno_start_as_leader_egypt|Khedivate of Egypt.
-mno_start_as_leader_morocco|Sultanate of Morocco.
-mno_start_as_leader_portugal|Kingdom of Portugal.
-mno_start_as_leader_oman|Sultanate of Oman.
-mno_start_as_leader_denmark|Kingdom of Denmark.
-mno_start_as_leader_papal|Papal States.
-mno_start_as_leader_colonies|British Colonies.
-mno_start_as_leader_afghanistan|Emirate of Afghanistan.
-mno_start_as_leader_bukhara|Emirate of Bukhara.
-mno_start_as_leader_khiva|Khanate of Khiva.
-mno_start_as_leader_greece|Kingdom of Greece.
-mno_start_as_leader_wallachia|Principality of Wallachia and Moldavia.
-mno_start_as_leader_belgium|Kingdom of Belgium.
-mno_start_as_leader_wurttemberg|Kingdom of Wurttemberg.
-mno_start_as_leader_serbia|Principality of Serbia.
-mno_start_as_leader_sweden|Kingdom of Sweden.
-mno_start_as_leader_bavaria|Kingdom of Bavaria.
-mno_start_as_leader_hannover|Kingdom of Hannover.
-mno_start_as_leader_shammar|Emirate of Shmmar.
-mno_start_as_leader_najd|Emirate of Najd.
-menu_start_game_choose_as_who_to_start|Choose who you want to start the game as.
-mno_start_as_adventurer|Start as adventurer.
-mno_start_as_leader|Start as faction leader.
-menu_tech_invented|The {s3} has researched {s1}!^^^{s2}
-mno_to_the_tech_menu|To technologies menu
-mno_close|Close
+menu_start_game_speed_selection|Oyun hızını seç. Bu ayarı sonra oyun içinde değiştirebilirsin. Oyun hızı ülkelerin ne kadar hızlı askeri teknoloji geliştirdiğini belirler.
+mno_game_speed_extremely_fast|Aşırı hızlı (Bir yıl 6 günde geçer).
+mno_game_speed_very_fast|Çok hızlı (Bir yıl 9 günde geçer).
+mno_game_speed_fast|hızlı (Bir yıl 12 günde geçer).
+mno_game_speed_normal|Normal (Bir yıl 15 günde geçer).
+mno_game_speed_slow|Yavaş (Bir yıl 20 günde geçer).
+mno_game_speed_very_slow|Çok yavaş (Bir yıl 25 günde geçer).
+mno_game_speed_extremely_slow|Aşırı yavaş (Bir yıl 30 günde geçer).
+mno_game_speed_minimum|Minimum (Bir yıl 365 günde geçer).
+menu_start_game_ai_party_size_selection|Tercih ettiğin lord parti büyüklüğünü seç. Bu lordların maksimum ne kadar askeri olabileceğini etkiler ve sonradan oyun içinde değiştirelemez.
+menu_change_game_speed|Oyun hızını seç.
+mno_game_speed_debug|Debug mode (Bir yıl 1 günde geçer).
+menu_cannoneers_store|Askerler cephaneliğe girmene izin veriyor. Burda ağır silah siparişi verebilrisin - Top ve havan topları.^^Şuanki paran {reg0} pound.^^^Eğer savaş menüsünden topçu birliği eklemesseniz topçular savaş alanında gözükmez.
+mno_cannoneers_store_buy_fieldgun|Top ve topçu birliği kirala (2000 pound).
+mno_cannoneers_store_buy_howitzer|Havan topu ve havan topu birliği kirala (2000 pound).
+mno_cannoneers_store_buy_mg|Makineli tüfek ve makineli tüfek birliği kirala (2500 pound).
+mno_cannoneers_store_access_wardrobe|Gardroba göz at.
+menu_start_game_start_as_leader|Ülke seç.
+mno_start_as_leader_france|Fransa imparatorluğu.
+mno_start_as_leader_russia|Rus imparatorluğu.
+mno_start_as_leader_austria|Avusturya imparatorluğu.
+mno_start_as_leader_sardinia|Sardinya krallığı.
+mno_start_as_leader_prussia|Prusya krallığı.
+mno_start_as_leader_ottomans|Osmanlı imparatorluğu.
+mno_start_as_leader_britain|Britanya imparatorluğu.
+mno_start_as_leader_netherlands|Hollanda krallığı
+mno_start_as_leader_spain|İspanya imparatorluğu.
+mno_start_as_leader_tunisia|Tunus emirliği.
+mno_start_as_leader_sicily|İki sicilya krallığı.
+mno_start_as_leader_persia|Pers imparatorluğu.
+mno_start_as_leader_switzerland|İsviçre.
+mno_start_as_leader_egypt|Mısır hividatı.
+mno_start_as_leader_morocco|Fas saltanatı.
+mno_start_as_leader_portugal|Portekiz krallığı.
+mno_start_as_leader_oman|Oman saltanatı.
+mno_start_as_leader_denmark|Danimarka krallığı.
+mno_start_as_leader_papal|Papalık.
+mno_start_as_leader_colonies|İngiliz kolonileri.
+mno_start_as_leader_afghanistan|Afghanistan emirliği.
+mno_start_as_leader_bukhara|Bukhara emirliği.
+mno_start_as_leader_khiva|Khiva kağanlığı.
+mno_start_as_leader_greece|Yunanistan krallığı.
+mno_start_as_leader_wallachia|Eflak ve Moldava krallığı.
+mno_start_as_leader_belgium|Belçika krallığı.
+mno_start_as_leader_wurttemberg|Wruttenberg krallığı.
+mno_start_as_leader_serbia|Sırp prensliği.
+mno_start_as_leader_sweden|İsveç krallığı.
+mno_start_as_leader_bavaria|Bavarya krallığı.
+mno_start_as_leader_hannover|Hannover krallığı.
+mno_start_as_leader_shammar|Shammar emirliği.
+mno_start_as_leader_najd|Najd emirliği.
+menu_start_game_choose_as_who_to_start|Oyuna ne olarak başlamak istediğini seç.
+mno_start_as_adventurer|Maceracı olarak.
+mno_start_as_leader|Ülke lideri olarak.
+menu_tech_invented|The {s3}  {s1}!^^^{s2} Araştırdı
+mno_to_the_tech_menu|Teknoloji menüsüne
+mno_close|Kapat
 menu_welcome_to_be_mod|Welcome to Between Empires!^^Please take a moment to read this, it contains vital information.^^^In order to play the mod properly, you have to use our company system, which you can access in the pre-battle deployment menu, and our new command interface, which you can access via the U key during battles. Hotkeys are listed at the beginning of each battle, take a moment to memorize them.^The company system allows you to split your units into up to 8 infantry, cavalry, or artillery companies. In order for artillery to spawn, you need an artillery company.^^Furthermore, Between Empires includes a unique technology system. Said technology system can be accessed by the player via the reports menu, where it is listed under the technology menu. Certain technologies are required for others to unlock, and researching a technology takes two in-game years, (between 12 and 60 days, depending on your chosen game speed).^Researching technologies is vital for the survival of your nation, as the AI factions will also gain access to technologies as time progresses.^Some factions, such as Prussia, have already unlocked advanced armaments at game start and should be approached accordingly.^^This mod also has various diplomacy features, which are accessable via dialogs with minister of your faction.
 menu_italian_unification|{s32} annexed!^^Following intense fighting against the armies of the {s31}, the {s32} was forced to surrender. After the national committee signed a treaty in the national palace, {s33} ratified the agreement in the early morning hours and effectively ended {s32}'s national sovereignty. Italian Unification has just become a looming reality.
 menu_provocation_created1|Tensions between {s31} and {s32}!^^Public disagreements over the borders created during the Vienna Congress have led to open hostility, with loyalist militias belonging to both states clashing in the entire border region. {s31} has decried the violence, stating their intentions to defend their ethnic enclaves in the nation should it be necessary, while {s32} has declared the fighters as hostile, sovereign actors in an attempt to ease international pressure.^Telegrams and messengers on horseback have been arriving in the capitals of the Western powers since the early morning hours, trying to secure their support for what might well be the prelude to another bloody conflict.
@@ -614,25 +614,25 @@ menu_german_empire_forming|Germany founded^^The German Empire has today been dec
 menu_prussia_unification_denmark_defeated|German-Danish War over^^The Second Schleswig war has ended with a decisive victory for the Germans, led foremost by the Prussian general Helmuth von Moltke.The Danish were beaten back decisively, and the fortress of Schleswig fell to modern artillery fire and massed infantry attacks. Austro-Hungarian field marshal Wilhelm von Tegetthoff has called the war a “decisive and defintive moment in the history of the German people”, and the Regions have Schleswig, Holstein, and Lauenburg have been firmly taken control off by German forces.^Observers fear this is only the first step in German exapansionism...
 menu_prussia_unification_austria_defeated|The German War^^The war between Prussia and the German Confederation, led by the Austro-Hungarian Emperor Franz Joseph I, has come to a close. Prussian forces were able to beat the major German states of Wurttemberg, Bavaria, and Hannover, occupying the latter, and forcing the Austrians to surrender, soon after dissolving the German Confederation and forever barring Austria from a place at the helm of the German people.^German unification is inching closer by the day.
 menu_prussia_unification_france_defeated|The Franco-Prussian War^^The war between the North German Confederation, aided by Southern German forces, has been decisively won by Prussian forces. Though outgunned, German marshal von Moltke managed to utilize new technologies, especially the new railway system, to its fullest effect, taking the French off-guard dozens of times, ultimately defeating them entirely, forcing the Government to surrender.^German unification is only a matter of time now.
-menu_enlistment_office|You enter military enlistment office of {s1}. Here you can enlist in {s2}'s army as regular soldier and try to pave your way to an army high command post. However, if you are of noble blood or are well renowned, you will start your military career as officer.
-mno_enlistment_office_go_ahead|Enlist in army of {s2}.
-menu_enlistment_office_select_class|Select branch of the troops:
-mno_enlistment_office_select_class_lineinf|Line Infantry
-mno_enlistment_office_select_class_lightinf|Light Infantry
-mno_enlistment_office_select_class_guardinf|Guard Infantry
-mno_enlistment_office_select_class_cav|Cavalry
-mno_enlistment_office_select_class_cossack|Cossacks
+menu_enlistment_office|{s1} ' nın askerlik şubesindesin. Burdan {s2}'nın ordusuna katılı terfi edilerek subay olmayı deneyebilrsin.Fakat asil kanlıysan yada şöhretlyisen kariyerine subay olarak başlarsın However, if you are of noble blood or are well renowned, you will start your military career as officer.
+mno_enlistment_office_go_ahead|{s2}'nin ordusuna katıl.
+menu_enlistment_office_select_class|Askerlerin branşını seç:
+mno_enlistment_office_select_class_lineinf|Piyade
+mno_enlistment_office_select_class_lightinf|Hafif piyade
+mno_enlistment_office_select_class_guardinf|Muhafız piyade
+mno_enlistment_office_select_class_cav|Süvari
+mno_enlistment_office_select_class_cossack|Kazak
 menu_enlistment_office_enlisted|enlistment office enlisted
 menu_enlistment_office_enlisted_officer|You became {s1} of {s2} and are ready to start your service.
 menu_enlistment_office_enlisted_soldier|You have been assigned to {s1} as {s2} {s3}.^^You have been transported to the place of performance of duty and start your service.
-mno_enlistment_office_enlisted_start|Start your military career.
-menu_pas_enlistment_menu|You are serving in {s2}. Your current rank is {s1}.^^Current points/points needed for promotion: {reg10}/{reg11}
-mno_pas_enlistment_menu_join_battle|Join battle against {s1}.
-mno_pas_enlistment_menu_talk_to_commander|Talk to your commander.
-mno_pas_enlistment_menu_continue|Continue service.
-mno_pas_enlistment_menu_retire|Retire from service.
-menu_pas_enlistment_reassign|You are being reassigned to {s1}.
-mno_pas_enlistment_reassign_continue|Continue...
-menu_pas_enlistment_end_service_no_lords|All armies were defeated, so you retire from service.
-mno_pas_enlistment_end_service_no_lords_continue|Continue...
-menu_pas_enlistment_promoted|You was promoted to {s1}.
+mno_enlistment_office_enlisted_start|Askeri kariyerine başla.
+menu_pas_enlistment_menu|{s2}'nın ordusundasın. Şuanki rütben {s1}.^^terfi etmen için gereken paun: {reg10}/{reg11}
+mno_pas_enlistment_menu_join_battle|{s1} ' e karşı savaşa katıl.
+mno_pas_enlistment_menu_talk_to_commander|Komutanınla konuş.
+mno_pas_enlistment_menu_continue|Göreve devam et.
+mno_pas_enlistment_menu_retire|Emekliye ayrıl.
+menu_pas_enlistment_reassign|{s1} 'nin ordusuna tayin edildin.
+mno_pas_enlistment_reassign_continue|Devam et...
+menu_pas_enlistment_end_service_no_lords|Bütün ordular yenildi oyüzden emekliye ayrıldın.
+mno_pas_enlistment_end_service_no_lords_continue|Devam et...
+menu_pas_enlistment_promoted|Rütben {s1} 'e yükseltildi.

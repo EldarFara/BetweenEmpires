@@ -14,14 +14,14 @@ fac_culture_7|Troop
 fac_culture_8|Troop
 fac_culture_9|Troop
 fac_culture_10|Troop
-fac_culture_11|Field Gun Crew Officer
-fac_culture_12|Howitzer Crew Officer
-fac_culture_13|Heavy Howitzer Crew Officer
-fac_culture_14|Field Crew Cannoneer
-fac_culture_15|Howitzer Crew Cannoneer
-fac_culture_16|MG Operator
-fac_culture_17|Field Crew Cannoneer
-fac_culture_18|MG Operator
+fac_culture_11|Topcu Subayı
+fac_culture_12|Havan Topu Subayı
+fac_culture_13|Ağır Havan Topu Subayı
+fac_culture_14|Topcu
+fac_culture_15|Havan Topcusu
+fac_culture_16|MG Operatörü
+fac_culture_17|Topcu
+fac_culture_18|MG Operatörü
 fac_player_faction|Oyuncu
 fac_player_supporters_faction|Senin Destekçilerin
 fac_kingdom_1|Svadya Krallığı
@@ -30,35 +30,35 @@ fac_kingdom_3|Kergit Hanlığı
 fac_kingdom_4|Nord Krallığı
 fac_kingdom_5|Rodok Krallığı
 fac_kingdom_6|Sarranid Sultanlığı
-fac_kingdom_7|British Empire
-fac_kingdom_8|Kingdom of Netherlands
-fac_kingdom_9|Spanish Empire
-fac_kingdom_10|Emirate of Tunisia
-fac_kingdom_11|Kingdom of Two Sicilies
-fac_kingdom_12|Shahdom of Persia
-fac_kingdom_13|Switzerland
-fac_kingdom_14|Khedivate of Egypt
-fac_kingdom_15|Sultanate of Morocco
-fac_kingdom_16|Kingdom of Portugal
-fac_kingdom_17|Sultanate of Oman
-fac_kingdom_18|Kingdom of Denmark
-fac_kingdom_19|Papal States
-fac_kingdom_20|British Colonies
-fac_kingdom_21|Emirate of Afghanistan
-fac_kingdom_22|Emirate of Bukhara
-fac_kingdom_23|Khanate of Khiva
-fac_kingdom_24|Kingdom of Greece
-fac_kingdom_25|Romanian Principalities
-fac_kingdom_26|Kingdom of Belgium
-fac_kingdom_27|Kingdom of Wurttemberg
-fac_kingdom_28|Principality of Serbia
-fac_kingdom_29|Kingdom of Sweden
-fac_kingdom_30|Kingdom of Bavaria
-fac_kingdom_31|Kingdom of Hannover
-fac_kingdom_32|Emirate of Shammar
-fac_kingdom_33|Emirate of Najd
-fac_kingdom_usa|United States of America
-fac_kingdom_china|Qing Empire
+fac_kingdom_7|İngiliz İmparatorluğu
+fac_kingdom_8|Hollanda Krallığı
+fac_kingdom_9|İspanyol Krallığı
+fac_kingdom_10|Tunus Emirliği
+fac_kingdom_11|İki Sicilya Krallığı
+fac_kingdom_12|Pers Şahlığı
+fac_kingdom_13|İsviçre
+fac_kingdom_14|Mısır kevidatı
+fac_kingdom_15|Fas Saltanatı
+fac_kingdom_16|Portekiz Krallığı
+fac_kingdom_17|Oman Sultanlığı
+fac_kingdom_18|Danimarka Krallığı
+fac_kingdom_19|Papalık
+fac_kingdom_20|İngiliz Kolonileri
+fac_kingdom_21|Afghanistan Emirliği
+fac_kingdom_22|Bukhara Emirliği
+fac_kingdom_23|Khiva Kağanlığı
+fac_kingdom_24|Yunan Krallığı
+fac_kingdom_25|Roman Prensliği
+fac_kingdom_26|Belçika Krallığı
+fac_kingdom_27|Wruttenberg Krallığı
+fac_kingdom_28|Sırbistan Prensliği
+fac_kingdom_29|İsveç Krallığı
+fac_kingdom_30|Bavarya Krallığı
+fac_kingdom_31|Hannover Krallığı
+fac_kingdom_32|Shammar Emirliği
+fac_kingdom_33|Najd Emirliği
+fac_kingdom_usa|Amerika Birleşik Devletleri
+fac_kingdom_china|Qing İmparatorluğu
 fac_manhunters|Kelle Avcıları
 fac_deserters|Firariler
 fac_mountain_bandits|Dağ Haydutları
