@@ -1,5 +1,5 @@
 itemsfile version 3
-1721
+1733
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -6524,6 +6524,21 @@ itemsfile version 3
  68
 0
 
+ itm_def_infantry6 Belgian_Military_Uniform Belgian_Military_Uniform 1  def_infantry6 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_def_infantry7 Belgian_Military_Uniform Belgian_Military_Uniform 1  def_infantry7 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_def_infantry8 Belgian_Military_Uniform Belgian_Military_Uniform 1  def_infantry8 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
  itm_def_cavalry1 Belgian_Military_Uniform Belgian_Military_Uniform 1  def_cavalry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  68
@@ -6549,12 +6564,57 @@ itemsfile version 3
  68
 0
 
+ itm_def_trousers4 Belgian_Military_Trousers Belgian_Military_Trousers 1  def_trousers4 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_def_trousers5 Belgian_Military_Trousers Belgian_Military_Trousers 1  def_trousers5 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
  itm_def_hat1 Belgian_Shako Belgian_Shako 1  def_hat1 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  68
 0
 
  itm_def_hat2 Belgian_Shako Belgian_Shako 1  def_hat2 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_def_hat3 Belgian_Hat Belgian_Hat 1  def_hat3 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_def_hat4 Belgian_Hat Belgian_Hat 1  def_hat4 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_def_hat5 Belgian_Hat Belgian_Hat 1  def_hat5 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_def_hat6 Belgian_Hat Belgian_Hat 1  def_hat6 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_def_hat7 Belgian_Hat Belgian_Hat 1  def_hat7 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_def_hat8 Belgian_Hat Belgian_Hat 1  def_hat8 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 68
+0
+
+ itm_def_hat9 Belgian_Hat Belgian_Hat 1  def_hat9 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  68
 0
@@ -7368,7 +7428,7 @@ itemsfile version 3
  itm_shotgun_winchester_m1897 Winchester_M1897 Winchester_M1897 2  winchester_m1897 0  winchester_m1897_inv 1152921504606846976  543227913 555929845760 900 131082 3.500000 80 0 0 65 0 0 35 380 0 6 291 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 65 600 10 288230376151713420 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 65 600 10 288230376151713432 1224979098644774912 
 
  itm_shotgun_winchester_m1897_m Winchester_M1897 Winchester_M1897 1  winchester_m1897 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 22528 75 0 100 0 276 534
  0
@@ -7377,7 +7437,7 @@ itemsfile version 3
  itm_shotgun_spencer_m1882 Spencer_Shotgun_Model_1882 Spencer_Shotgun_Model_1882 2  spencer_m1882 0  spencer_m1882_inv 1152921504606846976  543227913 555929845760 900 131082 3.500000 80 0 0 65 0 0 35 380 0 6 291 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 65 600 10 288230376151713422 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 65 600 10 288230376151713434 1224979098644774912 
 
  itm_shotgun_spencer_m1882_m Spencer_Shotgun_Model_1882 Spencer_Shotgun_Model_1882 1  spencer_m1882 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 22528 75 0 100 0 276 534
  0
