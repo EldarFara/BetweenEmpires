@@ -748,6 +748,7 @@ slot_agent_lmg_fire_start_timer      = 59
 slot_agent_grenade_state      = 60
 slot_agent_cannon_gas_shell 	= 61
 slot_agent_under_gas_attack_timer 	= 62
+slot_agent_pinned_down_timer 	= 63
 
 ########################################################
 ##  FACTION SLOTS          #############################

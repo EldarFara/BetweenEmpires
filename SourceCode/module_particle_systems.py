@@ -992,11 +992,11 @@ particle_systems = [
   
     ("bullet_hit", psf_billboard_3d|psf_randomize_size|psf_randomize_rotation| psf_global_emit_dir, "prtcl_dust_a",
       500, 3, 8, 0.2, 2, 20, #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
-      (0.0, 0.5), (1, 0),     #alpha keys
+      (0.0, 0.6), (1, 0),     #alpha keys
       (0.0, 0.95), (1, 0.95),          #red keys
       (0.0, 0.90), (1, 0.90),           #green keys
       (0.0, 0.70), (1, 0.70),          #blue keys
-      (0, 2), (0.8, 4),  #scale keys
+      (0, 3), (1.6, 4),  #scale keys
       (0, 0, 0),         #emit box size
       (0, 0, 10),               #emit velocity
       3,                      #emit dir randomness

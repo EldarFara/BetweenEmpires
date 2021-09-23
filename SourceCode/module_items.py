@@ -1427,7 +1427,7 @@ items = [
   ["ammo_rifle","Ammunition of Rifle Caliber", [("belt_ammo", 0),("bullet_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bolts|itp_default_ammo|itp_merchandise, 0,100, weight(0.4)|abundance(75)|max_ammo(50)|thrust_damage(0, pierce), imodbit_large_bag, [
     (ti_on_missile_hit, [
       (try_begin),
-        (particle_system_burst_no_sync, "psys_bullet_hit", pos1, 8),
+        (particle_system_burst_no_sync, "psys_bullet_hit", pos1, 3),
       (try_end),
     ]),
    ]],
@@ -1436,7 +1436,7 @@ items = [
   ["ammo_pistol","Ammunition of Pistol Caliber", [("belt_ammo", 0),("bullet_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bullets|itp_default_ammo|itp_merchandise, 0,100, weight(0.4)|abundance(75)|max_ammo(30)|thrust_damage(0, pierce), imodbit_large_bag, [
     (ti_on_missile_hit, [
       (try_begin),
-        (particle_system_burst_no_sync, "psys_bullet_hit", pos1, 8),
+        (particle_system_burst_no_sync, "psys_bullet_hit", pos1, 3),
       (try_end),
     ]),
    ]],
@@ -1445,7 +1445,7 @@ items = [
   ["ammo_rifle_double","Doubled Ammunition of Rifle Caliber", [("belt_ammo2", 0),("bullet_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bolts|itp_merchandise, 0,100, weight(0.8)|abundance(75)|max_ammo(100)|thrust_damage(0, pierce), imodbit_large_bag, [
     (ti_on_missile_hit, [
       (try_begin),
-        (particle_system_burst_no_sync, "psys_bullet_hit", pos1, 8),
+        (particle_system_burst_no_sync, "psys_bullet_hit", pos1, 3),
       (try_end),
     ]),
    ]],
@@ -1992,7 +1992,7 @@ items = [
 ["ammo_pistol_double","Doubled Ammunition of Pistol Caliber", [("belt_ammo", 0),("bullet_projectile", ixmesh_flying_ammo),("bullet_packs", ixmesh_carry)], itp_type_bullets|itp_merchandise, 0,100, weight(0.4)|abundance(75)|max_ammo(100)|thrust_damage(0, pierce), imodbit_large_bag, [
 (ti_on_missile_hit, [
   (try_begin),
-	(particle_system_burst_no_sync, "psys_bullet_hit", pos1, 8),
+	(particle_system_burst_no_sync, "psys_bullet_hit", pos1, 3),
   (try_end),
 ]),
 ]],
