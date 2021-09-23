@@ -134,53 +134,53 @@ qstr_The_World_Map|Dünya Haritası
 qstr_Done|Tamamlandı
 qstr_Press_Escape_to_clos|Menüyü kapatmak için esc'ye basın...
 qstr_{s7}__s_Army|{s7} 'nın ordusu
-qstr_Attribute_points_{re|Attribute points {reg40}
-qstr_Skill_points_{reg41}|Skill points {reg41}
-qstr_Weapon_points_{reg42|Weapon points {reg42}
-qstr_Save|Save
+qstr_Attribute_points_{re|Özellik Puanı{reg40}
+qstr_Skill_points_{reg41}|Beceri Puanı{reg41}
+qstr_Weapon_points_{reg42|Silah Hüneri Puanı{reg42}
+qstr_Save|Kaydet
 qstr_Reset|Reset
 qstr_Current:{s1}|Current:{s1}
-qstr_{s2}^Base_Attribute:|{s2}^Base Attribute:CHA
-qstr_{s2}^Base_Attribute:I|{s2}^Base Attribute:INT
-qstr_{s2}^Base_Attribute:A|{s2}^Base Attribute:AGI
-qstr_{s2}^Base_Attribute:S|{s2}^Base Attribute:STR
-qstr_Battle_role:|Battle role:
-qstr_Line_Infantry|Line Infantry
-qstr_Light_Infantry|Light Infantry
-qstr_Guard_Infantry|Guard Infantry
-qstr_Melee_Cavalry|Melee Cavalry
-qstr_Ranged_Cavalry|Ranged Cavalry
-qstr_Guard_Cavalry|Guard Cavalry
-qstr_Next|Next
-qstr_Price_{reg42}^Weight|Price {reg42}^Weight {reg43}
+qstr_{s2}^Base_Attribute:|{s2}^Base Attribute:Karizma
+qstr_{s2}^Base_Attribute:I|{s2}^Base Attribute:Zeka
+qstr_{s2}^Base_Attribute:A|{s2}^Base Attribute:Çeviklik
+qstr_{s2}^Base_Attribute:S|{s2}^Base Attribute:Güç
+qstr_Battle_role:|Savaş Rolü:
+qstr_Line_Infantry|Piyade
+qstr_Light_Infantry|Hafif Piyade
+qstr_Guard_Infantry|Muhafız Piyade
+qstr_Melee_Cavalry|Süvari
+qstr_Ranged_Cavalry|Silahlı Süvari
+qstr_Guard_Cavalry|Muhafız Süvari
+qstr_Next|İleri
+qstr_Price_{reg42}^Weight|Fiyat {reg42}^Ağırlık {reg43}
 qstr_{reg5}_to_{reg6}|{reg5} to {reg6}
-qstr_You_can_t_equip_this|You can't equip this item - wrong slot.
-qstr_Military_Technologie|Military Technologies of the {s1}
-qstr_Research|Research
-qstr_Select_technology|Select technology
-qstr_Rifled_Caplock^^Musk|Rifled Caplock^^Muskets
-qstr_Conversion_Breech_lo|Conversion Breech-loaded^^Rifles
-qstr_Modern^^Breech_loade|Modern^^Breech-loaded Rifles
-qstr_Breech_loaded^^Canno|Breech-loaded^^Cannons
-qstr_Improved_Percussion^|Improved Percussion^^Mechanisms
-qstr_Early_Magazine^^Rifl|Early Magazine^^Rifles
-qstr_Machine_Guns|Machine Guns
-qstr_Modern_Magazine_Rifl|Modern Magazine Rifles
-qstr_Light_Machine^^Guns|Light Machine^^Guns
-qstr_Landships|Landships
-qstr_Crimean_War^^Experie|Crimean War^^Experience
-qstr_Skirmish_Line^^Tacti|Skirmish Line^^Tactics
-qstr_Modern_Defence^^Tact|Modern Defence^^Tactics
-qstr_Modern_Attack_Tactic|Modern Attack Tactics
-qstr_Rapid_Firing^^Artill|Rapid Firing^^Artillery
-qstr_Infantry_Machine^^Gu|Infantry Machine^^Gun Tactics
-qstr_Covering_Fire|Covering Fire
-qstr_Gas_Attacks|Gas Attacks
-qstr_Shock_Troops|Shock Troops
+qstr_You_can_t_equip_this|Bu öğeyi donatamazsınız - yanlış slot.
+qstr_Military_Technologie| {s1}'nun Askeri Teknolojisi
+qstr_Research|Araştır
+qstr_Select_technology|Teknoloji Seç
+qstr_Rifled_Caplock^^Musk|Kapaklı^^Tüfekler
+qstr_Conversion_Breech_lo|Çevrilmiş Arkadan Doldurmalı^^Tüfekler
+qstr_Modern^^Breech_loade|Modern^^Arkadan Doldurmalı Tüfekler
+qstr_Breech_loaded^^Canno|Arkadan Doldurmalı^^Toplar
+qstr_Improved_Percussion^|Geliştirilmiş Perküsyon^^ Mekanizmaları
+qstr_Early_Magazine^^Rifl|İlk Jarjörlü^^Tüfekler
+qstr_Machine_Guns|Makineli Tüfkler
+qstr_Modern_Magazine_Rifl|Modern Jarjörlü Tüfekler
+qstr_Light_Machine^^Guns|Hafif Makineli^^Tüfekler
+qstr_Landships|Tank
+qstr_Crimean_War^^Experie|Kırım Savaşı^^Tecrübesi
+qstr_Skirmish_Line^^Tacti|Çarpışma Hattı^^Teknolojisi
+qstr_Modern_Defence^^Tact|Modern Savunma^^Taktikleri
+qstr_Modern_Attack_Tactic|Modern Saldırı Taktikleri
+qstr_Rapid_Firing^^Artill|Sürekli Ateş Eden^^Toplar
+qstr_Infantry_Machine^^Gu|Piyade Makineli^^Tüfek Taktikleri
+qstr_Covering_Fire|Koruma Ateşi
+qstr_Gas_Attacks|Gaz Saldırısı
+qstr_Shock_Troops|Şok Askeri
 qstr_You_do_not_have_enou|Yeterince Paran yok.
 qstr_faction_technologies|Ülke teknolojisi mevcut.
 qstr_faction_technologies_|ülke teknolojisi devam etmekte
-qstr_Rifled_Caplock^Muske|Rifled Caplock^Misket Tüfeği
+qstr_Rifled_Caplock^Muske|^Misket Tüfeği
 qstr_faction_technologies_p|faction technologies photo riflesrifled
 qstr_Rapid_Firing^Artille|Seri Ateş Eden^Top
 qstr_faction_technologies_ph|faction technologies photo modernartillery
@@ -350,7 +350,7 @@ qstr_{s7}_opened_the_gate|{s7} kapıları açtı
 qstr_{s7}_closed_the_gate|{s7} kapıları kapattı
 qstr_Has_second_barrel__p|Has second barrel (press action^key while aiming to fire a buckshot)
 qstr_Uses_pistol_cartridg|Uses pistol cartridges
-qstr_Smoothbore_musket|Smoothbore musket
+qstr_Smoothbore_musket|Pürüssüz Namlulu Tüfek
 qstr_Rifled_musket|Rifled musket
 qstr_Converted_breech_load|Çevrilmiş arkadan yüklemeli tüfek
 qstr_Modern_breech_loaded|Modern arkadan yüklemeli tüfek
