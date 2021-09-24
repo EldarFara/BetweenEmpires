@@ -1,4 +1,4 @@
-1283
+1288
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -378,9 +378,14 @@ qstr_Rifled_musket Rifled_musket
 qstr_Converted_breech_load Converted_breech_loaded_rifle
 qstr_Modern_breech_loaded Modern_breech_loaded_rifle
 qstr_Smoothbore_pistol Smoothbore_pistol
+qstr_Revolver__7_rounds_ Revolver_(7_rounds)
+qstr_Revolver__8_rounds_ Revolver_(8_rounds)
 qstr_Revolver__6_rounds_ Revolver_(6_rounds)
 qstr_Pocket_Revolver__6_r Pocket_Revolver_(6_rounds)
-qstr_Self_Loading_Pistol_ Self-Loading_Pistol_(8_rounds)
+qstr_Self_Loading_Pistol_ Self-Loading_Pistol_(7_rounds)
+qstr_Self_Loading_Pistol__ Self-Loading_Pistol_(6_rounds)
+qstr_Self_Loading_Pistol__1 Self-Loading_Pistol_(10_rounds)
+qstr_Self_Loading_Pistol__8 Self-Loading_Pistol_(8_rounds)
 qstr_Revolver__9_rounds_ Revolver_(9_rounds)
 qstr_Pump_shotgun__6_roun Pump_shotgun_(6_rounds)
 qstr_Shotgun__2_rounds_ Shotgun_(2_rounds)
