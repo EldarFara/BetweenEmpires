@@ -2126,6 +2126,7 @@ player_fanning_first_shot = (
 (this_or_next|eq, ":item_id", "itm_sidearm_bergman"),
 (this_or_next|eq, ":item_id", "itm_sidearm_frommerstop"),
 (this_or_next|eq, ":item_id", "itm_sidearm_fn1900"),
+(this_or_next|eq, ":item_id", "itm_sidearm_colt1911"),
 (this_or_next|eq, ":item_id", "itm_sidearm_colt1892"),
 (this_or_next|eq, ":item_id", "itm_sidearm_bodeo"),
 (this_or_next|eq, ":item_id", "itm_sidearm_beaumont"),

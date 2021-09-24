@@ -1745,4 +1745,5 @@ itm_sidearm_steyr = 1743
 itm_sidearm_bergman = 1744
 itm_sidearm_frommerstop = 1745
 itm_sidearm_fn1900 = 1746
-itm_items_end = 1747
+itm_sidearm_colt1911 = 1747
+itm_items_end = 1748
