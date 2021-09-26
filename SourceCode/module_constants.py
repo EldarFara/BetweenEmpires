@@ -9,12 +9,7 @@ from ID_parties import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
-craters_limit = 200
-
-# PAS:
-# script_decide_faction_ai
-# script_calculate_troop_ai
-# script_async_recalculate_ais
+craters_limit = 400
 
 cannon_type_fieldgun = 0
 cannon_type_howitzer = 1
@@ -125,6 +120,7 @@ language_german = 3
 language_turkish = 4
 language_spanish = 5
 language_italian = 6
+language_french = 7
 
 vo_type_on_company_select = 1
 vo_type_yes_sir = 2

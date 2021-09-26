@@ -427,10 +427,22 @@ snd_voice_ita_gasmaskson1 = 425
 snd_voice_ita_gasattack1 = 426
 snd_voice_all_gas_reaction1 = 427
 snd_voice_all_gas_reaction_f1 = 428
-snd_hmg_shot1 = 429
-snd_hmg_shot_distant1 = 430
-snd_shot_lmg1 = 431
-snd_shot_lmg2 = 432
-snd_gas_shell1 = 433
+snd_voice_fra_on_company_select1 = 429
+snd_voice_fra_yes_sir1 = 430
+snd_voice_fra_charge1 = 431
+snd_voice_fra_retreat1 = 432
+snd_voice_fra_chargewarcry1 = 433
+snd_voice_fra_bayonets1 = 434
+snd_voice_fra_fire_at_will1 = 435
+snd_voice_fra_hold_ground1 = 436
+snd_voice_fra_keep_shooting1 = 437
+snd_voice_fra_gas1 = 438
+snd_voice_fra_gasmaskson1 = 439
+snd_voice_fra_gasattack1 = 440
+snd_hmg_shot1 = 441
+snd_hmg_shot_distant1 = 442
+snd_shot_lmg1 = 443
+snd_shot_lmg2 = 444
+snd_gas_shell1 = 445
 
 

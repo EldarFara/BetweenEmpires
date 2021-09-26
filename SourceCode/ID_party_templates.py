@@ -201,3 +201,6 @@ pt_middleasia_bandits = 199
 pt_factionplayer_reinforcements_a = 200
 pt_factionplayer_reinforcements_b = 201
 pt_factionplayer_reinforcements_c = 202
+pt_factionbulgaria_reinforcements_a = 203
+pt_factionbulgaria_reinforcements_b = 204
+pt_factionbulgaria_reinforcements_c = 205

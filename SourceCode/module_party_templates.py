@@ -274,6 +274,10 @@ party_templates = [
   ("factionplayer_reinforcements_a", "{!}faction1_reinforcements_a", 0, 0, fac_commoners, 0, [(trp_kingdom_recruit,2,4),(trp_kingdom_militia,5,7)]),
   ("factionplayer_reinforcements_b", "{!}faction1_reinforcements_b", 0, 0, fac_commoners, 0, [(trp_kingdom_footman,5,7),(trp_kingdom_infantry,2,4)]),
   ("factionplayer_reinforcements_c", "{!}faction1_reinforcements_c", 0, 0, fac_commoners, 0, [(trp_kingdom_sergeant,2,4),(trp_kingdom_skirmisher,1,2)]),
+  
+  ("factionbulgaria_reinforcements_a", "{!}faction1_reinforcements_a", 0, 0, fac_commoners, 0, [(trp_factionbulgaria_troop1,2,4),(trp_factionbulgaria_troop2,5,7)]),
+  ("factionbulgaria_reinforcements_b", "{!}faction1_reinforcements_b", 0, 0, fac_commoners, 0, [(trp_factionbulgaria_troop3,5,7),(trp_factionbulgaria_troop4,2,4)]),
+  ("factionbulgaria_reinforcements_c", "{!}faction1_reinforcements_c", 0, 0, fac_commoners, 0, [(trp_factionbulgaria_troop5,4,8),(trp_factionbulgaria_troop6,3,5)]),
 ]
 
 

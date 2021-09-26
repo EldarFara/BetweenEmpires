@@ -1,5 +1,5 @@
 soundsfile version 3
-2923
+3109
  drum_3.ogg 769
  tutorial_1.ogg 1793
  tutorial_2.ogg 1793
@@ -2903,6 +2903,192 @@ soundsfile version 3
  voice_all_gas_reaction_f18.wav 2784
  voice_all_gas_reaction_f19.wav 2784
  voice_all_gas_reaction_f20.wav 2784
+ voice_fra_on_company_select01.wav 2784
+ voice_fra_on_company_select02.wav 2784
+ voice_fra_on_company_select03.wav 2784
+ voice_fra_on_company_select04.wav 2784
+ voice_fra_on_company_select05.wav 2784
+ voice_fra_on_company_select06.wav 2784
+ voice_fra_on_company_select07.wav 2784
+ voice_fra_on_company_select08.wav 2784
+ voice_fra_on_company_select09.wav 2784
+ voice_fra_on_company_select10.wav 2784
+ voice_fra_on_company_select11.wav 2784
+ voice_fra_on_company_select12.wav 2784
+ voice_fra_on_company_select13.wav 2784
+ voice_fra_on_company_select14.wav 2784
+ voice_fra_on_company_select15.wav 2784
+ voice_fra_on_company_select16.wav 2784
+ voice_fra_on_company_select17.wav 2784
+ voice_fra_on_company_select18.wav 2784
+ voice_fra_on_company_select19.wav 2784
+ voice_fra_on_company_select20.wav 2784
+ voice_fra_on_company_select21.wav 2784
+ voice_fra_on_company_select22.wav 2784
+ voice_fra_on_company_select23.wav 2784
+ voice_fra_on_company_select24.wav 2784
+ voice_fra_on_company_select25.wav 2784
+ voice_fra_on_company_select26.wav 2784
+ voice_fra_on_company_select27.wav 2784
+ voice_fra_on_company_select28.wav 2784
+ voice_fra_on_company_select29.wav 2784
+ voice_fra_on_company_select30.wav 2784
+ voice_fra_on_company_select31.wav 2784
+ voice_fra_on_company_select32.wav 2784
+ voice_fra_yes_sir01.wav 2272
+ voice_fra_yes_sir02.wav 2272
+ voice_fra_yes_sir03.wav 2272
+ voice_fra_yes_sir04.wav 2272
+ voice_fra_yes_sir05.wav 2272
+ voice_fra_yes_sir06.wav 2272
+ voice_fra_yes_sir07.wav 2272
+ voice_fra_yes_sir08.wav 2272
+ voice_fra_yes_sir09.wav 2272
+ voice_fra_yes_sir10.wav 2272
+ voice_fra_yes_sir11.wav 2272
+ voice_fra_yes_sir12.wav 2272
+ voice_fra_yes_sir13.wav 2272
+ voice_fra_yes_sir14.wav 2272
+ voice_fra_yes_sir15.wav 2272
+ voice_fra_yes_sir16.wav 2272
+ voice_fra_yes_sir17.wav 2272
+ voice_fra_yes_sir18.wav 2272
+ voice_fra_yes_sir19.wav 2272
+ voice_fra_yes_sir20.wav 2272
+ voice_fra_yes_sir21.wav 2272
+ voice_fra_yes_sir22.wav 2272
+ voice_fra_yes_sir23.wav 2272
+ voice_fra_yes_sir24.wav 2272
+ voice_fra_yes_sir25.wav 2272
+ voice_fra_yes_sir26.wav 2272
+ voice_fra_yes_sir27.wav 2272
+ voice_fra_yes_sir28.wav 2272
+ voice_fra_yes_sir29.wav 2272
+ voice_fra_yes_sir30.wav 2272
+ voice_fra_yes_sir31.wav 2272
+ voice_fra_yes_sir32.wav 2272
+ voice_fra_charge01.wav 3296
+ voice_fra_charge02.wav 3296
+ voice_fra_charge03.wav 3296
+ voice_fra_charge04.wav 3296
+ voice_fra_charge05.wav 3296
+ voice_fra_charge06.wav 3296
+ voice_fra_charge07.wav 3296
+ voice_fra_charge08.wav 3296
+ voice_fra_charge09.wav 3296
+ voice_fra_charge10.wav 3296
+ voice_fra_charge11.wav 3296
+ voice_fra_charge12.wav 3296
+ voice_fra_charge13.wav 3296
+ voice_fra_charge14.wav 3296
+ voice_fra_charge15.wav 3296
+ voice_fra_charge16.wav 3296
+ voice_fra_charge17.wav 3296
+ voice_fra_charge18.wav 3296
+ voice_fra_charge19.wav 3296
+ voice_fra_charge20.wav 3296
+ voice_fra_charge21.wav 3296
+ voice_fra_charge22.wav 3296
+ voice_fra_charge24.wav 3296
+ voice_fra_retreat01.wav 3296
+ voice_fra_retreat02.wav 3296
+ voice_fra_retreat03.wav 3296
+ voice_fra_retreat04.wav 3296
+ voice_fra_retreat05.wav 3296
+ voice_fra_retreat06.wav 3296
+ voice_fra_retreat07.wav 3296
+ voice_fra_retreat08.wav 3296
+ voice_fra_retreat09.wav 3296
+ voice_fra_retreat10.wav 3296
+ voice_fra_retreat11.wav 3296
+ voice_fra_retreat12.wav 3296
+ voice_fra_retreat13.wav 3296
+ voice_fra_retreat14.wav 3296
+ voice_fra_retreat15.wav 3296
+ voice_fra_retreat16.wav 3296
+ voice_fra_retreat17.wav 3296
+ voice_fra_retreat18.wav 3296
+ voice_fra_retreat19.wav 3296
+ voice_fra_retreat20.wav 3296
+ voice_fra_retreat21.wav 3296
+ voice_fra_retreat22.wav 3296
+ voice_fra_retreat23.wav 3296
+ voice_fra_retreat24.wav 3296
+ voice_fra_retreat25.wav 3296
+ voice_fra_retreat26.wav 3296
+ voice_fra_retreat27.wav 3296
+ voice_fra_retreat28.wav 3296
+ voice_fra_retreat29.wav 3296
+ voice_fra_retreat30.wav 3296
+ voice_fra_chargewarcry01.wav 2784
+ voice_fra_chargewarcry02.wav 2784
+ voice_fra_chargewarcry03.wav 2784
+ voice_fra_chargewarcry04.wav 2784
+ voice_fra_chargewarcry05.wav 2784
+ voice_fra_chargewarcry06.wav 2784
+ voice_fra_chargewarcry07.wav 2784
+ voice_fra_chargewarcry08.wav 2784
+ voice_fra_chargewarcry09.wav 2784
+ voice_fra_chargewarcry10.wav 2784
+ voice_fra_chargewarcry11.wav 2784
+ voice_fra_chargewarcry12.wav 2784
+ voice_fra_chargewarcry13.wav 2784
+ voice_fra_chargewarcry14.wav 2784
+ voice_fra_chargewarcry15.wav 2784
+ voice_fra_chargewarcry16.wav 2784
+ voice_fra_chargewarcry17.wav 2784
+ voice_fra_chargewarcry18.wav 2784
+ voice_fra_bayonets01.wav 3808
+ voice_fra_fire_at_will01.wav 3808
+ voice_fra_hold_ground01.wav 2272
+ voice_fra_hold_ground02.wav 2272
+ voice_fra_hold_ground03.wav 2272
+ voice_fra_hold_ground04.wav 2272
+ voice_fra_hold_ground05.wav 2272
+ voice_fra_hold_ground06.wav 2272
+ voice_fra_keep_shooting01.wav 3296
+ voice_fra_keep_shooting02.wav 3296
+ voice_fra_keep_shooting03.wav 3296
+ voice_fra_keep_shooting04.wav 3296
+ voice_fra_keep_shooting05.wav 3296
+ voice_fra_keep_shooting06.wav 3296
+ voice_fra_gas01.wav 2784
+ voice_fra_gas02.wav 2784
+ voice_fra_gas03.wav 2784
+ voice_fra_gas04.wav 2784
+ voice_fra_gas05.wav 2784
+ voice_fra_gas06.wav 2784
+ voice_fra_gas07.wav 2784
+ voice_fra_gas08.wav 2784
+ voice_fra_gas09.wav 2784
+ voice_fra_gas10.wav 2784
+ voice_fra_gas11.wav 2784
+ voice_fra_gas12.wav 2784
+ voice_fra_gas13.wav 2784
+ voice_fra_gas14.wav 2784
+ voice_fra_gas15.wav 2784
+ voice_fra_gas16.wav 2784
+ voice_fra_gas17.wav 2784
+ voice_fra_gas18.wav 2784
+ voice_fra_gas19.wav 2784
+ voice_fra_gas20.wav 2784
+ voice_fra_gas21.wav 2784
+ voice_fra_gas22.wav 2784
+ voice_fra_gas23.wav 2784
+ voice_fra_gas24.wav 2784
+ voice_fra_gas25.wav 2784
+ voice_fra_gas26.wav 2784
+ voice_fra_gas27.wav 2784
+ voice_fra_gas28.wav 2784
+ voice_fra_gas29.wav 2784
+ voice_fra_gas30.wav 2784
+ voice_fra_gas31.wav 2784
+ voice_fra_gas32.wav 2784
+ voice_fra_gasmaskson01.wav 3808
+ voice_fra_gasmaskson02.wav 3808
+ voice_fra_gasmaskson03.wav 3808
+ voice_fra_gasattack01.wav 3808
+ voice_fra_gasattack02.wav 3808
  hmg_shot1_1.wav 3808
  hmg_shot1_2.wav 3808
  hmg_shot1_3.wav 3808
@@ -2923,7 +3109,7 @@ soundsfile version 3
  gas_shell1_1.wav 2720
  gas_shell1_2.wav 2720
  gas_shell1_3.wav 2720
-434
+446
 snd_click 769 1 0 0 
 snd_tutorial_1 1793 1 1 0 
 snd_tutorial_2 1793 1 2 0 
@@ -3353,8 +3539,20 @@ snd_voice_ita_gasmaskson1 3808 1 2851 0
 snd_voice_ita_gasattack1 3808 2 2852 0 2853 0 
 snd_voice_all_gas_reaction1 2784 29 2854 0 2855 0 2856 0 2857 0 2858 0 2859 0 2860 0 2861 0 2862 0 2863 0 2864 0 2865 0 2866 0 2867 0 2868 0 2869 0 2870 0 2871 0 2872 0 2873 0 2874 0 2875 0 2876 0 2877 0 2878 0 2879 0 2880 0 2881 0 2882 0 
 snd_voice_all_gas_reaction_f1 2784 20 2883 0 2884 0 2885 0 2886 0 2887 0 2888 0 2889 0 2890 0 2891 0 2892 0 2893 0 2894 0 2895 0 2896 0 2897 0 2898 0 2899 0 2900 0 2901 0 2902 0 
-snd_hmg_shot1 3808 6 2903 0 2904 0 2905 0 2906 0 2907 0 2908 0 
-snd_hmg_shot_distant1 4064 5 2909 0 2910 0 2911 0 2912 0 2913 0 
-snd_shot_lmg1 4064 3 2914 0 2915 0 2916 0 
-snd_shot_lmg2 4064 3 2917 0 2918 0 2919 0 
-snd_gas_shell1 2720 3 2920 0 2921 0 2922 0 
+snd_voice_fra_on_company_select1 2784 32 2903 0 2904 0 2905 0 2906 0 2907 0 2908 0 2909 0 2910 0 2911 0 2912 0 2913 0 2914 0 2915 0 2916 0 2917 0 2918 0 2919 0 2920 0 2921 0 2922 0 2923 0 2924 0 2925 0 2926 0 2927 0 2928 0 2929 0 2930 0 2931 0 2932 0 2933 0 2934 0 
+snd_voice_fra_yes_sir1 2272 32 2935 0 2936 0 2937 0 2938 0 2939 0 2940 0 2941 0 2942 0 2943 0 2944 0 2945 0 2946 0 2947 0 2948 0 2949 0 2950 0 2951 0 2952 0 2953 0 2954 0 2955 0 2956 0 2957 0 2958 0 2959 0 2960 0 2961 0 2962 0 2963 0 2964 0 2965 0 2966 0 
+snd_voice_fra_charge1 3296 24 2967 0 2968 0 2969 0 2970 0 2971 0 2972 0 2973 0 2974 0 2975 0 2976 0 2977 0 2978 0 2979 0 2980 0 2981 0 2982 0 2983 0 2984 0 2985 0 2986 0 2987 0 2988 0 2988 0 2989 0 
+snd_voice_fra_retreat1 3296 30 2990 0 2991 0 2992 0 2993 0 2994 0 2995 0 2996 0 2997 0 2998 0 2999 0 3000 0 3001 0 3002 0 3003 0 3004 0 3005 0 3006 0 3007 0 3008 0 3009 0 3010 0 3011 0 3012 0 3013 0 3014 0 3015 0 3016 0 3017 0 3018 0 3019 0 
+snd_voice_fra_chargewarcry1 2784 18 3020 0 3021 0 3022 0 3023 0 3024 0 3025 0 3026 0 3027 0 3028 0 3029 0 3030 0 3031 0 3032 0 3033 0 3034 0 3035 0 3036 0 3037 0 
+snd_voice_fra_bayonets1 3808 1 3038 0 
+snd_voice_fra_fire_at_will1 3808 1 3039 0 
+snd_voice_fra_hold_ground1 2272 6 3040 0 3041 0 3042 0 3043 0 3044 0 3045 0 
+snd_voice_fra_keep_shooting1 3296 6 3046 0 3047 0 3048 0 3049 0 3050 0 3051 0 
+snd_voice_fra_gas1 2784 32 3052 0 3053 0 3054 0 3055 0 3056 0 3057 0 3058 0 3059 0 3060 0 3061 0 3062 0 3063 0 3064 0 3065 0 3066 0 3067 0 3068 0 3069 0 3070 0 3071 0 3072 0 3073 0 3074 0 3075 0 3076 0 3077 0 3078 0 3079 0 3080 0 3081 0 3082 0 3083 0 
+snd_voice_fra_gasmaskson1 3808 3 3084 0 3085 0 3086 0 
+snd_voice_fra_gasattack1 3808 2 3087 0 3088 0 
+snd_hmg_shot1 3808 6 3089 0 3090 0 3091 0 3092 0 3093 0 3094 0 
+snd_hmg_shot_distant1 4064 5 3095 0 3096 0 3097 0 3098 0 3099 0 
+snd_shot_lmg1 4064 3 3100 0 3101 0 3102 0 
+snd_shot_lmg2 4064 3 3103 0 3104 0 3105 0 
+snd_gas_shell1 2720 3 3106 0 3107 0 3108 0 

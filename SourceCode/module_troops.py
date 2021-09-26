@@ -2193,6 +2193,54 @@ troops = [
   ["faction33_castleguard", "Najdi Guard", "Najdi Guard", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_33,
   [itm_ammo_rifle, itm_rifle_middle_east_musket1]+items_arabian_clothing,
   str_7|agi_5|int_4|cha_4|level(4), wp(60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001bd00658236db6db6db6db6db00000000001db6db0000000000000000, 0x00000001bd00690236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionbulgaria_troop1", "Bulgarian Recruit", "Bulgarian Recruits", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_27,
+  [itm_bul_trousers1, itm_bul_infantry3, itm_bul_hat4, itm_rifle_bulgarian_smoothbore, itm_ammo_rifle],
+  str_5|agi_5|int_4|cha_4|level(4), wp1(60, 50), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000100236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionbulgaria_troop2", "Bulgarian Infantry", "Bulgarian Infantry", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_27,
+  [itm_bul_trousers1, itm_bul_infantry3, itm_bul_hat4, itm_rifle_bulgarian_smoothbore, itm_ammo_rifle],
+  str_7|agi_5|int_4|cha_4|level(8), wp1(75, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionbulgaria_troop3", "Bulgarian Infantry (Exp.)", "Bulgarian Infantry (Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_27,
+  [itm_bul_trousers1, itm_bul_infantry3, itm_bul_hat4, itm_rifle_bulgarian_smoothbore, itm_ammo_rifle],
+  str_9|agi_5|int_4|cha_4|level(12), wp1(90, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000900236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionbulgaria_troop4", "Bulgarian Infantry (Very Exp.)", "Bulgarian Infantry (Very Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_27,
+  [itm_bul_trousers1, itm_bul_infantry3, itm_bul_hat4, itm_rifle_bulgarian_smoothbore, itm_ammo_rifle],
+  str_11|agi_5|int_4|cha_4|level(16), wp1(105, 75), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000800236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionbulgaria_troop5", "Bulgarian Light Infantry", "Bulgarian Light Infantry", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_27,
+  [itm_bul_trousers2, itm_bul_infantry2, itm_bul_hat1, itm_rifle_bulgarian_smoothbore, itm_ammo_rifle],
+  str_5|agi_5|int_4|cha_4|level(12), wp1(55, 80), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000500236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionbulgaria_troop6", "Bulgarian Light Infantry (Exp.)", "Bulgarian Light Infantry (Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_27,
+  [itm_bul_trousers2, itm_bul_infantry2, itm_bul_hat1, itm_rifle_bulgarian_smoothbore, itm_ammo_rifle],
+  str_5|agi_5|int_4|cha_4|level(16), wp1(60, 90), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000200236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionbulgaria_troop7", "Bulgarian Guard", "Bulgarian Guard", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_27,
+  [itm_bul_trousers2, itm_bul_infantry1, itm_bul_hat3, itm_rifle_bulgarian_smoothbore, itm_ammo_rifle],
+  str_13|agi_5|int_4|cha_4|level(20), wp1(120, 75), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000100236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionbulgaria_troop8", "Bulgarian Guard (Exp.)", "Bulgarian Guards (Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_27,
+  [itm_bul_trousers2, itm_bul_infantry1, itm_bul_hat3, itm_rifle_bulgarian_smoothbore, itm_ammo_rifle],
+  str_15|agi_5|int_4|cha_4|level(22), wp1(140, 80), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionbulgaria_troop9", "Bulgarian Uhlan", "Bulgarian Uhlans", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_27,
+  [itm_bul_infantry4, itm_bul_hat2, itm_bul_trousers3, itm_lance1]+items_russian_horses,
+  str_7|agi_5|int_4|cha_4|level(8), wp1(95, 50), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000900236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000900236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionbulgaria_troop10", "Bulgarian Uhlan (Exp.)", "Bulgarian Uhlans (Exp.)", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_27,
+  [itm_bul_infantry4, itm_bul_hat2, itm_bul_trousers3, itm_lance1]+items_russian_horses,
+  str_9|agi_5|int_4|cha_4|level(13), wp1(110, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000800236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000800236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionbulgaria_troop11", "Bulgarian Dragoon", "Bulgarian Dragoons", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_27,
+  [itm_bul_infantry5, itm_bul_hat2, itm_bul_trousers3, itm_rifle_bulgarian_smoothbore_carbine, itm_ammo_rifle]+items_russian_horses,
+  str_9|agi_5|int_4|cha_4|level(13), wp1(70, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000500236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000500236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionbulgaria_troop12", "Bulgarian Dragoon (Exp.)", "Bulgarian Dragoons (Exp.)", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_27,
+  [itm_bul_infantry5, itm_bul_hat2, itm_bul_trousers3, itm_rifle_bulgarian_smoothbore_carbine, itm_ammo_rifle]+items_russian_horses,
+  str_11|agi_5|int_4|cha_4|level(18), wp1(85, 80), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000200236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000200236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionbulgaria_troop13", "Bulgarian Guard Cavalry", "Bulgarian Guard Cavalry", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_27,
+  [itm_bul_infantry5, itm_bul_hat3, itm_bul_trousers3, itm_rifle_bulgarian_smoothbore_carbine, itm_ammo_rifle]+items_russian_horses,
+  str_15|agi_5|int_4|cha_4|level(23), wp1(115, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000100236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000100236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionbulgaria_troop14", "Bulgarian Guard Cavalry (Exp.)", "Bulgarian Guard Cavalry (Exp.)", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_27,
+  [itm_bul_infantry5, itm_bul_hat3, itm_bul_trousers3, itm_rifle_bulgarian_smoothbore_carbine, itm_ammo_rifle]+items_russian_horses,
+  str_19|agi_5|int_4|cha_4|level(25), wp1(130, 65), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000000236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionbulgaria_prisonguard", "Bulgarian Prison Guard", "Bulgarian Prison Guards", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_27,
+  [itm_bul_trousers1, itm_bul_infantry3, itm_bul_hat4, itm_rifle_bulgarian_smoothbore, itm_ammo_rifle],
+  str_7|agi_7|int_4|cha_4|level(8), wp1(70, 40), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000900236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000900236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionbulgaria_castleguard", "Bulgarian HQ Guard", "Bulgarian HQ Guards", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_27,
+  [itm_bul_trousers1, itm_bul_infantry3, itm_bul_hat4, itm_rifle_bulgarian_smoothbore, itm_ammo_rifle],
+  str_7|agi_7|int_4|cha_4|level(8), wp1(70, 40), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000800236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000800236db6db6db6db6db00000000001db6db0000000000000000],
   ["looter", "Looter", "Looters", 0, 0, 0, fac_outlaws,
   []+items_european_urban_clothing_male+items_melee_civilian_rural+items_bandit_rifles,
   str_7|agi_5|int_4|cha_4|level(4), wp(20), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000003f00000236db6db6db6db6db00000000001db6db0000000000000000, 0x0000000fff0052064deeffffffffffff00000000001efff90000000000000000],
@@ -12491,6 +12539,17 @@ upgrade(troops,"faction33_troop7", "faction33_troop8")
 upgrade2(troops,"faction33_troop9", "faction33_troop10", "faction33_troop11")
 upgrade(troops,"faction33_troop11", "faction33_troop12")
 upgrade(troops,"faction33_troop6", "faction33_troop13")
+
+upgrade2(troops,"factionbulgaria_troop1", "factionbulgaria_troop2", "factionbulgaria_troop9")
+upgrade(troops,"factionbulgaria_troop3", "factionbulgaria_troop4")
+upgrade2(troops,"factionbulgaria_troop2", "factionbulgaria_troop3", "factionbulgaria_troop5")
+upgrade(troops,"factionbulgaria_troop5", "factionbulgaria_troop6")
+upgrade(troops,"factionbulgaria_troop4", "factionbulgaria_troop7")
+upgrade(troops,"factionbulgaria_troop7", "factionbulgaria_troop8")
+upgrade2(troops,"factionbulgaria_troop9", "factionbulgaria_troop10", "factionbulgaria_troop11")
+upgrade2(troops,"factionbulgaria_troop11", "factionbulgaria_troop12", "factionbulgaria_troop13")
+upgrade(troops,"factionbulgaria_troop10", "factionbulgaria_troop13")
+upgrade(troops,"factionbulgaria_troop13", "factionbulgaria_troop14")
 
 upgrade(troops,"farmer", "watchman")
 upgrade(troops,"townsman","watchman")
