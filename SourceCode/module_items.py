@@ -55,10 +55,15 @@ damage_small_caliber_rifle = 50
 damage_rifle = 55
 damage_musket = 55
 
-shot_speed_bolt_action_rifle = 700
-shot_speed_small_caliber_rifle = 650
-shot_speed_rifle = 600
-shot_speed_musket = 400
+shot_speed_bolt_action_rifle = 10000
+shot_speed_small_caliber_rifle = 10000
+shot_speed_rifle = 10000
+shot_speed_musket = 10000
+
+# shot_speed_bolt_action_rifle = 700
+# shot_speed_small_caliber_rifle = 650
+# shot_speed_rifle = 600
+# shot_speed_musket = 400
 
 accuracy_carbine_modifier = 0.85
 speed_carbine_modifier = 1.15
@@ -1405,6 +1410,7 @@ items = [
 ["ria_hat9","Russian Hat", [("ria_hat9", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_2]],
 ["ria_hat9b","Russian Hat", [("ria_hat9b", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_2]],
 ["ria_hat10","Russian Helmet", [("ria_hat10", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_2]],
+["ria_hat11","Russian Helmet", [("ria_hat11", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_2]],
 ["ria_leader1","Russian Military Uniform", [("ria_leader1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
 
 ["clothes_adventurer_male_trousers1","Adventurer's Trousers", [("clothes_adventurer_male_trousers1", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, []],
@@ -2226,19 +2232,19 @@ items = [
 ["cavalry_gloves1","Gloves", [("cavalry_gloves1_L",0)], itp_type_hand_armor,0, 90, weight(0.25)|abundance(50)|body_armor(1)|difficulty(0),imodbits_cloth],
 
 ["shotgun_caplock","Double-Barrel Caplock Shotgun", [("shotgun_caplock", 0),("shotgun_caplock_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear,price_pistol_aboveaverage, weight(3.7)|abundance(80)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_muzzleloaded_musket)|shoot_speed(shotgun_muzzle_velocity)|max_ammo(2)|thrust_damage(damage_shotgun, pierce), imodbits_firearm, 
-[(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 60, 600, pos10, "itm_shotgun_caplock", ":agent"),])]],
+[(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 20, 600, pos10, "itm_shotgun_caplock", ":agent"),])]],
 ["shotgun_caplock_m","Double-Barrel Caplock Shotgun", [("shotgun_caplock", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(3.7)|hit_points(18432)|spd_rtng(75)|weapon_length(100)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],
 ["shotgun_doublebarrel","Double-Barrel Shotgun", [("shotgun_doublebarrel", 0),("shotgun_doublebarrel_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,price_pistol_high, weight(3.7)|abundance(80)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_conversion_rifle)|shoot_speed(shotgun_muzzle_velocity)|max_ammo(2)|thrust_damage(damage_shotgun+4, pierce), imodbits_firearm, 
-[(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 80, 500, pos10, "itm_shotgun_doublebarrel", ":agent"),])]],
+[(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 25, 500, pos10, "itm_shotgun_doublebarrel", ":agent"),])]],
 ["shotgun_doublebarrel_m","Double-Barrel Shotgun", [("shotgun_doublebarrel", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(3.7)|hit_points(18432)|spd_rtng(75)|weapon_length(100)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],
 ["shotgun_doublebarrel_short","Shortened Double-Barrel Shotgun", [("shotgun_doublebarrel", 0),("shotgun_doublebarrel_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,price_pistol_high, weight(3.7)|abundance(80)|accuracy(accuracy_muzzleloaded_musket-5)|spd_rtng(speed_small_caliber_rifle)|shoot_speed(shotgun_muzzle_velocity)|max_ammo(2)|thrust_damage(damage_shotgun+4, pierce), imodbits_firearm, 
-[(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 80, 750, pos10, "itm_shotgun_doublebarrel_short", ":agent"),])]],
+[(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 25, 750, pos10, "itm_shotgun_doublebarrel_short", ":agent"),])]],
 ["shotgun_doublebarrel_short_m","Shortened Double-Barrel Shotgun", [("shotgun_doublebarrel", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(3.7)|hit_points(18432)|spd_rtng(75)|weapon_length(100)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],
 ["shotgun_winchester_m1887","Winchester M1887", [("winchester_m1887", 0),("winchester_m1887_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,price_pistol_veryhigh, weight(3.7)|abundance(80)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_conversion_rifle)|shoot_speed(shotgun_muzzle_velocity)|max_ammo(6)|thrust_damage(damage_shotgun+4, pierce), imodbits_firearm, 
-[(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 65, 600, pos10, "itm_shotgun_winchester_m1887", ":agent"),])]],
+[(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 25, 600, pos10, "itm_shotgun_winchester_m1887", ":agent"),])]],
 ["shotgun_winchester_m1887_m","Winchester M1887", [("winchester_m1887", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(3.7)|hit_points(18432)|spd_rtng(75)|weapon_length(100)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],
 ["shotgun_greener","Greener Shotgun", [("greener", 0),("greener_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,price_pistol_low, weight(3.7)|abundance(80)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_conversion_rifle+10)|shoot_speed(shotgun_muzzle_velocity)|max_ammo(1)|thrust_damage(damage_shotgun+15, pierce), imodbits_firearm, 
-[(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 90, 650, pos10, "itm_shotgun_greener", ":agent"),])]],
+[(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 30, 650, pos10, "itm_shotgun_greener", ":agent"),])]],
 ["shotgun_greener_m","Greener Shotgun", [("greener", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(3.7)|hit_points(18432)|spd_rtng(75)|weapon_length(100)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],
 
 ["urban_dress1_trousers","Skirt", [("urban_dress1b_trousers", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, []],
@@ -2535,10 +2541,10 @@ items = [
 ["rifle_krag_carbine_m","Krag-Jorgensen Carbine", [("krag_carbine", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(18432)|spd_rtng(75)|weapon_length(80)|thrust_damage(20, blunt)|swing_damage(0, blunt), imodbits_none, []],
 
 ["shotgun_winchester_m1897","Winchester M1897", [("winchester_m1897", 0),("winchester_m1897_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,price_pistol_veryhigh, weight(3.7)|abundance(80)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_conversion_rifle)|shoot_speed(shotgun_muzzle_velocity)|max_ammo(6)|thrust_damage(damage_shotgun+10, pierce), imodbits_firearm, 
-[(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 65, 600, pos10, "itm_shotgun_winchester_m1897", ":agent"),])]],
+[(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 20, 600, pos10, "itm_shotgun_winchester_m1897", ":agent"),])]],
 ["shotgun_winchester_m1897_m","Winchester M1897", [("winchester_m1897", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(3.7)|hit_points(18432)|spd_rtng(75)|weapon_length(100)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],
 ["shotgun_spencer_m1882","Spencer Shotgun Model 1882", [("spencer_m1882", 0),("spencer_m1882_inv", ixmesh_inventory)], itp_type_crossbow|itp_merchandise|itp_two_handed|itp_primary|itp_next_item_as_melee, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,price_pistol_veryhigh, weight(3.7)|abundance(80)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_conversion_rifle)|shoot_speed(shotgun_muzzle_velocity)|max_ammo(6)|thrust_damage(damage_shotgun+10, pierce), imodbits_firearm, 
-[(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 65, 600, pos10, "itm_shotgun_spencer_m1882", ":agent"),])]],
+[(ti_on_weapon_attack, [(store_trigger_param_1, ":agent"),(copy_position, pos10, pos1),(call_script, "script_shotgun_shot", 20, 600, pos10, "itm_shotgun_spencer_m1882", ":agent"),])]],
 ["shotgun_spencer_m1882_m","Spencer Shotgun Model 1882", [("spencer_m1882", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_slashright_polearm|itcf_slashleft_polearm,0, weight(3.7)|hit_points(18432)|spd_rtng(75)|weapon_length(100)|thrust_damage(20, pierce)|swing_damage(20, blunt), imodbits_none, []],
 
 ["shovel_melee", "Shovel", [("shovel_melee",0),], itp_type_one_handed_wpn|itp_primary, itc_longsword,163 , weight(1.5)|difficulty(0)|spd_rtng(105) | weapon_length(100)|swing_damage(30 , cut) | thrust_damage(25 ,  pierce),imodbits_sword_high ],
@@ -2615,17 +2621,26 @@ items = [
 ["bul_infantry7","Bulgarian Military Uniform", [("bul_infantry7", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
 ["bul_infantry8","Bulgarian Military Uniform", [("bul_infantry8", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
 ["bul_infantry9","Bulgarian Military Uniform", [("bul_infantry9", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
+["bul_infantry10","Bulgarian Military Uniform", [("bul_infantry10", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
+["bul_infantry11","Bulgarian Military Uniform", [("bul_infantry11", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
+["bul_infantry12","Bulgarian Military Uniform", [("bul_infantry12", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
+["bul_infantry13","Bulgarian Military Uniform", [("bul_infantry13", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
 ["bul_trousers1","Bulgarian Military Trousers", [("bul_trousers1", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
 ["bul_trousers2","Bulgarian Military Trousers", [("bul_trousers2", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
 ["bul_trousers3","Bulgarian Military Trousers", [("bul_trousers3", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
 ["bul_trousers4","Bulgarian Military Trousers", [("bul_trousers4", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
 ["bul_trousers5","Bulgarian Military Trousers", [("bul_trousers5", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
+["bul_trousers6","Bulgarian Military Trousers", [("bul_trousers6", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
+["bul_trousers7","Bulgarian Military Trousers", [("bul_trousers7", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
 ["bul_hat1","Bulgarian Hat", [("bul_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_25]],
 ["bul_hat2","Bulgarian Hat", [("bul_hat2", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_25]],
 ["bul_hat3","Bulgarian Hat", [("bul_hat3", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_25]],
 ["bul_hat4","Bulgarian Hat", [("bul_hat4", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_25]],
 ["bul_hat5","Bulgarian Hat", [("bul_hat5", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_25]],
 ["bul_hat6","Bulgarian Hat", [("bul_hat6", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_25]],
+["bul_hat7","Bulgarian Hat", [("bul_hat7", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_25]],
+["bul_hat8","Bulgarian Hat", [("bul_hat8", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_25]],
+["bul_hat9","Bulgarian Hat", [("bul_hat9", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_25]],
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 

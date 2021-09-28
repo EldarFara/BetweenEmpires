@@ -43,7 +43,7 @@ game_menus = [
     [
      ("continue",[],"Continue...",
        [
-	   (jump_to_menu, "mnu_start_game_choose_date"),
+	   (jump_to_menu, "mnu_start_game_choose_ai_behavior"),
         ]
        ),
       ("go_back",[],"Go back",
@@ -14453,6 +14453,32 @@ the high lords and common folk across the many realms of Europe."),
   ),
   
   (
+    "start_game_choose_ai_behavior",mnf_disable_all_keys,
+    "Choose AI factions behaviour mode.",
+    "none",
+    [],
+    [
+      ("start_game_choose_ai_behavior_historical",[],"Historical.",
+       [
+	(assign, "$g_historical_ai_behavior", 1),
+	(jump_to_menu, "mnu_start_game_choose_date"),
+        ]
+		),
+      ("start_game_choose_ai_behavior_random",[],"Random.",
+       [
+	(assign, "$g_historical_ai_behavior", 0),
+	(jump_to_menu, "mnu_start_game_choose_date"),
+        ]
+		),
+      ("go_back",[],"Go back",
+       [(change_screen_quit), 
+        ]
+		),
+    ]
+  ),
+  
+  
+  (
     "start_game_choose_date",mnf_disable_all_keys,
     "Choose game starting date. It affects coutries military technology level as well as countries borders.",
     "none",
@@ -14561,7 +14587,8 @@ the high lords and common folk across the many realms of Europe."),
         ]
 		),
       ("go_back",[],"Go back",
-       [(change_screen_quit), 
+       [
+	(jump_to_menu, "mnu_start_game_choose_ai_behavior"),
         ]
 		),
     ]
@@ -14598,7 +14625,7 @@ the high lords and common folk across the many realms of Europe."),
          (jump_to_menu, "mnu_start_game_1"),
        ]
        ),
-      ("game_speed_slow",[],"Slow (One year passes in 20 days).",
+      ("game_speed_slow",[],"Slow (One year passes in 20 days) - recommended.",
        [
 		(assign, "$g_game_speed", 20),
          (jump_to_menu, "mnu_start_game_1"),
@@ -15535,6 +15562,74 @@ the high lords and common folk across the many realms of Europe."),
     [
 	("continue", [],"Continue...",
        [
+(change_screen_return),
+        ]),
+	]),
+	
+  ("ww1_event1",0,
+    "Archduke Franz Ferdinand assasinated",
+    "none",
+    [],
+    [
+	("continue", [],"Continue...",
+       [
+(assign, "$ww1_status", 1),
+(change_screen_return),
+        ]),
+	]),
+	
+  ("ww1_event1_austria",0,
+    "Declare ultimatum to Serbia?",
+    "none",
+    [],
+    [
+	("ww1_event1_austria_yes", [],"Yes",
+       [
+(assign, "$ww1_status", 2),
+(change_screen_return),
+        ]),
+	("ww1_event1_austria_yes", [],"No",
+       [
+(assign, "$ww1_status", -1),
+(change_screen_return),
+        ]),
+	]),
+	
+  ("ww1_event2",0,
+    "Austria-Hungary's ultimatum to Serbia",
+    "none",
+    [],
+    [
+	("continue", [],"Continue...",
+       [
+(assign, "$ww1_status", 3),
+(change_screen_return),
+        ]),
+	]),
+	
+  ("ww1_event3",0,
+    "Serbia declines",
+    "none",
+    [],
+    [
+	("continue", [],"Continue...",
+       [
+	(try_begin),
+	(eq, "$player_faction_preset", "fac_kingdom_28"),
+	(assign, ":faction_serbia", "fac_player_supporters_faction"),
+	(else_try),
+	(assign, ":faction_serbia", "fac_kingdom_28"),
+	(try_end),
+	(try_begin),
+	(eq, "$player_faction_preset", "fac_kingdom_3"),
+	(assign, ":faction_austria", "fac_player_supporters_faction"),
+	(else_try),
+	(assign, ":faction_austria", "fac_kingdom_3"),
+	(try_end),
+(store_add, ":provocation_slot", ":faction_serbia", slot_faction_provocation_days_with_factions_begin), (val_sub, ":provocation_slot", kingdoms_begin),
+(faction_set_slot, ":faction_austria", ":provocation_slot", 60),
+(call_script, "script_diplomacy_start_war_between_kingdoms",  ":faction_austria", ":faction_serbia", 1),
+(assign, "$ww1_status", 4),
 (change_screen_return),
         ]),
 	]),

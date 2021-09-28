@@ -1225,6 +1225,7 @@ g_old_faction
 pes_region_selected_center
 pes_region_selected_faction
 peace_negotiations_ai_offer
+g_historical_ai_behavior
 g_current_year
 g_game_speed
 preferred_ai_party_size
@@ -1235,6 +1236,7 @@ pas_enlistment_rank
 pas_enlistment_points
 pas_enlistment_opponent_to_ignore
 pas_enlistment_opponent_to_ignore_timer
+ww1_status
 g_battle_type
 battle_timer
 g_player_team
@@ -1674,6 +1676,7 @@ pes_overseacotton_china
 pes_overseacotton_usa
 pes_overseacotton_china_supply
 pes_overseacotton_usa_supply
+g_start_date
 player_faction_preset
 pws_equatorward_temperature
 pws_poleward_temperature

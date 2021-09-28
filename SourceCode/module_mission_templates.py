@@ -7389,7 +7389,9 @@ common_siege_ai_trigger_init_after_2_secs = (
 
 common_siege_defender_reinforcement_check = (
   3, 0, 5, [],
-  [(lt, "$defender_reinforcement_stage", 7),
+  [
+  (eq, 1, 2), # parabellum disabled
+  (lt, "$defender_reinforcement_stage", 7),
    (store_mission_timer_a,":mission_time"),
    (ge,":mission_time",10),
    (store_normalized_team_count,":num_defenders",0),
@@ -7433,7 +7435,7 @@ common_siege_attacker_reinforcement_check = (
     (store_mission_timer_a,":mission_time"),
     (ge,":mission_time",10),
     (store_normalized_team_count,":num_attackers",1),
-    (lt,":num_attackers", 15)
+    (lt,":num_attackers", 18),
     ],
   [
     (add_reinforcements_to_entry, 1, 40),
@@ -8958,14 +8960,18 @@ mission_templates = [
                  (ge,":mission_time",10),
                  (store_normalized_team_count,":num_defenders", 0),
                  (lt,":num_defenders",6)],
-           [(add_reinforcements_to_entry,0,10),(assign, "$defender_reinforcement_limit_increased", 0),(val_add,"$defender_reinforcement_stage",1)]),
+           [
+		   # (add_reinforcements_to_entry,0,10), # parabellum disabled
+		   (assign, "$defender_reinforcement_limit_increased", 0),(val_add,"$defender_reinforcement_stage",1)]),
       
       (1, 0, 5, [(lt,"$attacker_reinforcement_stage",2),
                  (store_mission_timer_a,":mission_time"),
                  (ge,":mission_time",10),
                  (store_normalized_team_count,":num_attackers", 1),
                  (lt,":num_attackers",6)],
-           [(add_reinforcements_to_entry,3,10),(val_add,"$attacker_reinforcement_stage",1)]),
+           [
+		  # (add_reinforcements_to_entry,3,10), # parabellum disabled
+		   (val_add,"$attacker_reinforcement_stage",1)]),
 
       common_battle_check_victory_condition,
       common_battle_victory_display,
