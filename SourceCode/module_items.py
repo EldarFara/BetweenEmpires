@@ -1410,7 +1410,7 @@ items = [
 ["ria_hat9","Russian Hat", [("ria_hat9", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_2]],
 ["ria_hat9b","Russian Hat", [("ria_hat9b", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_2]],
 ["ria_hat10","Russian Helmet", [("ria_hat10", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_2]],
-["ria_hat11","Russian Helmet", [("ria_hat11", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_2]],
+["ria_hat11","Russian Hat", [("ria_hat11", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_2]],
 ["ria_leader1","Russian Military Uniform", [("ria_leader1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
 
 ["clothes_adventurer_male_trousers1","Adventurer's Trousers", [("clothes_adventurer_male_trousers1", 0)], itp_type_foot_armor|itp_merchandise|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, []],

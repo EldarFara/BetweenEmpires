@@ -2839,7 +2839,7 @@ itemsfile version 3
  44
 0
 
- itm_ria_hat11 Russian_Helmet Russian_Helmet 1  ria_hat11 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ itm_ria_hat11 Russian_Hat Russian_Hat 1  ria_hat11 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  44
 0
