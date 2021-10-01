@@ -5603,6 +5603,10 @@ the high lords and common folk across the many realms of Europe."),
                                                        (party_get_slot, ":castle_scene", "$current_town", slot_town_castle),
                                                        (jump_to_scene,":castle_scene"),
                                                        (change_screen_mission)]),
+      ("castle_cheat_town_european_walls2",[(eq, "$cheat_mode", 1)], "{!}CHEAT! town_european_walls2",[
+                                                       (set_jump_mission,"mt_ai_training"),
+                                                       (jump_to_scene,"scn_town_european_walls2"),
+                                                       (change_screen_mission)]),
       ("castle_cheat_exterior",[(eq, "$cheat_mode", 1)], "{!}CHEAT! Exterior.",[
 #                                                       (set_jump_mission,"mt_town_default"),
                                                        (set_jump_mission,"mt_ai_training"),
