@@ -3923,7 +3923,7 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
     (quest_get_slot, ":target_troop", "qst_offer_gift", slot_quest_target_troop),
 	(str_store_troop_name, s4, ":target_troop"),
 	(player_has_item, "itm_furs"),
-	(player_has_item, "itm_velvet"),
+	#(player_has_item, "itm_velvet"),
    ],
    "I have the materials for {s4}'s gift.", "offer_gift_quest_complete",[
    ]],
@@ -7894,7 +7894,7 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
     (quest_get_slot, ":target_troop", "qst_offer_gift", slot_quest_target_troop),
 	(str_store_troop_name, s4, ":target_troop"),
 	(player_has_item, "itm_furs"),
-	(player_has_item, "itm_velvet"),
+	#(player_has_item, "itm_velvet"),
    ],
    "I have the materials for {s4}'s gift.", "offer_gift_quest_complete",[
    ]],
@@ -16250,7 +16250,7 @@ I suppose there are plenty of bounty hunters around to get the job done . . .", 
     (quest_get_slot, ":target_troop", "qst_offer_gift", slot_quest_target_troop),
 	(str_store_troop_name, s4, ":target_troop"),
 	(player_has_item, "itm_furs"),
-	(player_has_item, "itm_velvet"),
+	#(player_has_item, "itm_velvet"),
    ],
    "I have the materials for {s4}'s gift.", "offer_gift_quest_complete",[
    ]],

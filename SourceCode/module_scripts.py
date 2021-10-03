@@ -57865,6 +57865,7 @@ scripts = [
 (neg|is_between, ":item", "itm_lmg_lewis", "itm_ramrod1"),
 (neg|is_between, ":item", "itm_shotgun_caplock", "itm_shotgun_greener_m"),
 (neg|is_between, ":item", "itm_shotgun_winchester_m1897", "itm_shovel_melee"),
+(neq, ":item", "itm_flagbearer_flag"),
 (neq, ":item", "itm_yuruyuri_chinatsu"),
 (neq, ":item", "itm_yuruyuri_akari"),
 (neq, ":item", "itm_ddlc_monika"),

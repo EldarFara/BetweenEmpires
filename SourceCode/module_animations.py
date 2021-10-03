@@ -26,6 +26,7 @@ from header_animations import *
 amf_priority_jump           = 2
 amf_priority_ride           = 2
 amf_priority_continue       = 1
+amf_priority_jump_plus_one           = 3
 amf_priority_attack         = 10
 amf_priority_cancel         = 12
 amf_priority_defend         = 14
@@ -1786,19 +1787,22 @@ animations = [
 
  
  ### Unused human animations start from here.
-
- ["wedding_guest", 0, amf_play|amf_priority_die,
-  [30.0, "wedding_guest", 0, 906, arf_cyclic]],
+ ["run_forward_carbine", acf_enforce_all, amf_priority_jump|amf_use_cycle_period|amf_client_prediction|amf_play,
+   [0.6, "run_forward_carbine1", 0, 24, arf_use_walk_progress|arf_cyclic|arf_make_walk_sound,pack2f(0.4,0.9), (0, 0, 0), 0.4], 
+   [0.6, "run_forward_carbine2", 0, 24, arf_use_walk_progress|arf_cyclic|arf_make_walk_sound,pack2f(0.4,0.9), (0, 0, 0), 0.4], 
+   [0.6, "run_forward_carbine3", 0, 24, arf_use_walk_progress|arf_cyclic|arf_make_walk_sound,pack2f(0.4,0.9), (0, 0, 0), 0.4], 
+   [0.6, "run_forward_carbine4", 0, 24, arf_use_walk_progress|arf_cyclic|arf_make_walk_sound,pack2f(0.4,0.9), (0, 0, 0), 0.4], 
+ ],
  
- ["wedding_guest_notr", 0, amf_play|amf_priority_die,
-  [32.0, "wedding_guest_notr", 0, 962, arf_cyclic]],
-
- ["wedding_guest_woman", 0, amf_play|amf_priority_die,
-  [27.5, "wedding_guest_woman", 0, 825, arf_cyclic]],
-
- ["wedding_dad_stairs", 0, amf_play|amf_priority_die|amf_start_instantly,
-  [10.0, "wedding_dad_stairs", 0, 300, arf_blend_in_0]],
-
+ ["unused1", acf_enforce_all, amf_priority_jump|amf_use_cycle_period|amf_client_prediction,
+   [0.6, "run_forward_carbine2", 0, 24, arf_cyclic|arf_make_walk_sound,pack2f(0.4,0.9), (0, 0, 0), 0.0],
+ ],
+ ["unused2", acf_enforce_all, amf_priority_jump|amf_use_cycle_period|amf_client_prediction,
+   [0.6, "run_forward_carbine3", 0, 24, arf_cyclic|arf_make_walk_sound,pack2f(0.4,0.9), (0, 0, 0), 0.0],
+ ],
+ ["unused3", acf_enforce_all, amf_priority_jump|amf_use_cycle_period|amf_client_prediction,
+   [0.6, "run_forward_carbine4", 0, 24, arf_cyclic|arf_make_walk_sound,pack2f(0.4,0.9), (0, 0, 0), 0.0],
+ ],
  ["wedding_dad_walk", 0, amf_play|amf_priority_die|amf_start_instantly,
   [4.5, "wedding_dad_walk", 0, 134, arf_blend_in_0]],
  
@@ -2037,7 +2041,7 @@ animations = [
    [1, "walk_rifle2_5", 0, 32, arf_cyclic|arf_make_walk_sound,pack2f(0.4,0.9), (0, 0, 0), 0.0],
    [1, "walk_rifle2_6", 0, 32, arf_cyclic|arf_make_walk_sound,pack2f(0.4,0.9), (0, 0, 0), 0.0],
  ],
- ["walk_forward_staff_3", acf_enforce_all, amf_priority_attack|amf_restart|amf_use_cycle_period|amf_client_prediction,
+ ["walk_forward_staff_3", acf_enforce_all, amf_priority_jump_plus_one|amf_use_cycle_period|amf_client_prediction,
    [1, "walk_rifle3_1", 0, 32, arf_cyclic|arf_make_walk_sound,pack2f(0.4,0.9), (0, 0, 0), 0.0],
    [1, "walk_rifle3_2", 0, 32, arf_cyclic|arf_make_walk_sound,pack2f(0.4,0.9), (0, 0, 0), 0.0],
    [1, "walk_rifle3_3", 0, 32, arf_cyclic|arf_make_walk_sound,pack2f(0.4,0.9), (0, 0, 0), 0.0],

@@ -14366,7 +14366,7 @@ the high lords and common folk across the many realms of Europe."),
     [
       ("establish",[
 	  (player_has_item, "itm_tools"),
-	  (player_has_item, "itm_velvet"),
+	  #(player_has_item, "itm_velvet"),
 	  ],"Establish {s4} as your court",
        [         
 		(assign, "$g_player_court", "$current_town"),
