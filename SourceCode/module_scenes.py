@@ -4345,6 +4345,8 @@ scenes = [
 [],[],"outer_terrain_plain"),
 ("town_european_walls3",sf_generate,"none", "none", (0,0),(100,100),-100,"0x000000003a000500000759d300001cdd000052d300001773",
 [],[],"outer_terrain_plain"),
+("town_european_walls4",sf_generate,"none", "none", (0,0),(100,100),-100,"0x0000000230000500000a7e990000175600000d3b00004440",
+[],[],"outer_terrain_plain"),
 
 ]
 

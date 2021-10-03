@@ -1,5 +1,5 @@
 itemsfile version 3
-1783
+1802
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -4972,6 +4972,36 @@ itemsfile version 3
  70
 0
 
+ itm_srb_hat4 Serbian_Hat Serbian_Hat 1  srb_hat4 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 70
+0
+
+ itm_srb_hat5 Serbian_Hat Serbian_Hat 1  srb_hat5 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 70
+0
+
+ itm_srb_hat6 Serbian_Hat Serbian_Hat 1  srb_hat6 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 70
+0
+
+ itm_srb_hat7 Serbian_Hat Serbian_Hat 1  srb_hat7 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 70
+0
+
+ itm_srb_hat8 Serbian_Hat Serbian_Hat 1  srb_hat8 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 70
+0
+
+ itm_srb_hat9 Serbian_Helmet Serbian_Helmet 1  srb_hat9 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 70
+0
+
  itm_srb_cavalry_kepi Serbian_Cavalry_Kepi Serbian_Cavalry_Kepi 1  srb_cavalry_kepi 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  70
@@ -4992,7 +5022,27 @@ itemsfile version 3
  70
 0
 
- itm_srb_infantry3 Serbian_Greatcoat Serbian_Greatcoat 1  srb_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ itm_srb_trousers3 Serbian_Infantry_Trousers Serbian_Infantry_Trousers 1  srb_trousers3 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 70
+0
+
+ itm_srb_trousers4 Serbian_Infantry_Trousers Serbian_Infantry_Trousers 1  srb_trousers4 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 70
+0
+
+ itm_srb_trousers5 Serbian_Infantry_Trousers Serbian_Infantry_Trousers 1  srb_trousers5 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 70
+0
+
+ itm_srb_trousers6 Serbian_Infantry_Trousers Serbian_Infantry_Trousers 1  srb_trousers6 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 70
+0
+
+ itm_srb_trousers7 Serbian_Infantry_Trousers Serbian_Infantry_Trousers 1  srb_trousers7 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  70
 0
@@ -5008,6 +5058,51 @@ itemsfile version 3
 0
 
  itm_srb_infantry3 Serbian_Military_Uniform Serbian_Military_Uniform 1  srb_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 70
+0
+
+ itm_srb_infantry4 Serbian_Military_Uniform Serbian_Military_Uniform 1  srb_infantry4 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 70
+0
+
+ itm_srb_infantry5 Serbian_Military_Uniform Serbian_Military_Uniform 1  srb_infantry5 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 70
+0
+
+ itm_srb_infantry6 Serbian_Military_Uniform Serbian_Military_Uniform 1  srb_infantry6 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 70
+0
+
+ itm_srb_infantry7 Serbian_Military_Uniform Serbian_Military_Uniform 1  srb_infantry7 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 70
+0
+
+ itm_srb_infantry8 Serbian_Military_Uniform Serbian_Military_Uniform 1  srb_infantry8 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 70
+0
+
+ itm_srb_infantry9 Serbian_Military_Uniform Serbian_Military_Uniform 1  srb_infantry9 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 70
+0
+
+ itm_srb_infantry10 Serbian_Military_Uniform Serbian_Military_Uniform 1  srb_infantry10 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 70
+0
+
+ itm_srb_infantry11 Serbian_Military_Uniform Serbian_Military_Uniform 1  srb_infantry11 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 70
+0
+
+ itm_srb_infantry12 Serbian_Military_Uniform Serbian_Military_Uniform 1  srb_infantry12 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  70
 0
@@ -6179,7 +6274,7 @@ itemsfile version 3
  itm_shotgun_caplock Double-Barrel_Caplock_Shotgun Double-Barrel_Caplock_Shotgun 2  shotgun_caplock 0  shotgun_caplock_inv 1152921504606846976  811663369 6174031872 600 131082 3.500000 80 0 0 65 0 0 40 380 0 2 281 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 20 600 10 288230376151713159 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 20 600 10 288230376151713178 1224979098644774912 
 
  itm_shotgun_caplock_m Double-Barrel_Caplock_Shotgun Double-Barrel_Caplock_Shotgun 1  shotgun_caplock 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 22528 75 0 100 0 276 534
  0
@@ -6188,7 +6283,7 @@ itemsfile version 3
  itm_shotgun_doublebarrel Double-Barrel_Shotgun Double-Barrel_Shotgun 2  shotgun_doublebarrel 0  shotgun_doublebarrel_inv 1152921504606846976  811663369 555929845760 700 131082 3.500000 80 0 0 65 0 0 35 380 0 2 285 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 25 500 10 288230376151713161 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 25 500 10 288230376151713180 1224979098644774912 
 
  itm_shotgun_doublebarrel_m Double-Barrel_Shotgun Double-Barrel_Shotgun 1  shotgun_doublebarrel 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 22528 75 0 100 0 276 534
  0
@@ -6197,7 +6292,7 @@ itemsfile version 3
  itm_shotgun_doublebarrel_short Shortened_Double-Barrel_Shotgun Shortened_Double-Barrel_Shotgun 2  shotgun_doublebarrel 0  shotgun_doublebarrel_inv 1152921504606846976  543227913 555929845760 700 131082 3.500000 80 0 0 60 0 0 52 380 0 2 285 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 25 750 10 288230376151713163 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 25 750 10 288230376151713182 1224979098644774912 
 
  itm_shotgun_doublebarrel_short_m Shortened_Double-Barrel_Shotgun Shortened_Double-Barrel_Shotgun 1  shotgun_doublebarrel 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 22528 75 0 100 0 276 534
  0
@@ -6206,7 +6301,7 @@ itemsfile version 3
  itm_shotgun_winchester_m1887 Winchester_M1887 Winchester_M1887 2  winchester_m1887 0  winchester_m1887_inv 1152921504606846976  543227913 555929845760 900 131082 3.500000 80 0 0 65 0 0 35 380 0 6 285 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 25 600 10 288230376151713165 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 25 600 10 288230376151713184 1224979098644774912 
 
  itm_shotgun_winchester_m1887_m Winchester_M1887 Winchester_M1887 1  winchester_m1887 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 22528 75 0 100 0 276 534
  0
@@ -6215,7 +6310,7 @@ itemsfile version 3
  itm_shotgun_greener Greener_Shotgun Greener_Shotgun 2  greener 0  greener_inv 1152921504606846976  543227913 555929845760 300 131082 3.500000 80 0 0 65 0 0 45 380 0 1 296 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 30 650 10 288230376151713167 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 30 650 10 288230376151713186 1224979098644774912 
 
  itm_shotgun_greener_m Greener_Shotgun Greener_Shotgun 1  greener 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 22528 75 0 100 0 276 534
  0
@@ -7449,7 +7544,7 @@ itemsfile version 3
  itm_shotgun_winchester_m1897 Winchester_M1897 Winchester_M1897 2  winchester_m1897 0  winchester_m1897_inv 1152921504606846976  543227913 555929845760 900 131082 3.500000 80 0 0 65 0 0 35 380 0 6 291 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 20 600 10 288230376151713437 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 20 600 10 288230376151713456 1224979098644774912 
 
  itm_shotgun_winchester_m1897_m Winchester_M1897 Winchester_M1897 1  winchester_m1897 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 22528 75 0 100 0 276 534
  0
@@ -7458,7 +7553,7 @@ itemsfile version 3
  itm_shotgun_spencer_m1882 Spencer_Shotgun_Model_1882 Spencer_Shotgun_Model_1882 2  spencer_m1882 0  spencer_m1882_inv 1152921504606846976  543227913 555929845760 900 131082 3.500000 80 0 0 65 0 0 35 380 0 6 291 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 20 600 10 288230376151713439 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 20 600 10 288230376151713458 1224979098644774912 
 
  itm_shotgun_spencer_m1882_m Spencer_Shotgun_Model_1882 Spencer_Shotgun_Model_1882 1  spencer_m1882 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 22528 75 0 100 0 276 534
  0

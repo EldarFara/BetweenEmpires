@@ -5607,6 +5607,10 @@ the high lords and common folk across the many realms of Europe."),
                                                        (set_jump_mission,"mt_ai_training"),
                                                        (jump_to_scene,"scn_town_european_walls2"),
                                                        (change_screen_mission)]),
+      ("castle_cheat_town_european_walls4",[(eq, "$cheat_mode", 1)], "{!}CHEAT! town_european_walls4",[
+                                                       (set_jump_mission,"mt_ai_training"),
+                                                       (jump_to_scene,"scn_town_european_walls2"),
+                                                       (change_screen_mission)]),
       ("castle_cheat_exterior",[(eq, "$cheat_mode", 1)], "{!}CHEAT! Exterior.",[
 #                                                       (set_jump_mission,"mt_town_default"),
                                                        (set_jump_mission,"mt_ai_training"),
@@ -14491,7 +14495,9 @@ the high lords and common folk across the many realms of Europe."),
       ("start_game_choose_date_1860",[],"1860.",
        [
 	(assign, "$g_current_year", 1860),
+	(faction_set_name, "fac_kingdom_25", "@Romanian Principalities"),
 	(faction_set_name, "fac_kingdom_27", "@Kingdom_of_Wurttemberg"),
+	(faction_set_name, "fac_kingdom_28", "@Principality of Serbia"),
 	(faction_set_name, "fac_kingdom_31", "@Kingdom_of_Hannover"),
 	(faction_set_name, "fac_kingdom_1", "@French Empire"),
 	(faction_set_name, "fac_kingdom_3", "@Austrian Empire"),
@@ -14508,7 +14514,9 @@ the high lords and common folk across the many realms of Europe."),
       ("start_game_choose_date_1878",[],"1878.",
        [
 	(assign, "$g_current_year", 1878),
+	(faction_set_name, "fac_kingdom_25", "@Romanian Principalities"),
 	(faction_set_name, "fac_kingdom_27", "@Principality of Bulgaria"),
+	(faction_set_name, "fac_kingdom_28", "@Principality of Serbia"),
 	(faction_set_name, "fac_kingdom_31", "@Kingdom_of_Hannover"),
 	(faction_set_name, "fac_kingdom_1", "@French Republic"),
 	(faction_set_name, "fac_kingdom_3", "@Austria-Hungary"),
@@ -14525,7 +14533,9 @@ the high lords and common folk across the many realms of Europe."),
       ("start_game_choose_date_1891",[],"1891.",
        [
 	(assign, "$g_current_year", 1891),
+	(faction_set_name, "fac_kingdom_25", "@Kingdom of Romania"),
 	(faction_set_name, "fac_kingdom_27", "@Principality of Bulgaria"),
+	(faction_set_name, "fac_kingdom_28", "@Kingdom of Serbia"),
 	(faction_set_name, "fac_kingdom_31", "@Kingdom_of_Hannover"),
 	(faction_set_name, "fac_kingdom_1", "@French Republic"),
 	(faction_set_name, "fac_kingdom_3", "@Austria-Hungary"),
@@ -14542,7 +14552,9 @@ the high lords and common folk across the many realms of Europe."),
       ("start_game_choose_date_1907",[],"1907.",
        [
 	(assign, "$g_current_year", 1907),
+	(faction_set_name, "fac_kingdom_25", "@Kingdom of Romania"),
 	(faction_set_name, "fac_kingdom_27", "@Kingdom of Bulgaria"),
+	(faction_set_name, "fac_kingdom_28", "@Kingdom of Serbia"),
 	(faction_set_name, "fac_kingdom_31", "@Kingdom_of_Hannover"),
 	(faction_set_name, "fac_kingdom_1", "@French Republic"),
 	(faction_set_name, "fac_kingdom_3", "@Austria-Hungary"),
@@ -14559,7 +14571,9 @@ the high lords and common folk across the many realms of Europe."),
       ("start_game_choose_date_1914",[],"1914.",
        [
 	(assign, "$g_current_year", 1914),
+	(faction_set_name, "fac_kingdom_25", "@Kingdom of Romania"),
 	(faction_set_name, "fac_kingdom_27", "@Kingdom of Bulgaria"),
+	(faction_set_name, "fac_kingdom_28", "@Kingdom of Serbia"),
 	(faction_set_name, "fac_kingdom_31", "@Principality of Albania"),
 	(faction_set_name, "fac_kingdom_1", "@French Republic"),
 	(faction_set_name, "fac_kingdom_3", "@Austria-Hungary"),
@@ -15571,7 +15585,13 @@ the high lords and common folk across the many realms of Europe."),
 	]),
 	
   ("ww1_event1",0,
-    "Archduke Franz Ferdinand assasinated",
+    "Heir to the Austro-Hungarian throne assassinated!\
+Archduke Franz Ferdinand of Austria and his wife Sophie, Duchess of Hohenberg, were shot dead by a Bosnian Serb student during their official visit to Sarajevo. \
+Austrian opinion regards the tragedy as the result of a well-prepared conspiracy. The Heir apparent was advised not to undertake the journey, as certain desperadoes were planning an attempt against his life. However, he disregarded the warning and proceeded with his visit on Wednesday. \
+Earlier in the day, they had survived a first attempt to take their lives when a grenade was thrown at their car.  The couple was not injured and continued their visit.\
+After a short stay in the City Council, they insisted on seeing those wounded by the explosion and this is when the assassin took his chance.\
+When news of the assassination of Archduke Francis Ferdinand was imparted to the aged emperor, he exclaimed, ''Terrible, terrible! I am spared nothing.''\
+It is reported that several Bosnians and Serbs have been arrested at Sarajevo for complicity in the plot which is said to have wide ramifications. Tensions are on their peak and demonstrations are taking place. ",
     "none",
     [],
     [
@@ -15600,7 +15620,19 @@ the high lords and common folk across the many realms of Europe."),
 	]),
 	
   ("ww1_event2",0,
-    "Austria-Hungary's ultimatum to Serbia",
+    "The events of the 28th of June have proved the existence of a subversive movement in Serbia, whose object it is to separate certain territories from the Austro-Hungarian Empire. \
+This movement, which came into being under the very eyes of the Serbian authorities, subsequently found expression outside of it's territory in acts of terrorism and murders.\
+It is clear from the statements and confessions of the criminals, that the murder at Sarajevo was conceived at Belgrade. \
+In order to prevent an escalation, the Kingdom of Serbia must condemn these ideas and the involvement of it's subjects in the criminal activities and vow to proceed with utmost rigor against anyone who shall become guilty.\
+The Royal Serbian Government will furthermore pledge itself:\
+1. to suppress every publication which shall incite to hatred and contempt of the Monarchy, against the territorial integrity or that may serve to nourish this campaign\
+2. to dissolve all criminal associations, to confiscate their means of propaganda and to take such measures as are necessary to ensure that they may not continue their activities under other names or forms\
+3. to remove from the military and civilian service all those who have been guilty of  carrying on the propaganda against Austria-Hungary\
+4. to agree to the cooperation in Serbia of organs of the Austro-Hungarian Government in the suppression of the subversive movement \
+5. to institute a judicial inquiry against the participants in the conspiracy of the 28th of June who may be found in Serbian territory; the organs of the Austro-Hungarian Government delegated for this purpose will take part in the proceedings to be held\
+6. to prevent the participation of Serbian authorities in the smuggling of weapons and explosives across the frontier and to punish severely those who assisted the criminals \
+7. to make explanations to the  Austro-Hungarian Government concerning the unjustifiable utterances of high functionaries in Serbia and abroad, who, without regard for their position, have not hesitated to express themselves in a manner hostile toward Austria-Hungary \
+The Austro-Hungarian Government awaits the reply of the Royal Government by Saturday, the 25th at 6 p.m., at the latest.",
     "none",
     [],
     [
