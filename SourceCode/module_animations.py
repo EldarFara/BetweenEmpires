@@ -1791,7 +1791,6 @@ animations = [
    [0.6, "run_forward_carbine1", 0, 24, arf_use_walk_progress|arf_cyclic|arf_make_walk_sound,pack2f(0.4,0.9), (0, 0, 0), 0.4], 
    [0.6, "run_forward_carbine2", 0, 24, arf_use_walk_progress|arf_cyclic|arf_make_walk_sound,pack2f(0.4,0.9), (0, 0, 0), 0.4], 
    [0.6, "run_forward_carbine3", 0, 24, arf_use_walk_progress|arf_cyclic|arf_make_walk_sound,pack2f(0.4,0.9), (0, 0, 0), 0.4], 
-   [0.6, "run_forward_carbine4", 0, 24, arf_use_walk_progress|arf_cyclic|arf_make_walk_sound,pack2f(0.4,0.9), (0, 0, 0), 0.4], 
  ],
  
  ["unused1", acf_enforce_all, amf_priority_jump|amf_use_cycle_period|amf_client_prediction,
