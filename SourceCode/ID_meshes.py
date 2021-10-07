@@ -597,5 +597,7 @@ mesh_pes_region_bg = 595
 mesh_pes_resource_price = 596
 mesh_pes_resource_price_line = 597
 mesh_pps_menu_bg = 598
+mesh_pic_ww1_event = 599
+mesh_pic_balkan_league = 600
 
 

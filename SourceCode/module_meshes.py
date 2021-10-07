@@ -662,6 +662,8 @@ meshes = [
   ("pes_resource_price", 0, "pes_resource_price", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("pes_resource_price_line", 0, "pes_resource_price_line", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("pps_menu_bg", 0, "pps_menu_bg", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pic_ww1_event", 0, "pic_ww1_event", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pic_balkan_league", 0, "pic_balkan_league", 0, 0, 0, 0, 0, 0, 1, 1, 1),
 ]
 
 # modmerger_start version=201 type=2

@@ -1676,6 +1676,7 @@ pes_overseacotton_china
 pes_overseacotton_usa
 pes_overseacotton_china_supply
 pes_overseacotton_usa_supply
+balkanwars_status
 g_start_date
 player_faction_preset
 pws_equatorward_temperature

@@ -15585,15 +15585,23 @@ the high lords and common folk across the many realms of Europe."),
 	]),
 	
   ("ww1_event1",0,
-    "Heir to the Austro-Hungarian throne assassinated!\
-Archduke Franz Ferdinand of Austria and his wife Sophie, Duchess of Hohenberg, were shot dead by a Bosnian Serb student during their official visit to Sarajevo. \
-Austrian opinion regards the tragedy as the result of a well-prepared conspiracy. The Heir apparent was advised not to undertake the journey, as certain desperadoes were planning an attempt against his life. However, he disregarded the warning and proceeded with his visit on Wednesday. \
-Earlier in the day, they had survived a first attempt to take their lives when a grenade was thrown at their car.  The couple was not injured and continued their visit.\
-After a short stay in the City Council, they insisted on seeing those wounded by the explosion and this is when the assassin took his chance.\
-When news of the assassination of Archduke Francis Ferdinand was imparted to the aged emperor, he exclaimed, ''Terrible, terrible! I am spared nothing.''\
-It is reported that several Bosnians and Serbs have been arrested at Sarajevo for complicity in the plot which is said to have wide ramifications. Tensions are on their peak and demonstrations are taking place. ",
+    "Heir to the throne of {s1} assassinated!^Archduke Franz Ferdinand of {s1} and his wife Sophie, Duchess of Hohenberg, were shot dead by a Bosnian Serb student during their official visit to Sarajevo. ^Austrian opinion regards the tragedy as the result of a well-prepared conspiracy. The Heir apparent was advised not to undertake the journey, as certain desperadoes were planning an attempt against his life. However, he disregarded the warning and proceeded with his visit. ^Earlier in the day, they had survived a first attempt to take their lives when a grenade was thrown at their car.  The couple was not injured and, after a short stay in the City Council, insisted on seeing those wounded by the explosion. This is when the assassin took his chance and made the attack.^When news of the assassination of Archduke Franz Ferdinand was imparted to the aged emperor, he exclaimed, ''Terrible, terrible! I am spared nothing.''^It is reported that several Bosnians and Serbs have been arrested at Sarajevo for complicity in the plot which is said to have wide ramifications. Tensions are on their peak and demonstrations are taking place.",
     "none",
-    [],
+    [
+	(try_begin),
+	(eq, "$player_faction_preset", "fac_kingdom_3"),
+	(str_store_faction_name, s1, "fac_player_supporters_faction"),
+	(else_try),
+	(str_store_faction_name, s1, "fac_kingdom_3"),
+	(try_end),
+	(try_begin),
+	(eq, "$player_faction_preset", "fac_kingdom_28"),
+	(str_store_faction_name, s2, "fac_player_supporters_faction"),
+	(else_try),
+	(str_store_faction_name, s2, "fac_kingdom_28"),
+	(try_end),
+		(set_background_mesh, "mesh_pic_ww1_event"),
+		],
     [
 	("continue", [],"Continue...",
        [
@@ -15602,39 +15610,23 @@ It is reported that several Bosnians and Serbs have been arrested at Sarajevo fo
         ]),
 	]),
 	
-  ("ww1_event1_austria",0,
-    "Declare ultimatum to Serbia?",
-    "none",
-    [],
-    [
-	("ww1_event1_austria_yes", [],"Yes",
-       [
-(assign, "$ww1_status", 2),
-(change_screen_return),
-        ]),
-	("ww1_event1_austria_yes", [],"No",
-       [
-(assign, "$ww1_status", -1),
-(change_screen_return),
-        ]),
-	]),
-	
   ("ww1_event2",0,
-    "The events of the 28th of June have proved the existence of a subversive movement in Serbia, whose object it is to separate certain territories from the Austro-Hungarian Empire. \
-This movement, which came into being under the very eyes of the Serbian authorities, subsequently found expression outside of it's territory in acts of terrorism and murders.\
-It is clear from the statements and confessions of the criminals, that the murder at Sarajevo was conceived at Belgrade. \
-In order to prevent an escalation, the Kingdom of Serbia must condemn these ideas and the involvement of it's subjects in the criminal activities and vow to proceed with utmost rigor against anyone who shall become guilty.\
-The Royal Serbian Government will furthermore pledge itself:\
-1. to suppress every publication which shall incite to hatred and contempt of the Monarchy, against the territorial integrity or that may serve to nourish this campaign\
-2. to dissolve all criminal associations, to confiscate their means of propaganda and to take such measures as are necessary to ensure that they may not continue their activities under other names or forms\
-3. to remove from the military and civilian service all those who have been guilty of  carrying on the propaganda against Austria-Hungary\
-4. to agree to the cooperation in Serbia of organs of the Austro-Hungarian Government in the suppression of the subversive movement \
-5. to institute a judicial inquiry against the participants in the conspiracy of the 28th of June who may be found in Serbian territory; the organs of the Austro-Hungarian Government delegated for this purpose will take part in the proceedings to be held\
-6. to prevent the participation of Serbian authorities in the smuggling of weapons and explosives across the frontier and to punish severely those who assisted the criminals \
-7. to make explanations to the  Austro-Hungarian Government concerning the unjustifiable utterances of high functionaries in Serbia and abroad, who, without regard for their position, have not hesitated to express themselves in a manner hostile toward Austria-Hungary \
-The Austro-Hungarian Government awaits the reply of the Royal Government by Saturday, the 25th at 6 p.m., at the latest.",
+    "The incidents in Sarajevo proved the existence of a subversive movement whose object it is to separate certain territories from the {s1}. ^His movement, which came into being under the very eyes of the Serbian authorities, subsequently found expression outside of its territory in acts of terrorism and murders.^It is clear from the statements and confessions of the criminals, that the murder was conceived at Belgrade. In order to prevent an escalation, the {s2} must condemn these ideas and the involvement of its subjects in the criminal activities and vow to proceed with utmost rigor against anyone who shall become guilty.^The government of {s1} will furthermore pledge itself: ^1. to suppress every publication which shall incite to hatred and contempt of the Monarchy, against the territorial integrity or that may serve to nourish this campaign^2. to dissolve all criminal associations, to confiscate their means of propaganda and to take such measures as are necessary to ensure that they may not continue their activities under other names or forms^3. to remove from the military and civilian service all those who have been guilty of carrying on the propaganda against Austria-Hungary^4. to agree to the cooperation in Serbia of organs of the Austro-Hungarian Government in the suppression of the subversive movement ^5. to institute a judicial inquiry against the participants in the conspiracy who may be found in Serbian territory; the organs of the Austro-Hungarian Government delegated for this purpose will take part in the proceedings to be held^6. to prevent the participation of Serbian authorities in the smuggling of weapons and explosives across the frontier and to punish severely those who assisted the criminals ^7. to make explanations to the  Austro-Hungarian Government concerning the unjustifiable utterances of high functionaries in Serbia and abroad, who, without regard for their position, have not hesitated to express themselves in a manner hostile toward Austria-Hungary ^The government of {s1} awaits the reply of the Royal Government.",
     "none",
-    [],
+    [
+	(try_begin),
+	(eq, "$player_faction_preset", "fac_kingdom_3"),
+	(str_store_faction_name, s1, "fac_player_supporters_faction"),
+	(else_try),
+	(str_store_faction_name, s1, "fac_kingdom_3"),
+	(try_end),
+	(try_begin),
+	(eq, "$player_faction_preset", "fac_kingdom_28"),
+	(str_store_faction_name, s2, "fac_player_supporters_faction"),
+	(else_try),
+	(str_store_faction_name, s2, "fac_kingdom_28"),
+	(try_end),
+	],
     [
 	("continue", [],"Continue...",
        [
@@ -15644,11 +15636,30 @@ The Austro-Hungarian Government awaits the reply of the Royal Government by Satu
 	]),
 	
   ("ww1_event3",0,
-    "Serbia declines",
+    "The government of {s2} has received the communication of the government of {s1} and is convinced that its reply will dissipate any misunderstanding threatening to destroy the friendly and neighbourly relations ^The Serbian government binds itself further:^1.  to severely punish the incitement of hatred and contempt for {s1} and its territorial integrity and to supress every publication that may serve to nourish this campaign^2.  to dissolve the Narona Odbrana aswell as every society which should set against {s1}^3. to dismiss those belonging to the military and civil services that have been proved by judicial investigation to be guilty of actions against {s1}^4. to accept every cooperation which does not run counter to international and criminal law but confesses it is not clear about the sense and the scope of the demand to permit the cooperation of Austro-Hungarian officials on Serbian territory ^5. to begin an investigation against all those involved in the conspiracy who are in its territory. As far as the cooperation in this investigation of Austrian officials is concerned, this cannot be accepted, as this is a violation of the constitution and of criminal procedure^6. to amplify and assert the existing measures against the smuggling of arms and explosives and to punish severely those who have assisted the criminals^7. to give explanations about the expressions which its officials have made which could have been hostile to {s1} and, as soon as the Austrian government points out where they were made and prooves that they have actually been made by those concerned, to take care that the necessary evidencess and proofs are collected^^Serbian government believes it to be of common interest to not rush the solution of this affair and therefore, in case the government of the {s1} should not consider itself satisfied, is ready to accept a peaceable solution, be it by reffereing to the International Court or by leaving it to the decision of the Great Powers which participated in the working out of the declaration given by the {s2} when it renounced the attitudes of protest and opposition to the annexation of Bosnia-Herzegovina.",
     "none",
-    [],
     [
-	("continue", [],"Continue...",
+	(try_begin),
+	(eq, "$player_faction_preset", "fac_kingdom_3"),
+	(str_store_faction_name, s1, "fac_player_supporters_faction"),
+	(else_try),
+	(str_store_faction_name, s1, "fac_kingdom_3"),
+	(try_end),
+	(try_begin),
+	(eq, "$player_faction_preset", "fac_kingdom_28"),
+	(str_store_faction_name, s2, "fac_player_supporters_faction"),
+	(else_try),
+	(str_store_faction_name, s2, "fac_kingdom_28"),
+	(try_end),
+	],
+    [
+	("ww1_event3_austria_start_war", [
+	(str_store_string, s1, "@Continue..."),
+		(try_begin),
+		(eq, "$player_faction_preset", "fac_kingdom_3"),
+		(str_store_string, s1, "@Declare war on Serbia."),
+		(try_end),
+	],"{s1}",
        [
 	(try_begin),
 	(eq, "$player_faction_preset", "fac_kingdom_28"),
@@ -15662,10 +15673,101 @@ The Austro-Hungarian Government awaits the reply of the Royal Government by Satu
 	(else_try),
 	(assign, ":faction_austria", "fac_kingdom_3"),
 	(try_end),
+	(try_begin),
+	(assign, ":continue", 1),
+	(neq, "$player_faction_preset", "fac_kingdom_3"),
+	(eq, "$g_historical_ai_behavior", 0),
+	(call_script, "script_cf_random", 95),
+	(assign, ":continue", 0),
+	(try_end),
+(eq, ":continue", 1),
 (store_add, ":provocation_slot", ":faction_serbia", slot_faction_provocation_days_with_factions_begin), (val_sub, ":provocation_slot", kingdoms_begin),
 (faction_set_slot, ":faction_austria", ":provocation_slot", 60),
 (call_script, "script_diplomacy_start_war_between_kingdoms",  ":faction_austria", ":faction_serbia", 1),
 (assign, "$ww1_status", 4),
+(change_screen_return),
+        ]),
+	("ww1_event3_austria_dont_start_war", [
+		(eq, "$player_faction_preset", "fac_kingdom_3"),
+	],"Withdraw demands.",
+       [
+(assign, "$ww1_status", -1),
+(change_screen_return),
+        ]),
+	]),
+  
+  
+
+	
+  ("balkanwars_event1",0,
+    "Balkan League",
+    "none",
+    [
+	],
+    [
+	("balkanwars_event1_join", [
+	(str_store_string, s1, "@Continue..."),
+		(try_begin),
+		(this_or_next|eq, "$player_faction_preset", "fac_kingdom_28"),
+		(this_or_next|eq, "$player_faction_preset", "fac_kingdom_24"),
+		(eq, "$player_faction_preset", "fac_kingdom_27"),
+		(str_store_string, s1, "@Join league."),
+		(try_end),
+	],"{s1}",
+       [
+	(try_begin),
+	(eq, "$player_faction_preset", "fac_kingdom_28"),
+	(assign, ":faction_serbia", "fac_player_supporters_faction"),
+	(else_try),
+	(assign, ":faction_serbia", "fac_kingdom_28"),
+	(try_end),
+	(try_begin),
+	(eq, "$player_faction_preset", "fac_kingdom_27"),
+	(assign, ":faction_bulgaria", "fac_player_supporters_faction"),
+	(else_try),
+	(assign, ":faction_bulgaria", "fac_kingdom_27"),
+	(try_end),
+	(try_begin),
+	(eq, "$player_faction_preset", "fac_kingdom_24"),
+	(assign, ":faction_greece", "fac_player_supporters_faction"),
+	(else_try),
+	(assign, ":faction_greece", "fac_kingdom_24"),
+	(try_end),
+(call_script, "script_create_alliance_between_factions", ":faction_serbia", ":faction_bulgaria"),
+(call_script, "script_create_alliance_between_factions", ":faction_serbia", ":faction_greece"),
+(call_script, "script_create_alliance_between_factions", ":faction_bulgaria", ":faction_greece"),
+(change_screen_return),
+        ]),
+	("balkanwars_event1_dont_join", [
+		(this_or_next|eq, "$player_faction_preset", "fac_kingdom_28"),
+		(this_or_next|eq, "$player_faction_preset", "fac_kingdom_24"),
+		(eq, "$player_faction_preset", "fac_kingdom_27"),
+	],"Do not join league.",
+       [
+(call_script, "script_create_alliance_between_factions", "fac_kingdom_24", "fac_kingdom_27"),
+(call_script, "script_create_alliance_between_factions", "fac_kingdom_24", "fac_kingdom_28"),
+(call_script, "script_create_alliance_between_factions", "fac_kingdom_27", "fac_kingdom_24"),
+(change_screen_return),
+        ]),
+	]),
+	
+  ("balkanwars_event2",0,
+    "War against Ottoman Empire",
+    "none",
+    [
+	],
+    [
+	("continue", [],"Continue...",
+       [
+	(try_begin),
+	(eq, "$player_faction_preset", "fac_kingdom_6"),
+	(assign, ":faction_turkey", "fac_player_supporters_faction"),
+	(else_try),
+	(assign, ":faction_turkey", "fac_kingdom_6"),
+	(try_end),
+(call_script, "script_diplomacy_start_war_between_kingdoms",  "fac_kingdom_24", ":faction_turkey", 1),
+(call_script, "script_diplomacy_start_war_between_kingdoms",  "fac_kingdom_27", ":faction_turkey", 1),
+(call_script, "script_diplomacy_start_war_between_kingdoms",  "fac_kingdom_28", ":faction_turkey", 1),
 (change_screen_return),
         ]),
 	]),

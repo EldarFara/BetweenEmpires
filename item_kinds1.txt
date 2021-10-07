@@ -1,5 +1,5 @@
 itemsfile version 3
-1802
+1806
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
  0
 0
@@ -586,7 +586,7 @@ itemsfile version 3
  45 48
 0
 
- itm_courser Courser Courser 1  disabled_item_nm 0  1 0 600 110595670016 0.000000 70 0 12 0 2 10 44 45 106 0 12 0
+ itm_courser Courser Courser 1  disabled_item_nm 0  1 0 600 110595670016 0.000000 70 0 12 0 2 10 44 35 106 0 12 0
  0
 0
 
@@ -595,15 +595,15 @@ itemsfile version 3
  48
 0
 
- itm_hunter Hunter Hunter 2  disabled_item_nm 0  disabled_item_nm 34360000512  1 0 810 110595670016 0.000000 60 0 18 0 3 60 44 43 108 0 24 0
+ itm_hunter Hunter Hunter 2  disabled_item_nm 0  disabled_item_nm 34360000512  1 0 810 110595670016 0.000000 60 0 18 0 3 60 44 43 108 0 14 0
  0
 0
 
- itm_warhorse War_Horse War_Horse 1  disabled_item_nm 0  1 0 1224 110595670016 0.000000 50 0 40 0 4 65 41 40 110 0 28 0
+ itm_warhorse War_Horse War_Horse 1  disabled_item_nm 0  1 0 1224 110595670016 0.000000 50 0 40 0 4 65 41 40 110 0 18 0
  0
 0
 
- itm_charger Charger Charger 1  disabled_item_nm 0  1 0 1811 110595670016 0.000000 40 0 58 0 4 65 44 40 112 0 32 0
+ itm_charger Charger Charger 1  disabled_item_nm 0  1 0 1811 110595670016 0.000000 40 0 58 0 4 65 44 40 112 0 12 0
  2
  43 47
 0
@@ -2435,12 +2435,12 @@ itemsfile version 3
  0
 0
 
- itm_warhorse_sarranid Sarranian_War_Horse Sarranian_War_Horse 1  warhorse_sarranid 0  1 0 1811 110595670016 0.000000 40 0 58 0 4 65 44 40 112 0 32 0
+ itm_warhorse_sarranid Sarranian_War_Horse Sarranian_War_Horse 1  warhorse_sarranid 0  1 0 1811 110595670016 0.000000 40 0 58 0 4 65 44 40 112 0 12 0
  1
  48
 0
 
- itm_warhorse_steppe Steppe_Charger Steppe_Charger 1  warhorse_steppe 0  1 0 1400 110595670016 0.000000 45 0 40 0 4 50 45 40 112 0 28 0
+ itm_warhorse_steppe Steppe_Charger Steppe_Charger 1  warhorse_steppe 0  1 0 1400 110595670016 0.000000 45 0 40 0 4 50 45 40 112 0 18 0
  2
  45 44
 0
@@ -2952,15 +2952,15 @@ itemsfile version 3
  0
 0
 
- itm_horse_european1 Saddle_Horse Saddle_Horse 2  horse_european1 0  horse_european1 34360000512  1 0 240 41876193280 0.000000 90 0 1 0 1 100 45 45 100 0 5 0
+ itm_horse_european1 Saddle_Horse Saddle_Horse 2  horse_european1 0  horse_european1 34360000512  1 0 240 41876193280 0.000000 90 0 1 0 1 100 45 35 100 0 5 0
  0
 0
 
- itm_horse_european2 Saddle_Horse Saddle_Horse 2  horse_european2 0  horse_european2 34360000512  1 0 240 41876193280 0.000000 90 0 1 0 1 100 45 45 100 0 5 0
+ itm_horse_european2 Saddle_Horse Saddle_Horse 2  horse_european2 0  horse_european2 34360000512  1 0 240 41876193280 0.000000 90 0 1 0 1 100 45 35 100 0 5 0
  0
 0
 
- itm_horse_european3 Saddle_Horse Saddle_Horse 2  horse_european3 0  horse_european3 34360000512  1 0 240 41876193280 0.000000 90 0 1 0 1 100 45 45 100 0 5 0
+ itm_horse_european3 Saddle_Horse Saddle_Horse 2  horse_european3 0  horse_european3 34360000512  1 0 240 41876193280 0.000000 90 0 1 0 1 100 45 35 100 0 5 0
  0
 0
 
@@ -3408,367 +3408,367 @@ itemsfile version 3
  0
 0
 
- itm_horse_russian1a Bay_Orlov_Saddle_Horse Bay_Orlov_Saddle_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 100 45 45 101 0 30 0
+ itm_horse_russian1a Bay_Orlov_Saddle_Horse Bay_Orlov_Saddle_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 100 45 35 101 0 10 0
  0
 0
 
- itm_horse_russian1b Black_Orlov_Saddle_Horse Black_Orlov_Saddle_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 100 45 45 101 0 30 0
+ itm_horse_russian1b Black_Orlov_Saddle_Horse Black_Orlov_Saddle_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 100 45 35 101 0 10 0
  0
 0
 
- itm_horse_russian2a Gray_Orlov_Trotter Gray_Orlov_Trotter 2  horse_european4 0  horse_european4 34360000512  65537 0 500 41876193280 0.000000 40 0 1 0 1 80 46 49 102 0 35 0
+ itm_horse_russian2a Gray_Orlov_Trotter Gray_Orlov_Trotter 2  horse_european4 0  horse_european4 34360000512  65537 0 500 41876193280 0.000000 40 0 1 0 1 80 46 38 102 0 15 0
  0
 0
 
- itm_horse_russian2b Bay_Orlov_Trotter Bay_Orlov_Trotter 2  horse_european1 0  horse_european1 34360000512  65537 0 500 41876193280 0.000000 40 0 1 0 1 80 46 49 102 0 35 0
+ itm_horse_russian2b Bay_Orlov_Trotter Bay_Orlov_Trotter 2  horse_european1 0  horse_european1 34360000512  65537 0 500 41876193280 0.000000 40 0 1 0 1 80 46 38 102 0 15 0
  0
 0
 
- itm_horse_russian3a Black_Karachay_Horse Black_Karachay_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 350 41876193280 0.000000 100 0 1 0 1 140 44 41 99 0 40 0
+ itm_horse_russian3a Black_Karachay_Horse Black_Karachay_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 350 41876193280 0.000000 100 0 1 0 1 140 44 32 99 0 10 0
  0
 0
 
- itm_horse_russian3b Bay_Karachay_Horse Bay_Karachay_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 350 41876193280 0.000000 100 0 1 0 1 140 44 41 99 0 40 0
+ itm_horse_russian3b Bay_Karachay_Horse Bay_Karachay_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 350 41876193280 0.000000 100 0 1 0 1 140 44 32 99 0 10 0
  0
 0
 
- itm_horse_russian4a Chestnut_Russian_Don Chestnut_Russian_Don 2  horse_european2 0  horse_european2 34360000512  65537 0 400 41876193280 0.000000 100 0 1 0 1 120 43 47 99 0 30 0
+ itm_horse_russian4a Chestnut_Russian_Don Chestnut_Russian_Don 2  horse_european2 0  horse_european2 34360000512  65537 0 400 41876193280 0.000000 100 0 1 0 1 120 43 37 99 0 10 0
  0
 0
 
- itm_horse_russian4b Dark_Bay_Russian_Don Dark_Bay_Russian_Don 2  horse_european5 0  horse_european5 34360000512  65537 0 400 41876193280 0.000000 100 0 1 0 1 120 43 47 99 0 30 0
+ itm_horse_russian4b Dark_Bay_Russian_Don Dark_Bay_Russian_Don 2  horse_european5 0  horse_european5 34360000512  65537 0 400 41876193280 0.000000 100 0 1 0 1 120 43 37 99 0 10 0
  0
 0
 
- itm_horse_russian5a Bay_Kabardin_Horse Bay_Kabardin_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 500 41876193280 0.000000 100 0 1 0 1 110 51 46 100 0 35 0
+ itm_horse_russian5a Bay_Kabardin_Horse Bay_Kabardin_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 500 41876193280 0.000000 100 0 1 0 1 110 51 36 100 0 15 0
  0
 0
 
- itm_horse_russian5b Black_Kabardin_Horse Black_Kabardin_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 500 41876193280 0.000000 100 0 1 0 1 110 51 46 100 0 35 0
+ itm_horse_russian5b Black_Kabardin_Horse Black_Kabardin_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 500 41876193280 0.000000 100 0 1 0 1 110 51 36 100 0 15 0
  0
 0
 
- itm_horse_arabian1a Gray_Arabian_Siglavi_Horse Gray_Arabian_Siglavi_Horse 2  horse_arabian1 0  horse_arabian1 34360000512  65537 0 650 41876193280 0.000000 150 0 1 0 1 60 46 50 98 0 25 0
+ itm_horse_arabian1a Gray_Arabian_Siglavi_Horse Gray_Arabian_Siglavi_Horse 2  horse_arabian1 0  horse_arabian1 34360000512  65537 0 650 41876193280 0.000000 150 0 1 0 1 60 46 39 98 0 15 0
  0
 0
 
- itm_horse_arabian2a Bay_Arabian_Koheilan_Horse Bay_Arabian_Koheilan_Horse 2  horse_arabian2 0  horse_arabian2 34360000512  65537 0 550 41876193280 0.000000 75 0 1 0 1 80 47 47 99 0 40 0
+ itm_horse_arabian2a Bay_Arabian_Koheilan_Horse Bay_Arabian_Koheilan_Horse 2  horse_arabian2 0  horse_arabian2 34360000512  65537 0 550 41876193280 0.000000 75 0 1 0 1 80 47 36 99 0 10 0
  0
 0
 
- itm_horse_arabian2b Chestnut_Arabian_Koheilan_Horse Chestnut_Arabian_Koheilan_Horse 2  horse_arabian3 0  horse_arabian3 34360000512  65537 0 550 41876193280 0.000000 75 0 1 0 1 80 47 47 99 0 40 0
+ itm_horse_arabian2b Chestnut_Arabian_Koheilan_Horse Chestnut_Arabian_Koheilan_Horse 2  horse_arabian3 0  horse_arabian3 34360000512  65537 0 550 41876193280 0.000000 75 0 1 0 1 80 47 36 99 0 10 0
  0
 0
 
- itm_horse_arabian3a Bay_Arabian_Khadban_Horse Bay_Arabian_Khadban_Horse 2  horse_arabian2 0  horse_arabian2 34360000512  65537 0 550 41876193280 0.000000 150 0 1 0 1 80 54 48 98 0 35 0
+ itm_horse_arabian3a Bay_Arabian_Khadban_Horse Bay_Arabian_Khadban_Horse 2  horse_arabian2 0  horse_arabian2 34360000512  65537 0 550 41876193280 0.000000 150 0 1 0 1 80 54 37 98 0 15 0
  0
 0
 
- itm_horse_arabian4a Gray_Arabian_Koheilan-Siglavi_Horse Gray_Arabian_Koheilan-Siglavi_Horse 2  horse_arabian1 0  horse_arabian1 34360000512  65537 0 550 41876193280 0.000000 30 0 1 0 1 80 51 49 98 0 40 0
+ itm_horse_arabian4a Gray_Arabian_Koheilan-Siglavi_Horse Gray_Arabian_Koheilan-Siglavi_Horse 2  horse_arabian1 0  horse_arabian1 34360000512  65537 0 550 41876193280 0.000000 30 0 1 0 1 80 51 38 98 0 10 0
  0
 0
 
- itm_horse_arabian4b Bay_Arabian_Koheilan-Siglavi_Horse Bay_Arabian_Koheilan-Siglavi_Horse 2  horse_arabian2 0  horse_arabian2 34360000512  65537 0 550 41876193280 0.000000 30 0 1 0 1 80 51 49 98 0 40 0
+ itm_horse_arabian4b Bay_Arabian_Koheilan-Siglavi_Horse Bay_Arabian_Koheilan-Siglavi_Horse 2  horse_arabian2 0  horse_arabian2 34360000512  65537 0 550 41876193280 0.000000 30 0 1 0 1 80 51 38 98 0 10 0
  0
 0
 
- itm_horse_arabian4c Chestnut_Arabian_Koheilan-Siglavi_Horse Chestnut_Arabian_Koheilan-Siglavi_Horse 2  horse_arabian3 0  horse_arabian3 34360000512  65537 0 550 41876193280 0.000000 30 0 1 0 1 80 51 49 98 0 40 0
+ itm_horse_arabian4c Chestnut_Arabian_Koheilan-Siglavi_Horse Chestnut_Arabian_Koheilan-Siglavi_Horse 2  horse_arabian3 0  horse_arabian3 34360000512  65537 0 550 41876193280 0.000000 30 0 1 0 1 80 51 38 98 0 10 0
  0
 0
 
- itm_horse_turkmen1a Bay_Akhal-Teke_Horse Bay_Akhal-Teke_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 400 41876193280 0.000000 100 0 1 0 1 125 48 46 100 0 40 0
+ itm_horse_turkmen1a Bay_Akhal-Teke_Horse Bay_Akhal-Teke_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 400 41876193280 0.000000 100 0 1 0 1 125 48 36 100 0 10 0
  0
 0
 
- itm_horse_turkmen1b Chestnut_Akhal-Teke_Horse Chestnut_Akhal-Teke_Horse 2  horse_european2 0  horse_european2 34360000512  65537 0 400 41876193280 0.000000 100 0 1 0 1 125 48 46 100 0 40 0
+ itm_horse_turkmen1b Chestnut_Akhal-Teke_Horse Chestnut_Akhal-Teke_Horse 2  horse_european2 0  horse_european2 34360000512  65537 0 400 41876193280 0.000000 100 0 1 0 1 125 48 36 100 0 10 0
  0
 0
 
- itm_horse_turkmen1c Black_Akhal-Teke_Horse Black_Akhal-Teke_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 400 41876193280 0.000000 100 0 1 0 1 125 48 46 100 0 40 0
+ itm_horse_turkmen1c Black_Akhal-Teke_Horse Black_Akhal-Teke_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 400 41876193280 0.000000 100 0 1 0 1 125 48 36 100 0 10 0
  0
 0
 
- itm_horse_turkmen1d Gray_Akhal-Teke_Horse Gray_Akhal-Teke_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 400 41876193280 0.000000 100 0 1 0 1 125 48 46 100 0 40 0
+ itm_horse_turkmen1d Gray_Akhal-Teke_Horse Gray_Akhal-Teke_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 400 41876193280 0.000000 100 0 1 0 1 125 48 36 100 0 10 0
  0
 0
 
- itm_horse_karabakh1a Chestnut_Karabakh_Horse Chestnut_Karabakh_Horse 2  horse_european6 0  horse_european6 34360000512  65537 0 380 41876193280 0.000000 120 0 1 0 1 130 50 46 98 0 30 0
+ itm_horse_karabakh1a Chestnut_Karabakh_Horse Chestnut_Karabakh_Horse 2  horse_european6 0  horse_european6 34360000512  65537 0 380 41876193280 0.000000 120 0 1 0 1 130 50 36 98 0 10 0
  0
 0
 
- itm_horse_karabakh1b Gray_Karabakh_Horse Gray_Karabakh_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 380 41876193280 0.000000 120 0 1 0 1 130 50 46 98 0 30 0
+ itm_horse_karabakh1b Gray_Karabakh_Horse Gray_Karabakh_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 380 41876193280 0.000000 120 0 1 0 1 130 50 36 98 0 10 0
  0
 0
 
- itm_horse_austrian1a Bay_Austrian_Warmblood Bay_Austrian_Warmblood 2  horse_european1 0  horse_european1 34360000512  65537 0 270 41876193280 0.000000 100 0 1 0 1 100 47 45 100 0 40 0
+ itm_horse_austrian1a Bay_Austrian_Warmblood Bay_Austrian_Warmblood 2  horse_european1 0  horse_european1 34360000512  65537 0 270 41876193280 0.000000 100 0 1 0 1 100 47 35 100 0 10 0
  0
 0
 
- itm_horse_austrian1b Chestnut_Austrian_Warmblood Chestnut_Austrian_Warmblood 2  horse_european2 0  horse_european2 34360000512  65537 0 270 41876193280 0.000000 100 0 1 0 1 100 47 45 100 0 40 0
+ itm_horse_austrian1b Chestnut_Austrian_Warmblood Chestnut_Austrian_Warmblood 2  horse_european2 0  horse_european2 34360000512  65537 0 270 41876193280 0.000000 100 0 1 0 1 100 47 35 100 0 10 0
  0
 0
 
- itm_horse_austrian1c Black_Austrian_Warmblood Black_Austrian_Warmblood 2  horse_european3 0  horse_european3 34360000512  65537 0 270 41876193280 0.000000 100 0 1 0 1 100 47 45 100 0 40 0
+ itm_horse_austrian1c Black_Austrian_Warmblood Black_Austrian_Warmblood 2  horse_european3 0  horse_european3 34360000512  65537 0 270 41876193280 0.000000 100 0 1 0 1 100 47 35 100 0 10 0
  0
 0
 
- itm_horse_austrian1d Gray_Austrian_Warmblood Gray_Austrian_Warmblood 2  horse_european4 0  horse_european4 34360000512  65537 0 270 41876193280 0.000000 100 0 1 0 1 100 47 45 100 0 40 0
+ itm_horse_austrian1d Gray_Austrian_Warmblood Gray_Austrian_Warmblood 2  horse_european4 0  horse_european4 34360000512  65537 0 270 41876193280 0.000000 100 0 1 0 1 100 47 35 100 0 10 0
  0
 0
 
- itm_horse_austrian2a Black_Kladruber_Horse Black_Kladruber_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 150 41876193280 0.000000 60 0 1 0 1 150 40 42 102 0 30 0
+ itm_horse_austrian2a Black_Kladruber_Horse Black_Kladruber_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 150 41876193280 0.000000 60 0 1 0 1 150 40 33 102 0 10 0
  0
 0
 
- itm_horse_austrian2b Gray_Kladruber_Horse Gray_Kladruber_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 150 41876193280 0.000000 60 0 1 0 1 150 40 42 102 0 30 0
+ itm_horse_austrian2b Gray_Kladruber_Horse Gray_Kladruber_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 150 41876193280 0.000000 60 0 1 0 1 150 40 33 102 0 10 0
  0
 0
 
- itm_horse_austrian3a Gray_Lipizzan_Horse Gray_Lipizzan_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 250 41876193280 0.000000 100 0 1 0 1 130 47 44 99 0 35 0
+ itm_horse_austrian3a Gray_Lipizzan_Horse Gray_Lipizzan_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 250 41876193280 0.000000 100 0 1 0 1 130 47 34 99 0 15 0
  0
 0
 
- itm_horse_austrian4a Black_Nonius_Horse Black_Nonius_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 140 41 45 101 0 40 0
+ itm_horse_austrian4a Black_Nonius_Horse Black_Nonius_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 140 41 35 101 0 10 0
  0
 0
 
- itm_horse_austrian4b Dark_Bay_Nonius_Horse Dark_Bay_Nonius_Horse 2  horse_european5 0  horse_european5 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 140 41 45 101 0 40 0
+ itm_horse_austrian4b Dark_Bay_Nonius_Horse Dark_Bay_Nonius_Horse 2  horse_european5 0  horse_european5 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 140 41 35 101 0 10 0
  0
 0
 
- itm_horse_austrian5a Gray_Shagya_Arabian_Horse Gray_Shagya_Arabian_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 320 41876193280 0.000000 100 0 1 0 1 130 46 46 100 0 35 0
+ itm_horse_austrian5a Gray_Shagya_Arabian_Horse Gray_Shagya_Arabian_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 320 41876193280 0.000000 100 0 1 0 1 130 46 36 100 0 15 0
  0
 0
 
- itm_horse_german1a Bay_Trakehner Bay_Trakehner 2  horse_european1 0  horse_european1 34360000512  65537 0 270 41876193280 0.000000 100 0 1 0 1 60 42 46 100 0 15 0
+ itm_horse_german1a Bay_Trakehner Bay_Trakehner 2  horse_european1 0  horse_european1 34360000512  65537 0 270 41876193280 0.000000 100 0 1 0 1 60 42 36 100 0 15 0
  0
 0
 
- itm_horse_german1b Chestnut_Trakehner Chestnut_Trakehner 2  horse_european2 0  horse_european2 34360000512  65537 0 270 41876193280 0.000000 100 0 1 0 1 60 42 46 100 0 15 0
+ itm_horse_german1b Chestnut_Trakehner Chestnut_Trakehner 2  horse_european2 0  horse_european2 34360000512  65537 0 270 41876193280 0.000000 100 0 1 0 1 60 42 36 100 0 15 0
  0
 0
 
- itm_horse_german1c Black_Trakehner Black_Trakehner 2  horse_european3 0  horse_european3 34360000512  65537 0 270 41876193280 0.000000 100 0 1 0 1 60 42 46 100 0 15 0
+ itm_horse_german1c Black_Trakehner Black_Trakehner 2  horse_european3 0  horse_european3 34360000512  65537 0 270 41876193280 0.000000 100 0 1 0 1 60 42 36 100 0 15 0
  0
 0
 
- itm_horse_german1d Gray_Trakehner Gray_Trakehner 2  horse_european4 0  horse_european4 34360000512  65537 0 270 41876193280 0.000000 100 0 1 0 1 60 42 46 100 0 15 0
+ itm_horse_german1d Gray_Trakehner Gray_Trakehner 2  horse_european4 0  horse_european4 34360000512  65537 0 270 41876193280 0.000000 100 0 1 0 1 60 42 36 100 0 15 0
  0
 0
 
- itm_horse_german2a Bay_Brandenburger Bay_Brandenburger 2  horse_european1 0  horse_european1 34360000512  65537 0 270 41876193280 0.000000 100 0 1 0 1 110 45 45 100 0 25 0
+ itm_horse_german2a Bay_Brandenburger Bay_Brandenburger 2  horse_european1 0  horse_european1 34360000512  65537 0 270 41876193280 0.000000 100 0 1 0 1 110 45 35 100 0 15 0
  0
 0
 
- itm_horse_german3a Bay_Reitpony Bay_Reitpony 2  horse_european1 0  horse_european1 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 0 47 43 94 0 5 0
+ itm_horse_german3a Bay_Reitpony Bay_Reitpony 2  horse_european1 0  horse_european1 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 0 47 33 94 0 5 0
  0
 0
 
- itm_horse_german4a Bay_Hanoverian_Horse Bay_Hanoverian_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 400 41876193280 0.000000 50 0 1 0 1 120 46 48 100 0 35 0
+ itm_horse_german4a Bay_Hanoverian_Horse Bay_Hanoverian_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 400 41876193280 0.000000 50 0 1 0 1 120 46 37 100 0 15 0
  0
 0
 
- itm_horse_german4b Chestnut_Hanoverian_Horse Chestnut_Hanoverian_Horse 2  horse_european2 0  horse_european2 34360000512  65537 0 400 41876193280 0.000000 50 0 1 0 1 120 46 48 100 0 35 0
+ itm_horse_german4b Chestnut_Hanoverian_Horse Chestnut_Hanoverian_Horse 2  horse_european2 0  horse_european2 34360000512  65537 0 400 41876193280 0.000000 50 0 1 0 1 120 46 37 100 0 15 0
  0
 0
 
- itm_horse_german4c Black_Hanoverian_Horse Black_Hanoverian_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 400 41876193280 0.000000 50 0 1 0 1 120 46 48 100 0 35 0
+ itm_horse_german4c Black_Hanoverian_Horse Black_Hanoverian_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 400 41876193280 0.000000 50 0 1 0 1 120 46 37 100 0 15 0
  0
 0
 
- itm_horse_german4d Gray_Hanoverian_Horse Gray_Hanoverian_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 400 41876193280 0.000000 50 0 1 0 1 120 46 48 100 0 35 0
+ itm_horse_german4d Gray_Hanoverian_Horse Gray_Hanoverian_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 400 41876193280 0.000000 50 0 1 0 1 120 46 37 100 0 15 0
  0
 0
 
- itm_horse_german5a Bay_Holsteiner_Horse Bay_Holsteiner_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 400 41876193280 0.000000 60 0 1 0 1 120 46 48 100 0 35 0
+ itm_horse_german5a Bay_Holsteiner_Horse Bay_Holsteiner_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 400 41876193280 0.000000 60 0 1 0 1 120 46 37 100 0 15 0
  0
 0
 
- itm_horse_german5b Gray_Holsteiner_Horse Gray_Holsteiner_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 380 41876193280 0.000000 60 0 1 0 1 110 53 46 100 0 30 0
+ itm_horse_german5b Gray_Holsteiner_Horse Gray_Holsteiner_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 380 41876193280 0.000000 60 0 1 0 1 110 53 36 100 0 10 0
  0
 0
 
- itm_horse_german6a Black_Ostfriesen Black_Ostfriesen 2  horse_european3 0  horse_european3 34360000512  65537 0 330 41876193280 0.000000 60 0 1 0 1 130 43 46 100 0 35 0
+ itm_horse_german6a Black_Ostfriesen Black_Ostfriesen 2  horse_european3 0  horse_european3 34360000512  65537 0 330 41876193280 0.000000 60 0 1 0 1 130 43 36 100 0 15 0
  0
 0
 
- itm_horse_german6b Dark_Bay_Ostfriesen Dark_Bay_Ostfriesen 2  horse_european5 0  horse_european5 34360000512  65537 0 330 41876193280 0.000000 60 0 1 0 1 130 43 46 100 0 35 0
+ itm_horse_german6b Dark_Bay_Ostfriesen Dark_Bay_Ostfriesen 2  horse_european5 0  horse_european5 34360000512  65537 0 330 41876193280 0.000000 60 0 1 0 1 130 43 36 100 0 15 0
  0
 0
 
- itm_horse_german7a Bay_Mecklenburger Bay_Mecklenburger 2  horse_european1 0  horse_european1 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 125 47 47 100 0 30 0
+ itm_horse_german7a Bay_Mecklenburger Bay_Mecklenburger 2  horse_european1 0  horse_european1 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 125 47 37 100 0 10 0
  0
 0
 
- itm_horse_german7b Chestnut_Mecklenburger Chestnut_Mecklenburger 2  horse_european2 0  horse_european2 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 125 47 47 100 0 30 0
+ itm_horse_german7b Chestnut_Mecklenburger Chestnut_Mecklenburger 2  horse_european2 0  horse_european2 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 125 47 37 100 0 10 0
  0
 0
 
- itm_horse_german7c Black_Mecklenburger Black_Mecklenburger 2  horse_european3 0  horse_european3 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 125 47 47 100 0 30 0
+ itm_horse_german7c Black_Mecklenburger Black_Mecklenburger 2  horse_european3 0  horse_european3 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 125 47 37 100 0 10 0
  0
 0
 
- itm_horse_german7d Gray_Mecklenburger Gray_Mecklenburger 2  horse_european4 0  horse_european4 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 125 47 47 100 0 30 0
+ itm_horse_german7d Gray_Mecklenburger Gray_Mecklenburger 2  horse_european4 0  horse_european4 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 125 47 37 100 0 10 0
  0
 0
 
- itm_horse_german8a Bay_Oldenburg Bay_Oldenburg 2  horse_european1 0  horse_european1 34360000512  65537 0 250 41876193280 0.000000 40 0 1 0 1 110 48 43 100 0 35 0
+ itm_horse_german8a Bay_Oldenburg Bay_Oldenburg 2  horse_european1 0  horse_european1 34360000512  65537 0 250 41876193280 0.000000 40 0 1 0 1 110 48 33 100 0 15 0
  0
 0
 
- itm_horse_german8b Chestnut_Oldenburg Chestnut_Oldenburg 2  horse_european2 0  horse_european2 34360000512  65537 0 250 41876193280 0.000000 40 0 1 0 1 110 48 43 100 0 35 0
+ itm_horse_german8b Chestnut_Oldenburg Chestnut_Oldenburg 2  horse_european2 0  horse_european2 34360000512  65537 0 250 41876193280 0.000000 40 0 1 0 1 110 48 33 100 0 15 0
  0
 0
 
- itm_horse_german8c Black_Oldenburg Black_Oldenburg 2  horse_european3 0  horse_european3 34360000512  65537 0 250 41876193280 0.000000 40 0 1 0 1 110 48 43 100 0 35 0
+ itm_horse_german8c Black_Oldenburg Black_Oldenburg 2  horse_european3 0  horse_european3 34360000512  65537 0 250 41876193280 0.000000 40 0 1 0 1 110 48 33 100 0 15 0
  0
 0
 
- itm_horse_german8d Gray_Oldenburg Gray_Oldenburg 2  horse_european4 0  horse_european4 34360000512  65537 0 250 41876193280 0.000000 40 0 1 0 1 110 48 43 100 0 35 0
+ itm_horse_german8d Gray_Oldenburg Gray_Oldenburg 2  horse_european4 0  horse_european4 34360000512  65537 0 250 41876193280 0.000000 40 0 1 0 1 110 48 33 100 0 15 0
  0
 0
 
- itm_horse_german8a Bay_Rottaler Bay_Rottaler 2  horse_european1 0  horse_european1 34360000512  65537 0 250 41876193280 0.000000 80 0 1 0 1 140 46 44 100 0 40 0
+ itm_horse_german8a Bay_Rottaler Bay_Rottaler 2  horse_european1 0  horse_european1 34360000512  65537 0 250 41876193280 0.000000 80 0 1 0 1 140 46 34 100 0 10 0
  0
 0
 
- itm_horse_german9a Bay_Westphalian_Horse Bay_Westphalian_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 100 45 45 100 0 30 0
+ itm_horse_german9a Bay_Westphalian_Horse Bay_Westphalian_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 100 45 35 100 0 10 0
  0
 0
 
- itm_horse_german9b Chestnut_Westphalian_Horse Chestnut_Westphalian_Horse 2  horse_european2 0  horse_european2 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 100 45 45 100 0 30 0
+ itm_horse_german9b Chestnut_Westphalian_Horse Chestnut_Westphalian_Horse 2  horse_european2 0  horse_european2 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 100 45 35 100 0 10 0
  0
 0
 
- itm_horse_german9c Black_Westphalian_Horse Black_Westphalian_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 100 45 45 100 0 30 0
+ itm_horse_german9c Black_Westphalian_Horse Black_Westphalian_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 100 45 35 100 0 10 0
  0
 0
 
- itm_horse_german9d Gray_Westphalian_Horse Gray_Westphalian_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 100 45 45 100 0 30 0
+ itm_horse_german9d Gray_Westphalian_Horse Gray_Westphalian_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 100 45 35 100 0 10 0
  0
 0
 
- itm_horse_german10a Bay_Rhenish_Horse Bay_Rhenish_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 90 45 45 100 0 30 0
+ itm_horse_german10a Bay_Rhenish_Horse Bay_Rhenish_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 90 45 35 100 0 10 0
  0
 0
 
- itm_horse_german10b Chestnut_Rhenish_Horse Chestnut_Rhenish_Horse 2  horse_european2 0  horse_european2 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 90 45 45 100 0 30 0
+ itm_horse_german10b Chestnut_Rhenish_Horse Chestnut_Rhenish_Horse 2  horse_european2 0  horse_european2 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 90 45 35 100 0 10 0
  0
 0
 
- itm_horse_german10c Black_Rhenish_Horse Black_Rhenish_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 90 45 45 100 0 30 0
+ itm_horse_german10c Black_Rhenish_Horse Black_Rhenish_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 90 45 35 100 0 10 0
  0
 0
 
- itm_horse_german10d Gray_Rhenish_Horse Gray_Rhenish_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 90 45 45 100 0 30 0
+ itm_horse_german10d Gray_Rhenish_Horse Gray_Rhenish_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 400 41876193280 0.000000 40 0 1 0 1 90 45 35 100 0 10 0
  0
 0
 
- itm_horse_british1a Bay_Thoroughbred_Horse Bay_Thoroughbred_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 1000 41876193280 0.000000 100 0 1 0 3 80 44 51 100 0 30 0
+ itm_horse_british1a Bay_Thoroughbred_Horse Bay_Thoroughbred_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 1000 41876193280 0.000000 100 0 1 0 3 80 44 40 100 0 10 0
  0
 0
 
- itm_horse_british1b Chestnut_Thoroughbred_Horse Chestnut_Thoroughbred_Horse 2  horse_european2 0  horse_european2 34360000512  65537 0 1000 41876193280 0.000000 100 0 1 0 3 80 44 51 100 0 30 0
+ itm_horse_british1b Chestnut_Thoroughbred_Horse Chestnut_Thoroughbred_Horse 2  horse_european2 0  horse_european2 34360000512  65537 0 1000 41876193280 0.000000 100 0 1 0 3 80 44 40 100 0 10 0
  0
 0
 
- itm_horse_british1c Dark_Bay_Thoroughbred_Horse Dark_Bay_Thoroughbred_Horse 2  horse_european5 0  horse_european5 34360000512  65537 0 1000 41876193280 0.000000 100 0 1 0 3 80 44 51 100 0 30 0
+ itm_horse_british1c Dark_Bay_Thoroughbred_Horse Dark_Bay_Thoroughbred_Horse 2  horse_european5 0  horse_european5 34360000512  65537 0 1000 41876193280 0.000000 100 0 1 0 3 80 44 40 100 0 10 0
  0
 0
 
- itm_horse_british2a Bay_Anglo-Arabian_Horse Bay_Anglo-Arabian_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 1100 41876193280 0.000000 100 0 1 0 3 50 47 50 99 0 25 0
+ itm_horse_british2a Bay_Anglo-Arabian_Horse Bay_Anglo-Arabian_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 1100 41876193280 0.000000 100 0 1 0 3 50 47 39 99 0 15 0
  0
 0
 
- itm_horse_british2b Chestnut_Anglo-Arabian_Horse Chestnut_Anglo-Arabian_Horse 2  horse_european2 0  horse_european2 34360000512  65537 0 1100 41876193280 0.000000 100 0 1 0 3 50 47 50 99 0 25 0
+ itm_horse_british2b Chestnut_Anglo-Arabian_Horse Chestnut_Anglo-Arabian_Horse 2  horse_european2 0  horse_european2 34360000512  65537 0 1100 41876193280 0.000000 100 0 1 0 3 50 47 39 99 0 15 0
  0
 0
 
- itm_horse_british2c Gray_Anglo-Arabian_Horse Gray_Anglo-Arabian_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 1100 41876193280 0.000000 100 0 1 0 3 50 47 50 99 0 25 0
+ itm_horse_british2c Gray_Anglo-Arabian_Horse Gray_Anglo-Arabian_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 1100 41876193280 0.000000 100 0 1 0 3 50 47 39 99 0 15 0
  0
 0
 
- itm_horse_british3a Bay_Cleveland_Horse Bay_Cleveland_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 75 40 48 100 0 25 0
+ itm_horse_british3a Bay_Cleveland_Horse Bay_Cleveland_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 75 40 37 100 0 15 0
  0
 0
 
- itm_horse_british4a Black_Dales_Pony Black_Dales_Pony 2  horse_european3 0  horse_european3 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 15 46 42 94 0 5 0
+ itm_horse_british4a Black_Dales_Pony Black_Dales_Pony 2  horse_european3 0  horse_european3 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 15 46 33 94 0 5 0
  0
 0
 
- itm_horse_british5a Chestnut_Norfolk_Trotter Chestnut_Norfolk_Trotter 2  horse_european2 0  horse_european2 34360000512  65537 0 800 41876193280 0.000000 90 0 1 0 2 130 41 49 100 0 25 0
+ itm_horse_british5a Chestnut_Norfolk_Trotter Chestnut_Norfolk_Trotter 2  horse_european2 0  horse_european2 34360000512  65537 0 800 41876193280 0.000000 90 0 1 0 2 130 41 38 100 0 15 0
  0
 0
 
- itm_horse_british6a Black_Shire_Horse Black_Shire_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 180 41876193280 0.000000 80 0 1 0 1 145 41 43 101 0 35 0
+ itm_horse_british6a Black_Shire_Horse Black_Shire_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 180 41876193280 0.000000 80 0 1 0 1 145 41 33 101 0 15 0
  0
 0
 
- itm_horse_british6b Bay_Shire_Horse Bay_Shire_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 180 41876193280 0.000000 80 0 1 0 1 145 41 43 101 0 35 0
+ itm_horse_british6b Bay_Shire_Horse Bay_Shire_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 180 41876193280 0.000000 80 0 1 0 1 145 41 33 101 0 15 0
  0
 0
 
- itm_horse_british7a Bay_British_Warmblood Bay_British_Warmblood 2  horse_european1 0  horse_european1 34360000512  65537 0 340 41876193280 0.000000 100 0 1 0 1 110 45 46 100 0 35 0
+ itm_horse_british7a Bay_British_Warmblood Bay_British_Warmblood 2  horse_european1 0  horse_european1 34360000512  65537 0 340 41876193280 0.000000 100 0 1 0 1 110 45 36 100 0 15 0
  0
 0
 
- itm_horse_british7b Chestnut_British_Warmblood Chestnut_British_Warmblood 2  horse_european2 0  horse_european2 34360000512  65537 0 340 41876193280 0.000000 100 0 1 0 1 110 45 46 100 0 35 0
+ itm_horse_british7b Chestnut_British_Warmblood Chestnut_British_Warmblood 2  horse_european2 0  horse_european2 34360000512  65537 0 340 41876193280 0.000000 100 0 1 0 1 110 45 36 100 0 15 0
  0
 0
 
- itm_horse_british7c Black_British_Warmblood Black_British_Warmblood 2  horse_european3 0  horse_european3 34360000512  65537 0 340 41876193280 0.000000 100 0 1 0 1 110 45 46 100 0 35 0
+ itm_horse_british7c Black_British_Warmblood Black_British_Warmblood 2  horse_european3 0  horse_european3 34360000512  65537 0 340 41876193280 0.000000 100 0 1 0 1 110 45 36 100 0 15 0
  0
 0
 
- itm_horse_british7d Gray_British_Warmblood Gray_British_Warmblood 2  horse_european4 0  horse_european4 34360000512  65537 0 340 41876193280 0.000000 100 0 1 0 1 110 45 46 100 0 35 0
+ itm_horse_british7d Gray_British_Warmblood Gray_British_Warmblood 2  horse_european4 0  horse_european4 34360000512  65537 0 340 41876193280 0.000000 100 0 1 0 1 110 45 36 100 0 15 0
  0
 0
 
- itm_horse_french1a Bay_Auvergne_Horse Bay_Auvergne_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 260 41876193280 0.000000 100 0 1 0 1 70 44 43 99 0 20 0
+ itm_horse_french1a Bay_Auvergne_Horse Bay_Auvergne_Horse 2  horse_european1 0  horse_european1 34360000512  65537 0 260 41876193280 0.000000 100 0 1 0 1 70 44 33 99 0 10 0
  0
 0
 
- itm_horse_french1b Chestnut_Auvergne_Horse Chestnut_Auvergne_Horse 2  horse_european2 0  horse_european2 34360000512  65537 0 260 41876193280 0.000000 100 0 1 0 1 70 44 43 99 0 20 0
+ itm_horse_french1b Chestnut_Auvergne_Horse Chestnut_Auvergne_Horse 2  horse_european2 0  horse_european2 34360000512  65537 0 260 41876193280 0.000000 100 0 1 0 1 70 44 33 99 0 10 0
  0
 0
 
- itm_horse_french2a Black_Nivernais_Horse Black_Nivernais_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 340 41876193280 0.000000 100 0 1 0 1 110 46 46 100 0 35 0
+ itm_horse_french2a Black_Nivernais_Horse Black_Nivernais_Horse 2  horse_european3 0  horse_european3 34360000512  65537 0 340 41876193280 0.000000 100 0 1 0 1 110 46 36 100 0 15 0
  0
 0
 
- itm_horse_french3a Bay_Selle_Francais Bay_Selle_Francais 2  horse_european1 0  horse_european1 34360000512  65537 0 400 41876193280 0.000000 100 0 1 0 1 110 49 47 100 0 25 0
+ itm_horse_french3a Bay_Selle_Francais Bay_Selle_Francais 2  horse_european1 0  horse_european1 34360000512  65537 0 400 41876193280 0.000000 100 0 1 0 1 110 49 37 100 0 15 0
  0
 0
 
- itm_horse_french3b Chestnut_Selle_Francais Chestnut_Selle_Francais 2  horse_european2 0  horse_european2 34360000512  65537 0 400 41876193280 0.000000 100 0 1 0 1 110 49 47 100 0 25 0
+ itm_horse_french3b Chestnut_Selle_Francais Chestnut_Selle_Francais 2  horse_european2 0  horse_european2 34360000512  65537 0 400 41876193280 0.000000 100 0 1 0 1 110 49 37 100 0 15 0
  0
 0
 
- itm_horse_french4a Dark_Bay_Castillonnais Dark_Bay_Castillonnais 2  horse_european5 0  horse_european5 34360000512  65537 0 350 41876193280 0.000000 100 0 1 0 3 100 44 46 99 0 30 0
+ itm_horse_french4a Dark_Bay_Castillonnais Dark_Bay_Castillonnais 2  horse_european5 0  horse_european5 34360000512  65537 0 350 41876193280 0.000000 100 0 1 0 3 100 44 36 99 0 10 0
  0
 0
 
- itm_horse_french4b Chestnut_Castillonnais Chestnut_Castillonnais 2  horse_european2 0  horse_european2 34360000512  65537 0 350 41876193280 0.000000 100 0 1 0 3 100 44 46 99 0 30 0
+ itm_horse_french4b Chestnut_Castillonnais Chestnut_Castillonnais 2  horse_european2 0  horse_european2 34360000512  65537 0 350 41876193280 0.000000 100 0 1 0 3 100 44 36 99 0 10 0
  0
 0
 
- itm_horse_french5a Bay_French_Warmblood Bay_French_Warmblood 2  horse_european1 0  horse_european1 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 90 47 45 100 0 30 0
+ itm_horse_french5a Bay_French_Warmblood Bay_French_Warmblood 2  horse_european1 0  horse_european1 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 90 47 35 100 0 10 0
  0
 0
 
- itm_horse_french5b Chestnut_French_Warmblood Chestnut_French_Warmblood 2  horse_european2 0  horse_european2 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 90 47 45 100 0 30 0
+ itm_horse_french5b Chestnut_French_Warmblood Chestnut_French_Warmblood 2  horse_european2 0  horse_european2 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 90 47 35 100 0 10 0
  0
 0
 
- itm_horse_french5c Black_French_Warmblood Black_French_Warmblood 2  horse_european3 0  horse_european3 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 90 47 45 100 0 30 0
+ itm_horse_french5c Black_French_Warmblood Black_French_Warmblood 2  horse_european3 0  horse_european3 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 90 47 35 100 0 10 0
  0
 0
 
- itm_horse_french5d Gray_French_Warmblood Gray_French_Warmblood 2  horse_european4 0  horse_european4 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 90 47 45 100 0 30 0
+ itm_horse_french5d Gray_French_Warmblood Gray_French_Warmblood 2  horse_european4 0  horse_european4 34360000512  65537 0 300 41876193280 0.000000 100 0 1 0 1 90 47 35 100 0 10 0
  0
 0
 
- itm_horse_french6a Gray_Camargue_Horse Gray_Camargue_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 350 41876193280 0.000000 100 0 1 0 1 135 49 46 100 0 35 0
+ itm_horse_french6a Gray_Camargue_Horse Gray_Camargue_Horse 2  horse_european4 0  horse_european4 34360000512  65537 0 350 41876193280 0.000000 100 0 1 0 1 135 49 36 100 0 15 0
  0
 0
 
@@ -6981,6 +6981,16 @@ itemsfile version 3
  66
 0
 
+ itm_els_infantry5 Greek_Military_Uniform Greek_Military_Uniform 1  els_infantry5 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 66
+0
+
+ itm_els_infantry6 Greek_Military_Uniform Greek_Military_Uniform 1  els_infantry6 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 66
+0
+
  itm_els_cavalry1 Greek_Military_Uniform Greek_Military_Uniform 1  els_cavalry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  66
@@ -7012,6 +7022,11 @@ itemsfile version 3
 0
 
  itm_els_trousers5 Greek_Military_Trousers Greek_Military_Trousers 1  els_trousers5 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 66
+0
+
+ itm_els_trousers6 Greek_Military_Trousers Greek_Military_Trousers 1  els_trousers6 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
  66
 0
@@ -7052,6 +7067,11 @@ itemsfile version 3
 0
 
  itm_els_hat6 Greek_Shako Greek_Shako 1  els_hat6 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 66
+0
+
+ itm_els_hat7 Greek_Hat Greek_Hat 1  els_hat7 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  66
 0
@@ -7544,7 +7564,7 @@ itemsfile version 3
  itm_shotgun_winchester_m1897 Winchester_M1897 Winchester_M1897 2  winchester_m1897 0  winchester_m1897_inv 1152921504606846976  543227913 555929845760 900 131082 3.500000 80 0 0 65 0 0 35 380 0 6 291 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 20 600 10 288230376151713456 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 20 600 10 288230376151713460 1224979098644774912 
 
  itm_shotgun_winchester_m1897_m Winchester_M1897 Winchester_M1897 1  winchester_m1897 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 28912 75 0 100 0 276 540
  0
@@ -7553,7 +7573,7 @@ itemsfile version 3
  itm_shotgun_spencer_m1882 Spencer_Shotgun_Model_1882 Spencer_Shotgun_Model_1882 2  spencer_m1882 0  spencer_m1882_inv 1152921504606846976  543227913 555929845760 900 131082 3.500000 80 0 0 65 0 0 35 380 0 6 291 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 20 600 10 288230376151713458 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 20 600 10 288230376151713462 1224979098644774912 
 
  itm_shotgun_spencer_m1882_m Spencer_Shotgun_Model_1882 Spencer_Shotgun_Model_1882 1  spencer_m1882 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 28912 75 0 100 0 276 540
  0
