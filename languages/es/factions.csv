@@ -4,24 +4,24 @@ fac_outlaws|Forajidos
 fac_neutral|Neutral
 fac_innocents|Inocentes
 fac_merchants|Mercaderes
-fac_culture_1|Troop
-fac_culture_2|Troop
-fac_culture_3|Troop
-fac_culture_4|Troop
-fac_culture_5|Troop
-fac_culture_6|Troop
-fac_culture_7|Troop
-fac_culture_8|Troop
-fac_culture_9|Troop
-fac_culture_10|Troop
-fac_culture_11|Field Gun Crew Officer
-fac_culture_12|Howitzer Crew Officer
-fac_culture_13|Heavy Howitzer Crew Officer
-fac_culture_14|Field Crew Cannoneer
-fac_culture_15|Howitzer Crew Cannoneer
-fac_culture_16|MG Operator
-fac_culture_17|Field Crew Cannoneer
-fac_culture_18|MG Operator
+fac_culture_1|Tropa
+fac_culture_2|Tropa
+fac_culture_3|Tropa
+fac_culture_4|Tropa
+fac_culture_5|Tropa
+fac_culture_6|Tropa
+fac_culture_7|Tropa
+fac_culture_8|Tropa
+fac_culture_9|Tropa
+fac_culture_10|Tropa
+fac_culture_11|Oficial de Tripulación de Artillería de Campaña 
+fac_culture_12|Oficial de Tripulación de Obús
+fac_culture_13|Oficial de Tripulación de Obús Pesado
+fac_culture_14|Tripulación de Artillería de Campaña
+fac_culture_15|Tripulación de Obús
+fac_culture_16|Operador de Ametralladora
+fac_culture_17|Tripulación de Artillería de Campaña
+fac_culture_18|Operador de Ametralladora
 fac_player_faction|FacciÃ³n del Jugador
 fac_player_supporters_faction|FacciÃ³n del Jugador
 fac_kingdom_1|Reino de Swadia
@@ -30,35 +30,35 @@ fac_kingdom_3|Khanato de Khergit
 fac_kingdom_4|Reino del Norte
 fac_kingdom_5|Reino de Rhodok
 fac_kingdom_6|Sultanato SarranÃ­
-fac_kingdom_7|British Empire
-fac_kingdom_8|Kingdom of Netherlands
-fac_kingdom_9|Spanish Empire
-fac_kingdom_10|Emirate of Tunisia
-fac_kingdom_11|Kingdom of Two Sicilies
-fac_kingdom_12|Shahdom of Persia
-fac_kingdom_13|Switzerland
-fac_kingdom_14|Khedivate of Egypt
-fac_kingdom_15|Sultanate of Morocco
-fac_kingdom_16|Kingdom of Portugal
-fac_kingdom_17|Sultanate of Oman
-fac_kingdom_18|Kingdom of Denmark
-fac_kingdom_19|Papal States
-fac_kingdom_20|British Colonies
-fac_kingdom_21|Emirate of Afghanistan
-fac_kingdom_22|Emirate of Bukhara
-fac_kingdom_23|Khanate of Khiva
-fac_kingdom_24|Kingdom of Greece
-fac_kingdom_25|Romanian Principalities
-fac_kingdom_26|Kingdom of Belgium
-fac_kingdom_27|Kingdom of Wurttemberg
-fac_kingdom_28|Principality of Serbia
-fac_kingdom_29|Kingdom of Sweden
-fac_kingdom_30|Kingdom of Bavaria
-fac_kingdom_31|Kingdom of Hannover
-fac_kingdom_32|Emirate of Shammar
-fac_kingdom_33|Emirate of Najd
-fac_kingdom_usa|United States of America
-fac_kingdom_china|Qing Empire
+fac_kingdom_7|Imperio Británico
+fac_kingdom_8|Reino de los Países Bajos
+fac_kingdom_9|Imperio Español
+fac_kingdom_10|Emirato de Túnez
+fac_kingdom_11|Reino de las Dos Sicilias
+fac_kingdom_12|Shahdom de Persia
+fac_kingdom_13|Suíza
+fac_kingdom_14|Jedivato de Egipto
+fac_kingdom_15|Sultanato de Marruecos
+fac_kingdom_16|Reino de Portugal
+fac_kingdom_17|Sultanato de Omán
+fac_kingdom_18|Reino de Dinamarca
+fac_kingdom_19|Estados Papales
+fac_kingdom_20|Colonias Británicas
+fac_kingdom_21|Emirato de Afganistán
+fac_kingdom_22|Emirato de Bujará
+fac_kingdom_23|Kanato de Jiva
+fac_kingdom_24|Reino de Grecia
+fac_kingdom_25|Principados Rumanos
+fac_kingdom_26|Reino de Bélgica
+fac_kingdom_27|Reino de Wurttemberg
+fac_kingdom_28|Principado de Serbia
+fac_kingdom_29|Reino de Suecia
+fac_kingdom_30|Reino de Baviera
+fac_kingdom_31|Reino de Hannover
+fac_kingdom_32|Emirato de Shammar
+fac_kingdom_33|Emirato de Néyed
+fac_kingdom_usa|Estados Unidos de América
+fac_kingdom_china|Imperio Qing
 fac_manhunters|Cazahombres
 fac_deserters|Desertores
 fac_mountain_bandits|Bandidos de la montaÃ±a
