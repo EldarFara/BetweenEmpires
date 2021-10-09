@@ -2815,9 +2815,9 @@ str_server_s0|[!]: {s0}
 str_disallow_ranged_weapons|Inhabilitar armas de tiro
 str_ranged_weapons_are_disallowed|Armas de tiro están inhabilitadas.
 str_ranged_weapons_are_allowed|Armas de tiro están habilitadas.
-str_duel_starts_in_reg0_seconds|Duel starts in {reg0} seconds...
-str_s1_team|{s1} squad
-str_warning_max_players_count_text2|The recommended number of players for this mode is 16 players
+str_duel_starts_in_reg0_seconds|El duelo empieza en {reg0} segundos...
+str_s1_team|{s1} escuadra
+str_warning_max_players_count_text2|El numero recomendado de jugadores para este modo es de 16
 str_reason_high_price|This is too expensive!
 str_return_later|I will come back later. 
 str_recruit_first|It might be a good idea to hire some soldiers first. 
