@@ -14,14 +14,14 @@ fac_culture_7|Войска
 fac_culture_8|Войска
 fac_culture_9|Войска
 fac_culture_10|Войска
-fac_culture_11|Командир расчета полевого орудия
-fac_culture_12|Командир расчета гаубицы
-fac_culture_13|Командир расчета тяжелой гаубицы
-fac_culture_14|Канонир расчета полевого орудия
-fac_culture_15|Канонир расчета гаубицы
-fac_culture_16|Наводчик станкового пулемета
+fac_culture_11|Офицер полевой артиллерийской бригады
+fac_culture_12|Офицер гаубичного экипажа
+fac_culture_13|Офицер экипажа тяжелой гаубицы
+fac_culture_14|Канонир полевой команды
+fac_culture_15|Канонир экипажа гаубицы
+fac_culture_16|Оператор MG
 fac_culture_17|Канонир полевой команды
-fac_culture_18|Наводчик станкового пулемета
+fac_culture_18|Оператор MG
 fac_player_faction|Фракция игрока
 fac_player_supporters_faction|Сторонники игрока
 fac_kingdom_1|Королевство Свадия
@@ -35,7 +35,7 @@ fac_kingdom_8|Королевство Нидерланды
 fac_kingdom_9|Испанская Империя
 fac_kingdom_10|Тунисский Эммират
 fac_kingdom_11|Королевство двух Сицилий
-fac_kingdom_12|Каджарский Иран
+fac_kingdom_12|Шадхом Персии
 fac_kingdom_13|Швейцария
 fac_kingdom_14|Хедиват Египта
 fac_kingdom_15|Султанат Марокко
