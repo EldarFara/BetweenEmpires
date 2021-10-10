@@ -12,17 +12,17 @@ menu_start_game_3|Выберите сценарий:
 menu_tutorial|Вы приближаетесь к полю, где местные воины упражняются с оружием. Здесь вы можете потренироваться, чтобы улучшить свои боевые навыки.
 mno_go_back_dot|Назад.
 menu_reports|Известность персонажа: {reg5}^Рейтинг чести: {reg6}^Мораль отряда: {reg8}^Предельный размер отряда: {reg7}^
-mno_show_pps_menu|View faction internal politics menu.
-mno_show_pas_menu|View faction military management menu.
-mno_show_weather_report|View weather report.
-mno_reports_to_faction_technologies|View your faction military technologies.
+mno_show_pps_menu|Посмотреть меню внутренней политики фракции.
+mno_show_pas_menu|Посмотреть меню военного управления фракцией.
+mno_show_weather_report|Посмотреть прогноз погоды.
+mno_reports_to_faction_technologies|Просмотрите военные технологии своей фракции.
 mno_view_character_report|Просмотреть данные о персонаже.
 mno_view_party_size_report|Просмотреть данные о численности отряда.
 mno_view_npc_mission_report|Просмотреть задание спутника.
 mno_view_weekly_budget_report|Просмотреть недельную смету.
 mno_view_morale_report|Просмотреть данные о моральном состоянии отряда.
-mno_action_view_troop_trees|View factions troop trees.
-mno_action_view_world_map|World Map
+mno_action_view_troop_trees|Просмотр дерево войск фракций.
+mno_action_view_world_map|Карта мира
 mno_lord_relations|Вывести список отношений со знакомыми лордами.
 mno_courtship_relations|Просмотреть успехи в ухаживаниях.
 mno_view_faction_relations_report|Просмотреть данные об отношениях с фракциями.
@@ -37,8 +37,8 @@ mno_start_noble|Обедневшим дворянином.
 mno_start_merchant|Странствующим торговцем.
 mno_start_guard|Опытным воином.
 mno_start_forester|Охотником.
-mno_start_professor|A university professor.
-mno_start_worker|A factory worker.
+mno_start_professor|Профессором университета.
+mno_start_worker|Работникам завода.
 mno_start_nomad|Степным кочевником.
 mno_start_thief|Вором.
 menu_start_character_2|{s10}^^ Вы начали познавать мир, как только научились ходить и говорить. Свои ранние годы вы провели в качестве...
@@ -48,9 +48,9 @@ mno_stockboy|Помощника в магазине.
 mno_urchin|Уличного оборванца.
 mno_nomad|Дитя степей.
 menu_start_character_3|{s11}^^ В юности ваша жизнь переменилась, как это обычно и бывает. Вы стали...
-mno_student1|A university student (medicine).
-mno_student2|A university student (engineering).
-mno_student3|A university student (philology).
+mno_student1|Студентом университета (медицина).
+mno_student2|Студентом университета (инженером).
+mno_student3|Студентом университета (филология).
 mno_troubadour|Трубадуром.
 mno_craftsman|Кузнецом.
 mno_poacher|Браконьером.
@@ -80,18 +80,18 @@ mno_camp_cheat|МЕНЮ ЧИТ-КОДОВ!
 menu_camp_cheat|Выберите чит:
 mno_camp_cheat_10_pes_pps_iterations|Simulate 20 PES/PPS iterations.
 mno_camp_cheat_dds|Open Debug Display Slots.
-mno_camp_cheat_all_factions_research_all_tech|Make all factions immediately research all technologies.
+mno_camp_cheat_all_factions_research_all_tech|Заставьте все нации немедленно исследовать все технологии.
 mno_camp_cheat_find_item|Найти предмет...
 mno_camp_action_4|Вернуться к меню лагеря.
 menu_camp_action|Выберите действие:
-mno_camp_action_pas_enlistment_retire|Retire from service.
+mno_camp_action_pas_enlistment_retire|Уйти со службы.
 mno_camp_recruit_prisoners|Завербовать некоторых из ваших пленников в свой отряд.
 mno_action_read_book|Выбрать книгу для чтения.
 mno_action_rename_kingdom|Переименовать свое королевство.
-mno_action_change_flag|Change flag of your nation.
-mno_action_promote_kingdom_custom_troop|Customize your faction army.
-mno_change_game_speed|Change game speed. (current speed - {reg0} days per year).
-mno_enable_ironsight|Toggle ironsight mode.
+mno_action_change_flag|Смените флаг своей нации.
+mno_action_promote_kingdom_custom_troop|Настройте армию своей нации.
+mno_change_game_speed|Измените скорость игры. (текущая скорость - {reg0} дней в году).
+mno_enable_ironsight|Переключить режим прицеливания.
 mno_action_retire|Прекратить жизнь искателя приключений.
 menu_camp_recruit_prisoners|Вы предлагаете своим пленникам свободу, если они согласятся присоединиться к вам как воины. {s18}
 mno_camp_recruit_prisoners_accept|Взять их.
@@ -124,7 +124,7 @@ mno_cattle_kill_4|Четыре.
 mno_cattle_kill_5|Пять.
 menu_arena_duel_fight|Вы и ваш противник готовитесь к дуэли.
 menu_simple_encounter|{s2} Вы имеете {reg10} готовых к бою воинов против {reg11} вражеских.
-mno_encounter_attack_deployment|Change the troops deployment plan.
+mno_encounter_attack_deployment|Измените план размещения войск.
 mno_encounter_attack|Атаковать противника.
 mno_encounter_order_attack|Приказать своим воинам атаковать без вас.
 mno_encounter_leave|Уйти.
@@ -237,7 +237,7 @@ mno_siege_defender_troops_join_battle|Приказать своим людям �
 menu_siege_join_defense|{s4}^^Ваши потери: {s8}^^Потери союзников: {s9}^^Потери противника: {s10}
 menu_enter_your_own_castle|{s10}
 menu_village|{s10} {s12}^{s11}^{s6}{s7}
-mno_village_talk_to_elder|Talk to a village elder.
+mno_village_talk_to_elder|Поговорите со старейшиной деревни.
 mno_village_manage|Управлять этой деревней.
 mno_recruit_volunteers|Набрать добровольцев.
 mno_village_center|Направиться к центру деревни.
@@ -297,7 +297,7 @@ mno_castle_castle_door|Дверь в замок.
 mno_join_tournament|Принять участие в турнире.
 mno_town_castle|Направиться в замок{s1}.
 mno_town_castle_door|Дверь в замок.
-mno_town_major_talk|Talk to a town mayor.
+mno_town_major_talk|Поговорить с мэром города.
 mno_town_center|Прогуляться по улицам.
 mno_town_center_door|Дверь в центр города
 mno_town_tavern|Посетить таверну.
@@ -318,11 +318,11 @@ mno_trade_with_merchants|Отправиться на рыночную площа
 mno_walled_center_manage|Управлять этим {reg0?городом:замком}.
 mno_walled_center_move_court|Переместить ваш двор сюда.
 mno_castle_station_troops|Управлять гарнизоном{s10}.
-mno_towncastle_to_enlistment_office|Go to local military enlistment office.
-mno_open_pes_region_menu|Go to industrial zone.
+mno_towncastle_to_enlistment_office|Сходите в местный военкомат.
+mno_open_pes_region_menu|Перейти в промзону.
 mno_castle_wait|Подождать здесь некоторое время{s1}.
-mno_castle_to_cannoneers_store|Go to the armory.
-mno_castle_to_cannoneers_store_door|Door to the armory.
+mno_castle_to_cannoneers_store|Идите в оружейную.
+mno_castle_to_cannoneers_store_door|Дверь в оружейную.
 mno_town_leave|Уйти...
 mno_town_leave_door|Покинуть местность.
 menu_cannot_enter_court|В чертогах лорда идет пир, но вы недостаточно высокородны, чтобы на него попасть. Возможно, снискав славу и признание, вы однажды попадете туда. Кроме того, вы можете отличиться в турнире еще до окончания праздника...
@@ -533,77 +533,77 @@ menu_establish_court|Выбор {s4} двором потребует небол�
 mno_establish|Расположить свой двор в {s4}.
 menu_notification_relieved_as_marshal|{s4} желает сообщить Вам, что как маршал {reg8?Ее:Его} Величеству Вы более неугодны. В честь славных битв от имени государства за прошедшие дни, коих было {reg4}, {reg8?она:он} предлагает Вам кошелек с {reg5} динар.
 menu_weather_report|{s1}
-menu_start_game_choose_ai_behavior|Choose AI factions behaviour mode.
-mno_start_game_choose_ai_behavior_historical|Historical.
-mno_start_game_choose_ai_behavior_random|Random.
-menu_start_game_choose_date|Choose game starting date. It affects coutries military technology level as well as countries borders.
+menu_start_game_choose_ai_behavior|Выберите режим поведения нации ИИ.
+mno_start_game_choose_ai_behavior_historical|Историческое.
+mno_start_game_choose_ai_behavior_random|Случайное.
+menu_start_game_choose_date|Выберите дату начала игры. Это влияет на уровень военной техники страны, а также границы стран.
 mno_start_game_choose_date_1860|1860.
 mno_start_game_choose_date_1878|1878.
 mno_start_game_choose_date_1891|1891.
 mno_start_game_choose_date_1907|1907.
 mno_start_game_choose_date_1914|1914.
 mno_start_game_choose_date_1916|1916 (Temporary).
-menu_start_game_speed_selection|Select game speed. You will be able to change it later in the game. Game speed affects how fast countries will develop their military technology and start using more advanced firearms.
-mno_game_speed_extremely_fast|Extremely fast (One year passes in 6 days).
-mno_game_speed_very_fast|Very fast (One year passes in 9 days).
-mno_game_speed_fast|Fast (One year passes in 12 days).
-mno_game_speed_normal|Normal (One year passes in 15 days).
-mno_game_speed_slow|Slow (One year passes in 20 days) - recommended.
-mno_game_speed_very_slow|Very slow (One year passes in 25 days).
-mno_game_speed_extremely_slow|Extremely slow (One year passes in 30 days).
-mno_game_speed_minimum|Minimum (One year passes in 365 days).
-menu_start_game_ai_party_size_selection|Select preferred lords party size. This affects lords parties maximum soldiers amount and can't be changed later in game.
-mno_start_game_ai_party_size_selection_100|100 - Small (Battle size at least 200 is recommended).
-mno_start_game_ai_party_size_selection_125|125 - Medium (Battle size at least 300 is recommended).
-mno_start_game_ai_party_size_selection_150|150 - Big (Battle size at least 400 is recommended).
-menu_change_game_speed|Select game speed.
-mno_game_speed_debug|Debug mode (One year passes in 1 day).
-menu_cannoneers_store|The soldiers let you into the armory. Here you can order heavy weaponry - field guns and howitzers.^^Your current balance is {reg0} pounds.^^^Note that cannons won't spawn in battle unless you have either field guns or howitzer company set in prebattle menu.
-mno_cannoneers_store_buy_fieldgun|Order a field gun and hire a cannoneers crew (2000 pounds).
-mno_cannoneers_store_buy_howitzer|Order a howitzer and hire a cannoneers crew (2000 pounds).
-mno_cannoneers_store_buy_mg|Order a machine gun and hire an operator (2500 pounds).
-mno_cannoneers_store_access_wardrobe|Access wardrobe.
-menu_start_game_start_as_leader|Select a faction.
-mno_start_as_leader_france|French Empire.
-mno_start_as_leader_russia|Russian Empire.
-mno_start_as_leader_austria|Austrian Empire.
-mno_start_as_leader_sardinia|Kingdom of Sardinia.
-mno_start_as_leader_prussia|Kingdom of Prussia.
-mno_start_as_leader_ottomans|Ottoman Empire.
-mno_start_as_leader_britain|British Empire.
-mno_start_as_leader_netherlands|Kingdom of Netherlands.
-mno_start_as_leader_spain|Spanish Empire.
-mno_start_as_leader_tunisia|Emirate of Tunisia.
-mno_start_as_leader_sicily|Kingdom of Two Sicilies.
-mno_start_as_leader_persia|Shahdom of Persia.
-mno_start_as_leader_switzerland|Switzerland.
-mno_start_as_leader_egypt|Khedivate of Egypt.
-mno_start_as_leader_morocco|Sultanate of Morocco.
-mno_start_as_leader_portugal|Kingdom of Portugal.
-mno_start_as_leader_oman|Sultanate of Oman.
-mno_start_as_leader_denmark|Kingdom of Denmark.
-mno_start_as_leader_papal|Papal States.
-mno_start_as_leader_colonies|British Colonies.
-mno_start_as_leader_afghanistan|Emirate of Afghanistan.
-mno_start_as_leader_bukhara|Emirate of Bukhara.
-mno_start_as_leader_khiva|Khanate of Khiva.
-mno_start_as_leader_greece|Kingdom of Greece.
-mno_start_as_leader_wallachia|Principality of Wallachia and Moldavia.
-mno_start_as_leader_belgium|Kingdom of Belgium.
-mno_start_as_leader_wurttemberg|Kingdom of Wurttemberg.
-mno_start_as_leader_serbia|Principality of Serbia.
-mno_start_as_leader_sweden|Kingdom of Sweden.
-mno_start_as_leader_bavaria|Kingdom of Bavaria.
-mno_start_as_leader_hannover|Kingdom of Hannover.
-mno_start_as_leader_shammar|Emirate of Shmmar.
-mno_start_as_leader_najd|Emirate of Najd.
-menu_start_game_choose_as_who_to_start|Choose who you want to start the game as.
-mno_start_as_adventurer|Start as adventurer.
-mno_start_as_leader|Start as faction leader.
-menu_tech_invented|The {s3} has researched {s1}!^^^{s2}
-mno_to_the_tech_menu|To technologies menu
-mno_close|Close
-menu_welcome_to_be_mod|Welcome to Between Empires!^^Please take a moment to read this, it contains vital information.^^^In order to play the mod properly, you have to use our company system, which you can access in the pre-battle deployment menu, and our new command interface, which you can access via the U key during battles. Hotkeys are listed at the beginning of each battle, take a moment to memorize them.^The company system allows you to split your units into up to 8 infantry, cavalry, or artillery companies. In order for artillery to spawn, you need an artillery company.^^Furthermore, Between Empires includes a unique technology system. Said technology system can be accessed by the player via the reports menu, where it is listed under the technology menu. Certain technologies are required for others to unlock, and researching a technology takes two in-game years, (between 12 and 60 days, depending on your chosen game speed).^Researching technologies is vital for the survival of your nation, as the AI factions will also gain access to technologies as time progresses.^Some factions, such as Prussia, have already unlocked advanced armaments at game start and should be approached accordingly.^^This mod also has various diplomacy features, which are accessable via dialogs with minister of your faction.
+menu_start_game_speed_selection|Выберите скорость игры. Вы сможете изменить её позже в игре. Скорость игры влияет на то, насколько быстро страны будут развивать свои военные технологии и начнут использовать более совершенное огнестрельное оружие.
+mno_game_speed_extremely_fast|Чрезвычайно быстро (один год проходит за 6 дней).
+mno_game_speed_very_fast|Очень быстро (год проходит за 9 дней).
+mno_game_speed_fast|Быстро (год проходит за 12 дней).
+mno_game_speed_normal|Нормально (Один год проходит за 15 дней).
+mno_game_speed_slow|Медленно (один год проходит за 20 дней) - рекомендуется.
+mno_game_speed_very_slow|Очень медленно (один год проходит за 25 дней).
+mno_game_speed_extremely_slow|Чрезвычайно медленно (один год проходит за 30 дней).
+mno_game_speed_minimum|Минимум (Один год проходит за 365 дней).
+menu_start_game_ai_party_size_selection|Выберите желаемый размер партии лордов. Это влияет на максимальное количество солдат в группах лордов и не может быть изменено позже в игре.
+mno_start_game_ai_party_size_selection_100|100 - Маленький (рекомендуется размер боя не менее 200).
+mno_start_game_ai_party_size_selection_125|125 - Средний (рекомендуется размер боя не менее 300).
+mno_start_game_ai_party_size_selection_150|150 - Большой (рекомендуется размер боя не менее 400).
+menu_change_game_speed|Выберите скорость игры.
+mno_game_speed_debug|Режим отладки (Один год проходит за 1 день).
+menu_cannoneers_store|Солдаты впускают вас в оружейную. Здесь вы можете заказать тяжелое вооружение - полевые орудия и гаубицы. ^^ Ваш текущий баланс составляет {reg0} фунтов. ^^^ Обратите внимание, что пушки не появятся в бою, если у вас нет полевых орудий или роты гаубиц, установленных в предбоевом меню.
+mno_cannoneers_store_buy_fieldgun|Закажите полевую пушку и наймите команду канониров (2000 фунтов).
+mno_cannoneers_store_buy_howitzer|Закажите гаубицу и наймите команду канониров (2000 фунтов).
+mno_cannoneers_store_buy_mg|Закажите пулемет и наймите наводчика (2500 фунтов).
+mno_cannoneers_store_access_wardrobe|Доступ к гардеробной.
+menu_start_game_start_as_leader|Выберите фракцию.
+mno_start_as_leader_france|Французская Империя
+mno_start_as_leader_russia|Российская империя.
+mno_start_as_leader_austria|Австрийская империя.
+mno_start_as_leader_sardinia|Королевство Сардиния.
+mno_start_as_leader_prussia|Королевство Пруссия.
+mno_start_as_leader_ottomans|Османская империя.
+mno_start_as_leader_britain|Британская Империя.
+mno_start_as_leader_netherlands|Королевство Нидерланды.
+mno_start_as_leader_spain|Испанская империя.
+mno_start_as_leader_tunisia|Эмират Тунис.
+mno_start_as_leader_sicily|Королевство Обеих Сицилий.
+mno_start_as_leader_persia|Каджарский Иран.
+mno_start_as_leader_switzerland|Швейцария.
+mno_start_as_leader_egypt|Египетский хедиват
+mno_start_as_leader_morocco|Султанат Марокко.
+mno_start_as_leader_portugal|Королевство Португалия.
+mno_start_as_leader_oman|Оманский султанат.
+mno_start_as_leader_denmark|Королевство Дания.
+mno_start_as_leader_papal|Папская область.
+mno_start_as_leader_colonies|Британские колонии.
+mno_start_as_leader_afghanistan|Эмират Афганистан.
+mno_start_as_leader_bukhara|Бухарский Эмират
+mno_start_as_leader_khiva|Хивинское ханство
+mno_start_as_leader_greece|Королевство Греции.
+mno_start_as_leader_wallachia|Княжество Валахия и Молдавия.
+mno_start_as_leader_belgium|Королевство Бельгия.
+mno_start_as_leader_wurttemberg|Королевство Вюртемберг.
+mno_start_as_leader_serbia|Княжество Сербия.
+mno_start_as_leader_sweden|Королевство Швеция.
+mno_start_as_leader_bavaria|Королевство Бавария.
+mno_start_as_leader_hannover|Королевство Ганновер.
+mno_start_as_leader_shammar|Эмират Шаммар.
+mno_start_as_leader_najd|Эмират Неджд.
+menu_start_game_choose_as_who_to_start|Выберите, под кем вы хотите начать игру.
+mno_start_as_adventurer|Начни как авантюрист.
+mno_start_as_leader|Начать как лидер нации.
+menu_tech_invented|В {s3} исследовал {s1}!^^^{s2}
+mno_to_the_tech_menu|В меню технологий
+mno_close|Закрыть
+menu_welcome_to_be_mod|Добро пожаловать в Between Empires!^^Пожалуйста, найдите время, чтобы прочитать это, он содержит важную информацию.^^^Чтобы правильно играть в мод, вы должны использовать нашу корпоративную систему, доступ к которой вы можете получить в меню развертывания перед битвой. , и наш новый командный интерфейс, к которому вы можете получить доступ с помощью клавиши U во время сражений. Горячие клавиши перечислены в начале каждого сражения, запомните их.^Система рот позволяет разделить свои подразделения на 8 пехотных, кавалерийских или артиллерийских рот. Чтобы появилась артиллерия, вам понадобится артиллерийская рота.^^Кроме того, Between Empires включает уникальную технологическую систему. Игрок может получить доступ к указанной технологической системе через меню отчетов, где она указана в меню технологий. Некоторые технологии требуются для того, чтобы другие могли их разблокировать, а исследование технологии занимает два игровых года (от 12 до 60 дней, в зависимости от выбранной вами скорости игры).^Исследование технологий жизненно важно для выживания вашей нации, поскольку ИИ фракции также получат доступ к технологиям с течением времени.^Некоторые фракции, такие как Пруссия, уже открыли передовое вооружение в начале игры, и к ним следует подходить соответствующим образом.^^Этот мод также имеет различные функции дипломатии, которые доступны через диалоги с министром. вашей нации.
 menu_italian_unification|{s32} annexed!^^Following intense fighting against the armies of the {s31}, the {s32} was forced to surrender. After the national committee signed a treaty in the national palace, {s33} ratified the agreement in the early morning hours and effectively ended {s32}'s national sovereignty. Italian Unification has just become a looming reality.
 menu_provocation_created1|Tensions between {s31} and {s32}!^^Public disagreements over the borders created during the Vienna Congress have led to open hostility, with loyalist militias belonging to both states clashing in the entire border region. {s31} has decried the violence, stating their intentions to defend their ethnic enclaves in the nation should it be necessary, while {s32} has declared the fighters as hostile, sovereign actors in an attempt to ease international pressure.^Telegrams and messengers on horseback have been arriving in the capitals of the Western powers since the early morning hours, trying to secure their support for what might well be the prelude to another bloody conflict.
 menu_provocation_created2|Aboltionist incident!^^News reached the {s31}'s capital in the evening hours that one of its most prolific traders, and in more colonial regions more so known as one of the richest slave traders in the world had been captured, and subsequently executed by staunch abolitionists who had sworn loyalty to the {s32}. {s32} has refused to hand over the perpetrators, probably more so due to the fact that the trader had been a thorn in the side of their traders for many years. Local militia companies have been promising revenge should the abolitionists not be surrendered, and the situation is quickly escalating. Only aimed de-escalation can avert conflict now.
