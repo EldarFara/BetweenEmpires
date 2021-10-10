@@ -1264,64 +1264,64 @@ itm_javelin_bow_ammo|Shooting Javelins
 itm_javelin_bow_ammo_pl|Shooting Javelins
 itm_ccoop_new_items_end|Items End
 itm_ccoop_new_items_end_pl|Items End
-itm_ria_infantry_trousers1|Russian Infantry Trousers
-itm_ria_infantry_trousers1_pl|Russian Infantry Trousers
-itm_ria_infantry_trousers2|Russian Infantry Trousers
-itm_ria_infantry_trousers2_pl|Russian Infantry Trousers
-itm_ria_infantry_trousers3|Russian Infantry Trousers
-itm_ria_infantry_trousers3_pl|Russian Infantry Trousers
-itm_ria_infantry_trousers4|Russian Infantry Trousers
-itm_ria_infantry_trousers4_pl|Russian Infantry Trousers
-itm_ria_infantry_trousers5|Russian Infantry Trousers
-itm_ria_infantry_trousers5_pl|Russian Infantry Trousers
-itm_ria_cavalry_trousers1|Russian Cavalry Trousers
+itm_ria_infantry_trousers1|Rus Piyade Pantolonu
+itm_ria_infantry_trousers1_pl|Rus Rus Piyade Pantolonu
+itm_ria_infantry_trousers2|Rus Piyade Pantolonu
+itm_ria_infantry_trousers2_pl|Rus Piyade Pantolonu
+itm_ria_infantry_trousers3|Rus Piyade Pantolonu
+itm_ria_infantry_trousers3_pl|Rus Piyade Pantolonu
+itm_ria_infantry_trousers4|Rus Piyade Pantolonu
+itm_ria_infantry_trousers4_pl|Rus Piyade Pantolonu
+itm_ria_infantry_trousers5|Rus Piyade Pantolonu
+itm_ria_infantry_trousers5_pl|Rus Piyade Pantolonu
+itm_ria_cavalry_trousers1|Russian Cavalary Trousers
 itm_ria_cavalry_trousers1_pl|Russian Cavalry Trousers
 itm_ria_cavalry_trousers2|Russian Cavalry Trousers
 itm_ria_cavalry_trousers2_pl|Russian Cavalry Trousers
 itm_ria_cavalry_trousers3|Russian Cossack Trousers
-itm_ria_cavalry_trousers3_pl|Russian Cossack Trousers
+itm_ria_cavalry_trousers3_pl|Rus Cossack Pantolonu
 itm_ria_cavalry_trousers4|Russian Cavalry Trousers
 itm_ria_cavalry_trousers4_pl|Russian Cavalry Trousers
-itm_ria_infantry1|Russian Military Uniform
-itm_ria_infantry1_pl|Russian Military Uniform
-itm_ria_infantry2|Russian Military Uniform
-itm_ria_infantry2_pl|Russian Military Uniform
-itm_ria_infantry3|Russian Military Uniform
-itm_ria_infantry3_pl|Russian Military Uniform
-itm_ria_infantry4|Russian Military Uniform
-itm_ria_infantry4_pl|Russian Military Uniform
-itm_ria_infantry5|Russian Military Uniform
-itm_ria_infantry5_pl|Russian Military Uniform
-itm_ria_infantry6|Russian Military Uniform
-itm_ria_infantry6_pl|Russian Military Uniform
-itm_ria_infantry7|Russian Military Uniform
-itm_ria_infantry7_pl|Russian Military Uniform
-itm_ria_infantry8|Russian Military Uniform
-itm_ria_infantry8_pl|Russian Military Uniform
-itm_ria_infantry9|Russian Military Uniform
-itm_ria_infantry9_pl|Russian Military Uniform
-itm_ria_infantry10|Russian Military Uniform
-itm_ria_infantry10_pl|Russian Military Uniform
-itm_ria_infantry11|Russian Military Uniform
-itm_ria_infantry11_pl|Russian Military Uniform
-itm_ria_cavalry1|Russian Military Uniform
-itm_ria_cavalry1_pl|Russian Military Uniform
-itm_ria_cavalry2|Russian Military Uniform
-itm_ria_cavalry2_pl|Russian Military Uniform
-itm_ria_cavalry3|Russian Cossack Uniform
-itm_ria_cavalry3_pl|Russian Cossack Uniform
-itm_ria_cavalry4|Russian General Uniform
-itm_ria_cavalry4_pl|Russian General Uniform
-itm_ria_hat1|Russian Hat
-itm_ria_hat1_pl|Russian Hat
-itm_ria_hat2|Russian Hat
-itm_ria_hat2_pl|Russian Hat
-itm_ria_hat3|Russian Hat
-itm_ria_hat3_pl|Russian Hat
-itm_ria_hat4|Russian Hat
-itm_ria_hat4_pl|Russian Hat
-itm_ria_hat5|Russian Cossack Hat
-itm_ria_hat5_pl|Russian Cossack Hat
+itm_ria_infantry1|Rus Askeri Uniforması
+itm_ria_infantry1_pl|Rus Askeri Uniforması
+itm_ria_infantry2|Rus Askeri Uniforması
+itm_ria_infantry2_pl|Rus Askeri Uniforması
+itm_ria_infantry3|Rus Askeri Uniforması
+itm_ria_infantry3_pl|Rus Askeri Uniforması
+itm_ria_infantry4|Rus Askeri Uniforması
+itm_ria_infantry4_pl|Rus Askeri Uniforması
+itm_ria_infantry5|Rus Askeri Uniforması
+itm_ria_infantry5_pl|Rus Askeri Uniforması
+itm_ria_infantry6|Rus Askeri Uniforması
+itm_ria_infantry6_pl|Rus Askeri Uniforması
+itm_ria_infantry7|Rus Askeri Uniforması
+itm_ria_infantry7_pl|Rus Askeri Uniforması
+itm_ria_infantry8|Rus Askeri Uniforması
+itm_ria_infantry8_pl|Rus Askeri Uniforması
+itm_ria_infantry9|Rus Askeri Uniforması
+itm_ria_infantry9_pl|Rus Askeri Uniforması
+itm_ria_infantry10|Rus Askeri Uniforması
+itm_ria_infantry10_pl|Rus Askeri Uniforması
+itm_ria_infantry11|Rus Askeri Uniforması
+itm_ria_infantry11_pl|Rus Askeri Uniforması
+itm_ria_cavalry1|Rus Atlı Askeri Uniforması
+itm_ria_cavalry1_pl|Rus Atlı Askeri Uniforması
+itm_ria_cavalry2|Rus Atlı Askeri Uniforması
+itm_ria_cavalry2_pl|Rus Atlı Askeri Uniforması
+itm_ria_cavalry3|Rus Cossak Uniforması
+itm_ria_cavalry3_pl|Rus Cossak Uniforması
+itm_ria_cavalry4|Rus Komutan Uniforması
+itm_ria_cavalry4_pl|Rus Komutan Uniforması
+itm_ria_hat1|Rus Şapkası
+itm_ria_hat1_pl|Rus Şapkası
+itm_ria_hat2|Rus Şapkası
+itm_ria_hat2_pl|Rus Şapkası
+itm_ria_hat3|Rus Şapkası
+itm_ria_hat3_pl|Rus Şapkası
+itm_ria_hat4|Rus Şapkası
+itm_ria_hat4_pl|Rus Şapkası
+itm_ria_hat5|Rus Cossak Şapkası
+itm_ria_hat5_pl|Rus Cossak Şapkası
 itm_ria_hat6|Russian Hat
 itm_ria_hat6_pl|Russian Hat
 itm_ria_hat7|Russian Hat
@@ -1334,8 +1334,8 @@ itm_ria_hat9b|Russian Hat
 itm_ria_hat9b_pl|Russian Hat
 itm_ria_hat10|Russian Helmet
 itm_ria_hat10_pl|Russian Helmet
-itm_ria_leader1|Russian Military Uniform
-itm_ria_leader1_pl|Russian Military Uniform
+itm_ria_leader1|Rus Komutan Uniforması
+itm_ria_leader1_pl|Rus Tsar Uniforması
 itm_clothes_adventurer_male_trousers1|Adventurer's Trousers
 itm_clothes_adventurer_male_trousers1_pl|Adventurer's Trousers
 itm_clothes_adventurer_male1|Adventurer's Clothes

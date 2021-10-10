@@ -241,96 +241,96 @@ mno_siege_defender_troops_join_battle|Ordenad a vuestros hombres a que se unan a
 menu_siege_join_defense|{s4}^^Vuestras bajas: {s8}^^Bajas aliadas: {s9}^^Bajas enemigas: {s10}
 menu_enter_your_own_castle|Al acercaros, los guardias os saludan y abren las puertas para su {señor/señora}.
 menu_village|{s10} {s12}^{s11}^{s6}{s7}
-mno_village_talk_to_elder|Talk to a village elder.
-mno_village_manage|Administrad esta aldea.
-mno_recruit_volunteers|Reclutad voluntarios.
-mno_village_center|Id al centro de la aldea.
+mno_village_talk_to_elder|Hablar con el viejo de la aldea.
+mno_village_manage|Administrar esta aldea.
+mno_recruit_volunteers|Reclutar voluntarios.
+mno_village_center|Ir al centro de la aldea.
 mno_village_center_door|Puerta al centro.
-mno_village_buy_food|Comprad suministros a los campesinos.
-mno_village_attack_bandits|Atacad a los bandidos.
-mno_village_wait|Esperad aquí durante un tiempo.
-mno_collect_taxes_qst|{reg5?Continuad recaudando impuestos:Recaudad impuestos} para el {s1}.
-mno_train_peasants_against_bandits_qst|Entrenad a los campesinos.
-mno_village_hostile_action|Emprended una acción hostil.
+mno_village_buy_food|Comprar suministros a los campesinos.
+mno_village_attack_bandits|Atacar a los bandidos.
+mno_village_wait|Esperar aquí durante un tiempo.
+mno_collect_taxes_qst|{reg5?Continuar recaudando impuestos:Recaudar impuestos} para el {s1}.
+mno_train_peasants_against_bandits_qst|Entrenar a los campesinos.
+mno_village_hostile_action|Emprender una acción hostil.
 mno_village_leave|Salir...
 menu_village_hostile_action|¿Qué acción tenéis en mente?
-mno_village_take_food|Forzad a los campesinos a daros sus suministros.
-mno_village_steal_cattle|Robad ganado.
-mno_village_loot|Saquead la aldea y arrasadla.
+mno_village_take_food|Forzar a los campesinos a daros sus suministros.
+mno_village_steal_cattle|Robar ganado.
+mno_village_loot|Saquear la aldea y arrasadla.
 menu_recruit_volunteers|{s18}
 mno_continue_not_enough_gold|No tengo dinero suficiente...
 mno_recruit_them|Reclutadlos ({reg6} denares).
-menu_village_hunt_down_fugitive_defeated|Un fuerte golpe del fugitivo os hace caer al suelo, vuestra visión se nubla y perdéis el conocimiento. El tiempo pasa. Al abrir nuevamente vuestros ojos os encontráis sagrando de múltiples heridas, pero afortunadamente no parecen ser letales.
+menu_village_hunt_down_fugitive_defeated|Un fuerte golpe del fugitivo te hace caer al suelo, tú visión se nubla y pierdes el conocimiento. El tiempo pasa. Al abrir nuevamente vuestros ojos te encuentras sagrando de múltiples heridas, pero afortunadamente no parecen ser letales.
 menu_village_infest_bandits_result|{s9}
-menu_village_infestation_removed|En una batalla épica, vos y vuestros hombres lográis echar a los bandidos de la aldea, recobrando nuevamente la paz. Los campesinos ya no tienen muchos bienes después de tal calvario, pero os ofrecen todo lo que pueden encontrar.
-mno_village_bandits_defeated_accept|Tomadlo. Es vuestra merecida recompensa.
-mno_village_bandits_defeated_cont|Rechazadlo. Ellos necesitan estas cosas más que vos.
-menu_center_manage|{s19}^{reg6?^^Actualmente estáis construyendo {s7}. El edificio quedará construido en {reg8} día{reg9?s:}.:}
-mno_center_build_manor|Construid una casa solariega.
-mno_center_build_fish_pond|Construid un molino.
-mno_center_build_watch_tower|Construid una torre de vigilancia.
-mno_center_build_school|Construid una escuela.
-mno_center_build_messenger_post|Construid un puesto de mensajería.
-mno_center_build_prisoner_tower|Construid una torre de prisioneros.
-menu_center_improve|{s19} Como miembro del grupo con mayor conocimiento de ingeniería ({reg2}), {reg3?calculáis:{s3} calcula} que construir {s4} os costará {reg5} denares y se completará en {reg6} días.
-mno_improve_cont|Continuad.
-mno_improve_not_enough_gold|No poseo suficiente dinero para eso.
+menu_village_infestation_removed|En una batalla épica, vos y tus hombres logran echar a los bandidos de la aldea, recobrando nuevamente la paz. Los campesinos ya no tienen muchos bienes después de tal calvario, pero nos ofrecen todo lo que pueden encontrar.
+mno_village_bandits_defeated_accept|Tomalo, Es tu merecida recompensa.
+mno_village_bandits_defeated_cont|Rechazarlo, Ellos necesitan estas cosas más que vos.
+menu_center_manage|{s19}^{reg6?^^Actualmente estás construyendo {s7}. El edificio quedará construido en {reg8} día{reg9?s:}.:}
+mno_center_build_manor|Construir una casa solariega.
+mno_center_build_fish_pond|Construir un molino.
+mno_center_build_watch_tower|Construir una torre de vigilancia.
+mno_center_build_school|Construir una escuela.
+mno_center_build_messenger_post|Construir un puesto de mensajería.
+mno_center_build_prisoner_tower|Construir una torre de prisioneros.
+menu_center_improve|{s19} Como miembro del grupo con mayor conocimiento de ingeniería ({reg2}), {reg3?calculás:{s3} calcula} que construir {s4} te costará {reg5} denares y se completará en {reg6} días.
+mno_improve_cont|Continuar.
+mno_improve_not_enough_gold|No tengo el dinero suficiente para eso.
 menu_town_bandits_failed|{s4} {s5}
-menu_town_bandits_succeeded|¡Los bandidos caen frente a vos como trigo ante la hoz! Pronto, os detenéis en las desiertas calles mientras todos vuestros atacantes yacen inconscientes, muertos o agonizantes. Al buscar entre los cuerpos, encontráis un monedero que debe haber pertenecido a una víctima de tales brutos. O tal vez les fue entregado por alguien que ha pagado por vuestra muerte.
-menu_village_steal_cattle_confirm|Como miembro del grupo con mayor habilidad para saquear ({reg2}), {reg3?calculáis:{s1} calcula} que podéis robar unas {reg4} cabezas de ganado de la aldea.
-mno_village_steal_cattle_confirm|Continuad.
+menu_town_bandits_succeeded|¡Los bandidos caen frente a vos como trigo ante la hoz! Pronto, te detienes en las desiertas calles mientras todos tus adversarios yacen inconscientes, muertos o agonizantes. Al buscar entre los cuerpos, encuentras un monedero que debe haber pertenecido a una víctima de tales brutos. O tal vez les fue entregado por alguien que ha pagado por vuestra muerte.
+menu_village_steal_cattle_confirm|Como miembro del grupo con mayor habilidad para saquear ({reg2}), {reg3?calculás:{s1} calcula} que podes robar unas {reg4} cabezas de ganado de la aldea.
+mno_village_steal_cattle_confirm|Continuar.
 menu_village_steal_cattle|{s1}
-menu_village_take_food_confirm|Será difícil forzar y amenazar a los campesinos para que os entreguen sus preciados suministros. Creéis que al menos os llevará una hora.
-mno_village_take_food_confirm|Comenzad.
+menu_village_take_food_confirm|Será difícil forzar y amenazar a los campesinos para que te entreguen sus preciados suministros. Calculas que llevará una hora.
+mno_village_take_food_confirm|Comenzar.
 menu_village_take_food|Los campesinos acceden reaciamente a daros sus posesiones.
-mno_take_supplies|Tomad los suministros.
-mno_let_them_keep_it|Permitid que se los queden.
+mno_take_supplies|Tomar los suministros.
+mno_let_them_keep_it|Permitir que se los queden.
 menu_village_start_attack|Algunos de los enfadados campesinos toman sus herramientas y se preparan para haceros frente. Parece que tendréis una batalla en vuestras manos si continuáis con vuestros planes.
-mno_village_raid_attack|Atacad.
-mno_village_raid_leave|Dejad la aldea en paz.
+mno_village_raid_attack|Atacar.
+mno_village_raid_leave|Dejar la aldea en paz.
 menu_village_loot_no_resist|Los campesinos son pocos y están asustados, y rápidamente se dan a la fuga. La aldea está a vuestra merced.
-menu_village_loot_complete|Ordenáis a vuestras tropas que saqueen la aldea, que tomen todo lo de valor, y que luego prendan fuego a las casas. De las monedas y objetos de valor, vuestra parte es {reg1} denares.
-menu_village_loot_defeat|Luchando con coraje y determinación, los campesinos son capaces de soportar el ataque y repeler a vuestras fuerzas.
-menu_village_loot_continue|¿Deseáis continuar saqueando la aldea?
+menu_village_loot_complete|Ordenar a vuestras tropas que saqueen la aldea, que tomen todo lo de valor, y que luego prendan fuego a las casas. De las monedas y objetos de valor, vuestra parte es {reg1} denares.
+menu_village_loot_defeat|Luchando con coraje y determinación, los campesinos son capaces de soportar y repeler el ataque.
+menu_village_loot_continue|¿Deseás continuar saqueando la aldea?
 mno_disembark_yes|Sí.
 mno_disembark_no|No.
 menu_close|Nada.
 menu_town|{s10} {s14}^{s11}{s12}{s13}
-mno_castle_castle|Id a la sala del Señor{s1}.
+mno_castle_castle|Ir a la sala del Señor{s1}.
 mno_castle_castle_door|Puerta al castillo.
-mno_join_tournament|Uníos al torneo.
-mno_town_castle|Id al castillo{s1}.
+mno_join_tournament|Unirse al torneo.
+mno_town_castle|Ir al castillo{s1}.
 mno_town_castle_door|Puerta al castillo.
-mno_town_major_talk|Talk to a town mayor.
-mno_town_center|Caminad por las calles.
+mno_town_major_talk|Hablar con el alcalde.
+mno_town_center|Caminar por las calles.
 mno_town_center_door|Puerta al centro.
-mno_town_tavern|Visitad la taberna.
+mno_town_tavern|Visitar la taberna.
 mno_town_tavern_door|Puerta a la taberna.
-mno_town_merchant|Hablad con un mercader.
+mno_town_merchant|Hablar con un mercader.
 mno_town_merchant_door|Puerta a la tienda.
-mno_town_arena|Entrad a la arena.
+mno_town_arena|Entrar a la arena.
 mno_town_arena_door|Puerta a la arena.
-mno_town_dungeon|Nunca: Entrad en la prisión.
+mno_town_dungeon|Nunca: Entrar en la prisión.
 mno_town_dungeon_door|Puerta a la mazmorra.
-mno_castle_inspect|Caminad por el patio.
+mno_castle_inspect|Caminar por el patio.
 mno_castle_inspect_door|Al patio del castillo.
-mno_town_enterprise|Visitad a alguien: {s3}.
+mno_town_enterprise|Visitar a alguien: {s3}.
 mno_town_enterprise_door|Puerta a la empresa.
-mno_visit_lady|Intentad visitar a una dama
+mno_visit_lady|Intentar visitar a una dama
 mno_visit_lady_door|Puerta al jardín.
-mno_trade_with_merchants|Id al mercado.
-mno_walled_center_manage|Trasladad la corte aquí.
+mno_trade_with_merchants|Ir al mercado.
+mno_walled_center_manage|Trasladar la corte aquí.
 mno_walled_center_move_court|Mueva su corte aquí.
-mno_castle_station_troops|Posicionad una guarnición aquí...
-mno_towncastle_to_enlistment_office|Go to local military enlistment office.
-mno_open_pes_region_menu|Go to industrial zone.
-mno_castle_wait|Esperad aquí durante un tiempo{s1}.
-mno_castle_to_cannoneers_store|Go to the armory.
-mno_castle_to_cannoneers_store_door|Door to the armory.
+mno_castle_station_troops|Posicionar una guarnición aquí...
+mno_towncastle_to_enlistment_office|Ir a la oficina local de alistamiento militar.
+mno_open_pes_region_menu|Ir a la zona industrial.
+mno_castle_wait|Esperar aquí durante un tiempo{s1}.
+mno_castle_to_cannoneers_store|Ir al Arsenal.
+mno_castle_to_cannoneers_store_door|Puerta al arsenal.
 mno_town_leave|Salir...
-mno_town_leave_door|Salid del área.
-menu_cannot_enter_court|Se está llevando a cabo un banquete en el salón del señor, pero vuestro estatus no es suficiente como para que se os invite. Tal vez podríais acceder si incrementáis vuestro renombre u os distinguís en un torneo mientras el banquete se lleva a cabo...
-menu_lady_visit|¿A quién deseáis visitar?
+mno_town_leave_door|Salir del área.
+menu_cannot_enter_court|Se está llevando a cabo un banquete en el salón del señor, pero tu estatus no es suficiente como para que se los invite. Tal vez podrías acceder si incrementás tu renombre o te distingues en un torneo mientras el banquete se lleva a cabo...
+menu_lady_visit|¿A quién quieres visitar?
 mno_visit_lady_1|Visitar a {s12}
 mno_visit_lady_2|Visitar a {s12}
 mno_visit_lady_3|Visitar a {s12}
@@ -338,8 +338,8 @@ mno_visit_lady_3_door|Puerta al jardín.
 mno_visit_lady_4|Visitar a {s12}
 mno_visit_lady_5|Visitar a {s12}
 mno_visit_lady_6|Visitar a {s12}
-mno_visit_lady_7|Visit {s12}
-mno_visit_lady_8|Visit {s12}
+mno_visit_lady_7|Visitar a {s12}
+mno_visit_lady_8|Visitar a {s12}
 menu_town_tournament_lost|Se os ha eliminado del torneo. {s8}
 menu_town_tournament_won|¡Habéis ganado el torneo de {s3}! Sentís un profundo orgullo mientras los espectadores gritan vuestro nombre. Además del honor, la fama y la gloria, ganáis un premio de {reg9} denares. {s8}
 menu_town_tournament_won_by_another|Al ser la única persona invicta hoy, {s1} gana las listas y la gloria de este torneo.
@@ -537,79 +537,79 @@ menu_establish_court|Para establecer vuestra corte en {s4} harán falta ciertas 
 mno_establish|Establecer vuestra corte en {s4} 
 menu_notification_relieved_as_marshal|{s4} desea informaros de que vuestros servicios como mariscal ya no son necesarios. Para honrar vuestros valerosos esfuerzos a favor del reino en los últimos {reg4} días, no obstante, {reg5?ella:él} os ofrece una bolsa con {reg5} denares.
 menu_weather_report|{s1}
-menu_start_game_choose_ai_behavior|Choose AI factions behaviour mode.
-mno_start_game_choose_ai_behavior_historical|Historical.
-mno_start_game_choose_ai_behavior_random|Random.
-menu_start_game_choose_date|Choose game starting date. It affects coutries military technology level as well as countries borders.
+menu_start_game_choose_ai_behavior|Escoge el comportamiento de las facciones.
+mno_start_game_choose_ai_behavior_historical|Histórico.
+mno_start_game_choose_ai_behavior_random|Aleatorio.
+menu_start_game_choose_date|Escoge la época de la partida, esto afectará el nivel militar, fronteras y tecnologico de los paises.
 mno_start_game_choose_date_1860|1860.
 mno_start_game_choose_date_1878|1878.
 mno_start_game_choose_date_1891|1891.
 mno_start_game_choose_date_1907|1907.
 mno_start_game_choose_date_1914|1914.
-mno_start_game_choose_date_1916|1916 (Temporary).
-menu_start_game_speed_selection|Select game speed. You will be able to change it later in the game. Game speed affects how fast countries will develop their military technology and start using more advanced firearms.
-mno_game_speed_extremely_fast|Extremely fast (One year passes in 6 days).
-mno_game_speed_very_fast|Very fast (One year passes in 9 days).
-mno_game_speed_fast|Fast (One year passes in 12 days).
-mno_game_speed_normal|Normal (One year passes in 15 days).
-mno_game_speed_slow|Slow (One year passes in 20 days) - recommended.
-mno_game_speed_very_slow|Very slow (One year passes in 25 days).
-mno_game_speed_extremely_slow|Extremely slow (One year passes in 30 days).
-mno_game_speed_minimum|Minimum (One year passes in 365 days).
-menu_start_game_ai_party_size_selection|Select preferred lords party size. This affects lords parties maximum soldiers amount and can't be changed later in game.
-mno_start_game_ai_party_size_selection_100|100 - Small (Battle size at least 200 is recommended).
-mno_start_game_ai_party_size_selection_125|125 - Medium (Battle size at least 300 is recommended).
-mno_start_game_ai_party_size_selection_150|150 - Big (Battle size at least 400 is recommended).
-menu_change_game_speed|Select game speed.
-mno_game_speed_debug|Debug mode (One year passes in 1 day).
-menu_cannoneers_store|The soldiers let you into the armory. Here you can order heavy weaponry - field guns and howitzers.^^Your current balance is {reg0} pounds.^^^Note that cannons won't spawn in battle unless you have either field guns or howitzer company set in prebattle menu.
-mno_cannoneers_store_buy_fieldgun|Order a field gun and hire a cannoneers crew (2000 pounds).
-mno_cannoneers_store_buy_howitzer|Order a howitzer and hire a cannoneers crew (2000 pounds).
-mno_cannoneers_store_buy_mg|Order a machine gun and hire an operator (2500 pounds).
-mno_cannoneers_store_access_wardrobe|Access wardrobe.
-menu_start_game_start_as_leader|Select a faction.
-mno_start_as_leader_france|French Empire.
-mno_start_as_leader_russia|Russian Empire.
-mno_start_as_leader_austria|Austrian Empire.
-mno_start_as_leader_sardinia|Kingdom of Sardinia.
-mno_start_as_leader_prussia|Kingdom of Prussia.
-mno_start_as_leader_ottomans|Ottoman Empire.
-mno_start_as_leader_britain|British Empire.
-mno_start_as_leader_netherlands|Kingdom of Netherlands.
-mno_start_as_leader_spain|Spanish Empire.
-mno_start_as_leader_tunisia|Emirate of Tunisia.
-mno_start_as_leader_sicily|Kingdom of Two Sicilies.
-mno_start_as_leader_persia|Shahdom of Persia.
-mno_start_as_leader_switzerland|Switzerland.
-mno_start_as_leader_egypt|Khedivate of Egypt.
-mno_start_as_leader_morocco|Sultanate of Morocco.
-mno_start_as_leader_portugal|Kingdom of Portugal.
-mno_start_as_leader_oman|Sultanate of Oman.
-mno_start_as_leader_denmark|Kingdom of Denmark.
-mno_start_as_leader_papal|Papal States.
-mno_start_as_leader_colonies|British Colonies.
-mno_start_as_leader_afghanistan|Emirate of Afghanistan.
-mno_start_as_leader_bukhara|Emirate of Bukhara.
-mno_start_as_leader_khiva|Khanate of Khiva.
-mno_start_as_leader_greece|Kingdom of Greece.
-mno_start_as_leader_wallachia|Principality of Wallachia and Moldavia.
-mno_start_as_leader_belgium|Kingdom of Belgium.
-mno_start_as_leader_wurttemberg|Kingdom of Wurttemberg.
-mno_start_as_leader_serbia|Principality of Serbia.
-mno_start_as_leader_sweden|Kingdom of Sweden.
-mno_start_as_leader_bavaria|Kingdom of Bavaria.
-mno_start_as_leader_hannover|Kingdom of Hannover.
-mno_start_as_leader_shammar|Emirate of Shmmar.
-mno_start_as_leader_najd|Emirate of Najd.
-menu_start_game_choose_as_who_to_start|Choose who you want to start the game as.
-mno_start_as_adventurer|Start as adventurer.
-mno_start_as_leader|Start as faction leader.
-menu_tech_invented|The {s3} has researched {s1}!^^^{s2}
-mno_to_the_tech_menu|To technologies menu
-mno_close|Close
-menu_welcome_to_be_mod|Welcome to Between Empires!^^Please take a moment to read this, it contains vital information.^^^In order to play the mod properly, you have to use our company system, which you can access in the pre-battle deployment menu, and our new command interface, which you can access via the U key during battles. Hotkeys are listed at the beginning of each battle, take a moment to memorize them.^The company system allows you to split your units into up to 8 infantry, cavalry, or artillery companies. In order for artillery to spawn, you need an artillery company.^^Furthermore, Between Empires includes a unique technology system. Said technology system can be accessed by the player via the reports menu, where it is listed under the technology menu. Certain technologies are required for others to unlock, and researching a technology takes two in-game years, (between 12 and 60 days, depending on your chosen game speed).^Researching technologies is vital for the survival of your nation, as the AI factions will also gain access to technologies as time progresses.^Some factions, such as Prussia, have already unlocked advanced armaments at game start and should be approached accordingly.^^This mod also has various diplomacy features, which are accessable via dialogs with minister of your faction.
-menu_italian_unification|{s32} annexed!^^Following intense fighting against the armies of the {s31}, the {s32} was forced to surrender. After the national committee signed a treaty in the national palace, {s33} ratified the agreement in the early morning hours and effectively ended {s32}'s national sovereignty. Italian Unification has just become a looming reality.
-menu_provocation_created1|Tensions between {s31} and {s32}!^^Public disagreements over the borders created during the Vienna Congress have led to open hostility, with loyalist militias belonging to both states clashing in the entire border region. {s31} has decried the violence, stating their intentions to defend their ethnic enclaves in the nation should it be necessary, while {s32} has declared the fighters as hostile, sovereign actors in an attempt to ease international pressure.^Telegrams and messengers on horseback have been arriving in the capitals of the Western powers since the early morning hours, trying to secure their support for what might well be the prelude to another bloody conflict.
+mno_start_game_choose_date_1916|1916 (Temporal).
+menu_start_game_speed_selection|Selecciona la velocidad del juego, Se te permite cambiarlo en la partida, la velocidad afectará la rapidez en que los eventos se desarrollan (afectando el desarrollo de tecnologias).
+mno_game_speed_extremely_fast|Extremedamente rápido (Un año pasa en 6 dias).
+mno_game_speed_very_fast|Muy rápido (Un año pasa en 9 dias).
+mno_game_speed_fast|Rápido (Un año pasa en 12 days).
+mno_game_speed_normal|Normal (Un año pasa en 15 days).
+mno_game_speed_slow|Lento (Un año pasa en 20 days) - Recomendado.
+mno_game_speed_very_slow|Muy lento (Un año pasa en 25 dias).
+mno_game_speed_extremely_slow|Extremandamente lento (Un año pasa en 30 dias).
+mno_game_speed_minimum|Realista (Un año pasa en 365 dias).
+menu_start_game_ai_party_size_selection|Selecciona el tamaño preferido de las tropas, Esto afectará la cantidad maxima de soldados de los personajes, esto no se puede cambiar en la partida.
+mno_start_game_ai_party_size_selection_100|100 - Pequeño (El tamaño de la batalla deberá ser de al menos 200).
+mno_start_game_ai_party_size_selection_125|125 - Medio (El tamaño de la batalla deberá ser de al menos 300).
+mno_start_game_ai_party_size_selection_150|150 - Grande (El tamaño de la batalla deberá ser de al menos 400).
+menu_change_game_speed|Selecciona la veloicdad del juego.
+mno_game_speed_debug|Modo depurador (Un año para en un dia).
+menu_cannoneers_store|Los soldados te dejan pasar al arsenal, aquí podras ordenar armamento pesado, cañon de campaña y obuses.^^ Tu dinero es de {reg0} Libras.^^^ Debes tener en cuenta que los cañones no aparecen en batalla a menos que tengas las compañias colocadas en el menu de prebatalla.
+mno_cannoneers_store_buy_fieldgun|Ordenar un cañon de campaña y contratar escuadra de artilleros (2000 Libras).
+mno_cannoneers_store_buy_howitzer|Ordenar un obús y contratar escuadra de artilleros (2000 Libras).
+mno_cannoneers_store_buy_mg|Ordenar una Ametralladora pesada y su operador (2500 Libras).
+mno_cannoneers_store_access_wardrobe|Acceder al vestuario.
+menu_start_game_start_as_leader|Seleccionar una facción.
+mno_start_as_leader_france|Imperio Francés.
+mno_start_as_leader_russia|Imperio Ruso.
+mno_start_as_leader_austria|Imperio Austriaco.
+mno_start_as_leader_sardinia|Reino de Cerdeña.
+mno_start_as_leader_prussia|Reino de Prusia.
+mno_start_as_leader_ottomans|Imperio Otomano.
+mno_start_as_leader_britain|Imperio Británico.
+mno_start_as_leader_netherlands|Reino de Países Bajos.
+mno_start_as_leader_spain|Imperio Español.
+mno_start_as_leader_tunisia|Emirato de Túnez.
+mno_start_as_leader_sicily|Reino de las dos Sicilias.
+mno_start_as_leader_persia|Shah de Persia.
+mno_start_as_leader_switzerland|Suíza.
+mno_start_as_leader_egypt|Quedivato de Egipto.
+mno_start_as_leader_morocco|Sultanato de Morocco.
+mno_start_as_leader_portugal|Reino de  Portugal.
+mno_start_as_leader_oman|Sultanato de Oman.
+mno_start_as_leader_denmark|Reino de Dinamarca.
+mno_start_as_leader_papal|Estados Papales.
+mno_start_as_leader_colonies|Colonias Británicas.
+mno_start_as_leader_afghanistan|Emiratos de Afganistán.
+mno_start_as_leader_bukhara|Emirate of Bujará.
+mno_start_as_leader_khiva|Kanato de jiva.
+mno_start_as_leader_greece|Reino de Grecia.
+mno_start_as_leader_wallachia|principados unidos de Valaquia y Moldavia.
+mno_start_as_leader_belgium|Reino de Belgica.
+mno_start_as_leader_wurttemberg|Reino de Wurtemberg.
+mno_start_as_leader_serbia|Principado de Serbia.
+mno_start_as_leader_sweden|Reino de Suecia.
+mno_start_as_leader_bavaria|Reino de Baviera.
+mno_start_as_leader_hannover|Reino Hannover.
+mno_start_as_leader_shammar|Emiratos de Shammar.
+mno_start_as_leader_najd|Emiratos of Néyed.
+menu_start_game_choose_as_who_to_start|Escoge quien quieres ser.
+mno_start_as_adventurer|Empezar como Aventurero.
+mno_start_as_leader|Empezar como líder de una facción.
+menu_tech_invented|El {s3} ha sido investigado {s1}!^^^{s2}
+mno_to_the_tech_menu|Al menú de Tecnologias
+mno_close|Cerrar
+menu_welcome_to_be_mod|Bienvenido a Between Empires!^^Por favor toma un momento para leer esto, ya que contiene información vital.^^^Con la idea de jugar este mod correctamente, tienes que usar el sistema de sistema de compañia, donde puedes acceder al despligue del menu de prebatalla y nuestra nueva interfaz de comando, donde puedes acceder con la tecla U en el campo de batalla. Los Atajos estan listados al principio de cada batalla, deberias tomar unos segundos en memorizarlos.^ El sistema de compañia te permite dividir las unidades en 8 escuadras, ya sea de infanteria, caballeria o artilleria, Para que aparezcan la artilleras, debes poseer una escuadra de artilleros.^^ Ademas, Between Empires incluye un sistema de tecnologias, para ingresar a este menú debes ir al menú de reportes. Ciertas tecnologias son requeridas para estudiar otras, cada desarrollo toma dos años del juego. (Esto depende de la velocidad que tomes en el juego).^Investigar tecnologias es vital para tu nación, no te quedes atras porque las facciones de la IA también investigan.^Algunas facciones como Prusia, tienen desbloqueados armamentos avanzados al inicio del juego y deberias aprovecharlo.^^Este mod también incluye diplomacia, se puede acceder mediante los dialogos con el ministro de tu facción.
+menu_italian_unification|¡{s32} se unificó!^^Después de intensos combates contra el ejercito de {s31}, el {s32} fue forzado a rendirse. después que el comite nacional firmó un tratado en el palacio nacional, {s33} ratificó el acuerdo en las primeras horas y se terminó efectivamente la soverania nacional de {s32}. La unificación Italiana se ha convertido en una realidad.
+menu_provocation_created1|¡Las tensiones entre {s31} y {s32}!^^Hay grandes desacuerdos acerca de las fronteras creadas durante el congreso de Viena, esto ha abierto las hostilidades, hay milicias leales que pertenecen aa ambos estados, estas estan peleando en casí la totalidad de la frontera de la región. {s31} has decried the violence, stating their intentions to defend their ethnic enclaves in the nation should it be necessary, while {s32} has declared the fighters as hostile, sovereign actors in an attempt to ease international pressure.^Telegrams and messengers on horseback have been arriving in the capitals of the Western powers since the early morning hours, trying to secure their support for what might well be the prelude to another bloody conflict.
 menu_provocation_created2|Aboltionist incident!^^News reached the {s31}'s capital in the evening hours that one of its most prolific traders, and in more colonial regions more so known as one of the richest slave traders in the world had been captured, and subsequently executed by staunch abolitionists who had sworn loyalty to the {s32}. {s32} has refused to hand over the perpetrators, probably more so due to the fact that the trader had been a thorn in the side of their traders for many years. Local militia companies have been promising revenge should the abolitionists not be surrendered, and the situation is quickly escalating. Only aimed de-escalation can avert conflict now.
 menu_provocation_created3|Territorial claims of {s31} against {s32}!^^A political movement supporting the revanchist aims of {s31} has lead to a boil-over in tensions, with the leadership vowing to claim territory that they believe to be rightfully theirs from {s32}! Some pacifists claim the tension could be resolved over tea, but the military of {s31} is already mobilizing for warfare, and will soon try to take the territory they claim. In Europe, the borders between regions are often messy, and linguistic or ethnic groups can be in multiple countries. Whatever leads the revanchists to believe their claim, one can only hope the war resolves swiftly.
 menu_provocation_created4|Border skirmish can lead to full conflict!^^Soldiers from {s31} were killed in a border skirmish with {s32}, either through malice or incompetence, and attempts to peacefully resolve the situation can fail. Mounting political and social forces have chance to bring war to the two nations, and now there is nothing to do but wait and see. How much more blood must be spilled before {s31} feels they have gotten their revenge?
