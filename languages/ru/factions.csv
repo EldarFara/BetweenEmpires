@@ -1,27 +1,27 @@
-fac_no_faction|Нет фракции
+﻿fac_no_faction|Нет фракции
 fac_commoners|Простолюдины
 fac_outlaws|Преступники
 fac_neutral|Нейтралы
 fac_innocents|Мирные
 fac_merchants|Торговцы
-fac_culture_1|Troop
-fac_culture_2|Troop
-fac_culture_3|Troop
-fac_culture_4|Troop
-fac_culture_5|Troop
-fac_culture_6|Troop
-fac_culture_7|Troop
-fac_culture_8|Troop
-fac_culture_9|Troop
-fac_culture_10|Troop
-fac_culture_11|Field Gun Crew Officer
-fac_culture_12|Howitzer Crew Officer
-fac_culture_13|Heavy Howitzer Crew Officer
-fac_culture_14|Field Crew Cannoneer
-fac_culture_15|Howitzer Crew Cannoneer
-fac_culture_16|MG Operator
-fac_culture_17|Field Crew Cannoneer
-fac_culture_18|MG Operator
+fac_culture_1|Войска
+fac_culture_2|Войска
+fac_culture_3|Войска
+fac_culture_4|Войска
+fac_culture_5|Войска
+fac_culture_6|Войска
+fac_culture_7|Войска
+fac_culture_8|Войска
+fac_culture_9|Войска
+fac_culture_10|Войска
+fac_culture_11|Офицер полевой артиллерийской бригады
+fac_culture_12|Офицер гаубичного экипажа
+fac_culture_13|Офицер экипажа тяжелой гаубицы
+fac_culture_14|Канонир полевой команды
+fac_culture_15|Канонир экипажа гаубицы
+fac_culture_16|Оператор MG
+fac_culture_17|Канонир полевой команды
+fac_culture_18|Оператор MG
 fac_player_faction|Фракция игрока
 fac_player_supporters_faction|Сторонники игрока
 fac_kingdom_1|Королевство Свадия
@@ -30,37 +30,37 @@ fac_kingdom_3|Хергитское ханство
 fac_kingdom_4|Королевство Нордов
 fac_kingdom_5|Королевство Родоков
 fac_kingdom_6|Сарранидский султанат
-fac_kingdom_7|British Empire
-fac_kingdom_8|Kingdom of Netherlands
-fac_kingdom_9|Spanish Empire
-fac_kingdom_10|Emirate of Tunisia
-fac_kingdom_11|Kingdom of Two Sicilies
-fac_kingdom_12|Shahdom of Persia
-fac_kingdom_13|Switzerland
-fac_kingdom_14|Khedivate of Egypt
-fac_kingdom_15|Sultanate of Morocco
-fac_kingdom_16|Kingdom of Portugal
-fac_kingdom_17|Sultanate of Oman
-fac_kingdom_18|Kingdom of Denmark
-fac_kingdom_19|Papal States
-fac_kingdom_20|British Colonies
-fac_kingdom_21|Emirate of Afghanistan
-fac_kingdom_22|Emirate of Bukhara
-fac_kingdom_23|Khanate of Khiva
-fac_kingdom_24|Kingdom of Greece
-fac_kingdom_25|Romanian Principalities
-fac_kingdom_26|Kingdom of Belgium
-fac_kingdom_27|Kingdom of Wurttemberg
-fac_kingdom_28|Principality of Serbia
-fac_kingdom_29|Kingdom of Sweden
-fac_kingdom_30|Kingdom of Bavaria
-fac_kingdom_31|Kingdom of Hannover
-fac_kingdom_32|Emirate of Shammar
-fac_kingdom_33|Emirate of Najd
-fac_kingdom_usa|United States of America
-fac_kingdom_china|Qing Empire
+fac_kingdom_7|Британская Империя
+fac_kingdom_8|Королевство Нидерланды
+fac_kingdom_9|Испанская Империя
+fac_kingdom_10|Тунисский Эммират
+fac_kingdom_11|Королевство двух Сицилий
+fac_kingdom_12|Шадхом Персии
+fac_kingdom_13|Швейцария
+fac_kingdom_14|Хедиват Египта
+fac_kingdom_15|Султанат Марокко
+fac_kingdom_16|Королевство Португалия
+fac_kingdom_17|Оманский султанат
+fac_kingdom_18|Королевство Дания
+fac_kingdom_19|Папская область
+fac_kingdom_20|Британские колонии
+fac_kingdom_21|Эмират Афганистан
+fac_kingdom_22|Эмират Бухара
+fac_kingdom_23|Хивинское ханство
+fac_kingdom_24|Королевство Греции
+fac_kingdom_25|Румынские княжества
+fac_kingdom_26|Королевство Бельгия
+fac_kingdom_27|Королевство Вюртемберг
+fac_kingdom_28|Княжество Сербия
+fac_kingdom_29|Королевство Швеция
+fac_kingdom_30|Королевство Бавария
+fac_kingdom_31|Королевство Ганновер
+fac_kingdom_32|Эмират Шаммар
+fac_kingdom_33|Эмират Неджд
+fac_kingdom_usa|Соединенные Штаты Америки
+fac_kingdom_china|Империя Цин
 fac_manhunters|Охотники за головами
 fac_deserters|Дезертиры
 fac_mountain_bandits|Горные разбойники
 fac_forest_bandits|Лесные разбойники
-fac_ccoop_all_stars|All Stars
+fac_ccoop_all_stars|Все звезды
