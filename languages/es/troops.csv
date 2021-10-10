@@ -80,8 +80,8 @@ trp_swadian_skirmisher|Escaramuzador Swadiano
 trp_swadian_skirmisher_pl|Escaramuzadores Swadianos
 trp_swadian_crossbowman|Ballestero Swadiano
 trp_swadian_crossbowman_pl|Ballesteros Swadianos
-trp_swadian_sharpshooter|Tirador de Primera Swadiano
-trp_swadian_sharpshooter_pl|Tiradores de Primera Swadianos
+trp_swadian_sharpshooter|Francotirador de Primera Swadiano
+trp_swadian_sharpshooter_pl|Francotiradores de Primera Swadianos
 trp_swadian_man_at_arms|Hombre de Armas Swadiano
 trp_swadian_man_at_arms_pl|Hombres de Armas Swadianos
 trp_swadian_knight|Caballero Swadiano
@@ -102,8 +102,8 @@ trp_vaegir_skirmisher|Escaramuzador Vaegir
 trp_vaegir_skirmisher_pl|Escaramuzadores Vaegires
 trp_vaegir_archer|Arquero Vaegir
 trp_vaegir_archer_pl|Arqueros Vaegires
-trp_vaegir_marksman|Tirador Vaegir
-trp_vaegir_marksman_pl|Tiradores Vaegires
+trp_vaegir_marksman|Francotirador Vaegir
+trp_vaegir_marksman_pl|Francotiradores Vaegires
 trp_vaegir_veteran|Veterano Vaegir
 trp_vaegir_veteran_pl|Veteranos Vaegires
 trp_vaegir_infantry|Infantería Vaegir
@@ -894,38 +894,38 @@ trp_faction21_prisonguard|Infante Afgano
 trp_faction21_prisonguard_pl|Infante Afgano
 trp_faction21_castleguard|Infante Afgano
 trp_faction21_castleguard_pl|Infante Afgano
-trp_faction22_troop1|Recluta Bujarán
-trp_faction22_troop1_pl|Reclutas Bujaranes
-trp_faction22_troop2|Infante Bujarán
-trp_faction22_troop2_pl|Infantes Bujaranes
-trp_faction22_troop3|Infante Bujarán (Exp.)
-trp_faction22_troop3_pl|Infantes Bujaranes (Exp.)
-trp_faction22_troop4|Infante Bujarán (Muy Exp.)
-trp_faction22_troop4_pl|Infantes Bujaranes (Muy Exp.)
-trp_faction22_troop5|Infante Ligero Bujarán
-trp_faction22_troop5_pl|Infantes Ligeros Bujaranes
-trp_faction22_troop6|Infante Ligero Bujarán (Exp.)
-trp_faction22_troop6_pl|Infantes Ligeros Bujaranes (Exp.)
-trp_faction22_troop7|Infante Ligero Bujarán (Muy Exp.)
-trp_faction22_troop7_pl|Infantes Ligeros Bujaranes (Muy Exp.)
-trp_faction22_troop8|Guardia Bujarán
-trp_faction22_troop8_pl|Guardias Bujaranes
-trp_faction22_troop9|Guardia Bujarán (Exp.)
-trp_faction22_troop9_pl|Guardias Bujaranes (Exp.)
-trp_faction22_troop10|Jinete Bujarán
-trp_faction22_troop10_pl|Jinetes Bujaranes
-trp_faction22_troop11|Jinete Bujarán (Exp.)
-trp_faction22_troop11_pl|Jinetes Bujaranes (Exp.)
-trp_faction22_troop12|Infante montado Bujarán
-trp_faction22_troop12_pl|Infante montado Bujaranes
-trp_faction22_troop13|Infante montado Bujarán (Exp.)
-trp_faction22_troop13_pl|Infante montado Bujaranes (Exp.)
+trp_faction22_troop1|Recluta Bujaranes
+trp_faction22_troop1_pl|Reclutas Bujaraneses
+trp_faction22_troop2|Infante Bujaranes
+trp_faction22_troop2_pl|Infantes Bujaraneses
+trp_faction22_troop3|Infante Bujaranes (Exp.)
+trp_faction22_troop3_pl|Infantes Bujaraneses (Exp.)
+trp_faction22_troop4|Infante Bujaranes (Muy Exp.)
+trp_faction22_troop4_pl|Infantes Bujaraneses (Muy Exp.)
+trp_faction22_troop5|Infante Ligero Bujaranes
+trp_faction22_troop5_pl|Infantes Ligeros Bujaraneses
+trp_faction22_troop6|Infante Ligero Bujaranes (Exp.)
+trp_faction22_troop6_pl|Infantes Ligeros Bujaraneses (Exp.)
+trp_faction22_troop7|Infante Ligero Bujaranes (Muy Exp.)
+trp_faction22_troop7_pl|Infantes Ligeros Bujaraneses (Muy Exp.)
+trp_faction22_troop8|Guardia Bujaranes
+trp_faction22_troop8_pl|Guardias Bujaraneses
+trp_faction22_troop9|Guardia Bujaranes (Exp.)
+trp_faction22_troop9_pl|Guardias Bujaraneses (Exp.)
+trp_faction22_troop10|Jinete Bujaranes
+trp_faction22_troop10_pl|Jinetes Bujaraneses
+trp_faction22_troop11|Jinete Bujaranes (Exp.)
+trp_faction22_troop11_pl|Jinetes Bujaraneses (Exp.)
+trp_faction22_troop12|Infante montado Bujaranes
+trp_faction22_troop12_pl|Infante montado Bujaraneses
+trp_faction22_troop13|Infante montado Bujaranes (Exp.)
+trp_faction22_troop13_pl|Infante montado Bujaraneses (Exp.)
 trp_faction22_troop14|tropa
 trp_faction22_troop14_pl|s
-trp_faction22_prisonguard|Infante Bujarán
-trp_faction22_prisonguard_pl|Infante Bujarán
-trp_faction22_castleguard|Infante Bujarán
-trp_faction22_castleguard_pl|Infante Bujarán
+trp_faction22_prisonguard|Infante Bujaranes
+trp_faction22_prisonguard_pl|Infante Bujaranes
+trp_faction22_castleguard|Infante Bujaranes
+trp_faction22_castleguard_pl|Infante Bujaranes
 trp_faction23_troop1|Recluta Jivanes
 trp_faction23_troop1_pl|Reclutas Jivaneses
 trp_faction23_troop2|Infante Jivanes
@@ -1054,38 +1054,38 @@ trp_faction26_prisonguard|Infante Belga
 trp_faction26_prisonguard_pl|Infante Belga
 trp_faction26_castleguard|Infante Belga
 trp_faction26_castleguard_pl|Infante Belga
-trp_faction27_troop1|Recluta wurtembergués
-trp_faction27_troop1_pl|Reclutas wurtembergueses
-trp_faction27_troop2|Infante wurtembergués
-trp_faction27_troop2_pl|Infantes wurtembergueses
-trp_faction27_troop3|Infante wurtembergués (Exp.)
-trp_faction27_troop3_pl|Infantes wurtembergueses (Exp.)
-trp_faction27_troop4|Infante wurtembergués (Muy Exp.)
-trp_faction27_troop4_pl|Infantes wurtembergueses (Muy Exp.)
-trp_faction27_troop5|Cazador wurtembergués
-trp_faction27_troop5_pl|Cazadores wurtembergueses
-trp_faction27_troop6|Cazador wurtembergueses (Exp.)
-trp_faction27_troop6_pl|Cazadores wurtembergueses (Exp.)
-trp_faction27_troop7|Guardia wurtembergués
-trp_faction27_troop7_pl|Guardias wurtembergueses
-trp_faction27_troop8|Guardia wurtembergués (Exp.)
-trp_faction27_troop8_pl|Guardias wurtembergueses (Exp.)
-trp_faction27_troop9|Lancero wurtembergués
-trp_faction27_troop9_pl|Lanceros wurtembergueses
-trp_faction27_troop10|Lancero wurtembergués (Exp.)
-trp_faction27_troop10_pl|Lanceros wurtembergueses (Exp)
-trp_faction27_troop11|Guardia a Caballo wurtembergués
-trp_faction27_troop11_pl|Guardias a Caballo wurtembergueses
-trp_faction27_troop12|Guardia a Caballo wurtembergués (Exp.)
-trp_faction27_troop12_pl|Guardias a Caballo wurtembergueses (Exp.)
-trp_faction27_troop13|Cazador wurtembergués (Muy Exp.)
-trp_faction27_troop13_pl|Cazadores wurtemberguéss (Muy Exp.)
-trp_faction27_troop14|wurtembergués
-trp_faction27_troop14_pl|wurtembergueses
-trp_faction27_prisonguard|Carcelero wurtembergués
-trp_faction27_prisonguard_pl|Carceleros wurtembergueses
-trp_faction27_castleguard|Guardia wurtembergués
-trp_faction27_castleguard_pl|Guardias wurtembergueses
+trp_faction27_troop1|Recluta Wurtembergués
+trp_faction27_troop1_pl|Reclutas Wurtembergueses
+trp_faction27_troop2|Infante Wurtembergués
+trp_faction27_troop2_pl|Infantes Wurtembergueses
+trp_faction27_troop3|Infante Wurtembergués (Exp.)
+trp_faction27_troop3_pl|Infantes Wurtembergueses (Exp.)
+trp_faction27_troop4|Infante Wurtembergués (Muy Exp.)
+trp_faction27_troop4_pl|Infantes Wurtembergueses (Muy Exp.)
+trp_faction27_troop5|Cazador Wurtembergués
+trp_faction27_troop5_pl|Cazadores Wurtembergueses
+trp_faction27_troop6|Cazador Wurtembergueses (Exp.)
+trp_faction27_troop6_pl|Cazadores Wurtembergueses (Exp.)
+trp_faction27_troop7|Guardia Wurtembergués
+trp_faction27_troop7_pl|Guardias Wurtembergueses
+trp_faction27_troop8|Guardia Wurtembergués (Exp.)
+trp_faction27_troop8_pl|Guardias Wurtembergueses (Exp.)
+trp_faction27_troop9|Lancero Wurtembergués
+trp_faction27_troop9_pl|Lanceros Wurtembergueses
+trp_faction27_troop10|Lancero Wurtembergués (Exp.)
+trp_faction27_troop10_pl|Lanceros Wurtembergueses (Exp)
+trp_faction27_troop11|Guardia a Caballo Wurtembergués
+trp_faction27_troop11_pl|Guardias a Caballo Wurtembergueses
+trp_faction27_troop12|Guardia a Caballo Wurtembergués (Exp.)
+trp_faction27_troop12_pl|Guardias a Caballo Wurtembergueses (Exp.)
+trp_faction27_troop13|Cazador Wurtembergués (Muy Exp.)
+trp_faction27_troop13_pl|Cazadores Wurtemberguéss (Muy Exp.)
+trp_faction27_troop14|Wurtembergués
+trp_faction27_troop14_pl|Wurtembergueses
+trp_faction27_prisonguard|Carcelero Wurtembergués
+trp_faction27_prisonguard_pl|Carceleros Wurtembergueses
+trp_faction27_castleguard|Guardia Wurtembergués
+trp_faction27_castleguard_pl|Guardias Wurtembergueses
 trp_faction28_troop1|Recluta Serbio
 trp_faction28_troop1_pl|Recluta Serbio
 trp_faction28_troop2|Infantes Serbios
@@ -2995,187 +2995,187 @@ trp_town_19_armorer|Herrero
 trp_town_20_armorer|Herrero
 trp_town_21_armorer|Herrero
 trp_town_22_armorer|Herrero
-trp_town_23_armorer|Tailor Marcello
-trp_town_24_armorer|Tailor Sulaimaan
-trp_town_25_armorer|Tailor Ghulam
-trp_town_26_armorer|Tailor Barkhia
-trp_town_27_armorer|Tailor Eleuterio
-trp_town_28_armorer|Tailor Horasiu
-trp_town_29_armorer|Tailor Joaquin
-trp_town_30_armorer|Tailor Santino
-trp_town_31_armorer|Tailor Maxime
-trp_town_32_armorer|Tailor Johann
-trp_town_33_armorer|Tailor Waseef
-trp_town_34_armorer|Tailor Racz
-trp_town_35_armorer|Tailor Jan
-trp_town_36_armorer|Tailor Asad
-trp_town_37_armorer|Tailor Loshchilov
-trp_town_38_armorer|Tailor Dariush
-trp_town_39_armorer|Tailor Hjalte
-trp_town_40_armorer|Tailor Cirino
-trp_town_41_armorer|Tailor Reece
-trp_town_42_armorer|Tailor Ashqar
-trp_town_43_armorer|Tailor Pannikos
-trp_town_44_armorer|Tailor Yanko
-trp_town_45_armorer|Tailor Leopold
-trp_town_46_armorer|Tailor Thorsten
-trp_town_47_armorer|Tailor Ewald
-trp_town_48_armorer|Tailor Arne
-trp_town_49_armorer|Tailor Theo
-trp_town_50_armorer|Tailor Dik
-trp_town_51_armorer|Tailor Karsten
-trp_town_52_armorer|Tailor Yaman
-trp_town_53_armorer|Tailor Matuk
-trp_town_54_armorer|Tailor Yumus
-trp_town_55_armorer|Tailor Ates
-trp_town_56_armorer|Tailor Telli
-trp_town_57_armorer|Tailor Uqbah
-trp_town_58_armorer|Tailor Rifaah
-trp_town_59_armorer|Tailor Faatin
-trp_town_60_armorer|Tailor Yad
-trp_town_61_armorer|Tailor Kianoush
-trp_town_62_armorer|Tailor Rouben
-trp_town_63_armorer|Tailor Mykhajlo
-trp_town_64_armorer|Tailor Roch
-trp_town_65_armorer|Tailor Vairons
-trp_town_66_armorer|Tailor Zinon
-trp_town_67_armorer|Tailor Leontiy
-trp_castle_1_armorer|Armorer
-trp_castle_2_armorer|Armorer
-trp_castle_3_armorer|Armorer
-trp_castle_4_armorer|Armorer
-trp_castle_5_armorer|Armorer
-trp_castle_6_armorer|Armorer
-trp_castle_7_armorer|Armorer
-trp_castle_8_armorer|Armorer
-trp_castle_9_armorer|Armorer
-trp_castle_10_armorer|Armorer
-trp_castle_11_armorer|Armorer
-trp_castle_12_armorer|Armorer
-trp_castle_13_armorer|Armorer
-trp_castle_14_armorer|Armorer
-trp_castle_15_armorer|Armorer
-trp_castle_16_armorer|Armorer
-trp_castle_17_armorer|Armorer
-trp_castle_18_armorer|Armorer
-trp_castle_19_armorer|Armorer
-trp_castle_20_armorer|Armorer
-trp_castle_21_armorer|Armorer
-trp_castle_22_armorer|Armorer
-trp_castle_23_armorer|Armorer
-trp_castle_24_armorer|Armorer
-trp_castle_25_armorer|Armorer
-trp_castle_26_armorer|Armorer
-trp_castle_27_armorer|Armorer
-trp_castle_28_armorer|Armorer
-trp_castle_29_armorer|Armorer
-trp_castle_30_armorer|Armorer
-trp_castle_31_armorer|Armorer
-trp_castle_32_armorer|Armorer
-trp_castle_33_armorer|Armorer
-trp_castle_34_armorer|Armorer
-trp_castle_35_armorer|Armorer
-trp_castle_36_armorer|Armorer
-trp_castle_37_armorer|Armorer
-trp_castle_38_armorer|Armorer
-trp_castle_39_armorer|Armorer
-trp_castle_40_armorer|Armorer
-trp_castle_41_armorer|Armorer
-trp_castle_42_armorer|Armorer
-trp_castle_43_armorer|Armorer
-trp_castle_44_armorer|Armorer
-trp_castle_45_armorer|Armorer
-trp_castle_46_armorer|Armorer
-trp_castle_47_armorer|Armorer
-trp_castle_48_armorer|Armorer
-trp_castle_49_armorer|Armorer
-trp_castle_50_armorer|Armorer
-trp_castle_51_armorer|Armorer
-trp_castle_52_armorer|Armorer
-trp_castle_53_armorer|Armorer
-trp_castle_54_armorer|Armorer
-trp_castle_55_armorer|Armorer
-trp_castle_56_armorer|Armorer
-trp_castle_57_armorer|Armorer
-trp_castle_58_armorer|Armorer
-trp_castle_59_armorer|Armorer
-trp_castle_60_armorer|Armorer
-trp_castle_61_armorer|Armorer
-trp_castle_62_armorer|Armorer
-trp_castle_63_armorer|Armorer
-trp_castle_64_armorer|Armorer
-trp_castle_65_armorer|Armorer
-trp_castle_66_armorer|Armorer
-trp_castle_67_armorer|Armorer
-trp_castle_68_armorer|Armorer
-trp_castle_69_armorer|Armorer
-trp_castle_70_armorer|Armorer
-trp_castle_71_armorer|Armorer
-trp_castle_72_armorer|Armorer
-trp_castle_73_armorer|Armorer
-trp_castle_74_armorer|Armorer
-trp_castle_75_armorer|Armorer
-trp_castle_76_armorer|Armorer
-trp_castle_77_armorer|Armorer
-trp_castle_78_armorer|Armorer
-trp_castle_79_armorer|Armorer
-trp_castle_80_armorer|Armorer
-trp_castle_81_armorer|Armorer
-trp_castle_82_armorer|Armorer
-trp_castle_83_armorer|Armorer
-trp_castle_84_armorer|Armorer
-trp_castle_85_armorer|Armorer
-trp_castle_86_armorer|Armorer
-trp_castle_87_armorer|Armorer
-trp_castle_88_armorer|Armorer
-trp_castle_89_armorer|Armorer
-trp_castle_90_armorer|Armorer
-trp_castle_91_armorer|Armorer
-trp_castle_92_armorer|Armorer
-trp_castle_93_armorer|Armorer
-trp_castle_94_armorer|Armorer
-trp_castle_95_armorer|Armorer
-trp_castle_96_armorer|Armorer
-trp_castle_97_armorer|Armorer
-trp_castle_98_armorer|Armorer
-trp_castle_99_armorer|Armorer
-trp_castle_100_armorer|Armorer
-trp_castle_101_armorer|Armorer
-trp_castle_102_armorer|Armorer
-trp_castle_103_armorer|Armorer
-trp_castle_104_armorer|Armorer
-trp_castle_105_armorer|Armorer
-trp_castle_106_armorer|Armorer
-trp_castle_107_armorer|Armorer
-trp_castle_108_armorer|Armorer
-trp_castle_109_armorer|Armorer
-trp_castle_110_armorer|Armorer
-trp_castle_111_armorer|Armorer
-trp_castle_112_armorer|Armorer
-trp_castle_113_armorer|Armorer
-trp_castle_114_armorer|Armorer
-trp_castle_115_armorer|Armorer
-trp_castle_116_armorer|Armorer
-trp_castle_117_armorer|Armorer
-trp_castle_118_armorer|Armorer
-trp_castle_119_armorer|Armorer
-trp_castle_120_armorer|Armorer
-trp_castle_121_armorer|Armorer
-trp_castle_122_armorer|Armorer
-trp_castle_123_armorer|Armorer
-trp_castle_124_armorer|Armorer
-trp_castle_125_armorer|Armorer
-trp_castle_126_armorer|Armorer
-trp_castle_127_armorer|Armorer
-trp_castle_128_armorer|Armorer
-trp_castle_129_armorer|Armorer
-trp_castle_130_armorer|Armorer
-trp_castle_131_armorer|Armorer
-trp_castle_132_armorer|Armorer
-trp_castle_133_armorer|Armorer
-trp_castle_134_armorer|Armorer
-trp_castle_135_armorer|Armorer
-trp_castle_136_armorer|Armorer
+trp_town_23_armorer|Marcello el Sastre
+trp_town_24_armorer|Sulaimaan el Sastre
+trp_town_25_armorer|Ghulam el Sastre 
+trp_town_26_armorer|Barkhia el Sastre
+trp_town_27_armorer|Eleuterio el Sastre
+trp_town_28_armorer|Horasiu el Sastre 
+trp_town_29_armorer|Joaquin el Sastre
+trp_town_30_armorer|Santino el Sastre
+trp_town_31_armorer|Maxime el Sastre
+trp_town_32_armorer|Johann el Sastre
+trp_town_33_armorer|Waseef el Sastre
+trp_town_34_armorer|Racz el Sastre
+trp_town_35_armorer|Jan el Sastre
+trp_town_36_armorer|Asad el Sastre
+trp_town_37_armorer|Loshchilov el Sastre
+trp_town_38_armorer|Dariush el Sastre 
+trp_town_39_armorer|Hjalte el Sastre
+trp_town_40_armorer|Cirino el Sastre
+trp_town_41_armorer|Reece el Sastre
+trp_town_42_armorer|Ashqar el Sastre
+trp_town_43_armorer|Pannikos el Sastre
+trp_town_44_armorer|Yanko el Sastre
+trp_town_45_armorer|Leopold el Sastre
+trp_town_46_armorer|Thorsten el Sastre
+trp_town_47_armorer|Ewald el Sastre
+trp_town_48_armorer|Arne el Sastre
+trp_town_49_armorer|Theo el Sastre
+trp_town_50_armorer|Dik el Sastre
+trp_town_51_armorer|Karsten el Sastre
+trp_town_52_armorer|Yaman el Sastre
+trp_town_53_armorer|Matuk el Sastre
+trp_town_54_armorer|Yumus el Sastre
+trp_town_55_armorer|Ates el Sastre 
+trp_town_56_armorer|Telli el Sastre
+trp_town_57_armorer|Uqbah el Sastre
+trp_town_58_armorer|Rifaah el Sastre
+trp_town_59_armorer|Faatin el Sastre 
+trp_town_60_armorer|Yad el Sastre
+trp_town_61_armorer|Kianoush el Sastre
+trp_town_62_armorer|Rouben el Sastre 
+trp_town_63_armorer|Mykhajlo el Sastre
+trp_town_64_armorer|Roch el Sastre
+trp_town_65_armorer|Vairons el Sastre
+trp_town_66_armorer|Zinon el Sastre 
+trp_town_67_armorer|Leontiy el Sastre
+trp_castle_1_armorer|Sastre
+trp_castle_2_armorer|Sastre
+trp_castle_3_armorer|Sastre
+trp_castle_4_armorer|Sastre
+trp_castle_5_armorer|Sastre
+trp_castle_6_armorer|Sastre
+trp_castle_7_armorer|Sastre
+trp_castle_8_armorer|Sastre
+trp_castle_9_armorer|Sastre
+trp_castle_10_armorer|Sastre
+trp_castle_11_armorer|Sastre
+trp_castle_12_armorer|Sastre
+trp_castle_13_armorer|Sastre
+trp_castle_14_armorer|Sastre
+trp_castle_15_armorer|Sastre
+trp_castle_16_armorer|Sastre
+trp_castle_17_armorer|Sastre
+trp_castle_18_armorer|Sastre
+trp_castle_19_armorer|Sastre
+trp_castle_20_armorer|Sastre
+trp_castle_21_armorer|Sastre
+trp_castle_22_armorer|Sastre
+trp_castle_23_armorer|Sastre
+trp_castle_24_armorer|Sastre
+trp_castle_25_armorer|Sastre
+trp_castle_26_armorer|Sastre
+trp_castle_27_armorer|Sastre
+trp_castle_28_armorer|Sastre
+trp_castle_29_armorer|Sastre
+trp_castle_30_armorer|Sastre
+trp_castle_31_armorer|Sastre
+trp_castle_32_armorer|Sastre
+trp_castle_33_armorer|Sastre
+trp_castle_34_armorer|Sastre
+trp_castle_35_armorer|Sastre
+trp_castle_36_armorer|Sastre
+trp_castle_37_armorer|Sastre
+trp_castle_38_armorer|Sastre
+trp_castle_39_armorer|Sastre
+trp_castle_40_armorer|Sastre
+trp_castle_41_armorer|Sastre
+trp_castle_42_armorer|Sastre
+trp_castle_43_armorer|Sastre
+trp_castle_44_armorer|Sastre
+trp_castle_45_armorer|Sastre
+trp_castle_46_armorer|Sastre
+trp_castle_47_armorer|Sastre
+trp_castle_48_armorer|Sastre
+trp_castle_49_armorer|Sastre
+trp_castle_50_armorer|Sastre
+trp_castle_51_armorer|Sastre
+trp_castle_52_armorer|Sastre
+trp_castle_53_armorer|Sastre
+trp_castle_54_armorer|Sastre
+trp_castle_55_armorer|Sastre
+trp_castle_56_armorer|Sastre
+trp_castle_57_armorer|Sastre
+trp_castle_58_armorer|Sastre
+trp_castle_59_armorer|Sastre
+trp_castle_60_armorer|Sastre
+trp_castle_61_armorer|Sastre
+trp_castle_62_armorer|Sastre
+trp_castle_63_armorer|Sastre
+trp_castle_64_armorer|Sastre
+trp_castle_65_armorer|Sastre
+trp_castle_66_armorer|Sastre
+trp_castle_67_armorer|Sastre
+trp_castle_68_armorer|Sastre
+trp_castle_69_armorer|Sastre
+trp_castle_70_armorer|Sastre
+trp_castle_71_armorer|Sastre
+trp_castle_72_armorer|Sastre
+trp_castle_73_armorer|Sastre
+trp_castle_74_armorer|Sastre
+trp_castle_75_armorer|Sastre
+trp_castle_76_armorer|Sastre
+trp_castle_77_armorer|Sastre
+trp_castle_78_armorer|Sastre
+trp_castle_79_armorer|Sastre
+trp_castle_80_armorer|Sastre
+trp_castle_81_armorer|Sastre
+trp_castle_82_armorer|Sastre
+trp_castle_83_armorer|Sastre
+trp_castle_84_armorer|Sastre
+trp_castle_85_armorer|Sastre
+trp_castle_86_armorer|Sastre
+trp_castle_88_armorer|Sastre
+trp_castle_87_armorer|Sastre
+trp_castle_89_armorer|Sastre
+trp_castle_90_armorer|Sastre
+trp_castle_91_armorer|Sastre
+trp_castle_92_armorer|Sastre
+trp_castle_93_armorer|Sastre
+trp_castle_94_armorer|Sastre
+trp_castle_95_armorer|Sastre
+trp_castle_96_armorer|Sastre
+trp_castle_97_armorer|Sastre
+trp_castle_98_armorer|Sastre
+trp_castle_99_armorer|Sastre
+trp_castle_100_armorer|Sastre
+trp_castle_101_armorer|Sastre
+trp_castle_102_armorer|Sastre
+trp_castle_103_armorer|Sastre
+trp_castle_104_armorer|Sastre
+trp_castle_105_armorer|Sastre
+trp_castle_106_armorer|Sastre
+trp_castle_107_armorer|Sastre
+trp_castle_108_armorer|Sastre
+trp_castle_109_armorer|Sastre
+trp_castle_110_armorer|Sastre
+trp_castle_111_armorer|Sastre
+trp_castle_112_armorer|Sastre
+trp_castle_113_armorer|Sastre
+trp_castle_114_armorer|Sastre
+trp_castle_115_armorer|Sastre
+trp_castle_116_armorer|Sastre
+trp_castle_117_armorer|Sastre
+trp_castle_118_armorer|Sastre
+trp_castle_119_armorer|Sastre
+trp_castle_120_armorer|Sastre
+trp_castle_121_armorer|Sastre
+trp_castle_122_armorer|Sastre
+trp_castle_123_armorer|Sastre
+trp_castle_124_armorer|Sastre
+trp_castle_125_armorer|Sastre
+trp_castle_126_armorer|Sastre
+trp_castle_127_armorer|Sastre
+trp_castle_128_armorer|Sastre
+trp_castle_129_armorer|Sastre
+trp_castle_130_armorer|Sastre
+trp_castle_131_armorer|Sastre
+trp_castle_132_armorer|Sastre
+trp_castle_133_armorer|Sastre
+trp_castle_134_armorer|Sastre
+trp_castle_135_armorer|Sastre
+trp_castle_136_armorer|Sastre
 trp_town_1_weaponsmith|Armero
 trp_town_2_weaponsmith|Armero
 trp_town_3_weaponsmith|Armero
@@ -3198,186 +3198,185 @@ trp_town_19_weaponsmith|Armero
 trp_town_20_weaponsmith|Armero
 trp_town_21_weaponsmith|Armero
 trp_town_22_weaponsmith|Armero
-trp_town_23_weaponsmith|Gunsmith Luigi
-trp_town_24_weaponsmith|Gunsmith Amjad
-trp_town_25_weaponsmith|Gunsmith Abdulaziz
-trp_town_26_weaponsmith|Gunsmith Arshan
-trp_town_27_weaponsmith|Gunsmith Mauro
-trp_town_28_weaponsmith|Gunsmith Cristinel
-trp_town_29_weaponsmith|Gunsmith Julio
-trp_town_30_weaponsmith|Gunsmith Gael
-trp_town_31_weaponsmith|Gunsmith Charles
-trp_town_32_weaponsmith|Gunsmith Reiner
-trp_town_33_weaponsmith|Gunsmith Mawdood
-trp_town_34_weaponsmith|Gunsmith Simon
-trp_town_35_weaponsmith|Gunsmith Jakub
-trp_town_36_weaponsmith|Gunsmith Ishaaq
-trp_town_37_weaponsmith|Gunsmith Kasaty
-trp_town_38_weaponsmith|Gunsmith Ebrahim
-trp_town_39_weaponsmith|Gunsmith Bjarke
-trp_town_40_weaponsmith|Gunsmith Bruno
-trp_town_41_weaponsmith|Gunsmith Finn
-trp_town_42_weaponsmith|Gunsmith Fawzi
-trp_town_43_weaponsmith|Gunsmith Argyris
-trp_town_44_weaponsmith|Gunsmith Lyubomir
-trp_town_45_weaponsmith|Gunsmith Alwin
-trp_town_46_weaponsmith|Gunsmith Aaron
-trp_town_47_weaponsmith|Gunsmith Gregor
-trp_town_48_weaponsmith|Gunsmith Valdemar
-trp_town_49_weaponsmith|Gunsmith Maximilian
-trp_town_50_weaponsmith|Gunsmith Coen
-trp_town_51_weaponsmith|Gunsmith Klaus
-trp_town_52_weaponsmith|Gunsmith Dag
-trp_town_53_weaponsmith|Gunsmith Eralp
-trp_town_54_weaponsmith|Gunsmith Altintop
-trp_town_55_weaponsmith|Gunsmith Baris
-trp_town_56_weaponsmith|Gunsmith Metehan
-trp_town_57_weaponsmith|Gunsmith Bishr
-trp_town_58_weaponsmith|Gunsmith Arshad
-trp_town_59_weaponsmith|Gunsmith Jalaal
-trp_town_60_weaponsmith|Gunsmith Din
-trp_town_61_weaponsmith|Gunsmith Usak
-trp_town_62_weaponsmith|Gunsmith Ioane
-trp_town_63_weaponsmith|Gunsmith Leontij
-trp_town_64_weaponsmith|Gunsmith Korneli
-trp_town_65_weaponsmith|Gunsmith Rauls
-trp_town_66_weaponsmith|Gunsmith Yakov
-trp_town_67_weaponsmith|Gunsmith Rollan
-trp_castle_1_weaponsmith|Weaponsmith
-trp_castle_2_weaponsmith|Weaponsmith
-trp_castle_3_weaponsmith|Weaponsmith
-trp_castle_4_weaponsmith|Weaponsmith
-trp_castle_5_weaponsmith|Weaponsmith
-trp_castle_6_weaponsmith|Weaponsmith
-trp_castle_7_weaponsmith|Weaponsmith
-trp_castle_8_weaponsmith|Weaponsmith
-trp_castle_9_weaponsmith|Weaponsmith
-trp_castle_10_weaponsmith|Weaponsmith
-trp_castle_11_weaponsmith|Weaponsmith
-trp_castle_12_weaponsmith|Weaponsmith
-trp_castle_13_weaponsmith|Weaponsmith
-trp_castle_14_weaponsmith|Weaponsmith
-trp_castle_15_weaponsmith|Weaponsmith
-trp_castle_16_weaponsmith|Weaponsmith
-trp_castle_17_weaponsmith|Weaponsmith
-trp_castle_18_weaponsmith|Weaponsmith
-trp_castle_19_weaponsmith|Weaponsmith
-trp_castle_20_weaponsmith|Weaponsmith
-trp_castle_21_weaponsmith|Weaponsmith
-trp_castle_22_weaponsmith|Weaponsmith
-trp_castle_23_weaponsmith|Weaponsmith
-trp_castle_24_weaponsmith|Weaponsmith
-trp_castle_25_weaponsmith|Weaponsmith
-trp_castle_26_weaponsmith|Weaponsmith
-trp_castle_27_weaponsmith|Weaponsmith
-trp_castle_28_weaponsmith|Weaponsmith
-trp_castle_29_weaponsmith|Weaponsmith
-trp_castle_30_weaponsmith|Weaponsmith
-trp_castle_31_weaponsmith|Weaponsmith
-trp_castle_32_weaponsmith|Weaponsmith
-trp_castle_33_weaponsmith|Weaponsmith
-trp_castle_34_weaponsmith|Weaponsmith
-trp_castle_35_weaponsmith|Weaponsmith
-trp_castle_36_weaponsmith|Weaponsmith
-trp_castle_37_weaponsmith|Weaponsmith
-trp_castle_38_weaponsmith|Weaponsmith
-trp_castle_39_weaponsmith|Weaponsmith
-trp_castle_40_weaponsmith|Weaponsmith
-trp_castle_41_weaponsmith|Weaponsmith
-trp_castle_42_weaponsmith|Weaponsmith
-trp_castle_43_weaponsmith|Weaponsmith
-trp_castle_44_weaponsmith|Weaponsmith
-trp_castle_45_weaponsmith|Weaponsmith
-trp_castle_46_weaponsmith|Weaponsmith
-trp_castle_47_weaponsmith|Weaponsmith
-trp_castle_48_weaponsmith|Weaponsmith
-trp_castle_49_weaponsmith|Weaponsmith
-trp_castle_50_weaponsmith|Weaponsmith
-trp_castle_51_weaponsmith|Weaponsmith
-trp_castle_52_weaponsmith|Weaponsmith
-trp_castle_53_weaponsmith|Weaponsmith
-trp_castle_54_weaponsmith|Weaponsmith
-trp_castle_55_weaponsmith|Weaponsmith
-trp_castle_56_weaponsmith|Weaponsmith
-trp_castle_57_weaponsmith|Weaponsmith
-trp_castle_58_weaponsmith|Weaponsmith
-trp_castle_59_weaponsmith|Weaponsmith
-trp_castle_60_weaponsmith|Weaponsmith
-trp_castle_61_weaponsmith|Weaponsmith
-trp_castle_62_weaponsmith|Weaponsmith
-trp_castle_63_weaponsmith|Weaponsmith
-trp_castle_64_weaponsmith|Weaponsmith
-trp_castle_65_weaponsmith|Weaponsmith
-trp_castle_66_weaponsmith|Weaponsmith
-trp_castle_67_weaponsmith|Weaponsmith
-trp_castle_68_weaponsmith|Weaponsmith
-trp_castle_69_weaponsmith|Weaponsmith
-trp_castle_70_weaponsmith|Weaponsmith
-trp_castle_71_weaponsmith|Weaponsmith
-trp_castle_72_weaponsmith|Weaponsmith
-trp_castle_73_weaponsmith|Weaponsmith
-trp_castle_74_weaponsmith|Weaponsmith
-trp_castle_75_weaponsmith|Weaponsmith
-trp_castle_76_weaponsmith|Weaponsmith
-trp_castle_77_weaponsmith|Weaponsmith
-trp_castle_78_weaponsmith|Weaponsmith
-trp_castle_79_weaponsmith|Weaponsmith
-trp_castle_80_weaponsmith|Weaponsmith
-trp_castle_81_weaponsmith|Weaponsmith
-trp_castle_82_weaponsmith|Weaponsmith
-trp_castle_83_weaponsmith|Weaponsmith
-trp_castle_84_weaponsmith|Weaponsmith
-trp_castle_85_weaponsmith|Weaponsmith
-trp_castle_86_weaponsmith|Weaponsmith
-trp_castle_87_weaponsmith|Weaponsmith
-trp_castle_88_weaponsmith|Weaponsmith
-trp_castle_89_weaponsmith|Weaponsmith
-trp_castle_90_weaponsmith|Weaponsmith
-trp_castle_91_weaponsmith|Weaponsmith
-trp_castle_92_weaponsmith|Weaponsmith
-trp_castle_93_weaponsmith|Weaponsmith
-trp_castle_94_weaponsmith|Weaponsmith
-trp_castle_95_weaponsmith|Weaponsmith
-trp_castle_96_weaponsmith|Weaponsmith
-trp_castle_97_weaponsmith|Weaponsmith
-trp_castle_98_weaponsmith|Weaponsmith
-trp_castle_99_weaponsmith|Weaponsmith
-trp_castle_100_weaponsmith|Weaponsmith
-trp_castle_101_weaponsmith|Weaponsmith
-trp_castle_102_weaponsmith|Weaponsmith
-trp_castle_103_weaponsmith|Weaponsmith
-trp_castle_104_weaponsmith|Weaponsmith
-trp_castle_105_weaponsmith|Weaponsmith
-trp_castle_106_weaponsmith|Weaponsmith
-trp_castle_107_weaponsmith|Weaponsmith
-trp_castle_108_weaponsmith|Weaponsmith
-trp_castle_109_weaponsmith|Weaponsmith
-trp_castle_110_weaponsmith|Weaponsmith
-trp_castle_111_weaponsmith|Weaponsmith
-trp_castle_112_weaponsmith|Weaponsmith
-trp_castle_113_weaponsmith|Weaponsmith
-trp_castle_114_weaponsmith|Weaponsmith
-trp_castle_115_weaponsmith|Weaponsmith
-trp_castle_116_weaponsmith|Weaponsmith
-trp_castle_117_weaponsmith|Weaponsmith
-trp_castle_118_weaponsmith|Weaponsmith
-trp_castle_119_weaponsmith|Weaponsmith
-trp_castle_120_weaponsmith|Weaponsmith
-trp_castle_121_weaponsmith|Weaponsmith
-trp_castle_122_weaponsmith|Weaponsmith
-trp_castle_123_weaponsmith|Weaponsmith
-trp_castle_124_weaponsmith|Weaponsmith
-trp_castle_125_weaponsmith|Weaponsmith
-trp_castle_126_weaponsmith|Weaponsmith
-trp_castle_127_weaponsmith|Weaponsmith
-trp_castle_128_weaponsmith|Weaponsmith
-trp_castle_129_weaponsmith|Weaponsmith
-trp_castle_130_weaponsmith|Weaponsmith
-trp_castle_131_weaponsmith|Weaponsmith
-trp_castle_132_weaponsmith|Weaponsmith
-trp_castle_133_weaponsmith|Weaponsmith
-trp_castle_134_weaponsmith|Weaponsmith
-trp_castle_135_weaponsmith|Weaponsmith
+trp_town_23_weaponsmith|Luigi el Armero
+trp_town_24_weaponsmith|Amjad el Armero
+trp_town_25_weaponsmith|Abdulaziz el Armero
+trp_town_26_weaponsmith|Arshan el Armero 
+trp_town_27_weaponsmith|Mauro el Armero
+trp_town_28_weaponsmith|Cristinel el Armero
+trp_town_29_weaponsmith|Julio el Armero
+trp_town_30_weaponsmith|Gael el Armero
+trp_town_31_weaponsmith|Charles el Armero
+trp_town_32_weaponsmith|Reiner el Armero
+trp_town_33_weaponsmith|Mawdood el Armero
+trp_town_34_weaponsmith|Simon el Armero
+trp_town_35_weaponsmith|Jakub el Armero
+trp_town_36_weaponsmith|Ishaaq el Armero
+trp_town_37_weaponsmith|Kasaty el Armero
+trp_town_38_weaponsmith|Ebrahim el Armero
+trp_town_39_weaponsmith|Bjarke el Armero 
+trp_town_40_weaponsmith|Bruno el Armero
+trp_town_41_weaponsmith|Finn el Armero 
+trp_town_42_weaponsmith|Fawzi el Armero 
+trp_town_43_weaponsmith|Argyris el Armero 
+trp_town_44_weaponsmith|Lyubomir el Armero 
+trp_town_45_weaponsmith|Alwin el Armero 
+trp_town_46_weaponsmith|Aaron el Armero 
+trp_town_47_weaponsmith|Gregor el Armero 
+trp_town_48_weaponsmith|Valdemar el Armero 
+trp_town_49_weaponsmith|Maximilian el Armero 
+trp_town_50_weaponsmith|Coen el Armero 
+trp_town_51_weaponsmith|Klaus el Armero 
+trp_town_52_weaponsmith|Dag el Armero 
+trp_town_53_weaponsmith|Eralp el Armero 
+trp_town_54_weaponsmith|Altintop el Armero 
+trp_town_55_weaponsmith|Baris el Armero 
+trp_town_56_weaponsmith|Metehan el Armero 
+trp_town_57_weaponsmith|Bishr el Armero  el Armero 
+trp_town_58_weaponsmith|Arshad el Armero 
+trp_town_59_weaponsmith|Jalaal el Armero 
+trp_town_60_weaponsmith|Din el Armero 
+trp_town_61_weaponsmith|Usak el Armero 
+trp_town_62_weaponsmith|Ioane el Armero 
+trp_town_63_weaponsmith|Leontij el Armero 
+trp_town_64_weaponsmith|Korneli el Armero 
+trp_town_65_weaponsmith|Rauls el Armero 
+trp_town_66_weaponsmith|Yakov el Armero 
+trp_town_67_weaponsmith|Rollan el Armero 
+trp_castle_1_weaponsmith|Armero
+trp_castle_2_weaponsmith|Armero
+trp_castle_3_weaponsmith|Armero
+trp_castle_4_weaponsmith|Armero
+trp_castle_5_weaponsmith|Armero
+trp_castle_6_weaponsmith|Armero
+trp_castle_7_weaponsmith|Armero
+trp_castle_8_weaponsmith|Armero
+trp_castle_9_weaponsmith|Armero
+trp_castle_10_weaponsmith|Armero
+trp_castle_11_weaponsmith|Armero
+trp_castle_12_weaponsmith|Armero
+trp_castle_13_weaponsmith|Armero
+trp_castle_14_weaponsmith|Armero
+trp_castle_15_weaponsmith|Armero
+trp_castle_16_weaponsmith|Armero
+trp_castle_17_weaponsmith|Armero
+trp_castle_18_weaponsmith|Armero
+trp_castle_19_weaponsmith|Armero
+trp_castle_20_weaponsmith|Armero
+trp_castle_21_weaponsmith|Armero
+trp_castle_22_weaponsmith|Armero
+trp_castle_23_weaponsmith|Armero
+trp_castle_24_weaponsmith|Armero
+trp_castle_25_weaponsmith|Armero
+trp_castle_26_weaponsmith|Armero
+trp_castle_27_weaponsmith|Armero
+trp_castle_28_weaponsmith|Armero
+trp_castle_29_weaponsmith|Armero
+trp_castle_30_weaponsmith|Armero
+trp_castle_31_weaponsmith|Armero
+trp_castle_32_weaponsmith|Armero
+trp_castle_33_weaponsmith|Armero
+trp_castle_34_weaponsmith|Armero
+trp_castle_35_weaponsmith|Armero
+trp_castle_36_weaponsmith|Armero
+trp_castle_37_weaponsmith|Armero
+trp_castle_38_weaponsmith|Armero
+trp_castle_39_weaponsmith|Armero
+trp_castle_40_weaponsmith|Armero
+trp_castle_41_weaponsmith|Armero
+trp_castle_42_weaponsmith|Armero
+trp_castle_43_weaponsmith|Armero
+trp_castle_44_weaponsmith|Armero
+trp_castle_45_weaponsmith|Armero
+trp_castle_46_weaponsmith|Armero
+trp_castle_47_weaponsmith|Armero
+trp_castle_48_weaponsmith|Armero
+trp_castle_49_weaponsmith|Armero
+trp_castle_50_weaponsmith|Armero
+trp_castle_51_weaponsmith|Armero
+trp_castle_52_weaponsmith|Armero
+trp_castle_53_weaponsmith|Armero
+trp_castle_54_weaponsmith|Armero
+trp_castle_55_weaponsmith|Armero
+trp_castle_56_weaponsmith|Armero
+trp_castle_57_weaponsmith|Armero
+trp_castle_58_weaponsmith|Armero
+trp_castle_59_weaponsmith|Armero
+trp_castle_60_weaponsmith|Armero
+trp_castle_61_weaponsmith|Armero
+trp_castle_62_weaponsmith|Armero
+trp_castle_63_weaponsmith|Armero
+trp_castle_64_weaponsmith|Armero
+trp_castle_65_weaponsmith|Armero
+trp_castle_66_weaponsmith|Armero
+trp_castle_67_weaponsmith|Armero
+trp_castle_68_weaponsmith|Armero
+trp_castle_69_weaponsmith|Armero
+trp_castle_70_weaponsmith|Armero
+trp_castle_71_weaponsmith|Armero
+trp_castle_72_weaponsmith|Armero
+trp_castle_73_weaponsmith|Armero
+trp_castle_74_weaponsmith|Armero
+trp_castle_75_weaponsmith|Armero
+trp_castle_76_weaponsmith|Armero
+trp_castle_77_weaponsmith|Armero
+trp_castle_78_weaponsmith|Armero
+trp_castle_79_weaponsmith|Armero
+trp_castle_81_weaponsmith|Armero
+trp_castle_82_weaponsmith|Armero
+trp_castle_83_weaponsmith|Armero
+trp_castle_84_weaponsmith|Armero
+trp_castle_85_weaponsmith|Armero
+trp_castle_86_weaponsmith|Armero
+trp_castle_87_weaponsmith|Armero
+trp_castle_88_weaponsmith|Armero
+trp_castle_89_weaponsmith|Armero
+trp_castle_90_weaponsmith|Armero
+trp_castle_91_weaponsmith|Armero
+trp_castle_92_weaponsmith|Armero
+trp_castle_93_weaponsmith|Armero
+trp_castle_94_weaponsmith|Armero
+trp_castle_95_weaponsmith|Armero
+trp_castle_96_weaponsmith|Armero
+trp_castle_97_weaponsmith|Armero
+trp_castle_98_weaponsmith|Armero
+trp_castle_99_weaponsmith|Armero
+trp_castle_100_weaponsmith|Armero
+trp_castle_101_weaponsmith|Armero
+trp_castle_102_weaponsmith|Armero
+trp_castle_103_weaponsmith|Armero
+trp_castle_104_weaponsmith|Armero
+trp_castle_105_weaponsmith|Armero
+trp_castle_106_weaponsmith|Armero
+trp_castle_107_weaponsmith|Armero
+trp_castle_108_weaponsmith|Armero
+trp_castle_109_weaponsmith|Armero
+trp_castle_110_weaponsmith|Armero
+trp_castle_111_weaponsmith|Armero
+trp_castle_112_weaponsmith|Armero
+trp_castle_113_weaponsmith|Armero
+trp_castle_114_weaponsmith|Armero
+trp_castle_115_weaponsmith|Armero
+trp_castle_116_weaponsmith|Armero
+trp_castle_117_weaponsmith|Armero
+trp_castle_118_weaponsmith|Armero
+trp_castle_119_weaponsmith|Armero
+trp_castle_120_weaponsmith|Armero
+trp_castle_121_weaponsmith|Armero
+trp_castle_122_weaponsmith|Armero
+trp_castle_123_weaponsmith|Armero
+trp_castle_124_weaponsmith|Armero
+trp_castle_125_weaponsmith|Armero
+trp_castle_126_weaponsmith|Armero
+trp_castle_127_weaponsmith|Armero
+trp_castle_128_weaponsmith|Armero
+trp_castle_129_weaponsmith|Armero
+trp_castle_130_weaponsmith|Armero
+trp_castle_131_weaponsmith|Armero
+trp_castle_132_weaponsmith|Armero
+trp_castle_133_weaponsmith|Armero
+trp_castle_134_weaponsmith|Armero
+trp_castle_135_weaponsmith|Armero
 trp_town_1_tavernkeeper|Tabernero
 trp_town_2_tavernkeeper|Tabernero
 trp_town_3_tavernkeeper|Tabernero
@@ -3400,51 +3399,51 @@ trp_town_19_tavernkeeper|Tabernero
 trp_town_20_tavernkeeper|Tabernero
 trp_town_21_tavernkeeper|Tabernero
 trp_town_22_tavernkeeper|Tabernero
-trp_town_23_tavernkeeper|Tavern Keeper Viliberto
-trp_town_24_tavernkeeper|Tavern Keeper Shaamikh
-trp_town_25_tavernkeeper|Tavern Keeper Sattar
-trp_town_26_tavernkeeper|Tavern Keeper Oztekin
-trp_town_27_tavernkeeper|Tavern Keeper Rodolfo
-trp_town_28_tavernkeeper|Tavern Keeper Simon
-trp_town_29_tavernkeeper|Tavern Keeper Pablo
-trp_town_30_tavernkeeper|Tavern Keeper Juan
-trp_town_31_tavernkeeper|Tavern Keeper Gerald
-trp_town_32_tavernkeeper|Tavern Keeper Philip
-trp_town_33_tavernkeeper|Tavern Keeper Mustaba
-trp_town_34_tavernkeeper|Tavern Keeper Kapolcs
-trp_town_35_tavernkeeper|Tavern Keeper Vaclav
-trp_town_36_tavernkeeper|Tavern Keeper Faaris
-trp_town_37_tavernkeeper|Tavern Keeper Kirov
-trp_town_38_tavernkeeper|Tavern Keeper Mohsen
-trp_town_39_tavernkeeper|Tavern Keeper Theis
-trp_town_40_tavernkeeper|Tavern Keeper Alfonso
-trp_town_41_tavernkeeper|Tavern Keeper Barney
-trp_town_42_tavernkeeper|Tavern Keeper Hameed
-trp_town_43_tavernkeeper|Tavern Keeper Tasos
-trp_town_44_tavernkeeper|Tavern Keeper Rosen
-trp_town_45_tavernkeeper|Tavern Keeper Torben
-trp_town_46_tavernkeeper|Tavern Keeper Gabriel
-trp_town_47_tavernkeeper|Tavern Keeper Rudi
-trp_town_48_tavernkeeper|Tavern Keeper Filip
-trp_town_49_tavernkeeper|Tavern Keeper Hindrik
-trp_town_50_tavernkeeper|Tavern Keeper Youri
-trp_town_51_tavernkeeper|Tavern Keeper Marius
-trp_town_52_tavernkeeper|Tavern Keeper Tugrul
-trp_town_53_tavernkeeper|Tavern Keeper Acunalan
-trp_town_54_tavernkeeper|Tavern Keeper Eryaman
-trp_town_55_tavernkeeper|Tavern Keeper Fikri
-trp_town_56_tavernkeeper|Tavern Keeper Sukru
-trp_town_57_tavernkeeper|Tavern Keeper Ridwaan
-trp_town_58_tavernkeeper|Tavern Keeper Rushdi
-trp_town_59_tavernkeeper|Tavern Keeper Yoruk
-trp_town_60_tavernkeeper|Tavern Keeper Aman
-trp_town_61_tavernkeeper|Tavern Keeper Behpour
-trp_town_62_tavernkeeper|Tavern Keeper Movsoum
-trp_town_63_tavernkeeper|Tavern Keeper Sava
-trp_town_64_tavernkeeper|Tavern Keeper Maurycjusz
-trp_town_65_tavernkeeper|Tavern Keeper Hedijs
-trp_town_66_tavernkeeper|Tavern Keeper Maxim
-trp_town_67_tavernkeeper|Tavern Keeper Gerasim
+trp_town_23_tavernkeeper|Viliberto el Tabernero
+trp_town_24_tavernkeeper|Shaamikh el Tabernero
+trp_town_25_tavernkeeper|Sattar el Tabernero
+trp_town_26_tavernkeeper|Oztekin el Tabernero
+trp_town_27_tavernkeeper|Rodolfo el Tabernero
+trp_town_28_tavernkeeper|Simon el Tabernero
+trp_town_29_tavernkeeper|Pablo el Tabernero
+trp_town_30_tavernkeeper|Juan el Tabernero
+trp_town_31_tavernkeeper|Gerald el Tabernero
+trp_town_32_tavernkeeper|Philip el Tabernero
+trp_town_33_tavernkeeper|Mustaba el Tabernero
+trp_town_34_tavernkeeper|Kapolcs el Tabernero
+trp_town_35_tavernkeeper|Vaclav el Tabernero
+trp_town_36_tavernkeeper|Faaris el Tabernero
+trp_town_37_tavernkeeper|Kirov el Tabernero 
+trp_town_38_tavernkeeper|Mohsenel Tabernero
+trp_town_39_tavernkeeper|Theis el Tabernero
+trp_town_40_tavernkeeper|Alfonso el Tabernero
+trp_town_41_tavernkeeper|Barney el Tabernero
+trp_town_42_tavernkeeper|Hameed el Tabernero 
+trp_town_43_tavernkeeper|Tasos el Tabernero
+trp_town_44_tavernkeeper|Rosen el Tabernero 
+trp_town_45_tavernkeeper|Torben el Tabernero
+trp_town_46_tavernkeeper|Gabriel el Tabernero
+trp_town_47_tavernkeeper|Rudi el Tabernero
+trp_town_48_tavernkeeper|Filipel Tabernero
+trp_town_49_tavernkeeper|Hindrik el Tabernero
+trp_town_50_tavernkeeper|Youri el Tabernero
+trp_town_51_tavernkeeper|Marius el Tabernero
+trp_town_52_tavernkeeper|Tugrul el Tabernero
+trp_town_53_tavernkeeper|Acunalan el Tabernero
+trp_town_54_tavernkeeper|Eryaman el Tabernero
+trp_town_55_tavernkeeper|Fikriel Tabernero
+trp_town_56_tavernkeeper|Sukru el Tabernero 
+trp_town_57_tavernkeeper|Ridwaan el Tabernero 
+trp_town_58_tavernkeeper|Rushdi el Tabernero
+trp_town_59_tavernkeeper|Yoruk el Tabernero
+trp_town_60_tavernkeeper|Aman el Tabernero
+trp_town_61_tavernkeeper|Behpour el Tabernero
+trp_town_62_tavernkeeper|Movsoum el Tabernero
+trp_town_63_tavernkeeper|Sava el Tabernero
+trp_town_64_tavernkeeper|Maurycjusz el Tabernero
+trp_town_65_tavernkeeper|Hedijs el Tabernero
+trp_town_66_tavernkeeper|Maxim el Tabernero
+trp_town_67_tavernkeeper|Gerasim el Tabernero
 trp_town_1_merchant|Mercader
 trp_town_2_merchant|Mercader
 trp_town_3_merchant|Mercader
@@ -3467,186 +3466,186 @@ trp_town_19_merchant|Mercader
 trp_town_20_merchant|Mercader
 trp_town_21_merchant|Mercader
 trp_town_22_merchant|Mercader
-trp_town_23_merchant|Merchant Martino
-trp_town_24_merchant|Merchant Mansoor
-trp_town_25_merchant|Merchant Nurmat
-trp_town_26_merchant|Merchant Nazif
-trp_town_27_merchant|Merchant Thiago
-trp_town_28_merchant|Merchant Dimitrie
-trp_town_29_merchant|Merchant Jonathan
-trp_town_30_merchant|Merchant Hector
-trp_town_31_merchant|Merchant Auguste
-trp_town_32_merchant|Merchant Bastian
-trp_town_33_merchant|Merchant Nassaar
-trp_town_34_merchant|Merchant Kelemen
-trp_town_35_merchant|Merchant Lukas
-trp_town_36_merchant|Merchant Taahir
-trp_town_37_merchant|Merchant Dobrynin
-trp_town_38_merchant|Merchant Davoud
-trp_town_39_merchant|Merchant Gregers
-trp_town_40_merchant|Merchant Frido
-trp_town_41_merchant|Merchant Clark
-trp_town_42_merchant|Merchant Rajab
-trp_town_43_merchant|Merchant Venizelos
-trp_town_44_merchant|Merchant Grozdan
-trp_town_45_merchant|Merchant Bert
-trp_town_46_merchant|Merchant Mark
-trp_town_47_merchant|Merchant Paul
-trp_town_48_merchant|Merchant Adrian
-trp_town_49_merchant|Merchant Johan
-trp_town_50_merchant|Merchant Basten
-trp_town_51_merchant|Merchant Adalger
-trp_town_52_merchant|Merchant Beri
-trp_town_53_merchant|Merchant Celik
-trp_town_54_merchant|Merchant Sen
-trp_town_55_merchant|Merchant Hayran
-trp_town_56_merchant|Merchant Uzer
-trp_town_57_merchant|Merchant Husaam
-trp_town_58_merchant|Merchant Sadi
-trp_town_59_merchant|Merchant
-trp_town_60_merchant|Merchant Gopal
-trp_town_61_merchant|Merchant Ismaeel
-trp_town_62_merchant|Merchant Adam
-trp_town_63_merchant|Merchant Bronislav
-trp_town_64_merchant|Merchant Norbert
-trp_town_65_merchant|Merchant Raigo
-trp_town_66_merchant|Merchant Gleb
-trp_town_67_merchant|Merchant Aleksei
-trp_castle_1_merchant|Merchant
-trp_castle_2_merchant|Merchant
-trp_castle_3_merchant|Merchant
-trp_castle_4_merchant|Merchant
-trp_castle_5_merchant|Merchant
-trp_castle_6_merchant|Merchant
-trp_castle_7_merchant|Merchant
-trp_castle_8_merchant|Merchant
-trp_castle_9_merchant|Merchant
-trp_castle_10_merchant|Merchant
-trp_castle_11_merchant|Merchant
-trp_castle_12_merchant|Merchant
-trp_castle_13_merchant|Merchant
-trp_castle_14_merchant|Merchant
-trp_castle_15_merchant|Merchant
-trp_castle_16_merchant|Merchant
-trp_castle_17_merchant|Merchant
-trp_castle_18_merchant|Merchant
-trp_castle_19_merchant|Merchant
-trp_castle_20_merchant|Merchant
-trp_castle_21_merchant|Merchant
-trp_castle_22_merchant|Merchant
-trp_castle_23_merchant|Merchant
-trp_castle_24_merchant|Merchant
-trp_castle_25_merchant|Merchant
-trp_castle_26_merchant|Merchant
-trp_castle_27_merchant|Merchant
-trp_castle_28_merchant|Merchant
-trp_castle_29_merchant|Merchant
-trp_castle_30_merchant|Merchant
-trp_castle_31_merchant|Merchant
-trp_castle_32_merchant|Merchant
-trp_castle_33_merchant|Merchant
-trp_castle_34_merchant|Merchant
-trp_castle_35_merchant|Merchant
-trp_castle_36_merchant|Merchant
-trp_castle_37_merchant|Merchant
-trp_castle_38_merchant|Merchant
-trp_castle_39_merchant|Merchant
-trp_castle_40_merchant|Merchant
-trp_castle_41_merchant|Merchant
-trp_castle_42_merchant|Merchant
-trp_castle_43_merchant|Merchant
-trp_castle_44_merchant|Merchant
-trp_castle_45_merchant|Merchant
-trp_castle_46_merchant|Merchant
-trp_castle_47_merchant|Merchant
-trp_castle_48_merchant|Merchant
-trp_castle_49_merchant|Merchant
-trp_castle_50_merchant|Merchant
-trp_castle_51_merchant|Merchant
-trp_castle_52_merchant|Merchant
-trp_castle_53_merchant|Merchant
-trp_castle_54_merchant|Merchant
-trp_castle_55_merchant|Merchant
-trp_castle_56_merchant|Merchant
-trp_castle_57_merchant|Merchant
-trp_castle_58_merchant|Merchant
-trp_castle_59_merchant|Merchant
-trp_castle_60_merchant|Merchant
-trp_castle_61_merchant|Merchant
-trp_castle_62_merchant|Merchant
-trp_castle_63_merchant|Merchant
-trp_castle_64_merchant|Merchant
-trp_castle_65_merchant|Merchant
-trp_castle_66_merchant|Merchant
-trp_castle_67_merchant|Merchant
-trp_castle_68_merchant|Merchant
-trp_castle_69_merchant|Merchant
-trp_castle_70_merchant|Merchant
-trp_castle_71_merchant|Merchant
-trp_castle_72_merchant|Merchant
-trp_castle_73_merchant|Merchant
-trp_castle_74_merchant|Merchant
-trp_castle_75_merchant|Merchant
-trp_castle_76_merchant|Merchant
-trp_castle_77_merchant|Merchant
-trp_castle_78_merchant|Merchant
-trp_castle_79_merchant|Merchant
-trp_castle_80_merchant|Merchant
-trp_castle_81_merchant|Merchant
-trp_castle_82_merchant|Merchant
-trp_castle_83_merchant|Merchant
-trp_castle_84_merchant|Merchant
-trp_castle_85_merchant|Merchant
-trp_castle_86_merchant|Merchant
-trp_castle_87_merchant|Merchant
-trp_castle_88_merchant|Merchant
-trp_castle_89_merchant|Merchant
-trp_castle_90_merchant|Merchant
-trp_castle_91_merchant|Merchant
-trp_castle_92_merchant|Merchant
-trp_castle_93_merchant|Merchant
-trp_castle_94_merchant|Merchant
-trp_castle_95_merchant|Merchant
-trp_castle_96_merchant|Merchant
-trp_castle_97_merchant|Merchant
-trp_castle_98_merchant|Merchant
-trp_castle_99_merchant|Merchant
-trp_castle_100_merchant|Merchant
-trp_castle_101_merchant|Merchant
-trp_castle_102_merchant|Merchant
-trp_castle_103_merchant|Merchant
-trp_castle_104_merchant|Merchant
-trp_castle_105_merchant|Merchant
-trp_castle_106_merchant|Merchant
-trp_castle_107_merchant|Merchant
-trp_castle_108_merchant|Merchant
-trp_castle_109_merchant|Merchant
-trp_castle_110_merchant|Merchant
-trp_castle_111_merchant|Merchant
-trp_castle_112_merchant|Merchant
-trp_castle_113_merchant|Merchant
-trp_castle_114_merchant|Merchant
-trp_castle_115_merchant|Merchant
-trp_castle_116_merchant|Merchant
-trp_castle_117_merchant|Merchant
-trp_castle_118_merchant|Merchant
-trp_castle_119_merchant|Merchant
-trp_castle_120_merchant|Merchant
-trp_castle_121_merchant|Merchant
-trp_castle_122_merchant|Merchant
-trp_castle_123_merchant|Merchant
-trp_castle_124_merchant|Merchant
-trp_castle_125_merchant|Merchant
-trp_castle_126_merchant|Merchant
-trp_castle_127_merchant|Merchant
-trp_castle_128_merchant|Merchant
-trp_castle_129_merchant|Merchant
-trp_castle_130_merchant|Merchant
-trp_castle_131_merchant|Merchant
-trp_castle_132_merchant|Merchant
-trp_castle_133_merchant|Merchant
-trp_castle_134_merchant|Merchant
-trp_castle_135_merchant|Merchant
+trp_town_23_merchant|Martino el Mercader
+trp_town_24_merchant|Mansoor el Mercader
+trp_town_25_merchant|Nurmat el Mercader
+trp_town_26_merchant|Nazif el Mercader
+trp_town_27_merchant|Thiago el Mercader
+trp_town_28_merchant|Dimitrie el Mercader
+trp_town_29_merchant|Jonathan el Mercader
+trp_town_30_merchant|Hector el Mercader
+trp_town_31_merchant|Auguste el Mercader
+trp_town_32_merchant|Bastian el Mercader
+trp_town_33_merchant|Nassaar el Mercader
+trp_town_34_merchant|Kelemen el Mercader
+trp_town_35_merchant|Lukas el Mercader
+trp_town_36_merchant|Taahir el Mercader
+trp_town_37_merchant|Dobrynin el Mercader
+trp_town_38_merchant|Davoud el Mercader
+trp_town_39_merchant|Gregers el Mercader
+trp_town_40_merchant|Frido el Mercader
+trp_town_41_merchant|Clark el Mercader
+trp_town_42_merchant|Rajab el Mercader
+trp_town_43_merchant|Venizelos el Mercader
+trp_town_44_merchant|Grozdan el Mercader
+trp_town_45_merchant|Bert el Mercader
+trp_town_46_merchant|Mark el Mercader
+trp_town_47_merchant|Paul el Mercader
+trp_town_48_merchant|Adrian el Mercader
+trp_town_49_merchant|Johan el Mercader
+trp_town_50_merchant|Basten el Mercader
+trp_town_51_merchant|Adalger el Mercader
+trp_town_52_merchant|Beri el Mercader
+trp_town_53_merchant|Celik el Mercader
+trp_town_54_merchant|Sen el Mercader
+trp_town_55_merchant|Hayran el Mercader
+trp_town_56_merchant|Uzer el Mercader
+trp_town_57_merchant|Husaam el Mercader
+trp_town_58_merchant|Sadi el Mercader
+trp_town_59_merchant|Merchant el Mercader
+trp_town_60_merchant|Gopal el Mercader
+trp_town_61_merchant|Ismaeel el Mercader
+trp_town_62_merchant|Adam el Mercader
+trp_town_63_merchant|Bronislav el Mercader
+trp_town_64_merchant|Norbert el Mercader
+trp_town_65_merchant|Raigo el Mercader
+trp_town_66_merchant|Gleb el Mercader
+trp_town_67_merchant|Aleksei el Mercader
+trp_castle_1_merchant|Mercader 
+trp_castle_2_merchant|Mercader
+trp_castle_3_merchant|Mercader
+trp_castle_4_merchant|Mercader
+trp_castle_5_merchant|Mercader
+trp_castle_6_merchant|Mercader
+trp_castle_7_merchant|Mercader
+trp_castle_8_merchant|Mercader
+trp_castle_9_merchant|Mercader
+trp_castle_10_merchant|Mercader
+trp_castle_11_merchant|Mercader
+trp_castle_12_merchant|Mercader
+trp_castle_13_merchant|Mercader
+trp_castle_14_merchant|Mercader
+trp_castle_15_merchant|Mercader
+trp_castle_16_merchant|Mercader
+trp_castle_17_merchant|Mercader
+trp_castle_18_merchant|Mercader
+trp_castle_19_merchant|Mercader
+trp_castle_20_merchant|Mercader
+trp_castle_21_merchant|Mercader
+trp_castle_22_merchant|Mercader
+trp_castle_23_merchant|Mercader
+trp_castle_24_merchant|Mercader
+trp_castle_25_merchant|Mercader
+trp_castle_26_merchant|Mercader
+trp_castle_27_merchant|Mercader
+trp_castle_28_merchant|Mercader
+trp_castle_29_merchant|Mercader
+trp_castle_30_merchant|Mercader
+trp_castle_31_merchant|Mercader
+trp_castle_32_merchant|Mercader
+trp_castle_33_merchant|Mercader
+trp_castle_34_merchant|Mercader
+trp_castle_35_merchant|Mercader
+trp_castle_36_merchant|Mercader
+trp_castle_37_merchant|Mercader
+trp_castle_38_merchant|Mercader
+trp_castle_39_merchant|Mercader
+trp_castle_40_merchant|Mercader
+trp_castle_41_merchant|Mercader
+trp_castle_42_merchant|Mercader
+trp_castle_43_merchant|Mercader
+trp_castle_44_merchant|Mercader
+trp_castle_45_merchant|Mercader
+trp_castle_46_merchant|Mercader
+trp_castle_47_merchant|Mercader
+trp_castle_48_merchant|Mercader
+trp_castle_49_merchant|Mercader
+trp_castle_50_merchant|Mercader
+trp_castle_51_merchant|Mercader
+trp_castle_52_merchant|Mercader
+trp_castle_53_merchant|Mercader
+trp_castle_54_merchant|Mercader
+trp_castle_55_merchant|Mercader
+trp_castle_56_merchant|Mercader
+trp_castle_57_merchant|Mercader
+trp_castle_58_merchant|Mercader
+trp_castle_59_merchant|Mercader
+trp_castle_60_merchant|Mercader
+trp_castle_61_merchant|Mercader
+trp_castle_62_merchant|Mercader
+trp_castle_63_merchant|Mercader
+trp_castle_64_merchant|Mercader
+trp_castle_65_merchant|Mercader
+trp_castle_66_merchant|Mercader
+trp_castle_67_merchant|Mercader
+trp_castle_68_merchant|Mercader
+trp_castle_69_merchant|Mercader
+trp_castle_70_merchant|Mercader
+trp_castle_71_merchant|Mercader
+trp_castle_72_merchant|Mercader
+trp_castle_73_merchant|Mercader
+trp_castle_74_merchant|Mercader
+trp_castle_75_merchant|Mercader
+trp_castle_76_merchant|Mercader
+trp_castle_77_merchant|Mercader
+trp_castle_78_merchant|Mercader
+trp_castle_79_merchant|Mercader
+trp_castle_80_merchant|Mercader
+trp_castle_81_merchant|Mercader
+trp_castle_82_merchant|Mercader
+trp_castle_83_merchant|Mercader
+trp_castle_84_merchant|Mercader
+trp_castle_85_merchant|Mercader
+trp_castle_86_merchant|Mercader
+trp_castle_87_merchant|Mercader
+trp_castle_88_merchant|Mercader
+trp_castle_89_merchant|Mercader
+trp_castle_90_merchant|Mercader
+trp_castle_91_merchant|Mercader
+trp_castle_92_merchant|Mercader
+trp_castle_93_merchant|Mercader
+trp_castle_94_merchant|Mercader
+trp_castle_95_merchant|Mercader
+trp_castle_96_merchant|Mercader
+trp_castle_97_merchant|Mercader
+trp_castle_98_merchant|Mercader
+trp_castle_99_merchant|Mercader
+trp_castle_100_merchant|Mercader
+trp_castle_101_merchant|Mercader
+trp_castle_102_merchant|Mercader
+trp_castle_103_merchant|Mercader
+trp_castle_104_merchant|Mercader
+trp_castle_105_merchant|Mercader
+trp_castle_106_merchant|Mercader
+trp_castle_107_merchant|Mercader
+trp_castle_108_merchant|Mercader
+trp_castle_109_merchant|Mercader
+trp_castle_110_merchant|Mercader
+trp_castle_111_merchant|Mercader
+trp_castle_112_merchant|Mercader
+trp_castle_113_merchant|Mercader
+trp_castle_114_merchant|Mercader
+trp_castle_115_merchant|Mercader
+trp_castle_116_merchant|Mercader
+trp_castle_117_merchant|Mercader
+trp_castle_118_merchant|Mercader
+trp_castle_119_merchant|Mercader
+trp_castle_120_merchant|Mercader
+trp_castle_121_merchant|Mercader
+trp_castle_122_merchant|Mercader
+trp_castle_123_merchant|Mercader
+trp_castle_124_merchant|Mercader
+trp_castle_125_merchant|Mercader
+trp_castle_126_merchant|Mercader
+trp_castle_127_merchant|Mercader
+trp_castle_128_merchant|Mercader
+trp_castle_129_merchant|Mercader
+trp_castle_130_merchant|Mercader
+trp_castle_131_merchant|Mercader
+trp_castle_132_merchant|Mercader
+trp_castle_133_merchant|Mercader
+trp_castle_134_merchant|Mercader
+trp_castle_135_merchant|Mercader
 trp_salt_mine_merchant|Barezan
 trp_salt_mine_merchant_pl|Barezan
 trp_town_1_horse_merchant|Mercader de caballos
@@ -3671,186 +3670,186 @@ trp_town_19_horse_merchant|Mercader de caballos
 trp_town_20_horse_merchant|Mercader de caballos
 trp_town_21_horse_merchant|Mercader de caballos
 trp_town_22_horse_merchant|Mercader de caballos
-trp_town_23_horse_merchant|Horse Merchant Gastone
-trp_town_24_horse_merchant|Horse Merchant Raafi
-trp_town_25_horse_merchant|Horse Merchant Yunis
-trp_town_26_horse_merchant|Horse Merchant Yahsi
-trp_town_27_horse_merchant|Horse Merchant Jacinto
-trp_town_28_horse_merchant|Horse Merchant Alexandru
-trp_town_29_horse_merchant|Horse Merchant Gerardo
-trp_town_30_horse_merchant|Horse Merchant Jacobo
-trp_town_31_horse_merchant|Horse Merchant Mathias
-trp_town_32_horse_merchant|Horse Merchant Axel
-trp_town_33_horse_merchant|Horse Merchant Ghaalib
-trp_town_34horse_merchant|Horse Merchant Boros
-trp_town_35_horse_merchant|Horse Merchant Tomas
-trp_town_36_horse_merchant|Horse Merchant Muhaajir
-trp_town_37_horse_merchant|Horse Merchant Sarnychev
-trp_town_38_horse_merchant|Horse Merchant Hadi
-trp_town_39_horse_merchant|Horse Merchant Torkild
-trp_town_40_horse_merchant|Horse Merchant Norberto
-trp_town_41_horse_merchant|Horse Merchant Archer
-trp_town_42_horse_merchant|Horse Merchant Tawwab
-trp_town_43_horse_merchant|Horse Merchant Trifonas
-trp_town_44_horse_merchant|Horse Merchant Boyko
-trp_town_45_horse_merchant|Horse Merchant Willy
-trp_town_46_horse_merchant|Horse Merchant Heiner
-trp_town_47_horse_merchant|Horse Merchant Jonathan
-trp_town_48_horse_merchant|Horse Merchant Elliot
-trp_town_49_horse_merchant|Horse Merchant Alfred
-trp_town_50_horse_merchant|Horse Merchant Arnout
-trp_town_51_horse_merchant|Horse Merchant Kaspar
-trp_town_52_horse_merchant|Horse Merchant Bilge
-trp_town_53_horse_merchant|Horse Merchant Tekoz
-trp_town_54_horse_merchant|Horse Merchant Kuzey
-trp_town_55_horse_merchant|Horse Merchant Akser
-trp_town_56_horse_merchant|Horse Merchant Nihat
-trp_town_57_horse_merchant|Horse Merchant Mundhir
-trp_town_58_horse_merchant|Horse Merchant Mahuroos
-trp_town_59_horse_merchant|Horse Merchant Birtan
-trp_town_60_horse_merchant|Horse Merchant Manas
-trp_town_61_horse_merchant|Horse Merchant Parshad
-trp_town_62_horse_merchant|Horse Merchant Boris
-trp_town_63_horse_merchant|Horse Merchant Trokhym
-trp_town_64_horse_merchant|Horse Merchant Janusz
-trp_town_65_horse_merchant|Horse Merchant Argots
-trp_town_66_horse_merchant|Horse Merchant Lev
-trp_town_67_horse_merchant|Horse Merchant Timur
-trp_castle_1_horse_merchant|Horse Merchant
-trp_castle_2_horse_merchant|Horse Merchant
-trp_castle_3_horse_merchant|Horse Merchant
-trp_castle_4_horse_merchant|Horse Merchant
-trp_castle_5_horse_merchant|Horse Merchant
-trp_castle_6_horse_merchant|Horse Merchant
-trp_castle_7_horse_merchant|Horse Merchant
-trp_castle_8_horse_merchant|Horse Merchant
-trp_castle_9_horse_merchant|Horse Merchant
-trp_castle_10_horse_merchant|Horse Merchant
-trp_castle_11_horse_merchant|Horse Merchant
-trp_castle_12_horse_merchant|Horse Merchant
-trp_castle_13_horse_merchant|Horse Merchant
-trp_castle_14_horse_merchant|Horse Merchant
-trp_castle_15_horse_merchant|Horse Merchant
-trp_castle_16_horse_merchant|Horse Merchant
-trp_castle_17_horse_merchant|Horse Merchant
-trp_castle_18_horse_merchant|Horse Merchant
-trp_castle_19_horse_merchant|Horse Merchant
-trp_castle_20_horse_merchant|Horse Merchant
-trp_castle_21_horse_merchant|Horse Merchant
-trp_castle_22_horse_merchant|Horse Merchant
-trp_castle_23_horse_merchant|Horse Merchant
-trp_castle_24_horse_merchant|Horse Merchant
-trp_castle_25_horse_merchant|Horse Merchant
-trp_castle_26_horse_merchant|Horse Merchant
-trp_castle_27_horse_merchant|Horse Merchant
-trp_castle_28_horse_merchant|Horse Merchant
-trp_castle_29_horse_merchant|Horse Merchant
-trp_castle_30_horse_merchant|Horse Merchant
-trp_castle_31_horse_merchant|Horse Merchant
-trp_castle_32_horse_merchant|Horse Merchant
-trp_castle_33_horse_merchant|Horse Merchant
-trp_castle_34_horse_merchant|Horse Merchant
-trp_castle_35_horse_merchant|Horse Merchant
-trp_castle_36_horse_merchant|Horse Merchant
-trp_castle_37_horse_merchant|Horse Merchant
-trp_castle_38_horse_merchant|Horse Merchant
-trp_castle_39_horse_merchant|Horse Merchant
-trp_castle_40_horse_merchant|Horse Merchant
-trp_castle_41_horse_merchant|Horse Merchant
-trp_castle_42_horse_merchant|Horse Merchant
-trp_castle_43_horse_merchant|Horse Merchant
-trp_castle_44_horse_merchant|Horse Merchant
-trp_castle_45_horse_merchant|Horse Merchant
-trp_castle_46_horse_merchant|Horse Merchant
-trp_castle_47_horse_merchant|Horse Merchant
-trp_castle_48_horse_merchant|Horse Merchant
-trp_castle_49_horse_merchant|Horse Merchant
-trp_castle_50_horse_merchant|Horse Merchant
-trp_castle_51_horse_merchant|Horse Merchant
-trp_castle_52_horse_merchant|Horse Merchant
-trp_castle_53_horse_merchant|Horse Merchant
-trp_castle_54_horse_merchant|Horse Merchant
-trp_castle_55_horse_merchant|Horse Merchant
-trp_castle_56_horse_merchant|Horse Merchant
-trp_castle_57_horse_merchant|Horse Merchant
-trp_castle_58_horse_merchant|Horse Merchant
-trp_castle_59_horse_merchant|Horse Merchant
-trp_castle_60_horse_merchant|Horse Merchant
-trp_castle_61_horse_merchant|Horse Merchant
-trp_castle_62_horse_merchant|Horse Merchant
-trp_castle_63_horse_merchant|Horse Merchant
-trp_castle_64_horse_merchant|Horse Merchant
-trp_castle_65_horse_merchant|Horse Merchant
-trp_castle_66_horse_merchant|Horse Merchant
-trp_castle_67_horse_merchant|Horse Merchant
-trp_castle_68_horse_merchant|Horse Merchant
-trp_castle_69_horse_merchant|Horse Merchant
-trp_castle_70_horse_merchant|Horse Merchant
-trp_castle_71_horse_merchant|Horse Merchant
-trp_castle_72_horse_merchant|Horse Merchant
-trp_castle_73_horse_merchant|Horse Merchant
-trp_castle_74_horse_merchant|Horse Merchant
-trp_castle_75_horse_merchant|Horse Merchant
-trp_castle_76_horse_merchant|Horse Merchant
-trp_castle_77_horse_merchant|Horse Merchant
-trp_castle_78_horse_merchant|Horse Merchant
-trp_castle_79_horse_merchant|Horse Merchant
-trp_castle_80_horse_merchant|Horse Merchant
-trp_castle_81_horse_merchant|Horse Merchant
-trp_castle_82_horse_merchant|Horse Merchant
-trp_castle_83_horse_merchant|Horse Merchant
-trp_castle_84_horse_merchant|Horse Merchant
-trp_castle_85_horse_merchant|Horse Merchant
-trp_castle_86_horse_merchant|Horse Merchant
-trp_castle_87_horse_merchant|Horse Merchant
-trp_castle_88_horse_merchant|Horse Merchant
-trp_castle_89_horse_merchant|Horse Merchant
-trp_castle_90_horse_merchant|Horse Merchant
-trp_castle_91_horse_merchant|Horse Merchant
-trp_castle_92_horse_merchant|Horse Merchant
-trp_castle_93_horse_merchant|Horse Merchant
-trp_castle_94_horse_merchant|Horse Merchant
-trp_castle_95_horse_merchant|Horse Merchant
-trp_castle_96_horse_merchant|Horse Merchant
-trp_castle_97_horse_merchant|Horse Merchant
-trp_castle_98_horse_merchant|Horse Merchant
-trp_castle_99_horse_merchant|Horse Merchant
-trp_castle_100_horse_merchant|Horse Merchant
-trp_castle_101_horse_merchant|Horse Merchant
-trp_castle_102_horse_merchant|Horse Merchant
-trp_castle_103_horse_merchant|Horse Merchant
-trp_castle_104_horse_merchant|Horse Merchant
-trp_castle_105_horse_merchant|Horse Merchant
-trp_castle_106_horse_merchant|Horse Merchant
-trp_castle_107_horse_merchant|Horse Merchant
-trp_castle_108_horse_merchant|Horse Merchant
-trp_castle_109_horse_merchant|Horse Merchant
-trp_castle_110_horse_merchant|Horse Merchant
-trp_castle_111_horse_merchant|Horse Merchant
-trp_castle_112_horse_merchant|Horse Merchant
-trp_castle_113_horse_merchant|Horse Merchant
-trp_castle_114_horse_merchant|Horse Merchant
-trp_castle_115_horse_merchant|Horse Merchant
-trp_castle_116_horse_merchant|Horse Merchant
-trp_castle_117_horse_merchant|Horse Merchant
-trp_castle_118_horse_merchant|Horse Merchant
-trp_castle_119_horse_merchant|Horse Merchant
-trp_castle_120_horse_merchant|Horse Merchant
-trp_castle_121_horse_merchant|Horse Merchant
-trp_castle_122_horse_merchant|Horse Merchant
-trp_castle_123_horse_merchant|Horse Merchant
-trp_castle_124_horse_merchant|Horse Merchant
-trp_castle_125_horse_merchant|Horse Merchant
-trp_castle_126_horse_merchant|Horse Merchant
-trp_castle_127_horse_merchant|Horse Merchant
-trp_castle_128_horse_merchant|Horse Merchant
-trp_castle_129_horse_merchant|Horse Merchant
-trp_castle_130_horse_merchant|Horse Merchant
-trp_castle_131_horse_merchant|Horse Merchant
-trp_castle_132_horse_merchant|Horse Merchant
-trp_castle_133_horse_merchant|Horse Merchant
-trp_castle_134_horse_merchant|Horse Merchant
-trp_castle_135_horse_merchant|Horse Merchant
+trp_town_23_horse_merchant|Gastone Mercader de caballos
+trp_town_24_horse_merchant|Raafi Mercader de caballos
+trp_town_25_horse_merchant|Yunis Mercader de caballos
+trp_town_26_horse_merchant|Yahsi Mercader de caballos
+trp_town_27_horse_merchant|Jacinto Mercader de caballos
+trp_town_28_horse_merchant|Alexandru Mercader de caballos
+trp_town_29_horse_merchant|Gerardo Mercader de caballos
+trp_town_30_horse_merchant|Jacobo Mercader de caballos
+trp_town_31_horse_merchant|Mathias Mercader de caballos
+trp_town_32_horse_merchant|Axel Mercader de caballos
+trp_town_33_horse_merchant|Ghaalib Mercader de caballos
+trp_town_34_horse_merchant|Boros Mercader de caballos
+trp_town_35_horse_merchant|Tomas Mercader de caballos
+trp_town_36_horse_merchant|Muhaajir Mercader de caballos
+trp_town_37_horse_merchant|Sarnychev Mercader de caballos
+trp_town_38_horse_merchant|Hadi Mercader de caballos
+trp_town_39_horse_merchant|Torkild Mercader de caballos 
+trp_town_40_horse_merchant|Norberto Mercader de caballos
+trp_town_41_horse_merchant|Archer Mercader de caballos
+trp_town_42_horse_merchant|Tawwab Mercader de caballos
+trp_town_43_horse_merchant|Trifonas Mercader de caballos
+trp_town_44_horse_merchant|Boyko Mercader de caballos
+trp_town_45_horse_merchant|Willy Mercader de caballos
+trp_town_46_horse_merchant|Heiner Mercader de caballos
+trp_town_47_horse_merchant|Jonathan Mercader de caballos
+trp_town_48_horse_merchant|Elliot Mercader de caballos
+trp_town_49_horse_merchant|Alfred Mercader de caballos
+trp_town_50_horse_merchant|Arnout Mercader de caballos
+trp_town_51_horse_merchant|Kaspar Mercader de caballos
+trp_town_52_horse_merchant|Bilge Mercader de caballos
+trp_town_53_horse_merchant|Tekoz Mercader de caballos 
+trp_town_54_horse_merchant|Kuzey Mercader de caballos
+trp_town_55_horse_merchant|Akser Mercader de caballos
+trp_town_56_horse_merchant|Nihat Mercader de caballos
+trp_town_57_horse_merchant|Mundhir Mercader de caballos
+trp_town_58_horse_merchant|Mahuroos Mercader de caballos
+trp_town_59_horse_merchant|Birtan Mercader de caballos
+trp_town_60_horse_merchant|Manas Mercader de caballos
+trp_town_61_horse_merchant|Parshad Mercader de caballos
+trp_town_62_horse_merchant|Boris Mercader de caballos
+trp_town_63_horse_merchant|Trokhym Mercader de caballos
+trp_town_64_horse_merchant|Janusz Mercader de caballos
+trp_town_65_horse_merchant|Argots Mercader de caballos 
+trp_town_66_horse_merchant|Lev Mercader de caballos
+trp_town_67_horse_merchant|Timur Mercader de caballos
+trp_castle_1_horse_merchant|Mercader de caballos
+trp_castle_2_horse_merchant|Mercader de caballos
+trp_castle_3_horse_merchant|Mercader de caballos
+trp_castle_4_horse_merchant|Mercader de caballos
+trp_castle_5_horse_merchant|Mercader de caballos
+trp_castle_6_horse_merchant|Mercader de caballos
+trp_castle_7_horse_merchant|Mercader de caballos
+trp_castle_8_horse_merchant|Mercader de caballos
+trp_castle_9_horse_merchant|Mercader de caballos
+trp_castle_10_horse_merchant|Mercader de caballos
+trp_castle_11_horse_merchant|Mercader de caballos
+trp_castle_12_horse_merchant|Mercader de caballos
+trp_castle_13_horse_merchant|Mercader de caballos
+trp_castle_14_horse_merchant|Mercader de caballos
+trp_castle_15_horse_merchant|Mercader de caballos
+trp_castle_16_horse_merchant|Mercader de caballos
+trp_castle_17_horse_merchant|Mercader de caballos
+trp_castle_18_horse_merchant|Mercader de caballos
+trp_castle_19_horse_merchant|Mercader de caballos
+trp_castle_20_horse_merchant|Mercader de caballos
+trp_castle_21_horse_merchant|Mercader de caballos
+trp_castle_22_horse_merchant|Mercader de caballos
+trp_castle_23_horse_merchant|Mercader de caballos
+trp_castle_24_horse_merchant|Mercader de caballos
+trp_castle_25_horse_merchant|Mercader de caballos
+trp_castle_26_horse_merchant|Mercader de caballos
+trp_castle_27_horse_merchant|Mercader de caballos
+trp_castle_28_horse_merchant|Mercader de caballos
+trp_castle_29_horse_merchant|Mercader de caballos
+trp_castle_30_horse_merchant|Mercader de caballos
+trp_castle_31_horse_merchant|Mercader de caballos
+trp_castle_32_horse_merchant|Mercader de caballos
+trp_castle_33_horse_merchant|Mercader de caballos
+trp_castle_34_horse_merchant|Mercader de caballos
+trp_castle_35_horse_merchant|Mercader de caballos
+trp_castle_36_horse_merchant|Mercader de caballos
+trp_castle_37_horse_merchant|Mercader de caballos
+trp_castle_38_horse_merchant|Mercader de caballos
+trp_castle_39_horse_merchant|Mercader de caballos
+trp_castle_40_horse_merchant|Mercader de caballos
+trp_castle_41_horse_merchant|Mercader de caballos
+trp_castle_42_horse_merchant|Mercader de caballos
+trp_castle_43_horse_merchant|Mercader de caballos
+trp_castle_44_horse_merchant|Mercader de caballos
+trp_castle_45_horse_merchant|Mercader de caballos
+trp_castle_46_horse_merchant|Mercader de caballos
+trp_castle_47_horse_merchant|Mercader de caballos
+trp_castle_48_horse_merchant|Mercader de caballos
+trp_castle_49_horse_merchant|Mercader de caballos
+trp_castle_50_horse_merchant|Mercader de caballos
+trp_castle_51_horse_merchant|Mercader de caballos
+trp_castle_52_horse_merchant|Mercader de caballos
+trp_castle_53_horse_merchant|Mercader de caballos
+trp_castle_54_horse_merchant|Mercader de caballos
+trp_castle_55_horse_merchant|Mercader de caballos
+trp_castle_56_horse_merchant|Mercader de caballos
+trp_castle_57_horse_merchant|Mercader de caballos
+trp_castle_58_horse_merchant|Mercader de caballos
+trp_castle_59_horse_merchant|Mercader de caballos
+trp_castle_60_horse_merchant|Mercader de caballos
+trp_castle_61_horse_merchant|Mercader de caballos
+trp_castle_62_horse_merchant|Mercader de caballos
+trp_castle_63_horse_merchant|Mercader de caballos
+trp_castle_64_horse_merchant|Mercader de caballos
+trp_castle_65_horse_merchant|Mercader de caballos
+trp_castle_66_horse_merchant|Mercader de caballos
+trp_castle_67_horse_merchant|Mercader de caballos
+trp_castle_68_horse_merchant|Mercader de caballos
+trp_castle_69_horse_merchant|Mercader de caballos
+trp_castle_70_horse_merchant|Mercader de caballos
+trp_castle_71_horse_merchant|Mercader de caballos
+trp_castle_72_horse_merchant|Mercader de caballos
+trp_castle_73_horse_merchant|Mercader de caballos
+trp_castle_74_horse_merchant|Mercader de caballos
+trp_castle_75_horse_merchant|Mercader de caballos
+trp_castle_76_horse_merchant|Mercader de caballos
+trp_castle_77_horse_merchant|Mercader de caballos
+trp_castle_78_horse_merchant|Mercader de caballos
+trp_castle_79_horse_merchant|Mercader de caballos
+trp_castle_80_horse_merchant|Mercader de caballos
+trp_castle_81_horse_merchant|Mercader de caballos
+trp_castle_82_horse_merchant|Mercader de caballos
+trp_castle_83_horse_merchant|Mercader de caballos
+trp_castle_84_horse_merchant|Mercader de caballos
+trp_castle_85_horse_merchant|Mercader de caballos
+trp_castle_86_horse_merchant|Mercader de caballos
+trp_castle_87_horse_merchant|Mercader de caballos
+trp_castle_88_horse_merchant|Mercader de caballos
+trp_castle_89_horse_merchant|Mercader de caballos
+trp_castle_90_horse_merchant|Mercader de caballos
+trp_castle_91_horse_merchant|Mercader de caballos
+trp_castle_92_horse_merchant|Mercader de caballos
+trp_castle_93_horse_merchant|Mercader de caballos
+trp_castle_94_horse_merchant|Mercader de caballos
+trp_castle_95_horse_merchant|Mercader de caballos
+trp_castle_96_horse_merchant|Mercader de caballos
+trp_castle_97_horse_merchant|Mercader de caballos
+trp_castle_98_horse_merchant|Mercader de caballos
+trp_castle_99_horse_merchant|Mercader de caballos
+trp_castle_100_horse_merchant|Mercader de caballos
+trp_castle_101_horse_merchant|Mercader de caballos
+trp_castle_102_horse_merchant|Mercader de caballos
+trp_castle_103_horse_merchant|Mercader de caballos
+trp_castle_104_horse_merchant|Mercader de caballos
+trp_castle_105_horse_merchant|Mercader de caballos
+trp_castle_106_horse_merchant|Mercader de caballos
+trp_castle_107_horse_merchant|Mercader de caballos
+trp_castle_108_horse_merchant|Mercader de caballos
+trp_castle_109_horse_merchant|Mercader de caballos
+trp_castle_110_horse_merchant|Mercader de caballos
+trp_castle_111_horse_merchant|Mercader de caballos
+trp_castle_112_horse_merchant|Mercader de caballos
+trp_castle_113_horse_merchant|Mercader de caballos
+trp_castle_114_horse_merchant|Mercader de caballos
+trp_castle_115_horse_merchant|Mercader de caballos
+trp_castle_116_horse_merchant|Mercader de caballos
+trp_castle_117_horse_merchant|Mercader de caballos
+trp_castle_118_horse_merchant|Mercader de caballos
+trp_castle_119_horse_merchant|Mercader de caballos
+trp_castle_120_horse_merchant|Mercader de caballos
+trp_castle_121_horse_merchant|Mercader de caballos
+trp_castle_122_horse_merchant|Mercader de caballos
+trp_castle_123_horse_merchant|Mercader de caballos
+trp_castle_124_horse_merchant|Mercader de caballos
+trp_castle_125_horse_merchant|Mercader de caballos
+trp_castle_126_horse_merchant|Mercader de caballos
+trp_castle_127_horse_merchant|Mercader de caballos
+trp_castle_128_horse_merchant|Mercader de caballos
+trp_castle_129_horse_merchant|Mercader de caballos
+trp_castle_130_horse_merchant|Mercader de caballos
+trp_castle_131_horse_merchant|Mercader de caballos
+trp_castle_132_horse_merchant|Mercader de caballos
+trp_castle_133_horse_merchant|Mercader de caballos
+trp_castle_134_horse_merchant|Mercader de caballos
+trp_castle_135_horse_merchant|Mercader de caballos
 trp_town_1_mayor|Maestro de la cofradía
 trp_town_2_mayor|Maestro de la cofradía
 trp_town_3_mayor|Maestro de la cofradía
@@ -3873,51 +3872,51 @@ trp_town_19_mayor|Maestro de la cofradía
 trp_town_20_mayor|Maestro de la cofradía
 trp_town_21_mayor|Maestro de la cofradía
 trp_town_22_mayor|Maestro de la cofradía
-trp_town_23_mayor|Mayor Alviero
-trp_town_24_mayor|Mayor Humaid
-trp_town_25_mayor|Mayor Qodir
-trp_town_26_mayor|Mayor Muhyddeen
-trp_town_27_mayor|Mayor Nicodemo
-trp_town_28_mayor|Mayor Iulian
-trp_town_29_mayor|Mayor Martin
-trp_town_30_mayor|Mayor Raul
-trp_town_31_mayor|Mayor Adrien
-trp_town_32_mayor|Mayor Tilmann
-trp_town_33_mayor|Mayor Shuaib
-trp_town_34_mayor|Mayor Farkas
-trp_town_35_mayor|Mayor Jonathan
-trp_town_36_mayor|Mayor Sahl
-trp_town_37_mayor|Mayor Barndyk
-trp_town_38_mayor|Mayor Mahdi Gholi
-trp_town_39_mayor|Mayor Rolf
-trp_town_40_mayor|Mayor Socrate
-trp_town_41_mayor|Mayor Finley
-trp_town_42_mayor|Mayor Ihaab
-trp_town_43_mayor|Mayor Konstantinos
-trp_town_44_mayor|Mayor Zhelyasko
-trp_town_45_mayor|Mayor Leopold
-trp_town_46_mayor|Mayor Axel
-trp_town_47_mayor|Mayor Edgar
-trp_town_48_mayor|Mayor Joacim
-trp_town_49_mayor|Mayor Vernik
-trp_town_50_mayor|Mayor Huibert
-trp_town_51_mayor|Mayor Marwin
-trp_town_52_mayor|Mayor Sabahattin
-trp_town_53_mayor|Mayor Arer
-trp_town_54_mayor|Mayor Hami
-trp_town_55_mayor|Mayor Ilaldi
-trp_town_56_mayor|Mayor Sarihan
-trp_town_57_mayor|Mayor Nawf
-trp_town_58_mayor|Mayor Tayyib
-trp_town_59_mayor|Mayor Sertug
-trp_town_60_mayor|Mayor Rura
-trp_town_61_mayor|Mayor Miad
-trp_town_62_mayor|Mayor Valerian
-trp_town_63_mayor|Mayor Stanislav
-trp_town_64_mayor|Mayor Zenobiusz
-trp_town_65_mayor|Mayor Maksis
-trp_town_66_mayor|Mayor Valentin
-trp_town_67_mayor|Mayor Polikarp
+trp_town_23_mayor|Alcalde Alviero
+trp_town_24_mayor|Alcalde Humaid
+trp_town_25_mayor|Alcalde Qodir
+trp_town_26_mayor|Alcalde Muhyddeen
+trp_town_27_mayor|Alcalde Nicodemo
+trp_town_28_mayor|Alcalde Iulian
+trp_town_29_mayor|Alcalde Martin
+trp_town_30_mayor|Alcalde Raul
+trp_town_31_mayor|Alcalde Adrien
+trp_town_32_mayor|Alcalde Tilmann
+trp_town_33_mayor|Alcalde Shuaib
+trp_town_34_mayor|Alcalde Farkas
+trp_town_35_mayor|Alcalde Jonathan
+trp_town_36_mayor|Alcalde Sahl
+trp_town_37_mayor|Alcalde Barndyk
+trp_town_38_mayor|Alcalde Mahdi Gholi
+trp_town_39_mayor|Alcalde Rolf
+trp_town_40_mayor|Alcalde Socrate
+trp_town_41_mayor|Alcalde Finley
+trp_town_42_mayor|Alcalde Ihaab
+trp_town_43_mayor|Alcalde Konstantinos
+trp_town_44_mayor|Alcalde Zhelyasko
+trp_town_45_mayor|Alcalde Leopold
+trp_town_46_mayor|Alcalde Axel
+trp_town_47_mayor|Alcalde Edgar
+trp_town_48_mayor|Alcalde Joacim
+trp_town_49_mayor|Alcalde Vernik
+trp_town_50_mayor|Alcalde Huibert
+trp_town_51_mayor|Alcalde Marwin
+trp_town_52_mayor|Alcalde Sabahattin
+trp_town_53_mayor|Alcalde Arer
+trp_town_54_mayor|Alcalde Hami
+trp_town_55_mayor|Alcalde Ilaldi
+trp_town_56_mayor|Alcalde Sarihan
+trp_town_57_mayor|Alcalde Nawf
+trp_town_58_mayor|Alcalde Tayyib
+trp_town_59_mayor|Alcalde Sertug
+trp_town_60_mayor|Alcalde Rura
+trp_town_61_mayor|Alcalde Miad
+trp_town_62_mayor|Alcalde Valerian
+trp_town_63_mayor|Alcalde Stanislav
+trp_town_64_mayor|Alcalde Zenobiusz
+trp_town_65_mayor|Alcalde Maksis
+trp_town_66_mayor|Alcalde Valentin
+trp_town_67_mayor|Alcalde Polikarp
 trp_village_1_elder|Anciano de la aldea
 trp_village_2_elder|Anciano de la aldea
 trp_village_3_elder|Anciano de la aldea
@@ -4028,573 +4027,573 @@ trp_village_107_elder|Anciano de la aldea
 trp_village_108_elder|Anciano de la aldea
 trp_village_109_elder|Anciano de la aldea
 trp_village_110_elder|Anciano de la aldea
-trp_village_111_elder|Village Elder
-trp_village_112_elder|Village Elder
-trp_village_113_elder|Village Elder
-trp_village_114_elder|Village Elder
-trp_village_115_elder|Village Elder
-trp_village_116_elder|Village Elder
-trp_village_117_elder|Village Elder
-trp_village_118_elder|Village Elder
-trp_village_119_elder|Village Elder
-trp_village_120_elder|Village Elder
-trp_village_121_elder|Village Elder
-trp_village_122_elder|Village Elder
-trp_village_123_elder|Village Elder
-trp_village_124_elder|Village Elder
-trp_village_125_elder|Village Elder
-trp_village_126_elder|Village Elder
-trp_village_127_elder|Village Elder
-trp_village_128_elder|Village Elder
-trp_village_129_elder|Village Elder
-trp_village_130_elder|Village Elder
-trp_village_131_elder|Village Elder
-trp_village_132_elder|Village Elder
-trp_village_133_elder|Village Elder
-trp_village_134_elder|Village Elder
-trp_village_135_elder|Village Elder
-trp_village_136_elder|Village Elder
-trp_village_137_elder|Village Elder
-trp_village_138_elder|Village Elder
-trp_village_139_elder|Village Elder
-trp_village_140_elder|Village Elder
-trp_village_141_elder|Village Elder
-trp_village_142_elder|Village Elder
-trp_village_143_elder|Village Elder
-trp_village_144_elder|Village Elder
-trp_village_145_elder|Village Elder
-trp_village_146_elder|Village Elder
-trp_village_147_elder|Village Elder
-trp_village_148_elder|Village Elder
-trp_village_149_elder|Village Elder
-trp_village_150_elder|Village Elder
-trp_village_151_elder|Village Elder
-trp_village_152_elder|Village Elder
-trp_village_153_elder|Village Elder
-trp_village_154_elder|Village Elder
-trp_village_155_elder|Village Elder
-trp_village_156_elder|Village Elder
-trp_village_157_elder|Village Elder
-trp_village_158_elder|Village Elder
-trp_village_159_elder|Village Elder
-trp_village_160_elder|Village Elder
-trp_village_161_elder|Village Elder
-trp_village_162_elder|Village Elder
-trp_village_163_elder|Village Elder
-trp_village_164_elder|Village Elder
-trp_village_165_elder|Village Elder
-trp_village_166_elder|Village Elder
-trp_village_167_elder|Village Elder
-trp_village_168_elder|Village Elder
-trp_village_169_elder|Village Elder
-trp_village_170_elder|Village Elder
-trp_village_171_elder|Village Elder
-trp_village_172_elder|Village Elder
-trp_village_173_elder|Village Elder
-trp_village_174_elder|Village Elder
-trp_village_175_elder|Village Elder
-trp_village_176_elder|Village Elder
-trp_village_177_elder|Village Elder
-trp_village_178_elder|Village Elder
-trp_village_179_elder|Village Elder
-trp_village_180_elder|Village Elder
-trp_village_181_elder|Village Elder
-trp_village_182_elder|Village Elder
-trp_village_183_elder|Village Elder
-trp_village_184_elder|Village Elder
-trp_village_185_elder|Village Elder
-trp_village_186_elder|Village Elder
-trp_village_187_elder|Village Elder
-trp_village_188_elder|Village Elder
-trp_village_189_elder|Village Elder
-trp_village_190_elder|Village Elder
-trp_village_191_elder|Village Elder
-trp_village_192_elder|Village Elder
-trp_village_193_elder|Village Elder
-trp_village_194_elder|Village Elder
-trp_village_195_elder|Village Elder
-trp_village_196_elder|Village Elder
-trp_village_197_elder|Village Elder
-trp_village_198_elder|Village Elder
-trp_village_199_elder|Village Elder
-trp_village_200_elder|Village Elder
-trp_village_201_elder|Village Elder
-trp_village_202_elder|Village Elder
-trp_village_203_elder|Village Elder
-trp_village_204_elder|Village Elder
-trp_village_205_elder|Village Elder
-trp_village_206_elder|Village Elder
-trp_village_207_elder|Village Elder
-trp_village_208_elder|Village Elder
-trp_village_209_elder|Village Elder
-trp_village_210_elder|Village Elder
-trp_village_211_elder|Village Elder
-trp_village_212_elder|Village Elder
-trp_village_213_elder|Village Elder
-trp_village_214_elder|Village Elder
-trp_village_215_elder|Village Elder
-trp_village_216_elder|Village Elder
-trp_village_217_elder|Village Elder
-trp_village_218_elder|Village Elder
-trp_village_219_elder|Village Elder
-trp_village_220_elder|Village Elder
-trp_village_221_elder|Village Elder
-trp_village_222_elder|Village Elder
-trp_village_223_elder|Village Elder
-trp_village_224_elder|Village Elder
-trp_village_225_elder|Village Elder
-trp_village_226_elder|Village Elder
-trp_village_227_elder|Village Elder
-trp_village_228_elder|Village Elder
-trp_village_229_elder|Village Elder
-trp_village_230_elder|Village Elder
-trp_village_231_elder|Village Elder
-trp_village_232_elder|Village Elder
-trp_village_233_elder|Village Elder
-trp_village_234_elder|Village Elder
-trp_village_235_elder|Village Elder
-trp_village_236_elder|Village Elder
-trp_village_237_elder|Village Elder
-trp_village_238_elder|Village Elder
-trp_village_239_elder|Village Elder
-trp_village_240_elder|Village Elder
-trp_village_241_elder|Village Elder
-trp_village_242_elder|Village Elder
-trp_village_243_elder|Village Elder
-trp_village_244_elder|Village Elder
-trp_village_245_elder|Village Elder
-trp_village_246_elder|Village Elder
-trp_village_247_elder|Village Elder
-trp_village_248_elder|Village Elder
-trp_village_249_elder|Village Elder
-trp_village_250_elder|Village Elder
-trp_village_251_elder|Village Elder
-trp_village_252_elder|Village Elder
-trp_village_253_elder|Village Elder
-trp_village_254_elder|Village Elder
-trp_village_255_elder|Village Elder
-trp_village_256_elder|Village Elder
-trp_village_257_elder|Village Elder
-trp_village_258_elder|Village Elder
-trp_village_259_elder|Village Elder
-trp_village_260_elder|Village Elder
-trp_village_261_elder|Village Elder
-trp_village_262_elder|Village Elder
-trp_village_263_elder|Village Elder
-trp_village_264_elder|Village Elder
-trp_village_265_elder|Village Elder
-trp_village_266_elder|Village Elder
-trp_village_267_elder|Village Elder
-trp_village_268_elder|Village Elder
-trp_village_269_elder|Village Elder
-trp_village_270_elder|Village Elder
-trp_village_271_elder|Village Elder
-trp_village_272_elder|Village Elder
-trp_village_273_elder|Village Elder
-trp_village_274_elder|Village Elder
-trp_village_275_elder|Village Elder
-trp_village_276_elder|Village Elder
-trp_village_277_elder|Village Elder
-trp_village_278_elder|Village Elder
-trp_village_279_elder|Village Elder
-trp_village_280_elder|Village Elder
-trp_village_281_elder|Village Elder
-trp_village_282_elder|Village Elder
-trp_village_283_elder|Village Elder
-trp_village_284_elder|Village Elder
-trp_village_285_elder|Village Elder
-trp_village_286_elder|Village Elder
-trp_village_287_elder|Village Elder
-trp_village_288_elder|Village Elder
-trp_village_289_elder|Village Elder
-trp_village_290_elder|Village Elder
-trp_village_291_elder|Village Elder
-trp_village_292_elder|Village Elder
-trp_village_293_elder|Village Elder
-trp_village_294_elder|Village Elder
-trp_village_295_elder|Village Elder
-trp_village_296_elder|Village Elder
-trp_village_297_elder|Village Elder
-trp_village_298_elder|Village Elder
-trp_village_299_elder|Village Elder
-trp_village_300_elder|Village Elder
-trp_village_301_elder|Village Elder
-trp_village_302_elder|Village Elder
-trp_village_303_elder|Village Elder
-trp_village_304_elder|Village Elder
-trp_village_305_elder|Village Elder
-trp_village_306_elder|Village Elder
-trp_village_307_elder|Village Elder
-trp_village_308_elder|Village Elder
-trp_village_309_elder|Village Elder
-trp_village_310_elder|Village Elder
-trp_village_311_elder|Village Elder
-trp_village_312_elder|Village Elder
-trp_village_313_elder|Village Elder
-trp_village_314_elder|Village Elder
-trp_village_315_elder|Village Elder
-trp_village_316_elder|Village Elder
-trp_village_317_elder|Village Elder
-trp_village_318_elder|Village Elder
-trp_village_319_elder|Village Elder
-trp_village_320_elder|Village Elder
-trp_village_321_elder|Village Elder
-trp_village_322_elder|Village Elder
-trp_village_323_elder|Village Elder
-trp_village_324_elder|Village Elder
-trp_village_325_elder|Village Elder
-trp_village_326_elder|Village Elder
-trp_village_327_elder|Village Elder
-trp_village_328_elder|Village Elder
-trp_village_329_elder|Village Elder
-trp_village_330_elder|Village Elder
-trp_village_331_elder|Village Elder
-trp_village_332_elder|Village Elder
-trp_village_333_elder|Village Elder
-trp_village_334_elder|Village Elder
-trp_village_335_elder|Village Elder
-trp_village_336_elder|Village Elder
-trp_village_337_elder|Village Elder
-trp_village_338_elder|Village Elder
-trp_village_339_elder|Village Elder
-trp_village_340_elder|Village Elder
-trp_village_341_elder|Village Elder
-trp_village_342_elder|Village Elder
-trp_village_343_elder|Village Elder
-trp_village_344_elder|Village Elder
-trp_village_345_elder|Village Elder
-trp_village_346_elder|Village Elder
-trp_village_347_elder|Village Elder
-trp_village_348_elder|Village Elder
-trp_village_349_elder|Village Elder
-trp_village_350_elder|Village Elder
-trp_village_351_elder|Village Elder
-trp_village_352_elder|Village Elder
-trp_village_353_elder|Village Elder
-trp_village_354_elder|Village Elder
-trp_village_355_elder|Village Elder
-trp_village_356_elder|Village Elder
-trp_village_357_elder|Village Elder
-trp_village_358_elder|Village Elder
-trp_village_359_elder|Village Elder
-trp_village_360_elder|Village Elder
-trp_village_361_elder|Village Elder
-trp_village_362_elder|Village Elder
-trp_village_363_elder|Village Elder
-trp_village_364_elder|Village Elder
-trp_village_365_elder|Village Elder
-trp_village_366_elder|Village Elder
-trp_village_367_elder|Village Elder
-trp_village_368_elder|Village Elder
-trp_village_369_elder|Village Elder
-trp_village_370_elder|Village Elder
-trp_village_371_elder|Village Elder
-trp_village_372_elder|Village Elder
-trp_village_373_elder|Village Elder
-trp_village_374_elder|Village Elder
-trp_village_375_elder|Village Elder
-trp_village_376_elder|Village Elder
-trp_village_377_elder|Village Elder
-trp_village_378_elder|Village Elder
-trp_village_379_elder|Village Elder
-trp_village_380_elder|Village Elder
-trp_village_381_elder|Village Elder
-trp_village_382_elder|Village Elder
-trp_village_383_elder|Village Elder
-trp_village_384_elder|Village Elder
-trp_village_385_elder|Village Elder
-trp_village_386_elder|Village Elder
-trp_village_387_elder|Village Elder
-trp_village_388_elder|Village Elder
-trp_village_389_elder|Village Elder
-trp_village_390_elder|Village Elder
-trp_village_391_elder|Village Elder
-trp_village_392_elder|Village Elder
-trp_village_393_elder|Village Elder
-trp_village_394_elder|Village Elder
-trp_village_395_elder|Village Elder
-trp_village_396_elder|Village Elder
-trp_village_397_elder|Village Elder
-trp_village_398_elder|Village Elder
-trp_village_399_elder|Village Elder
-trp_village_400_elder|Village Elder
-trp_village_401_elder|Village Elder
-trp_village_402_elder|Village Elder
-trp_village_403_elder|Village Elder
-trp_village_404_elder|Village Elder
-trp_village_405_elder|Village Elder
-trp_village_406_elder|Village Elder
-trp_village_407_elder|Village Elder
-trp_village_408_elder|Village Elder
-trp_village_409_elder|Village Elder
-trp_village_410_elder|Village Elder
-trp_village_411_elder|Village Elder
-trp_village_412_elder|Village Elder
-trp_village_413_elder|Village Elder
-trp_village_414_elder|Village Elder
-trp_village_415_elder|Village Elder
-trp_village_416_elder|Village Elder
-trp_village_417_elder|Village Elder
-trp_village_418_elder|Village Elder
-trp_village_419_elder|Village Elder
-trp_village_420_elder|Village Elder
-trp_village_421_elder|Village Elder
-trp_village_422_elder|Village Elder
-trp_village_423_elder|Village Elder
-trp_village_424_elder|Village Elder
-trp_village_425_elder|Village Elder
-trp_village_426_elder|Village Elder
-trp_village_427_elder|Village Elder
-trp_village_428_elder|Village Elder
-trp_village_429_elder|Village Elder
-trp_village_430_elder|Village Elder
-trp_village_431_elder|Village Elder
-trp_village_432_elder|Village Elder
-trp_village_433_elder|Village Elder
-trp_village_434_elder|Village Elder
-trp_village_435_elder|Village Elder
-trp_village_436_elder|Village Elder
-trp_village_437_elder|Village Elder
-trp_village_438_elder|Village Elder
-trp_village_439_elder|Village Elder
-trp_village_440_elder|Village Elder
-trp_village_441_elder|Village Elder
-trp_village_442_elder|Village Elder
-trp_village_443_elder|Village Elder
-trp_village_444_elder|Village Elder
-trp_village_445_elder|Village Elder
-trp_village_446_elder|Village Elder
-trp_village_447_elder|Village Elder
-trp_village_448_elder|Village Elder
-trp_village_449_elder|Village Elder
-trp_village_450_elder|Village Elder
-trp_village_451_elder|Village Elder
-trp_village_452_elder|Village Elder
-trp_village_453_elder|Village Elder
-trp_village_454_elder|Village Elder
-trp_village_455_elder|Village Elder
-trp_village_456_elder|Village Elder
-trp_village_457_elder|Village Elder
-trp_village_458_elder|Village Elder
-trp_village_459_elder|Village Elder
-trp_village_460_elder|Village Elder
-trp_village_461_elder|Village Elder
-trp_village_462_elder|Village Elder
-trp_village_463_elder|Village Elder
-trp_village_464_elder|Village Elder
-trp_village_465_elder|Village Elder
-trp_village_466_elder|Village Elder
-trp_village_467_elder|Village Elder
-trp_village_468_elder|Village Elder
-trp_village_469_elder|Village Elder
-trp_village_470_elder|Village Elder
-trp_village_471_elder|Village Elder
-trp_village_472_elder|Village Elder
-trp_village_473_elder|Village Elder
-trp_village_474_elder|Village Elder
-trp_village_475_elder|Village Elder
-trp_village_476_elder|Village Elder
-trp_village_477_elder|Village Elder
-trp_village_478_elder|Village Elder
-trp_village_479_elder|Village Elder
-trp_village_480_elder|Village Elder
-trp_village_481_elder|Village Elder
-trp_village_482_elder|Village Elder
-trp_village_483_elder|Village Elder
-trp_village_484_elder|Village Elder
-trp_village_485_elder|Village Elder
-trp_village_486_elder|Village Elder
-trp_village_487_elder|Village Elder
-trp_village_488_elder|Village Elder
-trp_village_489_elder|Village Elder
-trp_village_490_elder|Village Elder
-trp_village_491_elder|Village Elder
-trp_village_492_elder|Village Elder
-trp_village_493_elder|Village Elder
-trp_village_494_elder|Village Elder
-trp_village_495_elder|Village Elder
-trp_village_496_elder|Village Elder
-trp_village_497_elder|Village Elder
-trp_village_498_elder|Village Elder
-trp_village_499_elder|Village Elder
-trp_village_500_elder|Village Elder
-trp_village_501_elder|Village Elder
-trp_village_502_elder|Village Elder
-trp_village_503_elder|Village Elder
-trp_village_504_elder|Village Elder
-trp_village_505_elder|Village Elder
-trp_village_506_elder|Village Elder
-trp_village_507_elder|Village Elder
-trp_village_508_elder|Village Elder
-trp_village_509_elder|Village Elder
-trp_village_510_elder|Village Elder
-trp_village_511_elder|Village Elder
-trp_village_512_elder|Village Elder
-trp_village_513_elder|Village Elder
-trp_village_514_elder|Village Elder
-trp_village_515_elder|Village Elder
-trp_village_516_elder|Village Elder
-trp_village_517_elder|Village Elder
-trp_village_518_elder|Village Elder
-trp_village_519_elder|Village Elder
-trp_village_520_elder|Village Elder
-trp_village_521_elder|Village Elder
-trp_village_522_elder|Village Elder
-trp_village_523_elder|Village Elder
-trp_village_524_elder|Village Elder
-trp_village_525_elder|Village Elder
-trp_village_526_elder|Village Elder
-trp_village_527_elder|Village Elder
-trp_village_528_elder|Village Elder
-trp_village_529_elder|Village Elder
-trp_village_530_elder|Village Elder
-trp_village_531_elder|Village Elder
-trp_village_532_elder|Village Elder
-trp_village_533_elder|Village Elder
-trp_village_534_elder|Village Elder
-trp_village_535_elder|Village Elder
-trp_village_536_elder|Village Elder
-trp_village_537_elder|Village Elder
-trp_village_538_elder|Village Elder
-trp_village_539_elder|Village Elder
-trp_village_540_elder|Village Elder
-trp_village_541_elder|Village Elder
-trp_village_542_elder|Village Elder
-trp_village_543_elder|Village Elder
-trp_village_544_elder|Village Elder
-trp_village_545_elder|Village Elder
-trp_village_546_elder|Village Elder
-trp_village_547_elder|Village Elder
-trp_village_548_elder|Village Elder
-trp_village_549_elder|Village Elder
-trp_village_550_elder|Village Elder
-trp_village_551_elder|Village Elder
-trp_village_552_elder|Village Elder
-trp_village_553_elder|Village Elder
-trp_village_554_elder|Village Elder
-trp_village_555_elder|Village Elder
-trp_village_556_elder|Village Elder
-trp_village_557_elder|Village Elder
-trp_village_558_elder|Village Elder
-trp_village_559_elder|Village Elder
-trp_village_560_elder|Village Elder
-trp_village_561_elder|Village Elder
-trp_village_562_elder|Village Elder
-trp_village_563_elder|Village Elder
-trp_village_564_elder|Village Elder
-trp_village_565_elder|Village Elder
-trp_village_566_elder|Village Elder
-trp_village_567_elder|Village Elder
-trp_village_568_elder|Village Elder
-trp_village_569_elder|Village Elder
-trp_village_570_elder|Village Elder
-trp_village_571_elder|Village Elder
-trp_village_572_elder|Village Elder
-trp_village_573_elder|Village Elder
-trp_village_574_elder|Village Elder
-trp_village_575_elder|Village Elder
-trp_village_576_elder|Village Elder
-trp_village_577_elder|Village Elder
-trp_village_578_elder|Village Elder
-trp_village_579_elder|Village Elder
-trp_village_580_elder|Village Elder
-trp_village_581_elder|Village Elder
-trp_village_582_elder|Village Elder
-trp_village_583_elder|Village Elder
-trp_village_584_elder|Village Elder
-trp_village_585_elder|Village Elder
-trp_village_586_elder|Village Elder
-trp_village_587_elder|Village Elder
-trp_village_588_elder|Village Elder
-trp_village_589_elder|Village Elder
-trp_village_590_elder|Village Elder
-trp_village_591_elder|Village Elder
-trp_village_592_elder|Village Elder
-trp_village_593_elder|Village Elder
-trp_village_594_elder|Village Elder
-trp_village_595_elder|Village Elder
-trp_village_596_elder|Village Elder
-trp_village_597_elder|Village Elder
-trp_village_598_elder|Village Elder
-trp_village_599_elder|Village Elder
-trp_village_600_elder|Village Elder
-trp_village_601_elder|Village Elder
-trp_village_602_elder|Village Elder
-trp_village_603_elder|Village Elder
-trp_village_604_elder|Village Elder
-trp_village_605_elder|Village Elder
-trp_village_606_elder|Village Elder
-trp_village_607_elder|Village Elder
-trp_village_608_elder|Village Elder
-trp_village_609_elder|Village Elder
-trp_village_610_elder|Village Elder
-trp_village_611_elder|Village Elder
-trp_village_612_elder|Village Elder
-trp_village_613_elder|Village Elder
-trp_village_614_elder|Village Elder
-trp_village_615_elder|Village Elder
-trp_village_616_elder|Village Elder
-trp_village_617_elder|Village Elder
-trp_village_618_elder|Village Elder
-trp_village_619_elder|Village Elder
-trp_village_620_elder|Village Elder
-trp_village_621_elder|Village Elder
-trp_village_622_elder|Village Elder
-trp_village_623_elder|Village Elder
-trp_village_624_elder|Village Elder
-trp_village_625_elder|Village Elder
-trp_village_626_elder|Village Elder
-trp_village_627_elder|Village Elder
-trp_village_628_elder|Village Elder
-trp_village_629_elder|Village Elder
-trp_village_630_elder|Village Elder
-trp_village_631_elder|Village Elder
-trp_village_632_elder|Village Elder
-trp_village_633_elder|Village Elder
-trp_village_634_elder|Village Elder
-trp_village_635_elder|Village Elder
-trp_village_636_elder|Village Elder
-trp_village_637_elder|Village Elder
-trp_village_638_elder|Village Elder
-trp_village_639_elder|Village Elder
-trp_village_640_elder|Village Elder
-trp_village_641_elder|Village Elder
-trp_village_642_elder|Village Elder
-trp_village_643_elder|Village Elder
-trp_village_644_elder|Village Elder
-trp_village_645_elder|Village Elder
-trp_village_646_elder|Village Elder
-trp_village_647_elder|Village Elder
-trp_village_648_elder|Village Elder
-trp_village_649_elder|Village Elder
-trp_village_650_elder|Village Elder
-trp_village_651_elder|Village Elder
-trp_village_652_elder|Village Elder
-trp_village_653_elder|Village Elder
-trp_village_654_elder|Village Elder
-trp_village_655_elder|Village Elder
-trp_village_656_elder|Village Elder
-trp_village_657_elder|Village Elder
-trp_village_658_elder|Village Elder
-trp_village_659_elder|Village Elder
-trp_village_660_elder|Village Elder
-trp_village_661_elder|Village Elder
-trp_village_662_elder|Village Elder
-trp_village_663_elder|Village Elder
-trp_village_664_elder|Village Elder
-trp_village_665_elder|Village Elder
-trp_village_666_elder|Village Elder
-trp_village_667_elder|Village Elder
-trp_village_668_elder|Village Elder
-trp_village_669_elder|Village Elder
-trp_village_670_elder|Village Elder
-trp_village_671_elder|Village Elder
-trp_village_672_elder|Village Elder
-trp_village_673_elder|Village Elder
-trp_village_674_elder|Village Elder
-trp_village_675_elder|Village Elder
-trp_village_676_elder|Village Elder
-trp_village_677_elder|Village Elder
+trp_village_111_elder|Anciano de la aldea
+trp_village_112_elder|Anciano de la aldea
+trp_village_113_elder|Anciano de la aldea
+trp_village_114_elder|Anciano de la aldea
+trp_village_115_elder|Anciano de la aldea
+trp_village_116_elder|Anciano de la aldea
+trp_village_117_elder|Anciano de la aldea
+trp_village_118_elder|Anciano de la aldea
+trp_village_119_elder|Anciano de la aldea
+trp_village_120_elder|Anciano de la aldea
+trp_village_121_elder|Anciano de la aldea
+trp_village_122_elder|Anciano de la aldea
+trp_village_123_elder|Anciano de la aldea
+trp_village_124_elder|Anciano de la aldea
+trp_village_125_elder|Anciano de la aldea
+trp_village_126_elder|Anciano de la aldea
+trp_village_127_elder|Anciano de la aldea
+trp_village_128_elder|Anciano de la aldea
+trp_village_129_elder|Anciano de la aldea
+trp_village_130_elder|Anciano de la aldea
+trp_village_131_elder|Anciano de la aldea
+trp_village_132_elder|Anciano de la aldea
+trp_village_133_elder|Anciano de la aldea
+trp_village_134_elder|Anciano de la aldea
+trp_village_135_elder|Anciano de la aldea
+trp_village_136_elder|Anciano de la aldea
+trp_village_137_elder|Anciano de la aldea
+trp_village_138_elder|Anciano de la aldea
+trp_village_139_elder|Anciano de la aldea
+trp_village_140_elder|Anciano de la aldea
+trp_village_141_elder|Anciano de la aldea
+trp_village_142_elder|Anciano de la aldea
+trp_village_143_elder|Anciano de la aldea
+trp_village_144_elder|Anciano de la aldea
+trp_village_145_elder|Anciano de la aldea
+trp_village_146_elder|Anciano de la aldea
+trp_village_147_elder|Anciano de la aldea
+trp_village_148_elder|Anciano de la aldea
+trp_village_149_elder|Anciano de la aldea
+trp_village_150_elder|Anciano de la aldea
+trp_village_151_elder|Anciano de la aldea
+trp_village_152_elder|Anciano de la aldea
+trp_village_153_elder|Anciano de la aldea
+trp_village_154_elder|Anciano de la aldea
+trp_village_155_elder|Anciano de la aldea
+trp_village_156_elder|Anciano de la aldea
+trp_village_157_elder|Anciano de la aldea
+trp_village_158_elder|Anciano de la aldea
+trp_village_159_elder|Anciano de la aldea
+trp_village_160_elder|Anciano de la aldea
+trp_village_161_elder|Anciano de la aldea
+trp_village_162_elder|Anciano de la aldea
+trp_village_163_elder|Anciano de la aldea
+trp_village_164_elder|Anciano de la aldea
+trp_village_165_elder|Anciano de la aldea
+trp_village_166_elder|Anciano de la aldea
+trp_village_167_elder|Anciano de la aldea
+trp_village_168_elder|Anciano de la aldea
+trp_village_169_elder|Anciano de la aldea
+trp_village_170_elder|Anciano de la aldea
+trp_village_171_elder|Anciano de la aldea
+trp_village_172_elder|Anciano de la aldea
+trp_village_173_elder|Anciano de la aldea
+trp_village_174_elder|Anciano de la aldea
+trp_village_175_elder|Anciano de la aldea
+trp_village_176_elder|Anciano de la aldea
+trp_village_177_elder|Anciano de la aldea
+trp_village_178_elder|Anciano de la aldea
+trp_village_179_elder|Anciano de la aldea
+trp_village_180_elder|Anciano de la aldea
+trp_village_181_elder|Anciano de la aldea
+trp_village_182_elder|Anciano de la aldea
+trp_village_183_elder|Anciano de la aldea
+trp_village_184_elder|Anciano de la aldea
+trp_village_185_elder|Anciano de la aldea
+trp_village_186_elder|Anciano de la aldea
+trp_village_187_elder|Anciano de la aldea
+trp_village_188_elder|Anciano de la aldea
+trp_village_189_elder|Anciano de la aldea
+trp_village_190_elder|Anciano de la aldea
+trp_village_191_elder|Anciano de la aldea
+trp_village_192_elder|Anciano de la aldea
+trp_village_193_elder|Anciano de la aldea
+trp_village_194_elder|Anciano de la aldea
+trp_village_195_elder|Anciano de la aldea
+trp_village_196_elder|Anciano de la aldea
+trp_village_197_elder|Anciano de la aldea
+trp_village_198_elder|Anciano de la aldea
+trp_village_199_elder|Anciano de la aldea
+trp_village_200_elder|Anciano de la aldea
+trp_village_201_elder|Anciano de la aldea
+trp_village_202_elder|Anciano de la aldea
+trp_village_203_elder|Anciano de la aldea
+trp_village_204_elder|Anciano de la aldea
+trp_village_205_elder|Anciano de la aldea
+trp_village_206_elder|Anciano de la aldea
+trp_village_207_elder|Anciano de la aldea
+trp_village_208_elder|Anciano de la aldea
+trp_village_209_elder|Anciano de la aldea
+trp_village_210_elder|Anciano de la aldea
+trp_village_211_elder|Anciano de la aldea
+trp_village_212_elder|Anciano de la aldea
+trp_village_213_elder|Anciano de la aldea
+trp_village_214_elder|Anciano de la aldea
+trp_village_215_elder|Anciano de la aldea
+trp_village_216_elder|Anciano de la aldea
+trp_village_217_elder|Anciano de la aldea
+trp_village_218_elder|Anciano de la aldea
+trp_village_219_elder|Anciano de la aldea
+trp_village_220_elder|Anciano de la aldea
+trp_village_221_elder|Anciano de la aldea
+trp_village_222_elder|Anciano de la aldea
+trp_village_223_elder|Anciano de la aldea
+trp_village_224_elder|Anciano de la aldea
+trp_village_225_elder|Anciano de la aldea
+trp_village_226_elder|Anciano de la aldea
+trp_village_227_elder|Anciano de la aldea
+trp_village_228_elder|Anciano de la aldea
+trp_village_229_elder|Anciano de la aldea
+trp_village_230_elder|Anciano de la aldea
+trp_village_231_elder|Anciano de la aldea
+trp_village_232_elder|Anciano de la aldea
+trp_village_233_elder|Anciano de la aldea
+trp_village_234_elder|Anciano de la aldea
+trp_village_235_elder|Anciano de la aldea
+trp_village_236_elder|Anciano de la aldea
+trp_village_237_elder|Anciano de la aldea
+trp_village_238_elder|Anciano de la aldea
+trp_village_239_elder|Anciano de la aldea
+trp_village_240_elder|Anciano de la aldea
+trp_village_241_elder|Anciano de la aldea
+trp_village_242_elder|Anciano de la aldea
+trp_village_243_elder|Anciano de la aldea
+trp_village_244_elder|Anciano de la aldea
+trp_village_245_elder|Anciano de la aldea
+trp_village_246_elder|Anciano de la aldea
+trp_village_247_elder|Anciano de la aldea
+trp_village_248_elder|Anciano de la aldea
+trp_village_249_elder|Anciano de la aldea
+trp_village_250_elder|Anciano de la aldea
+trp_village_251_elder|Anciano de la aldea
+trp_village_252_elder|Anciano de la aldea
+trp_village_253_elder|Anciano de la aldea
+trp_village_254_elder|Anciano de la aldea
+trp_village_255_elder|Anciano de la aldea
+trp_village_256_elder|Anciano de la aldea
+trp_village_257_elder|Anciano de la aldea
+trp_village_258_elder|Anciano de la aldea
+trp_village_259_elder|Anciano de la aldea
+trp_village_260_elder|Anciano de la aldea
+trp_village_261_elder|Anciano de la aldea
+trp_village_262_elder|Anciano de la aldea
+trp_village_263_elder|Anciano de la aldea
+trp_village_264_elder|Anciano de la aldea
+trp_village_265_elder|Anciano de la aldea
+trp_village_266_elder|Anciano de la aldea
+trp_village_267_elder|Anciano de la aldea
+trp_village_268_elder|Anciano de la aldea
+trp_village_269_elder|Anciano de la aldea
+trp_village_270_elder|Anciano de la aldea
+trp_village_271_elder|Anciano de la aldea
+trp_village_272_elder|Anciano de la aldea
+trp_village_273_elder|Anciano de la aldea
+trp_village_274_elder|Anciano de la aldea
+trp_village_275_elder|Anciano de la aldea
+trp_village_276_elder|Anciano de la aldea
+trp_village_277_elder|Anciano de la aldea
+trp_village_278_elder|Anciano de la aldea
+trp_village_279_elder|Anciano de la aldea
+trp_village_280_elder|Anciano de la aldea
+trp_village_281_elder|Anciano de la aldea
+trp_village_282_elder|Anciano de la aldea
+trp_village_283_elder|Anciano de la aldea
+trp_village_284_elder|Anciano de la aldea
+trp_village_285_elder|Anciano de la aldea
+trp_village_286_elder|Anciano de la aldea
+trp_village_287_elder|Anciano de la aldea
+trp_village_288_elder|Anciano de la aldea
+trp_village_289_elder|Anciano de la aldea
+trp_village_290_elder|Anciano de la aldea
+trp_village_291_elder|Anciano de la aldea
+trp_village_292_elder|Anciano de la aldea
+trp_village_293_elder|Anciano de la aldea
+trp_village_294_elder|Anciano de la aldea
+trp_village_295_elder|Anciano de la aldea
+trp_village_296_elder|Anciano de la aldea
+trp_village_297_elder|Anciano de la aldea
+trp_village_298_elder|Anciano de la aldea
+trp_village_299_elder|Anciano de la aldea
+trp_village_300_elder|Anciano de la aldea
+trp_village_301_elder|Anciano de la aldea
+trp_village_302_elder|Anciano de la aldea
+trp_village_303_elder|Anciano de la aldea
+trp_village_304_elder|Anciano de la aldea
+trp_village_305_elder|Anciano de la aldea
+trp_village_306_elder|Anciano de la aldea
+trp_village_307_elder|Anciano de la aldea
+trp_village_308_elder|Anciano de la aldea
+trp_village_309_elder|Anciano de la aldea
+trp_village_310_elder|Anciano de la aldea
+trp_village_311_elder|Anciano de la aldea
+trp_village_312_elder|Anciano de la aldea
+trp_village_313_elder|Anciano de la aldea
+trp_village_314_elder|Anciano de la aldea
+trp_village_315_elder|Anciano de la aldea
+trp_village_316_elder|Anciano de la aldea
+trp_village_317_elder|Anciano de la aldea
+trp_village_318_elder|Anciano de la aldea
+trp_village_319_elder|Anciano de la aldea
+trp_village_320_elder|Anciano de la aldea
+trp_village_321_elder|Anciano de la aldea
+trp_village_322_elder|Anciano de la aldea
+trp_village_323_elder|Anciano de la aldea
+trp_village_324_elder|Anciano de la aldea
+trp_village_325_elder|Anciano de la aldea
+trp_village_326_elder|Anciano de la aldea
+trp_village_327_elder|Anciano de la aldea
+trp_village_328_elder|Anciano de la aldea
+trp_village_329_elder|Anciano de la aldea
+trp_village_330_elder|Anciano de la aldea
+trp_village_331_elder|Anciano de la aldea
+trp_village_332_elder|Anciano de la aldea
+trp_village_333_elder|Anciano de la aldea
+trp_village_334_elder|Anciano de la aldea
+trp_village_335_elder|Anciano de la aldea
+trp_village_336_elder|Anciano de la aldea
+trp_village_337_elder|Anciano de la aldea
+trp_village_338_elder|Anciano de la aldea
+trp_village_339_elder|Anciano de la aldea
+trp_village_340_elder|Anciano de la aldea
+trp_village_341_elder|Anciano de la aldea
+trp_village_342_elder|Anciano de la aldea
+trp_village_343_elder|Anciano de la aldea
+trp_village_344_elder|Anciano de la aldea
+trp_village_345_elder|Anciano de la aldea
+trp_village_346_elder|Anciano de la aldea
+trp_village_347_elder|Anciano de la aldea
+trp_village_348_elder|Anciano de la aldea
+trp_village_349_elder|Anciano de la aldea
+trp_village_350_elder|Anciano de la aldea
+trp_village_351_elder|Anciano de la aldea
+trp_village_352_elder|Anciano de la aldea
+trp_village_353_elder|Anciano de la aldea
+trp_village_354_elder|Anciano de la aldea
+trp_village_355_elder|Anciano de la aldea
+trp_village_356_elder|Anciano de la aldea
+trp_village_357_elder|Anciano de la aldea
+trp_village_358_elder|Anciano de la aldea
+trp_village_359_elder|Anciano de la aldea
+trp_village_360_elder|Anciano de la aldea
+trp_village_361_elder|Anciano de la aldea
+trp_village_362_elder|Anciano de la aldea
+trp_village_363_elder|Anciano de la aldea
+trp_village_364_elder|Anciano de la aldea
+trp_village_365_elder|Anciano de la aldea
+trp_village_366_elder|Anciano de la aldea
+trp_village_367_elder|Anciano de la aldea
+trp_village_368_elder|Anciano de la aldea
+trp_village_369_elder|Anciano de la aldea
+trp_village_370_elder|Anciano de la aldea
+trp_village_371_elder|Anciano de la aldea
+trp_village_372_elder|Anciano de la aldea
+trp_village_373_elder|Anciano de la aldea
+trp_village_374_elder|Anciano de la aldea
+trp_village_375_elder|Anciano de la aldea
+trp_village_376_elder|Anciano de la aldea
+trp_village_377_elder|Anciano de la aldea
+trp_village_378_elder|Anciano de la aldea
+trp_village_379_elder|Anciano de la aldea
+trp_village_380_elder|Anciano de la aldea
+trp_village_381_elder|Anciano de la aldea
+trp_village_382_elder|Anciano de la aldea
+trp_village_383_elder|Anciano de la aldea
+trp_village_384_elder|Anciano de la aldea
+trp_village_385_elder|Anciano de la aldea
+trp_village_386_elder|Anciano de la aldea
+trp_village_387_elder|Anciano de la aldea
+trp_village_388_elder|Anciano de la aldea
+trp_village_389_elder|Anciano de la aldea
+trp_village_390_elder|Anciano de la aldea
+trp_village_391_elder|Anciano de la aldea
+trp_village_392_elder|Anciano de la aldea
+trp_village_393_elder|Anciano de la aldea
+trp_village_394_elder|Anciano de la aldea
+trp_village_395_elder|Anciano de la aldea
+trp_village_396_elder|Anciano de la aldea
+trp_village_397_elder|Anciano de la aldea
+trp_village_398_elder|Anciano de la aldea
+trp_village_399_elder|Anciano de la aldea
+trp_village_400_elder|Anciano de la aldea
+trp_village_401_elder|Anciano de la aldea
+trp_village_402_elder|Anciano de la aldea
+trp_village_403_elder|Anciano de la aldea
+trp_village_404_elder|Anciano de la aldea
+trp_village_405_elder|Anciano de la aldea
+trp_village_406_elder|Anciano de la aldea
+trp_village_407_elder|Anciano de la aldea
+trp_village_408_elder|Anciano de la aldea
+trp_village_409_elder|Anciano de la aldea
+trp_village_410_elder|Anciano de la aldea
+trp_village_411_elder|Anciano de la aldea
+trp_village_412_elder|Anciano de la aldea
+trp_village_413_elder|Anciano de la aldea
+trp_village_414_elder|Anciano de la aldea
+trp_village_415_elder|Anciano de la aldea
+trp_village_416_elder|Anciano de la aldea
+trp_village_417_elder|Anciano de la aldea
+trp_village_418_elder|Anciano de la aldea
+trp_village_419_elder|Anciano de la aldea
+trp_village_420_elder|Anciano de la aldea
+trp_village_421_elder|Anciano de la aldea
+trp_village_422_elder|Anciano de la aldea
+trp_village_423_elder|Anciano de la aldea
+trp_village_424_elder|Anciano de la aldea
+trp_village_425_elder|Anciano de la aldea
+trp_village_426_elder|Anciano de la aldea
+trp_village_427_elder|Anciano de la aldea
+trp_village_428_elder|Anciano de la aldea
+trp_village_429_elder|Anciano de la aldea
+trp_village_430_elder|Anciano de la aldea
+trp_village_431_elder|Anciano de la aldea
+trp_village_432_elder|Anciano de la aldea
+trp_village_433_elder|Anciano de la aldea
+trp_village_434_elder|Anciano de la aldea
+trp_village_435_elder|Anciano de la aldea
+trp_village_436_elder|Anciano de la aldea
+trp_village_437_elder|Anciano de la aldea
+trp_village_438_elder|Anciano de la aldea
+trp_village_439_elder|Anciano de la aldea
+trp_village_440_elder|Anciano de la aldea
+trp_village_441_elder|Anciano de la aldea
+trp_village_442_elder|Anciano de la aldea
+trp_village_443_elder|Anciano de la aldea
+trp_village_444_elder|Anciano de la aldea
+trp_village_445_elder|Anciano de la aldea
+trp_village_446_elder|Anciano de la aldea
+trp_village_447_elder|Anciano de la aldea
+trp_village_448_elder|Anciano de la aldea
+trp_village_449_elder|Anciano de la aldea
+trp_village_450_elder|Anciano de la aldea
+trp_village_451_elder|Anciano de la aldea
+trp_village_452_elder|Anciano de la aldea
+trp_village_453_elder|Anciano de la aldea
+trp_village_454_elder|Anciano de la aldea
+trp_village_455_elder|Anciano de la aldea
+trp_village_456_elder|Anciano de la aldea
+trp_village_457_elder|Anciano de la aldea
+trp_village_458_elder|Anciano de la aldea
+trp_village_459_elder|Anciano de la aldea
+trp_village_460_elder|Anciano de la aldea
+trp_village_461_elder|Anciano de la aldea
+trp_village_462_elder|Anciano de la aldea
+trp_village_463_elder|Anciano de la aldea
+trp_village_464_elder|Anciano de la aldea
+trp_village_465_elder|Anciano de la aldea
+trp_village_466_elder|Anciano de la aldea
+trp_village_467_elder|Anciano de la aldea
+trp_village_468_elder|Anciano de la aldea
+trp_village_469_elder|Anciano de la aldea
+trp_village_470_elder|Anciano de la aldea
+trp_village_471_elder|Anciano de la aldea
+trp_village_472_elder|Anciano de la aldea
+trp_village_473_elder|Anciano de la aldea
+trp_village_474_elder|Anciano de la aldea
+trp_village_475_elder|Anciano de la aldea
+trp_village_476_elder|Anciano de la aldea
+trp_village_477_elder|Anciano de la aldea
+trp_village_478_elder|Anciano de la aldea
+trp_village_479_elder|Anciano de la aldea
+trp_village_480_elder|Anciano de la aldea
+trp_village_481_elder|Anciano de la aldea
+trp_village_482_elder|Anciano de la aldea
+trp_village_483_elder|Anciano de la aldea
+trp_village_484_elder|Anciano de la aldea
+trp_village_485_elder|Anciano de la aldea
+trp_village_486_elder|Anciano de la aldea
+trp_village_487_elder|Anciano de la aldea
+trp_village_488_elder|Anciano de la aldea
+trp_village_489_elder|Anciano de la aldea
+trp_village_490_elder|Anciano de la aldea
+trp_village_491_elder|Anciano de la aldea
+trp_village_492_elder|Anciano de la aldea
+trp_village_493_elder|Anciano de la aldea
+trp_village_494_elder|Anciano de la aldea
+trp_village_495_elder|Anciano de la aldea
+trp_village_496_elder|Anciano de la aldea
+trp_village_497_elder|Anciano de la aldea
+trp_village_498_elder|Anciano de la aldea
+trp_village_499_elder|Anciano de la aldea
+trp_village_500_elder|Anciano de la aldea
+trp_village_501_elder|Anciano de la aldea
+trp_village_502_elder|Anciano de la aldea
+trp_village_503_elder|Anciano de la aldea
+trp_village_504_elder|Anciano de la aldea
+trp_village_505_elder|Anciano de la aldea
+trp_village_506_elder|Anciano de la aldea
+trp_village_507_elder|Anciano de la aldea
+trp_village_508_elder|Anciano de la aldea
+trp_village_509_elder|Anciano de la aldea
+trp_village_510_elder|Anciano de la aldea
+trp_village_511_elder|Anciano de la aldea
+trp_village_512_elder|Anciano de la aldea
+trp_village_513_elder|Anciano de la aldea
+trp_village_514_elder|Anciano de la aldea
+trp_village_515_elder|Anciano de la aldea
+trp_village_516_elder|Anciano de la aldea
+trp_village_517_elder|Anciano de la aldea
+trp_village_518_elder|Anciano de la aldea
+trp_village_519_elder|Anciano de la aldea
+trp_village_520_elder|Anciano de la aldea
+trp_village_521_elder|Anciano de la aldea
+trp_village_522_elder|Anciano de la aldea
+trp_village_523_elder|Anciano de la aldea
+trp_village_524_elder|Anciano de la aldea
+trp_village_525_elder|Anciano de la aldea
+trp_village_526_elder|Anciano de la aldea
+trp_village_527_elder|Anciano de la aldea
+trp_village_528_elder|Anciano de la aldea
+trp_village_529_elder|Anciano de la aldea
+trp_village_530_elder|Anciano de la aldea
+trp_village_531_elder|Anciano de la aldea
+trp_village_532_elder|Anciano de la aldea
+trp_village_533_elder|Anciano de la aldea
+trp_village_534_elder|Anciano de la aldea
+trp_village_535_elder|Anciano de la aldea
+trp_village_536_elder|Anciano de la aldea
+trp_village_537_elder|Anciano de la aldea
+trp_village_538_elder|Anciano de la aldea
+trp_village_539_elder|Anciano de la aldea
+trp_village_540_elder|Anciano de la aldea
+trp_village_541_elder|Anciano de la aldea
+trp_village_542_elder|Anciano de la aldea
+trp_village_543_elder|Anciano de la aldea
+trp_village_544_elder|Anciano de la aldea
+trp_village_545_elder|Anciano de la aldea
+trp_village_546_elder|Anciano de la aldea
+trp_village_547_elder|Anciano de la aldea
+trp_village_548_elder|Anciano de la aldea
+trp_village_549_elder|Anciano de la aldea
+trp_village_550_elder|Anciano de la aldea
+trp_village_551_elder|Anciano de la aldea
+trp_village_552_elder|Anciano de la aldea
+trp_village_553_elder|Anciano de la aldea
+trp_village_554_elder|Anciano de la aldea
+trp_village_555_elder|Anciano de la aldea
+trp_village_556_elder|Anciano de la aldea
+trp_village_557_elder|Anciano de la aldea
+trp_village_558_elder|Anciano de la aldea
+trp_village_559_elder|Anciano de la aldea
+trp_village_560_elder|Anciano de la aldea
+trp_village_561_elder|Anciano de la aldea
+trp_village_562_elder|Anciano de la aldea
+trp_village_563_elder|Anciano de la aldea
+trp_village_564_elder|Anciano de la aldea
+trp_village_565_elder|Anciano de la aldea
+trp_village_566_elder|Anciano de la aldea
+trp_village_567_elder|Anciano de la aldea
+trp_village_568_elder|Anciano de la aldea
+trp_village_569_elder|Anciano de la aldea
+trp_village_570_elder|Anciano de la aldea
+trp_village_571_elder|Anciano de la aldea
+trp_village_572_elder|Anciano de la aldea
+trp_village_573_elder|Anciano de la aldea
+trp_village_574_elder|Anciano de la aldea
+trp_village_575_elder|Anciano de la aldea
+trp_village_576_elder|Anciano de la aldea
+trp_village_577_elder|Anciano de la aldea
+trp_village_578_elder|Anciano de la aldea
+trp_village_579_elder|Anciano de la aldea
+trp_village_580_elder|Anciano de la aldea
+trp_village_581_elder|Anciano de la aldea
+trp_village_582_elder|Anciano de la aldea
+trp_village_583_elder|Anciano de la aldea
+trp_village_584_elder|Anciano de la aldea
+trp_village_585_elder|Anciano de la aldea
+trp_village_586_elder|Anciano de la aldea
+trp_village_587_elder|Anciano de la aldea
+trp_village_588_elder|Anciano de la aldea
+trp_village_589_elder|Anciano de la aldea
+trp_village_590_elder|Anciano de la aldea
+trp_village_591_elder|Anciano de la aldea
+trp_village_592_elder|Anciano de la aldea
+trp_village_593_elder|Anciano de la aldea
+trp_village_594_elder|Anciano de la aldea
+trp_village_595_elder|Anciano de la aldea
+trp_village_596_elder|Anciano de la aldea
+trp_village_597_elder|Anciano de la aldea
+trp_village_598_elder|Anciano de la aldea
+trp_village_599_elder|Anciano de la aldea
+trp_village_600_elder|Anciano de la aldea
+trp_village_601_elder|Anciano de la aldea
+trp_village_602_elder|Anciano de la aldea
+trp_village_603_elder|Anciano de la aldea
+trp_village_604_elder|Anciano de la aldea
+trp_village_605_elder|Anciano de la aldea
+trp_village_606_elder|Anciano de la aldea
+trp_village_607_elder|Anciano de la aldea
+trp_village_608_elder|Anciano de la aldea
+trp_village_609_elder|Anciano de la aldea
+trp_village_610_elder|Anciano de la aldea
+trp_village_611_elder|Anciano de la aldea
+trp_village_612_elder|Anciano de la aldea
+trp_village_613_elder|Anciano de la aldea
+trp_village_614_elder|Anciano de la aldea
+trp_village_615_elder|Anciano de la aldea
+trp_village_616_elder|Anciano de la aldea
+trp_village_617_elder|Anciano de la aldea
+trp_village_618_elder|Anciano de la aldea
+trp_village_619_elder|Anciano de la aldea
+trp_village_620_elder|Anciano de la aldea
+trp_village_621_elder|Anciano de la aldea
+trp_village_622_elder|Anciano de la aldea
+trp_village_623_elder|Anciano de la aldea
+trp_village_624_elder|Anciano de la aldea
+trp_village_625_elder|Anciano de la aldea
+trp_village_626_elder|Anciano de la aldea
+trp_village_627_elder|Anciano de la aldea
+trp_village_628_elder|Anciano de la aldea
+trp_village_629_elder|Anciano de la aldea
+trp_village_630_elder|Anciano de la aldea
+trp_village_631_elder|Anciano de la aldea
+trp_village_632_elder|Anciano de la aldea
+trp_village_633_elder|Anciano de la aldea
+trp_village_634_elder|Anciano de la aldea
+trp_village_635_elder|Anciano de la aldea
+trp_village_636_elder|Anciano de la aldea
+trp_village_637_elder|Anciano de la aldea
+trp_village_638_elder|Anciano de la aldea
+trp_village_639_elder|Anciano de la aldea
+trp_village_640_elder|Anciano de la aldea
+trp_village_641_elder|Anciano de la aldea
+trp_village_642_elder|Anciano de la aldea
+trp_village_643_elder|Anciano de la aldea
+trp_village_644_elder|Anciano de la aldea
+trp_village_645_elder|Anciano de la aldea
+trp_village_646_elder|Anciano de la aldea
+trp_village_647_elder|Anciano de la aldea
+trp_village_648_elder|Anciano de la aldea
+trp_village_649_elder|Anciano de la aldea
+trp_village_650_elder|Anciano de la aldea
+trp_village_651_elder|Anciano de la aldea
+trp_village_652_elder|Anciano de la aldea
+trp_village_653_elder|Anciano de la aldea
+trp_village_654_elder|Anciano de la aldea
+trp_village_655_elder|Anciano de la aldea
+trp_village_656_elder|Anciano de la aldea
+trp_village_657_elder|Anciano de la aldea
+trp_village_658_elder|Anciano de la aldea
+trp_village_659_elder|Anciano de la aldea
+trp_village_660_elder|Anciano de la aldea
+trp_village_661_elder|Anciano de la aldea
+trp_village_662_elder|Anciano de la aldea
+trp_village_663_elder|Anciano de la aldea
+trp_village_664_elder|Anciano de la aldea
+trp_village_665_elder|Anciano de la aldea
+trp_village_666_elder|Anciano de la aldea
+trp_village_667_elder|Anciano de la aldea
+trp_village_668_elder|Anciano de la aldea
+trp_village_669_elder|Anciano de la aldea
+trp_village_670_elder|Anciano de la aldea
+trp_village_671_elder|Anciano de la aldea
+trp_village_672_elder|Anciano de la aldea
+trp_village_673_elder|Anciano de la aldea
+trp_village_674_elder|Anciano de la aldea
+trp_village_675_elder|Anciano de la aldea
+trp_village_676_elder|Anciano de la aldea
+trp_village_677_elder|Anciano de la aldea
 trp_merchants_end|fin de mercaderes
 trp_merchants_end_pl|fin de mercaderes
 trp_local_merchant|Mercader local
@@ -5040,537 +5039,537 @@ trp_npc15_4|Artimenner
 trp_npc15_4_pl|Artimenner
 trp_npc16_4|Klethi
 trp_npc16_4_pl|Klethi
-trp_european_outlaw_rural1|Rural Prowler
-trp_european_outlaw_rural1_pl|Rural Prowlers
-trp_european_outlaw_rural2|Rural Robber
-trp_european_outlaw_rural2_pl|Rural Robbers
-trp_european_outlaw_rural3|Rural Looter
-trp_european_outlaw_rural3_pl|Rural Looters
-trp_european_outlaw_rural4|Rural Highwayman
-trp_european_outlaw_rural4_pl|Rural Highwaymen
-trp_european_outlaw_suburban1|Suburban Prowler
-trp_european_outlaw_suburban1_pl|Suburban Prowlers
-trp_european_outlaw_suburban2|Suburban Robber
-trp_european_outlaw_suburban2_pl|Suburban Robbers
-trp_european_outlaw_suburban3|Suburban Looter
-trp_european_outlaw_suburban3_pl|Suburban Looters
-trp_european_outlaw_suburban4|Suburban Highwayman
-trp_european_outlaw_suburban4_pl|Suburban Highwaymen
-trp_european_outlaw_urban1|Urban Prowler
-trp_european_outlaw_urban1_pl|Urban Prowlers
-trp_european_outlaw_urban2|Urban Robber
-trp_european_outlaw_urban2_pl|Urban Robbers
-trp_european_outlaw_urban3|Urban Looter
-trp_european_outlaw_urban3_pl|Urban Looters
-trp_european_outlaw_urban4|Urban Fugitive
-trp_european_outlaw_urban4_pl|Urban Fugitive
-trp_factionplayer_fieldgun_cannoneer_Oficial|Field Gun Crew Oficial
-trp_factionplayer_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction1_fieldgun_cannoneer_Oficial|French Field Gun Crew Oficial
-trp_faction1_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction2_fieldgun_cannoneer_Oficial|Russian Field Gun Crew Oficial
-trp_faction2_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction3_fieldgun_cannoneer_Oficial|Austrian Field Gun Crew Oficial
-trp_faction3_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction4_fieldgun_cannoneer_Oficial|Sardinian Field Gun Crew Oficial
-trp_faction4_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction5_fieldgun_cannoneer_Oficial|Prussian Field Gun Crew Oficial
-trp_faction5_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction6_fieldgun_cannoneer_Oficial|Ottoman Field Gun Crew Oficial
-trp_faction6_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction7_fieldgun_cannoneer_Oficial|British Field Gun Crew Oficial
-trp_faction7_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction8_fieldgun_cannoneer_Oficial|Dutch Field Gun Crew Oficial
-trp_faction8_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction9_fieldgun_cannoneer_Oficial|Spanish Field Gun Crew Oficial
-trp_faction9_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction10_fieldgun_cannoneer_Oficial|Tunisian Field Gun Crew Oficial
-trp_faction10_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction11_fieldgun_cannoneer_Oficial|Sicilian Field Gun Crew Oficial
-trp_faction11_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction12_fieldgun_cannoneer_Oficial|Persian Field Gun Crew Oficial
-trp_faction12_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction13_fieldgun_cannoneer_Oficial|Swiss Field Gun Crew Oficial
-trp_faction13_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction14_fieldgun_cannoneer_Oficial|Egyptian Field Gun Crew Oficial
-trp_faction14_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction15_fieldgun_cannoneer_Oficial|Marroquí Field Gun Crew Oficial
-trp_faction15_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction16_fieldgun_cannoneer_Oficial|Portuguese Field Gun Crew Oficial
-trp_faction16_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction17_fieldgun_cannoneer_Oficial|Omani Field Gun Crew Oficial
-trp_faction17_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction18_fieldgun_cannoneer_Oficial|Danish Field Gun Crew Oficial
-trp_faction18_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction19_fieldgun_cannoneer_Oficial|Papal Field Gun Crew Oficial
-trp_faction19_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction20_fieldgun_cannoneer_Oficial|British Field Gun Crew Oficial
-trp_faction20_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction21_fieldgun_cannoneer_Oficial|Afghan Field Gun Crew Oficial
-trp_faction21_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction22_fieldgun_cannoneer_Oficial|Bukharan Field Gun Crew Oficial
-trp_faction22_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction23_fieldgun_cannoneer_Oficial|Khivan Field Gun Crew Oficial
-trp_faction23_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction24_fieldgun_cannoneer_Oficial|Greek Field Gun Crew Oficial
-trp_faction24_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction25_fieldgun_cannoneer_Oficial|Romanian Field Gun Crew Oficial
-trp_faction25_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction26_fieldgun_cannoneer_Oficial|Belgian Field Gun Crew Oficial
-trp_faction26_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction27_fieldgun_cannoneer_Oficial|Wurttemberg Field Gun Crew Oficial
-trp_faction27_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction28_fieldgun_cannoneer_Oficial|Serbian Field Gun Crew Oficial
-trp_faction28_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction29_fieldgun_cannoneer_Oficial|Suizo Field Gun Crew Oficial
-trp_faction29_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction30_fieldgun_cannoneer_Oficial|Bavarian Field Gun Crew Oficial
-trp_faction30_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction31_fieldgun_cannoneer_Oficial|Hanoverian Field Gun Crew Oficial
-trp_faction31_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction32_fieldgun_cannoneer_Oficial|Shammari Field Gun Crew Oficial
-trp_faction32_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_faction33_fieldgun_cannoneer_Oficial|Najdi Field Gun Crew Oficial
-trp_faction33_fieldgun_cannoneer_Oficial_pl|Field Gun Crew Oficials
-trp_factionplayer_howitzer_cannoneer_Oficial|Howitzer Crew Oficial
-trp_factionplayer_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction1_howitzer_cannoneer_Oficial|French Howitzer Crew Oficial
-trp_faction1_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction2_howitzer_cannoneer_Oficial|Russian Howitzer Crew Oficial
-trp_faction2_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction3_howitzer_cannoneer_Oficial|Austrian Howitzer Crew Oficial
-trp_faction3_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction4_howitzer_cannoneer_Oficial|Sardinian Howitzer Crew Oficial
-trp_faction4_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction5_howitzer_cannoneer_Oficial|Prussian Howitzer Crew Oficial
-trp_faction5_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction6_howitzer_cannoneer_Oficial|Ottoman Howitzer Crew Oficial
-trp_faction6_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction7_howitzer_cannoneer_Oficial|British Howitzer Crew Oficial
-trp_faction7_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction8_howitzer_cannoneer_Oficial|Dutch Howitzer Crew Oficial
-trp_faction8_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction9_howitzer_cannoneer_Oficial|Spanish Howitzer Crew Oficial
-trp_faction9_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction10_howitzer_cannoneer_Oficial|Tunisian Howitzer Crew Oficial
-trp_faction10_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction11_howitzer_cannoneer_Oficial|Sicilian Howitzer Crew Oficial
-trp_faction11_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction12_howitzer_cannoneer_Oficial|Persian Howitzer Crew Oficial
-trp_faction12_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction13_howitzer_cannoneer_Oficial|Swiss Howitzer Crew Oficial
-trp_faction13_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction14_howitzer_cannoneer_Oficial|Egyptian Howitzer Crew Oficial
-trp_faction14_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction15_howitzer_cannoneer_Oficial|Marroquí Howitzer Crew Oficial
-trp_faction15_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction16_howitzer_cannoneer_Oficial|Portugese Howitzer Crew Oficial
-trp_faction16_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction17_howitzer_cannoneer_Oficial|Oman Howitzer Crew Oficial
-trp_faction17_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction18_howitzer_cannoneer_Oficial|Danish Howitzer Crew Oficial
-trp_faction18_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction19_howitzer_cannoneer_Oficial|Papal Howitzer Crew Oficial
-trp_faction19_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction20_howitzer_cannoneer_Oficial|British Howitzer Crew Oficial
-trp_faction20_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction21_howitzer_cannoneer_Oficial|Afghan Howitzer Crew Oficial
-trp_faction21_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction22_howitzer_cannoneer_Oficial|Bukharan Howitzer Crew Oficial
-trp_faction22_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction23_howitzer_cannoneer_Oficial|Khiva Howitzer Crew Oficial
-trp_faction23_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction24_howitzer_cannoneer_Oficial|Greek Howitzer Crew Oficial
-trp_faction24_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction25_howitzer_cannoneer_Oficial|Romanian Howitzer Crew Oficial
-trp_faction25_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction26_howitzer_cannoneer_Oficial|Belgian Howitzer Crew Oficial
-trp_faction26_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction27_howitzer_cannoneer_Oficial|Wurttemberg Howitzer Crew Oficial
-trp_faction27_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction28_howitzer_cannoneer_Oficial|Serbian Howitzer Crew Oficial
-trp_faction28_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction29_howitzer_cannoneer_Oficial|Suizo Howitzer Crew Oficial
-trp_faction29_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction30_howitzer_cannoneer_Oficial|Bavarian Howitzer Crew Oficial
-trp_faction30_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction31_howitzer_cannoneer_Oficial|Hanoverian Howitzer Crew Oficial
-trp_faction31_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction32_howitzer_cannoneer_Oficial|Shammari Howitzer Crew Oficial
-trp_faction32_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_faction33_howitzer_cannoneer_Oficial|Najdi Howitzer Crew Oficial
-trp_faction33_howitzer_cannoneer_Oficial_pl|Howitzer Crew Oficials
-trp_factionplayer_heavyhowitzer_cannoneer_Oficial|Heavy Howitzer Crew Oficial
-trp_factionplayer_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction1_heavyhowitzer_cannoneer_Oficial|French Heavy Howitzer Crew Oficial
-trp_faction1_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction2_heavyhowitzer_cannoneer_Oficial|Russian Heavy Howitzer Crew Oficial
-trp_faction2_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction3_heavyhowitzer_cannoneer_Oficial|Austrian Heavy Howitzer Crew Oficial
-trp_faction3_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction4_heavyhowitzer_cannoneer_Oficial|Sardinian Heavy Howitzer Crew Oficial
-trp_faction4_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction5_heavyhowitzer_cannoneer_Oficial|Prussian Heavy Howitzer Crew Oficial
-trp_faction5_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction6_heavyhowitzer_cannoneer_Oficial|Ottoman Heavy Howitzer Crew Oficial
-trp_faction6_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction7_heavyhowitzer_cannoneer_Oficial|British Heavy Howitzer Crew Oficial
-trp_faction7_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction8_heavyhowitzer_cannoneer_Oficial|Dutch Heavy Howitzer Crew Oficial
-trp_faction8_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction9_heavyhowitzer_cannoneer_Oficial|Spanish Heavy Howitzer Crew Oficial
-trp_faction9_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction10_heavyhowitzer_cannoneer_Oficial|Tunisian Heavy Howitzer Crew Oficial
-trp_faction10_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction11_heavyhowitzer_cannoneer_Oficial|Sicilian Heavy Howitzer Crew Oficial
-trp_faction11_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction12_heavyhowitzer_cannoneer_Oficial|Persian Heavy Howitzer Crew Oficial
-trp_faction12_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction13_heavyhowitzer_cannoneer_Oficial|Swiss Heavy Howitzer Crew Oficial
-trp_faction13_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction14_heavyhowitzer_cannoneer_Oficial|Egyptian Heavy Howitzer Crew Oficial
-trp_faction14_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction15_heavyhowitzer_cannoneer_Oficial|Marroquí Heavy Howitzer Crew Oficial
-trp_faction15_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction16_heavyhowitzer_cannoneer_Oficial|Portugese Heavy Howitzer Crew Oficial
-trp_faction16_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction17_heavyhowitzer_cannoneer_Oficial|Oman Heavy Howitzer Crew Oficial
-trp_faction17_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction18_heavyhowitzer_cannoneer_Oficial|Danish Heavy Howitzer Crew Oficial
-trp_faction18_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction19_heavyhowitzer_cannoneer_Oficial|Papal Heavy Howitzer Crew Oficial
-trp_faction19_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction20_heavyhowitzer_cannoneer_Oficial|British Heavy Howitzer Crew Oficial
-trp_faction20_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction21_heavyhowitzer_cannoneer_Oficial|Afghan Heavy Howitzer Crew Oficial
-trp_faction21_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction22_heavyhowitzer_cannoneer_Oficial|Bukharan Heavy Howitzer Crew Oficial
-trp_faction22_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction23_heavyhowitzer_cannoneer_Oficial|Khiva Heavy Howitzer Crew Oficial
-trp_faction23_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction24_heavyhowitzer_cannoneer_Oficial|Greek Heavy Howitzer Crew Oficial
-trp_faction24_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction25_heavyhowitzer_cannoneer_Oficial|Romanian Heavy Howitzer Crew Oficial
-trp_faction25_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction26_heavyhowitzer_cannoneer_Oficial|Belgian Heavy Howitzer Crew Oficial
-trp_faction26_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction27_heavyhowitzer_cannoneer_Oficial|Wurttemberg Heavy Howitzer Crew Oficial
-trp_faction27_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction28_heavyhowitzer_cannoneer_Oficial|Serbian Heavy Howitzer Crew Oficial
-trp_faction28_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction29_heavyhowitzer_cannoneer_Oficial|Suizo Heavy Howitzer Crew Oficial
-trp_faction29_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction30_heavyhowitzer_cannoneer_Oficial|Bavarian Heavy Howitzer Crew Oficial
-trp_faction30_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction31_heavyhowitzer_cannoneer_Oficial|Hanoverian Heavy Howitzer Crew Oficial
-trp_faction31_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction32_heavyhowitzer_cannoneer_Oficial|Shammari Heavy Howitzer Crew Oficial
-trp_faction32_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_faction33_heavyhowitzer_cannoneer_Oficial|Najdi Heavy Howitzer Crew Oficial
-trp_faction33_heavyhowitzer_cannoneer_Oficial_pl|Heavy Howitzer Crew Oficials
-trp_factionplayer_fieldgun_cannoneer|Field Gun Cannoneer
-trp_factionplayer_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction1_fieldgun_cannoneer|French Field Gun Cannoneer
-trp_faction1_fieldgun_cannoneer_pl|French Field Gun Cannoneers
-trp_faction2_fieldgun_cannoneer|Russian Field Gun Cannoneer
-trp_faction2_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction3_fieldgun_cannoneer|Austrian Field Gun Cannoneer
-trp_faction3_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction4_fieldgun_cannoneer|Sardinian Field Gun Cannoneer
-trp_faction4_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction5_fieldgun_cannoneer|Prussian Field Gun Cannoneer
-trp_faction5_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction6_fieldgun_cannoneer|Ottoman Field Gun Cannoneer
-trp_faction6_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction7_fieldgun_cannoneer|British Field Gun Cannoneer
-trp_faction7_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction8_fieldgun_cannoneer|Dutch Field Gun Cannoneer
-trp_faction8_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction9_fieldgun_cannoneer|Spanish Field Gun Cannoneer
-trp_faction9_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction10_fieldgun_cannoneer|Tunisian Field Gun Cannoneer
-trp_faction10_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction11_fieldgun_cannoneer|Sicilian Field Gun Cannoneer
-trp_faction11_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction12_fieldgun_cannoneer|Persian Field Gun Cannoneer
-trp_faction12_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction13_fieldgun_cannoneer|Swiss Field Gun Cannoneer
-trp_faction13_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction14_fieldgun_cannoneer|Egyptian Field Gun Cannoneer
-trp_faction14_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction15_fieldgun_cannoneer|Marroquí Field Gun Cannoneer
-trp_faction15_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction16_fieldgun_cannoneer|Portuguese Field Gun Cannoneer
-trp_faction16_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction17_fieldgun_cannoneer|Omani Field Gun Cannoneer
-trp_faction17_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction18_fieldgun_cannoneer|Danish Field Gun Cannoneer
-trp_faction18_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction19_fieldgun_cannoneer|Papal Field Gun Cannoneer
-trp_faction19_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction20_fieldgun_cannoneer|British Field Gun Cannoneer
-trp_faction20_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction21_fieldgun_cannoneer|Afghan Field Gun Cannoneer
-trp_faction21_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction22_fieldgun_cannoneer|Bukharan Field Gun Cannoneer
-trp_faction22_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction23_fieldgun_cannoneer|Khivan Field Gun Cannoneer
-trp_faction23_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction24_fieldgun_cannoneer|Greek Field Gun Cannoneer
-trp_faction24_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction25_fieldgun_cannoneer|Romanian Field Gun Cannoneer
-trp_faction25_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction26_fieldgun_cannoneer|Belgian Field Gun Cannoneer
-trp_faction26_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction27_fieldgun_cannoneer|Wurttemberg Field Gun Cannoneer
-trp_faction27_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction28_fieldgun_cannoneer|Serbian Field Gun Cannoneer
-trp_faction28_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction29_fieldgun_cannoneer|Suizo Field Gun Cannoneer
-trp_faction29_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction30_fieldgun_cannoneer|Bavarian Field Gun Cannoneer
-trp_faction30_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction31_fieldgun_cannoneer|Hanoverian Field Gun Cannoneer
-trp_faction31_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction32_fieldgun_cannoneer|Shammari Field Gun Cannoneer
-trp_faction32_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_faction33_fieldgun_cannoneer|Najdi Field Gun Cannoneer
-trp_faction33_fieldgun_cannoneer_pl|Field Gun Cannoneers
-trp_factionplayer_howitzer_cannoneer|Howitzer Cannoneer
-trp_factionplayer_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction1_howitzer_cannoneer|French Howitzer Cannoneer
-trp_faction1_howitzer_cannoneer_pl|French Howitzer Cannoneers
-trp_faction2_howitzer_cannoneer|Russian Howitzer Cannoneer
-trp_faction2_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction3_howitzer_cannoneer|Austrian Howitzer Cannoneer
-trp_faction3_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction4_howitzer_cannoneer|Sardinian Howitzer Cannoneer
-trp_faction4_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction5_howitzer_cannoneer|Prussian Howitzer Cannoneer
-trp_faction5_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction6_howitzer_cannoneer|Ottoman Howitzer Cannoneer
-trp_faction6_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction7_howitzer_cannoneer|British Howitzer Cannoneer
-trp_faction7_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction8_howitzer_cannoneer|Dutch Howitzer Cannoneer
-trp_faction8_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction9_howitzer_cannoneer|Spanish Howitzer Cannoneer
-trp_faction9_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction10_howitzer_cannoneer|Tunisian Howitzer Cannoneer
-trp_faction10_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction11_howitzer_cannoneer|Sicilian Howitzer Cannoneer
-trp_faction11_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction12_howitzer_cannoneer|Persian Howitzer Cannoneer
-trp_faction12_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction13_howitzer_cannoneer|Swiss Howitzer Cannoneer
-trp_faction13_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction14_howitzer_cannoneer|Egyptian Howitzer Cannoneer
-trp_faction14_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction15_howitzer_cannoneer|Marroquí Howitzer Cannoneer
-trp_faction15_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction16_howitzer_cannoneer|Portuguese Howitzer Cannoneer
-trp_faction16_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction17_howitzer_cannoneer|Omani Howitzer Cannoneer
-trp_faction17_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction18_howitzer_cannoneer|Danish Howitzer Cannoneer
-trp_faction18_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction19_howitzer_cannoneer|Papal Howitzer Cannoneer
-trp_faction19_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction20_howitzer_cannoneer|British Howitzer Cannoneer
-trp_faction20_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction21_howitzer_cannoneer|Afghan Howitzer Cannoneer
-trp_faction21_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction22_howitzer_cannoneer|Bukharan Howitzer Cannoneer
-trp_faction22_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction23_howitzer_cannoneer|Khivan Howitzer Cannoneer
-trp_faction23_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction24_howitzer_cannoneer|Greek Howitzer Cannoneer
-trp_faction24_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction25_howitzer_cannoneer|Romanian Howitzer Cannoneer
-trp_faction25_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction26_howitzer_cannoneer|Belgian Howitzer Cannoneer
-trp_faction26_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction27_howitzer_cannoneer|Wurttemberg Howitzer Cannoneer
-trp_faction27_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction28_howitzer_cannoneer|Serbian Howitzer Cannoneer
-trp_faction28_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction29_howitzer_cannoneer|Suizo Howitzer Cannoneer
-trp_faction29_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction30_howitzer_cannoneer|Bavarian Howitzer Cannoneer
-trp_faction30_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction31_howitzer_cannoneer|Hanoverian Howitzer Cannoneer
-trp_faction31_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction32_howitzer_cannoneer|Shammari Howitzer Cannoneer
-trp_faction32_howitzer_cannoneer_pl|Howitzer Cannoneers
-trp_faction33_howitzer_cannoneer|Najdi Howitzer Cannoneer
-trp_faction33_howitzer_cannoneer_pl|Howitzer Cannoneers
+trp_european_outlaw_rural1|Merodeador Rural
+trp_european_outlaw_rural1_pl|Merodeadores Rurales
+trp_european_outlaw_rural2|Ladrón Rural
+trp_european_outlaw_rural2_pl|Ladrones Rurales
+trp_european_outlaw_rural3|Saqueador Rural
+trp_european_outlaw_rural3_pl|Saqueadores Rurales
+trp_european_outlaw_rural4|Asaltante Rural
+trp_european_outlaw_rural4_pl|Asaltantes Rurales
+trp_european_outlaw_suburban1|Merodeador Suburbano
+trp_european_outlaw_suburban1_pl|Merodeadores Suburbanos
+trp_european_outlaw_suburban2|Ladrón Suburbano
+trp_european_outlaw_suburban2_pl|Ladrones Suburbanos
+trp_european_outlaw_suburban3|Saqueador Suburbano
+trp_european_outlaw_suburban3_pl|Saqueadores Suburbanos
+trp_european_outlaw_suburban4|Asaltante Suburbano
+trp_european_outlaw_suburban4_pl|Asaltantes Suburbanos
+trp_european_outlaw_urban1|Merodeador Urbano
+trp_european_outlaw_urban1_pl|Merodeadores Urbanos
+trp_european_outlaw_urban2|Ladrón Urbano
+trp_european_outlaw_urban2_pl|Ladrones Urbanos
+trp_european_outlaw_urban3|Saqueador Urbano
+trp_european_outlaw_urban3_pl|Saqueadores Urbanos
+trp_european_outlaw_urban4|Fugitivo Urbano
+trp_european_outlaw_urban4_pl|Fugitivos Urbanos
+trp_factionplayer_fieldgun_cannoneer_Oficial|Oficial de esquadra Cañon de Campaña
+trp_factionplayer_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Cañon de Campaña
+trp_faction1_fieldgun_cannoneer_Oficial|Oficial de esquadra Francés Cañon de Campaña
+trp_faction1_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Franceses Cañon de Campaña
+trp_faction2_fieldgun_cannoneer_Oficial|Oficial de esquadra Ruso Cañon de Campaña
+trp_faction2_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Rusos Cañon de Campaña
+trp_faction3_fieldgun_cannoneer_Oficial|Oficial de esquadra Austriaco Cañon de Campaña
+trp_faction3_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Austriacos Cañon de Campaña
+trp_faction4_fieldgun_cannoneer_Oficial|Oficial de esquadra Cerdeño Cañon de Campaña
+trp_faction4_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Cerdeños Cañon de Campaña
+trp_faction5_fieldgun_cannoneer_Oficial|Oficial de esquadra Prusiano Cañon de Campaña
+trp_faction5_fieldgun_cannoneer_Oficial_pl|Oficial de esquadra Prusianos Cañon de Campaña
+trp_faction6_fieldgun_cannoneer_Oficial|Oficial de esquadra Otomano Cañon de Campaña
+trp_faction6_fieldgun_cannoneer_Oficial_pl|Oficial de esquadra Otomanos Cañon de Campaña
+trp_faction7_fieldgun_cannoneer_Oficial|Oficial de esquadra Británico Cañon de Campaña
+trp_faction7_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Cañon de Campaña
+trp_faction8_fieldgun_cannoneer_Oficial|Oficial de esquadra Holandés Cañon de Campaña
+trp_faction8_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Holandeses Cañon de Campaña
+trp_faction9_fieldgun_cannoneer_Oficial|Oficial de esquadra Español Cañon de Campaña
+trp_faction9_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Españoles Cañon de Campaña
+trp_faction10_fieldgun_cannoneer_Oficial|Oficial de esquadra Tunecino Cañon de Campaña
+trp_faction10_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Tunecinos Cañon de Campaña
+trp_faction11_fieldgun_cannoneer_Oficial|Oficial de esquadra Siciliano Cañon de Campaña
+trp_faction11_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Sicilianos Cañon de Campaña
+trp_faction12_fieldgun_cannoneer_Oficial|Oficial de esquadra Persa Cañon de Campaña
+trp_faction12_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Persas Cañon de Campaña
+trp_faction13_fieldgun_cannoneer_Oficial|Oficial de esquadra Suizo Cañon de Campaña
+trp_faction13_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Suizos Cañon de Campaña
+trp_faction14_fieldgun_cannoneer_Oficial|Oficial de esquadra Egipcio Cañon de Campaña
+trp_faction14_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Egipcios Cañon de Campaña
+trp_faction15_fieldgun_cannoneer_Oficial|Oficial de esquadra Marroquí Cañon de Campaña
+trp_faction15_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Marroquies Cañon de Campaña
+trp_faction16_fieldgun_cannoneer_Oficial|Oficial de esquadra Portugués Cañon de Campaña
+trp_faction16_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Portugueses Cañon de Campaña
+trp_faction17_fieldgun_cannoneer_Oficial|Oficial de esquadra Omaní Cañon de Campaña
+trp_faction17_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Omanies Cañon de Campaña
+trp_faction18_fieldgun_cannoneer_Oficial|Oficial de esquadra Danés Cañon de Campaña
+trp_faction18_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Daneses Cañon de Campaña
+trp_faction19_fieldgun_cannoneer_Oficial|Oficial de esquadra Papal Cañon de Campaña
+trp_faction19_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Papales Cañon de Campaña
+trp_faction20_fieldgun_cannoneer_Oficial|Oficial de esquadra Británico Cañon de Campaña
+trp_faction20_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Británicos Cañon de Campaña
+trp_faction21_fieldgun_cannoneer_Oficial|Oficial de esquadra Afgano Cañon de Campaña
+trp_faction21_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Afganos Cañon de Campaña
+trp_faction22_fieldgun_cannoneer_Oficial|Oficial de esquadra Bujáran Cañon de Campaña
+trp_faction22_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Bujaraneses Cañon de Campaña
+trp_faction23_fieldgun_cannoneer_Oficial|Oficial de esquadra Jivanes Cañon de Campaña
+trp_faction23_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Jivaneses Cañon de Campaña
+trp_faction24_fieldgun_cannoneer_Oficial|Oficial de esquadra Griego Cañon de Campaña
+trp_faction24_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Griegos Cañon de Campaña
+trp_faction25_fieldgun_cannoneer_Oficial|Oficial de esquadra Rumano Cañon de Campaña
+trp_faction25_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Rumanos Cañon de Campaña
+trp_faction26_fieldgun_cannoneer_Oficial|Oficial de esquadra Belga Cañon de Campaña
+trp_faction26_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Belgas Cañon de Campaña
+trp_faction27_fieldgun_cannoneer_Oficial|Oficial de esquadra Wurtembergués Cañon de Campaña
+trp_faction27_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Wurtembergueses Cañon de Campaña
+trp_faction28_fieldgun_cannoneer_Oficial|Oficial de esquadra Serbio Cañon de Campaña
+trp_faction28_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Serbios Cañon de Campaña
+trp_faction29_fieldgun_cannoneer_Oficial|Oficial de esquadra Suizo Cañon de Campaña
+trp_faction29_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Suizos Cañon de Campaña
+trp_faction30_fieldgun_cannoneer_Oficial|Oficial de esquadra Bávaro Cañon de Campaña
+trp_faction30_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Bávaros Cañon de Campaña
+trp_faction31_fieldgun_cannoneer_Oficial|Oficial de esquadra Hannoveriano Cañon de Campaña
+trp_faction31_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Hannoverianos Cañon de Campaña
+trp_faction32_fieldgun_cannoneer_Oficial|Oficial de esquadra Shammari Cañon de Campaña
+trp_faction32_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Shammaries Cañon de Campaña
+trp_faction33_fieldgun_cannoneer_Oficial|Oficial de esquadra Najdí Cañon de Campaña
+trp_faction33_fieldgun_cannoneer_Oficial_pl|Oficiales de esquadra Najdies Cañon de Campaña
+trp_factionplayer_howitzer_cannoneer_Oficial|Oficial de Tripulación de Obús
+trp_factionplayer_howitzer_cannoneer_Oficial_pl|Oficiales de tripulacion de Obús
+trp_faction1_howitzer_cannoneer_Oficial|Oficial Francés de tripulacion de Obús
+trp_faction1_howitzer_cannoneer_Oficial_pl|Oficiales Franceses de Tripulación de Obús
+trp_faction2_howitzer_cannoneer_Oficial|Oficial Ruso de tripulacion de Obús
+trp_faction2_howitzer_cannoneer_Oficial_pl|Oficiales Rusos de Tripulación de Obús
+trp_faction3_howitzer_cannoneer_Oficial|Oficial Austriaco de tripulacion de Obús
+trp_faction3_howitzer_cannoneer_Oficial_pl|Oficiales Austriacos de Tripulación de Obús
+trp_faction4_howitzer_cannoneer_Oficial|Oficial Cerdeño de tripulacion de Obús
+trp_faction4_howitzer_cannoneer_Oficial_pl|Oficiales Cerdeños de Tripulación de Obús
+trp_faction5_howitzer_cannoneer_Oficial|Oficial Prusiano de tripulacion de Obús
+trp_faction5_howitzer_cannoneer_Oficial_pl|Oficiales Prusianos de Tripulación de Obús
+trp_faction6_howitzer_cannoneer_Oficial|Oficial Otomano de tripulacion de Obús
+trp_faction6_howitzer_cannoneer_Oficial_pl|Oficiales Otomanos de Tripulación de Obús
+trp_faction7_howitzer_cannoneer_Oficial|Oficial Británico de tripulacion de Obús
+trp_faction7_howitzer_cannoneer_Oficial_pl|Oficiales Británicos de Tripulación de Obús
+trp_faction8_howitzer_cannoneer_Oficial|Oficial Holandés de tripulacion de Obús
+trp_faction8_howitzer_cannoneer_Oficial_pl|Oficiales Holandeses de Tripulación de Obús
+trp_faction9_howitzer_cannoneer_Oficial|Oficial Español de tripulacion de Obús
+trp_faction9_howitzer_cannoneer_Oficial_pl|Oficiales Españoles de Tripulación de Obús
+trp_faction10_howitzer_cannoneer_Oficial|Oficial Tunecino de tripulacion de Obús
+trp_faction10_howitzer_cannoneer_Oficial_pl|Oficiales Tunecinos de Tripulación de Obús
+trp_faction11_howitzer_cannoneer_Oficial|Oficial Siciliano de tripulacion de Obús
+trp_faction11_howitzer_cannoneer_Oficial_pl|Oficiales Sicilianos de Tripulación de Obús
+trp_faction12_howitzer_cannoneer_Oficial|Oficial Persa de tripulacion de Obús
+trp_faction12_howitzer_cannoneer_Oficial_pl|Oficiales Persas de Tripulación de Obús
+trp_faction13_howitzer_cannoneer_Oficial|Oficial Suizo de tripulacion de Obús
+trp_faction13_howitzer_cannoneer_Oficial_pl|Oficiales Suizos de Tripulación de Obús
+trp_faction14_howitzer_cannoneer_Oficial|Oficial Egipcio de tripulacion de Obús
+trp_faction14_howitzer_cannoneer_Oficial_pl|Oficiales Egipcios de Tripulación de Obús
+trp_faction15_howitzer_cannoneer_Oficial|Oficial Marroquí de tripulacion de Obús
+trp_faction15_howitzer_cannoneer_Oficial_pl|Oficiales Marroquies de Tripulación de Obús
+trp_faction16_howitzer_cannoneer_Oficial|Oficial Portugués de tripulacion de Obús
+trp_faction16_howitzer_cannoneer_Oficial_pl|Oficiales Portugueses de Tripulación de Obús
+trp_faction17_howitzer_cannoneer_Oficial|Oficial Omani de tripulacion de Obús
+trp_faction17_howitzer_cannoneer_Oficial_pl|Oficiales Omanies de Tripulación de Obús
+trp_faction18_howitzer_cannoneer_Oficial|Oficial Danés de tripulacion de Obús
+trp_faction18_howitzer_cannoneer_Oficial_pl|Oficiales Daneses de Tripulación de Obús
+trp_faction19_howitzer_cannoneer_Oficial|Oficial Papal de tripulacion de Obús
+trp_faction19_howitzer_cannoneer_Oficial_pl|Oficiales Papales de Tripulación de Obús
+trp_faction20_howitzer_cannoneer_Oficial|Oficial Británico de tripulacion de Obús
+trp_faction20_howitzer_cannoneer_Oficial_pl|Oficiales Británicos de Tripulación de Obús
+trp_faction21_howitzer_cannoneer_Oficial|Oficial Afgano de tripulacion de Obús
+trp_faction21_howitzer_cannoneer_Oficial_pl|Oficiales Afganos de Tripulación de Obús
+trp_faction22_howitzer_cannoneer_Oficial|Oficial Bujaranes de tripulacion de Obús
+trp_faction22_howitzer_cannoneer_Oficial_pl|Oficiales Bujaraneses de Tripulación de Obús
+trp_faction23_howitzer_cannoneer_Oficial|Oficial Jivanes de tripulacion de Obús
+trp_faction23_howitzer_cannoneer_Oficial_pl|Oficiales Jivaneses de Tripulación de Obús
+trp_faction24_howitzer_cannoneer_Oficial|Oficial Griego de tripulacion de Obús
+trp_faction24_howitzer_cannoneer_Oficial_pl|Oficiales Griegos de Tripulación de Obús
+trp_faction25_howitzer_cannoneer_Oficial|Oficial Rumano de tripulacion de Obús
+trp_faction25_howitzer_cannoneer_Oficial_pl|Oficiales Rumanos de Tripulación de Obús
+trp_faction26_howitzer_cannoneer_Oficial|Oficial Belga de tripulacion de Obús
+trp_faction26_howitzer_cannoneer_Oficial_pl|Oficiales Belgas de Tripulación de Obús
+trp_faction27_howitzer_cannoneer_Oficial|Oficial Wurtembergués de tripulacion de Obús
+trp_faction27_howitzer_cannoneer_Oficial_pl|Oficiales Wurtembergueses de Tripulación de Obús
+trp_faction28_howitzer_cannoneer_Oficial|Oficial Serbio de tripulacion de Obús
+trp_faction28_howitzer_cannoneer_Oficial_pl|Oficiales Serbios de Tripulación de Obús
+trp_faction29_howitzer_cannoneer_Oficial|Oficial Suizo de tripulacion de Obús
+trp_faction29_howitzer_cannoneer_Oficial_pl|Oficiales Suizos de Tripulación de Obús
+trp_faction30_howitzer_cannoneer_Oficial|Oficial Bávaro de tripulacion de Obús
+trp_faction30_howitzer_cannoneer_Oficial_pl|Oficiales Bávaros de Tripulación de Obús
+trp_faction31_howitzer_cannoneer_Oficial|Oficial Hannoveriano de tripulacion de Obús
+trp_faction31_howitzer_cannoneer_Oficial_pl|Oficiales Hannoverianos de Tripulación de Obús
+trp_faction32_howitzer_cannoneer_Oficial|Oficial Shammari de tripulacion de Obús
+trp_faction32_howitzer_cannoneer_Oficial_pl|Oficiales Shammaries de Tripulación de Obús
+trp_faction33_howitzer_cannoneer_Oficial|Oficial Najdí de tripulacion de Obús
+trp_faction33_howitzer_cannoneer_Oficial_pl|Oficiales Najdies de Tripulación de Obús
+trp_factionplayer_heavyhowitzer_cannoneer_Oficial|Oficial de tripulacion de Obús Pesado
+trp_factionplayer_heavyhowitzer_cannoneer_Oficial_pl| Oficiales de Tripulación de Obús Pesado
+trp_faction1_heavyhowitzer_cannoneer_Oficial|Oficial Francés de tripulacion de Obús Pesados
+trp_faction1_heavyhowitzer_cannoneer_Oficial_pl| Oficiales Franceses de Tripulación de Obús Pesado
+trp_faction2_heavyhowitzer_cannoneer_Oficial|Oficial Ruso de tripulacion de Obús Pesados
+trp_faction2_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Rusos de Tripulación de Obús Pesado
+trp_faction3_heavyhowitzer_cannoneer_Oficial|Oficial Austriaco de tripulacion de Obús Pesado 
+trp_faction3_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Austriacos de Tripulación de Obús Pesado
+trp_faction4_heavyhowitzer_cannoneer_Oficial|Oficial Cerdeño de tripulacion de Obús Pesado
+trp_faction4_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Cerdeños de Tripulación de Obús Pesado
+trp_faction5_heavyhowitzer_cannoneer_Oficial|Oficial Prusiano de tripulacion de Obús Pesado
+trp_faction5_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Prusianos de Tripulación de Obús Pesado
+trp_faction6_heavyhowitzer_cannoneer_Oficial|Oficial Otomano de tripulacion de Obús Pesado
+trp_faction6_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Otomanos de Tripulación de Obús Pesado
+trp_faction7_heavyhowitzer_cannoneer_Oficial|Oficial Británico de tripulacion de Obús Pesado
+trp_faction7_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Británicos de Tripulación de Obús Pesado
+trp_faction8_heavyhowitzer_cannoneer_Oficial|Oficial Holandés de tripulacion de Obús Pesado
+trp_faction8_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Holandeses de Tripulación de Obús Pesado
+trp_faction9_heavyhowitzer_cannoneer_Oficial|Oficial Español de tripulacion de Obús Pesado
+trp_faction9_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Españoles de Tripulación de Obús Pesado
+trp_faction10_heavyhowitzer_cannoneer_Oficial|Oficial Tunecino de tripulacion de Obús Pesado
+trp_faction10_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Tunecinos de Tripulación de Obús Pesado
+trp_faction11_heavyhowitzer_cannoneer_Oficial|Oficial Siciliano de tripulacion de Obús Pesado
+trp_faction11_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Sicilianos de Tripulación de Obús Pesado
+trp_faction12_heavyhowitzer_cannoneer_Oficial|Oficial Persa de tripulacion de Obús Pesado
+trp_faction12_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Persas de Tripulación de Obús Pesado
+trp_faction13_heavyhowitzer_cannoneer_Oficial|Oficial Suizo de tripulacion de Obús Pesado
+trp_faction13_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Suizos de Tripulación de Obús Pesado
+trp_faction14_heavyhowitzer_cannoneer_Oficial|Oficial Egipcio de tripulacion de Obús Pesado
+trp_faction14_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Egipcios de Tripulación de Obús Pesado
+trp_faction15_heavyhowitzer_cannoneer_Oficial|Oficial Marroquí de tripulacion de Obús Pesado
+trp_faction15_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Marroquies de Tripulación de Obús Pesado
+trp_faction16_heavyhowitzer_cannoneer_Oficial|Oficial Portugués de tripulacion de Obús Pesado
+trp_faction16_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Portugueses de Tripulación de Obús Pesado
+trp_faction17_heavyhowitzer_cannoneer_Oficial|Oficial Omani de tripulacion de Obús Pesado
+trp_faction17_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Omanies de Tripulación de Obús Pesado
+trp_faction18_heavyhowitzer_cannoneer_Oficial|Oficial Danés de tripulacion de Obús Pesado
+trp_faction18_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Daneses de Tripulación de Obús Pesado
+trp_faction19_heavyhowitzer_cannoneer_Oficial|Oficial Papal de tripulacion de Obús Pesado
+trp_faction19_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Papales de Tripulación de Obús Pesado
+trp_faction20_heavyhowitzer_cannoneer_Oficial|Oficial Británico de tripulacion de Obús Pesado
+trp_faction20_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Británicos de Tripulación de Obús Pesado
+trp_faction21_heavyhowitzer_cannoneer_Oficial|Oficial Afgano de tripulacion de Obús Pesado
+trp_faction21_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Afganos de Tripulación de Obús Pesado
+trp_faction22_heavyhowitzer_cannoneer_Oficial|Oficial Bujaranes de tripulacion de Obús Pesado
+trp_faction22_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Bujaraneses de Tripulación de Obús Pesado
+trp_faction23_heavyhowitzer_cannoneer_Oficial|Oficial Jivanes de tripulacion de Obús Pesado
+trp_faction23_heavyhowitzer_cannoneer_Oficial_pl| Oficiales Jivaneses de Tripulación de Obús Pesado
+trp_faction24_heavyhowitzer_cannoneer_Oficial|Oficial Griego de tripulacion de Obús Pesado
+trp_faction24_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Griegos de Tripulación de Obús Pesado
+trp_faction25_heavyhowitzer_cannoneer_Oficial|Oficial Rumano de tripulacion de Obús Pesado
+trp_faction25_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Rumanos de Tripulación de Obús Pesado
+trp_faction26_heavyhowitzer_cannoneer_Oficial|Oficial Belga de tripulacion de Obús Pesado
+trp_faction26_heavyhowitzer_cannoneer_Oficial_pl| Oficiales Belgas de Tripulación de Obús Pesado
+trp_faction27_heavyhowitzer_cannoneer_Oficial|Oficial Wurtembergués de tripulacion de Obús Pesado
+trp_faction27_heavyhowitzer_cannoneer_Oficial_pl| Oficiales Wurtembergueses de Tripulación de Obús Pesado
+trp_faction28_heavyhowitzer_cannoneer_Oficial|Oficial Serbio de tripulacion de Obús Pesado
+trp_faction28_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Serbios de Tripulación de Obús Pesado
+trp_faction29_heavyhowitzer_cannoneer_Oficial|Oficial Suizo de tripulacion de Obús Pesado
+trp_faction29_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Suizos de Tripulación de Obús Pesado
+trp_faction30_heavyhowitzer_cannoneer_Oficial|Oficial Bávaro de tripulacion de Obús Pesado
+trp_faction30_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Bávaros de Tripulación de Obús Pesado
+trp_faction31_heavyhowitzer_cannoneer_Oficial|Oficial Hannoveriano de tripulacion de Obús Pesado
+trp_faction31_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Hannoverianos de Tripulación de Obús Pesado
+trp_faction32_heavyhowitzer_cannoneer_Oficial|Oficial Shammarí de tripulacion de Obús Pesado
+trp_faction32_heavyhowitzer_cannoneer_Oficial_pl|Oficiales Shammaries de Tripulación de Obús Pesado
+trp_faction33_heavyhowitzer_cannoneer_Oficial|Oficial Najdí de tripulacion de Obús Pesado
+trp_faction33_heavyhowitzer_cannoneer_Oficial_pl| Oficiales Najdies de Tripulación de Obús Pesado
+trp_factionplayer_fieldgun_cannoneer|Cañonero de Campaña
+trp_factionplayer_fieldgun_cannoneer_pl|Cañoneros de Campaña
+trp_faction1_fieldgun_cannoneer|Cañonero Francés de Campaña
+trp_faction1_fieldgun_cannoneer_pl|Cañoneros Franceses de Campaña
+trp_faction2_fieldgun_cannoneer|Cañonero Ruso de Campaña
+trp_faction2_fieldgun_cannoneer_pl|Cañoneros Rusos de Campaña
+trp_faction3_fieldgun_cannoneer|Cañonero Austriaco de Campaña
+trp_faction3_fieldgun_cannoneer_pl|Cañoneros Austriacos de Campaña
+trp_faction4_fieldgun_cannoneer|Cañonero Cerdeño de Campaña
+trp_faction4_fieldgun_cannoneer_pl|Cañonero Cerdeños de Campaña
+trp_faction5_fieldgun_cannoneer|Cañonero Prusiano de Campaña
+trp_faction5_fieldgun_cannoneer_pl|Cañoneros Prusianos de Campaña
+trp_faction6_fieldgun_cannoneer|Cañonero Otomano de Campaña
+trp_faction6_fieldgun_cannoneer_pl|Cañoneros Otomanos de Campaña
+trp_faction7_fieldgun_cannoneer|Cañonero Británico de Campaña
+trp_faction7_fieldgun_cannoneer_pl|Cañoneros Británicos de Campaña
+trp_faction8_fieldgun_cannoneer|Cañonero Holandés de Campaña
+trp_faction8_fieldgun_cannoneer_pl|Cañoneros Holandeses de Campaña
+trp_faction9_fieldgun_cannoneer|Cañonero Español de Campaña
+trp_faction9_fieldgun_cannoneer_pl|Cañoneros Españoles de Campaña
+trp_faction10_fieldgun_cannoneer|Cañonero Tunecino de Campaña
+trp_faction10_fieldgun_cannoneer_pl|Cañoneros Tunecinos de Campaña
+trp_faction11_fieldgun_cannoneer|Cañonero Siciliano de Campaña
+trp_faction11_fieldgun_cannoneer_pl|Cañoneros Sicilianos de Campaña
+trp_faction12_fieldgun_cannoneer|Cañonero Persa de Campaña
+trp_faction12_fieldgun_cannoneer_pl|Cañoneros Persas de Campaña
+trp_faction13_fieldgun_cannoneer|Cañonero Suizo de Campaña
+trp_faction13_fieldgun_cannoneer_pl|Cañoneros Suizos de Campaña
+trp_faction14_fieldgun_cannoneer|Cañonero Egipcio de Campaña
+trp_faction14_fieldgun_cannoneer_pl|Cañoneros Egipcios de Campaña
+trp_faction15_fieldgun_cannoneer|Cañonero Marroquí de Campaña
+trp_faction15_fieldgun_cannoneer_pl|Cañoneros Marroquies de Campaña
+trp_faction16_fieldgun_cannoneer|Cañonero Portugués de Campaña
+trp_faction16_fieldgun_cannoneer_pl|Cañoneros Portugueses de Campaña
+trp_faction17_fieldgun_cannoneer|Cañonero Omani de Campaña
+trp_faction17_fieldgun_cannoneer_pl|Cañoneros Omanies de Campaña
+trp_faction18_fieldgun_cannoneer|Cañonero Danés de Campaña
+trp_faction18_fieldgun_cannoneer_pl|Cañonero Daneses de Campaña
+trp_faction19_fieldgun_cannoneer|Cañonero Papal de Campaña
+trp_faction19_fieldgun_cannoneer_pl|Cañoneros Papales de Campaña
+trp_faction20_fieldgun_cannoneer|Cañonero Británico de Campaña
+trp_faction20_fieldgun_cannoneer_pl|Cañoneros Británico de Campaña
+trp_faction21_fieldgun_cannoneer|Cañonero Afgano de Campaña
+trp_faction21_fieldgun_cannoneer_pl|Cañoneros Afganos de Campaña
+trp_faction22_fieldgun_cannoneer|Cañonero Bujaranes de Campaña
+trp_faction22_fieldgun_cannoneer_pl|Cañoneros Bujaraneses de Campaña
+trp_faction23_fieldgun_cannoneer|Cañonero Jivanes de Campaña
+trp_faction23_fieldgun_cannoneer_pl|Cañoneros Jivaneses de Campaña
+trp_faction24_fieldgun_cannoneer|Cañonero Griego de Campaña
+trp_faction24_fieldgun_cannoneer_pl|Cañoneros Griegos de Campaña
+trp_faction25_fieldgun_cannoneer|Cañonero Rumano de Campaña
+trp_faction25_fieldgun_cannoneer_pl|Cañoneros Rumanos de Campaña
+trp_faction26_fieldgun_cannoneer|Cañonero Belga de Campaña
+trp_faction26_fieldgun_cannoneer_pl|Cañoneros Belgas de Campaña
+trp_faction27_fieldgun_cannoneer|Cañonero Wurtembergués de Campaña
+trp_faction27_fieldgun_cannoneer_pl|Cañoneros Wurtembergueses de Campaña
+trp_faction28_fieldgun_cannoneer|Cañonero Serbio de Campaña
+trp_faction28_fieldgun_cannoneer_pl|Cañoneros Serbios de Campaña
+trp_faction29_fieldgun_cannoneer|Cañonero Suizo de Campaña
+trp_faction29_fieldgun_cannoneer_pl|Cañoneros Suizos de Campaña
+trp_faction30_fieldgun_cannoneer|Cañonero Bávaro de Campaña
+trp_faction30_fieldgun_cannoneer_pl|Cañoneros Bávaros de Campaña
+trp_faction31_fieldgun_cannoneer|Cañonero Hannoveriano de Campaña
+trp_faction31_fieldgun_cannoneer_pl|Cañoneros Hannoverianos de Campaña
+trp_faction32_fieldgun_cannoneer|Cañonero Shammarí de Campaña
+trp_faction32_fieldgun_cannoneer_pl|Cañoneros Shammaries de Campaña
+trp_faction33_fieldgun_cannoneer|Cañonero Najdí de Campaña
+trp_faction33_fieldgun_cannoneer_pl|Cañoneros Najdies de Campaña
+trp_factionplayer_howitzer_cannoneer|Cañonero de Obús
+trp_factionplayer_howitzer_cannoneer_pl|Cañoneros de Obús
+trp_faction1_howitzer_cannoneer|Cañonero Francés de Obús
+trp_faction1_howitzer_cannoneer_pl|Cañoneros Franceses de Obús
+trp_faction2_howitzer_cannoneer|Cañonero Ruso de Obús
+trp_faction2_howitzer_cannoneer_pl|Cañoneros Rusos de Obús
+trp_faction3_howitzer_cannoneer|Cañonero Austriaco de Obús
+trp_faction3_howitzer_cannoneer_pl|Cañoneros Austriacos de Obús
+trp_faction4_howitzer_cannoneer|Cañonero Cerdeño de Obús
+trp_faction4_howitzer_cannoneer_pl|Cañoneros Cerdeños de Obús
+trp_faction5_howitzer_cannoneer|Cañonero Prusiano de Obús
+trp_faction5_howitzer_cannoneer_pl|Cañoneros Prusianos de Obús
+trp_faction6_howitzer_cannoneer|Cañonero Otomano de Obús
+trp_faction6_howitzer_cannoneer_pl|Cañoneros Otomanos de Obús
+trp_faction7_howitzer_cannoneer|Cañonero Británico de Obús
+trp_faction7_howitzer_cannoneer_pl|Cañoneros Británicos de Obús
+trp_faction8_howitzer_cannoneer|Cañonero Holandés de Obús
+trp_faction8_howitzer_cannoneer_pl|Cañoneros Holandeses de Obús
+trp_faction9_howitzer_cannoneer|Cañonero Español de Obús
+trp_faction9_howitzer_cannoneer_pl|Cañoneros Españoles de Obús
+trp_faction10_howitzer_cannoneer|Cañonero Tunecino de Obús
+trp_faction10_howitzer_cannoneer_pl|Cañoneros Tunecinos de Obús
+trp_faction11_howitzer_cannoneer|Cañonero Siciliano de Obús
+trp_faction11_howitzer_cannoneer_pl|Cañoneros Sicilianos de Obús
+trp_faction12_howitzer_cannoneer|Cañonero Persa de Obús
+trp_faction12_howitzer_cannoneer_pl|Cañoneros Persas de Obús
+trp_faction13_howitzer_cannoneer|Cañonero Suizo de Obús
+trp_faction13_howitzer_cannoneer_pl|Cañoneros Suizos de Obús
+trp_faction14_howitzer_cannoneer|Cañonero Egipcio de Obús
+trp_faction14_howitzer_cannoneer_pl|Cañoneros Egipcios de Obús
+trp_faction15_howitzer_cannoneer|Cañonero Marroquí de Obús
+trp_faction15_howitzer_cannoneer_pl|Cañoneros Marroquies de Obús
+trp_faction16_howitzer_cannoneer|Cañonero Portugués de Obús
+trp_faction16_howitzer_cannoneer_pl|Cañoneros Portugueses de Obús
+trp_faction17_howitzer_cannoneer|Cañonero Omaní de Obús
+trp_faction17_howitzer_cannoneer_pl|Cañoneros Omamies de Obús
+trp_faction18_howitzer_cannoneer|Cañonero Danés de Obús
+trp_faction18_howitzer_cannoneer_pl|Cañoneros Daneses de Obús
+trp_faction19_howitzer_cannoneer|Cañonero Papal de Obús
+trp_faction19_howitzer_cannoneer_pl|Cañoneros Papales de Obús
+trp_faction20_howitzer_cannoneer|Cañonero Britanico de Obús
+trp_faction20_howitzer_cannoneer_pl|Cañoneros Británicos de Obús
+trp_faction21_howitzer_cannoneer|Cañonero Afgano de Obús
+trp_faction21_howitzer_cannoneer_pl|Cañoneros Afganos de Obús
+trp_faction22_howitzer_cannoneer|Cañonero Bujaranes de Obús
+trp_faction22_howitzer_cannoneer_pl|Cañoneros Bujaraneses de Obús
+trp_faction23_howitzer_cannoneer|Cañonero Jivanes de Obús
+trp_faction23_howitzer_cannoneer_pl|Cañoneros Jivaneses de Obús
+trp_faction24_howitzer_cannoneer|Cañonero Griego de Obús
+trp_faction24_howitzer_cannoneer_pl|Cañoneros Griegos de Obús
+trp_faction25_howitzer_cannoneer|Cañonero Rumano de Obús
+trp_faction25_howitzer_cannoneer_pl|Cañoneros Rumanos de Obús
+trp_faction26_howitzer_cannoneer|Cañonero Belga de Obús
+trp_faction26_howitzer_cannoneer_pl|Cañoneros Belgas de Obús
+trp_faction27_howitzer_cannoneer|Cañonero Wurtembergués de Obús
+trp_faction27_howitzer_cannoneer_pl|Cañoneros Wurtembergueses de Obús
+trp_faction28_howitzer_cannoneer|Cañonero Serbio de Obús
+trp_faction28_howitzer_cannoneer_pl|Cañoneros Serbios de Obús
+trp_faction29_howitzer_cannoneer|Cañonero Suizo de Obús
+trp_faction29_howitzer_cannoneer_pl|Cañoneros Suizos de Obús
+trp_faction30_howitzer_cannoneer|Cañonero Bávaro de Obús
+trp_faction30_howitzer_cannoneer_pl|Cañoneros Bávaros de Obús
+trp_faction31_howitzer_cannoneer|Cañonero Hannoveriano de Obús
+trp_faction31_howitzer_cannoneer_pl|Cañoneros Hannoverianos de Obús
+trp_faction32_howitzer_cannoneer|Cañonero Shammarí de Obús
+trp_faction32_howitzer_cannoneer_pl|Cañoneros Shammaries de Obús
+trp_faction33_howitzer_cannoneer|Cañonero Najdí de Obús
+trp_faction33_howitzer_cannoneer_pl|Cañoneros Najdies de Obús
 trp_cannoneers_end|cannoneers end
 trp_cannoneers_end_pl|cannoneers end
-trp_factionplayer_mgoperator|Machine Gun Operator
-trp_factionplayer_mgoperator_pl|Machine Gun Operators
-trp_faction1_mgoperator|French Machine Gun Operator
-trp_faction1_mgoperator_pl|French Machine Gun Operators
-trp_faction2_mgoperator|Russian Machine Gun Operator
-trp_faction2_mgoperator_pl|Machine Gun Operators
-trp_faction3_mgoperator|Austrian Machine Gun Operator
-trp_faction3_mgoperator_pl|Machine Gun Operators
-trp_faction4_mgoperator|Sardinian Machine Gun Operator
-trp_faction4_mgoperator_pl|Machine Gun Operators
-trp_faction5_mgoperator|Prussian Machine Gun Operator
-trp_faction5_mgoperator_pl|Machine Gun Operators
-trp_faction6_mgoperator|Ottoman Machine Gun Operator
-trp_faction6_mgoperator_pl|Machine Gun Operators
-trp_faction7_mgoperator|British Machine Gun Operator
-trp_faction7_mgoperator_pl|Machine Gun Operators
-trp_faction8_mgoperator|Dutch Machine Gun Operator
-trp_faction8_mgoperator_pl|Machine Gun Operators
-trp_faction9_mgoperator|Spanish Machine Gun Operator
-trp_faction9_mgoperator_pl|Machine Gun Operators
-trp_faction10_mgoperator|Tunisian Machine Gun Operator
-trp_faction10_mgoperator_pl|Machine Gun Operators
-trp_faction11_mgoperator|Sicilian Machine Gun Operator
-trp_faction11_mgoperator_pl|Machine Gun Operators
-trp_faction12_mgoperator|Persian Machine Gun Operator
-trp_faction12_mgoperator_pl|Machine Gun Operators
-trp_faction13_mgoperator|Swiss Machine Gun Operator
-trp_faction13_mgoperator_pl|Machine Gun Operators
-trp_faction14_mgoperator|Egyptian Machine Gun Operator
-trp_faction14_mgoperator_pl|Machine Gun Operators
-trp_faction15_mgoperator|Marroquí Machine Gun Operator
-trp_faction15_mgoperator_pl|Machine Gun Operators
-trp_faction16_mgoperator|Portuguese Machine Gun Operator
-trp_faction16_mgoperator_pl|Machine Gun Operators
-trp_faction17_mgoperator|Omani Machine Gun Operator
-trp_faction17_mgoperator_pl|Machine Gun Operators
-trp_faction18_mgoperator|Danish Machine Gun Operator
-trp_faction18_mgoperator_pl|Machine Gun Operators
-trp_faction19_mgoperator|Papal Machine Gun Operator
-trp_faction19_mgoperator_pl|Machine Gun Operators
-trp_faction20_mgoperator|British Machine Gun Operator
-trp_faction20_mgoperator_pl|Machine Gun Operators
-trp_faction21_mgoperator|Afghan Machine Gun Operator
-trp_faction21_mgoperator_pl|Machine Gun Operators
-trp_faction22_mgoperator|Bukharan Machine Gun Operator
-trp_faction22_mgoperator_pl|Machine Gun Operators
-trp_faction23_mgoperator|Khivan Machine Gun Operator
-trp_faction23_mgoperator_pl|Machine Gun Operators
-trp_faction24_mgoperator|Greek Machine Gun Operator
-trp_faction24_mgoperator_pl|Machine Gun Operators
-trp_faction25_mgoperator|Romanian Machine Gun Operator
-trp_faction25_mgoperator_pl|Machine Gun Operators
-trp_faction26_mgoperator|Belgian Machine Gun Operator
-trp_faction26_mgoperator_pl|Machine Gun Operators
-trp_faction27_mgoperator|Wurttemberg Machine Gun Operator
-trp_faction27_mgoperator_pl|Machine Gun Operators
-trp_faction28_mgoperator|Serbian Machine Gun Operator
-trp_faction28_mgoperator_pl|Machine Gun Operators
-trp_faction29_mgoperator|Suizo Machine Gun Operator
-trp_faction29_mgoperator_pl|Machine Gun Operators
-trp_faction30_mgoperator|Bavarian Machine Gun Operator
-trp_faction30_mgoperator_pl|Machine Gun Operators
-trp_faction31_mgoperator|Hanoverian Machine Gun Operator
-trp_faction31_mgoperator_pl|Machine Gun Operators
-trp_faction32_mgoperator|Shammari Machine Gun Operator
-trp_faction32_mgoperator_pl|Machine Gun Operators
-trp_faction33_mgoperator|Najdi Machine Gun Operator
-trp_faction33_mgoperator_pl|Machine Gun Operators
-trp_mgoperator_end|Najdi Machine Gun Operator
-trp_mgoperator_end_pl|Machine Gun Operators
-trp_rebel_european1|European Insurgent
-trp_rebel_european1_pl|European Insurgent
-trp_rebel_european2|European Insurgent (Exp.)
-trp_rebel_european2_pl|European Insurgent (Exp.)
-trp_rebel_european3|European Insurgent Sharpshooter
-trp_rebel_european3_pl|European Insurgent
-trp_rebel_european4|European Insurgent Sharpshooter (Exp.)
-trp_rebel_european4_pl|European Insurgent
-trp_rebel_european5|European Insurgent Cavalry
-trp_rebel_european5_pl|European Insurgent Cavalry
-trp_rebel_european6|European Insurgent Cavalry (Exp.)
-trp_rebel_european6_pl|European Insurgent Cavalry (Exp.)
-trp_rebel_arab1|Arab Insurgent
-trp_rebel_arab1_pl|Arab Insurgent
-trp_rebel_arab2|Arab Insurgent (Exp.)
-trp_rebel_arab2_pl|Arab Insurgent (Exp.)
-trp_rebel_arab3|Arab Insurgent Sharpshooter
-trp_rebel_arab3_pl|Arab Insurgent
-trp_rebel_arab4|Arab Insurgent Sharpshooter (Exp.)
-trp_rebel_arab4_pl|Arab Insurgent
-trp_rebel_arab5|Arab Insurgent Cavalry
-trp_rebel_arab5_pl|Arab Insurgent Cavalry
-trp_rebel_arab6|Arab Insurgent Cavalry (Exp.)
-trp_rebel_arab6_pl|Arab Insurgent Cavalry (Exp.)
-trp_rebel_turkish1|Turkish Insurgent
-trp_rebel_turkish1_pl|Turkish Insurgent
-trp_rebel_turkish2|Turkish Insurgent (Exp.)
-trp_rebel_turkish2_pl|Turkish Insurgent (Exp.)
-trp_rebel_turkish3|Turkish Insurgent Sharpshooter
-trp_rebel_turkish3_pl|Turkish Insurgent
-trp_rebel_turkish4|Turkish Insurgent Sharpshooter (Exp.)
-trp_rebel_turkish4_pl|Turkish Insurgent
-trp_rebel_turkish5|Turkish Insurgent Cavalry
-trp_rebel_turkish5_pl|Turkish Insurgent Cavalry
-trp_rebel_turkish6|Turkish Insurgent Cavalry (Exp.)
-trp_rebel_turkish6_pl|Turkish Insurgent Cavalry (Exp.)
-trp_rebel_persian1|Persian Insurgent
-trp_rebel_persian1_pl|Persian Insurgent
-trp_rebel_persian2|Persian Insurgent (Exp.)
-trp_rebel_persian2_pl|Persian Insurgent (Exp.)
-trp_rebel_persian3|Persian Insurgent Sharpshooter
-trp_rebel_persian3_pl|Persian Insurgent
-trp_rebel_persian4|Persian Insurgent Sharpshooter (Exp.)
-trp_rebel_persian4_pl|Persian Insurgent
-trp_rebel_persian5|Persian Insurgent Cavalry
-trp_rebel_persian5_pl|Persian Insurgent Cavalry
-trp_rebel_persian6|Persian Insurgent Cavalry (Exp.)
-trp_rebel_persian6_pl|Persian Insurgent Cavalry (Exp.)
-trp_rebel_indian1|Indian Insurgent
-trp_rebel_indian1_pl|Indian Insurgent
-trp_rebel_indian2|Indian Insurgent (Exp.)
-trp_rebel_indian2_pl|Indian Insurgent (Exp.)
-trp_rebel_indian3|Indian Insurgent Sharpshooter
-trp_rebel_indian3_pl|Indian Insurgent
-trp_rebel_indian4|Indian Insurgent Sharpshooter (Exp.)
-trp_rebel_indian4_pl|Indian Insurgent
-trp_rebel_indian5|Indian Insurgent Cavalry
-trp_rebel_indian5_pl|Indian Insurgent Cavalry
-trp_rebel_indian6|Indian Insurgent Cavalry (Exp.)
-trp_rebel_indian6_pl|Indian Insurgent Cavalry (Exp.)
-trp_rebel_middleasia1|Middle Asia Insurgent
-trp_rebel_middleasia1_pl|Middle Asia Insurgent
-trp_rebel_middleasia2|Middle Asia Insurgent (Exp.)
-trp_rebel_middleasia2_pl|Middle Asia Insurgent (Exp.)
-trp_rebel_middleasia3|Middle Asia Insurgent Sharpshooter
-trp_rebel_middleasia3_pl|Middle Asia Insurgent
-trp_rebel_middleasia4|Middle Asia Insurgent Sharpshooter (Exp.)
-trp_rebel_middleasia4_pl|Middle Asia Insurgent
-trp_rebel_middleasia5|Middle Asia Insurgent Cavalry
-trp_rebel_middleasia5_pl|Middle Asia Insurgent Cavalry
-trp_rebel_middleasia6|Middle Asia Insurgent Cavalry (Exp.)
-trp_rebel_middleasia6_pl|Middle Asia Insurgent Cavalry (Exp.)
-trp_rebel_caucasus1|Caucasus Insurgent
-trp_rebel_caucasus1_pl|Caucasus Insurgent
-trp_rebel_caucasus2|Caucasus Insurgent (Exp.)
-trp_rebel_caucasus2_pl|Caucasus Insurgent (Exp.)
-trp_rebel_caucasus3|Caucasus Insurgent Sharpshooter
-trp_rebel_caucasus3_pl|Caucasus Insurgent
-trp_rebel_caucasus4|Caucasus Insurgent Sharpshooter (Exp.)
-trp_rebel_caucasus4_pl|Caucasus Insurgent
-trp_rebel_caucasus5|Caucasus Insurgent Cavalry
-trp_rebel_caucasus5_pl|Caucasus Insurgent Cavalry
-trp_rebel_caucasus6|Caucasus Insurgent Cavalry (Exp.)
-trp_rebel_caucasus6_pl|Caucasus Insurgent Cavalry (Exp.)
-trp_rebel_redshirt1|Red Shirt Volunteer
-trp_rebel_redshirt1_pl|Red Shirt Volunteers
-trp_rebel_redshirt2|Red Shirt Volunteer (Exp.)
-trp_rebel_redshirt2_pl|Red Shirt Volunteers (Exp.)
-trp_rebel_redshirt3|Red Shirt Sharpshooter
-trp_rebel_redshirt3_pl|Red Shirt Sharpshooters
-trp_rebel_redshirt4|Red Shirt Sharpshooter (Exp.)
-trp_rebel_redshirt4_pl|Red Shirt Sharpshooters
-trp_rebel_redshirt5|Red Shirt Cavalry
-trp_rebel_redshirt5_pl|Red Shirt Cavalry
-trp_rebel_redshirt6|Red Shirt Cavalry (Exp.)
-trp_rebel_redshirt6_pl|Red Shirt Cavalry (Exp.)
-trp_coachman|Coachman
-trp_coachman_pl|Coachmen
+trp_factionplayer_mgoperator|Operador de Ametralladora Pesada
+trp_factionplayer_mgoperator_pl|Operadores de Ametralladora Pesada
+trp_faction1_mgoperator|Operador Francés de Ametralladora Pesada
+trp_faction1_mgoperator_pl|Operadores Franceses de Ametralladora Pesada
+trp_faction2_mgoperator|Operador Ruso de Ametralladora Pesada
+trp_faction2_mgoperator_pl|Operadores Rusos de Ametralladora Pesada
+trp_faction3_mgoperator|Operador Austriaco de Ametralladora Pesada
+trp_faction3_mgoperator_pl|Operadores Austriacos de Ametralladora Pesada
+trp_faction4_mgoperator|Operador Cerdeño de Ametralladora Pesada
+trp_faction4_mgoperator_pl|Operadores Cerdeños de Ametralladora Pesada
+trp_faction5_mgoperator|Operador Prusiano de Ametralladora Pesada
+trp_faction5_mgoperator_pl|Operadores Prusianos de Ametralladora Pesada
+trp_faction6_mgoperator|Operador Otomano de Ametralladora Pesada
+trp_faction6_mgoperator_pl|Operadores Otomanos de Ametralladora Pesada
+trp_faction7_mgoperator|Operador Británicos de Ametralladora Pesada
+trp_faction7_mgoperator_pl|Operadores Británico de Ametralladora Pesada
+trp_faction8_mgoperator|Operador Holandés de Ametralladora Pesada 
+trp_faction8_mgoperator_pl|Operadores Holandeses de Ametralladora Pesada
+trp_faction9_mgoperator|Operador Español de Ametralladora Pesada
+trp_faction9_mgoperator_pl|Operadores Español de Ametralladora Pesada
+trp_faction10_mgoperator|Operador Tunecino de Ametralladora Pesada
+trp_faction10_mgoperator_pl|Operadores Tunecinos de Ametralladora Pesada
+trp_faction11_mgoperator|Operador Siciliano de Ametralladora Pesada
+trp_faction11_mgoperator_pl|Operadores Sicilianos de Ametralladora Pesada
+trp_faction12_mgoperator|Operador Persa de Ametralladora Pesada
+trp_faction12_mgoperator_pl|Operadores Persas de Ametralladora Pesada
+trp_faction13_mgoperator|Operador Suizo de Ametralladora Pesada
+trp_faction13_mgoperator_pl|Operadores Suizos de Ametralladora Pesada
+trp_faction14_mgoperator|Operador Egipcio de Ametralladora Pesada
+trp_faction14_mgoperator_pl|Operadores Egipcios de Ametralladora Pesada
+trp_faction15_mgoperator|Operador Marroquí de Ametralladora Pesada
+trp_faction15_mgoperator_pl|Operadores Marroquies de Ametralladora Pesada
+trp_faction16_mgoperator|Operador Portugués de Ametralladora Pesada
+trp_faction16_mgoperator_pl|Operadores Portugueses de Ametralladora Pesada
+trp_faction17_mgoperator|Operador Omaní de Ametralladora Pesada
+trp_faction17_mgoperator_pl|Operadores Omanies de Ametralladora Pesada
+trp_faction18_mgoperator|Operador Danés de Ametralladora Pesada
+trp_faction18_mgoperator_pl|Operadores Daneses de Ametralladora Pesada
+trp_faction19_mgoperator|Operador Papal de Ametralladora Pesada
+trp_faction19_mgoperator_pl|Operadores Papales de Ametralladora Pesada
+trp_faction20_mgoperator|Operador Británico de Ametralladora Pesada
+trp_faction20_mgoperator_pl|Operadores Británicos de Ametralladora Pesada
+trp_faction21_mgoperator|Operador Afgano de Ametralladora Pesada
+trp_faction21_mgoperator_pl|Operadores Afganos de Ametralladora Pesada
+trp_faction22_mgoperator|Operador Bujaranes de Ametralladora Pesada
+trp_faction22_mgoperator_pl|Operadores Bujaraneses de Ametralladora Pesada
+trp_faction23_mgoperator|Operador Jivanes de Ametralladora Pesada
+trp_faction23_mgoperator_pl|Operadores Jivaneses de Ametralladora Pesada
+trp_faction24_mgoperator|Operador Griego de Ametralladora Pesada
+trp_faction24_mgoperator_pl|Operadores Griegos de Ametralladora Pesada
+trp_faction25_mgoperator|Operador Rumano de Ametralladora Pesada
+trp_faction25_mgoperator_pl|Operadores Rumanos de Ametralladora Pesada
+trp_faction26_mgoperator|Operador Belga de Ametralladora Pesada
+trp_faction26_mgoperator_pl|Operadores Belgas de Ametralladora Pesada
+trp_faction27_mgoperator|Operador Wurtembergués de Ametralladora Pesada
+trp_faction27_mgoperator_pl|Operadores wurtembergueses de Ametralladora Pesada
+trp_faction28_mgoperator|Operador Serbio de Ametralladora Pesada
+trp_faction28_mgoperator_pl|Operadores Serbios de Ametralladora Pesada
+trp_faction29_mgoperator|Operador Suizo de Ametralladora Pesada
+trp_faction29_mgoperator_pl|Operadores Suizos de Ametralladora Pesada
+trp_faction30_mgoperator|Operador Bávaro de Ametralladora Pesada
+trp_faction30_mgoperator_pl|Operadores Bávaros de Ametralladora Pesada
+trp_faction31_mgoperator|Operador Hannoveriano de Ametralladora Pesada
+trp_faction31_mgoperator_pl|Operadores Hannoverianos de Ametralladora Pesada
+trp_faction32_mgoperator|Operador Shammarí de Ametralladora Pesada
+trp_faction32_mgoperator_pl|Operadores Shammaries de Ametralladora Pesada
+trp_faction33_mgoperator|Operador Najdí de Ametralladora Pesada
+trp_faction33_mgoperator_pl|Operadores Najdies de Ametralladora 
+trp_mgoperator_end|Operador Najdí de Ametralladora Pesada
+trp_mgoperator_end_pl|Operadores Najdies de Ametralladora
+trp_rebel_european1|Insurgente Europeo
+trp_rebel_european1_pl|Insurgentes Europeos
+trp_rebel_european2|Insurgente Europeo (Exp.)
+trp_rebel_european2_pl|Insurgentes Europeos (Exp.)
+trp_rebel_european3|Francotirador Insurgente Europeo
+trp_rebel_european3_pl|Francotiradores Insurgentes Europeos
+trp_rebel_european4|Francotirador Insurgente Europeo (Exp.)
+trp_rebel_european4_pl|Francotiradores Insurgentes Europeos (Exp.)
+trp_rebel_european5|Jinete Insurgente Europeo
+trp_rebel_european5_pl|Jinetes Insurgentes Europeos
+trp_rebel_european6|Jinete Insurgente Europeo (Exp.)
+trp_rebel_european6_pl|Jinetes Insurgentes Europeos (Exp.)
+trp_rebel_arab1|Insurgente Árabe
+trp_rebel_arab1_pl|Insurgentes Árabes
+trp_rebel_arab2|Insurgente Árabe (Exp.)
+trp_rebel_arab2_pl|Insurgentes Árabes (Exp.)
+trp_rebel_arab3|Francotirador Insurgente Árabe
+trp_rebel_arab3_pl|Francotiradores Insurgentes Árabes
+trp_rebel_arab4|Francotirador Insurgente Árabe (Exp.)
+trp_rebel_arab4_pl|Francotiradores Insurgentes Árabes
+trp_rebel_arab5|Jinete Insurgente Árabe
+trp_rebel_arab5_pl|Jinetes Insurgente Árabes
+trp_rebel_arab6|Jinete Insurgente Árabe (Exp.)
+trp_rebel_arab6_pl|Jinetes Insurgentes Árabes (Exp.)
+trp_rebel_turkish1|Insurgente Turco
+trp_rebel_turkish1_pl|Insurgente Turcos
+trp_rebel_turkish2|Insurgente Turco (Exp.)
+trp_rebel_turkish2_pl|Insurgente Turcos (Exp.)
+trp_rebel_turkish3|Francotirador Insurgente Turco
+trp_rebel_turkish3_pl|Francotiradores Insurgentes Turcos
+trp_rebel_turkish4|Francotirador Insurgente Turco (Exp.)
+trp_rebel_turkish4_pl|Francotiradores Insurgentes Turcos (Exp.)
+trp_rebel_turkish5|Jinete Insurgente Turco
+trp_rebel_turkish5_pl|Jinete Insurgente Turcos
+trp_rebel_turkish6|Jinete Insurgente Turco (Exp.)
+trp_rebel_turkish6_pl|Jinetes Insurgentes Turcos (Exp.)
+trp_rebel_persian1|Insurgente Persa
+trp_rebel_persian1_pl|Insurgentes Persas
+trp_rebel_persian2|Insurgente Persa (Exp.)
+trp_rebel_persian2_pl|Insurgentes Persas (Exp.)
+trp_rebel_persian3|Francotirador Insurgente Persa
+trp_rebel_persian3_pl|Francotiradores Insurgentes Persas
+trp_rebel_persian4|Francotirador Insurgente Persa (Exp.)
+trp_rebel_persian4_pl|Francotiradores Insurgentes Persas (Exp.)
+trp_rebel_persian5|Jinete Insurgente Persa
+trp_rebel_persian5_pl|Jinetes Insurgentes Persas
+trp_rebel_persian6|Jinete Insurgente Persa (Exp.)
+trp_rebel_persian6_pl|Jinetes Insurgentes Persas (Exp.)
+trp_rebel_indian1|Insurgente Indio
+trp_rebel_indian1_pl|Insurgentes Indios
+trp_rebel_indian2|Insurgente Indio (Exp.)
+trp_rebel_indian2_pl|Insurgentes Indios (Exp.)
+trp_rebel_indian3|Francotirador Insurgente Indio
+trp_rebel_indian3_pl|Francotiradores Insurgente Indio
+trp_rebel_indian4|Francotirador Insurgente Indio (Exp.)
+trp_rebel_indian4_pl|Francotiradores Insurgentes Indios (Exp.)
+trp_rebel_indian5|Jinete Insurgente Indio
+trp_rebel_indian5_pl|Jinetes Insurgentes Indios
+trp_rebel_indian6|Jinete Insurgente Indio (Exp.)
+trp_rebel_indian6_pl|Jinetes Insurgentes Indios (Exp.)
+trp_rebel_middleasia1|Insurgente de Medio Oriente
+trp_rebel_middleasia1_pl|Insurgente de Medio Oriente
+trp_rebel_middleasia2|Insurgente de Medio Oriente (Exp.)
+trp_rebel_middleasia2_pl|Insurgente de Medio Oriente (Exp.)
+trp_rebel_middleasia3|Francotirador Insurgente de Medio Oriente
+trp_rebel_middleasia3_pl|Francotiradores Insurgentes de Medio Oriente
+trp_rebel_middleasia4|Francotirador Insurgente de Medio Oriente (Exp.)
+trp_rebel_middleasia4_pl|Francotiradores Insurgentes de Medio Oriente (Exp.)
+trp_rebel_middleasia5|Jinete Insurgente de Medio Oriente
+trp_rebel_middleasia5_pl|Jinetes Insurgentes de Medio Oriente
+trp_rebel_middleasia6|Jinete Insurgente de Medio Oriente (Exp.)
+trp_rebel_middleasia6_pl|Jinetes Insurgentes de Medio Oriente (Exp.)
+trp_rebel_caucasus1|Insurgente Cáucaso
+trp_rebel_caucasus1_pl|Insurgente Cáucaso
+trp_rebel_caucasus2|Insurgente Cáucaso (Exp.)
+trp_rebel_caucasus2_pl|Insurgente Cáucaso (Exp.)
+trp_rebel_caucasus3|Francotirador Insurgente Cáucaso 
+trp_rebel_caucasus3_pl|Francotiradoreses Insurgentes Cáucasos
+trp_rebel_caucasus4|Francotirador Insurgente Cáucaso (Exp.)
+trp_rebel_caucasus4_pl|Francotiradoreses Insurgentes Cáucasos (Exp)
+trp_rebel_caucasus5|Jinete Insurgente Cáucaso
+trp_rebel_caucasus5_pl|Jinetes Insurgentes Cáucasos
+trp_rebel_caucasus6|Jinete Insurgente Cáucaso (Exp.)
+trp_rebel_caucasus6_pl|Jinetes Insurgentes Cáucasos (Exp.)
+trp_rebel_redshirt1|Voluntario Camisa Roja
+trp_rebel_redshirt1_pl|Voluntarios Camisas Rojas
+trp_rebel_redshirt2|Voluntario Camisa Roja (Exp.)
+trp_rebel_redshirt2_pl|Voluntarios Camisas Rojas (Exp.)
+trp_rebel_redshirt3|Francotirador de Camisa Roja
+trp_rebel_redshirt3_pl|Francotiradores de Camisas Rojas
+trp_rebel_redshirt4|Francotirador de Camisa Roja (Exp.)
+trp_rebel_redshirt4_pl|Francotiradores de Camisas Rojas (Exp)
+trp_rebel_redshirt5|Jinete de Camisa Roja
+trp_rebel_redshirt5_pl|Jinetes de Camisas Rojas
+trp_rebel_redshirt6|Jinete de Camisa Roja (Exp.)
+trp_rebel_redshirt6_pl|Jinetes de Camisas Rojas (Exp.)
+trp_coachman|Cochero
+trp_coachman_pl|Cocheros
