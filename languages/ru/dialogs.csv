@@ -1,4 +1,4 @@
-dlga_award_fief_to_vassal:award_fief_to_vassal_defer|Я бы хотел отложить назначение владельца, до получения совета от моих подданных.
+﻿dlga_award_fief_to_vassal:award_fief_to_vassal_defer|Я бы хотел отложить назначение владельца, до получения совета от моих подданных.
 dlga_award_fief_to_vassal_defer:close_window|Как пожелаете, {сир/миледи}. Вы можете решить это позже.
 dlga_award_fief_to_vassal_2:close_window|Как пожелаете, {сир/миледи}. Теперь {reg6?Я:{reg7?Вы:{s11}}} новый владелец {s1}.
 dlga_event_triggered:center_captured_rebellion|{s1} прозябает без хозяина. Кого мне поставить за главного?
@@ -325,70 +325,70 @@ dlga_minister_issues:minister_talk|{s1} в настоящее время не и
 dlga_minister_issues:minister_talk.1|На сегодняшний день у вас нет дел, требующих незамедлительного внимания. Но должен сказать, что я не слишком силен в политике и предпочитают держаться от нее подальше. Поэтому, если вам понадобится решить какие-то глобальные вопросы, обращайтесь лучше к моему надежному помощнику. В любом случае, я могу для вас что-нибудь сделать?
 dlga_minister_issues:minister_talk.2|Я дам вам один совет, {милорд/миледи}. Похоже, далеко не все признают ваше право на власть, и в дальнейшем это может вызвать множество проблем. Возможно, вам стоит найти государство с похожими устремлениями и добиться его признания - так вы как бы станете ровней остальным правителям Кальрадии.
 dlga_minister_issues:minister_talk.3|На сегодняшний день у вас нет дел, требующих незамедлительного внимания. Я могу для вас что-нибудь сделать?
-dlga_minister_talk:prussia_unification_austria1|The war with the Danes has caused tensions with the Austrians. It's time to usurp them as German hegemon.
-dlga_prussia_unification_austria1:prussia_unification_austria2|We are on the brink of war already, we won't have much of a choice anyways. The Austrian Emperor is still the leader of the German Confederation, so we will have to fend both the Austrians, aswell as their Bavarian allies, and the major members of the German Confederation; Wurttemberg and Hannover. Hannover is going to fall into our hands should we best the Austro-Hungarians, their English benefactors don't care enough to protect them, and they are the only Northern German state outside our sphere of influence. We will have to destroy the Confederate armies entirely, and conquer Nurmberg and Stuttgart to force the Southerners to surrender.
-dlga_prussia_unification_austria2:close_window|War it is. The Austrians won't stand a chance, and they will never return to power.
-dlga_prussia_unification_austria2:minister_pretalk|We can't fight our German neighbours, we wouldn't stand a chance against them.
-dlga_minister_talk:prussia_unification_france1|Revenge, Secretary, I want revenge for thousands of dead Prussians at Napoleon's hand.
-dlga_prussia_unification_france1:prussia_unification_france2|Very well, my {King/Queen}. 'All' that's left to do is to capture Alsace-Lorraine's capital, Strasbourg, and defeat the French army. If accomplished, we will have displayed our might to an extend even the Bavarians can't deny. It will be a bloody war, and the French have done all they can to match our technological might, and I must say, I am afraid they have us outmatched. But once utterly defeated, we can declare empire on their own empire's rotten corpse.
-dlga_prussia_unification_france2:close_window|Very well indeed! To war, I say!
-dlga_prussia_unification_france2:minister_pretalk|We'd be mad to fight the French under current circumstances, they have us outmatched.
-dlga_minister_talk:prussia_unification_start1|The chancellor has me convinced, it's time to put an end to German disunity. What's your advice, Secretary?
-dlga_prussia_unification_start1:prussia_unification_start2|Why, then it's finally time to make 'forever inseparable' the war shout it was meant to be. Schleswig has to be brought back into German hands, and so does Holstein. The Danes have been holding onto Schleswig for four centuries, and their barbaric attempts at destroying the local movement undermined our ambitions in 1848. We have to secure the fortified cityof Schleswig, and destroy the Danish armies in the process. Volunteers have bolstered their numbers following our recent skirmishes, so you will have to drive those Swedes back into the sea alongside their Danish compatriots.
-dlga_prussia_unification_start2:close_window|So be it, inform the general staff that we are going to war.
-dlga_prussia_unification_start2:minister_pretalk|Unnecessary bloodshed, through and through. Try to difuse the situation.
-dlga_minister_talk:italy_unification_start1|It's time to expand our influence and unite the Italian people. How could we go about this?
-dlga_italy_unification_start1:italy_unification_start2|Quite ambitions, {Sir/my Lady}, yet very righteous, if I dare say so myself. To unite Italy, we will have to conquer the illegitimate {s1}. Conquering their capitals will be of utmost importance, but it will hardly be enough to force them to surrender. You will need to cause some... disdain with the current affairs within their general population, be that through military victories on the fields on our part, or having forts and cities at the frontiers fall into our hands.
-dlga_italy_unification_start2:italy_unification_start3_proceed|So be it, we will reunite Italy. We can't let the deaths of our fathers be in vain.
-dlga_italy_unification_start2:italy_unification_start3_cancel|We can't spill the blood of Italians and pretend it will bring us together. I will have to rethink.
-dlga_italy_unification_start3_proceed:close_window|Glory to Italy, {Sir/my Lady}! I pray we soon unite with the rest of the Italian people, and that we may bring the terre irredente back into the Kingdom.
-dlga_italy_unification_start3_cancel:close_window|So be it, my {King/Queen}. I support your decision regardless, but consider the importance freeing our people from the yolk of foreign oppression has for all of us.
-dlga_minister_talk:peace_negotiations_initial|I want you to initiate peace negotiations with a foreign power.
-dlga_minister_talk:improve_relations_initial|I want you to leverage our governments ties to improve relations with a foreign power.
-dlga_peace_negotiations_initial:peace_negotiations_choose_faction|Most certainly. The people are growing tired of conflict already. Who shall I try to convince to lay down arms?
+dlga_minister_talk:prussia_unification_austria1|Война с датчанами вызвала напряженность в отношениях с австрийцами. Пора узурпировать их как немецкого гегемона.
+dlga_prussia_unification_austria1:prussia_unification_austria2|Мы уже находимся на грани войны, в любом случае у нас не будет особого выбора. Австрийский император по-прежнему является лидером Германской Конфедерации, поэтому нам придется защищать как австрийцев, так и их баварских союзников, и основных членов Германской Конфедерации; Вюртемберг и Ганновер. Ганновер попадет в наши руки, если мы победим австро-венгров, их английские благодетели не позаботятся о их защите, а они будут единственным северогерманским государством за пределами нашей сферы влияния. Нам придется полностью уничтожить армии Конфедерации и завоевать Нурберг и Штутгарт, чтобы заставить южан сдаться.
+dlga_prussia_unification_austria2:close_window|Это война. У австрийцев не будет ни единого шанса, и они никогда не вернутся к власти.
+dlga_prussia_unification_austria2:minister_pretalk|Мы не можем бороться с нашими немецкими соседями, у нас не будет ни единого шанса против них.
+dlga_minister_talk:prussia_unification_france1|Месть, секретарь, я хочу отомстить за тысячи пруссаков, погибших от руки Наполеона.
+dlga_prussia_unification_france1:prussia_unification_france2|Хорошо, мой {Король / Королева}. «Все», что осталось сделать, - это захватить столицу Эльзас-Лотарингии Страсбург и разгромить французскую армию. Если это будет сделано, мы продемонстрируем нашу мощь настолько, насколько баварцы не могут отрицать этого. Это будет кровавая война, и французы сделали все возможное, чтобы соответствовать нашей технологической мощи, и я должен сказать, что я боюсь, что они нас превзойдут. Но, будучи полностью побежденным, мы можем провозгласить империю на гнилом трупе их собственной империи.
+dlga_prussia_unification_france2:close_window|Действительно, очень хорошо! Я говорю, на войну!
+dlga_prussia_unification_france2:minister_pretalk|В нынешних обстоятельствах мы были бы безумны, сражаясь с французами, они нас превзошли.
+dlga_minister_talk:prussia_unification_start1|Канцлер убедил меня, что пора положить конец разобщенности Германии. Что вы посоветуете, секретарь?
+dlga_prussia_unification_start1:prussia_unification_start2|Почему, тогда, наконец, пришло время сделать «навсегда неотделимыми» военный крик, которым оно должно было быть. Шлезвиг необходимо вернуть в руки Германии, как и Гольштейн. Датчане держались за Шлезвиг в течение четырех столетий, и их варварские попытки уничтожить местное движение подорвали наши амбиции в 1848 году. Мы должны обезопасить укрепленный город Шлезвиг и при этом уничтожить датские армии. Добровольцы пополнились численностью после наших недавних стычек, так что вам придется изгнать этих шведов обратно в море вместе с их датскими соотечественниками.
+dlga_prussia_unification_start2:close_window|Да будет так, сообщите генеральному штабу, что мы идем на войну.
+dlga_prussia_unification_start2:minister_pretalk|Ненужное кровопролитие насквозь. Постарайтесь смягчить ситуацию.
+dlga_minister_talk:italy_unification_start1|Пришло время расширить наше влияние и объединить итальянский народ. Как мы могли это сделать?
+dlga_italy_unification_start1:italy_unification_start2|Довольно честолюбивы, {сэр / миледи}, но очень праведны, если я сам осмелюсь так сказать. Чтобы объединить Италию, нам придется победить незаконнорожденных {s1}. Завоевание их столиц будет иметь первостепенное значение, но этого вряд ли будет достаточно, чтобы заставить их сдаться. Вам нужно будет вызвать некоторое ... пренебрежение текущими делами среди их населения, будь то военные победы на полях с нашей стороны или попадание в наши руки фортов и городов на границах.
+dlga_italy_unification_start2:italy_unification_start3_proceed|Так и будет, мы воссоединим Италию. Мы не можем допустить, чтобы смерть наших отцов была напрасной.
+dlga_italy_unification_start2:italy_unification_start3_cancel|Мы не можем проливать кровь итальянцев и делать вид, что она нас сближает. Придется переосмыслить.
+dlga_italy_unification_start3_proceed:close_window|Слава Италии, {господин / госпожа}! Я молюсь, чтобы мы поскорее объединились с остальным итальянским народом и вернули Земля Ирреденте обратно в Королевство.
+dlga_italy_unification_start3_cancel:close_window|Да будет так, мой {Король / Королева}. Несмотря на это, я поддерживаю ваше решение, но примите во внимание важность освобождения нашего народа от желтка иностранного угнетения для всех нас.
+dlga_minister_talk:peace_negotiations_initial|Я хочу, чтобы вы начали мирные переговоры с иностранной державой.
+dlga_minister_talk:improve_relations_initial|Я хочу, чтобы вы использовали связи наших правительств для улучшения отношений с иностранной державой.
+dlga_peace_negotiations_initial:peace_negotiations_choose_faction|Несомненно. Народ уже устает от конфликтов. Кого мне попытаться убедить сложить оружие?
 dlga_peace_negotiations_choose_faction:peace_negotiations_proceed|{s31}.
-dlga_peace_negotiations_choose_faction:minister_pretalk|Nevermind.
-dlga_peace_negotiations_proceed:close_window|I will send for their ambassador immediately.
-dlga_improve_relations_initial:minister_pretalk|Sorry to say, we are already in the midst of the political circus, we are still attempting to improve relations with {s31}. I am afraid you will have to wait for our ambassadors to return.
-dlga_improve_relations_initial:improve_relations_choose_faction|Most certainly. With the right gifts and events, I am sure we can convince some King, Queens, Lords and Ladies to look upon us a bit more favourably. Which court should I contact?
+dlga_peace_negotiations_choose_faction:minister_pretalk|Ничего.
+dlga_peace_negotiations_proceed:close_window|Я немедленно пошлю за их послом.
+dlga_improve_relations_initial:minister_pretalk|К сожалению, мы уже находимся в эпицентре политического цирка, мы все еще пытаемся улучшить отношения с {s31}. Боюсь, вам придется дождаться возвращения наших послов.
+dlga_improve_relations_initial:improve_relations_choose_faction|Несомненно. Я уверен, что с правильными подарками и мероприятиями мы сможем убедить некоторых королей, королев, лордов и дам взглянуть на нас немного более благосклонно. В какой суд мне следует обратиться?
 dlga_improve_relations_choose_faction:improve_relations_proceed|{s31}.
-dlga_improve_relations_choose_faction:minister_pretalk|Never mind.
-dlga_improve_relations_proceed:improve_relations_proceed_price_named|I figure we'll be able to improve our relations with them over the next few days if you can give us a budget of {reg10} pounds.
-dlga_improve_relations_proceed_price_named:improve_relations_proceed_completed|Go ahead, you have my blessings.
-dlga_improve_relations_proceed_completed:minister_pretalk|I will get right to it. Give it a few days, and  I am sure relations are bound to come up roses.
-dlga_improve_relations_proceed_price_named:minister_pretalk|What a waste, we don't need their support.
-dlga_minister_talk:break_alliance_initial|I want our nation to break alliance with other nation.
-dlga_break_alliance_initial:break_alliance_choose_faction|With what nation?
+dlga_improve_relations_choose_faction:minister_pretalk|Неважно.
+dlga_improve_relations_proceed:improve_relations_proceed_price_named|Я полагаю, мы сможем улучшить наши отношения с ними в течение следующих нескольких дней, если вы предоставите нам бюджет в {reg10} фунтов стерлингов.
+dlga_improve_relations_proceed_price_named:improve_relations_proceed_completed|Давай, мои благословения.
+dlga_improve_relations_proceed_completed:minister_pretalk|Я сразу займусь этим. Дайте ему несколько дней, и я уверен, что в отношениях обязательно вырастут розы.
+dlga_improve_relations_proceed_price_named:minister_pretalk|Какая трата, нам не нужна их поддержка.
+dlga_minister_talk:break_alliance_initial|Я хочу, чтобы наш народ разорвал союз с другим народом.
+dlga_break_alliance_initial:break_alliance_choose_faction|С какой нацией?
 dlga_break_alliance_choose_faction:break_alliance_areyousure|{s31}.
-dlga_break_alliance_choose_faction:minister_pretalk|Nevermind.
-dlga_break_alliance_areyousure:break_alliance_areyousure_answer|Are you sure you want to break alliance with {s31}?
-dlga_break_alliance_areyousure_answer:break_alliance_proceed|Yes I am.
-dlga_break_alliance_proceed:minister_pretalk|Breaking alliance with {s31}.
-dlga_break_alliance_areyousure_answer:minister_pretalk|No I'm not.
-dlga_minister_talk:create_alliance_initial|Let's strengthen our position in the world and send out an invitation for an alliance.
-dlga_create_alliance_initial:minister_pretalk|I am afraid no one is willing to even consider an alliance with us, they simply don't favour us over others. We will have to improve relations before we can even think about an alliance (Minimum 30+ relations and no provocation and truce required).
+dlga_break_alliance_choose_faction:minister_pretalk|Ничего.
+dlga_break_alliance_areyousure:break_alliance_areyousure_answer|Вы уверены, что хотите разорвать союз с {s31}?
+dlga_break_alliance_areyousure_answer:break_alliance_proceed|Да, я.
+dlga_break_alliance_proceed:minister_pretalk|Разрыв союза с {s31}.
+dlga_break_alliance_areyousure_answer:minister_pretalk|Нет я не.
+dlga_minister_talk:create_alliance_initial|Давайте укрепим наши позиции в мире и разошлем приглашение к альянсу.
+dlga_create_alliance_initial:minister_pretalk|Боюсь, что никто не желает даже думать о союзе с нами, они просто не предпочитают нас другим. Нам нужно будет улучшить отношения, прежде чем мы сможем даже думать об альянсе (минимум 30+ отношений и никаких провокаций и перемирия не требуется).
 dlga_create_alliance_initial:create_alliance_choose_faction|A stellar idea, your highness. We've got friends in politics, let's make them allies. For what ambassador shall I send?
 dlga_create_alliance_choose_faction:create_alliance_proceed|{s31}.
-dlga_create_alliance_choose_faction:minister_pretalk|Never mind.
-dlga_create_alliance_proceed:create_alliance_proceed_final_answer|Right away! I will let them contact their embassy immediately and let you know what they have to offer.
-dlga_create_alliance_proceed_final_answer:close_window|Alright, do it.
-dlga_create_alliance_proceed_final_answer:minister_pretalk|I changed my mind.
-dlga_minister_talk:create_casus_belli_initial|I want our government to fabricate a reason for a conflict with a foreign power.
-dlga_create_casus_belli_initial:minister_pretalk|Already creating casus belli for {s31}.
-dlga_create_casus_belli_initial:create_casus_belli_choose_faction|I hope you have considered your other options thoroughly, but if you feel this is the best course of action, I will naturally abide. I am sure we could provoke an incident, or dig up some 'old' documents. Though do keep in mind, pushing for conflict, as 'justified' as it might be, is going to bring some attention and international pressure onto us. If you are sure, who do you wish to provoke?
+dlga_create_alliance_choose_faction:minister_pretalk|Неважно.
+dlga_create_alliance_proceed:create_alliance_proceed_final_answer|Сразу! Я позволю им немедленно связаться с их посольством и сообщить вам, что они могут предложить.
+dlga_create_alliance_proceed_final_answer:close_window|Хорошо, сделай это.
+dlga_create_alliance_proceed_final_answer:minister_pretalk|Хорошо, сделай это.
+dlga_minister_talk:create_casus_belli_initial|Я хочу, чтобы наше правительство сфабриковало причину конфликта с иностранной державой.
+dlga_create_casus_belli_initial:minister_pretalk|Уже создается casus belli для {s31}.
+dlga_create_casus_belli_initial:create_casus_belli_choose_faction|Я надеюсь, что вы тщательно рассмотрели другие варианты, но если вы считаете, что это лучший способ действий, я, естественно, приму его. Я уверен, что мы могли спровоцировать инцидент или откопать какие-то «старые» документы. Хотя имейте в виду, что подталкивание к конфликту, каким бы «оправданным» оно ни было, привлечет к нам некоторое внимание и международное давление. Если вы уверены, кого вы хотите спровоцировать?
 dlga_create_casus_belli_choose_faction:create_casus_belli_proceed|{s31}.
-dlga_create_casus_belli_choose_faction:minister_pretalk|Never mind.
-dlga_create_casus_belli_proceed:create_casus_belli_proceed_price_named|I figure we will need {reg10} pounds, we will have to put quite some effort into digging something up, and that won't come cheap.
-dlga_create_casus_belli_proceed_price_named:create_casus_belli_proceed_completed|Go ahead, you have my blessings.
-dlga_create_casus_belli_proceed_completed:minister_pretalk|We will get right to it. Give it a few days, and I will inform you as soon as we have something new.
-dlga_create_casus_belli_proceed_price_named:minister_pretalk|I changed my mind.
-dlga_minister_talk:declare_war_initial|It's time to go to war. Send out an emissary.
-dlga_declare_war_initial:declare_war_choose_faction|I won't question your decision, if this is what you want. Against whom do you wish to take up arms against?
+dlga_create_casus_belli_choose_faction:minister_pretalk|Неважно.
+dlga_create_casus_belli_proceed:create_casus_belli_proceed_price_named|Я полагаю, нам понадобится {reg10} фунтов, нам придется приложить немало усилий, чтобы что-то выкопать, а это будет недешево.
+dlga_create_casus_belli_proceed_price_named:create_casus_belli_proceed_completed|Давай, мои благословения.
+dlga_create_casus_belli_proceed_completed:minister_pretalk|Мы займемся этим. Подождите несколько дней, и я сообщу вам, как только у нас появится что-то новое.
+dlga_create_casus_belli_proceed_price_named:minister_pretalk|Я передумал.
+dlga_minister_talk:declare_war_initial|Пора воевать. Отправьте эмиссара.
+dlga_declare_war_initial:declare_war_choose_faction| не стану подвергать сомнению ваше решение, если вы этого хотите. Против кого вы хотите ополчиться?
 dlga_declare_war_choose_faction:declare_war_proceed|{s31}.
-dlga_declare_war_choose_faction:minister_pretalk|Never mind.
+dlga_declare_war_choose_faction:minister_pretalk|Неважно.
 dlga_declare_war_proceed:declare_war_proceed_final_answer|{s32}
 dlga_declare_war_proceed_final_answer:declare_war_proceed_final_answer_completed|{s32}
-dlga_declare_war_proceed_final_answer_completed:minister_pretalk|War has been declared, my highness.
+dlga_declare_war_proceed_final_answer_completed:minister_pretalk|Объявлена ​​война, мое высочество.
 dlga_declare_war_proceed_final_answer:minister_pretalk|{s32}
 dlga_minister_pretalk:minister_talk|Что вам будет угодно?
 dlga_minister_talk:combined_political_quests|Есть предложения, как сплотить наше королевство?
@@ -1948,12 +1948,12 @@ dlga_deserter_paid_talk:deserter_paid_talk_2b|Нет. Теперь ваша оч
 dlga_deserter_paid_talk_2b:close_window|Вы чего? Вам проблем мало? Так мы еще устроим.
 dlga_start:deserter_talk|Мы свободны. Теперь мы сражаемся только за себя. Отдавайте золото, или мы вас убьем!
 dlga_deserter_talk:close_window|Когда я разберусь с вами, вы пожалеете, что бросили армию!
-dlga_deserter_talk:deserter_buy_proposal_0|Join our ranks, or refuse and I will have you all cut down to the last man!
+dlga_deserter_talk:deserter_buy_proposal_0|Вступайте в наши ряды или откажитесь, и я вас всех разрублю до последнего!
 dlga_deserter_talk:deserter_barter|Не стоит драться. Я заплачу за проход.
-dlga_deserter_buy_proposal_0:deserter_buy_proposal|Rest your arms! Despite you being deserters, and by extension enemies of our people, I am willing to grant you one last chance at quarter. Join our ranks, or refuse and I will have you all cut down to the last man!
-dlga_deserter_buy_proposal:deserter_buy_proposal_price_named|Fine! We don't want to die or rot in prison, but how can we believe you? We want a guarantee! We want {reg5}, that should be enough to cover our debts. Else, we just can't go back, they'd gun us down like criminals.
-dlga_deserter_buy_proposal_price_named:close_window|Here, have your money. Now go fall in with the provost!
-dlga_deserter_buy_proposal_price_named:close_window.1|Maybe you don't deserve quarter, after all. I will have you all lined up and shot.
+dlga_deserter_buy_proposal_0:deserter_buy_proposal|Дай отдохнуть рукам! Несмотря на то, что вы дезертиры и, следовательно, враги нашего народа, я готов дать вам последний шанс на четверть. Вступайте в наши ряды или откажитесь, и я вас всех разрублю до последнего!
+dlga_deserter_buy_proposal:deserter_buy_proposal_price_named|Отлично! Мы не хотим умирать или гнить в тюрьме, но как мы можем вам верить? Нам нужна гарантия! Мы хотим {reg5}, этого должно быть достаточно, чтобы покрыть наши долги. В противном случае мы просто не можем вернуться, они застрелили бы нас, как преступников.
+dlga_deserter_buy_proposal_price_named:close_window|Держи свои деньги. А теперь иди к ректору!
+dlga_deserter_buy_proposal_price_named:close_window.1|Может быть, ты все-таки не заслуживаешь четверти. Я тебя всех выстрою и расстреляю.
 dlga_deserter_barter:deserter_barter_2|Очень умно с вашей стороны. Хотя, посмотрел я на ваш баул и вижу, что такой человек без жалости расстанется и с {reg5} динар. Платите и проваливайте.
 dlga_deserter_barter_2:deserter_barter_3a|Хорошо, вот {reg5} динар.
 dlga_deserter_barter_2:deserter_barter_3b|У меня нет таких денег.
