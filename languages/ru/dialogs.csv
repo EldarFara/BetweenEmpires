@@ -367,7 +367,7 @@ dlga_break_alliance_proceed:minister_pretalk|Разрыв союза с {s31}.
 dlga_break_alliance_areyousure_answer:minister_pretalk|Нет я не.
 dlga_minister_talk:create_alliance_initial|Давайте укрепим наши позиции в мире и разошлем приглашение к альянсу.
 dlga_create_alliance_initial:minister_pretalk|Боюсь, что никто не желает даже думать о союзе с нами, они просто не предпочитают нас другим. Нам нужно будет улучшить отношения, прежде чем мы сможем даже думать об альянсе (минимум 30+ отношений и никаких провокаций и перемирия не требуется).
-dlga_create_alliance_initial:create_alliance_choose_faction|A stellar idea, your highness. We've got friends in politics, let's make them allies. For what ambassador shall I send?
+dlga_create_alliance_initial:create_alliance_choose_faction|Замечательная идея, ваше высочество. У нас есть друзья в политике, давайте сделаем их союзниками. За каким послом мне послать?
 dlga_create_alliance_choose_faction:create_alliance_proceed|{s31}.
 dlga_create_alliance_choose_faction:minister_pretalk|Неважно.
 dlga_create_alliance_proceed:create_alliance_proceed_final_answer|Сразу! Я позволю им немедленно связаться с их посольством и сообщить вам, что они могут предложить.
