@@ -295,7 +295,7 @@ ambience_sound_type_desertnight = 8
 ambience_sound_type_night = 9
 ambience_sound_type_forestsunny = 10
 ambience_sound_type_forestovercast = 11
-ambience_sound_type_interior = 11
+ambience_sound_type_interior = 12
 
 maximum_amount_of_bandit_parties = 150
 
@@ -1232,6 +1232,8 @@ slot_faction_pas_player_points =  slot_faction_ve_mod_slots_begin + 421
 slot_faction_mg_prop =  slot_faction_ve_mod_slots_begin + 422
 slot_faction_mg_item =  slot_faction_ve_mod_slots_begin + 423
 slot_faction_heavyhowitzer_cannoneer_officer =  slot_faction_ve_mod_slots_begin + 424
+slot_faction_army_size =  slot_faction_ve_mod_slots_begin + 425
+slot_faction_lordmodel_troop =  slot_faction_ve_mod_slots_begin + 426
 
 
 

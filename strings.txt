@@ -1,5 +1,5 @@
 stringsfile version 1
-3959
+3999
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -3959,3 +3959,43 @@ str_pas_rank_gre_8 Taxiarchos_(8)
 str_pas_rank_gre_9 Hypostrategos_(9)
 str_pas_rank_gre_10 Strategos_(10)
 str_vickers2b vickers2b
+str_lord_name_british1 Edward
+str_lord_name_british2 Henry
+str_lord_name_british3 John
+str_lord_name_british4 William
+str_lord_name_british5 George
+str_lord_name_british6 Robert
+str_lord_name_british7 Charles
+str_lord_name_british8 Joseph
+str_lord_name_british9 James
+str_lord_name_british10 Thomas
+str_lord_surname_british1 Clarke
+str_lord_surname_british2 Lewis
+str_lord_surname_british3 Thompson
+str_lord_surname_british4 Price
+str_lord_surname_british5 Smith
+str_lord_surname_british6 Davis
+str_lord_surname_british7 Joestar
+str_lord_surname_british8 Brown
+str_lord_surname_british9 Davies
+str_lord_surname_british10 Jones
+str_lord_name_spanish1 Juan
+str_lord_name_spanish2 José
+str_lord_name_spanish3 Francisco
+str_lord_name_spanish4 Joaquín
+str_lord_name_spanish5 Miguel
+str_lord_name_spanish6 Antonio
+str_lord_name_spanish7 Carlos
+str_lord_name_spanish8 Martín
+str_lord_name_spanish9 Santiago
+str_lord_name_spanish10 Alejandro
+str_lord_surname_spanish1 de_la_Cruz
+str_lord_surname_spanish2 Aguilar
+str_lord_surname_spanish3 Albornoz
+str_lord_surname_spanish4 Castells
+str_lord_surname_spanish5 Muñoz
+str_lord_surname_spanish6 Álvarez
+str_lord_surname_spanish7 de_Acevedo
+str_lord_surname_spanish8 Blanco_y_Erenas
+str_lord_surname_spanish9 Echeverría
+str_lord_surname_spanish10 Díaz_de_Cevallos

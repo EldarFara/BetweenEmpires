@@ -1,4 +1,4 @@
-1305
+1308
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -138,7 +138,6 @@ qstr_The_World_Map The_World_Map
 qstr_Done Done
 qstr_Press_Escape_to_clos Press_Escape_to_close_menu...
 qstr_{s7}__s_Army {s7}_'s_Army
-qstr_{reg1} {reg1}
 qstr_Attribute_points_{re Attribute_points_{reg40}
 qstr_Skill_points_{reg41} Skill_points_{reg41}
 qstr_Weapon_points_{reg42 Weapon_points_{reg42}
@@ -285,6 +284,7 @@ qstr_Healthcare_Expenses: Healthcare_Expenses:_{reg10}%
 qstr_Slot:_not_selected Slot:_not_selected
 qstr_Party:_not_selected Party:_not_selected
 qstr_Party:_{reg1}___{s1} Party:_{reg1}_-_{s1}
+qstr_{reg1} {reg1}
 qstr_N_A N_A
 qstr_Slot:_{reg1} Slot:_{reg1}
 qstr_JUST_MONIKA_JUST_MON JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^JUST_MONIKA_JUST_MONIKA_JUST_MONIKA^
@@ -328,6 +328,8 @@ qstr_{s3} {s3}
 qstr_{s2} {s2}
 qstr_Same_type_of_factory Same_type_of_factory_does_already_exist_in_this_town.
 qstr_Initial_Capital:_{re Initial_Capital:_{reg10}_pounds.
+qstr_Army_of_{s1} Army_of_{s1}
+qstr_Army_size:_{reg1}% Army_size:_{reg1}%
 qstr_vSeason vSeason
 qstr_{!}DEBUG_:_Completed {!}DEBUG_:_Completed_faction_troop_assignments,_cheat_mode:_{reg3}
 qstr_{!}DEBUG_:_Completed_ {!}DEBUG_:_Completed_political_events,_cheat_mode:_{reg3}
@@ -683,7 +685,7 @@ qstr_{s31}_created_a_casu {s31}_created_a_casus_belli_for_{s32}_for_{reg10}_days
 qstr_{s31}_s_infamy_is_in {s31}'s_infamy_is_increased_by_{reg10}_and_is_now_{reg11}.
 qstr_{s31}_s_infamy_is_de {s31}'s_infamy_is_decreased_by_{reg10}_and_is_now_{reg11}.
 qstr_Belongs_to_{s31} Belongs_to_{s31}
-qstr_Controlled_by_{s31}^ Controlled_by_{s31}^Belongs_to_{s32}
+qstr_Controlled_by_{s31}^ Controlled_by_{s31}^Legitimate_owner_is_{s32}
 qstr_{s31}_becomes_an_all {s31}_becomes_an_ally_of_{s32}.
 qstr_{s31}_breaks_an_alli {s31}_breaks_an_alliance_with_{s32}.
 qstr_Absolute_Monarchy Absolute_Monarchy
@@ -833,6 +835,7 @@ qstr_{reg10}._party_gives {reg10}._party_gives_{reg11}_votes
 qstr_{s1}_rural_wealth_{r {s1}_rural_wealth_{reg10}_urban_wealth_{reg11}_middle_wealth_{reg12}_bourgeoisie_wealth_{reg13}_aristocracy_wealth_{reg14}_sum_wage_{reg15}_gdp_rural_{reg16}_gdp_urban_{reg17}_population_root_{reg18}
 qstr_{s1}_cannot_launch_g {s1}_cannot_launch_grenade_attack_-_{reg1}_seconds_cooldown.
 qstr_{s1}_cannot_launch_ga {s1}_cannot_launch_gas_attack_-_{reg1}_seconds_cooldown.
+qstr_{s1}_{reg0} {s1}_{reg0}
 qstr_You_became_a_high_co You_became_a_high_command_officer,_which_means_you_are_free_to_act_independent_during_service.
 qstr_You_became_a_non_com You_became_a_non-commissioned_officer,_which_means_you_will_now_command_troops_in_battle.
 qstr_You_became_a_marshal You_became_a_marshall_of_{s10},_which_means_you_can_start_and_manage_campaigns.

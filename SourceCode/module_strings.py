@@ -1,4 +1,4 @@
-# -*- coding: cp1254 -*-
+# -*- coding: utf-8 -*-
 strings = [
   ("no_string", "NO STRING!"),
   ("empty_string", " "),
@@ -4926,6 +4926,47 @@ State. In order to force her government to surrender to our forces, we will have
 ("pas_rank_gre_10", "Strategos (10)"),
 
 ("vickers2b", "vickers2b"),
+
+("lord_name_british1", "Edward"),
+("lord_name_british2", "Henry"),
+("lord_name_british3", "John"),
+("lord_name_british4", "William"),
+("lord_name_british5", "George"),
+("lord_name_british6", "Robert"),
+("lord_name_british7", "Charles"),
+("lord_name_british8", "Joseph"),
+("lord_name_british9", "James"),
+("lord_name_british10", "Thomas"),
+("lord_surname_british1", "Clarke"),
+("lord_surname_british2", "Lewis"),
+("lord_surname_british3", "Thompson"),
+("lord_surname_british4", "Price"),
+("lord_surname_british5", "Smith"),
+("lord_surname_british6", "Davis"),
+("lord_surname_british7", "Joestar"),
+("lord_surname_british8", "Brown"),
+("lord_surname_british9", "Davies"),
+("lord_surname_british10", "Jones"),
+("lord_name_spanish1", "Juan"),
+("lord_name_spanish2", "José"),
+("lord_name_spanish3", "Francisco"),
+("lord_name_spanish4", "Joaquín"),
+("lord_name_spanish5", "Miguel"),
+("lord_name_spanish6", "Antonio"),
+("lord_name_spanish7", "Carlos"),
+("lord_name_spanish8", "Martín"),
+("lord_name_spanish9", "Santiago"),
+("lord_name_spanish10", "Alejandro"),
+("lord_surname_spanish1", "de la Cruz"),
+("lord_surname_spanish2", "Aguilar"),
+("lord_surname_spanish3", "Albornoz"),
+("lord_surname_spanish4", "Castells"),
+("lord_surname_spanish5", "Muñoz"),
+("lord_surname_spanish6", "Álvarez"),
+("lord_surname_spanish7", "de Acevedo"),
+("lord_surname_spanish8", "Blanco y Erenas"),
+("lord_surname_spanish9", "Echeverría"),
+("lord_surname_spanish10", "Díaz de Cevallos"),
 ]
 
 

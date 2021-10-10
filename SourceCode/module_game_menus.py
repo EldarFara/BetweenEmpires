@@ -530,6 +530,13 @@ game_menus = [
            (start_presentation, "prsnt_pps_menu"),
         ]
        ),
+     ("show_pas_menu",[],"View faction military management menu.",
+       [
+     (gt, "$players_kingdom", 0),
+     (faction_slot_eq, "$players_kingdom", slot_faction_marshall, "trp_player"),
+	(start_presentation, "prsnt_pas_menu"),
+        ]
+       ),
      ("show_weather_report",[],"View weather report.",
        [
            (jump_to_menu, "mnu_weather_report"),
@@ -2712,6 +2719,20 @@ the high lords and common folk across the many realms of Europe."),
    [
      ],
     [
+      ("camp_cheat_10_pes_pps_iterations",[], "Simulate 20 PES/PPS iterations.",
+       [
+	(try_for_range, ":unused", 0, 20),
+		(try_for_range, ":center", towns_begin, castles_end),
+		(call_script, "script_pes_center_iteration", ":center"),
+		(try_end),
+		(try_for_range, ":faction", kingdoms_begin, kingdoms_end),	
+		(faction_slot_eq, ":faction", slot_faction_state, sfs_active),
+		(call_script, "script_pps_faction_iteration", ":faction"),
+		(try_end),
+	(call_script, "script_pes_iteration_start"),
+	(try_end),
+	   ]
+       ),
       ("camp_cheat_dds",[], "Open Debug Display Slots.",
        [
          (start_presentation, "prsnt_debug_display_slots"),

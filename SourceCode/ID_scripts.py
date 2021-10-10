@@ -860,5 +860,8 @@ script_cannon_fire = 858
 script_cf_if_agent_has_valid_target_agent = 859
 script_shell_hits_pos = 860
 script_cf_if_pos_is_valid = 861
+script_pas_get_faction_ideal_lord_number = 862
+script_pas_init_lord = 863
+script_pas_faction_manage_lord_number = 864
 
 

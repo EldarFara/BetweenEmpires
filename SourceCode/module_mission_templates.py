@@ -5777,15 +5777,15 @@ aerial_view_runtime = (0, 0, 0, [], [
 ])
 
 test = (0, 0, 0, [
-# (key_is_down, key_t),
-	# (try_for_agents,":agent"),
-	# (agent_is_active, ":agent"),
-	# (agent_is_alive, ":agent"),
-	# (agent_is_human, ":agent"),
-	# (agent_set_animation, ":agent", "anim_unused_human_anim_45", 0),
-	# (agent_set_animation, ":agent", "anim_unused_human_anim_45", 1),
-	# (agent_set_no_dynamics, ":agent", 1),
-	# (try_end),
+(key_is_down, key_t),
+	(try_for_agents,":agent"),
+	(agent_is_active, ":agent"),
+	(agent_is_alive, ":agent"),
+	(agent_is_human, ":agent"),
+	(agent_set_animation, ":agent", "anim_unused_human_anim_45", 0),
+	(agent_set_animation, ":agent", "anim_unused_human_anim_45", 1),
+	(agent_set_no_dynamics, ":agent", 1),
+	(try_end),
 ], [])
 
 sound_man_hit = (ti_on_agent_hit, 0, 0, [
