@@ -15997,7 +15997,7 @@ will be merged into one that has highest number of soldiers."),
 			(else_try),
 			(call_script, "script_prsnt_upgrade_tree_troop_and_name","trp_factionplayer_mgoperator", -500, -500,15),
 			(try_end),
-        (call_script, "script_prsnt_upgrade_tree_troop_and_name","trp_lordmodel_0", 900, 590, 16),
+        (call_script, "script_prsnt_upgrade_tree_troop_and_name","trp_lordmodel_0", 910, 590, 16),
 
         ## cost
         (call_script, "script_prsnt_upgrade_tree_troop_cost", "trp_kingdom_recruit", 195, 360),
