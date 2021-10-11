@@ -2997,38 +2997,38 @@ str_npc12_1|-Good with polearms^-Poor with bows
 str_npc13_1|-Good with 1h and bows^-Poor with 2h
 str_npc14_1|-Good with 1h^-Good all-rounder
 str_npc15_1|-Good with 2h and bows^-Poor with crossbows and throwing
-str_npc16_1|-Good with throwing and 1h^-Poor with 2h and crossbows
-str_firearm|Pistols: {reg35}
-str_throwing|Throwing: {reg34}
-str_crossbow|Rifles: {reg33}
-str_archery|Archery: {reg32}
-str_polearm|Polearm: {reg31}
-str_two_handed_weapon|Two Handed Weapon: {reg30}
-str_one_handed_weapon|One Handed Weapon: {reg29}
-str_trade|Trade
-str_leadership|Leadership
-str_prisoner_management|Prisoner Management
-str_persuasion|Persuasion
-str_engineer|Engineer
-str_first_aid|First Aid
-str_surgery|Surgery
-str_wound_treatment|Wound Treatment
-str_inventory_management|Inventory Management
-str_spotting|Spotting
-str_pathfinding|Pathfinding
-str_tactics|Tactics
-str_tracking|Tracking
-str_trainer|Trainer
-str_looting|Looting
-str_horse_archery|Horse Archery
-str_riding|Riding
-str_athletics|Athletics
-str_shield|Shield
-str_weapon_master|Weapon Master
-str_power_draw|Power Draw
-str_power_throw|Power Throw
-str_power_strike|Power Strike
-str_ironflesh|Ironflesh
+str_npc16_1|-Хорошо с метанием и 1h^-Плохо с 2h и арбалетами
+str_firearm|Пистолеты: {reg35}
+str_throwing|Метание: {reg34}
+str_crossbow|Винтовки: {reg33}
+str_archery|Стрельба из лука: {reg32}
+str_polearm|Древковое оружие: {reg31}
+str_two_handed_weapon|Двуручное оружие: {reg30}
+str_one_handed_weapon|Одноручное оружие: {reg29}
+str_trade|Торговля
+str_leadership|Лидерство
+str_prisoner_management|Управление заключенными
+str_persuasion|Убеждение
+str_engineer|Инженер
+str_first_aid|Первая медицинская помощь
+str_surgery|Операция
+str_wound_treatment|Лечение ран
+str_inventory_management|Управление запасами
+str_spotting|Пятнистость
+str_pathfinding|Найти путь
+str_tactics|Тактика
+str_tracking|Отслеживание
+str_trainer|Тренер
+str_looting|Мародерство
+str_horse_archery|Конная стрельба из лука
+str_riding|Верховая езда
+str_athletics|Атлетика
+str_shield|Щит
+str_weapon_master|Мастер оружия
+str_power_draw|Потребляемая энергия
+str_power_throw|Сильный бросок
+str_power_strike|Сильный удар
+str_ironflesh|Железная кожа
 str_cha|CHA: {reg4}
 str_int|INT: {reg3}
 str_agi|AGI: {reg2}
@@ -3057,84 +3057,84 @@ str_reg25|{reg25}
 str_reg26|{reg26}
 str_reg27|{reg27}
 str_reg28|{reg28}
-str_explanation_strength|Strength: Every point adds +1 ^to hit points.The following ^skills can not be developed beyond ^1/3 of Strength: ironflesh, ^Power-strike, Power-throw, ^Power-draw.
-str_explanation_agility|Agility: Each point gives five ^weapon points and slightly ^increases movement speed. ^The following skills can not be ^developed beyond 1/3 of Agility: ^weapon-master, Shield, ^Athletics, Riding, Horse ^archery, Looting.
-str_explanation_intelligence|Intelligence: Every point to ^intelligence immediately gives one ^extra skill point. The following ^skills can not be developed beyond ^1/3 of Intelligence: Trainer, Tracking, ^Tactics, Path finding, Spotting, ^Inventory Management, Wound treatment, ^Surgery, First-aid, Engineer, Persuasion.
-str_explanation_charisma|Charisma: Each point increases ^your party size limit by +1. ^The following skills can not be ^developed beyond 1/3 of Charisma: ^Prisoner Management, Leadership, Trade.
-str_explanation_ironflesh|Each point to this skill increases ^hit points by +2. ^(Personal skill)
-str_explanation_power_strike|Each point to this skill increases ^melee damage by 8%%. ^(Personal skill)
-str_explanation_power_throw|Each point to this skill increases ^throwing damage by 10%%. ^(Personal skill)
-str_explanation_power_draw|Lets character use more powerful bows. ^Each point to this skill ^(up to four plus power-draw requirement of the bow) ^increases bow damage by 14%%. ^(Personal skill)
-str_explanation_weapon_master|Makes it easier to learn ^weapon proficiencies and increases ^the proficiency limits. Limits go as: ^60, 100, 140, 180, 220, 260, 300, 340, 380, 420. ^(Personal skill)
-str_explanation_shield|Reduces damage to shields ^(by 8%% per skill level) and ^improves shield speed and coverage. ^(Personal skill)
-str_explanation_athletics|Improves your running speed. ^(Personal skill)
-str_explanation_riding|Enables you to ride horses of ^higher difficulty levels and increases ^your riding speed and manuever. ^(Personal skill)
-str_explanation_horse_archery|Reduces damage and accuracy penalties ^for archery and throwing from horseback. ^(Personal skill)
-str_explanation_looting|This skill increases the amount of ^loot obtained by 10%% per skill level. ^(Party skill)
-str_explanation_trainer|Every day, each hero with this skill ^adds some experience to every other member ^of the party whose level is lower than his/hers. ^Experience gained goes as: ^{0,4,10,16,23,30,38,46,55,65,80}. ^(Personal skill)
-str_explanation_tracking|Tracks become more informative. ^(Party skill)
-str_explanation_tactics|Every two levels of this skill ^increases starting battle advantage by 1. ^(Party skill)
-str_explanation_pathfinding|Party map speed is increased ^by 3%% per skill level. ^(Party skill)
-str_explanation_spotting|Party seeing range is increased ^by 10%% per skill level. ^(Party skill)
-str_explanation_inventory_management|Increases inventory capacity ^by +6 per skill level. ^(Leader skill)
-str_explanation_wound_treatment|Party healing speed is increased ^by 20%% per level of this skill. ^(Party skill)
-str_explanation_surgery|Each point to this skill ^gives a 4%% chance that ^a mortally struck party member ^will be wounded rather than killed. ^(Party skill)
-str_explanation_first_aid|Heroes regain 5%% per skill level ^of hit-points lost during mission. ^(Party skill)
-str_explanation_engineer|This skill allows you to ^construct siege equipment and ^fief improvements more efficiently. ^(Party skill)
-str_explanation_persuasion|This skill helps you ^make other people accept your point of view. ^It also lowers the minimum level of relationship ^needed to get NPCs to do what you want. ^(Personal skill)
-str_explanation_prisoner_management|Every level of this skill ^increases maximum number of prisoners by %d. ^(Leader skill)
-str_explanation_leadership|Every point increases maximum number ^of troops you can command by 5, ^increases your party morale and ^reduces troop wages by 5%%. ^(Leader skill)
-str_explanation_trade|Every level of this skill ^reduces your trade penalty by 5%%. ^(Party skill)
-str_explanation_one_handed_weapon|Covers usage of one handed swords, ^axes and blunt weapons.
-str_explanation_two_handed_weapon|Covers usage of two handed swords, ^great axes and mauls.
-str_explanation_polearm|Covers usage of pole weapons like ^spears, lances, staffs, etc.
-str_explanation_archery|Covers usage of bows.
-str_explanation_crossbow|Covers usage of rifles.
-str_explanation_throwing|Covers usage of thrown weapons like ^javelins, darts, stones etc.
-str_explanation_firearms|Covers usage of pistols.
-str_skills_info|Current: {reg36}^Base Attribute: {s10}
-str_troop_basic_info|Level: {reg45}^Health: {reg46}^Experience: {reg47}^Next Level at:e{reg48}
-str_end|End
-str_faction_technology_modernattack_name|Modern Attack Tactics
-str_faction_technology_modernattack_description|^Effects: Unlocks line and extended line formations for line infantry and light infantry respectively.
-str_faction_technology_crimeanwar_name|Crimean War Experience
-str_faction_technology_crimeanwar_description|The backdrop of death and disease during the Crimean War, especially during the Siege of Sevastopol prompted medical innovations on all sides of the war. Those innovations, among them a new understanding for the importance of clean conduct, would influence modern medicine and medical practice for decades, making it increasingly likely a soldier would survive wounds formerly considered a death sentence.^^Florence Nightingale, a British nurse serving in Crimea, first introduced hand-washing, cleaning and disinfecting wounds, and revolutionary measures to avoid cross-contamination. This lowered the rate of infection following a wound dramatically, making death much more avoidable. Europe's militaries began to implement her nursing tactics shortly after the war, and the Crimean War would influence European medicinal understanding for the remainder of the 19th century.^^Effects: Not done yet
-str_faction_technology_riflesboltactionmodern_name|Modern Magazine Rifles
+str_explanation_strength|Сила: Каждое очко добавляет +1^к хитпоинтам. Следующие^навыки не могут быть развиты за^1/3 Силы: железная плоть,^Силовой удар, Силовой бросок,^Силовое притяжение.
+str_explanation_agility|Ловкость: каждое очко дает пять^очков оружия и немного увеличивает скорость передвижения.^Следующие навыки не могут быть^развиты за пределами 1/3 Ловкости:^Мастер оружия, Щит,^Атлетика, Верховая езда, Лошадь^Стрельба из лука, Мародерство.
+str_explanation_intelligence|Интеллект: каждое очко^интеллекта немедленно дает одно^дополнительное очко умения. Следующие^навыки не могут быть развиты за пределами^1/3 интеллекта: тренер, отслеживание,^тактика, поиск пути, обнаружение,^управление запасами, лечение ран,^хирургия, первая помощь, инженер, убеждение.
+str_explanation_charisma|Харизма: каждое очко увеличивает ограничение размера вашей группы на +1. ^ Следующие навыки нельзя ^ развить за пределами 1/3 Харизмы: ^ Управление заключенными, Лидерство, Торговля.
+str_explanation_ironflesh|Каждое очко этого умения увеличивает ^ хитов на +2. ^ (Личное мастерство)
+str_explanation_power_strike|Каждое очко этого умения увеличивает ^ урон в ближнем бою на 8 %%. ^ (Личное мастерство)
+str_explanation_power_throw|Каждое очко этого умения увеличивает урон ^ броска на 10 %%. ^ (Личное мастерство)
+str_explanation_power_draw|Позволяет персонажу использовать более мощные луки. ^ Каждое очко этого умения ^ (до четырех плюс требование силы лука) ^ увеличивает урон лука на 14 %%. ^ (Личное мастерство)
+str_explanation_weapon_master|Облегчает изучение ^ владения оружием и увеличивает ^ пределы умений. Пределы следующие: ^ 60, 100, 140, 180, 220, 260, 300, 340, 380, 420. ^ (Личный навык)
+str_explanation_shield|Уменьшает урон щитам ^ (на 8 %% за уровень навыка) и ^ увеличивает скорость щита и покрытие. ^ (Личное мастерство)
+str_explanation_athletics|Повышает скорость бега. ^ (Личное мастерство)
+str_explanation_riding|Позволяет кататься на лошадях ^ более высоких уровней сложности и увеличивает ^ скорость и маневренность. ^ (Личное мастерство)
+str_explanation_horse_archery|Снижает штрафы к урону и точности ^ для стрельбы из лука и метания с лошади. ^ (Личное мастерство)
+str_explanation_looting|Этот навык увеличивает количество получаемой добычи на 10 %% за уровень навыка. ^ (Групповой навык)
+str_explanation_trainer|аждый день каждый герой с этим навыком ^ добавляет некоторый опыт каждому другому члену ^ группы, чей уровень ниже, чем его / ее. ^ Полученный опыт выглядит следующим образом: ^ {0,4,10,16,23,30,38,46,55,65,80}. ^ (Личное мастерство)
+str_explanation_tracking|следы становятся более информативными. ^ (Групповой навык)
+str_explanation_tactics|Каждые два уровня этого умения ^ увеличивает начальное боевое преимущество на 1. ^ (Групповое умение)
+str_explanation_pathfinding|Скорость карты группы увеличивается ^ на 3 %% за каждый уровень навыка. ^ (Групповой навык)
+str_explanation_spotting|Дальность видимости группы увеличивается ^ на 10 %% за каждый уровень навыка. ^ (Групповой навык)
+str_explanation_inventory_management|Увеличивает емкость инвентаря ^ на +6 за уровень навыка. ^ (Навык лидера)
+str_explanation_wound_treatment|Скорость группового исцеления увеличивается ^ на 20 %% за каждый уровень этого умения. ^ (Групповой навык)
+str_explanation_surgery|Каждое очко этого умения ^ дает 4 %% шанс, что ^ смертельно раненый член группы ^ будет ранен, а не убит. ^ (Групповой навык)
+str_explanation_first_aid|Герои восстанавливают 5 %% за каждый уровень умения ^ хитов, потерянных во время миссии. ^ (Групповой навык)
+str_explanation_engineer|Этот навык позволяет вам более эффективно строить осадное снаряжение и улучшать феодальные владения. ^ (Групповой навык)
+str_explanation_persuasion|Этот навык помогает вам ... заставить других людей принять вашу точку зрения. ^ Это также снижает минимальный уровень взаимоотношений ^, необходимый, чтобы заставить NPC делать то, что вы хотите. ^ (Личное мастерство)
+str_explanation_prisoner_management|Каждый уровень этого навыка ^ увеличивает максимальное количество заключенных на%d. ^ (Навык лидера)
+str_explanation_leadership|Каждое очко увеличивает максимальное количество ^ войск, которыми вы можете командовать, на 5, ^ повышает боевой дух вашей группы, а ^ снижает заработную плату войск на 5 %%. ^ (Навык лидера)
+str_explanation_trade|Каждый уровень этого навыка ^ снижает ваш торговый штраф на 5 %%. ^ (Групповой навык)
+str_explanation_one_handed_weapon|Охватывает использование одноручных мечей, топоров и дробящего оружия.
+str_explanation_two_handed_weapon|Охватывает использование двуручных мечей, больших топоров и молов.
+str_explanation_polearm|Охватывает использование древкового оружия, такого как копья, пики, посохи и т. Д.
+str_explanation_archery|Охватывает использование луков.
+str_explanation_crossbow|Охватывает использование винтовок.
+str_explanation_throwing|Охватывает использование метательного оружия, такого как дротики, дротики и т. Д.
+str_explanation_firearms|Охватывает использование пистолетов.
+str_skills_info|Current: {reg36}^Базовый атрибут: {s10}
+str_troop_basic_info|Level: {reg45}^Здоровье: {reg46}^Опыт: {reg47}^Следующий уровень at:e{reg48}
+str_end|Конец
+str_faction_technology_modernattack_name|Современная тактика атаки
+str_faction_technology_modernattack_description|^ Эффекты: открывает линейные и расширенные линейные построения для линейной пехоты и легкой пехоты соответственно.
+str_faction_technology_crimeanwar_name|Опыт Крымской войны
+str_faction_technology_crimeanwar_description|Смерть и болезни во время Крымской войны, особенно во время блокады Севастополя, побудили всех участников войны к инновациям в медицине. Эти нововведения, в том числе новое понимание важности чистоты поведения, будут влиять на современную медицину и медицинскую практику на десятилетия, делая все более вероятным, что солдат выживет после ран, ранее считавшихся смертным приговором ^^ Флоренс Найтингейл, британская медсестра, служащая в больнице. В Крыму впервые были введены мытье рук, чистка и дезинфекция ран, а также революционные меры по предотвращению перекрестного заражения. Это резко снизило частоту инфицирования после ранения, сделав смерть намного более предотвратимой. Европейские военные начали применять ее тактику медсестер вскоре после войны, и Крымская война повлияла на европейское понимание медицины до конца XIX века. ^^ Последствия: еще не сделано.
+str_faction_technology_riflesboltactionmodern_name|Современные магазинные винтовки
 str_faction_technology_riflesboltactionmodern_description| 
-str_faction_technology_riflesconverted_name|Conversion Breech-loaded Rifles
-str_faction_technology_riflesconverted_description|Following the advent of mass production and the emerging superiority of breech-loaders over the course of the early Victorian era, the militaries of Europe began seeking for a cost-effective way to upgrade their armies arsenal. While being prone to overheating during prolonged firing, these breech-loaders had the advantage of being faster to reload, averaging a fire rate more than twice as fast than muzzle-loading muskets, though most European generals were more than sceptical of the new technology, curtailing their troops rate of fire and relying on coordinated fire instead still.^^Inventors such as Jacob Snider and James Lee came up with a number of breech-loading conversion systems, notably the Pattern 1853 Enfield, the Springfield 1861.^These conversion systems would turn the existing service rifles of the Western powers into breech-loaders at a much lower cost than producing new rifles. The British adopted their Snider-Enfield conversion breech-loader in 1866, using it to great effect in Africa, yet failing to adopt tactics to the new rifles fully.^^Effects: All muzzle-loading rifles are replaced by faster firing, more accurate conversion system breech-loaders.
-str_faction_technology_riflessmallcaliber_name|Modern Breech-loaded Rifles
-str_faction_technology_riflessmallcaliber_description|Conversion Breech-loaders had a number of downsides, one of the most major being their inability to fire modern metallic cartridges, and inaccuracy and range compared to new model breech-loaders. Their dedicated design also allowed for a more streamlined, and hence faster reloading process, though it did little to negate overheating issues.^^The prohibitive element in rearmament was the immense cost widespread replacement of service rifles carried with it, but over the course of the mid-late 19th century most nations felt forced to make the switch. Among others, France, Britain, Prussia, and Russia switched from conversion breech-loaders to entirely new, modern breech-loaders, such as the Martini-Henry or Berdan rifles, in the 1870s, finally putting an end to the centuries old Brown-Bess and Charleville based infantry rifles of Europe.^^Effects: All conversion breech-loaders are replaced by even faster firing, more accurate modern breech-loaders.
-str_faction_technology_riflesboltaction_name|Magazine Rifles
-str_faction_technology_riflesboltaction_description|The evolution of military small arms cartridges towards smaller calibres firing higher-velocity bullets meant that magazines became viable. Magazine rifles had the obvious advantage of having not only a larger magazine, but hence also a faster firing rate, though reloading could be cumbersome and long-winded before the clip-fed revolution. Due to their cartridges higher velocity and better aerodynamic traits, long-ranged accuracy was also marginally improved.^^agazine rifles were adopted throughout Europe, America, and certain African states in the late 1880s, for example in France in 1886 with the adoption of the Lebel Model 1886, or in Britain in 1888 with the Lee-Metford replacing the Martini-Henry. Magazine-fed rifles would remain a staple of European militaries for close to a century, remaining in use throughout the world until this day.^^Effects: All breech-loading rifles are replaced by slightly more accurate magazine-fed rifles.
-str_faction_technology_lateshells_name|Improved Percussion Mechanisms
-str_faction_technology_lateshells_description|Replacing the early direct action fuses of the mid-century, improved manufacturing methods and fine-tuning of percussion actions meant misfires became less likely, further manifesting artilleries deadly role in late 19th century combat. Investing in new, more precise machinery was costly, but it's effect ultimately invaluable.^^Effects: Replaces percussion mechanisms in artillery shells, making misfires less likely.
-str_faction_technology_machineguns_name|Machine Guns
-str_faction_technology_machineguns_description|Warfare in Europe changed forever with the advent of the machine gun. The Maxim Gun, invented in 1884 by it's namesake, was the first of these modern machine guns, quickly proving itself to be both effective and deadly. The British first utilised this new weapon in the Sudan and during the Abushiri Revolt, allowing more savvy army officers to quickly recognise the effectiveness of their newly acquired contraptions. The maxim quickly became a permanent fixture of trenches and defensive structures all over the world and played a crucial part in the wars of the beckoning 20th century.^^Effects: Unlocks the Maxim machine gun for purchase at armouries and battlefield usage.
-str_faction_technology_infantrymgtactics_name|Infantry Machine Guns Tactics
-str_faction_technology_infantrymgtactics_description|Machineguns are a new contraption at that time, meaning that armies need a way to master it. Most armies employed machine guns in battle and treated it as an artillery peace, like Gatling guns and earlier versions of Maxim guns with wheels. However, with the advent of tripod, machine guns became lighter than before. Yet some countries adopted small wheel carriage instead like those of Russian version of Maxim guns. In before, nations employed machine guns on artillery units but now, they widely distributed the machine guns, even to rank and file infantry and light infantry alike.^Effects: Increasing MG limit by 3, unlocks MG crew company type. 
-str_faction_technology_cannonsbreechloading_name|Breech-loaded Cannons
-str_faction_technology_cannonsbreechloading_description|Rifled breech loaders are cannons that are loaded from the back of the gun, rather than the front as is the case with muzzle-loaders. The most important difference between the two are the breech-loaders massively increased firing speed, at little to no loss in accuracy, safety or fire power. Early breech-loaders paved the way for bagged charges and screw breeches pioneered by the French, which meant massive calibres became viable, and by the end of the 19th century, commonplace.^^Breech-loading cannons were invented in 1837 in Sweden, and later on improved by British engineers after the Crimean War, most famously George Armstrong. Rifled breech loaders were initially popularized during the late 1850s, but only adopted by most major European powers in the 1870s and 1880s. Especially the French and the Prussians shared a great affinity for early breech-loaders, and went on to utilize them to great effect in the conflicts of the late Victorian era.^^Effects: All muzzle-loading artillery pieces are replaced by substantially faster firing breech-loaders.
-str_faction_technology_modernartillery_name|Rapid Firing Artillery
-str_faction_technology_modernartillery_description|^^Effects: artillery models change to more rapid firing ones. Heavy howitzers becomes available for use as well as 'Heavy Howitzers' company type. Increases cannons limit by 5.
-str_faction_technology_coveringfire_name|Covering Fire
-str_faction_technology_coveringfire_description|In military science, suppressive fire is 'fire that degrades the performance of an enemy force below the level needed to fulfill its mission'. When used to protect exposed friendly troops advancing on the battlefield, it is commonly called covering fire. Suppression is usually only effective for the duration of the fire. Suppressive fire usually achieves its effect by threatening casualties to individuals who expose themselves to it. Willingness to expose themselves varies depending on the morale, motivation and leadership of the target troops. Suppression can be delivered by any weapon or group of weapons capable of delivering the required intensity of fire for the required period of suppression. Suppressive fire capabilities vary widely because the suppressive effect area varies widely. For example, a rifle or machine gun bullet may only have a suppressive effect within about one metre of its trajectory, whereas a single artillery shell may suppress a few thousand square metres around its burst. Furthermore, sustained suppression over more than a few minutes may be difficult to achieve with small arms fire for logistic reasons, air delivered suppression is similarly affected by payload limits. In contrast, artillery can suppress an area for an extended period.^Effects: Unlocks the 'Suppression Fire' mode ability, which decreases accuracy but greatly increases disipline level damage inflicted to an enemy.
-str_faction_technology_gasattacks_name|Gas Attacks
-str_faction_technology_gasattacks_description|Chemical warfare involves using the toxic properties of chemical substances as weapons. The modern use of chemical weapons began with World War I, when both sides to the conflict used poisonous gas to inflict agonizing suffering and to cause significant battlefield casualties. Such weapons basically consisted of well known commercial chemicals put into standard munitions such as grenades and artillery shells. Chlorine, phosgene (a choking agent) and mustard gas (which inflicts painful burns on the skin) were among the chemicals used. The results were indiscriminate and often devastating. Nearly 100,000 deaths resulted. Since World War I, chemical weapons have caused more than one million casualties globally. Effects: not done yet
-str_faction_technology_skirmishline_name|Skirmish Line Tactics
-str_faction_technology_skirmishline_description|With the invention of new weaponry, the concept of line infantry began to wane. The Minié ball allowed individual infantrymen to shoot more accurately and over greatly increased range. Men walking in formation line-abreast became easy targets, as evidenced in the American Civil War. The Austro-Prussian War in 1866 showed that breech-loading rifles, which gave the individual shooter a greatly increased rate of fire, were greatly superior to muzzle-loaded rifles. In the 1860s, most German states and Russia converted their line infantry and riflemen into 'united' infantry, which used rifles and skirmish tactics. Extended order formations replaced lines almost entirely, relegating lines and columns to army movements.^^Effect: Dense Line formation becomes available for line and guard infantry. Line formation becomes available for light infantry.
-str_faction_technology_moderndefence_name|Modern Defence Tactics
-str_faction_technology_moderndefence_description|In the decades leading up to the second world war, infantry abandoned their traditional roles and tactics. Trenches, dug-ins, and raids slowly became a reality of day-to-day warfare, forcing armies to relegate greater control to officers and NCOs, rather than have specific platoon movements be controlled by generals. These smaller units, operating in extended order formations, were, by comparison to line infantry, much more resilient and could withstand enemy pressure much easier.^^Unconventional infantry tactics often put a conventional enemy at a disadvantage. During the Second Boer War, the Boers used guerrilla tactics to fight the conventional British Army. Boer marksmen would often pick off British soldiers from hundreds of yards away. These constant sniper attacks forced the British infantry to begin wearing khaki uniforms instead of their traditional red. The Boers were much more mobile than the British infantry and thus could usually choose where a battle would take place. These unconventional tactics forced the British to adopt some unorthodox tactics of their own. ^^Effects: Reduces discipline penalty from enemy small arms fire. Allows line and guard infantry to dig in.
-str_faction_technology_lmgs_name|Light Machine Guns
-str_faction_technology_lmgs_description|In 1903, French military theorists noticed that the machine guns of the day, heavy and relatively immobile, were of little use in infantry assaults. They determined that 'the machine gun must learn to walk'. A marching fire tactic (French: feu de marche) was expected to involve incidental suppressive fire, with the advancing troops considered a deadlier threat than the unaimed bullets, causing the enemy to fall back. The prototype guns were not approved for production, and none were in service when World War I began. Also a year before, a Danish General named Herman Madsen invented a machinegun that is more portable than ever. it looks and weights similar to contemporary rifles albeit a bit heavier due to gun mechanisms and more ammunition in the weapon. In 1915, a French Colonel named Louis Chauchat invented the M1915 Chauchat Light Machine Gun. Despite it's notoriety in the hands of the Americans due to stoppages or jamming due to bad rechambering process, it works well against the Germans in terms of suppressing their troops when attacking German trenches.^Effects: small percentage of soldiers will spawn with light machine guns which are much more rapid-fire than rifles.
-str_faction_technology_shocktroops_name|Shock Troops
-str_faction_technology_shocktroops_description|During the First World War, many combatants faced the deadlock of trench warfare. On the Western Front in 1915, the Germans formed a specialized unit called the Rohr Battalion to develop assault tactics. During the Brusilov Offensive of 1916, the Russian general Aleksei Brusilov developed and implemented the idea of shock troops to attack weak points along the Austrian lines to effect a breakthrough, which the main Russian Army could then exploit. The Russian Army had also formed hunter commando units in 1886, and used them in World War I to protect against ambushes, to perform reconnaissance and for low-intensity fights in no-man's-land. The von Hutier tactics (infiltration tactics) called for special infantry assault units to be detached from the main lines and sent to infiltrate enemy lines, supported by shorter and sharper (than usual for WWI) artillery fire missions targeting both the enemy front and rear, bypassing and avoiding what enemy strong points they could, and engaging to their best advantage when and where they were forced to, leaving decisive engagement against bypassed units to following heavier infantry. The primary goal of these detached units was to infiltrate the enemy's lines and break their cohesion as much as possible. These formations became known as Stoßtruppen, or shock troops, and the tactics they pioneered were the basis of post-WWI infantry tactics, such as the development of fire teams.^Effects: Unlocks 'Shock troops' company. Shock troops are equipped with carbines and improvised melee weapons, thus having less accuaracy but dealing better melee damage. Shock troops have better running speed and get less discipline penatlty from the enemy fire. Unlocks 'Grenade attack' ability that is only available to shock troops.
-str_faction_technology_tanks_name|Landships
-str_faction_technology_tanks_description|A tank is an armored fighting vehicle intended as a primary offensive weapon in front-line ground combat. Tank designs are a balance of heavy firepower, strong armor, and good battlefield mobility provided by tracks and a powerful engine; usually their main armament is mounted in a turret. They are a mainstay of modern 20th and 21st century ground forces and a key part of combined arms combat. On 24 December 1915, a meeting took place of the Inter-Departmental Conference (including representatives of the Director of Naval Construction's Committee, the Admiralty, the Ministry of Munitions, and the War Office). Its purpose was to discuss the progress of the plans for what were described as 'Caterpillar Machine Gun Destroyers or Land Cruisers.' In his autobiography, Albert Gerald Stern (Secretary to the Landship Committee, later head of the Mechanical Warfare Supply Department) says that at that meeting 'Mr. (Thomas J.) Macnamara (M.P., and Parliamentary and Financial Secretary to the Admiralty) then suggested, for secrecy's sake, to change the title of the Landship Committee. Mr. d'Eyncourt agreed that it was very desirable to retain secrecy by all means, and proposed to refer to the vessel as a 'Water Carrier'. In Government offices, committees and departments are always known by their initials. For this reason I, as Secretary, considered the proposed title totally unsuitable. In our search for a synonymous term, we changed the word 'Water Carrier' to 'Tank,' and became the 'Tank Supply' or 'T.S.' Committee. That is how these weapons came to be called Tanks,' and incorrectly added, 'and the name has now been adopted by all countries in the world.'^Effects: not done yet
-str_faction_technology_riflesrifled_name|Rifled Muskets
-str_faction_technology_riflesrifled_description|Rifled muskets, as the name implies, utilized rifling, helical grooves machined into the bore of the gun's barrel. These grooves would cause the bullet to spin as it left the barrel, stabilizing it as it travels through the air. This grants extra accuracy and range, but prior to the invention of the Minié ball in the 1840s, fouling made rifles impractical for general infantry use. Paired with the advent of the percussion lock mechanism, misfires, fouling, and rifle inaccuracy were minimized, allowing for rifles to be adopted by skirmishers, sharpshooters, and fusiliers alike.^^Come the middle of the 19th century, the majority of western powers had already adopted rifled muskets, the British for instance choosing the Enfield in 1853 to replace their Pattern 1839 smooth-bore. Rifling remained immensely important for all modern military rifles, eventually even being used for cannons and handguns.^^Effects: All smooth-bore muskets are replaced with rifled muskets. Rifling increases accuracy by up to 50%.
-str_ground_desert|ground desert
-str_s5_s_generalparty|{s5}'s Division
+str_faction_technology_riflesconverted_name|Переделочные казнозарядные винтовки
+str_faction_technology_riflesconverted_description|С появлением массового производства и появлением превосходства затворов с затвором в начале викторианской эпохи европейские военные начали искать рентабельный способ обновления арсенала своих армий. Несмотря на склонность к перегреву во время продолжительной стрельбы, эти казенники имели преимущество в том, что они быстрее перезаряжались, а средняя скорость стрельбы была более чем в два раза выше, чем у дульных мушкетов, хотя большинство европейских генералов более чем скептически относились к новой технологии. сократив скорострельность своих войск и по-прежнему полагаясь на скоординированный огонь ^^ Такие изобретатели, как Джейкоб Снайдер и Джеймс Ли, придумали ряд конверсионных систем с казенной частью, в частности, Pattern 1853 Enfield и Springfield 1861. Эти конверсионные системы превратит существующие служебные винтовки западных держав в казнозарядные устройства по гораздо более низкой цене, чем производство новых винтовок. Британцы приняли на вооружение переоборудованный казенник Снайдер-Энфилд в 1866 году, успешно применив его в Африке, но не сумев полностью перенять тактику к новым винтовкам. Система переоборудования казнозарядных устройств.
+str_faction_technology_riflessmallcaliber_name|Современные казнозарядные винтовки
+str_faction_technology_riflessmallcaliber_description|У модифицированных казнозарядных устройств был ряд недостатков, одним из самых главных из которых была невозможность стрелять современными металлическими патронами, а также неточность и дальность действия по сравнению с казенными автоматами новой модели. Их особая конструкция также позволила упростить и, следовательно, ускорить процесс перезарядки, хотя это мало помогло устранить проблемы с перегревом. ^^ Запрещающим элементом при перевооружении была огромная стоимость широко распространенной замены служебных винтовок, которые были с ним, но в течение В середине-конце 19 века большинство стран было вынуждено сделать переход. Среди прочего, Франция, Великобритания, Пруссия и Россия перешли от переоборудования казенников к совершенно новым, современным винтовкам с затвором, таким как винтовки Мартини-Генри или Бердана, в 1870-х годах, наконец положив конец многовековой истории Брауна. Европейские пехотные винтовки, базирующиеся на Бессе и Шарлевиле. ^^ Эффекты: все переоборудованные затворные устройства заменены на еще более быстрые и точные современные затворы заряжания.
+str_faction_technology_riflesboltaction_name|Магазинные винтовки
+str_faction_technology_riflesboltaction_description|Эволюция патронов для военного стрелкового оружия в сторону меньшего калибра, стреляющего пулями с более высокой скоростью, означала, что магазины стали жизнеспособными. У магазинных винтовок было очевидное преимущество, заключающееся в том, что они имели не только больший магазин, но, следовательно, и более высокую скорость стрельбы, хотя перезарядка могла быть громоздкой и долгой до революции с обоймой. Благодаря более высокой скорости патронов и лучшим аэродинамическим характеристикам, точность стрельбы на дальних дистанциях также была незначительно улучшена. Lebel Model 1886, или в Великобритании в 1888 году, когда Lee-Metford заменил Martini-Henry. Винтовки с магазинным питанием оставались основным продуктом вооруженных сил Европы в течение почти столетия, оставаясь в использовании во всем мире до сегодняшнего дня. ^^ Эффекты: Все винтовки с казенным зарядом заменены немного более точными винтовками с магазинным питанием.
+str_faction_technology_lateshells_name|Улучшенные ударные механизмы
+str_faction_technology_lateshells_description|Замена ранних взрывателей прямого действия середины века, усовершенствованные методы производства и точная настройка ударных воздействий привели к тому, что осечки стали менее вероятными, что еще больше продемонстрировало смертоносную роль артиллерии в боях конца 19-го века. Инвестиции в новую, более точную технику были дорогостоящими, но их эффект в конечном итоге неоценим. ^^ Эффекты: Заменяет ударные механизмы в артиллерийских снарядах, снижая вероятность осечки.
+str_faction_technology_machineguns_name|Пулеметы
+str_faction_technology_machineguns_description|Война в Европе навсегда изменилась с появлением пулемета. Пистолет Максим, изобретенный в 1884 году его тезкой, был первым из этих современных пулеметов, быстро доказавшим свою эффективность и смертоносность. Британцы впервые применили это новое оружие в Судане и во время восстания Абушири, что позволило более опытным армейским офицерам быстро оценить эффективность их недавно приобретенных приспособлений. Постановление быстро стало неотъемлемой частью траншей и оборонительных сооружений по всему миру и сыграло решающую роль в войнах манящего 20-го века. ^^ Эффекты: Разблокирует пулемет Максима для покупки в оружейных складах и для использования на поле боя.
+str_faction_technology_infantrymgtactics_name|Тактика пехотных пулеметов
+str_faction_technology_infantrymgtactics_description|Пулеметы в то время были новым изобретением, а это означало, что армиям нужен способ овладеть им. Большинство армий использовали пулеметы в бою и относились к нему как к артиллерийскому миру, как пушки Гатлинга и более ранние версии орудий Максима с колесами. Однако с появлением треножника пулеметы стали легче, чем раньше. Тем не менее, некоторые страны приняли на вооружение малогабаритный колесный лафет, как у русской версии пушек Максим. Раньше нации использовали пулеметы в артиллерийских частях, но теперь они широко распространили пулеметы, даже среди рядовой пехоты и легкой пехоты. ^ Эффекты: увеличение лимита пулеметов на 3 открывает тип роты экипажа пулемета.
+str_faction_technology_cannonsbreechloading_name|Казнозарядные винтовки
+str_faction_technology_cannonsbreechloading_description|Зарядные устройства с нарезным затвором - это пушки, которые заряжаются сзади, а не спереди, как в случае с дульнозарядными устройствами. Наиболее важным различием между ними является то, что затворные устройства значительно увеличили скорость стрельбы, практически без потери точности, безопасности или огневой мощи. Ранние патроны с казенной частью проложили путь к патронным зарядам и винтовым затворам, впервые разработанным французами, что означало, что массивные калибры стали жизнеспособными, а к концу XIX века стали обычным явлением. ^^ Пушки с казенником были изобретены в 1837 году в Швеции и позже усовершенствован британскими инженерами после Крымской войны, самым известным из которых был Джордж Армстронг. Нарезные затворные устройства были первоначально популяризированы в конце 1850-х годов, но были приняты на вооружение большинством крупных европейских держав только в 1870-х и 1880-х годах. В особенности французы и пруссаки разделяли большую симпатию к ранним казенникам и продолжали использовать их с большим успехом в конфликтах поздней викторианской эпохи. ^^ Эффекты: все дульные артиллерийские орудия заменены значительно более быстрой стрельбой затворы заряжающие.
+str_faction_technology_modernartillery_name|Скорострельная артиллерия
+str_faction_technology_modernartillery_description|^^ Эффекты: артиллерийские модели меняются на более скорострельные. Становятся доступными для использования как тяжелые гаубицы, так и «тяжелые гаубицы» ротного типа. Увеличивает лимит пушек на 5.
+str_faction_technology_coveringfire_name|Прикрытие огня
+str_faction_technology_coveringfire_description|В военной науке подавляющий огонь - это «огонь, который снижает эффективность сил противника ниже уровня, необходимого для выполнения его миссии». Когда он используется для защиты незащищенных дружественных войск, наступающих на поле битвы, его обычно называют прикрывающим огнем. Подавление обычно эффективно только на время пожара. Подавляющий огонь обычно достигает своего эффекта, угрожая жертвами людям, которые подвергаются его воздействию. Готовность раскрыть себя варьируется в зависимости от морального духа, мотивации и лидерства целевых войск. Подавление может осуществляться любым оружием или группой средств поражения, способных обеспечить необходимую интенсивность огня в течение необходимого периода подавления. Возможности подавления огня сильно различаются, так как область подавляющего воздействия широко варьируется. Например, пуля из винтовки или пулемета может оказывать подавляющее действие только в пределах одного метра своей траектории, в то время как одиночный артиллерийский снаряд может подавить несколько тысяч квадратных метров вокруг своей очереди. Кроме того, устойчивое подавление в течение более чем нескольких минут может быть затруднено с помощью огня из стрелкового оружия по причинам материально-технического снабжения, подавление с воздуха также зависит от ограничений полезной нагрузки. Напротив, артиллерия может подавлять область в течение длительного периода времени. ^ Эффекты: разблокирует способность режима «Подавление огня», которая снижает точность, но значительно увеличивает урон уровня дисиплайна, нанесенный противнику.
+str_faction_technology_gasattacks_name|Газовые атаки
+str_faction_technology_gasattacks_description|Химическая война предполагает использование токсичных свойств химических веществ в качестве оружия. Современное применение химического оружия началось с Первой мировой войны, когда обе стороны конфликта использовали ядовитый газ, чтобы причинить мучительные страдания и нанести значительный урон на поле боя. Такое оружие в основном состояло из хорошо известных коммерческих химикатов, добавляемых в стандартные боеприпасы, такие как гранаты и артиллерийские снаряды. Среди используемых химикатов были хлор, фосген (удушающий агент) и горчичный газ (который вызывает болезненные ожоги кожи). Результаты были неизбирательными и часто разрушительными. В результате погибло около 100 000 человек. После Первой мировой войны химическое оружие унесло жизни более миллиона человек во всем мире. Эффекты: еще не сделано
+str_faction_technology_skirmishline_name|Тактика линии схватки
+str_faction_technology_skirmishline_description|С изобретением нового оружия концепция линейной пехоты пошла на убыль. Мяч Minié позволял отдельным пехотинцам стрелять более точно и на значительно увеличенной дистанции. Люди, идущие строем в ряд, становились легкой мишенью, о чем свидетельствует Гражданская война в США. Австро-прусская война 1866 года показала, что винтовки с казенником, которые давали индивидуальному стрелку значительно повышенную скорострельность, значительно превосходили дульные винтовки. В 1860-х годах большинство германских государств и Россия преобразовали свою линейную пехоту и стрелков в «единую» пехоту, которая использовала винтовки и тактику перестрелок. Построения расширенного порядка почти полностью заменили линии, уступив место линиям и колоннам передвижению армий. ^^ Эффект: Формирование плотной линии становится доступным для линейной и охранной пехоты. Становление строем становится доступным для легкой пехоты.
+str_faction_technology_moderndefence_name|Современная тактика защиты
+str_faction_technology_moderndefence_description|За десятилетия до Второй мировой войны пехота отказалась от своих традиционных ролей и тактики. Окопы, окопы и рейды постепенно стали реальностью повседневной войны, вынуждая армии передать больший контроль офицерам и унтер-офицерам, а не отдавать конкретные передвижения взводов под контроль генералов. Эти меньшие по размеру подразделения, действовавшие в составе расширенных порядков, были, по сравнению с линейной пехотой, намного более устойчивыми и могли намного легче противостоять натиску врага. ^^ Нетрадиционная тактика пехоты часто ставила обычного противника в невыгодное положение. Во время Второй англо-бурской войны буры использовали партизанскую тактику для борьбы с обычной британской армией. Бурские стрелки часто подстреливали британских солдат с расстояния в сотни ярдов. Эти постоянные снайперские атаки вынудили британскую пехоту начать носить форму цвета хаки вместо традиционной красной. Буры были намного более мобильны, чем британская пехота, и поэтому обычно могли выбирать, где будет происходить сражение. Эта нетрадиционная тактика вынудила британцев принять некоторые собственные нестандартные тактики. ^^ Эффекты: Снижает штраф к дисциплине от огня вражеского стрелкового оружия. Позволяет строить и охранять пехоту.
+str_faction_technology_lmgs_name|Легкие пулеметы
+str_faction_technology_lmgs_description|В 1903 году французские военные теоретики заметили, что пулеметы того времени, тяжелые и относительно неподвижные, были мало пригодны в атаках пехоты. Они определили, что «пулемет должен научиться ходить». Тактика маршевого огня (фр. Feu de marche) должна была включать в себя случайный подавляющий огонь, при этом наступающие войска считались более смертоносной угрозой, чем невредимые пули, заставляя врага отступать. Опытные образцы орудий не были одобрены к производству, и ни одно из них не находилось на вооружении, когда началась Первая мировая война. Также за год до этого датский генерал по имени Герман Мэдсен изобрел пулемет, который стал еще более портативным, чем когда-либо. По внешнему виду и весу он похож на современные винтовки, хотя и немного тяжелее из-за орудийных механизмов и большего количества боеприпасов в оружии. В 1915 году французский полковник по имени Луи Шошат изобрел ручной пулемет Чаушат M1915. Несмотря на то, что американцы получили дурную славу из-за остановок или заклинивания из-за плохого процесса перегруппировки, он хорошо работает против немцев с точки зрения подавления их войск при атаке немецких траншей. ^ Эффекты: небольшой процент солдат появится с ручными пулеметами. которые намного более скорострельны, чем винтовки.
+str_faction_technology_shocktroops_name|Ударные войска
+str_faction_technology_shocktroops_description|Во время Первой мировой войны многие комбатанты оказались в тупике позиционной войны. На Западном фронте в 1915 году немцы сформировали специализированное подразделение под названием Батальон Рора для разработки тактики нападения. Во время Брусиловского наступления 1916 года русский генерал Алексей Брусилов разработал и реализовал идею ударных войск для атаки слабых мест на австрийских линиях с целью прорыва, который затем могла использовать основная русская армия. Российская армия также сформировала отряды охотников-коммандос в 1886 году и использовала их во время Первой мировой войны для защиты от засад, для ведения разведки и для ведения боев с низкой интенсивностью на нейтральной полосе. Тактика фон Хутье (тактика проникновения) предусматривала отделение специальных пехотных штурмовых отрядов от основных линий и их отправку для проникновения на линии врага при поддержке более коротких и более острых (чем обычно для Первой мировой войны) задач артиллерийского огня, нацеленных как на фронт, так и на тыл врага. обходя и уклоняясь от тех опорных пунктов противника, которые они могли, и вступая в бой с максимальным преимуществом, когда и где они были вынуждены, оставляя решающее сражение против обойденных частей следующей более тяжелой пехоте. Основная цель этих отдельных частей заключалась в том, чтобы проникнуть в тыл врага и как можно сильнее нарушить их сплоченность. Эти формирования стали известны как Stoßtruppen, или ударные войска, и тактика, которую они использовали, была основой тактики пехоты после Первой мировой войны, такой как создание огневых групп. ^ Эффекты: открывает роту «Ударные войска». Ударные войска оснащены карабинами и импровизированным оружием ближнего боя, поэтому они менее точны, но наносят больший урон в ближнем бою. Ударные войска имеют лучшую скорость бега и получают меньше наказания от вражеского огня. Разблокирует способность «Атака гранатой», доступная только ударным войскам.
+str_faction_technology_tanks_name|Танки
+str_faction_technology_tanks_description|Танк - это боевая бронированная машина, предназначенная в качестве основного наступательного оружия в наземных боях на передовой. В конструкции танков сочетаются тяжелая огневая мощь, прочная броня и хорошая мобильность на поле боя, обеспечиваемая гусеницами и мощным двигателем; обычно их основное вооружение размещается в башне. Они составляют основу современных сухопутных войск ХХ и ХХI веков и играют ключевую роль в общевойсковых боях. 24 декабря 1915 г. состоялось заседание Межведомственного совещания (в котором участвовали представители директора комитета военно-морского строительства, Адмиралтейства, Министерства боеприпасов и военного министерства). Его цель состояла в том, чтобы обсудить ход выполнения планов по созданию так называемых «пулеметных разрушителей Caterpillar или Land Cruisers». В своей автобиографии Альберт Джеральд Стерн (секретарь комитета по сухопутным кораблям, позже глава Департамента снабжения механической войны) говорит, что на той встрече «мистер Мистер». (Томас Дж.) Макнамара (депутат парламента, парламентский и финансовый секретарь Адмиралтейства) затем предложил из соображений секретности изменить название комитета по сухопутным кораблям. Г-н д'Энкур согласился с тем, что было бы очень желательно сохранить секретность любыми средствами, и предложил называть судно «водовозом». В государственных учреждениях комитеты и департаменты всегда называются инициалами. По этой причине я, как секретарь, счел предложенное название совершенно неподходящим. В поисках синонимичного термина мы изменили слово «Водовоз» на «Резервуар» и стали на него «Резервуар» или «Т.С.». Комитет. Вот почему это оружие стало называться танками, - неправильно добавлено, - и теперь это название принято во всех странах мира ». ^ Эффекты: еще не сделано.
+str_faction_technology_riflesrifled_name|Нарезные мушкеты
+str_faction_technology_riflesrifled_description|Нарезные мушкеты, как следует из названия, имели нарезные спиральные канавки, вырезанные в канале ствола ружья. Эти канавки заставляли пулю вращаться при выходе из ствола, стабилизируя ее при движении по воздуху. Это обеспечивает дополнительную точность и дальность стрельбы, но до изобретения мяча Минье в 1840-х годах засорение делало винтовки непрактичными для использования в пехоте. В сочетании с появлением ударного механизма блокировки осечки, засорение и неточность винтовки были сведены к минимуму, что позволило использовать винтовки как стрелками, так и стрелками, и стрелками. ^^ Пришла середина 19 века, большинство западных держав уже приняли на вооружение нарезные мушкеты, например, британцы выбрали Enfield в 1853 году, чтобы заменить свои гладкоствольные модели 1839 года. Винтовка оставалась чрезвычайно важной для всех современных военных винтовок, в конечном итоге даже использовалась для пушек и ручного огнестрельного оружия. ^^ Эффекты: Все гладкоствольные мушкеты заменены на нарезные мушкеты. Нарезка увеличивает точность до 50%.
+str_ground_desert|земля пустыня
+str_s5_s_generalparty|{s5}'ая дивизия
 str_flag1_0|flag1 0
 str_flag1_1|flag1 1
 str_flag1_2|flag1 2
@@ -3286,31 +3286,31 @@ str_flag1_147|flag1 147
 str_flag1_148|flag1 148
 str_flag1_149|flag1 149
 str_flag1_150|flag1 150
-str_italy_unification_defeat_sardinia_desc|In order to unite Italy, {s1} will have to conquer the two Italian states still remaining on the Italian Peninsula. One of those states is the Kingdom ofSardinia. In order to force her government to surrender to our forces, we will have to focus on two strategic goals.^^- Conquer the Sardinian capital of Turin.^- Cripple the Kingdom of Sardinia by defeating their armies, laying waste to settlements, and conquering cities.^^Once we've caused enough damage to the Sardinian military and economy, they will be forced to surrender to our army, allowing us to begin integration procedures.
-str_italy_unification_defeat_sicily_desc|In order to unite Italy, {s1} will have to conquer the two Italian states still remaining on the Italian Peninsula. One of those states is the Kingdom of TwoSicilies. In order to force her government to surrender to our forces, we will have to focus on two strategic goals.^^- Conquer the Sicilian capital of Naples.^- Cripple the Kingdom of two Sicilies by defeating the Bourbon armies, laying waste to settlements, and conquering cities.^^Once we've caused enough damage to the Sicilian military and economy, they will be forced to surrender to our army, allowing us to begin integration procedures.
-str_italy_unification_defeat_papalstates_desc|In order to unite Italy, {s1} will have to conquer the two Italian states still remaining on the Italian Peninsula. One of those states is the PapalState. In order to force her government to surrender to our forces, we will have to focus on two strategic goals.^^- Conquer the Italian capital of Rome.^- Cripple the Papal State by defeating Papal armies, laying waste to settlements, and conquering cities.^^Once we've caused enough damage to the Papal military and economy, they will be forced to surrender to our army, allowing us to begin integration procedures.
-str_liberal_party|Liberal Party
-str_conservative_party|Conservative Party
-str_reactionary_party|Reactionary Party
-str_socialist_party|Socialist Party
-str_royalists|Royalists
-str_slavophiles|Slavyanofily
-str_slavophiles_desc|Slavophilia is a movement that wanted the Russian Empire to be developed upon values and institutions derived from its early history. Slavophiles opposed the influences of Western Europe in Russia. They support authocracy, and are against political freedom. They value protectionism policy and support imperialist expansion.
-str_liberals|Liberaly
-str_liberals_desc|Liberals are a group of intellectuals who believe that Russia's development depends upon the adoption of Western European technology and liberal government. In their view, western ideas such as industrialisation need to be implemented throughout Russia to make it a more successful country. In Russian, the term is known as zapadnichestvo, which can be translated as 'westernism'. Their main goal as political movement is implementation of political reforms. Liberals value laissez-faire policy and are less militant, as opposed to slavophilians.
-str_legitimists|Légitimistes
-str_bonapartists_liberal|Bonapartistes Libéraux
-str_bonapartists_auth|Bonapartistes Autoritaires
-str_republicains|Républicains
-str_lantmannapartiet|Lantmannapartiet
-str_centern|Centern
-str_radical_left|Parti Radical-Démocratique
-str_catholic_right|Parti Populaire Catholique
-str_liberal_centre|Libéraux Modérés
-str_tories|Conservative Party (Tories)
-str_whigs|Liberal Party (Whigs)
-str_tories_desc|Conservative party in British Empire originates from Tories political faction. Their political views are traditionalism and conservatism. Tories defend the ideas of hierarchy, natural order, and aristocracy.
-str_whigs_desc|Liberal party in British Empire originates from Whigs political faction. It seeks political freedom for upper strata of the population and is supporting laissez-faire economic policies such as free trade and minimal government interference in the economy.
+str_italy_unification_defeat_sardinia_desc|Чтобы объединить Италию, {s1} должен будет завоевать два итальянских государства, все еще оставшиеся на итальянском полуострове. Одно из таких государств - Королевство Сардиния. Чтобы заставить ее правительство сдаться нашим войскам, нам нужно будет сосредоточиться на двух стратегических целях. ^^ - Завоевать столицу Сардинии Турин. ^ - Нанести ущерб Королевству Сардиния, нанеся поражение их армиям, опустошая поселения и завоевание городов. ^^ Как только мы нанесем достаточный урон армии и экономике Сардинии, они будут вынуждены сдаться нашей армии, что позволит нам начать интеграционные процедуры.
+str_italy_unification_defeat_sicily_desc|Чтобы объединить Италию, {s1} должен будет завоевать два итальянских государства, все еще оставшиеся на итальянском полуострове. Одно из таких государств - Королевство Обеих Сицилий. Чтобы вынудить ее правительство сдаться нашим войскам, нам придется сосредоточиться на двух стратегических целях. ^^ - Завоевать сицилийскую столицу Неаполь. ^ - Нанести ущерб Королевству двух Сицилий, победив армии Бурбонов, опустошив поселения , и завоевание городов. ^^ Как только мы нанесем достаточный урон сицилийской армии и экономике, они будут вынуждены сдаться нашей армии, что позволит нам начать процедуру интеграции.
+str_italy_unification_defeat_papalstates_desc|Чтобы объединить Италию, {s1} должен будет завоевать два итальянских государства, все еще оставшиеся на итальянском полуострове. Одним из таких штатов является Папское государство. Чтобы заставить ее правительство сдаться нашим войскам, нам придется сосредоточиться на двух стратегических целях. ^^ - Завоевать итальянскую столицу Рим. ^ - Нанести ущерб Папскому государству, нанеся поражение папским армиям, опустошая поселения и завоевывая городов. ^^ Как только мы нанесем достаточный урон папской армии и экономике, они будут вынуждены сдаться нашей армии, что позволит нам начать интеграционные процедуры.
+str_liberal_party|Либеральная партия
+str_conservative_party|Консервативная партия
+str_reactionary_party|Реакционная партия
+str_socialist_party|Социалистическая партия
+str_royalists|Роялисты
+str_slavophiles|Славянофилы
+str_slavophiles_desc|Славянофильство - это движение, которое хотело, чтобы Российская Империя развивалась на основе ценностей и институтов, вытекающих из ее ранней истории. Славянофилы противостояли влияниям Западной Европы в России. Они поддерживают автократию и против политической свободы. Они ценят политику протекционизма и поддерживают империалистическую экспансию.
+str_liberals|Либеральный
+str_liberals_desc|Либералы - это группа интеллектуалов, которые считают, что развитие России зависит от принятия западноевропейских технологий и либерального правительства. По их мнению, западные идеи, такие как индустриализация, должны быть реализованы по всей России, чтобы сделать ее более успешной страной. В русском языке этот термин известен как западничество, что можно перевести как «западничество». Их основная цель как политического движения - проведение политических реформ. Либералы ценят политику невмешательства и менее воинственны, в отличие от славянофилов.
+str_legitimists|Легитимисты
+str_bonapartists_liberal|Либеральные бонапартисты
+str_bonapartists_auth|Авторитарные бонапартисты
+str_republicains|Республиканцы
+str_lantmannapartiet|Аграрная партия
+str_centern|Центристы
+str_radical_left|Партия радикал-демократов
+str_catholic_right|Католическая народная партия
+str_liberal_centre|Умеренные либералы
+str_tories|Консервативная партия
+str_whigs|Либеральная партия
+str_tories_desc|Консервативная партия в Британской империи происходит от политической фракции тори. Их политические взгляды - традиционализм и консерватизм. Тори защищают идеи иерархии, естественного порядка и аристократии.
+str_whigs_desc|Либеральная партия в Британской империи происходит от политической фракции вигов. Он стремится к политической свободе для верхних слоев населения и поддерживает экономическую политику невмешательства, такую ​​как свободная торговля и минимальное вмешательство государства в экономику.
 str_party_color1|party color1
 str_party_color2|party color2
 str_party_color3|party color3
@@ -3387,27 +3387,27 @@ str_smokepillar1_61|smokepillar1 61
 str_smokepillar1_62|smokepillar1 62
 str_smokepillar1_63|smokepillar1 63
 str_smokepillar1_64|smokepillar1 64
-str_pas_rank_ukm_1|Private (1)
-str_pas_rank_ukm_2|Corporal (2)
-str_pas_rank_ukm_3|Sergeant (3)
-str_pas_rank_ukm_4|Lieutenant (4)
-str_pas_rank_ukm_5|Captain (5)
-str_pas_rank_ukm_6|Major (6)
-str_pas_rank_ukm_7|Colonel (7)
-str_pas_rank_ukm_8|Major General (8)
-str_pas_rank_ukm_9|General (9)
-str_pas_rank_ukm_10|Field Marshall (10)
-str_pas_rank_rus_inf_1|Ryadovoy (1)
-str_pas_rank_rus_inf_2|Yefeytor (2)
-str_pas_rank_rus_inf_3|Mladshy unter-ofitser (3)
-str_pas_rank_rus_inf_4|Starshy unter-ofitser (4)
-str_pas_rank_rus_inf_5|Poruchik (5)
-str_pas_rank_rus_inf_6|Kapitan (6)
-str_pas_rank_rus_inf_7|Polkovnik (7)
-str_pas_rank_rus_inf_8|General-major (8)
-str_pas_rank_rus_inf_9|General ot infanterii (9)
-str_pas_rank_rus_inf_10|General-feldmarshal (10)
-str_pas_rank_rus_cav_1|Ryadovoy (1)
+str_pas_rank_ukm_1|Рядовой (1)
+str_pas_rank_ukm_2|Капрал (2)
+str_pas_rank_ukm_3|Сержант (3)
+str_pas_rank_ukm_4|Лейтенант (4)
+str_pas_rank_ukm_5|Капитан (5)
+str_pas_rank_ukm_6|Майор (6)
+str_pas_rank_ukm_7|Полковник (7)
+str_pas_rank_ukm_8|Майор генерал (8)
+str_pas_rank_ukm_9|Генерал (9)
+str_pas_rank_ukm_10|Фельдмаршал (10)
+str_pas_rank_rus_inf_1|Рядовой (1)
+str_pas_rank_rus_inf_2|Ефрейтор (2)
+str_pas_rank_rus_inf_3|Младший унтер-офицер (3)
+str_pas_rank_rus_inf_4|Старший унтер-офицер (4)
+str_pas_rank_rus_inf_5|Поручик (5)
+str_pas_rank_rus_inf_6|Капитан (6)
+str_pas_rank_rus_inf_7|Полковник (7)
+str_pas_rank_rus_inf_8|Генерал-майор (8)
+str_pas_rank_rus_inf_9|Генерал от инфантерии (9)
+str_pas_rank_rus_inf_10|Генерал фельдмаршал (10)
+str_pas_rank_rus_cav_1|Рядовой (1)
 str_pas_rank_rus_cav_2|Yefeytor (2)
 str_pas_rank_rus_cav_3|Mladshy unter-ofitser (3)
 str_pas_rank_rus_cav_4|Starshy unter-ofitser (4)
