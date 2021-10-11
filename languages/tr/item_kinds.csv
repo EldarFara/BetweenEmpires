@@ -1202,62 +1202,62 @@ itm_restore_health_armour|Restore Health Armour
 itm_restore_health_armour_pl|Restore Health Armour
 itm_pes_start|PES
 itm_pes_start_pl|PES
-itm_resource_ammunition_pointer|resource ammunition pointer
-itm_resource_ammunition_pointer_pl|resource ammunition pointer
-itm_resource_weaponry_pointer|resource weaponry pointer
-itm_resource_weaponry_pointer_pl|resource weaponry pointer
-itm_resource_military_supplies_pointer|resource military supplies pointer
-itm_resource_military_supplies_pointer_pl|resource military supplies pointer
-itm_resource_fabric_pointer|resource fabric pointer
-itm_resource_fabric_pointer_pl|resource fabric pointer
-itm_resource_construction_materials_pointer|resource construction materials pointer
-itm_resource_construction_materials_pointer_pl|resource construction materials pointer
-itm_resource_furniture_pointer|resource furniture pointer
-itm_resource_furniture_pointer_pl|resource furniture pointer
-itm_resource_machine_parts_pointer|resource machine parts pointer
-itm_resource_machine_parts_pointer_pl|resource machine parts pointer
-itm_resource_paper_pointer|resource paper pointer
-itm_resource_paper_pointer_pl|resource paper pointer
-itm_resource_clothes_pointer|resource clothes pointer
-itm_resource_clothes_pointer_pl|resource clothes pointer
-itm_resource_timber_pointer|resource timber pointer
-itm_resource_timber_pointer_pl|resource timber pointer
-itm_resource_steel_pointer|resource steel pointer
-itm_resource_steel_pointer_pl|resource steel pointer
-itm_resource_iron|resource iron
-itm_resource_iron_pl|resource iron
-itm_resource_coal|resource coal
-itm_resource_coal_pl|resource coal
-itm_resource_meat|resource meat
-itm_resource_meat_pl|resource meat
-itm_resource_cotton|resource cotton
-itm_resource_cotton_pl|resource cotton
-itm_resource_flour|resource flour
-itm_resource_flour_pl|resource flour
-itm_resource_wood|resource wood
-itm_resource_wood_pl|resource wood
-itm_resource_ammunition|resource ammunition
-itm_resource_ammunition_pl|resource ammunition
-itm_resource_weaponry|resource weaponry
-itm_resource_weaponry_pl|resource weaponry
-itm_resource_military_supplies|resource military supplies
-itm_resource_military_supplies_pl|resource military supplies
-itm_resource_fabric|resource fabric
-itm_resource_fabric_pl|resource fabric
-itm_resource_construction_materials|resource construction materials
-itm_resource_construction_materials_pl|resource construction materials
-itm_resource_furniture|resource furniture
-itm_resource_furniture_pl|resource furniture
-itm_resource_machine_parts|resource machine parts
-itm_resource_machine_parts_pl|resource machine parts
-itm_resource_paper|resource paper
-itm_resource_paper_pl|resource paper
-itm_resource_clothes|resource clothes
-itm_resource_clothes_pl|resource clothes
-itm_resource_timber|resource timber
-itm_resource_timber_pl|resource timber
-itm_resource_steel|resource steel
-itm_resource_steel_pl|resource steel
+itm_resource_ammunition_pointer|Kaynak Mühimmat İşaretçi
+itm_resource_ammunition_pointer_pl|Kaynak Mühimmat İşaretçi
+itm_resource_weaponry_pointer|Kaynak Silahlar İşaretçi
+itm_resource_weaponry_pointer_pl|Kaynak Silahlar İşaretçi
+itm_resource_military_supplies_pointer|Kaynak Askeri Malzemeleri İşaretçi
+itm_resource_military_supplies_pointer_pl|Kaynak Askeri Malzemeleri İşaretçi
+itm_resource_fabric_pointer|Kaynak Kumaş İşaretçi
+itm_resource_fabric_pointer_pl|Kaynak Kumaş İşaretçi
+itm_resource_construction_materials_pointer|Kaynak İnşaat Malzemeleri İşaretçi
+itm_resource_construction_materials_pointer_pl|Kaynak İnşaat Malzemeleri İşaretçi
+itm_resource_furniture_pointer|Kaynak Mobilya
+itm_resource_furniture_pointer_pl|Kaynak Mobilya
+itm_resource_machine_parts_pointer|Kaynak Makine Parçaları İşaretçi
+itm_resource_machine_parts_pointer_pl|Kaynak Makine Parçaları İşaretçi
+itm_resource_paper_pointer|Kaynak Kağıt İşaretçi
+itm_resource_paper_pointer_pl|Kaynak Kağıt İsaretçi
+itm_resource_clothes_pointer|Kaynak Giysi İşaretçi
+itm_resource_clothes_pointer_pl|Kaynak Giysi İşaretçi
+itm_resource_timber_pointer|Kaynak ahşap isaretçi
+itm_resource_timber_pointer_pl|Kaynak ahşap isaretçi
+itm_resource_steel_pointer|Kaynak Çelik İsaretçi
+itm_resource_steel_pointer_pl|Kaynak Çelik İsaretçi
+itm_resource_iron|Kaynak Demir
+itm_resource_iron_pl|Kaynak Demir
+itm_resource_coal|Kaynak Kömür
+itm_resource_coal_pl|Kaynak Kömür
+itm_resource_meat|Kaynak et
+itm_resource_meat_pl|Kaynak et
+itm_resource_cotton|Kaynak Pamuk
+itm_resource_cotton_pl|Kaynak Pamuk
+itm_resource_flour|Kaynak Un
+itm_resource_flour_pl|Kaynak Un
+itm_resource_wood|Kaynak Odun
+itm_resource_wood_pl|Kaynak Odun
+itm_resource_ammunition|Kaynak Mühimaat
+itm_resource_ammunition_pl|Kaynak Mühimmat
+itm_resource_weaponry|Kaynak Silahlar
+itm_resource_weaponry_pl|Kaynak Silahlar
+itm_resource_military_supplies|Kaynak Askeri Malzemeleri
+itm_resource_military_supplies_pl|Kaynak Askeri Malzemeleri
+itm_resource_fabric|Kaynak Kumaş
+itm_resource_fabric_pl|Kaynak Kumaş
+itm_resource_construction_materials|Kaynak İnşaat Malzelemerı
+itm_resource_construction_materials_pl|Kaynak İnşaat Malzemeleri
+itm_resource_furniture|Kaynak Mobilya
+itm_resource_furniture_pl|Kaynak Mobilya
+itm_resource_machine_parts|Kaynak Makıne Parçaları
+itm_resource_machine_parts_pl|Kaynak Makine Parçaları
+itm_resource_paper|Kaynak Kağıt
+itm_resource_paper_pl|Kaynak Kağıt
+itm_resource_clothes|Kaynak giysi
+itm_resource_clothes_pl|Kaynak Giysi
+itm_resource_timber|Kaynak Ahşap
+itm_resource_timber_pl|Kaynak Ahşap
+itm_resource_steel|Kaynak Çelik
+itm_resource_steel_pl|Kaynak Çelik
 itm_pes_end|pes end
 itm_pes_end_pl|pes end
 itm_javelin_bow_ammo|Shooting Javelins
@@ -1310,8 +1310,8 @@ itm_ria_cavalry2|Rus Atlı Askeri Uniforması
 itm_ria_cavalry2_pl|Rus Atlı Askeri Uniforması
 itm_ria_cavalry3|Rus Cossak Uniforması
 itm_ria_cavalry3_pl|Rus Cossak Uniforması
-itm_ria_cavalry4|Rus Komutan Uniforması
-itm_ria_cavalry4_pl|Rus Komutan Uniforması
+itm_ria_cavalry4|Rus Atlı Asker Uniforması
+itm_ria_cavalry4_pl|Rus Atlı Asker Uniforması
 itm_ria_hat1|Rus Şapkası
 itm_ria_hat1_pl|Rus Şapkası
 itm_ria_hat2|Rus Şapkası
@@ -1322,18 +1322,18 @@ itm_ria_hat4|Rus Şapkası
 itm_ria_hat4_pl|Rus Şapkası
 itm_ria_hat5|Rus Cossak Şapkası
 itm_ria_hat5_pl|Rus Cossak Şapkası
-itm_ria_hat6|Russian Hat
-itm_ria_hat6_pl|Russian Hat
-itm_ria_hat7|Russian Hat
-itm_ria_hat7_pl|Russian Hat
-itm_ria_hat8|Russian Hat
-itm_ria_hat8_pl|Russian Hat
-itm_ria_hat9|Russian Hat
-itm_ria_hat9_pl|Russian Hat
-itm_ria_hat9b|Russian Hat
-itm_ria_hat9b_pl|Russian Hat
-itm_ria_hat10|Russian Helmet
-itm_ria_hat10_pl|Russian Helmet
+itm_ria_hat6|Rus Şapkası
+itm_ria_hat6_pl|Rus Şapkası
+itm_ria_hat7|Rus Şapkası
+itm_ria_hat7_pl|Rus Şapkası
+itm_ria_hat8|Rus Şapkası
+itm_ria_hat8_pl|Rus Şapkası
+itm_ria_hat9|Rus Şapkası
+itm_ria_hat9_pl|Rus Şapkası
+itm_ria_hat9b|Rus Şapkası
+itm_ria_hat9b_pl|Rus Şapkası
+itm_ria_hat10|Rus Kaskı
+itm_ria_hat10_pl|Rus Kaskı
 itm_ria_leader1|Rus Komutan Uniforması
 itm_ria_leader1_pl|Rus Tsar Uniforması
 itm_clothes_adventurer_male_trousers1|Adventurer's Trousers
@@ -1366,174 +1366,174 @@ itm_urban_dress4|Urban Dress
 itm_urban_dress4_pl|Urban Dress
 itm_sidearm_colt_m1873|Colt Single Action Army
 itm_sidearm_colt_m1873_pl|Colt Single Action Army
-itm_ammo_rifle|Ammunition of Rifle Caliber
-itm_ammo_rifle_pl|Ammunition of Rifle Caliber
-itm_ammo_pistol|Ammunition of Pistol Caliber
-itm_ammo_pistol_pl|Ammunition of Pistol Caliber
-itm_ammo_rifle_double|Doubled Ammunition of Rifle Caliber
-itm_ammo_rifle_double_pl|Doubled Ammunition of Rifle Caliber
-itm_rifle_middle_east_musket1|Flintlock Musket
-itm_rifle_middle_east_musket1_pl|Flintlock Musket
-itm_rifle_middle_east_musket1_m|Flintlock Musket
-itm_rifle_middle_east_musket1_m_pl|Flintlock Musket
-itm_rifle_middle_east_musket1_carbine|Flintlock Carbine
-itm_rifle_middle_east_musket1_carbine_pl|Flintlock Carbine
-itm_rifle_middle_east_musket1_carbine_m|Flintlock Carbine
-itm_rifle_middle_east_musket1_carbine_m_pl|Flintlock Carbine
+itm_ammo_rifle|Tüfek Kalibrenin Cephane
+itm_ammo_rifle_pl|Tüfek Kalibrenin Cephane
+itm_ammo_pistol|Tabanca Kalibrenin Cephane
+itm_ammo_pistol_pl|Tabanca Kalibrenin Cephane
+itm_ammo_rifle_double|Tüfek Kalibrenin İkili Cephane
+itm_ammo_rifle_double_pl|Tüfek Kalibrenin İkili Cephane
+itm_rifle_middle_east_musket1|Çakmaklı Tüfek
+itm_rifle_middle_east_musket1_pl|Çakmaklı Tüfek
+itm_rifle_middle_east_musket1_m|Çakmaklı Tüfek
+itm_rifle_middle_east_musket1_m_pl|Çakmaklı Tüfek
+itm_rifle_middle_east_musket1_carbine|Çakmaklı Kalibre
+itm_rifle_middle_east_musket1_carbine_pl|Çakmaklı Kalibre
+itm_rifle_middle_east_musket1_carbine_m|Çakmaklı Kalibre
+itm_rifle_middle_east_musket1_carbine_m_pl|Çakmaklı Kalibre
 itm_sidearm_smithwesson_no2|Smith & Wesson Model 3
 itm_sidearm_smithwesson_no2_pl|Smith & Wesson Model 3
-itm_sidearm_flintlock_pistol1|Flintlock Pistol
-itm_sidearm_flintlock_pistol1_pl|Flintlock Pistol
-itm_sidearm_caplock_pistol1|Caplock Pistol
-itm_sidearm_caplock_pistol1_pl|Caplock Pistol
+itm_sidearm_flintlock_pistol1|Çakmak Tabancası
+itm_sidearm_flintlock_pistol1_pl|Çakmak Tabancası
+itm_sidearm_caplock_pistol1|Caplock Tabancası
+itm_sidearm_caplock_pistol1_pl|Caplock Tabancası
 itm_horse_european1|Saddle Horse
 itm_horse_european1_pl|Saddle Horse
 itm_horse_european2|Saddle Horse
 itm_horse_european2_pl|Saddle Horse
 itm_horse_european3|Saddle Horse
 itm_horse_european3_pl|Saddle Horse
-itm_saber1|Saber
-itm_saber1_pl|Saber
-itm_persian_broadsword|Persian Sabre
-itm_persian_broadsword_pl|Persian Sabre
-itm_turk_broadsword_a|Turkish Sabre
-itm_turk_broadsword_a_pl|Turkish Sabre
-itm_lance1|Lance
-itm_lance1_pl|Lance
+itm_saber1|Kılıç
+itm_saber1_pl|Kılıç
+itm_persian_broadsword|Pers Kılıçı
+itm_persian_broadsword_pl|Pers Kılıçı
+itm_turk_broadsword_a|Türk Kılıçı
+itm_turk_broadsword_a_pl|Türk Kılıçı
+itm_lance1|Mızrak
+itm_lance1_pl|Mızrak
 itm_sidearm_colt_dragoon|Colt Dragoon
 itm_sidearm_colt_dragoon_pl|Colt Dragoon
 itm_sidearm_remington1|Remington Model 1858
 itm_sidearm_remington1_pl|Remington Model 1858
-itm_lou_infantry_trousers1|Austrian Infantry Trousers
-itm_lou_infantry_trousers1_pl|Austrian Infantry Trousers
-itm_lou_infantry_trousers2|Austrian Infantry Trousers
-itm_lou_infantry_trousers2_pl|Austrian Infantry Trousers
-itm_lou_infantry_trousers3|Austrian Infantry Trousers
-itm_lou_infantry_trousers3_pl|Austrian Infantry Trousers
-itm_lou_infantry_trousers4|Austrian Infantry Trousers
-itm_lou_infantry_trousers4_pl|Austrian Infantry Trousers
-itm_lou_infantry_trousers5|Austrian Infantry Trousers
-itm_lou_infantry_trousers5_pl|Austrian Infantry Trousers
-itm_lou_infantry_trousers6|Austrian Infantry Trousers
-itm_lou_infantry_trousers6_pl|Austrian Infantry Trousers
-itm_lou_infantry1|Austrian Military Uniform
-itm_lou_infantry1_pl|Austrian Military Uniform
-itm_lou_infantry2|Austrian Military Uniform
-itm_lou_infantry2_pl|Austrian Military Uniform
-itm_lou_infantry3|Austrian Military Uniform
-itm_lou_infantry3_pl|Austrian Military Uniform
-itm_lou_infantry4|Austrian Military Uniform
-itm_lou_infantry4_pl|Austrian Military Uniform
-itm_lou_infantry5|Austrian Military Uniform
-itm_lou_infantry5_pl|Austrian Military Uniform
-itm_lou_infantry6|Austrian Military Uniform
-itm_lou_infantry6_pl|Austrian Military Uniform
-itm_lou_infantry7|Austrian Military Uniform
-itm_lou_infantry7_pl|Austrian Military Uniform
-itm_lou_infantry8|Austrian Military Uniform
-itm_lou_infantry8_pl|Austrian Military Uniform
-itm_lou_infantry9|Austrian Military Uniform
-itm_lou_infantry9_pl|Austrian Military Uniform
-itm_lou_infantry10|Austrian Military Uniform
-itm_lou_infantry10_pl|Austrian Military Uniform
-itm_lou_infantry11|Austrian Military Uniform
-itm_lou_infantry11_pl|Austrian Military Uniform
-itm_lou_infantry12|Austrian Military Uniform
-itm_lou_infantry12_pl|Austrian Military Uniform
-itm_lou_infantry13|Austrian Military Uniform
-itm_lou_infantry13_pl|Austrian Military Uniform
-itm_lou_infantry14|Austrian Military Uniform
-itm_lou_infantry14_pl|Austrian Military Uniform
-itm_lou_infantry15|Austrian Military Uniform
-itm_lou_infantry15_pl|Austrian Military Uniform
-itm_lou_infantry16|Austrian Military Uniform
-itm_lou_infantry16_pl|Austrian Military Uniform
-itm_lou_infantry17|Austrian Military Uniform
-itm_lou_infantry17_pl|Austrian Military Uniform
-itm_lou_infantry18|Austrian Military Uniform
-itm_lou_infantry18_pl|Austrian Military Uniform
-itm_lou_infantry19|Austrian Military Uniform
-itm_lou_infantry19_pl|Austrian Military Uniform
-itm_lou_hat1|Austrian Hat
-itm_lou_hat1_pl|Austrian Hat
-itm_lou_hat2|Austrian Military Hat
-itm_lou_hat2_pl|Austrian Military Hat
-itm_lou_hat3|Austrian Military Hat
-itm_lou_hat3_pl|Austrian Military Hat
-itm_lou_hat4|Austrian Helmet
-itm_lou_hat4_pl|Austrian Helmet
+itm_lou_infantry_trousers1|Avusturyalı Piyade Pantolonu
+itm_lou_infantry_trousers1_pl|Avusturyalı Piyade Pantolonu
+itm_lou_infantry_trousers2|Avusturyalı Piyade Pantolonu
+itm_lou_infantry_trousers2_pl|Avusturyalı Piyade Pantolonu
+itm_lou_infantry_trousers3|Avusturyalı Piyade Pantolonu
+itm_lou_infantry_trousers3_pl|Avusturyalı Piyade Pantolonu
+itm_lou_infantry_trousers4|Avusturyalı Piyade Pantolonu
+itm_lou_infantry_trousers4_pl|Avusturyalı Piyade Pantolonu
+itm_lou_infantry_trousers5|Avusturyalı Piyade Pantolonu
+itm_lou_infantry_trousers5_pl|Avusturyalı Piyade Pantolonu
+itm_lou_infantry_trousers6|Avusturyalı Piyade Pantolonu
+itm_lou_infantry_trousers6_pl|Avusturyalı Piyade Pantolonu
+itm_lou_infantry1|Avusturyalı Askeri Uniforması
+itm_lou_infantry1_pl|Avusturyalı Askeri Uniforması
+itm_lou_infantry2|Avusturyalı Askeri Uniforması
+itm_lou_infantry2_pl|Avusturyalı Askeri Uniforması
+itm_lou_infantry3|Avusturyalı Askeri Uniforması
+itm_lou_infantry3_pl|Avusturyalı Askeri Uniforması
+itm_lou_infantry4|Avusturyalı Askeri Uniforması
+itm_lou_infantry4_pl|Avusturyalı Askeri Uniforması
+itm_lou_infantry5|Avusturyalı Askeri Uniforması
+itm_lou_infantry5_pl|Avusturyalı Askeri Uniforması
+itm_lou_infantry6|Avusturyalı Askeri Uniforması
+itm_lou_infantry6_pl|Avusturyalı Askeri Uniforması
+itm_lou_infantry7|Avusturyalı Askeri Uniforması
+itm_lou_infantry7_pl|Avusturyalı Askeri Uniforması
+itm_lou_infantry8|Avusturyalı Askeri Uniforması
+itm_lou_infantry8_pl|Avusturyalı Askeri Uniforması
+itm_lou_infantry9|Avusturyalı Askeri Uniforması
+itm_lou_infantry9_pl|Avusturyalı Askeri Uniforması
+itm_lou_infantry10|Avusturyalı Askeri Uniforması
+itm_lou_infantry10_pl|Avusturyalı Askeri Uniforması
+itm_lou_infantry11|Avusturyalı Askeri Uniforması
+itm_lou_infantry11_pl|Avusturyalı Askeri Uniforması
+itm_lou_infantry12|Avusturyalı Askeri Uniforması
+itm_lou_infantry12_pl|Avusturyalı Askeri Uniforması
+itm_lou_infantry13|Avusturyalı Askeri Uniforması
+itm_lou_infantry13_pl|Avusturyalı Askeri Uniforması
+itm_lou_infantry14|Avusturyalı Askeri Uniforması
+itm_lou_infantry14_pl|Avusturyalı Askeri Uniforması
+itm_lou_infantry15|Avusturyalı Askeri Uniforması
+itm_lou_infantry15_pl|Avusturyalı Askeri Uniforması
+itm_lou_infantry16|Avusturyalı Askeri Uniforması
+itm_lou_infantry16_pl|Avusturyalı Askeri Uniforması
+itm_lou_infantry17|Avusturyalı Askeri Uniforması
+itm_lou_infantry17_pl|Avusturyalı Askeri Uniforması
+itm_lou_infantry18|Avusturyalı Askeri Uniforması
+itm_lou_infantry18_pl|Avusturyalı Askeri Uniforması
+itm_lou_infantry19|Avusturyalı Askeri Uniforması
+itm_lou_infantry19_pl|Avusturyalı Askeri Uniforması
+itm_lou_hat1|Avustutyalı Şapkası
+itm_lou_hat1_pl|Avustutyalı Şapkası
+itm_lou_hat2|Avusturyalı Askeri Şapkası
+itm_lou_hat2_pl|Avusturyalı Askeri Şapkası
+itm_lou_hat3|Avusturyalı Askeri Şapkası
+itm_lou_hat3_pl|Avusturyalı Askeri Şapkası
+itm_lou_hat4|Avusturyalı Kaskı
+itm_lou_hat4_pl|Avusturyalı Kaskı
 itm_lou_hat5|Austrian Hat
 itm_lou_hat5_pl|Austrian Hat
-itm_lou_hat6|Austrian Military Hat
-itm_lou_hat6_pl|Austrian Military Hat
-itm_lou_hat7|Austrian Military Hat
-itm_lou_hat7_pl|Austrian Military Hat
-itm_lou_hat8|Austrian Military Hat
-itm_lou_hat8_pl|Austrian Military Hat
-itm_lou_hat9|Austrian Military Hat
-itm_lou_hat9_pl|Austrian Military Hat
-itm_lou_cavalry1|Austrian Military Uniform
-itm_lou_cavalry1_pl|Austrian Military Uniform
-itm_lou_cavalry2|Austrian Military Uniform
-itm_lou_cavalry2_pl|Austrian Military Uniform
-itm_lou_cavalry_trousers1|Austrian Cavalry Trousers
-itm_lou_cavalry_trousers1_pl|Austrian Cavalry Trousers
-itm_lou_cavalry_trousers2|Austrian Cavalry Trousers
-itm_lou_cavalry_trousers2_pl|Austrian Cavalry Trousers
-itm_lou_general|Austrian General Uniform
-itm_lou_general_pl|Austrian General Uniform
-itm_lou_emperor|Austrian Kaiser Uniform
-itm_lou_emperor_pl|Austrian Kaiser Uniform
-itm_lou_emperor_trousers1|Austrian Kaiser Trousers
-itm_lou_emperor_trousers1_pl|Austrian Kaiser Trousers
-itm_lou_bicorne|Austrian Bicorne
-itm_lou_bicorne_pl|Austrian Bicorne
+itm_lou_hat6|Avusturyalı Askeri Şapkası
+itm_lou_hat6_pl|Avusturyalı Askeri Şapkası
+itm_lou_hat7|Avusturyalı Askeri Şapkası
+itm_lou_hat7_pl|Avusturyalı Askeri Şapkası
+itm_lou_hat8|Avusturyalı Askeri Şapkası
+itm_lou_hat8_pl|Avusturyalı Askeri Şapkası
+itm_lou_hat9|Avusturyalı Askeri Şapkası
+itm_lou_hat9_pl|Avusturyalı Askeri Şapkası
+itm_lou_cavalry1|Avusturyalı Askeri Şapkası
+itm_lou_cavalry1_pl|Avusturyalı Uniforması
+itm_lou_cavalry2|Avusturyalı Uniforması
+itm_lou_cavalry2_pl|Avusturyalı Uniforması
+itm_lou_cavalry_trousers1|Avusturyalı Atlı Askeri Pantolonu
+itm_lou_cavalry_trousers1_pl|Avusturyalı Atlı Askeri Pantolonu
+itm_lou_cavalry_trousers2|Avusturyalı Atlı Askeri Pantolonu
+itm_lou_cavalry_trousers2_pl|Avusturyalı Atlı Askeri Pantolonu
+itm_lou_general|Avusturyalı Komutan Uniforması
+itm_lou_general_pl|Avusturyalı Komutan Uniforması
+itm_lou_emperor|Avusturyalı Kaiser Uniforması
+itm_lou_emperor_pl|Avusturyalı Kaiser Uniforması
+itm_lou_emperor_trousers1|Avusturyalu Kaiser Pantolonu
+itm_lou_emperor_trousers1_pl|Avusturyalu Kaiser Pantolonu
+itm_lou_bicorne|Avusturyalı Bicorne
+itm_lou_bicorne_pl|Avusturyalı Bicorne
 itm_sidearm_gasser|Gasser M1870
 itm_sidearm_gasser_pl|Gasser M1870
-itm_clothes_urban_male_trousers1|Trousers
-itm_clothes_urban_male_trousers1_pl|Trousers
-itm_clothes_urban_male_trousers2|Trousers
-itm_clothes_urban_male_trousers2_pl|Trousers
-itm_clothes_urban_male_trousers3|Trousers
-itm_clothes_urban_male_trousers3_pl|Trousers
+itm_clothes_urban_male_trousers1|Pantolonu
+itm_clothes_urban_male_trousers1_pl|Pantolonu
+itm_clothes_urban_male_trousers2|Pantolonu
+itm_clothes_urban_male_trousers2_pl|Pantolonu
+itm_clothes_urban_male_trousers3|Pantolonu
+itm_clothes_urban_male_trousers3_pl|Pantolonu
 itm_dress_shoes|Dress Shoes
 itm_dress_shoes_pl|Dress Shoes
-itm_clothes_urban_male1|Three-piece Suit
-itm_clothes_urban_male1_pl|Three-piece Suit
-itm_clothes_urban_male2|Three-piece Suit
-itm_clothes_urban_male2_pl|Three-piece Suit
-itm_clothes_urban_male3|Three-piece Suit
-itm_clothes_urban_male3_pl|Three-piece Suit
-itm_civilian_hat1|Wide-brimmed Hat
-itm_civilian_hat1_pl|Wide-brimmed Hat
-itm_civilian_hat2|Wide-brimmed Hat
-itm_civilian_hat2_pl|Wide-brimmed Hat
-itm_civilian_hat3|Top Hat
-itm_civilian_hat3_pl|Top Hat
-itm_civilian_hat3b|Top Hat
-itm_civilian_hat3b_pl|Top Hat
-itm_civilian_hat4|Bowler Hat
-itm_civilian_hat4_pl|Bowler Hat
-itm_civilian_hat4b|Bowler Hat
-itm_civilian_hat4b_pl|Bowler Hat
-itm_civilian_hat4c|Bowler Hat
-itm_civilian_hat4c_pl|Bowler Hat
-itm_civilian_hat4d|Bowler Hat
-itm_civilian_hat4d_pl|Bowler Hat
-itm_urban_dress_hat2|Dress Hat
-itm_urban_dress_hat2_pl|Dress Hat
-itm_urban_dress_hat1|Dress Hat
-itm_urban_dress_hat1_pl|Dress Hat
-itm_lance2|Lance
-itm_lance2_pl|Lance
-itm_gho_hat1|Persian Hat
-itm_gho_hat1_pl|Persian Hat
-itm_gho_hat2|Persian Hat
-itm_gho_hat2_pl|Persian Hat
-itm_gho_hat3|Persian Cossack Hat
-itm_gho_hat3_pl|Persian Cossack Hat
-itm_gho_hat4|Persian Hat
-itm_gho_hat4_pl|Persian Hat
+itm_clothes_urban_male1|Üç Parça bir Takım
+itm_clothes_urban_male1_pl|Üç Parça bir Takım
+itm_clothes_urban_male2|Üç Parça bir Takım
+itm_clothes_urban_male2_pl|Üç Parça bir Takım
+itm_clothes_urban_male3|Üç Parça bir Takım
+itm_clothes_urban_male3_pl|Üç Parça bir Takım
+itm_civilian_hat1|Geniş ağızlı şapka
+itm_civilian_hat1_pl|Geniş ağızlı şapka
+itm_civilian_hat2|Geniş ağızlı şapka
+itm_civilian_hat2_pl|Geniş ağızlı şapka
+itm_civilian_hat3|Silindir Şapka
+itm_civilian_hat3_pl|Silindir Şapka
+itm_civilian_hat3b|Silindir Şapka
+itm_civilian_hat3b_pl|Silindir Şapka
+itm_civilian_hat4|Melon Şapka
+itm_civilian_hat4_pl|Melon Şapka
+itm_civilian_hat4b|Melon Şapka
+itm_civilian_hat4b_pl|Melon Şapka
+itm_civilian_hat4c|Melon Şapka
+itm_civilian_hat4c_pl|Melon Şapka
+itm_civilian_hat4d|Melon Şapka
+itm_civilian_hat4d_pl|Melon Şapka
+itm_urban_dress_hat2|elbise şapka
+itm_urban_dress_hat2_pl|elbise şapka
+itm_urban_dress_hat1|elbise şapka
+itm_urban_dress_hat1_pl|elbise şapka
+itm_lance2|Mızrak
+itm_lance2_pl|Mızrak
+itm_gho_hat1|Pers Şapkası
+itm_gho_hat1_pl|Pers Şapkası
+itm_gho_hat2|Pers Şapkası
+itm_gho_hat2_pl|Pers Şapkası
+itm_gho_hat3|Pers Kazak Şapkası
+itm_gho_hat3_pl|Pers Kazak Şapkası
+itm_gho_hat4|Pers Şapkası
+itm_gho_hat4_pl|Pers Şapkası
 itm_gho_infantry1|Persian Military Uniform
 itm_gho_infantry1_pl|Persian Military Uniform
 itm_gho_infantry2|Persian Military Uniform
@@ -1580,310 +1580,310 @@ itm_gho_hat7|Persian Fez
 itm_gho_hat7_pl|Persian Fez
 itm_lance3|Lance
 itm_lance3_pl|Lance
-itm_horse_russian1a|Bay Orlov Saddle Horse
-itm_horse_russian1a_pl|Bay Orlov Saddle Horse
-itm_horse_russian1b|Black Orlov Saddle Horse
-itm_horse_russian1b_pl|Black Orlov Saddle Horse
-itm_horse_russian2a|Gray Orlov Trotter
-itm_horse_russian2a_pl|Gray Orlov Trotter
+itm_horse_russian1a|Bay Orlov Atı
+itm_horse_russian1a_pl|Bay Orlov Atı
+itm_horse_russian1b|Siyah Orlov Atı
+itm_horse_russian1b_pl|Siyah Orlov Saddle Horse
+itm_horse_russian2a|Gri Orlov Trotter
+itm_horse_russian2a_pl|Gri Orlov Trotter
 itm_horse_russian2b|Bay Orlov Trotter
 itm_horse_russian2b_pl|Bay Orlov Trotter
-itm_horse_russian3a|Black Karachay Horse
-itm_horse_russian3a_pl|Black Karachay Horse
-itm_horse_russian3b|Bay Karachay Horse
-itm_horse_russian3b_pl|Bay Karachay Horse
-itm_horse_russian4a|Chestnut Russian Don
-itm_horse_russian4a_pl|Chestnut Russian Don
-itm_horse_russian4b|Dark Bay Russian Don
-itm_horse_russian4b_pl|Dark Bay Russian Don
-itm_horse_russian5a|Bay Kabardin Horse
-itm_horse_russian5a_pl|Bay Kabardin Horse
-itm_horse_russian5b|Black Kabardin Horse
-itm_horse_russian5b_pl|Black Kabardin Horse
-itm_horse_arabian1a|Gray Arabian Siglavi Horse
-itm_horse_arabian1a_pl|Gray Arabian Siglavi Horse
-itm_horse_arabian2a|Bay Arabian Koheilan Horse
-itm_horse_arabian2a_pl|Bay Arabian Koheilan Horse
-itm_horse_arabian2b|Chestnut Arabian Koheilan Horse
-itm_horse_arabian2b_pl|Chestnut Arabian Koheilan Horse
-itm_horse_arabian3a|Bay Arabian Khadban Horse
-itm_horse_arabian3a_pl|Bay Arabian Khadban Horse
-itm_horse_arabian4a|Gray Arabian Koheilan-Siglavi Horse
-itm_horse_arabian4a_pl|Gray Arabian Koheilan-Siglavi Horse
-itm_horse_arabian4b|Bay Arabian Koheilan-Siglavi Horse
-itm_horse_arabian4b_pl|Bay Arabian Koheilan-Siglavi Horse
-itm_horse_arabian4c|Chestnut Arabian Koheilan-Siglavi Horse
-itm_horse_arabian4c_pl|Chestnut Arabian Koheilan-Siglavi Horse
-itm_horse_turkmen1a|Bay Akhal-Teke Horse
-itm_horse_turkmen1a_pl|Bay Akhal-Teke Horse
-itm_horse_turkmen1b|Chestnut Akhal-Teke Horse
-itm_horse_turkmen1b_pl|Chestnut Akhal-Teke Horse
-itm_horse_turkmen1c|Black Akhal-Teke Horse
-itm_horse_turkmen1c_pl|Black Akhal-Teke Horse
-itm_horse_turkmen1d|Gray Akhal-Teke Horse
-itm_horse_turkmen1d_pl|Gray Akhal-Teke Horse
-itm_horse_karabakh1a|Chestnut Karabakh Horse
-itm_horse_karabakh1a_pl|Chestnut Karabakh Horse
-itm_horse_karabakh1b|Gray Karabakh Horse
-itm_horse_karabakh1b_pl|Gray Karabakh Horse
-itm_horse_austrian1a|Bay Austrian Warmblood
-itm_horse_austrian1a_pl|Bay Austrian Warmblood
-itm_horse_austrian1b|Chestnut Austrian Warmblood
-itm_horse_austrian1b_pl|Chestnut Austrian Warmblood
-itm_horse_austrian1c|Black Austrian Warmblood
-itm_horse_austrian1c_pl|Black Austrian Warmblood
-itm_horse_austrian1d|Gray Austrian Warmblood
-itm_horse_austrian1d_pl|Gray Austrian Warmblood
-itm_horse_austrian2a|Black Kladruber Horse
-itm_horse_austrian2a_pl|Black Kladruber Horse
-itm_horse_austrian2b|Gray Kladruber Horse
-itm_horse_austrian2b_pl|Gray Kladruber Horse
-itm_horse_austrian3a|Gray Lipizzan Horse
-itm_horse_austrian3a_pl|Gray Lipizzan Horse
-itm_horse_austrian4a|Black Nonius Horse
-itm_horse_austrian4a_pl|Black Nonius Horse
-itm_horse_austrian4b|Dark Bay Nonius Horse
-itm_horse_austrian4b_pl|Dark Bay Nonius Horse
-itm_horse_austrian5a|Gray Shagya Arabian Horse
-itm_horse_austrian5a_pl|Gray Shagya Arabian Horse
+itm_horse_russian3a|Siyah Karachay Atı
+itm_horse_russian3a_pl|Siyah Karachay Atı
+itm_horse_russian3b|Bay Karachay Atı
+itm_horse_russian3b_pl|Bay Karachay Atı
+itm_horse_russian4a|Kestane Rus Don
+itm_horse_russian4a_pl|Kestane Rus Don
+itm_horse_russian4b|Kara Bay Rus Don
+itm_horse_russian4b_pl|Kara Bay Rus Don
+itm_horse_russian5a|Bay Kabardin Atı
+itm_horse_russian5a_pl|Bay Kabardin Atı
+itm_horse_russian5b|Siyah Kabardin Atı
+itm_horse_russian5b_pl|Siyah Kabardin Atı
+itm_horse_arabian1a|Gri Arabian Siglavi Atı
+itm_horse_arabian1a_pl|Gri Arabian Siglavi Atı
+itm_horse_arabian2a|Bay Arabian Koheilan Atı
+itm_horse_arabian2a_pl|Bay Arabian Koheilan Atı
+itm_horse_arabian2b|Kestane Arabian Koheilan Atı
+itm_horse_arabian2b_pl|Kestane Arabian Koheilan Atı
+itm_horse_arabian3a|Bay Arabian Khadban Atı
+itm_horse_arabian3a_pl|Bay Arabian Khadban Atı
+itm_horse_arabian4a|Gri Arabian Koheilan-Siglavi Atı
+itm_horse_arabian4a_pl|Gri Arabian Koheilan-Siglavi Atı
+itm_horse_arabian4b|Bay Arabian Koheilan-Siglavi Atı
+itm_horse_arabian4b_pl|Bay Arabian Koheilan-Siglavi Atı
+itm_horse_arabian4c|Kestane Arabian Koheilan-Siglavi Atı
+itm_horse_arabian4c_pl|Kestane Arabian Koheilan-Siglavi Atı
+itm_horse_turkmen1a|Bay Akhal-Teke Atı
+itm_horse_turkmen1a_pl|Bay Akhal-Teke Atı
+itm_horse_turkmen1b|Kestane Akhal-Teke Atı
+itm_horse_turkmen1b_pl|Kestane Akhal-Teke Atı
+itm_horse_turkmen1c|Siyah Akhal-Teke Atı
+itm_horse_turkmen1c_pl|Siyah Akhal-Teke Atı
+itm_horse_turkmen1d|Gri Akhal-Teke Atı
+itm_horse_turkmen1d_pl|Gri Akhal-Teke Atı
+itm_horse_karabakh1a|Kestane Karabakh Atı
+itm_horse_karabakh1a_pl|Kestane Karabakh Atı
+itm_horse_karabakh1b|Gri Karabakh Atı
+itm_horse_karabakh1b_pl|Gri Karabakh Atı
+itm_horse_austrian1a|Bay Avusturyalı Sıcak Kan
+itm_horse_austrian1a_pl|Bay Avusturyalı Sıcak Kan
+itm_horse_austrian1b|Kestane Avusturyalı Sıcak Kan
+itm_horse_austrian1b_pl|Kestane Avusturyalı Sıcak Kan
+itm_horse_austrian1c|Siyah Avusturyalı Sıcak Kan
+itm_horse_austrian1c_pl|Siyah Avusturyalı Sıcak Kan
+itm_horse_austrian1d|Gri Avusturyalı Sıcak Kan
+itm_horse_austrian1d_pl|Gri Avusturyalı Sıcak Kan
+itm_horse_austrian2a|Siyah Kladruber Atı
+itm_horse_austrian2a_pl|Siyah Kladruber Atı
+itm_horse_austrian2b|Gri Kladruber Atı
+itm_horse_austrian2b_pl|Gri Kladruber Atı
+itm_horse_austrian3a|Gri Lipizzan Atı
+itm_horse_austrian3a_pl|Gri Lipizzan Atı
+itm_horse_austrian4a|Siyah Nonius Atı
+itm_horse_austrian4a_pl|Siyah Nonius Atı
+itm_horse_austrian4b|Kara Bay Nonius Atı
+itm_horse_austrian4b_pl|Kara Bay Nonius Atı
+itm_horse_austrian5a|Gri Shagya Arabian Atı
+itm_horse_austrian5a_pl|Gri Shagya Arabian Atı
 itm_horse_german1a|Bay Trakehner
 itm_horse_german1a_pl|Bay Trakehner
-itm_horse_german1b|Chestnut Trakehner
-itm_horse_german1b_pl|Chestnut Trakehner
-itm_horse_german1c|Black Trakehner
-itm_horse_german1c_pl|Black Trakehner
-itm_horse_german1d|Gray Trakehner
-itm_horse_german1d_pl|Gray Trakehner
+itm_horse_german1b|KestaneTrakehner
+itm_horse_german1b_pl|Kestane Trakehner
+itm_horse_german1c|Siyah Trakehner
+itm_horse_german1c_pl|Siyah Trakehner
+itm_horse_german1d|Gri Trakehner
+itm_horse_german1d_pl|Gri Trakehner
 itm_horse_german2a|Bay Brandenburger
 itm_horse_german2a_pl|Bay Brandenburger
 itm_horse_german3a|Bay Reitpony
 itm_horse_german3a_pl|Bay Reitpony
-itm_horse_german4a|Bay Hanoverian Horse
-itm_horse_german4a_pl|Bay Hanoverian Horse
-itm_horse_german4b|Chestnut Hanoverian Horse
-itm_horse_german4b_pl|Chestnut Hanoverian Horse
-itm_horse_german4c|Black Hanoverian Horse
-itm_horse_german4c_pl|Black Hanoverian Horse
-itm_horse_german4d|Gray Hanoverian Horse
-itm_horse_german4d_pl|Gray Hanoverian Horse
-itm_horse_german5a|Bay Holsteiner Horse
-itm_horse_german5a_pl|Bay Holsteiner Horse
-itm_horse_german5b|Gray Holsteiner Horse
-itm_horse_german5b_pl|Gray Holsteiner Horse
-itm_horse_german6a|Black Ostfriesen
-itm_horse_german6a_pl|Black Ostfriesen
-itm_horse_german6b|Dark Bay Ostfriesen
-itm_horse_german6b_pl|Dark Bay Ostfriesen
+itm_horse_german4a|Bay Hanoverian Atı
+itm_horse_german4a_pl|Bay Hanoverian Atı
+itm_horse_german4b|Kestane Hanoverian Atı
+itm_horse_german4b_pl|Kestane Hanoverian Atı
+itm_horse_german4c|Siyah Hanoverian Atı
+itm_horse_german4c_pl|Siyah Hanoverian Atı
+itm_horse_german4d|Gri Hanoverian Atı
+itm_horse_german4d_pl|Gri Hanoverian Atı
+itm_horse_german5a|Bay Holsteiner Atı
+itm_horse_german5a_pl|Bay Holsteiner Atı
+itm_horse_german5b|Gri Holsteiner Atı
+itm_horse_german5b_pl|Gri Holsteiner Atı
+itm_horse_german6a|Siyah Ostfriesen
+itm_horse_german6a_pl|Siyah Ostfriesen
+itm_horse_german6b|Kara Bay Ostfriesen
+itm_horse_german6b_pl|Kara Bay Ostfriesen
 itm_horse_german7a|Bay Mecklenburger
 itm_horse_german7a_pl|Bay Mecklenburger
-itm_horse_german7b|Chestnut Mecklenburger
-itm_horse_german7b_pl|Chestnut Mecklenburger
-itm_horse_german7c|Black Mecklenburger
-itm_horse_german7c_pl|Black Mecklenburger
-itm_horse_german7d|Gray Mecklenburger
-itm_horse_german7d_pl|Gray Mecklenburger
+itm_horse_german7b|Kestane Mecklenburger
+itm_horse_german7b_pl|Kestane Mecklenburger
+itm_horse_german7c|Siyah Mecklenburger
+itm_horse_german7c_pl|Siyah Mecklenburger
+itm_horse_german7d|Gri Mecklenburger
+itm_horse_german7d_pl|Gri Mecklenburger
 itm_horse_german8a|Bay Oldenburg
 itm_horse_german8a_pl|Bay Oldenburg
-itm_horse_german8b|Chestnut Oldenburg
-itm_horse_german8b_pl|Chestnut Oldenburg
-itm_horse_german8c|Black Oldenburg
-itm_horse_german8c_pl|Black Oldenburg
-itm_horse_german8d|Gray Oldenburg
-itm_horse_german8d_pl|Gray Oldenburg
-itm_horse_german9a|Bay Westphalian Horse
-itm_horse_german9a_pl|Bay Westphalian Horse
-itm_horse_german9b|Chestnut Westphalian Horse
-itm_horse_german9b_pl|Chestnut Westphalian Horse
-itm_horse_german9c|Black Westphalian Horse
-itm_horse_german9c_pl|Black Westphalian Horse
-itm_horse_german9d|Gray Westphalian Horse
-itm_horse_german9d_pl|Gray Westphalian Horse
-itm_horse_german10a|Bay Rhenish Horse
-itm_horse_german10a_pl|Bay Rhenish Horse
-itm_horse_german10b|Chestnut Rhenish Horse
-itm_horse_german10b_pl|Chestnut Rhenish Horse
-itm_horse_german10c|Black Rhenish Horse
-itm_horse_german10c_pl|Black Rhenish Horse
-itm_horse_german10d|Gray Rhenish Horse
-itm_horse_german10d_pl|Gray Rhenish Horse
-itm_horse_british1a|Bay Thoroughbred Horse
-itm_horse_british1a_pl|Bay Thoroughbred Horse
-itm_horse_british1b|Chestnut Thoroughbred Horse
-itm_horse_british1b_pl|Chestnut Thoroughbred Horse
-itm_horse_british1c|Dark Bay Thoroughbred Horse
-itm_horse_british1c_pl|Dark Bay Thoroughbred Horse
-itm_horse_british2a|Bay Anglo-Arabian Horse
-itm_horse_british2a_pl|Bay Anglo-Arabian Horse
-itm_horse_british2b|Chestnut Anglo-Arabian Horse
-itm_horse_british2b_pl|Chestnut Anglo-Arabian Horse
-itm_horse_british2c|Gray Anglo-Arabian Horse
-itm_horse_british2c_pl|Gray Anglo-Arabian Horse
-itm_horse_british3a|Bay Cleveland Horse
-itm_horse_british3a_pl|Bay Cleveland Horse
-itm_horse_british4a|Black Dales Pony
-itm_horse_british4a_pl|Black Dales Pony
-itm_horse_british5a|Chestnut Norfolk Trotter
-itm_horse_british5a_pl|Chestnut Norfolk Trotter
-itm_horse_british6a|Black Shire Horse
-itm_horse_british6a_pl|Black Shire Horse
-itm_horse_british6b|Bay Shire Horse
-itm_horse_british6b_pl|Bay Shire Horse
-itm_horse_british7a|Bay British Warmblood
-itm_horse_british7a_pl|Bay British Warmblood
-itm_horse_british7b|Chestnut British Warmblood
-itm_horse_british7b_pl|Chestnut British Warmblood
-itm_horse_british7c|Black British Warmblood
-itm_horse_british7c_pl|Black British Warmblood
-itm_horse_british7d|Gray British Warmblood
-itm_horse_british7d_pl|Gray British Warmblood
-itm_horse_french1a|Bay Auvergne Horse
-itm_horse_french1a_pl|Bay Auvergne Horse
-itm_horse_french1b|Chestnut Auvergne Horse
-itm_horse_french1b_pl|Chestnut Auvergne Horse
-itm_horse_french2a|Black Nivernais Horse
-itm_horse_french2a_pl|Black Nivernais Horse
+itm_horse_german8b|Kestane Oldenburg
+itm_horse_german8b_pl|Kestane Oldenburg
+itm_horse_german8c|Siyah Oldenburg
+itm_horse_german8c_pl|Siyah Oldenburg
+itm_horse_german8d|Gri Oldenburg
+itm_horse_german8d_pl|Gri Oldenburg
+itm_horse_german9a|Bay Westphalian Atı
+itm_horse_german9a_pl|Bay Westphalian Atı
+itm_horse_german9b|Kestane Westphalian Atı
+itm_horse_german9b_pl|Kestane Westphalian Atı
+itm_horse_german9c|Siyah Westphalian Atı
+itm_horse_german9c_pl|Gri Westphalian Atı
+itm_horse_german9d|Gri Westphalian Atı
+itm_horse_german9d_pl|Gri Westphalian Atı
+itm_horse_german10a|Bay Rhenish Atı
+itm_horse_german10a_pl|Bay Rhenish Atı
+itm_horse_german10b|Kestane Rhenish Atı
+itm_horse_german10b_pl|Kestane Rhenish Atı
+itm_horse_german10c|Siyah Rhenish Atı
+itm_horse_german10c_pl|Siyah Rhenish Atı
+itm_horse_german10d|Gri Rhenish Atı
+itm_horse_german10d_pl|Gri Rhenish Atı
+itm_horse_british1a|Bay Thoroughbred Atı
+itm_horse_british1a_pl|Bay Thoroughbred Atı
+itm_horse_british1b|Kestane Thoroughbred Atı
+itm_horse_british1b_pl|Kestane Thoroughbred Atı
+itm_horse_british1c|Kara Bay Thoroughbred Atı
+itm_horse_british1c_pl|Kara Bay Thoroughbred Atı
+itm_horse_british2a|Bay Anglo-Arab Atı
+itm_horse_british2a_pl|Bay Anglo-Arab Atı
+itm_horse_british2b|Kestane Anglo-Arab Atı
+itm_horse_british2b_pl|Kestane Anglo-Arab Atı
+itm_horse_british2c|Gri Anglo-Arab Atı
+itm_horse_british2c_pl|Gri Anglo-Arab Atı
+itm_horse_british3a|Bay Cleveland Atı
+itm_horse_british3a_pl|Bay Cleveland Atı
+itm_horse_british4a|Siyah Dales Midilli
+itm_horse_british4a_pl|Siyah Dales Midilli
+itm_horse_british5a|Kestane Norfolk Trotter
+itm_horse_british5a_pl|Kestane Norfolk Trotter
+itm_horse_british6a|Siyah Shire Atı
+itm_horse_british6a_pl|Siyah Shire Atı
+itm_horse_british6b|Bay Shire Atı
+itm_horse_british6b_pl|Bay Shire Atı
+itm_horse_british7a|Bay İngiliz Sıcak Kan
+itm_horse_british7a_pl|Bay İngiliz Sıcak Kan
+itm_horse_british7b|Kestane İngiliz Sıcak Kan
+itm_horse_british7b_pl|Kestane İngiliz Sıcak Kan
+itm_horse_british7c|Siyah British Sıcak Kan
+itm_horse_british7c_pl|Siyah British Sıcak Kan
+itm_horse_british7d|Gri British Sıcak Kan
+itm_horse_british7d_pl|Gri British Sıcak Kan
+itm_horse_french1a|Bay Auvergne Atı
+itm_horse_french1a_pl|Bay Auvergne Atı
+itm_horse_french1b|Kestane Auvergne Atı
+itm_horse_french1b_pl|kestane Auvergne Atı
+itm_horse_french2a|Siyah Nivernais Atı
+itm_horse_french2a_pl|Siyah Nivernais Atı
 itm_horse_french3a|Bay Selle Francais
 itm_horse_french3a_pl|Bay Selle Francais
-itm_horse_french3b|Chestnut Selle Francais
-itm_horse_french3b_pl|Chestnut Selle Francais
-itm_horse_french4a|Dark Bay Castillonnais
-itm_horse_french4a_pl|Dark Bay Castillonnais
-itm_horse_french4b|Chestnut Castillonnais
-itm_horse_french4b_pl|Chestnut Castillonnais
-itm_horse_french5a|Bay French Warmblood
-itm_horse_french5a_pl|Bay French Warmblood
-itm_horse_french5b|Chestnut French Warmblood
-itm_horse_french5b_pl|Chestnut French Warmblood
-itm_horse_french5c|Black French Warmblood
-itm_horse_french5c_pl|Black French Warmblood
-itm_horse_french5d|Gray French Warmblood
-itm_horse_french5d_pl|Gray French Warmblood
-itm_horse_french6a|Gray Camargue Horse
-itm_horse_french6a_pl|Gray Camargue Horse
+itm_horse_french3b|Kestane Selle Francais
+itm_horse_french3b_pl|Kestane Selle Francais
+itm_horse_french4a|Kara Bay Castillonnais
+itm_horse_french4a_pl|Kara Bay Castillonnais
+itm_horse_french4b|Kestane Castillonnais
+itm_horse_french4b_pl|Kestane Castillonnais
+itm_horse_french5a|Bay Fransız Sıcak Kan
+itm_horse_french5a_pl|Bay Fransız Sıcak Kan
+itm_horse_french5b|Kestane Fransız Sıcak Kan
+itm_horse_french5b_pl|Kestane Fransız Sıcak Kan
+itm_horse_french5c|Siyah Fransız Sıcak Kan
+itm_horse_french5c_pl|Siyah French Sıcak Kan
+itm_horse_french5d|Gri Fransız Sıcak Kan
+itm_horse_french5d_pl|Gri Fransız Sıcak Kan
+itm_horse_french6a|Gri Camargue Atı
+itm_horse_french6a_pl|Gri Camargue Atı
 itm_sidearm_colt_m1851_navy|Colt M1851 Navy
 itm_sidearm_colt_m1851_navy_pl|Colt M1851 Navy
 itm_sidearm_bacon1|Bacon Pocket Revolver
 itm_sidearm_bacon1_pl|Bacon Pocket Revolver
-itm_rifle_sharps|Sharps Rifle
-itm_rifle_sharps_pl|Sharps Rifle
-itm_rifle_sharps_m|Sharps Rifle
-itm_rifle_sharps_m_pl|Sharps Rifle
-itm_rifle_henry|Henry Repeating Rifle
-itm_rifle_henry_pl|Henry Repeating Rifle
-itm_rifle_henry_m|Henry Repeating Rifle
-itm_rifle_henry_m_pl|Henry Repeating Rifle
-itm_rifle_spencer|Spencer Repeating Rifle
-itm_rifle_spencer_pl|Spencer Repeating Rifle
-itm_rifle_spencer_m|Spencer Repeating Rifle
-itm_rifle_spencer_m_pl|Spencer Repeating Rifle
-itm_rifle_spencer_carbine|Spencer Repeating Carbine
-itm_rifle_spencer_carbine_pl|Spencer Repeating Carbine
-itm_rifle_spencer_carbine_m|Spencer Repeating Carbine
-itm_rifle_spencer_carbine_m_pl|Spencer Repeating Carbine
+itm_rifle_sharps|Sharps Tüfeyi
+itm_rifle_sharps_pl|Sharps Tüfeyi
+itm_rifle_sharps_m|Sharps Tüfeyi
+itm_rifle_sharps_m_pl|Sharps Tüfeyi
+itm_rifle_henry|Henry tekrarlayan Tüfeyi
+itm_rifle_henry_pl|Henry Tekrarlayan Tüfeyi
+itm_rifle_henry_m|Henry Tekrarlayan Tüfeyi
+itm_rifle_henry_m_pl|Henry Tekrarlayan Tüfeyi
+itm_rifle_spencer|Spencer Tekrarlayan Tüfeyi
+itm_rifle_spencer_pl|Spencer Tekrarlayan Tüfeyi
+itm_rifle_spencer_m|Spencer Tekrarlayan Tüfeyi
+itm_rifle_spencer_m_pl|Spencer Tekrarlayan Tüfeyi
+itm_rifle_spencer_carbine|Spencer Tekrarlayan Tüfeyi
+itm_rifle_spencer_carbine_pl|Spencer Tekrarlayan Tüfeyi
+itm_rifle_spencer_carbine_m|Spencer Tekrarlayan Tüfeyi
+itm_rifle_spencer_carbine_m_pl|Spencer Tekrarlayan Tüfeyi
 itm_sidearm_savage_revolver|Savage M1861 Navy
 itm_sidearm_savage_revolver_pl|Savage M1861 Navy
 itm_sidearm_pepperbox1|Pepper-box Revolver
 itm_sidearm_pepperbox1_pl|Pepper-box Revolver
-itm_sidearm_pepperbox2|Pepper-box Pistol
-itm_sidearm_pepperbox2_pl|Pepper-box Pistol
-itm_rifle_russian_m1845|Russian M1845 Musket
-itm_rifle_russian_m1845_pl|Russian M1845 Musket
-itm_rifle_russian_m1845_m|Russian M1845 Musket
-itm_rifle_russian_m1845_m_pl|Russian M1845 Musket
-itm_rifle_russian_m1845_carbine|Russian M1845 Carbine
-itm_rifle_russian_m1845_carbine_pl|Russian M1845 Carbine
-itm_rifle_russian_m1845_carbine_m|Russian M1845 Carbine
-itm_rifle_russian_m1845_carbine_m_pl|Russian M1845 Carbine
-itm_rifle_russian_m1856|Russian M1856 Rifle
-itm_rifle_russian_m1856_pl|Russian M1856 Rifle
-itm_rifle_russian_m1856_m|Russian M1856 Rifle
-itm_rifle_russian_m1856_m_pl|Russian M1856 Rifle
-itm_rifle_russian_m1856_carbine|Russian M1856 Carbine
-itm_rifle_russian_m1856_carbine_pl|Russian M1856 Carbine
-itm_rifle_russian_m1856_carbine_m|Russian M1856 Carbine
-itm_rifle_russian_m1856_carbine_m_pl|Russian M1856 Carbine
-itm_rifle_russian_m1867|Krnka Rifle
-itm_rifle_russian_m1867_pl|Krnka Rifle
-itm_rifle_russian_m1867_m|Krnka Rifle
-itm_rifle_russian_m1867_m_pl|Krnka Rifle
-itm_rifle_russian_m1867_carbine|Krnka Carbine
-itm_rifle_russian_m1867_carbine_pl|Krnka Carbine
-itm_rifle_russian_m1867_carbine_m|Krnka Carbine
-itm_rifle_russian_m1867_carbine_m_pl|Krnka Carbine
-itm_rifle_russian_berdan|Berdan Rifle
-itm_rifle_russian_berdan_pl|Berdan Rifle
-itm_rifle_russian_berdan_m|Berdan Rifle
-itm_rifle_russian_berdan_m_pl|Berdan Rifle
-itm_rifle_russian_berdan_carbine|Berdan Carbine
-itm_rifle_russian_berdan_carbine_pl|Berdan Carbine
-itm_rifle_russian_berdan_carbine_m|Berdan Carbine
-itm_rifle_russian_berdan_carbine_m_pl|Berdan Carbine
-itm_rifle_russian_mosin|Mosin-Nagant Rifle
-itm_rifle_russian_mosin_pl|Mosin-Nagant Rifle
-itm_rifle_russian_mosin_m|Mosin-Nagant Rifle
-itm_rifle_russian_mosin_m_pl|Mosin-Nagant Rifle
-itm_rifle_russian_mosin_carbine|Mosin-Nagant Carbine
-itm_rifle_russian_mosin_carbine_pl|Mosin-Nagant Carbine
-itm_rifle_russian_mosin_carbine_m|Mosin-Nagant Carbine
-itm_rifle_russian_mosin_carbine_m_pl|Mosin-Nagant Carbine
-itm_bow1|Bow (Yew)
-itm_bow1_pl|Bow (Yew)
-itm_bow2|Bow (Ash)
-itm_bow2_pl|Bow (Ash)
-itm_bow3|Bow (Acacia)
-itm_bow3_pl|Bow (Acacia)
-itm_bow4|Composite Bow
-itm_bow4_pl|Composite Bow
-itm_arrows1|Arrows
-itm_arrows1_pl|Arrows
+itm_sidearm_pepperbox2|Pepper-box Tabancası
+itm_sidearm_pepperbox2_pl|Pepper-box Tabancası
+itm_rifle_russian_m1845|Rus M1845 Musketi
+itm_rifle_russian_m1845_pl|Rus M1845 Musketi
+itm_rifle_russian_m1845_m|Rus M1845 Musketi
+itm_rifle_russian_m1845_m_pl|Rus M1845 Musketi
+itm_rifle_russian_m1845_carbine|Rus M1845 Karabine
+itm_rifle_russian_m1845_carbine_pl|Rus M1845 Karabine
+itm_rifle_russian_m1845_carbine_m|Rus M1845 Karabine
+itm_rifle_russian_m1845_carbine_m_pl|Rus M1845 Karabine
+itm_rifle_russian_m1856|Rus M1856 Tüfeyi
+itm_rifle_russian_m1856_pl|Rus M1856 Tüfeyi
+itm_rifle_russian_m1856_m|Rus M1856 Tüfeyi
+itm_rifle_russian_m1856_m_pl|Rus M1856 Tüfeyi
+itm_rifle_russian_m1856_carbine|Rus M1856 Karabine
+itm_rifle_russian_m1856_carbine_pl|Rus M1856 Karabina
+itm_rifle_russian_m1856_carbine_m|Rus M1856 Karbina
+itm_rifle_russian_m1856_carbine_m_pl|Rus M1856 Karbina
+itm_rifle_russian_m1867|Krnka Tüfeyi
+itm_rifle_russian_m1867_pl|Krnka Tüfeyi
+itm_rifle_russian_m1867_m|Krnka Tüfeyi
+itm_rifle_russian_m1867_m_pl|Krnka Tüfeyi
+itm_rifle_russian_m1867_carbine|Krnka Karbina
+itm_rifle_russian_m1867_carbine_pl|Krnka Karbina
+itm_rifle_russian_m1867_carbine_m|Krnka Karbina
+itm_rifle_russian_m1867_carbine_m_pl|Krnka Karbina
+itm_rifle_russian_berdan|Berdan Tüfeyi
+itm_rifle_russian_berdan_pl|Berdan Tüfeyi
+itm_rifle_russian_berdan_m|Berdan Tüfeyi
+itm_rifle_russian_berdan_m_pl|Berdan Tüfeyi
+itm_rifle_russian_berdan_carbine|Berdan Karbina
+itm_rifle_russian_berdan_carbine_pl|Berdan Karbina
+itm_rifle_russian_berdan_carbine_m|Berdan Karbina
+itm_rifle_russian_berdan_carbine_m_pl|Berdan Karbina
+itm_rifle_russian_mosin|Mosin-Nagant Tüfeyi
+itm_rifle_russian_mosin_pl|Mosin-Nagant Tüfeyi
+itm_rifle_russian_mosin_m|Mosin-Nagant Tüfeyi
+itm_rifle_russian_mosin_m_pl|Mosin-Nagant Tüfeyi
+itm_rifle_russian_mosin_carbine|Mosin-Nagant Karbina
+itm_rifle_russian_mosin_carbine_pl|Mosin-Nagant Karbina
+itm_rifle_russian_mosin_carbine_m|Mosin-Nagant Karbina
+itm_rifle_russian_mosin_carbine_m_pl|Mosin-Nagant Karbina
+itm_bow1|Yay (Yew)
+itm_bow1_pl|Yay (Yew)
+itm_bow2|Yay (Ash)
+itm_bow2_pl|Yay (Ash)
+itm_bow3|Yay (Acacia)
+itm_bow3_pl|Yay (Acacia)
+itm_bow4|Bileşik Yay
+itm_bow4_pl|Bileşik Yay
+itm_arrows1|Oklar
+itm_arrows1_pl|Oklar
 itm_clothes_rural_male1|Shirt
 itm_clothes_rural_male1_pl|Shirt
 itm_clothes_rural_male2|Shirt
 itm_clothes_rural_male2_pl|Shirt
-itm_clothes_gala_male1|Three-piece Suit
-itm_clothes_gala_male1_pl|Three-piece Suit
-itm_clothes_gala_male1_trousers|Trousers
-itm_clothes_gala_male1_trousers_pl|Trousers
-itm_rifle_austrian_m1842|Austrian M1842 Musket
-itm_rifle_austrian_m1842_pl|Austrian M1842 Musket
-itm_rifle_austrian_m1842_m|Austrian M1842 Musket
-itm_rifle_austrian_m1842_m_pl|Austrian M1842 Musket
-itm_rifle_austrian_m1842_carbine|Austrian M1842 Carbine
-itm_rifle_austrian_m1842_carbine_pl|Austrian M1842 Carbine
-itm_rifle_austrian_m1842_carbine_m|Austrian M1842 Carbine
-itm_rifle_austrian_m1842_carbine_m_pl|Austrian M1842 Carbine
-itm_rifle_austrian_m1854|Lorenz Rifle
-itm_rifle_austrian_m1854_pl|Lorenz Rifle
-itm_rifle_austrian_m1854_m|Lorenz Rifle
-itm_rifle_austrian_m1854_m_pl|Lorenz Rifle
-itm_rifle_austrian_m1854_carbine|Lorenz Carbine
-itm_rifle_austrian_m1854_carbine_pl|Lorenz Carbine
-itm_rifle_austrian_m1854_carbine_m|Lorenz Carbine
-itm_rifle_austrian_m1854_carbine_m_pl|Lorenz Carbine
-itm_rifle_austrian_m1867|Wanzl Rifle
-itm_rifle_austrian_m1867_pl|Wanzl Rifle
-itm_rifle_austrian_m1867_m|Wanzl Rifle
-itm_rifle_austrian_m1867_m_pl|Wanzl Rifle
-itm_rifle_austrian_m1867_carbine|Wanzl Carbine
-itm_rifle_austrian_m1867_carbine_pl|Wanzl Carbine
-itm_rifle_austrian_m1867_carbine_m|Wanzl Carbine
-itm_rifle_austrian_m1867_carbine_m_pl|Wanzl Carbine
-itm_rifle_austrian_werndl|Werndl Rifle
-itm_rifle_austrian_werndl_pl|Werndl Rifle
-itm_rifle_austrian_werndl_m|Werndl Rifle
-itm_rifle_austrian_werndl_m_pl|Werndl Rifle
-itm_rifle_austrian_werndl_carbine|Werndl Carbine
-itm_rifle_austrian_werndl_carbine_pl|Werndl Carbine
-itm_rifle_austrian_werndl_carbine_m|Werndl Carbine
-itm_rifle_austrian_werndl_carbine_m_pl|Werndl Carbine
+itm_clothes_gala_male1|Üç parça bir takım
+itm_clothes_gala_male1_pl|Üç parça bir takım
+itm_clothes_gala_male1_trousers|Pantolon
+itm_clothes_gala_male1_trousers_pl|Pantolon
+itm_rifle_austrian_m1842|Avusturyalı M1842 Musketi
+itm_rifle_austrian_m1842_pl|Avusturyalı M1842 Musket
+itm_rifle_austrian_m1842_m|Avusturyalı M1842 Musket
+itm_rifle_austrian_m1842_m_pl|Avusturyalı M1842 Musket
+itm_rifle_austrian_m1842_carbine|Avusturyalı M1842 Karbina
+itm_rifle_austrian_m1842_carbine_pl|Avusturyalı M1842 Karbina
+itm_rifle_austrian_m1842_carbine_m|Avusturyalı M1842 Karbina
+itm_rifle_austrian_m1842_carbine_m_pl|Avusturyalı M1842 Karbina
+itm_rifle_austrian_m1854|Lorenz Tüfeyi
+itm_rifle_austrian_m1854_pl|Lorenz Tüfeyi
+itm_rifle_austrian_m1854_m|Lorenz Tüfeyi
+itm_rifle_austrian_m1854_m_pl|Lorenz Tüfeyi
+itm_rifle_austrian_m1854_carbine|Lorenz Karbina
+itm_rifle_austrian_m1854_carbine_pl|Lorenz Karbina
+itm_rifle_austrian_m1854_carbine_m|Lorenz Karbina
+itm_rifle_austrian_m1854_carbine_m_pl|Lorenz Tüfeyi
+itm_rifle_austrian_m1867|Wanzl Tüfeyi
+itm_rifle_austrian_m1867_pl|Wanzl Tüfeyi
+itm_rifle_austrian_m1867_m|Wanzl Tüfeyi
+itm_rifle_austrian_m1867_m_pl|Wanzl Tüfeyi
+itm_rifle_austrian_m1867_carbine|Wanzl Karbina
+itm_rifle_austrian_m1867_carbine_pl|Wanzl Karbina
+itm_rifle_austrian_m1867_carbine_m|Wanzl Karbina
+itm_rifle_austrian_m1867_carbine_m_pl|Wanzl Karbina
+itm_rifle_austrian_werndl|Werndl Tüfeyi
+itm_rifle_austrian_werndl_pl|Werndl Tüfeyi
+itm_rifle_austrian_werndl_m|Werndl Tüfeyi
+itm_rifle_austrian_werndl_m_pl|Werndl Tüfeyi
+itm_rifle_austrian_werndl_carbine|Werndl Karbina
+itm_rifle_austrian_werndl_carbine_pl|Werndl Karbina
+itm_rifle_austrian_werndl_carbine_m|Werndl Karbina
+itm_rifle_austrian_werndl_carbine_m_pl|Werndl Karbina
 itm_rifle_austrian_m1886|Steyr Mannlicher M1886
 itm_rifle_austrian_m1886_pl|Steyr Mannlicher M1886
 itm_rifle_austrian_m1886_m|Steyr Mannlicher M1886
 itm_rifle_austrian_m1886_m_pl|Steyr Mannlicher M1886
-itm_rifle_austrian_m1886_carbine|Steyr Mannlicher M1886 Carbine
-itm_rifle_austrian_m1886_carbine_pl|Steyr Mannlicher M1886 Carbine
-itm_rifle_austrian_m1886_carbine_m|Steyr Mannlicher M1886 Carbine
-itm_rifle_austrian_m1886_carbine_m_pl|Steyr Mannlicher M1886 Carbine
+itm_rifle_austrian_m1886_carbine|Steyr Mannlicher M1886 Karbina
+itm_rifle_austrian_m1886_carbine_pl|Steyr Mannlicher M1886 Karbina
+itm_rifle_austrian_m1886_carbine_m|Steyr Mannlicher M1886 Karbina
+itm_rifle_austrian_m1886_carbine_m_pl|Steyr Mannlicher M1886 Karbina
 itm_rom_shako|rom shako
 itm_rom_shako_pl|rom shako
 itm_rom_kepi|rom kepi
@@ -1894,117 +1894,117 @@ itm_rom_infantry2|rom infantry2
 itm_rom_infantry2_pl|rom infantry2
 itm_rom_infantry1_pants|rom infantry1 pants
 itm_rom_infantry1_pants_pl|rom infantry1 pants
-itm_lance4|Lance
-itm_lance4_pl|Lance
-itm_lance5|Lance
-itm_lance5_pl|Lance
-itm_lance6|Lance
-itm_lance6_pl|Lance
-itm_lance7|Lance
-itm_lance7_pl|Lance
-itm_lance8|Lance
-itm_lance8_pl|Lance
-itm_lance9|Lance
-itm_lance9_pl|Lance
-itm_lance10|Lance
-itm_lance10_pl|Lance
-itm_bav_trousers_general|Bavarian General Trousers
-itm_bav_trousers_general_pl|Bavarian General Trousers
-itm_bav_torso_leadgen1|Bavarian General Uniform
-itm_bav_torso_leadgen1_pl|Bavarian General Uniform
-itm_bav_pants2|Bavarian Trousers
-itm_bav_pants2_pl|Bavarian Trousers
-itm_bav_pants1|Bavarian Trousers
-itm_bav_pants1_pl|Bavarian Trousers
-itm_bav_pants4|Bavarian Trousers
-itm_bav_pants4_pl|Bavarian Trousers
-itm_bav_pants3|Bavarian Trousers
-itm_bav_pants3_pl|Bavarian Trousers
-itm_bav_cavalry2|Bavarian Military Uniform
-itm_bav_cavalry2_pl|Bavarian Military Uniform
-itm_bav_infantry3|Bavarian Military Uniform
-itm_bav_infantry3_pl|Bavarian Military Uniform
-itm_bav_infantry2|Bavarian Military Uniform
-itm_bav_infantry2_pl|Bavarian Military Uniform
-itm_bav_infantry1|Bavarian Military Uniform
-itm_bav_infantry1_pl|Bavarian Military Uniform
-itm_bav_cap|Bavarian Cap
-itm_bav_cap_pl|Bavarian Cap
-itm_bav_jager_helm|Bavarian Jagers Helmet
-itm_bav_jager_helm_pl|Bavarian Jagers Helmet
-itm_bav_inf_helm|Bavarian Infantry Helmet
-itm_bav_inf_helm_pl|Bavarian Infantry Helmet
-itm_bav_uhlan_hat|Bavarian Uhlan Hat
-itm_bav_uhlan_hat_pl|Bavarian Uhlan Hat
-itm_bav_cavalry1|Bavarian Military Uniform
-itm_bav_cavalry1_pl|Bavarian Military Uniform
-itm_bav_dragoon_helm|Bavarian Dragoon Helmet
-itm_bav_dragoon_helm_pl|Bavarian Dragoon Helmet
-itm_pru_inf_picklehaube|German Picklehaube
-itm_pru_inf_picklehaube_pl|German Picklehaube
-itm_prus_general_bismarck_hat|German Bismarck Helmet
-itm_prus_general_bismarck_hat_pl|German Bismarck Helmet
-itm_pru_dragoon_picklehaube|German Dragoon Picklehaube
-itm_pru_dragoon_picklehaube_pl|German Dragoon Picklehaube
-itm_pru_uhlan_hat|German Uhlan Hat
-itm_pru_uhlan_hat_pl|German Uhlan Hat
-itm_pru_hat1|German Helmet
-itm_pru_hat1_pl|German Helmet
-itm_pru_hat2|German Helmet
-itm_pru_hat2_pl|German Helmet
-itm_pru_hat3|German Hat
-itm_pru_hat3_pl|German Hat
-itm_pru_hat4|German Hat
-itm_pru_hat4_pl|German Hat
-itm_pru_hat5|German Hat
-itm_pru_hat5_pl|German Hat
-itm_pru_jager_hat1|German Jager's Hat
-itm_pru_jager_hat1_pl|German Jager's Hat
-itm_pru_torso_infantry1|German Military Uniform
-itm_pru_torso_infantry1_pl|German Military Uniform
-itm_pru_torso_infantry2|German Military Uniform
-itm_pru_torso_infantry2_pl|German Military Uniform
-itm_pru_torso_infantry3|German Military Uniform
-itm_pru_torso_infantry3_pl|German Military Uniform
-itm_pru_torso_infantry4|German Military Uniform
-itm_pru_torso_infantry4_pl|German Military Uniform
-itm_pru_torso_infantry5|German Military Uniform
-itm_pru_torso_infantry5_pl|German Military Uniform
-itm_pru_torso_infantry6|German Military Uniform
-itm_pru_torso_infantry6_pl|German Military Uniform
-itm_pru_torso_infantry7|German Military Uniform
-itm_pru_torso_infantry7_pl|German Military Uniform
-itm_pru_torso_cavalry1|German Military Uniform
-itm_pru_torso_cavalry1_pl|German Military Uniform
-itm_pru_torso_cavalry2|German Military Uniform
-itm_pru_torso_cavalry2_pl|German Military Uniform
-itm_pru_torso_leader1|German King Uniform
-itm_pru_torso_leader1_pl|German King Uniform
-itm_pru_torso_general1|German General Uniform
-itm_pru_torso_general1_pl|German General Uniform
-itm_pru_torso_general2|German General Uniform
-itm_pru_torso_general2_pl|German General Uniform
-itm_pru_trousers_infantry|German Infantry Trousers
-itm_pru_trousers_infantry_pl|German Infantry Trousers
-itm_pru_trousers_infantry2|German Infantry Trousers
-itm_pru_trousers_infantry2_pl|German Infantry Trousers
-itm_pru_trousers_infantry3|German Infantry Trousers
-itm_pru_trousers_infantry3_pl|German Infantry Trousers
-itm_pru_trousers_infantry4|German Infantry Trousers
-itm_pru_trousers_infantry4_pl|German Infantry Trousers
-itm_pru_trousers_cavalry1|German Cavalry Trousers
-itm_pru_trousers_cavalry1_pl|German Cavalry Trousers
-itm_pru_trousers_cavalry2|German Cavalry Trousers
-itm_pru_trousers_cavalry2_pl|German Cavalry Trousers
-itm_pru_trousers_leadgen|German General Trousers
-itm_pru_trousers_leadgen_pl|German General Trousers
-itm_wur_torso_infantry1|Wurttemberg Military Uniform
-itm_wur_torso_infantry1_pl|Wurttemberg Military Uniform
-itm_wur_torso_infantry2|Wurttemberg Military Uniform
-itm_wur_torso_infantry2_pl|Wurttemberg Military Uniform
-itm_wur_torso_infantry3|Wurttemberg Military Uniform
-itm_wur_torso_infantry3_pl|Wurttemberg Military Uniform
-itm_wur_torso_cavalry1|Wurttemberg Military Uniform
+itm_lance4|Mızrak
+itm_lance4_pl|Mızrak
+itm_lance5|Mızrak
+itm_lance5_pl|Mızrak
+itm_lance6|Mızrak
+itm_lance6_pl|Mızrak
+itm_lance7|Mızrak
+itm_lance7_pl|Mızrak
+itm_lance8|Mızrak
+itm_lance8_pl|Mızrak
+itm_lance9|Mızrak
+itm_lance9_pl|Mızrak
+itm_lance10|Mızrak
+itm_lance10_pl|Mızrak
+itm_bav_trousers_general|Bavyaralı Komutan Pantolonu
+itm_bav_trousers_general_pl|Bavyaralı Komutan Pantolonu
+itm_bav_torso_leadgen1|Bavyaralı Komutan Uniforması
+itm_bav_torso_leadgen1_pl|Bavyaralı Komutan Uniforması
+itm_bav_pants2|Bavyaralı Pantolonu
+itm_bav_pants2_pl|Bavyaralı Pantolonu
+itm_bav_pants1|Bavyaralı Pantolonu
+itm_bav_pants1_pl|Bavyaralı Pantolonu
+itm_bav_pants4|Bavyaralı Pantolonu
+itm_bav_pants4_pl|Bavyaralı Pantolonu
+itm_bav_pants3|Bavyaralı Pantolonu
+itm_bav_pants3_pl|Bavyaralı Pantolonu
+itm_bav_cavalry2|Bavyaralı Askeri Uniforması
+itm_bav_cavalry2_pl|Bavyaralı Askeri Uniforması
+itm_bav_infantry3|Bavyaralı Askeri Uniforması
+itm_bav_infantry3_pl|Bavyaralı Askeri Uniforması
+itm_bav_infantry2|Bavyaralı Askeri Uniforması
+itm_bav_infantry2_pl|Bavyaralı Askeri Uniforması
+itm_bav_infantry1|Bavyaralı Askeri Uniforması
+itm_bav_infantry1_pl|Bavyaralı Askeri Uniforması
+itm_bav_cap|Bavyaralı Kap
+itm_bav_cap_pl|Bavyaralı Kap
+itm_bav_jager_helm|Bavyaralı Jaegers Kaskı
+itm_bav_jager_helm_pl|Bavyaralı Jaegers Kaskı
+itm_bav_inf_helm|Bavyaralı Piyade Kaskı
+itm_bav_inf_helm_pl|Bavyaralı Piyade Kaskı
+itm_bav_uhlan_hat|Bavyaralı Uhlan Şapkası
+itm_bav_uhlan_hat_pl|Bavyaralı Uhlan Şapkası
+itm_bav_cavalry1|Bavyaralı Piyade Kaskı
+itm_bav_cavalry1_pl|Bavyaralı Piyade Kaskı
+itm_bav_dragoon_helm|Bavyaralı Dragoon Kaskı
+itm_bav_dragoon_helm_pl|Bavyaralı Dragoon Kaskı
+itm_pru_inf_picklehaube|Alman Picklehaube
+itm_pru_inf_picklehaube_pl|Alman Picklehaube
+itm_prus_general_bismarck_hat|Alman Bismarck Kaskı
+itm_prus_general_bismarck_hat_pl|Alman Bismarck Kaskı
+itm_pru_dragoon_picklehaube|Alman Dragoon Picklehaube
+itm_pru_dragoon_picklehaube_pl|Alman Dragoon Picklehaube
+itm_pru_uhlan_hat|Alman Uhlan Şapkası
+itm_pru_uhlan_hat_pl|Alman Uhlan Şapkası
+itm_pru_hat1|Alman Kaskı
+itm_pru_hat1_pl|Alman Kaskı
+itm_pru_hat2|Alman Kaskı
+itm_pru_hat2_pl|Alman Kaskı
+itm_pru_hat3|Alman Şapkası
+itm_pru_hat3_pl|Alman Şapkası
+itm_pru_hat4|Alman Şapkası
+itm_pru_hat4_pl|Alman Şapkası
+itm_pru_hat5|Alman Şapkası
+itm_pru_hat5_pl|Alman Şapkası
+itm_pru_jager_hat1|Alman Jaegers Şapkası
+itm_pru_jager_hat1_pl|Alman Jaegers Şapkası
+itm_pru_torso_infantry1|Alman Askeri Uniforması
+itm_pru_torso_infantry1_pl|Alman Askeri Uniforması
+itm_pru_torso_infantry2|Alman Askeri Uniforması
+itm_pru_torso_infantry2_pl|Alman Askeri Uniforması
+itm_pru_torso_infantry3|Alman Askeri Uniforması
+itm_pru_torso_infantry3_pl|Alman Askeri Uniforması
+itm_pru_torso_infantry4|Alman Askeri Uniforması
+itm_pru_torso_infantry4_pl|Alman Askeri Uniforması
+itm_pru_torso_infantry5|Alman Askeri Uniforması
+itm_pru_torso_infantry5_pl|Alman Askeri Uniforması
+itm_pru_torso_infantry6|Alman Askeri Uniforması
+itm_pru_torso_infantry6_pl|Alman Askeri Uniforması
+itm_pru_torso_infantry7|Alman Askeri Uniforması
+itm_pru_torso_infantry7_pl|Alman Askeri Uniforması
+itm_pru_torso_cavalry1|Alman Askeri Uniforması
+itm_pru_torso_cavalry1_pl|Alman Askeri Uniforması
+itm_pru_torso_cavalry2|Alman Askeri Uniforması
+itm_pru_torso_cavalry2_pl|Alman Askeri Uniforması
+itm_pru_torso_leader1|Alman Kaiser Uniforması
+itm_pru_torso_leader1_pl|Alman Kaiser Uniforması
+itm_pru_torso_general1|Alman Komutan Uniforması
+itm_pru_torso_general1_pl|Alman Komutan Uniforması
+itm_pru_torso_general2|Alman Komutan Uniforması
+itm_pru_torso_general2_pl|Alman Komutan Uniforması
+itm_pru_trousers_infantry|Alman Piyade Pantolonu
+itm_pru_trousers_infantry_pl|Alman Piyade Pantolonu
+itm_pru_trousers_infantry2|Alman Piyade Pantolonu
+itm_pru_trousers_infantry2_pl|Alman Piyade Pantolonu
+itm_pru_trousers_infantry3|Alman Piyade Pantolonu
+itm_pru_trousers_infantry3_pl|Alman Piyade Pantolonu
+itm_pru_trousers_infantry4|Alman Piyade Pantolonu
+itm_pru_trousers_infantry4_pl|Alman Piyade Pantolonu
+itm_pru_trousers_cavalry1|Alman Süvari Pantolonu
+itm_pru_trousers_cavalry1_pl|Alman Süvari Pantolonu
+itm_pru_trousers_cavalry2|Alman Süvari Pantolonu
+itm_pru_trousers_cavalry2_pl|Alman Süvari Pantolonu
+itm_pru_trousers_leadgen|Alman Komutan Pantolonu
+itm_pru_trousers_leadgen_pl|Alman Komutan Pantolonu
+itm_wur_torso_infantry1|Wurttemberg Askeri Uniforması
+itm_wur_torso_infantry1_pl|Wurttemberg Askeri Uniforması
+itm_wur_torso_infantry2|Wurttemberg Askeri Uniforması
+itm_wur_torso_infantry2_pl|Wurttemberg Askeri Uniforması
+itm_wur_torso_infantry3|Wurttemberg Askeri Uniforması
+itm_wur_torso_infantry3_pl|Wurttemberg Askeri Uniforması
+itm_wur_torso_cavalry1|Wurttemberg Askeri Uniforması
 itm_wur_torso_cavalry1_pl|Wurttemberg Military Uniform
 itm_wur_torso_cavalry2|Wurttemberg Military Uniform
 itm_wur_torso_cavalry2_pl|Wurttemberg Military Uniform
