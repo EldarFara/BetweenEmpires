@@ -17,10 +17,10 @@ qstr_{s2}_has_heard_his_v|{s2} ha escuchado el consejo de sus vasallos y ha eleg
 qstr__| 
 qstr_Mount|Montad
 qstr_Attack_Type|Tipo de ataque
-qstr_Retreat|Retreat
+qstr_Retreat|Retirarse
 qstr_Charge|Cargad
 qstr_Follow_Me|Seguidme
-qstr_Form_Square|Form Square
+qstr_Form_Square|Formación Cuadrada
 qstr_Spread_Out|Alejaos
 qstr_Stand_Closer|Acercaos
 qstr_Fall_Back|Retroceded
@@ -28,13 +28,13 @@ qstr_Advance|Avanzad
 qstr_Dismount|Desmontad
 qstr_Fire_At_Will|Disparad a discreción
 qstr_Hold_Your_Fire|No disparéis
-qstr_Use_Ranged_Weapons|Use Ranged Weapons
-qstr_Use_Melee_Weapons|Use Melee Weapons
+qstr_Use_Ranged_Weapons|Usen Armas a Distancia
+qstr_Use_Melee_Weapons|Usen Armas Cuerpo a Cuerpo
 qstr_Ready|Listos
 qstr_Wounded|Heridos
 qstr_Dead|Muertos
-qstr_Cannot_form_square:_|Cannot form square: too many companies selected.
-qstr_Cannot_form_square:_w|Cannot form square: wrong company types (only line infantry and guard inantry can form square).
+qstr_Cannot_form_square:_|No se puede formar el Cuadrado : Seleccionaste muchas Companias.
+qstr_Cannot_form_square:_w|No se puede formar el Caudrado : Seleccionaste las Companias incorrectas (Solo Infanteria de Linea e Infanteria de Guardia pueden formar el Cuadrado).
 qstr_Number_of_men_knocke|Número de hombres inconscientes: {reg1}
 qstr_Number_of_men_left:_|Número de hombres restantes: {reg1}
 qstr_Opponents_Beaten:_{r|Oponentes vencidos: {reg1}
@@ -60,11 +60,11 @@ qstr_Experience:_{reg0}|Experiencia: {reg0}
 qstr_Days_Passed:_{reg0}|Días transcurridos: {reg0}
 qstr_Difficulty:_{reg0}%|Dificultad: {reg0}%
 qstr_TOTAL_SCORE:_{reg0}|PUNTUACION TOTAL: {reg0}
-qstr_Income_from_factorie|Income from factories share:
+qstr_Income_from_factorie|Ingresos de las Fabricas:
 qstr_{reg10}|{reg10}
 qstr_None|Ninguno
-qstr_Back|Back
-qstr_Empty|Empty
+qstr_Back|Volver
+qstr_Empty|Vacio
 qstr_1._{s1}|1. {s1}
 qstr___c.|  c.
 qstr_90%|90%
@@ -76,7 +76,7 @@ qstr_5._{s1}|5. {s1}
 qstr_6._{s1}|6. {s1}
 qstr_7._{s1}|7. {s1}
 qstr_8._{s1}|8. {s1}
-qstr_Form_Square^^Selecte|Form Square^^Selected companies (not more than two)^will form a square formation. It is effective in melee^fighting, especially against cavalry, but vulnarable^to an enemy fire. To selected companies be able to^form square, they need to have at least 25 soldiers^in total.^Company types: Line infantry, Guard.
+qstr_Form_Square^^Selecte|Formar Cuadrado^^ Las compañias seleccionadas (no más de dos)^ Van a formar el cuadrado. Es efectivo Cuerpo a Cuerpo^ especialmente contra caballeria, pero vulnerable^ al fuego enemigo. Para que las companias^ puedan formar el cuadrado, deben ser ^ al menos 25 en total.^Tipo de Compania: Infanteria de Linea, Guardia.
 qstr_pbs_activeability_me|pbs activeability merge
 qstr_Merge_Companies^^Sel|Merge Companies^^Selected companies (not less than one)^will be merged into one that has highest number of soldiers.
 qstr_pbs_activeability_di|pbs activeability digin

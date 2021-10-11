@@ -2818,45 +2818,45 @@ str_ranged_weapons_are_allowed|Armas de tiro están habilitadas.
 str_duel_starts_in_reg0_seconds|El duelo empieza en {reg0} segundos...
 str_s1_team|{s1} escuadra
 str_warning_max_players_count_text2|El numero recomendado de jugadores para este modo es de 16
-str_reason_high_price|This is too expensive!
-str_return_later|I will come back later. 
-str_recruit_first|It might be a good idea to hire some soldiers first. 
-str_squad_size|Squad size:
-str_squad_size_small|Small squads
-str_squad_size_normal|Normal squads
-str_squad_size_big|Big squads
-str_squad_size_huge|Huge squads
-str_additional_info_oim_dmitriy_eleonora|The Prince gave you the letter to the jailer {s3}, requesting an escort party. 
-str_mamay_founded|Now that Mamai has joined you, it is time to find Barabash and find out all he knows.
-str_kill_radzivall_and_get_pernach|Janush has managed to gain the mace. You must acquire this weapon as soon as possible. 
-str_talk_to_barabash_pernach|The mace is now yours. It is time to make a decision about Barabash.
-str_pernach_taken_fight_for_getman|Well, it looks like an average mace. Let's see how it can help...
-str_pernach_army_bonus|+50 to max army size
-str_ms_order_for_horse|Here you can buy an excellent horse.
-str_multi_disable_granades|Disable grenades
-str_squad_size_s0|Squad size: {s0}
-str_granades_are_disallowed|Grenades are disallowed.
-str_granades_are_allowed|Grenades are allowed.
-str_oim_training_1_caption|Melee Offense:
-str_oim_training_1_text|That fence is blocking your way. Knock it over! You can attack in 4 different directions: move the mouse up, down, left, or right while clicking the left mouse button to execute an attack.
-str_oim_training_2_caption|Starting out:
-str_oim_training_2_text|Move your mouse to look around, and use W, A, S, and D for movement.
-str_oim_training_3_caption|Ranged Weapons:
-str_oim_training_3_text|Great! You have a new toy. Press R to switch to first person view -- this will make aiming your pistol easier. To further enhance your aim, hold down [Shift] to zoom in. Lastly, to line up an accurate shot, hold down the left mouse button. Wait until the reticle is smallest, then fire away... Shoot the padlock to proceed.
-str_oim_training_4_text|Grab yourself a horse and ride away with your new friends. Get close enough to the horse until you see the word mount appear. Press F to mount up.
-str_oim_training_5_text|It's high time we show those bastards!
-str_oim_training_6_text|Your travels have taken you to a small Cossack village on the outskirts of the wilderness. As you stroll past, the silence is broken by gunshots.
-str_oim_training_7_text|Fortunatly your ally's troops arrive in time to rescue you from certain death.
-str_oim_training_8_text|Wonderful, you're saddled up. Horses can be wily beasts. To control your mount, use the W, A, S, and D keys. Press W to spur the horse onward and S to reign him in. A and D will reign the horse left and right... Riding requires some practice. Don't forget that it's easier to make tight turns if you slow down a bit.
-str_oim_training_9_text|Look! More enemies on the horizon! Time to put your sword and pistol to use. You can scroll up with the mouse wheel to switch between your weapons. Now go ahead and fight your way out, with fire and sword!
-str_oim_training_10_caption|Melee Defense:
-str_oim_training_10_text|Good! Now on to defending... Defense is controlled by the right mouse button. To defend effectively with a weapon, wait for your opponent to commence his attack, then hold down the right mouse button... If your timing is right, you will automatically block in the correct direction.
-str_oim_training_11_caption|More combat controls:
-str_oim_training_11_text|Great! You have a new toy. Press R to switch to first person view -- this will make aiming your pistol easier. To further enhance your aim, hold down [Shift] to zoom in. Lastly, to line up an accurate shot, hold down the left mouse button. Wait until the reticle is smallest, then fire away... Shoot the padlock to proceed.
-str_oim_training_12_caption|Map and Journal Control:
-str_oim_training_12_text|Use the W, A, S, D keys to navigate around the map.^Left click to select anything on the map.^Hold down the right mouse button to rotate the camera.^Use the mouse wheel to zoom in/out.^Hover the mouse over any element to receive information about it.^Press Q to bring up the in-game log. The log includes information about current quests, important NPCs, NPC locations, villages, castles, and towns.^Be sure to consult the log if you need help finding NPCs or locations.
-str_oim_training_13_text|After defeating the final enemy, you return to talk with your new ally.
-str_oim_training_14_text|Keep your wits about you! These scoundrels could come from anywhere.
+str_reason_high_price|¡Esto es demasiado caro!
+str_return_later|Voy a volver más tarde. 
+str_recruit_first|Creo que es una buena idea contratar algunos soldados antes. 
+str_squad_size|Tamaño de ejercito:
+str_squad_size_small|Ejercitos pequeños
+str_squad_size_normal|Ejercitos medianos
+str_squad_size_big|Ejercitos grandes
+str_squad_size_huge|Ejercitos inmensos
+str_additional_info_oim_dmitriy_eleonora|El príncipe le dió una carta al carcelero {s3}, pidiendo unos escoltas. 
+str_mamay_founded|Ahora que Mamai se ha unido, es tiempo de encontrar a Barabash y descubrir todo lo que sabe.
+str_kill_radzivall_and_get_pernach|Janush ha hecho lo posible para obtener la maza, creo que deberias adquirir esa arma lo antes posible. 
+str_talk_to_barabash_pernach|La maza es tuya ahora, es tiempo de decidir que hacer con Barabash.
+str_pernach_taken_fight_for_getman|Bueno, parece una maza normal, veremos como nos puede ayudar...
+str_pernach_army_bonus|+50 para el limite de tropas
+str_ms_order_for_horse|Aquí puedes comprar un caballo excelente.
+str_multi_disable_granades|Desactivar Granadas
+str_squad_size_s0|Tamaño del Ejercito: {s0}
+str_granades_are_disallowed|Las granadas estan desactivadas.
+str_granades_are_allowed|Las granadas estan activadas.
+str_oim_training_1_caption|Combate Cuerpo a Cuerpo:
+str_oim_training_1_text|Esta valla te esta bloqueando el camino. ¡Derribala de una buena vez! puedes atacar en 4 direcciones, mueve el ratón para arriba, abajo, izquierda o derecha mientas presionas el botón izquierdo del Ratón para atacar.
+str_oim_training_2_caption|Empezando:
+str_oim_training_2_text|Mueve tu Ratón para mirar al rededor, y usa W, A, S, y D para moverte.
+str_oim_training_3_caption|Armas a Distancia:
+str_oim_training_3_text|Perfecto, tienes algo con que jugar. Presiona R para cambiara a primera persona -- esto hará que puedas apuntar más fácil con las armas. Para poder ver mejor lo que esta lejos, mantené apretado [Shift] para hacer zoom. Y por ultimo para tener un disparo certero, mantené el botón izquierdo del Ratón apretado. Espera a que la mirilla se hagá lo más chica posible y luego suelta el botón... Dispará al candado para proceder.
+str_oim_training_4_text|Monta a caballo para ir con tus compañeros, debes acercarte lo suficiente al caballo hasta que veas la palabra montar. Luego haz click en la F para montarlo.
+str_oim_training_5_text|¡Creo que es la hora de enseñarle a esos malditos quien manda!
+str_oim_training_6_text|Tus aventuras te han traido a un pequeño pueblo Cosaco en las afueras de la nada misma, en el momento que pasas, el silencio de la nada se ve destrozado por los disparos.
+str_oim_training_7_text|Afortunadamante tus tropas llegan en el momento justo de una muerte certera.
+str_oim_training_8_text|Esto es increible, estas montando un caballo. Para manejarlo, usá W, A, S y D. Manejar requiere un poco de practica, no te preocupes es sencillo.
+str_oim_training_9_text|¡Cuidado! Se han avistado enemigos en el horizonte, es tiempo de darle uso a esa espada y la pistola. Con la rueda del Ratón puedes cambiar entre armas.
+str_oim_training_10_caption|Defensa Cuerpo a Cuerpo:
+str_oim_training_10_text|Peleas bien, pero ahora es tiempo de defenderse, Para defenderte usas el botón derecho del ratón, solamente debes estar atento cuando el enemigo esta por atacar, entonces ahí mantené el botón derecho presionado, Sí lo hiciste bien, no importa la dirección ya que lo bloqueara automaticamente.
+str_oim_training_11_caption|Otros controles de Combate:
+str_oim_training_11_text|Perfecto, tienes algo con que jugar. Presiona R para cambiara a primera persona -- esto hará que puedas apuntar más fácil con las armas. Para poder ver mejor lo que esta lejos, mantené apretado [Shift] para hacer zoom. Y por ultimo para tener un disparo certero, mantené el botón izquierdo del Ratón apretado. Espera a que la mirilla se hagá lo más chica posible y luego suelta el botón... Dispará al candado para proceder.
+str_oim_training_12_caption|Controles del mapa y del diario:
+str_oim_training_12_text|Usa W, A, S y D para navegar en el mapa.^ Botón izquierdo para seleccionar cualquier cosa en el mapa.^ Mantené el botón derecho para rotar la camara.^Con la rueda del mouse cambias el zoom.^Deja el cursor un momento sobre algo para obtener más información sobre este.^Presioná Q para ver los registros del juego. Los registros incluyen información acerca de las misiones actuales, NPcs importantes, donde estan los Pueblos, Castillos y Ciudades.^Cuando necesites cualquier información no dudes de usar los registros para encontrar donde estan.
+str_oim_training_13_text|Después de derrotar a enemigo final, debes volver para hablar con tus nuevo alliado.
+str_oim_training_14_text|Mantente ingenioso y con cautela, esas ratas pueden salir de cualquier lado.
 str_oim_training_16_text|Welcome to With Fire & Sword. This is a short tutorial that will guide you through your first steps in the game. Let's begin with the basics. Move your mouse to look around, and use W, A, S, and D for movement. Go to the fence ahead to proceed.
 str_oim_training_17_text|Excellent! Looks like there's more fighting to be had. That group of adventurers seem to be expecting company!
 str_oim_training_18_text|Don't forget to reload your gun. Press the left mouse button to do so. Destroy the padlock.
@@ -2999,37 +2999,37 @@ str_npc13_1|-Good with 1h and bows^-Poor with 2h
 str_npc14_1|-Good with 1h^-Good all-rounder
 str_npc15_1|-Good with 2h and bows^-Poor with crossbows and throwing
 str_npc16_1|-Good with throwing and 1h^-Poor with 2h and crossbows
-str_firearm|Pistols: {reg35}
+str_firearm|Pistolas: {reg35}
 str_throwing|Throwing: {reg34}
 str_crossbow|Rifles: {reg33}
-str_archery|Archery: {reg32}
-str_polearm|Polearm: {reg31}
-str_two_handed_weapon|Two Handed Weapon: {reg30}
-str_one_handed_weapon|One Handed Weapon: {reg29}
-str_trade|Trade
-str_leadership|Leadership
-str_prisoner_management|Prisoner Management
-str_persuasion|Persuasion
-str_engineer|Engineer
-str_first_aid|First Aid
-str_surgery|Surgery
-str_wound_treatment|Wound Treatment
-str_inventory_management|Inventory Management
-str_spotting|Spotting
-str_pathfinding|Pathfinding
-str_tactics|Tactics
-str_tracking|Tracking
-str_trainer|Trainer
-str_looting|Looting
-str_horse_archery|Horse Archery
-str_riding|Riding
-str_athletics|Athletics
-str_shield|Shield
-str_weapon_master|Weapon Master
-str_power_draw|Power Draw
-str_power_throw|Power Throw
-str_power_strike|Power Strike
-str_ironflesh|Ironflesh
+str_archery|Arqueria: {reg32}
+str_polearm|Arma enastada: {reg31}
+str_two_handed_weapon|Arma a dos Manos: {reg30}
+str_one_handed_weapon|Arma a una Mano: {reg29}
+str_trade|Comerciar
+str_leadership|Liderazgo
+str_prisoner_management|Gestión de Prisioneros
+str_persuasion|Persuación
+str_engineer|Ingenieria
+str_first_aid|Primeros Auxilios
+str_surgery|Cirugia
+str_wound_treatment|Tratamiento de Heridas
+str_inventory_management|Gestión de Inventario
+str_spotting|Detección
+str_pathfinding|Rastrear
+str_tactics|Tacticas
+str_tracking|Traqueo    
+str_trainer|Entrenador
+str_looting|Saqueo
+str_horse_archery|Tiro a Caballo
+str_riding|Montar
+str_athletics|Atletismo
+str_shield|Escudo
+str_weapon_master|Manejo de Armas
+str_power_draw|Fuerza al Tenzar 
+str_power_throw|Fuerza al Lanzar
+str_power_strike|Fuerza al Golpear
+str_ironflesh|Piel curtida
 str_cha|CHA: {reg4}
 str_int|INT: {reg3}
 str_agi|AGI: {reg2}
@@ -3058,10 +3058,10 @@ str_reg25|{reg25}
 str_reg26|{reg26}
 str_reg27|{reg27}
 str_reg28|{reg28}
-str_explanation_strength|Strength: Every point adds +1 ^to hit points.The following ^skills can not be developed beyond ^1/3 of Strength: ironflesh, ^Power-strike, Power-throw, ^Power-draw.
-str_explanation_agility|Agility: Each point gives five ^weapon points and slightly ^increases movement speed. ^The following skills can not be ^developed beyond 1/3 of Agility: ^weapon-master, Shield, ^Athletics, Riding, Horse ^archery, Looting.
-str_explanation_intelligence|Intelligence: Every point to ^intelligence immediately gives one ^extra skill point. The following ^skills can not be developed beyond ^1/3 of Intelligence: Trainer, Tracking, ^Tactics, Path finding, Spotting, ^Inventory Management, Wound treatment, ^Surgery, First-aid, Engineer, Persuasion.
-str_explanation_charisma|Charisma: Each point increases ^your party size limit by +1. ^The following skills can not be ^developed beyond 1/3 of Charisma: ^Prisoner Management, Leadership, Trade.
+str_explanation_strength|Fuerza: Cada punto suma +1 ^ a los puntos de golpe. Las siguientes ^ habilidades no se pueden desarrollar más alla de^1/3 de la Fuerza: Piel Curtida, ^Fuerza al Golpear, Fuerza al Lanzar ^y Fuerza al Tensar.
+str_explanation_agility|Agilidad: Cada punto te dara 5 ^puntos de armas e incrementa ^levemente la velocidad de movimiento. ^ Las siguientes habilidades no se pueden ^desarrollar más alla de 1/3 de Agilidad: ^Maestria en Armas, Escudo, ^Atletismo, Montar, Tiro ^Montado, Saqueo.
+str_explanation_intelligence|Inteligencia: Cada punto de Inteligencia ^te dará un punto ^extra de habilidad. Las siguientes ^habilidades no se pueden desarrolar más alla de ^1/3 de inteligencia: Entrenar, Traqueo, ^Tacticas, Rastreo, Detección, ^Gestión de Inventario, Tratamiento de Heridas, ^Cirugia, Primeros Auxilios, Ingenieria, Persuación.
+str_explanation_charisma|Carisma: Cada punto incrementa ^el limite de tu ejercito en +1. ^Las siguientes habilidades no se pueden desarrollar más de ^ 1/3 de Charisma: ^Gestión de Prisioneros, Liderazgo, Comerciar.
 str_explanation_ironflesh|Each point to this skill increases ^hit points by +2. ^(Personal skill)
 str_explanation_power_strike|Each point to this skill increases ^melee damage by 8%%. ^(Personal skill)
 str_explanation_power_throw|Each point to this skill increases ^throwing damage by 10%%. ^(Personal skill)
@@ -3075,7 +3075,7 @@ str_explanation_looting|This skill increases the amount of ^loot obtained by 10%
 str_explanation_trainer|Every day, each hero with this skill ^adds some experience to every other member ^of the party whose level is lower than his/hers. ^Experience gained goes as: ^{0,4,10,16,23,30,38,46,55,65,80}. ^(Personal skill)
 str_explanation_tracking|Tracks become more informative. ^(Party skill)
 str_explanation_tactics|Every two levels of this skill ^increases starting battle advantage by 1. ^(Party skill)
-str_explanation_pathfinding|Party map speed is increased ^by 3%% per skill level. ^(Party skill)
+str_explanation_pathfinding|Party map speed is increased ^by 3%% per skill level. ^(Party    skill)
 str_explanation_spotting|Party seeing range is increased ^by 10%% per skill level. ^(Party skill)
 str_explanation_inventory_management|Increases inventory capacity ^by +6 per skill level. ^(Leader skill)
 str_explanation_wound_treatment|Party healing speed is increased ^by 20%% per level of this skill. ^(Party skill)
@@ -3287,18 +3287,18 @@ str_flag1_147|flag1 147
 str_flag1_148|flag1 148
 str_flag1_149|flag1 149
 str_flag1_150|flag1 150
-str_italy_unification_defeat_sardinia_desc|In order to unite Italy, {s1} will have to conquer the two Italian states still remaining on the Italian Peninsula. One of those states is the Kingdom ofSardinia. In order to force her government to surrender to our forces, we will have to focus on two strategic goals.^^- Conquer the Sardinian capital of Turin.^- Cripple the Kingdom of Sardinia by defeating their armies, laying waste to settlements, and conquering cities.^^Once we've caused enough damage to the Sardinian military and economy, they will be forced to surrender to our army, allowing us to begin integration procedures.
-str_italy_unification_defeat_sicily_desc|In order to unite Italy, {s1} will have to conquer the two Italian states still remaining on the Italian Peninsula. One of those states is the Kingdom of TwoSicilies. In order to force her government to surrender to our forces, we will have to focus on two strategic goals.^^- Conquer the Sicilian capital of Naples.^- Cripple the Kingdom of two Sicilies by defeating the Bourbon armies, laying waste to settlements, and conquering cities.^^Once we've caused enough damage to the Sicilian military and economy, they will be forced to surrender to our army, allowing us to begin integration procedures.
-str_italy_unification_defeat_papalstates_desc|In order to unite Italy, {s1} will have to conquer the two Italian states still remaining on the Italian Peninsula. One of those states is the PapalState. In order to force her government to surrender to our forces, we will have to focus on two strategic goals.^^- Conquer the Italian capital of Rome.^- Cripple the Papal State by defeating Papal armies, laying waste to settlements, and conquering cities.^^Once we've caused enough damage to the Papal military and economy, they will be forced to surrender to our army, allowing us to begin integration procedures.
+str_italy_unification_defeat_sardinia_desc|Con la idea de unificar Italia, {s1} vas a tener que conquistar los dos estados Italianos que subsisten en la peninsula Italiana, uno de esos estados es el Reino de Cerdeña, se busca forzar que su estado se rinda, debemos enfocarnos en esos dos objetivos estrategicos.^^- Conquistar la capital Cerdeña de Turín.^- Paralizar el reino de Cerdeña derrotando su ejercito, demoliendo sus cimientos y consquistando sus ciudades.^^ Una vez que causemos el suficiente daño a sus estructura economica y militar, esto hará que se rindan a nuestros pies, esto permitirá empezar los procesos de unificación.
+str_italy_unification_defeat_sicily_desc|Con la idea de unificar Italia, {s1} vas a tener que conquistar los dos estados Italianos que subsisten en la peninsula Italiana, uno de esos estados es el Reino de las Dos Sicilias, se busca forzar que su estado se rinda, debemos enfocarnos en esos dos objetivos estrategicos.^^- Conquistar la capital Siciliana de Napoles.^- Paralizar el reino de las dos Sicilias, derrotando los ejercitos Borbones, demoliendo sus cimientos y consquistando sus ciudades.^^ Una vez que causemos el suficiente daño a sus estructura economica y militar, esto hará que se rindan a nuestros pies, esto permitirá empezar los procesos de unificación.
+str_italy_unification_defeat_papalstates_desc|Con la idea de unificar Italia, {s1} vas a tener que conquistar los dos estados italianos que subsisten en la peninsula Italiana. uno de esos estados es el Estado Papal, se busca forzar que su estado se rinda, debemos enfocarnos en esos dos objetivos estrategicos.^^- Conquistar la Capital Italiana de Roma.^- Paralizar el estado Papal, derrotando el ejercito Papal,  demoliendo sus cimientos y consquistando sus ciudades.^^ Una vez que causemos el suficiente daño a sus estructura economica y militar, esto hará que se rindan a nuestros pies, esto permitirá empezar los procesos de unificación.
 str_liberal_party|Liberal Party
 str_conservative_party|Conservative Party
 str_reactionary_party|Reactionary Party
 str_socialist_party|Socialist Party
 str_royalists|Royalists
-str_slavophiles|Slavyanofily
-str_slavophiles_desc|Slavophilia is a movement that wanted the Russian Empire to be developed upon values and institutions derived from its early history. Slavophiles opposed the influences of Western Europe in Russia. They support authocracy, and are against political freedom. They value protectionism policy and support imperialist expansion.
+str_slavophiles|Eslavofilos 
+str_slavophiles_desc|La Eslavofilia es un movimiento impulsado por el Imperio Ruso con la idea de generar valores e instituciones, a esta se le oponian los estados europeos del Oeste, ya que estos estados buscaban la libertad, aborreciendo el Autoritarismo. Otra cosa de la Eslavofilia es que se rige en el proteccionismo y valida la expansión Imperial.
 str_liberals|Liberaly
-str_liberals_desc|Liberals are a group of intellectuals who believe that Russia's development depends upon the adoption of Western European technology and liberal government. In their view, western ideas such as industrialisation need to be implemented throughout Russia to make it a more successful country. In Russian, the term is known as zapadnichestvo, which can be translated as 'westernism'. Their main goal as political movement is implementation of political reforms. Liberals value laissez-faire policy and are less militant, as opposed to slavophilians.
+str_liberals_desc|Los Liberales son un grupo de Intelectuales que creen en que el desarrollo de Rusia depende en la adopción de las nuevas tecnologias y un gobierno Liberal. En su perspectiva, ideas como la industrialización deben ser implementadas en toda Rusia con el objetivo de que el país sea más prospero. En Ruso, el termino es "Zapadnichestvo", que se traduce al occidentalismo, donde su objetivo principal es la implementación de reformas politicas. Estos se opones s los Eslavofilos.
 str_legitimists|Légitimistes
 str_bonapartists_liberal|Bonapartistes Libéraux
 str_bonapartists_auth|Bonapartistes Autoritaires
@@ -3306,12 +3306,12 @@ str_republicains|Républicains
 str_lantmannapartiet|Lantmannapartiet
 str_centern|Centern
 str_radical_left|Parti Radical-Démocratique
-str_catholic_right|Parti Populaire Catholique
+str_catholic_right|Parti Populaiare Catholique
 str_liberal_centre|Libéraux Modérés
 str_tories|Conservative Party (Tories)
 str_whigs|Liberal Party (Whigs)
-str_tories_desc|Conservative party in British Empire originates from Tories political faction. Their political views are traditionalism and conservatism. Tories defend the ideas of hierarchy, natural order, and aristocracy.
-str_whigs_desc|Liberal party in British Empire originates from Whigs political faction. It seeks political freedom for upper strata of the population and is supporting laissez-faire economic policies such as free trade and minimal government interference in the economy.
+str_tories_desc|Partido Conservador en el imperio britanico se origina en la facción politica Tories. Sus vistas politicas son el tradicionalismo y el conservadurismo, estos defienden las ideas de la herencia, el ordén natural y la aristocracia.
+str_whigs_desc|Partido Liberal en el imperio Britanico se origina en la facción politica Whigs. Este persigue el liberalismo sobre los altras estratos de la población y busca politicas basadas en Laissez Faire como el libre comercio y la interferencia minima en la economia.
 str_party_color1|party color1
 str_party_color2|party color2
 str_party_color3|party color3
