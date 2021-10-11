@@ -1,4 +1,4 @@
-1308
+1310
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -1093,6 +1093,7 @@ qstr_Temperature:_+{reg0} Temperature:_+{reg0}_C_^Pressure:_{reg1}_hPa_^Humidity
 qstr_Romanian_Principalit Romanian_Principalities
 qstr_Kingdom_of_Wurttembe Kingdom_of_Wurttemberg
 qstr_Principality_of_Serb Principality_of_Serbia
+qstr_Kingdom_of_Bavaria Kingdom_of_Bavaria
 qstr_Kingdom_of_Hannover Kingdom_of_Hannover
 qstr_French_Empire French_Empire
 qstr_Austrian_Empire Austrian_Empire
@@ -1106,6 +1107,7 @@ qstr_German_Empire German_Empire
 qstr_Kingdom_of_Romania Kingdom_of_Romania
 qstr_Kingdom_of_Serbia Kingdom_of_Serbia
 qstr_Kingdom_of_Bulgaria Kingdom_of_Bulgaria
+qstr_Kingdom_of_Norway Kingdom_of_Norway
 qstr_Principality_of_Alba Principality_of_Albania
 qstr_You_have_bought_a_fi You_have_bought_a_field_gun.
 qstr_You_have_exceeded_pa You_have_exceeded_party_size_limit.
