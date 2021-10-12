@@ -62,16 +62,16 @@ qst_collect_men|Набрать пять человек
 qst_learn_where_merchant_brother_is|Узнать, где держат заложников
 qst_save_relative_of_merchant|Напасть на убежище бандитов
 qst_save_town_from_bandits|Спасти город от бандитов
-qst_italy_unification_defeat_sardinia|Italian Unification: Conquer the Kingdom of Sardinia
-qst_italy_unification_defeat_sardinia_text|In order to unite Italy, {s1} will have to conquer the two Italian states still remaining on the Italian Peninsula. One of those states is the Kingdom ofSardinia. In order to force her government to surrender to our forces, we will have to focus on two strategic goals.^^-Conquer the Sardinian capital of Turin.^-Cripple the Kingdom of Sardinia by defeating their armies, laying waste to settlements, and conquering cities.^^Once we've caused enough damage to the Sardinian military and economy, they will be forced to surrender to our army, allowing us to begin integration procedures.
-qst_italy_unification_defeat_sicily|Italian Unification: Conquer the Kingdom of Two Sicilies
-qst_italy_unification_defeat_sicily_text|In order to unite Italy, {s1} will have to conquer the two Italian states still remaining on the Italian Peninsula. One of those states is the Kingdom of TwoSicilies. In order to force her government to surrender to our forces, we will have to focus on two strategic goals.^^-Conquer the Sicilian capital of Naples.^-Cripple the Kingdom of two Sicilies by defeating the Bourbon armies, laying waste to settlements, and conquering cities.^^Once we've caused enough damage to the Sicilian military and economy, they will be forced to surrender to our army, allowing us to begin integration procedures.
-qst_italy_unification_defeat_papalstates|Italian Unification: Conquer the Papal States
-qst_italy_unification_defeat_papalstates_text|In order to unite Italy, {s1} will have to conquer the two Italian states still remaining on the Italian Peninsula. One of those states is the PapalState. In order to force her government to surrender to our forces, we will have to focus on two strategic goals.^^-Conquer the Italian capital of Rome.^-Cripple the Papal State by defeating Papal armies, laying waste to settlements, and conquering cities.^^Once we've caused enough damage to the Papal military and economy, they will be forced to surrender to our army, allowing us to begin integration procedures.
-qst_prussia_unification_defeat_denmark|German Unification: Defeat the Danes
-qst_prussia_unification_defeat_denmark_text|DESCRIPTION
-qst_prussia_unification_defeat_austria|German Unification: Surpress the Austrians
-qst_prussia_unification_defeat_austria_text|DESCRIPTION
-qst_prussia_unification_defeat_france|German Unification: Conquer Alsace-Lorraine
-qst_prussia_unification_defeat_france_text|DESCRIPTION
-qst_quests_end|Quests End
+qst_italy_unification_defeat_sardinia|Объединение Италии: завоевание королевства Сардиния
+qst_italy_unification_defeat_sardinia_text|Чтобы объединить Италию, {s1} должен будет завоевать два итальянских государства, все еще оставшихся на итальянском полуострове. Одно из таких государств - Королевство Сардиния. Чтобы заставить ее правительство сдаться нашим силам, нам нужно будет сосредоточиться на двух стратегических целях.^^- Завоевать столицу Сардинии Турин.^- Нанести ущерб Королевству Сардиния, нанеся поражение их армиям, опустошая поселения и завоевание городов.^^Как только мы нанесем достаточный урон армии и экономике Сардинии, они будут вынуждены сдаться нашей армии, что позволит нам начать интеграционные процедуры.
+qst_italy_unification_defeat_sicily|Объединение Италии: завоевание Королевства Обеих Сицилий
+qst_italy_unification_defeat_sicily_text|Чтобы объединить Италию, {s1} должен будет завоевать два итальянских государства, все еще оставшихся на итальянском полуострове. Одно из таких государств - Королевство Обеих Сицилий. Чтобы заставить ее правительство сдаться нашим силам, нам нужно будет сосредоточиться на двух стратегических целях.^^- Завоевать сицилийскую столицу Неаполь.^- Нанести ущерб Королевству двух Сицилий, победив армии Бурбонов, опустошив поселения. , и завоевание городов.^^Как только мы нанесем достаточный урон сицилийской армии и экономике, они будут вынуждены сдаться нашей армии, что позволит нам начать процедуру интеграции.
+qst_italy_unification_defeat_papalstates|Объединение Италии: завоевание Папской области
+qst_italy_unification_defeat_papalstates_text|Чтобы объединить Италию, {s1} должен будет завоевать два итальянских государства, все еще оставшихся на итальянском полуострове. Одним из таких штатов является Папское государство. Чтобы заставить ее правительство сдаться нашим войскам, нам придется сосредоточиться на двух стратегических целях.^^- Завоевать итальянскую столицу Рим. - Нанести ущерб Папскому государству, нанеся поражение папским армиям, опустошая поселения и завоевывая городов.^^Как только мы нанесем достаточный урон папской армии и экономике, они будут вынуждены сдаться нашей армии, что позволит нам начать интеграционные процедуры.
+qst_prussia_unification_defeat_denmark|Объединение Германии: победить датчан
+qst_prussia_unification_defeat_denmark_text|ОПИСАНИЕ
+qst_prussia_unification_defeat_austria|Объединение Германии: подавить австрийцев
+qst_prussia_unification_defeat_austria_text|ОПИСАНИЕ
+qst_prussia_unification_defeat_france|Объединение Германии: завоевание Эльзаса и Лотарингии
+qst_prussia_unification_defeat_france_text|ОПИСАНИЕ
+qst_quests_end|Концовка Квестов
