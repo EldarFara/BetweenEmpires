@@ -1229,11 +1229,12 @@ g_historical_ai_behavior
 g_current_year
 g_game_speed
 preferred_ai_party_size
-pas_enlistment_lord
+pas_enlistment_lord_temp
 pas_enlistment_player_troop_is_cav
 pas_enlistment_player_troop
 pas_enlistment_rank
 pas_enlistment_points
+pas_enlistment_lord
 pas_enlistment_opponent_to_ignore
 pas_enlistment_opponent_to_ignore_timer
 ww1_status

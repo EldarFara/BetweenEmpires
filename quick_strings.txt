@@ -1,4 +1,4 @@
-1310
+1331
 qstr_thawb1_belt1 thawb1_belt1
 qstr_banner_ria1 banner_ria1
 qstr_Next_Page Next_Page
@@ -623,7 +623,6 @@ qstr_{!}Third_party_wars {!}Third_party_wars
 qstr_{!}DEBUG____{s15}_is {!}DEBUG_--_{s15}_is_strongest_kingdom
 qstr_{!}DEBUG____{s15}_ha {!}DEBUG_--_{s15}_has_30_point_advantage_over_{s16}
 qstr_{!}DEBUG____{s15}_has {!}DEBUG_--_{s15}_has_proximity_to_{s16}
-qstr_{!}DEBUG____hardship {!}DEBUG_--_hardship_index_for_{s4}_=_{reg0}
 qstr_{!}Castle_taken_by_{ {!}Castle_taken_by_{s3}
 qstr_{!}Two_thirds_averag {!}Two-thirds_average_renown_=_{reg3}
 qstr_{!}DEBUG____Colleagu {!}DEBUG_--_Colleague_test:_score_for_{s10}_=_{reg3}
@@ -1150,6 +1149,28 @@ qstr_The_year_is_{reg0}. The_year_is_{reg0}.
 qstr_North_German_Confede North_German_Confederation
 qstr_Finished_improving_r Finished_improving_relations_with_{s31}.
 qstr_Interrupted_improvin Interrupted_improving_relations_with_{s31}.
+qstr_Albanian_Howitzer_Cr Albanian_Howitzer_Crew_Officer
+qstr_Albanian_Howitzer_Cre Albanian_Howitzer_Crew_Officers
+qstr_Albanian_Heavy_Howit Albanian_Heavy_Howitzer_Crew_Officer
+qstr_Albanian_Heavy_Howitz Albanian_Heavy_Howitzer_Crew_Officers
+qstr_Albanian_Field_Gun_C Albanian_Field_Gun_Crew_Officer
+qstr_Albanian_Field_Gun_Cr Albanian_Field_Gun_Crew_Officers
+qstr_Albanian_Howitzer_Crew Albanian_Howitzer_Crew_Cannoneer
+qstr_Albanian_Howitzer_Crew_ Albanian_Howitzer_Crew_Cannoneers
+qstr_Albanian_Field_Gun_Cre Albanian_Field_Gun_Crew_Cannoneer
+qstr_Albanian_Field_Gun_Crew Albanian_Field_Gun_Crew_Cannoneers
+qstr_Albanian_MG_Operator Albanian_MG_Operator
+qstr_Norwegian_Howitzer_C Norwegian_Howitzer_Crew_Officer
+qstr_Norwegian_Howitzer_Cr Norwegian_Howitzer_Crew_Officers
+qstr_Norwegian_Heavy_Howi Norwegian_Heavy_Howitzer_Crew_Officer
+qstr_Norwegian_Heavy_Howit Norwegian_Heavy_Howitzer_Crew_Officers
+qstr_Norwegian_Field_Gun_ Norwegian_Field_Gun_Crew_Officer
+qstr_Norwegian_Field_Gun_C Norwegian_Field_Gun_Crew_Officers
+qstr_Norwegian_Howitzer_Cre Norwegian_Howitzer_Crew_Cannoneer
+qstr_Norwegian_Howitzer_Crew Norwegian_Howitzer_Crew_Cannoneers
+qstr_Norwegian_Field_Gun_Cr Norwegian_Field_Gun_Crew_Cannoneer
+qstr_Norwegian_Field_Gun_Cre Norwegian_Field_Gun_Crew_Cannoneers
+qstr_Norwegian_MG_Operato Norwegian_MG_Operator
 qstr_Bulgarian_Howitzer_C Bulgarian_Howitzer_Crew_Officer
 qstr_Bulgarian_Howitzer_Cr Bulgarian_Howitzer_Crew_Officers
 qstr_Bulgarian_Heavy_Howi Bulgarian_Heavy_Howitzer_Crew_Officer
