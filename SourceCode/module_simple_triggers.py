@@ -7130,6 +7130,7 @@ simple_triggers = [
 (0.1,
 [
 (eq, "$players_kingdom", "fac_player_supporters_faction"),
+(lt, "$player_faction_preset", "fac_kingdom_1"),
 
 	(try_for_range,":lord", active_npcs_begin, lords_end),
 	(store_faction_of_troop, ":lord_faction", ":lord"),
