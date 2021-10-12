@@ -55,15 +55,10 @@ damage_small_caliber_rifle = 50
 damage_rifle = 55
 damage_musket = 55
 
-shot_speed_bolt_action_rifle = 10000
-shot_speed_small_caliber_rifle = 10000
-shot_speed_rifle = 10000
-shot_speed_musket = 10000
-
-# shot_speed_bolt_action_rifle = 700
-# shot_speed_small_caliber_rifle = 650
-# shot_speed_rifle = 600
-# shot_speed_musket = 400
+shot_speed_bolt_action_rifle = 700
+shot_speed_small_caliber_rifle = 650
+shot_speed_rifle = 600
+shot_speed_musket = 400
 
 accuracy_carbine_modifier = 0.85
 speed_carbine_modifier = 1.15
@@ -2684,6 +2679,24 @@ items = [
 ["bul_hat7","Bulgarian Hat", [("bul_hat7", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_25]],
 ["bul_hat8","Bulgarian Hat", [("bul_hat8", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_25]],
 ["bul_hat9","Bulgarian Hat", [("bul_hat9", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_25]],
+
+["rifle_mannlicher_m1893","Mannlicher M1893", [("mannlicher_1886", 0),("mannlicher_1886_inv", ixmesh_inventory)], itp_type_crossbow|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(60)|accuracy(accuracy_bolt_action_rifle)|spd_rtng(speed_bolt_action_rifle)|shoot_speed(shot_speed_bolt_action_rifle)|max_ammo(5)|thrust_damage(damage_bolt_action_rifle, pierce), imodbits_firearm, []],
+["rifle_mannlicher_m1893_m","Mannlicher M1893", [("mannlicher_1886", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary|itp_cant_use_on_horseback, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(8432)|spd_rtng(75)|weapon_length(160)|thrust_damage(30, pierce)|swing_damage(30, pierce), imodbits_none, []],
+["rifle_mannlicher_m1893_carbine","Mannlicher M1893 Carbine", [("mannlicher_1886_carbine", 0),("mannlicher_1886_carbine_inv", ixmesh_inventory)], itp_type_crossbow|itp_two_handed|itp_primary, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(60)|accuracy(int(accuracy_bolt_action_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_bolt_action_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_bolt_action_rifle)|max_ammo(5)|thrust_damage(damage_bolt_action_rifle, pierce), imodbits_firearm, []],
+["rifle_mannlicher_m1893_carbine_m","Mannlicher M1893 Carbine", [("mannlicher_1886_carbine", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(8432)|spd_rtng(75)|weapon_length(80)|thrust_damage(20, blunt)|swing_damage(0, blunt), imodbits_none, []],
+["rifle_mannlicher_schoenauer","Mannlicher-Schoenauer", [("schoenauer", 0),("schoenauer_inv", ixmesh_inventory)], itp_type_crossbow|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(60)|accuracy(accuracy_bolt_action_rifle)|spd_rtng(speed_bolt_action_rifle)|shoot_speed(shot_speed_bolt_action_rifle)|max_ammo(5)|thrust_damage(damage_bolt_action_rifle, pierce), imodbits_firearm, []],
+["rifle_mannlicher_schoenauer_m","Mannlicher-Schoenauer", [("schoenauer", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary|itp_cant_use_on_horseback, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(8432)|spd_rtng(75)|weapon_length(160)|thrust_damage(30, pierce)|swing_damage(30, pierce), imodbits_none, []],
+["rifle_mannlicher_schoenauer_carbine","Mannlicher-Schoenauer Carbine", [("schoenauer_carbine", 0),("schoenauer_carbine_inv", ixmesh_inventory)], itp_type_crossbow|itp_two_handed|itp_primary, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(60)|accuracy(int(accuracy_bolt_action_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_bolt_action_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_bolt_action_rifle)|max_ammo(5)|thrust_damage(damage_bolt_action_rifle, pierce), imodbits_firearm, []],
+["rifle_mannlicher_schoenauer_carbine_m","Mannlicher-Schoenauer Carbine", [("schoenauer_carbine", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(8432)|spd_rtng(75)|weapon_length(80)|thrust_damage(20, blunt)|swing_damage(0, blunt), imodbits_none, []],
+["rifle_mauser_m1889","Mauser M1889 Rifle", [("mauser1889", 0),("mauser1889_inv", ixmesh_inventory)], itp_type_crossbow|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(60)|accuracy(accuracy_bolt_action_rifle)|spd_rtng(speed_bolt_action_rifle)|shoot_speed(shot_speed_bolt_action_rifle)|max_ammo(5)|thrust_damage(damage_bolt_action_rifle, pierce), imodbits_firearm, []],
+["rifle_mauser_m1889_m","Mauser M1889 Rifle", [("mauser1889", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary|itp_cant_use_on_horseback, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(8432)|spd_rtng(75)|weapon_length(160)|thrust_damage(30, pierce)|swing_damage(30, pierce), imodbits_none, []],
+["rifle_mauser_m1889_carbine","Mauser M1889 Carbine", [("mauser1889_carbine", 0),("mauser1889_carbine_inv", ixmesh_inventory)], itp_type_crossbow|itp_two_handed|itp_primary, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(60)|accuracy(int(accuracy_bolt_action_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_bolt_action_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_bolt_action_rifle)|max_ammo(5)|thrust_damage(damage_bolt_action_rifle, pierce), imodbits_firearm, []],
+["rifle_mauser_m1889_carbine_m","Mauser M1889 Carbine", [("mauser1889_carbine", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(8432)|spd_rtng(75)|weapon_length(80)|thrust_damage(20, blunt)|swing_damage(0, blunt), imodbits_none, []],
+["rifle_mauser_m1896","Mauser M1896 Rifle", [("mauser1893", 0),("mauser1893_inv", ixmesh_inventory)], itp_type_crossbow|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(60)|accuracy(accuracy_bolt_action_rifle)|spd_rtng(speed_bolt_action_rifle)|shoot_speed(shot_speed_bolt_action_rifle)|max_ammo(5)|thrust_damage(damage_bolt_action_rifle, pierce), imodbits_firearm, []],
+["rifle_mauser_m1896_m","Mauser M1896 Rifle", [("mauser1893", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary|itp_cant_use_on_horseback, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(8432)|spd_rtng(75)|weapon_length(160)|thrust_damage(30, pierce)|swing_damage(30, pierce), imodbits_none, []],
+["rifle_mauser_m1896_carbine","Mauser M1896 Carbine", [("mauser1893_carbine", 0),("mauser1893_carbine_inv", ixmesh_inventory)], itp_type_crossbow|itp_two_handed|itp_primary, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(60)|accuracy(int(accuracy_bolt_action_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_bolt_action_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_bolt_action_rifle)|max_ammo(5)|thrust_damage(damage_bolt_action_rifle, pierce), imodbits_firearm, []],
+["rifle_mauser_m1896_carbine_m","Mauser M1896 Carbine", [("mauser1893_carbine", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(8432)|spd_rtng(75)|weapon_length(80)|thrust_damage(20, blunt)|swing_damage(0, blunt), imodbits_none, []],
+
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 
