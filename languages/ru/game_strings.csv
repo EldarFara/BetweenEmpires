@@ -3408,125 +3408,125 @@ str_pas_rank_rus_inf_8|Генерал-майор (8)
 str_pas_rank_rus_inf_9|Генерал от инфантерии (9)
 str_pas_rank_rus_inf_10|Генерал фельдмаршал (10)
 str_pas_rank_rus_cav_1|Рядовой (1)
-str_pas_rank_rus_cav_2|Yefeytor (2)
-str_pas_rank_rus_cav_3|Mladshy unter-ofitser (3)
-str_pas_rank_rus_cav_4|Starshy unter-ofitser (4)
-str_pas_rank_rus_cav_5|Poruchik (5)
-str_pas_rank_rus_cav_6|Kapitan (6)
-str_pas_rank_rus_cav_7|Polkovnik (7)
-str_pas_rank_rus_cav_8|General-major (8)
-str_pas_rank_rus_cav_9|General ot infanterii (9)
-str_pas_rank_rus_cav_10|General-feldmarshal (10)
-str_pas_rank_rus_cos_1|Kazak (1)
-str_pas_rank_rus_cos_2|Prikazny (2)
-str_pas_rank_rus_cos_3|Mladshy uryadnik (3)
-str_pas_rank_rus_cos_4|Starshy uryadnik (4)
-str_pas_rank_rus_cos_5|Sotnik (5)
-str_pas_rank_rus_cos_6|Yesaul (6)
-str_pas_rank_rus_cos_7|Voyskovoy starshina (7)
-str_pas_rank_rus_cos_8|General-major (8)
-str_pas_rank_rus_cos_9|General ot kavalrii (9)
-str_pas_rank_rus_cos_10|General-feldmarshal (10)
-str_pas_rank_fra_1|Soldat (1)
-str_pas_rank_fra_2|Caporal (2)
-str_pas_rank_fra_3|Sergent (3)
-str_pas_rank_fra_4|Lieutenant (4)
-str_pas_rank_fra_5|Capitaine (5)
-str_pas_rank_fra_6|Major (6)
-str_pas_rank_fra_7|Colonel (7)
-str_pas_rank_fra_8|General de Division (8)
-str_pas_rank_fra_9|General (9)
-str_pas_rank_fra_10|Maréchal de France (10)
-str_pas_rank_ita_1|Soldato (1)
-str_pas_rank_ita_2|Caporale (2)
-str_pas_rank_ita_3|Sergente (3)
-str_pas_rank_ita_4|Tenente (4)
-str_pas_rank_ita_5|Capitano (5)
-str_pas_rank_ita_6|Maggiore (6)
-str_pas_rank_ita_7|Colonnello (7)
-str_pas_rank_ita_8|Maggiore Generale (8)
-str_pas_rank_ita_9|Tenente de Generale (9)
-str_pas_rank_ita_10|Generale (10)
-str_pas_rank_spa_1|Soldado (1)
-str_pas_rank_spa_2|Cabo (2)
-str_pas_rank_spa_3|Sargento (3)
-str_pas_rank_spa_4|Teniente (4)
-str_pas_rank_spa_5|Capitan (5)
-str_pas_rank_spa_6|Commandante (6)
-str_pas_rank_spa_7|Coronel (7)
-str_pas_rank_spa_8|General de Brigada (8)
-str_pas_rank_spa_9|General de Division (9)
-str_pas_rank_spa_10|General de Ejercito (10)
-str_pas_rank_ger_inf_1|Soldat (1)
-str_pas_rank_ger_inf_2|Gefreiter (2)
-str_pas_rank_ger_inf_3|Feldwebel (3)
-str_pas_rank_ger_inf_4|Leutnant (4)
-str_pas_rank_ger_inf_5|Hauptmänn (5)
-str_pas_rank_ger_inf_6|Major (6)
-str_pas_rank_ger_inf_7|Oberst (7)
-str_pas_rank_ger_inf_8|Generalmajor (8)
-str_pas_rank_ger_inf_9|General der Infanterie (9)
-str_pas_rank_ger_inf_10|Generalfeldmarshall (10)
-str_pas_rank_ger_cav_1|Ulan (1)
-str_pas_rank_ger_cav_2|Gefreiter (2)
-str_pas_rank_ger_cav_3|Wachtmeister (3)
-str_pas_rank_ger_cav_4|Leutnant (4)
-str_pas_rank_ger_cav_5|Rittmeister (5)
-str_pas_rank_ger_cav_6|Major (6)
-str_pas_rank_ger_cav_7|Oberst (7)
-str_pas_rank_ger_cav_8|Generalmajor (8)
-str_pas_rank_ger_cav_9|General der Kavalerie (9)
-str_pas_rank_ger_cav_10|Generalfeldmarshall (10)
-str_pas_rank_aus_inf_1|Infanterist (1)
-str_pas_rank_aus_inf_2|Korporal (2)
-str_pas_rank_aus_inf_3|Feldwebel (3)
-str_pas_rank_aus_inf_4|Leutnant (4)
-str_pas_rank_aus_inf_5|Hauptmann (5)
-str_pas_rank_aus_inf_6|Major (6)
-str_pas_rank_aus_inf_7|Oberst (7)
-str_pas_rank_aus_inf_8|Generalmajor (8)
-str_pas_rank_aus_inf_9|General der Infanterie (9)
-str_pas_rank_aus_inf_10|Feldmarschall (10)
-str_pas_rank_aus_cav_1|Ulan (1)
-str_pas_rank_aus_cav_2|Korporal (2)
-str_pas_rank_aus_cav_3|Wachtmeister (3)
-str_pas_rank_aus_cav_4|Leutnant (4)
-str_pas_rank_aus_cav_5|Hauptmänn (5)
-str_pas_rank_aus_cav_6|Major (6)
-str_pas_rank_aus_cav_7|Oberst (7)
-str_pas_rank_aus_cav_8|Generalmajor (8)
-str_pas_rank_aus_cav_9|General der Infanterie (9)
-str_pas_rank_aus_cav_10|Feldmarschall (10)
-str_pas_rank_tur_1|Nefer (1)
-str_pas_rank_tur_2|Onbaşı (2)
-str_pas_rank_tur_3|Çavus (3)
-str_pas_rank_tur_4|Mülazım (4)
-str_pas_rank_tur_5|Yüzbaşı (5)
-str_pas_rank_tur_6|Binbaşı (6)
-str_pas_rank_tur_7|Kaymakam (7)
-str_pas_rank_tur_8|Ferik (8)
-str_pas_rank_tur_9|Serdar (9)
-str_pas_rank_tur_10|Müşir (10)
-str_pas_rank_bel_1|Soldaat (1)
-str_pas_rank_bel_2|Korporaal (2)
-str_pas_rank_bel_3|Sergeant (3)
-str_pas_rank_bel_4|Luitenant (4)
-str_pas_rank_bel_5|Kapitein (5)
-str_pas_rank_bel_6|Majoor (6)
-str_pas_rank_bel_7|Kolonel (7)
-str_pas_rank_bel_8|Generaal Major (8)
-str_pas_rank_bel_9|Luitenant-Generaal (9)
-str_pas_rank_bel_10|Generaal (10)
-str_pas_rank_ser_1|Vojnik (1)
-str_pas_rank_ser_2|Kaplar (2)
-str_pas_rank_ser_3|Narednik (3)
-str_pas_rank_ser_4|Porucnik (4)
-str_pas_rank_ser_5|Kapetan (5)
-str_pas_rank_ser_6|Major (6)
-str_pas_rank_ser_7|Pukovnik (7)
-str_pas_rank_ser_8|Divizijski Deneral (8)
-str_pas_rank_ser_9|Armijski Deneral (9)
-str_pas_rank_ser_10|Vojvoda (10)
+str_pas_rank_rus_cav_2|Ефрейтор (2)
+str_pas_rank_rus_cav_3|Младший унтер-офицер (3)
+str_pas_rank_rus_cav_4|Старший унтер-офицер (4)
+str_pas_rank_rus_cav_5|Порутчик (5)
+str_pas_rank_rus_cav_6|Капитан (6)
+str_pas_rank_rus_cav_7|Полковник (7)
+str_pas_rank_rus_cav_8|Генерал-майор (8)
+str_pas_rank_rus_cav_9|Генерал от инфантерии (9)
+str_pas_rank_rus_cav_10|Генерал-фельдмаршал (10)
+str_pas_rank_rus_cos_1|Казак (1)
+str_pas_rank_rus_cos_2|Приказный (2)
+str_pas_rank_rus_cos_3|Младший урядник (3)
+str_pas_rank_rus_cos_4|Старший урядник (4)
+str_pas_rank_rus_cos_5|Сотник (5)
+str_pas_rank_rus_cos_6|Есаул (6)
+str_pas_rank_rus_cos_7|Войсковой старшина (7)
+str_pas_rank_rus_cos_8|Генерал-майор (8)
+str_pas_rank_rus_cos_9|Генерал от кавалрии (9)
+str_pas_rank_rus_cos_10|Генерал-фельдмаршал (10)
+str_pas_rank_fra_1|Солдат (1)
+str_pas_rank_fra_2|Капрал (2)
+str_pas_rank_fra_3|Сержант (3)
+str_pas_rank_fra_4|Лейтенант (4)
+str_pas_rank_fra_5|Капитан (5)
+str_pas_rank_fra_6|Майор (6)
+str_pas_rank_fra_7|Полковник (7)
+str_pas_rank_fra_8|Генерад дивизии (8)
+str_pas_rank_fra_9|Генерал (9)
+str_pas_rank_fra_10|Маршал Франции (10)
+str_pas_rank_ita_1|Солдат (1)
+str_pas_rank_ita_2|Капрал (2)
+str_pas_rank_ita_3|Сержант (3)
+str_pas_rank_ita_4|Лейтенант (4)
+str_pas_rank_ita_5|Капитан (5)
+str_pas_rank_ita_6|Майор (6)
+str_pas_rank_ita_7|Полковник (7)
+str_pas_rank_ita_8|Генерал майор (8)
+str_pas_rank_ita_9|Генерал-лейтенант (9)
+str_pas_rank_ita_10|Генерал (10)
+str_pas_rank_spa_1|Солдат (1)
+str_pas_rank_spa_2|Капрал (2)
+str_pas_rank_spa_3|Сержант (3)
+str_pas_rank_spa_4|Лейтенант (4)
+str_pas_rank_spa_5|Капитан (5)
+str_pas_rank_spa_6|Командир (6)
+str_pas_rank_spa_7|Полковник (7)
+str_pas_rank_spa_8|Бригадный генерал (8)
+str_pas_rank_spa_9|Генерал дивизии (9)
+str_pas_rank_spa_10|Генерал армии (10)
+str_pas_rank_ger_inf_1|Солдат (1)
+str_pas_rank_ger_inf_2|Капрал (2)
+str_pas_rank_ger_inf_3|Сержант (3)
+str_pas_rank_ger_inf_4|Лейтенант (4)
+str_pas_rank_ger_inf_5|Капитан (5)
+str_pas_rank_ger_inf_6|Майор (6)
+str_pas_rank_ger_inf_7|Полковник (7)
+str_pas_rank_ger_inf_8|Генерал-майор (8)
+str_pas_rank_ger_inf_9|Генерал от инфантерии (9)
+str_pas_rank_ger_inf_10|Генерал-фельдмаршал (10)
+str_pas_rank_ger_cav_1|Улан (1)
+str_pas_rank_ger_cav_2|Капрал (2)
+str_pas_rank_ger_cav_3|Констебль (3)
+str_pas_rank_ger_cav_4|Лейтенант (4)
+str_pas_rank_ger_cav_5|Риттмайстер (5)
+str_pas_rank_ger_cav_6|Майор (6)
+str_pas_rank_ger_cav_7|Полковник (7)
+str_pas_rank_ger_cav_8|Генерал-майор (8)
+str_pas_rank_ger_cav_9|Генерал кавалерии (9)
+str_pas_rank_ger_cav_10|Генерал-фельдмаршал (10)
+str_pas_rank_aus_inf_1|Рядовой (1)
+str_pas_rank_aus_inf_2|Капрал (2)
+str_pas_rank_aus_inf_3|Сержант (3)
+str_pas_rank_aus_inf_4|Лейтенант (4)
+str_pas_rank_aus_inf_5|Капитан (5)
+str_pas_rank_aus_inf_6|Майор (6)
+str_pas_rank_aus_inf_7|Полковник (7)
+str_pas_rank_aus_inf_8|Генерал майор (8)
+str_pas_rank_aus_inf_9|Генерал от инфантерии (9)
+str_pas_rank_aus_inf_10|Фельдмаршал (10)
+str_pas_rank_aus_cav_1|Улан (1)
+str_pas_rank_aus_cav_2|Капрал (2)
+str_pas_rank_aus_cav_3|Констебль (3)
+str_pas_rank_aus_cav_4|Лейтенант (4)
+str_pas_rank_aus_cav_5|Капитан (5)
+str_pas_rank_aus_cav_6|Майор (6)
+str_pas_rank_aus_cav_7|Полковник (7)
+str_pas_rank_aus_cav_8|Генерал майор (8)
+str_pas_rank_aus_cav_9|Генерал от пехоты (9)
+str_pas_rank_aus_cav_10|Фельдмаршал (10)
+str_pas_rank_tur_1|Солдат (1)
+str_pas_rank_tur_2|Капрал (2)
+str_pas_rank_tur_3|Сержант (3)
+str_pas_rank_tur_4|Лейтенант (4)
+str_pas_rank_tur_5|Капитан (5)
+str_pas_rank_tur_6|Майор (6)
+str_pas_rank_tur_7|Полковник (7)
+str_pas_rank_tur_8|Генерал майор (8)
+str_pas_rank_tur_9|Генерал от пехоты (9)
+str_pas_rank_tur_10|Фельдмаршал (10)
+str_pas_rank_bel_1|Солдат (1)
+str_pas_rank_bel_2|Капрал (2)
+str_pas_rank_bel_3|Сержант (3)
+str_pas_rank_bel_4|Лейтенант (4)
+str_pas_rank_bel_5|Капитан (5)
+str_pas_rank_bel_6|Майор (6)
+str_pas_rank_bel_7|Полковник (7)
+str_pas_rank_bel_8|Генерал-майор (8)
+str_pas_rank_bel_9|Генерал-лейтенант (9)
+str_pas_rank_bel_10|Генерал (10)
+str_pas_rank_ser_1|Солдат (1)
+str_pas_rank_ser_2|Капрал (2)
+str_pas_rank_ser_3|Сержант (3)
+str_pas_rank_ser_4|Лейтенант (4)
+str_pas_rank_ser_5|Капитан (5)
+str_pas_rank_ser_6|Майор (6)
+str_pas_rank_ser_7|Полковник (7)
+str_pas_rank_ser_8|Дивизионный генерал (8)
+str_pas_rank_ser_9|Генерал армии (9)
+str_pas_rank_ser_10|Воевода (10)
 str_pas_rank_por_1|Soldato (1)
 str_pas_rank_por_2|Cabo (2)
 str_pas_rank_por_3|Sargento (3)
@@ -3558,43 +3558,43 @@ str_pas_rank_gre_8|Taxiarchos (8)
 str_pas_rank_gre_9|Hypostrategos (9)
 str_pas_rank_gre_10|Strategos (10)
 str_vickers2b|vickers2b
-str_lord_name_british1|Edward
-str_lord_name_british2|Henry
-str_lord_name_british3|John
-str_lord_name_british4|William
-str_lord_name_british5|George
-str_lord_name_british6|Robert
-str_lord_name_british7|Charles
-str_lord_name_british8|Joseph
-str_lord_name_british9|James
-str_lord_name_british10|Thomas
-str_lord_surname_british1|Clarke
-str_lord_surname_british2|Lewis
-str_lord_surname_british3|Thompson
-str_lord_surname_british4|Price
-str_lord_surname_british5|Smith
-str_lord_surname_british6|Davis
-str_lord_surname_british7|Joestar
-str_lord_surname_british8|Brown
-str_lord_surname_british9|Davies
-str_lord_surname_british10|Jones
-str_lord_name_spanish1|Juan
-str_lord_name_spanish2|José
-str_lord_name_spanish3|Francisco
-str_lord_name_spanish4|Joaquín
-str_lord_name_spanish5|Miguel
-str_lord_name_spanish6|Antonio
-str_lord_name_spanish7|Carlos
-str_lord_name_spanish8|Martín
-str_lord_name_spanish9|Santiago
-str_lord_name_spanish10|Alejandro
-str_lord_surname_spanish1|de la Cruz
-str_lord_surname_spanish2|Aguilar
-str_lord_surname_spanish3|Albornoz
-str_lord_surname_spanish4|Castells
-str_lord_surname_spanish5|Muñoz
-str_lord_surname_spanish6|Álvarez
-str_lord_surname_spanish7|de Acevedo
-str_lord_surname_spanish8|Blanco y Erenas
-str_lord_surname_spanish9|Echeverría
-str_lord_surname_spanish10|Díaz de Cevallos
+str_lord_name_british1|Эдвард
+str_lord_name_british2|Генри
+str_lord_name_british3|Джон
+str_lord_name_british4|Вильям
+str_lord_name_british5|Георг
+str_lord_name_british6|Роберт
+str_lord_name_british7|Чарльс
+str_lord_name_british8|Джозеппе
+str_lord_name_british9|Джеймс
+str_lord_name_british10|Томас
+str_lord_surname_british1|Кларк
+str_lord_surname_british2|Левис
+str_lord_surname_british3|Томсон
+str_lord_surname_british4|Прайс
+str_lord_surname_british5|Смит
+str_lord_surname_british6|Давис
+str_lord_surname_british7|Джостар
+str_lord_surname_british8|Браун
+str_lord_surname_british9|Дэвис
+str_lord_surname_british10|Джон
+str_lord_name_spanish1|Джуан
+str_lord_name_spanish2|Джос
+str_lord_name_spanish3|Франциско
+str_lord_name_spanish4|Хуакун
+str_lord_name_spanish5|Мигель
+str_lord_name_spanish6|Антонио
+str_lord_name_spanish7|Карлос
+str_lord_name_spanish8|Мартин
+str_lord_name_spanish9|Сантьяго
+str_lord_name_spanish10|Александр
+str_lord_surname_spanish1|Де ла круз
+str_lord_surname_spanish2|Агилар
+str_lord_surname_spanish3|Альборноз
+str_lord_surname_spanish4|Кастелс
+str_lord_surname_spanish5|Муноз
+str_lord_surname_spanish6|Альварез
+str_lord_surname_spanish7|Де альковедо
+str_lord_surname_spanish8|Блянко Эреназ
+str_lord_surname_spanish9|Эчевериа
+str_lord_surname_spanish10|Диас де Севальос
