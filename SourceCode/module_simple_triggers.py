@@ -5800,10 +5800,10 @@ simple_triggers = [
 			(troop_add_items, ":troop", "itm_res_hat11", 1), (troop_add_items, ":troop", "itm_res_infantry7", 1), (troop_add_items, ":troop", "itm_res_trousers7", 1),
 			(try_end),
 			(try_for_range, ":troop", "trp_faction4_troop5", "trp_faction4_troop8"),
-			(troop_add_items, ":troop", "itm_res_hat2", 1), (troop_add_items, ":troop", "itm_res_infantry8", 1), (troop_add_items, ":troop", "itm_res_trousers7", 1),
+			(troop_add_items, ":troop", "itm_res_hat2", 1), (troop_add_items, ":troop", "itm_res_infantry9", 1), (troop_add_items, ":troop", "itm_res_trousers7", 1),
 			(try_end),
 			(try_for_range, ":troop", "trp_faction4_troop8", "trp_faction4_troop10"),
-			(troop_add_items, ":troop", "itm_res_hat8", 1), (troop_add_items, ":troop", "itm_res_infantry7", 1), (troop_add_items, ":troop", "itm_res_trousers7", 1),
+			(troop_add_items, ":troop", "itm_res_hat8", 1), (troop_add_items, ":troop", "itm_res_infantry10", 1), (troop_add_items, ":troop", "itm_res_trousers7", 1),
 			(try_end),
 			(try_for_range, ":troop", "trp_faction4_troop10", "trp_faction4_prisonguard"),
 			(troop_add_items, ":troop", "itm_res_hat4", 1), (troop_add_items, ":troop", "itm_res_infantry8", 1), (troop_add_items, ":troop", "itm_res_trousers7", 1),
@@ -7280,6 +7280,7 @@ simple_triggers = [
 (0.1,
 [
 (eq, "$players_kingdom", "fac_player_supporters_faction"),
+(faction_slot_eq, "$players_kingdom", slot_faction_state, sfs_active),
 (lt, "$player_faction_preset", "fac_kingdom_1"),
 
 	(try_for_range,":lord", active_npcs_begin, lords_end),

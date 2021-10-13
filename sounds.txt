@@ -1,5 +1,5 @@
 soundsfile version 3
-3109
+3276
  drum_3.ogg 769
  tutorial_1.ogg 1793
  tutorial_2.ogg 1793
@@ -3089,6 +3089,173 @@ soundsfile version 3
  voice_fra_gasmaskson03.wav 3808
  voice_fra_gasattack01.wav 3808
  voice_fra_gasattack02.wav 3808
+ voice_pol_on_company_select01.wav 2784
+ voice_pol_on_company_select02.wav 2784
+ voice_pol_on_company_select03.wav 2784
+ voice_pol_on_company_select04.wav 2784
+ voice_pol_on_company_select05.wav 2784
+ voice_pol_on_company_select06.wav 2784
+ voice_pol_on_company_select07.wav 2784
+ voice_pol_on_company_select08.wav 2784
+ voice_pol_on_company_select09.wav 2784
+ voice_pol_on_company_select10.wav 2784
+ voice_pol_on_company_select11.wav 2784
+ voice_pol_on_company_select12.wav 2784
+ voice_pol_on_company_select13.wav 2784
+ voice_pol_on_company_select14.wav 2784
+ voice_pol_on_company_select15.wav 2784
+ voice_pol_on_company_select16.wav 2784
+ voice_pol_on_company_select17.wav 2784
+ voice_pol_on_company_select18.wav 2784
+ voice_pol_on_company_select19.wav 2784
+ voice_pol_on_company_select20.wav 2784
+ voice_pol_on_company_select21.wav 2784
+ voice_pol_on_company_select22.wav 2784
+ voice_pol_on_company_select23.wav 2784
+ voice_pol_on_company_select24.wav 2784
+ voice_pol_on_company_select25.wav 2784
+ voice_pol_on_company_select26.wav 2784
+ voice_pol_on_company_select27.wav 2784
+ voice_pol_on_company_select28.wav 2784
+ voice_pol_on_company_select29.wav 2784
+ voice_pol_on_company_select30.wav 2784
+ voice_pol_on_company_select31.wav 2784
+ voice_pol_on_company_select32.wav 2784
+ voice_pol_yes_sir01.wav 2272
+ voice_pol_yes_sir02.wav 2272
+ voice_pol_yes_sir03.wav 2272
+ voice_pol_yes_sir04.wav 2272
+ voice_pol_yes_sir05.wav 2272
+ voice_pol_yes_sir06.wav 2272
+ voice_pol_yes_sir07.wav 2272
+ voice_pol_yes_sir08.wav 2272
+ voice_pol_yes_sir09.wav 2272
+ voice_pol_yes_sir10.wav 2272
+ voice_pol_yes_sir11.wav 2272
+ voice_pol_yes_sir12.wav 2272
+ voice_pol_yes_sir13.wav 2272
+ voice_pol_yes_sir14.wav 2272
+ voice_pol_yes_sir15.wav 2272
+ voice_pol_yes_sir16.wav 2272
+ voice_pol_yes_sir17.wav 2272
+ voice_pol_yes_sir18.wav 2272
+ voice_pol_yes_sir19.wav 2272
+ voice_pol_yes_sir20.wav 2272
+ voice_pol_yes_sir21.wav 2272
+ voice_pol_yes_sir22.wav 2272
+ voice_pol_yes_sir23.wav 2272
+ voice_pol_yes_sir24.wav 2272
+ voice_pol_yes_sir25.wav 2272
+ voice_pol_yes_sir26.wav 2272
+ voice_pol_yes_sir27.wav 2272
+ voice_pol_yes_sir28.wav 2272
+ voice_pol_yes_sir29.wav 2272
+ voice_pol_yes_sir30.wav 2272
+ voice_pol_yes_sir31.wav 2272
+ voice_pol_yes_sir32.wav 2272
+ voice_pol_charge01.wav 3296
+ voice_pol_charge02.wav 3296
+ voice_pol_charge03.wav 3296
+ voice_pol_charge04.wav 3296
+ voice_pol_charge05.wav 3296
+ voice_pol_charge06.wav 3296
+ voice_pol_charge07.wav 3296
+ voice_pol_charge08.wav 3296
+ voice_pol_charge09.wav 3296
+ voice_pol_charge10.wav 3296
+ voice_pol_charge11.wav 3296
+ voice_pol_charge12.wav 3296
+ voice_pol_charge13.wav 3296
+ voice_pol_charge14.wav 3296
+ voice_pol_charge15.wav 3296
+ voice_pol_charge16.wav 3296
+ voice_pol_charge17.wav 3296
+ voice_pol_charge18.wav 3296
+ voice_pol_retreat01.wav 3296
+ voice_pol_retreat02.wav 3296
+ voice_pol_retreat03.wav 3296
+ voice_pol_retreat04.wav 3296
+ voice_pol_retreat05.wav 3296
+ voice_pol_retreat06.wav 3296
+ voice_pol_retreat07.wav 3296
+ voice_pol_retreat08.wav 3296
+ voice_pol_retreat09.wav 3296
+ voice_pol_retreat10.wav 3296
+ voice_pol_retreat11.wav 3296
+ voice_pol_retreat12.wav 3296
+ voice_pol_retreat13.wav 3296
+ voice_pol_retreat14.wav 3296
+ voice_pol_retreat15.wav 3296
+ voice_pol_retreat16.wav 3296
+ voice_pol_retreat17.wav 3296
+ voice_pol_chargewarcry01.wav 2784
+ voice_pol_chargewarcry02.wav 2784
+ voice_pol_chargewarcry03.wav 2784
+ voice_pol_chargewarcry04.wav 2784
+ voice_pol_chargewarcry05.wav 2784
+ voice_pol_chargewarcry06.wav 2784
+ voice_pol_chargewarcry07.wav 2784
+ voice_pol_chargewarcry08.wav 2784
+ voice_pol_chargewarcry09.wav 2784
+ voice_pol_chargewarcry10.wav 2784
+ voice_pol_chargewarcry11.wav 2784
+ voice_pol_chargewarcry12.wav 2784
+ voice_pol_chargewarcry13.wav 2784
+ voice_pol_chargewarcry14.wav 2784
+ voice_pol_chargewarcry15.wav 2784
+ voice_pol_chargewarcry16.wav 2784
+ voice_pol_bayonets01.wav 3808
+ voice_pol_fire_at_will01.wav 3808
+ voice_pol_hold_ground01.wav 2272
+ voice_pol_hold_ground02.wav 2272
+ voice_pol_hold_ground03.wav 2272
+ voice_pol_hold_ground04.wav 2272
+ voice_pol_hold_ground05.wav 2272
+ voice_pol_hold_ground06.wav 2272
+ voice_pol_keep_shooting01.wav 3296
+ voice_pol_keep_shooting02.wav 3296
+ voice_pol_keep_shooting03.wav 3296
+ voice_pol_keep_shooting04.wav 3296
+ voice_pol_keep_shooting05.wav 3296
+ voice_pol_keep_shooting06.wav 3296
+ voice_pol_gas01.wav 2784
+ voice_pol_gas02.wav 2784
+ voice_pol_gas03.wav 2784
+ voice_pol_gas04.wav 2784
+ voice_pol_gas05.wav 2784
+ voice_pol_gas06.wav 2784
+ voice_pol_gas07.wav 2784
+ voice_pol_gas08.wav 2784
+ voice_pol_gas09.wav 2784
+ voice_pol_gas10.wav 2784
+ voice_pol_gas11.wav 2784
+ voice_pol_gas12.wav 2784
+ voice_pol_gas13.wav 2784
+ voice_pol_gas14.wav 2784
+ voice_pol_gas15.wav 2784
+ voice_pol_gas16.wav 2784
+ voice_pol_gas17.wav 2784
+ voice_pol_gas18.wav 2784
+ voice_pol_gas19.wav 2784
+ voice_pol_gas20.wav 2784
+ voice_pol_gas21.wav 2784
+ voice_pol_gas22.wav 2784
+ voice_pol_gas23.wav 2784
+ voice_pol_gas24.wav 2784
+ voice_pol_gas25.wav 2784
+ voice_pol_gas26.wav 2784
+ voice_pol_gas27.wav 2784
+ voice_pol_gas28.wav 2784
+ voice_pol_gas29.wav 2784
+ voice_pol_gas30.wav 2784
+ voice_pol_gas31.wav 2784
+ voice_pol_gas32.wav 2784
+ voice_pol_gasmaskson01.wav 3808
+ voice_pol_gasmaskson02.wav 3808
+ voice_pol_gasmaskson03.wav 3808
+ voice_pol_gasmaskson04.wav 3808
+ voice_pol_gasattack01.wav 3808
+ voice_pol_gasattack02.wav 3808
  hmg_shot1_1.wav 3808
  hmg_shot1_2.wav 3808
  hmg_shot1_3.wav 3808
@@ -3109,7 +3276,7 @@ soundsfile version 3
  gas_shell1_1.wav 2720
  gas_shell1_2.wav 2720
  gas_shell1_3.wav 2720
-446
+458
 snd_click 769 1 0 0 
 snd_tutorial_1 1793 1 1 0 
 snd_tutorial_2 1793 1 2 0 
@@ -3551,8 +3718,20 @@ snd_voice_fra_keep_shooting1 3296 6 3046 0 3047 0 3048 0 3049 0 3050 0 3051 0
 snd_voice_fra_gas1 2784 32 3052 0 3053 0 3054 0 3055 0 3056 0 3057 0 3058 0 3059 0 3060 0 3061 0 3062 0 3063 0 3064 0 3065 0 3066 0 3067 0 3068 0 3069 0 3070 0 3071 0 3072 0 3073 0 3074 0 3075 0 3076 0 3077 0 3078 0 3079 0 3080 0 3081 0 3082 0 3083 0 
 snd_voice_fra_gasmaskson1 3808 3 3084 0 3085 0 3086 0 
 snd_voice_fra_gasattack1 3808 2 3087 0 3088 0 
-snd_hmg_shot1 3808 6 3089 0 3090 0 3091 0 3092 0 3093 0 3094 0 
-snd_hmg_shot_distant1 4064 5 3095 0 3096 0 3097 0 3098 0 3099 0 
-snd_shot_lmg1 4064 3 3100 0 3101 0 3102 0 
-snd_shot_lmg2 4064 3 3103 0 3104 0 3105 0 
-snd_gas_shell1 2720 3 3106 0 3107 0 3108 0 
+snd_voice_pol_on_company_select1 2784 32 3089 0 3090 0 3091 0 3092 0 3093 0 3094 0 3095 0 3096 0 3097 0 3098 0 3099 0 3100 0 3101 0 3102 0 3103 0 3104 0 3105 0 3106 0 3107 0 3108 0 3109 0 3110 0 3111 0 3112 0 3113 0 3114 0 3115 0 3116 0 3117 0 3118 0 3119 0 3120 0 
+snd_voice_pol_yes_sir1 2272 32 3121 0 3122 0 3123 0 3124 0 3125 0 3126 0 3127 0 3128 0 3129 0 3130 0 3131 0 3132 0 3133 0 3134 0 3135 0 3136 0 3137 0 3138 0 3139 0 3140 0 3141 0 3142 0 3143 0 3144 0 3145 0 3146 0 3147 0 3148 0 3149 0 3150 0 3151 0 3152 0 
+snd_voice_pol_charge1 3296 18 3153 0 3154 0 3155 0 3156 0 3157 0 3158 0 3159 0 3160 0 3161 0 3162 0 3163 0 3164 0 3165 0 3166 0 3167 0 3168 0 3169 0 3170 0 
+snd_voice_pol_retreat1 3296 17 3171 0 3172 0 3173 0 3174 0 3175 0 3176 0 3177 0 3178 0 3179 0 3180 0 3181 0 3182 0 3183 0 3184 0 3185 0 3186 0 3187 0 
+snd_voice_pol_chargewarcry1 2784 16 3188 0 3189 0 3190 0 3191 0 3192 0 3193 0 3194 0 3195 0 3196 0 3197 0 3198 0 3199 0 3200 0 3201 0 3202 0 3203 0 
+snd_voice_pol_bayonets1 3808 1 3204 0 
+snd_voice_pol_fire_at_will1 3808 1 3205 0 
+snd_voice_pol_hold_ground1 2272 6 3206 0 3207 0 3208 0 3209 0 3210 0 3211 0 
+snd_voice_pol_keep_shooting1 3296 6 3212 0 3213 0 3214 0 3215 0 3216 0 3217 0 
+snd_voice_pol_gas1 2784 32 3218 0 3219 0 3220 0 3221 0 3222 0 3223 0 3224 0 3225 0 3226 0 3227 0 3228 0 3229 0 3230 0 3231 0 3232 0 3233 0 3234 0 3235 0 3236 0 3237 0 3238 0 3239 0 3240 0 3241 0 3242 0 3243 0 3244 0 3245 0 3246 0 3247 0 3248 0 3249 0 
+snd_voice_pol_gasmaskson1 3808 4 3250 0 3251 0 3252 0 3253 0 
+snd_voice_pol_gasattack1 3808 2 3254 0 3255 0 
+snd_hmg_shot1 3808 6 3256 0 3257 0 3258 0 3259 0 3260 0 3261 0 
+snd_hmg_shot_distant1 4064 5 3262 0 3263 0 3264 0 3265 0 3266 0 
+snd_shot_lmg1 4064 3 3267 0 3268 0 3269 0 
+snd_shot_lmg2 4064 3 3270 0 3271 0 3272 0 
+snd_gas_shell1 2720 3 3273 0 3274 0 3275 0 

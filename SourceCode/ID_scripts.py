@@ -866,5 +866,6 @@ script_pas_faction_manage_lord_number = 864
 script_init_bulgaria = 865
 script_init_norway = 866
 script_init_albania = 867
+script_pas_faction_buy_military_resources = 868
 
 

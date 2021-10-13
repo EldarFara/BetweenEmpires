@@ -121,6 +121,7 @@ language_turkish = 4
 language_spanish = 5
 language_italian = 6
 language_french = 7
+language_polish = 8
 
 vo_type_on_company_select = 1
 vo_type_yes_sir = 2
@@ -1234,6 +1235,14 @@ slot_faction_mg_item =  slot_faction_ve_mod_slots_begin + 423
 slot_faction_heavyhowitzer_cannoneer_officer =  slot_faction_ve_mod_slots_begin + 424
 slot_faction_army_size =  slot_faction_ve_mod_slots_begin + 425
 slot_faction_lordmodel_troop =  slot_faction_ve_mod_slots_begin + 426
+slot_faction_extra_ammo_to_buy =  slot_faction_ve_mod_slots_begin + 427
+slot_faction_extra_weaponry_to_buy =  slot_faction_ve_mod_slots_begin + 428
+slot_faction_number_of_soldiers =  slot_faction_ve_mod_slots_begin + 429
+slot_faction_number_of_lords =  slot_faction_ve_mod_slots_begin + 430
+slot_faction_number_of_garrisons =  slot_faction_ve_mod_slots_begin + 431
+slot_faction_number_of_soldiers =  slot_faction_ve_mod_slots_begin + 432
+slot_faction_number_of_soldiers_lords =  slot_faction_ve_mod_slots_begin + 433
+slot_faction_number_of_soldiers_garrisons =  slot_faction_ve_mod_slots_begin + 434
 
 
 
