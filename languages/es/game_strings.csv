@@ -30,8 +30,8 @@ str_cant_use_inventory_now|Imposible acceder al inventario en estos momentos.
 str_cant_use_inventory_arena|Imposible acceder al inventario en la arena.
 str_cant_use_inventory_disguised|Imposible acceder al inventario mientras se utiliza un disfraz.
 str_cant_use_inventory_tutorial|Imposible acceder al inventario en el campo de entrenamiento.
-str_1_denar|1 denar
-str_reg1_denars|{reg1} denares
+str_1_denar|1 Libra
+str_reg1_denars|{reg1} Libras
 str_january_reg1_reg2|{reg1} de Enero de {reg2}
 str_february_reg1_reg2|{reg1} de Febrero de {reg2}
 str_march_reg1_reg2|{reg1} de Marzo de {reg2}
@@ -324,7 +324,7 @@ str_casualty_display_hp|^Os han herido por {reg1} puntos de vida.
 str_quest_log_updated|Se ha actualizado el diario de misiones...
 str_banner_selection_text|Os han concedido el derecho de portar un estandarte. Vuestro estandarte representa vuestro rango y os proporciona honor. ¿Qué estandarte elegiréis?
 str_retirement_text_1|Os dais cuenta demasiado tarde de que vuestro dinero no durará mucho más. Habéis dilapidado rápidamente lo poco que conseguisteis ahorrar y fracasáis en vuestros desesperados intentos de volver a la aventura. Vuestros días terminan en {s9}, mendigando por las calles y viviendo de la benevolencia de la iglesia.
-str_retirement_text_2|Os dais cuenta demasiado tarde de que vuestro dinero no durará mucho más. Habéis dilapidado rápidamente lo poco que conseguisteis ahorrar. Una vez que el último denar se ha evaporado en vuestras manos, no tenéis más remedio que salir a robar por los callejones de {s9}, utilizando vuestras habilidades para ganaros el sustento robando calderilla de las mujeres y ciudadanos pobres.
+str_retirement_text_2|Os dais cuenta demasiado tarde de que vuestro dinero no durará mucho más. Habéis dilapidado rápidamente lo poco que conseguisteis ahorrar. Una vez que la última Libra se ha evaporado en vuestras manos, no tenéis más remedio que salir a robar por los callejones de {s9}, utilizando vuestras habilidades para ganaros el sustento robando calderilla de las mujeres y ciudadanos pobres.
 str_retirement_text_3|Os dais cuenta demasiado tarde de que vuestro dinero no durará mucho más. Habéis dilapidado rápidamente lo poco que conseguisteis ahorrar y acabáis vagabundeando y sin blanca, yendo de taberna en taberna y mendigando tragos a clientes indulgentes a cambio de regalarles con relatos sobre la guerra, que nadie se cree.
 str_retirement_text_4|El dinero que habéis ahorrado no os dura mucho tiempo, pero sois capaz de reunir lo suficiente como para asentaros cerca de la aldea de {s7}. Allí montáis vuestra propia granja y pronto comienzan a aparecer potenciales {esposas/esposos}. Con el tiempo, los campesinos comienzan a trataros como {un héroe/una heroína} local. Siempre os ceden un lugar de honor en las fiestas y vuestras hazañas son narradas una y otra vez en las tabernas, para que los niños conserven para siempre vuestro recuerdo.
 str_retirement_text_5|El dinero que habéis ahorrado no os dura mucho tiempo, pero es suficiente para comprar una pequeña taberna en {s9}. Aunque al principio los lugareños desconfían de vos, pronto os aceptan entre los suyos. Con el tiempo, vuestra taberna se convierte en un popular centro de diversión y reuniones. La gente llega desde lugares remotos para comer o alojarse, debido a vuestra fama y a las historias épicas que contáis de vuestros días como {aventurero/aventurera}.
@@ -366,7 +366,7 @@ str_bar_disgruntled|     Descontento
 str_bar_miserable|  Hundido
 str_here_plus_space|aquí 
 str_npc1_intro|Salve, camarada. No estaréis buscando un rastreador por casualidad, ¿verdad?
-str_npc2_intro|Hola. ¿Seríais tan amable de beber un trago conmigo? Solamente me quedan cinco denares y no quiero beber en solitario.
+str_npc2_intro|Hola. ¿Seríais tan amable de beber un trago conmigo? Solamente me quedan cinco Libras y no quiero beber en solitario.
 str_npc3_intro|¡Saludos!
 str_npc4_intro|Saludos. Soy Rolf, hijo de Rolf, de la antigua y pudiente casa de los Rolf.
 str_npc5_intro|Saludos, camarada. ¿Querríais beber conmigo?
@@ -382,7 +382,7 @@ str_npc14_intro|¿Sí? ¿Qué queréis?
 str_npc15_intro|¡Oh! Decidme, camarada, ¿por casualidad no saldréis de la ciudad dentro de poco?
 str_npc16_intro|Hola. Me he percatado de que habéis llegado a la ciudad en compañía de un ejército. ¿Por casualidad no estaréis buscando más soldados?
 str_npc1_intro_response_1|Tal vez. ¿Por qué tanta prisa?
-str_npc2_intro_response_1|¿Vuestros últimos cinco denares, decís? ¿Qué os ha pasado?
+str_npc2_intro_response_1|¿Vuestros últimos cinco Libras, decís? ¿Qué os ha pasado?
 str_npc3_intro_response_1|Hola. ¿Qué está haciendo una noble damisela como vos en un lugar como éste?
 str_npc4_intro_response_1|Hmm... Nunca había oído hablar de la casa Rolf.
 str_npc5_intro_response_1|Por supuesto. ¿Con quién tengo el placer de beber?
@@ -439,7 +439,7 @@ str_npc7_backstory_b|Tuve la mala suerte de nacer siendo hija de una madre débi
 str_npc8_backstory_b|Provengo de una antigua familia del norte, hija de un noble y esposa de otro. Luché al lado de mi marido, compañera tanto en la paz como en la guerra. Pero mi marido murió de peste cuando yo aún no había dado a luz a ningún hijo. Mi marido había establecido que yo debía heredar sus tierras en ausencia de herederos. Mi cuñado, maldito sea su nombre, dijo que no era nuestra costumbre que una mujer heredara un título. Era una tontería, pero con su dinero compró la lealtad de varios de los sirvientes de mi marido, y así mi cuñado pudo instalarse en mis propiedades. Entonces hice algo para lo que no me criaron... me escapé, cosa que espero no tener que volver a hacer.
 str_npc9_backstory_b|Soy el hijo mayor de mi padre, su heredero. Pero mi madre murió y mi padre volvió a casarse. Su nueva esposa creyó que su hijo debía ser quien heredara. Ella no podía ir en mi contra abiertamente, pero el otro día di de comer a mi perro un guisado que habían dejado para mí, y el pobre perro murió. Acusé a mi madrastra, pero mi padre, embrujado por ella, se negó a creerme y ordenó que no volviera a aparecer por allí.
 str_npc10_backstory_b|Yo era sargento en la guarnición {s19} de {s20}. Durante veinte años actué de guardia de la ciudad, recibiendo más de un trompazo en más de una lucha cruenta, hasta que pusieron como comandante de la guarnición a un principillo mocoso que casi no había salido de la cuna de su madre. Apareció delante de mí cuando estaba haciendo guardia en la torre, con mi ballesta sin tensar, por la lluvia, comprendéis... No puedo dejar que la cuerda se ceda... Pero el principillo mocoso me dijo que una ballesta sin tensar es un abandono de obligación. Dijo que haría que me dieran de latigazos... algo en mí me hizo perder los estribos. Así que abandoné mi puesto.
-str_npc11_backstory_b|Durante treinta años seguí a los ejércitos de esta tierra, vendiendo viandas y bebidas, mirando sus juegos de dados y buscando chicas para ellos, y al final casi no me quedó ni un denar en el bolsillo.
+str_npc11_backstory_b|Durante treinta años seguí a los ejércitos de esta tierra, vendiendo viandas y bebidas, mirando sus juegos de dados y buscando chicas para ellos, y al final casi no me quedó ni una Libra en el bolsillo.
 str_npc12_backstory_b|Soy un filósofo nato, condenado por la envidia de los doctores cabezas huecas de mi universidad a ganarme la vida como cirujano itinerante. Un mercader de esta ciudad me contrató para curar a su hijo, que había quedado en coma al caer desde un balcón. Trepané el cráneo del paciente con éxito para reducir la hinchazón del cerebro, pero la familia ignoró mi consejo de tratar las fiebres con una tintura de corteza de sauce, y el chico terminó muriendo. El padre, en vez de recompensarme por mis esfuerzos, me acusó de hechicería... ¡a mí, un filósofo por naturaleza! Tal es la ingratitud de la humanidad.
 str_npc13_backstory_b|Soy guerrero de profesión. Pero puede que también hayáis oído hablar de mis proezas como poeta, haciendo suspirar a las doncellas más reticentes. O de mis proezas en las alcobas, para las cuales debo confesar que cuento con un modesto grado de habilidad. Confieso un ligero afecto por Calradia que durante los últimos años me ha hecho visitar sus ciudades, castillos y aldeas, haciendo uso de mis talentos.
 str_npc14_backstory_b|Soy el segundo hijo del conde de Geroia, de quien no tengo duda habéis oído hablar. Al carecer de herencia propia, llegué a buscar fortuna a Calradia, entrenando hombres en el arte de la batalla. Desafortunadamente, los señores aquí en {s20} no saben apreciar los métodos de disciplina necesarios para convertir a la gentuza en soldados. Les dije que era mejor azotarlos ahora que enterrarlos después, pero no me escucharon y me dijeron que me fuera con mis métodos a otra parte.
@@ -462,7 +462,7 @@ str_npc14_backstory_c|Bien, si conocéis de algún comandante cuyo interés resi
 str_npc15_backstory_c|Tontería la mía de haber aceptado el contrato sin un adelanto de dinero, pero la realidad es que por ello ahora me encuentro en una situación difícil, con los caminos llenos de bandidos y sin dinero para pagar escoltas. Así que agradecería poder unirme a un grupo bien armado que partiera dentro de pocos días.
 str_npc16_backstory_c|Por desgracia, la esposa de mi último patrón tenía un amuleto precioso, del tipo al que no pude resistirme. Ella aún no sabe que le ha desaparecido, pero se enterará pronto. Así pues, decidme, ¿estáis buscando ayudantes?
 str_npc1_backstory_later|He estado aquí y allí, ya sabéis... haciendo lo posible para no meterme en problemas. Sin embargo, necesito un trabajo urgentemente.
-str_npc2_backstory_later|Vendí mis botas y conseguí algunos denares extra llevando mercancías de ciudad en ciudad, pero es una vida muy dura.
+str_npc2_backstory_later|Vendí mis botas y conseguí algunos Libras extra llevando mercancías de ciudad en ciudad, pero es una vida muy dura.
 str_npc3_backstory_later|Trabajé como cocinera de algunas caravanas ambulantes, y eso al menos mantenía mi estómago lleno. Pero en los caminos te encuentras con malas compañías, y me canso de apartar a guardias y a otros que se creen que pueden tomarse libertades conmigo. Estaba pensando que si pudiera encontrar trabajo como guerrera, los hombres me dejarían en paz de una vez.
 str_npc4_backstory_later|Regresé a mi baronato ancestral a inspeccionar mis tierras. Pero las malas lluvias habían traído una plaga de langostas, entre otras cosas, así que aquí estoy de nuevo, buscando trabajo.
 str_npc5_backstory_later|He estado vagabundeando por esta tierra destrozada por la guerra, buscando un líder al que merezca la pena seguir.
@@ -472,7 +472,7 @@ str_npc8_backstory_later|Aún estoy buscando un líder al que unirme en su lucha
 str_npc9_backstory_later|Ofrecí mi espada a varios señores de estas tierras, pero la mayoría del tiempo sólo me quieren de recadista o como instructor de sus campesinos, o para alguna otra labor no digna de un caballero.
 str_npc10_backstory_later|No sé si os lo dije o no, pero deserté de mi unidad después de golpear a un joven noble que ordenó que se me azotara sin causa alguna. Desde entonces he estado escondiéndome. Por suerte, se me ocurrió robar el monedero de mi capitán antes de largarme, pero ya se me está acabando el dinero.
 str_npc11_backstory_later|He estado por aquí y por allí. Pero raro sería que un capitán quisiera a un saco de huesos como yo para luchar, incluso si pudiera contra todos sus chicos.
-str_npc12_backstory_later|Llevo un tiempo por aquí, atendiendo a los enfermos y aceptando el dinero que me dan. Pero la gente de esta zona es ignorante y tiene poco respeto por mis conocimientos. Los pocos denares que gano apenas son suficientes para reponer mis medicinas. Daría gracias si pudiera encontrar otro trabajo.
+str_npc12_backstory_later|Llevo un tiempo por aquí, atendiendo a los enfermos y aceptando el dinero que me dan. Pero la gente de esta zona es ignorante y tiene poco respeto por mis conocimientos. Los pocos Libras que gano apenas son suficientes para reponer mis medicinas. Daría gracias si pudiera encontrar otro trabajo.
 str_npc13_backstory_later|He recorrido las ciudades de Calradia, dejando un rastro de mujeres enamoradas y de esposos cornudos. Pero me he cansado de tan banales retos y estaba pensando en acometer pasatiempos más marciales.
 str_npc14_backstory_later|He viajado de corte en corte, pero aún no he encontrado un señor que me agrade.
 str_npc15_backstory_later|He ido de castillo en castillo buscando torres o muros que requieran reparación. Pero el señor siempre está de viaje, o tiene otros asuntos que atender, o me encuentro con sus acreedores por las calles, y entonces me doy cuenta que no es un buen trabajo. Así que si sabéis de alguno, decídmelo.
@@ -523,7 +523,7 @@ str_npc11_signup|¡Pero si yo soy soldado! Por favor, dejad que mis pobres manos
 str_npc12_signup|Como ya os dije, soy un cirujano, no un médico de universidad que nunca ha tocado un cadáver. Puedo ensuciarme las manos.
 str_npc13_signup|¿De verdad? Haríais bien en alistarme.
 str_npc14_signup|Me encantará cabalgar con vos, al menos durante un tiempo, si me pagáis y compartís conmigo el botín.
-str_npc15_signup|Geroia, en principio, pero me gustaría poder llevarme algunos denares a los bolsillos antes, para no llegar a casa sin dinero. Así que si me prometéis comida y una parte del botín estaré feliz de luchar con vos durante un tiempo.
+str_npc15_signup|Geroia, en principio, pero me gustaría poder llevarme algunos Libras a los bolsillos antes, para no llegar a casa sin dinero. Así que si me prometéis comida y una parte del botín estaré feliz de luchar con vos durante un tiempo.
 str_npc16_signup|Bueno, {señor/señora}, dejadme que os diga... puede que no sepa leer y escribir, pero sé que la forma más rápida para llegar al corazón de un hombre se encuentra entre la cuarta y quinta costilla, si me entendéis. 
 str_npc1_signup_2|He cabalgado mucho campo a través, la mayoría de las veces con prisa. Soy un buen rastreador y tengo buen ojo para el terreno. ¿Qué decís?
 str_npc2_signup_2|Aprendo rápido. Sé cabalgar y también sé de negocios, de precios y demás.
@@ -573,30 +573,30 @@ str_npc13_signup_response_2|En realidad, pensándolo bien, un luchador sediento 
 str_npc14_signup_response_2|La verdad, no deseo provocar motines en mi ejército. Buen día, señor.
 str_npc15_signup_response_2|En realidad, necesito gente con otras habilidades. Mis disculpas.
 str_npc16_signup_response_2|Sinceramente, prefiero a alguien a quien el saqueo le tiente un poco menos.
-str_npc1_payment|Seré de mucha utilidad para vos, {señor/señora}, podéis apostar por ello. Antes de irnos, sin embargo, ¿podríais prestarme {reg3} denares? Me avergüenza decirlo, pero he contraído una deuda al quedarme en esta taberna las últimas semanas, y los dueños ya no me creen cuando les digo que nado en la abundancia. Ya sabéis, las cosas pueden ponerse feas si me ven saliendo de aquí sin pagar.
-str_npc4_payment|Excelente. Pero antes de irnos, ¿sería posible que me prestaseis {reg3} denares? Tuve que empeñar una herencia familiar aquí en {s20} y me gustaría recuperarla antes de marchar.
-str_npc5_payment|Gracias. Ahora, para sellar nuestro trato os pediré {reg3} denares. Es un consejo que me dio mi padre. Me dijo 'Baheshtur, nunca luches por un bárbaro hasta que no te pague por tu valía en oro'.
-str_npc7_payment|Muy bien. Iré con vos. Pero antes deberéis pagarme {reg3} denares. No esperaréis que trabaje gratis, ¿verdad?
-str_npc8_payment|Entonces lucharé contra vuestros enemigos por vos. Pero antes requiero un adelanto de {reg3} denares. Si sois {un capitán/una capitana} de valía capaz de liderar a su ejército hacia la fortuna, seguro que no tendréis problemas para pagarme. No puedo permitirme servir a alguien pobre.
-str_npc9_payment|Eso es muy amable de vuestra parte. Y antes de unirme a vos, ¿podríais prestarme {reg3} denares para comprar unas ropas adecuadas a mi noble linaje? Debido a mi mala fortuna reciente, mi vestimenta está hecha jirones y no puedo permitir que los soldados normales me confundan con uno de ellos.
-str_npc10_payment|Ésas son buenas noticias. Pero debo pediros una última cosa. Tengo una mujer aquí en {s20}, una moza de taberna que dice que está embarazada de mí. Quiero darle algo de dinero antes de partir... para el niño, ya sabéis. ¿Podríais prescindir de {reg3} denares?
-str_npc11_payment|Gracias, {capitán/capitana}, pero antes de unirme a vos requiero un pago de {reg3} denares. Sé que a veces durante las campañas los soldados pasan semanas sin ver un sueldo y yo soy lo suficientemente inteligente como para pedirlo por adelantado.
-str_npc13_payment|Antes de firmar nada, tengo que solucionar el pequeño problema de los gastos en los que he incurrido en mi estancia en este lugar... {reg3} denares, para ser exactos. ¿Podríais pagarlos por mí, como gesto de amistad?
-str_npc14_payment|Ah, una última cosa. Solicito un pago inicial de {reg3} denares antes de unirme a vuestro grupo. Tengo como principio no entrar al servicio de nadie a menos que me paguen como merezco.
-str_npc15_payment|Bien. Por cierto, como ingeniero experimentado requiero un pago por mis servicios. Creo que una bonificación de {reg3} denares sería lo justo.
-str_npc16_payment|Ésas son buenas noticias, {capitán/capitana}. ¿Qué tal un pequeño pago inicial para sellar el trato? {reg3} denares serán suficientes. No os lo toméis a mal, pero he tenido mala suerte con mis empleadores en el pasado. 
-str_npc1_payment_response|Muy bien, aquí tenéis {reg3} denares. Ahora id con el resto.
-str_npc4_payment_response|Naturalmente. Aquí tenéis {reg3} denares.
-str_npc5_payment_response|Bueno... aquí tenéis {reg3} denares, entonces. Vuestro primer pago.
-str_npc7_payment_response|No, claro que no. Aquí tenéis {reg3} denares.
-str_npc8_payment_response|Oh, no soy pobre, señora. Aquí tenéis {reg3} denares.
-str_npc9_payment_response|Muy bien, aquí tenéis {reg3} denares.
-str_npc10_payment_response|Claro. Tomad, {reg3} denares.
-str_npc11_payment_response|Muy bien, tomad {reg3} denares. Y preparaos. Nos iremos dentro de poco.
-str_npc13_payment_response|Por supuesto, aquí tenéis {reg3} denares. Preparaos para salir dentro de poco.
-str_npc14_payment_response|De acuerdo, aquí tenéis {reg3} denares. Os damos la bienvenida a la compañía.
-str_npc15_payment_response|De acuerdo, aquí tenéis {reg3} denares. Me alegro de teneros conmigo.
-str_npc16_payment_response|Muy bien, aquí tenéis {reg3} denares. Preparaos.
+str_npc1_payment|Seré de mucha utilidad para vos, {señor/señora}, podéis apostar por ello. Antes de irnos, sin embargo, ¿podríais prestarme {reg3} Libras? Me avergüenza decirlo, pero he contraído una deuda al quedarme en esta taberna las últimas semanas, y los dueños ya no me creen cuando les digo que nado en la abundancia. Ya sabéis, las cosas pueden ponerse feas si me ven saliendo de aquí sin pagar.
+str_npc4_payment|Excelente. Pero antes de irnos, ¿sería posible que me prestaseis {reg3} Libras? Tuve que empeñar una herencia familiar aquí en {s20} y me gustaría recuperarla antes de marchar.
+str_npc5_payment|Gracias. Ahora, para sellar nuestro trato os pediré {reg3} Libras. Es un consejo que me dio mi padre. Me dijo 'Baheshtur, nunca luches por un bárbaro hasta que no te pague por tu valía en oro'.
+str_npc7_payment|Muy bien. Iré con vos. Pero antes deberéis pagarme {reg3} Libras. No esperaréis que trabaje gratis, ¿verdad?
+str_npc8_payment|Entonces lucharé contra vuestros enemigos por vos. Pero antes requiero un adelanto de {reg3} Libras. Si sois {un capitán/una capitana} de valía capaz de liderar a su ejército hacia la fortuna, seguro que no tendréis problemas para pagarme. No puedo permitirme servir a alguien pobre.
+str_npc9_payment|Eso es muy amable de vuestra parte. Y antes de unirme a vos, ¿podríais prestarme {reg3} Libras para comprar unas ropas adecuadas a mi noble linaje? Debido a mi mala fortuna reciente, mi vestimenta está hecha jirones y no puedo permitir que los soldados normales me confundan con uno de ellos.
+str_npc10_payment|Ésas son buenas noticias. Pero debo pediros una última cosa. Tengo una mujer aquí en {s20}, una moza de taberna que dice que está embarazada de mí. Quiero darle algo de dinero antes de partir... para el niño, ya sabéis. ¿Podríais prescindir de {reg3} Libras?
+str_npc11_payment|Gracias, {capitán/capitana}, pero antes de unirme a vos requiero un pago de {reg3} Libras. Sé que a veces durante las campañas los soldados pasan semanas sin ver un sueldo y yo soy lo suficientemente inteligente como para pedirlo por adelantado.
+str_npc13_payment|Antes de firmar nada, tengo que solucionar el pequeño problema de los gastos en los que he incurrido en mi estancia en este lugar... {reg3} Libras, para ser exactos. ¿Podríais pagarlos por mí, como gesto de amistad?
+str_npc14_payment|Ah, una última cosa. Solicito un pago inicial de {reg3} Libras antes de unirme a vuestro grupo. Tengo como principio no entrar al servicio de nadie a menos que me paguen como merezco.
+str_npc15_payment|Bien. Por cierto, como ingeniero experimentado requiero un pago por mis servicios. Creo que una bonificación de {reg3} Libras sería lo justo.
+str_npc16_payment|Ésas son buenas noticias, {capitán/capitana}. ¿Qué tal un pequeño pago inicial para sellar el trato? {reg3} Libras serán suficientes. No os lo toméis a mal, pero he tenido mala suerte con mis empleadores en el pasado. 
+str_npc1_payment_response|Muy bien, aquí tenéis {reg3} Libras. Ahora id con el resto.
+str_npc4_payment_response|Naturalmente. Aquí tenéis {reg3} Libras.
+str_npc5_payment_response|Bueno... aquí tenéis {reg3} Libras, entonces. Vuestro primer pago.
+str_npc7_payment_response|No, claro que no. Aquí tenéis {reg3} Libras.
+str_npc8_payment_response|Oh, no soy pobre, señora. Aquí tenéis {reg3} Libras.
+str_npc9_payment_response|Muy bien, aquí tenéis {reg3} Libras.
+str_npc10_payment_response|Claro. Tomad, {reg3} Libras.
+str_npc11_payment_response|Muy bien, tomad {reg3} Libras. Y preparaos. Nos iremos dentro de poco.
+str_npc13_payment_response|Por supuesto, aquí tenéis {reg3} Libras. Preparaos para salir dentro de poco.
+str_npc14_payment_response|De acuerdo, aquí tenéis {reg3} Libras. Os damos la bienvenida a la compañía.
+str_npc15_payment_response|De acuerdo, aquí tenéis {reg3} Libras. Me alegro de teneros conmigo.
+str_npc16_payment_response|Muy bien, aquí tenéis {reg3} Libras. Preparaos.
 str_npc1_morality_speech|Eh, {jefe/jefa}. No os lo toméis a mal, pero es una vida dura y {s21} es demasiado. Tened más cuidado en el futuro, {capitán/capitana}, si no os importa que lo diga.
 str_npc2_morality_speech|Espero que no os importe que os lo diga, pero para mí es un poco duro {s21}. Tal vez debería curtirme más en estas lides, pero si pudiésemos ser un poco más misericordiosos de tanto en tanto... dormiría mejor.
 str_npc3_morality_speech|Tal vez no me corresponda a mí decirlo, {señor/señora}, pero me preocupa que nos dediquemos a {s21}. Claro que sé que la guerra es cruel, pero no es necesario hacerla peor de lo que ya es.
@@ -784,7 +784,7 @@ str_npc14_home_description|Dije 'intentando' porque en mi opinión, los Vaegires
 str_npc15_home_description|Como la mayoría de los castillos que aún perduran aquí, sus cimientos se remontan al tiempo del Imperio Calrádico. Ya no es posible verlos debido a todas las remodelaciones, pero cada bloque es del tamaño de una casa. Debía de haber hechiceros de verdad en aquellos tiempos, porque si no no sé cómo movieron semejantes piedras. Hermoso lugar también... Culmarr está justo en el paso que sale de Calradia, lo que permite al señor cobrar peaje durante los tres meses del año que no nieva.
 str_npc16_home_description|La nieve de este valle no se derrite hasta bien entrado el año y la tierra es difícil de arar. Se puede cultivar un poco de cebada, pero no mucho más. Sin embargo, hay riqueza en los bosques: ciervos, conejos y linces, carne y pieles, las montañas tienen hierro, y los mercaderes traen pescado salado por el río desde la costa para mantener a los granjeros alimentados durante el invierno.
 str_npc1_home_description_2|No son muy duros con nosotros, los campesinos, y no nos ponen muchos impuestos... no podríamos pagarlos, de todos modos. Esta tierra no es buena para la mayoría de cultivos. La verdad, sólo es buena para criar caballos, y la mitad del año nada más, en invierno cuando terminan las lluvias. En verano se llevan las manadas hacia las montañas. Las caravanas llegan desde más allá de las colinas y traen especias a Tulga, pero no vemos mucho dinero de ése en las aldeas.
-str_npc2_home_description_2|Me había surtido de azafrán, canela, clavo, pimienta y otras especias, además de un baúl lleno de denares. Estimé que podía comprar telas, pieles, terciopelo, hierro y lana, y caballos extra para llevarlos de regreso, y además obtener ganancias. El problema es que no pensé en los Khergitas, a quienes aparentemente no les hace gracia que otros se interpongan en su monopolio.
+str_npc2_home_description_2|Me había surtido de azafrán, canela, clavo, pimienta y otras especias, además de un baúl lleno de Libras. Estimé que podía comprar telas, pieles, terciopelo, hierro y lana, y caballos extra para llevarlos de regreso, y además obtener ganancias. El problema es que no pensé en los Khergitas, a quienes aparentemente no les hace gracia que otros se interpongan en su monopolio.
 str_npc3_home_description_2|Los poetas llaman a Veluca el paraíso y por una vez creo que no exageran.
 str_npc4_home_description_2|¿Y cómo es que sé yo esto? Bueno... me secuestraron y pidieron rescate, pero yo me escapé. Realmente no hay mucho más que contar.
 str_npc5_home_description_2|Claro, ya sabéis cómo son las cosas. Los hombres de la generación de mi padre eran duros guerreros de las tierras frías de más allá de las montañas, pero esta generación tiene grandes casas en las ciudades y muchas tierras, y pasan tanto tiempo comerciando como practicando la arquería. La próxima generación se pasará el día bebiendo vino de Veluca y perderá sus tierras frente a las bandas analfabetas de salteadores que vengan de las colinas, ya lo veréis. Así son las cosas, y así serán siempre.
@@ -848,7 +848,7 @@ str_npc14_kingsupport_1|Bueno, {señor/señora}, los cielos han establecido una 
 str_npc15_kingsupport_1|Bueno, vos pagáis a vuestros hombres a tiempo, cuando podéis, hablando en general. Ésa es la mejor cualificación que hay para ser rey, según yo. Demostráis respeto por los derechos de los demás.
 str_npc16_kingsupport_1|¿Por qué no, capitán? No me cabe duda de que seríais {un buen rey/una buena reina}... y, por supuesto, confío en que recordaríais a la gente sencilla como yo que os dio un empujoncito para llegar hasta el trono.
 str_npc1_kingsupport_2|Desde luego que sí, {Jefe/Jefa}. Pero dejad que os diga lo que otros podrían aportar a vuestra causa... en particular nosotros, la gente pobre. Se dice que antaño, cada nuevo Emperador que ascendía al trono proclamaba una gran amnistía para todos excepto los peores prisioneros del calabozo, les daba una segunda oportunidad para rehacer sus vidas... como hicisteis conmigo, {Jefe/Jefa}.
-str_npc2_kingsupport_2|Si lo deseáis, puedo tomarme algunas semanas para visitar las cofradías donde tengo contactos y explicarles que en vos tendrán {un rey/una líder} que podrá a raya a los rapaces nobles; esos que se aprovechan de los pobres con sus impuestos desmesurados y que estrangulan el comercio por unos pocos denares extra que despilfarran en guerra y banquetes. ¿Qué opináis?
+str_npc2_kingsupport_2|Si lo deseáis, puedo tomarme algunas semanas para visitar las cofradías donde tengo contactos y explicarles que en vos tendrán {un rey/una líder} que podrá a raya a los rapaces nobles; esos que se aprovechan de los pobres con sus impuestos desmesurados y que estrangulan el comercio por unas pocas Libras extra que despilfarran en guerra y banquetes. ¿Qué opináis?
 str_npc3_kingsupport_2|Lo haría, {mi señor/mi señora}. Pero os recomendaría encarecidamente que reinstauréis la antigua tradición imperial de Calradia: el consejo de señores y representantes del pueblo, elegidos de entre los nobles de la tierra y los hombres con propiedades y buena educación, con poder para revocar nuevos impuestos u otras medidas tiránicas que podrían tentaros. Sería por vuestro propio bien, {señor/mi señora}.
 str_npc4_kingsupport_2|Por supuesto, {capitán/mi señora}. Lo que hay que conseguir es que los demás os sigan. Como sabéis, el linaje de cada uno es un gran determinante de su valía. ¿Es posible que tengáis algún ancestro perdido del cual aún no me habéis hablado?
 str_npc5_kingsupport_2|Sí, Bahadur, lo haría. Pero debo decir algo, en nombre de los hombres de las estepas como yo. Nos causaría una gran alegría oír de labios de aquel que será khan que restauraréis un antiguo derecho nuestro. Desde los días de los antiguos emperadores, los hombres de las estepas han disfrutado del derecho de traer sus rebaños hasta nuevos pastos o al mercado, lo cual implica necesariamente cruzar las tierras de los grandes señores de este reino.
@@ -1149,7 +1149,7 @@ str_comment_you_defeated_my_friend_enemy_pragmatic|Puede que hayáis vencido a {
 str_comment_you_defeated_my_friend_enemy_chivalrous|Oí que vencisteis a {s54} y desde entonces tengo ansias de cruzar nuestras espadas.
 str_comment_you_defeated_my_friend_enemy_spiteful|Vuestra fama os precede, {playername}. Puede que hayáis engañado a {s54} con vuestros trucos, pero si lucháis contra mí os encontraréis con un enemigo mucho más escurridizo.
 str_comment_you_defeated_my_friend_enemy|Dicen que habéis vencido a {s54}. Pero yo supondré un mayor desafío.
-str_comment_you_captured_a_lord_allied_friendly_spiteful|Oí que capturasteis a {s54}. Espero que le hayáis exprimido hasta su último denar.
+str_comment_you_captured_a_lord_allied_friendly_spiteful|Oí que capturasteis a {s54}. Espero que le hayáis exprimido hasta su última Libra.
 str_comment_you_captured_a_lord_allied_unfriendly_spiteful|Oí que capturasteis a {s54}. Vuestros baúles deben estar boyantes con el rescate. ¡Lástima que ese dinero no pueda transformar a un plebeyo miserable en un noble!
 str_comment_you_captured_a_lord_allied_chivalrous|Oí que capturasteis a {s54}. Bien hecho. Asumiré, por supuesto, que ha sido tratado con los honores que corresponden a su rango.
 str_comment_you_captured_a_lord_allied|Oí que capturasteis a {s54}. Bien hecho. Su rescate debe merecer la pena.
@@ -2104,7 +2104,7 @@ str_s12s15_seems_to_be_intimidated_by_s16_and_would_like_to_avoid_hostilities|{s
 str_s12s15_has_no_particular_reason_to_continue_the_war_with_s16_and_would_probably_make_peace_if_given_the_opportunity|{s12}{s15} no tiene especiales razones para continuar la guerra con {s16}, y probablemente haría las paces si se diera la oportunidad.
 str_s12s15_seems_to_be_willing_to_improve_relations_with_s16|{s12}{s15} parece favorable a mejorar las relaciones con {s16}.
 str_excuse_me_how_can_you_possibly_imagine_yourself_worthy_to_marry_into_our_family|¿Disculpad? ¿Cómo podéis siquiera imaginar que sois {digno/digna} de casaros con alguien de esta familia?
-str_em_with_regard_to_her_ladyship_we_were_looking_specifically_for_a_groom_of_some_distinction_fight_hard_count_your_dinars_and_perhaps_some_day_in_the_future_we_may_speak_of_such_things_my_good_man|Em... Con respecto a la dama, estamos buscando concretamente a un prometido de cierta distinción. ¡Luchad duro, contad vuestros denares, y tal vez algún día en el futuro podamos hablar de estas cuestiones, buen hombre!
+str_em_with_regard_to_her_ladyship_we_were_looking_specifically_for_a_groom_of_some_distinction_fight_hard_count_your_dinars_and_perhaps_some_day_in_the_future_we_may_speak_of_such_things_my_good_man|Em... Con respecto a la dama, estamos buscando concretamente a un prometido de cierta distinción. ¡Luchad duro, contad vuestras Libras, y tal vez algún día en el futuro podamos hablar de estas cuestiones, buen hombre!
 str_em_with_regard_to_her_ladyship_we_were_looking_specifically_for_a_groom_of_some_distinction|Em... Con respecto a la dama, estamos buscando concretamente un prometido de cierta distinción.
 str_it_is_too_early_for_you_to_be_speaking_of_such_things_you_are_still_making_your_mark_in_the_world|Es muy pronto para que habléis en esos términos. Aún os estáis labrando un nombre en el mundo.
 str_you_dont_serve_the_s4_so_id_say_no_one_day_we_may_be_at_war_and_i_prefer_not_to_have_to_kill_my_inlaws_if_at_all_possible|No servís a los {s4}, así que diría que no. Algún día puede que estemos en guerra, y prefiero no tener que matar a mis hijos políticos si puedo evitarlo.
@@ -2794,7 +2794,7 @@ str_linen_site|telar de lino
 str_wool_cloth_site|telar de lana
 str_velvet_site|fábrica de tinturas
 str_under_sequestration|Confiscado
-str_describe_secondary_input| Además, también tendréis que comprar {s11} por valor de {reg10} denares.
+str_describe_secondary_input| Además, también tendréis que comprar {s11} por valor de {reg10} Libras.
 str_profit|beneficio
 str_loss|pérdida
 str_server_name_s0|Servidor: {s0}

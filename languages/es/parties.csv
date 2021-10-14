@@ -1,123 +1,123 @@
 p_zendar|Zendar
-p_town_1|Sargoth
-p_town_2|Tihr
-p_town_3|Veluca
-p_town_4|Suno
-p_town_5|Jelkala
-p_town_6|Praven
-p_town_7|Uxkhal
-p_town_8|Reyvadin
-p_town_9|Khudan
-p_town_10|Tulga
-p_town_11|Curaw
-p_town_12|Wercheg
-p_town_13|Rivacheg
-p_town_14|Halmar
-p_town_15|Yalen
-p_town_16|Dhirim
-p_town_17|Ichamur
-p_town_18|Narra
-p_town_19|Shariz
-p_town_20|Durquba
-p_town_21|Ahmerrad
-p_town_22|Bariyye
-p_town_23|Naples
-p_town_24|Muscat
-p_town_25|Bukhara
+p_town_1|Amsterdam
+p_town_2|Berlín
+p_town_3|París
+p_town_4|Burdos
+p_town_5|Madrid
+p_town_6|Córdoba
+p_town_7|Viena
+p_town_8|Venecia
+p_town_9|Berna
+p_town_10|San Petesburgo
+p_town_11|Turín
+p_town_12|Milán
+p_town_13|Cairo
+p_town_14|Alejandría
+p_town_15|Túnez
+p_town_16|Dublín
+p_town_17|Edimburgo
+p_town_18|Londres
+p_town_19|Constantinopla
+p_town_20|Jiva
+p_town_21|Isfahán
+p_town_22|Tehéran
+p_town_23|Nápoles
+p_town_24|Mascate
+p_town_25|Bujará
 p_town_26|Kabul
-p_town_27|Lisbon
-p_town_28|Bucharest
+p_town_27|Lisboa
+p_town_28|Buchrest
 p_town_29|Barcelona
-p_town_30|Leon
+p_town_30|León
 p_town_31|Rennes
-p_town_32|Konigsberg
-p_town_33|Algiers
+p_town_32|Königsberg
+p_town_33|Argel
 p_town_34|Budapest
-p_town_35|Prague
-p_town_36|Mecca
-p_town_37|Moscow
+p_town_35|Praga
+p_town_36|Meca
+p_town_37|Moscú
 p_town_38|Tabriz
-p_town_39|Copenhagen
-p_town_40|Rome
+p_town_39|Copenhague
+p_town_40|Roma
 p_town_41|Manchester
-p_town_42|Fes
-p_town_43|Athens
-p_town_44|Sofia
-p_town_45|Munich
+p_town_42|Fez
+p_town_43|Atenas
+p_town_44|Sofía
+p_town_45|Múnich
 p_town_46|Stuttgart
 p_town_47|Hannover
-p_town_48|Stockholm
+p_town_48|Estocolmo
 p_town_49|Oslo
-p_town_50|Brussels
+p_town_50|Bruselas
 p_town_51|Frankfurt
 p_town_52|Ankara
-p_town_53|Trabzon
-p_town_54|Izmir
-p_town_55|Baghdad
+p_town_53|Trebisonda
+p_town_54|Esmirna
+p_town_55|Bagdad
 p_town_56|Erzurum
-p_town_57|Damascus
-p_town_58|Jerusalem
+p_town_57|Damasco
+p_town_58|Jerusalén
 p_town_59|Quetta
 p_town_60|Jaipur
 p_town_61|Lahore
-p_town_62|Tbilisi
+p_town_62|Tifilis
 p_town_63|Kiev
-p_town_64|Warsaw
+p_town_64|Varsovia
 p_town_65|Riga
 p_town_66|Minsk
-p_town_67|Nizhny Novgorod
-p_castle_1|Castillo Culmarr
-p_castle_2|Castillo Malayurg
-p_castle_3|Castillo Bulugha
-p_castle_4|Castillo Radoghir
-p_castle_5|Castillo Tehlrog
-p_castle_6|Castillo Tilbaut
-p_castle_7|Castillo Sungetche
-p_castle_8|Castillo Jeirbe
-p_castle_9|Castillo Jamiche
-p_castle_10|Castillo Alburq
-p_castle_11|Castillo Curin
-p_castle_12|Castillo Chalbek
-p_castle_13|Castillo Kelredan
-p_castle_14|Castillo Maras
-p_castle_15|Castillo Ergellon
-p_castle_16|Castillo Almerra
-p_castle_17|Castillo Distar
-p_castle_18|Castillo Ismirala
-p_castle_19|Castillo Yruma
-p_castle_20|Castillo Derchios
-p_castle_21|Castillo Ibdeles
-p_castle_22|Castillo Unuzdaq
-p_castle_23|Castillo Tevarin
-p_castle_24|Castillo Reindi
-p_castle_25|Castillo Ryibelet
-p_castle_26|Castillo Senuzgda
-p_castle_27|Castillo Rindyar
-p_castle_28|Castillo Grunwalder
-p_castle_29|Castillo Nelag
-p_castle_30|Castillo Asugan
-p_castle_31|Castillo Vyincourd
-p_castle_32|Castillo Knudarr
-p_castle_33|Castillo Etrosq
-p_castle_34|Castillo Hrus
-p_castle_35|Castillo Haringoth
-p_castle_36|Castillo Jelbegi
-p_castle_37|Castillo Dramug
-p_castle_38|Castillo Tulbuk
-p_castle_39|Castillo Slezkh
-p_castle_40|Castillo Uhhun
-p_castle_41|Castillo Jameyyed
-p_castle_42|Castillo Teramma
-p_castle_43|Castillo Sharwa
-p_castle_44|Castillo Durrin
-p_castle_45|Castillo Caraf
-p_castle_46|Castillo Weyyah
-p_castle_47|Castillo Samarra
-p_castle_48|Castillo Bardaq
+p_town_67|Nizhni Nóvgorod
+p_castle_1|Rótterdam
+p_castle_2|Breda
+p_castle_3|Zwolle
+p_castle_4|Danzig
+p_castle_5|Szczecin
+p_castle_6|Colonia
+p_castle_7|Kassel
+p_castle_8|Marsella
+p_castle_9|Orleans
+p_castle_10|Poitiers
+p_castle_11|Lugo
+p_castle_12|Sevilla
+p_castle_13|Granada
+p_castle_14|Palma
+p_castle_15|Pamplona
+p_castle_16|Valencia
+p_castle_17|Florencia
+p_castle_18|Rávena
+p_castle_19|Génova
+p_castle_20|Verona
+p_castle_21|Zagreb
+p_castle_22|Cracovia
+p_castle_23|Szeged
+p_castle_24|Graz
+p_castle_25|Salzburgo
+p_castle_26|Sirte
+p_castle_27|Trípoli
+p_castle_28|Tlemecén
+p_castle_29|Baden
+p_castle_30|Ufá
+p_castle_31|Novosibirsk
+p_castle_32|Baljash
+p_castle_33|Tirana
+p_castle_34|Plovdiv
+p_castle_35|Medina
+p_castle_36|Salónica
+p_castle_37|Rodas
+p_castle_38|Tabuk
+p_castle_39|Nicosia
+p_castle_40|Rodez
+p_castle_41|Creta
+p_castle_42|Sarajevo
+p_castle_43|Ahwaz
+p_castle_44|Kyzylorda
+p_castle_45|Kermán
+p_castle_46|Shiraz
+p_castle_47|Mashhad
+p_castle_48|Al-Kāf
 p_castle_49|Sfax
 p_castle_50|Gafsa
 p_castle_51|Hamma
-p_castle_52|Benghazi
+p_castle_52|Benghasi
 p_castle_53|Inverness
 p_castle_54|Cardiff
 p_castle_55|Norwich
@@ -127,148 +127,148 @@ p_castle_58|Cork
 p_castle_59|Salerno
 p_castle_60|Taranto
 p_castle_61|Foggia
-p_castle_62|Minya
-p_castle_63|Said
-p_castle_64|Qena
+p_castle_62|Mieia
+p_castle_63|Saíd
+p_castle_64|Quena
 p_castle_65|Marrakech
 p_castle_66|Rabat
-p_castle_67|Ouarzazete
+p_castle_67|Uarzazat
 p_castle_68|Rasht
 p_castle_69|Braga
 p_castle_70|Beja
-p_castle_71|Samarkand
-p_castle_72|Haima
-p_castle_73|Suhar
+p_castle_71|Samarcanda
+p_castle_72|Ras Al Jaima
+p_castle_73|Sohar
 p_castle_74|Sur
 p_castle_75|Ataq
 p_castle_76|Esbjerg
-p_castle_77|Arhus
+p_castle_77|Aarhus
 p_castle_78|Spoleto
 p_castle_79|Ancona
-p_castle_80|Bahrain
+p_castle_80|Bahréin
 p_castle_81|Doha
-p_castle_82|Abu Dhabi
-p_castle_83|Herat
-p_castle_84|Balkh
+p_castle_82|Abu Dabi
+p_castle_83|Herāt
+p_castle_84|Balj
 p_castle_85|Merv
-p_castle_86|Bacau
+p_castle_86|Bacău
 p_castle_87|Craiova
-p_castle_88|Lvov
-p_castle_89|Bruge
-p_castle_90|Liege
-p_castle_91|Farah
+p_castle_88|Leópolis
+p_castle_89|Brujas
+p_castle_90|Lieja
+p_castle_91|Farāh
 p_castle_92|Leiria
 p_castle_93|Zadar
 p_castle_94|Dahab
 p_castle_95|Dijon
 p_castle_96|Kulob
-p_castle_97|Setif
+p_castle_97|Sétif
 p_castle_98|Zintan
-p_castle_99|San'A
+p_castle_99|Saná
 p_castle_100|Tuttlingen
-p_castle_101|Tripolis
-p_castle_102|Belgrade
-p_castle_103|Pristine
+p_castle_101|Tripolí
+p_castle_102|Belgrado
+p_castle_103|Pristina
 p_castle_104|Kungirot
-p_castle_105|Kopetdag
-p_castle_106|Garagum
+p_castle_105|Kopet Dag
+p_castle_106|Karakum
 p_castle_107|Glasgow
 p_castle_108|Liverpool
 p_castle_109|Oxford
-p_castle_110|Hamburg
-p_castle_111|Oldenburg
+p_castle_110|Hamburgo
+p_castle_111|Oldenburgo
 p_castle_112|Minden
 p_castle_113|Baqa
 p_castle_114|Jubbah
 p_castle_115|Iranshahr
 p_castle_116|Kermanshah
 p_castle_117|Sanandaj
-p_castle_118|Birjand
-p_castle_119|Aswan
-p_castle_120|Riyadh
+p_castle_118|Biryand
+p_castle_119|Asuán
+p_castle_120|Riad
 p_castle_121|Al Qasim
 p_castle_122|Layla
-p_castle_123|Dresden
-p_castle_124|Alborg
-p_castle_125|Gorgan
-p_castle_126|Jonkoping
+p_castle_123|Dresde
+p_castle_124|Aalborg
+p_castle_125|Gorgán
+p_castle_126|Jönköping
 p_castle_127|Kristianstad
 p_castle_128|Mora
-p_castle_129|Ha'il
+p_castle_129|Haíl
 p_castle_130|Charleroi
-p_castle_131|Magdeberg
-p_castle_132|Messina
-p_castle_133|Bandar Abbas
-p_castle_134|Taroudaut
+p_castle_131|Magdeburgo
+p_castle_132|Mesina
+p_castle_133|Bandar Abbás
+p_castle_134|Tarudant
 p_castle_135|Reims
 p_castle_136|Caserta
 p_castle_137|Cagliari
 p_castle_138|Palermo
-p_castle_139|Lamia
-p_castle_140|Messolongi
+p_castle_139|Lamía
+p_castle_140|Mesolongi
 p_castle_141|Lyon
-p_castle_142|Corsica
+p_castle_142|Córcega
 p_castle_143|Gibraltar
 p_castle_144|Malta
-p_castle_145|Kolozsvar
+p_castle_145|Kolozsvár
 p_castle_146|Eger
-p_castle_147|Qazvin
+p_castle_147|Qazvín
 p_castle_148|Qarshi
-p_castle_149|Khorramabad
-p_castle_150|British Military Base
-p_castle_151|Strasbourg
+p_castle_149|Jorramabad
+p_castle_150|Base Militar Británica
+p_castle_151|Estrasbourgo
 p_castle_152|Magon
 p_castle_153|Toulouse
-p_castle_154|Mont de Marsan
+p_castle_154|Mont-de-Marsan
 p_castle_155|Chartres
-p_castle_156|Loriens
-p_castle_157|Rouen
+p_castle_156|Lorient
+p_castle_157|Rouan
 p_castle_158|Limoges
-p_castle_159|Skopje
+p_castle_159|Skopie
 p_castle_160|Varna
-p_castle_161|Augsburg
-p_castle_162|Nuremburg
-p_castle_163|Regensburg
+p_castle_161|Augsburgo
+p_castle_162|Núremberg
+p_castle_163|Ratisbona
 p_castle_164|Schwerin
-p_castle_165|Mainz
+p_castle_165|Maguncia
 p_castle_166|Gorzow
 p_castle_167|Paderborn
 p_castle_168|Stendal
-p_castle_169|Usti Nad Labem
+p_castle_169|Ústi Nad Labem
 p_castle_170|Afif
-p_castle_171|Ostersund
-p_castle_172|Harnosand
+p_castle_171|Östersund
+p_castle_172|Härnösand
 p_castle_173|Bergen
 p_castle_174|Halmstad
-p_castle_175|Basra
-p_castle_176|Najaf
+p_castle_175|Basora
+p_castle_176|Nayaf
 p_castle_177|Mosul
-p_castle_178|Arbil
+p_castle_178|Erbil
 p_castle_179|Konya
-p_castle_180|Al Ramadi
+p_castle_180|Ramadi
 p_castle_181|Kirkuk
-p_castle_182|Naseriyyeh
+p_castle_182|Nasiriya
 p_castle_183|Adana
 p_castle_184|Denizli
-p_castle_185|Canakkale
-p_castle_186|Afyon
+p_castle_185|Çanakkale
+p_castle_186|Afyonkarahisar
 p_castle_187|Zonguldak
-p_castle_188|Sinop
+p_castle_188|Sinope
 p_castle_189|Amasya
-p_castle_190|Antioch
+p_castle_190|Antioquía
 p_castle_191|Kars
 p_castle_192|Sivas
 p_castle_193|Van
-p_castle_194|Diyarbekr
+p_castle_194|Diyarbakır
 p_castle_195|Artvin
 p_castle_196|Bolu
 p_castle_197|Siirt
-p_castle_198|Sinjar
-p_castle_199|Al Rutbah
+p_castle_198|Sinyar
+p_castle_199|Ar Rutba
 p_castle_200|Beirut
-p_castle_201|Aleppo
+p_castle_201|Alepo
 p_castle_202|Beirut
-p_castle_203|Al Raqqah
+p_castle_203|Raqqa
 p_castle_204|Ma'an
 p_castle_205|Bursa
 p_castle_206|Chabahar
@@ -281,23 +281,23 @@ p_castle_212|Ajmer
 p_castle_213|Debrecen
 p_castle_214|Bournemouth
 p_castle_215|Exeter
-p_castle_216|Baku
+p_castle_216|Bakú
 p_castle_217|Beyneu
 p_castle_218|Batumi
-p_castle_219|Makhachkala
-p_castle_220|Stavrpol
-p_castle_221|Astrakhan
+p_castle_219|Majachkalá
+p_castle_220|Stávropol
+p_castle_221|Astracán
 p_castle_222|Krasnodar
-p_castle_223|Sevastopol
-p_castle_224|Kherson
-p_castle_225|Odessa
+p_castle_223|Sebastopol
+p_castle_224|Jersón
+p_castle_225|Odesa
 p_castle_226|Donetsk
-p_castle_227|Kharkov
-p_castle_228|Yerevan
+p_castle_227|Járkov
+p_castle_228|Ereván
 p_castle_229|Uman
 p_castle_230|Lublin
-p_castle_231|Lodz
-p_castle_232|Vilnius
+p_castle_231|Łódź
+p_castle_232|Vilna
 p_castle_233|Bydgoszcz
 p_castle_234|Poznan
 p_castle_235|Bialystok
@@ -305,138 +305,138 @@ p_castle_236|Rivne
 p_castle_237|Klaipeda
 p_castle_238|Tallinn
 p_castle_239|Omsk
-p_castle_240|Saratov
+p_castle_240|Sarátov
 p_castle_241|Bologoye
-p_castle_242|Gomel
+p_castle_242|Gómel
 p_castle_243|Pskov
 p_castle_244|Davgaupils
-p_castle_245|Kazan
+p_castle_245|Kazán
 p_castle_246|Samara
 p_castle_247|Aktobe
-p_castle_248|Chelyabinsk
+p_castle_248|Cheliábinsk
 p_castle_249|Krasnoyarsk
-p_castle_250|Voronezh
+p_castle_250|Vorónezh
 p_castle_251|Smolensk
 p_castle_252|Akmolinsk
-p_castle_253|Wroclaw
-p_castle_254|Chisinau
+p_castle_253|Breslavia
+p_castle_254|Chisináu
 p_castle_255|Dybbol
 p_castle_256|Kiel
-p_castle_257|Lubeck
+p_castle_257|Lübeck
 p_castle_258|Grindelwald
 p_castle_259|Zurich
-p_castle_260|Saarbrucken
-p_castle_261|Wurtzburg
+p_castle_260|Saarbrücken
+p_castle_261|Wurtzburgo
 p_castle_262|Trieste
-p_village_1|Yaragar
-p_village_2|Burglen
-p_village_3|Azgad
-p_village_4|Nomar
-p_village_5|Kulum
-p_village_6|Emirin
-p_village_7|Amere
-p_village_8|Haen
-p_village_9|Buvran
-p_village_10|Mechin
-p_village_11|Dusturil
-p_village_12|Emer
-p_village_13|Nemeja
-p_village_14|Sumbuja
-p_village_15|Ryibelet
-p_village_16|Shapeshte
-p_village_17|Mazen
-p_village_18|Ulburban
-p_village_19|Hanun
-p_village_20|Uslum
-p_village_21|Bazeck
-p_village_22|Shulus
-p_village_23|Ilvia
-p_village_24|Ruldi
-p_village_25|Dashbigha
-p_village_26|Pagundur
-p_village_27|Glunmar
-p_village_28|Tash Kulun
-p_village_29|Buillin
-p_village_30|Ruvar
-p_village_31|Ambean
-p_village_32|Tosdhar
-p_village_33|Ruluns
-p_village_34|Ehlerdah
-p_village_35|Fearichen
-p_village_36|Jayek
-p_village_37|Ada Kulun
-p_village_38|Ibiran
-p_village_39|Reveran
-p_village_40|Saren
-p_village_41|Dugan
-p_village_42|Dirigh Aban
-p_village_43|Zagush
-p_village_44|Peshmi
-p_village_45|Bulugur
-p_village_46|Fedner
-p_village_47|Epeshe
-p_village_48|Veidar
-p_village_49|Tismirr
-p_village_50|Karindi
-p_village_51|Jelbegi
-p_village_52|Amashke
-p_village_53|Balanli
-p_village_54|Chide
-p_village_55|Tadsamesh
-p_village_56|Fenada
-p_village_57|Ushkuru
-p_village_58|Vezin
-p_village_59|Dumar
-p_village_60|Tahlberl
-p_village_61|Aldelen
-p_village_62|Rebache
-p_village_63|Rduna
-p_village_64|Serindiar
-p_village_65|Iyindah
-p_village_66|Fisdnar
-p_village_67|Tebandra
-p_village_68|Ibdeles
-p_village_69|Kwynn
-p_village_70|Dirigsene
-p_village_71|Tshibtin
-p_village_72|Elberl
-p_village_73|Chaeza
-p_village_74|Ayyike
-p_village_75|Bhulaban
-p_village_76|Kedelke
-p_village_77|Rizi
-p_village_78|Sarimish
-p_village_79|Istiniar
-p_village_80|Vayejeg
-p_village_81|Odasan
-p_village_82|Yalibe
-p_village_83|Gisim
-p_village_84|Chelez
-p_village_85|Ismirala
-p_village_86|Slezkh
-p_village_87|Udiniad
-p_village_88|Tulbuk
-p_village_89|Uhhun
-p_village_90|Jamiche
-p_village_91|Ayn Assuadi
-p_village_92|Dhibbain
-p_village_93|Qalyut
-p_village_94|Mazigh
-p_village_95|Tamnuh
-p_village_96|Habba
-p_village_97|Sekhtem
-p_village_98|Mawiti
-p_village_99|Fishara
-p_village_100|Iqbayl
+p_village_1|Frosinone
+p_village_2|L'Aquila
+p_village_3|Perugia
+p_village_4|Macerata
+p_village_5|Isernia
+p_village_6|Imperia
+p_village_7|Varese
+p_village_8|Cremona
+p_village_9|Pesaro
+p_village_10|Pisa
+p_village_11|Siena
+p_village_12|Bérgamo
+p_village_13|Cuneo
+p_village_14|Oristano
+p_village_15|Trapani
+p_village_16|Viterbo
+p_village_17|Siracusa
+p_village_18|Catanzaro
+p_village_19|Benevento
+p_village_20|Bari
+p_village_21|Lecce
+p_village_22|Andria
+p_village_23|Cefalonia
+p_village_24|Livadiya
+p_village_25|Mistrá
+p_village_26|Agrinio
+p_village_27|Amaliada
+p_village_28|Evia
+p_village_29|Tanta
+p_village_30|Fayún
+p_village_31|Marsa Matruh
+p_village_32|Ismailía
+p_village_33|Asiut
+p_village_34|Edfu
+p_village_35|Berenice
+p_village_36|Baris
+p_village_37|Siwa
+p_village_38|Helwan
+p_village_39|At-Tor
+p_village_40|Sidi
+p_village_41|Thala
+p_village_42|Bizerta
+p_village_43|Susa
+p_village_44|Tabarca
+p_village_45|Naftah
+p_village_46|Casablanca
+p_village_47|Taza
+p_village_48|Tetuán
+p_village_49|Tata
+p_village_50|Bergen
+p_village_51|Al-Baida
+p_village_52|Marsa
+p_village_53|Al-Khums
+p_village_54|Yefren
+p_village_55|Annaba
+p_village_56|Béchar
+p_village_57|Laghouat
+p_village_58|Constantina
+p_village_59|Caldas da Rainha
+p_village_60|Grandola
+p_village_61|Lagos
+p_village_62|Evora
+p_village_63|Covilha
+p_village_64|Vila Real
+p_village_65|Mora
+p_village_66|Zaragoza
+p_village_67|Huesca
+p_village_68|Bilbao
+p_village_69|Santiago
+p_village_70|Segovia
+p_village_71|Zamora
+p_village_72|Merida
+p_village_73|Antequera
+p_village_74|Ibiza
+p_village_75|Toledo
+p_village_76|Ciudad Real
+p_village_77|Badajoz
+p_village_78|Al Qurayyat
+p_village_79|Al Khaburah
+p_village_80|Al Khaluf
+p_village_81|Fahud
+p_village_82|Samail
+p_village_83|Sawqirah
+p_village_84|Buraidá
+p_village_85|Skaka
+p_village_86|Taima
+p_village_87|Sajir
+p_village_88|Halaban
+p_village_89|Ad Dawadimi
+p_village_90|Nafy
+p_village_91|Kuwait
+p_village_92|Al Baida
+p_village_93|Yaiz
+p_village_94|Al Hudayda
+p_village_95|Dubai
+p_village_96|Hisar
+p_village_97|Tarif
+p_village_98|Jodhpur
+p_village_99|Al Khuwayr
+p_village_100|Udaipur
 p_village_101|Uzgha
-p_village_102|Shibal Zumr
-p_village_103|Mijayet
-p_village_104|Tazjunat
-p_village_105|Aab
-p_village_106|Hawaha
-p_village_107|Unriya
-p_village_108|Mit Nun
-p_village_109|Tilimsal
+p_village_102|Biel
+p_village_103|Lucerna
+p_village_104|Lausana
+p_village_105|Fraunfeld
+p_village_106|Tebas
+p_village_107|Yanbu
+p_village_108|Zalim
+p_village_109|Yidda
 p_village_110|Rushdigh
 p_village_111|Alwajh
 p_village_112|Umm Lajj
@@ -562,16 +562,16 @@ p_village_231|Termaz
 p_village_232|Shuroabad
 p_village_233|Gaba
 p_village_234|Panj
-p_village_235|Omani Village
-p_village_236|Omani Village
-p_village_237|Omani Village
-p_village_238|Nomad Village
-p_village_239|Omani Village
+p_village_235|Poblado Omaní
+p_village_236|Poblado Omaní
+p_village_237|Pobaldo Omaní
+p_village_238|Poblado Omaní
+p_village_239|Poblado Omaní
 p_village_240|Karlovy Vary
 p_village_241|Ostrava
 p_village_242|Shaykh
-p_village_243|Nomad Village
-p_village_244|Nomad Village
+p_village_243|Poblado Nomada
+p_village_244|Poblado Nomada
 p_village_245|Pasargad
 p_village_246|Grosseto
 p_village_247|Matera
