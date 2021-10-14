@@ -99,7 +99,7 @@ factions = [
 ("kingdom_26",  "Kingdom_of_Belgium", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 13465578),
 ("kingdom_27",  "Kingdom_of_Wurttemberg", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 14522962),
 ("kingdom_28",  "Principality of Serbia", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", 0)], [], 23805),##0xFFAAAAAA
-("kingdom_29",  "Kingdom_of_Sweden", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("forest_bandits", 0)], [], 6658814),##0xFFAAAAAA
+("kingdom_29",  "Kingdom_of_Sweden", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("forest_bandits", 0)], [], 996963),##0xFFAAAAAA
 ("kingdom_30",  "Kingdom_of_Bavaria", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("forest_bandits", 0)], [], 308981),##0xFFAAAAAA
 ("kingdom_31",  "Kingdom_of_Hannover", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("forest_bandits", 0)], [], 8505753),##0xFFAAAAAA
 ("kingdom_32",  "Emirate_of_Shammar", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("forest_bandits", 0)], [], 8342049),##0xFFAAAAAA

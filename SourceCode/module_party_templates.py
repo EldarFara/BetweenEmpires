@@ -270,6 +270,7 @@ party_templates = [
   ("turkish_bandits","Middle East Bandits",icon_vaegir_knight|carries_goods(2),0,fac_outlaws,bandit_personality,[(trp_steppe_bandit,4,58)]),
   ("indian_bandits","Indian Bandits",icon_vaegir_knight|carries_goods(2),0,fac_outlaws,bandit_personality,[(trp_desert_bandit,4,58)]),
   ("middleasia_bandits","Middle Asian Bandits",icon_vaegir_knight|carries_goods(2),0,fac_outlaws,bandit_personality,[(trp_steppe_bandit,4,58)]),
+  ("balkan_bandits","Balkan Bandits",icon_axeman|carries_goods(2),0,fac_outlaws,bandit_personality,[(trp_balkan_bandit,4,58)]),
   
   ("factionplayer_reinforcements_a", "{!}faction1_reinforcements_a", 0, 0, fac_commoners, 0, [(trp_kingdom_recruit,2,4),(trp_kingdom_militia,5,7)]),
   ("factionplayer_reinforcements_b", "{!}faction1_reinforcements_b", 0, 0, fac_commoners, 0, [(trp_kingdom_footman,5,7),(trp_kingdom_infantry,2,4)]),
@@ -278,6 +279,15 @@ party_templates = [
   ("factionbulgaria_reinforcements_a", "{!}faction1_reinforcements_a", 0, 0, fac_commoners, 0, [(trp_factionbulgaria_troop1,2,4),(trp_factionbulgaria_troop2,5,7)]),
   ("factionbulgaria_reinforcements_b", "{!}faction1_reinforcements_b", 0, 0, fac_commoners, 0, [(trp_factionbulgaria_troop3,5,7),(trp_factionbulgaria_troop4,2,4)]),
   ("factionbulgaria_reinforcements_c", "{!}faction1_reinforcements_c", 0, 0, fac_commoners, 0, [(trp_factionbulgaria_troop5,4,8),(trp_factionbulgaria_troop6,3,5)]),
+  ("factionnorway_reinforcements_a", "{!}faction1_reinforcements_a", 0, 0, fac_commoners, 0, [(trp_factionnorway_troop1,2,4),(trp_factionnorway_troop2,5,7)]),
+  ("factionnorway_reinforcements_b", "{!}faction1_reinforcements_b", 0, 0, fac_commoners, 0, [(trp_factionnorway_troop3,5,7),(trp_factionnorway_troop4,2,4)]),
+  ("factionnorway_reinforcements_c", "{!}faction1_reinforcements_c", 0, 0, fac_commoners, 0, [(trp_factionnorway_troop5,4,8),(trp_factionnorway_troop6,3,5)]),
+  ("factionalbania_reinforcements_a", "{!}faction1_reinforcements_a", 0, 0, fac_commoners, 0, [(trp_factionalbania_troop1,2,4),(trp_factionalbania_troop2,5,7)]),
+  ("factionalbania_reinforcements_b", "{!}faction1_reinforcements_b", 0, 0, fac_commoners, 0, [(trp_factionalbania_troop3,5,7),(trp_factionalbania_troop4,2,4)]),
+  ("factionalbania_reinforcements_c", "{!}faction1_reinforcements_c", 0, 0, fac_commoners, 0, [(trp_factionalbania_troop5,4,8),(trp_factionalbania_troop6,3,5)]),
+  ("factionpoland_reinforcements_a", "{!}faction1_reinforcements_a", 0, 0, fac_commoners, 0, [(trp_factionpoland_troop1,2,4),(trp_factionpoland_troop2,5,7)]),
+  ("factionpoland_reinforcements_b", "{!}faction1_reinforcements_b", 0, 0, fac_commoners, 0, [(trp_factionpoland_troop3,5,7),(trp_factionpoland_troop4,2,4)]),
+  ("factionpoland_reinforcements_c", "{!}faction1_reinforcements_c", 0, 0, fac_commoners, 0, [(trp_factionpoland_troop5,4,8),(trp_factionpoland_troop6,3,5)]),
 ]
 
 

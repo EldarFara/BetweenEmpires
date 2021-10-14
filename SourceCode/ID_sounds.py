@@ -439,10 +439,22 @@ snd_voice_fra_keep_shooting1 = 437
 snd_voice_fra_gas1 = 438
 snd_voice_fra_gasmaskson1 = 439
 snd_voice_fra_gasattack1 = 440
-snd_hmg_shot1 = 441
-snd_hmg_shot_distant1 = 442
-snd_shot_lmg1 = 443
-snd_shot_lmg2 = 444
-snd_gas_shell1 = 445
+snd_voice_pol_on_company_select1 = 441
+snd_voice_pol_yes_sir1 = 442
+snd_voice_pol_charge1 = 443
+snd_voice_pol_retreat1 = 444
+snd_voice_pol_chargewarcry1 = 445
+snd_voice_pol_bayonets1 = 446
+snd_voice_pol_fire_at_will1 = 447
+snd_voice_pol_hold_ground1 = 448
+snd_voice_pol_keep_shooting1 = 449
+snd_voice_pol_gas1 = 450
+snd_voice_pol_gasmaskson1 = 451
+snd_voice_pol_gasattack1 = 452
+snd_hmg_shot1 = 453
+snd_hmg_shot_distant1 = 454
+snd_shot_lmg1 = 455
+snd_shot_lmg2 = 456
+snd_gas_shell1 = 457
 
 
