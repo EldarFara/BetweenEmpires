@@ -256,3 +256,4 @@ menu_ww1_event2 = 254
 menu_ww1_event3 = 255
 menu_balkanwars_event1 = 256
 menu_balkanwars_event2 = 257
+menu_balkanwars_event3 = 258

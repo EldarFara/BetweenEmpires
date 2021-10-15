@@ -4338,7 +4338,24 @@ simple_triggers = [
 	(faction_get_slot, ":current_research_technology", ":faction", slot_faction_current_research_technology),
 	(neq, ":current_research_technology", -1),
 	(faction_get_slot, ":current_research_technology_progress", ":faction", ":current_research_technology"),
-	(store_div, ":progress_add", 525, "$g_game_speed"),
+	(store_div, ":progress_add", 410, "$g_game_speed"),
+		(try_begin),
+		(faction_get_slot, ":education_expenses", ":faction", slot_faction_law_education_expenses),
+		(faction_get_slot, ":military_expenses", ":faction", slot_faction_law_military_expenses),
+			(try_begin),
+			(eq, ":faction", "fac_player_faction"),
+			(faction_get_slot, "fac_player_supporters_faction", ":faction", slot_faction_law_education_expenses),
+			(faction_get_slot, "fac_player_supporters_faction", ":faction", slot_faction_law_military_expenses),
+			(try_end),
+		(val_mul, ":education_expenses", 2),
+		(val_mul, ":military_expenses", 2),
+		(val_add, ":progress_add", ":education_expenses"),
+		(val_add, ":progress_add", ":military_expenses"),
+			(try_begin),
+			(ge, "$ww1_status", 3),
+			(val_add, ":progress_add", 500),
+			(try_end),
+		(try_end),
 	(val_add, ":current_research_technology_progress", ":progress_add"),
 	(val_clamp, ":current_research_technology_progress", 0, 10001),
 	(faction_set_slot, ":faction",  ":current_research_technology", ":current_research_technology_progress"),
@@ -7030,7 +7047,7 @@ simple_triggers = [
 	(try_end),
 ]),
 
-(5,
+(10,
 [
 	(try_begin),
 	(eq, "$player_faction_preset", "fac_kingdom_5"),
@@ -7159,8 +7176,12 @@ simple_triggers = [
 	(val_add, "$balkanwars_status", 1),
 	(else_try),
 	(eq, "$balkanwars_status", 7),
-	
-	
+	(jump_to_menu, "mnu_balkanwars_event3"),
+	(assign, "$balkanwars_status", 8),
+	(else_try),
+	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", ":faction_serbia", ":faction_bulgaria"), (neq, reg0, -2),
+	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", ":faction_greece", ":faction_bulgaria"), (neq, reg0, -2),
+	(call_script, "script_diplomacy_faction_get_diplomatic_status_with_faction", ":faction_romania", ":faction_bulgaria"), (neq, reg0, -2),
 	(assign, "$balkanwars_status", 10),
 	(try_end),
 	(try_begin),
@@ -7292,6 +7313,16 @@ simple_triggers = [
 		(troop_set_inventory_slot, ":lord", ":slot", ":item"),
 		(try_end),
 	(try_end),
+]),
+
+(24,
+[
+(eq, "$players_kingdom", "fac_player_supporters_faction"),
+(faction_slot_eq, "$players_kingdom", slot_faction_state, sfs_active),
+
+(neg|faction_slot_ge, "$players_kingdom", slot_faction_budget, 0),
+(display_message, "@Your country is bankrupt!", 0xFF0000),
+(call_script, "script_faction_change_infamy", "$players_kingdom", 1),
 ]),
 
 ]

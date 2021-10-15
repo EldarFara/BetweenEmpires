@@ -2030,7 +2030,7 @@ animations = [
    [3.0, "prone_rifle1", 0, 0, arf_blend_in_0|arf_stick_item_to_left_hand],
  ],
  ["prone_rifle_reload", acf_rot_vertical_bow|acf_enforce_lowerbody, amf_priority_fall_from_horse|amf_play|amf_client_prediction|amf_keep,
-   [3.8, "prone_rifle1", 16, 43, arf_blend_in_0|arf_stick_item_to_left_hand],
+   [4.8, "prone_rifle1", 16, 43, arf_blend_in_0|arf_stick_item_to_left_hand],
  ],
  ["walk_forward_staff_2", acf_enforce_all, amf_priority_jump|amf_use_cycle_period|amf_client_prediction,
    [1, "walk_rifle2_1", 0, 32, arf_cyclic|arf_make_walk_sound,pack2f(0.4,0.9), (0, 0, 0), 0.0],

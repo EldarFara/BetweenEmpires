@@ -66,12 +66,11 @@ pes_resource_menu_faction_urbanization = 10
 
 display_pps_debug_messages = 0
 display_pes_debug_messages = 0
-display_pas_debug_messages = 1
 
-preset_number_of_factories_britain = 37
-preset_number_of_factories_germany = 15
+preset_number_of_factories_britain = 35
+preset_number_of_factories_germany = 19
 preset_number_of_factories_france = 20
-preset_number_of_factories_italy = 7
+preset_number_of_factories_italy = 10
 preset_number_of_factories_russia = 7
 preset_number_of_factories_austria = 10
 preset_number_of_factories_iberia = 6
@@ -1240,9 +1239,13 @@ slot_faction_extra_weaponry_to_buy =  slot_faction_ve_mod_slots_begin + 428
 slot_faction_number_of_soldiers =  slot_faction_ve_mod_slots_begin + 429
 slot_faction_number_of_lords =  slot_faction_ve_mod_slots_begin + 430
 slot_faction_number_of_garrisons =  slot_faction_ve_mod_slots_begin + 431
-slot_faction_number_of_soldiers =  slot_faction_ve_mod_slots_begin + 432
-slot_faction_number_of_soldiers_lords =  slot_faction_ve_mod_slots_begin + 433
-slot_faction_number_of_soldiers_garrisons =  slot_faction_ve_mod_slots_begin + 434
+slot_faction_number_of_soldiers_lords =  slot_faction_ve_mod_slots_begin + 432
+slot_faction_number_of_soldiers_garrisons =  slot_faction_ve_mod_slots_begin + 433
+slot_faction_supplied_by_military_supplies =  slot_faction_ve_mod_slots_begin + 434
+slot_faction_supplied_by_ammunition =  slot_faction_ve_mod_slots_begin + 435
+slot_faction_supplied_by_weaponry =  slot_faction_ve_mod_slots_begin + 436
+slot_faction_battle_efficiency_from_supplies =  slot_faction_ve_mod_slots_begin + 437
+slot_faction_lord_name_string =  slot_faction_ve_mod_slots_begin + 438
 
 
 
