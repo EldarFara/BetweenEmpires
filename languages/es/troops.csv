@@ -72,8 +72,8 @@ trp_swadian_militia|Miliciano Swadiano
 trp_swadian_militia_pl|Milicianos Swadianos
 trp_swadian_footman|Soldado de a pie Swadiano
 trp_swadian_footman_pl|Soldados de a pie Swadianos
-trp_swadian_infantry|Infantería Swadiana
-trp_swadian_infantry_pl|Infantería Swadiana
+trp_swadian_infantry|Infante Swadiana
+trp_swadian_infantry_pl|Infante Swadiana
 trp_swadian_sergeant|Sargento Swadiano
 trp_swadian_sergeant_pl|Sargentos Swadianos
 trp_swadian_skirmisher|Escaramuzador Swadiano
@@ -106,8 +106,8 @@ trp_vaegir_marksman|Francotirador Vaegir
 trp_vaegir_marksman_pl|Francotiradores Vaegires
 trp_vaegir_veteran|Veterano Vaegir
 trp_vaegir_veteran_pl|Veteranos Vaegires
-trp_vaegir_infantry|Infantería Vaegir
-trp_vaegir_infantry_pl|Infantería Vaegir
+trp_vaegir_infantry|Infante Vaegir
+trp_vaegir_infantry_pl|Infante Vaegir
 trp_vaegir_guard|Guardia Vaegir
 trp_vaegir_guard_pl|Guardias Vaegires
 trp_vaegir_horseman|Jinete Vaegir
@@ -200,8 +200,8 @@ trp_sarranid_footman|Soldado a pie Sarraní
 trp_sarranid_footman_pl|Soldados a pie Sarraníes
 trp_sarranid_veteran_footman|Soldado a pie Sarraní veterano
 trp_sarranid_veteran_footman_pl|Soldados a pie Sarraníes veteranos
-trp_sarranid_infantry|Infantería Sarraní
-trp_sarranid_infantry_pl|Infanterías Sarraníes
+trp_sarranid_infantry|Infante Sarraní
+trp_sarranid_infantry_pl|Infantes Sarraníes
 trp_sarranid_guard|Guarda Sarraní
 trp_sarranid_guard_pl|Guardas Sarraníes
 trp_sarranid_skirmisher|Escaramuzador Sarraní
@@ -224,16 +224,16 @@ trp_sarranid_castle_guard|Guardia del castillo
 trp_sarranid_castle_guard_pl|Guardias del castillo
 trp_faction1_troop1|Recluta Francés
 trp_faction1_troop1_pl|Recluta Francés
-trp_faction1_troop2|Infantería Francesa
-trp_faction1_troop2_pl|Infantería Francesa
-trp_faction1_troop3|Infantería Francesa (Exp.)
-trp_faction1_troop3_pl|Infantería Francesa (Exp.)
-trp_faction1_troop4|Infantería Francesa (Muy Exp.)
-trp_faction1_troop4_pl|Infantería Francesa (Muy Exp.)
-trp_faction1_troop5|Infantería Ligera Francesa
-trp_faction1_troop5_pl|Infantería Ligera Francesa
-trp_faction1_troop6|Infantería Ligera Francesa (Exp.)
-trp_faction1_troop6_pl|Infantería Ligera Francesa (Exp.)
+trp_faction1_troop2|Infante Francesa
+trp_faction1_troop2_pl|Infantes Francesa
+trp_faction1_troop3|Infante Francesa (Exp.)
+trp_faction1_troop3_pl|Infantes Francesa (Exp.)
+trp_faction1_troop4|Infante Francesa (Muy Exp.)
+trp_faction1_troop4_pl|Infantes Francesa (Muy Exp.)
+trp_faction1_troop5|Infante Ligera Francesa
+trp_faction1_troop5_pl|Infantes Ligera Francesa
+trp_faction1_troop6|Infante Ligera Francesa (Exp.)
+trp_faction1_troop6_pl|Infantes Ligera Francesa (Exp.)
 trp_faction1_troop7|Guardia Francés
 trp_faction1_troop7_pl|Guardia Francés
 trp_faction1_troop8|Guardia Francés (Exp.)
@@ -246,8 +246,8 @@ trp_faction1_troop11|Dragón Francés
 trp_faction1_troop11_pl|Dragón Francés
 trp_faction1_troop12|Dragón Francés (Exp.)
 trp_faction1_troop12_pl|Dragón Francés (Exp.)
-trp_faction1_troop13|Infantería Ligera Francesa (Muy Exp.)
-trp_faction1_troop13_pl|Infantería Ligera Francesa (Muy Exp.)
+trp_faction1_troop13|Infante Ligera Francesa (Muy Exp.)
+trp_faction1_troop13_pl|Infantes Ligera Francesa (Muy Exp.)
 trp_faction1_troop14|Francés
 trp_faction1_troop14_pl|Francés
 trp_faction1_prisonguard|Carcelero Francés
@@ -256,12 +256,12 @@ trp_faction1_castleguard|Guardia Francés
 trp_faction1_castleguard_pl|Guardia Francés
 trp_faction2_troop1|Recluta Ruso
 trp_faction2_troop1_pl|Recluta Ruso
-trp_faction2_troop2|Infantería Rusa
-trp_faction2_troop2_pl|Infantería Rusa
-trp_faction2_troop3|Infantería Rusa (Exp.)
-trp_faction2_troop3_pl|Infantería Rusa (Exp.)
-trp_faction2_troop4|Infantería Rusa (Muy Exp.)
-trp_faction2_troop4_pl|Infantería Rusa (Muy Exp.)
+trp_faction2_troop2|Infante Ruso
+trp_faction2_troop2_pl|Infantes Rusos
+trp_faction2_troop3|Infante Ruso (Exp.)
+trp_faction2_troop3_pl|Infantes Rusos(Exp.)
+trp_faction2_troop4|Infante Ruso (Muy Exp.)
+trp_faction2_troop4_pl|Infante Rusos (Muy Exp.)
 trp_faction2_troop5|Fusilero Ruso
 trp_faction2_troop5_pl|Fusilero Ruso
 trp_faction2_troop6|Fusilero Ruso (Exp.)
@@ -288,12 +288,12 @@ trp_faction2_castleguard|Guardia de Cuartel Ruso
 trp_faction2_castleguard_pl|Guardias de Cuartel Ruso
 trp_faction3_troop1|Recluta Austriaco
 trp_faction3_troop1_pl|Reclutas Austriacos
-trp_faction3_troop2|Infante Austriaca
-trp_faction3_troop2_pl|Infante Austriaca
-trp_faction3_troop3|Infante Austriaca (Exp.)
-trp_faction3_troop3_pl|Infante Austriaca (Exp.)
-trp_faction3_troop4|Infante Austriaca (Muy Exp.)
-trp_faction3_troop4_pl|Infante Austriaca (Muy Exp.)
+trp_faction3_troop2|Infante Austriaco
+trp_faction3_troop2_pl|Infantes Austriaco
+trp_faction3_troop3|Infante Austriaco (Exp.)
+trp_faction3_troop3_pl|Infantes Austriacos (Exp.)
+trp_faction3_troop4|Infante Austriaco (Muy Exp.)
+trp_faction3_troop4_pl|Infantes Austriacos (Muy Exp.)
 trp_faction3_troop5|Cazador Austriaco
 trp_faction3_troop5_pl|Cazadores Austriacos
 trp_faction3_troop6|Cazador Austriaco (Exp.)
@@ -4620,8 +4620,8 @@ trp_temporary_minister|Administrador
 trp_temporary_minister_pl|Administradores
 trp_swadian_crossbowman_multiplayer_ai|Ballestero Swadiano
 trp_swadian_crossbowman_multiplayer_ai_pl|Ballesteros Swadianos
-trp_swadian_infantry_multiplayer_ai|Infantería Swadiana
-trp_swadian_infantry_multiplayer_ai_pl|Infanterías Swadiana
+trp_swadian_infantry_multiplayer_ai|Infante Swadiana
+trp_swadian_infantry_multiplayer_ai_pl|Infantes Swadiana
 trp_swadian_man_at_arms_multiplayer_ai|Hombre de armas Swadiano
 trp_swadian_man_at_arms_multiplayer_ai_pl|Hombres de armas Swadianos
 trp_vaegir_archer_multiplayer_ai|Arquero Vaegir 
@@ -4648,16 +4648,16 @@ trp_rhodok_veteran_spearman_multiplayer_ai|Lancero Rhodok
 trp_rhodok_veteran_spearman_multiplayer_ai_pl|Lanceros Rhodok 
 trp_rhodok_scout_multiplayer_ai|Explorador Rhodok
 trp_rhodok_scout_multiplayer_ai_pl|Exploradores Rhodok
-trp_sarranid_infantry_multiplayer_ai|Infantería sarraní
-trp_sarranid_infantry_multiplayer_ai_pl|Infanterías sarraní
+trp_sarranid_infantry_multiplayer_ai|Infante sarraní
+trp_sarranid_infantry_multiplayer_ai_pl|Infantes sarraní
 trp_sarranid_archer_multiplayer_ai|Arquero sarraní
 trp_sarranid_archer_multiplayer_ai_pl|Arqueros sarraníes
 trp_sarranid_horseman_multiplayer_ai|Jinete sarraní
 trp_sarranid_horseman_multiplayer_ai_pl|Jinetes sarraníes
 trp_swadian_crossbowman_multiplayer|Ballestero Swadiano
 trp_swadian_crossbowman_multiplayer_pl|Ballesteros Swadianos
-trp_swadian_infantry_multiplayer|Infantería Swadiana
-trp_swadian_infantry_multiplayer_pl|Infanterías Swadiana
+trp_swadian_infantry_multiplayer|Infante Swadiana
+trp_swadian_infantry_multiplayer_pl|Infantes Swadiana
 trp_swadian_man_at_arms_multiplayer|Hombre de armas Swadiano
 trp_swadian_man_at_arms_multiplayer_pl|Hombres de armas Swadianos
 trp_vaegir_archer_multiplayer|Arquero Vaegir 
