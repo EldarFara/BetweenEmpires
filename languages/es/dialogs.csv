@@ -76,7 +76,7 @@ dlga_start:fistfight_response|Tenéis aspecto de ser {un hombre/una dama} que pu
 dlga_fistfight_response:fistfight_response_2|¿Ah, sí?
 dlga_fistfight_response_2:fistfight_response_2a|Bien, me alegro de que os interese. Éste es el plan... Es un poco complicado, así que escuchadme bien. 
 dlga_fistfight_response_2a:fistfight_response_3|Vos y este otro hombre os pelearéis aquí. Sin armas y sin armadura. Yo me encargaré de llevar las apuestas y compartir lo recaudado con el ganador. Si entramos en pérdidas, las cubriré. No tenéis nada que perder. Excepto un poco de sangre, claro.
-dlga_fistfight_response_3:fistfight_response_4|Sin embargo, no podemos organizar esto como si fuera una arena, donde todos apuestan antes de comenzar. La gente entrará porque el ruido les llamará la atención y apostarán un denar o dos a quien quiera que crean que va ganando. Les daré las mismas probabilidades, cualquier otra cosa sería demasiado complicada para alguien que va por su tercera cerveza.
+dlga_fistfight_response_3:fistfight_response_4|Sin embargo, no podemos organizar esto como si fuera una arena, donde todos apuestan antes de comenzar. La gente entrará porque el ruido les llamará la atención y apostarán una Libra o dos a quien quiera que crean que va ganando. Les daré las mismas probabilidades, cualquier otra cosa sería demasiado complicada para alguien que va por su tercera cerveza.
 dlga_fistfight_response_4:fistfight_response_4a|Así que como podéis ver, el truco consiste en alargar la cosa todo lo que se pueda, que se crean que vais perdiendo y que la gente apueste en vuestra contra; para después repuntar y ganar, antes de que se den vuelta las apuestas. La mejor forma de hacer dinero es dejar que os golpeen casi hasta quedar inconsciente y luego poneros en pie de golpe y derrotar a vuestro contrincante. Eso sí, tendréis que ganar la pelea para que podamos hacer dinero. 
 dlga_fistfight_response_4a:fistfight_response_5|Por otro lado, no podéis alargar la lucha durante demasiado tiempo, o la gente sospechará que hay un arreglo. Así que alguno de vosotros tendréis que llevaros algún golpe de vez en cuando. No me importa de quien sea la sangre derramada, pero tiene que haber sangre.
 dlga_fistfight_response_5:fistfight_response_5a|Y por último, a vuestro oponente, mi compañero, no le gustan las complicaciones. Él os atacará a lo bruto. A vos os toca lo artístico.
@@ -93,7 +93,7 @@ dlga_ramun_introduce_6:ramun_introduce_7|¡Veo que me vais entendiendo! Un puert
 dlga_ramun_introduce_7:ramun_introduce_8|¿De dónde vienen los esclavos?
 dlga_ramun_introduce_8:ramun_introduce_9|En su mayor parte son criminales convictos comprados a las autoridades. Otros son prisioneros de guerra de diversas naciones, me los traen porque yo ofrezco los mejores precios. No obstante, en alguna ocasión se los compro a particulares y a otras... 'fuentes'. No se puede ser muy melindroso con los proveedores en este negocio. ¿No tendréis algún prisionero con vos, verdad?
 dlga_ramun_introduce_9:ramun_introduce_10|¿Yo? 
-dlga_ramun_introduce_10:ramun_introduce_11|¿Por qué no? Si tenéis intención de salir de la ciudad, tarde o temprano acabaréis por cruzar vuestra espada con alguien. Y, Dios mediante, saldréis con éxito del encuentro. ¿Por qué no sacar algo de dinero extra del asunto? Apresadlos vivos, traédmelos a mí, y yo os pagaré cincuenta denares por cabeza. No me importa demasiado quiénes sean ni de dónde vengan.
+dlga_ramun_introduce_10:ramun_introduce_11|¿Por qué no? Si tenéis intención de salir de la ciudad, tarde o temprano acabaréis por cruzar vuestra espada con alguien. Y, Dios mediante, saldréis con éxito del encuentro. ¿Por qué no sacar algo de dinero extra del asunto? Apresadlos vivos, traédmelos a mí, y yo os pagaré cincuenta Libras por cabeza. No me importa demasiado quiénes sean ni de dónde vengan.
 dlga_ramun_introduce_11:ramun_introduce_12|Hum. Lo pensaré.
 dlga_ramun_introduce_12:close_window|¡Pensadlo! No os equivoquéis, hay mucho dinero en juego en ese asunto. Más que suficiente para ambos.
 dlga_start:ramun_talk|Hola, {playername}.
@@ -245,7 +245,7 @@ dlga_merchant_quest_4b2:merchant_quest_4b3|Como consecuencia de ello, parece que
 dlga_merchant_quest_4b3:merchant_quest_4b4|Bueno, éste es mi plan. Podría llevar todo esto hasta el {s4}, señor de la ciudad, pero eso significaría una investigación, sería mi palabra contra la del capitán, se comprarían testigos y se destruirían pruebas, o tal vez todo se olvidara si el enemigo atraviesa de nuevo las fronteras, y por todos mis desvelos yo me llevaría un cuchillo clavado en la espalda. En tiempos de guerra ya sabéis, el rey tiene sus ojos puestos lejos de sus dominios, y sus súbditos sufren. Así que yo tengo otra idea. He reunido a un pequeño grupo de gente, algunos empleados míos y otros que han perdido parientes a manos de estos bandidos, y vamos a asaltar la casa del capitán y a llevarle encadenado hasta el {s4}, con suerte con unos pocos bandidos capturados para que expliquen mejor las cosas.
 dlga_merchant_quest_4b4:merchant_quest_4b5|Todo lo que necesito es alguien que lidere mi pequeño ejército en la batalla... y no se me ocurre nadie mejor que vos. Así pues, ¿qué decís?
 dlga_merchant_quest_4b5:merchant_quest_4b6|¿Cómo sé que estáis diciéndome la verdad?
-dlga_merchant_quest_4b6:merchant_quest_4b7|Oh, bueno, supongo que es factible para mí haber encontrado a una docena de bandidos dispuestos a entregar sus vidas para darle la impresión equivocada de cómo es la vida en {s4} a un desconocido que está de paso... Vale, supongo que no podéis saber si de verdad mi palabra es buena, pero imagino que ya habéis deducido que mi dinero es bueno, y hay otros 100 denares o quizás algo más en juego para vos si me hacéis este pequeño favor. ¿Qué decís a esto?
+dlga_merchant_quest_4b6:merchant_quest_4b7|Oh, bueno, supongo que es factible para mí haber encontrado a una docena de bandidos dispuestos a entregar sus vidas para darle la impresión equivocada de cómo es la vida en {s4} a un desconocido que está de paso... Vale, supongo que no podéis saber si de verdad mi palabra es buena, pero imagino que ya habéis deducido que mi dinero es bueno, y hay otros 100 Libras o quizás algo más en juego para vos si me hacéis este pequeño favor. ¿Qué decís a esto?
 dlga_merchant_quest_4b7:merchant_quest_4b8|De acuerdo. Dirigiré a vuestros hombres.
 dlga_merchant_quest_4b7:merchant_quest_4_decline|Lo siento. Es demasiado en tan poco tiempo. Necesito pensarlo un poco.
 dlga_merchant_quest_4b8:merchant_quest_4b9|Espléndido. Hace mucho que no apuesto tanto a una simple tirada de dados, y francamente lo encuentro exhilarante. Mis hombres están listos ya. ¿Lo estáis vos?
@@ -667,17 +667,17 @@ dlga_lord_start:lord_wedding_reschedule|Me alegro de veros, {playername}. Estamo
 dlga_lord_wedding_reschedule:lord_start|No es problema. Puedo esperar.
 dlga_lord_wedding_reschedule:lord_return_dower|No tengo fe en que esta boda concluya satisfactoriamente. Por favor, devolved mi dote.
 dlga_lord_return_dower:close_window|Bueno, estáis en vuestro derecho. Si realmente no creéis en la seriedad de mi familia, podéis llevaros vuestro dinero.
-dlga_lord_start:lord_generic_mission_completed.1|¡Ja! Nuestro pequeño ardid contra {s3} funcionó a la perfección, {playername}. El muy idiota ha perdido a uno de sus más valiosos servidores, y nosotros estamos más cerca de hacerle morder el polvo. Tomad, esta bolsa contiene {reg5} denares, y deseo que la tengáis. Os merecéis hasta la última moneda. Y no tengo que recordaros que podría haber mucho más en juego si lo deseáis...
+dlga_lord_start:lord_generic_mission_completed.1|¡Ja! Nuestro pequeño ardid contra {s3} funcionó a la perfección, {playername}. El muy idiota ha perdido a uno de sus más valiosos servidores, y nosotros estamos más cerca de hacerle morder el polvo. Tomad, esta bolsa contiene {reg5} Libras, y deseo que la tengáis. Os merecéis hasta la última moneda. Y no tengo que recordaros que podría haber mucho más en juego si lo deseáis...
 dlga_lord_start:close_window|No habéis sido capaz de llevar a cabo ni una simple tarea. Yo lo había preparado todo. Lo único que teníais que hacer era sacrificar a un mensajero, y ahora lo estaríamos celebrando. Pero no, teníais que poner vuestro maldito honor por delante, ¿verdad?
 dlga_lord_start:quest_meet_spy_in_enemy_town_completed|¿Me traéis alguna noticia sobre la tarea que os encomendé? Ya sabéis a cuál me refiero...
 dlga_quest_meet_spy_in_enemy_town_completed:quest_meet_spy_in_enemy_town_completed_2|Tengo los informes que queríais aquí mismo.
 dlga_quest_meet_spy_in_enemy_town_completed_2:lord_pretalk|Ahh, bien hecho. Es bueno tener a {hombres/personas} competentes conmigo. Aquí está el pago que os prometí.
 dlga_lord_start:lord_pretalk|¡Un trabajo brillante, {playername}! ¡No sé lo que hicisteis, pero los nobles de {s13} están pidiendo la guerra! ¡Pronto tendremos la oportunidad de cosechar los beneficios de nuestro arduo trabajo, saqueando campos y aldeas! ¡Esta guerra nos hará ricos, acordaos de esto que os digo!
-dlga_lord_start:lord_collect_debt_completed|Me han dicho que habéis recaudado el dinero que {s7} me debía. Perfecto, ya era hora de recuperarlo. Creo que os prometí entregaros un quinto del total, ¿eh? Bien, eso supone {reg3} denares, así que si me devolvéis mi parte, es decir, {reg4} denares, podéis quedaros con el resto.
-dlga_lord_collect_debt_completed:lord_collect_debt_pay|Por supuesto, {s65}. {reg4} denares, ahí los tenéis.
+dlga_lord_start:lord_collect_debt_completed|Me han dicho que habéis recaudado el dinero que {s7} me debía. Perfecto, ya era hora de recuperarlo. Creo que os prometí entregaros un quinto del total, ¿eh? Bien, eso supone {reg3} Libras, así que si me devolvéis mi parte, es decir, {reg4} Libras, podéis quedaros con el resto.
+dlga_lord_collect_debt_completed:lord_collect_debt_pay|Por supuesto, {s65}. {reg4} Libras, ahí los tenéis.
 dlga_lord_collect_debt_pay:lord_pretalk|Debo admitir que me impresionáis, {playername}. Había perdido toda esperanza de recuperar este dinero. Por favor, aceptad mi más sincero agradecimiento.
 dlga_lord_collect_debt_completed:lord_collect_debt_no_pay|Me temo que no tengo el dinero conmigo, señor.
-dlga_lord_collect_debt_no_pay:close_window|¿Estáis bromeando? Sé perfectamente que {s7} os entregó el dinero, y quiero cada uno de los denares que se me deben, {señor/señora}. Por lo que a mí respecta, os considero en deuda conmigo hasta que vea todo ese dinero.
+dlga_lord_collect_debt_no_pay:close_window|¿Estáis bromeando? Sé perfectamente que {s7} os entregó el dinero, y quiero cada uno de los Libras que se me deben, {señor/señora}. Por lo que a mí respecta, os considero en deuda conmigo hasta que vea todo ese dinero.
 dlga_lord_start:close_window.1|He oído que os habéis deshecho de ese mercader piojoso que me estaba causando tantas incomodidades. Veo que no os asusta ensuciaros las manos, ¿eh? Me gusta eso en {un hombre/una mujer}. Aquí está vuestra recompensa. Recordad, {playername}, si os quedáis junto a mí llegaremos muy lejos juntos.
 dlga_lord_start:close_window.2|Oh, sois vos. Iluminadme, ¿exactamente, cómo se hace para perder una pelea sencilla contra un mercader piojoso de baja ralea? En serio, si alguna vez necesito que mis guardias reciban una lección sobre cómo tumbarse y dejarse matar, acudiré a vos. Ahora dejadme en paz, {playername}, tengo cosas que hacer.
 dlga_lord_start:lord_kill_local_merchant_let_go|¡Vos! ¿Tenéis serrín entre las dos orejas? Cuándo os dije que mataseis al mercader, ¡¿qué es lo que entendisteis, que teníais que ir a charlar con él y luego dejarle marchar?! ¿Qué mosca os ha picado?
@@ -699,7 +699,7 @@ dlga_lord_bring_back_runaway_serfs_failed_1b:close_window|¡Ja, ahora mostráis 
 dlga_lord_start:lord_runaway_serf_half_completed|Me habéis decepcionado, {playername}. Os encargué que hicieseis regresar a tres grupos de siervos. 3. No {reg17}. Supongo que los que han regresado tendrán que trabajar ahora el doble para compensar por los que han escapado. En cuanto a vuestra recompensa, {playername}, sólo os pagaré por los siervos que habéis devuelto, no por los que habéis dejado escapar. Tomad. Cogedlo y acabemos con este asunto.
 dlga_lord_runaway_serf_half_completed:lord_pretalk|Gracias, {s65}. Vuestra generosidad es encomiable.
 dlga_lord_runaway_serf_half_completed:lord_pretalk.1|Bah, esto ha resultado ser una pérdida de tiempo para mí.
-dlga_lord_start:lord_deal_with_bandits_completed|{playername}, me han dicho que habéis aplastado a los bandidos de mi aldea de {s5}. Debéis saber que tenéis mi más sincera gratitud por ello. Por favor, dejad que os pague los costes de vuestra campaña. Tomad, espero que estos {reg14} denares sean una cantidad adecuada.
+dlga_lord_start:lord_deal_with_bandits_completed|{playername}, me han dicho que habéis aplastado a los bandidos de mi aldea de {s5}. Debéis saber que tenéis mi más sincera gratitud por ello. Por favor, dejad que os pague los costes de vuestra campaña. Tomad, espero que estos {reg14} Libras sean una cantidad adecuada.
 dlga_lord_deal_with_bandits_completed:lord_pretalk|No ha sido nada, {s65}.
 dlga_lord_deal_with_bandits_completed:lord_pretalk.1|Me alegro de haber podido ayudar.
 dlga_lord_deal_with_bandits_completed:lord_pretalk.2|Fue un juego de niños.
@@ -730,17 +730,17 @@ dlga_lord_mission_told_scout_waypoints_accepted:close_window|¡{Buen chico/Buena
 dlga_lord_mission_told_scout_waypoints_rejected:lord_pretalk|Hm. Me habéis decepcionado, {playername}. Me habéis decepcionado mucho. Hablaremos más tarde, tengo que ir a buscar a alguien que explore para nosotros.
 dlga_lord_generic_mission_thank:lord_generic_mission_completed|Habéis sido de mucha ayuda, {playername}. Gracias.
 dlga_lord_generic_mission_completed:lord_pretalk|Ha sido un honor hacer este servicio.
-dlga_lord_start:lord_pay_debt_2|Creo que me debéis {reg1} denares, {playername}. ¿Tenéis intención de pagar vuestra deuda pronto?
-dlga_lord_pay_debt_2:lord_pay_debt_3_1|Por eso he venido, {s65}. Aquí están todos los denares que os debo.
+dlga_lord_start:lord_pay_debt_2|Creo que me debéis {reg1} Libras, {playername}. ¿Tenéis intención de pagar vuestra deuda pronto?
+dlga_lord_pay_debt_2:lord_pay_debt_3_1|Por eso he venido, {s65}. Aquí están todos los Libras que os debo.
 dlga_lord_pay_debt_2:lord_pay_debt_3_2|Por desgracia, no dispongo de suficientes fondos, {s65}. Pero os pagaré pronto.
 dlga_lord_pay_debt_3_1:lord_pretalk|Ah, excelente. Sois {un hombre/una mujer} honorable, {playername}. Esto me satisface, vuestra deuda conmigo ya está saldada.
 dlga_lord_pay_debt_3_2:lord_pretalk|Bueno, no me hagáis esperar demasiado.
 dlga_lord_start:lord_start.1|Por cierto, espero que tengáis la oportunidad de conocer a mi {s11}, {s14}.  
 dlga_lord_start:lord_start.2|Por cierto, tengo la seguridad de que mi {s11}, {s14}, estaría encantada de que la visitaseis. Os espera en sus aposentos.
-dlga_lord_start:lord_buy_prisoner|He oído que habéis capturado a nuestro enemigo {s3} y que está con vos en estos momentos. Puedo pagaros {reg6} denares, si queréis deshaceros de él. También podéis esperar a que su familia pague el rescate, claro, pero quién sabe cuánto tardarán, ¿verdad?
-dlga_lord_buy_prisoner:lord_buy_prisoner_accept|Acepto vuestra oferta. Os entregaré a {s3} por {reg6} denares.
+dlga_lord_start:lord_buy_prisoner|He oído que habéis capturado a nuestro enemigo {s3} y que está con vos en estos momentos. Puedo pagaros {reg6} Libras, si queréis deshaceros de él. También podéis esperar a que su familia pague el rescate, claro, pero quién sabe cuánto tardarán, ¿verdad?
+dlga_lord_buy_prisoner:lord_buy_prisoner_accept|Acepto vuestra oferta. Os entregaré a {s3} por {reg6} Libras.
 dlga_lord_buy_prisoner:lord_buy_prisoner_deny|Me temo que no puedo aceptar vuestra oferta.
-dlga_lord_buy_prisoner_accept:lord_pretalk|¡Excelente! Aquí están vuestros {reg6} denares. Enviaré a alguien para que le trasladen a nuestra prisión enseguida.
+dlga_lord_buy_prisoner_accept:lord_pretalk|¡Excelente! Aquí están vuestros {reg6} Libras. Enviaré a alguien para que le trasladen a nuestra prisión enseguida.
 dlga_lord_buy_prisoner_deny:lord_pretalk|Mmm. Como deseéis, {playername}, pero no obtendréis una oferta mejor. Aceptad la mía.
 dlga_lord_start:lord_talk|¡Alzo un {s5} en vuestro honor, {playername}! Sois muy amable al agasajarnos en esta ocasión. Y ahora, ¿qué deseáis?
 dlga_lord_start:lord_talk.1|¿Cuál es vuestro deseo?
@@ -930,7 +930,7 @@ dlga_lord_talk:lord_ask_to_collect_debt|He venido a recaudar el dinero que debé
 dlga_lord_ask_to_collect_debt:lord_ask_to_collect_debt_2|Oh. Bueno, {s1} sí que me prestó algo de plata hace tiempo, pero le he hecho muchos favores en el pasado y considero que ese dinero es mi justo pago.
 dlga_lord_ask_to_collect_debt_2:convince_begin|{s1} lo considera una deuda. Me pidió que hablase con vos de su parte.
 dlga_lord_ask_to_collect_debt_2:lord_pretalk|En ese caso no insistiré más.
-dlga_convince_accept:close_window|Mi deuda con {s8} lleva tiempo sin pagar y ha sido un motivo de angustia para mí. Gracias por aceptar llevarle el dinero que le debo. Por favor, dadle estos {reg10} denares y agradecédselo de mi parte.
+dlga_convince_accept:close_window|Mi deuda con {s8} lleva tiempo sin pagar y ha sido un motivo de angustia para mí. Gracias por aceptar llevarle el dinero que le debo. Por favor, dadle estos {reg10} Libras y agradecédselo de mi parte.
 dlga_lord_talk:lord_ask_to_make_peace|Por favor, {s64}, es hora de acabar con esta guerra entre {s12} y {s13}.
 dlga_lord_ask_to_make_peace:lord_ask_to_make_peace_2|¿Eh? No sé si os he escuchado bien, {playername}. La guerra no es algo que se pueda olvidar fácilmente por cualquiera de los bandos implicados, y yo tengo una gran memoria. ¿Por qué iba a interesarme pactar una tregua con esos perros?
 dlga_lord_ask_to_make_peace_2:convince_begin|Tal vez yo pueda convenceros...
@@ -985,11 +985,11 @@ dlga_lord_ask_pardon:lord_pretalk.4|No estoy en posición de ofreceros nada. Deb
 dlga_lord_ask_pardon:lord_truce_offer|Sí... no quiero luchar con vos. Puedo ofreceros una tregua de cuarenta días. Si mantenéis vuestra palabra y no molestáis a mis súbditos y mis tierras, volveremos a hablar...
 dlga_lord_truce_offer:close_window|Acepto. Hagamos las paces, al menos por ahora.
 dlga_lord_truce_offer:lord_pretalk|Pensándolo bien, tal acuerdo no me beneficiaría en absoluto.
-dlga_lord_ask_pardon:lord_ask_pardon_2|Hum. Podría utilizar mi influencia para conseguir un perdón para vos, {playername}, pero hay gente que os considerará el enemigo y no quedará satisfecha a menos que paguéis un tributo. Con todo, tendríais que conseguir no menos de {reg16} denares para hacer algún amigo en el {s4}.
+dlga_lord_ask_pardon:lord_ask_pardon_2|Hum. Podría utilizar mi influencia para conseguir un perdón para vos, {playername}, pero hay gente que os considerará el enemigo y no quedará satisfecha a menos que paguéis un tributo. Con todo, tendríais que conseguir no menos de {reg16} Libras para hacer algún amigo en el {s4}.
 dlga_lord_ask_pardon:lord_pretalk.5|Lo siento. No estoy en posición de ofreceros un perdón
-dlga_lord_ask_pardon:lord_ask_pardon_2.1|Sí... tengo preocupaciones más serias que vos o vuestros seguidores. No obstante, habéis ofendido a mis súbditos, y las ofensas demandan una compensación. Por la suma de {reg16} denares, supongo que podría acceder a concederos un perdón. ¿Qué decís?
+dlga_lord_ask_pardon:lord_ask_pardon_2.1|Sí... tengo preocupaciones más serias que vos o vuestros seguidores. No obstante, habéis ofendido a mis súbditos, y las ofensas demandan una compensación. Por la suma de {reg16} Libras, supongo que podría acceder a concederos un perdón. ¿Qué decís?
 dlga_lord_ask_pardon:lord_pretalk.6|I am sorry. I am in no position to offer you a pardon
-dlga_lord_ask_pardon_2:lord_ask_pardon_tribue_accept|Tengo aquí el dinero. {reg16} denares.
+dlga_lord_ask_pardon_2:lord_ask_pardon_tribue_accept|Tengo aquí el dinero. {reg16} Libras.
 dlga_lord_ask_pardon_2:lord_ask_pardon_tribue_deny|Me temo que no puedo pagar esa cantidad.
 dlga_lord_ask_pardon_tribue_accept:close_window|Excelente, {playername}. Utilizaré el dinero para suavizar a aquéllos que se oponen a vuestro perdón, y seguro que en poco tiempo se correrá la noticia de que ya no sois un enemigo para el {s4}.
 dlga_lord_ask_pardon_tribue_accept:close_window.1|Excelente, {playername}. Utilizaré el dinero para apaciguar a aquéllos que se oponen a vuestro perdón, y seguro que pronto se corre la voz de que ya no sois un enemigo para el {s4}.
@@ -1066,7 +1066,7 @@ dlga_lord_marriage_permission:lord_pretalk|¡Por todos los cielos! Si no he dado
 dlga_lord_marriage_permission:lord_pretalk.1|No quiero presionar a mi {s11} a casarse contra su voluntad.
 dlga_lord_marriage_permission:lord_pretalk.2|Lo siento, no presionaré a mi {s11} para que se case con vos. Prefiero que se case con {s12}.
 dlga_lord_marriage_permission:lord_marriage_permission_endowment|Espléndido. Me sentiré feliz de tener un nuevo miembro en mi familia. Ahora, hablemos sobre los términos del matrimonio. Como es nuestra costumbre, antes de nada nos aseguraremos de que {s11} tenga el suficiente dinero como para poder sobrevivir por sí sola, en caso de que algo inesperado suceda.
-dlga_lord_marriage_permission_endowment:lord_marriage_permission_endowment_answer|Diría que, teniendo en cuenta el prestigio de nuestras casas, podéis pagar una dote de {reg3} denares, y yo una de {reg4} denares... esto será propiedad de la dama, como seguro, en caso de que por alguna razón no podáis proveer para ella. ¿Qué opináis?
+dlga_lord_marriage_permission_endowment:lord_marriage_permission_endowment_answer|Diría que, teniendo en cuenta el prestigio de nuestras casas, podéis pagar una dote de {reg3} Libras, y yo una de {reg4} Libras... esto será propiedad de la dama, como seguro, en caso de que por alguna razón no podáis proveer para ella. ¿Qué opináis?
 dlga_lord_marriage_permission_endowment_answer:lord_marriage_permission_engagement_date|Muy bien, que así sea.
 dlga_lord_marriage_permission_endowment_answer:lord_marriage_permission_endowment_answer_delay|No puedo pagar tal cosa ahora mismo.
 dlga_lord_marriage_permission_endowment_answer:lord_marriage_permission_endowment_answer_no|Es demasiado dinero.
@@ -1185,10 +1185,10 @@ dlga_lord_talk_offer:knight_offer_join|Quiero pagar el rescate por uno de vuestr
 dlga_lord_talk_offer:lord_pretalk|No importa.
 dlga_knight_offer_join:hero_pretalk|Me temo que no puedo unirme a vos en estos momentos, {playername}, tengo asuntos importantes que atender y que no pueden esperar.
 dlga_knight_offer_join:hero_pretalk.1|Olvidáis vuestro lugar, {señor/señora}. Yo no acepto órdenes de gente como vos.
-dlga_knight_offer_join:knight_offer_join_2|Me agradaría luchar a vuestro lado, camarada, pero hay un problema... El caso es que me encuentro con una deuda que debo liquidar muy pronto. {reg6} denares en total, y el honor me obliga a devolver hasta la última moneda. A menos que tengáis {reg6} denares de los que podáis desprenderos, debo centrarme en quitarme este peso de encima.
+dlga_knight_offer_join:knight_offer_join_2|Me agradaría luchar a vuestro lado, camarada, pero hay un problema... El caso es que me encuentro con una deuda que debo liquidar muy pronto. {reg6} Libras en total, y el honor me obliga a devolver hasta la última moneda. A menos que tengáis {reg6} Libras de los que podáis desprenderos, debo centrarme en quitarme este peso de encima.
 dlga_knight_offer_join:close_window|¿Unirme a vos? Creo que no.
 dlga_knight_offer_join:knight_offer_join_2.1|Sí, camarada, será un placer para mí unirme a vos.
-dlga_knight_offer_join_2:knight_offer_join_accept|Tomad, aquí tenéis los {reg6} denares que necesitáis. Es sólo dinero.
+dlga_knight_offer_join_2:knight_offer_join_accept|Tomad, aquí tenéis los {reg6} Libras que necesitáis. Es sólo dinero.
 dlga_knight_offer_join_2:knight_offer_join_accept.1|En ese caso, cabalguemos juntos, camarada.
 dlga_knight_offer_join_2:close_window|Es bueno saberlo. Lo pensaré.
 dlga_knight_offer_join_2:hero_pretalk|Es bueno saberlo. Lo pensaré.
@@ -1264,22 +1264,22 @@ dlga_lord_active_mission_1:lord_pretalk|{playername}, debo rogaros paciencia, a�
 dlga_lord_active_mission_1:lord_active_mission_2|Sí, ¿habéis hecho progresos?
 dlga_lord_active_mission_2:lord_generic_mission_thank|Desde luego. Os he traído {reg1} {s1} como prisioneros.
 dlga_lord_active_mission_2:capture_enemy_hero_thank|Oh, desde luego. He capturado a un noble de {s13} para vos.
-dlga_capture_enemy_hero_thank:capture_enemy_hero_thank_2|Os lo agradezco mucho. Nos vendrá muy bien para llegar a un acuerdo. Habéis hecho un gran trabajo. Por favor, aceptad estos {reg8} denares por vuestra ayuda.
+dlga_capture_enemy_hero_thank:capture_enemy_hero_thank_2|Os lo agradezco mucho. Nos vendrá muy bien para llegar a un acuerdo. Habéis hecho un gran trabajo. Por favor, aceptad estos {reg8} Libras por vuestra ayuda.
 dlga_capture_enemy_hero_thank_2:lord_pretalk|Con mucho gusto, {s65}.
 dlga_capture_enemy_hero_thank_2:lord_pretalk.1|No ha sido nada.
 dlga_capture_enemy_hero_thank_2:lord_pretalk.2|La próxima vez, encargadme algo más difícil.
 dlga_lord_active_mission_2:lord_raise_troops_thank|Desde luego. He reclutado {reg1} {s13}. Podéis llevarlos con vos.
 dlga_lord_raise_troops_thank:lord_raise_troops_thank_2|Esos hombres pueden ser justo lo que yo necesitaba para mis planes, {playername}. Confío en que los habéis entrenado bien. Recibid mi agradecimiento y alabanzas.
 dlga_lord_raise_troops_thank_2:lord_pretalk|Bueno, los chicos están ahora a vuestras órdenes, señor. Seguro que los cuidaréis bien.
-dlga_lord_active_mission_2:lord_collect_taxes_success|Aquí tenéis todos los impuestos de {s3}. Suman {reg19} denares.
-dlga_lord_active_mission_2:lord_collect_taxes_half_success|Aquí tenéis los impuestos de {s3}. Suman {reg19} denares.
-dlga_lord_active_mission_2:lord_collect_taxes_fail|Por desgracia, se declaró una revuelta mientras estaba recaudando los impuestos. Sólo pude recaudar {reg19} denares.
-dlga_lord_collect_taxes_success:lord_pretalk|Bien hecho, {playername}, ¡muy bien hecho, ya lo creo! Realmente erais {el hombre/la persona} ideal para este trabajo. Os prometí la quinta parte de los impuestos, lo cual supone {reg21} denares. Si me dais {reg20} denares, podéis quedaros con la diferencia. Un buen resultado para todos, ¿no?
-dlga_lord_collect_taxes_half_success:lord_pretalk|¡¿Qué?! ¿Es ésta una de vuestras estratagemas, {playername}? ¡Eso no es ni la mitad de lo que me deben! Habéis permitido que salgan impunes de los asesinatos y se lleven mi dinero además. ¡Vaya una farsa! Podéis olvidaros del dinero que os prometí. Voy a quedarme con {reg20} denares de lo que habéis recaudado, y dad gracias que por honor os dejo alguna moneda.
-dlga_lord_collect_taxes_fail:lord_pretalk|Dios, nos habéis metido en un buen lío, {playername}. Esto se puede poner muy feo si no tomamos acciones inmediatas. Desde luego, supongo que no esperaréis que os pague por vuestro fracaso. Entregadme mis {reg19} denares, si os place, y acabemos así con todos nuestros tratos.
+dlga_lord_active_mission_2:lord_collect_taxes_success|Aquí tenéis todos los impuestos de {s3}. Suman {reg19} Libras.
+dlga_lord_active_mission_2:lord_collect_taxes_half_success|Aquí tenéis los impuestos de {s3}. Suman {reg19} Libras.
+dlga_lord_active_mission_2:lord_collect_taxes_fail|Por desgracia, se declaró una revuelta mientras estaba recaudando los impuestos. Sólo pude recaudar {reg19} Libras.
+dlga_lord_collect_taxes_success:lord_pretalk|Bien hecho, {playername}, ¡muy bien hecho, ya lo creo! Realmente erais {el hombre/la persona} ideal para este trabajo. Os prometí la quinta parte de los impuestos, lo cual supone {reg21} Libras. Si me dais {reg20} Libras, podéis quedaros con la diferencia. Un buen resultado para todos, ¿no?
+dlga_lord_collect_taxes_half_success:lord_pretalk|¡¿Qué?! ¿Es ésta una de vuestras estratagemas, {playername}? ¡Eso no es ni la mitad de lo que me deben! Habéis permitido que salgan impunes de los asesinatos y se lleven mi dinero además. ¡Vaya una farsa! Podéis olvidaros del dinero que os prometí. Voy a quedarme con {reg20} Libras de lo que habéis recaudado, y dad gracias que por honor os dejo alguna moneda.
+dlga_lord_collect_taxes_fail:lord_pretalk|Dios, nos habéis metido en un buen lío, {playername}. Esto se puede poner muy feo si no tomamos acciones inmediatas. Desde luego, supongo que no esperaréis que os pague por vuestro fracaso. Entregadme mis {reg19} Libras, si os place, y acabemos así con todos nuestros tratos.
 dlga_lord_active_mission_2:lord_hunt_down_fugitive_success|Encontré a {s4} escondiéndose en {s3} y le di su castigo.
 dlga_lord_active_mission_2:lord_hunt_down_fugitive_fail|Me temo que se ha escapado.
-dlga_lord_hunt_down_fugitive_success:lord_hunt_down_fugitive_success_2|¡Y a todos nos irá mucho mejor sin él! Gracias, {playername}, por acabar con esta espina tumefacta que tenía clavada en mi costado. Es bueno saber que se puede confiar en vos para manejar asuntos que requieren un cierto tacto. Una recompensa os prometí, y una recompensa tendréis. ¡300 denares, ni uno menos!
+dlga_lord_hunt_down_fugitive_success:lord_hunt_down_fugitive_success_2|¡Y a todos nos irá mucho mejor sin él! Gracias, {playername}, por acabar con esta espina tumefacta que tenía clavada en mi costado. Es bueno saber que se puede confiar en vos para manejar asuntos que requieren un cierto tacto. Una recompensa os prometí, y una recompensa tendréis. ¡300 Libras, ni uno menos!
 dlga_lord_hunt_down_fugitive_success_2:lord_hunt_down_fugitive_reward_accept|Acepto el dinero, {s65}. Gracias.
 dlga_lord_hunt_down_fugitive_success_2:lord_hunt_down_fugitive_reward_reject|Es un dinero manchado de sangre. No puedo aceptarlo.
 dlga_lord_hunt_down_fugitive_reward_accept:lord_pretalk|Naturalmente, {playername}. Aquí tenéis. Una vez más, os doy las gracias por librarme de ese {s43}.
@@ -1339,7 +1339,7 @@ dlga_lord_mercenary_service_verify:lord_mercenary_service_reject|Pensándolo mej
 dlga_lord_mercenary_service_verify_2:lord_mercenary_service_accept_3|Con eso bastará. Habéis tomado la decisión correcta, os felicito. Al {s9} le va bien con sus leales guerreros, recibiréis muchas recompensas por vuestro servicio.
 dlga_lord_mercenary_service_accept_3:lord_pretalk|Ahora sugiero que os preparéis para una campaña difícil. Entrenad y equipad a vuestros soldados como mejor podáis mientras tanto, y responded rápidamente cuando se os requiera.
 dlga_lord_mercenary_service_reject:lord_pretalk|Lamento mucho escuchar eso. No encontraréis sitio mejor que el {s9}, tenedlo por seguro.
-dlga_lord_mercenary_elaborate_pay:lord_mercenary_elaborate_1|Puedo ofreceros un contrato por tres meses. Al término de esos tres meses, puede ser prorrogado mes a mes. Se os pagará una suma inicial de {reg12} denares para sellar el contrato. Después de eso, recibiréis unos honorarios del {s10} cada semana, según el número y calidad de soldados de vuestra compañía. Seguís teniendo vuestro derecho a recoger el botín del campo de batalla, así como a todo prisionero que hagáis. La guerra puede ser muy provechosa en ocasiones...
+dlga_lord_mercenary_elaborate_pay:lord_mercenary_elaborate_1|Puedo ofreceros un contrato por tres meses. Al término de esos tres meses, puede ser prorrogado mes a mes. Se os pagará una suma inicial de {reg12} Libras para sellar el contrato. Después de eso, recibiréis unos honorarios del {s10} cada semana, según el número y calidad de soldados de vuestra compañía. Seguís teniendo vuestro derecho a recoger el botín del campo de batalla, así como a todo prisionero que hagáis. La guerra puede ser muy provechosa en ocasiones...
 dlga_lord_mercenary_service_elaborate_duty:lord_mercenary_elaborate_1|Obligaciones... Sólo hay unas pocas, ninguna de ellas difícil. Lo primero es declarar vuestra fidelidad. Un juramento de lealtad a nuestra causa. Una vez hecho eso, se os requerirá que asumáis ciertas responsabilidades. Participaréis en campañas militares, asumiréis aquellas obligaciones que se os encomienden por parte de vuestros comandantes, y sobre todo atacaréis a los enemigos de nuestro reino allá donde estén.
 dlga_lord_mercenary_elaborate_1:lord_mercenary_service_elaborate_duty|¿Y qué hay de mis obligaciones como mercenario?
 dlga_lord_mercenary_elaborate_1:lord_mercenary_elaborate_castle|¿Puedo conservar alguno de los castillos que tome?
@@ -1364,7 +1364,7 @@ dlga_lord_tell_mission_sworn_vassal:lord_pretalk.2|Si estáis buscando acción c
 dlga_lord_tell_mission_sworn_vassal:lord_pretalk.3|Si se presentara una tarea digna de mención, no obstante, puede que os pida un favor más adelante.
 dlga_lord_tell_mission:destroy_lair_quest_brief|Sí... hay algo que podéis hacer por nosotros. Hemos tenido informes de que un grupo de {s4} han establecido su base en esta área, y han estado atacando a viajeros. Si pudierais encontrar su guarida y destruirla, os estaríamos muy agradecidos.
 dlga_lord_tell_mission:lord_mission_rescue_prisoner|{s14}, del {s15}, ha secuestrado a mi {s11}, {s13}. Normalmente, los nobles honorables otorgarían a sus prisioneros el privilegio de la libertad bajo condiciones, y los tratarían como visitantes de honor si dan su palabra de que no intentarán escapar, hasta que se pague el rescate. Pero {s14}, en vez de conceder la libertad a {s13}, ha confinado a mi {s11} a sus calabozos... sin duda espera poder reclamar más dinero de nosotros.
-dlga_lord_mission_rescue_prisoner:lord_mission_rescue_prisoner_confirm|Tenemos que liberar a mi {s11}. Puede que vos seáis capaz de pagar el rescate, en ese caso os pagaré por vuestros gastos hasta un total de 5000 denares. Si tenéis contactos dentro de {s24}, podríais utilizarlos para sacarle a escondidas. O podéis hacer otra cosa... obtener la llave del calabozo por la fuerza y luchar para escapar. ¿Podríais ayudarnos?
+dlga_lord_mission_rescue_prisoner:lord_mission_rescue_prisoner_confirm|Tenemos que liberar a mi {s11}. Puede que vos seáis capaz de pagar el rescate, en ese caso os pagaré por vuestros gastos hasta un total de 5000 Libras. Si tenéis contactos dentro de {s24}, podríais utilizarlos para sacarle a escondidas. O podéis hacer otra cosa... obtener la llave del calabozo por la fuerza y luchar para escapar. ¿Podríais ayudarnos?
 dlga_lord_mission_rescue_prisoner_confirm:lord_mission_rescue_prisoner_accepted|Puedo intentarlo.
 dlga_lord_mission_rescue_prisoner_confirm:lord_mission_rescue_prisoner_rejected|No creo que pueda ayudaros.
 dlga_lord_mission_rescue_prisoner_rejected:close_window|No sería algo fácil. Tal vez haya otra forma.
@@ -1407,7 +1407,7 @@ dlga_lord_mission_collect_taxes_told:lord_mission_collect_taxes_accepted|Una ofe
 dlga_lord_mission_collect_taxes_told:lord_mission_collect_taxes_rejected|Perdonadme, no tengo tiempo para esto.
 dlga_lord_mission_collect_taxes_accepted:close_window|Me congratula oír eso, {playername}. Os confío esta tarea. Recordad, esos {reg9?ciudadanos:campesinos} son bichos taimados, buscarán cualquier excusa para no pagar la cantidad que legítimamente es mía. No dejéis que os engañen.
 dlga_lord_mission_collect_taxes_rejected:lord_pretalk|Oh, sí. Bueno, pues que tengáis buena suerte.
-dlga_lord_tell_mission:lord_mission_hunt_down_fugitive_told|Tengo algo con lo que podríais ayudar, un asunto con el miserable malhechor conocido como {s4}. Asesinó a uno de mis hombres y lleva escapando de la justicia desde entonces. No puedo permitir que continúe evadiendo su castigo, así que he puesto una recompensa de 300 denares sobre su cabeza. Amigos del hombre al que mató creen que este asesino puede haberse refugiado con su gente, en {s3}. Puede que seáis capaz de apresarle y darle su merecido, con lo cual el botín sería vuestro.
+dlga_lord_tell_mission:lord_mission_hunt_down_fugitive_told|Tengo algo con lo que podríais ayudar, un asunto con el miserable malhechor conocido como {s4}. Asesinó a uno de mis hombres y lleva escapando de la justicia desde entonces. No puedo permitir que continúe evadiendo su castigo, así que he puesto una recompensa de 300 Libras sobre su cabeza. Amigos del hombre al que mató creen que este asesino puede haberse refugiado con su gente, en {s3}. Puede que seáis capaz de apresarle y darle su merecido, con lo cual el botín sería vuestro.
 dlga_lord_mission_hunt_down_fugitive_told:lord_mission_hunt_down_fugitive_accepted|En ese caso, lo apresaré y haré cumplir la ley.
 dlga_lord_mission_hunt_down_fugitive_told:lord_mission_hunt_down_fugitive_rejected|No tengo tiempo para perseguirle ahora.
 dlga_lord_mission_hunt_down_fugitive_accepted:close_window|Excelente, {playername}. Os lo agradecería mucho, y también la familia del hombre al que asesinó. Y está claro que la recompensa será vuestra si podéis capturarle. Bien, que tengáis buena caza.
@@ -1460,7 +1460,7 @@ dlga_lord_mission_lend_companion_told:lord_tell_mission_lend_companion_accepted|
 dlga_lord_mission_lend_companion_told:lord_tell_mission_lend_companion_rejected|Lo siento, pero no puedo prescindir de {s3} durante una semana entera.
 dlga_lord_tell_mission_lend_companion_accepted:close_window|Os lo agradezco enormemente, {playername}. No os preocupéis, os devolveré a esta persona con la debida premura.
 dlga_lord_tell_mission_lend_companion_rejected:lord_pretalk|Bueno, es una verdadera pena, pero supongo que no puedo forzaros a vos o a {s3} a aceptar. Tendré que arreglármelas por mi cuenta.
-dlga_lord_tell_mission:lord_tell_mission_collect_debt|Hace algún tiempo, presté una considerable suma de dinero a {s3}. {reg4} denares, para ser precisos. Se suponía que me los devolvería en un mes, pero aún no he recibido ni una moneda de él. Eso fue hace meses. Si pudierais recaudar esa deuda por mí, os lo agradecería mucho. Os dejaría incluso quedaros con un quinto de la cantidad, por las molestias. ¿Qué decís?
+dlga_lord_tell_mission:lord_tell_mission_collect_debt|Hace algún tiempo, presté una considerable suma de dinero a {s3}. {reg4} Libras, para ser precisos. Se suponía que me los devolvería en un mes, pero aún no he recibido ni una moneda de él. Eso fue hace meses. Si pudierais recaudar esa deuda por mí, os lo agradecería mucho. Os dejaría incluso quedaros con un quinto de la cantidad, por las molestias. ¿Qué decís?
 dlga_lord_tell_mission_collect_debt:lord_tell_mission_collect_debt_2|¿Sabéis dónde puedo encontrar a {s3}, {s65}?
 dlga_lord_tell_mission_collect_debt_2:lord_tell_mission_collect_debt_3|Si partís ahora mismo, deberíais encontrarle en {s4}. No me cabe duda que se mostrará debidamente avergonzado de su conducta y os dará el dinero que me debe.
 dlga_lord_tell_mission_collect_debt_3:lord_tell_mission_collect_debt_accepted|Entonces iré a hablar con {s3} de vuestra parte.
@@ -1482,7 +1482,7 @@ dlga_lord_tell_mission_incriminate_commander_8:lord_tell_mission_incriminate_com
 dlga_lord_tell_mission_incriminate_commander_9:lord_tell_mission_incriminate_commander_10|Venga, {playername}. Hay momentos para el sentimentalismo, pero éste no es uno de ellos. Creedme, se os compensará generosamente, y ¿qué otro destino tiene un soldado, sino morir a nuestras órdenes?
 dlga_lord_tell_mission_incriminate_commander_10:lord_tell_mission_incriminate_commander_fin|Sea un {s8}.
 dlga_lord_tell_mission_incriminate_commander_10:lord_tell_mission_incriminate_commander_rejected|No, no sacrificaré a uno de mis mejores hombres.
-dlga_lord_tell_mission_incriminate_commander_fin:lord_pretalk|No sabéis cuánto me alegra oír eso, {playername}. Estáis eliminando uno de los mayores obstáculos en mi camino. Aquí tenéis la carta, así como 300 denares para vuestros gastos. Recordad, habrá más una vez lo hayáis conseguido. Mucho, mucho más...
+dlga_lord_tell_mission_incriminate_commander_fin:lord_pretalk|No sabéis cuánto me alegra oír eso, {playername}. Estáis eliminando uno de los mayores obstáculos en mi camino. Aquí tenéis la carta, así como 300 Libras para vuestros gastos. Recordad, habrá más una vez lo hayáis conseguido. Mucho, mucho más...
 dlga_lord_tell_mission:lord_mission_told.2|Un grupo de mis soldados ha sido capturado en una reciente escaramuza con el enemigo. Por suerte tenemos un acuerdo de intercambio de prisioneros, y los liberarán pronto, pero a cambio requieren que les entreguemos prisioneros de igual rango. Prisioneros que ahora mismo no tengo. Así que necesito que alguien bien entrenado me encuentre {reg1} {s3} y los haga prisioneros, para que yo pueda intercambiarlos.
 dlga_lord_tell_mission:lord_pretalk|No, {playername}. No necesito vuestra ayuda en estos momentos.
 dlga_lord_mission_told:lord_mission_accepted|Podéis contar conmigo, {s65}.
@@ -1544,7 +1544,7 @@ dlga_lady_stranded_next:close_window|Saludos, {señor/mi señora}. Las tormentas
 dlga_start:lady_talk_refugee|{playername}, asumo que vos, como {hombre/dama} honorable, aceptaréis que las damas nobles tenemos el derecho de regresar a nuestras familias sin necesidad de que se pague un rescate.
 dlga_start:lady_escort_lady_succeeded|Gracias por escoltarme hasta aquí, {playername}. Por favor, aceptad este regalo como muestra de mi gratitud. Ojalá nos encontremos de nuevo en el futuro.
 dlga_lady_escort_lady_succeeded:close_window|Ha sido un honor serviros, {s65}.
-dlga_start:close_window.20|¡Allí! Puedo ver los muros de {s3} en la distancia. Hemos llegado sanos y salvos. Tomad estos {reg3} denares, como prometí. Espero que podamos viajar nuevamente juntos en otra oportunidad.
+dlga_start:close_window.20|¡Allí! Puedo ver los muros de {s3} en la distancia. Hemos llegado sanos y salvos. Tomad estos {reg3} Libras, como prometí. Espero que podamos viajar nuevamente juntos en otra oportunidad.
 dlga_lady_talk_refugee:close_window|Claro, mi señora.
 dlga_lady_talk_refugee:lady_captive_talk|¡Asumís mal, mi señora!
 dlga_lady_captive_talk:lady_captive_confirm|¡¿Qué?! ¿Qué infamia es ésta?
@@ -1699,10 +1699,10 @@ dlga_lady_restore_relation:lady_restore_relation_2|Hum. Imagino que habéis hech
 dlga_lady_restore_relation_2:lady_restore_relation_2b|{s1}
 dlga_lady_restore_relation_2:lady_pretalk|No importa. Me llevo bastante bien con todo el mundo.
 dlga_lady_restore_relation_2b:lady_restore_relation_3|Bueno, puedo intentar ayudaros en eso. Seguro que unos cuantos regalos caros harán que {s10} os mire con mejores ojos.
-dlga_lady_restore_relation_3:lady_restore_relation_4|Podéis mejorar vuestra relación con {s10} enviándole un regalo por valor de {reg10} denares. Pero, si os podéis permitir gastar {reg11} denares en el regalo, le causaríais una buena impresión. Y si podéis llegar hasta {reg12} denares, eso facilitaría mucho más las cosas.
-dlga_lady_restore_relation_4:lady_restore_relation_5|Creo que un regalo de {reg10} denares bastará.
-dlga_lady_restore_relation_4:lady_restore_relation_5.1|Tal vez me pueda permitir {reg11} denares.
-dlga_lady_restore_relation_4:lady_restore_relation_5.2|En ese caso, no tengo objeciones en gastar {reg12} denares.
+dlga_lady_restore_relation_3:lady_restore_relation_4|Podéis mejorar vuestra relación con {s10} enviándole un regalo por valor de {reg10} Libras. Pero, si os podéis permitir gastar {reg11} Libras en el regalo, le causaríais una buena impresión. Y si podéis llegar hasta {reg12} Libras, eso facilitaría mucho más las cosas.
+dlga_lady_restore_relation_4:lady_restore_relation_5|Creo que un regalo de {reg10} Libras bastará.
+dlga_lady_restore_relation_4:lady_restore_relation_5.1|Tal vez me pueda permitir {reg11} Libras.
+dlga_lady_restore_relation_4:lady_restore_relation_5.2|En ese caso, no tengo objeciones en gastar {reg12} Libras.
 dlga_lady_restore_relation_4:lady_restore_relation_cant_afford|Creo que no puedo permitirme un regalo en estos momentos.
 dlga_lady_restore_relation_5:lady_restore_relation_6|Excelente. En ese caso elegiré un regalo apropiado para vos y se lo enviaré a {s10} con vuestros amables saludos. No me cabe duda de que {reg4?ella:él} apreciará vuestro gesto.
 dlga_lady_restore_relation_6:lady_pretalk|Gracias por vuestra ayuda, señora.
@@ -1710,13 +1710,13 @@ dlga_lady_restore_relation_cant_afford:lady_pretalk|En tal caso, me temo que no 
 dlga_lady_talk:lady_leave|Disculpadme, pero debo partir.
 dlga_lady_leave:close_window|{s12}
 dlga_convince_begin:convince_options|Sigo sin entender por qué debería acceder a lo que me estáis pidiendo.
-dlga_convince_options:convince_bribe|En ese caso haré que os merezca la pena. ({reg8} denares)
+dlga_convince_options:convince_bribe|En ese caso haré que os merezca la pena. ({reg8} Libras)
 dlga_convince_options:convince_friendship|Por favor, hacedlo por nuestra amistad. (-{reg9} a la relación)
 dlga_convince_options:convince_persuade_begin|Dejad que trate de convenceros. (Persuasión)
 dlga_convince_options:lord_pretalk|No importa.
-dlga_convince_bribe:convince_bribe_verify|Mmm, un regalo generoso para mis cofres desde luego ayudaría a solventar este asunto... {reg8} denares deberían ser suficiente. Si estáis de acuerdo, haré caso a vuestra sugerencia.
+dlga_convince_bribe:convince_bribe_verify|Mmm, un regalo generoso para mis cofres desde luego ayudaría a solventar este asunto... {reg8} Libras deberían ser suficiente. Si estáis de acuerdo, haré caso a vuestra sugerencia.
 dlga_convince_bribe_verify:convince_bribe_cant_afford|Me temo que mis finanzas no permiten tal regalo.
-dlga_convince_bribe_verify:convince_bribe_goon|Muy bien, en ese caso aceptad por favor estos {reg8} denares como muestra de mi gratitud.
+dlga_convince_bribe_verify:convince_bribe_goon|Muy bien, en ese caso aceptad por favor estos {reg8} Libras como muestra de mi gratitud.
 dlga_convince_bribe_verify:convince_begin|Dejadme pensarlo un poco más.
 dlga_convince_bribe_cant_afford:convince_options|Ah. En ese caso no puedo hacer mucho más, a no ser que tengáis alguna otra cosa que añadir.
 dlga_convince_bribe_goon:convince_accept|{Estimado/Estimada} {playername}, vuestro generoso regalo me ha hecho reconsiderar vuestra petición, y ahora me percato de lo acertado de vuestra propuesta.
@@ -1793,10 +1793,10 @@ dlga_merchant_trip_explanation:merchant_pretalk|Venimos de {s11} y vamos hacia {
 dlga_merchant_talk:merchant_demand|¡Os exijo que os detengáis!
 dlga_merchant_demand:merchant_demand_2|¿Qué queréis?
 dlga_merchant_demand_2:merchant_demand_toll|¡Hay que pagar un peaje para pasar por aquí!
-dlga_merchant_demand_toll:merchant_demand_toll_2|Por favor, no quiero problemas. Puedo daros {reg6} denares, sólo dejadnos pasar.
-dlga_merchant_demand_toll:merchant_demand_toll_2.1|No quiero problemas. Puedo daros {reg6} denares si nos dejáis pasar.
+dlga_merchant_demand_toll:merchant_demand_toll_2|Por favor, no quiero problemas. Puedo daros {reg6} Libras, sólo dejadnos pasar.
+dlga_merchant_demand_toll:merchant_demand_toll_2.1|No quiero problemas. Puedo daros {reg6} Libras si nos dejáis pasar.
 dlga_merchant_demand_toll_2:merchant_demand_toll_accept|De acuerdo, pagad y podréis iros en paz.
-dlga_merchant_demand_toll_accept:close_window|De acuerdo, entonces. Aquí tenéis {reg6} denares. 
+dlga_merchant_demand_toll_accept:close_window|De acuerdo, entonces. Aquí tenéis {reg6} Libras. 
 dlga_merchant_demand_toll_2:merchant_pretalk|He cambiado de opinión, no puedo aceptar vuestro dinero.
 dlga_merchant_demand_toll_2:merchant_attack|¡No, quiero todo lo que tenéis! [Atacar]
 dlga_merchant_demand_2:merchant_attack_begin|¡Entregadme vuestro oro y todo lo que llevéis de valor!
@@ -1808,7 +1808,7 @@ dlga_merchant_attack_verify:merchant_attack|Por supuesto que os estoy atracando.
 dlga_merchant_attack:close_window|¡Maldita sea, no conseguiréis nada de nosotros por las buenas!
 dlga_caravan_offer_protection:caravan_offer_protection_2|Estas carreteras son muy peligrosas, desde luego. Nunca sobra algo de protección.
 dlga_caravan_offer_protection_2:close_window|¿Una escolta? ¡Si ya casi hemos llegado! Gracias por vuestra oferta, de todas formas.
-dlga_caravan_offer_protection_2:caravan_offer_protection_3|Vamos hacia {s1}. Os pagaré {reg2} denares si nos escoltáis hasta allí.
+dlga_caravan_offer_protection_2:caravan_offer_protection_3|Vamos hacia {s1}. Os pagaré {reg2} Libras si nos escoltáis hasta allí.
 dlga_caravan_offer_protection_3:caravan_offer_protection_4|Trato hecho.
 dlga_caravan_offer_protection_4:caravan_offer_protection_5|Quiero que permanezcáis cerca de nosotros todo el camino. Necesitaremos vuestra ayuda si los bandidos nos emboscan.
 dlga_caravan_offer_protection_5:caravan_offer_protection_6|No os preocupéis, podéis confiar en mí.
@@ -1834,7 +1834,7 @@ dlga_prison_guard_visit_prison_2:close_window|De acuerdo, entonces. Lo intentar�
 dlga_prison_guard_visit_prison_2:prison_guard_visit_prison_3|Vaya. Pensé que vos erais quien manda aquí.
 dlga_prison_guard_visit_prison_3:prison_guard_visit_prison_4|Je, je. Habéis acertado. Aún así, no puedo dejar que entréis en la prisión.
 dlga_prison_guard_visit_prison_4:close_window|De acuerdo, entonces. Me voy.
-dlga_prison_guard_visit_prison_4:prison_guard_visit_prison_5|He encontrado una bolsita con 100 denares aquí cerca. Entiendo que os pertenece.
+dlga_prison_guard_visit_prison_4:prison_guard_visit_prison_5|He encontrado una bolsita con 100 Libras aquí cerca. Entiendo que os pertenece.
 dlga_prison_guard_visit_prison_5:close_window|¡Ah! Llevo todo el día esperando esto. Qué bueno es que lo hayáis traído {señor/señora}. Bueno, ahora que sé que sois {un hombre honesto/una mujer honesta}, creo que no habrá problemas si os dejo pasar. Entrad.... pero sabed que estaré aquí afuera con las llaves, en caso de que estéis pensando en liberar a alguien.
 dlga_prison_guard_visit_prison_4:prison_guard_visit_break|¡Dadme las llaves de la celda, ahora!
 dlga_prison_guard_visit_break:close_window|¡Ayuda! ¡Ayuda! ¡Se escapan los prisioneros!
@@ -1957,7 +1957,7 @@ dlga_sacrificed_messenger_3:sacrificed_messenger_cancel|¡Arggh! No puedo hacer 
 dlga_sacrificed_messenger_cancel:sacrificed_messenger_cancel_2|¿Qué queréis decir, {señor/señora}?
 dlga_sacrificed_messenger_cancel_2:sacrificed_messenger_cancel_3|Os han preparado una trampa en la ciudad. {s3} me ordenó que sacrificara a uno de mis mejores guerreros para engañar al enemigo, pero tendrá que buscar otra forma de hacerlo.
 dlga_sacrificed_messenger_cancel_3:close_window|Gracias, {señor/señora}. Os seguiría hasta las mismas puertas del infierno. Pero no me gustaría morir así.
-dlga_start:close_window.36|Bueno, casi hemos llegado a {s21}. El resto del camino lo podemos hacer solos. Aquí tenéis vuestra paga... {reg14} denares. Gracias por escoltarnos. Buena suerte.
+dlga_start:close_window.36|Bueno, casi hemos llegado a {s21}. El resto del camino lo podemos hacer solos. Aquí tenéis vuestra paga... {reg14} Libras. Gracias por escoltarnos. Buena suerte.
 dlga_start:follow_spy_talk|Buen día, {señor/señora}. Hace un tiempo estupendo, ¿no creéis? Si me disculpáis, debo ponerme en camino.
 dlga_follow_spy_talk:follow_spy_talk_2|¡En nombre de {s1}, se procede a vuestro arresto!
 dlga_follow_spy_talk_2:close_window|¡No me cogeréis con vida!
@@ -1999,21 +1999,21 @@ dlga_deserter_buy_proposal_0:deserter_buy_proposal|Rest your arms! Despite you b
 dlga_deserter_buy_proposal:deserter_buy_proposal_price_named|Fine! We don't want to die or rot in prison, but how can we believe you? We want a guarantee! We want {reg5}, that should be enough to cover our debts. Else, we just can't go back, they'd gun us down like criminals.
 dlga_deserter_buy_proposal_price_named:close_window|Here, have your money. Now go fall in with the provost!
 dlga_deserter_buy_proposal_price_named:close_window.1|Maybe you don't deserve quarter, after all. I will have you all lined up and shot.
-dlga_deserter_barter:deserter_barter_2|Bien. Sois {listo/lista}. Pagadnos {reg5} denares. Luego podéis marcharos.
-dlga_deserter_barter_2:deserter_barter_3a|Muy bien, aquí tenéis vuestros {reg5} denares.
+dlga_deserter_barter:deserter_barter_2|Bien. Sois {listo/lista}. Pagadnos {reg5} Libras. Luego podéis marcharos.
+dlga_deserter_barter_2:deserter_barter_3a|Muy bien, aquí tenéis vuestros {reg5} Libras.
 dlga_deserter_barter_2:deserter_barter_3b|No llevo tanto dinero encima.
 dlga_deserter_barter_3b:close_window|Una pena. En ese caso tendremos que venderos a los esclavistas.
 dlga_deserter_barter_3a:close_window|Je. No ha sido tan difícil, ¿a que no? De acuerdo. Idos ya.
 dlga_start:tavernkeeper_talk|Buenos días, {mi querido señor/mi querida señora}. ¿En qué puedo ayudaros?
 dlga_tavernkeeper_pretalk:tavernkeeper_talk|¿Algo más?
 dlga_tavernkeeper_talk:tavernkeeper_deliver_wine|Se me ha encargado que os entregue {reg9} unidades de {s4}.
-dlga_tavernkeeper_deliver_wine:tavernkeeper_pretalk|¡Al fin! Mis reservas estaban casi vacías. Había pagado por el pedido de {s4} de antemano. Tomad, aquí tenéis {reg5} denares. Eso debería ser suficiente para pagaros. Y dadle recuerdos a {s9} de mi parte. Le hablaré bien de vos la próxima vez que trate con él.
+dlga_tavernkeeper_deliver_wine:tavernkeeper_pretalk|¡Al fin! Mis reservas estaban casi vacías. Había pagado por el pedido de {s4} de antemano. Tomad, aquí tenéis {reg5} Libras. Eso debería ser suficiente para pagaros. Y dadle recuerdos a {s9} de mi parte. Le hablaré bien de vos la próxima vez que trate con él.
 dlga_tavernkeeper_talk:tavernkeeper_deliver_wine_incomplete|Me han encargado que os entregue {reg9} unidades de {s4}, pero he perdido parte de la mercancía por el camino.
-dlga_tavernkeeper_deliver_wine_incomplete:tavernkeeper_pretalk|Os han atacado los bandidos, ¿eh? Tenéis suerte que os dejaron con vida. En todo caso, no puedo pagaros más que {reg5} denares por esto. Y le haré saber a {s1} que mi pedido no llegó completo, así que seguramente os tendréis que hacer cargo de las pérdidas.
+dlga_tavernkeeper_deliver_wine_incomplete:tavernkeeper_pretalk|Os han atacado los bandidos, ¿eh? Tenéis suerte que os dejaron con vida. En todo caso, no puedo pagaros más que {reg5} Libras por esto. Y le haré saber a {s1} que mi pedido no llegó completo, así que seguramente os tendréis que hacer cargo de las pérdidas.
 dlga_tavernkeeper_talk:tavernkeeper_deliver_wine_lost|Me han pedido que os entregue {reg9} unidades de {s4}, pero perdí la mercancía por el camino.
 dlga_tavernkeeper_deliver_wine_lost:tavernkeeper_pretalk|¿Qué? ¡Llevo semanas esperando ese pedido de {s4}! ¿Y ahora venís diciendo que lo habéis perdido? Tened por seguro que voy a informar a {s1} sobre esto.
 dlga_tavernkeeper_talk:tavernkeeper_buy_drinks|Me gustaría invitar a una jarra de vuestro mejor vino a todo hombre que entre aquí esta noche.
-dlga_tavernkeeper_buy_drinks:tavernkeeper_buy_drinks_2|Por supuesto, {mi señor/mi señora}. Me imagino que {reg5} denares deberían bastar para eso. ¿Qué les digo a los chicos?
+dlga_tavernkeeper_buy_drinks:tavernkeeper_buy_drinks_2|Por supuesto, {mi señor/mi señora}. Me imagino que {reg5} Libras deberían bastar para eso. ¿Qué les digo a los chicos?
 dlga_tavernkeeper_buy_drinks_2:tavernkeeper_buy_drinks_end|Que todo el mundo aprecie la generosidad de {playername} para con la gente de {s10}.
 dlga_tavernkeeper_buy_drinks_end:tavernkeeper_pretalk|No os preocupéis, {señor/señora}. Vuestro nombre será vitoreado y se brindará en vuestro honor aquí toda la noche.
 dlga_tavernkeeper_buy_drinks_2:tavernkeeper_pretalk|Esperad, cancelad esa orden.
@@ -2021,7 +2021,7 @@ dlga_tavernkeeper_talk:tavernkeeper_job_ask|¿Sabéis de alguien en este reino q
 dlga_tavernkeeper_job_ask:tavernkeeper_job_search|Hmm... Bueno, {s10} suele buscar mercenarios para sus campañas. {s9}
 dlga_tavernkeeper_job_search:tavernkeeper_job_result|Dejadme pensarlo...
 dlga_tavernkeeper_job_result:tavernkeeper_job_search|He oído que {s7} {s9}{s10}. Tal vez os interese hablar con {reg4?ella:él}.
-dlga_tavernkeeper_job_result:tavernkeeper_job_result_2|Tal vez haya otros trabajos, claro. Los señores y maestros de cofradías a menudo saben de trabajos que nosotros no. Además, la aldeas de los alrededores siempre necesitan ayuda, aunque os advierto que pagarán más con un trozo de queso y buenos deseos que con denares.
+dlga_tavernkeeper_job_result:tavernkeeper_job_result_2|Tal vez haya otros trabajos, claro. Los señores y maestros de cofradías a menudo saben de trabajos que nosotros no. Además, la aldeas de los alrededores siempre necesitan ayuda, aunque os advierto que pagarán más con un trozo de queso y buenos deseos que con Libras.
 dlga_tavernkeeper_job_result_2:close_window|Estaré al tanto por si surgen otras oportunidades. Podéis venir a preguntarme de vez en cuando.
 dlga_tavernkeeper_talk:close_window|Supongo que debería irme ya.
 dlga_start:ransom_broker_intro|Saludos, {señor/señora}. Tenéis aspecto de ser alguien que debería conocerme.
@@ -2032,7 +2032,7 @@ dlga_ransom_broker_families:ransom_broker_info_talk|Oh, entonces les cuento algu
 dlga_ransom_broker_info_talk:ransom_broker_prices|¿Cuánto puedo obtener por un prisionero?
 dlga_ransom_broker_prices:ransom_broker_info_talk|Eso depende. Yo suelo tener buen ojo para estimar las recompensas. Hay docenas de detalles sobre un hombre que os indican si se va a la cama con hambre o si cena todas las noches pastel de pato. El dinero de verdad lo tiene la nobleza, y si algún día queréis dedicaros a lo mismo que yo, deberéis conocer a todas las familias pudientes de Calradia, sus propiedades, su heráldica, sus hijos legítimos y bastardos, y, por supuesto, su crédito con los comerciantes.
 dlga_ransom_broker_info_talk:ransom_broker_ransom_me|¿Podríais pagar mi rescate si yo cayera {prisionero/prisionera}?
-dlga_ransom_broker_ransom_me:ransom_broker_info_talk|Por supuesto. Yo soy bienvenido en todas las cortes de Calradia. ¡No hay mucha gente que pueda decirlo! Así que aseguraos de tener una bolsa de denares escondida en algún sitio y un sirviente leal que la pueda encontrar en caso de apuro.
+dlga_ransom_broker_ransom_me:ransom_broker_info_talk|Por supuesto. Yo soy bienvenido en todas las cortes de Calradia. ¡No hay mucha gente que pueda decirlo! Así que aseguraos de tener una bolsa de Libras escondida en algún sitio y un sirviente leal que la pueda encontrar en caso de apuro.
 dlga_ransom_broker_info_talk:ransom_broker_pretalk|Eso es todo lo que necesito saber. Gracias.
 dlga_start:ransom_broker_talk|Saludos. Si tenéis algún prisionero, os lo compraré con mucho gusto.
 dlga_ransom_broker_pretalk:ransom_broker_talk|De todas formas, si tenéis prisioneros estaré encantado de comprarlos.
@@ -2042,7 +2042,7 @@ dlga_ransom_broker_talk:ransom_broker_ransom_companion|Quiero pagar el rescate d
 dlga_ransom_broker_ransom_companion:ransom_broker_ransom_companion_choose|¿De quién deseáis pagar el rescate?
 dlga_ransom_broker_ransom_companion_choose:ransom_broker_ransom_companion_name_sum|De {s4}
 dlga_ransom_broker_ransom_companion_choose:ransom_broker_pretalk|Olvidadlo.
-dlga_ransom_broker_ransom_companion_name_sum:ransom_broker_ransom_companion_verify|Dejadme comprobar mis notas... sí, aquí está. Vuestro amigo está prisionero en la mazmorra de {s7}. ¡Qué curioso! Recuerdo haber oído que allí las ratas son asombrosamente grandes... como mastines, dicen algunos. Bien, veamos... Por la muy razonable cantidad de {reg5} denares, que incluye tanto el pago del rescate como mi comisión y los gastos asociados, podemos hacer que {s5} disfrute una vez más de su libertad. ¿Qué decís?
+dlga_ransom_broker_ransom_companion_name_sum:ransom_broker_ransom_companion_verify|Dejadme comprobar mis notas... sí, aquí está. Vuestro amigo está prisionero en la mazmorra de {s7}. ¡Qué curioso! Recuerdo haber oído que allí las ratas son asombrosamente grandes... como mastines, dicen algunos. Bien, veamos... Por la muy razonable cantidad de {reg5} Libras, que incluye tanto el pago del rescate como mi comisión y los gastos asociados, podemos hacer que {s5} disfrute una vez más de su libertad. ¿Qué decís?
 dlga_ransom_broker_ransom_companion_verify:ransom_broker_ransom_companion_accept|Aquí tenéis el dinero.
 dlga_ransom_broker_ransom_companion_verify:ransom_broker_ransom_companion_refuse|Ahora mismo no puedo permitirme eso.
 dlga_ransom_broker_ransom_companion_accept:ransom_broker_talk|¡Espléndido! ¡En unos pocos días, creo yo, {s5} vendrá a reunirse con vos, guiñando los ojos bajo la luz del sol y deseando mostraros su agradecimiento! ¿Puedo ayudaros en alguna otra cosa?
@@ -2071,21 +2071,21 @@ dlga_tavern_traveler_talk:tavern_traveler_pretender_location|Necesito saber dón
 dlga_tavern_traveler_pretender_location:tavern_traveler_pretender_location_ask|¿De quién se trata?
 dlga_tavern_traveler_pretender_location_ask:tavern_traveler_pretender_location_ask_2|{s11}
 dlga_tavern_traveler_pretender_location_ask:tavern_traveler_pretalk|No importa.
-dlga_tavern_traveler_pretender_location_ask_2:tavern_traveler_pretender_location_ask_money|Puedo revelaros esta información por una módica cantidad, digamos 30 denares.
-dlga_tavern_traveler_pretender_location_ask_money:tavern_traveler_pretender_location_tell|De acuerdo. Aquí tenéis 30 denares.
+dlga_tavern_traveler_pretender_location_ask_2:tavern_traveler_pretender_location_ask_money|Puedo revelaros esta información por una módica cantidad, digamos 30 Libras.
+dlga_tavern_traveler_pretender_location_ask_money:tavern_traveler_pretender_location_tell|De acuerdo. Aquí tenéis 30 Libras.
 dlga_tavern_traveler_pretender_location_ask_money:tavern_traveler_pretalk|Olvidadlo.
 dlga_tavern_traveler_pretender_location_tell:tavern_traveler_pretalk|{s15} se encuentra ahora mismo en {s11}.
 dlga_tavern_traveler_talk:tavern_traveler_companion_location|Estoy buscando a uno de mis acompañantes...
 dlga_tavern_traveler_companion_location:tavern_traveler_companion_location_ask|Tal vez yo pueda ayudaros. ¿A quién estáis buscando?
 dlga_tavern_traveler_companion_location_ask:tavern_traveler_companion_location_ask_2|A {s11}
 dlga_tavern_traveler_companion_location_ask:tavern_traveler_pretalk|No importa.
-dlga_tavern_traveler_companion_location_ask_2:tavern_traveler_companion_location_ask_money|Me parece que sé dónde está {s15}. Por 30 denares, os lo diré.
-dlga_tavern_traveler_companion_location_ask_money:tavern_traveler_companion_location_tell|De acuerdo. Aquí tenéis 30 denares.
+dlga_tavern_traveler_companion_location_ask_2:tavern_traveler_companion_location_ask_money|Me parece que sé dónde está {s15}. Por 30 Libras, os lo diré.
+dlga_tavern_traveler_companion_location_ask_money:tavern_traveler_companion_location_tell|De acuerdo. Aquí tenéis 30 Libras.
 dlga_tavern_traveler_companion_location_ask_money:tavern_traveler_pretalk|Olvidadlo.
 dlga_tavern_traveler_companion_location_tell:tavern_traveler_pretalk|{s15} se encuentra ahora mismo en {s11}.{s12}
 dlga_tavern_traveler_talk:close_window|Adiós.
-dlga_start:tavern_traveler_answer|Saludos. Dicen que sois la clase de {hombre/mujer} a quien le interesaría saber que yo viajo frecuentemente a {s17}. Os diré todo lo que sé por sólo 100 denares.
-dlga_tavern_traveler_answer:tavern_traveler_continue|Aquí tenéis 100 denares. Decidme lo que sabéis.
+dlga_start:tavern_traveler_answer|Saludos. Dicen que sois la clase de {hombre/mujer} a quien le interesaría saber que yo viajo frecuentemente a {s17}. Os diré todo lo que sé por sólo 100 Libras.
+dlga_tavern_traveler_answer:tavern_traveler_continue|Aquí tenéis 100 Libras. Decidme lo que sabéis.
 dlga_tavern_traveler_answer:close_window|Lo siento. No me interesa.
 dlga_tavern_traveler_continue:close_window|Bueno, eso es todo lo que puedo deciros. Adiós.
 dlga_start:bookseller_talk|Buen día, {señor/señora}, ¿echaréis un vistazo a mis libros?
@@ -2102,7 +2102,7 @@ dlga_minstrel_courtship_poem:minstrel_courtship_poem_teach.1|Puedo enseñaros el
 dlga_minstrel_courtship_poem:minstrel_courtship_poem_teach.2|Puedo enseñaros la historia de Kais y Layali. Una historia sencilla y triste. El pastor, Kais, y la hija del noble, Layali, se aman, pero no pueden casarse. El poema es el lamento de Kais al deambular sólo, incapaz de olvidar a su verdadero amor, volviéndose loco de añoranza. Algunas damas se derriten con la dulzura de su lamento; otras lo consideran patético.
 dlga_minstrel_courtship_poem:minstrel_courtship_poem_teach.3|Puedo enseñaros la saga de Helgered y Kara. Es una historia heroica llena de sangre y batallas. La dama guerrera Kara elige al guerrero Helgered como amante, ya que es el único hombre que puede derrotarla en combate. Su padre, que la había prometido a otro, llega con sus hijos y guerreros a matar a Helgered. Luchan y Helgered y Kara acaban con todos excepto con hermano menor de Kara, a quien ella adora, pero que al hacerse mayor venga a su padre matando a Helgered. La representación del guerrero y la dama guerrera como iguales es del gusto de algunas mujeres, pero para otras una heroína portando mallas y cubierta de sangre resulta repulsiva.
 dlga_minstrel_courtship_poem:minstrel_courtship_poem_teach.4|Puedo enseñaros el poema, 'Una Conversación en el Jardín'. Es un poema cómico que satiriza las conversaciones amorosas. Un amante se cuela en un jardín de Veluca y trata de seducir a su dama con palabras ingeniosas. Ella contrarresta sus avances una y otra vez y, cuando él ya ha perdido toda esperanza, lo abraza y le dice que siempre le ha deseado, pero con sus condiciones, no las de él. Una dama con sentido del humor la encontraría divertida, pero puede que otras crean que os estáis mofando de ellas.
-dlga_minstrel_courtship_poem_teach:minstrel_courtship_poem_teach_2|Para enseñároslo necesito de vuestro tiempo y, obviamente, una pequeña paga. 300 denares serán suficientes.
+dlga_minstrel_courtship_poem_teach:minstrel_courtship_poem_teach_2|Para enseñároslo necesito de vuestro tiempo y, obviamente, una pequeña paga. 300 Libras serán suficientes.
 dlga_minstrel_courtship_poem:minstrel_pretalk|Creo que ya sabéis todos los poemas que puedo enseñaros.
 dlga_minstrel_courtship_poem_teach_2:minstrel_courtship_poem_teach_3|Sí, quiero aprender ése.
 dlga_minstrel_courtship_poem_teach_2:minstrel_pretalk|Olvidadlo.
@@ -2184,13 +2184,13 @@ dlga_farmer_from_bandit_village_accepted:close_window|Que Dios os bendiga, {señ
 dlga_farmer_from_bandit_village_denied:close_window|Como queráis, {señor/señora}. Perdonad la molestia.
 dlga_farmer_from_bandit_village_barter:farmer_from_bandit_village_5|Somos unos pobres campesinos, {señor/señora}, y los bandidos ya nos han quitado casi todo lo que tenemos en este mundo. Pero compartiremos gustosamente con vos lo que nos quede. Y siempre os estaremos agradecidos por la ayuda brindada.
 dlga_start:close_window.37|¡Mis más sinceras gracias por traerme de vuelta! Estoy deseando ver a mi familia. Adiós.
-dlga_start:mercenary_tavern_talk|¿Necesitáis mercenarios, {señor/señora}? {reg3?Yo y {reg4?{reg3} de mis compañeros:uno de mis compañeros} estamos:Estoy} buscando un líder. Nos uniremos a vos por {reg5} denares.
+dlga_start:mercenary_tavern_talk|¿Necesitáis mercenarios, {señor/señora}? {reg3?Yo y {reg4?{reg3} de mis compañeros:uno de mis compañeros} estamos:Estoy} buscando un líder. Nos uniremos a vos por {reg5} Libras.
 dlga_start:mercenary_after_recruited|¿Qué ordenes tenéis, {señor/señora}?
 dlga_mercenary_after_recruited:mercenary_after_recruited_2|Preparaos. Salimos al alba.
 dlga_mercenary_after_recruited:mercenary_after_recruited_2.1|Tomaos vuestro tiempo. Nos quedaremos en esta ciudad durante un tiempo.
 dlga_mercenary_after_recruited_2:close_window|Sí, {señor/señora}. Estaremos listos cuando nos lo indiquéis.
-dlga_mercenary_tavern_talk:mercenary_tavern_talk_hire|De acuerdo. Os contrato a todos. Aquí tenéis {reg5} denares.
-dlga_mercenary_tavern_talk:mercenary_tavern_talk_hire.1|De acuerdo. Pero sólo puedo contratar a {reg6} de vosotros. Aquí tenéis {reg5} denares.
+dlga_mercenary_tavern_talk:mercenary_tavern_talk_hire|De acuerdo. Os contrato a todos. Aquí tenéis {reg5} Libras.
+dlga_mercenary_tavern_talk:mercenary_tavern_talk_hire.1|De acuerdo. Pero sólo puedo contratar a {reg6} de vosotros. Aquí tenéis {reg5} Libras.
 dlga_mercenary_tavern_talk_hire:close_window|{s17}
 dlga_mercenary_tavern_talk:tavern_mercenary_cant_lead|Suena bien. Pero por ahora no me puedo permitir contratar a más hombres.
 dlga_tavern_mercenary_cant_lead:close_window|Qué lástima. Bueno, {reg3?estaremos:estaré} por aquí durante un tiempo, si necesitáis contratar a alguien.
@@ -2246,12 +2246,12 @@ dlga_master_craftsman_talk:master_craftsman_accounts|Repasemos las cuentas.
 dlga_master_craftsman_talk:master_craftsman_pretalk|Revisemos los inventarios.
 dlga_master_craftsman_talk:master_craftsman_pretalk.1|Quiero que vendáis los productos según vayan saliendo.
 dlga_master_craftsman_talk:master_craftsman_pretalk.2|Quiero que almacenéis los productos en el almacén hasta que yo llegue.
-dlga_master_craftsman_accounts:master_craftsman_pretalk|Ahora producimos {s3} por valor de {reg1} denares cada semana, mientras que la cantidad de {s4} que es necesaria para producirlo cuesta {reg2}, y el trabajo y mantenimiento son {reg3}.{s9} Esto significa que teóricamente entramos en {s12} de {reg0} denares a la semana, asumiendo que no hay materias primas en el inventario y que vendemos directamente al mercado.
+dlga_master_craftsman_accounts:master_craftsman_pretalk|Ahora producimos {s3} por valor de {reg1} Libras cada semana, mientras que la cantidad de {s4} que es necesaria para producirlo cuesta {reg2}, y el trabajo y mantenimiento son {reg3}.{s9} Esto significa que teóricamente entramos en {s12} de {reg0} Libras a la semana, asumiendo que no hay materias primas en el inventario y que vendemos directamente al mercado.
 dlga_master_craftsman_talk:master_craftsman_production_options|¿Podríais explicarme qué opciones tengo relativas a la producción?
 dlga_master_craftsman_production_options:master_craftsman_production_options_2|Naturalmente, mi {señor/señora}. Casi siempre, lo más rentable para vos sería dejar que nosotros compremos las materias primas y vendamos los productos finales directamente al mercado. Gracias a nuestras sólidas relaciones con los comerciantes locales, solemos conseguir buenos precios.
 dlga_master_craftsman_production_options_2:master_craftsman_pretalk|No obstante, si os parece que podéis conseguir materias primas más baratas fuera de {s5}, podéis colocarlas en el inventario y utilizaremos ésas en vez de comprar en el mercado. Igualmente, si os parece que podéis conseguir un precio mejor para los productos en otra parte, decidnos que los depositemos en los almacenes y así podréis disponer de ellos.
 dlga_master_craftsman_talk:master_craftsman_auction_price|No voy a poder continuar manteniendo esta empresa.
-dlga_master_craftsman_auction_price:master_craftsman_auction_decide|Es una pena, mi {señor/señora}. Si vendemos las tierras y el equipamiento, y liquidamos los inventarios, calculo que podemos conseguir {reg4} denares.
+dlga_master_craftsman_auction_price:master_craftsman_auction_decide|Es una pena, mi {señor/señora}. Si vendemos las tierras y el equipamiento, y liquidamos los inventarios, calculo que podemos conseguir {reg4} Libras.
 dlga_master_craftsman_auction_decide:master_craftsman_liquidation|Me parece razonable. Por favor, proceded con la venta.
 dlga_master_craftsman_auction_decide:master_craftsman_pretalk|Hmm. Aplacémoslo un poco.
 dlga_master_craftsman_liquidation:close_window|Como deseéis. Ha sido un honor trabajar para vos.
@@ -2260,39 +2260,39 @@ dlga_master_craftsman_talk:close_window.1|Eso es todo por ahora.
 dlga_start:mayor_begin|Buen día, mi señor.
 dlga_start:mayor_talk|Hola {desconocido/desconocida}, supongo que acabáis de llegar a {s9}. Soy el Maestro de la Cofradía de esta ciudad.
 dlga_start:mayor_begin.1|Buen día, {playername}.
-dlga_mayor_begin:lord_persuade_lords_to_make_peace_completed|{playername}, ha sido una hazaña increíble conseguir que {s14} y {s15} hagan las paces, y vos lo habéis hecho posible. Vuestra implicación no sólo ha servido para salvar a esta ciudad del desastre, sino para salvar miles de vidas y poner fin a todo el dolor que esta amarga guerra ha causado. Como ciudadanos de {s19}, sabed que honraremos nuestra palabra y que estamos dispuestos a pagar los {reg12} denares que prometimos.
+dlga_mayor_begin:lord_persuade_lords_to_make_peace_completed|{playername}, ha sido una hazaña increíble conseguir que {s14} y {s15} hagan las paces, y vos lo habéis hecho posible. Vuestra implicación no sólo ha servido para salvar a esta ciudad del desastre, sino para salvar miles de vidas y poner fin a todo el dolor que esta amarga guerra ha causado. Como ciudadanos de {s19}, sabed que honraremos nuestra palabra y que estamos dispuestos a pagar los {reg12} Libras que prometimos.
 dlga_lord_persuade_lords_to_make_peace_completed:lord_persuade_lords_to_make_peace_pay|Gracias. Acepto el dinero.
 dlga_lord_persuade_lords_to_make_peace_completed:lord_persuade_lords_to_make_peace_no_pay|No es necesario que me paguéis. Sólo hice lo que debía.
-dlga_lord_persuade_lords_to_make_peace_pay:close_window|Oh, claro, por supuesto. Ya teníamos el dinero para vos. Tomad, aceptad por favor estos {reg12} denares así como nuestras más sinceras gracias. Yo y las gentes de esta ciudad no olvidaremos vuestra ayuda.
+dlga_lord_persuade_lords_to_make_peace_pay:close_window|Oh, claro, por supuesto. Ya teníamos el dinero para vos. Tomad, aceptad por favor estos {reg12} Libras así como nuestras más sinceras gracias. Yo y las gentes de esta ciudad no olvidaremos vuestra ayuda.
 dlga_lord_persuade_lords_to_make_peace_no_pay:close_window|Sois sin duda una persona extraordinaria, {señor/señora}, y es un honor para mí haberos conocido. No sólo conseguisteis lo que parecía imposible y pusisteis fin a esta terrible guerra, sino que ni siquiera aceptáis una recompensa por ello. Muy bien, no insistiré sobre el tema, pero sabed que gozaréis de nuestro eterno respeto y gratitud.
-dlga_mayor_begin:lord_deal_with_night_bandits_completed|Muy buen trabajo, {playername}, habéis acabado con esos indeseables malhechores. Os agradecemos sinceramente vuestra ayuda, y aceptad por favor esta recompensa de 150 denares.
+dlga_mayor_begin:lord_deal_with_night_bandits_completed|Muy buen trabajo, {playername}, habéis acabado con esos indeseables malhechores. Os agradecemos sinceramente vuestra ayuda, y aceptad por favor esta recompensa de 150 Libras.
 dlga_lord_deal_with_night_bandits_completed:close_window|Ha sido un placer, {s65}.
 dlga_mayor_begin:mayor_looters_quest_response|Ah, {playername}. ¿Tenéis algún progreso del que informar?
 dlga_mayor_looters_quest_response:mayor_looters_quest_destroyed|He matado a algunos salteadores.
 dlga_mayor_looters_quest_response:mayor_looters_quest_goods|Os he traído algunas mercancías.
 dlga_mayor_looters_quest_response:close_window|Aún no, señor. Adiós.
-dlga_mayor_looters_quest_destroyed:mayor_looters_quest_destroyed_2|Sí, mis exploradores lo vieron todo. ¡Eso debería servir para que otros se lo piensen dos veces antes de volverse malhechores! La recompensa es de 40 denares por cada banda, así que eso hace {reg1} en total. Aquí está vuestro dinero, como se os prometió.
+dlga_mayor_looters_quest_destroyed:mayor_looters_quest_destroyed_2|Sí, mis exploradores lo vieron todo. ¡Eso debería servir para que otros se lo piensen dos veces antes de volverse malhechores! La recompensa es de 40 Libras por cada banda, así que eso hace {reg1} en total. Aquí está vuestro dinero, como se os prometió.
 dlga_mayor_looters_quest_destroyed_2:close_window|¡Y ésas no son las únicas buenas noticias! Gracias a vos, los salteadores han dejado de ser una amenaza. No hemos tenido un solo ataque desde hace algún tiempo. Si queda alguno, o bien ha huido o se ha escondido a conciencia. Eso es bueno para los negocios, ¡y lo que es bueno para los negocios es bueno para la ciudad! Creo que con eso termina nuestro acuerdo, {playername}. Por favor, aceptad este dinero como muestra de mi gratitud. Gracias, y adiós.
 dlga_mayor_looters_quest_destroyed_2:mayor_looters_quest_response|¿Necesitáis algo más?
-dlga_mayor_looters_quest_goods:mayor_looters_quest_goods_response|Ja, ¡sabía que podía contar con vos! Simplemente decidme qué objeto debo recoger de vuestro equipaje, y enviaré a algunos hombres a por él. Aún sigo necesitando {reg1} denares en mercancías.
+dlga_mayor_looters_quest_goods:mayor_looters_quest_goods_response|Ja, ¡sabía que podía contar con vos! Simplemente decidme qué objeto debo recoger de vuestro equipaje, y enviaré a algunos hombres a por él. Aún sigo necesitando {reg1} Libras en mercancías.
 dlga_mayor_looters_quest_goods_response:mayor_looters_quest_goods_2|{s5}
 dlga_mayor_looters_quest_goods_response:mayor_looters_quest_goods_3|Nada por el momento, señor.
 dlga_mayor_looters_quest_goods_3:mayor_looters_quest_response|¿Necesitáis algo más?
-dlga_mayor_looters_quest_goods_2:mayor_looters_quest_goods_response|Excelente, aquí tenéis el dinero para vuestro {s6}. ¿Tenéis alguna otra mercancía para mí? Aún sigo necesitando {reg1} denares en mercancías.
+dlga_mayor_looters_quest_goods_2:mayor_looters_quest_goods_response|Excelente, aquí tenéis el dinero para vuestro {s6}. ¿Tenéis alguna otra mercancía para mí? Aún sigo necesitando {reg1} Libras en mercancías.
 dlga_mayor_looters_quest_goods_2:close_window|Bien hecho, {playername}, ésas son las últimas mercancías que necesito. Aquí tenéis el dinero para vuestro {s6}, y un pequeño extra por ayudarme. Me temo que no seguiré pagando por mercancías ni tampoco habrá recompensa por los salteadores, pero podéis seguir cazando a esos desgraciados si aún quedan. Gracias por vuestra ayuda, no lo olvidaré.
-dlga_mayor_begin:close_window|Es bueno volver a veros, {playername}. He oído que habéis entregado el ganado con éxito. Le diré a los mercaderes que sois de fiar. Y aquí está vuestra paga, {reg8} denares.
+dlga_mayor_begin:close_window|Es bueno volver a veros, {playername}. He oído que habéis entregado el ganado con éxito. Le diré a los mercaderes que sois de fiar. Y aquí está vuestra paga, {reg8} Libras.
 dlga_mayor_begin:move_cattle_herd_failed|He oído que habéis perdido el ganado que llevabais de camino a {s9}. He tenido muchos problemas para explicarle vuestro fracaso al dueño del ganado, {señor/señora}. ¿Tenéis algo que decir?
 dlga_move_cattle_herd_failed:move_cattle_herd_failed_2|Lo siento. Pero me atacaron por el camino.
 dlga_move_cattle_herd_failed:move_cattle_herd_failed_2.1|Lo siento. Los estúpidos animales se escaparon durante la noche.
-dlga_move_cattle_herd_failed_2:merchant_ask_for_debts|Bueno, era responsabilidad vuestra el entregar el ganado sano y salvo, en cualquier caso. Debéis saber que el dueño del ganado demandó que se le compensaran las pérdidas y tuve que darle 1000 denares. Así que me debéis ese dinero.
-dlga_mayor_begin:close_window.1|{Estimado/Estimada} {playername}. Estoy en deuda con vos por traer de vuelta a la hija de mi amigo. Por favor, tomad estos {reg8} denares que os prometí. Mi amigo hubiera deseado daros más, pero tener que pagar el rescate le ha dejado en la ruina.
-dlga_mayor_begin:mayor_friendly_pretalk|Bueno, parece que fuisteis capaz de encontrar a esos bandidos, y enseñarles lo que les ocurre a quienes impiden el comercio. Aquí tenéis vuestra recompensa: {reg5} denares. Os lo merecéis, y os estamos muy agradecidos.
-dlga_mayor_begin:mayor_friendly_pretalk.1|He oído hablar de vuestras hazañas. Les habéis dado su merecido a esos bandidos. Veo que sois tan eficiente como dicen. Aquí tenéis vuestra recompensa: {reg5} denares. Me gustaría daros más pero esos bandidos me han llevado casi a la bancarrota.
-dlga_mayor_begin:merchant_ask_for_debts|Según mis cuentas, debéis a la cofradía de mercaderes {reg1} denares. Será mejor que los recaude ya.
+dlga_move_cattle_herd_failed_2:merchant_ask_for_debts|Bueno, era responsabilidad vuestra el entregar el ganado sano y salvo, en cualquier caso. Debéis saber que el dueño del ganado demandó que se le compensaran las pérdidas y tuve que darle 1000 Libras. Así que me debéis ese dinero.
+dlga_mayor_begin:close_window.1|{Estimado/Estimada} {playername}. Estoy en deuda con vos por traer de vuelta a la hija de mi amigo. Por favor, tomad estos {reg8} Libras que os prometí. Mi amigo hubiera deseado daros más, pero tener que pagar el rescate le ha dejado en la ruina.
+dlga_mayor_begin:mayor_friendly_pretalk|Bueno, parece que fuisteis capaz de encontrar a esos bandidos, y enseñarles lo que les ocurre a quienes impiden el comercio. Aquí tenéis vuestra recompensa: {reg5} Libras. Os lo merecéis, y os estamos muy agradecidos.
+dlga_mayor_begin:mayor_friendly_pretalk.1|He oído hablar de vuestras hazañas. Les habéis dado su merecido a esos bandidos. Veo que sois tan eficiente como dicen. Aquí tenéis vuestra recompensa: {reg5} Libras. Me gustaría daros más pero esos bandidos me han llevado casi a la bancarrota.
+dlga_mayor_begin:merchant_ask_for_debts|Según mis cuentas, debéis a la cofradía de mercaderes {reg1} Libras. Será mejor que los recaude ya.
 dlga_merchant_ask_for_debts:merchant_debts_paid|Bien. Os pagaré mi deuda.
 dlga_merchant_debts_paid:mayor_pretalk|Excelente. Haré saber al resto de mercaderes que ya no tenéis ninguna deuda con nosotros.
 dlga_merchant_ask_for_debts:merchant_debts_not_paid|Me temo que no puedo pagar esa suma ahora.
-dlga_merchant_debts_not_paid:close_window|En ese caso, me temo que no puedo tratar con vos. Normas de la cofradía... Volved cuando podáis pagarme los {reg1} denares. Y que sepáis que os cobraremos intereses por vuestra deuda. Así que cuanto antes paguéis, mejor.
+dlga_merchant_debts_not_paid:close_window|En ese caso, me temo que no puedo tratar con vos. Normas de la cofradía... Volved cuando podáis pagarme los {reg1} Libras. Y que sepáis que os cobraremos intereses por vuestra deuda. Así que cuanto antes paguéis, mejor.
 dlga_mayor_begin:mayor_talk|¿Qué puedo hacer por vos?
 dlga_mayor_friendly_pretalk:mayor_talk|Y ahora... ¿qué más puedo hacer por vos?
 dlga_mayor_pretalk:mayor_talk|¿Sí?
@@ -2321,7 +2321,7 @@ dlga_investment_choose_enterprise:investment_summary.6|Una fábrica de telas y d
 dlga_investment_choose_enterprise:investment_summary.7|Una fábrica de telas, para hacer paños de lana a partir de lana
 dlga_investment_choose_enterprise:investment_summary.8|Una fábrica de telas, para hacer paños de lino
 dlga_investment_choose_enterprise:mayor_pretalk|Olvidadlo.
-dlga_investment_summary:mayor_investment_confirm|Muy bien, señor. La tierra y los materiales para poder construir vuestra {s3} os costarán {reg7} denares. Ahora mismo, vuestra {s3} producirá {s4} por valor de {reg1} denares cada semana, mientras que la materia prima de {s6} necesaria para fabricar ese lote será {reg2} y los gastos de personal y mantenimiento serán {reg3}.{s9}. Calculo que vuestro beneficio sería unos {reg0} denares semanales. Esto asumiendo, por supuesto, que los precios permaneciesen constantes... lo cual, eso os lo puedo garantizar, no será así. ¿Deseáis continuar?
+dlga_investment_summary:mayor_investment_confirm|Muy bien, señor. La tierra y los materiales para poder construir vuestra {s3} os costarán {reg7} Libras. Ahora mismo, vuestra {s3} producirá {s4} por valor de {reg1} Libras cada semana, mientras que la materia prima de {s6} necesaria para fabricar ese lote será {reg2} y los gastos de personal y mantenimiento serán {reg3}.{s9}. Calculo que vuestro beneficio sería unos {reg0} Libras semanales. Esto asumiendo, por supuesto, que los precios permaneciesen constantes... lo cual, eso os lo puedo garantizar, no será así. ¿Deseáis continuar?
 dlga_mayor_investment_confirm:mayor_investment_purchase|Sí. Aquí tenéis el dinero para la tierra.
 dlga_mayor_investment_confirm:mayor_pretalk|No, eso no me resulta rentable por el momento.
 dlga_mayor_investment_purchase:mayor_pretalk|Muy bien. Vuestra empresa debería estar en condiciones de producir en aproximadamente una semana. La siguiente vez que volváis, y de aquí en adelante, deberíais hablar con vuestro {s4} sobre su marcha.
@@ -2364,7 +2364,7 @@ dlga_merchant_quest_requested:merchant_quest_brief|Bueno, parecéis bastante cap
 dlga_merchant_quest_brief:merchant_quest_looters_choice|Hemos tenido algunas luchas cerca de {s5} últimamente, y con todo el caos resultante algunos de nuestros vecinos menos ejemplares han intentado hacer su fortuna asaltando las tiendas y granjas durante la confusión. Se han llevado muchas mercancías valiosas. Necesito a alguien que les dé una lección a esos desgraciados. ¿Podría ser un trabajo para vos?
 dlga_merchant_quest_looters_choice:merchant_quest_looters_brief|Sí, lo haré.
 dlga_merchant_quest_looters_choice:merchant_quest_stall|Me temo que no puedo aceptar ese trabajo ahora.
-dlga_merchant_quest_looters_brief:close_window|¡Excelente! Encontraréis a los salteadores deambulando por el campo, probablemente intentado robar a la gente decente. Matad o capturad a esos indeseables, no me importa qué hagáis con ellos. Os pagaré una recompensa de 40 denares por cada banda de salteadores que destruyáis, hasta que se haya acabado con todos los salteadores.
+dlga_merchant_quest_looters_brief:close_window|¡Excelente! Encontraréis a los salteadores deambulando por el campo, probablemente intentado robar a la gente decente. Matad o capturad a esos indeseables, no me importa qué hagáis con ellos. Os pagaré una recompensa de 40 Libras por cada banda de salteadores que destruyáis, hasta que se haya acabado con todos los salteadores.
 dlga_merchant_quest_requested:merchant_quest_explain_2|Bueno, hay un gran favor que podéis hacernos... Como tal vez sepáis, una banda de {s10}s ha cruzado nuestras fronteras y asaltado a nuestra gente. {s5} está sufriendo mucha presión por parte de sus vasallos más belicosos para que responda con una declaración de guerra. Por desgracia, mientras los grandes señores de esta tierra se enriquecen con el derramamiento de sangre, nosotros, los plebeyos, siempre somos quienes sufren.
 dlga_merchant_quest_explain_2:merchant_quest_brief|No digo que {s5} deba ignorar esta agresión, ¡claro que no! Pero si hiciera que uno de sus señores respondiera, el ciclo de provocación comenzaría nuevamente y terminaría en confrontación abierta. Ahora bien, si un extranjero se enfrentara y venciera a un señor {s10}, el honor quedaría reparado y apaciguaría el clamor de guerra. Si el señor vencido fuera un alborotador conocido, {s7}, entonces los {s10}s podrían dejar pasar el agravio.
 dlga_merchant_quest_brief:merchant_quest_retaliate_confirm|Necesitamos que ataquéis y venzáis a {s7}. No es una tarea fácil, y puede que dañéis vuestra relación con los {s10}s, pero os estaríamos agradecidos. Nosotros no reconoceríamos haber hecho tratos con vos, pero nos aseguraríamos de que recibáis una buena recompensa... ¿Podríais hacerlo?
@@ -2385,11 +2385,11 @@ dlga_merchant_quest_track_bandits_choice:merchant_quest_track_bandits_brief|Sí,
 dlga_merchant_quest_track_bandits_brief:close_window|Muy bien. La banda debe haberse desplazado ya, pero es muy posible que otros viajeros los hayan visto.
 dlga_merchant_quest_track_bandits_choice:merchant_quest_stall|Me temo que no puedo hacer ese trabajo ahora mismo.
 dlga_merchant_quest_requested:merchant_quest_brief.2|¿Buscáis trabajo? De hecho, quería encontrar a alguien que pudiese entregar una partida de {s4}. Tal vez vos podáis hacerlo...
-dlga_merchant_quest_brief:merchant_quest_brief_deliver_wine|Tengo un cargamento de {s6} que debe ser entregado en la taberna de {s4}. Si podéis llevar {reg5} unidades de {s6} a {s4} en 7 días, podríais ganar {reg8} denares. ¿Qué decís?
+dlga_merchant_quest_brief:merchant_quest_brief_deliver_wine|Tengo un cargamento de {s6} que debe ser entregado en la taberna de {s4}. Si podéis llevar {reg5} unidades de {s6} a {s4} en 7 días, podríais ganar {reg8} Libras. ¿Qué decís?
 dlga_merchant_quest_brief_deliver_wine:merchant_quest_taken|Bien. Haré la entrega.
 dlga_merchant_quest_brief_deliver_wine:merchant_quest_stall|Me temo que no puedo llevar el cargamento ahora mismo.
 dlga_merchant_quest_requested:merchant_quest_brief.3|¿Buscáis trabajo? Precisamente estaba buscando a alguien para escoltar una caravana. Quizás vos podáis hacerlo...
-dlga_merchant_quest_brief:escort_merchant_caravan_quest_brief|Voy a enviar una caravana de mercancías a {s8}. Sin embargo, con todos esos bandidos y desertores sueltos por ahí, no quiero enviarla sin una escolta. Si podéis conducir la caravana hasta {s8} en 15 días, ganaréis {reg8} denares. Por supuesto, vuestro grupo tendrá que ser de al menos {reg4} personas para poder ofrecerles protección.
+dlga_merchant_quest_brief:escort_merchant_caravan_quest_brief|Voy a enviar una caravana de mercancías a {s8}. Sin embargo, con todos esos bandidos y desertores sueltos por ahí, no quiero enviarla sin una escolta. Si podéis conducir la caravana hasta {s8} en 15 días, ganaréis {reg8} Libras. Por supuesto, vuestro grupo tendrá que ser de al menos {reg4} personas para poder ofrecerles protección.
 dlga_escort_merchant_caravan_quest_brief:merchant_quest_taken|Bien. Escoltaré la caravana.
 dlga_escort_merchant_caravan_quest_brief:merchant_quest_stall|Me temo que no tengo tantos soldados conmigo.
 dlga_escort_merchant_caravan_quest_brief:merchant_quest_stall.1|Lo siento. No puedo hacerlo ahora mismo
@@ -2404,14 +2404,14 @@ dlga_merchant_caravan_follow_lead:close_window|Bien. Estaremos justo detrás de 
 dlga_escort_merchant_caravan_talk:merchant_caravan_stay_here|Quedaos aquí un rato. Iré a echar un vistazo por delante.
 dlga_merchant_caravan_stay_here:close_window|Bien. Os esperaremos aquí.
 dlga_merchant_quest_requested:merchant_quest_brief.4|En realidad, estaba buscando una persona capaz como vos. Tenemos a este grupo de bandidos especialmente problemáticos. Han invadido los alrededores de nuestra ciudad y se nutren de nuestras caravanas. Hasta ahora han evitado a todos los soldados y a la milicia. Si alguien no les para pronto los pies, me van a arruinar...
-dlga_merchant_quest_brief:troublesome_bandits_quest_brief|Os pagaré {reg8} denares si dais caza a esos bandidos problemáticos. Es un trabajo peligroso. Pero creo que vos sois {el hombre/la persona} capaz de hacerlo. ¿Qué decís?
+dlga_merchant_quest_brief:troublesome_bandits_quest_brief|Os pagaré {reg8} Libras si dais caza a esos bandidos problemáticos. Es un trabajo peligroso. Pero creo que vos sois {el hombre/la persona} capaz de hacerlo. ¿Qué decís?
 dlga_troublesome_bandits_quest_brief:merchant_quest_taken_bandits|Bien. Cazaré a esos bandidos.
 dlga_merchant_quest_taken_bandits:close_window|¿Lo haréis? Espléndido. Que tengáis buena suerte.
 dlga_troublesome_bandits_quest_brief:merchant_quest_stall|Lo siento. No tengo tiempo para eso ahora mismo.
 dlga_merchant_quest_requested:merchant_quest_brief.5|En realidad, estaba buscando alguien de fiar que pudiera ayudarme a llevar a cabo una importante misión. Un grupo de bandidos han secuestrado a la hija de un amigo mío y la retienen para cobrar el rescate. Mi amigo está dispuesto a pagarles, pero necesitamos a alguien que les lleve el dinero a esos sinvergüenzas y traiga a la damisela de vuelta sana y salva.
-dlga_merchant_quest_brief:kidnapped_girl_quest_brief|La cantidad que los bandidos piden como rescate es {reg12} denares. Os daré el dinero una vez aceptéis la misión. Tenéis 15 días para llevar el dinero a los bandidos, que estarán esperando cerca de la aldea de {s4}. Esos bastardos dijeron que matarían a la pobre muchacha si no les llega el dinero para entonces. Tendréis vuestra paga de {reg8} denares cuando traigáis a la damisela de vuelta sana y salva.
+dlga_merchant_quest_brief:kidnapped_girl_quest_brief|La cantidad que los bandidos piden como rescate es {reg12} Libras. Os daré el dinero una vez aceptéis la misión. Tenéis 15 días para llevar el dinero a los bandidos, que estarán esperando cerca de la aldea de {s4}. Esos bastardos dijeron que matarían a la pobre muchacha si no les llega el dinero para entonces. Tendréis vuestra paga de {reg8} Libras cuando traigáis a la damisela de vuelta sana y salva.
 dlga_kidnapped_girl_quest_brief:kidnapped_girl_quest_taken|Bien. Llevaré el dinero del rescate a los bandidos y regresaré con la damisela.
-dlga_kidnapped_girl_quest_taken:close_window|Perfecto. Sabía que podíamos confiar en vos para esto. Aquí está el dinero del rescate, {reg12} denares. Contadlo antes de cogerlo. Y, por favor, no cometáis ninguna imprudencia. Tened en cuenta que el bienestar de la damisela es lo más importante...
+dlga_kidnapped_girl_quest_taken:close_window|Perfecto. Sabía que podíamos confiar en vos para esto. Aquí está el dinero del rescate, {reg12} Libras. Contadlo antes de cogerlo. Y, por favor, no cometáis ninguna imprudencia. Tened en cuenta que el bienestar de la damisela es lo más importante...
 dlga_kidnapped_girl_quest_brief:merchant_quest_stall|Lo siento. No tengo tiempo para eso ahora mismo.
 dlga_start:close_window.40|No podemos hablar mientras estamos de guardia, {señor/señora}.
 dlga_kidnapped_girl_liberated_map:kidnapped_girl_liberated_map_2a|Sí. Venid conmigo. Nos vamos a casa.
@@ -2450,7 +2450,7 @@ dlga_kidnapped_girl_wait:close_window|¡Oh, por favor {señor/señora}, no me ab
 dlga_merchant_quest_about_job_2:lost_kidnapped_girl|Por desgracia, perdí a la damisela al volver hacia aquí...
 dlga_lost_kidnapped_girl:lost_kidnapped_girl_2|¡Oh, no! ¿Cómo voy a decirle esto a mi amigo?
 dlga_lost_kidnapped_girl_2:lost_kidnapped_girl_3|Lo siento. No pude hacer nada.
-dlga_lost_kidnapped_girl_3:lost_kidnapped_girl_4|Me habéis decepcionado, {playername}. Confiaba en vos. Le hablaré a la gente de vuestra incompetencia en esta misión. Además, quiero que me devolváis esos {reg8} denares que os di como pago por el rescate.
+dlga_lost_kidnapped_girl_3:lost_kidnapped_girl_4|Me habéis decepcionado, {playername}. Confiaba en vos. Le hablaré a la gente de vuestra incompetencia en esta misión. Además, quiero que me devolváis esos {reg8} Libras que os di como pago por el rescate.
 dlga_lost_kidnapped_girl_4:merchant_quest_about_job_5a|Por supuesto. Aquí los tenéis...
 dlga_merchant_quest_about_job_5a:close_window|Al menos tenéis la decencia de devolverme el dinero.
 dlga_lost_kidnapped_girl_4:merchant_quest_about_job_5b|Lo siento. No llevo esa cantidad encima.
@@ -2469,7 +2469,7 @@ dlga_merchant_quest_persuade_peace_6:merchant_quest_persuade_peace_7|No hay form
 dlga_merchant_quest_persuade_peace_7:merchant_quest_persuade_peace_8|Parece complicado. Pero lo intentaré.
 dlga_merchant_quest_persuade_peace_7:merchant_quest_persuade_peace_8.1|Por una cantidad adecuada, es posible.
 dlga_merchant_quest_persuade_peace_7:merchant_quest_persuade_peace_8.2|Olvidadlo. Esto no es problema mío.
-dlga_merchant_quest_persuade_peace_8:merchant_quest_persuade_peace_9|La mayoría de los mercaderes de la ciudad abrirían gustosos sus monederos para apoyar un plan así. Creo que podemos recaudar {reg12} denares entre todos nosotros. Os recompensaremos gustosos con esa suma, si podéis solucionar esto. Convenced a {s12} y a {s13} para que acepten un tratado de paz, y si alguno de ellos se muestra muy obstinado, aseguraos de que caiga prisionero y no se pueda pagar su rescate hasta que el acuerdo haya entrado en vigor.
+dlga_merchant_quest_persuade_peace_8:merchant_quest_persuade_peace_9|La mayoría de los mercaderes de la ciudad abrirían gustosos sus monederos para apoyar un plan así. Creo que podemos recaudar {reg12} Libras entre todos nosotros. Os recompensaremos gustosos con esa suma, si podéis solucionar esto. Convenced a {s12} y a {s13} para que acepten un tratado de paz, y si alguno de ellos se muestra muy obstinado, aseguraos de que caiga prisionero y no se pueda pagar su rescate hasta que el acuerdo haya entrado en vigor.
 dlga_merchant_quest_persuade_peace_9:merchant_quest_persuade_peace_10|De acuerdo. Haré lo que pueda.
 dlga_merchant_quest_persuade_peace_9:merchant_quest_persuade_peace_no|Lo siento. No puedo hacer esto.
 dlga_merchant_quest_persuade_peace_10:close_window|Excelente. Tendréis nuestras bendiciones. Espero que podáis arreglároslas con esos dos vejestorios. Estaremos esperando y confiando en recibir buenas noticias.
@@ -2480,7 +2480,7 @@ dlga_merchant_quest_deal_with_night_bandits:deal_with_night_bandits_quest_taken|
 dlga_merchant_quest_deal_with_night_bandits:merchant_quest_stall|Disculpadme, no me interesa.
 dlga_deal_with_night_bandits_quest_taken:mayor_pretalk|Me habéis quitado un peso de encima, {playername}. Podéis contar con una bonita recompensa si lográis tener éxito. Pero que no os maten, ¿eh?
 dlga_merchant_quest_requested:merchant_quest_brief.6|Uno de los mercaderes de aquí está buscando pastores para llevar su ganado al mercado de {s13}.
-dlga_merchant_quest_brief:move_cattle_herd_quest_brief|El ganado debe llegar a {s13} en un máximo de 30 días. Si es antes, mucho mejor, pero el plazo máximo no puede sobrepasar los 30 días. Si podéis hacerlo, yo os pagaría {reg8} denares por vuestro esfuerzo. ¿Os interesa?
+dlga_merchant_quest_brief:move_cattle_herd_quest_brief|El ganado debe llegar a {s13} en un máximo de 30 días. Si es antes, mucho mejor, pero el plazo máximo no puede sobrepasar los 30 días. Si podéis hacerlo, yo os pagaría {reg8} Libras por vuestro esfuerzo. ¿Os interesa?
 dlga_move_cattle_herd_quest_brief:move_cattle_herd_quest_taken|Sí, puedo llevar el ganado a {s13}.
 dlga_move_cattle_herd_quest_brief:merchant_quest_stall|Lo siento, pero no.
 dlga_move_cattle_herd_quest_taken:mayor_pretalk|Espléndido. Podéis encontrar al rebaño justo a las afueras de la ciudad. Una vez hayáis llevado los animales a {s13}, regresad y os daré vuestra paga.
@@ -2520,24 +2520,24 @@ dlga_village_elder_ask_set_fire_explain_plan:village_elder_ask_set_fire_2|Quiero
 dlga_village_elder_ask_set_fire_2:village_elder_ask_set_fire_9|Como queráis, {señor/mi señora}. Habéis sido {un buen amigo/una buena amiga} de esta aldea y, a pesar del riesgo, estaríamos encantados de devolveros el favor. ¿Cuándo queréis que comience el fuego?
 dlga_village_elder_ask_set_fire_2:close_window|Lo siento, {señor/mi señora}. Me perdonaréis por decir esto, pero no tenemos razón para creeros. Es demasiado peligroso.
 dlga_village_elder_ask_set_fire_2:village_elder_ask_set_fire_3|Como digáis, {señor/mi señora}. Pero es muy arriesgado. ¿Qué tipo de recompensa obtendremos?
-dlga_village_elder_ask_set_fire_3:village_elder_ask_set_fire_4|Puedo daros 100 denares.
-dlga_village_elder_ask_set_fire_3:village_elder_ask_set_fire_6|Puedo daros 200 denares.
-dlga_village_elder_ask_set_fire_3:village_elder_ask_set_fire_6.1|Puedo daros 300 denares.
+dlga_village_elder_ask_set_fire_3:village_elder_ask_set_fire_4|Puedo daros 100 Libras.
+dlga_village_elder_ask_set_fire_3:village_elder_ask_set_fire_6|Puedo daros 200 Libras.
+dlga_village_elder_ask_set_fire_3:village_elder_ask_set_fire_6.1|Puedo daros 300 Libras.
 dlga_village_elder_ask_set_fire_3:close_window|Olvidadlo.
 dlga_village_elder_ask_set_fire_4:village_elder_talk|Esto es una locura. No puedo asumir tal riesgo.
-dlga_village_elder_ask_set_fire_5:village_elder_ask_set_fire_7|Entonces subamos la recompensa a 200 denares.
-dlga_village_elder_ask_set_fire_5:village_elder_ask_set_fire_6|Entonces subamos la recompensa a 300 denares.
-dlga_village_elder_ask_set_fire_5:village_elder_ask_set_fire_6.1|Entonces subamos la recompensa a 300 denares. Ésta es mi oferta final.
+dlga_village_elder_ask_set_fire_5:village_elder_ask_set_fire_7|Entonces subamos la recompensa a 200 Libras.
+dlga_village_elder_ask_set_fire_5:village_elder_ask_set_fire_6|Entonces subamos la recompensa a 300 Libras.
+dlga_village_elder_ask_set_fire_5:village_elder_ask_set_fire_6.1|Entonces subamos la recompensa a 300 Libras. Ésta es mi oferta final.
 dlga_village_elder_ask_set_fire_5:close_window|Olvidadlo.
 dlga_village_elder_ask_set_fire_6:village_elder_ask_set_fire_9|Muy bien. Me estáis pidiendo que corra un gran riesgo, pero lo haré. ¿Cuándo queréis que comience el fuego?
-dlga_village_elder_ask_set_fire_7:village_elder_talk|No puedo hacer algo tan peligroso por 200 denares.
+dlga_village_elder_ask_set_fire_7:village_elder_talk|No puedo hacer algo tan peligroso por 200 Libras.
 dlga_village_elder_ask_set_fire_9:village_elder_ask_set_fire_10|Continuad con las preparaciones. Necesito el fuego en una hora.
 dlga_village_elder_ask_set_fire_9:village_elder_ask_set_fire_11|Hacedlo a la medianoche. Esperaré una hora exactamente.
 dlga_village_elder_ask_set_fire_10:close_window|Muy bien, {señor/mi señora}. Haremos las preparaciones necesarias. Ahora, vos haced las vuestras.
 dlga_village_elder_ask_set_fire_11:close_window|Como queráis, {señor/mi señora}. Que los cielos os protejan.
 dlga_village_elder_talk:village_elder_recruit_start|¿Hay jóvenes en esta aldea que pudieran estar interesados en buscar fortuna en la guerra?
 dlga_village_elder_talk:close_window|[Irse]
-dlga_village_elder_buy_cattle:village_elder_buy_cattle_2|Tenemos {reg5} cabezas de ganado a un precio de {reg6} denares cada una. ¿Cuántas queréis comprar?
+dlga_village_elder_buy_cattle:village_elder_buy_cattle_2|Tenemos {reg5} cabezas de ganado a un precio de {reg6} Libras cada una. ¿Cuántas queréis comprar?
 dlga_village_elder_buy_cattle:village_elder_buy_cattle_2.1|Me temo que no nos queda ganado en la aldea, {señor/señora}.
 dlga_village_elder_buy_cattle_2:village_elder_buy_cattle_complete|Una.
 dlga_village_elder_buy_cattle_2:village_elder_buy_cattle_complete.1|Dos.
@@ -2547,7 +2547,7 @@ dlga_village_elder_buy_cattle_2:village_elder_buy_cattle_complete.4|Cinco.
 dlga_village_elder_buy_cattle_2:village_elder_pretalk|Olvidadlo.
 dlga_village_elder_buy_cattle_complete:village_elder_pretalk|Les diré a los pastores que agrupen a los animales y os los traigan, {señor/señora}. Seguro que vuestra compra os satisfará por completo.
 dlga_village_elder_recruit_start:village_elder_talk|No creo que a nadie le interese, {señor/señora}. ¿Hay algo más que pueda hacer por vos?
-dlga_village_elder_recruit_start:village_elder_recruit_decision|Para lo que decís, se me ocurre que hay {reg5}. Si podéis pagar 10 denares {reg7?por el equipo de cada uno:por su equipo}. ¿Os parece bien?
+dlga_village_elder_recruit_start:village_elder_recruit_decision|Para lo que decís, se me ocurre que hay {reg5}. Si podéis pagar 10 Libras {reg7?por el equipo de cada uno:por su equipo}. ¿Os parece bien?
 dlga_village_elder_recruit_decision:village_elder_pretalk|{reg7?Decidles:Decidle} que todo debe estar preparado enseguida.
 dlga_village_elder_recruit_decision:village_elder_pretalk.1|No, ahora no.
 dlga_village_elder_active_mission_1:village_elder_active_mission_2|Sí, {señor/señora}, ¿habéis hecho progresos?
@@ -2600,8 +2600,8 @@ dlga_arena_intro_2:arena_intro_3|Sí. Deberíais ver este lugar cuando hay un to
 dlga_arena_intro_3:arena_training_melee_intro|Habladme de las luchas cuerpo a cuerpo.
 dlga_arena_training_melee_intro:arena_training_melee_intro_2|Los luchadores y los caballeros se aburren esperando al próximo torneo, así que se han inventado el entrenamiento cuerpo a cuerpo. En realidad es una idea muy sencilla. Los luchadores saltan a la arena con un arma. No hay ni reglas, ni equipos. Todo el mundo se golpea entre sí hasta que sólo queda un luchador de pie. Suena divertido, ¿eh?
 dlga_arena_training_melee_intro_2:arena_training_melee_intro_reward|¿Hay alguna recompensa?
-dlga_arena_training_melee_intro_reward:arena_training_melee_intro_2|Sí que la hay. Algunos de los ricos de la ciudad ofrecen premios para aquellos luchadores que muestren gran destreza en la pelea. Si podéis derribar a {reg1} oponentes antes de caer, ganaréis {reg11} denares. Obtendréis {reg12} denares por tumbar al menos a {reg2} oponentes, {reg13} denares si podéis derrotar a {reg3} oponentes, y {reg14} denares si podéis sobrevivir lo bastante para derribar a {reg4} oponentes. Si conseguís ser la última persona de pie en la arena, ganaréis el gran premio de las peleas, {reg15} denares. Suena bien, ¿eh?
-dlga_arena_training_melee_explain_reward:arena_master_melee_pretalk|Algunos de los ricos de la ciudad ofrecen premios para aquellos luchadores que muestren gran destreza en la pelea. Si podéis derribar a {reg1} oponentes antes de caer, ganaréis {reg11} denares. Obtendréis {reg12} denares por tumbar al menos a {reg2} oponentes, {reg13} denares si podéis derrotar a {reg3} oponentes, y {reg14} denares si podéis sobrevivir lo bastante para derribar a {reg4} oponentes. Si conseguís ser la última persona de pie en la arena, ganaréis el gran premio de las peleas, {reg15} denares. Suena bien, ¿eh?
+dlga_arena_training_melee_intro_reward:arena_training_melee_intro_2|Sí que la hay. Algunos de los ricos de la ciudad ofrecen premios para aquellos luchadores que muestren gran destreza en la pelea. Si podéis derribar a {reg1} oponentes antes de caer, ganaréis {reg11} Libras. Obtendréis {reg12} Libras por tumbar al menos a {reg2} oponentes, {reg13} Libras si podéis derrotar a {reg3} oponentes, y {reg14} Libras si podéis sobrevivir lo bastante para derribar a {reg4} oponentes. Si conseguís ser la última persona de pie en la arena, ganaréis el gran premio de las peleas, {reg15} Libras. Suena bien, ¿eh?
+dlga_arena_training_melee_explain_reward:arena_master_melee_pretalk|Algunos de los ricos de la ciudad ofrecen premios para aquellos luchadores que muestren gran destreza en la pelea. Si podéis derribar a {reg1} oponentes antes de caer, ganaréis {reg11} Libras. Obtendréis {reg12} Libras por tumbar al menos a {reg2} oponentes, {reg13} Libras si podéis derrotar a {reg3} oponentes, y {reg14} Libras si podéis sobrevivir lo bastante para derribar a {reg4} oponentes. Si conseguís ser la última persona de pie en la arena, ganaréis el gran premio de las peleas, {reg15} Libras. Suena bien, ¿eh?
 dlga_arena_training_melee_intro_2:arena_training_melee_intro_3|¿Puedo unirme yo también?
 dlga_arena_training_melee_intro_3:arena_master_melee_talk|Ja ja. Estaríais mal de la cabeza si no quisierais. Por supuesto. Las luchas cuerpo a cuerpo están abiertas a todo el mundo. Precisamente va a haber una pronto. Podéis entrar a participar si queréis.
 dlga_start:arena_master_intro_1|Hola. Parecéis {nuevo/nueva} aquí. ¿Os importa decirme vuestro nombre?
@@ -2610,11 +2610,11 @@ dlga_arena_master_intro_2:arena_master_pre_talk|Un placer, {playername}. Soy el 
 dlga_start:arena_master_fight_result|.
 dlga_arena_master_fight_result:arena_master_pre_talk|Ja ja, menudos moratones lleváis. Pero no os preocupéis
 dlga_arena_master_fight_result:arena_master_pre_talk.1|Eh, os las habéis arreglado para echar abajo a {reg8} oponentes. No está mal. Pero con eso no conseguiréis nada de premio. Si yo fuera vos, volvería ahí y les enseñaría a todos lo que soy capaz de hacer...
-dlga_arena_master_fight_result:arena_master_pre_talk.2|Habéis luchado bastante bien ahí. Buenos movimientos. Prometéis, desde luego. Y os habéis ganado un premio de {reg10} denares por derribar a {reg8} oponentes.
-dlga_arena_master_fight_result:arena_master_pre_talk.3|Habéis peleado bien. Os las habéis arreglado para echar abajo no menos de {reg8} oponentes. Y, por supuesto, habéis ganado un premio de {reg10} denares.
-dlga_arena_master_fight_result:arena_master_pre_talk.4|¡Vuestra actuación ha sido increíble! Sois sin duda muy hábil en la lucha. No todo el mundo puede echar abajo a {reg8} personas en las peleas. Por supuesto, os merecéis un premio por esa actuación: {reg10} denares. Bien, ¿eh?
-dlga_arena_master_fight_result:arena_master_pre_talk.5|Ha sido una pelea realmente buena, {playername}. Tenéis unos movimientos estupendos, una táctica excelente. Y habéis ganado un premio de {reg10} denares por derribar a {reg8} oponentes.
-dlga_arena_master_fight_result:arena_master_pre_talk.6|¡Felicidades, {campeón/campeona}! ¡Vuestra lucha ahí dentro ha sido memorable! Os las habéis arreglado para ser la última persona de pie y derribar a todo el resto. Y naturalmente habéis ganado el gran premio de las peleas: {reg10} denares.
+dlga_arena_master_fight_result:arena_master_pre_talk.2|Habéis luchado bastante bien ahí. Buenos movimientos. Prometéis, desde luego. Y os habéis ganado un premio de {reg10} Libras por derribar a {reg8} oponentes.
+dlga_arena_master_fight_result:arena_master_pre_talk.3|Habéis peleado bien. Os las habéis arreglado para echar abajo no menos de {reg8} oponentes. Y, por supuesto, habéis ganado un premio de {reg10} Libras.
+dlga_arena_master_fight_result:arena_master_pre_talk.4|¡Vuestra actuación ha sido increíble! Sois sin duda muy hábil en la lucha. No todo el mundo puede echar abajo a {reg8} personas en las peleas. Por supuesto, os merecéis un premio por esa actuación: {reg10} Libras. Bien, ¿eh?
+dlga_arena_master_fight_result:arena_master_pre_talk.5|Ha sido una pelea realmente buena, {playername}. Tenéis unos movimientos estupendos, una táctica excelente. Y habéis ganado un premio de {reg10} Libras por derribar a {reg8} oponentes.
+dlga_arena_master_fight_result:arena_master_pre_talk.6|¡Felicidades, {campeón/campeona}! ¡Vuestra lucha ahí dentro ha sido memorable! Os las habéis arreglado para ser la última persona de pie y derribar a todo el resto. Y naturalmente habéis ganado el gran premio de las peleas: {reg10} Libras.
 dlga_start:arena_master_pre_talk|Hola, {playername}. Me alegra veros de nuevo.
 dlga_arena_master_pre_talk:arena_master_talk|¿Qué os gustaría hacer?
 dlga_arena_master_talk:arena_master_melee_pretalk|Sobre las luchas cuerpo a cuerpo...
@@ -2634,7 +2634,7 @@ dlga_galeas_sell_prisoners_2:close_window|Si capturáis más prisioneros, traéd
 dlga_bandit_introduce:bandit_talk|{s5}
 dlga_bandit_talk:close_window|¡Lo único que voy a daros a probar es mi acero, basura!
 dlga_bandit_talk:bandit_barter|No hay por qué luchar. Puedo pagar por el derecho de paso.
-dlga_bandit_barter:bandit_barter_2|Plata sin sangre, eso es lo que más nos gusta. Pagadnos {reg5} denares y os dejaremos que sigáis vuestro camino.
+dlga_bandit_barter:bandit_barter_2|Plata sin sangre, eso es lo que más nos gusta. Pagadnos {reg5} Libras y os dejaremos que sigáis vuestro camino.
 dlga_bandit_barter_2:bandit_barter_3a|Muy bien, tomad.
 dlga_bandit_barter_2:bandit_barter_3b|No llevo tanto dinero encima.
 dlga_bandit_barter_3b:close_window|Eso es una pena. Supongo que entonces tendremos que venderos a los esclavistas. ¡{Apresadle/Apresadla}, chicos!
@@ -2657,9 +2657,9 @@ dlga_party_encounter_routed_agents_are_caught:party_encounter_routed_agents_are_
 dlga_party_encounter_routed_agents_are_caught:close_window|De acuerdo. Os dejaré marchar esta vez, pero no volváis a aparecer por aquí.
 dlga_party_encounter_routed_agents_are_caught2:close_window|¿Acaso no tenéis piedad? ¡Muy bien, lucharemos hasta el último hombre!
 dlga_party_encounter_routed_agents_are_caught2:close_window.1|{s1} 
-dlga_sell_prisoner_outlaws:sell_prisoner_outlaws|Hum. 10 denares por cada salteador suponen {reg1} denares por estos {reg0}.
-dlga_sell_prisoner_outlaws:sell_prisoner_outlaws.1|Dejadme ver. Habéis traído {reg0} bandidos, así que a 20 denares por cada uno salen {reg1} denares.
-dlga_sell_prisoner_outlaws:sell_prisoner_outlaws.2|Bueno, bueno, habéis capturado {reg0} bandidos. Cada uno vale 30 denares, así que os daré {reg1} por todos.
+dlga_sell_prisoner_outlaws:sell_prisoner_outlaws|Hum. 10 Libras por cada salteador suponen {reg1} Libras por estos {reg0}.
+dlga_sell_prisoner_outlaws:sell_prisoner_outlaws.1|Dejadme ver. Habéis traído {reg0} bandidos, así que a 20 Libras por cada uno salen {reg1} Libras.
+dlga_sell_prisoner_outlaws:sell_prisoner_outlaws.2|Bueno, bueno, habéis capturado {reg0} bandidos. Cada uno vale 30 Libras, así que os daré {reg1} por todos.
 dlga_sell_prisoner_outlaws:close_window|I suppose that'll be all, then.
 dlga_prisoner_chat:prisoner_chat_2|No intentéis salir corriendo o hacer alguna estupidez. Os estaré vigilando.
 dlga_prisoner_chat_2:close_window|No, juro que no lo haré.
@@ -2694,7 +2694,7 @@ dlga_town_dweller_ask_info:close_window|{s10} {s11}
 dlga_town_dweller_talk:town_dweller_ask_situation|¿Cómo es aquí la vida?
 dlga_town_dweller_ask_situation:town_dweller_poor|Los desastres han azotado a mi familia, {señor/señora}. Una peste echó a perder las cosechas de nuestros campos y mis pobres hijos yacen en casa hambrientos y enfermos. Mis vecinos son demasiado pobres como para ayudarme.
 dlga_town_dweller_ask_situation:town_dweller_poor.1|Mi vida es una miseria, {señor/señora}. No he podido encontrar trabajo desde hace meses y mis pobres hijos se van a la cama todos los días con hambre. Mis vecinos son demasiado pobres como para ayudarme.
-dlga_town_dweller_poor:town_dweller_poor_paid|En ese caso, tomad estos 300 denares. Espero que esto os ayude a vos y a vuestra familia.
+dlga_town_dweller_poor:town_dweller_poor_paid|En ese caso, tomad estos 300 Libras. Espero que esto os ayude a vos y a vuestra familia.
 dlga_town_dweller_poor:town_dweller_poor_not_paid|En ese caso, debéis trabajar más y soportar vuestra penuria sin quejas.
 dlga_town_dweller_poor_not_paid:close_window|Sí, {señor/señora}. Haré como vos decís.
 dlga_town_dweller_poor_paid:close_window|Oh, mi {señor/buena señora}. Vuestra generosidad y bondad no tienen límite. Les contaré a todos cómo nos habéis ayudado.
@@ -2750,7 +2750,7 @@ dlga_merchant_quest_1_prologue_2:merchant_quest_1_prologue_3|No sé en qué esta
 dlga_merchant_quest_1_prologue_3:merchant_quest_1a|Así que ésta es mi propuesta. Parece que tenéis cierta experiencia con la espada y, más importante aún, tenéis coraje, o no habríais venido a Calradia a buscar fortuna. Así que lo que os pido es esto: reunid un pequeño grupo, rastread a esos bandidos hasta su guarida, dadles una lección que no olviden fácilmente y traed a mi hermano sano y salvo. A cambio os ganaréis mi eterna gratitud y algo de plata. ¿Qué decís?
 dlga_merchant_quest_1a:merchant_quest_1b|Me interesa.
 dlga_merchant_quest_1a:close_window|No me interesa, tengo cosas más importantes que hacer.
-dlga_merchant_quest_1b:merchant_quest_1c|Esto no lo podréis hacer sin ayuda, eso sí. Si tratáis de enfrentaros a toda la banda en solitario el cazador será cazado, os lo garantizo. Primero tendréis que juntar a un grupo de voluntarios. Siempre hay chicos por aquí, en las aldeas, buscando un trabajo más emocionante que arar el suelo o bombear agua. Os seguirán si pagáis. Así que... Tomad esta bolsa con 100 denares. Consideradlo un avance de vuestra recompensa. Id por las aldeas y utilizad el dinero para contratar ayudantes. Calculo que necesitaréis al menos cinco hombres para vencer a esos bandidos.
+dlga_merchant_quest_1b:merchant_quest_1c|Esto no lo podréis hacer sin ayuda, eso sí. Si tratáis de enfrentaros a toda la banda en solitario el cazador será cazado, os lo garantizo. Primero tendréis que juntar a un grupo de voluntarios. Siempre hay chicos por aquí, en las aldeas, buscando un trabajo más emocionante que arar el suelo o bombear agua. Os seguirán si pagáis. Así que... Tomad esta bolsa con 100 Libras. Consideradlo un avance de vuestra recompensa. Id por las aldeas y utilizad el dinero para contratar ayudantes. Calculo que necesitaréis al menos cinco hombres para vencer a esos bandidos.
 dlga_merchant_quest_1c:merchant_quest_1d|Muy bien, señor. Iré a reunir algunos hombres de las aldeas de alrededor.
 dlga_merchant_quest_1d:close_window|Bien. Podéis buscarme en la taberna, aquí en {s1}, una vez que tengáis preparado el grupo. Luego hablaremos sobre el plan.
 dlga_start:battle_reason_stated.1|Rendíos o morid. Es decisión vuestra.

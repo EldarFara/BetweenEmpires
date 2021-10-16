@@ -76,109 +76,109 @@ qstr_5._{s1}|5. {s1}
 qstr_6._{s1}|6. {s1}
 qstr_7._{s1}|7. {s1}
 qstr_8._{s1}|8. {s1}
-qstr_Form_Square^^Selecte|Formar Cuadrado^^ Las compañias seleccionadas (no más de dos)^ Van a formar el cuadrado. Es efectivo Cuerpo a Cuerpo^ especialmente contra caballeria, pero vulnerable^ al fuego enemigo. Para que las companias^ puedan formar el cuadrado, deben ser ^ al menos 25 en total.^Tipo de Compania: Infanteria de Linea, Guardia.
+qstr_Form_Square^^Selecte|Formar Cuadrado^^ Las companias seleccionadas (no más de dos)^ Van a formar el cuadrado. Es efectivo Cuerpo a Cuerpo^ especialmente contra caballeria, pero vulnerable^ al fuego enemigo. Para que las companias^ puedan formar el cuadrado, deben ser ^ al menos 25 en total.^Tipo de Compania: Infanteria de Linea, Guardia.
 qstr_pbs_activeability_me|pbs activeability merge
-qstr_Merge_Companies^^Sel|Merge Companies^^Selected companies (not less than one)^will be merged into one that has highest number of soldiers.
+qstr_Merge_Companies^^Sel|Unir Companias^^Las companias seleccionadas (no menos de una)^ van a fusionarse.
 qstr_pbs_activeability_di|pbs activeability digin
-qstr_Dig_In^^Selected_com|Dig In^^Selected companies will dig in,^creating trenches on their position.^Only available once per battle.^Company types: Line infantry, Guard.
+qstr_Dig_In^^Selected_com|Cavar una trinchera^^Las Companias seleccionadas van a cavar,^creando una trinchera en sus posiciones.^Solo se puede hacer una vez por batalla.^Companias que pueden hacer esto: Infantería de Linea y de Guardia.
 qstr_pbs_activeability_co|pbs activeability coveringfire on
 qstr_pbs_activeability_ga|pbs activeability gas
-qstr_Gas_Attack^^.^Compan|Gas Attack^^.^Company types: Field Guns and Howitzers.
+qstr_Gas_Attack^^.^Compan|Ataque de Gas^^.^Companias que pueden hacer esto: Cañones de Campaña y Obuses.
 qstr_pbs_activeability_gr|pbs activeability grenades
-qstr_Grenade_Attack^^Sele|Grenade Attack^^Selected companies launch a grenade attack at range up to 50 meters, throwing^hand grenades at enemies which are at close distance.^Only available once per 3 minutes.^Company types: Shock troops.
-qstr_Suppression_fire:_on|Suppression fire: on
-qstr_Suppression_fire:_of|Suppression fire: off
+qstr_Grenade_Attack^^Sele|Ataque de Granadas^^Las companias seleccionadas lanzaran un ataque de granadas en un rango de 50 metros, lanzando^granadas de mano a los enemigos que esten cerca.^Se puede hacer cada 3 minutos.^Solo lo pueden hacer las tropas de choque.
+qstr_Suppression_fire:_on|Fuego de Supresión: Activado
+qstr_Suppression_fire:_of|Fuego de Supresión: Desactivado
 qstr_pbs_activeability_cov|pbs activeability coveringfire off
-qstr_Suppression_fire:_on/|Suppression fire: on/off
+qstr_Suppression_fire:_on/|Fuego de Supresión: Activado/Desactivado
 qstr_pbs_activeability_cove|pbs activeability coveringfire onoff
-qstr_No_companies_selecte|No companies selected
+qstr_No_companies_selecte|No hay companias seleccionadas
 qstr_pbs_activeability_cover|pbs activeability coveringfire noselected
-qstr_{s1}^^Turning_on_sup|{s1}^^Turning on suppression fire will increase shooting speed^and decreasing enemy discipline level two times faster,^on exchange of drastically decreasing your own accuracy.^Company types: any.
-qstr_Gas_masks:_always_we|Gas masks: always wear
+qstr_{s1}^^Turning_on_sup|{s1}^^Activando el modo de supresión aumentará la cadencia^ y bajará el nivel de disciplina de los enemigos,^y perderas drasticamente la puntería.^Cualquier Compania puede aplicarla.
+qstr_Gas_masks:_always_we|Mascaras de Gas: Siempre puestas
 qstr_pbs_activeability_gas|pbs activeability gasmasks on
-qstr_Gas_masks:_at_will|Gas masks: at will
+qstr_Gas_masks:_at_will|Mascaras de Gas: Cuando sea necesario
 qstr_pbs_activeability_gasm|pbs activeability gasmasks off
-qstr_Gas_masks:_always_wea|Gas masks: always wear/at will
+qstr_Gas_masks:_always_wea|Mascaras de Gas: Siempre puestas/Cuando sea necesario
 qstr_pbs_activeability_gasma|pbs activeability gasmasks onoff
 qstr_pbs_activeability_gasmas|pbs activeability gasmasks noselected
-qstr_{s1}^^Gas_masks_make|{s1}^^Gas masks make troops invulnerable to poison gas, but decrease shooting accuracy and energy level.^Company types: any.
+qstr_{s1}^^Gas_masks_make|{s1}^^Las mascaras de Gas hacen que las tropas sean invulnerables al gas venenoso pero reduce la puntería y la energia de las tropas.^Cualquier Compania puede aplicarla.
 qstr_{reg0}%|{reg0}%
 qstr_{reg0}_c.|{reg0} c.
-qstr_Cannot_dig_in:_wrong|Cannot dig in: wrong company types (only line infantry and guard infantry can dig in).
-qstr_Cannot_launch_gas_at|Cannot launch gas attack: wrong company types (only artillery can use gas attack).
-qstr_Cannot_launch_grenad|Cannot launch grenade attack: wrong company types (only shock troops can throw grenades).
-qstr_Select_2_or_more_com|Select 2 or more companies with soldiers to merge.
-qstr_Others|Others
-qstr_Outlaws|Outlaws
-qstr_Mercenary|Mercenary
-qstr_Close|Close
-qstr_Click_the_center_but|Click the center button to toggle faction^Click the avatars to view details of them
-qstr_Level:_{reg3}^Health|Level: {reg3}^Health: {reg4}
-qstr_Attributes|Attributes
-qstr_STR^AGI^INT^CHA|STR^AGI^INT^CHA
+qstr_Cannot_dig_in:_wrong|No se puede Cavar:Las companias no son validas (Solo infanteria de Linea y de Guardia).
+qstr_Cannot_launch_gas_at|No se puede Lanzar el ataque de gas: Las companias no son validas (Solo los artilleros pueden usar el ataque de Gas).
+qstr_Cannot_launch_grenad|No se puede lanzar el ataque de Granadas: Las companias no son validas (Solo las fuerzas de choque pueden lanzar granadas).
+qstr_Select_2_or_more_com|Selecciona 2 o más companias para fusionarlas.
+qstr_Others|Otros
+qstr_Outlaws|Bandidos
+qstr_Mercenary|Mercenarios
+qstr_Close|Cerrar
+qstr_Click_the_center_but|Hace click en el botón del centro para cambiar de facción^Hace Click en los avatares para ver más información de ellos
+qstr_Level:_{reg3}^Salud|Nivel: {reg3}^Salud: {reg4}
+qstr_Attributes|Atributos
+qstr_STR^AGI^INT^CHA|FUE^AGI^INT^CAR
 qstr_{reg2}|{reg2}
 qstr_{s1}^{reg2}|{s1}^{reg2}
-qstr_Skills|Skills
-qstr_Ironflesh^Power_Stri|Ironflesh^Power Strike^Power Throw^Power Draw^Shield^Athletics^Riding^Horse Archery
-qstr_Proficiencies|Proficiencies
-qstr_1H_Weapons^2H_Weapon|1H Weapons^2H Weapons^Polearms^Archery^Rifles^Throwing
-qstr_Equipments|Equipments
-qstr_Factions|Factions
-qstr_Show_towns|Show towns
-qstr_Show_castles|Show castles
-qstr_Show_villages|Show villages
-qstr_Tip:_move_the_mouse_|Tip: move the mouse onto the black blocks to show their names.
-qstr_The_World_Map|The World Map
-qstr_Done|Done
-qstr_Press_Escape_to_clos|Press Escape to close menu...
-qstr_{s7}__s_Army|{s7} 's Army
+qstr_Skills|Habilidades
+qstr_Ironflesh^Power_Stri|Piel Curtida^Fuerza de Golpe^Fuerza de Lanzamiento^Fuerza de Tenzado^Escudo^Atletismo^Montar^Disparo Montado
+qstr_Proficiencies|Habilidades en Armas
+qstr_1H_Weapons^2H_Weapon|Arma a 1M^Arma a 2M^Enastadas^Arqueria^Rifles^Lanzables
+qstr_Equipments|Equipamiento
+qstr_Factions|Factiones
+qstr_Show_towns|Mostrar Ciudades
+qstr_Show_castles|Mostrar Castillos
+qstr_Show_villages|Mostrar poblados
+qstr_Tip:_move_the_mouse_|Consejo: mueve el mouse a los bloques negros para ver sus nombres.
+qstr_The_World_Map|El mapamundi
+qstr_Done|Hecho
+qstr_Press_Escape_to_clos|Presione Escape para cerrar el menú...
+qstr_{s7}__s_Army|{s7}Ejercito de
 qstr_{reg1}|{reg1}
-qstr_Attribute_points_{re|Attribute points {reg40}
-qstr_Skill_points_{reg41}|Skill points {reg41}
-qstr_Weapon_points_{reg42|Weapon points {reg42}
-qstr_Save|Save
-qstr_Reset|Reset
+qstr_Attribute_points_{re|Puntos de Atributo {reg40}
+qstr_Skill_points_{reg41}|Puntos de habilidad {reg41}
+qstr_Weapon_points_{reg42|Puntos de habilidad en armas {reg42}
+qstr_Save|Guardar
+qstr_Reset|Reiniciar
 qstr_Current:{s1}|Current:{s1}
-qstr_{s2}^Base_Attribute:|{s2}^Base Attribute:CHA
-qstr_{s2}^Base_Attribute:I|{s2}^Base Attribute:INT
-qstr_{s2}^Base_Attribute:A|{s2}^Base Attribute:AGI
-qstr_{s2}^Base_Attribute:S|{s2}^Base Attribute:STR
-qstr_Battle_role:|Battle role:
-qstr_Line_Infantry|Line Infantry
-qstr_Light_Infantry|Light Infantry
-qstr_Guard_Infantry|Guard Infantry
-qstr_Melee_Cavalry|Melee Cavalry
-qstr_Ranged_Cavalry|Ranged Cavalry
-qstr_Guard_Cavalry|Guard Cavalry
-qstr_Next|Next
-qstr_Price_{reg42}^Weight|Price {reg42}^Weight {reg43}
-qstr_{reg5}_to_{reg6}|{reg5} to {reg6}
-qstr_You_can_t_equip_this|You can't equip this item - wrong slot.
-qstr_Military_Technologie|Military Technologies of the {s1}
-qstr_Research|Research
-qstr_Select_technology|Select technology
-qstr_Rifled_Caplock^^Musk|Rifled Caplock^^Muskets
-qstr_Conversion_Breech_lo|Conversion Breech-loaded^^Rifles
-qstr_Modern^^Breech_loade|Modern^^Breech-loaded Rifles
-qstr_Breech_loaded^^Canno|Breech-loaded^^Cannons
-qstr_Improved_Percussion^|Improved Percussion^^Mechanisms
-qstr_Early_Magazine^^Rifl|Early Magazine^^Rifles
-qstr_Machine_Guns|Machine Guns
-qstr_Modern_Magazine_Rifl|Modern Magazine Rifles
-qstr_Light_Machine^^Guns|Light Machine^^Guns
-qstr_Landships|Landships
-qstr_Crimean_War^^Experie|Crimean War^^Experience
-qstr_Skirmish_Line^^Tacti|Skirmish Line^^Tactics
-qstr_Modern_Defence^^Tact|Modern Defence^^Tactics
-qstr_Modern_Attack_Tactic|Modern Attack Tactics
-qstr_Rapid_Firing^^Artill|Rapid Firing^^Artillery
-qstr_Infantry_Machine^^Gu|Infantry Machine^^Gun Tactics
-qstr_Covering_Fire|Covering Fire
-qstr_Gas_Attacks|Gas Attacks
-qstr_Shock_Troops|Shock Troops
-qstr_You_do_not_have_enou|You do not have enough money.
-qstr_faction_technologies|faction technologies tech available
-qstr_faction_technologies_|faction technologies tech inprogress
+qstr_{s2}^Base_Attribute:|{s2}^Atributo Base:CAR
+qstr_{s2}^Base_Attribute:I|{s2}^Atributo Base:INT
+qstr_{s2}^Base_Attribute:A|{s2}^Atributo Base:AGI
+qstr_{s2}^Base_Attribute:S|{s2}^Atributo Base:FUE
+qstr_Battle_role:|Ról en la batalla:
+qstr_Line_Infantry|Infantería de Linea
+qstr_Light_Infantry|Infantería Ligera
+qstr_Guard_Infantry|Infantería de Guardia
+qstr_Melee_Cavalry|Caballeria de Choque
+qstr_Ranged_Cavalry|Infanteria Montada
+qstr_Guard_Cavalry|Caballeria de Guardia
+qstr_Next|Siguiente
+qstr_Price_{reg42}^Weight|Precio {reg42}^Peso {reg43}
+qstr_{reg5}_to_{reg6}|{reg5} a {reg6}
+qstr_You_can_t_equip_this|No puedes equipar este Item - No es el lugar correcto.
+qstr_Military_Technologie|Tecnologias militares de {s1}
+qstr_Research|Investigar
+qstr_Select_technology|Seleccionar Tecnología
+qstr_Rifled_Caplock^^Musk|Mosquete con^^ Capsula Estriada
+qstr_Conversion_Breech_lo|Rifle con Conversión^^ de Retrocarga
+qstr_Modern^^Breech_loade|Rifles con Retrocarga ^^Moderno
+qstr_Breech_loaded^^Canno|Cañones con ^^Retrocarga
+qstr_Improved_Percussion^|Mecanismos de percusión ^^mejorados
+qstr_Early_Magazine^^Rifl|Primeros rifles con ^^cargador
+qstr_Machine_Guns|Ametralladoras Pesadas
+qstr_Modern_Magazine_Rifl|Rifles modernos con cargador
+qstr_Light_Machine^^Guns|Ametralladoras ^^Ligeras
+qstr_Landships|Cruceros de tierra
+qstr_Crimean_War^^Experie|Experiencia de ^^la guerra de Crimea
+qstr_Skirmish_Line^^Tacti|Tacticas de Linea ^^de Escaramuza
+qstr_Modern_Defence^^Tact|Tacticas mordenas de ^^Defensa
+qstr_Modern_Attack_Tactic|Tacticas Modernas de Ataque
+qstr_Rapid_Firing^^Artill|Ataque Rapido ^^de Artillería
+qstr_Infantry_Machine^^Gu|Tacticas de Infantería ^^con ametralladoras
+qstr_Covering_Fire|Fuego de Cobertura
+qstr_Gas_Attacks|Ataque de Gas
+qstr_Shock_Troops|Tropas de Choque
+qstr_You_do_not_have_enou|No tienes suficiente dinero.
+qstr_faction_technologies|Tecnologias de la facción disponible
+qstr_faction_technologies_|Tecnologias de la facción en progreso
 qstr_Rifled_Caplock^Muske|Rifled Caplock^Muskets
 qstr_faction_technologies_p|faction technologies photo riflesrifled
 qstr_Rapid_Firing^Artille|Rapid Firing^Artillery
@@ -894,34 +894,34 @@ qstr_There_has_been_an_al|Ha habido un incidente fronterizo: {s9}
 qstr_^^Note_that_so_long_|^^Notad que mientras seáis mariscal los señores del reino esperan que seáis vos quien los lidere en las campañas. Así que si estáis esperando por un banquete, ya sea por una boda u otro motivo, puede que queráis dimitir. Para ello debéis hablar con vuestro señor.
 qstr_Temperature:_+{reg0}|Temperature: +{reg0} C ^Pressure: {reg1} hPa ^Humidity: {reg2}% ^Wind: {reg3} km/h ^Cloudiness: {reg4}% ^Precipitation: {reg5}%
 qstr_Romanian_Principalit|Romanian Principalities
-qstr_Kingdom_of_Wurttembe|Kingdom of Wurttemberg
-qstr_Principality_of_Serb|Principality of Serbia
-qstr_Kingdom_of_Hannover|Kingdom of Hannover
-qstr_French_Empire|French Empire
-qstr_Austrian_Empire|Austrian Empire
-qstr_Kingdom_of_Sardinia|Kingdom of Sardinia
-qstr_Kingdom_of_Prussia|Kingdom of Prussia
-qstr_Principality_of_Bulg|Principality of Bulgaria
-qstr_French_Republic|French Republic
-qstr_Austria_Hungary|Austria-Hungary
-qstr_Kingdom_of_Italy|Kingdom of Italy
-qstr_German_Empire|German Empire
-qstr_Kingdom_of_Romania|Kingdom of Romania
-qstr_Kingdom_of_Serbia|Kingdom of Serbia
-qstr_Kingdom_of_Bulgaria|Kingdom of Bulgaria
-qstr_Principality_of_Alba|Principality of Albania
-qstr_You_have_bought_a_fi|You have bought a field gun.
-qstr_You_have_exceeded_pa|You have exceeded party size limit.
-qstr_You_have_no_enough_m|You have no enough money.
-qstr_Not_available_in_thi|Not available in this town.
-qstr_You_have_bought_a_ho|You have bought a howizer.
-qstr_You_have_bought_a_he|You have bought a heavy howizer.
-qstr_You_have_bought_a_ma|You have bought a machine gun.
-qstr_Not_available_for_th|Not available for this faction.
-qstr_Declare_war_on_Serbi|Declare war on Serbia.
-qstr_Join_league.|Join league.
+qstr_Kingdom_of_Wurttembe|Reino de Wurttemberg
+qstr_Principality_of_Serb|Principado de Serbia
+qstr_Kingdom_of_Hannover|Reino de Hannover
+qstr_French_Empire|Imperio Francés
+qstr_Austrian_Empire|Imperio Austriaco
+qstr_Kingdom_of_Sardinia|Reino de Cerdeña
+qstr_Kingdom_of_Prussia|Reino de Prusia
+qstr_Principality_of_Bulg|Reino de Bulgaria
+qstr_French_Republic|República Francesa
+qstr_Austria_Hungary|Austria-Hungaria
+qstr_Kingdom_of_Italy|Reino de Italia
+qstr_German_Empire|Imperio Alemán
+qstr_Kingdom_of_Romania|Reino de Rumania
+qstr_Kingdom_of_Serbia|Reino de Serbia
+qstr_Kingdom_of_Bulgaria|Reino de Bulgaria
+qstr_Principality_of_Alba|Principado de Albania
+qstr_You_have_bought_a_fi|Has comprado un cañon de campaña.
+qstr_You_have_exceeded_pa|Has excedido el limite de tu ejercito.
+qstr_You_have_no_enough_m|No tienes suficiente dinero.
+qstr_Not_available_in_thi|No esta disponible en este pueblo.
+qstr_You_have_bought_a_ho|Has comprado un Obús.
+qstr_You_have_bought_a_he|Has comprado un Obús Pesado.
+qstr_You_have_bought_a_ma|Has comprado una Ametralladora Pesada.
+qstr_Not_available_for_th|No disponible para esta Facción.
+qstr_Declare_war_on_Serbi|Declarar la guerra a Serbia.
+qstr_Join_league.|Entrar a la Liga.
 qstr_Breaking_camp...|Levantando el campamento...
-qstr_The_{s31}_gets_1_inf|The {s31} gets 1 infamy because of the prolonged war with {s32}.
+qstr_The_{s31}_gets_1_inf|El {s31} obtiene 1 de infamia por estar en una guerra prolongada con {s32}.
 qstr_Party_has_nothing_to|¡El grupo no tiene nada para comer!
 qstr_{reg1}_{s1}_{reg2?ha|{reg1} {s1} {reg2?se ha:se han} escapado de vuestro grupo durante la noche.
 qstr_{s1}_of_{s3}_has_bee|{s1} de {s3} ha sido puesto en libertad.
@@ -957,14 +957,14 @@ qstr_Bulgarian_Field_Gun_Cr|Bulgarian Field Gun Crew Cannoneer
 qstr_Bulgarian_Field_Gun_Cre|Bulgarian Field Gun Crew Cannoneers
 qstr_Bulgarian_MG_Operato|Bulgarian MG Operator
 qstr_President_Raymond_Po|President Raymond Poincare
-qstr_Tsar_Nicholas_II|Tsar Nicholas II
+qstr_Tsar_Nicholas_II|Tzar Nicholas II
 qstr_Kaiser_Franz_Joseph_|Kaiser Franz Joseph I
-qstr_King_Victor_Emmanuel|King Victor Emmanuel III
+qstr_King_Victor_Emmanuel|Rey Victor Emmanuel III
 qstr_Kaiser_Wilhelm_II|Kaiser Wilhelm II
 qstr_Sultan_Mehmed_V|Sultan Mehmed V
-qstr_King_Edward_VII|King Edward VII
-qstr_Queen_Wilhelmina|Queen Wilhelmina
-qstr_President_Armand_Fal|President Armand Fallières
+qstr_King_Edward_VII|Rey Edward VII
+qstr_Queen_Wilhelmina|Reina Wilhelmina
+qstr_President_Armand_Fal|Presidente Armand Fallières
 qstr_Sultan_Abdulhamid_II|Sultan Abdulhamid II
 qstr_President_Sadi_Carno|President Sadi Carnot
 qstr_Tsar_Alexander_III|Tsar Alexander III
