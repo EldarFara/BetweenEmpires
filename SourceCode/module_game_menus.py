@@ -15226,15 +15226,16 @@ the high lords and common folk across the many realms of Europe."),
     [
    (faction_get_slot, ":price", "$create_alliance_chosen_faction", slot_faction_alliance_price),
    (assign, reg10, ":price"),
-   (store_troop_gold, reg20, "trp_player"),
 	],
     [
 	("continue", [
-	(store_troop_gold, ":gold", "trp_player"),
+	(faction_get_slot, ":gold", "fac_player_supporters_faction", slot_faction_budget),
 	(ge, ":gold", reg10),
 	],"Accept.",
        [
-	(troop_remove_gold, "trp_player", reg10),
+	(faction_get_slot, ":gold", "fac_player_supporters_faction", slot_faction_budget),
+	(val_sub, ":gold", reg10),
+	(faction_set_slot, "fac_player_supporters_faction", slot_faction_budget, ":gold"),
 	(call_script, "script_create_alliance_between_factions", "fac_player_supporters_faction", "$create_alliance_chosen_faction"),
 	(jump_to_menu, "mnu_town"),
         ]),
@@ -15858,6 +15859,8 @@ the high lords and common folk across the many realms of Europe."),
         ]),
 	]),
   
+  
+	
  ]
  
  

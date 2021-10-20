@@ -9,20 +9,22 @@ from ID_parties import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+pps_movements_number = 3
+
 craters_limit = 400
 
 cannon_type_fieldgun = 0
 cannon_type_howitzer = 1
 
-pas_points_for_rank_2 = 3000
-pas_points_for_rank_3 = 8000
-pas_points_for_rank_4 = 16000
-pas_points_for_rank_5 = 30000
-pas_points_for_rank_6 = 50000
-pas_points_for_rank_7 = 70000
-pas_points_for_rank_8 = 100000
-pas_points_for_rank_9 = 170000
-pas_points_for_rank_10 = 300000
+pas_points_for_rank_2 = 4000
+pas_points_for_rank_3 = 9000
+pas_points_for_rank_4 = 20000
+pas_points_for_rank_5 = 35000
+pas_points_for_rank_6 = 40000
+pas_points_for_rank_7 = 80000
+pas_points_for_rank_8 = 130000
+pas_points_for_rank_9 = 190000
+pas_points_for_rank_10 = 400000
 
 pas_lord_state_undefined = 0
 pas_lord_state_patrolling_center_peace_border = 1
@@ -167,7 +169,7 @@ class_lower_rural = 4
 
 laws_number = 17
 
-law_military_service_term = 0
+law_child_labor = 0
 law_nomination_rules = 1
 law_voting_franchise = 2
 law_public_meetings = 3
@@ -185,9 +187,9 @@ law_workers_wage = 14
 law_trade_unions = 15
 law_military_expenses = 16
 
-law_military_service_term_short = 0
-law_military_service_term_medium = 50
-law_military_service_term_long = 100
+law_child_labor_allowed = 0
+law_child_labor_restrictions = 50
+law_child_labor_outlawed = 100
 
 law_nomination_rules_rich_only = 0
 law_nomination_rules_universal = 100
@@ -199,7 +201,7 @@ law_voting_franchise_universal_weighted = 150
 law_voting_franchise_universal = 175
 
 law_public_meetings_not_allowed = 0
-law_public_meetings_allowed = 100
+law_public_meetings_allowed = 50
 
 law_press_state_press = 0
 law_press_heavy_censorship = 33
@@ -272,6 +274,7 @@ law_military_expenses_very_big = 100
 government_type_absolute_monarchy = 1
 government_type_constitutional_monarchy = 2
 government_type_republic = 3
+government_type_soviet_republic = 4
 
 formation_column = 1
 formation_extended_column = 2
@@ -912,7 +915,7 @@ slot_faction_preset_reliability = slot_faction_ve_mod_slots_begin + 100
 slot_faction_government_type = slot_faction_ve_mod_slots_begin + 101
 slot_faction_ruling_political_party = slot_faction_ve_mod_slots_begin + 102
 slot_faction_does_have_parliament = slot_faction_ve_mod_slots_begin + 103
-slot_faction_law_military_service_term = slot_faction_ve_mod_slots_begin + 104
+slot_faction_law_child_labor = slot_faction_ve_mod_slots_begin + 104
 slot_faction_law_nomination_rules = slot_faction_ve_mod_slots_begin + 105
 slot_faction_law_voting_franchise = slot_faction_ve_mod_slots_begin + 106
 slot_faction_law_public_meetings = slot_faction_ve_mod_slots_begin + 107
@@ -930,7 +933,7 @@ slot_faction_law_workers_wage = slot_faction_ve_mod_slots_begin + 118
 slot_faction_law_trade_unions = slot_faction_ve_mod_slots_begin + 119
 slot_faction_law_military_expenses = slot_faction_ve_mod_slots_begin + 120
 slot_faction_aileader_political_party = slot_faction_ve_mod_slots_begin + 121
-slot_faction_aileader_pvol_military_service_term = slot_faction_ve_mod_slots_begin + 122
+slot_faction_aileader_pvol_child_labor = slot_faction_ve_mod_slots_begin + 122
 slot_faction_aileader_pvol_nomination_rules = slot_faction_ve_mod_slots_begin + 123
 slot_faction_aileader_pvol_voting_franchise = slot_faction_ve_mod_slots_begin + 124
 slot_faction_aileader_pvol_public_meetings = slot_faction_ve_mod_slots_begin + 125
@@ -971,7 +974,7 @@ slot_faction_political_party1_conservatism = slot_faction_ve_mod_slots_begin + 1
 slot_faction_political_party2_conservatism = slot_faction_ve_mod_slots_begin + 160
 slot_faction_political_party3_conservatism = slot_faction_ve_mod_slots_begin + 161
 slot_faction_political_party4_conservatism = slot_faction_ve_mod_slots_begin + 162
-slot_faction_political_party1_pvol_military_service_term = slot_faction_ve_mod_slots_begin + 163
+slot_faction_political_party1_pvol_child_labor = slot_faction_ve_mod_slots_begin + 163
 slot_faction_political_party1_pvol_nomination_rules = slot_faction_ve_mod_slots_begin + 164
 slot_faction_political_party1_pvol_voting_franchise = slot_faction_ve_mod_slots_begin + 165
 slot_faction_political_party1_pvol_public_meetings = slot_faction_ve_mod_slots_begin + 166
@@ -988,7 +991,7 @@ slot_faction_political_party1_pvol_workers_conditions = slot_faction_ve_mod_slot
 slot_faction_political_party1_pvol_workers_wage = slot_faction_ve_mod_slots_begin + 177
 slot_faction_political_party1_pvol_trade_unions = slot_faction_ve_mod_slots_begin + 178
 slot_faction_political_party1_pvol_military_expenses = slot_faction_ve_mod_slots_begin + 179
-slot_faction_political_party2_pvol_military_service_term = slot_faction_ve_mod_slots_begin + 180
+slot_faction_political_party2_pvol_child_labor = slot_faction_ve_mod_slots_begin + 180
 slot_faction_political_party2_pvol_nomination_rules = slot_faction_ve_mod_slots_begin + 181
 slot_faction_political_party2_pvol_voting_franchise = slot_faction_ve_mod_slots_begin + 182
 slot_faction_political_party2_pvol_public_meetings = slot_faction_ve_mod_slots_begin + 183
@@ -1005,7 +1008,7 @@ slot_faction_political_party2_pvol_workers_conditions = slot_faction_ve_mod_slot
 slot_faction_political_party2_pvol_workers_wage = slot_faction_ve_mod_slots_begin + 194
 slot_faction_political_party2_pvol_trade_unions = slot_faction_ve_mod_slots_begin + 195
 slot_faction_political_party2_pvol_military_expenses = slot_faction_ve_mod_slots_begin + 196
-slot_faction_political_party3_pvol_military_service_term = slot_faction_ve_mod_slots_begin + 197
+slot_faction_political_party3_pvol_child_labor = slot_faction_ve_mod_slots_begin + 197
 slot_faction_political_party3_pvol_nomination_rules = slot_faction_ve_mod_slots_begin + 198
 slot_faction_political_party3_pvol_voting_franchise = slot_faction_ve_mod_slots_begin + 199
 slot_faction_political_party3_pvol_public_meetings = slot_faction_ve_mod_slots_begin + 200
@@ -1022,7 +1025,7 @@ slot_faction_political_party3_pvol_workers_conditions = slot_faction_ve_mod_slot
 slot_faction_political_party3_pvol_workers_wage = slot_faction_ve_mod_slots_begin + 211
 slot_faction_political_party3_pvol_trade_unions = slot_faction_ve_mod_slots_begin + 212
 slot_faction_political_party3_pvol_military_expenses = slot_faction_ve_mod_slots_begin + 213
-slot_faction_political_party4_pvol_military_service_term = slot_faction_ve_mod_slots_begin + 214
+slot_faction_political_party4_pvol_child_labor = slot_faction_ve_mod_slots_begin + 214
 slot_faction_political_party4_pvol_nomination_rules = slot_faction_ve_mod_slots_begin + 215
 slot_faction_political_party4_pvol_voting_franchise = slot_faction_ve_mod_slots_begin + 216
 slot_faction_political_party4_pvol_public_meetings = slot_faction_ve_mod_slots_begin + 217
@@ -1044,12 +1047,12 @@ slot_faction_class_upper_bourgeoisie_political_activity = slot_faction_ve_mod_sl
 slot_faction_class_middle_political_activity = slot_faction_ve_mod_slots_begin + 233
 slot_faction_class_lower_urban_political_activity = slot_faction_ve_mod_slots_begin + 234
 slot_faction_class_lower_rural_political_activity = slot_faction_ve_mod_slots_begin + 235
-slot_faction_class_upper_aristocracy_attitude = slot_faction_ve_mod_slots_begin + 236
-slot_faction_class_upper_bourgeoisie_attitude = slot_faction_ve_mod_slots_begin + 237
-slot_faction_class_middle_attitude = slot_faction_ve_mod_slots_begin + 238
-slot_faction_class_lower_urban_attitude = slot_faction_ve_mod_slots_begin + 239
-slot_faction_class_lower_rural_attitude = slot_faction_ve_mod_slots_begin + 240
-slot_faction_class_upper_aristocracy_pvol_military_service_term = slot_faction_ve_mod_slots_begin + 241
+slot_faction_class_upper_aristocracy_satisfaction = slot_faction_ve_mod_slots_begin + 236
+slot_faction_class_upper_bourgeoisie_satisfaction = slot_faction_ve_mod_slots_begin + 237
+slot_faction_class_middle_satisfaction = slot_faction_ve_mod_slots_begin + 238
+slot_faction_class_lower_urban_satisfaction = slot_faction_ve_mod_slots_begin + 239
+slot_faction_class_lower_rural_satisfaction = slot_faction_ve_mod_slots_begin + 240
+slot_faction_class_upper_aristocracy_pvol_child_labor = slot_faction_ve_mod_slots_begin + 241
 slot_faction_class_upper_aristocracy_pvol_nomination_rules = slot_faction_ve_mod_slots_begin + 242
 slot_faction_class_upper_aristocracy_pvol_voting_franchise = slot_faction_ve_mod_slots_begin + 243
 slot_faction_class_upper_aristocracy_pvol_public_meetings = slot_faction_ve_mod_slots_begin + 244
@@ -1066,7 +1069,7 @@ slot_faction_class_upper_aristocracy_pvol_workers_conditions = slot_faction_ve_m
 slot_faction_class_upper_aristocracy_pvol_workers_wage = slot_faction_ve_mod_slots_begin + 255
 slot_faction_class_upper_aristocracy_pvol_trade_unions = slot_faction_ve_mod_slots_begin + 256
 slot_faction_class_upper_aristocracy_pvol_military_expenses = slot_faction_ve_mod_slots_begin + 257
-slot_faction_class_upper_bourgeoisie_pvol_military_service_term = slot_faction_ve_mod_slots_begin + 258
+slot_faction_class_upper_bourgeoisie_pvol_child_labor = slot_faction_ve_mod_slots_begin + 258
 slot_faction_class_upper_bourgeoisie_pvol_nomination_rules = slot_faction_ve_mod_slots_begin + 259
 slot_faction_class_upper_bourgeoisie_pvol_voting_franchise = slot_faction_ve_mod_slots_begin + 260
 slot_faction_class_upper_bourgeoisie_pvol_public_meetings = slot_faction_ve_mod_slots_begin + 261
@@ -1083,7 +1086,7 @@ slot_faction_class_upper_bourgeoisie_pvol_workers_conditions = slot_faction_ve_m
 slot_faction_class_upper_bourgeoisie_pvol_workers_wage = slot_faction_ve_mod_slots_begin + 272
 slot_faction_class_upper_bourgeoisie_pvol_trade_unions = slot_faction_ve_mod_slots_begin + 273
 slot_faction_class_upper_bourgeoisie_pvol_military_expenses = slot_faction_ve_mod_slots_begin + 274
-slot_faction_class_middle_pvol_military_service_term = slot_faction_ve_mod_slots_begin + 275
+slot_faction_class_middle_pvol_child_labor = slot_faction_ve_mod_slots_begin + 275
 slot_faction_class_middle_pvol_nomination_rules = slot_faction_ve_mod_slots_begin + 276
 slot_faction_class_middle_pvol_voting_franchise = slot_faction_ve_mod_slots_begin + 277
 slot_faction_class_middle_pvol_public_meetings = slot_faction_ve_mod_slots_begin + 278
@@ -1100,7 +1103,7 @@ slot_faction_class_middle_pvol_workers_conditions = slot_faction_ve_mod_slots_be
 slot_faction_class_middle_pvol_workers_wage = slot_faction_ve_mod_slots_begin + 289
 slot_faction_class_middle_pvol_trade_unions = slot_faction_ve_mod_slots_begin + 290
 slot_faction_class_middle_pvol_military_expenses = slot_faction_ve_mod_slots_begin + 291
-slot_faction_class_lower_urban_pvol_military_service_term = slot_faction_ve_mod_slots_begin + 292
+slot_faction_class_lower_urban_pvol_child_labor = slot_faction_ve_mod_slots_begin + 292
 slot_faction_class_lower_urban_pvol_nomination_rules = slot_faction_ve_mod_slots_begin + 293
 slot_faction_class_lower_urban_pvol_voting_franchise = slot_faction_ve_mod_slots_begin + 294
 slot_faction_class_lower_urban_pvol_public_meetings = slot_faction_ve_mod_slots_begin + 295
@@ -1117,7 +1120,7 @@ slot_faction_class_lower_urban_pvol_workers_conditions = slot_faction_ve_mod_slo
 slot_faction_class_lower_urban_pvol_workers_wage = slot_faction_ve_mod_slots_begin + 306
 slot_faction_class_lower_urban_pvol_trade_unions = slot_faction_ve_mod_slots_begin + 307
 slot_faction_class_lower_urban_pvol_military_expenses = slot_faction_ve_mod_slots_begin + 308
-slot_faction_class_lower_rural_pvol_military_service_term = slot_faction_ve_mod_slots_begin + 309
+slot_faction_class_lower_rural_pvol_child_labor = slot_faction_ve_mod_slots_begin + 309
 slot_faction_class_lower_rural_pvol_nomination_rules = slot_faction_ve_mod_slots_begin + 310
 slot_faction_class_lower_rural_pvol_voting_franchise = slot_faction_ve_mod_slots_begin + 311
 slot_faction_class_lower_rural_pvol_public_meetings = slot_faction_ve_mod_slots_begin + 312
@@ -1246,6 +1249,18 @@ slot_faction_supplied_by_ammunition =  slot_faction_ve_mod_slots_begin + 435
 slot_faction_supplied_by_weaponry =  slot_faction_ve_mod_slots_begin + 436
 slot_faction_battle_efficiency_from_supplies =  slot_faction_ve_mod_slots_begin + 437
 slot_faction_lord_name_string =  slot_faction_ve_mod_slots_begin + 438
+slot_faction_movement_liberal_popularity =  slot_faction_ve_mod_slots_begin + 439
+slot_faction_movement_socialist_popularity =  slot_faction_ve_mod_slots_begin + 440
+slot_faction_movement_propeace_popularity =  slot_faction_ve_mod_slots_begin + 441
+slot_faction_movement_liberal_radicalism =  slot_faction_ve_mod_slots_begin + 442
+slot_faction_movement_socialist_radicalism =  slot_faction_ve_mod_slots_begin + 443
+slot_faction_movement_propeace_radicalism =  slot_faction_ve_mod_slots_begin + 444
+slot_faction_has_socialist_party =  slot_faction_ve_mod_slots_begin + 445
+slot_faction_propeace_movement_political_activity_bonus =  slot_faction_ve_mod_slots_begin + 446
+slot_faction_propaganda_campaign_timer =  slot_faction_ve_mod_slots_begin + 447
+slot_faction_repression_target =  slot_faction_ve_mod_slots_begin + 448
+slot_faction_repression_campaign_timer =  slot_faction_ve_mod_slots_begin + 449
+slot_faction_law_balance_other_expenses =  slot_faction_ve_mod_slots_begin + 450
 
 
 
@@ -1757,6 +1772,8 @@ slot_party_size_bonus = pes_slots_start + 180
 slot_party_pas_lord_state = pes_slots_start + 181
 slot_party_pas_center_target = pes_slots_start + 182
 slot_party_pas_timer = pes_slots_start + 183
+slot_center_infrastructure_factual = pes_slots_start + 184
+slot_center_infrastructure_lastmax = pes_slots_start + 185
 
 #slot_party_type values
 ##spt_caravan            = 1

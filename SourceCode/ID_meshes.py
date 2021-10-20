@@ -599,5 +599,11 @@ mesh_pes_resource_price_line = 597
 mesh_pps_menu_bg = 598
 mesh_pic_ww1_event = 599
 mesh_pic_balkan_league = 600
+mesh_pps_movements_bg = 601
+mesh_pps_movement_propeace = 602
+mesh_pps_movement_liberal = 603
+mesh_pps_movement_socialist = 604
+mesh_pps_movement_popularity = 605
+mesh_pps_movement_radicalism = 606
 
 

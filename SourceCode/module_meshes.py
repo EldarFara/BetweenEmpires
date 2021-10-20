@@ -664,6 +664,12 @@ meshes = [
   ("pps_menu_bg", 0, "pps_menu_bg", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("pic_ww1_event", 0, "pic_ww1_event", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("pic_balkan_league", 0, "pic_balkan_league", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pps_movements_bg", 0, "pps_movements_bg", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pps_movement_propeace", 0, "pps_movement_propeace", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pps_movement_liberal", 0, "pps_movement_liberal", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pps_movement_socialist", 0, "pps_movement_socialist", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pps_movement_popularity", 0, "pps_movement_popularity", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pps_movement_radicalism", 0, "pps_movement_radicalism", 0, 0, 0, 0, 0, 0, 1, 1, 1),
 ]
 
 # modmerger_start version=201 type=2

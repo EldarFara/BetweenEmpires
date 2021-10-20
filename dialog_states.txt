@@ -243,7 +243,14 @@ declare_war_choose_faction
 declare_war_proceed
 declare_war_proceed_final_answer
 declare_war_proceed_final_answer_completed
-combined_political_quests
+propaganda_initial
+propaganda_ahead
+repression_initial
+repression_ahead
+repression_ahead_success
+sign_constitution1
+sign_constitution2
+sign_constitution3
 offer_gift_quest_complete
 minister_cancel_political_quest
 minister_cancel_political_quest_confirm
@@ -506,6 +513,7 @@ lord_active_mission_1
 lord_switch_to_spouse
 spouse_talk
 lord_request_mission_ask
+combined_political_quests
 lord_ask_resign_marshalship
 lord_ask_enter_service
 lord_ask_leave_service

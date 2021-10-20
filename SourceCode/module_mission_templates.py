@@ -4715,6 +4715,7 @@ bot_animation = (0, 0, 0,[
 		(val_add, ":item", 1),
 		(item_get_weapon_length, ":item_length", ":item"),
 		(le, ":item_length", 80),
+		(gt, ":item_length", 0),
 		(agent_set_animation, ":agent", "anim_run_forward_carbine", 0),
 		(agent_set_animation, ":agent", "anim_run_forward_carbine", 1),
 		(else_try),
@@ -5349,16 +5350,17 @@ pbs_agent_spawn = (ti_on_agent_spawn, 0, 0, [
 		(assign, ":faction", "fac_player_supporters_faction"),
 		(try_end),
 	(faction_get_slot, ":supplied_by_ammunition", ":faction", slot_faction_supplied_by_ammunition),
-	(store_sub, ":chance_to_get_no_ammo", 80, ":supplied_by_ammunition"),
-	(ge, ":chance_to_get_no_ammo", 0),
-	(val_div, ":chance_to_get_no_ammo", 3),
-	(call_script, "script_cf_random", ":chance_to_get_no_ammo"),
+	(store_sub, ":ammo_reduction", 100, ":supplied_by_ammunition"),
+	(ge, ":ammo_reduction", 0),
+	(val_div, ":ammo_reduction", 2),
 		(try_for_range, ":slot", 0, 4),
 		(agent_get_item_slot, ":item", ":agent", ":slot"),
 		(this_or_next|eq, ":item", "itm_ammo_rifle"),
 		(this_or_next|eq, ":item", "itm_ammo_rifle_double"),
 		(eq, ":item", "itm_ammo_pistol"),
-		(agent_unequip_item, ":agent", ":item", ":slot"),
+		(agent_get_ammo_for_slot, ":ammo", ":agent", ":slot"),
+		(val_sub, ":ammo", ":ammo_reduction"),
+		(agent_set_ammo, ":agent", ":item", ":ammo"),
 		(try_end),
 	(try_end),
 #(display_message, "@debug pbs_agent_spawn end"),
@@ -5824,15 +5826,15 @@ aerial_view_runtime = (0, 0, 0, [], [
 ])
 
 test = (0, 0, 0, [
-(key_is_down, key_t),
-	(try_for_agents,":agent"),
-	(agent_is_active, ":agent"),
-	(agent_is_alive, ":agent"),
-	(agent_is_human, ":agent"),
-	(agent_set_animation, ":agent", "anim_unused_human_anim_45", 0),
-	(agent_set_animation, ":agent", "anim_unused_human_anim_45", 1),
-	(agent_set_no_dynamics, ":agent", 1),
-	(try_end),
+# (key_is_down, key_t),
+	# (try_for_agents,":agent"),
+	# (agent_is_active, ":agent"),
+	# (agent_is_alive, ":agent"),
+	# (agent_is_human, ":agent"),
+	# (agent_set_animation, ":agent", "anim_unused_human_anim_45", 0),
+	# (agent_set_animation, ":agent", "anim_unused_human_anim_45", 1),
+	# (agent_set_no_dynamics, ":agent", 1),
+	# (try_end),
 ], [])
 
 sound_man_hit = (ti_on_agent_hit, 0, 0, [
@@ -7516,7 +7518,7 @@ common_siege_attacker_reinforcement_check = (
     (lt,":num_attackers", 18),
     ],
   [
-    (add_reinforcements_to_entry, 1, 40),
+    (add_reinforcements_to_entry, 1, 18),
     (val_add,"$attacker_reinforcement_stage", 1),
     ])
 

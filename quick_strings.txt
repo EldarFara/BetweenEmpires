@@ -1,4 +1,4 @@
-1357
+1376
 qstr_res_cape1 res_cape1
 qstr_res_cape2 res_cape2
 qstr_thawb1_belt1 thawb1_belt1
@@ -227,7 +227,7 @@ qstr_faction_technologies_photo_la faction_technologies_photo_lateshells
 qstr_faction_technologies_photo_sh faction_technologies_photo_shocktroops
 qstr_Modern_Defence^Tacti Modern_Defence^Tactics
 qstr_faction_technologies_photo_mo faction_technologies_photo_moderndefence
-qstr___already_invested_ _(already_invested)
+qstr___already_funded_ _(already_funded)
 qstr___already_researched _(already_researched)
 qstr__Current_progress___ _Current_progress_-_{reg2}%.
 qstr_Cost___{reg0}_${s1}. Cost_-_{reg0}_${s1}.^Available_after_{reg1}_year.{s2}
@@ -254,7 +254,7 @@ qstr_Lower_Class___Urban Lower_Class_-_Urban
 qstr_Lower_Class___Rural Lower_Class_-_Rural
 qstr_Loyalty_to_parties: Loyalty_to_parties:
 qstr_Wealth:_{reg1}% Wealth:_{reg1}%
-qstr_Satisfaction_with_ne Satisfaction_with_needs:_{reg2}%
+qstr_Satisfaction_with_ne Satisfaction_with_needs:_{reg4}%
 qstr_Political_activity:_ Political_activity:_{reg3}%
 qstr_State_Laws: State_Laws:
 qstr_Nomination_Rules Nomination_Rules
@@ -277,14 +277,18 @@ qstr_Executive_Branch_Ele Executive_Branch_Elective_Posts
 qstr_Selected_by_State Selected_by_State
 qstr_Partially_Elected Partially_Elected
 qstr_Mostly_Elected Mostly_Elected
-qstr_Military_Service_Ter Military_Service_Term
-qstr_Short Short
-qstr_Medium Medium
-qstr_Long Long
+qstr_Child_Labor Child_Labor
+qstr_Allowed Allowed
+qstr_Restrictions Restrictions
+qstr_Outlawed Outlawed
 qstr_Production_Safety_Re Production_Safety_Regulations
 qstr_Minimum_Wage Minimum_Wage
 qstr_Trade_Unions Trade_Unions
 qstr_Public_Meetings Public_Meetings
+qstr_Political_movements Political_movements
+qstr_Liberal_movement Liberal_movement
+qstr_Socialist_movement Socialist_movement
+qstr_Peace_movement Peace_movement
 qstr_Income_tax:_{reg10}% Income_tax:_{reg10}%
 qstr_Goods_and_Services_t Goods_and_Services_tax:_{reg10}%
 qstr_Import/Export_tax:_{ Import/Export_tax:_{reg11}%/{reg12}%
@@ -341,6 +345,7 @@ qstr_Same_type_of_factory Same_type_of_factory_does_already_exist_in_this_town.
 qstr_Initial_Capital:_{re Initial_Capital:_{reg10}_$.
 qstr_Army_of_{s1} Army_of_{s1}
 qstr_Army_size:_{reg1}% Army_size:_{reg1}%
+qstr__{reg2}.{reg3}%_to_q -{reg2}.{reg3}%_to_quality_of_life
 qstr_Divisions Divisions
 qstr_{reg1}_soldiers {reg1}_soldiers
 qstr_Garrisons Garrisons
@@ -581,7 +586,6 @@ qstr_Messenger_Post Messenger_Post
 qstr_A_messenger_post_let A_messenger_post_lets_the_inhabitants_send_you_a_message_whenever_enemies_are_nearby,_even_if_you_are_far_away_from_here.
 qstr_Prison_Tower Prison_Tower
 qstr_A_prison_tower_reduc A_prison_tower_reduces_the_chance_of_captives_held_here_running_away_successfully.
-qstr_Prosperity_of_{s2}_h Prosperity_of_{s2}_has_changed_from_{s3}_to_{s4}.
 qstr_{!}DEBUG:_Total_pros {!}DEBUG:_Total_prosperity_actual_losses:_{reg11}
 qstr_{!}DEBUG:_Total_prosp {!}DEBUG:_Total_prosperity_actual_gains:_{reg12}
 qstr_{!}DEBUG:_Prosperity {!}DEBUG:_Prosperity_changes_from_random_bandits:_{reg4}
@@ -715,6 +719,7 @@ qstr_{s1}:_{reg1}% {s1}:_{reg1}%
 qstr_Ruling_party Ruling_party
 qstr_Influence:_{reg1}% Influence:_{reg1}%
 qstr_Annual_Income:_{reg1 Annual_Income:_{reg1}.{reg10}_$
+qstr_Quality_of_life:_{re Quality_of_life:_{reg2}.{reg10}%
 qstr_Current_budget: Current_budget:
 qstr_{reg10}_$ {reg10}_$
 qstr_Corruption_level:_{r Corruption_level:_{reg10}%
@@ -722,8 +727,11 @@ qstr_+{reg10}_$ +{reg10}_$
 qstr_Goods_and_services_t Goods_and_services_tax:_{reg10}%
 qstr__{reg10}_$ -{reg10}_$
 qstr_Public_servants_wage Public_servants_wage_expenses:^-{reg10}_$
+qstr_Other_expenses:^_{re Other_expenses:^-{reg10}_$
 qstr_Lost_from_corruption Lost_from_corruption:_-{reg10}_$
-qstr_Last_budget_change:^ Last_budget_change:^{reg10}_$
+qstr_Last_budget_change:^ Last_budget_change:^^{s1}{reg10}_$
+qstr_{reg1}.{reg2}% {reg1}.{reg2}%
+qstr____ _-_
 qstr_PPS_Faction_iteratio PPS_Faction_iteration_of_{s1}.
 qstr_Center_iteration_of_ Center_iteration_of_{s1}.
 qstr_{s1}_s_{s2}_Iteratio {s1}'s_{s2}_Iteration:
@@ -827,7 +835,6 @@ qstr_Supply___{reg11}.{re Supply_-_{reg11}.{reg12}_{s1}
 qstr_Demand___{reg11}.{re Demand_-_{reg11}.{reg12}_{s1}
 qstr_{reg10}._{s1} {reg10}._{s1}
 qstr_{reg10}.{reg11} {reg10}.{reg11}
-qstr____ _-_
 qstr_{reg10}% {reg10}%
 qstr_handicraft^only handicraft^only
 qstr_{reg10}k_$ {reg10}k_$
@@ -855,12 +862,16 @@ qstr_{reg10}._party_gives {reg10}._party_gives_{reg11}_votes
 qstr_{s1}_rural_wealth_{r {s1}_rural_wealth_{reg10}_urban_wealth_{reg11}_middle_wealth_{reg12}_bourgeoisie_wealth_{reg13}_aristocracy_wealth_{reg14}_sum_wage_{reg15}_gdp_rural_{reg16}_gdp_urban_{reg17}_population_root_{reg18}
 qstr_{s1}_cannot_launch_g {s1}_cannot_launch_grenade_attack_-_{reg1}_seconds_cooldown.
 qstr_{s1}_cannot_launch_ga {s1}_cannot_launch_gas_attack_-_{reg1}_seconds_cooldown.
-qstr_{s1}_{reg0} {s1}_{reg0}
 qstr_You_became_a_high_co You_became_a_high_command_officer,_which_means_you_are_free_to_act_independent_during_service.
 qstr_You_became_a_non_com You_became_a_non-commissioned_officer,_which_means_you_will_now_command_troops_in_battle.
 qstr_You_became_a_marshal You_became_a_marshall_of_{s10},_which_means_you_can_start_and_manage_campaigns.
-qstr_{s1}_supplied_by_mil {s1}_supplied_by_military_supplies_{reg1}
 qstr_{s50}_{s51} {s50}_{s51}
+qstr_Your_government_type Your_government_type_doesn't_allow_to_manage_this_factory.
+qstr_Unable_to_manage_ene Unable_to_manage_enemy_faction's_factory.
+qstr_{s1}_s_government_ha {s1}'s_government_has_been_changed_to_Absolute_Monarchy.
+qstr_{s1}_s_government_has {s1}'s_government_has_been_changed_to_Constitutional_Monarchy.
+qstr_{s1}_s_government_has_ {s1}'s_government_has_been_changed_to_Republic.
+qstr_{s1}_s_government_has_b {s1}'s_government_has_been_changed_to_Soviet_Republic.
 qstr_{reg0}._Company_has_ {reg0}._Company_has_switched_to_walking.
 qstr_{reg0}._Company_has_s {reg0}._Company_has_switched_to_running.
 qstr_{s1}_cannot_change_f {s1}_cannot_change_formation_-_only_light_infantry_can_apply_extended_line_formation.
@@ -1146,7 +1157,6 @@ qstr_Join_Serbia_and_Gree Join_Serbia_and_Greece_and_declare_war_on_Bulgaria.
 qstr_Breaking_camp... Breaking_camp...
 qstr_{!}{s3}_commander_of {!}{s3}_commander_of_party_#{reg4}_which_is_not_his_troop_leaded_party_{reg5}
 qstr_The_{s31}_gets_1_inf The_{s31}_gets_1_infamy_because_of_the_prolonged_war_with_{s32}.
-qstr_{!}DEBUG___{s4}_is_i {!}DEBUG_-_{s4}_is_in_{s5},_should_be_in_{s6},_disabling_political_cheat_mode
 qstr_Party_has_nothing_to Party_has_nothing_to_eat!
 qstr_{reg1}_{s1}_{reg2?ha {reg1}_{s1}_{reg2?have:has}_escaped_from_your_party_during_the_night.
 qstr_{s1}_of_{s3}_has_bee {s1}_of_{s3}_has_been_released_from_captivity.
@@ -1225,6 +1235,7 @@ qstr_President_Patrice_de President_Patrice_de_MacMahon
 qstr_Kaiser_Wilhelm_I Kaiser_Wilhelm_I
 qstr_King_Wilhelm_III King_Wilhelm_III
 qstr_Your_country_is_bank Your_country_is_bankrupt!
+qstr_Government_type_was_ Government_type_was_changed_to_Republic.
 qstr_{!}DEBUG____Wanted_b {!}DEBUG_--_Wanted_bandits_spotted_by_{s4}
 qstr_{reg65?my_Lady:my_Lo {reg65?my_Lady:my_Lord}
 qstr_{reg65?My_Lady:My_Lo {reg65?My_Lady:My_Lord}
@@ -1260,6 +1271,14 @@ qstr_You_have_my_blessing You_have_my_blessings,_go_ahead.
 qstr_Let_s_not_act_rashly Let's_not_act_rashly._We_have_all_the_time_we_need,_let's_wait.
 qstr_Hold_it_then_we_can_ Hold_it,_then,_we_can't_get_ourselves_condemned_by_a_dozen_nations_at_once!
 qstr_This_will_be_unneces This_will_be_unnecessary_bloodshed_through_and_through._Hold_off_on_it.
+qstr_With_our_state_contr With_our_state-controlled_press,_we_can_surely_achieve_a_good_result.
+qstr_Because_of_free_pres Because_of_free_press_laws_in_our_country,_campaign_will_not_be_much_effective.
+qstr_With_our_censorship_ With_our_censorship,_we_will_be_able_to_significantly_reduce_influence_of_our_political_opponents_and_get_quite_good_results.
+qstr_I_want_to_start_repr I_want_to_start_repressions_against_our_political_opponents.
+qstr_We_need_to_decrease_ We_need_to_decrease_influence_of_our_opponents_in_the_political_arena.
+qstr_Most_certainly._Arre Most_certainly._Arrests_of_influential_figures_of_the_political_opposition_will_undermine_their_positions_in_the_political_arena_and_strengthen_ours._Investigation_will_take_10_days_and_{reg1}_pounds_per_day.
+qstr_Most_certainly._Few_ Most_certainly._Few_revelatory_articles_condemning_our_opponents_in_illegal_actions,_aiding_enemy_and_treason_will_dishonor_them_before_the_eyes_of_our_people,_and_strengthen_our_position._The_whole_process_will_take_10_days_and_{reg1}_pounds_per_day.
+qstr_However_in_case_of_f However,_in_case_of_failure,_our_opponents_can_condemn_us_as_answer_to_our_actions.
 qstr_{playername}_when_we {playername},_when_we_started_our_long_walk,_few_people_had_the_courage_to_support_me._And_fewer_still_would_be_willing_to_put_their_lives_at_risk_for_my_cause._But_you_didn't_hesitate_for_a_moment_in_throwing_yourself_at_my_enemies._We_have_gone_through_a_lot_together,_and_there_were_times_I_came_close_to_losing_all_hope._But_with_God's_help,_we_prevailed._It_is_now_time_for_me_to_leave_your_company_and_take_what's_rightfully_mine._From_now_on,_I_will_carry_out_the_great_responsibility_of_ruling_{s3}._There_still_lie_many_challanges_ahead_and_I_count_on_your_help_in_overcoming_those._And_of_course,_you_will_always_remain_as_my_foremost_vassal.
 qstr__We_will_of_course_n _We_will_of_course_need_to_wait_until_the_realm_is_no_longer_on_campaign.
 qstr_I_am_{s4}_the_ruler_ I_am_{s4},_the_ruler_of_{s6}
