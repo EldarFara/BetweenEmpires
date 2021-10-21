@@ -9,7 +9,9 @@ from ID_parties import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
-pps_movements_number = 3
+republic_elections_interval = 30
+
+pps_movements_number = 4
 
 craters_limit = 400
 
@@ -201,7 +203,8 @@ law_voting_franchise_universal_weighted = 150
 law_voting_franchise_universal = 175
 
 law_public_meetings_not_allowed = 0
-law_public_meetings_allowed = 50
+law_public_meetings_sanctioned_only = 30
+law_public_meetings_allowed = 60
 
 law_press_state_press = 0
 law_press_heavy_censorship = 33
@@ -1261,6 +1264,10 @@ slot_faction_propaganda_campaign_timer =  slot_faction_ve_mod_slots_begin + 447
 slot_faction_repression_target =  slot_faction_ve_mod_slots_begin + 448
 slot_faction_repression_campaign_timer =  slot_faction_ve_mod_slots_begin + 449
 slot_faction_law_balance_other_expenses =  slot_faction_ve_mod_slots_begin + 450
+slot_faction_movement_revanchist_popularity =  slot_faction_ve_mod_slots_begin + 451
+slot_faction_movement_revanchist_radicalism =  slot_faction_ve_mod_slots_begin + 452
+slot_faction_elections_timer =  slot_faction_ve_mod_slots_begin + 453
+slot_faction_smg =  slot_faction_ve_mod_slots_begin + 454
 
 
 

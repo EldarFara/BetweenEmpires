@@ -503,6 +503,9 @@ sounds = [
 ("hmg_shot_distant1", sf_priority_14|sf_vol_15, ["hmg_shot_distant1_1.wav", "hmg_shot_distant1_2.wav", "hmg_shot_distant1_3.wav", "hmg_shot_distant1_4.wav", "hmg_shot_distant1_5.wav"]),
 ("shot_lmg1", sf_priority_14|sf_vol_15, ["shot_lmg1_1.wav", "shot_lmg1_2.wav", "shot_lmg1_3.wav"]),
 ("shot_lmg2", sf_priority_14|sf_vol_15, ["shot_lmg2_1.wav", "shot_lmg2_2.wav", "shot_lmg2_3.wav"]),
+("shot_fedorov", sf_priority_14|sf_vol_15, ["shot_fedorov_1.wav"]),
+("shot_mp18", sf_priority_14|sf_vol_15, ["shot_mp18_1.wav", "shot_mp18_2.wav"]),
+("shot_beretta1918", sf_priority_14|sf_vol_15, ["shot_beretta1918_1.wav", "shot_beretta1918_2.wav", "shot_beretta1918_3.wav"]),
 
 ("gas_shell1", sf_priority_10|sf_vol_10, ["gas_shell1_1.wav", "gas_shell1_2.wav", "gas_shell1_3.wav"]),
 

@@ -455,6 +455,9 @@ snd_hmg_shot1 = 453
 snd_hmg_shot_distant1 = 454
 snd_shot_lmg1 = 455
 snd_shot_lmg2 = 456
-snd_gas_shell1 = 457
+snd_shot_fedorov = 457
+snd_shot_mp18 = 458
+snd_shot_beretta1918 = 459
+snd_gas_shell1 = 460
 
 

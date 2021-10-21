@@ -7296,6 +7296,10 @@ simple_triggers = [
 
 (24,
 [
+	(try_begin),
+	(gt, "$pps_ruling_party_change_cooldown", 0),
+	(val_sub, "$pps_ruling_party_change_cooldown", 1),
+	(try_end),
 (eq, "$players_kingdom", "fac_player_supporters_faction"),
 (faction_slot_eq, "$players_kingdom", slot_faction_state, sfs_active),
 
@@ -7323,10 +7327,23 @@ simple_triggers = [
 		(try_end),
 	(else_try),
 	(call_script, "script_pps_france_init_post_napoleon_parties", ":faction_france"),
-	(call_script, "script_pps_faction_iteration", ":faction_france"),
+	(call_script, "script_pps_faction_calculate_support_of_parties", ":faction_france"),
 	(try_end),
 ]),
 
+(0,
+[
+	(try_begin),
+	(eq, "$player_faction_preset", "fac_kingdom_2"),
+	(assign, ":faction_russia", "fac_player_supporters_faction"),
+	(else_try),
+	(assign, ":faction_russia", "fac_kingdom_2"),
+	(try_end),
+(faction_slot_eq, ":faction_russia", slot_faction_does_have_parliament, 1),
+(faction_slot_eq, ":faction_russia", slot_faction_political_party1_name, "str_slavophiles"),
+(call_script, "script_pps_russia_init_duma_parties", ":faction_russia"),
+(call_script, "script_pps_faction_calculate_support_of_parties", ":faction_russia"),
+]),
 ]
 
 

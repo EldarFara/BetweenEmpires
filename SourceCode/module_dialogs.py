@@ -3970,7 +3970,7 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
    (faction_get_slot, reg1, "fac_player_supporters_faction", slot_faction_repression_campaign_timer),
    (gt, reg1, 0),
    ],
-   "There already were investigation recentrly, we only will be able to get into new one in {reg1} days.", "minister_talk",
+   "There already were investigation recently, we only will be able to get into new one in {reg1} days.", "minister_talk",
    []],
    [anyone, "repression_initial",
    [
