@@ -670,6 +670,7 @@ meshes = [
   ("pps_movement_socialist", 0, "pps_movement_socialist", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("pps_movement_popularity", 0, "pps_movement_popularity", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("pps_movement_radicalism", 0, "pps_movement_radicalism", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pes_factory_strike", 0, "pes_factory_strike", 0, 0, 0, 0, 0, 0, 1, 1, 1),
 ]
 
 # modmerger_start version=201 type=2

@@ -1044,7 +1044,7 @@ game_menus = [
       (assign,"$background_type",cb_manufacture),
       (assign, reg3, "$character_gender"),
       (str_store_string,s11,"@{reg3?daughter:son}"),
-      (str_store_string,s10,"@You were born the {reg3?daughter:son} of a regular factory laborer,\
+      (str_store_string,s10,"@You were born the {reg3?daughter:son} of a regular factory labourer,\
  who spent his life toughly working for his family. Although you were tought to live fairly,\
  your father gave you freedom of chosing your future profession.\
  After his death, you still was seeking for a business to get in your live."),
@@ -15859,6 +15859,12 @@ the high lords and common folk across the many realms of Europe."),
         ]),
 	]),
   
+	
+("socialism_demonstration", 0, "Demonstration in {s2}!^^Protesters hold peaceful protest against country's 'economic woes' in {s2}.^Scores of protesters under the umbrella of {s3} held a peaceful rally to express dissatisfaction over the state of affairs of {s1}.^The protesters, comprising youth and the elderly, marched about a three kilometre distance.^Despite the heavy presence of law enforcements, the protesters kept chanting solidarity songs, to show displeasure with the state of the country.^On arrival at {s2}, the protesters expressed their grievances over the governance of {s1}, with many of them chanting 'Internationale'.^^Police officers surronded the crowd and wait for orders.", "none", [], [
+("socialism_demonstration_option1", [],"Ignore the demonstration and wait for it to go away.", [(display_message, "@Days after peaceful protests began, backlashes from many organizations, still not yet bore a fruit. The government decided to ignore the demands from the protesters. The government has only given them pain instead of listening them for fair investigations, leading to more and more widespread protests across the country. And now, the government has two decision, whether to comply or just simply, refuse.^^Effects: Socialist movement popularity increased by 10%.", 0xffc760), (call_script, "script_pps_faction_process_event_effect_socialism_demonstration",  "fac_player_supporters_faction", 1), (change_screen_return), ]),
+("socialism_demonstration_option2", [],"Disperse the crowd by police force avoiding victims.", [(display_message, "@After hearing about the protests, being a nuisance for the government, the government decided to dispatch some policemen to disperse the crowd of protesters by non-lethal means. They tried to disperse the crowd with whips and baton and it resulted in a success. Some of the protesters thrown rocks and debris to the officers but all of them have been arrested in the following afternoon. The last of the protesters finally dispersed after some of the demonstration leaders escaped the scene.^^Effects: Socialist movement popularity increased by 5%. Socialist movement radicalism increased by 3%.", 0xffc760), (call_script, "script_pps_faction_process_event_effect_socialism_demonstration",  "fac_player_supporters_faction", 2), (change_screen_return), ]),
+("socialism_demonstration_option3", [],"Disperse the crowd, allowing usage of firearms.", [(display_message, "@At noon, when the demonstration leader was making a speech about their demands infront of the crowd of protesters, troops and policemen entered the scene to disperse the crowd. Unfortunately, the government ordered the dispersion with a violent way. Then, soldiers opened fire on the protesters, killing and wounding many people. Others, tried to flee from the scene, ran either wounded or dying. Few managed to hide from the law enforcement and the dispersion is successful. The government quickly received backlashes from peace organizations, socialists and even foreign countries alike, thus souring foreign relations. ^^ Socialist movement radicalism increased by 10%.", 0xffc760), (call_script, "script_pps_faction_process_event_effect_socialism_demonstration",  "fac_player_supporters_faction", 3), (change_screen_return), ]),
+]),
   
 	
  ]

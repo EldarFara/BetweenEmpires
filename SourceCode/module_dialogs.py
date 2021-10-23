@@ -15031,7 +15031,7 @@ Hand over my {reg19} pounds, if you please, and end our business together.", "lo
 ","lord_mercenary_service", []],
   [anyone|plyr,"lord_mercenary_service", [], "I'm not interested, thank you.", "lord_mercenary_service_reject", []],
   [anyone|plyr,"lord_mercenary_service", [], "Aye, I'll join {s9}.", "lord_mercenary_service_accept", []],
-  [anyone|plyr,"lord_mercenary_service", [], "I'm interested. Please tell me more.", "lord_mercenary_elaborate_pay", []],
+  [anyone|plyr,"lord_mercenary_service", [], "I'm interested. Please tell me more.", "lord_mercenary_elabourate_pay", []],
 
   [anyone,"lord_mercenary_service_accept", [(str_store_faction_name, s9, "$g_talk_troop_faction")],
    "Perfect. Of course you shall have to make a formal declaration of allegiance,\
@@ -15054,68 +15054,68 @@ Hand over my {reg19} pounds, if you please, and end our business together.", "lo
   [anyone,"lord_mercenary_service_reject", [(str_store_faction_name, s9, "$g_talk_troop_faction")],
    "I'm very sorry to hear that. You'll find no better place than {s9}, be sure of that.", "lord_pretalk", []],
 
-  [anyone,"lord_mercenary_elaborate_pay", [(assign, reg12, "$temp")],
+  [anyone,"lord_mercenary_elabourate_pay", [(assign, reg12, "$temp")],
    "I can offer you a contract for one month. At the end of this period, it can be extended on a monthly basis.\
  An initial sum of {reg12} pounds will be paid to you to seal the contract.\
  After that, you'll receive wages from {s10} each week, according to the number and quality of the soldiers in your company.\
  You still have your rights to battlefield loot and salvage, as well as any prisoners you capture.\
- War can be very profitable at times...", "lord_mercenary_elaborate_1",
+ War can be very profitable at times...", "lord_mercenary_elabourate_1",
    [(faction_get_slot, ":faction_leader", "$g_talk_troop_faction", slot_faction_leader),
     (str_store_troop_name, s10, ":faction_leader")]],
 
   
-  [anyone,"lord_mercenary_service_elaborate_duty", [], 
+  [anyone,"lord_mercenary_service_elabourate_duty", [], 
    "Duties... There are only a few, none of them difficult. The very first thing is to declare your allegiance.\
  An oath of loyalty to our cause. Once that's done, you shall be required to fulfill certain responsibilities.\
  You'll participate in military campaigns, fulfill any duties given to you by your commanders,\
- and most of all you shall attack the enemies of our kingdom wherever you might find them.", "lord_mercenary_elaborate_1",
+ and most of all you shall attack the enemies of our kingdom wherever you might find them.", "lord_mercenary_elabourate_1",
    [(faction_get_slot, ":faction_leader", "$g_talk_troop_faction", slot_faction_leader),
     (str_store_troop_name, s10, ":faction_leader")]],
   
-  [anyone|plyr,"lord_mercenary_elaborate_1", [], "And what about my duties as a mercenary?", "lord_mercenary_service_elaborate_duty", []],
-  [anyone|plyr,"lord_mercenary_elaborate_1", [], "Can I hold on to any castles I take?", "lord_mercenary_elaborate_castle", []],
-  [anyone|plyr,"lord_mercenary_elaborate_1",
+  [anyone|plyr,"lord_mercenary_elabourate_1", [], "And what about my duties as a mercenary?", "lord_mercenary_service_elabourate_duty", []],
+  [anyone|plyr,"lord_mercenary_elabourate_1", [], "Can I hold on to any castles I take?", "lord_mercenary_elabourate_castle", []],
+  [anyone|plyr,"lord_mercenary_elabourate_1",
    [
      (neg|troop_slot_ge, "trp_player", slot_troop_banner_scene_prop, 1),
 #custom_banner begin  	
 ##    (eq, "trp_player", slot_troop_custom_banner_flag_type, -1),
 #custom_banner end
-     ], "Can I fly my own banner?", "lord_mercenary_elaborate_banner", []],
-  [anyone|plyr,"lord_mercenary_elaborate_1", [], "How much will you pay me for my service?", "lord_mercenary_elaborate_pay", []],
-  [anyone|plyr,"lord_mercenary_elaborate_1", [], "Sounds good. I wish to enter your service as a mercenary.", "lord_mercenary_service_accept", []],
-  [anyone|plyr,"lord_mercenary_elaborate_1", [], "Apologies, my sword is not for hire.", "lord_mercenary_service_reject", []],
+     ], "Can I fly my own banner?", "lord_mercenary_elabourate_banner", []],
+  [anyone|plyr,"lord_mercenary_elabourate_1", [], "How much will you pay me for my service?", "lord_mercenary_elabourate_pay", []],
+  [anyone|plyr,"lord_mercenary_elabourate_1", [], "Sounds good. I wish to enter your service as a mercenary.", "lord_mercenary_service_accept", []],
+  [anyone|plyr,"lord_mercenary_elabourate_1", [], "Apologies, my sword is not for hire.", "lord_mercenary_service_reject", []],
 
   
-  [anyone,"lord_mercenary_elaborate_castle", [(troop_get_type, ":type", "trp_player"),(eq, ":type", 1),
+  [anyone,"lord_mercenary_elabourate_castle", [(troop_get_type, ":type", "trp_player"),(eq, ":type", 1),
   (faction_slot_eq, "$g_talk_troop_faction", slot_faction_leader, "$g_talk_troop")
   ],
    "Only my loyal vassals can own lands and castles in my realm -- and all my vassals are men.\I am not inclined to depart from this tradition without a very good reason. If you prove yourself in battle, you can swear an oath of homage to me and become my vassal.\We may then discuss how you may obtain a castle.",
-   "lord_mercenary_elaborate_1", []],
+   "lord_mercenary_elabourate_1", []],
 
-  [anyone,"lord_mercenary_elaborate_castle", [(troop_get_type, ":type", "trp_player"),(eq, ":type", 1),
+  [anyone,"lord_mercenary_elabourate_castle", [(troop_get_type, ":type", "trp_player"),(eq, ":type", 1),
   ],
    "Hmm... Only loyal vassals of {s10} can own lands and castles. While kings will sometimes accept vassalage from men who prove themselves in battle, and grant them land, I have never heard of a king who gave fiefs to women. You had best discuss that issue with {s10} himself.",
-   "lord_mercenary_elaborate_1", []],
+   "lord_mercenary_elabourate_1", []],
 
    
-  [anyone,"lord_mercenary_elaborate_castle", [(faction_slot_eq, "$g_talk_troop_faction", slot_faction_leader, "$g_talk_troop")],
+  [anyone,"lord_mercenary_elabourate_castle", [(faction_slot_eq, "$g_talk_troop_faction", slot_faction_leader, "$g_talk_troop")],
    "Only my loyal vassals can own lands and castles in my realm.\
  A mercenary can not be trusted with such a responsibility.\
  However, after serving for some time, you can swear homage to me and become my vassal.\
- Then you will be rewarded with a fief.", "lord_mercenary_elaborate_1", []],
+ Then you will be rewarded with a fief.", "lord_mercenary_elabourate_1", []],
  
-  [anyone,"lord_mercenary_elaborate_castle", [], "Only loyal vassals of {s10} can own lands and castles.\
+  [anyone,"lord_mercenary_elabourate_castle", [], "Only loyal vassals of {s10} can own lands and castles.\
  You understand, a simple mercenary cannot be trusted with such responsibility.\
  However, after serving for some time, you may earn the right to swear homage to {s10} and become his vassal.\
- Then you would be rewarded with a fief.", "lord_mercenary_elaborate_1", []],
+ Then you would be rewarded with a fief.", "lord_mercenary_elabourate_1", []],
 
-  [anyone,"lord_mercenary_elaborate_banner", [(faction_slot_eq, "$g_talk_troop_faction", slot_faction_leader, "$g_talk_troop")],
+  [anyone,"lord_mercenary_elabourate_banner", [(faction_slot_eq, "$g_talk_troop_faction", slot_faction_leader, "$g_talk_troop")],
    "Only my noble vassals have the honour of carrying their own banners.\
  However, after some time in mercenary service, you may earn the opportunity to swear homage to me and become my vassal,\
- gaining the right to choose a banner of your own and fight under it in battle.", "lord_mercenary_elaborate_1", []],
-  [anyone,"lord_mercenary_elaborate_banner", [], "Only noble vassals of {s10} have the honour of carrying their own banners.\
+ gaining the right to choose a banner of your own and fight under it in battle.", "lord_mercenary_elabourate_1", []],
+  [anyone,"lord_mercenary_elabourate_banner", [], "Only noble vassals of {s10} have the honour of carrying their own banners.\
  However, after some time of mercenary service, perhaps you can earn the opportunity to swear homage to {s10} and become his vassal,\
- gaining the right to choose a banner of your own and fight under it in battle.", "lord_mercenary_elaborate_1", []],
+ gaining the right to choose a banner of your own and fight under it in battle.", "lord_mercenary_elabourate_1", []],
 
   [anyone,"lord_request_mission_ask", [(store_partner_quest,":lords_quest"),(ge,":lords_quest",0)],
    "You still haven't finished the last job I gave you, {playername}. You should be working on that, not asking me for other things to do.", "lord_pretalk",[]],
@@ -22530,7 +22530,7 @@ I suppose there are plenty of bounty hunters around to get the job done . . .", 
    ]],
 
   [anyone,"master_craftsman_accounts", [
-  ], "We currently produce {s3} worth {reg1} pounds each week, while the quantity of {s4} needed to manufacture it costs {reg2}, and labor and upkeep are {reg3}.{s9} This means that we theoretically make a {s12} of {reg0} pounds a week, assuming that we have no raw materials in the inventories, and that we sell directly to the market.", "master_craftsman_pretalk",
+  ], "We currently produce {s3} worth {reg1} pounds each week, while the quantity of {s4} needed to manufacture it costs {reg2}, and labour and upkeep are {reg3}.{s9} This means that we theoretically make a {s12} of {reg0} pounds a week, assuming that we have no raw materials in the inventories, and that we sell directly to the market.", "master_craftsman_pretalk",
   [
     (party_get_slot, ":item_produced", "$g_encountered_party", slot_center_player_enterprise),
     (call_script, "script_process_player_enterprise", ":item_produced", "$g_encountered_party"),
@@ -23069,7 +23069,7 @@ I suppose there are plenty of bounty hunters around to get the job done . . .", 
   ], "Very good, {sir/my lady}. We in the guild know and trust you, and I think I could find someone to sell you the land you need.", "mayor_investment_advice",[]], 
 
   
-  [anyone,"mayor_investment_advice",[], "A couple of things to keep in mind -- skilled laborers are always at a premium, so I doubt that you will be able to open up more than one enterprise here. In order to make a profit for yourself, you should choose a commodity which is in relatively short supply, but for which the raw materials are cheap. What sort of enterprise would you like to start?", "investment_choose_enterprise",[
+  [anyone,"mayor_investment_advice",[], "A couple of things to keep in mind -- skilled labourers are always at a premium, so I doubt that you will be able to open up more than one enterprise here. In order to make a profit for yourself, you should choose a commodity which is in relatively short supply, but for which the raw materials are cheap. What sort of enterprise would you like to start?", "investment_choose_enterprise",[
   ]],
 
   [anyone|plyr,"investment_choose_enterprise",[], "A mill and bakery, to make bread from grain", "investment_summary",[
@@ -23111,7 +23111,7 @@ I suppose there are plenty of bounty hunters around to get the job done . . .", 
   [anyone|plyr,"investment_choose_enterprise",[], "Never mind", "mayor_pretalk",[
   ]],
   
-  [anyone,"investment_summary",[], "Very good, sir. The land and the materials on which you may build your {s3} will cost you {reg7} pounds. Right now, your {s3} will produce {s4} worth {reg1} pounds each week, while the {s6} needed to manufacture that batch will be {reg2} and labor and upkeep will be {reg3}.{s9} I should guess that your profit would be {reg0} pounds a week. This assumes of course that prices remain constant -- which, I can virtually guarantee you, they will not. Do you wish to proceed?", "mayor_investment_confirm",
+  [anyone,"investment_summary",[], "Very good, sir. The land and the materials on which you may build your {s3} will cost you {reg7} pounds. Right now, your {s3} will produce {s4} worth {reg1} pounds each week, while the {s6} needed to manufacture that batch will be {reg2} and labour and upkeep will be {reg3}.{s9} I should guess that your profit would be {reg0} pounds a week. This assumes of course that prices remain constant -- which, I can virtually guarantee you, they will not. Do you wish to proceed?", "mayor_investment_confirm",
   [  
     #(item_get_slot, ":base_price", "$enterprise_production", slot_item_base_price),
     #(item_get_slot, ":number_runs", "$enterprise_production", slot_item_output_per_run),
@@ -26101,7 +26101,7 @@ I suppose there are plenty of bounty hunters around to get the job done . . .", 
                                          (assign, ":walker_type", reg0),
                                          (eq, ":walker_type", walkert_needs_money),
                                          (party_slot_eq, "$current_town", slot_party_type, spt_village)],
-   "Disaster has struck my family, {sir/madam}. We have no land of our own, and the others have no money to pay for our labor, or even to help us. My poor children lie at home hungry and sick. I don't know what we'll do.", "town_dweller_poor",[]],
+   "Disaster has struck my family, {sir/madam}. We have no land of our own, and the others have no money to pay for our labour, or even to help us. My poor children lie at home hungry and sick. I don't know what we'll do.", "town_dweller_poor",[]],
 
   [anyone,"town_dweller_ask_situation", [(call_script, "script_agent_get_town_walker_details", "$g_talk_agent"),
                                          (assign, ":walker_type", reg0),
