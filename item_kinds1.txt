@@ -1,6 +1,6 @@
 itemsfile version 3
 1903
- itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 90 0 522 528
+ itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 0 103 0 90 0 522 528
  0
 0
 
@@ -8,11 +8,11 @@ itemsfile version 3
  0
 0
 
- itm_tutorial_club Club Club 1  disabled_item_mw 0  4587522 9223388529554358286 0 0 2.500000 100 0 0 0 0 11264 95 0 95 0 256 523
+ itm_tutorial_club Club Club 1  disabled_item_mw 0  4587522 9223388529554358286 0 0 2.500000 100 0 0 0 0 0 95 0 95 0 256 523
  0
 0
 
- itm_tutorial_battle_axe Battle_Axe Battle_Axe 1  disabled_item_mw 0  73662467 9223635923965575392 0 262164 5.000000 100 0 0 0 0 27648 88 0 108 0 256 27
+ itm_tutorial_battle_axe Battle_Axe Battle_Axe 1  disabled_item_mw 0  73662467 9223635923965575392 0 262164 5.000000 100 0 0 0 0 0 88 0 108 0 256 27
  0
 0
 
@@ -48,19 +48,19 @@ itemsfile version 3
  0
 0
 
- itm_tutorial_staff Staff Staff 1  disabled_item_mw 0  2251801026232324 4222129415393024 9 0 3.500000 100 0 0 0 0 16384 120 0 115 0 528 528
+ itm_tutorial_staff Staff Staff 1  disabled_item_mw 0  2251801026232324 4222129415393024 9 0 3.500000 100 0 0 0 0 0 120 0 115 0 528 528
  0
 0
 
- itm_tutorial_sword Sword Sword 2  disabled_item_mw 0  disabled_item_mw 3458764513820540928  4194306 9223388564182532111 0 24596 1.500000 100 0 0 0 0 18432 100 0 102 0 271 18
+ itm_tutorial_sword Sword Sword 2  disabled_item_mw 0  disabled_item_mw 3458764513820540928  4194306 9223388564182532111 0 24596 1.500000 100 0 0 0 0 0 100 0 102 0 271 18
  0
 0
 
- itm_tutorial_axe Axe Axe 1  disabled_item_mw 0  73662467 9223635923965575392 0 262164 4.000000 100 0 0 0 0 19456 91 0 108 0 256 19
+ itm_tutorial_axe Axe Axe 1  disabled_item_mw 0  73662467 9223635923965575392 0 262164 4.000000 100 0 0 0 0 0 91 0 108 0 256 19
  0
 0
 
- itm_tutorial_dagger Dagger Dagger 1  practice_dagger 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 16384 103 0 40 0 522 528
+ itm_tutorial_dagger Dagger Dagger 1  practice_dagger 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 0 103 0 40 0 522 528
  0
 0
 
@@ -68,39 +68,39 @@ itemsfile version 3
  0
 0
 
- itm_practice_sword Practice_Sword Practice_Sword 1  disabled_item_mw 0  12976130 9223388529554358287 3 0 1.500000 100 0 0 0 0 22528 103 0 90 0 532 534
+ itm_practice_sword Practice_Sword Practice_Sword 1  disabled_item_mw 0  12976130 9223388529554358287 3 0 1.500000 100 0 0 0 0 0 103 0 90 0 532 534
  0
 0
 
- itm_heavy_practice_sword Heavy_Practice_Sword Heavy_Practice_Sword 1  disabled_item_mw 0  6684675 9223635919737716976 21 0 6.250000 100 0 0 0 0 30720 94 0 128 0 536 542
+ itm_heavy_practice_sword Heavy_Practice_Sword Heavy_Practice_Sword 1  disabled_item_mw 0  6684675 9223635919737716976 21 0 6.250000 100 0 0 0 0 0 94 0 128 0 536 542
  0
 0
 
- itm_practice_dagger Practice_Dagger Practice_Dagger 1  disabled_item_mw 0  12730370 9223372037685248015 2 0 0.500000 100 0 0 0 0 16384 110 0 47 0 526 528
+ itm_practice_dagger Practice_Dagger Practice_Dagger 1  disabled_item_mw 0  12730370 9223372037685248015 2 0 0.500000 100 0 0 0 0 0 110 0 47 0 526 528
  0
 0
 
- itm_practice_axe Practice_Axe Practice_Axe 1  disabled_item_mw 0  79953922 9223388530091229198 24 262164 2.000000 100 0 0 0 0 24576 95 0 75 0 256 536
+ itm_practice_axe Practice_Axe Practice_Axe 1  disabled_item_mw 0  79953922 9223388530091229198 24 262164 2.000000 100 0 0 0 0 0 95 0 75 0 256 536
  0
 0
 
- itm_arena_axe Axe Axe 1  disabled_item_mw 0  79953922 9223388530091229198 137 262164 1.500000 100 0 0 0 0 24576 100 0 69 0 256 536
+ itm_arena_axe Axe Axe 1  disabled_item_mw 0  79953922 9223388530091229198 137 262164 1.500000 100 0 0 0 0 0 100 0 69 0 256 536
  0
 0
 
- itm_arena_sword Sword Sword 2  disabled_item_mw 0  disabled_item_mw 3458764513820540928  4194306 9223388564182532111 243 155668 1.500000 100 0 0 0 0 22528 99 0 95 0 532 534
+ itm_arena_sword Sword Sword 2  disabled_item_mw 0  disabled_item_mw 3458764513820540928  4194306 9223388564182532111 243 155668 1.500000 100 0 0 0 0 0 99 0 95 0 532 534
  0
 0
 
- itm_arena_sword_two_handed Two_Handed_Sword Two_Handed_Sword 1  disabled_item_mw 0  6291459 9223635924301119728 670 155668 2.750000 100 0 0 0 0 30720 93 0 110 0 536 542
+ itm_arena_sword_two_handed Two_Handed_Sword Two_Handed_Sword 1  disabled_item_mw 0  6291459 9223635924301119728 670 155668 2.750000 100 0 0 0 0 0 93 0 110 0 536 542
  0
 0
 
- itm_arena_lance Lance Lance 1  disabled_item_mw 0  2251803173584900 4222131026005760 90 8202 2.500000 100 0 0 0 0 20480 96 0 150 0 537 532
+ itm_arena_lance Lance Lance 1  disabled_item_mw 0  2251803173584900 4222131026005760 90 8202 2.500000 100 0 0 0 0 0 96 0 150 0 537 532
  0
 0
 
- itm_practice_staff Practice_Staff Practice_Staff 1  quarter_staff 0  2251801026232324 4222129415393024 9 0 2.500000 100 0 0 0 0 18432 103 0 118 0 530 530
+ itm_practice_staff Practice_Staff Practice_Staff 1  quarter_staff 0  2251801026232324 4222129415393024 9 0 2.500000 100 0 0 0 0 0 103 0 118 0 530 530
  0
 0
 
@@ -124,7 +124,7 @@ itemsfile version 3
  0
 0
 
- itm_practice_javelin_melee practice_javelin_melee practice_javelin_melee 1  disabled_item_mw 0  2251799952359428 4222124851990272 0 8202 1.000000 100 0 0 0 0 12288 91 0 75 0 526 524
+ itm_practice_javelin_melee practice_javelin_melee practice_javelin_melee 1  disabled_item_mw 0  2251799952359428 4222124851990272 0 8202 1.000000 100 0 0 0 0 0 91 0 75 0 526 524
  0
 0
 
@@ -512,11 +512,11 @@ itemsfile version 3
  0
 0
 
- itm_tutorial_sword Sword Sword 2  disabled_item_mw 0  disabled_item_mw 3458764513820540928  4194306 9223388564182532111 0 24596 1.500000 100 0 0 0 0 18432 100 0 102 0 271 18
+ itm_tutorial_sword Sword Sword 2  disabled_item_mw 0  disabled_item_mw 3458764513820540928  4194306 9223388564182532111 0 24596 1.500000 100 0 0 0 0 0 100 0 102 0 271 18
  0
 0
 
- itm_tutorial_axe Axe Axe 1  disabled_item_mw 0  73662467 9223635923965575392 0 262164 4.000000 100 0 0 0 0 19456 91 0 108 0 256 19
+ itm_tutorial_axe Axe Axe 1  disabled_item_mw 0  73662467 9223635923965575392 0 262164 4.000000 100 0 0 0 0 0 91 0 108 0 256 19
  0
 0
 
@@ -524,11 +524,11 @@ itemsfile version 3
  0
 0
 
- itm_tutorial_club Club Club 1  disabled_item_nm 0  4587522 9223388529554358286 0 0 2.500000 100 0 0 0 0 11264 95 0 95 0 256 523
+ itm_tutorial_club Club Club 1  disabled_item_nm 0  4587522 9223388529554358286 0 0 2.500000 100 0 0 0 0 0 95 0 95 0 256 523
  0
 0
 
- itm_tutorial_battle_axe Battle_Axe Battle_Axe 1  disabled_item_nm 0  73662467 9223635923965575392 0 262164 5.000000 100 0 0 0 0 27648 88 0 108 0 256 27
+ itm_tutorial_battle_axe Battle_Axe Battle_Axe 1  disabled_item_nm 0  73662467 9223635923965575392 0 262164 5.000000 100 0 0 0 0 0 88 0 108 0 256 27
  0
 0
 
@@ -564,7 +564,7 @@ itemsfile version 3
  0
 0
 
- itm_tutorial_staff Staff Staff 1  disabled_item_nm 0  2251801026232324 4222129415393024 9 0 3.500000 100 0 0 0 0 16384 120 0 115 0 528 528
+ itm_tutorial_staff Staff Staff 1  disabled_item_nm 0  2251801026232324 4222129415393024 9 0 3.500000 100 0 0 0 0 0 120 0 115 0 528 528
  0
 0
 
@@ -1468,419 +1468,419 @@ itemsfile version 3
  0
 0
 
- itm_wooden_stick Wooden_Stick Wooden_Stick 1  wooden_stick 0  4587522 9223388529554358286 4 0 2.500000 100 0 0 0 0 13312 99 0 63 0 256 525
+ itm_wooden_stick Wooden_Stick Wooden_Stick 1  wooden_stick 0  4587522 9223388529554358286 4 0 2.500000 100 0 0 0 0 0 99 0 63 0 256 525
  0
 0
 
- itm_cudgel Cudgel Cudgel 1  club 0  4587522 9223388529554358286 4 0 2.500000 100 0 0 0 0 13312 99 0 70 0 256 525
+ itm_cudgel Cudgel Cudgel 1  club 0  4587522 9223388529554358286 4 0 2.500000 100 0 0 0 0 0 99 0 70 0 256 525
  0
 0
 
- itm_hammer Hammer Hammer 1  iron_hammer_new 0  274882363394 9223388529554358286 7 262164 2.000000 100 0 0 0 0 24576 100 0 55 0 256 536
+ itm_hammer Hammer Hammer 1  iron_hammer_new 0  274882363394 9223388529554358286 7 262164 2.000000 100 0 0 0 0 0 100 0 55 0 256 536
  0
 0
 
- itm_club Club Club 1  club 0  274882494466 9223388529554358286 11 0 2.500000 100 0 0 0 0 20480 98 0 70 0 256 532
+ itm_club Club Club 1  club 0  274882494466 9223388529554358286 11 0 2.500000 100 0 0 0 0 0 98 0 70 0 256 532
  0
 0
 
- itm_winged_mace Flanged_Mace Flanged_Mace 1  flanged_mace 0  274882363394 9223388532775583758 122 262164 3.500000 100 0 0 0 0 24576 103 0 70 0 256 536
+ itm_winged_mace Flanged_Mace Flanged_Mace 1  flanged_mace 0  274882363394 9223388532775583758 122 262164 3.500000 100 0 0 0 0 0 103 0 70 0 256 536
  0
 0
 
- itm_spiked_mace Spiked_Mace Spiked_Mace 1  spiked_mace_new 0  274882363394 9223388532775583758 180 270356 3.500000 100 0 0 0 0 28672 98 0 70 0 256 540
+ itm_spiked_mace Spiked_Mace Spiked_Mace 1  spiked_mace_new 0  274882363394 9223388532775583758 180 270356 3.500000 100 0 0 0 0 0 98 0 70 0 256 540
  0
 0
 
- itm_military_hammer Military_Hammer Military_Hammer 1  military_hammer 0  274882363394 9223388532775583758 317 262164 2.000000 100 0 0 0 0 31744 95 0 70 0 256 543
+ itm_military_hammer Military_Hammer Military_Hammer 1  military_hammer 0  274882363394 9223388532775583758 317 262164 2.000000 100 0 0 0 0 0 95 0 70 0 256 543
  0
 0
 
- itm_maul Maul Maul 1  maul_b 0  313539297283 9223635925844623584 97 262164 6.000000 100 0 0 0 11 36864 83 0 79 0 256 548
+ itm_maul Maul Maul 1  maul_b 0  313539297283 9223635925844623584 97 262164 6.000000 100 0 0 0 11 0 83 0 79 0 256 548
  0
 0
 
- itm_sledgehammer Sledgehammer Sledgehammer 1  maul_c 0  313539297283 9223635925844623584 101 262164 7.000000 100 0 0 0 12 39936 81 0 82 0 256 551
+ itm_sledgehammer Sledgehammer Sledgehammer 1  maul_c 0  313539297283 9223635925844623584 101 262164 7.000000 100 0 0 0 12 0 81 0 82 0 256 551
  0
 0
 
- itm_warhammer Great_Hammer Great_Hammer 1  maul_d 0  313539297283 9223635925844623584 290 262164 9.000000 100 0 0 0 14 46080 79 0 75 0 256 557
+ itm_warhammer Great_Hammer Great_Hammer 1  maul_d 0  313539297283 9223635925844623584 290 262164 9.000000 100 0 0 0 14 0 79 0 75 0 256 557
  0
 0
 
- itm_pickaxe Pickaxe Pickaxe 1  fighting_pick_new 0  4456450 9223388532775583758 27 270356 3.000000 100 0 0 0 0 19456 99 0 70 0 256 275
+ itm_pickaxe Pickaxe Pickaxe 1  fighting_pick_new 0  4456450 9223388532775583758 27 270356 3.000000 100 0 0 0 0 0 99 0 70 0 256 275
  0
 0
 
- itm_spiked_club Spiked_Club Spiked_Club 1  spiked_club 0  4456450 9223388532775583758 83 262164 3.000000 100 0 0 0 0 21504 97 0 70 0 256 277
+ itm_spiked_club Spiked_Club Spiked_Club 1  spiked_club 0  4456450 9223388532775583758 83 262164 3.000000 100 0 0 0 0 0 97 0 70 0 256 277
  0
 0
 
- itm_fighting_pick Fighting_Pick Fighting_Pick 1  fighting_pick_new 0  4456450 9223388532775583758 108 270356 1.000000 100 0 0 0 0 22528 98 0 70 0 256 278
+ itm_fighting_pick Fighting_Pick Fighting_Pick 1  fighting_pick_new 0  4456450 9223388532775583758 108 270356 1.000000 100 0 0 0 0 0 98 0 70 0 256 278
  0
 0
 
- itm_military_pick Military_Pick Military_Pick 1  steel_pick_new 0  4456450 9223388532775583758 280 270356 1.500000 100 0 0 0 0 31744 97 0 70 0 256 287
+ itm_military_pick Military_Pick Military_Pick 1  steel_pick_new 0  4456450 9223388532775583758 280 270356 1.500000 100 0 0 0 0 0 97 0 70 0 256 287
  0
 0
 
- itm_morningstar Morningstar Morningstar 1  mace_morningstar_new 0  38659162115 9223635922891833582 305 262164 4.500000 100 0 0 0 13 38912 95 0 85 0 256 294
+ itm_morningstar Morningstar Morningstar 1  mace_morningstar_new 0  38659162115 9223635922891833582 305 262164 4.500000 100 0 0 0 13 0 95 0 85 0 256 294
  0
 0
 
- itm_sickle Sickle Sickle 1  sickle 0  12861442 9223372036879941646 9 0 1.500000 100 0 0 0 0 20480 99 0 40 0 256 20
+ itm_sickle Sickle Sickle 1  sickle 0  12861442 9223372036879941646 9 0 1.500000 100 0 0 0 0 0 99 0 40 0 256 20
  0
 0
 
- itm_cleaver Cleaver Cleaver 1  cleaver_new 0  12861442 9223372036879941646 14 0 1.500000 100 0 0 0 0 24576 103 0 35 0 256 24
+ itm_cleaver Cleaver Cleaver 1  cleaver_new 0  12861442 9223372036879941646 14 0 1.500000 100 0 0 0 0 0 103 0 35 0 256 24
  0
 0
 
- itm_knife Knife Knife 1  peasant_knife_new 0  12599298 9223372037685248015 18 24596 0.500000 100 0 0 0 0 21504 110 0 40 0 269 21
+ itm_knife Knife Knife 1  peasant_knife_new 0  12599298 9223372037685248015 18 24596 0.500000 100 0 0 0 0 0 110 0 40 0 269 21
  0
 0
 
- itm_butchering_knife Butchering_Knife Butchering_Knife 1  khyber_knife_new 0  12599298 9223372037953683471 23 24596 0.750000 100 0 0 0 0 24576 108 0 60 0 273 24
+ itm_butchering_knife Butchering_Knife Butchering_Knife 1  khyber_knife_new 0  12599298 9223372037953683471 23 24596 0.750000 100 0 0 0 0 0 108 0 60 0 273 24
  0
 0
 
- itm_dagger Dagger Dagger 4  dagger_b 0  dagger_b_scabbard 3458764513820540928  dagger_b 251658240  dagger_b_scabbard 3458764514072199168  12599298 9223372072044986383 37 155668 0.750000 100 0 0 0 0 22528 109 0 47 0 275 22
+ itm_dagger Dagger Dagger 4  dagger_b 0  dagger_b_scabbard 3458764513820540928  dagger_b 251658240  dagger_b_scabbard 3458764514072199168  12599298 9223372072044986383 37 155668 0.750000 100 0 0 0 0 0 109 0 47 0 275 22
  0
 0
 
- itm_falchion Falchion Falchion 1  falchion_new 0  4194306 9223388529822793742 105 24596 2.500000 100 0 0 0 8 30720 98 0 73 0 256 30
+ itm_falchion Falchion Falchion 1  falchion_new 0  4194306 9223388529822793742 105 24596 2.500000 100 0 0 0 8 0 98 0 73 0 256 30
  0
 0
 
- itm_scimitar Scimitar Scimitar 2  scimitar_a 0  scab_scimeter_a 3458764513820540928  4194306 9223388564182532110 210 155668 1.500000 100 0 0 0 0 30720 101 0 97 0 256 30
+ itm_scimitar Scimitar Scimitar 2  scimitar_a 0  scab_scimeter_a 3458764513820540928  4194306 9223388564182532110 210 155668 1.500000 100 0 0 0 0 0 101 0 97 0 256 30
  0
 0
 
- itm_scimitar_b Elite_Scimitar Elite_Scimitar 2  scimitar_b 0  scab_scimeter_b 3458764513820540928  4194306 9223388564182532110 290 155668 1.500000 100 0 0 0 0 32768 100 0 103 0 256 32
+ itm_scimitar_b Elite_Scimitar Elite_Scimitar 2  scimitar_b 0  scab_scimeter_b 3458764513820540928  4194306 9223388564182532110 290 155668 1.500000 100 0 0 0 0 0 100 0 103 0 256 32
  0
 0
 
- itm_arabian_sword_a Sarranid_Sword Sarranid_Sword 2  arabian_sword_a 0  scab_arabian_sword_a 3458764513820540928  4194306 9223388564182532111 108 155668 1.500000 100 0 0 0 0 26624 99 0 97 0 275 26
+ itm_arabian_sword_a Sarranid_Sword Sarranid_Sword 2  arabian_sword_a 0  scab_arabian_sword_a 3458764513820540928  4194306 9223388564182532111 108 155668 1.500000 100 0 0 0 0 0 99 0 97 0 275 26
  0
 0
 
- itm_arabian_sword_b Sarranid_Arming_Sword Sarranid_Arming_Sword 2  arabian_sword_b 0  scab_arabian_sword_b 3458764513820540928  4194306 9223388564182532111 218 155668 1.500000 100 0 0 0 0 28672 99 0 97 0 275 28
+ itm_arabian_sword_b Sarranid_Arming_Sword Sarranid_Arming_Sword 2  arabian_sword_b 0  scab_arabian_sword_b 3458764513820540928  4194306 9223388564182532111 218 155668 1.500000 100 0 0 0 0 0 99 0 97 0 275 28
  0
 0
 
- itm_sarranid_cavalry_sword Sarranid_Cavalry_Sword Sarranid_Cavalry_Sword 2  arabian_sword_c 0  scab_arabian_sword_c 3458764513820540928  4194306 9223388564182532111 310 155668 1.500000 100 0 0 0 0 28672 98 0 105 0 275 28
+ itm_sarranid_cavalry_sword Sarranid_Cavalry_Sword Sarranid_Cavalry_Sword 2  arabian_sword_c 0  scab_arabian_sword_c 3458764513820540928  4194306 9223388564182532111 310 155668 1.500000 100 0 0 0 0 0 98 0 105 0 275 28
  0
 0
 
- itm_arabian_sword_d Sarranid_Guard_Sword Sarranid_Guard_Sword 2  arabian_sword_d 0  scab_arabian_sword_d 3458764513820540928  4194306 9223388564182532111 420 155668 1.500000 100 0 0 0 0 30720 99 0 97 0 276 30
+ itm_arabian_sword_d Sarranid_Guard_Sword Sarranid_Guard_Sword 2  arabian_sword_d 0  scab_arabian_sword_d 3458764513820540928  4194306 9223388564182532111 420 155668 1.500000 100 0 0 0 0 0 99 0 97 0 276 30
  0
 0
 
- itm_great_sword Great_Sword Great_Sword 2  b_bastard_sword 0  scab_bastardsw_b 3458764513820540928  6291459 9223635958660858096 423 155668 2.750000 100 0 0 0 10 39936 95 0 125 0 287 39
+ itm_great_sword Great_Sword Great_Sword 2  b_bastard_sword 0  scab_bastardsw_b 3458764513820540928  6291459 9223635958660858096 423 155668 2.750000 100 0 0 0 10 0 95 0 125 0 287 39
  0
 0
 
- itm_sword_of_war Sword_of_War Sword_of_War 2  b_bastard_sword 0  scab_bastardsw_b 3458764513820540928  6291459 9223635958660858096 524 155668 3.000000 100 0 0 0 11 40960 94 0 130 0 287 40
+ itm_sword_of_war Sword_of_War Sword_of_War 2  b_bastard_sword 0  scab_bastardsw_b 3458764513820540928  6291459 9223635958660858096 524 155668 3.000000 100 0 0 0 11 0 94 0 130 0 287 40
  0
 0
 
- itm_hatchet Hatchet Hatchet 1  hatchet 0  79953922 9223388530091229198 13 262164 2.000000 100 0 0 0 0 23552 97 0 60 0 256 23
+ itm_hatchet Hatchet Hatchet 1  hatchet 0  79953922 9223388530091229198 13 262164 2.000000 100 0 0 0 0 0 97 0 60 0 256 23
  0
 0
 
- itm_hand_axe Hand_Axe Hand_Axe 1  hatchet 0  79953922 9223388530091229198 24 262164 2.000000 100 0 0 0 7 27648 95 0 75 0 256 27
+ itm_hand_axe Hand_Axe Hand_Axe 1  hatchet 0  79953922 9223388530091229198 24 262164 2.000000 100 0 0 0 7 0 95 0 75 0 256 27
  0
 0
 
- itm_fighting_axe Fighting_Axe Fighting_Axe 1  fighting_ax 0  79953922 9223388530091229198 77 262164 2.500000 100 0 0 0 9 31744 92 0 90 0 256 31
+ itm_fighting_axe Fighting_Axe Fighting_Axe 1  fighting_ax 0  79953922 9223388530091229198 77 262164 2.500000 100 0 0 0 9 0 92 0 90 0 256 31
  0
 0
 
- itm_axe Axe Axe 1  iron_ax 0  73662467 9223635923965575392 65 262164 4.000000 100 0 0 0 8 32768 91 0 108 0 256 32
+ itm_axe Axe Axe 1  iron_ax 0  73662467 9223635923965575392 65 262164 4.000000 100 0 0 0 8 0 91 0 108 0 256 32
  0
 0
 
- itm_voulge Voulge Voulge 1  voulge 0  73662467 9223635923965575392 129 262164 4.500000 100 0 0 0 8 35840 87 0 119 0 256 35
+ itm_voulge Voulge Voulge 1  voulge 0  73662467 9223635923965575392 129 262164 4.500000 100 0 0 0 8 0 87 0 119 0 256 35
  0
 0
 
- itm_battle_axe Battle_Axe Battle_Axe 1  battle_ax 0  73662467 9223635923965575392 240 262164 5.000000 100 0 0 0 9 41984 88 0 108 0 256 41
+ itm_battle_axe Battle_Axe Battle_Axe 1  battle_ax 0  73662467 9223635923965575392 240 262164 5.000000 100 0 0 0 9 0 88 0 108 0 256 41
  0
 0
 
- itm_war_axe War_Axe War_Axe 1  war_ax 0  73662467 9223635923965575392 264 262164 5.000000 100 0 0 0 10 44032 86 0 110 0 256 43
+ itm_war_axe War_Axe War_Axe 1  war_ax 0  73662467 9223635923965575392 264 262164 5.000000 100 0 0 0 10 0 86 0 110 0 256 43
  0
 0
 
- itm_sword_two_handed_b Two_Handed_Sword Two_Handed_Sword 1  sword_two_handed_b 0  6291459 9223635924301119728 670 155668 2.750000 100 0 0 0 10 40960 97 0 110 0 284 40
+ itm_sword_two_handed_b Two_Handed_Sword Two_Handed_Sword 1  sword_two_handed_b 0  6291459 9223635924301119728 670 155668 2.750000 100 0 0 0 10 0 97 0 110 0 284 40
  0
 0
 
- itm_sword_two_handed_a Great_Sword Great_Sword 1  sword_two_handed_a 0  6291459 9223635924301119728 1123 155668 2.750000 100 0 0 0 10 43008 96 0 160 0 285 42
+ itm_sword_two_handed_a Great_Sword Great_Sword 1  sword_two_handed_a 0  6291459 9223635924301119728 1123 155668 2.750000 100 0 0 0 10 0 96 0 160 0 285 42
  0
 0
 
- itm_khergit_sword_two_handed_a Two_Handed_Sabre Two_Handed_Sabre 1  khergit_sword_two_handed_a 0  6291459 9223635924234010848 523 155668 2.750000 100 0 0 0 10 40960 96 0 160 0 256 40
+ itm_khergit_sword_two_handed_a Two_Handed_Sabre Two_Handed_Sabre 1  khergit_sword_two_handed_a 0  6291459 9223635924234010848 523 155668 2.750000 100 0 0 0 10 0 96 0 160 0 256 40
  0
 0
 
- itm_khergit_sword_two_handed_b Two_Handed_Sabre Two_Handed_Sabre 1  khergit_sword_two_handed_b 0  6291459 9223635924234010848 920 155668 2.750000 100 0 0 0 10 45056 96 0 160 0 256 44
+ itm_khergit_sword_two_handed_b Two_Handed_Sabre Two_Handed_Sabre 1  khergit_sword_two_handed_b 0  6291459 9223635924234010848 920 155668 2.750000 100 0 0 0 10 0 96 0 160 0 256 44
  0
 0
 
- itm_two_handed_cleaver War_Cleaver War_Cleaver 1  military_cleaver_a 0  6291459 9223635924234010848 640 155668 2.750000 100 0 0 0 10 46080 93 0 160 0 0 45
+ itm_two_handed_cleaver War_Cleaver War_Cleaver 1  military_cleaver_a 0  6291459 9223635924234010848 640 155668 2.750000 100 0 0 0 10 0 93 0 160 0 0 45
  0
 0
 
- itm_military_cleaver_b Soldier's_Cleaver Soldier's_Cleaver 1  military_cleaver_b 0  4194306 9223388529822793742 193 155668 1.500000 100 0 0 0 0 31744 96 0 95 0 256 31
+ itm_military_cleaver_b Soldier's_Cleaver Soldier's_Cleaver 1  military_cleaver_b 0  4194306 9223388529822793742 193 155668 1.500000 100 0 0 0 0 0 96 0 95 0 256 31
  0
 0
 
- itm_military_cleaver_c Military_Cleaver Military_Cleaver 1  military_cleaver_c 0  4194306 9223388529822793742 263 155668 1.500000 100 0 0 0 0 35840 96 0 95 0 256 35
+ itm_military_cleaver_c Military_Cleaver Military_Cleaver 1  military_cleaver_c 0  4194306 9223388529822793742 263 155668 1.500000 100 0 0 0 0 0 96 0 95 0 256 35
  0
 0
 
- itm_military_sickle_a Military_Sickle Military_Sickle 1  military_sickle_a 0  12845058 9223388530091229198 220 262164 1.000000 100 0 0 0 9 26624 100 0 75 0 256 282
+ itm_military_sickle_a Military_Sickle Military_Sickle 1  military_sickle_a 0  12845058 9223388530091229198 220 262164 1.000000 100 0 0 0 9 0 100 0 75 0 256 282
  0
 0
 
- itm_bastard_sword_a Bastard_Sword Bastard_Sword 2  bastard_sword_a 0  bastard_sword_a_scabbard 3458764513820540928  4194307 9223635954298781951 294 155668 2.000000 100 0 0 0 9 35840 98 0 101 0 282 35
+ itm_bastard_sword_a Bastard_Sword Bastard_Sword 2  bastard_sword_a 0  bastard_sword_a_scabbard 3458764513820540928  4194307 9223635954298781951 294 155668 2.000000 100 0 0 0 9 0 98 0 101 0 282 35
  0
 0
 
- itm_bastard_sword_b Heavy_Bastard_Sword Heavy_Bastard_Sword 2  bastard_sword_b 0  bastard_sword_b_scabbard 3458764513820540928  4194307 9223635954298781951 526 155668 2.250000 100 0 0 0 9 37888 97 0 105 0 283 37
+ itm_bastard_sword_b Heavy_Bastard_Sword Heavy_Bastard_Sword 2  bastard_sword_b 0  bastard_sword_b_scabbard 3458764513820540928  4194307 9223635954298781951 526 155668 2.250000 100 0 0 0 9 0 97 0 105 0 283 37
  0
 0
 
- itm_one_handed_war_axe_a One_Handed_Axe One_Handed_Axe 1  one_handed_war_axe_a 0  79953922 9223388530091229198 87 262164 1.500000 100 0 0 0 9 32768 98 0 71 0 256 32
+ itm_one_handed_war_axe_a One_Handed_Axe One_Handed_Axe 1  one_handed_war_axe_a 0  79953922 9223388530091229198 87 262164 1.500000 100 0 0 0 9 0 98 0 71 0 256 32
  0
 0
 
- itm_one_handed_battle_axe_a One_Handed_Battle_Axe One_Handed_Battle_Axe 1  one_handed_battle_axe_a 0  79953922 9223388530091229198 142 262164 1.500000 100 0 0 0 9 34816 98 0 73 0 256 34
+ itm_one_handed_battle_axe_a One_Handed_Battle_Axe One_Handed_Battle_Axe 1  one_handed_battle_axe_a 0  79953922 9223388530091229198 142 262164 1.500000 100 0 0 0 9 0 98 0 73 0 256 34
  0
 0
 
- itm_one_handed_war_axe_b One_Handed_War_Axe One_Handed_War_Axe 1  one_handed_war_axe_b 0  79953922 9223388530091229198 190 262164 1.500000 100 0 0 0 9 34816 98 0 76 0 256 34
+ itm_one_handed_war_axe_b One_Handed_War_Axe One_Handed_War_Axe 1  one_handed_war_axe_b 0  79953922 9223388530091229198 190 262164 1.500000 100 0 0 0 9 0 98 0 76 0 256 34
  0
 0
 
- itm_one_handed_battle_axe_b One_Handed_Battle_Axe One_Handed_Battle_Axe 1  one_handed_battle_axe_b 0  79953922 9223388530091229198 230 262164 1.750000 100 0 0 0 9 36864 98 0 72 0 256 36
+ itm_one_handed_battle_axe_b One_Handed_Battle_Axe One_Handed_Battle_Axe 1  one_handed_battle_axe_b 0  79953922 9223388530091229198 230 262164 1.750000 100 0 0 0 9 0 98 0 72 0 256 36
  0
 0
 
- itm_one_handed_battle_axe_c One_Handed_Battle_Axe One_Handed_Battle_Axe 1  one_handed_battle_axe_c 0  79953922 9223388530091229198 550 262164 2.000000 100 0 0 0 9 37888 98 0 76 0 256 37
+ itm_one_handed_battle_axe_c One_Handed_Battle_Axe One_Handed_Battle_Axe 1  one_handed_battle_axe_c 0  79953922 9223388530091229198 550 262164 2.000000 100 0 0 0 9 0 98 0 76 0 256 37
  0
 0
 
- itm_two_handed_axe Two_Handed_Axe Two_Handed_Axe 1  two_handed_battle_axe_a 0  34433400835 9223635923965575392 90 262164 4.500000 100 0 0 0 10 38912 96 0 90 0 256 38
+ itm_two_handed_axe Two_Handed_Axe Two_Handed_Axe 1  two_handed_battle_axe_a 0  34433400835 9223635923965575392 90 262164 4.500000 100 0 0 0 10 0 96 0 90 0 256 38
  0
 0
 
- itm_two_handed_battle_axe_2 Two_Handed_War_Axe Two_Handed_War_Axe 1  two_handed_battle_axe_b 0  34433400835 9223635923965575392 152 262164 4.500000 100 0 0 0 10 45056 96 0 92 0 256 44
+ itm_two_handed_battle_axe_2 Two_Handed_War_Axe Two_Handed_War_Axe 1  two_handed_battle_axe_b 0  34433400835 9223635923965575392 152 262164 4.500000 100 0 0 0 10 0 96 0 92 0 256 44
  0
 0
 
- itm_shortened_voulge Shortened_Voulge Shortened_Voulge 1  two_handed_battle_axe_c 0  34433400835 9223635923965575392 228 262164 4.500000 100 0 0 0 10 46080 92 0 100 0 256 45
+ itm_shortened_voulge Shortened_Voulge Shortened_Voulge 1  two_handed_battle_axe_c 0  34433400835 9223635923965575392 228 262164 4.500000 100 0 0 0 10 0 92 0 100 0 256 45
  0
 0
 
- itm_great_axe Great_Axe Great_Axe 1  two_handed_battle_axe_e 0  34433400835 9223635923965575392 316 262164 4.500000 100 0 0 0 10 48128 94 0 96 0 256 47
+ itm_great_axe Great_Axe Great_Axe 1  two_handed_battle_axe_e 0  34433400835 9223635923965575392 316 262164 4.500000 100 0 0 0 10 0 94 0 96 0 256 47
  0
 0
 
- itm_long_axe Long_Axe Long_Axe 1  long_axe_a 0  2251834783956996 4222129146957568 390 262164 4.750000 100 0 0 0 10 47104 93 0 160 0 531 46
+ itm_long_axe Long_Axe Long_Axe 1  long_axe_a 0  2251834783956996 4222129146957568 390 262164 4.750000 100 0 0 0 10 0 93 0 160 0 531 46
  0
 0
 
- itm_long_axe_alt Long_Axe Long_Axe 1  long_axe_a 0  34433400835 9223635923965575392 390 262164 4.750000 100 0 0 0 10 47104 88 0 160 0 256 46
+ itm_long_axe_alt Long_Axe Long_Axe 1  long_axe_a 0  34433400835 9223635923965575392 390 262164 4.750000 100 0 0 0 10 0 88 0 160 0 256 46
  0
 0
 
- itm_long_axe_b Long_War_Axe Long_War_Axe 1  long_axe_b 0  2251834783956996 4222129146957568 510 262164 5.000000 100 0 0 0 10 51200 92 0 125 0 530 50
+ itm_long_axe_b Long_War_Axe Long_War_Axe 1  long_axe_b 0  2251834783956996 4222129146957568 510 262164 5.000000 100 0 0 0 10 0 92 0 125 0 530 50
  0
 0
 
- itm_long_axe_b_alt Long_War_Axe Long_War_Axe 1  long_axe_b 0  34433400835 9223635923965575392 510 262164 5.000000 100 0 0 0 10 51200 87 0 125 0 256 50
+ itm_long_axe_b_alt Long_War_Axe Long_War_Axe 1  long_axe_b 0  34433400835 9223635923965575392 510 262164 5.000000 100 0 0 0 10 0 87 0 125 0 256 50
  0
 0
 
- itm_long_axe_c Great_Long_Axe Great_Long_Axe 1  long_axe_c 0  2251834783956996 4222129146957568 660 262164 5.500000 100 0 0 0 10 55296 91 0 127 0 531 54
+ itm_long_axe_c Great_Long_Axe Great_Long_Axe 1  long_axe_c 0  2251834783956996 4222129146957568 660 262164 5.500000 100 0 0 0 10 0 91 0 127 0 531 54
  0
 0
 
- itm_long_axe_c_alt Great_Long_Axe Great_Long_Axe 1  long_axe_c 0  34433400835 9223635923965575392 660 262164 5.500000 100 0 0 0 10 55296 85 0 127 0 256 54
+ itm_long_axe_c_alt Great_Long_Axe Great_Long_Axe 1  long_axe_c 0  34433400835 9223635923965575392 660 262164 5.500000 100 0 0 0 10 0 85 0 127 0 256 54
  0
 0
 
- itm_bardiche Bardiche Bardiche 1  two_handed_battle_axe_d 0  34433400835 9223635923965575392 291 262164 4.750000 100 0 0 0 10 48128 91 0 102 0 256 47
+ itm_bardiche Bardiche Bardiche 1  two_handed_battle_axe_d 0  34433400835 9223635923965575392 291 262164 4.750000 100 0 0 0 10 0 91 0 102 0 256 47
  0
 0
 
- itm_great_bardiche Great_Bardiche Great_Bardiche 1  two_handed_battle_axe_f 0  34433400835 9223635923965575392 617 262164 5.000000 100 0 0 0 10 51200 89 0 116 0 256 50
+ itm_great_bardiche Great_Bardiche Great_Bardiche 1  two_handed_battle_axe_f 0  34433400835 9223635923965575392 617 262164 5.000000 100 0 0 0 10 0 89 0 116 0 256 50
  0
 0
 
- itm_voulge Voulge Voulge 1  two_handed_battle_long_axe_a 0  2251799887347716 4222124851990272 120 262164 3.000000 100 0 0 0 10 40960 88 0 175 0 274 40
+ itm_voulge Voulge Voulge 1  two_handed_battle_long_axe_a 0  2251799887347716 4222124851990272 120 262164 3.000000 100 0 0 0 10 0 88 0 175 0 274 40
  0
 0
 
- itm_long_bardiche Long_Bardiche Long_Bardiche 1  two_handed_battle_long_axe_b 0  2251834247086084 4222124851990272 390 262164 4.750000 100 0 0 0 11 49152 89 0 140 0 273 48
+ itm_long_bardiche Long_Bardiche Long_Bardiche 1  two_handed_battle_long_axe_b 0  2251834247086084 4222124851990272 390 262164 4.750000 100 0 0 0 11 0 89 0 140 0 273 48
  0
 0
 
- itm_great_long_bardiche Great_Long_Bardiche Great_Long_Bardiche 1  two_handed_battle_long_axe_c 0  2251834247086084 4222124851990272 660 262164 5.000000 100 0 0 0 12 51200 88 0 155 0 273 50
+ itm_great_long_bardiche Great_Long_Bardiche Great_Long_Bardiche 1  two_handed_battle_long_axe_c 0  2251834247086084 4222124851990272 660 262164 5.000000 100 0 0 0 12 0 88 0 155 0 273 50
  0
 0
 
- itm_hafted_blade_b Hafted_Blade Hafted_Blade 1  khergit_pike_b 0  2251799954456580 8725730477215488 185 8202 2.750000 100 0 0 0 0 37888 95 0 135 0 276 37
+ itm_hafted_blade_b Hafted_Blade Hafted_Blade 1  khergit_pike_b 0  2251799954456580 8725730477215488 185 8202 2.750000 100 0 0 0 0 0 95 0 135 0 276 37
  0
 0
 
- itm_hafted_blade_a Hafted_Blade Hafted_Blade 1  khergit_pike_a 0  2251799954456580 8725730477215488 350 8202 3.250000 100 0 0 0 0 39936 93 0 153 0 275 39
+ itm_hafted_blade_a Hafted_Blade Hafted_Blade 1  khergit_pike_a 0  2251799954456580 8725730477215488 350 8202 3.250000 100 0 0 0 0 0 93 0 153 0 275 39
  0
 0
 
- itm_shortened_military_scythe Shortened_Military_Scythe Shortened_Military_Scythe 1  two_handed_battle_scythe_a 0  6291459 9223635924234010848 264 155668 3.000000 100 0 0 0 10 46080 90 0 112 0 256 45
+ itm_shortened_military_scythe Shortened_Military_Scythe Shortened_Military_Scythe 1  two_handed_battle_scythe_a 0  6291459 9223635924234010848 264 155668 3.000000 100 0 0 0 10 0 90 0 112 0 256 45
  0
 0
 
- itm_sword_medieval_a Sword Sword 2  sword_medieval_a 0  sword_medieval_a_scabbard 3458764513820540928  4194306 9223388564182532111 163 155668 1.500000 100 0 0 0 0 27648 99 0 95 0 278 27
+ itm_sword_medieval_a Sword Sword 2  sword_medieval_a 0  sword_medieval_a_scabbard 3458764513820540928  4194306 9223388564182532111 163 155668 1.500000 100 0 0 0 0 0 99 0 95 0 278 27
  0
 0
 
- itm_sword_medieval_b Sword Sword 4  sword_medieval_b 0  sword_medieval_b_scabbard 3458764513820540928  sword_rusty_a 4  sword_rusty_a_scabbard 3458764513820540932  4194306 9223388564182532111 243 155668 1.500000 100 0 0 0 0 28672 99 0 95 0 279 28
+ itm_sword_medieval_b Sword Sword 4  sword_medieval_b 0  sword_medieval_b_scabbard 3458764513820540928  sword_rusty_a 4  sword_rusty_a_scabbard 3458764513820540932  4194306 9223388564182532111 243 155668 1.500000 100 0 0 0 0 0 99 0 95 0 279 28
  0
 0
 
- itm_sword_medieval_b_small Short_Sword Short_Sword 2  sword_medieval_b_small 0  sword_medieval_b_small_scabbard 3458764513820540928  4194306 9223388564182532111 152 155668 1.000000 100 0 0 0 0 26624 102 0 85 0 280 26
+ itm_sword_medieval_b_small Short_Sword Short_Sword 2  sword_medieval_b_small 0  sword_medieval_b_small_scabbard 3458764513820540928  4194306 9223388564182532111 152 155668 1.000000 100 0 0 0 0 0 102 0 85 0 280 26
  0
 0
 
- itm_sword_medieval_c Arming_Sword Arming_Sword 2  sword_medieval_c 0  sword_medieval_c_scabbard 3458764513820540928  4194306 9223388564182532111 410 155668 1.500000 100 0 0 0 0 29696 99 0 95 0 280 29
+ itm_sword_medieval_c Arming_Sword Arming_Sword 2  sword_medieval_c 0  sword_medieval_c_scabbard 3458764513820540928  4194306 9223388564182532111 410 155668 1.500000 100 0 0 0 0 0 99 0 95 0 280 29
  0
 0
 
- itm_sword_medieval_c_small Short_Arming_Sword Short_Arming_Sword 2  sword_medieval_c_small 0  sword_medieval_c_small_scabbard 3458764513820540928  4194306 9223388564182532111 243 155668 1.000000 100 0 0 0 0 26624 103 0 86 0 280 26
+ itm_sword_medieval_c_small Short_Arming_Sword Short_Arming_Sword 2  sword_medieval_c_small 0  sword_medieval_c_small_scabbard 3458764513820540928  4194306 9223388564182532111 243 155668 1.000000 100 0 0 0 0 0 103 0 86 0 280 26
  0
 0
 
- itm_sword_medieval_c_long Arming_Sword Arming_Sword 2  sword_medieval_c_long 0  sword_medieval_c_long_scabbard 3458764513820540928  4194306 9223388564182532111 480 155668 1.500000 100 0 0 0 0 29696 99 0 100 0 284 29
+ itm_sword_medieval_c_long Arming_Sword Arming_Sword 2  sword_medieval_c_long 0  sword_medieval_c_long_scabbard 3458764513820540928  4194306 9223388564182532111 480 155668 1.500000 100 0 0 0 0 0 99 0 100 0 284 29
  0
 0
 
- itm_sword_medieval_d_long Long_Arming_Sword Long_Arming_Sword 2  sword_medieval_d_long 0  sword_medieval_d_long_scabbard 3458764513820540928  4194306 9223388564182532111 550 24596 1.750000 100 0 0 0 0 33792 96 0 105 0 284 33
+ itm_sword_medieval_d_long Long_Arming_Sword Long_Arming_Sword 2  sword_medieval_d_long 0  sword_medieval_d_long_scabbard 3458764513820540928  4194306 9223388564182532111 550 24596 1.750000 100 0 0 0 0 0 96 0 105 0 284 33
  0
 0
 
- itm_sword_viking_1 Nordic_Sword Nordic_Sword 2  disabled_item_mw 0  disabled_item_mw  3458764513820540928  4194306 9223388564182532111 147 155668 1.500000 100 0 0 0 0 28672 99 0 94 0 276 28
+ itm_sword_viking_1 Nordic_Sword Nordic_Sword 2  disabled_item_mw 0  disabled_item_mw  3458764513820540928  4194306 9223388564182532111 147 155668 1.500000 100 0 0 0 0 0 99 0 94 0 276 28
  0
 0
 
- itm_sword_viking_2 Nordic_Sword Nordic_Sword 2  disabled_item_mw 0  disabled_item_mw 3458764513820540928  4194306 9223388564182532111 276 155668 1.500000 100 0 0 0 0 29696 99 0 95 0 277 29
+ itm_sword_viking_2 Nordic_Sword Nordic_Sword 2  disabled_item_mw 0  disabled_item_mw 3458764513820540928  4194306 9223388564182532111 276 155668 1.500000 100 0 0 0 0 0 99 0 95 0 277 29
  0
 0
 
- itm_sword_viking_2_small Nordic_Short_Sword Nordic_Short_Sword 2  disabled_item_mw 0  disabled_item_mw 3458764513820540928  4194306 9223388564182532111 162 155668 1.250000 100 0 0 0 0 28672 103 0 85 0 277 28
+ itm_sword_viking_2_small Nordic_Short_Sword Nordic_Short_Sword 2  disabled_item_mw 0  disabled_item_mw 3458764513820540928  4194306 9223388564182532111 162 155668 1.250000 100 0 0 0 0 0 103 0 85 0 277 28
  0
 0
 
- itm_sword_viking_3 Nordic_War_Sword Nordic_War_Sword 2  disabled_item_mw 0  disabled_item_mw 3458764513820540928  4194306 9223388564182532111 394 155668 1.500000 100 0 0 0 0 30720 99 0 95 0 277 30
+ itm_sword_viking_3 Nordic_War_Sword Nordic_War_Sword 2  disabled_item_mw 0  disabled_item_mw 3458764513820540928  4194306 9223388564182532111 394 155668 1.500000 100 0 0 0 0 0 99 0 95 0 277 30
  0
 0
 
- itm_sword_viking_3_small Nordic_Short_War_Sword Nordic_Short_War_Sword 2  disabled_item_mw 0  disabled_item_mw 3458764513820540928  4194306 9223388564182532111 280 155668 1.250000 100 0 0 0 0 29696 103 0 86 0 277 29
+ itm_sword_viking_3_small Nordic_Short_War_Sword Nordic_Short_War_Sword 2  disabled_item_mw 0  disabled_item_mw 3458764513820540928  4194306 9223388564182532111 280 155668 1.250000 100 0 0 0 0 0 103 0 86 0 277 29
  0
 0
 
- itm_sword_khergit_1 Nomad_Sabre Nomad_Sabre 2  khergit_sword_b 0  khergit_sword_b_scabbard 3458764513820540928  4194306 9223388564182532110 105 155668 1.250000 100 0 0 0 0 29696 100 0 97 0 0 29
+ itm_sword_khergit_1 Nomad_Sabre Nomad_Sabre 2  khergit_sword_b 0  khergit_sword_b_scabbard 3458764513820540928  4194306 9223388564182532110 105 155668 1.250000 100 0 0 0 0 0 100 0 97 0 0 29
  0
 0
 
- itm_sword_khergit_2 Sabre Sabre 2  khergit_sword_c 0  khergit_sword_c_scabbard 3458764513820540928  4194306 9223388564182532110 191 155668 1.500000 100 0 0 0 0 30720 99 0 97 0 0 30
+ itm_sword_khergit_2 Sabre Sabre 2  khergit_sword_c 0  khergit_sword_c_scabbard 3458764513820540928  4194306 9223388564182532110 191 155668 1.500000 100 0 0 0 0 0 99 0 97 0 0 30
  0
 0
 
- itm_sword_khergit_3 Sabre Sabre 2  khergit_sword_a 0  khergit_sword_a_scabbard 3458764513820540928  4194306 9223388564182532110 294 155668 1.500000 100 0 0 0 0 31744 99 0 98 0 0 31
+ itm_sword_khergit_3 Sabre Sabre 2  khergit_sword_a 0  khergit_sword_a_scabbard 3458764513820540928  4194306 9223388564182532110 294 155668 1.500000 100 0 0 0 0 0 99 0 98 0 0 31
  0
 0
 
- itm_sword_khergit_4 Heavy_Sabre Heavy_Sabre 2  khergit_sword_d 0  khergit_sword_d_scabbard 3458764513820540928  4194306 9223388564182532110 384 155668 1.750000 100 0 0 0 0 33792 98 0 96 0 0 33
+ itm_sword_khergit_4 Heavy_Sabre Heavy_Sabre 2  khergit_sword_d 0  khergit_sword_d_scabbard 3458764513820540928  4194306 9223388564182532110 384 155668 1.750000 100 0 0 0 0 0 98 0 96 0 0 33
  0
 0
 
- itm_mace_1 Spiked_Club Spiked_Club 1  mace_d 0  274882363394 9223388532775583758 45 262164 1.500000 100 0 0 0 0 19456 99 0 70 0 256 275
+ itm_mace_1 Spiked_Club Spiked_Club 1  mace_d 0  274882363394 9223388532775583758 45 262164 1.500000 100 0 0 0 0 0 99 0 70 0 256 275
  0
 0
 
- itm_mace_2 Knobbed_Mace Knobbed_Mace 1  mace_a 0  274882363394 9223388532775583758 98 262164 2.500000 100 0 0 0 0 21504 98 0 70 0 256 533
+ itm_mace_2 Knobbed_Mace Knobbed_Mace 1  mace_a 0  274882363394 9223388532775583758 98 262164 2.500000 100 0 0 0 0 0 98 0 70 0 256 533
  0
 0
 
- itm_mace_3 Spiked_Mace Spiked_Mace 1  mace_c 0  274882363394 9223388532775583758 152 262164 2.750000 100 0 0 0 0 23552 98 0 70 0 256 535
+ itm_mace_3 Spiked_Mace Spiked_Mace 1  mace_c 0  274882363394 9223388532775583758 152 262164 2.750000 100 0 0 0 0 0 98 0 70 0 256 535
  0
 0
 
- itm_mace_4 Winged_Mace Winged_Mace 1  mace_b 0  274882363394 9223388532775583758 212 262164 2.750000 100 0 0 0 0 24576 98 0 70 0 256 536
+ itm_mace_4 Winged_Mace Winged_Mace 1  mace_b 0  274882363394 9223388532775583758 212 262164 2.750000 100 0 0 0 0 0 98 0 70 0 256 536
  0
 0
 
- itm_club_with_spike_head Spiked_Staff Spiked_Staff 1  mace_e 0  274882363395 9223635923965575423 200 262164 2.750000 100 0 0 0 9 24576 95 0 117 0 276 536
+ itm_club_with_spike_head Spiked_Staff Spiked_Staff 1  mace_e 0  274882363395 9223635923965575423 200 262164 2.750000 100 0 0 0 9 0 95 0 117 0 276 536
  0
 0
 
- itm_long_spiked_club Long_Spiked_Club Long_Spiked_Club 1  mace_long_c 0  2252074696048644 4222129146957568 264 262164 3.000000 100 0 0 0 0 23552 96 0 126 0 532 279
+ itm_long_spiked_club Long_Spiked_Club Long_Spiked_Club 1  mace_long_c 0  2252074696048644 4222129146957568 264 262164 3.000000 100 0 0 0 0 0 96 0 126 0 532 279
  0
 0
 
- itm_long_hafted_knobbed_mace Long_Hafted_Knobbed_Mace Long_Hafted_Knobbed_Mace 1  mace_long_a 0  2252074696048644 4222129146957568 324 262164 3.000000 100 0 0 0 0 26624 95 0 133 0 535 538
+ itm_long_hafted_knobbed_mace Long_Hafted_Knobbed_Mace Long_Hafted_Knobbed_Mace 1  mace_long_a 0  2252074696048644 4222129146957568 324 262164 3.000000 100 0 0 0 0 0 95 0 133 0 535 538
  0
 0
 
- itm_long_hafted_spiked_mace Long_Hafted_Spiked_Mace Long_Hafted_Spiked_Mace 1  mace_long_b 0  2252074696048644 4222129146957568 310 262164 3.000000 100 0 0 0 0 28672 94 0 140 0 538 540
+ itm_long_hafted_spiked_mace Long_Hafted_Spiked_Mace Long_Hafted_Spiked_Mace 1  mace_long_b 0  2252074696048644 4222129146957568 310 262164 3.000000 100 0 0 0 0 0 94 0 140 0 538 540
  0
 0
 
- itm_sarranid_two_handed_mace_1 Iron_Mace Iron_Mace 1  mace_long_d 0  313538904067 9223635924032684272 470 262164 4.500000 100 0 0 0 0 35840 90 0 95 0 534 547
+ itm_sarranid_two_handed_mace_1 Iron_Mace Iron_Mace 1  mace_long_d 0  313538904067 9223635924032684272 470 262164 4.500000 100 0 0 0 0 0 90 0 95 0 534 547
  0
 0
 
- itm_sarranid_mace_1 Iron_Mace Iron_Mace 1  mace_small_d 0  274882363394 9223388532775583758 45 262164 2.000000 100 0 0 0 0 22528 99 0 73 0 256 534
+ itm_sarranid_mace_1 Iron_Mace Iron_Mace 1  mace_small_d 0  274882363394 9223388532775583758 45 262164 2.000000 100 0 0 0 0 0 99 0 73 0 256 534
  0
 0
 
- itm_sarranid_axe_a Iron_Battle_Axe Iron_Battle_Axe 1  one_handed_battle_axe_g 0  79953922 9223388530091229198 250 262164 1.500000 100 0 0 0 9 35840 97 0 71 0 256 35
+ itm_sarranid_axe_a Iron_Battle_Axe Iron_Battle_Axe 1  one_handed_battle_axe_g 0  79953922 9223388530091229198 250 262164 1.500000 100 0 0 0 9 0 97 0 71 0 256 35
  0
 0
 
- itm_sarranid_axe_b Iron_War_Axe Iron_War_Axe 1  one_handed_battle_axe_h 0  79953922 9223388530091229198 360 262164 1.750000 100 0 0 0 9 38912 97 0 71 0 256 38
+ itm_sarranid_axe_b Iron_War_Axe Iron_War_Axe 1  one_handed_battle_axe_h 0  79953922 9223388530091229198 360 262164 1.750000 100 0 0 0 9 0 97 0 71 0 256 38
  0
 0
 
- itm_sarranid_two_handed_axe_a Sarranid_Battle_Axe Sarranid_Battle_Axe 1  two_handed_battle_axe_g 0  34433138691 9223635923965575392 350 262164 3.000000 100 0 0 0 10 50176 89 0 95 0 256 49
+ itm_sarranid_two_handed_axe_a Sarranid_Battle_Axe Sarranid_Battle_Axe 1  two_handed_battle_axe_g 0  34433138691 9223635923965575392 350 262164 3.000000 100 0 0 0 10 0 89 0 95 0 256 49
  0
 0
 
- itm_sarranid_two_handed_axe_b Sarranid_War_Axe Sarranid_War_Axe 1  two_handed_battle_axe_h 0  34433138691 9223635923965575392 280 262164 2.500000 100 0 0 0 10 47104 90 0 90 0 256 46
+ itm_sarranid_two_handed_axe_b Sarranid_War_Axe Sarranid_War_Axe 1  two_handed_battle_axe_h 0  34433138691 9223635923965575392 280 262164 2.500000 100 0 0 0 10 0 90 0 90 0 256 46
  0
 0
 
- itm_scythe Scythe Scythe 1  scythe 0  2251801026101252 4222131026005760 43 8202 2.000000 100 0 0 0 0 30720 97 0 182 0 270 30
+ itm_scythe Scythe Scythe 1  scythe 0  2251801026101252 4222131026005760 43 8202 2.000000 100 0 0 0 0 0 97 0 182 0 270 30
  0
 0
 
- itm_pitch_fork Pitch_Fork Pitch_Fork 1  pitch_fork 0  2251801026101252 4222124851990272 19 8202 1.500000 100 0 0 0 0 16384 87 0 154 0 278 528
+ itm_pitch_fork Pitch_Fork Pitch_Fork 1  pitch_fork 0  2251801026101252 4222124851990272 19 8202 1.500000 100 0 0 0 0 0 87 0 154 0 278 528
  0
 0
 
- itm_military_fork Military_Fork Military_Fork 1  military_fork 0  2251800891883524 4222124851990272 153 8202 2.000000 100 0 0 0 0 15360 95 0 135 0 286 527
+ itm_military_fork Military_Fork Military_Fork 1  military_fork 0  2251800891883524 4222124851990272 153 8202 2.000000 100 0 0 0 0 0 95 0 135 0 286 527
  0
 0
 
- itm_battle_fork Battle_Fork Battle_Fork 1  battle_fork 0  2251800891883524 4222124851990272 282 8202 2.000000 100 0 0 0 0 15360 90 0 144 0 291 527
+ itm_battle_fork Battle_Fork Battle_Fork 1  battle_fork 0  2251800891883524 4222124851990272 282 8202 2.000000 100 0 0 0 0 0 90 0 144 0 291 527
  0
 0
 
- itm_boar_spear Boar_Spear Boar_Spear 1  spear 0  2251799952359428 4222131026005760 76 8202 1.500000 100 0 0 0 0 26624 90 0 157 0 279 26
+ itm_boar_spear Boar_Spear Boar_Spear 1  spear 0  2251799952359428 4222131026005760 76 8202 1.500000 100 0 0 0 0 0 90 0 157 0 279 26
  0
 0
 
@@ -1888,63 +1888,63 @@ itemsfile version 3
  0
 0
 
- itm_double_sided_lance Double_Sided_Lance Double_Sided_Lance 1  lance_dblhead 0  2251803039367172 4222124851990272 261 8202 4.000000 100 0 0 0 0 25600 95 0 128 0 283 25
+ itm_double_sided_lance Double_Sided_Lance Double_Sided_Lance 1  lance_dblhead 0  2251803039367172 4222124851990272 261 8202 4.000000 100 0 0 0 0 0 95 0 128 0 283 25
  0
 0
 
- itm_glaive Glaive Glaive 1  glaive_b 0  2251800893980676 4222131026005760 352 8202 4.500000 100 0 0 0 0 39936 90 0 157 0 277 39
+ itm_glaive Glaive Glaive 1  glaive_b 0  2251800893980676 4222131026005760 352 8202 4.500000 100 0 0 0 0 0 90 0 157 0 277 39
  0
 0
 
- itm_poleaxe Poleaxe Poleaxe 1  pole_ax 0  2251800893980676 4222124851990272 384 8202 4.500000 100 0 0 0 13 51200 77 0 180 0 527 50
+ itm_poleaxe Poleaxe Poleaxe 1  pole_ax 0  2251800893980676 4222124851990272 384 8202 4.500000 100 0 0 0 13 0 77 0 180 0 527 50
  0
 0
 
- itm_polehammer Polehammer Polehammer 1  pole_hammer 0  2251800893980676 4222124851990272 169 8202 7.000000 100 0 0 0 18 51200 50 0 126 0 547 562
+ itm_polehammer Polehammer Polehammer 1  pole_hammer 0  2251800893980676 4222124851990272 169 8202 7.000000 100 0 0 0 18 0 50 0 126 0 547 562
  0
 0
 
- itm_staff Staff Staff 1  wooden_staff 0  2251801026232324 4222129415393024 36 8202 1.500000 100 0 0 0 0 18432 100 0 130 0 531 530
+ itm_staff Staff Staff 1  wooden_staff 0  2251801026232324 4222129415393024 36 8202 1.500000 100 0 0 0 0 0 100 0 130 0 531 530
  0
 0
 
- itm_quarter_staff Quarter_Staff Quarter_Staff 1  quarter_staff 0  2251800892014596 4222129415393024 60 8202 2.000000 100 0 0 0 0 20480 104 0 140 0 532 532
+ itm_quarter_staff Quarter_Staff Quarter_Staff 1  quarter_staff 0  2251800892014596 4222129415393024 60 8202 2.000000 100 0 0 0 0 0 104 0 140 0 532 532
  0
 0
 
- itm_iron_staff Iron_Staff Iron_Staff 1  iron_staff 0  2251800891621380 4222129415393024 202 8202 2.000000 100 0 0 0 0 25600 97 0 140 0 538 537
+ itm_iron_staff Iron_Staff Iron_Staff 1  iron_staff 0  2251800891621380 4222129415393024 202 8202 2.000000 100 0 0 0 0 0 97 0 140 0 538 537
  0
 0
 
- itm_shortened_spear Shortened_Spear Shortened_Spear 1  spear_g_1-9m 0  2251800891883524 4222131026005760 53 8202 2.000000 100 0 0 0 0 19456 102 0 160 0 281 531
+ itm_shortened_spear Shortened_Spear Shortened_Spear 1  spear_g_1-9m 0  2251800891883524 4222131026005760 53 8202 2.000000 100 0 0 0 0 0 102 0 160 0 281 531
  0
 0
 
- itm_spear Spear Spear 1  spear_h_2-15m 0  2251800891883524 4222124851990272 85 8202 2.250000 100 0 0 0 0 20480 98 0 135 0 282 532
+ itm_spear Spear Spear 1  spear_h_2-15m 0  2251800891883524 4222124851990272 85 8202 2.250000 100 0 0 0 0 0 98 0 135 0 282 532
  0
 0
 
- itm_bamboo_spear Bamboo_Spear Bamboo_Spear 1  arabian_spear_a_3m 0  2251801026101252 4222131026005760 80 8202 2.000000 100 0 0 0 0 15360 88 0 200 0 276 527
+ itm_bamboo_spear Bamboo_Spear Bamboo_Spear 1  arabian_spear_a_3m 0  2251801026101252 4222131026005760 80 8202 2.000000 100 0 0 0 0 0 88 0 200 0 276 527
  0
 0
 
- itm_war_spear War_Spear War_Spear 1  spear_i_2-3m 0  2251800891883524 4222131026005760 140 8202 2.500000 100 0 0 0 0 20480 95 0 150 0 283 532
+ itm_war_spear War_Spear War_Spear 1  spear_i_2-3m 0  2251800891883524 4222131026005760 140 8202 2.500000 100 0 0 0 0 0 95 0 150 0 283 532
  0
 0
 
- itm_military_scythe Military_Scythe Military_Scythe 2  spear_e_2-5m 0  spear_c_2-5m 6291486  2251801026101252 4222131026005760 155 8202 2.500000 100 0 0 0 0 36864 90 0 155 0 281 36
+ itm_military_scythe Military_Scythe Military_Scythe 2  spear_e_2-5m 0  spear_c_2-5m 6291486  2251801026101252 4222131026005760 155 8202 2.500000 100 0 0 0 0 0 90 0 155 0 281 36
  0
 0
 
- itm_light_lance Light_Lance Light_Lance 1  spear_b_2-75m 0  2251803173584900 4222124851987200 180 8202 2.500000 100 0 0 0 0 16384 85 0 175 0 283 528
+ itm_light_lance Light_Lance Light_Lance 1  spear_b_2-75m 0  2251803173584900 4222124851987200 180 8202 2.500000 100 0 0 0 0 0 85 0 175 0 283 528
  0
 0
 
- itm_lance Lance Lance 1  spear_d_2-8m 0  2251803173584900 4222124851987200 270 8202 2.500000 100 0 0 0 0 16384 80 0 180 0 282 528
+ itm_lance Lance Lance 1  spear_d_2-8m 0  2251803173584900 4222124851987200 270 8202 2.500000 100 0 0 0 0 0 80 0 180 0 282 528
  0
 0
 
- itm_heavy_lance Heavy_Lance Heavy_Lance 1  spear_f_2-9m 0  2251803173584900 4222124851987200 360 8202 2.750000 100 0 0 0 10 16384 75 0 190 0 282 528
+ itm_heavy_lance Heavy_Lance Heavy_Lance 1  spear_f_2-9m 0  2251803173584900 4222124851987200 360 8202 2.750000 100 0 0 0 10 0 75 0 190 0 282 528
  0
 0
 
@@ -1952,23 +1952,23 @@ itemsfile version 3
  0
 0
 
- itm_pike Pike Pike 1  spear_a_3m 0  2251800222892036 4222124851987200 125 8202 3.000000 100 0 0 0 0 16384 81 0 245 0 282 528
+ itm_pike Pike Pike 1  spear_a_3m 0  2251800222892036 4222124851987200 125 8202 3.000000 100 0 0 0 0 0 81 0 245 0 282 528
  0
 0
 
- itm_ashwood_pike Ashwood_Pike Ashwood_Pike 1  pike 0  2251800893980676 4222124851987200 205 8202 3.500000 100 0 0 0 9 19456 90 0 170 0 285 531
+ itm_ashwood_pike Ashwood_Pike Ashwood_Pike 1  pike 0  2251800893980676 4222124851987200 205 8202 3.500000 100 0 0 0 9 0 90 0 170 0 285 531
  0
 0
 
- itm_awlpike Awlpike Awlpike 1  awl_pike_b 0  2251801026101252 4222131026002688 345 8202 2.250000 100 0 0 0 0 20480 92 0 165 0 289 532
+ itm_awlpike Awlpike Awlpike 1  awl_pike_b 0  2251801026101252 4222131026002688 345 8202 2.250000 100 0 0 0 0 0 92 0 165 0 289 532
  0
 0
 
- itm_awlpike_long Long_Awlpike Long_Awlpike 1  awl_pike_a 0  2251801026101252 4222131026002688 385 8202 2.250000 100 0 0 0 0 20480 89 0 185 0 288 532
+ itm_awlpike_long Long_Awlpike Long_Awlpike 1  awl_pike_a 0  2251801026101252 4222131026002688 385 8202 2.250000 100 0 0 0 0 0 89 0 185 0 288 532
  0
 0
 
- itm_bec_de_corbin_a War_Hammer War_Hammer 1  bec_de_corbin_a 0  2251800222892036 4222131026002688 125 8202 3.000000 100 0 0 0 0 38912 81 0 160 0 294 550
+ itm_bec_de_corbin_a War_Hammer War_Hammer 1  bec_de_corbin_a 0  2251800222892036 4222131026002688 125 8202 3.000000 100 0 0 0 0 0 81 0 160 0 294 550
  0
 0
 
@@ -2168,7 +2168,7 @@ itemsfile version 3
  0
 0
 
- itm_javelin_melee Javelin Javelin 1  javelin 0  2251799818141700 4222124851990272 300 8202 1.000000 100 0 0 0 0 12288 95 0 75 0 270 12
+ itm_javelin_melee Javelin Javelin 1  javelin 0  2251799818141700 4222124851990272 300 8202 1.000000 100 0 0 0 0 0 95 0 75 0 270 12
  0
 0
 
@@ -2176,7 +2176,7 @@ itemsfile version 3
  0
 0
 
- itm_throwing_spear_melee Throwing_Spear Throwing_Spear 2  jarid_new_b 0  javelins_quiver 3458764513820540928  2251799818141700 4222124851990272 525 4398046781448 1.000000 100 0 0 0 1 18432 91 0 75 0 279 18
+ itm_throwing_spear_melee Throwing_Spear Throwing_Spear 2  jarid_new_b 0  javelins_quiver 3458764513820540928  2251799818141700 4222124851990272 525 4398046781448 1.000000 100 0 0 0 1 0 91 0 75 0 279 18
  0
 0
 
@@ -2184,7 +2184,7 @@ itemsfile version 3
  0
 0
 
- itm_jarid_melee Jarid Jarid 2  jarid_new 0  jarid_quiver 3458764513820540928  2251799818141700 4222124851990272 560 4398046781448 1.000000 100 0 0 0 2 16384 93 0 65 0 276 16
+ itm_jarid_melee Jarid Jarid 2  jarid_new 0  jarid_quiver 3458764513820540928  2251799818141700 4222124851990272 560 4398046781448 1.000000 100 0 0 0 2 0 93 0 65 0 276 16
  0
 0
 
@@ -2204,7 +2204,7 @@ itemsfile version 3
  0
 0
 
- itm_light_throwing_axes_melee Light_Throwing_Axe Light_Throwing_Axe 1  francisca 0  71303170 9223388529554358286 360 4398046519304 1.000000 100 0 0 0 2 26624 99 0 53 0 0 26
+ itm_light_throwing_axes_melee Light_Throwing_Axe Light_Throwing_Axe 1  francisca 0  71303170 9223388529554358286 360 4398046519304 1.000000 100 0 0 0 2 0 99 0 53 0 0 26
  0
 0
 
@@ -2212,7 +2212,7 @@ itemsfile version 3
  0
 0
 
- itm_throwing_axes_melee Throwing_Axe Throwing_Axe 1  throwing_axe_a 0  71303170 9223388529554358286 490 4398046519304 1.000000 100 0 0 0 3 29696 98 0 53 0 0 29
+ itm_throwing_axes_melee Throwing_Axe Throwing_Axe 1  throwing_axe_a 0  71303170 9223388529554358286 490 4398046519304 1.000000 100 0 0 0 3 0 98 0 53 0 0 29
  0
 0
 
@@ -2220,7 +2220,7 @@ itemsfile version 3
  0
 0
 
- itm_heavy_throwing_axes_melee Heavy_Throwing_Axe Heavy_Throwing_Axe 1  throwing_axe_b 0  71303170 9223388529554358286 620 4398046519304 1.000000 100 0 0 0 4 32768 97 0 53 0 0 32
+ itm_heavy_throwing_axes_melee Heavy_Throwing_Axe Heavy_Throwing_Axe 1  throwing_axe_b 0  71303170 9223388529554358286 620 4398046519304 1.000000 100 0 0 0 4 0 97 0 53 0 0 32
  0
 0
 
@@ -2277,7 +2277,7 @@ itemsfile version 3
 1
 -51.000000  4 600 1 1152921504606847102 720 2 1 27 721 2 1 36 1969 3 1008806316530991133 1 15 
 
- itm_torch Torch Torch 1  club 0  4194306 9223388529554358286 11 0 2.500000 100 0 0 0 0 11264 95 0 95 0 256 523
+ itm_torch Torch Torch 1  club 0  4194306 9223388529554358286 11 0 2.500000 100 0 0 0 0 0 95 0 95 0 256 523
  0
 1
 -50.000000  5 1955 3 0 60 0 1965 1 1008806316530991114 1965 1 1008806316530991117 1950 3 150 130 70 1960 2 10 30 
@@ -2302,15 +2302,15 @@ itemsfile version 3
  0
 0
 
- itm_strange_sword Strange_Sword Strange_Sword 2  katana 0  katana_scabbard 3458764513820540928  4194307 9223635962888716543 679 24596 2.000000 100 0 0 0 9 32768 108 0 95 0 274 32
+ itm_strange_sword Strange_Sword Strange_Sword 2  katana 0  katana_scabbard 3458764513820540928  4194307 9223635962888716543 679 24596 2.000000 100 0 0 0 9 0 108 0 95 0 274 32
  0
 0
 
- itm_strange_great_sword Strange_Great_Sword Strange_Great_Sword 2  no_dachi 0  no_dachi_scabbard 3458764513820540928  6291459 9223635958593749216 920 262164 3.500000 100 0 0 0 11 38912 92 0 125 0 256 38
+ itm_strange_great_sword Strange_Great_Sword Strange_Great_Sword 2  no_dachi 0  no_dachi_scabbard 3458764513820540928  6291459 9223635958593749216 920 262164 3.500000 100 0 0 0 11 0 92 0 125 0 256 38
  0
 0
 
- itm_strange_short_sword Strange_Short_Sword Strange_Short_Sword 2  wakizashi 0  wakizashi_scabbard 3458764513820540928  4194306 9223388573040902159 321 24596 1.250000 100 0 0 0 0 25600 108 0 65 0 275 25
+ itm_strange_short_sword Strange_Short_Sword Strange_Short_Sword 2  wakizashi 0  wakizashi_scabbard 3458764513820540928  4194306 9223388573040902159 321 24596 1.250000 100 0 0 0 0 0 108 0 65 0 275 25
  0
 0
 
@@ -2398,7 +2398,7 @@ itemsfile version 3
  0
 0
 
- itm_keys Ring_of_Keys Ring_of_Keys 1  throwing_axe_a 0  71303170 9223388529554358286 240 4398046781448 5.000000 100 0 0 0 0 29696 98 0 53 5 0 29
+ itm_keys Ring_of_Keys Ring_of_Keys 1  throwing_axe_a 0  71303170 9223388529554358286 240 4398046781448 5.000000 100 0 0 0 0 0 98 0 53 5 0 29
  0
 0
 
@@ -2450,7 +2450,7 @@ itemsfile version 3
 1
 -51.000000  1 600 1 1152921504606847017 
 
- itm_knockdown_mace Knockdown_Mace Knockdown_Mace 1  flanged_mace 0  274882363394 9223388532775583758 0 262164 3.500000 100 0 0 0 0 24576 103 0 70 0 256 536
+ itm_knockdown_mace Knockdown_Mace Knockdown_Mace 1  flanged_mace 0  274882363394 9223388532775583758 0 262164 3.500000 100 0 0 0 0 0 103 0 70 0 256 536
  0
 0
 
@@ -2466,11 +2466,11 @@ itemsfile version 3
  0
 0
 
- itm_instakill_knife Instakill_Knife Instakill_Knife 1  peasant_knife_new 0  14696450 9223372037685248015 0 24596 0.500000 100 0 0 0 0 21504 101 0 40 0 269 21
+ itm_instakill_knife Instakill_Knife Instakill_Knife 1  peasant_knife_new 0  14696450 9223372037685248015 0 24596 0.500000 100 0 0 0 0 0 101 0 40 0 269 21
  0
 0
 
- itm_backstabber Backstabber Backstabber 2  sword_viking_a_small 0  sword_viking_a_small_scabbard 3458764513820540928  4194306 9223388564182532111 0 155668 1.250000 100 0 0 0 0 20480 103 0 86 0 269 20
+ itm_backstabber Backstabber Backstabber 2  sword_viking_a_small 0  sword_viking_a_small_scabbard 3458764513820540928  4194306 9223388564182532111 0 155668 1.250000 100 0 0 0 0 0 103 0 86 0 269 20
  0
 0
 
@@ -2482,7 +2482,7 @@ itemsfile version 3
  0
 0
 
- itm_awesome_spear Awesome_Spear Awesome_Spear 1  spear 0  2251799952359428 4222131026005760 0 8202 1.500000 100 0 0 0 0 41984 110 0 157 0 289 41
+ itm_awesome_spear Awesome_Spear Awesome_Spear 1  spear 0  2251799952359428 4222131026005760 0 8202 1.500000 100 0 0 0 0 0 110 0 157 0 289 41
  0
 0
 
@@ -2508,152 +2508,122 @@ itemsfile version 3
 
  itm_pes_start PES PES 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_ammunition_pointer resource_ammunition_pointer resource_ammunition_pointer 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_weaponry_pointer resource_weaponry_pointer resource_weaponry_pointer 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_military_supplies_pointer resource_military_supplies_pointer resource_military_supplies_pointer 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_fabric_pointer resource_fabric_pointer resource_fabric_pointer 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_construction_materials_pointer resource_construction_materials_pointer resource_construction_materials_pointer 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_furniture_pointer resource_furniture_pointer resource_furniture_pointer 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_machine_parts_pointer resource_machine_parts_pointer resource_machine_parts_pointer 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_paper_pointer resource_paper_pointer resource_paper_pointer 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_clothes_pointer resource_clothes_pointer resource_clothes_pointer 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_timber_pointer resource_timber_pointer resource_timber_pointer 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_steel_pointer resource_steel_pointer resource_steel_pointer 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_iron resource_iron resource_iron 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_coal resource_coal resource_coal 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_meat resource_meat resource_meat 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_cotton resource_cotton resource_cotton 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_flour resource_flour resource_flour 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_wood resource_wood resource_wood 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_ammunition resource_ammunition resource_ammunition 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_weaponry resource_weaponry resource_weaponry 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_military_supplies resource_military_supplies resource_military_supplies 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_fabric resource_fabric resource_fabric 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_construction_materials resource_construction_materials resource_construction_materials 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_furniture resource_furniture resource_furniture 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_machine_parts resource_machine_parts resource_machine_parts 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_paper resource_paper resource_paper 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_clothes resource_clothes resource_clothes 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_timber resource_timber resource_timber 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_resource_steel resource_steel resource_steel 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_pes_end pes_end pes_end 1  bkh_hat1 0  536870924 0 150 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_javelin_bow_ammo Shooting_Javelins Shooting_Javelins 2  javelin_bow_ammo 0  javelins_quiver_new 3458764513820540928  5 2147483648 0 0 4.000000 100 0 0 0 0 0 0 0 75 15 290 0
@@ -2928,7 +2898,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_middle_east_musket1_m Flintlock_Musket Flintlock_Musket 1  middle_east_musket1 0  2251799820238852 4222130824676096 0 0 4.500000 100 0 0 0 0 8432 75 0 85 0 532 520
+ itm_rifle_middle_east_musket1_m Flintlock_Musket Flintlock_Musket 1  middle_east_musket1 0  2251799820238852 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 85 0 532 520
  0
 0
 
@@ -2936,7 +2906,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_middle_east_musket1_carbine_m Flintlock_Carbine Flintlock_Carbine 1  middle_east_musket1 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_middle_east_musket1_carbine_m Flintlock_Carbine Flintlock_Carbine 1  middle_east_musket1 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -2964,19 +2934,19 @@ itemsfile version 3
  0
 0
 
- itm_saber1 Saber Saber 2  saber 0  saber_scab 3458764513820540928  4259842 9223388564182532111 163 155668 1.500000 100 0 0 0 0 30720 105 0 75 0 279 30
+ itm_saber1 Saber Saber 2  saber 0  saber_scab 3458764513820540928  4259842 9223388564182532111 163 155668 1.500000 100 0 0 0 0 0 105 0 75 0 279 30
  0
 0
 
- itm_persian_broadsword Persian_Sabre Persian_Sabre 2  persian_broadsword 0  persian_sabre_a_scab 3458764513820540928  4259842 9223388564182532111 163 155668 1.500000 100 0 0 0 0 30720 105 0 100 0 281 30
+ itm_persian_broadsword Persian_Sabre Persian_Sabre 2  persian_broadsword 0  persian_sabre_a_scab 3458764513820540928  4259842 9223388564182532111 163 155668 1.500000 100 0 0 0 0 0 105 0 100 0 281 30
  0
 0
 
- itm_turk_broadsword_a Turkish_Sabre Turkish_Sabre 2  turk_broadsword_a 0  saber_scab 3458764513820540928  4259842 9223388564182532111 163 155668 1.500000 100 0 0 0 0 30720 105 0 100 0 281 30
+ itm_turk_broadsword_a Turkish_Sabre Turkish_Sabre 2  turk_broadsword_a 0  saber_scab 3458764513820540928  4259842 9223388564182532111 163 155668 1.500000 100 0 0 0 0 0 105 0 100 0 281 30
  0
 0
 
- itm_lance1 Lance Lance 1  lance1 0  2251803173650436 4222124851987200 270 8202 2.500000 100 0 0 0 0 16384 100 0 210 0 291 528
+ itm_lance1 Lance Lance 1  lance1 0  2251803173650436 4222124851987200 270 8202 2.500000 100 0 0 0 0 0 100 0 210 0 291 528
  0
 0
 
@@ -3270,7 +3240,7 @@ itemsfile version 3
  0
 0
 
- itm_lance2 Lance Lance 1  lance2 0  2251803173584900 4222124851987200 270 8202 2.500000 100 0 0 0 0 16384 100 0 210 0 291 528
+ itm_lance2 Lance Lance 1  lance2 0  2251803173584900 4222124851987200 270 8202 2.500000 100 0 0 0 0 0 100 0 210 0 291 528
  0
 0
 
@@ -3404,7 +3374,7 @@ itemsfile version 3
  54
 0
 
- itm_lance3 Lance Lance 1  lance3 0  2251803173650436 4222124851987200 270 8202 2.500000 100 0 0 0 0 16384 100 0 210 0 291 528
+ itm_lance3 Lance Lance 1  lance3 0  2251803173650436 4222124851987200 270 8202 2.500000 100 0 0 0 0 0 100 0 210 0 291 528
  0
 0
 
@@ -3784,7 +3754,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_sharps_m Sharps_Rifle Sharps_Rifle 1  sharps 0  2251799820238852 4222130824678912 0 0 4.000000 100 0 0 0 0 28912 75 0 80 0 276 540
+ itm_rifle_sharps_m Sharps_Rifle Sharps_Rifle 1  sharps 0  2251799820238852 4222130824678912 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 276 540
  0
 0
 
@@ -3792,7 +3762,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_henry_m Henry_Repeating_Rifle Henry_Repeating_Rifle 1  henry 0  2251799820238852 4222130824678912 0 0 4.000000 100 0 0 0 0 28912 75 0 80 0 276 540
+ itm_rifle_henry_m Henry_Repeating_Rifle Henry_Repeating_Rifle 1  henry 0  2251799820238852 4222130824678912 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 276 540
  0
 0
 
@@ -3800,7 +3770,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_spencer_m Spencer_Repeating_Rifle Spencer_Repeating_Rifle 1  spencer_repeating_rifle 0  2251799820238852 4222130824678912 0 0 4.000000 100 0 0 0 0 28912 75 0 80 0 276 540
+ itm_rifle_spencer_m Spencer_Repeating_Rifle Spencer_Repeating_Rifle 1  spencer_repeating_rifle 0  2251799820238852 4222130824678912 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 276 540
  0
 0
 
@@ -3808,7 +3778,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_spencer_carbine_m Spencer_Repeating_Carbine Spencer_Repeating_Carbine 1  spencer_repeating_carbine 0  2251799820238852 4222130824678912 0 0 3.000000 100 0 0 0 0 28912 75 0 80 0 276 540
+ itm_rifle_spencer_carbine_m Spencer_Repeating_Carbine Spencer_Repeating_Carbine 1  spencer_repeating_carbine 0  2251799820238852 4222130824678912 0 0 3.000000 100 0 0 0 0 240 75 0 80 0 276 540
  0
 0
 
@@ -3828,7 +3798,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1845_m Russian_M1845_Musket Russian_M1845_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_russian_m1845_m Russian_M1845_Musket Russian_M1845_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -3836,7 +3806,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1845_carbine_m Russian_M1845_Carbine Russian_M1845_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_russian_m1845_carbine_m Russian_M1845_Carbine Russian_M1845_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -3844,7 +3814,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1856_m Russian_M1856_Rifle Russian_M1856_Rifle 1  russian_m1856 0  2251800088674308 4222130824676096 0 0 4.750000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_russian_m1856_m Russian_M1856_Rifle Russian_M1856_Rifle 1  russian_m1856 0  2251800088674308 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -3852,7 +3822,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1856_carbine_m Russian_M1856_Carbine Russian_M1856_Carbine 1  russian_m1856_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_russian_m1856_carbine_m Russian_M1856_Carbine Russian_M1856_Carbine 1  russian_m1856_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -3860,7 +3830,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1867_m Krnka_Rifle Krnka_Rifle 1  russian_m1867 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_russian_m1867_m Krnka_Rifle Krnka_Rifle 1  russian_m1867 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -3868,7 +3838,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_m1867_carbine_m Krnka_Carbine Krnka_Carbine 1  russian_m1867_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_russian_m1867_carbine_m Krnka_Carbine Krnka_Carbine 1  russian_m1867_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -3876,7 +3846,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_berdan_m Berdan_Rifle Berdan_Rifle 1  berdan_rifle 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_russian_berdan_m Berdan_Rifle Berdan_Rifle 1  berdan_rifle 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -3884,7 +3854,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_berdan_carbine_m Berdan_Carbine Berdan_Carbine 1  berdan_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_russian_berdan_carbine_m Berdan_Carbine Berdan_Carbine 1  berdan_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -3892,7 +3862,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_mosin_m Mosin-Nagant_Rifle Mosin-Nagant_Rifle 1  mosin 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_russian_mosin_m Mosin-Nagant_Rifle Mosin-Nagant_Rifle 1  mosin 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -3900,7 +3870,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_mosin_carbine_m Mosin-Nagant_Carbine Mosin-Nagant_Carbine 1  mosin_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_russian_mosin_carbine_m Mosin-Nagant_Carbine Mosin-Nagant_Carbine 1  mosin_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -3944,7 +3914,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1842_m Austrian_M1842_Musket Austrian_M1842_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_austrian_m1842_m Austrian_M1842_Musket Austrian_M1842_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -3952,7 +3922,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1842_carbine_m Austrian_M1842_Carbine Austrian_M1842_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_austrian_m1842_carbine_m Austrian_M1842_Carbine Austrian_M1842_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -3960,7 +3930,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1854_m Lorenz_Rifle Lorenz_Rifle 1  lorenz 0  2251800088674308 4222130824676096 0 0 4.750000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_austrian_m1854_m Lorenz_Rifle Lorenz_Rifle 1  lorenz 0  2251800088674308 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -3968,7 +3938,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1854_carbine_m Lorenz_Carbine Lorenz_Carbine 1  lorenz_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_austrian_m1854_carbine_m Lorenz_Carbine Lorenz_Carbine 1  lorenz_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -3976,7 +3946,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1867_m Wanzl_Rifle Wanzl_Rifle 1  wanzl 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_austrian_m1867_m Wanzl_Rifle Wanzl_Rifle 1  wanzl 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -3984,7 +3954,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1867_carbine_m Wanzl_Carbine Wanzl_Carbine 1  wanzl_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_austrian_m1867_carbine_m Wanzl_Carbine Wanzl_Carbine 1  wanzl_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -3992,7 +3962,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_werndl_m Werndl_Rifle Werndl_Rifle 1  werndl 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_austrian_werndl_m Werndl_Rifle Werndl_Rifle 1  werndl 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -4000,7 +3970,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_werndl_carbine_m Werndl_Carbine Werndl_Carbine 1  werndl_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_austrian_werndl_carbine_m Werndl_Carbine Werndl_Carbine 1  werndl_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -4008,7 +3978,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1886_m Steyr_Mannlicher_M1886 Steyr_Mannlicher_M1886 1  mannlicher_1886 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_austrian_m1886_m Steyr_Mannlicher_M1886 Steyr_Mannlicher_M1886 1  mannlicher_1886 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -4016,7 +3986,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1886_carbine_m Steyr_Mannlicher_M1886_Carbine Steyr_Mannlicher_M1886_Carbine 1  mannlicher_1886_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_austrian_m1886_carbine_m Steyr_Mannlicher_M1886_Carbine Steyr_Mannlicher_M1886_Carbine 1  mannlicher_1886_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -4045,31 +4015,31 @@ itemsfile version 3
  67
 0
 
- itm_lance4 Lance Lance 1  lance4 0  2251803173584900 4222124851987200 270 8202 2.500000 100 0 0 0 0 16384 100 0 210 0 291 528
+ itm_lance4 Lance Lance 1  lance4 0  2251803173584900 4222124851987200 270 8202 2.500000 100 0 0 0 0 0 100 0 210 0 291 528
  0
 0
 
- itm_lance5 Lance Lance 1  lance5 0  2251803173584900 4222124851987200 270 8202 2.500000 100 0 0 0 0 16384 100 0 210 0 291 528
+ itm_lance5 Lance Lance 1  lance5 0  2251803173584900 4222124851987200 270 8202 2.500000 100 0 0 0 0 0 100 0 210 0 291 528
  0
 0
 
- itm_lance6 Lance Lance 1  lance6 0  2251803173584900 4222124851987200 270 8202 2.500000 100 0 0 0 0 16384 100 0 210 0 291 528
+ itm_lance6 Lance Lance 1  lance6 0  2251803173584900 4222124851987200 270 8202 2.500000 100 0 0 0 0 0 100 0 210 0 291 528
  0
 0
 
- itm_lance7 Lance Lance 1  lance7 0  2251803173584900 4222124851987200 270 8202 2.500000 100 0 0 0 0 16384 100 0 210 0 291 528
+ itm_lance7 Lance Lance 1  lance7 0  2251803173584900 4222124851987200 270 8202 2.500000 100 0 0 0 0 0 100 0 210 0 291 528
  0
 0
 
- itm_lance8 Lance Lance 1  lance8 0  2251803173584900 4222124851987200 270 8202 2.500000 100 0 0 0 0 16384 100 0 210 0 291 528
+ itm_lance8 Lance Lance 1  lance8 0  2251803173584900 4222124851987200 270 8202 2.500000 100 0 0 0 0 0 100 0 210 0 291 528
  0
 0
 
- itm_lance9 Lance Lance 1  lance9 0  2251803173584900 4222124851987200 270 8202 2.500000 100 0 0 0 0 16384 100 0 210 0 291 528
+ itm_lance9 Lance Lance 1  lance9 0  2251803173584900 4222124851987200 270 8202 2.500000 100 0 0 0 0 0 100 0 210 0 291 528
  0
 0
 
- itm_lance10 Lance Lance 1  lance10 0  2251803173584900 4222124851987200 270 8202 2.500000 100 0 0 0 0 16384 100 0 210 0 291 528
+ itm_lance10 Lance Lance 1  lance10 0  2251803173584900 4222124851987200 270 8202 2.500000 100 0 0 0 0 0 100 0 210 0 291 528
  0
 0
 
@@ -5224,11 +5194,11 @@ itemsfile version 3
  0
 0
 
- itm_yuricannonballcartridge YuriCannonballCartridge YuriCannonballCartridge 1  YuriCannonballCartridge 0  138805506 9223388529554358286 0 8202 4.500000 100 0 0 0 0 0 50 0 40 0 276 0
+ itm_YuriCannonballCartridge YuriCannonballCartridge YuriCannonballCartridge 1  YuriCannonballCartridge 0  138805506 9223388529554358286 0 8202 4.500000 100 0 0 0 0 0 50 0 40 0 276 0
  0
 0
 
- itm_yurigrapeshotcartridge YuriGrapeshotCartridge YuriGrapeshotCartridge 1  YuriGrapeshotCartridge 0  138805506 9223388529554358286 0 8202 4.500000 100 0 0 0 0 0 50 0 40 0 276 0
+ itm_YuriGrapeshotCartridge YuriGrapeshotCartridge YuriGrapeshotCartridge 1  YuriGrapeshotCartridge 0  138805506 9223388529554358286 0 8202 4.500000 100 0 0 0 0 0 50 0 40 0 276 0
  0
 0
 
@@ -5244,7 +5214,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1831_m Potsdam_M1831_Musket Potsdam_M1831_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_german_m1831_m Potsdam_M1831_Musket Potsdam_M1831_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -5252,7 +5222,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1831_carbine_m Potsdam_M1831_Carbine Potsdam_M1831_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_german_m1831_carbine_m Potsdam_M1831_Carbine Potsdam_M1831_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -5260,7 +5230,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1831_rifle_m Potsdam_M1831_Rifle Potsdam_M1831_Rifle 1  russian_m1856 0  2251800088674308 4222130824676096 0 0 4.750000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_german_m1831_rifle_m Potsdam_M1831_Rifle Potsdam_M1831_Rifle 1  russian_m1856 0  2251800088674308 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -5268,7 +5238,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1831_rifle_carbine_m Potsdam_M1831_Carbine Potsdam_M1831_Carbine 1  russian_m1856_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_german_m1831_rifle_carbine_m Potsdam_M1831_Carbine Potsdam_M1831_Carbine 1  russian_m1856_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -5276,7 +5246,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_dreyse_m Dreyse_Needle_Rifle Dreyse_Needle_Rifle 1  dreyse 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_german_dreyse_m Dreyse_Needle_Rifle Dreyse_Needle_Rifle 1  dreyse 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -5284,7 +5254,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_dreyse_carbine_m Dreyse_Needle_Carbine Dreyse_Needle_Carbine 1  dreyse_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_german_dreyse_carbine_m Dreyse_Needle_Carbine Dreyse_Needle_Carbine 1  dreyse_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -5292,7 +5262,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1871_m Mauser_M1871_Rifle Mauser_M1871_Rifle 1  mauser1871 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_german_m1871_m Mauser_M1871_Rifle Mauser_M1871_Rifle 1  mauser1871 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -5300,7 +5270,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1871_carbine_m Mauser_M1871_Carbine Mauser_M1871_Carbine 1  mauser1871_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_german_m1871_carbine_m Mauser_M1871_Carbine Mauser_M1871_Carbine 1  mauser1871_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -5308,7 +5278,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1888_m Gewehr_M1888_Rifle Gewehr_M1888_Rifle 1  gewehr88 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_german_m1888_m Gewehr_M1888_Rifle Gewehr_M1888_Rifle 1  gewehr88 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -5316,7 +5286,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1888_carbine_m Gewehr_M1888_Carbine Gewehr_M1888_Carbine 1  gewehr88_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_german_m1888_carbine_m Gewehr_M1888_Carbine Gewehr_M1888_Carbine 1  gewehr88_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -5569,7 +5539,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_italian_m1844_m Italian_M1844_Musket Italian_M1844_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_italian_m1844_m Italian_M1844_Musket Italian_M1844_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -5577,7 +5547,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_italian_m1844_carbine_m Italian_M1844_Carbine Italian_M1844_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_italian_m1844_carbine_m Italian_M1844_Carbine Italian_M1844_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -5585,7 +5555,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_italian_m1860_m Italian_M1860_Rifle Italian_M1860_Rifle 1  russian_m1856 0  2251800088674308 4222130824676096 0 0 4.750000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_italian_m1860_m Italian_M1860_Rifle Italian_M1860_Rifle 1  russian_m1856 0  2251800088674308 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -5593,7 +5563,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_italian_m1860_carbine_m Italian_M1860_Carbine Italian_M1860_Carbine 1  russian_m1856_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_italian_m1860_carbine_m Italian_M1860_Carbine Italian_M1860_Carbine 1  russian_m1856_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -5601,7 +5571,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_italian_carcano_m Carcano_System_M1868_Rifle Carcano_System_M1868_Rifle 1  carcano1868 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_italian_carcano_m Carcano_System_M1868_Rifle Carcano_System_M1868_Rifle 1  carcano1868 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -5609,7 +5579,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_italian_carcano_carbine_m Carcano_System_M1868_Carbine Carcano_System_M1868_Carbine 1  carcano1868_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_italian_carcano_carbine_m Carcano_System_M1868_Carbine Carcano_System_M1868_Carbine 1  carcano1868_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -5617,7 +5587,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_italian_vetterli_m Italian_Vetterli_M1870_Rifle Italian_Vetterli_M1870_Rifle 1  vetterli1870 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_italian_vetterli_m Italian_Vetterli_M1870_Rifle Italian_Vetterli_M1870_Rifle 1  vetterli1870 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -5625,7 +5595,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_italian_vetterli_carbine_m Italian_Vetterli_M1870_Carbine Italian_Vetterli_M1870_Carbine 1  vetterli1870_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_italian_vetterli_carbine_m Italian_Vetterli_M1870_Carbine Italian_Vetterli_M1870_Carbine 1  vetterli1870_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -5633,7 +5603,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_italian_vetterlivitali_m Vetterli-Vitali_M1887_Rifle Vetterli-Vitali_M1887_Rifle 1  vetterli1887 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_italian_vetterlivitali_m Vetterli-Vitali_M1887_Rifle Vetterli-Vitali_M1887_Rifle 1  vetterli1887 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -5641,7 +5611,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_italian_vetterlivitali_carbine_m Vetterli-Vitali_M1887_Carbine Vetterli-Vitali_M1887_Carbine 1  vetterli1887_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_italian_vetterlivitali_carbine_m Vetterli-Vitali_M1887_Carbine Vetterli-Vitali_M1887_Carbine 1  vetterli1887_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -5954,7 +5924,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_british_m1842_m Pattern_1842_Musket Pattern_1842_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_british_m1842_m Pattern_1842_Musket Pattern_1842_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -5962,7 +5932,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_british_m1842_carbine_m Pattern_1842_Carbine Pattern_1842_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_british_m1842_carbine_m Pattern_1842_Carbine Pattern_1842_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -5970,7 +5940,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_british_m1853_m Pattern_1853_Enfield Pattern_1853_Enfield 1  enfield1853 0  2251800088674308 4222130824676096 0 0 4.750000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_british_m1853_m Pattern_1853_Enfield Pattern_1853_Enfield 1  enfield1853 0  2251800088674308 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -5978,7 +5948,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_british_m1853_carbine_m Pattern_1853_Enfield_Carbine Pattern_1853_Enfield_Carbine 1  enfield1853_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_british_m1853_carbine_m Pattern_1853_Enfield_Carbine Pattern_1853_Enfield_Carbine 1  enfield1853_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -5986,7 +5956,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_british_snider_m Snider-Enfield_Rifle Snider-Enfield_Rifle 1  sniderenfield 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_british_snider_m Snider-Enfield_Rifle Snider-Enfield_Rifle 1  sniderenfield 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -5994,7 +5964,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_british_snider_carbine_m Snider-Enfield_Carbine Snider-Enfield_Carbine 1  sniderenfield_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_british_snider_carbine_m Snider-Enfield_Carbine Snider-Enfield_Carbine 1  sniderenfield_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -6002,7 +5972,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_british_martinihenry_m Martini-Henry_Rifle Martini-Henry_Rifle 1  martinihenry 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_british_martinihenry_m Martini-Henry_Rifle Martini-Henry_Rifle 1  martinihenry 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -6010,7 +5980,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_british_martinihenry_carbine_m Martini-Henry_Carbine Martini-Henry_Carbine 1  martinihenry_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_british_martinihenry_carbine_m Martini-Henry_Carbine Martini-Henry_Carbine 1  martinihenry_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -6018,7 +5988,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_british_metford_m Lee-Metford_Rifle Lee-Metford_Rifle 1  metford 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_british_metford_m Lee-Metford_Rifle Lee-Metford_Rifle 1  metford 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -6026,7 +5996,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_british_metford_carbine_m Lee-Metford_Carbine Lee-Metford_Carbine 1  metford_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_british_metford_carbine_m Lee-Metford_Carbine Lee-Metford_Carbine 1  metford_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -6034,7 +6004,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_french_m1844_m French_Smoothbore_Musket French_Smoothbore_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_french_m1844_m French_Smoothbore_Musket French_Smoothbore_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -6042,7 +6012,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_french_m1844_carbine_m French_Smoothbore_Carbine French_Smoothbore_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_french_m1844_carbine_m French_Smoothbore_Carbine French_Smoothbore_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -6050,7 +6020,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_french_m1849_m French_Minie_Rifle French_Minie_Rifle 1  lorenzb 0  2251800088674308 4222130824676096 0 0 4.750000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_french_m1849_m French_Minie_Rifle French_Minie_Rifle 1  lorenzb 0  2251800088674308 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -6058,7 +6028,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_french_m1849_carbine_m French_Minie_Carbine French_Minie_Carbine 1  lorenzb_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_french_m1849_carbine_m French_Minie_Carbine French_Minie_Carbine 1  lorenzb_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -6066,7 +6036,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_french_tabatiere_m Schneider-Tabatiere_Rifle Schneider-Tabatiere_Rifle 1  sniderenfield 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_french_tabatiere_m Schneider-Tabatiere_Rifle Schneider-Tabatiere_Rifle 1  sniderenfield 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -6074,7 +6044,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_french_tabatiere_carbine_m Schneider-Tabatiere_Carbine Schneider-Tabatiere_Carbine 1  sniderenfield_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_french_tabatiere_carbine_m Schneider-Tabatiere_Carbine Schneider-Tabatiere_Carbine 1  sniderenfield_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -6082,7 +6052,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_french_chassepot_m Chassepot_M1866_Rifle Chassepot_M1866_Rifle 1  chassepot 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_french_chassepot_m Chassepot_M1866_Rifle Chassepot_M1866_Rifle 1  chassepot 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -6090,7 +6060,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_french_chassepot_carbine_m Chassepot_M1866_Carbine Chassepot_M1866_Carbine 1  chassepot_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_french_chassepot_carbine_m Chassepot_M1866_Carbine Chassepot_M1866_Carbine 1  chassepot_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -6098,7 +6068,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_french_lebel_m Lebel_M1886_Rifle Lebel_M1886_Rifle 1  lebel1886 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_french_lebel_m Lebel_M1886_Rifle Lebel_M1886_Rifle 1  lebel1886 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -6106,7 +6076,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_french_lebel_carbine_m Lebel_M1886_Carbine Lebel_M1886_Carbine 1  lebel1886_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_french_lebel_carbine_m Lebel_M1886_Carbine Lebel_M1886_Carbine 1  lebel1886_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -6118,7 +6088,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_winchester_m1866_m Winchester_M1866_Rifle Winchester_M1866_Rifle 1  winchester_m1866 0  2251799820238852 4222130824678912 0 0 4.250000 100 0 0 0 0 28912 75 0 100 0 276 540
+ itm_rifle_winchester_m1866_m Winchester_M1866_Rifle Winchester_M1866_Rifle 1  winchester_m1866 0  2251799820238852 4222130824678912 0 0 4.250000 100 0 0 0 0 240 75 0 100 0 276 540
  0
 0
 
@@ -6126,7 +6096,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_winchester_m1873_m Winchester_M1873_Rifle Winchester_M1873_Rifle 1  winchester_m1873 0  2251799820238852 4222130824678912 0 0 4.250000 100 0 0 0 0 28912 75 0 100 0 276 540
+ itm_rifle_winchester_m1873_m Winchester_M1873_Rifle Winchester_M1873_Rifle 1  winchester_m1873 0  2251799820238852 4222130824678912 0 0 4.250000 100 0 0 0 0 240 75 0 100 0 276 540
  0
 0
 
@@ -6134,7 +6104,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_winchester_m1876_m Winchester_M1876_Rifle Winchester_M1876_Rifle 1  winchester_m1876 0  2251799820238852 4222130824678912 0 0 4.250000 100 0 0 0 0 28912 75 0 100 0 276 540
+ itm_rifle_winchester_m1876_m Winchester_M1876_Rifle Winchester_M1876_Rifle 1  winchester_m1876 0  2251799820238852 4222130824678912 0 0 4.250000 100 0 0 0 0 240 75 0 100 0 276 540
  0
 0
 
@@ -6142,7 +6112,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_winchester_m1886_m Winchester_M1886_Rifle Winchester_M1886_Rifle 1  winchester_m1886 0  2251799820238852 4222130824678912 0 0 4.250000 100 0 0 0 0 28912 75 0 100 0 276 540
+ itm_rifle_winchester_m1886_m Winchester_M1886_Rifle Winchester_M1886_Rifle 1  winchester_m1886 0  2251799820238852 4222130824678912 0 0 4.250000 100 0 0 0 0 240 75 0 100 0 276 540
  0
 0
 
@@ -6150,7 +6120,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_winchester_m1892_m Winchester_M1892_Rifle Winchester_M1892_Rifle 1  winchester_m1892 0  2251799820238852 4222130824678912 0 0 2.500000 100 0 0 0 0 28912 75 0 100 0 276 540
+ itm_rifle_winchester_m1892_m Winchester_M1892_Rifle Winchester_M1892_Rifle 1  winchester_m1892 0  2251799820238852 4222130824678912 0 0 2.500000 100 0 0 0 0 240 75 0 100 0 276 540
  0
 0
 
@@ -6158,7 +6128,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_winchester_m1894_m Winchester_M1894_Rifle Winchester_M1894_Rifle 1  winchester_m1894 0  2251799820238852 4222130824678912 0 0 3.000000 100 0 0 0 0 28912 75 0 100 0 276 540
+ itm_rifle_winchester_m1894_m Winchester_M1894_Rifle Winchester_M1894_Rifle 1  winchester_m1894 0  2251799820238852 4222130824678912 0 0 3.000000 100 0 0 0 0 240 75 0 100 0 276 540
  0
 0
 
@@ -6166,7 +6136,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_winchester_m1895_m Winchester_M1895_Rifle Winchester_M1895_Rifle 1  winchester_m1895 0  2251799820238852 4222130824678912 0 0 4.000000 100 0 0 0 0 28912 75 0 100 0 276 540
+ itm_rifle_winchester_m1895_m Winchester_M1895_Rifle Winchester_M1895_Rifle 1  winchester_m1895 0  2251799820238852 4222130824678912 0 0 4.000000 100 0 0 0 0 240 75 0 100 0 276 540
  0
 0
 
@@ -6174,13 +6144,12 @@ itemsfile version 3
  0
 0
 
- itm_rifle_winchester_lee_m M1895_Lee_Navy_Rifle M1895_Lee_Navy_Rifle 1  winchester_lee 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 28912 75 0 100 0 276 540
+ itm_rifle_winchester_lee_m M1895_Lee_Navy_Rifle M1895_Lee_Navy_Rifle 1  winchester_lee 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 240 75 0 100 0 276 540
  0
 0
 
- itm_flagbearer_flag National_Flag National_Flag 1  flag_pole3 0  6684675 9227594161597710560 0 262164 5.000000 100 0 0 0 0 30720 80 0 200 0 256 542
+ itm_flagbearer_flag National_Flag National_Flag 1  flag_pole3 0  6684675 9227594161597710560 0 262164 5.000000 100 0 0 0 0 0 80 0 200 0 256 542
  0
-
 1
 -50.000000  8 2071 1 1224979098644774912 1 2 936748722493063861 1224979098644774912 1970 1 1 1974 1 1080863910568920635 505 3 1224979098644774912 45 72057594037927936 2124 1 100 1854 4 72057594037927936 50 50 50 2124 1 1 
 
@@ -6423,7 +6392,7 @@ itemsfile version 3
 1
 -51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 20 600 10 288230376151713207 1224979098644774912 
 
- itm_shotgun_caplock_m Double-Barrel_Caplock_Shotgun Double-Barrel_Caplock_Shotgun 1  shotgun_caplock 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 28912 75 0 100 0 276 540
+ itm_shotgun_caplock_m Double-Barrel_Caplock_Shotgun Double-Barrel_Caplock_Shotgun 1  shotgun_caplock 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 240 75 0 100 0 276 540
  0
 0
 
@@ -6432,7 +6401,7 @@ itemsfile version 3
 1
 -51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 25 500 10 288230376151713209 1224979098644774912 
 
- itm_shotgun_doublebarrel_m Double-Barrel_Shotgun Double-Barrel_Shotgun 1  shotgun_doublebarrel 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 28912 75 0 100 0 276 540
+ itm_shotgun_doublebarrel_m Double-Barrel_Shotgun Double-Barrel_Shotgun 1  shotgun_doublebarrel 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 240 75 0 100 0 276 540
  0
 0
 
@@ -6441,7 +6410,7 @@ itemsfile version 3
 1
 -51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 25 750 10 288230376151713211 1224979098644774912 
 
- itm_shotgun_doublebarrel_short_m Shortened_Double-Barrel_Shotgun Shortened_Double-Barrel_Shotgun 1  shotgun_doublebarrel 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 28912 75 0 100 0 276 540
+ itm_shotgun_doublebarrel_short_m Shortened_Double-Barrel_Shotgun Shortened_Double-Barrel_Shotgun 1  shotgun_doublebarrel 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 240 75 0 100 0 276 540
  0
 0
 
@@ -6450,7 +6419,7 @@ itemsfile version 3
 1
 -51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 25 600 10 288230376151713213 1224979098644774912 
 
- itm_shotgun_winchester_m1887_m Winchester_M1887 Winchester_M1887 1  winchester_m1887 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 28912 75 0 100 0 276 540
+ itm_shotgun_winchester_m1887_m Winchester_M1887 Winchester_M1887 1  winchester_m1887 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 240 75 0 100 0 276 540
  0
 0
 
@@ -6459,7 +6428,7 @@ itemsfile version 3
 1
 -51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 30 650 10 288230376151713215 1224979098644774912 
 
- itm_shotgun_greener_m Greener_Shotgun Greener_Shotgun 1  greener 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 28912 75 0 100 0 276 540
+ itm_shotgun_greener_m Greener_Shotgun Greener_Shotgun 1  greener 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 240 75 0 100 0 276 540
  0
 0
 
@@ -6556,7 +6525,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_spanish_m1859_m Spanish_Pattern_1859_Musket Spanish_Pattern_1859_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_spanish_m1859_m Spanish_Pattern_1859_Musket Spanish_Pattern_1859_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -6564,7 +6533,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_spanish_m1859_carbine_m Spanish_Pattern_1859_Carbine Spanish_Pattern_1859_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_spanish_m1859_carbine_m Spanish_Pattern_1859_Carbine Spanish_Pattern_1859_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -6572,7 +6541,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_spanish_m1865_m Spanish_Pattern_1865_Rifle Spanish_Pattern_1865_Rifle 1  enfield1853 0  2251800088674308 4222130824676096 0 0 4.750000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_spanish_m1865_m Spanish_Pattern_1865_Rifle Spanish_Pattern_1865_Rifle 1  enfield1853 0  2251800088674308 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -6580,7 +6549,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_spanish_m1865_carbine_m Spanish_Pattern_1865_Carbine Spanish_Pattern_1865_Carbine 1  enfield1853_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_spanish_m1865_carbine_m Spanish_Pattern_1865_Carbine Spanish_Pattern_1865_Carbine 1  enfield1853_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -6588,7 +6557,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_rollingblock_m Remington_Rolling_Block_Rifle Remington_Rolling_Block_Rifle 1  rrb 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_rollingblock_m Remington_Rolling_Block_Rifle Remington_Rolling_Block_Rifle 1  rrb 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -6596,7 +6565,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_rollingblock_carbine_m Remington_Rolling_Block_Carbine Remington_Rolling_Block_Carbine 1  rrb_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_rollingblock_carbine_m Remington_Rolling_Block_Carbine Remington_Rolling_Block_Carbine 1  rrb_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -6604,7 +6573,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_spanish_mauser_m Mauser_M1893_Rifle Mauser_M1893_Rifle 1  mauser1893 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_spanish_mauser_m Mauser_M1893_Rifle Mauser_M1893_Rifle 1  mauser1893 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -6612,7 +6581,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_spanish_mauser_carbine_m Mauser_M1893_Carbine Mauser_M1893_Carbine 1  mauser1889_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_spanish_mauser_carbine_m Mauser_M1893_Carbine Mauser_M1893_Carbine 1  mauser1889_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -6931,11 +6900,11 @@ itemsfile version 3
  68
 0
 
- itm_saber2 British_Pattern_1821_Light_Cavalry_Sword British_Pattern_1821_Light_Cavalry_Sword 2  1821_light_cavalry_sword 0  saber_scab 3458764513820540928  4259842 9223388564182532111 163 155668 1.500000 100 0 0 0 0 30720 105 0 75 0 279 30
+ itm_saber2 British_Pattern_1821_Light_Cavalry_Sword British_Pattern_1821_Light_Cavalry_Sword 2  1821_light_cavalry_sword 0  saber_scab 3458764513820540928  4259842 9223388564182532111 163 155668 1.500000 100 0 0 0 0 0 105 0 75 0 279 30
  0
 0
 
- itm_saber3 British_Pattern_1864_Trooper_Sword British_Pattern_1864_Trooper_Sword 2  1864_trooper_sword 0  saber_scab 3458764513820540928  4259842 9223388564182532111 163 155668 1.500000 100 0 0 0 0 30720 105 0 75 0 279 30
+ itm_saber3 British_Pattern_1864_Trooper_Sword British_Pattern_1864_Trooper_Sword 2  1864_trooper_sword 0  saber_scab 3458764513820540928  4259842 9223388564182532111 163 155668 1.500000 100 0 0 0 0 0 105 0 75 0 279 30
  0
 0
 
@@ -6983,7 +6952,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_swiss_m1842_m Swiss_Smoothbore_Musket Swiss_Smoothbore_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_swiss_m1842_m Swiss_Smoothbore_Musket Swiss_Smoothbore_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -6991,7 +6960,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_swiss_m1842_carbine_m Swiss_Smoothbore_Carbine Swiss_Smoothbore_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_swiss_m1842_carbine_m Swiss_Smoothbore_Carbine Swiss_Smoothbore_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -6999,7 +6968,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_swiss_vetterli_m Vetterli_M1869_Rifle Vetterli_M1869_Rifle 1  vetterli1878 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_swiss_vetterli_m Vetterli_M1869_Rifle Vetterli_M1869_Rifle 1  vetterli1878 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7007,7 +6976,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_swiss_vetterli_carbine_m Vetterli_M1869_Carbine Vetterli_M1869_Carbine 1  vetterli1878_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_swiss_vetterli_carbine_m Vetterli_M1869_Carbine Vetterli_M1869_Carbine 1  vetterli1878_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7145,7 +7114,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_kropatschek_m Kropatschek_Rifle Kropatschek_Rifle 1  kropatschek 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_kropatschek_m Kropatschek_Rifle Kropatschek_Rifle 1  kropatschek 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7153,7 +7122,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_kropatschek_carbine_m Kropatschek_Carbine Kropatschek_Carbine 1  kropatschek_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_kropatschek_carbine_m Kropatschek_Carbine Kropatschek_Carbine 1  kropatschek_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7161,7 +7130,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_guedes_m Guedes_Rifle Guedes_Rifle 1  guedes 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_guedes_m Guedes_Rifle Guedes_Rifle 1  guedes 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7169,7 +7138,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_guedes_carbine_m Guedes_Rifle Guedes_Rifle 1  martinihenry_carbine 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_guedes_carbine_m Guedes_Rifle Guedes_Rifle 1  martinihenry_carbine 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7292,7 +7261,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_gras_m Fusil_Gras_M1874 Fusil_Gras_M1874 1  gras 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_gras_m Fusil_Gras_M1874 Fusil_Gras_M1874 1  gras 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7300,7 +7269,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_gras_carbine_m Fusil_Gras_M1874_Carbine Fusil_Gras_M1874_Carbine 1  gras_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_gras_carbine_m Fusil_Gras_M1874_Carbine Fusil_Gras_M1874_Carbine 1  gras_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7308,7 +7277,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_dutch_smoothbore_m Dutch_M1815_Musket Dutch_M1815_Musket 1  middle_east_musket4 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_dutch_smoothbore_m Dutch_M1815_Musket Dutch_M1815_Musket 1  middle_east_musket4 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7316,7 +7285,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_dutch_smoothbore_carbine_m Dutch_M1815_Carbine Dutch_M1815_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_dutch_smoothbore_carbine_m Dutch_M1815_Carbine Dutch_M1815_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7324,7 +7293,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_belgian_smoothbore_m Belgian_M1842_Musket Belgian_M1842_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_belgian_smoothbore_m Belgian_M1842_Musket Belgian_M1842_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7332,7 +7301,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_belgian_smoothbore_carbine_m Belgian_M1842_Carbine Belgian_M1842_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_belgian_smoothbore_carbine_m Belgian_M1842_Carbine Belgian_M1842_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7340,7 +7309,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_greek_smoothbore_m Ktoros_M1837_Musket Ktoros_M1837_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_greek_smoothbore_m Ktoros_M1837_Musket Ktoros_M1837_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7348,7 +7317,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_greek_smoothbore_carbine_m Ktoros_M1837_Carbine Ktoros_M1837_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_greek_smoothbore_carbine_m Ktoros_M1837_Carbine Ktoros_M1837_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7356,7 +7325,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_portuguese_smoothbore_m Spanish_M1752_Musket Spanish_M1752_Musket 1  middle_east_musket4 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_portuguese_smoothbore_m Spanish_M1752_Musket Spanish_M1752_Musket 1  middle_east_musket4 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7364,7 +7333,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_portuguese_smoothbore_carbine_m Spanish_M1752_Carbine Spanish_M1752_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_portuguese_smoothbore_carbine_m Spanish_M1752_Carbine Spanish_M1752_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7372,7 +7341,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_romanian_smoothbore_m Charleville_M1844_Musket Charleville_M1844_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_romanian_smoothbore_m Charleville_M1844_Musket Charleville_M1844_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7380,7 +7349,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_romanian_smoothbore_carbine_m Charleville_M1844_Carbine Charleville_M1844_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_romanian_smoothbore_carbine_m Charleville_M1844_Carbine Charleville_M1844_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7388,7 +7357,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_serbian_smoothbore_m Charleville_Musket Charleville_Musket 1  middle_east_musket4 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_serbian_smoothbore_m Charleville_Musket Charleville_Musket 1  middle_east_musket4 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7396,7 +7365,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_serbian_smoothbore_carbine_m Charleville_Carbine Charleville_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_serbian_smoothbore_carbine_m Charleville_Carbine Charleville_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7404,7 +7373,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_ottoman_smoothbore_m Charleville_M1844_Musket Charleville_M1844_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_ottoman_smoothbore_m Charleville_M1844_Musket Charleville_M1844_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7412,7 +7381,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_ottoman_smoothbore_carbine_m Charleville_M1844_Carbine Charleville_M1844_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_ottoman_smoothbore_carbine_m Charleville_M1844_Carbine Charleville_M1844_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7420,7 +7389,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_egyptian_smoothbore_m Charleville_M1844_Musket Charleville_M1844_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_egyptian_smoothbore_m Charleville_M1844_Musket Charleville_M1844_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7428,7 +7397,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_egyptian_smoothbore_carbine_m Charleville_M1844_Carbine Charleville_M1844_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_egyptian_smoothbore_carbine_m Charleville_M1844_Carbine Charleville_M1844_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7436,7 +7405,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_danish_smoothbore_m Danish_M1828/46_Musket Danish_M1828/46_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_danish_smoothbore_m Danish_M1828/46_Musket Danish_M1828/46_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7444,7 +7413,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_danish_smoothbore_carbine_m Danish_M1828/46_Carbine Danish_M1828/46_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_danish_smoothbore_carbine_m Danish_M1828/46_Carbine Danish_M1828/46_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7452,7 +7421,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_swedish_smoothbore_m Swedish_M1815/45_Musket Swedish_M1815/45_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_swedish_smoothbore_m Swedish_M1815/45_Musket Swedish_M1815/45_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7460,7 +7429,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_swedish_smoothbore_carbine_m Swedish_M1815/45_Carbine Swedish_M1815/45_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_swedish_smoothbore_carbine_m Swedish_M1815/45_Carbine Swedish_M1815/45_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7468,7 +7437,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_bavarian_smoothbore_m Bavarian_M1842_Musket Bavarian_M1842_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_bavarian_smoothbore_m Bavarian_M1842_Musket Bavarian_M1842_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7476,7 +7445,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_bavarian_smoothbore_carbine_m Bavarian_M1842_Carbine Bavarian_M1842_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_bavarian_smoothbore_carbine_m Bavarian_M1842_Carbine Bavarian_M1842_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7484,7 +7453,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_bulgarian_smoothbore_m Papal_M1777_Conversion_Musket Papal_M1777_Conversion_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_bulgarian_smoothbore_m Papal_M1777_Conversion_Musket Papal_M1777_Conversion_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7492,7 +7461,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_bulgarian_smoothbore_carbine_m Papal_M1777_Conversion_Carbine Papal_M1777_Conversion_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_bulgarian_smoothbore_carbine_m Papal_M1777_Conversion_Carbine Papal_M1777_Conversion_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7500,7 +7469,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_norwegian_smoothbore_m Smoothbore_Carbine Smoothbore_Carbine 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_norwegian_smoothbore_m Smoothbore_Carbine Smoothbore_Carbine 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7508,7 +7477,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_norwegian_smoothbore_carbine_m Papal_M1777_Conversion_Carbine Papal_M1777_Conversion_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_norwegian_smoothbore_carbine_m Papal_M1777_Conversion_Carbine Papal_M1777_Conversion_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7516,7 +7485,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_papal_smoothbore_m Papal_M1777_Conversion_Musket Papal_M1777_Conversion_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_papal_smoothbore_m Papal_M1777_Conversion_Musket Papal_M1777_Conversion_Musket 1  russian_m1845 0  2251800088674308 4222130824676096 0 0 4.500000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7524,7 +7493,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_papal_smoothbore_carbine_m Papal_M1777_Conversion_Carbine Papal_M1777_Conversion_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_papal_smoothbore_carbine_m Papal_M1777_Conversion_Carbine Papal_M1777_Conversion_Carbine 1  russian_m1845_carbine 0  2251799820238852 4222130824676096 0 0 4.750000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7668,7 +7637,7 @@ itemsfile version 3
  63
 0
 
- itm_shovel1 Shovel Shovel 1  shovel1 0  4194306 9223388529822793743 163 155668 1.500000 100 0 0 0 0 40960 105 0 75 0 296 40
+ itm_shovel1 Shovel Shovel 1  shovel1 0  4194306 9223388529822793743 163 155668 1.500000 100 0 0 0 0 0 105 0 75 0 296 40
  0
 0
 
@@ -7676,7 +7645,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_comblain_m M1870_Belgian_Comblain M1870_Belgian_Comblain 1  comblain 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_comblain_m M1870_Belgian_Comblain M1870_Belgian_Comblain 1  comblain 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7684,11 +7653,11 @@ itemsfile version 3
  0
 0
 
- itm_rifle_comblain_carbine_m M1870_Belgian_Comblain_Carbine M1870_Belgian_Comblain_Carbine 1  comblain_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_comblain_carbine_m M1870_Belgian_Comblain_Carbine M1870_Belgian_Comblain_Carbine 1  comblain_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
- itm_mg1 Machine_Gun Machine_Gun 1  mg_item 0  6291460 6174015488 0 0 30.000000 100 0 0 0 0 8432 75 0 80 0 256 520
+ itm_mg1 Machine_Gun Machine_Gun 1  mg_item 0  6291460 6174015488 0 0 30.000000 100 0 0 0 0 240 75 0 80 0 256 520
  0
 0
 
@@ -7700,7 +7669,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_beaumont1871_m Beaumont_M1871 Beaumont_M1871 1  beaumont1871 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_beaumont1871_m Beaumont_M1871 Beaumont_M1871 1  beaumont1871 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7708,7 +7677,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_beaumont1871_carbine_m Beaumont_M1871_Carbine Beaumont_M1871_Carbine 1  beaumont1871_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_beaumont1871_carbine_m Beaumont_M1871_Carbine Beaumont_M1871_Carbine 1  beaumont1871_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7716,7 +7685,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_beaumont1871_88_m Beaumont_M1871/88 Beaumont_M1871/88 1  beaumont1871_88 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_beaumont1871_88_m Beaumont_M1871/88 Beaumont_M1871/88 1  beaumont1871_88 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7724,7 +7693,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_beaumont1871_88_carbine_m Beaumont_M1871/88_Carbine Beaumont_M1871/88_Carbine 1  beaumont1871_88_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_beaumont1871_88_carbine_m Beaumont_M1871/88_Carbine Beaumont_M1871/88_Carbine 1  beaumont1871_88_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7732,7 +7701,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_peabody_m Peabody_Rifle Peabody_Rifle 1  peabody 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_peabody_m Peabody_Rifle Peabody_Rifle 1  peabody 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7740,7 +7709,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_peabody_carbine_m Peabody_Carbine Peabody_Carbine 1  peabody_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_peabody_carbine_m Peabody_Carbine Peabody_Carbine 1  peabody_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7777,7 +7746,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_krag_m Krag-Jorgensen_Rifle Krag-Jorgensen_Rifle 1  krag 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_krag_m Krag-Jorgensen_Rifle Krag-Jorgensen_Rifle 1  krag 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7785,7 +7754,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_krag_carbine_m Krag-Jorgensen_Carbine Krag-Jorgensen_Carbine 1  krag_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_krag_carbine_m Krag-Jorgensen_Carbine Krag-Jorgensen_Carbine 1  krag_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7794,7 +7763,7 @@ itemsfile version 3
 1
 -51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 20 600 10 288230376151713506 1224979098644774912 
 
- itm_shotgun_winchester_m1897_m Winchester_M1897 Winchester_M1897 1  winchester_m1897 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 28912 75 0 100 0 276 540
+ itm_shotgun_winchester_m1897_m Winchester_M1897 Winchester_M1897 1  winchester_m1897 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 240 75 0 100 0 276 540
  0
 0
 
@@ -7803,11 +7772,11 @@ itemsfile version 3
 1
 -51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063862 20 600 10 288230376151713508 1224979098644774912 
 
- itm_shotgun_spencer_m1882_m Spencer_Shotgun_Model_1882 Spencer_Shotgun_Model_1882 1  spencer_m1882 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 28912 75 0 100 0 276 540
+ itm_shotgun_spencer_m1882_m Spencer_Shotgun_Model_1882 Spencer_Shotgun_Model_1882 1  spencer_m1882 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 240 75 0 100 0 276 540
  0
 0
 
- itm_shovel_melee Shovel Shovel 1  shovel_melee 0  4194306 9223388529554358287 163 155668 1.500000 100 0 0 0 0 30720 105 0 100 0 281 30
+ itm_shovel_melee Shovel Shovel 1  shovel_melee 0  4194306 9223388529554358287 163 155668 1.500000 100 0 0 0 0 0 105 0 100 0 281 30
  0
 0
 
@@ -7815,7 +7784,7 @@ itemsfile version 3
  0
 0
 
- itm_lmg_lewis_m Lewis_Machine_Gun Lewis_Machine_Gun 1  lewis 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_lmg_lewis_m Lewis_Machine_Gun Lewis_Machine_Gun 1  lewis 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7823,7 +7792,7 @@ itemsfile version 3
  0
 0
 
- itm_lmg_chauchat_m chauchat_Machine_Gun chauchat_Machine_Gun 1  chauchat 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_lmg_chauchat_m chauchat_Machine_Gun chauchat_Machine_Gun 1  chauchat 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7831,7 +7800,7 @@ itemsfile version 3
  0
 0
 
- itm_lmg_madsen_m Madsen_Machine_Gun Madsen_Machine_Gun 1  madsen 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_lmg_madsen_m Madsen_Machine_Gun Madsen_Machine_Gun 1  madsen 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7839,7 +7808,7 @@ itemsfile version 3
  0
 0
 
- itm_lmg_mg0815_m Maschinengewehr_08/15 Maschinengewehr_08/15 1  mg0815 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_lmg_mg0815_m Maschinengewehr_08/15 Maschinengewehr_08/15 1  mg0815 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7847,7 +7816,7 @@ itemsfile version 3
  0
 0
 
- itm_lmg_hotchkiss1909_m Hotchkiss_Model_1909 Hotchkiss_Model_1909 1  hotchkiss1909 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_lmg_hotchkiss1909_m Hotchkiss_Model_1909 Hotchkiss_Model_1909 1  hotchkiss1909 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7855,7 +7824,7 @@ itemsfile version 3
  0
 0
 
- itm_lmg_mp18_m MP-18 MP-18 1  mp18 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_lmg_mp18_m MP-18 MP-18 1  mp18 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7863,7 +7832,7 @@ itemsfile version 3
  0
 0
 
- itm_lmg_fedorov_m Fedorov_Machine_Gun Fedorov_Machine_Gun 1  fedorov 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_lmg_fedorov_m Fedorov_Machine_Gun Fedorov_Machine_Gun 1  fedorov 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7871,7 +7840,7 @@ itemsfile version 3
  0
 0
 
- itm_lmg_beretta1918_m Beretta_1918_Machine_Gun Beretta_1918_Machine_Gun 1  beretta1918 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_lmg_beretta1918_m Beretta_1918_Machine_Gun Beretta_1918_Machine_Gun 1  beretta1918 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7894,7 +7863,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1895_m Steyr_Mannlicher_M1895 Steyr_Mannlicher_M1895 1  mannlicher_1886 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_austrian_m1895_m Steyr_Mannlicher_M1895 Steyr_Mannlicher_M1895 1  mannlicher_1886 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7902,7 +7871,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1895_carbine_m Steyr_Mannlicher_M1895_Carbine Steyr_Mannlicher_M1895_Carbine 1  mannlicher_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_austrian_m1895_carbine_m Steyr_Mannlicher_M1895_Carbine Steyr_Mannlicher_M1895_Carbine 1  mannlicher_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7910,7 +7879,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_smle_m Lee–Enfield_Mk_I Lee–Enfield_Mk_I 1  smle 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_smle_m Lee–Enfield_Mk_I Lee–Enfield_Mk_I 1  smle 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7918,7 +7887,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_smle_carbine_m Lee–Enfield_Mk_I Lee–Enfield_Mk_I 1  smle_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_smle_carbine_m Lee–Enfield_Mk_I Lee–Enfield_Mk_I 1  smle_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -7926,7 +7895,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_gewehr98_m Gewehr_98 Gewehr_98 1  g98_bayo 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_gewehr98_m Gewehr_98 Gewehr_98 1  g98_bayo 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -7934,11 +7903,11 @@ itemsfile version 3
  0
 0
 
- itm_rifle_gewehr98_carbine_m Karabiner_98 Karabiner_98 1  g98 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_gewehr98_carbine_m Karabiner_98 Karabiner_98 1  g98 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
- itm_damage_pure damage_pure damage_pure 1  none 0  17592192335875 9223635924301119728 670 155668 5.000000 100 0 0 0 0 5120 80 0 100 0 517 517
+ itm_damage_pure damage_pure damage_pure 1  none 0  17592192335875 9223635924301119728 670 155668 5.000000 100 0 0 0 0 0 80 0 100 0 517 517
  0
 0
 
@@ -7970,27 +7939,27 @@ itemsfile version 3
  0
 0
 
- itm_mg2_russian Machine_Gun Machine_Gun 1  mg2_russian_item 0  6291460 6174015488 0 0 30.000000 100 0 0 0 0 8432 75 0 80 0 256 520
+ itm_mg2_russian Machine_Gun Machine_Gun 1  mg2_russian_item 0  6291460 6174015488 0 0 30.000000 100 0 0 0 0 240 75 0 80 0 256 520
  0
 0
 
- itm_mg3_german Machine_Gun Machine_Gun 1  mg3_german_item 0  6291460 6174015488 0 0 30.000000 100 0 0 0 0 8432 75 0 80 0 256 520
+ itm_mg3_german Machine_Gun Machine_Gun 1  mg3_german_item 0  6291460 6174015488 0 0 30.000000 100 0 0 0 0 240 75 0 80 0 256 520
  0
 0
 
- itm_mg4_french Machine_Gun Machine_Gun 1  mg4_french_item 0  6291460 6174015488 0 0 30.000000 100 0 0 0 0 8432 75 0 80 0 256 520
+ itm_mg4_french Machine_Gun Machine_Gun 1  mg4_french_item 0  6291460 6174015488 0 0 30.000000 100 0 0 0 0 240 75 0 80 0 256 520
  0
 0
 
- itm_mg5_austrian Machine_Gun Machine_Gun 1  mg5_austrian_barrel 0  6291460 6174015488 0 0 30.000000 100 0 0 0 0 8432 75 0 80 0 256 520
+ itm_mg5_austrian Machine_Gun Machine_Gun 1  mg5_austrian_barrel 0  6291460 6174015488 0 0 30.000000 100 0 0 0 0 240 75 0 80 0 256 520
  0
 0
 
- itm_mg6_british Machine_Gun Machine_Gun 1  mg_item 0  6291460 6174015488 0 0 30.000000 100 0 0 0 0 8432 75 0 80 0 256 520
+ itm_mg6_british Machine_Gun Machine_Gun 1  mg_item 0  6291460 6174015488 0 0 30.000000 100 0 0 0 0 240 75 0 80 0 256 520
  0
 0
 
- itm_ramrod1 Cannon_Ramrod Cannon_Ramrod 1  field_gun_ramrod1 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 28912 75 0 100 0 276 540
+ itm_ramrod1 Cannon_Ramrod Cannon_Ramrod 1  field_gun_ramrod1 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 240 75 0 100 0 276 540
  0
 0
 
@@ -7998,7 +7967,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mauser_m1887_m Mauser_M1887_Rifle Mauser_M1887_Rifle 1  mauser1871 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_mauser_m1887_m Mauser_M1887_Rifle Mauser_M1887_Rifle 1  mauser1871 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -8006,7 +7975,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mauser_m1887_carbine_m Mauser_M1887_Carbine Mauser_M1887_Carbine 1  mauser1871_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_mauser_m1887_carbine_m Mauser_M1887_Carbine Mauser_M1887_Carbine 1  mauser1871_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -8207,7 +8176,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mannlicher_m1893_m Mannlicher_M1893 Mannlicher_M1893 1  mannlicher_1886 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_mannlicher_m1893_m Mannlicher_M1893 Mannlicher_M1893 1  mannlicher_1886 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -8215,7 +8184,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mannlicher_m1893_carbine_m Mannlicher_M1893_Carbine Mannlicher_M1893_Carbine 1  mannlicher_1886_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_mannlicher_m1893_carbine_m Mannlicher_M1893_Carbine Mannlicher_M1893_Carbine 1  mannlicher_1886_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -8223,7 +8192,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mannlicher_schoenauer_m Mannlicher-Schoenauer Mannlicher-Schoenauer 1  schoenauer 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_mannlicher_schoenauer_m Mannlicher-Schoenauer Mannlicher-Schoenauer 1  schoenauer 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -8231,7 +8200,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mannlicher_schoenauer_carbine_m Mannlicher-Schoenauer_Carbine Mannlicher-Schoenauer_Carbine 1  schoenauer_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_mannlicher_schoenauer_carbine_m Mannlicher-Schoenauer_Carbine Mannlicher-Schoenauer_Carbine 1  schoenauer_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -8239,7 +8208,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mauser_m1889_m Mauser_M1889_Rifle Mauser_M1889_Rifle 1  mauser1889 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_mauser_m1889_m Mauser_M1889_Rifle Mauser_M1889_Rifle 1  mauser1889 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -8247,7 +8216,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mauser_m1889_carbine_m Mauser_M1889_Carbine Mauser_M1889_Carbine 1  mauser1889_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_mauser_m1889_carbine_m Mauser_M1889_Carbine Mauser_M1889_Carbine 1  mauser1889_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -8255,7 +8224,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mauser_m1896_m Gevär_m/96_Rifle Gevär_m/96_Rifle 1  mauser1893 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_mauser_m1896_m Gevär_m/96_Rifle Gevär_m/96_Rifle 1  mauser1893 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -8263,7 +8232,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mauser_m1896_carbine_m Gevär_m/96_Carbine Gevär_m/96_Carbine 1  mauser1893_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_mauser_m1896_carbine_m Gevär_m/96_Carbine Gevär_m/96_Carbine 1  mauser1893_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -8309,77 +8278,62 @@ itemsfile version 3
 
  itm_balkan_torso1 Civilian_Clothes Civilian_Clothes 1  balkan_torso1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_balkan_torso2 Civilian_Clothes Civilian_Clothes 1  balkan_torso2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_balkan_torso3 Civilian_Clothes Civilian_Clothes 1  balkan_torso3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_polish_torso1 Civilian_Clothes Civilian_Clothes 1  polish_torso1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_polish_torso2 Civilian_Clothes Civilian_Clothes 1  polish_torso2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_polish_torso3 Civilian_Clothes Civilian_Clothes 1  polish_torso3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_polish_torso4 Civilian_Clothes Civilian_Clothes 1  polish_torso4 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_polish_torso5 Civilian_Clothes Civilian_Clothes 1  polish_torso5 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_polish_torso6 Civilian_Clothes Civilian_Clothes 1  polish_torso6 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_polish_torso7 Civilian_Clothes Civilian_Clothes 1  polish_torso7 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_polish_torso8 Civilian_Clothes Civilian_Clothes 1  polish_torso8 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_polish_torso9 Civilian_Clothes Civilian_Clothes 1  polish_torso9 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_polish_torso10 Civilian_Clothes Civilian_Clothes 1  polish_torso10 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_polish_torso11 Civilian_Clothes Civilian_Clothes 1  polish_torso11 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_polish_torso12 Civilian_Clothes Civilian_Clothes 1  polish_torso12 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  0
-
 0
 
  itm_polish_hat1 Polish_Hat Polish_Hat 1  polish_hat1 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
@@ -8396,7 +8350,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_carcano1891_m Carcano_M1891 Carcano_M1891 1  carcano1891 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 30960 75 0 160 0 286 286
+ itm_rifle_carcano1891_m Carcano_M1891 Carcano_M1891 1  carcano1891 0  2251800088674308 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 160 0 286 286
  0
 0
 
@@ -8404,7 +8358,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_carcano1891_carbine_m Carcano_M1891_Carbine Carcano_M1891_Carbine 1  carcano1891_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 8432 75 0 80 0 532 520
+ itm_rifle_carcano1891_carbine_m Carcano_M1891_Carbine Carcano_M1891_Carbine 1  carcano1891_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 

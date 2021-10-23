@@ -9,6 +9,7 @@ from header_music import *
 from header_terrain_types import *
 
 from module_constants import *
+from compiler import *
 
 ####################################################################################################################
 #  Each trigger contains the following fields:

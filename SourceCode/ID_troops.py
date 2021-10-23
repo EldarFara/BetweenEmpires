@@ -3330,7 +3330,6 @@ trp_village_557_elder = 3328
 trp_village_558_elder = 3329
 trp_village_559_elder = 3330
 trp_village_560_elder = 3331
-trp_village_500_elder = 3332
 trp_village_561_elder = 3333
 trp_village_562_elder = 3334
 trp_village_563_elder = 3335

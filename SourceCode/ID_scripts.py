@@ -887,5 +887,3 @@ script_pps_faction_change_government_type = 885
 script_pps_faction_get_government_name = 886
 script_pps_faction_process_event_effect_socialism_demonstration = 887
 script_pps_faction_get_most_radical_socialist_party = 888
-
-

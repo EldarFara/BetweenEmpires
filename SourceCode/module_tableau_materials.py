@@ -4,6 +4,7 @@ from header_mission_templates import *
 from header_tableau_materials import *
 from header_items import *
 from module_constants import *
+from compiler import *
 
 ####################################################################################################################
 #  Each tableau material contains the following fields:

@@ -89,5 +89,3 @@ fac_slavers = 87
 fac_peasant_rebels = 88
 fac_noble_refugees = 89
 fac_ccoop_all_stars = 90
-
-

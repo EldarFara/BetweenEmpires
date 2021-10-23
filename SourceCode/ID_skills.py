@@ -40,5 +40,3 @@ skl_reserved_15 = 38
 skl_reserved_16 = 39
 skl_reserved_17 = 40
 skl_reserved_18 = 41
-
-

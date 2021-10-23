@@ -1125,7 +1125,7 @@ parties = [
     ("village_590", "Narva",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(204.09,-374.97),[], 170),
     ("village_591", "Madona",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(229.18,-315.16),[], 170),
     ("village_592", "Luga",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(188.10,-340.48),[], 170),
-    ("village_592", "Velikiye_Luki",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(190.55,-304.94),[], 170),
+   # ("village_592", "Velikiye_Luki",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(190.55,-304.94),[], 170),
     ("village_593", "Veliky_Novgorod",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(141.13,-363.75),[], 170),
     ("village_594", "Tikhvin",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(106.03,-380.10),[], 170),
     ("village_595", "Yaroslav",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(29.33,-339.69),[], 170),

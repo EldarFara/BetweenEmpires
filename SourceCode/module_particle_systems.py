@@ -1186,7 +1186,7 @@ particle_systems = [
      0.5                        #rotation damping
     ),
   ("thunder1", psf_billboard_2d|psf_global_emit_dir|psf_always_emit, "thunder1",
-     1.5, 1, 0, 0, 0.0, 0.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+     1, 1, 0, 0, 0.0, 0.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
      (0.2, 1), (1, 0),        #alpha keys
      (1.0, 1.0), (1, 1.0),      #red keys
      (1.0, 1.0), (1, 1.0),      #green keys
@@ -1199,7 +1199,7 @@ particle_systems = [
      0                        #rotation damping
     ),
   ("thunder2", psf_billboard_2d|psf_global_emit_dir|psf_always_emit, "thunder2",
-     1.5, 1, 0, 0, 0.0, 0.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+     1, 1, 0, 0, 0.0, 0.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
      (0.2, 1), (1, 0),        #alpha keys
      (1.0, 1.0), (1, 1.0),      #red keys
      (1.0, 1.0), (1, 1.0),      #green keys
@@ -1212,7 +1212,7 @@ particle_systems = [
      0                        #rotation damping
     ),
   ("thunder_end", psf_billboard_2d|psf_global_emit_dir|psf_always_emit, "thunder2",
-     1.5, 1, 0, 0, 0.0, 0.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+     1, 1, 0, 0, 0.0, 0.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
      (0.2, 1), (1, 0),        #alpha keys
      (1.0, 1.0), (1, 1.0),      #red keys
      (1.0, 1.0), (1, 1.0),      #green keys

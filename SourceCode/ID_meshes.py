@@ -606,5 +606,3 @@ mesh_pps_movement_socialist = 604
 mesh_pps_movement_popularity = 605
 mesh_pps_movement_radicalism = 606
 mesh_pes_factory_strike = 607
-
-

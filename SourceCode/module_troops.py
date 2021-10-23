@@ -7,6 +7,7 @@ from header_skills import *
 from ID_factions import *
 from ID_items import *
 from ID_scenes import *
+from compiler import *
 
 ####################################################################################################################
 #  Each troop contains the following fields:
