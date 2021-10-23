@@ -13,6 +13,7 @@ menu_tutorial|Os acercáis a un campo donde los lugareños se entrenan con armas
 mno_go_back_dot|Atrás.
 menu_reports|Renombre del personaje: {reg5}^Honor: {reg6}^Moral del grupo: {reg8}^Límite del grupo: {reg7}^
 mno_show_pps_menu|View faction internal politics menu.
+mno_show_pas_menu|View faction military management menu.
 mno_show_weather_report|View weather report.
 mno_reports_to_faction_technologies|View your faction military technologies.
 mno_view_character_report|Ver el informe del personaje.
@@ -77,6 +78,8 @@ mno_camp_action|Emprended una acción.
 mno_camp_wait_here|Esperad aquí un momento.
 mno_camp_cheat|¡MENU DE TRUCOS!
 menu_camp_cheat|Seleccionad truco:
+mno_camp_cheat_400_pes_pps_iterations|Simulate 400 PES/PPS iterations.
+mno_camp_cheat_20_pes_pps_iterations|Simulate 20 PES/PPS iterations.
 mno_camp_cheat_dds|Open Debug Display Slots.
 mno_camp_cheat_all_factions_research_all_tech|Make all factions immediately research all technologies.
 mno_camp_cheat_find_item|Cambiar clima.
@@ -657,3 +660,13 @@ menu_balkanwars_event1|Liga Balcánica
 mno_balkanwars_event1_join|{s1}
 mno_balkanwars_event1_dont_join|No entrar a la Liga.
 menu_balkanwars_event2|Guerra contra el imperio Otomano
+menu_balkanwars_event3|War against Bulgaria
+mno_balkanwars_event3_s1|{s1}
+mno_balkanwars_event3_dont_take_part|Don't participate in this war.
+menu_socialism_demonstration|Demonstrations in {s2}!^^Large groups have formed in protest of the perceived failings of the nations economic policy in {s2}.^Scores of protesters in vocal support of {s3} held a peaceful rally to express dissatisfaction over the state of affairs in {s1}.^The protesters, comprised of every strata of society, be it the young or elderly, marched for more than 5 kilometers over the cities main boulevard.^Despite the heavy presence of law enforcement throughout the route, protesters openly expressed disdain for the government by chanting songs of protest.^On arrival at {s2}, a large portion of the crowd began singing the 'Internationale', while many others decried the way {s1} had handled recent events.^^Upon this display of perceived sympathy towards socialism, the police sorrounded the protest group, blocking off roadways leading into the plaza.
+mno_socialism_demonstration_option1|Ignore the demonstration and wait for it to go away.
+mno_socialism_demonstration_option2|Disperse the crowd by police force avoiding victims.
+mno_socialism_demonstration_option3|Disperse the crowd by police force, allowing usage of firearms.
+menu_socialism_riot|Riot in {s2}!^^Large groups have formed in protest of the perceived failings of the nations economic policy in {s2}.^Scores of protesters in vocal support of {s3} held a peaceful rally to express dissatisfaction over the state of affairs in {s1}.^The protesters, comprised of every strata of society, be it the young or elderly, marched for more than 5 kilometers over the cities main boulevard.^Despite the heavy presence of law enforcement throughout the route, protesters openly expressed disdain for the government by chanting songs of protest.^On arrival at {s2}, a large portion of the crowd began singing the 'Internationale', while many others decried the way {s1} had handled recent events.^^Upon this display of perceived sympathy towards socialism, the police sorrounded the protest group, blocking off roadways leading into the plaza.
+mno_socialism_riot_option1|Ignore the demonstration and wait for it to go away.
+mno_socialism_riot_option2|Disperse the crowd by police force, allowing usage of firearms.

@@ -1,3 +1,5 @@
+qstr_res_cape1|res cape1
+qstr_res_cape2|res cape2
 qstr_thawb1_belt1|thawb1 belt1
 qstr_banner_ria1|banner ria1
 qstr_Next_Page|Sonraki sayfa
@@ -53,8 +55,8 @@ qstr_Defeats:_{reg0}|Mağlubiyetler: {reg0}
 qstr_Quests_Completed:_{r|Tamamlanan Görevler: {reg0}
 qstr_Companions_Found:_{r|Bulunan Yoldaşlar: {reg0}
 qstr_Companions_Lost/Depa|Ayrılan/Kaybedilen Yoldaşlar: {reg0}
-qstr_Wealth:_{reg0}_pound|Wealth: {reg0} pounds
-qstr_Inventory:_{reg0}_po|Inventory: {reg0} pounds
+qstr_Wealth:_{reg0}_$|Wealth: {reg0} $
+qstr_Inventory:_{reg0}_$|Inventory: {reg0} $
 qstr_Renown:_{reg0}|Nam: {reg0}
 qstr_Experience:_{reg0}|Tecrübe: {reg0}
 qstr_Days_Passed:_{reg0}|Geçen gün sayısı: {reg0}
@@ -65,7 +67,6 @@ qstr_{reg10}|{reg10}
 qstr_None|Hiç
 qstr_Back|Geri
 qstr_Empty|Boş
-qstr_Number_of^artillery_|Topcu Mermisi^Sayısı
 qstr_1._{s1}|1. {s1}
 qstr___c.|  c.
 qstr_90%|90%
@@ -103,7 +104,6 @@ qstr_Gas_masks:_always_wea|Gaz Maskesi: her zaman iradeyle giy
 qstr_pbs_activeability_gasma|pbs activeability gasmasks onoff
 qstr_pbs_activeability_gasmas|pbs activeability gasmasks noselected
 qstr_{s1}^^Gas_masks_make|{s1}^^Gaz maskeleri askerleri zehirli gaza karşı zarar görmez hale getirir,ama enerji ve atış isabetini düşürür^Bölük tipi: Herhangi
-qstr_{reg0}|{reg0}
 qstr_{reg0}%|{reg0}%
 qstr_{reg0}_c.|{reg0} c.
 qstr_Cannot_dig_in:_wrong|Siper Kazılamaz: Yanlış Bölük Tipi (Sadece Piyade ve Muhafız Piyade Siper Kazabilir).
@@ -132,8 +132,17 @@ qstr_Show_villages|Köyleri Göster
 qstr_Tip:_move_the_mouse_|Tip: isimlerini göstermek için mous'u siyah blokların üzerine götür.
 qstr_The_World_Map|Dünya Haritası
 qstr_Done|Tamamlandı
+qstr_Language:|Language:
+qstr_English|English
+qstr_Russian|Russian
+qstr_German|German
+qstr_Turkish|Turkish
+qstr_Spanish|Spanish
+qstr_Italian|Italian
+qstr_French|French
+qstr_Polish|Polish
 qstr_Press_Escape_to_clos|Menüyü kapatmak için esc'ye basın...
-qstr_{s7}__s_Army|{s7} 'nın ordusu
+qstr_Army_of_{s7}|Army of {s7}
 qstr_Attribute_points_{re|Özellik Puanı{reg40}
 qstr_Skill_points_{reg41}|Beceri Puanı{reg41}
 qstr_Weapon_points_{reg42|Silah Hüneri Puanı{reg42}
@@ -177,7 +186,7 @@ qstr_Infantry_Machine^^Gu|Piyade Makineli^^Tüfek Taktikleri
 qstr_Covering_Fire|Koruma Ateşi
 qstr_Gas_Attacks|Gaz Saldırısı
 qstr_Shock_Troops|Şok Askeri
-qstr_You_do_not_have_enou|Yeterince Paran yok.
+qstr_Country_does_not_hav|Country does not have enough budget to start research.
 qstr_faction_technologies|Ülke teknolojisi mevcut.
 qstr_faction_technologies_|ülke teknolojisi devam etmekte
 qstr_Rifled_Caplock^Muske|^Misket Tüfeği
@@ -212,10 +221,10 @@ qstr_faction_technologies_photo_la|faction technologies photo lateshells
 qstr_faction_technologies_photo_sh|faction technologies photo shocktroops
 qstr_Modern_Defence^Tacti|Modern Defans^Taktikleri
 qstr_faction_technologies_photo_mo|faction technologies photo moderndefence
-qstr___already_invested_| (zaten yatırım yapılmış)
+qstr___already_funded_| (already funded)
 qstr___already_researched| (zaten araştırlmış)
 qstr__Current_progress___| Mevcut İlerleme - {reg2}%.
-qstr_Cost___{reg0}_pounds|Cost - {reg0} pounds{s1}.^ {reg1} Yılından sonra araştırlabilir {s2}
+qstr_Cost___{reg0}_${s1}.|Cost - {reg0} ${s1}.^Available after {reg1} year.{s2}
 qstr_Select_Faction|Ülke Seç
 qstr_Start_Game|Oyuna Başla
 qstr_Chosen_Faction:^{s1}|Seçili Ülke:^{s1}
@@ -262,14 +271,29 @@ qstr_Executive_Branch_Ele|Yöneticiler
 qstr_Selected_by_State|Devlet Tarafından Seçilen
 qstr_Partially_Elected|Kısmen Seçilen
 qstr_Mostly_Elected|Çoğunlukla Seçilen
-qstr_Military_Service_Ter|Askerlik Süresi
-qstr_Short|Kısa
-qstr_Medium|Orta
-qstr_Long|Uzun
-qstr_Production_Safety_Re|Üretim Güvenliği Yönetmelikleri
+qstr_Maximum_Work_Hours|Maximum Work Hours
+qstr_Unlimited|Unlimited
+qstr_12_hours_a_day|12 hours a day
+qstr_10_hours_a_day|10 hours a day
+qstr_8_hours_a_day|8 hours a day
 qstr_Minimum_Wage|Askari Ücret
+qstr_No_Minimum|No Minimum
+qstr_Low_Minimum|Low Minimum
+qstr_Acceptable_Minimum|Acceptable Minimum
+qstr_Good_Minimum|Good Minimum
 qstr_Trade_Unions|Sendikalar
+qstr_Banned|Banned
+qstr_Allowed|Allowed
 qstr_Public_Meetings|Halka Açık Toplantılar
+qstr_Authorized_only|Authorized only
+qstr_Child_labour|Child labour
+qstr_Restrictions|Restrictions
+qstr_Outlawed|Outlawed
+qstr_Political_movements|Political movements
+qstr_Liberal_movement|Liberal movement
+qstr_Socialist_movement|Socialist movement
+qstr_Peace_movement|Peace movement
+qstr_You_cannot_change_ru|You cannot change ruling party ({reg1} days cooldown).
 qstr_Income_tax:_{reg10}%|Gelir Vergisi: {reg10}%
 qstr_Goods_and_Services_t|Ürün ve Servis Vergisi: {reg10}%
 qstr_Import/Export_tax:_{|İhracat/İthalat Vergisi: {reg11}%/{reg12}%
@@ -291,7 +315,6 @@ qstr_Literacy_is_{reg1}.{|Okuma Yazma Oranı {reg1}.{reg2}%
 qstr_Urbanization_is_{reg|Kentselleşme {reg1}.{reg2}%
 qstr_Daily_GDP_is_{reg1}_|Günlük GDP {reg1} pound.
 qstr_{reg1}_craftsmen_{re|{reg1} zanaatkar,ve {reg2} bukadarı^çalışıyor, ve {reg3} el^sanatları üretiminde meşgul.
-.
 qstr_Region_of_{s1}| {s1}'Böglesi
 qstr_Resource_Menu|Kaynak Menüsü
 qstr_X_thousands_of_popul|X Binlerce Popülasyon
@@ -301,7 +324,7 @@ qstr__+| +
 qstr_Balance_change:{s1}{|Bakiye Değişimi:{s1}{reg10} pounds.
 qstr_BUY|AL
 qstr_SELL|SAT
-qstr_Balance_change:_+0_p|Bakiye Değişimi: +0 pounds.
+qstr_Balance_change:_+0_$|Balance change: +0 $.
 qstr_Manage_share__Now_is|hisselerini yönet (Şuan {reg10})%.
 qstr_Not_enough_money.|Yeterince Para yok.
 qstr_Price_history_chart:|Fiyat Çizergesi:
@@ -324,6 +347,18 @@ qstr_{s3}|{s3}
 qstr_{s2}|{s2}
 qstr_Same_type_of_factory|Aynı tip fabrika zaten bu şehirde var.
 qstr_Initial_Capital:_{re|Sermaye: {reg10} pound.
+qstr_Army_of_{s1}|Army of {s1}
+qstr_Army_size:_{reg1}%|Army size: {reg1}%
+qstr__{reg2}.{reg3}%_to_q|-{reg2}.{reg3}% to quality of life
+qstr_Divisions|Divisions
+qstr_{reg1}_soldiers|{reg1} soldiers
+qstr_Garrisons|Garrisons
+qstr_soldiers_total|soldiers total
+qstr_Equipped_with_milita|Equipped with military supplies by
+qstr_{reg1}%|{reg1}%
+qstr_Supplied_with_ammuni|Supplied with ammunition by
+qstr_Equipped_with_weapon|Equipped with weapons by
+qstr_Combat_efficiency_of|Combat efficiency of army is
 qstr_vSeason|vSeason
 qstr_{s1}_of_{s3}_was_def|{s3} {s1}ı yenildi, ama kaçmayı başardı.
 qstr_{s54}_is_a_claimant_|{s54}, {s56} tahtında hak talep ediyor.
@@ -355,9 +390,14 @@ qstr_Rifled_musket|Rifled musket
 qstr_Converted_breech_load|Çevrilmiş arkadan yüklemeli tüfek
 qstr_Modern_breech_loaded|Modern arkadan yüklemeli tüfek
 qstr_Smoothbore_pistol|Smoothbore tabanca
+qstr_Revolver__7_rounds_|Revolver (7 rounds)
+qstr_Revolver__8_rounds_|Revolver (8 rounds)
 qstr_Revolver__6_rounds_|altı patlar (6 mermi)
 qstr_Pocket_Revolver__6_r|cep altı patları(6 mermi)
 qstr_Self_Loading_Pistol_|Kendinden Yüklemeli Tabanca (8 mermi)
+qstr_Self_Loading_Pistol__|Self-Loading Pistol (6 rounds)
+qstr_Self_Loading_Pistol__1|Self-Loading Pistol (10 rounds)
+qstr_Self_Loading_Pistol__8|Self-Loading Pistol (8 rounds)
 qstr_Revolver__9_rounds_|Dokuz Patlar (9 mermi)
 qstr_Pump_shotgun__6_roun|Pompalı tüfek (6 mermi)
 qstr_Shotgun__2_rounds_|Pompalı tüfek (2 mermi)
@@ -434,7 +474,7 @@ qstr_{s2}_{reg3?was:is}_b|{s2} {s3} zindanında {reg3?hapsedilmişti:tutuluyor}.
 qstr_{s2}_{reg3?was:has_b|{s2} düşmanları tarafından esir {reg3?alınmıştı:tutuluyor}. 
 qstr_{reg3?{s2}_s_locatio|{reg3?{s2} nerede bilinmiyordu:{s2} nerede bilmiyorum}.
 qstr_{s6}_has_joined_your|{s6} grubuna katıldı
-qstr_You_now_owe_{reg2}_p|You now owe {reg2} pounds to {s1}.
+qstr_You_now_owe_{reg2}_$|You now owe {reg2} $ to {s1}.
 qstr_Renown_value_for_thi|Bu savaşın nam değeri {reg8}.
 qstr_You_have_run_into_a_|Bir tuzağa düştün!
 qstr_You_are_attacked_by_|Bir grup haydut tarafından saldırıya uğradın!
@@ -479,7 +519,6 @@ qstr_Messenger_Post|Ulak Karakolu
 qstr_A_messenger_post_let|Ulak karakolu, yakında düşman olduğu zamanlarda çok uzakta olsan da köylülerin sana mesaj yollamasına olanak tanır.
 qstr_Prison_Tower|Kule Hapishanesi
 qstr_A_prison_tower_reduc|Kule Hapishanesi burada tutulan mahkumların başarıyla kaçma şansını düşürür.
-qstr_Prosperity_of_{s2}_h|{s2}nde refah seviyesi {s3} durumdan {s4} durumuna geçti.
 qstr_{s4}_looks_upset.|{s4} sinirli görünüyor.
 qstr_your_party|grubun
 qstr_{reg0?One_of_your_pr|{reg0?Senin mahkumun olan, :}{s3}ndan {s1} tutsaklıktan kaçtı!
@@ -493,8 +532,6 @@ qstr_No_center_found_to_d|Savunulacak toprak yok
 qstr_You_gain_right_to_ru|Yönetme hakkı kazandın
 qstr_You_lose_right_to_ru|Yönetme hakkını kaybettin
 qstr_Added_money_for_your|Added money for your old horse
-qstr_debug_game_missile_l|debug game missile launch begin
-qstr_debug_game_missile_la|debug game missile launch end
 qstr_Line_Infantry_Compan|Hafif Piyade Bölüğü
 qstr_Light_Infantry_Compa|Hafif Piyade Bölüğü
 qstr_Guard_Infantry_Compa|Muhafız Piyade Bölüğü
@@ -520,6 +557,7 @@ qstr_M.G.|M.G.
 qstr_S.I.|S.I.
 qstr_A.|A.
 qstr_Cannot_form_square:_t|Kare Formasyonuna geçilemiyor:Yetersiz Asker (En Az 25 Gerekli).
+qstr_{reg0}|{reg0}
 qstr_1_{reg1}|1 {reg1}
 qstr_flag1_0|flag1 0
 qstr_{s31}_created_a_casu|{s31} {s32} için {reg10} günlük casus belli oluşturdu.
@@ -529,42 +567,48 @@ qstr_Belongs_to_{s31}|Belongs to {s31}
 qstr_Controlled_by_{s31}^|{s31}^Tarafından Kontrol Ediliyor {s32}'un
 qstr_{s31}_becomes_an_all|{s31} ile {s32} müttefik oldu.
 qstr_{s31}_breaks_an_alli|{s31} ile {s32} müttefikliğini bozdu.
-qstr_Absolute_Monarchy|Mutlak monarşi
-qstr_Constitutional_Monar|Constitutional Monarchy
-qstr_Republic|Cumhuriyet
+qstr_As_a_result_of_the_e|As a result of the elections, {s1} became the ruling party.
 qstr_Parliament_Compositi|Meşruyet
 qstr_{s1}:_{reg1}%|{s1}: {reg1}%
+qstr_Not_a_ruling_party|Not a ruling party
 qstr_Ruling_party|Yönetici Parti
 qstr_Influence:_{reg1}%|Nüfuz: {reg1}%
 qstr_Annual_Income:_{reg1|Yıllık gelir: {reg1}.{reg10} p.
+qstr_Quality_of_life:_{re|Quality of life: {reg2}.{reg10}%
+qstr_Current_budget:|Current budget:
+qstr_{reg10}_$|{reg10} $
 qstr_Corruption_level:_{r|Yolsuzluk seviyesi: {reg10}%
-qstr_+{reg10}_pounds|+{reg10} pounds
+qstr_+{reg10}_$|+{reg10} $
 qstr_Goods_and_services_t|Mal Ve Servis Vergisi : {reg10}%
-qstr__{reg10}_pounds|-{reg10} pound
+qstr__{reg10}_$|-{reg10} $
 qstr_Public_servants_wage|Kamu görevlilerinin ücret giderleri:^-{reg10} pound
+qstr_Other_expenses:^_{re|Other expenses:^-{reg10} $
 qstr_Lost_from_corruption|Yolsuzluk yüzünden kaybedilen : -{reg10} pound
 qstr_Last_budget_change:^|En Son Bütçe Değişikliği :^{reg10} pound
+qstr_{reg1}.{reg2}%|{reg1}.{reg2}%
+qstr____| - 
 qstr_PPS_Faction_iteratio|PPS Faction iteration of {s1}.
 qstr_Center_iteration_of_|Center iteration of {s1}.
 qstr_{s1}_s_{s2}_Iteratio|{s1}'s {s2} Iteration:
 qstr_price_item_{s1}_raw_|öğenin fiyatı {s1} raw resource1 {reg10} raw resource1 amount {reg11} output size {reg12}.
 qstr_Produced_{reg10}_wit| {reg20}İşçiyle {reg10} üretildi ham kaynak çarpanı {reg30}'du.
-qstr_Spent_{reg10}_pounds| {reg10} pound Maaş için harcandı.
+qstr_Spent_{reg10}_$_for_|Spent {reg10} $ for wage.
 qstr_Searching_for_{s1}_i|Searching for {s1} in {reg10} centers.
 qstr_{s1}_has_{reg10}_of_|{s1} var {reg10} nin {s2}.
 qstr_In_sum_bought_{reg1}|özetle satın alındı {reg1}/{reg10} nin {s1}.
 qstr_Workers_unemployed__|İşsiz İşçi - {reg1}, çalışan {reg2} işçi.
 qstr_{reg1}_thousands_of_|{reg1} binlerce popüasyon
-qstr_Daily_GDP_is_{reg1}_p|Günlük GDP {reg1} pound^({reg2}% nin {s1}'nun ekonomisi).
+qstr_Daily_GDP_is_{reg1}_$|Daily GDP is {reg1} $^({reg2}% of {s1}'s economy).
 qstr_This_region_produces|Bu bölge yükseltilmiş miktarda {s2} üretir.
 qstr_Add_Workplaces^^Buyi|Çalışma alanı ekle^^Daha fazla ekipman almak ^çalışma alanları sayısını yükseltir.
 qstr_Improve_Worker_Condi|İşçi durumunu iyileştir^^İşçi durumunu iyileştirmek maaşı artırmak demektir^üretim güvenliğini artırır ve ^ işçilere sosyal avantaj sağlar^Bu Ürünün Kalitesini Artırır^ve potensiyal işçiler için ve fabrika çekiciliğini artırır.
 qstr_Improve_Equipment^^T|Ekipmanı Geliştir^^Fabrikanın kapsamlı bakımı ve iyileştirilmesi^ekipman, ürünün kalitesini artırır sonuç olarak^satılma olasılığı artar.
 qstr_No_development_mode.|No development mode.
+qstr_Workers_of_this_fact|Workers of this factory are on strike,^which means that its production output^is decreased by 95%.^^Strike is going to end in {reg10} days.
 qstr_{reg10}/{reg11}_work|{reg10}/{reg11} işçi.
-qstr_Budget:_{reg10}_poun|Bütçe: {reg10} pound.
-qstr_Income:_{reg10}_poun|Gelir: {reg10} pound.
-qstr_Spent_{reg10}_pounds_|Harcanan {reg10} pound ve {reg11} pound kazandı.
+qstr_Budget:_{reg10}_$.|Budget: {reg10} $.
+qstr_Income:_{reg10}_$.|Income: {reg10} $.
+qstr_Spent_{reg10}_$_and_|Spent {reg10} $ and earnt {reg11} $.
 qstr_Managed_to_buy_{reg1| Üretim için gerekli Materyallerin yüzde {reg10}% alındı^needed for production.
 qstr_Produced_{reg10}.{re|Üretildi {reg10}.{reg12} {s1} (sold {reg11}%).
 qstr_Quality_of_product_i|Ürünün Kalitesi {reg10}%.
@@ -647,11 +691,9 @@ qstr_Supply___{reg11}.{re|Arz - {reg11}.{reg12} {s1}
 qstr_Demand___{reg11}.{re|Talep - {reg11}.{reg12} {s1}
 qstr_{reg10}._{s1}|{reg10}. {s1}
 qstr_{reg10}.{reg11}|{reg10}.{reg11}
-qstr____| - 
 qstr_{reg10}%|{reg10}%
 qstr_handicraft^only|sadece el işi
-qstr_{reg10}k_p.|{reg10}k p.
-qstr_{reg10}_p.|{reg10} p.
+qstr_{reg10}k_$|{reg10}k $
 qstr_{reg10}_mil.|{reg10} mil.
 qstr_{reg10}_th.|{reg10} th.
 qstr_{reg10}.{reg11}%|{reg10}.{reg11}%
@@ -672,97 +714,54 @@ qstr_Chance_to_build_fact|Chance to build factory in {s1} is {reg10}.{reg11}%.
 qstr_Building_factory_in_|{s1}'Da fabrika inşa ediliyor.
 qstr_Price_of_{s1}_has_ch|{s1}'nn {reg10} değişti .
 qstr_Urbanization_of_{s1}|{s1}'nın kentselleşmesi {s2} {reg10} arttı.
-qstr_{reg10}._party_gives|{reg10}.parti{reg11} oy verir
+qstr_{s1}_gives_{reg11}%_|{s1} gives {reg11}% votes.
+qstr_{reg10}%_of_parliame|{reg10}% of parliament voted for bill. Bill rejected.
+qstr_{reg10}%_of_parliamen|{reg10}% of parliament voted for bill. Bill accepted.
 qstr_{s1}_rural_wealth_{r|{s1} kırsal zenginlik {reg10} kentsel zenginlik {reg11} orta sınıf zenginliği {reg12} burjavizi zenginliği {reg13} aristokrasi zenginliği {reg14} toplam maaş {reg15} gdp kırsal {reg16} gdp kentsel {reg17} nüfus kökü {reg18}
 qstr_{s1}_cannot_launch_g|{s1} Bomba Saldırısı Yapamaz - {reg1} saniye bekleme süresi.
 qstr_{s1}_cannot_launch_ga|{s1} Gaz Saldırısı Yapamaz - {reg1} saniye bekleme süresi.
 qstr_You_became_a_high_co|Yüksek komuta subayı oldun,yani hizmet sırasında bağımsız hareket etmekte özgürsün.
 qstr_You_became_a_non_com|Astsubay oldunuz, yani artık savaşta birliklere komuta edeceksiniz.
 qstr_You_became_a_marshal|{s10} mareşali oldunuz, yani sefer başlatabilir ve yönetebilirsiniz.
-qstr_debug_bms_begin|debug bms begin
-qstr_debug_bms_end|debug bms end
-qstr_debug_siege_win_batt|debug siege win battle begin
-qstr_debug_siege_win_battl|debug siege win battle end
-qstr_debug_siege_win_battle|debug siege win battle 2 begin
-qstr_debug_siege_win_battle_|debug siege win battle 2 end
-qstr_debug_order_move_for|debug order move forwards backwards begin
-qstr_debug_order_move_forw|debug order move forwards backwards end
-qstr_debug_order_follow_m|debug order follow me begin
-qstr_debug_order_follow_me|debug order follow me end
-qstr_debug_order_follow_me_|debug order follow me 1000ms begin
-qstr_debug_order_follow_me_1|debug order follow me 1000ms end
-qstr_debug_pas_points_beg|debug pas points begin
-qstr_debug_pas_points_end|debug pas points end
-qstr_debug_gas_100ms_begi|debug gas 100ms begin
-qstr_debug_gas_100ms_end|debug gas 100ms end
-qstr_debug_grenades_100ms|debug grenades 100ms begin
-qstr_debug_grenades_100ms_|debug grenades 100ms end
-qstr_debug_lmg_runtime_be|debug lmg runtime begin
-qstr_debug_lmg_runtime_en|debug lmg runtime end
-qstr_debug_musket_ramrod_|debug musket ramrod animation 100ms begin
-qstr_debug_musket_ramrod_a|debug musket ramrod animation 100ms end
-qstr_debug_musket_ramrod_an|debug musket ramrod animation runtime begin
-qstr_debug_musket_ramrod_ani|debug musket ramrod animation runtime end
-qstr_debug_smoke_animated|debug smoke animated 200ms begin
-qstr_debug_smoke_animated_|debug smoke animated 200ms end
-qstr_debug_pss_init_begin|debug pss init begin
-qstr_debug_pss_init_end|debug pss init end
-qstr_debug_pss_100ms_begi|debug pss 100ms begin
-qstr_debug_pss_100ms_end|debug pss 100ms end
-qstr_debug_player_hp_rege|debug player hp regen hit begin
-qstr_debug_player_hp_regen|debug player hp regen hit end
-qstr_debug_player_hp_regen_|debug player hp regen 100ms begin
-qstr_debug_player_hp_regen_1|debug player hp regen 100ms end
-qstr_debug_iron_sight_run|debug iron sight runtime begin
-qstr_debug_iron_sight_runt|debug iron sight runtime end
-qstr_debug_iron_sight_100|debug iron sight 100ms begin
-qstr_debug_iron_sight_100m|debug iron sight 100ms end
-qstr_debug_mg_1000ms_begi|debug mg 1000ms begin
-qstr_debug_mg_1000ms_end|debug mg 1000ms end
-qstr_debug_mg_runtime_beg|debug mg runtime begin
-qstr_debug_mg_runtime_end|debug mg runtime end
-qstr_debug_digin_1000ms_b|debug digin 1000ms begin
-qstr_debug_digin_1000ms_e|debug digin 1000ms end
-qstr_debug_digin_runtime_|debug digin runtime begin
-qstr_debug_digin_runtime_e|debug digin runtime end
-qstr_debug_vo_on_company_|debug vo on company select begin
-qstr_debug_vo_on_company_s|debug vo on company select end
-qstr_debug_vo_500ms_begin|debug vo 500ms begin
-qstr_debug_pbs_walkrun_or|debug pbs walkrun order begin
+qstr_{s50}_{s51}|{s50} {s51}
+qstr_Your_government_type|Your government type doesn't allow to manage this factory.
+qstr_Unable_to_manage_ene|Unable to manage enemy faction's factory.
+qstr_{s1}:_Peaceful_demon|{s1}: Peaceful demonstration in support of social welfare! Citizens of {s2} gathered on the main square of the city, calling on the government to intervene in the worsening situation of dire working conditions.
+qstr_The_demonstration_en|The demonstration ended without a response from the government.
+qstr_The_police_dispersed|The police dispersed the crowd, but managed to do it without victims.
+qstr___Massacre_in_{s2}!_|''Massacre in {s2}!'' The police started shooting at peaceful protesters, at least {reg10} people were wounded.
+qstr_{s1}:_Workers_in_{s2|{s1}: Workers in {s2} have sabotaged production in {s3} in protest of bad working conditions! Machinery has been damaged severely.
+qstr_{s1}:_Riot_in_{s2}!_|{s1}: Riot in {s2}! {s3} has been damaged after group of workers caused a commotion in protest of bad working conditions.
+qstr_{s1}:_Workers_of_{s2|{s1}: Workers of {s2} have gone on a strike in the {s3}, in protest of poor working conditions and low wages. The strike is set to continue for the following {reg4} days, strike leaders say.
+qstr_{s1}:_Workers_in_{s2}|{s1}: Workers in {s2} have initiated a strike in the {s3} in protest of bad working conditions. The strike will end in {reg4} days.
+qstr_{s1}:_Strike_in_{s2}|{s1}: Strike in {s2}! All labour activity has stopped in {s3} as workers fight against the current working conditions. The strike will continue for {reg4} more days.
+qstr_{s1}_in_{s2}|{s1} in {s2},
+qstr__{s1}_in_{s2}| {s1} in {s2},
+qstr_{s1}:_Worker_unions_|{s1}: Worker unions have called for a general strike! United in protest, workers have joined the picket lines in {s3}{s4}{s5}{s6}{s7}!
+qstr_{s3}_s_police_arrest|{s3}'s police arrests {reg1} political figures supporting {s1}. Alongside the arrests, the government has also announced the banning of the movements newspaper. ^^Effect: {s1}'s influence decreases.
+qstr_{s3}:_Mass_arrests_o|{s3}: Mass arrests of pro-{s1} politicians. Major portions of {s1} supporters are forced into clandestine efforts as open agitation has become dangerous.^^Effect: {s1}'s influence decreases.
+qstr___Arrested!___Famous|''Arrested!'' Famous opposition politicians from {s1} in {s3} have been publicly declared enemy of the state and have been arrested or forced into hiding.^^Effect: {s1}'s influence decreases.
+qstr_{s3}_s_officials_fac|{s3}'s officials face backlash after efforts to undermining the opposition have been discovered. ^^Effect: {s2}'s influence decreases.
+qstr_{s3}:___Outrageous!_|{s3}: ''Outrageous!'' Political observers have discovered vile plans by the {s2}.^^Effect: {s2}'s influence decreases.
+qstr_{s3}:_{s2}_has_lost_|{s3}: {s2} has lost standing in the public eye after a scandal manifests itself within the party ranks.^^Effect: {s2}'s influence decreases.
+qstr_{s3}:_{s2}_has_been_|{s3}: {s2} has been found guilty of attempting to cover up a break-in of the opposition's headquarters in the capital.^^Effect: {s2}'s influence decreases.
+qstr_{s3}:_{s1}_was_fined|{s3}: {s1} was fined ${reg2} over involvement in an illegal financial scheme. ^^Effect: {s1}'s influence decreases.
+qstr___Corruption_scandal|''Corruption scandal in {s3}'': {s1} faced backlash after members were found trying to bribe officials.^^Effect: {s1}'s influence decreases.
+qstr_{s3}:_Famous_politic|{s3}: Famous politician {s4} from {s1} discovered to have been involved in a recent financial scandal, discrediting his party in the eyes of the voters.^^Effect: {s1}'s influence decreases.
+qstr_{s1}_s_government_ha|{s1}'s government has been changed to {s2}.
+qstr_Constitutional_Dual_|Constitutional Dual Monarchy
+qstr_Absolute_Monarchy|Mutlak monarşi
+qstr_Constitutional_Monar|Constitutional Monarchy
+qstr_Republic|Cumhuriyet
+qstr_Soviet_Republic|Soviet Republic
 qstr_{reg0}._Company_has_|{reg0}. Company has switched to walking.
 qstr_{reg0}._Company_has_s|{reg0}. Company has switched to running.
-qstr_debug_pbs_walkrun_ord|debug pbs walkrun order end
-qstr_debug_prone_100ms_be|debug prone 100ms begin
-qstr_debug_prone_100ms_en|debug prone 100ms end
-qstr_debug_pbs_formation_|debug pbs formation order begin
 qstr_{s1}_cannot_change_f|{s1} Formasyon değiştirilemez  - Sadece hafif piyadeler uzun hat formasyonunu uygulayabilir.
 qstr_{s1}_cannot_change_fo|{s1} Formasyon değiştirilemez  - hat oluşumunu uygulamak için Modern Saldırı Taktikleri teknolojisini araştırmanız gerekir.
 qstr_{s1}_cannot_change_for|{s1} Formasyon değiştirilemez - Çarpışma hattı oluşumunu uygulamak için Çarpışma hattı taktikleri teknolojisini araştırmanız gerekiyor.
 qstr_{s1}_cannot_change_form|{s1} Formasyon değiştirilemez  - Uzatılmış hat oluşumunu uygulamak için Uyarlanabilir Antrenman teknolojisini araştırmanız gerekir.
 qstr_{s1}_cannot_change_forma|{s1} Formasyon değiştirilemez  - Çatışma hattı oluşumunu uygulamak için Çatışma Hattı Taktikleri teknolojisini araştırmanız gerekir.
 qstr_{s1}_cannot_change_format|{s1} Formasyon değiştirilemez - Disiplin seviyesi yüzde 30% dan daha az.
-qstr_debug_pbs_formation_o|debug pbs formation order end
-qstr_debug_carbine_melee_|debug carbine melee mode fix begin
-qstr_debug_carbine_melee_m|debug carbine melee mode fix end
-qstr_debug_player_accurac|debug player accuracy modifier begin
-qstr_debug_player_accuracy|debug player accuracy modifier end
-qstr_debug_ammo_refill_be|debug ammo refill begin
-qstr_debug_ammo_refill_en|debug ammo refill end
-qstr_debug_flag_bearer_be|debug flag bearer begin
-qstr_debug_flag_bearer_en|debug flag bearer end
-qstr_debug_pbs_enemy_retr|debug pbs enemy retreating end battle begin
-qstr_debug_pbs_enemy_retre|debug pbs enemy retreating end battle end
-qstr_debug_pbs_enemy_retrea|debug pbs enemy retreating end battle 2 begin
-qstr_debug_pbs_enemy_retreat|debug pbs enemy retreating end battle 2 end
-qstr_debug_pbs_enemy_cann|debug pbs enemy cannoneers retreat begin
-qstr_debug_pbs_enemy_canno|debug pbs enemy cannoneers retreat end
-qstr_debug_ambience_start|debug ambience start begin
-qstr_debug_ambience_start_|debug ambience start end
-qstr_debug_ambience_tree_|debug ambience tree birds begin
-qstr_debug_ambience_tree_b|debug ambience tree birds end
-qstr_debug_ambience_rain_|debug ambience rain 1000ms begin
-qstr_debug_ambience_rain_1|debug ambience rain 1000ms end
-qstr_debug_pws_sky_bms_be|debug pws sky bms begin
 qstr_day|day
 qstr_cloud1|cloud1
 qstr_cloud2|cloud2
@@ -777,58 +776,8 @@ qstr_clouds4|clouds4
 qstr_evening|evening
 qstr_night|night
 qstr_dusk|dusk
-qstr_debug_pws_sky_bms_en|debug pws sky bms end
-qstr_debug_fgs_trees_ams_|debug fgs trees ams begin
 qstr_Hotkeys:_U_to_access|Hotkeys: U to access the aerial view E and Q to rotate camera horizontally Middle mouse button and moving mouse up and down to rotate camera vertically Space and Ctrl to control your height ~ tilde (next to 1) to make selected companies run. You can select companies either by clicking on the units on screen, or by selecting them in the UI in the bottom left Use your right mouse button to place, and orientate your units.
-qstr_debug_fgs_trees_ams_e|debug fgs trees ams end
-qstr_debug_sound_man_deat|debug sound man death begin
-qstr_debug_sound_man_death|debug sound man death end
-qstr_debug_sound_man_hit_|debug sound man hit begin
-qstr_debug_sound_man_hit_e|debug sound man hit end
-qstr_debug_spawn_of_first|debug spawn of first agent begin
-qstr_debug_spawn_of_first_|debug spawn of first agent end
-qstr_debug_battle_start_b|debug battle start begin
-qstr_debug_battle_start_e|debug battle start end
-qstr_debug_aerial_view_ru|debug aerial view runtime begin
-qstr_debug_aerial_view_run|debug aerial view runtime end
-qstr_debug_aerial_view_to|debug aerial view toggle begin
-qstr_debug_aerial_view_tog|debug aerial view toggle end
-qstr_debug_aerial_view_togg|debug aerial view toggle 2 begin
-qstr_debug_aerial_view_toggl|debug aerial view toggle 2 end
-qstr_debug_pbs_order_play|debug pbs order player begin
-qstr_debug_pbs_order_playe|debug pbs order player end
-qstr_debug_pbs_order_player|debug pbs order player f1 begin
-qstr_debug_pbs_order_player_|debug pbs order player f1 end
-qstr_debug_pbs_agent_spaw|debug pbs agent spawn begin
-qstr_debug_pbs_agent_spawn|debug pbs agent spawn end
-qstr_debug_pbs_teleport_t|debug pbs teleport to scripted destination begin
-qstr_debug_pbs_teleport_to|debug pbs teleport to scripted destination end
-qstr_debug_pbs_cancel_run|debug pbs cancel running away begin
-qstr_debug_pbs_cancel_runn|debug pbs cancel running away end
-qstr_debug_bot_crouching_|debug bot crouching begin
-qstr_debug_bot_crouching_e|debug bot crouching end
-qstr_debug_bot_animation_|debug bot animation begin
-qstr_debug_bot_animation_e|debug bot animation end
-qstr_debug_pbs_run_toggle|debug pbs run toggle begin
-qstr_debug_pbs_run_toggle_|debug pbs run toggle end
-qstr_debug_pbs_company_en|debug pbs company energy begin
-qstr_debug_pbs_company_ene|debug pbs company energy end
-qstr_debug_pbs_company_st|debug pbs company state begin
-qstr_debug_pbs_company_sta|debug pbs company state end
-qstr_debug_pbs_agents_mod|debug pbs agents modifiers begin
-qstr_debug_pbs_agents_modi|debug pbs agents modifiers end
-qstr_debug_pbs_company_pe|debug pbs company penaltytodiscipline fromcloseenemy begin
-qstr_debug_pbs_company_pen|debug pbs company penaltytodiscipline fromcloseenemy end
-qstr_debug_pbs_company_di|debug pbs company discipline begin
-qstr_debug_pbs_company_dis|debug pbs company discipline end
-qstr_debug_pbs_reload_can|debug pbs reload cancellation begin
-qstr_debug_pbs_reload_canc|debug pbs reload cancellation end
-qstr_debug_pbs_company_re|debug pbs company retreat begin
 qstr_{reg0}._Company_was_|{reg0}. Company was forced to retreat.
-qstr_debug_pbs_company_ret|debug pbs company retreat end
-qstr_debug_timer_1000ms_b|debug timer 1000ms begin
-qstr_debug_timer_1000ms_e|debug timer 1000ms end
-qstr_debug_player_spawn_b|debug player spawn begin
 qstr_1st_{s1}|1st {s1}
 qstr_2nd_{s1}|2nd {s1}
 qstr_3rd_{s1}|3rd {s1}
@@ -837,51 +786,8 @@ qstr_5th_{s1}|5th {s1}
 qstr_6th_{s1}|6th {s1}
 qstr_7th_{s1}|7th {s1}
 qstr_8th_{s1}|8th {s1}
-qstr_debug_player_spawn_e|debug player spawn end
-qstr_debug_pbs_melee_begi|debug pbs melee begin
-qstr_debug_pbs_melee_end|debug pbs melee end
-qstr_debug_battle_start_2|debug battle start 2 begin
-qstr_debug_battle_start_2_|debug battle start 2 end
-qstr_debug_voice_1000ms_b|debug voice 1000ms begin
-qstr_debug_voice_1000ms_e|debug voice 1000ms end
-qstr_debug_voice_200ms_be|debug voice 200ms begin
-qstr_debug_voice_200ms_en|debug voice 200ms end
-qstr_debug_pbs_restore_sc|debug pbs restore scripted destination begin
-qstr_debug_pbs_restore_scr|debug pbs restore scripted destination end
-qstr_debug_pts_weapon_cha|debug pts weapon change begin
-qstr_debug_pts_weapon_chan|debug pts weapon change end
-qstr_debug_cannon_33ms_be|debug cannon 33ms begin
-qstr_debug_cannon_33ms_en|debug cannon 33ms end
-qstr_debug_cannon_10ms_be|debug cannon 10ms begin
-qstr_debug_cannon_10ms_en|debug cannon 10ms end
 qstr_debug_YuriCannonOrde|debug YuriCannonOrder Begin
 qstr_debug_YuriCannonOrder|debug YuriCannonOrder End
-qstr_debug_YuriCannonSpaw|debug YuriCannonSpawn begin
-qstr_debug_YuriCannonSpawn|debug YuriCannonSpawn end
-qstr_debug_lemat_canister|debug lemat canister shot begin
-qstr_debug_lemat_canister_|debug lemat canister shot end
-qstr_debug_pts_surviving_|debug pts surviving bonus begin
-qstr_debug_pts_surviving_b|debug pts surviving bonus end
-qstr_debug_rifle_damage_m|debug rifle damage model begin
-qstr_debug_rifle_damage_mo|debug rifle damage model end
-qstr_debug_pai_bandits_sp|debug pai bandits spawn begin
-qstr_debug_pai_bandits_spa|debug pai bandits spawn end
-qstr_debug_pai_fieldbattl|debug pai fieldbattle spawn begin
-qstr_debug_pai_fieldbattle|debug pai fieldbattle spawn end
-qstr_debug_pbs_company_pena|debug pbs company penaltytodiscipline fromcasualties begin
-qstr_debug_pbs_company_penal|debug pbs company penaltytodiscipline fromcasualties end
-qstr_debug_pbs_company_penalt|debug pbs company penaltytodiscipline fromcasualties 1000ms begin
-qstr_debug_pbs_company_penalty|debug pbs company penaltytodiscipline fromcasualties 1000ms end
-qstr_debug_player_fanning|debug player fanning first shot begin
-qstr_debug_player_fanning_|debug player fanning first shot end
-qstr_debug_player_fanning_f|debug player fanning first shot 2 begin
-qstr_debug_player_fanning_fi|debug player fanning first shot 2 end
-qstr_debug_player_fanning_9|debug player fanning 90ms begin
-qstr_debug_player_fanning_90|debug player fanning 90ms end
-qstr_debug_pai_start_begi|debug pai start begin
-qstr_debug_pai_start_end|debug pai start end
-qstr_debug_pai_1000ms_beg|debug pai 1000ms begin
-qstr_debug_pai_1000ms_end|debug pai 1000ms end
 qstr_You_got_keys_of_dung|Zindanın anahtarlarını aldın.
 qstr_You_must_stay_behind|Yerdeki çizginin ardında durmalısın! Puan sayılmadı.
 qstr_Tutorial|Eğitim
@@ -984,9 +890,9 @@ qstr_{s9}_wants_you_to_fo|{s9} ordusunu sonraki emre kadar takip etmeni istiyor.
 qstr_The_local_road_netwo|The local road network connects {s2} to the cities of {s60}, {s61} and {s62}. This region has access to the sea.
 qstr_The_local_road_networ|The local road network connects {s2} to the cities of {s60}, {s61} and {s62}.
 qstr_{s8}_of_{s9}|{s9}ndan {s8}
-qstr__Your_own_banner_fli| Sancağın kale girişinde dalgalanıyor.
+qstr__Your_nation_flag_fl| Your nation flag flies over the fort gate.
 qstr__You_see_the_banner_| Kale kapısının üzerinde {s7}{.nin} sancağının dalgalandığını farkediyorsun.
-qstr__Your_own_banner_flie| Sancağın şehir girişinde dalgalanıyor.
+qstr__Your_own_banner_fli| Sancağın kale girişinde dalgalanıyor.
 qstr__You_see_the_banner_o| Şehir kapılarının üzerinde {s7}{.nin} sancağının dalgalandığını farkediyorsun.
 qstr_Cannot_besiege:_too_|Cannot besiege: too far from any center of your faction (closest centers to this {reg6?town:castle} are {s60}, {s61} and {s62}) and can't be besieged from the sea.
 qstr_The_{reg6?town_s:cas|{reg6?Kentin:Kalenin} yiyecek stokları {reg3} gün daha dayanabilir.
@@ -1028,9 +934,10 @@ qstr_Luckily_some_passing|Neyse ki yoldan geçen bazı kasabalılar seni yolun k
 qstr_You_fail_to_steal_an|Hiç bir sığırı kaçırmayı başaramadınız.
 qstr_You_drive_away_{reg1|Köyün sürüsünden {reg17} baş sığır kaçırıyorsunuz.
 qstr_You_are_at_{s2}.|{s2}{.e} geldin.
+qstr__You_see_the_flag_of| You see the flag of {s7} over the town gates.
 qstr__This_castle_has_no_| Bu kalede garnizon yok.
 qstr__Your_own_flag_flies| Your own flag flies over the town gates.
-qstr__You_see_the_flag_of| You see the flag of {s7} over the town gates.
+qstr__You_see_the_flag_of_| You see the flag of {s7} over the town gates.
 qstr__This_town_has_no_ga| Bu şehirde garnizon yok.
 qstr__You_have_successful| Başarıyla içeri sızdın.
 qstr_{s13}_A_tournament_w|{s13} Yakında burada bir turnuva yapılacak.
@@ -1061,7 +968,10 @@ qstr_Find_and_speak_with_|{s4}ndan {s3} ile konuşup ona bağlılık yeminini su
 qstr_There_has_been_an_al|Bir hudud hadisesi oldu: {s9}
 qstr_^^Note_that_so_long_|^^Mareşal olarak kaldığın sürece, ülkenin lordları senin seferde onlara öncülük etmeni bekleyeceklerdir. Yani eğer bir şölenin başlamasını evlilik veya başka bir nedenle beklersen, öncelikle hükümdarınla konuşup mareşalliğini başkasına devretmek isteyebilirsin.
 qstr_Temperature:_+{reg0}|Temperature: +{reg0} C ^Pressure: {reg1} hPa ^Humidity: {reg2}% ^Wind: {reg3} km/h ^Cloudiness: {reg4}% ^Precipitation: {reg5}%
+qstr_Romanian_Principalit|Romanian Principalities
 qstr_Kingdom_of_Wurttembe|Kingdom of Wurttemberg
+qstr_Principality_of_Serb|Principality of Serbia
+qstr_Kingdom_of_Bavaria|Kingdom of Bavaria
 qstr_Kingdom_of_Hannover|Kingdom of Hannover
 qstr_French_Empire|French Empire
 qstr_Austrian_Empire|Austrian Empire
@@ -1072,7 +982,10 @@ qstr_French_Republic|French Republic
 qstr_Austria_Hungary|Austria-Hungary
 qstr_Kingdom_of_Italy|Kingdom of Italy
 qstr_German_Empire|German Empire
+qstr_Kingdom_of_Romania|Kingdom of Romania
+qstr_Kingdom_of_Serbia|Kingdom of Serbia
 qstr_Kingdom_of_Bulgaria|Kingdom of Bulgaria
+qstr_Kingdom_of_Norway|Kingdom of Norway
 qstr_Principality_of_Alba|Principality of Albania
 qstr_You_have_bought_a_fi|You have bought a field gun.
 qstr_You_have_exceeded_pa|You have exceeded party size limit.
@@ -1082,6 +995,12 @@ qstr_You_have_bought_a_ho|You have bought a howizer.
 qstr_You_have_bought_a_he|You have bought a heavy howizer.
 qstr_You_have_bought_a_ma|You have bought a machine gun.
 qstr_Not_available_for_th|Not available for this faction.
+qstr_Declare_war_on_Serbi|Declare war on Serbia.
+qstr_Join_league.|Join league.
+qstr_Join_Serbia_and_Gree|Join Serbia and Greece and declare war on Bulgaria.
+qstr_Days_after_peaceful_|Days after peaceful protests began, backlashes from many organizations, still not yet bore a fruit. The government decided to ignore the demands from the protesters. The government has only given them pain instead of listening them for fair investigations, leading to more and more widespread protests across the country. And now, the government has two decision, whether to comply or just simply, refuse.^^Effects: Socialist movement popularity increased by 10%.
+qstr_After_hearing_about_|After hearing about the protests, being a nuisance for the government, the government decided to dispatch some policemen to disperse the crowd of protesters by non-lethal means. They tried to disperse the crowd with whips and baton and it resulted in a success. Some of the protesters thrown rocks and debris to the officers but all of them have been arrested in the following afternoon. The last of the protesters finally dispersed after some of the demonstration leaders escaped the scene.^^Effects: Socialist movement popularity increased by 5%. Socialist movement radicalism increased by 3%.
+qstr_At_noon_when_the_dem|At noon, when the demonstration leader was making a speech about their demands infront of the crowd of protesters, troops and policemen entered the scene to disperse the crowd. Unfortunately, the government ordered the dispersion with a violent way. Then, soldiers opened fire on the protesters, killing and wounding many people. Others, tried to flee from the scene, ran either wounded or dying. Few managed to hide from the law enforcement and the dispersion is successful. The government quickly received backlashes from peace organizations, socialists and even foreign countries alike, thus souring foreign relations. ^^ Socialist movement radicalism increased by 10%.
 qstr_Breaking_camp...|Kamp toplanıyor...
 qstr_The_{s31}_gets_1_inf|The {s31} gets 1 infamy because of the prolonged war with {s32}.
 qstr_Party_has_nothing_to|Grubunun yiyecek hiçbir şeyi yok!
@@ -1106,6 +1025,59 @@ qstr_The_{s1}_has_finishe|The {s1} has finished researching technology '{s2}'.
 qstr_The_year_is_{reg0}.|The year is {reg0}.
 qstr_North_German_Confede|North German Confederation
 qstr_Finished_improving_r|Finished improving relations with {s31}.
+qstr_Interrupted_improvin|Interrupted improving relations with {s31}.
+qstr_Albanian_Howitzer_Cr|Albanian Howitzer Crew Officer
+qstr_Albanian_Howitzer_Cre|Albanian Howitzer Crew Officers
+qstr_Albanian_Heavy_Howit|Albanian Heavy Howitzer Crew Officer
+qstr_Albanian_Heavy_Howitz|Albanian Heavy Howitzer Crew Officers
+qstr_Albanian_Field_Gun_C|Albanian Field Gun Crew Officer
+qstr_Albanian_Field_Gun_Cr|Albanian Field Gun Crew Officers
+qstr_Albanian_Howitzer_Crew|Albanian Howitzer Crew Cannoneer
+qstr_Albanian_Howitzer_Crew_|Albanian Howitzer Crew Cannoneers
+qstr_Albanian_Field_Gun_Cre|Albanian Field Gun Crew Cannoneer
+qstr_Albanian_Field_Gun_Crew|Albanian Field Gun Crew Cannoneers
+qstr_Albanian_MG_Operator|Albanian MG Operator
+qstr_Norwegian_Howitzer_C|Norwegian Howitzer Crew Officer
+qstr_Norwegian_Howitzer_Cr|Norwegian Howitzer Crew Officers
+qstr_Norwegian_Heavy_Howi|Norwegian Heavy Howitzer Crew Officer
+qstr_Norwegian_Heavy_Howit|Norwegian Heavy Howitzer Crew Officers
+qstr_Norwegian_Field_Gun_|Norwegian Field Gun Crew Officer
+qstr_Norwegian_Field_Gun_C|Norwegian Field Gun Crew Officers
+qstr_Norwegian_Howitzer_Cre|Norwegian Howitzer Crew Cannoneer
+qstr_Norwegian_Howitzer_Crew|Norwegian Howitzer Crew Cannoneers
+qstr_Norwegian_Field_Gun_Cr|Norwegian Field Gun Crew Cannoneer
+qstr_Norwegian_Field_Gun_Cre|Norwegian Field Gun Crew Cannoneers
+qstr_Norwegian_MG_Operato|Norwegian MG Operator
+qstr_Bulgarian_Howitzer_C|Bulgarian Howitzer Crew Officer
+qstr_Bulgarian_Howitzer_Cr|Bulgarian Howitzer Crew Officers
+qstr_Bulgarian_Heavy_Howi|Bulgarian Heavy Howitzer Crew Officer
+qstr_Bulgarian_Heavy_Howit|Bulgarian Heavy Howitzer Crew Officers
+qstr_Bulgarian_Field_Gun_|Bulgarian Field Gun Crew Officer
+qstr_Bulgarian_Field_Gun_C|Bulgarian Field Gun Crew Officers
+qstr_Bulgarian_Howitzer_Cre|Bulgarian Howitzer Crew Cannoneer
+qstr_Bulgarian_Howitzer_Crew|Bulgarian Howitzer Crew Cannoneers
+qstr_Bulgarian_Field_Gun_Cr|Bulgarian Field Gun Crew Cannoneer
+qstr_Bulgarian_Field_Gun_Cre|Bulgarian Field Gun Crew Cannoneers
+qstr_Bulgarian_MG_Operato|Bulgarian MG Operator
+qstr_President_Raymond_Po|President Raymond Poincare
+qstr_Tsar_Nicholas_II|Tsar Nicholas II
+qstr_Kaiser_Franz_Joseph_|Kaiser Franz Joseph I
+qstr_King_Victor_Emmanuel|King Victor Emmanuel III
+qstr_Kaiser_Wilhelm_II|Kaiser Wilhelm II
+qstr_Sultan_Mehmed_V|Sultan Mehmed V
+qstr_King_Edward_VII|King Edward VII
+qstr_Queen_Wilhelmina|Queen Wilhelmina
+qstr_President_Armand_Fal|President Armand Fallières
+qstr_Sultan_Abdulhamid_II|Sultan Abdulhamid II
+qstr_President_Sadi_Carno|President Sadi Carnot
+qstr_Tsar_Alexander_III|Tsar Alexander III
+qstr_King_Umberto_I|King Umberto I
+qstr_Queen_Victoria|Queen Victoria
+qstr_President_Patrice_de|President Patrice de MacMahon
+qstr_Kaiser_Wilhelm_I|Kaiser Wilhelm I
+qstr_King_Wilhelm_III|King Wilhelm III
+qstr_Your_country_is_bank|Your country is bankrupt!
+qstr_Government_type_was_|Government type was changed to Republic.
 qstr_{reg65?my_Lady:my_Lo|{reg65?hanımım:lordum}
 qstr_{reg65?My_Lady:My_Lo|{reg65?Hanımım:Lordum}
 qstr_{reg65?madame:sir}|{reg65?hanımefendi:efendim}
@@ -1136,6 +1108,14 @@ qstr_You_have_my_blessing|You have my blessings, go ahead.
 qstr_Let_s_not_act_rashly|Let's not act rashly. We have all the time we need, let's wait.
 qstr_Hold_it_then_we_can_|Hold it, then, we can't get ourselves condemned by a dozen nations at once!
 qstr_This_will_be_unneces|This will be unnecessary bloodshed through and through. Hold off on it.
+qstr_With_our_state_contr|With our state-controlled press, we can surely achieve a good result.
+qstr_Because_of_free_pres|Because of free press laws in our country, campaign will not be much effective.
+qstr_With_our_censorship_|With our censorship, we will be able to significantly reduce influence of our political opponents and get quite good results.
+qstr_I_want_to_start_repr|I want to start repressions against our political opponents.
+qstr_We_need_to_decrease_|We need to decrease influence of our opponents in the political arena.
+qstr_Most_certainly._Arre|Most certainly. Arrests of influential figures of the political opposition will undermine their positions in the political arena and strengthen ours. Investigation will take 10 days and {reg1} pounds per day.
+qstr_Most_certainly._Few_|Most certainly. Few revelatory articles condemning our opponents in illegal actions, aiding enemy and treason will dishonor them before the eyes of our people, and strengthen our position. The whole process will take 10 days and {reg1} pounds per day.
+qstr_However_in_case_of_f|However, in case of failure, our opponents can condemn us as answer to our actions.
 qstr_{playername}_when_we|{playername}, uzun yürüyüşümüze başladığımızda pek az kişinin beni destekleyecek cesareti vardı. Ve çok daha azı davam için hayatlarını riske atmaya istekliydi. Ama sen, kendini düşmanlarımın önüne atmak için bir an bile durmadın. Beraber çok şey geçirdik ve umudu kaybetmeye yaklaştığım zamanlar oldu. Ama Tanrı'nın yardımıyla, alnımız açık çıktık. Artık yanından ayrılma ve hakettiğimi alma vakti geldi. Bu andan itibaren {s3}nı yönetme sorumluluğunu taşıyacağım. Hala pek çok engelle karşılaşabiliriz ve bunları aşmak için sana güveniyorum. Ve tabi ki, her zaman en önemli vasalım olarak kalacaksın.
 qstr__We_will_of_course_n| Tabi ordularımız seferden dönene kadar beklememiz gerekiyor.
 qstr_I_am_{s4}_the_ruler_|Ben {s4}, {s6} yöneticisi
@@ -1216,3 +1196,7 @@ qstr_{s6}_Our_{reg4?town:|{s6} {reg4?Şehrimiz:Köyümüz} ve içinde bulunduğu
 qstr_{s6}_Our_{reg4?town:v|{s6} {reg4?Şehrimiz:Köyümüz} ve içinde bulunduğu toprakların sahibi {s8}ndan {s7} olur.
 qstr_{s3}_and_{s5}|{s3} ve {s5}
 qstr_{reg20?We_mostly_pro|{reg20?Burada genelde {s5} üretiyoruz:Şu sıralar pek birşey ürettiğimiz yok}. Eğer daha fazla öğrenmek istiyorsan {reg4?lonca başkanımızla:köyümüzün ihtiyarıyla} konuşabilirsin. Hemen şurada, ileride.
+qstr_riot|riot
+qstr__1_| 1 
+qstr_2|2
+qstr_The_truce_between_{s|The truce between {s1} and {s2} has expired.

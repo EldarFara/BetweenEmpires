@@ -1976,6 +1976,10 @@ itm_pru_torso_infantry6|Uniforme Militar Alemán
 itm_pru_torso_infantry6_pl|Uniformes Militares Alemanes
 itm_pru_torso_infantry7|Uniforme Militar Alemán
 itm_pru_torso_infantry7_pl|Uniformes Militares Alemanes
+itm_pru_torso_infantry8|German Military Uniform
+itm_pru_torso_infantry8_pl|German Military Uniform
+itm_pru_torso_infantry9|German Greatcoat
+itm_pru_torso_infantry9_pl|German Greatcoat
 itm_pru_torso_cavalry1|Uniforme Militar Alemán
 itm_pru_torso_cavalry1_pl|Uniformes Militares Alemanes
 itm_pru_torso_cavalry2|Uniforme Militar Alemán
@@ -2076,6 +2080,8 @@ itm_tur_infantry5|Uniforme Militar Otomano
 itm_tur_infantry5_pl|Uniformes Militares Otomano
 itm_tur_infantry6|Uniforme Militar Otomano
 itm_tur_infantry6_pl|Uniformes Militares Otomano
+itm_tur_infantry7|Ottoman Military Uniform
+itm_tur_infantry7_pl|Ottoman Military Uniform
 itm_tur_torso_cavalry1|Uniforme Militar Otomano
 itm_tur_torso_cavalry1_pl|Uniformes Militares Otomano
 itm_tur_torso_cavalry2|Uniforme Militar Otomano
@@ -2130,6 +2136,14 @@ itm_dan_hat1|Sombrero Danés
 itm_dan_hat1_pl|Sombreros Daneses
 itm_dan_hat2|Sombrero Danés
 itm_dan_hat2_pl|Sombreros Daneses
+itm_dan_hat3|Danish Hat
+itm_dan_hat3_pl|Danish Hat
+itm_dan_hat4|Danish Hat
+itm_dan_hat4_pl|Danish Hat
+itm_dan_hat5|Danish Hat
+itm_dan_hat5_pl|Danish Hat
+itm_dan_hat6|Danish Hat
+itm_dan_hat6_pl|Danish Hat
 itm_dan_drag_helm|Casco de Dragón Danés
 itm_dan_drag_helm_pl|Cascos de Dragones Daneses
 itm_dan_gen_hat|Sombrero de General Danés
@@ -2142,6 +2156,18 @@ itm_dan_torso_infantry2|Uniforme Militar Danés
 itm_dan_torso_infantry2_pl|Uniformes Militares Daneses
 itm_dan_torso_infantry3|Uniforme Militar Danés
 itm_dan_torso_infantry3_pl|Uniformes Militares Daneses
+itm_dan_torso_infantry4|Danish Military Uniform
+itm_dan_torso_infantry4_pl|Danish Military Uniform
+itm_dan_torso_infantry5|Danish Military Uniform
+itm_dan_torso_infantry5_pl|Danish Military Uniform
+itm_dan_torso_infantry6|Danish Military Uniform
+itm_dan_torso_infantry6_pl|Danish Military Uniform
+itm_dan_torso_infantry7|Danish Military Uniform
+itm_dan_torso_infantry7_pl|Danish Military Uniform
+itm_dan_torso_infantry8|Danish Military Uniform
+itm_dan_torso_infantry8_pl|Danish Military Uniform
+itm_dan_torso_infantry9|Danish Military Uniform
+itm_dan_torso_infantry9_pl|Danish Military Uniform
 itm_dan_torso_cavalry|Uniforme Militar Danés
 itm_dan_torso_cavalry_pl|Uniformes Militares Daneses
 itm_dan_general|Uniforme de General Danés
@@ -2150,6 +2176,18 @@ itm_dan_torso_king|Uniforme del Rey Danés
 itm_dan_torso_king_pl|Uniformes del Rey Danés
 itm_dan_trousers|Pantalones de Infantes Danés
 itm_dan_trousers_pl|Pantalones de Infantes Daneses
+itm_dan_trousers2|Danish Infantry Trousers
+itm_dan_trousers2_pl|Danish Infantry Trousers
+itm_dan_trousers3|Danish Infantry Trousers
+itm_dan_trousers3_pl|Danish Infantry Trousers
+itm_dan_trousers4|Danish Infantry Trousers
+itm_dan_trousers4_pl|Danish Infantry Trousers
+itm_dan_trousers5|Danish Infantry Trousers
+itm_dan_trousers5_pl|Danish Infantry Trousers
+itm_dan_trousers6|Danish Infantry Trousers
+itm_dan_trousers6_pl|Danish Infantry Trousers
+itm_dan_trousers7|Danish Infantry Trousers
+itm_dan_trousers7_pl|Danish Infantry Trousers
 itm_dan_trousers_guard|Pantalones de Infantes Danés
 itm_dan_trousers_guard_pl|Pantalones de Infantes Daneses
 itm_sve_trousers_cavalry1|Pantalones de Jinete Suizo
@@ -2160,6 +2198,10 @@ itm_sve_trousers_infantry|Pantalones de Infante Suizo
 itm_sve_trousers_infantry_pl|Pantalones de Infantes Suizos
 itm_sve_trousers_infantry2|Pantalones de Infante Suizo
 itm_sve_trousers_infantry2_pl|Pantalones de Infantes Suizos
+itm_sve_trousers_infantry3|Swedish Infantry Trousers
+itm_sve_trousers_infantry3_pl|Swedish Infantry Trousers
+itm_sve_trousers_infantry4|Swedish Infantry Trousers
+itm_sve_trousers_infantry4_pl|Swedish Infantry Trousers
 itm_sve_torso_infantry1|Uniforme Militar Suizo
 itm_sve_torso_infantry1_pl|Uniformes Militares Suizos
 itm_sve_torso_infantry2|Uniforme Militar Suizo
@@ -2170,6 +2212,10 @@ itm_sve_torso_infantry4|Uniforme Militar Suizo
 itm_sve_torso_infantry4_pl|Uniformes Militares Suizos
 itm_sve_torso_infantry5|Uniforme Militar Suizo
 itm_sve_torso_infantry5_pl|Uniformes Militares Suizos
+itm_sve_torso_infantry6|Swedish Military Uniform
+itm_sve_torso_infantry6_pl|Swedish Military Uniform
+itm_sve_torso_infantry7|Swedish Military Uniform
+itm_sve_torso_infantry7_pl|Swedish Military Uniform
 itm_sve_torso_cavalry1|Uniforme Militar Suizo
 itm_sve_torso_cavalry1_pl|Uniformes Militares Suizos
 itm_sve_torso_cavalry2|Uniforme Militar Suizo
@@ -2186,6 +2232,10 @@ itm_sve_hat4|Sombrero Suizo
 itm_sve_hat4_pl|Sombreros Suizos
 itm_sve_hat4b|Sombrero Suizo
 itm_sve_hat4b_pl|Sombreros Suizos
+itm_sve_hat5|Swedish Tricorne
+itm_sve_hat5_pl|Swedish Tricorne
+itm_sve_hat5b|Swedish Tricorne
+itm_sve_hat5b_pl|Swedish Tricorne
 itm_fra_bicorne|Bicorno Francés
 itm_fra_bicorne_pl|Bicornos Franceses
 itm_fra_hat1|Quepis Francés
@@ -2338,10 +2388,10 @@ itm_sidearm_reichsrevolver1879|Revólver Reichsrevolver M1879
 itm_sidearm_reichsrevolver1879_pl|Revólveres Reichsrevolver M1879
 itm_sidearm_mas1873|Revólver MAS 1873
 itm_sidearm_mas1873_pl|Revólver MAS 1873
-itm_yuricannonballcartridge|YuriCannonballCartridge
-itm_yuricannonballcartridge_pl|YuriCannonballCartridge
-itm_yurigrapeshotcartridge|YuriGrapeshotCartridge
-itm_yurigrapeshotcartridge_pl|YuriGrapeshotCartridge
+itm_YuriCannonballCartridge|YuriCannonballCartridge
+itm_YuriCannonballCartridge_pl|YuriCannonballCartridge
+itm_YuriGrapeshotCartridge|YuriGrapeshotCartridge
+itm_YuriGrapeshotCartridge_pl|YuriGrapeshotCartridge
 itm_victorian_dress1a|Vestido
 itm_victorian_dress1a_pl|Vestidos
 itm_victorian_dress1b|Vestido
@@ -2452,6 +2502,10 @@ itm_res_infantry7|Uniforme Militar Italiano
 itm_res_infantry7_pl|Uniformes Militares Italianos
 itm_res_infantry8|Uniforme Militar Italiano
 itm_res_infantry8_pl|Uniformes Militares Italianos
+itm_res_infantry9|Italian Military Uniform
+itm_res_infantry9_pl|Italian Military Uniform
+itm_res_infantry10|Italian Military Uniform
+itm_res_infantry10_pl|Italian Military Uniform
 itm_res_cavalry1|Uniforme Militar Italiano
 itm_res_cavalry1_pl|Uniformes Militares Italianos
 itm_res_cavalry2|Uniforme Militar Italiano
@@ -2780,6 +2834,14 @@ itm_baf_infantry10|Uniforme Militar Británico
 itm_baf_infantry10_pl|Uniformes Militares Británicos
 itm_baf_infantry11|Uniforme Militar Británico
 itm_baf_infantry11_pl|Uniformes Militares Británicos
+itm_baf_infantry12|British Military Uniform
+itm_baf_infantry12_pl|British Military Uniform
+itm_baf_infantry13|British Military Uniform
+itm_baf_infantry13_pl|British Military Uniform
+itm_baf_infantry14|British Military Uniform
+itm_baf_infantry14_pl|British Military Uniform
+itm_baf_infantry15|British Military Uniform
+itm_baf_infantry15_pl|British Military Uniform
 itm_baf_cavalry1|Uniforme Militar Británico
 itm_baf_cavalry1_pl|Uniformes Militares Británicos
 itm_baf_cavalry2|Uniforme Militar Británico
@@ -2800,6 +2862,8 @@ itm_baf_trousers7|Pantalones Militares Británicos
 itm_baf_trousers7_pl|Pantalones Militares Británicos
 itm_baf_trousers8|Pantalones Militares Británicos
 itm_baf_trousers8_pl|Pantalones Militares Británicos
+itm_baf_trousers9|British Military Trousers
+itm_baf_trousers9_pl|British Military Trousers
 itm_baf_hat1|Quepi de servicio Británico
 itm_baf_hat1_pl|Quepi de servicio Británico
 itm_baf_hat2|Quepi de servicio Británico
@@ -2830,6 +2894,14 @@ itm_baf_hat14|Casco Británico
 itm_baf_hat14_pl|Cascos Británicos
 itm_baf_hat15|Casco Británico
 itm_baf_hat15_pl|Cascos Británicos
+itm_baf_hat16|British Helmet
+itm_baf_hat16_pl|British Helmet
+itm_baf_hat17|British Helmet
+itm_baf_hat17_pl|British Helmet
+itm_baf_hat17b|British Helmet
+itm_baf_hat17b_pl|British Helmet
+itm_baf_hat18|British Helmet
+itm_baf_hat18_pl|British Helmet
 itm_cavalry_gloves1|Guantes
 itm_cavalry_gloves1_pl|Guantes
 itm_shotgun_caplock|Escopetón de Barriles Dobles
@@ -2928,6 +3000,20 @@ itm_far_infantry3|Uniforme Militar Rumano
 itm_far_infantry3_pl|Uniformes Militares Rumanos
 itm_far_infantry4|Uniforme Militar Rumano
 itm_far_infantry4_pl|Uniformes Militares Rumanos
+itm_far_infantry5|Romanian Military Uniform
+itm_far_infantry5_pl|Romanian Military Uniform
+itm_far_infantry6|Romanian Military Uniform
+itm_far_infantry6_pl|Romanian Military Uniform
+itm_far_infantry7|Romanian Military Uniform
+itm_far_infantry7_pl|Romanian Military Uniform
+itm_far_infantry8|Romanian Military Uniform
+itm_far_infantry8_pl|Romanian Military Uniform
+itm_far_infantry9|Romanian Military Uniform
+itm_far_infantry9_pl|Romanian Military Uniform
+itm_far_infantry10|Romanian Military Uniform
+itm_far_infantry10_pl|Romanian Military Uniform
+itm_far_infantry11|Romanian Military Uniform
+itm_far_infantry11_pl|Romanian Military Uniform
 itm_far_cavalry1|Uniforme Militar Rumano
 itm_far_cavalry1_pl|Uniformes Militares Rumanos
 itm_far_cavalry2|Uniforme Militar Rumano
@@ -2936,6 +3022,12 @@ itm_far_trousers1|Pantalones Militares Rumanos
 itm_far_trousers1_pl|Pantalones Militares Rumanos
 itm_far_trousers2|Pantalones Militares Rumanos
 itm_far_trousers2_pl|Pantalones Militares Rumanos
+itm_far_trousers3|Romanian Military Trousers
+itm_far_trousers3_pl|Romanian Military Trousers
+itm_far_trousers4|Romanian Military Trousers
+itm_far_trousers4_pl|Romanian Military Trousers
+itm_far_trousers5|Romanian Military Trousers
+itm_far_trousers5_pl|Romanian Military Trousers
 itm_far_hat1|Chacó Rumano
 itm_far_hat1_pl|Chacó Rumanos
 itm_far_hat2|Chacó Rumano
@@ -2948,6 +3040,12 @@ itm_far_hat5|Chacó Rumano
 itm_far_hat5_pl|Chacó Rumanos
 itm_far_hat6|Chacó Rumano
 itm_far_hat6_pl|Chacó Rumanos
+itm_far_hat7|Romanian Hat
+itm_far_hat7_pl|Romanian Hat
+itm_far_hat8|Romanian Hat
+itm_far_hat8_pl|Romanian Hat
+itm_far_hat9|Romanian Helmet
+itm_far_hat9_pl|Romanian Helmet
 itm_sta_infantry1|Uniforme Militar Holandés
 itm_sta_infantry1_pl|Uniformes Militares Holandeses
 itm_sta_infantry2|Uniforme Militar Holandés
@@ -3274,6 +3372,14 @@ itm_rifle_bulgarian_smoothbore_carbine|Carabina Papal M1777
 itm_rifle_bulgarian_smoothbore_carbine_pl|Carabinas Papales M1777
 itm_rifle_bulgarian_smoothbore_carbine_m|Carabina Papal M1777
 itm_rifle_bulgarian_smoothbore_carbine_m_pl|Carabinas Papales M1777
+itm_rifle_norwegian_smoothbore|Smoothbore Musket
+itm_rifle_norwegian_smoothbore_pl|Smoothbore Musket
+itm_rifle_norwegian_smoothbore_m|Smoothbore Carbine
+itm_rifle_norwegian_smoothbore_m_pl|Smoothbore Carbine
+itm_rifle_norwegian_smoothbore_carbine|Papal M1777 Conversion Carbine
+itm_rifle_norwegian_smoothbore_carbine_pl|Papal M1777 Conversion Carbine
+itm_rifle_norwegian_smoothbore_carbine_m|Papal M1777 Conversion Carbine
+itm_rifle_norwegian_smoothbore_carbine_m_pl|Papal M1777 Conversion Carbine
 itm_rifle_papal_smoothbore|Mosquete Papal M1777
 itm_rifle_papal_smoothbore_pl|Mosquetes Papales M1777
 itm_rifle_papal_smoothbore_m|Mosquete Papal M1777
@@ -3426,6 +3532,18 @@ itm_lmg_hotchkiss1909|Hotchkiss Modelo 1909
 itm_lmg_hotchkiss1909_pl|Hotchkiss Modelo 1909
 itm_lmg_hotchkiss1909_m|Hotchkiss Modelo 1909
 itm_lmg_hotchkiss1909_m_pl|Hotchkiss Modelo 1909
+itm_lmg_mp18|MP-18
+itm_lmg_mp18_pl|MP-18
+itm_lmg_mp18_m|MP-18
+itm_lmg_mp18_m_pl|MP-18
+itm_lmg_fedorov|Fedorov Machine Gun
+itm_lmg_fedorov_pl|Fedorov Machine Gun
+itm_lmg_fedorov_m|Fedorov Machine Gun
+itm_lmg_fedorov_m_pl|Fedorov Machine Gun
+itm_lmg_beretta1918|Beretta 1918 Machine Gun
+itm_lmg_beretta1918_pl|Beretta 1918 Machine Gun
+itm_lmg_beretta1918_m|Beretta 1918 Machine Gun
+itm_lmg_beretta1918_m_pl|Beretta 1918 Machine Gun
 itm_grenade_mills|Bomba Mills
 itm_grenade_mills_pl|Bombas Mills
 itm_grenade_m15|Granada Pegajosa M15
@@ -3574,5 +3692,95 @@ itm_bul_hat8|Sombrero Búlgaro
 itm_bul_hat8_pl|Sombreros Búlgaros
 itm_bul_hat9|Sombrero Búlgaro
 itm_bul_hat9_pl|Sombreros Búlgaros
+itm_rifle_mannlicher_m1893|Mannlicher M1893
+itm_rifle_mannlicher_m1893_pl|Mannlicher M1893
+itm_rifle_mannlicher_m1893_m|Mannlicher M1893
+itm_rifle_mannlicher_m1893_m_pl|Mannlicher M1893
+itm_rifle_mannlicher_m1893_carbine|Mannlicher M1893 Carbine
+itm_rifle_mannlicher_m1893_carbine_pl|Mannlicher M1893 Carbine
+itm_rifle_mannlicher_m1893_carbine_m|Mannlicher M1893 Carbine
+itm_rifle_mannlicher_m1893_carbine_m_pl|Mannlicher M1893 Carbine
+itm_rifle_mannlicher_schoenauer|Mannlicher-Schoenauer
+itm_rifle_mannlicher_schoenauer_pl|Mannlicher-Schoenauer
+itm_rifle_mannlicher_schoenauer_m|Mannlicher-Schoenauer
+itm_rifle_mannlicher_schoenauer_m_pl|Mannlicher-Schoenauer
+itm_rifle_mannlicher_schoenauer_carbine|Mannlicher-Schoenauer Carbine
+itm_rifle_mannlicher_schoenauer_carbine_pl|Mannlicher-Schoenauer Carbine
+itm_rifle_mannlicher_schoenauer_carbine_m|Mannlicher-Schoenauer Carbine
+itm_rifle_mannlicher_schoenauer_carbine_m_pl|Mannlicher-Schoenauer Carbine
+itm_rifle_mauser_m1889|Mauser M1889 Rifle
+itm_rifle_mauser_m1889_pl|Mauser M1889 Rifle
+itm_rifle_mauser_m1889_m|Mauser M1889 Rifle
+itm_rifle_mauser_m1889_m_pl|Mauser M1889 Rifle
+itm_rifle_mauser_m1889_carbine|Mauser M1889 Carbine
+itm_rifle_mauser_m1889_carbine_pl|Mauser M1889 Carbine
+itm_rifle_mauser_m1889_carbine_m|Mauser M1889 Carbine
+itm_rifle_mauser_m1889_carbine_m_pl|Mauser M1889 Carbine
+itm_rifle_mauser_m1896|Gevär m/96 Rifle
+itm_rifle_mauser_m1896_pl|Gevär m/96 Rifle
+itm_rifle_mauser_m1896_m|Gevär m/96 Rifle
+itm_rifle_mauser_m1896_m_pl|Gevär m/96 Rifle
+itm_rifle_mauser_m1896_carbine|Gevär m/96 Carbine
+itm_rifle_mauser_m1896_carbine_pl|Gevär m/96 Carbine
+itm_rifle_mauser_m1896_carbine_m|Gevär m/96 Carbine
+itm_rifle_mauser_m1896_carbine_m_pl|Gevär m/96 Carbine
+itm_nor_infantry1|Norwegian Military Uniform
+itm_nor_infantry1_pl|Norwegian Military Uniform
+itm_nor_infantry2|Norwegian Military Uniform
+itm_nor_infantry2_pl|Norwegian Military Uniform
+itm_nor_infantry3|Norwegian Military Uniform
+itm_nor_infantry3_pl|Norwegian Military Uniform
+itm_nor_infantry4|Norwegian Military Uniform
+itm_nor_infantry4_pl|Norwegian Military Uniform
+itm_nor_trousers1|Norwegian Military Trousers
+itm_nor_trousers1_pl|Norwegian Military Trousers
+itm_nor_trousers2|Norwegian Military Trousers
+itm_nor_trousers2_pl|Norwegian Military Trousers
+itm_nor_hat1|Norwegian Hat
+itm_nor_hat1_pl|Norwegian Hat
+itm_nor_hat2|Norwegian Hat
+itm_nor_hat2_pl|Norwegian Hat
+itm_balkan_torso1|Civilian Clothes
+itm_balkan_torso1_pl|Civilian Clothes
+itm_balkan_torso2|Civilian Clothes
+itm_balkan_torso2_pl|Civilian Clothes
+itm_balkan_torso3|Civilian Clothes
+itm_balkan_torso3_pl|Civilian Clothes
+itm_polish_torso1|Civilian Clothes
+itm_polish_torso1_pl|Civilian Clothes
+itm_polish_torso2|Civilian Clothes
+itm_polish_torso2_pl|Civilian Clothes
+itm_polish_torso3|Civilian Clothes
+itm_polish_torso3_pl|Civilian Clothes
+itm_polish_torso4|Civilian Clothes
+itm_polish_torso4_pl|Civilian Clothes
+itm_polish_torso5|Civilian Clothes
+itm_polish_torso5_pl|Civilian Clothes
+itm_polish_torso6|Civilian Clothes
+itm_polish_torso6_pl|Civilian Clothes
+itm_polish_torso7|Civilian Clothes
+itm_polish_torso7_pl|Civilian Clothes
+itm_polish_torso8|Civilian Clothes
+itm_polish_torso8_pl|Civilian Clothes
+itm_polish_torso9|Civilian Clothes
+itm_polish_torso9_pl|Civilian Clothes
+itm_polish_torso10|Civilian Clothes
+itm_polish_torso10_pl|Civilian Clothes
+itm_polish_torso11|Civilian Clothes
+itm_polish_torso11_pl|Civilian Clothes
+itm_polish_torso12|Civilian Clothes
+itm_polish_torso12_pl|Civilian Clothes
+itm_polish_hat1|Polish Hat
+itm_polish_hat1_pl|Polish Hat
+itm_polish_hat2|Polish Hat
+itm_polish_hat2_pl|Polish Hat
+itm_rifle_carcano1891|Carcano M1891
+itm_rifle_carcano1891_pl|Carcano M1891
+itm_rifle_carcano1891_m|Carcano M1891
+itm_rifle_carcano1891_m_pl|Carcano M1891
+itm_rifle_carcano1891_carbine|Carcano M1891 Carbine
+itm_rifle_carcano1891_carbine_pl|Carcano M1891 Carbine
+itm_rifle_carcano1891_carbine_m|Carcano M1891 Carbine
+itm_rifle_carcano1891_carbine_m_pl|Carcano M1891 Carbine
 itm_items_end|Fin de objetos
 itm_items_end_pl|Fin de objetos

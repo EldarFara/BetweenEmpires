@@ -1278,6 +1278,134 @@ trp_faction33_prisonguard|Nejd Hapishane Muhafızı
 trp_faction33_prisonguard_pl|Nejd Hapishane Muhafızı
 trp_faction33_castleguard|Nejd Muhafızı
 trp_faction33_castleguard_pl|Nejd Muhafızı
+trp_factionbulgaria_troop1|Bulgarian Recruit
+trp_factionbulgaria_troop1_pl|Bulgarian Recruits
+trp_factionbulgaria_troop2|Bulgarian Infantry
+trp_factionbulgaria_troop2_pl|Bulgarian Infantry
+trp_factionbulgaria_troop3|Bulgarian Infantry (Exp.)
+trp_factionbulgaria_troop3_pl|Bulgarian Infantry (Exp.)
+trp_factionbulgaria_troop4|Bulgarian Infantry (Very Exp.)
+trp_factionbulgaria_troop4_pl|Bulgarian Infantry (Very Exp.)
+trp_factionbulgaria_troop5|Bulgarian Light Infantry
+trp_factionbulgaria_troop5_pl|Bulgarian Light Infantry
+trp_factionbulgaria_troop6|Bulgarian Light Infantry (Exp.)
+trp_factionbulgaria_troop6_pl|Bulgarian Light Infantry (Exp.)
+trp_factionbulgaria_troop7|Bulgarian Guard
+trp_factionbulgaria_troop7_pl|Bulgarian Guard
+trp_factionbulgaria_troop8|Bulgarian Guard (Exp.)
+trp_factionbulgaria_troop8_pl|Bulgarian Guards (Exp.)
+trp_factionbulgaria_troop9|Bulgarian Uhlan
+trp_factionbulgaria_troop9_pl|Bulgarian Uhlans
+trp_factionbulgaria_troop10|Bulgarian Uhlan (Exp.)
+trp_factionbulgaria_troop10_pl|Bulgarian Uhlans (Exp.)
+trp_factionbulgaria_troop11|Bulgarian Dragoon
+trp_factionbulgaria_troop11_pl|Bulgarian Dragoons
+trp_factionbulgaria_troop12|Bulgarian Dragoon (Exp.)
+trp_factionbulgaria_troop12_pl|Bulgarian Dragoons (Exp.)
+trp_factionbulgaria_troop13|Bulgarian Guard Cavalry
+trp_factionbulgaria_troop13_pl|Bulgarian Guard Cavalry
+trp_factionbulgaria_troop14|Bulgarian Guard Cavalry (Exp.)
+trp_factionbulgaria_troop14_pl|Bulgarian Guard Cavalry (Exp.)
+trp_factionbulgaria_prisonguard|Bulgarian Prison Guard
+trp_factionbulgaria_prisonguard_pl|Bulgarian Prison Guards
+trp_factionbulgaria_castleguard|Bulgarian HQ Guard
+trp_factionbulgaria_castleguard_pl|Bulgarian HQ Guards
+trp_factionnorway_troop1|Norwegian Recruit
+trp_factionnorway_troop1_pl|Norwegian Recruits
+trp_factionnorway_troop2|Norwegian Infantry
+trp_factionnorway_troop2_pl|Norwegian Infantry
+trp_factionnorway_troop3|Norwegian Infantry (Exp.)
+trp_factionnorway_troop3_pl|Norwegian Infantry (Exp.)
+trp_factionnorway_troop4|Norwegian Infantry (Very Exp.)
+trp_factionnorway_troop4_pl|Norwegian Infantry (Very Exp.)
+trp_factionnorway_troop5|Norwegian Light Infantry
+trp_factionnorway_troop5_pl|Norwegian Light Infantry
+trp_factionnorway_troop6|Norwegian Light Infantry (Exp.)
+trp_factionnorway_troop6_pl|Norwegian Light Infantry (Exp.)
+trp_factionnorway_troop7|Norwegian Guard
+trp_factionnorway_troop7_pl|Norwegian Guard
+trp_factionnorway_troop8|Norwegian Guard (Exp.)
+trp_factionnorway_troop8_pl|Norwegian Guards (Exp.)
+trp_factionnorway_troop9|Norwegian Uhlan
+trp_factionnorway_troop9_pl|Norwegian Uhlans
+trp_factionnorway_troop10|Norwegian Uhlan (Exp.)
+trp_factionnorway_troop10_pl|Norwegian Uhlans (Exp.)
+trp_factionnorway_troop11|Norwegian Dragoon
+trp_factionnorway_troop11_pl|Norwegian Dragoons
+trp_factionnorway_troop12|Norwegian Dragoon (Exp.)
+trp_factionnorway_troop12_pl|Norwegian Dragoons (Exp.)
+trp_factionnorway_troop13|Norwegian Guard Cavalry
+trp_factionnorway_troop13_pl|Norwegian Guard Cavalry
+trp_factionnorway_troop14|Norwegian Guard Cavalry (Exp.)
+trp_factionnorway_troop14_pl|Norwegian Guard Cavalry (Exp.)
+trp_factionnorway_prisonguard|Norwegian Prison Guard
+trp_factionnorway_prisonguard_pl|Norwegian Prison Guards
+trp_factionnorway_castleguard|Norwegian HQ Guard
+trp_factionnorway_castleguard_pl|Norwegian HQ Guards
+trp_factionalbania_troop1|Albanian Recruit
+trp_factionalbania_troop1_pl|Albanian Recruits
+trp_factionalbania_troop2|Albanian Infantry
+trp_factionalbania_troop2_pl|Albanian Infantry
+trp_factionalbania_troop3|Albanian Infantry (Exp.)
+trp_factionalbania_troop3_pl|Albanian Infantry (Exp.)
+trp_factionalbania_troop4|Albanian Infantry (Very Exp.)
+trp_factionalbania_troop4_pl|Albanian Infantry (Very Exp.)
+trp_factionalbania_troop5|Albanian Light Infantry
+trp_factionalbania_troop5_pl|Albanian Light Infantry
+trp_factionalbania_troop6|Albanian Light Infantry (Exp.)
+trp_factionalbania_troop6_pl|Albanian Light Infantry (Exp.)
+trp_factionalbania_troop7|Albanian Guard
+trp_factionalbania_troop7_pl|Albanian Guard
+trp_factionalbania_troop8|Albanian Guard (Exp.)
+trp_factionalbania_troop8_pl|Albanian Guards (Exp.)
+trp_factionalbania_troop9|Albanian Uhlan
+trp_factionalbania_troop9_pl|Albanian Uhlans
+trp_factionalbania_troop10|Albanian Uhlan (Exp.)
+trp_factionalbania_troop10_pl|Albanian Uhlans (Exp.)
+trp_factionalbania_troop11|Albanian Dragoon
+trp_factionalbania_troop11_pl|Albanian Dragoons
+trp_factionalbania_troop12|Albanian Dragoon (Exp.)
+trp_factionalbania_troop12_pl|Albanian Dragoons (Exp.)
+trp_factionalbania_troop13|Albanian Guard Cavalry
+trp_factionalbania_troop13_pl|Albanian Guard Cavalry
+trp_factionalbania_troop14|Albanian Guard Cavalry (Exp.)
+trp_factionalbania_troop14_pl|Albanian Guard Cavalry (Exp.)
+trp_factionalbania_prisonguard|Albanian Prison Guard
+trp_factionalbania_prisonguard_pl|Albanian Prison Guards
+trp_factionalbania_castleguard|Albanian HQ Guard
+trp_factionalbania_castleguard_pl|Albanian HQ Guards
+trp_factionpoland_troop1|Polish Recruit
+trp_factionpoland_troop1_pl|Polish Recruits
+trp_factionpoland_troop2|Polish Infantry
+trp_factionpoland_troop2_pl|Polish Infantry
+trp_factionpoland_troop3|Polish Infantry (Exp.)
+trp_factionpoland_troop3_pl|Polish Infantry (Exp.)
+trp_factionpoland_troop4|Polish Infantry (Very Exp.)
+trp_factionpoland_troop4_pl|Polish Infantry (Very Exp.)
+trp_factionpoland_troop5|Polish Light Infantry
+trp_factionpoland_troop5_pl|Polish Light Infantry
+trp_factionpoland_troop6|Polish Light Infantry (Exp.)
+trp_factionpoland_troop6_pl|Polish Light Infantry (Exp.)
+trp_factionpoland_troop7|Polish Guard
+trp_factionpoland_troop7_pl|Polish Guard
+trp_factionpoland_troop8|Polish Guard (Exp.)
+trp_factionpoland_troop8_pl|Polish Guards (Exp.)
+trp_factionpoland_troop9|Polish Uhlan
+trp_factionpoland_troop9_pl|Polish Uhlans
+trp_factionpoland_troop10|Polish Uhlan (Exp.)
+trp_factionpoland_troop10_pl|Polish Uhlans (Exp.)
+trp_factionpoland_troop11|Polish Dragoon
+trp_factionpoland_troop11_pl|Polish Dragoons
+trp_factionpoland_troop12|Polish Dragoon (Exp.)
+trp_factionpoland_troop12_pl|Polish Dragoons (Exp.)
+trp_factionpoland_troop13|Polish Guard Cavalry
+trp_factionpoland_troop13_pl|Polish Guard Cavalry
+trp_factionpoland_troop14|Polish Guard Cavalry (Exp.)
+trp_factionpoland_troop14_pl|Polish Guard Cavalry (Exp.)
+trp_factionpoland_prisonguard|Polish Prison Guard
+trp_factionpoland_prisonguard_pl|Polish Prison Guards
+trp_factionpoland_castleguard|Polish HQ Guard
+trp_factionpoland_castleguard_pl|Polish HQ Guards
 trp_looter|Çapulcu
 trp_looter_pl|Çapulcuları
 trp_bandit|Haydut
@@ -1292,6 +1420,8 @@ trp_sea_raider|Yağmacı
 trp_sea_raider_pl|Yağmacıları
 trp_steppe_bandit|Bozkır Haydutu
 trp_steppe_bandit_pl|Bozkır Haydutları
+trp_balkan_bandit|Balkan Bandit
+trp_balkan_bandit_pl|Balkan Bandit
 trp_taiga_bandit|Tundra Haydutu
 trp_taiga_bandit_pl|Tundra Haydutları
 trp_desert_bandit|Harami
@@ -2054,6 +2184,106 @@ trp_knight_33_3|Emir Abdullah bin Turki
 trp_knight_33_3_pl|Emir Abdullah bin Turki
 trp_knight_33_4|Wali Saleh bin Shalhoub
 trp_knight_33_4_pl|Wali Saleh bin Shalhoub
+trp_knight_extra1|Lord
+trp_knight_extra1_pl|Lord
+trp_knight_extra2|Lord
+trp_knight_extra2_pl|Lord
+trp_knight_extra3|Lord
+trp_knight_extra3_pl|Lord
+trp_knight_extra4|Lord
+trp_knight_extra4_pl|Lord
+trp_knight_extra5|Lord
+trp_knight_extra5_pl|Lord
+trp_knight_extra6|Lord
+trp_knight_extra6_pl|Lord
+trp_knight_extra7|Lord
+trp_knight_extra7_pl|Lord
+trp_knight_extra8|Lord
+trp_knight_extra8_pl|Lord
+trp_knight_extra9|Lord
+trp_knight_extra9_pl|Lord
+trp_knight_extra10|Lord
+trp_knight_extra10_pl|Lord
+trp_knight_extra11|Lord
+trp_knight_extra11_pl|Lord
+trp_knight_extra12|Lord
+trp_knight_extra12_pl|Lord
+trp_knight_extra13|Lord
+trp_knight_extra13_pl|Lord
+trp_knight_extra14|Lord
+trp_knight_extra14_pl|Lord
+trp_knight_extra15|Lord
+trp_knight_extra15_pl|Lord
+trp_knight_extra16|Lord
+trp_knight_extra16_pl|Lord
+trp_knight_extra17|Lord
+trp_knight_extra17_pl|Lord
+trp_knight_extra18|Lord
+trp_knight_extra18_pl|Lord
+trp_knight_extra19|Lord
+trp_knight_extra19_pl|Lord
+trp_knight_extra20|Lord
+trp_knight_extra20_pl|Lord
+trp_knight_extra21|Lord
+trp_knight_extra21_pl|Lord
+trp_knight_extra22|Lord
+trp_knight_extra22_pl|Lord
+trp_knight_extra23|Lord
+trp_knight_extra23_pl|Lord
+trp_knight_extra24|Lord
+trp_knight_extra24_pl|Lord
+trp_knight_extra25|Lord
+trp_knight_extra25_pl|Lord
+trp_knight_extra26|Lord
+trp_knight_extra26_pl|Lord
+trp_knight_extra27|Lord
+trp_knight_extra27_pl|Lord
+trp_knight_extra28|Lord
+trp_knight_extra28_pl|Lord
+trp_knight_extra29|Lord
+trp_knight_extra29_pl|Lord
+trp_knight_extra30|Lord
+trp_knight_extra30_pl|Lord
+trp_knight_extra31|Lord
+trp_knight_extra31_pl|Lord
+trp_knight_extra32|Lord
+trp_knight_extra32_pl|Lord
+trp_knight_extra33|Lord
+trp_knight_extra33_pl|Lord
+trp_knight_extra34|Lord
+trp_knight_extra34_pl|Lord
+trp_knight_extra35|Lord
+trp_knight_extra35_pl|Lord
+trp_knight_extra36|Lord
+trp_knight_extra36_pl|Lord
+trp_knight_extra37|Lord
+trp_knight_extra37_pl|Lord
+trp_knight_extra38|Lord
+trp_knight_extra38_pl|Lord
+trp_knight_extra39|Lord
+trp_knight_extra39_pl|Lord
+trp_knight_extra40|Lord
+trp_knight_extra40_pl|Lord
+trp_knight_extra41|Lord
+trp_knight_extra41_pl|Lord
+trp_knight_extra42|Lord
+trp_knight_extra42_pl|Lord
+trp_knight_extra43|Lord
+trp_knight_extra43_pl|Lord
+trp_knight_extra44|Lord
+trp_knight_extra44_pl|Lord
+trp_knight_extra45|Lord
+trp_knight_extra45_pl|Lord
+trp_knight_extra46|Lord
+trp_knight_extra46_pl|Lord
+trp_knight_extra47|Lord
+trp_knight_extra47_pl|Lord
+trp_knight_extra48|Lord
+trp_knight_extra48_pl|Lord
+trp_knight_extra49|Lord
+trp_knight_extra49_pl|Lord
+trp_knight_extra50|Lord
+trp_knight_extra50_pl|Lord
 trp_kingdom_1_pretender|Suno Leydisi Isolla
 trp_kingdom_1_pretender_pl|Isolla
 trp_kingdom_2_pretender|Prens Piç Valdym
@@ -5487,18 +5717,18 @@ trp_rebel_turkish5|Türk İsyancı Süvarisi
 trp_rebel_turkish5_pl|Türk İsyancı Süvarisi
 trp_rebel_turkish6|Türk İsyancı Süvarisi (Tecrübeli)
 trp_rebel_turkish6_pl|Türk İsyancı Süvarisi (Tecrübeli)
-trp_rebel_Pers1|Pers İsyancısı
-trp_rebel_Pers1_pl|Pers İsyancısı
-trp_rebel_Pers2|Pers İsyancısı (Tecrübeli)
-trp_rebel_Pers2_pl|Pers İsyancısı (Tecrübeli)
-trp_rebel_Pers3|Pers İsyancısı Sharpshooter
-trp_rebel_Pers3_pl|Pers İsyancısı
-trp_rebel_Pers4|Pers İsyancısı Sharpshooter (Tecrübeli)
-trp_rebel_Pers4_pl|Pers İsyancısı
-trp_rebel_Pers5|Pers İsyancı Süvarisi
-trp_rebel_Pers5_pl|Pers İsyancı Süvarisi
-trp_rebel_Pers6|Pers İsyancı Süvarisi (Tecrübeli)
-trp_rebel_Pers6_pl|Pers İsyancı Süvarisi (Tecrübeli)
+trp_rebel_persian1|Persian Insurgent
+trp_rebel_persian1_pl|Persian Insurgent
+trp_rebel_persian2|Persian Insurgent (Exp.)
+trp_rebel_persian2_pl|Persian Insurgent (Exp.)
+trp_rebel_persian3|Persian Insurgent Sharpshooter
+trp_rebel_persian3_pl|Persian Insurgent
+trp_rebel_persian4|Persian Insurgent Sharpshooter (Exp.)
+trp_rebel_persian4_pl|Persian Insurgent
+trp_rebel_persian5|Persian Insurgent Cavalry
+trp_rebel_persian5_pl|Persian Insurgent Cavalry
+trp_rebel_persian6|Persian Insurgent Cavalry (Exp.)
+trp_rebel_persian6_pl|Persian Insurgent Cavalry (Exp.)
 trp_rebel_indian1|Hindistan İsyancısı
 trp_rebel_indian1_pl|Hindistan İsyancısı
 trp_rebel_indian2|Hindistan İsyancısı (Tecrübeli)
@@ -5547,5 +5777,97 @@ trp_rebel_redshirt5|Kızıl Tişört Süvarisi
 trp_rebel_redshirt5_pl|Kızıl Tişört Süvarisi
 trp_rebel_redshirt6|Kızıl Tişört Süvarisi (Tecrübeli)
 trp_rebel_redshirt6_pl|Kızıl Tişört Süvarisi (Tecrübeli)
+trp_rebel_polish1|Polish Insurgent
+trp_rebel_polish1_pl|Polish Insurgent
+trp_rebel_polish2|Polish Insurgent (Exp.)
+trp_rebel_polish2_pl|Polish Insurgent (Exp.)
+trp_rebel_polish3|Polish Insurgent Sharpshooter
+trp_rebel_polish3_pl|Polish Insurgent
+trp_rebel_polish4|Polish Insurgent Sharpshooter (Exp.)
+trp_rebel_polish4_pl|Polish Insurgent
+trp_rebel_polish5|Polish Insurgent Cavalry
+trp_rebel_polish5_pl|Polish Insurgent Cavalry
+trp_rebel_polish6|Polish Insurgent Cavalry (Exp.)
+trp_rebel_polish6_pl|Polish Insurgent Cavalry (Exp.)
+trp_rebel_balkan1|Balkan Insurgent
+trp_rebel_balkan1_pl|Balkan Insurgent
+trp_rebel_balkan2|Balkan Insurgent (Exp.)
+trp_rebel_balkan2_pl|Balkan Insurgent (Exp.)
+trp_rebel_balkan3|Balkan Insurgent Sharpshooter
+trp_rebel_balkan3_pl|Balkan Insurgent
+trp_rebel_balkan4|Balkan Insurgent Sharpshooter (Exp.)
+trp_rebel_balkan4_pl|Balkan Insurgent
+trp_rebel_balkan5|Balkan Insurgent Cavalry
+trp_rebel_balkan5_pl|Balkan Insurgent Cavalry
+trp_rebel_balkan6|Balkan Insurgent Cavalry (Exp.)
+trp_rebel_balkan6_pl|Balkan Insurgent Cavalry (Exp.)
 trp_coachman|Arabacı
 trp_coachman_pl|Arabacı
+trp_lordmodel_0|Commander
+trp_lordmodel_0_pl|Commander
+trp_lordmodel_1|General Gustave Olivier Lannes
+trp_lordmodel_1_pl|General Gustave Olivier Lannes
+trp_lordmodel_2|Major General Vladimir Fyodorvich
+trp_lordmodel_2_pl|Major General Vladimir Fyodorvich
+trp_lordmodel_3|Marshall Wilhelm von Tagethoff
+trp_lordmodel_3_pl|Marshall Wilhelm von Tagethoff
+trp_lordmodel_4|General Alfonso La Marmora
+trp_lordmodel_4_pl|General Alfonso La Marmora
+trp_lordmodel_5|Chancellor Bismarck
+trp_lordmodel_5_pl|Chancellor Bismarck
+trp_lordmodel_6|Sehzade Abdulaziz Osmanoglu
+trp_lordmodel_6_pl|Sehzade Abdulaziz Osmanoglu
+trp_lordmodel_7|General Richard Airey
+trp_lordmodel_7_pl|Richard Airey
+trp_lordmodel_8|General Anton Imanoil Berindei
+trp_lordmodel_8_pl|General Anton Imanoil Berindei
+trp_lordmodel_9|General Antonio Ros de Olano
+trp_lordmodel_9_pl|General Antonio Ros de Olano
+trp_lordmodel_10|Wali Amir Muhammed Harrani
+trp_lordmodel_10_pl|Wali Amir Muhammed Harrani
+trp_lordmodel_11|Liutenant General Ferdinando Lanza
+trp_lordmodel_11_pl|Liutenant General Ferdinando Lanza
+trp_lordmodel_12|Shahzadeh Zallal Sultan
+trp_lordmodel_12_pl|Shahzadeh Zallal Sultan
+trp_lordmodel_13|General Lionel Demaret
+trp_lordmodel_13_pl|Lionel Demaret
+trp_lordmodel_14|Recep Bey
+trp_lordmodel_14_pl|Recep Bey
+trp_lordmodel_15|Prince Hassan bin Muhammed
+trp_lordmodel_15_pl|Prince Hassan bin Muhammed
+trp_lordmodel_16|General Caio Gusmao
+trp_lordmodel_16_pl|General Caio Gusmao
+trp_lordmodel_17|Emir Abdallahi ibn Muhammad
+trp_lordmodel_17_pl|Emir Abdallahi ibn Muhammad
+trp_lordmodel_18|General Anker Ottosen
+trp_lordmodel_18_pl|Anker Ottosen
+trp_lordmodel_19|General Adelfo Spezzano
+trp_lordmodel_19_pl|Adelfo Spezzano
+trp_lordmodel_20|Sir Oliver Wolstenholme
+trp_lordmodel_20_pl|Sir Oliver Wolstenholme
+trp_lordmodel_21|Saidu Baba Khan
+trp_lordmodel_21_pl|Saidu Baba Khan
+trp_lordmodel_22|Atabeg Kolij Bey
+trp_lordmodel_22_pl|Atabeg Kolij Bey
+trp_lordmodel_23|Atabeg Burkhanov
+trp_lordmodel_23_pl|Atabeg Burkhanov
+trp_lordmodel_24|General Loannis Mamouris
+trp_lordmodel_24_pl|General Loannis Mamouris
+trp_lordmodel_25|General Anton Berindei
+trp_lordmodel_25_pl|General Anton Berindei
+trp_lordmodel_26|General Yves Deramoudt
+trp_lordmodel_26_pl|Yves Deramoudt
+trp_lordmodel_27|General Theodor Steinsaltz
+trp_lordmodel_27_pl|Theodor Steinsaltz
+trp_lordmodel_28|General Milojko Lesjanin
+trp_lordmodel_28_pl|Milojko Lesjanin
+trp_lordmodel_29|General Johan Peter
+trp_lordmodel_29_pl|General Johan Peter
+trp_lordmodel_30|General Ludwig von der Tann 
+trp_lordmodel_30_pl|General Ludwig von der Tann 
+trp_lordmodel_31|General Siegmund von Paranchk
+trp_lordmodel_31_pl|General Siegmund von Paranchk
+trp_lordmodel_32|Emir Fattah Shammari
+trp_lordmodel_32_pl|Emir Fattah Shammari
+trp_lordmodel_33|Prince Abdullah bin Faisal
+trp_lordmodel_33_pl|Prince Abdullah bin Faisal

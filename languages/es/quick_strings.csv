@@ -1,3 +1,5 @@
+qstr_res_cape1|res cape1
+qstr_res_cape2|res cape2
 qstr_thawb1_belt1|thawb1 belt1
 qstr_banner_ria1|banner ria1
 qstr_Next_Page|Página Siguiente
@@ -53,8 +55,8 @@ qstr_Defeats:_{reg0}|Derrotas: {reg0}
 qstr_Quests_Completed:_{r|Misiones completadas: {reg0}
 qstr_Companions_Found:_{r|Compañeros encontrados: {reg0}
 qstr_Companions_Lost/Depa|Compañeros perdidos/retirados: {reg0}
-qstr_Wealth:_{reg0}_pound|Wealth: {reg0} pounds
-qstr_Inventory:_{reg0}_po|Inventory: {reg0} pounds
+qstr_Wealth:_{reg0}_$|Wealth: {reg0} $
+qstr_Inventory:_{reg0}_$|Inventory: {reg0} $
 qstr_Renown:_{reg0}|Renombre: {reg0}
 qstr_Experience:_{reg0}|Experiencia: {reg0}
 qstr_Days_Passed:_{reg0}|Días transcurridos: {reg0}
@@ -113,7 +115,7 @@ qstr_Outlaws|Bandidos
 qstr_Mercenary|Mercenarios
 qstr_Close|Cerrar
 qstr_Click_the_center_but|Hace click en el botón del centro para cambiar de facción^Hace Click en los avatares para ver más información de ellos
-qstr_Level:_{reg3}^Salud|Nivel: {reg3}^Salud: {reg4}
+qstr_Level:_{reg3}^Health|Level: {reg3}^Health: {reg4}
 qstr_Attributes|Atributos
 qstr_STR^AGI^INT^CHA|FUE^AGI^INT^CAR
 qstr_{reg2}|{reg2}
@@ -130,9 +132,17 @@ qstr_Show_villages|Mostrar poblados
 qstr_Tip:_move_the_mouse_|Consejo: mueve el mouse a los bloques negros para ver sus nombres.
 qstr_The_World_Map|El mapamundi
 qstr_Done|Hecho
+qstr_Language:|Language:
+qstr_English|English
+qstr_Russian|Russian
+qstr_German|German
+qstr_Turkish|Turkish
+qstr_Spanish|Spanish
+qstr_Italian|Italian
+qstr_French|French
+qstr_Polish|Polish
 qstr_Press_Escape_to_clos|Presione Escape para cerrar el menú...
-qstr_{s7}__s_Army|{s7}Ejercito de
-qstr_{reg1}|{reg1}
+qstr_Army_of_{s7}|Army of {s7}
 qstr_Attribute_points_{re|Puntos de Atributo {reg40}
 qstr_Skill_points_{reg41}|Puntos de habilidad {reg41}
 qstr_Weapon_points_{reg42|Puntos de habilidad en armas {reg42}
@@ -176,7 +186,7 @@ qstr_Infantry_Machine^^Gu|Tacticas de Infantería ^^con ametralladoras
 qstr_Covering_Fire|Fuego de Cobertura
 qstr_Gas_Attacks|Ataque de Gas
 qstr_Shock_Troops|Tropas de Choque
-qstr_You_do_not_have_enou|No tienes suficiente dinero.
+qstr_Country_does_not_hav|Country does not have enough budget to start research.
 qstr_faction_technologies|Tecnologias de la facción disponible
 qstr_faction_technologies_|Tecnologias de la facción en progreso
 qstr_Rifled_Caplock^Muske|Rifled Caplock^Muskets
@@ -211,10 +221,10 @@ qstr_faction_technologies_photo_la|faction technologies photo lateshells
 qstr_faction_technologies_photo_sh|faction technologies photo shocktroops
 qstr_Modern_Defence^Tacti|Modern Defence^Tactics
 qstr_faction_technologies_photo_mo|faction technologies photo moderndefence
-qstr___already_invested_| (already invested)
+qstr___already_funded_| (already funded)
 qstr___already_researched| (already researched)
 qstr__Current_progress___| Current progress - {reg2}%.
-qstr_Cost___{reg0}_pounds|Cost - {reg0} pounds{s1}.^Available after {reg1} year.{s2}
+qstr_Cost___{reg0}_${s1}.|Cost - {reg0} ${s1}.^Available after {reg1} year.{s2}
 qstr_Select_Faction|Select Faction
 qstr_Start_Game|Start Game
 qstr_Chosen_Faction:^{s1}|Chosen Faction:^{s1}
@@ -261,14 +271,29 @@ qstr_Executive_Branch_Ele|Executive Branch Elective Posts
 qstr_Selected_by_State|Selected by State
 qstr_Partially_Elected|Partially Elected
 qstr_Mostly_Elected|Mostly Elected
-qstr_Military_Service_Ter|Military Service Term
-qstr_Short|Short
-qstr_Medium|Medium
-qstr_Long|Long
-qstr_Production_Safety_Re|Production Safety Regulations
+qstr_Maximum_Work_Hours|Maximum Work Hours
+qstr_Unlimited|Unlimited
+qstr_12_hours_a_day|12 hours a day
+qstr_10_hours_a_day|10 hours a day
+qstr_8_hours_a_day|8 hours a day
 qstr_Minimum_Wage|Minimum Wage
+qstr_No_Minimum|No Minimum
+qstr_Low_Minimum|Low Minimum
+qstr_Acceptable_Minimum|Acceptable Minimum
+qstr_Good_Minimum|Good Minimum
 qstr_Trade_Unions|Trade Unions
+qstr_Banned|Banned
+qstr_Allowed|Allowed
 qstr_Public_Meetings|Public Meetings
+qstr_Authorized_only|Authorized only
+qstr_Child_labour|Child labour
+qstr_Restrictions|Restrictions
+qstr_Outlawed|Outlawed
+qstr_Political_movements|Political movements
+qstr_Liberal_movement|Liberal movement
+qstr_Socialist_movement|Socialist movement
+qstr_Peace_movement|Peace movement
+qstr_You_cannot_change_ru|You cannot change ruling party ({reg1} days cooldown).
 qstr_Income_tax:_{reg10}%|Income tax: {reg10}%
 qstr_Goods_and_Services_t|Goods and Services tax: {reg10}%
 qstr_Import/Export_tax:_{|Import/Export tax: {reg11}%/{reg12}%
@@ -279,6 +304,7 @@ qstr_Healthcare_Expenses:|Healthcare Expenses: {reg10}%
 qstr_Slot:_not_selected|Slot: not selected
 qstr_Party:_not_selected|Party: not selected
 qstr_Party:_{reg1}___{s1}|Party: {reg1} - {s1}
+qstr_{reg1}|{reg1}
 qstr_N_A|N A
 qstr_Slot:_{reg1}|Slot: {reg1}
 qstr_JUST_MONIKA_JUST_MON|JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^
@@ -298,7 +324,7 @@ qstr__+| +
 qstr_Balance_change:{s1}{|Balance change:{s1}{reg10} pounds.
 qstr_BUY|BUY
 qstr_SELL|SELL
-qstr_Balance_change:_+0_p|Balance change: +0 pounds.
+qstr_Balance_change:_+0_$|Balance change: +0 $.
 qstr_Manage_share__Now_is|Manage share (Now is {reg10})%.
 qstr_Not_enough_money.|Not enough money.
 qstr_Price_history_chart:|Price history chart:
@@ -321,6 +347,18 @@ qstr_{s3}|{s3}
 qstr_{s2}|{s2}
 qstr_Same_type_of_factory|Same type of factory does already exist in this town.
 qstr_Initial_Capital:_{re|Initial Capital: {reg10} pounds.
+qstr_Army_of_{s1}|Army of {s1}
+qstr_Army_size:_{reg1}%|Army size: {reg1}%
+qstr__{reg2}.{reg3}%_to_q|-{reg2}.{reg3}% to quality of life
+qstr_Divisions|Divisions
+qstr_{reg1}_soldiers|{reg1} soldiers
+qstr_Garrisons|Garrisons
+qstr_soldiers_total|soldiers total
+qstr_Equipped_with_milita|Equipped with military supplies by
+qstr_{reg1}%|{reg1}%
+qstr_Supplied_with_ammuni|Supplied with ammunition by
+qstr_Equipped_with_weapon|Equipped with weapons by
+qstr_Combat_efficiency_of|Combat efficiency of army is
 qstr_vSeason|vSeason
 qstr_{s1}_of_{s3}_was_def|{s1} del {s3} fue derrotado en batalla, pero ha escapado.
 qstr_{s54}_is_a_claimant_|{s54} es uno de los pretendientes al trono del {s56}.
@@ -436,7 +474,7 @@ qstr_{s2}_{reg3?was:is}_b|{s2} {reg3?se encontraba:se encuentra} en cautividad e
 qstr_{s2}_{reg3?was:has_b|{s2} {reg3?estaba:ha sido} {reg4?capturada:capturado} por sus enemigos.
 qstr_{reg3?{s2}_s_locatio|{reg3?Se desconoce la localización de {s2}:No sé dónde está {s2}}.
 qstr_{s6}_has_joined_your|{s6} se ha unido a vuestro grupo
-qstr_You_now_owe_{reg2}_p|You now owe {reg2} pounds to {s1}.
+qstr_You_now_owe_{reg2}_$|You now owe {reg2} $ to {s1}.
 qstr_Renown_value_for_thi|Si ganáis esta batalla, vuestro renombre aumentará en {reg8} puntos.
 qstr_You_have_run_into_a_|¡Habéis caído en una trampa!
 qstr_You_are_attacked_by_|¡Un grupo de bandidos os ataca!
@@ -481,7 +519,6 @@ qstr_Messenger_Post|un puesto de mensajería
 qstr_A_messenger_post_let|Un puesto de mensajería permite a los campesinos enviaros un mensaje cuando se acercan enemigos, incluso si estáis lejos.
 qstr_Prison_Tower|una torre de prisioneros
 qstr_A_prison_tower_reduc|Una torre de prisioneros reduce la posibilidad de que vuestros prisioneros se escapen.
-qstr_Prosperity_of_{s2}_h|La prosperidad de {s2} ha cambiado de {s3} a {s4}.
 qstr_{s4}_looks_upset.|{s4} parece alterado.
 qstr_your_party|vuestro grupo
 qstr_{reg0?One_of_your_pr|¡{reg0?Uno de vuestros prisioneros, :}{s1} de {s3} se ha escapado!
@@ -530,42 +567,48 @@ qstr_Belongs_to_{s31}|Belongs to {s31}
 qstr_Controlled_by_{s31}^|Controlled by {s31}^Belongs to {s32}
 qstr_{s31}_becomes_an_all|{s31} becomes an ally of {s32}.
 qstr_{s31}_breaks_an_alli|{s31} breaks an alliance with {s32}.
-qstr_Absolute_Monarchy|Absolute Monarchy
-qstr_Constitutional_Monar|Constitutional Monarchy
-qstr_Republic|Republic
+qstr_As_a_result_of_the_e|As a result of the elections, {s1} became the ruling party.
 qstr_Parliament_Compositi|Parliament Composition
 qstr_{s1}:_{reg1}%|{s1}: {reg1}%
+qstr_Not_a_ruling_party|Not a ruling party
 qstr_Ruling_party|Ruling party
 qstr_Influence:_{reg1}%|Influence: {reg1}%
 qstr_Annual_Income:_{reg1|Annual Income: {reg1}.{reg10} p.
+qstr_Quality_of_life:_{re|Quality of life: {reg2}.{reg10}%
+qstr_Current_budget:|Current budget:
+qstr_{reg10}_$|{reg10} $
 qstr_Corruption_level:_{r|Corruption level: {reg10}%
-qstr_+{reg10}_pounds|+{reg10} pounds
+qstr_+{reg10}_$|+{reg10} $
 qstr_Goods_and_services_t|Goods and services tax: {reg10}%
-qstr__{reg10}_pounds|-{reg10} pounds
+qstr__{reg10}_$|-{reg10} $
 qstr_Public_servants_wage|Public servants wage expenses:^-{reg10} pounds
+qstr_Other_expenses:^_{re|Other expenses:^-{reg10} $
 qstr_Lost_from_corruption|Lost from corruption: -{reg10} pounds
 qstr_Last_budget_change:^|Last budget change:^{reg10} pounds
+qstr_{reg1}.{reg2}%|{reg1}.{reg2}%
+qstr____| - 
 qstr_PPS_Faction_iteratio|PPS Faction iteration of {s1}.
 qstr_Center_iteration_of_|Center iteration of {s1}.
 qstr_{s1}_s_{s2}_Iteratio|{s1}'s {s2} Iteration:
 qstr_price_item_{s1}_raw_|price item {s1} raw resource1 {reg10} raw resource1 amount {reg11} output size {reg12}.
 qstr_Produced_{reg10}_wit|Produced {reg10} with {reg20} workers, raw resources multiplier was {reg30}.
-qstr_Spent_{reg10}_pounds|Spent {reg10} pounds for wage.
+qstr_Spent_{reg10}_$_for_|Spent {reg10} $ for wage.
 qstr_Searching_for_{s1}_i|Searching for {s1} in {reg10} centers.
 qstr_{s1}_has_{reg10}_of_|{s1} has {reg10} of {s2}.
 qstr_In_sum_bought_{reg1}|In sum, bought {reg1}/{reg10} of {s1}.
 qstr_Workers_unemployed__|Workers unemployed - {reg1}, employed {reg2} workers.
 qstr_{reg1}_thousands_of_|{reg1} thousands of population
-qstr_Daily_GDP_is_{reg1}_p|Daily GDP is {reg1} pounds^({reg2}% of {s1}'s economy).
+qstr_Daily_GDP_is_{reg1}_$|Daily GDP is {reg1} $^({reg2}% of {s1}'s economy).
 qstr_This_region_produces|This region produces increased amount of {s2}.
 qstr_Add_Workplaces^^Buyi|Add Workplaces^^Buying more equipment will increase^number of workplaces.
 qstr_Improve_Worker_Condi|Improve Worker Conditions^^Improving working conditions means inceasing^worker wage, improving production safety and,^in the end, introducing social benefits to workers.^This will increase quality of product^and increase factory attractiveness^for potential workers.
 qstr_Improve_Equipment^^T|Improve Equipment^^Thorough maintaining and improving factory^equipment increases quality of product, making^it more likely to be sold.
 qstr_No_development_mode.|No development mode.
+qstr_Workers_of_this_fact|Workers of this factory are on strike,^which means that its production output^is decreased by 95%.^^Strike is going to end in {reg10} days.
 qstr_{reg10}/{reg11}_work|{reg10}/{reg11} workers
-qstr_Budget:_{reg10}_poun|Budget: {reg10} pounds.
-qstr_Income:_{reg10}_poun|Income: {reg10} pounds.
-qstr_Spent_{reg10}_pounds_|Spent {reg10} pounds and earnt {reg11} pounds.
+qstr_Budget:_{reg10}_$.|Budget: {reg10} $.
+qstr_Income:_{reg10}_$.|Income: {reg10} $.
+qstr_Spent_{reg10}_$_and_|Spent {reg10} $ and earnt {reg11} $.
 qstr_Managed_to_buy_{reg1|Managed to buy {reg10}% of needed raw resources^needed for production.
 qstr_Produced_{reg10}.{re|Produced {reg10}.{reg12} {s1} (sold {reg11}%).
 qstr_Quality_of_product_i|Quality of product is {reg10}%.
@@ -648,11 +691,9 @@ qstr_Supply___{reg11}.{re|Supply - {reg11}.{reg12} {s1}
 qstr_Demand___{reg11}.{re|Demand - {reg11}.{reg12} {s1}
 qstr_{reg10}._{s1}|{reg10}. {s1}
 qstr_{reg10}.{reg11}|{reg10}.{reg11}
-qstr____| - 
 qstr_{reg10}%|{reg10}%
 qstr_handicraft^only|handicraft^only
-qstr_{reg10}k_p.|{reg10}k p.
-qstr_{reg10}_p.|{reg10} p.
+qstr_{reg10}k_$|{reg10}k $
 qstr_{reg10}_mil.|{reg10} mil.
 qstr_{reg10}_th.|{reg10} th.
 qstr_{reg10}.{reg11}%|{reg10}.{reg11}%
@@ -673,13 +714,46 @@ qstr_Chance_to_build_fact|Chance to build factory in {s1} is {reg10}.{reg11}%.
 qstr_Building_factory_in_|Building factory in {s1}
 qstr_Price_of_{s1}_has_ch|Price of {s1} has changed by {reg10}.
 qstr_Urbanization_of_{s1}|Urbanization of {s1}'s center {s2} was increased by {reg10}.
-qstr_{reg10}._party_gives|{reg10}. party gives {reg11} votes
+qstr_{s1}_gives_{reg11}%_|{s1} gives {reg11}% votes.
+qstr_{reg10}%_of_parliame|{reg10}% of parliament voted for bill. Bill rejected.
+qstr_{reg10}%_of_parliamen|{reg10}% of parliament voted for bill. Bill accepted.
 qstr_{s1}_rural_wealth_{r|{s1} rural wealth {reg10} urban wealth {reg11} middle wealth {reg12} bourgeoisie wealth {reg13} aristocracy wealth {reg14} sum wage {reg15} gdp rural {reg16} gdp urban {reg17} population root {reg18}
 qstr_{s1}_cannot_launch_g|{s1} cannot launch grenade attack - {reg1} seconds cooldown.
 qstr_{s1}_cannot_launch_ga|{s1} cannot launch gas attack - {reg1} seconds cooldown.
 qstr_You_became_a_high_co|You became a high command officer, which means you are free to act independent during service.
 qstr_You_became_a_non_com|You became a non-commissioned officer, which means you will now command troops in battle.
 qstr_You_became_a_marshal|You became a marshall of {s10}, which means you can start and manage campaigns.
+qstr_{s50}_{s51}|{s50} {s51}
+qstr_Your_government_type|Your government type doesn't allow to manage this factory.
+qstr_Unable_to_manage_ene|Unable to manage enemy faction's factory.
+qstr_{s1}:_Peaceful_demon|{s1}: Peaceful demonstration in support of social welfare! Citizens of {s2} gathered on the main square of the city, calling on the government to intervene in the worsening situation of dire working conditions.
+qstr_The_demonstration_en|The demonstration ended without a response from the government.
+qstr_The_police_dispersed|The police dispersed the crowd, but managed to do it without victims.
+qstr___Massacre_in_{s2}!_|''Massacre in {s2}!'' The police started shooting at peaceful protesters, at least {reg10} people were wounded.
+qstr_{s1}:_Workers_in_{s2|{s1}: Workers in {s2} have sabotaged production in {s3} in protest of bad working conditions! Machinery has been damaged severely.
+qstr_{s1}:_Riot_in_{s2}!_|{s1}: Riot in {s2}! {s3} has been damaged after group of workers caused a commotion in protest of bad working conditions.
+qstr_{s1}:_Workers_of_{s2|{s1}: Workers of {s2} have gone on a strike in the {s3}, in protest of poor working conditions and low wages. The strike is set to continue for the following {reg4} days, strike leaders say.
+qstr_{s1}:_Workers_in_{s2}|{s1}: Workers in {s2} have initiated a strike in the {s3} in protest of bad working conditions. The strike will end in {reg4} days.
+qstr_{s1}:_Strike_in_{s2}|{s1}: Strike in {s2}! All labour activity has stopped in {s3} as workers fight against the current working conditions. The strike will continue for {reg4} more days.
+qstr_{s1}_in_{s2}|{s1} in {s2},
+qstr__{s1}_in_{s2}| {s1} in {s2},
+qstr_{s1}:_Worker_unions_|{s1}: Worker unions have called for a general strike! United in protest, workers have joined the picket lines in {s3}{s4}{s5}{s6}{s7}!
+qstr_{s3}_s_police_arrest|{s3}'s police arrests {reg1} political figures supporting {s1}. Alongside the arrests, the government has also announced the banning of the movements newspaper. ^^Effect: {s1}'s influence decreases.
+qstr_{s3}:_Mass_arrests_o|{s3}: Mass arrests of pro-{s1} politicians. Major portions of {s1} supporters are forced into clandestine efforts as open agitation has become dangerous.^^Effect: {s1}'s influence decreases.
+qstr___Arrested!___Famous|''Arrested!'' Famous opposition politicians from {s1} in {s3} have been publicly declared enemy of the state and have been arrested or forced into hiding.^^Effect: {s1}'s influence decreases.
+qstr_{s3}_s_officials_fac|{s3}'s officials face backlash after efforts to undermining the opposition have been discovered. ^^Effect: {s2}'s influence decreases.
+qstr_{s3}:___Outrageous!_|{s3}: ''Outrageous!'' Political observers have discovered vile plans by the {s2}.^^Effect: {s2}'s influence decreases.
+qstr_{s3}:_{s2}_has_lost_|{s3}: {s2} has lost standing in the public eye after a scandal manifests itself within the party ranks.^^Effect: {s2}'s influence decreases.
+qstr_{s3}:_{s2}_has_been_|{s3}: {s2} has been found guilty of attempting to cover up a break-in of the opposition's headquarters in the capital.^^Effect: {s2}'s influence decreases.
+qstr_{s3}:_{s1}_was_fined|{s3}: {s1} was fined ${reg2} over involvement in an illegal financial scheme. ^^Effect: {s1}'s influence decreases.
+qstr___Corruption_scandal|''Corruption scandal in {s3}'': {s1} faced backlash after members were found trying to bribe officials.^^Effect: {s1}'s influence decreases.
+qstr_{s3}:_Famous_politic|{s3}: Famous politician {s4} from {s1} discovered to have been involved in a recent financial scandal, discrediting his party in the eyes of the voters.^^Effect: {s1}'s influence decreases.
+qstr_{s1}_s_government_ha|{s1}'s government has been changed to {s2}.
+qstr_Constitutional_Dual_|Constitutional Dual Monarchy
+qstr_Absolute_Monarchy|Absolute Monarchy
+qstr_Constitutional_Monar|Constitutional Monarchy
+qstr_Republic|Republic
+qstr_Soviet_Republic|Soviet Republic
 qstr_{reg0}._Company_has_|{reg0}. Company has switched to walking.
 qstr_{reg0}._Company_has_s|{reg0}. Company has switched to running.
 qstr_{s1}_cannot_change_f|{s1} cannot change formation - only light infantry can apply extended line formation.
@@ -816,9 +890,9 @@ qstr_{s9}_wants_you_to_fo|{s9} quiere que sigáis a su ejército hasta que os in
 qstr_The_local_road_netwo|The local road network connects {s2} to the cities of {s60}, {s61} and {s62}. This region has access to the sea.
 qstr_The_local_road_networ|The local road network connects {s2} to the cities of {s60}, {s61} and {s62}.
 qstr_{s8}_of_{s9}|{s8} del {s9}
-qstr__Your_own_banner_fli| Vuestro estandarte ondea sobre las puertas del castillo.
+qstr__Your_nation_flag_fl| Your nation flag flies over the fort gate.
 qstr__You_see_the_banner_| Veis el estandarte de {s7} ondeando sobre las puertas del castillo.
-qstr__Your_own_banner_flie| Vuestro estandarte ondea sobre las puertas de la ciudad.
+qstr__Your_own_banner_fli| Vuestro estandarte ondea sobre las puertas del castillo.
 qstr__You_see_the_banner_o| Veis el estandarte de {s7} ondeando sobre las puertas de la ciudad.
 qstr_Cannot_besiege:_too_|Cannot besiege: too far from any center of your faction (closest centers to this {reg6?town:castle} are {s60}, {s61} and {s62}) and can't be besieged from the sea.
 qstr_The_{reg6?town_s:cas|Las reservas de comida {reg6?de la ciudad:del castillo} deberían durar {reg3} días más.
@@ -860,9 +934,10 @@ qstr_Luckily_some_passing|Por fortuna, algunos campesinos os encuentran en la cu
 qstr_You_fail_to_steal_an|Sois incapaz de robar el ganado.
 qstr_You_drive_away_{reg1|Sacáis {reg17} {reg12?cabezas:cabeza} de ganado del rebaño de la aldea.
 qstr_You_are_at_{s2}.|Estáis en {s2}.
+qstr__You_see_the_flag_of| You see the flag of {s7} over the town gates.
 qstr__This_castle_has_no_| Este castillo no tiene guarnición.
 qstr__Your_own_flag_flies| Your own flag flies over the town gates.
-qstr__You_see_the_flag_of| You see the flag of {s7} over the town gates.
+qstr__You_see_the_flag_of_| You see the flag of {s7} over the town gates.
 qstr__This_town_has_no_ga| Esta ciudad no tiene guarnición.
 qstr__You_have_successful| Habéis sido capaz de pasar sin que os detectaran.
 qstr_{s13}_A_tournament_w|{s13} Pronto se celebrará un torneo aquí.
@@ -896,6 +971,7 @@ qstr_Temperature:_+{reg0}|Temperature: +{reg0} C ^Pressure: {reg1} hPa ^Humidity
 qstr_Romanian_Principalit|Romanian Principalities
 qstr_Kingdom_of_Wurttembe|Reino de Wurttemberg
 qstr_Principality_of_Serb|Principado de Serbia
+qstr_Kingdom_of_Bavaria|Kingdom of Bavaria
 qstr_Kingdom_of_Hannover|Reino de Hannover
 qstr_French_Empire|Imperio Francés
 qstr_Austrian_Empire|Imperio Austriaco
@@ -909,6 +985,7 @@ qstr_German_Empire|Imperio Alemán
 qstr_Kingdom_of_Romania|Reino de Rumania
 qstr_Kingdom_of_Serbia|Reino de Serbia
 qstr_Kingdom_of_Bulgaria|Reino de Bulgaria
+qstr_Kingdom_of_Norway|Kingdom of Norway
 qstr_Principality_of_Alba|Principado de Albania
 qstr_You_have_bought_a_fi|Has comprado un cañon de campaña.
 qstr_You_have_exceeded_pa|Has excedido el limite de tu ejercito.
@@ -920,6 +997,10 @@ qstr_You_have_bought_a_ma|Has comprado una Ametralladora Pesada.
 qstr_Not_available_for_th|No disponible para esta Facción.
 qstr_Declare_war_on_Serbi|Declarar la guerra a Serbia.
 qstr_Join_league.|Entrar a la Liga.
+qstr_Join_Serbia_and_Gree|Join Serbia and Greece and declare war on Bulgaria.
+qstr_Days_after_peaceful_|Days after peaceful protests began, backlashes from many organizations, still not yet bore a fruit. The government decided to ignore the demands from the protesters. The government has only given them pain instead of listening them for fair investigations, leading to more and more widespread protests across the country. And now, the government has two decision, whether to comply or just simply, refuse.^^Effects: Socialist movement popularity increased by 10%.
+qstr_After_hearing_about_|After hearing about the protests, being a nuisance for the government, the government decided to dispatch some policemen to disperse the crowd of protesters by non-lethal means. They tried to disperse the crowd with whips and baton and it resulted in a success. Some of the protesters thrown rocks and debris to the officers but all of them have been arrested in the following afternoon. The last of the protesters finally dispersed after some of the demonstration leaders escaped the scene.^^Effects: Socialist movement popularity increased by 5%. Socialist movement radicalism increased by 3%.
+qstr_At_noon_when_the_dem|At noon, when the demonstration leader was making a speech about their demands infront of the crowd of protesters, troops and policemen entered the scene to disperse the crowd. Unfortunately, the government ordered the dispersion with a violent way. Then, soldiers opened fire on the protesters, killing and wounding many people. Others, tried to flee from the scene, ran either wounded or dying. Few managed to hide from the law enforcement and the dispersion is successful. The government quickly received backlashes from peace organizations, socialists and even foreign countries alike, thus souring foreign relations. ^^ Socialist movement radicalism increased by 10%.
 qstr_Breaking_camp...|Levantando el campamento...
 qstr_The_{s31}_gets_1_inf|El {s31} obtiene 1 de infamia por estar en una guerra prolongada con {s32}.
 qstr_Party_has_nothing_to|¡El grupo no tiene nada para comer!
@@ -945,6 +1026,28 @@ qstr_The_year_is_{reg0}.|The year is {reg0}.
 qstr_North_German_Confede|North German Confederation
 qstr_Finished_improving_r|Finished improving relations with {s31}.
 qstr_Interrupted_improvin|Interrupted improving relations with {s31}.
+qstr_Albanian_Howitzer_Cr|Albanian Howitzer Crew Officer
+qstr_Albanian_Howitzer_Cre|Albanian Howitzer Crew Officers
+qstr_Albanian_Heavy_Howit|Albanian Heavy Howitzer Crew Officer
+qstr_Albanian_Heavy_Howitz|Albanian Heavy Howitzer Crew Officers
+qstr_Albanian_Field_Gun_C|Albanian Field Gun Crew Officer
+qstr_Albanian_Field_Gun_Cr|Albanian Field Gun Crew Officers
+qstr_Albanian_Howitzer_Crew|Albanian Howitzer Crew Cannoneer
+qstr_Albanian_Howitzer_Crew_|Albanian Howitzer Crew Cannoneers
+qstr_Albanian_Field_Gun_Cre|Albanian Field Gun Crew Cannoneer
+qstr_Albanian_Field_Gun_Crew|Albanian Field Gun Crew Cannoneers
+qstr_Albanian_MG_Operator|Albanian MG Operator
+qstr_Norwegian_Howitzer_C|Norwegian Howitzer Crew Officer
+qstr_Norwegian_Howitzer_Cr|Norwegian Howitzer Crew Officers
+qstr_Norwegian_Heavy_Howi|Norwegian Heavy Howitzer Crew Officer
+qstr_Norwegian_Heavy_Howit|Norwegian Heavy Howitzer Crew Officers
+qstr_Norwegian_Field_Gun_|Norwegian Field Gun Crew Officer
+qstr_Norwegian_Field_Gun_C|Norwegian Field Gun Crew Officers
+qstr_Norwegian_Howitzer_Cre|Norwegian Howitzer Crew Cannoneer
+qstr_Norwegian_Howitzer_Crew|Norwegian Howitzer Crew Cannoneers
+qstr_Norwegian_Field_Gun_Cr|Norwegian Field Gun Crew Cannoneer
+qstr_Norwegian_Field_Gun_Cre|Norwegian Field Gun Crew Cannoneers
+qstr_Norwegian_MG_Operato|Norwegian MG Operator
 qstr_Bulgarian_Howitzer_C|Bulgarian Howitzer Crew Officer
 qstr_Bulgarian_Howitzer_Cr|Bulgarian Howitzer Crew Officers
 qstr_Bulgarian_Heavy_Howi|Bulgarian Heavy Howitzer Crew Officer
@@ -973,6 +1076,8 @@ qstr_Queen_Victoria|Queen Victoria
 qstr_President_Patrice_de|President Patrice de MacMahon
 qstr_Kaiser_Wilhelm_I|Kaiser Wilhelm I
 qstr_King_Wilhelm_III|King Wilhelm III
+qstr_Your_country_is_bank|Your country is bankrupt!
+qstr_Government_type_was_|Government type was changed to Republic.
 qstr_{reg65?my_Lady:my_Lo|{reg65?mi Señora:mi Señor}
 qstr_{reg65?My_Lady:My_Lo|{reg65?Mi Señora:Mi Señor}
 qstr_{reg65?madame:sir}|{reg65?dama:señor}
@@ -1003,6 +1108,14 @@ qstr_You_have_my_blessing|You have my blessings, go ahead.
 qstr_Let_s_not_act_rashly|Let's not act rashly. We have all the time we need, let's wait.
 qstr_Hold_it_then_we_can_|Hold it, then, we can't get ourselves condemned by a dozen nations at once!
 qstr_This_will_be_unneces|This will be unnecessary bloodshed through and through. Hold off on it.
+qstr_With_our_state_contr|With our state-controlled press, we can surely achieve a good result.
+qstr_Because_of_free_pres|Because of free press laws in our country, campaign will not be much effective.
+qstr_With_our_censorship_|With our censorship, we will be able to significantly reduce influence of our political opponents and get quite good results.
+qstr_I_want_to_start_repr|I want to start repressions against our political opponents.
+qstr_We_need_to_decrease_|We need to decrease influence of our opponents in the political arena.
+qstr_Most_certainly._Arre|Most certainly. Arrests of influential figures of the political opposition will undermine their positions in the political arena and strengthen ours. Investigation will take 10 days and {reg1} pounds per day.
+qstr_Most_certainly._Few_|Most certainly. Few revelatory articles condemning our opponents in illegal actions, aiding enemy and treason will dishonor them before the eyes of our people, and strengthen our position. The whole process will take 10 days and {reg1} pounds per day.
+qstr_However_in_case_of_f|However, in case of failure, our opponents can condemn us as answer to our actions.
 qstr_{playername}_when_we|{playername}, cuando comencé mi larga andadura, poca gente tuvo el coraje de apoyarme. Mucho menos aún de arriesgar su vida por mi causa. Pero vos no os lo pensasteis dos veces y cargasteis contra mis enemigos. Hemos pasado por muchas cosas juntos, y hubo momentos en los que casi perdí la esperanza. Pero con la ayuda de Dios hemos prevalecido. Es tiempo para mí de abandonaros  y tomar lo que es mío por derecho. De hoy en adelante asumiré la gran responsabilidad de gobernar {s3}. Sé que aún nos esperan muchos desafíos y cuento con vuestra ayuda para superarlos. Y por supuesto, no habrá mejor vasallo para mí que vos.
 qstr__We_will_of_course_n| Por supuesto tendremos que esperar a que el reino no esté en campaña.
 qstr_I_am_{s4}_the_ruler_|Soy el {s4}, el regente del {s6}
@@ -1083,3 +1196,7 @@ qstr_{s6}_Our_{reg4?town:|{s6} {reg4?Nuestra ciudad:Nuestra aldea} y las tierras
 qstr_{s6}_Our_{reg4?town:v|{s6} {reg4?Nuestra ciudad:Nuestra aldea} y las tierras colindantes pertenecen al {s7} del {s8}.
 qstr_{s3}_and_{s5}|{s3} y {s5}
 qstr_{reg20?We_mostly_pro|{reg20?Aquí producimos sobre todo {s5}:Actualmente no producimos casi nada}. Si queréis saber más, podéis hablar con nuestro {reg4?maestro de la cofradía:anciano}. Está justo allí.
+qstr_riot|riot
+qstr__1_| 1 
+qstr_2|2
+qstr_The_truce_between_{s|The truce between {s1} and {s2} has expired.

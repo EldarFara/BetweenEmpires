@@ -1832,6 +1832,15 @@ str_trade_explanation_flax|Ben keten tohumu ekip yetiştirip keten lifleri yapma
 str_trade_explanation_dates|Hurma korularına göz kulak oluyorum. Onları iyi sulayarak büyütür, meyvelerini uzaklara ihraç ederiz, çünkü doğru kurutulduklarında aylarca muhafaza edilebilirler. Bal gibi tatlıdırlar ve onları yiyene kuvvet ve sağlık bahşederler.
 str_trade_explanation_olives|Zeytin ağaçları yetiştiriyorum. İster yer, isterseniz de salamuraya yatırabilirsiniz. Fakat biz çoğunluğunu yağının çıkartılması için satıyoruz.
 str_s14_i_hear_that_you_can_find_a_good_price_for_it_in_s15|{s14}. Duyduklarıma göre en iyi fiyatı {s15} civarlarında bulabilirsin.
+str_reg13|{reg13}
+str_reg14|{reg14}
+str_reg15|{reg15}
+str_reg16|{reg16}
+str_reg17|{reg17}
+str_reg18|{reg18}
+str_reg19|{reg19}
+str_reg20|{reg20}
+str_reg21|{reg21}
 str_s2s_rebellion|{s2} İsyanı
 str_political_suggestion|Politik tavsiye
 str_instability_reg0_of_lords_are_disgruntled_reg1_are_restless|Dayanıklılık: Lordların %{reg0} oranında moralsiz , {reg1}% oranında yorgun.
@@ -3044,15 +3053,6 @@ str_reg9|{reg9}
 str_reg10|{reg10}
 str_reg11|{reg11}
 str_reg12|{reg12}
-str_reg13|{reg13}
-str_reg14|{reg14}
-str_reg15|{reg15}
-str_reg16|{reg16}
-str_reg17|{reg17}
-str_reg18|{reg18}
-str_reg19|{reg19}
-str_reg20|{reg20}
-str_reg21|{reg21}
 str_reg22|{reg22}
 str_reg23|{reg23}
 str_reg24|{reg24}
@@ -3296,6 +3296,7 @@ str_liberal_party|Liberal Party
 str_conservative_party|Conservative Party
 str_reactionary_party|Reactionary Party
 str_socialist_party|Socialist Party
+str_socialist_party_desc|Socialist Party
 str_royalists|Royalists
 str_slavophiles|Slavyanofily
 str_slavophiles_desc|Slavophilia is a movement that wanted the Russian Empire to be developed upon values and institutions derived from its early history. Slavophiles opposed the influences of Western Europe in Russia. They support authocracy, and are against political freedom. They value protectionism policy and support imperialist expansion.
@@ -3304,7 +3305,40 @@ str_liberals_desc|Liberals are a group of intellectuals who believe that Russia'
 str_legitimists|Légitimistes
 str_bonapartists_liberal|Bonapartistes Libéraux
 str_bonapartists_auth|Bonapartistes Autoritaires
+str_bonapartists|Bonapartistes
+str_soyuz17okt|Soyuz 17 Oktyabrya
+str_soyuz17okt_desc|The Union of October 17, commony known as the Octobrist Party, is a moderate right-wing political party of influential landowners, entrepreneurial groups and Imperial officials. It represents conservative, anti-revolutionary, and monarchist views, and supports imperialist expansionist policies.
+str_kadet|Kadety
+str_kadet_desc|The Constitutional Democratic Party is a centrist-liberal party which promotes a Western-style constitutional government. The party consists of liberal-minded landowners, the middle urban bourgeoisie (industrialists, merchants, bankers,..), teachers, doctors, and clerks. Kadets seeks complete liberalization of the government and a few, albeit crucial social reforms.
+str_rsdrp_b|RSDRP(b)
+str_rsdrp_b_desc|The Russian Social Democratic Labour Party is a socialist political party, mainly supported by the lower estates seeking major social reforms. The Bolshevik (''majority'') faction is a result of the RSDRP splitting due to internal conflicts. Bolsheviks are a more radical and pacifistic counterpart to the Mensheviks, seeking a world-wide proletarian revolution and a strict anti-war policy according to Marxist thought - their ultimate goal is centred around the establishment of a 'dictatorship of the proletariat' and a transition towards socialism.
+str_rsdrp_m|RSDRP(m)
+str_rsdrp_m_desc|The Russian Social Democratic Labour Party is a socialist political party, mainly supported by the lower estates seeking major social reforms. The Menshevik (''minority'') faction is a result of the RSDRP splitting due to internal conflicts. Mensheviks are the more moderate counterpart to the Bolsheviks, and are willing to compromise with the government and show little animosity towards more moderate liberal views. Mensheviks aim to improve the conditions of the working class gradually, through reformation rather than outright revolution, and, despite the name, is decisively more popular among liberals than the Bolsheviks. 
+str_bonapartists_desc|Bonapartistes
+str_russian_socialist|RSDRP
+str_russian_socialist_desc|Rossiyskaya sotsial-demokraticheskaya rabochaya partiya
+str_french_internationale|Internationale ouvrière
+str_french_internationale_desc|Section française de l'Internationale ouvrière
+str_austrian_conservative|Christlichsoziale Partei
+str_austrian_conservative_desc|Christlichsoziale Partei
+str_austrian_liberal|Progressive Partei
+str_austrian_liberal_desc|Progressive Partei
+str_austrian_socialist|Sozialdemokratische Partei
+str_austrian_socialist_desc|SPÖ
+str_german_nlp|Nationalliberale Partei
+str_german_nlp_desc|The National Liberal Party is a party supporting the common ideals of liberalism and nationalism. One of its defining wings is the Nationalstaat-Flügel, which emphasizes the power of the state in order to enforce it's own power over it's citizens. National Liberal Party usually supports aggressive foreign policy, while standing for liberalization in the economic field. Social welfare is also popular among German liberals.
+str_german_conservative|Deutschkonservative Partei
+str_german_conservative_desc|The Conservative party consists of reactionaries and stands for traditionalism and protectionist trade policy whilst standing against the fledgling German welfare state and the SPD. Conservatives also support Imperialist expansion, seeking the elusive ''Place in the sun'', and supporting governmental chauvinistic foreign policy.
+str_german_progressive|Fortschrittspartei
+str_german_progressive_desc|The Progress Party is a German liberal party. Unlike the National Liberal Party, the Progress Party represents interests of less wealthy bourgeoisie groups, standing for the Rechtsstaat, which emphasizes civil rights over state control. While strongly supporting social welfare, the Progressive Party still stands for limited interference in the economy from the government, and for neutral foreign policy, seeking a hard limit on military spending in Prussia and Germany.
+str_german_socialist|Sozialdemokratische Partei
+str_german_socialist_desc|Sozialdemokratische Partei
 str_republicains|Républicains
+str_republicains_desc|Républicains
+str_republicains_moderes|Républicains modérés
+str_republicains_moderes_desc|Républicains modérés
+str_gauche_radicale|Gauche radicale
+str_gauche_radicale_desc|Gauche radicale
 str_lantmannapartiet|Lantmannapartiet
 str_centern|Centern
 str_radical_left|Parti Radical-Démocratique
@@ -3326,6 +3360,8 @@ str_party_color9|party color9
 str_party_color10|party color10
 str_party_color11|party color11
 str_party_color12|party color12
+str_party_color13|party color13
+str_party_color14|party color14
 str_smokepillar1_01|smokepillar1 01
 str_smokepillar1_02|smokepillar1 02
 str_smokepillar1_03|smokepillar1 03
@@ -3561,3 +3597,503 @@ str_pas_rank_gre_8|Taxiarchos (8)
 str_pas_rank_gre_9|Hypostrategos (9)
 str_pas_rank_gre_10|Strategos (10)
 str_vickers2b|vickers2b
+str_lord_name_british1|Edward
+str_lord_name_british2|Henry
+str_lord_name_british3|John
+str_lord_name_british4|William
+str_lord_name_british5|George
+str_lord_name_british6|Robert
+str_lord_name_british7|Charles
+str_lord_name_british8|Joseph
+str_lord_name_british9|James
+str_lord_name_british10|Thomas
+str_lord_surname_british1|Clarke
+str_lord_surname_british2|Lewis
+str_lord_surname_british3|Thompson
+str_lord_surname_british4|Price
+str_lord_surname_british5|Smith
+str_lord_surname_british6|Davis
+str_lord_surname_british7|Joestar
+str_lord_surname_british8|Brown
+str_lord_surname_british9|Davies
+str_lord_surname_british10|Jones
+str_lord_name_russian1|Vasiliy
+str_lord_name_russian2|Maksim
+str_lord_name_russian3|Alexander
+str_lord_name_russian4|Nikolay
+str_lord_name_russian5|Kirill
+str_lord_name_russian6|Yevgeniy
+str_lord_name_russian7|Vladimir
+str_lord_name_russian8|Ilya
+str_lord_name_russian9|Ivan
+str_lord_name_russian10|Mihail
+str_lord_surname_russian1|Vasilyev
+str_lord_surname_russian2|Nikolayev
+str_lord_surname_russian3|Pavlov
+str_lord_surname_russian4|Rybin
+str_lord_surname_russian5|Ponomaryov
+str_lord_surname_russian6|Melnikov
+str_lord_surname_russian7|Andreyev
+str_lord_surname_russian8|Ivanov
+str_lord_surname_russian9|Alexandrov
+str_lord_surname_russian10|Petrov
+str_lord_name_spanish1|Juan
+str_lord_name_spanish2|José
+str_lord_name_spanish3|Francisco
+str_lord_name_spanish4|Joaquín
+str_lord_name_spanish5|Miguel
+str_lord_name_spanish6|Antonio
+str_lord_name_spanish7|Carlos
+str_lord_name_spanish8|Martín
+str_lord_name_spanish9|Santiago
+str_lord_name_spanish10|Alejandro
+str_lord_surname_spanish1|de la Cruz
+str_lord_surname_spanish2|Aguilar
+str_lord_surname_spanish3|Albornoz
+str_lord_surname_spanish4|Castells
+str_lord_surname_spanish5|Muñoz
+str_lord_surname_spanish6|Álvarez
+str_lord_surname_spanish7|de Acevedo
+str_lord_surname_spanish8|Blanco y Erenas
+str_lord_surname_spanish9|Echeverría
+str_lord_surname_spanish10|Díaz de Cevallos
+str_lord_name_french1|Jean
+str_lord_name_french2|Louis
+str_lord_name_french3|Pierre
+str_lord_name_french4|Joseph
+str_lord_name_french5|Henri
+str_lord_name_french6|Georges
+str_lord_name_french7|Rene
+str_lord_name_french8|Francois
+str_lord_name_french9|Ferdinand
+str_lord_name_french10|Maurice
+str_lord_surname_french1|Toussaint
+str_lord_surname_french2|Lavigne
+str_lord_surname_french3|Monet
+str_lord_surname_french4|Dupont
+str_lord_surname_french5|Moulin
+str_lord_surname_french6|Lannes
+str_lord_surname_french7|Dubois
+str_lord_surname_french8|Laurent
+str_lord_surname_french9|Arsenault
+str_lord_surname_french10|Cartier
+str_lord_name_german1|Karl
+str_lord_name_german2|Wilhelm
+str_lord_name_german3|Heinrich
+str_lord_name_german4|Gunther
+str_lord_name_german5|Otto
+str_lord_name_german6|Adalbert
+str_lord_name_german7|Ludwig
+str_lord_name_german8|Friedrich
+str_lord_name_german9|Maximillian
+str_lord_name_german10|Erich
+str_lord_surname_german1|von Bohm
+str_lord_surname_german2|Schmidt
+str_lord_surname_german3|von Prittwitz
+str_lord_surname_german4|Vogel
+str_lord_surname_german5|Hahn
+str_lord_surname_german6|Graf
+str_lord_surname_german7|von Humboldt
+str_lord_surname_german8|Richter
+str_lord_surname_german9|von Richtofen
+str_lord_surname_german10|von Graff
+str_lord_name_italian1|Matteo
+str_lord_name_italian2|Antonio
+str_lord_name_italian3|Alessandro
+str_lord_name_italian4|Eduardo
+str_lord_name_italian5|Luca
+str_lord_name_italian6|Roberto
+str_lord_name_italian7|Giuseppe
+str_lord_name_italian8|Luigi
+str_lord_name_italian9|Francesco
+str_lord_name_italian10|Armando
+str_lord_surname_italian1|Ricci
+str_lord_surname_italian2|Bianchi
+str_lord_surname_italian3|Rossi
+str_lord_surname_italian4|Costa
+str_lord_surname_italian5|Mancini
+str_lord_surname_italian6|Lombardi
+str_lord_surname_italian7|Graziani
+str_lord_surname_italian8|Fontanelli
+str_lord_surname_italian9|Lanza
+str_lord_surname_italian10|Romano
+str_lord_name_portuguese1|Manuel
+str_lord_name_portuguese2|Antonio
+str_lord_name_portuguese3|Luis
+str_lord_name_portuguese4|Afonso
+str_lord_name_portuguese5|Carlos
+str_lord_name_portuguese6|Joaquim
+str_lord_name_portuguese7|Teofilo
+str_lord_name_portuguese8|Roberto
+str_lord_name_portuguese9|Francisco
+str_lord_name_portuguese10|Fernando
+str_lord_surname_portuguese1|da Silva
+str_lord_surname_portuguese2|da Costa
+str_lord_surname_portuguese3|Alves
+str_lord_surname_portuguese4|Santos
+str_lord_surname_portuguese5|Pereira
+str_lord_surname_portuguese6|Fernandes
+str_lord_surname_portuguese7|Goncalves
+str_lord_surname_portuguese8|Machado
+str_lord_surname_portuguese9|Teixeira
+str_lord_surname_portuguese10|Carvalho
+str_lord_name_dutch1|Johan
+str_lord_name_dutch2|Willem
+str_lord_name_dutch3|Hendrik
+str_lord_name_dutch4|Jeroen
+str_lord_name_dutch5|Jan
+str_lord_name_dutch6|Bartholomeus
+str_lord_name_dutch7|Lodewijk
+str_lord_name_dutch8|Frederik
+str_lord_name_dutch9|Cornelis
+str_lord_name_dutch10|Karel
+str_lord_surname_dutch1|Dekker
+str_lord_surname_dutch2|de Graaf
+str_lord_surname_dutch3|Janssen
+str_lord_surname_dutch4|de Wit
+str_lord_surname_dutch5|de Vries
+str_lord_surname_dutch6|Bosch
+str_lord_surname_dutch7|Visser
+str_lord_surname_dutch8|de Groot
+str_lord_surname_dutch9|van Dijk
+str_lord_surname_dutch10|van den Berg
+str_lord_name_danish1|Sven
+str_lord_name_danish2|Olaf
+str_lord_name_danish3|Erasmus
+str_lord_name_danish4|Lars
+str_lord_name_danish5|Niels
+str_lord_name_danish6|Christian
+str_lord_name_danish7|Alfred
+str_lord_name_danish8|August
+str_lord_name_danish9|Frederik
+str_lord_name_danish10|Edvard
+str_lord_surname_danish1|Nielsen
+str_lord_surname_danish2|Christiansen
+str_lord_surname_danish3|Andersen
+str_lord_surname_danish4|Pedersen
+str_lord_surname_danish5|Madsen
+str_lord_surname_danish6|Jansen
+str_lord_surname_danish7|Rasmussen
+str_lord_surname_danish8|Poulsen
+str_lord_surname_danish9|Jorgensen
+str_lord_surname_danish10|Moller
+str_lord_name_swedish1|Sven
+str_lord_name_swedish2|Olaf
+str_lord_name_swedish3|Gustaf
+str_lord_name_swedish4|Karl
+str_lord_name_swedish5|Nils
+str_lord_name_swedish6|Petter
+str_lord_name_swedish7|Jens
+str_lord_name_swedish8|Erik
+str_lord_name_swedish9|Jakob
+str_lord_name_swedish10|Johan
+str_lord_surname_swedish1|Karlsson
+str_lord_surname_swedish2|Persson
+str_lord_surname_swedish3|Andersson
+str_lord_surname_swedish4|Pettersson
+str_lord_surname_swedish5|Magnusson
+str_lord_surname_swedish6|Svensson
+str_lord_surname_swedish7|Johansson
+str_lord_surname_swedish8|Larsson
+str_lord_surname_swedish9|Lindberg
+str_lord_surname_swedish10|Eriksson
+str_lord_name_norwegian1|Sven
+str_lord_name_norwegian2|Olaf
+str_lord_name_norwegian3|Erasmus
+str_lord_name_norwegian4|Lars
+str_lord_name_norwegian5|Nils
+str_lord_name_norwegian6|Petter
+str_lord_name_norwegian7|Jens
+str_lord_name_norwegian8|Erik
+str_lord_name_norwegian9|Jakob
+str_lord_name_norwegian10|Johan
+str_lord_surname_norwegian1|Berg
+str_lord_surname_norwegian2|Hagen
+str_lord_surname_norwegian3|Hansen
+str_lord_surname_norwegian4|Johnsen
+str_lord_surname_norwegian5|Kristiansen
+str_lord_surname_norwegian6|Larsen
+str_lord_surname_norwegian7|Olsen
+str_lord_surname_norwegian8|Johannessen
+str_lord_surname_norwegian9|Andreassen
+str_lord_surname_norwegian10|Jacobsen
+str_lord_name_turkish1|Kazim
+str_lord_name_turkish2|Mustafa
+str_lord_name_turkish3|Mehmet
+str_lord_name_turkish4|Enver
+str_lord_name_turkish5|Ahmet
+str_lord_name_turkish6|Deniz
+str_lord_name_turkish7|Celal
+str_lord_name_turkish8|Cemal
+str_lord_name_turkish9|Suleyman
+str_lord_name_turkish10|Nuri
+str_lord_surname_turkish1|Yilmaz
+str_lord_surname_turkish2|Demir
+str_lord_surname_turkish3|Sahin
+str_lord_surname_turkish4|Yildirim
+str_lord_surname_turkish5|Yavuz
+str_lord_surname_turkish6|Arslan
+str_lord_surname_turkish7|Khan
+str_lord_surname_turkish8|Pasha
+str_lord_surname_turkish9|Bey
+str_lord_surname_turkish10|Effendi
+str_lord_name_romanian1|Ion
+str_lord_name_romanian2|Anton
+str_lord_name_romanian3|Nicolae
+str_lord_name_romanian4|Mihai
+str_lord_name_romanian5|Alexandru
+str_lord_name_romanian6|Florian
+str_lord_name_romanian7|Teodor
+str_lord_name_romanian8|Marius
+str_lord_name_romanian9|Cristian
+str_lord_name_romanian10|Adrian
+str_lord_surname_romanian1|Radu
+str_lord_surname_romanian2|Ionescu
+str_lord_surname_romanian3|Popescu
+str_lord_surname_romanian4|Dumitrescu
+str_lord_surname_romanian5|Grigorescu
+str_lord_surname_romanian6|Teodorescu
+str_lord_surname_romanian7|Iliescu
+str_lord_surname_romanian8|Averescu
+str_lord_surname_romanian9|Berindei
+str_lord_surname_romanian10|Bratianu
+str_lord_name_bulgarian1|Boris
+str_lord_name_bulgarian2|Hristo
+str_lord_name_bulgarian3|Georgi
+str_lord_name_bulgarian4|Nikola
+str_lord_name_bulgarian5|Vasil
+str_lord_name_bulgarian6|Simeon
+str_lord_name_bulgarian7|Todor
+str_lord_name_bulgarian8|Dimitar
+str_lord_name_bulgarian9|Ivan
+str_lord_name_bulgarian10|Stoyan
+str_lord_surname_bulgarian1|Hristov
+str_lord_surname_bulgarian2|Stoyanov
+str_lord_surname_bulgarian3|Kovachev
+str_lord_surname_bulgarian4|Todorov
+str_lord_surname_bulgarian5|Kutinchev
+str_lord_surname_bulgarian6|Georgiev
+str_lord_surname_bulgarian7|Ivanov
+str_lord_surname_bulgarian8|Toshev
+str_lord_surname_bulgarian9|Petrov
+str_lord_surname_bulgarian10|Dimitrov
+str_lord_name_serbian1|Dragoljub
+str_lord_name_serbian2|Draza
+str_lord_name_serbian3|Radoslav
+str_lord_name_serbian4|Zivojin
+str_lord_name_serbian5|Pavle
+str_lord_name_serbian6|Petar
+str_lord_name_serbian7|Milan
+str_lord_name_serbian8|Milos
+str_lord_name_serbian9|Dusan
+str_lord_name_serbian10|Slobodan
+str_lord_surname_serbian1|Misic
+str_lord_surname_serbian2|Jovanovic
+str_lord_surname_serbian3|Ilic
+str_lord_surname_serbian4|Stojanovic
+str_lord_surname_serbian5|Milosevic
+str_lord_surname_serbian6|Radovanovic
+str_lord_surname_serbian7|Stankovic
+str_lord_surname_serbian8|Nedic
+str_lord_surname_serbian9|Mirkovic
+str_lord_surname_serbian10|Mirkovic
+str_lord_name_croatian1|Stjepan
+str_lord_name_croatian2|Svetozar
+str_lord_name_croatian3|Ivan
+str_lord_name_croatian4|Franjo
+str_lord_name_croatian5|Josip
+str_lord_name_croatian6|Marko
+str_lord_name_croatian7|Tomislav
+str_lord_name_croatian8|Nikola
+str_lord_name_croatian9|Leon
+str_lord_name_croatian10|Slobodan
+str_lord_surname_croatian1|Pavlovic
+str_lord_surname_croatian2|Vukovic
+str_lord_surname_croatian3|Sarkotic
+str_lord_surname_croatian4|Filipovic
+str_lord_surname_croatian5|Boroevic
+str_lord_surname_croatian6|Popovic
+str_lord_surname_croatian7|Barisic
+str_lord_surname_croatian8|Pavelic
+str_lord_surname_croatian9|Vlasic
+str_lord_surname_croatian10|Cervenko
+str_lord_name_polish1|Wladyslaw
+str_lord_name_polish2|Jozef
+str_lord_name_polish3|Mikolaj
+str_lord_name_polish4|Jan
+str_lord_name_polish5|Franciszek
+str_lord_name_polish6|Jakub
+str_lord_name_polish7|Zbigniew
+str_lord_name_polish8|Ignacy
+str_lord_name_polish9|Kazimierz
+str_lord_name_polish0|Janusz
+str_lord_surname_polish1|Nowak
+str_lord_surname_polish2|Kowalski
+str_lord_surname_polish3|Wisniewski
+str_lord_surname_polish4|Dabrowski
+str_lord_surname_polish5|Zielinski
+str_lord_surname_polish6|Adamowicz
+str_lord_surname_polish7|Poniatowski
+str_lord_surname_polish8|Kaminski
+str_lord_surname_polish9|Lewandowski
+str_lord_surname_polish10|Potocki
+str_lord_name_albanian1|Sali
+str_lord_name_albanian2|Omer
+str_lord_name_albanian3|Mehmet
+str_lord_name_albanian4|Enver
+str_lord_name_albanian5|Ahmet
+str_lord_name_albanian6|Ramiz
+str_lord_name_albanian7|Rexhep
+str_lord_name_albanian8|Turhan
+str_lord_name_albanian9|Ibrahim
+str_lord_name_albanian10|Mehdi
+str_lord_surname_albanian1|Hoxha
+str_lord_surname_albanian2|Shehu
+str_lord_surname_albanian3|Berisha
+str_lord_surname_albanian4|Halili
+str_lord_surname_albanian5|Leka
+str_lord_surname_albanian6|Koroveshi
+str_lord_surname_albanian7|Gashi
+str_lord_surname_albanian8|Dervishi
+str_lord_surname_albanian9|Brahimi
+str_lord_surname_albanian10|Berisha
+str_lord_name_arabic1|Jamal
+str_lord_name_arabic2|Omar
+str_lord_name_arabic3|Ahmed
+str_lord_name_arabic4|Usman
+str_lord_name_arabic5|Abdullah
+str_lord_name_arabic6|Muhammad
+str_lord_name_arabic7|Ali
+str_lord_name_arabic8|Yusuf
+str_lord_name_arabic9|Ibrahim
+str_lord_name_arabic10|Bashar
+str_lord_surname_arabic1|al Aziz
+str_lord_surname_arabic2|Amin
+str_lord_surname_arabic3|an Nasir
+str_lord_surname_arabic4|Hussain
+str_lord_surname_arabic5|Khan
+str_lord_surname_arabic6|Darwish
+str_lord_surname_arabic7|Abbas
+str_lord_surname_arabic8|Karim
+str_lord_surname_arabic9|Malik
+str_lord_surname_arabic10|Quraishi
+str_lord_name_armenian1|Khachaturi
+str_lord_name_armenian2|Hovhannes
+str_lord_name_armenian3|Hakob
+str_lord_name_armenian4|Nikol
+str_lord_name_armenian5|Arthur
+str_lord_name_armenian6|David
+str_lord_name_armenian7|Samuel
+str_lord_name_armenian8|Andranik
+str_lord_name_armenian9|Garegin
+str_lord_name_armenian10|Ruben
+str_lord_surname_armenian1|Sargsyan
+str_lord_surname_armenian2|Harutyunyan
+str_lord_surname_armenian3|Grigoryan
+str_lord_surname_armenian4|Hovhannisyan
+str_lord_surname_armenian5|Hakobyan
+str_lord_surname_armenian6|Ozanian
+str_lord_surname_armenian7|Petrosyan
+str_lord_surname_armenian8|Babadzhanian
+str_lord_surname_armenian9|Karapetyan
+str_lord_surname_armenian10|Bagramyan
+str_lord_name_azeri1|Mais
+str_lord_name_azeri2|Huseyn
+str_lord_name_azeri3|Mammad
+str_lord_name_azeri4|Ilham
+str_lord_name_azeri5|Ahmed
+str_lord_name_azeri6|Jafar
+str_lord_name_azeri7|Heydar
+str_lord_name_azeri8|Abdullah
+str_lord_name_azeri9|Ahsan
+str_lord_name_azeri10|Zakir
+str_lord_surname_azeri1|Aliyev
+str_lord_surname_azeri2|Mammadov
+str_lord_surname_azeri3|Huseynov
+str_lord_surname_azeri4|Hasanov
+str_lord_surname_azeri5|Guliyev
+str_lord_surname_azeri6|Ismayilov
+str_lord_surname_azeri7|Ahmadov
+str_lord_surname_azeri8|Abdullayev
+str_lord_surname_azeri9|Jafarov
+str_lord_surname_azeri10|Efendi
+str_lord_name_turkestan1|Ayubkhan
+str_lord_name_turkestan2|Bolatbek
+str_lord_name_turkestan3|Abdulloh
+str_lord_name_turkestan4|Fayzulla
+str_lord_name_turkestan5|Ahmed
+str_lord_name_turkestan6|Nasruddin
+str_lord_name_turkestan7|Muhammad
+str_lord_name_turkestan8|Abdullah
+str_lord_name_turkestan9|Ismail
+str_lord_name_turkestan10|Shavkat
+str_lord_surname_turkestan1|Niyaz
+str_lord_surname_turkestan2|Ghazni
+str_lord_surname_turkestan3|Usman
+str_lord_surname_turkestan4|Rahmon
+str_lord_surname_turkestan5|Akhmed
+str_lord_surname_turkestan6|Sharip
+str_lord_surname_turkestan7|Said
+str_lord_surname_turkestan8|Gul
+str_lord_surname_turkestan9|Khomid
+str_lord_surname_turkestan10|Beg
+str_lord_name_persian1|Jamshid
+str_lord_name_persian2|Mehran
+str_lord_name_persian3|Khosrow
+str_lord_name_persian4|Jahangir
+str_lord_name_persian5|Ahmed
+str_lord_name_persian6|Farroukh
+str_lord_name_persian7|Vahid
+str_lord_name_persian8|Javad
+str_lord_name_persian9|Abolhassan
+str_lord_name_persian10|Reza
+str_lord_surname_persian1|Pahlavi
+str_lord_surname_persian2|Farrokhzad
+str_lord_surname_persian3|Beg
+str_lord_surname_persian4|Banisadr
+str_lord_surname_persian5|Ghassemi
+str_lord_surname_persian6|Rajavi
+str_lord_surname_persian7|Sadegh
+str_lord_surname_persian8|Soleimani
+str_lord_surname_persian9|Rouhani
+str_lord_surname_persian10|Parsi
+str_lord_name_pashtun1|Mohammad
+str_lord_name_pashtun2|Abdul
+str_lord_name_pashtun3|Suhail
+str_lord_name_pashtun4|Ghulam
+str_lord_name_pashtun5|Ahmad
+str_lord_name_pashtun6|Amanullah
+str_lord_name_pashtun7|Ali
+str_lord_name_pashtun8|Abdullah
+str_lord_name_pashtun9|Mullah
+str_lord_name_pashtun10|Habibullah
+str_lord_surname_pashtun1|Shah
+str_lord_surname_pashtun2|Ghani
+str_lord_surname_pashtun3|Mirza
+str_lord_surname_pashtun4|Khan
+str_lord_surname_pashtun5|Haji
+str_lord_surname_pashtun6|Hassan
+str_lord_surname_pashtun7|Shaheen
+str_lord_surname_pashtun8|Dost
+str_lord_surname_pashtun9|Noor
+str_lord_surname_pashtun10|Massoud
+str_lord_name_greek1|Pavlos
+str_lord_name_greek2|Alexandros
+str_lord_name_greek3|Konstantinos
+str_lord_name_greek4|Panagiotis
+str_lord_name_greek5|Theodoros
+str_lord_name_greek6|Dimitris
+str_lord_name_greek7|Nikos
+str_lord_name_greek8|Kostas
+str_lord_name_greek9|Ioannis
+str_lord_name_greek10|Thanos
+str_lord_surname_greek1|Athanasiadis
+str_lord_surname_greek2|Papagos
+str_lord_surname_greek3|Papadopoulos
+str_lord_surname_greek4|Karamanlis
+str_lord_surname_greek5|Papandreou
+str_lord_surname_greek6|Stavrou
+str_lord_surname_greek7|Dimitriou
+str_lord_surname_greek8|Kalogeros
+str_lord_surname_greek9|Gavras
+str_lord_surname_greek10|Kouris

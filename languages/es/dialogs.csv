@@ -1,4 +1,4 @@
--dlga_award_fief_to_vassal:award_fief_to_vassal_defer|Quiero postergar el nombramiento de un nuevo señor hasta que lo consulte con mis súbditos
+dlga_award_fief_to_vassal:award_fief_to_vassal_defer|I wish to defer the appointment of a lord, until I take the counsel of my subjects
 dlga_award_fief_to_vassal_defer:close_window|Como deseéis, {señor/mi señora}. Podéis decidirlo más adelante.
 dlga_award_fief_to_vassal_2:close_window|Como deseéis, {señor/mi señora}. {reg6?Yo seré:{reg7?Vos seréis:{s11}}} {reg3?la nueva señora:el nuevo señor} de {s1}.
 dlga_event_triggered:center_captured_rebellion|Nadie administra a {s1}. ¿A quién debería poner al cargo?
@@ -144,7 +144,6 @@ dlga_member_castellan_join:close_window|Me he encariñado con este lugar... Pero
 dlga_member_castellan_join:member_castellan_pretalk|¿Y dónde dormiremos? Ya lleváis a todo un ejército con vos, {playername}, no hay sitio para todos nosotros.
 dlga_member_castellan_talk:close_window|[Irse]
 dlga_start:close_window.5|Vayámonos en cuanto esté todo listo.
-dlga_start:close_window.6|Por favor, no me hagáis perder el tiempo, {señor/señora}. Tal vez nos volvamos a ver.
 dlga_member_chat:kidnapped_girl_chat_1|¿Ya hemos llegado a casa?
 dlga_kidnapped_girl_chat_1:kidnapped_girl_chat_2|Aún no.
 dlga_kidnapped_girl_chat_2:close_window|Estoy deseando volver. Echo mucho de menos a mi familia, daría lo que fuera por volver a verlos.
@@ -267,7 +266,7 @@ dlga_merchant_quest_persuasion:merchant_quest_4b8|Me habéis convencido. Os ayud
 dlga_merchant_quest_persuasion:close_window|Como decía, tengo asuntos más importantes que atender.
 dlga_merchant_quest_2:merchant_quest_2a|Bien, id a buscar y derrotar a ese grupo de bandidos.
 dlga_merchant_quest_3:merchant_quest_3a|Bien, id a atacar esa guarida de bandidos, traed de regreso a mi hermano, y mostrad a esos rufianes lo que les ocurre a aquéllos que amenazan a mi familia.
-dlga_start:close_window.7|Muy bien. Lo habéis conseguido. No tengo nada más que decir.
+dlga_start:close_window.6|Por favor, no me hagáis perder el tiempo, {señor/señora}. Tal vez nos volvamos a ver.
 dlga_start:merchant_closing_statement_2|Ah... {playername}. Las cosas no han salido tan bien como yo esperaba. {s5} no quiso pasar por alto mi pequeña brecha al tratado de paz. Oh, me dio las gracias por haberme ocupado de su capitán corrupto... un guardia que deja entrar a bandidos dejaría entrar también a un pequeño ejército, por el precio adecuado... pero no quiere tenerme aquí como recordatorio viviente de su fracaso para hacerse cargo de sus propios asuntos.
 dlga_merchant_closing_statement_2:merchant_closing_statement_3|Eso no parece justo...
 dlga_merchant_closing_statement_3:merchant_closing_statement_4|¿Justo? ¡Esto es Calradia, {muchacho/mi señora}! Los reyes hacen lo que quieren, y el resto hacemos lo que debemos. No me ha colgado, en vez de eso me ha dado tiempo para vender mis propiedades... incluso ha hablado en mi favor a los otros mercaderes para que me ofrezcan un buen precio. Muy amable, tratándose de un rey... pero es un rey débil, como todos aquí, y los reyes débiles siempre preservan primero su autoridad, y luego la justicia. Supongo que yo haría lo mismo si estuviera en su lugar.
@@ -282,8 +281,8 @@ dlga_member_fief_grant_1:member_fief_grant_2|¿Qué feudo tenéis en mente?
 dlga_member_fief_grant_2:member_fief_grant_3|{s11}
 dlga_member_fief_grant_2:do_member_trade|No importa. No tengo feudos para ofrecer.
 dlga_member_fief_grant_3:close_window|{s5}
+dlga_start:close_window.7|Muy bien. Lo habéis conseguido. No tengo nada más que decir.
 dlga_start:close_window.8|¡Bien, {señor/señora}! Por favor, no os molestéis en tratar de levantaros del suelo, ya que tendría que volver a tumbaros. Tomaré vuestro silencio por una disculpa. Que tengáis buen día.
-dlga_start:close_window.9|Muy bien. Lo habéis conseguido. Me retracto. Espero que esto os satisfaga.
 dlga_start:companion_recruit_intro_response|{s5}
 dlga_companion_recruit_intro_response:companion_recruit_backstory_a|{s6}
 dlga_companion_recruit_intro_response:close_window|{s7}
@@ -393,7 +392,22 @@ dlga_declare_war_proceed_final_answer:declare_war_proceed_final_answer_completed
 dlga_declare_war_proceed_final_answer_completed:minister_pretalk|War has been declared, my highness.
 dlga_declare_war_proceed_final_answer:minister_pretalk|{s32}
 dlga_minister_pretalk:minister_talk|¿Hay algo que pueda hacer por vos?
-dlga_minister_talk:combined_political_quests|¿Tenéis ideas sobre cómo reforzar la unidad del reino?
+dlga_minister_talk:propaganda_initial|I want to start a new political campaign aimed at increasing public confidence in the government.
+dlga_propaganda_initial:minister_talk|There is already campaign in progress, which will end in {reg1} days.
+dlga_propaganda_initial:propaganda_ahead|Most certainly. With the right newspaper and magazine articles, and pushing certain political entities we can turn public opition in our favor. {s1} Campaign will long 30 days and will cost {reg1} pounds a day.
+dlga_propaganda_ahead:minister_pretalk|Go ahead.
+dlga_propaganda_ahead:minister_pretalk.1|Never mind.
+dlga_minister_talk:repression_initial|{s1}
+dlga_repression_initial:minister_talk|There already were investigation recently, we only will be able to get into new one in {reg1} days.
+dlga_repression_initial:repression_ahead|{s1}
+dlga_repression_ahead:repression_ahead_success|Go ahead and undermine positions of {s1}.
+dlga_repression_ahead_success:minister_pretalk|We will get right to it. {s1}
+dlga_repression_ahead:minister_pretalk|Never mind.
+dlga_minister_talk:sign_constitution1|I think time has come for our nation to sign the constitution and create legislative council.
+dlga_sign_constitution1:sign_constitution2|Most certainly. This is what our people want. Do you want us to go ahead and develop a constitution project?
+dlga_sign_constitution2:sign_constitution3|Yes.
+dlga_sign_constitution2:minister_pretalk|I changed my mind.
+dlga_sign_constitution3:minister_pretalk|Constituition will be created and signed in a short time, your highness.
 dlga_minister_talk:offer_gift_quest_complete|I have the materials for {s4}'s gift.
 dlga_offer_gift_quest_complete:close_window|Ah, dadme eso. Espero que esto acabe con vuestra disputa. Tal vez deseéis hablar con {reg4?ella:él}, y comprobar si he tenido éxito.
 dlga_minister_talk:minister_cancel_political_quest|Abandonemos nuestro plan de {s10}.
@@ -537,12 +551,12 @@ dlga_lord_groom_vows:female_pc_marriage_vow|Mi señora, con esta asamblea como t
 dlga_female_pc_marriage_vow:lord_groom_wedding_complete|Juro tomaros como esposo.
 dlga_female_pc_marriage_vow:close_window|Esperad. Necesito pensarlo.
 dlga_lord_groom_wedding_complete:close_window|Somos ya marido y mujer. ¡Que comiencen los festejos!
+dlga_start:close_window.9|Muy bien. Lo habéis conseguido. Me retracto. Espero que esto os satisfaga.
 dlga_start:close_window.10|¡Ja! No sois tan galante ahora, ¿eh? No me molestéis más.
 dlga_start:close_window.11|Muy bien. Habéis ganado. Que todos los presentes hoy vean que me habéis vencido y yo abandonaré mi cortejo de {s10}. ¿Estáis {satisfecho, desgraciado/satisfecha, desgraciada}?
 dlga_start:close_window.12|Levantaos. Que todos los presentes hoy vean que os he vencido, y que ahora tendréis que abandonar el cortejo de {s10}. Os permitiré una última visita para despediros. Después de eso, si volvéis a verla, todos sabrán que sois un hombre sin honor.
 dlga_start:close_window.13|Es maravilloso... ¡En breve estaremos casados! Aunque debo deciros que, según nuestras costumbres, los prometidos no deben hablar solos hasta estar casados.
 dlga_start:close_window.14|Oh, {playername}, puede que no conozcáis nuestras costumbres, pero esperaba que esperado que alguien os lo hubiera dicho... Por favor, hablad con mi {s11}, {s4}.
-dlga_start:close_window.15|No sé dónde encontrar a mi {s11} {s10}, que según las tradiciones es quien debe presidir nuestra boda. Tal vez debamos esperar hasta que alguien lo encuentre...
 dlga_start:player_siege_castle_commander_1|¿Qué queréis?
 dlga_player_siege_castle_commander_1:player_siege_ask_surrender|¡Rendíos! ¡Vuestra situación es desesperada!
 dlga_player_siege_castle_commander_1:close_window|Nada. Me retiro.
@@ -840,7 +854,6 @@ dlga_lord_recruit_1_relation:lord_pretalk.1|{s12}
 dlga_lord_recruit_1_relation:lord_recruit_pretender|Os habéis unido a la rebelión en apoyo de {s16}. ¿Habéis venido a hablar por {reg3?ella:él}?
 dlga_lord_recruit_pretender:lord_recruit_3_dilemma_1|Sí.
 dlga_lord_recruit_pretender:lord_recruit_1_relation|No. Tengo otro asunto que tratar.
-dlga_lord_recruit_1_relation:lord_pretalk.2|{s12}
 dlga_lord_recruit_1_relation:lord_recruit_2|{s12}
 dlga_lord_recruit_2:lord_recruit_2_philosophy|¿Qué opináis en general acerca de los reyes, señores y la política?
 dlga_lord_recruit_2:lord_spouse_leave_faction|Esposo mío, creo que debéis reconsiderar vuestra posición con respecto a {s11}
@@ -1332,27 +1345,27 @@ dlga_lord_suggest_follow_other_3:lord_pretalk|Como deseéis, acompañaré a {s1}
 dlga_lord_propose_mercenary:lord_mercenary_service|{playername}, sucede que prometí a {s10} que contrataría una compañía de mercenarios para su próxima campaña.
 dlga_lord_mercenary_service:lord_mercenary_service_reject|No me interesa, gracias.
 dlga_lord_mercenary_service:lord_mercenary_service_accept|Sí, me uniré al {s9}.
-dlga_lord_mercenary_service:lord_mercenary_elaborate_pay|Me interesa. Por favor, seguid.
+dlga_lord_mercenary_service:lord_mercenary_elabourate_pay|I'm interested. Please tell me more.
 dlga_lord_mercenary_service_accept:lord_mercenary_service_verify|Perfecto. Naturalmente, tendréis que hacer una declaración formal de vuestra lealtad, y prestar juramento de que vuestra compañía permanecerá al servicio de {s9} durante un periodo mínimo de tres meses.
 dlga_lord_mercenary_service_verify:lord_mercenary_service_verify_2|Como queráis. Vuestros enemigos son mis enemigos.
 dlga_lord_mercenary_service_verify:lord_mercenary_service_reject|Pensándolo mejor, olvidadlo.
 dlga_lord_mercenary_service_verify_2:lord_mercenary_service_accept_3|Con eso bastará. Habéis tomado la decisión correcta, os felicito. Al {s9} le va bien con sus leales guerreros, recibiréis muchas recompensas por vuestro servicio.
 dlga_lord_mercenary_service_accept_3:lord_pretalk|Ahora sugiero que os preparéis para una campaña difícil. Entrenad y equipad a vuestros soldados como mejor podáis mientras tanto, y responded rápidamente cuando se os requiera.
 dlga_lord_mercenary_service_reject:lord_pretalk|Lamento mucho escuchar eso. No encontraréis sitio mejor que el {s9}, tenedlo por seguro.
-dlga_lord_mercenary_elaborate_pay:lord_mercenary_elaborate_1|Puedo ofreceros un contrato por tres meses. Al término de esos tres meses, puede ser prorrogado mes a mes. Se os pagará una suma inicial de {reg12} Libras para sellar el contrato. Después de eso, recibiréis unos honorarios del {s10} cada semana, según el número y calidad de soldados de vuestra compañía. Seguís teniendo vuestro derecho a recoger el botín del campo de batalla, así como a todo prisionero que hagáis. La guerra puede ser muy provechosa en ocasiones...
-dlga_lord_mercenary_service_elaborate_duty:lord_mercenary_elaborate_1|Obligaciones... Sólo hay unas pocas, ninguna de ellas difícil. Lo primero es declarar vuestra fidelidad. Un juramento de lealtad a nuestra causa. Una vez hecho eso, se os requerirá que asumáis ciertas responsabilidades. Participaréis en campañas militares, asumiréis aquellas obligaciones que se os encomienden por parte de vuestros comandantes, y sobre todo atacaréis a los enemigos de nuestro reino allá donde estén.
-dlga_lord_mercenary_elaborate_1:lord_mercenary_service_elaborate_duty|¿Y qué hay de mis obligaciones como mercenario?
-dlga_lord_mercenary_elaborate_1:lord_mercenary_elaborate_castle|¿Puedo conservar alguno de los castillos que tome?
-dlga_lord_mercenary_elaborate_1:lord_mercenary_elaborate_banner|¿Puedo hacer ondear mi propio estandarte?
-dlga_lord_mercenary_elaborate_1:lord_mercenary_elaborate_pay|¿Cuánto me pagaréis por mis servicios?
-dlga_lord_mercenary_elaborate_1:lord_mercenary_service_accept|Suena bien. Deseo serviros en calidad de mercenario.
-dlga_lord_mercenary_elaborate_1:lord_mercenary_service_reject|Mis disculpas, pero no hago trabajos de pago.
-dlga_lord_mercenary_elaborate_castle:lord_mercenary_elaborate_1|Sólo mis leales vasallos pueden poseer tierras y castillos en mi reino, y todos mis vasallos son hombres.\No soy partidario de abandonar esta tradición sin tener una muy buena razón. Si servís bien en batalla, podréis jurarme lealtad y ser mi vasalla.\Luego hablaremos de cómo podéis conseguir un castillo.
-dlga_lord_mercenary_elaborate_castle:lord_mercenary_elaborate_1.1|Hmm... Sólo los vasallos leales a {s10} pueden ser dueños de tierras y castillos. Aunque hay reyes que a veces aceptan vasallaje de hombres que hayan probado su valía en batalla, nunca he visto a un rey que concediese un feudo a una mujer. Será mejor que discutáis esto con el mismo {s10}.
-dlga_lord_mercenary_elaborate_castle:lord_mercenary_elaborate_1.2|Sólo mis leales vasallos pueden poseer tierras y castillos en mi reino. No puedo confiar tal responsabilidad a un mercenario. Sin embargo, al servirme durante un tiempo, podréis jurarme lealtad y convertiros en mi vasallo. Os entregaré un feudo como recompensa.
-dlga_lord_mercenary_elaborate_castle:lord_mercenary_elaborate_1.3|Sólo los vasallos leales a {s10} pueden ser dueños de tierras y castillos. Comprenderéis que es imposible depositar tal responsabilidad en un simple mercenario. Sin embargo, tras servir durante un tiempo tal vez os concedan el derecho de poder jurar lealtad a {s10}. Se os entregaría un feudo como recompensa.
-dlga_lord_mercenary_elaborate_banner:lord_mercenary_elaborate_1|Sólo mis nobles vasallos tienen el honor de portar sus propios estandartes. No obstante, cuando llevéis un tiempo a mi servicio, podéis ganaros la oportunidad de jurarme lealtad y entrar a formar parte de mis vasallos, obteniendo el derecho a elegir un estandarte propio y acudir a la batalla con él.
-dlga_lord_mercenary_elaborate_banner:lord_mercenary_elaborate_1.1|Sólo los nobles vasallos del {s10} tienen el honor de portar sus propios estandartes. No obstante, tras un tiempo realizando tareas de mercenario, tal vez podáis ganaros la oportunidad de jurar lealtad al {s10} y entrar a formar parte de sus vasallos, obteniendo el derecho a elegir un estandarte propio y acudir a la batalla con él.
+dlga_lord_mercenary_elabourate_pay:lord_mercenary_elabourate_1|I can offer you a contract for one month. At the end of this period, it can be extended on a monthly basis. An initial sum of {reg12} pounds will be paid to you to seal the contract. After that, you'll receive wages from {s10} each week, according to the number and quality of the soldiers in your company. You still have your rights to battlefield loot and salvage, as well as any prisoners you capture. War can be very profitable at times...
+dlga_lord_mercenary_service_elabourate_duty:lord_mercenary_elabourate_1|Duties... There are only a few, none of them difficult. The very first thing is to declare your allegiance. An oath of loyalty to our cause. Once that's done, you shall be required to fulfill certain responsibilities. You'll participate in military campaigns, fulfill any duties given to you by your commanders, and most of all you shall attack the enemies of our kingdom wherever you might find them.
+dlga_lord_mercenary_elabourate_1:lord_mercenary_service_elabourate_duty|And what about my duties as a mercenary?
+dlga_lord_mercenary_elabourate_1:lord_mercenary_elabourate_castle|Can I hold on to any castles I take?
+dlga_lord_mercenary_elabourate_1:lord_mercenary_elabourate_banner|Can I fly my own banner?
+dlga_lord_mercenary_elabourate_1:lord_mercenary_elabourate_pay|How much will you pay me for my service?
+dlga_lord_mercenary_elabourate_1:lord_mercenary_service_accept|Sounds good. I wish to enter your service as a mercenary.
+dlga_lord_mercenary_elabourate_1:lord_mercenary_service_reject|Apologies, my sword is not for hire.
+dlga_lord_mercenary_elabourate_castle:lord_mercenary_elabourate_1|Only my loyal vassals can own lands and castles in my realm -- and all my vassals are men.\I am not inclined to depart from this tradition without a very good reason. If you prove yourself in battle, you can swear an oath of homage to me and become my vassal.\We may then discuss how you may obtain a castle.
+dlga_lord_mercenary_elabourate_castle:lord_mercenary_elabourate_1.1|Hmm... Only loyal vassals of {s10} can own lands and castles. While kings will sometimes accept vassalage from men who prove themselves in battle, and grant them land, I have never heard of a king who gave fiefs to women. You had best discuss that issue with {s10} himself.
+dlga_lord_mercenary_elabourate_castle:lord_mercenary_elabourate_1.2|Only my loyal vassals can own lands and castles in my realm. A mercenary can not be trusted with such a responsibility. However, after serving for some time, you can swear homage to me and become my vassal. Then you will be rewarded with a fief.
+dlga_lord_mercenary_elabourate_castle:lord_mercenary_elabourate_1.3|Only loyal vassals of {s10} can own lands and castles. You understand, a simple mercenary cannot be trusted with such responsibility. However, after serving for some time, you may earn the right to swear homage to {s10} and become his vassal. Then you would be rewarded with a fief.
+dlga_lord_mercenary_elabourate_banner:lord_mercenary_elabourate_1|Only my noble vassals have the honour of carrying their own banners. However, after some time in mercenary service, you may earn the opportunity to swear homage to me and become my vassal, gaining the right to choose a banner of your own and fight under it in battle.
+dlga_lord_mercenary_elabourate_banner:lord_mercenary_elabourate_1.1|Only noble vassals of {s10} have the honour of carrying their own banners. However, after some time of mercenary service, perhaps you can earn the opportunity to swear homage to {s10} and become his vassal, gaining the right to choose a banner of your own and fight under it in battle.
 dlga_lord_request_mission_ask:lord_pretalk|Aún no habéis terminado el último trabajo que os encargué, {playername}. Deberíais estar llevándolo a cabo y no pidiéndome otras tareas.
 dlga_lord_request_mission_ask:lord_pretalk.1|No tengo más trabajos para vos en este momento.
 dlga_lord_request_mission_ask:lord_tell_mission|¿Un trabajo?
@@ -1532,10 +1545,10 @@ dlga_spouse_feast_confirm:spouse_feast_confirm_yes|Enviemos las invitaciones.
 dlga_spouse_feast_confirm:spouse_pretalk|Esperemos entonces.
 dlga_spouse_feast_confirm_yes:spouse_pretalk|Enviaré un mensaje entonces, anunciando que realizaremos un banquete tan pronto como las condiciones en nuestro reino lo permitan. Tal vez debáis continuar llenando nuestro almacén, así haremos justicia a nuestra reputación.
 dlga_spouse_feast_confirm_yes:spouse_pretalk.1|Muy bien, de acuerdo. Que comience el banquete de inmediato en nuestra corte {reg4?aquí:} en {s9}. Vos tal vez debáis continuar reabasteciendo nuestra despensa, para poder así hacer justicia a nuestra reputación de hospitalidad.
+dlga_start:close_window.15|No sé dónde encontrar a mi {s11} {s10}, que según las tradiciones es quien debe presidir nuestra boda. Tal vez debamos esperar hasta que alguien lo encuentre...
 dlga_start:close_window.16|El honorable {s12} ha accedido a permitirnos regresar a nuestras familias. Comenzaremos el viaje cuanto antes.
 dlga_start:close_window.17|Pronto saldremos hacia {s4}. Es bueno saber que ciertas personas aún tienen sentido del honor.
 dlga_start:close_window.18|Bueno, {playername}, habéis tenido un duelo con {s10} y habéis perdido. De acuerdo con nuestras costumbres y tradiciones, no puedo volver a recibiros. Adiós, {playername}.
-dlga_start:close_window.19|Ah, {playername}. Me alegro de volver a veros. Sin embargo, creo que se me requiere en otro sitio.
 dlga_start:kingdom_lady_captive|¡Tremenda es mi soledad! ¡Cómo echo de menos a mi familia!
 dlga_start:kingdom_lady_captive.1|Esto es una infamia, {señor/señora}, mantener cautiva a una dama así...
 dlga_start:kingdom_lady_captive.2|Es extraño. En ocasiones os habéis mostrado amable, y aún así seguís manteniéndome aquí contra mi voluntad.
@@ -1544,7 +1557,7 @@ dlga_lady_stranded_next:close_window|Saludos, {señor/mi señora}. Las tormentas
 dlga_start:lady_talk_refugee|{playername}, asumo que vos, como {hombre/dama} honorable, aceptaréis que las damas nobles tenemos el derecho de regresar a nuestras familias sin necesidad de que se pague un rescate.
 dlga_start:lady_escort_lady_succeeded|Gracias por escoltarme hasta aquí, {playername}. Por favor, aceptad este regalo como muestra de mi gratitud. Ojalá nos encontremos de nuevo en el futuro.
 dlga_lady_escort_lady_succeeded:close_window|Ha sido un honor serviros, {s65}.
-dlga_start:close_window.20|¡Allí! Puedo ver los muros de {s3} en la distancia. Hemos llegado sanos y salvos. Tomad estos {reg3} Libras, como prometí. Espero que podamos viajar nuevamente juntos en otra oportunidad.
+dlga_start:close_window.19|Ah, {playername}. Me alegro de volver a veros. Sin embargo, creo que se me requiere en otro sitio.
 dlga_lady_talk_refugee:close_window|Claro, mi señora.
 dlga_lady_talk_refugee:lady_captive_talk|¡Asumís mal, mi señora!
 dlga_lady_captive_talk:lady_captive_confirm|¡¿Qué?! ¿Qué infamia es ésta?
@@ -1552,7 +1565,7 @@ dlga_lady_captive_confirm:close_window|Lo siento, debéis haberme entendido mal.
 dlga_lady_captive_confirm:close_window.1|Contactad con vuestra familia para preparar el rescate, mi señora.
 dlga_kingdom_lady_captive:close_window|¡Entonces escribid a vuestra familia y decidles que se apresuren a pagar el rescate!
 dlga_kingdom_lady_captive:close_window.1|He cambiado de parecer. Podéis iros.
-dlga_start:close_window.21|¡Idos de aquí antes de que pierda la paciencia!
+dlga_start:close_window.20|¡Allí! Puedo ver los muros de {s3} en la distancia. Hemos llegado sanos y salvos. Tomad estos {reg3} Libras, como prometí. Espero que podamos viajar nuevamente juntos en otra oportunidad.
 dlga_start:lady_duel_lost|Oh, {playername}, oí que habéis tenido un duelo con {s10}. Ojalá no hubieseis luchado jamás. Nuestras tradiciones demandan que, habiendo perdido, dejéis de cortejarme. Adiós, {playername}.
 dlga_lady_duel_lost:close_window|Muy bien, haremos lo que demandan las tradiciones... Adiós, mi dama.
 dlga_lady_duel_lost:lady_duel_lost_flaunt_conventions|¡No haré caso alguno de las tradiciones!
@@ -1579,7 +1592,7 @@ dlga_rescue_prisoner_succeed_1:lady_pretalk|Siempre es un honor servir, {s65}.
 dlga_start:lady_meet_end|Vos debéis ser {playername}. Hemos tenido el honor de ver vuestra brillante actuación en el torneo {s8}.
 dlga_start:lady_meet_end.1|Vos debéis ser {playername}. Mi {s15} {s16} ha hablado muy bien de vos. Es un placer conoceros.
 dlga_start:lady_premeet|La verdad, no me sois familiar...
-dlga_start:close_window.22|Habéis llegado a tiempo. Unamos nuestras fuerzas y demos una lección a nuestros enemigos.
+dlga_start:close_window.21|¡Idos de aquí antes de que pierda la paciencia!
 dlga_start:lady_start.3|{playername}, me alegro de veros. (Susurrando:) Aún recuerdo vuestras visitas con afecto.
 dlga_start:lady_meet_end.2|Ah, {playername}. Qué espléndido fue ver vuestra brillante actuación en el torneo.
 dlga_start:lady_start.4|{s12}
@@ -1766,7 +1779,7 @@ dlga_seneschal_ask_location:seneschal_ask_location_2|Bueno, un hombre de mi posi
 dlga_seneschal_ask_location_2:seneschal_ask_location_3|{s1}
 dlga_seneschal_ask_location_2:seneschal_pretalk|No importa.
 dlga_seneschal_ask_location_3:seneschal_pretalk|{s1}
-dlga_start:close_window.23|Estáis cometiendo un grave error al luchar contra nosotros.
+dlga_start:close_window.22|Habéis llegado a tiempo. Unamos nuestras fuerzas y demos una lección a nuestros enemigos.
 dlga_start:talk_caravan_escort|Hemos llegado hasta aquí... ¿Está despejado por delante?
 dlga_talk_caravan_escort:talk_caravan_escort_2a|Podría haber bandidos cerca. No os alejéis.
 dlga_talk_caravan_escort_2a:close_window|Creedme, {playername}, ya estamos lo más cerca de vos que podemos. Id vos delante.
@@ -1843,7 +1856,7 @@ dlga_start:castle_guard_players|¿Sus órdenes, {mi señor/mi señora}?
 dlga_castle_guard_players:close_window|Abrid la puerta. Voy a entrar.
 dlga_castle_guard_players:close_window.1|No importa.
 dlga_start:castle_guard_sneaked_intro_1|¡Fuera de mi vista, {mendigo/mendiga}! ¡Apestáis!
-dlga_start:close_window.24|¡Otra vez habéis salvado nuestras vidas, {playername}! Os lo agradezco de todo corazón. {s43}
+dlga_start:close_window.23|Estáis cometiendo un grave error al luchar contra nosotros.
 dlga_castle_guard_sneaked_intro_1:castle_guard_sneaked_intro_2|Quiero entrar a la sala y hablar con el señor.
 dlga_castle_guard_sneaked_intro_1:close_window|[Irse]
 dlga_castle_guard_sneaked_intro_2:close_window|¿Habéis perdido la cabeza, {hombre/mujer}? No se permite la entrada de mendigos en la sala. Ahora salid de aquí u os daré una buena paliza.
@@ -1878,8 +1891,8 @@ dlga_castle_gate_open:close_window.1|Mi señor {s2} no se encuentra ahora en el 
 dlga_castle_gate_open:close_window.2|Pasad. Voy a abrir las puertas para vos.
 dlga_castle_gate_open:close_window.3|Pasad. Pero aseguraos de que vuestros hombres se comporten con sensatez entre estos muros. Mi señor {s2} no quiere problemas aquí.
 dlga_castle_gate_open:close_window.4|Mi señor {s2} no os quiere aquí. Idos de aquí.
+dlga_start:close_window.24|¡Otra vez habéis salvado nuestras vidas, {playername}! Os lo agradezco de todo corazón. {s43}
 dlga_start:close_window.25|¡Habéis llegado justo a tiempo, {playername}! ¡Muchísimas gracias! {s43}
-dlga_start:close_window.26|Habéis llegado justo a tiempo, {playername}. No olvidaré lo que hicisteis por mí. {s43}
 dlga_start:ally_thanks_meet|Creo que aún no nos hemos presentado como es debido. Me habéis salvado la vida ahí fuera y aún no sé vuestro nombre...
 dlga_start:ally_thanks_meet.1|Vuestra ayuda ha sido muy bienvenida. Mi nombre es {s1}. ¿Podéis decirme el vuestro?
 dlga_start:ally_thanks_meet.2|Gracias por vuestra ayuda. Aún no nos hemos presentado apropiadamente, ¿no es así? ¿Cómo os llamáis?
@@ -1887,6 +1900,7 @@ dlga_ally_thanks_meet:ally_thanks_meet_2|Me llamo {playername}.
 dlga_ally_thanks_meet_2:close_window|Es un placer, {playername}. Yo me llamo {s1} y estoy en deuda con vos. Si alguna vez hay algo en lo que pueda ayudaros, hacédmelo saber...
 dlga_ally_thanks_meet_2:close_window.1|Un placer, {playername}. Estoy en deuda con vos por lo que acabáis de hacer. Espero poder encontrar la forma de devolveros el favor algún día.
 dlga_ally_thanks_meet_2:close_window.2|Un placer, {playername}. Soy {s1}. Gracias por vuestra ayuda y espero que nos encontremos de nuevo.
+dlga_start:close_window.26|Habéis llegado justo a tiempo, {playername}. No olvidaré lo que hicisteis por mí. {s43}
 dlga_start:close_window.27|Me alegro de veros, {playername}. {s43}
 dlga_start:close_window.28|{s43}
 dlga_start:close_window.29|{s43}
@@ -1894,8 +1908,6 @@ dlga_start:close_window.30|Gracias por vuestra ayuda {señor/señora}. Habéis s
 dlga_start:close_window.31|Gracias por vuestra ayuda {señor/señora}. Las cosas se estaban poniendo feas, pero todo cambió cuando llegasteis.
 dlga_start:close_window.32|Gracias por vuestra ayuda, {señor/señora}. Qué suerte que estuvierais cerca.
 dlga_start:close_window.33|No os preocupéis, {señor/señora}, voy ahora mismo.
-dlga_start:close_window.34|Gracias por ayudarnos, {señor/señora}. ¡Aplastad a esos bandidos!
-dlga_start:close_window.35|El resto del camino lo podemos hacer solos. Gracias.
 dlga_start:kidnapped_girl_liberated_battle|Oh {señor/señora}. Os agradezco tanto que me hayáis rescatado. ¿Me llevaréis ahora con mi familia?
 dlga_start:freed_hero_answer|Estoy en deuda con vos por liberarme, {amigo/amiga}.
 dlga_freed_hero_answer:freed_hero_answer_1|No vais a ninguna parte. ¡Ahora soy yo quien os ha capturado!
@@ -1919,7 +1931,6 @@ dlga_combined_political_quests:political_quest_suggested.3|Como os daréis cuent
 dlga_political_quest_follow_on:close_window.2|Apreciamos lo que estáis haciendo. Esas intrigas me desagradan, pero todo es por el bien del {s5}.
 dlga_political_quest_follow_on:close_window.3|Muy bien. Siempre es arriesgado implicarse en intrigas de ese tipo pero, en este caso, creo que os beneficiaréis.
 dlga_combined_political_quests:political_quest_suggested.4|A vos y a mí nos interesa impedir el ascenso de {s4}. En mi opinión, {reg4?ella:él} es {s7}, y me preocupa que {reg4?ella:él} pueda {s8}. Si le dijeseis lo que pensáis de {s4} a nuestro señor, (s9}, puede que dejase de otorgar a {s4} poderes y responsabilidades, al menos por un tiempo, y yo os lo agradecería mucho.
-dlga_political_quest_follow_on:close_window.4|Apreciamos lo que estáis haciendo. Esas intrigas me desagradan, pero todo es por el bien del {s5}.
 dlga_combined_political_quests:political_quest_suggested.5|No sé qué más podéis hacer ahora mismo, pero seguro que en el futuro surgirán cuestiones de interés mutuo.
 dlga_political_quest_suggested:political_quest_follow_on|Me gusta esa idea.
 dlga_political_quest_suggested:combined_political_quests|Hmm... ¿no se os ocurre nada más?
@@ -1957,7 +1968,7 @@ dlga_sacrificed_messenger_3:sacrificed_messenger_cancel|¡Arggh! No puedo hacer 
 dlga_sacrificed_messenger_cancel:sacrificed_messenger_cancel_2|¿Qué queréis decir, {señor/señora}?
 dlga_sacrificed_messenger_cancel_2:sacrificed_messenger_cancel_3|Os han preparado una trampa en la ciudad. {s3} me ordenó que sacrificara a uno de mis mejores guerreros para engañar al enemigo, pero tendrá que buscar otra forma de hacerlo.
 dlga_sacrificed_messenger_cancel_3:close_window|Gracias, {señor/señora}. Os seguiría hasta las mismas puertas del infierno. Pero no me gustaría morir así.
-dlga_start:close_window.36|Bueno, casi hemos llegado a {s21}. El resto del camino lo podemos hacer solos. Aquí tenéis vuestra paga... {reg14} Libras. Gracias por escoltarnos. Buena suerte.
+dlga_start:close_window.34|Gracias por ayudarnos, {señor/señora}. ¡Aplastad a esos bandidos!
 dlga_start:follow_spy_talk|Buen día, {señor/señora}. Hace un tiempo estupendo, ¿no creéis? Si me disculpáis, debo ponerme en camino.
 dlga_follow_spy_talk:follow_spy_talk_2|¡En nombre de {s1}, se procede a vuestro arresto!
 dlga_follow_spy_talk_2:close_window|¡No me cogeréis con vida!
@@ -2127,7 +2138,6 @@ dlga_minstrel_gossip_select:minstrel_pretalk|Olvidadlo.
 dlga_minstrel_gossip_maiden_selected:minstrel_gossip_maiden_selected_2|{s16}
 dlga_minstrel_gossip_maiden_selected_2:minstrel_postgossip|¡Pero si está casada con vos! Lógicamente, ella no daría lugar a rumores jamás...
 dlga_minstrel_gossip_maiden_selected_2:minstrel_postgossip.1|{s12}.
-dlga_minstrel_gossip_maiden_selected_2:minstrel_postgossip.2|{s12}.
 dlga_minstrel_postgossip:minstrel_pretalk|Muy interesante, pero ahora hablemos de otra cosa.
 dlga_minstrel_postgossip:minstrel_gossip|Muy interesante, ¿alguna cosa más?
 dlga_minstrel_postgossip:minstrel_duel_confirm|¿Qué? Haré que se enfrente a mi espada.
@@ -2183,7 +2193,7 @@ dlga_farmer_from_bandit_village_5:farmer_from_bandit_village_barter|¿Y por qué
 dlga_farmer_from_bandit_village_accepted:close_window|Que Dios os bendiga, {señor/señora}. Nuestra aldea es {s7}. No está muy lejos de aquí.
 dlga_farmer_from_bandit_village_denied:close_window|Como queráis, {señor/señora}. Perdonad la molestia.
 dlga_farmer_from_bandit_village_barter:farmer_from_bandit_village_5|Somos unos pobres campesinos, {señor/señora}, y los bandidos ya nos han quitado casi todo lo que tenemos en este mundo. Pero compartiremos gustosamente con vos lo que nos quede. Y siempre os estaremos agradecidos por la ayuda brindada.
-dlga_start:close_window.37|¡Mis más sinceras gracias por traerme de vuelta! Estoy deseando ver a mi familia. Adiós.
+dlga_start:close_window.35|El resto del camino lo podemos hacer solos. Gracias.
 dlga_start:mercenary_tavern_talk|¿Necesitáis mercenarios, {señor/señora}? {reg3?Yo y {reg4?{reg3} de mis compañeros:uno de mis compañeros} estamos:Estoy} buscando un líder. Nos uniremos a vos por {reg5} Libras.
 dlga_start:mercenary_after_recruited|¿Qué ordenes tenéis, {señor/señora}?
 dlga_mercenary_after_recruited:mercenary_after_recruited_2|Preparaos. Salimos al alba.
@@ -2393,8 +2403,8 @@ dlga_merchant_quest_brief:escort_merchant_caravan_quest_brief|Voy a enviar una c
 dlga_escort_merchant_caravan_quest_brief:merchant_quest_taken|Bien. Escoltaré la caravana.
 dlga_escort_merchant_caravan_quest_brief:merchant_quest_stall|Me temo que no tengo tantos soldados conmigo.
 dlga_escort_merchant_caravan_quest_brief:merchant_quest_stall.1|Lo siento. No puedo hacerlo ahora mismo
-dlga_start:close_window.38|Buen día, {señor/señora}. Siempre es un honor teneros aquí en {s10}.
-dlga_start:close_window.39|Cuidad vuestros modales aquí y no tendremos problemas.
+dlga_start:close_window.36|Bueno, casi hemos llegado a {s21}. El resto del camino lo podemos hacer solos. Aquí tenéis vuestra paga... {reg14} Libras. Gracias por escoltarnos. Buena suerte.
+dlga_start:close_window.37|¡Mis más sinceras gracias por traerme de vuelta! Estoy deseando ver a mi familia. Adiós.
 dlga_start:merchant_caravan_intro_1|Saludos. Vos debéis ser nuestra escolta, ¿verdad?
 dlga_merchant_caravan_intro_1:merchant_caravan_intro_2|Sí. Me llamo {playername}. Os llevaré hasta {s1}.
 dlga_merchant_caravan_intro_2:escort_merchant_caravan_talk|Bueno, está bien saber que no viajaremos solos. ¿Qué queréis que hagamos ahora?
@@ -2413,7 +2423,7 @@ dlga_merchant_quest_brief:kidnapped_girl_quest_brief|La cantidad que los bandido
 dlga_kidnapped_girl_quest_brief:kidnapped_girl_quest_taken|Bien. Llevaré el dinero del rescate a los bandidos y regresaré con la damisela.
 dlga_kidnapped_girl_quest_taken:close_window|Perfecto. Sabía que podíamos confiar en vos para esto. Aquí está el dinero del rescate, {reg12} Libras. Contadlo antes de cogerlo. Y, por favor, no cometáis ninguna imprudencia. Tened en cuenta que el bienestar de la damisela es lo más importante...
 dlga_kidnapped_girl_quest_brief:merchant_quest_stall|Lo siento. No tengo tiempo para eso ahora mismo.
-dlga_start:close_window.40|No podemos hablar mientras estamos de guardia, {señor/señora}.
+dlga_start:close_window.38|Buen día, {señor/señora}. Siempre es un honor teneros aquí en {s10}.
 dlga_kidnapped_girl_liberated_map:kidnapped_girl_liberated_map_2a|Sí. Venid conmigo. Nos vamos a casa.
 dlga_kidnapped_girl_liberated_map_2a:close_window|Por desgracia, no tenéis sitio para mí en vuestro grupo.
 dlga_kidnapped_girl_liberated_map_2a:close_window.1|Oh, ¿de veras? ¡Mil gracias!
@@ -2713,10 +2723,10 @@ dlga_start:player_castle_guard_talk|¿Sí, {señor/señora}?
 dlga_player_castle_guard_talk:player_castle_guard_talk_2|¿Cómo va la guardia, soldado?
 dlga_player_castle_guard_talk_2:player_castle_guard_talk_3|Todo está tranquilo, {señor/señora}. Nada que reportar.
 dlga_player_castle_guard_talk_3:close_window|Bien. Mantened los ojos abiertos.
-dlga_start:close_window.41|Good day, {sir/madame}. Always an honor to have you here in {s10}.
-dlga_start:close_window.42|Mind your manners within the walls and we'll have no trouble.
+dlga_start:close_window.39|Cuidad vuestros modales aquí y no tendremos problemas.
+dlga_start:close_window.40|No podemos hablar mientras estamos de guardia, {señor/señora}.
 dlga_start:hall_guard_talk|¿Sus órdenes, {mi señor/mi señora}?
-dlga_start:close_window.43|We are not supposed to talk while on guard, {sir/madam}.
+dlga_start:close_window.41|Good day, {sir/madame}. Always an honor to have you here in {s10}.
 dlga_hall_guard_talk:hall_guard_duty|Seguid haciendo guardia y hacedme saber si alguien viene a verme.
 dlga_hall_guard_duty:close_window|Sí, {mi señor/mi señora}. Como deseéis.
 dlga_hall_guard_talk:hall_guard_arrest|¡Quiero que arrestéis a este hombre inmediatamente!
@@ -2785,4 +2795,4 @@ dlga_mayor_wealth_comparison_3:mayor_wealth_comparison_4|En cuanto a producto ge
 dlga_mayor_wealth_comparison_4:mayor_wealth_comparison_5|En cuanto al comercio, la ciudad de {s4} parece haber recibido la mayoría de visitas de caravanas en los últimos meses. Aquí en {s5} hemos sido menos visitados que en {reg4} ciudades, y más que en {reg5}. 
 dlga_mayor_wealth_comparison_5:mayor_pretalk|En cuanto a ataques sobre viajeros, la ciudad de {s4} parece ser la más peligrosa. Aquí en {s5} tenemos menos bandidos y saqueadores que en {reg4} ciudades, y más que en {reg5}. 
 dlga_free:close_window| Adiós.
-dlga_free:close_window.1| [Irse]
+dlga_free:close_window.1| [Irse

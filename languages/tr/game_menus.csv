@@ -13,6 +13,7 @@ menu_tutorial|Yerel sakinlerin silah talimi yaptığı bir alana yaklaşıyorsun
 mno_go_back_dot|Geri dön.
 menu_reports|Hangi raporu görüntülemek istiyorsun?
 mno_show_pps_menu|Poitika Systemine bak
+mno_show_pas_menu|View faction military management menu.
 mno_show_weather_report|Hava repornuna bak
 mno_reports_to_faction_technologies|Ülkenin askeri teknolojilerine göz at.
 mno_view_character_report|Karakter raporunu görüntüle.
@@ -77,6 +78,8 @@ mno_camp_action|Bir işe giriş.
 mno_camp_wait_here|Burada bir süre bekle.
 mno_camp_cheat|HİLE MENÜSÜ!
 menu_camp_cheat|Hile seç:
+mno_camp_cheat_400_pes_pps_iterations|Simulate 400 PES/PPS iterations.
+mno_camp_cheat_20_pes_pps_iterations|Simulate 20 PES/PPS iterations.
 mno_camp_cheat_dds|Open Debug Display Slots.
 mno_camp_cheat_all_factions_research_all_tech|Bütüng ülkelere her teknolojiyi ver.
 mno_camp_cheat_find_item|Hava durumunu değiştir..
@@ -237,6 +240,7 @@ mno_siege_defender_troops_join_battle|Sen geride kalırken adamlarına savaşa k
 menu_siege_join_defense|{s4}^^Kayıpların: {s8}^^Müttefiklerin kayıpları: {s9}^^Düşmanın kayıpları: {s10}
 menu_enter_your_own_castle|Yaklaşırken, kale nöbetçileri tarafından farkediliyorsun ve kapıları {lordları/leydileri} için açıyorlar.
 menu_village|{s10}{s11}{s6}{s7}
+mno_village_talk_to_elder|Talk to a village elder.
 mno_village_manage|Bu köyü idare et.
 mno_recruit_volunteers|Gönüllü topla.
 mno_village_center|Köy merkezine gir.
@@ -296,6 +300,7 @@ mno_castle_castle_door|Kale kapısı.
 mno_join_tournament|Turnuvaya katıl.
 mno_town_castle|Kaleye git.
 mno_town_castle_door|Kale kapısı.
+mno_town_major_talk|Talk to a town mayor.
 mno_town_center|Şehir meydanına git.
 mno_town_center_door|Şehir meydanına giden kapı.
 mno_town_tavern|Hana git.
@@ -531,6 +536,9 @@ menu_establish_court|Sarayını {s4}'{.a} kurmak için küçük bir tadilata iht
 mno_establish|Sarayı {s4}'{.a} kur.
 menu_notification_relieved_as_marshal|{s4} Size artık mareşal olarak ihtiyacın kalmadığını belirtmek istedi.Sizin ülkeye olan asil katkınız yüzündende In honor of valiant efforts on behalf of the realm over the last {reg4} days, however, {reg8?she:he} offers you a purse of {reg5} denars.
 menu_weather_report|{s1}
+menu_start_game_choose_ai_behavior|Choose AI factions behaviour mode.
+mno_start_game_choose_ai_behavior_historical|Historical.
+mno_start_game_choose_ai_behavior_random|Random.
 menu_start_game_choose_date|Başlangıç tarihini seç. Bu ülkelerin askeri teknoloji seviyesini ve dünya haritasını etkiler.Choose game starting date.
 mno_start_game_choose_date_1860|1860.
 mno_start_game_choose_date_1878|1878.
@@ -548,6 +556,9 @@ mno_game_speed_very_slow|Çok yavaş (Bir yıl 25 günde geçer).
 mno_game_speed_extremely_slow|Aşırı yavaş (Bir yıl 30 günde geçer).
 mno_game_speed_minimum|Minimum (Bir yıl 365 günde geçer).
 menu_start_game_ai_party_size_selection|Tercih ettiğin lord parti büyüklüğünü seç. Bu lordların maksimum ne kadar askeri olabileceğini etkiler ve sonradan oyun içinde değiştirelemez.
+mno_start_game_ai_party_size_selection_100|100 - Small (Battle size at least 200 is recommended).
+mno_start_game_ai_party_size_selection_125|125 - Medium (Battle size at least 300 is recommended).
+mno_start_game_ai_party_size_selection_150|150 - Big (Battle size at least 400 is recommended).
 menu_change_game_speed|Oyun hızını seç.
 mno_game_speed_debug|Debug mode (Bir yıl 1 günde geçer).
 menu_cannoneers_store|Askerler cephaneliğe girmene izin veriyor. Burda ağır silah siparişi verebilrisin - Top ve havan topları.^^Şuanki paran {reg0} pound.^^^Eğer savaş menüsünden topçu birliği eklemesseniz topçular savaş alanında gözükmez.
@@ -636,6 +647,22 @@ mno_pas_enlistment_reassign_continue|Devam et...
 menu_pas_enlistment_end_service_no_lords|Bütün ordular yenildi oyüzden emekliye ayrıldın.
 mno_pas_enlistment_end_service_no_lords_continue|Devam et...
 menu_pas_enlistment_promoted|Rütben {s1} 'e yükseltildi.
-start_game_ai_party_size_selection_100|100 - Small (Battle size at least 200 is recommended).
-start_game_ai_party_size_selection_125|125 - Medium (Battle size at least 300 is recommended).
-start_game_ai_party_size_selection_150|150 - Big (Battle size at least 400 is recommended).
+menu_ww1_event1|Heir to the throne of {s1} assassinated!^Archduke Franz Ferdinand of {s1} and his wife Sophie, Duchess of Hohenberg, were shot dead by a Bosnian Serb student during their official visit to Sarajevo. ^Austrian opinion regards the tragedy as the result of a well-prepared conspiracy. The Heir apparent was advised not to undertake the journey, as certain desperadoes were planning an attempt against his life. However, he disregarded the warning and proceeded with his visit. ^Earlier in the day, they had survived a first attempt to take their lives when a grenade was thrown at their car.  The couple was not injured and, after a short stay in the City Council, insisted on seeing those wounded by the explosion. This is when the assassin took his chance and made the attack.^When news of the assassination of Archduke Franz Ferdinand was imparted to the aged emperor, he exclaimed, ''Terrible, terrible! I am spared nothing.''^It is reported that several Bosnians and Serbs have been arrested at Sarajevo for complicity in the plot which is said to have wide ramifications. Tensions are on their peak and demonstrations are taking place.
+menu_ww1_event2|The incidents in Sarajevo proved the existence of a subversive movement whose object it is to separate certain territories from the {s1}. ^His movement, which came into being under the very eyes of the Serbian authorities, subsequently found expression outside of its territory in acts of terrorism and murders.^It is clear from the statements and confessions of the criminals, that the murder was conceived at Belgrade. In order to prevent an escalation, the {s2} must condemn these ideas and the involvement of its subjects in the criminal activities and vow to proceed with utmost rigor against anyone who shall become guilty.^The government of {s1} will furthermore pledge itself: ^1. to suppress every publication which shall incite to hatred and contempt of the Monarchy, against the territorial integrity or that may serve to nourish this campaign^2. to dissolve all criminal associations, to confiscate their means of propaganda and to take such measures as are necessary to ensure that they may not continue their activities under other names or forms^3. to remove from the military and civilian service all those who have been guilty of carrying on the propaganda against Austria-Hungary^4. to agree to the cooperation in Serbia of organs of the Austro-Hungarian Government in the suppression of the subversive movement ^5. to institute a judicial inquiry against the participants in the conspiracy who may be found in Serbian territory; the organs of the Austro-Hungarian Government delegated for this purpose will take part in the proceedings to be held^6. to prevent the participation of Serbian authorities in the smuggling of weapons and explosives across the frontier and to punish severely those who assisted the criminals ^7. to make explanations to the  Austro-Hungarian Government concerning the unjustifiable utterances of high functionaries in Serbia and abroad, who, without regard for their position, have not hesitated to express themselves in a manner hostile toward Austria-Hungary ^The government of {s1} awaits the reply of the Royal Government.
+menu_ww1_event3|The government of {s2} has received the communication of the government of {s1} and is convinced that its reply will dissipate any misunderstanding threatening to destroy the friendly and neighbourly relations ^The Serbian government binds itself further:^1.  to severely punish the incitement of hatred and contempt for {s1} and its territorial integrity and to supress every publication that may serve to nourish this campaign^2.  to dissolve the Narona Odbrana aswell as every society which should set against {s1}^3. to dismiss those belonging to the military and civil services that have been proved by judicial investigation to be guilty of actions against {s1}^4. to accept every cooperation which does not run counter to international and criminal law but confesses it is not clear about the sense and the scope of the demand to permit the cooperation of Austro-Hungarian officials on Serbian territory ^5. to begin an investigation against all those involved in the conspiracy who are in its territory. As far as the cooperation in this investigation of Austrian officials is concerned, this cannot be accepted, as this is a violation of the constitution and of criminal procedure^6. to amplify and assert the existing measures against the smuggling of arms and explosives and to punish severely those who have assisted the criminals^7. to give explanations about the expressions which its officials have made which could have been hostile to {s1} and, as soon as the Austrian government points out where they were made and prooves that they have actually been made by those concerned, to take care that the necessary evidencess and proofs are collected^^Serbian government believes it to be of common interest to not rush the solution of this affair and therefore, in case the government of the {s1} should not consider itself satisfied, is ready to accept a peaceable solution, be it by reffereing to the International Court or by leaving it to the decision of the Great Powers which participated in the working out of the declaration given by the {s2} when it renounced the attitudes of protest and opposition to the annexation of Bosnia-Herzegovina.
+mno_ww1_event3_austria_start_war|{s1}
+mno_ww1_event3_austria_dont_start_war|Withdraw demands.
+menu_balkanwars_event1|Balkan League
+mno_balkanwars_event1_join|{s1}
+mno_balkanwars_event1_dont_join|Do not join league.
+menu_balkanwars_event2|War against Ottoman Empire
+menu_balkanwars_event3|War against Bulgaria
+mno_balkanwars_event3_s1|{s1}
+mno_balkanwars_event3_dont_take_part|Don't participate in this war.
+menu_socialism_demonstration|Demonstrations in {s2}!^^Large groups have formed in protest of the perceived failings of the nations economic policy in {s2}.^Scores of protesters in vocal support of {s3} held a peaceful rally to express dissatisfaction over the state of affairs in {s1}.^The protesters, comprised of every strata of society, be it the young or elderly, marched for more than 5 kilometers over the cities main boulevard.^Despite the heavy presence of law enforcement throughout the route, protesters openly expressed disdain for the government by chanting songs of protest.^On arrival at {s2}, a large portion of the crowd began singing the 'Internationale', while many others decried the way {s1} had handled recent events.^^Upon this display of perceived sympathy towards socialism, the police sorrounded the protest group, blocking off roadways leading into the plaza.
+mno_socialism_demonstration_option1|Ignore the demonstration and wait for it to go away.
+mno_socialism_demonstration_option2|Disperse the crowd by police force avoiding victims.
+mno_socialism_demonstration_option3|Disperse the crowd by police force, allowing usage of firearms.
+menu_socialism_riot|Riot in {s2}!^^Large groups have formed in protest of the perceived failings of the nations economic policy in {s2}.^Scores of protesters in vocal support of {s3} held a peaceful rally to express dissatisfaction over the state of affairs in {s1}.^The protesters, comprised of every strata of society, be it the young or elderly, marched for more than 5 kilometers over the cities main boulevard.^Despite the heavy presence of law enforcement throughout the route, protesters openly expressed disdain for the government by chanting songs of protest.^On arrival at {s2}, a large portion of the crowd began singing the 'Internationale', while many others decried the way {s1} had handled recent events.^^Upon this display of perceived sympathy towards socialism, the police sorrounded the protest group, blocking off roadways leading into the plaza.
+mno_socialism_riot_option1|Ignore the demonstration and wait for it to go away.
+mno_socialism_riot_option2|Disperse the crowd by police force, allowing usage of firearms.
