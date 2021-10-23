@@ -33,8 +33,7 @@ WRECK.time_started = gettime()
 
 
 print
-print '{2}*** Warband Refined & Enhanced Compiler Kit (W.R.E.C.K.) version {version!s} ***{0}'.format(*COLORAMA, version = WRECK_VERSION)
-print 'Please report errors, problems and suggestions at {5}http://lav.lomskih.net/wreck/{0}'.format(*COLORAMA)
+print '{2}WRECK version {version!s}{0}'.format(*COLORAMA, version = WRECK_VERSION)
 print
 
 try:

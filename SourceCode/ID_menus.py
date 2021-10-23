@@ -258,3 +258,4 @@ mnu_balkanwars_event1 = 256
 mnu_balkanwars_event2 = 257
 mnu_balkanwars_event3 = 258
 mnu_socialism_demonstration = 259
+mnu_socialism_riot = 260

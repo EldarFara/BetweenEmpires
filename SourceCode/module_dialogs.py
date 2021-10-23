@@ -147,7 +147,7 @@ dialogs = [
                      (try_begin),
                        (troop_slot_eq, "$g_talk_troop", slot_troop_occupation, slto_kingdom_hero),
                        (call_script, "script_get_relevant_comment_to_s42"),
-                       (assign, "$g_comment_found", reg0),
+                       (assign, "$g_comment_found", 0), # parabellum disabled
                      (try_end),
 
                      (troop_get_type, reg65, "$g_talk_troop"),
