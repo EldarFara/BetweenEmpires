@@ -17816,7 +17816,7 @@ will be merged into one that has highest number of soldiers."),
 	(set_fixed_point_multiplier, 1000),
 
 	(try_begin),
-	(eq, "$pps_menu_selected_faction", -1),
+	(neg|is_between, "$pps_menu_selected_faction", kingdoms_begin, kingdoms_end),
 		(try_begin),
 		(gt, "$players_kingdom", 0),
 		(assign, "$pps_menu_selected_faction", "$players_kingdom"),
