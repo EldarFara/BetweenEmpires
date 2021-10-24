@@ -7450,6 +7450,18 @@ simple_triggers = [
 (0,
 [
 	(try_begin),
+	(eq, "$players_kingdom_name_set", 0),
+	(faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_active),
+	(lt, "$player_faction_preset", "fac_kingdom_1"),
+	(start_presentation, "prsnt_name_kingdom"),
+	(try_end),
+	(try_begin),
+	(eq, "$custom_troops_set", 0),
+	(faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_active),
+	(lt, "$player_faction_preset", "fac_kingdom_1"),
+	(start_presentation, "prsnt_custom_kingdom_troop"),
+	(try_end),
+	(try_begin),
 	(eq, "$player_faction_preset", "fac_kingdom_2"),
 	(assign, ":faction_russia", "fac_player_supporters_faction"),
 	(else_try),
@@ -7460,6 +7472,7 @@ simple_triggers = [
 (call_script, "script_pps_russia_init_duma_parties", ":faction_russia"),
 (call_script, "script_pps_faction_calculate_support_of_parties", ":faction_russia"),
 ]),
+
 ]
 
 

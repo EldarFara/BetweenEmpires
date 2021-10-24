@@ -20,19 +20,20 @@ from header_skills import *
 pilgrim_disguise = [itm_ammo_pistol, itm_dagger, itm_sidearm_colt_m1851_navy, itm_clothes_urban_male_trousers1, itm_civilian_hat1, itm_clothes_urban_male1]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
-
-
-siege_interior_bugfix = (
-0, 0, 0, [],
+interior_bugfix = (
+ti_on_agent_spawn, 0, 0, [],
 [
-#(display_message, "@debug siege_interior_bugfix begin"),
-(eq, "$g_battle_type", battle_type_siege_interior),
-(ge, "$battle_timer", 5),
-	(try_for_prop_instances, ":prop", "spr_Rus_Town_Lord_Interier_8"),
-	(scene_prop_set_visibility, ":prop", 1),
-	(try_end),
-
-#(display_message, "@debug siege_interior_bugfix end"),
+#(display_message, "@debug interior_bugfix begin"),
+(store_current_scene, ":scene"),
+(eq, ":scene", "scn_town_european_hq"),
+(store_trigger_param_1, ":agent"),
+(agent_is_active, ":agent"),
+(agent_is_non_player, ":agent"),
+(get_player_agent_no, ":player"),
+(agent_is_active, ":player"),
+(agent_get_team, ":team", ":player"),
+(agent_set_team, ":agent", ":team"),
+#(display_message, "@debug interior_bugfix end"),
 ])
 
 order_move_forwards_backwards = (
@@ -6613,7 +6614,7 @@ ams = (ti_after_mission_start, 0, 0, [
 parabellum_script_set_battle = [
 ams,
 bms,
-siege_interior_bugfix,
+interior_bugfix,
 siege_win_battle,
 order_move_forwards_backwards,
 order_follow_me,

@@ -3001,9 +3001,7 @@ the high lords and common folk across the many realms of Europe."),
        ),
       ("action_rename_kingdom",
        [
-         (eq, "$players_kingdom_name_set", 1),
          (faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_active),
-         (faction_slot_eq, "fac_player_supporters_faction", slot_faction_leader, "trp_player"),
          ],"Rename your faction.",
        [(start_presentation, "prsnt_name_kingdom"),
         ]
@@ -3022,7 +3020,6 @@ the high lords and common folk across the many realms of Europe."),
       ("action_promote_kingdom_custom_troop",
        [
          (faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_active),
-         (faction_slot_eq, "fac_player_supporters_faction", slot_faction_leader, "trp_player"),
 		(eq, "$player_faction_preset", -1),
 		
          ],"Customize your faction army.",
