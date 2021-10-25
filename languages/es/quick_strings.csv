@@ -221,8 +221,8 @@ qstr_faction_technologies_photo_la|faction technologies photo lateshells
 qstr_faction_technologies_photo_sh|faction technologies photo shocktroops
 qstr_Modern_Defence^Tacti|Modern Defence^Tactics
 qstr_faction_technologies_photo_mo|faction technologies photo moderndefence
-qstr___already_funded_| (already funded)
-qstr___already_researched| (already researched)
+qstr___already_funded_| (Ya se ha invertido)
+qstr___already_researched| (Ya ha sido investigado)
 qstr__Current_progress___| Progreso Actual - {reg2}%.
 qstr_Cost___{reg0}_${s1}.|Cost - {reg0} ${s1}.^Available after {reg1} year.{s2}
 qstr_Select_Faction|Elegir la facción
@@ -232,120 +232,120 @@ qstr_Select_flag_for_your|Elegir la bandera por la facción
 qstr_Peace_negotiations_w|Negociando la paz con {s1}
 qstr_Stop_Negotiations|Parar las negociaciones
 qstr_Make_Peace|Hacer la paz
-qstr_Opposite_side_diplom|Opposite side diplomats^cannot agree with terms
+qstr_Opposite_side_diplom|Los politicos opositores^ no acuerdan con los terminos
 qstr_Current_winner:_{s1}|Ganador actual: {s1}
 qstr_War_reparations_amou|Costo de reparaciones por la guerra: {reg11} Libras
-qstr_Infamy_penalty:_{reg|Infamy penalty: {reg12}
-qstr_Cannot_claim_{s31}__|Cannot claim {s31} - it doesn't have supply routes to your faction.
-qstr_Diplomats_from_{s32}|Diplomats from {s32} refuse to give {s31} to the {s33}.
+qstr_Infamy_penalty:_{reg|Penalización por Infamia: {reg12}
+qstr_Cannot_claim_{s31}__|No se puede reclamar {s31} - no tiene rutas de suministro para tu facción.
+qstr_Diplomats_from_{s32}|Los politicos de {s32} rechazan dar {s31} a {s33}.
 qstr_{s1}|{s1}
-qstr_Executive_Branch_Com|Executive Branch Composition 
+qstr_Executive_Branch_Com|Composición del poder ejecutivo 
 qstr_Not_a_ruling_party.^|Not a ruling party.^Click to make this party^ a ruling party.
-qstr_Upper_Class___Aristo|Upper Class - Aristocracy
-qstr_Upper_Class___Bourge|Upper Class - Bourgeoisie
-qstr_Middle_Class|Middle Class
-qstr_Lower_Class___Urban|Lower Class - Urban
-qstr_Lower_Class___Rural|Lower Class - Rural
-qstr_Loyalty_to_parties:|Loyalty to parties:
-qstr_Wealth:_{reg1}%|Wealth: {reg1}%
+qstr_Upper_Class___Aristo|Clase Alta - Aristocratas
+qstr_Upper_Class___Bourge|Calse Alta - Burguesia
+qstr_Middle_Class|Clase Media
+qstr_Lower_Class___Urban|Clase Baja - Pueblerino
+qstr_Lower_Class___Rural|Clase Baja - Peon Rural
+qstr_Loyalty_to_parties:|Lealtad al partido:
+qstr_Wealth:_{reg1}%|Riqueza: {reg1}%
 qstr_Satisfaction_with_ne|Satisfaction with needs: {reg2}%
-qstr_Political_activity:_|Political activity: {reg3}%
-qstr_State_Laws:|State Laws:
-qstr_Nomination_Rules|Nomination Rules
-qstr_Upper_Class_Only|Upper Class Only
+qstr_Political_activity:_|Actividad Política: {reg3}%
+qstr_State_Laws:|Leyes del Gobierno:
+qstr_Nomination_Rules|Reglas de Nominación
+qstr_Upper_Class_Only|Solo Clase Alta
 qstr_Universal|Universal
-qstr_Vote_Franchise|Vote Franchise
-qstr_Aristocracy_Only|Aristocracy Only
-qstr_Upper_and_Middle_Cla|Upper and Middle Class Only
-qstr_Universal_Weighted|Universal Weighted
-qstr_Voting_System|Voting System
-qstr_Ruling_Party_Influen|Ruling Party Influence
-qstr_Non_secret_Ballot|Non-secret Ballot
-qstr_Secret_Ballot|Secret Ballot
-qstr_Press_Censorship|Press Censorship
-qstr_State_Press|State Press
-qstr_Heavy_Censorship|Heavy Censorship
-qstr_Light_Censorship|Light Censorship
-qstr_Free_Press|Free Press
-qstr_Executive_Branch_Ele|Executive Branch Elective Posts
-qstr_Selected_by_State|Selected by State
-qstr_Partially_Elected|Partially Elected
-qstr_Mostly_Elected|Mostly Elected
-qstr_Maximum_Work_Hours|Maximum Work Hours
-qstr_Unlimited|Unlimited
-qstr_12_hours_a_day|12 hours a day
-qstr_10_hours_a_day|10 hours a day
-qstr_8_hours_a_day|8 hours a day
-qstr_Minimum_Wage|Minimum Wage
-qstr_No_Minimum|No Minimum
-qstr_Low_Minimum|Low Minimum
-qstr_Acceptable_Minimum|Acceptable Minimum
-qstr_Good_Minimum|Good Minimum
-qstr_Trade_Unions|Trade Unions
-qstr_Banned|Banned
-qstr_Allowed|Allowed
-qstr_Public_Meetings|Public Meetings
-qstr_Authorized_only|Authorized only
-qstr_Child_labour|Child labour
-qstr_Restrictions|Restrictions
-qstr_Outlawed|Outlawed
-qstr_Political_movements|Political movements
-qstr_Liberal_movement|Liberal movement
-qstr_Socialist_movement|Socialist movement
-qstr_Peace_movement|Peace movement
-qstr_You_cannot_change_ru|You cannot change ruling party ({reg1} days cooldown).
-qstr_Income_tax:_{reg10}%|Income tax: {reg10}%
-qstr_Goods_and_Services_t|Goods and Services tax: {reg10}%
-qstr_Import/Export_tax:_{|Import/Export tax: {reg11}%/{reg12}%
-qstr_Military_Expenses:_{|Military Expenses: {reg10}%
-qstr_Education_Expenses:_|Education Expenses: {reg10}%
-qstr_Infrastructure_Expen|Infrastructure Expenses: {reg10}%
-qstr_Healthcare_Expenses:|Healthcare Expenses: {reg10}%
-qstr_Slot:_not_selected|Slot: not selected
-qstr_Party:_not_selected|Party: not selected
-qstr_Party:_{reg1}___{s1}|Party: {reg1} - {s1}
+qstr_Vote_Franchise|Sufragio
+qstr_Aristocracy_Only|Solo Arisocratas
+qstr_Upper_and_Middle_Cla|Solo Clase Alta y Media
+qstr_Universal_Weighted|Peso Universal
+qstr_Voting_System|Sistema de Votación
+qstr_Ruling_Party_Influen|Influencia del Gobierno Actual
+qstr_Non_secret_Ballot|Voto no secreto
+qstr_Secret_Ballot|Voto secreto
+qstr_Press_Censorship|Censura a la prensa
+qstr_State_Press|Censura estatal
+qstr_Heavy_Censorship|Censura Fuerte
+qstr_Light_Censorship|Censura Ligera
+qstr_Free_Press|Periodismo Libre
+qstr_Executive_Branch_Ele|Cargos electivos del Poder Ejecutivo
+qstr_Selected_by_State|Elegido por el Estado
+qstr_Partially_Elected|Elegido Parcialmente 
+qstr_Mostly_Elected|Elegido por la mayoria
+qstr_Maximum_Work_Hours|Limite de horas de trabajo
+qstr_Unlimited|Sin limite
+qstr_12_hours_a_day|12 Horas por dia
+qstr_10_hours_a_day|10 Horas por dia
+qstr_8_hours_a_day|8 Horas por dia
+qstr_Minimum_Wage|Ingreso minimo
+qstr_No_Minimum|Sin minimo
+qstr_Low_Minimum|Minimo bajo
+qstr_Acceptable_Minimum|Minimo aceptable
+qstr_Good_Minimum|Buen minimo
+qstr_Trade_Unions|Unión comercial
+qstr_Banned|Prohibido
+qstr_Allowed|Permitido
+qstr_Public_Meetings|Reuniones Publicas
+qstr_Authorized_only|Solo con autorización
+qstr_Child_labour|Trabajo Infantil
+qstr_Restrictions|Restricciones
+qstr_Outlawed|Proscripto
+qstr_Political_movements|Movimientos Politicos
+qstr_Liberal_movement|Movimiento Liberal
+qstr_Socialist_movement|Movimiento Socialista
+qstr_Peace_movement|Movimiento Pacífico
+qstr_You_cannot_change_ru|No puedes cambiar el gobierno actual (Debes esperar {reg1} dias).
+qstr_Income_tax:_{reg10}%|Impuesto a la renta: {reg10}%
+qstr_Goods_and_Services_t|Impuesto a bienes y servicios: {reg10}%
+qstr_Import/Export_tax:_{|Impuesto a importación/Exportación: {reg11}%/{reg12}%
+qstr_Military_Expenses:_{|Gastos Militares: {reg10}%
+qstr_Education_Expenses:_|Gastos Educativos: {reg10}%
+qstr_Infrastructure_Expen|Gastos Infraestructurales: {reg10}%
+qstr_Healthcare_Expenses:|Gastos en Salud: {reg10}%
+qstr_Slot:_not_selected|Hueco: no seleccionado
+qstr_Party:_not_selected|Partido: no seleccionado
+qstr_Party:_{reg1}___{s1}|Partido: {reg1} - {s1}
 qstr_{reg1}|{reg1}
 qstr_N_A|N A
-qstr_Slot:_{reg1}|Slot: {reg1}
+qstr_Slot:_{reg1}|Hueco: {reg1}
 qstr_JUST_MONIKA_JUST_MON|JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^JUST MONIKA JUST MONIKA JUST MONIKA^
 qstr_monika1|monika1
 qstr_00|00
-qstr_{reg1}.{s2}{reg2}_mi|{reg1}.{s2}{reg2} millions of population
-qstr_Literacy_is_{reg1}.{|Literacy is {reg1}.{reg2}%
-qstr_Urbanization_is_{reg|Urbanization is {reg1}.{reg2}%
-qstr_Daily_GDP_is_{reg1}_|Daily GDP is {reg1} Libras.
+qstr_{reg1}.{s2}{reg2}_mi|{reg1}.{s2}{reg2} Millones de población
+qstr_Literacy_is_{reg1}.{|La alfabetización es de {reg1}.{reg2}%
+qstr_Urbanization_is_{reg|La Urbanización es de {reg1}.{reg2}%
+qstr_Daily_GDP_is_{reg1}_|El PIB diario es de {reg1} Libras.
 qstr_{reg1}_craftsmen_{re|{reg1} craftsmen, {reg2} of which are employed^in mass production, and {reg3} are^occupied in handicraft production.
-qstr_Region_of_{s1}|Region of {s1}
-qstr_Resource_Menu|Resource Menu
-qstr_X_thousands_of_popul|X thousands of population
-qstr_Literacy_is_X%|Literacy is X%
-qstr_Urbanization_is_X%|Urbanization is X%
+qstr_Region_of_{s1}|La región de {s1}
+qstr_Resource_Menu|Menú de Recursos
+qstr_X_thousands_of_popul|X miles de población
+qstr_Literacy_is_X%|La alfabetización es de X%
+qstr_Urbanization_is_X%|La urbanización es de X%
 qstr__+| +
-qstr_Balance_change:{s1}{|Balance change:{s1}{reg10} Libras.
-qstr_BUY|BUY
-qstr_SELL|SELL
-qstr_Balance_change:_+0_$|Balance change: +0 $.
-qstr_Manage_share__Now_is|Manage share (Now is {reg10})%.
-qstr_Not_enough_money.|Not enough money.
-qstr_Price_history_chart:|Price history chart:
-qstr_Country|Country
-qstr_Supply|Supply
-qstr_Demand|Demand
-qstr_Number_of^Factories|Number of^Factories
-qstr_Quality|Quality
-qstr_GDP|GDP
-qstr_Population|Population
-qstr_Literacy|Literacy
-qstr_Urbanization|Urbanization
-qstr_Select_factory_to_bu|Select factory to build:
-qstr_Your_current_balance|Your current balance is {reg10} Libras.
-qstr_Initial_Capital:_500|Initial Capital: 50000 Libras.
-qstr_*Rest_of_initial_bud|*Rest of initial budget will be found via investitions.^Speed of funding depends on region and country.
-qstr_Start_Enterprise|Start Enterprise
+qstr_Balance_change:{s1}{|Cambio de cuenta:{s1}{reg10} Libras.
+qstr_BUY|COMPRAR
+qstr_SELL|VENDER
+qstr_Balance_change:_+0_$|Cambio de Cuenta: +0 $.
+qstr_Manage_share__Now_is|Administración compartida (ahora es de {reg10})%.
+qstr_Not_enough_money.|No tienes suficiente dinero.
+qstr_Price_history_chart:|Grafico histórico de precio:
+qstr_Country|País
+qstr_Supply|Oferta
+qstr_Demand|Demanda
+qstr_Number_of^Factories|Número de ^Fábricas
+qstr_Quality|Calidad
+qstr_GDP|PIB
+qstr_Population|Población
+qstr_Literacy|Alfabetización
+qstr_Urbanization|Urbanización
+qstr_Select_factory_to_bu|Elegir la fábrica a construir:
+qstr_Your_current_balance|Tu estado de cuenta es de {reg10} Libras.
+qstr_Initial_Capital:_500|Capital Inicial: 50000 Libras.
+qstr_*Rest_of_initial_bud|*El resto del presupuesto inicial se recaudará mediante inversiones.^La velocidad en que se complete el pozo esta relacionada a la región.
+qstr_Start_Enterprise|Empezar empresa
 qstr_pes_region_factoryca|pes region factorycard2
 qstr_{s3}|{s3}
 qstr_{s2}|{s2}
-qstr_Same_type_of_factory|Same type of factory does already exist in this town.
+qstr_Same_type_of_factory|Ya existe este tipo de empresa en la ciudad.
 qstr_Initial_Capital:_{re|Capital Inicial: {reg10} Libras.
 qstr_Army_of_{s1}|Ejercito de {s1}
 qstr_Army_size:_{reg1}%|Tamaño del ejercito: {reg1}%
@@ -354,11 +354,11 @@ qstr_Divisions|Divisions
 qstr_{reg1}_soldiers|{reg1} soldados
 qstr_Garrisons|Guarnición
 qstr_soldiers_total|total de soldados
-qstr_Equipped_with_milita|Equipped with military supplies by
+qstr_Equipped_with_milita|Equipados con recursos militares de
 qstr_{reg1}%|{reg1}%
-qstr_Supplied_with_ammuni|Supplied with ammunition by
-qstr_Equipped_with_weapon|Equipped with weapons by
-qstr_Combat_efficiency_of|Combat efficiency of army is
+qstr_Supplied_with_ammuni|La munición fue suministrada por
+qstr_Equipped_with_weapon|El armamento fue suministrado por
+qstr_Combat_efficiency_of|La eficiencia belica del ejercito es de
 qstr_vSeason|vSeason
 qstr_{s1}_of_{s3}_was_def|{s1} del {s3} fue derrotado en batalla, pero ha escapado.
 qstr_{s54}_is_a_claimant_|{s54} es uno de los pretendientes al trono del {s56}.
@@ -371,15 +371,15 @@ qstr_{s51}_belongs_to_{s1|{s51} pertenece al {s1} del {s2}.^
 qstr_{s7}_and_{s8}|{s7} y {s8}
 qstr_{s2}It_has_no_villag|{s2}No tiene aldeas.^
 qstr_{s2}{reg0?Its_villag|{s2}{reg0?Sus aldeas son:Su aldea es} {s8}.^
-qstr_{s63}_is_connected_t|{s63} is connected to the cities of {s60}, {s61} and {s62} by the local road network. Region of this center has access to a seaport.
-qstr_{s63}_is_connected_to|{s63} is connected to the cities of {s60}, {s61} and {s62} by the local road network.
+qstr_{s63}_is_connected_t|{s63} está conectada con las ciudades de {s60}, {s61} y {s62} por una ruta local. La región tiene acceso desde el mar.
+qstr_{s63}_is_connected_to|{s63} está conecta con las ciudades de {s60}, {s61} y {s62} por una ruta local.
 qstr_{s2}Its_prosperity_i|{s2}Su prosperidad es: {s50}
 qstr_noone|nadie
 qstr_{s9}_and_{s10}|{s9} y {s10}
-qstr_{s21}^*_The_{s5}_is_|{s21}^* The {s5} is in alliance with {s14} ({reg11}).
-qstr_{s21}^*_The_{s5}_has|{s21}^* The {s5} has friendly diplomatic relationship with {s14} ({reg11}).
-qstr_{s21}^*_The_{s5}_has_|{s21}^* The {s5} has warm diplomatic relationship with {s14} ({reg11}).
-qstr_{s21}^*_The_{s5}_has_i|{s21}^* The {s5} has indifferent diplomatic relationship with {s14} ({reg11}).
+qstr_{s21}^*_The_{s5}_is_|{s21}^* {s5} esta en una alianza con {s14} ({reg11}).
+qstr_{s21}^*_The_{s5}_has|{s21}^* {s5} esta en una relación diplomática amistosa con {s14} ({reg11}).
+qstr_{s21}^*_The_{s5}_has_|{s21}^* {s5} esta en una relación diplomática con {s14} ({reg11}).
+qstr_{s21}^*_The_{s5}_has_i|{s21}^* {s5} tiene una relación diplomatica indiferente con {s14} ({reg11}).
 qstr_{s5}_has_been_defeat|¡{s5} ha sido derrotado!
 qstr_{s7}_opened_the_gate|{s7} ha abierto la puerta
 qstr_{s7}_closed_the_gate|{s7} ha cerrado la puerta
@@ -474,7 +474,7 @@ qstr_{s2}_{reg3?was:is}_b|{s2} {reg3?se encontraba:se encuentra} en cautividad e
 qstr_{s2}_{reg3?was:has_b|{s2} {reg3?estaba:ha sido} {reg4?capturada:capturado} por sus enemigos.
 qstr_{reg3?{s2}_s_locatio|{reg3?Se desconoce la localización de {s2}:No sé dónde está {s2}}.
 qstr_{s6}_has_joined_your|{s6} se ha unido a vuestro grupo
-qstr_You_now_owe_{reg2}_$|You now owe {reg2} $ to {s1}.
+qstr_You_now_owe_{reg2}_$|Ahora debes {reg2} $ a {s1}.
 qstr_Renown_value_for_thi|Si ganáis esta batalla, vuestro renombre aumentará en {reg8} puntos.
 qstr_You_have_run_into_a_|¡Habéis caído en una trampa!
 qstr_You_are_attacked_by_|¡Un grupo de bandidos os ataca!
@@ -531,201 +531,201 @@ qstr_Best_threat_of_{s4}_|Mejor amenaza de {s4} tiene el valor de {reg1}
 qstr_No_center_found_to_d|No se ha encontrado un centro para defender
 qstr_You_gain_right_to_ru|Ganáis en derecho a gobernar.
 qstr_You_lose_right_to_ru|Perdéis en derecho a gobernar.
-qstr_Added_money_for_your|Added money for your old horse
-qstr_Line_Infantry_Compan|Line Infantry Company
-qstr_Light_Infantry_Compa|Light Infantry Company
-qstr_Guard_Infantry_Compa|Guard Infantry Company
-qstr_Cavalry_Squadron|Cavalry Squadron
-qstr_Mounted_Rifles_Squad|Mounted Rifles Squadron
-qstr_Cavalry_Guard_Squadr|Cavalry Guard Squadron
-qstr_Field_Guns_Battery|Field Guns Battery
-qstr_Howitzers_Battery|Howitzers Battery
-qstr_Heavy_Howitzers_Batt|Heavy Howitzers Battery
-qstr_Machine_Guns_Crew|Machine Guns Crew
-qstr_Shock_Troops_Company|Shock Troops Company
-qstr_Armor_Squadron|Armor Squadron
+qstr_Added_money_for_your|Se te ha dado dinero por tu caballo
+qstr_Line_Infantry_Compan|Compañia de infantería de Linea
+qstr_Light_Infantry_Compa|Compañia de infantería Ligera
+qstr_Guard_Infantry_Compa|Compañia de infantería de guardia
+qstr_Cavalry_Squadron|Escuadrón de Caballería
+qstr_Mounted_Rifles_Squad|Escuadrón de Infantería Montada
+qstr_Cavalry_Guard_Squadr|Escuadrón de Guardia Montada
+qstr_Field_Guns_Battery|Bateria de cañones de campaña
+qstr_Howitzers_Battery|Bateria de Obuses
+qstr_Heavy_Howitzers_Batt|Bateria de Obuseses Persados
+qstr_Machine_Guns_Crew|Compañia de Ametralladoras Pesadas
+qstr_Shock_Troops_Company|Compañia de Tropas de Choque
+qstr_Armor_Squadron|Escuadrón de Tanques
 qstr__I.| I.
-qstr_L.I.|L.I.
+qstr_L.I.|I.L
 qstr__G.| G.
-qstr_M.C.|M.C.
-qstr_M.R.|M.R.
-qstr_C.G.|C.G.
+qstr_M.C.|E.C.
+qstr_M.R.|I.M.
+qstr_C.G.|G.M.
 qstr_G.B.|G.B.
-qstr_H.B.|H.B.
-qstr_H.H.|H.H.
-qstr_M.G.|M.G.
-qstr_S.I.|S.I.
-qstr_A.|A.
-qstr_Cannot_form_square:_t|Cannot form square: too few soldiers (need at least 25).
+qstr_H.B.|B.O.
+qstr_H.H.|O.P.
+qstr_M.G.|A.P.
+qstr_S.I.|T.C.
+qstr_A.|T.
+qstr_Cannot_form_square:_t|No se puede formar el cuadrado: muy pocos soldados (necesitas al menos 25).
 qstr_{reg0}|{reg0}
 qstr_1_{reg1}|1 {reg1}
 qstr_flag1_0|flag1 0
-qstr_{s31}_created_a_casu|{s31} created a casus belli for {s32} for {reg10} days.
-qstr_{s31}_s_infamy_is_in|{s31}'s infamy is increased by {reg10} and is now {reg11}.
-qstr_{s31}_s_infamy_is_de|{s31}'s infamy is decreased by {reg10} and is now {reg11}.
-qstr_Belongs_to_{s31}|Belongs to {s31}
-qstr_Controlled_by_{s31}^|Controlled by {s31}^Belongs to {s32}
-qstr_{s31}_becomes_an_all|{s31} becomes an ally of {s32}.
-qstr_{s31}_breaks_an_alli|{s31} breaks an alliance with {s32}.
-qstr_As_a_result_of_the_e|As a result of the elections, {s1} became the ruling party.
-qstr_Parliament_Compositi|Parliament Composition
+qstr_{s31}_created_a_casu|{s31} ha creado un casus belli a {s32} por {reg10} dias.
+qstr_{s31}_s_infamy_is_in|La infamia de {s31} se ha incrementado en {reg10} y ahora es de {reg11}.
+qstr_{s31}_s_infamy_is_de|La infamia de {s31} se ha disminuido en {reg10} y ahora es de {reg11}.
+qstr_Belongs_to_{s31}|Pertenece a {s31}
+qstr_Controlled_by_{s31}^|Controlado por {s31}^Pertenece a {s32}
+qstr_{s31}_becomes_an_all|{s31} se ha aliado con {s32}.
+qstr_{s31}_breaks_an_alli|{s31} rompió la alianza con {s32}.
+qstr_As_a_result_of_the_e|Como resultado de las elecciones, {s1} se ha vuelto el partido ganador.
+qstr_Parliament_Compositi|Composición del parlamento
 qstr_{s1}:_{reg1}%|{s1}: {reg1}%
-qstr_Not_a_ruling_party|Not a ruling party
-qstr_Ruling_party|Ruling party
-qstr_Influence:_{reg1}%|Influence: {reg1}%
-qstr_Annual_Income:_{reg1|Annual Income: {reg1}.{reg10} p.
-qstr_Quality_of_life:_{re|Quality of life: {reg2}.{reg10}%
-qstr_Current_budget:|Current budget:
+qstr_Not_a_ruling_party|no es un partido gobernando
+qstr_Ruling_party|Partido gobernando
+qstr_Influence:_{reg1}%|Influencia: {reg1}%
+qstr_Annual_Income:_{reg1|Ingresos anuales: {reg1}.{reg10} p.
+qstr_Quality_of_life:_{re|Calidad de vida: {reg2}.{reg10}%
+qstr_Current_budget:|Presupuesto actual:
 qstr_{reg10}_$|{reg10} $
-qstr_Corruption_level:_{r|Corruption level: {reg10}%
+qstr_Corruption_level:_{r|Nivel de corrupción: {reg10}%
 qstr_+{reg10}_$|+{reg10} $
-qstr_Goods_and_services_t|Goods and services tax: {reg10}%
+qstr_Goods_and_services_t|Impuesto a bienes y servicios: {reg10}%
 qstr__{reg10}_$|-{reg10} $
-qstr_Public_servants_wage|Public servants wage expenses:^-{reg10} Libras
-qstr_Other_expenses:^_{re|Other expenses:^-{reg10} $
-qstr_Lost_from_corruption|Lost from corruption: -{reg10} Libras
-qstr_Last_budget_change:^|Last budget change:^{reg10} Libras
+qstr_Public_servants_wage|Gastos de salarios públicos:^-{reg10} Libras
+qstr_Other_expenses:^_{re|Gastos generales:^-{reg10} Libras
+qstr_Lost_from_corruption|Perdidas por corrupción: -{reg10} Libras
+qstr_Last_budget_change:^|Ultimo cambio del presupuesto:^{reg10} Libras
 qstr_{reg1}.{reg2}%|{reg1}.{reg2}%
 qstr____| - 
-qstr_PPS_Faction_iteratio|PPS Faction iteration of {s1}.
-qstr_Center_iteration_of_|Center iteration of {s1}.
-qstr_{s1}_s_{s2}_Iteratio|{s1}'s {s2} Iteration:
-qstr_price_item_{s1}_raw_|price item {s1} raw resource1 {reg10} raw resource1 amount {reg11} output size {reg12}.
-qstr_Produced_{reg10}_wit|Produced {reg10} with {reg20} workers, raw resources multiplier was {reg30}.
-qstr_Spent_{reg10}_$_for_|Spent {reg10} $ for wage.
-qstr_Searching_for_{s1}_i|Searching for {s1} in {reg10} centers.
-qstr_{s1}_has_{reg10}_of_|{s1} has {reg10} of {s2}.
-qstr_In_sum_bought_{reg1}|In sum, bought {reg1}/{reg10} of {s1}.
-qstr_Workers_unemployed__|Workers unemployed - {reg1}, employed {reg2} workers.
-qstr_{reg1}_thousands_of_|{reg1} thousands of population
-qstr_Daily_GDP_is_{reg1}_$|Daily GDP is {reg1} $^({reg2}% of {s1}'s economy).
-qstr_This_region_produces|This region produces increased amount of {s2}.
-qstr_Add_Workplaces^^Buyi|Add Workplaces^^Buying more equipment will increase^number of workplaces.
-qstr_Improve_Worker_Condi|Improve Worker Conditions^^Improving working conditions means inceasing^worker wage, improving production safety and,^in the end, introducing social benefits to workers.^This will increase quality of product^and increase factory attractiveness^for potential workers.
-qstr_Improve_Equipment^^T|Improve Equipment^^Thorough maintaining and improving factory^equipment increases quality of product, making^it more likely to be sold.
-qstr_No_development_mode.|No development mode.
-qstr_Workers_of_this_fact|Workers of this factory are on strike,^which means that its production output^is decreased by 95%.^^Strike is going to end in {reg10} days.
-qstr_{reg10}/{reg11}_work|{reg10}/{reg11} workers
-qstr_Budget:_{reg10}_$.|Budget: {reg10} $.
-qstr_Income:_{reg10}_$.|Income: {reg10} $.
-qstr_Spent_{reg10}_$_and_|Spent {reg10} $ and earnt {reg11} $.
-qstr_Managed_to_buy_{reg1|Managed to buy {reg10}% of needed raw resources^needed for production.
-qstr_Produced_{reg10}.{re|Produced {reg10}.{reg12} {s1} (sold {reg11}%).
-qstr_Quality_of_product_i|Quality of product is {reg10}%.
-qstr_Engineers_percentage|Engineers percentage is {reg10}%.
-qstr_Deterioration_of_mac|Deterioration of machine tools is {reg10}%.
-qstr_bad|bad
-qstr_medium|medium
-qstr_good|good
-qstr_exellent|exellent
-qstr_Worker_wage_is_{s1};|Worker wage is {s1}; Working conditions are {s2}.
-qstr_Select_development_m|Select development mode:
-qstr_Set_workers_wage_lev|Set workers wage level:
-qstr_Sell_factory__{reg10|Sell factory ({reg10} Libras)
-qstr_Building^{s1}^_{reg1|Building^{s1}^({reg10}%)
+qstr_PPS_Faction_iteratio|Iteración de los PPS de la facción es de {s1}.
+qstr_Center_iteration_of_|Iteración central de {s1}.
+qstr_{s1}_s_{s2}_Iteratio|La iteración de {s2} de {s1} es de:
+qstr_price_item_{s1}_raw_|El precio del producto {s1} raw resource1 precio del insumo {reg10} raw resource1 Cantidad de insumos {reg11} producción estimada {reg12}.
+qstr_Produced_{reg10}_wit|Se produjo {reg10} con {reg20} trabajadores, el multiplicador de insumos fue de {reg30}.
+qstr_Spent_{reg10}_$_for_|Se gastó {reg10} $ en salarios.
+qstr_Searching_for_{s1}_i|Se esta buscando {s1} en {reg10} centros.
+qstr_{s1}_has_{reg10}_of_|{s1} tiene {reg10} de {s2}.
+qstr_In_sum_bought_{reg1}|Se compró en total {reg1}/{reg10} de {s1}.
+qstr_Workers_unemployed__|Desempleados - {reg1}, contrató {reg2} trabajadores.
+qstr_{reg1}_thousands_of_|{reg1} miles de población
+qstr_Daily_GDP_is_{reg1}_$|El PIB diario es de {reg1} $^(la economía de {s1} es de {reg2}%).
+qstr_This_region_produces|La producción de la región se incremento en {s2}.
+qstr_Add_Workplaces^^Buyi|Agregar puesto de trabajo^^Comprando más equipamiento se incrementará ^el número de puestos.
+qstr_Improve_Worker_Condi|Mejorar las condiciones laborales^^Mejorando esto se incrementará ^el salario del trabajador, la seguridad de producción ^ y comenzaran los beneficios sociales a los trabajadores.^Esto también incrementará la calidad del producto ^y llamará la atención ^a potenciales trabajadores.
+qstr_Improve_Equipment^^T|Mejorar equipamiento^^Mediante el mantenimiento y la mejora del equipamiento de las fábrica ^se incrementará la calidad de los productos, haciendolos^ más vendibles.
+qstr_No_development_mode.|Modo de no desarrollo.
+qstr_Workers_of_this_fact|Los trabajadores de esta fábrica estan en huelga,^esto significa que la producción se ve reducida en ^95%.^^La huelga se acabará en {reg10} dias.
+qstr_{reg10}/{reg11}_work|{reg10}/{reg11} Trabajadores
+qstr_Budget:_{reg10}_$.|Presupuesto: {reg10} $.
+qstr_Income:_{reg10}_$.|Ingresos: {reg10} $.
+qstr_Spent_{reg10}_$_and_|Se gastó {reg10} $ y se ganó {reg11} $.
+qstr_Managed_to_buy_{reg1|Se gestionó para comprar el {reg10}% de los insumos^ para la producción.
+qstr_Produced_{reg10}.{re|se produjo {reg10}.{reg12} {s1} (se vendió el {reg11}%).
+qstr_Quality_of_product_i|La calidad del producto es de {reg10}%.
+qstr_Engineers_percentage|El porcentaje de mano de obra calificada es de {reg10}%.
+qstr_Deterioration_of_mac|El desgaste del equipamiento es de {reg10}%.
+qstr_bad|Malo
+qstr_medium|Regular
+qstr_good|Bueno
+qstr_exellent|Excelente
+qstr_Worker_wage_is_{s1};|El salario de los trabajadores es de {s1}; las condiciones laborales son {s2}.
+qstr_Select_development_m|Elige el modo de desarrollo:
+qstr_Set_workers_wage_lev|Ingrese el nivel de salarios:
+qstr_Sell_factory__{reg10|Vender fábrica ({reg10} Libras)
+qstr_Building^{s1}^_{reg1|Construyendo^{s1}^({reg10}%)
 qstr_pes_region_factory_p|pes region factory photo notavailable
 qstr_pes_region_factory_ph|pes region factory photo empty
-qstr_Steel_Factory|Steel Factory
+qstr_Steel_Factory|Fábrica de acero
 qstr_pes_region_factory_pho|pes region factory photo steel
-qstr_Ammunition_Factory|Ammunition Factory
+qstr_Ammunition_Factory|Fábrica de munición
 qstr_pes_region_factory_phot|pes region factory photo ammunition
-qstr_Lumber_Mill|Lumber Mill
+qstr_Lumber_Mill|Aserradero
 qstr_pes_region_factory_photo|pes region factory photo timber
-qstr_Machinery_Parts_Plan|Machinery Parts Plant
+qstr_Machinery_Parts_Plan|Fábrica de partes de maquinas
 qstr_pes_region_factory_photo_|pes region factory photo machineparts
-qstr_Cotton_Mill|Cotton Mill
+qstr_Cotton_Mill|Algodonera
 qstr_pes_region_factory_photo_f|pes region factory photo fabric
-qstr_Paper_Mill|Paper Mill
+qstr_Paper_Mill|Papelera
 qstr_pes_region_factory_photo_p|pes region factory photo paper
-qstr_Construction_Materia|Construction Materials^Factory
-qstr_Construction_Material|Construction Materials Factory
+qstr_Construction_Materia|Fábrica de materiales ^para construcción
+qstr_Construction_Material|Fábrica de materiales para construcción
 qstr_pes_region_factory_photo_c|pes region factory photo constructionmaterials
-qstr_Weaponry_Factory|Weaponry Factory
+qstr_Weaponry_Factory|Fábrica de Armas
 qstr_pes_region_factory_photo_w|pes region factory photo weaponry
-qstr_Military_Supplies^Fa|Military Supplies^Factory
-qstr_Military_Supplies_Fa|Military Supplies Factory
+qstr_Military_Supplies^Fa|Fábrica de equipamiento^ militar
+qstr_Military_Supplies_Fa|Fábrica de equipamiento militar
 qstr_pes_region_factory_photo_m|pes region factory photo militarysupplies
-qstr_Clothing_Factory|Clothing Factory
+qstr_Clothing_Factory|Fábrica de ropa
 qstr_pes_region_factory_photo_cl|pes region factory photo clothes
-qstr_Furniture_Factory|Furniture Factory
+qstr_Furniture_Factory|Fábrica de muebles
 qstr_pes_region_factory_photo_fu|pes region factory photo furniture
-qstr_tons_of_steel|tons of steel
-qstr_ammunition|ammunition
-qstr_tons_of_timber|tons of timber
-qstr_tons_of_lumber|tons of lumber
-qstr_weapons|weapons
-qstr_clothings|clothings
-qstr_tons_of_coal|tons of coal
-qstr_tons_of_iron|tons of iron
-qstr_tons_of_constr._mate|tons of constr. materials
-qstr_kilograms_of_cotton|kilograms of cotton
-qstr_kilograms_of_fabric|kilograms of fabric
-qstr_pieces_of_furniture|pieces of furniture
-qstr_machine_parts|machine parts
-qstr_tons_of_military_sup|tons of military supplies
-qstr_kilograms_of_paper|kilograms of paper
-qstr_tons_of_meat|tons of meat
-qstr_tons_of_flour|tons of flour
-qstr_{reg12}_{s3}_has_bou|{reg12} {s3} has bought {reg10} {s1} from {s4} for {reg11}.
-qstr_{s1}_s_{s2}_decided_|{s1}'s {s2} decided to fire {reg10} workers.
-qstr_Population_of_{s1}_i|Population of {s1} is buying resources. Literacy {reg10}, population {reg11}, urbanization {reg12}.
-qstr_Steel|Steel
-qstr_Ammunition|Ammunition
-qstr_Lumber|Lumber
-qstr_Wood|Wood
-qstr_Weaponry|Weaponry
-qstr_Clothes|Clothes
-qstr_Coal|Coal
-qstr_Iron|Iron
-qstr_Construction_materia|Construction materials
-qstr_Cotton|Cotton
-qstr_Fabric|Fabric
-qstr_Furniture|Furniture
-qstr_Machine_parts|Machine parts
-qstr_Military_supplies|Military supplies
-qstr_Paper|Paper
-qstr_Meat|Meat
-qstr_Flour|Flour
-qstr_Price___{reg10}.{reg|Price - {reg10}.{reg11} Libras
-qstr_Supply___{reg11}.{re|Supply - {reg11}.{reg12} {s1}
-qstr_Demand___{reg11}.{re|Demand - {reg11}.{reg12} {s1}
+qstr_tons_of_steel|montón de acero
+qstr_ammunition|munición
+qstr_tons_of_timber|montón de madera
+qstr_tons_of_lumber|montón de tablones de madera
+qstr_weapons|armas
+qstr_clothings|ropa
+qstr_tons_of_coal|montón de carbón
+qstr_tons_of_iron|montón de hierro
+qstr_tons_of_constr._mate|montón de materiales para construcción
+qstr_kilograms_of_cotton|kilogramos de algodón
+qstr_kilograms_of_fabric|kilogramos de tela
+qstr_pieces_of_furniture|muebles
+qstr_machine_parts|partes de maquinas
+qstr_tons_of_military_sup|montón de equipamiento militar
+qstr_kilograms_of_paper|kilogramos de papel
+qstr_tons_of_meat|montón de carne
+qstr_tons_of_flour|montón de harina
+qstr_{reg12}_{s3}_has_bou|{reg12} {s3} ha comprado {reg10} {s1} desde {s4} por {reg11}.
+qstr_{s1}_s_{s2}_decided_|{s2} de {s1} decidió despedir {reg10} trabajadores.
+qstr_Population_of_{s1}_i|La población de {s1} esta comprando recursos. la alfabetización es de {reg10}, la población es de {reg11}, la urbanización es de {reg12}.
+qstr_Steel|Acero
+qstr_Ammunition|Munición
+qstr_Lumber|Tablones
+qstr_Wood|Madera
+qstr_Weaponry|Armas
+qstr_Clothes|Ropa
+qstr_Coal|Carbón
+qstr_Iron|Hierro
+qstr_Construction_materia|Materiales para construcción
+qstr_Cotton|Algodón
+qstr_Fabric|Tela
+qstr_Furniture|Mueble
+qstr_Machine_parts|Partes de maquina
+qstr_Military_supplies|Equipamiento militar
+qstr_Paper|Papel
+qstr_Meat|Carne
+qstr_Flour|Harina
+qstr_Price___{reg10}.{reg|Precio - {reg10}.{reg11} Libras
+qstr_Supply___{reg11}.{re|Oferta - {reg11}.{reg12} {s1}
+qstr_Demand___{reg11}.{re|Demanda - {reg11}.{reg12} {s1}
 qstr_{reg10}._{s1}|{reg10}. {s1}
 qstr_{reg10}.{reg11}|{reg10}.{reg11}
 qstr_{reg10}%|{reg10}%
-qstr_handicraft^only|handicraft^only
+qstr_handicraft^only|Solo ^Artesanal
 qstr_{reg10}k_$|{reg10}k $
-qstr_{reg10}_mil.|{reg10} mil.
-qstr_{reg10}_th.|{reg10} th.
+qstr_{reg10}_mil.|{reg10} Mill.
+qstr_{reg10}_th.|{reg10} mil.
 qstr_{reg10}.{reg11}%|{reg10}.{reg11}%
-qstr_{s1}_produced_{reg10|{s1} produced {reg10} {s2}.
-qstr_Produces_steel_out^o|Produces steel out^of iron and coal.
-qstr_Produces_ammunition_|Produces ammunition out^of steel.
-qstr_Produces_lumber_out^|Produces lumber out^of wood.
-qstr_Produces_weaponry_ou|Produces weaponry out^of steel and lumber.
-qstr_Produces_clothes_out|Produces clothes out^of fabric.
-qstr_Produces_constructio|Produces construction^materials out of steel and coal.
-qstr_Produces_fabric_out^|Produces fabric out^ of cotton.
-qstr_Produces_furniture_o|Produces furniture out^ of lumber.
-qstr_Produces_machine_par|Produces machine parts out^ of steel and coal.
-qstr_Produces_military_su|Produces military supplies out^ of steel and fabric.
-qstr_Produces_paper_out^_|Produces paper out^ of wood.
-qstr_Produced_{reg2}_{s1}|Produced {reg2} {s1} with {reg11} artisans, raw resources multiplier was {reg12}.
-qstr_Chance_to_build_fact|Chance to build factory in {s1} is {reg10}.{reg11}%.
-qstr_Building_factory_in_|Building factory in {s1}
-qstr_Price_of_{s1}_has_ch|Price of {s1} has changed by {reg10}.
-qstr_Urbanization_of_{s1}|Urbanization of {s1}'s center {s2} was increased by {reg10}.
-qstr_{s1}_gives_{reg11}%_|{s1} gives {reg11}% votes.
-qstr_{reg10}%_of_parliame|{reg10}% of parliament voted for bill. Bill rejected.
-qstr_{reg10}%_of_parliamen|{reg10}% of parliament voted for bill. Bill accepted.
-qstr_{s1}_rural_wealth_{r|{s1} rural wealth {reg10} urban wealth {reg11} middle wealth {reg12} bourgeoisie wealth {reg13} aristocracy wealth {reg14} sum wage {reg15} gdp rural {reg16} gdp urban {reg17} population root {reg18}
-qstr_{s1}_cannot_launch_g|{s1} cannot launch grenade attack - {reg1} seconds cooldown.
-qstr_{s1}_cannot_launch_ga|{s1} cannot launch gas attack - {reg1} seconds cooldown.
-qstr_You_became_a_high_co|You became a high command officer, which means you are free to act independent during service.
-qstr_You_became_a_non_com|You became a non-commissioned officer, which means you will now command troops in battle.
-qstr_You_became_a_marshal|You became a marshall of {s10}, which means you can start and manage campaigns.
+qstr_{s1}_produced_{reg10|{s1} produjó {reg10} {s2}.
+qstr_Produces_steel_out^o|Produce acero con^ hierro y carbón.
+qstr_Produces_ammunition_|Produce munición con^ acero.
+qstr_Produces_lumber_out^|Produce tablones con^ madera.
+qstr_Produces_weaponry_ou|Produce armas con^ acero y tablones.
+qstr_Produces_clothes_out|Produce ropa con^ tela.
+qstr_Produces_constructio|Produce materiales para^ construcción con acero y carbón.
+qstr_Produces_fabric_out^|Produce tela con^ algodón.
+qstr_Produces_furniture_o|Produce muebles con^ tablones.
+qstr_Produces_machine_par|Produce partes de maquina con^ acero y carbón.
+qstr_Produces_military_su|Produce equipamiento militar con^ acero y tela.
+qstr_Produces_paper_out^_|Produce papel con^ madera.
+qstr_Produced_{reg2}_{s1}|Produjo {reg2} {s1} con {reg11} artesanos, el multiplicador de insumos fue de {reg12}.
+qstr_Chance_to_build_fact|Chances de construír una fábrica en {s1} es de {reg10}.{reg11}%.
+qstr_Building_factory_in_|Construyendo un fábrica en {s1}
+qstr_Price_of_{s1}_has_ch|El precio de {s1} ha cambiado en {reg10}.
+qstr_Urbanization_of_{s1}|La urbanización del centro de {s1} se ha incrementado en {reg10}.
+qstr_{s1}_gives_{reg11}%_|{s1} da el {reg11}% de los votos.
+qstr_{reg10}%_of_parliame|el {reg10}% del parlamento votó por la factura. esta fue rechazada.
+qstr_{reg10}%_of_parliamen|el {reg10}% del parlamento votó por la factura. esta fue aceptada.
+qstr_{s1}_rural_wealth_{r|la riqueza rural de {s1} es de {reg10}, la riqueza del pueblerino es de {reg11}, la riqueza de la clase media es de {reg12}, la riqueza de la burguesía es de {reg13}, la riqueza de la aristocracia es de {reg14}, la riqueza total es de {reg15}, PIB Rural {reg16}, PIB urbano {reg17} y la población es de {reg18}
+qstr_{s1}_cannot_launch_g|{s1} no puede lanzar ataque de granada - enfriamiento de {reg1} segundos.
+qstr_{s1}_cannot_launch_ga|{s1} no puede lanzar ataque de gas - enfriamiento de {reg1} segundos.
+qstr_You_became_a_high_co|Te has convertido en oficial de alto mando, esto te permite actuar con libertad en el servicio.
+qstr_You_became_a_non_com|Te has convertido en oficial no comisionado, esto te permite dar ordenes a tropas en batalla.
+qstr_You_became_a_marshal|Te has convertido en mariscal de {s10}, esto significa que puedes comenzar y gestionar las campañas.
 qstr_{s50}_{s51}|{s50} {s51}
-qstr_Your_government_type|Your government type doesn't allow to manage this factory.
-qstr_Unable_to_manage_ene|Unable to manage enemy faction's factory.
+qstr_Your_government_type|El tipo de tu gobierno no te permite gestionar esta fábrica.
+qstr_Unable_to_manage_ene|No puedes gestionar una fábrica de la facción enemiga.
 qstr_{s1}:_Peaceful_demon|{s1}: Peaceful demonstration in support of social welfare! Citizens of {s2} gathered on the main square of the city, calling on the government to intervene in the worsening situation of dire working conditions.
 qstr_The_demonstration_en|The demonstration ended without a response from the government.
 qstr_The_police_dispersed|The police dispersed the crowd, but managed to do it without victims.
@@ -754,8 +754,8 @@ qstr_Absolute_Monarchy|Absolute Monarchy
 qstr_Constitutional_Monar|Constitutional Monarchy
 qstr_Republic|Republic
 qstr_Soviet_Republic|Soviet Republic
-qstr_{reg0}._Company_has_|{reg0}. Company has switched to walking.
-qstr_{reg0}._Company_has_s|{reg0}. Company has switched to running.
+qstr_{reg0}._Company_has_|{reg0}. Company Compañia de infantería de has switched to walking.
+qstr_{reg0}._Company_has_s|{reg0}. Company Compañia de infantería de has switched to running.
 qstr_{s1}_cannot_change_f|{s1} cannot change formation - only light infantry can apply extended line formation.
 qstr_{s1}_cannot_change_fo|{s1} cannot change formation - you need to research Modern Attack Tactics technology to apply line formation.
 qstr_{s1}_cannot_change_for|{s1} cannot change formation - you need to research Skirmish Line Tactics technology to apply dense line formation.
@@ -777,7 +777,7 @@ qstr_evening|evening
 qstr_night|night
 qstr_dusk|dusk
 qstr_Hotkeys:_U_to_access|Hotkeys: U to access the aerial view E and Q to rotate camera horizontally Middle mouse button and moving mouse up and down to rotate camera vertically Space and Ctrl to control your height ~ tilde (next to 1) to make selected companies run. You can select companies either by clicking on the units on screen, or by selecting them in the UI in the bottom left Use your right mouse button to place, and orientate your units.
-qstr_{reg0}._Company_was_|{reg0}. Company was forced to retreat.
+qstr_{reg0}._Company_was_|{reg0}. la compañia se vio obligada a retirarse.
 qstr_1st_{s1}|1st {s1}
 qstr_2nd_{s1}|2nd {s1}
 qstr_3rd_{s1}|3rd {s1}
