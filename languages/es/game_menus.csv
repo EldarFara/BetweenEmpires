@@ -12,17 +12,17 @@ menu_start_game_3|Elegid vuestro escenario:
 menu_tutorial|Os acercáis a un campo donde los lugareños se entrenan con armas. Aquí podéis practicar para mejorar vuestras habilidades de combate.
 mno_go_back_dot|Atrás.
 menu_reports|Renombre del personaje: {reg5}^Honor: {reg6}^Moral del grupo: {reg8}^Límite del grupo: {reg7}^
-mno_show_pps_menu|View faction internal politics menu.
-mno_show_pas_menu|View faction military management menu.
-mno_show_weather_report|View weather report.
-mno_reports_to_faction_technologies|View your faction military technologies.
+mno_show_pps_menu|Ver Menú de politica interna de la facción.
+mno_show_pas_menu|Ver Menú de la gestión militar de la facción.
+mno_show_weather_report|Ver Reporte del Clima.
+mno_reports_to_faction_technologies|Ver las tecnologias militar de la facción.
 mno_view_character_report|Ver el informe del personaje.
 mno_view_party_size_report|Ver el informe del tamaño del grupo.
 mno_view_npc_mission_report|Ver el informe de misión del compañero.
 mno_view_weekly_budget_report|Ver informe semanal de presupuesto.
 mno_view_morale_report|Ver el informe de la moral del grupo.
-mno_action_view_troop_trees|View factions troop trees.
-mno_action_view_world_map|World Map
+mno_action_view_troop_trees|Ver evolución de las tropas de las facciones.
+mno_action_view_world_map|Mapamundi
 mno_lord_relations|Ver la lista de señores conocidos según relación.
 mno_courtship_relations|Ver relaciones de cortejo.
 mno_view_faction_relations_report|Ver el informe de vuestra relación con las facciones.
@@ -38,7 +38,7 @@ mno_start_merchant|Un mercader ambulante.
 mno_start_guard|Un guerrero veterano.
 mno_start_forester|Un cazador.
 mno_start_professor|A university professor.
-mno_start_worker|A factory worker.
+mno_start_worker|Un Obrero metalurgico.
 mno_start_nomad|Un nómada de la estepa.
 mno_start_thief|Un ladrón.
 menu_start_character_2|{s10}^^ Comenzasteis a aprender sobre el mundo casi al mismo tiempo que aprendisteis a caminar y hablar. Pasasteis vuestra niñez...
@@ -48,9 +48,9 @@ mno_stockboy|Como asistente en una tienda.
 mno_urchin|Haciendo gamberradas.
 mno_nomad|En las estepas.
 menu_start_character_3|{s11}^^ La vida cambió para vos al llegar a adolescente, como siempre sucede. Entonces os hicisteis...
-mno_student1|A university student (medicine).
-mno_student2|A university student (engineering).
-mno_student3|A university student (philology).
+mno_student1|Un estudiante universitario (Medicina).
+mno_student2|Un estudiante universitario (Ingeniería).
+mno_student3|Un estudiante universitario (Filología).
 mno_troubadour|Trovador.
 mno_craftsman|Herrero.
 mno_poacher|Cazador furtivo.
@@ -78,21 +78,21 @@ mno_camp_action|Emprended una acción.
 mno_camp_wait_here|Esperad aquí un momento.
 mno_camp_cheat|¡MENU DE TRUCOS!
 menu_camp_cheat|Seleccionad truco:
-mno_camp_cheat_400_pes_pps_iterations|Simulate 400 PES/PPS iterations.
-mno_camp_cheat_20_pes_pps_iterations|Simulate 20 PES/PPS iterations.
+mno_camp_cheat_400_pes_pps_iterations|Simular iteraciones de 400 PES/PPS.
+mno_camp_cheat_20_pes_pps_iterations|Simular iteraciones de 20 PES/PPS.
 mno_camp_cheat_dds|Open Debug Display Slots.
-mno_camp_cheat_all_factions_research_all_tech|Make all factions immediately research all technologies.
+mno_camp_cheat_all_factions_research_all_tech|Aplicar inmediatamente todas las investigaciones de la facción.
 mno_camp_cheat_find_item|Cambiar clima.
 mno_camp_action_4|Regresad al menú del campamento.
 menu_camp_action|Elegid una acción:
-mno_camp_action_pas_enlistment_retire|Retire from service.
+mno_camp_action_pas_enlistment_retire|Retirarte de la Aventura.
 mno_camp_recruit_prisoners|Reclutad algunos de los prisioneros para el grupo.
 mno_action_read_book|Seleccionad un libro para leer.
 mno_action_rename_kingdom|Cambiar de nombre a vuestro reino.
-mno_action_change_flag|Change flag of your nation.
-mno_action_promote_kingdom_custom_troop|Customize your faction army.
-mno_change_game_speed|Change game speed. (current speed - {reg0} days per year).
-mno_enable_ironsight|Toggle ironsight mode.
+mno_action_change_flag|Cambiar la bandera de tu nación.
+mno_action_promote_kingdom_custom_troop|Personalizar el ejercito de tu facción.
+mno_change_game_speed|Cambiar la velocidad del juego. (Velocidad actual - {reg0} dias para hacer un año).
+mno_enable_ironsight|Cambiar el modo de mirilla.
 mno_action_retire|Retiraos de la aventura.
 menu_camp_recruit_prisoners|Ofrecéis a vuestros prisioneros la libertad si aceptan unirse a vuestra causa como soldados. {s18}
 mno_camp_recruit_prisoners_accept|Aceptadlos.
@@ -223,10 +223,10 @@ mno_castle_taken_claim_2|Pedid que {s3} sea entregado a {vuestra esposa/vuestro 
 mno_castle_taken_no_claim|No pidáis recompensas.
 menu_requested_castle_granted_to_player|Recibís un mensaje de {reg4?vuestra señora:vuestro señor} feudal, {s3}.^^ {reg4?Ella:Él} ha decidido entregaros {s2}{reg3? y la aldea colindante, {s4},:} a vos, junto con los beneficios y títulos, para que administréis en su nombre mientras sigáis manteniendo vuestro juramento de lealtad.
 menu_requested_castle_granted_to_player_husband|Recibís un mensaje de {reg4?vuestra señora:vuestro señor} feudal, {s3}.^^ {reg4?Ella:Él} ha decidido entregar {s2}{reg3? y la aldea colindante, {s4},:} a vuestro esposo, {s7}.
-menu_requested_castle_granted_to_another|Recibís un mensaje de vuestro monarca, {s3}.^^ 'Me ha impresionado gratamente el conocimiento de vuestros valientes esfuerzos en la captura de {s2}. Vuestra victoria ha alegrado nuestros corazones. También solicitáis la propiedad del castillo, pero tal es un favor que temo no poder complacer. Vos ya contáis con significativas propiedades en mi reino. Os envío {reg6} denares para cubrir vuestros gastos, pero {s2} se lo entrego a {s5}.' 
+menu_requested_castle_granted_to_another|Recibís un mensaje de vuestro monarca, {s3}.^^ 'Me ha impresionado gratamente el conocimiento de vuestros valientes esfuerzos en la captura de {s2}. Vuestra victoria ha alegrado nuestros corazones. También solicitáis la propiedad del castillo, pero tal es un favor que temo no poder complacer. Vos ya contáis con significativas propiedades en mi reino. Os envío {reg6} Libras para cubrir vuestros gastos, pero {s2} se lo entrego a {s5}.' 
 mno_accept_decision|Aceptad la decisión.
 mno_leave_faction|¡Os han traicionado! ¡Renunciad al juramento que hicisteis a vuestro señor! 
-menu_requested_castle_granted_to_another_female|Recibís un mensaje de {reg4?vuestra:vuestro} monarca, {s3}.^^ 'Me ha agradado mucho saber de vuestros valientes esfuerzos en la captura de {s2}. Vuestra victoria ha alegrado nuestros corazones. También me habéis pedido la entrega del castillo a vuestro esposo, pero me temo que ése es un favor que no puedo conceder, puesto que él ya posee demasiadas propiedades en mi reino. En vez de eso, os envío {reg6} denares para costear los gastos de vuestra campaña, pero {s2} se lo concedo a {s5}.' 
+menu_requested_castle_granted_to_another_female|Recibís un mensaje de {reg4?vuestra:vuestro} monarca, {s3}.^^ 'Me ha agradado mucho saber de vuestros valientes esfuerzos en la captura de {s2}. Vuestra victoria ha alegrado nuestros corazones. También me habéis pedido la entrega del castillo a vuestro esposo, pero me temo que ése es un favor que no puedo conceder, puesto que él ya posee demasiadas propiedades en mi reino. En vez de eso, os envío {reg6} Libras para costear los gastos de vuestra campaña, pero {s2} se lo concedo a {s5}.' 
 menu_leave_faction|La renuncia a un juramento de lealtad es algo muy grave. Vuestro señor podrá condenaros y confiscar vuestras tierras y propiedades. Sin embargo, si las devolvéis de forma voluntaria, puede que perdone vuestra traición sin necesidad de luchar.
 mno_leave_faction_give_back|Renunciad al juramento de lealtad y a vuestras posesiones.
 mno_leave_faction_hold|Renunciad a vuestro juramento y regid vuestras tierras, incluyendo {s2}, en vuestro nombre.
@@ -262,7 +262,7 @@ mno_village_steal_cattle|Robar ganado.
 mno_village_loot|Saquear la aldea y arrasadla.
 menu_recruit_volunteers|{s18}
 mno_continue_not_enough_gold|No tengo dinero suficiente...
-mno_recruit_them|Reclutadlos ({reg6} denares).
+mno_recruit_them|Reclutadlos ({reg6} Libras).
 menu_village_hunt_down_fugitive_defeated|Un fuerte golpe del fugitivo te hace caer al suelo, tú visión se nubla y pierdes el conocimiento. El tiempo pasa. Al abrir nuevamente vuestros ojos te encuentras sagrando de múltiples heridas, pero afortunadamente no parecen ser letales.
 menu_village_infest_bandits_result|{s9}
 menu_village_infestation_removed|En una batalla épica, vos y tus hombres logran echar a los bandidos de la aldea, recobrando nuevamente la paz. Los campesinos ya no tienen muchos bienes después de tal calvario, pero nos ofrecen todo lo que pueden encontrar.
@@ -275,7 +275,7 @@ mno_center_build_watch_tower|Construir una torre de vigilancia.
 mno_center_build_school|Construir una escuela.
 mno_center_build_messenger_post|Construir un puesto de mensajería.
 mno_center_build_prisoner_tower|Construir una torre de prisioneros.
-menu_center_improve|{s19} Como miembro del grupo con mayor conocimiento de ingeniería ({reg2}), {reg3?calculás:{s3} calcula} que construir {s4} te costará {reg5} denares y se completará en {reg6} días.
+menu_center_improve|{s19} Como miembro del grupo con mayor conocimiento de ingeniería ({reg2}), {reg3?calculás:{s3} calcula} que construir {s4} te costará {reg5} Libras y se completará en {reg6} días.
 mno_improve_cont|Continuar.
 mno_improve_not_enough_gold|No tengo el dinero suficiente para eso.
 menu_town_bandits_failed|{s4} {s5}
@@ -292,7 +292,7 @@ menu_village_start_attack|Algunos de los enfadados campesinos toman sus herramie
 mno_village_raid_attack|Atacar.
 mno_village_raid_leave|Dejar la aldea en paz.
 menu_village_loot_no_resist|Los campesinos son pocos y están asustados, y rápidamente se dan a la fuga. La aldea está a vuestra merced.
-menu_village_loot_complete|Ordenar a vuestras tropas que saqueen la aldea, que tomen todo lo de valor, y que luego prendan fuego a las casas. De las monedas y objetos de valor, vuestra parte es {reg1} denares.
+menu_village_loot_complete|Ordenar a vuestras tropas que saqueen la aldea, que tomen todo lo de valor, y que luego prendan fuego a las casas. De las monedas y objetos de valor, vuestra parte es {reg1} Libras.
 menu_village_loot_defeat|Luchando con coraje y determinación, los campesinos son capaces de soportar y repeler el ataque.
 menu_village_loot_continue|¿Deseás continuar saqueando la aldea?
 mno_disembark_yes|Sí.
@@ -344,7 +344,7 @@ mno_visit_lady_6|Visitar a {s12}
 mno_visit_lady_7|Visitar a {s12}
 mno_visit_lady_8|Visitar a {s12}
 menu_town_tournament_lost|Se os ha eliminado del torneo. {s8}
-menu_town_tournament_won|¡Habéis ganado el torneo de {s3}! Sentís un profundo orgullo mientras los espectadores gritan vuestro nombre. Además del honor, la fama y la gloria, ganáis un premio de {reg9} denares. {s8}
+menu_town_tournament_won|¡Habéis ganado el torneo de {s3}! Sentís un profundo orgullo mientras los espectadores gritan vuestro nombre. Además del honor, la fama y la gloria, ganáis un premio de {reg9} Libras. {s8}
 menu_town_tournament_won_by_another|Al ser la única persona invicta hoy, {s1} gana las listas y la gloria de este torneo.
 menu_town_tournament|{s1} Os encontráis en el nivel {reg0} del torneo, quedando aún {reg1} participantes. En la próxima ronda, habrá {reg2} equipos, con {reg3} {reg4?luchadores:luchador} cada uno.
 mno_tournament_view_participants|Ved participantes.
@@ -354,22 +354,22 @@ mno_leave_tournament|Retiraos del torneo.
 menu_tournament_withdraw_verify|¿Seguro que queréis retiraros del torneo?
 mno_tournament_withdraw_yes|Sí. Esto no tiene sentido.
 mno_tournament_withdraw_no|No, ¡no mientras tenga posibilidad de vencer!
-menu_tournament_bet|Las apuestas contra vos son de {reg5} a {reg6}.{reg1? Ya habéis apostado {reg1} denares y, si ganáis, obtendréis {reg2} denares.:} ¿Cuánto queréis apostar?
-mno_bet_100_denars|100 denares.
-mno_bet_50_denars|50 denares.
-mno_bet_20_denars|20 denares.
-mno_bet_10_denars|10 denares.
-mno_bet_5_denars|5 denares.
-menu_tournament_bet_confirm|Si apostáis {reg1} denares, ganaréis {reg2} denares si conseguís la victoria en el torneo. ¿Estáis de acuerdo?
+menu_tournament_bet|Las apuestas contra vos son de {reg5} a {reg6}.{reg1? Ya habéis apostado {reg1} Libras y, si ganáis, obtendréis {reg2} Libras.:} ¿Cuánto queréis apostar?
+mno_bet_100_denars|100 Libras.
+mno_bet_50_denars|50 Libras.
+mno_bet_20_denars|20 Libras.
+mno_bet_10_denars|10 Libras.
+mno_bet_5_denars|5 Libras.
+menu_tournament_bet_confirm|Si apostáis {reg1} Libras, ganaréis {reg2} Libras si conseguís la victoria en el torneo. ¿Estáis de acuerdo?
 mno_tournament_bet_accept|Adelante.
 mno_tournament_bet_cancel|Olvidadlo.
 menu_tournament_participants|Preguntáis a un pregonero los nombres de los participantes en el torneo. Ellos son:^{s11}
 menu_collect_taxes|Como miembro del grupo con mayor habilidad para comerciar ({reg2}), {reg3?esperáis:{s1} espera} que la recaudación de impuestos dure {reg4} días...
 mno_start_collecting|Comenzad la recaudación.
 mno_collect_later|Retrasadlo hasta dentro de un tiempo.
-menu_collect_taxes_complete|Habéis recaudado {reg3} denares de los impuestos de {s3}. {s19} espera que le llevéis el dinero.
+menu_collect_taxes_complete|Habéis recaudado {reg3} Libras de los impuestos de {s3}. {s19} espera que le llevéis el dinero.
 menu_collect_taxes_rebels_killed|Vuestra rápida respuesta y mano dura han acabado con la revuelta. Seguramente, si queda gente con ganas de rebelarse contra vos, se lo pensarán dos veces a partir de ahora.
-menu_collect_taxes_failed|Sólo pudisteis recaudar {reg3} denares como impuestos de {s3} antes de que comenzara la revuelta. {s1} no estará feliz, pero algo de plata es mejor que nada...
+menu_collect_taxes_failed|Sólo pudisteis recaudar {reg3} Libras como impuestos de {s3} antes de que comenzara la revuelta. {s1} no estará feliz, pero algo de plata es mejor que nada...
 menu_collect_taxes_revolt_warning|La gente de {s3} está indignada con vuestras demandas y lo consideran extorsión. Están inquietos y puede que reaccionen de mala manera si continuáis presionándolos.
 mno_continue_collecting_taxes|Ignoradlos y continuad.
 mno_halve_taxes|Acceded a recortar la recaudación por la mitad. ({s1} puede enfadarse)
@@ -388,7 +388,7 @@ menu_disembark|¿Deseáis desembarcar?
 menu_ship_reembark|¿Deseáis embarcar?
 mno_reembark_yes|Sí.
 mno_reembark_no|No.
-menu_center_reports|Nombre de la aldea: {s1}^Ingreso por rentas: {reg1} denares^Ingreso por aranceles: {reg2} denares^Reserva de alimentos: por {reg3} días
+menu_center_reports|Nombre de la aldea: {s1}^Ingreso por rentas: {reg1} Libras^Ingreso por aranceles: {reg2} Libras^Reserva de alimentos: por {reg3} días
 mno_to_price_and_productions|Mostrar precios y producciones.
 menu_price_and_production|La producción es:^(Nota: base/modificación por materias primas/modificación por materiales y prosperidad)^{s1}^^Los factores de precios son:^{s2}
 menu_town_trade|Os dirigís hacia el mercado.
@@ -406,7 +406,7 @@ mno_sneak_caught_fight|¡Intentad luchar!
 mno_sneak_caught_surrender|Rendíos.
 menu_sneak_into_town_caught_dispersed_guards|Ahuyentáis a los guardias y cubrís vuestras huellas al huir, despistando a vuestros perseguidores entre el laberinto de calles.
 menu_sneak_into_town_caught_ran_away|Salís por las puertas en retirada hacia la seguridad de los campos.{s11}
-menu_enemy_offer_ransom_for_prisoner|El {s2} os ofrece una suma de {reg12} denares en plata si aceptáis venderle a {s1}.
+menu_enemy_offer_ransom_for_prisoner|El {s2} os ofrece una suma de {reg12} Libras en plata si aceptáis venderle a {s1}.
 mno_ransom_accept|Aceptad la oferta.
 mno_ransom_reject|Rechazad la oferta.
 menu_training_ground|Os acercáis al campo de entrenamiento, donde podéis practicar vuestras habilidades marciales. ¿Qué clase de entrenamiento deseáis practicar?
@@ -457,7 +457,7 @@ menu_captivity_castle_taken_prisoner|Los guardias os rodean rápidamente y os de
 menu_captivity_rescue_lord_taken_prisoner|Permanecéis con vuestro disfraz durante todo el tiempo que os es posible antes de mostraros. Los guardias, indignados, os golpean salvajemente y os dejan nuevamente en la celda, por Dios sabe cuánto tiempo...
 menu_captivity_castle_check|stub
 menu_captivity_end_exchanged_with_prisoner|Finalmente, tras días de encarcelamiento, os dejan en libertad; vuestros captores os han intercambiado por otro prisionero.
-menu_captivity_end_propose_ransom|Pasáis largas horas en la oscura humedad de la mazmorra, más de las que podéis contar. De pronto, uno de vuestros captores entra a vuestra celda con una oferta; os propone liberaros a cambio de {reg5} denares de vuestra fortuna escondida. ¿Qué haréis?
+menu_captivity_end_propose_ransom|Pasáis largas horas en la oscura humedad de la mazmorra, más de las que podéis contar. De pronto, uno de vuestros captores entra a vuestra celda con una oferta; os propone liberaros a cambio de {reg5} Libras de vuestra fortuna escondida. ¿Qué haréis?
 mno_captivity_end_ransom_accept|Aceptad la oferta.
 mno_captivity_end_ransom_deny|Rechazadla, esperad algo mejor.
 menu_captivity_castle_remain|Siguen pasando los días en la oscuridad de vuestra celda. Intentáis sobrellevarlo lo mejor posible, soportando patadas e insultos de los guardias, viendo cómo vuestro cuerpo desnutrido se marchita...
@@ -538,7 +538,7 @@ menu_start_phase_4|{s11}
 menu_lost_tavern_duel|{s11}
 menu_establish_court|Para establecer vuestra corte en {s4} harán falta ciertas reformas. Principalmente, necesitaréis un juego de herramientas y un rollo de terciopelo. También pasará un cierto tiempo hasta que todos vuestros seguidores se trasladen aquí. ¿Deseáis continuar?
 mno_establish|Establecer vuestra corte en {s4} 
-menu_notification_relieved_as_marshal|{s4} desea informaros de que vuestros servicios como mariscal ya no son necesarios. Para honrar vuestros valerosos esfuerzos a favor del reino en los últimos {reg4} días, no obstante, {reg5?ella:él} os ofrece una bolsa con {reg5} denares.
+menu_notification_relieved_as_marshal|{s4} desea informaros de que vuestros servicios como mariscal ya no son necesarios. Para honrar vuestros valerosos esfuerzos a favor del reino en los últimos {reg4} días, no obstante, {reg5?ella:él} os ofrece una bolsa con {reg5} Libras.
 menu_weather_report|{s1}
 menu_start_game_choose_ai_behavior|Escoge el comportamiento de las facciones.
 mno_start_game_choose_ai_behavior_historical|Histórico.
@@ -660,13 +660,13 @@ menu_balkanwars_event1|Liga Balcánica
 mno_balkanwars_event1_join|{s1}
 mno_balkanwars_event1_dont_join|No entrar a la Liga.
 menu_balkanwars_event2|Guerra contra el imperio Otomano
-menu_balkanwars_event3|War against Bulgaria
+menu_balkanwars_event3|Guerra contra Bulgaria
 mno_balkanwars_event3_s1|{s1}
-mno_balkanwars_event3_dont_take_part|Don't participate in this war.
-menu_socialism_demonstration|Demonstrations in {s2}!^^Large groups have formed in protest of the perceived failings of the nations economic policy in {s2}.^Scores of protesters in vocal support of {s3} held a peaceful rally to express dissatisfaction over the state of affairs in {s1}.^The protesters, comprised of every strata of society, be it the young or elderly, marched for more than 5 kilometers over the cities main boulevard.^Despite the heavy presence of law enforcement throughout the route, protesters openly expressed disdain for the government by chanting songs of protest.^On arrival at {s2}, a large portion of the crowd began singing the 'Internationale', while many others decried the way {s1} had handled recent events.^^Upon this display of perceived sympathy towards socialism, the police sorrounded the protest group, blocking off roadways leading into the plaza.
-mno_socialism_demonstration_option1|Ignore the demonstration and wait for it to go away.
-mno_socialism_demonstration_option2|Disperse the crowd by police force avoiding victims.
-mno_socialism_demonstration_option3|Disperse the crowd by police force, allowing usage of firearms.
-menu_socialism_riot|Riot in {s2}!^^Large groups have formed in protest of the perceived failings of the nations economic policy in {s2}.^Scores of protesters in vocal support of {s3} held a peaceful rally to express dissatisfaction over the state of affairs in {s1}.^The protesters, comprised of every strata of society, be it the young or elderly, marched for more than 5 kilometers over the cities main boulevard.^Despite the heavy presence of law enforcement throughout the route, protesters openly expressed disdain for the government by chanting songs of protest.^On arrival at {s2}, a large portion of the crowd began singing the 'Internationale', while many others decried the way {s1} had handled recent events.^^Upon this display of perceived sympathy towards socialism, the police sorrounded the protest group, blocking off roadways leading into the plaza.
-mno_socialism_riot_option1|Ignore the demonstration and wait for it to go away.
-mno_socialism_riot_option2|Disperse the crowd by police force, allowing usage of firearms.
+mno_balkanwars_event3_dont_take_part|No participar en la guerra.
+menu_socialism_demonstration|¡Protestas en {s2}!^^Unos grupos formaron una protesta por los problemas economicos en {s2}.^Muchisimos subversivos lideras por {s3} generaron una protesta pacifica para demostrar su enojo al estado en {s1}.^Los manifestantes son de diferentes clases sociales y de todas las edades, marcharon por más de 5 kilometros por las calles principales de la ciudad.^Más alla de la fuerte presencia de fuerzas de seguridad en la ruta, los manifestantes expresaron abiertamente el odio al estado mediante las canciones.^Cuando llegaron a {s2}, una inmensa cantidad de la muchedumbre empezaron a cantar 'La Internacional', mientras que otros condenaron como {s1} manejaron los eventos recientes.^^Se empezo a notar que la multitud estaba formada por simpantizantes del socialismo, la policía rodeó a este grupo, bloqueandoles el camino a la plaza.
+mno_socialism_demonstration_option1|Ignorar las protestas y esperar que se dispersen.
+mno_socialism_demonstration_option2|Reprimir la multitud con la policía usando armas contundentes.
+mno_socialism_demonstration_option3|Reprimir la multitud con la policía usando armas de fuego.
+menu_socialism_riot|¡Disturbios en {s2}!^^Unos grupos formaron una protesta por los problemas economicos en {s2}.^Muchisimos subversivos lideras por {s3} generaron una protesta pacifica para demostrar su enojo al estado en {s1}.^Los manifestantes son de diferentes clases sociales y de todas las edades, marcharon por más de 5 kilometros por las calles principales de la ciudad.^Más alla de la fuerte presencia de fuerzas de seguridad en la ruta, los manifestantes expresaron abiertamente el odio al estado mediante las canciones.^Cuando llegaron a {s2}, una inmensa cantidad de la muchedumbre empezaron a cantar 'La Internacional', mientras que otros condenaron como {s1} manejaron los eventos recientes.^^Se empezo a notar que la multitud estaba formada por simpantizantes del socialismo, la policía rodeó a este grupo, bloqueandoles el camino a la plaza.
+mno_socialism_riot_option1|Ignorar las protestas y esperar que se dispersen.
+mno_socialism_riot_option2|Reprimir la multitud con la policía usando armas de fuego.

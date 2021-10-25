@@ -132,15 +132,15 @@ qstr_Show_villages|Mostrar poblados
 qstr_Tip:_move_the_mouse_|Consejo: mueve el mouse a los bloques negros para ver sus nombres.
 qstr_The_World_Map|El mapamundi
 qstr_Done|Hecho
-qstr_Language:|Language:
-qstr_English|English
-qstr_Russian|Russian
-qstr_German|German
-qstr_Turkish|Turkish
-qstr_Spanish|Spanish
-qstr_Italian|Italian
-qstr_French|French
-qstr_Polish|Polish
+qstr_Language:|Idioma:
+qstr_English|Ingles
+qstr_Russian|Ruso
+qstr_German|Alemán
+qstr_Turkish|Turco
+qstr_Spanish|Español
+qstr_Italian|Italiano
+qstr_French|Francés
+qstr_Polish|Polaco
 qstr_Press_Escape_to_clos|Presione Escape para cerrar el menú...
 qstr_Army_of_{s7}|Army of {s7}
 qstr_Attribute_points_{re|Puntos de Atributo {reg40}
@@ -223,18 +223,18 @@ qstr_Modern_Defence^Tacti|Modern Defence^Tactics
 qstr_faction_technologies_photo_mo|faction technologies photo moderndefence
 qstr___already_funded_| (already funded)
 qstr___already_researched| (already researched)
-qstr__Current_progress___| Current progress - {reg2}%.
+qstr__Current_progress___| Progreso Actual - {reg2}%.
 qstr_Cost___{reg0}_${s1}.|Cost - {reg0} ${s1}.^Available after {reg1} year.{s2}
-qstr_Select_Faction|Select Faction
-qstr_Start_Game|Start Game
-qstr_Chosen_Faction:^{s1}|Chosen Faction:^{s1}
-qstr_Select_flag_for_your|Select flag for your faction
-qstr_Peace_negotiations_w|Peace negotiations with {s1}
-qstr_Stop_Negotiations|Stop Negotiations
-qstr_Make_Peace|Make Peace
+qstr_Select_Faction|Elegir la facción
+qstr_Start_Game|Empezar la partida
+qstr_Chosen_Faction:^{s1}|Escoger la facción:^{s1}
+qstr_Select_flag_for_your|Elegir la bandera por la facción
+qstr_Peace_negotiations_w|Negociando la paz con {s1}
+qstr_Stop_Negotiations|Parar las negociaciones
+qstr_Make_Peace|Hacer la paz
 qstr_Opposite_side_diplom|Opposite side diplomats^cannot agree with terms
-qstr_Current_winner:_{s1}|Current winner: {s1}
-qstr_War_reparations_amou|War reparations amount: {reg11} pounds
+qstr_Current_winner:_{s1}|Ganador actual: {s1}
+qstr_War_reparations_amou|Costo de reparaciones por la guerra: {reg11} Libras
 qstr_Infamy_penalty:_{reg|Infamy penalty: {reg12}
 qstr_Cannot_claim_{s31}__|Cannot claim {s31} - it doesn't have supply routes to your faction.
 qstr_Diplomats_from_{s32}|Diplomats from {s32} refuse to give {s31} to the {s33}.
@@ -313,7 +313,7 @@ qstr_00|00
 qstr_{reg1}.{s2}{reg2}_mi|{reg1}.{s2}{reg2} millions of population
 qstr_Literacy_is_{reg1}.{|Literacy is {reg1}.{reg2}%
 qstr_Urbanization_is_{reg|Urbanization is {reg1}.{reg2}%
-qstr_Daily_GDP_is_{reg1}_|Daily GDP is {reg1} pounds.
+qstr_Daily_GDP_is_{reg1}_|Daily GDP is {reg1} Libras.
 qstr_{reg1}_craftsmen_{re|{reg1} craftsmen, {reg2} of which are employed^in mass production, and {reg3} are^occupied in handicraft production.
 qstr_Region_of_{s1}|Region of {s1}
 qstr_Resource_Menu|Resource Menu
@@ -321,7 +321,7 @@ qstr_X_thousands_of_popul|X thousands of population
 qstr_Literacy_is_X%|Literacy is X%
 qstr_Urbanization_is_X%|Urbanization is X%
 qstr__+| +
-qstr_Balance_change:{s1}{|Balance change:{s1}{reg10} pounds.
+qstr_Balance_change:{s1}{|Balance change:{s1}{reg10} Libras.
 qstr_BUY|BUY
 qstr_SELL|SELL
 qstr_Balance_change:_+0_$|Balance change: +0 $.
@@ -338,22 +338,22 @@ qstr_Population|Population
 qstr_Literacy|Literacy
 qstr_Urbanization|Urbanization
 qstr_Select_factory_to_bu|Select factory to build:
-qstr_Your_current_balance|Your current balance is {reg10} pounds.
-qstr_Initial_Capital:_500|Initial Capital: 50000 pounds.
+qstr_Your_current_balance|Your current balance is {reg10} Libras.
+qstr_Initial_Capital:_500|Initial Capital: 50000 Libras.
 qstr_*Rest_of_initial_bud|*Rest of initial budget will be found via investitions.^Speed of funding depends on region and country.
 qstr_Start_Enterprise|Start Enterprise
 qstr_pes_region_factoryca|pes region factorycard2
 qstr_{s3}|{s3}
 qstr_{s2}|{s2}
 qstr_Same_type_of_factory|Same type of factory does already exist in this town.
-qstr_Initial_Capital:_{re|Initial Capital: {reg10} pounds.
-qstr_Army_of_{s1}|Army of {s1}
-qstr_Army_size:_{reg1}%|Army size: {reg1}%
+qstr_Initial_Capital:_{re|Capital Inicial: {reg10} Libras.
+qstr_Army_of_{s1}|Ejercito de {s1}
+qstr_Army_size:_{reg1}%|Tamaño del ejercito: {reg1}%
 qstr__{reg2}.{reg3}%_to_q|-{reg2}.{reg3}% to quality of life
 qstr_Divisions|Divisions
-qstr_{reg1}_soldiers|{reg1} soldiers
-qstr_Garrisons|Garrisons
-qstr_soldiers_total|soldiers total
+qstr_{reg1}_soldiers|{reg1} soldados
+qstr_Garrisons|Guarnición
+qstr_soldiers_total|total de soldados
 qstr_Equipped_with_milita|Equipped with military supplies by
 qstr_{reg1}%|{reg1}%
 qstr_Supplied_with_ammuni|Supplied with ammunition by
@@ -383,39 +383,39 @@ qstr_{s21}^*_The_{s5}_has_i|{s21}^* The {s5} has indifferent diplomatic relation
 qstr_{s5}_has_been_defeat|¡{s5} ha sido derrotado!
 qstr_{s7}_opened_the_gate|{s7} ha abierto la puerta
 qstr_{s7}_closed_the_gate|{s7} ha cerrado la puerta
-qstr_Has_second_barrel__p|Has second barrel (press action^key while aiming to fire a buckshot)
-qstr_Uses_pistol_cartridg|Uses pistol cartridges
-qstr_Smoothbore_musket|Smoothbore musket
-qstr_Rifled_musket|Rifled musket
-qstr_Converted_breech_load|Converted breech loaded rifle
-qstr_Modern_breech_loaded|Modern breech loaded rifle
-qstr_Smoothbore_pistol|Smoothbore pistol
-qstr_Revolver__7_rounds_|Revolver (7 rounds)
-qstr_Revolver__8_rounds_|Revolver (8 rounds)
-qstr_Revolver__6_rounds_|Revolver (6 rounds)
-qstr_Pocket_Revolver__6_r|Pocket Revolver (6 rounds)
-qstr_Self_Loading_Pistol_|Self-Loading Pistol (7 rounds)
-qstr_Self_Loading_Pistol__|Self-Loading Pistol (6 rounds)
-qstr_Self_Loading_Pistol__1|Self-Loading Pistol (10 rounds)
-qstr_Self_Loading_Pistol__8|Self-Loading Pistol (8 rounds)
-qstr_Revolver__9_rounds_|Revolver (9 rounds)
-qstr_Pump_shotgun__6_roun|Pump shotgun (6 rounds)
-qstr_Shotgun__2_rounds_|Shotgun (2 rounds)
-qstr_Lever_action_shotgun|Lever action shotgun (6 rounds)
-qstr_Lever_action_shotgun_|Lever action shotgun (1 round)
-qstr_Bolt_action_magazine|Bolt-action magazine rifle (5 rounds)
-qstr_Straight_pull_bolt_a|Straight-pull bolt-action^magazine rifle (5 rounds)
-qstr_Bolt_action_magazine_|Bolt-action magazine rifle (4 rounds)
-qstr_Bolt_action_magazine_r|Bolt-action magazine rifle (8 rounds)
-qstr_Bolt_action_magazine_ri|Bolt-action magazine rifle (10 rounds)
-qstr_Pocket_Pistol__6_rou|Pocket Pistol (6 rounds)
-qstr_Pocket_Pistol__4_rou|Pocket Pistol (4 rounds)
-qstr_Breech_loaded_rifle|Breech loaded rifle
-qstr_Lever_action_magazin|Lever action magazine rifle (8 rounds)
-qstr_Lever_action_magazine|Lever action magazine rifle (5 rounds)
-qstr_Lever_action_magazine_|Lever action magazine rifle (9 rounds)
-qstr_Lever_action_magazine_r|Lever action magazine rifle (16 rounds)
-qstr_Lever_action_magazine_ri|Lever action magazine rifle (7 rounds)
+qstr_Has_second_barrel__p|Tiene un segundo cañon (presiona la tecla de^accíon cuando estes apuntando para disparar)
+qstr_Uses_pistol_cartridg|Usa bala de pistola
+qstr_Smoothbore_musket|Mosquete de alma lisa
+qstr_Rifled_musket|Mosquete estriado
+qstr_Converted_breech_load|Rifle convertido a retrocarga
+qstr_Modern_breech_loaded|Rifle moderno de retrocarga
+qstr_Smoothbore_pistol|Pistola de alma lisa
+qstr_Revolver__7_rounds_|Revólver (7 balas)
+qstr_Revolver__8_rounds_|Revólver (8 balas)
+qstr_Revolver__6_rounds_|Revólver (6 balas)
+qstr_Pocket_Revolver__6_r|Revólver de bolsillo (6 balas)
+qstr_Self_Loading_Pistol_|Pistola semiautomatica(7 balas)
+qstr_Self_Loading_Pistol__|Pistola semiautomatica(6 balas)
+qstr_Self_Loading_Pistol__1|Pistola semiautomatica(10 balas)
+qstr_Self_Loading_Pistol__8|Pistola semiautomatica(8 balas)
+qstr_Revolver__9_rounds_|Revólver (9 balas)
+qstr_Pump_shotgun__6_roun|Escopeta (6 cartuchos)
+qstr_Shotgun__2_rounds_|Escopeta (2 cartuchos)
+qstr_Lever_action_shotgun|Escopeta de palanca (6 cartuchos)
+qstr_Lever_action_shotgun_|Escopeta de palanca (1 cartucho)
+qstr_Bolt_action_magazine|Rifle de cerrojo con cargador (5 balas)
+qstr_Straight_pull_bolt_a|Rifle de cerrojo recto con ^cargador (5 balas)
+qstr_Bolt_action_magazine_|Rifle de cerrojo con cargador (4 balas)
+qstr_Bolt_action_magazine_r|Rifle de cerrojo con cargador (8 balas)
+qstr_Bolt_action_magazine_ri|Rifle de cerrojo con cargador (10 balas)
+qstr_Pocket_Pistol__6_rou|Pistola de bolsillo (6 balas)
+qstr_Pocket_Pistol__4_rou|Pistola de bolsillo (4 balas)
+qstr_Breech_loaded_rifle|Rifle de retrocarga
+qstr_Lever_action_magazin|Rifle de palanca con cargador (8 balas)
+qstr_Lever_action_magazine|Rifle de palanca con cargador (5 balas)
+qstr_Lever_action_magazine_|Rifle de palanca con cargador (9 balas)
+qstr_Lever_action_magazine_r|Rifle de palanca con cargador (16 balas)
+qstr_Lever_action_magazine_ri|Rifle de palanca con cargador (7 balas)
 qstr_+{reg1}_to_party_mor|+{reg1} a la moral del grupo
 qstr_Requires_{reg1}_inte|Requiere {reg1} puntos de inteligencia para ser leído
 qstr_Reading_Progress:_{r|Progreso de la lectura: {reg1}%
@@ -581,10 +581,10 @@ qstr_Corruption_level:_{r|Corruption level: {reg10}%
 qstr_+{reg10}_$|+{reg10} $
 qstr_Goods_and_services_t|Goods and services tax: {reg10}%
 qstr__{reg10}_$|-{reg10} $
-qstr_Public_servants_wage|Public servants wage expenses:^-{reg10} pounds
+qstr_Public_servants_wage|Public servants wage expenses:^-{reg10} Libras
 qstr_Other_expenses:^_{re|Other expenses:^-{reg10} $
-qstr_Lost_from_corruption|Lost from corruption: -{reg10} pounds
-qstr_Last_budget_change:^|Last budget change:^{reg10} pounds
+qstr_Lost_from_corruption|Lost from corruption: -{reg10} Libras
+qstr_Last_budget_change:^|Last budget change:^{reg10} Libras
 qstr_{reg1}.{reg2}%|{reg1}.{reg2}%
 qstr____| - 
 qstr_PPS_Faction_iteratio|PPS Faction iteration of {s1}.
@@ -621,7 +621,7 @@ qstr_exellent|exellent
 qstr_Worker_wage_is_{s1};|Worker wage is {s1}; Working conditions are {s2}.
 qstr_Select_development_m|Select development mode:
 qstr_Set_workers_wage_lev|Set workers wage level:
-qstr_Sell_factory__{reg10|Sell factory ({reg10} pounds)
+qstr_Sell_factory__{reg10|Sell factory ({reg10} Libras)
 qstr_Building^{s1}^_{reg1|Building^{s1}^({reg10}%)
 qstr_pes_region_factory_p|pes region factory photo notavailable
 qstr_pes_region_factory_ph|pes region factory photo empty
@@ -686,7 +686,7 @@ qstr_Military_supplies|Military supplies
 qstr_Paper|Paper
 qstr_Meat|Meat
 qstr_Flour|Flour
-qstr_Price___{reg10}.{reg|Price - {reg10}.{reg11} pounds
+qstr_Price___{reg10}.{reg|Price - {reg10}.{reg11} Libras
 qstr_Supply___{reg11}.{re|Supply - {reg11}.{reg12} {s1}
 qstr_Demand___{reg11}.{re|Demand - {reg11}.{reg12} {s1}
 qstr_{reg10}._{s1}|{reg10}. {s1}
@@ -942,7 +942,7 @@ qstr__This_town_has_no_ga| Esta ciudad no tiene guarnición.
 qstr__You_have_successful| Habéis sido capaz de pasar sin que os detectaran.
 qstr_{s13}_A_tournament_w|{s13} Pronto se celebrará un torneo aquí.
 qstr___Join_the_commander| (Join the commanders' meeteing)
-qstr___{reg1}_pounds_per_| ({reg1} pounds per night)
+qstr___{reg1}_Libras_per_| ({reg1} Libras per night)
 qstr_You_are_not_allowed_|You are not allowed here (need to have relation with faction 5 and higher).
 qstr_Moreover_you_earn_{r|Además, ganáis {reg8} denares por las astutas apuestas que habéis hecho sobre vuestra persona...
 qstr_Victory_is_yours!_Yo|¡La victoria es vuestra! Habéis ganado este combate, pero ahora debéis prepararos para la próxima ronda. 
@@ -985,7 +985,7 @@ qstr_German_Empire|Imperio Alemán
 qstr_Kingdom_of_Romania|Reino de Rumania
 qstr_Kingdom_of_Serbia|Reino de Serbia
 qstr_Kingdom_of_Bulgaria|Reino de Bulgaria
-qstr_Kingdom_of_Norway|Kingdom of Norway
+qstr_Kingdom_of_Norway|Reino de Noruega
 qstr_Principality_of_Alba|Principado de Albania
 qstr_You_have_bought_a_fi|Has comprado un cañon de campaña.
 qstr_You_have_exceeded_pa|Has excedido el limite de tu ejercito.
@@ -1113,8 +1113,8 @@ qstr_Because_of_free_pres|Because of free press laws in our country, campaign wi
 qstr_With_our_censorship_|With our censorship, we will be able to significantly reduce influence of our political opponents and get quite good results.
 qstr_I_want_to_start_repr|I want to start repressions against our political opponents.
 qstr_We_need_to_decrease_|We need to decrease influence of our opponents in the political arena.
-qstr_Most_certainly._Arre|Most certainly. Arrests of influential figures of the political opposition will undermine their positions in the political arena and strengthen ours. Investigation will take 10 days and {reg1} pounds per day.
-qstr_Most_certainly._Few_|Most certainly. Few revelatory articles condemning our opponents in illegal actions, aiding enemy and treason will dishonor them before the eyes of our people, and strengthen our position. The whole process will take 10 days and {reg1} pounds per day.
+qstr_Most_certainly._Arre|Most certainly. Arrests of influential figures of the political opposition will undermine their positions in the political arena and strengthen ours. Investigation will take 10 days and {reg1} Libras per day.
+qstr_Most_certainly._Few_|Most certainly. Few revelatory articles condemning our opponents in illegal actions, aiding enemy and treason will dishonor them before the eyes of our people, and strengthen our position. The whole process will take 10 days and {reg1} Libras per day.
 qstr_However_in_case_of_f|However, in case of failure, our opponents can condemn us as answer to our actions.
 qstr_{playername}_when_we|{playername}, cuando comencé mi larga andadura, poca gente tuvo el coraje de apoyarme. Mucho menos aún de arriesgar su vida por mi causa. Pero vos no os lo pensasteis dos veces y cargasteis contra mis enemigos. Hemos pasado por muchas cosas juntos, y hubo momentos en los que casi perdí la esperanza. Pero con la ayuda de Dios hemos prevalecido. Es tiempo para mí de abandonaros  y tomar lo que es mío por derecho. De hoy en adelante asumiré la gran responsabilidad de gobernar {s3}. Sé que aún nos esperan muchos desafíos y cuento con vuestra ayuda para superarlos. Y por supuesto, no habrá mejor vasallo para mí que vos.
 qstr__We_will_of_course_n| Por supuesto tendremos que esperar a que el reino no esté en campaña.
