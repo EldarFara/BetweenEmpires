@@ -1,5 +1,5 @@
 partytemplatesfile version 1
-216
+217
 pt_none none 2 0 1 7 -1 -1 -1 -1 -1 -1 
 pt_rescued_prisoners Rescued_Prisoners 2 0 1 7 -1 -1 -1 -1 -1 -1 
 pt_enemy Enemy 2 0 86 7 -1 -1 -1 -1 -1 -1 
@@ -216,3 +216,4 @@ pt_factionalbania_reinforcements_c {!}faction1_reinforcements_c 0 0 1 0 677 4 8 
 pt_factionpoland_reinforcements_a {!}faction1_reinforcements_a 0 0 1 0 689 2 4 0 690 5 7 0 -1 -1 -1 -1 
 pt_factionpoland_reinforcements_b {!}faction1_reinforcements_b 0 0 1 0 691 5 7 0 692 2 4 0 -1 -1 -1 -1 
 pt_factionpoland_reinforcements_c {!}faction1_reinforcements_c 0 0 1 0 693 4 8 0 694 3 5 0 -1 -1 -1 -1 
+pt_pps_rebels Rebels 562949953421318 0 2 312 -1 -1 -1 -1 -1 -1 
