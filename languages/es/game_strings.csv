@@ -3303,7 +3303,9 @@ str_liberals_desc|Los Liberales son un grupo de Intelectuales que creen en que e
 str_legitimists|Légitimistes
 str_bonapartists_liberal|Bonapartistes Libéraux
 str_bonapartists_auth|Bonapartistes Autoritaires
-str_bonapartists|Bonapartistes
+str_legitimists_desc|The Legitimists are royalists who adhere to the rights of dynastic succession to the French crown of the descendants of the eldest branch of the Bourbon dynasty, which was overthrown in the 1830 July Revolution. They hold right wing, counter-revolutionary views. While not being against constitutional monarchy, they strive to ensure that the aristocracy has all political power in France, and also stand against social welfare and agressive foreign policy.
+str_bonapartists_liberal_desc|Bonapartism is the political ideology supervening from Napoleon Bonaparte and his followers and successors. The term was later used to refer to people who hoped to restore the House of Bonaparte and its style of government. This bloc was made from Liberal Bonapartists who supported freedom of speech, consent of the governed and the equality of the law in general.
+str_bonapartists_auth_desc|Bonapartism is the political ideology supervening from Napoleon Bonaparte and his followers and successors. The term was later used to refer to people who hoped to restore the House of Bonaparte and its style of government. This bloc was made from Conservative Bonapartists who held traditional or old ideals about the Bonaparte instead of based it on liberty a la 1791 French Revolution.
 str_soyuz17okt|Soyuz 17 Oktyabrya
 str_soyuz17okt_desc|The Union of October 17, commony known as the Octobrist Party, is a moderate right-wing political party of influential landowners, entrepreneurial groups and Imperial officials. It represents conservative, anti-revolutionary, and monarchist views, and supports imperialist expansionist policies.
 str_kadet|Kadety
@@ -3337,7 +3339,14 @@ str_republicains_moderes|Républicains modérés
 str_republicains_moderes_desc|Républicains modérés
 str_gauche_radicale|Gauche radicale
 str_gauche_radicale_desc|Gauche radicale
+str_bonapartists|Bonapartistes
 str_lantmannapartiet|Lantmannapartiet
+str_dutch_antirev|Anti-Revolutionaire Partij
+str_dutch_antirev_desc|Anti-Revolutionaire Partij
+str_dutch_liberal|Liberale partij
+str_dutch_liberal_desc|Liberale partij
+str_dutch_conservative|Conservatieve partij
+str_dutch_conservative_desc|Conservatieve partij
 str_centern|Centern
 str_radical_left|Parti Radical-Démocratique
 str_catholic_right|Parti Populaiare Catholique
@@ -3360,6 +3369,8 @@ str_party_color11|party color11
 str_party_color12|party color12
 str_party_color13|party color13
 str_party_color14|party color14
+str_party_color15|party color15
+str_party_color16|party color16
 str_smokepillar1_01|smokepillar1 01
 str_smokepillar1_02|smokepillar1 02
 str_smokepillar1_03|smokepillar1 03
@@ -4095,3 +4106,4 @@ str_lord_surname_greek7|Dimitriou
 str_lord_surname_greek8|Kalogeros
 str_lord_surname_greek9|Gavras
 str_lord_surname_greek10|Kouris
+str_players_political_party_name|Political Party
