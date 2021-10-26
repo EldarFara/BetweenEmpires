@@ -802,21 +802,21 @@ qstr_You_were_born_the_{reg3?|Eres {reg3?daughter:son} de un profesor universita
 qstr_You_were_born_the_{reg3?d|Eres {reg3?daughter:son} de un obrero de fábrica, quién pasó gran parte de su vida trabajando para que su familia tenga un digno pasar. Más alla de que que te enseñaron a vivir justamente, tu padre te dió la libertad de escoger lo que quieras ser, pero su muerte repentina te dejo descolocado y buscando un trabajo que te mantenga tu vida.
 qstr_You_were_a_child_of_|Sois {reg3?una hija:un hijo} de la estepa, nacisteis en una tribu de nómadas que vivían en campamentos extendidos por las áridas praderas. Como otras gentes tribales, vuestra familia adoraba a los caballos sobre cualquier otra cosa, y os enseñaron a cabalgar antes incluso de que aprendierais a andar. 
 qstr_As_the_{reg3?daughte|Como {reg3?hija:hijo} de un ladrón, habéis tenido poca educación formal. Os pasasteis la niñez en la calle, mendigando hasta que aprendisteis a robar monederos, y robando monederos hasta que aprendisteis a forzar cerraduras. Todos esos años, no obstante, os enseñaron a defenderos en la calle, así como los secretos de las ciudades y de los callejones oscuros.
-qstr_You_were_as_far_as_a|You were, as far as anyone outside the university could tell, a studious person. Always obeying the rules, always getting good grades. If that was an illusion or not, only you know. But suffice you say, you were in university, be it because of a patronage from someone wealthy or because your family was rich enough to afford it, and even if you were a student whose record was questionable at best, it gained you valuable insight and experience.
-qstr_The_thrumming_of_mac|The thrumming of machines and the pounding of metal is a sound you know better than anyone. It was hard work, waking up real early and going to bed real late, working every second between those two events under the watchful eye of demanding overseers. You became intimately familiar with technology, particularly industry, as you worked. Your calloused hands are proof that you know hard work, and though you left the factory life behind, it will never leave you.
-qstr_Living_on_the_street|Living on the streets was tough. Stealing to live, if you could call the scraps you could get any sort of proper life, was part and parcel of your existence. Everyone looked down at you as a street urchin, as someone to be reviled and pitied at best, or actively driven out at worst. This hard life gave you perspective, it gave you skills others may see as unsavory. Luckily, in war, unsavory skills are quite useful.
-qstr_Extra_extra!_Local_n|Extra extra! Local newspaper has a bunch of stories that you never really cared for! Hawking newspapers all day certainly improved your skills at speaking, making people who otherwise wouldn't care for the goings-on to buy a newspaper. Of course, a keen knowledge of business is hardly a bad thing. Perhaps the skills you learned will do you well in the new world you find yourself in.
+qstr_You_were_as_far_as_a|Fuiste una persona muy estudiosa y aplicada que siempre tuvo buenas calificaciones. Sí esto era on on una ilusión solo lo sabes tu. Ponte a pensar que estabas en la universidad, ya sea por patrocinio de alguién o por la riqueza de tu familia, estas vivencias te dieron una experiencia y visión de las cosas casí que invaluable.
+qstr_The_thrumming_of_mac|En tu vida conociste más que nadie el ruido y la suciedad de las maquinas, esa epoca fue muy dura, durmiendo muy poco y trabajando casí todo el dia. por todo lo que hiciste en tu vida, te volviste muy cercano a las nuevas tecnologías, especialmente las industriales. Una prueba feaciente de todo esto son los callos de tus manos.
+qstr_Living_on_the_street|Vivir en la calle fue duro, tener que robar para vivir, estas desventuras fue gran parte de tu existencia. Todo el mundo te veia como un chico de la calle, y nadie te queria ayudar. Esta dura vida te dieron ciertas habilidades que otros les parecen deshonestas. Por suerte, en la guerra, estas habilidades son muy utiles.
+qstr_Extra_extra!_Local_n|¡Extra extra! ¡Los diarios locales tienen un montón de historias que nunca te importaron! Los diarios carroñeros hicieron que mejoren tus habilidades de oratoria, vendiendo los diarios a las personas que ni leian. Por supuesto, una habilidad tan útil de los negocios nunca es algo malo. Tal vez estas habilidad te permitan abrir paso en este nuevo mundo.
 qstr_As_a_{reg3?girl:boy}|Al abandonar la niñez, os enviaron a vivir a la corte de uno de los señores de aquellas tierras. Allí aprendisteis a ser humilde, mientras servíais a los señores y señoras de la casa. Pero de sus juegos de ajedrez, sus cotilleos, e incluso de sus poesías sobre grandes hazañas y amores de corte, aprendisteis todo acerca del conflicto y la competición del mundo de los adultos. También aprendisteis de los juegos que practicaban otros niños, que se golpeaban con palos imitando las espadas de sus mayores.
-qstr_You_were_drawn_to_th|You were drawn to the human body, and how it functioned. Perhaps a family member got sick, and you vowed to help others through the same. Perhaps you liked giving people hope and treating them. Maybe you just liked cutting things apart. Either way, in college, you went into the fields of medicine.
-qstr_Perhaps_you_live_som|Perhaps you live somewhere where grand architecture spirals up into the sky, or where imposing walls surrounded you. Or a small village, with beautiful and ancientchurches, was where your interest in buildings came. It doesn’t matter, because you loved buildings,and learned to raise them up in university. Perhaps now, you shall use that to tear them down. 
-qstr_Philology_the_study_|Philology, the study of languages and how they compare, is extremely important to the diplomacy of Europe, where besides Latin, language like English, Russian, French, and so forth mustbe mastered. Studying this in university gave you a keen tongue and learned how to speak and communicate withthe high lords and common folk across the many realms of Europe.
+qstr_You_were_drawn_to_th|Desde niño te intereso el cuerpo humano y como funciona, tal vez esto venga desde tus familiares que se enfermaron y los cuidaste o tal vez que disfrutas en darle esperanza de que sanaran a la gente. Aunque no importa el como, en el colegio te profesionalizaste en el campo de la medicina.
+qstr_Perhaps_you_live_som|Tal vez porque viviste en grandes urbes donde habian arquitecturas modernas que casí tocaban los cielos o en un pequeño pueblo donde las iglesias muy antiguas con diseños interesantes. Realmente no importa, porque te encanta las construcciones y aprendiste a como pensarlas. hoy en día con tu titulo en mano, puedes desde crear construcciones hermosas o tirarlas abajo en asedios. 
+qstr_Philology_the_study_|Filología, este es el estudio del lenguaje y como se comparan, esta es importante para la diplomacia en Europa, donde además del Latín, existen lenguajes como el Ingles, Ruso o Francés y como dominarlos. Este estudio te permite como hablar con la clase alta, ya sean presidentes o reyes y también ciudadanos o rurales de todos los reinos de Europa.
 qstr_{reg3?daughter:man}|{reg3?hija:hombre}
 qstr_{reg3?woman:man}|{reg3?mujer:hombre}
-qstr_You_decided_to_lead_|You decided to lead a bohemian life, travelling from place to place playing music. This has put you in touch with the common people, and most of your interactions with higher society consisted of a tip of the hat when they tossed a coin into your cup. But still, you have learned how to advertise yourself, how to speak to a crowd, and how to entertain. All very useful skills, indeed.
-qstr_You’re_a_businessp|You’re a businessperson, someone who has capital and funds enough to make more   capital. Perhaps you rose from the working class, or perhaps you started with a small loan from your family.   Either way, you’re well-off and can definitely get a foot in wherever you go now.
-qstr_You_fell_into_crimin|You fell into criminal life, and never really got out. The police know who you are    in some places, and in others they leer as if they should know you. No matter, of course, since between arrests   and brief jail times, you’ve learned how to survive outside the law.
-qstr_You_went_to_the_Amer|You went to the Americas to seek a new life, perhaps to escape persecution   in Europe, perhaps to make a new life free from debts. Whatever your reasons, you took the journey   across to the Atlantic. And now, for whatever reason, you have returned to Europe.
-qstr_You_fought_in_the_Cr|You fought in the Crimea, either with or against Russia, and your   experiences in that war were invaluable and horrific. You saw men die, you saw foolish cavalry   charges, you saw the awesome power of cannons. As you returned home, weary and war-shocked, you knew you would never be the same.
+qstr_You_decided_to_lead_|Decidiste que tu vida sea lo más bohemia posible, viajando de lugar a lugar tocando música. Esto te dejo ver la realidad de las personas comunes de cada reino, también en otra medida tuviste contacto con las realezas. Estas experiencias te permitieron aprender como presentarte, hablar a las masas y entretenerlas. Todas habilidades muy útiles para un lider.
+qstr_You’re_a_businessp|Eres una persona de negocios que ya tiene un capital y fondos para inversiones. Sín importar el origen de estos, ahora con estas riquezas puedes decidir tu destino más facíl.
+qstr_You_fell_into_crimin|Caiste en la vida criminal y nunca pudiste salir del ella. La policía ya te conocia y donde frecuentabas.  No matter, of course, since between arrests   and brief jail times, you’ve learned how to survive outside the law.
+qstr_You_went_to_the_Amer|Huiste al nuevo continente en busqueda de una nueva vida, tal vez olvidando los problemas del viejo mundo o por la aventura. sín importar la razón tomaste coraje y cruzaste el Atlántico. Y ahora por razones que solo vos conoces, has vuelto a Europa.
+qstr_You_fought_in_the_Cr|Peleaste en Crimea, y las experiencias son invaluables pero terrorificas. has visto gente morir, como las caballerias galopaban a una muerte segura y el impresionante poder de los cañones. Pero ahora has vuelto a casa, cansado e impactado por la guerra.
 qstr_Only_you_know_exactl|Sólo vos sabéis cuál fue la causa de que abandonaseis vuestra antigua vida y os lanzaseis a la aventura. De todas formas, no fue una decisión difícil, habida cuenta la ira de vuestro corazón. Queréis venganza. Queréis justicia. Lo que os hicieron no puede ser desecho, y estas deudas sólo pueden ser pagadas con sangre...
 qstr_Only_you_know_exactly|Sólo vos sabéis cuál fue la causa de que abandonaseis vuestra antigua vida y os lanzaseis a la aventura. Lo único que podéis decir es que no soportabais quedaros, no con los dolorosos recuerdos de vuestros seres amados tan cerca. Tal vez vuestra nueva vida os permita olvidar, u honrar a aquéllos que no os atrevéis a nombrar...
 qstr_Only_you_know_exactly_|Sólo vos sabéis cuál fue la causa de que abandonaseis vuestra antigua vida y os lanzaseis a la aventura. Ni siquiera os acordáis de por qué vuestra casa se convirtió en una prisión, de cuándo lo familiar se transformó en mundano, pero vuestros deseos de aventura inundaron vuestra vida. Ya sea que soñáis con llegar a un lugar lejano o simplemente deseáis caminar sin rumbo y libremente, no podíais soportar quedaros en el mismo lugar. Simplemente echasteis a andar, y nunca más mirasteis atrás...
@@ -858,11 +858,11 @@ qstr_Vengeful|Vengativo
 qstr_Your_relation_with_t|Vuestra relación con las facciones es:^{s2}
 qstr_Player_renown_is_inc|El renombre del jugador se ha incrementado en 100. 
 qstr_Player_honor_is_incr|El honor del jugador ha aumentado en 1 y ahora es {reg7}.
-qstr_north_region|north region
-qstr_middle_region|middle region
-qstr_south_region|south region
-qstr_Ironsight_mode_disab|Ironsight mode disabled.
-qstr_Ironsight_mode_enabl|Ironsight mode enabled.
+qstr_north_region|Región norteña
+qstr_middle_region|Región central
+qstr_south_region|Región sureña
+qstr_Ironsight_mode_disab|Modo mirilla desactivado.
+qstr_Ironsight_mode_enabl|Modo mirilla activado.
 qstr_{reg1}_{s1}_{reg2?ac|{reg1} {s1} {reg2?aceptan:acepta} la oferta.
 qstr_No_one_accepts_the_o|Nadie acepta la oferta.
 qstr_You_start_reading_{s|Comenzáis a leer {s2}. Pasadas unas páginas, presentís que podríais aprender mucho de este libro. Decidís mantenerlo cerca para leerlo cuando tengáis tiempo.
@@ -887,7 +887,7 @@ qstr_No_matter!_I_will_pe|¡No importa! ¡Perseveraré!
 qstr_What_did_I_do_to_des|¿Qué he hecho para merecer esto?
 qstr_I_suppose_it_ll_make|Supongo que al menos tendré muchas anécdotas que contar...
 qstr_{s9}_wants_you_to_fo|{s9} quiere que sigáis a su ejército hasta que os indique lo contrario.
-qstr_The_local_road_netwo|The local road network connects {s2} to the cities of {s60}, {s61} and {s62}. This region has access to the sea.
+qstr_The_local_road_netwo|LThe local road network connects {s2} to the cities of {s60}, {s61} and {s62}. This region has access to the sea.
 qstr_The_local_road_networ|The local road network connects {s2} to the cities of {s60}, {s61} and {s62}.
 qstr_{s8}_of_{s9}|{s8} del {s9}
 qstr__Your_nation_flag_fl| Your nation flag flies over the fort gate.
@@ -916,8 +916,8 @@ qstr__These_lands_belong_| Estas tierras no pertenecen a nadie.
 qstr__The_village_is_infe| La aldea está infestada de {reg8} {s35}.
 qstr__The_village_has_bee| La aldea ha sido saqueada. Unas pocas almas se dispersan mientras pasáis por entre las casas quemadas.
 qstr__The_village_is_bein| La aldea ha sido asaltada.
-qstr_soldiers|soldiers
-qstr_rebels|rebels
+qstr_soldiers|soldados
+qstr_rebels|rebeldes
 qstr_No_one_here_seems_to|Nadie parece estar interesado en unirse a vuestro grupo.
 qstr_One_{s3}_volunteers_|Un {s3} se ofrece voluntario a seguiros.
 qstr_{reg5}_{s3}_voluntee|{reg5} {s3} se ofrecen voluntarios a seguiros.
@@ -934,16 +934,16 @@ qstr_Luckily_some_passing|Por fortuna, algunos campesinos os encuentran en la cu
 qstr_You_fail_to_steal_an|Sois incapaz de robar el ganado.
 qstr_You_drive_away_{reg1|Sacáis {reg17} {reg12?cabezas:cabeza} de ganado del rebaño de la aldea.
 qstr_You_are_at_{s2}.|Estáis en {s2}.
-qstr__You_see_the_flag_of| You see the flag of {s7} over the town gates.
+qstr__You_see_the_flag_of| Ves la bandera de {s7} flameando en las plazas y en las puertas del castillo.
 qstr__This_castle_has_no_| Este castillo no tiene guarnición.
-qstr__Your_own_flag_flies| Your own flag flies over the town gates.
-qstr__You_see_the_flag_of_| You see the flag of {s7} over the town gates.
+qstr__Your_own_flag_flies| Tu bandera flamea en las calles de la ciudad.
+qstr__You_see_the_flag_of_| Ves la bandera de {s7} flameando en las calles de la ciudad.
 qstr__This_town_has_no_ga| Esta ciudad no tiene guarnición.
 qstr__You_have_successful| Habéis sido capaz de pasar sin que os detectaran.
 qstr_{s13}_A_tournament_w|{s13} Pronto se celebrará un torneo aquí.
-qstr___Join_the_commander| (Join the commanders' meeteing)
-qstr___{reg1}_Libras_per_| ({reg1} Libras per night)
-qstr_You_are_not_allowed_|You are not allowed here (need to have relation with faction 5 and higher).
+qstr___Join_the_commander| (Entrar a la reunión de los comandantes)
+qstr___{reg1}_Libras_per_| ({reg1} Libras por noche)
+qstr_You_are_not_allowed_|No estas permitido a estar aquí (necesitas tener al menos 5 puntos en la relación con la facción).
 qstr_Moreover_you_earn_{r|Además, ganáis {reg8} denares por las astutas apuestas que habéis hecho sobre vuestra persona...
 qstr_Victory_is_yours!_Yo|¡La victoria es vuestra! Habéis ganado este combate, pero ahora debéis prepararos para la próxima ronda. 
 qstr_You_have_been_bested|Os han vencido en este combate, pero el maestro de ceremonias reconoce vuestra habilidad y valentía, permitiéndoos participar en la siguiente ronda. 
