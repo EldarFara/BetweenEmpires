@@ -214,3 +214,4 @@ pt_factionalbania_reinforcements_c = 212
 pt_factionpoland_reinforcements_a = 213
 pt_factionpoland_reinforcements_b = 214
 pt_factionpoland_reinforcements_c = 215
+pt_pps_rebels = 216

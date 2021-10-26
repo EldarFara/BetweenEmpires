@@ -2719,6 +2719,21 @@ the high lords and common folk across the many realms of Europe."),
    [
      ],
     [
+      ("start_civil_war_in_belgium",[], "Start civil war in Belgium.",
+       [
+	(call_script, "script_pps_faction_process_event_effect_socialism_rebellion_won",  "fac_kingdom_26", 2),
+	   ]
+       ),
+      ("jump_to_socialism_rebellion_won",[], "Jump to liberal_rebellion menu.",
+       [
+	(jump_to_menu, "mnu_liberal_rebellion"),
+	   ]
+       ),
+      ("jump_to_socialism_rebellion_won",[], "Jump to socialism_rebellion menu.",
+       [
+	(jump_to_menu, "mnu_socialism_rebellion"),
+	   ]
+       ),
       ("camp_cheat_400_pes_pps_iterations",[], "Simulate 400 PES/PPS iterations.",
        [
 	(try_for_range, ":unused", 0, 400),
@@ -2835,26 +2850,26 @@ the high lords and common folk across the many realms of Europe."),
         ]
        ),	   
 
-      ("cheat_faction_orders",[(ge,"$cheat_mode",1)],
-	  "{!}Cheat: Set Debug messages to All.",
-       [(assign,"$cheat_mode",1),
-         (jump_to_menu, "mnu_camp_cheat"),
-        ]
-       ),
-      ("cheat_faction_orders",[
-	  (ge, "$cheat_mode", 1),
-	  (neq,"$cheat_mode",3)],"{!}Cheat: Set Debug messages to Econ Only.",
-       [(assign,"$cheat_mode",3),
-         (jump_to_menu, "mnu_camp_cheat"),
-        ]
-       ),
-      ("cheat_faction_orders",[
-	  (ge, "$cheat_mode", 1),
-	  (neq,"$cheat_mode",4)],"{!}Cheat: Set Debug messages to Political Only.",
-       [(assign,"$cheat_mode",4),
-         (jump_to_menu, "mnu_camp_cheat"),
-        ]
-       ),
+      # ("cheat_faction_orders",[(ge,"$cheat_mode",1)],
+	  # "{!}Cheat: Set Debug messages to All.",
+       # [(assign,"$cheat_mode",1),
+         # (jump_to_menu, "mnu_camp_cheat"),
+        # ]
+       # ),
+      # ("cheat_faction_orders",[
+	  # (ge, "$cheat_mode", 1),
+	  # (neq,"$cheat_mode",3)],"{!}Cheat: Set Debug messages to Econ Only.",
+       # [(assign,"$cheat_mode",3),
+         # (jump_to_menu, "mnu_camp_cheat"),
+        # ]
+       # ),
+      # ("cheat_faction_orders",[
+	  # (ge, "$cheat_mode", 1),
+	  # (neq,"$cheat_mode",4)],"{!}Cheat: Set Debug messages to Political Only.",
+       # [(assign,"$cheat_mode",4),
+         # (jump_to_menu, "mnu_camp_cheat"),
+        # ]
+       # ),
 	   
 	   
       ("back_to_camp_menu",[],"{!}Back to camp menu.",
@@ -3003,7 +3018,7 @@ the high lords and common folk across the many realms of Europe."),
        [
          (faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_active),
          ],"Rename your faction.",
-       [(start_presentation, "prsnt_name_kingdom"),
+       [(start_presentation, "prsnt_custom_faction_settings"),
         ]
        ),
        
@@ -12972,7 +12987,7 @@ the high lords and common folk across the many realms of Europe."),
       ("continue",[],"Continue...",
        [
         (change_screen_return),
-         (start_presentation, "prsnt_name_kingdom"),
+         (start_presentation, "prsnt_custom_faction_settings"),
         ]),
      ]
   ),  
@@ -15388,6 +15403,7 @@ the high lords and common folk across the many realms of Europe."),
 	(call_script, "script_pas_enlistment_get_lord_to_enlist_for_faction", "$g_encountered_party_faction"),
 	(gt, reg1, 0),
 	(assign, "$pas_enlistment_lord_temp", reg1),
+	(eq, "$players_kingdom", 0),
 	],"Enlist in army of {s2}.",
        [
 		(jump_to_menu, "mnu_enlistment_office_select_class"),
@@ -15855,18 +15871,47 @@ the high lords and common folk across the many realms of Europe."),
 (change_screen_return),
         ]),
 	]),
-  
-	
+
+("pas_civil_war_side_choose", 0, "Nation you have given your oath to is now split in two warring factions. You are free to choose side to fight with, and your soldiers are willing to follow you whatever side you uchoose.", "none", [], [
+("pas_civil_war_side_choose_option1", [],"Join revolution and fight old regime followers in a civil war.", [(call_script, "script_pas_civil_war_side_choose", 1), (change_screen_return), ]),
+("pas_civil_war_side_choose_option2", [],"Keep loyal to old government and fight against revolutionaries.", [(call_script, "script_pas_civil_war_side_choose", 2), (change_screen_return), ]),
+]),
 ("socialism_demonstration", 0, "Demonstrations in {s2}!^^Large groups have formed in protest of the perceived failings of the nations economic policy in {s2}.^Scores of protesters in vocal support of {s3} held a peaceful rally to express dissatisfaction over the state of affairs in {s1}.^The protesters, comprised of every strata of society, be it the young or elderly, marched for more than 5 kilometers over the cities main boulevard.^Despite the heavy presence of law enforcement throughout the route, protesters openly expressed disdain for the government by chanting songs of protest.^On arrival at {s2}, a large portion of the crowd began singing the 'Internationale', while many others decried the way {s1} had handled recent events.^^Upon this display of perceived sympathy towards socialism, the police sorrounded the protest group, blocking off roadways leading into the plaza.", "none", [], [
 ("socialism_demonstration_option1", [],"Ignore the demonstration and wait for it to go away.", [(display_message, "@Days after peaceful protests began, backlashes from many organizations, still not yet bore a fruit. The government decided to ignore the demands from the protesters. The government has only given them pain instead of listening them for fair investigations, leading to more and more widespread protests across the country. And now, the government has two decision, whether to comply or just simply, refuse.^^Effects: Socialist movement popularity increased by 10%.", 0xffc760), (call_script, "script_pps_faction_process_event_effect_socialism_demonstration",  "fac_player_supporters_faction", 1), (change_screen_return), ]),
 ("socialism_demonstration_option2", [],"Disperse the crowd by police force avoiding victims.", [(display_message, "@After hearing about the protests, being a nuisance for the government, the government decided to dispatch some policemen to disperse the crowd of protesters by non-lethal means. They tried to disperse the crowd with whips and baton and it resulted in a success. Some of the protesters thrown rocks and debris to the officers but all of them have been arrested in the following afternoon. The last of the protesters finally dispersed after some of the demonstration leaders escaped the scene.^^Effects: Socialist movement popularity increased by 5%. Socialist movement radicalism increased by 3%.", 0xffc760), (call_script, "script_pps_faction_process_event_effect_socialism_demonstration",  "fac_player_supporters_faction", 2), (change_screen_return), ]),
-("socialism_demonstration_option3", [],"Disperse the crowd by police force, allowing usage of firearms.", [(display_message, "@At noon, when the demonstration leader was making a speech about their demands infront of the crowd of protesters, troops and policemen entered the scene to disperse the crowd. Unfortunately, the government ordered the dispersion with a violent way. Then, soldiers opened fire on the protesters, killing and wounding many people. Others, tried to flee from the scene, ran either wounded or dying. Few managed to hide from the law enforcement and the dispersion is successful. The government quickly received backlashes from peace organizations, socialists and even foreign countries alike, thus souring foreign relations. ^^ Socialist movement radicalism increased by 10%.", 0xffc760), (call_script, "script_pps_faction_process_event_effect_socialism_demonstration",  "fac_player_supporters_faction", 3), (change_screen_return), ]),
+("socialism_demonstration_option3", [],"Disperse the crowd by police force, allowing usage of firearms.", [(display_message, "@At noon, when the demonstration leader was making a speech about their demands infront of the crowd of protesters, troops and policemen entered the scene to disperse the crowd. Unfortunately, the government ordered the dispersion with a violent way. Then, soldiers opened fire on the protesters, killing and wounding many people. Others, tried to flee from the scene, ran either wounded or dying. Few managed to hide from the law enforcement and the dispersion is successful. The government quickly received backlashes from peace organizations, socialists and even foreign countries alike, thus souring foreign relations.^^Effects: Socialist movement radicalism increased by 10%.", 0xffc760), (call_script, "script_pps_faction_process_event_effect_socialism_demonstration",  "fac_player_supporters_faction", 3), (change_screen_return), ]),
 ]),
-("socialism_riot", 0, "Riot in {s2}!^^Large groups have formed in protest of the perceived failings of the nations economic policy in {s2}.^Scores of protesters in vocal support of {s3} held a peaceful rally to express dissatisfaction over the state of affairs in {s1}.^The protesters, comprised of every strata of society, be it the young or elderly, marched for more than 5 kilometers over the cities main boulevard.^Despite the heavy presence of law enforcement throughout the route, protesters openly expressed disdain for the government by chanting songs of protest.^On arrival at {s2}, a large portion of the crowd began singing the 'Internationale', while many others decried the way {s1} had handled recent events.^^Upon this display of perceived sympathy towards socialism, the police sorrounded the protest group, blocking off roadways leading into the plaza.", "none", [], [
-("socialism_riot_option1", [],"Ignore the demonstration and wait for it to go away.", [(display_message, "@Days after peaceful protests began, backlashes from many organizations, still not yet bore a fruit. The government decided to ignore the demands from the protesters. The government has only given them pain instead of listening them for fair investigations, leading to more and more widespread protests across the country. And now, the government has two decision, whether to comply or just simply, refuse.^^Effects: Socialist movement popularity increased by 10%.", 0xffc760), (call_script, "script_pps_faction_process_event_effect_socialism_demonstration",  "fac_player_supporters_faction", 1), (change_screen_return), ]),
-("socialism_riot_option2", [],"Disperse the crowd by police force, allowing usage of firearms.", [(display_message, "@At noon, when the demonstration leader was making a speech about their demands infront of the crowd of protesters, troops and policemen entered the scene to disperse the crowd. Unfortunately, the government ordered the dispersion with a violent way. Then, soldiers opened fire on the protesters, killing and wounding many people. Others, tried to flee from the scene, ran either wounded or dying. Few managed to hide from the law enforcement and the dispersion is successful. The government quickly received backlashes from peace organizations, socialists and even foreign countries alike, thus souring foreign relations. ^^ Socialist movement radicalism increased by 10%.", 0xffc760), (call_script, "script_pps_faction_process_event_effect_socialism_demonstration",  "fac_player_supporters_faction", 3), (change_screen_return), ]),
+("socialism_riot", 0, "Riot in {s2}!^^After constant suffering from mistreatment and poor working condition, worker unions arranged a riot in {s2} to show their discontent against the government, they began in walking through the streets, chanting 'The Internationale', they brought makeshift weapons like clubs, wooden plank, and others and began to destroy several buildings, wrecking the windows, furnitures and even burned some buildings beyond recognition and then, they are heading to the government building. Chanting songs and shouting insults to the guards guarding the building. The situation escalated quickly and the guards quickly lose control over the crowd and the workers become very agressive, thus worsening the situation greatly.", "none", [], [
+("socialism_riot_option1", [],"Suppress rioters, avoiding violence.", [(display_message, "@As the riot went widespread, the government dispatched police units to calm down the situation, they tried to suppress the riot with as little casualty as possible by mostly non-lethal means. The riot has been ended but both police units and rioters suffered casualties. Among the casualties, (number) were killed and (number) wounded in the riot.^^Socialist movement popularity decreased by 5%, radicalism increased by 5%.", 0xffc760), (call_script, "script_pps_faction_process_event_effect_socialism_riot",  "fac_player_supporters_faction", 1), (change_screen_return), ]),
+("socialism_riot_option2", [],"Suppress rioters, allowing lethal force.", [(display_message, "@As the riot went widespread, the government dispatched police units to suppress the rioters, they used deadly force against the rioters. The rioters suffered many casualties and some fled the scene, only ended up getting caught hours later. In the incident, (number) died and (number) suffered wounds during the riot. ^^Socialist movement popularity decreased by 10%, radicalism increased by 10%.", 0xffc760), (call_script, "script_pps_faction_process_event_effect_socialism_riot",  "fac_player_supporters_faction", 2), (change_screen_return), ]),
 ]),
-  
+("socialism_rebellion", 0, "Socialist movement uprising!^^Thousands of workers, dissatisfied with the government, rallied under the revolutionary flag. They made their own armed wing, gathering weapons from several sources and took over several government buildings. They proclaimed the long-awaited proletariat revolution under the rule of the people, the zealous crowd began shouting socialist slongans and sung ''The Internationale''. In the meantime, they barricaded several places in some districts to prevent storming by the government policemen and troops. Things have escalated quickly and the rebellion begins, the nation is on the brink of civil war.", "none", [], [
+("socialism_rebellion_option1", [],"Suppress rebels by force.", [(display_message, "@ ", 0xffc760), (call_script, "script_pps_faction_process_event_effect_socialism_rebellion",  "fac_player_supporters_faction", 1), (change_screen_return), ]),
+("socialism_rebellion_option2", [],"Join rebels in socialist revolution.", [(display_message, "@ ", 0xffc760), (call_script, "script_pps_faction_process_event_effect_socialism_rebellion",  "fac_player_supporters_faction", 2), (change_screen_return), ]),
+]),
+("socialism_rebellion_won", 0, "Revolution!^^After defeat of {s1}'s government army, the rebellion leaders proclaimed a socialist revolution. In some places, soldiers revolted to join the revolution's cause, giving the nation a larger threat. The rest of the nation, will soon enter the new conflict, either joining the revolution or supporting the old regime.", "none", [(str_store_faction_name, s1, "fac_player_supporters_faction")], [
+("socialism_rebellion_won_option1", [],"Continue fighting, gathering loyal commanders to fight revolutionaries in a civil war.", [(display_message, "@ ", 0xffc760), (call_script, "script_pps_faction_process_event_effect_socialism_rebellion_won",  "fac_player_supporters_faction", 1), (change_screen_return), ]),
+("socialism_rebellion_won_option2", [],"Join revolution and fight old regime followers in a civil war.", [(display_message, "@ ", 0xffc760), (call_script, "script_pps_faction_process_event_effect_socialism_rebellion_won",  "fac_player_supporters_faction", 2), (change_screen_return), ]),
+]),
+("liberal_demonstration", 0, "Demonstrations in {s2}!^^After learning from foreign countries, intelligentsia from {s2} saw a chance to reform the government. They decided to protests on the streets of {s1}, wishing there will be reforms. They started the protest by gathering in a closed place, walking through the streets, shouting slogans and chanting solidarity songs. One of the leaders of the protest, gave a speech infront of the palace to wish for a better government.", "none", [], [
+("liberal_demonstration_option1", [],"Ignore the demonstration and wait for it to go away.", [(display_message, "@Days after peaceful protests began, backlashes from many organizations, still not yet bore a fruit. The government decided to ignore the demands from the protesters. The government has only given them pain instead of listening them for fair investigations, leading to more and more widespread protests across the country. And now, the government has two decision, whether to comply or just simply, refuse.^^Effects: Liberal movement popularity increased by 10%.", 0xffc760), (call_script, "script_pps_faction_process_event_effect_liberal_demonstration",  "fac_player_supporters_faction", 1), (change_screen_return), ]),
+("liberal_demonstration_option2", [],"Disperse the crowd by police force avoiding victims.", [(display_message, "@After hearing about the protests, being a nuisance for the government, the government decided to dispatch some policemen to disperse the crowd of protesters by non-lethal means. They tried to disperse the crowd with whips and baton and it resulted in a success. Some of the protesters thrown rocks and debris to the officers but all of them have been arrested in the following afternoon. The last of the protesters finally dispersed after some of the demonstration leaders escaped the scene.^^Effects: Liberal movement popularity increased by 5%. Liberal movement radicalism increased by 3%.", 0xffc760), (call_script, "script_pps_faction_process_event_effect_liberal_demonstration",  "fac_player_supporters_faction", 2), (change_screen_return), ]),
+("liberal_demonstration_option3", [],"Disperse the crowd by police force, allowing usage of firearms.", [(display_message, "@At noon, when the demonstration leader was making a speech about their demands infront of the crowd of protesters, troops and policemen entered the scene to disperse the crowd. Unfortunately, the government ordered the dispersion with a violent way. Then, soldiers opened fire on the protesters, killing and wounding many people. Others, tried to flee from the scene, ran either wounded or dying. Few managed to hide from the law enforcement and the dispersion is successful. The government quickly received backlashes from peace organizations, socialists and even foreign countries alike, thus souring foreign relations.^^Effects: Liberal movement radicalism increased by 10%.", 0xffc760), (call_script, "script_pps_faction_process_event_effect_liberal_demonstration",  "fac_player_supporters_faction", 3), (change_screen_return), ]),
+]),
+("liberal_riot", 0, "Riot in {s2}!^^With the earlier demonstrations reacted with violence, liberals seen the government as a threat. They started to gather on the streets of {s2}, now with weapons. They burnt several carriages, small posts and several government property. They are heading towards to government buildings.", "none", [], [
+("liberal_riot_option1", [],"Suppress rioters, avoiding violence.", [(display_message, "@As the riot went widespread, the government dispatched police units to calm down the situation, they tried to suppress the riot with as little casualty as possible by mostly non-lethal means. The riot has been ended but both police units and rioters suffered casualties. Among the casualties, (number) were killed and (number) wounded in the riot.^^Liberal movement popularity decreased by 5%, radicalism increased by 5%.", 0xffc760), (call_script, "script_pps_faction_process_event_effect_liberal_riot",  "fac_player_supporters_faction", 1), (change_screen_return), ]),
+("liberal_riot_option2", [],"Suppress rioters, allowing lethal force.", [(display_message, "@As the riot went widespread, the government dispatched police units to suppress the rioters, they used deadly force against the rioters. The rioters suffered many casualties and some fled the scene, only ended up getting caught hours later. In the incident, (number) died and (number) suffered wounds during the riot. ^^Liberal movement popularity decreased by 10%, radicalism increased by 10%.", 0xffc760), (call_script, "script_pps_faction_process_event_effect_liberal_riot",  "fac_player_supporters_faction", 2), (change_screen_return), ]),
+]),
+("liberal_rebellion", 0, "Liberal movement uprising!^^With any peaceful means deemed impossible, the people now rebelled, troops mutinied and government officials resigned under mother Liberty.  With the nation on the brink of civil war, they might quell the rebellion or negotiate with the rebels.", "none", [], [
+("liberal_rebellion_option1", [],"Suppress rebels by force.", [(display_message, "@ ", 0xffc760), (call_script, "script_pps_faction_process_event_effect_liberal_rebellion",  "fac_player_supporters_faction", 1), (change_screen_return), ]),
+("liberal_rebellion_option2", [],"Join rebels in democratic revolution.", [(display_message, "@ ", 0xffc760), (call_script, "script_pps_faction_process_event_effect_liberal_rebellion",  "fac_player_supporters_faction", 2), (change_screen_return), ]),
+("liberal_rebellion_option3", [],"Negotiate with the rebels, proposing to establish a parliament.", [(display_message, "@After negotiations of government officials with rebellion leaders, the problem was peacefully settled. Parliament was established, signifying victory of democratic activists.", 0xffc760), (call_script, "script_pps_faction_process_event_effect_liberal_rebellion",  "fac_player_supporters_faction", 3), (change_screen_return), ]),
+]),
+("liberal_rebellion_won", 0, "Revolution!^^Unable to suppress the revolt, the rebellion grew widespread among the cities and towns of (Nation). The society has been split by two; the liberals and the reactionary. With the (monarch/president) declared the state of war, civil war has started. Precipitating many deaths between the liberals and the reactionary in a new, brutal civil war.", "none", [(str_store_faction_name, s1, "fac_player_supporters_faction")], [
+("liberal_rebellion_won_option1", [],"Continue fighting, gathering loyal commanders to fight revolutionaries in a civil war.", [(display_message, "@ ", 0xffc760), (call_script, "script_pps_faction_process_event_effect_liberal_rebellion_won",  "fac_player_supporters_faction", 1), (change_screen_return), ]),
+("liberal_rebellion_won_option2", [],"Join revolution and establish democratic government.", [(display_message, "@ ", 0xffc760), (call_script, "script_pps_faction_process_event_effect_liberal_rebellion_won",  "fac_player_supporters_faction", 2), (change_screen_return), ]),
+]),
+
 	
  ]
  

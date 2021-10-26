@@ -9,6 +9,9 @@ from ID_parties import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+civil_war_dublicate_faction = "fac_kingdom_22"
+civil_war_dublicate_faction_player = "fac_kingdom_23"
+
 republic_elections_interval = 30
 
 pps_movements_number = 4
@@ -1274,8 +1277,13 @@ slot_faction_rebel_party =  slot_faction_ve_mod_slots_begin + 456
 slot_faction_movement_liberal_popularity_temp_bonus =  slot_faction_ve_mod_slots_begin + 457
 slot_faction_movement_socialist_popularity_temp_bonus =  slot_faction_ve_mod_slots_begin + 458
 slot_faction_movement_propeace_popularity_temp_bonus =  slot_faction_ve_mod_slots_begin + 459
+slot_faction_nationalization_urban =  slot_faction_ve_mod_slots_begin + 460
+slot_faction_nationalization_rural =  slot_faction_ve_mod_slots_begin + 461
+slot_faction_law_balance_subsidization_expenses1 =  slot_faction_ve_mod_slots_begin + 462
+slot_faction_law_balance_subsidization_expenses2 =  slot_faction_ve_mod_slots_begin + 463
+slot_faction_is_dublicate_of =  slot_faction_ve_mod_slots_begin + 464
 
-
+end_of_faction_slots = slot_faction_law_balance_subsidization_expenses2
 
 ########################################################
 ##  PARTY SLOTS            #############################
@@ -1794,6 +1802,8 @@ slot_center_factory4_strike_timer = pes_slots_start + 189
 slot_center_factory5_strike_timer = pes_slots_start + 190
 slot_center_factory6_strike_timer = pes_slots_start + 191
 slot_center_capital_outflow_timer = pes_slots_start + 192
+slot_party_rebels_faction = pes_slots_start + 193
+slot_party_rebels_type = pes_slots_start + 194
 
 #slot_party_type values
 ##spt_caravan            = 1
