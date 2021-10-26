@@ -6911,7 +6911,7 @@ simple_triggers = [
 			(try_for_range, ":troop", "trp_faction20_troop1", "trp_faction21_troop1"),
 			(troop_clear_inventory, ":troop"),
 			(try_end),
-			(try_for_range, ":troop", "trp_faction20_troop1", "trp_faction20_troop7"),
+			(try_for_range, ":troop", "trp_faction20_troop1", "trp_faction20_troop5"),
 			(troop_add_items, ":troop", "itm_baf_hat18", 1), (troop_add_items, ":troop", "itm_baf_infantry13", 1), (troop_add_items, ":troop", "itm_baf_trousers9", 1),
 			(try_end),
 			(try_for_range, ":troop", "trp_faction20_troop5", "trp_faction20_troop8"),
