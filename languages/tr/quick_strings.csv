@@ -1200,3 +1200,73 @@ qstr_riot|riot
 qstr__1_| 1 
 qstr_2|2
 qstr_The_truce_between_{s|The truce between {s1} and {s2} has expired.
+qstr_Faction_color:|Faction color:
+qstr_®|®
+qstr_Your_political_party|Your political party:
+qstr_Workers_riot_in_{s1}|Workers riot in {s1}! Initially peaceful, protest demonstration turned into angry crowd destroying everything on their way in {s2}.
+qstr_Crowd_disperses_afte|Crowd disperses after police started shooting, with some rioters trying to shoot back. Police reported at least {reg10} policemen and {reg11} civilians wounded.
+qstr_Crowd_disperses_after|Crowd disperses after police started shooting, with some rioters trying to shoot back. Police reported at least {reg12} policemen and {reg13} civilians wounded.
+qstr_As_the_riot_went_wid|As the riot went widespread, the government dispatched police units to calm down the situation, they tried to suppress the riot with as little casualty as possible by mostly non-lethal means. The riot has been ended but both police units and rioters suffered casualties. Among the casualties, (number) were killed and (number) wounded in the riot.^^Socialist movement popularity decreased by 5%, radicalism increased by 5%.
+qstr_As_the_riot_went_wide|As the riot went widespread, the government dispatched police units to suppress the rioters, they used deadly force against the rioters. The rioters suffered many casualties and some fled the scene, only ended up getting caught hours later. In the incident, (number) died and (number) suffered wounds during the riot. ^^Socialist movement popularity decreased by 10%, radicalism increased by 10%.
+qstr_{s1}_agrees_to_becom|{s1} agrees to become a protectorate! After taking several defeats from {s2}, {s3} signs agreement to become part of {s2}.^^Effects: {s1} becomes part of {s2}
+qstr_Soviet_Russia|Soviet Russia
+qstr_French_Communes|French Communes
+qstr_People_s_State_of_Ge|People's State of Germany
+qstr_Republic_of_Italy|Republic of Italy
+qstr_Union_of_British_Sta|Union of British States
+qstr_Austro_Hungarian_Rep|Austro-Hungarian Republic
+qstr_Civil_war_in_{s1}!_M|Civil war in {s1}! Multiple miltiary commanders of {s1} have resigned their oath and joined new formed {s2} in support of socialist revolution.
+qstr_1|1
+qstr_3|3
+qstr_Civil_war_in_{s1}!_Mu|Civil war in {s1}! Multiple miltiary commanders of {s1} have resigned their oath and joined newly formed {s2} in support of socialist revolution.
+qstr_overall_places_{reg1|overall places {reg1}
+qstr_State_industry_subsi|State industry subsidization :^-{reg10} $
+qstr_Republic_of_Spain|Republic of Spain
+qstr_Iranian_Socialist_So|Iranian Socialist Soviet Republic
+qstr_Socialist_{s50}|Socialist {s50}
+qstr_At_noon_when_the_de|At noon, when the demonstration leader was making a speech about their demands infront of the crowd of protesters, troops and policemen entered the scene to disperse the crowd. Unfortunately, the government ordered the dispersion with a violent way. Then, soldiers opened fire on the protesters, killing and wounding many people. Others, tried to flee from the scene, ran either wounded or dying. Few managed to hide from the law enforcement and the dispersion is successful. The government quickly received backlashes from peace organizations, socialists and even foreign countries alike, thus souring foreign relations.^^Effects: Socialist movement radicalism increased by 10%.
+qstr__{s1}_triumphs_over_| {s1} triumphs over victory of socialist revolution.^^ Effects: socialist parties around the worlds gain influence.
+qstr__{s1}_triumphs_over_v| {s1} triumphs over victory against revolutionaries.
+qstr_Civil_war_is_over_in|Civil war is over in {s1}! {s2} has been fully defeated.{s3}
+qstr__{s1}_triumphs_over_vi| {s1} triumphs over victory of socialist revolution.^Effects: Socialist parties around the worlds gain influence.
+qstr_Rebellion_in_{s1}:_t|Rebellion in {s1}: took up arms and are attacking the government army!
+qstr_Government_of_{s1}_i|Government of {s1} is willing to suppress uprising with force in the following few days, officials say.
+qstr_Rebellion_in_{s1}:_r|Rebellion in {s1}: rebels took up arms and are attacking the government army!
+qstr_Jacobin_riot_in_{s1}|Jacobin riot in {s1}! Initially peaceful, protest demonstration turned into angry crowd destroying everything on their way in {s2}.
+qstr_{s1}:_Peaceful_demons|{s1}: Peaceful demonstration in support of liberal reforms! Citizens of {s2} gathered on the main square of the city, calling on the government to create parliament with universal equal suffrage.
+qstr_{s1}_in_{s2};^|{s1} in {s2};^
+qstr_{s1}:_Worker_unions_h|{s1}: Worker unions have called for a general strike! United in protest, workers have joined the picket lines in:^{s3}{s4}{s5}{s6}{s7}
+qstr_Civil_war_in_{s1}!_Mul|Civil war in {s1}! Multiple miltiary commanders of {s1} have resigned their oath and joined newly formed {s2} in support of democratic revolution.
+qstr_Days_after_peaceful_p|Days after peaceful protests began, backlashes from many organizations, still not yet bore a fruit. The government decided to ignore the demands from the protesters. The government has only given them pain instead of listening them for fair investigations, leading to more and more widespread protests across the country. And now, the government has two decision, whether to comply or just simply, refuse.^^Effects: Liberal movement popularity increased by 10%.
+qstr_After_hearing_about_t|After hearing about the protests, being a nuisance for the government, the government decided to dispatch some policemen to disperse the crowd of protesters by non-lethal means. They tried to disperse the crowd with whips and baton and it resulted in a success. Some of the protesters thrown rocks and debris to the officers but all of them have been arrested in the following afternoon. The last of the protesters finally dispersed after some of the demonstration leaders escaped the scene.^^Effects: Liberal movement popularity increased by 5%. Liberal movement radicalism increased by 3%.
+qstr_At_noon_when_the_demo|At noon, when the demonstration leader was making a speech about their demands infront of the crowd of protesters, troops and policemen entered the scene to disperse the crowd. Unfortunately, the government ordered the dispersion with a violent way. Then, soldiers opened fire on the protesters, killing and wounding many people. Others, tried to flee from the scene, ran either wounded or dying. Few managed to hide from the law enforcement and the dispersion is successful. The government quickly received backlashes from peace organizations, socialists and even foreign countries alike, thus souring foreign relations.^^Effects: Liberal movement radicalism increased by 10%.
+qstr_As_the_riot_went_wides|As the riot went widespread, the government dispatched police units to calm down the situation, they tried to suppress the riot with as little casualty as possible by mostly non-lethal means. The riot has been ended but both police units and rioters suffered casualties. Among the casualties, (number) were killed and (number) wounded in the riot.^^Liberal movement popularity decreased by 5%, radicalism increased by 5%.
+qstr_As_the_riot_went_widesp|As the riot went widespread, the government dispatched police units to suppress the rioters, they used deadly force against the rioters. The rioters suffered many casualties and some fled the scene, only ended up getting caught hours later. In the incident, (number) died and (number) suffered wounds during the riot. ^^Liberal movement popularity decreased by 10%, radicalism increased by 10%.
+qstr_After_negotiations_o|After negotiations of government officials with rebellion leaders, the problem was peacefully settled. Parliament was established, signifying victory of democratic activists.
+qstr_{s50}|{s50}
+qstr_Russian_Republic|Russian Republic
+qstr_Austro_Hungarian_Dem|Austro-Hungarian Democratic Republic
+qstr_People_s_Republic_of|People's Republic of Belgium
+qstr_First_Spanish_Republ|First Spanish Republic
+qstr_British_Republic|British Republic
+qstr_Federal_Republic_of_|Federal Republic of Germany
+qstr_Republic_of_Belgium|Republic of Belgium
+qstr_Republic_of_Netherla|Republic of Netherlands
+qstr_Imperial_State_of_Ir|Imperial State of Iran
+qstr_People_s_United_Prov|People's United Provinces
+qstr_Your_party_laws:|Your party laws:
+qstr_Voting_Franchise:|Voting Franchise:
+qstr_Nomination_Rules:|Nomination Rules:
+qstr_Ruling_Party_Influenc|Ruling Party Influence:
+qstr_Harassment|Harassment
+qstr_Non_secret_ballot|Non-secret ballot
+qstr_Secret_ballot|Secret ballot
+qstr_Executive_Branch_Pos|Executive Branch Posts:
+qstr_Appointed_by_state|Appointed by state
+qstr_Executive_Branch_Post|Executive Branch Posts
+qstr_Appointed_by_State|Appointed by State
+qstr_Press_Censorship:|Press Censorship:
+qstr_Trade_Unions:|Trade Unions:
+qstr_Public_Meetings:|Public Meetings:
+qstr_Authorized_Only|Authorized Only
+qstr_Child_Labour:|Child Labour:
