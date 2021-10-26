@@ -35,8 +35,8 @@ qstr_Use_Melee_Weapons|Usen Armas Cuerpo a Cuerpo
 qstr_Ready|Listos
 qstr_Wounded|Heridos
 qstr_Dead|Muertos
-qstr_Cannot_form_square:_|No se puede formar el Cuadrado : Seleccionaste muchas Companias.
-qstr_Cannot_form_square:_w|No se puede formar el Caudrado : Seleccionaste las Companias incorrectas (Solo Infanteria de Linea e Infanteria de Guardia pueden formar el Cuadrado).
+qstr_Cannot_form_square:_|No se puede formar el Cuadrado : Seleccionaste muchas Compañias.
+qstr_Cannot_form_square:_w|No se puede formar el Caudrado : Seleccionaste las Compañias incorrectas (Solo Infanteria de Linea e Infanteria de Guardia pueden formar el Cuadrado).
 qstr_Number_of_men_knocke|Número de hombres inconscientes: {reg1}
 qstr_Number_of_men_left:_|Número de hombres restantes: {reg1}
 qstr_Opponents_Beaten:_{r|Oponentes vencidos: {reg1}
@@ -78,22 +78,22 @@ qstr_5._{s1}|5. {s1}
 qstr_6._{s1}|6. {s1}
 qstr_7._{s1}|7. {s1}
 qstr_8._{s1}|8. {s1}
-qstr_Form_Square^^Selecte|Formar Cuadrado^^ Las companias seleccionadas (no más de dos)^ Van a formar el cuadrado. Es efectivo Cuerpo a Cuerpo^ especialmente contra caballeria, pero vulnerable^ al fuego enemigo. Para que las companias^ puedan formar el cuadrado, deben ser ^ al menos 25 en total.^Tipo de Compania: Infanteria de Linea, Guardia.
+qstr_Form_Square^^Selecte|Formar Cuadrado^^ Las compañias seleccionadas (no más de dos)^ Van a formar el cuadrado. Es efectivo Cuerpo a Cuerpo^ especialmente contra caballeria, pero vulnerable^ al fuego enemigo. Para que las compañias^ puedan formar el cuadrado, deben ser ^ al menos 25 en total.^Tipo de Compania: Infanteria de Linea, Guardia.
 qstr_pbs_activeability_me|pbs activeability merge
-qstr_Merge_Companies^^Sel|Unir Companias^^Las companias seleccionadas (no menos de una)^ van a fusionarse.
+qstr_Merge_Companies^^Sel|Unir Compañias^^Las compañias seleccionadas (no menos de una)^ van a fusionarse.
 qstr_pbs_activeability_di|pbs activeability digin
-qstr_Dig_In^^Selected_com|Cavar una trinchera^^Las Companias seleccionadas van a cavar,^creando una trinchera en sus posiciones.^Solo se puede hacer una vez por batalla.^Companias que pueden hacer esto: Infantería de Linea y de Guardia.
+qstr_Dig_In^^Selected_com|Cavar una trinchera^^Las Compañias seleccionadas van a cavar,^creando una trinchera en sus posiciones.^Solo se puede hacer una vez por batalla.^Compañias que pueden hacer esto: Infantería de Linea y de Guardia.
 qstr_pbs_activeability_co|pbs activeability coveringfire on
 qstr_pbs_activeability_ga|pbs activeability gas
-qstr_Gas_Attack^^.^Compan|Ataque de Gas^^.^Companias que pueden hacer esto: Cañones de Campaña y Obuses.
+qstr_Gas_Attack^^.^Compan|Ataque de Gas^^.^Compañias que pueden hacer esto: Cañones de Campaña y Obuses.
 qstr_pbs_activeability_gr|pbs activeability grenades
-qstr_Grenade_Attack^^Sele|Ataque de Granadas^^Las companias seleccionadas lanzaran un ataque de granadas en un rango de 50 metros, lanzando^granadas de mano a los enemigos que esten cerca.^Se puede hacer cada 3 minutos.^Solo lo pueden hacer las tropas de choque.
+qstr_Grenade_Attack^^Sele|Ataque de Granadas^^Las compañias seleccionadas lanzaran un ataque de granadas en un rango de 50 metros, lanzando^granadas de mano a los enemigos que esten cerca.^Se puede hacer cada 3 minutos.^Solo lo pueden hacer las tropas de choque.
 qstr_Suppression_fire:_on|Fuego de Supresión: Activado
 qstr_Suppression_fire:_of|Fuego de Supresión: Desactivado
 qstr_pbs_activeability_cov|pbs activeability coveringfire off
 qstr_Suppression_fire:_on/|Fuego de Supresión: Activado/Desactivado
 qstr_pbs_activeability_cove|pbs activeability coveringfire onoff
-qstr_No_companies_selecte|No hay companias seleccionadas
+qstr_No_companies_selecte|No hay compañias seleccionadas
 qstr_pbs_activeability_cover|pbs activeability coveringfire noselected
 qstr_{s1}^^Turning_on_sup|{s1}^^Activando el modo de supresión aumentará la cadencia^ y bajará el nivel de disciplina de los enemigos,^y perderas drasticamente la puntería.^Cualquier Compania puede aplicarla.
 qstr_Gas_masks:_always_we|Mascaras de Gas: Siempre puestas
@@ -106,10 +106,10 @@ qstr_pbs_activeability_gasmas|pbs activeability gasmasks noselected
 qstr_{s1}^^Gas_masks_make|{s1}^^Las mascaras de Gas hacen que las tropas sean invulnerables al gas venenoso pero reduce la puntería y la energia de las tropas.^Cualquier Compania puede aplicarla.
 qstr_{reg0}%|{reg0}%
 qstr_{reg0}_c.|{reg0} c.
-qstr_Cannot_dig_in:_wrong|No se puede Cavar:Las companias no son validas (Solo infanteria de Linea y de Guardia).
-qstr_Cannot_launch_gas_at|No se puede Lanzar el ataque de gas: Las companias no son validas (Solo los artilleros pueden usar el ataque de Gas).
-qstr_Cannot_launch_grenad|No se puede lanzar el ataque de Granadas: Las companias no son validas (Solo las fuerzas de choque pueden lanzar granadas).
-qstr_Select_2_or_more_com|Selecciona 2 o más companias para fusionarlas.
+qstr_Cannot_dig_in:_wrong|No se puede Cavar:Las compañias no son validas (Solo infanteria de Linea y de Guardia).
+qstr_Cannot_launch_gas_at|No se puede Lanzar el ataque de gas: Las compañias no son validas (Solo los artilleros pueden usar el ataque de Gas).
+qstr_Cannot_launch_grenad|No se puede lanzar el ataque de Granadas: Las compañias no son validas (Solo las fuerzas de choque pueden lanzar granadas).
+qstr_Select_2_or_more_com|Selecciona 2 o más compañias para fusionarlas.
 qstr_Others|Otros
 qstr_Outlaws|Bandidos
 qstr_Mercenary|Mercenarios
@@ -726,19 +726,19 @@ qstr_You_became_a_marshal|Te has convertido en mariscal de {s10}, esto significa
 qstr_{s50}_{s51}|{s50} {s51}
 qstr_Your_government_type|El tipo de tu gobierno no te permite gestionar esta fábrica.
 qstr_Unable_to_manage_ene|No puedes gestionar una fábrica de la facción enemiga.
-qstr_{s1}:_Peaceful_demon|{s1}: Peaceful demonstration in support of social welfare! Citizens of {s2} gathered on the main square of the city, calling on the government to intervene in the worsening situation of dire working conditions.
-qstr_The_demonstration_en|The demonstration ended without a response from the government.
-qstr_The_police_dispersed|The police dispersed the crowd, but managed to do it without victims.
-qstr___Massacre_in_{s2}!_|''Massacre in {s2}!'' The police started shooting at peaceful protesters, at least {reg10} people were wounded.
-qstr_{s1}:_Workers_in_{s2|{s1}: Workers in {s2} have sabotaged production in {s3} in protest of bad working conditions! Machinery has been damaged severely.
-qstr_{s1}:_Riot_in_{s2}!_|{s1}: Riot in {s2}! {s3} has been damaged after group of workers caused a commotion in protest of bad working conditions.
-qstr_{s1}:_Workers_of_{s2|{s1}: Workers of {s2} have gone on a strike in the {s3}, in protest of poor working conditions and low wages. The strike is set to continue for the following {reg4} days, strike leaders say.
-qstr_{s1}:_Workers_in_{s2}|{s1}: Workers in {s2} have initiated a strike in the {s3} in protest of bad working conditions. The strike will end in {reg4} days.
-qstr_{s1}:_Strike_in_{s2}|{s1}: Strike in {s2}! All labour activity has stopped in {s3} as workers fight against the current working conditions. The strike will continue for {reg4} more days.
-qstr_{s1}_in_{s2}|{s1} in {s2},
-qstr__{s1}_in_{s2}| {s1} in {s2},
-qstr_{s1}:_Worker_unions_|{s1}: Worker unions have called for a general strike! United in protest, workers have joined the picket lines in {s3}{s4}{s5}{s6}{s7}!
-qstr_{s3}_s_police_arrest|{s3}'s police arrests {reg1} political figures supporting {s1}. Alongside the arrests, the government has also announced the banning of the movements newspaper. ^^Effect: {s1}'s influence decreases.
+qstr_{s1}:_Peaceful_demon|{s1}: ¡Manifestaciones pacificas en soporte del bienestar social! Los ciudadanos de {s2} reunidos en la plaza central de la ciudad, pidiendo que el gobierno intervenga acerca de las condiciones laborales de los obreros.
+qstr_The_demonstration_en|La manifestación ha acabado sin respuesta del gobierno.
+qstr_The_police_dispersed|La policía dispersó a los manifestantes, por suerte no hubieron victimas.
+qstr___Massacre_in_{s2}!_|''¡Masacre en {s2}!'' La policía disparó a los manifestantes pacificos, dejando al menos {reg10} heridos.
+qstr_{s1}:_Workers_in_{s2|{s1}: Trabajadores en {s2} han saboteado la producción en {s3}, protestando por las malas condiciones laborales, las maquinarias han sido muy dañadas.
+qstr_{s1}:_Riot_in_{s2}!_|{s1}: ¡Disturbios en {s2}! {s3} ha sido dañada después que un grupo de trabajadores causaron un escandalo debido a que reclamaban por mejores condiciones laborales.
+qstr_{s1}:_Workers_of_{s2|{s1}: Trabajadores de {s2} estan de huelga en la {s3}, debido a las precarias condiciones laborales y los bajos sueldos. La huegla continuará por {reg4} dias segun lo dicho por el lider de los trabajadores.
+qstr_{s1}:_Workers_in_{s2}|{s1}: Los trabajadores en {s2} han iniciado una huielga en {s3} por las precarias condiciones laborales. La huelga terminará en {reg4} dias.
+qstr_{s1}:_Strike_in_{s2}|{s1}: ¡Huelga y tumulto en {s2}! La actividad laboral ha sido parada en la {s3}, debido a que los trabajadores luchan por las actuales condiciones laborales, esta huelga durará {reg4} dias más.
+qstr_{s1}_in_{s2}|{s1} en {s2},
+qstr__{s1}_in_{s2}| {s1} en {s2},
+qstr_{s1}:_Worker_unions_|{s1}: ¡La unión de trabajadores ha llamado a huelga general! Unidos por una causa en común, los trabajadores se han unido al piquete en {s3}{s4}{s5}{s6}{s7}!
+qstr_{s3}_s_police_arrest|la policía de {s3} arrestan a figuras politicas de {reg1} que soportaban a {s1}. Alongside the arrests, the government has also announced the banning of the movements newspaper. ^^Effect: {s1}'s influence decreases.
 qstr_{s3}:_Mass_arrests_o|{s3}: Mass arrests of pro-{s1} politicians. Major portions of {s1} supporters are forced into clandestine efforts as open agitation has become dangerous.^^Effect: {s1}'s influence decreases.
 qstr___Arrested!___Famous|''Arrested!'' Famous opposition politicians from {s1} in {s3} have been publicly declared enemy of the state and have been arrested or forced into hiding.^^Effect: {s1}'s influence decreases.
 qstr_{s3}_s_officials_fac|{s3}'s officials face backlash after efforts to undermining the opposition have been discovered. ^^Effect: {s2}'s influence decreases.
@@ -746,22 +746,22 @@ qstr_{s3}:___Outrageous!_|{s3}: ''Outrageous!'' Political observers have discove
 qstr_{s3}:_{s2}_has_lost_|{s3}: {s2} has lost standing in the public eye after a scandal manifests itself within the party ranks.^^Effect: {s2}'s influence decreases.
 qstr_{s3}:_{s2}_has_been_|{s3}: {s2} has been found guilty of attempting to cover up a break-in of the opposition's headquarters in the capital.^^Effect: {s2}'s influence decreases.
 qstr_{s3}:_{s1}_was_fined|{s3}: {s1} was fined ${reg2} over involvement in an illegal financial scheme. ^^Effect: {s1}'s influence decreases.
-qstr___Corruption_scandal|''Corruption scandal in {s3}'': {s1} faced backlash after members were found trying to bribe officials.^^Effect: {s1}'s influence decreases.
-qstr_{s3}:_Famous_politic|{s3}: Famous politician {s4} from {s1} discovered to have been involved in a recent financial scandal, discrediting his party in the eyes of the voters.^^Effect: {s1}'s influence decreases.
-qstr_{s1}_s_government_ha|{s1}'s government has been changed to {s2}.
-qstr_Constitutional_Dual_|Constitutional Dual Monarchy
-qstr_Absolute_Monarchy|Absolute Monarchy
-qstr_Constitutional_Monar|Constitutional Monarchy
-qstr_Republic|Republic
-qstr_Soviet_Republic|Soviet Republic
-qstr_{reg0}._Company_has_|{reg0}. Company Compañia de infantería de has switched to walking.
-qstr_{reg0}._Company_has_s|{reg0}. Company Compañia de infantería de has switched to running.
-qstr_{s1}_cannot_change_f|{s1} cannot change formation - only light infantry can apply extended line formation.
-qstr_{s1}_cannot_change_fo|{s1} cannot change formation - you need to research Modern Attack Tactics technology to apply line formation.
-qstr_{s1}_cannot_change_for|{s1} cannot change formation - you need to research Skirmish Line Tactics technology to apply dense line formation.
-qstr_{s1}_cannot_change_form|{s1} cannot change formation - you need to research Adaptive Training technology to apply extended line formation.
-qstr_{s1}_cannot_change_forma|{s1} cannot change formation - you need to research Skirmish Line Tactics technology to apply line formation.
-qstr_{s1}_cannot_change_format|{s1} cannot change formation - discipline level is less than 30%.
+qstr___Corruption_scandal|''Escandalo de corrupción en {s3}'': {s1} demostró que miembros tratarón de sobornar a los oficiales.^^Efecto: la influencia de {s1} ha disminuido.
+qstr_{s3}:_Famous_politic|{s3}: El famoso político {s4} de {s1} ha sido descubierto que estaba involucrado en un escandalo financiero reciente.^^Efecto: la influencia de {s1} ha disminuido.
+qstr_{s1}_s_government_ha|El gobierno de {s1} ha sido cambiado por {s2}.
+qstr_Constitutional_Dual_|Doble monarquía constitucional
+qstr_Absolute_Monarchy|Monarquía absoluta
+qstr_Constitutional_Monar|Monarquía constitucional
+qstr_Republic|República
+qstr_Soviet_Republic|República Soviética
+qstr_{reg0}._Company_has_|{reg0}. Ahora la compañia esta caminando.
+qstr_{reg0}._Company_has_s|{reg0}. Ahora la compañia esta corriendo.
+qstr_{s1}_cannot_change_f|{s1} no puede cambiar la formación - solo la infantería ligera puede aplicar la formación de línea extendida.
+qstr_{s1}_cannot_change_fo|{s1} no puede cambiar la formación - necesitas investigar la tecnología de tacticas de ataque moderno para aplicar la formación de línea.
+qstr_{s1}_cannot_change_for|{s1} no puede cambiar la formación - necesitas investigar la tecnología de tacticas de Escaramuza de línea para aplicar la formación de línea densa.
+qstr_{s1}_cannot_change_form|{s1} no puede cambiar la formación - necesitas investigar la tecnología de entrenamiento adaptativo para aplicar la formación de línea extendida.
+qstr_{s1}_cannot_change_forma|{s1} no puede cambiar la formación - necesitas investigar la tecnología de tacticas de Escaramuza de línea para aplicar la formación de línea.
+qstr_{s1}_cannot_change_format|{s1} no puede cambiar la formación - el nivel de disciplina es menor de 30%.
 qstr_day|day
 qstr_cloud1|cloud1
 qstr_cloud2|cloud2
@@ -776,30 +776,30 @@ qstr_clouds4|clouds4
 qstr_evening|evening
 qstr_night|night
 qstr_dusk|dusk
-qstr_Hotkeys:_U_to_access|Hotkeys: U to access the aerial view E and Q to rotate camera horizontally Middle mouse button and moving mouse up and down to rotate camera vertically Space and Ctrl to control your height ~ tilde (next to 1) to make selected companies run. You can select companies either by clicking on the units on screen, or by selecting them in the UI in the bottom left Use your right mouse button to place, and orientate your units.
+qstr_Hotkeys:_U_to_access|Atajo: Usa la U para acceder a la vista aérea, usa E y Q para rotar la cámara horzontalmente, presiona el botón del medio y mueve el ratón para rotar la cámara verticalmente, con Espacio y Ctrl para controlar la altura. Puedes elegir cualquiera de las compañias haciendole click en las unidades, o en la interfaz abajo a la izquierda con el botón derecho del ratón para moverlos y orientarlos.
 qstr_{reg0}._Company_was_|{reg0}. la compañia se vio obligada a retirarse.
-qstr_1st_{s1}|1st {s1}
-qstr_2nd_{s1}|2nd {s1}
-qstr_3rd_{s1}|3rd {s1}
-qstr_4th_{s1}|4th {s1}
-qstr_5th_{s1}|5th {s1}
-qstr_6th_{s1}|6th {s1}
-qstr_7th_{s1}|7th {s1}
-qstr_8th_{s1}|8th {s1}
+qstr_1st_{s1}|1er {s1}
+qstr_2nd_{s1}|2do {s1}
+qstr_3rd_{s1}|3er {s1}
+qstr_4th_{s1}|4to {s1}
+qstr_5th_{s1}|5to {s1}
+qstr_6th_{s1}|6to {s1}
+qstr_7th_{s1}|7mo {s1}
+qstr_8th_{s1}|8vo {s1}
 qstr_debug_YuriCannonOrde|debug YuriCannonOrder Begin
 qstr_debug_YuriCannonOrder|debug YuriCannonOrder End
 qstr_You_got_keys_of_dung|Tenéis las llaves de la mazmorra.
 qstr_You_must_stay_behind|¡Debéis permanecer detrás de la línea! El punto no ha sido anotado.
 qstr_Tutorial|Tutorial
-qstr_Your_current_rank_is|Your current rank is {s1}.^^Current points/points needed for promotion: {reg10}/{reg11}
-qstr_^{s32}_s_Infamy:_{re|^{s32}'s Infamy: {reg10}
+qstr_Your_current_rank_is|Tu rango actual es {s1}.^^Puntuación actual/Puntuación necesaria para la promoción: {reg10}/{reg11}
+qstr_^{s32}_s_Infamy:_{re|^la infamia de {s32}: {reg10}
 qstr_You_were_born_the_{r|Habéis nacido como {reg3?hija:hijo} de mercaderes ambulantes, siempre yendo de un sitio a otro en busca de beneficios. Aunque vuestros padres eran más ricos que muchos y os educaron tanto como pudieron, vos no tuvisteis demasiadas oportunidades para crear lazos de amistad con otras personas, ya que sólo visitabais las aldeas atendiendo al negocio familiar.
-qstr_You_were_born_the_{re|You were born the {reg3?daughter:son} of a small businessman, always dealing with different sorts of customers and partners. Your parents were wealth enough to send you to a private school. You father wasn't able to deal with the new times, which changed trading technoligies, so after his death you had only a small part of his business.
-qstr_You_were_born_the_{reg|You were born the {reg3?daughter:son} of a minor staff officer, who took a part in a lot of conflicts of the early 19th century. Born in one of his campaigns, you never knew your mother. Although your father tried to teach you everything he knew, he wasn't a good teacher, so after his death you had only some army skills and his last bought gun.
+qstr_You_were_born_the_{re|Eres {reg3?daughter:son} de un pequeño comerciante, con lo cual saber como tratar con los clientes y socios. Tus padres estaban bien acomodados economicamente con lo cual te mandaron a una escuela privada. Tu padre no se supo adecuar a los tiempos modernos, tiempo después cuando el muere te dejó de herencia parte de sus negocios.
+qstr_You_were_born_the_{reg|Eres {reg3?daughter:son} de un oficial de personal menor, este vivio la crudeza de los conflictos tempranos del siglo XIX. naciste en una de sus campañas y nunca pudiste conocer a tu madre. A pesar de todo esto, tu padre te dejo de legado todo lo que sabía, después de su muerte el te heredó sus conocimientos de guerra y su arma favorita.
 qstr_{reg3?daughter:son}|{reg3?hija:hijo}
-qstr_You_were_born_the_{reg3|You were born the {reg3?daughter:son} of a mafia capo, who was a respected member of a local band. Your father didn't want you to follow his steps, so you had a chance for a lawful life. But circumstances of the new times left you no choice, so after his death you replaced him with his mafia heritage.
-qstr_You_were_born_the_{reg3?|You were born the {reg3?daughter:son} of a university professor. As a son of a science man, you got a very good education. Although your family wasn't rich your father tought you that money aren't the most important, so after his death you entered the world with a good amount of knowledge.
-qstr_You_were_born_the_{reg3?d|You were born the {reg3?daughter:son} of a regular factory laborer, who spent his life toughly working for his family. Although you were tought to live fairly, your father gave you freedom of chosing your future profession. After his death, you still was seeking for a business to get in your live.
+qstr_You_were_born_the_{reg3|Eres {reg3?daughter:son} de un capo mafia de una banda local. Tu padre no queria que siguieras sus pasos, por eso te dió la chance de que vivas una vida al margen de la ley. Pero su muerte repentina, no te dejaron otra elección que reemplazar su puesto.
+qstr_You_were_born_the_{reg3?|Eres {reg3?daughter:son} de un profesor universitario. como hijo de un hombre de ciencias, tuviste una buena educación. Más alla de que tu familia no eran muy ricos, tu padre te enseño que el dinero no es lo más importante, después de su muerte heredaste una gran parte de su conocimiento.
+qstr_You_were_born_the_{reg3?d|Eres {reg3?daughter:son} de un obrero de fábrica, quién pasó gran parte de su vida trabajando para que su familia tenga un digno pasar. Más alla de que que te enseñaron a vivir justamente, tu padre te dió la libertad de escoger lo que quieras ser, pero su muerte repentina te dejo descolocado y buscando un trabajo que te mantenga tu vida.
 qstr_You_were_a_child_of_|Sois {reg3?una hija:un hijo} de la estepa, nacisteis en una tribu de nómadas que vivían en campamentos extendidos por las áridas praderas. Como otras gentes tribales, vuestra familia adoraba a los caballos sobre cualquier otra cosa, y os enseñaron a cabalgar antes incluso de que aprendierais a andar. 
 qstr_As_the_{reg3?daughte|Como {reg3?hija:hijo} de un ladrón, habéis tenido poca educación formal. Os pasasteis la niñez en la calle, mendigando hasta que aprendisteis a robar monederos, y robando monederos hasta que aprendisteis a forzar cerraduras. Todos esos años, no obstante, os enseñaron a defenderos en la calle, así como los secretos de las ciudades y de los callejones oscuros.
 qstr_You_were_as_far_as_a|You were, as far as anyone outside the university could tell, a studious person. Always obeying the rules, always getting good grades. If that was an illusion or not, only you know. But suffice you say, you were in university, be it because of a patronage from someone wealthy or because your family was rich enough to afford it, and even if you were a student whose record was questionable at best, it gained you valuable insight and experience.
