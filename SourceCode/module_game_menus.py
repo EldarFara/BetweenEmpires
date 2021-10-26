@@ -3017,7 +3017,7 @@ the high lords and common folk across the many realms of Europe."),
       ("action_rename_kingdom",
        [
          (faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_active),
-         ],"Rename your faction.",
+         ],"Change faction settings.",
        [(start_presentation, "prsnt_custom_faction_settings"),
         ]
        ),
