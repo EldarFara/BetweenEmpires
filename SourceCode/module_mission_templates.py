@@ -20,6 +20,19 @@ from header_skills import *
 pilgrim_disguise = [itm_ammo_pistol, itm_dagger, itm_sidearm_colt_m1851_navy, itm_clothes_urban_male_trousers1, itm_civilian_hat1, itm_clothes_urban_male1]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
+player_death = (
+ti_on_agent_killed_or_wounded, 0, 0, [],
+[
+(store_trigger_param_1, ":agent"),
+(get_player_agent_no, ":player"),
+(eq, ":player", ":agent"),
+(set_show_messages, 0),
+	(try_for_range, ":company", 0, 8),
+	(team_give_order, "$g_player_team", ":company", mordr_fire_at_will),
+	(try_end),
+(set_show_messages, 1),
+])
+
 interior_bugfix = (
 ti_on_agent_spawn, 0, 0, [],
 [
@@ -6615,6 +6628,7 @@ ams = (ti_after_mission_start, 0, 0, [
 parabellum_script_set_battle = [
 ams,
 bms,
+player_death,
 interior_bugfix,
 siege_win_battle,
 order_move_forwards_backwards,
