@@ -9,6 +9,9 @@ from ID_parties import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+pdr_enemy_factions = "trp_array_38"
+pdr_ally_factions = "trp_array_39"
+
 civil_war_dublicate_faction = "fac_kingdom_22"
 civil_war_dublicate_faction_player = "fac_kingdom_23"
 
@@ -74,12 +77,18 @@ pes_resource_menu_faction_urbanization = 10
 display_pps_debug_messages = 0
 display_pes_debug_messages = 0
 
+preset_infrastructure_level_europe = 5000
+preset_infrastructure_level_southeurope = 3500
+preset_infrastructure_level_russia = 3000
+preset_infrastructure_level_ottoman = 2500
+preset_infrastructure_level_middleeast = 2000
+
 preset_number_of_factories_britain = 35
-preset_number_of_factories_germany = 19
+preset_number_of_factories_germany = 14
 preset_number_of_factories_france = 20
-preset_number_of_factories_italy = 10
-preset_number_of_factories_russia = 7
-preset_number_of_factories_austria = 10
+preset_number_of_factories_italy = 9
+preset_number_of_factories_russia = 6
+preset_number_of_factories_austria = 9
 preset_number_of_factories_iberia = 6
 preset_number_of_factories_scandinavia = 5
 preset_number_of_factories_benelux = 15
@@ -1282,8 +1291,14 @@ slot_faction_nationalization_rural =  slot_faction_ve_mod_slots_begin + 461
 slot_faction_law_balance_subsidization_expenses1 =  slot_faction_ve_mod_slots_begin + 462
 slot_faction_law_balance_subsidization_expenses2 =  slot_faction_ve_mod_slots_begin + 463
 slot_faction_is_dublicate_of =  slot_faction_ve_mod_slots_begin + 464
+slot_faction_forced_urbanization =  slot_faction_ve_mod_slots_begin + 465
+slot_faction_class_upper_aristocracy_famine = slot_faction_ve_mod_slots_begin + 466
+slot_faction_class_upper_bourgeoisie_famine = slot_faction_ve_mod_slots_begin + 467
+slot_faction_class_middle_famine = slot_faction_ve_mod_slots_begin + 468
+slot_faction_class_lower_urban_famine = slot_faction_ve_mod_slots_begin + 469
+slot_faction_class_lower_rural_famine = slot_faction_ve_mod_slots_begin + 470
 
-end_of_faction_slots = slot_faction_law_balance_subsidization_expenses2
+end_of_faction_slots = slot_faction_class_lower_rural_famine
 
 ########################################################
 ##  PARTY SLOTS            #############################
@@ -1804,6 +1819,12 @@ slot_center_factory6_strike_timer = pes_slots_start + 191
 slot_center_capital_outflow_timer = pes_slots_start + 192
 slot_party_rebels_faction = pes_slots_start + 193
 slot_party_rebels_type = pes_slots_start + 194
+slot_center_famine = pes_slots_start + 195
+slot_center_infrastructure_year_change = pes_slots_start + 196
+slot_center_population_year_change = pes_slots_start + 197
+slot_center_literacy_year_change = pes_slots_start + 198
+slot_center_urbanization_year_change = pes_slots_start + 199
+slot_party_nearby_center = pes_slots_start + 200
 
 #slot_party_type values
 ##spt_caravan            = 1

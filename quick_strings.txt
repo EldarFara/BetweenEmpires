@@ -1,4 +1,4 @@
-1490
+1519
 qstr_res_cape1 res_cape1
 qstr_res_cape2 res_cape2
 qstr_thawb1_belt1 thawb1_belt1
@@ -1489,3 +1489,32 @@ qstr_Trade_Unions: Trade_Unions:
 qstr_Public_Meetings: Public_Meetings:
 qstr_Authorized_Only Authorized_Only
 qstr_Child_Labour: Child_Labour:
+qstr_Famine:_{reg4}% Famine:_{reg4}%
+qstr_Administration_effic Administration_efficiency:_{reg10}%
+qstr_Your_government_type_ Your_government_type_does_not_allow_state_to_build_factories_of_this_type.
+qstr_amount_to_buy_{reg0} amount_to_buy_{reg0}_bought_amount_{reg1}_ratio_flour_{reg2}
+qstr_Infrastructure_level Infrastructure_level_of_{s1}_is_{reg2}.{reg3},_damaged_to_{reg4}.{reg5}.
+qstr_Infrastructure_level_ Infrastructure_level_of_{s1}_is_{reg2}.{reg3}.
+qstr_+{reg6} +{reg6}
+qstr_{reg6} {reg6}
+qstr_Infrastructure_level_o Infrastructure_level_of_{s1}_is_{reg2}.{reg3},_damaged_to_{reg4}.{reg5}_({s3}_per_year).
+qstr_Infrastructure_level_of Infrastructure_level_of_{s1}_is_{reg2}.{reg3}_({s3}_per_year).
+qstr_{reg7}.0{reg8} {reg7}.0{reg8}
+qstr_{reg7}.{reg8} {reg7}.{reg8}
+qstr_+{s3} +{s3}
+qstr_Infrastructure_level_of_ Infrastructure_level_of_{s1}_is_{reg2}.{reg3},_damaged_to_{reg4}.{reg5}_({s4}_per_year).
+qstr_Infrastructure_level_of_{ Infrastructure_level_of_{s1}_is_{reg2}.{reg3}_({s4}_per_year).
+qstr_VP_of_{s1}_against_{ VP_of_{s1}_against_{s2}_are_{reg10}
+qstr_create_random_war_pe create_random_war_peace_{s1}_{s2}
+qstr_{reg0}_{reg60} {reg0}_{reg60}
+qstr_Enemy_is_{s3} Enemy_is_{s3}
+qstr_Ally_is_{s3} Ally_is_{s3}
+qstr_Infrastructure_level_of_{s Infrastructure_level_of_{s1}_is_{reg4}.{reg5},_damaged_to_{reg2}.{reg3}_({s4}_per_year).
+qstr_{s4}_per_day {s4}_per_day
+qstr_{s4}_per_year {s4}_per_year
+qstr_Infrastructure_level_of_{s1 Infrastructure_level_of_{s1}_is_{reg4}.{reg5},_damaged_to_{reg2}.{reg3}_({s5}).
+qstr_Infrastructure_level_of_{s1} Infrastructure_level_of_{s1}_is_{reg2}.{reg3}_({s5}).
+qstr_People_s_Republic_of_ People's_Republic_of_Denmark
+qstr_People_s_Republic_of_S People's_Republic_of_Sweden
+qstr_Republic_of_Denmark Republic_of_Denmark
+qstr_Republic_of_Sweden Republic_of_Sweden
