@@ -252,6 +252,9 @@ repression_ahead_success
 sign_constitution1
 sign_constitution2
 sign_constitution3
+become_republic1
+become_republic2
+become_republic3
 offer_gift_quest_complete
 minister_cancel_political_quest
 minister_cancel_political_quest_confirm

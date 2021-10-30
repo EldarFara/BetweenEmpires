@@ -8587,6 +8587,63 @@ presentations = [
         ]),
       ]),
 
+  ("name_kingdom",0,mesh_load_window2,[
+      (ti_on_presentation_load,
+       [(set_fixed_point_multiplier, 1000),
+	   
+        (create_text_overlay, "$g_presentation_obj_name_kingdom_0", "@Choose name for your faction:", tf_center_justify),
+        (position_set_x, pos1, 500),
+        (position_set_y, pos1, 500),
+        (overlay_set_position, "$g_presentation_obj_name_kingdom_0", pos1),
+        (create_simple_text_box_overlay, "$g_presentation_obj_name_kingdom_1"),
+        (position_set_x, pos1, 410),
+        (position_set_y, pos1, 400),
+        (overlay_set_position, "$g_presentation_obj_name_kingdom_1", pos1),
+        (try_begin),
+          (eq, "$players_kingdom_name_set", 1),
+          (str_store_faction_name, s7, "fac_player_supporters_faction"),
+          (overlay_set_text, "$g_presentation_obj_name_kingdom_1", s7),
+        (else_try),
+          (str_store_troop_name, s0, "trp_player"),
+          (overlay_set_text, "$g_presentation_obj_name_kingdom_1", "str_default_kingdom_name"),
+          (str_store_string, s7, "str_default_kingdom_name"),
+        (try_end),
+				
+        (create_button_overlay, "$g_presentation_obj_name_kingdom_2", "@Continue...", tf_center_justify),
+        (position_set_x, pos1, 500),
+        (position_set_y, pos1, 300),
+        (overlay_set_position, "$g_presentation_obj_name_kingdom_2", pos1),
+        (presentation_set_duration, 999999),
+        ]),
+      (ti_on_presentation_event_state_change,
+       [(store_trigger_param_1, ":object"),
+	   
+	(try_begin),
+		(eq, ":object", "$g_presentation_obj_name_kingdom_1"),
+		(str_store_string, s7, s0),
+	(else_try),
+		(eq, ":object", "$g_presentation_obj_name_kingdom_2"),
+		(faction_set_name, "fac_player_supporters_faction", s7),
+		(assign, "$players_kingdom_name_set", 1),
+		(try_begin),
+			(le, "$player_faction_preset", 0),
+			(call_script, "script_player_faction_troops"),
+		(try_end),
+		(presentation_set_duration, 0),
+	(try_end),
+        ]),
+		
+		
+    (ti_on_presentation_run,
+     [
+      (set_fixed_point_multiplier, 1000),
+	 
+		#(call_script, "script_presentation_run"),	
+	 
+	  ]),
+
+      ]),
+
 ("custom_faction_settings",0,mesh_load_window2,[
 (ti_on_presentation_load, [
 (set_fixed_point_multiplier, 1000),

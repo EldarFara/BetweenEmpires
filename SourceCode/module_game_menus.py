@@ -3014,9 +3014,18 @@ the high lords and common folk across the many realms of Europe."),
        [(jump_to_menu, "mnu_camp_action_read_book"),
         ]
        ),
+      ("action_rename_kingdom2",
+       [
+         (faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_active),
+         (gt, "$player_faction_preset", "fac_player_supporters_faction"),
+         ],"Renme faction.",
+       [(start_presentation, "prsnt_name_kingdom"),
+        ]
+       ),
       ("action_rename_kingdom",
        [
          (faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_active),
+         (le, "$player_faction_preset", "fac_player_supporters_faction"),
          ],"Change faction settings.",
        [(start_presentation, "prsnt_custom_faction_settings"),
         ]
@@ -15607,7 +15616,7 @@ the high lords and common folk across the many realms of Europe."),
 	]),
 
   ("pas_enlistment_promoted",0,
-    "You was promoted to {s1}.",
+    "You were promoted to {s1}.",
     "none",
     [
 	(call_script, "script_pas_enlistment_get_rank_name", s1),
