@@ -5591,7 +5591,7 @@ pbs_pin_down = (1, 0, 0, [
 	(le, ":discipline", 80),
 	(store_sub, ":chance", 80, ":discipline"),
 	(val_clamp, ":chance", 0, 81),
-	(val_div, ":chance", 3),
+	(val_div, ":chance", 2),
 	(call_script, "script_cf_random", ":chance"),
 	(agent_get_scripted_destination, pos1, ":agent"),
 	(agent_set_scripted_destination_no_attack, ":agent", pos1, 1),

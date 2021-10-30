@@ -4875,7 +4875,7 @@ State. In order to force her government to surrender to our forces, we will have
 ("pas_rank_ger_inf_2", "Gefreiter (2)"),
 ("pas_rank_ger_inf_3", "Feldwebel (3)"),
 ("pas_rank_ger_inf_4", "Leutnant (4)"),
-("pas_rank_ger_inf_5", "Hauptmänn (5)"),
+("pas_rank_ger_inf_5", "Hauptmann (5)"),
 ("pas_rank_ger_inf_6", "Major (6)"),
 ("pas_rank_ger_inf_7", "Oberst (7)"),
 ("pas_rank_ger_inf_8", "Generalmajor (8)"),
