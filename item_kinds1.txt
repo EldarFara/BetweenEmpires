@@ -1,5 +1,5 @@
 itemsfile version 3
-1920
+1942
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 0 103 0 90 0 522 528
  0
 0
@@ -6825,6 +6825,66 @@ itemsfile version 3
  50
 0
 
+ itm_sta_infantry5 Dutch_Military_Uniform Dutch_Military_Uniform 1  sta_infantry5 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_infantry6 Dutch_Military_Uniform Dutch_Military_Uniform 1  sta_infantry6 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_infantry7 Dutch_Military_Uniform Dutch_Military_Uniform 1  sta_infantry7 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_infantry8 Dutch_Military_Uniform Dutch_Military_Uniform 1  sta_infantry8 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_infantry9 Dutch_Military_Uniform Dutch_Military_Uniform 1  sta_infantry9 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_infantry10 Dutch_Military_Uniform Dutch_Military_Uniform 1  sta_infantry10 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_infantry11 Dutch_Military_Uniform Dutch_Military_Uniform 1  sta_infantry11 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_infantry12 Dutch_Military_Uniform Dutch_Military_Uniform 1  sta_infantry12 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_infantry13 Dutch_Military_Uniform Dutch_Military_Uniform 1  sta_infantry13 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_infantry14 Dutch_Military_Uniform Dutch_Military_Uniform 1  sta_infantry14 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_infantry15 Dutch_Military_Uniform Dutch_Military_Uniform 1  sta_infantry15 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_infantry16 Dutch_Military_Uniform Dutch_Military_Uniform 1  sta_infantry16 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
  itm_sta_cavalry1 Dutch_Military_Uniform Dutch_Military_Uniform 1  sta_cavalry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  50
@@ -6855,12 +6915,62 @@ itemsfile version 3
  50
 0
 
+ itm_sta_trousers5 Dutch_Military_Trousers Dutch_Military_Trousers 1  sta_trousers5 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_trousers6 Dutch_Military_Trousers Dutch_Military_Trousers 1  sta_trousers6 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_trousers7 Dutch_Military_Trousers Dutch_Military_Trousers 1  sta_trousers7 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
  itm_sta_hat1 Dutch_Shako Dutch_Shako 1  sta_hat1 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  50
 0
 
  itm_sta_hat2 Dutch_Shako Dutch_Shako 1  sta_hat2 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_hat3 Dutch_Hat Dutch_Hat 1  sta_hat3 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_hat4 Dutch_Hat Dutch_Hat 1  sta_hat4 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_hat5 Dutch_Hat Dutch_Hat 1  sta_hat5 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_hat6 Dutch_Hat Dutch_Hat 1  sta_hat6 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_hat7 Dutch_Helmet Dutch_Helmet 1  sta_hat7 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_hat8 Dutch_Helmet Dutch_Helmet 1  sta_hat8 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 50
+0
+
+ itm_sta_hat9 Dutch_Helmet Dutch_Helmet 1  sta_hat7 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  50
 0
@@ -7846,7 +7956,7 @@ itemsfile version 3
  itm_shotgun_winchester_m1897 Winchester_M1897 Winchester_M1897 2  winchester_m1897 0  winchester_m1897_inv 1152921504606846976  543227913 555929845760 900 131082 3.500000 80 0 0 65 0 0 35 380 0 6 291 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063863 20 600 10 288230376151713523 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063863 20 600 10 288230376151713545 1224979098644774912 
 
  itm_shotgun_winchester_m1897_m Winchester_M1897 Winchester_M1897 1  winchester_m1897 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 240 75 0 100 0 276 540
  0
@@ -7855,7 +7965,7 @@ itemsfile version 3
  itm_shotgun_spencer_m1882 Spencer_Shotgun_Model_1882 Spencer_Shotgun_Model_1882 2  spencer_m1882 0  spencer_m1882_inv 1152921504606846976  543227913 555929845760 900 131082 3.500000 80 0 0 65 0 0 35 380 0 6 291 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063863 20 600 10 288230376151713525 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063863 20 600 10 288230376151713547 1224979098644774912 
 
  itm_shotgun_spencer_m1882_m Spencer_Shotgun_Model_1882 Spencer_Shotgun_Model_1882 1  spencer_m1882 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 240 75 0 100 0 276 540
  0
@@ -7932,17 +8042,17 @@ itemsfile version 3
  itm_grenade_mills Mills_Bomb Mills_Bomb 1  mills 0  137438953482 196608 1000 0 2.000000 100 0 0 0 0 0 30 40 0 3 257 0
  0
 1
--52.000000  2 2071 1 1224979098644774912 1 3 936748722493064000 1224979098644774912 1 
+-52.000000  2 2071 1 1224979098644774912 1 3 936748722493063998 1224979098644774912 1 
 
  itm_grenade_m15 M15_Stick_Grenade M15_Stick_Grenade 1  m15 0  137438953482 196608 1000 0 2.000000 100 0 0 0 0 0 30 40 0 3 257 0
  0
 1
--52.000000  2 2071 1 1224979098644774912 1 3 936748722493064000 1224979098644774912 1 
+-52.000000  2 2071 1 1224979098644774912 1 3 936748722493063998 1224979098644774912 1 
 
  itm_grenade_rg_12 RG_12_Grenade RG_12_Grenade 1  rg12 0  137438953482 196608 1000 0 2.000000 100 0 0 0 0 0 30 40 0 3 257 0
  0
 1
--52.000000  2 2071 1 1224979098644774912 1 3 936748722493064000 1224979098644774912 1 
+-52.000000  2 2071 1 1224979098644774912 1 3 936748722493063998 1224979098644774912 1 
 
  itm_rifle_austrian_m1895 Steyr_Mannlicher_M1895 Steyr_Mannlicher_M1895 2  mannlicher 0  mannlicher_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 301 0
  0

@@ -43,7 +43,7 @@ game_menus = [
     [
      ("continue",[],"Continue...",
        [
-	   (jump_to_menu, "mnu_start_game_choose_ai_behavior"),
+	   (jump_to_menu, "mnu_start_game_choose_date"),
         ]
        ),
       ("go_back",[],"Go back",
@@ -7254,11 +7254,7 @@ the high lords and common folk across the many realms of Europe."),
         (party_get_slot, ":center_lord", "$current_town", slot_town_lord),
         (store_faction_of_party, ":center_faction", "$current_town"),
         (str_store_faction_name,s9,":center_faction"),
-        (try_begin),
-          (ge, ":center_lord", 0),
-          (str_store_troop_name,s8,":center_lord"),
-          (str_store_string,s7,"@{s8} of {s9}"),
-        (try_end),
+        (str_store_string,s7,"@{s9}"),
 
         (str_clear, s10),
         (str_clear, s12),
@@ -7298,7 +7294,7 @@ the high lords and common folk across the many realms of Europe."),
           (party_slot_eq, "$current_town", slot_village_state, svs_looted),
         (else_try),
           (eq, ":center_lord", "trp_player"),
-          (str_store_string,s11,"@ This village and the surrounding lands belong to you."),
+          (str_store_string,s11,"@ This village and the surrounding lands belong to your country."),
         (else_try),
           (ge, ":center_lord", 0),
           (str_store_string,s11,"@ You remember that this village and the surrounding lands belong to {s7}."),
@@ -14495,31 +14491,6 @@ the high lords and common folk across the many realms of Europe."),
       ]
   ),
   
-  (
-    "start_game_choose_ai_behavior",mnf_disable_all_keys,
-    "Choose AI factions behaviour mode.",
-    "none",
-    [],
-    [
-      ("start_game_choose_ai_behavior_historical",[],"Historical.",
-       [
-	(assign, "$g_historical_ai_behavior", 1),
-	(jump_to_menu, "mnu_start_game_choose_date"),
-        ]
-		),
-      ("start_game_choose_ai_behavior_random",[],"Random.",
-       [
-	(assign, "$g_historical_ai_behavior", 0),
-	(jump_to_menu, "mnu_start_game_choose_date"),
-        ]
-		),
-      ("go_back",[],"Go back",
-       [(change_screen_quit), 
-        ]
-		),
-    ]
-  ),
-  
   
   (
     "start_game_choose_date",mnf_disable_all_keys,
@@ -14667,7 +14638,7 @@ the high lords and common folk across the many realms of Europe."),
 		),
       ("go_back",[],"Go back",
        [
-	(jump_to_menu, "mnu_start_game_choose_ai_behavior"),
+	(change_screen_quit), 
         ]
 		),
     ]
@@ -15740,7 +15711,6 @@ the high lords and common folk across the many realms of Europe."),
 (store_add, ":provocation_slot", ":faction_serbia", slot_faction_provocation_days_with_factions_begin), (val_sub, ":provocation_slot", kingdoms_begin),
 (faction_set_slot, ":faction_austria", ":provocation_slot", 60),
 	(try_begin),
-	(this_or_next|eq, "$g_historical_ai_behavior", 1),
 	(eq, "$player_faction_preset", "fac_kingdom_3"),
 	(call_script, "script_diplomacy_start_war_between_kingdoms",  ":faction_austria", ":faction_serbia", 1),
 	(try_end),

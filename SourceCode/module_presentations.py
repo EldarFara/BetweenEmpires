@@ -12789,11 +12789,13 @@ presentations = [
       (assign, ":all_centers_accumulated_taxes_and_rents", 0),
       (try_for_range, ":center_no", centers_begin, centers_end),	  
 	    (try_begin),
-		  (party_slot_ge, ":center_no", slot_center_player_enterprise, 1),		  
+		  (party_slot_ge, ":center_no", slot_center_player_enterprise, 1),	
+           (eq, 1, 2), # parabellum disabled	  
 		  (val_add, ":num_lines", 1),
 	    (try_end),	  
 	  
         (party_slot_eq, ":center_no", slot_town_lord, "trp_player"),
+        (eq, 1, 2), # parabellum disabled
         (val_add, ":num_lines", 1),
         (val_add, ":num_owned_center_values_for_tax_efficiency", 1),
         (try_begin),
@@ -13112,9 +13114,7 @@ presentations = [
 
       (try_begin),
         (gt, "$players_kingdom", 0),
-        (neq, "$players_kingdom", "fac_player_supporters_faction"),
         (neq, "$players_kingdom", "fac_player_faction"),
-        (eq, "$player_has_homage", 0),
         (str_store_faction_name, s0, "$players_kingdom"),
         (create_text_overlay, reg1, "str_mercenary_payment_from_s0", 0),
         (position_set_x, pos1, 900),
@@ -13132,6 +13132,10 @@ presentations = [
         (val_div, ":offer_value", 2),
         (val_add, ":offer_value", 30),
         (val_add, ":net_change", reg0),
+			(try_begin),
+			(eq, "$players_kingdom", "fac_player_supporters_faction"),
+			(assign, ":net_change", 10000),
+			(try_end),
         (create_text_overlay, reg1, "@{!}{reg0}", tf_right_align|tf_single_line),
         (position_set_x, pos1, 900),
         (position_set_y, pos1, 900),

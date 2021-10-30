@@ -2622,7 +2622,7 @@ We apologize sincerely if you contributed your suggestions and feedback but were
   ("routed", "Routed"),
   ("weekly_budget", "Weekly Budget"),
   ("income_from_s0", "Income from {s0}:"),
-  ("mercenary_payment_from_s0", "Mercenary payment from {s0}:"),
+  ("mercenary_payment_from_s0", "Payment from {s0}:"),
   ("s0s_party", "{s0}'s Party"),
   ("loss_due_to_tax_inefficiency", "Loss due to tax inefficiency:"),
   ("wages_for_s0", "Wages for {s0}:"),

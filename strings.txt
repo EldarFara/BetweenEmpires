@@ -1851,7 +1851,7 @@ str_enemies_ Enemies_
 str_routed Routed
 str_weekly_budget Weekly_Budget
 str_income_from_s0 Income_from_{s0}:
-str_mercenary_payment_from_s0 Mercenary_payment_from_{s0}:
+str_mercenary_payment_from_s0 Payment_from_{s0}:
 str_s0s_party {s0}'s_Party
 str_loss_due_to_tax_inefficiency Loss_due_to_tax_inefficiency:
 str_wages_for_s0 Wages_for_{s0}:

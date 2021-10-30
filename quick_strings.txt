@@ -1,4 +1,4 @@
-1519
+1523
 qstr_res_cape1 res_cape1
 qstr_res_cape2 res_cape2
 qstr_thawb1_belt1 thawb1_belt1
@@ -1518,3 +1518,7 @@ qstr_People_s_Republic_of_ People's_Republic_of_Denmark
 qstr_People_s_Republic_of_S People's_Republic_of_Sweden
 qstr_Republic_of_Denmark Republic_of_Denmark
 qstr_Republic_of_Sweden Republic_of_Sweden
+qstr_{s9} {s9}
+qstr__This_village_and_the _This_village_and_the_surrounding_lands_belong_to_your_country.
+qstr_North_German_Confeder North_German_Confederation_is_formed.
+qstr_German_Empire_is_for German_Empire_is_formed.
