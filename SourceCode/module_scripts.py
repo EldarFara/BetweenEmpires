@@ -63874,6 +63874,7 @@ scripts = [
 	(troop_slot_eq, ":troop", slot_troop_occupation, slto_kingdom_hero),
 	(val_add, ":number_of_lords", 1),
 	(troop_get_slot, ":lord_party", ":troop", slot_troop_leaded_party),
+	(party_is_active, ":lord_party"),
 	(gt, ":lord_party", 0),
 	(party_get_num_companions, ":soldiers", ":lord_party"),
 	(val_add, ":number_of_soldiers", ":soldiers"),
