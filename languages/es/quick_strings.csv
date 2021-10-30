@@ -887,14 +887,14 @@ qstr_No_matter!_I_will_pe|¡No importa! ¡Perseveraré!
 qstr_What_did_I_do_to_des|¿Qué he hecho para merecer esto?
 qstr_I_suppose_it_ll_make|Supongo que al menos tendré muchas anécdotas que contar...
 qstr_{s9}_wants_you_to_fo|{s9} quiere que sigáis a su ejército hasta que os indique lo contrario.
-qstr_The_local_road_netwo|LThe local road network connects {s2} to the cities of {s60}, {s61} and {s62}. This region has access to the sea.
-qstr_The_local_road_networ|The local road network connects {s2} to the cities of {s60}, {s61} and {s62}.
+qstr_The_local_road_netwo|La ruta local conecta {s2} con las ciudades de {s60}, {s61} y {s62}, ademas esta región se puede acceder desde el mar.
+qstr_The_local_road_networ|La ruta local conecta {s2} con las ciudades de {s60}, {s61} y {s62}.
 qstr_{s8}_of_{s9}|{s8} del {s9}
-qstr__Your_nation_flag_fl| Your nation flag flies over the fort gate.
+qstr__Your_nation_flag_fl| La bandera de tu nación esta en las calles de la ciudad.
 qstr__You_see_the_banner_| Veis el estandarte de {s7} ondeando sobre las puertas del castillo.
 qstr__Your_own_banner_fli| Vuestro estandarte ondea sobre las puertas del castillo.
 qstr__You_see_the_banner_o| Veis el estandarte de {s7} ondeando sobre las puertas de la ciudad.
-qstr_Cannot_besiege:_too_|Cannot besiege: too far from any center of your faction (closest centers to this {reg6?town:castle} are {s60}, {s61} and {s62}) and can't be besieged from the sea.
+qstr_Cannot_besiege:_too_|No se puede asediar: Estas demasiado lejos de cualquier centro de tu facción (El centro más cercano esta en {reg6?town:castle} otros son {s60}, {s61} y {s62}) y tampoco se puede asediar desde el mar.
 qstr_The_{reg6?town_s:cas|Las reservas de comida {reg6?de la ciudad:del castillo} deberían durar {reg3} días más.
 qstr_The_{reg6?town_s:cast|Las reservas de comida {reg6?de la ciudad:del castillo} se han agotado y los defensores están hambrientos.
 qstr_You_re_preparing_to_|Os preparáis para atacar los muros, esta labor debería finalizar en {reg9} horas.
@@ -904,7 +904,7 @@ qstr_The_siege_tower_is_b|La torre de asedio está lista y ya podéis comenzar e
 qstr_As_a_last_defensive_|Como última medida defensiva, os retiráis a la sala principal de la fortaleza. Vos y vuestros últimos soldados lucharéis allí desesperadamente. Si os derrotan, no tenéis ya ningún lugar a donde escapar.
 qstr_You_ve_been_driven_a|Habéis perdido los muros de la ciudad. Los atacantes anegan ya las calles. Si podéis vencerlos, tal vez podáis cambiar vuestra suerte.
 qstr_You_ve_breached_the_|¡Habéis conseguido atravesar los muros de la ciudad, pero los obstinados defensores continúan la resistencia en las calles! Tendréis que ocuparos de ellos antes de poder atacar el corazón de la fortaleza.
-qstr_The_town_is_yours_bu|The town is yours, but the remaining defenders have retreated to the castle. It must fall before you can complete your victory.
+qstr_The_town_is_yours_bu|La ciudad te pertenece, pero aún quedan enemigos remanentes en castillo, para completar esta victoria debes derrotarlos.
 qstr_The_remaining_defend|Los últimos defensores se han refugiado en el castillo como última barrera. Debéis entrar y aplastar a la resistencia.
 qstr_However_since_you_ar|Sin embargo, al no haber jurado lealtad a {s9}, no hay posibilidad de que él os reconozca como {señor/señora} de {reg8?esta ciudad:este castillo}.
 qstr_The_enemy_has_been_f|El enemigo ha sido obligado a retirarse. El asalto ha concluido, pero el asedio continúa.
@@ -997,7 +997,7 @@ qstr_You_have_bought_a_ma|Has comprado una Ametralladora Pesada.
 qstr_Not_available_for_th|No disponible para esta Facción.
 qstr_Declare_war_on_Serbi|Declarar la guerra a Serbia.
 qstr_Join_league.|Entrar a la Liga.
-qstr_Join_Serbia_and_Gree|Join Serbia and Greece and declare war on Bulgaria.
+qstr_Join_Serbia_and_Gree|Unirse a Serbia y Grecia para declarar la Guerra a Búlgaria.
 qstr_Days_after_peaceful_|Days after peaceful protests began, backlashes from many organizations, still not yet bore a fruit. The government decided to ignore the demands from the protesters. The government has only given them pain instead of listening them for fair investigations, leading to more and more widespread protests across the country. And now, the government has two decision, whether to comply or just simply, refuse.^^Effects: Socialist movement popularity increased by 10%.
 qstr_After_hearing_about_|After hearing about the protests, being a nuisance for the government, the government decided to dispatch some policemen to disperse the crowd of protesters by non-lethal means. They tried to disperse the crowd with whips and baton and it resulted in a success. Some of the protesters thrown rocks and debris to the officers but all of them have been arrested in the following afternoon. The last of the protesters finally dispersed after some of the demonstration leaders escaped the scene.^^Effects: Socialist movement popularity increased by 5%. Socialist movement radicalism increased by 3%.
 qstr_At_noon_when_the_dem|At noon, when the demonstration leader was making a speech about their demands infront of the crowd of protesters, troops and policemen entered the scene to disperse the crowd. Unfortunately, the government ordered the dispersion with a violent way. Then, soldiers opened fire on the protesters, killing and wounding many people. Others, tried to flee from the scene, ran either wounded or dying. Few managed to hide from the law enforcement and the dispersion is successful. The government quickly received backlashes from peace organizations, socialists and even foreign countries alike, thus souring foreign relations. ^^ Socialist movement radicalism increased by 10%.
@@ -1021,44 +1021,44 @@ qstr_You_have_finished_re|Habéis terminado de leer {s1}.{s2}
 qstr_Book_Read|Leer libro
 qstr_{s1}_is_scouted.|Habéis localizado {s1}.
 qstr_{s1}_has_switched_fr|{s1} ha cambiado de {s2} a {s3}.
-qstr_The_{s1}_has_finishe|The {s1} has finished researching technology '{s2}'.
-qstr_The_year_is_{reg0}.|The year is {reg0}.
-qstr_North_German_Confede|North German Confederation
-qstr_Finished_improving_r|Finished improving relations with {s31}.
-qstr_Interrupted_improvin|Interrupted improving relations with {s31}.
-qstr_Albanian_Howitzer_Cr|Albanian Howitzer Crew Officer
-qstr_Albanian_Howitzer_Cre|Albanian Howitzer Crew Officers
-qstr_Albanian_Heavy_Howit|Albanian Heavy Howitzer Crew Officer
-qstr_Albanian_Heavy_Howitz|Albanian Heavy Howitzer Crew Officers
-qstr_Albanian_Field_Gun_C|Albanian Field Gun Crew Officer
-qstr_Albanian_Field_Gun_Cr|Albanian Field Gun Crew Officers
-qstr_Albanian_Howitzer_Crew|Albanian Howitzer Crew Cannoneer
-qstr_Albanian_Howitzer_Crew_|Albanian Howitzer Crew Cannoneers
-qstr_Albanian_Field_Gun_Cre|Albanian Field Gun Crew Cannoneer
-qstr_Albanian_Field_Gun_Crew|Albanian Field Gun Crew Cannoneers
-qstr_Albanian_MG_Operator|Albanian MG Operator
-qstr_Norwegian_Howitzer_C|Norwegian Howitzer Crew Officer
-qstr_Norwegian_Howitzer_Cr|Norwegian Howitzer Crew Officers
-qstr_Norwegian_Heavy_Howi|Norwegian Heavy Howitzer Crew Officer
-qstr_Norwegian_Heavy_Howit|Norwegian Heavy Howitzer Crew Officers
-qstr_Norwegian_Field_Gun_|Norwegian Field Gun Crew Officer
-qstr_Norwegian_Field_Gun_C|Norwegian Field Gun Crew Officers
-qstr_Norwegian_Howitzer_Cre|Norwegian Howitzer Crew Cannoneer
-qstr_Norwegian_Howitzer_Crew|Norwegian Howitzer Crew Cannoneers
-qstr_Norwegian_Field_Gun_Cr|Norwegian Field Gun Crew Cannoneer
-qstr_Norwegian_Field_Gun_Cre|Norwegian Field Gun Crew Cannoneers
-qstr_Norwegian_MG_Operato|Norwegian MG Operator
-qstr_Bulgarian_Howitzer_C|Bulgarian Howitzer Crew Officer
-qstr_Bulgarian_Howitzer_Cr|Bulgarian Howitzer Crew Officers
-qstr_Bulgarian_Heavy_Howi|Bulgarian Heavy Howitzer Crew Officer
-qstr_Bulgarian_Heavy_Howit|Bulgarian Heavy Howitzer Crew Officers
-qstr_Bulgarian_Field_Gun_|Bulgarian Field Gun Crew Officer
-qstr_Bulgarian_Field_Gun_C|Bulgarian Field Gun Crew Officers
-qstr_Bulgarian_Howitzer_Cre|Bulgarian Howitzer Crew Cannoneer
-qstr_Bulgarian_Howitzer_Crew|Bulgarian Howitzer Crew Cannoneers
-qstr_Bulgarian_Field_Gun_Cr|Bulgarian Field Gun Crew Cannoneer
-qstr_Bulgarian_Field_Gun_Cre|Bulgarian Field Gun Crew Cannoneers
-qstr_Bulgarian_MG_Operato|Bulgarian MG Operator
+qstr_The_{s1}_has_finishe|{s1} ha concluido su investigación de la tecnología '{s2}'.
+qstr_The_year_is_{reg0}.|El año actual es {reg0}.
+qstr_North_German_Confede|Confederación Alemana del Norte
+qstr_Finished_improving_r|Se ha completado la tarea diplomática de mejorar relaciones con {s31}.
+qstr_Interrupted_improvin|Se ha interrumpido la tarea diplomática de mejorar las relaciones con {s31}.
+qstr_Albanian_Howitzer_Cr|División de Oficial Albanés de Obús
+qstr_Albanian_Howitzer_Cre|División de Oficiales Albaneses de Obuses
+qstr_Albanian_Heavy_Howit|División de Oficial Albanés de Obús Pesado
+qstr_Albanian_Heavy_Howitz|División de Oficiales Albaneses de Obuses Pesado
+qstr_Albanian_Field_Gun_C|División de Oficial Albanés de Cañon de Campaña
+qstr_Albanian_Field_Gun_Cr|División de Oficiales Albaneses de Cañones de Campaña
+qstr_Albanian_Howitzer_Crew|División de cañonero Albanés de Obús
+qstr_Albanian_Howitzer_Crew_|División de cañoneros Albaneses de Obuses
+qstr_Albanian_Field_Gun_Cre|División de Cañonero Albanés de Cañon de Campaña
+qstr_Albanian_Field_Gun_Crew|División de Cañoneros Albaneses de Cañones de Campaña
+qstr_Albanian_MG_Operator|Operador Albanés de Ametralladora Pesada
+qstr_Norwegian_Howitzer_C|División de Oficial Noruego de Obús
+qstr_Norwegian_Howitzer_Cr|División de Oficiales Noruegos de Obuses
+qstr_Norwegian_Heavy_Howi|División de Oficial Noruego de Obús Pesado
+qstr_Norwegian_Heavy_Howit|División de Oficiales Noruegos de Obuses Pesado
+qstr_Norwegian_Field_Gun_|División de Oficial Noruego de Cañon de Campaña
+qstr_Norwegian_Field_Gun_C|División de Oficiales Noruegos de Cañones de Campaña
+qstr_Norwegian_Howitzer_Cre|División de Cañonero Noruego de Obús
+qstr_Norwegian_Howitzer_Crew|División de Cañoneros Noruegos de Obuses
+qstr_Norwegian_Field_Gun_Cr|División de cañonero Noruego de Cañon de Campaña
+qstr_Norwegian_Field_Gun_Cre|División de cañoneros Noruegos de Cañones de Campaña
+qstr_Norwegian_MG_Operato|Operador Noruego de Ametralladora Pesada
+qstr_Bulgarian_Howitzer_C|División de Oficial Búlgaro de Obús
+qstr_Bulgarian_Howitzer_Cr|División de Oficiales Búlgaros de Obuses
+qstr_Bulgarian_Heavy_Howi|División de Oficial Búlgaro de Obús Pesado
+qstr_Bulgarian_Heavy_Howit|División de Oficiales Búlgaros de Obuses Pesado
+qstr_Bulgarian_Field_Gun_|División de Oficial Búlgaro de Cañon de Campaña
+qstr_Bulgarian_Field_Gun_C|División de Oficiales Búlgaros de Cañones de Campaña
+qstr_Bulgarian_Howitzer_Cre|División de Cañonero Búlgaro de Obús
+qstr_Bulgarian_Howitzer_Crew|División de Cañoneros Búlgaros de Obuses
+qstr_Bulgarian_Field_Gun_Cr|División de Cañonero Búlgaro de Cañon de Campaña
+qstr_Bulgarian_Field_Gun_Cre|División de Cañoneros Búlgaros de Cañones de Campaña
+qstr_Bulgarian_MG_Operato|Operador Búlgaro de Ametralladora Pesada
 qstr_President_Raymond_Po|President Raymond Poincare
 qstr_Tsar_Nicholas_II|Tzar Nicholas II
 qstr_Kaiser_Franz_Joseph_|Kaiser Franz Joseph I
@@ -1076,8 +1076,8 @@ qstr_Queen_Victoria|Queen Victoria
 qstr_President_Patrice_de|President Patrice de MacMahon
 qstr_Kaiser_Wilhelm_I|Kaiser Wilhelm I
 qstr_King_Wilhelm_III|King Wilhelm III
-qstr_Your_country_is_bank|Your country is bankrupt!
-qstr_Government_type_was_|Government type was changed to Republic.
+qstr_Your_country_is_bank|¡Tu gobierno esta en bancarrota!
+qstr_Government_type_was_|El tipo de gobierno a sido cambiado a República.
 qstr_{reg65?my_Lady:my_Lo|{reg65?mi Señora:mi Señor}
 qstr_{reg65?My_Lady:My_Lo|{reg65?Mi Señora:Mi Señor}
 qstr_{reg65?madame:sir}|{reg65?dama:señor}
@@ -1095,10 +1095,10 @@ qstr_we_are_on_the_verge_|estamos a punto de alcanzar la victoria. Los enemigos 
 qstr_Ever_since_the_fall_|Ever since the fall of the Holy Roman Empire, the Austrian Emperor has been doing their best to undermine Northern conglomeration efforts. We will have to defeat and dissolve the weak German Confederation, lead by the Austrians, in order to rise to the position of a German hegemon, and annex the Kingdom of Hannover.^^ - Defeat the German Confederation armies belonging to Austria, Wurtemberg and Hannover^ - Conquer and hold the Bavarian fortification of Nuremberg ^ - Conquer the capital city of Stuttgart^ - Sign peace with German Confederation on conditions of taking Nuremberg and Stuttgart^^ We will be able to hold onto any conquests we make during the war, and our ultimate goal is to annex the Northern German states. Victory will pave the way to ultimate unification after we take back Alsace-Lorraine.
 qstr_War_with_France_has_|War with France has broken out, and our goal will be to utterly destroy them, take back German clay in Alsace-Lorraine, and ultimately declare Empire under our soon-to-be Emperor {playername}. It's time to display to the Southern Germans, foremost the Bavarians, that we are indeed capable of defending and leading the German people.^^ - Conquer the French border city of Strasbourg^ - Annihilate the French Army entirely^ - Sign peace with France on conditions of taking Strasbourg^^Let a united Germany rise from the ashes of the 2nd French Empire.
 qstr_The_first_step_towar|The first step towards German unification must be the reconquest of the Northern German regions of Schleswig, Holstein, and Lauenburg, which, for the past centuries, have been under occupation by the Danish Kingdom. Taking back the region, and destroying the Danish in the process, would certainly display might and competence in the eyes of the German states.^^ - Conquer the city of Kiel.^ - Defeat the Danish armies and destroy their economy to force them to surrender.^ - Sign peace with Denmark on conditions of taking Kiel^^Once we've defeated the Danes, we can move on to our Southern rival, the Austro-Hungarian Empire.
-qstr_Papal_State_and_our_|Papal State, and our primary Italian adversary, the Kingdom of Two Sicilies
-qstr_Papal_State_and_our_p|Papal State, and our primary Italian adversary, the Kingdom of Sardinia
-qstr_Kingdom_of_Two_Sicil|Kingdom of Two Sicilies, and our primary Italian adversary, the the Kingdom of Sardinia
-qstr_Your_highness_those_|Your highness, those people are our allies! We will be condemned by the entire international community, and lose a valuable ally! Are you sure?
+qstr_Papal_State_and_our_|El Estado Papal, y nuestro principal enemigo, el Reino de las dos Sicilias
+qstr_Papal_State_and_our_p|El Estado Papa, y nuestro principal enemigo, el Reino de Cerdeña
+qstr_Kingdom_of_Two_Sicil|El Reino de las Dos Sicilias y nuestro principal enemigo italiano, el Reino de Cerdeña
+qstr_Your_highness_those_|¡Disculpe su alteza, esas personas son nuestros aliados! ¡Vamos a ser condenados por la Comunidad Internacional y ademas perder un valioso Aliado! ¿Usted esta seguro de lo que esta haciendo?
 qstr_We_ve_agreed_by_truc|We've agreed by truce not to attack them, at least for the moment being. We will face extreme scrutiny if we do, regardless of how righteous our cause my be. Are you sure?
 qstr_Considering_we_have_|Considering we have a valid reason to attack {s31}, I don't see any inherent reason why this should speak against us. If you wish, I will send out a message to their ambassador immediately.
 qstr_I_am_afraid_we_don_t|I am afraid we don't have a justification for conflict at this point in time. We can naturally still declare war against {s31}, but expect international pressure to mount extremely quickly, and for it to put us in the crossfire of future and ongoing conflicts.
@@ -1199,35 +1199,35 @@ qstr_{reg20?We_mostly_pro|{reg20?Aquí producimos sobre todo {s5}:Actualmente no
 qstr_riot|riot
 qstr__1_| 1 
 qstr_2|2
-qstr_The_truce_between_{s|The truce between {s1} and {s2} has expired.
-+qstr_Faction_color:|Faction color:
+qstr_The_truce_between_{s|La tregua entre {s1} y {s2} ha caducado.
++qstr_Faction_color:|Color de la Facción:
 qstr_®|®
-qstr_Your_political_party|Your political party:
-qstr_Workers_riot_in_{s1}|Workers riot in {s1}! Initially peaceful, protest demonstration turned into angry crowd destroying everything on their way in {s2}.
+qstr_Your_political_party|Tu partido político:
+qstr_Workers_riot_in_{s1}|¡Revuelta Obrera en {s1}! Inicialmente fue pacífica, pero los manifestantes se volvieron agresivos destruyendo todo lo que encontraron en su camino a {s2}.
 qstr_Crowd_disperses_afte|Crowd disperses after police started shooting, with some rioters trying to shoot back. Police reported at least {reg10} policemen and {reg11} civilians wounded.
 qstr_Crowd_disperses_after|Crowd disperses after police started shooting, with some rioters trying to shoot back. Police reported at least {reg12} policemen and {reg13} civilians wounded.
 qstr_As_the_riot_went_wid|As the riot went widespread, the government dispatched police units to calm down the situation, they tried to suppress the riot with as little casualty as possible by mostly non-lethal means. The riot has been ended but both police units and rioters suffered casualties. Among the casualties, (number) were killed and (number) wounded in the riot.^^Socialist movement popularity decreased by 5%, radicalism increased by 5%.
 qstr_As_the_riot_went_wide|As the riot went widespread, the government dispatched police units to suppress the rioters, they used deadly force against the rioters. The rioters suffered many casualties and some fled the scene, only ended up getting caught hours later. In the incident, (number) died and (number) suffered wounds during the riot. ^^Socialist movement popularity decreased by 10%, radicalism increased by 10%.
 qstr_{s1}_agrees_to_becom|{s1} agrees to become a protectorate! After taking several defeats from {s2}, {s3} signs agreement to become part of {s2}.^^Effects: {s1} becomes part of {s2}
-qstr_Soviet_Russia|Soviet Russia
-qstr_French_Communes|French Communes
-qstr_People_s_State_of_Ge|People's State of Germany
-qstr_Republic_of_Italy|Republic of Italy
-qstr_Union_of_British_Sta|Union of British States
-qstr_Austro_Hungarian_Rep|Austro-Hungarian Republic
-qstr_Civil_war_in_{s1}!_M|Civil war in {s1}! Multiple miltiary commanders of {s1} have resigned their oath and joined new formed {s2} in support of socialist revolution.
+qstr_Soviet_Russia|Rusia Sovietica
+qstr_French_Communes|Comunas Francesas
+qstr_People_s_State_of_Ge|Estado Popular Alemán
+qstr_Republic_of_Italy|República de Italia
+qstr_Union_of_British_Sta|Unión de Estados Británicos
+qstr_Austro_Hungarian_Rep|República Austro-Húngara
+qstr_Civil_war_in_{s1}!_M|¡Guerra Civil en {s1} !Muchos altos cargos militares de {s1} han renunciado a sus juramentos, posteriormente formando la nueva {s2} en soporte de la revolución socialista.
 qstr_1|1
 qstr_3|3
-qstr_Civil_war_in_{s1}!_Mu|Civil war in {s1}! Multiple miltiary commanders of {s1} have resigned their oath and joined newly formed {s2} in support of socialist revolution.
-qstr_overall_places_{reg1|overall places {reg1}
-qstr_State_industry_subsi|State industry subsidization :^-{reg10} $
-qstr_Republic_of_Spain|Republic of Spain
-qstr_Iranian_Socialist_So|Iranian Socialist Soviet Republic
-qstr_Socialist_{s50}|Socialist {s50}
+qstr_Civil_war_in_{s1}!_Mu|¡Guerra Civil en {s1}! Muchos altos cargos militares de {s1} han renunciado a sus juramentos, posteriormente formando la nueva {s2} en soporte de la revolución socialista.
+qstr_overall_places_{reg1|Lugares concurrentes {reg1}
+qstr_State_industry_subsi|Subsidios a Industria Estatal:^-{reg10} $
+qstr_Republic_of_Spain|República de España
+qstr_Iranian_Socialist_So|República Socialista Soviética de Irán
+qstr_Socialist_{s50}|{s50} Socialista
 qstr_At_noon_when_the_de|At noon, when the demonstration leader was making a speech about their demands infront of the crowd of protesters, troops and policemen entered the scene to disperse the crowd. Unfortunately, the government ordered the dispersion with a violent way. Then, soldiers opened fire on the protesters, killing and wounding many people. Others, tried to flee from the scene, ran either wounded or dying. Few managed to hide from the law enforcement and the dispersion is successful. The government quickly received backlashes from peace organizations, socialists and even foreign countries alike, thus souring foreign relations.^^Effects: Socialist movement radicalism increased by 10%.
-qstr__{s1}_triumphs_over_| {s1} triumphs over victory of socialist revolution.^^ Effects: socialist parties around the worlds gain influence.
-qstr__{s1}_triumphs_over_v| {s1} triumphs over victory against revolutionaries.
-qstr_Civil_war_is_over_in|Civil war is over in {s1}! {s2} has been fully defeated.{s3}
+qstr__{s1}_triumphs_over_| {s1} han salido victoriosos frente a la revolución socialista.^^ Efectos: Los partidos socialistas al rededor del mundo han ganado influencia.
+qstr__{s1}_triumphs_over_v| {s1} han salido victoriosos contra los revolucionarios.
+qstr_Civil_war_is_over_in|¡La guerra Civil en {s1} se ha acabado! {s2} ha sido derrotado.{s3}
 qstr__{s1}_triumphs_over_vi| {s1} triumphs over victory of socialist revolution.^Effects: Socialist parties around the worlds gain influence.
 qstr_Rebellion_in_{s1}:_t|Rebellion in {s1}: took up arms and are attacking the government army!
 qstr_Government_of_{s1}_i|Government of {s1} is willing to suppress uprising with force in the following few days, officials say.
@@ -1244,29 +1244,29 @@ qstr_As_the_riot_went_wides|As the riot went widespread, the government dispatch
 qstr_As_the_riot_went_widesp|As the riot went widespread, the government dispatched police units to suppress the rioters, they used deadly force against the rioters. The rioters suffered many casualties and some fled the scene, only ended up getting caught hours later. In the incident, (number) died and (number) suffered wounds during the riot. ^^Liberal movement popularity decreased by 10%, radicalism increased by 10%.
 qstr_After_negotiations_o|After negotiations of government officials with rebellion leaders, the problem was peacefully settled. Parliament was established, signifying victory of democratic activists.
 qstr_{s50}|{s50}
-qstr_Russian_Republic|Russian Republic
-qstr_Austro_Hungarian_Dem|Austro-Hungarian Democratic Republic
-qstr_People_s_Republic_of|People's Republic of Belgium
-qstr_First_Spanish_Republ|First Spanish Republic
-qstr_British_Republic|British Republic
-qstr_Federal_Republic_of_|Federal Republic of Germany
-qstr_Republic_of_Belgium|Republic of Belgium
-qstr_Republic_of_Netherla|Republic of Netherlands
-qstr_Imperial_State_of_Ir|Imperial State of Iran
-qstr_People_s_United_Prov|People's United Provinces
-qstr_Your_party_laws:|Your party laws:
-qstr_Voting_Franchise:|Voting Franchise:
-qstr_Nomination_Rules:|Nomination Rules:
-qstr_Ruling_Party_Influenc|Ruling Party Influence:
-qstr_Harassment|Harassment
-qstr_Non_secret_ballot|Non-secret ballot
-qstr_Secret_ballot|Secret ballot
-qstr_Executive_Branch_Pos|Executive Branch Posts:
-qstr_Appointed_by_state|Appointed by state
-qstr_Executive_Branch_Post|Executive Branch Posts
-qstr_Appointed_by_State|Appointed by State
-qstr_Press_Censorship:|Press Censorship:
-qstr_Trade_Unions:|Trade Unions:
-qstr_Public_Meetings:|Public Meetings:
-qstr_Authorized_Only|Authorized Only
-qstr_Child_Labour:|Child Labour:
+qstr_Russian_Republic|República Rusa
+qstr_Austro_Hungarian_Dem|República Democrática Austro-Húngara
+qstr_People_s_Republic_of|República Popular Belga
+qstr_First_Spanish_Republ|Primer República Española
+qstr_British_Republic|República Británica
+qstr_Federal_Republic_of_|República Federal de Alemania
+qstr_Republic_of_Belgium|República de Bélgica
+qstr_Republic_of_Netherla|República de Países Bajos
+qstr_Imperial_State_of_Ir|Estado Imperial de Irán
+qstr_People_s_United_Prov|Provincias populares unidas
+qstr_Your_party_laws:|Las leyes de tu partido:
+qstr_Voting_Franchise:|Metodo de Votación:
+qstr_Nomination_Rules:|Normas de Nominación:
+qstr_Ruling_Party_Influenc|Influencia del Partido Gobernante:
+qstr_Harassment|Acoso
+qstr_Non_secret_ballot|Voto no Secreto
+qstr_Secret_ballot|Voto Secreto
+qstr_Executive_Branch_Pos|Candidaturas a cargos ejecutivos:
+qstr_Appointed_by_state|Puestos por el estado
+qstr_Executive_Branch_Post|Candidaturas a cargos ejecutivos
+qstr_Appointed_by_State|Puestos por el estado
+qstr_Press_Censorship:|Censura de Prensa:
+qstr_Trade_Unions:|Uniones comerciales:
+qstr_Public_Meetings:|Reuniones públicas:
+qstr_Authorized_Only|Solo con autorización
+qstr_Child_Labour:|Trabajo Infantil:
