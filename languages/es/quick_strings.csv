@@ -726,7 +726,7 @@ qstr_You_became_a_marshal|Te has convertido en mariscal de {s10}, esto significa
 qstr_{s50}_{s51}|{s50} {s51}
 qstr_Your_government_type|El tipo de tu gobierno no te permite gestionar esta fábrica.
 qstr_Unable_to_manage_ene|No puedes gestionar una fábrica de la facción enemiga.
-qstr_{s1}:_Peaceful_demon|{s1}: ¡Manifestaciones pacificas en soporte del bienestar social! Los ciudadanos de {s2} reunidos en la plaza central de la ciudad, pidiendo que el gobierno intervenga acerca de las condiciones laborales de los obreros.
+qstr_{s1}:_Peaceful_demon|{s1}: ¡Manifestaciones pacíficas en soporte del bienestar social! Los ciudadanos de {s2} reunidos en la plaza central de la ciudad, pidiendo que el gobierno intervenga acerca de las condiciones laborales de los obreros.
 qstr_The_demonstration_en|La manifestación ha acabado sin respuesta del gobierno.
 qstr_The_police_dispersed|La policía dispersó a los manifestantes, por suerte no hubieron victimas.
 qstr___Massacre_in_{s2}!_|''¡Masacre en {s2}!'' La policía disparó a los manifestantes pacificos, dejando al menos {reg10} heridos.
@@ -738,16 +738,16 @@ qstr_{s1}:_Strike_in_{s2}|{s1}: ¡Huelga y tumulto en {s2}! La actividad laboral
 qstr_{s1}_in_{s2}|{s1} en {s2},
 qstr__{s1}_in_{s2}| {s1} en {s2},
 qstr_{s1}:_Worker_unions_|{s1}: ¡La unión de trabajadores ha llamado a huelga general! Unidos por una causa en común, los trabajadores se han unido al piquete en {s3}{s4}{s5}{s6}{s7}!
-qstr_{s3}_s_police_arrest|la policía de {s3} arrestan a figuras politicas de {reg1} que soportaban a {s1}. Alongside the arrests, the government has also announced the banning of the movements newspaper. ^^Effect: {s1}'s influence decreases.
-qstr_{s3}:_Mass_arrests_o|{s3}: Mass arrests of pro-{s1} politicians. Major portions of {s1} supporters are forced into clandestine efforts as open agitation has become dangerous.^^Effect: {s1}'s influence decreases.
-qstr___Arrested!___Famous|''Arrested!'' Famous opposition politicians from {s1} in {s3} have been publicly declared enemy of the state and have been arrested or forced into hiding.^^Effect: {s1}'s influence decreases.
-qstr_{s3}_s_officials_fac|{s3}'s officials face backlash after efforts to undermining the opposition have been discovered. ^^Effect: {s2}'s influence decreases.
-qstr_{s3}:___Outrageous!_|{s3}: ''Outrageous!'' Political observers have discovered vile plans by the {s2}.^^Effect: {s2}'s influence decreases.
-qstr_{s3}:_{s2}_has_lost_|{s3}: {s2} has lost standing in the public eye after a scandal manifests itself within the party ranks.^^Effect: {s2}'s influence decreases.
-qstr_{s3}:_{s2}_has_been_|{s3}: {s2} has been found guilty of attempting to cover up a break-in of the opposition's headquarters in the capital.^^Effect: {s2}'s influence decreases.
-qstr_{s3}:_{s1}_was_fined|{s3}: {s1} was fined ${reg2} over involvement in an illegal financial scheme. ^^Effect: {s1}'s influence decreases.
-qstr___Corruption_scandal|''Escandalo de corrupción en {s3}'': {s1} demostró que miembros tratarón de sobornar a los oficiales.^^Efecto: la influencia de {s1} ha disminuido.
-qstr_{s3}:_Famous_politic|{s3}: El famoso político {s4} de {s1} ha sido descubierto que estaba involucrado en un escandalo financiero reciente.^^Efecto: la influencia de {s1} ha disminuido.
+qstr_{s3}_s_police_arrest|la policía de {s3} arrestan a figuras politicas de {reg1} que soportaban a {s1}. Mientras sucedia los arrestos, el gobierno anunció la prohibición de diarios a fines de la ideología subversiva. ^^Consecuencia: La influencia de {s1} se ha reducido.
+qstr_{s3}:_Mass_arrests_o|{s3}: Arrestos en masa de políticos pro-{s1}. La mayor parte de los que soportaban a {s1} fueron forzados a que reacciones como la libertad de opinión sea peligrosa.^^Consecuencia: La influencia de {s1} se ha reducido.
+qstr___Arrested!___Famous|''¡Arrestados!'' Políticos famosos opositores de {s1} en {s3} fueron declarados como enemigos del estado y fueron arrestados o se vieron obligados a huir..^^Consecuencia: La influencia de {s1} se ha reducido.
+qstr_{s3}_s_officials_fac|Los oficiales de {s3} han sido descubiertos socabando a los partidos opositores. ^^Consecuencia:La influencia de {s2} se ha reducido.
+qstr_{s3}:___Outrageous!_|{s3}: ''¡Indigante!'' Los analistas políticos decubrieron planes infames por parte de {s2}.^^Consecuencia: La influencia de {s2} se ha reducido.
+qstr_{s3}:_{s2}_has_lost_|{s3}: {s2} ha perdido el puesto en el ojo público después de las manifestaciones infames que estaban relacionadas con su partido.^^Effect:La influencia de {s2} se ha reducido.
+qstr_{s3}:_{s2}_has_been_|{s3}: {s2} ha sido encontrado culpable de encubrir un allanamiento ilegal de las sedes de la oposición en la capital.^^Consecuencia: La influencia de {s2} se ha reducido.
+qstr_{s3}:_{s1}_was_fined|{s3}: {s1} ha sido multado por ${reg2} debido a estar involucrado en un esquema de enriquecimiento ilicito. ^^Consecuencia:La influencia de {s1} se ha reducido.
+qstr___Corruption_scandal|''Escandalo de corrupción en {s3}'': {s1} demostró que miembros tratarón de sobornar a los oficiales.^^Consecuencia: la influencia de {s1} ha disminuido.
+qstr_{s3}:_Famous_politic|{s3}: El famoso político {s4} de {s1} ha sido descubierto que estaba involucrado en un escandalo financiero reciente.^^Consecuencia: la influencia de {s1} se ha reducido.
 qstr_{s1}_s_government_ha|El gobierno de {s1} ha sido cambiado por {s2}.
 qstr_Constitutional_Dual_|Doble monarquía constitucional
 qstr_Absolute_Monarchy|Monarquía absoluta
@@ -967,11 +967,11 @@ qstr_{s13}_ordered_you_to|{s13} os ha ordenado que os unáis en el asalto a {s14
 qstr_Find_and_speak_with_|Debéis buscar y hablar con {s3} de {s4} para ofrecerle vuestro juramento de lealtad.
 qstr_There_has_been_an_al|Ha habido un incidente fronterizo: {s9}
 qstr_^^Note_that_so_long_|^^Notad que mientras seáis mariscal los señores del reino esperan que seáis vos quien los lidere en las campañas. Así que si estáis esperando por un banquete, ya sea por una boda u otro motivo, puede que queráis dimitir. Para ello debéis hablar con vuestro señor.
-qstr_Temperature:_+{reg0}|Temperature: +{reg0} C ^Pressure: {reg1} hPa ^Humidity: {reg2}% ^Wind: {reg3} km/h ^Cloudiness: {reg4}% ^Precipitation: {reg5}%
-qstr_Romanian_Principalit|Romanian Principalities
+qstr_Temperature:_+{reg0}|Temperatura: +{reg0} C ^Presión atmosférica: {reg1} hPa ^Humedad: {reg2}% ^Viento: {reg3} km/h ^Nubosidad: {reg4}% ^Precipitación: {reg5}%
+qstr_Romanian_Principalit|Principados Rumanos
 qstr_Kingdom_of_Wurttembe|Reino de Wurttemberg
 qstr_Principality_of_Serb|Principado de Serbia
-qstr_Kingdom_of_Bavaria|Kingdom of Bavaria
+qstr_Kingdom_of_Bavaria|Reino de Baviera
 qstr_Kingdom_of_Hannover|Reino de Hannover
 qstr_French_Empire|Imperio Francés
 qstr_Austrian_Empire|Imperio Austriaco
@@ -998,9 +998,9 @@ qstr_Not_available_for_th|No disponible para esta Facción.
 qstr_Declare_war_on_Serbi|Declarar la guerra a Serbia.
 qstr_Join_league.|Entrar a la Liga.
 qstr_Join_Serbia_and_Gree|Unirse a Serbia y Grecia para declarar la Guerra a Búlgaria.
-qstr_Days_after_peaceful_|Days after peaceful protests began, backlashes from many organizations, still not yet bore a fruit. The government decided to ignore the demands from the protesters. The government has only given them pain instead of listening them for fair investigations, leading to more and more widespread protests across the country. And now, the government has two decision, whether to comply or just simply, refuse.^^Effects: Socialist movement popularity increased by 10%.
-qstr_After_hearing_about_|After hearing about the protests, being a nuisance for the government, the government decided to dispatch some policemen to disperse the crowd of protesters by non-lethal means. They tried to disperse the crowd with whips and baton and it resulted in a success. Some of the protesters thrown rocks and debris to the officers but all of them have been arrested in the following afternoon. The last of the protesters finally dispersed after some of the demonstration leaders escaped the scene.^^Effects: Socialist movement popularity increased by 5%. Socialist movement radicalism increased by 3%.
-qstr_At_noon_when_the_dem|At noon, when the demonstration leader was making a speech about their demands infront of the crowd of protesters, troops and policemen entered the scene to disperse the crowd. Unfortunately, the government ordered the dispersion with a violent way. Then, soldiers opened fire on the protesters, killing and wounding many people. Others, tried to flee from the scene, ran either wounded or dying. Few managed to hide from the law enforcement and the dispersion is successful. The government quickly received backlashes from peace organizations, socialists and even foreign countries alike, thus souring foreign relations. ^^ Socialist movement radicalism increased by 10%.
+qstr_Days_after_peaceful_|Dias después de que comenzaron las manifestaciones pacificas, se recibieron muchas quejas de diferentes organizaciones, pero esto no es todo. El gobierno decidió ignorar las demandas de los manifestantes, ademas el gobierno solo recibió criticas de parte de los investigadores, otro problema es que la rebelión esta creciendo en el país. Y ahora, el gobierno le quedan dos decisiones, ya sea cumplir o rechazar las propuestas.^^Consecuencia: La popularidad del movimiento Socialista se ha incrementado en 10%.
+qstr_After_hearing_about_|Después de escuchar acerca de los manifestantes, estos son una molestia para el gobierno, entonces se decidió enviar a las fuerzas de seguridad para dispersar a la multitud usando armas no letales. Ellos lograron dispersar las multitudes con la porras y latigos. Algunos manifestantes lanzaron piedras y escombros a los oficiales, luego fueron apresados en las siguientes horas. Ya con el disturbio solucionado, se dieron cuenta de que los lideres se escaparon.^^Consecuencia:La popularidad del movimiento Socialista se incrementó en 5%. El movimiento Socialista Radical se incrementó en 3%.
+qstr_At_noon_when_the_dem|En el medio día, cuando el lider de los manifestantes estaba dando un discurso frente a los rebeldes, fueron sorprendidos por las fuerzas de seguridad que entraron a despejar la multitud. Desafortunadamente, el gobierno ordenó la represión con mano dura. Las fuerzas abrieron fuego, dejando los rebeldes muertos y muy mal heridos. Otros escaparon de una muerte o prisión segura. Después de esto, el gobierno recibió quejas de organizaciones pacíficas, agrupaciones socialistas y otros países, esto afectará las relaciones internacionales. ^^Consecuencia: El movimiento Socialista Radical se incrementó en 10%.
 qstr_Breaking_camp...|Levantando el campamento...
 qstr_The_{s31}_gets_1_inf|El {s31} obtiene 1 de infamia por estar en una guerra prolongada con {s32}.
 qstr_Party_has_nothing_to|¡El grupo no tiene nada para comer!
@@ -1069,13 +1069,13 @@ qstr_King_Edward_VII|Rey Edward VII
 qstr_Queen_Wilhelmina|Reina Wilhelmina
 qstr_President_Armand_Fal|Presidente Armand Fallières
 qstr_Sultan_Abdulhamid_II|Sultan Abdulhamid II
-qstr_President_Sadi_Carno|President Sadi Carnot
-qstr_Tsar_Alexander_III|Tsar Alexander III
-qstr_King_Umberto_I|King Umberto I
-qstr_Queen_Victoria|Queen Victoria
-qstr_President_Patrice_de|President Patrice de MacMahon
+qstr_President_Sadi_Carno|Presidente Sadi Carnot
+qstr_Tsar_Alexander_III|Tzar Alexander III
+qstr_King_Umberto_I|Rey Umberto I
+qstr_Queen_Victoria|Reina Victoria
+qstr_President_Patrice_de|Presidente Patrice de MacMahon
 qstr_Kaiser_Wilhelm_I|Kaiser Wilhelm I
-qstr_King_Wilhelm_III|King Wilhelm III
+qstr_King_Wilhelm_III|Rey Wilhelm III
 qstr_Your_country_is_bank|¡Tu gobierno esta en bancarrota!
 qstr_Government_type_was_|El tipo de gobierno a sido cambiado a República.
 qstr_{reg65?my_Lady:my_Lo|{reg65?mi Señora:mi Señor}
@@ -1099,20 +1099,20 @@ qstr_Papal_State_and_our_|El Estado Papal, y nuestro principal enemigo, el Reino
 qstr_Papal_State_and_our_p|El Estado Papa, y nuestro principal enemigo, el Reino de Cerdeña
 qstr_Kingdom_of_Two_Sicil|El Reino de las Dos Sicilias y nuestro principal enemigo italiano, el Reino de Cerdeña
 qstr_Your_highness_those_|¡Disculpe su alteza, esas personas son nuestros aliados! ¡Vamos a ser condenados por la Comunidad Internacional y ademas perder un valioso Aliado! ¿Usted esta seguro de lo que esta haciendo?
-qstr_We_ve_agreed_by_truc|We've agreed by truce not to attack them, at least for the moment being. We will face extreme scrutiny if we do, regardless of how righteous our cause my be. Are you sure?
-qstr_Considering_we_have_|Considering we have a valid reason to attack {s31}, I don't see any inherent reason why this should speak against us. If you wish, I will send out a message to their ambassador immediately.
-qstr_I_am_afraid_we_don_t|I am afraid we don't have a justification for conflict at this point in time. We can naturally still declare war against {s31}, but expect international pressure to mount extremely quickly, and for it to put us in the crossfire of future and ongoing conflicts.
-qstr_This_is_my_decision_|This is my decision to make, go ahead anyways.
-qstr_Then_send_that_ambas|Then send that ambassador a message, and one to our generals, too.
-qstr_You_have_my_blessing|You have my blessings, go ahead.
-qstr_Let_s_not_act_rashly|Let's not act rashly. We have all the time we need, let's wait.
-qstr_Hold_it_then_we_can_|Hold it, then, we can't get ourselves condemned by a dozen nations at once!
-qstr_This_will_be_unneces|This will be unnecessary bloodshed through and through. Hold off on it.
-qstr_With_our_state_contr|With our state-controlled press, we can surely achieve a good result.
-qstr_Because_of_free_pres|Because of free press laws in our country, campaign will not be much effective.
-qstr_With_our_censorship_|With our censorship, we will be able to significantly reduce influence of our political opponents and get quite good results.
-qstr_I_want_to_start_repr|I want to start repressions against our political opponents.
-qstr_We_need_to_decrease_|We need to decrease influence of our opponents in the political arena.
+qstr_We_ve_agreed_by_truc|Acordamos mediante una tregua en no atacarlos, a menos por el momento. Vamos a tener que entrentarnos a un tribunal sí rompemos el acuerdo, Independientemente de que tan justo ¿Que decisión vas a tomar?
+qstr_Considering_we_have_|Considerando de que tenemos una razón validad de atacar a {s31}, yo no veo una razón inherente porque esto nos afecte. Sí deseas, mandaré un mensaje a su embajador inmediatamente.
+qstr_I_am_afraid_we_don_t|Me temo que no podemos justificar el conflicto esta vez. Podemos declarar la guerra contra {s31}, pero ten en cuenta que recibiremos la presión internacional, y esto nos pondra en la mira de los actuales y siguientes conflictos.
+qstr_This_is_my_decision_|Esta es mi decisión de lo que vamos a hacer, sigan adelante.
+qstr_Then_send_that_ambas|Después enviá a el embajador un mensaje, y uno a nuestros generales también.
+qstr_You_have_my_blessing|Tienés mi bendición, hazlo.
+qstr_Let_s_not_act_rashly|No nos apresuremos, tenemos todo el tiempo necesario para hacerlo.
+qstr_Hold_it_then_we_can_|Espera un momento, ¡no podemos ser condenados por todas las naciones!
+qstr_This_will_be_unneces|Esto será un baño de sangre totalmente innecesario, mejor que seas más racional.
+qstr_With_our_state_contr|Con el periodismo controlado, vamos a tener buenos resultados.
+qstr_Because_of_free_pres|Sí seguimos con las normas de periodismo libre en nuestro país, la campaña política no sera muy efectiva.
+qstr_With_our_censorship_|Con nuestra censura al periodismo, reduciremos la influencia de los políticos opositores y podremos tener mejores resultados.
+qstr_I_want_to_start_repr|Quiero reprimir a nuestros políticos opositores.
+qstr_We_need_to_decrease_|Quiero desacreditar la influencia de nuestros políticos opositores.
 qstr_Most_certainly._Arre|Most certainly. Arrests of influential figures of the political opposition will undermine their positions in the political arena and strengthen ours. Investigation will take 10 days and {reg1} Libras per day.
 qstr_Most_certainly._Few_|Most certainly. Few revelatory articles condemning our opponents in illegal actions, aiding enemy and treason will dishonor them before the eyes of our people, and strengthen our position. The whole process will take 10 days and {reg1} Libras per day.
 qstr_However_in_case_of_f|However, in case of failure, our opponents can condemn us as answer to our actions.
@@ -1204,10 +1204,10 @@ qstr_The_truce_between_{s|La tregua entre {s1} y {s2} ha caducado.
 qstr_®|®
 qstr_Your_political_party|Tu partido político:
 qstr_Workers_riot_in_{s1}|¡Revuelta Obrera en {s1}! Inicialmente fue pacífica, pero los manifestantes se volvieron agresivos destruyendo todo lo que encontraron en su camino a {s2}.
-qstr_Crowd_disperses_afte|Crowd disperses after police started shooting, with some rioters trying to shoot back. Police reported at least {reg10} policemen and {reg11} civilians wounded.
-qstr_Crowd_disperses_after|Crowd disperses after police started shooting, with some rioters trying to shoot back. Police reported at least {reg12} policemen and {reg13} civilians wounded.
-qstr_As_the_riot_went_wid|As the riot went widespread, the government dispatched police units to calm down the situation, they tried to suppress the riot with as little casualty as possible by mostly non-lethal means. The riot has been ended but both police units and rioters suffered casualties. Among the casualties, (number) were killed and (number) wounded in the riot.^^Socialist movement popularity decreased by 5%, radicalism increased by 5%.
-qstr_As_the_riot_went_wide|As the riot went widespread, the government dispatched police units to suppress the rioters, they used deadly force against the rioters. The rioters suffered many casualties and some fled the scene, only ended up getting caught hours later. In the incident, (number) died and (number) suffered wounds during the riot. ^^Socialist movement popularity decreased by 10%, radicalism increased by 10%.
+qstr_Crowd_disperses_afte|La multitud se dispera después de que la policía abrió fuego, algunos manifestantes también abrieron fuego. Esto dejo a {reg10} policias y {reg11} civiles heridos.
+qstr_Crowd_disperses_after|La multitud se dispersa después de que la policía abrió fuego, algunos manifestantes también abrieron fuego. Esto dejo a {reg10} policias y {reg11} civiles heridos.
+qstr_As_the_riot_went_wid|Como el disturbio fue más grande de lo habitual, el gobierno envió unidades policiales para calmar la situación, se trató de reducir a los manifestante con armas no letales. Los disturbios cesaron pero hubo heridos de ambos lados, entre las bajas, (number) fueron asesinados y (number) fueron heridos en los disturbios.^^La popuaridad del movimiento Socialista bajo en 5% en cambio los radicales subieron en 5%.
+qstr_As_the_riot_went_wide|Como el disturbio fue más grande de lo habitual, el gobierno envió unidades policiales para calmar la situación, pero hubo la orden de usar armas letales. Los manifestantes sufrieron muchas bajas y algunos pudieron escapar, pero luego fueron arrestados. En el incidente, se contabilizaron (number) muertos y (number) heridos graves. ^^La popularidad de movimiento Socialista bajo en 10% en cambio los radicales subieron en 10%.
 qstr_{s1}_agrees_to_becom|{s1} agrees to become a protectorate! After taking several defeats from {s2}, {s3} signs agreement to become part of {s2}.^^Effects: {s1} becomes part of {s2}
 qstr_Soviet_Russia|Rusia Sovietica
 qstr_French_Communes|Comunas Francesas
@@ -1224,20 +1224,20 @@ qstr_State_industry_subsi|Subsidios a Industria Estatal:^-{reg10} $
 qstr_Republic_of_Spain|República de España
 qstr_Iranian_Socialist_So|República Socialista Soviética de Irán
 qstr_Socialist_{s50}|{s50} Socialista
-qstr_At_noon_when_the_de|At noon, when the demonstration leader was making a speech about their demands infront of the crowd of protesters, troops and policemen entered the scene to disperse the crowd. Unfortunately, the government ordered the dispersion with a violent way. Then, soldiers opened fire on the protesters, killing and wounding many people. Others, tried to flee from the scene, ran either wounded or dying. Few managed to hide from the law enforcement and the dispersion is successful. The government quickly received backlashes from peace organizations, socialists and even foreign countries alike, thus souring foreign relations.^^Effects: Socialist movement radicalism increased by 10%.
-qstr__{s1}_triumphs_over_| {s1} han salido victoriosos frente a la revolución socialista.^^ Efectos: Los partidos socialistas al rededor del mundo han ganado influencia.
+qstr_At_noon_when_the_de|En la tarde, cuando el lider de los manifestantes estaba dando un discurso acerca de sus demandas frente a un grupo de manifestantes, aparecieron fuerzas de seeguridad en la escena para dispersar la multitud. Desafortunadamente, el gobierno ordenó la dispersión de una forma violenta. Luego, las fuerzas dispararon a los manifestantes, dejando muertos y heridos en las calles. Otros pudieron escapar de una muerte o prisión segura. El gobierno instantáneamente recibió quejas de organizaciones pacíficas, socialistas y países extranjeros, dejando afectada las relaciones internacionales.^^Consecuencia: Movimiento Socialista y Radical incrementado en 10%.
+qstr__{s1}_triumphs_over_| {s1} han salido victoriosos frente a la revolución socialista.^^ Consecuencia: Los partidos socialistas al rededor del mundo han ganado influencia.
 qstr__{s1}_triumphs_over_v| {s1} han salido victoriosos contra los revolucionarios.
 qstr_Civil_war_is_over_in|¡La guerra Civil en {s1} se ha acabado! {s2} ha sido derrotado.{s3}
-qstr__{s1}_triumphs_over_vi| {s1} triumphs over victory of socialist revolution.^Effects: Socialist parties around the worlds gain influence.
-qstr_Rebellion_in_{s1}:_t|Rebellion in {s1}: took up arms and are attacking the government army!
-qstr_Government_of_{s1}_i|Government of {s1} is willing to suppress uprising with force in the following few days, officials say.
-qstr_Rebellion_in_{s1}:_r|Rebellion in {s1}: rebels took up arms and are attacking the government army!
-qstr_Jacobin_riot_in_{s1}|Jacobin riot in {s1}! Initially peaceful, protest demonstration turned into angry crowd destroying everything on their way in {s2}.
-qstr_{s1}:_Peaceful_demons|{s1}: Peaceful demonstration in support of liberal reforms! Citizens of {s2} gathered on the main square of the city, calling on the government to create parliament with universal equal suffrage.
-qstr_{s1}_in_{s2};^|{s1} in {s2};^
-qstr_{s1}:_Worker_unions_h|{s1}: Worker unions have called for a general strike! United in protest, workers have joined the picket lines in:^{s3}{s4}{s5}{s6}{s7}
-qstr_Civil_war_in_{s1}!_Mul|Civil war in {s1}! Multiple miltiary commanders of {s1} have resigned their oath and joined newly formed {s2} in support of democratic revolution.
-qstr_Days_after_peaceful_p|Days after peaceful protests began, backlashes from many organizations, still not yet bore a fruit. The government decided to ignore the demands from the protesters. The government has only given them pain instead of listening them for fair investigations, leading to more and more widespread protests across the country. And now, the government has two decision, whether to comply or just simply, refuse.^^Effects: Liberal movement popularity increased by 10%.
+qstr__{s1}_triumphs_over_vi| {s1} triunfa frent a la revolución Socialista.^Consecuencia: El partido Socialista gana influencia internacionalmente.
+qstr_Rebellion_in_{s1}:_t|Rebelión en {s1}: ¡La gente tomó las armas y estan en conflicto con las Fuerzas de Seguridad!
+qstr_Government_of_{s1}_i|El gobierno de {s1} esta dispuesto a reprimir a los manifestantes en los siguentes dias.
+qstr_Rebellion_in_{s1}:_r|Rebelión en {s1}: ¡Los rebeldes tomaron las armas y estan en conflicto con las Fuerzas de Seguridad!
+qstr_Jacobin_riot_in_{s1}|¡Disturbios Jacobinos en {s1}! Comenzó como reclamos pacificos, pero los manifestantes se volvieron agresivos y empezaron a destruir todo en su paso a {s2}.
+qstr_{s1}:_Peaceful_demons|{s1}: ¡Manifestaciones pacíficas en conformidad de las reformas liberales! Los ciudadanos de {s2} se juntaron en el parque principal de la ciudad, con el reclamo de la creación del parlamente con sufragio equitativo universal.
+qstr_{s1}_in_{s2};^|{s1} en {s2};^
+qstr_{s1}:_Worker_unions_h|{s1}:¡Las uniones de trabajadores han llamado a un paro general! Unidos en huelga, los manifestares estan haciendo piquetes en:^{s3}{s4}{s5}{s6}{s7}
+qstr_Civil_war_in_{s1}!_Mul|¡Guerra civil en {s1}! Algunos comandantes militares de {s1} han abandonado su juramente y se unieron a {s2} en soporte de la revolución democrática.
+qstr_Days_after_peaceful_p|Dias después que las manifestaciones pacíficas empezaron, llegaron quejas de muchas organizaciones y esto no es todo. El gobierno decidió ignorar las demandas de los manifestantes y . The government has only given them pain instead of listening them for fair investigations, leading to more and more widespread protests across the country. And now, the government has two decision, whether to comply or just simply, refuse.^^Effects: Liberal movement popularity increased by 10%.
 qstr_After_hearing_about_t|After hearing about the protests, being a nuisance for the government, the government decided to dispatch some policemen to disperse the crowd of protesters by non-lethal means. They tried to disperse the crowd with whips and baton and it resulted in a success. Some of the protesters thrown rocks and debris to the officers but all of them have been arrested in the following afternoon. The last of the protesters finally dispersed after some of the demonstration leaders escaped the scene.^^Effects: Liberal movement popularity increased by 5%. Liberal movement radicalism increased by 3%.
 qstr_At_noon_when_the_demo|At noon, when the demonstration leader was making a speech about their demands infront of the crowd of protesters, troops and policemen entered the scene to disperse the crowd. Unfortunately, the government ordered the dispersion with a violent way. Then, soldiers opened fire on the protesters, killing and wounding many people. Others, tried to flee from the scene, ran either wounded or dying. Few managed to hide from the law enforcement and the dispersion is successful. The government quickly received backlashes from peace organizations, socialists and even foreign countries alike, thus souring foreign relations.^^Effects: Liberal movement radicalism increased by 10%.
 qstr_As_the_riot_went_wides|As the riot went widespread, the government dispatched police units to calm down the situation, they tried to suppress the riot with as little casualty as possible by mostly non-lethal means. The riot has been ended but both police units and rioters suffered casualties. Among the casualties, (number) were killed and (number) wounded in the riot.^^Liberal movement popularity decreased by 5%, radicalism increased by 5%.
