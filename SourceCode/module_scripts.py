@@ -4247,10 +4247,10 @@ scripts = [
       (store_script_param, ":input", 1),
       (try_begin),
         (eq, ":input", 0),
-        (assign, "$cheat_mode", 0),
+       # (assign, "$cheat_mode", 0),
       (else_try),
         (eq, ":input", 1),
-        (assign, "$cheat_mode", 1),
+     #   (assign, "$cheat_mode", 1),
       (try_end),
       ]),
 
