@@ -5522,6 +5522,29 @@ State. In order to force her government to surrender to our forces, we will have
 
 ("players_political_party_name", "Political Party"),
 
+("movements_liberal_desc", "Liberal movement demands establishment of parliament,^universal, equal and direct suffrage and regions autonomy.^Mainly supported and funded by bourgeoisie, it's popularity^depends on their wealth and quality of life levels."),
+("movements_socialist_desc", "Socialist movement demands social welfare laws,^which lead to governmental investment in economic^development and protection of the economic rights^of the lower class. It's popularity depends on^lower classes quality of life levels."),
+("movements_propeace_desc", "Pacifist movement is a result of being^involved in wars. It's supporters are demanding peace at^any cost. It's popularity depends on success of the^wars - the less successful war is, the more^popularity pacifist movement has. High popularity^of pacifist movement increases political activity^of population, which can shift on other movements.^Successful war will decrease popularity of pacifist movement."),
+("popularity_desc", "Popularity level represents widespreadness of the^movement in country. High popularity level will lead to^mass protests in support of movement, and will raise^radicalism level. Enforcing demands of movement will^decrease movement popularity level."),
+("radicalism_desc", "Radicalism level represents willingness of movement^supporters to enforce their demands with force. High^level of radicalism will lead to riots and rebellions,^and success of the latter can lead to^revolution and civil war. Radicalism level is being^increased by high popularity level and low influence^of ruling party compared to influence of other parties. Enforcing demands of movement will^decrease movement radicalism level."),
+
+("voting_franchise_desc", "Voting Franchise law defines which classes of population^have right to vote, both in parliament and executive^branch elections. Different vote franchise laws will result in different^parliament and executive branch compositions depending on levels of parties' support of different classes "),
+("voting_openness_desc", "Ruling Party Influence law defines how ruling party^influences voters during elections, which can help ruling^party get more votes."),
+("nomination_rules_desc", "Nomination Rules law defines amount of land citizen^need to be able to be nominated and be voted for in parliament.^Universal nomination rule will lead to lower classes having more^weight in parliament and executive branch."),
+("executive_branch_desc", "Executive Branch Elective Posts law defines how^many executive branch posts are being selected by elections."),
+("public_meetings_desc", "Allowing public meetings will inrease quality of^life of population, while increasing movements popularity levels."),
+("workers_wage_desc", "Minimum Worker Wage law makes factory owners to not^decrease wage of workers below level defined in law, increasing^quality of life of lower classes, while increasing spending of factories."),
+("workers_conditions_desc", "Maximum Work Hours law defines maximum amount^of work hours in a day. Lower values will slighty decrease^productivity of industry while increasing quality of life of lower classes."),
+("press_desc", "Press law defines level of censorship in mass media  More^free press will lead to ruling party having less influence and^increasing quality of life of the population."),
+("trade_unions_desc", "Allowing trade unions results in higher quality of^life for population, wjile also leading to factory owners funding^in increasing workers conditions in their factories more often"),
+("child_labour_desc", "Putting child labour under restrictions will lead^to higher quality of life, while increasing wage spendings of^factories."),
+("infrastructure_expenses_desc", "Higher infrastructure expenses will lead^to faster development of infrastructure in all regions. and^slower damaging during war."),
+("education_expenses_desc", "Higher education expenses will increase speed^of literacy level growing."),
+("healthcare_expenses_desc", "Higher healthcare expenses will increase speed^of population growing."),
+("military_expenses_desc", "Higher military expenses will increase supply^level of army, if supplies are available."),
+("income_tax_desc", "Higher income tax will increase budget income, while^decreasing wealth of population."),
+("goodsservices_tax_desc", "Goods and services tax is being imposed to sellers^of any resources which are citizens of this country.^Higher tax will decrease income of factories."),
+("importexport_tax_desc", "Import tax is being imposed to any resources being^transported over this country borders. Lesser tax will^increase income of factories and attract more foreign resource buyers."),
 ]
 
 
