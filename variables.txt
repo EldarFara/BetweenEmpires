@@ -1874,3 +1874,6 @@ overlay_button_pes_infrastructure1
 overlay_button_pes_infrastructure4
 number_of_allies_ai
 number_of_enemies_ai
+overlay_mesh_nationalization_urban
+overlay_mesh_forced_urbanization
+overlay_mesh_nationalization_rural

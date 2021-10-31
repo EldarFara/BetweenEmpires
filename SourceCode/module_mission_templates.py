@@ -20,6 +20,30 @@ from header_skills import *
 pilgrim_disguise = [itm_ammo_pistol, itm_dagger, itm_sidearm_colt_m1851_navy, itm_clothes_urban_male_trousers1, itm_civilian_hat1, itm_clothes_urban_male1]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
+pps_death = (
+ti_on_agent_killed_or_wounded, 0, 0, [],
+[
+(store_trigger_param_1, ":agent"),
+(agent_is_active, ":agent"),
+(agent_is_non_player, ":agent"),
+(agent_get_party_id, ":party", ":agent"),
+(party_is_active, ":party"),
+(store_faction_of_party, ":faction", ":party"),
+	(try_begin),
+	(eq, ":faction", "fac_player_faction"),
+	(assign, ":faction", "fac_player_supporters_faction"),
+	(try_end),
+(faction_get_slot, ":population", ":faction", slot_faction_population),
+(val_add, ":population", -500),
+(val_clamp, ":population", 50000, 9999999999),
+	(try_begin),
+	(le, ":population", 2000000),
+	(val_add, ":population", 300),
+	(try_end),
+(faction_set_slot, ":faction", slot_faction_population, ":population"),
+
+])
+
 player_death = (
 ti_on_agent_killed_or_wounded, 0, 0, [],
 [
@@ -6636,6 +6660,7 @@ parabellum_script_set_battle = [
 ams,
 bms,
 player_death,
+pps_death,
 interior_bugfix,
 siege_win_battle,
 order_move_forwards_backwards,

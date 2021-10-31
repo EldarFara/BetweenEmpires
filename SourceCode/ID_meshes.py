@@ -610,3 +610,6 @@ mesh_pes_infrastructure1 = 608
 mesh_pes_infrastructure2 = 609
 mesh_pes_infrastructure3 = 610
 mesh_pes_infrastructure4 = 611
+mesh_pps_forced_urbanization = 612
+mesh_pps_nationalization_rural = 613
+mesh_pps_nationalization_urban = 614

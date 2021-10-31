@@ -675,6 +675,9 @@ meshes = [
   ("pes_infrastructure2", 0, "pes_infrastructure2", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("pes_infrastructure3", 0, "pes_infrastructure3", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("pes_infrastructure4", 0, "pes_infrastructure4", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pps_forced_urbanization", 0, "pps_forced_urbanization", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pps_nationalization_rural", 0, "pps_nationalization_rural", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pps_nationalization_urban", 0, "pps_nationalization_urban", 0, 0, 0, 0, 0, 0, 1, 1, 1),
 ]
 
 # modmerger_start version=201 type=2
