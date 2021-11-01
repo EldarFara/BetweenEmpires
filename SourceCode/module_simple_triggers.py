@@ -7753,7 +7753,16 @@ simple_triggers = [
 
 (0,
 [
-(assign, "$cheat_mode", 0),
+	(try_begin),
+	(key_clicked, key_minus),
+		(try_begin),
+		(eq, "$cheat_mode", 0),
+		(assign, "$cheat_mode", 1),
+		(else_try),
+		(assign, "$cheat_mode", 0),
+		(try_end),
+	(try_end),
+#(assign, "$cheat_mode", 0),
 	(try_begin),
 	(eq, "$players_kingdom_name_set", 0),
 	(faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_active),
