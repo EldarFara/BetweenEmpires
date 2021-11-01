@@ -64114,6 +64114,7 @@ scripts = [
 	(val_div, ":sum_literacy", ":amount"),
 	(val_div, ":sum_urbanization", ":amount"),
 	(val_div, ":sum_famine", ":amount"),
+	(val_max, ":sum_population", 1), (val_max, ":sum_literacy", 1), (val_max, ":sum_urbanization", 1),
 	(faction_set_slot, ":faction", slot_faction_literacy, ":sum_literacy"),
 	(faction_set_slot, ":faction", slot_faction_population, ":sum_population"),
 	(faction_set_slot, ":faction", slot_faction_urbanization, ":sum_urbanization"),
@@ -69624,6 +69625,7 @@ scripts = [
 (store_div, ":public_meetings_bonus", ":law_public_meetings", 3),
 (val_add, ":public_meetings_bonus", 100),
 (store_mul, ":gdp_urban_per_capita", ":gdp_urban", 10000),
+(val_max, ":population", 1),
 (val_div, ":gdp_urban_per_capita", ":population"),
 
 	(try_begin),
