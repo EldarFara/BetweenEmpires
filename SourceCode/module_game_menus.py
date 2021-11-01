@@ -3018,7 +3018,7 @@ the high lords and common folk across the many realms of Europe."),
        [
          (faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_active),
          (gt, "$player_faction_preset", "fac_player_supporters_faction"),
-         ],"Renme faction.",
+         ],"Rename faction.",
        [(start_presentation, "prsnt_name_kingdom"),
         ]
        ),
@@ -14622,7 +14622,7 @@ the high lords and common folk across the many realms of Europe."),
 	(jump_to_menu, "mnu_start_game_ai_party_size_selection"),
         ]
 		),
-      ("start_game_choose_date_1916",[],"1916 (Temporary).",
+      ("start_game_choose_date_1916",[(eq, 1, 2),],"1916 (Temporary).",
        [
 	(assign, "$g_current_year", 1916),
 	(faction_set_name, "fac_kingdom_25", "@Kingdom of Romania"),
