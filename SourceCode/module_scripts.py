@@ -61458,7 +61458,7 @@ scripts = [
 		(str_store_string, s1, ":name"),
 			(try_begin),	
 			(eq, ":name", "str_players_political_party_name"),
-			(str_store_faction_name, s1, "fac_culture_17"),
+			(str_store_faction_name, s1, "fac_culture_33"),
 			(try_end),
 		(overlay_set_text, ":party_name", "@{s1}"),
 		(position_set_x, pos1, 20), (position_set_y, pos1, ":y"), (overlay_set_position, ":party_mesh", pos1),
