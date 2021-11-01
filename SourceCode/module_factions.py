@@ -45,7 +45,7 @@ factions = [
 ("culture_14",  "Field Crew Cannoneer", 0, 0.9, [], []),
 ("culture_15",  "Howitzer Crew Cannoneer", 0, 0.9, [], []),
 ("culture_16",  "MG Operator", 0, 0.9, [], []),
-("culture_17",  "My Party", 0, 0.9, [], []),
+("culture_17",  "General", 0, 0.9, [], []),
 ("culture_18",  "{!}culture_18", 0, 0.9, [], []),
 ("culture_19",  "{!}culture_19", 0, 0.9, [], []),
 ("culture_20",  "{!}culture_20", 0, 0.9, [], []),
@@ -61,7 +61,7 @@ factions = [
 ("culture_30",  "{!}culture_30", 0, 0.9, [], []),
 ("culture_31",  "{!}culture_31", 0, 0.9, [], []),
 ("culture_32",  "{!}culture_32", 0, 0.9, [], []),
-("culture_33",  "{!}culture_33", 0, 0.9, [], []),
+("culture_33",  "My Party", 0, 0.9, [], []),
 
 ## ZZ culture_player 
   ("culture_player",  "{!}culture_7", 0, 0.9, [], []),

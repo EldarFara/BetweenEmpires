@@ -8971,6 +8971,7 @@ presentations = [
 		(assign, "$players_kingdom_name_set", 1),
 		(faction_set_slot, "fac_player_supporters_faction", slot_faction_ruling_political_party, 2),
 		(call_script, "script_pps_faction_enforce_ruling_party_pvols_to_laws", "fac_player_supporters_faction"),
+		(faction_set_slot, "fac_player_supporters_faction", slot_faction_capital, "p_town_1"),
 		(call_script, "script_pps_faction_iteration", "fac_player_supporters_faction"),
 		(try_end),
 	(presentation_set_duration, 0),
