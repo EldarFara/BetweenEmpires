@@ -283,7 +283,7 @@ law_trade_unions_allowed = 100
 
 law_military_expenses_very_small = 10
 law_military_expenses_small = 35
-law_military_expenses_medium = 60
+law_military_expenses_medium = 50
 law_military_expenses_big = 80
 law_military_expenses_very_big = 100
 
