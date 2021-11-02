@@ -24,15 +24,15 @@ craters_limit = 400
 cannon_type_fieldgun = 0
 cannon_type_howitzer = 1
 
-pas_points_for_rank_2 = 4000
-pas_points_for_rank_3 = 9000
-pas_points_for_rank_4 = 20000
-pas_points_for_rank_5 = 35000
-pas_points_for_rank_6 = 40000
-pas_points_for_rank_7 = 80000
-pas_points_for_rank_8 = 130000
-pas_points_for_rank_9 = 190000
-pas_points_for_rank_10 = 400000
+pas_points_for_rank_2 = 8000
+pas_points_for_rank_3 = 18000
+pas_points_for_rank_4 = 40000
+pas_points_for_rank_5 = 70000
+pas_points_for_rank_6 = 80000
+pas_points_for_rank_7 = 160000
+pas_points_for_rank_8 = 260000
+pas_points_for_rank_9 = 380000
+pas_points_for_rank_10 = 800000
 
 pas_lord_state_undefined = 0
 pas_lord_state_patrolling_center_peace_border = 1
@@ -233,10 +233,10 @@ law_executive_branch_partially_by_voting = 50
 law_executive_branch_mostly_by_voting = 100
 
 law_income_tax_very_small = 10
-law_income_tax_small = 35
-law_income_tax_medium = 60
-law_income_tax_big = 85
-law_income_tax_very_big = 110
+law_income_tax_small = 40
+law_income_tax_medium = 80
+law_income_tax_big = 100
+law_income_tax_very_big = 120
 
 law_goodsservices_tax_very_small = 10
 law_goodsservices_tax_small = 35
@@ -1297,8 +1297,13 @@ slot_faction_class_upper_bourgeoisie_famine = slot_faction_ve_mod_slots_begin + 
 slot_faction_class_middle_famine = slot_faction_ve_mod_slots_begin + 468
 slot_faction_class_lower_urban_famine = slot_faction_ve_mod_slots_begin + 469
 slot_faction_class_lower_rural_famine = slot_faction_ve_mod_slots_begin + 470
+slot_faction_propeace_movement_political_activity_bonus_0 =  slot_faction_ve_mod_slots_begin + 471
+slot_faction_propeace_movement_political_activity_bonus_1 =  slot_faction_ve_mod_slots_begin + 472
+slot_faction_propeace_movement_political_activity_bonus_2 =  slot_faction_ve_mod_slots_begin + 473
+slot_faction_propeace_movement_political_activity_bonus_3 =  slot_faction_ve_mod_slots_begin + 474
+slot_faction_propeace_movement_political_activity_bonus_4 =  slot_faction_ve_mod_slots_begin + 475
 
-end_of_faction_slots = slot_faction_class_lower_rural_famine
+end_of_faction_slots = slot_faction_propeace_movement_political_activity_bonus_4
 
 ########################################################
 ##  PARTY SLOTS            #############################
