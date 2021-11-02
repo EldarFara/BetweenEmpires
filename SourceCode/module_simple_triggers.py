@@ -4309,7 +4309,7 @@ simple_triggers = [
 	(faction_get_slot, ":current_research_technology", ":faction", slot_faction_current_research_technology),
 	(neq, ":current_research_technology", -1),
 	(faction_get_slot, ":current_research_technology_progress", ":faction", ":current_research_technology"),
-	(assign, ":progress_add", 400),
+	(assign, ":progress_add", 450),
 		(try_begin),
 		(faction_get_slot, ":education_expenses", ":faction", slot_faction_law_education_expenses),
 		(faction_get_slot, ":military_expenses", ":faction", slot_faction_law_military_expenses),

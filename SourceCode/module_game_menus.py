@@ -14503,7 +14503,7 @@ the high lords and common folk across the many realms of Europe."),
   
   (
     "start_game_choose_date",mnf_disable_all_keys,
-    "Choose game starting date. It affects coutries military technology level as well as countries borders.",
+    "Choose game starting date. It affects countries military technology level as well as countries borders.",
     "none",
     [],
     [
