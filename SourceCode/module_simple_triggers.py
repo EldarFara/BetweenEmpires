@@ -4611,7 +4611,7 @@ simple_triggers = [
 			(ge, ":law_military_expenses", law_military_expenses_big),
 			(assign, ":progress_add", 16),
 			(else_try),
-			(ge, ":law_military_expenses", law_military_expenses_medium),
+			(ge, ":law_military_expenses", law_military_expenses_small),
 			(assign, ":progress_add", 6),
 			(else_try),
 			(assign, ":progress_add", 3),
