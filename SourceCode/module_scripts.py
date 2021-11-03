@@ -69857,7 +69857,7 @@ scripts = [
 (faction_get_slot, ":manpower_max_old", ":faction", slot_faction_manpower_max),
 (faction_get_slot, ":population", ":faction", slot_faction_population),
 
-(store_div, ":manpower_max_new", ":population", 9000),
+(store_div, ":manpower_max_new", ":population", 12000),
 (val_max, ":manpower_max_new", 50),
 	(try_begin),
 	(eq, ":conscription_policy_new", 1),
