@@ -5548,6 +5548,7 @@ the high lords and common folk across the many realms of Europe."),
       
       ("town_sneak",
         [
+            (eq, 1, 2),
           (try_begin),
             (party_slot_eq, "$g_encountered_party", slot_party_type,spt_town),
             (str_store_string, s7, "str_town"),

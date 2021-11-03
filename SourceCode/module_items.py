@@ -263,22 +263,22 @@ items = [
 
 # ["dry_bread", "wheat_sack", itp_type_goods|itp_consumable, 0, slt_none,view_goods,95,weight(2),max_ammo(50),imodbits_none],
 #foods (first one is smoked_fish)
- ["smoked_fish","Smoked Fish", [("smoked_fish",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 65,weight(15)|abundance(110)|food_quality(50)|max_ammo(50),imodbits_none],
- ["cheese","Cheese", [("cheese_b",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 75,weight(6)|abundance(110)|food_quality(40)|max_ammo(30),imodbits_none],
- ["honey","Honey", [("honey_pot",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 220,weight(5)|abundance(110)|food_quality(40)|max_ammo(30),imodbits_none],
- ["sausages","Sausages", [("sausages",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 85,weight(10)|abundance(110)|food_quality(40)|max_ammo(40),imodbits_none],
- ["cabbages","Cabbages", [("cabbage",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 30,weight(15)|abundance(110)|food_quality(40)|max_ammo(50),imodbits_none],
- ["dried_meat","Dried Meat", [("smoked_meat",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 85,weight(15)|abundance(100)|food_quality(70)|max_ammo(50),imodbits_none],
- ["apples","Fruit", [("apple_basket",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 44,weight(20)|abundance(110)|food_quality(40)|max_ammo(50),imodbits_none],
- ["raw_grapes","Grapes", [("grapes_inventory",0)], itp_merchandise|itp_consumable|itp_type_goods, 0, 75,weight(40)|abundance(90)|food_quality(10)|max_ammo(10),imodbits_none], #x2 for wine
- ["raw_olives","Olives", [("olive_inventory",0)], itp_merchandise|itp_consumable|itp_type_goods, 0, 100,weight(40)|abundance(90)|food_quality(10)|max_ammo(10),imodbits_none], #x3 for oil
- ["grain","Grain", [("wheat_sack",0)], itp_merchandise|itp_type_goods|itp_consumable, 0, 30,weight(30)|abundance(110)|food_quality(40)|max_ammo(50),imodbits_none],
+ ["smoked_fish","Smoked Fish", [("smoked_fish",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 65,weight(15)|abundance(110)|food_quality(150)|max_ammo(50),imodbits_none],
+ ["cheese","Cheese", [("cheese_b",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 75,weight(6)|abundance(110)|food_quality(40)|max_ammo(130),imodbits_none],
+ ["honey","Honey", [("honey_pot",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 220,weight(5)|abundance(110)|food_quality(40)|max_ammo(130),imodbits_none],
+ ["sausages","Sausages", [("sausages",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 85,weight(10)|abundance(110)|food_quality(40)|max_ammo(140),imodbits_none],
+ ["cabbages","Cabbages", [("cabbage",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 30,weight(15)|abundance(110)|food_quality(40)|max_ammo(150),imodbits_none],
+ ["dried_meat","Dried Meat", [("smoked_meat",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 85,weight(15)|abundance(100)|food_quality(70)|max_ammo(150),imodbits_none],
+ ["apples","Fruit", [("apple_basket",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 44,weight(20)|abundance(110)|food_quality(40)|max_ammo(150),imodbits_none],
+ ["raw_grapes","Grapes", [("grapes_inventory",0)], itp_merchandise|itp_consumable|itp_type_goods, 0, 75,weight(40)|abundance(90)|food_quality(10)|max_ammo(50),imodbits_none], #x2 for wine
+ ["raw_olives","Olives", [("olive_inventory",0)], itp_merchandise|itp_consumable|itp_type_goods, 0, 100,weight(40)|abundance(90)|food_quality(10)|max_ammo(50),imodbits_none], #x3 for oil
+ ["grain","Grain", [("wheat_sack",0)], itp_merchandise|itp_type_goods|itp_consumable, 0, 30,weight(30)|abundance(110)|food_quality(40)|max_ammo(150),imodbits_none],
 
- ["cattle_meat","Beef", [("raw_meat",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 80,weight(20)|abundance(100)|food_quality(80)|max_ammo(50),imodbits_none],
- ["bread","Bread", [("bread_a",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 50,weight(30)|abundance(110)|food_quality(40)|max_ammo(50),imodbits_none],
- ["chicken","Chicken", [("chicken",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 95,weight(10)|abundance(110)|food_quality(40)|max_ammo(50),imodbits_none],
- ["pork","Pork", [("pork",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 75,weight(15)|abundance(100)|food_quality(70)|max_ammo(50),imodbits_none],
- ["butter","Butter", [("butter_pot",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 150,weight(6)|abundance(110)|food_quality(40)|max_ammo(30),imodbits_none],
+ ["cattle_meat","Beef", [("raw_meat",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 80,weight(20)|abundance(100)|food_quality(80)|max_ammo(150),imodbits_none],
+ ["bread","Bread", [("bread_a",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 50,weight(30)|abundance(110)|food_quality(40)|max_ammo(150),imodbits_none],
+ ["chicken","Chicken", [("chicken",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 95,weight(10)|abundance(110)|food_quality(40)|max_ammo(150),imodbits_none],
+ ["pork","Pork", [("pork",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 75,weight(15)|abundance(100)|food_quality(70)|max_ammo(150),imodbits_none],
+ ["butter","Butter", [("butter_pot",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 150,weight(6)|abundance(110)|food_quality(40)|max_ammo(130),imodbits_none],
  
 
  #Would like to remove flour altogether and reduce chicken, pork and butter (perishables) to non-trade items. Apples could perhaps become a generic "fruit", also representing dried fruit and grapes
@@ -1479,7 +1479,7 @@ items = [
 ["persian_broadsword", "Persian Sabre", [("persian_broadsword",0),("persian_sabre_a_scab", ixmesh_carry)], itp_type_one_handed_wpn|itp_merchandise|itp_primary, itc_longsword|itcf_carry_sword_left_hip|itcf_show_holster_when_drawn,163 , weight(1.5)|difficulty(0)|spd_rtng(105) | weapon_length(100)|swing_damage(30 , cut) | thrust_damage(25 ,  pierce),imodbits_sword_high ],
 ["turk_broadsword_a", "Turkish Sabre", [("turk_broadsword_a",0),("saber_scab", ixmesh_carry)], itp_type_one_handed_wpn|itp_merchandise|itp_primary, itc_longsword|itcf_carry_sword_left_hip|itcf_show_holster_when_drawn,163 , weight(1.5)|difficulty(0)|spd_rtng(105) | weapon_length(100)|swing_damage(30 , cut) | thrust_damage(25 ,  pierce),imodbits_sword_high ],
 
-["lance1","Lance", [("lance1",0)], itp_couchable|itp_type_polearm|itp_no_blur|itp_offset_lance|itp_merchandise| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
+["lance1","Lance", [("lance1",0)], itp_couchable|itp_type_polearm|itp_no_blur|itp_offset_lance|itp_merchandise| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , pierce) | thrust_damage(35 ,  pierce),imodbits_polearm ],
 
 ["sidearm_colt_dragoon","Colt Dragoon", [("colt_dragoon", 0),("pistol_holster1", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn, price_pistol_low, weight(1.4)|abundance(100)|accuracy(accuracy_pistol_low)|spd_rtng(speed_pistol_low)|shoot_speed(shot_speed_pistol_high)|max_ammo(6)|thrust_damage(damage_pistol_medium, pierce), imodbits_firearm, []],
 ["sidearm_remington1","Remington Model 1858", [("remington1", 0),("pistol_holster1", ixmesh_carry)], itp_type_pistol|itp_merchandise|itp_primary, itcf_shoot_pistol|itcf_carry_pistol_front_left|itcf_reload_pistol|itcf_show_holster_when_drawn, price_pistol_low, weight(1.4)|abundance(100)|accuracy(accuracy_pistol_medium)|spd_rtng(speed_pistol_low)|shoot_speed(shot_speed_pistol_medium)|max_ammo(6)|thrust_damage(damage_pistol_low, pierce), imodbits_firearm, []],
@@ -1549,7 +1549,7 @@ items = [
 ["urban_dress_hat2","Dress Hat", [("urban_dress_hat2", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, []],
 ["urban_dress_hat1","Dress Hat", [("urban_dress_hat1", 0)], itp_type_head_armor|itp_civilian|itp_merchandise, 0,150, weight(0.3)|head_armor(5), imodbits_none, []],
 
-["lance2","Lance", [("lance2",0)], itp_couchable|itp_type_polearm|itp_no_blur|itp_offset_lance| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
+["lance2","Lance", [("lance2",0)], itp_couchable|itp_type_polearm|itp_no_blur|itp_offset_lance| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , pierce) | thrust_damage(35 ,  pierce),imodbits_polearm ],
 
 ["gho_hat1","Persian Hat", [("gho_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_12]],
 ["gho_hat2","Persian Hat", [("gho_hat2", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_12]],
@@ -1578,7 +1578,7 @@ items = [
 ["gho_hat6","Persian Shah Hat", [("gho_hat6", 0)], itp_type_head_armor|itp_civilian|itp_attach_armature, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_12]],
 ["gho_hat7","Persian Fez", [("gho_hat7", 0)], itp_type_head_armor|itp_civilian|itp_attach_armature, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_12]],
 
-["lance3","Lance", [("lance3",0)], itp_couchable|itp_type_polearm|itp_no_blur|itp_offset_lance|itp_merchandise| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
+["lance3","Lance", [("lance3",0)], itp_couchable|itp_type_polearm|itp_no_blur|itp_offset_lance|itp_merchandise| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , pierce) | thrust_damage(35 ,  pierce),imodbits_polearm ],
 
 ["horse_russian1a","Bay Orlov Saddle Horse", [("horse_european1",0),("horse_european1",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 300,abundance(100)|hit_points(100)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.00))|horse_maneuver(int(default_horse_maneuver*1.00))|horse_charge(10)|horse_scale(101),imodbits_horse_basic],
 ["horse_russian1b","Black Orlov Saddle Horse", [("horse_european3",0),("horse_european3",imodbits_horse_good)], itp_merchandise|itp_type_horse, 0, 300,abundance(100)|hit_points(100)|body_armor(1)|difficulty(1)|horse_speed(int(default_horse_speed*1.00))|horse_maneuver(int(default_horse_maneuver*1.00))|horse_charge(10)|horse_scale(101),imodbits_horse_basic],
@@ -1744,13 +1744,13 @@ items = [
 ["rom_infantry1","rom_infantry1", [("disabled_item", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
 ["rom_infantry2","rom_infantry2", [("disabled_item", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
 ["rom_infantry1_pants","rom_infantry1_pants", [("disabled_item", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_25]],
-["lance4","Lance", [("lance4",0)], itp_couchable|itp_type_polearm|itp_no_blur|itp_offset_lance| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
-["lance5","Lance", [("lance5",0)], itp_couchable|itp_type_polearm|itp_no_blur|itp_offset_lance| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
-["lance6","Lance", [("lance6",0)], itp_couchable|itp_type_polearm|itp_no_blur|itp_offset_lance| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
-["lance7","Lance", [("lance7",0)], itp_couchable|itp_type_polearm|itp_no_blur|itp_offset_lance| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
-["lance8","Lance", [("lance8",0)], itp_couchable|itp_type_polearm|itp_no_blur|itp_offset_lance| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
-["lance9","Lance", [("lance9",0)], itp_couchable|itp_type_polearm|itp_no_blur|itp_offset_lance| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
-["lance10","Lance", [("lance10",0)], itp_couchable|itp_type_polearm|itp_no_blur|itp_offset_lance| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , blunt) | thrust_damage(35 ,  pierce),imodbits_polearm ],
+["lance4","Lance", [("lance4",0)], itp_couchable|itp_type_polearm|itp_no_blur|itp_offset_lance| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , pierce) | thrust_damage(35 ,  pierce),imodbits_polearm ],
+["lance5","Lance", [("lance5",0)], itp_couchable|itp_type_polearm|itp_no_blur|itp_offset_lance| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , pierce) | thrust_damage(35 ,  pierce),imodbits_polearm ],
+["lance6","Lance", [("lance6",0)], itp_couchable|itp_type_polearm|itp_no_blur|itp_offset_lance| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , pierce) | thrust_damage(35 ,  pierce),imodbits_polearm ],
+["lance7","Lance", [("lance7",0)], itp_couchable|itp_type_polearm|itp_no_blur|itp_offset_lance| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , pierce) | thrust_damage(35 ,  pierce),imodbits_polearm ],
+["lance8","Lance", [("lance8",0)], itp_couchable|itp_type_polearm|itp_no_blur|itp_offset_lance| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , pierce) | thrust_damage(35 ,  pierce),imodbits_polearm ],
+["lance9","Lance", [("lance9",0)], itp_couchable|itp_type_polearm|itp_no_blur|itp_offset_lance| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , pierce) | thrust_damage(35 ,  pierce),imodbits_polearm ],
+["lance10","Lance", [("lance10",0)], itp_couchable|itp_type_polearm|itp_no_blur|itp_offset_lance| itp_primary|itp_penalty_with_shield|itp_wooden_parry, itc_cutting_spear,270 , weight(2.5)|difficulty(0)|spd_rtng(100) | weapon_length(210)|swing_damage(16 , pierce) | thrust_damage(35 ,  pierce),imodbits_polearm ],
 ["bav_trousers_general","Bavarian General Trousers", [("bav_trousers_general", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_30]],
 ["bav_torso_leadgen1","Bavarian General Uniform", [("bav_torso_leadgen1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_30]],
 ["bav_pants2","Bavarian Trousers", [("bav_pants2", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_30]],
