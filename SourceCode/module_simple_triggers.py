@@ -1732,6 +1732,8 @@ simple_triggers = [
            (eq, ":cur_faction", "fac_outlaws"), #Do nothing
          (else_try),         
            (try_begin),
+           (try_end),
+           (try_begin),
              (eq, "$cheat_mode", 2),
              (str_store_troop_name, s4, ":troop_no"),
              (display_message, "str_debug__attempting_to_spawn_s4"),
@@ -1740,6 +1742,7 @@ simple_triggers = [
            (call_script, "script_cf_select_random_walled_center_with_faction_and_owner_priority_no_siege", ":cur_faction", ":troop_no"),#Can fail
            (assign, ":center_no", reg0),
 
+	(call_script, "script_cf_pas_faction_reinforcement_required", ":cur_faction", 0),
            (try_begin),
              (eq, "$cheat_mode", 2),             
              (str_store_party_name, s7, ":center_no"),

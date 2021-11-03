@@ -9,6 +9,11 @@ from ID_parties import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+conscription_policy_volunteer_army = 1
+conscription_policy_limited_conscription = 2
+conscription_policy_extended_conscription = 3
+conscription_policy_wide_conscription = 4
+
 pdr_enemy_factions = "trp_array_38"
 pdr_ally_factions = "trp_array_39"
 
@@ -1302,8 +1307,12 @@ slot_faction_propeace_movement_political_activity_bonus_1 =  slot_faction_ve_mod
 slot_faction_propeace_movement_political_activity_bonus_2 =  slot_faction_ve_mod_slots_begin + 473
 slot_faction_propeace_movement_political_activity_bonus_3 =  slot_faction_ve_mod_slots_begin + 474
 slot_faction_propeace_movement_political_activity_bonus_4 =  slot_faction_ve_mod_slots_begin + 475
+slot_faction_manpower =  slot_faction_ve_mod_slots_begin + 476
+slot_faction_manpower_max =  slot_faction_ve_mod_slots_begin + 477
+slot_faction_conscription_policy =  slot_faction_ve_mod_slots_begin + 478
+slot_faction_reinforcements_rate =  slot_faction_ve_mod_slots_begin + 479
 
-end_of_faction_slots = slot_faction_propeace_movement_political_activity_bonus_4
+end_of_faction_slots = slot_faction_reinforcements_rate
 
 ########################################################
 ##  PARTY SLOTS            #############################
@@ -2238,7 +2247,7 @@ troop_slots_reserved_for_relations_start        = 165 #this is based on id_troop
 slot_troop_relations_begin				= 0 #this creates an array for relations between troops
 											#Right now, lords start at 165 and run to around 290, including pretenders
 											
-											
+slot_troop_pas_timer = 1000							
 											
 ########################################################
 ##  PLAYER SLOTS           #############################

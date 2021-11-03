@@ -33,14 +33,7 @@ ti_on_agent_killed_or_wounded, 0, 0, [],
 	(eq, ":faction", "fac_player_faction"),
 	(assign, ":faction", "fac_player_supporters_faction"),
 	(try_end),
-(faction_get_slot, ":population", ":faction", slot_faction_population),
-(val_add, ":population", -500),
-(val_clamp, ":population", 50000, 9999999999),
-	(try_begin),
-	(le, ":population", 2000000),
-	(val_add, ":population", 300),
-	(try_end),
-(faction_set_slot, ":faction", slot_faction_population, ":population"),
+(call_script, "script_pps_faction_inflict_battle_casualty", ":faction", 1),
 
 ])
 

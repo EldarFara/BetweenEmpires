@@ -1,4 +1,4 @@
-1597
+1609
 qstr_res_cape1 res_cape1
 qstr_res_cape2 res_cape2
 qstr_thawb1_belt1 thawb1_belt1
@@ -1596,3 +1596,15 @@ qstr_pbs_activeability_pro pbs_activeability_pronemode2
 qstr_pbs_activeability_pron pbs_activeability_pronemode3
 qstr_pbs_activeability_prone pbs_activeability_pronemode4
 qstr_{s1}^^This_toggleabl {s1}^^This_toggleable_ability_allows_to_choose_position_for_company:^at_will,_always_crouch_or_always_prone._Prone^position_reduces_damage_incoming_from_shell_explosions,^but_it_can_close_view_in_front_of_soldiers,^interrupting_shooting.^Company_types:_any_infantry_company.
+qstr_Volunteer_army Volunteer_army
+qstr_Limited_conscription Limited_conscription
+qstr_Extended_conscriptio Extended_conscription
+qstr_Wide_conscription Wide_conscription
+qstr__{reg2}%_to_quality_ -{reg2}%_to_quality_of_life
+qstr_Conscription_policy: Conscription_policy:_{s1}%
+qstr_Army_reinforcements_ Army_reinforcements_rate:
+qstr__{reg2}%_workers -{reg2}%_workers
+qstr_Reserves: Reserves:
+qstr_{reg1}/{reg2}_men {reg1}/{reg2}_men
+qstr_Conscription_policy:_ Conscription_policy:_{s1}
+qstr__{reg3}%_workers -{reg3}%_workers
