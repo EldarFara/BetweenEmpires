@@ -67753,7 +67753,7 @@ scripts = [
 				(try_begin),
 				(is_between, ":party", walled_centers_begin, walled_centers_end),
 					(try_begin),
-					(call_script, "script_cf_pas_faction_reinforcement_required", ":party_faction", 4),
+					(call_script, "script_cf_pas_faction_reinforcement_required", ":party_faction", 3),
 					(assign, ":continue", 1),
 					(try_end),
 				(else_try),
