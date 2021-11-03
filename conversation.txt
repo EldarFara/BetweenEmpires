@@ -445,12 +445,12 @@ dlga_minister_talk:sign_constitution1 69631 207  1 542 3 432345564227567658 501 
 dlga_sign_constitution1:sign_constitution2 4095 251  0 Most_certainly._This_is_what_our_people_want._Do_you_want_us_to_go_ahead_and_develop_a_constitution_project?  252  0 NO_VOICEOVER 
 dlga_sign_constitution2:sign_constitution3 69631 252  0 Yes.  253  0 NO_VOICEOVER 
 dlga_sign_constitution2:minister_pretalk 69631 252  0 I_changed_my_mind.  206  0 NO_VOICEOVER 
-dlga_sign_constitution3:minister_pretalk 4095 253  0 Constituition_will_be_created_and_signed_in_a_short_time,_your_highness.  206  1 1 3 936748722493064057 432345564227567658 2 NO_VOICEOVER 
+dlga_sign_constitution3:minister_pretalk 4095 253  0 Constituition_will_be_created_and_signed_in_a_short_time,_your_highness.  206  1 1 3 936748722493064058 432345564227567658 2 NO_VOICEOVER 
 dlga_minister_talk:become_republic1 69631 207  1 542 3 432345564227567658 501 2 It_is_time_to_liberate_this_country_from_iron_heel_of_royal_dynasty_and_let_people_to_choose_their_leader._I_have_decided_to_establish_a_republic.  254  0 NO_VOICEOVER 
 dlga_become_republic1:become_republic2 4095 254  0 Most_certainly._This_is_what_our_people_waited_for,_for_a_long_time._Do_you_want_us_to_go_ahead_and_prepare_an_abdication_manifesto?  255  0 NO_VOICEOVER 
 dlga_become_republic2:become_republic3 69631 255  0 Yes.  256  0 NO_VOICEOVER 
 dlga_become_republic2:minister_pretalk 69631 255  0 I_changed_my_mind.  206  0 NO_VOICEOVER 
-dlga_become_republic3:minister_pretalk 4095 256  0 Abdication_manifesto_will_be_published_in_a_short_time,_your_highness.  206  7 1 3 936748722493064057 432345564227567658 3 1 4 936748722493064069 432345564227567658 3 1 1275 2 432345564227567658 1 4 0 2147483679 2 72057594037927937 -1 1 3 936748722493063859 432345564227567658 72057594037927937 3 0 NO_VOICEOVER 
+dlga_become_republic3:minister_pretalk 4095 256  0 Abdication_manifesto_will_be_published_in_a_short_time,_your_highness.  206  7 1 3 936748722493064058 432345564227567658 3 1 4 936748722493064070 432345564227567658 3 1 1275 2 432345564227567658 1 4 0 2147483679 2 72057594037927937 -1 1 3 936748722493063859 432345564227567658 72057594037927937 3 0 NO_VOICEOVER 
 dlga_minister_talk:nationalize_urban1 69631 207  2 542 3 432345564227567658 501 4 542 3 432345564227567658 860 0 I_want_to_nationalise_the_urban_industry_and_liberate_workers_from_decades-long_oppression.  257  0 NO_VOICEOVER 
 dlga_nationalize_urban1:nationalize_urban2 4095 257  0 Most_certainly._Nationalisation_of_urban_industry_will_give_the_state_full_control_of_factories_and_can_give_it_extra_income._However,_output_of_factories_will_decrease_depending_on_the_governmental_administration_efficiency._Do_you_want_us_to_go_ahead?  258  0 NO_VOICEOVER 
 dlga_nationalize_urban2:minister_pretalk 69631 258  0 Yes.  206  1 502 3 432345564227567658 860 1 NO_VOICEOVER 
