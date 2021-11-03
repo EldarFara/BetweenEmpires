@@ -613,3 +613,7 @@ mesh_pes_infrastructure4 = 611
 mesh_pps_forced_urbanization = 612
 mesh_pps_nationalization_rural = 613
 mesh_pps_nationalization_urban = 614
+mesh_pbs_pronemode1 = 615
+mesh_pbs_pronemode2 = 616
+mesh_pbs_pronemode3 = 617
+mesh_pbs_pronemode4 = 618

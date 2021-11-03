@@ -678,6 +678,10 @@ meshes = [
   ("pps_forced_urbanization", 0, "pps_forced_urbanization", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("pps_nationalization_rural", 0, "pps_nationalization_rural", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("pps_nationalization_urban", 0, "pps_nationalization_urban", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pbs_pronemode1", 0, "pbs_pronemode1", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pbs_pronemode2", 0, "pbs_pronemode2", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pbs_pronemode3", 0, "pbs_pronemode3", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pbs_pronemode4", 0, "pbs_pronemode4", 0, 0, 0, 0, 0, 0, 1, 1, 1),
 ]
 
 # modmerger_start version=201 type=2

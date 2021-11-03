@@ -1877,3 +1877,4 @@ number_of_enemies_ai
 overlay_mesh_nationalization_urban
 overlay_mesh_forced_urbanization
 overlay_mesh_nationalization_rural
+menu_pbs_activeability_pronemode

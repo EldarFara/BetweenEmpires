@@ -2582,6 +2582,14 @@ slot_team_company5_is_following_leader                       = 283
 slot_team_company6_is_following_leader                       = 284
 slot_team_company7_is_following_leader                       = 285
 slot_team_company8_is_following_leader                       = 286
+slot_team_company1_pronemode                       = 287
+slot_team_company2_pronemode                       = 288
+slot_team_company3_pronemode                       = 289
+slot_team_company4_pronemode                       = 290
+slot_team_company5_pronemode                       = 291
+slot_team_company6_pronemode                       = 292
+slot_team_company7_pronemode                       = 293
+slot_team_company8_pronemode                       = 294
 
 #Rebellion changes end
 # character backgrounds
