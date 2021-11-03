@@ -595,6 +595,7 @@ player_hp_regen_100ms = (
 	(try_begin),
 	(eq, "$hp_regen_timer", 0),
 	(get_player_agent_no, ":player"),
+	(agent_is_alive, ":player"),
 	(store_agent_hit_points, ":hp", ":player", 1),
 	(store_troop_health, ":max_hp",  "trp_player", 1),
 	(lt, ":hp", ":max_hp"),

@@ -1,4 +1,4 @@
-1609
+1613
 qstr_res_cape1 res_cape1
 qstr_res_cape2 res_cape2
 qstr_thawb1_belt1 thawb1_belt1
@@ -1608,3 +1608,7 @@ qstr_Reserves: Reserves:
 qstr_{reg1}/{reg2}_men {reg1}/{reg2}_men
 qstr_Conscription_policy:_ Conscription_policy:_{s1}
 qstr__{reg3}%_workers -{reg3}%_workers
+qstr_Volunteer_army^_4%_o Volunteer_army^(4%_of_the_population)
+qstr_Limited_conscription^ Limited_conscription^(10%_of_the_population)
+qstr_Extended_conscription Extended_conscription^(20%_of_the_population)
+qstr_Wide_conscription^_2 Wide_conscription^(25%_of_the_population)
