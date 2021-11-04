@@ -1,4 +1,4 @@
-1616
+1619
 qstr_res_cape1 res_cape1
 qstr_res_cape2 res_cape2
 qstr_thawb1_belt1 thawb1_belt1
@@ -1615,3 +1615,6 @@ qstr_Wide_conscription^_2 Wide_conscription^(25%_of_the_population)
 qstr_{reg1}/{reg2}_men__+ {reg1}/{reg2}_men_(+{reg3}_per_day)
 qstr_Volunteer_army^_3%_o Volunteer_army^(3%_of_the_population)
 qstr_Military_management_ Military_management_is_only_available_to_faction_marshals.
+qstr_ai_behavior_{reg1}_p ai_behavior_{reg1}_pas_timer_{reg2}_pas_lord_state_{reg3}
+qstr_{s1}_s_marshal_ai_be {s1}'s_marshal_ai_behavior_{reg1}_pas_timer_{reg2}_pas_lord_state_{reg3}
+qstr_{s1}_s_marshal:_ai_b {s1}'s_marshal:_ai_behavior_{reg1}_pas_timer_{reg2}_pas_lord_state_{reg3}

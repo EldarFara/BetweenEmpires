@@ -2771,6 +2771,16 @@ the high lords and common folk across the many realms of Europe."),
          (start_presentation, "prsnt_debug_display_slots"),
 	   ]
        ),
+      ("display_pas_debug_messages",[], "Toggle display PAS debug messages.",
+       [
+	(try_begin),
+	(eq, "$g_display_pas_debug_messages", 1),
+	(assign, "$g_display_pas_debug_messages", 0),
+	(else_try),
+	(assign, "$g_display_pas_debug_messages", 1),
+	(try_end),
+	   ]
+       ),
       ("camp_cheat_all_factions_research_all_tech",[], "Make all factions immediately research all technologies.",
        [
 	(try_for_range, ":faction", "fac_player_faction", kingdoms_end),
