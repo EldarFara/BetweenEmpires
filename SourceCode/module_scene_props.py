@@ -3210,10 +3210,10 @@ scene_props = [
 
 ("pbs_point1", sokf_moveable, "pbs_point1", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
 
-("flora_poplar1", 0, "fgs_poplar1", "co_poplar1", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
-("flora_ash1", 0, "fgs_ash_big1", "co_ash_big1", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
-("flora_maple1", 0, "fgs_maple1", "co_maple1", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
-("flora_oak1", 0, "fgs_oak1", "co_oak1", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
+("flora_poplar1", 0, "fgs_poplar1", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
+("flora_ash1", 0, "fgs_ash_big1", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
+("flora_maple1", 0, "fgs_maple1", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
+("flora_oak1", 0, "fgs_oak1", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(assign, reg0, ":scene_prop_id"),]),]),
 ("khiva_building_a",0,"khiva_building_a","bo_khiva_building_a", []),
 ("khiva_building_b",0,"khiva_building_b","bo_khiva_building_b", []),
 ("khiva_house_d",0,"khiva_house_d","bo_khiva_house_d", []),
