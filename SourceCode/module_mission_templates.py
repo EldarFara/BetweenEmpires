@@ -166,7 +166,7 @@ ti_on_agent_killed_or_wounded, 0, 0, [],
 (agent_is_active, ":killer"),
 (agent_get_team, ":team", ":killer"),
 (eq, ":team", "$g_player_team"),
-(val_add, "$pas_enlistment_points", 400),
+(val_add, "$pas_enlistment_points", 150),
 #(display_message, "@debug pas_points end"),
 ])
 
@@ -5937,15 +5937,15 @@ aerial_view_runtime = (0, 0, 0, [], [
 ])
 
 test = (0, 0, 0, [
-# (key_is_down, key_t),
-	# (try_for_agents,":agent"),
-	# (agent_is_active, ":agent"),
-	# (agent_is_alive, ":agent"),
-	# (agent_is_human, ":agent"),
-	# (agent_set_animation, ":agent", "anim_unused_human_anim_45", 0),
-	# (agent_set_animation, ":agent", "anim_unused_human_anim_45", 1),
-	# (agent_set_no_dynamics, ":agent", 1),
-	# (try_end),
+(key_is_down, key_t),
+	(try_for_agents,":agent"),
+	(agent_is_active, ":agent"),
+	(agent_is_alive, ":agent"),
+	(agent_is_human, ":agent"),
+	(agent_set_animation, ":agent", "anim_unused_human_anim_45", 0),
+	(agent_set_animation, ":agent", "anim_unused_human_anim_45", 1),
+	(agent_set_no_dynamics, ":agent", 1),
+	(try_end),
 ], [])
 
 sound_man_hit = (ti_on_agent_hit, 0, 0, [
@@ -6676,6 +6676,7 @@ pws_sky_bms = (ti_before_mission_start, 0, 0, [
 bms = (ti_before_mission_start, 0, 0, [
 #(display_message, "@debug bms begin"),
 	(try_begin),
+	(this_or_next|troop_has_item_equipped, "trp_player", "itm_paimon1"),
 	(this_or_next|troop_has_item_equipped, "trp_player", "itm_be_chan1"),
 	(this_or_next|troop_has_item_equipped, "trp_player", "itm_sailor_moon_usagi_tsukino"),
 	(this_or_next|troop_has_item_equipped, "trp_player", "itm_ddlc_monika"),

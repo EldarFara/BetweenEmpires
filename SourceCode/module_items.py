@@ -2643,7 +2643,7 @@ items = [
 ["yuruyuri_akari","Yuru Yuri Akari Akaza", [("yuruyuri_akari", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_11]],
 ["ddlc_monika","DDLC Monika", [("ddlc_monika", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_11]],
 ["sailor_moon_usagi_tsukino","Sailor Moon Usagi Tsukino", [("sailor_moon_usagi_tsukino", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_11]],
-["be_chan1","B", [("be_chan1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_11]],
+["be_chan1","BE chan", [("be_chan1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_11]],
 
 ["horse_carriage1","Carriage Horse", [("horse_carriage1",0)], itp_type_horse, 0, 134,abundance(90)|hit_points(00)|body_armor(14)|difficulty(0)|horse_speed(11)|horse_maneuver(39)|horse_charge(9)|horse_scale(100),imodbits_horse_basic],
 
@@ -2809,7 +2809,7 @@ items = [
 ["rifle_carcano1891_carbine","Carcano M1891 Carbine", [("carcano1891_carbine", 0),("carcano1891_carbine_inv", ixmesh_inventory)], itp_type_crossbow|itp_two_handed|itp_primary, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(60)|accuracy(int(accuracy_bolt_action_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_bolt_action_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_bolt_action_rifle)|max_ammo(5)|thrust_damage(damage_bolt_action_rifle, pierce), imodbits_firearm, []],
 ["rifle_carcano1891_carbine_m","Carcano M1891 Carbine", [("carcano1891_carbine", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(8432)|spd_rtng(75)|weapon_length(80)|thrust_damage(20, blunt)|swing_damage(0, blunt), imodbits_none, []],
 
-["paimon1","Emergency Food", [("paimon",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 50,weight(10)|abundance(0)|food_quality(250)|max_ammo(250),imodbits_none],
+["paimon1","Emergency Food", [("paimon1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[]],
 
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],

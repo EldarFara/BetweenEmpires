@@ -4290,6 +4290,7 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
 
    [anyone|plyr, "minister_talk",
    [
+	(eq, 1, 2),
    ],
    "I wish to indict a disloyal vassal for treason.", "minister_indict",
    []],   
@@ -4343,12 +4344,14 @@ forts and cities at the frontiers fall into our hands.", "italy_unification_star
 
    [anyone|plyr, "minister_talk",
    [
+	(eq, 1, 2),
    ],
    "I wish you to grant one of my vassals a fief.", "minister_grant_fief",
    []],
 
    [anyone|plyr, "minister_talk",
    [
+	(eq, 1, 2),
    (assign, ":fief_found", -1),
    (try_for_range, ":center", centers_begin, centers_end),
     (eq, ":fief_found", -1),

@@ -215,7 +215,7 @@ skins = [
     [
 	(voice_die,"snd_woman_die"),(voice_yell,"snd_woman_yell"),
 	], #voice sounds
-    "skel_human3", 0.91,
+    "skel_human3", 0.57,
     psys_game_blood,psys_game_blood_2,
   ),
 
