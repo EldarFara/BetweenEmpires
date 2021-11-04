@@ -5100,7 +5100,7 @@ spr_0office_document_box1 0 0 office_document_box1 0 0
 spr_0office_ashtray1 0 0 office_ashtray1 0 0
 
 
-spr_0office_chair1 0 0 office_chair1 bo_office_chair1 0
+spr_0office_chair1 0 0 office_chair1 0 0
 
 
 spr_0office_letter_opener1 0 0 office_letter_opener1 0 0
@@ -5235,7 +5235,7 @@ spr_0interior_dishset1_spoon 0 0 interior_dishset1_spoon 0 0
 spr_0interior_bar_counter1 0 0 interior_bar_counter1 bo_interior_bar_counter1 0
 
 
-spr_0office_chair1b 0 0 office_chair1b bo_office_chair1 0
+spr_0office_chair1b 0 0 office_chair1b 0 0
 
 
 spr_0town_house_europe_brick1 0 0 backdrop_europe1_1 0 0

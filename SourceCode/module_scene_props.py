@@ -3840,7 +3840,7 @@ scene_props = [
 ("0office_pen_holder1",0,"office_pen_holder1","0", []),
 ("0office_document_box1",0,"office_document_box1","0", []),
 ("0office_ashtray1",0,"office_ashtray1","0", []),
-("0office_chair1",0,"office_chair1","bo_office_chair1", []),
+("0office_chair1",0,"office_chair1","0", []),
 ("0office_letter_opener1",0,"office_letter_opener1","0", []),
 ("0office_letter1",0,"office_letter1","0", []),
 ("0office_scissors1",0,"office_scissors1","0", []),
@@ -3888,7 +3888,7 @@ scene_props = [
 ("0interior_dishset1_knife",0,"interior_dishset1_knife","0", []),
 ("0interior_dishset1_spoon",0,"interior_dishset1_spoon","0", []),
 ("0interior_bar_counter1",0,"interior_bar_counter1","bo_interior_bar_counter1", []),
-("0office_chair1b",0,"office_chair1b","bo_office_chair1", []),
+("0office_chair1b",0,"office_chair1b","0", []),
 
 ("0town_house_europe_brick1",0,"backdrop_europe1_1","0", []),
 ("0town_house_europe_brick2",0,"backdrop_europe1_2","0", []),

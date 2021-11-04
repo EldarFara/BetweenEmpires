@@ -532,9 +532,13 @@ game_menus = [
        ),
      ("show_pas_menu",[],"View faction military management menu.",
        [
-     (gt, "$players_kingdom", 0),
-     (faction_slot_eq, "$players_kingdom", slot_faction_marshall, "trp_player"),
+	(try_begin),
+	(gt, "$players_kingdom", 0),
+	(faction_slot_eq, "$players_kingdom", slot_faction_marshall, "trp_player"),
 	(start_presentation, "prsnt_pas_menu"),
+	(else_try),
+	(display_message, "@Military management is only available to faction marshals."),
+	(try_end),
         ]
        ),
      ("show_weather_report",[],"View weather report.",

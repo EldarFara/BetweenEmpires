@@ -2313,6 +2313,9 @@ items = [
 ["edt_infantry1","Spanish Military Uniform", [("edt_infantry1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
 ["edt_infantry2","Spanish Military Uniform", [("edt_infantry2", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
 ["edt_infantry3","Spanish Military Uniform", [("edt_infantry3", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
+["edt_infantry4","Spanish Military Uniform", [("edt_infantry4", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
+["edt_infantry5","Spanish Military Uniform", [("edt_infantry5", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
+["edt_infantry6","Spanish Military Uniform", [("edt_infantry6", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
 ["edt_cavalry1","Spanish Military Uniform", [("edt_cavalry1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
 ["edt_cavalry2","Spanish Military Uniform", [("edt_cavalry2", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
 ["edt_cavalry3","Spanish Military Uniform", [("edt_cavalry3", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
@@ -2322,10 +2325,16 @@ items = [
 ["edt_trousers3","Spanish Military Trousers", [("edt_trousers3", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
 ["edt_trousers4","Spanish Military Trousers", [("edt_trousers4", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
 ["edt_trousers5","Spanish Military Trousers", [("edt_trousers5", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
+["edt_trousers6","Spanish Military Trousers", [("edt_trousers6", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
+["edt_trousers7","Spanish Military Trousers", [("edt_trousers7", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
+["edt_trousers8","Spanish Military Trousers", [("edt_trousers8", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_7]],
 ["edt_hat1","Spanish Shako", [("edt_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 ["edt_hat2","Spanish Shako", [("edt_hat2", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 ["edt_hat3","Spanish Shako", [("edt_hat3", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 ["edt_hat4","Spanish Shako", [("edt_hat4", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
+["edt_hat5","Spanish Shako", [("edt_hat5", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
+["edt_hat6","Spanish Shako", [("edt_hat6", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
+["edt_hat7","Spanish Shako", [("edt_hat7", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 
 ["rifle_spanish_m1859","Spanish Pattern 1859 Musket", [("russian_m1845", 0),("russian_m1845_inv", ixmesh_inventory)], itp_type_crossbow|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.7)|abundance(0)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_muzzleloaded_musket)|shoot_speed(shot_speed_musket)|max_ammo(1)|thrust_damage(damage_musket, pierce), imodbits_firearm, []],
 ["rifle_spanish_m1859_m","Spanish Pattern 1859 Musket", [("russian_m1845", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary|itp_cant_use_on_horseback, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(8432)|spd_rtng(75)|weapon_length(160)|thrust_damage(30, pierce)|swing_damage(30, pierce), imodbits_none, []],
@@ -2799,6 +2808,9 @@ items = [
 ["rifle_carcano1891_m","Carcano M1891", [("carcano1891", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary|itp_cant_use_on_horseback, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(8432)|spd_rtng(75)|weapon_length(160)|thrust_damage(30, pierce)|swing_damage(30, pierce), imodbits_none, []],
 ["rifle_carcano1891_carbine","Carcano M1891 Carbine", [("carcano1891_carbine", 0),("carcano1891_carbine_inv", ixmesh_inventory)], itp_type_crossbow|itp_two_handed|itp_primary, itcf_shoot_crossbow|itcf_carry_spear|itcf_reload_musket,400, weight(4.2)|abundance(60)|accuracy(int(accuracy_bolt_action_rifle*accuracy_carbine_modifier))|spd_rtng(int(speed_bolt_action_rifle*speed_carbine_modifier))|shoot_speed(shot_speed_bolt_action_rifle)|max_ammo(5)|thrust_damage(damage_bolt_action_rifle, pierce), imodbits_firearm, []],
 ["rifle_carcano1891_carbine_m","Carcano M1891 Carbine", [("carcano1891_carbine", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.2)|hit_points(8432)|spd_rtng(75)|weapon_length(80)|thrust_damage(20, blunt)|swing_damage(0, blunt), imodbits_none, []],
+
+["paimon1","Emergency Food", [("paimon",0)], itp_merchandise|itp_type_goods|itp_consumable|itp_food, 0, 50,weight(10)|abundance(0)|food_quality(250)|max_ammo(250),imodbits_none],
+
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 
