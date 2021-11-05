@@ -3524,7 +3524,7 @@ scene_props = [
 ("sandbags5",0,"sandbags5","bo_sandbags5", []),
 ("sandbags2",0,"sandbags2","bo_sandbags2b", []),
 ("sandbags3",0,"sandbags3","bo_sandbags3", []),
-("sandbags1",0,"sandbags1","bo_sandbags1b", []),
+("sandbags1",0,"sandbags1","bo_sandbags1", []),
 ("harvester1",0,"harvester1","bo_harvester1", []),
 ("hay2",0,"hay2","bo_hay2", []),
 ("hay1",0,"hay1","bo_hay1", []),
