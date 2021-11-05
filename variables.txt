@@ -1888,3 +1888,6 @@ overlay_text_manpower_value
 overlay_text_conscription_policy_satisfaction_penalty
 overlay_text_conscription_policy_workers_penalty
 g_display_pas_debug_messages
+g_custom_troops_hmg
+g_custom_troops_lmg
+g_custom_troops_smg

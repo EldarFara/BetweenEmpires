@@ -147,6 +147,8 @@ scripts = [
 	(faction_set_slot, ":faction", slot_faction_mg_item, "itm_mg6_british"),
 	(faction_set_slot, ":faction", slot_faction_mg_prop, "spr_mg6_british"),
 	(try_end),
+(faction_set_slot, "fac_kingdom_1", slot_faction_mg_item, "itm_mg4_french"),
+(faction_set_slot, "fac_kingdom_1", slot_faction_mg_prop, "spr_mg4_french"),
 (faction_set_slot, "fac_kingdom_2", slot_faction_mg_item, "itm_mg2_russian"),
 (faction_set_slot, "fac_kingdom_2", slot_faction_mg_prop, "spr_mg2_russian"),
 (faction_set_slot, "fac_kingdom_27", slot_faction_mg_item, "itm_mg2_russian"),

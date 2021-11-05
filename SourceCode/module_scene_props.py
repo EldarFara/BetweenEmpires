@@ -4116,6 +4116,24 @@ scene_props = [
 	(prop_instance_set_material, ":scene_prop_id", 0, s1),
     ]),
    ]),
+  ("mg7_american", sokf_moveable, "mg6_american", "bo_mg1",
+   [
+   (ti_on_scene_prop_init,
+    [
+	(store_trigger_param_1, ":scene_prop_id"),
+	(scene_prop_set_slot, ":scene_prop_id", slot_prop_agent_attached, reg0),
+	(assign, reg1, ":scene_prop_id"),
+    ]),
+   ]),
+  ("mg7_american_barrel", sokf_moveable, "mg6_american_barrel", "0",
+   [
+   (ti_on_scene_prop_init,
+    [
+	(store_trigger_param_1, ":scene_prop_id"),
+	(scene_prop_set_slot, ":scene_prop_id", slot_prop_agent_attached, reg0),
+	(assign, reg2, ":scene_prop_id"),
+    ]),
+   ]),
 ]
 
  # modmerger_start version=201 type=2

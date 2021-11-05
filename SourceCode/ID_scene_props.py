@@ -1810,3 +1810,5 @@ spr_mg5_austrian = 1809
 spr_mg5_austrian_barrel = 1810
 spr_mg6_british = 1811
 spr_mg6_british_barrel = 1812
+spr_mg7_american = 1813
+spr_mg7_american_barrel = 1814

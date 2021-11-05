@@ -1,4 +1,4 @@
-1619
+1637
 qstr_res_cape1 res_cape1
 qstr_res_cape2 res_cape2
 qstr_thawb1_belt1 thawb1_belt1
@@ -1618,3 +1618,21 @@ qstr_Military_management_ Military_management_is_only_available_to_faction_marsh
 qstr_ai_behavior_{reg1}_p ai_behavior_{reg1}_pas_timer_{reg2}_pas_lord_state_{reg3}
 qstr_{s1}_s_marshal_ai_be {s1}'s_marshal_ai_behavior_{reg1}_pas_timer_{reg2}_pas_lord_state_{reg3}
 qstr_{s1}_s_marshal:_ai_b {s1}'s_marshal:_ai_behavior_{reg1}_pas_timer_{reg2}_pas_lord_state_{reg3}
+qstr_Heavy_Machine_Gun: Heavy_Machine_Gun:
+qstr_Light_Machine_Gun: Light_Machine_Gun:
+qstr_Sub_machine_Gun: Sub-machine_Gun:
+qstr_Maxim_Gun Maxim_Gun
+qstr_Maxim_Gun_M1910 Maxim_Gun_M1910
+qstr_MG_08 MG-08
+qstr_Hotchkiss_Mle_1914 Hotchkiss_Mle_1914
+qstr_Schwarzlose_M._7 Schwarzlose_M._7
+qstr_Vickers_Gun Vickers_Gun
+qstr_M1917_Browning M1917_Browning
+qstr_Lewis Lewis
+qstr_Chauchat Chauchat
+qstr_Madsen Madsen
+qstr_MG_08/15 MG_08/15
+qstr_Hotchkiss_M1909 Hotchkiss_M1909
+qstr_MP_18 MP-18
+qstr_Fedorov Fedorov
+qstr_Beretta_1918 Beretta_1918

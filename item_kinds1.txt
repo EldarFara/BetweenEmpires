@@ -1,5 +1,5 @@
 itemsfile version 3
-1952
+1953
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 0 103 0 90 0 522 528
  0
 0
@@ -8028,11 +8028,11 @@ itemsfile version 3
  0
 0
 
- itm_lmg_chauchat chauchat_Machine_Gun chauchat_Machine_Gun 2  chauchat 0  chauchat 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 100 0 0 52 650 0 20 283 0
+ itm_lmg_chauchat Chauchat_Machine_Gun Chauchat_Machine_Gun 2  chauchat 0  chauchat 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 100 0 0 52 650 0 20 283 0
  0
 0
 
- itm_lmg_chauchat_m chauchat_Machine_Gun chauchat_Machine_Gun 1  chauchat 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
+ itm_lmg_chauchat_m Chauchat_Machine_Gun Chauchat_Machine_Gun 1  chauchat 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
@@ -8196,6 +8196,10 @@ itemsfile version 3
 0
 
  itm_mg6_british Machine_Gun Machine_Gun 1  mg_item 0  6291460 6174015488 0 0 30.000000 100 0 0 0 0 240 75 0 80 0 256 520
+ 0
+0
+
+ itm_mg7_american Machine_Gun Machine_Gun 1  mg7_american_barrel 0  6291460 6174015488 0 0 30.000000 100 0 0 0 0 240 75 0 80 0 256 520
  0
 0
 
