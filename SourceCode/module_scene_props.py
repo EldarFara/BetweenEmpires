@@ -4116,7 +4116,7 @@ scene_props = [
 	(prop_instance_set_material, ":scene_prop_id", 0, s1),
     ]),
    ]),
-  ("mg7_american", sokf_moveable, "mg6_american", "bo_mg1",
+  ("mg7_american", sokf_moveable, "mg7_american", "bo_mg1",
    [
    (ti_on_scene_prop_init,
     [
@@ -4125,7 +4125,7 @@ scene_props = [
 	(assign, reg1, ":scene_prop_id"),
     ]),
    ]),
-  ("mg7_american_barrel", sokf_moveable, "mg6_american_barrel", "0",
+  ("mg7_american_barrel", sokf_moveable, "mg7_american_barrel", "0",
    [
    (ti_on_scene_prop_init,
     [

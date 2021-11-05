@@ -1891,3 +1891,7 @@ g_display_pas_debug_messages
 g_custom_troops_hmg
 g_custom_troops_lmg
 g_custom_troops_smg
+g_presentation_obj_3_back
+g_custom_troops_hmg_title
+g_custom_troops_lmg_title
+g_custom_troops_smg_title
