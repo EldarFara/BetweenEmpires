@@ -1895,3 +1895,5 @@ g_presentation_obj_3_back
 g_custom_troops_hmg_title
 g_custom_troops_lmg_title
 g_custom_troops_smg_title
+peace_negotiations_victory_points_text
+peace_negotiations_victory_points_used_text
