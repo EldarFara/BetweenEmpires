@@ -916,3 +916,4 @@ script_faction_calculate_victory_points_against_itself = 914
 script_pps_faction_get_ruling_party_influence_ratio = 915
 script_pas_get_conscription_policy_name = 916
 script_cf_pas_faction_reinforcement_required = 917
+script_peace_negotiations_set_center_owners_to_official_for_factions = 918

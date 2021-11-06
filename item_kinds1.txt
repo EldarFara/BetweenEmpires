@@ -1,5 +1,5 @@
 itemsfile version 3
-1953
+1960
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 0 103 0 90 0 522 528
  0
 0
@@ -7305,6 +7305,26 @@ itemsfile version 3
  58
 0
 
+ itm_exp_infantry5 Portuguese_Military_Uniform Portuguese_Military_Uniform 1  exp_infantry5 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_exp_infantry6 Portuguese_Military_Uniform Portuguese_Military_Uniform 1  exp_infantry6 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_exp_infantry7 Portuguese_Military_Uniform Portuguese_Military_Uniform 1  exp_infantry7 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_exp_infantry8 Portuguese_Military_Uniform Portuguese_Military_Uniform 1  exp_infantry8 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
  itm_exp_cavalry1 Portuguese_Military_Uniform Portuguese_Military_Uniform 1  exp_cavalry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  58
@@ -7330,6 +7350,11 @@ itemsfile version 3
  58
 0
 
+ itm_exp_trousers4 Portuguese_Military_Trousers Portuguese_Military_Trousers 1  exp_trousers4 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
  itm_exp_hat1 Portuguese_Shako Portuguese_Shako 1  exp_hat1 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  58
@@ -7346,6 +7371,16 @@ itemsfile version 3
 0
 
  itm_exp_hat4 Portuguese_Shako Portuguese_Shako 1  exp_hat4 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_exp_hat5 Portuguese_Shako Portuguese_Shako 1  exp_hat5 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 58
+0
+
+ itm_exp_hat6 Portuguese_Shako Portuguese_Shako 1  exp_hat6 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  58
 0
@@ -8001,7 +8036,7 @@ itemsfile version 3
  itm_shotgun_winchester_m1897 Winchester_M1897 Winchester_M1897 2  winchester_m1897 0  winchester_m1897_inv 1152921504606846976  543227913 555929845760 900 131082 3.500000 80 0 0 65 0 0 35 380 0 6 291 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063863 20 600 10 288230376151713554 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063863 20 600 10 288230376151713561 1224979098644774912 
 
  itm_shotgun_winchester_m1897_m Winchester_M1897 Winchester_M1897 1  winchester_m1897 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 240 75 0 100 0 276 540
  0
@@ -8010,7 +8045,7 @@ itemsfile version 3
  itm_shotgun_spencer_m1882 Spencer_Shotgun_Model_1882 Spencer_Shotgun_Model_1882 2  spencer_m1882 0  spencer_m1882_inv 1152921504606846976  543227913 555929845760 900 131082 3.500000 80 0 0 65 0 0 35 380 0 6 291 0
  0
 1
--51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063863 20 600 10 288230376151713556 1224979098644774912 
+-51.000000  3 2071 1 1224979098644774912 700 2 10 1 1 6 936748722493063863 20 600 10 288230376151713563 1224979098644774912 
 
  itm_shotgun_spencer_m1882_m Spencer_Shotgun_Model_1882 Spencer_Shotgun_Model_1882 1  spencer_m1882 0  2251799820238852 4222130824678912 0 0 3.500000 100 0 0 0 0 240 75 0 100 0 276 540
  0
