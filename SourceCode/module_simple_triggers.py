@@ -7888,6 +7888,14 @@ simple_triggers = [
 
 (0,
 [
+	(try_for_range,":lord", active_npcs_begin, active_npcs_end),
+	(troop_get_slot, ":party", ":lord", slot_troop_leaded_party),
+	(gt, ":party", 0),
+	(party_is_active, ":party"),
+	(party_get_attached_to, ":attached_to", ":party"),
+	(eq, ":attached_to", "p_main_party"),
+	(party_detach, ":party"),
+	(try_end),
 	(try_for_range, ":faction", kingdoms_begin, kingdoms_end),
 	(faction_get_slot, ":marshall", ":faction", slot_faction_marshall),
 	(troop_get_slot, ":party", ":marshall", slot_troop_leaded_party),

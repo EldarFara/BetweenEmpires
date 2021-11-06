@@ -1,4 +1,4 @@
-1645
+1647
 qstr_res_cape1 res_cape1
 qstr_res_cape2 res_cape2
 qstr_thawb1_belt1 thawb1_belt1
@@ -1644,3 +1644,5 @@ qstr_Victory_Points:_{reg Victory_Points:_{reg13}
 qstr_Victory_Points_used: Victory_Points_used:_{reg20}
 qstr_Victory_Points/Point Victory_Points/Points_needed_for_agreement:_{reg20}/{reg10}
 qstr_Victory_Points:_{reg2 Victory_Points:_{reg20}/{reg10}
+qstr_Most_certainly._Arres Most_certainly._Arrests_of_influential_figures_of_the_political_opposition_will_undermine_their_positions_in_the_political_arena_and_strengthen_ours._Investigation_will_take_10_days_and_{reg1}_pounds.
+qstr_Most_certainly._Few_r Most_certainly._Few_revelatory_articles_condemning_our_opponents_in_illegal_actions,_aiding_enemy_and_treason_will_dishonor_them_before_the_eyes_of_our_people,_and_strengthen_our_position._The_whole_process_will_take_10_days_and_{reg1}_pounds.
