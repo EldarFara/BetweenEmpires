@@ -1798,6 +1798,7 @@ siege_win_battle = (
 pbs_enemy_retreating_end_battle = (
 5, 1, 0, [
 #(display_message, "@debug pbs_enemy_retreating_end_battle begin"),
+(this_or_next|eq, "$g_battle_type", battle_type_siege),
 (eq, "$g_battle_type", battle_type_fieldbattle),
 (assign, ":number_total", 0),
 (assign, ":number_retreating", 0),
@@ -2690,15 +2691,6 @@ lemat_canister_shot = (
 	(agent_set_slot, ":player",  slot_agent_lemat_canister_has_been_shot, 0),
 	(try_end),
 #(display_message, "@debug lemat_canister_shot end"),
-])
-
-YuriCannonCanoneersDie = (
-ti_on_agent_killed_or_wounded, 0, 0, [],
-[
-#(display_debug_message, "@YuriCannonCanoneersDie Begin"),
-(store_trigger_param_1, ":Agent"),
-(call_script, "script_cf_YuriCannonCanoneersRetreat", ":Agent"),
-#(display_debug_message, "@YuriCannonCanoneersDie End"),
 ])
 
 YuriCannonSpawn = (
@@ -6773,7 +6765,6 @@ cannon_10ms,
 #YuriCannonRuntime,
 #YuriCannon100MS,
 #YuriCannon33MS,
-#YuriCannonCanoneersDie,
 YuriCannonOrder,
 YuriCannonSpawn,
 lemat_canister_shot,

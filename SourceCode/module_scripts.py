@@ -58061,6 +58061,7 @@ scripts = [
 (agent_get_slot, ":CannonBody", ":Agent", slot_agent_cannon_prop),
 (prop_instance_is_valid, ":CannonBody"),
 (agent_get_position, pos1, ":Agent"),
+(scene_prop_set_slot, ":CannonBody", slot_prop_cannon_state, cannon_state_inactive),
 (position_move_y, pos1, -90000, 0),
 (scene_prop_get_slot, ":CannonCannoneerOfficer", ":CannonBody", slot_prop_cannon_cannoneer_officer),
 (scene_prop_get_slot, ":CannonCannoneer1", ":CannonBody", slot_prop_cannon_cannoneer1),
