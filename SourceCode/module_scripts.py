@@ -54382,7 +54382,7 @@ scripts = [
 (position_move_y, pos30, 1000, 0),
 	(try_begin),
 	(eq, ":formation_type", formation_type_melee),
-	(position_move_y, pos30, -2000, 0),
+	(position_move_y, pos30, 6000, 0),
 	(try_end),
 (position_move_x, pos30, ":shift", 0),
 	(try_for_range, ":company", 0, 8), # Applying formation - light infantry on the front, line infantry on the back. Gap between companies is based on soldiers number

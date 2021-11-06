@@ -1200,6 +1200,7 @@ pai_1000ms = (1, 0, 0, [
 		(store_add, ":slot_type", slot_team_company1_type, ":company"),
 		(this_or_next|team_slot_eq, "$ai_defender_team", ":slot_type", pbs_troop_type_shock),
 		(this_or_next|team_slot_eq, "$ai_defender_team", ":slot_type", pbs_troop_type_line),
+		(this_or_next|team_slot_eq, "$ai_defender_team", ":slot_type", pbs_troop_type_light),
 		(team_slot_eq, "$ai_defender_team", ":slot_type", pbs_troop_type_guard),
 		(store_add, ":slot_pai_digin_timer", slot_team_company1_pai_digin_timer, ":company"),
 		(team_get_slot, ":timer", "$ai_defender_team", ":slot_pai_digin_timer"),
