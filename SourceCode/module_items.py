@@ -2343,6 +2343,7 @@ items = [
 ["edt_hat5","Spanish Shako", [("edt_hat5", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 ["edt_hat6","Spanish Shako", [("edt_hat6", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 ["edt_hat7","Spanish Shako", [("edt_hat7", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
+["edt_hat8","Spanish Shako", [("edt_hat8", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_7]],
 
 ["rifle_spanish_m1859","Spanish Pattern 1859 Musket", [("russian_m1845", 0),("russian_m1845_inv", ixmesh_inventory)], itp_type_crossbow|itp_two_handed|itp_primary|itp_next_item_as_melee|itp_cant_use_on_horseback, itcf_shoot_crossbow|itcf_carry_spear,400, weight(4.7)|abundance(0)|accuracy(accuracy_muzzleloaded_musket)|spd_rtng(speed_muzzleloaded_musket)|shoot_speed(shot_speed_musket)|max_ammo(1)|thrust_damage(damage_musket, pierce), imodbits_firearm, []],
 ["rifle_spanish_m1859_m","Spanish Pattern 1859 Musket", [("russian_m1845", 0)], itp_type_polearm|itp_no_blur|itp_wooden_parry|itp_two_handed|itp_primary|itp_cant_use_on_horseback, itcf_carry_spear|itc_parry_polearm|itcf_overswing_polearm|itcf_thrust_polearm,0, weight(4.7)|hit_points(8432)|spd_rtng(75)|weapon_length(160)|thrust_damage(30, pierce)|swing_damage(30, pierce), imodbits_none, []],

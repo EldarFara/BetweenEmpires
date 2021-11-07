@@ -14647,7 +14647,7 @@ will be merged into one that has highest number of soldiers."),
 (ti_on_presentation_run, [
 (set_fixed_point_multiplier, 1000),
 	(try_begin),
-	(faction_slot_ge, "fac_player_faction", slot_faction_technology_coveringfire, 10000),
+	(faction_slot_ge, "fac_player_faction", slot_faction_technology_skirmishline, 10000),
 	(call_script, "script_if_pronemode_is_on_for_selected_companies"),
 		(try_begin),
 		(eq, reg0, 1),

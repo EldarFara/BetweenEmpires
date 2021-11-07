@@ -1142,7 +1142,6 @@ pai_1000ms = (1, 0, 0, [
 	(position_rotate_z, pos30, ":z_coor", 1),
 	#(call_script, "script_store_highest_position_around_pos30_into_pos31"), # garbage.
 	(copy_position, pos31, pos30),
-	(position_move_y, pos31, 1000, 0),
 		(try_begin),
 		(team_get_leader, ":leader1", "$ai_attacker_team"),
 			(try_begin),
@@ -1158,10 +1157,8 @@ pai_1000ms = (1, 0, 0, [
 		(agent_get_position, pos30, ":leader2"),
 		(try_end),
 	(call_script, "script_rotate_pos31_towards_pos30"),
-	(call_script, "script_team_create_infantry_formation_on_pos31", "$ai_defender_team", formation_type_melee),
-	(position_move_y, pos31, -3000, 0),
-	(copy_position, pos30, pos31),
-	(call_script, "script_company_hold_pos30", "$ai_defender_team", company8),
+	(copy_position, pos1, pos31),
+	(call_script, "script_team_create_infantry_formation_on_pos1", "$ai_defender_team", formation_type_melee),
 		(try_for_range, ":company", 0, 8), # Switch to running
 		(store_add, ":slot_team_run_mode", slot_team_company1_run_mode, ":company"),
 		(team_set_slot, "$ai_defender_team", ":slot_team_run_mode", pbs_run_mode_running),
@@ -1224,7 +1221,7 @@ pai_1000ms = (1, 0, 0, [
 		(position_set_z_to_ground_level, pos1),
 		(get_distance_between_positions_in_meters, ":distance", pos1, pos30),
 		(lt, ":distance", 20),
-		(team_set_slot, "$ai_defender_team", ":slot_pai_digin_timer", 15),
+		(team_set_slot, "$ai_defender_team", ":slot_pai_digin_timer", 20),
 		(try_end),
 	(try_end),
 #(display_message, "@debug pai_1000ms end"),
@@ -5930,15 +5927,15 @@ aerial_view_runtime = (0, 0, 0, [], [
 ])
 
 test = (0, 0, 0, [
-(key_is_down, key_t),
-	(try_for_agents,":agent"),
-	(agent_is_active, ":agent"),
-	(agent_is_alive, ":agent"),
-	(agent_is_human, ":agent"),
-	(agent_set_animation, ":agent", "anim_unused_human_anim_45", 0),
-	(agent_set_animation, ":agent", "anim_unused_human_anim_45", 1),
-	(agent_set_no_dynamics, ":agent", 1),
-	(try_end),
+# (key_is_down, key_t),
+	# (try_for_agents,":agent"),
+	# (agent_is_active, ":agent"),
+	# (agent_is_alive, ":agent"),
+	# (agent_is_human, ":agent"),
+	# (agent_set_animation, ":agent", "anim_unused_human_anim_45", 0),
+	# (agent_set_animation, ":agent", "anim_unused_human_anim_45", 1),
+	# (agent_set_no_dynamics, ":agent", 1),
+	# (try_end),
 ], [])
 
 sound_man_hit = (ti_on_agent_hit, 0, 0, [
