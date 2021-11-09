@@ -1,4 +1,4 @@
-1655
+1667
 qstr_res_cape1 res_cape1
 qstr_res_cape2 res_cape2
 qstr_thawb1_belt1 thawb1_belt1
@@ -1654,3 +1654,15 @@ qstr_{s1}_on_{s2}_{reg0} {s1}_on_{s2}_{reg0}
 qstr_{s1}_on_{s2}__{reg0} {s1}_on_{s2}_-{reg0}
 qstr_{s1}_on_{s2}_{reg1} {s1}_on_{s2}_{reg1}
 qstr_give_center_to_facti give_center_to_faction_while_maintaining_lord_-_{s1}_to_{s2}
+qstr_give_center_to_factio give_center_to_faction_aux_{s1}_to_{s2}
+qstr_give_center_to_faction give_center_to_faction_{s1}_to_{s2}
+qstr_INTERNAL_give_center INTERNAL_give_center_to_faction_aux_{s1}_to_{s2}
+qstr_{s1}_in_{s2}_went_ba {s1}_in_{s2}_went_bankrupt_and_closed.
+qstr_script_pas_get_facti script_pas_get_faction_ideal_lord_number_{reg0}
+qstr_ideal_lord_number_{r ideal_lord_number_{reg0}
+qstr_current_lord_number_ current_lord_number_{reg1}
+qstr_script_pas_init_lord script_pas_init_lord
+qstr_script_remove_lord_f script_remove_lord_from_game
+qstr_script_remove_lord_fr script_remove_lord_from_game_{reg1}
+qstr_Rebellion_in_{s1}:_s Rebellion_in_{s1}:_socailist_rebels_took_up_arms_and_are_attacking_the_government_army!
+qstr_Rebellion_in_{s1}:_j Rebellion_in_{s1}:_jacobin_rebels_took_up_arms_and_are_attacking_the_government_army!

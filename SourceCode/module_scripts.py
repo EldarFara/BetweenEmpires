@@ -5136,6 +5136,10 @@ scripts = [
               (store_troop_faction, ":defeated_troop_faction", ":cur_troop_id"),
               (str_store_faction_name_link, s3, ":defeated_troop_faction"),
               (try_begin),
+               (faction_get_slot, ":leader", slot_faction_leader, ":defeated_troop_faction"),
+                (this_or_next|neq, ":leader", ":cur_troop_id"),
+                (this_or_next|eq, ":root_attacker_party_template", "pt_pps_rebels"),
+                (eq, ":root_defender_party_template", "pt_pps_rebels"),
                 (this_or_next|ge, ":rand", hero_escape_after_defeat_chance),
                 (this_or_next|eq, ":root_attacker_party_template", "pt_pps_rebels"),
                 (eq, ":root_defender_party_template", "pt_pps_rebels"),
@@ -23194,20 +23198,6 @@ scripts = [
       (party_clear, ":party_no_to_collect_heroes"),
       (call_script, "script_get_heroes_attached_to_center_aux", ":center_no", ":party_no_to_collect_heroes"),
 
-#rebellion changes begin -Arma
-     # (try_for_range, ":pretender", pretenders_begin, pretenders_end),
-        # (neq, ":pretender", "$supported_pretender"),
-        # (troop_slot_eq, ":pretender", slot_troop_cur_center, ":center_no"),
-        # (party_add_members, ":party_no_to_collect_heroes", ":pretender", 1),
-     # (try_end),
-
-#     (try_for_range, ":rebel_faction", rebel_factions_begin, rebel_factions_end),
-#        (faction_slot_eq, ":rebel_faction", slot_faction_state, sfs_inactive_rebellion),
-#        (faction_slot_eq, ":rebel_faction", slot_faction_inactive_leader_location, ":center_no"),
-#        (faction_get_slot, ":pretender", ":rebel_faction", slot_faction_leader),
-#        (party_add_members, ":party_no_to_collect_heroes", ":pretender", 1),
-#     (try_end),
-#rebellion changes end
 
 
   ]),
@@ -23265,7 +23255,7 @@ scripts = [
     [
       (store_script_param_1, ":center_no"),
       (store_script_param_2, ":faction_no"),
-	  
+
       (try_begin),
         (eq, ":faction_no", "fac_player_supporters_faction"),        
         (faction_get_slot, ":player_faction_king", "fac_player_supporters_faction", slot_faction_leader),
@@ -23334,14 +23324,6 @@ scripts = [
       (party_set_faction, ":center_no", ":faction_no"),
 
       (try_begin),
-        (party_slot_eq, ":center_no", slot_party_type, spt_village),
-        (party_get_slot, ":farmer_party", ":center_no", slot_village_farmer_party),
-        (gt, ":farmer_party", 0),
-        (party_is_active, ":farmer_party"),
-        (party_set_faction, ":farmer_party", ":faction_no"),
-      (try_end),
-
-      (try_begin),
 	    #This bit of seemingly redundant code (the neq condition) is designed to prevent a bug that occurs when a player first conquers a center -- apparently this script is called again AFTER it is handed to a lord
 		#Without this line, then the player's dialog selection does not have any affect, because town_lord is set again to stl_unassigned after the player makes his or her choice
 	    (neq, ":faction_no", ":old_faction"),
@@ -23362,7 +23344,7 @@ scripts = [
         (call_script, "script_update_troop_notes", ":old_town_lord"),
       (try_end),
 
-      (try_for_range, ":other_center", centers_begin, centers_end),
+      (try_for_range, ":other_center", villages_begin, villages_end),
         (party_slot_eq, ":other_center", slot_village_bound_center, ":center_no"),
         (call_script, "script_give_center_to_faction_aux", ":other_center", ":faction_no"),
       (try_end),
@@ -36856,23 +36838,6 @@ scripts = [
         (call_script, "script_add_log_entry", logent_game_start, "trp_player", -1, -1, -1),
 #Post 0907 changes end
 
-#Rebellion changes begin
-        # (troop_set_slot, "trp_kingdom_1_pretender",  slot_troop_original_faction, "fac_kingdom_1"),
-        # (troop_set_slot, "trp_kingdom_2_pretender",  slot_troop_original_faction, "fac_kingdom_2"),
-        # (troop_set_slot, "trp_kingdom_3_pretender",  slot_troop_original_faction, "fac_kingdom_3"),
-        # (troop_set_slot, "trp_kingdom_4_pretender",  slot_troop_original_faction, "fac_kingdom_4"),
-        # (troop_set_slot, "trp_kingdom_5_pretender",  slot_troop_original_faction, "fac_kingdom_5"),
-        # (troop_set_slot, "trp_kingdom_6_pretender",  slot_troop_original_faction, "fac_kingdom_6"),
-
-#        (troop_set_slot, "trp_kingdom_1_pretender", slot_troop_support_base,     "p_town_4"), #suno
-#        (troop_set_slot, "trp_kingdom_2_pretender", slot_troop_support_base,     "p_town_11"), #curaw
-#        (troop_set_slot, "trp_kingdom_3_pretender", slot_troop_support_base,     "p_town_18"), #town_18
-#        (troop_set_slot, "trp_kingdom_4_pretender", slot_troop_support_base,     "p_town_12"), #wercheg
-#        (troop_set_slot, "trp_kingdom_5_pretender", slot_troop_support_base,     "p_town_3"), #veluca
-        # (try_for_range, ":pretender", pretenders_begin, pretenders_end),
-            # (troop_set_slot, ":pretender", slot_lord_reputation_type, lrep_none),
-        # (try_end),
-#Rebellion changes end
      ]),
 
 
@@ -37349,7 +37314,7 @@ scripts = [
       (try_begin),
         (eq, ":quest_target", 0), #if not quest target
         (store_random_in_range, ":rand", 0, 100),
-        (lt, ":rand", hero_escape_after_defeat_chance),
+        (lt, ":rand", hero_escape_after_defeat_chance_player),
         (assign, ":continue", 1),
       (else_try),  
         (eq, ":quest_target", -1), #if (always run) quest target
@@ -37357,6 +37322,12 @@ scripts = [
       (try_end),  
 	(try_begin),
 	(gt, "$pas_enlistment_lord", 0),
+	(assign, ":continue", 0),
+	(try_end),  
+	(try_begin),
+	(store_faction_of_troop, ":faction", ":troop_no"),
+	(faction_get_slot, ":leader", slot_faction_leader, ":faction"),
+	(eq, ":leader", ":troop_no"),
 	(assign, ":continue", 0),
 	(try_end),  
       
@@ -41014,8 +40985,6 @@ scripts = [
 ]),
 
 
-
-#Rebellion changes end
 
   # script_get_culture_with_party_faction_for_music
   # Input: arg1 = party_no
@@ -58351,8 +58320,8 @@ scripts = [
 			(try_end),
 		(try_end),
 	(try_end),
-(party_set_slot, "p_castle_44", slot_center_closest_center1, "p_town_20"), (party_set_slot, "p_castle_144", slot_center_closest_center2, "p_castle_71"),
-(party_set_slot, "p_town_20", slot_center_closest_center1, "p_castle_44"), (party_set_slot, "p_castle_71", slot_center_closest_center2, "p_castle_144"),
+(party_set_slot, "p_castle_44", slot_center_closest_center1, "p_town_20"), (party_set_slot, "p_castle_44", slot_center_closest_center2, "p_castle_71"),
+(party_set_slot, "p_town_20", slot_center_closest_center1, "p_castle_44"), (party_set_slot, "p_castle_71", slot_center_closest_center2, "p_castle_44"),
 (party_set_slot, "p_town_1", slot_center_can_be_besieged_by_sea, 1),
 (party_set_slot, "p_town_2", slot_center_can_be_besieged_by_sea, 1),
 (party_set_slot, "p_town_4", slot_center_can_be_besieged_by_sea, 1),
@@ -64629,7 +64598,7 @@ scripts = [
 	(ge, reg6, 0),
 	(str_store_string, s4, "@+{s3}"),
 	(else_try),
-	(str_store_string, s4, "@{s3}"),
+	(str_store_string, s4, "@-{s3}"),
 	(try_end),
 	(try_begin),
 	(lt, reg6, 0),
@@ -65207,11 +65176,11 @@ scripts = [
 	(this_or_next|eq, ":budget", 0),
 	(lt, ":soldpercent", 40),
 	(gt, ":workers", 500),
-	(store_mul, ":workers_to_fire", ":workers", 25),
-	(val_div, ":workers_to_fire", 100),
 		(try_begin),
 		(eq, ":budget", 0),
-		(assign, ":workers_to_fire", ":workers"),
+		(store_mul, ":workers_to_fire", ":workers", 75), (val_div, ":workers_to_fire", 100),
+		(else_try),
+		(store_mul, ":workers_to_fire", ":workers", 25), (val_div, ":workers_to_fire", 100),
 		(try_end),
 	(val_sub, ":workers", ":workers_to_fire"),
 	(party_set_slot, ":center", ":slot_workers", ":workers"),
@@ -65244,13 +65213,25 @@ scripts = [
 	(store_add, ":slot_factory_building_type", slot_center_factory1_building_type, ":factory"),
 	(store_add, ":slot_factory_building_progress", slot_center_factory1_building_progress, ":factory"),
 	(party_get_slot, ":budget", ":center", ":slot_budget"),
+	(party_get_slot, ":type", ":center", ":slot_type"),
 	(eq, ":budget", 0),
-	(party_set_slot, ":center", ":slot_type", 0),
-	(party_set_slot, ":center", ":slot_workers", 0),
-	(party_set_slot, ":center", ":slot_max_workers", 0),
-	(party_set_slot, ":center", ":slot_playershare", 0),
-	(party_set_slot, ":center", ":slot_factory_building_type", 0),
-	(party_set_slot, ":center", ":slot_factory_building_progress", 0),
+		(try_begin),
+		(call_script, "script_cf_random", 20),
+			(try_begin),
+			(party_slot_ge, ":center", ":slot_playershare", 1),
+			(call_script, "script_get_factory_name_and_photo_for_type", ":type", s1, s0),
+			(str_store_party_name, s2, ":center"),
+			(display_message, "@{s1} in {s2} went bankrupt and closed."),
+			(try_end),
+		(party_set_slot, ":center", ":slot_type", 0),
+		(party_set_slot, ":center", ":slot_workers", 0),
+		(party_set_slot, ":center", ":slot_max_workers", 0),
+		(party_set_slot, ":center", ":slot_playershare", 0),
+		(party_set_slot, ":center", ":slot_factory_building_type", 0),
+		(party_set_slot, ":center", ":slot_factory_building_progress", 0),
+		(else_try),
+		(party_set_slot, ":budget", ":slot_budget", 4000),
+		(try_end),
 	(try_end),
 ]),
 
@@ -65818,7 +65799,7 @@ scripts = [
 	(assign, ":speed", "$g_game_speed"),
 	(val_clamp, ":speed", 1, 61),
 	(val_div, ":chance", ":speed"),
-	(val_div, ":chance", 70),
+	(val_div, ":chance", 40),
 (try_begin),
 (eq, 1, display_pes_debug_messages),
 (str_store_party_name, s1, ":center"),
@@ -69705,6 +69686,10 @@ scripts = [
 [
 (store_script_param, ":faction", 1),
 
+(try_begin),
+(eq, ":faction", "fac_player_supporters_faction"),
+(try_end),
+		
 (call_script, "script_pas_get_faction_ideal_lord_number", ":faction"),
 (assign, ":ideal_lord_number", reg0),
 (assign, ":current_lord_number", 0),
@@ -70588,7 +70573,7 @@ scripts = [
 	(faction_get_slot, ":liberal_radicalism", ":faction", slot_faction_movement_liberal_radicalism),
 	(faction_get_slot, ":propeace_popularity", ":faction", slot_faction_movement_propeace_popularity),
 		(try_begin),
-		(gt, ":propeace_popularity", 2000),
+		(gt, ":propeace_popularity", 4000),
 		(store_div, ":chance", ":propeace_popularity", 100),
 		(call_script, "script_cf_random_10000", ":chance"),
 		(faction_get_slot, ":capital", ":faction", slot_faction_capital),
@@ -70602,7 +70587,7 @@ scripts = [
 		(gt, ":liberal_popularity", 1000),
 			(try_begin),
 			(gt, ":liberal_radicalism", 5000),
-			(store_div, ":chance", ":liberal_radicalism", 100),
+			(store_div, ":chance", ":liberal_radicalism", 20),
 			(call_script, "script_cf_random_10000", ":chance"),
 			(faction_get_slot, ":capital", ":faction", slot_faction_capital),
 			(str_store_faction_name, s1, ":faction"),
@@ -70614,7 +70599,7 @@ scripts = [
 				(str_store_string, s3, ":name"),
 				(jump_to_menu, "mnu_liberal_rebellion"),
 				(else_try),
-				(display_message, "@Rebellion in {s1}: rebels took up arms and are attacking the government army!", 0xffc760),
+				(display_message, "@Rebellion in {s1}: socailist rebels took up arms and are attacking the government army!", 0xffc760),
 				(store_random_in_range, ":option", 1, 2+1),
 				(store_random_in_range, reg10, 2, 10),
 				(store_random_in_range, reg11, 15, 70),
@@ -70699,7 +70684,7 @@ scripts = [
 		(gt, ":socialist_popularity", 1000),
 			(try_begin),
 			(gt, ":socialist_radicalism", 5000),
-			(store_div, ":chance", ":socialist_radicalism", 100),
+			(store_div, ":chance", ":socialist_radicalism", 20),
 			(call_script, "script_cf_random_10000", ":chance"),
 			(faction_get_slot, ":capital", ":faction", slot_faction_capital),
 			(str_store_faction_name, s1, ":faction"),
@@ -70711,7 +70696,7 @@ scripts = [
 				(str_store_string, s3, ":name"),
 				(jump_to_menu, "mnu_socialism_rebellion"),
 				(else_try),
-				(display_message, "@Rebellion in {s1}: rebels took up arms and are attacking the government army!", 0xffc760),
+				(display_message, "@Rebellion in {s1}: jacobin rebels took up arms and are attacking the government army!", 0xffc760),
 				(store_random_in_range, ":option", 1, 2+1),
 				(store_random_in_range, reg10, 2, 10),
 				(store_random_in_range, reg11, 15, 70),
@@ -71744,16 +71729,9 @@ scripts = [
 		(call_script, "script_cf_random", 50),
 		(troop_set_faction, ":troop", ":dublicate_faction"),
 		(troop_get_slot, ":lord_party", ":troop", slot_troop_leaded_party),
-			(try_begin),
-			(neq, ":lord_party", "p_main_party"),
-			(party_is_active,":lord_party"),
-			(remove_party,":lord_party"),
-			(try_end),
-		(call_script, "script_cf_select_random_walled_center_with_faction_and_owner_priority_no_siege", ":dublicate_faction", ":troop"),
-		(call_script, "script_create_kingdom_hero_party", ":troop", reg0),
-			(try_for_range, ":unused", 0, 20),
-			(call_script, "script_pas_reinforce_party", "$pout_party"),
-			(try_end),
+		(neq, ":lord_party", "p_main_party"),
+		(party_is_active,":lord_party"),
+		(party_set_faction, ":lord_party", ":dublicate_faction"),
 		(try_end),
 	(faction_get_slot, ":dublicate_faction_lord", ":dublicate_faction",  slot_faction_leader),
 	(call_script, "script_pas_init_lord", ":dublicate_faction_lord", ":dublicate_faction"),
@@ -71830,7 +71808,7 @@ scripts = [
 (store_script_param, ":lord", 1),
 
 	(try_begin),
-	(neq, ":lord", "trp_player"),
+	(gt, ":lord", 0),
 	(troop_get_slot, ":lord_party", ":lord", slot_troop_leaded_party),
 		(try_begin),
 		(neq, ":lord_party", "p_main_party"),
