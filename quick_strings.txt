@@ -1,4 +1,4 @@
-1654
+1655
 qstr_res_cape1 res_cape1
 qstr_res_cape2 res_cape2
 qstr_thawb1_belt1 thawb1_belt1
@@ -1653,3 +1653,4 @@ qstr_{s1}_on_{s2}___{reg0 {s1}_on_{s2}_-_{reg0}
 qstr_{s1}_on_{s2}_{reg0} {s1}_on_{s2}_{reg0}
 qstr_{s1}_on_{s2}__{reg0} {s1}_on_{s2}_-{reg0}
 qstr_{s1}_on_{s2}_{reg1} {s1}_on_{s2}_{reg1}
+qstr_give_center_to_facti give_center_to_faction_while_maintaining_lord_-_{s1}_to_{s2}
