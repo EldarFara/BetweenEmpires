@@ -459,3 +459,5 @@ snd_shot_fedorov = 457
 snd_shot_mp18 = 458
 snd_shot_beretta1918 = 459
 snd_gas_shell1 = 460
+snd_incoming_shell1 = 461
+snd_incoming_shell2 = 462

@@ -8168,7 +8168,7 @@ the high lords and common folk across the many realms of Europe."),
 #Troop commentary changes begin
           (call_script, "script_add_log_entry", logent_village_extorted, "trp_player",  "$current_town", -1, -1),
           (store_faction_of_party,":village_faction",  "$current_town"),
-		  (call_script, "script_faction_inflict_war_damage_on_faction", "$players_kingdom", ":village_faction", 5),
+		  (call_script, "script_faction_inflict_war_damage_on_faction", "$players_kingdom", ":village_faction", 1),
 #Troop commentary changes end          
 
          (jump_to_menu, "mnu_village"),
@@ -15247,9 +15247,10 @@ the high lords and common folk across the many realms of Europe."),
 	]),
 
   ("create_alliance",0,
-    "News are reaching your court from the foreign embassy in the capital city. The {s31} is willing to become our declared ally for a number of minor agreements, and foremost, {reg10} in monetary assurance.^^^Your balance is {reg20} pounds.",
+    "News are reaching your court from the foreign embassy in the capital city. The {s31} is willing to become our declared ally for a number of minor agreements, and foremost, {reg10} in monetary assurance.^^^Your budget is {reg20} pounds.",
     "none",
     [
+	(faction_get_slot, reg20, "fac_player_supporters_faction", slot_faction_budget),
    (faction_get_slot, ":price", "$create_alliance_chosen_faction", slot_faction_alliance_price),
    (assign, reg10, ":price"),
 	],

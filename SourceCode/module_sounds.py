@@ -18,7 +18,7 @@ sounds = [
  ("sword_clash_2", sf_priority_5|sf_vol_9,["s_swordClash2.wav"]),
  ("sword_clash_3", sf_priority_5|sf_vol_9,["s_swordClash3.wav"]),
  ("sword_swing", sf_vol_8|sf_priority_2,["melee_swing1.wav","melee_swing2.wav","melee_swing3.wav","melee_swing4.wav","melee_swing5.wav","melee_swing6.wav"]),
- ("footstep_grass", sf_vol_1|sf_priority_1,["footstep_grass1.wav","footstep_grass2.wav","footstep_grass3.wav","footstep_grass4.wav","footstep_grass5.wav","footstep_grass6.wav","footstep_grass7.wav","footstep_grass8.wav","footstep_grass9.wav","footstep_grass10.wav","footstep_grass11.wav","footstep_grass12.wav","footstep_grass13.wav","none.wav","none.wav","none.wav","none.wav","none.wav","none.wav","none.wav","none.wav","none.wav","none.wav","none.wav","none.wav","none.wav","none.wav","none.wav","none.wav","none.wav","none.wav","none.wav"]),
+ ("footstep_grass", sf_vol_1|sf_priority_1,["none.wav"]),
  ("footstep_wood", sf_vol_2|sf_priority_1,["footstep_wood_1.ogg","footstep_wood_2.ogg","footstep_wood_4.ogg"]),
 # ("footstep_wood", sf_vol_3|sf_priority_1,["footstep_stone_1.ogg","footstep_stone_3.ogg","footstep_stone_4.ogg"]),
  ("footstep_water", sf_vol_2|sf_priority_1,["water_walk_1.ogg","water_walk_2.ogg","water_walk_3.ogg","water_walk_4.ogg"]),
@@ -508,6 +508,9 @@ sounds = [
 ("shot_beretta1918", sf_priority_14|sf_vol_15, ["shot_beretta1918_1.wav", "shot_beretta1918_2.wav", "shot_beretta1918_3.wav"]),
 
 ("gas_shell1", sf_priority_10|sf_vol_10, ["gas_shell1_1.wav", "gas_shell1_2.wav", "gas_shell1_3.wav"]),
+
+("incoming_shell1", sf_priority_15|sf_vol_15, ["incoming_shell1_1.wav", "incoming_shell1_2.wav", "incoming_shell1_3.wav", "incoming_shell1_4.wav", "incoming_shell1_5.wav", "incoming_shell1_6.wav", "incoming_shell1_7.wav", "incoming_shell1_8.wav", "incoming_shell1_9.wav", "incoming_shell1_10.wav", "incoming_shell1_11.wav", "incoming_shell1_12.wav", "incoming_shell1_13.wav", "incoming_shell1_14.wav", "incoming_shell1_15.wav"]),
+("incoming_shell2", sf_priority_15|sf_vol_15, ["incoming_shell2_1.wav", "incoming_shell2_2.wav", "incoming_shell2_3.wav", "incoming_shell2_4.wav", "incoming_shell2_5.wav", "incoming_shell2_6.wav"]),
 
 ]
 

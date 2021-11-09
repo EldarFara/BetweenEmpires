@@ -1,4 +1,4 @@
-1649
+1654
 qstr_res_cape1 res_cape1
 qstr_res_cape2 res_cape2
 qstr_thawb1_belt1 thawb1_belt1
@@ -1648,3 +1648,8 @@ qstr_Most_certainly._Arres Most_certainly._Arrests_of_influential_figures_of_the
 qstr_Most_certainly._Few_r Most_certainly._Few_revelatory_articles_condemning_our_opponents_in_illegal_actions,_aiding_enemy_and_treason_will_dishonor_them_before_the_eyes_of_our_people,_and_strengthen_our_position._The_whole_process_will_take_10_days_and_{reg1}_pounds.
 qstr_Dig_In^^Selected_comp Dig_In^^Selected_companies_will_dig_in,^creating_trenches_on_their_position.^Only_available_once_per_battle.^Company_types:_any_infantry_company.
 qstr_Cannot_dig_in:_wrong_ Cannot_dig_in:_wrong_company_types_(only_infantry_companies_can_dig_in).
+qstr_VP_of_{s1}_against_{s VP_of_{s1}_against_{s2}_are_{reg10},_number_of_enemies_ai_-_{reg11},_number_of_allies_ai_-_{reg12}
+qstr_{s1}_on_{s2}___{reg0 {s1}_on_{s2}_-_{reg0}
+qstr_{s1}_on_{s2}_{reg0} {s1}_on_{s2}_{reg0}
+qstr_{s1}_on_{s2}__{reg0} {s1}_on_{s2}_-{reg0}
+qstr_{s1}_on_{s2}_{reg1} {s1}_on_{s2}_{reg1}
