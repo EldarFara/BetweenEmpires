@@ -66098,6 +66098,7 @@ scripts = [
 (val_mul, ":population_add", ":famine_mul"), (val_div, ":population_add", 100),
 (val_add, ":population_add", 10000),
 (val_mul, ":population", ":population_add"), (val_div, ":population", 10000),
+(val_max, ":population", 1100),
 (party_set_slot, ":center", slot_center_population, ":population"),
 
 (try_begin),

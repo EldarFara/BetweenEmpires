@@ -408,6 +408,35 @@ dlga_sign_constitution1:sign_constitution2|Most certainly. This is what our peop
 dlga_sign_constitution2:sign_constitution3|Yes.
 dlga_sign_constitution2:minister_pretalk|I changed my mind.
 dlga_sign_constitution3:minister_pretalk|Constituition will be created and signed in a short time, your highness.
+dlga_minister_talk:become_republic1|It is time to liberate this country from iron heel of royal dynasty and let people to choose their leader. I have decided to establish a republic.
+dlga_become_republic1:become_republic2|Most certainly. This is what our people waited for, for a long time. Do you want us to go ahead and prepare an abdication manifesto?
+dlga_become_republic2:become_republic3|Yes.
+dlga_become_republic2:minister_pretalk|I changed my mind.
+dlga_become_republic3:minister_pretalk|Abdication manifesto will be published in a short time, your highness.
+dlga_minister_talk:nationalize_urban1|I want to nationalise the urban industry and liberate workers from decades-long oppression.
+dlga_nationalize_urban1:nationalize_urban2|Most certainly. Nationalisation of urban industry will give the state full control of factories and can give it extra income. However, output of factories will decrease depending on the governmental administration efficiency. Do you want us to go ahead?
+dlga_nationalize_urban2:minister_pretalk|Yes.
+dlga_nationalize_urban2:minister_pretalk.1|I changed my mind.
+dlga_minister_talk:privatize_urban1|I want to privatize the urban industry and share factories management with capitalists.
+dlga_privatize_urban1:privatize_urban2|Most certainly. Nationalisation of industry was a bad idea, and privatization will increase production efficiency. Do you want us to go ahead?
+dlga_privatize_urban2:minister_pretalk|Yes.
+dlga_privatize_urban2:minister_pretalk.1|I changed my mind.
+dlga_minister_talk:privatize_rural1|I want to privatize the rural industry and share land with capitalists.
+dlga_privatize_rural1:privatize_rural2|Most certainly. Nationalisation of industry was a bad idea, and privatization will increase production efficiency. Do you want us to go ahead?
+dlga_privatize_rural2:minister_pretalk|Yes.
+dlga_privatize_rural2:minister_pretalk.1|I changed my mind.
+dlga_minister_talk:nationalize_rural1|I want to nationalise the rural industry and liberate peasants from decades-long oppression.
+dlga_nationalize_rural1:nationalize_rural2|Most certainly. Nationalisation of rural industry will give us control on flour price, making it possible to decrease it significantly, on the price of decreasing wealth of land owners. Do you want to go ahead?
+dlga_nationalize_rural2:minister_pretalk|Yes.
+dlga_nationalize_rural2:minister_pretalk.1|I changed my mind.
+dlga_minister_talk:forced_urbanization1|I want to start industrialization campaign to increase number of workers to increase production output for needs of the revolution.
+dlga_forced_urbanization1:forced_urbanization2|Most certainly. Mass coercive migration of peasants to cities makes rapid industrialization possible, on the price of decreasing quality of life of population and creating chaos in city supply system. Do you want us to go ahead?
+dlga_forced_urbanization2:minister_pretalk|Yes.
+dlga_forced_urbanization2:minister_pretalk.1|I changed my mind.
+dlga_minister_talk:forced_urbanization_disable1|It's time to stop industrialization campaign.
+dlga_forced_urbanization_disable1:forced_urbanization_disable2|Most certainly. Our heavy infustry is already massive enough. Do you want us to go ahead?
+dlga_forced_urbanization_disable2:minister_pretalk|Yes.
+dlga_forced_urbanization_disable2:minister_pretalk.1|I changed my mind.
 dlga_minister_talk:offer_gift_quest_complete|I have the materials for {s4}'s gift.
 dlga_offer_gift_quest_complete:close_window|Ah, dadme eso. Espero que esto acabe con vuestra disputa. Tal vez deseéis hablar con {reg4?ella:él}, y comprobar si he tenido éxito.
 dlga_minister_talk:minister_cancel_political_quest|Abandonemos nuestro plan de {s10}.

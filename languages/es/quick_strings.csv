@@ -942,7 +942,7 @@ qstr__This_town_has_no_ga| Esta ciudad no tiene guarnición.
 qstr__You_have_successful| Habéis sido capaz de pasar sin que os detectaran.
 qstr_{s13}_A_tournament_w|{s13} Pronto se celebrará un torneo aquí.
 qstr___Join_the_commander| (Entrar a la reunión de los comandantes)
-qstr___{reg1}_Libras_per_| ({reg1} Libras por noche)
+qstr___{reg1}_pounds_per_| ({reg1} pounds per night)
 qstr_You_are_not_allowed_|No estas permitido a estar aquí (necesitas tener al menos 5 puntos en la relación con la facción).
 qstr_Moreover_you_earn_{r|Además, ganáis {reg8} denares por las astutas apuestas que habéis hecho sobre vuestra persona...
 qstr_Victory_is_yours!_Yo|¡La victoria es vuestra! Habéis ganado este combate, pero ahora debéis prepararos para la próxima ronda. 
@@ -1200,7 +1200,7 @@ qstr_riot|riot
 qstr__1_| 1 
 qstr_2|2
 qstr_The_truce_between_{s|La tregua entre {s1} y {s2} ha caducado.
-+qstr_Faction_color:|Color de la Facción:
+qstr_Faction_color:|Faction color:
 qstr_®|®
 qstr_Your_political_party|Tu partido político:
 qstr_Workers_riot_in_{s1}|¡Revuelta Obrera en {s1}! Inicialmente fue pacífica, pero los manifestantes se volvieron agresivos destruyendo todo lo que encontraron en su camino a {s2}.
@@ -1269,4 +1269,181 @@ qstr_Press_Censorship:|Censura de Prensa:
 qstr_Trade_Unions:|Uniones comerciales:
 qstr_Public_Meetings:|Reuniones públicas:
 qstr_Authorized_Only|Solo con autorización
-qstr_Child_Labour:|Trabajo Infantil:
+qstr_Child_Labour:|Trabajo Infantil
+qstr_Famine:_{reg4}%|Famine: {reg4}%
+qstr_Administration_effic|Administration efficiency: {reg10}%
+qstr_Your_government_type_|Your government type does not allow state to build factories of this type.
+qstr_amount_to_buy_{reg0}|amount to buy {reg0} bought amount {reg1} ratio flour {reg2}
+qstr_Infrastructure_level|Infrastructure level of {s1} is {reg2}.{reg3}, damaged to {reg4}.{reg5}.
+qstr_Infrastructure_level_|Infrastructure level of {s1} is {reg2}.{reg3}.
+qstr_+{reg6}|+{reg6}
+qstr_{reg6}|{reg6}
+qstr_Infrastructure_level_o|Infrastructure level of {s1} is {reg2}.{reg3}, damaged to {reg4}.{reg5} ({s3} per year).
+qstr_Infrastructure_level_of|Infrastructure level of {s1} is {reg2}.{reg3} ({s3} per year).
+qstr_{reg7}.0{reg8}|{reg7}.0{reg8}
+qstr_{reg7}.{reg8}|{reg7}.{reg8}
+qstr_+{s3}|+{s3}
+qstr_Infrastructure_level_of_|Infrastructure level of {s1} is {reg2}.{reg3}, damaged to {reg4}.{reg5} ({s4} per year).
+qstr_Infrastructure_level_of_{|Infrastructure level of {s1} is {reg2}.{reg3} ({s4} per year).
+qstr_VP_of_{s1}_against_{|VP of {s1} against {s2} are {reg10}
+qstr_create_random_war_pe|create random war peace {s1} {s2}
+qstr_{reg0}_{reg60}|{reg0} {reg60}
+qstr_Enemy_is_{s3}|Enemy is {s3}
+qstr_Ally_is_{s3}|Ally is {s3}
+qstr_Infrastructure_level_of_{s|Infrastructure level of {s1} is {reg4}.{reg5}, damaged to {reg2}.{reg3} ({s4} per year).
+qstr_{s4}_per_day|{s4} per day
+qstr_{s4}_per_year|{s4} per year
+qstr_Infrastructure_level_of_{s1|Infrastructure level of {s1} is {reg4}.{reg5}, damaged to {reg2}.{reg3} ({s5}).
+qstr_Infrastructure_level_of_{s1}|Infrastructure level of {s1} is {reg2}.{reg3} ({s5}).
+qstr_People_s_Republic_of_|People's Republic of Denmark
+qstr_People_s_Republic_of_S|People's Republic of Sweden
+qstr_Republic_of_Denmark|Republic of Denmark
+qstr_Republic_of_Sweden|Republic of Sweden
+qstr_{s9}|{s9}
+qstr__This_village_and_the| This village and the surrounding lands belong to your country.
+qstr_North_German_Confeder|North German Confederation is formed.
+qstr_German_Empire_is_for|German Empire is formed.
+qstr_Adding_division_in_{|Adding division in {s1}
+qstr_Removing_division_in|Removing division in {s1}
+qstr_French_Commune|French Commune
+qstr_Association_of_Auton|Association of Autonomous States
+qstr_Austrian_Soviet_Repu|Austrian Soviet Republic
+qstr_Italian_Union|Italian Union
+qstr_Soviet_Germany|Soviet Germany
+qstr_Turkish_People_s_Rep|Turkish People's Republic
+qstr_British_Union|British Union
+qstr_People_s_Republic_of_Sp|People's Republic of Spain
+qstr_People_s_Democratic_|People's Democratic Republic of Tunisia
+qstr_Commune_of_Naples|Commune of Naples
+qstr_United_Cantons|United Cantons
+qstr_People_s_Republic_of_E|People's Republic of Egypt
+qstr_Moroccan_Commune|Moroccan Commune
+qstr_People_s_Republic_of_P|People's Republic of Portugal
+qstr_People_s_Republic_of_O|People's Republic of Oman
+qstr_Danish_Civil_Union|Danish Civil Union
+qstr_Roman_Commune|Roman Commune
+qstr_People_s_Commonwealt|People's Commonwealth of Socialist States
+qstr_Afghan_Democratic_Re|Afghan Democratic Republic
+qstr_Bukharan_People_s_So|Bukharan People's Soviet Republic
+qstr_Khorezm_People_s_Sov|Khorezm People's Soviet Republic
+qstr_Democratic_Republic_|Democratic Republic of Greece
+qstr_Romanian_People_s_Re|Romanian People's Republic
+qstr_Belgian_Commune|Belgian Commune
+qstr_Wurttemberg_Soviet_R|Wurttemberg Soviet Republic
+qstr_Soviet_Serbia|Soviet Serbia
+qstr_Bavarian_Soviet_Repu|Bavarian Soviet Republic
+qstr_Soviet_Norway|Soviet Norway
+qstr_Westphalian_Soviet_R|Westphalian Soviet Republic
+qstr_Republic_of_the_Arab|Republic of the Arabian Assembly
+qstr_Arabian_Republic|Arabian Republic
+qstr_DETACH_{s1}|DETACH {s1}
+qstr_Upper_Class___Aristoc|Upper Class - Aristocracy (former)
+qstr_Upper_Class___Bourgeo|Upper Class - Bourgeoisie (former)
+qstr_State_industry_incom|State industry income:^+{reg10} $
+qstr_State_industry_expen|State industry expenses:^{reg10} $
+qstr_Urban_industry_of_th|Urban industry of this region was nationalised,^which means that factories output is decreased^depending on administration efficiency.^^With current administration efficiency of {reg1},^factories output is decreased by {reg2}.
+qstr_Rural_industry_of_th|Rural industry of this region was nationalised,^which means that raw resources output is decreased^depending on administration efficiency.^^With current administration efficiency of {reg1},^resources output is decreased by {reg2}.
+qstr_Industrialization_ca|Industrialization campaign is now in progress, which means that urbanization process is 4 times faster, quality of life of rural population is decreased by 5%, and administration efficiency is decreased by 5%.
+qstr_Government_type_of_t|Government type of this country does not allow you to build factories.
+qstr_Urban_industry_of_thi|Urban industry of this region was nationalised,^which means that factories output is decreased^depending on administration efficiency.^^With current administration efficiency of {reg1}%,^factories output is decreased by {reg2}%.
+qstr_Rural_industry_of_thi|Rural industry of this region was nationalised,^which means that urban famine level is decreased in 3 times^but raw resources output is decreased^depending on administration efficiency.^^With current administration efficiency of {reg1}%,^resources output is decreased by {reg2}%.
+qstr_Industrialization_cam|Industrialization campaign is now in progress,^which means that urbanization process^is 4 times faster, quality of life of rural population^is decreased by 5%, and administration efficiency^is decreased by 5%.
+qstr_Urban_industry_of_this|Urban industry of this region was nationalised,^which means that factories budget is consolidated^with national budget, factories output is decreased^depending on administration efficiency, and all^capitalist development of region such as investitions are ceased.^^With current administration efficiency of {reg1}%,^factories output is decreased by {reg2}%.
+qstr_Rural_industry_of_this|Rural industry of this region was nationalised,^which means that urban famine level is decreased in 3 times^but raw resources output is decreased^depending on administration efficiency.^Quality of life of rural population is decreased by 20%^^With current administration efficiency of {reg1}%,^resources output is decreased by {reg2}%.
+qstr_Industrialization_camp|Industrialization campaign is now in progress,^which means that urbanization process^is 4 times faster, quality of life of population^is decreased by 20%, and administration efficiency^is decreased by 5%.
+qstr_{s1}:_Anti_war_prote|{s1}: Anti-war protesters are demonstrating in {s2}, demanding to put an end to the ongoing armed conflict between their nation and {s3}.
+qstr_Revolution_in_{s1}!_|Revolution in {s1}! Jacobin radicals have overthrown the national government and declared a new state named {s2} in the early hours of the day. The military has refused to surrender, and the nation is now embroiled in a brutal civil war.
+qstr_Revolution_in_{s1}!_S|Revolution in {s1}! Socialist radicals have overthrown the national government and declared a new state named {s2} in the early hours of the day. The military has refused to surrender, and the nation is now embroiled in a brutal civil war.
+qstr_Unable_to_suppress_t|Unable to suppress the revolt, the rebellion has spread to other cities. Society has been split in two, liberals demanding the immediate disposition of the government, and reactionaries calling for the immediate jackbooted obliteration of the liberal rebellion. Martial law has been declared, and Habeas Corpus has made way for summary executions in the streets and villages.
+qstr_PPS_Faction_iteration|PPS Faction iteration
+qstr_faction_calculate_pp|faction calculate pps pes slots
+qstr_Position:_at_will|Position: at will
+qstr_mesh_pbs_pronemode1|mesh pbs pronemode1
+qstr_Position:_always_cro|Position: always crouch
+qstr_mesh_pbs_pronemode2|mesh pbs pronemode2
+qstr_Position:_always_pro|Position: always prone
+qstr_mesh_pbs_pronemode3|mesh pbs pronemode3
+qstr_Position:_mixed|Position: mixed
+qstr_mesh_pbs_pronemode4|mesh pbs pronemode4
+qstr_{s1}^^This_togglable|{s1}^^This togglable ability allows to choose position for company:^at will, always crouch or always prone. While crouch^and prone positions reduce damage incoming^from shell explosions, they can close view in front of soldiers,^interrupting shooting.^Company types: any infantry company.
+qstr_Under_Fire^^Assault_|Under Fire^^Assault Tactics
+qstr_Under_Fire^Assault_T|Under Fire^Assault Tactics
+qstr_pbs_pronemode1|pbs pronemode1
+qstr_pbs_pronemode2|pbs pronemode2
+qstr_pbs_pronemode3|pbs pronemode3
+qstr_pbs_pronemode4|pbs pronemode4
+qstr_pbs_activeability_pr|pbs activeability pronemode1
+qstr_pbs_activeability_pro|pbs activeability pronemode2
+qstr_pbs_activeability_pron|pbs activeability pronemode3
+qstr_pbs_activeability_prone|pbs activeability pronemode4
+qstr_{s1}^^This_toggleabl|{s1}^^This toggleable ability allows to choose position for company:^at will, always crouch or always prone. Prone^position reduces damage incoming from shell explosions,^but it can close view in front of soldiers,^interrupting shooting.^Company types: any infantry company.
+qstr_Volunteer_army|Volunteer army
+qstr_Limited_conscription|Limited conscription
+qstr_Extended_conscriptio|Extended conscription
+qstr_Wide_conscription|Wide conscription
+qstr__{reg2}%_to_quality_|-{reg2}% to quality of life
+qstr_Conscription_policy:|Conscription policy: {s1}%
+qstr_Army_reinforcements_|Army reinforcements rate:
+qstr__{reg2}%_workers|-{reg2}% workers
+qstr_Reserves:|Reserves:
+qstr_{reg1}/{reg2}_men|{reg1}/{reg2} men
+qstr_Conscription_policy:_|Conscription policy: {s1}
+qstr__{reg3}%_workers|-{reg3}% workers
+qstr_Volunteer_army^_4%_o|Volunteer army^(4% of the population)
+qstr_Limited_conscription^|Limited conscription^(10% of the population)
+qstr_Extended_conscription|Extended conscription^(20% of the population)
+qstr_Wide_conscription^_2|Wide conscription^(25% of the population)
+qstr_{reg1}/{reg2}_men__+|{reg1}/{reg2} men (+{reg3} per day)
+qstr_Volunteer_army^_3%_o|Volunteer army^(3% of the population)
+qstr_Military_management_|Military management is only available to faction marshals.
+qstr_ai_behavior_{reg1}_p|ai behavior {reg1} pas timer {reg2} pas lord state {reg3}
+qstr_{s1}_s_marshal_ai_be|{s1}'s marshal ai behavior {reg1} pas timer {reg2} pas lord state {reg3}
+qstr_{s1}_s_marshal:_ai_b|{s1}'s marshal: ai behavior {reg1} pas timer {reg2} pas lord state {reg3}
+qstr_Heavy_Machine_Gun:|Heavy Machine Gun:
+qstr_Light_Machine_Gun:|Light Machine Gun:
+qstr_Sub_machine_Gun:|Sub-machine Gun:
+qstr_Maxim_Gun|Maxim Gun
+qstr_Maxim_Gun_M1910|Maxim Gun M1910
+qstr_MG_08|MG-08
+qstr_Hotchkiss_Mle_1914|Hotchkiss Mle 1914
+qstr_Schwarzlose_M._7|Schwarzlose M. 7
+qstr_Vickers_Gun|Vickers Gun
+qstr_M1917_Browning|M1917 Browning
+qstr_Lewis|Lewis
+qstr_Chauchat|Chauchat
+qstr_Madsen|Madsen
+qstr_MG_08/15|MG 08/15
+qstr_Hotchkiss_M1909|Hotchkiss M1909
+qstr_MP_18|MP-18
+qstr_Fedorov|Fedorov
+qstr_Beretta_1918|Beretta 1918
+qstr_Previous|Previous
+qstr_mg5_austrian|mg5 austrian
+qstr_mg5_austrian_barrel|mg5 austrian barrel
+qstr_mg_prop_{reg1}|mg prop {reg1}
+qstr_Victory_Points:_{reg|Victory Points: {reg13}
+qstr_Victory_Points_used:|Victory Points used: {reg20}
+qstr_Victory_Points/Point|Victory Points/Points needed for agreement: {reg20}/{reg10}
+qstr_Victory_Points:_{reg2|Victory Points: {reg20}/{reg10}
+qstr_Most_certainly._Arres|Most certainly. Arrests of influential figures of the political opposition will undermine their positions in the political arena and strengthen ours. Investigation will take 10 days and {reg1} pounds.
+qstr_Most_certainly._Few_r|Most certainly. Few revelatory articles condemning our opponents in illegal actions, aiding enemy and treason will dishonor them before the eyes of our people, and strengthen our position. The whole process will take 10 days and {reg1} pounds.
+qstr_Dig_In^^Selected_comp|Dig In^^Selected companies will dig in,^creating trenches on their position.^Only available once per battle.^Company types: any infantry company.
+qstr_Cannot_dig_in:_wrong_|Cannot dig in: wrong company types (only infantry companies can dig in).
+qstr_VP_of_{s1}_against_{s|VP of {s1} against {s2} are {reg10}, number of enemies ai - {reg11}, number of allies ai - {reg12}
+qstr_{s1}_on_{s2}___{reg0|{s1} on {s2} - {reg0}
+qstr_{s1}_on_{s2}_{reg0}|{s1} on {s2} {reg0}
+qstr_{s1}_on_{s2}__{reg0}|{s1} on {s2} -{reg0}
+qstr_{s1}_on_{s2}_{reg1}|{s1} on {s2} {reg1}
+qstr_give_center_to_facti|give center to faction while maintaining lord - {s1} to {s2}
+qstr_give_center_to_factio|give center to faction aux {s1} to {s2}
+qstr_give_center_to_faction|give center to faction {s1} to {s2}
+qstr_INTERNAL_give_center|INTERNAL give center to faction aux {s1} to {s2}
+qstr_{s1}_in_{s2}_went_ba|{s1} in {s2} went bankrupt and closed.
+qstr_script_pas_get_facti|script pas get faction ideal lord number {reg0}
+qstr_ideal_lord_number_{r|ideal lord number {reg0}
+qstr_current_lord_number_|current lord number {reg1}
+qstr_script_pas_init_lord|script pas init lord
+qstr_script_remove_lord_f|script remove lord from game
+qstr_script_remove_lord_fr|script remove lord from game {reg1}
+qstr_Rebellion_in_{s1}:_s|Rebellion in {s1}: socailist rebels took up arms and are attacking the government army!
+qstr_Rebellion_in_{s1}:_j|Rebellion in {s1}: jacobin rebels took up arms and are attacking the government army!

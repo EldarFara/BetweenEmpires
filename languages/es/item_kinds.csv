@@ -1518,6 +1518,8 @@ itm_clothes_urban_male_trousers2|Pantalones
 itm_clothes_urban_male_trousers2_pl|Pantalones
 itm_clothes_urban_male_trousers3|Pantalones
 itm_clothes_urban_male_trousers3_pl|Pantalones
+itm_clothes_urban_male_trousers4|Trousers
+itm_clothes_urban_male_trousers4_pl|Trousers
 itm_dress_shoes|Zapatos de Vestir
 itm_dress_shoes_pl|Zapatos de Vestir
 itm_clothes_urban_male1|Traje de tres Piezas
@@ -1526,6 +1528,16 @@ itm_clothes_urban_male2|Traje de tres Piezas
 itm_clothes_urban_male2_pl|Trajes de tres Piezas
 itm_clothes_urban_male3|Traje de tres Piezas
 itm_clothes_urban_male3_pl|Trajes de tres Piezas
+itm_clothes_urban_male4|Three-piece Suit
+itm_clothes_urban_male4_pl|Three-piece Suit
+itm_clothes_urban_male5|Three-piece Suit
+itm_clothes_urban_male5_pl|Three-piece Suit
+itm_clothes_urban_male6|Three-piece Suit
+itm_clothes_urban_male6_pl|Three-piece Suit
+itm_clothes_urban_male7|Three-piece Suit
+itm_clothes_urban_male7_pl|Three-piece Suit
+itm_clothes_urban_male8|Three-piece Suit
+itm_clothes_urban_male8_pl|Three-piece Suit
 itm_civilian_hat1|Sombrero de Ala Ancha
 itm_civilian_hat1_pl|Sombreros de Ala Anchas
 itm_civilian_hat2|Sombrero de Ala Ancha
@@ -1542,6 +1554,10 @@ itm_civilian_hat4c|Bombín
 itm_civilian_hat4c_pl|Bombines
 itm_civilian_hat4d|Bombín
 itm_civilian_hat4d_pl|Bombines
+itm_civilian_hat5|Hat
+itm_civilian_hat5_pl|Hat
+itm_civilian_hat6|Hat
+itm_civilian_hat6_pl|Hat
 itm_urban_dress_hat2|Sombrero de vestir
 itm_urban_dress_hat2_pl|Sombrero de vestir
 itm_urban_dress_hat1|Sombrero de vestir
@@ -2954,6 +2970,12 @@ itm_edt_infantry2|Uniforme Militar Español
 itm_edt_infantry2_pl|Uniformes Militares Españoles
 itm_edt_infantry3|Uniforme Militar Español
 itm_edt_infantry3_pl|Uniformes Militares Españoles
+itm_edt_infantry4|Spanish Military Uniform
+itm_edt_infantry4_pl|Spanish Military Uniform
+itm_edt_infantry5|Spanish Military Uniform
+itm_edt_infantry5_pl|Spanish Military Uniform
+itm_edt_infantry6|Spanish Military Uniform
+itm_edt_infantry6_pl|Spanish Military Uniform
 itm_edt_cavalry1|Uniforme Militar Español
 itm_edt_cavalry1_pl|Uniformes Militares Españoles
 itm_edt_cavalry2|Uniforme Militar Español
@@ -2972,6 +2994,12 @@ itm_edt_trousers4|Pantalones Españoles Militares
 itm_edt_trousers4_pl|Pantalones Españoles Militares
 itm_edt_trousers5|Pantalones Españoles Militares
 itm_edt_trousers5_pl|Pantalones Españoles Militares
+itm_edt_trousers6|Spanish Military Trousers
+itm_edt_trousers6_pl|Spanish Military Trousers
+itm_edt_trousers7|Spanish Military Trousers
+itm_edt_trousers7_pl|Spanish Military Trousers
+itm_edt_trousers8|Spanish Military Trousers
+itm_edt_trousers8_pl|Spanish Military Trousers
 itm_edt_hat1|Chacó Español
 itm_edt_hat1_pl|Chacó Españoles
 itm_edt_hat2|Chacó Español
@@ -2980,6 +3008,14 @@ itm_edt_hat3|Chacó Español
 itm_edt_hat3_pl|Chacó Españoles
 itm_edt_hat4|Chacó Español
 itm_edt_hat4_pl|Chacó Españoles
+itm_edt_hat5|Spanish Shako
+itm_edt_hat5_pl|Spanish Shako
+itm_edt_hat6|Spanish Shako
+itm_edt_hat6_pl|Spanish Shako
+itm_edt_hat7|Spanish Shako
+itm_edt_hat7_pl|Spanish Shako
+itm_edt_hat8|Spanish Shako
+itm_edt_hat8_pl|Spanish Shako
 itm_rifle_spanish_m1859|Mosquete de Diseño Español 1859
 itm_rifle_spanish_m1859_pl|Mosquetes de Diseño Español 1859
 itm_rifle_spanish_m1859_m|Mosquete de Diseño Español 1859
@@ -3074,6 +3110,30 @@ itm_sta_infantry3|Uniforme Militar Holandés
 itm_sta_infantry3_pl|Uniformes Militares Holandeses
 itm_sta_infantry4|Uniforme Militar Holandés
 itm_sta_infantry4_pl|Uniformes Militares Holandeses
+itm_sta_infantry5|Dutch Military Uniform
+itm_sta_infantry5_pl|Dutch Military Uniform
+itm_sta_infantry6|Dutch Military Uniform
+itm_sta_infantry6_pl|Dutch Military Uniform
+itm_sta_infantry7|Dutch Military Uniform
+itm_sta_infantry7_pl|Dutch Military Uniform
+itm_sta_infantry8|Dutch Military Uniform
+itm_sta_infantry8_pl|Dutch Military Uniform
+itm_sta_infantry9|Dutch Military Uniform
+itm_sta_infantry9_pl|Dutch Military Uniform
+itm_sta_infantry10|Dutch Military Uniform
+itm_sta_infantry10_pl|Dutch Military Uniform
+itm_sta_infantry11|Dutch Military Uniform
+itm_sta_infantry11_pl|Dutch Military Uniform
+itm_sta_infantry12|Dutch Military Uniform
+itm_sta_infantry12_pl|Dutch Military Uniform
+itm_sta_infantry13|Dutch Military Uniform
+itm_sta_infantry13_pl|Dutch Military Uniform
+itm_sta_infantry14|Dutch Military Uniform
+itm_sta_infantry14_pl|Dutch Military Uniform
+itm_sta_infantry15|Dutch Military Uniform
+itm_sta_infantry15_pl|Dutch Military Uniform
+itm_sta_infantry16|Dutch Military Uniform
+itm_sta_infantry16_pl|Dutch Military Uniform
 itm_sta_cavalry1|Uniforme Militar Holandés
 itm_sta_cavalry1_pl|Uniformes Militares Holandeses
 itm_sta_cavalry2|Uniforme Militar Holandés
@@ -3086,10 +3146,30 @@ itm_sta_trousers3|Pantalones Militares Holandeses
 itm_sta_trousers3_pl|Pantalones Militares Holandeses
 itm_sta_trousers4|Pantalones Militares Holandeses
 itm_sta_trousers4_pl|Pantalones Militares Holandeses
+itm_sta_trousers5|Dutch Military Trousers
+itm_sta_trousers5_pl|Dutch Military Trousers
+itm_sta_trousers6|Dutch Military Trousers
+itm_sta_trousers6_pl|Dutch Military Trousers
+itm_sta_trousers7|Dutch Military Trousers
+itm_sta_trousers7_pl|Dutch Military Trousers
 itm_sta_hat1|Chacó Holandés
 itm_sta_hat1_pl|Chacó Holandeses
 itm_sta_hat2|Chacó Holandés
 itm_sta_hat2_pl|Chacó Holandeses
+itm_sta_hat3|Dutch Hat
+itm_sta_hat3_pl|Dutch Hat
+itm_sta_hat4|Dutch Hat
+itm_sta_hat4_pl|Dutch Hat
+itm_sta_hat5|Dutch Hat
+itm_sta_hat5_pl|Dutch Hat
+itm_sta_hat6|Dutch Hat
+itm_sta_hat6_pl|Dutch Hat
+itm_sta_hat7|Dutch Helmet
+itm_sta_hat7_pl|Dutch Helmet
+itm_sta_hat8|Dutch Helmet
+itm_sta_hat8_pl|Dutch Helmet
+itm_sta_hat9|Dutch Helmet
+itm_sta_hat9_pl|Dutch Helmet
 itm_def_infantry1|Uniforme Militar Belga
 itm_def_infantry1_pl|Uniformes Militares Belgas
 itm_def_infantry2|Uniforme Militar Belga
@@ -3208,6 +3288,14 @@ itm_exp_infantry3|Uniforme Militar Portugués
 itm_exp_infantry3_pl|Uniformes Militares Portugueses
 itm_exp_infantry4|Uniforme Militar Portugués
 itm_exp_infantry4_pl|Uniformes Militares Portugueses
+itm_exp_infantry5|Portuguese Military Uniform
+itm_exp_infantry5_pl|Portuguese Military Uniform
+itm_exp_infantry6|Portuguese Military Uniform
+itm_exp_infantry6_pl|Portuguese Military Uniform
+itm_exp_infantry7|Portuguese Military Uniform
+itm_exp_infantry7_pl|Portuguese Military Uniform
+itm_exp_infantry8|Portuguese Military Uniform
+itm_exp_infantry8_pl|Portuguese Military Uniform
 itm_exp_cavalry1|Uniforme Militar Portugués
 itm_exp_cavalry1_pl|Uniformes Militares Portugueses
 itm_exp_cavalry2|Uniforme Militar Portugués
@@ -3218,6 +3306,8 @@ itm_exp_trousers2|Pantalones Militares Portugueses
 itm_exp_trousers2_pl|Pantalones Militares Portugueses
 itm_exp_trousers3|Pantalones Militares Portugueses
 itm_exp_trousers3_pl|Pantalones Militares Portugueses
+itm_exp_trousers4|Portuguese Military Trousers
+itm_exp_trousers4_pl|Portuguese Military Trousers
 itm_exp_hat1|Chacó Portugués
 itm_exp_hat1_pl|Chacó Portugueses
 itm_exp_hat2|Chacó Portugués
@@ -3226,6 +3316,10 @@ itm_exp_hat3|Chacó Portugués
 itm_exp_hat3_pl|Chacó Portugueses
 itm_exp_hat4|Chacó Portugués
 itm_exp_hat4_pl|Chacó Portugueses
+itm_exp_hat5|Portuguese Shako
+itm_exp_hat5_pl|Portuguese Shako
+itm_exp_hat6|Portuguese Shako
+itm_exp_hat6_pl|Portuguese Shako
 itm_rifle_kropatschek|Rifle Kropatschek
 itm_rifle_kropatschek_pl|Rifles Kropatschek
 itm_rifle_kropatschek_m|Rifle Kropatschek
@@ -3620,6 +3714,8 @@ itm_mg5_austrian|Ametralladora
 itm_mg5_austrian_pl|Ametralladora
 itm_mg6_british|Ametralladora
 itm_mg6_british_pl|Ametralladora
+itm_mg7_american|Machine Gun
+itm_mg7_american_pl|Machine Gun
 itm_ramrod1|Cañones Ramrod
 itm_ramrod1_pl|Cañones Ramrod
 itm_rifle_mauser_m1887|Rifle Mauser M1887
@@ -3802,5 +3898,7 @@ itm_rifle_carcano1891_carbine|Carabina Carcano M1891
 itm_rifle_carcano1891_carbine_pl|Carabinas Carcano M1891
 itm_rifle_carcano1891_carbine_m|Carabina Carcano M1891
 itm_rifle_carcano1891_carbine_m_pl|Carabinas Carcano M1891
+itm_paimon1|Emergency Food
+itm_paimon1_pl|Emergency Food
 itm_items_end|Fin de objetos
 itm_items_end_pl|Fin de objetos

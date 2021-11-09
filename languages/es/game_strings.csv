@@ -3290,6 +3290,48 @@ str_flag1_150|flag1 150
 str_italy_unification_defeat_sardinia_desc|Con la idea de unificar Italia, {s1} vas a tener que conquistar los dos estados Italianos que subsisten en la peninsula Italiana, uno de esos estados es el Reino de Cerdeña, se busca forzar que su estado se rinda, debemos enfocarnos en esos dos objetivos estrategicos.^^- Conquistar la capital Cerdeña de Turín.^- Paralizar el reino de Cerdeña derrotando su ejercito, demoliendo sus cimientos y consquistando sus ciudades.^^ Una vez que causemos el suficiente daño a sus estructura economica y militar, esto hará que se rindan a nuestros pies, esto permitirá empezar los procesos de unificación.
 str_italy_unification_defeat_sicily_desc|Con la idea de unificar Italia, {s1} vas a tener que conquistar los dos estados Italianos que subsisten en la peninsula Italiana, uno de esos estados es el Reino de las Dos Sicilias, se busca forzar que su estado se rinda, debemos enfocarnos en esos dos objetivos estrategicos.^^- Conquistar la capital Siciliana de Napoles.^- Paralizar el reino de las dos Sicilias, derrotando los ejercitos Borbones, demoliendo sus cimientos y consquistando sus ciudades.^^ Una vez que causemos el suficiente daño a sus estructura economica y militar, esto hará que se rindan a nuestros pies, esto permitirá empezar los procesos de unificación.
 str_italy_unification_defeat_papalstates_desc|Con la idea de unificar Italia, {s1} vas a tener que conquistar los dos estados italianos que subsisten en la peninsula Italiana. uno de esos estados es el Estado Papal, se busca forzar que su estado se rinda, debemos enfocarnos en esos dos objetivos estrategicos.^^- Conquistar la Capital Italiana de Roma.^- Paralizar el estado Papal, derrotando el ejercito Papal,  demoliendo sus cimientos y consquistando sus ciudades.^^ Una vez que causemos el suficiente daño a sus estructura economica y militar, esto hará que se rindan a nuestros pies, esto permitirá empezar los procesos de unificación.
+str_turkish_conservative|Muhafazakarlar
+str_turkish_liberal|Jön Türkler
+str_turkish_socialist|Sosyalistler
+str_italian_right|Destra
+str_italian_left|Sinistra
+str_italian_farleft|Estrema sinistra
+str_italian_socialist|Partito Socialista Italiano
+str_italian_right_desc|Destra
+str_italian_left_desc|Sinistra
+str_italian_farleft_desc|Far Left Party is a radical liberal party seeking liberal freedoms as well as minimal social welfare reforms.
+str_italian_socialist_desc|Partito Socialista Italiano
+str_dutch_socialist|Sociaal-Democratische partij
+str_dutch_socialist_desc|Sociaal-Democratische Arbeiderspartij
+str_spanish_conservative|Partido Conservador
+str_spanish_liberal|Partido Liberal
+str_spanish_socialist|Partido Socialista Obrero
+str_spanish_conservative_desc| 
+str_spanish_liberal_desc| 
+str_spanish_socialist_desc| 
+str_iran_conservative|Moderate Party
+str_iran_liberal|Liberal Party
+str_iran_socialist|Socialist Party
+str_portugal_conservative|Partido Regenerador
+str_portugal_liberal|Partido Histórico
+str_portugal_liberal_late|Partido Republicano
+str_portugal_socialist|Partido Socialista
+str_denmark_conservative|Højre
+str_denmark_liberal|De Nationalliberale
+str_denmark_liberal_late|Danmarks Liberale Parti
+str_denmark_socialist|Socialdemokraterne
+str_greece_conservative|Komma Ethnikofronon
+str_greece_liberal|Neoteristikon Komma
+str_greece_socialist|Sosialistiko Komma
+str_romania_conservative|Partidul Conservator
+str_romania_liberal|Partidul Național Liberal
+str_romania_socialist|Partidul Muncei
+str_belgium_conservative|Parti catholique
+str_belgium_liberal|Parti libéral
+str_belgium_socialist|Parti ouvrier
+str_serbia_conservative|Narodna radikalna stranka
+str_serbia_liberal|Liberalna partija
+str_serbia_socialist|Srpska socijaldemokratska partija
 str_liberal_party|Liberal Party
 str_conservative_party|Conservative Party
 str_reactionary_party|Reactionary Party
@@ -3303,7 +3345,7 @@ str_liberals_desc|Los Liberales son un grupo de Intelectuales que creen en que e
 str_legitimists|Légitimistes
 str_bonapartists_liberal|Bonapartistes Libéraux
 str_bonapartists_auth|Bonapartistes Autoritaires
-+str_legitimists_desc|Los Légitimistes son realistas que adhieren a los derechos de sucesión de dinastia a la corona Francesa de los descendientes de la dinastia Borbona, quienes fueron derrocados en la revolución de 1830. Ellos estan en el ala derecha con perspectivas anti-revolucionarias. mientas no esten en contra de la monarquía constitucional, ellos se esfuerzan en que la aristocracia tengan el poder político en Francia, y también estan en contra del bienestar social y las politicas agresivas extranjeras.
+str_legitimists_desc|The Legitimists are royalists who adhere to the rights of dynastic succession to the French crown of the descendants of the eldest branch of the Bourbon dynasty, which was overthrown in the 1830 July Revolution. They hold right wing, counter-revolutionary views. While not being against constitutional monarchy, they strive to ensure that the aristocracy has all political power in France, and also stand against social welfare and agressive foreign policy.
 str_bonapartists_liberal_desc|Los Bonapartistes es una ideología política que son resultado de Napoleón Bonaparte, sus adeptos y sucesores. El termino fue usado después para referirse a la gente que manifestaba la restauración de la Casa de Bonaparte como estilo de gobierno. Este bloque fue creado por Bonapartistas Liberales que creian en la libertad de expresión, en la delegación de la gobernación y la equidad de la ley en general.
 str_bonapartists_auth_desc|El Bonapartismo es una ideología resultante de Napoleón Bonaparte, sus adeptos y sucesores. El termino fue usado después para referirse a la gente que manifestaba a la restauración de la Casa de Bonaporte como estilo de gobierno. Este bloque fue creado por Bonapartistas Conservadores quienes estaban basados en las ideas tradicionales de Bonaparte en lugar de las ideas más liberales que trajo la revolución de 1791.
 str_soyuz17okt|Soyuz 17 Oktyabrya
@@ -3353,6 +3395,9 @@ str_catholic_right|Parti Populaiare Catholique
 str_liberal_centre|Libéraux Modérés
 str_tories|Conservative Party (Tories)
 str_whigs|Liberal Party (Whigs)
+str_conservative_desc|Conservative parties stand for the preservation of the old order, and a revision from recent liberal reformations. With most of their representatives belonging to the privileged aristocracy, most of them oppose liberal reforms and social welfare striving to maintain their own political power while limiting the new 'nouveau riche' strata from attaining political power. They unapologetically support governmental actions, as long as the government belongs to their own political persuasions, and aggressive foreign policy.
+str_liberal_desc|Liberals clasically seek certain political freedom for all estates and are heavily supportive of laissez-faire economic policies such as free trade and minimal tolls. Consisting primarily of the bourgeoisie, the developing middle class in the cities, they only support social reforms in an incrementalistic manner.
+str_socialist_desc|Socialist parties support the political and economic empowerment of the lower classes; in Marxist terms the proletariat and Lumpenproletariat. They will persue their goals with little room for compromise and view the upper classes, namely the aristocracy and bourgeoise as their open and declared enemy. Political zealousness with manifest itself especially during wartime, and prolonged and unsuccessful wars often help socialists in rallying the population behind themselves.
 str_tories_desc|Partido Conservador en el imperio britanico se origina en la facción politica Tories. Sus vistas politicas son el tradicionalismo y el conservadurismo, estos defienden las ideas de la herencia, el ordén natural y la aristocracia.
 str_whigs_desc|Partido Liberal en el imperio Britanico se origina en la facción politica Whigs. Este persigue el liberalismo sobre los altras estratos de la población y busca politicas basadas en Laissez Faire como el libre comercio y la interferencia minima en la economia.
 str_party_color1|party color1
@@ -3371,6 +3416,7 @@ str_party_color13|party color13
 str_party_color14|party color14
 str_party_color15|party color15
 str_party_color16|party color16
+str_party_color17|party color17
 str_smokepillar1_01|smokepillar1 01
 str_smokepillar1_02|smokepillar1 02
 str_smokepillar1_03|smokepillar1 03
@@ -4106,4 +4152,26 @@ str_lord_surname_greek7|Dimitriou
 str_lord_surname_greek8|Kalogeros
 str_lord_surname_greek9|Gavras
 str_lord_surname_greek10|Kouris
-str_players_political_party_name|Partido Político
+str_players_political_party_name|Partido Polític
+str_movements_liberal_desc|Liberal movement demands establishment of parliament,^universal, equal and direct suffrage and regions autonomy.^Mainly supported and funded by bourgeoisie, it's popularity^depends on their wealth and quality of life levels.
+str_movements_socialist_desc|Socialist movement demands social welfare laws,^which lead to governmental investment in economic^development and protection of the economic rights^of the lower class. It's popularity depends on^lower classes quality of life levels.
+str_movements_propeace_desc|Pacifist movement is a result of being^involved in wars. It's supporters are demanding peace at^any cost. It's popularity depends on success of the^wars - the less successful war is, the more^popularity pacifist movement has. High popularity^of pacifist movement increases political activity^of population, which can shift on other movements.^Successful war will decrease popularity of pacifist movement.
+str_popularity_desc|Popularity level represents widespreadness of the^movement in country. High popularity level will lead to^mass protests in support of movement, and will raise^radicalism level. Enforcing demands of movement will^decrease movement popularity level.
+str_radicalism_desc|Radicalism level represents willingness of movement^supporters to enforce their demands with force. High^level of radicalism will lead to riots and rebellions,^and success of the latter can lead to^revolution and civil war. Radicalism level is being^increased by high popularity level and low influence^of ruling party compared to influence of other parties. Enforcing demands of movement will^decrease movement radicalism level.
+str_voting_franchise_desc|Voting Franchise law defines which classes of population^have right to vote, both in parliament and executive^branch elections. Different vote franchise laws will result in different^parliament and executive branch compositions depending on levels of parties' support of different classes.
+str_voting_openness_desc|Ruling Party Influence law defines how ruling party^influences voters during elections, which can help ruling^party get more votes.
+str_nomination_rules_desc|Nomination Rules law defines amount of land citizen^need to be able to be nominated and be voted for in parliament.^Universal nomination rule will lead to lower classes having more^weight in parliament and executive branch.
+str_executive_branch_desc|Executive Branch Elective Posts law defines how^many executive branch posts are being selected by elections.
+str_public_meetings_desc|Allowing public meetings will inrease quality of^life of population, while increasing movements popularity levels.
+str_workers_wage_desc|Minimum Worker Wage law makes factory owners to not^decrease wage of workers below level defined in law, increasing^quality of life of lower classes, while increasing spending of factories.
+str_workers_conditions_desc|Maximum Work Hours law defines maximum amount^of work hours in a day. Lower values will slighty decrease^productivity of industry while increasing quality of life of lower classes.
+str_press_desc|Press law defines level of censorship in mass media  More^free press will lead to ruling party having less influence and^increasing quality of life of the population.
+str_trade_unions_desc|Allowing trade unions results in higher quality of^life for population, wjile also leading to factory owners funding^in increasing workers conditions in their factories more often
+str_child_labour_desc|Putting child labour under restrictions will lead^to higher quality of life, while increasing wage spendings of^factories.
+str_infrastructure_expenses_desc|Higher infrastructure expenses will lead^to faster development of infrastructure in all regions. and^slower damaging during war.
+str_education_expenses_desc|Higher education expenses will increase speed^of literacy level growing.
+str_healthcare_expenses_desc|Higher healthcare expenses will increase speed^of population growing.
+str_military_expenses_desc|Higher military expenses will increase supply^level of army, if supplies are available.
+str_income_tax_desc|Higher income tax will increase budget income, while^decreasing wealth of population.
+str_goodsservices_tax_desc|Goods and services tax is being imposed to sellers^of any resources which are citizens of this country.^Higher tax will decrease income of factories.
+str_importexport_tax_desc|Import tax is being imposed to any resources being^transported over this country borders. Lesser tax will^increase income of factories and attract more foreign resource buyers.

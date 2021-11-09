@@ -78,11 +78,12 @@ mno_camp_action|Emprended una acción.
 mno_camp_wait_here|Esperad aquí un momento.
 mno_camp_cheat|¡MENU DE TRUCOS!
 menu_camp_cheat|Seleccionad truco:
-+mno_start_civil_war_in_belgium|Empezar la guerra civi en Belgica.
+mno_start_civil_war_in_belgium|Start civil war in Belgium.
 mno_jump_to_socialism_rebellion_won|Ir al menú de la rebelión Liberal.
 mno_camp_cheat_400_pes_pps_iterations|Simular iteraciones de 400 PES/PPS.
 mno_camp_cheat_20_pes_pps_iterations|Simular iteraciones de 20 PES/PPS.
 mno_camp_cheat_dds|Open Debug Display Slots.
+mno_display_pas_debug_messages|Toggle display PAS debug messages.
 mno_camp_cheat_all_factions_research_all_tech|Aplicar inmediatamente todas las investigaciones de la facción.
 mno_camp_cheat_find_item|Cambiar clima.
 mno_camp_action_4|Regresad al menú del campamento.
@@ -90,6 +91,7 @@ menu_camp_action|Elegid una acción:
 mno_camp_action_pas_enlistment_retire|Retirarte de la Aventura.
 mno_camp_recruit_prisoners|Reclutad algunos de los prisioneros para el grupo.
 mno_action_read_book|Seleccionad un libro para leer.
+mno_action_rename_kingdom2|Rename faction.
 mno_action_rename_kingdom|Cambiar de nombre a vuestro reino.
 mno_action_change_flag|Cambiar la bandera de tu nación.
 mno_action_promote_kingdom_custom_troop|Personalizar el ejercito de tu facción.
@@ -542,9 +544,6 @@ menu_establish_court|Para establecer vuestra corte en {s4} harán falta ciertas 
 mno_establish|Establecer vuestra corte en {s4} 
 menu_notification_relieved_as_marshal|{s4} desea informaros de que vuestros servicios como mariscal ya no son necesarios. Para honrar vuestros valerosos esfuerzos a favor del reino en los últimos {reg4} días, no obstante, {reg5?ella:él} os ofrece una bolsa con {reg5} Libras.
 menu_weather_report|{s1}
-menu_start_game_choose_ai_behavior|Escoge el comportamiento de las facciones.
-mno_start_game_choose_ai_behavior_historical|Histórico.
-mno_start_game_choose_ai_behavior_random|Aleatorio.
 menu_start_game_choose_date|Escoge la época de la partida, esto afectará el nivel militar, fronteras y tecnologico de los paises.
 mno_start_game_choose_date_1860|1860.
 mno_start_game_choose_date_1878|1878.
@@ -561,10 +560,6 @@ mno_game_speed_slow|Lento (Un año pasa en 20 days) - Recomendado.
 mno_game_speed_very_slow|Muy lento (Un año pasa en 25 dias).
 mno_game_speed_extremely_slow|Extremandamente lento (Un año pasa en 30 dias).
 mno_game_speed_minimum|Realista (Un año pasa en 365 dias).
-menu_start_game_ai_party_size_selection|Selecciona el tamaño preferido de las tropas, Esto afectará la cantidad maxima de soldados de los personajes, esto no se puede cambiar en la partida.
-mno_start_game_ai_party_size_selection_100|100 - Pequeño (El tamaño de la batalla deberá ser de al menos 200).
-mno_start_game_ai_party_size_selection_125|125 - Medio (El tamaño de la batalla deberá ser de al menos 300).
-mno_start_game_ai_party_size_selection_150|150 - Grande (El tamaño de la batalla deberá ser de al menos 400).
 menu_change_game_speed|Selecciona la veloicdad del juego.
 mno_game_speed_debug|Modo depurador (Un año para en un dia).
 menu_cannoneers_store|Los soldados te dejan pasar al arsenal, aquí podras ordenar armamento pesado, cañon de campaña y obuses.^^ Tu dinero es de {reg0} Libras.^^^ Debes tener en cuenta que los cañones no aparecen en batalla a menos que tengas las compañias colocadas en el menu de prebatalla.
@@ -665,14 +660,14 @@ menu_balkanwars_event2|Guerra contra el imperio Otomano
 menu_balkanwars_event3|Guerra contra Bulgaria
 mno_balkanwars_event3_s1|{s1}
 mno_balkanwars_event3_dont_take_part|No participar en la guerra.
-+menu_pas_civil_war_side_choose|La Nación a la que has dado juramento se esta por dividir en dos facciones que estan al borde del estallido. Eres libre de escoger en que lado luchar y tus soldados pelearan contigo.
+menu_pas_civil_war_side_choose|Nation you have given your oath to is now split in two warring factions. You are free to choose side to fight with, and your soldiers are willing to follow you whatever side you uchoose.
 mno_pas_civil_war_side_choose_option1|Ingresar a la revolución y combatir a los seguidores del viejo regimen en la guerra civil.
 mno_pas_civil_war_side_choose_option2|Mantenerse leal al viejo gobierno y combatir a los revolucionarios.
 menu_socialism_demonstration|¡Protestas en {s2}!^^Unos grupos formaron una protesta por los problemas economicos en {s2}.^Muchisimos subversivos lideras por {s3} generaron una protesta pacifica para demostrar su enojo al estado en {s1}.^Los manifestantes son de diferentes clases sociales y de todas las edades, marcharon por más de 5 kilometros por las calles principales de la ciudad.^Más alla de la fuerte presencia de fuerzas de seguridad en la ruta, los manifestantes expresaron abiertamente el odio al estado mediante las canciones.^Cuando llegaron a {s2}, una inmensa cantidad de la muchedumbre empezaron a cantar 'La Internacional', mientras que otros condenaron como {s1} manejaron los eventos recientes.^^Se empezo a notar que la multitud estaba formada por simpantizantes del socialismo, la policía rodeó a este grupo, bloqueandoles el camino a la plaza.
 mno_socialism_demonstration_option1|Ignorar las protestas y esperar que se dispersen.
 mno_socialism_demonstration_option2|Reprimir la multitud con la policía usando armas contundentes.
 mno_socialism_demonstration_option3|Reprimir la multitud con la policía usando armas de fuego.
-+menu_socialism_riot|Riot in {s2}!^^Después del constante sufrimiento por el maltrato y las pobres condiciones laborales, las uniones de trabajadores organizaron un disturbio en {s2} para demostrar el descontento contra el gobierno, ellos empezaron a caminar a traves de las calles al canto de 'La Internacional', armados con palos, tablones y otras armas contundentes para romper algunos edificios, detonando las ventanas, prendiendo fuego muebles y casas, y marchando al municipio. Cuando llegaron la situación escaló muy rapido y los guardias perdieron el control y se armó una batalla campal, esto empeoró más todavia la situación.
+menu_socialism_riot|Riot in {s2}!^^After constant suffering from mistreatment and poor working condition, worker unions arranged a riot in {s2} to show their discontent against the government, they began in walking through the streets, chanting 'The Internationale', they brought makeshift weapons like clubs, wooden plank, and others and began to destroy several buildings, wrecking the windows, furnitures and even burned some buildings beyond recognition and then, they are heading to the government building. Chanting songs and shouting insults to the guards guarding the building. The situation escalated quickly and the guards quickly lose control over the crowd and the workers become very agressive, thus worsening the situation greatly.
 mno_socialism_riot_option1|Reprimir a los manifestantes, sin el uso letal de la fuerza.
 mno_socialism_riot_option2|Reprimir a los manifestantes, con el uso letal de la fuerza.
 menu_socialism_rebellion|¡El movimiento socialista esta creciendo!^^Miles de trabajadores disgustados con el gobierno unidos bajo la bandera revolucionaria. Creando un ala armada y subversiva que tomaron varios edificios del gobierno proclamando que la revolución tan esperada del proletariado esta en marcha por el pueblo, y la masa revoltosa gritó con el alma eslogans socialistas y cantando ''La Internacional''. Mientras tanto, se amotinaron en varios lugares en diferentes distritos para prevenir el contrataque de la policía y el ejercito. Las cosas escalaron muy rapido, la rebelión empieza y la nación esta al borde de la guerra civil.
@@ -694,4 +689,4 @@ mno_liberal_rebellion_option2|Ingresar a los rebeldes en la revolución democrá
 mno_liberal_rebellion_option3|Negociar con los rebeldes, proponiendo establecer un parlamento.
 menu_liberal_rebellion_won|¡Revolución!^^No pudieron reprimir la rebeldía de la gente, ya que la rebelión creció en casí todas las ciudades y pueblos de la nación. La sociedad esta dividida en dos, los Liberales y los reaccionarios. Con la declaración del estado de guerra por el (monarca/presidente), la guerra civil ha empezado. preanunciando muertes entre los liberales y los reaccionarios en la nueva y brutal guerra civil.
 mno_liberal_rebellion_won_option1|Seguir peleando lealemnte a tus comandantes contra los revolucionarios en la guerra civil.
-mno_liberal_rebellion_won_option2|Ingresar a la revolución y establecer un gobierno democrático.
+mno_liberal_rebellion_won_option2|Ingresar a la revolución y establecer un gobierno democrático
