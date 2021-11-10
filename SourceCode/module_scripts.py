@@ -69351,7 +69351,7 @@ scripts = [
 		(agent_set_speed_modifier, ":cannoneer1", 50),
 		(agent_set_speed_modifier, ":cannoneer2", 50),
 		(prop_instance_get_position, pos10, ":body"),
-		(position_move_y, pos10, 240, 0),
+		(position_move_y, pos10, 350, 0),
 		(set_fixed_point_multiplier, 100),
 		(position_get_x, ":pos_x", pos10),
 		(position_get_y, ":pos_y", pos10),

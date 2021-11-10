@@ -1,4 +1,4 @@
-1670
+1674
 qstr_res_cape1 res_cape1
 qstr_res_cape2 res_cape2
 qstr_thawb1_belt1 thawb1_belt1
@@ -1669,3 +1669,7 @@ qstr_Rebellion_in_{s1}:_j Rebellion_in_{s1}:_jacobin_rebels_took_up_arms_and_are
 qstr__{s3} -{s3}
 qstr_+{reg4}%_to_troops_e +{reg4}%_to_troops_experience
 qstr_Your_party_is_being_ Your_party_is_being_reinforced_by_{reg1}_{s1}.
+qstr_Reinforcements_are_w Reinforcements_are_well_trained:
+qstr_Reinforcements_are_s Reinforcements_are_sufficiently_trained:
+qstr_Reinforcements_are_p Reinforcements_are_poorly_trained:
+qstr_Reinforcements_are_h Reinforcements_are_hardly_trained:
