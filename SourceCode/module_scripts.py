@@ -72079,6 +72079,17 @@ scripts = [
 	(try_end),
 ]),
 
+# ("pps_process_austria_collapse",
+# [
+
+	# (try_begin),
+	# (eq, "$player_faction_preset", "fac_kingdom_3"),
+	# (assign, ":faction_austria", "fac_player_supporters_faction"),
+	# (else_try),
+	# (assign, ":faction_austria", "fac_kingdom_3"),
+	# (try_end),
+# ]),
+
 ]# modmerger_start version=201 type=2
 try:
     component_name = "scripts"
