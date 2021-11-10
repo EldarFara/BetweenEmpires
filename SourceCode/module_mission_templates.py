@@ -20,6 +20,31 @@ from header_skills import *
 pilgrim_disguise = [itm_ammo_pistol, itm_dagger, itm_sidearm_colt_m1851_navy, itm_clothes_urban_male_trousers1, itm_civilian_hat1, itm_clothes_urban_male1]
 af_castle_lord = af_override_horse | af_override_weapons| af_require_civilian
 
+player_prone_100ms = (
+0.1, 0, 0, [],
+[
+(get_player_agent_no, ":player"),
+	(try_begin),
+	(game_key_is_down, gk_crouch),
+	(val_add, "$player_prone_timer", 1),
+	(ge, "$player_prone_timer", 6),
+	(agent_get_animation, ":animation", ":player", 1),
+		(try_begin),
+		(neq, ":animation", "anim_prone_rifle_noweapon"),
+		(agent_get_horse, ":horse", ":player"),
+		(eq, ":horse", -1),
+		(agent_set_animation, ":player", "anim_prone_rifle_noweapon", 0),
+		(agent_set_animation, ":player", "anim_prone_rifle_noweapon", 1),
+		(else_try),
+		(eq, ":animation", "anim_prone_rifle_noweapon"),
+		(agent_set_animation, ":player", "anim_YuriCancelAnimation", 0),
+		(agent_set_animation, ":player", "anim_YuriCancelAnimation", 1),
+		(try_end),
+	(else_try),
+	(assign, "$player_prone_timer", 0),
+	(try_end),
+])
+
 pps_death = (
 ti_on_agent_killed_or_wounded, 0, 0, [],
 [
@@ -4242,8 +4267,9 @@ pbs_company_discipline = (0.2, 0, 0, [
 			(this_or_next|neq, ":faction", "fac_player_supporters_faction"),
 			(faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_active),
 			(faction_get_slot, ":supplied_by_military_supplies", ":faction", slot_faction_supplied_by_military_supplies),
-			(store_sub, ":discipline_supply_penalty", 100, ":supplied_by_military_supplies"),
-			(val_div, ":discipline_supply_penalty", 5),
+			(le, ":supplied_by_military_supplies", 70),
+			(store_sub, ":discipline_supply_penalty", 70, ":supplied_by_military_supplies"),
+			(val_mul, ":discipline_supply_penalty", 20),
 			(val_sub, ":discipline", ":discipline_supply_penalty"),
 			(try_end),
 		(val_sub, ":discipline", ":penaltytodiscipline_fromfire"),
@@ -6686,6 +6712,7 @@ bms = (ti_before_mission_start, 0, 0, [
 (assign, "$battle_timer", 0),
 (assign, "$g_player_team", -1),
 (assign, "$number_of_craters", 0),
+(assign, "$player_prone_mode", 0),
 #(display_message, "@debug bms end"),
 ], [])
 ams = (ti_after_mission_start, 0, 0, [
@@ -6694,6 +6721,7 @@ ams = (ti_after_mission_start, 0, 0, [
 parabellum_script_set_battle = [
 ams,
 bms,
+player_prone_100ms,
 player_death,
 pps_death,
 interior_bugfix,

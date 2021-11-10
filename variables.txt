@@ -1897,3 +1897,5 @@ g_custom_troops_lmg_title
 g_custom_troops_smg_title
 peace_negotiations_victory_points_text
 peace_negotiations_victory_points_used_text
+player_prone_mode
+player_prone_timer
