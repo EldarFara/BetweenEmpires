@@ -3001,7 +3001,15 @@ the high lords and common folk across the many realms of Europe."),
    [
      ],
     [
-	
+	("camp_action_enable_faction_reinforcements_to_player", [(ge, "$players_kingdom", "fac_player_supporters_faction"),(eq, "$enable_faction_reinforcements_to_player", 0),],"Enable automatic reinforcements.",
+       [
+	   (assign, "$enable_faction_reinforcements_to_player", 1),
+        ]),
+	("camp_action_disable_faction_reinforcements_to_player", [(ge, "$players_kingdom", "fac_player_supporters_faction"),(eq, "$enable_faction_reinforcements_to_player", 1),],"Disable automatic reinforcements.",
+       [
+	   (assign, "$enable_faction_reinforcements_to_player", 0),
+        ]),
+		
 	("camp_action_pas_enlistment_retire", [],"Retire from service.",
        [
 (call_script, "script_pas_enlistment_retire"),
