@@ -9,7 +9,7 @@ gtf_has_color  = 0x00000004 #you can overwrite the ambient color of the ground s
 #arguments:
 #spec_name, flags, material, uv_scale, multitex_material_name, gtf_has_color->color
 ground_specs = [
-    ("gray_stone",gtf_has_color,"stone_a",4.0,"none",(0.7,0.7,0.7)),
+    ("gray_stone",gtf_has_color,"stone_a",2,"none",(0.7,0.7,0.7)),
     ("brown_stone",gtf_has_color,"patch_rock",2,"none",(0.7,0.7,0.7)),
     ("turf",gtf_overlay|gtf_has_color,"terrain_grass",2,"ground_earth_under_grass",(0.42,0.59,0.17)),
     ("steppe",gtf_overlay|gtf_dusty|gtf_has_color,"ground_steppe",2,"ground_earth_under_steppe",(0.85,0.73,0.36)),
@@ -19,7 +19,7 @@ ground_specs = [
     ("forest",gtf_overlay|gtf_has_color,"ground_forest",2,"ground_forest_under_grass",(0.6,0.42,0.28)),
     ("pebbles",gtf_overlay|gtf_has_color,"pebbles",4.1,"none",(0.7,0.7,0.7)),
     ("village",gtf_overlay|gtf_has_color,"ground_village",7.0,"none",(1.0,0.9,0.59)),
-    ("path",gtf_overlay|gtf_dusty|gtf_has_color,"ground_path",6.0,"none",(0.93,0.68,0.34)),
+    ("path",gtf_overlay|gtf_dusty|gtf_has_color,"ground_path",2,"none",(0.93,0.68,0.34)),
 ]
 
 def write_vec(file,vec):

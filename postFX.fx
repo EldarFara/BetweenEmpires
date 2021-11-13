@@ -275,7 +275,7 @@ float4 ps_main_brightPass(uniform const bool with_luminance, float2 inTex: TEXCO
 		color.rgb = max(0.0f, color.rgb - BrightpassTreshold);
 		/*color.rgb = pow(color.rgb, BrightpassPostPower);
 		*/
-		float intensity = dot(color.rgb, float3(.5f, .5f, .5f));
+		float intensity = dot(color.rgb, float3(.2f, .2f, .2f));
 		float bloom_intensity = pow(intensity, BrightpassPostPower);
 		color.rgb = color.rgb * ( bloom_intensity/intensity );
 	}

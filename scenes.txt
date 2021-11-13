@@ -1,5 +1,5 @@
 scenesfile version 1
- 2059
+ 2060
 scn_random_scene random_scene 1792 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x0000000239600563000ad6b500003efe00004b3400002a5b 
   0 
   0 
@@ -8232,7 +8232,11 @@ scn_town_european_walls3 town_european_walls3 256 none none 0.000000 0.000000 10
   0 
   0 
  outer_terrain_plain 
-scn_town_european_walls4 town_european_walls4 256 none none 0.000000 0.000000 100.000000 100.000000 -100.000000 0x0000000230000500000a7e990000175600000d3b00004440 
+scn_town_european_walls4 town_european_walls4 256 none none 0.000000 0.000000 100.000000 100.000000 -100.000000 0x0000000030000500000d234800000b000000119c00006b3a 
+  0 
+  0 
+ outer_terrain_plain_nomansland 
+scn_town_european_walls5 town_european_walls5 256 none none 0.000000 0.000000 100.000000 100.000000 -100.000000 0x0000000030000600000d2348000078360000574300007fcc 
   0 
   0 
  outer_terrain_plain 

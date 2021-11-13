@@ -1624,14 +1624,11 @@ the high lords and common folk across the many realms of Europe."),
       (try_end),
 
 	(troop_add_item, "trp_player", ":pistol", 0),
+(troop_equip_items, "trp_player"),
 
            (try_begin),
              (eq, "$background_type", cb_noble),
              (jump_to_menu, "mnu_auto_return"),
-#normal_banner_begin
-            # (start_presentation, "prsnt_banner_selection"), # parabellum cut
-#custom_banner_begin
-#             (start_presentation, "prsnt_custom_banner"),
            (else_try),
              (change_screen_return, 0),
            (try_end),
@@ -5675,7 +5672,11 @@ the high lords and common folk across the many realms of Europe."),
                                                        (change_screen_mission)]),
       ("castle_cheat_town_european_walls4",[(eq, "$cheat_mode", 1)], "{!}CHEAT! town_european_walls4",[
                                                        (set_jump_mission,"mt_ai_training"),
-                                                       (jump_to_scene,"scn_town_european_walls2"),
+                                                       (jump_to_scene,"scn_town_european_walls4"),
+                                                       (change_screen_mission)]),
+      ("castle_cheat_town_european_walls5",[(eq, "$cheat_mode", 1)], "{!}CHEAT! town_european_walls5",[
+                                                       (set_jump_mission,"mt_ai_training"),
+                                                       (jump_to_scene,"scn_town_european_walls5"),
                                                        (change_screen_mission)]),
       ("castle_cheat_exterior",[(eq, "$cheat_mode", 1)], "{!}CHEAT! Exterior.",[
 #                                                       (set_jump_mission,"mt_town_default"),

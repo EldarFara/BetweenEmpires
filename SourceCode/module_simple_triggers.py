@@ -7960,6 +7960,7 @@ simple_triggers = [
 [
 	(try_begin),
 	(ge, "$players_kingdom", "fac_player_supporters_faction"),
+	(lt, "$pas_enlistment_lord", 1),
 	(faction_get_slot, ":lineinf", "$players_kingdom",  slot_faction_troop_lineinf),
 	(gt, ":lineinf", 0),
 	(faction_get_slot, ":reinforcements_number", "$players_kingdom", slot_faction_reinforcements_rate),

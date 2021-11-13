@@ -1,5 +1,5 @@
 scene_propsfile version 1
- 1815
+ 1868
 spr_invalid_object 0 0 question_mark 0 0
 
 
@@ -5668,5 +5668,164 @@ spr_mg7_american 65536 0 mg7_american bo_mg1 1
 
 spr_mg7_american_barrel 65536 0 mg7_american_barrel 0 1
 -40.000000  3 2071 1 1224979098644774912 510 3 1224979098644774912 181 72057594037927936 2133 2 72057594037927938 1224979098644774912 
+
+
+spr_0siege_tree_destroyed1 0 0 tree_destroyed1 0 0
+
+
+spr_0siege_tree_destroyed2 0 0 tree_destroyed2 0 0
+
+
+spr_0siege_tree_destroyed3 0 0 tree_destroyed3 0 0
+
+
+spr_0siege_tree_destroyed4 0 0 tree_destroyed4 0 0
+
+
+spr_0siege_sandbag1 0 0 sandbag1 0 0
+
+
+spr_0siege_sandbag2 0 0 sandbag2 0 0
+
+
+spr_0siege_sandbag3 0 0 sandbag3 0 0
+
+
+spr_0siege_sandbag4 0 0 sandbag4 0 0
+
+
+spr_0siege_sandbags_clustered1 0 0 sandbags_clustered1 0 0
+
+
+spr_0siege_sandbags_clustered2 0 0 sandbags_clustered2 0 0
+
+
+spr_0siege_trench_catwalk1 0 0 trench_catwalk1 0 0
+
+
+spr_0siege_trench_catwalk2 0 0 trench_catwalk2 0 0
+
+
+spr_0siege_trench_catwalk3 0 0 trench_catwalk3 0 0
+
+
+spr_0siege_trench_catwalk4 0 0 trench_catwalk4 0 0
+
+
+spr_0siege_trench_parapet1 0 0 trench_parapet1 bo_trench_parapet1 0
+
+
+spr_0siege_trench_parapet2 0 0 trench_parapet2 bo_trench_parapet1 0
+
+
+spr_0siege_trench_roof1 0 0 trench_roof1 0 0
+
+
+spr_0siege_trench_roof2 0 0 trench_roof2 0 0
+
+
+spr_0siege_trench_roof3 0 0 trench_roof3 bo_trench_roof3 0
+
+
+spr_0siege_trench_roof_cloth 0 0 trench_roof_cloth 0 0
+
+
+spr_0siege_trench_tunnel1 0 0 trench_tunnel1 bo_trench_tunnel1 0
+
+
+spr_0siege_trench_wall_embed 0 0 trench_wall_embed bo_trench_wall_embed 0
+
+
+spr_0siege_trench_wall1 0 0 trench_wall1 0 0
+
+
+spr_0siege_trench_wall1_long 0 0 trench_wall1_long 0 0
+
+
+spr_0siege_trench_wall2 0 0 trench_wall2 0 0
+
+
+spr_0siege_trench_wall3 0 0 trench_wall3 0 0
+
+
+spr_0siege_trench_wall4 0 0 trench_wall4 0 0
+
+
+spr_0siege_trench_wall4_long 0 0 trench_wall4_long 0 0
+
+
+spr_0siege_trench_wall_destroyed1 0 0 trench_wall_destroyed1 0 0
+
+
+spr_0siege_trenchbridge 0 0 trenchbridge bo_trenchbridge 0
+
+
+spr_0siege_trench1 0 0 trench1 bo_trench1 0
+
+
+spr_0siege_trench2 0 0 trench2 bo_trench2 0
+
+
+spr_0siege_house_ruins1 0 0 house_ruins1 bo_house_ruins1 0
+
+
+spr_0siege_house_ruins2 0 0 house_ruins2 0 0
+
+
+spr_0siege_house_ruins2b 0 0 house_ruins2b 0 0
+
+
+spr_0siege_house_ruins3 0 0 house_ruins3 0 0
+
+
+spr_0siege_house_ruins3b 0 0 house_ruins3b 0 0
+
+
+spr_0siege_house_ruins4 0 0 house_ruins4 0 0
+
+
+spr_0siege_house_ruins4b 0 0 house_ruins4b 0 0
+
+
+spr_0siege_house_ruins5 0 0 house_ruins5 0 0
+
+
+spr_0siege_house_ruins5b 0 0 house_ruins5b 0 0
+
+
+spr_0siege_house_ruins6 0 0 house_ruins6 0 0
+
+
+spr_0siege_house_ruins6b 0 0 house_ruins6b 0 0
+
+
+spr_0siege_house_ruins7 0 0 house_ruins7 0 0
+
+
+spr_0siege_house_ruins7b 0 0 house_ruins7b 0 0
+
+
+spr_0siege_treelogstack1 0 0 treelogstack1 bo_treelogstack1 0
+
+
+spr_0shared_backdrop_houses1 0 0 backdrop_houses1 0 0
+
+
+spr_0shared_backdrop_houses2 0 0 backdrop_houses2 0 0
+
+
+spr_0siege_shells_pile1 0 0 shells_pile1 bo_shells_pile1 0
+
+
+spr_0siege_fort1 0 0 fort1 0 0
+
+
+spr_0shared_house1 0 0 house1 bo_house1 0
+
+
+spr_0shared_goods_pile2 0 0 goods_pile2 0 0
+
+
+spr_0shared_goods_pile3 0 0 goods_pile3 0 0
 
 

@@ -2057,4 +2057,5 @@ scn_town_arab_walls = 2055
 scn_town_european_walls2 = 2056
 scn_town_european_walls3 = 2057
 scn_town_european_walls4 = 2058
+scn_town_european_walls5 = 2059
 scn_exit = 100000
