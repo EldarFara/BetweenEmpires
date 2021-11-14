@@ -4166,6 +4166,8 @@ scene_props = [
 ("0siege_trenchbridge",0,"trenchbridge","bo_trenchbridge", []),
 ("0siege_trench1",0,"trench1","bo_trench1", []),
 ("0siege_trench2",0,"trench2","bo_trench2", []),
+("0siege_trench1_big",0,"trench1_big","bo_trench1_big", []),
+("0siege_trench2_big",0,"trench2_big","bo_trench2_big", []),
 ("0siege_house_ruins1",0,"house_ruins1","bo_house_ruins1", []),
 ("0siege_house_ruins2",0,"house_ruins2","0", []),
 ("0siege_house_ruins2b",0,"house_ruins2b","0", []),
@@ -4187,6 +4189,8 @@ scene_props = [
 ("0shared_house1",0,"house1","bo_house1", []),
 ("0shared_goods_pile2",0,"goods_pile2","0", []),
 ("0shared_goods_pile3",0,"goods_pile3","0", []),
+
+("pai_mg_position", sokf_invisible, "pai_mg_position", 0, [(ti_on_scene_prop_init,[(store_trigger_param_1, ":prop"),(scene_prop_set_slot, ":prop", slot_prop_is_occupied, 0),]),]),
 
 ]
 

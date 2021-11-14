@@ -1,5 +1,5 @@
 scene_propsfile version 1
- 1868
+ 1871
 spr_invalid_object 0 0 question_mark 0 0
 
 
@@ -5766,6 +5766,12 @@ spr_0siege_trench1 0 0 trench1 bo_trench1 0
 spr_0siege_trench2 0 0 trench2 bo_trench2 0
 
 
+spr_0siege_trench1_big 0 0 trench1_big bo_trench1_big 0
+
+
+spr_0siege_trench2_big 0 0 trench2_big bo_trench2_big 0
+
+
 spr_0siege_house_ruins1 0 0 house_ruins1 bo_house_ruins1 0
 
 
@@ -5827,5 +5833,9 @@ spr_0shared_goods_pile2 0 0 goods_pile2 0 0
 
 
 spr_0shared_goods_pile3 0 0 goods_pile3 0 0
+
+
+spr_pai_mg_position 16384 0 pai_mg_position 0 1
+-40.000000  2 2071 1 1224979098644774912 510 3 1224979098644774912 180 0 
 
 

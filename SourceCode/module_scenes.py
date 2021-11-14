@@ -4349,6 +4349,8 @@ scenes = [
 [],[],"outer_terrain_plain_nomansland"),
 ("town_european_walls5",sf_generate,"none", "none", (0,0),(100,100),-100,"0x0000000030000600000d2348000078360000574300007fcc",
 [],[],"outer_terrain_plain"),
+("town_european_walls6",sf_generate,"none", "none", (0,0),(100,100),-100,"0x0000000130000500000d21f70000378b0000571700002c76",
+[],[],"outer_terrain_plain_nomansland"),
 
 ]
 
