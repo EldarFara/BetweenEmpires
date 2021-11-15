@@ -489,7 +489,7 @@ musket_ramrod_animation_100ms = (
 	(item_get_speed_rating, ":speed", ":item"),
 	(store_sub, ":difference2", ":speed", 40), (val_div, ":difference2", 3),
 	(assign, ":frame_min", 40),
-	(assign, ":frame_max", 100),
+	(assign, ":frame_max", 300),
 	(val_add, ":difference1", ":difference2"),
 	(val_add, ":difference1", 100),
 	(val_mul, ":frame_min", ":difference1"), (val_div, ":frame_min", 100),

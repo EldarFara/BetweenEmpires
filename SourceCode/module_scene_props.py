@@ -4189,6 +4189,8 @@ scene_props = [
 ("0shared_house1",0,"house1","bo_house1", []),
 ("0shared_goods_pile2",0,"goods_pile2","0", []),
 ("0shared_goods_pile3",0,"goods_pile3","0", []),
+("0shared_tree_fallen1",0,"tree_fallen1","0", []),
+("0shared_tree_fallen2",0,"tree_fallen2","0", []),
 
 ("pai_mg_position", sokf_invisible, "pai_mg_position", 0, [(ti_on_scene_prop_init,[(store_trigger_param_1, ":prop"),(scene_prop_set_slot, ":prop", slot_prop_is_occupied, 0),]),]),
 
