@@ -5823,7 +5823,7 @@ spr_0shared_backdrop_houses2 0 0 backdrop_houses2 0 0
 spr_0siege_shells_pile1 0 0 shells_pile1 bo_shells_pile1 0
 
 
-spr_0siege_fort1 0 0 fort1 0 0
+spr_0siege_fort1 0 0 fort1 bo_fort1 0
 
 
 spr_0shared_house1 0 0 house1 bo_house1 0
