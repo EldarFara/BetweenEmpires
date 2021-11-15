@@ -1867,4 +1867,6 @@ spr_0siege_fort1 = 1866
 spr_0shared_house1 = 1867
 spr_0shared_goods_pile2 = 1868
 spr_0shared_goods_pile3 = 1869
-spr_pai_mg_position = 1870
+spr_0shared_tree_fallen1 = 1870
+spr_0shared_tree_fallen2 = 1871
+spr_pai_mg_position = 1872

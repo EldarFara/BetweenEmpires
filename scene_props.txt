@@ -1,5 +1,5 @@
 scene_propsfile version 1
- 1871
+ 1873
 spr_invalid_object 0 0 question_mark 0 0
 
 
@@ -5833,6 +5833,12 @@ spr_0shared_goods_pile2 0 0 goods_pile2 0 0
 
 
 spr_0shared_goods_pile3 0 0 goods_pile3 0 0
+
+
+spr_0shared_tree_fallen1 0 0 tree_fallen1 0 0
+
+
+spr_0shared_tree_fallen2 0 0 tree_fallen2 0 0
 
 
 spr_pai_mg_position 16384 0 pai_mg_position 0 1
