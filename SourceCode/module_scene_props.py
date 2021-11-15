@@ -4185,7 +4185,7 @@ scene_props = [
 ("0shared_backdrop_houses1",0,"backdrop_houses1","0", []),
 ("0shared_backdrop_houses2",0,"backdrop_houses2","0", []),
 ("0siege_shells_pile1",0,"shells_pile1","bo_shells_pile1", []),
-("0siege_fort1",0,"fort1","0", []),
+("0siege_fort1",0,"fort1","bo_fort1", []),
 ("0shared_house1",0,"house1","bo_house1", []),
 ("0shared_goods_pile2",0,"goods_pile2","0", []),
 ("0shared_goods_pile3",0,"goods_pile3","0", []),

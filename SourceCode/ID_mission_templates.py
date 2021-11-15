@@ -48,3 +48,4 @@ mt_alley_fight = 46
 mt_meeting_merchant = 47
 mt_town_fight = 48
 mt_multiplayer_duel = 49
+mt_pct = 50
