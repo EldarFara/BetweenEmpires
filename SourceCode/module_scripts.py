@@ -42,6 +42,7 @@ scripts = [
   ("game_start",
 	[
 (call_script, "script_walled_centers_assign_closest_centers"),
+(assign, "$pct_item_type", pct_item_type_hats),
 (assign, "$preferred_ai_party_size", 125),
 (assign, "$enable_faction_reinforcements_to_player", 1),
 (assign, "$g_display_pas_debug_messages", 0),

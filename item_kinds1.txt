@@ -1772,11 +1772,11 @@ itemsfile version 3
  0
 0
 
- itm_sword_viking_1 Nordic_Sword Nordic_Sword 2  disabled_item_mw 0  disabled_item_mw  3458764513820540928  4194306 9223388564182532111 147 155668 1.500000 100 0 0 0 0 0 99 0 94 0 276 28
+ itm_sword_viking_1 Knife Knife 2  peasant_knife_new 0  peasant_knife_new  3458764513820540928  4194306 9223388564182532111 147 155668 1.500000 100 0 0 0 0 0 99 0 30 0 271 15
  0
 0
 
- itm_sword_viking_2 Nordic_Sword Nordic_Sword 2  disabled_item_mw 0  disabled_item_mw 3458764513820540928  4194306 9223388564182532111 276 155668 1.500000 100 0 0 0 0 0 99 0 95 0 277 29
+ itm_sword_viking_2 Knife Knife 2  peasant_knife_new 0  peasant_knife_new 3458764513820540928  4194306 9223388564182532111 276 155668 1.500000 100 0 0 0 0 0 99 0 30 0 271 15
  0
 0
 

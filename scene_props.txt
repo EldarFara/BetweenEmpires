@@ -4952,10 +4952,10 @@ spr_flag_animated1 65536 0 flag_animated1 0 1
 spr_0siege_spikes1 0 0 spikes1 0 0
 
 
-spr_0siege_platform_planks1 0 0 platform_planks1 0 0
+spr_0siege_platform_planks1 0 0 platform_planks1 bo_platform_planks1 0
 
 
-spr_0siege_platform_planks2 0 0 platform_planks2 0 0
+spr_0siege_platform_planks2 0 0 platform_planks2 bo_platform_planks2 0
 
 
 spr_0siege_nw_cdf 0 0 nw_cdf bo_nw_cdf 0

@@ -9,6 +9,14 @@ from ID_parties import *
 # that it will be easy to change it if you need to.
 ##############################################################
 
+pct_item_type_meleeweapons = 0
+pct_item_type_firearms = 1
+pct_item_type_horses = 2
+pct_item_type_gloves = 3
+pct_item_type_trousers = 4
+pct_item_type_tunics = 5
+pct_item_type_hats = 6
+
 conscription_policy_volunteer_army = 1
 conscription_policy_limited_conscription = 2
 conscription_policy_extended_conscription = 3
@@ -2247,7 +2255,8 @@ troop_slots_reserved_for_relations_start        = 165 #this is based on id_troop
 slot_troop_relations_begin				= 0 #this creates an array for relations between troops
 											#Right now, lords start at 165 and run to around 290, including pretenders
 											
-slot_troop_pas_timer = 1000							
+slot_troop_pas_timer = 1000						
+slot_troop_pct_training_priority = 1001					
 											
 ########################################################
 ##  PLAYER SLOTS           #############################

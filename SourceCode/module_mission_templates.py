@@ -1083,7 +1083,7 @@ pai_1000ms = (1, 0, 0, [
 	(try_begin),
 	(call_script, "script_cf_pai_if_team_global_tactic_is_value", "$ai_attacker_team", pai_global_tactic_attack),
 	(call_script, "script_cf_pai_if_team_timer_is_zero", "$ai_attacker_team"),
-	(call_script, "script_pai_set_team_timer", "$ai_attacker_team", 28),
+	(call_script, "script_pai_set_team_timer", "$ai_attacker_team", 20),
 		(try_for_range, ":group", 0, 3),
 		(call_script, "script_cf_pai_attack_group_get_lead_company", "$ai_attacker_team", ":group"), (assign, ":lead_company", reg1),
 		(call_script, "script_pai_find_teams_company_closest_to_pos", "$ai_defender_team", "$nai_defender_team", pos1), (assign, ":target_team", reg0), (assign, ":target_company", reg1), (neq, ":target_team", -1), (neq, ":target_company", -1),
@@ -22878,20 +22878,30 @@ mission_templates = [
       ],
   ),
 
-   (
-    "pct",0,-1,
-    "desc",
-    [
-     (0,0,0,aif_start_alarmed,1,[]),
-     ],
-    [
-      (0, 0, 0, 
-	  [
-	  ],
-       [
-	   ]),
-    ]
-  ),
+("pct", 0, -1, "desc",
+[ (0, 0, 0, 0, 1, []), ],
+[
+(ti_before_mission_start, 0, 0,  [ (set_skybox, 4, 4), (show_object_details_overlay, 0),], []),
+
+(0, 0, ti_once,  [ (start_presentation, "prsnt_custom_kingdom_troop"), ], []),
+
+(ti_on_agent_spawn, 0, 0,  [ (store_trigger_param_1, ":agent"), (init_position, pos1), (agent_set_position, ":agent", pos1),
+(agent_set_animation, ":agent", "anim_prone_rifle_noweapon", 0), (agent_set_animation, ":agent", "anim_prone_rifle_noweapon", 1), (agent_set_visibility, ":agent", 0), (agent_stop_sound, ":agent"),], []),
+
+(ti_after_mission_start, 0, 0,  [
+(set_fixed_point_multiplier, 1000),
+(spawn_agent, "trp_multiplayer_profile_troop_male"),
+(assign, "$pct_agent", reg0),
+(init_position, pos1), (position_set_x, pos1, 300000), (position_set_y, pos1, 300000), (position_set_z_to_ground_level, pos1), (position_rotate_z, pos1, -25, 1), (agent_set_position, "$pct_agent", pos1), (position_rotate_z, pos1, 25, 1),
+(agent_set_visibility, "$pct_agent", 1), (agent_set_animation, "$pct_agent", "anim_YuriCancelAnimation", 0), (agent_set_animation, "$pct_agent", "anim_YuriCancelAnimation", 1),
+(mission_cam_set_mode, 1, 0, 0),
+(position_move_y, pos1, 150, 0), (position_move_z, pos1, 100, 0), (position_rotate_z, pos1, 180, 1), (position_move_x, pos1, -90, 0), (position_move_y, pos1, 5, 0),
+(mission_cam_set_position, pos1),
+], []),
+
+(0, 0, 0,  [ (neg|is_presentation_active, "prsnt_custom_kingdom_troop"), (neg|is_presentation_active, "prsnt_pct"), (start_presentation, "prsnt_custom_kingdom_troop"),], []),
+
+]),
 
 ]
 
