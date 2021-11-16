@@ -22881,21 +22881,20 @@ mission_templates = [
 ("pct", 0, -1, "desc",
 [ (0, 0, 0, 0, 1, []), ],
 [
-(ti_before_mission_start, 0, 0,  [ (set_skybox, 4, 4), (show_object_details_overlay, 0),], []),
+(ti_before_mission_start, 0, 0,  [ (scene_set_day_time, 0), (set_skybox, 4, 4),], []),
 
 (0, 0, ti_once,  [ (start_presentation, "prsnt_custom_kingdom_troop"), ], []),
 
-(ti_on_agent_spawn, 0, 0,  [ (store_trigger_param_1, ":agent"), (init_position, pos1), (agent_set_position, ":agent", pos1),
-(agent_set_animation, ":agent", "anim_prone_rifle_noweapon", 0), (agent_set_animation, ":agent", "anim_prone_rifle_noweapon", 1), (agent_set_visibility, ":agent", 0), (agent_stop_sound, ":agent"),], []),
+(ti_on_agent_spawn, 0, 0,  [ (store_trigger_param_1, ":agent"), (agent_get_troop_id, ":troop", ":agent"), (neq, ":troop", "trp_multiplayer_profile_troop_male"), (init_position, pos1), (agent_set_position, ":agent", pos1), (agent_set_animation, ":agent", "anim_prone_rifle_noweapon", 0), (agent_set_animation, ":agent", "anim_prone_rifle_noweapon", 1), (agent_set_visibility, ":agent", 0), (agent_stop_sound, ":agent"), (agent_is_non_player, ":agent"), (agent_fade_out, ":agent"),], []),
 
 (ti_after_mission_start, 0, 0,  [
 (set_fixed_point_multiplier, 1000),
 (spawn_agent, "trp_multiplayer_profile_troop_male"),
-(assign, "$pct_agent", reg0),
-(init_position, pos1), (position_set_x, pos1, 300000), (position_set_y, pos1, 300000), (position_set_z_to_ground_level, pos1), (position_rotate_z, pos1, -25, 1), (agent_set_position, "$pct_agent", pos1), (position_rotate_z, pos1, 25, 1),
-(agent_set_visibility, "$pct_agent", 1), (agent_set_animation, "$pct_agent", "anim_YuriCancelAnimation", 0), (agent_set_animation, "$pct_agent", "anim_YuriCancelAnimation", 1),
+(assign, "$pct_agent", reg0), (assign, "$pct_horse", -1),
+(init_position, pos1), (position_set_x, pos1, 300000), (position_set_y, pos1, 300000), (position_set_z_to_ground_level, pos1),
+(position_rotate_z, pos1, -90, 1), (position_rotate_z, pos1, -25, 1), (agent_set_position, "$pct_agent", pos1), (position_rotate_z, pos1, 25, 1),
 (mission_cam_set_mode, 1, 0, 0),
-(position_move_y, pos1, 150, 0), (position_move_z, pos1, 100, 0), (position_rotate_z, pos1, 180, 1), (position_move_x, pos1, -90, 0), (position_move_y, pos1, 5, 0),
+(position_move_y, pos1, 150, 0), (position_move_z, pos1, 130, 0), (position_rotate_z, pos1, 180, 1), (position_move_x, pos1, -90, 0), (position_rotate_y, pos1, 3, 0), (position_rotate_x, pos1, -7, 0),
 (mission_cam_set_position, pos1),
 ], []),
 

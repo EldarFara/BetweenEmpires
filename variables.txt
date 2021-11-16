@@ -1912,3 +1912,8 @@ g_number_of_items
 overlay_text_training_priority
 overlay_slider_training_priority
 pct_agent
+g_hovered_item
+g_refresh_pct_agent
+pct_horse
+overlay_text_training_priority_shooting
+overlay_text_training_priority_physical

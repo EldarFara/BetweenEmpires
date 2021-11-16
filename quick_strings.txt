@@ -1,4 +1,4 @@
-1689
+1693
 qstr_res_cape1 res_cape1
 qstr_res_cape2 res_cape2
 qstr_thawb1_belt1 thawb1_belt1
@@ -1688,3 +1688,7 @@ qstr_Melee_Weapons Melee_Weapons
 qstr_Horses Horses
 qstr_Gloves Gloves
 qstr_Training_priority: Training_priority:
+qstr_ti_on_presentation_m ti_on_presentation_mouse_enter_leave_{reg1}
+qstr_overlay_check_{reg1} overlay_check_{reg1}
+qstr_Marksmanship Marksmanship
+qstr_Physical_Training Physical_Training

@@ -683,6 +683,8 @@ meshes = [
   ("pbs_pronemode3", 0, "pbs_pronemode3", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("pbs_pronemode4", 0, "pbs_pronemode4", 0, 0, 0, 0, 0, 0, 1, 1, 1),
   ("pct_bg1", 0, "pct_bg1", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pct_training_priority_shooting", 0, "pct_training_priority_shooting", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+  ("pct_training_priority_physical", 0, "pct_training_priority_physical", 0, 0, 0, 0, 0, 0, 1, 1, 1),
 ]
 
 # modmerger_start version=201 type=2

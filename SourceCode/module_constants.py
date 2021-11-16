@@ -619,6 +619,7 @@ slot_party_prebattle_in_battle_count       = 76
 
 slot_troop_pbs_type = 162
 slot_troop_language = 163
+slot_troop_training_priority = 164
 
 ## ZZ Custom Kingdom Troops begin
 slot_item_difficulty                = 101
@@ -2254,9 +2255,7 @@ troop_slots_reserved_for_relations_start        = 165 #this is based on id_troop
 
 slot_troop_relations_begin				= 0 #this creates an array for relations between troops
 											#Right now, lords start at 165 and run to around 290, including pretenders
-											
-slot_troop_pas_timer = 1000						
-slot_troop_pct_training_priority = 1001					
+													
 											
 ########################################################
 ##  PLAYER SLOTS           #############################
