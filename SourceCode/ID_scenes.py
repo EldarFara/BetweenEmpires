@@ -2059,5 +2059,6 @@ scn_town_european_walls3 = 2057
 scn_town_european_walls4 = 2058
 scn_town_european_walls5 = 2059
 scn_town_european_walls6 = 2060
-scn_pcs_europe = 2061
+scn_town_european_walls7 = 2061
+scn_pcs_europe = 2062
 scn_exit = 100000

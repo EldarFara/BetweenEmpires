@@ -8088,7 +8088,7 @@ itemsfile version 3
  0
 0
 
- itm_shovel_melee Shovel Shovel 1  shovel_melee 0  4194306 9223388529554358287 163 155668 1.500000 100 0 0 0 0 0 105 0 100 0 281 30
+ itm_shovel_melee Shovel Shovel 1  shovel_melee 0  4194306 9223388529554358287 163 155668 1.500000 100 0 0 0 0 0 105 0 70 0 281 30
  0
 0
 
@@ -8544,11 +8544,11 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mauser_m1896_carbine Gevär_m/96_Carbine Gevär_m/96_Carbine 2  mauser1893_carbine 0  mauser1893_carbine_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_mauser_m1896_carbine Gevär_m/96_Carbine Gevär_m/96_Carbine 2  mauser1889_carbine 0  mauser1889_carbine_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
  0
 0
 
- itm_rifle_mauser_m1896_carbine_m Gevär_m/96_Carbine Gevär_m/96_Carbine 1  mauser1893_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
+ itm_rifle_mauser_m1896_carbine_m Gevär_m/96_Carbine Gevär_m/96_Carbine 1  mauser1889_carbine 0  2251799820238852 4222130824676096 0 0 4.000000 100 0 0 0 0 240 75 0 80 0 532 520
  0
 0
 
