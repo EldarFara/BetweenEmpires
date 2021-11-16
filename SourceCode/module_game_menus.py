@@ -3065,8 +3065,11 @@ the high lords and common folk across the many realms of Europe."),
          (faction_slot_eq, "fac_player_supporters_faction", slot_faction_state, sfs_active),
 		(eq, "$player_faction_preset", -1),
 		
-         ],"Customize your faction army.",
-       [(start_presentation, "prsnt_custom_kingdom_troop"),
+         ],"Customize army of your country.",
+       [
+	(set_jump_mission, "mt_pct"),
+	(jump_to_scene, "scn_pcs_europe"),
+	(change_screen_mission),        
         ]
        ),	   
 ## ZZ Custom Kingdom Troops end

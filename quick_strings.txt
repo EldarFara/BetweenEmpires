@@ -1,4 +1,4 @@
-1675
+1693
 qstr_res_cape1 res_cape1
 qstr_res_cape2 res_cape2
 qstr_thawb1_belt1 thawb1_belt1
@@ -1674,3 +1674,21 @@ qstr_Reinforcements_are_s Reinforcements_are_sufficiently_trained:
 qstr_Reinforcements_are_p Reinforcements_are_poorly_trained:
 qstr_Reinforcements_are_h Reinforcements_are_hardly_trained:
 qstr_pai_global_tactic_si pai_global_tactic_simple_charge
+qstr_sfs_active_1 sfs_active_1
+qstr_lt_1 lt_1
+qstr_sfs_active_2 sfs_active_2
+qstr_lt_2 lt_2
+qstr_start_presentation start_presentation
+qstr_set_jump_mission set_jump_mission
+qstr_Headwear Headwear
+qstr_Tunics Tunics
+qstr_Trousers Trousers
+qstr_Firearms Firearms
+qstr_Melee_Weapons Melee_Weapons
+qstr_Horses Horses
+qstr_Gloves Gloves
+qstr_Training_priority: Training_priority:
+qstr_ti_on_presentation_m ti_on_presentation_mouse_enter_leave_{reg1}
+qstr_overlay_check_{reg1} overlay_check_{reg1}
+qstr_Marksmanship Marksmanship
+qstr_Physical_Training Physical_Training

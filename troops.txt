@@ -12,7 +12,7 @@ trp_multiplayer_profile_troop_male multiplayer_profile_troop_male multiplayer_pr
   4 4 4 4 0
  0 0 0 0 0 0 0
 0 0 0 0 0 0 
-  6442450945 3952873730080618203 1947355 0 0 0 0 0 
+  0 0 0 0 0 0 0 0 
 
 trp_multiplayer_profile_troop_female multiplayer_profile_troop_female multiplayer_profile_troop_female 0 133169169 0 0 1 0 0
   -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 

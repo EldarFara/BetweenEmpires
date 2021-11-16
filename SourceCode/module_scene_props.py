@@ -3789,8 +3789,8 @@ scene_props = [
 ("flag_animated1", sokf_moveable, "flag_animated1", "0", [(ti_on_scene_prop_init,[(store_trigger_param_1, ":scene_prop_id"),(prop_instance_deform_in_cycle_loop, ":scene_prop_id", 0, 999, 40000),(prop_instance_set_material, ":scene_prop_id", -1, s1),(assign, reg0, ":scene_prop_id"),]),]),
 
 ("0siege_spikes1",0,"spikes1",0, []),
-("0siege_platform_planks1",0,"platform_planks1",0, []),
-("0siege_platform_planks2",0,"platform_planks2",0, []),
+("0siege_platform_planks1",0,"platform_planks1","bo_platform_planks1", []),
+("0siege_platform_planks2",0,"platform_planks2","bo_platform_planks2", []),
 ("0siege_nw_cdf",0,"nw_cdf","bo_nw_cdf", []),
 ("0siege_nw_earthwall_corner",0,"nw_earthwall_corner","bo_nw_earthwall_corner", []),
 ("0siege_nw_earthwall_endpart",0,"nw_earthwall_endpart","bo_nw_earthwall_endpart", []),

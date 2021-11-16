@@ -42,6 +42,7 @@ scripts = [
   ("game_start",
 	[
 (call_script, "script_walled_centers_assign_closest_centers"),
+(assign, "$pct_item_type", pct_item_type_hats),
 (assign, "$preferred_ai_party_size", 125),
 (assign, "$enable_faction_reinforcements_to_player", 1),
 (assign, "$g_display_pas_debug_messages", 0),
@@ -55946,20 +55947,14 @@ scripts = [
 	(assign, ":offset", 16),
 	(try_end),
 	
-	(val_mul,":offset",10),
-    (try_for_range, ":i_slot", 0, 10),
-      (troop_set_inventory_slot,":troop", ":i_slot",-1),
-    (try_end),	 
-    (try_for_range, ":i_slot", 0, 10),
-	  (troop_get_slot, ":item", "trp_array_d", ":i_slot"),
-      (gt, ":item", 0),	 
-      (troop_set_inventory_slot,":troop", ":i_slot",":item"),
-
-	  ## change for save data
-	  (store_add,":slot_no",":i_slot",":offset"),
-	  (troop_set_slot, "trp_kingdom_inventory", ":slot_no",":item"),	 
-	  ## change for save data	 
-    (try_end),	
+(val_mul,":offset",10),
+	(try_for_range, ":i_slot", 0, 10),
+	(troop_get_inventory_slot, ":item", ":troop", ":i_slot"),
+	(gt, ":item", 0),
+	(store_add,":slot_no",":i_slot",":offset"),
+	(troop_set_slot, "trp_kingdom_inventory", ":slot_no",":item"),	 
+	(try_end),	
+(troop_clear_inventory, ":troop"),
   ]),
  
   ("custom_troop_inventory_total_price", [
