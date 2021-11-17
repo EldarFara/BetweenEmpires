@@ -1921,3 +1921,7 @@ overlay_text_training_priority_desc
 overlay_button_rotate_left
 overlay_button_rotate_180
 overlay_button_rotate_right
+g_current_troop_mesh
+g_draganddrop_source_troop
+g_mouse_lmb_timer
+g_draganddrop_mesh
