@@ -87,7 +87,7 @@ animations = [
     [29, "lady_stand", 863, 0, arf_cyclic|arf_use_stand_progress, 0, (0, 0, 0), 0.25],
   ],
   ["stand_man", 0, amf_client_prediction,
-    [130, "stand_shopkeeper", 0, 3601, arf_cyclic|arf_use_stand_progress, 0, (0, 0, 0), 0.25],
+    [130, "stand_shopkeeper2", 0, 3601, arf_cyclic|arf_use_stand_progress, 0, (0, 0, 0), 0.25],
     [79, "stand_guardsman", 0, 2397, arf_cyclic|arf_use_stand_progress, 0, (0, 0, 0), 0.25],
     [29, "lady_stand", 863, 0, arf_cyclic|arf_use_stand_progress, 0, (0, 0, 0), 0.25],
   ],

@@ -22896,6 +22896,9 @@ mission_templates = [
 	(try_begin),
 	(is_between, ":hours", 6, 12+1),
 	(position_rotate_z, pos1, 180, 1),
+	(else_try),
+	(is_between, ":hours", 12, 17+1),
+	(position_rotate_z, pos1, 90, 1),
 	(try_end),
 (position_rotate_z, pos1, -90, 1), (position_rotate_z, pos1, -25, 1), (agent_set_position, "$pct_agent", pos1), (position_rotate_z, pos1, 25, 1),
 (mission_cam_set_mode, 1, 0, 0),
@@ -22904,6 +22907,8 @@ mission_templates = [
 ], []),
 
 (0, 0, 0,  [ (neg|is_presentation_active, "prsnt_custom_kingdom_troop"), (neg|is_presentation_active, "prsnt_pct"), (start_presentation, "prsnt_custom_kingdom_troop"),], []),
+
+(0, 0, 0,  [(agent_is_active, "$pct_agent"), (agent_get_item_slot, ":torso", "$pct_agent", ek_body), (agent_get_item_slot, ":trousers", "$pct_agent", ek_foot), (gt, ":torso", 0), (lt, ":trousers", 1), (agent_equip_item, "$pct_agent", "itm_man_naked_legs", ek_foot),], []),
 
 ]),
 

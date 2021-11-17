@@ -1917,3 +1917,7 @@ g_refresh_pct_agent
 pct_horse
 overlay_text_training_priority_shooting
 overlay_text_training_priority_physical
+overlay_text_training_priority_desc
+overlay_button_rotate_left
+overlay_button_rotate_180
+overlay_button_rotate_right
