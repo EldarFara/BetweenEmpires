@@ -22885,7 +22885,7 @@ mission_templates = [
 
 (0, 0, ti_once,  [ (start_presentation, "prsnt_custom_kingdom_troop"), ], []),
 
-(ti_on_agent_spawn, 0, 0,  [ (store_trigger_param_1, ":agent"), (agent_get_troop_id, ":troop", ":agent"), (neq, ":troop", "trp_multiplayer_profile_troop_male"), (init_position, pos1), (agent_set_position, ":agent", pos1), (agent_set_animation, ":agent", "anim_prone_rifle_noweapon", 0), (agent_set_animation, ":agent", "anim_prone_rifle_noweapon", 1), (agent_set_visibility, ":agent", 0), (agent_stop_sound, ":agent"), (agent_is_non_player, ":agent"), (agent_fade_out, ":agent"),], []),
+(ti_on_agent_spawn, 0, 0,  [ (store_trigger_param_1, ":agent"), (agent_is_human, ":agent"), (agent_get_troop_id, ":troop", ":agent"), (neq, ":troop", "trp_multiplayer_profile_troop_male"), (init_position, pos1), (agent_set_position, ":agent", pos1), (agent_set_animation, ":agent", "anim_prone_rifle_noweapon", 0), (agent_set_animation, ":agent", "anim_prone_rifle_noweapon", 1), (agent_set_visibility, ":agent", 0), (agent_stop_sound, ":agent"), (agent_is_non_player, ":agent"), (agent_fade_out, ":agent"),], []),
 
 (ti_after_mission_start, 0, 0,  [
 (set_fixed_point_multiplier, 1000),
