@@ -620,3 +620,6 @@ mesh_pbs_pronemode4 = 618
 mesh_pct_bg1 = 619
 mesh_pct_training_priority_shooting = 620
 mesh_pct_training_priority_physical = 621
+mesh_pct_rotate1_left = 622
+mesh_pct_rotate1_right = 623
+mesh_pct_rotate2 = 624

@@ -50,7 +50,7 @@ speed_muzzleloaded_musket = 40
 
 damage_shotgun = 25
 
-damage_bolt_action_rifle = 45
+damage_bolt_action_rifle = 47
 damage_small_caliber_rifle = 50
 damage_rifle = 55
 damage_musket = 55
@@ -2828,6 +2828,7 @@ items = [
 
 ["paimon1","Emergency Food", [("paimon1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[]],
 
+["man_naked_legs","legs", [("man_naked_legs", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_30]],
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],
 

@@ -1950,4 +1950,5 @@ itm_rifle_carcano1891_m = 1964
 itm_rifle_carcano1891_carbine = 1965
 itm_rifle_carcano1891_carbine_m = 1966
 itm_paimon1 = 1967
-itm_items_end = 1968
+itm_man_naked_legs = 1968
+itm_items_end = 1969

@@ -103,6 +103,7 @@ skyboxes = [
   ("sky45_dusk", sf_HDR, 0, 50, 0, "pfx_dusk_cloudy", sun_color_clear_dusk, (0, 0, 0), ambient_color_cloudy, (0, 0xFF28323b)),
   ("sky46_evening", sf_HDR, 0, 50, 0, "pfx_evening_cloudy", sun_color_darkcloudy_evening, (0, 0, 0), ambient_color_cloudy, (0, 0xFFb3aca6)),
   ("sky47_sunset", sf_HDR, 0, 12, 0, "pfx_sunset_dark", (3.467742/1.5, 1.129032/1.5, 0.096774/1.5), (0, 0, 0), (0.070588/1.5, 0.098039/1.5, 0.176471/1.5), (300, 0xFF29282d)),
+  ("sky48_pct", sf_HDR, 0, 30, 1, "pfx_sunny", sun_color_clear, (0, 0, 0), ambient_color_clear, (0, 0xFF97B6CC)),
 ]
 
 
