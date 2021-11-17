@@ -4351,8 +4351,6 @@ scenes = [
 [],[],"outer_terrain_plain"),
 ("town_european_walls6",sf_generate,"none", "none", (0,0),(100,100),-100,"0x0000000130000500000d21f70000378b0000571700002c76",
 [],[],"outer_terrain_plain_nomansland"),
-("town_european_walls7",sf_generate,"none", "none", (0,0),(100,100),-100,"0x0000000130014acf000d212c00002ff900007e9800001edc",
-[],[],"outer_terrain_plain"),
 
 ("pcs_europe",sf_generate|sf_auto_entry_points,"none", "none", (0,0),(240,240),-0.5,"0x000000023c600500000d2348000060380000695b00006ab9",
 [],[], "outer_terrain_plain"),

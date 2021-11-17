@@ -22881,7 +22881,7 @@ mission_templates = [
 ("pct", 0, -1, "desc",
 [ (0, 0, 0, 0, 1, []), ],
 [
-(ti_before_mission_start, 0, 0,  [ (scene_set_day_time, 0), (set_skybox, 4, 4),], []),
+(ti_before_mission_start, 0, 0,  [ (set_skybox, 48, 48),], []),
 
 (0, 0, ti_once,  [ (start_presentation, "prsnt_custom_kingdom_troop"), ], []),
 
@@ -22892,6 +22892,11 @@ mission_templates = [
 (spawn_agent, "trp_multiplayer_profile_troop_male"),
 (assign, "$pct_agent", reg0), (assign, "$pct_horse", -1),
 (init_position, pos1), (position_set_x, pos1, 300000), (position_set_y, pos1, 300000), (position_set_z_to_ground_level, pos1),
+(store_time_of_day, ":hours"),
+	(try_begin),
+	(is_between, ":hours", 6, 12+1),
+	(position_rotate_z, pos1, 180, 1),
+	(try_end),
 (position_rotate_z, pos1, -90, 1), (position_rotate_z, pos1, -25, 1), (agent_set_position, "$pct_agent", pos1), (position_rotate_z, pos1, 25, 1),
 (mission_cam_set_mode, 1, 0, 0),
 (position_move_y, pos1, 150, 0), (position_move_z, pos1, 130, 0), (position_rotate_z, pos1, 180, 1), (position_move_x, pos1, -90, 0), (position_rotate_y, pos1, 3, 0), (position_rotate_x, pos1, -7, 0),

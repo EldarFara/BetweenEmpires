@@ -50,7 +50,7 @@ speed_muzzleloaded_musket = 40
 
 damage_shotgun = 25
 
-damage_bolt_action_rifle = 45
+damage_bolt_action_rifle = 47
 damage_small_caliber_rifle = 50
 damage_rifle = 55
 damage_musket = 55

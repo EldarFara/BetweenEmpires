@@ -3940,7 +3940,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_mosin Mosin-Nagant_Rifle Mosin-Nagant_Rifle 2  mosin 0  mosin_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 301 0
+ itm_rifle_russian_mosin Mosin-Nagant_Rifle Mosin-Nagant_Rifle 2  mosin 0  mosin_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 303 0
  0
 0
 
@@ -3948,7 +3948,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_russian_mosin_carbine Mosin-Nagant_Carbine Mosin-Nagant_Carbine 2  mosin_carbine 0  mosin_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_russian_mosin_carbine Mosin-Nagant_Carbine Mosin-Nagant_Carbine 2  mosin_carbine 0  mosin_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 303 0
  0
 0
 
@@ -4056,7 +4056,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1886 Steyr_Mannlicher_M1886 Steyr_Mannlicher_M1886 2  mannlicher_1886 0  mannlicher_1886_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 301 0
+ itm_rifle_austrian_m1886 Steyr_Mannlicher_M1886 Steyr_Mannlicher_M1886 2  mannlicher_1886 0  mannlicher_1886_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 303 0
  0
 0
 
@@ -4064,7 +4064,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1886_carbine Steyr_Mannlicher_M1886_Carbine Steyr_Mannlicher_M1886_Carbine 2  mannlicher_1886_carbine 0  mannlicher_1886_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_austrian_m1886_carbine Steyr_Mannlicher_M1886_Carbine Steyr_Mannlicher_M1886_Carbine 2  mannlicher_1886_carbine 0  mannlicher_1886_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 303 0
  0
 0
 
@@ -5391,7 +5391,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1888 Gewehr_M1888_Rifle Gewehr_M1888_Rifle 2  gewehr88 0  gewehr88_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 301 0
+ itm_rifle_german_m1888 Gewehr_M1888_Rifle Gewehr_M1888_Rifle 2  gewehr88 0  gewehr88_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 303 0
  0
 0
 
@@ -5399,7 +5399,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_german_m1888_carbine Gewehr_M1888_Carbine Gewehr_M1888_Carbine 2  gewehr88_carbine 0  gewehr88_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_german_m1888_carbine Gewehr_M1888_Carbine Gewehr_M1888_Carbine 2  gewehr88_carbine 0  gewehr88_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 303 0
  0
 0
 
@@ -5716,7 +5716,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_italian_vetterlivitali Vetterli-Vitali_M1887_Rifle Vetterli-Vitali_M1887_Rifle 2  vetterli1887 0  vetterli1887_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 301 0
+ itm_rifle_italian_vetterlivitali Vetterli-Vitali_M1887_Rifle Vetterli-Vitali_M1887_Rifle 2  vetterli1887 0  vetterli1887_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 303 0
  0
 0
 
@@ -5724,7 +5724,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_italian_vetterlivitali_carbine Vetterli-Vitali_M1887_Carbine Vetterli-Vitali_M1887_Carbine 2  vetterli1887_carbine 0  vetterli1887_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_italian_vetterlivitali_carbine Vetterli-Vitali_M1887_Carbine Vetterli-Vitali_M1887_Carbine 2  vetterli1887_carbine 0  vetterli1887_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 303 0
  0
 0
 
@@ -6101,7 +6101,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_british_metford Lee-Metford_Rifle Lee-Metford_Rifle 2  metford 0  metford_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 10 301 0
+ itm_rifle_british_metford Lee-Metford_Rifle Lee-Metford_Rifle 2  metford 0  metford_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 10 303 0
  0
 0
 
@@ -6109,7 +6109,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_british_metford_carbine Lee-Metford_Carbine Lee-Metford_Carbine 2  metford_carbine 0  metford_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 10 301 0
+ itm_rifle_british_metford_carbine Lee-Metford_Carbine Lee-Metford_Carbine 2  metford_carbine 0  metford_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 10 303 0
  0
 0
 
@@ -6181,7 +6181,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_french_lebel Lebel_M1886_Rifle Lebel_M1886_Rifle 2  lebel1886 0  lebel1886_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 8 301 0
+ itm_rifle_french_lebel Lebel_M1886_Rifle Lebel_M1886_Rifle 2  lebel1886 0  lebel1886_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 8 303 0
  0
 0
 
@@ -6189,7 +6189,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_french_lebel_carbine Lebel_M1886_Carbine Lebel_M1886_Carbine 2  lebel1886_carbine 0  lebel1886_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 8 301 0
+ itm_rifle_french_lebel_carbine Lebel_M1886_Carbine Lebel_M1886_Carbine 2  lebel1886_carbine 0  lebel1886_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 8 303 0
  0
 0
 
@@ -6225,7 +6225,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_winchester_m1886 Winchester_M1886_Rifle Winchester_M1886_Rifle 2  winchester_m1886 0  winchester_m1886_inv 1152921504606846976  543227913 555929845760 700 131082 4.000000 80 0 0 92 0 0 27 650 0 8 299 0
+ itm_rifle_winchester_m1886 Winchester_M1886_Rifle Winchester_M1886_Rifle 2  winchester_m1886 0  winchester_m1886_inv 1152921504606846976  543227913 555929845760 700 131082 4.000000 80 0 0 92 0 0 27 650 0 8 301 0
  0
 0
 
@@ -6233,7 +6233,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_winchester_m1892 Winchester_M1892_Rifle Winchester_M1892_Rifle 2  winchester_m1892 0  winchester_m1892_inv 1152921504606846976  543227913 555929845760 700 131082 2.500000 80 0 0 95 0 0 30 650 0 9 301 0
+ itm_rifle_winchester_m1892 Winchester_M1892_Rifle Winchester_M1892_Rifle 2  winchester_m1892 0  winchester_m1892_inv 1152921504606846976  543227913 555929845760 700 131082 2.500000 80 0 0 95 0 0 30 650 0 9 303 0
  0
 0
 
@@ -6241,7 +6241,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_winchester_m1894 Winchester_M1894_Rifle Winchester_M1894_Rifle 2  winchester_m1894 0  winchester_m1894_inv 1152921504606846976  543227913 555929845760 700 131082 3.000000 80 0 0 98 0 0 33 650 0 9 304 0
+ itm_rifle_winchester_m1894 Winchester_M1894_Rifle Winchester_M1894_Rifle 2  winchester_m1894 0  winchester_m1894_inv 1152921504606846976  543227913 555929845760 700 131082 3.000000 80 0 0 98 0 0 33 650 0 9 306 0
  0
 0
 
@@ -6249,7 +6249,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_winchester_m1895 Winchester_M1895_Rifle Winchester_M1895_Rifle 2  winchester_m1895 0  winchester_m1895_inv 1152921504606846976  543227913 555929845760 700 131082 4.000000 80 0 0 100 0 0 52 650 0 5 305 0
+ itm_rifle_winchester_m1895 Winchester_M1895_Rifle Winchester_M1895_Rifle 2  winchester_m1895 0  winchester_m1895_inv 1152921504606846976  543227913 555929845760 700 131082 4.000000 80 0 0 100 0 0 52 650 0 5 307 0
  0
 0
 
@@ -6257,7 +6257,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_winchester_lee M1895_Lee_Navy_Rifle M1895_Lee_Navy_Rifle 2  winchester_lee 0  winchester_lee_inv 1152921504606846976  543227913 555929845760 700 131082 3.500000 80 0 0 99 0 0 49 750 0 5 302 0
+ itm_rifle_winchester_lee M1895_Lee_Navy_Rifle M1895_Lee_Navy_Rifle 2  winchester_lee 0  winchester_lee_inv 1152921504606846976  543227913 555929845760 700 131082 3.500000 80 0 0 99 0 0 49 750 0 5 304 0
  0
 0
 
@@ -6736,7 +6736,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_spanish_mauser Mauser_M1893_Rifle Mauser_M1893_Rifle 2  mauser1893 0  mauser1893_inv 1152921504606846976  811597833 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 301 0
+ itm_rifle_spanish_mauser Mauser_M1893_Rifle Mauser_M1893_Rifle 2  mauser1893 0  mauser1893_inv 1152921504606846976  811597833 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 303 0
  0
 0
 
@@ -6744,7 +6744,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_spanish_mauser_carbine Mauser_M1893_Carbine Mauser_M1893_Carbine 2  mauser1889_carbine 0  mauser1889_carbine_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_spanish_mauser_carbine Mauser_M1893_Carbine Mauser_M1893_Carbine 2  mauser1889_carbine 0  mauser1889_carbine_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 303 0
  0
 0
 
@@ -7241,7 +7241,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_swiss_vetterli Vetterli_M1869_Rifle Vetterli_M1869_Rifle 2  vetterli1878 0  vetterli1878_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 99 0 0 47 700 0 5 301 0
+ itm_rifle_swiss_vetterli Vetterli_M1869_Rifle Vetterli_M1869_Rifle 2  vetterli1878 0  vetterli1878_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 99 0 0 47 700 0 5 303 0
  0
 0
 
@@ -7249,7 +7249,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_swiss_vetterli_carbine Vetterli_M1869_Carbine Vetterli_M1869_Carbine 2  vetterli1878_carbine 0  vetterli1878_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 60 0 0 83 0 0 54 700 0 5 301 0
+ itm_rifle_swiss_vetterli_carbine Vetterli_M1869_Carbine Vetterli_M1869_Carbine 2  vetterli1878_carbine 0  vetterli1878_carbine_inv 1152921504606846976  6357001 555929845760 400 131082 4.000000 60 0 0 83 0 0 54 700 0 5 303 0
  0
 0
 
@@ -7422,7 +7422,7 @@ itemsfile version 3
  58
 0
 
- itm_rifle_kropatschek Kropatschek_Rifle Kropatschek_Rifle 2  kropatschek 0  kropatschek_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 8 301 0
+ itm_rifle_kropatschek Kropatschek_Rifle Kropatschek_Rifle 2  kropatschek 0  kropatschek_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 8 303 0
  0
 0
 
@@ -7430,7 +7430,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_kropatschek_carbine Kropatschek_Carbine Kropatschek_Carbine 2  kropatschek_carbine 0  kropatschek_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 8 301 0
+ itm_rifle_kropatschek_carbine Kropatschek_Carbine Kropatschek_Carbine 2  kropatschek_carbine 0  kropatschek_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 8 303 0
  0
 0
 
@@ -7993,7 +7993,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_beaumont1871_88 Beaumont_M1871/88 Beaumont_M1871/88 2  beaumont1871_88 0  beaumont1871_88_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 4 301 0
+ itm_rifle_beaumont1871_88 Beaumont_M1871/88 Beaumont_M1871/88 2  beaumont1871_88 0  beaumont1871_88_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 4 303 0
  0
 0
 
@@ -8001,7 +8001,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_beaumont1871_88_carbine Beaumont_M1871/88_Carbine Beaumont_M1871/88_Carbine 2  beaumont1871_88_carbine 0  beaumont1871_88_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 4 301 0
+ itm_rifle_beaumont1871_88_carbine Beaumont_M1871/88_Carbine Beaumont_M1871/88_Carbine 2  beaumont1871_88_carbine 0  beaumont1871_88_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 4 303 0
  0
 0
 
@@ -8054,7 +8054,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_krag Krag-Jorgensen_Rifle Krag-Jorgensen_Rifle 2  krag 0  krag_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 301 0
+ itm_rifle_krag Krag-Jorgensen_Rifle Krag-Jorgensen_Rifle 2  krag 0  krag_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 303 0
  0
 0
 
@@ -8062,7 +8062,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_krag_carbine Krag-Jorgensen_Carbine Krag-Jorgensen_Carbine 2  krag_carbine 0  krag_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_krag_carbine Krag-Jorgensen_Carbine Krag-Jorgensen_Carbine 2  krag_carbine 0  krag_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 303 0
  0
 0
 
@@ -8171,7 +8171,7 @@ itemsfile version 3
 1
 -52.000000  2 2071 1 1224979098644774912 1 3 936748722493063998 1224979098644774912 1 
 
- itm_rifle_austrian_m1895 Steyr_Mannlicher_M1895 Steyr_Mannlicher_M1895 2  mannlicher 0  mannlicher_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 301 0
+ itm_rifle_austrian_m1895 Steyr_Mannlicher_M1895 Steyr_Mannlicher_M1895 2  mannlicher 0  mannlicher_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 303 0
  0
 0
 
@@ -8179,7 +8179,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_austrian_m1895_carbine Steyr_Mannlicher_M1895_Carbine Steyr_Mannlicher_M1895_Carbine 2  mannlicher_carbine 0  mannlicher_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_austrian_m1895_carbine Steyr_Mannlicher_M1895_Carbine Steyr_Mannlicher_M1895_Carbine 2  mannlicher_carbine 0  mannlicher_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 303 0
  0
 0
 
@@ -8187,7 +8187,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_smle Lee–Enfield_Mk_I Lee–Enfield_Mk_I 2  smle 0  smle_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 301 0
+ itm_rifle_smle Lee–Enfield_Mk_I Lee–Enfield_Mk_I 2  smle 0  smle_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 303 0
  0
 0
 
@@ -8195,7 +8195,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_smle_carbine Lee–Enfield_Mk_I Lee–Enfield_Mk_I 2  smle_carbine 0  smle_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_smle_carbine Lee–Enfield_Mk_I Lee–Enfield_Mk_I 2  smle_carbine 0  smle_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 303 0
  0
 0
 
@@ -8203,7 +8203,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_gewehr98 Gewehr_98 Gewehr_98 2  g98_bayo 0  g98_bayo_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 301 0
+ itm_rifle_gewehr98 Gewehr_98 Gewehr_98 2  g98_bayo 0  g98_bayo_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 303 0
  0
 0
 
@@ -8211,7 +8211,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_gewehr98_carbine Karabiner_98 Karabiner_98 2  g98 0  g98_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_gewehr98_carbine Karabiner_98 Karabiner_98 2  g98 0  g98_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 303 0
  0
 0
 
@@ -8279,7 +8279,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mauser_m1887 Mauser_M1887_Rifle Mauser_M1887_Rifle 2  mauser1871 0  mauser1871_inv 1152921504606846976  811597833 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 301 0
+ itm_rifle_mauser_m1887 Mauser_M1887_Rifle Mauser_M1887_Rifle 2  mauser1871 0  mauser1871_inv 1152921504606846976  811597833 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 303 0
  0
 0
 
@@ -8287,7 +8287,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mauser_m1887_carbine Mauser_M1887_Carbine Mauser_M1887_Carbine 2  mauser1871_carbine 0  mauser1871_carbine_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_mauser_m1887_carbine Mauser_M1887_Carbine Mauser_M1887_Carbine 2  mauser1871_carbine 0  mauser1871_carbine_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 303 0
  0
 0
 
@@ -8488,7 +8488,7 @@ itemsfile version 3
  67
 0
 
- itm_rifle_mannlicher_m1893 Mannlicher_M1893 Mannlicher_M1893 2  mannlicher_1886 0  mannlicher_1886_inv 1152921504606846976  811597833 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 301 0
+ itm_rifle_mannlicher_m1893 Mannlicher_M1893 Mannlicher_M1893 2  mannlicher_1886 0  mannlicher_1886_inv 1152921504606846976  811597833 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 303 0
  0
 0
 
@@ -8496,7 +8496,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mannlicher_m1893_carbine Mannlicher_M1893_Carbine Mannlicher_M1893_Carbine 2  mannlicher_1886_carbine 0  mannlicher_1886_carbine_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_mannlicher_m1893_carbine Mannlicher_M1893_Carbine Mannlicher_M1893_Carbine 2  mannlicher_1886_carbine 0  mannlicher_1886_carbine_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 303 0
  0
 0
 
@@ -8504,7 +8504,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mannlicher_schoenauer Mannlicher-Schoenauer Mannlicher-Schoenauer 2  schoenauer 0  schoenauer_inv 1152921504606846976  811597833 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 301 0
+ itm_rifle_mannlicher_schoenauer Mannlicher-Schoenauer Mannlicher-Schoenauer 2  schoenauer 0  schoenauer_inv 1152921504606846976  811597833 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 303 0
  0
 0
 
@@ -8512,7 +8512,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mannlicher_schoenauer_carbine Mannlicher-Schoenauer_Carbine Mannlicher-Schoenauer_Carbine 2  schoenauer_carbine 0  schoenauer_carbine_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_mannlicher_schoenauer_carbine Mannlicher-Schoenauer_Carbine Mannlicher-Schoenauer_Carbine 2  schoenauer_carbine 0  schoenauer_carbine_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 303 0
  0
 0
 
@@ -8520,7 +8520,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mauser_m1889 Mauser_M1889_Rifle Mauser_M1889_Rifle 2  mauser1889 0  mauser1889_inv 1152921504606846976  811597833 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 301 0
+ itm_rifle_mauser_m1889 Mauser_M1889_Rifle Mauser_M1889_Rifle 2  mauser1889 0  mauser1889_inv 1152921504606846976  811597833 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 303 0
  0
 0
 
@@ -8528,7 +8528,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mauser_m1889_carbine Mauser_M1889_Carbine Mauser_M1889_Carbine 2  mauser1889_carbine 0  mauser1889_carbine_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_mauser_m1889_carbine Mauser_M1889_Carbine Mauser_M1889_Carbine 2  mauser1889_carbine 0  mauser1889_carbine_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 303 0
  0
 0
 
@@ -8536,7 +8536,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mauser_m1896 Gevär_m/96_Rifle Gevär_m/96_Rifle 2  mauser1893 0  mauser1893_inv 1152921504606846976  811597833 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 301 0
+ itm_rifle_mauser_m1896 Gevär_m/96_Rifle Gevär_m/96_Rifle 2  mauser1893 0  mauser1893_inv 1152921504606846976  811597833 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 303 0
  0
 0
 
@@ -8544,7 +8544,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_mauser_m1896_carbine Gevär_m/96_Carbine Gevär_m/96_Carbine 2  mauser1889_carbine 0  mauser1889_carbine_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_mauser_m1896_carbine Gevär_m/96_Carbine Gevär_m/96_Carbine 2  mauser1889_carbine 0  mauser1889_carbine_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 303 0
  0
 0
 
@@ -8662,7 +8662,7 @@ itemsfile version 3
  67
 0
 
- itm_rifle_carcano1891 Carcano_M1891 Carcano_M1891 2  carcano1891 0  carcano1891_inv 1152921504606846976  811597833 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 301 0
+ itm_rifle_carcano1891 Carcano_M1891 Carcano_M1891 2  carcano1891 0  carcano1891_inv 1152921504606846976  811597833 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 303 0
  0
 0
 
@@ -8670,7 +8670,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_carcano1891_carbine Carcano_M1891_Carbine Carcano_M1891_Carbine 2  carcano1891_carbine 0  carcano1891_carbine_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 301 0
+ itm_rifle_carcano1891_carbine Carcano_M1891_Carbine Carcano_M1891_Carbine 2  carcano1891_carbine 0  carcano1891_carbine_inv 1152921504606846976  6291465 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 303 0
  0
 0
 
