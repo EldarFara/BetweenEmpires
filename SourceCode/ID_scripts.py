@@ -919,3 +919,4 @@ script_pas_get_conscription_policy_name = 917
 script_cf_pas_faction_reinforcement_required = 918
 script_peace_negotiations_set_center_owners_to_official_for_factions = 919
 script_pct_get_troop_skill_points_for_training_priority = 920
+script_init_poland = 921

@@ -441,7 +441,7 @@ parties = [
  ("castle_219","Makhachkala",icon_town2|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-171.49,-148.83),[],260),
  ("castle_220","Stavrpol",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-70.19,-160.72),[],260),
  ("castle_221","Astrakhan",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-147.64,-227.03),[],260),
- ("castle_222","Krasnodar",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(4.53,-139.79),[],260),
+ ("castle_222","Ekaterinodar",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(4.53,-139.79),[],260),
  ("castle_223","Sevastopol",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(84.45,-113.12),[],260),
  ("castle_224","Kherson",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(108.16,-139.37),[],260),
  ("castle_225","Odessa",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(129.31,-130.66),[],260),
