@@ -490,7 +490,7 @@ game_menus = [
   ),
 
   ("reports",0,
-   "{s51}Character Renown: {reg5}{s31}^Honor Rating: {reg6}^Party Morale: {reg8}^Party Size Limit: {reg7}^^{s50}",
+   "Character Renown: {reg5}{s31}^Honor Rating: {reg6}^Party Morale: {reg8}^Party Size Limit: {reg7}^^{s50}",
    "none",
    [
 	(try_begin),
@@ -522,19 +522,6 @@ game_menus = [
 		(str_store_faction_name, s32, "fac_player_supporters_faction"),
 		(faction_get_slot, reg10, "fac_player_supporters_faction", slot_faction_infamy),
 		(str_store_string, s31, "@^{s32}'s Infamy: {reg10}"),
-		(try_end),
-	(str_clear, s51),
-		(try_begin),
-		(ge, "$cheat_mode", 1),
-		(set_fixed_point_multiplier, 100),
-		(party_get_position, pos1, "p_main_party"),
-		(position_get_x, reg1, pos1),
-		(store_mod, reg2, reg1, 100),
-		(val_div, reg1, 100),
-		(position_get_y, reg3, pos1),
-		(store_mod, reg4, reg3, 100),
-		(val_div, reg3, 100),
-		(str_store_string, s51, "@Player party coordinates: X {reg1}.{reg2}, Y {reg3}.{reg4}^"),
 		(try_end),
    ],
     [
