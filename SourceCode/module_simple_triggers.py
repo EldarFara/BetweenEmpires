@@ -7958,6 +7958,7 @@ simple_triggers = [
 
 (24,
 [
+(eq, "$enable_faction_reinforcements_to_player", 1),
 	(try_begin),
 	(ge, "$players_kingdom", "fac_player_supporters_faction"),
 	(lt, "$pas_enlistment_lord", 1),
