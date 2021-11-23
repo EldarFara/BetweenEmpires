@@ -2844,6 +2844,9 @@ items = [
 ["pol_infantry5","Polish Military Uniform", [("pol_infantry5", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_30]],
 ["pol_infantry6","Polish Military Uniform", [("pol_infantry6", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_30]],
 ["pol_infantry7","Polish Military Uniform", [("pol_infantry7", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_30]],
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 ["pol_trousers1","Polish Military Trousers", [("pol_trousers1", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_11]],
 ["pol_trousers2","Polish Military Trousers", [("pol_trousers2", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_11]],
