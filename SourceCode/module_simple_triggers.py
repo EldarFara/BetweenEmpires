@@ -7715,7 +7715,7 @@ simple_triggers = [
 (call_script, "script_pas_enlistment_get_promotion"),
 	(try_begin),
 	(eq, "$pas_enlistment_rank", 9),
-	(faction_set_slot, slot_faction_marshall, "trp_player"),
+	(faction_set_slot, "$players_kingdom", slot_faction_marshall, "trp_player"),
 	(try_end),
 ]),
 
