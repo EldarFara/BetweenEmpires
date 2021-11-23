@@ -1,5 +1,5 @@
 itemsfile version 3
-1985
+1995
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 0 103 0 90 0 522 528
  0
 0
@@ -8708,18 +8708,17 @@ itemsfile version 3
 0
 
  itm_man_naked_legs legs legs 1  man_naked_legs 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
- 1
- 72
+ 0
 0
 
  itm_pol_infantry1 Polish_Military_Uniform Polish_Military_Uniform 1  pol_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
- 72
+ 53
 0
 
  itm_pol_infantry2 Polish_Military_Uniform Polish_Military_Uniform 1  pol_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
- 72
+ 53
 0
 
  itm_pol_infantry3 Polish_Military_Uniform Polish_Military_Uniform 1  pol_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
@@ -8727,39 +8726,89 @@ itemsfile version 3
  72
 0
 
- itm_pol_trousers1 Polish_Military_Trousers Polish_Military_Trousers 1  pol_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ itm_pol_infantry4 Polish_Military_Uniform Polish_Military_Uniform 1  pol_infantry4 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
  72
+0
+
+ itm_pol_infantry5 Polish_Military_Uniform Polish_Military_Uniform 1  pol_infantry5 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 72
+0
+
+ itm_pol_infantry6 Polish_Military_Uniform Polish_Military_Uniform 1  pol_infantry6 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
+ 1
+ 72
+0
+
+ itm_pol_trousers1 Polish_Military_Trousers Polish_Military_Trousers 1  pol_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 53
 0
 
  itm_pol_trousers2 Polish_Military_Trousers Polish_Military_Trousers 1  pol_trousers2 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
- 72
+ 53
 0
 
  itm_pol_trousers3 Polish_Military_Trousers Polish_Military_Trousers 1  pol_trousers3 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
- 72
+ 53
+0
+
+ itm_pol_trousers4 Polish_Military_Trousers Polish_Military_Trousers 1  pol_trousers4 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 53
+0
+
+ itm_pol_trousers5 Polish_Military_Trousers Polish_Military_Trousers 1  pol_trousers5 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 53
+0
+
+ itm_pol_trousers6 Polish_Military_Trousers Polish_Military_Trousers 1  pol_trousers6 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ 1
+ 53
 0
 
  itm_pol_hat1 Polish_Hat Polish_Hat 1  pol_hat1 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
- 67
+ 53
 0
 
  itm_pol_hat2 Polish_Hat Polish_Hat 1  pol_hat2 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
- 67
+ 53
 0
 
  itm_pol_hat3 Polish_Hat Polish_Hat 1  pol_hat3 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
- 67
+ 53
 0
 
  itm_pol_hat4 Polish_Hat Polish_Hat 1  pol_hat4 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
- 67
+ 53
+0
+
+ itm_pol_hat5 Polish_Hat Polish_Hat 1  pol_hat5 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 53
+0
+
+ itm_pol_hat6 Polish_Hat Polish_Hat 1  pol_hat6 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 53
+0
+
+ itm_pol_hat7 Polish_Hat Polish_Hat 1  pol_hat7 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 53
+0
+
+ itm_pol_hat8 Polish_Hat Polish_Hat 1  pol_hat8 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
+ 1
+ 53
 0
 
  itm_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
