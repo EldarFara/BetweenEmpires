@@ -2415,7 +2415,7 @@ scene_props = [
 
  ("desert_field",0,"desert_field","bo_desert_field", []),
 
- ("water_river",0,"water_plane","0", []),
+ ("water_river",0,"water_plane2","0", []),
  ("viking_house_a",0,"viking_house_a","bo_viking_house_a", []),
  ("viking_house_b",0,"viking_house_b","bo_viking_house_b", []),
  ("viking_house_c",0,"viking_house_c","bo_viking_house_c", []),

@@ -2841,7 +2841,7 @@ spr_box_a_dynamic 327680 0 box_a bo_box_a 0
 spr_desert_field 0 0 desert_field bo_desert_field 0
 
 
-spr_water_river 0 0 water_plane 0 0
+spr_water_river 0 0 water_plane2 0 0
 
 
 spr_viking_house_a 0 0 viking_house_a bo_viking_house_a 0
