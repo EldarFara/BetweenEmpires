@@ -57438,6 +57438,7 @@ scripts = [
 			(agent_is_alive, ":agent"),
 			(agent_is_human, ":agent"),
 			(agent_is_non_player, ":agent"),
+			(agent_get_troop_id, ":troopofagent", ":agent"), (is_between, ":troopofagent", "trp_factionplayer_mgoperator", "trp_mgoperator_end"),
 			(agent_get_team, ":agent_team", ":agent"),
 			(eq, ":agent_team", ":team"),
 			(agent_get_division , ":division", ":agent"),
