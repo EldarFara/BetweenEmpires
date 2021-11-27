@@ -1870,3 +1870,4 @@ spr_0shared_goods_pile3 = 1869
 spr_0shared_tree_fallen1 = 1870
 spr_0shared_tree_fallen2 = 1871
 spr_pai_mg_position = 1872
+spr_0shared_water_square = 1873

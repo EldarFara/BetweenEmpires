@@ -1,5 +1,5 @@
 scene_propsfile version 1
- 1873
+ 1874
 spr_invalid_object 0 0 question_mark 0 0
 
 
@@ -2841,7 +2841,7 @@ spr_box_a_dynamic 327680 0 box_a bo_box_a 0
 spr_desert_field 0 0 desert_field bo_desert_field 0
 
 
-spr_water_river 0 0 water_plane2 0 0
+spr_water_river 0 0 water_plane 0 0
 
 
 spr_viking_house_a 0 0 viking_house_a bo_viking_house_a 0
@@ -5843,5 +5843,8 @@ spr_0shared_tree_fallen2 0 0 tree_fallen2 0 0
 
 spr_pai_mg_position 16384 0 pai_mg_position 0 1
 -40.000000  2 2071 1 1224979098644774912 510 3 1224979098644774912 180 0 
+
+
+spr_0shared_water_square 0 0 water_plane2 0 0
 
 
