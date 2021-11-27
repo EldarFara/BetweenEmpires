@@ -1871,3 +1871,6 @@ spr_0shared_tree_fallen1 = 1870
 spr_0shared_tree_fallen2 = 1871
 spr_pai_mg_position = 1872
 spr_0shared_water_square = 1873
+spr_0siege_barbed_wire_tangle1 = 1874
+spr_0siege_barbed_wire_steelfence1 = 1875
+spr_0siege_barbed_wire_friesian1 = 1876

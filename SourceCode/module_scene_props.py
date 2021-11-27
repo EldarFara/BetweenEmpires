@@ -4195,6 +4195,9 @@ scene_props = [
 ("pai_mg_position", sokf_invisible, "pai_mg_position", 0, [(ti_on_scene_prop_init,[(store_trigger_param_1, ":prop"),(scene_prop_set_slot, ":prop", slot_prop_is_occupied, 0),]),]),
 
 ("0shared_water_square",0,"water_plane2","0", []),
+("0siege_barbed_wire_tangle1",0,"barbed_wire_tangle1","0", []),
+("0siege_barbed_wire_steelfence1",0,"barbed_wire_steelfence1","0", []),
+("0siege_barbed_wire_friesian1",0,"barbed_wire_friesian1","0", []),
 ]
 
  # modmerger_start version=201 type=2
