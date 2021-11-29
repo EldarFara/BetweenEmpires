@@ -2824,4 +2824,4 @@ dlga_mayor_wealth_comparison_3:mayor_wealth_comparison_4|En cuanto a producto ge
 dlga_mayor_wealth_comparison_4:mayor_wealth_comparison_5|En cuanto al comercio, la ciudad de {s4} parece haber recibido la mayoría de visitas de caravanas en los últimos meses. Aquí en {s5} hemos sido menos visitados que en {reg4} ciudades, y más que en {reg5}. 
 dlga_mayor_wealth_comparison_5:mayor_pretalk|En cuanto a ataques sobre viajeros, la ciudad de {s4} parece ser la más peligrosa. Aquí en {s5} tenemos menos bandidos y saqueadores que en {reg4} ciudades, y más que en {reg5}. 
 dlga_free:close_window| Adiós.
-dlga_free:close_window.1| [Irse
+dlga_free:close_window.1| [Irse]
