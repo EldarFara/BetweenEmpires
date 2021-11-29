@@ -57438,7 +57438,7 @@ scripts = [
 			(agent_is_alive, ":agent"),
 			(agent_is_human, ":agent"),
 			(agent_is_non_player, ":agent"),
-			(agent_get_troop_id, ":troopofagent", ":agent"), (is_between, ":troopofagent", "trp_factionplayer_mgoperator", "trp_mgoperator_end"),
+			(agent_get_troop_id, ":troopofagent", ":agent"), (neg|is_between, ":troopofagent", "trp_factionplayer_mgoperator", "trp_mgoperator_end"),
 			(agent_get_team, ":agent_team", ":agent"),
 			(eq, ":agent_team", ":team"),
 			(agent_get_division , ":division", ":agent"),
@@ -62210,7 +62210,6 @@ scripts = [
 (item_set_slot, ":item", slot_item_pointer_number_of_pointers, ":number"),
 ]),
 
-
 ("pes_center_iteration",
 [
 (store_script_param, ":center", 1),
@@ -62252,7 +62251,20 @@ scripts = [
 		(call_script, "script_pas_reinforce_party", ":center"),
 		(try_end),
 	(try_end),
+(call_script, "script_update_center_scenes", ":center"),
 (call_script, "script_update_center_notes", ":center"),
+]),
+
+("update_center_scenes",
+[
+(store_script_param, ":center", 1),
+
+	(try_begin),
+	(party_get_slot, ":scene", ":center", slot_castle_exterior),
+	(eq, ":scene", "scn_town_european_walls3"),
+	(call_script, "script_cf_if_party_faction_invented_technology", ":center", slot_faction_technology_moderndefence),
+	(party_set_slot,":center", slot_castle_exterior, "scn_town_european_walls4"),
+	(try_end),
 ]),
 
 ("pes_center_villages_iteration",

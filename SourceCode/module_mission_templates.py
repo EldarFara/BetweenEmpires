@@ -910,7 +910,6 @@ pai_start = (9, 0, ti_once, [
 		(try_begin),
 		(neq, ":team", -1),
 		(team_get_leader, ":leader", ":team"),
-(team_get_leader, ":leader", ":team"),
 		(agent_is_active, ":leader"),
 		(agent_get_party_id, ":agent_party", ":leader"),
 		(party_is_active, ":agent_party"),

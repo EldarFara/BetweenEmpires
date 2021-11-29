@@ -3020,6 +3020,11 @@ the high lords and common folk across the many realms of Europe."),
 	   (assign, "$enable_faction_reinforcements_to_player", 0),
         ]),
 		
+	("camp_action_prebattle_menu", [],"Change the troops deployment plan.",
+       [
+(start_presentation, "prsnt_prebattle_custom_deployment"),
+        ]),
+		
 	("camp_action_pas_enlistment_retire", [],"Retire from service.",
        [
 (call_script, "script_pas_enlistment_retire"),
