@@ -1092,9 +1092,9 @@ qstr_we_have_suceeded_in_|hemos conseguido ganar algo de terreno, pero aún nos 
 qstr_we_have_become_a_sig|nos hemos convertido en una fuerza significativa, y tenemos posibilidades de victoria
 qstr_we_are_winning_the_w|estamos ganando la guerra, pero nuestros enemigos aún resisten.
 qstr_we_are_on_the_verge_|estamos a punto de alcanzar la victoria. Los enemigos que restan no son una amenaza, pero aún debemos acabar con ellos.
-qstr_Ever_since_the_fall_|Ever since the fall of the Holy Roman Empire, the Austrian Emperor has been doing their best to undermine Northern conglomeration efforts. We will have to defeat and dissolve the weak German Confederation, lead by the Austrians, in order to rise to the position of a German hegemon, and annex the Kingdom of Hannover.^^ - Defeat the German Confederation armies belonging to Austria, Wurtemberg and Hannover^ - Conquer and hold the Bavarian fortification of Nuremberg ^ - Conquer the capital city of Stuttgart^ - Sign peace with German Confederation on conditions of taking Nuremberg and Stuttgart^^ We will be able to hold onto any conquests we make during the war, and our ultimate goal is to annex the Northern German states. Victory will pave the way to ultimate unification after we take back Alsace-Lorraine.
-qstr_War_with_France_has_|War with France has broken out, and our goal will be to utterly destroy them, take back German clay in Alsace-Lorraine, and ultimately declare Empire under our soon-to-be Emperor {playername}. It's time to display to the Southern Germans, foremost the Bavarians, that we are indeed capable of defending and leading the German people.^^ - Conquer the French border city of Strasbourg^ - Annihilate the French Army entirely^ - Sign peace with France on conditions of taking Strasbourg^^Let a united Germany rise from the ashes of the 2nd French Empire.
-qstr_The_first_step_towar|The first step towards German unification must be the reconquest of the Northern German regions of Schleswig, Holstein, and Lauenburg, which, for the past centuries, have been under occupation by the Danish Kingdom. Taking back the region, and destroying the Danish in the process, would certainly display might and competence in the eyes of the German states.^^ - Conquer the city of Kiel.^ - Defeat the Danish armies and destroy their economy to force them to surrender.^ - Sign peace with Denmark on conditions of taking Kiel^^Once we've defeated the Danes, we can move on to our Southern rival, the Austro-Hungarian Empire.
+qstr_Ever_since_the_fall_|Desde que cayó el Imperio Romano, el emperador Austriaco ha hecho lo posible para tener bajo su dominio a la conglomeración del Norte. Nosotros tenemos la obligación de derrotar y disolver la débil Confederación Alemana, para poner en lo alto la Hegemonía Germánica y anexar al Reino de Hannover. ^^ - Derrotar al ejército de la Confederación Alemana que pertenece a Austria, Wurtemberg y Hannover ^ - Conquistar y permanecer en las fortificaciones Bávaras de Nuremberg. ^ - Conquistar la Capital de Stuttgart ^ - Consolidar la paz con la Confederación Alemana con la condición de mantener Nuremberg y Stuttgart ^^ Debemos ser capaces de mantener nuestras conquistas y por ultimo anexar los estados del Norte. La victoria se solidificará cuando tomemos Alsace-Lorraine para conformar la unificación.
+qstr_War_with_France_has_|Se ha librado la guerra con Francia, y nuestro objetivo es derrotarlos absolutamente, debemos hacer que vuelva a flamear la bandera alemana en Alsacia-Lorena, y por último declarar que el Imperio estará liderado por el nuevo Emperador {playername}. Es hora de mostrarles a los estados sureños, principalmente a los Bávaros que tenemos la capacidad de defender y liderar al pueblo alemán. ^^ - Conquistar la Ciudad Costera Francesa de Strasbourg^ -Exterminar el ejército francés^ - Firmar la paz con Francia con la condición de quedarnos con Strasbourg ^^ Conformar la Alemania unida desde las cenizas del 2do Imperio Francés.
+qstr_The_first_step_towar|El primer paso para la unificación alemana debe ser la reconquista de las regiones Alemanas del Norte como Schleswig, Holstein y Lauenburg, estas en el pasado estuvieron ocupadas por el reino Danés. Retomando las regiones y aniquilando a los daneses en el proceso va a demostrar poder y firmeza en los ojos de los estados alemanes.^^ - Conquistar la Ciudad de Kiel.^ - Derrotar al ejército danés y su economía forzándolos a rendirse.^ -Firmar la paz con Dinamarca con la condición de quedarnos Kiel ^^ Una vez que derrotemos a los daneses, podemos enfocarnos a los Sureños, el Imperio Austro-Húngaro. 
 qstr_Papal_State_and_our_|El Estado Papal, y nuestro principal enemigo, el Reino de las dos Sicilias
 qstr_Papal_State_and_our_p|El Estado Papa, y nuestro principal enemigo, el Reino de Cerdeña
 qstr_Kingdom_of_Two_Sicil|El Reino de las Dos Sicilias y nuestro principal enemigo italiano, el Reino de Cerdeña
@@ -1113,9 +1113,9 @@ qstr_Because_of_free_pres|Sí seguimos con las normas de periodismo libre en nue
 qstr_With_our_censorship_|Con nuestra censura al periodismo, reduciremos la influencia de los políticos opositores y podremos tener mejores resultados.
 qstr_I_want_to_start_repr|Quiero reprimir a nuestros políticos opositores.
 qstr_We_need_to_decrease_|Quiero desacreditar la influencia de nuestros políticos opositores.
-qstr_Most_certainly._Arre|Most certainly. Arrests of influential figures of the political opposition will undermine their positions in the political arena and strengthen ours. Investigation will take 10 days and {reg1} Libras per day.
-qstr_Most_certainly._Few_|Most certainly. Few revelatory articles condemning our opponents in illegal actions, aiding enemy and treason will dishonor them before the eyes of our people, and strengthen our position. The whole process will take 10 days and {reg1} Libras per day.
-qstr_However_in_case_of_f|However, in case of failure, our opponents can condemn us as answer to our actions.
+qstr_Most_certainly._Arre|Lo más certero, es que los arrestos de figuras influyentes de la oposición van a socavar sus posiciones políticas y nos fortalecerá, las investigaciones tomaran 10 días y {reg1} Libras por día..
+qstr_Most_certainly._Few_|Lo más certero, es que algunas noticias que vinculen a la oposición en acciones ilegales, hagan que la gente les pierda respeto y los vea como traidores, también nos fortalecerá como partido, el proceso nos tomará 10 días y {reg1} Libras por día.
+qstr_However_in_case_of_f|Como sea, en caso que fracasemos, nos veremos condenados por nuestras acciones.
 qstr_{playername}_when_we|{playername}, cuando comencé mi larga andadura, poca gente tuvo el coraje de apoyarme. Mucho menos aún de arriesgar su vida por mi causa. Pero vos no os lo pensasteis dos veces y cargasteis contra mis enemigos. Hemos pasado por muchas cosas juntos, y hubo momentos en los que casi perdí la esperanza. Pero con la ayuda de Dios hemos prevalecido. Es tiempo para mí de abandonaros  y tomar lo que es mío por derecho. De hoy en adelante asumiré la gran responsabilidad de gobernar {s3}. Sé que aún nos esperan muchos desafíos y cuento con vuestra ayuda para superarlos. Y por supuesto, no habrá mejor vasallo para mí que vos.
 qstr__We_will_of_course_n| Por supuesto tendremos que esperar a que el reino no esté en campaña.
 qstr_I_am_{s4}_the_ruler_|Soy el {s4}, el regente del {s6}
@@ -1200,7 +1200,7 @@ qstr_riot|riot
 qstr__1_| 1 
 qstr_2|2
 qstr_The_truce_between_{s|La tregua entre {s1} y {s2} ha caducado.
-qstr_Faction_color:|Faction color:
+qstr_Faction_color:|Color de la Facción:
 qstr_®|®
 qstr_Your_political_party|Tu partido político:
 qstr_Workers_riot_in_{s1}|¡Revuelta Obrera en {s1}! Inicialmente fue pacífica, pero los manifestantes se volvieron agresivos destruyendo todo lo que encontraron en su camino a {s2}.
@@ -1208,7 +1208,7 @@ qstr_Crowd_disperses_afte|La multitud se dispera después de que la policía abr
 qstr_Crowd_disperses_after|La multitud se dispersa después de que la policía abrió fuego, algunos manifestantes también abrieron fuego. Esto dejo a {reg10} policias y {reg11} civiles heridos.
 qstr_As_the_riot_went_wid|Como el disturbio fue más grande de lo habitual, el gobierno envió unidades policiales para calmar la situación, se trató de reducir a los manifestante con armas no letales. Los disturbios cesaron pero hubo heridos de ambos lados, entre las bajas, (number) fueron asesinados y (number) fueron heridos en los disturbios.^^La popuaridad del movimiento Socialista bajo en 5% en cambio los radicales subieron en 5%.
 qstr_As_the_riot_went_wide|Como el disturbio fue más grande de lo habitual, el gobierno envió unidades policiales para calmar la situación, pero hubo la orden de usar armas letales. Los manifestantes sufrieron muchas bajas y algunos pudieron escapar, pero luego fueron arrestados. En el incidente, se contabilizaron (number) muertos y (number) heridos graves. ^^La popularidad de movimiento Socialista bajo en 10% en cambio los radicales subieron en 10%.
-qstr_{s1}_agrees_to_becom|{s1} agrees to become a protectorate! After taking several defeats from {s2}, {s3} signs agreement to become part of {s2}.^^Effects: {s1} becomes part of {s2}
+qstr_{s1}_agrees_to_becom|¡{s1} te ha aceptado como protectorado! Después de recibir derrotas inmensas de {s2}, {s3} firma el acuerdo de volverse parte de {s2}.^^Consecuencia: {s1} se ha vuelto parte de {s2}
 qstr_Soviet_Russia|Rusia Sovietica
 qstr_French_Communes|Comunas Francesas
 qstr_People_s_State_of_Ge|Estado Popular Alemán
@@ -1238,11 +1238,11 @@ qstr_{s1}_in_{s2};^|{s1} en {s2};^
 qstr_{s1}:_Worker_unions_h|{s1}:¡Las uniones de trabajadores han llamado a un paro general! Unidos en huelga, los manifestares estan haciendo piquetes en:^{s3}{s4}{s5}{s6}{s7}
 qstr_Civil_war_in_{s1}!_Mul|¡Guerra civil en {s1}! Algunos comandantes militares de {s1} han abandonado su juramente y se unieron a {s2} en soporte de la revolución democrática.
 qstr_Days_after_peaceful_p|Dias después que las manifestaciones pacíficas empezaron, llegaron quejas de muchas organizaciones y esto no es todo. El gobierno decidió ignorar las demandas de los manifestantes y . The government has only given them pain instead of listening them for fair investigations, leading to more and more widespread protests across the country. And now, the government has two decision, whether to comply or just simply, refuse.^^Effects: Liberal movement popularity increased by 10%.
-qstr_After_hearing_about_t|After hearing about the protests, being a nuisance for the government, the government decided to dispatch some policemen to disperse the crowd of protesters by non-lethal means. They tried to disperse the crowd with whips and baton and it resulted in a success. Some of the protesters thrown rocks and debris to the officers but all of them have been arrested in the following afternoon. The last of the protesters finally dispersed after some of the demonstration leaders escaped the scene.^^Effects: Liberal movement popularity increased by 5%. Liberal movement radicalism increased by 3%.
-qstr_At_noon_when_the_demo|At noon, when the demonstration leader was making a speech about their demands infront of the crowd of protesters, troops and policemen entered the scene to disperse the crowd. Unfortunately, the government ordered the dispersion with a violent way. Then, soldiers opened fire on the protesters, killing and wounding many people. Others, tried to flee from the scene, ran either wounded or dying. Few managed to hide from the law enforcement and the dispersion is successful. The government quickly received backlashes from peace organizations, socialists and even foreign countries alike, thus souring foreign relations.^^Effects: Liberal movement radicalism increased by 10%.
-qstr_As_the_riot_went_wides|As the riot went widespread, the government dispatched police units to calm down the situation, they tried to suppress the riot with as little casualty as possible by mostly non-lethal means. The riot has been ended but both police units and rioters suffered casualties. Among the casualties, (number) were killed and (number) wounded in the riot.^^Liberal movement popularity decreased by 5%, radicalism increased by 5%.
-qstr_As_the_riot_went_widesp|As the riot went widespread, the government dispatched police units to suppress the rioters, they used deadly force against the rioters. The rioters suffered many casualties and some fled the scene, only ended up getting caught hours later. In the incident, (number) died and (number) suffered wounds during the riot. ^^Liberal movement popularity decreased by 10%, radicalism increased by 10%.
-qstr_After_negotiations_o|After negotiations of government officials with rebellion leaders, the problem was peacefully settled. Parliament was established, signifying victory of democratic activists.
+qstr_After_hearing_about_t|Después de escuchar acerca de los manifestantes, siendo una molestia para el gobierno, este decidió mandar a la policía para descomprimir la situación mediante maneras no letales. Ellos lograron dispersar la multitud con látigos y porras. Algunos manifestantes lanzaron rocas y escombros, estos fueron arrestados en el correr del día. Casi toda la muchedumbre se dispersó después que los lideres radicales huyeran.^^Consecuencias: La popularidad del movimiento Liberal se incremento en 5%. El Movimiento Radical Liberal se incremento en 3%.
+qstr_At_noon_when_the_demo|En la tarde, cuando el líder de la manifestación estaba dando un discurso acerca de las demandas en frente de la muchedumbre, fue interrumpido por un grupo de policías que fueron enviados a reprimir con mano letal. Los soldados abrieron fuego, dejando muertos y malheridos. Muchos manifestantes lograron huir de una muerte segura, otros se escondieron hasta que las fuerzas represoras se fueran. Después de esta masacre el gobierno recibió duras criticas de organizaciones sociales, socialistas y otros países, donde las relaciones diplomáticas han cambiado.^^Consecuencia: El movimiento Radical Liberal se ha incrementado en un 10%.
+qstr_As_the_riot_went_wides|Como los disturbios fueron a gran escala, el gobierno mandó policías a calmar la situación, trataron de suprimir los focos subversivos de manera no letal. Los disturbios se acabaron cuando la policía y los manifestantes sufrieron bajas. Entre las víctimas se encontraron (number) fueron asesinado y (number) malheridos en la protesta.^^La popularidad del movimiento Liberal bajó en un 5% y el radicalismo se incrementó en 5%. 
+qstr_As_the_riot_went_widespComo los disturbios fueron a gran escala, el gobierno mandó policías a calmar la situación, trataron de suprimir los focos subversivos de manera letal. Los manifestantes sufrieron algunas bajas y muchos huyeron del lugar, pero luego fueron capturados. El conflicto dejó (number) muertos y (number) malheridos. ^^La popularidad del movimiento Liberal disminuyó en 10%, el Radicalismo incrementó en 10%.
+qstr_After_negotiations_o|Después de las negociaciones con el gobierno y la rebelión, el problema fue solucionado pacíficamente, dejando un parlamento establecido, dejando una victoria para los activistas democráticos.
 qstr_{s50}|{s50}
 qstr_Russian_Republic|República Rusa
 qstr_Austro_Hungarian_Dem|República Democrática Austro-Húngara
@@ -1270,104 +1270,104 @@ qstr_Trade_Unions:|Uniones comerciales:
 qstr_Public_Meetings:|Reuniones públicas:
 qstr_Authorized_Only|Solo con autorización
 qstr_Child_Labour:|Trabajo Infantil
-qstr_Famine:_{reg4}%|Famine: {reg4}%
-qstr_Administration_effic|Administration efficiency: {reg10}%
-qstr_Your_government_type_|Your government type does not allow state to build factories of this type.
-qstr_amount_to_buy_{reg0}|amount to buy {reg0} bought amount {reg1} ratio flour {reg2}
-qstr_Infrastructure_level|Infrastructure level of {s1} is {reg2}.{reg3}, damaged to {reg4}.{reg5}.
-qstr_Infrastructure_level_|Infrastructure level of {s1} is {reg2}.{reg3}.
+qstr_Famine:_{reg4}%|Hambruna: {reg4}%
+qstr_Administration_effic|Eficiencia de la administración: {reg10}%
+qstr_Your_government_type_|El tipo de gobierno no permite construir este tipo de fábricas.
+qstr_amount_to_buy_{reg0}|Necesitas {reg0} para comprar, precio de venta {reg1}, proporción de harina {reg2}
+qstr_Infrastructure_level|Nivel infraestructura de {s1} es de {reg2}.{reg3}, El nivel de dañado es de {reg4}.{reg5}.
+qstr_Infrastructure_level_|Nivel de Infraestructura de  {s1} es de {reg2}.{reg3}.
 qstr_+{reg6}|+{reg6}
 qstr_{reg6}|{reg6}
-qstr_Infrastructure_level_o|Infrastructure level of {s1} is {reg2}.{reg3}, damaged to {reg4}.{reg5} ({s3} per year).
-qstr_Infrastructure_level_of|Infrastructure level of {s1} is {reg2}.{reg3} ({s3} per year).
+qstr_Infrastructure_level_o|Nivel de infraestructura de {s1} es de {reg2}.{reg3}, el nivel de dañado de {reg4}.{reg5} ({s3} por año).
+qstr_Infrastructure_level_of|Nivel de infraestructura de {s1} es {reg2}.{reg3} ({s3} por año).
 qstr_{reg7}.0{reg8}|{reg7}.0{reg8}
 qstr_{reg7}.{reg8}|{reg7}.{reg8}
 qstr_+{s3}|+{s3}
-qstr_Infrastructure_level_of_|Infrastructure level of {s1} is {reg2}.{reg3}, damaged to {reg4}.{reg5} ({s4} per year).
-qstr_Infrastructure_level_of_{|Infrastructure level of {s1} is {reg2}.{reg3} ({s4} per year).
-qstr_VP_of_{s1}_against_{|VP of {s1} against {s2} are {reg10}
-qstr_create_random_war_pe|create random war peace {s1} {s2}
+qstr_Infrastructure_level_of_|El nivel de infraestructura de {s1} es de {reg2}.{reg3}, el nivel de dañado es de {reg4}.{reg5} ({s4} por año).
+qstr_Infrastructure_level_of_{|El nivel de infraestructura de {s1} es de {reg2}.{reg3} ({s4} por año).
+qstr_VP_of_{s1}_against_{|VP de {s1} contra {s2} son {reg10}
+qstr_create_random_war_pe|Generar paz {s1} {s2}
 qstr_{reg0}_{reg60}|{reg0} {reg60}
-qstr_Enemy_is_{s3}|Enemy is {s3}
-qstr_Ally_is_{s3}|Ally is {s3}
-qstr_Infrastructure_level_of_{s|Infrastructure level of {s1} is {reg4}.{reg5}, damaged to {reg2}.{reg3} ({s4} per year).
-qstr_{s4}_per_day|{s4} per day
-qstr_{s4}_per_year|{s4} per year
-qstr_Infrastructure_level_of_{s1|Infrastructure level of {s1} is {reg4}.{reg5}, damaged to {reg2}.{reg3} ({s5}).
-qstr_Infrastructure_level_of_{s1}|Infrastructure level of {s1} is {reg2}.{reg3} ({s5}).
-qstr_People_s_Republic_of_|People's Republic of Denmark
-qstr_People_s_Republic_of_S|People's Republic of Sweden
-qstr_Republic_of_Denmark|Republic of Denmark
-qstr_Republic_of_Sweden|Republic of Sweden
+qstr_Enemy_is_{s3}|El enemigo es {s3}
+qstr_Ally_is_{s3}|El aliado es {s3}
+qstr_Infrastructure_level_of_{s|Nivel de infraestructura de {s1} es de {reg4}.{reg5}, el nivel de dañado es de {reg2}.{reg3} ({s4} por año).
+qstr_{s4}_per_day|{s4} por dia
+qstr_{s4}_per_year|{s4} por año
+qstr_Infrastructure_level_of_{s1|Nivel de infraestructura de {s1} es de {reg4}.{reg5}, el nivel de dañado es de {reg2}.{reg3} ({s5}).
+qstr_Infrastructure_level_of_{s1}|Nivel de infraestructura de {s1} es de {reg2}.{reg3} ({s5}).
+qstr_People_s_Republic_of_|Gente de la República de Dinamarca
+qstr_People_s_Republic_of_S|Gente de la República de Suecia
+qstr_Republic_of_Denmark|República de Dinamarca
+qstr_Republic_of_Sweden|República de Suecia
 qstr_{s9}|{s9}
-qstr__This_village_and_the| This village and the surrounding lands belong to your country.
-qstr_North_German_Confeder|North German Confederation is formed.
-qstr_German_Empire_is_for|German Empire is formed.
-qstr_Adding_division_in_{|Adding division in {s1}
-qstr_Removing_division_in|Removing division in {s1}
-qstr_French_Commune|French Commune
-qstr_Association_of_Auton|Association of Autonomous States
-qstr_Austrian_Soviet_Repu|Austrian Soviet Republic
-qstr_Italian_Union|Italian Union
-qstr_Soviet_Germany|Soviet Germany
-qstr_Turkish_People_s_Rep|Turkish People's Republic
-qstr_British_Union|British Union
-qstr_People_s_Republic_of_Sp|People's Republic of Spain
-qstr_People_s_Democratic_|People's Democratic Republic of Tunisia
-qstr_Commune_of_Naples|Commune of Naples
-qstr_United_Cantons|United Cantons
-qstr_People_s_Republic_of_E|People's Republic of Egypt
-qstr_Moroccan_Commune|Moroccan Commune
-qstr_People_s_Republic_of_P|People's Republic of Portugal
-qstr_People_s_Republic_of_O|People's Republic of Oman
-qstr_Danish_Civil_Union|Danish Civil Union
-qstr_Roman_Commune|Roman Commune
-qstr_People_s_Commonwealt|People's Commonwealth of Socialist States
-qstr_Afghan_Democratic_Re|Afghan Democratic Republic
-qstr_Bukharan_People_s_So|Bukharan People's Soviet Republic
-qstr_Khorezm_People_s_Sov|Khorezm People's Soviet Republic
-qstr_Democratic_Republic_|Democratic Republic of Greece
-qstr_Romanian_People_s_Re|Romanian People's Republic
-qstr_Belgian_Commune|Belgian Commune
-qstr_Wurttemberg_Soviet_R|Wurttemberg Soviet Republic
-qstr_Soviet_Serbia|Soviet Serbia
-qstr_Bavarian_Soviet_Repu|Bavarian Soviet Republic
-qstr_Soviet_Norway|Soviet Norway
-qstr_Westphalian_Soviet_R|Westphalian Soviet Republic
-qstr_Republic_of_the_Arab|Republic of the Arabian Assembly
-qstr_Arabian_Republic|Arabian Republic
-qstr_DETACH_{s1}|DETACH {s1}
-qstr_Upper_Class___Aristoc|Upper Class - Aristocracy (former)
-qstr_Upper_Class___Bourgeo|Upper Class - Bourgeoisie (former)
-qstr_State_industry_incom|State industry income:^+{reg10} $
-qstr_State_industry_expen|State industry expenses:^{reg10} $
-qstr_Urban_industry_of_th|Urban industry of this region was nationalised,^which means that factories output is decreased^depending on administration efficiency.^^With current administration efficiency of {reg1},^factories output is decreased by {reg2}.
-qstr_Rural_industry_of_th|Rural industry of this region was nationalised,^which means that raw resources output is decreased^depending on administration efficiency.^^With current administration efficiency of {reg1},^resources output is decreased by {reg2}.
-qstr_Industrialization_ca|Industrialization campaign is now in progress, which means that urbanization process is 4 times faster, quality of life of rural population is decreased by 5%, and administration efficiency is decreased by 5%.
-qstr_Government_type_of_t|Government type of this country does not allow you to build factories.
-qstr_Urban_industry_of_thi|Urban industry of this region was nationalised,^which means that factories output is decreased^depending on administration efficiency.^^With current administration efficiency of {reg1}%,^factories output is decreased by {reg2}%.
-qstr_Rural_industry_of_thi|Rural industry of this region was nationalised,^which means that urban famine level is decreased in 3 times^but raw resources output is decreased^depending on administration efficiency.^^With current administration efficiency of {reg1}%,^resources output is decreased by {reg2}%.
-qstr_Industrialization_cam|Industrialization campaign is now in progress,^which means that urbanization process^is 4 times faster, quality of life of rural population^is decreased by 5%, and administration efficiency^is decreased by 5%.
-qstr_Urban_industry_of_this|Urban industry of this region was nationalised,^which means that factories budget is consolidated^with national budget, factories output is decreased^depending on administration efficiency, and all^capitalist development of region such as investitions are ceased.^^With current administration efficiency of {reg1}%,^factories output is decreased by {reg2}%.
-qstr_Rural_industry_of_this|Rural industry of this region was nationalised,^which means that urban famine level is decreased in 3 times^but raw resources output is decreased^depending on administration efficiency.^Quality of life of rural population is decreased by 20%^^With current administration efficiency of {reg1}%,^resources output is decreased by {reg2}%.
-qstr_Industrialization_camp|Industrialization campaign is now in progress,^which means that urbanization process^is 4 times faster, quality of life of population^is decreased by 20%, and administration efficiency^is decreased by 5%.
-qstr_{s1}:_Anti_war_prote|{s1}: Anti-war protesters are demonstrating in {s2}, demanding to put an end to the ongoing armed conflict between their nation and {s3}.
-qstr_Revolution_in_{s1}!_|Revolution in {s1}! Jacobin radicals have overthrown the national government and declared a new state named {s2} in the early hours of the day. The military has refused to surrender, and the nation is now embroiled in a brutal civil war.
-qstr_Revolution_in_{s1}!_S|Revolution in {s1}! Socialist radicals have overthrown the national government and declared a new state named {s2} in the early hours of the day. The military has refused to surrender, and the nation is now embroiled in a brutal civil war.
-qstr_Unable_to_suppress_t|Unable to suppress the revolt, the rebellion has spread to other cities. Society has been split in two, liberals demanding the immediate disposition of the government, and reactionaries calling for the immediate jackbooted obliteration of the liberal rebellion. Martial law has been declared, and Habeas Corpus has made way for summary executions in the streets and villages.
-qstr_PPS_Faction_iteration|PPS Faction iteration
+qstr__This_village_and_the| Este pueblo y sus alrededores pertenecen a tu país.
+qstr_North_German_Confeder|La Confederación Alemana del Norte esta formada.
+qstr_German_Empire_is_for|El Imperio Alemán esta formado.
+qstr_Adding_division_in_{|Agregando una división en {s1}
+qstr_Removing_division_in|Removiendo una división en {s1}
+qstr_French_Commune|Comuna Francesa
+qstr_Association_of_Auton|Asociación de Estados Autonomos
+qstr_Austrian_Soviet_Repu|República Sovietica Austriaca
+qstr_Italian_Union|Unión Italiana
+qstr_Soviet_Germany|Alemania Sovietica
+qstr_Turkish_People_s_Rep|República Popular Turca
+qstr_British_Union|Unión Británica
+qstr_People_s_Republic_of_Sp|República Popular de España
+qstr_People_s_Democratic_|República Popular de Tunez
+qstr_Commune_of_Naples|Comuna de Napoles
+qstr_United_Cantons|Cantones Unidos
+qstr_People_s_Republic_of_E|República Popular de Egipto
+qstr_Moroccan_Commune|Comuna de Marruecos
+qstr_People_s_Republic_of_P|República Popular de Portugal
+qstr_People_s_Republic_of_O|República Popular de Oman
+qstr_Danish_Civil_Union|Unión Civil Danesa
+qstr_Roman_Commune|Comuna Romana
+qstr_People_s_Commonwealt|Mancomunidad Popular de Estados Socialistas
+qstr_Afghan_Democratic_Re|República Democrática Afgana
+qstr_Bukharan_People_s_So|República Sovietica Bújarana
+qstr_Khorezm_People_s_Sov|República Sovietica Popular de Corasmia
+qstr_Democratic_Republic_|República Democrática de Grecía
+qstr_Romanian_People_s_Re|República Popular Rumana
+qstr_Belgian_Commune|Comuna Belga
+qstr_Wurttemberg_Soviet_R|República Sovietica de Wurttemberg
+qstr_Soviet_Serbia|Serbia Sovietica
+qstr_Bavarian_Soviet_Repu|República Sovietica Bávara
+qstr_Soviet_Norway|Noruega Sovietica
+qstr_Westphalian_Soviet_R|República Sovietica de Westfalia
+qstr_Republic_of_the_Arab|República de la Asamblea Árabe
+qstr_Arabian_Republic|República Árabe
+qstr_DETACH_{s1}|Destacar {s1}
+qstr_Upper_Class___Aristoc|Clase Alta - Aristocracia (antigua)
+qstr_Upper_Class___Bourgeo|Upper Class - Burguesía (antigua)
+qstr_State_industry_incom|Ingresos de Industria Estatal:^+{reg10} $
+qstr_State_industry_expen|Gastos de Industria Estatal:^{reg10} $
+qstr_Urban_industry_of_th|La industria urbana de esta región fue nacionalizada, ^esto significa que la producción ha bajado^dependiendo de la eficiencia de la administración.^^ Con la actual eficiencia de la administración de {reg1},^la producción ha bajado en {reg2}.
+qstr_Rural_industry_of_th|La industria rural de esta región fue nacionalizada, ^esto significa que la producción ha bajado^dependiendo de la eficiencia de la administración.^^ Con la actual eficiencia de la administración de {reg1},^la producción ha bajado en {reg2}.
+qstr_Industrialization_ca|La campaña de industrialización esta en progreso, esto significa que el proceso de urbanización es 4 veces más rápida, la calidad de vida rural ha sido disminuida en 5%, y la eficiencia administrativa ha disminuido en 5%.
+qstr_Government_type_of_t|El tipo de gobierno en este país no te permite hacer este tipo de fábricas.
+qstr_Urban_industry_of_thi|La industria urbana de esta región fue nacionalizada,^esto significa que la producción ha disminuido^debido a la eficiencia administrativa.^^Con la eficiencia administrativa actual de {reg1}%,^la producción se ha disminuido en {reg2}%.
+qstr_Rural_industry_of_thi|La industria rural de esta región fue nacionalizada,^esto significa que la hambruna urbana ha disminuido por 3^ pero la materia prima ha disminuido^debido a la eficiencia administrativa.^^Con la eficiencia administrativa actual de {reg1}%,^la producción se ha disminuido en {reg2}%.
+qstr_Industrialization_cam|La campaña de industrialización está en progreso^esto significa que el proceso de urbanización^es 4 veces más rápido, la calidad de vida rural^se disminuyó en 5%, y la eficiencia administrativa^se disminuyó en un 5%. 
+qstr_Urban_industry_of_this|La industria urbana de esta región fue nacionalizada,^esto significa que presupuesto de las fábricas es alimentado por^el presupuesto nacional, la producción se ha disminuido^debido a la eficiencia administrativa, y todas^las inversiones privadas de la región han cesado.^^Con la actual eficiencia administrativa de {reg1}%,^la producción ha disminuido en {reg2}%.
+qstr_Rural_industry_of_this|La industria rural de esta región fue nacionalizada,^esto significa que la hambruna urbana ha disminuido 3 veces^, pero la producción de materia prima ha disminuido^debido a la eficiencia administrativa.^La calidad de vida rural ha disminuido en un 20%^^con la eficiencia administrativa de {reg1}%,^la producción ha bajado en {reg2}%.
+qstr_Industrialization_camp|La campaña de industrialización esta en progreso,^esto significa que el proceso de urbanización^es 4 veces más rápido, la calidad de vida ^ha bajado en 20% y la eficiencia administrativa^ha bajado en 5%.
+qstr_{s1}:_Anti_war_prote|{s1}: Hubo una manifestación contra las guerras en {s2}, pidieron el fin del conflicto armado entre sus naciones y {s3}.
+qstr_Revolution_in_{s1}!_|¡Revolución en {s1}!: Los radicales Jacobinos han derrocado el gobierno nacional y declararon un nuevo estado llamado {s2} en las primeras horas del día, Las fuerzas militares han rechazado rendirse y la nación esta sucumbida en una brutal guerra civil.
+qstr_Revolution_in_{s1}!_S|¡Revolución en {s1}!: Los radicales Socialistas han derrocado el gobierno nacional y declararon un nuevo estado llamado {s2} en las primeras horas del día, Las fuerzas militares han rechazado rendirse y la nación esta sucumbida en una brutal guerra civil.
+qstr_Unable_to_suppress_t|No se ha podido reprimir la revuelta y la rebelión se ha desparramado en otras ciudades, la sociedad esta divida entre liberales pidiendo la disposición del gobierno y los reaccionarios que llaman a un exterminio de la rebelión liberal. Las leyes marciales fueron declaradas y los Habeas Corpus han sido hechos para evitar las ejecuciones en las calles y poblados.
+qstr_PPS_Faction_iteration|Iteración de los PPS de la facción
 qstr_faction_calculate_pp|faction calculate pps pes slots
-qstr_Position:_at_will|Position: at will
+qstr_Position:_at_will|Posición: A la espera
 qstr_mesh_pbs_pronemode1|mesh pbs pronemode1
-qstr_Position:_always_cro|Position: always crouch
+qstr_Position:_always_cro|Posición: Siempre agachados
 qstr_mesh_pbs_pronemode2|mesh pbs pronemode2
-qstr_Position:_always_pro|Position: always prone
+qstr_Position:_always_pro|Posición: Siempre cuerpo a tierra
 qstr_mesh_pbs_pronemode3|mesh pbs pronemode3
-qstr_Position:_mixed|Position: mixed
+qstr_Position:_mixed|Posición: mixta
 qstr_mesh_pbs_pronemode4|mesh pbs pronemode4
-qstr_{s1}^^This_togglable|{s1}^^This togglable ability allows to choose position for company:^at will, always crouch or always prone. While crouch^and prone positions reduce damage incoming^from shell explosions, they can close view in front of soldiers,^interrupting shooting.^Company types: any infantry company.
-qstr_Under_Fire^^Assault_|Under Fire^^Assault Tactics
-qstr_Under_Fire^Assault_T|Under Fire^Assault Tactics
+qstr_{s1}^^This_togglable|{s1}^^Esta habilidad alternable permite escoger las posiciones de la compañía:^A la espera, siempre agachados o siempre cuerpo a tierra. Mientras que las posiciones agachados^y cuerpo a tierra reducen el daño recibido^de explosiones, ellos tienen una ventaja de visión frente a los soldados,^interrumpiendo el fuego.^Tipos de compañía: Cualquier infanteria.
+qstr_Under_Fire^^Assault_|Tacticas de Asalto^^Bajo Fuego
+qstr_Under_Fire^Assault_T|Tacticas de Asatlo^Bajo Fuego
 qstr_pbs_pronemode1|pbs pronemode1
 qstr_pbs_pronemode2|pbs pronemode2
 qstr_pbs_pronemode3|pbs pronemode3
@@ -1376,32 +1376,32 @@ qstr_pbs_activeability_pr|pbs activeability pronemode1
 qstr_pbs_activeability_pro|pbs activeability pronemode2
 qstr_pbs_activeability_pron|pbs activeability pronemode3
 qstr_pbs_activeability_prone|pbs activeability pronemode4
-qstr_{s1}^^This_toggleabl|{s1}^^This toggleable ability allows to choose position for company:^at will, always crouch or always prone. Prone^position reduces damage incoming from shell explosions,^but it can close view in front of soldiers,^interrupting shooting.^Company types: any infantry company.
-qstr_Volunteer_army|Volunteer army
-qstr_Limited_conscription|Limited conscription
-qstr_Extended_conscriptio|Extended conscription
-qstr_Wide_conscription|Wide conscription
-qstr__{reg2}%_to_quality_|-{reg2}% to quality of life
-qstr_Conscription_policy:|Conscription policy: {s1}%
-qstr_Army_reinforcements_|Army reinforcements rate:
-qstr__{reg2}%_workers|-{reg2}% workers
-qstr_Reserves:|Reserves:
-qstr_{reg1}/{reg2}_men|{reg1}/{reg2} men
-qstr_Conscription_policy:_|Conscription policy: {s1}
-qstr__{reg3}%_workers|-{reg3}% workers
-qstr_Volunteer_army^_4%_o|Volunteer army^(4% of the population)
-qstr_Limited_conscription^|Limited conscription^(10% of the population)
-qstr_Extended_conscription|Extended conscription^(20% of the population)
-qstr_Wide_conscription^_2|Wide conscription^(25% of the population)
-qstr_{reg1}/{reg2}_men__+|{reg1}/{reg2} men (+{reg3} per day)
-qstr_Volunteer_army^_3%_o|Volunteer army^(3% of the population)
-qstr_Military_management_|Military management is only available to faction marshals.
+qstr_{s1}^^This_toggleabl|{s1}^^Esta habilidad alternable permite escoger las posiciones de la compañía:^A la espera, siempre agachados o siempre cuerpo a tierra. La posición Cuerpo a tierra reducen el daño recibido^de explosiones, ellos tienen una ventaja de visión frente a los soldados,^interrumpiendo el fuego.^Tipos de compañía: Cualquier infanteria.
+qstr_Volunteer_army|Ejército Voluntario
+qstr_Limited_conscription|Conscripción limitada
+qstr_Extended_conscriptio|Conscripción extendida
+qstr_Wide_conscription|Conscripción Amplia
+qstr__{reg2}%_to_quality_|-{reg2}% para calidad de vida
+qstr_Conscription_policy:|Políticas de Conscripción: {s1}%
+qstr_Army_reinforcements_|Tasa de refuerzos del ejercito:
+qstr__{reg2}%_workers|-{reg2}% de Trabajadores
+qstr_Reserves:|Reservas:
+qstr_{reg1}/{reg2}_men|{reg1}/{reg2} hombres
+qstr_Conscription_policy:_|Políticas de Conscripción: {s1}
+qstr__{reg3}%_workers|-{reg3}% Trabajadores
+qstr_Volunteer_army^_4%_o|Ejército voluntario^(4% de la población)
+qstr_Limited_conscription^|Conscripción Limitada^(10% de la población)
+qstr_Extended_conscription|Conscripción Extendida^(20% de la población)
+qstr_Wide_conscription^_2|Conscripción Amplia^(25% de la población)
+qstr_{reg1}/{reg2}_men__+|{reg1}/{reg2} hombres (+{reg3} por día)
+qstr_Volunteer_army^_3%_o|Ejército Voluntario^(3% de la población)
+qstr_Military_management_|Gestión militar esta solamente disponible para la facción de mariscal.
 qstr_ai_behavior_{reg1}_p|ai behavior {reg1} pas timer {reg2} pas lord state {reg3}
 qstr_{s1}_s_marshal_ai_be|{s1}'s marshal ai behavior {reg1} pas timer {reg2} pas lord state {reg3}
 qstr_{s1}_s_marshal:_ai_b|{s1}'s marshal: ai behavior {reg1} pas timer {reg2} pas lord state {reg3}
-qstr_Heavy_Machine_Gun:|Heavy Machine Gun:
-qstr_Light_Machine_Gun:|Light Machine Gun:
-qstr_Sub_machine_Gun:|Sub-machine Gun:
+qstr_Heavy_Machine_Gun:|Ametralladoras pesadas:
+qstr_Light_Machine_Gun:|Ametralladoras ligeras:
+qstr_Sub_machine_Gun:|Subfusil:
 qstr_Maxim_Gun|Maxim Gun
 qstr_Maxim_Gun_M1910|Maxim Gun M1910
 qstr_MG_08|MG-08
@@ -1417,33 +1417,33 @@ qstr_Hotchkiss_M1909|Hotchkiss M1909
 qstr_MP_18|MP-18
 qstr_Fedorov|Fedorov
 qstr_Beretta_1918|Beretta 1918
-qstr_Previous|Previous
-qstr_mg5_austrian|mg5 austrian
-qstr_mg5_austrian_barrel|mg5 austrian barrel
-qstr_mg_prop_{reg1}|mg prop {reg1}
-qstr_Victory_Points:_{reg|Victory Points: {reg13}
-qstr_Victory_Points_used:|Victory Points used: {reg20}
-qstr_Victory_Points/Point|Victory Points/Points needed for agreement: {reg20}/{reg10}
-qstr_Victory_Points:_{reg2|Victory Points: {reg20}/{reg10}
-qstr_Most_certainly._Arres|Most certainly. Arrests of influential figures of the political opposition will undermine their positions in the political arena and strengthen ours. Investigation will take 10 days and {reg1} pounds.
-qstr_Most_certainly._Few_r|Most certainly. Few revelatory articles condemning our opponents in illegal actions, aiding enemy and treason will dishonor them before the eyes of our people, and strengthen our position. The whole process will take 10 days and {reg1} pounds.
-qstr_Dig_In^^Selected_comp|Dig In^^Selected companies will dig in,^creating trenches on their position.^Only available once per battle.^Company types: any infantry company.
-qstr_Cannot_dig_in:_wrong_|Cannot dig in: wrong company types (only infantry companies can dig in).
-qstr_VP_of_{s1}_against_{s|VP of {s1} against {s2} are {reg10}, number of enemies ai - {reg11}, number of allies ai - {reg12}
-qstr_{s1}_on_{s2}___{reg0|{s1} on {s2} - {reg0}
-qstr_{s1}_on_{s2}_{reg0}|{s1} on {s2} {reg0}
-qstr_{s1}_on_{s2}__{reg0}|{s1} on {s2} -{reg0}
-qstr_{s1}_on_{s2}_{reg1}|{s1} on {s2} {reg1}
-qstr_give_center_to_facti|give center to faction while maintaining lord - {s1} to {s2}
-qstr_give_center_to_factio|give center to faction aux {s1} to {s2}
-qstr_give_center_to_faction|give center to faction {s1} to {s2}
-qstr_INTERNAL_give_center|INTERNAL give center to faction aux {s1} to {s2}
-qstr_{s1}_in_{s2}_went_ba|{s1} in {s2} went bankrupt and closed.
+qstr_Previous|Anterior
+qstr_mg5_austrian|mg5 austriaca
+qstr_mg5_austrian_barrel|mg5 cañon austriaco
+qstr_mg_prop_{reg1}|mg proporción {reg1}
+qstr_Victory_Points:_{reg|Puntos de Victoria: {reg13}
+qstr_Victory_Points_used:|Puntos de Victoria usados: {reg20}
+qstr_Victory_Points/Point|Puntos de Victoria/Puntos necesarios para acordar: {reg20}/{reg10}
+qstr_Victory_Points:_{reg2|Puntos de Victoria: {reg20}/{reg10}
+qstr_Most_certainly._Arres|Seguramente los arrestos de figuras importantes del partido opositor socavarán sus posiciones políticas y nos fortalecerá. La investigación tomará 10 dias y {reg1} libras.
+qstr_Most_certainly._Few_r|Seguramente, si sacamos noticias demostrando una relación de nuestros oponentes y acciones ilegales, esto hará que el pueblo los demonice y fortalecerá nuestras posiciones, este proceso tomará 10 días y {reg1} libras.
+qstr_Dig_In^^Selected_comp|Cavar^^Las compañías seleccionadas van a cavar,^creando trincheras en su lugar.^solo disponible una vez por batalla.^Tipos de Compañía: Cualquier compañía de Infanteria.
+qstr_Cannot_dig_in:_wrong_|No se puede cavar: tipo de compañía erronea (solo las compañías de infantería pueden cavar).
+qstr_VP_of_{s1}_against_{s|VP de {s1} contra {s2} son {reg10}, cantidad de enemigos - {reg11}, cantidad de aliados - {reg12}
+qstr_{s1}_on_{s2}___{reg0|{s1} en {s2} - {reg0}
+qstr_{s1}_on_{s2}_{reg0}|{s1} en {s2} {reg0}
+qstr_{s1}_on_{s2}__{reg0}|{s1} en {s2} -{reg0}
+qstr_{s1}_on_{s2}_{reg1}|{s1} en {s2} {reg1}
+qstr_give_center_to_facti|dar el centro de facción mientras se mantiene al señor - {s1} a {s2}
+qstr_give_center_to_factio|dar el centro de facción aux {s1} a {s2}
+qstr_give_center_to_faction|dar el centro de facción {s1} a {s2}
+qstr_INTERNAL_give_center|INTERNO dar el centro de facción aux {s1} a {s2}
+qstr_{s1}_in_{s2}_went_ba|{s1} en {s2} quebró y cerró.
 qstr_script_pas_get_facti|script pas get faction ideal lord number {reg0}
 qstr_ideal_lord_number_{r|ideal lord number {reg0}
 qstr_current_lord_number_|current lord number {reg1}
 qstr_script_pas_init_lord|script pas init lord
 qstr_script_remove_lord_f|script remove lord from game
 qstr_script_remove_lord_fr|script remove lord from game {reg1}
-qstr_Rebellion_in_{s1}:_s|Rebellion in {s1}: socailist rebels took up arms and are attacking the government army!
-qstr_Rebellion_in_{s1}:_j|Rebellion in {s1}: jacobin rebels took up arms and are attacking the government army!
+qstr_Rebellion_in_{s1}:_s|Rebelión en {s1}: ¡Los rebeldes socialistas tomaron las armas y atacan a las fuerzas estatales!
+qstr_Rebellion_in_{s1}:_j|Rebelión en {s1}: ¡Los rebeldes Jacobinos tomaron las armas y atacan a las fuerzas estatales!
