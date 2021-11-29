@@ -1269,7 +1269,7 @@ itm_ria_infantry_trousers1_pl|Pantalones de Infantes Rusos
 itm_ria_infantry_trousers2|Pantalones de Infante Ruso
 itm_ria_infantry_trousers2_pl|Pantalones de Infantes Rusos
 itm_ria_infantry_trousers3|Pantalones de Infante Ruso
-itm_ria_infantry_trousers3_pl|Pantaloness de Infantes Rusos
+itm_ria_infantry_trousers3_pl|Pantalones de Infantes Rusos
 itm_ria_infantry_trousers4|Pantalones de Infante Ruso
 itm_ria_infantry_trousers4_pl|Pantalones de Infantes Rusos
 itm_ria_infantry_trousers5|Pantalones de Infante Ruso
@@ -1399,9 +1399,9 @@ itm_rifle_middle_east_musket1_pl|Mosquetes
 itm_rifle_middle_east_musket1_m|Mosquete
 itm_rifle_middle_east_musket1_m_pl|Mosquetes
 itm_rifle_middle_east_musket1_carbine|Carabina
-itm_rifle_middle_east_musket1_carbine_pl|Carabinass
+itm_rifle_middle_east_musket1_carbine_pl|Carabinas
 itm_rifle_middle_east_musket1_carbine_m|Carabina
-itm_rifle_middle_east_musket1_carbine_m_pl|Carabinass
+itm_rifle_middle_east_musket1_carbine_m_pl|Carabinas
 itm_sidearm_smithwesson_no2|Revólver Smith & Wesson Modelo 3
 itm_sidearm_smithwesson_no2_pl|Revolveres Smith & Wesson Modelo 3
 itm_sidearm_flintlock_pistol1|Pistolón
@@ -1522,30 +1522,30 @@ itm_clothes_urban_male_trousers4|Trousers
 itm_clothes_urban_male_trousers4_pl|Trousers
 itm_dress_shoes|Zapatos de Vestir
 itm_dress_shoes_pl|Zapatos de Vestir
-itm_clothes_urban_male1|Traje de tres Piezas
-itm_clothes_urban_male1_pl|Trajes de tres Piezas
-itm_clothes_urban_male2|Traje de tres Piezas
-itm_clothes_urban_male2_pl|Trajes de tres Piezas
-itm_clothes_urban_male3|Traje de tres Piezas
-itm_clothes_urban_male3_pl|Trajes de tres Piezas
-itm_clothes_urban_male4|Three-piece Suit
-itm_clothes_urban_male4_pl|Three-piece Suit
-itm_clothes_urban_male5|Three-piece Suit
-itm_clothes_urban_male5_pl|Three-piece Suit
-itm_clothes_urban_male6|Three-piece Suit
-itm_clothes_urban_male6_pl|Three-piece Suit
-itm_clothes_urban_male7|Three-piece Suit
-itm_clothes_urban_male7_pl|Three-piece Suit
-itm_clothes_urban_male8|Three-piece Suit
-itm_clothes_urban_male8_pl|Three-piece Suit
-itm_civilian_hat1|Sombrero de Ala Ancha
-itm_civilian_hat1_pl|Sombreros de Ala Anchas
-itm_civilian_hat2|Sombrero de Ala Ancha
-itm_civilian_hat2_pl|Sombreros de Ala Anchas
-itm_civilian_hat3|Sombrero de Copa
-itm_civilian_hat3_pl|Sombreros de Copas
-itm_civilian_hat3b|Sombrero de Copa
-itm_civilian_hat3b_pl|Sombreros de Copas
+itm_clothes_urban_male1|Traje de tres piezas
+itm_clothes_urban_male1_pl|Trajes de tres piezas
+itm_clothes_urban_male2|Traje de tres piezas
+itm_clothes_urban_male2_pl|Trajes de tres piezas
+itm_clothes_urban_male3|Traje de tres piezas
+itm_clothes_urban_male3_pl|Trajes de tres piezas
+itm_clothes_urban_male4|Traje de tres piezas
+itm_clothes_urban_male4_pl|Trajes de tres piezas
+itm_clothes_urban_male5|Traje de tres piezas
+itm_clothes_urban_male5_pl|Trajes de tres piezas
+itm_clothes_urban_male6|Traje de tres piezas
+itm_clothes_urban_male6_pl|Trajes de tres piezas
+itm_clothes_urban_male7|Traje de tres piezas
+itm_clothes_urban_male7_pl|Trajes de tres piezas
+itm_clothes_urban_male8|Traje de tres piezas
+itm_clothes_urban_male8_pl|Trajes de tres piezas
+itm_civilian_hat1|Sombrero de ala ancha
+itm_civilian_hat1_pl|Sombreros de ala anchas
+itm_civilian_hat2|Sombrero de ala ancha
+itm_civilian_hat2_pl|Sombreros de ala anchas
+itm_civilian_hat3|Sombrero de copa
+itm_civilian_hat3_pl|Sombreros de copas
+itm_civilian_hat3b|Sombrero de copa
+itm_civilian_hat3b_pl|Sombreros de copas
 itm_civilian_hat4|Bombín
 itm_civilian_hat4_pl|Bombines
 itm_civilian_hat4b|Bombín
@@ -1617,7 +1617,7 @@ itm_gho_hat6_pl|Sombreros de Shah Persa
 itm_gho_hat7|Sombrero de Ceremonia Persa
 itm_gho_hat7_pl|Sombreros de Ceremonia Persa
 itm_lance3|Lanza
-itm_lance3_pl|Lanza
+itm_lance3_pl|Lanzas
 itm_horse_russian1a|Trotón bayo de Orlov ensillado
 itm_horse_russian1a_pl|Trotones bayos de Orlov ensillado
 itm_horse_russian1b|Black Orlov Silla de Montar
@@ -1837,33 +1837,33 @@ itm_rifle_russian_m1856_pl|Rifles Rusos M1856
 itm_rifle_russian_m1856_m|Rifle Ruso M1856
 itm_rifle_russian_m1856_m_pl|Rifles Rusos M1856
 itm_rifle_russian_m1856_carbine|Carabina Rusa M1856
-itm_rifle_russian_m1856_carbine_pl|Carabinass Rusas M1856
+itm_rifle_russian_m1856_carbine_pl|Carabinas Rusas M1856
 itm_rifle_russian_m1856_carbine_m|Carabina Rusa M1856
-itm_rifle_russian_m1856_carbine_m_pl|Carabinass Rusas M1856
+itm_rifle_russian_m1856_carbine_m_pl|Carabinas Rusas M1856
 itm_rifle_russian_m1867|Rifle Krnka
 itm_rifle_russian_m1867_pl|Rifles Krnka
 itm_rifle_russian_m1867_m|Rifle Krnka
 itm_rifle_russian_m1867_m_pl|Rifles Krnka
 itm_rifle_russian_m1867_carbine|Carabina Krnka
-itm_rifle_russian_m1867_carbine_pl|Carabinass Krnka
+itm_rifle_russian_m1867_carbine_pl|Carabinas Krnka
 itm_rifle_russian_m1867_carbine_m|Carabina Krnka
-itm_rifle_russian_m1867_carbine_m_pl|Carabinass Krnka
+itm_rifle_russian_m1867_carbine_m_pl|Carabinas Krnka
 itm_rifle_russian_berdan|Rifle Berdan
 itm_rifle_russian_berdan_pl|Rifles Berdan
 itm_rifle_russian_berdan_m|Rifle Berdan
 itm_rifle_russian_berdan_m_pl|Rifles Berdan
 itm_rifle_russian_berdan_carbine|Carabina Berdan
-itm_rifle_russian_berdan_carbine_pl|Carabinass Berdan
+itm_rifle_russian_berdan_carbine_pl|Carabinas Berdan
 itm_rifle_russian_berdan_carbine_m|Carabina Berdan
-itm_rifle_russian_berdan_carbine_m_pl|Carabinass Berdan
+itm_rifle_russian_berdan_carbine_m_pl|Carabinas Berdan
 itm_rifle_russian_mosin|Rifle Mosin-Nagant
 itm_rifle_russian_mosin_pl|Rifles Mosin-Nagant
 itm_rifle_russian_mosin_m|Rifle Mosin-Nagant
 itm_rifle_russian_mosin_m_pl|Rifles Mosin-Nagant
 itm_rifle_russian_mosin_carbine|Carabina Mosin-Nagant
-itm_rifle_russian_mosin_carbine_pl|Carabinass Mosin-Nagant
+itm_rifle_russian_mosin_carbine_pl|Carabinas Mosin-Nagant
 itm_rifle_russian_mosin_carbine_m|Carabina Mosin-Nagant
-itm_rifle_russian_mosin_carbine_m_pl|Carabinass Mosin-Nagant
+itm_rifle_russian_mosin_carbine_m_pl|Carabinas Mosin-Nagant
 itm_bow1|Arco de Tejo
 itm_bow1_pl|Arcos de Tejo
 itm_bow2|Arco de Fresno
@@ -1878,8 +1878,8 @@ itm_clothes_rural_male1|Camisa
 itm_clothes_rural_male1_pl|Camisas
 itm_clothes_rural_male2|Camisa
 itm_clothes_rural_male2_pl|Camisas
-itm_clothes_gala_male1|Traje de tres Piezas
-itm_clothes_gala_male1_pl|Trajes de tres Piezas
+itm_clothes_gala_male1|Traje de tres piezas
+itm_clothes_gala_male1_pl|Trajes de tres piezas
 itm_clothes_gala_male1_trousers|Pantalones
 itm_clothes_gala_male1_trousers_pl|Pantalones
 itm_rifle_austrian_m1842|Mosquete Austriaco M1842
@@ -1887,41 +1887,41 @@ itm_rifle_austrian_m1842_pl|Mosquetes Austriaco M1842
 itm_rifle_austrian_m1842_m|Mosquete Austriaco M1842
 itm_rifle_austrian_m1842_m_pl|Mosquetes Austriaco M1842
 itm_rifle_austrian_m1842_carbine|Carabina Austriaca M1842
-itm_rifle_austrian_m1842_carbine_pl|Carabinass Austriaca M1842
+itm_rifle_austrian_m1842_carbine_pl|Carabinas Austriaca M1842
 itm_rifle_austrian_m1842_carbine_m|Carabina Austriaca M1842
-itm_rifle_austrian_m1842_carbine_m_pl|Carabinass Austriaca M1842
+itm_rifle_austrian_m1842_carbine_m_pl|Carabinas Austriaca M1842
 itm_rifle_austrian_m1854|Rifle Lorenz
 itm_rifle_austrian_m1854_pl|Rifles Lorenz
 itm_rifle_austrian_m1854_m|Rifle Lorenz
 itm_rifle_austrian_m1854_m_pl|Rifles Lorenz
 itm_rifle_austrian_m1854_carbine|Carabina Lorenz
-itm_rifle_austrian_m1854_carbine_pl|Carabinass Lorenz
+itm_rifle_austrian_m1854_carbine_pl|Carabinas Lorenz
 itm_rifle_austrian_m1854_carbine_m|Carabina Lorenz
-itm_rifle_austrian_m1854_carbine_m_pl|Carabinass Lorenz
+itm_rifle_austrian_m1854_carbine_m_pl|Carabinas Lorenz
 itm_rifle_austrian_m1867|Rifle Wanzl
 itm_rifle_austrian_m1867_pl|Rifles Wanzl
 itm_rifle_austrian_m1867_m|Rifle Wanzl
 itm_rifle_austrian_m1867_m_pl|Rifles Wanzl
 itm_rifle_austrian_m1867_carbine|Carabina Wanzl
-itm_rifle_austrian_m1867_carbine_pl|Carabinass Wanzl
+itm_rifle_austrian_m1867_carbine_pl|Carabinas Wanzl
 itm_rifle_austrian_m1867_carbine_m|Carabina Wanzl
-itm_rifle_austrian_m1867_carbine_m_pl|Carabinass Wanzl
+itm_rifle_austrian_m1867_carbine_m_pl|Carabinas Wanzl
 itm_rifle_austrian_werndl|Rifle Werndl
 itm_rifle_austrian_werndl_pl|Rifles Werndl
 itm_rifle_austrian_werndl_m|Rifle Werndl
 itm_rifle_austrian_werndl_m_pl|Rifles Werndl
 itm_rifle_austrian_werndl_carbine|Carabina Werndl
-itm_rifle_austrian_werndl_carbine_pl|Carabinass Werndl
+itm_rifle_austrian_werndl_carbine_pl|Carabinas Werndl
 itm_rifle_austrian_werndl_carbine_m|Carabina Werndl
-itm_rifle_austrian_werndl_carbine_m_pl|Carabinass Werndl
+itm_rifle_austrian_werndl_carbine_m_pl|Carabinas Werndl
 itm_rifle_austrian_m1886|Fusil Steyr Mannlicher M1886
 itm_rifle_austrian_m1886_pl|Fusiles Steyr Mannlicher M1886
 itm_rifle_austrian_m1886_m|Fusil Steyr Mannlicher M1886
 itm_rifle_austrian_m1886_m_pl|Fusiles Steyr Mannlicher M1886
 itm_rifle_austrian_m1886_carbine|Carabina Steyr Mannlicher M1886
-itm_rifle_austrian_m1886_carbine_pl|Carabinass Steyr Mannlicher M1886
+itm_rifle_austrian_m1886_carbine_pl|Carabinas Steyr Mannlicher M1886
 itm_rifle_austrian_m1886_carbine_m|Carabina Steyr Mannlicher M1886
-itm_rifle_austrian_m1886_carbine_m_pl|Carabinass Steyr Mannlicher M1886
+itm_rifle_austrian_m1886_carbine_m_pl|Carabinas Steyr Mannlicher M1886
 itm_rom_shako|rom shako
 itm_rom_shako_pl|rom shako
 itm_rom_kepi|rom kepi
@@ -2460,18 +2460,18 @@ itm_rifle_german_m1871|Rifle Mauser M1871
 itm_rifle_german_m1871_pl|Rifles Mauser M1871
 itm_rifle_german_m1871_m|Rifle Mauser M1871
 itm_rifle_german_m1871_m_pl|Rifles Mauser M1871
-itm_rifle_german_m1871_carbine|Mauser M1871 Carbine
-itm_rifle_german_m1871_carbine_pl|Mauser M1871 Carbine
-itm_rifle_german_m1871_carbine_m|Mauser M1871 Carbine
-itm_rifle_german_m1871_carbine_m_pl|Mauser M1871 Carbine
-itm_rifle_german_m1888|Gewehr M1888 Rifle
-itm_rifle_german_m1888_pl|Gewehr M1888 Rifle
-itm_rifle_german_m1888_m|Gewehr M1888 Rifle
-itm_rifle_german_m1888_m_pl|Gewehr M1888 Rifle
-itm_rifle_german_m1888_carbine|Gewehr M1888 Carbine
-itm_rifle_german_m1888_carbine_pl|Gewehr M1888 Carbine
-itm_rifle_german_m1888_carbine_m|Gewehr M1888 Carbine
-itm_rifle_german_m1888_carbine_m_pl|Gewehr M1888 Carbine
+itm_rifle_german_m1871_carbine|Carabina Mauser M1871
+itm_rifle_german_m1871_carbine_pl|Carabinas Mauser M1871
+itm_rifle_german_m1871_carbine_m|Carabina Mauser M1871
+itm_rifle_german_m1871_carbine_m_pl|Carabinas Mauser M1871
+itm_rifle_german_m1888|Rifle Gewehr M1888
+itm_rifle_german_m1888_pl|Rifles Gewehr M1888
+itm_rifle_german_m1888_m|Rifle Gewehr M1888
+itm_rifle_german_m1888_m_pl|Rifles Gewehr M1888
+itm_rifle_german_m1888_carbine|Carabina Gewehr M1888
+itm_rifle_german_m1888_carbine_pl|Carabinas Gewehr M1888
+itm_rifle_german_m1888_carbine_m|Carabina Gewehr M1888
+itm_rifle_german_m1888_carbine_m_pl|Carabinas Gewehr M1888
 itm_sidearm_colt_walker|Revolver Colt Walker
 itm_sidearm_colt_walker_pl|Revolveres Colt Walker
 itm_sidearm_galand|Revólver Galand M1870
@@ -2602,10 +2602,10 @@ itm_rifle_italian_vetterli|Rifle Italiano Vetterli M1870
 itm_rifle_italian_vetterli_pl|Rifles Italianos Vetterli M1870
 itm_rifle_italian_vetterli_m|Rifle Italiano Vetterli M1870
 itm_rifle_italian_vetterli_m_pl|Rifles Italianos Vetterli M1870
-itm_rifle_italian_vetterli_carbine|Italian Vetterli M1870 Carbine
-itm_rifle_italian_vetterli_carbine_pl|Italian Vetterli M1870 Carbine
-itm_rifle_italian_vetterli_carbine_m|Italian Vetterli M1870 Carbine
-itm_rifle_italian_vetterli_carbine_m_pl|Italian Vetterli M1870 Carbine
+itm_rifle_italian_vetterli_carbine|Carabina Italiana Vetterli M1870
+itm_rifle_italian_vetterli_carbine_pl|Carabinas Italianas Vetterli M1870
+itm_rifle_italian_vetterli_carbine_m|Carabina Italiana Vetterli M1870
+itm_rifle_italian_vetterli_carbine_m_pl|Carabinas Italianas Vetterli M1870
 itm_rifle_italian_vetterlivitali|Rifle Vetterli-Vitali M1887
 itm_rifle_italian_vetterlivitali_pl|Rifles Vetterli-Vitali M1887
 itm_rifle_italian_vetterlivitali_m|Rifle Vetterli-Vitali M1887
@@ -2898,8 +2898,8 @@ itm_baf_trousers7|Pantalones Militares Británicos
 itm_baf_trousers7_pl|Pantalones Militares Británicos
 itm_baf_trousers8|Pantalones Militares Británicos
 itm_baf_trousers8_pl|Pantalones Militares Británicos
-itm_baf_trousers9|British Military Trousers
-itm_baf_trousers9_pl|British Military Trousers
+itm_baf_trousers9|Pantalones Militares Británicos
+itm_baf_trousers9_pl|Pantalones Militares Británicos
 itm_baf_hat1|Quepi de servicio Británico
 itm_baf_hat1_pl|Quepi de servicio Británico
 itm_baf_hat2|Quepi de servicio Británico
@@ -2970,12 +2970,12 @@ itm_edt_infantry2|Uniforme Militar Español
 itm_edt_infantry2_pl|Uniformes Militares Españoles
 itm_edt_infantry3|Uniforme Militar Español
 itm_edt_infantry3_pl|Uniformes Militares Españoles
-itm_edt_infantry4|Spanish Military Uniform
-itm_edt_infantry4_pl|Spanish Military Uniform
-itm_edt_infantry5|Spanish Military Uniform
-itm_edt_infantry5_pl|Spanish Military Uniform
-itm_edt_infantry6|Spanish Military Uniform
-itm_edt_infantry6_pl|Spanish Military Uniform
+itm_edt_infantry4|Uniforme Militar Español
+itm_edt_infantry4_pl|Uniformes Militares Españoles
+itm_edt_infantry5|Uniforme Militar Español
+itm_edt_infantry5_pl|Uniformes Militares Españoles
+itm_edt_infantry6|Uniforme Militar Español
+itm_edt_infantry6_pl|Uniformes Militares Españoles
 itm_edt_cavalry1|Uniforme Militar Español
 itm_edt_cavalry1_pl|Uniformes Militares Españoles
 itm_edt_cavalry2|Uniforme Militar Español
@@ -2994,12 +2994,12 @@ itm_edt_trousers4|Pantalones Españoles Militares
 itm_edt_trousers4_pl|Pantalones Españoles Militares
 itm_edt_trousers5|Pantalones Españoles Militares
 itm_edt_trousers5_pl|Pantalones Españoles Militares
-itm_edt_trousers6|Spanish Military Trousers
-itm_edt_trousers6_pl|Spanish Military Trousers
-itm_edt_trousers7|Spanish Military Trousers
-itm_edt_trousers7_pl|Spanish Military Trousers
-itm_edt_trousers8|Spanish Military Trousers
-itm_edt_trousers8_pl|Spanish Military Trousers
+itm_edt_trousers6|Pantalones Militares Españoles
+itm_edt_trousers6_pl|Pantalones Militares Españoles
+itm_edt_trousers7|Pantalones Militares Españoles
+itm_edt_trousers7_pl|Pantalones Militares Españoles
+itm_edt_trousers8|Pantalones Militares Españoles
+itm_edt_trousers8_pl|Pantalones Militares Españoles
 itm_edt_hat1|Chacó Español
 itm_edt_hat1_pl|Chacó Españoles
 itm_edt_hat2|Chacó Español
@@ -3008,14 +3008,14 @@ itm_edt_hat3|Chacó Español
 itm_edt_hat3_pl|Chacó Españoles
 itm_edt_hat4|Chacó Español
 itm_edt_hat4_pl|Chacó Españoles
-itm_edt_hat5|Spanish Shako
-itm_edt_hat5_pl|Spanish Shako
-itm_edt_hat6|Spanish Shako
-itm_edt_hat6_pl|Spanish Shako
-itm_edt_hat7|Spanish Shako
-itm_edt_hat7_pl|Spanish Shako
-itm_edt_hat8|Spanish Shako
-itm_edt_hat8_pl|Spanish Shako
+itm_edt_hat5|Chakó Español
+itm_edt_hat5_pl|Chakó Españoles
+itm_edt_hat6|Chakó Español
+itm_edt_hat6_pl|Chakó Españoles
+itm_edt_hat7|Chakó Español
+itm_edt_hat7_pl|Chakó Españoles
+itm_edt_hat8|Chakó Español
+itm_edt_hat8_pl|Chakó Españoles
 itm_rifle_spanish_m1859|Mosquete de Diseño Español 1859
 itm_rifle_spanish_m1859_pl|Mosquetes de Diseño Español 1859
 itm_rifle_spanish_m1859_m|Mosquete de Diseño Español 1859
@@ -3110,30 +3110,30 @@ itm_sta_infantry3|Uniforme Militar Holandés
 itm_sta_infantry3_pl|Uniformes Militares Holandeses
 itm_sta_infantry4|Uniforme Militar Holandés
 itm_sta_infantry4_pl|Uniformes Militares Holandeses
-itm_sta_infantry5|Dutch Military Uniform
-itm_sta_infantry5_pl|Dutch Military Uniform
-itm_sta_infantry6|Dutch Military Uniform
-itm_sta_infantry6_pl|Dutch Military Uniform
-itm_sta_infantry7|Dutch Military Uniform
-itm_sta_infantry7_pl|Dutch Military Uniform
-itm_sta_infantry8|Dutch Military Uniform
-itm_sta_infantry8_pl|Dutch Military Uniform
-itm_sta_infantry9|Dutch Military Uniform
-itm_sta_infantry9_pl|Dutch Military Uniform
-itm_sta_infantry10|Dutch Military Uniform
-itm_sta_infantry10_pl|Dutch Military Uniform
-itm_sta_infantry11|Dutch Military Uniform
-itm_sta_infantry11_pl|Dutch Military Uniform
-itm_sta_infantry12|Dutch Military Uniform
-itm_sta_infantry12_pl|Dutch Military Uniform
-itm_sta_infantry13|Dutch Military Uniform
-itm_sta_infantry13_pl|Dutch Military Uniform
-itm_sta_infantry14|Dutch Military Uniform
-itm_sta_infantry14_pl|Dutch Military Uniform
-itm_sta_infantry15|Dutch Military Uniform
-itm_sta_infantry15_pl|Dutch Military Uniform
-itm_sta_infantry16|Dutch Military Uniform
-itm_sta_infantry16_pl|Dutch Military Uniform
+itm_sta_infantry5|Uniforme Militar Holandés
+itm_sta_infantry5_pl|Uniformes Militares Holandeses
+itm_sta_infantry6|Uniforme Militar Holandés
+itm_sta_infantry6_pl|Uniformes Militares Holandeses
+itm_sta_infantry7|Uniforme Militar Holandés
+itm_sta_infantry7_pl|Uniformes Militares Holandeses
+itm_sta_infantry8|Uniforme Militar Holandés
+itm_sta_infantry8_pl|Uniformes Militares Holandeses
+itm_sta_infantry9|Uniforme Militar Holandés
+itm_sta_infantry9_pl|Uniformes Militares Holandeses
+itm_sta_infantry10|Uniforme Militar Holandés
+itm_sta_infantry10_pl|Uniformes Militares Holandeses
+itm_sta_infantry11|Uniforme Militar Holandés
+itm_sta_infantry11_pl|Uniformes Militares Holandeses
+itm_sta_infantry12|Uniforme Militar Holandés
+itm_sta_infantry12_pl|Uniformes Militares Holandeses
+itm_sta_infantry13|Uniforme Militar Holandés
+itm_sta_infantry13_pl|Uniformes Militares Holandeses
+itm_sta_infantry14|Uniforme Militar Holandés
+itm_sta_infantry14_pl|Uniformes Militares Holandeses
+itm_sta_infantry15|Uniforme Militar Holandés
+itm_sta_infantry15_pl|Uniformes Militares Holandeses
+itm_sta_infantry16|Uniforme Militar Holandés
+itm_sta_infantry16_pl|Uniformes Militares Holandeses
 itm_sta_cavalry1|Uniforme Militar Holandés
 itm_sta_cavalry1_pl|Uniformes Militares Holandeses
 itm_sta_cavalry2|Uniforme Militar Holandés
@@ -3146,30 +3146,30 @@ itm_sta_trousers3|Pantalones Militares Holandeses
 itm_sta_trousers3_pl|Pantalones Militares Holandeses
 itm_sta_trousers4|Pantalones Militares Holandeses
 itm_sta_trousers4_pl|Pantalones Militares Holandeses
-itm_sta_trousers5|Dutch Military Trousers
-itm_sta_trousers5_pl|Dutch Military Trousers
-itm_sta_trousers6|Dutch Military Trousers
-itm_sta_trousers6_pl|Dutch Military Trousers
-itm_sta_trousers7|Dutch Military Trousers
-itm_sta_trousers7_pl|Dutch Military Trousers
+itm_sta_trousers5|Pantalones Militares Holandeses
+itm_sta_trousers5_pl|Pantalones Militares Holandeses
+itm_sta_trousers6|Pantalones Militares Holandeses
+itm_sta_trousers6_pl|Pantalones Militares Holandeses
+itm_sta_trousers7|Pantalones Militares Holandeses
+itm_sta_trousers7_pl|Pantalones Militares Holandeses
 itm_sta_hat1|Chacó Holandés
 itm_sta_hat1_pl|Chacó Holandeses
 itm_sta_hat2|Chacó Holandés
 itm_sta_hat2_pl|Chacó Holandeses
-itm_sta_hat3|Dutch Hat
-itm_sta_hat3_pl|Dutch Hat
-itm_sta_hat4|Dutch Hat
-itm_sta_hat4_pl|Dutch Hat
-itm_sta_hat5|Dutch Hat
-itm_sta_hat5_pl|Dutch Hat
-itm_sta_hat6|Dutch Hat
-itm_sta_hat6_pl|Dutch Hat
-itm_sta_hat7|Dutch Helmet
-itm_sta_hat7_pl|Dutch Helmet
-itm_sta_hat8|Dutch Helmet
-itm_sta_hat8_pl|Dutch Helmet
-itm_sta_hat9|Dutch Helmet
-itm_sta_hat9_pl|Dutch Helmet
+itm_sta_hat3|Sombrero Holandés
+itm_sta_hat3_pl|Sombreros Holandeses
+itm_sta_hat4|Sombrero Holandés
+itm_sta_hat4_pl|Sombreros Holandeses
+itm_sta_hat5|Sombrero Holandés
+itm_sta_hat5_pl|Sombreros Holandeses
+itm_sta_hat6|Sombrero Holandés
+itm_sta_hat6_pl|Sombreros Holandeses
+itm_sta_hat7|Casco Holandés
+itm_sta_hat7_pl|Cascos Holandeses
+itm_sta_hat8|Casco Holandés
+itm_sta_hat8_pl|Cascos Holandeses
+itm_sta_hat9|Casco Holandés
+itm_sta_hat9_pl|Cascos Holandeses
 itm_def_infantry1|Uniforme Militar Belga
 itm_def_infantry1_pl|Uniformes Militares Belgas
 itm_def_infantry2|Uniforme Militar Belga
@@ -3898,7 +3898,7 @@ itm_rifle_carcano1891_carbine|Carabina Carcano M1891
 itm_rifle_carcano1891_carbine_pl|Carabinas Carcano M1891
 itm_rifle_carcano1891_carbine_m|Carabina Carcano M1891
 itm_rifle_carcano1891_carbine_m_pl|Carabinas Carcano M1891
-itm_paimon1|Emergency Food
-itm_paimon1_pl|Emergency Food
+itm_paimon1|Comida de Emergencia
+itm_paimon1_pl|Comida de Emergencia
 itm_items_end|Fin de objetos
 itm_items_end_pl|Fin de objetos
