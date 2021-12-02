@@ -2888,96 +2888,96 @@ str_oim_script_ms_event_raise_taxes|Stub
 str_oim_script_ms_event_change_prosperity|Stub
 str_oim_script_ms_event_raise_taxes_week|Stub
 str_oim_script_ms_event_notification_about_gold_usage|Stub
-str_mp_new_1|Tatar town
-str_mp_new_2|Fortified town
-str_mp_new_3|Trenches
-str_all_fire_now|All Fire Now!
-str_left_fire_now|Left Fire Now!
-str_middle_fire_now|Middle Fire Now!
-str_right_fire_now|Right Fire Now!
-str_fire_at_my_command|Fire At My Command
-str_use_melee_weapons|Use Melee Weapons
-str_use_ranged_weapons|Use Ranged Weapons
-str_melee_weapons|Melee Weapons
-str_ranged_weapons|Ranged Weapons
-str_formation|Formation
-str_very_tight|Very Tight
-str_tight|Tight
-str_loose|Loose
-str_very_loose|Very Loose
-str_form_1_row|Form 1 Row
-str_form_reg0_rows|Form {reg0} Rows
-str_percent_5_tax_is_paid|{reg2} thalers (5% of total profit) is paid as tax. Get a trade patent exempt you from tax.
-str_percent_10_tax_is_paid|{reg2} thalers (10% of total profit) is paid as tax. Get a trade patent to exempt you from tax 
-str_you_are_weak_take_these_men_with_you|Your party seems a bit weak, take these 2 volunteers with you.
-str_meeting_with_thieves|When you enter the village, you see a group of bandits stealing the village livestock. Your presence distracts them from their questionable activity, they approach you. 
-str_oim_hunt_down_thieves_explanation|The elder of the village of {s3} has asked you to hunt down thiefs at midnight.
-str_oim_get_feast_supplies_explanation|The elder of the village of {s3} has asked you to bring him 5 ale barrels, 5 grapes, 1 wine barrel, 1 vodka barrel and 1 shag.
-str_mp_add_troop|Companions
-str_mp_squad|Squad
-str_mp_squad_req_size_reg0|Requested: {reg0}
-str_mp_squad_active_size_reg0|Active: {reg0}
-str_squad_cost_reg0|Squad cost: {reg0}
-str_item_cost_reg0|Item cost: {reg0}
-str_next_wave_in_reg0_mins|Next wave in {reg0} mins...
+str_mp_new_1|Pueblo tártaro
+str_mp_new_2|Pueblo fortificado
+str_mp_new_3|Trincheras
+str_all_fire_now|¡Disparen todos!
+str_left_fire_now|¡Disparen a la izquierda!
+str_middle_fire_now|¡Disparen al centro!
+str_right_fire_now|¡Disparen a la derecha!
+str_fire_at_my_command|Disparen cuando lo ordene
+str_use_melee_weapons|Usen armas cuerpo a cuerpo
+str_use_ranged_weapons|Usen armas a distancia
+str_melee_weapons|Armas cuerpo a cuerpo
+str_ranged_weapons|Armas a distancia
+str_formation|Formación
+str_very_tight|Muy cerrado
+str_tight|Cerrado
+str_loose|Abierto
+str_very_loose|Muy abierto
+str_form_1_row|Formen 1 fila
+str_form_reg0_rows|Formen {reg0} filas
+str_percent_5_tax_is_paid|{reg2} táleros (5% de la ganancia total) es pagada en impuestos. Deberías obtener una patente comercial para no pagar el impuesto.
+str_percent_10_tax_is_paid|{reg2} táleros (10% de la ganancia total) es pagada en impuestos. Deberías obtener una patente comercial para no pagar el impuesto. 
+str_you_are_weak_take_these_men_with_you|Tu ejército se ve un poco débil, toma estos dos voluntarios.
+str_meeting_with_thieves|Cuando entras al pueblo ves un grupo de ladrones robando el ganado, tu presencia los distrae de lo que estaban haciendo y se te empiezan a acercar. 
+str_oim_hunt_down_thieves_explanation|El jefe de {s3} te pidió que le des caza a los ladrones a la media noche.
+str_oim_get_feast_supplies_explanation|El jefe de {s3} te pidió que le traigas 5 barriles de cervezas, 5 uvas, 1 barril de vino, 1 barril de vodka y 1 “shag”.
+str_mp_add_troop|Compañeros
+str_mp_squad|equipo
+str_mp_squad_req_size_reg0|Pedido: {reg0}
+str_mp_squad_active_size_reg0|Activo: {reg0}
+str_squad_cost_reg0|Costo de equipo: {reg0}
+str_item_cost_reg0|Costo del item: {reg0}
+str_next_wave_in_reg0_mins|Proxima oleada en {reg0} mins...
 str_wave_info|WAVE INFO
-str_wave_no_reg1|Wave No: {reg1}
-str_veteran_wave_no_reg1|Veteran Wave No: {reg1}
-str_elite_wave_no_reg1|Elite Wave No: {reg1}
-str_time_left_reg2_mins_reg1_secs|Time Left: {reg2} minutes and {reg1} seconds
-str_time_left_reg1_secs|Time Left: {reg1} seconds
-str_enemies_reg1_total_reg2_arriving|Enemies: {reg1} Alive, {reg2} Arriving
-str_ccoop_enemy_info|   {reg4} {s0} ({reg3} arriving)
-str_oim_black_hetman_failed|You no longer control the capital, there is no chance of victory. All is lost!
-str_squad_size_for_captains|Squad size for captains:
-str_captain_merc_ratio|Captain / Mercenary ratio:
+str_wave_no_reg1|Oleada N°: {reg1}
+str_veteran_wave_no_reg1|Oleada Veterana N°: {reg1}
+str_elite_wave_no_reg1|Oleada Elite N°: {reg1}
+str_time_left_reg2_mins_reg1_secs|Tiempo restante: {reg2} minutos y {reg1} segundos
+str_time_left_reg1_secs|Tiempo restante: {reg1} segundos
+str_enemies_reg1_total_reg2_arriving|Enemigos: {reg1} vivos, {reg2} refuerzos
+str_ccoop_enemy_info|   {reg4} {s0} ({reg3} refuerzos)
+str_oim_black_hetman_failed|Ya no controlas la capital, ya no hay chances de victoria.¡Todo esta perdido!
+str_squad_size_for_captains|Tamaño de equipo para capitanes:
+str_captain_merc_ratio|Capitán / Taza de mercenario:
 str_1_div|1 / 
-str_accompany|Accompany
+str_accompany|Acompañar
 str_reg2_s1_s2_s2|{reg2?{s1}, {s2}:{s2}}
 str_reg2_s1_and_s2_s2|{reg2?{s1} and {s2}:{s2}}
-str_give_the_money_you_took_from_s9_to_s10|Give the money you took from {s9} to {s10}.
-str_men|men
-str_you_have_taken_all_infantry|Haha! {Sir/Madam}, you've taken all my infantry already. Will there be anything else?
-str_you_have_taken_all_musketeer|Haha! {Sir/Madam}, you've taken all my musketeer already. Will there be anything else?
-str_you_have_taken_all_cavalry|Haha! {Sir/Madam}, you've taken all my cavalry already. Will there be anything else?
-str_price_there_known|{s1}, ({s2} is {reg1} thalers there)
+str_give_the_money_you_took_from_s9_to_s10|Dar dinero que tomaste de {s9} a {s10}.
+str_men|hombres
+str_you_have_taken_all_infantry|¡Jajaja! {Señor/Señora}, ya has tomado todos mis infantes, ¿quieres algo más?
+str_you_have_taken_all_musketeer|¡Jajaja! {Señor/Señora}, ya has tomado a mis mosqueteros, ¿quieres algo más?
+str_you_have_taken_all_cavalry|¡Jajaja! {Señor/Señora}, ya has tomado a mi caballeria, ¿quieres algo más?
+str_price_there_known|{s1}, ({s2} esta {reg1} táleros allí)
 str_price_there_unknown|{s1}
-str_your_troops_are_dying_because_of_illness|Your troops are dying because of a disease!
-str_has_died_because_of_illness|has died of {s4}.
-str_have_died_because_of_illness|have died of {s4}.
-str_ccoop_wave_reg1_is_coming_in_reg0_seconds|Wave {reg1} is coming in {reg0} seconds
-str_ccoop_veteran_wave_reg1_is_coming_in_reg0_seconds|Veteran wave {reg1} is coming in {reg0} seconds
-str_ccoop_elite_wave_reg1_is_coming_in_reg0_seconds|Elite wave {reg1} (Tier {reg2}) is coming in {reg0} seconds
-str_prison_cart_hint|Destroy the prisoner cart or pass the round to rescue fallen comrades.
-str_wave_reg1|Wave {reg1}
-str_veteran_wave_hint|Beware: Veterans have increased numbers and health and do %30 more damage!
-str_elite_wave_hint|Beware: Elites have increased health and deliver more damage!
-str_ask_for_help_to_respawn_hint|You'll respawn once your comrades destroy the prisoner cart or pass the current round.
-str_wait_for_next_turn_to_respawn_hint|You will respawn in the next round.
-str_mp_cbf_squad_auto_ratio|Auto-balance captain squad ratio
+str_your_troops_are_dying_because_of_illness|¡Tus tropas están muriendo por una peste!
+str_has_died_because_of_illness|ha muerto de {s4}.
+str_have_died_because_of_illness|ha muerto de {s4}.
+str_ccoop_wave_reg1_is_coming_in_reg0_seconds|Oleada {reg1} esta llegando en {reg0} segundos
+str_ccoop_veteran_wave_reg1_is_coming_in_reg0_seconds|Oleada Veterana {reg1} esta llegando en {reg0} segundos
+str_ccoop_elite_wave_reg1_is_coming_in_reg0_seconds|Oleada Elite {reg1} (Tier {reg2}) esta llegando en {reg0} segundos
+str_prison_cart_hint|Destruir el carro de prisioneros o pasar de ronda para rescatar a tus camaradas.
+str_wave_reg1|Oleada {reg1}
+str_veteran_wave_hint|¡Atención: Los veteranos se han incrementado en cantidad, salud y hacen un 30% más de daño!
+str_elite_wave_hint|¡Atención: Los elites tienen más salud y hacen más daño!
+str_ask_for_help_to_respawn_hint|Vas a reaparecer una vez que tus camaradas destruyan el carro de prisioneros o pasen de ronda.
+str_wait_for_next_turn_to_respawn_hint|Vas a reaparecer en la próxima ronda.
+str_mp_cbf_squad_auto_ratio|Reequilibrar la tasa del equipo del capitán
 str_default|Default
-str_coop_open_chest|Open Chest
-str_coop_already_opened|Already Opened!
-str_ccoop_difficulty|Difficulty:
-str_ccoop_easy|Easy
+str_coop_open_chest|Abrir cofre
+str_coop_already_opened|¡Ya ha sido abierto!
+str_ccoop_difficulty|Dificultad:
+str_ccoop_easy|Fácil
 str_ccoop_normal|Normal
-str_ccoop_endless|Endless
-str_ccoop_difficulty_s0|Difficulty: {s0}
-str_ccoop_victory|Victory!
+str_ccoop_endless|Interminable
+str_ccoop_difficulty_s0|Dificultad: {s0}
+str_ccoop_victory|¡Victoria!
 str_ccoop_s0_enemy_defeated_s1|The {s0} {reg1?has:have} been defeated ({s1})
 str_ccoop_s0_enemy_defeated_endless_reg0|The {s0} {reg1?has:have} been repelled for now...^Prepare for Elite Tier {reg0}
-str_ccoop_lord_s0_wave_hint|The host of {s0} approaches!
-str_ccoop_king_s0_wave_hint|The guard of {s0} approaches! (Final Wave)
-str_ccoop_assign_drop|Assign the dropped item:
-str_ccoop_select_companion|Choose and equip your companions:
-str_ccoop_select_companion_class|Equip your companions:
-str_ccoop_choose_an_item_to_replace|Replace which item?:
-str_ccoop_cancel|Cancel
-str_ccoop_lvl_reg0|Lv. {reg0}
-str_ccoop_dropping_item_on_ground|You didn't have enough free weapon slots, so it fell to the ground.
-str_ccoop_king_name|King {s0}
-str_ccoop_queen_name|Queen {s0}
-str_javelin_bow|A bow that fires javelins
+str_ccoop_lord_s0_wave_hint|¡El anfitrión de {s0} se acerca!
+str_ccoop_king_s0_wave_hint|¡El guardia de {s0} se acerca! (Oleada final)
+str_ccoop_assign_drop|Aisgnar item:
+str_ccoop_select_companion|Escoger y equipar tus compañeros:
+str_ccoop_select_companion_class|Equipar tus compañeros:
+str_ccoop_choose_an_item_to_replace|¿Que item vas a remplazar?:
+str_ccoop_cancel|Cancelar
+str_ccoop_lvl_reg0|Lvl. {reg0}
+str_ccoop_dropping_item_on_ground|No tienes un espacio de arma libre, con lo cual se ha caido al suelo.
+str_ccoop_king_name|Rey {s0}
+str_ccoop_queen_name|Reina {s0}
+str_javelin_bow|Un arco que dispara jabalinas
 str_knockdown_mace|Knocks down everyone it hits
 str_blood_drain_throwing_knives|Restore health to the thrower, with successful hits
 str_doom_javelins|Gradually deplete the health of those they impale
@@ -3299,7 +3299,7 @@ str_italian_farleft|Estrema sinistra
 str_italian_socialist|Partito Socialista Italiano
 str_italian_right_desc|Destra
 str_italian_left_desc|Sinistra
-str_italian_farleft_desc|Far Left Party is a radical liberal party seeking liberal freedoms as well as minimal social welfare reforms.
+str_italian_farleft_desc|El partido de extrema izquierda es un partido liberal radical que busca libertades liberales como las reformas del bienestar social mínimo.
 str_italian_socialist_desc|Partito Socialista Italiano
 str_dutch_socialist|Sociaal-Democratische partij
 str_dutch_socialist_desc|Sociaal-Democratische Arbeiderspartij
@@ -4154,24 +4154,24 @@ str_lord_surname_greek9|Gavras
 str_lord_surname_greek10|Kouris
 str_players_political_party_name|Partido Político
 str_movements_liberal_desc|El movimiento liberal demanda al parlamento^el voto universal, igualitario y directo, también la autonomía regional.^Principalmente formado por la burguesía, su popularidad^depende del nivel de salarios y calidad de vida.
-str_movements_socialist_desc|El movimiento socialista demanda leyes^de bienestar social, donde son llevados a la inversión gubernamental^en termnios del desarrollo económico y la protección de los derechos^económicos de las clases más bajas. Su popularidad^se relaciona con el nivel de vida de las clases bajas..
-str_movements_propeace_desc|Pacifist movement is a result of being^involved in wars. It's supporters are demanding peace at^any cost. It's popularity depends on success of the^wars - the less successful war is, the more^popularity pacifist movement has. High popularity^of pacifist movement increases political activity^of population, which can shift on other movements.^Successful war will decrease popularity of pacifist movement.
-str_popularity_desc|Popularity level represents widespreadness of the^movement in country. High popularity level will lead to^mass protests in support of movement, and will raise^radicalism level. Enforcing demands of movement will^decrease movement popularity level.
-str_radicalism_desc|Radicalism level represents willingness of movement^supporters to enforce their demands with force. High^level of radicalism will lead to riots and rebellions,^and success of the latter can lead to^revolution and civil war. Radicalism level is being^increased by high popularity level and low influence^of ruling party compared to influence of other parties. Enforcing demands of movement will^decrease movement radicalism level.
-str_voting_franchise_desc|Voting Franchise law defines which classes of population^have right to vote, both in parliament and executive^branch elections. Different vote franchise laws will result in different^parliament and executive branch compositions depending on levels of parties' support of different classes.
-str_voting_openness_desc|Ruling Party Influence law defines how ruling party^influences voters during elections, which can help ruling^party get more votes.
-str_nomination_rules_desc|Nomination Rules law defines amount of land citizen^need to be able to be nominated and be voted for in parliament.^Universal nomination rule will lead to lower classes having more^weight in parliament and executive branch.
-str_executive_branch_desc|Executive Branch Elective Posts law defines how^many executive branch posts are being selected by elections.
-str_public_meetings_desc|Allowing public meetings will inrease quality of^life of population, while increasing movements popularity levels.
-str_workers_wage_desc|Minimum Worker Wage law makes factory owners to not^decrease wage of workers below level defined in law, increasing^quality of life of lower classes, while increasing spending of factories.
-str_workers_conditions_desc|Maximum Work Hours law defines maximum amount^of work hours in a day. Lower values will slighty decrease^productivity of industry while increasing quality of life of lower classes.
-str_press_desc|Press law defines level of censorship in mass media  More^free press will lead to ruling party having less influence and^increasing quality of life of the population.
-str_trade_unions_desc|Allowing trade unions results in higher quality of^life for population, wjile also leading to factory owners funding^in increasing workers conditions in their factories more often
-str_child_labour_desc|Putting child labour under restrictions will lead^to higher quality of life, while increasing wage spendings of^factories.
-str_infrastructure_expenses_desc|Higher infrastructure expenses will lead^to faster development of infrastructure in all regions. and^slower damaging during war.
-str_education_expenses_desc|Higher education expenses will increase speed^of literacy level growing.
-str_healthcare_expenses_desc|Higher healthcare expenses will increase speed^of population growing.
-str_military_expenses_desc|Higher military expenses will increase supply^level of army, if supplies are available.
-str_income_tax_desc|Higher income tax will increase budget income, while^decreasing wealth of population.
-str_goodsservices_tax_desc|Goods and services tax is being imposed to sellers^of any resources which are citizens of this country.^Higher tax will decrease income of factories.
-str_importexport_tax_desc|Import tax is being imposed to any resources being^transported over this country borders. Lesser tax will^increase income of factories and attract more foreign resource buyers.
+str_movements_socialist_desc|El movimiento socialista demanda leyes^de bienestar social, donde son llevados a la inversión gubernamental^en termnios del desarrollo económico y la protección de los derechos^económicos de las clases más bajas. Su popularidad^se relaciona con el nivel de vida de las clases bajas.
+str_movements_propeace_desc|El movimiento pacifista es un resultado^de las constantes guerras, tiene el objetivo de exigir la^paz a cualquier costo. Su popularidad depende del éxito^de las guerras – donde los países que más pierden tienen^mayor cantidad de pacifistas. Sí un país^tiene un gran movimiento pacifista hará que el pueblo este más^involucrado con los movimientos políticos.
+str_popularity_desc|El nivel de popularidad que representa tu partido^en el país. Cuando el nivel sea alto podrás liderar^protestas en masa e incrementará el radicalismo.^Sí cumples las demandas del partido, esto hará^que su popularidad baje.
+str_radicalism_desc|El nivel de radicalismo representa la disponibilidad de los activistas^del movimiento para cumplir los objetivos. Altos^niveles de radicalismo harán más manifestaciones^y rebeliones, encaminando a una revolución. El nivel de radicalismo incrementará^por la alta popularidad y la baja influencia^del partido oficialista. Cumplir las promesas del partido^hará que el nivel de radicalismo disminuya.
+str_voting_franchise_desc|La ley de voto franquicia define que clase social^tiene derecho a votar, tanto en elecciones parlamentarios o ejecutivas.^Diferentes leyes de votos hará que varie el resultado dependiendo del^aval  de las clases sociales a los partidos.
+str_voting_openness_desc|La ley de influencia del partido oficialista define como^este partido puede influenciar las votaciones.
+str_nomination_rules_desc|La ley de nominación define la cantidad de tierra^necesaria para que un ciudadano pueda ser nominado y votado en el parlamento.^La regla de nominación universal liderará a las clases^más bajas a tener más peso en las votaciones.
+str_executive_branch_desc|La ley de cargos electivos del poder ejecutivo define cuantos^cargos ejecutivos pueden ser escogidos en las votaciones.
+str_public_meetings_desc|Permitir las reuniones publicas hará que incremente^la calidad de vida de la gente, también hará que los movimientos populares incrementen.
+str_workers_wage_desc|La ley de salario mínimo hará que los empresarios^no paguen menos que lo que la ley impone, esto hará^que la calidad de vida de la clase baja incremente, también los gastos del empresario incrementarán.
+str_workers_conditions_desc|La ley de horas de trabajo define la cantidad de horas^máximas a trabajar, esto hará que la producción^baje mientras que la calidad de vida del obrero incrementará.
+str_press_desc|La ley de prensa define el nivel de censura, más libertad^hará que el partido gobernante tenga menos influencia e^incrementará la calidad de vida.
+str_trade_unions_desc|Permitir las uniones comerciales mejora la calidad^de vida para la gente, también hará que los dueños de fabricas^mejoren cada tanto las condiciones laborales.
+str_child_labour_desc|Prohibir el trabajo infantil hará^que se incremente la calidad de vida pero los salarios incrementaran.
+str_infrastructure_expenses_desc|Un buen presupuesto de infraestructura^hará que se desarrolle más rápido en todas las regiones, y^serán estables en tiempos de guerra.
+str_education_expenses_desc|Un buen presupuesto de educación^hará que haya menos analfabetas.
+str_healthcare_expenses_desc|Un buen presupuesto en salud^hará que la población crezca.
+str_military_expenses_desc|Un buen presupuesto militar hará que haya más^nivel de suministro, siempre y cuando hayan suministros.
+str_income_tax_desc|Altos ingresos por impuestos harán que el presupuesto^sea más grande, pero generará más pobreza.
+str_goodsservices_tax_desc|El impuesto a bienes y servicios afecta a los vendedores^de cualquier recurso, esto hará que las ventas^de la fábrica disminuyan.
+str_importexport_tax_desc|El impuesto a la importación a cualquier recurso^fuera de las fronteras hará que los ingresos de las fábricas^nacionales incrementen y será atractivo a los compradores extranjeros.
