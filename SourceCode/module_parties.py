@@ -1163,7 +1163,7 @@ parties = [
     ("village_627", "Dobrich",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(172.48,-60.79),[], 170),
     ("village_628", "Montana",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(248.46,-59.78),[], 170),
     ("village_629", "Galat",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(164.70,-116.33),[], 170),
-    ("village_630", "Novi_Sad",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(304.37,-70.12),[], 170),
+    ("village_630", "Novi_Sad",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(273.87,-83.77),[], 170),
     ("village_631", "Oujda",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(726.45,87.97),[], 170),
     ("village_632", "Murcia",  icon_village5|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(663.96,32.38),[], 170),
     ("village_633", "Lorca",  icon_village5|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(682.75,-42.84),[], 170),
