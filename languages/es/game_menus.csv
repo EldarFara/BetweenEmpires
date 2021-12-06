@@ -3,11 +3,11 @@ mno_continue|Continuar...
 mno_go_back|Atrás.
 menu_start_phase_2|Llegáis a Calradia, una tierra desgarrada entre reinos rivales que buscan la supremacía, un refugio para caballeros y mercenarios, asesinos y aventureros, todos dispuestos a arriesgar sus vidas en busca de fortuna, poder, o gloria... En esta tierra llena de peligros y oportunidades dejaréis vuestro pasado atrás y comenzaréis una nueva vida. Sentís que tenéis la llave de vuestro destino en vuestras manos, sois libre de elegir y, sea cual sea vuestro camino, grandes aventuras os esperan. Con las historias de Calradia y sus reinos resonando aún en vuestra cabeza,...
 mno_town_factionleader|La capital de tu país es ({s1})
-mno_town_1|Os unís a una caravana rumbo a Praven, en el Reino de Swadia.
-mno_town_2|Os unís a una caravana rumbo a Reyvadin, en el Reino de los Vaegires.
-mno_town_3|Os unís a una caravana rumbo a Tulga, en el Khanato Khergita.
-mno_town_4|Tomáis un barco rumbo a Sargoth, en el Reino de los Nórdicos.
-mno_town_5|Tomáis un barco rumbo a Jelkala, en el Reino de los Rhodoks.
+mno_town_1|Os unís a una caravana rumbo a París, capital de Francia.
+mno_town_2|Os unís a una caravana rumbo a Moscú, capital de Rusia.
+mno_town_3|Os unís a una caravana rumbo a Viena, capital de Austria.
+mno_town_4|Tomáis un barco rumbo a San Petesburgo, ciudad importante de Rusia.
+mno_town_5|Tomáis un barco rumbo a Londrés, Capital de Inglaterra.
 menu_start_game_3|Elegid vuestro escenario:
 menu_tutorial|Os acercáis a un campo donde los lugareños se entrenan con armas. Aquí podéis practicar para mejorar vuestras habilidades de combate.
 mno_go_back_dot|Atrás.
@@ -129,7 +129,7 @@ mno_cattle_kill_4|Cuatro.
 mno_cattle_kill_5|Cinco.
 menu_arena_duel_fight|Vuestro oponente y vos os preparáis para el duelo.
 menu_simple_encounter|{s2} Tenéis {reg10} tropas listas para la batalla contra {reg11}.
-mno_encounter_attack_deployment|Change the troops deployment plan.
+mno_encounter_attack_deployment|Cambiar el plan de despligue de tropas.
 mno_encounter_attack|Cargad contra el enemigo.
 mno_encounter_order_attack|Ordenad a vuestras tropas atacar sin vos.
 mno_encounter_leave|Idos.
@@ -554,9 +554,9 @@ mno_start_game_choose_date_1916|1916 (Temporal).
 menu_start_game_speed_selection|Selecciona la velocidad del juego, Se te permite cambiarlo en la partida, la velocidad afectará la rapidez en que los eventos se desarrollan (afectando el desarrollo de tecnologias).
 mno_game_speed_extremely_fast|Extremedamente rápido (Un año pasa en 6 dias).
 mno_game_speed_very_fast|Muy rápido (Un año pasa en 9 dias).
-mno_game_speed_fast|Rápido (Un año pasa en 12 days).
-mno_game_speed_normal|Normal (Un año pasa en 15 days).
-mno_game_speed_slow|Lento (Un año pasa en 20 days) - Recomendado.
+mno_game_speed_fast|Rápido (Un año pasa en 12 dias).
+mno_game_speed_normal|Normal (Un año pasa en 15 dias).
+mno_game_speed_slow|Lento (Un año pasa en 20 dias) - Recomendado.
 mno_game_speed_very_slow|Muy lento (Un año pasa en 25 dias).
 mno_game_speed_extremely_slow|Extremandamente lento (Un año pasa en 30 dias).
 mno_game_speed_minimum|Realista (Un año pasa en 365 dias).

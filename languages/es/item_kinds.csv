@@ -1518,8 +1518,8 @@ itm_clothes_urban_male_trousers2|Pantalones
 itm_clothes_urban_male_trousers2_pl|Pantalones
 itm_clothes_urban_male_trousers3|Pantalones
 itm_clothes_urban_male_trousers3_pl|Pantalones
-itm_clothes_urban_male_trousers4|Trousers
-itm_clothes_urban_male_trousers4_pl|Trousers
+itm_clothes_urban_male_trousers4|Pantalones
+itm_clothes_urban_male_trousers4_pl|Pantalones
 itm_dress_shoes|Zapatos de Vestir
 itm_dress_shoes_pl|Zapatos de Vestir
 itm_clothes_urban_male1|Traje de tres piezas
@@ -2750,9 +2750,9 @@ itm_rifle_british_snider|Rifle Snider-Enfield
 itm_rifle_british_snider_pl|Rifles Snider-Enfield 
 itm_rifle_british_snider_m|Rifle Snider-Enfield 
 itm_rifle_british_snider_m_pl|Rifles Snider-Enfield 
-itm_rifle_british_snider_carbine|Carbine Snider-Enfield
+itm_rifle_british_snider_carbine|Carabina Snider-Enfield
 itm_rifle_british_snider_carbine_pl|Carabinas Snider-Enfield
-itm_rifle_british_snider_carbine_m|Carbine Snider-Enfield
+itm_rifle_british_snider_carbine_m|Carabina Snider-Enfield
 itm_rifle_british_snider_carbine_m_pl|Carabinas Snider-Enfield
 itm_rifle_british_martinihenry|Rifle Martini-Henry
 itm_rifle_british_martinihenry_pl|Rifles Martini-Henry
@@ -2774,10 +2774,10 @@ itm_rifle_french_m1844|Mosquete Francés Smoothbore
 itm_rifle_french_m1844_pl|Mosquetes Franceses Smoothbore
 itm_rifle_french_m1844_m|Mosquete Francés Smoothbore
 itm_rifle_french_m1844_m_pl|Mosquetes Franceses Smoothbore
-itm_rifle_french_m1844_carbine|Carabina Francesa Carbine
-itm_rifle_french_m1844_carbine_pl|Carabina Francesa Carbine
-itm_rifle_french_m1844_carbine_m|Carabina Francesa Carbine
-itm_rifle_french_m1844_carbine_m_pl|Carabina Francesa Carbine
+itm_rifle_french_m1844_carbine|Carabina Francesa
+itm_rifle_french_m1844_carbine_pl|Carabina Francesa
+itm_rifle_french_m1844_carbine_m|Carabina Francesa
+itm_rifle_french_m1844_carbine_m_pl|Carabina Francesa
 itm_rifle_french_m1849|Rifle Francés Minie
 itm_rifle_french_m1849_pl|Rifles Franceses Minie
 itm_rifle_french_m1849_m|Rifle Francés Minie
@@ -3386,10 +3386,10 @@ itm_rifle_gras|Fusil Gras M1874
 itm_rifle_gras_pl|Fusiles Gras M1874
 itm_rifle_gras_m|Fusil Gras M1874
 itm_rifle_gras_m_pl|Fusiles Gras M1874
-itm_rifle_gras_carbine|Fusil Gras M1874 Carbine
-itm_rifle_gras_carbine_pl|Fusiles Gras M1874 Carbine
-itm_rifle_gras_carbine_m|Fusil Gras M1874 Carbine
-itm_rifle_gras_carbine_m_pl|Fusiles Gras M1874 Carbine
+itm_rifle_gras_carbine|Fusil Gras M1874
+itm_rifle_gras_carbine_pl|Fusiles Gras M1874
+itm_rifle_gras_carbine_m|Fusil Gras M1874
+itm_rifle_gras_carbine_m_pl|Fusiles Gras M1874
 itm_rifle_dutch_smoothbore|Mosquete Holandés M1815
 itm_rifle_dutch_smoothbore_pl|Mosquetes Holandeses M1815
 itm_rifle_dutch_smoothbore_m|Mosquete Holandés M1815
@@ -3576,18 +3576,18 @@ itm_rifle_beaumont1871|Rifle Beaumont M1871
 itm_rifle_beaumont1871_pl|Rifles Beaumont M1871
 itm_rifle_beaumont1871_m|Rifle Beaumont M1871
 itm_rifle_beaumont1871_m_pl|Rifles Beaumont M1871
-itm_rifle_beaumont1871_carbine|Carabina Beaumont M1871 Carbine
-itm_rifle_beaumont1871_carbine_pl|Carabina Beaumont M1871 Carbine
-itm_rifle_beaumont1871_carbine_m|Carabina Beaumont M1871 Carbine
-itm_rifle_beaumont1871_carbine_m_pl|Carabina Beaumont M1871 Carbine
+itm_rifle_beaumont1871_carbine|Carabina Beaumont M1871
+itm_rifle_beaumont1871_carbine_pl|Carabina Beaumont M1871
+itm_rifle_beaumont1871_carbine_m|Carabina Beaumont M1871
+itm_rifle_beaumont1871_carbine_m_pl|Carabina Beaumont M1871
 itm_rifle_beaumont1871_88|Rifle Beaumont M1871/88
 itm_rifle_beaumont1871_88_pl|Rifles Beaumont M1871/88
 itm_rifle_beaumont1871_88_m|Rifle Beaumont M1871/88
 itm_rifle_beaumont1871_88_m_pl|Rifles Beaumont M1871/88
-itm_rifle_beaumont1871_88_carbine|Rifle Beaumont M1871/88 Carbine
-itm_rifle_beaumont1871_88_carbine_pl|Rifles Beaumont M1871/88 Carbine
-itm_rifle_beaumont1871_88_carbine_m|Rifle Beaumont M1871/88 Carbine
-itm_rifle_beaumont1871_88_carbine_m_pl|Rifles Beaumont M1871/88 Carbine
+itm_rifle_beaumont1871_88_carbine|Rifle Beaumont M1871/88 
+itm_rifle_beaumont1871_88_carbine_pl|Rifles Beaumont M1871/88
+itm_rifle_beaumont1871_88_carbine_m|Rifle Beaumont M1871/88
+itm_rifle_beaumont1871_88_carbine_m_pl|Rifles Beaumont M1871/88
 itm_rifle_peabody|Rifle Peabody
 itm_rifle_peabody_pl|Rifles Peabody
 itm_rifle_peabody_m|Rifle Peabody

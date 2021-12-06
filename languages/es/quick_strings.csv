@@ -7,7 +7,7 @@ qstr_Game_Rules:^|Reglas del juego:^
 qstr_0|0
 qstr_Lv._{reg0}|Lv. {reg0}
 qstr_Show_game_rules|Mostrar las reglas
-qstr_Choose_name_for_your|Choose name for your faction:
+qstr_Choose_name_for_your|Elige el nombre de tu facción:
 qstr_Continue...|Continuar...
 qstr_Candidate_#1:_{s1}|Candidato #1: {s1}
 qstr_Candidate_#2:_{s1}|Candidato #2: {s1}
@@ -142,7 +142,7 @@ qstr_Italian|Italiano
 qstr_French|Francés
 qstr_Polish|Polaco
 qstr_Press_Escape_to_clos|Presione Escape para cerrar el menú...
-qstr_Army_of_{s7}|Army of {s7}
+qstr_Army_of_{s7}|Ejercito de {s7}
 qstr_Attribute_points_{re|Puntos de Atributo {reg40}
 qstr_Skill_points_{reg41}|Puntos de habilidad {reg41}
 qstr_Weapon_points_{reg42|Puntos de habilidad en armas {reg42}
@@ -186,7 +186,7 @@ qstr_Infantry_Machine^^Gu|Tacticas de Infantería ^^con ametralladoras
 qstr_Covering_Fire|Fuego de Cobertura
 qstr_Gas_Attacks|Ataque de Gas
 qstr_Shock_Troops|Tropas de Choque
-qstr_Country_does_not_hav|Country does not have enough budget to start research.
+qstr_Country_does_not_hav|El país no tiene suficient presupuesto para empezar la investigación.
 qstr_faction_technologies|Tecnologias de la facción disponible
 qstr_faction_technologies_|Tecnologias de la facción en progreso
 qstr_Rifled_Caplock^Muske|Rifled Caplock^Muskets
@@ -314,7 +314,7 @@ qstr_{reg1}.{s2}{reg2}_mi|{reg1}.{s2}{reg2} Millones de población
 qstr_Literacy_is_{reg1}.{|La alfabetización es de {reg1}.{reg2}%
 qstr_Urbanization_is_{reg|La Urbanización es de {reg1}.{reg2}%
 qstr_Daily_GDP_is_{reg1}_|El PIB diario es de {reg1} Libras.
-qstr_{reg1}_craftsmen_{re|{reg1} craftsmen, {reg2} of which are employed^in mass production, and {reg3} are^occupied in handicraft production.
+qstr_{reg1}_craftsmen_{re|{reg1} Artesanos, {reg2} de quienes son empleados^en producción en masa, y {reg3} estan^ocupados en producción artesanal.
 qstr_Region_of_{s1}|La región de {s1}
 qstr_Resource_Menu|Menú de Recursos
 qstr_X_thousands_of_popul|X miles de población
@@ -794,12 +794,12 @@ qstr_Tutorial|Tutorial
 qstr_Your_current_rank_is|Tu rango actual es {s1}.^^Puntuación actual/Puntuación necesaria para la promoción: {reg10}/{reg11}
 qstr_^{s32}_s_Infamy:_{re|^la infamia de {s32}: {reg10}
 qstr_You_were_born_the_{r|Habéis nacido como {reg3?hija:hijo} de mercaderes ambulantes, siempre yendo de un sitio a otro en busca de beneficios. Aunque vuestros padres eran más ricos que muchos y os educaron tanto como pudieron, vos no tuvisteis demasiadas oportunidades para crear lazos de amistad con otras personas, ya que sólo visitabais las aldeas atendiendo al negocio familiar.
-qstr_You_were_born_the_{re|Eres {reg3?daughter:son} de un pequeño comerciante, con lo cual saber como tratar con los clientes y socios. Tus padres estaban bien acomodados economicamente con lo cual te mandaron a una escuela privada. Tu padre no se supo adecuar a los tiempos modernos, tiempo después cuando el muere te dejó de herencia parte de sus negocios.
-qstr_You_were_born_the_{reg|Eres {reg3?daughter:son} de un oficial de personal menor, este vivio la crudeza de los conflictos tempranos del siglo XIX. naciste en una de sus campañas y nunca pudiste conocer a tu madre. A pesar de todo esto, tu padre te dejo de legado todo lo que sabía, después de su muerte el te heredó sus conocimientos de guerra y su arma favorita.
+qstr_You_were_born_the_{re|Eres {reg3?hija:hijo} de un pequeño comerciante, con lo cual saber como tratar con los clientes y socios. Tus padres estaban bien acomodados economicamente con lo cual te mandaron a una escuela privada. Tu padre no se supo adecuar a los tiempos modernos, tiempo después cuando el muere te dejó de herencia parte de sus negocios.
+qstr_You_were_born_the_{reg|Eres {reg3?hija:hijo} de un oficial de personal menor, este vivio la crudeza de los conflictos tempranos del siglo XIX. naciste en una de sus campañas y nunca pudiste conocer a tu madre. A pesar de todo esto, tu padre te dejo de legado todo lo que sabía, después de su muerte el te heredó sus conocimientos de guerra y su arma favorita.
 qstr_{reg3?daughter:son}|{reg3?hija:hijo}
-qstr_You_were_born_the_{reg3|Eres {reg3?daughter:son} de un capo mafia de una banda local. Tu padre no queria que siguieras sus pasos, por eso te dió la chance de que vivas una vida al margen de la ley. Pero su muerte repentina, no te dejaron otra elección que reemplazar su puesto.
-qstr_You_were_born_the_{reg3?|Eres {reg3?daughter:son} de un profesor universitario. como hijo de un hombre de ciencias, tuviste una buena educación. Más alla de que tu familia no eran muy ricos, tu padre te enseño que el dinero no es lo más importante, después de su muerte heredaste una gran parte de su conocimiento.
-qstr_You_were_born_the_{reg3?d|Eres {reg3?daughter:son} de un obrero de fábrica, quién pasó gran parte de su vida trabajando para que su familia tenga un digno pasar. Más alla de que que te enseñaron a vivir justamente, tu padre te dió la libertad de escoger lo que quieras ser, pero su muerte repentina te dejo descolocado y buscando un trabajo que te mantenga tu vida.
+qstr_You_were_born_the_{reg3|Eres {reg3?hija:hijo} de un capo mafia de una banda local. Tu padre no queria que siguieras sus pasos, por eso te dió la chance de que vivas una vida al margen de la ley. Pero su muerte repentina, no te dejaron otra elección que reemplazar su puesto.
+qstr_You_were_born_the_{reg3?|Eres {reg3?hija:hijo} de un profesor universitario. como hijo de un hombre de ciencias, tuviste una buena educación. Más alla de que tu familia no eran muy ricos, tu padre te enseño que el dinero no es lo más importante, después de su muerte heredaste una gran parte de su conocimiento.
+qstr_You_were_born_the_{reg3?d|Eres {reg3?hija:hijo} de un obrero de fábrica, quién pasó gran parte de su vida trabajando para que su familia tenga un digno pasar. Más alla de que que te enseñaron a vivir justamente, tu padre te dió la libertad de escoger lo que quieras ser, pero su muerte repentina te dejo descolocado y buscando un trabajo que te mantenga tu vida.
 qstr_You_were_a_child_of_|Sois {reg3?una hija:un hijo} de la estepa, nacisteis en una tribu de nómadas que vivían en campamentos extendidos por las áridas praderas. Como otras gentes tribales, vuestra familia adoraba a los caballos sobre cualquier otra cosa, y os enseñaron a cabalgar antes incluso de que aprendierais a andar. 
 qstr_As_the_{reg3?daughte|Como {reg3?hija:hijo} de un ladrón, habéis tenido poca educación formal. Os pasasteis la niñez en la calle, mendigando hasta que aprendisteis a robar monederos, y robando monederos hasta que aprendisteis a forzar cerraduras. Todos esos años, no obstante, os enseñaron a defenderos en la calle, así como los secretos de las ciudades y de los callejones oscuros.
 qstr_You_were_as_far_as_a|Fuiste una persona muy estudiosa y aplicada que siempre tuvo buenas calificaciones. Sí esto era on on una ilusión solo lo sabes tu. Ponte a pensar que estabas en la universidad, ya sea por patrocinio de alguién o por la riqueza de tu familia, estas vivencias te dieron una experiencia y visión de las cosas casí que invaluable.
@@ -942,7 +942,7 @@ qstr__This_town_has_no_ga| Esta ciudad no tiene guarnición.
 qstr__You_have_successful| Habéis sido capaz de pasar sin que os detectaran.
 qstr_{s13}_A_tournament_w|{s13} Pronto se celebrará un torneo aquí.
 qstr___Join_the_commander| (Entrar a la reunión de los comandantes)
-qstr___{reg1}_pounds_per_| ({reg1} pounds per night)
+qstr___{reg1}_pounds_per_| ({reg1} Libras por noche)
 qstr_You_are_not_allowed_|No estas permitido a estar aquí (necesitas tener al menos 5 puntos en la relación con la facción).
 qstr_Moreover_you_earn_{r|Además, ganáis {reg8} denares por las astutas apuestas que habéis hecho sobre vuestra persona...
 qstr_Victory_is_yours!_Yo|¡La victoria es vuestra! Habéis ganado este combate, pero ahora debéis prepararos para la próxima ronda. 
@@ -1237,7 +1237,7 @@ qstr_{s1}:_Peaceful_demons|{s1}: ¡Manifestaciones pacíficas en conformidad de 
 qstr_{s1}_in_{s2};^|{s1} en {s2};^
 qstr_{s1}:_Worker_unions_h|{s1}:¡Las uniones de trabajadores han llamado a un paro general! Unidos en huelga, los manifestares estan haciendo piquetes en:^{s3}{s4}{s5}{s6}{s7}
 qstr_Civil_war_in_{s1}!_Mul|¡Guerra civil en {s1}! Algunos comandantes militares de {s1} han abandonado su juramente y se unieron a {s2} en soporte de la revolución democrática.
-qstr_Days_after_peaceful_p|Dias después que las manifestaciones pacíficas empezaron, llegaron quejas de muchas organizaciones y esto no es todo. El gobierno decidió ignorar las demandas de los manifestantes y . The government has only given them pain instead of listening them for fair investigations, leading to more and more widespread protests across the country. And now, the government has two decision, whether to comply or just simply, refuse.^^Effects: Liberal movement popularity increased by 10%.
+qstr_Days_after_peaceful_p|Dias después que las manifestaciones pacíficas empezaron, llegaron quejas de muchas organizaciones y esto no es todo. El gobierno decidió ignorar las demandas de los manifestantes y El gobierno solo ha reprimido en vez de ver las cosas como son, haciendo que las protestas se vean en todo el país. Y ahora, el gobierno tiene dos camino, ya sea acordar o rechazar. ^^Consecuencia: La popularidad del movimiento liberal incremento en 10%.
 qstr_After_hearing_about_t|Después de escuchar acerca de los manifestantes, siendo una molestia para el gobierno, este decidió mandar a la policía para descomprimir la situación mediante maneras no letales. Ellos lograron dispersar la multitud con látigos y porras. Algunos manifestantes lanzaron rocas y escombros, estos fueron arrestados en el correr del día. Casi toda la muchedumbre se dispersó después que los lideres radicales huyeran.^^Consecuencias: La popularidad del movimiento Liberal se incremento en 5%. El Movimiento Radical Liberal se incremento en 3%.
 qstr_At_noon_when_the_demo|En la tarde, cuando el líder de la manifestación estaba dando un discurso acerca de las demandas en frente de la muchedumbre, fue interrumpido por un grupo de policías que fueron enviados a reprimir con mano letal. Los soldados abrieron fuego, dejando muertos y malheridos. Muchos manifestantes lograron huir de una muerte segura, otros se escondieron hasta que las fuerzas represoras se fueran. Después de esta masacre el gobierno recibió duras criticas de organizaciones sociales, socialistas y otros países, donde las relaciones diplomáticas han cambiado.^^Consecuencia: El movimiento Radical Liberal se ha incrementado en un 10%.
 qstr_As_the_riot_went_wides|Como los disturbios fueron a gran escala, el gobierno mandó policías a calmar la situación, trataron de suprimir los focos subversivos de manera no letal. Los disturbios se acabaron cuando la policía y los manifestantes sufrieron bajas. Entre las víctimas se encontraron (number) fueron asesinado y (number) malheridos en la protesta.^^La popularidad del movimiento Liberal bajó en un 5% y el radicalismo se incrementó en 5%. 

@@ -335,109 +335,109 @@ dlga_prussia_unification_france1:prussia_unification_france2|Excelente decisión
 dlga_prussia_unification_france2:close_window|¡Estoy totalmente de acuerdo! ¡Nos vamos a la guerra, ya lo he decidido!
 dlga_prussia_unification_france2:minister_pretalk|Deberiamos estar dementes para combatir a los Franceses en las circunstancias actuales, ellos no han superado totalmente.
 dlga_minister_talk:prussia_unification_start1|El Canciller me ha convencido, es tiempo de erradicar la Alemania desunida. ¿Se puede saber como debemos proceder Secretario?
-dlga_prussia_unification_start1:prussia_unification_start2|¿Porqué? Después de todo es tiempo de hacer la  then it's finally time to make 'forever inseparable' the war shout it was meant to be. Schleswig has to be brought back into German hands, and so does Holstein. The Danes have been holding onto Schleswig for four centuries, and their barbaric attempts at destroying the local movement undermined our ambitions in 1848. We have to secure the fortified cityof Schleswig, and destroy the Danish armies in the process. Volunteers have bolstered their numbers following our recent skirmishes, so you will have to drive those Swedes back into the sea alongside their Danish compatriots.
-dlga_prussia_unification_start2:close_window|So be it, inform the general staff that we are going to war.
-dlga_prussia_unification_start2:minister_pretalk|Unnecessary bloodshed, through and through. Try to difuse the situation.
-dlga_minister_talk:italy_unification_start1|It's time to expand our influence and unite the Italian people. How could we go about this?
-dlga_italy_unification_start1:italy_unification_start2|Quite ambitions, {Sir/my Lady}, yet very righteous, if I dare say so myself. To unite Italy, we will have to conquer the illegitimate {s1}. Conquering their capitals will be of utmost importance, but it will hardly be enough to force them to surrender. You will need to cause some... disdain with the current affairs within their general population, be that through military victories on the fields on our part, or having forts and cities at the frontiers fall into our hands.
-dlga_italy_unification_start2:italy_unification_start3_proceed|So be it, we will reunite Italy. We can't let the deaths of our fathers be in vain.
-dlga_italy_unification_start2:italy_unification_start3_cancel|We can't spill the blood of Italians and pretend it will bring us together. I will have to rethink.
-dlga_italy_unification_start3_proceed:close_window|Glory to Italy, {Sir/my Lady}! I pray we soon unite with the rest of the Italian people, and that we may bring the terre irredente back into the Kingdom.
-dlga_italy_unification_start3_cancel:close_window|So be it, my {King/Queen}. I support your decision regardless, but consider the importance freeing our people from the yolk of foreign oppression has for all of us.
-dlga_minister_talk:peace_negotiations_initial|I want you to initiate peace negotiations with a foreign power.
-dlga_minister_talk:improve_relations_initial|I want you to leverage our governments ties to improve relations with a foreign power.
-dlga_peace_negotiations_initial:peace_negotiations_choose_faction|Most certainly. The people are growing tired of conflict already. Who shall I try to convince to lay down arms?
+dlga_prussia_unification_start1:prussia_unification_start2|¿Porqué? Después de todo es tiempo de hacer la “por siempre inseparable”, es lo que nos ha enseñado las constantes guerras. Schleswig y Holstein debe regresar al imperio alemán. Los daneses han estado ocupando Schleswig por cuatro siglos y sus intentos barbáricos de destruir nuestro movimiento local, esto socavó nuestras ambiciones en 1848. Entonces debemos tomar la ciudad de Schleswig y destruir al ejercito usurpador danés en el proceso. Hay que tener en cuenta que recientemente hubo un refuerzo de voluntarios debido a nuestros recientes conflictos, con lo cual debemos echar a estos suecos junto a sus amigos daneses.
+dlga_prussia_unification_start2:close_window|Entonces hazlo, informa al gabinete que estamos en guerra.
+dlga_prussia_unification_start2:minister_pretalk|Creo que es una masacre innecesaria, deberías tratar de calmar la situación de otra manera.
+dlga_minister_talk:italy_unification_start1|Es hora de expandir nuestras influencias y unir al pueblo italiano, ¿Cómo podríamos proceder?
+dlga_italy_unification_start1:italy_unification_start2|Mi {señor/señora}, creo que la unificación de Italia es un proyecto ambicioso, pero justo, debemos conquistar ilegítimamente a {s1}. Conquistando sus capitales será un golpe muy duro, pero será difícil forzarlos a rendirse. Debes causar que su pueblo no los apoye, podemos hacerlo mediante la masacre de su ejercito en combate o poseyendo las fortificaciones y ciudades de sus fronteras.
+dlga_italy_unification_start2:italy_unification_start3_proceed|Hazlo, vamos a reunificar Italia, no podemos dejar que la muerte de nuestros amigos y hermanos sea en vano.
+dlga_italy_unification_start2:italy_unification_start3_cancel|No podemos derramar más sangre italiana y pensar que eso nos reunificara, dame más tiempo.
+dlga_italy_unification_start3_proceed:close_window|¡Que dios bendiga Italia, mi {señor/señora}! Deseo con ansias la reunificación del resto de Italia, y tal vez esto traiga a la “terre irredente” de vuelta al reino.
+dlga_italy_unification_start3_cancel:close_window|Hazlo entonces mi {señor/señora}. Yo apoyo sus decisiones, pero considera la importancia de liberar a nuestro pueblo de las políticas extranjeras.
+dlga_minister_talk:peace_negotiations_initial|Quiero que inicies las negociaciones de paz con otro país.
+dlga_minister_talk:improve_relations_initial|Quiero que aproveches nuestras relaciones políticas para mejorar las relaciones con otro país.
+dlga_peace_negotiations_initial:peace_negotiations_choose_faction|Más ciertamente. La gente se esta cansando del conflicto ¿Con quien debería hablar para calmar la situación?
 dlga_peace_negotiations_choose_faction:peace_negotiations_proceed|{s31}.
-dlga_peace_negotiations_choose_faction:minister_pretalk|Nevermind.
-dlga_peace_negotiations_proceed:close_window|I will send for their ambassador immediately.
-dlga_improve_relations_initial:minister_pretalk|Sorry to say, we are already in the midst of the political circus, we are still attempting to improve relations with {s31}. I am afraid you will have to wait for our ambassadors to return.
-dlga_improve_relations_initial:improve_relations_choose_faction|Most certainly. With the right gifts and events, I am sure we can convince some King, Queens, Lords and Ladies to look upon us a bit more favourably. Which court should I contact?
+dlga_peace_negotiations_choose_faction:minister_pretalk|Olvidalo.
+dlga_peace_negotiations_proceed:close_window|Voy a mandar un embajador inmediatamente.
+dlga_improve_relations_initial:minister_pretalk|Perdón que lo diga de esta manera, pero estamos en medio de un circo político, estamos tratando de mejorar las relaciones con {s31}, debes esperar a que nuestros embajadores vuelvan.
+dlga_improve_relations_initial:improve_relations_choose_faction|Más ciertamente, con regalos y eventos, estoy seguro que podemos convencer algunos reyes, señores y princesas de que nos vean un poco mejor ¿Con quien debería hablar?
 dlga_improve_relations_choose_faction:improve_relations_proceed|{s31}.
-dlga_improve_relations_choose_faction:minister_pretalk|Never mind.
-dlga_improve_relations_proceed:improve_relations_proceed_price_named|I figure we'll be able to improve our relations with them over the next few days if you can give us a budget of {reg10} pounds.
-dlga_improve_relations_proceed_price_named:improve_relations_proceed_completed|Go ahead, you have my blessings.
-dlga_improve_relations_proceed_completed:minister_pretalk|I will get right to it. Give it a few days, and  I am sure relations are bound to come up roses.
-dlga_improve_relations_proceed_price_named:minister_pretalk|What a waste, we don't need their support.
-dlga_minister_talk:break_alliance_initial|I want our nation to break alliance with other nation.
-dlga_break_alliance_initial:break_alliance_choose_faction|With what nation?
+dlga_improve_relations_choose_faction:minister_pretalk|Olvidalo.
+dlga_improve_relations_proceed:improve_relations_proceed_price_named|Creo que podemos mejorar nuestras relaciones con ellos en los próximos días, siempre y cuando nos des {reg10} Libras.
+dlga_improve_relations_proceed_price_named:improve_relations_proceed_completed|Hazlo tienes mi aprobación
+dlga_improve_relations_proceed_completed:minister_pretalk|Voy a ir directamente a eso, dame unos días y estoy seguro que las relaciones van a mejorar.
+dlga_improve_relations_proceed_price_named:minister_pretalk|Que desperdicio, no necesitamos de sus ayudas.
+dlga_minister_talk:break_alliance_initial|Quiero que nuestra nación rompa la alianza con esta otra nación.
+dlga_break_alliance_initial:break_alliance_choose_faction|¿Con que nación?
 dlga_break_alliance_choose_faction:break_alliance_areyousure|{s31}.
-dlga_break_alliance_choose_faction:minister_pretalk|Nevermind.
-dlga_break_alliance_areyousure:break_alliance_areyousure_answer|Are you sure you want to break alliance with {s31}?
-dlga_break_alliance_areyousure_answer:break_alliance_proceed|Yes I am.
-dlga_break_alliance_proceed:minister_pretalk|Breaking alliance with {s31}.
-dlga_break_alliance_areyousure_answer:minister_pretalk|No I'm not.
-dlga_minister_talk:create_alliance_initial|Let's strengthen our position in the world and send out an invitation for an alliance.
-dlga_create_alliance_initial:minister_pretalk|I am afraid no one is willing to even consider an alliance with us, they simply don't favour us over others. We will have to improve relations before we can even think about an alliance (Minimum 30+ relations and no provocation and truce required).
-dlga_create_alliance_initial:create_alliance_choose_faction|A stellar idea, your highness. We've got friends in politics, let's make them allies. For what ambassador shall I send?
+dlga_break_alliance_choose_faction:minister_pretalk|Olvidalo.
+dlga_break_alliance_areyousure:break_alliance_areyousure_answer|¿Estas seguro que deseas romper la alianza con {s31}?
+dlga_break_alliance_areyousure_answer:break_alliance_proceed|Si.
+dlga_break_alliance_proceed:minister_pretalk|Romper alianza con {s31}.
+dlga_break_alliance_areyousure_answer:minister_pretalk|No.
+dlga_minister_talk:create_alliance_initial|Fortalezcamos nuestra posición en el mundo e invitemos a formar alianzas con otros países.
+dlga_create_alliance_initial:minister_pretalk|Me temo que nadie va a aliarse con nosotros, ellos simplemente no nos prefieren frente a otros. Debemos mejorar nuestras relaciones para formar la alianza (Mínimo +30 en relación y sin provocaciones ni treguas requeridas)
+dlga_create_alliance_initial:create_alliance_choose_faction|Es una idea estelar su alteza. Tenemos algunos amigos en la política, hagámoslos nuestros aliados ¿Qué embajador debemos mandar?
 dlga_create_alliance_choose_faction:create_alliance_proceed|{s31}.
-dlga_create_alliance_choose_faction:minister_pretalk|Never mind.
-dlga_create_alliance_proceed:create_alliance_proceed_final_answer|Right away! I will let them contact their embassy immediately and let you know what they have to offer.
-dlga_create_alliance_proceed_final_answer:close_window|Alright, do it.
-dlga_create_alliance_proceed_final_answer:minister_pretalk|I changed my mind.
-dlga_minister_talk:create_casus_belli_initial|I want our government to fabricate a reason for a conflict with a foreign power.
-dlga_create_casus_belli_initial:minister_pretalk|Already creating casus belli for {s31}.
-dlga_create_casus_belli_initial:create_casus_belli_choose_faction|I hope you have considered your other options thoroughly, but if you feel this is the best course of action, I will naturally abide. I am sure we could provoke an incident, or dig up some 'old' documents. Though do keep in mind, pushing for conflict, as 'justified' as it might be, is going to bring some attention and international pressure onto us. If you are sure, who do you wish to provoke?
+dlga_create_alliance_choose_faction:minister_pretalk|Olvidalo.
+dlga_create_alliance_proceed:create_alliance_proceed_final_answer|Perfecto, voy a contactarles inmediatamente y hacerles saber que deben negociar.
+dlga_create_alliance_proceed_final_answer:close_window|Perfecto, hazlo.
+dlga_create_alliance_proceed_final_answer:minister_pretalk|¿Sabes que? cambié de opinión.
+dlga_minister_talk:create_casus_belli_initial|Quiero crear una razón para generar un conflicto con otro país.
+dlga_create_casus_belli_initial:minister_pretalk|Estamos creando un Casus Belli para {s31}.
+dlga_create_casus_belli_initial:create_casus_belli_choose_faction|Espero que hayas considerado las otras opciones, pero sí piensas que es la mejor manera lo hare. Estoy seguro que podemos crear un incidente o buscar algo en un archivo. Solo te pido que pienses, un conflicto, ya sea justificado o no, traerá atención y presiones extranjeras. Sí estas seguro, ¿A quien deseas provocar?
 dlga_create_casus_belli_choose_faction:create_casus_belli_proceed|{s31}.
-dlga_create_casus_belli_choose_faction:minister_pretalk|Never mind.
-dlga_create_casus_belli_proceed:create_casus_belli_proceed_price_named|I figure we will need {reg10} pounds, we will have to put quite some effort into digging something up, and that won't come cheap.
-dlga_create_casus_belli_proceed_price_named:create_casus_belli_proceed_completed|Go ahead, you have my blessings.
-dlga_create_casus_belli_proceed_completed:minister_pretalk|We will get right to it. Give it a few days, and I will inform you as soon as we have something new.
-dlga_create_casus_belli_proceed_price_named:minister_pretalk|I changed my mind.
-dlga_minister_talk:declare_war_initial|It's time to go to war. Send out an emissary.
-dlga_declare_war_initial:declare_war_choose_faction|I won't question your decision, if this is what you want. Against whom do you wish to take up arms against?
+dlga_create_casus_belli_choose_faction:minister_pretalk|Olvidalo.
+dlga_create_casus_belli_proceed:create_casus_belli_proceed_price_named|Hice las cuentas y necesitamos {reg10} Libras, para buscar algo de esto, y recuerda que no saldrá nada barato.
+dlga_create_casus_belli_proceed_price_named:create_casus_belli_proceed_completed|Hazlo, tienes mi permiso.
+dlga_create_casus_belli_proceed_completed:minister_pretalk|Perfecto, dame un par de días y te daré algo de información.
+dlga_create_casus_belli_proceed_price_named:minister_pretalk|Mejor no.
+dlga_minister_talk:declare_war_initial|Es tiempo de irnos a la guerra, envia un emisario.
+dlga_declare_war_initial:declare_war_choose_faction|No voy a cuestionar tu decisión ¿A quién deseas declarar la guerra?
 dlga_declare_war_choose_faction:declare_war_proceed|{s31}.
-dlga_declare_war_choose_faction:minister_pretalk|Never mind.
+dlga_declare_war_choose_faction:minister_pretalk|Olvidalo.
 dlga_declare_war_proceed:declare_war_proceed_final_answer|{s32}
 dlga_declare_war_proceed_final_answer:declare_war_proceed_final_answer_completed|{s32}
-dlga_declare_war_proceed_final_answer_completed:minister_pretalk|War has been declared, my highness.
+dlga_declare_war_proceed_final_answer_completed:minister_pretalk|La guerra se ha declarado, mi alteza.
 dlga_declare_war_proceed_final_answer:minister_pretalk|{s32}
 dlga_minister_pretalk:minister_talk|¿Hay algo que pueda hacer por vos?
-dlga_minister_talk:propaganda_initial|I want to start a new political campaign aimed at increasing public confidence in the government.
-dlga_propaganda_initial:minister_talk|There is already campaign in progress, which will end in {reg1} days.
-dlga_propaganda_initial:propaganda_ahead|Most certainly. With the right newspaper and magazine articles, and pushing certain political entities we can turn public opition in our favor. {s1} Campaign will long 30 days and will cost {reg1} pounds a day.
-dlga_propaganda_ahead:minister_pretalk|Go ahead.
-dlga_propaganda_ahead:minister_pretalk.1|Never mind.
+dlga_minister_talk:propaganda_initial|Quiero empezar una nueva campaña política para incrementar la confianza en el gobierno.
+dlga_propaganda_initial:minister_talk|Hay una campaña en progreso, esta termina en {reg1} días.
+dlga_propaganda_initial:propaganda_ahead|Más ciertamente, con el diario correcto y algunos artículos en revistas y acusando algunas entidades políticas, haremos que la opinión publica este a nuestro favor. La campaña de {s1} va a tardar 30 días y costará {reg1} por día.
+dlga_propaganda_ahead:minister_pretalk|Hazlo.
+dlga_propaganda_ahead:minister_pretalk.1|Olvidalo.
 dlga_minister_talk:repression_initial|{s1}
-dlga_repression_initial:minister_talk|There already were investigation recently, we only will be able to get into new one in {reg1} days.
+dlga_repression_initial:minister_talk|Hubo una investigación hace poco, estaremos listos en {reg1} días.
 dlga_repression_initial:repression_ahead|{s1}
-dlga_repression_ahead:repression_ahead_success|Go ahead and undermine positions of {s1}.
-dlga_repression_ahead_success:minister_pretalk|We will get right to it. {s1}
-dlga_repression_ahead:minister_pretalk|Never mind.
-dlga_minister_talk:sign_constitution1|I think time has come for our nation to sign the constitution and create legislative council.
-dlga_sign_constitution1:sign_constitution2|Most certainly. This is what our people want. Do you want us to go ahead and develop a constitution project?
-dlga_sign_constitution2:sign_constitution3|Yes.
-dlga_sign_constitution2:minister_pretalk|I changed my mind.
-dlga_sign_constitution3:minister_pretalk|Constituition will be created and signed in a short time, your highness.
-dlga_minister_talk:become_republic1|It is time to liberate this country from iron heel of royal dynasty and let people to choose their leader. I have decided to establish a republic.
-dlga_become_republic1:become_republic2|Most certainly. This is what our people waited for, for a long time. Do you want us to go ahead and prepare an abdication manifesto?
-dlga_become_republic2:become_republic3|Yes.
-dlga_become_republic2:minister_pretalk|I changed my mind.
-dlga_become_republic3:minister_pretalk|Abdication manifesto will be published in a short time, your highness.
-dlga_minister_talk:nationalize_urban1|I want to nationalise the urban industry and liberate workers from decades-long oppression.
-dlga_nationalize_urban1:nationalize_urban2|Most certainly. Nationalisation of urban industry will give the state full control of factories and can give it extra income. However, output of factories will decrease depending on the governmental administration efficiency. Do you want us to go ahead?
-dlga_nationalize_urban2:minister_pretalk|Yes.
-dlga_nationalize_urban2:minister_pretalk.1|I changed my mind.
-dlga_minister_talk:privatize_urban1|I want to privatize the urban industry and share factories management with capitalists.
-dlga_privatize_urban1:privatize_urban2|Most certainly. Nationalisation of industry was a bad idea, and privatization will increase production efficiency. Do you want us to go ahead?
-dlga_privatize_urban2:minister_pretalk|Yes.
-dlga_privatize_urban2:minister_pretalk.1|I changed my mind.
-dlga_minister_talk:privatize_rural1|I want to privatize the rural industry and share land with capitalists.
-dlga_privatize_rural1:privatize_rural2|Most certainly. Nationalisation of industry was a bad idea, and privatization will increase production efficiency. Do you want us to go ahead?
-dlga_privatize_rural2:minister_pretalk|Yes.
-dlga_privatize_rural2:minister_pretalk.1|I changed my mind.
-dlga_minister_talk:nationalize_rural1|I want to nationalise the rural industry and liberate peasants from decades-long oppression.
-dlga_nationalize_rural1:nationalize_rural2|Most certainly. Nationalisation of rural industry will give us control on flour price, making it possible to decrease it significantly, on the price of decreasing wealth of land owners. Do you want to go ahead?
-dlga_nationalize_rural2:minister_pretalk|Yes.
-dlga_nationalize_rural2:minister_pretalk.1|I changed my mind.
-dlga_minister_talk:forced_urbanization1|I want to start industrialization campaign to increase number of workers to increase production output for needs of the revolution.
-dlga_forced_urbanization1:forced_urbanization2|Most certainly. Mass coercive migration of peasants to cities makes rapid industrialization possible, on the price of decreasing quality of life of population and creating chaos in city supply system. Do you want us to go ahead?
-dlga_forced_urbanization2:minister_pretalk|Yes.
-dlga_forced_urbanization2:minister_pretalk.1|I changed my mind.
-dlga_minister_talk:forced_urbanization_disable1|It's time to stop industrialization campaign.
-dlga_forced_urbanization_disable1:forced_urbanization_disable2|Most certainly. Our heavy infustry is already massive enough. Do you want us to go ahead?
-dlga_forced_urbanization_disable2:minister_pretalk|Yes.
-dlga_forced_urbanization_disable2:minister_pretalk.1|I changed my mind.
-dlga_minister_talk:offer_gift_quest_complete|I have the materials for {s4}'s gift.
+dlga_repression_ahead:repression_ahead_success|Empieza a socavar las posiciones de {s1}.
+dlga_repression_ahead_success:minister_pretalk|Pondremos todas nuestras fuerzas en esto. {s1}
+dlga_repression_ahead:minister_pretalk|Olvidalo.
+dlga_minister_talk:sign_constitution1|Creo que es hora de que nuestra nación firme la constitución y cree el consejo legislativo.
+dlga_sign_constitution1:sign_constitution2|Más ciertamente, es lo que nuestro pueblo quiere ¿quieres que nos encarguemos de desarrollar la constitución?
+dlga_sign_constitution2:sign_constitution3|Si.
+dlga_sign_constitution2:minister_pretalk|No.
+dlga_sign_constitution3:minister_pretalk|La constitución sera creada y firmada en poco tiempo su alteza.
+dlga_minister_talk:become_republic1|Es hora de liberar este país de la dinastía real y dejar que la gente escoja un líder, yo he decidido por una república.
+dlga_become_republic1:become_republic2|Más ciertamente, es lo que la gente ha estado esperando por mucho tiempo ¿quieres que nos encarguemos del manifiesto de abdicación?
+dlga_become_republic2:become_republic3|Si.
+dlga_become_republic2:minister_pretalk|No.
+dlga_become_republic3:minister_pretalk|El manifiesto de abdicación sera publicado en poco tiempo su alteza.
+dlga_minister_talk:nationalize_urban1|Quiero nacionalizar la industria urbana y liberar a los trabajadores por la extensa opresión.
+dlga_nationalize_urban1:nationalize_urban2|Más ciertamente, el nacionalismo de las industrias nos dará control total de las empresas y un ingreso extra. También ten en cuenta que la producción caerá dependiendo de la eficiencia de la administración gubernamental ¿Quieres que nos encarguemos?
+dlga_nationalize_urban2:minister_pretalk|Si.
+dlga_nationalize_urban2:minister_pretalk.1|No.
+dlga_minister_talk:privatize_urban1|Quiero privatizar la industria urbana y compartir la administración de las fábricas con capitalistas.
+dlga_privatize_urban1:privatize_urban2|Más ciertamente, el nacionalismo de las industrias fue una mala idea, la privatización incrementará la eficiencia ¿Quieres que nos encarguemos?
+dlga_privatize_urban2:minister_pretalk|Si.
+dlga_privatize_urban2:minister_pretalk.1|He cambiado de opinión.
+dlga_minister_talk:privatize_rural1|Quiero privatizar la industria rural y compartir las tierras con capitalistas.
+dlga_privatize_rural1:privatize_rural2|Más ciertamente, el nacionalismo de las industrias fue una mala idea, la privatización incrementará la eficiencia ¿Quieres que nos encarguemos?
+dlga_privatize_rural2:minister_pretalk|Si.
+dlga_privatize_rural2:minister_pretalk.1|No.
+dlga_minister_talk:nationalize_rural1|Quiero nacionalizar la industria rural y liberar a los peones de extensas opresiones.
+dlga_nationalize_rural1:nationalize_rural2|Más ciertamente, la nacionalización de la industria rural nos dará control del precio de harina y esto harta que baje significativamente, Pero la riqueza de los terratenientes se verá afectada. ¿deseas que nos encarguemos?
+dlga_nationalize_rural2:minister_pretalk|Si.
+dlga_nationalize_rural2:minister_pretalk.1|No.
+dlga_minister_talk:forced_urbanization1|Quiero empezar una campaña de industrialización para incrementar la cantidad de obreros para tener una producción.
+dlga_forced_urbanization1:forced_urbanization2|Más ciertamente, La migración de peones rurales a la ciudad hará una industrialización más rápida, pero se verá reducida la calidad de vida de la gente y creará un caos en el sistema de suministros de la ciudad ¿deseas que nos encarguemos?
+dlga_forced_urbanization2:minister_pretalk|Si.
+dlga_forced_urbanization2:minister_pretalk.1|No.
+dlga_minister_talk:forced_urbanization_disable1|Es tiempo de parar la campaña de industrialización.
+dlga_forced_urbanization_disable1:forced_urbanization_disable2|Más ciertamente, nuestra industria pesada ya es lo suficientemente grande, ¿quieres que nos encarguemos de esto?
+dlga_forced_urbanization_disable2:minister_pretalk|Si.
+dlga_forced_urbanization_disable2:minister_pretalk.1|No.
+dlga_minister_talk:offer_gift_quest_complete|Tengo los materiales para el regalo de {s4}.
 dlga_offer_gift_quest_complete:close_window|Ah, dadme eso. Espero que esto acabe con vuestra disputa. Tal vez deseéis hablar con {reg4?ella:él}, y comprobar si he tenido éxito.
 dlga_minister_talk:minister_cancel_political_quest|Abandonemos nuestro plan de {s10}.
 dlga_minister_cancel_political_quest:minister_cancel_political_quest_confirm|¿Seguro que queréis descartar esa idea?
@@ -1197,7 +1197,7 @@ dlga_liege_defends_claim_1:liege_defends_claim_2|Oh, ¿de veras? No todo el mund
 dlga_liege_defends_claim_2:liege_defends_claim_3|Muy bien. Satisfaré vuestra curiosidad. Pero escuchadme bien, pues no deseo hablar de este asunto de nuevo.
 dlga_liege_defends_claim_3:liege_defends_claim_4|{s48}
 dlga_liege_defends_claim_4:lord_talk|{s48}
-dlga_lord_join_rebellion_suggest_cheat:close_window|Cheat:Allright.
+dlga_lord_join_rebellion_suggest_cheat:close_window|Truco : Está bien.
 dlga_lord_talk:lord_prison_break_chains|He venido a sacaros de aquí.
 dlga_lord_prison_break_chains:close_window|¡Gracias a los cielos que habéis venido! Sin embargo, no puedo salir de aquí con estas cadenas. Tenéis que quitarle la llave al guardia de alguna forma.
 dlga_lord_talk:lord_suggest_action_ask|TRUCO: Emprender la siguiente acción.
@@ -1381,20 +1381,20 @@ dlga_lord_mercenary_service_verify:lord_mercenary_service_reject|Pensándolo mej
 dlga_lord_mercenary_service_verify_2:lord_mercenary_service_accept_3|Con eso bastará. Habéis tomado la decisión correcta, os felicito. Al {s9} le va bien con sus leales guerreros, recibiréis muchas recompensas por vuestro servicio.
 dlga_lord_mercenary_service_accept_3:lord_pretalk|Ahora sugiero que os preparéis para una campaña difícil. Entrenad y equipad a vuestros soldados como mejor podáis mientras tanto, y responded rápidamente cuando se os requiera.
 dlga_lord_mercenary_service_reject:lord_pretalk|Lamento mucho escuchar eso. No encontraréis sitio mejor que el {s9}, tenedlo por seguro.
-dlga_lord_mercenary_elabourate_pay:lord_mercenary_elabourate_1|I can offer you a contract for one month. At the end of this period, it can be extended on a monthly basis. An initial sum of {reg12} pounds will be paid to you to seal the contract. After that, you'll receive wages from {s10} each week, according to the number and quality of the soldiers in your company. You still have your rights to battlefield loot and salvage, as well as any prisoners you capture. War can be very profitable at times...
-dlga_lord_mercenary_service_elabourate_duty:lord_mercenary_elabourate_1|Duties... There are only a few, none of them difficult. The very first thing is to declare your allegiance. An oath of loyalty to our cause. Once that's done, you shall be required to fulfill certain responsibilities. You'll participate in military campaigns, fulfill any duties given to you by your commanders, and most of all you shall attack the enemies of our kingdom wherever you might find them.
-dlga_lord_mercenary_elabourate_1:lord_mercenary_service_elabourate_duty|And what about my duties as a mercenary?
-dlga_lord_mercenary_elabourate_1:lord_mercenary_elabourate_castle|Can I hold on to any castles I take?
-dlga_lord_mercenary_elabourate_1:lord_mercenary_elabourate_banner|Can I fly my own banner?
-dlga_lord_mercenary_elabourate_1:lord_mercenary_elabourate_pay|How much will you pay me for my service?
-dlga_lord_mercenary_elabourate_1:lord_mercenary_service_accept|Sounds good. I wish to enter your service as a mercenary.
-dlga_lord_mercenary_elabourate_1:lord_mercenary_service_reject|Apologies, my sword is not for hire.
-dlga_lord_mercenary_elabourate_castle:lord_mercenary_elabourate_1|Only my loyal vassals can own lands and castles in my realm -- and all my vassals are men.\I am not inclined to depart from this tradition without a very good reason. If you prove yourself in battle, you can swear an oath of homage to me and become my vassal.\We may then discuss how you may obtain a castle.
-dlga_lord_mercenary_elabourate_castle:lord_mercenary_elabourate_1.1|Hmm... Only loyal vassals of {s10} can own lands and castles. While kings will sometimes accept vassalage from men who prove themselves in battle, and grant them land, I have never heard of a king who gave fiefs to women. You had best discuss that issue with {s10} himself.
-dlga_lord_mercenary_elabourate_castle:lord_mercenary_elabourate_1.2|Only my loyal vassals can own lands and castles in my realm. A mercenary can not be trusted with such a responsibility. However, after serving for some time, you can swear homage to me and become my vassal. Then you will be rewarded with a fief.
-dlga_lord_mercenary_elabourate_castle:lord_mercenary_elabourate_1.3|Only loyal vassals of {s10} can own lands and castles. You understand, a simple mercenary cannot be trusted with such responsibility. However, after serving for some time, you may earn the right to swear homage to {s10} and become his vassal. Then you would be rewarded with a fief.
-dlga_lord_mercenary_elabourate_banner:lord_mercenary_elabourate_1|Only my noble vassals have the honour of carrying their own banners. However, after some time in mercenary service, you may earn the opportunity to swear homage to me and become my vassal, gaining the right to choose a banner of your own and fight under it in battle.
-dlga_lord_mercenary_elabourate_banner:lord_mercenary_elabourate_1.1|Only noble vassals of {s10} have the honour of carrying their own banners. However, after some time of mercenary service, perhaps you can earn the opportunity to swear homage to {s10} and become his vassal, gaining the right to choose a banner of your own and fight under it in battle.
+dlga_lord_mercenary_elabourate_pay:lord_mercenary_elabourate_1|Puedo ofrecerte un contrato por un mes. Después de este periodo, puede ser extendido otro mes. El pago inicial será de {reg12} Libras para confirmar, después de esto, recibirás un pago semanal de {s10}, teniendo en cuenta la calidad y cantidad de soldados en tu compañía. Tienes derecho a quedarte con el botín del campo de batalla, como también de prisioneros. La guerra puede ser muy rentable…
+dlga_lord_mercenary_service_elabourate_duty:lord_mercenary_elabourate_1|Ordenes… Solo hay un par de ellas, ninguna muy difícil. La principal es declarar tu lealtad, un pacto a nuestra causa. Después de eso, debes cumplir tus responsabilidades, estas son la participación de las campañas militares, cumplir tareas que te den tus superiores, y principalmente debes atacar a los enemigos de nuestro reino.
+dlga_lord_mercenary_elabourate_1:lord_mercenary_service_elabourate_duty|Y.... ¿Acerca de mis tareas como mercenario?
+dlga_lord_mercenary_elabourate_1:lord_mercenary_elabourate_castle|¿Puedo quedarme con los castillos que capture?
+dlga_lord_mercenary_elabourate_1:lord_mercenary_elabourate_banner|¿Puedo portar mi bandera?
+dlga_lord_mercenary_elabourate_1:lord_mercenary_elabourate_pay|¿Cuanto me pagarn por mi servicio?
+dlga_lord_mercenary_elabourate_1:lord_mercenary_service_accept|Me parece un buen trato, deseo entrar al servicio como mercenario.
+dlga_lord_mercenary_elabourate_1:lord_mercenary_service_reject|Disculpa, pero no estoy a la venta.
+dlga_lord_mercenary_elabourate_castle:lord_mercenary_elabourate_1|Solo los vasallos reales puedes quedarse con tierras y castillos en mi reino – y todos mis vasallos son hombres \Y no pienso hacer una excepción a mi tradición sin ninguna razón especifica. Sí das buenos resultados puedes jurar lealtad y ser un vasallo.\Entonces después podremos discutir sí te puedes quedar con un castillo.
+dlga_lord_mercenary_elabourate_castle:lord_mercenary_elabourate_1.1|Hmm… Solo los vasallos leales a {s10} pueden tener tierras y castillos, cuando los reyes aceptan vasallos que se probaron en batallas, se les puede dar unas tierras, y nunca he escuchado que un rey le de feudo a una mujer, deberías discutir directamente con el rey acerca de este tema.
+dlga_lord_mercenary_elabourate_castle:lord_mercenary_elabourate_1.2|Solo mis vasallos leales pueden tener tierras y castillos en mi reino. No se le puede confiar a un mercenario tanta responsabilidad. Como sea, después de que me sirvas por un tiempo, puedes rendirme homenaje y convertirte en mi vasallo para luego obtener un feudo.
+dlga_lord_mercenary_elabourate_castle:lord_mercenary_elabourate_1.3|Solo mis vasallos leales pueden tener tierras y castillos en mi reino. Debes entender que no se puede dar semejante confianza a un mercenario. Como sea, después de que me sirvas por un tiempo, puedes rendirme homenaje y convertirte en mi vasallo para luego obtener un feudo.
+dlga_lord_mercenary_elabourate_banner:lord_mercenary_elabourate_1|Solo los vasallos nobles pueden tener el honor de portar su bandera. Como sea, después del tiempo que brindaste servicio, te has ganado la oportunidad de rendirme culto y convertirte en vasallo, ganando el derecho de que bandera portar.
+dlga_lord_mercenary_elabourate_banner:lord_mercenary_elabourate_1.1|Solo los vasallos nobles de {s10} tienen el honor de portar sus propias banderas. Como sea, después del tiempo que brindaste servicio, te has ganado la oportunidad de rendirme culto y convertirte en vasallo, ganando el derecho de que bandera portar.
 dlga_lord_request_mission_ask:lord_pretalk|Aún no habéis terminado el último trabajo que os encargué, {playername}. Deberíais estar llevándolo a cabo y no pidiéndome otras tareas.
 dlga_lord_request_mission_ask:lord_pretalk.1|No tengo más trabajos para vos en este momento.
 dlga_lord_request_mission_ask:lord_tell_mission|¿Un trabajo?
@@ -1897,9 +1897,9 @@ dlga_castle_guard_intro_2:castle_guard_intro_3|Podéis entrar después de dejar 
 dlga_castle_guard_intro_3:close_window|Aquí tenéis mis armas. Voy a entrar.
 dlga_castle_guard_intro_3:castle_guard_intro_2b|No, nadie puede tocar mis armas.
 dlga_castle_guard_intro_2b:close_window|Entonces no podéis entrar.
-dlga_start:kingdom_party_encounter|In the name of the {s5}.
-dlga_kingdom_party_encounter:close_window|Surrender now, and save yourself the indignity of defeat!
-dlga_kingdom_party_encounter:close_window.1|Greetings, fellow warrior.
+dlga_start:kingdom_party_encounter|En nombre de {s5}.
+dlga_kingdom_party_encounter:close_window|¡Ríndete ahora y evita que te masacremos!
+dlga_kingdom_party_encounter:close_window.1|Adios soldado.
 dlga_start:castle_gate_guard_talk|¿Qué queréis?
 dlga_castle_gate_guard_pretalk:castle_gate_guard_talk|¿Sí?
 dlga_castle_gate_guard_talk:castle_gate_open|Necesitamos cobijo para esta noche. ¿Nos dejáis pasar?
@@ -2033,12 +2033,12 @@ dlga_deserter_paid_talk:deserter_paid_talk_2b|No. Esta vez os toca a vos pagarme
 dlga_deserter_paid_talk_2b:close_window|¿Qué estupideces estáis diciendo? ¿Queréis tener problemas? Ya los tenéis.
 dlga_start:deserter_talk|Somos los hermanos libres. A partir de ahora sólo lucharemos por nosotros mismos. Ahora dadnos vuestro oro o probaréis nuestro acero.
 dlga_deserter_talk:close_window|Cuando acabe con vos, lamentaréis haber abandonado vuestro ejército.
-dlga_deserter_talk:deserter_buy_proposal_0|Join our ranks, or refuse and I will have you all cut down to the last man!
+dlga_deserter_talk:deserter_buy_proposal_0|¡Unete a nuestras filas, o tendremos que masacrarlos uno por uno!
 dlga_deserter_talk:deserter_barter|No hay por qué luchar. Puedo pagar por el derecho de paso.
-dlga_deserter_buy_proposal_0:deserter_buy_proposal|Rest your arms! Despite you being deserters, and by extension enemies of our people, I am willing to grant you one last chance at quarter. Join our ranks, or refuse and I will have you all cut down to the last man!
-dlga_deserter_buy_proposal:deserter_buy_proposal_price_named|Fine! We don't want to die or rot in prison, but how can we believe you? We want a guarantee! We want {reg5}, that should be enough to cover our debts. Else, we just can't go back, they'd gun us down like criminals.
-dlga_deserter_buy_proposal_price_named:close_window|Here, have your money. Now go fall in with the provost!
-dlga_deserter_buy_proposal_price_named:close_window.1|Maybe you don't deserve quarter, after all. I will have you all lined up and shot.
+dlga_deserter_buy_proposal_0:deserter_buy_proposal|¡Bajen sus armas! Más allá de que sean desertores y fueron enemigos de nuestro pueblo, les ofrezco una última chance, y la otra opción es ¡masacrarlos uno por uno!
+dlga_deserter_buy_proposal:deserter_buy_proposal_price_named|¡Esta bien! No queremos morir o pudrirnos en prisión, ¿pero como es que puedo confiar en ti? ¡Queremos garantías! Quiero {reg5} para pagar nuestras deudas. Además, no podemos volver atrás, ellos nos tienen como criminales.
+dlga_deserter_buy_proposal_price_named:close_window|Aquí tienes tu dinero ¡Ahora ve con el rector!
+dlga_deserter_buy_proposal_price_named:close_window.1|Tal vez no merezcas una oportunidad, mejor los pondré en fila y los fusilare a todos.
 dlga_deserter_barter:deserter_barter_2|Bien. Sois {listo/lista}. Pagadnos {reg5} Libras. Luego podéis marcharos.
 dlga_deserter_barter_2:deserter_barter_3a|Muy bien, aquí tenéis vuestros {reg5} Libras.
 dlga_deserter_barter_2:deserter_barter_3b|No llevo tanto dinero encima.
@@ -2699,7 +2699,7 @@ dlga_party_encounter_routed_agents_are_caught2:close_window.1|{s1}
 dlga_sell_prisoner_outlaws:sell_prisoner_outlaws|Hum. 10 Libras por cada salteador suponen {reg1} Libras por estos {reg0}.
 dlga_sell_prisoner_outlaws:sell_prisoner_outlaws.1|Dejadme ver. Habéis traído {reg0} bandidos, así que a 20 Libras por cada uno salen {reg1} Libras.
 dlga_sell_prisoner_outlaws:sell_prisoner_outlaws.2|Bueno, bueno, habéis capturado {reg0} bandidos. Cada uno vale 30 Libras, así que os daré {reg1} por todos.
-dlga_sell_prisoner_outlaws:close_window|I suppose that'll be all, then.
+dlga_sell_prisoner_outlaws:close_window|Supuse que ese era el fin, después de todo.
 dlga_prisoner_chat:prisoner_chat_2|No intentéis salir corriendo o hacer alguna estupidez. Os estaré vigilando.
 dlga_prisoner_chat_2:close_window|No, juro que no lo haré.
 dlga_start:town_merchant_talk|Saludos, mi {señor/señora}. ¿En qué puedo serviros hoy?
