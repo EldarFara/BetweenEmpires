@@ -1,4 +1,4 @@
-1702
+1707
 qstr_res_cape1 res_cape1
 qstr_res_cape2 res_cape2
 qstr_thawb1_belt1 thawb1_belt1
@@ -1701,3 +1701,8 @@ qstr_6 6
 qstr_7 7
 qstr_Drag_and_drop_troop_ Drag_and_drop_troop_pictures_from_one_to^other_with_left_mouse_button_to_copy^inventory_from_one_troop_to_another.
 qstr_Player_party_coordin Player_party_coordinates:_X_{reg1}.{reg2},_Y_{reg3}.{reg4}^
+qstr_{reg0}.{reg1}% {reg0}.{reg1}%
+qstr_agent_{reg63}_party_ agent_{reg63}_party_{reg1}_faction_{reg2}_team_{reg6}_player_team_{reg3}_allies_team_{reg4}_enemy_team_{reg5}
+qstr_is_player; is_player;
+qstr_is_not_player; is_not_player;
+qstr_agent_{reg63}_{s1}_p agent_{reg63}_{s1}_party_{reg1}_faction_{reg2}_team_{reg6}_player_team_{reg3}_allies_team_{reg4}_enemy_team_{reg5}
