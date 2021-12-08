@@ -1,4 +1,4 @@
-1707
+1709
 qstr_res_cape1 res_cape1
 qstr_res_cape2 res_cape2
 qstr_thawb1_belt1 thawb1_belt1
@@ -1706,3 +1706,5 @@ qstr_agent_{reg63}_party_ agent_{reg63}_party_{reg1}_faction_{reg2}_team_{reg6}_
 qstr_is_player; is_player;
 qstr_is_not_player; is_not_player;
 qstr_agent_{reg63}_{s1}_p agent_{reg63}_{s1}_party_{reg1}_faction_{reg2}_team_{reg6}_player_team_{reg3}_allies_team_{reg4}_enemy_team_{reg5}
+qstr_Start_campaign Start_campaign
+qstr_Finish_campaign Finish_campaign

@@ -1925,3 +1925,4 @@ g_current_troop_mesh
 g_draganddrop_source_troop
 g_mouse_lmb_timer
 g_draganddrop_mesh
+overlay_button_toggle_campaign
