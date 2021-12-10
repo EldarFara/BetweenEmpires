@@ -1,4 +1,4 @@
-1746
+1748
 qstr_res_cape1 res_cape1
 qstr_res_cape2 res_cape2
 qstr_thawb1_belt1 thawb1_belt1
@@ -1745,3 +1745,5 @@ qstr_Emirate_of_Tunisia Emirate_of_Tunisia
 qstr_Kingdom_of_Hungary Kingdom_of_Hungary
 qstr_Russian_Empire Russian_Empire
 qstr_White_Movement White_Movement
+qstr_Khanate_of_Khiva Khanate_of_Khiva
+qstr_Emirate_of_Bukhara Emirate_of_Bukhara
