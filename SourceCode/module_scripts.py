@@ -42,6 +42,8 @@ scripts = [
   ("game_start",
 	[
 (call_script, "script_walled_centers_assign_closest_centers"),
+(assign, "$g_czech_inited", 0),
+(assign, "$g_poland_inited", 0),
 (assign, "$g_faction_selection_selected_faction_number", -1),
 (assign, "$pct_item_type", pct_item_type_hats),
 (assign, "$preferred_ai_party_size", 125),
@@ -72250,6 +72252,7 @@ scripts = [
 
 ("init_poland",
 [
+(assign, "$g_poland_inited", 1),
 (faction_set_slot, "fac_kingdom_11", slot_faction_state, sfs_active),
 (faction_set_slot, "fac_kingdom_11", slot_faction_lord_name_string, "str_lord_name_czech1"),
 	(faction_set_slot, "fac_culture_11", slot_faction_tier_1_troop, "trp_factionpoland_troop1"),
@@ -72276,6 +72279,7 @@ scripts = [
 # ("pps_process_austria_collapse",
 ("init_czech",
 [
+(assign, "$g_czech_inited", 1),
 (faction_set_slot, "fac_kingdom_19", slot_faction_state, sfs_active),
 (faction_set_slot, "fac_kingdom_19", slot_faction_lord_name_string, "str_lord_name_czech1"),
 	(faction_set_slot, "fac_culture_19", slot_faction_tier_1_troop, "trp_factionczech_troop1"),
