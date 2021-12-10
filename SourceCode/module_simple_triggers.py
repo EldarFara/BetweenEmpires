@@ -1728,6 +1728,8 @@ simple_triggers = [
          (neg|troop_slot_ge, ":troop_no", slot_troop_leaded_party, 1),
 
          (store_troop_faction, ":cur_faction", ":troop_no"),
+	(faction_slot_eq, ":cur_faction", slot_faction_state, sfs_active),
+		 
          (try_begin),
            (eq, ":cur_faction", "fac_outlaws"), #Do nothing
          (else_try),         
