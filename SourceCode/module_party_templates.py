@@ -288,6 +288,9 @@ party_templates = [
   ("factionpoland_reinforcements_a", "{!}faction1_reinforcements_a", 0, 0, fac_commoners, 0, [(trp_factionpoland_troop1,2,4),(trp_factionpoland_troop2,5,7)]),
   ("factionpoland_reinforcements_b", "{!}faction1_reinforcements_b", 0, 0, fac_commoners, 0, [(trp_factionpoland_troop3,5,7),(trp_factionpoland_troop4,2,4)]),
   ("factionpoland_reinforcements_c", "{!}faction1_reinforcements_c", 0, 0, fac_commoners, 0, [(trp_factionpoland_troop5,4,8),(trp_factionpoland_troop6,3,5)]),
+  ("factionczech_reinforcements_a", "{!}faction1_reinforcements_a", 0, 0, fac_commoners, 0, [(trp_factionczech_troop1,2,4),(trp_factionczech_troop2,5,7)]),
+  ("factionczech_reinforcements_b", "{!}faction1_reinforcements_b", 0, 0, fac_commoners, 0, [(trp_factionczech_troop3,5,7),(trp_factionczech_troop4,2,4)]),
+  ("factionczech_reinforcements_c", "{!}faction1_reinforcements_c", 0, 0, fac_commoners, 0, [(trp_factionczech_troop5,4,8),(trp_factionczech_troop6,3,5)]),
   
   ("pps_rebels","Rebels",icon_peasant|carries_goods(2),0, fac_outlaws,bandit_personality,[]),
 ]

@@ -1611,15 +1611,18 @@ triggers = [
 (1, 0, ti_once, [
 (ge, "$g_current_year", 1868),
 ], [
-#(jump_to_menu,"mnu_welcome_to_be_mod"),
 (call_script, "script_change_faction_flag", "fac_kingdom_3", 35),
 (faction_set_name, "fac_kingdom_3", "@Austria-Hungary"),
 ]),
 (1, 0, ti_once, [
 (ge, "$g_current_year", 1881),
 ], [
-#(jump_to_menu,"mnu_welcome_to_be_mod"),
 (call_script, "script_change_faction_flag", "fac_kingdom_2", 34),
+]),
+(1, 0, ti_once, [
+(ge, "$g_current_year", 1920),
+], [
+(call_script, "script_change_faction_flag", "fac_kingdom_19", 94),
 ]),
 
  
