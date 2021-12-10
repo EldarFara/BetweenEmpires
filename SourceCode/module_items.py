@@ -2881,6 +2881,7 @@ items = [
 ["cze_infantry1","Czechoslovakian Military Uniform", [("cze_infantry1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
 ["cze_infantry2","Czechoslovakian Military Uniform", [("cze_infantry2", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
 ["cze_infantry3","Czechoslovakian Military Uniform", [("cze_infantry3", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
+["cze_infantry4","Czechoslovakian Military Uniform", [("cze_infantry4", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_3]],
 ["cze_hat1","Czechoslovakian Hat", [("cze_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_3]],
 ["cze_hat2","Czechoslovakian Hat", [("cze_hat2", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_3]],
 ["cze_hat3","Czechoslovakian Hat", [("cze_hat3", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_3]],

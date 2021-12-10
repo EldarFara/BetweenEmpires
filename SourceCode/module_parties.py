@@ -498,6 +498,7 @@ parties = [
  ("castle_275","Osijek",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(305.45,-70.64),[], 60),
  ("castle_276","Budejovice",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(373.75,-153.86),[], 60),
  ("castle_277","Keszthely",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(344.11,-96.46),[], 60),
+ ("castle_278","Innsbruck",icon_castle1|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(410.76,-132.51),[], 60),
 
  
 #     Rinimad      
@@ -746,7 +747,7 @@ parties = [
     ("village_193", "Osijek",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(341.92,-69.86),[], 170),
     ("village_194", "Ghuriyan",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-540.87,-31.73),[], 170),
     ("village_195", "Albacete",  icon_village5|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(683.53,11.70),[], 170),
-    ("village_196", "Gyor",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(336.96,-121.93),[], 170),
+    ("village_196", "Gyor",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(336.96,-121.93),[], 170),
     ("village_197", "Gyzylarbat",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-383.12,-112.29),[], 170),
     ("village_198", "Tejen",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-470.51,-113.43),[], 170),
     ("village_199", "Gumdag",  icon_village3|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-349.63,-136.26),[], 170),
@@ -1102,7 +1103,7 @@ parties = [
     ("village_550", "Mariupol",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(67.67,-146.80),[], 170),
     ("village_551", "Denipro",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(102.29,-180.99),[], 170),
     ("village_552", "Nikopol",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(101.60,-158.89),[], 170),
-    ("village_553", "Tiraspol",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(155.14,-136.30),[], 170),
+    ("village_553", "Stepanovka",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(145.86,-136.26),[], 170),
     ("village_554", "Pervomaisk",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(152.73,-162.06),[], 170),
     ("village_555", "Kryzhopil",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(180.28,-163.31),[], 170),
     ("village_556", "Vinnytsia",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(180.87,-184.90),[], 170),
@@ -1258,6 +1259,8 @@ parties = [
     ("village_704", "Nagykanizsa",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(349.96,-93.35),[], 170),
     ("village_705", "Papa",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(341.95,-107.80),[], 170),
     ("village_705", "Gleisdorf",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(359.95,-110.46),[], 170),
+    ("village_705", "Tiraspol",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(170.43,-132.77),[], 170),
+    ("village_706", "Lermoos",  icon_village1|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(417.80,-137.38),[], 170),
     
     
   

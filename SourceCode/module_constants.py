@@ -98,7 +98,7 @@ preset_infrastructure_level_middleeast = 2000
 
 preset_number_of_factories_britain = 35
 preset_number_of_factories_germany = 14
-preset_number_of_factories_france = 20
+preset_number_of_factories_france = 23
 preset_number_of_factories_italy = 9
 preset_number_of_factories_russia = 6
 preset_number_of_factories_austria = 9

@@ -924,4 +924,5 @@ script_peace_negotiations_set_center_owners_to_official_for_factions = 922
 script_pct_get_troop_skill_points_for_training_priority = 923
 script_init_poland = 924
 script_init_czech = 925
-script_cf_pbs_if_discipline_lower_than_retreat_limit = 926
+script_init_hungary = 926
+script_cf_pbs_if_discipline_lower_than_retreat_limit = 927

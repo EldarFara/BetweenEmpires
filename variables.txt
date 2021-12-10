@@ -1928,3 +1928,4 @@ g_draganddrop_mesh
 overlay_button_toggle_campaign
 g_poland_inited
 g_czech_inited
+g_hungary_inited
