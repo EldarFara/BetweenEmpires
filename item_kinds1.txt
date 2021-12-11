@@ -8893,67 +8893,67 @@ itemsfile version 3
 
  itm_hun_infantry1 Hungarian_Military_Uniform Hungarian_Military_Uniform 1  hun_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
- 45
+ 52
 0
 
  itm_hun_infantry2 Hungarian_Military_Uniform Hungarian_Military_Uniform 1  hun_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
- 45
+ 52
 0
 
  itm_hun_hat1 Hungarian_Hat Hungarian_Hat 1  hun_hat1 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
- 45
+ 52
 0
 
  itm_hun_hat2 Hungarian_Hat Hungarian_Hat 1  hun_hat2 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
- 45
+ 52
 0
 
  itm_hun_hat3 Hungarian_Hat Hungarian_Hat 1  hun_hat3 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
- 45
+ 52
 0
 
- itm_cze_infantry_trousers1 Czechoslovakian_Infantry_Trousers Czechoslovakian_Infantry_Trousers 1  cze_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
+ itm_cze_trousers1 Czechoslovakian_Infantry_Trousers Czechoslovakian_Infantry_Trousers 1  cze_trousers1 0  553648142 0 100 0 3.000000 50 0 0 1 0 0 0 0 0 0 0 0
  1
- 45
+ 61
 0
 
  itm_cze_infantry1 Czechoslovakian_Military_Uniform Czechoslovakian_Military_Uniform 1  cze_infantry1 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
- 45
+ 61
 0
 
  itm_cze_infantry2 Czechoslovakian_Military_Uniform Czechoslovakian_Military_Uniform 1  cze_infantry2 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
- 45
+ 61
 0
 
  itm_cze_infantry3 Czechoslovakian_Military_Uniform Czechoslovakian_Military_Uniform 1  cze_infantry3 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
- 45
+ 61
 0
 
  itm_cze_infantry4 Czechoslovakian_Military_Uniform Czechoslovakian_Military_Uniform 1  cze_infantry4 0  553648141 0 200 0 15.000000 100 0 2 1 0 0 0 0 0 0 0 0
  1
- 45
+ 61
 0
 
  itm_cze_hat1 Czechoslovakian_Hat Czechoslovakian_Hat 1  cze_hat1 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
- 45
+ 61
 0
 
  itm_cze_hat2 Czechoslovakian_Hat Czechoslovakian_Hat 1  cze_hat2 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
- 45
+ 61
 0
 
  itm_cze_hat3 Czechoslovakian_Hat Czechoslovakian_Hat 1  cze_hat3 0  536870924 0 150 0 0.250000 100 5 0 0 0 0 0 0 0 0 0 0
  1
- 45
+ 61
 0
 
  itm_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
