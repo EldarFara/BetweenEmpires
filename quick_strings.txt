@@ -1,4 +1,4 @@
-1843
+1845
 qstr_res_cape1 res_cape1
 qstr_res_cape2 res_cape2
 qstr_thawb1_belt1 thawb1_belt1
@@ -1842,3 +1842,5 @@ qstr_Lithuanian_Howitzer_Cre Lithuanian_Howitzer_Crew_Cannoneers
 qstr_Lithuanian_Field_Gun_C Lithuanian_Field_Gun_Crew_Cannoneer
 qstr_Lithuanian_Field_Gun_Cr Lithuanian_Field_Gun_Crew_Cannoneers
 qstr_Lithuanian_MG_Operat Lithuanian_MG_Operator
+qstr_{reg10}._party_{reg {reg10}._party|_{reg11}_law|_{reg12}_bill|{reg13}_pvol_of_party
+qstr_{reg10}._party_{reg1 {reg10}._party|_{reg11}_current_law|_{reg12}_bill|{reg13}_pvol_of_party

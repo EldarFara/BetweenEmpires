@@ -1717,7 +1717,7 @@ simple_triggers = [
 
 
   # Respawn hero party after kingdom hero is released from captivity.
-  (24, 
+  (36, 
    [
        (try_for_range, ":troop_no", active_npcs_begin, active_npcs_end),
          (troop_slot_eq, ":troop_no", slot_troop_occupation, slto_kingdom_hero),

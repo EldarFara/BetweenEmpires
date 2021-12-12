@@ -932,4 +932,4 @@ script_init_latvia = 930
 script_init_estonia = 931
 script_init_ukraine = 932
 script_init_ireland = 933
-script_cf_pbs_if_discipline_lower_than_retreat_limit = 935
+script_cf_pbs_if_discipline_lower_than_retreat_limit = 934
