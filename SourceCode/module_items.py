@@ -1398,6 +1398,7 @@ items = [
 ["ria_infantry17","Russian Military Uniform", [("ria_infantry17", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
 ["ria_infantry18","Russian Military Uniform", [("ria_infantry18", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
 ["ria_infantry19","Russian Military Uniform", [("ria_infantry19", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
+["ria_infantry20","Russian Military Uniform", [("ria_infantry20", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
 ["ria_cavalry1","Russian Military Uniform", [("ria_cavalry1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
 ["ria_cavalry2","Russian Military Uniform", [("ria_cavalry2", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
 ["ria_cavalry3","Russian Cossack Uniform", [("ria_cavalry3", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
@@ -2885,6 +2886,16 @@ items = [
 ["cze_hat1","Czechoslovakian Hat", [("cze_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_19]],
 ["cze_hat2","Czechoslovakian Hat", [("cze_hat2", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_19]],
 ["cze_hat3","Czechoslovakian Hat", [("cze_hat3", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.3)|head_armor(5), imodbits_none, [],[fac_kingdom_19]],
+
+["lit_trousers1","Lithuanian Infantry Trousers", [("lit_trousers1", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
+["lit_trousers2","Lithuanian Infantry Trousers", [("lit_trousers2", 0)], itp_type_foot_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,100, weight(3)|abundance(50)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
+["lit_infantry1","Lithuanian Military Uniform", [("lit_infantry1", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
+["lit_infantry2","Lithuanian Military Uniform", [("lit_infantry2", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
+["lit_infantry3","Lithuanian Military Uniform", [("lit_infantry3", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
+["lit_infantry4","Lithuanian Military Uniform", [("lit_infantry4", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
+["lit_infantry5","Lithuanian Military Uniform", [("lit_infantry5", 0)], itp_type_body_armor|itp_covers_legs|itp_doesnt_cover_hair|itp_civilian, 0,200, weight(15)|abundance(100)|body_armor(2)|leg_armor(1), imodbits_none, [],[fac_kingdom_2]],
+["lit_hat1","Lithuanian Hat", [("lit_hat1", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_2]],
+["lit_hat2","Lithuanian Hat", [("lit_hat2", 0)], itp_type_head_armor|itp_civilian, 0,150, weight(0.5)|head_armor(5), imodbits_none, [],[fac_kingdom_2]],
 
 
 ["items_end", "Items End", [("shield_round_a",0)], 0, 0, 1, 0, 0],

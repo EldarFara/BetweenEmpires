@@ -2483,6 +2483,53 @@ troops = [
   str_7|agi_7|int_4|cha_4|level(8), wp1(70, 40), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000900236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000900236db6db6db6db6db00000000001db6db0000000000000000],
   ["factionhungary_castleguard", "Hungarian HQ Guard", "Hungarian HQ Guards", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_10,
   [itm_pol_trousers1, itm_pol_infantry1, itm_lou_infantry_trousers5, itm_rifle_bulgarian_smoothbore, itm_ammo_rifle],
+  str_7|agi_7|int_4|cha_4|level(8), wp1(70, 40), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000800236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000800236db6db6db6db6db00000000001db6db0000000000000000],  ["factionlithuania_troop1", "Lithuanian Recruit", "Lithuanian Recruits", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_10,
+  [itm_lit_hat1, itm_lit_infantry1, itm_lit_trousers1, itm_rifle_german_m1831, itm_ammo_rifle],
+  str_5|agi_5|int_4|cha_4|level(4), wp1(60, 50), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000100236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionlithuania_troop2", "Lithuanian Infantry", "Lithuanian Infantry", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_10,
+  [itm_lit_hat1, itm_lit_infantry1, itm_lit_trousers1, itm_rifle_german_m1831, itm_ammo_rifle],
+  str_7|agi_5|int_4|cha_4|level(8), wp1(75, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionlithuania_troop3", "Lithuanian Infantry (Exp.)", "Lithuanian Infantry (Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_10,
+  [itm_lit_hat1, itm_lit_infantry1, itm_lit_trousers1, itm_rifle_german_m1831, itm_ammo_rifle],
+  str_9|agi_5|int_4|cha_4|level(12), wp1(90, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000900236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionlithuania_troop4", "Lithuanian Infantry (Very Exp.)", "Lithuanian Infantry (Very Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_10,
+  [itm_lit_hat1, itm_lit_infantry1, itm_lit_trousers1, itm_rifle_german_m1831, itm_ammo_rifle],
+  str_11|agi_5|int_4|cha_4|level(16), wp1(105, 75), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000800236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionlithuania_troop5", "Lithuanian Light Infantry", "Lithuanian Light Infantry", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_10,
+  [itm_lit_hat2, itm_lit_infantry2, itm_lit_trousers1, itm_rifle_german_m1831, itm_ammo_rifle],
+  str_5|agi_5|int_4|cha_4|level(12), wp1(55, 80), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000500236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionlithuania_troop6", "Lithuanian Light Infantry (Exp.)", "Lithuanian Light Infantry (Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_10,
+  [itm_lit_hat2, itm_lit_infantry2, itm_lit_trousers1, itm_rifle_german_m1831, itm_ammo_rifle],
+  str_5|agi_5|int_4|cha_4|level(16), wp1(60, 95), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000200236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionlithuania_troop7", "Lithuanian Guard", "Lithuanian Guard", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_10,
+  [itm_pru_hat2, itm_lit_infantry3, itm_lit_trousers2, itm_rifle_german_m1831, itm_ammo_rifle],
+  str_13|agi_5|int_4|cha_4|level(20), wp1(120, 85), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000100236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionlithuania_troop8", "Lithuanian Guard (Exp.)", "Lithuanian Guards (Exp.)", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_10,
+  [itm_pru_hat2, itm_lit_infantry3, itm_lit_trousers2, itm_rifle_german_m1831, itm_ammo_rifle],
+  str_15|agi_5|int_4|cha_4|level(22), wp1(140, 90), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionlithuania_troop9", "Lithuanian Uhlan", "Lithuanian Uhlans", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_10,
+  [itm_lit_hat1, itm_lit_infantry1, itm_lit_trousers2, itm_lance1]+items_russian_horses,
+  str_7|agi_5|int_4|cha_4|level(8), wp1(95, 50), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000900236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000900236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionlithuania_troop10", "Lithuanian Uhlan (Exp.)", "Lithuanian Uhlans (Exp.)", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_10,
+  [itm_lit_hat1, itm_lit_infantry1, itm_lit_trousers2, itm_lance1]+items_russian_horses,
+  str_9|agi_5|int_4|cha_4|level(13), wp1(110, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000800236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000800236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionlithuania_troop11", "Lithuanian Dragoon", "Lithuanian Dragoons", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_10,
+  [itm_lit_hat2, itm_lit_infantry1, itm_lit_trousers2, itm_rifle_german_m1831_carbine, itm_ammo_rifle]+items_russian_horses,
+  str_9|agi_5|int_4|cha_4|level(13), wp1(70, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000500236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000500236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionlithuania_troop12", "Lithuanian Dragoon (Exp.)", "Lithuanian Dragoons (Exp.)", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_10,
+  [itm_lit_hat2, itm_lit_infantry1, itm_lit_trousers2, itm_rifle_german_m1831_carbine, itm_ammo_rifle]+items_russian_horses,
+  str_11|agi_5|int_4|cha_4|level(18), wp1(85, 80), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000200236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000200236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionlithuania_troop13", "Lithuanian Guard Cavalry", "Lithuanian Guard Cavalry", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_10,
+  [itm_pru_hat2, itm_lit_infantry1, itm_lit_trousers2, itm_rifle_german_m1831_carbine, itm_ammo_rifle]+items_russian_horses,
+  str_15|agi_5|int_4|cha_4|level(23), wp1(115, 60), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000100236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000100236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionlithuania_troop14", "Lithuanian Guard Cavalry (Exp.)", "Lithuanian Guard Cavalry (Exp.)", tf_mounted|tf_guarantee_horse|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_10,
+  [itm_pru_hat2, itm_lit_infantry1, itm_lit_trousers2, itm_rifle_german_m1831_carbine, itm_ammo_rifle]+items_russian_horses,
+  str_19|agi_5|int_4|cha_4|level(25), wp1(130, 65), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000000236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000000236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionlithuania_prisonguard", "Lithuanian Prison Guard", "Lithuanian Prison Guards", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_10,
+  [itm_pol_trousers1, itm_pol_infantry1, itm_lit_trousers1, itm_rifle_german_m1831, itm_ammo_rifle],
+  str_7|agi_7|int_4|cha_4|level(8), wp1(70, 40), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000900236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000900236db6db6db6db6db00000000001db6db0000000000000000],
+  ["factionlithuania_castleguard", "Lithuanian HQ Guard", "Lithuanian HQ Guards", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_10,
+  [itm_pol_trousers1, itm_pol_infantry1, itm_lit_trousers1, itm_rifle_german_m1831, itm_ammo_rifle],
   str_7|agi_7|int_4|cha_4|level(8), wp1(70, 40), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x000000018000800236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000800236db6db6db6db6db00000000001db6db0000000000000000],
   ["looter", "Looter", "Looters", 0, 0, 0, fac_outlaws,
   []+items_european_urban_clothing_male+items_melee_civilian_rural+items_bandit_rifles,
@@ -11786,7 +11833,7 @@ str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_
 [itm_sar_trousers1, itm_sar_infantry3, itm_sar_hat1],
 str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
 ["faction14_fieldgun_cannoneer_officer", "Egyptian Field Gun Crew Officer", "Field Gun Crew Officers", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_14,
-[itm_ria_infantry_trousers2, itm_ria_infantry1, itm_ria_infantry2, itm_ria_infantry3, itm_ria_hat1],
+[itm_egy_trousers1, itm_egy_infantry1, itm_egy_fez1],
 str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
 ["faction15_fieldgun_cannoneer_officer", "Moroccan Field Gun Crew Officer", "Field Gun Crew Officers", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_15,
 []+items_arabian_clothing,
@@ -11888,7 +11935,7 @@ str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_
 [itm_sar_trousers1, itm_sar_infantry3, itm_sar_hat1],
 str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
 ["faction14_howitzer_cannoneer_officer", "Egyptian Howitzer Crew Officer", "Howitzer Crew Officers", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_14,
-[itm_ria_infantry_trousers2, itm_ria_infantry1, itm_ria_infantry2, itm_ria_infantry3, itm_ria_hat1],
+[itm_egy_trousers1, itm_egy_infantry1, itm_egy_fez1],
 str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
 ["faction15_howitzer_cannoneer_officer", "Moroccan Howitzer Crew Officer", "Howitzer Crew Officers", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_15,
 []+items_arabian_clothing,
@@ -11990,7 +12037,7 @@ str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_
 [itm_sar_trousers1, itm_sar_infantry3, itm_sar_hat1],
 str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
 ["faction14_heavyhowitzer_cannoneer_officer", "Egyptian Heavy Howitzer Crew Officer", "Heavy Howitzer Crew Officers", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_14,
-[itm_ria_infantry_trousers2, itm_ria_infantry1, itm_ria_infantry2, itm_ria_infantry3, itm_ria_hat1],
+[itm_egy_trousers1, itm_egy_infantry1, itm_egy_fez1],
 str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
 ["faction15_heavyhowitzer_cannoneer_officer", "Moroccan Heavy Howitzer Crew Officer", "Heavy Howitzer Crew Officers", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_15,
 []+items_arabian_clothing,
@@ -12093,7 +12140,7 @@ str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_
 [itm_sar_trousers1, itm_sar_infantry3, itm_sar_hat1],
 str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
 ["faction14_fieldgun_cannoneer", "Egyptian Field Gun Cannoneer", "Field Gun Cannoneers", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_14,
-[itm_ria_infantry_trousers2, itm_ria_infantry1, itm_ria_infantry2, itm_ria_infantry3, itm_ria_hat1],
+[itm_egy_trousers1, itm_egy_infantry1, itm_egy_fez1],
 str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
 ["faction15_fieldgun_cannoneer", "Moroccan Field Gun Cannoneer", "Field Gun Cannoneers", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_15,
 []+items_arabian_clothing,
@@ -12195,7 +12242,7 @@ str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_
 [itm_sar_trousers1, itm_sar_infantry3, itm_sar_hat1],
 str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
 ["faction14_howitzer_cannoneer", "Egyptian Howitzer Cannoneer", "Howitzer Cannoneers", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_14,
-[itm_ria_infantry_trousers2, itm_ria_infantry1, itm_ria_infantry2, itm_ria_infantry3, itm_ria_hat1],
+[itm_egy_trousers1, itm_egy_infantry1, itm_egy_fez1],
 str_10|agi_5|int_4|cha_4|level(12), wp1(55, 70), knows_trade_2|knows_leadership_1|knows_prisoner_management_1|knows_inventory_management_2|knows_riding_1,0x00000001800095c236db6db6db6db6db00000000001db6db0000000000000000, 0x000000018000968236db6db6db6db6db00000000001db6db0000000000000000],
 ["faction15_howitzer_cannoneer", "Moroccan Howitzer Cannoneer", "Howitzer Cannoneers", tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet|tf_guarantee_gloves|tf_guarantee_ranged, 0, 0, fac_kingdom_15,
 []+items_arabian_clothing,
@@ -13138,6 +13185,28 @@ upgrade2(troops,"factionczech_troop9", "factionczech_troop10", "factionczech_tro
 upgrade2(troops,"factionczech_troop11", "factionczech_troop12", "factionczech_troop13")
 upgrade(troops,"factionczech_troop10", "factionczech_troop13")
 upgrade(troops,"factionczech_troop13", "factionczech_troop14")
+
+upgrade2(troops,"factionhungary_troop1", "factionhungary_troop2", "factionhungary_troop9")
+upgrade(troops,"factionhungary_troop3", "factionhungary_troop4")
+upgrade2(troops,"factionhungary_troop2", "factionhungary_troop3", "factionhungary_troop5")
+upgrade(troops,"factionhungary_troop5", "factionhungary_troop6")
+upgrade(troops,"factionhungary_troop4", "factionhungary_troop7")
+upgrade(troops,"factionhungary_troop7", "factionhungary_troop8")
+upgrade2(troops,"factionhungary_troop9", "factionhungary_troop10", "factionhungary_troop11")
+upgrade2(troops,"factionhungary_troop11", "factionhungary_troop12", "factionhungary_troop13")
+upgrade(troops,"factionhungary_troop10", "factionhungary_troop13")
+upgrade(troops,"factionhungary_troop13", "factionhungary_troop14")
+
+upgrade2(troops,"factionlithuania_troop1", "factionlithuania_troop2", "factionlithuania_troop9")
+upgrade(troops,"factionlithuania_troop3", "factionlithuania_troop4")
+upgrade2(troops,"factionlithuania_troop2", "factionlithuania_troop3", "factionlithuania_troop5")
+upgrade(troops,"factionlithuania_troop5", "factionlithuania_troop6")
+upgrade(troops,"factionlithuania_troop4", "factionlithuania_troop7")
+upgrade(troops,"factionlithuania_troop7", "factionlithuania_troop8")
+upgrade2(troops,"factionlithuania_troop9", "factionlithuania_troop10", "factionlithuania_troop11")
+upgrade2(troops,"factionlithuania_troop11", "factionlithuania_troop12", "factionlithuania_troop13")
+upgrade(troops,"factionlithuania_troop10", "factionlithuania_troop13")
+upgrade(troops,"factionlithuania_troop13", "factionlithuania_troop14")
 
 upgrade(troops,"farmer", "watchman")
 upgrade(troops,"townsman","watchman")
