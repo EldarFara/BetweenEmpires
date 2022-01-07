@@ -3135,7 +3135,7 @@ str_faction_technology_tanks_description|Un tanque era un vehiculo de combate ac
 str_faction_technology_riflesrifled_name|Mosquetes estriados
 str_faction_technology_riflesrifled_description|Los mosquetes estriados, tienen grabados en foma helicodal en el cañon del arma. Esos grabados hacen que la bala salga girando del cañon, haciendose estable en el aire garantizando una mayor punteria y alcance, pero hay que tener en cuanta la munición Minié, esto esta vinculado con los avances que minizaron el atascamiento del percutor, fallas e inexactiudad, permitiendo que los tiradores y fusileros puedan usarlos.^^Volviendo a la mitad del siglo XIX, la mayoria de las potencias occidentales ya habian adoptado este nuevo modelo, los Británicos escogieron el Enfield en 1853 para reemplazar el Pattern smooth-bore 1839. Esta tecnica de Estriado sirvió para el uso de rifles mordenos, luego llego para armas de mano y cañones.^^Efectos: todos los mosquetes de Anima Lisa fueron reemplazados por mosquetes estriados, esto genero que la punteria aumente en un 50%.
 str_ground_desert|Desierto de tierra
-str_s5_s_generalparty|{s5}División de
+str_s5_s_generalparty|División de {s5}
 str_flag1_0|flag1 0
 str_flag1_1|flag1 1
 str_flag1_2|flag1 2

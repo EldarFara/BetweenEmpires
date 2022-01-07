@@ -53,7 +53,7 @@ mno_student2|Un estudiante universitario (Ingeniería).
 mno_student3|Un estudiante universitario (Filología).
 mno_troubadour|Trovador.
 mno_craftsman|Herrero.
-mno_poacher|Cazador furtivo.
+mno_poacher|Capo Mafia.
 mno_peddler|Buhonero.
 mno_squire|Escudero.
 menu_start_character_4|{s12}^^Pero vuestra vida cambió y decidisteis dejarlo todo para aventuraros en el mundo. La razón de tal decisión fue...
@@ -660,7 +660,7 @@ menu_balkanwars_event2|Guerra contra el imperio Otomano
 menu_balkanwars_event3|Guerra contra Bulgaria
 mno_balkanwars_event3_s1|{s1}
 mno_balkanwars_event3_dont_take_part|No participar en la guerra.
-menu_pas_civil_war_side_choose|Nation Diste tu juramento a una nación que esta totalmente polarizada, eres libre de escoger el bando en que lucharas.
+menu_pas_civil_war_side_choose|Diste tu juramento a una nación que esta totalmente polarizada, eres libre de escoger el bando en que lucharas.
 mno_pas_civil_war_side_choose_option1|Ingresar a la revolución y combatir a los seguidores del viejo regimen en la guerra civil.
 mno_pas_civil_war_side_choose_option2|Mantenerse leal al viejo gobierno y combatir a los revolucionarios.
 menu_socialism_demonstration|¡Protestas en {s2}!^^Unos grupos formaron una protesta por los problemas economicos en {s2}.^Muchisimos subversivos lideras por {s3} generaron una protesta pacifica para demostrar su enojo al estado en {s1}.^Los manifestantes son de diferentes clases sociales y de todas las edades, marcharon por más de 5 kilometros por las calles principales de la ciudad.^Más alla de la fuerte presencia de fuerzas de seguridad en la ruta, los manifestantes expresaron abiertamente el odio al estado mediante las canciones.^Cuando llegaron a {s2}, una inmensa cantidad de la muchedumbre empezaron a cantar 'La Internacional', mientras que otros condenaron como {s1} manejaron los eventos recientes.^^Se empezo a notar que la multitud estaba formada por simpantizantes del socialismo, la policía rodeó a este grupo, bloqueandoles el camino a la plaza.

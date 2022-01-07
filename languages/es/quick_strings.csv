@@ -115,7 +115,7 @@ qstr_Outlaws|Bandidos
 qstr_Mercenary|Mercenarios
 qstr_Close|Cerrar
 qstr_Click_the_center_but|Hace click en el botón del centro para cambiar de facción^Hace Click en los avatares para ver más información de ellos
-qstr_Level:_{reg3}^Health|Level: {reg3}^Health: {reg4}
+qstr_Level:_{reg3}^Health|Nivel: {reg3}^Salud: {reg4}
 qstr_Attributes|Atributos
 qstr_STR^AGI^INT^CHA|FUE^AGI^INT^CAR
 qstr_{reg2}|{reg2}
@@ -350,7 +350,7 @@ qstr_Initial_Capital:_{re|Capital Inicial: {reg10} Libras.
 qstr_Army_of_{s1}|Ejercito de {s1}
 qstr_Army_size:_{reg1}%|Tamaño del ejercito: {reg1}%
 qstr__{reg2}.{reg3}%_to_q|-{reg2}.{reg3}% to quality of life
-qstr_Divisions|Divisions
+qstr_Divisions|Divisiones
 qstr_{reg1}_soldiers|{reg1} soldados
 qstr_Garrisons|Guarnición
 qstr_soldiers_total|total de soldados
