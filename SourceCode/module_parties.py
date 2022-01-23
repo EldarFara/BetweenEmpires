@@ -105,63 +105,63 @@ parties = [
   ("town_25","Bukhara",  icon_town1|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-448.12,-167.35),[], 45),
   ("town_26","Kabul",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-649.92,-19.53),[], 45),
   ("town_27","Lisbon",  icon_town5|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(812.46,-14.62),[], 170),
-  ("town_28","Sabzevar",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-417,-43.64),[], 225),  
+  ("town_28","Sabzevar",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-417,-43.64),[], 225),                      #[swycartographr] prev. coords: (-418.07, -17.24) #[swycartographr] prev. coords: (-417.35, -43.46) #[swycartographr] prev. coords: (-325.8, -42.39)
 
   #new
-   ("town_28","Bucharest",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(202.81,-71.87),[], 45),
+   ("town_29","Bucharest",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(202.81,-71.87),[], 45),
 #spa 
- ("town_29","Barcelona",  icon_town5|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(625.91,-16.31),[], 225),
+ ("town_30","Barcelona",  icon_town5|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(625.91,-16.31),[], 225),
 #eng
- ("town_30","Leon",  icon_town5|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(732.72,-62.13),[], 225),
+ ("town_31","Leon",  icon_town5|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(732.72,-62.13),[], 225),
 #fra
- ("town_31","Rennes",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(640.74,-159.76),[], 225),
+ ("town_32","Rennes",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(640.74,-159.76),[], 225),
 #kar
- ("town_32","Konigsberg",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(327.46,-270.05),[], 225),
+ ("town_33","Konigsberg",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(327.46,-270.05),[], 225),
 #pol
- ("town_33","Algiers",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(641.75,79.92),[], 225),
+ ("town_34","Algiers",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(641.75,79.92),[], 225),
 #hr
- ("town_34","Budapest",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(318.37,-120.82),[], 225),
+ ("town_35","Budapest",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(318.37,-120.82),[], 225),
 #ott
- ("town_35","Prague",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(360.08,-167.66),[], 225),
- ("town_36","Mecca",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-183.06,332.27),[], 225),
+ ("town_36","Prague",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(360.08,-167.66),[], 225),
+ ("town_37","Mecca",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-183.06,332.27),[], 225),
 #mos
- ("town_37","Moscow",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(80.11,-310.79),[], 225),
+ ("town_38","Moscow",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(80.11,-310.79),[], 225),
 #saf
- ("town_38","Tabriz",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-217.75,-49.88),[], 225),
+ ("town_39","Tabriz",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-217.75,-49.88),[], 225),
 #SE
-   ("town_39","Copenhagen",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(426.61,-282.00),[], 45),
+   ("town_40","Copenhagen",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(426.61,-282.00),[], 45),
 #korea
-  ("town_40","Rome",  icon_town5|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(434.30,-10.32),[], 0),
+  ("town_41","Rome",  icon_town5|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(434.30,-10.32),[], 0),
 #china
-  ("town_41","Manchester",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(616.21,-271.88),[], 0),
+  ("town_42","Manchester",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(616.21,-271.88),[], 0),
 #mog
-  ("town_42","Fes",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(778.96,91.39),[], 45),
+  ("town_43","Fes",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(778.96,91.39),[], 45),
 #scot
- ("town_43","Athens",  icon_town7|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(226.63,57.84),[], 225),
- ("town_44","Sofia",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(225.37,-32.02),[], 225),
- ("town_45","Munich",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(425.13,-153.69),[], 225),
- ("town_46","Stuttgart",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(482.05,-158.51),[], 225),
- ("town_47","Hannover",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(458.05,-234.08),[], 225),
- ("town_48","Stockholm",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(362.37,-342.03),[], 225),
- ("town_49","Oslo",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(439.97,-362.89),[], 225),
- ("town_50","Brussels",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(521.05,-211.42),[], 225),
- ("town_51","Frankfurt",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(472.52,-185.02),[], 225),
- ("town_52","Ankara",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(81.45,1.04),[], 225),
- ("town_53","Trabzon",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-32.28,-63.63),[], 225),
- ("town_54","Izmir",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(164.90,34.71),[], 225),
- ("town_55","Baghdad",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-216.91,62.21),[], 225),
- ("town_56","Erzurum",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-69.70,-27.82),[], 225),
- ("town_57","Damascus",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-62.57,114.51),[], 225),
- ("town_58","Jerusalem",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-27.51,138.15),[], 225),
- ("town_59","Quetta",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-637.19,54.45),[], 225),
- ("town_60","Jaipur",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-799.39,76.16),[], 225),
- ("town_61","Lahore",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-719.35,24.13),[], 225),
- ("town_62","Tbilisi",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-126.19,-122.82),[], 225),
- ("town_63","Kiev",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(150.06,-203.93),[], 225),
- ("town_64","Warsaw",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(303.47,-216.07),[], 225),
- ("town_65","Riga",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(257.88,-315.86),[], 225),
- ("town_66","Minsk",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(242.68,-251.57),[], 225),
- ("town_67","Nizhny_Novgorod",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-13.59,-329.12),[], 225),
+ ("town_44","Athens",  icon_town7|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(226.63,57.84),[], 225),
+ ("town_45","Sofia",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(225.37,-32.02),[], 225),
+ ("town_46","Munich",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(425.13,-153.69),[], 225),
+ ("town_47","Stuttgart",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(482.05,-158.51),[], 225),
+ ("town_48","Hannover",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(458.05,-234.08),[], 225),
+ ("town_49","Stockholm",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(362.37,-342.03),[], 225),
+ ("town_50","Oslo",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(439.97,-362.89),[], 225),
+ ("town_51","Brussels",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(521.05,-211.42),[], 225),
+ ("town_52","Frankfurt",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(472.52,-185.02),[], 225),
+ ("town_53","Ankara",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(81.45,1.04),[], 225),
+ ("town_54","Trabzon",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-32.28,-63.63),[], 225),
+ ("town_55","Izmir",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(164.90,34.71),[], 225),
+ ("town_56","Baghdad",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-216.91,62.21),[], 225),
+ ("town_57","Erzurum",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-69.70,-27.82),[], 225),
+ ("town_58","Damascus",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-62.57,114.51),[], 225),
+ ("town_59","Jerusalem",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-27.51,138.15),[], 225),
+ ("town_60","Quetta",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-637.19,54.45),[], 225),
+ ("town_61","Jaipur",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-799.39,76.16),[], 225),
+ ("town_62","Lahore",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-719.35,24.13),[], 225),
+ ("town_63","Tbilisi",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-126.19,-122.82),[], 225),
+ ("town_64","Kiev",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(150.06,-203.93),[], 225),
+ ("town_65","Warsaw",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(303.47,-216.07),[], 225),
+ ("town_66","Riga",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(257.88,-315.86),[], 225),
+ ("town_67","Minsk",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(242.68,-251.57),[], 225),
+ ("town_68","Nizhny_Novgorod",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-13.59,-329.12),[], 225),
  
 
 #   Aztaq_Castle       
