@@ -105,6 +105,7 @@ parties = [
   ("town_25","Bukhara",  icon_town1|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-448.12,-167.35),[], 45),
   ("town_26","Kabul",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-649.92,-19.53),[], 45),
   ("town_27","Lisbon",  icon_town5|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(812.46,-14.62),[], 170),
+  ("town_28","Sabzevar",  icon_town2|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-417,-43.64),[], 225),  
 
   #new
    ("town_28","Bucharest",  icon_town4|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(202.81,-71.87),[], 45),
