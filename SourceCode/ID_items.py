@@ -2015,4 +2015,5 @@ itm_lit_infantry4 = 2029
 itm_lit_infantry5 = 2030
 itm_lit_hat1 = 2031
 itm_lit_hat2 = 2032
-itm_items_end = 2033
+itm_fumo_cirno = 2033
+itm_items_end = 2034
