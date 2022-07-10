@@ -8641,6 +8641,7 @@ simple_triggers = [
 		(try_end),
 	(try_end),
 (faction_get_slot, ":original_faction_lord", ":original_faction",  slot_faction_leader),
+(gt, ":original_faction_lord", 0),
 (faction_get_slot, ":dublicate_faction_lord", civil_war_dublicate_faction,  slot_faction_leader),
 (str_store_troop_name, s1, ":dublicate_faction_lord"),
 (troop_set_name, ":original_faction_lord", s1), (troop_set_plural_name, ":original_faction_lord", s1),

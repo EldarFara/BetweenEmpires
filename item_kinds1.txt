@@ -1,5 +1,5 @@
 itemsfile version 3
-2034
+2035
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 0 103 0 90 0 522 528
  0
 0
@@ -8292,7 +8292,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_smle Lee–Enfield_Mk_I Lee–Enfield_Mk_I 2  smle 0  smle_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 5 303 0
+ itm_rifle_smle Lee–Enfield_Mk_I Lee–Enfield_Mk_I 2  smle 0  smle_inv 1152921504606846976  811663369 555929845760 400 131082 4.000000 60 0 0 102 0 0 47 700 0 10 303 0
  0
 0
 
@@ -8300,7 +8300,7 @@ itemsfile version 3
  0
 0
 
- itm_rifle_smle_carbine Lee–Enfield_Mk_I Lee–Enfield_Mk_I 2  smle_carbine 0  smle_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 5 303 0
+ itm_rifle_smle_carbine Lee–Enfield_Mk_I Lee–Enfield_Mk_I 2  smle_carbine 0  smle_carbine_inv 1152921504606846976  543227913 555929845760 400 131082 4.000000 60 0 0 86 0 0 54 700 0 10 303 0
  0
 0
 
@@ -9004,6 +9004,10 @@ itemsfile version 3
  itm_lit_hat2 Lithuanian_Hat Lithuanian_Hat 1  lit_hat2 0  536870924 0 150 0 0.500000 100 5 0 0 0 0 0 0 0 0 0 0
  1
  44
+0
+
+ itm_fumo_cirno Cirno Cirno 1  fumo_cirno 0  73662467 9223635923965575392 0 262164 0.000000 100 0 0 0 0 0 88 0 108 0 506 250
+ 0
 0
 
  itm_items_end Items_End Items_End 1  shield_round_a 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0

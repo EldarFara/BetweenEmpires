@@ -725,5 +725,6 @@ technique postFX_final_1_2_0{	pass P0	{   VertexShader = vs_main_postFX_compiled
 technique postFX_final_1_1_1{	pass P0	{   VertexShader = vs_main_postFX_compiled;		PixelShader = compile PS_2_X FinalScenePassPS(  true, 1, true);	} }
 technique postFX_final_1_2_1{	pass P0	{   VertexShader = vs_main_postFX_compiled;		PixelShader = compile PS_2_X FinalScenePassPS(  true, 2, true);	} }
                                                                                                                                                  
-
-//Recycle Bin: 
+#if WSE2
+#include "postFX_WSE2.fx"
+#endif

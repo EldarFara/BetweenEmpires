@@ -4440,10 +4440,10 @@ scripts = [
       (store_script_param, ":input", 1),
       (try_begin),
         (eq, ":input", 0),
-    #    (assign, "$cheat_mode", 0),
+        (assign, "$cheat_mode", 0),
       (else_try),
         (eq, ":input", 1),
-   #     (assign, "$cheat_mode", 1),
+        (assign, "$cheat_mode", 1),
       (try_end),
       ]),
 
@@ -27692,7 +27692,7 @@ scripts = [
         (party_stack_get_troop_id, ":stack_troop","p_main_party",":i_stack"),
         (try_begin),
           (troop_is_hero, ":stack_troop"),
-          (val_add, ":num_men", 1), #it was 3 in "Mount&Blade", now it is 1 in Warband
+          (val_add, ":num_men", 0), #it was 3 in "Mount&Blade", now it is 1 in Warband
         (else_try),
           (party_stack_get_size, ":stack_size","p_main_party",":i_stack"),
           (val_add, ":num_men", ":stack_size"),
