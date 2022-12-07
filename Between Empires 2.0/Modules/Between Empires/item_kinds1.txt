@@ -1,0 +1,66 @@
+itemsfile version 3
+16
+ itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_tutorial_spear INVALID_ITEM INVALID_ITEM 1  invalid_item 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_tutorial_club INVALID_ITEM INVALID_ITEM 1  invalid_item 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_tutorial_battle_axe INVALID_ITEM INVALID_ITEM 1  invalid_item 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_tutorial_arrows INVALID_ITEM INVALID_ITEM 1  invalid_item 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_tutorial_bolts INVALID_ITEM INVALID_ITEM 1  invalid_item 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_tutorial_short_bow INVALID_ITEM INVALID_ITEM 1  invalid_item 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_tutorial_crossbow INVALID_ITEM INVALID_ITEM 1  invalid_item 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_tutorial_throwing_daggers INVALID_ITEM INVALID_ITEM 1  invalid_item 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_tutorial_saddle_horse INVALID_ITEM INVALID_ITEM 1  invalid_item 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_tutorial_shield INVALID_ITEM INVALID_ITEM 1  invalid_item 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_tutorial_staff_no_attack INVALID_ITEM INVALID_ITEM 1  invalid_item 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_tutorial_sword INVALID_ITEM INVALID_ITEM 1  invalid_item 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_tutorial_axe INVALID_ITEM INVALID_ITEM 1  invalid_item 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_tutorial_dagger INVALID_ITEM INVALID_ITEM 1  invalid_item 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_horse_meat INVALID_ITEM INVALID_ITEM 1  invalid_item 0  0 0 1 0 0.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+

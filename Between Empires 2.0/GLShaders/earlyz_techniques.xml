@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+	<techniques>
+		<technique name="earlyz_normal_solid_shader">
+			<vertex_shader name="vs_main_earlyz_normal.glsl"/>
+			<fragment_shader name="ps_main_earlyz_solid.glsl"/>
+		</technique>
+		<technique name="earlyz_normal_alphatested_shader">
+			<vertex_shader name="vs_main_earlyz_normal.glsl"/>
+			<fragment_shader name="ps_main_earlyz_alphatested.glsl"/>
+		</technique>
+		<technique name="earlyz_skinned_solid_shader">
+			<vertex_shader name="vs_main_earlyz_skinned.glsl"/>
+			<fragment_shader name="ps_main_earlyz_solid.glsl"/>
+		</technique>
+		<technique name="earlyz_skinned_alphatested_shader">
+			<vertex_shader name="vs_main_earlyz_skinned.glsl"/>
+			<fragment_shader name="ps_main_earlyz_alphatested.glsl"/>
+		</technique>
+		<technique name="earlyz_normal_solid_shader_Instanced">
+			<vertex_shader name="vs_main_earlyz_normal.glsl"/>
+			<fragment_shader name="ps_main_earlyz_solid.glsl"/>
+		</technique>
+		<technique name="earlyz_normal_alphatested_shader_Instanced">
+			<vertex_shader name="vs_main_earlyz_normal.glsl"/>
+			<fragment_shader name="ps_main_earlyz_alphatested.glsl"/>
+		</technique>
+	</techniques>
+</data>

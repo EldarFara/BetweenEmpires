@@ -1,0 +1,3 @@
+dialogsfile version 2
+1
+dlga_start:close_window 69631 0  0 Dialog_Error._No_dialog_found.  6  0 NO_VOICEOVER 

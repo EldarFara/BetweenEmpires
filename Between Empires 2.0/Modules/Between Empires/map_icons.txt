@@ -1,0 +1,8 @@
+map_icons_file version 1
+2
+player 0 player 0.150000 64 0.150000 0.173000 0.000000 0
+
+
+player_horseman 0 player_horseman 0.150000 12 0.150000 0.173000 0.000000 0
+
+

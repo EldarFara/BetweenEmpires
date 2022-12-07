@@ -1,0 +1,27 @@
+stringsfile version 1
+25
+str_no_string NO_STRING!
+str_empty_string _
+str_yes Yes.
+str_no No.
+str_blank_string _
+str_error_string {!}ERROR!!!ERROR!!!!ERROR!!!ERROR!!!ERROR!!!ERROR!!!!ERROR!!!ERROR!!!!ERROR!!!ERROR!!!!ERROR!!!ERROR!!!!ERROR!!!ERROR!!!!ERROR!!!ERROR!!!!!
+str_noone no_one
+str_s0 {!}{s0}
+str_blank_s1 {!}_{s1}
+str_reg1 {!}{reg1}
+str_s50_comma_s51 {!}{s50},_{s51}
+str_s50_and_s51 {s50}_and_{s51}
+str_s52_comma_s51 {!}{s52},_{s51}
+str_s52_and_s51 {s52}_and_{s51}
+str_s5_s_party {s5}'s_Party
+str_msg_battle_won Battle_won!_Press_tab_key_to_leave...
+str_randomize Randomize
+str_hold_fire Hold_Fire
+str_blunt_hold_fire Blunt_/_Hold_Fire
+str_finished (Finished)
+str_delivered_damage Delivered_{reg60}_damage.
+str_cant_use_inventory_now Can't_access_inventory_now.
+str_cant_use_inventory_arena Can't_access_inventory_in_the_arena.
+str_cant_use_inventory_disguised Can't_access_inventory_while_you're_disguised.
+str_cant_use_inventory_tutorial Can't_access_inventory_in_the_training_camp.

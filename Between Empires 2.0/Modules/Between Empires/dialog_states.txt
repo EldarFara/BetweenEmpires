@@ -1,0 +1,15 @@
+start
+party_encounter
+prisoner_liberated
+enemy_defeated
+party_relieved
+event_triggered
+close_window
+trade
+exchange_members
+trade_prisoners
+buy_mercenaries
+view_char
+training
+member_chat
+prisoner_chat

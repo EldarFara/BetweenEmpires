@@ -1,0 +1,9 @@
+factionsfile version 1
+3
+fac_no_faction No_Faction 0 11184810 
+ 0.900000  0.000000  0.000000 
+0 fac_commoners Commoners 0 11184810 
+ 0.000000  0.100000  -0.600000 
+0 fac_outlaws Outlaws 33280 8947848 
+ 0.000000  -0.600000  0.500000 
+0 

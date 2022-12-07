@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+	<techniques> 
+		<technique name="postFX_Show">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="ps_main_postFX_Show.glsl"/>
+		</technique>
+		<technique name="shadowmap_updater">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="ps_main_postFX_Shadowmap.glsl"/>
+		</technique>
+		<technique name="postFX_TrueColor">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="ps_main_postFX_TrueColor.glsl"/>
+		</technique>
+		<technique name="postFX_brightPass">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="ps_main_brightPass_false.glsl"/>
+		</technique>
+		<technique name="postFX_brightPass_WithLuminance">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="ps_main_brightPass_true.glsl"/>
+		</technique>
+		<technique name="postFX_blurX">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="ps_main_blurX.glsl"/>
+		</technique>
+		<technique name="postFX_blurY">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="ps_main_blurY.glsl"/>
+		</technique>
+		<technique name="postFX_Average">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="ps_main_postFX_Average.glsl"/>
+		</technique>
+		<technique name="postFX_AverageAvgMax">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="ps_main_postFX_AverageAvgMax_false.glsl"/>
+		</technique>
+		<technique name="postFX_AverageAvgMax_Smooth">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="ps_main_postFX_AverageAvgMax_true.glsl"/>
+		</technique>
+		<technique name="postFX_Convert_FP2I">
+			<vertex_shader name="vs_main_postFX_Convert_FP2I.glsl"/>
+			<fragment_shader name="ps_main_postFX_Convert_FP2I.glsl"/>
+		</technique>
+		<technique name="postFX_DofBlurHDR">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="ps_main_postFX_DofBlur_tf.glsl"/>
+		</technique>
+		<technique name="postFX_DofBlurLDR">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="ps_main_postFX_DofBlur_ff.glsl"/>
+		</technique>
+		<technique name="postFX_DofBlurHDR_Depth">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="ps_main_postFX_DofBlur_tt.glsl"/>
+		</technique>
+		<technique name="postFX_DofBlurLDR_Depth">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="ps_main_postFX_DofBlur_ft.glsl"/>
+		</technique>
+		<technique name="postFX_final_0_0_0">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="FinalScenePassPS_f0f.glsl"/>
+		</technique>
+		<technique name="postFX_final_0_1_0">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="FinalScenePassPS_f1f.glsl"/>
+		</technique>
+		<technique name="postFX_final_0_2_0">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="FinalScenePassPS_f2f.glsl"/>
+		</technique>
+		<technique name="postFX_final_0_1_1">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="FinalScenePassPS_f1t.glsl"/>
+		</technique>
+		<technique name="postFX_final_0_2_1">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="FinalScenePassPS_f2t.glsl"/>
+		</technique>
+		<technique name="postFX_final_1_0_0">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="FinalScenePassPS_t0f.glsl"/>
+		</technique>
+		<technique name="postFX_final_1_1_0">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="FinalScenePassPS_t1f.glsl"/>
+		</technique>
+		<technique name="postFX_final_1_2_0">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="FinalScenePassPS_t2f.glsl"/>
+		</technique>
+		<technique name="postFX_final_1_1_1">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="FinalScenePassPS_t1t.glsl"/>
+		</technique>
+		<technique name="postFX_final_1_2_1">
+			<vertex_shader name="vs_main_postFX.glsl"/>
+			<fragment_shader name="FinalScenePassPS_t2t.glsl"/>
+		</technique>
+	</techniques>
+</data>

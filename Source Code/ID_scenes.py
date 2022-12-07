@@ -1,0 +1,14 @@
+scn_none = 0
+scn_random_scene = 0
+scn_conversation_scene = 1
+scn_water = 2
+scn_random_scene_steppe = 3
+scn_random_scene_plain = 4
+scn_random_scene_snow = 5
+scn_random_scene_desert = 6
+scn_random_scene_steppe_forest = 7
+scn_random_scene_plain_forest = 8
+scn_random_scene_snow_forest = 9
+scn_random_scene_desert_forest = 10
+scn_world_map = 11
+scn_exit = 100000

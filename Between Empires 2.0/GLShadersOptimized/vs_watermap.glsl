@@ -1,0 +1,108 @@
+uniform vec4 vSunDir;
+uniform vec4 vSunColor;
+uniform float fFogDensity;
+uniform float far_clip_Inv;
+uniform bool use_depth_effects;
+uniform mat4 matWorldViewProj;
+uniform mat4 matWorldView;
+uniform mat4 matWorld;
+uniform mat4 matWaterWorldViewProj;
+uniform vec4 vCameraPos;
+uniform vec4 texture_offset;
+uniform vec4 vDepthRT_HalfPixel_ViewportSizeInv;
+attribute vec3 inPosition;
+attribute vec3 inNormal;
+attribute vec4 inColor0;
+attribute vec2 inTexCoord;
+attribute vec3 inTangent;
+attribute vec3 inBinormal;
+varying vec2 Tex0;
+varying vec4 LightDir_Alpha;
+varying vec4 LightDif;
+varying vec3 CameraDir;
+varying vec4 PosWater;
+varying float Fog;
+varying vec4 projCoord;
+varying float Depth;
+void main ()
+{
+  vec4 tmpvar_1;
+  tmpvar_1.w = 1.0;
+  tmpvar_1.xyz = inPosition;
+  vec4 tmpvar_2;
+  vec2 tmpvar_3;
+  vec4 tmpvar_4;
+  vec4 tmpvar_5;
+  vec3 tmpvar_6;
+  vec4 tmpvar_7;
+  vec4 tmpvar_8;
+  float tmpvar_9;
+  tmpvar_2 = (matWorldViewProj * tmpvar_1);
+  tmpvar_7 = (matWaterWorldViewProj * tmpvar_1);
+  vec4 tmpvar_10;
+  tmpvar_10.w = 0.0;
+  tmpvar_10.xyz = inNormal;
+  vec3 tmpvar_11;
+  tmpvar_11 = normalize((matWorld * tmpvar_10).xyz);
+  vec4 tmpvar_12;
+  tmpvar_12.w = 0.0;
+  tmpvar_12.xyz = inBinormal;
+  vec3 tmpvar_13;
+  tmpvar_13 = normalize((matWorld * tmpvar_12).xyz);
+  vec4 tmpvar_14;
+  tmpvar_14.w = 0.0;
+  tmpvar_14.xyz = inTangent;
+  vec3 tmpvar_15;
+  tmpvar_15 = normalize((matWorld * tmpvar_14).xyz);
+  vec3 tmpvar_16;
+  tmpvar_16 = (matWorldView * tmpvar_1).xyz;
+  vec3 tmpvar_17;
+  tmpvar_17.x = tmpvar_15.x;
+  tmpvar_17.y = tmpvar_13.x;
+  tmpvar_17.z = tmpvar_11.x;
+  vec3 tmpvar_18;
+  tmpvar_18.x = tmpvar_15.y;
+  tmpvar_18.y = tmpvar_13.y;
+  tmpvar_18.z = tmpvar_11.y;
+  vec3 tmpvar_19;
+  tmpvar_19.x = tmpvar_15.z;
+  tmpvar_19.y = tmpvar_13.z;
+  tmpvar_19.z = tmpvar_11.z;
+  mat3 tmpvar_20;
+  tmpvar_20[0] = tmpvar_17;
+  tmpvar_20[1] = tmpvar_18;
+  tmpvar_20[2] = tmpvar_19;
+  tmpvar_6 = (tmpvar_20 * normalize((vCameraPos.xyz - 
+    (matWorld * tmpvar_1)
+  .xyz)));
+  tmpvar_3 = (inTexCoord + texture_offset.xy);
+  tmpvar_4.xyz = (tmpvar_20 * -(vSunDir.xyz));
+  vec4 tmpvar_21;
+  tmpvar_21.w = 1.0;
+  tmpvar_21.xyz = vSunColor.xyz;
+  tmpvar_5 = (tmpvar_21 * inColor0.zyxw);
+  tmpvar_4.w = inColor0.w;
+  float tmpvar_22;
+  tmpvar_22 = (1.0/(exp2((
+    sqrt(dot (tmpvar_16, tmpvar_16))
+   * fFogDensity))));
+  if (use_depth_effects) {
+    vec2 tmpvar_23;
+    tmpvar_23.x = tmpvar_2.x;
+    tmpvar_23.y = -(tmpvar_2.y);
+    tmpvar_8.xy = ((tmpvar_23 + tmpvar_2.w) / 2.0);
+    tmpvar_8.xy = (tmpvar_8.xy + (vDepthRT_HalfPixel_ViewportSizeInv.xy * tmpvar_2.w));
+    tmpvar_8.zw = tmpvar_2.zw;
+    tmpvar_9 = (((0.5 * tmpvar_2.z) + 0.5) * far_clip_Inv);
+  };
+  gl_Position = tmpvar_2;
+  Tex0 = tmpvar_3;
+  LightDir_Alpha = tmpvar_4;
+  LightDif = tmpvar_5;
+  CameraDir = tmpvar_6;
+  PosWater = tmpvar_7;
+  Fog = tmpvar_22;
+  projCoord = tmpvar_8;
+  Depth = tmpvar_9;
+}
+

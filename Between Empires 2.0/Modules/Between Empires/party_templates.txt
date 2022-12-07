@@ -1,0 +1,6 @@
+partytemplatesfile version 1
+4
+pt_none none 0 0 1 7 -1 -1 -1 -1 -1 -1 
+pt_rescued_prisoners Rescued_Prisoners 0 0 1 7 -1 -1 -1 -1 -1 -1 
+pt_enemy Enemy 0 0 1 7 -1 -1 -1 -1 -1 -1 
+pt_hero_party Hero_Party 0 0 1 7 -1 -1 -1 -1 -1 -1 

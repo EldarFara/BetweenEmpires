@@ -1,0 +1,82 @@
+"installscript"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\mount&blade warband"
+		{
+			"string"
+			{
+				"install_path"		"%INSTALLDIR%"
+				"version"		"1153"
+			}
+		}
+		"hkey_current_user\\software\\mountandbladewarbandkeys"
+		{
+			"string"
+			{
+				"english"
+				{
+					"language"		"en"
+				}
+				"czech"
+				{
+					"language"		"cz"
+				}
+				"french"
+				{
+					"language"		"fr"
+				}
+				"german"
+				{
+					"language"		"de"
+				}
+				"hungarian"
+				{
+					"language"		"hu"
+				}
+				"japanese"
+				{
+					"language"		"jp"
+				}
+				"polish"
+				{
+					"language"		"pl"
+				}
+				"russian"
+				{
+					"language"		"ru"
+				}
+				"schinese"
+				{
+					"language"		"cns"
+				}
+				"spanish"
+				{
+					"language"		"es"
+				}
+				"tchinese"
+				{
+					"language"		"cnt"
+				}
+				"turkish"
+				{
+					"language"		"tr"
+				}
+			}
+		}
+	}
+	"run process"
+	{
+		"directx"
+		{
+			"hasrunkey"		"HKEY_CURRENT_USER\\Software\\MountAndBladeWarbandKeys\\DXinstalled2"
+			"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+			"command 1"		"/silent"
+			"nocleanup"		"1"
+		}
+	}
+}
+"kvsignatures"
+{
+	"installscript"		"a058898b10330ff188ed684c3b49989bff7b02a2b9cae7f33ce5421f88eb9db38168e1d467883308cbce08dad4ba0527d45491a8b8485786e59200d7ddf778c846811bdf0dca927532f99effdf964a89ebc3194775eb9c1ddfd4248132fa8bfb3f1e0c06638d05667ddf69589d2ddf99e718aebe38d931041d6e79537812a495"
+}

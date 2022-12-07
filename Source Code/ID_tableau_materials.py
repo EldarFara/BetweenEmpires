@@ -1,0 +1,17 @@
+tableau_game_character_sheet = 0
+tableau_game_inventory_window = 1
+tableau_game_profile_window = 2
+tableau_game_party_window = 3
+tableau_game_troop_label_banner = 4
+tableau_troop_note_alpha_mask = 5
+tableau_troop_note_color = 6
+tableau_troop_character_alpha_mask = 7
+tableau_troop_character_color = 8
+tableau_troop_inventory_alpha_mask = 9
+tableau_troop_inventory_color = 10
+tableau_troop_profile_alpha_mask = 11
+tableau_troop_profile_color = 12
+tableau_troop_party_alpha_mask = 13
+tableau_troop_party_color = 14
+tableau_troop_note_mesh = 15
+tableau_center_note_mesh = 16

@@ -1,0 +1,16 @@
+itm_no_item = 0
+itm_tutorial_spear = 1
+itm_tutorial_club = 2
+itm_tutorial_battle_axe = 3
+itm_tutorial_arrows = 4
+itm_tutorial_bolts = 5
+itm_tutorial_short_bow = 6
+itm_tutorial_crossbow = 7
+itm_tutorial_throwing_daggers = 8
+itm_tutorial_saddle_horse = 9
+itm_tutorial_shield = 10
+itm_tutorial_staff_no_attack = 11
+itm_tutorial_sword = 12
+itm_tutorial_axe = 13
+itm_tutorial_dagger = 14
+itm_horse_meat = 15
