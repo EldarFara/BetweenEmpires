@@ -13,7 +13,9 @@ game_menus = [
     "none", [
     # After player pressed new game button, game runs script_game_start and then comes here
     
-    # This is temporary, later I will make it so after pressing new game button, date choosing menu will appear, and only then - the world map
+    # todo This is temporary, later I will make it so after pressing new game button, date choosing menu will appear, and only then - the world map
+    # Initialize_new_game
+	(call_script,"script_initialize_new_game", 1850),
     # Jump to world map
 	(set_jump_mission,"mt_world_map"),
 	(jump_to_scene,"scn_world_map"),

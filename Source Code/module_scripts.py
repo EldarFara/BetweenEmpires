@@ -529,7 +529,29 @@ scripts = [
 ("wse_initial_window_start", [
 ]),
 
+#
 # Between Empires scripts start
+#
+
+# Initializes all variables for fresh new game start according to chosen starting date.
+("initialize_new_game", [
+# (store_script_param, ":start_date", 1),
+
+(array_create, reg0, 0, number_of_provinces, 1),
+(array_create, reg1, 0, number_of_provinces, 1),
+(array_create, reg2, 0, number_of_provinces, 1),
+(array_create, reg3, 0, number_of_provinces, 1),
+(array_create, reg4, 0, number_of_provinces, 1),
+(array_create, reg5, 0, number_of_provinces, 1),
+(array_create, reg6, 0, number_of_provinces, 1),
+(display_message, "@{reg0} {reg1} {reg2} {reg3} {reg4} {reg5} {reg6}"),
+]),
+
+# Initializes all variables according to chosen save files set.
+("initialize_load_game", [
+
+
+]),
 
 # Called when agent spawns on the world map, i. e. player agent.
 # Makes player agent invisible and immovable.

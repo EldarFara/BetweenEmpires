@@ -1,4 +1,6 @@
-3
+5
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
+qstr_{reg0} {reg0}
+qstr_{reg0}_{reg1}_{reg2}_ {reg0}_{reg1}_{reg2}_{reg3}_{reg4}_{reg5}_{reg6}

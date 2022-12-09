@@ -3,4 +3,4 @@
 # Make sure you use forward slashes (/) and NOT backward slashes (\)
 
 #export_dir = "../WOTS/Modules/Native/"
-export_dir = "C:/Users/Lily/Desktop/Between Empires/Between Empires 2.0/Modules/Between Empires/"
+export_dir = "C:/Users/Lily/Desktop/BetweenEmpires/Between Empires 2.0/Modules/Between Empires/"
