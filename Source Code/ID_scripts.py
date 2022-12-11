@@ -71,3 +71,5 @@ script_initialize_global_containers = 69
 script_world_map_agent_spawn = 70
 script_world_map_start = 71
 script_world_map_camera_movement = 72
+script_world_map_prsnt_start = 73
+script_world_map_prsnt_frame = 74

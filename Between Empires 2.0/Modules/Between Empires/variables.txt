@@ -108,3 +108,5 @@ provinces_strings
 provinces_manufacturers
 factions_strings
 globals
+ui_black_dot
+ui_black_dot_is_visible

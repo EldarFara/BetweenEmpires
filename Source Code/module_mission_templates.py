@@ -18,7 +18,7 @@ ti_on_agent_spawn, 0, 0, [],
 ])
 
 # Triggers every frame
-world_map_runtime = (
+world_map_frame = (
 0, 0, 0, [],
 [
 (call_script, "script_world_map_camera_movement"),
@@ -34,7 +34,7 @@ world_map_start = (
 
 world_map_trigger_set = [
 world_map_start,
-world_map_runtime,
+world_map_frame,
 world_map_on_agent_spawn,
 ]
 

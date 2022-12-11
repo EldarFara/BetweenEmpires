@@ -763,10 +763,42 @@ scripts = [
     (try_end),
 (mission_cam_set_position, pos1),
 
-# (position_get_x, reg0, pos1),
-# (position_get_y, reg1, pos1),
-# (position_get_z, reg2, pos1),
-# (display_message, "@{reg0} {reg1} {reg2}"),
+    (try_begin),
+    (key_clicked, key_space),
+    (position_get_x, reg0, pos1),
+    (position_get_y, reg1, pos1),
+    (display_message, "@{reg0} {reg1}"),
+    (try_end),
+]),
+
+# Start of world map UI
+("world_map_prsnt_start", [
+(presentation_set_duration, 9999999),
+(set_fixed_point_multiplier, 1000),
+
+(create_mesh_overlay, "$ui_black_dot", "mesh_black_dot"),
+(position_set_x, pos1, 500),
+(position_set_y, pos1, 375),
+(overlay_set_position, "$ui_black_dot", pos1),
+(overlay_set_display, "$ui_black_dot", 0),
+(assign, "$ui_black_dot_is_visible", 0),
+
+]),
+
+# Frame of world map UI
+("world_map_prsnt_frame", [
+
+    (try_begin),
+    (key_clicked, key_back_space),
+        (try_begin),
+        (eq, "$ui_black_dot_is_visible", 0),
+        (assign, "$ui_black_dot_is_visible", 1),
+        (else_try),
+        (assign, "$ui_black_dot_is_visible", 0),
+        (try_end),
+    (overlay_set_display, "$ui_black_dot", "$ui_black_dot_is_visible"),
+    (try_end),
+
 ]),
 
 ]

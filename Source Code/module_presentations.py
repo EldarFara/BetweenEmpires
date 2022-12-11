@@ -85,11 +85,11 @@ presentations = [
 # Main world map presentation, should always be running
 ("world_map", prsntf_manual_end_only, 0, [
 (ti_on_presentation_load,[
-(presentation_set_duration, 9999999)
+(call_script, "script_world_map_prsnt_start"),
 ]), 
 
 (ti_on_presentation_run,[
-
+(call_script, "script_world_map_prsnt_frame"),
 ]), 
 
 ]),
