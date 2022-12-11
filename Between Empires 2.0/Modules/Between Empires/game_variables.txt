@@ -1489,8 +1489,8 @@ initial_quit_button_highlight_text_color = 0xFFFFDD00
 
 initial_game_logo_position_x = 0.045
 initial_game_logo_position_y = 0.54
-initial_game_logo_size_x = 0.2
-initial_game_logo_size_y = 0.07
+initial_game_logo_size_x = 0
+initial_game_logo_size_y = 0
 
 initial_version_info_position_x = 0.18
 initial_version_info_position_y = 0.525
@@ -1512,14 +1512,14 @@ initial_module_version_info_text_color = 0xFF110000
 #game loading 
 loading_game_logo_position_x = 0.52
 loading_game_logo_position_y = 0.6
-loading_game_logo_size_x = 0.45
-loading_game_logo_size_y = 0.12
+loading_game_logo_size_x = 0
+loading_game_logo_size_y = 0
 
 
 options_game_logo_pos_x = 0.72
 options_game_logo_pos_y = 0.66
-options_game_logo_size_x = 0.24
-options_game_logo_size_y = 0.06
+options_game_logo_size_x = 0
+options_game_logo_size_y = 0
 
 options_right_control_offset_x = -0.07
 

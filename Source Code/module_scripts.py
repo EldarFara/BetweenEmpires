@@ -695,7 +695,7 @@ scripts = [
         (try_begin),
         (neq, ":faction", -1),
         (array_get_val, s1, "$factions_strings", ":faction", faction_string_color),
-        (else_try), # if province doesnt have faction, use neutral color instead
+        (else_try), # if province doesnt have owner (uncolonized land), use neutral color instead
         (sss, s1, "@solid_gray"),
         (try_end),
     (prop_instance_set_material, reg0, -1, s1),
