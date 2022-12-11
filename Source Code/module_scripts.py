@@ -538,10 +538,13 @@ scripts = [
 (store_script_param, ":start_date", 1),
 
 (call_script, "script_initialize_global_containers"),
-(call_script, "script_initialize_factions"),
-(call_script, "script_initialize_provinces"),
 
+(array_set_val, "$globals", ":start_date", global_date_year),
+(array_set_val, "$globals", 1, global_date_day_of_year),
+(array_set_val, "$globals", 20000, global_world_map_camera_target_z),
 
+(call_script, "script_initialize_factions", ":start_date"),
+(call_script, "script_initialize_provinces", ":start_date"),
 ]),
 
 # Initializes all variables according to chosen save file.
@@ -552,6 +555,7 @@ scripts = [
 (call_script, "script_initialize_global_containers"),
 
 # global variables that need to be saved/loaded:
+# $globals
 # $dictionary_global
 # $provinces
 # $provinces_strings
@@ -564,25 +568,63 @@ scripts = [
 
 # Set factions parameters
 ("initialize_factions", [
+(store_script_param, ":start_date", 1),
 # parameters that aren't dependant on starting date
-(sss, s1, "@French Second Republic"), (sss, s2, "@France"), (sss, s3, "@faction_flag_france"), (sss, s4, "@faction_color_france"), (call_script, "script_add_faction", 0),
-(sss, s1, "@Kingdom of Belgium"), (sss, s2, "@Belgium"), (sss, s3, "@faction_flag_belgium"), (sss, s4, "@faction_color_belgium"), (call_script, "script_add_faction", 1),
+(sss, s1, "@French Second Republic"), (sss, s2, "@France"), (sss, s3, "@faction_flag_france"), (sss, s4, "@faction_color_france"), (call_script, "script_add_faction", faction_france),
+(sss, s1, "@Kingdom of Belgium"), (sss, s2, "@Belgium"), (sss, s3, "@faction_flag_belgium"), (sss, s4, "@faction_color_belgium"), (call_script, "script_add_faction", faction_belgium),
+(sss, s1, "@Kingdom of Netherlands"), (sss, s2, "@Netherlands"), (sss, s3, "@faction_flag_netherlands"), (sss, s4, "@faction_color_netherlands"), (call_script, "script_add_faction", faction_netherlands),
 # parameters that are dependant on starting date
 
 ]),
 
 # Set provinces parameters
 ("initialize_provinces", [
-(call_script, "script_add_province", 0, 1, 1, 100, -1),
+(store_script_param, ":start_date", 1),
+# parameters that aren't dependant on starting date
+(call_script, "script_add_province", 0, 1, 1, faction_france),
+(call_script, "script_add_province", 1, 1, 1, faction_france),
+(call_script, "script_add_province", 2, 1, 1, faction_france),
+(call_script, "script_add_province", 3, 1, 1, faction_france),
+(call_script, "script_add_province", 4, 1, 1, faction_france),
+(call_script, "script_add_province", 5, 1, 1, faction_france),
+(call_script, "script_add_province", 6, 1, 1, faction_france),
+(call_script, "script_add_province", 7, 1, 1, faction_france),
+(call_script, "script_add_province", 8, 1, 1, faction_france),
+(call_script, "script_add_province", 9, 1, 1, faction_france),
+(call_script, "script_add_province", 10, 1, 1, faction_france),
+(call_script, "script_add_province", 11, 1, 1, faction_france),
+(call_script, "script_add_province", 12, 1, 1, faction_france),
+(call_script, "script_add_province", 13, 1, 1, faction_france),
+(call_script, "script_add_province", 14, 1, 1, faction_france),
+(call_script, "script_add_province", 15, 1, 1, faction_france),
+(call_script, "script_add_province", 16, 1, 1, faction_france),
+(call_script, "script_add_province", 17, 1, 1, faction_france),
+(call_script, "script_add_province", 18, 1, 1, faction_france),
+(call_script, "script_add_province", 19, 1, 1, faction_france),
+(call_script, "script_add_province", 20, 1, 1, faction_belgium),
+(call_script, "script_add_province", 21, 1, 1, faction_belgium),
+(call_script, "script_add_province", 22, 1, 1, faction_belgium),
+(call_script, "script_add_province", 23, 1, 1, faction_belgium),
+(call_script, "script_add_province", 24, 1, 1, faction_netherlands),
+(call_script, "script_add_province", 25, 1, 1, faction_netherlands),
+(call_script, "script_add_province", 26, 1, 1, faction_netherlands),
+(call_script, "script_add_province", 27, 1, 1, faction_france),
+# parameters that are dependant on starting date
+(call_script, "script_initialize_provinces_owners", ":start_date"),
+
+]),
+
+# Set provinces owners according to start date
+("initialize_provinces_owners", [
+(store_script_param, ":start_date", 1),
+
+
+
 ]),
 
 # Initialize one faction
 ("add_faction", [
-(store_script_param, ":index", 1),
-(store_script_param, ":name", 2),
-(store_script_param, ":name_short", 3),
-(store_script_param, ":flag", 4),
-(store_script_param, ":color", 5),
+(store_script_param, ":index", 1), # array index in $factions, each index is also constant, like faction_france
 
 (array_set_val, "$factions_strings", s1, ":index", faction_string_name),
 (array_set_val, "$factions_strings", s2, ":index", faction_string_name_short),
@@ -592,33 +634,27 @@ scripts = [
 
 # Initialize one province
 ("add_province", [
-(store_script_param, ":index", 1),
+(store_script_param, ":index", 1), # array index in $provinces
 (store_script_param, ":x", 2),
 (store_script_param, ":y", 3),
-(store_script_param, ":population_multiplier", 4),
-(store_script_param, ":resource_bonus_type", 5),
+(store_script_param, ":owner_faction", 4), # used for provinces, owners of which are same in any date. for date-specific owners, initialize_provinces_owners is used
 
 (array_set_val, "$provinces", ":x", ":index", province_x),
 (array_set_val, "$provinces", ":y", ":index", province_y),
-(array_set_val, "$provinces", ":population_multiplier", ":index", province_initparam_population_multiplier),
-(array_set_val, "$provinces", ":resource_bonus_type", ":index", province_resource_bonus_type),
-]),
-
-# Set provinces owners
-("initialize_provinces_owners", [
-(store_script_param, ":start_date", 1),
-
+(array_set_val, "$provinces", ":owner_faction", ":index", province_owner),
 ]),
 
 # Global containers initialization
 ("initialize_global_containers", [
 (dict_create, "$dictionary_global"),
+(array_create, "$globals", 0, number_of_global_parameters),
 (array_create, "$factions", 0, number_of_factions, number_of_factions_parameters),
-(array_create, "$factions_strings", 0, number_of_factions, number_of_factions_strings),
+(array_create, "$factions_strings", 1, number_of_factions, number_of_factions_strings),
 (array_create, "$provinces", 0, number_of_provinces, number_of_provinces_parameters),
 (array_create, "$provinces_strings", 1, number_of_provinces, number_of_provinces_strings),
 (array_create, "$provinces_manufacturers", 0, number_of_provinces, number_of_resources),
 
+(array_set_val_all, "$globals", -1),
 (array_set_val_all, "$factions", -1),
 (array_set_val_all, "$provinces", -1),
 (array_set_val_all, "$provinces_manufacturers", -1),
@@ -649,11 +685,20 @@ scripts = [
 (set_spawn_position, pos1),
 (spawn_scene_prop, "spr_world_map_base"),
 
-(position_move_z, pos1, 50, 1),
+(position_move_z, pos1, 20, 1),
 (set_spawn_position, pos1),
-(store_add, ":provinces_end", "spr_province0", number_of_provinces),
-    (try_for_range, ":prop", "spr_province0", "spr_provinces_end"),
-    (spawn_scene_prop, ":prop"),
+    (try_for_range, ":province", 0, number_of_provinces),
+    (store_add, ":prop_type", "spr_province0", ":province"),
+    (spawn_scene_prop, ":prop_type"),
+    (array_set_val, "$provinces", reg0, ":province", province_prop1),
+    (array_get_val, ":faction", "$provinces", ":province", province_owner),
+        (try_begin),
+        (neq, ":faction", -1),
+        (array_get_val, s1, "$factions_strings", ":faction", faction_string_color),
+        (else_try), # if province doesnt have faction, use neutral color instead
+        (sss, s1, "@solid_gray"),
+        (try_end),
+    (prop_instance_set_material, reg0, -1, s1),
     (try_end),
 
 # Setting up camera
@@ -669,31 +714,59 @@ scripts = [
 
 ]),
 
-# Processes world map camera movement with WASD keys
+# Processes world map camera movement with WASD keys and mouse
 ("world_map_camera_movement", [
+(set_fixed_point_multiplier, 100),
+    (try_begin), # prsnt_world_map should always be running 
+    (neg|is_presentation_active, "prsnt_world_map"),
+    (start_presentation, "prsnt_world_map"),
+    (try_end),
 (mission_cam_get_position, pos1),
+(array_get_val, ":target_z", "$globals", global_world_map_camera_target_z),
+(position_get_z, ":z", pos1),
+# camera movement speed is dependant on current camera height
+(store_div, ":move_speed", ":z", 100),
+(store_div, ":move_speed_negative", ":z", -100),
+(store_div, ":scroll_speed", ":z", 2),
+(store_div, ":scroll_speed_negative", ":z", -2),
+    (try_begin), # global_world_map_camera_target_z is used for gradual changing of camera height
+    (key_is_down, key_mouse_scroll_up),
+    (val_add, ":target_z", ":scroll_speed_negative"),
+    (array_set_val, "$globals", ":target_z", global_world_map_camera_target_z),
+    (else_try),
+    (key_is_down, key_mouse_scroll_down),
+    (val_add, ":target_z", ":scroll_speed"),
+    (array_set_val, "$globals", ":target_z", global_world_map_camera_target_z),
+    (try_end),
+    (try_begin),
+    (store_sub, ":z_difference", ":target_z", ":z"),
+    (val_div, ":z_difference", 5),
+    (position_move_z, pos1, ":z_difference", 1),
+    (try_end),
+    (try_begin),
+    (try_end),
     (try_begin),
     (key_is_down, key_w),
-    (position_move_y, pos1, 160, 1),
+    (position_move_y, pos1, ":move_speed", 1),
     (try_end),
     (try_begin),
     (key_is_down, key_s),
-    (position_move_y, pos1, -160, 1),
+    (position_move_y, pos1,":move_speed_negative", 1),
     (try_end),
     (try_begin),
     (key_is_down, key_a),
-    (position_move_x, pos1, -160, 1),
+    (position_move_x, pos1, ":move_speed_negative", 1),
     (try_end),
     (try_begin),
     (key_is_down, key_d),
-    (position_move_x, pos1, 160, 1),
+    (position_move_x, pos1, ":move_speed", 1),
     (try_end),
 (mission_cam_set_position, pos1),
 
-(position_get_x, reg0, pos1),
-(position_get_y, reg1, pos1),
-(position_get_z, reg2, pos1),
-(display_message, "@{reg0} {reg1} {reg2}"),
+# (position_get_x, reg0, pos1),
+# (position_get_y, reg1, pos1),
+# (position_get_z, reg2, pos1),
+# (display_message, "@{reg0} {reg1} {reg2}"),
 ]),
 
 ]

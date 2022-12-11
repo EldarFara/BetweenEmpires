@@ -6,3 +6,4 @@ prsnt_game_custom_battle_designer = 4
 prsnt_game_multiplayer_admin_panel = 5
 prsnt_game_before_quit = 6
 prsnt_empty = 7
+prsnt_world_map = 8

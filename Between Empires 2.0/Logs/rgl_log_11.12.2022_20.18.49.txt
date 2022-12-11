@@ -1,0 +1,213 @@
+20:18:45 - Build: Release
+20:18:45 - Mount&Blade Warband WSE2 version: 1.174 1083 Dec  2 2022 09:41:53
+20:18:45 - Havok version: 2013.1.0-r1
+20:18:45 - FMOD Ex version: 4.44.64
+20:18:45 - WSE netcode version: 10
+20:18:45 - Command line: 
+20:18:45 - Initializing timer...
+20:18:45 - Collecting system info...
+20:18:45 - Dumping system info...
+20:18:45 - -- OS: Windows 10
+20:18:45 -  - Version: 10.0.19044
+20:18:45 -  - Arch: x64
+20:18:45 - -- CPU: AMD Ryzen 9 5900X 12-Core Processor (AuthenticAMD)
+20:18:45 -  - Count: 12 (HT)
+20:18:45 - -- Memory: 16310 MB
+20:18:45 -  - Available: 6646 MB
+20:18:45 - -- GPU: NVIDIA GeForce RTX 3060 Ti
+20:18:45 -  - Memory: 4095 MB
+20:18:45 -  - Driver Version: 31.0.15.1694
+20:18:45 - Initializing language...
+20:18:45 - WARNING: Duplicate language string ui_retreated_battle
+20:18:45 - WARNING: Duplicate language string ui_midnight
+20:18:45 - WARNING: Duplicate language string ui_chest
+20:18:45 - WARNING: Duplicate language string ui_group_rename
+20:18:45 - WARNING: Duplicate language string ui_show_framerate
+20:18:45 - WARNING: Duplicate language string ui_off
+20:18:45 - WARNING: Duplicate language string ui_antialiasing
+20:18:45 - WARNING: Duplicate language string ui_module_newer_than_application
+20:18:45 - WARNING: Duplicate language string ui_module_older_than_application
+20:18:45 - WARNING: Duplicate language string ui_difficulty_rating_percentage
+20:18:45 - WARNING: Duplicate language string ui_general_options
+20:18:45 - WARNING: Duplicate language string ui_video_options
+20:18:45 - WARNING: Duplicate language string ui_controls
+20:18:45 - WARNING: Duplicate language string ui_maximum_framerate
+20:18:45 - WARNING: Duplicate language string ui_estimated_performance
+20:18:45 - WARNING: Duplicate language string ui_invalid_username
+20:18:45 - WARNING: Duplicate language string ui_control_block_direction
+20:18:45 - WARNING: Duplicate language string ui_control_attack_direction
+20:18:45 - WARNING: Duplicate language string ui_command_line
+20:18:45 - Loading language files...
+20:18:45 - Initializing resource manager...
+20:18:45 - Initializing network manager...
+20:18:45 - Initializing task pool...
+20:18:45 - Initializing sound...
+20:18:45 - Initializing physics...
+20:18:45 - Initializing mission...
+20:18:45 - Initializing game key manager...
+20:18:45 - Initializing render thread manager...
+20:18:45 - Using Direct3D9Ex
+20:18:45 - Adapter: X8R8G8B8 1920x1080 60Hz
+20:18:45 - Loading resource blacklist...
+20:18:45 - Loading core resources...
+20:18:45 - Initializing renderer...
+20:18:45 - Loading font...
+20:18:45 - Initializing window manager...
+20:18:45 - Creating game windows...
+20:18:45 - Initializing device...
+20:18:45 - -- Behavior flags: 0x56
+20:18:45 - -- Device Caps
+20:18:45 -  - DeviceType: 0x1
+20:18:45 -  - VertexShaderVersion: 0xFFFE0300
+20:18:45 -  - PixelShaderVersion: 0xFFFF0300
+20:18:45 -  - DevCaps: 0x1BBEF0
+20:18:45 -  - DevCaps2: 0x51
+20:18:45 -  - Caps: 0x20000
+20:18:45 -  - Caps2: 0xE0020000
+20:18:45 -  - Caps3: 0x7A0
+20:18:45 -  - VS20Caps: 0x1
+20:18:45 -  - PS20Caps: 0x1F
+20:18:45 -  - PrimitiveMiscCaps: 0x2FCEF2
+20:18:45 -  - RasterCaps: 0x7732191
+20:18:45 -  - ZCmpCaps: 0xFF
+20:18:45 -  - SrcBlendCaps: 0x3FFF
+20:18:45 -  - DestBlendCaps: 0x3FFF
+20:18:45 -  - AlphaCmpCaps: 0xFF
+20:18:45 -  - TextureFilterCaps: 0x3030700
+20:18:45 -  - StretchRectFilterCaps: 0x3000300
+20:18:45 -  - VertexTextureFilterCaps: 0x3030700
+20:18:45 -  - PresentationIntervals: 0x8000000F
+20:18:45 -  - MaxTextureWidth: 16384
+20:18:45 -  - MaxTextureHeight: 16384
+20:18:45 -  - MaxAnisotropy: 16
+20:18:45 -  - MaxPrimitiveCount: 16777215
+20:18:45 -  - MaxVertexIndex: 16777215
+20:18:45 -  - MaxStreams: 16
+20:18:45 -  - MaxStreamStride: 255
+20:18:45 -  - NumSimultaneousRTs: 4
+20:18:45 - Adapter: X8R8G8B8 1920x1080 60Hz
+20:18:45 - Back buffer: X8R8G8B8 1920x1080 0X
+20:18:45 - Depth stencil: D24X8 1920x1080 0X
+20:18:45 - Loading post effect shaders (HDR: 0, DoF: 1, FXAA: 1, PP: 1)...
+20:18:45 - Loaded earlyZ shaders...
+20:18:46 - Loaded PostFx shaders...
+20:18:48 - Loading settings...
+20:18:48 - Loading resource shaders
+20:18:48 - Loading resource textures
+20:18:48 - Loading resource textures_face_gen
+20:18:48 - Loading resource ccoop_extra_ui_textures
+20:18:48 - Loading resource materials
+20:18:48 - Loading resource materials_face_gen
+20:18:48 - Loading resource ccoop_extra_ui_materials
+20:18:48 - Loading resource skeletons
+20:18:48 - Loading resource horse_skeleton
+20:18:48 - Loading resource uimeshes
+20:18:48 - Loading resource ui_server_filter
+20:18:48 - Loading resource ccoop_extra_ui_meshes
+20:18:48 - Loading resource pictures
+20:18:48 - Loading resource user_interface_b
+20:18:48 - Loading resource user_interface_c
+20:18:48 - Loading resource helpers
+20:18:48 - Loading resource tree_meshes
+20:18:48 - Loading resource xtree_meshes
+20:18:48 - Loading resource grass_meshes
+20:18:48 - Loading resource plant_meshes
+20:18:48 - Loading resource skyboxes
+20:18:48 - Loading resource xtree_meshes_c
+20:18:48 - Loading resource rock
+20:18:48 - Loading resource tree_f
+20:18:48 - Loading resource valleyProps
+20:18:48 - Loading resource xtree_meshes_b
+20:18:48 - Loading resource object_b
+20:18:48 - Loading resource tree_e_meshes
+20:18:48 - Loading resource object_meshes
+20:18:48 - Loading resource beards
+20:18:48 - Loading resource hair
+20:18:48 - Loading resource body_meshes
+20:18:48 - Loading resource meshes_face_gen
+20:18:48 - Loading resource food
+20:18:48 - Loading resource weapon_meshes_c
+20:18:48 - Loading resource map_icons_c
+20:18:48 - Loading resource map_tree_meshes
+20:18:48 - Loading resource map_icon_meshes
+20:18:48 - Loading resource map_flags
+20:18:48 - Loading resource map_flags_b
+20:18:48 - Loading resource map_flags_c
+20:18:48 - Loading resource map_flags_d
+20:18:48 - Loading resource banners
+20:18:48 - Loading resource custom_banner
+20:18:48 - Loading resource particle_meshes
+20:18:48 - Loading resource particles_2
+20:18:48 - Loading resource object_bodies
+20:18:48 - Loading resource horses_b
+20:18:48 - Loading resource ani_horse_mounted
+20:18:48 - Loading resource ani_attacks
+20:18:48 - Loading resource ani_attacks_single
+20:18:48 - Loading resource ani_crouch_down
+20:18:48 - Loading resource ani_death
+20:18:48 - Loading resource ani_defends
+20:18:48 - Loading resource ani_equip_arms
+20:18:48 - Loading resource ani_human_mounted
+20:18:48 - Loading resource ani_jump
+20:18:48 - Loading resource ani_kicks
+20:18:48 - Loading resource ani_lady_stand
+20:18:48 - Loading resource ani_lancer
+20:18:48 - Loading resource ani_low_walk
+20:18:48 - Loading resource ani_man_cheer
+20:18:48 - Loading resource ani_man_walk
+20:18:48 - Loading resource ani_onehanded
+20:18:48 - Loading resource ani_parry_attack
+20:18:48 - Loading resource ani_poses
+20:18:48 - Loading resource ani_run_forward_left_right
+20:18:48 - Loading resource ani_run_lookingsides
+20:18:48 - Loading resource ani_run_p
+20:18:48 - Loading resource ani_run_sideways
+20:18:48 - Loading resource ani_stand
+20:18:48 - Loading resource ani_stand_guardsman
+20:18:48 - Loading resource ani_stand_onhorse
+20:18:48 - Loading resource ani_stand_shopkeeper
+20:18:48 - Loading resource ani_strikes
+20:18:48 - Loading resource ani_throw_stone
+20:18:48 - Loading resource ani_turn_man
+20:18:48 - Loading resource ani_twohanded
+20:18:48 - Loading resource ani_walk_backward
+20:18:48 - Loading resource ani_walk_lookingsides
+20:18:48 - Loading resource ani_walk_sideways
+20:18:48 - Loading resource uni_defence
+20:18:48 - Loading resource uni_equip
+20:18:48 - Loading resource uni_fistswing
+20:18:48 - Loading resource uni_jump
+20:18:48 - Loading resource uni_lord_stand
+20:18:48 - Loading resource uni_sideways
+20:18:48 - Loading resource uni_stances
+20:18:48 - Loading resource uni_strike
+20:18:48 - Loading resource uni_strikes3
+20:18:48 - Loading resource uni_throws
+20:18:48 - Loading module resource textures
+20:18:48 - WARNING: Duplicate texture loadscreen.dds in file Modules\Between Empires\Resource\textures.brf
+20:18:48 - Loading module resource materials
+20:18:48 - Loading module resource world_map
+20:18:48 - Loading music...
+20:18:48 - Loading textures...
+20:18:48 - Exiting...
+20:18:48 - Saving configuration...
+20:18:48 - Exiting game at frame 611...
+20:18:48 - Exiting sound manager...
+20:18:49 - Exiting network manager...
+20:18:49 - Deleting game...
+20:18:49 - Deleting mission...
+20:18:49 - Deleting resources...
+20:18:49 - Deleting font...
+20:18:49 - Deleting game windows...
+20:18:49 - Exiting sound manager...
+20:18:49 - Exiting physics manager...
+20:18:49 - Dumping resource usage information...
+20:18:49 - Ondemand textures: 0
+20:18:49 - Render target textures: 0/0
+20:18:49 - Render target materials: 0/0
+20:18:49 - Render target stats:
+20:18:49 - Render target total memory usage: 0 MB
+20:18:49 - Exiting graphics manager...
+20:18:49 - Releasing graphics device...
+20:18:49 - Releasing graphics system...
+20:18:49 - Closing log file...

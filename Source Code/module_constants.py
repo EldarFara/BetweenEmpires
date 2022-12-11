@@ -1,10 +1,11 @@
-number_of_provinces = 27
-number_of_factions = 1
+number_of_provinces = 28
+number_of_factions = 3
 
 number_of_factions_parameters = 1
-number_of_factions_strings = 3
-number_of_provinces_parameters = 4
+number_of_factions_strings = 5
+number_of_provinces_parameters = 6
 number_of_provinces_strings = 1
+number_of_global_parameters = 4
 
 number_of_resources = 1
 
@@ -20,5 +21,16 @@ province_x                                                                    = 
 province_y                                                                    = 1
 province_initparam_population_multiplier                                      = 2
 province_resource_bonus_type                                                  = 3
+province_owner                                                                = 4
+province_prop1                                                                = 5
 
 province_string_name                                                          = 0
+
+faction_france          = 0
+faction_belgium         = 1
+faction_netherlands     = 2
+
+global_date_year                                                              = 0
+global_date_day_of_year                                                       = 1
+global_player_faction                                                         = 2
+global_world_map_camera_target_z                                              = 3

@@ -1,6 +1,20 @@
-5
+19
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
 qstr_{reg0} {reg0}
 qstr_{reg0}_{reg1}_{reg2}_ {reg0}_{reg1}_{reg2}_{reg3}_{reg4}_{reg5}_{reg6}
+qstr_French_Second_Republ French_Second_Republic
+qstr_France France
+qstr_faction_flag_france faction_flag_france
+qstr_faction_color_france faction_color_france
+qstr_Kingdom_of_Belgium Kingdom_of_Belgium
+qstr_Belgium Belgium
+qstr_faction_flag_belgium faction_flag_belgium
+qstr_faction_color_belgiu faction_color_belgium
+qstr_solid_gray solid_gray
+qstr_Kingdom_of_Netherlan Kingdom_of_Netherlands
+qstr_Netherlands Netherlands
+qstr_faction_flag_netherl faction_flag_netherlands
+qstr_faction_color_nether faction_color_netherlands
+qstr_e e

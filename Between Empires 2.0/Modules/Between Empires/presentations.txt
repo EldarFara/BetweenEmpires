@@ -1,5 +1,5 @@
 presentationsfile version 1
- 8
+ 9
 prsnt_game_start 0 0 1
 -60.000000  1 902 1 0 
 
@@ -30,5 +30,10 @@ prsnt_game_before_quit 0 0 1
 
 prsnt_empty 0 0 1
 -60.000000  1 902 1 0 
+
+
+prsnt_world_map 2 0 2
+-60.000000  1 902 1 9999999 
+-61.000000  0 
 
 

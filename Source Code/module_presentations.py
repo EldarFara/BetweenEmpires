@@ -81,4 +81,16 @@ presentations = [
     
 # Auto-ending presentation for script_wse_window_opened
 ("empty", 0, 0, [(ti_on_presentation_load,[(presentation_set_duration, 0)]), ]),
+
+# Main world map presentation, should always be running
+("world_map", prsntf_manual_end_only, 0, [
+(ti_on_presentation_load,[
+(presentation_set_duration, 9999999)
+]), 
+
+(ti_on_presentation_run,[
+
+]), 
+
+]),
 ]

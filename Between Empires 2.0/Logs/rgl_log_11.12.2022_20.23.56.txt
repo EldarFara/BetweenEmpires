@@ -1,0 +1,557 @@
+20:23:45 - Build: Release
+20:23:45 - Mount&Blade Warband WSE2 version: 1.174 1083 Dec  2 2022 09:41:53
+20:23:45 - Havok version: 2013.1.0-r1
+20:23:45 - FMOD Ex version: 4.44.64
+20:23:45 - WSE netcode version: 10
+20:23:45 - Command line: 
+20:23:45 - Initializing timer...
+20:23:45 - Collecting system info...
+20:23:45 - Dumping system info...
+20:23:45 - -- OS: Windows 10
+20:23:45 -  - Version: 10.0.19044
+20:23:45 -  - Arch: x64
+20:23:45 - -- CPU: AMD Ryzen 9 5900X 12-Core Processor (AuthenticAMD)
+20:23:45 -  - Count: 12 (HT)
+20:23:45 - -- Memory: 16310 MB
+20:23:45 -  - Available: 6916 MB
+20:23:45 - -- GPU: NVIDIA GeForce RTX 3060 Ti
+20:23:45 -  - Memory: 4095 MB
+20:23:45 -  - Driver Version: 31.0.15.1694
+20:23:45 - Initializing language...
+20:23:45 - WARNING: Duplicate language string ui_retreated_battle
+20:23:45 - WARNING: Duplicate language string ui_midnight
+20:23:45 - WARNING: Duplicate language string ui_chest
+20:23:45 - WARNING: Duplicate language string ui_group_rename
+20:23:45 - WARNING: Duplicate language string ui_show_framerate
+20:23:45 - WARNING: Duplicate language string ui_off
+20:23:45 - WARNING: Duplicate language string ui_antialiasing
+20:23:45 - WARNING: Duplicate language string ui_module_newer_than_application
+20:23:45 - WARNING: Duplicate language string ui_module_older_than_application
+20:23:45 - WARNING: Duplicate language string ui_difficulty_rating_percentage
+20:23:45 - WARNING: Duplicate language string ui_general_options
+20:23:45 - WARNING: Duplicate language string ui_video_options
+20:23:45 - WARNING: Duplicate language string ui_controls
+20:23:45 - WARNING: Duplicate language string ui_maximum_framerate
+20:23:45 - WARNING: Duplicate language string ui_estimated_performance
+20:23:45 - WARNING: Duplicate language string ui_invalid_username
+20:23:45 - WARNING: Duplicate language string ui_control_block_direction
+20:23:45 - WARNING: Duplicate language string ui_control_attack_direction
+20:23:45 - WARNING: Duplicate language string ui_command_line
+20:23:45 - Loading language files...
+20:23:45 - Initializing resource manager...
+20:23:45 - Initializing network manager...
+20:23:45 - Initializing task pool...
+20:23:45 - Initializing sound...
+20:23:45 - Initializing physics...
+20:23:45 - Initializing mission...
+20:23:45 - Initializing game key manager...
+20:23:45 - Initializing render thread manager...
+20:23:45 - Using Direct3D9Ex
+20:23:45 - Adapter: X8R8G8B8 1920x1080 60Hz
+20:23:45 - Loading resource blacklist...
+20:23:45 - Loading core resources...
+20:23:45 - Initializing renderer...
+20:23:45 - Loading font...
+20:23:45 - Initializing window manager...
+20:23:45 - Creating game windows...
+20:23:45 - Initializing device...
+20:23:45 - -- Behavior flags: 0x56
+20:23:45 - -- Device Caps
+20:23:45 -  - DeviceType: 0x1
+20:23:45 -  - VertexShaderVersion: 0xFFFE0300
+20:23:45 -  - PixelShaderVersion: 0xFFFF0300
+20:23:45 -  - DevCaps: 0x1BBEF0
+20:23:45 -  - DevCaps2: 0x51
+20:23:45 -  - Caps: 0x20000
+20:23:45 -  - Caps2: 0xE0020000
+20:23:45 -  - Caps3: 0x7A0
+20:23:45 -  - VS20Caps: 0x1
+20:23:45 -  - PS20Caps: 0x1F
+20:23:45 -  - PrimitiveMiscCaps: 0x2FCEF2
+20:23:45 -  - RasterCaps: 0x7732191
+20:23:45 -  - ZCmpCaps: 0xFF
+20:23:45 -  - SrcBlendCaps: 0x3FFF
+20:23:45 -  - DestBlendCaps: 0x3FFF
+20:23:45 -  - AlphaCmpCaps: 0xFF
+20:23:45 -  - TextureFilterCaps: 0x3030700
+20:23:45 -  - StretchRectFilterCaps: 0x3000300
+20:23:45 -  - VertexTextureFilterCaps: 0x3030700
+20:23:45 -  - PresentationIntervals: 0x8000000F
+20:23:45 -  - MaxTextureWidth: 16384
+20:23:45 -  - MaxTextureHeight: 16384
+20:23:45 -  - MaxAnisotropy: 16
+20:23:45 -  - MaxPrimitiveCount: 16777215
+20:23:45 -  - MaxVertexIndex: 16777215
+20:23:45 -  - MaxStreams: 16
+20:23:45 -  - MaxStreamStride: 255
+20:23:45 -  - NumSimultaneousRTs: 4
+20:23:45 - Adapter: X8R8G8B8 1920x1080 60Hz
+20:23:45 - Back buffer: X8R8G8B8 1920x1080 0X
+20:23:45 - Depth stencil: D24X8 1920x1080 0X
+20:23:46 - Loading post effect shaders (HDR: 0, DoF: 1, FXAA: 1, PP: 1)...
+20:23:46 - Loaded earlyZ shaders...
+20:23:46 - Loaded PostFx shaders...
+20:23:48 - Loading settings...
+20:23:49 - Loading resource shaders
+20:23:49 - Loading resource textures
+20:23:49 - Loading resource textures_face_gen
+20:23:49 - Loading resource ccoop_extra_ui_textures
+20:23:49 - Loading resource materials
+20:23:49 - Loading resource materials_face_gen
+20:23:49 - Loading resource ccoop_extra_ui_materials
+20:23:49 - Loading resource skeletons
+20:23:49 - Loading resource horse_skeleton
+20:23:49 - Loading resource uimeshes
+20:23:49 - Loading resource ui_server_filter
+20:23:49 - Loading resource ccoop_extra_ui_meshes
+20:23:49 - Loading resource pictures
+20:23:49 - Loading resource user_interface_b
+20:23:49 - Loading resource user_interface_c
+20:23:49 - Loading resource helpers
+20:23:49 - Loading resource tree_meshes
+20:23:49 - Loading resource xtree_meshes
+20:23:49 - Loading resource grass_meshes
+20:23:49 - Loading resource plant_meshes
+20:23:49 - Loading resource skyboxes
+20:23:49 - Loading resource xtree_meshes_c
+20:23:49 - Loading resource rock
+20:23:49 - Loading resource tree_f
+20:23:49 - Loading resource valleyProps
+20:23:49 - Loading resource xtree_meshes_b
+20:23:49 - Loading resource object_b
+20:23:49 - Loading resource tree_e_meshes
+20:23:49 - Loading resource object_meshes
+20:23:49 - Loading resource beards
+20:23:49 - Loading resource hair
+20:23:49 - Loading resource body_meshes
+20:23:49 - Loading resource meshes_face_gen
+20:23:49 - Loading resource food
+20:23:49 - Loading resource weapon_meshes_c
+20:23:49 - Loading resource map_icons_c
+20:23:49 - Loading resource map_tree_meshes
+20:23:49 - Loading resource map_icon_meshes
+20:23:49 - Loading resource map_flags
+20:23:49 - Loading resource map_flags_b
+20:23:49 - Loading resource map_flags_c
+20:23:49 - Loading resource map_flags_d
+20:23:49 - Loading resource banners
+20:23:49 - Loading resource custom_banner
+20:23:49 - Loading resource particle_meshes
+20:23:49 - Loading resource particles_2
+20:23:49 - Loading resource object_bodies
+20:23:49 - Loading resource horses_b
+20:23:49 - Loading resource ani_horse_mounted
+20:23:49 - Loading resource ani_attacks
+20:23:49 - Loading resource ani_attacks_single
+20:23:49 - Loading resource ani_crouch_down
+20:23:49 - Loading resource ani_death
+20:23:49 - Loading resource ani_defends
+20:23:49 - Loading resource ani_equip_arms
+20:23:49 - Loading resource ani_human_mounted
+20:23:49 - Loading resource ani_jump
+20:23:49 - Loading resource ani_kicks
+20:23:49 - Loading resource ani_lady_stand
+20:23:49 - Loading resource ani_lancer
+20:23:49 - Loading resource ani_low_walk
+20:23:49 - Loading resource ani_man_cheer
+20:23:49 - Loading resource ani_man_walk
+20:23:49 - Loading resource ani_onehanded
+20:23:49 - Loading resource ani_parry_attack
+20:23:49 - Loading resource ani_poses
+20:23:49 - Loading resource ani_run_forward_left_right
+20:23:49 - Loading resource ani_run_lookingsides
+20:23:49 - Loading resource ani_run_p
+20:23:49 - Loading resource ani_run_sideways
+20:23:49 - Loading resource ani_stand
+20:23:49 - Loading resource ani_stand_guardsman
+20:23:49 - Loading resource ani_stand_onhorse
+20:23:49 - Loading resource ani_stand_shopkeeper
+20:23:49 - Loading resource ani_strikes
+20:23:49 - Loading resource ani_throw_stone
+20:23:49 - Loading resource ani_turn_man
+20:23:49 - Loading resource ani_twohanded
+20:23:49 - Loading resource ani_walk_backward
+20:23:49 - Loading resource ani_walk_lookingsides
+20:23:49 - Loading resource ani_walk_sideways
+20:23:49 - Loading resource uni_defence
+20:23:49 - Loading resource uni_equip
+20:23:49 - Loading resource uni_fistswing
+20:23:49 - Loading resource uni_jump
+20:23:49 - Loading resource uni_lord_stand
+20:23:49 - Loading resource uni_sideways
+20:23:49 - Loading resource uni_stances
+20:23:49 - Loading resource uni_strike
+20:23:49 - Loading resource uni_strikes3
+20:23:49 - Loading resource uni_throws
+20:23:49 - Loading module resource textures
+20:23:49 - WARNING: Duplicate texture loadscreen.dds in file Modules\Between Empires\Resource\textures.brf
+20:23:49 - Loading module resource materials
+20:23:49 - Loading module resource world_map
+20:23:49 - Loading music...
+20:23:49 - Loading textures...
+20:23:49 - WARNING: Failed to find suitable shader for sea_shader_ffp
+20:23:49 - Reading module data...
+20:23:49 - Loading item modifiers...
+20:23:49 - Loading flora kinds...
+20:23:49 - WARNING: Unable to find LOD mesh grass_bush_g01
+20:23:49 - WARNING: Unable to find LOD mesh grass_bush_g02
+20:23:49 - WARNING: Unable to find LOD mesh grass_bush_g03
+20:23:49 - WARNING: Unable to find LOD mesh grass_bush_h01
+20:23:49 - WARNING: Unable to find LOD mesh grass_bush_h02
+20:23:49 - WARNING: Unable to find LOD mesh grass_bush_h03
+20:23:49 - WARNING: Unable to find LOD mesh grass_bush_i01
+20:23:49 - WARNING: Unable to find LOD mesh grass_bush_i02
+20:23:49 - WARNING: Unable to find LOD mesh grass_bush_j01
+20:23:49 - WARNING: Unable to find LOD mesh grass_bush_j02
+20:23:49 - WARNING: Unable to find LOD mesh grass_bush_k01
+20:23:49 - WARNING: Unable to find LOD mesh grass_bush_k02
+20:23:49 - WARNING: Unable to find LOD mesh grass_bush_l01
+20:23:49 - WARNING: Unable to find LOD mesh grass_bush_l02
+20:23:49 - WARNING: Unable to find LOD mesh thorn_a
+20:23:49 - WARNING: Unable to find LOD mesh thorn_b
+20:23:49 - WARNING: Unable to find LOD mesh thorn_c
+20:23:49 - WARNING: Unable to find LOD mesh thorn_d
+20:23:49 - Loading ground specs...
+20:23:49 - Loading skyboxes...
+20:23:49 - Reading settings data...
+20:23:49 - Loading sounds...
+20:23:50 - Loading particle systems...
+20:23:50 - Loading skins...
+20:23:50 - Loading scene props...
+20:23:50 - WARNING: Unable to find LOD mesh package
+20:23:50 - WARNING: Unable to find LOD mesh province28
+20:23:50 - WARNING: Unable to find LOD mesh province29
+20:23:50 - WARNING: Unable to find LOD mesh province30
+20:23:50 - WARNING: Unable to find LOD mesh province31
+20:23:50 - WARNING: Unable to find LOD mesh province32
+20:23:50 - WARNING: Unable to find LOD mesh province33
+20:23:50 - WARNING: Unable to find LOD mesh province34
+20:23:50 - WARNING: Unable to find LOD mesh province35
+20:23:50 - WARNING: Unable to find LOD mesh province36
+20:23:50 - WARNING: Unable to find LOD mesh province37
+20:23:50 - WARNING: Unable to find LOD mesh province38
+20:23:50 - WARNING: Unable to find LOD mesh province39
+20:23:50 - WARNING: Unable to find LOD mesh province40
+20:23:50 - WARNING: Unable to find LOD mesh province41
+20:23:50 - WARNING: Unable to find LOD mesh province42
+20:23:50 - WARNING: Unable to find LOD mesh province43
+20:23:50 - WARNING: Unable to find LOD mesh province44
+20:23:50 - WARNING: Unable to find LOD mesh province45
+20:23:50 - WARNING: Unable to find LOD mesh province46
+20:23:50 - WARNING: Unable to find LOD mesh province47
+20:23:50 - WARNING: Unable to find LOD mesh province48
+20:23:50 - WARNING: Unable to find LOD mesh province49
+20:23:50 - WARNING: Unable to find LOD mesh province50
+20:23:50 - WARNING: Unable to find LOD mesh province51
+20:23:50 - WARNING: Unable to find LOD mesh province52
+20:23:50 - WARNING: Unable to find LOD mesh province53
+20:23:50 - WARNING: Unable to find LOD mesh province54
+20:23:50 - WARNING: Unable to find LOD mesh province55
+20:23:50 - WARNING: Unable to find LOD mesh province56
+20:23:50 - WARNING: Unable to find LOD mesh province57
+20:23:50 - WARNING: Unable to find LOD mesh province58
+20:23:50 - WARNING: Unable to find LOD mesh province59
+20:23:50 - WARNING: Unable to find LOD mesh province60
+20:23:50 - WARNING: Unable to find LOD mesh province61
+20:23:50 - WARNING: Unable to find LOD mesh province62
+20:23:50 - WARNING: Unable to find LOD mesh province63
+20:23:50 - WARNING: Unable to find LOD mesh province64
+20:23:50 - WARNING: Unable to find LOD mesh province65
+20:23:50 - WARNING: Unable to find LOD mesh province66
+20:23:50 - WARNING: Unable to find LOD mesh province67
+20:23:50 - WARNING: Unable to find LOD mesh province68
+20:23:50 - WARNING: Unable to find LOD mesh province69
+20:23:50 - WARNING: Unable to find LOD mesh province70
+20:23:50 - WARNING: Unable to find LOD mesh province71
+20:23:50 - WARNING: Unable to find LOD mesh province72
+20:23:50 - WARNING: Unable to find LOD mesh province73
+20:23:50 - WARNING: Unable to find LOD mesh province74
+20:23:50 - WARNING: Unable to find LOD mesh province75
+20:23:50 - WARNING: Unable to find LOD mesh province76
+20:23:50 - WARNING: Unable to find LOD mesh province77
+20:23:50 - WARNING: Unable to find LOD mesh province78
+20:23:50 - WARNING: Unable to find LOD mesh province79
+20:23:50 - WARNING: Unable to find LOD mesh province80
+20:23:50 - WARNING: Unable to find LOD mesh province81
+20:23:50 - WARNING: Unable to find LOD mesh province82
+20:23:50 - WARNING: Unable to find LOD mesh province83
+20:23:50 - WARNING: Unable to find LOD mesh province84
+20:23:50 - WARNING: Unable to find LOD mesh province85
+20:23:50 - WARNING: Unable to find LOD mesh province86
+20:23:50 - WARNING: Unable to find LOD mesh province87
+20:23:50 - WARNING: Unable to find LOD mesh province88
+20:23:50 - WARNING: Unable to find LOD mesh province89
+20:23:50 - WARNING: Unable to find LOD mesh province90
+20:23:50 - WARNING: Unable to find LOD mesh province91
+20:23:50 - WARNING: Unable to find LOD mesh province92
+20:23:50 - WARNING: Unable to find LOD mesh province93
+20:23:50 - WARNING: Unable to find LOD mesh province94
+20:23:50 - WARNING: Unable to find LOD mesh province95
+20:23:50 - WARNING: Unable to find LOD mesh province96
+20:23:50 - WARNING: Unable to find LOD mesh province97
+20:23:50 - WARNING: Unable to find LOD mesh province98
+20:23:50 - WARNING: Unable to find LOD mesh province99
+20:23:50 - WARNING: Unable to find LOD mesh province100
+20:23:50 - WARNING: Unable to find LOD mesh province101
+20:23:50 - WARNING: Unable to find LOD mesh province102
+20:23:50 - WARNING: Unable to find LOD mesh province103
+20:23:50 - WARNING: Unable to find LOD mesh province104
+20:23:50 - WARNING: Unable to find LOD mesh province105
+20:23:50 - WARNING: Unable to find LOD mesh province106
+20:23:50 - WARNING: Unable to find LOD mesh province107
+20:23:50 - WARNING: Unable to find LOD mesh province108
+20:23:50 - WARNING: Unable to find LOD mesh province109
+20:23:50 - WARNING: Unable to find LOD mesh province110
+20:23:50 - WARNING: Unable to find LOD mesh province111
+20:23:50 - WARNING: Unable to find LOD mesh province112
+20:23:50 - WARNING: Unable to find LOD mesh province113
+20:23:50 - WARNING: Unable to find LOD mesh province114
+20:23:50 - WARNING: Unable to find LOD mesh province115
+20:23:50 - WARNING: Unable to find LOD mesh province116
+20:23:50 - WARNING: Unable to find LOD mesh province117
+20:23:50 - WARNING: Unable to find LOD mesh province118
+20:23:50 - WARNING: Unable to find LOD mesh province119
+20:23:50 - WARNING: Unable to find LOD mesh province120
+20:23:50 - WARNING: Unable to find LOD mesh province121
+20:23:50 - WARNING: Unable to find LOD mesh province122
+20:23:50 - WARNING: Unable to find LOD mesh province123
+20:23:50 - WARNING: Unable to find LOD mesh province124
+20:23:50 - WARNING: Unable to find LOD mesh province125
+20:23:50 - WARNING: Unable to find LOD mesh province126
+20:23:50 - WARNING: Unable to find LOD mesh province127
+20:23:50 - WARNING: Unable to find LOD mesh province128
+20:23:50 - WARNING: Unable to find LOD mesh province129
+20:23:50 - WARNING: Unable to find LOD mesh province130
+20:23:50 - WARNING: Unable to find LOD mesh province131
+20:23:50 - WARNING: Unable to find LOD mesh province132
+20:23:50 - WARNING: Unable to find LOD mesh province133
+20:23:50 - WARNING: Unable to find LOD mesh province134
+20:23:50 - WARNING: Unable to find LOD mesh province135
+20:23:50 - WARNING: Unable to find LOD mesh province136
+20:23:50 - WARNING: Unable to find LOD mesh province137
+20:23:50 - WARNING: Unable to find LOD mesh province138
+20:23:50 - WARNING: Unable to find LOD mesh province139
+20:23:50 - WARNING: Unable to find LOD mesh province140
+20:23:50 - WARNING: Unable to find LOD mesh province141
+20:23:50 - WARNING: Unable to find LOD mesh province142
+20:23:50 - WARNING: Unable to find LOD mesh province143
+20:23:50 - WARNING: Unable to find LOD mesh province144
+20:23:50 - WARNING: Unable to find LOD mesh province145
+20:23:50 - WARNING: Unable to find LOD mesh province146
+20:23:50 - WARNING: Unable to find LOD mesh province147
+20:23:50 - WARNING: Unable to find LOD mesh province148
+20:23:50 - WARNING: Unable to find LOD mesh province149
+20:23:50 - WARNING: Unable to find LOD mesh province150
+20:23:50 - WARNING: Unable to find LOD mesh province151
+20:23:50 - WARNING: Unable to find LOD mesh province152
+20:23:50 - WARNING: Unable to find LOD mesh province153
+20:23:50 - WARNING: Unable to find LOD mesh province154
+20:23:50 - WARNING: Unable to find LOD mesh province155
+20:23:50 - WARNING: Unable to find LOD mesh province156
+20:23:50 - WARNING: Unable to find LOD mesh province157
+20:23:50 - WARNING: Unable to find LOD mesh province158
+20:23:50 - WARNING: Unable to find LOD mesh province159
+20:23:50 - WARNING: Unable to find LOD mesh province160
+20:23:50 - WARNING: Unable to find LOD mesh province161
+20:23:50 - WARNING: Unable to find LOD mesh province162
+20:23:50 - WARNING: Unable to find LOD mesh province163
+20:23:50 - WARNING: Unable to find LOD mesh province164
+20:23:50 - WARNING: Unable to find LOD mesh province165
+20:23:50 - WARNING: Unable to find LOD mesh province166
+20:23:50 - WARNING: Unable to find LOD mesh province167
+20:23:50 - WARNING: Unable to find LOD mesh province168
+20:23:50 - WARNING: Unable to find LOD mesh province169
+20:23:50 - WARNING: Unable to find LOD mesh province170
+20:23:50 - WARNING: Unable to find LOD mesh province171
+20:23:50 - WARNING: Unable to find LOD mesh province172
+20:23:50 - WARNING: Unable to find LOD mesh province173
+20:23:50 - WARNING: Unable to find LOD mesh province174
+20:23:50 - WARNING: Unable to find LOD mesh province175
+20:23:50 - WARNING: Unable to find LOD mesh province176
+20:23:50 - WARNING: Unable to find LOD mesh province177
+20:23:50 - WARNING: Unable to find LOD mesh province178
+20:23:50 - WARNING: Unable to find LOD mesh province179
+20:23:50 - WARNING: Unable to find LOD mesh province180
+20:23:50 - WARNING: Unable to find LOD mesh province181
+20:23:50 - WARNING: Unable to find LOD mesh province182
+20:23:50 - WARNING: Unable to find LOD mesh province183
+20:23:50 - WARNING: Unable to find LOD mesh province184
+20:23:50 - WARNING: Unable to find LOD mesh province185
+20:23:50 - WARNING: Unable to find LOD mesh province186
+20:23:50 - WARNING: Unable to find LOD mesh province187
+20:23:50 - WARNING: Unable to find LOD mesh province188
+20:23:50 - WARNING: Unable to find LOD mesh province189
+20:23:50 - WARNING: Unable to find LOD mesh province190
+20:23:50 - WARNING: Unable to find LOD mesh province191
+20:23:50 - WARNING: Unable to find LOD mesh province192
+20:23:50 - WARNING: Unable to find LOD mesh province193
+20:23:50 - WARNING: Unable to find LOD mesh province194
+20:23:50 - WARNING: Unable to find LOD mesh province195
+20:23:50 - WARNING: Unable to find LOD mesh province196
+20:23:50 - WARNING: Unable to find LOD mesh province197
+20:23:50 - WARNING: Unable to find LOD mesh province198
+20:23:50 - WARNING: Unable to find LOD mesh province199
+20:23:50 - WARNING: Unable to find LOD mesh province200
+20:23:50 - WARNING: Unable to find LOD mesh province201
+20:23:50 - WARNING: Unable to find LOD mesh province202
+20:23:50 - WARNING: Unable to find LOD mesh province203
+20:23:50 - WARNING: Unable to find LOD mesh province204
+20:23:50 - WARNING: Unable to find LOD mesh province205
+20:23:50 - WARNING: Unable to find LOD mesh province206
+20:23:50 - WARNING: Unable to find LOD mesh province207
+20:23:50 - WARNING: Unable to find LOD mesh province208
+20:23:50 - WARNING: Unable to find LOD mesh province209
+20:23:50 - WARNING: Unable to find LOD mesh province210
+20:23:50 - WARNING: Unable to find LOD mesh province211
+20:23:50 - WARNING: Unable to find LOD mesh province212
+20:23:50 - WARNING: Unable to find LOD mesh province213
+20:23:50 - WARNING: Unable to find LOD mesh province214
+20:23:50 - WARNING: Unable to find LOD mesh province215
+20:23:50 - WARNING: Unable to find LOD mesh province216
+20:23:50 - WARNING: Unable to find LOD mesh province217
+20:23:50 - WARNING: Unable to find LOD mesh province218
+20:23:50 - WARNING: Unable to find LOD mesh province219
+20:23:50 - WARNING: Unable to find LOD mesh province220
+20:23:50 - WARNING: Unable to find LOD mesh province221
+20:23:50 - WARNING: Unable to find LOD mesh province222
+20:23:50 - WARNING: Unable to find LOD mesh province223
+20:23:50 - WARNING: Unable to find LOD mesh province224
+20:23:50 - WARNING: Unable to find LOD mesh province225
+20:23:50 - WARNING: Unable to find LOD mesh province226
+20:23:50 - WARNING: Unable to find LOD mesh province227
+20:23:50 - WARNING: Unable to find LOD mesh province228
+20:23:50 - WARNING: Unable to find LOD mesh province229
+20:23:50 - WARNING: Unable to find LOD mesh province230
+20:23:50 - WARNING: Unable to find LOD mesh province231
+20:23:50 - WARNING: Unable to find LOD mesh province232
+20:23:50 - WARNING: Unable to find LOD mesh province233
+20:23:50 - WARNING: Unable to find LOD mesh province234
+20:23:50 - WARNING: Unable to find LOD mesh province235
+20:23:50 - WARNING: Unable to find LOD mesh province236
+20:23:50 - WARNING: Unable to find LOD mesh province237
+20:23:50 - WARNING: Unable to find LOD mesh province238
+20:23:50 - WARNING: Unable to find LOD mesh province239
+20:23:50 - WARNING: Unable to find LOD mesh province240
+20:23:50 - WARNING: Unable to find LOD mesh province241
+20:23:50 - WARNING: Unable to find LOD mesh province242
+20:23:50 - WARNING: Unable to find LOD mesh province243
+20:23:50 - WARNING: Unable to find LOD mesh province244
+20:23:50 - WARNING: Unable to find LOD mesh province245
+20:23:50 - WARNING: Unable to find LOD mesh province246
+20:23:50 - WARNING: Unable to find LOD mesh province247
+20:23:50 - WARNING: Unable to find LOD mesh province248
+20:23:50 - WARNING: Unable to find LOD mesh province249
+20:23:50 - WARNING: Unable to find LOD mesh province250
+20:23:50 - WARNING: Unable to find LOD mesh province251
+20:23:50 - WARNING: Unable to find LOD mesh province252
+20:23:50 - WARNING: Unable to find LOD mesh province253
+20:23:50 - WARNING: Unable to find LOD mesh province254
+20:23:50 - WARNING: Unable to find LOD mesh province255
+20:23:50 - WARNING: Unable to find LOD mesh province256
+20:23:50 - WARNING: Unable to find LOD mesh province257
+20:23:50 - WARNING: Unable to find LOD mesh province258
+20:23:50 - WARNING: Unable to find LOD mesh province259
+20:23:50 - WARNING: Unable to find LOD mesh province260
+20:23:50 - WARNING: Unable to find LOD mesh province261
+20:23:50 - WARNING: Unable to find LOD mesh province262
+20:23:50 - WARNING: Unable to find LOD mesh province263
+20:23:50 - WARNING: Unable to find LOD mesh province264
+20:23:50 - WARNING: Unable to find LOD mesh province265
+20:23:50 - WARNING: Unable to find LOD mesh province266
+20:23:50 - WARNING: Unable to find LOD mesh province267
+20:23:50 - WARNING: Unable to find LOD mesh province268
+20:23:50 - WARNING: Unable to find LOD mesh province269
+20:23:50 - WARNING: Unable to find LOD mesh province270
+20:23:50 - WARNING: Unable to find LOD mesh province271
+20:23:50 - WARNING: Unable to find LOD mesh province272
+20:23:50 - WARNING: Unable to find LOD mesh province273
+20:23:50 - WARNING: Unable to find LOD mesh province274
+20:23:50 - WARNING: Unable to find LOD mesh province275
+20:23:50 - WARNING: Unable to find LOD mesh province276
+20:23:50 - WARNING: Unable to find LOD mesh province277
+20:23:50 - WARNING: Unable to find LOD mesh province278
+20:23:50 - WARNING: Unable to find LOD mesh province279
+20:23:50 - WARNING: Unable to find LOD mesh province280
+20:23:50 - WARNING: Unable to find LOD mesh province281
+20:23:50 - WARNING: Unable to find LOD mesh province282
+20:23:50 - WARNING: Unable to find LOD mesh province283
+20:23:50 - WARNING: Unable to find LOD mesh province284
+20:23:50 - WARNING: Unable to find LOD mesh province285
+20:23:50 - WARNING: Unable to find LOD mesh province286
+20:23:50 - WARNING: Unable to find LOD mesh province287
+20:23:50 - WARNING: Unable to find LOD mesh province288
+20:23:50 - WARNING: Unable to find LOD mesh province289
+20:23:50 - WARNING: Unable to find LOD mesh province290
+20:23:50 - WARNING: Unable to find LOD mesh province291
+20:23:50 - WARNING: Unable to find LOD mesh province292
+20:23:50 - WARNING: Unable to find LOD mesh province293
+20:23:50 - WARNING: Unable to find LOD mesh province294
+20:23:50 - WARNING: Unable to find LOD mesh province295
+20:23:50 - WARNING: Unable to find LOD mesh province296
+20:23:50 - WARNING: Unable to find LOD mesh province297
+20:23:50 - WARNING: Unable to find LOD mesh province298
+20:23:50 - WARNING: Unable to find LOD mesh province299
+20:23:50 - Loading menus...
+20:23:50 - Loading tableau materials...
+20:23:50 - Loading presentations...
+20:23:50 - Loading scripts...
+20:23:50 - Unable to map script wse_chat_message_received
+20:23:50 - Unable to map script wse_console_command_received
+20:23:50 - Unable to map script wse_game_saved
+20:23:50 - Unable to map script wse_multiplayer_message_received
+20:23:50 - Unable to map script wse_get_agent_scale
+20:23:50 - Unable to map script wse_savegame_loaded
+20:23:50 - Unable to map script wse_get_server_info
+20:23:50 - Loading map icons...
+20:23:50 - Loading strings...
+20:23:50 - Loading quick strings...
+20:23:50 - Loading meshes...
+20:23:50 - Loading item kinds...
+20:23:50 - Loading conversations...
+20:23:50 - Loading mission templates...
+20:23:50 - Loading party templates...
+20:23:50 - Loading post effects...
+20:23:50 - Loading actions...
+20:23:50 - Initializing lua...
+20:23:50 - Loading post effect shaders (HDR: 0, DoF: 1, FXAA: 1, PP: 1)...
+20:23:50 - Loaded earlyZ shaders...
+20:23:50 - Loaded PostFx shaders...
+20:23:50 - Loading time: 4966
+20:23:51 - Creating game...
+20:23:51 - Loading setting data...
+20:23:51 - Starting game...
+20:23:51 - Loading map...
+20:23:51 - Initializing map...
+20:23:52 - Initializing meta mission...
+20:23:52 - Launching game...
+20:23:53 - Starting map world_map in mode world_map
+20:23:53 - Loading post effect shaders (HDR: 0, DoF: 1, FXAA: 1, PP: 1)...
+20:23:53 - Loaded earlyZ shaders...
+20:23:54 - Loaded PostFx shaders...
+20:23:56 - Exiting...
+20:23:56 - Saving configuration...
+20:23:56 - Exiting game at frame 1412...
+20:23:56 - Exiting sound manager...
+20:23:56 - Exiting network manager...
+20:23:56 - Deleting game...
+20:23:56 - Deleting mission...
+20:23:56 - Deleting resources...
+20:23:56 - Deleting font...
+20:23:56 - Deleting game windows...
+20:23:56 - Exiting sound manager...
+20:23:56 - Exiting physics manager...
+20:23:56 - Dumping resource usage information...
+20:23:56 - Ondemand textures: 0
+20:23:56 - Render target textures: 9/9
+20:23:56 - Render target materials: 2/2
+20:23:56 - Render target stats:
+20:23:56 - A8R8G8B8 (4/0): 23 MB
+20:23:56 - X8R8G8B8 (1/0): 1 MB
+20:23:56 - D24X8 (1/0): 7 MB
+20:23:56 - D16 (1/0): 32 MB
+20:23:56 - R16F (2/0): 35 MB
+20:23:56 - Render target total memory usage: 101 MB
+20:23:56 - Exiting graphics manager...
+20:23:56 - Releasing graphics device...
+20:23:56 - Releasing graphics system...
+20:23:56 - Closing log file...

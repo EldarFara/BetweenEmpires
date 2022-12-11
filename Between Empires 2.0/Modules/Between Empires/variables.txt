@@ -106,3 +106,5 @@ factions
 dictionary_global
 provinces_strings
 provinces_manufacturers
+factions_strings
+globals
