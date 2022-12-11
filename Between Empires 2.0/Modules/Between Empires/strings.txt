@@ -1,5 +1,5 @@
 stringsfile version 1
-25
+39
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -25,3 +25,17 @@ str_cant_use_inventory_now Can't_access_inventory_now.
 str_cant_use_inventory_arena Can't_access_inventory_in_the_arena.
 str_cant_use_inventory_disguised Can't_access_inventory_while_you're_disguised.
 str_cant_use_inventory_tutorial Can't_access_inventory_in_the_training_camp.
+str_province0 province0
+str_province1 province1
+str_province2 province2
+str_province3 province3
+str_province4 province4
+str_province5 province5
+str_province6 province6
+str_province7 province7
+str_province8 province8
+str_province9 province9
+str_province10 province10
+str_province11 province11
+str_province12 province12
+str_province13 province13

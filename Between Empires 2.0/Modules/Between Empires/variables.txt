@@ -102,3 +102,7 @@ g_multiplayer_mission_end_screen
 g_encountered_party
 g_encountered_party_2
 provinces
+factions
+dictionary_global
+provinces_strings
+provinces_manufacturers

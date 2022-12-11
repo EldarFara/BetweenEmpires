@@ -535,22 +535,93 @@ scripts = [
 
 # Initializes all variables for fresh new game start according to chosen starting date.
 ("initialize_new_game", [
-# (store_script_param, ":start_date", 1),
+(store_script_param, ":start_date", 1),
 
-(array_create, reg0, 0, number_of_provinces, 1),
-(array_create, reg1, 0, number_of_provinces, 1),
-(array_create, reg2, 0, number_of_provinces, 1),
-(array_create, reg3, 0, number_of_provinces, 1),
-(array_create, reg4, 0, number_of_provinces, 1),
-(array_create, reg5, 0, number_of_provinces, 1),
-(array_create, reg6, 0, number_of_provinces, 1),
-(display_message, "@{reg0} {reg1} {reg2} {reg3} {reg4} {reg5} {reg6}"),
+(call_script, "script_initialize_global_containers"),
+(call_script, "script_initialize_factions"),
+(call_script, "script_initialize_provinces"),
+
+
 ]),
 
-# Initializes all variables according to chosen save files set.
+# Initializes all variables according to chosen save file.
 ("initialize_load_game", [
+# unfinished
 
 
+(call_script, "script_initialize_global_containers"),
+
+# global variables that need to be saved/loaded:
+# $dictionary_global
+# $provinces
+# $provinces_strings
+# $provinces_manufacturers
+# $factions
+# $factions_strings
+# $factions_relations
+
+]),
+
+# Set factions parameters
+("initialize_factions", [
+# parameters that aren't dependant on starting date
+(sss, s1, "@French Second Republic"), (sss, s2, "@France"), (sss, s3, "@faction_flag_france"), (sss, s4, "@faction_color_france"), (call_script, "script_add_faction", 0),
+(sss, s1, "@Kingdom of Belgium"), (sss, s2, "@Belgium"), (sss, s3, "@faction_flag_belgium"), (sss, s4, "@faction_color_belgium"), (call_script, "script_add_faction", 1),
+# parameters that are dependant on starting date
+
+]),
+
+# Set provinces parameters
+("initialize_provinces", [
+(call_script, "script_add_province", 0, 1, 1, 100, -1),
+]),
+
+# Initialize one faction
+("add_faction", [
+(store_script_param, ":index", 1),
+(store_script_param, ":name", 2),
+(store_script_param, ":name_short", 3),
+(store_script_param, ":flag", 4),
+(store_script_param, ":color", 5),
+
+(array_set_val, "$factions_strings", s1, ":index", faction_string_name),
+(array_set_val, "$factions_strings", s2, ":index", faction_string_name_short),
+(array_set_val, "$factions_strings", s3, ":index", faction_string_flag),
+(array_set_val, "$factions_strings", s4, ":index", faction_string_color),
+]),
+
+# Initialize one province
+("add_province", [
+(store_script_param, ":index", 1),
+(store_script_param, ":x", 2),
+(store_script_param, ":y", 3),
+(store_script_param, ":population_multiplier", 4),
+(store_script_param, ":resource_bonus_type", 5),
+
+(array_set_val, "$provinces", ":x", ":index", province_x),
+(array_set_val, "$provinces", ":y", ":index", province_y),
+(array_set_val, "$provinces", ":population_multiplier", ":index", province_initparam_population_multiplier),
+(array_set_val, "$provinces", ":resource_bonus_type", ":index", province_resource_bonus_type),
+]),
+
+# Set provinces owners
+("initialize_provinces_owners", [
+(store_script_param, ":start_date", 1),
+
+]),
+
+# Global containers initialization
+("initialize_global_containers", [
+(dict_create, "$dictionary_global"),
+(array_create, "$factions", 0, number_of_factions, number_of_factions_parameters),
+(array_create, "$factions_strings", 0, number_of_factions, number_of_factions_strings),
+(array_create, "$provinces", 0, number_of_provinces, number_of_provinces_parameters),
+(array_create, "$provinces_strings", 1, number_of_provinces, number_of_provinces_strings),
+(array_create, "$provinces_manufacturers", 0, number_of_provinces, number_of_resources),
+
+(array_set_val_all, "$factions", -1),
+(array_set_val_all, "$provinces", -1),
+(array_set_val_all, "$provinces_manufacturers", -1),
 ]),
 
 # Called when agent spawns on the world map, i. e. player agent.
@@ -580,6 +651,7 @@ scripts = [
 
 (position_move_z, pos1, 50, 1),
 (set_spawn_position, pos1),
+(store_add, ":provinces_end", "spr_province0", number_of_provinces),
     (try_for_range, ":prop", "spr_province0", "spr_provinces_end"),
     (spawn_scene_prop, ":prop"),
     (try_end),
@@ -590,7 +662,7 @@ scripts = [
 (position_move_x, pos1, 40000, 1),
 (position_move_y, pos1, 40000, 1),
 (position_move_z, pos1, 20000, 1),
-(position_rotate_x, pos1, 80, 0),
+(position_rotate_x, pos1, 90, 0),
 (position_rotate_z, pos1, -180, 0),
 (position_rotate_z, pos1, 180, 1),
 (mission_cam_set_position, pos1),
@@ -617,6 +689,11 @@ scripts = [
     (position_move_x, pos1, 160, 1),
     (try_end),
 (mission_cam_set_position, pos1),
+
+(position_get_x, reg0, pos1),
+(position_get_y, reg1, pos1),
+(position_get_z, reg2, pos1),
+(display_message, "@{reg0} {reg1} {reg2}"),
 ]),
 
 ]

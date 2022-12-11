@@ -1297,6 +1297,7 @@ store_random_party_of_template  = 2311	# fails if no party exists with tempolate
 str_is_empty                    = 2318 # (str_is_empty, <string_register>),
 str_clear                       = 2319 # (str_clear, <string_register>)
 str_store_string                = 2320	# (str_store_string,<string_register>,<string_id>),
+sss                             = str_store_string	# (sss,<string_register>,<string_id>),
 str_store_string_reg            = 2321	# (str_store_string_reg,<string_register>,<string_no>), #copies one string register to another.
 str_store_troop_name            = 2322	# (str_store_troop_name,<string_register>,<troop_id>),
 str_store_troop_name_plural     = 2323	# (str_store_troop_name_plural,<string_register>,<troop_id>),

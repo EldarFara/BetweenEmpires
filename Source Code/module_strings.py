@@ -48,8 +48,19 @@ strings = [
   ("cant_use_inventory_arena", "Can't access inventory in the arena."),
   ("cant_use_inventory_disguised", "Can't access inventory while you're disguised."),
   ("cant_use_inventory_tutorial", "Can't access inventory in the training camp."),
-
-# #######################################################################
-# 	Feel free to add your strings here!
-# #######################################################################
+  
+("province0", "province0"),
+("province1", "province1"),
+("province2", "province2"),
+("province3", "province3"),
+("province4", "province4"),
+("province5", "province5"),
+("province6", "province6"),
+("province7", "province7"),
+("province8", "province8"),
+("province9", "province9"),
+("province10", "province10"),
+("province11", "province11"),
+("province12", "province12"),
+("province13", "province13"),
 ]
