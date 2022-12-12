@@ -1,4 +1,4 @@
-21
+29
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -20,3 +20,11 @@ qstr_faction_color_nether faction_color_netherlands
 qstr_e e
 qstr_x x
 qstr_{reg0}_{reg1} {reg0}_{reg1}
+qstr_United_Kingdom_of_Gr United_Kingdom_of_Great_Britain_and_Ireland
+qstr_United_Kingdom United_Kingdom
+qstr_faction_flag_britain faction_flag_britain
+qstr_faction_color_britai faction_color_britain
+qstr_Swiss_Confederation Swiss_Confederation
+qstr_Switzerland Switzerland
+qstr_faction_flag_switzer faction_flag_switzerland
+qstr_faction_color_switze faction_color_switzerland

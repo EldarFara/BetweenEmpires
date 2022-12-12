@@ -1,5 +1,5 @@
-number_of_provinces = 28
-number_of_factions = 3
+number_of_provinces = 43
+number_of_factions = 5
 
 number_of_factions_parameters = 1
 number_of_factions_strings = 5
@@ -30,7 +30,7 @@ faction_france          = 0
 faction_belgium         = 1
 faction_netherlands     = 2
 faction_britain         = 3
-faction_swiss           = 4
+faction_switzerland     = 4
 
 global_date_year                                                              = 0
 global_date_day_of_year                                                       = 1
