@@ -603,7 +603,7 @@ scripts = [
 (call_script, "script_add_province", 17, 48038, 42388, faction_france),
 (call_script, "script_add_province", 18, 48638, 42244, faction_france),
 (call_script, "script_add_province", 19, 49118, 42388, faction_france),
-(call_script, "script_add_province", 20, 48134, 43084, faction_belgium),
+(call_script, "script_add_province", 20, 48134, 43084, faction_france),
 (call_script, "script_add_province", 21, 48566, 43300, faction_belgium),
 (call_script, "script_add_province", 22, 48830, 43036, faction_belgium),
 (call_script, "script_add_province", 23, 49082, 42820, faction_belgium),
