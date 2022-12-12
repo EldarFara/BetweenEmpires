@@ -575,6 +575,7 @@ scripts = [
 (sss, s1, "@Kingdom of Netherlands"), (sss, s2, "@Netherlands"), (sss, s3, "@faction_flag_netherlands"), (sss, s4, "@faction_color_netherlands"), (call_script, "script_add_faction", faction_netherlands),
 (sss, s1, "@United Kingdom of Great Britain and Ireland"), (sss, s2, "@United Kingdom"), (sss, s3, "@faction_flag_britain"), (sss, s4, "@faction_color_britain"), (call_script, "script_add_faction", faction_britain),
 (sss, s1, "@Swiss Confederation"), (sss, s2, "@Switzerland"), (sss, s3, "@faction_flag_switzerland"), (sss, s4, "@faction_color_switzerland"), (call_script, "script_add_faction", faction_switzerland),
+(sss, s1, "@Duchy of Luxembourg"), (sss, s2, "@Luxembourg"), (sss, s3, "@faction_flag_luxembourg"), (sss, s4, "@faction_color_luxembourg"), (call_script, "script_add_faction", faction_luxembourg),
 # parameters that are dependant on starting date
 
 ]),
@@ -606,7 +607,7 @@ scripts = [
 (call_script, "script_add_province", 20, 48134, 43084, faction_france),
 (call_script, "script_add_province", 21, 48566, 43300, faction_belgium),
 (call_script, "script_add_province", 22, 48830, 43036, faction_belgium),
-(call_script, "script_add_province", 23, 49082, 42820, faction_belgium),
+(call_script, "script_add_province", 23, 49082, 42820, faction_luxembourg),
 (call_script, "script_add_province", 24, 48770, 43564, faction_netherlands),
 (call_script, "script_add_province", 25, 48746, 43780, faction_netherlands),
 (call_script, "script_add_province", 26, 49214, 43972, faction_netherlands),

@@ -31,6 +31,7 @@ faction_belgium         = 1
 faction_netherlands     = 2
 faction_britain         = 3
 faction_switzerland     = 4
+faction_luxembourg      = 5
 
 global_date_year                                                              = 0
 global_date_day_of_year                                                       = 1
