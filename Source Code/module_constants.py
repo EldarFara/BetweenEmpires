@@ -29,6 +29,8 @@ province_string_name                                                          = 
 faction_france          = 0
 faction_belgium         = 1
 faction_netherlands     = 2
+faction_britain         = 3
+faction_swiss           = 4
 
 global_date_year                                                              = 0
 global_date_day_of_year                                                       = 1
