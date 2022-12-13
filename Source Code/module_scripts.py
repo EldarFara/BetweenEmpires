@@ -730,6 +730,7 @@ scripts = [
 (position_rotate_z, pos1, -180, 0),
 (position_rotate_z, pos1, 180, 1),
 (mission_cam_set_position, pos1),
+(array_set_val, "$globals", ui_mode_none, global_ui_mode),
 
 ]),
 
@@ -784,6 +785,7 @@ scripts = [
 
     (try_begin),
     (key_clicked, key_space),
+    (presentation_set_duration, 0),
     (position_get_x, reg0, pos1),
     (position_get_y, reg1, pos1),
     (display_message, "@{reg0} {reg1}"),
@@ -795,18 +797,41 @@ scripts = [
 (presentation_set_duration, 9999999),
 (set_fixed_point_multiplier, 1000),
 
+(call_script, "script_world_map_ui_black_dot_start"),
+
+]),
+
+# Frame of world map UI
+("world_map_prsnt_frame", [
+(set_fixed_point_multiplier, 1000),
+
+(call_script, "script_world_map_ui_black_dot_frame"),
+(call_script, "script_world_map_ui_open_province_small_menu"),
+]),
+
+# Province small menu appears when player clicks on world map 
+("world_map_ui_open_province_small_menu", [
+(set_fixed_point_multiplier, 1000),
+
+    (try_begin),
+    (key_clicked, key_left_mouse_button),
+    (this_or_next|array_eq, "$globals", ui_mode_none, global_ui_mode),
+    (array_eq, "$globals", ui_mode_province_menu_small, global_ui_mode),
+    
+    (try_end),
+]),
+
+# Black dot scripts. Black dot on center of screen is toggled by backspace and is used for getting position coordinates on the map
+("world_map_ui_black_dot_start", [
 (create_mesh_overlay, "$ui_black_dot", "mesh_black_dot"),
 (position_set_x, pos1, 500),
 (position_set_y, pos1, 375),
 (overlay_set_position, "$ui_black_dot", pos1),
 (overlay_set_display, "$ui_black_dot", 0),
 (assign, "$ui_black_dot_is_visible", 0),
-
 ]),
 
-# Frame of world map UI
-("world_map_prsnt_frame", [
-
+("world_map_ui_black_dot_frame", [
     (try_begin),
     (key_clicked, key_back_space),
         (try_begin),
@@ -817,7 +842,7 @@ scripts = [
         (try_end),
     (overlay_set_display, "$ui_black_dot", "$ui_black_dot_is_visible"),
     (try_end),
-
 ]),
+
 
 ]

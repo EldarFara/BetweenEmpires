@@ -73,3 +73,6 @@ script_world_map_start = 71
 script_world_map_camera_movement = 72
 script_world_map_prsnt_start = 73
 script_world_map_prsnt_frame = 74
+script_world_map_ui_open_province_small_menu = 75
+script_world_map_ui_black_dot_start = 76
+script_world_map_ui_black_dot_frame = 77
