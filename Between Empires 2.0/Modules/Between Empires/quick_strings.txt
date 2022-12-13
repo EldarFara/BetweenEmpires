@@ -1,4 +1,4 @@
-41
+55
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -40,3 +40,17 @@ qstr_Kingdom_of_Portugal Kingdom_of_Portugal
 qstr_Portugal Portugal
 qstr_faction_flag_portuga faction_flag_portugal
 qstr_faction_color_portug faction_color_portugal
+qstr_ui_startdate_1853 ui_startdate_1853
+qstr_ui_startdate_1861 ui_startdate_1861
+qstr_ui_startdate_1853_se ui_startdate_1853_selected
+qstr_ui_startdate_1861_se ui_startdate_1861_selected
+qstr_1 1
+qstr_2 2
+qstr_ui_startdate_1877 ui_startdate_1877
+qstr_ui_startdate_1910 ui_startdate_1910
+qstr_ui_startdate_1919 ui_startdate_1919
+qstr_ui_startdate_1936 ui_startdate_1936
+qstr_ui_startdate_1877_se ui_startdate_1877_selected
+qstr_ui_startdate_1910_se ui_startdate_1910_selected
+qstr_ui_startdate_1919_se ui_startdate_1919_selected
+qstr_ui_startdate_1936_se ui_startdate_1936_selected

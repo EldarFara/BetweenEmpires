@@ -5,3 +5,4 @@ mnu_tutorial = 3
 mnu_reports = 4
 mnu_camp = 5
 mnu_to_main_menu = 6
+mnu_to_world_map = 7

@@ -110,3 +110,11 @@ factions_strings
 globals
 ui_black_dot
 ui_black_dot_is_visible
+ui_1853
+ui_1861
+to_scene_scene
+to_scene_mission
+ui_1877
+ui_1910
+ui_1919
+ui_1936

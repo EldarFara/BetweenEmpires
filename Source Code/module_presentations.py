@@ -82,7 +82,25 @@ presentations = [
 # Auto-ending presentation for script_wse_window_opened
 ("empty", 0, 0, [(ti_on_presentation_load,[(presentation_set_duration, 0)]), ]),
 
-# Main world map presentation, should always be running
+# Opens after clicking new game button, serves for start date selection and leads to world map
+("start_date_selection", prsntf_manual_end_only, 0, [
+(ti_on_presentation_load,[
+(call_script, "script_start_date_selection_prsnt_start"),
+]), 
+
+(ti_on_presentation_run,[
+(call_script, "script_start_date_selection_prsnt_frame"),
+]), 
+
+(ti_on_presentation_event_state_change,[
+(store_trigger_param_1, ":object"),
+(store_trigger_param_2, ":value"),
+(call_script, "script_start_date_selection_prsnt_event", ":object", ":value"),
+]), 
+
+]),
+
+# Main world map presentation, should always be running while on the world map
 ("world_map", prsntf_manual_end_only, 0, [
 (ti_on_presentation_load,[
 (call_script, "script_world_map_prsnt_start"),
@@ -93,4 +111,5 @@ presentations = [
 ]), 
 
 ]),
+
 ]

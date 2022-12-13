@@ -813,6 +813,104 @@ scripts = [
     (try_end),
 ]),
 
+# Start of start date selection UI
+("start_date_selection_prsnt_start", [
+(presentation_set_duration, 9999999),
+(set_fixed_point_multiplier, 1000),
+
+(position_set_x, pos2, 1000), (position_set_y, pos2, 165),
+
+# Button for each starting date
+(create_image_button_overlay, "$ui_1853", "mesh_ui_background", "mesh_ui_background"),
+(overlay_set_material, "$ui_1853", "@ui_startdate_1853"), (position_set_x, pos1, 0), (position_set_y, pos1, 625),
+(overlay_set_position, "$ui_1853", pos1), (overlay_set_size, "$ui_1853", pos2),
+(create_image_button_overlay, "$ui_1861", "mesh_ui_background", "mesh_ui_background"),
+(overlay_set_material, "$ui_1861", "@ui_startdate_1861"), (position_set_x, pos1, 0), (position_set_y, pos1, 500),
+(overlay_set_position, "$ui_1861", pos1), (overlay_set_size, "$ui_1861", pos2),
+(create_image_button_overlay, "$ui_1877", "mesh_ui_background", "mesh_ui_background"),
+(overlay_set_material, "$ui_1877", "@ui_startdate_1877"), (position_set_x, pos1, 0), (position_set_y, pos1, 375),
+(overlay_set_position, "$ui_1877", pos1), (overlay_set_size, "$ui_1877", pos2),
+(create_image_button_overlay, "$ui_1910", "mesh_ui_background", "mesh_ui_background"),
+(overlay_set_material, "$ui_1910", "@ui_startdate_1910"), (position_set_x, pos1, 0), (position_set_y, pos1, 250),
+(overlay_set_position, "$ui_1910", pos1), (overlay_set_size, "$ui_1910", pos2),
+(create_image_button_overlay, "$ui_1919", "mesh_ui_background", "mesh_ui_background"),
+(overlay_set_material, "$ui_1919", "@ui_startdate_1919"), (position_set_x, pos1, 0), (position_set_y, pos1, 125),
+(overlay_set_position, "$ui_1919", pos1), (overlay_set_size, "$ui_1919", pos2),
+(create_image_button_overlay, "$ui_1936", "mesh_ui_background", "mesh_ui_background"),
+(overlay_set_material, "$ui_1936", "@ui_startdate_1936"), (position_set_x, pos1, 0), (position_set_y, pos1, 0),
+(overlay_set_position, "$ui_1936", pos1), (overlay_set_size, "$ui_1936", pos2),
+]),
+
+("start_date_selection_prsnt_frame", [
+(set_fixed_point_multiplier, 1000),
+
+(mouse_get_position, pos1),
+(position_get_y, ":mouse_y", pos1),
+
+(overlay_set_material, "$ui_1853", "@ui_startdate_1853"),
+(overlay_set_material, "$ui_1861", "@ui_startdate_1861"),
+(overlay_set_material, "$ui_1877", "@ui_startdate_1877"),
+(overlay_set_material, "$ui_1910", "@ui_startdate_1910"),
+(overlay_set_material, "$ui_1919", "@ui_startdate_1919"),
+(overlay_set_material, "$ui_1936", "@ui_startdate_1936"),
+
+    (try_begin), # Highlight hovered buttons
+    (ge, ":mouse_y", 625),
+    (overlay_set_material, "$ui_1853", "@ui_startdate_1853_selected"),
+    (else_try),
+    (ge, ":mouse_y", 500),
+    (overlay_set_material, "$ui_1861", "@ui_startdate_1861_selected"),
+    (else_try),
+    (ge, ":mouse_y", 375),
+    (overlay_set_material, "$ui_1877", "@ui_startdate_1877_selected"),
+    (else_try),
+    (ge, ":mouse_y", 250),
+    (overlay_set_material, "$ui_1910", "@ui_startdate_1910_selected"),
+    (else_try),
+    (ge, ":mouse_y", 125),
+    (overlay_set_material, "$ui_1919", "@ui_startdate_1919_selected"),
+    (else_try),
+    (ge, ":mouse_y", 0),
+    (overlay_set_material, "$ui_1936", "@ui_startdate_1936_selected"),
+    (try_end),
+]),
+
+("start_date_selection_prsnt_event", [
+(store_trigger_param_1, ":object"),
+(store_trigger_param_2, ":unused"),
+(set_fixed_point_multiplier, 1000),
+
+(assign, ":start_date", -1),
+    (try_begin), # Set start date according to button that was clicked
+    (eq, ":object", "$ui_1853"),
+    (assign, ":start_date", 1853),
+    (else_try),
+    (eq, ":object", "$ui_1861"),
+    (assign, ":start_date", 1861),
+    (else_try),
+    (eq, ":object", "$ui_1877"),
+    (assign, ":start_date", 1877),
+    (else_try),
+    (eq, ":object", "$ui_1910"),
+    (assign, ":start_date", 1910),
+    (else_try),
+    (eq, ":object", "$ui_1919"),
+    (assign, ":start_date", 1919),
+    (else_try),
+    (eq, ":object", "$ui_1936"),
+    (assign, ":start_date", 1936),
+    (try_end),
+    
+    (try_begin),
+    (neq, ":start_date", -1),
+    (presentation_set_duration, 0),
+    # Initialize_new_game
+	(call_script,"script_initialize_new_game", ":start_date"),
+    # Jump to world map
+    (jump_to_menu, "mnu_to_world_map"),
+    (try_end),
+]),
+
 # Start of world map UI
 ("world_map_prsnt_start", [
 (presentation_set_duration, 9999999),

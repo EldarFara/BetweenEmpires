@@ -31,4 +31,5 @@ meshes = [
     
     
 ("black_dot", 0, "black_dot", 0, 0, 0, 0, 0, 0, 1, 1, 1),
+("ui_background", 0, "ui_background", 0, 0, 0, 0, 0, 0, 1, 1, 1),
 ]
