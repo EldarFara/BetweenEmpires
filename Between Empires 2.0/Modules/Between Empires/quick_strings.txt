@@ -1,4 +1,4 @@
-33
+41
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -32,3 +32,11 @@ qstr_Duchy_of_Luxembourg Duchy_of_Luxembourg
 qstr_Luxembourg Luxembourg
 qstr_faction_flag_luxembo faction_flag_luxembourg
 qstr_faction_color_luxemb faction_color_luxembourg
+qstr_Kingdom_of_Spain Kingdom_of_Spain
+qstr_Spain Spain
+qstr_faction_flag_spain faction_flag_spain
+qstr_faction_color_spain faction_color_spain
+qstr_Kingdom_of_Portugal Kingdom_of_Portugal
+qstr_Portugal Portugal
+qstr_faction_flag_portuga faction_flag_portugal
+qstr_faction_color_portug faction_color_portugal
