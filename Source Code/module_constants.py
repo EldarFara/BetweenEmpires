@@ -1,4 +1,4 @@
-number_of_provinces = 43
+number_of_provinces = 44
 number_of_factions = 6
 
 number_of_factions_parameters = 1

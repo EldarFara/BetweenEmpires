@@ -626,7 +626,8 @@ scripts = [
 (call_script, "script_add_province", 39, 44629, 44259, faction_britain),
 (call_script, "script_add_province", 40, 44773, 43755, faction_britain),
 (call_script, "script_add_province", 41, 49417, 41631, faction_switzerland),
-(call_script, "script_add_province", 42, 49813, 41631, faction_switzerland),
+(call_script, "script_add_province", 42, 49664, 41877, faction_switzerland),
+(call_script, "script_add_province", 43, 50108, 41601, faction_switzerland),
 # parameters that are dependant on starting date
 (call_script, "script_initialize_provinces_owners", ":start_date"),
 
