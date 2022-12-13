@@ -576,6 +576,8 @@ scripts = [
 (sss, s1, "@United Kingdom of Great Britain and Ireland"), (sss, s2, "@United Kingdom"), (sss, s3, "@faction_flag_britain"), (sss, s4, "@faction_color_britain"), (call_script, "script_add_faction", faction_britain),
 (sss, s1, "@Swiss Confederation"), (sss, s2, "@Switzerland"), (sss, s3, "@faction_flag_switzerland"), (sss, s4, "@faction_color_switzerland"), (call_script, "script_add_faction", faction_switzerland),
 (sss, s1, "@Duchy of Luxembourg"), (sss, s2, "@Luxembourg"), (sss, s3, "@faction_flag_luxembourg"), (sss, s4, "@faction_color_luxembourg"), (call_script, "script_add_faction", faction_luxembourg),
+(sss, s1, "@Kingdom of Spain"), (sss, s2, "@Spain"), (sss, s3, "@faction_flag_spain"), (sss, s4, "@faction_color_spain"), (call_script, "script_add_faction", faction_spain),
+(sss, s1, "@Kingdom of Portugal"), (sss, s2, "@Portugal"), (sss, s3, "@faction_flag_portugal"), (sss, s4, "@faction_color_portugal"), (call_script, "script_add_faction", faction_portugal),
 # parameters that are dependant on starting date
 
 ]),
