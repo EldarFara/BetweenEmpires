@@ -112,4 +112,22 @@ strings = [
 ("province60", "Alentejo"),
 ("province61", "Central Portugal"),
 ("province62", "Northern Portugal"),
+("province63", "Sardinia"),
+("province64", "Piedmont"),
+("province65", "Lombardy"),
+("province66", "Parma"),
+("province67", "Veneto"),
+("province68", "South Tyrol"),
+("province69", "Friuli-Venezia"),
+("province70", "Romagna"),
+("province71", "Marche-Umbria"),
+("province72", "Latium"),
+("province73", "Abruzzo"),
+("province74", "Campania"),
+("province75", "Apulia"),
+("province76", "Calabria"),
+("province77", "Sicily"),
+("province78", "Tuscany"),
+
+
 ]

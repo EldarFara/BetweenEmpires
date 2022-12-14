@@ -1,5 +1,5 @@
 stringsfile version 1
-88
+104
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -88,3 +88,19 @@ str_province59 Algarve
 str_province60 Alentejo
 str_province61 Central_Portugal
 str_province62 Northern_Portugal
+str_province63 Sardinia
+str_province64 Piedmont
+str_province65 Lombardy
+str_province66 Parma
+str_province67 Veneto
+str_province68 South_Tyrol
+str_province69 Friuli-Venezia
+str_province70 Romagna
+str_province71 Marche-Umbria
+str_province72 Latium
+str_province73 Abruzzo
+str_province74 Campania
+str_province75 Apulia
+str_province76 Calabria
+str_province77 Sicily
+str_province78 Tuscany

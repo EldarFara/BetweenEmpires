@@ -1,5 +1,5 @@
-number_of_provinces = 63
-number_of_factions = 8
+number_of_provinces = 79
+number_of_factions = 14
 
 number_of_factions_parameters = 1
 number_of_factions_strings = 5
@@ -34,6 +34,12 @@ faction_switzerland     = 4
 faction_luxembourg      = 5
 faction_spain           = 6
 faction_portugal        = 7
+faction_italy           = 8
+faction_austria         = 9
+faction_papal           = 10
+faction_parma           = 11
+faction_tuscany         = 12
+faction_sicily          = 13
 
 global_date_year                                                              = 0
 global_date_day_of_year                                                       = 1
