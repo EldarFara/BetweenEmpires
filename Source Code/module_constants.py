@@ -15,7 +15,7 @@ faction_string_name                                                           = 
 faction_string_name_short                                                     = 1
 faction_string_color                                                          = 2
 faction_string_flag                                                           = 3
-faction_string_relative_name                                                  = 4
+faction_string_possessive_case                                                = 4
 
 province_x                                                                    = 0
 province_y                                                                    = 1

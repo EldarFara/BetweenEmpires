@@ -1,4 +1,4 @@
-117
+118
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -116,3 +116,4 @@ qstr_Kingdom_of_Denmark Kingdom_of_Denmark
 qstr_Denmark Denmark
 qstr_faction_flag_denmark faction_flag_denmark
 qstr_faction_color_denmar faction_color_denmark
+qstr_French French
