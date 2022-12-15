@@ -1,5 +1,5 @@
 stringsfile version 1
-104
+132
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -104,3 +104,31 @@ str_province75 Apulia
 str_province76 Calabria
 str_province77 Sicily
 str_province78 Tuscany
+str_province79 Baden-Wurttemberg
+str_province80 North_Rhineland
+str_province81 Westphalia
+str_province82 Hesse
+str_province83 Lower_Saxony
+str_province84 Bavaria-Munich
+str_province85 Bavaria-Regensburg
+str_province86 Bavaria-Nuremberg
+str_province87 Schleswig-Holstein
+str_province88 North_Schleswig
+str_province89 Thuringia
+str_province90 Anhalt
+str_province91 Mecklenburg
+str_province92 Brandenburg
+str_province93 Saxony
+str_province94 Pomerania
+str_province95 Brandenburg-Oder
+str_province96 Lower_Silesia
+str_province97 Greater_Poland
+str_province98 West_Prussia
+str_province99 Warmia-Masuria
+str_province100 East_Prussia
+str_province101 Oldenburg
+str_province102 Central_Jutland
+str_province103 North_Jutland
+str_province104 Zealand_and_Odense
+str_province105 Rhineland-Palatinate
+str_province106 Upper_Silesia
