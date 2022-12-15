@@ -1,4 +1,4 @@
-79
+81
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -78,3 +78,5 @@ qstr_Kingdom_of_Two_Sicil Kingdom_of_Two_Sicilies
 qstr_Two_Sicilies Two_Sicilies
 qstr_faction_flag_sicily faction_flag_sicily
 qstr_faction_color_sicily faction_color_sicily
+qstr_ui_startdate_title ui_startdate_title
+qstr_Choose_starting_date Choose_starting_date:

@@ -118,3 +118,5 @@ ui_1877
 ui_1910
 ui_1919
 ui_1936
+ui_startdate_title
+ui_startdate_title_text
