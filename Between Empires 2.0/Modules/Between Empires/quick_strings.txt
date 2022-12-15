@@ -1,4 +1,4 @@
-118
+137
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -117,3 +117,22 @@ qstr_Denmark Denmark
 qstr_faction_flag_denmark faction_flag_denmark
 qstr_faction_color_denmar faction_color_denmark
 qstr_French French
+qstr_Belgian Belgian
+qstr_Dutch Dutch
+qstr_British British
+qstr_Swiss Swiss
+qstr_Luxembourgish Luxembourgish
+qstr_Spanish Spanish
+qstr_Portuguese Portuguese
+qstr_Sardinian Sardinian
+qstr_Austrian Austrian
+qstr_Papal Papal
+qstr_Parmese Parmese
+qstr_Tuscan Tuscan
+qstr_Bourbon Bourbon
+qstr_Prussian Prussian
+qstr_Bavarian Bavarian
+qstr_Hanoveranian Hanoveranian
+qstr_Saxon Saxon
+qstr_Hessian Hessian
+qstr_Danish Danish
