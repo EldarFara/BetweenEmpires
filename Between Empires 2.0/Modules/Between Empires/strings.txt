@@ -1,5 +1,5 @@
 stringsfile version 1
-132
+160
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -132,3 +132,31 @@ str_province103 North_Jutland
 str_province104 Zealand_and_Odense
 str_province105 Rhineland-Palatinate
 str_province106 Upper_Silesia
+str_province107 Tyrol
+str_province108 Austria
+str_province109 Styria
+str_province110 Trieste
+str_province111 Ljubljana
+str_province112 Central_Croatia
+str_province113 Dalmatia
+str_province114 Slavonia
+str_province115 Vojvodina
+str_province116 Western_Transdanubia
+str_province117 Southern_Transdanubia
+str_province118 Central_Transdanubia
+str_province119 Southern_Alfold
+str_province120 Northern_Alfold
+str_province121 Miskolc
+str_province122 Banat
+str_province123 Crisana
+str_province124 Maramures
+str_province125 Transylvania
+str_province126 Bohemia
+str_province127 Moravia
+str_province128 Western_Slovakia
+str_province129 Eastern_Slovakia
+str_province130 Sudetenland
+str_province131 Carpathian_Rus
+str_province132 Galicia
+str_province133 Lodomeria
+str_province134 Bukovina

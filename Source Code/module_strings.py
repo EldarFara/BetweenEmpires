@@ -156,5 +156,37 @@ strings = [
 ("province104", "Zealand and Odense"),
 ("province105", "Rhineland-Palatinate"),
 ("province106", "Upper Silesia"),
+("province107", "Tyrol"),
+("province108", "Austria"),
+("province109", "Styria"),
+("province110", "Trieste"),
+("province111", "Ljubljana"),
+("province112", "Central Croatia"),
+("province113", "Dalmatia"),
+("province114", "Slavonia"),
+("province115", "Vojvodina"),
+("province116", "Western Transdanubia"),
+("province117", "Southern Transdanubia"),
+("province118", "Central Transdanubia"),
+("province119", "Southern Alfold"),
+("province120", "Northern Alfold"),
+("province121", "Miskolc"),
+("province122", "Banat"),
+("province123", "Crisana"),
+("province124", "Maramures"),
+("province125", "Transylvania"),
+("province126", "Bohemia"),
+("province127", "Moravia"),
+("province128", "Western Slovakia"),
+("province129", "Eastern Slovakia"),
+("province130", "Sudetenland"),
+("province131", "Carpathian Rus"),
+("province132", "Galicia"),
+("province133", "Lodomeria"),
+("province134", "Bukovina"),
+
+
+
+
 
 ]
