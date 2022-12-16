@@ -1,5 +1,5 @@
-number_of_provinces = 135
-number_of_factions = 23
+number_of_provinces = 171
+number_of_factions = 30
 
 number_of_factions_parameters = 1
 number_of_factions_strings = 5
@@ -49,6 +49,13 @@ faction_hesse           = 19
 faction_mecklenburg     = 20
 faction_oldenburg       = 21
 faction_denmark         = 22
+faction_ottoman         = 23
+faction_greece          = 24
+faction_serbia          = 25
+faction_montenegro      = 26
+faction_wallachia       = 27
+faction_moldavia        = 28
+faction_russia          = 29
 
 
 global_date_year                                                              = 0

@@ -1,4 +1,4 @@
-137
+172
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -136,3 +136,38 @@ qstr_Hanoveranian Hanoveranian
 qstr_Saxon Saxon
 qstr_Hessian Hessian
 qstr_Danish Danish
+qstr_Sublime_Ottoman_Stat Sublime_Ottoman_State
+qstr_Ottoman_Empire Ottoman_Empire
+qstr_faction_flag_ottoman faction_flag_ottoman
+qstr_faction_color_ottoma faction_color_ottoman
+qstr_Turkish Turkish
+qstr_Kingdom_of_Greece Kingdom_of_Greece
+qstr_Greece Greece
+qstr_faction_flag_greece faction_flag_greece
+qstr_faction_color_greece faction_color_greece
+qstr_Greek Greek
+qstr_Principality_of_Serb Principality_of_Serbia
+qstr_Serbia Serbia
+qstr_faction_flag_serbia faction_flag_serbia
+qstr_faction_color_serbia faction_color_serbia
+qstr_Serbian Serbian
+qstr_Principality_of_Mont Principality_of_Montenegro
+qstr_Montenegro Montenegro
+qstr_faction_flag_montene faction_flag_montenegro
+qstr_faction_color_monten faction_color_montenegro
+qstr_Montenegrin Montenegrin
+qstr_Principality_of_Wall Principality_of_Wallachia
+qstr_Wallachia Wallachia
+qstr_faction_flag_wallach faction_flag_wallachia
+qstr_faction_color_wallac faction_color_wallachia
+qstr_Wallachian Wallachian
+qstr_Principality_of_Mold Principality_of_Moldavia
+qstr_Moldavia Moldavia
+qstr_faction_flag_moldavi faction_flag_moldavia
+qstr_faction_color_moldav faction_color_moldavia
+qstr_Moldavian Moldavian
+qstr_Russian_Empire Russian_Empire
+qstr_Russia Russia
+qstr_faction_flag_russia faction_flag_russia
+qstr_faction_color_russia faction_color_russia
+qstr_Russian Russian

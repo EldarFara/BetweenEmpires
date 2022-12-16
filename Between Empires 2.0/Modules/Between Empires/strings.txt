@@ -1,5 +1,5 @@
 stringsfile version 1
-160
+196
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -160,3 +160,39 @@ str_province131 Carpathian_Rus
 str_province132 Galicia
 str_province133 Lodomeria
 str_province134 Bukovina
+str_province135 Herzeg-Bosnia
+str_province136 Bosnian_Krajina
+str_province137 Eastern_Herzeg-Bosnia
+str_province138 Montenegro
+str_province139 Northern_Albania
+str_province140 Southern_Albania
+str_province141 Vardar_Macedonia
+str_province142 Kosovo
+str_province143 Old_Serbia
+str_province144 West_Serbia
+str_province145 East_Serbia
+str_province146 Epirus
+str_province147 Macedonia
+str_province148 Thrace
+str_province149 Thessaly
+str_province150 West_Greece
+str_province151 Central_Greece
+str_province152 Peloponnesia
+str_province153 Crete
+str_province154 Rhodes
+str_province155 Oltenia
+str_province156 Muntenia
+str_province157 South_Moldova
+str_province158 North_Moldova
+str_province159 North_Dobruja
+str_province160 South_Dobruja
+str_province161 Bessarabia
+str_province162 Moldova
+str_province163 East_Bukovina
+str_province164 East_Thrace
+str_province165 Burgas
+str_province166 Varna
+str_province167 Plovdiv
+str_province168 Lovech
+str_province169 Sofia
+str_province170 Montana
