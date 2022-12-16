@@ -120,3 +120,8 @@ ui_1919
 ui_1936
 ui_startdate_title
 ui_startdate_title_text
+ui_bottom_panel
+ui_selected_faction_flag
+ui_factiion_selection_title
+ui_start_game
+ui_faction_selection_title

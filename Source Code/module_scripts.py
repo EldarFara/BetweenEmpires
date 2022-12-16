@@ -1050,13 +1050,58 @@ scripts = [
     (try_end),
 ]),
 
+("world_map_prsnt_event", [
+(store_trigger_param_1, ":object"),
+(store_trigger_param_2, ":unused"),
+(set_fixed_point_multiplier, 1000),
+
+    (try_begin),
+    (eq, ":object", "$ui_start_game"),
+    (array_eq, "$globals", ui_mode_faction_selection, global_ui_mode),
+    (array_set_val, "$globals", ui_mode_none, global_ui_mode),
+    (array_get_val, ":faction", "$globals", global_faction_selection_selected_faction),
+    (array_set_val, "$globals", ":faction", global_player_faction),
+    (presentation_set_duration, 0),
+    (try_end),
+]),
+
 # Start of world map UI
 ("world_map_prsnt_start", [
 (presentation_set_duration, 9999999),
 (set_fixed_point_multiplier, 1000),
 
-(call_script, "script_world_map_ui_black_dot_start"),
+(call_script, "script_world_map_ui_start_black_dot"),
+(call_script, "script_world_map_ui_start_faction_selection"),
 
+]),
+
+# Faction selection UI consists of start game button, faction name and flag, or just the "select faction" prompt if no faction selected yet
+("world_map_ui_start_faction_selection", [
+    (try_begin),
+    (array_eq, "$globals", ui_mode_faction_selection, global_ui_mode),
+    (create_mesh_overlay, "$ui_bottom_panel", "mesh_ui_background"),
+    (overlay_set_material, "$ui_bottom_panel", "@ui_faction_selection_bottom_panel"),
+    (position_set_x, pos1, 0), (position_set_y, pos1, 0),
+    (overlay_set_position, "$ui_bottom_panel", pos1),
+    (position_set_x, pos1, 1000), (position_set_y, pos1, 95),
+    (overlay_set_size, "$ui_bottom_panel", pos1),
+
+    (create_mesh_overlay, "$ui_selected_faction_flag", "mesh_ui_picture"),
+    (position_set_x, pos1, 50), (position_set_y, pos1, 27),
+    (overlay_set_position, "$ui_selected_faction_flag", pos1),
+    (position_set_x, pos1, 800*1.5), (position_set_y, pos1, 800),
+    (overlay_set_size, "$ui_selected_faction_flag", pos1),
+    (overlay_set_display, "$ui_selected_faction_flag", 0),
+
+    (create_text_overlay, "$ui_faction_selection_title", "@ ", tf_center_justify),
+    (position_set_x, pos1, 500), (position_set_y, pos1, 20),
+    (overlay_set_position, "$ui_faction_selection_title", pos1),
+
+    (create_game_button_overlay, "$ui_start_game", "@Start Game"),
+    (position_set_x, pos1, 870), (position_set_y, pos1, 12),
+    (overlay_set_position, "$ui_start_game", pos1),
+    (overlay_set_display, "$ui_start_game", 0),
+    (try_end),
 ]),
 
 # Frame of world map UI
@@ -1064,23 +1109,97 @@ scripts = [
 (set_fixed_point_multiplier, 1000),
 
 (call_script, "script_world_map_ui_black_dot_frame"),
-(call_script, "script_world_map_ui_open_province_small_menu"),
+(call_script, "script_world_map_ui_faction_selection"),
+(call_script, "script_world_map_ui_process_province_click"),
+(call_script, "script_world_map_ui_province_small_menu"),
 ]),
 
-# Province small menu appears when player clicks on world map 
-("world_map_ui_open_province_small_menu", [
+# After starting new game and selecting starting date player needs to click on any factions province to set it as playable and click "Start Game"
+("world_map_ui_faction_selection", [
+    (try_begin),
+    (array_eq, "$globals", -1, global_player_faction),
+    (neg|array_eq, "$globals", ui_mode_faction_selection, global_ui_mode),
+    (array_set_val, "$globals", ui_mode_faction_selection, global_ui_mode),
+    (array_set_val, "$globals", -1, global_faction_selection_selected_faction),
+    (presentation_set_duration, 0),
+    (try_end),
+    (try_begin),
+    (array_eq, "$globals", ui_mode_faction_selection, global_ui_mode),
+        (try_begin),
+        (array_ge, "$globals", 0, global_faction_selection_selected_faction),
+        (array_get_val, ":faction", "$globals", global_faction_selection_selected_faction),
+        (array_get_val, s1, "$factions_strings", ":faction", faction_string_flag),
+        (array_get_val, s2, "$factions_strings", ":faction", faction_string_name),
+        (overlay_set_display, "$ui_start_game", 1),
+        (overlay_set_display, "$ui_selected_faction_flag", 1),
+        (overlay_set_material, "$ui_selected_faction_flag", s1),
+        (overlay_set_text, "$ui_faction_selection_title", s2),
+        (else_try),
+        (overlay_set_display, "$ui_start_game", 0),
+        (overlay_set_display, "$ui_selected_faction_flag", 0),
+        (overlay_set_text, "$ui_faction_selection_title", "@Choose a country to play as"),
+        (try_end),
+    (try_end),
+]),
+
+# Handle event when player clicks on province on world map
+("world_map_ui_process_province_click", [
 (set_fixed_point_multiplier, 1000),
 
     (try_begin),
     (key_clicked, key_left_mouse_button),
-    (this_or_next|array_eq, "$globals", ui_mode_none, global_ui_mode),
+    (this_or_next|array_eq, "$globals", ui_mode_none, global_ui_mode), # Only register clicks if on specific ui modes
+    (this_or_next|array_eq, "$globals", ui_mode_faction_selection, global_ui_mode),
     (array_eq, "$globals", ui_mode_province_menu_small, global_ui_mode),
-    
+    (mouse_get_position, pos1),
+    (assign, ":continue", 1),
+    (position_get_x, ":x", pos1),
+    (position_get_y, ":y", pos1),
+        (try_begin), # Dont register click if clicked on UI areas
+        (array_eq, "$globals", ui_mode_faction_selection, global_ui_mode),
+        (le, ":y", 64),
+        (assign, ":continue", 0),
+        (try_end),
+    (eq, ":continue", 1),
+    (init_position, pos2),
+    (set_fixed_point_multiplier, 100),
+    (assign, ":closest_province", -1),
+    (assign, ":closest_province_distance_to_mouse", 9999999),
+        (try_for_range, ":province", 0, number_of_provinces),
+        (array_get_val, ":x", "$provinces", ":province", province_x),
+        (array_get_val, ":y", "$provinces", ":province", province_y),
+        (position_set_x, pos2, ":x"),
+        (position_set_y, pos2, ":y"),
+        (position_get_screen_projection, pos3, pos2),
+        (get_distance_between_positions, ":distance", pos1, pos3),
+        (le, ":distance", ":closest_province_distance_to_mouse"),
+        (assign, ":closest_province", ":province"),
+        (assign, ":closest_province_distance_to_mouse", ":distance"),
+        (try_end),
+    (set_fixed_point_multiplier, 1000),
+        (try_begin),
+        (ge, ":closest_province_distance_to_mouse", 7), # If distance is above that, then probably nothing at all was selected
+        (assign, ":closest_province", -1),
+        (try_end),
+        (try_begin),
+        (ge, ":closest_province", 0),
+            (try_begin), # Set faction for faction selection if province has owner
+            (array_eq, "$globals", ui_mode_faction_selection, global_ui_mode),
+            (array_ge, "$provinces", 0, ":closest_province", province_owner),
+            (array_get_val, ":faction", "$provinces", ":closest_province", province_owner),
+            (array_set_val, "$globals", ":faction", global_faction_selection_selected_faction),
+            (try_end),
+        (try_end),
     (try_end),
 ]),
 
+# Province small menu appears when player clicks on world map 
+("world_map_ui_province_small_menu", [
+(set_fixed_point_multiplier, 1000),
+]),
+
 # Black dot scripts. Black dot on center of screen is toggled by backspace and is used for getting position coordinates on the map
-("world_map_ui_black_dot_start", [
+("world_map_ui_start_black_dot", [
 (create_mesh_overlay, "$ui_black_dot", "mesh_black_dot"),
 (position_set_x, pos1, 500),
 (position_set_y, pos1, 375),

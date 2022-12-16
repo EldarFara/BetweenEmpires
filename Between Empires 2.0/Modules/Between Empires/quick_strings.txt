@@ -1,4 +1,4 @@
-172
+178
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -171,3 +171,9 @@ qstr_Russia Russia
 qstr_faction_flag_russia faction_flag_russia
 qstr_faction_color_russia faction_color_russia
 qstr_Russian Russian
+qstr_Choose_country_to_pl Choose_country_to_play_as
+qstr_Start_Game Start_Game
+qstr__ _
+qstr_Choose_a_country_to_ Choose_a_country_to_play_as
+qstr_{reg2} {reg2}
+qstr_ui_faction_selection ui_faction_selection_bottom_panel

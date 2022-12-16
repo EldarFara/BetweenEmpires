@@ -110,6 +110,12 @@ presentations = [
 (call_script, "script_world_map_prsnt_frame"),
 ]), 
 
+(ti_on_presentation_event_state_change,[
+(store_trigger_param_1, ":object"),
+(store_trigger_param_2, ":value"),
+(call_script, "script_world_map_prsnt_event", ":object", ":value"),
+]), 
+
 ]),
 
 ]
