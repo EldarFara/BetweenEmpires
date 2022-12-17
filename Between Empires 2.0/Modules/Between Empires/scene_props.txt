@@ -1,88 +1,88 @@
 scene_propsfile version 1
- 328
-spr_invalid_object 0 0 question_mark 0 0
+ 218
+spr_invalid_object 0 0 invisible 0 0
 
 
-spr_inventory 4101 0 package bobaggage 0
+spr_inventory 4101 0 invisible 0 0
 
 
 spr_empty 0 0 0 0 0
 
 
-spr_chest_a 5 0 chest_gothic bochest_gothic 0
+spr_chest_a 5 0 invisible 0 0
 
 
-spr_container_small_chest 5 0 package bobaggage 0
+spr_container_small_chest 5 0 invisible 0 0
 
 
-spr_container_chest_b 5 0 chest_b bo_chest_b 0
+spr_container_chest_b 5 0 invisible 0 0
 
 
-spr_container_chest_c 5 0 chest_c bo_chest_c 0
+spr_container_chest_c 5 0 invisible 0 0
 
 
-spr_player_chest 5 0 player_chest bo_player_chest 0
+spr_player_chest 5 0 invisible 0 0
 
 
-spr_locked_player_chest 0 0 player_chest bo_player_chest 0
+spr_locked_player_chest 0 0 invisible 0 0
 
 
-spr_light_sun 16384 0 light_sphere 0 1
+spr_light_sun 16384 0 invisible 0 1
 -40.000000  22 2147485921 0 2071 1 1224979098644774912 2124 1 100 1852 2 5 1224979098644774912 735 2 1224979098644774913 5 2271 1 72057594037927948 4 0 33 3 72057594037927948 5 20 2122 3 1224979098644774914 1000 1224979098644774913 2122 3 1224979098644774915 965 1224979098644774913 2122 3 1224979098644774916 900 1224979098644774913 5 0 2122 3 1224979098644774914 450 1224979098644774913 2122 3 1224979098644774915 575 1224979098644774913 2122 3 1224979098644774916 750 1224979098644774913 3 0 2108 2 1224979098644774914 100 2108 2 1224979098644774915 100 2108 2 1224979098644774916 100 1950 3 1224979098644774914 1224979098644774915 1224979098644774916 1955 3 0 0 0 1961 2 0 0 
 
 
-spr_light 16384 0 light_sphere 0 1
+spr_light 16384 0 invisible 0 1
 -40.000000  13 2071 1 1224979098644774912 2124 1 100 1852 2 5 1224979098644774912 735 2 1224979098644774913 5 2122 3 1224979098644774914 600 1224979098644774913 2122 3 1224979098644774915 435 1224979098644774913 2122 3 1224979098644774916 135 1224979098644774913 2108 2 1224979098644774914 100 2108 2 1224979098644774915 100 2108 2 1224979098644774916 100 1950 3 1224979098644774914 1224979098644774915 1224979098644774916 1955 3 0 0 0 1961 2 10 30 
 
 
-spr_light_red 16384 0 light_sphere 0 1
+spr_light_red 16384 0 invisible 0 1
 -40.000000  13 2071 1 1224979098644774912 2124 1 100 1852 2 5 1224979098644774912 735 2 1224979098644774913 5 2122 3 1224979098644774914 340 1224979098644774913 2122 3 1224979098644774915 200 1224979098644774913 2122 3 1224979098644774916 60 1224979098644774913 2108 2 1224979098644774914 100 2108 2 1224979098644774915 100 2108 2 1224979098644774916 100 1950 3 1224979098644774914 1224979098644774915 1224979098644774916 1955 3 0 0 0 1961 2 20 30 
 
 
-spr_light_night 16384 0 light_sphere 0 1
+spr_light_night 16384 0 invisible 0 1
 -40.000000  14 2273 1 0 2071 1 1224979098644774912 2124 1 100 1852 2 5 1224979098644774912 735 2 1224979098644774913 5 2122 3 1224979098644774914 480 1224979098644774913 2122 3 1224979098644774915 435 1224979098644774913 2122 3 1224979098644774916 300 1224979098644774913 2108 2 1224979098644774914 100 2108 2 1224979098644774915 100 2108 2 1224979098644774916 100 1950 3 1224979098644774914 1224979098644774915 1224979098644774916 1955 3 0 0 0 1961 2 10 30 
 
 
-spr_torch 0 0 torch_a 0 0
+spr_torch 0 0 invisible 0 0
 
 
-spr_torch_night 0 0 torch_a 0 0
+spr_torch_night 0 0 invisible 0 0
 
 
-spr_barrier_20m 16393 0 barrier_20m bo_barrier_20m 0
+spr_barrier_20m 16393 0 invisible 0 0
 
 
-spr_barrier_16m 16393 0 barrier_16m bo_barrier_16m 0
+spr_barrier_16m 16393 0 invisible 0 0
 
 
-spr_barrier_8m 16393 0 barrier_8m bo_barrier_8m 0
+spr_barrier_8m 16393 0 invisible 0 0
 
 
-spr_barrier_4m 16393 0 barrier_4m bo_barrier_4m 0
+spr_barrier_4m 16393 0 invisible 0 0
 
 
-spr_barrier_2m 16393 0 barrier_2m bo_barrier_2m 0
+spr_barrier_2m 16393 0 invisible 0 0
 
 
-spr_exit_4m 16394 0 barrier_4m bo_barrier_4m 0
+spr_exit_4m 16394 0 invisible 0 0
 
 
-spr_exit_8m 16394 0 barrier_8m bo_barrier_8m 0
+spr_exit_8m 16394 0 invisible 0 0
 
 
-spr_exit_16m 16394 0 barrier_16m bo_barrier_16m 0
+spr_exit_16m 16394 0 invisible 0 0
 
 
-spr_ai_limiter_2m 16392 0 barrier_2m bo_barrier_2m 0
+spr_ai_limiter_2m 16392 0 invisible 0 0
 
 
-spr_ai_limiter_4m 16392 0 barrier_4m bo_barrier_4m 0
+spr_ai_limiter_4m 16392 0 invisible 0 0
 
 
-spr_ai_limiter_8m 16392 0 barrier_8m bo_barrier_8m 0
+spr_ai_limiter_8m 16392 0 invisible 0 0
 
 
-spr_ai_limiter_16m 16392 0 barrier_16m bo_barrier_16m 0
+spr_ai_limiter_16m 16392 0 invisible 0 0
 
 
 spr_world_map_base 0 0 world_map_base bo_world_map_base 0
@@ -656,335 +656,5 @@ spr_province188 0 0 province188 0 0
 
 
 spr_province189 0 0 province189 0 0
-
-
-spr_province190 0 0 province190 0 0
-
-
-spr_province191 0 0 province191 0 0
-
-
-spr_province192 0 0 province192 0 0
-
-
-spr_province193 0 0 province193 0 0
-
-
-spr_province194 0 0 province194 0 0
-
-
-spr_province195 0 0 province195 0 0
-
-
-spr_province196 0 0 province196 0 0
-
-
-spr_province197 0 0 province197 0 0
-
-
-spr_province198 0 0 province198 0 0
-
-
-spr_province199 0 0 province199 0 0
-
-
-spr_province200 0 0 province200 0 0
-
-
-spr_province201 0 0 province201 0 0
-
-
-spr_province202 0 0 province202 0 0
-
-
-spr_province203 0 0 province203 0 0
-
-
-spr_province204 0 0 province204 0 0
-
-
-spr_province205 0 0 province205 0 0
-
-
-spr_province206 0 0 province206 0 0
-
-
-spr_province207 0 0 province207 0 0
-
-
-spr_province208 0 0 province208 0 0
-
-
-spr_province209 0 0 province209 0 0
-
-
-spr_province210 0 0 province210 0 0
-
-
-spr_province211 0 0 province211 0 0
-
-
-spr_province212 0 0 province212 0 0
-
-
-spr_province213 0 0 province213 0 0
-
-
-spr_province214 0 0 province214 0 0
-
-
-spr_province215 0 0 province215 0 0
-
-
-spr_province216 0 0 province216 0 0
-
-
-spr_province217 0 0 province217 0 0
-
-
-spr_province218 0 0 province218 0 0
-
-
-spr_province219 0 0 province219 0 0
-
-
-spr_province220 0 0 province220 0 0
-
-
-spr_province221 0 0 province221 0 0
-
-
-spr_province222 0 0 province222 0 0
-
-
-spr_province223 0 0 province223 0 0
-
-
-spr_province224 0 0 province224 0 0
-
-
-spr_province225 0 0 province225 0 0
-
-
-spr_province226 0 0 province226 0 0
-
-
-spr_province227 0 0 province227 0 0
-
-
-spr_province228 0 0 province228 0 0
-
-
-spr_province229 0 0 province229 0 0
-
-
-spr_province230 0 0 province230 0 0
-
-
-spr_province231 0 0 province231 0 0
-
-
-spr_province232 0 0 province232 0 0
-
-
-spr_province233 0 0 province233 0 0
-
-
-spr_province234 0 0 province234 0 0
-
-
-spr_province235 0 0 province235 0 0
-
-
-spr_province236 0 0 province236 0 0
-
-
-spr_province237 0 0 province237 0 0
-
-
-spr_province238 0 0 province238 0 0
-
-
-spr_province239 0 0 province239 0 0
-
-
-spr_province240 0 0 province240 0 0
-
-
-spr_province241 0 0 province241 0 0
-
-
-spr_province242 0 0 province242 0 0
-
-
-spr_province243 0 0 province243 0 0
-
-
-spr_province244 0 0 province244 0 0
-
-
-spr_province245 0 0 province245 0 0
-
-
-spr_province246 0 0 province246 0 0
-
-
-spr_province247 0 0 province247 0 0
-
-
-spr_province248 0 0 province248 0 0
-
-
-spr_province249 0 0 province249 0 0
-
-
-spr_province250 0 0 province250 0 0
-
-
-spr_province251 0 0 province251 0 0
-
-
-spr_province252 0 0 province252 0 0
-
-
-spr_province253 0 0 province253 0 0
-
-
-spr_province254 0 0 province254 0 0
-
-
-spr_province255 0 0 province255 0 0
-
-
-spr_province256 0 0 province256 0 0
-
-
-spr_province257 0 0 province257 0 0
-
-
-spr_province258 0 0 province258 0 0
-
-
-spr_province259 0 0 province259 0 0
-
-
-spr_province260 0 0 province260 0 0
-
-
-spr_province261 0 0 province261 0 0
-
-
-spr_province262 0 0 province262 0 0
-
-
-spr_province263 0 0 province263 0 0
-
-
-spr_province264 0 0 province264 0 0
-
-
-spr_province265 0 0 province265 0 0
-
-
-spr_province266 0 0 province266 0 0
-
-
-spr_province267 0 0 province267 0 0
-
-
-spr_province268 0 0 province268 0 0
-
-
-spr_province269 0 0 province269 0 0
-
-
-spr_province270 0 0 province270 0 0
-
-
-spr_province271 0 0 province271 0 0
-
-
-spr_province272 0 0 province272 0 0
-
-
-spr_province273 0 0 province273 0 0
-
-
-spr_province274 0 0 province274 0 0
-
-
-spr_province275 0 0 province275 0 0
-
-
-spr_province276 0 0 province276 0 0
-
-
-spr_province277 0 0 province277 0 0
-
-
-spr_province278 0 0 province278 0 0
-
-
-spr_province279 0 0 province279 0 0
-
-
-spr_province280 0 0 province280 0 0
-
-
-spr_province281 0 0 province281 0 0
-
-
-spr_province282 0 0 province282 0 0
-
-
-spr_province283 0 0 province283 0 0
-
-
-spr_province284 0 0 province284 0 0
-
-
-spr_province285 0 0 province285 0 0
-
-
-spr_province286 0 0 province286 0 0
-
-
-spr_province287 0 0 province287 0 0
-
-
-spr_province288 0 0 province288 0 0
-
-
-spr_province289 0 0 province289 0 0
-
-
-spr_province290 0 0 province290 0 0
-
-
-spr_province291 0 0 province291 0 0
-
-
-spr_province292 0 0 province292 0 0
-
-
-spr_province293 0 0 province293 0 0
-
-
-spr_province294 0 0 province294 0 0
-
-
-spr_province295 0 0 province295 0 0
-
-
-spr_province296 0 0 province296 0 0
-
-
-spr_province297 0 0 province297 0 0
-
-
-spr_province298 0 0 province298 0 0
-
-
-spr_province299 0 0 province299 0 0
 
 

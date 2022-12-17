@@ -21,7 +21,15 @@ ti_on_agent_spawn, 0, 0, [],
 world_map_frame = (
 0, 0, 0, [],
 [
-(call_script, "script_world_map_camera_movement"),
+(call_script, "script_world_map_camera_movement_frame"),
+
+])
+
+# Triggers every 10 ms
+world_map_10ms = (
+0.01, 0, 0, [],
+[
+(call_script, "script_world_map_camera_movement_10ms"),
 
 ])
 
@@ -35,6 +43,7 @@ world_map_start = (
 world_map_trigger_set = [
 world_map_start,
 world_map_frame,
+world_map_10ms,
 world_map_on_agent_spawn,
 ]
 

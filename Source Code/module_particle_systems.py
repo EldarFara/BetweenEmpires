@@ -52,7 +52,7 @@ particle_systems = [
     #	These particles are all brought into existance by engine features
 	#		and thus should be here.
 	# #######################################################################
-    ("game_rain", psf_billboard_2d|psf_global_emit_dir|psf_always_emit, "prtcl_rain",
+    ("game_rain", psf_billboard_2d|psf_global_emit_dir|psf_always_emit, "invisible",
      500, 0.5, 0.33, 1.0, 10.0, 0.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
      (1.0, 0.3), (1, 0.3),        #alpha keys
      (1.0, 1.0), (1, 1.0),      #red keys
@@ -66,7 +66,7 @@ particle_systems = [
      0.5                        #rotation damping
     ),
 	
-    ("game_snow", psf_billboard_3d|psf_global_emit_dir|psf_always_emit|psf_randomize_size|psf_randomize_rotation, "prt_mesh_snow_fall_1",
+    ("game_snow", psf_billboard_3d|psf_global_emit_dir|psf_always_emit|psf_randomize_size|psf_randomize_rotation, "invisible",
      150, 2, 0.2, 0.1, 30, 20,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
      (0.2, 1), (1, 1),        #alpha keys
      (1.0, 1.0), (1, 1.0),      #red keys
@@ -80,7 +80,7 @@ particle_systems = [
      0.5                        #rotation damping
     ),
 	
-    ("game_blood", psf_billboard_3d |psf_randomize_size|psf_randomize_rotation,  "prt_mesh_blood_1",
+    ("game_blood", psf_billboard_3d |psf_randomize_size|psf_randomize_rotation,  "invisible",
      500, 0.65, 3, 0.5, 0, 0,        #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
      (0.0, 0.7), (0.7, 0.7),          #alpha keys
      (0.1, 0.7), (1, 0.7),      #red keys
@@ -93,7 +93,7 @@ particle_systems = [
      0,                         #rotation speed
      0,                         #rotation damping
     ),
-    ("game_blood_2", psf_billboard_3d | psf_randomize_size|psf_randomize_rotation ,  "prt_mesh_blood_3",
+    ("game_blood_2", psf_billboard_3d | psf_randomize_size|psf_randomize_rotation ,  "invisible",
      2000, 0.6, 3, 0.3, 0, 0,        #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
      (0.0, 0.25), (0.7, 0.1),        #alpha keys
      (0.1, 0.7), (1, 0.7),      #red keys
@@ -107,7 +107,7 @@ particle_systems = [
      0,                       #rotation damping
      ),
     
-     ("game_hoof_dust", psf_billboard_3d|psf_randomize_size|psf_randomize_rotation|psf_2d_turbulance, "prt_mesh_dust_1",#prt_mesh_dust_1
+     ("game_hoof_dust", psf_billboard_3d|psf_randomize_size|psf_randomize_rotation|psf_2d_turbulance, "invisible",#prt_mesh_dust_1
      5, 2.0,  10, 0.05, 10.0, 39.0, #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
      (0.2, 0.5), (1, 0.0),        #alpha keys
      (0, 1), (1, 1),        #red keys
@@ -121,7 +121,7 @@ particle_systems = [
      0.5                        #rotation damping
     ),
 
-    ("game_hoof_dust_snow", psf_billboard_3d|psf_randomize_size, "prt_mesh_snow_dust_1",#prt_mesh_dust_1
+    ("game_hoof_dust_snow", psf_billboard_3d|psf_randomize_size, "invisible",#prt_mesh_dust_1
      6, 2, 3.5, 1, 10.0, 0.0, #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
      (0.2, 1), (1, 1),        #alpha keys
      (0, 1), (1, 1),        #red keys
@@ -134,7 +134,7 @@ particle_systems = [
      0,                       #rotation speed
      0                        #rotation damping
     ),
-     ("game_hoof_dust_mud", psf_billboard_2d|psf_randomize_size|psf_randomize_rotation|psf_2d_turbulance, "prt_mesh_mud_1",#prt_mesh_dust_1
+     ("game_hoof_dust_mud", psf_billboard_2d|psf_randomize_size|psf_randomize_rotation|psf_2d_turbulance, "invisible",#prt_mesh_dust_1
      5, .7,  10, 3, 0, 0, #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
      (0, 1), (1, 1),        #alpha keys
      (0, .7), (1, .7),        #red keys
@@ -148,7 +148,7 @@ particle_systems = [
      0.5                        #rotation damping
     ),
 
-    ("game_water_splash_1", psf_billboard_3d|psf_randomize_size|psf_randomize_rotation|psf_emit_at_water_level, "prtcl_drop",
+    ("game_water_splash_1", psf_billboard_3d|psf_randomize_size|psf_randomize_rotation|psf_emit_at_water_level, "invisible",
      20, 0.85, 0.25, 0.9, 10.0, 0.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
      (0.3, 0.5), (1, 0.0),        #alpha keys
      (1.0, 1.0), (1, 1.0),      #red keys
@@ -162,7 +162,7 @@ particle_systems = [
      0.5                        #rotation damping
     ),
     
-    ("game_water_splash_2", psf_billboard_3d|psf_randomize_size|psf_randomize_rotation|psf_emit_at_water_level, "prtcl_splash_b",
+    ("game_water_splash_2", psf_billboard_3d|psf_randomize_size|psf_randomize_rotation|psf_emit_at_water_level, "invisible",
      30, 0.4, 0.7, 0.5, 10.0, 0.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
      (0.3, 1.0), (1, 0.3),        #alpha keys
      (1.0, 1.0), (1, 1.0),      #red keys
@@ -176,7 +176,7 @@ particle_systems = [
      0.5                        #rotation damping
     ),
 
-    ("game_water_splash_3", psf_emit_at_water_level , "prt_mesh_water_wave_1",
+    ("game_water_splash_3", psf_emit_at_water_level , "invisible",
      5, 2.0, 0, 0.0, 10.0, 0.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
      (0.03, 0.2), (1, 0.0),        #alpha keys
      (1.0, 1.0), (1, 1.0),      #red keys

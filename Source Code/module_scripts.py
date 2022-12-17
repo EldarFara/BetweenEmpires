@@ -907,7 +907,7 @@ scripts = [
 ]),
 
 # Processes world map camera movement with WASD keys and mouse
-("world_map_camera_movement", [
+("world_map_camera_movement_frame", [
 (set_fixed_point_multiplier, 100),
     (try_begin), # prsnt_world_map should always be running 
     (neg|is_presentation_active, "prsnt_world_map"),
@@ -916,9 +916,6 @@ scripts = [
 (mission_cam_get_position, pos1),
 (array_get_val, ":target_z", "$globals", global_world_map_camera_target_z),
 (position_get_z, ":z", pos1),
-# camera movement speed is dependant on current camera height
-(store_div, ":move_speed", ":z", 100),
-(store_div, ":move_speed_negative", ":z", -100),
 (store_div, ":scroll_speed", ":z", 2),
 (store_div, ":scroll_speed_negative", ":z", -2),
     (try_begin), # global_world_map_camera_target_z is used for gradual changing of camera height
@@ -935,8 +932,22 @@ scripts = [
     (val_div, ":z_difference", 5),
     (position_move_z, pos1, ":z_difference", 1),
     (try_end),
+(mission_cam_set_position, pos1),
     (try_begin),
+    (key_clicked, key_space),
+    (presentation_set_duration, 0),
+    (position_get_x, reg0, pos1),
+    (position_get_y, reg1, pos1),
+    (display_message, "@{reg0} {reg1}"),
     (try_end),
+]),
+("world_map_camera_movement_10ms", [
+(set_fixed_point_multiplier, 100),
+(mission_cam_get_position, pos1),
+(position_get_z, ":z", pos1),
+# camera movement speed is dependant on current camera height
+(store_div, ":move_speed", ":z", 60),
+(store_div, ":move_speed_negative", ":z", -60),
     (try_begin),
     (key_is_down, key_w),
     (position_move_y, pos1, ":move_speed", 1),
@@ -954,14 +965,6 @@ scripts = [
     (position_move_x, pos1, ":move_speed", 1),
     (try_end),
 (mission_cam_set_position, pos1),
-
-    (try_begin),
-    (key_clicked, key_space),
-    (presentation_set_duration, 0),
-    (position_get_x, reg0, pos1),
-    (position_get_y, reg1, pos1),
-    (display_message, "@{reg0} {reg1}"),
-    (try_end),
 ]),
 
 # Start of start date selection UI
