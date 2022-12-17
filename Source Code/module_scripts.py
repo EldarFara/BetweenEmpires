@@ -601,7 +601,12 @@ scripts = [
 (sss, s1, "@Principality of Moldavia"), (sss, s2, "@Moldavia"), (sss, s3, "@faction_flag_moldavia"), (sss, s4, "@faction_color_moldavia"), (sss, s5, "@Moldavian"), (call_script, "script_add_faction", faction_moldavia),
 (sss, s1, "@Russian Empire"), (sss, s2, "@Russia"), (sss, s3, "@faction_flag_russia"), (sss, s4, "@faction_color_russia"), (sss, s5, "@Russian"), (call_script, "script_add_faction", faction_russia),
 # parameters that are dependant on starting date
-
+    (try_begin),
+    (eq, ":start_date", 1853),
+    (array_set_val, "$factions", 99999, faction_france, faction_population),
+    (else_try),
+    (try_end),
+    
 ]),
 
 # Set provinces parameters
@@ -950,13 +955,12 @@ scripts = [
 (mission_cam_set_position, pos1),
     (try_begin),
     (key_clicked, key_space),
-    (presentation_set_duration, 0),
     (position_get_x, reg0, pos1),
     (position_get_y, reg1, pos1),
     (display_message, "@{reg0} {reg1}"),
     (try_end),
 ]),
-("world_map_camera_movement_10ms", [
+("world_map_camera_movement_5ms", [
 (set_fixed_point_multiplier, 100),
 (mission_cam_get_position, pos1),
 (position_get_z, ":z", pos1),
@@ -1052,8 +1056,8 @@ scripts = [
 ]),
 
 ("start_date_selection_prsnt_event", [
-(store_trigger_param_1, ":object"),
-(store_trigger_param_2, ":unused"),
+(store_script_param, ":object", 1),
+(store_script_param, ":unused", 2),
 (set_fixed_point_multiplier, 1000),
 
 (assign, ":start_date", -1),
@@ -1088,8 +1092,8 @@ scripts = [
 ]),
 
 ("world_map_prsnt_event", [
-(store_trigger_param_1, ":object"),
-(store_trigger_param_2, ":unused"),
+(store_script_param, ":object", 1),
+(store_script_param, ":unused", 2),
 (set_fixed_point_multiplier, 1000),
 
     (try_begin),
@@ -1109,9 +1113,45 @@ scripts = [
 
 (call_script, "script_world_map_ui_start_black_dot"),
 (call_script, "script_world_map_ui_start_faction_selection"),
+(call_script, "script_world_map_ui_start_bottom_panel"),
 
 ]),
 
+# Bottom panel of world map with common info about faction
+("world_map_ui_start_bottom_panel", [
+    (try_begin),
+    (array_eq, "$globals", ui_mode_none, global_ui_mode),
+    (create_mesh_overlay, "$ui_bottom_panel", "mesh_ui_background"),
+    (overlay_set_material, "$ui_bottom_panel", "@ui_world_map_bottom_panel"),
+    (position_set_x, pos1, 0), (position_set_y, pos1, 0),
+    (overlay_set_position, "$ui_bottom_panel", pos1),
+    (position_set_x, pos1, 1000), (position_set_y, pos1, 130),
+    (overlay_set_size, "$ui_bottom_panel", pos1),
+    (create_image_button_overlay, "$ui_bottom_panel_flag", "mesh_ui_picture", "mesh_ui_picture"),
+    (position_set_x, pos1, 60), (position_set_y, pos1, 35),
+    (overlay_set_position, "$ui_bottom_panel_flag", pos1),
+    (position_set_x, pos1, 1000*1.5), (position_set_y, pos1, 1000),
+    (overlay_set_size, "$ui_bottom_panel_flag", pos1),
+    (array_get_val, ":player_faction", "$globals", global_player_faction),
+    (call_script, "script_ui_flag_overlay_set_material_and_tooltip", "$ui_bottom_panel_flag", ":player_faction"),
+    (try_end),
+]),
+
+# Simply sets material (faction flag string) and tooltip (faction full name string) for specified overlay for specified faction
+("ui_flag_overlay_set_material_and_tooltip", [
+(store_script_param, ":overlay", 1),
+(store_script_param, ":faction", 2),
+
+    (try_begin),
+    (ge, ":faction", 0),
+    (array_get_val, s10, "$factions_strings", ":faction", faction_string_flag),
+    (array_get_val, s11, "$factions_strings", ":faction", faction_string_name),
+    (overlay_set_material, ":overlay", s10),
+    (overlay_set_tooltip, ":overlay", s11),
+    (try_end),
+]),
+
+    
 # Faction selection UI consists of start game button, faction name and flag, or just the "select faction" prompt if no faction selected yet
 ("world_map_ui_start_faction_selection", [
     (try_begin),

@@ -1,15 +1,18 @@
 number_of_provinces = 205
 number_of_factions = 30
 
-number_of_factions_parameters = 1
+number_of_factions_parameters = 4
 number_of_factions_strings = 5
-number_of_provinces_parameters = 6
+number_of_provinces_parameters = 8
 number_of_provinces_strings = 1
 number_of_global_parameters = 6
 
 number_of_resources = 1
 
-faction_initparam_population                                                  = 0
+faction_population                                                            = 0
+faction_urbanization                                                          = 1
+faction_literacy                                                              = 2
+faction_money                                                                 = 3
 
 faction_string_name                                                           = 0
 faction_string_name_short                                                     = 1
@@ -20,9 +23,11 @@ faction_string_possessive_case                                                = 
 province_x                                                                    = 0
 province_y                                                                    = 1
 province_initparam_population_multiplier                                      = 2
-province_resource_bonus_type                                                  = 3
-province_owner                                                                = 4
-province_prop1                                                                = 5
+province_initparam_urbanization_multiplier                                    = 3
+province_initparam_literacy_multiplier                                        = 4
+province_resource_bonus_type                                                  = 5
+province_owner                                                                = 6
+province_prop1                                                                = 7
 
 province_string_name                                                          = 0
 
