@@ -1,5 +1,5 @@
 stringsfile version 1
-196
+215
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -196,3 +196,22 @@ str_province167 Plovdiv
 str_province168 Lovech
 str_province169 Sofia
 str_province170 Montana
+str_province171 Odessa
+str_province172 Vinnytsia
+str_province173 Tarnopol
+str_province174 Volhynia
+str_province175 Zhytomyr
+str_province176 Kyiv
+str_province177 Cherkassy
+str_province178 Kirovohrad
+str_province179 Mykolaiv
+str_province180 Kherson
+str_province181 Zaporizhzhia
+str_province182 Dnipropetrovsk
+str_province183 Poltava
+str_province184 Chernihiv
+str_province185 Sumy
+str_province186 Kharkiv
+str_province187 Aleksandrovka
+str_province188 Luhansk
+str_province189 Crimea

@@ -220,9 +220,23 @@ strings = [
 ("province168", "Lovech"),
 ("province169", "Sofia"),
 ("province170", "Montana"),
-
-
-
-
-
+("province171", "Odessa"),
+("province172", "Vinnytsia"),
+("province173", "Tarnopol"),
+("province174", "Volhynia"),
+("province175", "Zhytomyr"),
+("province176", "Kyiv"),
+("province177", "Cherkassy"),
+("province178", "Kirovohrad"),
+("province179", "Mykolaiv"),
+("province180", "Kherson"),
+("province181", "Zaporizhzhia"),
+("province182", "Dnipropetrovsk"),
+("province183", "Poltava"),
+("province184", "Chernihiv"),
+("province185", "Sumy"),
+("province186", "Kharkiv"),
+("province187", "Aleksandrovka"),
+("province188", "Luhansk"),
+("province189", "Crimea"),
 ]
