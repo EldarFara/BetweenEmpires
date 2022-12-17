@@ -1,5 +1,5 @@
 stringsfile version 1
-215
+230
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -215,3 +215,18 @@ str_province186 Kharkiv
 str_province187 Aleksandrovka
 str_province188 Luhansk
 str_province189 Crimea
+str_province190 Lublin
+str_province191 Mazovia
+str_province192 Podlaskie
+str_province193 Kielce
+str_province194 Kalisz
+str_province195 Plock
+str_province196 Brest
+str_province197 Grodno
+str_province198 Vitebsk
+str_province199 Minsk
+str_province200 Mogilev
+str_province201 Gomel
+str_province202 Dzukija
+str_province203 Aukstaitija
+str_province204 Samogitia
