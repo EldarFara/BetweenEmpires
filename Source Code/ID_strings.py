@@ -228,3 +228,7 @@ str_province201 = 226
 str_province202 = 227
 str_province203 = 228
 str_province204 = 229
+str_province205 = 230
+str_province206 = 231
+str_province207 = 232
+str_province208 = 233

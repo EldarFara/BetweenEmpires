@@ -1,5 +1,5 @@
 stringsfile version 1
-230
+234
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -230,3 +230,7 @@ str_province201 Gomel
 str_province202 Dzukija
 str_province203 Aukstaitija
 str_province204 Samogitia
+str_province205 Courland_and_Semigalia
+str_province206 Vidzeme
+str_province207 Coastal_Estonia
+str_province208 Inland_Estonia

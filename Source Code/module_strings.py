@@ -254,5 +254,8 @@ strings = [
 ("province202", "Dzukija"),
 ("province203", "Aukstaitija"),
 ("province204", "Samogitia"),
-
+("province205", "Courland and Semigalia"),
+("province206", "Vidzeme"),
+("province207", "Coastal Estonia"),
+("province208", "Inland Estonia"),
 ]

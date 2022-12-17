@@ -231,3 +231,7 @@ spr_province201 = 229
 spr_province202 = 230
 spr_province203 = 231
 spr_province204 = 232
+spr_province205 = 233
+spr_province206 = 234
+spr_province207 = 235
+spr_province208 = 236

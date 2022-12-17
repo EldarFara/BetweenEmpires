@@ -818,6 +818,10 @@ scripts = [
 (call_script, "script_add_province", 202, 54684, 44762, faction_russia),
 (call_script, "script_add_province", 203, 54294, 44996, faction_russia),
 (call_script, "script_add_province", 204, 53748, 45113, faction_russia),
+(call_script, "script_add_province", 205, 54207, 45465, faction_russia),
+(call_script, "script_add_province", 206, 55048, 45552, faction_russia),
+(call_script, "script_add_province", 207, 54352, 46219, faction_russia),
+(call_script, "script_add_province", 208, 54990, 46190, faction_russia),
 
 # parameters that are dependant on starting date
 (call_script, "script_initialize_provinces_owners", ":start_date"),
