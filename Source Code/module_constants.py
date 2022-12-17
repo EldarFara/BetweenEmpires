@@ -58,7 +58,7 @@ faction_ottoman         = 23
 faction_greece          = 24
 faction_serbia          = 25
 faction_montenegro      = 26
-faction_wallachia       = 27
+faction_romania         = 27
 faction_moldavia        = 28
 faction_russia          = 29
 

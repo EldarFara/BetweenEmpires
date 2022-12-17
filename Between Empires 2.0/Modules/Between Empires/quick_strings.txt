@@ -1,4 +1,4 @@
-181
+184
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -180,3 +180,6 @@ qstr_ui_faction_selection ui_faction_selection_bottom_panel
 qstr_ui_world_map_bottom_ ui_world_map_bottom_panel
 qstr_1_{reg0} 1_{reg0}
 qstr_2_{reg0} 2_{reg0}
+qstr_Britain Britain
+qstr_Principality_of_Roma Principality_of_Romania
+qstr_Romania Romania
