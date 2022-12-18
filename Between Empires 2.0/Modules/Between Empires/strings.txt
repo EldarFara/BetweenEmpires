@@ -1,5 +1,5 @@
 stringsfile version 1
-234
+263
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -234,3 +234,32 @@ str_province205 Courland_and_Semigalia
 str_province206 Vidzeme
 str_province207 Coastal_Estonia
 str_province208 Inland_Estonia
+str_province209 South_Karelia
+str_province210 Karelia
+str_province211 North_Karelia
+str_province212 Savonia
+str_province213 Kainuu
+str_province214 Lapland
+str_province215 North_Ostrobothnia
+str_province216 South_Ostrobothnia
+str_province217 Central_Finland
+str_province218 Southwest_Finland
+str_province219 Uusimaa
+str_province220 Finnmark
+str_province221 Nordland
+str_province222 Trondelag
+str_province223 Innlandet
+str_province224 Viken
+str_province225 Agder
+str_province226 Vestland
+str_province227 More_and_Romsdal
+str_province228 Norrbotten
+str_province229 Vasterbotten
+str_province230 Jamtland
+str_province231 Gavleborg
+str_province232 Stockholm
+str_province233 Ostergotland
+str_province234 Vastragotaland
+str_province235 Jonkoping
+str_province236 Kalmar
+str_province237 Skane

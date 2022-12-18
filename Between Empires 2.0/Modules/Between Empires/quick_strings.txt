@@ -1,4 +1,4 @@
-184
+189
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -183,3 +183,8 @@ qstr_2_{reg0} 2_{reg0}
 qstr_Britain Britain
 qstr_Principality_of_Roma Principality_of_Romania
 qstr_Romania Romania
+qstr_Kingdom_of_Sweden_No Kingdom_of_Sweden-Norway
+qstr_Sweden_Norway Sweden-Norway
+qstr_faction_flag_swednor faction_flag_swednor
+qstr_faction_color_swedno faction_color_swednor
+qstr_Swedish Swedish
