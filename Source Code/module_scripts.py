@@ -593,7 +593,7 @@ scripts = [
 (sss, s1, "@Grand Duchy of Mecklenburg-Schwerin"), (sss, s2, "@Mecklenburg"), (sss, s3, "@faction_flag_mecklenburg"), (sss, s4, "@faction_color_mecklenburg"), (sss, s5, "@Mecklenburg"), (call_script, "script_add_faction", faction_mecklenburg),
 (sss, s1, "@Grand Duchy of Oldenburg"), (sss, s2, "@Oldenburg"), (sss, s3, "@faction_flag_oldenburg"), (sss, s4, "@faction_color_oldenburg"), (sss, s5, "@Oldenburg"), (call_script, "script_add_faction", faction_oldenburg),
 (sss, s1, "@Kingdom of Denmark"), (sss, s2, "@Denmark"), (sss, s3, "@faction_flag_denmark"), (sss, s4, "@faction_color_denmark"), (sss, s5, "@Danish"), (call_script, "script_add_faction", faction_denmark),
-(sss, s1, "@Sublime Ottoman State"), (sss, s2, "@Ottoman Empire"), (sss, s3, "@faction_flag_ottoman"), (sss, s4, "@faction_color_ottoman"), (sss, s5, "@Turkish"), (call_script, "script_add_faction", faction_ottoman),
+(sss, s1, "@Sublime Ottoman State"), (sss, s2, "@Turkey"), (sss, s3, "@faction_flag_ottoman"), (sss, s4, "@faction_color_ottoman"), (sss, s5, "@Turkish"), (call_script, "script_add_faction", faction_ottoman),
 (sss, s1, "@Kingdom of Greece"), (sss, s2, "@Greece"), (sss, s3, "@faction_flag_greece"), (sss, s4, "@faction_color_greece"), (sss, s5, "@Greek"), (call_script, "script_add_faction", faction_greece),
 (sss, s1, "@Principality of Serbia"), (sss, s2, "@Serbia"), (sss, s3, "@faction_flag_serbia"), (sss, s4, "@faction_color_serbia"), (sss, s5, "@Serbian"), (call_script, "script_add_faction", faction_serbia),
 (sss, s1, "@Principality of Montenegro"), (sss, s2, "@Montenegro"), (sss, s3, "@faction_flag_montenegro"), (sss, s4, "@faction_color_montenegro"), (sss, s5, "@Montenegrin"), (call_script, "script_add_faction", faction_montenegro),
@@ -884,8 +884,19 @@ scripts = [
 (call_script, "script_add_province", 236, 51893, 45589, faction_sweden),
 (call_script, "script_add_province", 237, 51453, 45193, faction_sweden),
 
+(call_script, "script_initialize_provinces_population"),
+
 # parameters that are dependant on starting date
 (call_script, "script_initialize_provinces_owners", ":start_date"),
+
+]),
+
+# Calculate provinces population according to faction population and population multipliers
+("initialize_provinces_population", [
+
+    (try_for_range, ":faction", 0, number_of_factions),
+    (try_end),
+
 
 ]),
 

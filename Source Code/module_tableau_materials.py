@@ -48,249 +48,74 @@ from module_constants import *
 
 tableaus = [
 
-  ("game_character_sheet", 0, "tableau_with_transparency", 1024, 1024, 0, 0, 266, 532,
+  ("game_character_sheet", 0, "solid_gray", 1024, 1024, 0, 0, 266, 532,
    [
-		(store_script_param, ":troop_no", 1),
-		(cur_tableau_set_background_color, 0xFF888888),
-		(cur_tableau_set_ambient_light, 10,11,15),
-		(set_fixed_point_multiplier, 100),
-		(cur_tableau_set_camera_parameters, 0, 40, 40, 0, 100000),
-
-		(init_position, pos1),
-		(position_set_z, pos1, 100),
-		(position_set_x, pos1, -20),
-		(position_set_y, pos1, -20),
-		(cur_tableau_add_tableau_mesh, "tableau_troop_character_color", ":troop_no", pos1, 0, 0),
-		(position_set_z, pos1, 200),
-		(cur_tableau_add_tableau_mesh, "tableau_troop_character_alpha_mask", ":troop_no", pos1, 0, 0),
-		(position_set_z, pos1, 300),
+  
        ]),
 
-  ("game_inventory_window", 0, "tableau_with_transparency", 1024, 1024, 0, 0, 180, 270,
+  ("game_inventory_window", 0, "solid_gray", 1024, 1024, 0, 0, 180, 270,
    [
-		(store_script_param, ":troop_no", 1),
-		(cur_tableau_set_background_color, 0xFF888888),
-		(cur_tableau_set_ambient_light, 10,11,15),
-		(set_fixed_point_multiplier, 100),
-		(cur_tableau_set_camera_parameters, 0, 40, 40, 0, 100000),
-
-		(init_position, pos1),
-		(position_set_z, pos1, 100),
-		(position_set_x, pos1, -20),
-		(position_set_y, pos1, -20),
-		(cur_tableau_add_tableau_mesh, "tableau_troop_inventory_color", ":troop_no", pos1, 0, 0),
-		(position_set_z, pos1, 200),
-		(cur_tableau_add_tableau_mesh, "tableau_troop_inventory_alpha_mask", ":troop_no", pos1, 0, 0),
-		(position_set_z, pos1, 300),
+   
        ]),
 
-  ("game_profile_window", 0, "tableau_with_transparency", 1024, 1024, 0, 0, 320, 480, [
-		(store_script_param, ":profile_no", 1),
-		(assign, ":gender", ":profile_no"),
-		(val_mod, ":gender", 2),
-		(try_begin),
-		  (eq, ":gender", 0),
-		  (assign, ":troop_no", "trp_multiplayer_profile_troop_male"),
-		(else_try),
-		  (assign, ":troop_no", "trp_multiplayer_profile_troop_female"),
-		(try_end),
-		(troop_set_face_key_from_current_profile, ":troop_no"),
-		(cur_tableau_set_background_color, 0xFF888888),
-		(cur_tableau_set_ambient_light, 10,11,15),
-		(set_fixed_point_multiplier, 100),
-		(cur_tableau_set_camera_parameters, 0, 40, 40, 0, 100000),
-
-		(init_position, pos1),
-		(position_set_z, pos1, 100),
-		(position_set_x, pos1, -20),
-		(position_set_y, pos1, -20),
-		(cur_tableau_add_tableau_mesh, "tableau_troop_profile_color", ":troop_no", pos1, 0, 0),
-		(position_set_z, pos1, 200),
-		(cur_tableau_add_tableau_mesh, "tableau_troop_profile_alpha_mask", ":troop_no", pos1, 0, 0),
+  ("game_profile_window", 0, "solid_gray", 1024, 1024, 0, 0, 320, 480, [
+  
     ]),
 
-  ("game_party_window", 0, "tableau_with_transparency", 1024, 1024, 0, 0, 300, 300,
+  ("game_party_window", 0, "solid_gray", 1024, 1024, 0, 0, 300, 300,
    [
-       (store_script_param, ":troop_no", 1),
-       (cur_tableau_set_background_color, 0xFF888888),
-       (cur_tableau_set_ambient_light, 10,11,15),
-       (set_fixed_point_multiplier, 100),
-       (cur_tableau_set_camera_parameters, 0, 40, 40, 0, 100000),
-
-       (init_position, pos1),
-       (position_set_z, pos1, 100),
-       (position_set_x, pos1, -20),
-       (position_set_y, pos1, -20),
-       (cur_tableau_add_tableau_mesh, "tableau_troop_party_color", ":troop_no", pos1, 0, 0),
-       (position_set_z, pos1, 200),
-       (cur_tableau_add_tableau_mesh, "tableau_troop_party_alpha_mask", ":troop_no", pos1, 0, 0),
-       (position_set_z, pos1, 300),
+   
        ]),
 
-  ("game_troop_label_banner", 0, "tableau_with_transparency", 256, 256, -128, 0, 128, 256,
+  ("game_troop_label_banner", 0, "solid_gray", 256, 256, -128, 0, 128, 256,
    [
-       (store_script_param, ":banner_mesh", 1),
-
-       (cur_tableau_set_background_color, 0xFF888888),
-       (set_fixed_point_multiplier, 100),
-       (cur_tableau_set_camera_parameters, 0, 100, 100, 0, 100000),
-
-       (init_position, pos1),
-       (position_set_y, pos1, 120),
-       (cur_tableau_add_mesh, ":banner_mesh", pos1, 120, 0),
-	   
        ]),
-	# #######################################################################
-	# 	Outside of being referenced above, the below are optional and could
-	#	probably be easily removed with a touch of work.
-	#
-	#	Don't @ me if this breaks something though. 
-	#						I am a comment, not a doctor
-	# #######################################################################
-
-  ("troop_note_alpha_mask", 0, "mat_troop_portrait_mask", 1024, 1024, 0, 0, 400, 400,
+  ("troop_note_alpha_mask", 0, "solid_gray", 1024, 1024, 0, 0, 400, 400,
    [
-       (store_script_param, ":troop_no", 1),
-       (cur_tableau_set_background_color, 0x00888888),
-       (cur_tableau_set_ambient_light, 10,11,15),
-       (cur_tableau_render_as_alpha_mask),
-       (call_script, "script_add_troop_to_cur_tableau", ":troop_no"),
        ]),
 
-  ("troop_note_color", 0, "mat_troop_portrait_color", 1024, 1024, 0, 0, 400, 400,
+  ("troop_note_color", 0, "solid_gray", 1024, 1024, 0, 0, 400, 400,
    [
-       (store_script_param, ":troop_no", 1),
-       (cur_tableau_set_background_color, 0xFFC6BB94),
-       (cur_tableau_set_ambient_light, 10,11,15),
-       (call_script, "script_add_troop_to_cur_tableau", ":troop_no"),
        ]),
 
-  ("troop_character_alpha_mask", 0, "mat_troop_portrait_mask", 1024, 1024, 0, 0, 400, 400,
+  ("troop_character_alpha_mask", 0, "solid_gray", 1024, 1024, 0, 0, 400, 400,
    [
-       (store_script_param, ":troop_no", 1),
-       (cur_tableau_set_background_color, 0x00888888),
-       (cur_tableau_set_ambient_light, 10,11,15),
-       (cur_tableau_render_as_alpha_mask),
-       (call_script, "script_add_troop_to_cur_tableau_for_character", ":troop_no"),
        ]),
 
-  ("troop_character_color", 0, "mat_troop_portrait_color", 1024, 1024, 0, 0, 400, 400,
+  ("troop_character_color", 0, "solid_gray", 1024, 1024, 0, 0, 400, 400,
    [
-       (store_script_param, ":troop_no", 1),
-       (cur_tableau_set_background_color, 0xFFE0CFB1),
-       (cur_tableau_set_ambient_light, 10,11,15),
-       (call_script, "script_add_troop_to_cur_tableau_for_character", ":troop_no"),
        ]),
   
-  ("troop_inventory_alpha_mask", 0, "mat_troop_portrait_mask", 1024, 1024, 0, 0, 400, 400,
+  ("troop_inventory_alpha_mask", 0, "solid_gray", 1024, 1024, 0, 0, 400, 400,
    [
-       (store_script_param, ":troop_no", 1),
-       (cur_tableau_set_background_color, 0x00888888),
-       (cur_tableau_set_ambient_light, 10,11,15),
-       (cur_tableau_render_as_alpha_mask),
-       (call_script, "script_add_troop_to_cur_tableau_for_inventory", ":troop_no"),
        ]),
 
-  ("troop_inventory_color", 0, "mat_troop_portrait_color", 1024, 1024, 0, 0, 400, 400,
+  ("troop_inventory_color", 0, "solid_gray", 1024, 1024, 0, 0, 400, 400,
    [
-       (store_script_param, ":troop_no", 1),
-       (cur_tableau_set_background_color, 0xFF6A583A),
-       (cur_tableau_set_ambient_light, 10,11,15),
-       (call_script, "script_add_troop_to_cur_tableau_for_inventory", ":troop_no"),
        ]),
 
-  ("troop_profile_alpha_mask", 0, "mat_troop_portrait_mask", 1024, 1024, 0, 0, 400, 400,
+  ("troop_profile_alpha_mask", 0, "solid_gray", 1024, 1024, 0, 0, 400, 400,
    [
-       (store_script_param, ":troop_no", 1),
-       (cur_tableau_set_background_color, 0x00888888),
-       (cur_tableau_set_ambient_light, 10,11,15),
-       (cur_tableau_render_as_alpha_mask),
-       (call_script, "script_add_troop_to_cur_tableau_for_profile", ":troop_no"),
        ]),
 
-  ("troop_profile_color", 0, "mat_troop_portrait_color", 1024, 1024, 0, 0, 400, 400,
+  ("troop_profile_color", 0, "solid_gray", 1024, 1024, 0, 0, 400, 400,
    [
-       (store_script_param, ":troop_no", 1),
-       (cur_tableau_set_background_color, 0xFFF9E7A8),
-       (cur_tableau_set_ambient_light, 10,11,15),
-       (call_script, "script_add_troop_to_cur_tableau_for_profile", ":troop_no"),
        ]),
 
 
-  ("troop_party_alpha_mask", 0, "mat_troop_portrait_mask", 1024, 1024, 0, 0, 400, 400,
+  ("troop_party_alpha_mask", 0, "solid_gray", 1024, 1024, 0, 0, 400, 400,
    [
-       (store_script_param, ":troop_no", 1),
-       (cur_tableau_set_background_color, 0x00888888),
-       (cur_tableau_set_ambient_light, 10,11,15),
-       (cur_tableau_render_as_alpha_mask),
-       (call_script, "script_add_troop_to_cur_tableau_for_party", ":troop_no"),
        ]),
 
-  ("troop_party_color", 0, "mat_troop_portrait_color", 1024, 1024, 0, 0, 400, 400,
+  ("troop_party_color", 0, "solid_gray", 1024, 1024, 0, 0, 400, 400,
    [
-       (store_script_param, ":troop_no", 1),
-       (cur_tableau_set_background_color, 0xFFBE9C72),
-       (cur_tableau_set_ambient_light, 10,11,15),
-       (call_script, "script_add_troop_to_cur_tableau_for_party", ":troop_no"),
        ]),
 
-  ("troop_note_mesh", 0, "tableau_with_transparency", 1024, 1024, 0, 0, 350, 350,
+  ("troop_note_mesh", 0, "solid_gray", 1024, 1024, 0, 0, 350, 350,
    [
-       (store_script_param, ":troop_no", 1),
-       (cur_tableau_set_background_color, 0xFF888888),
-       (cur_tableau_set_ambient_light, 10,11,15),
-       (set_fixed_point_multiplier, 100),
-       (cur_tableau_set_camera_parameters, 0, 40, 40, 0, 100000),
-
-       (init_position, pos1),
-       (position_set_z, pos1, 100),
-       (position_set_x, pos1, -20),
-       (position_set_y, pos1, -20),
-       (cur_tableau_add_tableau_mesh, "tableau_troop_note_color", ":troop_no", pos1, 0, 0),
-       (position_set_z, pos1, 200),
-       (cur_tableau_add_tableau_mesh, "tableau_troop_note_alpha_mask", ":troop_no", pos1, 0, 0),
-       (position_set_z, pos1, 300),
        ]),
 
-  ("center_note_mesh", 0, "tableau_with_transparency", 1024, 1024, 0, 0, 200, 200,
+  ("center_note_mesh", 0, "solid_gray", 1024, 1024, 0, 0, 200, 200,
    [
-       (store_script_param, ":center_no", 1),
-       (set_fixed_point_multiplier, 100),
-       (cur_tableau_set_background_color, 0x00888888),
-       (cur_tableau_set_ambient_light, 10,11,15),
-       
-       (init_position, pos8),
-       (position_set_x, pos8, -210),
-       (position_set_y, pos8, 200),
-       (position_set_z, pos8, 300),
-       (cur_tableau_add_point_light, pos8, 550,500,450),
-
-       (cur_tableau_set_camera_parameters, 1, 10, 10, 10, 10000),
-
-       (init_position, pos1),
-       (position_set_z, pos1, 0),
-       (position_set_z, pos1, -500),
-
-
-       (init_position, pos1),
-       (position_set_y, pos1, -100),
-       (position_set_x, pos1, -100),
-       (position_set_z, pos1, 100),
-       (position_rotate_z, pos1, 200),
-
-       (party_get_icon, ":map_icon", ":center_no"),
-       (try_begin),
-         (ge, ":map_icon", 0),
-         (cur_tableau_add_map_icon, ":map_icon", pos1, 0),
-       (try_end),
-
-       (init_position, pos5),
-       (position_set_x, pos5, -90),
-       (position_set_z, pos5, 500),
-       (position_set_y, pos5, 480),
-       (position_rotate_x, pos5, -90),
-       (position_rotate_z, pos5, 180),
-       (position_rotate_x, pos5, -35),
-       (cur_tableau_set_camera_position, pos5),
        ]),
 ]
