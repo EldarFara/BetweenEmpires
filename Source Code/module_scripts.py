@@ -646,7 +646,7 @@ scripts = [
 (store_script_param, ":start_date", 1),
 # parameters that aren't dependant on starting date
 (call_script, "script_add_province", 0, 49534, 42272, faction_france),
-(call_script, "script_add_province", 1, 46335, 42196, faction_france),
+(call_script, "script_add_province", 1, 46335, 42196, faction_france, 2, 3, -1, -1, -1),
 (call_script, "script_add_province", 2, 47126, 42460, faction_france),
 (call_script, "script_add_province", 3, 46982, 41908, faction_france),
 (call_script, "script_add_province", 4, 47126, 41332, faction_france),
@@ -925,6 +925,11 @@ scripts = [
 (store_script_param, ":x", 2),
 (store_script_param, ":y", 3),
 (store_script_param, ":owner_faction", 4), # used for provinces, owners of which are same in any date. for date-specific owners, initialize_provinces_owners is used
+(store_script_param, ":border_province1", 5),
+(store_script_param, ":border_province2", 6),
+(store_script_param, ":border_province3", 7),
+(store_script_param, ":border_province4", 8),
+(store_script_param, ":sea_province", 9),
 
 (array_set_val, "$provinces", ":x", ":index", province_x),
 (array_set_val, "$provinces", ":y", ":index", province_y),
