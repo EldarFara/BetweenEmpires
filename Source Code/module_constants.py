@@ -3,8 +3,9 @@ number_of_factions = 31
 
 number_of_factions_parameters = 4
 number_of_factions_strings = 5
-number_of_provinces_parameters = 8
+number_of_provinces_parameters = 9
 number_of_provinces_strings = 1
+number_of_provinces_borders = 10
 number_of_global_parameters = 6
 
 number_of_resources = 1
@@ -28,6 +29,7 @@ province_initparam_literacy_multiplier                                        = 
 province_resource_bonus_type                                                  = 5
 province_owner                                                                = 6
 province_prop1                                                                = 7
+province_bordering_sea_province                                               = 8
 
 province_string_name                                                          = 0
 
