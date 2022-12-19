@@ -925,14 +925,19 @@ scripts = [
 (store_script_param, ":x", 2),
 (store_script_param, ":y", 3),
 (store_script_param, ":owner_faction", 4), # used for provinces, owners of which are same in any date. for date-specific owners, initialize_provinces_owners is used
+# 5-14 are bordering land provinces
+(store_script_param, ":bordering_sea_province", 15),
 
 (array_set_val, "$provinces", ":x", ":index", province_x),
 (array_set_val, "$provinces", ":y", ":index", province_y),
 (array_set_val, "$provinces", ":owner_faction", ":index", province_owner),
+(array_set_val, "$provinces", ":bordering_sea_province", ":index", province_bordering_sea_province),
 
-    # (try_for_range, ":param", 4, 14+1),
-    # (store_script_param, ":bordering_province", ":param"),
-    # (try_end),
+    (try_for_range, ":param", 5, 14+1), # 10 bordering provinces
+    (store_script_param, ":bordering_province", ":param"),
+    (store_add, ":array_param", ":param", -5),
+    (array_set_val, "$provinces_borders", ":bordering_sea_province", ":index", ":array_param"),
+    (try_end),
 ]),
 
 # Global containers initialization
@@ -943,11 +948,13 @@ scripts = [
 (array_create, "$factions_strings", 1, number_of_factions, number_of_factions_strings),
 (array_create, "$provinces", 0, number_of_provinces, number_of_provinces_parameters),
 (array_create, "$provinces_strings", 1, number_of_provinces, number_of_provinces_strings),
+(array_create, "$provinces_borders", 0, number_of_provinces, number_of_provinces_borders),
 (array_create, "$provinces_manufacturers", 0, number_of_provinces, number_of_resources),
 
 (array_set_val_all, "$globals", -1),
 (array_set_val_all, "$factions", -1),
 (array_set_val_all, "$provinces", -1),
+(array_set_val_all, "$provinces_borders", -1),
 (array_set_val_all, "$provinces_manufacturers", -1),
 ]),
 
