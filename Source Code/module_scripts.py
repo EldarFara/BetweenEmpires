@@ -681,7 +681,7 @@ scripts = [
 (call_script, "script_add_province", 33, 46177, 43790, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 34, 46749, 44700, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 35, 46333, 44986, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
-(call_script, "script_add_province", 36, 46177, 46480, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 36, 46244, 45527, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 37, 45423, 44674, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 38, 45293, 44206, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 39, 44721, 44336, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
