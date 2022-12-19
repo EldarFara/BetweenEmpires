@@ -925,15 +925,14 @@ scripts = [
 (store_script_param, ":x", 2),
 (store_script_param, ":y", 3),
 (store_script_param, ":owner_faction", 4), # used for provinces, owners of which are same in any date. for date-specific owners, initialize_provinces_owners is used
-(store_script_param, ":border_province1", 5),
-(store_script_param, ":border_province2", 6),
-(store_script_param, ":border_province3", 7),
-(store_script_param, ":border_province4", 8),
-(store_script_param, ":sea_province", 9),
 
 (array_set_val, "$provinces", ":x", ":index", province_x),
 (array_set_val, "$provinces", ":y", ":index", province_y),
 (array_set_val, "$provinces", ":owner_faction", ":index", province_owner),
+
+    # (try_for_range, ":param", 4, 14+1),
+    # (store_script_param, ":bordering_province", ":param"),
+    # (try_end),
 ]),
 
 # Global containers initialization
@@ -1341,6 +1340,8 @@ scripts = [
         (try_end),
         (try_begin),
         (ge, ":closest_province", 0),
+(assign, reg0, ":closest_province"),
+(display_message, "@{reg0}"),
             (try_begin), # Set faction for faction selection if province has owner
             (array_eq, "$globals", ui_mode_faction_selection, global_ui_mode),
             (array_ge, "$provinces", 0, ":closest_province", province_owner),
