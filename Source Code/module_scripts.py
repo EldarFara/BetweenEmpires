@@ -884,21 +884,15 @@ scripts = [
 (call_script, "script_add_province", 236, 51893, 45589, faction_sweden, 237, 235, 233, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 237, 51453, 45193, faction_sweden, 235, 236, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 
-(call_script, "script_initialize_faction_provinces_arrays"),
-
 # parameters that are dependant on starting date
 (call_script, "script_initialize_provinces_owners", ":start_date"),
+(call_script, "script_initialize_faction_provinces_arrays"),
 
     (try_for_range, ":faction", 0, number_of_factions),
     (call_script, "script_faction_calculate_if_active", ":faction"),
     (try_end),
-]),
 
-# Set provinces owners according to start date
-("initialize_provinces_owners", [
-(store_script_param, ":start_date", 1),
-
-
+(call_script, "script_initialize_provinces_parameters"),
 
 ]),
 
@@ -924,8 +918,10 @@ scripts = [
 (array_set_val, "$provinces", ":x", ":index", province_x),
 (array_set_val, "$provinces", ":y", ":index", province_y),
 (array_set_val, "$provinces", ":owner_faction", ":index", province_owner),
-(array_set_val, "$provinces", ":owner_faction", ":index", province_controller),
 (array_set_val, "$provinces", ":sea_province", ":index", province_bordering_sea_province),
+(array_set_val, "$provinces", 100, ":index", province_initparam_population_multiplier),
+(array_set_val, "$provinces", 100, ":index", province_initparam_literacy_multiplier),
+(array_set_val, "$provinces", 100, ":index", province_initparam_urbanization_multiplier),
 
     (try_for_range, ":param", 5, 14+1),
     (store_script_param, ":bordering_province", ":param"),
@@ -936,6 +932,84 @@ scripts = [
 (store_add, ":string_name", "str_province0", ":index"),
 (sss, s1, ":string_name"),
 (array_set_val, "$provinces_strings", s1, ":index", province_string_name),
+]),
+
+# Set provinces parameters according to initparams
+("initialize_provinces_parameters", [
+
+    (try_for_range, ":faction", 0, number_of_factions),
+    (array_eq, "$factions", 1, ":faction", faction_is_active),
+    (array_get_val, ":faction_population", "$factions", ":faction", faction_population),
+    (array_get_val, ":faction_literacy", "$factions", ":faction", faction_literacy),
+    (array_get_val, ":faction_urbanization", "$factions", ":faction", faction_urbanization),
+    (array_get_val, ":array_provinces_owned", "$factions", ":faction", faction_array_provinces_owned),
+    (array_get_dim_size, ":array_size", ":array_provinces_owned", 0),
+    # For initparam_population_multiplier we calculate sum of all provinces multiplier,
+    # and for province_initparam_literacy_multiplier and province_initparam_urbanization_multiplier we calculate the average.
+    (assign, ":sum_population_multiplier", 0),
+    (assign, ":sum_literacy_multiplier", 0),
+    (assign, ":sum_urbanization_multiplier", 0),
+        (try_for_range, ":index", 0, ":array_size"),
+        (array_get_val, ":province", ":array_provinces_owned", ":index"),
+        (array_get_val, ":population_multiplier", "$provinces", ":province", province_initparam_population_multiplier),
+        (array_get_val, ":literacy_multiplier", "$provinces", ":province", province_initparam_literacy_multiplier),
+        (array_get_val, ":urbanization_multiplier", "$provinces", ":province", province_initparam_urbanization_multiplier),
+        (val_add, ":sum_population_multiplier", ":population_multiplier"),
+        (val_add, ":sum_literacy_multiplier", ":population_multiplier"),
+        (val_add, ":sum_urbanization_multiplier", ":population_multiplier"),
+        (try_end),
+    (store_div, ":average_literacy_multiplier", ":sum_literacy_multiplier", ":array_size"),
+    (store_div, ":average_urbanization_multiplier", ":sum_urbanization_multiplier", ":array_size"),
+        (try_for_range, ":index", 0, ":array_size"),
+        (array_get_val, ":province", ":array_provinces_owned", ":index"),
+        (array_get_val, ":population_multiplier", "$provinces", ":province", province_initparam_population_multiplier),
+        (array_get_val, ":literacy_multiplier", "$provinces", ":province", province_initparam_literacy_multiplier),
+        (array_get_val, ":urbanization_multiplier", "$provinces", ":province", province_initparam_urbanization_multiplier),
+        # province_population = (population_multiplier / sum_population_multiplier) * faction_population
+        (store_mul, ":province_population_multiplier", ":population_multiplier", 100),
+        (val_div, ":province_population_multiplier", ":sum_population_multiplier"),
+        (val_max, ":province_population_multiplier", 1),
+        (store_mul, ":province_population", ":faction_population", ":province_population_multiplier"),
+        (val_div, ":province_population", 100),
+        (array_set_val, "$provinces", ":province_population", ":index", province_population),
+        # province_literacy = literacy_multiplier * ((average_literacy_multiplier/100) * faction_literacy)
+        (store_mul, ":province_literacy", ":average_literacy_multiplier", ":faction_literacy"),
+        (val_div, ":province_literacy", 100),
+        (val_mul, ":province_literacy", ":literacy_multiplier"),
+        (val_div, ":province_literacy", 100),
+        (array_set_val, "$provinces", ":province_literacy", ":index", province_literacy),
+        # province_urbanization = urbanization_multiplier * ((average_urbanization_multiplier/100) * faction_urbanization)
+        (store_mul, ":province_urbanization", ":average_urbanization_multiplier", ":faction_urbanization"),
+        (val_div, ":province_urbanization", 100),
+        (val_mul, ":province_urbanization", ":urbanization_multiplier"),
+        (val_div, ":province_urbanization", 100),
+        (array_set_val, "$provinces", ":province_urbanization", ":index", province_urbanization),
+        (try_end),
+    (try_end),
+
+]),
+
+# Set provinces owners according to start date
+("initialize_provinces_owners", [
+(store_script_param, ":start_date", 1),
+
+    (try_begin),
+    (eq, ":start_date", 1861),
+    (else_try),
+    (eq, ":start_date", 1877),
+    (array_set_val, "$provinces", faction_prussia, 0, province_owner),
+    (else_try),
+    (eq, ":start_date", 1914),
+    (else_try),
+    (eq, ":start_date", 1919),
+    (else_try),
+    (eq, ":start_date", 1936),
+    (try_end),
+
+    (try_for_range, ":province", 0, number_of_provinces),
+    (array_get_val, ":owner", "$provinces", ":province", province_owner),
+    (array_set_val, "$provinces", ":owner", ":province", province_controller),
+    (try_end),
 ]),
 
 # Fill faction arrays with provinces, can be called during both new game or load game initialization

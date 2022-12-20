@@ -3,7 +3,7 @@ number_of_factions = 31
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
-number_of_provinces_parameters = 11
+number_of_provinces_parameters = 14
 number_of_provinces_strings = 1
 number_of_provinces_borders = 10
 number_of_global_parameters = 6
@@ -35,6 +35,9 @@ province_prop1                                                                = 
 province_index_overlay                                                        = 8
 province_controller                                                           = 9
 province_bordering_sea_province                                               = 10
+province_population                                                           = 11
+province_urbanization                                                         = 12
+province_literacy                                                             = 13
 
 province_string_name                                                          = 0
 

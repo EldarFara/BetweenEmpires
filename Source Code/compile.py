@@ -445,9 +445,9 @@ except MSException:
 
 print
 if WRECK.successful:
-	print '{2}COMPILATION SUCCESSFUL.{0}\n'.format(*COLORAMA)
+	print '{2}NIPAH! COMPILATION SUCCESSFUL.{0}\n'.format(*COLORAMA)
 else:
-	print '{1}COMPILATION FAILED.{0}\n'.format(*COLORAMA)
+	print '{1}MIIII.... COMPILATION FAILED.{0}\n'.format(*COLORAMA)
 
 error_reporting_level = 3
 if 'silent' in sys.argv: error_reporting_level = 0
