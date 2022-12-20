@@ -85,5 +85,5 @@ script_world_map_prsnt_frame = 83
 script_world_map_ui_faction_selection = 84
 script_world_map_ui_process_province_click = 85
 script_world_map_ui_province_small_menu = 86
-script_world_map_ui_start_black_dot = 87
-script_world_map_ui_black_dot_frame = 88
+script_world_map_ui_start_devmode = 87
+script_world_map_ui_frame_devmode = 88
