@@ -884,20 +884,14 @@ scripts = [
 (call_script, "script_add_province", 236, 51893, 45589, faction_sweden, 237, 235, 233, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 237, 51453, 45193, faction_sweden, 235, 236, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 
-(call_script, "script_initialize_provinces_population"),
+(call_script, "script_initialize_faction_provinces_arrays"),
 
 # parameters that are dependant on starting date
 (call_script, "script_initialize_provinces_owners", ":start_date"),
 
-]),
-
-# Calculate provinces population according to faction population and population multipliers
-("initialize_provinces_population", [
-
     (try_for_range, ":faction", 0, number_of_factions),
+    (call_script, "script_faction_calculate_if_active", ":faction"),
     (try_end),
-
-
 ]),
 
 # Set provinces owners according to start date
@@ -924,15 +918,43 @@ scripts = [
 (store_script_param, ":index", 1), # array index in $provinces
 (store_script_param, ":x", 2),
 (store_script_param, ":y", 3),
-(store_script_param, ":owner_faction", 4), # used for provinces, owners of which are same in any date. for date-specific owners, initialize_provinces_owners is used
+(store_script_param, ":owner_faction", 4),
+(store_script_param, ":sea_province", 15),
 
 (array_set_val, "$provinces", ":x", ":index", province_x),
 (array_set_val, "$provinces", ":y", ":index", province_y),
 (array_set_val, "$provinces", ":owner_faction", ":index", province_owner),
+(array_set_val, "$provinces", ":owner_faction", ":index", province_controller),
+(array_set_val, "$provinces", ":sea_province", ":index", province_bordering_sea_province),
 
-    # (try_for_range, ":param", 4, 14+1),
-    # (store_script_param, ":bordering_province", ":param"),
-    # (try_end),
+    (try_for_range, ":param", 5, 14+1),
+    (store_script_param, ":bordering_province", ":param"),
+    (store_add, ":province_param", ":param", -5),
+    (array_set_val, "$provinces_borders", ":bordering_province", ":index", ":province_param"),
+    (try_end),
+    
+(store_add, ":string_name", "str_province0", ":index"),
+(sss, s1, ":string_name"),
+(array_set_val, "$provinces_strings", s1, ":index", province_string_name),
+]),
+
+# Fill faction arrays with provinces, can be called during both new game or load game initialization
+("initialize_faction_provinces_arrays", [
+
+    (try_for_range, ":faction", 0, number_of_factions),
+    (array_create, ":array", 0, 1),
+    (array_set_val, "$factions", ":array", ":faction", faction_array_provinces_owned),
+    (array_create, ":array", 0, 1),
+    (array_set_val, "$factions", ":array", ":faction", faction_array_provinces_controlled),
+    (try_end),
+    (try_for_range, ":province", 0, number_of_provinces),
+    (array_get_val, ":controller", "$provinces", ":province", province_controller),
+    (array_get_val, ":owner", "$provinces", ":province", province_owner),
+    (array_get_val, ":array_provinces_owned", "$factions", ":owner", faction_array_provinces_owned),
+    (array_get_val, ":array_provinces_controlled", "$factions", ":controller", faction_array_provinces_controlled),
+    (array_push, ":array_provinces_owned", ":province"),
+    (array_push, ":array_provinces_controlled", ":province"),
+    (try_end),
 ]),
 
 # Global containers initialization
@@ -942,6 +964,7 @@ scripts = [
 (array_create, "$factions", 0, number_of_factions, number_of_factions_parameters),
 (array_create, "$factions_strings", 1, number_of_factions, number_of_factions_strings),
 (array_create, "$provinces", 0, number_of_provinces, number_of_provinces_parameters),
+(array_create, "$provinces_borders", 0, number_of_provinces, number_of_provinces_borders),
 (array_create, "$provinces_strings", 1, number_of_provinces, number_of_provinces_strings),
 (array_create, "$provinces_manufacturers", 0, number_of_provinces, number_of_resources),
 
@@ -949,6 +972,21 @@ scripts = [
 (array_set_val_all, "$factions", -1),
 (array_set_val_all, "$provinces", -1),
 (array_set_val_all, "$provinces_manufacturers", -1),
+]),
+
+# Sets 0 to faction_is_active if faction doesnt have owned provinces, otherwise sets 1
+# Should be called when faction loses province
+("faction_calculate_if_active", [
+(store_script_param, ":faction", 1),
+
+(array_get_val, ":array_provinces_owned", "$factions", ":faction", faction_array_provinces_owned),
+(array_get_dim_size, ":array_size", ":array_provinces_owned", 0),
+    (try_begin),
+    (le, ":array_size", 0),
+    (array_set_val, "$factions", 0, ":faction", faction_is_active),
+    (else_try),
+    (array_set_val, "$factions", 1, ":faction", faction_is_active),
+    (try_end),
 ]),
 
 # Called when agent spawns on the world map, i. e. player agent.
@@ -982,7 +1020,7 @@ scripts = [
     (store_add, ":prop_type", "spr_province0", ":province"),
     (spawn_scene_prop, ":prop_type"),
     (array_set_val, "$provinces", reg0, ":province", province_prop1),
-    (array_get_val, ":faction", "$provinces", ":province", province_owner),
+    (array_get_val, ":faction", "$provinces", ":province", province_controller),
         (try_begin),
         (neq, ":faction", -1),
         (array_get_val, s1, "$factions_strings", ":faction", faction_string_color),
@@ -1340,12 +1378,10 @@ scripts = [
         (try_end),
         (try_begin),
         (ge, ":closest_province", 0),
-(assign, reg0, ":closest_province"),
-(display_message, "@{reg0}"),
             (try_begin), # Set faction for faction selection if province has owner
             (array_eq, "$globals", ui_mode_faction_selection, global_ui_mode),
-            (array_ge, "$provinces", 0, ":closest_province", province_owner),
-            (array_get_val, ":faction", "$provinces", ":closest_province", province_owner),
+            (array_ge, "$provinces", 0, ":closest_province", province_controller),
+            (array_get_val, ":faction", "$provinces", ":closest_province", province_controller),
             (array_set_val, "$globals", ":faction", global_faction_selection_selected_faction),
             (try_end),
         (try_end),

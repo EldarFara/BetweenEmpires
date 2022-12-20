@@ -127,3 +127,4 @@ ui_start_game
 ui_faction_selection_title
 ui_bottom_panel_flag
 devmode_enabled
+provinces_borders

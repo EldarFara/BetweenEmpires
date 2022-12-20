@@ -1,10 +1,11 @@
 number_of_provinces = 238
 number_of_factions = 31
 
-number_of_factions_parameters = 4
+number_of_factions_parameters = 7
 number_of_factions_strings = 5
-number_of_provinces_parameters = 9
+number_of_provinces_parameters = 11
 number_of_provinces_strings = 1
+number_of_provinces_borders = 10
 number_of_global_parameters = 6
 
 number_of_resources = 1
@@ -13,6 +14,9 @@ faction_population                                                            = 
 faction_urbanization                                                          = 1
 faction_literacy                                                              = 2
 faction_money                                                                 = 3
+faction_array_provinces_owned                                                 = 4
+faction_array_provinces_controlled                                            = 5
+faction_is_active                                                             = 6
 
 faction_string_name                                                           = 0
 faction_string_name_short                                                     = 1
@@ -29,9 +33,12 @@ province_resource_bonus_type                                                  = 
 province_owner                                                                = 6
 province_prop1                                                                = 7
 province_index_overlay                                                        = 8
+province_controller                                                           = 9
+province_bordering_sea_province                                               = 10
 
 province_string_name                                                          = 0
 
+no_faction              = -1
 faction_france          = 0
 faction_belgium         = 1
 faction_netherlands     = 2
