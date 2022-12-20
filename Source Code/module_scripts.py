@@ -645,7 +645,7 @@ scripts = [
 ("initialize_provinces", [
 (store_script_param, ":start_date", 1),
 # parameters that aren't dependant on starting date
-(call_script, "script_add_province", 0, 49534, 42272, faction_france, 79, 105, 42, 19, 23, 13, 41, -1, -1, -1, -1),
+(call_script, "script_add_province", 0, 49481, 42387, faction_france, 79, 105, 42, 19, 23, 13, 41, -1, -1, -1, -1),
 (call_script, "script_add_province", 1, 46335, 42196, faction_france, 2, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 2, 47126, 42460, faction_france, 14, 5, 1, 3, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 3, 46982, 41908, faction_france, 1, 2, 4, 5, -1, -1, -1, -1, -1, -1, -1, -1),
@@ -813,11 +813,11 @@ scripts = [
 (call_script, "script_add_province", 165, 55650, 39950, faction_ottoman, 168, 166, 167, 164, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 166, 55675, 40325, faction_ottoman, 156, 168, 165, 160, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 167, 55050, 39850, faction_ottoman, 168, 169, 148, 165, -1, -1, -1, -1, -1, -1, -1),
-(call_script, "script_add_province", 168, 55650, 40275, faction_ottoman, 155, 156, 170, 169, 167, 165, 166, -1, -1, -1, -1),
+(call_script, "script_add_province", 168, 55042, 40302, faction_ottoman, 155, 156, 170, 169, 167, 165, 166, -1, -1, -1, -1),
 (call_script, "script_add_province", 169, 54525, 39925, faction_ottoman, 170, 145, 141, 147, 167, 168, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 170, 54525, 40400, faction_ottoman, 155, 145, 169, 167, 168, -1, -1, -1, -1, -1, -1),
-(call_script, "script_add_province", 171, 56058, 41829, faction_russia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
-(call_script, "script_add_province", 172, 55402, 42772, faction_russia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 171, 56574, 41862, faction_russia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 172, 56094, 42582, faction_russia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 173, 55442, 42748, faction_russia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 174, 55074, 43346, faction_russia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 175, 55994, 43208, faction_russia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
