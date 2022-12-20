@@ -3,7 +3,7 @@ number_of_factions = 31
 
 number_of_factions_parameters = 4
 number_of_factions_strings = 5
-number_of_provinces_parameters = 8
+number_of_provinces_parameters = 9
 number_of_provinces_strings = 1
 number_of_global_parameters = 6
 
@@ -28,6 +28,7 @@ province_initparam_literacy_multiplier                                        = 
 province_resource_bonus_type                                                  = 5
 province_owner                                                                = 6
 province_prop1                                                                = 7
+province_index_overlay                                                        = 8
 
 province_string_name                                                          = 0
 
@@ -76,3 +77,5 @@ ui_mode_province_menu_small    = 1
 ui_mode_province_menu_full     = 2
 ui_mode_faction_menu           = 3
 ui_mode_faction_selection      = 4
+
+province_select_radius = 10

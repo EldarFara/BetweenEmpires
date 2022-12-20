@@ -1191,7 +1191,7 @@ scripts = [
 (presentation_set_duration, 9999999),
 (set_fixed_point_multiplier, 1000),
 
-(call_script, "script_world_map_ui_start_black_dot"),
+(call_script, "script_world_map_ui_start_devmode"),
 (call_script, "script_world_map_ui_start_faction_selection"),
 (call_script, "script_world_map_ui_start_bottom_panel"),
 
@@ -1265,7 +1265,7 @@ scripts = [
 ("world_map_prsnt_frame", [
 (set_fixed_point_multiplier, 1000),
 
-(call_script, "script_world_map_ui_black_dot_frame"),
+(call_script, "script_world_map_ui_frame_devmode"),
 (call_script, "script_world_map_ui_faction_selection"),
 (call_script, "script_world_map_ui_process_province_click"),
 (call_script, "script_world_map_ui_province_small_menu"),
@@ -1335,7 +1335,7 @@ scripts = [
         (try_end),
     (set_fixed_point_multiplier, 1000),
         (try_begin),
-        (ge, ":closest_province_distance_to_mouse", 7), # If distance is above that, then probably nothing at all was selected
+        (ge, ":closest_province_distance_to_mouse", province_select_radius), # If distance is above that, then probably sea province was selected
         (assign, ":closest_province", -1),
         (try_end),
         (try_begin),
@@ -1357,26 +1357,66 @@ scripts = [
 (set_fixed_point_multiplier, 1000),
 ]),
 
-# Black dot scripts. Black dot on center of screen is toggled by backspace and is used for getting position coordinates on the map
-("world_map_ui_start_black_dot", [
+# Dev mode is toggled by pressing F3 button
+("world_map_ui_start_devmode", [
 (create_mesh_overlay, "$ui_black_dot", "mesh_black_dot"),
 (position_set_x, pos1, 500),
 (position_set_y, pos1, 375),
 (overlay_set_position, "$ui_black_dot", pos1),
 (overlay_set_display, "$ui_black_dot", 0),
-(assign, "$ui_black_dot_is_visible", 0),
+(assign, "$devmode_enabled", 0),
 ]),
 
-("world_map_ui_black_dot_frame", [
+("world_map_ui_frame_devmode", [
+(set_fixed_point_multiplier, 1000),
+(close_order_menu),
     (try_begin),
-    (key_clicked, key_back_space),
+    (key_clicked, key_f3),
         (try_begin),
-        (eq, "$ui_black_dot_is_visible", 0),
-        (assign, "$ui_black_dot_is_visible", 1),
+        (eq, "$devmode_enabled", 0),
+        (assign, "$devmode_enabled", 1),
+            (try_begin), # Display index of each province on map
+                (try_for_range, ":province", 0, number_of_provinces),
+                (array_get_val, ":overlay", "$provinces", ":province", province_index_overlay),
+                    (try_begin),
+                    (eq, ":overlay", -1),
+                    (assign, reg0, ":province"),
+                    (create_text_overlay, ":overlay", "@{reg0}", tf_center_justify|tf_vertical_align_center),
+                    (array_set_val, "$provinces", ":overlay", ":province", province_index_overlay),
+                    (position_set_x, pos1, 700),
+                    (position_set_y, pos1, 700),
+                    (overlay_set_size, ":overlay", pos1),
+                    (else_try),
+                    (overlay_set_display, ":overlay", 1),
+                    (try_end),
+                (try_end),
+            (try_end),
         (else_try),
-        (assign, "$ui_black_dot_is_visible", 0),
+        (assign, "$devmode_enabled", 0),
+            (try_for_range, ":province", 0, number_of_provinces),
+            (array_get_val, ":overlay", "$provinces", ":province", province_index_overlay),
+            (neq, ":overlay", -1),
+            (overlay_set_display, ":overlay", 0),
+            (try_end),
         (try_end),
-    (overlay_set_display, "$ui_black_dot", "$ui_black_dot_is_visible"),
+    (overlay_set_display, "$ui_black_dot", "$devmode_enabled"),
+    (try_end),
+    
+    
+    (try_begin),
+    (eq, "$devmode_enabled", 1),
+    (init_position, pos1),
+        (try_for_range, ":province", 0, number_of_provinces),
+        (array_get_val, ":overlay", "$provinces", ":province", province_index_overlay),
+        (array_get_val, ":x", "$provinces", ":province", province_x),
+        (array_get_val, ":y", "$provinces", ":province", province_y),
+        (set_fixed_point_multiplier, 100),
+        (position_set_x, pos1, ":x"),
+        (position_set_y, pos1, ":y"),
+        (set_fixed_point_multiplier, 1000),
+        (position_get_screen_projection, pos2, pos1),
+        (overlay_set_position, ":overlay", pos2),
+        (try_end),
     (try_end),
 ]),
 
