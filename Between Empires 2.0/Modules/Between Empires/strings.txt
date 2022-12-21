@@ -1,5 +1,5 @@
 stringsfile version 1
-333
+346
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -333,3 +333,16 @@ str_province304 North_Sakhalin
 str_province305 Magadan
 str_province306 Kamchatka
 str_province307 Chukotka
+str_province308 Chechnya
+str_province309 Astrakhan
+str_province310 Circassia
+str_province311 Nikolaevsk
+str_province312 Taganrog
+str_province313 Novouzensk
+str_province314 Bryansk
+str_province315 Velikiye_Luki
+str_province316 Rzhev
+str_province317 Valdai
+str_province318 Kaluga
+str_province319 Tula
+str_province320 Voronezh
