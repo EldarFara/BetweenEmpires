@@ -1,4 +1,4 @@
-191
+201
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -190,3 +190,13 @@ qstr_faction_color_swedno faction_color_swednor
 qstr_Swedish Swedish
 qstr_Turkey Turkey
 qstr_{s1}___{s2} {s1}_-_{s2}
+qstr_Caucasian_Imamate Caucasian_Imamate
+qstr_Caucasia Caucasia
+qstr_faction_flag_caucasi faction_flag_caucasia
+qstr_faction_color_caucas faction_color_caucasia
+qstr_Caucasian Caucasian
+qstr_Circassian_Confedera Circassian_Confederation
+qstr_Circassia Circassia
+qstr_faction_flag_circass faction_flag_circassia
+qstr_faction_color_circas faction_color_circassia
+qstr_Circassian Circassian

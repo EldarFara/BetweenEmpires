@@ -1,5 +1,5 @@
-number_of_provinces = 238
-number_of_factions = 31
+number_of_provinces = 308
+number_of_factions = 33
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
@@ -73,6 +73,8 @@ faction_romania         = 27
 faction_moldavia        = 28
 faction_russia          = 29
 faction_sweden          = 30
+faction_caucasia        = 31
+faction_circassia       = 32
 
 
 global_date_year                                                              = 0
