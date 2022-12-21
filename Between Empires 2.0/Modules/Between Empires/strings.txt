@@ -1,5 +1,5 @@
 stringsfile version 1
-346
+356
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -271,7 +271,7 @@ str_province242 Smolensk
 str_province243 Moscow
 str_province244 Belgorod
 str_province245 Rostov
-str_province246 Ekaterinodar
+str_province246 Yekaterinodar
 str_province247 Stavropol
 str_province248 Dagestan
 str_province249 Kalmykia-Astrakhan
@@ -340,9 +340,19 @@ str_province311 Nikolaevsk
 str_province312 Taganrog
 str_province313 Novouzensk
 str_province314 Bryansk
-str_province315 Velikiye_Luki
+str_province315 Velikie_Luki
 str_province316 Rzhev
 str_province317 Valdai
 str_province318 Kaluga
 str_province319 Tula
 str_province320 Voronezh
+str_province321 Abkhazia
+str_province322 Western_Georgia
+str_province323 Eastern_Georgia
+str_province324 Northern_Armenia
+str_province325 Southern_Armenia
+str_province326 Nakhchivan
+str_province327 Upper_Karabakh
+str_province328 Ganja
+str_province329 Northeastern_Azerbaijan
+str_province330 Southern_Azerbaijan
