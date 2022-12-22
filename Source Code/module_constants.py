@@ -1,5 +1,5 @@
 number_of_provinces = 366
-number_of_factions = 36
+number_of_factions = 37
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
