@@ -1,5 +1,5 @@
 stringsfile version 1
-391
+411
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -391,3 +391,23 @@ str_province362 Pishpek
 str_province363 Karakol
 str_province364 Karotegin
 str_province365 Badakhshan
+str_province366 Northwest_Anatolia
+str_province367 Ionia
+str_province368 Southwest_Anatolia
+str_province369 South_Anatolia
+str_province370 Central_Anatolia
+str_province371 North_Anatolia
+str_province372 Sebastia
+str_province373 Trebizond
+str_province374 Southeast_Anatolia
+str_province375 East_Anatolia
+str_province376 West_Armenia
+str_province377 Hatay
+str_province378 Cyprus
+str_province379 Al-Hasakah
+str_province380 Aleppo
+str_province381 Deir-ez-Zor
+str_province382 Homs
+str_province383 Idlib
+str_province384 Damascus
+str_province385 Lebanon

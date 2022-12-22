@@ -1,5 +1,5 @@
 scene_propsfile version 1
- 394
+ 414
 spr_invalid_object 0 0 invisible 0 0
 
 
@@ -1184,5 +1184,65 @@ spr_province364 0 0 province364 0 0
 
 
 spr_province365 0 0 province365 0 0
+
+
+spr_province366 0 0 province366 0 0
+
+
+spr_province367 0 0 province367 0 0
+
+
+spr_province368 0 0 province368 0 0
+
+
+spr_province369 0 0 province369 0 0
+
+
+spr_province370 0 0 province370 0 0
+
+
+spr_province371 0 0 province371 0 0
+
+
+spr_province372 0 0 province372 0 0
+
+
+spr_province373 0 0 province373 0 0
+
+
+spr_province374 0 0 province374 0 0
+
+
+spr_province375 0 0 province375 0 0
+
+
+spr_province376 0 0 province376 0 0
+
+
+spr_province377 0 0 province377 0 0
+
+
+spr_province378 0 0 province378 0 0
+
+
+spr_province379 0 0 province379 0 0
+
+
+spr_province380 0 0 province380 0 0
+
+
+spr_province381 0 0 province381 0 0
+
+
+spr_province382 0 0 province382 0 0
+
+
+spr_province383 0 0 province383 0 0
+
+
+spr_province384 0 0 province384 0 0
+
+
+spr_province385 0 0 province385 0 0
 
 
