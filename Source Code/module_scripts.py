@@ -1057,6 +1057,7 @@ scripts = [
 (call_script, "script_add_province", 398, 57343, 38851, faction_ottoman, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 399, 58625, 35466, faction_ottoman, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 400, 58747, 35794, faction_ottoman, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 401, 58747, 35794, faction_usa, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 
 # Initparam multipliers
 # Index, population_multiplier, literacy_multiplier, urbanization_multiplier
