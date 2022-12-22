@@ -1,5 +1,5 @@
 stringsfile version 1
-356
+373
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -356,3 +356,20 @@ str_province327 Upper_Karabakh
 str_province328 Ganja
 str_province329 Northeastern_Azerbaijan
 str_province330 Southern_Azerbaijan
+str_province331 Guryev
+str_province332 Uralsk
+str_province333 Mangystau
+str_province334 Aktobe
+str_province335 Kostanay
+str_province336 Petropavl
+str_province337 Akmolinsk
+str_province338 Pavlodar
+str_province339 Abai
+str_province340 Ust-Kamenogorsk
+str_province341 Ulytau
+str_province342 Karaganda
+str_province343 Kyzylorda
+str_province344 Shymkent
+str_province345 Jambyl
+str_province346 Verny
+str_province347 Taldy-Kurgan
