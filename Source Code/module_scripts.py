@@ -1017,8 +1017,29 @@ scripts = [
 (call_script, "script_add_province", 359, 67636, 38464, faction_khiva, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 360, 67558, 37801, faction_khiva, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 
-# parameters that are dependant on starting date
-(call_script, "script_initialize_provinces_owners", ":start_date"),
+# Initparam multipliers
+# Index, population_multiplier, literacy_multiplier, urbanization_multiplier
+(call_script, "script_province_set_initparams", 191, 130, 150, 140),
+(call_script, "script_province_set_initparams", 307, 50, 80, 70),
+
+    (try_begin),
+    (eq, ":start_date", 1861),
+    (else_try),
+    (eq, ":start_date", 1877),
+    (array_set_val, "$provinces", faction_prussia, 0, province_owner),
+    (else_try),
+    (eq, ":start_date", 1914),
+    (else_try),
+    (eq, ":start_date", 1919),
+    (else_try),
+    (eq, ":start_date", 1936),
+    (try_end),
+
+    (try_for_range, ":province", 0, number_of_provinces),
+    (array_get_val, ":owner", "$provinces", ":province", province_owner),
+    (array_set_val, "$provinces", ":owner", ":province", province_controller),
+    (try_end),
+    
 (call_script, "script_initialize_faction_provinces_arrays"),
 
     (try_for_range, ":faction", 0, number_of_factions),
@@ -1065,6 +1086,18 @@ scripts = [
 (store_add, ":string_name", "str_province0", ":index"),
 (sss, s1, ":string_name"),
 (array_set_val, "$provinces_strings", s1, ":index", province_string_name),
+]),
+
+# Set initparams for one province
+("province_set_initparams", [
+(store_script_param, ":index", 1),
+(store_script_param, ":population_multiplier", 2),
+(store_script_param, ":literacy_multiplier", 3),
+(store_script_param, ":urbanization_multiplier", 4),
+
+(array_set_val, "$provinces", ":population_multiplier", ":index", province_initparam_population_multiplier),
+(array_set_val, "$provinces", ":literacy_multiplier", ":index", province_initparam_literacy_multiplier),
+(array_set_val, "$provinces", ":urbanization_multiplier", ":index", province_initparam_urbanization_multiplier),
 ]),
 
 # Set provinces parameters according to initparams
@@ -1120,29 +1153,6 @@ scripts = [
         (try_end),
     (try_end),
 
-]),
-
-# Set provinces owners according to start date
-("initialize_provinces_owners", [
-(store_script_param, ":start_date", 1),
-
-    (try_begin),
-    (eq, ":start_date", 1861),
-    (else_try),
-    (eq, ":start_date", 1877),
-    (array_set_val, "$provinces", faction_prussia, 0, province_owner),
-    (else_try),
-    (eq, ":start_date", 1914),
-    (else_try),
-    (eq, ":start_date", 1919),
-    (else_try),
-    (eq, ":start_date", 1936),
-    (try_end),
-
-    (try_for_range, ":province", 0, number_of_provinces),
-    (array_get_val, ":owner", "$provinces", ":province", province_owner),
-    (array_set_val, "$provinces", ":owner", ":province", province_controller),
-    (try_end),
 ]),
 
 # Fill faction arrays with provinces, can be called during both new game or load game initialization
