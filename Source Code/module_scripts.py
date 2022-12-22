@@ -1215,7 +1215,7 @@ scripts = [
         (else_try), # if province doesnt have owner (uncolonized land), use neutral color instead
         (sss, s1, "@solid_gray"),
         (try_end),
-    #(prop_instance_set_material, reg0, -1, s1),
+    (prop_instance_set_material, reg0, -1, s1),
     (try_end),
 
 # Setting up camera
