@@ -448,4 +448,6 @@ strings = [
 ("province396", "Samsun"),
 ("province397", "Van"),
 ("province398", "Ankara"),
+("province399", "Israel"),
+("province400", "West Bank"),
 ]

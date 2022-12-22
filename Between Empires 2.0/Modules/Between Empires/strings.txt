@@ -1,5 +1,5 @@
 stringsfile version 1
-424
+426
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -424,3 +424,5 @@ str_province395 Afyonkarahisar
 str_province396 Samsun
 str_province397 Van
 str_province398 Ankara
+str_province399 Israel
+str_province400 West_Bank
