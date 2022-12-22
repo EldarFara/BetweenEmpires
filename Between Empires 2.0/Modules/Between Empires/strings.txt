@@ -354,8 +354,8 @@ str_province325 Southern_Armenia
 str_province326 Nakhchivan
 str_province327 Upper_Karabakh
 str_province328 Ganja
-str_province329 Northeastern_Azerbaijan
-str_province330 Southern_Azerbaijan
+str_province329 Baku
+str_province330 Talysh
 str_province331 Guryev
 str_province332 Uralsk
 str_province333 Mangystau
