@@ -78,6 +78,7 @@ faction_circassia       = 32
 faction_bukhara         = 33
 faction_khiva           = 34
 faction_kokand          = 35
+faction_usa             = 36
 
 
 global_date_year                                                              = 0

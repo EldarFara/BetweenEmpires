@@ -1,4 +1,4 @@
-215
+220
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -214,3 +214,8 @@ qstr_Khanate_of_Kokand Khanate_of_Kokand
 qstr_Kokand Kokand
 qstr_faction_flag_kokand faction_flag_kokand
 qstr_faction_color_kokand faction_color_kokand
+qstr_United_States_of_Ame United_States_of_America
+qstr_USA USA
+qstr_faction_flag_usa31 faction_flag_usa31
+qstr_faction_color_usa faction_color_usa
+qstr_American American

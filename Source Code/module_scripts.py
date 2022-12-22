@@ -606,6 +606,7 @@ scripts = [
 (sss, s1, "@Emirate of Bukhara"), (sss, s2, "@Bukhara"), (sss, s3, "@faction_flag_bukhara"), (sss, s4, "@faction_color_bukhara"), (sss, s5, "@Bukharan"), (call_script, "script_add_faction", faction_bukhara),
 (sss, s1, "@Khanate of Khiva"), (sss, s2, "@Khiva"), (sss, s3, "@faction_flag_khiva"), (sss, s4, "@faction_color_khiva"), (sss, s5, "@Khivan"), (call_script, "script_add_faction", faction_khiva),
 (sss, s1, "@Khanate of Kokand"), (sss, s2, "@Kokand"), (sss, s3, "@faction_flag_kokand"), (sss, s4, "@faction_color_kokand"), (sss, s5, "@Kokand"), (call_script, "script_add_faction", faction_kokand),
+(sss, s1, "@United States of America"), (sss, s2, "@USA"), (sss, s3, "@faction_flag_usa31"), (sss, s4, "@faction_color_usa"), (sss, s5, "@American"), (call_script, "script_add_faction", faction_usa),
 
 # parameters that are dependant on starting date
     (try_begin),
