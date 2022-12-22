@@ -603,6 +603,9 @@ scripts = [
 (sss, s1, "@Kingdom of Sweden-Norway"), (sss, s2, "@Sweden-Norway"), (sss, s3, "@faction_flag_swednor"), (sss, s4, "@faction_color_swednor"), (sss, s5, "@Swedish"), (call_script, "script_add_faction", faction_sweden),
 (sss, s1, "@Caucasian Imamate"), (sss, s2, "@Caucasia"), (sss, s3, "@faction_flag_caucasia"), (sss, s4, "@faction_color_caucasia"), (sss, s5, "@Caucasian"), (call_script, "script_add_faction", faction_caucasia),
 (sss, s1, "@Circassian Confederation"), (sss, s2, "@Circassia"), (sss, s3, "@faction_flag_circassia"), (sss, s4, "@faction_color_circassia"), (sss, s5, "@Circassian"), (call_script, "script_add_faction", faction_circassia),
+(sss, s1, "@Emirate of Bukhara"), (sss, s2, "@Bukhara"), (sss, s3, "@faction_flag_bukhara"), (sss, s4, "@faction_color_bukhara"), (sss, s5, "@Bukharan"), (call_script, "script_add_faction", faction_bukhara),
+(sss, s1, "@Khanate of Khiva"), (sss, s2, "@Khiva"), (sss, s3, "@faction_flag_khiva"), (sss, s4, "@faction_color_khiva"), (sss, s5, "@Khivan"), (call_script, "script_add_faction", faction_khiva),
+(sss, s1, "@Khanate of Kokand"), (sss, s2, "@Kokand"), (sss, s3, "@faction_flag_kokand"), (sss, s4, "@faction_color_kokand"), (sss, s5, "@Kokand"), (call_script, "script_add_faction", faction_kokand),
 
 # parameters that are dependant on starting date
     (try_begin),
@@ -640,6 +643,9 @@ scripts = [
     (array_set_val, "$factions", 49320000, faction_sweden, faction_population),
     (array_set_val, "$factions", 2443000, faction_caucasia, faction_population),
     (array_set_val, "$factions", 97000, faction_circassia, faction_population),
+    (array_set_val, "$factions", 2258000, faction_bukhara, faction_population),
+    (array_set_val, "$factions", 1580000, faction_khiva, faction_population),
+    (array_set_val, "$factions", 329000, faction_kokand, faction_population),
     (else_try),
     (try_end),
     
@@ -982,7 +988,7 @@ scripts = [
 (call_script, "script_add_province", 330, 62884, 38700, faction_russia, 329, 327, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 331, 63247, 41930, faction_russia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 332, 62558, 42937, faction_russia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
-(call_script, "script_add_province", 333, 64042, 40605, faction_russia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 333, 64042, 40605, faction_khiva, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 334, 65102, 42407, faction_russia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 335, 66480, 43573, faction_russia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 336, 68070, 44315, faction_russia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
@@ -997,6 +1003,19 @@ scripts = [
 (call_script, "script_add_province", 345, 69956, 40604, faction_russia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 346, 71564, 40537, faction_russia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 347, 71899, 41140, faction_russia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 348, 65318, 40456, faction_khiva, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 349, 66496, 40146, faction_khiva, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 350, 67736, 39836, faction_bukhara, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 351, 67612, 39030, faction_bukhara, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 352, 68542, 38658, faction_bukhara, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 353, 69038, 38162, faction_bukhara, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 354, 69193, 39278, faction_kokand, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 355, 70122, 39308, faction_kokand, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 356, 64901, 38932, faction_khiva, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 357, 66232, 38542, faction_khiva, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 358, 65959, 39478, faction_khiva, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 359, 67636, 38464, faction_khiva, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 360, 67558, 37801, faction_khiva, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 
 # parameters that are dependant on starting date
 (call_script, "script_initialize_provinces_owners", ":start_date"),

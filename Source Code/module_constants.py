@@ -1,5 +1,5 @@
-number_of_provinces = 348
-number_of_factions = 33
+number_of_provinces = 361
+number_of_factions = 36
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
@@ -75,6 +75,9 @@ faction_russia          = 29
 faction_sweden          = 30
 faction_caucasia        = 31
 faction_circassia       = 32
+faction_bukhara         = 33
+faction_khiva           = 34
+faction_kokand          = 35
 
 
 global_date_year                                                              = 0

@@ -1,4 +1,4 @@
-201
+215
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -200,3 +200,17 @@ qstr_Circassia Circassia
 qstr_faction_flag_circass faction_flag_circassia
 qstr_faction_color_circas faction_color_circassia
 qstr_Circassian Circassian
+qstr_Emirate_of_Bukhara Emirate_of_Bukhara
+qstr_Bukhara Bukhara
+qstr_faction_flag_bukhara faction_flag_bukhara
+qstr_faction_color_bukhar faction_color_bukhara
+qstr_Bukharan Bukharan
+qstr_Khanate_of_Khiva Khanate_of_Khiva
+qstr_Khiva Khiva
+qstr_faction_flag_khiva faction_flag_khiva
+qstr_faction_color_khiva faction_color_khiva
+qstr_Khivan Khivan
+qstr_Khanate_of_Kokand Khanate_of_Kokand
+qstr_Kokand Kokand
+qstr_faction_flag_kokand faction_flag_kokand
+qstr_faction_color_kokand faction_color_kokand

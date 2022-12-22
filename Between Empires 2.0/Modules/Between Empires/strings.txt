@@ -1,5 +1,5 @@
 stringsfile version 1
-373
+386
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -373,3 +373,16 @@ str_province344 Shymkent
 str_province345 Jambyl
 str_province346 Verny
 str_province347 Taldy-Kurgan
+str_province348 Karakalpak
+str_province349 Khorezm
+str_province350 Karmana
+str_province351 Bukhara
+str_province352 Samarkand
+str_province353 Tirmidh
+str_province354 Tashkent
+str_province355 Fergana
+str_province356 Transcaspia
+str_province357 Akhal
+str_province358 Dashoguz
+str_province359 Turkmenabad
+str_province360 Merv
