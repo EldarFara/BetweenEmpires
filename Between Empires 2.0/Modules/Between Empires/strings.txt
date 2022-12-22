@@ -1,5 +1,5 @@
 stringsfile version 1
-411
+424
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -411,3 +411,16 @@ str_province382 Homs
 str_province383 Idlib
 str_province384 Damascus
 str_province385 Lebanon
+str_province386 Al-Anbar
+str_province387 Nineveh
+str_province388 Kurdistan
+str_province389 Diyala
+str_province390 Baghdad
+str_province391 Najaf
+str_province392 Maysan
+str_province393 Basrah
+str_province394 Kuwait
+str_province395 Afyonkarahisar
+str_province396 Samsun
+str_province397 Van
+str_province398 Ankara
