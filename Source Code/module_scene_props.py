@@ -506,4 +506,9 @@ scene_props = [
 ("province358",0,"province358","0",[]),
 ("province359",0,"province359","0",[]),
 ("province360",0,"province360","0",[]),
+("province361",0,"province361","0",[]),
+("province362",0,"province362","0",[]),
+("province363",0,"province363","0",[]),
+("province364",0,"province364","0",[]),
+("province365",0,"province365","0",[]),
 ]

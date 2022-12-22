@@ -1,5 +1,5 @@
 stringsfile version 1
-386
+391
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -386,3 +386,8 @@ str_province357 Akhal
 str_province358 Dashoguz
 str_province359 Turkmenabad
 str_province360 Merv
+str_province361 Jalal-Abad
+str_province362 Pishpek
+str_province363 Karakol
+str_province364 Karotegin
+str_province365 Badakhshan

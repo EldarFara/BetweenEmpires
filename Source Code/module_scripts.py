@@ -645,7 +645,7 @@ scripts = [
     (array_set_val, "$factions", 97000, faction_circassia, faction_population),
     (array_set_val, "$factions", 2258000, faction_bukhara, faction_population),
     (array_set_val, "$factions", 1580000, faction_khiva, faction_population),
-    (array_set_val, "$factions", 329000, faction_kokand, faction_population),
+    (array_set_val, "$factions", 729000, faction_kokand, faction_population),
     (else_try),
     (try_end),
     
@@ -1016,6 +1016,11 @@ scripts = [
 (call_script, "script_add_province", 358, 65959, 39478, faction_khiva, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 359, 67636, 38464, faction_khiva, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 (call_script, "script_add_province", 360, 67558, 37801, faction_khiva, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 361, 70775, 39199, faction_kokand, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 362, 70985, 39934, faction_kokand, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 363, 71661, 39622, faction_kokand, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 364, 69486, 38608, faction_bukhara, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
+(call_script, "script_add_province", 365, 70786, 38218, faction_bukhara, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1),
 
 # parameters that are dependant on starting date
 (call_script, "script_initialize_provinces_owners", ":start_date"),

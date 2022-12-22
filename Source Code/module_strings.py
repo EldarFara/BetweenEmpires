@@ -410,4 +410,9 @@ strings = [
 ("province358", "Dashoguz"),
 ("province359", "Turkmenabad"),
 ("province360", "Merv"),
+("province361", "Jalal-Abad"),
+("province362", "Pishpek"),
+("province363", "Karakol"),
+("province364", "Karotegin"),
+("province365", "Badakhshan"),
 ]
