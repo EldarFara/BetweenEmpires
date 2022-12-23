@@ -1084,6 +1084,9 @@ scripts = [
 (call_script, "script_add_province", 469, 66161, 33781, faction_iran, 466, 465, 467, 468, 471, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 470, 67358, 34978, faction_iran, 463, 468, 471, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 471, 67547, 33781, faction_iran, 469, 468, 470, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 472, 59613, 35986, faction_ottoman, 386, 382, 384, 473, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 473, 59136, 35679, faction_ottoman, 472, 384, 399, 400, 474, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 474, 59163, 35139, faction_ottoman, 399, 473, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 
 # Initparam multipliers
 # Index, population_multiplier, literacy_multiplier, urbanization_multiplier
