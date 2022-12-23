@@ -498,3 +498,6 @@ spr_province468 = 496
 spr_province469 = 497
 spr_province470 = 498
 spr_province471 = 499
+spr_province472 = 500
+spr_province473 = 501
+spr_province474 = 502

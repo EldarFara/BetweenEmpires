@@ -1,5 +1,5 @@
 stringsfile version 1
-429
+454
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -429,3 +429,28 @@ str_province400 West_Bank
 str_province401 Washington
 str_province402 Oregon
 str_province403 California
+str_province450 South_Azerbaijan
+str_province451 Ardabil
+str_province452 East_Kurdistan
+str_province453 Qazvin
+str_province454 Luristan
+str_province455 Qom
+str_province456 Tehran
+str_province457 Khuzestan
+str_province458 Najafabad
+str_province459 Esfahan
+str_province460 Semnan
+str_province461 North_Khorasan
+str_province462 Razavi_Khorasan
+str_province463 South_Khorasan
+str_province464 Yazd
+str_province465 Fars
+str_province466 Bushehr
+str_province467 Sirjan
+str_province468 Kerman
+str_province469 Hormozgan
+str_province470 Sistan
+str_province471 Baluchestan
+str_province472 Al-Mafraq
+str_province473 Amman
+str_province474 Aqaba
