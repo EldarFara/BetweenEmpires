@@ -1078,7 +1078,7 @@ scripts = [
 (call_script, "script_add_province", 463, 66728, 35986, faction_iran, 462, 464, 467, 468, 470, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 464, 65531, 35734, faction_iran, 460, 459, 465, 467, 463, 462, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 465, 64964, 34600, faction_iran, 466, 457, 458, 459, 464, 467, 469, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 466, 64721, 34474, faction_iran, 457, 465, 469, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 466, 64198, 34495, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 467, 65846, 35104, faction_iran, 464, 465, 469, 468, 463, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 468, 66539, 34663, faction_iran, 463, 467, 469, 471, 470, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 469, 66161, 33781, faction_iran, 466, 465, 467, 468, 471, -1, -1, -1, -1, -1, -1, terrain_plains),
