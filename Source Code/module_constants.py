@@ -3,7 +3,7 @@ number_of_factions = 37
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
-number_of_provinces_parameters = 14
+number_of_provinces_parameters = 15
 number_of_provinces_strings = 1
 number_of_provinces_borders = 10
 number_of_global_parameters = 6
@@ -38,6 +38,7 @@ province_bordering_sea_province                                               = 
 province_population                                                           = 11
 province_urbanization                                                         = 12
 province_literacy                                                             = 13
+province_terrain                                                              = 14
 
 province_string_name                                                          = 0
 
@@ -95,3 +96,22 @@ ui_mode_faction_menu           = 3
 ui_mode_faction_selection      = 4
 
 province_select_radius = 10
+
+terrain_plains                   = 0
+terrain_hills                    = 1
+terrain_mountains                = 2
+terrain_forest                   = 3
+terrain_steppe                   = 4
+terrain_steppe_forest            = 5
+terrain_steppe_hills             = 6
+terrain_steppe_mountains         = 7
+terrain_desert                   = 8
+terrain_desert_hills             = 9
+terrain_desert_mountains         = 10
+terrain_taiga                    = 11
+terrain_tundra                   = 12
+terrain_prairie                  = 13
+terrain_tropical_forest          = 14
+terrain_tropical_forest_dense    = 15
+terrain_marshes                  = 16
+terrain_savanna                  = 17
