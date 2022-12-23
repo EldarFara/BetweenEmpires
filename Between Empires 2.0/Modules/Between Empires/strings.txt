@@ -1,5 +1,5 @@
 stringsfile version 1
-427
+429
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -427,3 +427,5 @@ str_province398 Ankara
 str_province399 Israel
 str_province400 West_Bank
 str_province401 Washington
+str_province402 Oregon
+str_province403 California
