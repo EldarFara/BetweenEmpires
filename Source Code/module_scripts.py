@@ -607,6 +607,7 @@ scripts = [
 (sss, s1, "@Khanate of Khiva"), (sss, s2, "@Khiva"), (sss, s3, "@faction_flag_khiva"), (sss, s4, "@faction_color_khiva"), (sss, s5, "@Khivan"), (call_script, "script_add_faction", faction_khiva),
 (sss, s1, "@Khanate of Kokand"), (sss, s2, "@Kokand"), (sss, s3, "@faction_flag_kokand"), (sss, s4, "@faction_color_kokand"), (sss, s5, "@Kokand"), (call_script, "script_add_faction", faction_kokand),
 (sss, s1, "@United States of America"), (sss, s2, "@USA"), (sss, s3, "@faction_flag_usa31"), (sss, s4, "@faction_color_usa"), (sss, s5, "@American"), (call_script, "script_add_faction", faction_usa),
+(sss, s1, "@Sublime State of Persia"), (sss, s2, "@Persia"), (sss, s3, "@faction_flag_qajar"), (sss, s4, "@faction_color_qajar"), (sss, s5, "@Persian"), (call_script, "script_add_faction", faction_iran),
 
 # parameters that are dependant on starting date
     (try_begin),
@@ -647,6 +648,7 @@ scripts = [
     (array_set_val, "$factions", 2258000, faction_bukhara, faction_population),
     (array_set_val, "$factions", 1580000, faction_khiva, faction_population),
     (array_set_val, "$factions", 729000, faction_kokand, faction_population),
+    (array_set_val, "$factions", 7735000, faction_iran, faction_population),
     (else_try),
     (try_end),
     
@@ -1060,6 +1062,28 @@ scripts = [
 (call_script, "script_add_province", 401, 9802, 41948, faction_usa, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 402, 8838, 40559, faction_usa, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 403, 7618, 37997, faction_usa, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 450, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 451, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 452, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 453, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 454, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 455, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 456, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 457, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 458, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 459, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains), 
+(call_script, "script_add_province", 460, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 461, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 462, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 463, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 464, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 465, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 466, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 467, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 468, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 469, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 470, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 471, 1, 1, faction_iran, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 
 # Initparam multipliers
 # Index, population_multiplier, literacy_multiplier, urbanization_multiplier

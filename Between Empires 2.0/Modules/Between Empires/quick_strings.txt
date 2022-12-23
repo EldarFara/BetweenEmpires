@@ -1,4 +1,4 @@
-220
+225
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -219,3 +219,8 @@ qstr_USA USA
 qstr_faction_flag_usa31 faction_flag_usa31
 qstr_faction_color_usa faction_color_usa
 qstr_American American
+qstr_Sublime_State_of_Per Sublime_State_of_Persia
+qstr_Persia Persia
+qstr_faction_flag_qajar faction_flag_qajar
+qstr_faction_color_qajar faction_color_qajar
+qstr_Persian Persian
