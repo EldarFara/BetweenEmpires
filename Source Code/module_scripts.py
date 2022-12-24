@@ -608,6 +608,7 @@ scripts = [
 (sss, s1, "@Khanate of Kokand"), (sss, s2, "@Kokand"), (sss, s3, "@faction_flag_kokand"), (sss, s4, "@faction_color_kokand"), (sss, s5, "@Kokand"), (call_script, "script_add_faction", faction_kokand),
 (sss, s1, "@United States of America"), (sss, s2, "@USA"), (sss, s3, "@faction_flag_usa31"), (sss, s4, "@faction_color_usa"), (sss, s5, "@American"), (call_script, "script_add_faction", faction_usa),
 (sss, s1, "@Sublime State of Persia"), (sss, s2, "@Persia"), (sss, s3, "@faction_flag_qajar"), (sss, s4, "@faction_color_qajar"), (sss, s5, "@Persian"), (call_script, "script_add_faction", faction_iran),
+(sss, s1, "@Great Qing"), (sss, s2, "@China"), (sss, s3, "@faction_flag_qingearly"), (sss, s4, "@faction_color_qing"), (sss, s5, "@Chinese"), (call_script, "script_add_faction", faction_china),
 
 # parameters that are dependant on starting date
     (try_begin),
@@ -1088,6 +1089,16 @@ scripts = [
 (call_script, "script_add_province", 473, 59136, 35679, faction_ottoman, 472, 384, 399, 400, 474, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 474, 59163, 35139, faction_ottoman, 399, 473, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 
+(call_script, "script_add_province", 496, 75339, 42259, faction_china, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 497, 1, 1, faction_china, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 498, 1, 1, faction_china, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 499, 1, 1, faction_china, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 500, 1, 1, faction_china, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 501, 1, 1, faction_china, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 502, 1, 1, faction_china, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 503, 1, 1, faction_china, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+
+
 # Initparam multipliers
 # Index, population_multiplier, literacy_multiplier, urbanization_multiplier
 (call_script, "script_province_set_initparams", 191, 130, 150, 140),
@@ -1238,6 +1249,7 @@ scripts = [
     (array_set_val, "$factions", ":array", ":faction", faction_array_provinces_controlled),
     (try_end),
     (try_for_range, ":province", 0, number_of_provinces),
+    (neg|array_eq, "$provinces", -1, ":province", province_controller),
     (array_get_val, ":controller", "$provinces", ":province", province_controller),
     (array_get_val, ":owner", "$provinces", ":province", province_owner),
     (array_get_val, ":array_provinces_owned", "$factions", ":owner", faction_array_provinces_owned),
@@ -1367,7 +1379,7 @@ scripts = [
     (key_clicked, key_space),
     (position_get_x, reg0, pos1),
     (position_get_y, reg1, pos1),
-    (display_message, "@{reg0} {reg1}"),
+    (display_message, "@{reg0}, {reg1}"),
     (try_end),
 ]),
 ("world_map_camera_movement_5ms", [

@@ -1,5 +1,5 @@
-number_of_provinces = 475
-number_of_factions = 38
+number_of_provinces = 504
+number_of_factions = 39
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
@@ -81,6 +81,7 @@ faction_khiva           = 34
 faction_kokand          = 35
 faction_usa             = 36
 faction_iran            = 37
+faction_china           = 38
 
 
 global_date_year                                                              = 0

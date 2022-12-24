@@ -1,4 +1,4 @@
-225
+230
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -224,3 +224,8 @@ qstr_Persia Persia
 qstr_faction_flag_qajar faction_flag_qajar
 qstr_faction_color_qajar faction_color_qajar
 qstr_Persian Persian
+qstr_Great_Qing Great_Qing
+qstr_China China
+qstr_faction_flag_qingear faction_flag_qingearly
+qstr_faction_color_qing faction_color_qing
+qstr_Chinese Chinese
