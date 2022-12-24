@@ -1111,7 +1111,7 @@ scripts = [
 (call_script, "script_add_province", 480, 64538, 31574, faction_saudi, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 481, 59284, 34163, faction_ottoman, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 482, 60428, 32863, faction_ottoman, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 483, 61000, 31583, faction_ottoman, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 483, 60991, 31597, faction_ottoman, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 483, 62196, 30315, faction_ottoman, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 484, 62343, 30453, faction_ottoman, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 485, 62248, 29275, faction_ottoman, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
