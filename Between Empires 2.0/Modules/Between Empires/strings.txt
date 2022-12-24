@@ -1,5 +1,5 @@
 stringsfile version 1
-529
+545
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -521,11 +521,27 @@ str_province492 Maysan
 str_province493 Basrah
 str_province494 Kuwait
 str_province495 Afyonkarahisar
-str_province496 Samsun
-str_province497 Van
-str_province498 Ankara
-str_province499 Israel
-str_province500 West_Bank
-str_province501 Washington
-str_province502 Oregon
-str_province503 California
+str_province496 _
+str_province497 _
+str_province498 _
+str_province499 _
+str_province500 _
+str_province501 _
+str_province502 _
+str_province503 _
+str_province504 _
+str_province505 _
+str_province506 _
+str_province507 _
+str_province508 _
+str_province509 _
+str_province510 _
+str_province511 _
+str_province512 _
+str_province513 _
+str_province514 _
+str_province515 _
+str_province516 _
+str_province517 _
+str_province518 _
+str_province519 _
