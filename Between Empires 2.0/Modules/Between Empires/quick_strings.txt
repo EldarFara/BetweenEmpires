@@ -1,4 +1,4 @@
-231
+267
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -230,3 +230,39 @@ qstr_faction_flag_qingear faction_flag_qingearly
 qstr_faction_color_qing faction_color_qing
 qstr_Chinese Chinese
 qstr_{reg0}_{reg1}1 {reg0},_{reg1}
+qstr_Emirate_of_Jabal_Sha Emirate_of_Jabal_Shammar
+qstr_Shammar Shammar
+qstr_faction_flag_shammar faction_flag_shammar
+qstr_faction_color_shamma faction_color_shammar
+qstr_Shammari Shammari
+qstr_Emirate_of_Nejd Emirate_of_Nejd
+qstr_Nejd Nejd
+qstr_faction_flag_nejd faction_flag_nejd
+qstr_faction_color_saudi faction_color_saudi
+qstr_Najdi Najdi
+qstr_Mahra_State_of_Qishn Mahra_State_of_Qishn_and_Socotra
+qstr_Mahra Mahra
+qstr_faction_flag_mahra faction_flag_mahra
+qstr_faction_color_mahra faction_color_mahra
+qstr_Mahri Mahri
+qstr_Kathiri_State_of_Sei Kathiri_State_of_Seiyun
+qstr_Kathiri Kathiri
+qstr_faction_flag_kathiri faction_flag_kathiri
+qstr_faction_color_kathir faction_color_kathiri
+qstr_Omani_Empire Omani_Empire
+qstr_Oman Oman
+qstr_faction_flag_omanold faction_flag_omanold
+qstr_faction_color_oman faction_color_oman
+qstr_Omani Omani
+qstr_Trucial_States Trucial_States
+qstr_faction_flag_trucial faction_flag_trucial
+qstr_faction_color_uae faction_color_uae
+qstr_Trucial Trucial
+qstr_State_of_Qatar State_of_Qatar
+qstr_Qatar Qatar
+qstr_faction_flag_qatar faction_flag_qatar
+qstr_faction_color_qatar faction_color_qatar
+qstr_faction_flag_trucialo faction_flag_trucialold
+qstr_faction_flag_red faction_flag_red
+qstr_faction_color_trucia faction_color_trucial
+qstr_faction_flag_truciale faction_flag_trucialearly

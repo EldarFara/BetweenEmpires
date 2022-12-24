@@ -1,5 +1,5 @@
 number_of_provinces = 520
-number_of_factions = 39
+number_of_factions = 46
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
@@ -82,6 +82,13 @@ faction_kokand          = 35
 faction_usa             = 36
 faction_iran            = 37
 faction_china           = 38
+faction_rashidi         = 39
+faction_saudi           = 40
+faction_mahra           = 41
+faction_kathiri         = 42
+faction_oman            = 43
+faction_trucial         = 44
+faction_qatar           = 45
 
 
 global_date_year                                                              = 0
