@@ -1,5 +1,5 @@
 stringsfile version 1
-572
+587
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -572,3 +572,18 @@ str_province543 Upper_Egypt
 str_province544 Greenland
 str_province545 West_Iceland
 str_province546 East_Iceland
+str_province547 East_Iceland
+str_province548 East_Iceland
+str_province549 East_Iceland
+str_province550 East_Iceland
+str_province551 East_Iceland
+str_province552 East_Iceland
+str_province553 East_Iceland
+str_province554 East_Iceland
+str_province555 East_Iceland
+str_province556 East_Iceland
+str_province557 East_Iceland
+str_province558 East_Iceland
+str_province559 East_Iceland
+str_province560 East_Iceland
+str_province561 East_Iceland
