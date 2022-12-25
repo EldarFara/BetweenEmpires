@@ -1,5 +1,5 @@
 stringsfile version 1
-564
+572
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -558,9 +558,17 @@ str_province529 Punjab
 str_province530 Quetta
 str_province531 Balochistan
 str_province532 Sindh
-str_province533 _
-str_province534 _
-str_province535 _
-str_province536 _
-str_province537 _
-str_province538 _
+str_province533 Chongjin
+str_province534 Pyongyang
+str_province535 Kaesong
+str_province536 Hanseong
+str_province537 Daejeon
+str_province538 Busan
+str_province539 Sinai
+str_province540 Cairo
+str_province541 El_Alamein
+str_province542 Aswan
+str_province543 Upper_Egypt
+str_province544 Greenland
+str_province545 West_Iceland
+str_province546 East_Iceland

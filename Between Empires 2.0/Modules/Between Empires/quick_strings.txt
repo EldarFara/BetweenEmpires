@@ -1,4 +1,4 @@
-277
+287
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -276,3 +276,13 @@ qstr_Herat Herat
 qstr_faction_flag_durrani faction_flag_durrani
 qstr_faction_color_durran faction_color_durrani
 qstr_Herati Herati
+qstr_Khedivate_of_Egypt Khedivate_of_Egypt
+qstr_Egypt Egypt
+qstr_faction_flag_egypt faction_flag_egypt
+qstr_faction_color_egypt faction_color_egypt
+qstr_Egyptian Egyptian
+qstr_Great_Joseon Great_Joseon
+qstr_Joseon Joseon
+qstr_faction_flag_joseon faction_flag_joseon
+qstr_faction_color_joseon faction_color_joseon
+qstr_Korean Korean
