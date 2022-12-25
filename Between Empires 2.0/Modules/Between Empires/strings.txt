@@ -1,5 +1,5 @@
 stringsfile version 1
-558
+564
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -558,3 +558,9 @@ str_province529 Punjab
 str_province530 Quetta
 str_province531 Balochistan
 str_province532 Sindh
+str_province533 _
+str_province534 _
+str_province535 _
+str_province536 _
+str_province537 _
+str_province538 _
