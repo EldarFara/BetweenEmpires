@@ -569,5 +569,13 @@ strings = [
 ("province517", "Dalian"),
 ("province518", "Jilin"),
 ("province519", "Port Arthur"),
+("province520", "Herat"),
+("province521", "Helmand"),
+("province522", "Daykundi"),
+("province523", "Bamiyan"),
+("province524", "Balkh"),
+("province525", "Baghlan"),
+("province526", "Kabul"),
+("province527", "South Badakhshan"),
 
 ]

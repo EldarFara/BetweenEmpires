@@ -616,6 +616,8 @@ scripts = [
 (sss, s1, "@Omani Empire"), (sss, s2, "@Oman"), (sss, s3, "@faction_flag_red"), (sss, s4, "@faction_color_oman"), (sss, s5, "@Omani"), (call_script, "script_add_faction", faction_oman),
 (sss, s1, "@Trucial States"), (sss, s2, "@Trucial States"), (sss, s3, "@faction_flag_trucialearly"), (sss, s4, "@faction_color_trucial"), (sss, s5, "@Trucial"), (call_script, "script_add_faction", faction_trucial),
 (sss, s1, "@State of Qatar"), (sss, s2, "@Qatar"), (sss, s3, "@faction_flag_red"), (sss, s4, "@faction_color_qatar"), (sss, s5, "@Qatar"), (call_script, "script_add_faction", faction_qatar), 
+(sss, s1, "@Emirate of Afghanistan"), (sss, s2, "@Afghanistan"), (sss, s3, "@faction_flag_black"), (sss, s4, "@faction_color_afghanistan"), (sss, s5, "@Afghan"), (call_script, "script_add_faction", faction_afghanistan),
+(sss, s1, "@Principality of Herat"), (sss, s2, "@Herat"), (sss, s3, "@faction_flag_durrani"), (sss, s4, "@faction_color_durrani"), (sss, s5, "@Herati"), (call_script, "script_add_faction", faction_durrani),
 
 # parameters that are dependant on starting date
     (try_begin),
@@ -665,6 +667,8 @@ scripts = [
     (array_set_val, "$factions", 408000, faction_oman, faction_population),
     (array_set_val, "$factions", 59000, faction_trucial, faction_population),
     (array_set_val, "$factions", 23000, faction_qatar, faction_population),
+    (array_set_val, "$factions", 3465000, faction_afghanistan, faction_population),
+    (array_set_val, "$factions", 395000, faction_durrani, faction_population),
     (else_try),
     (try_end),
     
@@ -1147,7 +1151,7 @@ scripts = [
 (call_script, "script_add_province", 481, 59284, 34163, faction_ottoman, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 482, 60428, 32863, faction_ottoman, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 483, 60991, 31597, faction_ottoman, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 483, 62196, 30315, faction_ottoman, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 483, 60868, 31589, faction_ottoman, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 484, 62343, 30453, faction_ottoman, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 485, 62248, 29275, faction_ottoman, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 486, 63141, 28781, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
@@ -1184,6 +1188,14 @@ scripts = [
 (call_script, "script_add_province", 517, 86915, 39208, faction_china, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 518, 87875, 40024, faction_china, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 519, 86579, 38584, faction_china, 517, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 520, 67647, 36512, faction_durrani, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 521, 68515, 35449, faction_afghanistan, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 522, 69475, 36169, faction_afghanistan, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 523, 68803, 36841, faction_afghanistan, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 524, 68755, 37561, faction_afghanistan, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 525, 69715, 37705, faction_afghanistan, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 526, 70099, 36841, faction_afghanistan, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 527, 70339, 37705, faction_afghanistan, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 
 
 # Initparam multipliers

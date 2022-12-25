@@ -1,4 +1,4 @@
-267
+277
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -266,3 +266,13 @@ qstr_faction_flag_trucialo faction_flag_trucialold
 qstr_faction_flag_red faction_flag_red
 qstr_faction_color_trucia faction_color_trucial
 qstr_faction_flag_truciale faction_flag_trucialearly
+qstr_Emirate_of_Afghanist Emirate_of_Afghanistan
+qstr_Afghanistan Afghanistan
+qstr_faction_flag_black faction_flag_black
+qstr_faction_color_afghan faction_color_afghanistan
+qstr_Afghan Afghan
+qstr_Principality_of_Hera Principality_of_Herat
+qstr_Herat Herat
+qstr_faction_flag_durrani faction_flag_durrani
+qstr_faction_color_durran faction_color_durrani
+qstr_Herati Herati

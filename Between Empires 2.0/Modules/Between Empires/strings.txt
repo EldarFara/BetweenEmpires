@@ -1,5 +1,5 @@
 stringsfile version 1
-545
+553
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -545,3 +545,11 @@ str_province516 Jinzhou
 str_province517 Dalian
 str_province518 Jilin
 str_province519 Port_Arthur
+str_province520 Herat
+str_province521 Helmand
+str_province522 Daykundi
+str_province523 Bamiyan
+str_province524 Balkh
+str_province525 Baghlan
+str_province526 Kabul
+str_province527 South_Badakhshan
