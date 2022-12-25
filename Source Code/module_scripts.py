@@ -1196,6 +1196,12 @@ scripts = [
 (call_script, "script_add_province", 525, 69715, 37705, faction_afghanistan, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 526, 70099, 36841, faction_afghanistan, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 527, 70339, 37705, faction_afghanistan, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 528, 71228, 37174, faction_afghanistan, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 529, 71140, 35326, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 530, 69688, 34754, faction_afghanistan, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 531, 68940, 33742, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 532, 70348, 33346, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+
 
 
 # Initparam multipliers

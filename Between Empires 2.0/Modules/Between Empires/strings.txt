@@ -1,5 +1,5 @@
 stringsfile version 1
-553
+558
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -553,3 +553,8 @@ str_province524 Balkh
 str_province525 Baghlan
 str_province526 Kabul
 str_province527 South_Badakhshan
+str_province528 Khyber
+str_province529 Punjab
+str_province530 Quetta
+str_province531 Balochistan
+str_province532 Sindh

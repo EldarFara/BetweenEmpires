@@ -577,5 +577,10 @@ strings = [
 ("province525", "Baghlan"),
 ("province526", "Kabul"),
 ("province527", "South Badakhshan"),
+("province528", "Khyber"),
+("province529", "Punjab"),
+("province530", "Quetta"),
+("province531", "Balochistan"),
+("province532", "Sindh"),
 
 ]
