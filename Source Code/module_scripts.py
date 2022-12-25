@@ -1229,6 +1229,23 @@ scripts = [
 (call_script, "script_add_province", 545, 42173, 48323, faction_denmark, 546, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 546, 43275, 48464, faction_denmark, 545, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 
+(call_script, "script_add_province", 547, 20143, 40327, faction_canada, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 548, 20143, 40327, faction_canada, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 549, 20143, 40327, faction_canada, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 550, 62133, 38067, faction_canada, 325, 326, 375, 397, 388, 452, 453, 451, 327, -1, -1, terrain_plains),
+(call_script, "script_add_province", 551, 62883, 38157, faction_canada, 330, 327, 450, 453, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 552, 62643, 37047, faction_canada, 450, 388, 389, 454, 455, 453, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 553, 63183, 37617, faction_canada, 451, 450, 452, 455, 456, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 554, 62763, 36327, faction_canada, 452, 389, 390, 392, 457, 458, 455, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 555, 63576, 36777, faction_canada, 453, 452, 454, 458, 460, 456, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 556, 64185, 37444, faction_canada, 453, 455, 460, 461, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 557, 63518, 35559, faction_canada, 393, 392, 454, 458, 465, 466, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 558, 64127, 36313, faction_canada, 455, 454, 457, 465, 459, 460, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 559, 64881, 36313, faction_canada, 460, 458, 465, 464, -1, -1, -1, -1, -1, -1, -1, terrain_plains), 
+(call_script, "script_add_province", 560, 65142, 37125, faction_canada, 461, 456, 455, 458, 459, 464, 462, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 561, 65432, 37995, faction_canada, 356, 357, 462, 460, 456, -1, -1, -1, -1, -1, -1, terrain_plains),
+
+
 # Initparam multipliers
 # Index, population_multiplier, literacy_multiplier, urbanization_multiplier
 (call_script, "script_province_set_initparams", 191, 130, 150, 140),

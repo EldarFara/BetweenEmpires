@@ -487,7 +487,6 @@ strings = [
 ("province435", "Ohio"),
 ("province436", "Indiana"),
 ("province437", "South Michigan"),
-
 ("province438", "Maryland"),
 ("province439", "Pennsylvania"),
 ("province440", "New Jersey"),
@@ -597,4 +596,20 @@ strings = [
 ("province544", "Greenland"),
 ("province545", "West Iceland"),
 ("province546", "East Iceland"),
+
+("province547", "East Iceland"),
+("province548", "East Iceland"),
+("province549", "East Iceland"),
+("province550", "East Iceland"),
+("province551", "East Iceland"),
+("province552", "East Iceland"),
+("province553", "East Iceland"),
+("province554", "East Iceland"),
+("province555", "East Iceland"),
+("province556", "East Iceland"),
+("province557", "East Iceland"),
+("province558", "East Iceland"),
+("province559", "East Iceland"),
+("province560", "East Iceland"),
+("province561", "East Iceland"),
 ]
