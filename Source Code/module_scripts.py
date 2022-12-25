@@ -1202,10 +1202,10 @@ scripts = [
 (call_script, "script_add_province", 531, 68940, 33742, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 532, 70348, 33346, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 533, 87952, 39384, faction_china, 517, 518, 302, 534, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 534, 88128, 38812, faction_china, 533, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 535, 88387, 38416, faction_china, 534, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 536, 88883, 38075, faction_china, 535, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 537, 89162, 37579, faction_china, 536, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 534, 88128, 38812, faction_china, 533, 535, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 535, 88387, 38416, faction_china, 534, 536, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 536, 88883, 38075, faction_china, 535, 537, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 537, 89162, 37579, faction_china, 536, 538, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 538, 89111, 37063, faction_china, 537, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 
 
