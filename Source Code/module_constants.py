@@ -1,5 +1,5 @@
-number_of_provinces = 604
-number_of_factions = 57
+number_of_provinces = 610
+number_of_factions = 59
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
@@ -100,6 +100,8 @@ faction_mysore          = 53
 faction_oudh            = 54
 faction_sikkim          = 55
 faction_kalat           = 56
+faction_burma           = 57
+faction_siam            = 58
 
 
 global_date_year                                                              = 0

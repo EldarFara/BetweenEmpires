@@ -653,5 +653,11 @@ strings = [
 ("province601", "Kathmandu"),
 ("province602", "Bhutan"),
 ("province603", "Anand"),
+("province604", "Arakan"),
+("province605", "Pegu"),
+("province606", "Tenasserim"),
+("province607", "Shan"),
+("province608", "Chin"),
+("province609", "Kachin"),
 
 ]

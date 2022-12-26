@@ -1,5 +1,5 @@
 stringsfile version 1
-629
+635
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -629,3 +629,9 @@ str_province600 Karnali
 str_province601 Kathmandu
 str_province602 Bhutan
 str_province603 Anand
+str_province604 Arakan
+str_province605 Pegu
+str_province606 Tenasserim
+str_province607 Shan
+str_province608 Chin
+str_province609 Kachin

@@ -627,6 +627,10 @@ scripts = [
 (sss, s1, "@Princely State of Oudh"), (sss, s2, "@Oudh"), (sss, s3, "@faction_flag_oudh"), (sss, s4, "@faction_color_oudh"), (sss, s5, "@Oudhwasi"), (call_script, "script_add_faction", faction_oudh),
 (sss, s1, "@Kingdom of Sikkim"), (sss, s2, "@Sikkim"), (sss, s3, "@faction_flag_sikkim"), (sss, s4, "@faction_color_sikkim"), (sss, s5, "@Sikkimese"), (call_script, "script_add_faction", faction_sikkim),
 (sss, s1, "@Khanate of Kalat"), (sss, s2, "@Kalat"), (sss, s3, "@faction_flag_kalat"), (sss, s4, "@faction_color_kalat"), (sss, s5, "@Kalati"), (call_script, "script_add_faction", faction_kalat),
+(sss, s1, "@Konbaung Empire"), (sss, s2, "@Burma"), (sss, s3, "@faction_flag_konbaung"), (sss, s4, "@faction_color_burma"), (sss, s5, "@Burmese"), (call_script, "script_add_faction", faction_burma),
+(sss, s1, "@Rattanakosin Kingdom"), (sss, s2, "@Siam"), (sss, s3, "@faction_flag_siamearly"), (sss, s4, "@faction_color_siam"), (sss, s5, "@Siamese"), (call_script, "script_add_faction", faction_siam),
+
+
 
 
 
@@ -683,6 +687,14 @@ scripts = [
     (array_set_val, "$factions", 15460000, faction_korea, faction_population),
     (array_set_val, "$factions", 2987000, faction_nepal, faction_population),
     (array_set_val, "$factions", 458000, faction_bhutan, faction_population),
+    (array_set_val, "$factions", 7563000, faction_rajput, faction_population),
+    (array_set_val, "$factions", 9912000, faction_hyderabad, faction_population),
+    (array_set_val, "$factions", 1817000, faction_mysore, faction_population),
+    (array_set_val, "$factions", 7973000, faction_oudh, faction_population),
+    (array_set_val, "$factions", 88000, faction_sikkim, faction_population),
+    (array_set_val, "$factions", 771000, faction_kalat, faction_population),
+    (array_set_val, "$factions", 12800000, faction_burma, faction_population),
+    (array_set_val, "$factions", 7960000, faction_siam, faction_population),
     (else_try),
     (try_end),
     
@@ -1297,6 +1309,12 @@ scripts = [
 (call_script, "script_add_province", 601, 76208, 33954, faction_nepal, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 602, 77586, 34007, faction_bhutan, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 603, 71850, 31968, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 604, 79194, 30810, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 605, 80031, 29919, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 606, 80904, 28762, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 607, 80363, 31653, faction_burma, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 608, 79399, 31289, faction_burma, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 609, 79831, 33257, faction_burma, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 
 
 # Initparam multipliers
