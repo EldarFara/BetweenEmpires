@@ -629,6 +629,7 @@ scripts = [
 (sss, s1, "@Khanate of Kalat"), (sss, s2, "@Kalat"), (sss, s3, "@faction_flag_kalat"), (sss, s4, "@faction_color_kalat"), (sss, s5, "@Kalati"), (call_script, "script_add_faction", faction_kalat),
 (sss, s1, "@Konbaung Empire"), (sss, s2, "@Burma"), (sss, s3, "@faction_flag_konbaung"), (sss, s4, "@faction_color_burma"), (sss, s5, "@Burmese"), (call_script, "script_add_faction", faction_burma),
 (sss, s1, "@Rattanakosin Kingdom"), (sss, s2, "@Siam"), (sss, s3, "@faction_flag_siamearly"), (sss, s4, "@faction_color_siam"), (sss, s5, "@Siamese"), (call_script, "script_add_faction", faction_siam),
+(sss, s1, "@Republic of Mexico"), (sss, s2, "@Mexico"), (sss, s3, "@faction_flag_mexico1"), (sss, s4, "@faction_color_mexico"), (sss, s5, "@Mexican"), (call_script, "script_add_faction", faction_mexico),
 
 
 

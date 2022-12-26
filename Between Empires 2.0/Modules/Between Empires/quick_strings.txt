@@ -1,4 +1,4 @@
-337
+342
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -336,3 +336,8 @@ qstr_Siam Siam
 qstr_faction_flag_siamear faction_flag_siamearly
 qstr_faction_color_siam faction_color_siam
 qstr_Siamese Siamese
+qstr_Republic_of_Mexico Republic_of_Mexico
+qstr_Mexico Mexico
+qstr_faction_flag_mexico1 faction_flag_mexico1
+qstr_faction_color_mexico faction_color_mexico
+qstr_Mexican Mexican

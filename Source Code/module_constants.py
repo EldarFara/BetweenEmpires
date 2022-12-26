@@ -1,5 +1,5 @@
 number_of_provinces = 639
-number_of_factions = 59
+number_of_factions = 60
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
@@ -102,6 +102,7 @@ faction_sikkim          = 55
 faction_kalat           = 56
 faction_burma           = 57
 faction_siam            = 58
+faction_mexico          = 59
 
 
 global_date_year                                                              = 0
