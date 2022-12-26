@@ -1,5 +1,5 @@
 stringsfile version 1
-587
+629
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -586,4 +586,46 @@ str_province557 East_Iceland
 str_province558 East_Iceland
 str_province559 East_Iceland
 str_province560 East_Iceland
-str_province561 East_Iceland
+str_province561 Aksai_Chin
+str_province562 Jammu_and_Kashmir
+str_province563 East_Punjab
+str_province564 Delhi
+str_province565 Jaipur
+str_province566 Jodhpur
+str_province567 Udaipur
+str_province568 Kutch
+str_province569 Kathiawar
+str_province570 Bombay
+str_province571 Rampur
+str_province572 Agra
+str_province573 Awadh
+str_province574 Varanasi
+str_province575 Nagpur
+str_province576 Jabalpur
+str_province577 Aurangabad
+str_province578 Gulbarga
+str_province579 Hyderabad
+str_province580 Mysore
+str_province581 Mangalore
+str_province582 Goa
+str_province583 Madras
+str_province584 Tamil_Nadu
+str_province585 Travancore
+str_province586 Ceylon
+str_province587 Godavari
+str_province588 Bastar
+str_province589 Odisha
+str_province590 Nerbudda
+str_province591 Chota
+str_province592 West_Bengal
+str_province593 East_Bengal
+str_province594 Chittagong
+str_province595 Sikkim
+str_province596 Assam
+str_province597 Itanagar
+str_province598 Manipur
+str_province599 Mizoram
+str_province600 Karnali
+str_province601 Kathmandu
+str_province602 Bhutan
+str_province603 Anand

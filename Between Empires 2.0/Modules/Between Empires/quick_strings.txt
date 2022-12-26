@@ -1,4 +1,4 @@
-287
+297
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -286,3 +286,13 @@ qstr_Joseon Joseon
 qstr_faction_flag_joseon faction_flag_joseon
 qstr_faction_color_joseon faction_color_joseon
 qstr_Korean Korean
+qstr_Kingdom_of_Nepal Kingdom_of_Nepal
+qstr_Nepal Nepal
+qstr_faction_flag_nepalea faction_flag_nepalearly
+qstr_faction_color_nepal faction_color_nepal
+qstr_Nepali Nepali
+qstr_Kingdom_of_Bhutan Kingdom_of_Bhutan
+qstr_Bhutan Bhutan
+qstr_faction_flag_bhutan faction_flag_bhutan
+qstr_faction_color_bhutan faction_color_bhutan
+qstr_Bhutanese Bhutanese

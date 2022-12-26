@@ -1,5 +1,5 @@
 scene_propsfile version 1
- 590
+ 632
 spr_invalid_object 0 0 invisible 0 0
 
 
@@ -1772,5 +1772,131 @@ spr_province560 0 0 province560 0 0
 
 
 spr_province561 0 0 province561 0 0
+
+
+spr_province562 0 0 province562 0 0
+
+
+spr_province563 0 0 province563 0 0
+
+
+spr_province564 0 0 province564 0 0
+
+
+spr_province565 0 0 province565 0 0
+
+
+spr_province566 0 0 province566 0 0
+
+
+spr_province567 0 0 province567 0 0
+
+
+spr_province568 0 0 province568 0 0
+
+
+spr_province569 0 0 province569 0 0
+
+
+spr_province570 0 0 province570 0 0
+
+
+spr_province571 0 0 province571 0 0
+
+
+spr_province572 0 0 province572 0 0
+
+
+spr_province573 0 0 province573 0 0
+
+
+spr_province574 0 0 province574 0 0
+
+
+spr_province575 0 0 province575 0 0
+
+
+spr_province576 0 0 province576 0 0
+
+
+spr_province577 0 0 province577 0 0
+
+
+spr_province578 0 0 province578 0 0
+
+
+spr_province579 0 0 province579 0 0
+
+
+spr_province580 0 0 province580 0 0
+
+
+spr_province581 0 0 province581 0 0
+
+
+spr_province582 0 0 province582 0 0
+
+
+spr_province583 0 0 province583 0 0
+
+
+spr_province584 0 0 province584 0 0
+
+
+spr_province585 0 0 province585 0 0
+
+
+spr_province586 0 0 province586 0 0
+
+
+spr_province587 0 0 province587 0 0
+
+
+spr_province588 0 0 province588 0 0
+
+
+spr_province589 0 0 province589 0 0
+
+
+spr_province590 0 0 province590 0 0
+
+
+spr_province591 0 0 province591 0 0
+
+
+spr_province592 0 0 province592 0 0
+
+
+spr_province593 0 0 province593 0 0
+
+
+spr_province594 0 0 province594 0 0
+
+
+spr_province595 0 0 province595 0 0
+
+
+spr_province596 0 0 province596 0 0
+
+
+spr_province597 0 0 province597 0 0
+
+
+spr_province598 0 0 province598 0 0
+
+
+spr_province599 0 0 province599 0 0
+
+
+spr_province600 0 0 province600 0 0
+
+
+spr_province601 0 0 province601 0 0
+
+
+spr_province602 0 0 province602 0 0
+
+
+spr_province603 0 0 province603 0 0
 
 

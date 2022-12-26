@@ -1,5 +1,5 @@
-number_of_provinces = 562
-number_of_factions = 49
+number_of_provinces = 604
+number_of_factions = 51
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
@@ -92,6 +92,8 @@ faction_qatar           = 45
 faction_afghanistan     = 46
 faction_durrani         = 47
 faction_korea           = 48
+faction_nepal           = 49
+faction_bhutan          = 50
 
 
 global_date_year                                                              = 0
