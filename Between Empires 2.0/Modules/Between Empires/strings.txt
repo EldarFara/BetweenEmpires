@@ -1,5 +1,5 @@
 stringsfile version 1
-635
+641
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -635,3 +635,9 @@ str_province606 Tenasserim
 str_province607 Shan
 str_province608 Chin
 str_province609 Kachin
+str_province610 Chiang_Mai
+str_province611 Khon_Kaen
+str_province612 Bangkok
+str_province613 Songkhran
+str_province614 Surat_Thani
+str_province615 Pattani

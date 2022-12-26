@@ -1315,6 +1315,12 @@ scripts = [
 (call_script, "script_add_province", 607, 80363, 31653, faction_burma, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 608, 79399, 31289, faction_burma, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 609, 79831, 33257, faction_burma, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 610, 81315, 30032, faction_siam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 611, 82659, 29444, faction_siam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 612, 81993, 28442, faction_siam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 613, 81525, 28286, faction_siam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 614, 81372, 26540, faction_siam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 615, 81972, 25940, faction_siam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 
 
 # Initparam multipliers
