@@ -1,5 +1,5 @@
 stringsfile version 1
-641
+664
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -641,3 +641,26 @@ str_province612 Bangkok
 str_province613 Songkhran
 str_province614 Surat_Thani
 str_province615 Pattani
+str_province616 _
+str_province617 _
+str_province618 _
+str_province619 _
+str_province620 _
+str_province621 _
+str_province622 _
+str_province623 _
+str_province624 _
+str_province625 _
+str_province626 _
+str_province627 _
+str_province628 _
+str_province629 _
+str_province630 _
+str_province631 _
+str_province632 _
+str_province633 _
+str_province634 _
+str_province635 _
+str_province636 _
+str_province637 _
+str_province638 _
