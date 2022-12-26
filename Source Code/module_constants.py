@@ -1,5 +1,5 @@
 number_of_provinces = 604
-number_of_factions = 51
+number_of_factions = 57
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
@@ -94,6 +94,12 @@ faction_durrani         = 47
 faction_korea           = 48
 faction_nepal           = 49
 faction_bhutan          = 50
+faction_rajput          = 51
+faction_hyderabad       = 52
+faction_mysore          = 53
+faction_oudh            = 54
+faction_sikkim          = 55
+faction_kalat           = 56
 
 
 global_date_year                                                              = 0

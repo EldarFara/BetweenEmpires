@@ -1,4 +1,4 @@
-297
+327
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -296,3 +296,33 @@ qstr_Bhutan Bhutan
 qstr_faction_flag_bhutan faction_flag_bhutan
 qstr_faction_color_bhutan faction_color_bhutan
 qstr_Bhutanese Bhutanese
+qstr_Rajputana_States Rajputana_States
+qstr_Rajputana Rajputana
+qstr_faction_flag_rajput faction_flag_rajput
+qstr_faction_color_rajput faction_color_rajput
+qstr_Rajput Rajput
+qstr_Hyderabad_State Hyderabad_State
+qstr_Hyderabad Hyderabad
+qstr_faction_flag_hyderab faction_flag_hyderabadearly
+qstr_faction_color_hydera faction_color_hyderabad
+qstr_Hyderabadi Hyderabadi
+qstr_Mysore_State Mysore_State
+qstr_Mysore Mysore
+qstr_faction_flag_mysore faction_flag_mysore
+qstr_faction_color_mysore faction_color_mysore
+qstr_Mysorean Mysorean
+qstr_Princely_State_of_Ou Princely_State_of_Oudh
+qstr_Oudh Oudh
+qstr_faction_flag_oudh faction_flag_oudh
+qstr_faction_color_oudh faction_color_oudh
+qstr_Oudhwasi Oudhwasi
+qstr_Kingdom_of_Sikkim Kingdom_of_Sikkim
+qstr_Sikkim Sikkim
+qstr_faction_flag_sikkim faction_flag_sikkim
+qstr_faction_color_sikkim faction_color_sikkim
+qstr_Sikkimese Sikkimese
+qstr_Khanate_of_Kalat Khanate_of_Kalat
+qstr_Kalat Kalat
+qstr_faction_flag_kalat faction_flag_kalat
+qstr_faction_color_kalat faction_color_kalat
+qstr_Kalati Kalati
