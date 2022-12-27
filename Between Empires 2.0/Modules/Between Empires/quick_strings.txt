@@ -1,4 +1,4 @@
-363
+392
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -362,3 +362,32 @@ qstr_faction_flag_nguyen faction_flag_nguyen
 qstr_faction_color_nguyen faction_color_nguyenviet
 qstr_Vietnamese Vietnamese
 qstr_United_Mexican_State United_Mexican_States
+qstr_Sultanate_of_Johor Sultanate_of_Johor
+qstr_Johor Johor
+qstr_faction_flag_johorea faction_flag_johorearly
+qstr_faction_color_johor faction_color_johor
+qstr_Johorian Johorian
+qstr_Sultanate_of_Pahang Sultanate_of_Pahang
+qstr_Pahang Pahang
+qstr_faction_color_pahang faction_color_pahang
+qstr_Pahangite Pahangite
+qstr_Sultanate_of_Perak Sultanate_of_Perak
+qstr_Perak Perak
+qstr_faction_flag_perak faction_flag_perak
+qstr_faction_color_perak faction_color_perak
+qstr_Perakian Perakian
+qstr_Sultanate_of_Sarawak Sultanate_of_Sarawak
+qstr_Sarawak Sarawak
+qstr_faction_flag_sarawak faction_flag_sarawak
+qstr_faction_color_sarawa faction_color_sarawak
+qstr_Sarawakian Sarawakian
+qstr_Sultanate_of_Brunei Sultanate_of_Brunei
+qstr_Brunei Brunei
+qstr_faction_flag_yellow faction_flag_yellow
+qstr_faction_color_brunei faction_color_brunei
+qstr_Bruneian Bruneian
+qstr_Sultanate_of_Sulu Sultanate_of_Sulu
+qstr_Sulu Sulu
+qstr_faction_flag_sulu faction_flag_sulu
+qstr_faction_color_sulu faction_color_sulu
+qstr_Suluan Suluan
