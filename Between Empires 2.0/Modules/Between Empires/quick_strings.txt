@@ -1,4 +1,4 @@
-342
+362
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -341,3 +341,23 @@ qstr_Mexico Mexico
 qstr_faction_flag_mexico1 faction_flag_mexico1
 qstr_faction_color_mexico faction_color_mexico
 qstr_Mexican Mexican
+qstr_Kingdom_of_Luang_Pra Kingdom_of_Luang_Prabang
+qstr_Luang_Prabang Luang_Prabang
+qstr_faction_flag_luangpr faction_flag_luangprabang
+qstr_faction_color_laos faction_color_laos
+qstr_Lao Lao
+qstr_Kingdom_of_Champasak Kingdom_of_Champasak
+qstr_Champasak Champasak
+qstr_faction_flag_champas faction_flag_champasak
+qstr_faction_color_champa faction_color_champasak
+qstr_Bassac Bassac
+qstr_Kingdom_of_Cambodia Kingdom_of_Cambodia
+qstr_Cambodia Cambodia
+qstr_faction_flag_cambodi faction_flag_cambodiaearly
+qstr_faction_color_cambod faction_color_cambodia
+qstr_Khmer Khmer
+qstr_Great_Nam Great_Nam
+qstr_Vietnam Vietnam
+qstr_faction_flag_nguyen faction_flag_nguyen
+qstr_faction_color_nguyen faction_color_nguyenviet
+qstr_Vietnamese Vietnamese

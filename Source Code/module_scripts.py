@@ -630,9 +630,10 @@ scripts = [
 (sss, s1, "@Konbaung Empire"), (sss, s2, "@Burma"), (sss, s3, "@faction_flag_konbaung"), (sss, s4, "@faction_color_burma"), (sss, s5, "@Burmese"), (call_script, "script_add_faction", faction_burma),
 (sss, s1, "@Rattanakosin Kingdom"), (sss, s2, "@Siam"), (sss, s3, "@faction_flag_siamearly"), (sss, s4, "@faction_color_siam"), (sss, s5, "@Siamese"), (call_script, "script_add_faction", faction_siam),
 (sss, s1, "@Republic of Mexico"), (sss, s2, "@Mexico"), (sss, s3, "@faction_flag_mexico1"), (sss, s4, "@faction_color_mexico"), (sss, s5, "@Mexican"), (call_script, "script_add_faction", faction_mexico),
-
-
-
+(sss, s1, "@Kingdom of Luang Prabang"), (sss, s2, "@Luang Prabang"), (sss, s3, "@faction_flag_luangprabang"), (sss, s4, "@faction_color_laos"), (sss, s5, "@Lao"), (call_script, "script_add_faction", faction_laos),
+(sss, s1, "@Kingdom of Champasak"), (sss, s2, "@Champasak"), (sss, s3, "@faction_flag_champasak"), (sss, s4, "@faction_color_champasak"), (sss, s5, "@Bassac"), (call_script, "script_add_faction", faction_champasak),
+(sss, s1, "@Kingdom of Cambodia"), (sss, s2, "@Cambodia"), (sss, s3, "@faction_flag_cambodiaearly"), (sss, s4, "@faction_color_cambodia"), (sss, s5, "@Khmer"), (call_script, "script_add_faction", faction_cambodia),
+(sss, s1, "@Great Nam"), (sss, s2, "@Vietnam"), (sss, s3, "@faction_flag_nguyen"), (sss, s4, "@faction_color_nguyenviet"), (sss, s5, "@Vietnamese"), (call_script, "script_add_faction", faction_vietnam),
 
 
 # parameters that are dependant on starting date
@@ -1345,6 +1346,16 @@ scripts = [
 (call_script, "script_add_province", 636, 72407, 37881, faction_china, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 637, 75878, 38076, faction_china, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 638, 74045, 37803, faction_china, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 639, 81964, 31138, faction_laos, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 640, 82909, 30508, faction_siam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 641, 83728, 29311, faction_champasak, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 642, 83854, 28177, faction_cambodia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 643, 83035, 28114, faction_cambodia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 644, 82980, 31681, faction_vietnam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 645, 83611, 30269, faction_vietnam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 646, 84651, 28582, faction_vietnam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 647, 84158, 27557, faction_vietnam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 648, 83702, 26987, faction_vietnam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 
 (call_script, "script_add_province", 676, 8541, 33851, faction_mexico, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 677, 8127, 35559, faction_mexico, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),

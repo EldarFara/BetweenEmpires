@@ -1,5 +1,5 @@
 stringsfile version 1
-725
+726
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -664,10 +664,11 @@ str_province635 _
 str_province636 _
 str_province637 _
 str_province638 _
-str_province640 _
-str_province641 _
-str_province642 _
-str_province643 _
+str_province639 Luang_Prabang
+str_province640 Vientiane
+str_province641 Champasak
+str_province642 Sen_Monorom
+str_province643 Phnompenh
 str_province644 _
 str_province645 _
 str_province646 _
