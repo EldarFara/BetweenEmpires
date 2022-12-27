@@ -683,11 +683,11 @@ str_province654 Kuching
 str_province655 Sarawak
 str_province656 Brunei
 str_province657 Sabah
-str_province658 _
-str_province659 _
-str_province660 _
-str_province661 _
-str_province662 _
+str_province658 South_Mindanao
+str_province659 North_Mindanao
+str_province660 Palawan
+str_province661 Visayas
+str_province662 Luzon
 str_province663 _
 str_province664 _
 str_province665 _

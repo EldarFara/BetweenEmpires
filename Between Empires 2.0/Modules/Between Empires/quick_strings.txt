@@ -1,4 +1,4 @@
-392
+396
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -391,3 +391,7 @@ qstr_Sulu Sulu
 qstr_faction_flag_sulu faction_flag_sulu
 qstr_faction_color_sulu faction_color_sulu
 qstr_Suluan Suluan
+qstr_Sultanate_of_Maguind Sultanate_of_Maguindanao
+qstr_Maguindanao Maguindanao
+qstr_faction_color_maguin faction_color_maguindanao
+qstr_Maguindanaoan Maguindanaoan

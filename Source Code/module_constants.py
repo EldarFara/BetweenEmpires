@@ -1,5 +1,5 @@
 number_of_provinces = 700
-number_of_factions = 70
+number_of_factions = 71
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
@@ -111,8 +111,9 @@ faction_johor           = 64
 faction_pahang          = 65
 faction_perak           = 66
 faction_sarawak         = 67
-faction_brunei           = 68
+faction_brunei          = 68
 faction_sulu            = 69
+faction_maguindanao     = 70
 
 
 global_date_year                                                              = 0

@@ -640,6 +640,7 @@ scripts = [
 (sss, s1, "@Sultanate of Sarawak"), (sss, s2, "@Sarawak"), (sss, s3, "@faction_flag_sarawak"), (sss, s4, "@faction_color_sarawak"), (sss, s5, "@Sarawakian"), (call_script, "script_add_faction", faction_sarawak),
 (sss, s1, "@Sultanate of Brunei"), (sss, s2, "@Brunei"), (sss, s3, "@faction_flag_yellow"), (sss, s4, "@faction_color_brunei"), (sss, s5, "@Bruneian"), (call_script, "script_add_faction", faction_brunei),
 (sss, s1, "@Sultanate of Sulu"), (sss, s2, "@Sulu"), (sss, s3, "@faction_flag_sulu"), (sss, s4, "@faction_color_sulu"), (sss, s5, "@Suluan"), (call_script, "script_add_faction", faction_sulu),
+(sss, s1, "@Sultanate of Maguindanao"), (sss, s2, "@Maguindanao"), (sss, s3, "@faction_flag_yellow"), (sss, s4, "@faction_color_maguindanao"), (sss, s5, "@Maguindanaoan"), (call_script, "script_add_faction", faction_maguindanao),
 
 
 
@@ -1379,6 +1380,11 @@ scripts = [
 (call_script, "script_add_province", 655, 86714, 24298, faction_sarawak, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 656, 86961, 24887, faction_brunei, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 657, 87816, 25134, faction_sulu, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 658, 90370, 25926, faction_maguindanao, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 659, 90685, 26486, faction_spain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 660, 88200, 26906, faction_spain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 661, 90043, 27403, faction_spain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 662, 88999, 28795, faction_spain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 
 (call_script, "script_add_province", 676, 8541, 33851, faction_mexico, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 677, 8127, 35559, faction_mexico, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
