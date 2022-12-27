@@ -641,9 +641,15 @@ scripts = [
 (sss, s1, "@Sultanate of Brunei"), (sss, s2, "@Brunei"), (sss, s3, "@faction_flag_yellow"), (sss, s4, "@faction_color_brunei"), (sss, s5, "@Bruneian"), (call_script, "script_add_faction", faction_brunei),
 (sss, s1, "@Sultanate of Sulu"), (sss, s2, "@Sulu"), (sss, s3, "@faction_flag_sulu"), (sss, s4, "@faction_color_sulu"), (sss, s5, "@Suluan"), (call_script, "script_add_faction", faction_sulu),
 (sss, s1, "@Sultanate of Maguindanao"), (sss, s2, "@Maguindanao"), (sss, s3, "@faction_flag_yellow"), (sss, s4, "@faction_color_maguindanao"), (sss, s5, "@Maguindanaoan"), (call_script, "script_add_faction", faction_maguindanao),
-
-
-
+(sss, s1, "@Sultanate of Aceh"), (sss, s2, "@Aceh"), (sss, s3, "@faction_flag_aceh"), (sss, s4, "@faction_color_aceh"), (sss, s5, "@Acehnese"), (call_script, "script_add_faction", faction_aceh),
+(sss, s1, "@Kingdomship of Bali"), (sss, s2, "@Bali"), (sss, s3, "@faction_flag_bali"), (sss, s4, "@faction_color_bali"), (sss, s5, "@Balinese"), (call_script, "script_add_faction", faction_bali),
+(sss, s1, "@Sultanate of Banjar"), (sss, s2, "@Banjar"), (sss, s3, "@faction_flag_banjar"), (sss, s4, "@faction_color_banjar"), (sss, s5, "@Banjar"), (call_script, "script_add_faction", faction_banjar),
+(sss, s1, "@Sultanate of Lombok"), (sss, s2, "@Lombok"), (sss, s3, "@faction_flag_lombok"), (sss, s4, "@faction_color_lombok"), (sss, s5, "@Lombokish"), (call_script, "script_add_faction", faction_lombok),
+(sss, s1, "@Sultanate of Pontianak"), (sss, s2, "@Pontianak"), (sss, s3, "@faction_flag_pontianak"), (sss, s4, "@faction_color_pontianak"), (sss, s5, "@Pontianak"), (call_script, "script_add_faction", faction_pontianak),
+(sss, s1, "@Lanfang Republic"), (sss, s2, "@Kongsi"), (sss, s3, "@faction_flag_lanfang"), (sss, s4, "@faction_color_lanfang"), (sss, s5, "@Kongsi"), (call_script, "script_add_faction", faction_lanfang),
+(sss, s1, "@Sultanate of Kutai Kertanegara"), (sss, s2, "@Kutai"), (sss, s3, "@faction_flag_kutai"), (sss, s4, "@faction_color_kutai"), (sss, s5, "@Kutai"), (call_script, "script_add_faction", faction_kutai),
+(sss, s1, "@Sunanate of Surakarta"), (sss, s2, "@Surakarta"), (sss, s3, "@faction_flag_surakarta"), (sss, s4, "@faction_color_surakarta"), (sss, s5, "@Surakartan"), (call_script, "script_add_faction", faction_surakarta),
+(sss, s1, "@Sultanate of Yogyakarta"), (sss, s2, "@Yogyakarta"), (sss, s3, "@faction_flag_yogyakarta"), (sss, s4, "@faction_color_yogyakarta"), (sss, s5, "@Yogyakartan"), (call_script, "script_add_faction", faction_yogyakarta),
 
 # parameters that are dependant on starting date
     (try_begin),
@@ -1385,7 +1391,19 @@ scripts = [
 (call_script, "script_add_province", 660, 88200, 26906, faction_spain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 661, 90043, 27403, faction_spain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 662, 88999, 28795, faction_spain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
-
+(call_script, "script_add_province", 663, 80760, 24853, faction_aceh, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 664, 81596, 23973, faction_aceh, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 665, 82168, 23577, faction_aceh, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 666, 82652, 23137, faction_aceh, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 667, 82036, 22741, faction_netherlands, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 668, 83004, 21993, faction_netherlands, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 669, 83532, 20981, faction_netherlands, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 670, 84368, 20409, faction_netherlands, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 671, 85160, 20189, faction_netherlands, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 672, 85455, 19884, faction_yogyakarta, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 673, 85608, 20236, faction_surakarta, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 674, 86168, 19984, faction_netherlands, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 675, 87036, 19732, faction_bali, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 676, 8541, 33851, faction_mexico, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 677, 8127, 35559, faction_mexico, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 678, 9577, 34972, faction_mexico, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
@@ -1410,6 +1428,25 @@ scripts = [
 (call_script, "script_add_province", 697, 15630, 30507, faction_mexico, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 698, 16190, 31347, faction_mexico, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 699, 16302, 30787, faction_mexico, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 700, 87876, 19620, faction_lombok, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 701, 89137, 19350, faction_netherlands, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 702, 90173, 19128, faction_netherlands, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 703, 90839, 19572, faction_portugal, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 704, 87261, 21928, faction_banjar, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 705, 86497, 22396, faction_netherlands, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 706, 85489, 22228, faction_netherlands, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 707, 85881, 22984, faction_pontianak, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 708, 85265, 2332, faction_lanfang, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 709, 87751, 23249, faction_kutai, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 710, 87622, 2436, faction_sulu, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 711, 88869, 21615, faction_netherlands, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 712, 89514, 21486, faction_netherlands, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 713, 89041, 22690, faction_netherlands, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 714, 89987, 23335, faction_netherlands, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 715, 91922, 21787, faction_netherlands, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 716, 91664, 23335, faction_netherlands, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 717, 94810, 21274, faction_netherlands, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+
 
 
 # Initparam multipliers

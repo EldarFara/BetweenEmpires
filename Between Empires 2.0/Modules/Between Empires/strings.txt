@@ -1,5 +1,5 @@
 stringsfile version 1
-726
+743
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -688,19 +688,19 @@ str_province659 North_Mindanao
 str_province660 Palawan
 str_province661 Visayas
 str_province662 Luzon
-str_province663 _
-str_province664 _
-str_province665 _
-str_province666 _
-str_province667 _
-str_province668 _
-str_province669 _
-str_province670 _
-str_province671 _
-str_province672 _
-str_province673 _
-str_province674 _
-str_province675 _
+str_province663 Aceh
+str_province664 North_Sumatra
+str_province665 Siak
+str_province666 Deli
+str_province667 West_Sumatra
+str_province668 South_Sumatra
+str_province669 Oosthaven
+str_province670 West_Java
+str_province671 Central_Java
+str_province672 Yogyakarta
+str_province673 Surakarta
+str_province674 East_Java
+str_province675 Bali
 str_province676 _
 str_province677 _
 str_province678 _
@@ -725,4 +725,21 @@ str_province696 _
 str_province697 _
 str_province698 _
 str_province699 _
-str_province700 _
+str_province700 West_Lesser_Sunda_Islands
+str_province701 East_Lesser_Sunda_Islands
+str_province702 West_Timor
+str_province703 East_Timor
+str_province704 Banjar
+str_province705 Central_Borneo
+str_province706 Ketapang
+str_province707 Pontianak
+str_province708 Singkawang
+str_province709 East_Borneo
+str_province710 Bulungan
+str_province711 Southwest_Celebes
+str_province712 Southease_Celebes
+str_province713 Central_Celebes
+str_province714 North_Celebes
+str_province715 South_Moluccas
+str_province716 North_Moluccas
+str_province717 West_New_Guinea

@@ -1,5 +1,5 @@
-number_of_provinces = 700
-number_of_factions = 71
+number_of_provinces = 718
+number_of_factions = 80
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
@@ -114,6 +114,15 @@ faction_sarawak         = 67
 faction_brunei          = 68
 faction_sulu            = 69
 faction_maguindanao     = 70
+faction_aceh            = 71
+faction_bali            = 72
+faction_banjar          = 73
+faction_lombok          = 74
+faction_pontianak       = 75
+faction_lanfang         = 76
+faction_kutai           = 77
+faction_surakarta       = 78
+faction_yogyakarta      = 79
 
 
 global_date_year                                                              = 0
