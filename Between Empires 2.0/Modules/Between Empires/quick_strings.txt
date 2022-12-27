@@ -1,4 +1,4 @@
-362
+363
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -361,3 +361,4 @@ qstr_Vietnam Vietnam
 qstr_faction_flag_nguyen faction_flag_nguyen
 qstr_faction_color_nguyen faction_color_nguyenviet
 qstr_Vietnamese Vietnamese
+qstr_United_Mexican_State United_Mexican_States

@@ -629,7 +629,7 @@ scripts = [
 (sss, s1, "@Khanate of Kalat"), (sss, s2, "@Kalat"), (sss, s3, "@faction_flag_kalat"), (sss, s4, "@faction_color_kalat"), (sss, s5, "@Kalati"), (call_script, "script_add_faction", faction_kalat),
 (sss, s1, "@Konbaung Empire"), (sss, s2, "@Burma"), (sss, s3, "@faction_flag_konbaung"), (sss, s4, "@faction_color_burma"), (sss, s5, "@Burmese"), (call_script, "script_add_faction", faction_burma),
 (sss, s1, "@Rattanakosin Kingdom"), (sss, s2, "@Siam"), (sss, s3, "@faction_flag_siamearly"), (sss, s4, "@faction_color_siam"), (sss, s5, "@Siamese"), (call_script, "script_add_faction", faction_siam),
-(sss, s1, "@Republic of Mexico"), (sss, s2, "@Mexico"), (sss, s3, "@faction_flag_mexico1"), (sss, s4, "@faction_color_mexico"), (sss, s5, "@Mexican"), (call_script, "script_add_faction", faction_mexico),
+(sss, s1, "@United Mexican States"), (sss, s2, "@Mexico"), (sss, s3, "@faction_flag_mexico1"), (sss, s4, "@faction_color_mexico"), (sss, s5, "@Mexican"), (call_script, "script_add_faction", faction_mexico),
 (sss, s1, "@Kingdom of Luang Prabang"), (sss, s2, "@Luang Prabang"), (sss, s3, "@faction_flag_luangprabang"), (sss, s4, "@faction_color_laos"), (sss, s5, "@Lao"), (call_script, "script_add_faction", faction_laos),
 (sss, s1, "@Kingdom of Champasak"), (sss, s2, "@Champasak"), (sss, s3, "@faction_flag_champasak"), (sss, s4, "@faction_color_champasak"), (sss, s5, "@Bassac"), (call_script, "script_add_faction", faction_champasak),
 (sss, s1, "@Kingdom of Cambodia"), (sss, s2, "@Cambodia"), (sss, s3, "@faction_flag_cambodiaearly"), (sss, s4, "@faction_color_cambodia"), (sss, s5, "@Khmer"), (call_script, "script_add_faction", faction_cambodia),
@@ -697,6 +697,12 @@ scripts = [
     (array_set_val, "$factions", 771000, faction_kalat, faction_population),
     (array_set_val, "$factions", 12800000, faction_burma, faction_population),
     (array_set_val, "$factions", 7960000, faction_siam, faction_population),
+    (array_set_val, "$factions", 7940000, faction_mexico, faction_population),
+    (array_set_val, "$factions", 982000, faction_laos, faction_population),
+    (array_set_val, "$factions", 897000, faction_champasak, faction_population),
+    (array_set_val, "$factions", 821000, faction_cambodia, faction_population),
+    (array_set_val, "$factions", 11273000, faction_vietnam, faction_population),
+    
     (else_try),
     (try_end),
     
