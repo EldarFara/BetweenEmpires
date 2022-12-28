@@ -1,5 +1,5 @@
 stringsfile version 1
-766
+782
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -766,3 +766,19 @@ str_province737 _
 str_province738 _
 str_province739 _
 str_province740 _
+str_province741 Cyrenaica
+str_province742 Fezzan
+str_province743 Tripolitania
+str_province744 Gabes
+str_province745 Tunis
+str_province746 Tamanrasset
+str_province747 Bechar
+str_province748 Constantine
+str_province749 Algiers
+str_province750 Laghouat
+str_province751 Oran
+str_province752 Fes
+str_province753 Tangier
+str_province754 Ceuta_and_Melilla
+str_province755 Rabat
+str_province756 Agadir

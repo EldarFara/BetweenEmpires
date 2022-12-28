@@ -1,4 +1,4 @@
-437
+446
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -436,3 +436,12 @@ qstr_Yogyakarta Yogyakarta
 qstr_faction_flag_yogyaka faction_flag_yogyakarta
 qstr_faction_color_yogyak faction_color_yogyakarta
 qstr_Yogyakartan Yogyakartan
+qstr_Emirate_of_Tunisia Emirate_of_Tunisia
+qstr_Tunisia Tunisia
+qstr_faction_flag_tunisia faction_flag_tunisia
+qstr_faction_color_tunisi faction_color_tunisia
+qstr_Tunisian Tunisian
+qstr_Kingdom_of_Morocco Kingdom_of_Morocco
+qstr_Morocco Morocco
+qstr_faction_color_morocc faction_color_morocco
+qstr_Moroccan Moroccan

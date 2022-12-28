@@ -1,5 +1,5 @@
-number_of_provinces = 741
-number_of_factions = 80
+number_of_provinces = 757
+number_of_factions = 82
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
@@ -123,6 +123,8 @@ faction_lanfang         = 76
 faction_kutai           = 77
 faction_surakarta       = 78
 faction_yogyakarta      = 79
+faction_tunisia         = 80
+faction_morocco         = 81
 
 
 global_date_year                                                              = 0
