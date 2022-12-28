@@ -1654,6 +1654,7 @@ scripts = [
     (agent_set_no_dynamics, ":agent", 1),
     (agent_set_visibility, ":agent", 0),
     (agent_stop_sound, ":agent"),
+    (set_fog_distance, 999999999),
     (try_end),
 ]),
 
