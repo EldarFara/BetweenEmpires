@@ -1382,7 +1382,7 @@ scripts = [
 (call_script, "script_add_province", 652, 83101, 23833, faction_johor, 650, 651, 653, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 653, 83221, 23621, faction_britain, 652, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 654, 85764, 23747, faction_sarawak, 708, 707, 655, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 655, 86714, 24298, faction_sarawak, 654, 656, 657, 707, 709, 710, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 655, 86714, 24298, faction_brunei, 654, 656, 657, 707, 709, 710, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 656, 86961, 24887, faction_brunei, 655, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 657, 87816, 25134, faction_sulu, 655, 710, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 658, 90370, 25926, faction_maguindanao, 659, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
