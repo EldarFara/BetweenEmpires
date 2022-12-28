@@ -1,5 +1,5 @@
 stringsfile version 1
-782
+793
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -782,3 +782,14 @@ str_province753 Tangier
 str_province754 Ceuta_and_Melilla
 str_province755 Rabat
 str_province756 Agadir
+str_province757 _
+str_province758 _
+str_province759 _
+str_province760 _
+str_province761 _
+str_province762 _
+str_province763 _
+str_province764 _
+str_province765 _
+str_province766 _
+str_province767 _

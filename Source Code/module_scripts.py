@@ -1486,6 +1486,18 @@ scripts = [
 (call_script, "script_add_province", 754, 46010, 37171, faction_spain, 752, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 755, 44319, 36074, faction_morocco, 752, 756, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 756, 43741, 34857, faction_morocco, 746, 747, 752, 755, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 757, 87878, 11166, faction_britain, 746, 756, 752, 750, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 758, 88582, 13792, faction_britain, 744, 745, 746, 749, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 759, 92622, 14196, faction_britain, 746, 748, 750, 751, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 760, 92420, 11166, faction_britain, 752, 746, 747, 749, 751, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 761, 96359, 13489, faction_britain, 750, 752, 749, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 762, 95753, 10156, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 763, 93935, 8439, faction_britain, 751, 752, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 764, 93935, 6318, faction_britain, 752, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 765, 104310, 7671, faction_britain, 752, 756, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 766, 102588, 6332, faction_britain, 746, 747, 752, 755, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 767, 100344, 5150, faction_britain, 746, 747, 752, 755, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+
 
 # Initparam multipliers
 # Index, population_multiplier, literacy_multiplier, urbanization_multiplier
