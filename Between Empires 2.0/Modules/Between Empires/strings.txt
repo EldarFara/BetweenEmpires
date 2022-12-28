@@ -1,5 +1,5 @@
 stringsfile version 1
-743
+766
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -743,3 +743,26 @@ str_province714 North_Celebes
 str_province715 South_Moluccas
 str_province716 North_Moluccas
 str_province717 West_New_Guinea
+str_province718 _
+str_province719 _
+str_province720 _
+str_province721 _
+str_province722 _
+str_province723 _
+str_province724 _
+str_province725 _
+str_province726 _
+str_province727 _
+str_province728 _
+str_province729 _
+str_province730 _
+str_province731 _
+str_province732 _
+str_province733 _
+str_province734 _
+str_province735 _
+str_province736 _
+str_province737 _
+str_province738 _
+str_province739 _
+str_province740 _
