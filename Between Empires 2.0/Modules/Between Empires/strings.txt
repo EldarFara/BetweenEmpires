@@ -1,5 +1,5 @@
 stringsfile version 1
-793
+807
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -793,3 +793,17 @@ str_province764 _
 str_province765 _
 str_province766 _
 str_province767 _
+str_province768 _
+str_province769 _
+str_province770 _
+str_province771 _
+str_province772 _
+str_province773 _
+str_province774 _
+str_province775 _
+str_province776 _
+str_province777 _
+str_province778 _
+str_province779 _
+str_province780 _
+str_province781 _

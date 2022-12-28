@@ -1486,6 +1486,7 @@ scripts = [
 (call_script, "script_add_province", 754, 46010, 37171, faction_spain, 752, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 755, 44319, 36074, faction_morocco, 752, 756, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 756, 43741, 34857, faction_morocco, 746, 747, 752, 755, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+
 (call_script, "script_add_province", 757, 87878, 11166, faction_britain, 746, 756, 752, 750, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 758, 88582, 13792, faction_britain, 744, 745, 746, 749, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 759, 92622, 14196, faction_britain, 746, 748, 750, 751, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
@@ -1498,6 +1499,20 @@ scripts = [
 (call_script, "script_add_province", 766, 102588, 6332, faction_britain, 746, 747, 752, 755, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 767, 100344, 5150, faction_britain, 746, 747, 752, 755, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 
+(call_script, "script_add_province", 768, 92531, 40384, faction_siam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 769, 92084, 39735, faction_siam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 770, 92733, 38918, faction_siam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 771, 92772, 38193, faction_siam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 772, 92964, 37597, faction_siam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 773, 92663, 37163, faction_siam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 774, 92079, 37373, faction_siam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 775, 92079, 36663, faction_siam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 776, 91409, 36508, faction_siam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 777, 91569, 37068, faction_siam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 778, 90879, 36874, faction_siam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 779, 90518, 36378, faction_siam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 780, 90754, 35823, faction_siam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 781, 90447, 33649, faction_siam, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 
 # Initparam multipliers
 # Index, population_multiplier, literacy_multiplier, urbanization_multiplier
