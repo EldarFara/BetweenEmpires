@@ -1,5 +1,5 @@
-number_of_provinces = 782
-number_of_factions = 88
+number_of_provinces = 787
+number_of_factions = 89
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
@@ -131,6 +131,7 @@ faction_choshu          = 84
 faction_tosa            = 85
 faction_saga            = 86
 faction_ryukyu          = 87
+faction_darfur          = 88
 
 
 global_date_year                                                              = 0

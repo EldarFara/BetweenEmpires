@@ -1,5 +1,5 @@
 stringsfile version 1
-807
+812
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -807,3 +807,8 @@ str_province778 Nagato
 str_province779 North_Kyushu
 str_province780 South_Kyushu
 str_province781 Ryukyu_Islands
+str_province782 Northern_Sudan
+str_province783 Darfur
+str_province784 Kurdufan
+str_province785 Central_Sudan
+str_province786 Eastern_Sudan

@@ -658,6 +658,7 @@ scripts = [
 (sss, s1, "@Tosa Domain"), (sss, s2, "@Tosa"), (sss, s3, "@faction_flag_tosa"), (sss, s4, "@faction_color_tosa"), (sss, s5, "@Tosa"), (call_script, "script_add_faction", faction_tosa),
 (sss, s1, "@Saga Domain"), (sss, s2, "@Saga"), (sss, s3, "@faction_flag_saga"), (sss, s4, "@faction_color_saga"), (sss, s5, "@Saga"), (call_script, "script_add_faction", faction_saga),
 (sss, s1, "@Kingdom of Ryukyu"), (sss, s2, "@Ryukyu"), (sss, s3, "@faction_flag_ryukyu"), (sss, s4, "@faction_color_ryukyu"), (sss, s5, "@Ryukyuan"), (call_script, "script_add_faction", faction_ryukyu),
+(sss, s1, "@Sultanate of Darfur"), (sss, s2, "@Darfur"), (sss, s3, "@faction_flag_darfur"), (sss, s4, "@faction_color_darfur"), (sss, s5, "@Darfuri"), (call_script, "script_add_faction", faction_darfur),
 
 # parameters that are dependant on starting date
     (try_begin),
@@ -1276,9 +1277,9 @@ scripts = [
 (call_script, "script_add_province", 538, 89111, 37063, faction_korea, 537, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 539, 58290, 34899, faction_ottoman, 399, 540, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 540, 57318, 34755, faction_ottoman, 539, 541, 542, 543, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 541, 55986, 34935, faction_ottoman, 540, 543, 741, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 541, 55986, 34935, faction_ottoman, 540, 543, 741, 782, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 542, 58413, 32946, faction_ottoman, 540, 543, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 543, 56583, 33007, faction_ottoman, 540, 541, 542, 741, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 543, 56583, 33007, faction_ottoman, 540, 541, 542, 741, 782, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 544, 38243, 51165, faction_denmark, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 545, 42173, 48323, faction_denmark, 546, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 546, 43275, 48464, faction_denmark, 545, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
@@ -1476,7 +1477,7 @@ scripts = [
 (call_script, "script_add_province", 738, 74390, 35596, faction_china, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 739, 74270, 36652, faction_china, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 740, 80049, 36208, faction_china, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 741, 54576, 33642, faction_ottoman, 541, 543, 742, 743, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 741, 54576, 33642, faction_ottoman, 541, 543, 742, 743, 782, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 742, 51951, 33642, faction_ottoman, 741, 743, 746, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 743, 51701, 35517, faction_ottoman, 741, 742, 746, 744, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 744, 50162, 36143, faction_tunisia, 743, 745, 746, 748, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
@@ -1517,6 +1518,11 @@ scripts = [
 (call_script, "script_add_province", 779, 90518, 36378, faction_saga, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 780, 90754, 35823, faction_satsuma, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 781, 90447, 33649, faction_ryukyu, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 782, 57803, 30739, faction_ottoman, 542, 543, 741, 783, 784, 785, 786, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 783, 55535, 28471, faction_darfur, 782, 784, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 784, 57155, 28255, faction_ottoman, 782, 783, 785, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 785, 58286, 28897, faction_ottoman, 782, 784, 786, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 786, 28949, 28540, faction_ottoman, 782, 785, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 
 # Initparam multipliers
 # Index, population_multiplier, literacy_multiplier, urbanization_multiplier

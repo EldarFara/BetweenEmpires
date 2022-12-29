@@ -831,4 +831,9 @@ strings = [
 ("province779", "North Kyushu"),
 ("province780", "South Kyushu"),
 ("province781", "Ryukyu Islands"),
+("province782", "Northern Sudan"),
+("province783", "Darfur"),
+("province784", "Kurdufan"),
+("province785", "Central Sudan"),
+("province786", "Eastern Sudan"),
 ]
