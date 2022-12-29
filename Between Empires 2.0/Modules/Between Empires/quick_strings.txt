@@ -1,4 +1,4 @@
-471
+472
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -470,3 +470,4 @@ qstr_Ryukyu Ryukyu
 qstr_faction_flag_ryukyu faction_flag_ryukyu
 qstr_faction_color_ryukyu faction_color_ryukyu
 qstr_Ryukyuan Ryukyuan
+qstr_faction_color_satsum faction_color_satsuma

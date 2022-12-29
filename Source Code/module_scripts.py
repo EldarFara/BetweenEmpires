@@ -653,7 +653,7 @@ scripts = [
 (sss, s1, "@Emirate of Tunisia"), (sss, s2, "@Tunisia"), (sss, s3, "@faction_flag_tunisia"), (sss, s4, "@faction_color_tunisia"), (sss, s5, "@Tunisian"), (call_script, "script_add_faction", faction_tunisia),
 (sss, s1, "@Kingdom of Morocco"), (sss, s2, "@Morocco"), (sss, s3, "@faction_flag_red"), (sss, s4, "@faction_color_morocco"), (sss, s5, "@Moroccan"), (call_script, "script_add_faction", faction_morocco),
 (sss, s1, "@Tokugawa Shogunate"), (sss, s2, "@Japan"), (sss, s3, "@faction_flag_shogunate"), (sss, s4, "@faction_color_shogunate"), (sss, s5, "@Japanese"), (call_script, "script_add_faction", faction_shogunate),
-(sss, s1, "@Satsuma Domain"), (sss, s2, "@Satsuma"), (sss, s3, "@faction_flag_satsuma"), (sss, s4, "@faction_color_shogunate"), (sss, s5, "@Satsuma"), (call_script, "script_add_faction", faction_satsuma),
+(sss, s1, "@Satsuma Domain"), (sss, s2, "@Satsuma"), (sss, s3, "@faction_flag_satsuma"), (sss, s4, "@faction_color_satsuma"), (sss, s5, "@Satsuma"), (call_script, "script_add_faction", faction_satsuma),
 (sss, s1, "@Choshu Domain"), (sss, s2, "@Choshu"), (sss, s3, "@faction_flag_choshu"), (sss, s4, "@faction_color_choshu"), (sss, s5, "@Choshu"), (call_script, "script_add_faction", faction_choshu),
 (sss, s1, "@Tosa Domain"), (sss, s2, "@Tosa"), (sss, s3, "@faction_flag_tosa"), (sss, s4, "@faction_color_tosa"), (sss, s5, "@Tosa"), (call_script, "script_add_faction", faction_tosa),
 (sss, s1, "@Saga Domain"), (sss, s2, "@Saga"), (sss, s3, "@faction_flag_saga"), (sss, s4, "@faction_color_saga"), (sss, s5, "@Saga"), (call_script, "script_add_faction", faction_saga),
