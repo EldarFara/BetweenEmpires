@@ -1,4 +1,4 @@
-446
+471
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -445,3 +445,28 @@ qstr_Kingdom_of_Morocco Kingdom_of_Morocco
 qstr_Morocco Morocco
 qstr_faction_color_morocc faction_color_morocco
 qstr_Moroccan Moroccan
+qstr_Tokugawa_Shogunate Tokugawa_Shogunate
+qstr_Japan Japan
+qstr_faction_flag_shoguna faction_flag_shogunate
+qstr_faction_color_shogun faction_color_shogunate
+qstr_Japanese Japanese
+qstr_Satsuma_Domain Satsuma_Domain
+qstr_Satsuma Satsuma
+qstr_faction_flag_satsuma faction_flag_satsuma
+qstr_Choshu_Domain Choshu_Domain
+qstr_Choshu Choshu
+qstr_faction_flag_choshu faction_flag_choshu
+qstr_faction_color_choshu faction_color_choshu
+qstr_Tosa_Domain Tosa_Domain
+qstr_Tosa Tosa
+qstr_faction_flag_tosa faction_flag_tosa
+qstr_faction_color_tosa faction_color_tosa
+qstr_Saga_Domain Saga_Domain
+qstr_Saga Saga
+qstr_faction_flag_saga faction_flag_saga
+qstr_faction_color_saga faction_color_saga
+qstr_Kingdom_of_Ryukyu Kingdom_of_Ryukyu
+qstr_Ryukyu Ryukyu
+qstr_faction_flag_ryukyu faction_flag_ryukyu
+qstr_faction_color_ryukyu faction_color_ryukyu
+qstr_Ryukyuan Ryukyuan

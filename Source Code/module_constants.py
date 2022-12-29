@@ -1,5 +1,5 @@
 number_of_provinces = 782
-number_of_factions = 82
+number_of_factions = 88
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
@@ -125,6 +125,12 @@ faction_surakarta       = 78
 faction_yogyakarta      = 79
 faction_tunisia         = 80
 faction_morocco         = 81
+faction_shogunate       = 82
+faction_satsuma         = 83
+faction_choshu          = 84
+faction_tosa            = 85
+faction_saga            = 86
+faction_ryukyu          = 87
 
 
 global_date_year                                                              = 0
