@@ -1,4 +1,4 @@
-477
+491
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -476,3 +476,17 @@ qstr_Darfur Darfur
 qstr_faction_flag_darfur faction_flag_darfur
 qstr_faction_color_darfur faction_color_darfur
 qstr_Darfuri Darfuri
+qstr_Kel_Ahaggar Kel_Ahaggar
+qstr_Ahaggar Ahaggar
+qstr_faction_flag_ahaggar faction_flag_ahaggar
+qstr_faction_color_ahagga faction_color_ahaggar
+qstr_Berber Berber
+qstr_Nilotic_Tribes Nilotic_Tribes
+qstr_faction_flag_nilotic faction_flag_nilotic
+qstr_faction_color_niloti faction_color_nilotic
+qstr_Nilotic Nilotic
+qstr_Kingdom_of_Shilluk Kingdom_of_Shilluk
+qstr_Shilluk Shilluk
+qstr_faction_flag_shilluk faction_flag_shilluk
+qstr_faction_color_shillu faction_color_shilluk
+qstr_Tuareg Tuareg

@@ -1,5 +1,5 @@
 stringsfile version 1
-812
+815
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -812,3 +812,6 @@ str_province783 Darfur
 str_province784 Kurdufan
 str_province785 Central_Sudan
 str_province786 Eastern_Sudan
+str_province787 El_Ghazal
+str_province788 Upper_Nile
+str_province789 Equatoria

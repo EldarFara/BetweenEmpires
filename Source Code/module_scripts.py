@@ -659,6 +659,9 @@ scripts = [
 (sss, s1, "@Saga Domain"), (sss, s2, "@Saga"), (sss, s3, "@faction_flag_saga"), (sss, s4, "@faction_color_saga"), (sss, s5, "@Saga"), (call_script, "script_add_faction", faction_saga),
 (sss, s1, "@Kingdom of Ryukyu"), (sss, s2, "@Ryukyu"), (sss, s3, "@faction_flag_ryukyu"), (sss, s4, "@faction_color_ryukyu"), (sss, s5, "@Ryukyuan"), (call_script, "script_add_faction", faction_ryukyu),
 (sss, s1, "@Sultanate of Darfur"), (sss, s2, "@Darfur"), (sss, s3, "@faction_flag_darfur"), (sss, s4, "@faction_color_darfur"), (sss, s5, "@Darfuri"), (call_script, "script_add_faction", faction_darfur),
+(sss, s1, "@Kel Ahaggar"), (sss, s2, "@Ahaggar"), (sss, s3, "@faction_flag_ahaggar"), (sss, s4, "@faction_color_ahaggar"), (sss, s5, "@Tuareg"), (call_script, "script_add_faction", faction_ahaggar),
+(sss, s1, "@Kingdom of Shilluk"), (sss, s2, "@Shilluk"), (sss, s3, "@faction_flag_shilluk"), (sss, s4, "@faction_color_shilluk"), (sss, s5, "@Shilluk"), (call_script, "script_add_faction", faction_shilluk),
+
 
 # parameters that are dependant on starting date
     (try_begin),
@@ -1482,8 +1485,8 @@ scripts = [
 (call_script, "script_add_province", 743, 51701, 35517, faction_ottoman, 741, 742, 746, 744, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 744, 50162, 36143, faction_tunisia, 743, 745, 746, 748, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 745, 50162, 37313, faction_tunisia, 744, 748, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 746, 47901, 33375, faction_france, 756, 747, 750, 749, 748, 744, 742, 746, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 747, 46081, 35080, faction_france, 746, 756, 752, 750, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 746, 47901, 33375, faction_ahaggar, 756, 747, 750, 749, 748, 744, 742, 746, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 747, 46081, 35080, faction_ahaggar, 746, 756, 752, 750, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 748, 49121, 37240, faction_france, 744, 745, 746, 749, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 749, 48014, 37132, faction_france, 746, 748, 750, 751, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 750, 47121, 36280, faction_france, 752, 746, 747, 749, 751, -1, -1, -1, -1, -1, -1, terrain_plains),
@@ -1522,7 +1525,10 @@ scripts = [
 (call_script, "script_add_province", 783, 55535, 28471, faction_darfur, 782, 784, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 784, 57155, 28255, faction_ottoman, 782, 783, 785, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 785, 58286, 28897, faction_ottoman, 782, 784, 786, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 786, 28949, 28540, faction_ottoman, 782, 785, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 786, 58949, 28540, faction_ottoman, 782, 785, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 787, 56533, 26321, faction_shilluk, 783, 784, 788, 789, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 788, 58033, 26321, faction_shilluk, 785, 784, 787, 789, 786, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 789, 57683, 25021, faction_shilluk, 787, 788, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 
 # Initparam multipliers
 # Index, population_multiplier, literacy_multiplier, urbanization_multiplier

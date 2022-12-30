@@ -810,3 +810,6 @@ str_province783 = 808
 str_province784 = 809
 str_province785 = 810
 str_province786 = 811
+str_province787 = 812
+str_province788 = 813
+str_province789 = 814
