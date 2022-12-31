@@ -1596,8 +1596,9 @@ scripts = [
 (call_script, "script_add_province", 848, 60700, 25677, faction_harar, 843, 844, 846, 847, 849, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 849, 62332, 25915, faction_harar, 841, 844, 847, 850, 851, 852, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 850, 63080, 27003, faction_isaaq, 841, 849, 851, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 851, 64134, 26153, faction_somalia, 849, 850, 851, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 851, 64016, 26198, faction_somalia, 849, 850, 851, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 852, 62264, 23977, faction_somalia, 849, 851, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 853, 65565, 28051, faction_mahra, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 
 # Initparam multipliers
 # Index, population_multiplier, literacy_multiplier, urbanization_multiplier
