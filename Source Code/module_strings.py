@@ -903,4 +903,10 @@ strings = [
 ("province851","North Somalia"),
 ("province852","South Somalia"),
 ("province853","Socotra"),
+("province854","Turkana"),
+("province855","Nyanza"),
+("province856","Nairobi"),
+("province857","Marsabil"),
+("province858","Meru"),
+("province859","Garissa"),
 ]

@@ -1,5 +1,5 @@
 stringsfile version 1
-879
+885
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -879,3 +879,9 @@ str_province850 Somaliland
 str_province851 North_Somalia
 str_province852 South_Somalia
 str_province853 Socotra
+str_province854 Turkana
+str_province855 Nyanza
+str_province856 Nairobi
+str_province857 Marsabil
+str_province858 Meru
+str_province859 Garissa
