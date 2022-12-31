@@ -1,4 +1,4 @@
-518
+522
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -517,3 +517,7 @@ qstr_Heavenly_Kingdom_of_ Heavenly_Kingdom_of_Great_Peace
 qstr_Taiping Taiping
 qstr_faction_flag_taiping faction_flag_taiping
 qstr_faction_color_taipin faction_color_taiping
+qstr_Masai_Tribes Masai_Tribes
+qstr_Masai Masai
+qstr_faction_flag_masai faction_flag_masai
+qstr_faction_color_masai faction_color_masai

@@ -1,5 +1,5 @@
 number_of_provinces = 861
-number_of_factions = 97
+number_of_factions = 98
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
@@ -140,6 +140,7 @@ faction_aussa           = 93
 faction_isaaq           = 94
 faction_somalia         = 95
 faction_taiping         = 96
+faction_masai           = 97
 
 
 

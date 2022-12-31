@@ -667,6 +667,7 @@ scripts = [
 (sss, s1, "@Sultanate of Isaaq"), (sss, s2, "@Isaaq"), (sss, s3, "@faction_flag_isaaq"), (sss, s4, "@faction_color_isaaq"), (sss, s5, "@Isaaqi"), (call_script, "script_add_faction", faction_isaaq),
 (sss, s1, "@Somalian Sultanates"), (sss, s2, "@Somalia"), (sss, s3, "@faction_flag_red"), (sss, s4, "@faction_color_somalia"), (sss, s5, "@Somali"), (call_script, "script_add_faction", faction_somalia),
 (sss, s1, "@Heavenly Kingdom of Great Peace"), (sss, s2, "@Taiping"), (sss, s3, "@faction_flag_taiping"), (sss, s4, "@faction_color_taiping"), (sss, s5, "@Taiping"), (call_script, "script_add_faction", faction_taiping),
+(sss, s1, "@Masai Tribes"), (sss, s2, "@Masai"), (sss, s3, "@faction_flag_masai"), (sss, s4, "@faction_color_masai"), (sss, s5, "@Masai"), (call_script, "script_add_faction", faction_masai),
 
 
 # parameters that are dependant on starting date
@@ -1599,12 +1600,12 @@ scripts = [
 (call_script, "script_add_province", 851, 64016, 26198, faction_somalia, 849, 850, 851, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 852, 62264, 23977, faction_somalia, 849, 851, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 853, 65565, 28051, faction_mahra, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 854, 59391, 23906, no_faction, 789, 847, 855, 856, 857, 858, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 855, 58901, 22996, no_faction, 854, 856, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 856, 59496, 22681, no_faction, 854, 855, 858, 860, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 857, 60126, 24081, no_faction, 847, 848, 854, 858, 859, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 858, 60126, 22611, no_faction, 854, 856, 857, 859, 860, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 859, 60861, 23591, no_faction, 848, 849, 852, 857, 858, 860, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 854, 59391, 23906, faction_masai, 789, 847, 855, 856, 857, 858, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 855, 58901, 22996, faction_masai, 854, 856, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 856, 59496, 22681, faction_masai, 854, 855, 858, 860, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 857, 60126, 24081, faction_masai, 847, 848, 854, 858, 859, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 858, 60126, 22611, faction_masai, 854, 856, 857, 859, 860, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 859, 60861, 23591, faction_masai, 848, 849, 852, 857, 858, 860, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 860, 60616, 21911, faction_oman, 856, 858, 860, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 
 # Initparam multipliers
