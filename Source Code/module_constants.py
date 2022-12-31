@@ -1,5 +1,5 @@
-number_of_provinces = 839
-number_of_factions = 91
+number_of_provinces = 853
+number_of_factions = 97
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
@@ -134,6 +134,13 @@ faction_ryukyu          = 87
 faction_darfur          = 88
 faction_ahaggar         = 89
 faction_shilluk         = 90
+faction_ethiopia        = 91
+faction_harar           = 92
+faction_aussa           = 93
+faction_isaaq           = 94
+faction_somalia         = 95
+faction_taiping         = 96
+
 
 
 global_date_year                                                              = 0

@@ -1,4 +1,4 @@
-491
+518
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -490,3 +490,30 @@ qstr_Shilluk Shilluk
 qstr_faction_flag_shilluk faction_flag_shilluk
 qstr_faction_color_shillu faction_color_shilluk
 qstr_Tuareg Tuareg
+qstr_Solomonic_Dynasty Solomonic_Dynasty
+qstr_Ethiopia Ethiopia
+qstr_faction_flag_ethiopi faction_flag_ethiopiaearly
+qstr_faction_color_ethiop faction_color_ethiopia
+qstr_Ethiopian Ethiopian
+qstr_Sultanate_of_Harar Sultanate_of_Harar
+qstr_Harar Harar
+qstr_faction_flag_harar faction_flag_harar
+qstr_faction_color_harar faction_color_harar
+qstr_Harari Harari
+qstr_Sultanate_of_Aussa Sultanate_of_Aussa
+qstr_Aussa Aussa
+qstr_faction_color_aussa faction_color_aussa
+qstr_Aussan Aussan
+qstr_Sultanate_of_Isaaq Sultanate_of_Isaaq
+qstr_Isaaq Isaaq
+qstr_faction_flag_isaaq faction_flag_isaaq
+qstr_faction_color_isaaq faction_color_isaaq
+qstr_Isaaqi Isaaqi
+qstr_Somalian_Sultanates Somalian_Sultanates
+qstr_Somalia Somalia
+qstr_faction_color_somali faction_color_somalia
+qstr_Somali Somali
+qstr_Heavenly_Kingdom_of_ Heavenly_Kingdom_of_Great_Peace
+qstr_Taiping Taiping
+qstr_faction_flag_taiping faction_flag_taiping
+qstr_faction_color_taipin faction_color_taiping

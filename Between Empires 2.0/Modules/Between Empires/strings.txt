@@ -1,5 +1,5 @@
 stringsfile version 1
-864
+878
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -864,3 +864,17 @@ str_province835 province835
 str_province836 province836
 str_province837 province837
 str_province838 province838
+str_province839 Northwest_Eritrea
+str_province840 Southeast_Eritrea
+str_province841 Djibouti
+str_province842 Tigray
+str_province843 Amhara
+str_province844 Afar
+str_province845 Benishangul-Gumuz
+str_province846 Addis_Ababa
+str_province847 Awasa
+str_province848 Oromiya
+str_province849 West_Somalia
+str_province850 Somaliland
+str_province851 North_Somalia
+str_province852 South_Somalia
