@@ -902,4 +902,5 @@ strings = [
 ("province850","Somaliland"),
 ("province851","North Somalia"),
 ("province852","South Somalia"),
+("province853","Socotra"),
 ]

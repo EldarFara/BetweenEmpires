@@ -1,5 +1,5 @@
 stringsfile version 1
-878
+879
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -878,3 +878,4 @@ str_province849 West_Somalia
 str_province850 Somaliland
 str_province851 North_Somalia
 str_province852 South_Somalia
+str_province853 Socotra
