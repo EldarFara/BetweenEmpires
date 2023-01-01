@@ -1,5 +1,5 @@
 stringsfile version 1
-894
+902
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -894,3 +894,11 @@ str_province865 Batha
 str_province866 Baghirmi
 str_province867 Dar_Sila
 str_province868 Logone
+str_province869 Borno
+str_province870 Kano
+str_province871 Sokoto
+str_province872 Taraba
+str_province873 Nasarawa
+str_province874 Kwara
+str_province875 Imo
+str_province876 Oyo

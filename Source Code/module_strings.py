@@ -918,4 +918,12 @@ strings = [
 ("province866","Baghirmi"),
 ("province867","Dar Sila"),
 ("province868","Logone"),
+("province869","Borno"),
+("province870","Kano"),
+("province871","Sokoto"),
+("province872","Taraba"),
+("province873","Nasarawa"),
+("province874","Kwara"),
+("province875","Imo"),
+("province876","Oyo"),
 ]

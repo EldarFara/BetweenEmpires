@@ -1,4 +1,4 @@
-534
+553
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -533,3 +533,22 @@ qstr_Sultanate_of_Baghirm Sultanate_of_Baghirmi
 qstr_Baghirmi Baghirmi
 qstr_faction_flag_baghirm faction_flag_baghirmi
 qstr_faction_color_baghir faction_color_baghirmi
+qstr_Sultanate_of_Kanem Sultanate_of_Kanem
+qstr_Kanem Kanem
+qstr_faction_flag_kanem faction_flag_kanem
+qstr_faction_color_kanem faction_color_kanem
+qstr_Kanuri Kanuri
+qstr_Sokoto_Caliphate Sokoto_Caliphate
+qstr_Sokoto Sokoto
+qstr_faction_flag_green faction_flag_green
+qstr_faction_color_sokoto faction_color_sokoto
+qstr_Fulani Fulani
+qstr_Kingdom_of_Benin Kingdom_of_Benin
+qstr_Benin Benin
+qstr_faction_flag_benined faction_flag_beninedo
+qstr_faction_color_benine faction_color_beninedo
+qstr_Beninese Beninese
+qstr_Oyo_Empire Oyo_Empire
+qstr_Oyo Oyo
+qstr_faction_flag_oyo faction_flag_oyo
+qstr_faction_color_oyo faction_color_oyo

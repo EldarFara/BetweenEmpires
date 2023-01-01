@@ -1,5 +1,5 @@
-number_of_provinces = 869
-number_of_factions = 101
+number_of_provinces = 877
+number_of_factions = 105
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
@@ -144,6 +144,10 @@ faction_masai           = 97
 faction_bornu           = 98
 faction_wadai           = 99
 faction_baghirmi        = 100
+faction_kanem           = 101
+faction_sokoto          = 102
+faction_oyo             = 103
+faction_beninedo        = 104
 
 
 

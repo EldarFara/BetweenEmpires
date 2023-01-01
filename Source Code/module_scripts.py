@@ -671,6 +671,11 @@ scripts = [
 (sss, s1, "@Bornu Empire"), (sss, s2, "@Bornu"), (sss, s3, "@faction_flag_bornu"), (sss, s4, "@faction_color_bornu"), (sss, s5, "@Bornu"), (call_script, "script_add_faction", faction_bornu),
 (sss, s1, "@Sultanate of Wadai"), (sss, s2, "@Wadai"), (sss, s3, "@faction_flag_wadai"), (sss, s4, "@faction_color_wadai"), (sss, s5, "@Wadai"), (call_script, "script_add_faction", faction_wadai),
 (sss, s1, "@Sultanate of Baghirmi"), (sss, s2, "@Baghirmi"), (sss, s3, "@faction_flag_baghirmi"), (sss, s4, "@faction_color_baghirmi"), (sss, s5, "@Baghirmi"), (call_script, "script_add_faction", faction_baghirmi),
+(sss, s1, "@Sultanate of Kanem"), (sss, s2, "@Kanem"), (sss, s3, "@faction_flag_kanem"), (sss, s4, "@faction_color_kanem"), (sss, s5, "@Kanuri"), (call_script, "script_add_faction", faction_kanem),
+(sss, s1, "@Sokoto Caliphate"), (sss, s2, "@Sokoto"), (sss, s3, "@faction_flag_green"), (sss, s4, "@faction_color_sokoto"), (sss, s5, "@Fulani"), (call_script, "script_add_faction", faction_sokoto),
+(sss, s1, "@Sokoto Caliphate"), (sss, s2, "@Sokoto"), (sss, s3, "@faction_flag_green"), (sss, s4, "@faction_color_sokoto"), (sss, s5, "@Fulani"), (call_script, "script_add_faction", faction_sokoto),
+(sss, s1, "@Oyo Empire"), (sss, s2, "@Oyo"), (sss, s3, "@faction_flag_oyo"), (sss, s4, "@faction_color_oyo"), (sss, s5, "@Oyo"), (call_script, "script_add_faction", faction_oyo),
+(sss, s1, "@Kingdom of Benin"), (sss, s2, "@Benin"), (sss, s3, "@faction_flag_beninedo"), (sss, s4, "@faction_color_beninedo"), (sss, s5, "@Beninese"), (call_script, "script_add_faction", faction_beninedo),
 
 
 # parameters that are dependant on starting date
@@ -1613,11 +1618,19 @@ scripts = [
 (call_script, "script_add_province", 861, 52603, 31109, no_faction, 742, 862, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 862, 53307, 30341, no_faction, 741, 742, 862, 863, 864, 865, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 863, 54623, 30123, no_faction, 741, 783, 862, 865, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 864, 52277, 28919, faction_bornu, 862, 865, 866, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 864, 52277, 28919, faction_kanem, 862, 865, 866, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 865, 53761, 28760, faction_wadai, 783, 862, 863, 864, 866, 867, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 866, 52754, 27541, faction_baghirmi, 864, 865, 867, 868, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 867, 54079, 27488, faction_wadai, 783, 865, 866, 868, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 868, 52731, 26610, faction_baghirmi, 866, 867, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 869, 50890, 27437, faction_bornu, 864, 870, 872, 873, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 870, 49514, 27480, faction_sokoto, 869, 871, 873, 874, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 871, 48611, 28039, faction_sokoto, 870, 874, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 872, 50589, 26276, faction_sokoto, 869, 873, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 873, 49514, 26276, faction_sokoto, 869, 870, 872, 874, 875, 876, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 874, 48611, 26835, faction_sokoto, 870, 871, 873, 876, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 875, 49084, 25287, faction_beninedo, 873, 876, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 876, 48181, 26018, faction_oyo, 873, 874, 875, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 
 # Initparam multipliers
 # Index, population_multiplier, literacy_multiplier, urbanization_multiplier
