@@ -668,6 +668,9 @@ scripts = [
 (sss, s1, "@Somalian Sultanates"), (sss, s2, "@Somalia"), (sss, s3, "@faction_flag_red"), (sss, s4, "@faction_color_somalia"), (sss, s5, "@Somali"), (call_script, "script_add_faction", faction_somalia),
 (sss, s1, "@Heavenly Kingdom of Great Peace"), (sss, s2, "@Taiping"), (sss, s3, "@faction_flag_taiping"), (sss, s4, "@faction_color_taiping"), (sss, s5, "@Taiping"), (call_script, "script_add_faction", faction_taiping),
 (sss, s1, "@Masai Tribes"), (sss, s2, "@Masai"), (sss, s3, "@faction_flag_masai"), (sss, s4, "@faction_color_masai"), (sss, s5, "@Masai"), (call_script, "script_add_faction", faction_masai),
+(sss, s1, "@Bornu Empire"), (sss, s2, "@Bornu"), (sss, s3, "@faction_flag_bornu"), (sss, s4, "@faction_color_bornu"), (sss, s5, "@Bornu"), (call_script, "script_add_faction", faction_bornu),
+(sss, s1, "@Sultanate of Wadai"), (sss, s2, "@Wadai"), (sss, s3, "@faction_flag_wadai"), (sss, s4, "@faction_color_wadai"), (sss, s5, "@Wadai"), (call_script, "script_add_faction", faction_wadai),
+(sss, s1, "@Sultanate of Baghirmi"), (sss, s2, "@Baghirmi"), (sss, s3, "@faction_flag_baghirmi"), (sss, s4, "@faction_color_baghirmi"), (sss, s5, "@Baghirmi"), (call_script, "script_add_faction", faction_baghirmi),
 
 
 # parameters that are dependant on starting date
@@ -1607,6 +1610,14 @@ scripts = [
 (call_script, "script_add_province", 858, 60126, 22611, faction_masai, 854, 856, 857, 859, 860, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 859, 60861, 23591, faction_masai, 848, 849, 852, 857, 858, 860, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 860, 60616, 21911, faction_oman, 856, 858, 860, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 861, 52603, 31109, no_faction, 742, 862, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 862, 53307, 30341, no_faction, 741, 742, 862, 863, 864, 865, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 863, 54623, 30123, no_faction, 741, 783, 862, 865, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 864, 52277, 28919, faction_bornu, 862, 865, 866, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 865, 53761, 28760, faction_wadai, 783, 862, 863, 864, 866, 867, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 866, 52754, 27541, faction_baghirmi, 864, 865, 867, 868, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 867, 54079, 27488, faction_wadai, 783, 865, 866, 868, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 868, 52731, 26610, faction_baghirmi, 866, 867, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 
 # Initparam multipliers
 # Index, population_multiplier, literacy_multiplier, urbanization_multiplier

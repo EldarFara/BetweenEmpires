@@ -909,4 +909,13 @@ strings = [
 ("province857","Marsabil"),
 ("province858","Meru"),
 ("province859","Garissa"),
+("province860","Mombasa"),
+("province861","Aozou"),
+("province862","Borkou"),
+("province863","Ennedi"),
+("province864","Kanem"),
+("province865","Batha"),
+("province866","Baghirmi"),
+("province867","Dar Sila"),
+("province868","Logone"),
 ]

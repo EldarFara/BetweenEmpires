@@ -1,4 +1,4 @@
-522
+534
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -521,3 +521,15 @@ qstr_Masai_Tribes Masai_Tribes
 qstr_Masai Masai
 qstr_faction_flag_masai faction_flag_masai
 qstr_faction_color_masai faction_color_masai
+qstr_Bornu_Empire Bornu_Empire
+qstr_Bornu Bornu
+qstr_faction_flag_bornu faction_flag_bornu
+qstr_faction_color_bornu faction_color_bornu
+qstr_Sultanate_of_Wadai Sultanate_of_Wadai
+qstr_Wadai Wadai
+qstr_faction_flag_wadai faction_flag_wadai
+qstr_faction_color_wadai faction_color_wadai
+qstr_Sultanate_of_Baghirm Sultanate_of_Baghirmi
+qstr_Baghirmi Baghirmi
+qstr_faction_flag_baghirm faction_flag_baghirmi
+qstr_faction_color_baghir faction_color_baghirmi

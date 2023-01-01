@@ -1,5 +1,5 @@
 stringsfile version 1
-885
+894
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -885,3 +885,12 @@ str_province856 Nairobi
 str_province857 Marsabil
 str_province858 Meru
 str_province859 Garissa
+str_province860 Mombasa
+str_province861 Aozou
+str_province862 Borkou
+str_province863 Ennedi
+str_province864 Kanem
+str_province865 Batha
+str_province866 Baghirmi
+str_province867 Dar_Sila
+str_province868 Logone
