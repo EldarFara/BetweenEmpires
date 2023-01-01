@@ -676,6 +676,7 @@ scripts = [
 (sss, s1, "@Sokoto Caliphate"), (sss, s2, "@Sokoto"), (sss, s3, "@faction_flag_green"), (sss, s4, "@faction_color_sokoto"), (sss, s5, "@Fulani"), (call_script, "script_add_faction", faction_sokoto),
 (sss, s1, "@Oyo Empire"), (sss, s2, "@Oyo"), (sss, s3, "@faction_flag_oyo"), (sss, s4, "@faction_color_oyo"), (sss, s5, "@Oyo"), (call_script, "script_add_faction", faction_oyo),
 (sss, s1, "@Kingdom of Benin"), (sss, s2, "@Benin"), (sss, s3, "@faction_flag_beninedo"), (sss, s4, "@faction_color_beninedo"), (sss, s5, "@Beninese"), (call_script, "script_add_faction", faction_beninedo),
+(sss, s1, "@Cameroonian Kingdoms"), (sss, s2, "@Cameroon"), (sss, s3, "@faction_flag_cameroonearly"), (sss, s4, "@faction_color_cameroon"), (sss, s5, "@Cameroonian"), (call_script, "script_add_faction", faction_cameroon),
 
 
 # parameters that are dependant on starting date
@@ -1631,6 +1632,11 @@ scripts = [
 (call_script, "script_add_province", 874, 48611, 26835, faction_sokoto, 870, 871, 873, 876, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 875, 49084, 25287, faction_beninedo, 873, 876, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 876, 48181, 26018, faction_oyo, 873, 874, 875, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 877, 51842, 27357, faction_sokoto, 864, 877, 866, 868, 869, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 878, 51572, 26091, faction_sokoto, 868, 869, 872, 877, 879, 880, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 879, 51747, 24516, faction_cameroon, 878, 880, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 880, 50872, 24586, faction_spain, 879, 881, 878, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 881, 50242, 25216, faction_spain, 880, 872, 873, 875, 878, -1, -1, -1, -1, -1, -1, terrain_plains),
 
 # Initparam multipliers
 # Index, population_multiplier, literacy_multiplier, urbanization_multiplier

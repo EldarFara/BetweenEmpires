@@ -1,5 +1,5 @@
-number_of_provinces = 877
-number_of_factions = 105
+number_of_provinces = 882
+number_of_factions = 106
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
@@ -148,6 +148,7 @@ faction_kanem           = 101
 faction_sokoto          = 102
 faction_oyo             = 103
 faction_beninedo        = 104
+faction_cameroon        = 105
 
 
 
