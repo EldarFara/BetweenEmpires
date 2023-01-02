@@ -677,6 +677,7 @@ scripts = [
 (sss, s1, "@Oyo Empire"), (sss, s2, "@Oyo"), (sss, s3, "@faction_flag_oyo"), (sss, s4, "@faction_color_oyo"), (sss, s5, "@Oyo"), (call_script, "script_add_faction", faction_oyo),
 (sss, s1, "@Kingdom of Benin"), (sss, s2, "@Benin"), (sss, s3, "@faction_flag_beninedo"), (sss, s4, "@faction_color_beninedo"), (sss, s5, "@Beninese"), (call_script, "script_add_faction", faction_beninedo),
 (sss, s1, "@Cameroonian Kingdoms"), (sss, s2, "@Cameroon"), (sss, s3, "@faction_flag_cameroonearly"), (sss, s4, "@faction_color_cameroon"), (sss, s5, "@Cameroonian"), (call_script, "script_add_faction", faction_cameroon),
+(sss, s1, "@Kingdom of Hawaii"), (sss, s2, "@Hawaii"), (sss, s3, "@faction_flag_hawaii"), (sss, s4, "@faction_color_hawaii"), (sss, s5, "@Hawaiian"), (call_script, "script_add_faction", faction_hawaii),
 
 
 # parameters that are dependant on starting date
@@ -1204,7 +1205,7 @@ scripts = [
 (call_script, "script_add_province", 446, 13371, 35250, faction_usa, 445, 408, 679, 680, 682, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 447, 6491, 47746, faction_russia, 547, 548, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 448, 8185, 49440, faction_russia, 548, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 449, 2708, 29999, faction_usa, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 449, 2708, 29999, faction_hawaii, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 450, 62133, 38067, faction_iran, 325, 326, 375, 397, 388, 452, 453, 451, 327, -1, -1, terrain_plains),
 (call_script, "script_add_province", 451, 62883, 38157, faction_iran, 330, 327, 450, 453, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 452, 62643, 37047, faction_iran, 450, 388, 389, 454, 455, 453, -1, -1, -1, -1, -1, terrain_plains),

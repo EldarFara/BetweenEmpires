@@ -1,4 +1,4 @@
-558
+563
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -557,3 +557,8 @@ qstr_Cameroon Cameroon
 qstr_faction_flag_cameroo faction_flag_cameroonearly
 qstr_faction_color_camero faction_color_cameroon
 qstr_Cameroonian Cameroonian
+qstr_Kingdom_of_Hawaii Kingdom_of_Hawaii
+qstr_Hawaii Hawaii
+qstr_faction_flag_hawaii faction_flag_hawaii
+qstr_faction_color_hawaii faction_color_hawaii
+qstr_Hawaiian Hawaiian
