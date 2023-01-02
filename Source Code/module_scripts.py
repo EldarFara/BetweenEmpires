@@ -683,6 +683,7 @@ scripts = [
 (sss, s1, "@Kel Adagh Tuaregs"), (sss, s2, "@Adagh"), (sss, s3, "@faction_flag_tuareg"), (sss, s4, "@faction_color_adagh"), (sss, s5, "@Tuareg"), (call_script, "script_add_faction", faction_adagh),
 (sss, s1, "@Bamana Empire"), (sss, s2, "@Mali"), (sss, s3, "@faction_flag_bamana"), (sss, s4, "@faction_color_bamana"), (sss, s5, "@Bamana"), (call_script, "script_add_faction", faction_bamana),
 (sss, s1, "@Kingdom of Dendi"), (sss, s2, "@Dendi"), (sss, s3, "@faction_flag_dendi"), (sss, s4, "@faction_color_dendi"), (sss, s5, "@Dendi"), (call_script, "script_add_faction", faction_dendi),
+(sss, s1, "@Toubou Tribes"), (sss, s2, "@Toubou"), (sss, s3, "@faction_flag_toubou"), (sss, s4, "@faction_color_toubou"), (sss, s5, "@Toubouan"), (call_script, "script_add_faction", faction_toubou),
 
 
 # parameters that are dependant on starting date
@@ -1622,9 +1623,9 @@ scripts = [
 (call_script, "script_add_province", 858, 60126, 22611, faction_masai, 854, 856, 857, 859, 860, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 859, 60861, 23591, faction_masai, 848, 849, 852, 857, 858, 860, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 860, 60616, 21911, faction_oman, 856, 858, 860, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 861, 52603, 31109, no_faction, 742, 862, 882, 883, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 862, 53307, 30341, no_faction, 741, 742, 862, 863, 864, 865, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 863, 54623, 30123, no_faction, 741, 783, 862, 865, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 861, 52603, 31109, faction_toubou, 742, 862, 882, 883, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 862, 53307, 30341, faction_toubou, 741, 742, 862, 863, 864, 865, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 863, 54623, 30123, faction_toubou, 741, 783, 862, 865, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 864, 52277, 28919, faction_kanem, 862, 865, 866, 883, 877, 869, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 865, 53761, 28760, faction_wadai, 783, 862, 863, 864, 866, 867, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 866, 52754, 27541, faction_baghirmi, 864, 865, 867, 868, 877, -1, -1, -1, -1, -1, -1, terrain_plains),
