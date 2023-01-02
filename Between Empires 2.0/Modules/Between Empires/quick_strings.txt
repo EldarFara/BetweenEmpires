@@ -1,4 +1,4 @@
-556
+558
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -555,3 +555,5 @@ qstr__ _
 qstr_Start_Game Start_Game
 qstr_Choose_a_country_to_ Choose_a_country_to_play_as
 qstr_{reg0} {reg0}
+qstr_Province_in Province_in
+qstr_Unclaimed_territory Unclaimed_territory

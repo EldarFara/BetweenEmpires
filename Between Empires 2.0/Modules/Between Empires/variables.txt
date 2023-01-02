@@ -130,3 +130,7 @@ devmode_enabled
 provinces_borders
 ui_province_menu_small_bg
 ui_province_name
+ui_province_in_text
+ui_province_in_flag
+ui_province_in_text2
+ui_province_owner_flag

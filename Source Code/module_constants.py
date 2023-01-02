@@ -3,7 +3,7 @@ number_of_factions = 113
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
-number_of_provinces_parameters = 15
+number_of_provinces_parameters = 16
 number_of_provinces_strings = 1
 number_of_provinces_borders = 10
 number_of_global_parameters = 7
@@ -39,6 +39,7 @@ province_population                                                           = 
 province_urbanization                                                         = 12
 province_literacy                                                             = 13
 province_terrain                                                              = 14
+province_control_type                                                         = 15
 
 province_string_name                                                          = 0
 
@@ -194,3 +195,9 @@ terrain_tropical_forest          = 14
 terrain_tropical_forest_dense    = 15
 terrain_marshes                  = 16
 terrain_savanna                  = 17
+
+province_control_type_core              = 0
+province_control_type_noncore           = 1
+province_control_type_noncoreautonomous = 2
+province_control_type_occupied          = 3
+province_control_type_colony            = 4

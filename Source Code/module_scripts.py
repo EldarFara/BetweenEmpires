@@ -2093,6 +2093,8 @@ scripts = [
 (call_script, "script_world_map_ui_start_faction_selection"),
 (call_script, "script_world_map_ui_start_bottom_panel"),
 (call_script, "script_world_map_ui_start_province_menu_small_player"),
+(call_script, "script_world_map_ui_start_province_menu_small_foreign"),
+(call_script, "script_world_map_ui_start_province_menu_small_noowner"),
 
 ]),
 
@@ -2100,17 +2102,62 @@ scripts = [
 ("world_map_ui_start_province_menu_small_player", [
     (try_begin),
     (array_eq, "$globals", ui_mode_province_menu_small_player, global_ui_mode),
-    (create_mesh_overlay, "$ui_province_menu_small_bg", "mesh_ui_background"),
-    (overlay_set_material, "$ui_province_menu_small_bg", "@ui_province_menu_small"),
-    (position_set_x, pos1, 0), (position_set_y, pos1, 0), (overlay_set_position, "$ui_province_menu_small_bg", pos1),
-    (position_set_x, pos1, 290), (position_set_y, pos1, 800), (overlay_set_size, "$ui_province_menu_small_bg", pos1),
-
-    (array_get_val, ":selected_province", "$globals", global_selected_province),
-    (array_get_val, s1, "$provinces_strings", ":selected_province", province_string_name),
-    (create_text_overlay, "$ui_province_name", "@{s1}", tf_center_justify),
-    (position_set_x, pos1, 145), (position_set_y, pos1, 510), (overlay_set_position, "$ui_province_name", pos1),
-    (position_set_x, pos1, 1200), (position_set_y, pos1, 1200), (overlay_set_size, "$ui_province_name", pos1),
+    (call_script, "script_world_map_ui_start_province_menu_small_shared"),
     
+    (try_end),
+]),
+
+# Small menu on the left on screen for non-player faction provinces
+("world_map_ui_start_province_menu_small_foreign", [
+    (try_begin),
+    (array_eq, "$globals", ui_mode_province_menu_small_foreign, global_ui_mode),
+    (call_script, "script_world_map_ui_start_province_menu_small_shared"),
+    
+    (try_end),
+]),
+
+# Small menu on the left on screen for no owner provinces
+("world_map_ui_start_province_menu_small_noowner", [
+    (try_begin),
+    (array_eq, "$globals", ui_mode_province_menu_small_noowner, global_ui_mode),
+    (call_script, "script_world_map_ui_start_province_menu_small_shared"),
+    
+    (try_end),
+]),
+
+
+("world_map_ui_start_province_menu_small_shared", [
+(create_mesh_overlay, "$ui_province_menu_small_bg", "mesh_ui_background"),
+(overlay_set_material, "$ui_province_menu_small_bg", "@ui_province_menu_small"),
+(position_set_x, pos1, 0), (position_set_y, pos1, 0), (overlay_set_position, "$ui_province_menu_small_bg", pos1),
+(position_set_x, pos1, 290), (position_set_y, pos1, 800), (overlay_set_size, "$ui_province_menu_small_bg", pos1),
+
+(array_get_val, ":selected_province", "$globals", global_selected_province),
+(array_get_val, s1, "$provinces_strings", ":selected_province", province_string_name),
+(create_text_overlay, "$ui_province_name", "@{s1}", tf_center_justify),
+(position_set_x, pos1, 145), (position_set_y, pos1, 510), (overlay_set_position, "$ui_province_name", pos1),
+(position_set_x, pos1, 1200), (position_set_y, pos1, 1200), (overlay_set_size, "$ui_province_name", pos1),
+
+(array_get_val, ":owner", "$provinces", ":selected_province", province_owner),
+    (try_begin),
+    (lt, ":owner", 0),
+    (create_text_overlay, "$ui_province_in_text", "@Unclaimed territory", tf_right_align),
+    (position_set_x, pos1, 150), (position_set_y, pos1, 480), (overlay_set_position, "$ui_province_in_text", pos1),
+    (position_set_x, pos1, 590), (position_set_y, pos1, 590), (overlay_set_size, "$ui_province_in_text", pos1),
+    (else_try),
+    (create_text_overlay, "$ui_province_in_text", "@Province in", tf_right_align),
+    (position_set_x, pos1, 137), (position_set_y, pos1, 480), (overlay_set_position, "$ui_province_in_text", pos1),
+    (position_set_x, pos1, 590), (position_set_y, pos1, 590), (overlay_set_size, "$ui_province_in_text", pos1),
+
+    (create_image_button_overlay, "$ui_province_owner_flag", "mesh_ui_picture", "mesh_ui_picture"),
+    (position_set_x, pos1, 152), (position_set_y, pos1, 486), (overlay_set_position, "$ui_province_owner_flag", pos1),
+    (position_set_x, pos1, 210*1.5), (position_set_y, pos1, 210), (overlay_set_size, "$ui_province_owner_flag", pos1),
+    (call_script, "script_ui_flag_overlay_set_material_and_tooltip", "$ui_province_owner_flag", ":owner"),
+
+    (array_get_val, s1, "$factions_strings", ":owner", faction_string_name_short),
+    (create_text_overlay, "$ui_province_in_text2", "@{s1}", tf_left_align),
+    (position_set_x, pos1, 160), (position_set_y, pos1, 480), (overlay_set_position, "$ui_province_in_text2", pos1),
+    (position_set_x, pos1, 590), (position_set_y, pos1, 590), (overlay_set_size, "$ui_province_in_text2", pos1),
     (try_end),
 ]),
 
@@ -2123,15 +2170,11 @@ scripts = [
     (array_eq, "$globals", ui_mode_province_menu_small_player, global_ui_mode),
     (create_mesh_overlay, "$ui_bottom_panel", "mesh_ui_background"),
     (overlay_set_material, "$ui_bottom_panel", "@ui_world_map_bottom_panel"),
-    (position_set_x, pos1, 0), (position_set_y, pos1, 0),
-    (overlay_set_position, "$ui_bottom_panel", pos1),
-    (position_set_x, pos1, 1000), (position_set_y, pos1, 130),
-    (overlay_set_size, "$ui_bottom_panel", pos1),
+    (position_set_x, pos1, 0), (position_set_y, pos1, 0), (overlay_set_position, "$ui_bottom_panel", pos1),
+    (position_set_x, pos1, 1000), (position_set_y, pos1, 130), (overlay_set_size, "$ui_bottom_panel", pos1),
     (create_image_button_overlay, "$ui_bottom_panel_flag", "mesh_ui_picture", "mesh_ui_picture"),
-    (position_set_x, pos1, 60), (position_set_y, pos1, 35),
-    (overlay_set_position, "$ui_bottom_panel_flag", pos1),
-    (position_set_x, pos1, 1000*1.5), (position_set_y, pos1, 1000),
-    (overlay_set_size, "$ui_bottom_panel_flag", pos1),
+    (position_set_x, pos1, 60), (position_set_y, pos1, 35), (overlay_set_position, "$ui_bottom_panel_flag", pos1),
+    (position_set_x, pos1, 1000*1.5), (position_set_y, pos1, 1000), (overlay_set_size, "$ui_bottom_panel_flag", pos1),
     (array_get_val, ":player_faction", "$globals", global_player_faction),
     (call_script, "script_ui_flag_overlay_set_material_and_tooltip", "$ui_bottom_panel_flag", ":player_faction"),
     (try_end),
