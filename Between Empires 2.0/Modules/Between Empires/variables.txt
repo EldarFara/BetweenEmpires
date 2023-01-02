@@ -129,3 +129,4 @@ ui_bottom_panel_flag
 devmode_enabled
 provinces_borders
 ui_province_menu_small_bg
+ui_province_name

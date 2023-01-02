@@ -1,5 +1,5 @@
 menusfile version 1
- 8
+ 9
 menu_start_game_0 18374686479671624192 _ none 1 900 1 1513209474796486664 0
 
 menu_start_phase_2 512 _ none 0 0
@@ -15,4 +15,6 @@ menu_camp 512 _ none 0 0
 menu_to_main_menu 512 _ none 1 2055 0 0
 
 menu_to_world_map 512 _ none 3 1911 1 792633534417207298 1910 1 720575940379279371 2048 0 0
+
+menu_to_main_menu 512 _ none 1 2055 0 0
 

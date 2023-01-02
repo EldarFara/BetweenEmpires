@@ -54,6 +54,11 @@ game_menus = [
 	(jump_to_scene, "scn_world_map"),
 	(change_screen_mission),
     ], []),
-    
+	
+    # Goes to main menu
+    ("to_main_menu", mnf_disable_all_keys,
+    " ",
+    "none",
+    [(change_screen_quit),], []),
 	
  ]

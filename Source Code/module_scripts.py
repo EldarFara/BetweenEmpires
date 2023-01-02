@@ -2103,6 +2103,13 @@ scripts = [
     (overlay_set_material, "$ui_province_menu_small_bg", "@ui_province_menu_small"),
     (position_set_x, pos1, 0), (position_set_y, pos1, 0), (overlay_set_position, "$ui_province_menu_small_bg", pos1),
     (position_set_x, pos1, 290), (position_set_y, pos1, 800), (overlay_set_size, "$ui_province_menu_small_bg", pos1),
+
+    (array_get_val, ":selected_province", "$globals", global_selected_province),
+    (array_get_val, s1, "$provinces_strings", ":selected_province", province_string_name),
+    (create_text_overlay, "$ui_province_name", "@{s1}", tf_center_justify),
+    (position_set_x, pos1, 145), (position_set_y, pos1, 510), (overlay_set_position, "$ui_province_name", pos1),
+    (position_set_x, pos1, 1200), (position_set_y, pos1, 1200), (overlay_set_size, "$ui_province_name", pos1),
+    
     (try_end),
 ]),
 
@@ -2313,7 +2320,12 @@ scripts = [
 ("world_map_ui_frame_devmode", [
 (set_fixed_point_multiplier, 1000),
 (close_order_menu),
-    (try_begin),
+    (try_begin), #exit to main menu by pressing tab
+    (key_clicked, key_tab),
+	(jump_to_menu, "mnu_to_main_menu"),
+	(finish_mission, 0),
+    (try_end),
+    (try_begin), # enable devmode by pressing f3
     (key_clicked, key_f3),
         (try_begin),
         (eq, "$devmode_enabled", 0),
