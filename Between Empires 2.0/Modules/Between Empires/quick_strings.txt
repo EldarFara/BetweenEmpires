@@ -1,4 +1,4 @@
-580
+584
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -579,3 +579,7 @@ qstr_Mali Mali
 qstr_faction_flag_bamana faction_flag_bamana
 qstr_faction_color_bamana faction_color_bamana
 qstr_Bamana Bamana
+qstr_Kingdom_of_Dendi Kingdom_of_Dendi
+qstr_Dendi Dendi
+qstr_faction_flag_dendi faction_flag_dendi
+qstr_faction_color_dendi faction_color_dendi

@@ -1,5 +1,5 @@
 number_of_provinces = 890
-number_of_factions = 111
+number_of_factions = 112
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
@@ -154,6 +154,7 @@ faction_agadez          = 107
 faction_damagaram       = 108
 faction_adagh           = 109
 faction_bamana          = 110
+faction_dendi           = 111
 
 
 global_date_year                                                              = 0

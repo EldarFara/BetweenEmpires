@@ -682,6 +682,7 @@ scripts = [
 (sss, s1, "@Sultanate of Damagaram"), (sss, s2, "@Damagaram"), (sss, s3, "@faction_flag_black"), (sss, s4, "@faction_color_damagaram"), (sss, s5, "@Damagaram"), (call_script, "script_add_faction", faction_damagaram),
 (sss, s1, "@Kel Adagh Tuaregs"), (sss, s2, "@Adagh"), (sss, s3, "@faction_flag_tuareg"), (sss, s4, "@faction_color_adagh"), (sss, s5, "@Tuareg"), (call_script, "script_add_faction", faction_adagh),
 (sss, s1, "@Bamana Empire"), (sss, s2, "@Mali"), (sss, s3, "@faction_flag_bamana"), (sss, s4, "@faction_color_bamana"), (sss, s5, "@Bamana"), (call_script, "script_add_faction", faction_bamana),
+(sss, s1, "@Kingdom of Dendi"), (sss, s2, "@Dendi"), (sss, s3, "@faction_flag_dendi"), (sss, s4, "@faction_color_dendi"), (sss, s5, "@Dendi"), (call_script, "script_add_faction", faction_dendi),
 
 
 # parameters that are dependant on starting date
@@ -1644,8 +1645,8 @@ scripts = [
 (call_script, "script_add_province", 881, 50242, 25216, faction_spain, 880, 872, 873, 875, 878, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 882, 50348, 30675, faction_agadez, 742, 746, 861, 883, 884, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 883, 50683, 29000, faction_damagaram, 882, 884, 870, 869, 864, 861, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 884, 48713, 29060, no_faction, 871, 870, 882, 883, 885, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 885, 47679, 28590, no_faction, 871, 884, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 884, 48713, 29060, faction_dendi, 871, 870, 882, 883, 885, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 885, 47679, 28590, faction_dendi, 871, 884, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 886, 46328, 30575, faction_adagh, 885, 884, 882, 887, 746, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 887, 45088, 28777, faction_bamana, 886, 888, 889, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 888, 44468, 27599, faction_bamana, 887, 889, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
