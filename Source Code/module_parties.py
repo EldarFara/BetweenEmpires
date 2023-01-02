@@ -46,11 +46,8 @@ parties = [
 	#		Hardcoded, in both order and name.
 	# #######################################################################
 	
-    ("main_party", "Main Party", icon_player|pf_limit_members, 0, pt_none, fac_commoners, 0, ai_bhvr_hold, 0, (17, 52.5), [(trp_player, 1, 0)]),
+    ("main_party", "Main Party", icon_player|pf_limit_members, 0, pt_none, fac_commoners, 0, ai_bhvr_hold, 0, (0, 0), [(trp_player, 1, 0)]),
     ("temp_party", "{!}temp_party", pf_disabled, 0, pt_none, fac_commoners, 0, ai_bhvr_hold, 0, (0, 0), []),
-    ("camp_bandits", "{!}camp_bandits", pf_disabled, 0, pt_none, fac_commoners, 0, ai_bhvr_attack_party, 0,(1, 1), [(trp_temp_troop, 3, 0)]),
+    ("camp_bandits", "{!}camp_bandits", pf_disabled, 0, pt_none, fac_commoners, 0, ai_bhvr_attack_party, 0,(0, 0), [(trp_temp_troop, 3, 0)]),
 
-	# #######################################################################
-	#		Run free, my child!
-	# #######################################################################
 ]
