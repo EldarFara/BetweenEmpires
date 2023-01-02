@@ -1,4 +1,4 @@
-570
+580
 qstr_Create_Your_Characte Create_Your_Character
 qstr_Go_to_World_Map Go_to_World_Map
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}
@@ -569,3 +569,13 @@ qstr_faction_color_agadez faction_color_agadez
 qstr_Sultanate_of_Damagar Sultanate_of_Damagaram
 qstr_Damagaram Damagaram
 qstr_faction_color_damaga faction_color_damagaram
+qstr_Kel_Ahaggar_Tuaregs Kel_Ahaggar_Tuaregs
+qstr_Kel_Adagh_Tuaregs Kel_Adagh_Tuaregs
+qstr_Adagh Adagh
+qstr_faction_flag_tuareg faction_flag_tuareg
+qstr_faction_color_adagh faction_color_adagh
+qstr_Bamana_Empire Bamana_Empire
+qstr_Mali Mali
+qstr_faction_flag_bamana faction_flag_bamana
+qstr_faction_color_bamana faction_color_bamana
+qstr_Bamana Bamana

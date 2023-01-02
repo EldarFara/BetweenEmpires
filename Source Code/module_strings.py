@@ -935,5 +935,9 @@ strings = [
 ("province883","Zinder"),
 ("province884","Tahoua"),
 ("province885","Niamey"),
+("province886","Timbuktu"),
+("province887","Segou"),
+("province888","Sikasso"),
+("province889","Bamako"),
 
 ]
