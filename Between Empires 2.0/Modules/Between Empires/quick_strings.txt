@@ -1,4 +1,4 @@
-558
+567
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -557,3 +557,12 @@ qstr_Choose_a_country_to_ Choose_a_country_to_play_as
 qstr_{reg0} {reg0}
 qstr_Province_in Province_in
 qstr_Unclaimed_territory Unclaimed_territory
+qstr_Oualata_Tribes Oualata_Tribes
+qstr_Oualata Oualata
+qstr_faction_flag_oualata faction_flag_oualata
+qstr_faction_color_oualat faction_color_oualata
+qstr_Tuaregs Tuaregs
+qstr_Sahrawi_Tribes Sahrawi_Tribes
+qstr_Sahrawi Sahrawi
+qstr_faction_flag_sahrawi faction_flag_sahrawi
+qstr_faction_color_sahraw faction_color_sahrawi

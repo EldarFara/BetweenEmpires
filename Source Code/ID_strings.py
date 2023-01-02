@@ -913,3 +913,5 @@ str_province886 = 911
 str_province887 = 912
 str_province888 = 913
 str_province889 = 914
+str_province890 = 915
+str_province895 = 920

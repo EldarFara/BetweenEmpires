@@ -1,5 +1,5 @@
-number_of_provinces = 890
-number_of_factions = 113
+number_of_provinces = 896
+number_of_factions = 115
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
@@ -157,6 +157,8 @@ faction_adagh           = 109
 faction_bamana          = 110
 faction_dendi           = 111
 faction_toubou          = 112
+faction_oualata         = 113
+faction_sahrawi         = 114
 
 
 global_date_year                                                              = 0

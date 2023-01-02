@@ -1,5 +1,5 @@
 stringsfile version 1
-915
+921
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -915,3 +915,9 @@ str_province886 Timbuktu
 str_province887 Segou
 str_province888 Sikasso
 str_province889 Bamako
+str_province890 El_Aiun
+str_province889 Ausert
+str_province889 Tiris_Zemmour
+str_province889 Adrar
+str_province889 Tagant
+str_province895 Chargui
