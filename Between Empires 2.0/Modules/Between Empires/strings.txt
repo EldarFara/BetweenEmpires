@@ -1,5 +1,5 @@
 stringsfile version 1
-902
+911
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -902,3 +902,12 @@ str_province873 Nasarawa
 str_province874 Kwara
 str_province875 Imo
 str_province876 Oyo
+str_province877 Maroua
+str_province878 N'Gamdere
+str_province879 Bertua
+str_province880 Yaunde
+str_province881 Bafoussam
+str_province882 Agadez
+str_province883 Zinder
+str_province884 Tahoua
+str_province885 Niamey
