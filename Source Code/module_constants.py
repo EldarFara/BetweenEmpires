@@ -6,7 +6,7 @@ number_of_factions_strings = 5
 number_of_provinces_parameters = 15
 number_of_provinces_strings = 1
 number_of_provinces_borders = 10
-number_of_global_parameters = 6
+number_of_global_parameters = 7
 
 number_of_resources = 1
 
@@ -163,12 +163,15 @@ global_player_faction                                                         = 
 global_world_map_camera_target_z                                              = 3
 global_ui_mode                                                                = 4
 global_faction_selection_selected_faction                                     = 5
+global_selected_province                                                      = 6
 
-ui_mode_none                   = -1
-ui_mode_province_menu_small    = 1
-ui_mode_province_menu_full     = 2
-ui_mode_faction_menu           = 3
-ui_mode_faction_selection      = 4
+ui_mode_none                            = -1
+ui_mode_province_menu_small_player      = 1
+ui_mode_province_menu_small_foreign     = 2
+ui_mode_province_menu_small_noowner     = 3
+ui_mode_province_menu_full              = 4
+ui_mode_faction_menu                    = 5
+ui_mode_faction_selection               = 6
 
 province_select_radius = 10
 

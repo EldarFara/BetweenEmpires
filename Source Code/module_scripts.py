@@ -2091,13 +2091,28 @@ scripts = [
 (call_script, "script_world_map_ui_start_devmode"),
 (call_script, "script_world_map_ui_start_faction_selection"),
 (call_script, "script_world_map_ui_start_bottom_panel"),
+(call_script, "script_world_map_ui_start_province_menu_small_player"),
 
+]),
+
+# Small menu on the left on screen for player faction provinces
+("world_map_ui_start_province_menu_small_player", [
+    (try_begin),
+    (array_eq, "$globals", ui_mode_province_menu_small_player, global_ui_mode),
+    (create_mesh_overlay, "$ui_province_menu_small_bg", "mesh_ui_background"),
+    (overlay_set_material, "$ui_province_menu_small_bg", "@ui_province_menu_small"),
+    (position_set_x, pos1, 0), (position_set_y, pos1, 0), (overlay_set_position, "$ui_province_menu_small_bg", pos1),
+    (position_set_x, pos1, 290), (position_set_y, pos1, 800), (overlay_set_size, "$ui_province_menu_small_bg", pos1),
+    (try_end),
 ]),
 
 # Bottom panel of world map with common info about faction
 ("world_map_ui_start_bottom_panel", [
     (try_begin),
-    (array_eq, "$globals", ui_mode_none, global_ui_mode),
+    (this_or_next|array_eq, "$globals", ui_mode_none, global_ui_mode),
+    (this_or_next|array_eq, "$globals", ui_mode_province_menu_small_foreign, global_ui_mode),
+    (this_or_next|array_eq, "$globals", ui_mode_province_menu_small_noowner, global_ui_mode),
+    (array_eq, "$globals", ui_mode_province_menu_small_player, global_ui_mode),
     (create_mesh_overlay, "$ui_bottom_panel", "mesh_ui_background"),
     (overlay_set_material, "$ui_bottom_panel", "@ui_world_map_bottom_panel"),
     (position_set_x, pos1, 0), (position_set_y, pos1, 0),
@@ -2163,13 +2178,13 @@ scripts = [
 (set_fixed_point_multiplier, 1000),
 
 (call_script, "script_world_map_ui_frame_devmode"),
-(call_script, "script_world_map_ui_faction_selection"),
-(call_script, "script_world_map_ui_process_province_click"),
-(call_script, "script_world_map_ui_province_small_menu"),
+(call_script, "script_world_map_ui_frame_faction_selection"),
+(call_script, "script_world_map_ui_frame_process_province_click"),
+(call_script, "script_world_map_ui_frame_province_small_menu_player"),
 ]),
 
 # After starting new game and selecting starting date player needs to click on any factions province to set it as playable and click "Start Game"
-("world_map_ui_faction_selection", [
+("world_map_ui_frame_faction_selection", [
     (try_begin),
     (array_eq, "$globals", -1, global_player_faction),
     (neg|array_eq, "$globals", ui_mode_faction_selection, global_ui_mode),
@@ -2197,14 +2212,16 @@ scripts = [
 ]),
 
 # Handle event when player clicks on province on world map
-("world_map_ui_process_province_click", [
+("world_map_ui_frame_process_province_click", [
 (set_fixed_point_multiplier, 1000),
 
     (try_begin),
     (key_clicked, key_left_mouse_button),
     (this_or_next|array_eq, "$globals", ui_mode_none, global_ui_mode), # Only register clicks if on specific ui modes
     (this_or_next|array_eq, "$globals", ui_mode_faction_selection, global_ui_mode),
-    (array_eq, "$globals", ui_mode_province_menu_small, global_ui_mode),
+    (this_or_next|array_eq, "$globals", ui_mode_province_menu_small_foreign, global_ui_mode),
+    (this_or_next|array_eq, "$globals", ui_mode_province_menu_small_noowner, global_ui_mode),
+    (array_eq, "$globals", ui_mode_province_menu_small_player, global_ui_mode),
     (mouse_get_position, pos1),
     (assign, ":continue", 1),
     (position_get_x, ":x", pos1),
@@ -2213,13 +2230,20 @@ scripts = [
         (array_eq, "$globals", ui_mode_faction_selection, global_ui_mode),
         (le, ":y", 64),
         (assign, ":continue", 0),
+        (else_try),
+        (this_or_next|array_eq, "$globals", ui_mode_none, global_ui_mode),
+        (this_or_next|array_eq, "$globals", ui_mode_province_menu_small_foreign, global_ui_mode),
+        (this_or_next|array_eq, "$globals", ui_mode_province_menu_small_noowner, global_ui_mode),
+        (array_eq, "$globals", ui_mode_province_menu_small_player, global_ui_mode),
+        (le, ":y", 90),
+        (assign, ":continue", 0),
         (try_end),
     (eq, ":continue", 1),
     (init_position, pos2),
     (set_fixed_point_multiplier, 100),
     (assign, ":closest_province", -1),
     (assign, ":closest_province_distance_to_mouse", 9999999),
-        (try_for_range, ":province", 0, number_of_provinces),
+        (try_for_range, ":province", 0, number_of_provinces), # loop to detect province closest to mouse using position_get_screen_projection
         (array_get_val, ":x", "$provinces", ":province", province_x),
         (array_get_val, ":y", "$provinces", ":province", province_y),
         (position_set_x, pos2, ":x"),
@@ -2232,7 +2256,7 @@ scripts = [
         (try_end),
     (set_fixed_point_multiplier, 1000),
         (try_begin),
-        (ge, ":closest_province_distance_to_mouse", province_select_radius), # If distance is above that, then probably sea province was selected
+        (ge, ":closest_province_distance_to_mouse", province_select_radius), # If distance is above province_select_radius, then probably sea province was selected
         (assign, ":closest_province", -1),
         (try_end),
         (try_begin),
@@ -2243,13 +2267,34 @@ scripts = [
             (array_get_val, ":faction", "$provinces", ":closest_province", province_controller),
             (array_set_val, "$globals", ":faction", global_faction_selection_selected_faction),
             (try_end),
+            (try_begin), # Switch to province small menu
+            (this_or_next|array_eq, "$globals", ui_mode_none, global_ui_mode), # either no mode or previous selected province is not equal to new selected one
+            (neg|array_eq, "$globals", ":closest_province", global_selected_province),
+            (this_or_next|array_eq, "$globals", ui_mode_none, global_ui_mode),
+            (this_or_next|array_eq, "$globals", ui_mode_province_menu_small_foreign, global_ui_mode),
+            (this_or_next|array_eq, "$globals", ui_mode_province_menu_small_noowner, global_ui_mode),
+            (array_eq, "$globals", ui_mode_province_menu_small_player, global_ui_mode),
+                (try_begin), # switch to player faction province menu, foreign faction province menu or no owner province menu depending on faction controller
+                (array_lt, "$provinces", 0, ":closest_province", province_controller),
+                (array_set_val, "$globals", ui_mode_province_menu_small_noowner, global_ui_mode),
+                (else_try),
+                (array_get_val, ":player_faction", "$globals", global_player_faction),
+                (array_eq, "$provinces", ":player_faction", ":closest_province", province_controller),
+                (array_set_val, "$globals", ui_mode_province_menu_small_player, global_ui_mode),
+                (else_try),
+                (array_set_val, "$globals", ui_mode_province_menu_small_foreign, global_ui_mode),
+                (try_end),
+                (presentation_set_duration, 0),
+            (try_end),
+        (array_set_val, "$globals", ":closest_province", global_selected_province),
         (try_end),
     (try_end),
 ]),
 
-# Province small menu appears when player clicks on world map 
-("world_map_ui_province_small_menu", [
+("world_map_ui_frame_province_small_menu_player", [
 (set_fixed_point_multiplier, 1000),
+
+
 ]),
 
 # Dev mode is toggled by pressing F3 button
