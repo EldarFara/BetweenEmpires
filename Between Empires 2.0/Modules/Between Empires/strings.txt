@@ -1,5 +1,5 @@
 stringsfile version 1
-921
+943
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -921,3 +921,25 @@ str_province889 Tiris_Zemmour
 str_province889 Adrar
 str_province889 Tagant
 str_province895 Chargui
+str_province896 province896
+str_province897 province897
+str_province898 province898
+str_province899 province899
+str_province900 province900
+str_province901 province901
+str_province902 province902
+str_province903 province903
+str_province904 province904
+str_province905 province905
+str_province906 province906
+str_province907 province907
+str_province908 province908
+str_province909 province909
+str_province910 province910
+str_province911 province911
+str_province912 province912
+str_province913 province913
+str_province914 province914
+str_province915 province915
+str_province916 province916
+str_province917 province917
