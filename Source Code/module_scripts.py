@@ -2222,7 +2222,7 @@ scripts = [
     (call_script, "script_get_government_type_name", ":government_type", s1),
     (create_text_overlay, "$ui_bottom_panel_faction_govtype", "@{s1}", tf_left_align),
     (position_set_x, pos1, 105), (position_set_y, pos1, 36), (overlay_set_position, "$ui_bottom_panel_faction_govtype", pos1),
-    (position_set_x, pos1, 500), (position_set_y, pos1, 500), (overlay_set_size, "$ui_bottom_panel_faction_govtype", pos1),
+    (position_set_x, pos1, 550), (position_set_y, pos1, 550), (overlay_set_size, "$ui_bottom_panel_faction_govtype", pos1),
     (try_end),
 ]),
 

@@ -1,4 +1,4 @@
-597
+599
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -596,3 +596,5 @@ qstr_faction_color_merina faction_color_merina
 qstr_Malagasy Malagasy
 qstr_Fascist_dictatorship Fascist_dictatorship
 qstr_Council_republic Council_republic
+qstr_Dictatorship__Left_w Dictatorship_(Left_wing)
+qstr_Dictatorship__Right_ Dictatorship_(Right_wing)
