@@ -1,4 +1,4 @@
-589
+595
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -588,3 +588,9 @@ qstr_Constitutional_monar Constitutional_monarchy
 qstr_Republic Republic
 qstr_Soviet_republic Soviet_republic
 qstr_Tribal_union Tribal_union
+qstr_Second_French_Empire Second_French_Empire
+qstr_Kingdom_of_Merina Kingdom_of_Merina
+qstr_Merina Merina
+qstr_faction_flag_merina faction_flag_merina
+qstr_faction_color_merina faction_color_merina
+qstr_Malagasy Malagasy
