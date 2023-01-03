@@ -1,4 +1,4 @@
-584
+589
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -583,3 +583,8 @@ qstr_Tonga Tonga
 qstr_faction_flag_tonga faction_flag_tonga
 qstr_faction_color_tonga faction_color_tonga
 qstr_Tongan Tongan
+qstr_Absolute_monarchy Absolute_monarchy
+qstr_Constitutional_monar Constitutional_monarchy
+qstr_Republic Republic
+qstr_Soviet_republic Soviet_republic
+qstr_Tribal_union Tribal_union

@@ -1,7 +1,7 @@
 number_of_provinces = 918
 number_of_factions = 118
 
-number_of_factions_parameters = 7
+number_of_factions_parameters = 8
 number_of_factions_strings = 5
 number_of_provinces_parameters = 16
 number_of_provinces_strings = 1
@@ -17,6 +17,7 @@ faction_money                                                                 = 
 faction_array_provinces_owned                                                 = 4
 faction_array_provinces_controlled                                            = 5
 faction_is_active                                                             = 6
+faction_government_type                                                       = 7
 
 faction_string_name                                                           = 0
 faction_string_name_short                                                     = 1
@@ -206,3 +207,9 @@ province_control_type_noncore           = 1
 province_control_type_noncoreautonomous = 2
 province_control_type_occupied          = 3
 province_control_type_colony            = 4
+
+government_type_absolute_monarchy       = 0
+government_type_constitutional_monarchy = 1
+government_type_republic                = 2
+government_type_soviet_republic         = 3
+government_type_tribal_union            = 4
