@@ -1,4 +1,4 @@
-567
+584
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -566,3 +566,20 @@ qstr_Sahrawi_Tribes Sahrawi_Tribes
 qstr_Sahrawi Sahrawi
 qstr_faction_flag_sahrawi faction_flag_sahrawi
 qstr_faction_color_sahraw faction_color_sahrawi
+qstr_Papuan_Tribes Papuan_Tribes
+qstr_Papua Papua
+qstr_faction_flag_papua faction_flag_papua
+qstr_faction_color_papua faction_color_papua
+qstr_Papuan Papuan
+qstr_Lanfang Lanfang
+qstr_Berbers Berbers
+qstr_Kingdom_of_Fiji Kingdom_of_Fiji
+qstr_Fiji Fiji
+qstr_faction_flag_fiji faction_flag_fiji
+qstr_faction_color_fiji faction_color_fiji
+qstr_Fijian Fijian
+qstr_Kingdom_of_Tonga Kingdom_of_Tonga
+qstr_Tonga Tonga
+qstr_faction_flag_tonga faction_flag_tonga
+qstr_faction_color_tonga faction_color_tonga
+qstr_Tongan Tongan

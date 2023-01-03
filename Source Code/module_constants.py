@@ -1,5 +1,5 @@
 number_of_provinces = 918
-number_of_factions = 115
+number_of_factions = 118
 
 number_of_factions_parameters = 7
 number_of_factions_strings = 5
@@ -159,6 +159,9 @@ faction_dendi           = 111
 faction_toubou          = 112
 faction_oualata         = 113
 faction_sahrawi         = 114
+faction_papua           = 115
+faction_fiji            = 116
+faction_tonga           = 117
 
 
 global_date_year                                                              = 0
