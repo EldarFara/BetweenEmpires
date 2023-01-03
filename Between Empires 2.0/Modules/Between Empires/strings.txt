@@ -1,5 +1,5 @@
 stringsfile version 1
-943
+978
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -943,3 +943,38 @@ str_province914 Marshall_Islands
 str_province915 Micronesia
 str_province916 Caroline_Islands
 str_province917 Northern_Mariana
+str_province918 province918
+str_province919 province919
+str_province920 province920
+str_province921 province921
+str_province922 province922
+str_province923 province923
+str_province924 province924
+str_province925 province925
+str_province926 province926
+str_province927 province927
+str_province928 province928
+str_province929 province929
+str_province930 province930
+str_province931 province931
+str_province932 province932
+str_province933 province933
+str_province934 province934
+str_province935 province935
+str_province936 province936
+str_province937 province937
+str_province938 province938
+str_province939 province939
+str_province940 province940
+str_province941 province941
+str_province942 province942
+str_province943 province943
+str_province944 province944
+str_province945 province945
+str_province946 province946
+str_province947 province947
+str_province948 province948
+str_province949 province949
+str_province950 province950
+str_province951 province951
+str_province952 province952
