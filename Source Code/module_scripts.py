@@ -673,10 +673,9 @@ scripts = [
 (sss, s1, "@Sultanate of Baghirmi"), (sss, s2, "@Baghirmi"), (sss, s3, "@faction_flag_baghirmi"), (sss, s4, "@faction_color_baghirmi"), (sss, s5, "@Baghirmi"), (call_script, "script_add_faction", government_type_absolute_monarchy, faction_baghirmi),
 (sss, s1, "@Sultanate of Kanem"), (sss, s2, "@Kanem"), (sss, s3, "@faction_flag_kanem"), (sss, s4, "@faction_color_kanem"), (sss, s5, "@Kanuri"), (call_script, "script_add_faction", government_type_absolute_monarchy, faction_kanem),
 (sss, s1, "@Sokoto Caliphate"), (sss, s2, "@Sokoto"), (sss, s3, "@faction_flag_green"), (sss, s4, "@faction_color_sokoto"), (sss, s5, "@Fulani"), (call_script, "script_add_faction", government_type_absolute_monarchy, faction_sokoto),
-(sss, s1, "@Sokoto Caliphate"), (sss, s2, "@Sokoto"), (sss, s3, "@faction_flag_green"), (sss, s4, "@faction_color_sokoto"), (sss, s5, "@Fulani"), (call_script, "script_add_faction", government_type_absolute_monarchy, faction_sokoto),
 (sss, s1, "@Oyo Empire"), (sss, s2, "@Oyo"), (sss, s3, "@faction_flag_oyo"), (sss, s4, "@faction_color_oyo"), (sss, s5, "@Oyo"), (call_script, "script_add_faction", government_type_absolute_monarchy, faction_oyo),
 (sss, s1, "@Kingdom of Benin"), (sss, s2, "@Benin"), (sss, s3, "@faction_flag_beninedo"), (sss, s4, "@faction_color_beninedo"), (sss, s5, "@Beninese"), (call_script, "script_add_faction", government_type_absolute_monarchy, faction_beninedo),
-(sss, s1, "@Cameroonian Kingdoms"), (sss, s2, "@Cameroon"), (sss, s3, "@faction_flag_cameroonearly"), (sss, s4, "@faction_color_cameroon"), (sss, s5, "@Cameroonian"), (call_script, "script_add_faction", government_type_absolute_monarchy, faction_cameroon),
+(sss, s1, "@Cameroonian Kingdoms"), (sss, s2, "@Cameroon"), (sss, s3, "@faction_flag_cameroonearly"), (sss, s4, "@faction_color_cameroon"), (sss, s5, "@Cameroonian"), (call_script, "script_add_faction", government_type_tribal_union, faction_cameroon),
 (sss, s1, "@Kingdom of Hawaii"), (sss, s2, "@Hawaii"), (sss, s3, "@faction_flag_hawaii"), (sss, s4, "@faction_color_hawaii"), (sss, s5, "@Hawaiian"), (call_script, "script_add_faction", government_type_absolute_monarchy, faction_hawaii),
 (sss, s1, "@Sultanate of Agadez"), (sss, s2, "@Agadez"), (sss, s3, "@faction_flag_agadez"), (sss, s4, "@faction_color_agadez"), (sss, s5, "@Agadez"), (call_script, "script_add_faction", government_type_absolute_monarchy, faction_agadez),
 (sss, s1, "@Sultanate of Damagaram"), (sss, s2, "@Damagaram"), (sss, s3, "@faction_flag_black"), (sss, s4, "@faction_color_damagaram"), (sss, s5, "@Damagaram"), (call_script, "script_add_faction", government_type_absolute_monarchy, faction_damagaram),
@@ -699,6 +698,14 @@ scripts = [
 (sss, s1, "@Republic of Costa Rica"), (sss, s2, "@Costa Rica"), (sss, s3, "@faction_flag_costaricaearly"), (sss, s4, "@faction_color_costarica"), (sss, s5, "@Costa Rican"), (call_script, "script_add_faction", government_type_republic, faction_costarica),
 (sss, s1, "@Republic of New Granada"), (sss, s2, "@New Granada"), (sss, s3, "@faction_flag_colombiaearly"), (sss, s4, "@faction_color_colombia"), (sss, s5, "@New Granadian"), (call_script, "script_add_faction", government_type_republic, faction_colombia), 
 (sss, s1, "@State of Venezuela"), (sss, s2, "@Venezuela"), (sss, s3, "@faction_flag_venezuela1"), (sss, s4, "@faction_color_venezuela"), (sss, s5, "@Venezuelan"), (call_script, "script_add_faction", government_type_republic, faction_venezuela),
+(sss, s1, "@Imamate of Futa Toro"), (sss, s2, "@Futa Toro"), (sss, s3, "@faction_flag_green"), (sss, s4, "@faction_color_futatoro"), (sss, s5, "@Fulani"), (call_script, "script_add_faction", government_type_absolute_monarchy, faction_futatoro),
+(sss, s1, "@Imamate of Futa Jallon"), (sss, s2, "@Futa Jallon"), (sss, s3, "@faction_flag_futajallon"), (sss, s4, "@faction_color_futajallon"), (sss, s5, "@Fulani"), (call_script, "script_add_faction", government_type_absolute_monarchy, faction_futajallon),
+(sss, s1, "@Kaabu Empire"), (sss, s2, "@Kaabu"), (sss, s3, "@faction_flag_kaabu"), (sss, s4, "@faction_color_kaabu"), (sss, s5, "@Mandinkan"), (call_script, "script_add_faction", government_type_absolute_monarchy, faction_kaabu),
+(sss, s1, "@Susu Kingdoms"), (sss, s2, "@Susu"), (sss, s3, "@faction_flag_susu"), (sss, s4, "@faction_color_susu", (sss, s5, "@Susu"), (call_script, "script_add_faction", government_type_tribal_union, faction_susu),
+(sss, s1, "@Mandinka Kingdoms"), (sss, s2, "@Mandinka"), (sss, s3, "@faction_flag_mandinka"), (sss, s4, "@faction_color_mandinka"), (sss, s5, "@Mandinkan"), (call_script, "script_add_faction", government_type_tribal_union, faction_mandinka),
+(sss, s1, "@Republic of Liberia"), (sss, s2, "@Liberia"), (sss, s3, "@faction_flag_liberia"), (sss, s4, "@faction_color_liberia"), (sss, s5, "@Liberian"), (call_script, "script_add_faction", government_type_republic, faction_liberia),
+(sss, s1, "@Independent State of Maryland"), (sss, s2, "@Maryland"), (sss, s3, "@faction_flag_maryland"), (sss, s4, "@faction_color_maryland"), (sss, s5, "@Marylander"), (call_script, "script_add_faction", government_type_republic, faction_maryland),
+(sss, s1, "@Mossi Kingdoms"), (sss, s2, "@Mossi"), (sss, s3, "@faction_flag_mossi"), (sss, s4, "@faction_color_mossi"), (sss, s5, "@Mossi"), (call_script, "script_add_faction", government_type_tribal_union, faction_mossi), 
 
 
 # parameters that are dependant on starting date
@@ -1730,6 +1737,19 @@ scripts = [
 (call_script, "script_add_province", 950, 17600, 26846, faction_costarica, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 951, 18357, 26441, faction_colombia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 952, 19374, 26624, faction_colombia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 953, 1, 1, faction_france, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 954, 1, 1, faction_futatoro, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 955, 1, 1, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 956, 1, 1, faction_kaabu, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 957, 1, 1, faction_portugal, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 958, 1, 1, faction_susu, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 959, 1, 1, faction_futajallon, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 960, 1, 1, faction_mandinka, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 961, 1, 1, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 962, 1, 1, faction_liberia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 963, 1, 1, faction_maryland, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 964, 1, 1, faction_mossi, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 965, 1, 1, faction_mossi, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 
 # Initparam multipliers
 # Index, population_multiplier, literacy_multiplier, urbanization_multiplier

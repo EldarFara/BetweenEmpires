@@ -1,5 +1,5 @@
-number_of_provinces = 953
-number_of_factions = 128
+number_of_provinces = 966
+number_of_factions = 136
 
 number_of_factions_parameters = 8
 number_of_factions_strings = 5
@@ -173,6 +173,14 @@ faction_nicaragua       = 124
 faction_costarica       = 125
 faction_colombia        = 126
 faction_venezuela       = 127
+faction_futatoro        = 128
+faction_futajallon      = 129
+faction_kaabu           = 130
+faction_susu            = 131
+faction_mandinka        = 132
+faction_liberia         = 133
+faction_maryland        = 134
+faction_mossi           = 135
 
 
 global_date_year                                                              = 0
