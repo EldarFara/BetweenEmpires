@@ -1,5 +1,5 @@
 number_of_provinces = 953
-number_of_factions = 119
+number_of_factions = 128
 
 number_of_factions_parameters = 8
 number_of_factions_strings = 5
@@ -164,6 +164,15 @@ faction_papua           = 115
 faction_fiji            = 116
 faction_tonga           = 117
 faction_merina          = 118
+faction_haiti           = 119
+faction_dominica1       = 120
+faction_guatemala       = 121
+faction_honduras        = 122
+faction_salvador        = 123
+faction_nicaragua       = 124
+faction_costarica       = 125
+faction_colombia        = 126
+faction_venezuela       = 127
 
 
 global_date_year                                                              = 0
