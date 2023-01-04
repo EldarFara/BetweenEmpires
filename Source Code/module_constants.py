@@ -1,5 +1,5 @@
 number_of_provinces = 978
-number_of_factions = 139
+number_of_factions = 144
 
 number_of_factions_parameters = 8
 number_of_factions_strings = 5
@@ -184,7 +184,11 @@ faction_mossi           = 135
 faction_kong            = 136
 faction_dahomey         = 137
 faction_ashanti         = 138
-
+faction_cruzob          = 139
+faction_mosquito        = 140
+faction_micronesia      = 141
+faction_vanuatu         = 142
+faction_bilua           = 143
 
 global_date_year                                                              = 0
 global_date_day_of_year                                                       = 1
