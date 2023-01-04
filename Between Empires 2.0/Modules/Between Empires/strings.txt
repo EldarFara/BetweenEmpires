@@ -1,5 +1,5 @@
 stringsfile version 1
-978
+991
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -978,3 +978,16 @@ str_province949 Alajuela
 str_province950 San_Jose
 str_province951 West_Panama
 str_province952 East_Panama
+str_province953 Louga
+str_province954 Tambacounda
+str_province955 Gambia
+str_province956 Sedhiou
+str_province957 Guinea-Bissau
+str_province958 Konakri
+str_province959 Upper_Guinea
+str_province960 South_Guinea
+str_province961 Sierra_Leone
+str_province962 Liberia
+str_province963 Greensville
+str_province964 Ouagadougou
+str_province965 Fada_N'Gouma
