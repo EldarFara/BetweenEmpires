@@ -1,5 +1,5 @@
-number_of_provinces = 966
-number_of_factions = 136
+number_of_provinces = 978
+number_of_factions = 139
 
 number_of_factions_parameters = 8
 number_of_factions_strings = 5
@@ -181,6 +181,9 @@ faction_mandinka        = 132
 faction_liberia         = 133
 faction_maryland        = 134
 faction_mossi           = 135
+faction_kong            = 136
+faction_dahomey         = 137
+faction_ashanti         = 138
 
 
 global_date_year                                                              = 0

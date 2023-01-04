@@ -1,4 +1,4 @@
-677
+691
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -676,3 +676,17 @@ qstr_Mossi_Kingdoms Mossi_Kingdoms
 qstr_Mossi Mossi
 qstr_faction_flag_mossi faction_flag_mossi
 qstr_faction_color_mossi faction_color_mossi
+qstr_Kong_Empire Kong_Empire
+qstr_Kong Kong
+qstr_faction_flag_kong faction_flag_kong
+qstr_faction_color_kong faction_color_kong
+qstr_Kingdom_of_Dahomey Kingdom_of_Dahomey
+qstr_Dahomey Dahomey
+qstr_faction_flag_dahomey faction_flag_dahomey
+qstr_faction_color_dahome faction_color_dahomey
+qstr_Dahomean Dahomean
+qstr_Asante_Empire Asante_Empire
+qstr_Ashanti Ashanti
+qstr_faction_flag_ashanti faction_flag_ashanti
+qstr_faction_color_ashant faction_color_ashanti
+qstr_Asante Asante

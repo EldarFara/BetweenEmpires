@@ -1,5 +1,5 @@
 stringsfile version 1
-991
+1003
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -991,3 +991,15 @@ str_province962 Liberia
 str_province963 Greensville
 str_province964 Ouagadougou
 str_province965 Fada_N'Gouma
+str_province966 Woroba
+str_province967 Bas-Sassandra
+str_province968 Zanzan
+str_province969 Abidjan
+str_province970 Western_Gold_Coast
+str_province971 Eastern_Gold_Coast
+str_province972 Ashanti
+str_province973 North_Ashanti
+str_province974 Lome
+str_province975 Bassar
+str_province976 Abomey
+str_province977 Djougou
