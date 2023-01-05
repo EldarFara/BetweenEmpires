@@ -2279,6 +2279,11 @@ scripts = [
     (position_set_x, pos1, 160), (position_set_y, pos1, 480), (overlay_set_position, "$ui_province_in_text2", pos1),
     (position_set_x, pos1, 590), (position_set_y, pos1, 590), (overlay_set_size, "$ui_province_in_text2", pos1),
     (try_end),
+   
+# (create_image_button_overlay, "$ui_province_close", "mesh_ui_picture", "mesh_ui_picture"),
+# (overlay_set_material, "$ui_province_close", "@ui_x_mark"),
+# (position_set_x, pos1, 200), (position_set_y, pos1, 500), (overlay_set_position, "$ui_province_close", pos1),
+# (position_set_x, pos1, 300), (position_set_y, pos1, 300), (overlay_set_size, "$ui_province_close", pos1),
 ]),
 
 # Bottom panel of world map with common info about faction
