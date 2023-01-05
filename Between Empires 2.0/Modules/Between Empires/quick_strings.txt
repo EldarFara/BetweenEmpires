@@ -1,4 +1,4 @@
-715
+716
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -714,3 +714,4 @@ qstr_Kingdom_of_Bilua Kingdom_of_Bilua
 qstr_Bilua Bilua
 qstr_faction_flag_bilua faction_flag_bilua
 qstr_faction_color_bilua faction_color_bilua
+qstr_ui_x_mark ui_x_mark

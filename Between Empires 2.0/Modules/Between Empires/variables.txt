@@ -136,3 +136,4 @@ ui_province_in_text2
 ui_province_owner_flag
 ui_bottom_panel_faction_name
 ui_bottom_panel_faction_govtype
+ui_provincesmall_close
