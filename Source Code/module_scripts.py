@@ -2584,11 +2584,8 @@ scripts = [
     (eq, ":government_type", government_type_tribal_union),
     (sss, ":string", "@Tribal union"),
     (else_try),
-    (eq, ":government_type", government_type_dictatorship_right),
-    (sss, ":string", "@Dictatorship (Left wing)"),
-    (else_try),
-    (eq, ":government_type", government_type_dictatorship_left),
-    (sss, ":string", "@Dictatorship (Right wing)"),
+    (eq, ":government_type", government_type_dictatorship),
+    (sss, ":string", "@Dictatorship"),
     (try_end),
 ]),
 

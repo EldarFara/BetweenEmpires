@@ -236,5 +236,4 @@ government_type_absolute_monarchy       = 0
 government_type_constitutional_monarchy = 1
 government_type_republic                = 2
 government_type_tribal_union            = 4
-government_type_dictatorship_right      = 5
-government_type_dictatorship_left       = 6
+government_type_dictatorship              = 5
