@@ -201,10 +201,9 @@ global_selected_province                                                      = 
 ui_mode_none                            = -1
 ui_mode_province_menu_small_player      = 1
 ui_mode_province_menu_small_foreign     = 2
-ui_mode_province_menu_small_noowner     = 3
-ui_mode_province_menu_full              = 4
-ui_mode_faction_menu                    = 5
-ui_mode_faction_selection               = 6
+ui_mode_province_menu_full              = 3
+ui_mode_faction_menu                    = 4
+ui_mode_faction_selection               = 5
 
 province_select_radius = 10
 

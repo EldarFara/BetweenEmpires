@@ -2194,6 +2194,13 @@ scripts = [
 (set_fixed_point_multiplier, 1000),
 
     (try_begin),
+    (this_or_next|array_eq, "$globals", ui_mode_province_menu_small_player, global_ui_mode),
+    (array_eq, "$globals", ui_mode_province_menu_small_foreign, global_ui_mode),
+    (eq, ":object", "$ui_provincesmall_close"),
+    (array_set_val, "$globals", ui_mode_none, global_ui_mode),
+    (presentation_set_duration, 0),
+    (try_end),
+    (try_begin),
     (eq, ":object", "$ui_start_game"),
     (array_eq, "$globals", ui_mode_faction_selection, global_ui_mode),
     (array_set_val, "$globals", ui_mode_none, global_ui_mode),
@@ -2213,7 +2220,6 @@ scripts = [
 (call_script, "script_world_map_ui_start_bottom_panel"),
 (call_script, "script_world_map_ui_start_province_menu_small_player"),
 (call_script, "script_world_map_ui_start_province_menu_small_foreign"),
-(call_script, "script_world_map_ui_start_province_menu_small_noowner"),
 
 ]),
 
@@ -2231,15 +2237,6 @@ scripts = [
 ("world_map_ui_start_province_menu_small_foreign", [
     (try_begin),
     (array_eq, "$globals", ui_mode_province_menu_small_foreign, global_ui_mode),
-    (call_script, "script_world_map_ui_start_province_menu_small_shared"),
-    
-    (try_end),
-]),
-
-# Small menu on the left on screen for no owner provinces
-("world_map_ui_start_province_menu_small_noowner", [
-    (try_begin),
-    (array_eq, "$globals", ui_mode_province_menu_small_noowner, global_ui_mode),
     (call_script, "script_world_map_ui_start_province_menu_small_shared"),
     
     (try_end),
@@ -2280,10 +2277,10 @@ scripts = [
     (position_set_x, pos1, 590), (position_set_y, pos1, 590), (overlay_set_size, "$ui_province_in_text2", pos1),
     (try_end),
    
-# (create_image_button_overlay, "$ui_province_close", "mesh_ui_picture", "mesh_ui_picture"),
-# (overlay_set_material, "$ui_province_close", "@ui_x_mark"),
-# (position_set_x, pos1, 200), (position_set_y, pos1, 500), (overlay_set_position, "$ui_province_close", pos1),
-# (position_set_x, pos1, 300), (position_set_y, pos1, 300), (overlay_set_size, "$ui_province_close", pos1),
+(create_image_button_overlay, "$ui_provincesmall_close", "mesh_ui_picture", "mesh_ui_picture"),
+(overlay_set_material, "$ui_provincesmall_close", "@ui_x_mark"),
+(position_set_x, pos1, 271), (position_set_y, pos1, 520), (overlay_set_position, "$ui_provincesmall_close", pos1),
+(position_set_x, pos1, 300), (position_set_y, pos1, 300), (overlay_set_size, "$ui_provincesmall_close", pos1),
 ]),
 
 # Bottom panel of world map with common info about faction
@@ -2291,7 +2288,6 @@ scripts = [
     (try_begin),
     (this_or_next|array_eq, "$globals", ui_mode_none, global_ui_mode),
     (this_or_next|array_eq, "$globals", ui_mode_province_menu_small_foreign, global_ui_mode),
-    (this_or_next|array_eq, "$globals", ui_mode_province_menu_small_noowner, global_ui_mode),
     (array_eq, "$globals", ui_mode_province_menu_small_player, global_ui_mode),
     (create_mesh_overlay, "$ui_bottom_panel", "mesh_ui_background"),
     (overlay_set_material, "$ui_bottom_panel", "@ui_world_map_bottom_panel"),
@@ -2374,6 +2370,7 @@ scripts = [
 (call_script, "script_world_map_ui_frame_faction_selection"),
 (call_script, "script_world_map_ui_frame_process_province_click"),
 (call_script, "script_world_map_ui_frame_province_small_menu_player"),
+(call_script, "script_world_map_ui_frame_province_small_menu_foreign"),
 ]),
 
 # After starting new game and selecting starting date player needs to click on any factions province to set it as playable and click "Start Game"
@@ -2413,7 +2410,6 @@ scripts = [
     (this_or_next|array_eq, "$globals", ui_mode_none, global_ui_mode), # Only register clicks if on specific ui modes
     (this_or_next|array_eq, "$globals", ui_mode_faction_selection, global_ui_mode),
     (this_or_next|array_eq, "$globals", ui_mode_province_menu_small_foreign, global_ui_mode),
-    (this_or_next|array_eq, "$globals", ui_mode_province_menu_small_noowner, global_ui_mode),
     (array_eq, "$globals", ui_mode_province_menu_small_player, global_ui_mode),
     (mouse_get_position, pos1),
     (assign, ":continue", 1),
@@ -2426,9 +2422,14 @@ scripts = [
         (else_try),
         (this_or_next|array_eq, "$globals", ui_mode_none, global_ui_mode),
         (this_or_next|array_eq, "$globals", ui_mode_province_menu_small_foreign, global_ui_mode),
-        (this_or_next|array_eq, "$globals", ui_mode_province_menu_small_noowner, global_ui_mode),
         (array_eq, "$globals", ui_mode_province_menu_small_player, global_ui_mode),
         (le, ":y", 90),
+        (assign, ":continue", 0),
+        (else_try),
+        (this_or_next|array_eq, "$globals", ui_mode_province_menu_small_foreign, global_ui_mode),
+        (array_eq, "$globals", ui_mode_province_menu_small_player, global_ui_mode),
+        (le, ":y", 537),
+        (le, ":x", 290),
         (assign, ":continue", 0),
         (try_end),
     (eq, ":continue", 1),
@@ -2465,12 +2466,8 @@ scripts = [
             (neg|array_eq, "$globals", ":closest_province", global_selected_province),
             (this_or_next|array_eq, "$globals", ui_mode_none, global_ui_mode),
             (this_or_next|array_eq, "$globals", ui_mode_province_menu_small_foreign, global_ui_mode),
-            (this_or_next|array_eq, "$globals", ui_mode_province_menu_small_noowner, global_ui_mode),
             (array_eq, "$globals", ui_mode_province_menu_small_player, global_ui_mode),
-                (try_begin), # switch to player faction province menu, foreign faction province menu or no owner province menu depending on faction controller
-                (array_lt, "$provinces", 0, ":closest_province", province_controller),
-                (array_set_val, "$globals", ui_mode_province_menu_small_noowner, global_ui_mode),
-                (else_try),
+                (try_begin), # switch to player faction province menu or foreign faction province menu depending on faction controller
                 (array_get_val, ":player_faction", "$globals", global_player_faction),
                 (array_eq, "$provinces", ":player_faction", ":closest_province", province_controller),
                 (array_set_val, "$globals", ui_mode_province_menu_small_player, global_ui_mode),
@@ -2489,6 +2486,13 @@ scripts = [
 
 
 ]),
+
+("world_map_ui_frame_province_small_menu_foreign", [
+(set_fixed_point_multiplier, 1000),
+
+
+]),
+
 
 # Dev mode is toggled by pressing F3 button
 ("world_map_ui_start_devmode", [
