@@ -2759,6 +2759,7 @@ scripts = [
     (array_set_val, "$provinces", 0, ":province", province_urbanization),
     (array_set_val, "$provinces", 2*10000, ":province", province_literacy),
     (try_end),
+(array_set_val, "$provinces", 1*10000, 905, province_urbanization),
 ]),
 
 
