@@ -726,7 +726,7 @@ scripts = [
     (array_set_val, "$factions", 73*10000, faction_belgium, faction_urbanization),
     (array_set_val, "$factions", 3160000, faction_netherlands, faction_population),  
     (array_set_val, "$factions", 76*10000, faction_netherlands, faction_literacy),
-    (array_set_val, "$factions", 50*10000, faction_urbanization, faction_urbanization),
+    (array_set_val, "$factions", 54*10000, faction_urbanization, faction_urbanization),
     (array_set_val, "$factions", 21290000, faction_britain, faction_population),  
     (array_set_val, "$factions", 69*10000, faction_britain, faction_literacy),
     (array_set_val, "$factions", 50*10000, faction_britain, faction_urbanization),
