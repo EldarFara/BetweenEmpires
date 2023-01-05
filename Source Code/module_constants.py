@@ -3,7 +3,7 @@ number_of_factions = 144
 
 number_of_factions_parameters = 8
 number_of_factions_strings = 5
-number_of_provinces_parameters = 16
+number_of_provinces_parameters = 17
 number_of_provinces_strings = 1
 number_of_provinces_borders = 10
 number_of_global_parameters = 7
@@ -41,6 +41,7 @@ province_urbanization                                                         = 
 province_literacy                                                             = 13
 province_terrain                                                              = 14
 province_control_type                                                         = 15
+province_is_an_object_of_colonisation                                         = 16
 
 province_string_name                                                          = 0
 
@@ -236,4 +237,4 @@ government_type_absolute_monarchy       = 0
 government_type_constitutional_monarchy = 1
 government_type_republic                = 2
 government_type_tribal_union            = 4
-government_type_dictatorship              = 5
+government_type_dictatorship            = 5
