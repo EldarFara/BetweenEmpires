@@ -1,5 +1,5 @@
 scene_propsfile version 1
- 1006
+ 1058
 spr_invalid_object 0 0 invisible 0 0
 
 
@@ -3020,5 +3020,161 @@ spr_province976 0 0 province976 0 0
 
 
 spr_province977 0 0 province977 0 0
+
+
+spr_province978 0 0 province978 0 0
+
+
+spr_province979 0 0 province979 0 0
+
+
+spr_province980 0 0 province980 0 0
+
+
+spr_province981 0 0 province981 0 0
+
+
+spr_province982 0 0 province982 0 0
+
+
+spr_province983 0 0 province983 0 0
+
+
+spr_province984 0 0 province984 0 0
+
+
+spr_province985 0 0 province985 0 0
+
+
+spr_province986 0 0 province986 0 0
+
+
+spr_province987 0 0 province987 0 0
+
+
+spr_province988 0 0 province988 0 0
+
+
+spr_province989 0 0 province989 0 0
+
+
+spr_province990 0 0 province990 0 0
+
+
+spr_province991 0 0 province991 0 0
+
+
+spr_province992 0 0 province992 0 0
+
+
+spr_province993 0 0 province993 0 0
+
+
+spr_province994 0 0 province994 0 0
+
+
+spr_province995 0 0 province995 0 0
+
+
+spr_province996 0 0 province996 0 0
+
+
+spr_province997 0 0 province997 0 0
+
+
+spr_province998 0 0 province998 0 0
+
+
+spr_province999 0 0 province999 0 0
+
+
+spr_province1000 0 0 province1000 0 0
+
+
+spr_province1001 0 0 province1001 0 0
+
+
+spr_province1002 0 0 province1002 0 0
+
+
+spr_province1003 0 0 province1003 0 0
+
+
+spr_province1004 0 0 province1004 0 0
+
+
+spr_province1005 0 0 province1005 0 0
+
+
+spr_province1006 0 0 province1006 0 0
+
+
+spr_province1007 0 0 province1007 0 0
+
+
+spr_province1008 0 0 province1008 0 0
+
+
+spr_province1009 0 0 province1009 0 0
+
+
+spr_province1010 0 0 province1010 0 0
+
+
+spr_province1011 0 0 province1011 0 0
+
+
+spr_province1012 0 0 province1012 0 0
+
+
+spr_province1013 0 0 province1013 0 0
+
+
+spr_province1014 0 0 province1014 0 0
+
+
+spr_province1015 0 0 province1015 0 0
+
+
+spr_province1016 0 0 province1016 0 0
+
+
+spr_province1017 0 0 province1017 0 0
+
+
+spr_province1018 0 0 province1018 0 0
+
+
+spr_province1019 0 0 province1019 0 0
+
+
+spr_province1020 0 0 province1020 0 0
+
+
+spr_province1021 0 0 province1021 0 0
+
+
+spr_province1022 0 0 province1022 0 0
+
+
+spr_province1023 0 0 province1023 0 0
+
+
+spr_province1024 0 0 province1024 0 0
+
+
+spr_province1025 0 0 province1025 0 0
+
+
+spr_province1026 0 0 province1026 0 0
+
+
+spr_province1027 0 0 province1027 0 0
+
+
+spr_province1028 0 0 province1028 0 0
+
+
+spr_province1029 0 0 province1029 0 0
 
 
