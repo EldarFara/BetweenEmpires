@@ -932,10 +932,10 @@ str_province903 Kerguelen_Islands
 str_province904 Seychelles
 str_province905 East_New_Guinea
 str_province906 Solomon_Islands
-str_province907 Fiji
+str_province907 Vanuatu
 str_province908 New_Caledionia
-str_province909 Tonga
-str_province910 Niue
+str_province909 Fiji
+str_province910 Tonga
 str_province911 Samoa
 str_province912 Tuvalu
 str_province913 Kiribati
@@ -960,8 +960,8 @@ str_province931 Trinidad_and_Tobago
 str_province932 Margarita_Island
 str_province933 Curacao
 str_province934 Chetumal
-str_province935 North_Mosquito_Coast
-str_province936 South_Mosquito_Coast
+str_province935 Belize
+str_province936 Toledo
 str_province937 North_Guatemala
 str_province938 Puerto_Barrios
 str_province939 Central_Guatemala
@@ -971,7 +971,7 @@ str_province942 Puerto_Lempira
 str_province943 Olancho
 str_province944 El_Salvador
 str_province945 Managua
-str_province946 Bluefields
+str_province946 Mosquito_Coast
 str_province947 Bonanza
 str_province948 El_Tortuguero
 str_province949 Alajuela
