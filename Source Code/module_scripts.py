@@ -827,7 +827,7 @@ scripts = [
     (array_set_val, "$factions", 3.5*10000, faction_kokand, faction_literacy),
     (array_set_val, "$factions", 9.2*10000, faction_kokand, faction_urbanization),
     (array_set_val, "$factions", 7735000, faction_iran, faction_population),
-    (array_set_val, "$factions", 9,6*10000, faction_iran, faction_literacy),
+    (array_set_val, "$factions", 9.6*10000, faction_iran, faction_literacy),
     (array_set_val, "$factions", 10.7*10000, faction_iran, faction_urbanization),
     (array_set_val, "$factions", 436100000, faction_china, faction_population),
     (array_set_val, "$factions", 1341000, faction_rashidi, faction_population),
