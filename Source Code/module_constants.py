@@ -3,7 +3,7 @@ number_of_factions = 144
 
 number_of_factions_parameters = 8
 number_of_factions_strings = 5
-number_of_provinces_parameters = 17
+number_of_provinces_parameters = 22
 number_of_provinces_strings = 1
 number_of_provinces_borders = 10
 number_of_global_parameters = 7
@@ -18,6 +18,7 @@ faction_array_provinces_owned                                                 = 
 faction_array_provinces_controlled                                            = 5
 faction_is_active                                                             = 6
 faction_government_type                                                       = 7
+faction_capital                                                               = 8
 
 faction_string_name                                                           = 0
 faction_string_name_short                                                     = 1
@@ -42,6 +43,11 @@ province_literacy                                                             = 
 province_terrain                                                              = 14
 province_control_type                                                         = 15
 province_is_an_object_of_colonisation                                         = 16
+province_core1                                                                = 17
+province_core2                                                                = 18
+province_core3                                                                = 19
+province_core4                                                                = 20
+province_core5                                                                = 21
 
 province_string_name                                                          = 0
 
@@ -60,7 +66,7 @@ faction_papal           = 10
 faction_parma           = 11
 faction_tuscany         = 12
 faction_sicily          = 13
-faction_prussia         = 14
+faction_germany         = 14
 faction_bavaria         = 15
 faction_hanover         = 16
 faction_saxony          = 17
