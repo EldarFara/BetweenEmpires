@@ -2034,9 +2034,10 @@ scripts = [
 (array_set_val, "$provinces", ":owner_faction", ":index", province_owner),
 (array_set_val, "$provinces", ":sea_province", ":index", province_bordering_sea_province),
 (array_set_val, "$provinces", ":terrain", ":index", province_terrain),
-(array_set_val, "$provinces", 100, ":index", province_initparam_population_multiplier),
-(array_set_val, "$provinces", 100, ":index", province_initparam_literacy_multiplier),
-(array_set_val, "$provinces", 100, ":index", province_initparam_urbanization_multiplier),
+# Adding a bit of random to multipliers
+(store_random_in_range, ":random", 98, 102+1), (array_set_val, "$provinces", ":random", ":index", province_initparam_population_multiplier),
+(store_random_in_range, ":random", 98, 102+1), (array_set_val, "$provinces", ":random", ":index", province_initparam_literacy_multiplier),
+(store_random_in_range, ":random", 98, 102+1), (array_set_val, "$provinces", ":random", ":index", province_initparam_urbanization_multiplier),
 
     (try_for_range, ":param", 5, 14+1),
     (store_script_param, ":bordering_province", ":param"),
@@ -2101,10 +2102,6 @@ scripts = [
         (array_get_val, ":population_multiplier", "$provinces", ":province", province_initparam_population_multiplier),
         (array_get_val, ":literacy_multiplier", "$provinces", ":province", province_initparam_literacy_multiplier),
         (array_get_val, ":urbanization_multiplier", "$provinces", ":province", province_initparam_urbanization_multiplier),
-        # Adding a bit of random to multipliers, todo maybe delete the randomization?
-        (store_random_in_range, ":random", -2, 2+1), (val_add, ":population_multiplier", ":random"),
-        (store_random_in_range, ":random", -2, 2+1), (val_add, ":literacy_multiplier", ":random"),
-        (store_random_in_range, ":random", -2, 2+1), (val_add, ":urbanization_multiplier", ":random"),
         # province_population = (population_multiplier / sum_population_multiplier) * faction_population
         (store_mul, ":province_population_multiplier", ":population_multiplier", 100000),
         (val_div, ":province_population_multiplier", ":sum_population_multiplier"),
