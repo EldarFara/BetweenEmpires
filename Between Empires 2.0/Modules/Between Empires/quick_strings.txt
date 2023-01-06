@@ -1,4 +1,4 @@
-729
+737
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -728,3 +728,11 @@ qstr_ui_urbanization ui_urbanization
 qstr_Population Population
 qstr_Literacy Literacy
 qstr_Urbanization Urbanization
+qstr_faction_{reg0}_facti faction_{reg0}_faction_literacy_{reg1}_average_literacy_multiplier_{reg2}_province_literacy_{reg3}_array_size_{reg4}
+qstr_faction_{reg0}_factio faction_{reg0}_faction_literacy_{reg1}_average_literacy_multiplier_{reg2}_province_literacy_{reg3}_array_size_{reg4}_literacy_multiplier_{reg5}
+qstr_faction_{reg0}_faction faction_{reg0}_faction_literacy_{reg1}_average_literacy_multiplier_{reg2}_province_literacy_{reg3}_array_size_{reg4}_literacy_multiplier_{reg5}_literacy_multiplier_{reg6}
+qstr_faction_{reg0}_faction_ faction_{reg0}_faction_literacy_{reg1}_average_literacy_multiplier_{reg2}_province_literacy_{reg3}_array_size_{reg4}_literacy_multiplier_{reg5}_sum_literacy_multiplier_{reg6}
+qstr_faction_{reg0}_faction_u faction_{reg0}_faction_urbanization_{reg1}_average_urbanization_multiplier_{reg2}_province_urbanization_{reg3}_array_size_{reg4}_urbanization_multiplier_{reg5}_sum_urbanization_multiplier_{reg6}
+qstr_{s3} {s3}
+qstr_province_{reg7}_fact province_{reg7}_faction_{reg0}_province_population_multiplier_{reg1}_average_urbanization_multiplier_{reg2}_faction_population_{reg3}
+qstr_province_{reg7}_facti province_{reg7}_faction_{reg0}_province_population_multiplier_{reg1}_sum_population_multiplier_{reg2}_faction_population_{reg3}_population_multiplier_{reg4}
