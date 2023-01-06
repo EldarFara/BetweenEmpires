@@ -1,4 +1,4 @@
-737
+747
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -736,3 +736,13 @@ qstr_faction_{reg0}_faction_u faction_{reg0}_faction_urbanization_{reg1}_average
 qstr_{s3} {s3}
 qstr_province_{reg7}_fact province_{reg7}_faction_{reg0}_province_population_multiplier_{reg1}_average_urbanization_multiplier_{reg2}_faction_population_{reg3}
 qstr_province_{reg7}_facti province_{reg7}_faction_{reg0}_province_population_multiplier_{reg1}_sum_population_multiplier_{reg2}_faction_population_{reg3}_population_multiplier_{reg4}
+qstr_Republic_of_Ecuador Republic_of_Ecuador
+qstr_Ecuador Ecuador
+qstr_faction_flag_ecuador faction_flag_ecuador
+qstr_faction_color_ecuado faction_color_ecuador
+qstr_Ecuadorian Ecuadorian
+qstr_Brazil_Empire Brazil_Empire
+qstr_Brazil Brazil
+qstr_faction_flag_brazil faction_flag_brazil
+qstr_faction_color_brazil faction_color_brazil
+qstr_Brazilian Brazilian

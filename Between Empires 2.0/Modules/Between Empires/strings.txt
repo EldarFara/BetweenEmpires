@@ -1,5 +1,5 @@
 stringsfile version 1
-1055
+1085
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -1055,3 +1055,33 @@ str_province1026 province1026
 str_province1027 province1027
 str_province1028 province1028
 str_province1029 province1029
+str_province1030 province1030
+str_province1031 province1031
+str_province1032 province1032
+str_province1033 province1033
+str_province1034 province1034
+str_province1035 province1035
+str_province1036 province1036
+str_province1037 province1037
+str_province1038 province1038
+str_province1039 province1039
+str_province1040 province1040
+str_province1041 province1041
+str_province1042 province1042
+str_province1043 province1043
+str_province1044 province1044
+str_province1045 province1045
+str_province1046 province1046
+str_province1047 province1047
+str_province1048 province1048
+str_province1049 province1049
+str_province1050 province1050
+str_province1051 province1051
+str_province1052 province1052
+str_province1053 province1053
+str_province1054 province1054
+str_province1055 province1055
+str_province1056 province1056
+str_province1057 province1057
+str_province1058 province1058
+str_province1059 province1059

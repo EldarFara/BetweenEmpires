@@ -714,6 +714,8 @@ scripts = [
 (sss, s1, "@Kingdom of Micronesia"), (sss, s2, "@Micronesia"), (sss, s3, "@faction_flag_micronesia"), (sss, s4, "@faction_color_micronesia"), (sss, s5, "@Micronesian"), (call_script, "script_add_faction", government_type_tribal_union, faction_micronesia),
 (sss, s1, "@Kingdom of Vanuatu"), (sss, s2, "@Vanuatu"), (sss, s3, "@faction_flag_vanuatu"), (sss, s4, "@faction_color_vanuatu"), (sss, s5, "@Melanesian"), (call_script, "script_add_faction", government_type_absolute_monarchy, faction_vanuatu),
 (sss, s1, "@Kingdom of Bilua"), (sss, s2, "@Bilua"), (sss, s3, "@faction_flag_bilua"), (sss, s4, "@faction_color_bilua"), (sss, s5, "@Melanesian"), (call_script, "script_add_faction", government_type_absolute_monarchy, faction_bilua),
+(sss, s1, "@Republic of Ecuador"), (sss, s2, "@Ecuador"), (sss, s3, "@faction_flag_ecuador"), (sss, s4, "@faction_color_ecuador"), (sss, s5, "@Ecuadorian"), (call_script, "script_add_faction", government_type_republic, faction_ecuador),
+(sss, s1, "@Brazil Empire"), (sss, s2, "@Brazil"), (sss, s3, "@faction_flag_brazil"), (sss, s4, "@faction_color_brazil"), (sss, s5, "@Brazilian"), (call_script, "script_add_faction", government_type_absolute_monarchy, faction_brazil),
 
 # parameters that are dependant on starting date
     (try_begin),
@@ -1979,6 +1981,39 @@ scripts = [
 (call_script, "script_add_province", 1027, 27549, 25187, faction_netherlands, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 1028, 27907, 24780, faction_france, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 1029, 28369, 24780, faction_france, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+
+(call_script, "script_add_province", 1030, 28369, 24780, faction_ecuador, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1031, 28369, 24780, faction_ecuador, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1032, 28369, 24780, faction_ecuador, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1033, 28369, 24780, faction_ecuador, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1034, 28369, 24780, faction_ecuador, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1035, 28369, 24780, faction_ecuador, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+
+(call_script, "script_add_province", 1036, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1037, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1038, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1039, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1040, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1041, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1042, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1043, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1044, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1045, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1046, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1047, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1048, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1049, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1050, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1051, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1052, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1053, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1054, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1055, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1056, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1057, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1058, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1059, 28369, 24780, faction_brazil, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+
 
 # Initparam multipliers
 # Index, population_multiplier, literacy_multiplier, urbanization_multiplier
