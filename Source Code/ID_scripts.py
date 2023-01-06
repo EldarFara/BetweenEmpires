@@ -95,3 +95,7 @@ script_world_map_ui_start_devmode = 93
 script_world_map_ui_frame_devmode = 94
 script_get_government_type_name = 95
 script_initialize_objects_of_colonisation = 96
+script_initialize_capitals = 97
+script_initialize_cores = 98
+script_get_population_string_for_value = 99
+script_get_literacy_string_for_value = 100

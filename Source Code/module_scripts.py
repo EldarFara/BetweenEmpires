@@ -2096,7 +2096,10 @@ scripts = [
         (val_max, ":province_population_multiplier", 1),
         (store_mul, ":province_population", ":faction_population", ":province_population_multiplier"),
         (val_div, ":province_population", 100),
-        (array_set_val, "$provinces", ":province_population", ":index", province_population),
+        (array_set_val, "$provinces", ":province_population", ":province", province_population),
+# (assign, reg0, ":province"),
+# (assign, reg1, ":province_population"),
+# (display_message, "@{reg0} - {reg1}"),
             (try_begin),
             # literacy and urbanisation will be calculated only for provinces without province_is_an_object_of_colonisation variable set
             (neg|array_eq, "$provinces", 1, ":province", province_is_an_object_of_colonisation),
@@ -2105,13 +2108,13 @@ scripts = [
             (val_div, ":province_literacy", 100),
             (val_mul, ":province_literacy", ":literacy_multiplier"),
             (val_div, ":province_literacy", 100),
-            (array_set_val, "$provinces", ":province_literacy", ":index", province_literacy),
+            (array_set_val, "$provinces", ":province_literacy", ":province", province_literacy),
             # province_urbanization = urbanization_multiplier * ((average_urbanization_multiplier/100) * faction_urbanization)
             (store_mul, ":province_urbanization", ":average_urbanization_multiplier", ":faction_urbanization"),
             (val_div, ":province_urbanization", 100),
             (val_mul, ":province_urbanization", ":urbanization_multiplier"),
             (val_div, ":province_urbanization", 100),
-            (array_set_val, "$provinces", ":province_urbanization", ":index", province_urbanization),
+            (array_set_val, "$provinces", ":province_urbanization", ":province", province_urbanization),
             (try_end),
         (try_end),
     (try_end),
@@ -2122,9 +2125,9 @@ scripts = [
 ("initialize_faction_provinces_arrays", [
 
     (try_for_range, ":faction", 0, number_of_factions),
-    (array_create, ":array", 0, 1),
+    (array_create, ":array", 0, 0),
     (array_set_val, "$factions", ":array", ":faction", faction_array_provinces_owned),
-    (array_create, ":array", 0, 1),
+    (array_create, ":array", 0, 0),
     (array_set_val, "$factions", ":array", ":faction", faction_array_provinces_controlled),
     (try_end),
     (try_for_range, ":province", 0, number_of_provinces),
@@ -2431,8 +2434,37 @@ scripts = [
     (try_begin),
     (array_eq, "$globals", ui_mode_province_menu_small_player, global_ui_mode),
     (call_script, "script_world_map_ui_start_province_menu_small_shared"),
-    
-    
+    (array_get_val, ":selected_province", "$globals", global_selected_province),
+    (array_get_val, ":population", "$provinces", ":selected_province", province_population),
+    (array_get_val, ":literacy", "$provinces", ":selected_province", province_literacy),
+    (array_get_val, ":urbanization", "$provinces", ":selected_province", province_urbanization),
+    (call_script, "script_get_population_string_for_value", ":population", s1),
+    (call_script, "script_get_literacy_string_for_value", ":literacy", s2),
+    (call_script, "script_get_literacy_string_for_value", ":urbanization", s3),
+    (create_mesh_overlay, "$ui_province_propulation_icon", "mesh_ui_picture"),
+    (overlay_set_material, "$ui_province_propulation_icon", "@ui_population"),
+    (position_set_x, pos1, 35), (position_set_y, pos1, 450), (overlay_set_position, "$ui_province_propulation_icon", pos1),
+    (position_set_x, pos1, 300), (position_set_y, pos1, 300), (overlay_set_size, "$ui_province_propulation_icon", pos1),
+    (create_text_overlay, "$ui_province_propulation", "@{s1}", tf_left_align|tf_vertical_align_center),
+    (position_set_x, pos1, 45), (position_set_y, pos1, 455), (overlay_set_position, "$ui_province_propulation", pos1),
+    (position_set_x, pos1, 800), (position_set_y, pos1, 800), (overlay_set_size, "$ui_province_propulation", pos1),
+    (create_mesh_overlay, "$ui_province_literacy_icon", "mesh_ui_picture"),
+    (overlay_set_material, "$ui_province_literacy_icon", "@ui_literacy"),
+    (position_set_x, pos1, 120), (position_set_y, pos1, 450), (overlay_set_position, "$ui_province_literacy_icon", pos1),
+    (position_set_x, pos1, 300), (position_set_y, pos1, 300), (overlay_set_size, "$ui_province_literacy_icon", pos1),
+    (create_text_overlay, "$ui_province_literacy", "@{s2}", tf_left_align|tf_vertical_align_center),
+    (position_set_x, pos1, 130), (position_set_y, pos1, 455), (overlay_set_position, "$ui_province_literacy", pos1),
+    (position_set_x, pos1, 800), (position_set_y, pos1, 800), (overlay_set_size, "$ui_province_literacy", pos1),
+    (create_mesh_overlay, "$ui_province_urbanization_icon", "mesh_ui_picture"),
+    (overlay_set_material, "$ui_province_urbanization_icon", "@ui_urbanization"),
+    (position_set_x, pos1, 205), (position_set_y, pos1, 450), (overlay_set_position, "$ui_province_urbanization_icon", pos1),
+    (position_set_x, pos1, 300), (position_set_y, pos1, 300), (overlay_set_size, "$ui_province_urbanization_icon", pos1),
+    (create_text_overlay, "$ui_province_urbanization", "@{s2}", tf_left_align|tf_vertical_align_center),
+    (position_set_x, pos1, 215), (position_set_y, pos1, 455), (overlay_set_position, "$ui_province_urbanization", pos1),
+    (position_set_x, pos1, 800), (position_set_y, pos1, 800), (overlay_set_size, "$ui_province_urbanization", pos1),
+    (overlay_set_tooltip, "$ui_province_propulation_icon", "@Population"),
+    (overlay_set_tooltip, "$ui_province_literacy_icon", "@Literacy"),
+    (overlay_set_tooltip, "$ui_province_urbanization_icon", "@Urbanization"),
     (try_end),
 ]),
 
@@ -2444,7 +2476,6 @@ scripts = [
     
     (try_end),
 ]),
-
 
 ("world_map_ui_start_province_menu_small_shared", [
 (create_mesh_overlay, "$ui_province_menu_small_bg", "mesh_ui_background"),
@@ -2503,9 +2534,15 @@ scripts = [
     (call_script, "script_ui_flag_overlay_set_material_and_tooltip", "$ui_bottom_panel_flag", ":player_faction"),
     
     (array_get_val, s1, "$factions_strings", ":player_faction", faction_string_name),
+    (str_length, ":length", s1),
+    (assign, ":text_size", 800),
+        (try_begin), # if faction name is very long, decreaase text size
+        (gt, ":length", 27),
+        (assign, ":text_size", 550),
+        (try_end),
     (create_text_overlay, "$ui_bottom_panel_faction_name", "@{s1}", tf_left_align),
     (position_set_x, pos1, 105), (position_set_y, pos1, 52), (overlay_set_position, "$ui_bottom_panel_faction_name", pos1),
-    (position_set_x, pos1, 800), (position_set_y, pos1, 800), (overlay_set_size, "$ui_bottom_panel_faction_name", pos1),
+    (position_set_x, pos1, ":text_size"), (position_set_y, pos1, ":text_size"), (overlay_set_size, "$ui_bottom_panel_faction_name", pos1),
     (array_get_val, ":government_type", "$factions", ":player_faction", faction_government_type),
     (call_script, "script_get_government_type_name", ":government_type", s1),
     (create_text_overlay, "$ui_bottom_panel_faction_govtype", "@{s1}", tf_left_align),
@@ -2872,9 +2909,41 @@ scripts = [
 #(store_script_param, ":start_date", 1),
 (array_set_val, "$factions", 17, faction_france, faction_capital),
 ]),
+
 # Set up province cores
 ("initialize_cores", [
 (array_set_val, "$provinces", faction_germany, 0, province_core2),
+]),
+
+# Returns string containing population in thousands or millions
+("get_population_string_for_value", [
+(store_script_param, ":population", 1),
+(store_script_param, ":string", 2),
+    (try_begin),
+    (lt, ":population", 10000),
+    (assign, reg0, ":population"),
+    (sss, ":string", "@{reg0}"),
+    (else_try),
+    (lt, ":population", 1000000),
+    (store_div, reg0, ":population", 1000),
+    (store_div, reg1, ":population", 100),
+    (store_mod, reg1, reg1, 10),
+    (sss, ":string", "@{reg0}.{reg1}k"),
+    (else_try),
+    (store_div, reg0, ":population", 1000000),
+    (store_div, reg1, ":population", 1000),
+    (store_mod, reg1, reg1, 1000),
+    (sss, ":string", "@{reg0}.{reg1}M"),
+    (try_end),
+]),
+# Returns string containing literacy in percents
+("get_literacy_string_for_value", [
+(store_script_param, ":literacy", 1),
+(store_script_param, ":string", 2),
+(store_div, reg0, ":literacy", 10000),
+(store_div, reg1, ":literacy", 1000),
+(store_mod, reg1, reg1, 10),
+(sss, ":string", "@{reg0}.{reg1}%"),
 ]),
 
 ]

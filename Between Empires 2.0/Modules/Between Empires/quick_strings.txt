@@ -1,4 +1,4 @@
-717
+729
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -716,3 +716,15 @@ qstr_faction_flag_bilua faction_flag_bilua
 qstr_faction_color_bilua faction_color_bilua
 qstr_ui_x_mark ui_x_mark
 qstr_Dictatorship Dictatorship
+qstr_{reg0}.{reg1}k {reg0}.{reg1}k
+qstr_{reg0}.{reg1}M {reg0}.{reg1}M
+qstr_{reg0}___{reg1} {reg0}_-_{reg1}
+qstr_{s2} {s2}
+qstr_ui_province_populati ui_province_population
+qstr_{reg0}.{reg1}% {reg0}.{reg1}%
+qstr_ui_population ui_population
+qstr_ui_literacy ui_literacy
+qstr_ui_urbanization ui_urbanization
+qstr_Population Population
+qstr_Literacy Literacy
+qstr_Urbanization Urbanization

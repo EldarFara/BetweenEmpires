@@ -137,3 +137,9 @@ ui_province_owner_flag
 ui_bottom_panel_faction_name
 ui_bottom_panel_faction_govtype
 ui_provincesmall_close
+ui_province_propulation
+ui_province_literacy
+ui_province_urbanization
+ui_province_propulation_icon
+ui_province_literacy_icon
+ui_province_urbanization_icon
