@@ -143,3 +143,4 @@ ui_province_urbanization
 ui_province_propulation_icon
 ui_province_literacy_icon
 ui_province_urbanization_icon
+provinces_rural_resource_bonuses
