@@ -554,15 +554,6 @@ scripts = [
 
 (call_script, "script_initialize_global_containers"),
 
-# global variables that need to be saved/loaded:
-# $globals
-# $dictionary_global
-# $provinces
-# $provinces_strings
-# $provinces_manufacturers
-# $factions
-# $factions_strings
-# $factions_relations
 
 ]),
 
@@ -1050,6 +1041,9 @@ scripts = [
 ("initialize_provinces", [
 (store_script_param, ":start_date", 1),
 (call_script, "script_initialize_objects_of_colonisation"),
+(call_script, "script_initialize_rural_resource_bonuses"),
+(call_script, "script_initialize_cores"),
+(call_script, "script_initialize_capitals"),
 # parameters that aren't dependant on starting date
 (call_script, "script_add_province", 0, 49481, 42387, faction_france, 79, 105, 42, 19, 23, 13, 41, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 1, 46335, 42196, faction_france, 2, 3, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
@@ -2315,11 +2309,13 @@ scripts = [
 (array_create, "$provinces_borders", 0, number_of_provinces, number_of_provinces_borders),
 (array_create, "$provinces_strings", 1, number_of_provinces, number_of_provinces_strings),
 (array_create, "$provinces_manufacturers", 0, number_of_provinces, number_of_resources),
+(array_create, "$provinces_rural_resource_bonuses", 0, number_of_provinces, number_of_rural_resources),
 
 (array_set_val_all, "$globals", -1),
 (array_set_val_all, "$factions", -1),
 (array_set_val_all, "$provinces", -1),
 (array_set_val_all, "$provinces_manufacturers", -1),
+(array_set_val_all, "$provinces_rural_resource_bonuses", -1),
 ]),
 
 # Sets 0 to faction_is_active if faction doesnt have owned provinces, otherwise sets 1
@@ -3102,6 +3098,12 @@ scripts = [
 # Set up province cores
 ("initialize_cores", [
 (array_set_val, "$provinces", faction_germany, 0, province_core2),
+]),
+
+# Assign resource bonuses to provinces
+("initialize_rural_resource_bonuses", [
+(array_set_val, "$provinces_rural_resource_bonuses", 150, 500, resource_cereals),
+(array_set_val, "$provinces_rural_resource_bonuses", 100, 500, resource_oil),
 ]),
 
 # Returns string containing population in thousands or millions

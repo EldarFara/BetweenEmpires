@@ -8,7 +8,8 @@ number_of_provinces_strings = 1
 number_of_provinces_borders = 10
 number_of_global_parameters = 7
 
-number_of_resources = 1
+number_of_rural_resources = 8
+number_of_resources = 23
 
 faction_population                                                            = 0
 faction_urbanization                                                          = 1
@@ -246,3 +247,28 @@ government_type_constitutional_monarchy = 1
 government_type_republic                = 2
 government_type_tribal_union            = 4
 government_type_dictatorship            = 5
+
+resource_cereals = 0
+resource_iron = 1
+resource_coal = 2
+resource_wood = 3
+resource_cotton = 4
+resource_opium = 5
+resource_rubber = 6
+resource_oil = 7
+
+resource_militarygoods = 8
+resource_fabric = 9
+resource_clothes = 10
+resource_furniture = 11
+resource_paper = 12
+resource_lumber = 13
+resource_steel = 14
+resource_machineparts = 15
+resource_alcohol = 16
+resource_motor = 17
+resource_automobile = 18
+resource_powerplant = 19
+resource_electricgear = 20
+resource_radio = 21
+resource_telephone = 22
