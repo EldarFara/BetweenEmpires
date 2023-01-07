@@ -1,4 +1,4 @@
-747
+762
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -746,3 +746,18 @@ qstr_Brazil Brazil
 qstr_faction_flag_brazil faction_flag_brazil
 qstr_faction_color_brazil faction_color_brazil
 qstr_Brazilian Brazilian
+qstr_Republic_of_Peru Republic_of_Peru
+qstr_Peru Peru
+qstr_faction_flag_peru faction_flag_peru
+qstr_faction_color_peru faction_color_peru
+qstr_Peruvian Peruvian
+qstr_Republic_of_Bolivia Republic_of_Bolivia
+qstr_Bolivia Bolivia
+qstr_faction_flag_bolivia faction_flag_bolivia
+qstr_faction_color_bolivi faction_color_bolivia
+qstr_Bolivian Bolivian
+qstr_Republic_of_Paraguay Republic_of_Paraguay
+qstr_Paraguay Paraguay
+qstr_faction_flag_paragua faction_flag_paraguay
+qstr_faction_color_paragu faction_color_paraguay
+qstr_Paraguayan Paraguayan
