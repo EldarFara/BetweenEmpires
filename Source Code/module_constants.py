@@ -9,7 +9,7 @@ number_of_provinces_borders = 10
 number_of_global_parameters = 7
 
 number_of_rural_resources = 8
-number_of_resources = 23
+number_of_resources = 24
 
 faction_population                                                            = 0
 faction_urbanization                                                          = 1
@@ -266,9 +266,10 @@ resource_lumber = 13
 resource_steel = 14
 resource_machineparts = 15
 resource_alcohol = 16
-resource_motor = 17
-resource_automobile = 18
-resource_powerplant = 19
-resource_electricgear = 20
-resource_radio = 21
-resource_telephone = 22
+resource_motors = 17
+resource_trains = 18
+resource_automobiles = 19
+resource_electricity = 20
+resource_electricgear = 21
+resource_radios = 22
+resource_telephones = 23
