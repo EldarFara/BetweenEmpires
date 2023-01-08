@@ -1,4 +1,4 @@
-762
+766
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -761,3 +761,7 @@ qstr_Paraguay Paraguay
 qstr_faction_flag_paragua faction_flag_paraguay
 qstr_faction_color_paragu faction_color_paraguay
 qstr_Paraguayan Paraguayan
+qstr_00 00
+qstr_0 0
+qstr_{reg0}.{s60}{reg1}k {reg0}.{s60}{reg1}k
+qstr_{reg0}.{s60}{reg1}M {reg0}.{s60}{reg1}M
