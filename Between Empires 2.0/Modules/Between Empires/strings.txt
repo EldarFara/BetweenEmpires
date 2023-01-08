@@ -1,5 +1,5 @@
 stringsfile version 1
-1125
+1169
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -1125,3 +1125,47 @@ str_province1096 province1096
 str_province1097 province1097
 str_province1098 province1098
 str_province1099 province1099
+str_province1100 province1100
+str_province1101 province1101
+str_province1102 province1102
+str_province1103 province1103
+str_province1104 province1104
+str_province1105 province1105
+str_province1106 province1106
+str_province1107 province1107
+str_province1108 province1108
+str_province1109 province1109
+str_province1110 province1110
+str_province1111 province1111
+str_province1112 province1112
+str_province1113 province1113
+str_province1114 province1114
+str_province1115 province1115
+str_province1116 province1116
+str_province1117 province1117
+str_province1118 province1118
+str_province1119 province1119
+str_province1120 province1120
+str_province1121 province1121
+str_province1122 province1122
+str_province1123 province1123
+str_province1124 province1124
+str_province1125 province1125
+str_province1126 province1126
+str_province1127 province1127
+str_province1128 province1128
+str_province1129 province1129
+str_province1130 province1130
+str_province1131 province1131
+str_province1132 province1132
+str_province1133 province1133
+str_province1134 province1134
+str_province1135 province1135
+str_province1136 province1136
+str_province1137 province1137
+str_province1138 province1138
+str_province1139 province1139
+str_province1140 province1140
+str_province1141 province1141
+str_province1142 province1142
+str_province1143 province1143

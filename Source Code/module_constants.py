@@ -1,5 +1,5 @@
-number_of_provinces = 1100
-number_of_factions = 149
+number_of_provinces = 1146
+number_of_factions = 156
 
 number_of_factions_parameters = 9
 number_of_factions_strings = 5
@@ -202,6 +202,13 @@ faction_brazil          = 145
 faction_peru            = 146
 faction_bolivia         = 147
 faction_paraguay        = 148
+faction_argentina       = 149
+faction_buenosaires     = 150
+faction_uruguay         = 151
+faction_chile           = 152
+faction_mapuche         = 153
+faction_tehuelche       = 154
+faction_selknam         = 155
 
 global_date_year                                                              = 0
 global_date_day_of_year                                                       = 1
