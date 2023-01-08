@@ -1193,4 +1193,6 @@ strings = [
 ("province1141","province1141"),
 ("province1142","province1142"),
 ("province1143","province1143"),
+("province1144","province1144"),
+("province1145","province1145"),
 ]

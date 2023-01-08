@@ -1170,3 +1170,5 @@ spr_province1140 = 1168
 spr_province1141 = 1169
 spr_province1142 = 1170
 spr_province1143 = 1171
+spr_province1144 = 1172
+spr_province1145 = 1173
