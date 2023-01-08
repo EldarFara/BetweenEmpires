@@ -1,4 +1,4 @@
-766
+782
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -765,3 +765,19 @@ qstr_00 00
 qstr_0 0
 qstr_{reg0}.{s60}{reg1}k {reg0}.{s60}{reg1}k
 qstr_{reg0}.{s60}{reg1}M {reg0}.{s60}{reg1}M
+qstr_{reg0}{s60}_January {reg0}{s60}_January
+qstr_{reg0}{s60}_February {reg0}{s60}_February
+qstr_{reg0}{s60}_March {reg0}{s60}_March
+qstr_{reg0}{s60}_April {reg0}{s60}_April
+qstr_{reg0}{s60}_May {reg0}{s60}_May
+qstr_{reg0}{s60}_June {reg0}{s60}_June
+qstr_{reg0}{s60}_July {reg0}{s60}_July
+qstr_{reg0}{s60}_August {reg0}{s60}_August
+qstr_{reg0}{s60}_Septembe {reg0}{s60}_September
+qstr_{reg0}{s60}_October {reg0}{s60}_October
+qstr_{reg0}{s60}_November {reg0}{s60}_November
+qstr_{reg0}{s60}_December {reg0}{s60}_December
+qstr_st st
+qstr_nd nd
+qstr_rd rd
+qstr_th th

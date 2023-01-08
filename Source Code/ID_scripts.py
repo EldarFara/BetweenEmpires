@@ -100,3 +100,5 @@ script_initialize_cores = 98
 script_initialize_rural_resource_bonuses = 99
 script_get_population_string_for_value = 100
 script_get_literacy_string_for_value = 101
+script_get_date_string = 102
+script_get_date_string_number_ending = 103
