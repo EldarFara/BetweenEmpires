@@ -18,12 +18,10 @@ ui_average_caps|Average
 ui_poor|Poor
 ui_faster|Faster
 ui_slower|Slower
-ui_control_block_direction|Control Block Direction:
 ui_automatic_recommended|Automatic
 ui_manual_easy|Manual (Easy)
 ui_manual_hard|Manual (Hard)
 ui_by_mouse_movement|By mouse movement
-ui_control_attack_direction|Control Attack Direction:
 ui_lance_control|Lance Control:
 ui_by_relative_enemy_position|By relative enemy position
 ui_by_inverse_mouse_movement|By inverse mouse movement
@@ -33,9 +31,6 @@ ui_show_targeting_reticule|Show Targeting Reticle
 ui_show_names_of_friendly_troops|Show Banners on Friendly Troops
 ui_report_damage|Report Damage
 ui_report_shot_difficulty|Report Shot Difficulty
-ui_difficulty_rating_percentage|Difficulty Rating = %d%%
-ui_controls|Controls
-ui_video_options|Video Options
 ui_done|Done
 ui_factions|Factions
 ui_item_itemname|Item - %s
@@ -140,8 +135,6 @@ ui_keep_fighting|Keep fighting
 ui_question_leave_area|Leave Area
 ui_cant_retreat_there_are_enemies_nearby|Can't retreat. There are enemies nearby!
 ui_question_retreat_battle|Retreat battle?
-ui_retreated_battle|%s has been routed.
-ui_retreated_battle|%s has fled from the battlefield.
 ui_retreat|Retreat
 ui_talk|Talk
 ui_duel|Duel
@@ -154,8 +147,6 @@ ui_open|Open
 ui_equip|Equip
 ui_baggage|Baggage
 ui_access_inventory|Access inventory
-ui_chest|Chest
-ui_passage|Passage
 ui_go|Go
 ui_retreat_battle|Retreat Battle
 ui_leave_area|Leave Area
@@ -167,19 +158,6 @@ ui_inventory|Inventory
 ui_character|Character
 ui_party|Party
 ui_paused|Paused
-ui_click_left_button_to_cancel_wait|Waiting... (Left click to return)
-ui_midnight|Midnight
-ui_late_night|Late night
-ui_dawn|Dawn
-ui_early_morning|Early morning
-ui_morning|Morning
-ui_noon|Noon
-ui_afternoon|Afternoon
-ui_late_afternoon|Late afternoon
-ui_dusk|Dusk
-ui_evening|Evening
-ui_midnight|Midnight
-ui_level_limit_reached|Level Limit Reached!
 ui_explanation_level_limit|Hail Adventurer, Mount&Blade has not been activated yet and is running in trial mode. In this mode, the game is limited to Level 8. In order to continue playing, please restart the game and activate it with your 16-digit serial key which is included in your boxed copy. After activating, you can continue playing right from here. Now, Mount&Blade will save your game and exit.
 ui_time_limit_reached|Time Limit Reached!
 ui_explanation_time_limit|Hail Adventurer, Mount&Blade has not been activated yet and is running in trial mode. In this mode, the game is limited to 30 game days. In oder to continue playing, please restart the game and activate it with your 16-digit serial key which is included in your boxed copy. After activating, you can continue playing right from here. Now, Mount&Blade will save your game and exit.
@@ -417,7 +395,6 @@ ui_character_detail|Character Detail:
 ui_character_shadow_detail|Character Shadow Detail:
 ui_blood_stains|Blood Stains:
 ui_on|On
-ui_off|Off
 ui_near_player_only|Near player only
 ui_default|Default
 ui_3d_grass|3D Grass:
@@ -426,9 +403,6 @@ ui_number_of_corpses|Number of Corpses:
 ui_unlimited|Unlimited
 ui_anisotropic_filtering|Anisotropic Filtering
 ui_fast_water_reflection|Fast Water Reflections
-ui_maximum_framerate|Max. Frame-rate:
-ui_show_framerate|Show Frame-rate:
-ui_estimated_performance|Estimated Performance: %d%%
 ui_change_graphics_settings_explanation|Some changes you have made will take effect when you enter a new area.
 ui_start_tutorial|Play Tutorial
 ui_start_a_new_game|Start a New Game
@@ -605,16 +579,15 @@ ui_m_ultra_high2|Ultra High
 ui_off2|Off
 ui_group_header|Class of troop
 ui_group_rename|Rename group
-ui_group_1|Infantry
-ui_group_2|Archers
-ui_group_3|Cavalry
-ui_group_4|Unnamed 1
-ui_group_5|Unnamed 2
-ui_group_6|Unnamed 3
-ui_group_7|Unnamed 4
-ui_group_8|Unnamed 5
-ui_group_9|Unnamed 6
-ui_group_rename|Rename Group
+ui_group_1|
+ui_group_2|
+ui_group_3|
+ui_group_4|
+ui_group_5|
+ui_group_6|
+ui_group_7|
+ui_group_8|
+ui_group_9|
 ui_group_close|Close
 ui_party_b_group_information|%s belongs to %s group
 ui_thrown_or_s|Thrown/%s
@@ -623,7 +596,6 @@ ui_overall_quality|Overall Quality
 ui_shader_quality|Shader Quality:
 ui_flora_lod_detail|Tree Detail:
 ui_flora_degrade_distance|Tree Degrade Distance:
-ui_antialiasing|AntiAliasing:
 ui_use_depth_effects|Use Depth Effects
 ui_hdr_mode|HDR Mode:
 ui_autoexpore|Auto-exposure
@@ -640,7 +612,6 @@ ui_gender|Choose Gender:
 ui_edit_profile|Edit Profile
 ui_new_profile|New Profile
 ui_enter_username|Enter Username:
-ui_invalid_username|Usernames may only contain letters, numbers or _ - * [ ] ~ characters.
 ui_confirmation|Are you sure?
 ui_multiplayer|Multiplayer
 ui_server_name|Server
@@ -695,7 +666,6 @@ ui_group_value_control|Group %d!
 ui_drop_weapon|Drop Weapon
 ui_multiplayer_message_all|Send Message to Everyone
 ui_multiplayer_message_team|Send Message to Team
-ui_command_line|Command Line
 ui_use_ranged_weapon_as_melee|Toggle Weapon Mode
 ui_send_message_all|Send Message to Everyone
 ui_send_message_team|Send Message to Team
@@ -713,8 +683,6 @@ ui_combat_speed_slower|Slower
 ui_combat_speed_normal|Normal
 ui_combat_speed_faster|Faster
 ui_combat_speed_fastest|Fastest
-ui_module_newer_than_application|The module you have selected requires a newer version of the game.
-ui_module_older_than_application|The module you have selected requires an older version of the game.
 ui_unbalanced|Unbalanced
 ui_can_crush_through_blocks|Can crush through blocks
 ui_turn_camera_with_horse|Turn Camera with Horse in First Person:
@@ -725,7 +693,6 @@ ui_turn_never|Never
 ui_turn_ranged_only|Ranged only
 ui_turn_melee_only|Melee only
 ui_turn_always|Always
-ui_general_options|General Options
 ui_vac_enabled|Valve Anti Cheat Enabled
 ui_campaign_ai|Campaign AI:
 ui_downloading_map|Downloading map (%d KB)

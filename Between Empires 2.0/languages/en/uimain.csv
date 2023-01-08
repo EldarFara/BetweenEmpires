@@ -12,7 +12,6 @@ ui_enable_vertex_shaders|Render Method:
 ui_shadow_quality|Shadow Quality:
 ui_directx_7|DirectX 7
 ui_directx_9|DirectX 9
-ui_show_framerate|Show Framerate
 ui_start_windowed|Start Windowed
 ui_trialmode_caption|Activation
 ui_trialmode|Please take a moment to activate Mount&&Blade Warband with your serial key. Your unique, 16-digit serial key is included inside your boxed copy.\nIf you don't wish to activate the game now for any reason, you can still continue to play the game in trial mode, however you won't be able to advance past character level 8.
