@@ -714,9 +714,9 @@ scripts = [
 (sss, s1, "@State of Buenos Aires"), (sss, s2, "@Buenos Aires"), (sss, s3, "@faction_flag_buenosaires"), (sss, s4, "@faction_color_buenosaires"), (sss, s5, "@Argentinian"), (call_script, "script_add_faction", government_type_republic, faction_buenosaires),
 (sss, s1, "@Republic of Uruguay"), (sss, s2, "@Uruguay"), (sss, s3, "@faction_flag_uruguay"), (sss, s4, "@faction_color_uruguay"), (sss, s5, "@Uruguayan"), (call_script, "script_add_faction", government_type_republic, faction_uruguay),
 (sss, s1, "@Republic of Chile"), (sss, s2, "@Chile"), (sss, s3, "@faction_flag_chile"), (sss, s4, "@faction_color_chile"), (sss, s5, "@Chilean"), (call_script, "script_add_faction", government_type_republic, faction_chile),
-(sss, s1, "@Mapuche"), (sss, s2, "@Mapuche"), (sss, s3, "@faction_flag_mapuche"), (sss, s4, "@faction_color_mapuche"), (sss, s5, "@Mapuche"), (call_script, "script_add_faction", government_type_tribal_union, faction_mapuche),
-(sss, s1, "@Tehuelche"), (sss, s2, "@Tehuelche"), (sss, s3, "@faction_flag_tehuelche"), (sss, s4, "@faction_color_tehuelche"), (sss, s5, "@Tehuelche"), (call_script, "script_add_faction", government_type_tribal_union, faction_tehuelche),
-(sss, s1, "@Selknam"), (sss, s2, "@Selknam"), (sss, s3, "@faction_flag_selknam"), (sss, s4, "@faction_color_selknam"), (sss, s5, "@Selknam"), (call_script, "script_add_faction", government_type_tribal_union, faction_selknam),
+(sss, s1, "@Mapuche Confederation"), (sss, s2, "@Mapuche"), (sss, s3, "@faction_flag_mapuche"), (sss, s4, "@faction_color_mapuche"), (sss, s5, "@Mapuche"), (call_script, "script_add_faction", government_type_tribal_union, faction_mapuche),
+(sss, s1, "@Tehuelche Tribes"), (sss, s2, "@Tehuelche"), (sss, s3, "@faction_flag_tehuelche"), (sss, s4, "@faction_color_tehuelche"), (sss, s5, "@Tehuelche"), (call_script, "script_add_faction", government_type_tribal_union, faction_tehuelche),
+(sss, s1, "@Selknam Tribes"), (sss, s2, "@Selknam"), (sss, s3, "@faction_flag_selknam"), (sss, s4, "@faction_color_selknam"), (sss, s5, "@Selknam"), (call_script, "script_add_faction", government_type_tribal_union, faction_selknam),
 
 # parameters that are dependant on starting date
     (try_begin),

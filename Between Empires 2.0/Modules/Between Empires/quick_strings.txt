@@ -1,4 +1,4 @@
-819
+822
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -818,3 +818,6 @@ qstr_provinces_manufactur provinces_manufacturers
 qstr_provinces_supply_cha provinces_supply_chains_in
 qstr_provinces_supply_chai provinces_supply_chains_out
 qstr_provinces_rural_reso provinces_rural_resource_bonuses
+qstr_Mapuche_Confederatio Mapuche_Confederation
+qstr_Tehuelche_Tribes Tehuelche_Tribes
+qstr_Selknam_Tribes Selknam_Tribes
