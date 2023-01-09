@@ -1291,4 +1291,5 @@ scene_props = [
 ("province1143",0,"province1143","0",[]),
 ("province1144",0,"province1144","0",[]),
 ("province1145",0,"province1145","0",[]),
+("province1146",0,"province1146","0",[]),
 ]

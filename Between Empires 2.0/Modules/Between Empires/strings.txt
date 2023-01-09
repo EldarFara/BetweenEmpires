@@ -1,5 +1,5 @@
 stringsfile version 1
-1171
+1172
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -1171,3 +1171,4 @@ str_province1142 province1142
 str_province1143 province1143
 str_province1144 province1144
 str_province1145 province1145
+str_province1146 province1146
