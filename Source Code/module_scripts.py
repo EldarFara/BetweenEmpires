@@ -2566,6 +2566,16 @@ scripts = [
     (position_get_x, reg0, pos1),
     (position_get_y, reg1, pos1),
     (display_message, "@{reg0}, {reg1}"),
+
+(array_save_file, "$globals", "@globals"),
+(array_save_file, "$factions", "@factions"),
+(array_save_file, "$factions_strings", "@factions_strings"),
+(array_save_file, "$provinces", "@provinces"),
+(array_save_file, "$provinces_borders", "@provinces_borders"),
+(array_save_file, "$provinces_manufacturers", "@provinces_manufacturers"),
+(array_save_file, "$provinces_supply_chains_in", "@provinces_supply_chains_in"),
+(array_save_file, "$provinces_supply_chains_out", "@provinces_supply_chains_out"),
+(array_save_file, "$provinces_rural_resource_bonuses", "@provinces_rural_resource_bonuses"),
     (try_end),
 ]),
 ("world_map_camera_movement_5ms", [

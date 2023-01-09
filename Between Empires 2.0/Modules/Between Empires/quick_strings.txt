@@ -1,4 +1,4 @@
-810
+819
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -809,3 +809,12 @@ qstr_faction_color_tehuel faction_color_tehuelche
 qstr_Selknam Selknam
 qstr_faction_flag_selknam faction_flag_selknam
 qstr_faction_color_selkna faction_color_selknam
+qstr_globals globals
+qstr_factions factions
+qstr_factions_strings factions_strings
+qstr_provinces provinces
+qstr_provinces_borders provinces_borders
+qstr_provinces_manufactur provinces_manufacturers
+qstr_provinces_supply_cha provinces_supply_chains_in
+qstr_provinces_supply_chai provinces_supply_chains_out
+qstr_provinces_rural_reso provinces_rural_resource_bonuses
