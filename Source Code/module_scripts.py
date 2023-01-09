@@ -1085,7 +1085,27 @@ scripts = [
     (array_set_val, "$factions", 840000, faction_paraguay, faction_population),
     (array_set_val, "$factions", 10.4*10000, faction_paraguay, faction_literacy),
     (array_set_val, "$factions", 8.3*10000, faction_paraguay, faction_urbanization),
-
+    (array_set_val, "$factions", 696000, faction_argentina, faction_population),
+    (array_set_val, "$factions", 13.6*10000, faction_argentina, faction_literacy),
+    (array_set_val, "$factions", 7.9*10000, faction_argentina, faction_urbanization),
+    (array_set_val, "$factions", 396000, faction_buenosaires, faction_population),
+    (array_set_val, "$factions", 19.7*10000, faction_buenosaires, faction_literacy),
+    (array_set_val, "$factions", 17.9*10000, faction_buenosaires, faction_urbanization),
+    (array_set_val, "$factions", 50300, faction_uruguay, faction_population),
+    (array_set_val, "$factions", 11.2*10000, faction_uruguay, faction_literacy),
+    (array_set_val, "$factions", 12.6*10000, faction_uruguay, faction_urbanization),
+    (array_set_val, "$factions", 1490000, faction_chile, faction_population),
+    (array_set_val, "$factions", 13.7*10000, faction_chile, faction_literacy),
+    (array_set_val, "$factions", 6.3*10000, faction_chile, faction_urbanization),
+    (array_set_val, "$factions", 108000, faction_mapuche, faction_population),
+    (array_set_val, "$factions", 6.3*10000, faction_mapuche, faction_literacy),
+    (array_set_val, "$factions", 1.2*10000, faction_mapuche, faction_urbanization),
+    (array_set_val, "$factions", 8800, faction_tehuelche, faction_population),
+    (array_set_val, "$factions", 1.2*10000, faction_tehuelche, faction_literacy),
+    (array_set_val, "$factions", 0, faction_tehuelche, faction_urbanization),
+    (array_set_val, "$factions", 4100, faction_selknam, faction_population),
+    (array_set_val, "$factions", 1*10000, faction_selknam, faction_literacy),
+    (array_set_val, "$factions", 0, faction_selknam, faction_urbanization),
 
 
 
