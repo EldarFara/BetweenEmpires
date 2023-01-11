@@ -1,5 +1,5 @@
 number_of_provinces = 1281
-number_of_factions = 156
+number_of_factions = 169
 
 number_of_factions_parameters = 9
 number_of_factions_strings = 5
@@ -209,6 +209,19 @@ faction_chile           = 152
 faction_mapuche         = 153
 faction_tehuelche       = 154
 faction_selknam         = 155
+faction_cape            = 156
+faction_ors             = 157
+faction_natal           = 158
+faction_transvaal       = 159
+faction_basotho         = 160
+faction_zulu            = 161
+faction_eswatini        = 162
+faction_lydenburg       = 163
+faction_gaza            = 164
+faction_mashona         = 165
+faction_manica          = 166
+faction_rozvi           = 167
+faction_mthwakazi       = 168
 
 global_date_year                                                              = 0
 global_date_day_of_year                                                       = 1
