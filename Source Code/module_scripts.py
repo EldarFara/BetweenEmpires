@@ -2632,9 +2632,10 @@ scripts = [
 (array_create, "$provinces_borders", 0, number_of_provinces, number_of_provinces_borders),
 (array_create, "$provinces_strings", 1, number_of_provinces, number_of_provinces_strings),
 (array_create, "$provinces_manufacturers", 0, number_of_provinces, number_of_resources, 8),
-(array_create, "$provinces_supply_chains_in", 0, number_of_provinces, number_of_resources, 1),
-(array_create, "$provinces_supply_chains_out", 0, number_of_provinces, number_of_resources, 1),
+(array_create, "$provinces_supply_chains_in", 0, number_of_provinces, number_of_resources),
+(array_create, "$provinces_supply_chains_out", 0, number_of_provinces, number_of_resources),
 (array_create, "$provinces_rural_resource_bonuses", 0, number_of_provinces, number_of_rural_resources),
+(array_create, "$provinces_transportation_cost", 0, number_of_provinces, number_of_provinces),
 
 (array_set_val_all, "$globals", -1),
 (array_set_val_all, "$factions", -1),
