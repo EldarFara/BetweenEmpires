@@ -1,5 +1,5 @@
 number_of_provinces = 1281
-number_of_factions = 169
+number_of_factions = 181
 
 number_of_factions_parameters = 9
 number_of_factions_strings = 5
@@ -222,6 +222,18 @@ faction_mashona         = 165
 faction_manica          = 166
 faction_rozvi           = 167
 faction_mthwakazi       = 168
+faction_lega            = 169
+faction_kazembe         = 170
+faction_kuba            = 171
+faction_luba            = 172
+faction_lunda           = 173
+faction_anziku          = 174
+faction_orungu          = 175
+faction_loango          = 176
+faction_kakongo         = 177
+faction_kasanze         = 178
+faction_kongo           = 179
+faction_makua           = 180
 
 global_date_year                                                              = 0
 global_date_day_of_year                                                       = 1
