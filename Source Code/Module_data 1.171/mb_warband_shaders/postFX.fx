@@ -6,8 +6,8 @@
 //#define ENABLE_EDITOR
 //#define USE_CHARACTER_SHADOW_MERGE
 
-float4 output_gamma = float4(2.2f, 2.2f, 2.2f, 2.2f);	//str_todo: vectorize
-float4 output_gamma_inv = float4(1.0f / 2.2f, 1.0f / 2.2f, 1.0f / 2.2f, 1.0f / 2.2f);
+float4 output_gamma;	// vectorize?
+float4 output_gamma_inv;
 
 static const float3 LUMINANCE_WEIGHTS = float3(0.299f, 0.587f, 0.114f);
 static const float min_exposure = 0.15f;
@@ -275,7 +275,7 @@ float4 ps_main_brightPass(uniform const bool with_luminance, float2 inTex: TEXCO
 		color.rgb = max(0.0f, color.rgb - BrightpassTreshold);
 		/*color.rgb = pow(color.rgb, BrightpassPostPower);
 		*/
-		float intensity = dot(color.rgb, float3(.1f, .1f, .1f));
+		float intensity = dot(color.rgb, float3(.5f, .5f, .5f));
 		float bloom_intensity = pow(intensity, BrightpassPostPower);
 		color.rgb = color.rgb * ( bloom_intensity/intensity );
 	}
@@ -283,12 +283,6 @@ float4 ps_main_brightPass(uniform const bool with_luminance, float2 inTex: TEXCO
 	{
 		color.rgb = max(0.0f, color.rgb - BrightpassTreshold);
 		color.rgb = pow(color.rgb, BrightpassPostPower);
-	}
-	
-	if(dot(color.rgb, color.rgb) > 1000) 
-	{
-		//avoid invalid flashes due to fp calc for nvidia cards..
-		color.rgb = float3(0, 0, 0);
 	}
 	
 	//we use interger format, turn back to normalized range
@@ -678,7 +672,6 @@ technique postFX_final_1_1_0{	pass P0	{   VertexShader = vs_main_postFX_compiled
 technique postFX_final_1_2_0{	pass P0	{   VertexShader = vs_main_postFX_compiled;		PixelShader = compile PS_2_X FinalScenePassPS(  true, 2, false);	} }
 technique postFX_final_1_1_1{	pass P0	{   VertexShader = vs_main_postFX_compiled;		PixelShader = compile PS_2_X FinalScenePassPS(  true, 1, true);	} }
 technique postFX_final_1_2_1{	pass P0	{   VertexShader = vs_main_postFX_compiled;		PixelShader = compile PS_2_X FinalScenePassPS(  true, 2, true);	} }
+                                                                                                                                                 
 
-#if WSE2
-#include "postFX_WSE2.fx"
-#endif
+//Recycle Bin: 
