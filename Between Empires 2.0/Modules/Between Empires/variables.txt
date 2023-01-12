@@ -146,3 +146,4 @@ ui_province_urbanization_icon
 provinces_rural_resource_bonuses
 provinces_supply_chains_in
 provinces_supply_chains_out
+provinces_transportation_cost
