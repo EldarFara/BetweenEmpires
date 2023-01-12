@@ -1,5 +1,5 @@
 number_of_provinces = 1281
-number_of_factions = 181
+number_of_factions = 188
 
 number_of_factions_parameters = 9
 number_of_factions_strings = 5
@@ -233,6 +233,14 @@ faction_kakongo         = 176
 faction_kasanze         = 177
 faction_kongo           = 178
 faction_makua           = 179
+faction_ovimbundu       = 180
+faction_barotse         = 181
+faction_griqualand      = 182
+faction_bemba           = 183
+faction_nama            = 184
+faction_tswana          = 185
+faction_chokwe          = 186
+faction_herero          = 187
 
 global_date_year                                                              = 0
 global_date_day_of_year                                                       = 1
