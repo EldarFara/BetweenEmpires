@@ -1,5 +1,5 @@
 number_of_provinces = 1281
-number_of_factions = 188
+number_of_factions = 205
 
 number_of_factions_parameters = 9
 number_of_factions_strings = 5
@@ -241,6 +241,23 @@ faction_nama            = 184
 faction_tswana          = 185
 faction_chokwe          = 186
 faction_herero          = 187
+faction_fang            = 188
+faction_bobangi         = 189
+faction_daralkuti       = 190
+faction_bangala         = 191
+faction_azande          = 192
+faction_mangbetu        = 193
+faction_acholi          = 194
+faction_buganda         = 195
+faction_bunyoro         = 196
+faction_karagwe         = 197
+faction_ankole          = 198
+faction_gogo            = 199
+faction_sangu           = 200
+faction_hehe            = 201
+faction_nyamwezi        = 202
+faction_ngoyo           = 203
+faction_yao             = 204
 
 global_date_year                                                              = 0
 global_date_day_of_year                                                       = 1
