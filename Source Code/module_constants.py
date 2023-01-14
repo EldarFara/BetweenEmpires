@@ -1,15 +1,17 @@
-number_of_provinces = 1281
 number_of_factions = 205
+number_of_provinces = 1281
+number_of_sea_provinces = 17
 
+number_of_global_parameters = 7
 number_of_factions_parameters = 9
 number_of_factions_strings = 5
 number_of_provinces_parameters = 22
 number_of_provinces_strings = 1
 number_of_provinces_borders = 10
-number_of_global_parameters = 7
+number_of_sea_provinces_parameters = 11
 
 number_of_rural_resources = 8
-number_of_resources = 24
+number_of_resources = 27
 
 faction_population                                                            = 0
 faction_urbanization                                                          = 1
@@ -51,6 +53,14 @@ province_core4                                                                = 
 province_core5                                                                = 21
 
 province_string_name                                                          = 0
+
+sea_province_x                                                                = 0
+sea_province_y                                                                = 1
+sea_province_size                                                             = 2
+sea_province_index_overlay                                                    = 3
+sea_province_name_overlay                                                     = 4
+
+sea_province_string_name                                                      = 0
 
 no_faction              = -1
 faction_france          = 0
@@ -312,23 +322,26 @@ resource_iron = 1
 resource_coal = 2
 resource_wood = 3
 resource_cotton = 4
-resource_opium = 5
-resource_rubber = 6
-resource_oil = 7
+resource_rubber = 5
+resource_oil = 6
+resource_opium = 7
+resource_tea = 8
+resource_coffee = 9
+resource_tobacco = 10
 
-resource_militarygoods = 8
-resource_fabric = 9
-resource_clothes = 10
-resource_furniture = 11
-resource_paper = 12
-resource_lumber = 13
-resource_steel = 14
-resource_machineparts = 15
-resource_alcohol = 16
-resource_motors = 17
-resource_trains = 18
-resource_automobiles = 19
-resource_electricity = 20
-resource_electricgear = 21
-resource_radios = 22
-resource_telephones = 23
+resource_militarygoods = 11
+resource_fabric = 12
+resource_clothes = 13
+resource_furniture = 14
+resource_paper = 15
+resource_lumber = 16
+resource_steel = 17
+resource_machineparts = 18
+resource_alcohol = 19
+resource_motors = 20
+resource_trains = 21
+resource_automobiles = 22
+resource_electricity = 23
+resource_electricgear = 24
+resource_radios = 25
+resource_telephones = 26
