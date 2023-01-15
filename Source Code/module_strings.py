@@ -1330,4 +1330,10 @@ strings = [
 ("province1278","province1278"),
 ("province1279","province1279"),
 ("province1280","province1280"),
+("province1281","province1281"),
+("province1282","province1282"),
+("province1283","province1283"),
+("province1284","province1284"),
+("province1285","province1285"),
+("province1286","province1286"),
 ]

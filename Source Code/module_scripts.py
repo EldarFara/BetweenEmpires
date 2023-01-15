@@ -2453,6 +2453,13 @@ scripts = [
 (call_script, "script_add_province", 1278, 52949, 15097, faction_herero, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 1279, 52103, 14324, faction_herero, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 1280, 97171, 21195, faction_papua, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1281, 49826, 24456, faction_spain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1282, 49087, 23161, faction_portugal, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1283, 38597, 29087, faction_portugal, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1284, 41277, 34335, faction_spain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1285, 41266, 36115, faction_portugal, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1286, 37781, 38416, faction_portugal, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+
 
 # Index, X, Y, size, 5 borders
 (call_script, "script_add_sea_province", 0, 52747, 45160, 10, 1, -1, -1, -1, -1),
