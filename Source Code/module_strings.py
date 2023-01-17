@@ -1336,6 +1336,12 @@ strings = [
 ("province1284","province1284"),
 ("province1285","province1285"),
 ("province1286","province1286"),
+("province1287","province1287"),
+("province1288","province1288"),
+("province1289","province1289"),
+("province1290","province1290"),
+("province1291","province1291"),
+("province1292","province1292"),
 
 
 ("sea_province0","Beaufort Sea"),
