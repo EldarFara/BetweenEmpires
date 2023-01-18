@@ -1,5 +1,5 @@
 stringsfile version 1
-1403
+1407
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -1318,6 +1318,10 @@ str_province1289 province1289
 str_province1290 province1290
 str_province1291 province1291
 str_province1292 province1292
+str_province1293 province1293
+str_province1294 province1294
+str_province1295 province1295
+str_province1296 province1296
 str_sea_province0 Beaufort_Sea
 str_sea_province1 Labrador_Sea
 str_sea_province2 North_Atlantic_Ocean

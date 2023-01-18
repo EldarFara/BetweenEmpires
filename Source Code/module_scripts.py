@@ -2465,6 +2465,10 @@ scripts = [
 (call_script, "script_add_province", 1290, 51985, 52847, faction_sweden, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 1291, 60304, 53546, faction_russia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 1292, 102408, 43586, faction_russia, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1293, 53065, 46771, faction_sweden, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1294, 52734, 45764, faction_sweden, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1295, 79144, 28080, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 1296, 72193, 24275, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 
 # Index, X, Y, size, 5 borders
 (call_script, "script_add_sea_province", 0, 16690, 51655, 40, 84, 75, 76, -1, -1, -1),

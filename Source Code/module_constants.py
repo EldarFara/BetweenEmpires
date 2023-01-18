@@ -1,5 +1,5 @@
 number_of_factions = 205
-number_of_provinces = 1293
+number_of_provinces = 1297
 number_of_sea_provinces = 85
 
 number_of_global_parameters = 7

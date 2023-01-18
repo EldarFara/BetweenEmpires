@@ -1319,3 +1319,7 @@ spr_province1289 = 1317
 spr_province1290 = 1318
 spr_province1291 = 1319
 spr_province1292 = 1320
+spr_province1293 = 1321
+spr_province1294 = 1322
+spr_province1295 = 1323
+spr_province1296 = 1324
