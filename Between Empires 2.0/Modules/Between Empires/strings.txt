@@ -848,8 +848,8 @@ str_province819 Yanshan
 str_province820 Wuhan
 str_province821 Xuancheng
 str_province822 Huangshan
-str_province823 province823
-str_province824 province824
+str_province823 Liangshan_Yi
+str_province824 Zhanjiang
 str_province825 Shangrao
 str_province826 Kaohsiung
 str_province827 Zherong
