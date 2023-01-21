@@ -3743,6 +3743,7 @@ scripts = [
 (array_set_val, "$provinces_rural_resource_bonuses", 140, 10, resource_coal),
 (array_set_val, "$provinces_rural_resource_bonuses", 100, 11, resource_coal),
 (array_set_val, "$provinces_rural_resource_bonuses", 200, 20, resource_coal),
+(array_set_val, "$provinces_rural_resource_bonuses", 140, 22, resource_coal),
 (array_set_val, "$provinces_rural_resource_bonuses", 140, 24, resource_coal),
 (array_set_val, "$provinces_rural_resource_bonuses", 175, 46, resource_coal),
 (array_set_val, "$provinces_rural_resource_bonuses", 200, 48, resource_coal),
