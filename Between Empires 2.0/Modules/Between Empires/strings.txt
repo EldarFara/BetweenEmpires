@@ -1207,11 +1207,11 @@ str_province1178 Tshopo
 str_province1179 Lower_Uele
 str_province1180 East_Tshopo
 str_province1181 Upper_Uele
-str_province1182 North_Kivu
+str_province1182 Ituri
 str_province1183 Acholi
 str_province1184 Kampala
 str_province1185 Hoima
-str_province1186 South_Kivu
+str_province1186 North_Kivu
 str_province1187 Rwanda-Burundi
 str_province1188 Kagera
 str_province1189 Kigoma
