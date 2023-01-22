@@ -3845,6 +3845,7 @@ scripts = [
 (array_set_val, "$provinces_rural_resource_bonuses", 180, 161, resource_cereals),
 (array_set_val, "$provinces_rural_resource_bonuses", 180, 162, resource_cereals),
 (array_set_val, "$provinces_rural_resource_bonuses", 180, 163, resource_cereals),
+(array_set_val, "$provinces_rural_resource_bonuses", 120, 164, resource_cereals),
 (array_set_val, "$provinces_rural_resource_bonuses", 90, 165, resource_coal),
 (array_set_val, "$provinces_rural_resource_bonuses", 120, 166, resource_cereals),
 (array_set_val, "$provinces_rural_resource_bonuses", 180, 166, resource_coal),
@@ -3965,7 +3966,13 @@ scripts = [
 (array_set_val, "$provinces_rural_resource_bonuses", 90, 319, resource_iron),
 (array_set_val, "$provinces_rural_resource_bonuses", 180, 320, resource_cereals),
 (array_set_val, "$provinces_rural_resource_bonuses", 100, 334, resource_iron),
+(array_set_val, "$provinces_rural_resource_bonuses", 130, 366, resource_cereals),
+(array_set_val, "$provinces_rural_resource_bonuses", 140, 370, resource_cereals),
 (array_set_val, "$provinces_rural_resource_bonuses", 120, 371, resource_coal),
+(array_set_val, "$provinces_rural_resource_bonuses", 180, 372, resource_cereals),
+(array_set_val, "$provinces_rural_resource_bonuses", 120, 374, resource_cereals),
+(array_set_val, "$provinces_rural_resource_bonuses", 120, 375, resource_cereals),
+(array_set_val, "$provinces_rural_resource_bonuses", 180, 398, resource_cereals),
 ]),
 
 # Returns string containing population in thousands or millions
