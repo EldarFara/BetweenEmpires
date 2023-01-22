@@ -326,7 +326,7 @@ strings = [
 ("province274", "Chelyabinsk"),
 ("province275", "Kurgan"),
 ("province276", "Omsk"),
-("province277", "Nizhnevartovskiy"),
+("province277", "Surgut"),
 ("province278", "Nadym-Krasnoselkupskiy"),
 ("province279", "Tazovskiy"),
 ("province280", "Taymyr"),

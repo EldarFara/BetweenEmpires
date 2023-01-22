@@ -302,7 +302,7 @@ str_province273 Yekaterinburg
 str_province274 Chelyabinsk
 str_province275 Kurgan
 str_province276 Omsk
-str_province277 Nizhnevartovskiy
+str_province277 Surgut
 str_province278 Nadym-Krasnoselkupskiy
 str_province279 Tazovskiy
 str_province280 Taymyr
