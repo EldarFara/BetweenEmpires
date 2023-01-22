@@ -103,3 +103,4 @@ script_get_population_string_for_value = 101
 script_get_literacy_string_for_value = 102
 script_get_date_string = 103
 script_get_date_string_number_ending = 104
+script_calculate_province_transportation_cost = 105

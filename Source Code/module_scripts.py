@@ -2794,6 +2794,23 @@ scripts = [
 (array_set_val_all, "$provinces_supply_chains_out", -1),
 (array_set_val_all, "$provinces_rural_resource_bonuses", -1),
 (array_set_val_all, "$sea_provinces", -1),
+
+(store_application_time, ":application_time1"),
+(array_save_file, "$globals", "@globals"),
+(array_save_file, "$factions", "@factions"),
+(array_save_file, "$factions_strings", "@factions_strings"),
+(array_save_file, "$provinces", "@provinces"),
+(array_save_file, "$provinces_borders", "@provinces_borders"),
+(array_save_file, "$provinces_strings", "@provinces_strings"),
+(array_save_file, "$provinces_manufacturers", "@provinces_manufacturers"),
+(array_save_file, "$provinces_supply_chains_in", "@provinces_supply_chains_in"),
+(array_save_file, "$provinces_supply_chains_out", "@provinces_supply_chains_out"),
+(array_save_file, "$provinces_rural_resource_bonuses", "@provinces_rural_resource_bonuses"),
+(array_save_file, "$sea_provinces", "@sea_provinces"),
+(array_save_file, "$provinces_transportation_cost", "@provinces_transportation_cost"),
+(store_application_time, ":application_time2"),
+(store_sub, reg0, ":application_time2", ":application_time1"),
+(display_message, "@{reg0}"),
 ]),
 
 # Sets 0 to faction_is_active if faction doesnt have owned provinces, otherwise sets 1
@@ -4276,6 +4293,12 @@ scripts = [
     (else_try),
     (sss, s60, "@th"),
     (try_end),
+]),
+
+# Calculates transportation costs of specified province to all other provinces
+("calculate_province_transportation_cost", [
+(store_script_param, ":province", 1),
+
 ]),
 
 ]
