@@ -2589,6 +2589,7 @@ scripts = [
     (try_end),
 
 (call_script, "script_initialize_provinces_parameters"),
+(call_script, "script_initialize_distances_to_nearest_coastal_provinces"),
 
 ]),
 
@@ -2618,8 +2619,8 @@ scripts = [
 (array_set_val, "$provinces", ":x", ":index", province_x),
 (array_set_val, "$provinces", ":y", ":index", province_y),
 (array_set_val, "$provinces", ":owner_faction", ":index", province_owner),
-(array_set_val, "$provinces", ":sea_province1", ":index", province_bordering_sea_province1),
-(array_set_val, "$provinces", ":sea_province2", ":index", province_bordering_sea_province2),
+(array_set_val, "$provinces", ":sea_province1", ":index", province_bordering_sea_province2),
+(array_set_val, "$provinces", ":sea_province2", ":index", province_bordering_sea_province1),
 (array_set_val, "$provinces", ":terrain", ":index", province_terrain),
 # Adding a bit of random to multipliers
 (set_random_seed, ":index"),
@@ -2789,28 +2790,15 @@ scripts = [
 (array_set_val_all, "$globals", -1),
 (array_set_val_all, "$factions", -1),
 (array_set_val_all, "$provinces", -1),
+(array_set_val_all, "$provinces_borders", -1),
 (array_set_val_all, "$provinces_manufacturers", -1),
 (array_set_val_all, "$provinces_supply_chains_in", -1),
 (array_set_val_all, "$provinces_supply_chains_out", -1),
 (array_set_val_all, "$provinces_rural_resource_bonuses", -1),
 (array_set_val_all, "$sea_provinces", -1),
 
-(store_application_time, ":application_time1"),
-(array_save_file, "$globals", "@globals"),
-(array_save_file, "$factions", "@factions"),
-(array_save_file, "$factions_strings", "@factions_strings"),
-(array_save_file, "$provinces", "@provinces"),
-(array_save_file, "$provinces_borders", "@provinces_borders"),
-(array_save_file, "$provinces_strings", "@provinces_strings"),
-(array_save_file, "$provinces_manufacturers", "@provinces_manufacturers"),
-(array_save_file, "$provinces_supply_chains_in", "@provinces_supply_chains_in"),
-(array_save_file, "$provinces_supply_chains_out", "@provinces_supply_chains_out"),
-(array_save_file, "$provinces_rural_resource_bonuses", "@provinces_rural_resource_bonuses"),
-(array_save_file, "$sea_provinces", "@sea_provinces"),
-(array_save_file, "$provinces_transportation_cost", "@provinces_transportation_cost"),
-(store_application_time, ":application_time2"),
-(store_sub, reg0, ":application_time2", ":application_time1"),
-(display_message, "@{reg0}"),
+# (store_application_time, "$application_time1"),
+# (call_script, "script_profile"),
 ]),
 
 # Sets 0 to faction_is_active if faction doesnt have owned provinces, otherwise sets 1
@@ -4417,10 +4405,101 @@ scripts = [
     (try_end),
 ]),
 
-# Calculates transportation costs of specified province to all other provinces
+# Calculates transportation costs of specified province to all other provinces with index above it
 ("calculate_province_transportation_cost", [
-(store_script_param, ":province", 1),
+(store_script_param, ":province1", 1),
 
+(store_application_time, "$application_time1"),
+
+# Save all nearest provinces within 3 province gap in array
+(array_create, ":nearest_provinces", 0, 0, 2),
+    (try_for_range, ":unused", 0, 3),
+        (try_for_range, ":index", 0, number_of_provinces_borders),
+            (try_begin),
+            (array_eq, "$provinces_borders", -1, ":province1", ":index"),
+            (break_loop),
+            (try_end),
+        (try_end),
+    (try_end),
+
+(store_add, ":start_index", ":province1", 1),
+    (try_for_range, ":province2", ":start_index", number_of_provinces),
+    
+    (try_end),
+    
+(call_script, "script_profile"),
 ]),
+
+# Calculates distance to nearest coastal province for all provinces
+("initialize_distances_to_nearest_coastal_provinces", [
+(dict_create, ":nearest_provinces"), # all processed provinces, i. e. all provinces near province1 + province1 itself
+(array_create, ":next_provinces_ring", 0, 0), # "ring of provinces" around all processed provinces
+    (try_for_range, ":province1", 0, 1),
+        (try_begin),
+        (neg|array_eq, "$provinces", -1, ":province1", province_bordering_sea_province2),
+        (array_set_val, "$provinces", 0, ":province1", province_distance_to_nearest_coastal_province),
+        (continue_loop),
+        (try_end),
+    (dict_clear, ":nearest_provinces"),
+    (assign, reg0, ":province1"), (dict_set_int, ":nearest_provinces", "@{reg0}", 1),
+    # First, add all provinces bordering province1 to ring array and to dict (nearest_provinces)
+        (try_for_range, ":index", 0, number_of_provinces_borders),
+            (try_begin),
+            (array_eq, "$provinces_borders", -1, ":province1", ":index"),
+            (break_loop),
+            (try_end),
+        (array_get_val, ":province2", "$provinces_borders", ":province1", ":index"),
+        (assign, reg0, ":province2"), (dict_set_int, ":nearest_provinces", "@{reg0}", 1),
+        (array_push, ":next_provinces_ring", ":province2"),
+        (try_end),
+    # Next, add 2 next rings of provinces to dict
+        (try_for_range, ":unused", 0, 2),
+        (array_copy, ":current_provinces_ring", ":next_provinces_ring"),
+        (array_free, ":next_provinces_ring"), (array_create, ":next_provinces_ring", 0, 0),
+        (array_get_dim_size, ":size_current_provinces_ring", ":current_provinces_ring", 0),
+            (try_for_range, ":index_current_provinces_ring", 0, ":size_current_provinces_ring"),
+            (array_get_val, ":curvalue_current_provinces_ring", ":current_provinces_ring", ":index_current_provinces_ring"),
+                (try_for_range, ":index", 0, number_of_provinces_borders),
+                    (try_begin),
+                    (array_eq, "$provinces_borders", -1, ":curvalue_current_provinces_ring", ":index"),
+                    (break_loop),
+                    (try_end),
+                (array_get_val, ":province2", "$provinces_borders", ":province1", ":index"),
+                    (try_begin),
+                    (assign, reg0, ":province2"), (neg|dict_has_key, ":nearest_provinces", "@{reg0}"),
+                    (dict_set_int, ":nearest_provinces", "@{reg0}", 1),
+                    (array_push, ":next_provinces_ring", ":province2"),
+                    (try_end),
+                (try_end),
+            (try_end),
+        (try_end),
+    # Now remove province1 from dict and find closest coastal province to province1
+    (assign, reg0, ":province1"), (dict_erase, ":nearest_provinces", "@{reg0}"),
+    # (display_message, "@{reg0}"),
+        # (try_for_dict_keys, s1, ":nearest_provinces"),
+        # (assign, reg0, ":province1"),
+        # (dict_get_int, reg1, ":nearest_provinces", s1),
+        # (display_message, "@{reg0} {s1}"),
+        # (try_end),
+    (try_end),
+(dict_free, ":nearest_provinces"),
+]),
+
+# Displays how many ms have passed since last store_application_time call
+("profile", [
+(store_application_time, ":application_time2"),
+(store_sub, reg0, ":application_time2", "$application_time1"),
+(display_message, "@profiling result {reg0}"),
+]),
+
+# Deletes all elements of a 1D array
+("array_clear", [
+(store_script_param, ":array", 1),
+(array_get_dim_size, ":size_array", ":array", 0),
+    (try_for_range, ":index", 0, ":size_array"),
+    (array_pop, ":unused", ":array"),
+    (try_end),
+]),
+
 
 ]

@@ -5,7 +5,7 @@ number_of_sea_provinces = 85
 number_of_global_parameters = 7
 number_of_factions_parameters = 9
 number_of_factions_strings = 5
-number_of_provinces_parameters = 23
+number_of_provinces_parameters = 24
 number_of_provinces_strings = 1
 number_of_provinces_borders = 10
 number_of_sea_provinces_parameters = 11
@@ -52,6 +52,7 @@ province_core2                                                                = 
 province_core3                                                                = 20
 province_core4                                                                = 21
 province_core5                                                                = 22
+province_distance_to_nearest_coastal_province                                 = 23
 
 province_string_name                                                          = 0
 
@@ -346,3 +347,6 @@ resource_electricity = 23
 resource_electricgear = 24
 resource_radios = 25
 resource_telephones = 26
+
+nearest_provinces_province_index = 0
+nearest_provinces_distance       = 1
