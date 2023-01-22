@@ -10,7 +10,7 @@ number_of_provinces_strings = 1
 number_of_provinces_borders = 10
 number_of_sea_provinces_parameters = 11
 
-number_of_rural_resources = 8
+number_of_rural_resources = 9
 number_of_resources = 27
 
 faction_population                                                            = 0

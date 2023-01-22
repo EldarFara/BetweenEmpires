@@ -104,3 +104,6 @@ script_get_literacy_string_for_value = 102
 script_get_date_string = 103
 script_get_date_string_number_ending = 104
 script_calculate_province_transportation_cost = 105
+script_initialize_distances_to_nearest_coastal_provinces = 106
+script_profile = 107
+script_array_clear = 108
