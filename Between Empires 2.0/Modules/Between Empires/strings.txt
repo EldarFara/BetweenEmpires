@@ -105,7 +105,7 @@ str_province76 Calabria
 str_province77 Sicily
 str_province78 Tuscany
 str_province79 Baden-Wurttemberg
-str_province80 North_Rhineland
+str_province80 Ruhr
 str_province81 Westphalia
 str_province82 Hesse
 str_province83 Lower_Saxony
@@ -182,8 +182,8 @@ str_province153 Crete
 str_province154 Rhodes
 str_province155 Oltenia
 str_province156 Muntenia
-str_province157 South_Moldova
-str_province158 North_Moldova
+str_province157 Bacau
+str_province158 Iasi
 str_province159 North_Dobruja
 str_province160 South_Dobruja
 str_province161 Bessarabia
