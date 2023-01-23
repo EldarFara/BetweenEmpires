@@ -906,7 +906,7 @@ strings = [
 ("province854","Turkana"),
 ("province855","Nyanza"),
 ("province856","Nairobi"),
-("province857","Marsabil"),
+("province857","Marsabit"),
 ("province858","Meru"),
 ("province859","Garissa"),
 ("province860","Mombasa"),

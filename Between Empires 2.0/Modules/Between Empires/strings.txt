@@ -882,7 +882,7 @@ str_province853 Socotra
 str_province854 Turkana
 str_province855 Nyanza
 str_province856 Nairobi
-str_province857 Marsabil
+str_province857 Marsabit
 str_province858 Meru
 str_province859 Garissa
 str_province860 Mombasa
