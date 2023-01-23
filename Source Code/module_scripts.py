@@ -5121,7 +5121,7 @@ scripts = [
 (array_set_val, "$provinces_rural_resource_bonuses", 130, 1028, resource_wood),
 (array_set_val, "$provinces_rural_resource_bonuses", 135, 1029, resource_wood),
 (array_set_val, "$provinces_rural_resource_bonuses", 125, 1031, resource_wood),
-(array_set_val, "$provinces_rural_resource_bonuses", 100, 1031, resource_oil),
+(array_set_val, "$provinces_rural_resource_bonuses", 150, 1031, resource_oil),
 (array_set_val, "$provinces_rural_resource_bonuses", 100, 1034, resource_cotton),
 (array_set_val, "$provinces_rural_resource_bonuses", 100, 1034, resource_coffee),
 (array_set_val, "$provinces_rural_resource_bonuses", 140, 1036, resource_rubber),
