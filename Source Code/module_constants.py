@@ -307,6 +307,7 @@ terrain_tropical_forest          = 14
 terrain_tropical_forest_dense    = 15
 terrain_marshes                  = 16
 terrain_savanna                  = 17
+terrain_tropical_island          = 18
 
 province_control_type_core              = 0
 province_control_type_noncore           = 1
