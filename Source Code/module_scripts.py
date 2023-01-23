@@ -2654,7 +2654,7 @@ scripts = [
     (try_end),
 
 (call_script, "script_initialize_provinces_parameters"),
-(call_script, "script_initialize_distances_to_nearest_coastal_provinces"),
+#(call_script, "script_initialize_distances_to_nearest_coastal_provinces"),
 
 ]),
 
@@ -2862,6 +2862,8 @@ scripts = [
 (array_set_val_all, "$provinces_rural_resource_bonuses", -1),
 (array_set_val_all, "$sea_provinces", -1),
 
+(assign, "$prop_world_map_base", -1),
+
 # (store_application_time, "$application_time1"),
 # (call_script, "script_profile"),
 ]),
@@ -2906,8 +2908,9 @@ scripts = [
 (init_position, pos1),
 (set_spawn_position, pos1),
 (spawn_scene_prop, "spr_world_map_base"),
+(assign, "$prop_world_map_base", reg0),
 
-(position_move_z, pos1, 30, 1),
+(position_move_z, pos1, 10, 1),
 (set_spawn_position, pos1),
     (try_for_range, ":province", 0, number_of_provinces),
     (store_add, ":prop_type", "spr_province0", ":province"),
@@ -2969,6 +2972,15 @@ scripts = [
     (position_get_x, reg0, pos1),
     (position_get_y, reg1, pos1),
     (display_message, "@{reg0}, {reg1}"),
+    (try_end),
+    (try_begin), # Lower the world map base prop as much as camera height
+    (neq, "$prop_world_map_base", -1),
+    (init_position, pos1),
+    (mission_cam_get_position, pos2),
+    (position_get_z, ":z", pos2),
+    (val_div, ":z", -350),
+    (position_move_z, pos1, ":z"),
+    (prop_instance_set_position, "$prop_world_map_base", pos1),
     (try_end),
 ]),
 ("world_map_camera_movement_5ms", [
