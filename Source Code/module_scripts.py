@@ -1118,7 +1118,7 @@ scripts = [
     (array_set_val, "$factions", 1981000, faction_ashanti, faction_population),
     (array_set_val, "$factions", 114000, faction_cruzob, faction_population),
     (array_set_val, "$factions", 15.8*10000, faction_cruzob, faction_literacy),
-    (array_set_val, "$factions", 0*10000, faction_cruzob, faction_urbanization)
+    (array_set_val, "$factions", 0*10000, faction_cruzob, faction_urbanization),
     (array_set_val, "$factions", 13000, faction_mosquito, faction_population),
     (array_set_val, "$factions", 17.1*10000, faction_mosquito, faction_literacy),
     (array_set_val, "$factions", 9.3*10000, faction_mosquito, faction_urbanization),
@@ -3743,12 +3743,12 @@ scripts = [
     (try_for_range, ":province", 1147, 1172+1),
     (array_set_val, "$provinces", 1, ":province", province_is_an_object_of_colonisation),
     (array_set_val, "$provinces", 0, ":province", province_urbanization),
-    (array_set_val, "$provinces", 0.5*10000, ":province", province_literacy
+    (array_set_val, "$provinces", 0.5*10000, ":province", province_literacy),
     (try_end),
     (try_for_range, ":province", 1174, 1192+1),
     (array_set_val, "$provinces", 1, ":province", province_is_an_object_of_colonisation),
     (array_set_val, "$provinces", 0, ":province", province_urbanization),
-    (array_set_val, "$provinces", 0.5*10000, ":province", province_literacy
+    (array_set_val, "$provinces", 0.5*10000, ":province", province_literacy),
     (try_end),
     (try_for_range, ":province", 1194, 1199+1),
     (array_set_val, "$provinces", 1, ":province", province_is_an_object_of_colonisation),
@@ -3888,7 +3888,7 @@ scripts = [
 (array_set_val, "$provinces", 0, 1257, province_urbanization),
 (array_set_val, "$provinces", 0.8*10000, 1257, province_literacy),
 (array_set_val, "$provinces", 1*10000, 1258, province_urbanization),
-(array_set_val, "$provinces", 2.1*10000, 1258, province_literacy)
+(array_set_val, "$provinces", 2.1*10000, 1258, province_literacy),
 (array_set_val, "$provinces", 1.3*10000, 1268, province_urbanization),
 (array_set_val, "$provinces", 2.1*10000, 1268, province_literacy),
 (array_set_val, "$provinces", 3.5*10000, 1268, province_urbanization),
