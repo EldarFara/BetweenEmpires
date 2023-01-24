@@ -2626,6 +2626,11 @@ scripts = [
 
 # Initparam multipliers
 # Index, population_multiplier, literacy_multiplier, urbanization_multiplier
+(call_script, "script_province_set_initparams", 64, 200, 155, 125),
+(call_script, "script_province_set_initparams", 72, 180, 150, 190),
+(call_script, "script_province_set_initparams", 74, 200, 130, 100),
+(call_script, "script_province_set_initparams", 80, 185, 100, 150),
+(call_script, "script_province_set_initparams", 92, 155, 110, 250),
 (call_script, "script_province_set_initparams", 107, 105, 125, 105),
 (call_script, "script_province_set_initparams", 108, 248, 150, 200),
 (call_script, "script_province_set_initparams", 109, 178, 115, 115),
