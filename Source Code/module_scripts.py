@@ -5462,18 +5462,19 @@ scripts = [
 ]),
 
 ("test1", [
-# (assign, ":province1", 0),
+#(assign, ":province1", 0),
 # (array_create, ":next_provinces_ring", 0, 0),
-# (array_create, ":current_provinces_ring", 0, 0),
 # (array_push, ":next_provinces_ring", 1),
 # (array_push, ":next_provinces_ring", 2),
 # (array_push, ":next_provinces_ring", 3),
 # (array_push, ":next_provinces_ring", 4),
 # (array_push, ":next_provinces_ring", 5),
 # (array_copy, ":current_provinces_ring", ":next_provinces_ring"),
-# (array_get_dim_size, reg0, ":current_provinces_ring", 0),
-# (array_get_dim_size, reg1, ":next_provinces_ring", 0),
-# (display_message, "@{reg0} {reg1}"),
+# (array_get_val, reg0, ":current_provinces_ring", 0), (array_get_val, reg1, ":next_provinces_ring", 0), (display_message, "@{reg0} {reg1}"),
+# (array_get_val, reg0, ":current_provinces_ring", 1), (array_get_val, reg1, ":next_provinces_ring", 1), (display_message, "@{reg0} {reg1}"),
+# (array_get_val, reg0, ":current_provinces_ring", 2), (array_get_val, reg1, ":next_provinces_ring", 2), (display_message, "@{reg0} {reg1}"),
+# (array_get_val, reg0, ":current_provinces_ring", 3), (array_get_val, reg1, ":next_provinces_ring", 3), (display_message, "@{reg0} {reg1}"),
+# (array_get_val, reg0, ":current_provinces_ring", 4), (array_get_val, reg1, ":next_provinces_ring", 4), (display_message, "@{reg0} {reg1}"),
 ]),
 
 
