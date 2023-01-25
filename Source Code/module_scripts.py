@@ -1224,8 +1224,8 @@ scripts = [
 (call_script, "script_add_province", 0, 49481, 42387, faction_france, 79, 105, 42, 19, 23, 13, 41, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 1, 46335, 42196, faction_france, 2, 3, -1, -1, -1, -1, -1, -1, -1, -1, 5, 21, terrain_plains),
 (call_script, "script_add_province", 2, 47126, 42460, faction_france, 14, 5, 1, 3, -1, -1, -1, -1, -1, -1, -1, 5, terrain_plains),
-(call_script, "script_add_province", 3, 46982, 41908, faction_france, 1, 2, 4, 5, -1, -1, -1, -1, -1, -1, -1, -1, 21, terrain_plains),
-(call_script, "script_add_province", 4, 47126, 41332, faction_france, 3, 5, 6, 7, -1, -1, -1, -1, -1, -1, -1, -1, 21, terrain_plains),
+(call_script, "script_add_province", 3, 46982, 41908, faction_france, 1, 2, 4, 5, -1, -1, -1, -1, -1, -1, -1, 21, terrain_plains),
+(call_script, "script_add_province", 4, 47126, 41332, faction_france, 3, 5, 6, 7, -1, -1, -1, -1, -1, -1, -1, 21, terrain_plains),
 (call_script, "script_add_province", 5, 47774, 41812, faction_france, 2, 3, 4, 7, 12, 14, 17, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 6, 46958, 40756, faction_france, 4, 7, 8, 46, 47, -1, -1, -1, -1, -1, -1, 21, terrain_plains),
 (call_script, "script_add_province", 7, 47966, 41140, faction_france, 4, 5, 6, 8, 9, 11, 12, -1, -1, -1, -1, -1, terrain_plains),
@@ -2772,12 +2772,6 @@ scripts = [
 (store_script_param, ":sea_province1", 15),
 (store_script_param, ":sea_province2", 16),
 (store_script_param, ":terrain", 17),
-
-    (try_begin), # temporary, todo
-(assign, reg0, ":index"),
-(assign, reg1, ":sea_province2"),
-(display_message, "@index {reg0} sea_province2 {reg1}"),
-    (try_end),
 
 (array_set_val, "$provinces", ":x", ":index", province_x),
 (array_set_val, "$provinces", ":y", ":index", province_y),
