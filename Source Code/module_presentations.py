@@ -119,3 +119,46 @@ presentations = [
 ]),
 
 ]
+
+
+# ("test1", [
+# (store_script_param, ":province1", 1),
+
+# (dict_create, ":nearest_provinces"),
+# (array_create, ":next_provinces_ring", 0, 0),
+# (assign, reg0, ":province1"), (dict_set_int, ":nearest_provinces", "@{reg0}", ":province1"),
+# (array_push, ":next_provinces_ring", ":province1"),
+    # (try_for_range, ":unused", 0, 2),
+    # (array_copy, ":current_provinces_ring", ":next_provinces_ring"),
+    # (array_free, ":next_provinces_ring"), (array_create, ":next_provinces_ring", 0, 0),
+    # (array_get_dim_size, ":size_current_provinces_ring", ":current_provinces_ring", 0),
+        # (try_for_range, ":index_current_provinces_ring", 0, ":size_current_provinces_ring"),
+        # (array_get_val, ":province_current_provinces_ring", ":current_provinces_ring", ":index_current_provinces_ring"),
+            # (try_for_range, ":index", 0, number_of_provinces_borders),
+                # (try_begin),
+                # (array_eq, "$provinces_borders", -1, ":province_current_provinces_ring", ":index"),
+                # (break_loop),
+                # (try_end),
+            # (array_get_val, ":province2", "$provinces_borders", ":province_current_provinces_ring", ":index"),
+                # (try_begin),
+                # (assign, reg0, ":province2"), (neg|dict_has_key, ":nearest_provinces", "@{reg0}"),
+                # (dict_set_int, ":nearest_provinces", "@{reg0}", ":province2"),
+                # (array_push, ":next_provinces_ring", ":province2"),
+                # (try_end),
+            # (try_end),
+        # (try_end),
+    # (try_end),
+
+
+    # # (try_for_dict_keys, s1, ":nearest_provinces"),
+    # # (display_message, "@{s1}"),
+    # # (dict_get_int, ":province", ":nearest_provinces", s1, -1),
+    # # (array_get_val, ":prop", "$provinces", ":province", province_prop1),
+    # # (sss, s2, "@rika"),
+    # # (prop_instance_set_material, ":prop", -1, s2),
+    # # (try_end),
+# (dict_free, ":nearest_provinces"),
+# (array_free, ":next_provinces_ring"),
+# (array_free, ":current_provinces_ring"),
+    
+# ]),

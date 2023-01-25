@@ -1,5 +1,5 @@
 stringsfile version 1
-1408
+1418
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -25,6 +25,16 @@ str_cant_use_inventory_now Can't_access_inventory_now.
 str_cant_use_inventory_arena Can't_access_inventory_in_the_arena.
 str_cant_use_inventory_disguised Can't_access_inventory_while_you're_disguised.
 str_cant_use_inventory_tutorial Can't_access_inventory_in_the_training_camp.
+str_color_redtogreen1 color_redtogreen1
+str_color_redtogreen2 color_redtogreen2
+str_color_redtogreen3 color_redtogreen3
+str_color_redtogreen4 color_redtogreen4
+str_color_redtogreen5 color_redtogreen5
+str_color_redtogreen6 color_redtogreen6
+str_color_redtogreen7 color_redtogreen7
+str_color_redtogreen8 color_redtogreen8
+str_color_redtogreen9 color_redtogreen9
+str_color_redtogreen10 color_redtogreen10
 str_province0 Alsace-Moselle
 str_province1 Brittany
 str_province2 Lower_Normandy

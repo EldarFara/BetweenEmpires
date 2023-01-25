@@ -49,6 +49,17 @@ strings = [
   ("cant_use_inventory_disguised", "Can't access inventory while you're disguised."),
   ("cant_use_inventory_tutorial", "Can't access inventory in the training camp."),
   
+("color_redtogreen1", "color_redtogreen1"),
+("color_redtogreen2", "color_redtogreen2"),
+("color_redtogreen3", "color_redtogreen3"),
+("color_redtogreen4", "color_redtogreen4"),
+("color_redtogreen5", "color_redtogreen5"),
+("color_redtogreen6", "color_redtogreen6"),
+("color_redtogreen7", "color_redtogreen7"),
+("color_redtogreen8", "color_redtogreen8"),
+("color_redtogreen9", "color_redtogreen9"),
+("color_redtogreen10", "color_redtogreen10"),
+  
 ("province0", "Alsace-Moselle"),
 ("province1", "Brittany"),
 ("province2", "Lower Normandy"),

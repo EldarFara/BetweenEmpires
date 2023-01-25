@@ -52,7 +52,7 @@ province_core2                                                                = 
 province_core3                                                                = 20
 province_core4                                                                = 21
 province_core5                                                                = 22
-province_distance_to_nearest_coastal_province                                 = 23
+province_distance_to_closest_coastal_province                                 = 23
 
 province_string_name                                                          = 0
 

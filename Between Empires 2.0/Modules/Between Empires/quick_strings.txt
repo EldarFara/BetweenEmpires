@@ -1,4 +1,4 @@
-1039
+1049
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1038,3 +1038,13 @@ qstr_provinces_transporta provinces_transportation_cost
 qstr_profiling_result_{re profiling_result_{reg0}
 qstr_{reg_} {reg)}
 qstr_{reg0}_{reg1}1 {reg0}_{reg1}
+qstr_1_{reg0} 1_{reg0}
+qstr_2_{reg0} 2_{reg0}
+qstr_rika rika
+qstr_1 1
+qstr_sea_province1_{reg0} sea_province1_{reg0}_sea_province2_{reg1}
+qstr_index_{reg0}_sea_pro index_{reg0}_sea_province2_{reg1}
+qstr_index_{reg0}_terrain index_{reg0}_terrain_{reg1}
+qstr_1_minvalue_{reg0}_pr 1_minvalue_{reg0}_provincevalue_{reg1}_maxvalue_{reg2}_grayvalue_{reg3}_
+qstr_2_minvalue_{reg0}_pr 2_minvalue_{reg0}_provincevalue_{reg1}_maxvalue_{reg2}_grayvalue_{reg3}_
+qstr_3_minvalue_{reg0}_pr 3_minvalue_{reg0}_provincevalue_{reg1}_maxvalue_{reg2}_grayvalue_{reg3}_

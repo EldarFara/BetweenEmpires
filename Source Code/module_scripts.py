@@ -494,22 +494,6 @@ scripts = [
 	("game_character_screen_requested",
 	[
 	]),
-	
-("add_troop_to_cur_tableau",
-[
-]),
-("add_troop_to_cur_tableau_for_character",
-[
-]),
-("add_troop_to_cur_tableau_for_inventory",
-[
-]),
-("add_troop_to_cur_tableau_for_profile",
-[
-]),
-("add_troop_to_cur_tableau_for_party",
-[
-]),
 
 #script_wse_window_opened
 # Called each time a window (party/inventory/character) is opened
@@ -1555,7 +1539,7 @@ scripts = [
 (call_script, "script_add_province", 315, 56072, 45433, faction_russia, 239, 206, 198, 242, 316, 317, 240, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 316, 56932, 45454, faction_russia, 317, 315, 242, 241, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 317, 56932, 46210, faction_russia, 240, 315, 316, 241, 255, 256, -1, -1, -1, -1, -1, -1, terrain_plains),
-(call_script, "script_add_province", 318, 57751, 44635, faction_russia, 248, 314, 319, 243, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
+(call_script, "script_add_province", 318, 57751, 44635, faction_russia, 242, 314, 319, 243, -1, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 319, 58255, 44194, faction_russia, 318, 314, 244, 320, 243, -1, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 320, 59389, 43627, faction_russia, 243, 319, 244, 188, 312, 311, 251, 252, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 321, 60239, 40172, faction_russia, 310, 247, 322, -1, -1, -1, -1, -1, -1, -1, -1, 26, terrain_plains),
@@ -2763,7 +2747,6 @@ scripts = [
     (try_end),
 
 (call_script, "script_initialize_provinces_population_literacy_urbanization"),
-(call_script, "script_test1"),
 
 ]),
 
@@ -2789,6 +2772,12 @@ scripts = [
 (store_script_param, ":sea_province1", 15),
 (store_script_param, ":sea_province2", 16),
 (store_script_param, ":terrain", 17),
+
+    (try_begin), # temporary, todo
+(assign, reg0, ":index"),
+(assign, reg1, ":sea_province2"),
+(display_message, "@index {reg0} sea_province2 {reg1}"),
+    (try_end),
 
 (array_set_val, "$provinces", ":x", ":index", province_x),
 (array_set_val, "$provinces", ":y", ":index", province_y),
@@ -3081,6 +3070,9 @@ scripts = [
     (position_get_x, reg0, pos1),
     (position_get_y, reg1, pos1),
     (display_message, "@{reg0}, {reg1}"),
+# (store_application_time, "$application_time1"),
+# (call_script, "script_calculate_provinces_distance_to_closest_coastal_province"),
+# (call_script, "script_profile"),
     (try_end),
     (try_begin), # Lower the world map base prop as much as camera height
     (neq, "$prop_world_map_base", -1),
@@ -3636,6 +3628,7 @@ scripts = [
                     (try_begin),
                     (eq, ":overlay", -1),
                     (assign, reg0, ":province"),
+#(array_get_val, reg0, "$provinces", ":province", province_bordering_sea_province1),
                     (create_text_overlay, ":overlay", "@{reg0}", tf_center_justify|tf_vertical_align_center),
                     (array_set_val, "$provinces", ":overlay", ":province", province_index_overlay),
                     (position_set_x, pos1, 700),
@@ -5603,20 +5596,123 @@ scripts = [
     (try_end),
 ]),
 
-("test1", [
-#(assign, ":province1", 0),
-# (array_create, ":next_provinces_ring", 0, 0),
-# (array_push, ":next_provinces_ring", 1),
-# (array_push, ":next_provinces_ring", 2),
-# (array_push, ":next_provinces_ring", 3),
-# (array_push, ":next_provinces_ring", 4),
-# (array_push, ":next_provinces_ring", 5),
-# (array_copy, ":current_provinces_ring", ":next_provinces_ring"),
-# (array_get_val, reg0, ":current_provinces_ring", 0), (array_get_val, reg1, ":next_provinces_ring", 0), (display_message, "@{reg0} {reg1}"),
-# (array_get_val, reg0, ":current_provinces_ring", 1), (array_get_val, reg1, ":next_provinces_ring", 1), (display_message, "@{reg0} {reg1}"),
-# (array_get_val, reg0, ":current_provinces_ring", 2), (array_get_val, reg1, ":next_provinces_ring", 2), (display_message, "@{reg0} {reg1}"),
-# (array_get_val, reg0, ":current_provinces_ring", 3), (array_get_val, reg1, ":next_provinces_ring", 3), (display_message, "@{reg0} {reg1}"),
-# (array_get_val, reg0, ":current_provinces_ring", 4), (array_get_val, reg1, ":next_provinces_ring", 4), (display_message, "@{reg0} {reg1}"),
+("store_province_position_to_pos", [
+(store_script_param, ":province", 1),
+(store_script_param, ":pos", 2),
+
+(array_get_val, ":x", "$provinces", ":province", province_x),
+(array_get_val, ":y", "$provinces", ":province", province_y),
+(position_set_x, ":pos", ":x"),
+(position_set_y, ":pos", ":y"),
+]),
+
+# Sets province material to color from red to green depending on min value, province value and max value - the closet province value is to max value, the greener color is.
+# If provincevalue equals grayvalue, province material is set to gray
+("set_province_color_redtogreen", [
+(store_script_param, ":province", 1),
+(store_script_param, ":minvalue", 2),
+(store_script_param, ":provincevalue", 3),
+(store_script_param, ":maxvalue", 4),
+(store_script_param, ":grayvalue", 4),
+
+(array_get_val, ":prop", "$provinces", ":province", province_prop1),
+    (try_begin),
+    (neq, ":provincevalue", ":grayvalue"),
+        (try_begin), # if minimum is higher than maximum, swap them
+        (gt, ":minvalue", ":maxvalue"),
+        (assign, ":temp", ":minvalue"),
+        (assign, ":minvalue", ":maxvalue"),
+        (assign, ":maxvalue", ":temp"),
+        (store_sub, ":provincevalue", ":maxvalue", ":provincevalue"),
+        (try_end),
+    (val_clamp, ":provincevalue", ":minvalue", ":maxvalue"),
+        (try_begin), # minimum should always be zero
+        (neq, ":minvalue", 0),
+        (store_sub, ":difference", 0, ":minvalue"),
+        (val_add, ":minvalue", ":difference"),
+        (val_add, ":provincevalue", ":difference"),
+        (val_add, ":maxvalue", ":difference"),
+        (try_end),
+    # provincevalue should become value from 0 to 9
+    (val_mul, ":provincevalue", 10),
+    (val_div, ":provincevalue", ":maxvalue"),
+    (store_add, ":material_string", ":provincevalue", "str_color_redtogreen1"),
+    (try_end),
+    (try_begin),
+    (neq, ":prop", -1),
+        (try_begin),
+        (neq, ":provincevalue", ":grayvalue"),
+        (sss, s10, ":material_string"),
+        (prop_instance_set_material, ":prop", -1, s10),
+        (else_try),
+        (sss, s10, "@solid_gray"),
+        (prop_instance_set_material, ":prop", -1, s10),
+        (try_end),
+    (try_end),
+]),
+
+# Calculates distance to closest coastal province for all provinces, called at game start
+("calculate_provinces_distance_to_closest_coastal_province", [
+(init_position, pos1),
+(init_position, pos2),
+    (try_for_range, ":province1", 0, number_of_provinces),
+        (try_begin),
+        (neg|array_eq, "$provinces", -1, ":province1", province_bordering_sea_province1),
+        (array_set_val, "$provinces", 0, ":province1", province_distance_to_closest_coastal_province),
+        (else_try),
+        (assign, ":done", 0),
+        (assign, ":minimal_distance", 9999999),
+        (dict_create, ":nearest_provinces"),
+        (array_create, ":next_provinces_ring", 0, 0),
+        (array_create, ":current_provinces_ring", 0, 0),
+        (assign, reg0, ":province1"), (dict_set_int, ":nearest_provinces", "@{reg0}", ":province1"),
+        (array_push, ":next_provinces_ring", ":province1"),
+            (try_for_range, ":unused", 0, 4),
+            (eq, ":done", 0),
+            (array_free, ":current_provinces_ring"), (array_copy, ":current_provinces_ring", ":next_provinces_ring"),
+            (array_free, ":next_provinces_ring"), (array_create, ":next_provinces_ring", 0, 0),
+            (array_get_dim_size, ":size_current_provinces_ring", ":current_provinces_ring", 0),
+                (try_for_range, ":index_current_provinces_ring", 0, ":size_current_provinces_ring"),
+                (array_get_val, ":province_current_provinces_ring", ":current_provinces_ring", ":index_current_provinces_ring"),
+                    (try_for_range, ":index", 0, number_of_provinces_borders),
+                        (try_begin),
+                        (array_eq, "$provinces_borders", -1, ":province_current_provinces_ring", ":index"),
+                        (break_loop),
+                        (try_end),
+                    (array_get_val, ":province2", "$provinces_borders", ":province_current_provinces_ring", ":index"),
+                        (try_begin),
+                        (neg|array_eq, "$provinces", -1, ":province2", province_bordering_sea_province1),
+                        (call_script, "script_store_province_position_to_pos", ":province1", pos1),
+                        (call_script, "script_store_province_position_to_pos", ":province2", pos2),
+                        (get_distance_between_positions, ":distance", pos1, pos2),
+                            (try_begin),
+                            (lt, ":distance", ":minimal_distance"),
+                            (assign, ":minimal_distance", ":distance"),
+                            (assign, ":done", 1),
+                            (try_end),
+                        (else_try),
+                        (assign, reg0, ":province2"), (neg|dict_has_key, ":nearest_provinces", "@{reg0}"),
+                        (dict_set_int, ":nearest_provinces", "@{reg0}", ":province2"),
+                        (array_push, ":next_provinces_ring", ":province2"),
+                        (try_end),
+                    (try_end),
+                (try_end),
+            (else_try),
+            (break_loop),
+            (try_end),
+            (try_begin),
+            (val_min, ":minimal_distance", 5000),
+            (array_set_val, "$provinces", ":minimal_distance", ":province1", province_distance_to_closest_coastal_province),
+            (try_end),
+        (dict_free, ":nearest_provinces"),
+        (array_free, ":current_provinces_ring"),
+        (array_free, ":next_provinces_ring"),
+        (try_end),
+    (try_end),
+    # (try_for_range, ":province", 0, number_of_provinces),
+    # (array_get_val, ":distance", "$provinces", ":province", province_distance_to_closest_coastal_province),
+    # (call_script, "script_set_province_color_redtogreen", ":province", 4000, ":distance", -1),
+    # (try_end),
 ]),
 
 
