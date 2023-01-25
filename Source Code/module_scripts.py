@@ -3064,6 +3064,10 @@ scripts = [
     (position_get_x, reg0, pos1),
     (position_get_y, reg1, pos1),
     (display_message, "@{reg0}, {reg1}"),
+# (try_for_range, ":province", 0, number_of_provinces),
+# (array_get_val, ":distance", "$provinces", ":province", province_initparam_population_multiplier),
+# (call_script, "script_set_province_color_redtogreen", ":province", 0, ":distance", 300, -1),
+# (try_end),
     (try_end),
     (try_begin), # Lower the world map base prop as much as camera height
     (neq, "$prop_world_map_base", -1),
@@ -5604,7 +5608,7 @@ scripts = [
 (store_script_param, ":minvalue", 2),
 (store_script_param, ":provincevalue", 3),
 (store_script_param, ":maxvalue", 4),
-(store_script_param, ":grayvalue", 4),
+(store_script_param, ":grayvalue", 5),
 
 (array_get_val, ":prop", "$provinces", ":province", province_prop1),
     (try_begin),
@@ -5720,7 +5724,7 @@ scripts = [
     (try_end),
     # (try_for_range, ":province", 0, number_of_provinces),
     # (array_get_val, ":distance", "$provinces", ":province", province_distance_to_closest_coastal_province),
-    # (call_script, "script_set_province_color_redtogreen", ":province", 4000, ":distance", -1),
+    # (call_script, "script_set_province_color_redtogreen", ":province", 4000, ":distance", 0, -1),
     # (try_end),
 ]),
 
