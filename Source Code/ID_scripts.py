@@ -103,4 +103,5 @@ script_profile = 101
 script_array_clear = 102
 script_store_province_position_to_pos = 103
 script_set_province_color_redtogreen = 104
-script_calculate_provinces_distance_to_closest_coastal_province = 105
+script_initialize_distance_between_provinces = 105
+script_initialize_provinces_distance_to_closest_coastal_province = 106

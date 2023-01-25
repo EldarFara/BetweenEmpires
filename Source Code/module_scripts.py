@@ -2721,7 +2721,6 @@ scripts = [
 (call_script, "script_province_set_initparams", 299, 95, 105, 165),
 (call_script, "script_province_set_initparams", 307, 50, 80, 70),
 
-
     (try_begin),
     (eq, ":start_date", 1861),
     (else_try),
@@ -2739,14 +2738,14 @@ scripts = [
     (array_get_val, ":owner", "$provinces", ":province", province_owner),
     (array_set_val, "$provinces", ":owner", ":province", province_controller),
     (try_end),
-    
 (call_script, "script_initialize_faction_provinces_arrays"),
-
     (try_for_range, ":faction", 0, number_of_factions),
     (call_script, "script_faction_calculate_if_active", ":faction"),
     (try_end),
 
 (call_script, "script_initialize_provinces_population_literacy_urbanization"),
+(call_script, "script_initialize_distance_between_provinces"), # 1800 ms
+(call_script, "script_initialize_provinces_distance_to_closest_coastal_province"), # 60 ms
 
 ]),
 
@@ -2941,7 +2940,7 @@ scripts = [
 (array_create, "$provinces_supply_chains_in", 0, number_of_provinces, number_of_resources),
 (array_create, "$provinces_supply_chains_out", 0, number_of_provinces, number_of_resources),
 (array_create, "$provinces_rural_resource_bonuses", 0, number_of_provinces, number_of_rural_resources),
-(array_create, "$provinces_transportation_cost", 0, number_of_provinces, number_of_provinces),
+(array_create, "$provinces_to_provinces", 0, number_of_provinces, number_of_provinces, number_of_province_to_province_parameters),
 (array_create, "$sea_provinces", 0, number_of_sea_provinces, number_of_sea_provinces_parameters),
 
 (array_set_val_all, "$globals", -1),
@@ -2952,6 +2951,7 @@ scripts = [
 (array_set_val_all, "$provinces_supply_chains_in", -1),
 (array_set_val_all, "$provinces_supply_chains_out", -1),
 (array_set_val_all, "$provinces_rural_resource_bonuses", -1),
+(array_set_val_all, "$provinces_to_provinces", -1),
 (array_set_val_all, "$sea_provinces", -1),
 
 (assign, "$prop_world_map_base", -1),
@@ -3064,9 +3064,6 @@ scripts = [
     (position_get_x, reg0, pos1),
     (position_get_y, reg1, pos1),
     (display_message, "@{reg0}, {reg1}"),
-# (store_application_time, "$application_time1"),
-# (call_script, "script_calculate_provinces_distance_to_closest_coastal_province"),
-# (call_script, "script_profile"),
     (try_end),
     (try_begin), # Lower the world map base prop as much as camera height
     (neq, "$prop_world_map_base", -1),
@@ -5645,10 +5642,30 @@ scripts = [
     (try_end),
 ]),
 
-# Calculates distance to closest coastal province for all provinces, called at game start
-("calculate_provinces_distance_to_closest_coastal_province", [
+# Calculates distance between all provinces
+("initialize_distance_between_provinces", [
+(set_fixed_point_multiplier, 100),
 (init_position, pos1),
 (init_position, pos2),
+    (try_for_range, ":province1", 0, number_of_provinces),
+        (try_for_range, ":province2", ":province1", number_of_provinces),
+        (array_get_val, ":x", "$provinces", ":province1", province_x),
+        (array_get_val, ":y", "$provinces", ":province1", province_y),
+        (position_set_x, pos1, ":x"),
+        (position_set_y, pos1, ":y"),
+        (array_get_val, ":x", "$provinces", ":province2", province_x),
+        (array_get_val, ":y", "$provinces", ":province2", province_y),
+        (position_set_x, pos2, ":x"),
+        (position_set_y, pos2, ":y"),
+        (get_distance_between_positions, ":distance", pos1, pos2),
+        (array_set_val, "$provinces_to_provinces", ":distance", ":province1", ":province2", province_to_province_distance),
+        (array_set_val, "$provinces_to_provinces", ":distance", ":province2", ":province1", province_to_province_distance),
+        (try_end),
+    (try_end),
+]),
+
+# Calculates distance to closest coastal province for all provinces, called at game start
+("initialize_provinces_distance_to_closest_coastal_province", [
     (try_for_range, ":province1", 0, number_of_provinces),
         (try_begin),
         (neg|array_eq, "$provinces", -1, ":province1", province_bordering_sea_province1),
@@ -5676,9 +5693,7 @@ scripts = [
                     (array_get_val, ":province2", "$provinces_borders", ":province_current_provinces_ring", ":index"),
                         (try_begin),
                         (neg|array_eq, "$provinces", -1, ":province2", province_bordering_sea_province1),
-                        (call_script, "script_store_province_position_to_pos", ":province1", pos1),
-                        (call_script, "script_store_province_position_to_pos", ":province2", pos2),
-                        (get_distance_between_positions, ":distance", pos1, pos2),
+                        (array_get_val, ":distance", "$provinces_to_provinces", ":province1", ":province2", province_to_province_distance),
                             (try_begin),
                             (lt, ":distance", ":minimal_distance"),
                             (assign, ":minimal_distance", ":distance"),

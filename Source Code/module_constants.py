@@ -9,6 +9,7 @@ number_of_provinces_parameters = 24
 number_of_provinces_strings = 1
 number_of_provinces_borders = 10
 number_of_sea_provinces_parameters = 11
+number_of_province_to_province_parameters = 2
 
 number_of_rural_resources = 12
 number_of_resources = 28
@@ -355,5 +356,5 @@ resource_electricgear = 25
 resource_radios = 26
 resource_telephones = 27
 
-nearest_provinces_province_index = 0
-nearest_provinces_distance       = 1
+province_to_province_distance            = 0
+province_to_province_transportation_cost = 1
