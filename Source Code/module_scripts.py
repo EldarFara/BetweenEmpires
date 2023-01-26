@@ -2291,6 +2291,7 @@ scripts = [
 (sss, s1, "@North German Confederation"), (sss, s2, "@North Germany"), (sss, s3, "@faction_flag_germanempire"), (sss, s4, "@faction_color_prussia"), (sss, s5, "@German"), (call_script, "script_add_faction", government_type_constitutional_monarchy, faction_northgermany),
 (sss, s1, "@South German Confederation"), (sss, s2, "@South Germany"), (sss, s3, "@faction_flag_southgermany"), (sss, s4, "@faction_color_southgermany"), (sss, s5, "@German"), (call_script, "script_add_faction", government_type_constitutional_monarchy, faction_southgermany),
 (sss, s1, "@Republic of Texas"), (sss, s2, "@Texas"), (sss, s3, "@faction_flag_texas"), (sss, s4, "@faction_color_texas"), (sss, s5, "@Texan"), (call_script, "script_add_faction", government_type_republic, faction_texas),
+(sss, s1, "@State of Finland"), (sss, s2, "@Finland"), (sss, s3, "@faction_flag_finland1"), (sss, s4, "@faction_color_finland"), (sss, s5, "@Finnish"), (call_script, "script_add_faction", government_type_republic, faction_finland),
 
 # parameters that are dependant on starting date
     (try_begin),

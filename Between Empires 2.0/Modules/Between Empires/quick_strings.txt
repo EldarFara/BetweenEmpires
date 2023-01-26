@@ -1,4 +1,4 @@
-1084
+1090
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1083,3 +1083,9 @@ qstr_faction_flag_texas faction_flag_texas
 qstr_faction_color_texas faction_color_texas
 qstr_Texan Texan
 qstr_faction_flag_kaiserr faction_flag_kaiserreich
+qstr_Republic_of_Finland Republic_of_Finland
+qstr_Finland Finland
+qstr_faction_flag_finland faction_flag_finland1
+qstr_faction_color_finlan faction_color_finland
+qstr_Finnish Finnish
+qstr_State_of_Finland State_of_Finland
