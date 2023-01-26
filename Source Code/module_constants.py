@@ -1,4 +1,4 @@
-number_of_factions = 205
+number_of_factions = 211
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -271,6 +271,14 @@ faction_hehe            = 201
 faction_nyamwezi        = 202
 faction_ngoyo           = 203
 faction_yao             = 204
+faction_ainu            = 205
+faction_ireland         = 206
+faction_catalonia       = 207
+faction_basque          = 208
+faction_germany         = 209
+faction_northgermany    = 210
+faction_southgermany    = 211
+faction_texas           = 212
 
 global_date_year                                                              = 0
 global_date_day_of_year                                                       = 1

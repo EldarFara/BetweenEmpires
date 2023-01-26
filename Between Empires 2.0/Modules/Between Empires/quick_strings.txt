@@ -1,4 +1,4 @@
-1049
+1084
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1048,3 +1048,38 @@ qstr_index_{reg0}_terrain index_{reg0}_terrain_{reg1}
 qstr_1_minvalue_{reg0}_pr 1_minvalue_{reg0}_provincevalue_{reg1}_maxvalue_{reg2}_grayvalue_{reg3}_
 qstr_2_minvalue_{reg0}_pr 2_minvalue_{reg0}_provincevalue_{reg1}_maxvalue_{reg2}_grayvalue_{reg3}_
 qstr_3_minvalue_{reg0}_pr 3_minvalue_{reg0}_provincevalue_{reg1}_maxvalue_{reg2}_grayvalue_{reg3}_
+qstr_Irish_Free_State Irish_Free_State
+qstr_Ireland Ireland
+qstr_faction_flag_ireland faction_flag_ireland1
+qstr_faction_color_irelan faction_color_ireland
+qstr_Irish Irish
+qstr_Catalan_State Catalan_State
+qstr_Catalonia Catalonia
+qstr_faction_flag_catalon faction_flag_catalonia
+qstr_faction_color_catalo faction_color_catalonia
+qstr_Catalan Catalan
+qstr_Basque_State Basque_State
+qstr_Basque Basque
+qstr_faction_flag_basque faction_flag_basque
+qstr_faction_color_basque faction_color_basque
+qstr_German_Empire German_Empire
+qstr_Germany Germany
+qstr_faction_flag_germane faction_flag_germanempire
+qstr_faction_color_german faction_color_germany
+qstr_German German
+qstr_North_German_Confede North_German_Confederation
+qstr_North_Germany North_Germany
+qstr_South_German_Confede South_German_Confederation
+qstr_South_Germany South_Germany
+qstr_faction_flag_southge faction_flag_southgermany
+qstr_faction_color_southg faction_color_southgermany
+qstr_Ainu_Mosir Ainu_Mosir
+qstr_Ainu Ainu
+qstr_faction_flag_ainu faction_flag_ainu
+qstr_faction_color_ainu faction_color_ainu
+qstr_Republic_of_Texas Republic_of_Texas
+qstr_Texas Texas
+qstr_faction_flag_texas faction_flag_texas
+qstr_faction_color_texas faction_color_texas
+qstr_Texan Texan
+qstr_faction_flag_kaiserr faction_flag_kaiserreich

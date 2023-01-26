@@ -1289,7 +1289,7 @@ scripts = [
 (call_script, "script_add_province", 765, 104310, 7671, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 57, terrain_plains),
 (call_script, "script_add_province", 766, 102588, 6332, faction_britain, 767, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 57, terrain_plains),
 (call_script, "script_add_province", 767, 100344, 5150, faction_britain, 766, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 57, terrain_plains),
-(call_script, "script_add_province", 768, 92531, 40384, faction_shogunate, 769, -1, -1, -1, -1, -1, -1, -1, -1, -1, 68, 70, terrain_plains),
+(call_script, "script_add_province", 768, 92531, 40384, faction_ainu, 769, -1, -1, -1, -1, -1, -1, -1, -1, -1, 68, 70, terrain_plains),
 (call_script, "script_add_province", 769, 92084, 39735, faction_shogunate, 768, -1, -1, -1, -1, -1, -1, -1, -1, -1, 68, 70, terrain_plains),
 (call_script, "script_add_province", 770, 92733, 38918, faction_shogunate, 771, -1, -1, -1, -1, -1, -1, -1, -1, -1, 68, 70, terrain_plains),
 (call_script, "script_add_province", 771, 92772, 38193, faction_shogunate, 772, 770, 773, 774, -1, -1, -1, -1, -1, -1, 68, 70, terrain_plains),
@@ -2283,7 +2283,14 @@ scripts = [
 (sss, s1, "@Nyamwezi Tribes"), (sss, s2, "@Nyamwezi"), (sss, s3, "@faction_flag_nyamwezi"), (sss, s4, "@faction_color_nyamwezi"), (sss, s5, "@Nyamwezi"), (call_script, "script_add_faction", government_type_tribal_union, faction_nyamwezi),
 (sss, s1, "@Kingdom of Ngoyo"), (sss, s2, "@Ngoyo"), (sss, s3, "@faction_flag_ngoyo"), (sss, s4, "@faction_color_ngoyo"), (sss, s5, "@Woyo"), (call_script, "script_add_faction", government_type_absolute_monarchy, faction_ngoyo),
 (sss, s1, "@Yao Tribes"), (sss, s2, "@Yao"), (sss, s3, "@faction_flag_yao"), (sss, s4, "@faction_color_yao"), (sss, s5, "@Yao"), (call_script, "script_add_faction", government_type_tribal_union, faction_yao),
-
+(sss, s1, "@Ainu Mosir"), (sss, s2, "@Ainu"), (sss, s3, "@faction_flag_ainu"), (sss, s4, "@faction_color_ainu"), (sss, s5, "@Ainu"), (call_script, "script_add_faction", government_type_tribal_union, faction_ainu),
+(sss, s1, "@Irish Free State"), (sss, s2, "@Ireland"), (sss, s3, "@faction_flag_ireland1"), (sss, s4, "@faction_color_ireland"), (sss, s5, "@Irish"), (call_script, "script_add_faction", government_type_republic, faction_ireland),
+(sss, s1, "@Catalan State"), (sss, s2, "@Catalonia"), (sss, s3, "@faction_flag_catalonia"), (sss, s4, "@faction_color_catalonia"), (sss, s5, "@Catalan"), (call_script, "script_add_faction", government_type_republic, faction_catalonia),
+(sss, s1, "@Basque State"), (sss, s2, "@Basque"), (sss, s3, "@faction_flag_basque"), (sss, s4, "@faction_color_basque"), (sss, s5, "@Basque"), (call_script, "script_add_faction", government_type_republic, faction_basque),
+(sss, s1, "@German Empire"), (sss, s2, "@Germany"), (sss, s3, "@faction_flag_kaiserreich"), (sss, s4, "@faction_color_germany"), (sss, s5, "@German"), (call_script, "script_add_faction", government_type_republic, faction_germany),
+(sss, s1, "@North German Confederation"), (sss, s2, "@North Germany"), (sss, s3, "@faction_flag_germanempire"), (sss, s4, "@faction_color_prussia"), (sss, s5, "@German"), (call_script, "script_add_faction", government_type_constitutional_monarchy, faction_northgermany),
+(sss, s1, "@South German Confederation"), (sss, s2, "@South Germany"), (sss, s3, "@faction_flag_southgermany"), (sss, s4, "@faction_color_southgermany"), (sss, s5, "@German"), (call_script, "script_add_faction", government_type_constitutional_monarchy, faction_southgermany),
+(sss, s1, "@Republic of Texas"), (sss, s2, "@Texas"), (sss, s3, "@faction_flag_texas"), (sss, s4, "@faction_color_texas"), (sss, s5, "@Texan"), (call_script, "script_add_faction", government_type_republic, faction_texas),
 
 # parameters that are dependant on starting date
     (try_begin),
@@ -4222,6 +4229,8 @@ scripts = [
 # (array_set_val, "$provinces", faction_norway, 225, province_core1),
 # (array_set_val, "$provinces", faction_norway, 226, province_core1),
 # (array_set_val, "$provinces", faction_norway, 227, province_core1),
+# (array_set_val, "$provinces", faction_texas, 445, province_core1),
+# (array_set_val, "$provinces", faction_texas, 446, province_core1),
 
 
 ]),
