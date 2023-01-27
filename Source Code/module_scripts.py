@@ -2048,6 +2048,7 @@ scripts = [
 
 (array_set_val, "$globals", ":start_date", global_date_year),
 (array_set_val, "$globals", 1, global_date_day_of_year),
+(array_set_val, "$globals", 1, global_date_day_of_game),
 (array_set_val, "$globals", 20000, global_world_map_camera_target_z),
 
 (call_script, "script_initialize_factions", ":start_date"),
@@ -2072,6 +2073,9 @@ scripts = [
 (call_script, "script_initialize_provinces_population_literacy_urbanization"),
 (call_script, "script_initialize_distance_between_provinces"), # 1800 ms
 (call_script, "script_initialize_provinces_distance_to_closest_coastal_province"), # 60 ms
+    (try_for_range, ":province", 0, number_of_provinces),
+    (call_script, "script_calculate_province_transportation_cost", ":province", ":province", number_of_provinces), # 6000 ms
+    (try_end),
 ]),
 
 # Set factions parameters
@@ -2947,6 +2951,7 @@ scripts = [
 (array_create, "$provinces_rural_resource_bonuses", 0, number_of_provinces, number_of_rural_resources),
 (array_create, "$provinces_to_provinces", 0, number_of_provinces, number_of_provinces, number_of_province_to_province_parameters),
 (array_create, "$sea_provinces", 0, number_of_sea_provinces, number_of_sea_provinces_parameters),
+(array_create, "$railroads", 0, 0),
 
 (array_set_val_all, "$globals", -1),
 (array_set_val_all, "$factions", -1),
@@ -3069,10 +3074,10 @@ scripts = [
     (position_get_x, reg0, pos1),
     (position_get_y, reg1, pos1),
     (display_message, "@{reg0}, {reg1}"),
-# (try_for_range, ":province", 0, number_of_provinces),
-# (array_get_val, ":distance", "$provinces", ":province", province_initparam_population_multiplier),
-# (call_script, "script_set_province_color_redtogreen", ":province", 0, ":distance", 300, -1),
-# (try_end),
+                    # (try_for_range, ":province", 0, number_of_provinces),
+                    # (array_get_val, ":cost", "$provinces_to_provinces", 29, ":province", province_to_province_transportation_cost),
+                    # (call_script, "script_set_province_color_redtogreen", ":province", 7400, ":cost", 0, -1),
+                    # (try_end),
     (try_end),
     (try_begin), # Lower the world map base prop as much as camera height
     (neq, "$prop_world_map_base", -1),
@@ -3628,7 +3633,6 @@ scripts = [
                     (try_begin),
                     (eq, ":overlay", -1),
                     (assign, reg0, ":province"),
-#(array_get_val, reg0, "$provinces", ":province", province_bordering_sea_province1),
                     (create_text_overlay, ":overlay", "@{reg0}", tf_center_justify|tf_vertical_align_center),
                     (array_set_val, "$provinces", ":overlay", ":province", province_index_overlay),
                     (position_set_x, pos1, 700),
@@ -5780,12 +5784,6 @@ scripts = [
     (try_end),
 ]),
 
-# Calculates transportation costs of specified province to all other provinces with index above it
-("calculate_province_transportation_cost", [
-#(store_script_param, ":province1", 1),
-
-]),
-
 # Displays how many ms have passed since last store_application_time call
 ("profile", [
 (store_application_time, ":application_time2"),
@@ -5938,5 +5936,128 @@ scripts = [
     # (call_script, "script_set_province_color_redtogreen", ":province", 4000, ":distance", 0, -1),
     # (try_end),
 ]),
+
+# Calculates transportation costs of specified province to all specified provinces
+("calculate_province_transportation_cost", [
+(store_script_param, ":province1", 1),
+(store_script_param, ":start_index", 2),
+(store_script_param, ":end_index", 3),
+
+# get province1 railroads and coastal distance
+(call_script, "script_get_province_railroads", ":province1"), (assign, ":railroads_province1", reg0), (assign, ":coastal_distance1", reg1), (array_get_dim_size, ":size_railroads_province1", ":railroads_province1", 0),
+            
+    (try_for_range, ":province2", ":start_index", ":end_index"),
+    # get distance between provinces which is base for cost calculation
+    (array_get_val, ":cost", "$provinces_to_provinces", ":province1", ":province2", province_to_province_distance),
+    (assign, ":cost_add", ":cost"),
+    (val_clamp, ":cost_add", 0, 4500),
+    (val_add, ":cost", ":cost_add"),
+    # get province1 railroads and coastal distance
+    (call_script, "script_get_province_railroads", ":province2"), (assign, ":railroads_province2", reg0), (assign, ":coastal_distance2", reg1), (array_get_dim_size, ":size_railroads_province2", ":railroads_province2", 0),
+        (try_begin),
+        (neq, ":size_railroads_province1", 0),
+        (neq, ":size_railroads_province2", 0),
+        (assign, ":railroad_connection_level", 0),
+        # if both provinces have railroads, check for railroads number intersection
+            (try_begin),
+            (array_get_val, ":province1_railroad", "$provinces", ":province1", province_railroad),
+            (array_get_val, ":province2_railroad", "$provinces", ":province2", province_railroad),
+            (eq, ":province1_railroad", ":province2_railroad"),
+            (assign, ":railroad_connection_level", 7),
+            # both provinces share same railroad
+            (else_try),
+                (try_for_range, ":index_railroads_province1", 1, ":size_railroads_province1"),
+                    (try_begin),
+                    (neq, ":railroad_connection_level", 0),
+                    (break_loop),
+                (array_get_val, ":railroad1", "$railroads", ":index_railroads_province1"),
+                    (try_end),
+                    (try_for_range, ":index_railroads_province2", 1, ":size_railroads_province2"),
+                    (array_get_val, ":railroad2", "$railroads", ":index_railroads_province1"),
+                    (eq, ":railroad1", ":railroad2"),
+                    # both provinces share same railroad near them
+                    (assign, ":railroad_connection_level", 5),
+                    (try_end),
+                (try_end),
+            (try_end),
+        (neq, ":railroad_connection_level", 0),
+        (val_div, ":cost", ":railroad_connection_level"),
+        (else_try),
+        # if no railroad connection - decrease cost based on coastal distance
+        # both coastal distances will decrease cost up to 66% each
+        (val_div, ":coastal_distance1", 75), (val_add, ":coastal_distance1", 33),
+        (val_div, ":coastal_distance2", 75), (val_add, ":coastal_distance2", 33),
+        (val_mul, ":cost", ":coastal_distance1"), (val_div, ":cost", 100),
+        (val_mul, ":cost", ":coastal_distance2"), (val_div, ":cost", 100),
+        (try_end),
+    (array_set_val, "$provinces_to_provinces", ":cost", ":province1", ":province2", province_to_province_transportation_cost),
+    (array_set_val, "$provinces_to_provinces", ":cost", ":province2", ":province1", province_to_province_transportation_cost),
+    (array_free, ":railroads_province2"),
+    (try_end),
+    
+(array_free, ":railroads_province1"),
+]),
+
+# Returns:
+# reg0 - array with railroads of specified province and provinces around it 
+# reg1 - coastal distance, decreased if province1 has railroad near it with access to sea
+("get_province_railroads", [
+(store_script_param, ":province1", 1),
+
+(array_create, ":railroads", 0, 0),
+(assign, reg0, -1),
+(array_get_val, reg1, "$provinces", ":province1", province_distance_to_closest_coastal_province),
+(assign, ":distance_decreased", 0),
+    (try_begin),
+    (neg|array_eq, "$provinces", -1, ":province1", province_railroad),
+    (array_get_val, ":railroad", "$provinces", ":province1", province_railroad),
+    (array_push, ":railroads", ":railroad"),
+    (array_get_val, ":railroad_array", "$railroads", ":railroad"),
+    (array_get_val, ":access_to_sea", ":railroad_array", 1),
+        (try_begin),
+        (eq, ":access_to_sea", 1),
+        (val_div, reg1, 10),
+        (assign, ":distance_decreased", 1),
+        (try_end),
+    (try_end),
+    (try_for_range, ":index", 0, number_of_provinces_borders),
+        (try_begin),
+        (array_eq, "$provinces_borders", -1, ":province1", ":index"),
+        (break_loop),
+        (try_end),
+    (array_get_val, ":province2", "$provinces_borders", ":province1", ":index"),
+        (try_begin),
+        (neg|array_eq, "$provinces", -1, ":province2", province_railroad),
+        (array_get_val, ":railroad", "$provinces", ":province2", province_railroad),
+        (array_push, ":railroads", ":railroad"),
+            (try_begin),
+            (eq, ":distance_decreased", 0),
+            (array_get_val, ":railroad_array", "$railroads", ":railroad"),
+            (array_get_val, ":access_to_sea", ":railroad_array", 1),
+            (eq, ":access_to_sea", 1),
+            (val_div, reg1, 3),
+            (assign, ":distance_decreased", 1),
+            (try_end),
+        (try_end),
+    (try_end),
+(assign, reg0, ":railroads"),
+]),
+
+# ("test1", [
+    # (try_for_range, ":index", 0, 100000),
+    # (array_create, ":array", 0, 0),
+    # (array_push, ":array", 1),
+    # (array_push, ":array", 1),
+    # (array_push, ":array", 1),
+    # (array_free, ":array"),
+    # (try_end),
+# ]),
+
+
+
+
+
+
+
 
 ]

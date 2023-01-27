@@ -2,10 +2,10 @@ number_of_factions = 214
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
-number_of_global_parameters = 8
+number_of_global_parameters = 89
 number_of_factions_parameters = 9
 number_of_factions_strings = 5
-number_of_provinces_parameters = 24
+number_of_provinces_parameters = 25
 number_of_provinces_strings = 1
 number_of_provinces_borders = 10
 number_of_sea_provinces_parameters = 11
@@ -54,6 +54,7 @@ province_core3                                                                = 
 province_core4                                                                = 21
 province_core5                                                                = 22
 province_distance_to_closest_coastal_province                                 = 23
+province_railroad                                                             = 24
 
 province_string_name                                                          = 0
 
@@ -289,6 +290,7 @@ global_ui_mode                                                                = 
 global_faction_selection_selected_faction                                     = 5
 global_selected_province                                                      = 6
 global_prop_world_map_base                                                    = 7
+global_date_day_of_game                                                       = 8
 
 ui_mode_none                            = -1
 ui_mode_province_menu_small_player      = 1

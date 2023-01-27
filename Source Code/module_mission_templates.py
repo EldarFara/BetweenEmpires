@@ -22,7 +22,9 @@ world_map_frame = (
 0, 0, 0, [],
 [
 (call_script, "script_world_map_camera_movement_frame"),
-
+#(store_application_time, "$application_time1"),
+#(call_script, "script_calculate_province_transportation_cost", 0, 0, 350),
+#(call_script, "script_profile"),
 ])
 
 # Triggers every 5 ms
