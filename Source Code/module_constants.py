@@ -1,4 +1,4 @@
-number_of_factions = 214
+number_of_factions = 215
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -281,6 +281,7 @@ faction_northgermany    = 210
 faction_southgermany    = 211
 faction_texas           = 212
 faction_finland         = 213
+faction_japan           = 214
 
 global_date_year                                                              = 0
 global_date_day_of_year                                                       = 1
