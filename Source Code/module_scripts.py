@@ -2304,7 +2304,7 @@ scripts = [
 (sss, s1, "@State of Lithuania"), (sss, s2, "@Lithuania"), (sss, s3, "@faction_flag_lithuania"), (sss, s4, "@faction_color_lithuania"), (sss, s5, "@Lithuanian"), (call_script, "script_add_faction", government_type_dictatorship, faction_lithuania),
 (sss, s1, "@Republic of Latvia"), (sss, s2, "@Latvia"), (sss, s3, "@faction_flag_latvia"), (sss, s4, "@faction_color_latvia"), (sss, s5, "@Latvian"), (call_script, "script_add_faction", government_type_republic, faction_latvia),
 (sss, s1, "@Republic of Estonia"), (sss, s2, "@Estonia"), (sss, s3, "@faction_flag_estonia"), (sss, s4, "@faction_color_estonia"), (sss, s5, "@Estonian"), (call_script, "script_add_faction", government_type_republic, faction_estonia),
-(sss, s1, "@United Baltic Duchy"), (sss, s2, "@Baltics"), (sss, s3, "@faction_flag_baltics"), (sss, s4, "@faction_color_baltics"), (sss, s5, "@Baltic"), (call_script, "script_add_faction", government_type_republic, faction_baltics),
+(sss, s1, "@United Baltic Duchy"), (sss, s2, "@Baltics"), (sss, s3, "@faction_flag_baltics"), (sss, s4, "@faction_color_baltics"), (sss, s5, "@Baltic"), (call_script, "script_add_faction", government_type_absolute_monarchy, faction_baltics),
 
 # parameters that are dependant on starting date
     (try_begin),
