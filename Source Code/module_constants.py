@@ -1,4 +1,4 @@
-number_of_factions = 215
+number_of_factions = 216
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -94,7 +94,7 @@ faction_ottoman         = 23
 faction_greece          = 24
 faction_serbia          = 25
 faction_montenegro      = 26
-faction_romania         = 27
+faction_wallachia       = 27
 faction_moldavia        = 28
 faction_russia          = 29
 faction_sweden          = 30
@@ -282,6 +282,7 @@ faction_southgermany    = 211
 faction_texas           = 212
 faction_finland         = 213
 faction_japan           = 214
+faction_romania         = 215
 
 global_date_year                                                              = 0
 global_date_day_of_year                                                       = 1

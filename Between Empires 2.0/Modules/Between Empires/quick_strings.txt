@@ -1,4 +1,4 @@
-1093
+1098
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1092,3 +1092,8 @@ qstr_State_of_Finland State_of_Finland
 qstr_Empire_of_Japan Empire_of_Japan
 qstr_faction_flag_japan faction_flag_japan
 qstr_faction_color_japan faction_color_japan
+qstr_United_Principalitie United_Principalities_of_Wallachia_and_Moldavia
+qstr_Romania Romania
+qstr_faction_flag_romania faction_flag_romania
+qstr_faction_color_romani faction_color_romania
+qstr_Romanian Romanian
