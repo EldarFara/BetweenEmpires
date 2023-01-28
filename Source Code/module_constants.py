@@ -1,4 +1,4 @@
-number_of_factions = 216
+number_of_factions = 223
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -283,6 +283,14 @@ faction_texas           = 212
 faction_finland         = 213
 faction_japan           = 214
 faction_romania         = 215
+faction_bulgaria        = 216
+faction_poland          = 217
+faction_plc             = 218
+faction_lithuania       = 219
+faction_latvia          = 220
+faction_estonia         = 221
+faction_baltics         = 222
+
 
 global_date_year                                                              = 0
 global_date_day_of_year                                                       = 1

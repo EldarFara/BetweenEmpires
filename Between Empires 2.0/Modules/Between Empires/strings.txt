@@ -241,7 +241,7 @@ str_province202 Dzukija
 str_province203 Aukstaitija
 str_province204 Samogitia
 str_province205 Courland_and_Semigalia
-str_province206 Vidzeme
+str_province206 Livonia
 str_province207 Coastal_Estonia
 str_province208 Inland_Estonia
 str_province209 South_Karelia

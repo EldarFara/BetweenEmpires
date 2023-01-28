@@ -266,7 +266,7 @@ strings = [
 ("province203", "Aukstaitija"),
 ("province204", "Samogitia"),
 ("province205", "Courland and Semigalia"),
-("province206", "Vidzeme"),
+("province206", "Livonia"),
 ("province207", "Coastal Estonia"),
 ("province208", "Inland Estonia"),
 ("province209", "South Karelia"),
