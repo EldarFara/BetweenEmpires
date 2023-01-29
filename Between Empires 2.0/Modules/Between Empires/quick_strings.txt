@@ -1,4 +1,4 @@
-1210
+1215
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1209,3 +1209,8 @@ qstr_Kingdom_of_England Kingdom_of_England
 qstr_England England
 qstr_faction_flag_england faction_flag_england
 qstr_English English
+qstr_Kingdom_of_Norway Kingdom_of_Norway
+qstr_Norway Norway
+qstr_faction_flag_norway faction_flag_norway
+qstr_faction_color_norway faction_color_norway
+qstr_Norwegian Norwegian

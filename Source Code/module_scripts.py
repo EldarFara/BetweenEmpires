@@ -2320,6 +2320,7 @@ scripts = [
 (sss, s1, "@State of Israel"), (sss, s2, "@Israel"), (sss, s3, "@faction_flag_israel"), (sss, s4, "@faction_color_israel"), (sss, s5, "@Israeli"), (call_script, "script_add_faction", government_type_republic, faction_israel),
 (sss, s1, "@State of Palestine"), (sss, s2, "@Palestine"), (sss, s3, "@faction_flag_palestine"), (sss, s4, "@faction_color_palestine"), (sss, s5, "@Palestinian"), (call_script, "script_add_faction", government_type_republic, faction_palestine),
 (sss, s1, "@Kingdom of England"), (sss, s2, "@England"), (sss, s3, "@faction_flag_england"), (sss, s4, "@faction_color_britain"), (sss, s5, "@English"), (call_script, "script_add_faction", government_type_constitutional_monarchy, faction_england),
+(sss, s1, "@Kingdom of Norway"), (sss, s2, "@Norway"), (sss, s3, "@faction_flag_norway"), (sss, s4, "@faction_color_norway"), (sss, s5, "@Norwegian"), (call_script, "script_add_faction", government_type_constitutional_monarchy, faction_norway),
 
 # parameters that are dependant on starting date
     (try_begin),
