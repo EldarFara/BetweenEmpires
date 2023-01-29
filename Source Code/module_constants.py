@@ -1,4 +1,4 @@
-number_of_factions = 231
+number_of_factions = 237
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -298,6 +298,13 @@ faction_ukraine         = 227
 faction_crimea          = 228
 faction_kazakh          = 229
 faction_turkestan       = 230
+faction_arabia          = 231
+faction_syria           = 232
+faction_iraq            = 233
+faction_lebanon         = 234
+faction_israel          = 235
+faction_palestine       = 236
+faction_england         = 237
 
 
 global_date_year                                                              = 0
