@@ -1,4 +1,4 @@
-1225
+1234
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1224,3 +1224,12 @@ qstr_Transjordan Transjordan
 qstr_faction_flag_transjo faction_flag_transjordan
 qstr_faction_color_transj faction_color_transjordan
 qstr_Transjordanian Transjordanian
+qstr_Kingdom_of_Hejaz Kingdom_of_Hejaz
+qstr_Hejaz Hejaz
+qstr_faction_color_hejaz faction_color_hejaz
+qstr_Hejazi Hejazi
+qstr_Mutawakkilite_Kingdo Mutawakkilite_Kingdom_of_Yemen
+qstr_Yemen Yemen
+qstr_faction_flag_yemen1 faction_flag_yemen1
+qstr_faction_color_yemen faction_color_yemen
+qstr_Yemeni Yemeni
