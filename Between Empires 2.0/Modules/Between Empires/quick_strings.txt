@@ -1,4 +1,4 @@
-1157
+1171
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1156,3 +1156,17 @@ qstr_faction_flag_georgia faction_flag_georgia
 qstr_faction_color_georgi faction_color_georgia
 qstr_Georgian Georgian
 qstr_faction_flag_georgia1 faction_flag_georgia1
+qstr_Ukrainian_State Ukrainian_State
+qstr_Ukraine Ukraine
+qstr_faction_flag_ukraine faction_flag_ukraine
+qstr_faction_color_ukrain faction_color_ukraine
+qstr_Crimean_Khanate Crimean_Khanate
+qstr_Crimea Crimea
+qstr_faction_flag_crimea faction_flag_crimea
+qstr_faction_color_crimea faction_color_crimea
+qstr_Crimean Crimean
+qstr_Kazakh_Khanate Kazakh_Khanate
+qstr_Kazakhs Kazakhs
+qstr_faction_flag_kazakh faction_flag_kazakh
+qstr_faction_color_kazakh faction_color_kazakh
+qstr_Kazakh Kazakh

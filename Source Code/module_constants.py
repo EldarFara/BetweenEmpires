@@ -1,4 +1,4 @@
-number_of_factions = 227
+number_of_factions = 230
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -294,6 +294,9 @@ faction_scotland        = 223
 faction_azerbaijan      = 224
 faction_armenia         = 225
 faction_georgia         = 226
+faction_ukraine         = 227
+faction_crimea          = 228
+faction_kazakh          = 229
 
 
 global_date_year                                                              = 0
