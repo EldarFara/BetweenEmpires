@@ -2321,6 +2321,7 @@ scripts = [
 (sss, s1, "@State of Palestine"), (sss, s2, "@Palestine"), (sss, s3, "@faction_flag_palestine"), (sss, s4, "@faction_color_palestine"), (sss, s5, "@Palestinian"), (call_script, "script_add_faction", government_type_republic, faction_palestine),
 (sss, s1, "@Kingdom of England"), (sss, s2, "@England"), (sss, s3, "@faction_flag_england"), (sss, s4, "@faction_color_britain"), (sss, s5, "@English"), (call_script, "script_add_faction", government_type_constitutional_monarchy, faction_england),
 (sss, s1, "@Kingdom of Norway"), (sss, s2, "@Norway"), (sss, s3, "@faction_flag_norway"), (sss, s4, "@faction_color_norway"), (sss, s5, "@Norwegian"), (call_script, "script_add_faction", government_type_constitutional_monarchy, faction_norway),
+(sss, s1, "@Confederate States of America"), (sss, s2, "@CSA"), (sss, s3, "@faction_flag_csa"), (sss, s4, "@faction_color_csa"), (sss, s5, "@Confederate"), (call_script, "script_add_faction", government_type_republic, faction_csa),
 
 # parameters that are dependant on starting date
     (try_begin),
@@ -4861,8 +4862,10 @@ scripts = [
 # (array_set_val, "$provinces", faction_usa, 404, province_core1),
 # (array_set_val, "$provinces", faction_usa, 405, province_core1),
 # (array_set_val, "$provinces", faction_usa, 406, province_core1),
+# (array_set_val, "$provinces", faction_csa, 406, province_core2),
 # (array_set_val, "$provinces", faction_usa, 407, province_core1),
 # (array_set_val, "$provinces", faction_usa, 408, province_core1),
+# (array_set_val, "$provinces", faction_csa, 408, province_core2),
 # (array_set_val, "$provinces", faction_usa, 409, province_core1),
 # (array_set_val, "$provinces", faction_usa, 410, province_core1),
 # (array_set_val, "$provinces", faction_usa, 411, province_core1),
