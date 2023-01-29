@@ -2308,7 +2308,7 @@ scripts = [
 (sss, s1, "@Kingdom of Scotland"), (sss, s2, "@Scotland"), (sss, s3, "@faction_flag_scotland"), (sss, s4, "@faction_color_scotland"), (sss, s5, "@Scottish"), (call_script, "script_add_faction", government_type_absolute_monarchy, faction_scotland),
 (sss, s1, "@State of Azerbaijan"), (sss, s2, "@Azerbaijan"), (sss, s3, "@faction_flag_azerbaijan1"), (sss, s4, "@faction_color_azerbaijan"), (sss, s5, "@Azeri"), (call_script, "script_add_faction", government_type_republic, faction_azerbaijan),
 (sss, s1, "@State of Armenia"), (sss, s2, "@Armenia"), (sss, s3, "@faction_flag_armenia"), (sss, s4, "@faction_color_armenia"), (sss, s5, "@Armenian"), (call_script, "script_add_faction", government_type_republic, faction_armenia),
-(sss, s1, "@State of Georgia"), (sss, s2, "@Georgia"), (sss, s3, "@faction_flag_georgia"), (sss, s4, "@faction_color_georgia"), (sss, s5, "@Georgian"), (call_script, "script_add_faction", government_type_republic, faction_georgia),
+(sss, s1, "@State of Georgia"), (sss, s2, "@Georgia"), (sss, s3, "@faction_flag_georgia1"), (sss, s4, "@faction_color_georgia"), (sss, s5, "@Georgian"), (call_script, "script_add_faction", government_type_republic, faction_georgia),
 
 # parameters that are dependant on starting date
     (try_begin),

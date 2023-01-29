@@ -1,4 +1,4 @@
-1156
+1157
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1155,3 +1155,4 @@ qstr_Georgia Georgia
 qstr_faction_flag_georgia faction_flag_georgia
 qstr_faction_color_georgi faction_color_georgia
 qstr_Georgian Georgian
+qstr_faction_flag_georgia1 faction_flag_georgia1
