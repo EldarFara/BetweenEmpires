@@ -1,4 +1,4 @@
-1171
+1176
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1170,3 +1170,8 @@ qstr_Kazakhs Kazakhs
 qstr_faction_flag_kazakh faction_flag_kazakh
 qstr_faction_color_kazakh faction_color_kazakh
 qstr_Kazakh Kazakh
+qstr_Khanate_of_Turkestan Khanate_of_Turkestan
+qstr_Turkestan Turkestan
+qstr_faction_flag_turkest faction_flag_turkestan
+qstr_faction_color_turkes faction_color_turkestan
+qstr_Turkic Turkic
