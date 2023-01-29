@@ -1,4 +1,4 @@
-1234
+1235
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1233,3 +1233,4 @@ qstr_Yemen Yemen
 qstr_faction_flag_yemen1 faction_flag_yemen1
 qstr_faction_color_yemen faction_color_yemen
 qstr_Yemeni Yemeni
+qstr_faction_flag_oman1 faction_flag_oman1
