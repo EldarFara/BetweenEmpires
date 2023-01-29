@@ -1,4 +1,4 @@
-number_of_factions = 240
+number_of_factions = 241
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -307,6 +307,7 @@ faction_palestine       = 236
 faction_england         = 237
 faction_norway          = 238
 faction_csa             = 239
+faction_transjordan     = 240
 
 
 global_date_year                                                              = 0

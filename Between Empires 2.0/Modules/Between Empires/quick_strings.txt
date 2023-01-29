@@ -1,4 +1,4 @@
-1215
+1225
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1214,3 +1214,13 @@ qstr_Norway Norway
 qstr_faction_flag_norway faction_flag_norway
 qstr_faction_color_norway faction_color_norway
 qstr_Norwegian Norwegian
+qstr_Confederate_States_o Confederate_States_of_America
+qstr_CSA CSA
+qstr_faction_flag_csa faction_flag_csa
+qstr_faction_color_csa faction_color_csa
+qstr_Confederate Confederate
+qstr_Emirate_of_Transjord Emirate_of_Transjordan
+qstr_Transjordan Transjordan
+qstr_faction_flag_transjo faction_flag_transjordan
+qstr_faction_color_transj faction_color_transjordan
+qstr_Transjordanian Transjordanian
