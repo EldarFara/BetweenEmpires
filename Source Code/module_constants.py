@@ -1,4 +1,4 @@
-number_of_factions = 250
+number_of_factions = 252
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -318,6 +318,7 @@ faction_canada          = 247
 faction_quebec          = 248
 faction_ceylon          = 249
 faction_bangladesh      = 250
+faction_newfoundland    = 251
 
 
 global_date_year                                                              = 0

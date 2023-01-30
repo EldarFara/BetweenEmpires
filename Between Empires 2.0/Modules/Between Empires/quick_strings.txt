@@ -1,4 +1,4 @@
-1275
+1279
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1274,3 +1274,7 @@ qstr_Bangladesh Bangladesh
 qstr_faction_flag_banglad faction_flag_bangladesh
 qstr_faction_color_bangla faction_color_bangladesh
 qstr_Bengali Bengali
+qstr_Dominion_of_Canada Dominion_of_Canada
+qstr_Dominion_of_Newfound Dominion_of_Newfoundland
+qstr_Newfoundland Newfoundland
+qstr_faction_flag_newfoun faction_flag_newfoundland1
