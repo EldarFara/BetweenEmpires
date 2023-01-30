@@ -1,4 +1,4 @@
-1279
+1290
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1278,3 +1278,14 @@ qstr_Dominion_of_Canada Dominion_of_Canada
 qstr_Dominion_of_Newfound Dominion_of_Newfoundland
 qstr_Newfoundland Newfoundland
 qstr_faction_flag_newfoun faction_flag_newfoundland1
+qstr_Dominion_of_Pakistan Dominion_of_Pakistan
+qstr_Federation_of_Malaya Federation_of_Malaya
+qstr_Malaya Malaya
+qstr_faction_flag_malaya1 faction_flag_malaya1
+qstr_faction_color_malaya faction_color_malaya
+qstr_Malay Malay
+qstr_Straits_Settlement Straits_Settlement
+qstr_Singapore Singapore
+qstr_faction_flag_singapo faction_flag_singapore1
+qstr_faction_color_singap faction_color_singapore
+qstr_Singaporean Singaporean
