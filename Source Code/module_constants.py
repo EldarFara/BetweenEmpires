@@ -1,4 +1,4 @@
-number_of_factions = 260
+number_of_factions = 263
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -329,6 +329,7 @@ faction_libya           = 258
 faction_tripoli         = 259
 faction_australia       = 260
 faction_newzealand      = 261
+faction_sudan           = 262
 
 
 global_date_year                                                              = 0

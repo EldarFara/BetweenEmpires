@@ -1,4 +1,4 @@
-1330
+1333
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1329,3 +1329,6 @@ qstr_Commonwealth_of_New_ Commonwealth_of_New_Zealand
 qstr_New_Zealand New_Zealand
 qstr_faction_flag_newzeal faction_flag_newzealand2
 qstr_New_Zealander New_Zealander
+qstr_State_of_the_Sudan State_of_the_Sudan
+qstr_Sudan Sudan
+qstr_faction_flag_sudan2 faction_flag_sudan2
