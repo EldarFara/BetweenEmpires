@@ -1,4 +1,4 @@
-number_of_factions = 263
+number_of_factions = 274
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -334,6 +334,13 @@ faction_kenya           = 263
 faction_zanzibar        = 264
 faction_chad            = 265
 faction_nigeria         = 266
+faction_niger           = 267
+faction_mauritania      = 268
+faction_madagascar      = 269
+faction_comoros         = 270
+faction_mauritius       = 271
+faction_reunion         = 272
+faction_seychelles      = 273
 
 
 global_date_year                                                              = 0
