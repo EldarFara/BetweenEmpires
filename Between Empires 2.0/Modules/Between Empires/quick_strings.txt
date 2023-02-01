@@ -1,4 +1,4 @@
-1333
+1355
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1332,3 +1332,25 @@ qstr_New_Zealander New_Zealander
 qstr_State_of_the_Sudan State_of_the_Sudan
 qstr_Sudan Sudan
 qstr_faction_flag_sudan2 faction_flag_sudan2
+qstr_faction_flag_somalia faction_flag_somalia1
+qstr_faction_color_sudan faction_color_sudan
+qstr_Sudanese Sudanese
+qstr_State_of_Kenya State_of_Kenya
+qstr_Kenya Kenya
+qstr_faction_flag_kenya faction_flag_kenya
+qstr_faction_color_kenya faction_color_kenya
+qstr_Kenyan Kenyan
+qstr_Sultanate_of_Zanziba Sultanate_of_Zanzibar
+qstr_Zanzibar Zanzibar
+qstr_faction_flag_zanziba faction_flag_zanzibar
+qstr_faction_color_zanzib faction_color_zanzibar
+qstr_Zanzibari Zanzibari
+qstr_State_of_Chad State_of_Chad
+qstr_Chad Chad
+qstr_faction_color_chad faction_color_chad
+qstr_Chadian Chadian
+qstr_State_of_Nigeria State_of_Nigeria
+qstr_Nigeria Nigeria
+qstr_faction_flag_nigeria faction_flag_nigeria
+qstr_faction_color_nigeri faction_color_nigeria
+qstr_Nigerian Nigerian

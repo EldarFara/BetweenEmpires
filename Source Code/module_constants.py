@@ -330,6 +330,10 @@ faction_tripoli         = 259
 faction_australia       = 260
 faction_newzealand      = 261
 faction_sudan           = 262
+faction_kenya           = 263
+faction_zanzibar        = 264
+faction_chad            = 265
+faction_nigeria         = 266
 
 
 global_date_year                                                              = 0
