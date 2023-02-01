@@ -2348,7 +2348,7 @@ scripts = [
 (sss, s1, "@State of Kenya"), (sss, s2, "@Kenya"), (sss, s3, "@faction_flag_kenya"), (sss, s4, "@faction_color_kenya"), (sss, s5, "@Kenyan"), (call_script, "script_add_faction", government_type_republic, faction_kenya),
 (sss, s1, "@Sultanate of Zanzibar"), (sss, s2, "@Zanzibar"), (sss, s3, "@faction_flag_zanzibar"), (sss, s4, "@faction_color_zanzibar"), (sss, s5, "@Zanzibari"), (call_script, "script_add_faction", government_type_absolute_monarchy, faction_zanzibar),
 (sss, s1, "@State of Chad"), (sss, s2, "@Chad"), (sss, s3, "@faction_flag_romania"), (sss, s4, "@faction_color_chad"), (sss, s5, "@Chadian"), (call_script, "script_add_faction", government_type_republic, faction_chad),
-(sss, s1, "@State of Nigeria"), (sss, s2, "@Nigeria"), (sss, s3, "@faction_flag_nigeria"), (sss, s4, "@faction_color_nigeria"), (sss, s5, "@Nigerian"), (call_script, "script_add_faction", government_type_republic, faction_romania),
+(sss, s1, "@State of Nigeria"), (sss, s2, "@Nigeria"), (sss, s3, "@faction_flag_nigeria"), (sss, s4, "@faction_color_nigeria"), (sss, s5, "@Nigerian"), (call_script, "script_add_faction", government_type_republic, faction_nigeria),
 
 
 # parameters that are dependant on starting date
