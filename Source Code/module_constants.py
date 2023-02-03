@@ -1,4 +1,4 @@
-number_of_factions = 274
+number_of_factions = 284
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -177,7 +177,7 @@ faction_hawaii          = 106
 faction_agadez          = 107
 faction_damagaram       = 108
 faction_adagh           = 109
-faction_bamana          = 110
+faction_mali            = 110
 faction_dendi           = 111
 faction_toubou          = 112
 faction_oualata         = 113
@@ -341,6 +341,16 @@ faction_comoros         = 270
 faction_mauritius       = 271
 faction_reunion         = 272
 faction_seychelles      = 273
+faction_kerguelen       = 274
+faction_belarus         = 275
+faction_czechoslovakia  = 276
+faction_hungary         = 277
+faction_slovakia        = 278
+faction_czechia         = 279
+faction_slovenia        = 280
+faction_croatia         = 281
+faction_bosnia          = 282
+faction_albania         = 283
 
 
 global_date_year                                                              = 0
