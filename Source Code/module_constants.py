@@ -1,4 +1,4 @@
-number_of_factions = 320
+number_of_factions = 328
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -387,6 +387,14 @@ faction_suriname        = 316
 faction_eastguiana      = 317
 faction_patagonia       = 318
 faction_falklands       = 319
+faction_car             = 320
+faction_congo           = 321
+faction_congobr         = 322
+faction_guinequ         = 323
+faction_angola          = 324
+faction_uganda          = 325
+faction_burundi         = 326
+faction_tanzania        = 327
 
 
 global_date_year                                                              = 0
