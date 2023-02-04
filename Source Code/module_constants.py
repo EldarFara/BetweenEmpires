@@ -1,4 +1,4 @@
-number_of_factions = 307
+number_of_factions = 320
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -374,6 +374,19 @@ faction_frca            = 303
 faction_filibuster      = 304
 faction_panama          = 305
 faction_chicom          = 306
+faction_senegal         = 307
+faction_gambia          = 308
+faction_guinea          = 309
+faction_guineabissau    = 310
+faction_sierraleone     = 311
+faction_ivorycoast      = 312
+faction_uppervolta      = 313
+faction_togo            = 314
+faction_guyana          = 315
+faction_suriname        = 316
+faction_eastguiana      = 317
+faction_patagonia       = 318
+faction_falklands       = 319
 
 
 global_date_year                                                              = 0
