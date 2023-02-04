@@ -1,4 +1,4 @@
-1541
+1545
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1540,3 +1540,7 @@ qstr_Panama Panama
 qstr_faction_flag_panama1 faction_flag_panama1
 qstr_faction_color_panama faction_color_panama
 qstr_Panamanian Panamanian
+qstr_Communist_China Communist_China
+qstr_CCP CCP
+qstr_faction_flag_chicom faction_flag_chicom
+qstr_faction_color_chicom faction_color_chicom

@@ -1,4 +1,4 @@
-number_of_factions = 306
+number_of_factions = 307
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -373,6 +373,7 @@ faction_yugoslavia      = 302
 faction_frca            = 303
 faction_filibuster      = 304
 faction_panama          = 305
+faction_chicom          = 306
 
 
 global_date_year                                                              = 0

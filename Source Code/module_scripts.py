@@ -2388,6 +2388,7 @@ scripts = [
 (sss, s1, "@Federal Republic of Central America"), (sss, s2, "@Central America"), (sss, s3, "@faction_flag_frca"), (sss, s4, "@faction_color_frca"), (sss, s5, "@Central American"), (call_script, "script_add_faction", government_type_republic, faction_frca),
 (sss, s1, "@Filibuster Nicaragua"), (sss, s2, "@Filibusters"), (sss, s3, "@faction_flag_filibuster"), (sss, s4, "@faction_color_filibuster"), (sss, s5, "@Central American"), (call_script, "script_add_faction", government_type_dictatorship, faction_filibuster),
 (sss, s1, "@Republic of Panama"), (sss, s2, "@Panama"), (sss, s3, "@faction_flag_panama1"), (sss, s4, "@faction_color_panama"), (sss, s5, "@Panamanian"), (call_script, "script_add_faction", government_type_republic, faction_panama),
+(sss, s1, "@Communist China"), (sss, s2, "@CCP"), (sss, s3, "@faction_flag_chicom"), (sss, s4, "@faction_color_chicom"), (sss, s5, "@Chinese"), (call_script, "script_add_faction", government_type_dictatorship, faction_chicom),
 
 
 
@@ -5284,6 +5285,7 @@ scripts = [
 # (array_set_val, "$provinces", faction_china, 624, province_core1),
 # (array_set_val, "$provinces", faction_shanxi, 624, province_core2),
 # (array_set_val, "$provinces", faction_china, 625, province_core1),
+# (array_set_val, "$provinces", faction_chicom, 625, province_core2),
 # (array_set_val, "$provinces", faction_zhili, 625, province_core2),
 # (array_set_val, "$provinces", faction_shanxi, 625, province_core3),
 # (array_set_val, "$provinces", faction_china, 626, province_core1),
@@ -5552,6 +5554,7 @@ scripts = [
 # (array_set_val, "$provinces", faction_china, 790, province_core1),
 # (array_set_val, "$provinces", faction_hui, 790, province_core2),
 # (array_set_val, "$provinces", faction_china, 791, province_core1),
+# (array_set_val, "$provinces", faction_chicom, 791, province_core2),
 # (array_set_val, "$provinces", faction_china, 792, province_core1),
 # (array_set_val, "$provinces", faction_china, 793, province_core1),
 # (array_set_val, "$provinces", faction_china, 794, province_core1),
