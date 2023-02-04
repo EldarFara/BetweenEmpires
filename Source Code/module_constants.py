@@ -1,4 +1,4 @@
-number_of_factions = 284
+number_of_factions = 301
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -351,6 +351,23 @@ faction_slovenia        = 280
 faction_croatia         = 281
 faction_bosnia          = 282
 faction_albania         = 283
+faction_uyghur          = 284
+faction_hui             = 285
+faction_tibet           = 286
+faction_yunnan          = 287
+faction_guangxi         = 288
+faction_shanxi          = 289
+faction_mengjiang       = 290
+faction_manchukuo       = 291
+faction_zhili           = 292
+faction_newcaledonia    = 293
+faction_samoa           = 294
+faction_cuba            = 295
+faction_jamaica         = 296
+faction_bahamas         = 297
+faction_antilles        = 298
+faction_tuva            = 299
+faction_puertorico      = 300
 
 
 global_date_year                                                              = 0

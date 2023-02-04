@@ -943,7 +943,7 @@ str_province904 Seychelles
 str_province905 East_New_Guinea
 str_province906 Solomon_Islands
 str_province907 Vanuatu
-str_province908 New_Caledionia
+str_province908 New_Caledonia
 str_province909 Fiji
 str_province910 Tonga
 str_province911 Samoa

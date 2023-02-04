@@ -968,7 +968,7 @@ strings = [
 ("province905","East New Guinea"),
 ("province906","Solomon Islands"),
 ("province907","Vanuatu"),
-("province908","New Caledionia"),
+("province908","New Caledonia"),
 ("province909","Fiji"),
 ("province910","Tonga"),
 ("province911","Samoa"),
