@@ -1,4 +1,4 @@
-number_of_factions = 328
+number_of_factions = 342
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -395,6 +395,20 @@ faction_angola          = 324
 faction_uganda          = 325
 faction_burundi         = 326
 faction_tanzania        = 327
+faction_mozambique      = 328
+faction_malawi          = 329
+faction_zambia          = 330
+faction_namibia         = 331
+faction_southafrica     = 332
+faction_rhodesia        = 333
+faction_zimbabwe        = 334
+faction_png             = 335
+faction_saotome         = 336
+faction_capeverde       = 337
+faction_canary          = 338
+faction_faroe           = 339
+faction_malta           = 340
+faction_maldives        = 341
 
 
 global_date_year                                                              = 0
