@@ -1,4 +1,4 @@
-number_of_factions = 301
+number_of_factions = 306
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -368,6 +368,11 @@ faction_bahamas         = 297
 faction_antilles        = 298
 faction_tuva            = 299
 faction_puertorico      = 300
+faction_belize          = 301
+faction_yugoslavia      = 302
+faction_frca            = 303
+faction_filibuster      = 304
+faction_panama          = 305
 
 
 global_date_year                                                              = 0
