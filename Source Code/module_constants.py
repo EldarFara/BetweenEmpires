@@ -1,4 +1,4 @@
-number_of_factions = 342
+number_of_factions = 343
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -409,6 +409,7 @@ faction_canary          = 338
 faction_faroe           = 339
 faction_malta           = 340
 faction_maldives        = 341
+faction_gabon           = 342
 
 
 global_date_year                                                              = 0
