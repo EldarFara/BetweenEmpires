@@ -1,4 +1,4 @@
-1719
+1724
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1718,3 +1718,8 @@ qstr_faction_flag_maldive faction_flag_maldives
 qstr_faction_color_maldiv faction_color_maldives
 qstr_Maldivian Maldivian
 qstr_GABON GABON
+qstr_Republic_of_Tanzania Republic_of_Tanzania
+qstr_faction_flag_tanzania faction_flag_tanzania2
+qstr_faction_flag_newcale faction_flag_newcaledonia
+qstr_faction_color_newcal faction_color_newcaledonia
+qstr_New_Caledonian New_Caledonian
