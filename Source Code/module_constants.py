@@ -1,4 +1,4 @@
-number_of_factions = 343
+number_of_factions = 347
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -410,6 +410,10 @@ faction_faroe           = 339
 faction_malta           = 340
 faction_maldives        = 341
 faction_gabon           = 342
+faction_kyrgyzstan      = 343
+faction_tajikistan      = 344
+faction_turkmenistan    = 345
+faction_uzbekistan      = 346
 
 
 global_date_year                                                              = 0
