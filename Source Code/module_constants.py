@@ -1,4 +1,4 @@
-number_of_factions = 347
+number_of_factions = 350
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -414,6 +414,9 @@ faction_kyrgyzstan      = 343
 faction_tajikistan      = 344
 faction_turkmenistan    = 345
 faction_uzbekistan      = 346
+faction_fyrom           = 347
+faction_dprk            = 348
+faction_rok             = 349
 
 
 global_date_year                                                              = 0
