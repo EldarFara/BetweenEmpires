@@ -2427,10 +2427,10 @@ scripts = [
 (sss, s1, "@State of Gabon"), (sss, s2, "@Gabon"), (sss, s3, "@faction_flag_gabon"), (sss, s4, "@faction_color_orungu"), (sss, s5, "@Gabonese"), (call_script, "script_add_faction", government_type_republic, faction_gabon),
 (sss, s1, "@Kyrgyz State"), (sss, s2, "@Kyrgyzstan"), (sss, s3, "@faction_flag_kyrgyzstan"), (sss, s4, "@faction_color_kyrgyzstan"), (sss, s5, "@Kyrgyz"), (call_script, "script_add_faction", government_type_republic, faction_kyrgyzstan),
 (sss, s1, "@State of Tajikistan"), (sss, s2, "@Tajikistan"), (sss, s3, "@faction_flag_tajikistan"), (sss, s4, "@faction_color_tajikistan"), (sss, s5, "@Tajik"), (call_script, "script_add_faction", government_type_republic, faction_tajikistan),
-(sss, s1, "@State of Turkmenistan"), (sss, s2, "@Turkmenistan"), (sss, s3, "@faction_flag_turkmenistan"), (sss, s4, "@faction_color_turkmenistan"), (sss, s5, "@Turkmen"), (call_script, "script_add_faction", government_type_republic, faction_turkmenistan),
+(sss, s1, "@State of Turkmenistan"), (sss, s2, "@Turkmenistan"), (sss, s3, "@faction_flag_turkmenistan"), (sss, s4, "@faction_color_turkmenistan"), (sss, s5, "@Turkmen"), (call_script, "script_add_faction", government_type_dictatorship, faction_turkmenistan),
 (sss, s1, "@State of Uzbekistan"), (sss, s2, "@Uzbekistan"), (sss, s3, "@faction_flag_uzbekistan"), (sss, s4, "@faction_color_uzbekistan"), (sss, s5, "@Uzbek"), (call_script, "script_add_faction", government_type_republic, faction_uzbekistan),
 (sss, s1, "@State of North Macedonia"), (sss, s2, "@North Macedonia"), (sss, s3, "@faction_flag_fyrom1"), (sss, s4, "@faction_color_fyrom"), (sss, s5, "@North Macedonian"), (call_script, "script_add_faction", government_type_republic, faction_fyrom),
-(sss, s1, "@Democratic Republic of Korea"), (sss, s2, "@North Korea"), (sss, s3, "@faction_flag_koreanorth"), (sss, s4, "@faction_color_koreanorth"), (sss, s5, "@North Korean"), (call_script, "script_add_faction", government_type_republic, faction_dprk),
+(sss, s1, "@Democratic Republic of Korea"), (sss, s2, "@North Korea"), (sss, s3, "@faction_flag_koreanorth"), (sss, s4, "@faction_color_koreanorth"), (sss, s5, "@North Korean"), (call_script, "script_add_faction", government_type_dictatorship, faction_dprk),
 (sss, s1, "@Republic of Korea"), (sss, s2, "@South Korea"), (sss, s3, "@faction_flag_koreasouth"), (sss, s4, "@faction_color_korea"), (sss, s5, "@South Korean"), (call_script, "script_add_faction", government_type_republic, faction_rok),
 
 
