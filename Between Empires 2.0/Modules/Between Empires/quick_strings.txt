@@ -1,4 +1,4 @@
-1768
+1773
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1767,3 +1767,8 @@ qstr_South_Korea South_Korea
 qstr_faction_flag_koreaso faction_flag_koreasouth
 qstr_faction_color_korea faction_color_korea
 qstr_South_Korean South_Korean
+qstr_Republic_of_Alaska Republic_of_Alaska
+qstr_Alaska Alaska
+qstr_faction_flag_alaska faction_flag_alaska
+qstr_faction_color_alaska faction_color_alaska
+qstr_Alaskan Alaskan
