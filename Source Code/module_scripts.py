@@ -4834,6 +4834,7 @@ scripts = [
 (array_set_val, "$provinces", faction_ottoman, 374, province_core1),
 (array_set_val, "$provinces", faction_ottoman, 375, province_core1),
 (array_set_val, "$provinces", faction_ottoman, 376, province_core1),
+(array_set_val, "$provinces", faction_armenia, 376, province_core2),
 (array_set_val, "$provinces", faction_syria, 377, province_core1),
 (array_set_val, "$provinces", faction_ottoman, 377, province_core2),
 (array_set_val, "$provinces", faction_arabia, 377, province_core3),
