@@ -1,4 +1,4 @@
-number_of_factions = 351
+number_of_factions = 352
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
