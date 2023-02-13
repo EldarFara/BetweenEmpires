@@ -463,6 +463,20 @@ terrain_tropical_forest_dense    = 19
 terrain_marshes                  = 20
 terrain_savanna                  = 21
 terrain_tropical_island          = 22
+terrain_tropical_plains          = 23
+terrain_tropical_hills           = 24
+terrain_tropical_mountains       = 25
+terrain_desert_american          = 26
+terrain_desert_american_hills    = 27
+terrain_desert_american_mount    = 28
+terrain_alpine_mountains         = 29
+terrain_subtropical_plains       = 30
+terrain_subtropical_forest       = 31
+terrain_subtropical_hills        = 32
+terrain_subtropical_mountains    = 33
+terrain_dry_plains               = 34
+
+
 
 province_control_type_core              = 0
 province_control_type_noncore           = 1

@@ -1,4 +1,4 @@
-1773
+1778
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1772,3 +1772,8 @@ qstr_Alaska Alaska
 qstr_faction_flag_alaska faction_flag_alaska
 qstr_faction_color_alaska faction_color_alaska
 qstr_Alaskan Alaskan
+qstr_Republic_of_Cyprus Republic_of_Cyprus
+qstr_Cyprus Cyprus
+qstr_faction_flag_cyprus faction_flag_cyprus
+qstr_faction_color_cyprus faction_color_cyprus
+qstr_Cypriot Cypriot

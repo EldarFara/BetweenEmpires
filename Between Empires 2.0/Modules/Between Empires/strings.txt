@@ -654,7 +654,7 @@ str_province615 Pattani
 str_province616 Peking
 str_province617 Chengde
 str_province618 Xilinhot
-str_province619 Cangzhou
+str_province619 Tianjin
 str_province620 Zhangjiakou
 str_province621 Hohhot
 str_province622 Dongying

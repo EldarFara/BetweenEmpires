@@ -679,7 +679,7 @@ strings = [
 ("province616", "Peking"),
 ("province617", "Chengde"),
 ("province618", "Xilinhot"),
-("province619", "Cangzhou"),
+("province619", "Tianjin"),
 ("province620", "Zhangjiakou"),
 ("province621", "Hohhot"),
 ("province622", "Dongying"),
