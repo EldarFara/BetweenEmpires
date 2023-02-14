@@ -475,6 +475,7 @@ terrain_subtropical_forest       = 31
 terrain_subtropical_hills        = 32
 terrain_subtropical_mountains    = 33
 terrain_dry_plains               = 34
+terrain_semidesert               = 35
 
 
 
