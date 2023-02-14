@@ -1424,7 +1424,7 @@ scripts = [
 (call_script, "script_add_province", 900, 62250, 13815, faction_merina, 899, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 43, terrain_tropical_forest),
 (call_script, "script_add_province", 901, 65972, 14644, faction_france, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 40, terrain_tropical_island),
 (call_script, "script_add_province", 902, 66680, 14979, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 45, 40, terrain_tropical_island),
-(call_script, "script_add_province", 903, 68442, 3478, faction_france, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 44, terrain_tundra),
+(call_script, "script_add_province", 903, 68442, 3478, faction_france, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 44, terrain_cold_island),
 (call_script, "script_add_province", 904, 66246, 21199, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 40, terrain_tropical_island),
 (call_script, "script_add_province", 905, 96879, 20357, faction_papua, 717, -1, -1, -1, -1, -1, -1, -1, -1, -1, 62, 56, terrain_tropical_forest_dense),
 (call_script, "script_add_province", 906, 102779, 19242, faction_bilua, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 62, terrain_tropical_island),
