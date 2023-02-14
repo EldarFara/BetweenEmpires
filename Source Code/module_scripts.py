@@ -1666,9 +1666,9 @@ scripts = [
 (call_script, "script_add_province", 1141, 24325, 4689, faction_tehuelche, 1140, 1139, 1142, 1143, -1, -1, -1, -1, -1, -1, -1, 82, terrain_plains),
 (call_script, "script_add_province", 1142, 25668, 3761, faction_tehuelche, 1139, 1141, 1143, -1, -1, -1, -1, -1, -1, -1, -1, 33, terrain_steppe),
 (call_script, "script_add_province", 1143, 25153, 2493, faction_tehuelche, 1141, 1142, 1144, -1, -1, -1, -1, -1, -1, -1, -1, 82, terrain_steppe_mountains),
-(call_script, "script_add_province", 1144, 26636, 1513, faction_selknam, 1143, 1146, -1, -1, -1, -1, -1, -1, -1, -1, -1, 33, terrain_taiga),
+(call_script, "script_add_province", 1144, 26636, 1513, faction_selknam, 1143, 1146, -1, -1, -1, -1, -1, -1, -1, -1, -1, 33, terrain_tundra),
 (call_script, "script_add_province", 1145, 29382, 2588, faction_britain, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 33, 34, terrain_tundra),
-(call_script, "script_add_province", 1146, 27608, 1482, faction_selknam, 1144, -1, -1, -1, -1, -1, -1, -1, -1, -1, 82, 33, terrain_taiga),
+(call_script, "script_add_province", 1146, 27608, 1482, faction_selknam, 1144, -1, -1, -1, -1, -1, -1, -1, -1, -1, 82, 33, terrain_tundra),
 
 (call_script, "script_add_province", 1147, 54255, 26667, faction_daralkuti, 867, 868, 1148, 1151, 1152, 783, -1, -1, -1, -1, -1, -1, terrain_plains),
 (call_script, "script_add_province", 1148, 53151, 25839, faction_daralkuti, 868, 878, 1149, 1150, 1155, 1151, 1147, -1, -1, -1, -1, -1, terrain_plains),
