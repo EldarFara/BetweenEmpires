@@ -477,6 +477,9 @@ terrain_subtropical_mountains    = 33
 terrain_dry_plains               = 34
 terrain_semidesert               = 35
 terrain_chaco                    = 36
+terrain_velds                    = 37
+terrain_island                   = 38
+terrain_cold_island              = 39
 
 
 
