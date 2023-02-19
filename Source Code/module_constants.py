@@ -3,7 +3,7 @@ number_of_provinces = 1298
 number_of_sea_provinces = 85
 
 number_of_global_parameters = 89
-number_of_factions_parameters = 9
+number_of_factions_parameters = 10
 number_of_factions_strings = 5
 number_of_provinces_parameters = 25
 number_of_provinces_strings = 1
@@ -23,6 +23,7 @@ faction_array_provinces_controlled                                            = 
 faction_is_active                                                             = 6
 faction_government_type                                                       = 7
 faction_capital                                                               = 8
+faction_array_provinces_core1                                                 = 9
 
 faction_string_name                                                           = 0
 faction_string_name_short                                                     = 1
