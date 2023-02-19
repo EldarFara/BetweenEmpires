@@ -772,7 +772,7 @@ strings = [
 ("province709", "East Borneo"),
 ("province710", "Bulungan"),
 ("province711", "Southwest Celebes"),
-("province712", "Southease Celebes"),
+("province712", "Southeast Celebes"),
 ("province713", "Central Celebes"),
 ("province714", "North Celebes"),
 ("province715", "South Moluccas"),

@@ -747,7 +747,7 @@ str_province708 Singkawang
 str_province709 East_Borneo
 str_province710 Bulungan
 str_province711 Southwest_Celebes
-str_province712 Southease_Celebes
+str_province712 Southeast_Celebes
 str_province713 Central_Celebes
 str_province714 North_Celebes
 str_province715 South_Moluccas

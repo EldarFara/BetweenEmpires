@@ -1,4 +1,4 @@
-number_of_factions = 352
+number_of_factions = 363
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -419,6 +419,17 @@ faction_dprk            = 348
 faction_rok             = 349
 faction_alaska          = 350
 faction_cyprus          = 351
+faction_siak            = 352
+faction_jambi           = 353
+faction_bulungan        = 354
+faction_sulawesi        = 355
+faction_toba            = 356
+faction_timor           = 357
+faction_eastindonesia   = 358
+faction_moluccas        = 359
+faction_pasundan        = 360
+faction_java            = 361
+faction_sumatra         = 362
 
 
 global_date_year                                                              = 0
