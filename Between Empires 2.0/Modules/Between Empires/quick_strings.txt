@@ -1,4 +1,4 @@
-1849
+1861
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1848,3 +1848,15 @@ qstr_Djibouti Djibouti
 qstr_faction_flag_djibout faction_flag_djibouti
 qstr_faction_color_djibou faction_color_djibouti
 qstr_Djiboutian Djiboutian
+qstr_Araucania Araucania
+qstr_faction_flag_araucan faction_flag_araucania
+qstr_faction_color_arauca faction_color_araucania
+qstr_Granadine_Confederat Granadine_Confederation
+qstr_Cauca Cauca
+qstr_faction_flag_cauca faction_flag_cauca
+qstr_faction_color_cauca faction_color_cauca
+qstr_Granadine Granadine
+qstr_Venezuelan_Federatio Venezuelan_Federation
+qstr_Federalists Federalists
+qstr_faction_flag_federal faction_flag_federalists
+qstr_faction_color_federa faction_color_federalists

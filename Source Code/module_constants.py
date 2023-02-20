@@ -1,4 +1,4 @@
-number_of_factions = 367
+number_of_factions = 370
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -435,7 +435,9 @@ faction_iceland         = 363
 faction_greenland       = 364
 faction_eritrea         = 365
 faction_djibouti        = 366
-
+faction_araucania       = 367
+faction_cauca           = 368
+faction_federalists     = 369
 
 global_date_year                                                              = 0
 global_date_day_of_year                                                       = 1
