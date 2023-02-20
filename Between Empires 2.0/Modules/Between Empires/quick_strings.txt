@@ -1,4 +1,4 @@
-1829
+1849
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1828,3 +1828,23 @@ qstr_Sumatra Sumatra
 qstr_faction_flag_sumatra faction_flag_sumatra
 qstr_faction_color_sumatr faction_color_sumatra
 qstr_Sumatran Sumatran
+qstr_State_of_Iceland State_of_Iceland
+qstr_Iceland Iceland
+qstr_faction_flag_iceland faction_flag_iceland
+qstr_faction_color_icelan faction_color_iceland
+qstr_Icelandic Icelandic
+qstr_State_of_Greenland State_of_Greenland
+qstr_Greenland Greenland
+qstr_faction_flag_greenla faction_flag_greenland
+qstr_faction_color_greenl faction_color_greenland
+qstr_Greenlander Greenlander
+qstr_State_of_Eritrea State_of_Eritrea
+qstr_Eritrea Eritrea
+qstr_faction_flag_eritrea faction_flag_eritrea
+qstr_faction_color_eritre faction_color_eritrea
+qstr_Eritrean Eritrean
+qstr_State_of_Djibouti State_of_Djibouti
+qstr_Djibouti Djibouti
+qstr_faction_flag_djibout faction_flag_djibouti
+qstr_faction_color_djibou faction_color_djibouti
+qstr_Djiboutian Djiboutian

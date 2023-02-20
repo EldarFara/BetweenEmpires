@@ -1,4 +1,4 @@
-number_of_factions = 363
+number_of_factions = 367
 number_of_provinces = 1298
 number_of_sea_provinces = 85
 
@@ -431,6 +431,10 @@ faction_moluccas        = 359
 faction_pasundan        = 360
 faction_java            = 361
 faction_sumatra         = 362
+faction_iceland         = 363
+faction_greenland       = 364
+faction_eritrea         = 365
+faction_djibouti        = 366
 
 
 global_date_year                                                              = 0
