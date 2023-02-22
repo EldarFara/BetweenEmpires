@@ -1,4 +1,4 @@
-1861
+1863
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1860,3 +1860,5 @@ qstr_Venezuelan_Federatio Venezuelan_Federation
 qstr_Federalists Federalists
 qstr_faction_flag_federal faction_flag_federalists
 qstr_faction_color_federa faction_color_federalists
+qstr_Second_Polish_Republ Second_Polish_Republic
+qstr_Poles Poles
