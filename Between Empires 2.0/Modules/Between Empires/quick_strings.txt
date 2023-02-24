@@ -1,4 +1,4 @@
-1868
+1869
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1867,3 +1867,4 @@ qstr_East_India_Company East_India_Company
 qstr_EIC EIC
 qstr_faction_flag_raj faction_flag_raj
 qstr_faction_color_raj faction_color_raj
+qstr_faction_flag_eic faction_flag_eic

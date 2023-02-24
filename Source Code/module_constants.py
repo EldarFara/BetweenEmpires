@@ -438,7 +438,7 @@ faction_djibouti        = 366
 faction_araucania       = 367
 faction_cauca           = 368
 faction_federalists     = 369
-faction_raj             = 370
+faction_eic             = 370
 
 global_date_year                                                              = 0
 global_date_day_of_year                                                       = 1
