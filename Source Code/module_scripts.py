@@ -4428,9 +4428,9 @@ scripts = [
     (array_set_val, "$factions", 1490000, faction_chile, faction_population),
     (array_set_val, "$factions", 13.7*10000, faction_chile, faction_literacy),
     (array_set_val, "$factions", 6.3*10000, faction_chile, faction_urbanization),
-    (array_set_val, "$factions", 2150000, faction_cape, faction_population),
-    (array_set_val, "$factions", 21.5*10000, faction_cape, faction_literacy),
-    (array_set_val, "$factions", 7.3*10000, faction_cape, faction_urbanization),
+    (array_set_val, "$factions", 2150000, faction_southafrica, faction_population),
+    (array_set_val, "$factions", 21.5*10000, faction_southafrica, faction_literacy),
+    (array_set_val, "$factions", 7.3*10000, faction_southafrica, faction_urbanization),
     (array_set_val, "$factions", 95000, faction_basotho, faction_population),
     (array_set_val, "$factions", 7.8*10000, faction_basotho, faction_literacy),
     (array_set_val, "$factions", 5.5*10000, faction_basotho, faction_urbanization),
@@ -4518,6 +4518,9 @@ scripts = [
     (array_set_val, "$factions", 6000, faction_greenland, faction_population),
     (array_set_val, "$factions", 79.8*10000, faction_greenland, faction_literacy),
     (array_set_val, "$factions", 48*10000, faction_greenland, faction_urbanization),
+    (array_set_val, "$factions", 1320000, faction_zimbabwe, faction_population),
+    (array_set_val, "$factions", 1.1*10000, faction_zimbabwe, faction_literacy),
+    (array_set_val, "$factions", 1.8*10000, faction_zimbabwe, faction_urbanization),
 
 
     (else_try),
