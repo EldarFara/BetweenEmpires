@@ -213,7 +213,7 @@ str_province174 Volhynia
 str_province175 Zhytomyr
 str_province176 Kyiv
 str_province177 Cherkassy
-str_province178 Kirovohrad
+str_province178 Elysavet
 str_province179 Mykolaiv
 str_province180 Kherson
 str_province181 Zaporizhzhia
@@ -295,7 +295,7 @@ str_province256 East_Karelia
 str_province257 Kola
 str_province258 Severodvinsk
 str_province259 Arkhangelsk
-str_province260 Kirov
+str_province260 Vyatka
 str_province261 Tatarstan
 str_province262 Samara
 str_province263 Orenburg
