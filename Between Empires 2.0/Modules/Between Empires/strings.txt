@@ -544,8 +544,8 @@ str_province505 Xing'an
 str_province506 Hailar
 str_province507 North_Heihe
 str_province508 South_Heihe
-str_province509 Hinggan
-str_province510 Tongliao
+str_province509 Chahar
+str_province510 Liaoning
 str_province511 Qiqihar
 str_province512 Mudanjang
 str_province513 Hegang
@@ -762,7 +762,7 @@ str_province723 Dulan
 str_province724 Golmud
 str_province725 Da_Qaidam
 str_province726 Magnai
-str_province727 South_Golmud
+str_province727 West_Golmud
 str_province728 Zadoi
 str_province729 Nangqen
 str_province730 Zogang
@@ -829,10 +829,10 @@ str_province790 Lanzhou
 str_province791 Yinchuan
 str_province792 Anshun
 str_province793 Chengdu
-str_province794 Longnan
+str_province794 Yan'an
 str_province795 Nanning
 str_province796 Liuzhou
-str_province797 Longnan
+str_province797 Shanxi
 str_province798 Hainan
 str_province799 Xi'An
 str_province800 Dazhou
@@ -884,7 +884,7 @@ str_province845 Benishangul-Gumuz
 str_province846 Addis_Ababa
 str_province847 Awasa
 str_province848 Oromiya
-str_province849 West_Somalia
+str_province849 Ogaden
 str_province850 Somaliland
 str_province851 North_Somalia
 str_province852 South_Somalia
@@ -1210,7 +1210,7 @@ str_province1171 Kongo-Central
 str_province1172 Mpumbu
 str_province1173 Kinshasa
 str_province1174 Mai-Ndombe
-str_province1175 Mbandaka
+str_province1175 Coquilhatville
 str_province1176 Mongala
 str_province1177 Tshuapa
 str_province1178 Tshopo
