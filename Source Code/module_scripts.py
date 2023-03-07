@@ -5539,7 +5539,6 @@ scripts = [
     (array_set_val, "$factions", 4428000, faction_sudan, faction_population),
     (array_set_val, "$factions", 4*10000, faction_sudan, faction_literacy),
     (array_set_val, "$factions", 2.5*10000, faction_sudan, faction_urbanization),
-
     (array_set_val, "$factions", 33300000, faction_japan, faction_population),
     (array_set_val, "$factions", 45.9*10000, faction_japan, faction_literacy),
     (array_set_val, "$factions", 12.9*10000, faction_japan, faction_urbanization),
@@ -5639,7 +5638,6 @@ scripts = [
     (array_set_val, "$factions", 1520000, faction_venezuela, faction_population),
     (array_set_val, "$factions", 13.8*10000, faction_venezuela, faction_literacy),
     (array_set_val, "$factions", 14.2*10000, faction_venezuela, faction_urbanization),
-
     (array_set_val, "$factions", 931000, faction_senegal, faction_population),
     (array_set_val, "$factions", 1.2*10000, faction_senegal, faction_literacy),
     (array_set_val, "$factions", 1.3*10000, faction_senegal, faction_urbanization),
