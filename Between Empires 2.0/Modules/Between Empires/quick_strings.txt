@@ -1,4 +1,4 @@
-1870
+1871
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -1869,3 +1869,4 @@ qstr_faction_flag_raj faction_flag_raj
 qstr_faction_color_raj faction_color_raj
 qstr_faction_flag_eic faction_flag_eic
 qstr_faction_flag_finland1 faction_flag_finland
+qstr_Kingdom_of_Iceland Kingdom_of_Iceland
