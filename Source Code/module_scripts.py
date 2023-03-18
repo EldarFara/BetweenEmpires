@@ -2812,6 +2812,7 @@ scripts = [
     (array_set_val, "$provinces", faction_usa, 1292, province_owner),
     (else_try),
     (eq, ":start_date", 1919),
+    (sss, s1, "@Second French Empire"), (sss, s2, "@France"), (sss, s3, "@faction_flag_france"), (sss, s4, "@faction_color_france"), (sss, s5, "@French"), (call_script, "script_add_faction", government_type_absolute_monarchy, faction_france),
     (array_set_val, "$provinces", faction_ireland, 38, province_owner),
     (array_set_val, "$provinces", faction_ireland, 39, province_owner),
     (array_set_val, "$provinces", faction_ireland, 40, province_owner),    
