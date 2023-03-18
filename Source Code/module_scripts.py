@@ -9707,7 +9707,7 @@ scripts = [
 (array_set_val, "$provinces", faction_plc, 199, province_core2),
 (array_set_val, "$provinces", faction_belarus, 200, province_core1),
 (array_set_val, "$provinces", faction_plc, 200, province_core2),
-(array_set_val, "$provinces", faction_belarus, 200, province_core1),
+(array_set_val, "$provinces", faction_belarus, 201, province_core1),
 (array_set_val, "$provinces", faction_plc, 201, province_core2),
 (array_set_val, "$provinces", faction_poland, 202, province_core1),
 (array_set_val, "$provinces", faction_lithuania, 202, province_core2),
