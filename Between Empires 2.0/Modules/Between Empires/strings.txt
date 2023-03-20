@@ -1292,7 +1292,7 @@ str_province1253 Kavango
 str_province1254 Ngamiland
 str_province1255 Serowe
 str_province1256 Limpopo
-str_province1257 Maputo
+str_province1257 Lourenco_Marques
 str_province1258 Inhambane
 str_province1259 Kwa-Zulu
 str_province1260 Eswatini

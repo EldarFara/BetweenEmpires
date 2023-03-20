@@ -1317,7 +1317,7 @@ strings = [
 ("province1254","Ngamiland"),
 ("province1255","Serowe"),
 ("province1256","Limpopo"),
-("province1257","Maputo"),
+("province1257","Lourenco Marques"),
 ("province1258","Inhambane"),
 ("province1259","Kwa-Zulu"),
 ("province1260","Eswatini"),
