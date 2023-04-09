@@ -1,5 +1,5 @@
 scene_propsfile version 1
- 1326
+ 1327
 spr_invalid_object 0 0 invisible 0 0
 
 
@@ -86,6 +86,9 @@ spr_ai_limiter_16m 16392 0 invisible 0 0
 
 
 spr_world_map_base 0 0 world_map_base bo_world_map_base 0
+
+
+spr_railroad_map_prop 0 0 railroad_map_prop 0 0
 
 
 spr_province0 0 0 province0 0 0

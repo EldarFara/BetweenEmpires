@@ -1,4 +1,4 @@
-2068
+2069
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -2067,3 +2067,4 @@ qstr_faction_flag_johorla faction_flag_johorlate
 qstr_faction_flag_poland2 faction_flag_poland2
 qstr_United_States_of_New United_States_of_New_Granada
 qstr_faction_flag_colombia1 faction_flag_colombia1861
+qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}_{reg3}

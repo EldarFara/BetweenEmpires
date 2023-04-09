@@ -144,6 +144,7 @@ scene_props = [
 	# #######################################################################
     
 ("world_map_base",0,"world_map_base","bo_world_map_base",[]),
+("railroad_map_prop",0,"railroad_map_prop","0",[]),
 
 ("province0",0,"province0","0",[]),
 ("province1",0,"province1","0",[]),

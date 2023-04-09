@@ -4484,6 +4484,7 @@ scripts = [
 (call_script, "script_initialize_capitals"),
 (call_script, "script_initialize_provinces_initparam_multipliers"),
 (call_script, "script_initialize_start_date", ":start_date"),
+(call_script, "script_initialize_railroads", ":start_date"),
 
     (try_for_range, ":province", 0, number_of_provinces),
     (array_get_val, ":owner", "$provinces", ":province", province_owner),
@@ -8676,12 +8677,15 @@ scripts = [
 # Called whenever world map scene starts: after new game start, after loading there after battle ended and after loading a save file.
 # Script adds props to the scene, sets up camera and runs the UI.
 ("world_map_start", [
+(set_fixed_point_multiplier, 100),
 # Spawning world map base prop and province props
 (init_position, pos1),
+(init_position, pos2),
 (set_spawn_position, pos1),
 (spawn_scene_prop, "spr_world_map_base"),
 (assign, "$prop_world_map_base", reg0),
 
+# Spawn province props
 (position_move_z, pos1, 10, 1),
 (set_spawn_position, pos1),
     (try_for_range, ":province", 0, number_of_provinces),
@@ -8694,6 +8698,26 @@ scripts = [
         (array_get_val, s1, "$factions_strings", ":faction", faction_string_color),
         (try_end),
     (prop_instance_set_material, reg0, -1, s1),
+    (try_end),
+
+# Spawn railroad props
+    (try_for_range, ":province1", 0, number_of_provinces),
+    (array_get_val, ":railroad1", "$provinces", ":province1", province_railroad),
+    (neq, ":railroad1", -1),
+        (try_for_range, ":province2", 0, number_of_provinces),
+        (neq, ":railroad1", ":province2"),
+        (array_eq, "$provinces", ":railroad1", ":province2", province_railroad),
+        (call_script, "script_if_two_provinces_border_each_order", ":province1", ":province2"),
+        (call_script, "script_store_province_position_to_pos", ":province1", pos1),
+        (call_script, "script_store_province_position_to_pos", ":province2", pos2),
+        (position_get_vector_to_position, ":distance", pos3, pos1, pos2),
+        (position_move_z, pos3, 20, 1),
+        (val_div, ":distance", 2),
+        (position_set_scale_y, pos3, ":distance"),
+        (set_spawn_position, pos3),
+        (spawn_scene_prop, "spr_railroad_map_prop"),
+        (display_message, "@1"),
+        (try_end),
     (try_end),
 
 # Setting up camera
@@ -8744,15 +8768,16 @@ scripts = [
     (position_get_x, reg0, pos1),
     (position_get_y, reg1, pos1),
     (display_message, "@{reg0}, {reg1}"),
-                    (try_for_range, ":province", 0, number_of_provinces),
-                    (array_get_val, ":prop", "$provinces", ":province", province_prop1),
-                    (array_get_val, ":faction", "$provinces", ":province", province_core1),
-                        (try_begin),
-                        (neq, ":faction", -1),
-                        (array_get_val, s1, "$factions_strings", ":faction", faction_string_color),
-                        (try_end),
-                    (prop_instance_set_material, ":prop", -1, s1),
-                    (try_end),
+                    # (call_script, "script_test1"),
+                    # (try_for_range, ":province", 0, number_of_provinces),
+                    # (array_get_val, ":prop", "$provinces", ":province", province_prop1),
+                    # (array_get_val, ":faction", "$provinces", ":province", province_core1),
+                        # (try_begin),
+                        # (neq, ":faction", -1),
+                        # (array_get_val, s1, "$factions_strings", ":faction", faction_string_color),
+                        # (try_end),
+                    # (prop_instance_set_material, ":prop", -1, s1),
+                    # (try_end),
                     # (try_for_range, ":province", 0, number_of_provinces),
                     # (array_get_val, ":cost", "$provinces_to_provinces", 29, ":province", province_to_province_transportation_cost),
                     # (call_script, "script_set_province_color_redtogreen", ":province", 7400, ":cost", 0, -1),
@@ -13408,14 +13433,14 @@ scripts = [
             (assign, ":railroad_connection_level", 7),
             # both provinces share same railroad
             (else_try),
-                (try_for_range, ":index_railroads_province1", 1, ":size_railroads_province1"),
+                (try_for_range, ":index_railroads_province1", 0, ":size_railroads_province1"),
                     (try_begin),
                     (neq, ":railroad_connection_level", 0),
                     (break_loop),
-                (array_get_val, ":railroad1", "$railroads", ":index_railroads_province1"),
+                (array_get_val, ":railroad1", ":railroads_province1", ":index_railroads_province1"),
                     (try_end),
-                    (try_for_range, ":index_railroads_province2", 1, ":size_railroads_province2"),
-                    (array_get_val, ":railroad2", "$railroads", ":index_railroads_province1"),
+                    (try_for_range, ":index_railroads_province2", 0, ":size_railroads_province2"),
+                    (array_get_val, ":railroad2", ":railroads_province2", ":index_railroads_province1"),
                     (eq, ":railroad1", ":railroad2"),
                     # both provinces share same railroad near them
                     (assign, ":railroad_connection_level", 5),
@@ -13485,20 +13510,45 @@ scripts = [
 (assign, reg0, ":railroads"),
 ]),
 
-# ("test1", [
-    # (try_for_range, ":index", 0, 100000),
-    # (array_create, ":array", 0, 0),
-    # (array_push, ":array", 1),
-    # (array_push, ":array", 1),
-    # (array_push, ":array", 1),
-    # (array_free, ":array"),
-    # (try_end),
-# ]),
+# Adds railroads to the map
+("initialize_railroads", [
+(store_script_param, ":start_date", 1),
+(array_create, ":railroad", 0, 0),
+(array_push, "$railroads", ":railroad"),
+(call_script, "script_add_railroad_to_province", ":railroad", 0, 5),
+(call_script, "script_add_railroad_to_province", ":railroad", 0, 12),
+(call_script, "script_add_railroad_to_province", ":railroad", 0, 18),
+]),
 
+# Adds province to the railroad
+("add_railroad_to_province", [
+(store_script_param, ":railroad_array", 1),
+(store_script_param, ":railroad_index", 2),
+(store_script_param, ":province", 3),
 
+(array_set_val, "$provinces", ":railroad_index", ":province", province_railroad),
+(array_push, ":railroad_array", ":province"),
+]),
 
+# Returns true if two provinces given are bordering each other
+("if_two_provinces_border_each_order", [
+(store_script_param, ":province1", 1),
+(store_script_param, ":province2", 2),
 
-
+(assign, ":border", 0),
+    (try_for_range, ":index", 0, number_of_provinces_borders),
+        (try_begin),
+        (array_eq, "$provinces_borders", -1, ":province1", ":index"),
+        (break_loop),
+        (try_end),
+        (try_begin),
+        (array_eq, "$provinces_borders", ":province2", ":province1", ":index"),
+        (assign, ":border", 1),
+        (break_loop),
+        (try_end),
+    (try_end),
+(eq, ":border", 1),
+]),
 
 
 

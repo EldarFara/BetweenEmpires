@@ -107,3 +107,6 @@ script_initialize_distance_between_provinces = 105
 script_initialize_provinces_distance_to_closest_coastal_province = 106
 script_calculate_province_transportation_cost = 107
 script_get_province_railroads = 108
+script_initialize_railroads = 109
+script_add_railroad_to_province = 110
+script_if_two_provinces_border_each_order = 111
