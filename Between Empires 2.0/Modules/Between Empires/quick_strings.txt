@@ -1,4 +1,4 @@
-2073
+2105
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -2072,3 +2072,35 @@ qstr_<{s1}> <{s1}>
 qstr_<fullname>{s2}</full <fullname>{s2}</fullname>
 qstr_<flag>{s3}</flag> <flag>{s3}</flag>
 qstr_</{s1}> </{s1}>
+qstr_Papal_States Papal_States
+qstr_Shogunate Shogunate
+qstr_faction_flag_seychell faction_flag_seychelles1
+qstr_faction_flag_uppervol faction_flag_uppervolta1
+qstr_faction_flag_togo1 faction_flag_togo1
+qstr_faction_flag_falkland faction_flag_falklands1
+qstr_faction_flag_burundi1 faction_flag_burundi1
+qstr_FACTIONS_COLORS FACTIONS_COLORS
+qstr_PROVINCES_GENERAL PROVINCES_GENERAL
+qstr_<{reg1}> <{reg1}>
+qstr___<name>{s1}</name> __<name>{s1}</name>
+qstr___<core>{s1}</core> __<core>{s1}</core>
+qstr___<borderingprovince __<borderingprovince>{reg2}</borderingprovince>
+qstr_cereals cereals
+qstr_iron iron
+qstr_coal coal
+qstr_wood wood
+qstr_cotton cotton
+qstr_rubber rubber
+qstr_oil oil
+qstr_opium opium
+qstr_tea tea
+qstr_coffee coffee
+qstr_tobacco tobacco
+qstr_sulphur sulphur
+qstr___<{s3}>{reg6}</{s3} __<{s3}>{reg6}</{s3}>
+qstr___<borderingseaprovi __<borderingseaprovince>{reg3}</borderingseaprovince>
+qstr___<colonizable>yes</ __<colonizable>yes</colonizable>
+qstr_</{reg1}> </{reg1}>
+qstr_PROVINCES_START_DATE PROVINCES_START_DATE_SPECIFIC
+qstr_FACTIONS_GENERAL FACTIONS_GENERAL
+qstr_FACTIONS_START_DATE_ FACTIONS_START_DATE_SPECIFIC
