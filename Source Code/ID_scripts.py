@@ -110,3 +110,4 @@ script_get_province_railroads = 108
 script_initialize_railroads = 109
 script_add_railroad_to_province = 110
 script_if_two_provinces_border_each_order = 111
+script_export_factions_to_xml_text = 112

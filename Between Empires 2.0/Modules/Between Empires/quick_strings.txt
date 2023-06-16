@@ -1,4 +1,4 @@
-2069
+2073
 qstr_French_Second_Republ French_Second_Republic
 qstr_France France
 qstr_faction_flag_france faction_flag_france
@@ -2068,3 +2068,7 @@ qstr_faction_flag_poland2 faction_flag_poland2
 qstr_United_States_of_New United_States_of_New_Granada
 qstr_faction_flag_colombia1 faction_flag_colombia1861
 qstr_{reg0}_{reg1}_{reg2} {reg0}_{reg1}_{reg2}_{reg3}
+qstr_<{s1}> <{s1}>
+qstr_<fullname>{s2}</full <fullname>{s2}</fullname>
+qstr_<flag>{s3}</flag> <flag>{s3}</flag>
+qstr_</{s1}> </{s1}>
